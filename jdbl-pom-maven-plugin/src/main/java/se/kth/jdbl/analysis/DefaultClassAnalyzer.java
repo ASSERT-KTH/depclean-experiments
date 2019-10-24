@@ -1,4 +1,4 @@
-package se.kth.jdbl.analysis.asm;
+package se.kth.jdbl.analysis;
 
 /*
  * Licensed to the Apache Software Foundation (ASF) under one
@@ -20,37 +20,32 @@ package se.kth.jdbl.analysis.asm;
  */
 
 import org.codehaus.plexus.component.annotations.Component;
-import se.kth.jdbl.analysis.ClassFileVisitorUtils;
-import se.kth.jdbl.analysis.DependencyAnalyzer;
-import se.kth.jdbl.count.ClassMembersVisitorCounter;
 
 import java.io.IOException;
 import java.net.URL;
 import java.util.Set;
+import java.util.zip.ZipException;
 
-/**
- * ASMDependencyAnalyzer
- *
- * @author <a href="mailto:markhobson@gmail.com">Mark Hobson</a>
- * @version $Id$
- */
-@Component(role = DependencyAnalyzer.class)
-public class ASMDependencyAnalyzer
-        implements DependencyAnalyzer {
-    // DependencyAnalyzer methods ---------------------------------------------
+@Component(role = ClassAnalyzer.class)
+public class DefaultClassAnalyzer
+        implements ClassAnalyzer {
+    // ClassAnalyzer methods --------------------------------------------------
 
-    /*
-     * @see org.apache.invoke.shared.dependency.analyzer.DependencyAnalyzer#analyze(java.net.URL)
-     */
     public Set<String> analyze(URL url)
             throws IOException {
+        CollectorClassFileVisitor visitor = new CollectorClassFileVisitor();
 
-        ClassMembersVisitorCounter.resetClassCounters();
+        try {
+            ClassFileVisitorUtils.accept(url, visitor);
+        } catch (ZipException e) {
+            // since the current ZipException gives no indication what jar file is corrupted
+            // we prefer to wrap another ZipException for better error visibility
+            ZipException ze =
+                    new ZipException("Cannot process Jar entry on URL: " + url + " due to " + e.getMessage());
+            ze.initCause(e);
+            throw ze;
+        }
 
-        DependencyClassFileVisitor visitor = new DependencyClassFileVisitor();
-
-        ClassFileVisitorUtils.accept(url, visitor);
-
-        return visitor.getDependencies();
+        return visitor.getClasses();
     }
 }

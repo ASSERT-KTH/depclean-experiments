@@ -28,12 +28,6 @@ import java.io.IOException;
 import java.net.URL;
 import java.util.Set;
 
-/**
- * ASMDependencyAnalyzer
- *
- * @author <a href="mailto:markhobson@gmail.com">Mark Hobson</a>
- * @version $Id$
- */
 @Component(role = DependencyAnalyzer.class)
 public class ASMDependencyAnalyzer
         implements DependencyAnalyzer {
@@ -42,8 +36,7 @@ public class ASMDependencyAnalyzer
     /*
      * @see org.apache.invoke.shared.dependency.analyzer.DependencyAnalyzer#analyze(java.net.URL)
      */
-    public Set<String> analyze(URL url)
-            throws IOException {
+    public Set<String> analyze(URL url) throws IOException {
 
         ClassMembersVisitorCounter.resetClassCounters();
 

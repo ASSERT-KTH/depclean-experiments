@@ -27,9 +27,6 @@ import se.kth.jdbl.count.ClassMembersVisitorCounter;
 /**
  * Computes the set of classes referenced by visited code.
  * Inspired by <code>org.objectweb.asm.depend.DependencyVisitor</code> in the ASM dependencies example.
- *
- * @author <a href="mailto:markhobson@gmail.com">Mark Hobson</a>
- * @version $Id$
  */
 public class DefaultClassVisitor
         extends ClassVisitor {
@@ -44,7 +41,6 @@ public class DefaultClassVisitor
     private final FieldVisitor fieldVisitor;
 
     private final MethodVisitor methodVisitor;
-
 
     // constructors -----------------------------------------------------------
 
@@ -72,12 +68,20 @@ public class DefaultClassVisitor
         }
     }
 
+    public void visitNestHost(final String nestHost) {
+        resultCollector.addName(nestHost);
+    }
+
     public AnnotationVisitor visitAnnotation(final String desc, final boolean visible) {
 //        System.out.println("\t" + "visiting annotation: " +  desc);
         ClassMembersVisitorCounter.addVisitedAnnotation();
         resultCollector.addDesc(desc);
 
         return annotationVisitor;
+    }
+
+    public void visitNestMember(final String nestMember) {
+        resultCollector.addName(nestMember);
     }
 
     public FieldVisitor visitField(final int access, final String name, final String desc, final String signature,
@@ -112,25 +116,17 @@ public class DefaultClassVisitor
         return methodVisitor;
     }
 
-    public void visitNestHost(final String nestHost) {
-        resultCollector.addName(nestHost);
-    }
-
-    public void visitNestMember(final String nestMember) {
-        resultCollector.addName(nestMember);
-    }
-
     // private methods --------------------------------------------------------
-
-    private void addSignature(final String signature) {
-        if (signature != null) {
-            new SignatureReader(signature).accept(signatureVisitor);
-        }
-    }
 
     private void addTypeSignature(final String signature) {
         if (signature != null) {
             new SignatureReader(signature).acceptType(signatureVisitor);
+        }
+    }
+
+    private void addSignature(final String signature) {
+        if (signature != null) {
+            new SignatureReader(signature).accept(signatureVisitor);
         }
     }
 
