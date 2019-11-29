@@ -1,4 +1,4 @@
-# List of accepted pull requests using `depclean`
+# List of accepted pull requests using Depclean
 
 | Project   |      PR      | #Removed deps |
 |----------|:-------------:| :-------------:| 

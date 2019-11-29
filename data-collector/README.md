@@ -56,9 +56,6 @@ Once the application is built, execute it locally using the following command:
 java -jar depclean-experiments-0.1.0-SNAPSHOT-jar-with-dependencies.jar -help
 ```
 
-# License
-
-Distributed under the MIT License. See [LICENSE](https://github.com/castor-software/royal-debloat/blob/master/LICENSE) for more information.
 
 
 
