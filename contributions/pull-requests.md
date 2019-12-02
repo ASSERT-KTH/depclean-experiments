@@ -26,7 +26,7 @@
 | [moshi](https://github.com/square/moshi) | [#1034](https://github.com/square/moshi/pull/1034) | 3 |
 | [auto](https://github.com/google) | [#789](https://github.com/google/auto/pull/789) | 2 |
 
-### In Process
+### Waiting
 
 | Project   |      PR      | #Removed deps | 
 |----------|:-------------:| :-------------:| 
@@ -41,6 +41,13 @@
 | [couchdb-lucene](https://github.com/rnewson/couchdb-lucene) | [#279](https://github.com/rnewson/couchdb-lucene/pull/279) | 3 |
 | [orika](https://github.com/orika-mapper/orika) | [#328](https://github.com/orika-mapper/orika/pull/328) | 3 |
 | [handlebars.java](https://github.com/jknack/handlebars.java) | [#719](https://github.com/jknack/handlebars.java/pull/719) | 1 |
+| [easyexcel](https://github.com/alibaba/easyexcel) | [#930](https://github.com/alibaba/easyexcel/pull/930) | 1 |
+| [flink](https://github.com/apache/flink) | [#10386](https://github.com/apache/flink/pull/10386) | 1 |
+
+
+
+
+
 
 
 

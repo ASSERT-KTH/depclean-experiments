@@ -1,10 +1,10 @@
 # Data collector
 
-### What is this?
+### What is data-collector?
 
 Given a list of coordinates (GAVs) of Maven artifacts, `depclean-experiments` allows to download their `.pom` and  `.jar` files from the Maven Central repository and resolve all their dependencies to a customized local repository in order to collect information about bloated dependencies, i.e. dependencies that are in the classpath of the project but are not used.
 
-### How it works?
+### How does it works?
 
 `depclean-experiments` relies on the `maven-dependency` set of tools and plugins to resolve dependencies and validate the project. It extends the `maven-dependency-analyzer` plugin in order to analyze dependency usages at the bytecode level. By doing this, it takes into account both direct and transitive dependencies, as well as projects that belong to multi-module project. 
 
