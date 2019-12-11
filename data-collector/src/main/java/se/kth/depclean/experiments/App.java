@@ -26,7 +26,6 @@ import se.kth.depclean.experiments.util.MavenDependencyBuilder;
 import se.kth.depclean.experiments.util.MavenPluginInvoker;
 import se.kth.depclean.experiments.util.PomDownloader;
 import se.kth.depclean.experiments.util.PomManipulator;
-import se.kth.jdbl.util.*;
 
 import java.io.*;
 import java.math.BigInteger;

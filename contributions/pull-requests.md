@@ -9,6 +9,7 @@
 | [neo4j](https://github.com/neo4j/neo4j) | [#12339](https://github.com/neo4j/neo4j/pull/12339) | 3 |
 | [async-http-client](https://github.com/AsyncHttpClient/async-http-client) | [#1675](https://github.com/AsyncHttpClient/async-http-client/pull/1675) | 8 |
 | [error-prone](https://github.com/google/error-prone) | [#1409](https://github.com/google/error-prone/pull/1409) | 1 |
+| [alluxio](https://github.com/Alluxio/alluxio) | [#10567](https://github.com/Alluxio/alluxio/pull/10567) | 1 |
 | [javaparser](https://github.com/javaparser/javaparser) | [#2403](https://github.com/javaparser/javaparser/pull/2403)  | 9 |
 | [undertow](https://github.com/undertow-io/undertow) | [#824](https://github.com/undertow-io/undertow/pull/824)  | 23 |
 | [jooby](https://github.com/jooby-project/jooby) | [#1412](https://github.com/jooby-project/jooby/pull/1412) | 1 |
@@ -26,6 +27,7 @@
 |----------|:-------------:| :-------------:| 
 | [moshi](https://github.com/square/moshi) | [#1034](https://github.com/square/moshi/pull/1034) | 3 |
 | [auto](https://github.com/google) | [#789](https://github.com/google/auto/pull/789) | 2 |
+| [checkstyle](https://github.com/checkstyle/checkstyle) | [#7307](https://github.com/checkstyle/checkstyle/issues/7307) | 1 |
 
 ### Waiting
 
@@ -43,11 +45,6 @@
 | [orika](https://github.com/orika-mapper/orika) | [#328](https://github.com/orika-mapper/orika/pull/328) | 3 |
 | [handlebars.java](https://github.com/jknack/handlebars.java) | [#719](https://github.com/jknack/handlebars.java/pull/719) | 1 |
 | [easyexcel](https://github.com/alibaba/easyexcel) | [#930](https://github.com/alibaba/easyexcel/pull/930) | 1 |
-| [flink](https://github.com/apache/flink) | [#10386](https://github.com/apache/flink/pull/10386) | 1 |
-| [alluxio](https://github.com/Alluxio/alluxio) | [#10567](https://github.com/Alluxio/alluxio/pull/10567) | 1 |
-| [checkstyle](https://github.com/checkstyle/checkstyle) | [#7307](https://github.com/checkstyle/checkstyle/issues/7307) | 1 |
-
-
 
 
 <!-- https://issues.apache.org/jira/browse/STORM-3550 >
