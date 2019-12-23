@@ -1,5 +1,7 @@
 ## List of pull requests submitted using DepClean 
 
+:+1:: Accepted PR, :-1:: Rejected PR, :hand:: Waiting for answer
+
 | Project   |   Pull-request URL    | #Removed Direct | #Removed Transitive | Total | Pull-request status |
 |:----------|:-------------:| :-------------:| :-------------:| :-------------:|  :-------------:|
 | [jenkins [core]](https://github.com/jenkinsci/jenkins) | [#4378](https://github.com/jenkinsci/jenkins/pull/4378) | 1 | 0 | 1 | :-1: |
