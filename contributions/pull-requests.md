@@ -1,9 +1,7 @@
-## List of pull requests submitted based on the analysis of dependencies using DepClean 
+## List of pull requests submitted using DepClean 
 
-### Projects
-
-| Project   |   Pull-request URL    | #Removed Direct | #Removed transitive | Total | PR status |
-|----------|:-------------:| :-------------:| :-------------:| :-------------:|  :-------------:|
+| Project   |   Pull-request URL    | #Removed Direct | #Removed Transitive | Total | Pull-request status |
+|:----------|:-------------:| :-------------:| :-------------:| :-------------:|  :-------------:|
 | [jenkins [core]](https://github.com/jenkinsci/jenkins) | [#4378](https://github.com/jenkinsci/jenkins/pull/4378) | 1 | 0 | 1 | :-1: |
 | [jenkins [cli]](https://github.com/jenkinsci/jenkins) | [#4378](https://github.com/jenkinsci/jenkins/pull/4378) | 1 | 1 | 2 | :+1: |
 | [mybatis-3 [mybatis]](https://github.com/mybatis/mybatis-3) | [#1735](https://github.com/mybatis/mybatis-3/pull/1735) | 2 | 2 | 4 | :+1: |
@@ -16,7 +14,7 @@
 | [async-http-client [http-client]](https://github.com/AsyncHttpClient/async-http-client) | [#1675](https://github.com/AsyncHttpClient/async-http-client/pull/1675) | 1 | 11 | 12 | :+1: |
 | [error-prone [core]](https://github.com/google/error-prone) | [#1409](https://github.com/google/error-prone/pull/1409) | 1 | 0 | 1 | :+1: |
 | [alluxio [core-transport]](https://github.com/Alluxio/alluxio) | [#10567](https://github.com/Alluxio/alluxio/pull/10567) | 1 | 10 | 11 | :hand: |
-| [javaparser [symbol-solver-logic]](https://github.com/javaparser/javaparser) | [#2403](https://github.com/javaparser/javaparser/pull/2403) | 9 | :+1: |
+| [javaparser [symbol-solver-logic]](https://github.com/javaparser/javaparser) | [#2403](https://github.com/javaparser/javaparser/pull/2403) | 2 | 7 | 9 | :+1: |
 | [undertow [benchmarks]](https://github.com/undertow-io/undertow) | [#824](https://github.com/undertow-io/undertow/pull/824)  | 6 | 11 | 17 | :+1:  |
 | [webcam-capture [driver-openimaj]](https://github.com/sarxos/webcam-capture) | [#750](https://github.com/sarxos/webcam-capture/pull/750) | 0 | 1 | 1 | :hand: |
 | [teavm [core]](https://github.com/konsoletyper/teavm) | [#439](https://github.com/konsoletyper/teavm/pull/439) | 2 | 0 | 2 | :hand: |
@@ -35,9 +33,9 @@
 | [jacop](https://github.com/radsz/jacop) | [#35](https://github.com/radsz/jacop/pull/35) | 2 | 2 | 4 | :+1: |
 | [selenese-runner-java](https://github.com/vmi/selenese-runner-java) | [#313](https://github.com/vmi/selenese-runner-java/pull/313) | 3 | 0 | 3 | :hand:  |
 | [commons-configuration](https://github.com/apache/commons-configuration) | [#40](https://github.com/apache/commons-configuration/pull/40) | 0| 9 | 9 | :hand: |
-|----------|:-------------:| :-------------:| :-------------:| :-------------:| :-------------:| 
-| Total |  |               |                |                |                |                |
-|----------|:-------------:| :-------------:| :-------------:| :-------------:| :-------------:| 
+| 
+
+<!-- Total |  |               |                |                |                |      :+1: = 17, :-1: = 5, :hand: = 10   | -->
 
 
 
