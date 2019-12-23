@@ -3,7 +3,11 @@ package se.kth.depclean.experiments;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang.SerializationUtils;
 import org.apache.maven.artifact.Artifact;
-import org.apache.maven.model.*;
+import org.apache.maven.model.Build;
+import org.apache.maven.model.Dependency;
+import org.apache.maven.model.License;
+import org.apache.maven.model.Model;
+import org.apache.maven.model.Organization;
 import org.apache.maven.model.io.xpp3.MavenXpp3Reader;
 import org.apache.maven.project.MavenProject;
 import org.apache.maven.shared.test.plugin.BuildTool;
@@ -27,7 +31,12 @@ import se.kth.depclean.experiments.util.MavenPluginInvoker;
 import se.kth.depclean.experiments.util.PomDownloader;
 import se.kth.depclean.experiments.util.PomManipulator;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.math.BigInteger;
 import java.net.URL;
 import java.util.ArrayList;
@@ -37,6 +46,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class App extends PlexusTestCase {
+
 
     //-------------------------------/
     //-------- CLASS FIELD/S --------/
@@ -59,7 +69,6 @@ public class App extends PlexusTestCase {
 
     private static final Logger LOGGER = Logger.getLogger(App.class.getName());
 
-    //-------------------------------/
     //------- PUBLIC METHOD/S -------/
     //-------------------------------/
 
@@ -176,12 +185,14 @@ public class App extends PlexusTestCase {
 
     @Override
     protected void setUp() throws Exception {
+
         super.setUp();
         buildTool = (BuildTool) lookup(BuildTool.ROLE);
         projectTool = (ProjectTool) lookup(ProjectTool.ROLE);
         analyzer = (ProjectDependencyAnalyzer) lookup(ProjectDependencyAnalyzer.ROLE);
 
-        System.setProperty("maven.home", dependenciesDir);
+        System.setProperty("maven.home", "/usr/share/maven/");
+        System.setProperty("maven.repo.local", "/home/cesarsv/.m2/repository");
 
         if (localRepo == null) {
             RepositoryTool repositoryTool = (RepositoryTool) lookup(RepositoryTool.ROLE);
@@ -199,7 +210,7 @@ public class App extends PlexusTestCase {
         // remove the content of local directories
         FileUtils.cleanDirectory(new File(artifactDir));
 
-        // set a size threshold of 10GB size (clean it if is larger that that)
+        // set a size threshold of 10GB to the local repository (clean it if is larger that that)
         checkDependenciesDirSize(dependenciesDir, new BigInteger("53687091200")); // 50GB
 
         String coordinates = groupId + ":" + artifactId + ":" + version;
@@ -214,8 +225,8 @@ public class App extends PlexusTestCase {
 
         // copy the artifact locally
         LOGGER.info("copying artifact");
-        mavenPluginInvoker.copyArtifact(artifactDir + "pom.xml", coordinates, artifactDir);
-
+//        mavenPluginInvoker.runCommand("mvn dependency:copy -DoutputDirectory=" + artifactDir + " -Dartifact=" + coordinates);
+         mavenPluginInvoker.copyArtifact(artifactDir + "pom.xml", coordinates, artifactDir);
         // decompress the artifact locally if the jar file exists
         File jarFile = new File(artifactDir + artifactId + "-" + version + ".jar");
         if (jarFile.exists()) {
@@ -242,6 +253,7 @@ public class App extends PlexusTestCase {
                 LOGGER.info("building maven project");
 
                 MavenProject mavenProject = null;
+
                 try {
                     mavenProject = projectTool.readProjectWithDependencies(new File(artifactDir + "pom.xml"), localRepo);
                 } catch (Exception e) {
@@ -491,4 +503,5 @@ public class App extends PlexusTestCase {
             FileUtils.cleanDirectory(new File(dependenciesDir));
         }
     }
+
 }

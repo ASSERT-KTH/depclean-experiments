@@ -41,7 +41,7 @@ public class PomDownloader {
             FileUtils.copyURLToFile(url, new File(artifactDir + "pom.xml"));
         } catch (Exception a) {
             try {
-                url = new URL("http://repo1.maven.org/maven2/" +
+                url = new URL("https://repo1.maven.org/maven2/" +
                         groupId.replace('.', '/') + "/" +
                         artifactId + "/" +
                         version + "/" +
