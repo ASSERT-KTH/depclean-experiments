@@ -1,0 +1,34 @@
+com.google.auto:auto-common:jar:HEAD-SNAPSHOT
++- com.google.guava:guava:jar:27.0.1-jre:compile
+|  +- com.google.guava:failureaccess:jar:1.0.1:compile
+|  +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+|  +- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+|  +- org.checkerframework:checker-qual:jar:2.5.2:compile
+|  +- com.google.errorprone:error_prone_annotations:jar:2.2.0:compile
+|  +- com.google.j2objc:j2objc-annotations:jar:1.1:compile
+|  \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.17:compile
++- com.squareup:javapoet:jar:1.9.0:compile
++- com.google.guava:guava-testlib:jar:27.0.1-jre:test
+|  +- (com.google.code.findbugs:jsr305:jar:3.0.2:test - omitted for duplicate)
+|  +- (org.checkerframework:checker-qual:jar:2.5.2:test - omitted for duplicate)
+|  +- (com.google.errorprone:error_prone_annotations:jar:2.2.0:test - omitted for duplicate)
+|  +- (com.google.j2objc:j2objc-annotations:jar:1.1:test - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:27.0.1-jre:test - omitted for duplicate)
+|  \- (junit:junit:jar:4.12:test - omitted for duplicate)
++- (com.google.auto:auto-common:jar:0.10:test - omitted for cycle)
++- com.google.testing.compile:compile-testing:jar:0.16:test
+|  +- (junit:junit:jar:4.12:test - omitted for duplicate)
+|  +- (com.google.truth:truth:jar:0.44:test - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:27.1-jre:test - omitted for conflict with 27.0.1-jre)
+|  \- com.google.auto.value:auto-value:jar:1.5.3:test
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- com.google.truth:truth:jar:0.44:test
+|  +- (com.google.guava:guava:jar:27.0.1-android:test - omitted for conflict with 27.0.1-jre)
+|  +- org.checkerframework:checker-compat-qual:jar:2.5.5:test
+|  +- (junit:junit:jar:4.12:test - omitted for duplicate)
+|  +- com.googlecode.java-diff-utils:diffutils:jar:1.3.0:test
+|  +- com.google.auto.value:auto-value-annotations:jar:1.6.3:test
+|  \- (com.google.errorprone:error_prone_annotations:jar:2.3.1:test - omitted for conflict with 2.2.0)
+\- org.eclipse.jdt.core.compiler:ecj:jar:4.6.1:test
+

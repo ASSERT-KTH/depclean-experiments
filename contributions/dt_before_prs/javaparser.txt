@@ -1,0 +1,12 @@
+com.github.javaparser:javaparser-symbol-solver-logic:jar:3.15.6-SNAPSHOT
++- org.javassist:javassist:jar:3.24.0-GA:compile
++- com.google.guava:guava:jar:27.0-jre:compile
+|  +- com.google.guava:failureaccess:jar:1.0:compile
+|  +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+|  +- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+|  +- org.checkerframework:checker-qual:jar:2.5.2:compile
+|  +- com.google.errorprone:error_prone_annotations:jar:2.2.0:compile
+|  +- com.google.j2objc:j2objc-annotations:jar:1.1:compile
+|  \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.17:compile
+\- com.github.javaparser:javaparser-symbol-solver-model:jar:3.15.6-SNAPSHOT:compile
+   \- com.github.javaparser:javaparser-core:jar:3.15.6-SNAPSHOT:compile

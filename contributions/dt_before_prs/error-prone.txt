@@ -1,0 +1,171 @@
+com.google.errorprone:error_prone_core:jar:2.3.4-SNAPSHOT
++- com.google.errorprone:error_prone_annotation:jar:2.3.4-SNAPSHOT:compile
+|  \- (com.google.guava:guava:jar:27.0.1-jre:compile - omitted for duplicate)
++- com.google.errorprone:error_prone_type_annotations:jar:2.3.4-SNAPSHOT:compile
++- com.google.errorprone:error_prone_check_api:jar:2.3.4-SNAPSHOT:compile
+|  +- (com.google.errorprone:error_prone_annotation:jar:2.3.4-SNAPSHOT:compile - omitted for duplicate)
+|  +- (com.google.code.findbugs:jsr305:jar:3.0.0:compile - omitted for duplicate)
+|  +- (org.checkerframework:dataflow:jar:3.0.0:compile - omitted for conflict with 2.8.1)
+|  +- (com.google.errorprone:javac:jar:9+181-r4173-1:compile - omitted for duplicate)
+|  +- com.googlecode.java-diff-utils:diffutils:jar:1.3.0:compile
+|  +- (com.google.errorprone:error_prone_annotations:jar:2.3.4-SNAPSHOT:compile - omitted for duplicate)
+|  +- com.github.kevinstern:software-and-algorithms:jar:1.0:compile
+|  \- com.github.ben-manes.caffeine:caffeine:jar:2.7.0:compile
+|     +- (org.checkerframework:checker-qual:jar:2.6.0:compile - omitted for conflict with 2.5.2)
+|     \- (com.google.errorprone:error_prone_annotations:jar:2.3.3:compile - omitted for conflict with 2.3.4-SNAPSHOT)
++- com.google.errorprone:error_prone_test_helpers:jar:2.3.4-SNAPSHOT:test
+|  +- (com.google.errorprone:error_prone_annotation:jar:2.3.4-SNAPSHOT:test - omitted for duplicate)
+|  +- (com.google.errorprone:error_prone_check_api:jar:2.3.4-SNAPSHOT:test - omitted for duplicate)
+|  +- (com.google.code.findbugs:jsr305:jar:3.0.0:test - omitted for duplicate)
+|  +- (org.checkerframework:dataflow:jar:3.0.0:test - omitted for duplicate)
+|  +- (com.google.errorprone:javac:jar:9+181-r4173-1:test - omitted for duplicate)
+|  +- (com.google.errorprone:error_prone_annotations:jar:2.3.4-SNAPSHOT:test - omitted for duplicate)
+|  +- com.google.googlejavaformat:google-java-format:jar:1.4:test
+|  |  +- (com.google.guava:guava:jar:19.0:test - omitted for conflict with 27.0.1-jre)
+|  |  \- com.google.errorprone:javac-shaded:jar:9-dev-r4023-3:test
+|  +- (junit:junit:jar:4.13-beta-1:test - omitted for duplicate)
+|  +- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for duplicate)
+|  +- (org.hamcrest:hamcrest-library:jar:1.3:test - omitted for duplicate)
+|  +- (com.google.truth:truth:jar:0.45:test - omitted for duplicate)
+|  +- com.google.jimfs:jimfs:jar:1.1:test
+|  |  \- (com.google.guava:guava:jar:18.0:test - omitted for conflict with 27.0.1-jre)
+|  \- (com.google.testing.compile:compile-testing:jar:0.18:test - omitted for duplicate)
++- com.github.stephenc.jcip:jcip-annotations:jar:1.0-1:compile
++- org.pcollections:pcollections:jar:2.1.2:compile
++- com.google.guava:guava:jar:27.0.1-jre:compile
+|  +- com.google.guava:failureaccess:jar:1.0.1:compile
+|  +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+|  +- (com.google.code.findbugs:jsr305:jar:3.0.2:compile - omitted for conflict with 3.0.0)
+|  +- org.checkerframework:checker-qual:jar:2.5.2:compile
+|  +- (com.google.errorprone:error_prone_annotations:jar:2.2.0:compile - omitted for conflict with 2.3.4-SNAPSHOT)
+|  +- com.google.j2objc:j2objc-annotations:jar:1.1:compile
+|  \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.17:compile
++- com.google.auto:auto-common:jar:0.10:compile
+|  \- (com.google.guava:guava:jar:23.5-jre:compile - omitted for conflict with 27.0.1-jre)
++- com.google.code.findbugs:jFormatString:jar:3.0.0:compile
++- com.google.code.findbugs:jsr305:jar:3.0.0:compile
++- org.checkerframework:dataflow:jar:2.8.1:compile
+|  +- (org.checkerframework:checker-qual:jar:2.8.1:compile - omitted for conflict with 2.5.2)
+|  \- org.checkerframework:javacutil:jar:2.8.1:compile
+|     +- (org.checkerframework:checker-qual:jar:2.8.1:compile - omitted for conflict with 2.5.2)
+|     \- org.plumelib:plume-util:jar:1.0.6:compile
+|        +- (org.checkerframework:checker-qual:jar:2.6.0:runtime - omitted for conflict with 2.5.2)
+|        +- org.plumelib:reflection-util:jar:0.0.2:runtime
+|        |  +- (org.checkerframework:checker-qual:jar:2.5.5:runtime - omitted for conflict with 2.5.2)
+|        |  \- (org.plumelib:require-javadoc:jar:0.1.0:runtime - omitted for duplicate)
+|        \- org.plumelib:require-javadoc:jar:0.1.0:runtime
+|           \- (org.checkerframework:checker-qual:jar:2.5.4:runtime - omitted for conflict with 2.5.2)
++- com.google.errorprone:javac:jar:9+181-r4173-1:compile
++- com.google.auto.value:auto-value:jar:1.5.3:provided
++- com.google.errorprone:error_prone_annotations:jar:2.3.4-SNAPSHOT:compile
++- junit:junit:jar:4.13-beta-1:test
+|  \- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for duplicate)
++- com.google.gwt:gwt-user:jar:2.8.2:test
+|  +- com.google.jsinterop:jsinterop-annotations:jar:1.0.2:test
+|  +- com.google.jsinterop:jsinterop-annotations:jar:sources:1.0.2:test
+|  +- javax.validation:validation-api:jar:1.0.0.GA:test
+|  +- javax.validation:validation-api:jar:sources:1.0.0.GA:test
+|  +- javax.servlet:javax.servlet-api:jar:3.1.0:test
+|  \- org.w3c.css:sac:jar:1.3:test
++- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.hamcrest:hamcrest-library:jar:1.3:test
+|  \- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for duplicate)
++- com.google.truth:truth:jar:0.45:test
+|  +- (com.google.guava:guava:jar:27.0.1-android:test - omitted for conflict with 27.0.1-jre)
+|  +- org.checkerframework:checker-compat-qual:jar:2.5.5:test
+|  +- (junit:junit:jar:4.12:test - omitted for conflict with 4.13-beta-1)
+|  +- (com.googlecode.java-diff-utils:diffutils:jar:1.3.0:test - omitted for duplicate)
+|  +- com.google.auto.value:auto-value-annotations:jar:1.6.3:test
+|  \- (com.google.errorprone:error_prone_annotations:jar:2.3.1:test - omitted for conflict with 2.3.4-SNAPSHOT)
++- com.google.truth.extensions:truth-java8-extension:jar:0.45:test
+|  +- (com.google.truth:truth:jar:0.45:test - omitted for duplicate)
+|  \- (org.checkerframework:checker-compat-qual:jar:2.5.5:test - omitted for duplicate)
++- com.google.truth.extensions:truth-proto-extension:jar:0.45:test
+|  +- (com.google.truth:truth:jar:0.45:test - omitted for duplicate)
+|  +- com.google.truth.extensions:truth-liteproto-extension:jar:0.45:test
+|  |  +- (com.google.truth:truth:jar:0.45:test - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:27.0.1-android:test - omitted for conflict with 27.0.1-jre)
+|  |  +- (org.checkerframework:checker-compat-qual:jar:2.5.5:test - omitted for duplicate)
+|  |  +- (com.google.auto.value:auto-value-annotations:jar:1.6.3:test - omitted for duplicate)
+|  |  \- (com.google.errorprone:error_prone_annotations:jar:2.3.1:test - omitted for conflict with 2.3.4-SNAPSHOT)
+|  +- (com.google.guava:guava:jar:27.0.1-android:test - omitted for conflict with 27.0.1-jre)
+|  +- (org.checkerframework:checker-compat-qual:jar:2.5.5:test - omitted for duplicate)
+|  +- (com.google.auto.value:auto-value-annotations:jar:1.6.3:test - omitted for duplicate)
+|  +- (com.google.errorprone:error_prone_annotations:jar:2.3.1:test - omitted for conflict with 2.3.4-SNAPSHOT)
+|  \- (com.google.protobuf:protobuf-java:jar:3.6.1:test - omitted for conflict with 3.4.0)
++- com.google.inject:guice:jar:4.0-beta5:test
+|  +- javax.inject:javax.inject:jar:1:test
+|  +- aopalliance:aopalliance:jar:1.0:test
+|  \- (com.google.guava:guava:jar:16.0.1:test - omitted for conflict with 27.0.1-jre)
++- com.google.inject.extensions:guice-assistedinject:jar:4.0-beta5:test
+|  \- (com.google.inject:guice:jar:4.0-beta5:test - omitted for duplicate)
++- com.google.inject.extensions:guice-servlet:jar:4.0-beta5:test
+|  \- (com.google.inject:guice:jar:4.0-beta5:test - omitted for duplicate)
++- com.google.inject.extensions:guice-testlib:jar:4.0:test
+|  \- (com.google.inject:guice:jar:4.0:test - omitted for conflict with 4.0-beta5)
++- com.google.gwt.inject:gin:jar:2.1.2:test
+|  +- (com.google.inject:guice:jar:3.0:test - omitted for conflict with 4.0-beta5)
+|  \- (com.google.inject.extensions:guice-assistedinject:jar:3.0:test - omitted for conflict with 4.0-beta5)
++- org.mockito:mockito-core:jar:2.25.0:test
+|  +- net.bytebuddy:byte-buddy:jar:1.9.7:test
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.9.7:test
+|  \- org.objenesis:objenesis:jar:2.6:test
++- org.jmock:jmock:jar:2.8.0:test
+|  +- (junit:junit:jar:4.11:test - omitted for conflict with 4.13-beta-1)
+|  +- cglib:cglib-nodep:jar:3.1:test
+|  +- org.ow2.asm:asm:jar:5.0.3:test
+|  +- org.beanshell:bsh:jar:1.3.0:test
+|  \- (org.hamcrest:hamcrest-library:jar:1.3:test - omitted for duplicate)
++- org.jmock:jmock-junit4:jar:2.8.0:test
+|  +- (junit:junit:jar:4.11:test - omitted for conflict with 4.13-beta-1)
+|  \- (org.jmock:jmock:jar:2.8.0:test - omitted for duplicate)
++- com.google.protobuf:protobuf-java:jar:3.4.0:compile
++- com.google.dagger:dagger:jar:2.14.1:test
+|  \- (javax.inject:javax.inject:jar:1:test - omitted for duplicate)
++- com.google.dagger:dagger-producers:jar:2.14.1:test
+|  +- (com.google.dagger:dagger:jar:2.14.1:test - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:23.3-jre:test - omitted for conflict with 27.0.1-jre)
+|  +- (javax.inject:javax.inject:jar:1:test - omitted for duplicate)
+|  \- (org.checkerframework:checker-compat-qual:jar:2.3.0:test - omitted for conflict with 2.5.5)
++- com.google.auto.factory:auto-factory:jar:1.0-beta5:test
+|  +- (com.google.auto:auto-common:jar:0.6:test - omitted for conflict with 0.10)
+|  +- (com.google.auto.value:auto-value:jar:1.1:test - omitted for conflict with 1.5.3)
+|  +- (com.google.googlejavaformat:google-java-format:jar:1.1:test - omitted for conflict with 1.4)
+|  +- (com.google.guava:guava:jar:19.0:test - omitted for conflict with 27.0.1-jre)
+|  +- com.squareup:javapoet:jar:1.7.0:test
+|  \- (javax.inject:javax.inject:jar:1:test - omitted for duplicate)
++- com.google.guava:guava-testlib:jar:27.0.1-jre:test
+|  +- (com.google.code.findbugs:jsr305:jar:3.0.2:test - omitted for conflict with 3.0.0)
+|  +- (org.checkerframework:checker-qual:jar:2.5.2:test - omitted for duplicate)
+|  +- (com.google.errorprone:error_prone_annotations:jar:2.2.0:test - omitted for conflict with 2.3.4-SNAPSHOT)
+|  +- (com.google.j2objc:j2objc-annotations:jar:1.1:test - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:27.0.1-jre:test - omitted for duplicate)
+|  \- (junit:junit:jar:4.12:test - omitted for conflict with 4.13-beta-1)
++- com.google.testing.compile:compile-testing:jar:0.18:test
+|  +- (junit:junit:jar:4.12:test - omitted for conflict with 4.13-beta-1)
+|  +- (com.google.truth:truth:jar:0.44:test - omitted for conflict with 0.45)
+|  +- (com.google.guava:guava:jar:27.1-jre:test - omitted for conflict with 27.0.1-jre)
+|  +- (com.google.auto.value:auto-value:jar:1.5.3:test - omitted for duplicate)
+|  +- (com.google.auto:auto-common:jar:0.10:test - omitted for duplicate)
+|  \- com.sun:tools:jar:1.8.0_232:system
++- com.ibm.icu:icu4j:jar:56.1:test
++- com.google.auto.service:auto-service:jar:1.0-rc4:provided
+|  +- (com.google.auto:auto-common:jar:0.8:provided - omitted for conflict with 0.10)
+|  \- (com.google.guava:guava:jar:23.5-jre:provided - omitted for conflict with 27.0.1-jre)
++- io.netty:netty-all:jar:4.1.42.Final:test
++- joda-time:joda-time:jar:2.9.4:test
++- com.google.common.html.types:proto:jar:1.0.0:test
+|  \- (com.google.protobuf:protobuf-java:jar:2.5.0:test - omitted for conflict with 3.4.0)
++- com.google.common.html.types:types:jar:1.0.5:test
+|  +- (com.google.guava:guava:jar:19.0:test - omitted for conflict with 27.0.1-jre)
+|  +- (com.google.protobuf:protobuf-java:jar:3.0.0:test - omitted for conflict with 3.4.0)
+|  +- (com.google.gwt:gwt-user:jar:2.8.0-beta1:test - omitted for conflict with 2.8.2)
+|  +- javax.annotation:jsr250-api:jar:1.0:test
+|  +- (com.google.errorprone:error_prone_annotations:jar:2.0.2:test - omitted for conflict with 2.3.4-SNAPSHOT)
+|  \- (com.google.guava:guava-testlib:jar:19.0:test - omitted for conflict with 27.0.1-jre)
++- org.assertj:assertj-core:jar:3.9.0:test
++- org.easymock:easymock:jar:3.1:test
+|  +- (cglib:cglib-nodep:jar:2.2.2:test - omitted for conflict with 3.1)
+|  \- (org.objenesis:objenesis:jar:1.2:test - omitted for conflict with 2.6)
+\- pl.pragmatists:JUnitParams:jar:1.0.5:test
+   \- (junit:junit:jar:4.12:test - omitted for conflict with 4.13-beta-1)

@@ -1,0 +1,159 @@
+org.asynchttpclient:async-http-client:jar:2.10.5-SNAPSHOT
++- org.asynchttpclient:async-http-client-netty-utils:jar:2.10.5-SNAPSHOT:compile
+|  +- io.netty:netty-buffer:jar:4.1.42.Final:compile
+|  |  \- (io.netty:netty-common:jar:4.1.42.Final:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.26:compile - omitted for duplicate)
+|  \- (com.sun.activation:javax.activation:jar:1.2.0:compile - omitted for duplicate)
++- io.netty:netty-codec-http:jar:4.1.42.Final:compile
+|  +- io.netty:netty-common:jar:4.1.42.Final:compile
+|  +- (io.netty:netty-buffer:jar:4.1.42.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-transport:jar:4.1.42.Final:compile
+|  |  +- (io.netty:netty-common:jar:4.1.42.Final:compile - omitted for duplicate)
+|  |  +- (io.netty:netty-buffer:jar:4.1.42.Final:compile - omitted for duplicate)
+|  |  \- (io.netty:netty-resolver:jar:4.1.42.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-codec:jar:4.1.42.Final:compile
+|  |  +- (io.netty:netty-common:jar:4.1.42.Final:compile - omitted for duplicate)
+|  |  +- (io.netty:netty-buffer:jar:4.1.42.Final:compile - omitted for duplicate)
+|  |  \- (io.netty:netty-transport:jar:4.1.42.Final:compile - omitted for duplicate)
+|  \- (io.netty:netty-handler:jar:4.1.42.Final:compile - omitted for duplicate)
++- io.netty:netty-handler:jar:4.1.42.Final:compile
+|  +- (io.netty:netty-common:jar:4.1.42.Final:compile - omitted for duplicate)
+|  +- (io.netty:netty-buffer:jar:4.1.42.Final:compile - omitted for duplicate)
+|  +- (io.netty:netty-transport:jar:4.1.42.Final:compile - omitted for duplicate)
+|  \- (io.netty:netty-codec:jar:4.1.42.Final:compile - omitted for duplicate)
++- io.netty:netty-codec-socks:jar:4.1.42.Final:compile
+|  +- (io.netty:netty-common:jar:4.1.42.Final:compile - omitted for duplicate)
+|  +- (io.netty:netty-buffer:jar:4.1.42.Final:compile - omitted for duplicate)
+|  +- (io.netty:netty-transport:jar:4.1.42.Final:compile - omitted for duplicate)
+|  \- (io.netty:netty-codec:jar:4.1.42.Final:compile - omitted for duplicate)
++- io.netty:netty-handler-proxy:jar:4.1.42.Final:compile
+|  +- (io.netty:netty-common:jar:4.1.42.Final:compile - omitted for duplicate)
+|  +- (io.netty:netty-buffer:jar:4.1.42.Final:compile - omitted for duplicate)
+|  +- (io.netty:netty-transport:jar:4.1.42.Final:compile - omitted for duplicate)
+|  +- (io.netty:netty-codec:jar:4.1.42.Final:compile - omitted for duplicate)
+|  +- (io.netty:netty-codec-socks:jar:4.1.42.Final:compile - omitted for duplicate)
+|  \- (io.netty:netty-codec-http:jar:4.1.42.Final:compile - omitted for duplicate)
++- io.netty:netty-transport-native-epoll:jar:linux-x86_64:4.1.42.Final:compile
+|  +- (io.netty:netty-common:jar:4.1.42.Final:compile - omitted for duplicate)
+|  +- (io.netty:netty-buffer:jar:4.1.42.Final:compile - omitted for duplicate)
+|  +- (io.netty:netty-transport:jar:4.1.42.Final:compile - omitted for duplicate)
+|  \- io.netty:netty-transport-native-unix-common:jar:4.1.42.Final:compile
+|     +- (io.netty:netty-common:jar:4.1.42.Final:compile - omitted for duplicate)
+|     +- (io.netty:netty-buffer:jar:4.1.42.Final:compile - omitted for duplicate)
+|     \- (io.netty:netty-transport:jar:4.1.42.Final:compile - omitted for duplicate)
++- io.netty:netty-transport-native-kqueue:jar:osx-x86_64:4.1.42.Final:compile
+|  +- (io.netty:netty-common:jar:4.1.42.Final:compile - omitted for duplicate)
+|  +- (io.netty:netty-buffer:jar:4.1.42.Final:compile - omitted for duplicate)
+|  +- (io.netty:netty-transport:jar:4.1.42.Final:compile - omitted for duplicate)
+|  \- (io.netty:netty-transport-native-unix-common:jar:4.1.42.Final:compile - omitted for duplicate)
++- io.netty:netty-resolver-dns:jar:4.1.42.Final:compile
+|  +- (io.netty:netty-common:jar:4.1.42.Final:compile - omitted for duplicate)
+|  +- (io.netty:netty-buffer:jar:4.1.42.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-resolver:jar:4.1.42.Final:compile
+|  |  \- (io.netty:netty-common:jar:4.1.42.Final:compile - omitted for duplicate)
+|  +- (io.netty:netty-transport:jar:4.1.42.Final:compile - omitted for duplicate)
+|  +- (io.netty:netty-codec:jar:4.1.42.Final:compile - omitted for duplicate)
+|  \- io.netty:netty-codec-dns:jar:4.1.42.Final:compile
+|     +- (io.netty:netty-common:jar:4.1.42.Final:compile - omitted for duplicate)
+|     +- (io.netty:netty-buffer:jar:4.1.42.Final:compile - omitted for duplicate)
+|     +- (io.netty:netty-transport:jar:4.1.42.Final:compile - omitted for duplicate)
+|     \- (io.netty:netty-codec:jar:4.1.42.Final:compile - omitted for duplicate)
++- org.reactivestreams:reactive-streams:jar:1.0.2:compile
++- com.typesafe.netty:netty-reactive-streams:jar:2.0.3:compile
+|  +- (io.netty:netty-handler:jar:4.1.42.Final:compile - version managed from 4.1.34.Final; omitted for duplicate)
+|  \- (org.reactivestreams:reactive-streams:jar:1.0.2:compile - omitted for duplicate)
++- io.reactivex.rxjava2:rxjava:jar:2.2.12:test
+|  \- (org.reactivestreams:reactive-streams:jar:1.0.2:test - omitted for duplicate)
++- org.reactivestreams:reactive-streams-examples:jar:1.0.2:test
+|  \- (org.reactivestreams:reactive-streams:jar:1.0.2:test - omitted for duplicate)
++- org.apache.kerby:kerb-simplekdc:jar:1.1.1:test
+|  +- org.apache.kerby:kerb-client:jar:1.1.1:test
+|  |  +- org.apache.kerby:kerby-config:jar:1.1.1:test
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for conflict with 1.7.26)
+|  |  +- org.apache.kerby:kerb-core:jar:1.1.1:test
+|  |  |  \- org.apache.kerby:kerby-pkix:jar:1.1.1:test
+|  |  |     +- org.apache.kerby:kerby-asn1:jar:1.1.1:test
+|  |  |     +- org.apache.kerby:kerby-util:jar:1.1.1:test
+|  |  |     \- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for conflict with 1.7.26)
+|  |  +- org.apache.kerby:kerb-common:jar:1.1.1:test
+|  |  |  +- (org.apache.kerby:kerby-config:jar:1.1.1:test - omitted for duplicate)
+|  |  |  +- org.apache.kerby:kerb-crypto:jar:1.1.1:test
+|  |  |  |  +- (org.apache.kerby:kerby-util:jar:1.1.1:test - omitted for duplicate)
+|  |  |  |  \- (org.apache.kerby:kerb-core:jar:1.1.1:test - omitted for duplicate)
+|  |  |  \- (commons-io:commons-io:jar:2.6:test - omitted for duplicate)
+|  |  +- org.apache.kerby:kerb-util:jar:1.1.1:test
+|  |  |  +- (org.apache.kerby:kerby-config:jar:1.1.1:test - omitted for duplicate)
+|  |  |  +- (org.apache.kerby:kerb-core:jar:1.1.1:test - omitted for duplicate)
+|  |  |  \- (org.apache.kerby:kerb-crypto:jar:1.1.1:test - omitted for duplicate)
+|  |  \- org.apache.kerby:token-provider:jar:1.1.1:test
+|  |     +- (org.apache.kerby:kerb-core:jar:1.1.1:test - omitted for duplicate)
+|  |     \- com.nimbusds:nimbus-jose-jwt:jar:4.41.2:test
+|  |        +- com.github.stephenc.jcip:jcip-annotations:jar:1.0-1:test
+|  |        \- net.minidev:json-smart:jar:2.3:test
+|  |           \- net.minidev:accessors-smart:jar:1.2:test
+|  |              \- org.ow2.asm:asm:jar:5.0.4:test
+|  \- org.apache.kerby:kerb-admin:jar:1.1.1:test
+|     +- org.apache.kerby:kerb-server:jar:1.1.1:test
+|     |  +- (org.apache.kerby:kerb-common:jar:1.1.1:test - omitted for duplicate)
+|     |  \- org.apache.kerby:kerb-identity:jar:1.1.1:test
+|     |     +- (org.apache.kerby:kerby-config:jar:1.1.1:test - omitted for duplicate)
+|     |     +- (org.apache.kerby:kerb-common:jar:1.1.1:test - omitted for duplicate)
+|     |     \- (org.apache.kerby:kerb-core:jar:1.1.1:test - omitted for duplicate)
+|     +- (org.apache.kerby:kerb-util:jar:1.1.1:test - omitted for duplicate)
+|     \- org.apache.kerby:kerby-xdr:jar:1.1.1:test
++- org.slf4j:slf4j-api:jar:1.7.26:compile
++- com.sun.activation:javax.activation:jar:1.2.0:compile
++- ch.qos.logback:logback-classic:jar:1.2.3:test
+|  +- ch.qos.logback:logback-core:jar:1.2.3:test
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for conflict with 1.7.26)
++- org.testng:testng:jar:6.13.1:test
+|  \- com.beust:jcommander:jar:1.72:test
++- org.eclipse.jetty:jetty-servlet:jar:9.4.18.v20190429:test
+|  \- (org.eclipse.jetty:jetty-security:jar:9.4.18.v20190429:test - omitted for duplicate)
++- org.eclipse.jetty:jetty-servlets:jar:9.4.18.v20190429:test
+|  +- org.eclipse.jetty:jetty-continuation:jar:9.4.18.v20190429:test
+|  +- org.eclipse.jetty:jetty-http:jar:9.4.18.v20190429:test
+|  |  +- (org.eclipse.jetty:jetty-util:jar:9.4.18.v20190429:test - omitted for duplicate)
+|  |  \- (org.eclipse.jetty:jetty-io:jar:9.4.18.v20190429:test - omitted for duplicate)
+|  +- org.eclipse.jetty:jetty-util:jar:9.4.18.v20190429:test
+|  \- org.eclipse.jetty:jetty-io:jar:9.4.18.v20190429:test
+|     \- (org.eclipse.jetty:jetty-util:jar:9.4.18.v20190429:test - omitted for duplicate)
++- org.eclipse.jetty:jetty-security:jar:9.4.18.v20190429:test
+|  \- org.eclipse.jetty:jetty-server:jar:9.4.18.v20190429:test
+|     +- (javax.servlet:javax.servlet-api:jar:3.1.0:test - omitted for duplicate)
+|     +- (org.eclipse.jetty:jetty-http:jar:9.4.18.v20190429:test - omitted for duplicate)
+|     \- (org.eclipse.jetty:jetty-io:jar:9.4.18.v20190429:test - omitted for duplicate)
++- org.eclipse.jetty:jetty-proxy:jar:9.4.18.v20190429:test
+|  +- (org.eclipse.jetty:jetty-util:jar:9.4.18.v20190429:test - omitted for duplicate)
+|  \- org.eclipse.jetty:jetty-client:jar:9.4.18.v20190429:test
+|     +- (org.eclipse.jetty:jetty-http:jar:9.4.18.v20190429:test - omitted for duplicate)
+|     \- (org.eclipse.jetty:jetty-io:jar:9.4.18.v20190429:test - omitted for duplicate)
++- org.eclipse.jetty.websocket:websocket-server:jar:9.4.18.v20190429:test
+|  +- org.eclipse.jetty.websocket:websocket-common:jar:9.4.18.v20190429:test
+|  |  +- (org.eclipse.jetty.websocket:websocket-api:jar:9.4.18.v20190429:test - omitted for duplicate)
+|  |  +- (org.eclipse.jetty:jetty-util:jar:9.4.18.v20190429:test - omitted for duplicate)
+|  |  \- (org.eclipse.jetty:jetty-io:jar:9.4.18.v20190429:test - omitted for duplicate)
+|  +- org.eclipse.jetty.websocket:websocket-client:jar:9.4.18.v20190429:test
+|  |  +- (org.eclipse.jetty:jetty-client:jar:9.4.18.v20190429:test - omitted for duplicate)
+|  |  +- org.eclipse.jetty:jetty-xml:jar:9.4.18.v20190429:test
+|  |  |  \- (org.eclipse.jetty:jetty-util:jar:9.4.18.v20190429:test - omitted for duplicate)
+|  |  +- (org.eclipse.jetty:jetty-util:jar:9.4.18.v20190429:test - omitted for duplicate)
+|  |  +- (org.eclipse.jetty:jetty-io:jar:9.4.18.v20190429:test - omitted for duplicate)
+|  |  \- (org.eclipse.jetty.websocket:websocket-common:jar:9.4.18.v20190429:test - omitted for duplicate)
+|  +- (org.eclipse.jetty.websocket:websocket-servlet:jar:9.4.18.v20190429:test - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-servlet:jar:9.4.18.v20190429:test - omitted for duplicate)
+|  \- (org.eclipse.jetty:jetty-http:jar:9.4.18.v20190429:test - omitted for duplicate)
++- org.eclipse.jetty.websocket:websocket-servlet:jar:9.4.18.v20190429:test
+|  +- org.eclipse.jetty.websocket:websocket-api:jar:9.4.18.v20190429:test
+|  \- javax.servlet:javax.servlet-api:jar:3.1.0:test
++- org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.26:test
+|  \- org.apache.tomcat:tomcat-annotations-api:jar:9.0.26:test
++- commons-io:commons-io:jar:2.6:test
++- commons-fileupload:commons-fileupload:jar:1.3.3:test
+|  \- (commons-io:commons-io:jar:2.2:test - omitted for conflict with 2.6)
++- com.e-movimento.tinytools:privilegedaccessor:jar:1.2.2:test
++- org.mockito:mockito-core:jar:3.0.0:test
+|  +- net.bytebuddy:byte-buddy:jar:1.9.10:test
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.9.10:test
+|  \- org.objenesis:objenesis:jar:2.6:test
+\- org.hamcrest:hamcrest:jar:2.1:test
