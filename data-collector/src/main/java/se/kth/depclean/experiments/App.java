@@ -250,7 +250,7 @@ public class App extends PlexusTestCase {
                 JarUtils.decompressJarFile(artifactDir + "target/classes/", artifactDir + artifactId + "-" + version + ".jar");
 
                 // build the maven project with its dependencies from the local repository
-                LOGGER.info("building maven project");
+                LOGGER.info("building m|:----------|:-------------:| :-------------:| :-------------:| :-------------:|  :-------------:|aven project");
 
                 MavenProject mavenProject = null;
 

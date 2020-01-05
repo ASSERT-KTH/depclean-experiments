@@ -33,11 +33,10 @@
 | [para [core]](https://github.com/Erudika/para/pull) | [#69](https://github.com/Erudika/para/pull/69) | 0 | 20 | 20 | :+1: |
 | [launch4j-maven-plugin](https://github.com/lukaszlenart/) | [#113](https://github.com/lukaszlenart/launch4j-maven-plugin/pull/113) | 2 | 2 | 4 | :+1:  |
 | [jacop](https://github.com/radsz/jacop) | [#35](https://github.com/radsz/jacop/pull/35) | 2 | 2 | 4 | :+1: |
-| [selenese-runner-java](https://github.com/vmi/selenese-runner-java) | [#313](https://github.com/vmi/selenese-runner-java/pull/313) | 3 | 0 | 3 | :hand:  |
+| [selenese-runner-java](https://github.com/vmi/selenese-runner-java) | [#313](https://github.com/vmi/selenese-runner-java/pull/313) | 0 | 2 | 9 | :+1:  |
 | [commons-configuration](https://github.com/apache/commons-configuration) | [#40](https://github.com/apache/commons-configuration/pull/40) | 0| 9 | 9 | :hand: |
 | 
 
-<!-- Total |  |               |                |                |                |      :+1: = 17, :-1: = 5, :hand: = 10   | -->
 
 
 
