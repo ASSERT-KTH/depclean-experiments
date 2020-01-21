@@ -6,6 +6,9 @@
 
 # Session Data files
 .RData
+.RProj.user
+
+*.nb.html
 
 # User-specific files
 .Ruserdata
@@ -126,3 +129,15 @@ jdbl-pom.iml
 
 
 data-collector/experiment
+data-collector/src/test/java/
+depclean-experiments.iml
+notebooks/Data/
+notebooks/RQ1.Rmd
+notebooks/RQ1.nb.html
+notebooks/RQ2.Rmd
+notebooks/RQ2.nb.html
+notebooks/analysis.nb.html
+notebooks/data_preprocessing.nb.html
+notebooks/notebooks.Rproj
+notebooks/subjects_selection.nb.html
+!/notebooks/.Rproj.user/
