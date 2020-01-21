@@ -1,0 +1,8 @@
+com.io7m.jgrapht:jgrapht-demo:jar:1.2.1-MODULARIZED
++- com.io7m.jgrapht:jgrapht-io:jar:1.2.1-MODULARIZED:compile
+|  +- com.io7m.jgrapht:jgrapht-core:jar:1.2.1-MODULARIZED:compile
+|  +- org.antlr:antlr4-runtime:jar:4.7:compile
+|  \- org.apache.commons:commons-lang3:jar:3.5:compile
+\- com.io7m.jgrapht:jgrapht-ext:jar:1.2.1-MODULARIZED:compile
+   +- (com.io7m.jgrapht:jgrapht-core:jar:1.2.1-MODULARIZED:compile - omitted for duplicate)
+   \- org.tinyjee.jgraphx:jgraphx:jar:3.4.1.3:compile

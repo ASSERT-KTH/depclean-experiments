@@ -1,0 +1,20 @@
+org.ow2.petals:petals-databinding-jaxb:jar:1.4.1
++- wsdl4j:wsdl4j:jar:1.6.2:compile
++- com.sun.xml.bind:jaxb-xjc:jar:2.2.4-1:compile
+|  \- com.sun.xml.bind:jaxb-impl:jar:2.2.4-1:compile
++- org.ow2.fractal.juliac:juliac-core:jar:2.5.1:compile
+|  +- org.objectweb.fractal:fractal-api:jar:2.0.2:compile
+|  +- org.objectweb.fractal.julia:julia-runtime:jar:2.5.2:compile
+|  |  \- (org.objectweb.fractal:fractal-api:jar:2.0.2:compile - omitted for duplicate)
+|  +- org.objectweb.fractal.fraclet.java:fraclet-annotations:jar:3.3:compile
+|  |  \- (org.objectweb.fractal:fractal-api:jar:2.0.2:compile - omitted for duplicate)
+|  \- com.google.guava:guava:jar:r07:compile
++- org.ow2.easycommons:easycommons-util:jar:2.4.0:compile
+|  +- xmlunit:xmlunit:jar:1.6:compile
+|  +- org.ow2.easycommons:easycommons-lang:jar:1.4.1:compile
+|  \- org.ow2.easycommons:easycommons-stream:jar:1.3.0:compile
+|     +- org.ow2.easycommons:easycommons-io:jar:1.2.3:compile
+|     |  \- (org.ow2.easycommons:easycommons-lang:jar:1.4.1:compile - omitted for duplicate)
+|     \- (org.ow2.easycommons:easycommons-lang:jar:1.4.1:compile - omitted for duplicate)
+\- junit:junit:jar:4.12:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

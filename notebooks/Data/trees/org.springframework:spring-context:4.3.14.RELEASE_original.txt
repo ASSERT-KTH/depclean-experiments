@@ -1,0 +1,73 @@
+org.springframework:spring-context:jar:4.3.14.RELEASE
++- javax.ejb:ejb-api:jar:3.0:compile
++- javax.enterprise.concurrent:javax.enterprise.concurrent-api:jar:1.0:compile
++- javax.inject:javax.inject:jar:1:compile
++- javax.money:money-api:jar:1.0.1:compile
++- javax.validation:validation-api:jar:1.0.0.GA:compile
++- joda-time:joda-time:jar:2.9.9:compile
++- org.aspectj:aspectjweaver:jar:1.8.9:compile
++- org.beanshell:bsh:jar:2.0b5:compile
++- org.codehaus.groovy:groovy-all:jar:2.4.13:compile
++- org.eclipse.persistence:javax.persistence:jar:2.0.0:compile
++- org.hibernate:hibernate-validator:jar:4.3.2.Final:compile
+|  +- (javax.validation:validation-api:jar:1.0.0.GA:compile - omitted for duplicate)
+|  \- org.jboss.logging:jboss-logging:jar:3.1.0.CR2:compile
++- org.jruby:jruby:jar:1.7.27:compile
+|  +- org.jruby:jruby-core:jar:1.7.27:compile
+|  |  +- org.ow2.asm:asm:jar:5.0.3:compile
+|  |  +- org.ow2.asm:asm-commons:jar:5.0.3:compile
+|  |  |  \- org.ow2.asm:asm-tree:jar:5.0.3:compile
+|  |  |     \- (org.ow2.asm:asm:jar:5.0.3:compile - omitted for duplicate)
+|  |  +- org.ow2.asm:asm-analysis:jar:5.0.3:compile
+|  |  |  \- (org.ow2.asm:asm-tree:jar:5.0.3:compile - omitted for duplicate)
+|  |  +- org.ow2.asm:asm-util:jar:5.0.3:compile
+|  |  |  \- (org.ow2.asm:asm-tree:jar:5.0.3:compile - omitted for duplicate)
+|  |  +- org.jruby.joni:joni:jar:2.1.10:compile
+|  |  |  \- (org.jruby.jcodings:jcodings:jar:1.0.13:compile - omitted for conflict with 1.0.16)
+|  |  +- com.github.jnr:jnr-netdb:jar:1.1.2:compile
+|  |  |  \- (com.github.jnr:jnr-ffi:jar:1.0.4:compile - omitted for conflict with 2.0.9)
+|  |  +- com.github.jnr:jnr-enxio:jar:0.12:compile
+|  |  |  +- (com.github.jnr:jnr-constants:jar:0.9.1:compile - omitted for conflict with 0.9.9)
+|  |  |  \- (com.github.jnr:jnr-ffi:jar:2.0.9:compile - omitted for conflict with 1.0.4)
+|  |  +- com.github.jnr:jnr-x86asm:jar:1.0.2:compile
+|  |  +- com.github.jnr:jnr-unixsocket:jar:0.12:compile
+|  |  |  +- (com.github.jnr:jnr-ffi:jar:2.0.9:compile - omitted for conflict with 1.0.4)
+|  |  |  +- (com.github.jnr:jnr-constants:jar:0.9.1:compile - omitted for duplicate)
+|  |  |  +- (com.github.jnr:jnr-enxio:jar:0.12:compile - omitted for duplicate)
+|  |  |  \- (com.github.jnr:jnr-posix:jar:3.0.29:compile - omitted for duplicate)
+|  |  +- com.github.jnr:jnr-posix:jar:3.0.29:compile
+|  |  |  +- (com.github.jnr:jnr-ffi:jar:2.0.9:compile - omitted for conflict with 1.0.4)
+|  |  |  \- (com.github.jnr:jnr-constants:jar:0.9.1:compile - omitted for duplicate)
+|  |  +- org.jruby.extras:bytelist:jar:1.0.11:compile
+|  |  |  \- (org.jruby.jcodings:jcodings:jar:1.0.5:compile - omitted for conflict with 1.0.13)
+|  |  +- com.github.jnr:jnr-constants:jar:0.9.9:compile
+|  |  +- org.jruby.jcodings:jcodings:jar:1.0.16:compile
+|  |  +- com.github.jnr:jnr-ffi:jar:2.0.9:compile
+|  |  |  +- (com.github.jnr:jffi:jar:1.2.11:compile - omitted for conflict with 1.2.12)
+|  |  |  +- (com.github.jnr:jffi:jar:native:1.2.11:runtime - omitted for conflict with 1.2.12)
+|  |  |  +- (org.ow2.asm:asm:jar:5.0.3:compile - omitted for duplicate)
+|  |  |  +- (org.ow2.asm:asm-commons:jar:5.0.3:compile - omitted for duplicate)
+|  |  |  +- (org.ow2.asm:asm-analysis:jar:5.0.3:compile - omitted for duplicate)
+|  |  |  +- (org.ow2.asm:asm-tree:jar:5.0.3:compile - omitted for duplicate)
+|  |  |  +- (org.ow2.asm:asm-util:jar:5.0.3:compile - omitted for duplicate)
+|  |  |  \- (com.github.jnr:jnr-x86asm:jar:1.0.2:compile - omitted for duplicate)
+|  |  +- com.github.jnr:jffi:jar:1.2.12:compile
+|  |  +- com.github.jnr:jffi:jar:native:1.2.12:compile
+|  |  +- org.yaml:snakeyaml:jar:1.13:compile
+|  |  +- com.jcraft:jzlib:jar:1.1.3:compile
+|  |  +- com.headius:invokebinder:jar:1.2:compile
+|  |  +- com.martiansoftware:nailgun-server:jar:0.9.1:compile
+|  |  +- org.jruby:yecht:jar:jruby:1.1:compile
+|  |  +- (joda-time:joda-time:jar:2.8.2:compile - omitted for conflict with 2.9.9)
+|  |  \- com.headius:options:jar:1.3:compile
+|  \- org.jruby:jruby-stdlib:jar:1.7.27:compile
++- org.springframework:spring-aop:jar:4.3.14.RELEASE:compile
+|  +- (org.springframework:spring-beans:jar:4.3.14.RELEASE:compile - omitted for duplicate)
+|  \- (org.springframework:spring-core:jar:4.3.14.RELEASE:compile - omitted for duplicate)
++- org.springframework:spring-beans:jar:4.3.14.RELEASE:compile
+|  \- (org.springframework:spring-core:jar:4.3.14.RELEASE:compile - omitted for duplicate)
++- org.springframework:spring-core:jar:4.3.14.RELEASE:compile
+|  \- commons-logging:commons-logging:jar:1.2:compile
++- org.springframework:spring-expression:jar:4.3.14.RELEASE:compile
+|  \- (org.springframework:spring-core:jar:4.3.14.RELEASE:compile - omitted for duplicate)
+\- org.springframework:spring-instrument:jar:4.3.14.RELEASE:compile

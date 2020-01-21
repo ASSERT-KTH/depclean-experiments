@@ -1,0 +1,107 @@
+io.gumga:gumga-domain:jar:3.3.3
++- org.hibernate:hibernate-core:jar:4.3.11.Final:compile
+|  +- org.jboss.logging:jboss-logging:jar:3.1.3.GA:compile
+|  +- org.jboss.logging:jboss-logging-annotations:jar:1.2.0.Beta1:compile
+|  +- org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.0.0.Final:compile
+|  +- dom4j:dom4j:jar:1.6.1:compile
+|  |  \- xml-apis:xml-apis:jar:1.0.b2:compile
+|  +- org.hibernate.common:hibernate-commons-annotations:jar:4.0.5.Final:compile
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.1.3.GA:compile - omitted for duplicate)
+|  |  \- (org.jboss.logging:jboss-logging-annotations:jar:1.2.0.Beta1:compile - omitted for duplicate)
+|  +- org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final:compile
+|  +- org.javassist:javassist:jar:3.18.1-GA:compile
+|  +- antlr:antlr:jar:2.7.7:compile
+|  \- org.jboss:jandex:jar:1.1.0.Final:compile
++- io.gumga:gumga-core:jar:3.3.3:compile
+|  +- (org.apache.commons:commons-lang3:jar:3.3:compile - omitted for duplicate)
+|  +- (junit:junit:jar:4.11:compile - omitted for duplicate)
+|  +- org.slf4j:slf4j-api:jar:1.7.6:compile
+|  +- org.slf4j:slf4j-log4j12:jar:1.7.6:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.6:compile - omitted for duplicate)
+|  |  \- log4j:log4j:jar:1.2.17:compile
+|  \- com.mysema.querydsl:querydsl-core:jar:3.4.0:compile
+|     +- (com.google.guava:guava:jar:18.0:compile - version managed from 14.0; omitted for duplicate)
+|     +- com.google.code.findbugs:jsr305:jar:1.3.9:compile
+|     +- com.mysema.commons:mysema-commons-lang:jar:0.2.4:compile
+|     +- cglib:cglib:jar:2.2.2:compile
+|     |  \- asm:asm:jar:3.3.1:compile
+|     \- com.infradna.tool:bridge-method-annotation:jar:1.11:compile
++- org.springframework:spring-tx:jar:4.2.8.RELEASE:compile
+|  +- org.springframework:spring-beans:jar:4.2.8.RELEASE:compile
+|  |  \- (org.springframework:spring-core:jar:4.2.8.RELEASE:compile - omitted for duplicate)
+|  \- org.springframework:spring-core:jar:4.2.8.RELEASE:compile
+|     \- commons-logging:commons-logging:jar:1.2:compile
++- org.springframework:spring-context:jar:4.2.8.RELEASE:compile
+|  +- org.springframework:spring-aop:jar:4.2.8.RELEASE:compile
+|  |  +- aopalliance:aopalliance:jar:1.0:compile
+|  |  +- (org.springframework:spring-beans:jar:4.2.8.RELEASE:compile - omitted for duplicate)
+|  |  \- (org.springframework:spring-core:jar:4.2.8.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-beans:jar:4.2.8.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-core:jar:4.2.8.RELEASE:compile - omitted for duplicate)
+|  \- org.springframework:spring-expression:jar:4.2.8.RELEASE:compile
+|     \- (org.springframework:spring-core:jar:4.2.8.RELEASE:compile - omitted for duplicate)
++- com.h2database:h2:jar:1.4.196:test
++- org.springframework:spring-test:jar:4.2.8.RELEASE:test
+|  \- (org.springframework:spring-core:jar:4.2.8.RELEASE:test - omitted for duplicate)
++- junit:junit:jar:4.11:test (scope not updated to compile)
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- net.jodah:typetools:jar:0.3.1:compile
++- io.gumga:gumga-validation:jar:3.3.3:compile
+|  +- (junit:junit:jar:4.11:compile - omitted for duplicate)
+|  +- com.google.guava:guava:jar:18.0:compile
+|  +- (org.springframework:spring-context:jar:4.2.8.RELEASE:compile - omitted for duplicate)
+|  \- org.mockito:mockito-all:jar:1.9.5:compile
++- com.mysema.querydsl:querydsl-apt:jar:3.4.0:compile
+|  \- com.mysema.querydsl:querydsl-codegen:jar:3.4.0:compile
+|     +- (com.mysema.querydsl:querydsl-core:jar:3.4.0:compile - omitted for duplicate)
+|     +- com.mysema.codegen:codegen:jar:0.6.2:compile
+|     |  +- (com.google.guava:guava:jar:18.0:compile - version managed from 11.0.2; omitted for duplicate)
+|     |  \- org.eclipse.jdt.core.compiler:ecj:jar:3.7.2:compile
+|     \- javax.inject:javax.inject:jar:1:compile
++- com.mysema.querydsl:querydsl-jpa:jar:3.4.0:compile
+|  +- (com.mysema.querydsl:querydsl-core:jar:3.4.0:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.6:compile - version managed from 1.6.1; omitted for duplicate)
++- org.apache.commons:commons-lang3:jar:3.3:compile
++- org.springframework.data:spring-data-jpa:jar:1.8.2.RELEASE:compile
+|  +- org.springframework.data:spring-data-commons:jar:1.10.2.RELEASE:compile
+|  |  +- (org.springframework:spring-core:jar:4.2.8.RELEASE:compile - version managed from 4.0.9.RELEASE; omitted for duplicate)
+|  |  +- (org.springframework:spring-beans:jar:4.2.8.RELEASE:compile - version managed from 4.0.9.RELEASE; omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.6:compile - version managed from 1.7.12; omitted for duplicate)
+|  |  \- (org.slf4j:jcl-over-slf4j:jar:1.7.12:runtime - omitted for duplicate)
+|  +- org.springframework:spring-orm:jar:4.2.8.RELEASE:compile (version managed from 4.0.9.RELEASE)
+|  |  +- (org.springframework:spring-beans:jar:4.2.8.RELEASE:compile - version managed from 4.0.9.RELEASE; omitted for duplicate)
+|  |  +- (org.springframework:spring-core:jar:4.2.8.RELEASE:compile - version managed from 4.0.9.RELEASE; omitted for duplicate)
+|  |  +- org.springframework:spring-jdbc:jar:4.2.8.RELEASE:compile
+|  |  |  +- (org.springframework:spring-beans:jar:4.2.8.RELEASE:compile - version managed from 4.0.9.RELEASE; omitted for duplicate)
+|  |  |  +- (org.springframework:spring-core:jar:4.2.8.RELEASE:compile - version managed from 4.0.9.RELEASE; omitted for duplicate)
+|  |  |  \- (org.springframework:spring-tx:jar:4.2.8.RELEASE:compile - omitted for duplicate)
+|  |  \- (org.springframework:spring-tx:jar:4.2.8.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-context:jar:4.2.8.RELEASE:compile - version managed from 4.0.9.RELEASE; omitted for duplicate)
+|  +- (org.springframework:spring-aop:jar:4.2.8.RELEASE:compile - version managed from 4.0.9.RELEASE; omitted for duplicate)
+|  +- (org.springframework:spring-tx:jar:4.2.8.RELEASE:compile - version managed from 4.0.9.RELEASE; omitted for duplicate)
+|  +- (org.springframework:spring-beans:jar:4.2.8.RELEASE:compile - version managed from 4.0.9.RELEASE; omitted for duplicate)
+|  +- (org.springframework:spring-core:jar:4.2.8.RELEASE:compile - version managed from 4.0.9.RELEASE; omitted for duplicate)
+|  +- org.aspectj:aspectjrt:jar:1.8.6:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.6:compile - version managed from 1.7.12; omitted for duplicate)
+|  \- org.slf4j:jcl-over-slf4j:jar:1.7.12:runtime
+|     \- (org.slf4j:slf4j-api:jar:1.7.6:runtime - version managed from 1.7.12; omitted for duplicate)
++- org.hibernate:hibernate-validator:jar:5.1.0.Final:compile
+|  +- javax.validation:validation-api:jar:1.1.0.Final:compile
+|  +- (org.jboss.logging:jboss-logging:jar:3.1.3.GA:compile - omitted for duplicate)
+|  \- com.fasterxml:classmate:jar:1.0.0:compile
++- org.hibernate:hibernate-envers:jar:4.3.11.Final:compile
+|  +- (org.jboss.logging:jboss-logging:jar:3.1.3.GA:compile - omitted for duplicate)
+|  +- (org.jboss.logging:jboss-logging-annotations:jar:1.2.0.Beta1:compile - omitted for duplicate)
+|  +- (org.hibernate:hibernate-core:jar:4.3.11.Final:compile - omitted for duplicate)
+|  \- org.hibernate:hibernate-entitymanager:jar:4.3.11.Final:compile
+|     +- (org.jboss.logging:jboss-logging:jar:3.1.3.GA:compile - omitted for duplicate)
+|     +- (org.jboss.logging:jboss-logging-annotations:jar:1.2.0.Beta1:compile - omitted for duplicate)
+|     +- (org.hibernate:hibernate-core:jar:4.3.11.Final:compile - omitted for duplicate)
+|     +- (dom4j:dom4j:jar:1.6.1:compile - omitted for duplicate)
+|     +- (org.hibernate.common:hibernate-commons-annotations:jar:4.0.5.Final:compile - omitted for duplicate)
+|     +- (org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final:compile - omitted for duplicate)
+|     +- (org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.0.0.Final:compile - omitted for duplicate)
+|     \- (org.javassist:javassist:jar:3.18.1-GA:compile - omitted for duplicate)
+\- com.fasterxml.jackson.core:jackson-databind:jar:2.6.7:compile
+   +- com.fasterxml.jackson.core:jackson-annotations:jar:2.6.0:compile
+   \- com.fasterxml.jackson.core:jackson-core:jar:2.6.7:compile

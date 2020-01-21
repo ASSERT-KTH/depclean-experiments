@@ -1,0 +1,14 @@
+com.stripe:rainier-core_2.12:jar:0.1.2
++- org.scala-lang:scala-library:jar:2.12.4:compile
++- com.stripe:rainier-shaded-asm_2.12:jar:0.1.2:compile
+|  \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
++- commons-io:commons-io:jar:2.6:compile
+\- org.scalatest:scalatest_2.12:jar:3.0.5:test
+   +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for duplicate)
+   +- org.scalactic:scalactic_2.12:jar:3.0.5:test
+   |  +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for duplicate)
+   |  \- (org.scala-lang:scala-reflect:jar:2.12.4:test - omitted for duplicate)
+   +- org.scala-lang:scala-reflect:jar:2.12.4:test
+   |  \- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for duplicate)
+   \- org.scala-lang.modules:scala-xml_2.12:jar:1.0.6:test
+      \- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.4)

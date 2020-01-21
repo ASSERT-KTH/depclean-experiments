@@ -1,0 +1,267 @@
+org.bedework.evreg:bw-event-registration-service:jar:4.0.1
++- org.bedework.evreg:bw-event-registration-common:jar:4.0.1:provided
+|  +- org.bedework:bw-util2-calendar:jar:4.0.0:provided
+|  |  +- (org.bedework:bw-xml-calws-soap:jar:4.0.5:provided - omitted for duplicate)
+|  |  +- (org.bedework:bw-xml-icalendar:jar:4.0.5:provided - omitted for duplicate)
+|  |  +- (org.bedework:bw-util-misc:jar:4.0.18:provided - omitted for duplicate)
+|  |  +- (org.bedework:bw-util-xml:jar:4.0.18:provided - omitted for duplicate)
+|  |  +- (org.bedework.ical4j:ical4j:jar:2.0.3:provided - omitted for duplicate)
+|  |  \- com.fasterxml.jackson.core:jackson-databind:jar:2.3.1:provided
+|  |     +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.3.0:provided - omitted for conflict with 2.3.1)
+|  |     \- com.fasterxml.jackson.core:jackson-core:jar:2.3.1:provided
+|  +- org.bedework:bw-util-hibernate:jar:4.0.18:provided
+|  |  +- (org.bedework:bw-util-jmx:jar:4.0.18:provided - omitted for duplicate)
+|  |  +- (org.bedework:bw-util-xml:jar:4.0.18:provided - omitted for duplicate)
+|  |  \- (log4j:log4j:jar:1.2.15:provided - omitted for duplicate)
+|  +- org.bedework:bw-util-jms:jar:4.0.18:provided
+|  |  +- (org.bedework:bw-util-misc:jar:4.0.18:provided - omitted for duplicate)
+|  |  +- (log4j:log4j:jar:1.2.15:provided - omitted for duplicate)
+|  |  \- javax.jms:javax.jms-api:jar:2.0:provided
+|  +- (org.bedework:bw-util-jmx:jar:4.0.18:provided - omitted for duplicate)
+|  +- (org.bedework:bw-util-misc:jar:4.0.18:compile - scope updated from provided; omitted for duplicate)
+|  +- org.bedework:bw-util-timezones:jar:4.0.18:provided
+|  |  +- org.bedework:bw-util-caching:jar:4.0.18:provided
+|  |  |  +- (log4j:log4j:jar:1.2.15:provided - omitted for duplicate)
+|  |  |  \- (org.bedework:bw-util-misc:jar:4.0.18:provided - omitted for duplicate)
+|  |  +- org.bedework:bw-util-http:jar:4.0.18:provided
+|  |  |  +- (org.bedework:bw-util-config:jar:4.0.18:provided - omitted for duplicate)
+|  |  |  +- (org.bedework:bw-util-jmx:jar:4.0.18:provided - omitted for duplicate)
+|  |  |  +- org.apache.httpcomponents:httpclient:jar:4.5.3:provided
+|  |  |  |  +- (org.apache.httpcomponents:httpcore:jar:4.2.2:provided - version managed from 4.4.8; omitted for duplicate)
+|  |  |  |  +- (commons-logging:commons-logging:jar:1.2:provided - omitted for conflict with 1.1.1)
+|  |  |  |  \- (commons-codec:commons-codec:jar:1.5:provided - version managed from 1.9; omitted for duplicate)
+|  |  |  +- (org.apache.httpcomponents:httpcore:jar:4.2.2:provided - version managed from 4.4.8; omitted for duplicate)
+|  |  |  \- (log4j:log4j:jar:1.2.15:provided - omitted for duplicate)
+|  |  +- (org.bedework:bw-util-misc:jar:4.0.18:provided - omitted for duplicate)
+|  |  +- (org.bedework.ical4j:ical4j:jar:2.0.3:provided - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.3.1:provided - omitted for duplicate)
+|  |  \- com.fasterxml.jackson.core:jackson-annotations:jar:2.3.1:provided
+|  +- org.bedework:bw-access:jar:4.0.2:provided
+|  |  +- (org.bedework:bw-util-caching:jar:4.0.18:provided - omitted for duplicate)
+|  |  +- (org.bedework:bw-util-misc:jar:4.0.18:provided - omitted for duplicate)
+|  |  +- (org.bedework:bw-util-xml:jar:4.0.18:provided - omitted for duplicate)
+|  |  +- junit:junit:jar:4.8.2:test (scope managed from provided)
+|  |  \- (log4j:log4j:jar:1.2.15:provided - omitted for duplicate)
+|  +- org.bedework:bw-xml-synchws:jar:4.0.5:provided
+|  +- org.bedework:bw-xml-calws-soap:jar:4.0.5:provided
+|  +- org.bedework:bw-xml-icalendar:jar:4.0.5:provided
+|  +- org.apache.geronimo.framework:geronimo-kernel:jar:2.2.1:provided
+|  |  +- asm:asm:jar:3.1:provided
+|  |  +- asm:asm-commons:jar:3.1:provided
+|  |  +- cglib:cglib-nodep:jar:2.2:provided (version managed from 2.1_3)
+|  |  +- org.apache.xbean:xbean-reflect:jar:3.7:provided
+|  |  +- com.thoughtworks.xstream:xstream:jar:1.3:provided
+|  |  |  \- xpp3:xpp3_min:jar:1.1.4c:provided
+|  |  +- org.apache.geronimo.framework:geronimo-crypto:jar:2.2.1:provided
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.5.5:provided - omitted for conflict with 1.7.10)
+|  |  \- org.slf4j:slf4j-api:jar:1.5.5:provided
+|  +- org.springframework:spring-core:jar:3.0.5.RELEASE:provided
+|  |  +- org.springframework:spring-asm:jar:3.0.5.RELEASE:provided
+|  |  \- commons-logging:commons-logging:jar:1.1.1:provided
+|  +- org.springframework:spring-context:jar:3.0.5.RELEASE:provided
+|  |  +- org.springframework:spring-aop:jar:3.0.5.RELEASE:provided
+|  |  |  +- aopalliance:aopalliance:jar:1.0:provided
+|  |  |  +- (org.springframework:spring-asm:jar:3.0.5.RELEASE:provided - omitted for duplicate)
+|  |  |  +- (org.springframework:spring-beans:jar:3.0.5.RELEASE:provided - omitted for duplicate)
+|  |  |  \- (org.springframework:spring-core:jar:3.0.5.RELEASE:provided - omitted for duplicate)
+|  |  +- (org.springframework:spring-beans:jar:3.0.5.RELEASE:provided - omitted for duplicate)
+|  |  +- (org.springframework:spring-core:jar:3.0.5.RELEASE:provided - omitted for duplicate)
+|  |  +- org.springframework:spring-expression:jar:3.0.5.RELEASE:provided
+|  |  |  \- (org.springframework:spring-core:jar:3.0.5.RELEASE:provided - omitted for duplicate)
+|  |  \- (org.springframework:spring-asm:jar:3.0.5.RELEASE:provided - omitted for duplicate)
+|  +- org.springframework:spring-beans:jar:3.0.5.RELEASE:provided
+|  |  \- (org.springframework:spring-core:jar:3.0.5.RELEASE:provided - omitted for duplicate)
+|  +- org.bedework.ical4j:ical4j:jar:2.0.3:provided
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.10:provided - omitted for conflict with 1.5.5)
+|  |  +- org.apache.commons:commons-collections4:jar:4.0:provided
+|  |  +- org.codehaus.groovy:groovy-all:jar:2.3.2:provided
+|  |  +- biz.aQute.bnd:bndlib:jar:2.3.0:provided
+|  |  |  \- org.osgi:org.osgi.core:jar:4.3.1:provided
+|  |  +- org.apache.commons:commons-lang3:jar:3.3.2:provided
+|  |  \- commons-codec:commons-codec:jar:1.5:provided (version managed from 1.9)
+|  +- org.hibernate:hibernate-core:jar:5.2.5.Final:provided
+|  |  +- org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided
+|  |  +- org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final:provided
+|  |  +- org.javassist:javassist:jar:3.20.0-GA:provided
+|  |  +- antlr:antlr:jar:2.7.7:provided
+|  |  +- org.apache.geronimo.specs:geronimo-jta_1.1_spec:jar:1.1.1:provided
+|  |  +- org.jboss:jandex:jar:2.0.3.Final:provided
+|  |  +- com.fasterxml:classmate:jar:1.3.0:provided
+|  |  +- dom4j:dom4j:jar:1.6.1:provided
+|  |  |  \- xml-apis:xml-apis:jar:1.0.b2:provided
+|  |  +- org.hibernate.common:hibernate-commons-annotations:jar:5.0.1.Final:provided
+|  |  |  \- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - omitted for duplicate)
+|  |  \- javax.enterprise:cdi-api:jar:1.1:provided
+|  |     +- javax.el:el-api:jar:2.2:provided
+|  |     +- org.jboss.spec.javax.interceptor:jboss-interceptors-api_1.1_spec:jar:1.0.0.Beta1:provided
+|  |     +- javax.annotation:jsr250-api:jar:1.0:provided
+|  |     \- javax.inject:javax.inject:jar:1:provided
+|  +- org.apache.httpcomponents:httpcore:jar:4.2.2:provided
+|  \- log4j:log4j:jar:1.2.15:provided
+|     \- javax.mail:mail:jar:1.4:provided
+|        \- (javax.activation:activation:jar:1.1:provided - omitted for conflict with 1.1.1)
++- org.bedework:bw-util-config:jar:4.0.18:compile
+|  +- org.bedework:bw-util-misc:jar:4.0.18:compile
+|  \- org.bedework:bw-util-xml:jar:4.0.18:compile
+|     \- (org.bedework:bw-util-misc:jar:4.0.18:compile - omitted for duplicate)
++- org.bedework:bw-util-jmx:jar:4.0.18:compile
+|  +- (org.bedework:bw-util-config:jar:4.0.18:compile - omitted for duplicate)
+|  \- (org.bedework:bw-util-misc:jar:4.0.18:compile - omitted for duplicate)
++- org.jboss.jbossas:jboss-as-system:jar:5.1.0.GA:provided
+|  +- org.jboss.deployers:jboss-deployers-vfs-spi:jar:2.0.7.GA:provided
+|  |  +- (org.jboss:jboss-vfs:jar:2.1.2.GA:provided - omitted for duplicate)
+|  |  +- org.jboss.deployers:jboss-deployers-spi:jar:2.0.7.GA:provided
+|  |  |  \- (org.jboss.deployers:jboss-deployers-structure-spi:jar:2.0.7.GA:provided - omitted for duplicate)
+|  |  +- org.jboss.cl:jboss-classloading:jar:2.0.6.GA:provided
+|  |  |  \- org.jboss.cl:jboss-classloader:jar:2.0.6.GA:provided
+|  |  |     \- (org.jboss.integration:jboss-classloading-spi:jar:5.0.3.GA:provided - omitted for duplicate)
+|  |  +- (org.jboss:jbossxb:jar:2.0.1.GA:provided - omitted for duplicate)
+|  |  \- stax:stax-api:jar:1.0:provided
+|  +- org.jboss.aop:jboss-aop:jar:2.1.1.GA:provided
+|  |  +- (apache-xerces:xml-apis:jar:2.9.1:provided - omitted for duplicate)
+|  |  +- org.apache.ant:ant:jar:1.7.0:provided
+|  |  |  \- org.apache.ant:ant-launcher:jar:1.7.0:provided
+|  |  +- javassist:javassist:jar:3.10.0.GA:provided
+|  |  +- org.jboss:jboss-reflect:jar:2.0.2.GA:provided
+|  |  |  +- (org.jboss.logging:jboss-logging-spi:jar:2.0.5.GA:provided - omitted for duplicate)
+|  |  |  \- (org.jboss:jboss-common-core:jar:2.2.8.GA:provided - omitted for conflict with 2.2.11.GA)
+|  |  +- org.jboss:jboss-mdr:jar:2.0.1.GA:provided
+|  |  |  +- (org.jboss:jboss-reflect:jar:2.0.0.GA:provided - omitted for conflict with 2.0.2.GA)
+|  |  |  +- (org.jboss.logging:jboss-logging-spi:jar:2.0.5.GA:provided - omitted for duplicate)
+|  |  |  \- (org.jboss:jboss-common-core:jar:2.2.9.GA:provided - omitted for conflict with 2.2.8.GA)
+|  |  +- (org.jboss:jboss-common-core:jar:2.2.11.GA:provided - omitted for conflict with 2.2.14.GA)
+|  |  +- (org.jboss.logging:jboss-logging-spi:jar:2.0.5.GA:provided - omitted for conflict with 2.1.0.GA)
+|  |  +- qdox:qdox:jar:1.6.1:provided
+|  |  +- trove:trove:jar:2.1.1:provided
+|  |  +- (log4j:log4j:jar:1.2.15:provided - version managed from 1.2.14; omitted for duplicate)
+|  |  \- org.jboss.logging:jboss-logging-log4j:jar:2.0.5.GA:provided
+|  |     \- (org.jboss.logging:jboss-logging-spi:jar:2.0.5.GA:provided - omitted for duplicate)
+|  +- org.jboss:jbossxb:jar:2.0.1.GA:provided
+|  |  +- (org.jboss.logging:jboss-logging-spi:jar:2.0.5.GA:provided - omitted for duplicate)
+|  |  +- (org.jboss:jboss-common-core:jar:2.2.9.GA:provided - omitted for conflict with 2.2.11.GA)
+|  |  +- (org.jboss:jboss-reflect:jar:2.0.2.GA:provided - omitted for duplicate)
+|  |  +- (apache-xerces:xml-apis:jar:2.9.1:provided - omitted for duplicate)
+|  |  +- wutka-dtdparser:dtdparser121:jar:1.2.1:provided
+|  |  +- javax.activation:activation:jar:1.1.1:provided
+|  |  \- sun-jaxb:jaxb-api:jar:2.1.9:provided
+|  +- org.jboss.logging:jboss-logging-spi:jar:2.1.0.GA:provided
+|  +- org.jboss.integration:jboss-profileservice-spi:jar:5.1.0.GA:provided
+|  |  +- (org.jboss:jboss-common-core:jar:2.2.14.GA:provided - omitted for conflict with 2.2.11.GA)
+|  |  +- (org.jboss.man:jboss-managed:jar:2.1.0.SP1:provided - omitted for duplicate)
+|  |  +- (org.jboss.man:jboss-metatype:jar:2.1.0.SP1:provided - omitted for duplicate)
+|  |  +- (org.jboss:jboss-vfs:jar:2.1.2.GA:provided - omitted for duplicate)
+|  |  \- (org.jboss.microcontainer:jboss-dependency:jar:2.0.6.GA:provided - omitted for duplicate)
+|  +- org.jboss.man:jboss-managed:jar:2.1.0.SP1:provided
+|  |  +- (org.jboss.man:jboss-metatype:jar:2.1.0.SP1:provided - omitted for duplicate)
+|  |  +- (org.jboss:jboss-mdr:jar:2.0.1.GA:provided - omitted for duplicate)
+|  |  \- (sun-jaxb:jaxb-api:jar:2.1.4:provided - omitted for conflict with 2.1.9)
+|  +- org.jboss.man:jboss-metatype:jar:2.1.0.SP1:provided
+|  |  +- (org.jboss:jboss-reflect:jar:2.0.2.GA:provided - omitted for duplicate)
+|  |  +- (org.jboss.logging:jboss-logging-spi:jar:2.0.5.GA:provided - omitted for conflict with 2.1.0.GA)
+|  |  \- (org.jboss:jboss-common-core:jar:2.2.10.GA:provided - omitted for conflict with 2.2.11.GA)
+|  +- org.jboss.microcontainer:jboss-dependency:jar:2.0.6.GA:provided
+|  |  +- (org.jboss:jbossxb:jar:2.0.1.GA:provided - omitted for duplicate)
+|  |  +- (org.jboss:jboss-reflect:jar:2.0.2.GA:provided - omitted for duplicate)
+|  |  +- (org.jboss:jboss-mdr:jar:2.0.1.GA:provided - omitted for duplicate)
+|  |  +- (org.jboss.logging:jboss-logging-spi:jar:2.0.5.GA:provided - omitted for conflict with 2.1.0.GA)
+|  |  \- (org.jboss:jboss-common-core:jar:2.2.13.GA:provided - omitted for conflict with 2.2.11.GA)
+|  +- org.jboss.deployers:jboss-deployers-client-spi:jar:2.0.7.GA:provided
+|  |  +- (org.jboss.deployers:jboss-deployers-core-spi:jar:2.0.7.GA:provided - omitted for duplicate)
+|  |  \- (org.jboss.man:jboss-managed:jar:2.1.0.CR8:provided - omitted for conflict with 2.1.0.SP1)
+|  +- org.jboss.deployers:jboss-deployers-core-spi:jar:2.0.7.GA:provided
+|  |  \- (org.jboss:jboss-common-core:jar:2.2.13.GA:provided - omitted for conflict with 2.2.11.GA)
+|  +- org.jboss.deployers:jboss-deployers-structure-spi:jar:2.0.7.GA:provided
+|  |  +- (org.jboss.deployers:jboss-deployers-client-spi:jar:2.0.7.GA:provided - omitted for duplicate)
+|  |  +- (org.jboss.microcontainer:jboss-dependency:jar:2.0.6.GA:provided - omitted for duplicate)
+|  |  +- org.jboss.integration:jboss-classloading-spi:jar:5.0.3.GA:provided
+|  |  \- (org.jboss.logging:jboss-logging-spi:jar:2.0.5.GA:provided - omitted for conflict with 2.1.0.GA)
+|  +- org.jboss.deployers:jboss-deployers-vfs:jar:2.0.7.GA:provided
+|  |  +- (org.jboss.deployers:jboss-deployers-vfs-spi:jar:2.0.7.GA:provided - omitted for duplicate)
+|  |  +- (org.jboss.microcontainer:jboss-kernel:jar:2.0.6.GA:provided - omitted for duplicate)
+|  |  +- org.jboss.cl:jboss-classloading-vfs:jar:2.0.6.GA:provided
+|  |  |  +- (org.jboss:jboss-common-core:jar:2.2.13.GA:provided - omitted for conflict with 2.2.11.GA)
+|  |  |  \- (org.jboss.logging:jboss-logging-spi:jar:2.0.5.GA:provided - omitted for conflict with 2.1.0.GA)
+|  |  +- org.jboss.deployers:jboss-deployers-core:jar:2.0.7.GA:provided
+|  |  +- org.jboss.deployers:jboss-deployers-client:jar:2.0.7.GA:provided
+|  |  \- (org.jboss.deployers:jboss-deployers-impl:jar:2.0.7.GA:provided - omitted for duplicate)
+|  +- org.jboss.microcontainer:jboss-kernel:jar:2.0.6.GA:provided
+|  |  +- (org.jboss.microcontainer:jboss-dependency:jar:2.0.6.GA:provided - omitted for duplicate)
+|  |  \- (org.jboss:jbossxb:jar:2.0.1.GA:provided - omitted for duplicate)
+|  +- org.jboss.deployers:jboss-deployers-impl:jar:2.0.7.GA:provided
+|  |  +- (org.jboss.deployers:jboss-deployers-spi:jar:2.0.7.GA:provided - omitted for duplicate)
+|  |  +- (org.jboss.cl:jboss-classloading:jar:2.0.6.GA:provided - omitted for duplicate)
+|  |  +- (org.jboss:jboss-mdr:jar:2.0.1.GA:provided - omitted for duplicate)
+|  |  +- (org.jboss.microcontainer:jboss-kernel:jar:2.0.6.GA:provided - omitted for duplicate)
+|  |  \- (javassist:javassist:jar:3.10.0.GA:provided - omitted for duplicate)
+|  +- org.jboss.microcontainer:jboss-aop-mc-int:jar:2.0.6.GA:provided
+|  |  +- (org.jboss.microcontainer:jboss-kernel:jar:2.0.6.GA:provided - omitted for duplicate)
+|  |  \- (javassist:javassist:jar:3.10.0.GA:provided - omitted for duplicate)
+|  +- org.jboss.bootstrap:jboss-bootstrap:jar:1.0.0-Beta-3:provided
+|  |  +- (org.jboss.man:jboss-managed:jar:2.0.0.GA:provided - omitted for conflict with 2.1.0.SP1)
+|  |  \- (org.jboss.microcontainer:jboss-kernel:jar:2.0.4.GA:provided - omitted for conflict with 2.0.6.GA)
+|  +- org.jboss:jboss-vfs:jar:2.1.2.GA:provided
+|  |  +- (org.jboss:jboss-common-core:jar:2.2.13.GA:provided - omitted for conflict with 2.2.11.GA)
+|  |  \- (org.jboss.logging:jboss-logging-spi:jar:2.0.5.GA:provided - omitted for conflict with 2.1.0.GA)
+|  \- org.jboss:jboss-common-core:jar:2.2.14.GA:provided
+|     \- (org.jboss.logging:jboss-logging-spi:jar:2.0.5.GA:provided - omitted for conflict with 2.1.0.GA)
+\- org.jboss.jbossas:jboss-as-system-jmx:jar:5.1.0.GA:provided
+   +- apache-xerces:xml-apis:jar:2.9.1:provided
+   +- (org.jboss.logging:jboss-logging-spi:jar:2.1.0.GA:provided - omitted for duplicate)
+   +- (org.jboss:jboss-common-core:jar:2.2.14.GA:provided - omitted for duplicate)
+   +- (org.jboss:jboss-vfs:jar:2.1.2.GA:provided - omitted for duplicate)
+   +- (org.jboss:jbossxb:jar:2.0.1.GA:provided - omitted for duplicate)
+   +- (org.jboss.deployers:jboss-deployers-core-spi:jar:2.0.7.GA:provided - omitted for duplicate)
+   +- (org.jboss.deployers:jboss-deployers-impl:jar:2.0.7.GA:provided - omitted for duplicate)
+   +- (org.jboss.deployers:jboss-deployers-structure-spi:jar:2.0.7.GA:provided - omitted for duplicate)
+   +- (org.jboss.deployers:jboss-deployers-vfs:jar:2.0.7.GA:provided - omitted for duplicate)
+   +- (org.jboss.deployers:jboss-deployers-vfs-spi:jar:2.0.7.GA:provided - omitted for duplicate)
+   +- org.jboss.jbossas:jboss-as-j2se:jar:5.1.0.GA:provided
+   |  +- (org.jboss:jboss-common-core:jar:2.2.14.GA:provided - omitted for duplicate)
+   |  +- oswego-concurrent:concurrent:jar:1.3.4-jboss-update1:provided
+   |  +- (org.jboss.integration:jboss-classloading-spi:jar:5.1.0.GA:provided - omitted for conflict with 5.0.3.GA)
+   |  +- (org.jboss.logging:jboss-logging-spi:jar:2.1.0.GA:provided - omitted for duplicate)
+   |  \- (apache-xerces:xml-apis:jar:2.9.1:provided - omitted for duplicate)
+   +- (org.jboss.bootstrap:jboss-bootstrap:jar:1.0.0-Beta-3:provided - omitted for duplicate)
+   +- (org.jboss.jbossas:jboss-as-system:jar:5.1.0.GA:provided - omitted for duplicate)
+   +- org.jboss.jbossas:jboss-as-jmx:jar:5.1.0.GA:provided
+   |  +- (oswego-concurrent:concurrent:jar:1.3.4-jboss-update1:provided - omitted for duplicate)
+   |  +- (org.jboss.logging:jboss-logging-spi:jar:2.1.0.GA:provided - omitted for duplicate)
+   |  +- (org.jboss:jboss-common-core:jar:2.2.14.GA:provided - omitted for duplicate)
+   |  +- (org.jboss.integration:jboss-classloading-spi:jar:5.1.0.GA:provided - omitted for conflict with 5.0.3.GA)
+   |  +- (org.jboss.jbossas:jboss-as-j2se:jar:5.1.0.GA:provided - omitted for duplicate)
+   |  +- org.jboss.jbossas:jboss-as-j2se:test-jar:tests:5.1.0.GA:provided
+   |  |  +- (org.jboss:jboss-common-core:jar:2.2.14.GA:provided - omitted for duplicate)
+   |  |  +- (oswego-concurrent:concurrent:jar:1.3.4-jboss-update1:provided - omitted for duplicate)
+   |  |  +- (org.jboss.integration:jboss-classloading-spi:jar:5.1.0.GA:provided - omitted for conflict with 5.0.3.GA)
+   |  |  +- (org.jboss.logging:jboss-logging-spi:jar:2.1.0.GA:provided - omitted for duplicate)
+   |  |  \- (apache-xerces:xml-apis:jar:2.9.1:provided - omitted for duplicate)
+   |  +- org.jboss.jbossas:jboss-as-mbeans:jar:5.1.0.GA:provided
+   |  |  +- (apache-xerces:xml-apis:jar:2.9.1:provided - omitted for duplicate)
+   |  |  +- (dom4j:dom4j:jar:1.6.1:provided - omitted for duplicate)
+   |  |  +- (org.jboss:jbossxb:jar:2.0.1.GA:provided - omitted for duplicate)
+   |  |  +- (org.jboss.jbossas:jboss-as-j2se:jar:5.1.0.GA:provided - omitted for duplicate)
+   |  |  +- bcel:bcel:jar:5.1:provided
+   |  |  |  \- regexp:regexp:jar:1.2:provided
+   |  |  +- (org.jboss:jboss-common-core:jar:2.2.14.GA:provided - omitted for duplicate)
+   |  |  +- (org.jboss.logging:jboss-logging-spi:jar:2.1.0.GA:provided - omitted for duplicate)
+   |  |  \- org.jboss.test:jboss-test:jar:1.1.4.GA:provided
+   |  |     +- (org.apache.ant:ant:jar:1.7.0:provided - omitted for duplicate)
+   |  |     +- org.apache.ant:ant-junit:jar:1.7.0:provided
+   |  |     |  +- (org.apache.ant:ant:jar:1.7.0:provided - omitted for duplicate)
+   |  |     |  \- (junit:junit:jar:4.8.2:test - version managed from 3.8.2; scope managed from provided; omitted for duplicate)
+   |  |     +- (org.jboss.logging:jboss-logging-spi:jar:2.0.5.GA:provided - omitted for conflict with 2.1.0.GA)
+   |  |     +- (org.jboss.logging:jboss-logging-log4j:jar:2.0.5.GA:provided - omitted for duplicate)
+   |  |     +- (org.jboss:jboss-common-core:jar:2.2.7.GA:provided - omitted for conflict with 2.2.14.GA)
+   |  |     +- jboss.profiler.jvmti:jboss-profiler-jvmti:jar:1.0.0.CR5:provided
+   |  |     +- (junit:junit:jar:4.8.2:test - version managed from 3.8.1; scope managed from provided; omitted for duplicate)
+   |  |     +- (log4j:log4j:jar:1.2.15:provided - version managed from 1.2.14; omitted for duplicate)
+   |  |     \- org.jboss.jbossas:jboss-server-manager:jar:1.0.2.GA:provided
+   |  |        +- org.jboss.naming:jnp-client:jar:5.0.1.GA:provided
+   |  |        |  +- (org.jboss:jboss-common-core:jar:2.2.10.GA:provided - omitted for conflict with 2.2.14.GA)
+   |  |        |  \- (org.jboss.logging:jboss-logging-spi:jar:2.0.5.GA:provided - omitted for conflict with 2.1.0.GA)
+   |  |        +- org.jboss.security:jbosssx-client:jar:2.0.3.SP1:provided
+   |  |        +- org.jboss.security:jboss-security-spi:jar:2.0.3.SP1:provided
+   |  |        \- (org.jboss.logging:jboss-logging-spi:jar:2.0.5.GA:provided - omitted for conflict with 2.1.0.GA)
+   |  \- (junit:junit:jar:4.8.2:test - version managed from 3.8.2; scope managed from provided; omitted for duplicate)
+   +- (org.jboss.microcontainer:jboss-dependency:jar:2.0.6.GA:provided - omitted for duplicate)
+   \- (org.jboss.microcontainer:jboss-kernel:jar:2.0.6.GA:provided - omitted for duplicate)

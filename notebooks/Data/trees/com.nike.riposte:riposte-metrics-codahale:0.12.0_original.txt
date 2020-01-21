@@ -1,0 +1,90 @@
+com.nike.riposte:riposte-metrics-codahale:jar:0.12.0
++- com.nike.riposte:riposte-core:jar:0.12.0:compile
+|  +- com.nike.riposte:riposte-spi:jar:0.12.0:compile
+|  |  +- (io.netty:netty-all:jar:4.0.52.Final:compile - omitted for duplicate)
+|  |  +- com.nike.fastbreak:fastbreak:jar:0.10.0:compile
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|  |  +- com.nike.backstopper:backstopper-core:jar:0.11.4:compile
+|  |  |  +- (com.nike.internal:nike-internal-util:jar:0.9.0.1:compile - omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for conflict with 1.7.21)
+|  |  |  +- javax.inject:javax.inject:jar:1:compile
+|  |  |  \- javax.validation:validation-api:jar:1.0.0.GA:compile
+|  |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.8.9:compile
+|  |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile
+|  |  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.8.9:compile - omitted for conflict with 2.4.2)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|  |  +- (org.slf4j:jcl-over-slf4j:jar:1.7.21:compile - omitted for duplicate)
+|  |  \- (org.slf4j:log4j-over-slf4j:jar:1.7.21:compile - omitted for duplicate)
+|  +- io.netty:netty-all:jar:4.0.52.Final:compile
+|  +- io.netty:netty-transport-native-epoll:jar:linux-x86_64:4.0.52.Final:compile
+|  |  +- io.netty:netty-common:jar:4.0.52.Final:compile
+|  |  +- io.netty:netty-buffer:jar:4.0.52.Final:compile
+|  |  |  \- (io.netty:netty-common:jar:4.0.52.Final:compile - omitted for duplicate)
+|  |  \- io.netty:netty-transport:jar:4.0.52.Final:compile
+|  |     \- (io.netty:netty-buffer:jar:4.0.52.Final:compile - omitted for duplicate)
+|  +- com.nike.wingtips:wingtips-core:jar:0.14.1:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for conflict with 1.7.21)
+|  |  \- com.nike.internal:nike-internal-util:jar:0.9.0.1:compile
+|  +- com.nike.backstopper:backstopper-jackson:jar:0.11.4:compile
+|  |  +- (com.nike.backstopper:backstopper-core:jar:0.11.4:compile - omitted for duplicate)
+|  |  +- com.fasterxml.jackson.core:jackson-core:jar:2.4.2:compile
+|  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.4.2:compile - omitted for conflict with 2.8.9)
+|  +- org.slf4j:slf4j-api:jar:1.7.21:compile
+|  +- org.slf4j:jcl-over-slf4j:jar:1.7.21:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|  +- org.slf4j:log4j-over-slf4j:jar:1.7.21:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|  +- org.javassist:javassist:jar:3.18.2-GA:compile
+|  \- com.jcraft:jzlib:jar:1.1.3:compile
++- io.dropwizard.metrics:metrics-core:jar:3.1.1:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for conflict with 1.7.21)
++- io.dropwizard.metrics:metrics-jvm:jar:3.1.1:compile
+|  +- (io.dropwizard.metrics:metrics-core:jar:3.1.1:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for conflict with 1.7.21)
++- io.dropwizard.metrics:metrics-graphite:jar:3.1.1:compile
+|  +- (io.dropwizard.metrics:metrics-core:jar:3.1.1:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for conflict with 1.7.21)
++- com.nike.riposte:riposte-guice:jar:0.12.0:test
+|  +- (com.nike.riposte:riposte-core:jar:0.12.0:test - omitted for duplicate)
+|  \- com.google.inject:guice:jar:4.0:test
+|     +- (javax.inject:javax.inject:jar:1:compile - scope updated from test; omitted for duplicate)
+|     +- aopalliance:aopalliance:jar:1.0:test
+|     \- com.google.guava:guava:jar:16.0.1:test
++- org.assertj:assertj-core:jar:3.5.2:test
++- com.tngtech.java:junit-dataprovider:jar:1.9.3:test
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.mockito:mockito-core:jar:1.10.8:test
+|  +- (org.hamcrest:hamcrest-core:jar:1.1:test - omitted for conflict with 1.3)
+|  \- org.objenesis:objenesis:jar:2.1:test
++- io.rest-assured:rest-assured:jar:3.0.2:test
+|  +- org.codehaus.groovy:groovy:jar:2.4.6:test
+|  +- org.codehaus.groovy:groovy-xml:jar:2.4.6:test
+|  |  \- (org.codehaus.groovy:groovy:jar:2.4.6:test - omitted for duplicate)
+|  +- org.apache.httpcomponents:httpclient:jar:4.5.2:test
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.4.4:test
+|  |  +- commons-logging:commons-logging:jar:1.2:test
+|  |  \- commons-codec:commons-codec:jar:1.9:test
+|  +- org.apache.httpcomponents:httpmime:jar:4.5.1:test
+|  |  \- (org.apache.httpcomponents:httpclient:jar:4.5.1:test - omitted for conflict with 4.5.2)
+|  +- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for duplicate)
+|  +- org.hamcrest:hamcrest-library:jar:1.3:test
+|  |  \- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for duplicate)
+|  +- org.ccil.cowan.tagsoup:tagsoup:jar:1.2.1:test
+|  +- io.rest-assured:json-path:jar:3.0.2:test
+|  |  +- org.codehaus.groovy:groovy-json:jar:2.4.6:test
+|  |  |  \- (org.codehaus.groovy:groovy:jar:2.4.6:test - omitted for duplicate)
+|  |  +- (org.codehaus.groovy:groovy:jar:2.4.6:test - omitted for duplicate)
+|  |  \- io.rest-assured:rest-assured-common:jar:3.0.2:test
+|  |     +- (org.codehaus.groovy:groovy:jar:2.4.6:test - omitted for duplicate)
+|  |     \- (org.apache.commons:commons-lang3:jar:3.4:test - omitted for duplicate)
+|  \- io.rest-assured:xml-path:jar:3.0.2:test
+|     +- (org.codehaus.groovy:groovy-xml:jar:2.4.6:test - omitted for duplicate)
+|     +- (org.codehaus.groovy:groovy:jar:2.4.6:test - omitted for duplicate)
+|     +- (io.rest-assured:rest-assured-common:jar:3.0.2:test - omitted for duplicate)
+|     +- org.apache.commons:commons-lang3:jar:3.4:test
+|     \- (org.ccil.cowan.tagsoup:tagsoup:jar:1.2.1:test - omitted for duplicate)
++- ch.qos.logback:logback-classic:jar:1.1.7:test
+|  +- (ch.qos.logback:logback-core:jar:1.1.7:test - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.20:test - omitted for conflict with 1.7.21)
+\- ch.qos.logback:logback-core:jar:1.1.7:test

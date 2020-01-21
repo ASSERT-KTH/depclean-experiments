@@ -1,0 +1,29 @@
+com.techempower:gemini:jar:2.21.0
++- com.fasterxml.jackson.core:jackson-core:jar:2.9.5:compile
++- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.5:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.5:compile - version managed from 2.9.0; omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.5:compile - omitted for duplicate)
++- javax.activation:activation:jar:1.1.1:compile
++- com.sun.mail:javax.mail:jar:1.6.1:compile
+|  \- (javax.activation:activation:jar:1.1.1:compile - version managed from 1.1; omitted for duplicate)
++- org.im4java:im4java:jar:1.4.0:compile
++- net.sf.trove4j:trove4j:jar:3.0.3:compile
++- com.github.spullara.mustache.java:compiler:jar:0.9.5:compile
++- org.mindrot:jbcrypt:jar:0.4:compile
++- com.esotericsoftware:kryo:jar:4.0.2:compile
+|  +- com.esotericsoftware:reflectasm:jar:1.11.3:compile
+|  |  \- org.ow2.asm:asm:jar:5.0.4:compile
+|  +- com.esotericsoftware:minlog:jar:1.3.0:compile
+|  \- org.objenesis:objenesis:jar:2.5.1:compile
++- com.mortennobel:java-image-scaling:jar:0.8.6:compile
+|  \- com.jhlabs:filters:jar:2.0.235:compile
++- org.reflections:reflections:jar:0.9.11:compile
+|  +- com.google.guava:guava:jar:20.0:compile
+|  \- (org.javassist:javassist:jar:3.22.0-GA:compile - version managed from 3.21.0-GA; omitted for duplicate)
++- org.javassist:javassist:jar:3.22.0-GA:compile
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- io.jsonwebtoken:jjwt:jar:0.9.0:compile
+|  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile - version managed from 2.8.9; omitted for duplicate)
+\- javax.jms:javax.jms-api:jar:2.0.1:compile

@@ -1,0 +1,52 @@
+org.keycloak:keycloak-saml-wildfly-adapter:jar:3.4.3.Final
++- org.jboss.logging:jboss-logging:jar:3.3.1.Final:provided (scope not updated to compile)
++- org.keycloak:keycloak-common:jar:3.4.3.Final:compile
+|  +- org.bouncycastle:bcprov-jdk15on:jar:1.56:compile
+|  \- org.bouncycastle:bcpkix-jdk15on:jar:1.56:compile
+|     \- (org.bouncycastle:bcprov-jdk15on:jar:1.56:compile - omitted for duplicate)
++- org.keycloak:keycloak-adapter-spi:jar:3.4.3.Final:compile
++- org.keycloak:keycloak-saml-adapter-api-public:jar:3.4.3.Final:provided
++- org.keycloak:keycloak-saml-adapter-core:jar:3.4.3.Final:compile
++- org.keycloak:keycloak-undertow-adapter-spi:jar:3.4.3.Final:compile
+|  +- (org.keycloak:keycloak-adapter-spi:jar:3.4.3.Final:compile - omitted for duplicate)
+|  \- (org.keycloak:keycloak-common:jar:3.4.3.Final:compile - omitted for duplicate)
++- org.keycloak:keycloak-saml-undertow-adapter:jar:3.4.3.Final:compile
++- org.keycloak:keycloak-jboss-adapter-core:jar:3.4.3.Final:compile
+|  +- (org.keycloak:keycloak-common:jar:3.4.3.Final:compile - omitted for duplicate)
+|  +- (org.keycloak:keycloak-adapter-spi:jar:3.4.3.Final:compile - omitted for duplicate)
+|  +- org.apache.httpcomponents:httpclient:jar:4.5.2:compile
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.4.4:compile
+|  |  +- commons-logging:commons-logging:jar:1.2:compile
+|  |  \- commons-codec:commons-codec:jar:1.9:compile
+|  +- (org.bouncycastle:bcprov-jdk15on:jar:1.56:compile - omitted for duplicate)
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.8.9:compile
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.8.9:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.9:compile - version managed from 2.8.0; omitted for duplicate)
+|  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.8.9:compile - omitted for duplicate)
+|  \- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.9:compile
++- org.infinispan:infinispan-core:jar:8.2.8.Final:compile
+|  +- org.infinispan:infinispan-commons:jar:8.2.8.Final:compile
+|  |  \- (org.jboss.logging:jboss-logging:jar:3.3.1.Final:compile - version managed from 3.3.0.Final; omitted for duplicate)
+|  +- org.jgroups:jgroups:jar:3.6.7.Final:compile
+|  +- org.jboss.spec.javax.transaction:jboss-transaction-api_1.1_spec:jar:1.0.1.Final:compile
+|  +- org.jboss.marshalling:jboss-marshalling-osgi:jar:2.0.0.Beta3:compile
+|  \- (org.jboss.logging:jboss-logging:jar:3.3.1.Final:compile - version managed from 3.3.0.Final; omitted for duplicate)
++- org.infinispan:infinispan-cachestore-remote:jar:8.2.8.Final:compile
+|  +- org.infinispan:infinispan-client-hotrod:jar:8.2.8.Final:compile
+|  |  +- (org.infinispan:infinispan-commons:jar:8.2.8.Final:compile - omitted for duplicate)
+|  |  +- (org.jboss.marshalling:jboss-marshalling-osgi:jar:2.0.0.Beta3:compile - omitted for duplicate)
+|  |  \- commons-pool:commons-pool:jar:1.6:compile
+|  \- (org.infinispan:infinispan-core:jar:8.2.8.Final:compile - omitted for duplicate)
++- org.picketbox:picketbox:jar:4.0.20.Final:provided
++- org.jboss.spec.javax.servlet:jboss-servlet-api_3.0_spec:jar:1.0.2.Final:provided
++- io.undertow:undertow-servlet:jar:1.4.18.Final:provided
+|  +- (io.undertow:undertow-core:jar:1.4.18.Final:provided - omitted for duplicate)
+|  +- org.jboss.spec.javax.servlet:jboss-servlet-api_3.1_spec:jar:1.0.0.Final:provided
+|  \- org.jboss.spec.javax.annotation:jboss-annotations-api_1.2_spec:jar:1.0.0.Final:provided
++- io.undertow:undertow-core:jar:1.4.18.Final:provided
+|  +- (org.jboss.logging:jboss-logging:jar:3.3.1.Final:provided - version managed from 3.2.1.Final; omitted for duplicate)
+|  +- org.jboss.xnio:xnio-api:jar:3.3.8.Final:provided
+|  \- org.jboss.xnio:xnio-nio:jar:3.3.8.Final:provided
+|     \- (org.jboss.xnio:xnio-api:jar:3.3.8.Final:provided - omitted for duplicate)
+\- junit:junit:jar:4.12:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

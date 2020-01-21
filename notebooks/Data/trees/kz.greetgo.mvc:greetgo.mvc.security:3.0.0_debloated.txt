@@ -1,0 +1,15 @@
+kz.greetgo.mvc:greetgo.mvc.security:jar:3.0.0
++- kz.greetgo.mvc:greetgo.mvc:jar:3.0.0:compile
+|  +- kz.greetgo.mvc:greetgo.mvc.util:jar:3.0.0:compile
+|  |  \- javax.servlet:javax.servlet-api:jar:3.1.0:compile
+|  +- (kz.greetgo:greetgo.util:jar:2.0.0:compile - omitted for duplicate)
+|  \- com.fasterxml.jackson.core:jackson-databind:jar:2.7.3:compile
+|     +- com.fasterxml.jackson.core:jackson-annotations:jar:2.7.0:compile
+|     \- com.fasterxml.jackson.core:jackson-core:jar:2.7.3:compile
++- org.testng:testng:jar:6.14.3:test
+|  +- com.beust:jcommander:jar:1.72:test
+|  \- org.apache-extras.beanshell:bsh:jar:2.0b6:test
++- org.easytesting:fest-assert-core:jar:2.0M10:test
+|  \- org.easytesting:fest-util:jar:1.2.5:test
+\- kz.greetgo:greetgo.util:jar:2.0.0:test (scope not updated to compile)
+   \- com.google.code.findbugs:annotations:jar:2.0.1:test

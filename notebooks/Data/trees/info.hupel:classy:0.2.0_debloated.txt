@@ -1,0 +1,1 @@
+info.hupel:classy:jar:0.2.0

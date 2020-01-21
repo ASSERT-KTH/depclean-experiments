@@ -1,0 +1,23 @@
+ru.sbtqa.tag.pagefactory:page-factory-utils:jar:0.1.0
++- ru.sbtqa.tag.pagefactory:page-factory-api:jar:0.1.0:compile
+|  +- (junit:junit:jar:4.12:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.22:compile - omitted for duplicate)
++- ru.sbtqa.tag:cucumber-runner:jar:1.0.8:compile
+|  +- org.apache.commons:commons-lang3:jar:3.3.2:compile
+|  +- info.cukes:cucumber-junit:jar:1.2.5:compile
+|  |  +- info.cukes:cucumber-core:jar:1.2.5:compile
+|  |  |  +- info.cukes:cucumber-html:jar:0.2.3:compile
+|  |  |  +- info.cukes:cucumber-jvm-deps:jar:1.0.5:compile
+|  |  |  \- info.cukes:gherkin:jar:2.12.2:compile
+|  |  \- (junit:junit:jar:4.12:compile - omitted for duplicate)
+|  \- (ru.sbtqa.tag:qa-utils:jar:1.2.3:compile - omitted for conflict with 1.2.8)
++- ru.sbtqa.tag:qa-utils:jar:1.2.8:compile
+|  +- (org.apache.commons:commons-lang3:jar:3.3.2:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.22:compile - omitted for duplicate)
+|  \- org.slf4j:slf4j-log4j12:jar:1.7.22:compile
+|     +- (org.slf4j:slf4j-api:jar:1.7.22:compile - omitted for duplicate)
+|     \- log4j:log4j:jar:1.2.17:compile
++- org.seleniumhq.selenium:selenium-api:jar:2.53.1:compile
+|  +- com.google.guava:guava:jar:19.0:compile
+|  \- com.google.code.gson:gson:jar:2.3.1:compile
+\- org.slf4j:slf4j-api:jar:1.7.22:compile

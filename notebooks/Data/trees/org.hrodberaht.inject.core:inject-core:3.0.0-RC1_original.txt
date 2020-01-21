@@ -1,0 +1,15 @@
+org.hrodberaht.inject.core:inject-core:jar:3.0.0-RC1
++- javax.inject:javax.inject-tck:jar:1:test
+|  +- (javax.inject:javax.inject:jar:1:test - omitted for duplicate)
+|  \- (junit:junit:jar:4.12:provided - version managed from 4.7; scope managed from test; omitted for duplicate)
++- javax.inject:javax.inject:jar:1:compile
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- cglib:cglib:jar:3.2.5:compile
+|  +- org.ow2.asm:asm:jar:6.0_ALPHA:compile
+|  \- org.apache.ant:ant:jar:1.9.6:compile
+|     \- org.apache.ant:ant-launcher:jar:1.9.6:compile
++- org.slf4j:slf4j-api:jar:1.7.25:compile
+\- org.slf4j:slf4j-log4j12:jar:1.7.25:provided
+   +- (org.slf4j:slf4j-api:jar:1.7.25:provided - omitted for duplicate)
+   \- log4j:log4j:jar:1.2.17:provided

@@ -1,0 +1,2 @@
+org.webjars.npm:handsontable__formulajs:jar:1.2.3
+\- org.webjars.npm:jStat:jar:1.7.1:compile

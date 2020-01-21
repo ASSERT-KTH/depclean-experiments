@@ -1,0 +1,22 @@
+org.ops4j.pax.jdbc:pax-jdbc-pool-hikaricp:bundle:1.3.0
++- org.apache.geronimo.specs:geronimo-jta_1.1_spec:jar:1.1.1:compile
++- org.ops4j.pax.jdbc:pax-jdbc-pool-common:jar:1.3.0:compile
+|  +- (org.apache.geronimo.specs:geronimo-jta_1.1_spec:jar:1.1.1:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.6.4:compile - version managed from 1.7.21; omitted for duplicate)
+|  \- (org.slf4j:jcl-over-slf4j:jar:1.6.4:compile - omitted for duplicate)
++- com.zaxxer:HikariCP-java7:jar:2.4.11:compile
+|  \- (org.slf4j:slf4j-api:jar:1.6.4:compile - version managed from 1.7.21; omitted for duplicate)
++- org.osgi:org.osgi.core:jar:6.0.0:provided
++- org.osgi:org.osgi.compendium:jar:5.0.0:provided
++- org.osgi:org.osgi.service.jdbc:jar:1.0.0:provided
++- org.slf4j:slf4j-api:jar:1.6.4:compile
++- org.slf4j:jcl-over-slf4j:jar:1.6.4:compile
+|  \- (org.slf4j:slf4j-api:jar:1.6.4:compile - version managed from 1.7.21; omitted for duplicate)
++- org.easymock:easymock:jar:3.4:test
+|  \- org.objenesis:objenesis:jar:2.2:test
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- ch.qos.logback:logback-core:jar:1.0.9:test
+\- ch.qos.logback:logback-classic:jar:1.0.9:test
+   +- (ch.qos.logback:logback-core:jar:1.0.9:test - omitted for duplicate)
+   \- (org.slf4j:slf4j-api:jar:1.6.4:test - version managed from 1.7.2; omitted for duplicate)

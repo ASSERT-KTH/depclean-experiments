@@ -1,0 +1,14 @@
+com.opengamma.strata:strata-product:jar:1.7.1
++- com.opengamma.strata:strata-collect:jar:1.7.1:compile
+|  +- com.google.guava:guava:jar:25.1-jre:compile
+|  +- org.joda:joda-beans:jar:2.2.1:compile
+|  \- org.joda:joda-convert:jar:2.0.2:compile
++- com.opengamma.strata:strata-basics:jar:1.7.1:compile
++- org.mockito:mockito-core:jar:2.18.3:test
+|  +- net.bytebuddy:byte-buddy:jar:1.8.5:test
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.8.5:test
+|  \- org.objenesis:objenesis:jar:2.6:test
++- com.opengamma.strata:strata-collect:test-jar:tests:1.7.1:test
++- org.testng:testng:jar:6.14.2:test
+|  \- com.beust:jcommander:jar:1.72:test
+\- org.assertj:assertj-core:jar:3.9.0:test

@@ -1,0 +1,2 @@
+org.webjars.bowergithub.brightspaceui:localize-behavior:jar:1.1.1
+\- org.webjars.bowergithub.brightspace:d2l-intl-import:jar:1.0.0:compile

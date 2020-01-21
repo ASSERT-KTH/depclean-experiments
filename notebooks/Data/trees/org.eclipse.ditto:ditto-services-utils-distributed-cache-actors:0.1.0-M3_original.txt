@@ -1,0 +1,53 @@
+org.eclipse.ditto:ditto-services-utils-distributed-cache-actors:jar:0.1.0-M3
++- org.eclipse.ditto:ditto-services-utils-distributed-cache-model:jar:0.1.0-M3:compile
+|  +- org.eclipse.ditto:ditto-json:jar:0.1.0-M3:compile
+|  |  \- com.eclipsesource.minimal-json:minimal-json:jar:0.9.5:compile
+|  +- org.eclipse.ditto:ditto-model-base:jar:0.1.0-M3:compile
+|  |  \- (org.eclipse.ditto:ditto-json:jar:0.1.0-M3:compile - omitted for duplicate)
+|  \- (com.google.code.findbugs:jsr305:jar:3.0.1:compile - omitted for duplicate)
++- com.typesafe.akka:akka-actor_2.12:jar:2.5.8:compile
+|  +- org.scala-lang:scala-library:jar:2.12.3:compile (version managed from 2.12.4)
+|  +- com.typesafe:config:jar:1.3.1:compile (version managed from 1.3.2)
+|  \- org.scala-lang.modules:scala-java8-compat_2.12:jar:0.8.0:compile
+|     \- (org.scala-lang:scala-library:jar:2.12.3:compile - version managed from 2.12.0; omitted for duplicate)
++- com.typesafe.akka:akka-distributed-data_2.12:jar:2.5.8:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.3:compile - version managed from 2.12.4; omitted for duplicate)
+|  +- com.typesafe.akka:akka-cluster_2.12:jar:2.5.8:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.3:compile - version managed from 2.12.4; omitted for duplicate)
+|  |  \- com.typesafe.akka:akka-remote_2.12:jar:2.5.8:compile
+|  |     +- (org.scala-lang:scala-library:jar:2.12.3:compile - version managed from 2.12.4; omitted for duplicate)
+|  |     +- (com.typesafe.akka:akka-actor_2.12:jar:2.5.8:compile - omitted for duplicate)
+|  |     +- com.typesafe.akka:akka-stream_2.12:jar:2.5.8:compile
+|  |     |  +- (org.scala-lang:scala-library:jar:2.12.3:compile - version managed from 2.12.4; omitted for duplicate)
+|  |     |  +- (com.typesafe.akka:akka-actor_2.12:jar:2.5.8:compile - omitted for duplicate)
+|  |     |  +- org.reactivestreams:reactive-streams:jar:1.0.1:compile
+|  |     |  \- com.typesafe:ssl-config-core_2.12:jar:0.2.2:compile
+|  |     |     +- (org.scala-lang:scala-library:jar:2.12.3:compile - version managed from 2.12.1; omitted for duplicate)
+|  |     |     +- (com.typesafe:config:jar:1.3.1:compile - version managed from 1.2.0; omitted for duplicate)
+|  |     |     \- org.scala-lang.modules:scala-parser-combinators_2.12:jar:1.0.4:compile
+|  |     |        \- (org.scala-lang:scala-library:jar:2.12.3:compile - version managed from 2.12.0; omitted for duplicate)
+|  |     +- com.typesafe.akka:akka-protobuf_2.12:jar:2.5.8:compile
+|  |     |  \- (org.scala-lang:scala-library:jar:2.12.3:compile - version managed from 2.12.4; omitted for duplicate)
+|  |     +- io.netty:netty:jar:3.10.6.Final:compile
+|  |     +- io.aeron:aeron-driver:jar:1.3.0:compile
+|  |     |  \- (io.aeron:aeron-client:jar:1.3.0:compile - omitted for duplicate)
+|  |     \- io.aeron:aeron-client:jar:1.3.0:compile
+|  |        \- org.agrona:agrona:jar:0.9.6:compile
+|  \- org.lmdbjava:lmdbjava:jar:0.6.0:compile
+|     +- com.github.jnr:jnr-ffi:jar:2.1.6:compile
+|     |  +- com.github.jnr:jffi:jar:1.2.16:compile
+|     |  +- com.github.jnr:jffi:jar:native:1.2.16:runtime
+|     |  +- org.ow2.asm:asm:jar:5.2:compile (version managed from 5.0.3)
+|     |  +- org.ow2.asm:asm-commons:jar:5.2:compile (version managed from 5.0.3)
+|     |  |  \- (org.ow2.asm:asm-tree:jar:5.2:compile - version managed from 5.0.3; omitted for duplicate)
+|     |  +- org.ow2.asm:asm-analysis:jar:5.2:compile (version managed from 5.0.3)
+|     |  |  \- (org.ow2.asm:asm-tree:jar:5.2:compile - omitted for duplicate)
+|     |  +- org.ow2.asm:asm-tree:jar:5.2:compile
+|     |  |  \- (org.ow2.asm:asm:jar:5.2:compile - version managed from 5.0.3; omitted for duplicate)
+|     |  +- org.ow2.asm:asm-util:jar:5.2:compile (version managed from 5.0.3)
+|     |  |  \- (org.ow2.asm:asm-tree:jar:5.2:compile - version managed from 5.0.3; omitted for duplicate)
+|     |  \- com.github.jnr:jnr-x86asm:jar:1.0.2:compile
+|     \- com.github.jnr:jnr-constants:jar:0.9.9:compile
++- com.google.code.findbugs:jsr305:jar:3.0.1:provided (scope not updated to compile)
+\- org.eclipse.ditto:ditto-utils-jsr305:jar:0.1.0-M3:provided
+   \- (com.google.code.findbugs:jsr305:jar:3.0.1:provided - omitted for duplicate)

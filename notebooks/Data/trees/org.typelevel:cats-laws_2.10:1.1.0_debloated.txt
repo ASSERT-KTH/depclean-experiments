@@ -1,0 +1,38 @@
+org.typelevel:cats-laws_2.10:jar:1.1.0
++- org.scala-lang:scala-library:jar:2.10.7:compile
++- org.typelevel:cats-macros_2.10:jar:1.1.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.10.7:compile - omitted for duplicate)
+|  \- (org.typelevel:machinist_2.10:jar:0.6.2:compile - omitted for duplicate)
++- org.typelevel:cats-kernel_2.10:jar:1.1.0:compile
+|  \- (org.scala-lang:scala-library:jar:2.10.7:compile - omitted for duplicate)
++- org.typelevel:cats-core_2.10:jar:1.1.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.10.7:compile - omitted for duplicate)
+|  +- (org.typelevel:cats-macros_2.10:jar:1.1.0:compile - omitted for duplicate)
+|  +- (org.typelevel:cats-kernel_2.10:jar:1.1.0:compile - omitted for duplicate)
+|  \- (org.typelevel:machinist_2.10:jar:0.6.2:compile - omitted for duplicate)
++- org.typelevel:cats-kernel-laws_2.10:jar:1.1.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.10.7:compile - omitted for duplicate)
+|  +- (org.typelevel:cats-kernel_2.10:jar:1.1.0:compile - omitted for duplicate)
+|  +- (org.scalacheck:scalacheck_2.10:jar:1.13.5:compile - omitted for duplicate)
+|  +- (org.typelevel:discipline_2.10:jar:0.8:compile - omitted for duplicate)
+|  \- (org.typelevel:catalysts-platform_2.10:jar:0.0.5:compile - omitted for duplicate)
++- org.scalacheck:scalacheck_2.10:jar:1.13.5:compile
+|  +- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for conflict with 2.10.7)
+|  \- org.scala-sbt:test-interface:jar:1.0:compile
++- org.typelevel:discipline_2.10:jar:0.8:compile
+|  +- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for conflict with 2.10.7)
+|  \- (org.scalacheck:scalacheck_2.10:jar:1.13.5:compile - omitted for duplicate)
++- org.typelevel:catalysts-macros_2.10:jar:0.0.5:test (scope not updated to compile)
+|  +- (org.scala-lang:scala-library:jar:2.10.6:test - omitted for conflict with 2.10.7)
+|  +- org.typelevel:macro-compat_2.10:jar:1.1.1:test
+|  |  +- (org.scala-lang:scala-library:jar:2.10.6:test - omitted for conflict with 2.10.7)
+|  |  \- (org.scalamacros:quasiquotes_2.10:jar:2.1.0:test - omitted for duplicate)
+|  \- org.scalamacros:quasiquotes_2.10:jar:2.1.0:test
+|     +- (org.scala-lang:scala-library:jar:2.10.4:test - omitted for conflict with 2.10.7)
+|     \- (org.scala-lang:scala-reflect:jar:2.10.4:test - omitted for conflict with 2.10.6)
+\- org.scalatest:scalatest_2.10:jar:3.0.3:test
+   +- (org.scala-lang:scala-library:jar:2.10.6:test - omitted for conflict with 2.10.7)
+   +- org.scalactic:scalactic_2.10:jar:3.0.3:test
+   |  +- (org.scala-lang:scala-library:jar:2.10.6:test - omitted for conflict with 2.10.7)
+   |  \- (org.scala-lang:scala-reflect:jar:2.10.6:test - omitted for duplicate)
+   \- (org.scala-lang:scala-reflect:jar:2.10.6:test - omitted for duplicate)

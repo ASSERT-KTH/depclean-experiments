@@ -1,0 +1,50 @@
+io.udash:udash-css-shared_2.12:jar:0.6.0-RC3
++- org.scala-lang:scala-library:jar:2.12.4:compile
++- io.udash:udash-css-macros_2.12:jar:0.6.0-RC3:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  +- (com.github.ghik:silencer-lib_2.12:jar:0.6:compile - omitted for duplicate)
+|  +- (com.avsystem.commons:commons-core_2.12:jar:1.25.5:compile - omitted for duplicate)
+|  +- org.scala-lang:scala-reflect:jar:2.12.4:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  \- (com.github.japgolly.scalacss:core_2.12:jar:0.5.5:compile - omitted for duplicate)
++- io.udash:udash-core-shared_2.12:jar:0.6.0-RC3:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  +- io.udash:udash-core-macros_2.12:jar:0.6.0-RC3:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  |  +- (com.github.ghik:silencer-lib_2.12:jar:0.6:compile - omitted for duplicate)
+|  |  +- (com.avsystem.commons:commons-core_2.12:jar:1.25.5:compile - omitted for duplicate)
+|  |  \- (org.scala-lang:scala-reflect:jar:2.12.4:compile - omitted for duplicate)
+|  +- (com.github.ghik:silencer-lib_2.12:jar:0.6:compile - omitted for duplicate)
+|  +- (com.avsystem.commons:commons-core_2.12:jar:1.25.5:compile - omitted for duplicate)
+|  +- com.lihaoyi:scalatags_2.12:jar:0.6.7:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.4)
+|  |  \- com.lihaoyi:sourcecode_2.12:jar:0.1.4:compile
+|  |     \- (org.scala-lang:scala-library:jar:2.12.2:compile - omitted for conflict with 2.12.4)
+|  \- com.typesafe.scala-logging:scala-logging_2.12:jar:3.7.2:compile
+|     +- (org.scala-lang:scala-library:jar:2.12.2:compile - omitted for conflict with 2.12.4)
+|     +- (org.scala-lang:scala-reflect:jar:2.12.2:compile - omitted for conflict with 2.12.4)
+|     \- org.slf4j:slf4j-api:jar:1.7.25:compile
++- com.github.ghik:silencer-lib_2.12:jar:0.6:compile
+|  \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
++- com.avsystem.commons:commons-core_2.12:jar:1.25.5:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  \- com.avsystem.commons:commons-macros_2.12:jar:1.25.5:compile
+|     +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|     +- com.avsystem.commons:commons-annotations_2.12:jar:1.25.5:compile
+|     |  \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|     \- (org.scala-lang:scala-reflect:jar:2.12.4:compile - omitted for duplicate)
++- org.scalatest:scalatest_2.12:jar:3.0.4:test
+|  +- (org.scala-lang:scala-library:jar:2.12.3:test - omitted for conflict with 2.12.4)
+|  +- org.scalactic:scalactic_2.12:jar:3.0.4:test
+|  |  +- (org.scala-lang:scala-library:jar:2.12.3:test - omitted for conflict with 2.12.4)
+|  |  \- (org.scala-lang:scala-reflect:jar:2.12.3:test - omitted for conflict with 2.12.4)
+|  +- (org.scala-lang:scala-reflect:jar:2.12.3:test - omitted for conflict with 2.12.4)
+|  +- org.scala-lang.modules:scala-xml_2.12:jar:1.0.5:test
+|  |  \- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.4)
+|  \- org.scala-lang.modules:scala-parser-combinators_2.12:jar:1.0.4:test
+|     \- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.4)
+\- com.github.japgolly.scalacss:core_2.12:jar:0.5.5:compile
+   +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+   +- (org.scala-lang:scala-reflect:jar:2.12.4:compile - omitted for duplicate)
+   \- com.github.japgolly.univeq:univeq_2.12:jar:1.0.2:compile
+      \- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.4)

@@ -1,0 +1,50 @@
+org.codehaus.izpack:izpack-compiler:jar:5.1.3
++- org.codehaus.izpack:izpack-panel:jar:5.1.3:compile
+|  +- org.codehaus.izpack:izpack-api:jar:5.1.3:compile
+|  +- org.codehaus.izpack:izpack-tools:jar:5.1.3:compile
+|  +- org.codehaus.izpack:izpack-installer:jar:5.1.3:compile
+|  +- org.codehaus.izpack:izpack-gui:jar:5.1.3:compile
+|  +- org.codehaus.izpack:izpack-core:jar:5.1.3:compile
+|  +- org.apache.pdfbox:pdfbox:jar:1.8.10:compile
+|  |  +- org.apache.pdfbox:fontbox:jar:1.8.10:compile
+|  |  +- org.apache.pdfbox:jempbox:jar:1.8.10:compile
+|  |  \- commons-logging:commons-logging:jar:1.1.1:compile
+|  \- org.icepdf.os:icepdf-viewer:jar:6.2.2:compile
+|     +- org.icepdf.os:icepdf-core:jar:6.2.2:compile
+|     |  \- com.sun.media:jai_imageio:pom:1.1:compile
+|     +- org.bouncycastle:bcpkix-jdk15on:jar:1.54:compile
+|     +- org.bouncycastle:bcprov-ext-jdk15on:jar:1.54:compile
+|     +- batik:batik-awt-util:jar:1.6:compile
+|     +- batik:batik-dom:jar:1.6:compile
+|     +- batik:batik-svg-dom:jar:1.6:compile
+|     +- batik:batik-svggen:jar:1.6:compile
+|     +- batik:batik-util:jar:1.6:compile
+|     \- batik:batik-xml:jar:1.6:compile
++- org.codehaus.izpack:izpack-event:jar:5.1.3:compile
+|  \- org.apache.ant:ant:jar:1.9.9:compile
+|     \- org.apache.ant:ant-launcher:jar:1.9.9:compile
++- org.codehaus.izpack:izpack-util:jar:5.1.3:compile
+|  \- org.jdom:jdom2:jar:2.0.5:compile
++- org.picocontainer:picocontainer:jar:2.15:compile
++- org.apache.commons:commons-lang3:jar:3.5:compile
++- commons-cli:commons-cli:jar:1.3.1:compile
++- commons-io:commons-io:jar:2.5:compile
++- org.apache.commons:commons-compress:jar:1.12:compile
++- org.tukaani:xz:jar:1.6:compile
++- org.apache.tika:tika-core:jar:1.9:compile
++- org.codehaus.izpack:izpack-test-common:jar:5.1.3:test
+|  \- org.hamcrest:hamcrest-all:jar:1.1:test
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.mockito:mockito-all:jar:1.8.5:test
++- org.apache.maven.shared:maven-shared-jar:jar:1.1:test
+|  +- org.apache.maven:maven-model:jar:3.2.5:test
+|  |  \- org.codehaus.plexus:plexus-utils:jar:3.0.20:compile
+|  +- org.apache.maven:maven-artifact:jar:3.2.5:test
+|  +- org.codehaus.plexus:plexus-digest:jar:1.0:test
+|  |  \- org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-8:test
+|  |     \- classworlds:classworlds:jar:1.1-alpha-2:test
+|  +- org.apache.bcel:bcel:jar:5.2:test
+|  |  \- jakarta-regexp:jakarta-regexp:jar:1.4:test
+|  \- commons-collections:commons-collections:jar:3.1:test
+\- com.incors:kunstoff-laf:jar:2.0.2:compile

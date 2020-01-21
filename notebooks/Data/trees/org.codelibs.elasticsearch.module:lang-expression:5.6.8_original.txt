@@ -1,0 +1,12 @@
+org.codelibs.elasticsearch.module:lang-expression:jar:5.6.8
++- org.antlr:antlr4-runtime:jar:4.5.1-1:compile
++- org.ow2.asm:asm:jar:5.0.4:compile
++- org.ow2.asm:asm-commons:jar:5.0.4:compile
+|  \- (org.ow2.asm:asm-tree:jar:5.0.4:compile - omitted for duplicate)
++- org.ow2.asm:asm-tree:jar:5.0.4:compile
+|  \- (org.ow2.asm:asm:jar:5.0.4:compile - omitted for duplicate)
+\- org.apache.lucene:lucene-expressions:jar:6.6.1:compile
+   +- org.apache.lucene:lucene-core:jar:6.6.1:compile
+   +- (org.antlr:antlr4-runtime:jar:4.5.1-1:compile - omitted for duplicate)
+   +- (org.ow2.asm:asm:jar:5.1:compile - omitted for conflict with 5.0.4)
+   \- (org.ow2.asm:asm-commons:jar:5.1:compile - omitted for conflict with 5.0.4)

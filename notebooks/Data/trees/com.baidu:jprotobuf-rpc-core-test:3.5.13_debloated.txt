@@ -1,0 +1,10 @@
+com.baidu:jprotobuf-rpc-core-test:jar:3.5.13
++- javax.servlet:servlet-api:jar:2.4:compile
++- junit:junit:jar:4.10:compile
+|  \- org.hamcrest:hamcrest-core:jar:1.1:compile
++- com.baidu:jprotobuf:jar:1.11.0:compile
+|  +- com.google.protobuf:protobuf-java:jar:2.5.0:compile
+|  +- com.squareup:protoparser:jar:3.1.5:compile
+|  \- org.javassist:javassist:jar:3.22.0-CR1:compile
++- com.baidu:jprotobuf-rpc-common:jar:1.8:compile
+\- io.netty:netty-all:jar:4.0.27.Final:compile

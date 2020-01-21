@@ -1,0 +1,29 @@
+com.github.cb372:scalacache-cats-effect_2.12:jar:0.22.0
++- org.scala-lang:scala-library:jar:2.12.4:compile
++- com.github.cb372:scalacache-core_2.12:jar:0.22.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  \- org.scala-lang:scala-reflect:jar:2.12.4:compile
+|     \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
++- org.scalatest:scalatest_2.12:jar:3.0.4:test
+|  +- (org.scala-lang:scala-library:jar:2.12.3:test - omitted for conflict with 2.12.4)
+|  +- org.scalactic:scalactic_2.12:jar:3.0.4:test
+|  |  +- (org.scala-lang:scala-library:jar:2.12.3:test - omitted for conflict with 2.12.4)
+|  |  \- (org.scala-lang:scala-reflect:jar:2.12.3:test - omitted for conflict with 2.12.4)
+|  +- (org.scala-lang:scala-reflect:jar:2.12.3:test - omitted for conflict with 2.12.4)
+|  +- org.scala-lang.modules:scala-xml_2.12:jar:1.0.5:test
+|  |  \- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.4)
+|  \- org.scala-lang.modules:scala-parser-combinators_2.12:jar:1.0.4:test
+|     \- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.4)
+\- org.typelevel:cats-effect_2.12:jar:0.8:compile
+   +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+   \- org.typelevel:cats-core_2.12:jar:1.0.1:compile
+      +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+      +- org.typelevel:cats-macros_2.12:jar:1.0.1:compile
+      |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+      |  \- (org.typelevel:machinist_2.12:jar:0.6.2:compile - omitted for duplicate)
+      +- org.typelevel:cats-kernel_2.12:jar:1.0.1:compile
+      |  \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+      \- org.typelevel:machinist_2.12:jar:0.6.2:compile
+         +- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.4)
+         \- (org.scala-lang:scala-reflect:jar:2.12.0:compile - omitted for conflict with 2.12.4)

@@ -1,0 +1,12 @@
+com.wudaosoft:httpclient-spring-boot-starter:jar:1.0.6
++- com.wudaosoft:wudaosoft-httpclient:jar:2.0.5:compile
+|  +- org.apache.httpcomponents:httpclient:jar:4.5.5:compile
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.4.9:compile
+|  |  \- commons-codec:commons-codec:jar:1.10:compile
+|  +- org.apache.httpcomponents:httpmime:jar:4.5.5:compile
+|  |  \- (org.apache.httpcomponents:httpclient:jar:4.5.5:compile - omitted for duplicate)
+|  \- com.alibaba:fastjson:jar:1.2.46:compile
++- org.slf4j:jul-to-slf4j:jar:1.7.25:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
++- org.slf4j:slf4j-api:jar:1.7.25:compile
+\- ch.qos.logback:logback-core:jar:1.2.3:compile

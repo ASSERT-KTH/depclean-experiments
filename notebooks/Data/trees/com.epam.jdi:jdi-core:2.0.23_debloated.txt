@@ -1,0 +1,8 @@
+com.epam.jdi:jdi-core:jar:2.0.23
++- org.aspectj:aspectjrt:jar:1.8.3:compile
++- org.apache.logging.log4j:log4j-api:jar:2.11.0:compile
++- org.apache.logging.log4j:log4j-core:jar:2.11.0:compile
+|  \- (org.apache.logging.log4j:log4j-api:jar:2.11.0:compile - omitted for duplicate)
+\- ru.yandex.qatools.allure:allure-java-adaptor-api:jar:RELEASE:compile
+   +- (ru.yandex.qatools.allure:allure-java-annotations:jar:1.5.4:compile - omitted for conflict with RELEASE)
+   \- org.apache.tika:tika-core:jar:1.7:compile

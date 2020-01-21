@@ -1,0 +1,16 @@
+org.apache.lucene:lucene-benchmark:jar:6.6.5
++- org.apache.lucene:lucene-test-framework:jar:6.6.5:test
++- org.apache.lucene:lucene-analyzers-common:jar:6.6.5:compile
++- org.apache.lucene:lucene-core:jar:6.6.5:compile
++- org.apache.lucene:lucene-facet:jar:6.6.5:compile
++- org.apache.lucene:lucene-highlighter:jar:6.6.5:compile
++- org.apache.lucene:lucene-memory:jar:6.6.5:compile
++- org.apache.lucene:lucene-queries:jar:6.6.5:compile
++- org.apache.lucene:lucene-queryparser:jar:6.6.5:compile
++- org.apache.lucene:lucene-spatial-extras:jar:6.6.5:compile
++- com.ibm.icu:icu4j:jar:56.1:compile
++- net.sourceforge.nekohtml:nekohtml:jar:1.9.17:compile
++- org.apache.commons:commons-compress:jar:1.14:compile
++- org.locationtech.spatial4j:spatial4j:jar:0.6:compile
++- junit:junit:jar:4.10:test
+\- com.carrotsearch.randomizedtesting:randomizedtesting-runner:jar:2.5.0:test

@@ -1,0 +1,181 @@
+io.gravitee.management.services:gravitee-management-api-services-sync:jar:1.12.3
++- org.springframework:spring-core:jar:4.3.3.RELEASE:provided
++- org.springframework:spring-context:jar:4.3.3.RELEASE:provided
+|  +- org.springframework:spring-aop:jar:4.3.3.RELEASE:provided
+|  |  +- (org.springframework:spring-beans:jar:4.3.3.RELEASE:provided - omitted for duplicate)
+|  |  \- (org.springframework:spring-core:jar:4.3.3.RELEASE:provided - omitted for duplicate)
+|  +- org.springframework:spring-beans:jar:4.3.3.RELEASE:provided
+|  |  \- (org.springframework:spring-core:jar:4.3.3.RELEASE:provided - omitted for duplicate)
+|  +- (org.springframework:spring-core:jar:4.3.3.RELEASE:provided - omitted for duplicate)
+|  \- org.springframework:spring-expression:jar:4.3.3.RELEASE:provided
+|     \- (org.springframework:spring-core:jar:4.3.3.RELEASE:provided - omitted for duplicate)
++- io.gravitee.common:gravitee-common:jar:1.8.0:provided
+|  \- com.fasterxml.uuid:java-uuid-generator:jar:3.1.4:provided
++- io.gravitee.management:gravitee-management-api-service:jar:1.12.3:provided
+|  +- io.gravitee.management:gravitee-management-api-model:jar:1.12.3:provided
+|  |  +- io.gravitee.definition:gravitee-definition-model:jar:1.8.0:provided
+|  |  |  \- (io.gravitee.common:gravitee-common:jar:1.8.0:provided - omitted for duplicate)
+|  |  +- (io.gravitee.definition:gravitee-definition-jackson:jar:1.8.0:provided - omitted for duplicate)
+|  |  +- javax.validation:validation-api:jar:1.1.0.Final:provided
+|  |  +- (io.gravitee.common:gravitee-common:jar:1.8.0:provided - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.21:provided - version managed from 1.6.3; omitted for duplicate)
+|  +- io.gravitee.management.idp:gravitee-management-api-idp-core:jar:1.12.3:provided
+|  |  +- io.gravitee.management.idp:gravitee-management-api-idp-api:jar:1.12.3:provided
+|  |  |  +- (io.gravitee.common:gravitee-common:jar:1.8.0:provided - omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.21:provided - omitted for duplicate)
+|  |  +- io.gravitee.plugin:gravitee-plugin-core:jar:1.3.0:provided
+|  |  |  +- (io.gravitee.common:gravitee-common:jar:1.8.0:provided - version managed from 1.6.0; omitted for duplicate)
+|  |  |  +- (org.reflections:reflections:jar:0.9.10:provided - omitted for duplicate)
+|  |  |  +- (org.springframework:spring-core:jar:4.3.3.RELEASE:provided - omitted for duplicate)
+|  |  |  \- (org.springframework:spring-context:jar:4.3.3.RELEASE:provided - omitted for duplicate)
+|  |  +- org.springframework.security:spring-security-web:jar:4.1.3.RELEASE:provided
+|  |  |  +- aopalliance:aopalliance:jar:1.0:provided
+|  |  |  +- org.springframework.security:spring-security-core:jar:4.1.3.RELEASE:provided
+|  |  |  |  +- (aopalliance:aopalliance:jar:1.0:provided - omitted for duplicate)
+|  |  |  |  +- (org.springframework:spring-aop:jar:4.3.3.RELEASE:provided - version managed from 4.3.2.RELEASE; omitted for duplicate)
+|  |  |  |  +- (org.springframework:spring-beans:jar:4.3.3.RELEASE:provided - version managed from 4.3.2.RELEASE; omitted for duplicate)
+|  |  |  |  +- (org.springframework:spring-context:jar:4.3.3.RELEASE:provided - version managed from 4.3.2.RELEASE; omitted for duplicate)
+|  |  |  |  +- (org.springframework:spring-core:jar:4.3.3.RELEASE:provided - version managed from 4.3.2.RELEASE; omitted for duplicate)
+|  |  |  |  \- (org.springframework:spring-expression:jar:4.3.3.RELEASE:provided - version managed from 4.3.2.RELEASE; omitted for duplicate)
+|  |  |  +- (org.springframework:spring-beans:jar:4.3.3.RELEASE:provided - version managed from 4.3.2.RELEASE; omitted for duplicate)
+|  |  |  +- (org.springframework:spring-context:jar:4.3.3.RELEASE:provided - version managed from 4.3.2.RELEASE; omitted for duplicate)
+|  |  |  +- (org.springframework:spring-core:jar:4.3.3.RELEASE:provided - version managed from 4.3.2.RELEASE; omitted for duplicate)
+|  |  |  +- (org.springframework:spring-expression:jar:4.3.3.RELEASE:provided - version managed from 4.3.2.RELEASE; omitted for duplicate)
+|  |  |  \- org.springframework:spring-web:jar:4.3.3.RELEASE:provided (version managed from 4.3.2.RELEASE)
+|  |  |     +- (org.springframework:spring-aop:jar:4.3.3.RELEASE:provided - version managed from 4.3.2.RELEASE; omitted for duplicate)
+|  |  |     +- (org.springframework:spring-beans:jar:4.3.3.RELEASE:provided - version managed from 4.3.2.RELEASE; omitted for duplicate)
+|  |  |     +- (org.springframework:spring-context:jar:4.3.3.RELEASE:provided - version managed from 4.3.2.RELEASE; omitted for duplicate)
+|  |  |     \- (org.springframework:spring-core:jar:4.3.3.RELEASE:provided - version managed from 4.3.2.RELEASE; omitted for duplicate)
+|  |  +- org.springframework.security:spring-security-config:jar:4.1.3.RELEASE:provided
+|  |  |  +- (aopalliance:aopalliance:jar:1.0:provided - omitted for duplicate)
+|  |  |  +- (org.springframework.security:spring-security-core:jar:4.1.3.RELEASE:provided - omitted for duplicate)
+|  |  |  +- (org.springframework:spring-aop:jar:4.3.3.RELEASE:provided - version managed from 4.3.2.RELEASE; omitted for duplicate)
+|  |  |  +- (org.springframework:spring-beans:jar:4.3.3.RELEASE:provided - version managed from 4.3.2.RELEASE; omitted for duplicate)
+|  |  |  +- (org.springframework:spring-context:jar:4.3.3.RELEASE:provided - version managed from 4.3.2.RELEASE; omitted for duplicate)
+|  |  |  \- (org.springframework:spring-core:jar:4.3.3.RELEASE:provided - version managed from 4.3.2.RELEASE; omitted for duplicate)
+|  |  +- (io.gravitee.common:gravitee-common:jar:1.8.0:provided - version managed from 1.6.0; omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.21:provided - omitted for duplicate)
+|  +- io.gravitee.management:gravitee-management-api-fetcher:jar:1.12.3:provided
+|  |  +- io.gravitee.fetcher:gravitee-fetcher-api:jar:1.0.0:provided
+|  |  |  \- (io.gravitee.common:gravitee-common:jar:1.8.0:provided - version managed from 1.0.0; omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.21:provided - omitted for duplicate)
+|  |  +- ch.qos.logback:logback-classic:jar:1.1.7:provided
+|  |  |  +- (ch.qos.logback:logback-core:jar:1.1.7:provided - omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.21:provided - version managed from 1.7.20; omitted for duplicate)
+|  |  +- ch.qos.logback:logback-core:jar:1.1.7:provided
+|  |  +- (org.springframework:spring-context:jar:4.3.3.RELEASE:provided - version managed from 4.3.2.RELEASE; omitted for duplicate)
+|  |  \- (io.gravitee.common:gravitee-common:jar:1.8.0:provided - version managed from 1.0.0; omitted for duplicate)
+|  +- io.gravitee.definition:gravitee-definition-jackson:jar:1.8.0:provided
+|  |  +- (io.gravitee.definition:gravitee-definition-model:jar:1.8.0:provided - omitted for duplicate)
+|  |  \- (io.gravitee.common:gravitee-common:jar:1.8.0:provided - version managed from 1.0.0; omitted for duplicate)
+|  +- io.gravitee.repository:gravitee-repository:jar:1.12.0:provided
+|  |  \- (io.gravitee.common:gravitee-common:jar:1.8.0:provided - version managed from 1.0.0; omitted for duplicate)
+|  +- io.gravitee.plugin:gravitee-plugin-policy:jar:1.3.0:provided
+|  |  +- (io.gravitee.plugin:gravitee-plugin-core:jar:1.3.0:provided - omitted for duplicate)
+|  |  +- io.gravitee.gateway:gravitee-gateway-api:jar:1.7.0:provided (version managed from 1.6.0)
+|  |  |  +- (io.gravitee.common:gravitee-common:jar:1.8.0:provided - version managed from 1.0.0; omitted for duplicate)
+|  |  |  +- io.gravitee.reporter:gravitee-reporter-api:jar:1.8.0:provided
+|  |  |  |  \- (io.gravitee.common:gravitee-common:jar:1.8.0:provided - version managed from 1.6.0; omitted for duplicate)
+|  |  |  +- (io.gravitee.gateway:gravitee-gateway-api:jar:1.4.0:provided - omitted for cycle)
+|  |  |  \- (io.gravitee.policy:gravitee-policy-api:jar:1.2.0:provided - omitted for duplicate)
+|  |  +- io.gravitee.policy:gravitee-policy-api:jar:1.2.0:provided
+|  |  |  +- (io.gravitee.policy:gravitee-policy-api:jar:1.2.0:provided - omitted for cycle)
+|  |  |  +- (io.gravitee.gateway:gravitee-gateway-api:jar:1.7.0:provided - version managed from 1.4.0; omitted for duplicate)
+|  |  |  \- javax.inject:javax.inject:jar:1:provided
+|  |  +- (io.gravitee.common:gravitee-common:jar:1.8.0:provided - version managed from 1.6.0; omitted for duplicate)
+|  |  +- org.reflections:reflections:jar:0.9.10:provided
+|  |  |  +- (com.google.guava:guava:jar:15.0:provided - omitted for conflict with 18.0)
+|  |  |  +- org.javassist:javassist:jar:3.19.0-GA:provided
+|  |  |  \- com.google.code.findbugs:annotations:jar:2.0.1:provided
+|  |  +- (org.springframework:spring-core:jar:4.3.3.RELEASE:provided - version managed from 4.3.2.RELEASE; omitted for duplicate)
+|  |  \- (org.springframework:spring-context:jar:4.3.3.RELEASE:provided - version managed from 4.3.2.RELEASE; omitted for duplicate)
+|  +- io.gravitee.plugin:gravitee-plugin-resource:jar:1.3.0:provided
+|  |  +- (io.gravitee.plugin:gravitee-plugin-core:jar:1.3.0:provided - omitted for duplicate)
+|  |  +- io.gravitee.resource:gravitee-resource-api:jar:1.0.0:provided
+|  |  |  +- (io.gravitee.common:gravitee-common:jar:1.8.0:provided - version managed from 1.0.0; omitted for duplicate)
+|  |  |  \- (javax.inject:javax.inject:jar:1:provided - omitted for duplicate)
+|  |  +- (io.gravitee.common:gravitee-common:jar:1.8.0:provided - version managed from 1.6.0; omitted for duplicate)
+|  |  +- (org.reflections:reflections:jar:0.9.10:provided - omitted for duplicate)
+|  |  +- (org.springframework:spring-core:jar:4.3.3.RELEASE:provided - version managed from 4.3.2.RELEASE; omitted for duplicate)
+|  |  \- (org.springframework:spring-context:jar:4.3.3.RELEASE:provided - version managed from 4.3.2.RELEASE; omitted for duplicate)
+|  +- io.gravitee.plugin:gravitee-plugin-fetcher:jar:1.3.0:provided
+|  |  +- (io.gravitee.fetcher:gravitee-fetcher-api:jar:1.0.0:provided - omitted for duplicate)
+|  |  +- (io.gravitee.plugin:gravitee-plugin-core:jar:1.3.0:provided - omitted for duplicate)
+|  |  +- (io.gravitee.common:gravitee-common:jar:1.8.0:provided - version managed from 1.6.0; omitted for duplicate)
+|  |  +- (org.reflections:reflections:jar:0.9.10:provided - omitted for duplicate)
+|  |  +- (org.springframework:spring-core:jar:4.3.3.RELEASE:provided - version managed from 4.3.2.RELEASE; omitted for duplicate)
+|  |  \- (org.springframework:spring-context:jar:4.3.3.RELEASE:provided - version managed from 4.3.2.RELEASE; omitted for duplicate)
+|  +- (org.springframework:spring-context:jar:4.3.3.RELEASE:provided - version managed from 4.3.2.RELEASE; omitted for duplicate)
+|  +- org.springframework:spring-context-support:jar:4.3.3.RELEASE:provided
+|  |  +- (org.springframework:spring-beans:jar:4.3.3.RELEASE:provided - version managed from 4.3.2.RELEASE; omitted for duplicate)
+|  |  +- (org.springframework:spring-context:jar:4.3.3.RELEASE:provided - version managed from 4.3.2.RELEASE; omitted for duplicate)
+|  |  \- (org.springframework:spring-core:jar:4.3.3.RELEASE:provided - version managed from 4.3.2.RELEASE; omitted for duplicate)
+|  +- org.springframework:spring-tx:jar:4.3.3.RELEASE:provided
+|  |  +- (org.springframework:spring-beans:jar:4.3.3.RELEASE:provided - version managed from 4.3.2.RELEASE; omitted for duplicate)
+|  |  \- (org.springframework:spring-core:jar:4.3.3.RELEASE:provided - version managed from 4.3.2.RELEASE; omitted for duplicate)
+|  +- commons-io:commons-io:jar:2.5:provided
+|  +- javax.mail:mail:jar:1.4.7:provided
+|  |  \- javax.activation:activation:jar:1.1:provided
+|  +- org.freemarker:freemarker:jar:2.3.26-incubating:provided
+|  +- org.jsoup:jsoup:jar:1.10.1:provided
+|  +- com.google.code.gson:gson:jar:2.7:provided
+|  +- com.github.fge:json-patch:jar:1.9:provided
+|  |  \- com.github.fge:jackson-coreutils:jar:1.6:provided
+|  |     +- com.github.fge:msg-simple:jar:1.1:provided
+|  |     |  +- com.github.fge:btf:jar:1.2:provided
+|  |     |  |  \- (com.google.code.findbugs:jsr305:jar:2.0.1:provided - omitted for duplicate)
+|  |     |  \- (com.google.code.findbugs:jsr305:jar:2.0.1:provided - omitted for duplicate)
+|  |     +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.4:provided - version managed from 2.2.3; omitted for duplicate)
+|  |     +- (com.google.guava:guava:jar:16.0.1:provided - omitted for conflict with 15.0)
+|  |     \- com.google.code.findbugs:jsr305:jar:2.0.1:provided
+|  +- io.swagger:swagger-compat-spec-parser:jar:1.0.28:provided
+|  |  +- io.swagger:swagger-parser:jar:1.0.28:provided
+|  |  |  +- org.slf4j:slf4j-ext:jar:1.6.3:provided
+|  |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:provided - version managed from 1.6.3; omitted for duplicate)
+|  |  |  |  \- ch.qos.cal10n:cal10n-api:jar:0.7.4:provided
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:provided - version managed from 1.6.3; omitted for duplicate)
+|  |  |  \- (commons-io:commons-io:jar:2.4:provided - omitted for conflict with 2.5)
+|  |  +- com.github.fge:json-schema-validator:jar:2.2.3:provided
+|  |  |  +- joda-time:joda-time:jar:2.3:provided
+|  |  |  +- com.github.fge:json-schema-core:jar:1.2.1:provided
+|  |  |  |  +- com.github.fge:uri-template:jar:0.9:provided
+|  |  |  |  |  +- (com.github.fge:msg-simple:jar:1.1:provided - omitted for duplicate)
+|  |  |  |  |  +- (com.google.guava:guava:jar:16.0.1:provided - omitted for conflict with 15.0)
+|  |  |  |  |  \- (com.google.code.findbugs:jsr305:jar:2.0.1:provided - omitted for duplicate)
+|  |  |  |  +- (com.github.fge:jackson-coreutils:jar:1.6:provided - omitted for duplicate)
+|  |  |  |  +- org.mozilla:rhino:jar:1.7R4:provided
+|  |  |  |  \- (com.google.code.findbugs:jsr305:jar:2.0.1:provided - omitted for duplicate)
+|  |  |  +- com.googlecode.libphonenumber:libphonenumber:jar:6.0:provided
+|  |  |  +- javax.mail:mailapi:jar:1.4.3:provided
+|  |  |  |  \- (javax.activation:activation:jar:1.1:provided - omitted for duplicate)
+|  |  |  +- (com.google.code.findbugs:jsr305:jar:2.0.1:provided - omitted for duplicate)
+|  |  |  \- net.sf.jopt-simple:jopt-simple:jar:4.6:provided
+|  |  +- (com.github.fge:json-patch:jar:1.6:provided - omitted for conflict with 1.9)
+|  |  \- org.apache.httpcomponents:httpclient:jar:4.5.2:provided
+|  |     +- org.apache.httpcomponents:httpcore:jar:4.4.4:provided
+|  |     +- commons-logging:commons-logging:jar:1.2:provided
+|  |     \- commons-codec:commons-codec:jar:1.9:provided
+|  +- io.swagger:swagger-core:jar:1.5.12:provided
+|  |  +- org.apache.commons:commons-lang3:jar:3.2.1:provided
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.21:provided - version managed from 1.6.3; omitted for duplicate)
+|  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.4:provided
+|  |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.8.4:provided
+|  |  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.8.4:provided
+|  |  +- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.8.4:provided
+|  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.4:provided - omitted for duplicate)
+|  |  |  \- org.yaml:snakeyaml:jar:1.15:provided
+|  |  +- io.swagger:swagger-models:jar:1.5.12:provided
+|  |  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.4:provided - version managed from 2.8.0; omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:provided - version managed from 1.6.3; omitted for duplicate)
+|  |  |  \- io.swagger:swagger-annotations:jar:1.5.12:provided
+|  |  +- com.google.guava:guava:jar:18.0:provided
+|  |  \- (javax.validation:validation-api:jar:1.1.0.Final:provided - omitted for duplicate)
+|  +- com.auth0:java-jwt:jar:2.2.1:provided
+|  +- (io.gravitee.common:gravitee-common:jar:1.8.0:provided - version managed from 1.6.0; omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.21:provided - version managed from 1.6.3; omitted for duplicate)
++- org.slf4j:slf4j-api:jar:1.7.21:compile
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.mockito:mockito-all:jar:1.10.19:test
+\- org.springframework:spring-test:jar:4.3.3.RELEASE:test
+   \- (org.springframework:spring-core:jar:4.3.3.RELEASE:test - version managed from 4.3.2.RELEASE; omitted for duplicate)

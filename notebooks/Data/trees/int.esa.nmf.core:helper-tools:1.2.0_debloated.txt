@@ -1,0 +1,2 @@
+int.esa.nmf.core:helper-tools:jar:1.2.0
+\- int.esa.ccsds.mo:API_MAL:jar:1.7:compile

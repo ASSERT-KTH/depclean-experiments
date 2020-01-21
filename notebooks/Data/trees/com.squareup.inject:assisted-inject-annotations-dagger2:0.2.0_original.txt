@@ -1,0 +1,2 @@
+com.squareup.inject:assisted-inject-annotations-dagger2:jar:0.2.0
+\- com.squareup.inject:assisted-inject-annotations:jar:0.2.0:compile

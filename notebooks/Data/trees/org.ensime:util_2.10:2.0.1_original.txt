@@ -1,0 +1,39 @@
+org.ensime:util_2.10:jar:2.0.1
++- org.scala-lang:scala-compiler:jar:2.10.6:compile
+|  +- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for duplicate)
+|  \- org.scala-lang:scala-reflect:jar:2.10.6:compile
+|     \- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for duplicate)
++- org.scala-lang:scala-library:jar:2.10.6:compile
++- org.ensime:api_2.10:jar:2.0.1:compile
+|  \- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for duplicate)
++- org.codehaus.janino:janino:jar:2.7.8:test
+|  \- org.codehaus.janino:commons-compiler:jar:2.7.8:test
++- org.scalatest:scalatest_2.10:jar:3.0.3:test
+|  +- (org.scala-lang:scala-library:jar:2.10.6:test - omitted for duplicate)
+|  +- org.scalactic:scalactic_2.10:jar:3.0.3:test
+|  |  +- (org.scala-lang:scala-library:jar:2.10.6:test - omitted for duplicate)
+|  |  \- (org.scala-lang:scala-reflect:jar:2.10.6:test - omitted for duplicate)
+|  \- (org.scala-lang:scala-reflect:jar:2.10.6:test - omitted for duplicate)
++- ch.qos.logback:logback-classic:jar:1.2.3:compile
+|  +- ch.qos.logback:logback-core:jar:1.2.3:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- org.slf4j:jul-to-slf4j:jar:1.7.25:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
++- org.slf4j:jcl-over-slf4j:jar:1.7.25:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
++- org.slf4j:log4j-over-slf4j:jar:1.7.25:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
++- com.typesafe.akka:akka-actor_2.10:jar:2.3.16:compile
+|  +- (org.scala-lang:scala-library:jar:2.10.4:compile - omitted for conflict with 2.10.6)
+|  \- com.typesafe:config:jar:1.2.1:compile
++- org.apache.commons:commons-vfs2:jar:2.1:compile
++- com.google.code.findbugs:jsr305:jar:3.0.2:provided
+\- com.chuusai:shapeless_2.10:jar:2.3.2:compile
+   +- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for duplicate)
+   +- org.typelevel:macro-compat_2.10:jar:1.1.1:compile
+   |  +- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for duplicate)
+   |  \- (org.scalamacros:quasiquotes_2.10:jar:2.1.0:compile - omitted for duplicate)
+   \- org.scalamacros:quasiquotes_2.10:jar:2.1.0:compile
+      +- (org.scala-lang:scala-library:jar:2.10.4:compile - omitted for conflict with 2.10.6)
+      \- (org.scala-lang:scala-reflect:jar:2.10.4:compile - omitted for conflict with 2.10.6)

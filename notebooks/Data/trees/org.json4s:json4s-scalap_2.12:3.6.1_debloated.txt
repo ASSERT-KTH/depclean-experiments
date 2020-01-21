@@ -1,0 +1,2 @@
+org.json4s:json4s-scalap_2.12:jar:3.6.1
+\- org.scala-lang:scala-library:jar:2.12.6:compile

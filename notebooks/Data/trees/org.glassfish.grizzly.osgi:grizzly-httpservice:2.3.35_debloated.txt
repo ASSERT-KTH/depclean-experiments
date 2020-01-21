@@ -1,0 +1,18 @@
+org.glassfish.grizzly.osgi:grizzly-httpservice:jar:2.3.35
++- org.osgi:org.osgi.core:jar:4.2.0:provided
++- org.osgi:org.osgi.compendium:jar:4.2.0:provided
++- javax.servlet:javax.servlet-api:jar:3.1.0:compile
++- org.glassfish.grizzly:grizzly-http-servlet:jar:2.3.35:compile
+|  \- org.glassfish.grizzly:grizzly-http-server:jar:2.3.35:compile
+|     \- (org.glassfish.grizzly:grizzly-http:jar:2.3.35:compile - omitted for duplicate)
++- org.glassfish.grizzly:grizzly-http:jar:2.3.35:compile
+|  \- (org.glassfish.grizzly:grizzly-framework:jar:2.3.35:compile - omitted for duplicate)
++- org.glassfish.grizzly:grizzly-portunif:jar:2.3.35:compile
+|  \- (org.glassfish.grizzly:grizzly-framework:jar:2.3.35:compile - omitted for duplicate)
++- org.glassfish.grizzly:grizzly-comet:jar:2.3.35:compile
+|  +- (org.glassfish.grizzly:grizzly-framework:jar:2.3.35:compile - omitted for duplicate)
+|  \- (org.glassfish.grizzly:grizzly-http-server:jar:2.3.35:compile - omitted for duplicate)
++- org.glassfish.grizzly:grizzly-websockets:jar:2.3.35:compile
+|  +- (org.glassfish.grizzly:grizzly-framework:jar:2.3.35:compile - omitted for duplicate)
+|  \- (org.glassfish.grizzly:grizzly-http:jar:2.3.35:compile - omitted for duplicate)
+\- junit:junit:jar:4.7:test

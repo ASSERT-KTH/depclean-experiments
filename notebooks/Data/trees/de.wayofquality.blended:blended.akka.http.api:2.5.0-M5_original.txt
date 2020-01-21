@@ -1,0 +1,10 @@
+de.wayofquality.blended:blended.akka.http.api:bundle:2.5.0-M5
++- org.scala-lang:scala-library:jar:2.11.12:provided
++- com.typesafe.akka:akka-http_2.11:jar:10.1.1:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:provided - scope managed from compile; omitted for duplicate)
+|  \- (com.typesafe.akka:akka-http-core_2.11:jar:10.1.1:compile - omitted for duplicate)
++- com.typesafe.akka:akka-http-core_2.11:jar:10.1.1:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:provided - scope managed from compile; omitted for duplicate)
+|  \- (com.typesafe.akka:akka-parsing_2.11:jar:10.1.1:compile - omitted for duplicate)
+\- com.typesafe.akka:akka-parsing_2.11:jar:10.1.1:compile
+   \- (org.scala-lang:scala-library:jar:2.11.12:provided - scope managed from compile; omitted for duplicate)

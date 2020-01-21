@@ -1,0 +1,9 @@
+org.webjars.bowergithub.wiredjs:wired-radio-group:jar:0.1.0
++- org.webjars.bowergithub.polymer:polymer:jar:2.8.0:compile
+|  +- org.webjars.bowergithub.webcomponents:shadycss:jar:1.9.1:compile
+|  \- org.webjars.bowergithub.webcomponents:webcomponentsjs:jar:2.0.0-beta.3:compile
++- org.webjars.bowergithub.wiredjs:wired-lib:jar:0.1.1:compile
+|  \- (org.webjars.bowergithub.polymer:polymer:jar:2.8.0:compile - omitted for duplicate)
+\- org.webjars.bowergithub.wiredjs:wired-radio:jar:0.1.1:compile
+   +- (org.webjars.bowergithub.polymer:polymer:jar:2.8.0:compile - omitted for duplicate)
+   \- (org.webjars.bowergithub.wiredjs:wired-lib:jar:0.1.1:compile - omitted for duplicate)

@@ -1,0 +1,10 @@
+org.apache.felix:org.apache.felix.framework:bundle:6.0.0
++- org.osgi:org.osgi.annotation:jar:6.0.0:provided
++- org.apache.felix:org.apache.felix.resolver:jar:2.0.0:provided
+|  \- org.osgi:osgi.annotation:jar:6.0.1:provided
++- org.ow2.asm:asm-all:jar:4.2:test
++- org.easymock:easymock:jar:2.5.2:test
++- org.mockito:mockito-all:jar:1.10.19:test
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
+\- org.codehaus.mojo:animal-sniffer-annotations:jar:1.9:compile

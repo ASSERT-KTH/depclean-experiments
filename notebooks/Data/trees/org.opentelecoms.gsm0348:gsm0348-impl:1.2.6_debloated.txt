@@ -1,0 +1,16 @@
+org.opentelecoms.gsm0348:gsm0348-impl:jar:1.2.6
++- org.opentelecoms.gsm0348:gsm0348-api:jar:1.2.6:compile
++- org.opentelecoms.gsm0348:gsm0348-crypto:jar:1.2.6:compile
+|  +- (org.opentelecoms.gsm0348:gsm0348-api:jar:1.2.6:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  +- (org.bouncycastle:bcprov-jdk15on:jar:1.59:compile - omitted for duplicate)
+|  \- com.github.snksoft:crc:jar:1.0.1:compile
++- commons-beanutils:commons-beanutils:jar:1.9.3:compile
+|  +- commons-logging:commons-logging:jar:1.2:compile
+|  \- commons-collections:commons-collections:jar:3.2.2:compile
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- com.google.code.findbugs:jsr305:jar:2.0.3:test
+\- org.slf4j:slf4j-simple:jar:1.7.25:test
+   \- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)

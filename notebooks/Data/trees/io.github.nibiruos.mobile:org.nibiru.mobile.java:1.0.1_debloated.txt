@@ -1,0 +1,20 @@
+io.github.nibiruos.mobile:org.nibiru.mobile.java:jar:1.0.1
++- com.google.dagger:dagger:jar:2.16:compile
+|  \- javax.inject:javax.inject:jar:1:compile
++- io.github.nibiruos.mobile:org.nibiru.mobile.core:jar:1.0.1:compile
+|  +- (com.google.dagger:dagger:jar:2.16:compile - omitted for duplicate)
+|  +- io.github.nibiruos.model:org.nibiru.model.core:jar:1.0.1:compile
+|  |  +- (com.google.guava:guava:jar:19.0:compile - omitted for conflict with 20.0)
+|  |  \- (com.google.code.findbugs:jsr305:jar:2.0.3:compile - omitted for duplicate)
+|  +- io.github.nibiruos.async:org.nibiru.async.core:jar:1.0.1:compile
+|  |  +- (com.google.dagger:dagger:jar:2.16:compile - omitted for duplicate)
+|  |  +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  |  \- (com.google.guava:guava:jar:20.0:compile - omitted for conflict with 19.0)
+|  +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  +- com.google.guava:guava:jar:20.0:compile
+|  \- com.google.code.findbugs:jsr305:jar:2.0.3:compile
++- com.squareup.okhttp3:okhttp:jar:3.3.1:compile
+|  \- com.squareup.okio:okio:jar:1.8.0:compile
+\- com.fasterxml.jackson.core:jackson-databind:jar:2.8.7:compile
+   +- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile
+   \- com.fasterxml.jackson.core:jackson-core:jar:2.8.7:compile

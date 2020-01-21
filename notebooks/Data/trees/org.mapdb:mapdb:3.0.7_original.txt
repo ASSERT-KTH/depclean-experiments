@@ -1,0 +1,30 @@
+org.mapdb:mapdb:bundle:3.0.7
++- org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.71:compile
+|  +- org.jetbrains.kotlin:kotlin-stdlib-common:jar:1.2.71:compile
+|  \- org.jetbrains:annotations:jar:13.0:compile
++- org.eclipse.collections:eclipse-collections-api:jar:10.0.0:compile
++- org.eclipse.collections:eclipse-collections:jar:10.0.0:compile
+|  \- (org.eclipse.collections:eclipse-collections-api:jar:10.0.0:compile - omitted for duplicate)
++- org.eclipse.collections:eclipse-collections-forkjoin:jar:10.0.0:compile
+|  +- (org.eclipse.collections:eclipse-collections-api:jar:10.0.0:compile - omitted for duplicate)
+|  \- (org.eclipse.collections:eclipse-collections:jar:10.0.0:compile - omitted for duplicate)
++- com.google.guava:guava:jar:28.0-jre:compile
+|  +- com.google.guava:failureaccess:jar:1.0.1:compile
+|  +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+|  +- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+|  +- org.checkerframework:checker-qual:jar:2.8.1:compile
+|  +- com.google.errorprone:error_prone_annotations:jar:2.3.2:compile
+|  +- com.google.j2objc:j2objc-annotations:jar:1.3:compile
+|  \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.17:compile
++- net.jpountz.lz4:lz4:jar:1.3.0:compile
++- org.mapdb:elsa:jar:3.0.0-M5:compile
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.eclipse.collections:eclipse-collections-testutils:jar:10.0.0:test
+|  +- (org.eclipse.collections:eclipse-collections-api:jar:10.0.0:test - omitted for duplicate)
+|  +- (org.eclipse.collections:eclipse-collections:jar:10.0.0:test - omitted for duplicate)
+|  \- (junit:junit:jar:4.12:test - omitted for duplicate)
++- org.easytesting:fest-assert:jar:1.4:test
+|  \- org.easytesting:fest-util:jar:1.1.6:test
+\- org.easytesting:fest-reflect:jar:1.4.1:test
+   \- (org.easytesting:fest-util:jar:1.2.4:test - omitted for conflict with 1.1.6)

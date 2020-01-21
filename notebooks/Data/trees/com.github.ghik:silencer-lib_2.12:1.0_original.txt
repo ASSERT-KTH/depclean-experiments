@@ -1,0 +1,2 @@
+com.github.ghik:silencer-lib_2.12:jar:1.0
+\- org.scala-lang:scala-library:jar:2.12.6:compile

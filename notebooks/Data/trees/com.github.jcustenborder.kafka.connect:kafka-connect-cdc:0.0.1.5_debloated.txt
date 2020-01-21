@@ -1,0 +1,56 @@
+com.github.jcustenborder.kafka.connect:kafka-connect-cdc:jar:0.0.1.5
++- org.freemarker:freemarker:jar:2.3.25-incubating:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.8.5:test
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:test - omitted for conflict with 2.8.5)
+|  \- com.fasterxml.jackson.core:jackson-core:jar:2.8.5:test
++- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.5:test
++- io.codearte.jfairy:jfairy:jar:0.5.5:test
+|  +- (com.google.guava:guava:jar:16.0.1:compile - scope updated from test; omitted for duplicate)
+|  +- org.yaml:snakeyaml:jar:1.24:test
+|  +- org.iban4j:iban4j:jar:2.1.1:test
+|  +- com.google.inject:guice:jar:4.0:test
+|  |  +- javax.inject:javax.inject:jar:1:test
+|  |  +- aopalliance:aopalliance:jar:1.0:test
+|  |  \- (com.google.guava:guava:jar:16.0.1:test - omitted for duplicate)
+|  +- joda-time:joda-time:jar:2.3:test
+|  +- com.google.inject.extensions:guice-assistedinject:jar:4.0:test
+|  |  \- (com.google.inject:guice:jar:4.0:test - omitted for duplicate)
+|  +- (org.reflections:reflections:jar:0.9.9:test - omitted for conflict with 0.9.10)
+|  +- org.apache.commons:commons-lang3:jar:3.3.2:test
+|  \- org.slf4j:slf4j-api:jar:1.7.7:test
++- com.google.guava:guava:jar:18.0:compile
++- com.github.jcustenborder.kafka.connect:connect-utils:jar:0.3.148:compile
+|  \- (org.freemarker:freemarker:jar:2.3.25-incubating:compile - omitted for duplicate)
++- org.apache.kafka:connect-api:jar:1.0.0:provided
+|  +- org.apache.kafka:kafka-clients:jar:1.0.0:provided
+|  |  +- org.lz4:lz4-java:jar:1.4:provided
+|  |  +- org.xerial.snappy:snappy-java:jar:1.1.4:provided
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:provided - omitted for conflict with 1.7.7)
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:provided - omitted for conflict with 1.7.7)
++- com.github.jcustenborder.kafka.connect:connect-utils-testing:jar:0.3.148:test
+|  +- (org.reflections:reflections:jar:0.9.10:test - omitted for duplicate)
+|  +- com.opencsv:opencsv:jar:3.10:test
+|  |  +- (org.apache.commons:commons-lang3:jar:3.5:test - omitted for conflict with 3.3.2)
+|  |  \- commons-beanutils:commons-beanutils:jar:1.9.3:test
+|  |     +- commons-logging:commons-logging:jar:1.2:test
+|  |     \- commons-collections:commons-collections:jar:3.2.2:test
+|  \- (org.freemarker:freemarker:jar:2.3.25-incubating:test - omitted for duplicate)
++- org.junit.jupiter:junit-jupiter-engine:jar:5.0.0:test
+|  +- org.apiguardian:apiguardian-api:jar:1.0.0:test
+|  +- org.junit.platform:junit-platform-engine:jar:1.0.0:test
+|  |  +- (org.apiguardian:apiguardian-api:jar:1.0.0:test - omitted for duplicate)
+|  |  +- (org.junit.platform:junit-platform-commons:jar:1.0.0:test - omitted for duplicate)
+|  |  \- (org.opentest4j:opentest4j:jar:1.0.0:test - omitted for duplicate)
+|  \- (org.junit.jupiter:junit-jupiter-api:jar:5.0.0:test - omitted for duplicate)
++- org.junit.jupiter:junit-jupiter-api:jar:5.0.0:test
+|  +- (org.apiguardian:apiguardian-api:jar:1.0.0:test - omitted for duplicate)
+|  +- org.opentest4j:opentest4j:jar:1.0.0:test
+|  \- org.junit.platform:junit-platform-commons:jar:1.0.0:test
+|     \- (org.apiguardian:apiguardian-api:jar:1.0.0:test - omitted for duplicate)
++- org.mockito:mockito-core:jar:2.6.3:test
+|  +- net.bytebuddy:byte-buddy:jar:1.6.2:test
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.6.2:test
+|  \- org.objenesis:objenesis:jar:2.5:test
+\- ch.qos.logback:logback-classic:jar:1.1.8:test
+   +- ch.qos.logback:logback-core:jar:1.1.8:test
+   \- (org.slf4j:slf4j-api:jar:1.7.21:test - omitted for conflict with 1.7.7)

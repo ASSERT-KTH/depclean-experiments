@@ -1,0 +1,6 @@
+org.jetbrains.kotlin:kotlin-noarg:jar:1.2.61
++- org.jetbrains.kotlin:kotlin-gradle-plugin-api:jar:1.2.61:compile
+|  \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.61:compile - omitted for duplicate)
+\- org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.61:compile
+   +- org.jetbrains.kotlin:kotlin-stdlib-common:jar:1.2.61:compile
+   \- org.jetbrains:annotations:jar:13.0:compile

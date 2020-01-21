@@ -1,0 +1,121 @@
+com.firstbird:backbone-core_2.11:jar:2.0.0-RC1
++- org.scala-lang:scala-library:jar:2.11.12:compile
++- ch.qos.logback:logback-classic:jar:1.2.3:test
+|  +- ch.qos.logback:logback-core:jar:1.2.3:test
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)
++- org.scalatest:scalatest_2.11:jar:3.0.5:test
+|  +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|  +- org.scalactic:scalactic_2.11:jar:3.0.5:test
+|  |  +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|  |  \- (org.scala-lang:scala-reflect:jar:2.11.12:test - omitted for duplicate)
+|  +- (org.scala-lang:scala-reflect:jar:2.11.12:compile - scope updated from test; omitted for duplicate)
+|  \- org.scala-lang.modules:scala-xml_2.11:jar:1.0.6:test
+|     \- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.12)
++- com.amazonaws:aws-java-sdk-sqs:jar:1.11.399:compile
+|  +- com.amazonaws:aws-java-sdk-core:jar:1.11.399:compile
+|  |  +- commons-logging:commons-logging:jar:1.1.3:compile
+|  |  +- org.apache.httpcomponents:httpclient:jar:4.5.5:compile
+|  |  |  +- org.apache.httpcomponents:httpcore:jar:4.4.9:compile
+|  |  |  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for conflict with 1.1.3)
+|  |  |  \- commons-codec:commons-codec:jar:1.10:compile
+|  |  +- software.amazon.ion:ion-java:jar:1.0.2:compile
+|  |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.6.7.1:compile
+|  |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.6.0:compile
+|  |  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.6.7:compile
+|  |  +- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.6.7:compile
+|  |  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.6.7:compile - omitted for duplicate)
+|  |  \- joda-time:joda-time:jar:2.8.1:compile
+|  \- com.amazonaws:jmespath-java:jar:1.11.399:compile
+|     \- (com.fasterxml.jackson.core:jackson-databind:jar:2.6.7.1:compile - omitted for duplicate)
++- com.amazonaws:aws-java-sdk-sns:jar:1.11.399:compile
+|  +- (com.amazonaws:aws-java-sdk-sqs:jar:1.11.399:compile - omitted for duplicate)
+|  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.399:compile - omitted for duplicate)
+|  \- (com.amazonaws:jmespath-java:jar:1.11.399:compile - omitted for duplicate)
++- com.typesafe.akka:akka-stream_2.11:jar:2.5.16:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  +- com.typesafe.akka:akka-actor_2.11:jar:2.5.16:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  |  +- com.typesafe:config:jar:1.3.3:compile
+|  |  \- (org.scala-lang.modules:scala-java8-compat_2.11:jar:0.7.0:compile - omitted for conflict with 0.9.0)
+|  +- com.typesafe.akka:akka-protobuf_2.11:jar:2.5.16:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  +- org.reactivestreams:reactive-streams:jar:1.0.2:compile
+|  \- com.typesafe:ssl-config-core_2.11:jar:0.2.4:compile
+|     +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|     +- (com.typesafe:config:jar:1.2.0:compile - omitted for conflict with 1.3.3)
+|     \- org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.1.1:compile
+|        \- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
++- com.lightbend.akka:akka-stream-alpakka-sqs_2.11:jar:0.20:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  +- (com.typesafe.akka:akka-stream_2.11:jar:2.5.13:compile - omitted for conflict with 2.5.16)
+|  \- (com.amazonaws:aws-java-sdk-sqs:jar:1.11.342:compile - omitted for conflict with 1.11.399)
++- com.lightbend.akka:akka-stream-alpakka-sns_2.11:jar:0.20:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  +- (com.typesafe.akka:akka-stream_2.11:jar:2.5.13:compile - omitted for conflict with 2.5.16)
+|  \- (com.amazonaws:aws-java-sdk-sns:jar:1.11.342:compile - omitted for conflict with 1.11.399)
++- org.typelevel:cats-core_2.11:jar:1.2.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  +- org.typelevel:cats-macros_2.11:jar:1.2.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  |  \- (org.typelevel:machinist_2.11:jar:0.6.4:compile - omitted for duplicate)
+|  +- org.typelevel:cats-kernel_2.11:jar:1.2.0:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  \- org.typelevel:machinist_2.11:jar:0.6.4:compile
+|     +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|     \- org.scala-lang:scala-reflect:jar:2.11.12:compile
+|        \- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
++- org.scala-lang.modules:scala-java8-compat_2.11:jar:0.9.0:compile
+|  \- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- org.elasticmq:elasticmq-rest-sqs_2.11:jar:0.14.5:test
+|  +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|  +- org.elasticmq:elasticmq-core_2.11:jar:0.14.5:test
+|  |  +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|  |  +- (org.scala-lang.modules:scala-xml_2.11:jar:1.1.0:test - omitted for conflict with 1.0.6)
+|  |  +- (joda-time:joda-time:jar:2.10:test - omitted for conflict with 2.8.1)
+|  |  +- org.joda:joda-convert:jar:2.1.1:test
+|  |  +- (com.typesafe.akka:akka-actor_2.11:jar:2.5.14:test - omitted for conflict with 2.5.16)
+|  |  \- (com.typesafe.scala-logging:scala-logging_2.11:jar:3.9.0:test - omitted for duplicate)
+|  +- (org.scala-lang.modules:scala-xml_2.11:jar:1.1.0:test - omitted for conflict with 1.0.6)
+|  +- (com.typesafe.akka:akka-actor_2.11:jar:2.5.14:test - omitted for conflict with 2.5.16)
+|  +- com.typesafe.akka:akka-slf4j_2.11:jar:2.5.14:test
+|  |  +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|  |  +- (com.typesafe.akka:akka-actor_2.11:jar:2.5.14:test - omitted for conflict with 2.5.16)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)
+|  +- com.typesafe.akka:akka-http_2.11:jar:10.1.3:test
+|  |  +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|  |  \- com.typesafe.akka:akka-http-core_2.11:jar:10.1.3:test
+|  |     +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|  |     \- com.typesafe.akka:akka-parsing_2.11:jar:10.1.3:test
+|  |        \- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|  +- (com.typesafe.akka:akka-stream_2.11:jar:2.5.14:test - omitted for conflict with 2.5.16)
+|  +- io.spray:spray-json_2.11:jar:1.3.4:test
+|  |  \- (org.scala-lang:scala-library:jar:2.11.11:test - omitted for conflict with 2.11.12)
+|  +- org.scala-lang.modules:scala-async_2.11:jar:0.9.7:test
+|  |  \- (org.scala-lang:scala-library:jar:2.11.11:test - omitted for conflict with 2.11.12)
+|  \- com.typesafe.scala-logging:scala-logging_2.11:jar:3.9.0:test
+|     +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|     +- (org.scala-lang:scala-reflect:jar:2.11.12:test - omitted for duplicate)
+|     \- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)
++- io.circe:circe-parser_2.11:jar:0.9.3:test
+|  +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|  +- io.circe:circe-jawn_2.11:jar:0.9.3:test
+|  |  +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|  |  +- (io.circe:circe-core_2.11:jar:0.9.3:test - omitted for duplicate)
+|  |  \- org.spire-math:jawn-parser_2.11:jar:0.11.1:test
+|  |     \- (org.scala-lang:scala-library:jar:2.11.11:test - omitted for conflict with 2.11.12)
+|  \- (io.circe:circe-core_2.11:jar:0.9.3:test - omitted for duplicate)
++- io.circe:circe-core_2.11:jar:0.9.3:test
+|  +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|  +- io.circe:circe-numbers_2.11:jar:0.9.3:test
+|  |  \- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|  \- (org.typelevel:cats-core_2.11:jar:1.0.1:test - omitted for conflict with 1.2.0)
++- com.typesafe.akka:akka-testkit_2.11:jar:2.5.16:test
+|  +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|  \- (com.typesafe.akka:akka-actor_2.11:jar:2.5.16:test - omitted for duplicate)
++- org.mockito:mockito-core:jar:2.21.0:test
+|  +- net.bytebuddy:byte-buddy:jar:1.8.15:test
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.8.15:test
+|  \- org.objenesis:objenesis:jar:2.6:test
+\- junit:junit:jar:4.12:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

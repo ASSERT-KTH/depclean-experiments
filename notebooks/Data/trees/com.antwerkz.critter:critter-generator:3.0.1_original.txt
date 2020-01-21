@@ -1,0 +1,37 @@
+com.antwerkz.critter:critter-generator:jar:3.0.1
++- com.antwerkz.critter:critter-core:jar:3.0.1:compile
+|  +- (org.mongodb.morphia:morphia:jar:1.3.2:compile - omitted for duplicate)
+|  \- (org.jetbrains.kotlin:kotlin-stdlib-jdk8:jar:1.2.61:compile - omitted for conflict with 1.2.60)
++- org.mongodb.morphia:morphia:jar:1.3.2:compile
+|  +- org.mongodb:mongo-java-driver:jar:3.4.0:compile
+|  +- cglib:cglib-nodep:jar:2.2.2:compile
+|  \- com.thoughtworks.proxytoys:proxytoys:jar:1.0:compile
++- org.jboss.forge.roaster:roaster-api:jar:2.20.1.Final:compile
++- org.jboss.forge.roaster:roaster-jdt:jar:2.20.1.Final:compile
+|  \- (org.jboss.forge.roaster:roaster-api:jar:2.20.1.Final:compile - omitted for duplicate)
++- com.antwerkz.kibble:kibble:jar:0.13:compile
+|  +- org.jetbrains.kotlin:kotlin-compiler-embeddable:jar:1.2.61:compile
+|  |  +- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.60:runtime - version managed from 1.2.61; omitted for duplicate)
+|  |  +- org.jetbrains.kotlin:kotlin-script-runtime:jar:1.2.61:runtime
+|  |  \- (org.jetbrains.kotlin:kotlin-reflect:jar:1.2.60:runtime - version managed from 1.2.61; omitted for duplicate)
+|  +- org.jetbrains.kotlin:kotlin-reflect:jar:1.2.60:compile
+|  |  \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.60:compile - version managed from 1.2.61; omitted for duplicate)
+|  +- (org.jetbrains.kotlin:kotlin-stdlib-jdk8:jar:1.2.61:compile - omitted for duplicate)
+|  +- org.slf4j:slf4j-api:jar:1.8.0-beta2:compile (version managed from 1.7.25)
+|  \- com.squareup:kotlinpoet:jar:1.0.0-RC1:compile
+|     +- (org.jetbrains.kotlin:kotlin-stdlib-jdk7:jar:1.2.50:compile - omitted for conflict with 1.2.61)
+|     \- (org.jetbrains.kotlin:kotlin-reflect:jar:1.2.60:compile - version managed from 1.2.50; omitted for duplicate)
++- org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.60:compile
+|  +- org.jetbrains.kotlin:kotlin-stdlib-common:jar:1.2.60:compile
+|  \- org.jetbrains:annotations:jar:13.0:compile
++- org.jetbrains.kotlin:kotlin-test:jar:1.2.60:test
+|  +- org.jetbrains.kotlin:kotlin-test-common:jar:1.2.60:test
+|  |  \- (org.jetbrains.kotlin:kotlin-stdlib-common:jar:1.2.60:test - omitted for duplicate)
+|  \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.60:test - version managed from 1.2.61; omitted for duplicate)
++- org.testng:testng:jar:6.14.3:test
+|  +- com.beust:jcommander:jar:1.72:test
+|  \- org.apache-extras.beanshell:bsh:jar:2.0b6:test
+\- org.jetbrains.kotlin:kotlin-stdlib-jdk8:jar:1.2.60:compile
+   +- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.60:compile - version managed from 1.2.61; omitted for duplicate)
+   \- org.jetbrains.kotlin:kotlin-stdlib-jdk7:jar:1.2.60:compile
+      \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.60:compile - version managed from 1.2.61; omitted for duplicate)

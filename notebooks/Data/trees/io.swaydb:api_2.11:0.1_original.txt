@@ -1,0 +1,7 @@
+io.swaydb:api_2.11:jar:0.1
++- org.scala-lang:scala-library:jar:2.11.12:compile
++- io.swaydb:data_2.11:jar:0.1:compile
+|  \- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+\- io.swaydb:serializers_2.11:jar:0.1:compile
+   +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+   \- (io.swaydb:data_2.11:jar:0.1:compile - omitted for duplicate)

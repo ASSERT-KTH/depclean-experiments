@@ -1,0 +1,4 @@
+org.glassfish.jaxb:jaxb-core:jar:2.3.0.1
++- javax.xml.bind:jaxb-api:jar:2.3.0:compile
++- org.glassfish.jaxb:txw2:jar:2.3.0.1:compile
+\- com.sun.istack:istack-commons-runtime:jar:3.0.5:compile

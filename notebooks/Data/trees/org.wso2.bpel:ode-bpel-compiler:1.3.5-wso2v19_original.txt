@@ -1,0 +1,160 @@
+org.wso2.bpel:ode-bpel-compiler:jar:1.3.5-wso2v19
++- org.wso2.bpel:ode-utils:jar:1.3.5-wso2v19:compile
+|  +- org.apache.ws.commons.axiom:axiom-api:jar:1.2.11-wso2v10:compile
+|  |  +- org.apache.geronimo.specs:geronimo-activation_1.1_spec:jar:1.0.1:compile (version managed from 1.0.2)
+|  |  +- org.apache.geronimo.specs:geronimo-javamail_1.4_spec:jar:1.2:compile (version managed from 1.6)
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - version managed from 1.1.1; omitted for duplicate)
+|  |  +- (jaxen:jaxen:jar:1.1.1:compile - version managed from 1.1.6; omitted for duplicate)
+|  |  \- (org.apache.geronimo.specs:geronimo-stax-api_1.0_spec:jar:1.0.1:compile - omitted for duplicate)
+|  +- org.apache.ws.commons.axiom:axiom-impl:jar:1.2.11-wso2v10:compile
+|  |  +- (org.apache.ws.commons.axiom:axiom-api:jar:1.2.11-wso2v10:compile - omitted for duplicate)
+|  |  +- (org.apache.geronimo.specs:geronimo-activation_1.1_spec:jar:1.0.1:compile - version managed from 1.0.2; omitted for duplicate)
+|  |  +- (org.apache.geronimo.specs:geronimo-javamail_1.4_spec:jar:1.2:compile - version managed from 1.6; omitted for duplicate)
+|  |  +- org.codehaus.woodstox:wstx-asl:jar:3.2.9:compile
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - version managed from 1.1.1; omitted for duplicate)
+|  |  \- (org.apache.geronimo.specs:geronimo-stax-api_1.0_spec:jar:1.0.1:compile - omitted for duplicate)
+|  +- org.apache.ws.commons.axiom:axiom-dom:jar:1.2.11-wso2v10:compile
+|  |  +- (org.apache.ws.commons.axiom:axiom-api:jar:1.2.11-wso2v10:compile - omitted for duplicate)
+|  |  +- (org.apache.geronimo.specs:geronimo-activation_1.1_spec:jar:1.0.1:compile - version managed from 1.0.2; omitted for duplicate)
+|  |  +- (org.apache.geronimo.specs:geronimo-javamail_1.4_spec:jar:1.2:compile - version managed from 1.6; omitted for duplicate)
+|  |  +- (org.codehaus.woodstox:wstx-asl:jar:3.2.9:compile - omitted for duplicate)
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - version managed from 1.1.1; omitted for duplicate)
+|  |  \- (org.apache.geronimo.specs:geronimo-stax-api_1.0_spec:jar:1.0.1:compile - omitted for duplicate)
+|  +- (wsdl4j:wsdl4j:jar:1.6.2:compile - omitted for duplicate)
+|  +- (commons-collections:commons-collections:jar:3.2.2:compile - omitted for duplicate)
+|  +- commons-httpclient:commons-httpclient:jar:3.1:compile
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - version managed from 1.0.4; omitted for duplicate)
+|  |  \- (commons-codec:commons-codec:jar:1.3:compile - version managed from 1.2; omitted for duplicate)
+|  +- commons-codec:commons-codec:jar:1.3:compile
+|  +- log4j:log4j:jar:1.2.17:compile
+|  +- com.thoughtworks.xstream:xstream:jar:1.2:compile
+|  |  \- xpp3:xpp3_min:jar:1.1.3.4.O:compile
+|  +- (org.apache.geronimo.specs:geronimo-stax-api_1.0_spec:jar:1.0.1:compile - omitted for duplicate)
+|  +- org.apache.axis2:axis2-adb:jar:1.6.1-wso2v17:compile
+|  |  +- (org.apache.axis2:axis2-kernel:jar:1.6.1-wso2v17:compile - omitted for duplicate)
+|  |  \- (org.apache.geronimo.specs:geronimo-activation_1.1_spec:jar:1.0.1:compile - version managed from 1.0.2; omitted for duplicate)
+|  +- org.apache.axis2:axis2-codegen:jar:1.6.1-wso2v17:compile
+|  |  +- (org.apache.axis2:axis2-kernel:jar:1.6.1-wso2v17:compile - omitted for duplicate)
+|  |  \- (org.apache.axis2:axis2-adb:jar:1.6.1-wso2v17:compile - omitted for duplicate)
+|  +- org.apache.axis2:axis2-kernel:jar:1.6.1-wso2v17:compile
+|  |  +- (org.apache.ws.commons.axiom:axiom-api:jar:1.2.11-wso2v10:compile - version managed from 1.2.11; omitted for duplicate)
+|  |  +- (org.apache.ws.commons.axiom:axiom-impl:jar:1.2.11-wso2v10:compile - version managed from 1.2.11; omitted for duplicate)
+|  |  +- org.apache.geronimo.specs:geronimo-ws-metadata_2.0_spec:jar:1.1.2:compile
+|  |  +- (org.apache.geronimo.specs:geronimo-jta_1.1_spec:jar:1.1:compile - omitted for duplicate)
+|  |  +- javax.servlet:servlet-api:jar:2.3:compile
+|  |  +- (commons-httpclient:commons-httpclient:jar:3.1:compile - omitted for duplicate)
+|  |  +- commons-fileupload:commons-fileupload:jar:1.2:compile
+|  |  +- (wsdl4j:wsdl4j:jar:1.6.2:compile - omitted for duplicate)
+|  |  +- org.apache.ws.commons.schema.wso2:XmlSchema:jar:1.4.7.wso2v3:compile
+|  |  +- org.apache.neethi:neethi:jar:2.0.4:compile
+|  |  |  +- (org.apache.ws.commons.axiom:axiom-api:jar:1.2.11-wso2v10:compile - version managed from 1.2.7; omitted for duplicate)
+|  |  |  +- (org.apache.ws.commons.axiom:axiom-impl:jar:1.2.11-wso2v10:compile - version managed from 1.2.7; omitted for duplicate)
+|  |  |  +- (wsdl4j:wsdl4j:jar:1.6.2:compile - omitted for duplicate)
+|  |  |  +- (org.codehaus.woodstox:wstx-asl:jar:3.2.4:compile - omitted for conflict with 3.2.9)
+|  |  |  \- (commons-logging:commons-logging:jar:1.2:compile - version managed from 1.1.1; omitted for duplicate)
+|  |  +- org.apache.woden:woden-api:jar:1.0M8:compile (version managed from 1.0M9)
+|  |  |  +- org.apache.ws.commons.schema:XmlSchema:jar:1.4.2:compile
+|  |  |  +- (org.apache.ant:ant:jar:1.7.0:compile - omitted for duplicate)
+|  |  |  +- (wsdl4j:wsdl4j:jar:1.6.2:compile - omitted for duplicate)
+|  |  |  +- (xerces:xercesImpl:jar:2.9.0:compile - version managed from 2.8.0; omitted for duplicate)
+|  |  |  +- (xerces:xmlParserAPIs:jar:2.6.2:compile - version managed from 2.6.0; omitted for duplicate)
+|  |  |  +- (org.apache.ws.commons.axiom:axiom-api:jar:1.2.11-wso2v10:compile - version managed from 1.2.7; omitted for duplicate)
+|  |  |  +- (org.apache.ws.commons.axiom:axiom-impl:jar:1.2.11-wso2v10:runtime - version managed from 1.2.7; omitted for duplicate)
+|  |  |  \- (org.codehaus.woodstox:wstx-asl:jar:3.2.4:runtime - omitted for conflict with 3.2.9)
+|  |  +- org.apache.woden:woden-impl-dom:jar:1.0M8:compile (version managed from 1.0M9)
+|  |  |  +- (org.apache.woden:woden-api:jar:1.0M8:compile - version managed from 1.0M9; omitted for duplicate)
+|  |  |  +- (org.apache.ws.commons.schema:XmlSchema:jar:1.4.2:compile - omitted for duplicate)
+|  |  |  +- (org.apache.ant:ant:jar:1.7.0:compile - omitted for duplicate)
+|  |  |  +- (wsdl4j:wsdl4j:jar:1.6.2:compile - omitted for duplicate)
+|  |  |  +- (xerces:xercesImpl:jar:2.9.0:compile - version managed from 2.8.1; omitted for duplicate)
+|  |  |  +- (xerces:xmlParserAPIs:jar:2.6.2:compile - version managed from 2.6.0; omitted for duplicate)
+|  |  |  +- (org.apache.ws.commons.axiom:axiom-api:jar:1.2.11-wso2v10:compile - version managed from 1.2.7; omitted for duplicate)
+|  |  |  +- (org.apache.ws.commons.axiom:axiom-impl:jar:1.2.11-wso2v10:runtime - version managed from 1.2.7; omitted for duplicate)
+|  |  |  \- (org.codehaus.woodstox:wstx-asl:jar:3.2.4:runtime - omitted for conflict with 3.2.9)
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - version managed from 1.1.1; omitted for duplicate)
+|  |  +- javax.ws.rs:jsr311-api:jar:1.0:compile
+|  |  \- org.wso2.securevault:org.wso2.securevault:jar:1.0.0:compile
+|  |     +- (org.apache.ws.commons.axiom:axiom-api:jar:1.2.11-wso2v10:compile - version managed from 1.2.11; omitted for duplicate)
+|  |     +- (org.apache.ws.commons.axiom:axiom-impl:jar:1.2.11-wso2v10:compile - version managed from 1.2.11; omitted for duplicate)
+|  |     +- (log4j:log4j:jar:1.2.17:compile - version managed from 1.2.14; omitted for duplicate)
+|  |     +- jline:jline:jar:0.9.94:compile
+|  |     |  \- (junit:junit:jar:4.4:compile - version managed from 3.8.1; omitted for duplicate)
+|  |     +- (commons-logging:commons-logging:jar:1.2:compile - version managed from 1.1.1; omitted for duplicate)
+|  |     +- commons-cli:commons-cli:jar:1.0:compile
+|  |     |  +- (commons-logging:commons-logging:jar:1.2:compile - version managed from 1.0; omitted for duplicate)
+|  |     |  \- (commons-lang:commons-lang:jar:2.4:compile - version managed from 1.0; omitted for duplicate)
+|  |     +- commons-io:commons-io:jar:1.4:compile (version managed from 2.0)
+|  |     \- (commons-codec:commons-codec:jar:1.3:compile - version managed from 1.2; omitted for duplicate)
+|  +- org.apache.axis2:axis2-java2wsdl:jar:1.6.1-wso2v17:compile
+|  |  +- (org.apache.axis2:axis2-kernel:jar:1.6.1-wso2v17:compile - omitted for duplicate)
+|  |  +- org.apache.axis2:axis2-transport-http:jar:1.6.1-wso2v17:compile
+|  |  |  +- (org.apache.axis2:axis2-kernel:jar:1.6.1-wso2v17:compile - omitted for duplicate)
+|  |  |  \- org.apache.httpcomponents:httpcore:jar:4.0:compile (version managed from 4.2.3)
+|  |  +- org.apache.axis2:axis2-transport-local:jar:1.6.1-wso2v17:compile
+|  |  |  \- (org.apache.axis2:axis2-kernel:jar:1.6.1-wso2v17:compile - omitted for duplicate)
+|  |  +- org.apache.ant:ant:jar:1.7.0:compile
+|  |  |  \- org.apache.ant:ant-launcher:jar:1.7.0:compile
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - version managed from 1.1.1; omitted for duplicate)
+|  |  +- (org.apache.ws.commons.schema.wso2:XmlSchema:jar:1.4.7.wso2v3:compile - omitted for duplicate)
+|  |  \- (org.apache.geronimo.specs:geronimo-javamail_1.4_spec:jar:1.2:compile - version managed from 1.6; omitted for duplicate)
+|  +- org.apache.axis2:axis2-saaj:jar:1.6.1-wso2v17:compile
+|  |  +- org.apache.geronimo.specs:geronimo-saaj_1.3_spec:jar:1.0.1:compile
+|  |  +- (org.apache.ws.commons.axiom:axiom-dom:jar:1.2.11-wso2v10:compile - omitted for duplicate)
+|  |  \- (org.apache.axis2:axis2-kernel:jar:1.6.1-wso2v17:compile - omitted for duplicate)
+|  +- org.apache.axis2.transport:axis2-transport-jms:jar:1.1.1-wso2v2:compile
+|  |  +- org.apache.axis2:axis2-transport-base:jar:1.6.1-wso2v17:compile
+|  |  |  +- (org.apache.axis2:axis2-kernel:jar:1.6.1-wso2v17:compile - omitted for duplicate)
+|  |  |  +- (commons-io:commons-io:jar:1.4:compile - version managed from 2.0; omitted for duplicate)
+|  |  |  \- (commons-logging:commons-logging:jar:1.2:compile - version managed from 1.1.1; omitted for duplicate)
+|  |  +- javax.jms:javax.jms-api:jar:2.0.1:compile
+|  |  +- org.apache.geronimo.specs:geronimo-jta_1.0.1B_spec:jar:1.0:compile
+|  |  \- (org.apache.axis2:axis2-kernel:jar:1.6.1-wso2v17:compile - omitted for duplicate)
+|  +- (net.sf.saxon:Saxon-HE:jar:9.4:compile - omitted for duplicate)
+|  +- (commons-lang:commons-lang:jar:2.4:compile - version managed from 1.0; omitted for duplicate)
+|  +- (junit:junit:jar:4.4:compile - version managed from 3.8.1; omitted for duplicate)
+|  +- (xerces:xercesImpl:jar:2.9.0:compile - version managed from 2.6.2; omitted for duplicate)
+|  \- xerces:xmlParserAPIs:jar:2.6.2:compile
++- org.wso2.bpel:ode-bpel-api:jar:1.3.5-wso2v19:compile
+|  +- (org.wso2.bpel:ode-utils:jar:1.3.5-wso2v19:compile - omitted for duplicate)
+|  +- (org.wso2.bpel:ode-bpel-schemas:jar:1.3.5-wso2v19:compile - omitted for duplicate)
+|  +- org.wso2.bpel:ode-bpel-obj:jar:1.3.5-wso2v19:compile
+|  |  +- (org.wso2.bpel:ode-utils:jar:1.3.5-wso2v19:compile - omitted for duplicate)
+|  |  +- (wsdl4j:wsdl4j:jar:1.6.2:compile - omitted for duplicate)
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - version managed from 1.1.1; omitted for duplicate)
+|  |  \- (net.sf.saxon:Saxon-HE:jar:9.4:compile - omitted for duplicate)
+|  +- (wsdl4j:wsdl4j:jar:1.6.2:compile - omitted for duplicate)
+|  \- (commons-logging:commons-logging:jar:1.2:compile - version managed from 1.1.1; omitted for duplicate)
++- org.wso2.bpel:ode-bpel-schemas:jar:1.3.5-wso2v19:compile
+|  \- (org.apache.xmlbeans:xmlbeans:jar:2.3.0:compile - omitted for duplicate)
++- commons-collections:commons-collections:jar:3.2.2:compile
++- commons-logging:commons-logging:jar:1.2:compile
++- commons-lang:commons-lang:jar:2.4:compile
++- jaxen:jaxen:jar:1.1.1:compile
+|  +- (jaxen:jaxen:jar:1.1-beta-6:compile - omitted for cycle)
+|  +- dom4j:dom4j:jar:1.6.1:compile
+|  +- (jaxen:jaxen:jar:1.0-FCS:compile - omitted for cycle)
+|  +- jdom:jdom:jar:1.0:compile
+|  +- xml-apis:xml-apis:jar:1.3.04:compile
+|  +- (xerces:xercesImpl:jar:2.9.0:compile - version managed from 2.6.2; omitted for duplicate)
+|  \- xom:xom:jar:1.0:compile
+|     +- (xerces:xmlParserAPIs:jar:2.6.2:compile - version managed from 2.6.0; omitted for duplicate)
+|     +- (xerces:xercesImpl:jar:2.9.0:compile - version managed from 2.6.2; omitted for duplicate)
+|     +- (xalan:xalan:jar:2.7.1:compile - version managed from 2.6.0; omitted for duplicate)
+|     \- com.ibm.icu:icu4j:jar:2.6.1:compile
++- org.apache.geronimo.specs:geronimo-jta_1.1_spec:jar:1.1:compile
++- org.apache.geronimo.specs:geronimo-stax-api_1.0_spec:jar:1.0.1:compile
++- javax.persistence:persistence-api:jar:1.0:compile
++- wsdl4j:wsdl4j:jar:1.6.2:compile
++- org.apache.xmlbeans:xmlbeans:jar:2.3.0:compile
+|  \- stax:stax-api:jar:1.0.1:compile
++- net.sf.saxon:Saxon-HE:jar:9.4:compile
+|  +- org.jdom:jdom:jar:1.1:compile
+|  +- (xom:xom:jar:1.2.5:compile - omitted for conflict with 1.0)
+|  +- (dom4j:dom4j:jar:1.6.1:compile - omitted for duplicate)
+|  \- xml-resolver:xml-resolver:jar:1.2:compile
++- xerces:xercesImpl:jar:2.9.0:compile
+|  \- (xml-apis:xml-apis:jar:1.3.04:compile - version managed from 1.3.02; omitted for duplicate)
++- xalan:xalan:jar:2.7.1:compile
+|  \- xalan:serializer:jar:2.7.1:compile
+|     \- (xml-apis:xml-apis:jar:1.3.04:compile - version managed from 1.3.02; omitted for duplicate)
+\- junit:junit:jar:4.4:test (scope not updated to compile)

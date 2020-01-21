@@ -1,0 +1,22 @@
+com.amdocs.zusammen:zusammen-adaptor-outbound-api:jar:1.0.1
++- com.amdocs.zusammen:zusammen-core-api:jar:1.0.1:compile
+|  +- (com.amdocs.zusammen:zusammen-datatypes:jar:1.0.1:compile - omitted for duplicate)
+|  +- (com.amdocs.zusammen:zusammen-commons-utils:jar:1.0.1:compile - omitted for duplicate)
+|  +- (com.amdocs.zusammen:zusammen-commons-health:jar:1.0.1:compile - omitted for duplicate)
+|  \- (com.amdocs.zusammen:zusammen-commons-log:jar:1.0.1:compile - omitted for duplicate)
++- com.amdocs.zusammen:zusammen-sdk:jar:1.0.1:compile
+|  +- (com.amdocs.zusammen:zusammen-datatypes:jar:1.0.1:compile - omitted for duplicate)
+|  +- (com.amdocs.zusammen:zusammen-commons-utils:jar:1.0.1:compile - omitted for duplicate)
+|  +- com.amdocs.zusammen:zusammen-commons-configuration:jar:1.0.1:compile
+|  |  \- (com.amdocs.zusammen:zusammen-commons-utils:jar:1.0.1:compile - omitted for duplicate)
+|  +- (com.amdocs.zusammen:zusammen-commons-health:jar:1.0.1:compile - omitted for duplicate)
+|  \- (com.amdocs.zusammen:zusammen-commons-log:jar:1.0.1:compile - omitted for duplicate)
++- com.amdocs.zusammen:zusammen-datatypes:jar:1.0.1:compile
+|  +- (com.amdocs.zusammen:zusammen-commons-utils:jar:1.0.1:compile - omitted for duplicate)
+|  \- (com.amdocs.zusammen:zusammen-commons-log:jar:1.0.1:compile - omitted for duplicate)
++- com.amdocs.zusammen:zusammen-commons-utils:jar:1.0.1:compile
+|  \- com.google.code.gson:gson:jar:2.7:compile
+\- com.amdocs.zusammen:zusammen-commons-health:jar:1.0.1:compile
+   +- (com.google.code.gson:gson:jar:2.7:compile - omitted for duplicate)
+   +- (com.amdocs.zusammen:zusammen-commons-log:jar:1.0.1:compile - omitted for duplicate)
+   \- (com.amdocs.zusammen:zusammen-commons-utils:jar:1.0.1:compile - omitted for duplicate)

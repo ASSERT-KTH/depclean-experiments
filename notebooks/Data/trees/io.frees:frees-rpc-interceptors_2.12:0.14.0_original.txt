@@ -1,0 +1,22 @@
+io.frees:frees-rpc-interceptors_2.12:jar:0.14.0
++- org.scala-lang:scala-library:jar:2.12.6:compile
++- org.scalatest:scalatest_2.12:jar:3.0.5:test
+|  +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for conflict with 2.12.6)
+|  +- org.scalactic:scalactic_2.12:jar:3.0.5:test
+|  |  +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for conflict with 2.12.6)
+|  |  \- (org.scala-lang:scala-reflect:jar:2.12.4:test - omitted for duplicate)
+|  +- org.scala-lang:scala-reflect:jar:2.12.4:test
+|  |  \- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for conflict with 2.12.6)
+|  \- org.scala-lang.modules:scala-xml_2.12:jar:1.0.6:test
+|     \- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.6)
++- org.slf4j:slf4j-nop:jar:1.7.25:test
+|  \- org.slf4j:slf4j-api:jar:1.7.25:test
+\- io.grpc:grpc-core:jar:1.11.0:compile
+   +- io.grpc:grpc-context:jar:1.11.0:compile
+   +- com.google.code.gson:gson:jar:2.7:compile
+   +- com.google.guava:guava:jar:20.0:compile
+   +- com.google.errorprone:error_prone_annotations:jar:2.1.2:compile
+   +- com.google.code.findbugs:jsr305:jar:3.0.0:compile
+   +- io.opencensus:opencensus-api:jar:0.11.0:compile
+   \- io.opencensus:opencensus-contrib-grpc-metrics:jar:0.11.0:compile
+      \- (io.opencensus:opencensus-api:jar:0.11.0:compile - omitted for duplicate)

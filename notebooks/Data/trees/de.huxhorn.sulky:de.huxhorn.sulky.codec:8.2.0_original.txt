@@ -1,0 +1,11 @@
+de.huxhorn.sulky:de.huxhorn.sulky.codec:jar:8.2.0
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- net.bytebuddy:byte-buddy:jar:1.8.17:test
++- org.codehaus.groovy:groovy:jar:2.5.1:test
++- org.spockframework:spock-core:jar:1.1-groovy-2.4:test
+|  \- (junit:junit:jar:4.12:test - omitted for duplicate)
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
+\- ch.qos.logback:logback-classic:jar:1.2.3:test
+   +- ch.qos.logback:logback-core:jar:1.2.3:test
+   \- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)

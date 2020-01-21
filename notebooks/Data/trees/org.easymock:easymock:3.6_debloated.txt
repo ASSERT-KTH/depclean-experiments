@@ -1,0 +1,5 @@
+org.easymock:easymock:jar:3.6
++- org.objenesis:objenesis:jar:2.6:compile
++- org.droidparts.dexmaker:dexmaker:jar:1.5:compile
++- junit:junit:jar:4.12:provided
+\- org.testng:testng:jar:6.14.2:provided

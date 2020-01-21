@@ -1,0 +1,26 @@
+me.lyh:protobuf-generic_2.11:jar:0.2.4
++- org.scala-lang:scala-library:jar:2.11.12:compile
++- com.google.protobuf:protobuf-java:jar:3.4.0:provided
++- com.google.code.findbugs:jsr305:jar:3.0.2:provided
++- com.fasterxml.jackson.module:jackson-module-scala_2.11:jar:2.9.2:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.12)
+|  +- org.scala-lang:scala-reflect:jar:2.11.8:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.12)
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.9.2:compile
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.2:compile
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.9.2:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile - omitted for conflict with 2.9.2)
+|  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.2:compile - omitted for duplicate)
+|  \- com.fasterxml.jackson.module:jackson-module-paranamer:jar:2.9.2:compile
+|     +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.2:compile - omitted for duplicate)
+|     \- com.thoughtworks.paranamer:paranamer:jar:2.8:compile
+\- org.scalatest:scalatest_2.11:jar:3.0.4:test
+   +- (org.scala-lang:scala-library:jar:2.11.11:test - omitted for conflict with 2.11.12)
+   +- org.scalactic:scalactic_2.11:jar:3.0.4:test
+   |  +- (org.scala-lang:scala-library:jar:2.11.11:test - omitted for conflict with 2.11.12)
+   |  \- (org.scala-lang:scala-reflect:jar:2.11.11:test - omitted for conflict with 2.11.8)
+   +- (org.scala-lang:scala-reflect:jar:2.11.11:test - omitted for conflict with 2.11.8)
+   +- org.scala-lang.modules:scala-xml_2.11:jar:1.0.5:test
+   |  \- (org.scala-lang:scala-library:jar:2.11.7:test - omitted for conflict with 2.11.12)
+   \- org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.0.4:test
+      \- (org.scala-lang:scala-library:jar:2.11.6:test - omitted for conflict with 2.11.12)

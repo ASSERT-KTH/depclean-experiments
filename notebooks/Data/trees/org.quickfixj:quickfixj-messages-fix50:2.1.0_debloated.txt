@@ -1,0 +1,5 @@
+org.quickfixj:quickfixj-messages-fix50:jar:2.1.0
+\- org.quickfixj:quickfixj-core:jar:2.1.0:compile
+   +- org.apache.mina:mina-core:jar:2.0.19:compile
+   |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+   \- org.slf4j:slf4j-api:jar:1.7.25:compile

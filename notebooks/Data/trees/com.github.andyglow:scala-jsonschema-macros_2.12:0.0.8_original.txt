@@ -1,0 +1,16 @@
+com.github.andyglow:scala-jsonschema-macros_2.12:jar:0.0.8
++- org.scala-lang:scala-library:jar:2.12.6:compile
++- com.github.andyglow:scala-jsonschema-core_2.12:jar:0.0.8:compile
+|  \- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
++- org.scalatest:scalatest_2.12:jar:3.0.1:test
+|  +- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.6)
+|  +- org.scalactic:scalactic_2.12:jar:3.0.1:test
+|  |  +- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.6)
+|  |  \- (org.scala-lang:scala-reflect:jar:2.12.0:test - omitted for duplicate)
+|  +- (org.scala-lang:scala-reflect:jar:2.12.0:test - omitted for conflict with 2.12.6)
+|  +- org.scala-lang.modules:scala-xml_2.12:jar:1.0.5:test
+|  |  \- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.6)
+|  \- org.scala-lang.modules:scala-parser-combinators_2.12:jar:1.0.4:test
+|     \- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.6)
+\- org.scala-lang:scala-reflect:jar:2.12.6:compile
+   \- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)

@@ -1,0 +1,5 @@
+org.webjars.npm:jwa:jar:1.1.6
++- org.webjars.npm:buffer-equal-constant-time:jar:1.0.1:compile
++- org.webjars.npm:ecdsa-sig-formatter:jar:1.0.10:compile
+|  \- (org.webjars.npm:safe-buffer:jar:5.2.0:compile - omitted for duplicate)
+\- org.webjars.npm:safe-buffer:jar:5.2.0:compile

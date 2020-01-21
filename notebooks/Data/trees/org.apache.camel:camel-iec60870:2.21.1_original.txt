@@ -1,0 +1,79 @@
+org.apache.camel:camel-iec60870:jar:2.21.1
++- org.apache.camel:camel-core:jar:2.21.1:compile
+|  +- org.slf4j:slf4j-api:jar:1.7.25:compile
+|  +- com.sun.xml.bind:jaxb-core:jar:2.3.0:compile
+|  \- com.sun.xml.bind:jaxb-impl:jar:2.3.0:compile
++- org.eclipse.neoscada.protocols:org.eclipse.neoscada.protocol.iec60870:jar:0.4.0:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.2; omitted for duplicate)
+|  +- (io.netty:netty-transport:jar:4.0.19.Final:compile - omitted for conflict with 4.1.22.Final)
+|  +- (io.netty:netty-codec:jar:4.0.19.Final:compile - omitted for conflict with 4.1.22.Final)
+|  +- (org.eclipse.neoscada.utils:org.eclipse.scada.utils:jar:0.4.0:compile - omitted for duplicate)
+|  +- com.google.guava:guava:jar:19.0:compile (version managed from 18.0)
+|  +- (io.netty:netty-buffer:jar:4.0.19.Final:compile - omitted for conflict with 4.1.22.Final)
+|  \- (io.netty:netty-common:jar:4.0.19.Final:compile - omitted for conflict with 4.1.22.Final)
++- org.eclipse.neoscada.protocols:org.eclipse.neoscada.protocol.iec60870.client:jar:0.4.0:compile
+|  +- (io.netty:netty-handler:jar:4.0.19.Final:compile - omitted for conflict with 4.1.22.Final)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.2; omitted for duplicate)
+|  +- (io.netty:netty-transport:jar:4.0.19.Final:compile - omitted for duplicate)
+|  +- (io.netty:netty-codec:jar:4.0.19.Final:compile - omitted for duplicate)
+|  +- (org.eclipse.neoscada.utils:org.eclipse.scada.utils:jar:0.4.0:compile - omitted for duplicate)
+|  +- (org.eclipse.neoscada.protocols:org.eclipse.neoscada.protocol.iec60870:jar:0.4.0:compile - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:19.0:compile - version managed from 18.0; omitted for duplicate)
+|  +- (io.netty:netty-buffer:jar:4.0.19.Final:compile - omitted for duplicate)
+|  \- (io.netty:netty-common:jar:4.0.19.Final:compile - omitted for duplicate)
++- org.eclipse.neoscada.protocols:org.eclipse.neoscada.protocol.iec60870.client.data:jar:0.4.0:compile
+|  +- (io.netty:netty-handler:jar:4.0.19.Final:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.2; omitted for duplicate)
+|  +- (io.netty:netty-transport:jar:4.0.19.Final:compile - omitted for duplicate)
+|  +- (io.netty:netty-codec:jar:4.0.19.Final:compile - omitted for duplicate)
+|  +- (org.eclipse.neoscada.protocols:org.eclipse.neoscada.protocol.iec60870.client:jar:0.4.0:compile - omitted for duplicate)
+|  +- (org.eclipse.neoscada.utils:org.eclipse.scada.utils:jar:0.4.0:compile - omitted for duplicate)
+|  +- (org.eclipse.neoscada.protocols:org.eclipse.neoscada.protocol.iec60870:jar:0.4.0:compile - omitted for duplicate)
+|  +- (io.netty:netty-buffer:jar:4.0.19.Final:compile - omitted for duplicate)
+|  \- (io.netty:netty-common:jar:4.0.19.Final:compile - omitted for duplicate)
++- org.eclipse.neoscada.protocols:org.eclipse.neoscada.protocol.iec60870.server:jar:0.4.0:compile
+|  +- (io.netty:netty-handler:jar:4.0.19.Final:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.2; omitted for duplicate)
+|  +- (io.netty:netty-transport:jar:4.0.19.Final:compile - omitted for duplicate)
+|  +- (io.netty:netty-codec:jar:4.0.19.Final:compile - omitted for duplicate)
+|  +- (org.eclipse.neoscada.protocols:org.eclipse.neoscada.protocol.iec60870:jar:0.4.0:compile - omitted for duplicate)
+|  +- (io.netty:netty-buffer:jar:4.0.19.Final:compile - omitted for duplicate)
+|  \- (io.netty:netty-common:jar:4.0.19.Final:compile - omitted for duplicate)
++- org.eclipse.neoscada.protocols:org.eclipse.neoscada.protocol.iec60870.server.data:jar:0.4.0:compile
+|  +- (org.eclipse.neoscada.protocols:org.eclipse.neoscada.protocol.iec60870.server:jar:0.4.0:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.2; omitted for duplicate)
+|  +- (io.netty:netty-transport:jar:4.0.19.Final:compile - omitted for duplicate)
+|  +- (org.eclipse.neoscada.utils:org.eclipse.scada.utils:jar:0.4.0:compile - omitted for duplicate)
+|  +- (org.eclipse.neoscada.protocols:org.eclipse.neoscada.protocol.iec60870:jar:0.4.0:compile - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:19.0:compile - version managed from 18.0; omitted for duplicate)
+|  \- (io.netty:netty-common:jar:4.0.19.Final:compile - omitted for duplicate)
++- org.eclipse.neoscada.utils:org.eclipse.scada.utils:jar:0.4.0:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.2; omitted for duplicate)
++- io.netty:netty-buffer:jar:4.1.22.Final:compile
+|  \- (io.netty:netty-common:jar:4.1.22.Final:compile - omitted for conflict with 4.0.19.Final)
++- io.netty:netty-codec:jar:4.1.22.Final:compile
+|  \- (io.netty:netty-transport:jar:4.1.22.Final:compile - omitted for conflict with 4.0.19.Final)
++- io.netty:netty-common:jar:4.1.22.Final:compile
++- io.netty:netty-handler:jar:4.1.22.Final:compile
+|  +- (io.netty:netty-buffer:jar:4.1.22.Final:compile - omitted for duplicate)
+|  +- (io.netty:netty-transport:jar:4.1.22.Final:compile - omitted for conflict with 4.0.19.Final)
+|  \- (io.netty:netty-codec:jar:4.1.22.Final:compile - omitted for duplicate)
++- io.netty:netty-transport:jar:4.1.22.Final:compile
+|  +- (io.netty:netty-buffer:jar:4.1.22.Final:compile - omitted for duplicate)
+|  \- io.netty:netty-resolver:jar:4.1.22.Final:compile
+|     \- (io.netty:netty-common:jar:4.1.22.Final:compile - omitted for duplicate)
++- org.apache.camel:camel-test:jar:2.21.1:test
+|  +- (org.apache.camel:camel-core:jar:2.21.1:test - omitted for duplicate)
+|  \- (junit:junit:jar:4.12:test - omitted for duplicate)
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.apache.logging.log4j:log4j-api:jar:2.9.1:test
++- org.apache.logging.log4j:log4j-core:jar:2.9.1:test
+|  \- (org.apache.logging.log4j:log4j-api:jar:2.9.1:test - omitted for duplicate)
++- org.apache.logging.log4j:log4j-slf4j-impl:jar:2.9.1:test
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:test - version managed from 1.7.2; omitted for duplicate)
+|  +- (org.apache.logging.log4j:log4j-api:jar:2.9.1:test - omitted for duplicate)
+|  \- (org.apache.logging.log4j:log4j-core:jar:2.9.1:test - omitted for duplicate)
+\- org.apache.camel:apt:jar:2.21.1:provided
+   +- org.apache.camel:spi-annotations:jar:2.21.1:provided
+   \- org.apache.camel:json-simple-ordered:jar:2.21.1:provided

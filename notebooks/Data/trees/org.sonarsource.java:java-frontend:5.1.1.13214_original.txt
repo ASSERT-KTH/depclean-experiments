@@ -1,0 +1,59 @@
+org.sonarsource.java:java-frontend:jar:5.1.1.13214
++- org.sonarsource.sonarqube:sonar-plugin-api:jar:6.7:compile
+|  +- org.codehaus.woodstox:woodstox-core-lgpl:jar:4.4.0:compile
+|  |  \- javax.xml.stream:stax-api:jar:1.0-2:compile
+|  +- org.codehaus.woodstox:stax2-api:jar:3.1.4:compile
+|  \- org.codehaus.staxmate:staxmate:jar:2.0.1:compile
++- org.sonarsource.sslr:sslr-core:jar:1.22:compile
+|  +- com.google.code.findbugs:jsr305:jar:1.3.9:compile
+|  \- cglib:cglib-nodep:jar:3.2.5:compile
++- org.sonarsource.sslr-squid-bridge:sslr-squid-bridge:jar:2.6.1:compile
+|  +- org.picocontainer:picocontainer:jar:2.14.1:compile
+|  \- org.slf4j:slf4j-api:jar:1.6.2:test
++- com.google.guava:guava:jar:19.0:compile
++- org.sonarsource.java:java-maven-model:jar:5.1.1.13214:compile
++- org.ow2.asm:asm-commons:jar:6.0:compile
++- org.ow2.asm:asm-tree:jar:6.0:compile
+|  \- org.ow2.asm:asm:jar:6.0:compile
++- org.ow2.asm:asm-analysis:jar:6.0:compile
++- org.ow2.asm:asm-util:jar:6.0:compile
++- com.google.code.gson:gson:jar:2.6.2:compile
++- org.apache.maven:maven-project:jar:2.0.7:compile
+|  +- org.apache.maven:maven-settings:jar:2.0.7:compile
+|  +- org.apache.maven:maven-profile:jar:2.0.7:compile
+|  +- org.apache.maven:maven-model:jar:2.0.7:compile
+|  +- org.apache.maven:maven-artifact-manager:jar:2.0.7:compile
+|  |  +- org.apache.maven:maven-repository-metadata:jar:2.0.7:compile
+|  |  \- org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2:compile
+|  +- org.apache.maven:maven-plugin-registry:jar:2.0.7:compile
+|  +- org.codehaus.plexus:plexus-utils:jar:1.4.1:compile
+|  +- org.apache.maven:maven-artifact:jar:2.0.7:compile
+|  \- org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+|     \- classworlds:classworlds:jar:1.1-alpha-2:compile
++- org.sonarsource.sslr:sslr-testing-harness:jar:1.22:test
+|  +- org.sonarsource.sslr:sslr-toolkit:jar:1.22:test
+|  |  +- org.sonarsource.sslr:sslr-xpath:jar:1.22:test
+|  |  |  \- jaxen:jaxen:jar:1.1.4:test
+|  |  \- org.codehaus.sonar:sonar-colorizer:jar:3.7:test
+|  |     \- org.codehaus.sonar:sonar-channel:jar:3.7:test
+|  |        \- commons-io:commons-io:jar:2.4:test
+|  \- org.easytesting:fest-assert:jar:1.4:test
+|     \- org.easytesting:fest-util:jar:1.1.6:test
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.assertj:assertj-core:jar:3.6.1:test
++- org.mockito:mockito-core:jar:2.7.13:test
+|  +- net.bytebuddy:byte-buddy:jar:1.6.9:test
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.6.9:test
+|  \- org.objenesis:objenesis:jar:2.5:test
++- ch.qos.logback:logback-classic:jar:0.9.30:test
+|  \- ch.qos.logback:logback-core:jar:0.9.30:test
++- commons-lang:commons-lang:jar:2.6:compile
++- javax.xml.bind:jaxb-api:jar:2.3.0:compile
++- org.glassfish.jaxb:jaxb-runtime:jar:2.3.0:runtime
+|  +- org.glassfish.jaxb:jaxb-core:jar:2.3.0:runtime
+|  |  +- org.glassfish.jaxb:txw2:jar:2.3.0:runtime
+|  |  \- com.sun.istack:istack-commons-runtime:jar:3.0.5:runtime
+|  +- org.jvnet.staxex:stax-ex:jar:1.7.8:runtime
+|  \- com.sun.xml.fastinfoset:FastInfoset:jar:1.2.13:runtime
+\- com.sun.activation:javax.activation:jar:1.2.0:runtime

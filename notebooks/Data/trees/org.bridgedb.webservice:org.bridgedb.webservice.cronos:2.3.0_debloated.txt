@@ -1,0 +1,10 @@
+org.bridgedb.webservice:org.bridgedb.webservice.cronos:jar:2.3.0
++- org.bridgedb:org.bridgedb.bio:jar:2.3.0:compile
+|  \- org.bridgedb:org.bridgedb:jar:2.3.0:compile
++- commons-discovery:commons-discovery:jar:0.4:runtime
+|  \- commons-logging:commons-logging:jar:1.0.4:runtime
++- wsdl4j:wsdl4j:jar:1.6.2:runtime
++- org.apache.axis:axis:jar:1.4:compile
++- org.apache.axis:axis-jaxrpc:jar:1.4:compile
+\- junit:junit:jar:4.12:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

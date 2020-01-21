@@ -1,0 +1,32 @@
+org.craftercms:crafter-commons-audit:jar:3.0.16
++- org.craftercms:crafter-commons-ebus:jar:3.0.16:compile
+|  \- org.projectreactor:reactor-spring:jar:1.0.0.RELEASE:compile
+|     +- com.jayway.jsonpath:json-path:jar:0.9.0:compile
+|     |  +- net.minidev:json-smart:jar:1.2:compile
+|     |  \- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for duplicate)
+|     +- org.projectreactor:reactor-core:jar:1.0.0.RELEASE:compile
+|     |  +- com.lmax:disruptor:jar:3.2.0:compile
+|     |  \- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for duplicate)
+|     +- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for conflict with 1.6.6)
+|     +- (org.springframework:spring-beans:jar:3.2.3.RELEASE:compile - omitted for conflict with 4.3.18.RELEASE)
+|     +- (org.springframework:spring-context:jar:3.2.3.RELEASE:compile - omitted for conflict with 4.3.18.RELEASE)
+|     +- (org.springframework:spring-context-support:jar:3.2.3.RELEASE:compile - omitted for conflict with 4.3.18.RELEASE)
+|     +- (org.springframework:spring-core:jar:3.2.3.RELEASE:compile - omitted for conflict with 4.3.18.RELEASE)
+|     +- (org.springframework:spring-expression:jar:3.2.3.RELEASE:compile - omitted for conflict with 4.3.18.RELEASE)
+|     \- (org.springframework:spring-tx:jar:3.2.3.RELEASE:compile - omitted for conflict with 4.3.18.RELEASE)
++- org.springframework:spring-core:jar:4.3.18.RELEASE:compile
+|  \- commons-logging:commons-logging:jar:1.2:compile
++- org.springframework:spring-tx:jar:4.3.18.RELEASE:compile
+|  +- (org.springframework:spring-beans:jar:4.3.18.RELEASE:compile - omitted for duplicate)
+|  \- (org.springframework:spring-core:jar:4.3.18.RELEASE:compile - omitted for duplicate)
++- org.quartz-scheduler:quartz:jar:2.2.1:compile
+|  +- c3p0:c3p0:jar:0.9.1.1:compile
+|  \- org.slf4j:slf4j-api:jar:1.6.6:compile
++- org.springframework:spring-test:jar:4.3.18.RELEASE:test
+|  \- (org.springframework:spring-core:jar:4.3.18.RELEASE:test - omitted for duplicate)
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- ch.qos.logback:logback-core:jar:1.2.3:test
+\- ch.qos.logback:logback-classic:jar:1.2.3:test
+   +- (ch.qos.logback:logback-core:jar:1.2.3:test - omitted for duplicate)
+   \- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for conflict with 1.6.6)

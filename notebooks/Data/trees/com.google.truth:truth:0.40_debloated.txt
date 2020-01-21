@@ -1,0 +1,30 @@
+com.google.truth:truth:jar:0.40
++- com.google.guava:guava:jar:23.4-android:compile
+|  +- (com.google.code.findbugs:jsr305:jar:1.3.9:compile - omitted for conflict with 3.0.2)
+|  +- (com.google.errorprone:error_prone_annotations:jar:2.0.18:compile - omitted for conflict with 2.1.3)
+|  +- com.google.j2objc:j2objc-annotations:jar:1.1:compile
+|  \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:compile
++- com.google.code.findbugs:jsr305:jar:3.0.2:compile
++- junit:junit:jar:4.12:compile
+|  \- org.hamcrest:hamcrest-core:jar:1.3:compile
++- com.googlecode.java-diff-utils:diffutils:jar:1.3.0:compile
++- com.google.gwt:gwt-user:jar:2.8.2:provided
+|  +- com.google.jsinterop:jsinterop-annotations:jar:1.0.2:provided
+|  +- com.google.jsinterop:jsinterop-annotations:jar:sources:1.0.2:provided
+|  +- javax.validation:validation-api:jar:1.0.0.GA:provided
+|  +- javax.validation:validation-api:jar:sources:1.0.0.GA:provided
+|  +- javax.servlet:javax.servlet-api:jar:3.1.0:provided
+|  \- org.w3c.css:sac:jar:1.3:provided
++- com.google.auto.value:auto-value:jar:1.5.3:provided
++- com.google.guava:guava-gwt:jar:23.4-jre:test
+|  \- (com.google.guava:guava:jar:23.4-jre:test - omitted for conflict with 23.4-android)
++- com.google.guava:guava-testlib:jar:23.4-android:test
+|  +- (com.google.code.findbugs:jsr305:jar:1.3.9:test - omitted for conflict with 3.0.2)
+|  +- (com.google.errorprone:error_prone_annotations:jar:2.0.18:test - omitted for duplicate)
+|  +- (com.google.j2objc:j2objc-annotations:jar:1.1:test - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:23.4-android:test - omitted for duplicate)
+|  \- (junit:junit:jar:4.11:test - omitted for conflict with 4.12)
++- (com.google.truth:truth:jar:0.37:test - omitted for cycle)
++- com.google.testing.compile:compile-testing:jar:0.15:test
+|  \- (junit:junit:jar:4.12:test - omitted for duplicate)
+\- com.google.errorprone:error_prone_annotations:jar:2.1.3:compile

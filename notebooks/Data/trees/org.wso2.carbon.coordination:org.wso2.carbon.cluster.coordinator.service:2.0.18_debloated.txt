@@ -1,0 +1,20 @@
+org.wso2.carbon.coordination:org.wso2.carbon.cluster.coordinator.service:bundle:2.0.18
++- commons-logging:commons-logging:jar:1.2:compile
++- org.osgi:org.osgi.core:jar:6.0.0:compile
++- org.wso2.eclipse.osgi:org.eclipse.osgi.services:jar:3.4.0.v20140312-2051:compile
++- org.wso2.carbon:org.wso2.carbon.core:jar:5.2.0:compile
+|  \- org.wso2.carbon.config:org.wso2.carbon.config:jar:2.1.0:compile
+|     +- org.wso2.eclipse.osgi:org.eclipse.osgi:jar:3.11.0.v20160603-1336:compile
+|     +- (org.wso2.eclipse.osgi:org.eclipse.osgi.services:jar:3.4.0.v20140312-2051:compile - version managed from 3.5.100.v20160504-1419; omitted for duplicate)
+|     +- org.slf4j:slf4j-api:jar:1.7.12:compile
+|     +- org.yaml:snakeyaml:jar:1.17:compile
+|     +- org.wso2.carbon.secvault:org.wso2.carbon.secvault:jar:5.0.8:compile
+|     |  +- (org.wso2.eclipse.osgi:org.eclipse.osgi:jar:3.11.0.v20160603-1336:compile - omitted for duplicate)
+|     |  +- (org.wso2.eclipse.osgi:org.eclipse.osgi.services:jar:3.4.0.v20140312-2051:compile - version managed from 3.5.100.v20160504-1419; omitted for duplicate)
+|     |  +- (org.wso2.carbon.utils:org.wso2.carbon.utils:jar:2.0.1:compile - omitted for conflict with 2.0.2)
+|     |  +- (org.yaml:snakeyaml:jar:1.17:compile - omitted for duplicate)
+|     |  \- (org.slf4j:slf4j-api:jar:1.7.12:compile - omitted for duplicate)
+|     \- org.wso2.carbon.utils:org.wso2.carbon.utils:jar:2.0.2:compile
+\- org.wso2.carbon.coordination:org.wso2.carbon.cluster.coordinator.commons:jar:2.0.18:compile
+   +- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+   \- (org.wso2.carbon:org.wso2.carbon.core:jar:5.2.0:compile - omitted for duplicate)

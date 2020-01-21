@@ -1,0 +1,10 @@
+com.custardsource.parfait:dxm:jar:0.3.10
++- com.google.guava:guava:jar:18.0:compile
++- net.jcip:jcip-annotations:jar:1.0:compile
++- javax.measure:jsr-275:jar:0.9.1:compile
++- commons-lang:commons-lang:jar:2.4:compile
++- org.mockito:mockito-core:jar:1.8.0:test
+|  +- org.hamcrest:hamcrest-core:jar:1.1:test
+|  \- org.objenesis:objenesis:jar:1.0:test
++- junit:junit:jar:4.6:test
+\- org.slf4j:slf4j-api:jar:1.6.1:compile

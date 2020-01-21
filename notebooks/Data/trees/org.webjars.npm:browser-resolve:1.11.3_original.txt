@@ -1,0 +1,2 @@
+org.webjars.npm:browser-resolve:jar:1.11.3
+\- org.webjars.npm:resolve:jar:1.1.7:compile

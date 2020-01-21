@@ -1,0 +1,56 @@
+io.monix:monix-eval_2.12:jar:3.0.0-RC1
++- org.scala-lang:scala-library:jar:2.12.4:compile
++- io.monix:monix-execution_2.12:jar:3.0.0-RC1:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  +- org.typelevel:cats-effect_2.12:jar:0.10:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  |  \- org.typelevel:cats-core_2.12:jar:1.1.0:compile
+|  |     +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  |     +- org.typelevel:cats-macros_2.12:jar:1.1.0:compile
+|  |     |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  |     |  \- (org.typelevel:machinist_2.12:jar:0.6.2:compile - omitted for duplicate)
+|  |     +- org.typelevel:cats-kernel_2.12:jar:1.1.0:compile
+|  |     |  \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  |     \- org.typelevel:machinist_2.12:jar:0.6.2:compile
+|  |        +- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.4)
+|  |        \- org.scala-lang:scala-reflect:jar:2.12.4:compile
+|  |           \- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.4)
+|  \- org.reactivestreams:reactive-streams:jar:1.0.2:compile
++- io.monix:minitest-laws_2.12:jar:2.1.1:test
+|  +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for duplicate)
+|  +- io.monix:minitest_2.12:jar:2.1.1:test
+|  |  +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for duplicate)
+|  |  +- (org.scala-lang:scala-reflect:jar:2.12.4:compile - scope updated from test; omitted for duplicate)
+|  |  +- org.typelevel:macro-compat_2.12:jar:1.1.1:test
+|  |  |  \- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.4)
+|  |  \- org.scala-sbt:test-interface:jar:1.0:test
+|  \- org.scalacheck:scalacheck_2.12:jar:1.13.5:test
+|     +- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.4)
+|     \- (org.scala-sbt:test-interface:jar:1.0:test - omitted for duplicate)
++- org.typelevel:cats-laws_2.12:jar:1.1.0:test
+|  +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for duplicate)
+|  +- (org.typelevel:cats-macros_2.12:jar:1.1.0:compile - scope updated from test; omitted for duplicate)
+|  +- (org.typelevel:cats-kernel_2.12:jar:1.1.0:compile - scope updated from test; omitted for duplicate)
+|  +- (org.typelevel:cats-core_2.12:jar:1.1.0:compile - scope updated from test; omitted for duplicate)
+|  +- org.typelevel:cats-kernel-laws_2.12:jar:1.1.0:test
+|  |  +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for duplicate)
+|  |  +- (org.typelevel:cats-kernel_2.12:jar:1.1.0:compile - scope updated from test; omitted for duplicate)
+|  |  +- (org.scalacheck:scalacheck_2.12:jar:1.13.5:test - omitted for duplicate)
+|  |  +- (org.typelevel:discipline_2.12:jar:0.8:test - omitted for duplicate)
+|  |  \- (org.typelevel:catalysts-platform_2.12:jar:0.0.5:test - omitted for duplicate)
+|  +- (org.typelevel:machinist_2.12:jar:0.6.2:compile - scope updated from test; omitted for duplicate)
+|  +- (org.scalacheck:scalacheck_2.12:jar:1.13.5:test - omitted for duplicate)
+|  +- org.typelevel:discipline_2.12:jar:0.8:test
+|  |  +- (org.scala-lang:scala-library:jar:2.12.2:test - omitted for conflict with 2.12.4)
+|  |  \- (org.scalacheck:scalacheck_2.12:jar:1.13.5:test - omitted for duplicate)
+|  \- org.typelevel:catalysts-platform_2.12:jar:0.0.5:test
+|     +- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.4)
+|     \- org.typelevel:catalysts-macros_2.12:jar:0.0.5:test
+|        +- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.4)
+|        \- (org.typelevel:macro-compat_2.12:jar:1.1.1:test - omitted for duplicate)
+\- org.typelevel:cats-effect-laws_2.12:jar:0.10:test
+   +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for duplicate)
+   +- (org.typelevel:cats-effect_2.12:jar:0.10:test - omitted for duplicate)
+   +- (org.typelevel:cats-laws_2.12:jar:1.0.1:test - omitted for conflict with 1.1.0)
+   +- (org.scalacheck:scalacheck_2.12:jar:1.13.5:test - omitted for duplicate)
+   \- (org.typelevel:discipline_2.12:jar:0.8:test - omitted for duplicate)

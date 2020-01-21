@@ -1,0 +1,41 @@
+org.apache.openwebbeans:openwebbeans-tomcat7:jar:2.0.4
++- org.apache.tomcat:tomcat-catalina:jar:7.0.73:provided
+|  +- org.apache.tomcat:tomcat-servlet-api:jar:7.0.73:provided
+|  +- org.apache.tomcat:tomcat-juli:jar:7.0.73:provided
+|  +- org.apache.tomcat:tomcat-annotations-api:jar:7.0.73:provided
+|  +- org.apache.tomcat:tomcat-api:jar:7.0.73:provided
+|  |  \- (org.apache.tomcat:tomcat-servlet-api:jar:7.0.73:provided - omitted for duplicate)
+|  \- org.apache.tomcat:tomcat-util:jar:7.0.73:provided
+|     +- (org.apache.tomcat:tomcat-juli:jar:7.0.73:provided - omitted for duplicate)
+|     \- (org.apache.tomcat:tomcat-api:jar:7.0.73:provided - omitted for duplicate)
++- org.apache.geronimo.specs:geronimo-jcdi_2.0_spec:jar:1.0.1:provided
++- org.apache.geronimo.specs:geronimo-atinject_1.0_spec:jar:1.0:provided
++- org.apache.openwebbeans:openwebbeans-spi:jar:2.0.4:provided (scope not updated to compile)
++- org.apache.openwebbeans:openwebbeans-impl:jar:2.0.4:compile
+|  +- org.apache.xbean:xbean-finder-shaded:jar:4.6:compile
+|  |  \- (org.apache.xbean:xbean-asm6-shaded:jar:4.6:compile - omitted for duplicate)
+|  +- org.apache.xbean:xbean-asm6-shaded:jar:4.6:compile
+|  \- (org.apache.openwebbeans:openwebbeans-spi:jar:2.0.4:compile - omitted for duplicate)
++- org.apache.openwebbeans:openwebbeans-web:jar:2.0.4:compile
+|  +- (org.apache.xbean:xbean-finder-shaded:jar:4.6:compile - omitted for duplicate)
+|  +- (org.apache.openwebbeans:openwebbeans-impl:jar:2.0.4:compile - omitted for duplicate)
+|  \- org.apache.openwebbeans:openwebbeans-el22:jar:2.0.4:compile
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.apache.tomcat.embed:tomcat-embed-core:jar:7.0.73:test
++- org.apache.geronimo.specs:geronimo-interceptor_1.2_spec:jar:1.0:test
++- org.apache.tomcat:tomcat-jasper-el:jar:7.0.73:test
+|  \- (org.apache.tomcat:tomcat-el-api:jar:7.0.73:test - omitted for duplicate)
++- org.apache.tomcat:tomcat-el-api:jar:7.0.73:test
++- org.apache.tomcat:tomcat-jsp-api:jar:7.0.73:test
+|  +- (org.apache.tomcat:tomcat-el-api:jar:7.0.73:test - omitted for duplicate)
+|  \- (org.apache.tomcat:tomcat-servlet-api:jar:7.0.73:test - omitted for duplicate)
+\- org.apache.tomcat:tomcat-jasper:jar:7.0.73:test
+   +- (org.apache.tomcat:tomcat-servlet-api:jar:7.0.73:test - omitted for duplicate)
+   +- (org.apache.tomcat:tomcat-juli:jar:7.0.73:test - omitted for duplicate)
+   +- (org.apache.tomcat:tomcat-jsp-api:jar:7.0.73:test - omitted for duplicate)
+   +- (org.apache.tomcat:tomcat-el-api:jar:7.0.73:test - omitted for duplicate)
+   +- org.eclipse.jdt.core.compiler:ecj:jar:4.4.2:test
+   +- (org.apache.tomcat:tomcat-jasper-el:jar:7.0.73:test - omitted for duplicate)
+   +- (org.apache.tomcat:tomcat-api:jar:7.0.73:test - omitted for duplicate)
+   \- (org.apache.tomcat:tomcat-util:jar:7.0.73:test - omitted for duplicate)

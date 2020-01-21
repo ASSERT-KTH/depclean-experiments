@@ -1,0 +1,13 @@
+com.linkedin.pegasus:li-jersey-uri:jar:19.0.3
++- org.slf4j:slf4j-api:jar:1.6.2:compile
+\- com.linkedin.pegasus:log-test-config:jar:19.0.3:test
+   +- (org.slf4j:slf4j-api:jar:1.6.2:test - omitted for duplicate)
+   +- org.apache.logging.log4j:log4j-slf4j-impl:jar:2.0.2:test
+   |  +- (org.slf4j:slf4j-api:jar:1.7.7:test - omitted for conflict with 1.6.2)
+   |  \- (org.apache.logging.log4j:log4j-api:jar:2.0.2:test - omitted for duplicate)
+   +- org.apache.logging.log4j:log4j-api:jar:2.0.2:test
+   +- org.apache.logging.log4j:log4j-core:jar:2.0.2:test
+   |  \- (org.apache.logging.log4j:log4j-api:jar:2.0.2:test - omitted for duplicate)
+   \- org.apache.logging.log4j:log4j-1.2-api:jar:2.0.2:test
+      +- (org.apache.logging.log4j:log4j-api:jar:2.0.2:test - omitted for duplicate)
+      \- (org.apache.logging.log4j:log4j-core:jar:2.0.2:test - omitted for duplicate)

@@ -1,0 +1,9 @@
+cn.wizzer:wk-framework:jar:5.0.6
+\- org.nutz:nutzboot-starter-nutz-dao:jar:2.2.1:compile
+   +- org.nutz:nutz-plugins-daocache:jar:1.r.66:compile
+   |  +- com.alibaba:druid:jar:1.1.10:compile
+   |  \- org.nutz:nutz:jar:1.r.66:compile
+   \- org.nutz:nutzboot-core:jar:2.2.1:compile
+      +- (org.nutz:nutz:jar:1.r.66:compile - omitted for duplicate)
+      +- javax.servlet:javax.servlet-api:jar:3.1.0:compile
+      \- org.slf4j:slf4j-api:jar:1.7.25:compile

@@ -1,0 +1,50 @@
+org.apache.james:james-server-guice-smtp:jar:3.1.0
++- org.apache.james:james-server-guice-configuration:jar:3.1.0:compile
+|  +- org.apache.james:james-server-core:jar:3.1.0:compile
+|  |  +- org.apache.james:apache-mailet-base:jar:3.1.0:compile
+|  |  |  +- org.apache.james:apache-mime4j-core:jar:0.8.2:compile
+|  |  |  +- org.apache.james:javax-mail-extension:jar:3.1.0:compile
+|  |  |  \- javax.activation:activation:jar:1.1.1:compile
+|  |  \- commons-io:commons-io:jar:2.5:compile
+|  +- org.apache.james:james-server-filesystem-api:jar:3.1.0:compile
+|  +- org.apache.james:james-server-lifecycle-api:jar:3.1.0:compile
+|  \- com.google.guava:guava:jar:19.0:compile
++- org.apache.james:james-server-protocols-smtp:jar:3.1.0:compile
+|  +- org.apache.james:apache-mailet-api:jar:3.1.0:compile
+|  |  +- org.apache.james:james-core:jar:3.1.0:compile
+|  |  \- com.github.steveash.guavate:guavate:jar:1.0.0:compile
+|  +- org.apache.james:james-server-data-api:jar:3.1.0:compile
+|  |  +- org.apache.james:james-server-mailrepository-api:jar:3.1.0:compile
+|  |  \- joda-time:joda-time:jar:2.9.4:compile
+|  +- org.apache.james:james-server-data-memory:jar:3.1.0:compile
+|  |  \- org.apache.james:james-server-data-library:jar:3.1.0:compile
+|  |     +- org.apache.james:event-sourcing-core:jar:3.1.0:compile
+|  |     |  +- org.apache.james:event-sourcing-event-store-api:jar:3.1.0:compile
+|  |     |  \- org.apache.james:event-sourcing-pojo:jar:3.1.0:compile
+|  |     \- org.slf4j:jcl-over-slf4j:jar:1.7.25:compile
+|  +- org.apache.james:james-server-dnsservice-api:jar:3.1.0:compile
+|  +- org.apache.james:james-server-dnsservice-library:jar:3.1.0:compile
+|  +- org.apache.james:james-server-protocols-library:jar:3.1.0:compile
+|  +- org.apache.james:james-server-queue-api:jar:3.1.0:compile
+|  +- org.apache.james:james-server-util:jar:3.1.0:compile
+|  |  +- com.github.fge:throwing-lambdas:jar:0.5.0:compile
+|  |  \- org.apache.commons:commons-lang3:jar:3.6:compile
+|  +- org.apache.james:metrics-api:jar:3.1.0:compile
+|  +- com.sun.mail:javax.mail:jar:1.6.1:compile
+|  +- commons-configuration:commons-configuration:jar:1.9:compile
+|  |  +- commons-lang:commons-lang:jar:2.6:compile
+|  |  \- commons-logging:commons-logging:jar:1.1:compile
+|  +- io.netty:netty:jar:3.10.6.Final:compile
+|  +- javax.inject:javax.inject:jar:1:compile
+|  +- org.apache.geronimo.specs:geronimo-annotation_1.1_spec:jar:1.0.1:compile
+|  +- org.apache.james.jspf:apache-jspf-resolver:jar:1.0.1:compile
+|  +- org.apache.james.protocols:protocols-api:jar:3.1.0:compile
+|  +- org.apache.james.protocols:protocols-netty:jar:3.1.0:compile
+|  |  \- org.apache.james:james-server-util-java8:jar:3.1.0:compile
+|  |     \- org.apache.james:apache-mime4j-dom:jar:0.8.2:compile
+|  +- org.apache.james.protocols:protocols-smtp:jar:3.1.0:compile
+|  |  \- ch.qos.logback:logback-core:jar:1.1.11:compile
+|  \- org.slf4j:slf4j-api:jar:1.7.25:compile
++- com.google.inject:guice:jar:4.0:compile
+|  \- aopalliance:aopalliance:jar:1.0:compile
+\- com.google.inject.extensions:guice-multibindings:jar:4.0:compile

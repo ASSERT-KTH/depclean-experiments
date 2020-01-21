@@ -1,0 +1,4 @@
+org.beigesoft:beigesoft-bcommon:jar:1.1.6
++- org.beigesoft:beige-logging-base:jar:1.0.2:compile
+\- junit:junit:jar:4.10:test
+   \- org.hamcrest:hamcrest-core:jar:1.1:test

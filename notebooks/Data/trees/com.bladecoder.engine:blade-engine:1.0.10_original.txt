@@ -1,0 +1,4 @@
+com.bladecoder.engine:blade-engine:jar:1.0.10
++- com.badlogicgames.gdx:gdx-freetype:jar:1.9.4:compile
+|  \- (com.badlogicgames.gdx:gdx:jar:1.9.4:compile - omitted for duplicate)
+\- com.badlogicgames.gdx:gdx:jar:1.9.4:compile

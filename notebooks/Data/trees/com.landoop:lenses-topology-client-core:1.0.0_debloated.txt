@@ -1,0 +1,47 @@
+com.landoop:lenses-topology-client-core:jar:1.0.0
++- com.fasterxml.jackson.core:jackson-core:jar:2.6.7:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.6.7:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.6.0:compile - omitted for conflict with 2.6.7)
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.6.7:compile - omitted for duplicate)
++- com.fasterxml.jackson.core:jackson-annotations:jar:2.6.7:compile
++- org.slf4j:slf4j-api:jar:1.7.25:test
++- org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.41:test
+|  \- org.jetbrains:annotations:jar:13.0:test
++- org.jetbrains.kotlin:kotlin-reflect:jar:1.2.41:test
+|  \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.41:test - omitted for duplicate)
++- io.kotlintest:kotlintest-runner-junit5:jar:3.1.7:test
+|  +- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.41:test - omitted for duplicate)
+|  +- io.kotlintest:kotlintest-core:jar:3.1.7:test
+|  |  +- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.41:test - omitted for duplicate)
+|  |  \- (org.jetbrains.kotlin:kotlin-reflect:jar:1.2.41:test - omitted for duplicate)
+|  +- io.kotlintest:kotlintest-assertions:jar:3.1.7:test
+|  |  +- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.41:test - omitted for duplicate)
+|  |  +- (org.jetbrains.kotlin:kotlin-reflect:jar:1.2.41:test - omitted for duplicate)
+|  |  \- com.univocity:univocity-parsers:jar:2.6.1:test
+|  +- io.kotlintest:kotlintest-runner-jvm:jar:3.1.7:test
+|  |  +- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.41:test - omitted for duplicate)
+|  |  +- (io.kotlintest:kotlintest-core:jar:3.1.7:test - omitted for duplicate)
+|  |  +- org.reflections:reflections:jar:0.9.11:test
+|  |  |  +- com.google.guava:guava:jar:20.0:test
+|  |  |  \- org.javassist:javassist:jar:3.21.0-GA:test
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)
+|  |  \- io.arrow-kt:arrow-core:jar:0.7.1:test
+|  |     +- org.jetbrains.kotlin:kotlin-stdlib-jdk7:jar:1.2.31:test
+|  |     |  \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.31:test - omitted for conflict with 1.2.41)
+|  |     \- io.arrow-kt:arrow-annotations:jar:0.7.1:test
+|  |        +- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.31:test - omitted for conflict with 1.2.41)
+|  |        \- io.kindedj:kindedj:jar:1.1.0:test
+|  +- org.junit.platform:junit-platform-engine:jar:1.2.0:test
+|  |  +- org.apiguardian:apiguardian-api:jar:1.0.0:test
+|  |  +- org.junit.platform:junit-platform-commons:jar:1.2.0:test
+|  |  |  \- (org.apiguardian:apiguardian-api:jar:1.0.0:test - omitted for duplicate)
+|  |  \- org.opentest4j:opentest4j:jar:1.1.0:test
+|  +- org.junit.platform:junit-platform-suite-api:jar:1.2.0:test
+|  |  +- (org.apiguardian:apiguardian-api:jar:1.0.0:test - omitted for duplicate)
+|  |  \- (org.junit.platform:junit-platform-commons:jar:1.2.0:test - omitted for duplicate)
+|  \- org.junit.platform:junit-platform-launcher:jar:1.2.0:test
+|     +- (org.apiguardian:apiguardian-api:jar:1.0.0:test - omitted for duplicate)
+|     \- (org.junit.platform:junit-platform-engine:jar:1.2.0:test - omitted for duplicate)
+\- ch.qos.logback:logback-classic:jar:1.2.3:test
+   +- ch.qos.logback:logback-core:jar:1.2.3:test
+   \- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)

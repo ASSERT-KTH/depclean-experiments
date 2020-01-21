@@ -1,0 +1,2 @@
+org.webjars.npm:is-arrow-function:jar:2.0.3
+\- org.webjars.npm:is-callable:jar:1.1.4:compile

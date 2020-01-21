@@ -1,0 +1,33 @@
+io.apiman:apiman-common-logging-log4j2:jar:1.3.3.Final
++- io.apiman:apiman-gateway-engine-core:jar:1.3.3.Final:compile
+|  +- io.apiman:apiman-common-util:jar:1.3.3.Final:compile
+|  |  +- commons-codec:commons-codec:jar:1.10:compile
+|  |  +- (org.apache.commons:commons-lang3:jar:3.3.2:compile - omitted for duplicate)
+|  |  \- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+|  +- (io.apiman:apiman-common-logging-core:jar:1.3.3.Final:compile - omitted for duplicate)
+|  +- io.apiman:apiman-common-plugin:jar:1.3.3.Final:compile
+|  |  +- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+|  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile - omitted for duplicate)
+|  +- io.apiman:apiman-gateway-engine-beans:jar:1.3.3.Final:compile
+|  |  +- net.openhft:zero-allocation-hashing:jar:0.6:compile
+|  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.5:compile
+|  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile - omitted for duplicate)
+|  +- commons-io:commons-io:jar:2.4:compile
+|  +- org.apache.commons:commons-lang3:jar:3.3.2:compile
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.5:compile - version managed from 2.9.0; omitted for duplicate)
+|  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.9.5:compile
+|  +- joda-time:joda-time:jar:2.7:compile
+|  +- com.zaxxer:HikariCP:jar:2.4.0:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.24; omitted for duplicate)
+|  \- com.unboundid:unboundid-ldapsdk:jar:3.0.0:compile
++- io.apiman:apiman-common-logging-core:jar:1.3.3.Final:compile
++- org.apache.logging.log4j:log4j-api:jar:2.8.2:compile
++- org.apache.logging.log4j:log4j-core:jar:2.8.2:compile
+|  \- (org.apache.logging.log4j:log4j-api:jar:2.8.2:compile - omitted for duplicate)
++- org.apache.logging.log4j:log4j-slf4j-impl:jar:2.8.2:compile
+|  +- org.slf4j:slf4j-api:jar:1.7.21:compile
+|  \- (org.apache.logging.log4j:log4j-api:jar:2.8.2:compile - omitted for duplicate)
++- junit:junit:jar:4.11:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
+\- org.mockito:mockito-all:jar:1.9.5:test

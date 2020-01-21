@@ -1,0 +1,132 @@
+io.pravega:pravega-client:jar:0.3.1
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- com.google.guava:guava:jar:20.0:compile
++- org.projectlombok:lombok:jar:1.16.18:compile
++- com.google.code.findbugs:annotations:jar:3.0.1:compile
+|  +- net.jcip:jcip-annotations:jar:1.0:compile
+|  \- com.google.code.findbugs:jsr305:jar:3.0.1:compile
++- io.netty:netty-all:jar:4.1.16.Final:compile
++- io.pravega:pravega-common:jar:0.3.1:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  +- commons-io:commons-io:jar:2.5:compile
+|  +- (com.google.guava:guava:jar:20.0:compile - omitted for duplicate)
+|  +- (com.google.code.findbugs:annotations:jar:3.0.1:compile - omitted for duplicate)
+|  +- (org.projectlombok:lombok:jar:1.16.18:compile - omitted for duplicate)
+|  \- (io.netty:netty-all:jar:4.1.16.Final:compile - omitted for duplicate)
++- io.pravega:pravega-shared:jar:0.3.1:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  +- (io.pravega:pravega-common:jar:0.3.1:compile - omitted for duplicate)
+|  +- (org.projectlombok:lombok:jar:1.16.18:compile - omitted for duplicate)
+|  +- (com.google.code.findbugs:annotations:jar:3.0.1:compile - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:20.0:compile - omitted for duplicate)
+|  +- org.apache.commons:commons-lang3:jar:3.7:compile
+|  \- org.apache.curator:curator-recipes:jar:4.0.0:compile
+|     \- org.apache.curator:curator-framework:jar:4.0.0:compile
+|        \- org.apache.curator:curator-client:jar:4.0.0:compile
+|           +- org.apache.zookeeper:zookeeper:jar:3.5.3-beta:compile
+|           |  +- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for conflict with 1.7.25)
+|           |  +- commons-cli:commons-cli:jar:1.2:compile
+|           |  +- log4j:log4j:jar:1.2.17:compile
+|           |  \- io.netty:netty:jar:3.10.5.Final:compile
+|           +- (com.google.guava:guava:jar:20.0:compile - omitted for duplicate)
+|           \- (org.slf4j:slf4j-api:jar:1.7.6:compile - omitted for conflict with 1.7.25)
++- io.pravega:pravega-shared-protocol:jar:0.3.1:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  +- (io.netty:netty-all:jar:4.1.16.Final:compile - omitted for duplicate)
+|  +- (org.projectlombok:lombok:jar:1.16.18:compile - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:20.0:compile - omitted for duplicate)
+|  \- (com.google.code.findbugs:annotations:jar:3.0.1:compile - omitted for duplicate)
++- io.pravega:pravega-shared-controller-api:jar:0.3.1:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  +- io.grpc:grpc-netty:jar:1.8.0:compile
+|  |  +- io.grpc:grpc-core:jar:1.8.0:compile
+|  |  |  +- (io.grpc:grpc-context:jar:1.8.0:compile - omitted for duplicate)
+|  |  |  +- (com.google.guava:guava:jar:19.0:compile - omitted for conflict with 20.0)
+|  |  |  +- com.google.errorprone:error_prone_annotations:jar:2.0.19:compile
+|  |  |  +- (com.google.code.findbugs:jsr305:jar:3.0.0:compile - omitted for conflict with 3.0.1)
+|  |  |  +- com.google.instrumentation:instrumentation-api:jar:0.4.3:compile
+|  |  |  |  +- (com.google.code.findbugs:jsr305:jar:3.0.0:compile - omitted for conflict with 3.0.1)
+|  |  |  |  \- (com.google.guava:guava:jar:19.0:compile - omitted for conflict with 20.0)
+|  |  |  +- io.opencensus:opencensus-api:jar:0.8.0:compile
+|  |  |  |  \- (com.google.guava:guava:jar:19.0:compile - omitted for conflict with 20.0)
+|  |  |  \- io.opencensus:opencensus-contrib-grpc-metrics:jar:0.8.0:compile
+|  |  |     +- (com.google.errorprone:error_prone_annotations:jar:2.0.19:compile - omitted for duplicate)
+|  |  |     \- (io.opencensus:opencensus-api:jar:0.8.0:compile - omitted for duplicate)
+|  |  +- io.netty:netty-codec-http2:jar:4.1.16.Final:compile
+|  |  |  +- io.netty:netty-codec-http:jar:4.1.16.Final:compile
+|  |  |  |  \- io.netty:netty-codec:jar:4.1.16.Final:compile
+|  |  |  |     \- (io.netty:netty-transport:jar:4.1.16.Final:compile - omitted for duplicate)
+|  |  |  \- io.netty:netty-handler:jar:4.1.16.Final:compile
+|  |  |     +- io.netty:netty-buffer:jar:4.1.16.Final:compile
+|  |  |     |  \- io.netty:netty-common:jar:4.1.16.Final:compile
+|  |  |     +- (io.netty:netty-transport:jar:4.1.16.Final:compile - omitted for duplicate)
+|  |  |     \- (io.netty:netty-codec:jar:4.1.16.Final:compile - omitted for duplicate)
+|  |  \- io.netty:netty-handler-proxy:jar:4.1.16.Final:compile
+|  |     +- io.netty:netty-transport:jar:4.1.16.Final:compile
+|  |     |  +- (io.netty:netty-buffer:jar:4.1.16.Final:compile - omitted for duplicate)
+|  |     |  \- io.netty:netty-resolver:jar:4.1.16.Final:compile
+|  |     |     \- (io.netty:netty-common:jar:4.1.16.Final:compile - omitted for duplicate)
+|  |     +- io.netty:netty-codec-socks:jar:4.1.16.Final:compile
+|  |     |  \- (io.netty:netty-codec:jar:4.1.16.Final:compile - omitted for duplicate)
+|  |     \- (io.netty:netty-codec-http:jar:4.1.16.Final:compile - omitted for duplicate)
+|  +- io.grpc:grpc-protobuf:jar:1.8.0:compile
+|  |  +- (io.grpc:grpc-core:jar:1.8.0:compile - omitted for duplicate)
+|  |  +- com.google.protobuf:protobuf-java:jar:3.4.0:compile
+|  |  +- (com.google.guava:guava:jar:19.0:compile - omitted for conflict with 20.0)
+|  |  +- com.google.protobuf:protobuf-java-util:jar:3.4.0:compile
+|  |  |  +- (com.google.protobuf:protobuf-java:jar:3.4.0:compile - omitted for duplicate)
+|  |  |  +- (com.google.guava:guava:jar:19.0:compile - omitted for conflict with 20.0)
+|  |  |  \- com.google.code.gson:gson:jar:2.7:compile
+|  |  +- com.google.api.grpc:proto-google-common-protos:jar:0.1.9:compile
+|  |  \- io.grpc:grpc-protobuf-lite:jar:1.8.0:compile
+|  |     +- (io.grpc:grpc-core:jar:1.8.0:compile - omitted for duplicate)
+|  |     \- (com.google.guava:guava:jar:19.0:compile - omitted for conflict with 20.0)
+|  +- io.grpc:grpc-stub:jar:1.8.0:compile
+|  |  \- (io.grpc:grpc-core:jar:1.8.0:compile - omitted for duplicate)
+|  +- (org.apache.commons:commons-lang3:jar:3.7:compile - omitted for duplicate)
+|  +- (org.projectlombok:lombok:jar:1.16.18:compile - omitted for duplicate)
+|  +- (com.google.code.findbugs:annotations:jar:3.0.1:compile - omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.5:compile - omitted for duplicate)
+|  +- (io.netty:netty-all:jar:4.1.16.Final:compile - omitted for duplicate)
+|  +- io.grpc:grpc-all:jar:1.8.0:compile
+|  |  +- io.grpc:grpc-auth:jar:1.8.0:compile
+|  |  |  +- (io.grpc:grpc-core:jar:1.8.0:compile - omitted for duplicate)
+|  |  |  \- com.google.auth:google-auth-library-credentials:jar:0.4.0:compile
+|  |  +- (io.grpc:grpc-core:jar:1.8.0:compile - omitted for duplicate)
+|  |  +- io.grpc:grpc-context:jar:1.8.0:compile
+|  |  +- (io.grpc:grpc-netty:jar:1.8.0:compile - omitted for duplicate)
+|  |  +- io.grpc:grpc-okhttp:jar:1.8.0:compile
+|  |  |  +- (io.grpc:grpc-core:jar:1.8.0:compile - omitted for duplicate)
+|  |  |  +- com.squareup.okhttp:okhttp:jar:2.5.0:compile
+|  |  |  |  \- (com.squareup.okio:okio:jar:1.6.0:compile - omitted for duplicate)
+|  |  |  \- com.squareup.okio:okio:jar:1.6.0:compile
+|  |  +- (io.grpc:grpc-protobuf:jar:1.8.0:compile - omitted for duplicate)
+|  |  +- io.grpc:grpc-protobuf-nano:jar:1.8.0:compile
+|  |  |  +- (io.grpc:grpc-core:jar:1.8.0:compile - omitted for duplicate)
+|  |  |  +- com.google.protobuf.nano:protobuf-javanano:jar:3.0.0-alpha-5:compile
+|  |  |  \- (com.google.guava:guava:jar:19.0:compile - omitted for conflict with 20.0)
+|  |  \- (io.grpc:grpc-stub:jar:1.8.0:compile - omitted for duplicate)
+|  \- io.netty:netty-tcnative-boringssl-static:jar:2.0.8.Final:compile
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.mockito:mockito-core:jar:2.10.0:test
+|  +- net.bytebuddy:byte-buddy:jar:1.7.4:test
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.7.4:test
+|  \- org.objenesis:objenesis:jar:2.6:test
++- io.pravega:pravega-test-testcommon:jar:0.3.1:test
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)
+|  +- (junit:junit:jar:4.12:test - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:20.0:test - omitted for duplicate)
+|  +- (org.apache.commons:commons-lang3:jar:3.7:test - omitted for duplicate)
+|  +- (org.projectlombok:lombok:jar:1.16.18:test - omitted for duplicate)
+|  +- (com.google.code.findbugs:annotations:jar:3.0.1:test - omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.5:test - omitted for duplicate)
+|  +- (io.netty:netty-all:jar:4.1.16.Final:test - omitted for duplicate)
+|  \- org.apache.curator:curator-test:jar:4.0.0:test
+|     +- (org.apache.zookeeper:zookeeper:jar:3.5.3-beta:compile - scope updated from test; omitted for duplicate)
+|     \- (com.google.guava:guava:jar:20.0:test - omitted for duplicate)
++- org.slf4j:log4j-over-slf4j:jar:1.7.25:test
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)
+\- ch.qos.logback:logback-classic:jar:1.2.3:test
+   +- ch.qos.logback:logback-core:jar:1.2.3:test
+   \- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)

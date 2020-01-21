@@ -1,0 +1,3 @@
+org.jodd:jodd-proxetta:jar:4.1.1
++- org.jodd:jodd-core:jar:4.1.1:compile
+\- org.jodd:jodd-log:jar:4.1.1:compile

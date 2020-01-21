@@ -1,0 +1,1 @@
+com.yahoo.vespa:messagebus-disc:container-plugin:6.263.46

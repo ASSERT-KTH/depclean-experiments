@@ -1,0 +1,50 @@
+com.wudaosoft:wudaosoft-spring-boot-autoconfigure:jar:1.0.6
++- org.springframework:spring-webmvc:jar:5.0.6.RELEASE:compile
+|  +- org.springframework:spring-aop:jar:5.0.6.RELEASE:compile
+|  |  +- (org.springframework:spring-beans:jar:5.0.6.RELEASE:compile - omitted for duplicate)
+|  |  \- (org.springframework:spring-core:jar:5.0.6.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework:spring-beans:jar:5.0.6.RELEASE:compile
+|  |  \- (org.springframework:spring-core:jar:5.0.6.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework:spring-context:jar:5.0.6.RELEASE:compile
+|  |  +- (org.springframework:spring-aop:jar:5.0.6.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-beans:jar:5.0.6.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-core:jar:5.0.6.RELEASE:compile - omitted for duplicate)
+|  |  \- (org.springframework:spring-expression:jar:5.0.6.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework:spring-core:jar:5.0.6.RELEASE:compile
+|  |  \- org.springframework:spring-jcl:jar:5.0.6.RELEASE:compile
+|  +- org.springframework:spring-expression:jar:5.0.6.RELEASE:compile
+|  |  \- (org.springframework:spring-core:jar:5.0.6.RELEASE:compile - omitted for duplicate)
+|  \- org.springframework:spring-web:jar:5.0.6.RELEASE:compile
+|     +- (org.springframework:spring-beans:jar:5.0.6.RELEASE:compile - omitted for duplicate)
+|     \- (org.springframework:spring-core:jar:5.0.6.RELEASE:compile - omitted for duplicate)
++- org.springframework.boot:spring-boot-autoconfigure:jar:2.0.2.RELEASE:compile
+|  \- org.springframework.boot:spring-boot:jar:2.0.2.RELEASE:compile
+|     +- (org.springframework:spring-core:jar:5.0.6.RELEASE:compile - omitted for duplicate)
+|     \- (org.springframework:spring-context:jar:5.0.6.RELEASE:compile - omitted for duplicate)
++- org.springframework.boot:spring-boot-autoconfigure-processor:jar:2.0.2.RELEASE:compile
++- org.springframework.boot:spring-boot-configuration-processor:jar:2.0.2.RELEASE:compile
++- javax.servlet:javax.servlet-api:jar:3.1.0:compile
++- com.wudaosoft:wudaosoft-commons:jar:1.1.9:compile
+|  +- commons-codec:commons-codec:jar:1.10:compile
+|  \- com.alibaba:fastjson:jar:1.2.26:compile
++- com.wudaosoft:wudaosoft-httpclient:jar:2.0.5:compile
+|  +- org.apache.httpcomponents:httpclient:jar:4.5.5:compile
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.4.9:compile
+|  |  \- (commons-codec:commons-codec:jar:1.10:compile - omitted for duplicate)
+|  +- org.apache.httpcomponents:httpmime:jar:4.5.5:compile
+|  |  \- (org.apache.httpcomponents:httpclient:jar:4.5.5:compile - omitted for duplicate)
+|  \- (com.alibaba:fastjson:jar:1.2.46:compile - omitted for conflict with 1.2.26)
++- com.wudaosoft:wudaosoft-weixin-sdk:jar:3.0.2:compile
+|  +- (commons-codec:commons-codec:jar:1.10:compile - omitted for duplicate)
+|  \- (com.wudaosoft:wudaosoft-httpclient:jar:2.0.3:compile - omitted for conflict with 2.0.5)
++- org.slf4j:jcl-over-slf4j:jar:1.7.25:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
++- org.slf4j:jul-to-slf4j:jar:1.7.25:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
++- org.slf4j:log4j-over-slf4j:jar:1.7.25:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- ch.qos.logback:logback-classic:jar:1.2.3:compile
+|  +- (ch.qos.logback:logback-core:jar:1.2.3:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+\- ch.qos.logback:logback-core:jar:1.2.3:compile

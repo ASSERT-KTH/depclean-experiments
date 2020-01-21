@@ -1,0 +1,7 @@
+com.github.alexarchambault:case-app-annotations_sjs0.6_2.13.0-M2:jar:2.0.0-M2
++- org.scala-lang:scala-library:jar:2.13.0-M2:compile
++- org.scala-js:scalajs-library_2.13.0-M2:jar:0.6.21:compile
+|  \- (org.scala-lang:scala-library:jar:2.13.0-M2:compile - omitted for duplicate)
+\- org.scala-js:scalajs-test-interface_2.13.0-M2:jar:0.6.21:test
+   +- (org.scala-lang:scala-library:jar:2.13.0-M2:test - omitted for duplicate)
+   \- (org.scala-js:scalajs-library_2.13.0-M2:jar:0.6.21:test - omitted for duplicate)

@@ -1,0 +1,60 @@
+org.jacpfx:vxms-rest:jar:1.1-RC3
++- org.jacpfx:vxms-core:jar:1.1-RC3:compile
+|  +- (io.vertx:vertx-core:jar:3.5.0:compile - omitted for duplicate)
+|  \- (io.vertx:vertx-web:jar:3.5.0:compile - omitted for duplicate)
++- javax.ws.rs:javax.ws.rs-api:jar:2.0.1:compile
++- io.vertx:vertx-core:jar:3.5.0:compile
+|  +- io.netty:netty-common:jar:4.1.15.Final:compile
+|  +- io.netty:netty-buffer:jar:4.1.15.Final:compile
+|  |  \- (io.netty:netty-common:jar:4.1.15.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-transport:jar:4.1.15.Final:compile
+|  |  +- (io.netty:netty-buffer:jar:4.1.15.Final:compile - omitted for duplicate)
+|  |  \- (io.netty:netty-resolver:jar:4.1.15.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-handler:jar:4.1.15.Final:compile
+|  |  +- (io.netty:netty-buffer:jar:4.1.15.Final:compile - omitted for duplicate)
+|  |  +- (io.netty:netty-transport:jar:4.1.15.Final:compile - omitted for duplicate)
+|  |  \- io.netty:netty-codec:jar:4.1.15.Final:compile
+|  |     \- (io.netty:netty-transport:jar:4.1.15.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-handler-proxy:jar:4.1.15.Final:compile
+|  |  +- (io.netty:netty-transport:jar:4.1.15.Final:compile - omitted for duplicate)
+|  |  +- io.netty:netty-codec-socks:jar:4.1.15.Final:compile
+|  |  |  \- (io.netty:netty-codec:jar:4.1.15.Final:compile - omitted for duplicate)
+|  |  \- (io.netty:netty-codec-http:jar:4.1.15.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-codec-http:jar:4.1.15.Final:compile
+|  |  \- (io.netty:netty-codec:jar:4.1.15.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-codec-http2:jar:4.1.15.Final:compile
+|  |  +- (io.netty:netty-codec-http:jar:4.1.15.Final:compile - omitted for duplicate)
+|  |  \- (io.netty:netty-handler:jar:4.1.15.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-resolver:jar:4.1.15.Final:compile
+|  |  \- (io.netty:netty-common:jar:4.1.15.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-resolver-dns:jar:4.1.15.Final:compile
+|  |  +- (io.netty:netty-resolver:jar:4.1.15.Final:compile - omitted for duplicate)
+|  |  +- io.netty:netty-codec-dns:jar:4.1.15.Final:compile
+|  |  |  \- (io.netty:netty-codec:jar:4.1.15.Final:compile - omitted for duplicate)
+|  |  \- (io.netty:netty-transport:jar:4.1.15.Final:compile - omitted for duplicate)
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.9.0:compile
+|  \- com.fasterxml.jackson.core:jackson-databind:jar:2.9.0:compile
+|     +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+|     \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.0:compile - omitted for duplicate)
++- io.vertx:vertx-web:jar:3.5.0:compile
+|  +- io.vertx:vertx-auth-common:jar:3.5.0:compile
+|  |  \- (io.vertx:vertx-core:jar:3.5.0:compile - omitted for duplicate)
+|  +- io.vertx:vertx-bridge-common:jar:3.5.0:compile
+|  \- (io.vertx:vertx-core:jar:3.5.0:compile - omitted for duplicate)
++- io.vertx:vertx-core:test-jar:tests:3.5.0:test
+|  +- (io.netty:netty-common:jar:4.1.15.Final:test - omitted for duplicate)
+|  +- (io.netty:netty-buffer:jar:4.1.15.Final:test - omitted for duplicate)
+|  +- (io.netty:netty-transport:jar:4.1.15.Final:test - omitted for duplicate)
+|  +- (io.netty:netty-handler:jar:4.1.15.Final:test - omitted for duplicate)
+|  +- (io.netty:netty-handler-proxy:jar:4.1.15.Final:test - omitted for duplicate)
+|  +- (io.netty:netty-codec-http:jar:4.1.15.Final:test - omitted for duplicate)
+|  +- (io.netty:netty-codec-http2:jar:4.1.15.Final:test - omitted for duplicate)
+|  +- (io.netty:netty-resolver:jar:4.1.15.Final:test - omitted for duplicate)
+|  +- (io.netty:netty-resolver-dns:jar:4.1.15.Final:test - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.0:test - omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.0:test - omitted for duplicate)
++- io.vertx:vertx-hazelcast:jar:3.5.0:test
+|  +- (io.vertx:vertx-core:jar:3.5.0:test - omitted for duplicate)
+|  \- com.hazelcast:hazelcast:jar:3.8.2:test
+\- junit:junit:jar:4.11:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

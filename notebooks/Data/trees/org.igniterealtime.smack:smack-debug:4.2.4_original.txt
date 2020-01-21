@@ -1,0 +1,12 @@
+org.igniterealtime.smack:smack-debug:jar:4.2.4
++- org.igniterealtime.smack:smack-core:jar:4.2.4:compile
+|  +- xpp3:xpp3:jar:1.1.4c:compile
+|  +- org.jxmpp:jxmpp-core:jar:0.6.2:compile
+|  |  \- org.jxmpp:jxmpp-util-cache:jar:0.6.2:compile
+|  \- org.jxmpp:jxmpp-jid:jar:0.6.2:compile
+|     +- (org.jxmpp:jxmpp-core:jar:0.6.2:compile - omitted for duplicate)
+|     \- (org.jxmpp:jxmpp-util-cache:jar:0.6.2:compile - omitted for duplicate)
+\- org.igniterealtime.smack:smack-core:jar:tests:4.2.4:test
+   +- (xpp3:xpp3:jar:1.1.4c:test - omitted for duplicate)
+   +- (org.jxmpp:jxmpp-core:jar:0.6.2:test - omitted for duplicate)
+   \- (org.jxmpp:jxmpp-jid:jar:0.6.2:test - omitted for duplicate)

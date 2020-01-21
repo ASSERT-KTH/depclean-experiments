@@ -1,0 +1,15 @@
+org.jppf:jppf-common:jar:6.0-alpha-4
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- org.slf4j:slf4j-log4j12:jar:1.7.25:runtime
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:runtime - omitted for duplicate)
+|  \- (log4j:log4j:jar:1.2.17:runtime - omitted for conflict with 1.2.15)
++- log4j:log4j:jar:1.2.15:runtime
+|  \- javax.mail:mail:jar:1.4:runtime
+|     \- javax.activation:activation:jar:1.1:runtime
++- net.jpountz.lz4:lz4:jar:1.3.0:compile
++- org.jppf:jppf-jmxremote_optional:jar:1.2.1:compile
+\- com.github.oshi:oshi-core:jar:3.5.0:compile
+   +- net.java.dev.jna:jna-platform:jar:4.5.1:compile
+   |  \- net.java.dev.jna:jna:jar:4.5.1:compile
+   +- org.threeten:threetenbp:jar:1.3.6:compile
+   \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)

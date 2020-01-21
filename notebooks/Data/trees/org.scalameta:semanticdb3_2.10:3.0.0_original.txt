@@ -1,0 +1,20 @@
+org.scalameta:semanticdb3_2.10:jar:3.0.0
++- org.scala-lang:scala-library:jar:2.10.6:compile
+\- com.thesamet.scalapb:scalapb-runtime_2.10:jar:0.7.0-rc7:compile
+   +- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for duplicate)
+   +- com.thesamet.scalapb:lenses_2.10:jar:0.7.0-test2:compile
+   |  \- (org.scala-lang:scala-library:jar:2.10.7:compile - omitted for conflict with 2.10.6)
+   +- com.lihaoyi:fastparse_2.10:jar:1.0.0:compile
+   |  +- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for duplicate)
+   |  +- com.lihaoyi:fastparse-utils_2.10:jar:1.0.0:compile
+   |  |  +- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for duplicate)
+   |  |  +- (org.scalamacros:quasiquotes_2.10:jar:2.1.0:compile - omitted for duplicate)
+   |  |  \- (com.lihaoyi:sourcecode_2.10:jar:0.1.4:compile - omitted for duplicate)
+   |  +- org.scalamacros:quasiquotes_2.10:jar:2.1.0:compile
+   |  |  +- (org.scala-lang:scala-library:jar:2.10.4:compile - omitted for conflict with 2.10.6)
+   |  |  \- org.scala-lang:scala-reflect:jar:2.10.4:compile
+   |  |     \- (org.scala-lang:scala-library:jar:2.10.4:compile - omitted for conflict with 2.10.6)
+   |  \- com.lihaoyi:sourcecode_2.10:jar:0.1.4:compile
+   |     +- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for duplicate)
+   |     \- (org.scalamacros:quasiquotes_2.10:jar:2.1.0:compile - omitted for duplicate)
+   \- com.google.protobuf:protobuf-java:jar:3.5.0:compile

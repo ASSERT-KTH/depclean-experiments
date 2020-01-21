@@ -1,0 +1,34 @@
+de.sciss:lucre-expr_2.11:jar:3.9.0
++- org.scala-lang:scala-library:jar:2.11.12:compile
++- de.sciss:lucre-core_2.11:jar:3.9.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  +- de.sciss:lucre-data_2.11:jar:3.9.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  |  +- (de.sciss:lucre-base_2.11:jar:3.9.0:compile - omitted for duplicate)
+|  |  \- de.sciss:lucre-geom_2.11:jar:3.9.0:compile
+|  |     +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  |     \- (de.sciss:serial_2.11:jar:1.1.1:compile - omitted for duplicate)
+|  \- org.scala-stm:scala-stm_2.11:jar:0.8:compile
+|     \- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.12)
++- de.sciss:lucre-aux_2.11:jar:3.9.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  +- de.sciss:lucre-base_2.11:jar:3.9.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  |  \- (de.sciss:serial_2.11:jar:1.1.1:compile - omitted for conflict with 1.1.0)
+|  \- de.sciss:numbers_2.11:jar:0.2.0:compile
+|     \- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
++- org.scalatest:scalatest_2.11:jar:3.0.5:test
+|  +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|  +- org.scalactic:scalactic_2.11:jar:3.0.5:test
+|  |  +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|  |  \- (org.scala-lang:scala-reflect:jar:2.11.12:test - omitted for duplicate)
+|  +- org.scala-lang:scala-reflect:jar:2.11.12:test
+|  |  \- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|  \- org.scala-lang.modules:scala-xml_2.11:jar:1.0.6:test
+|     \- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.12)
++- de.sciss:model_2.11:jar:0.3.4:compile
+|  \- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
+\- de.sciss:span_2.11:jar:1.4.1:compile
+   +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+   \- de.sciss:serial_2.11:jar:1.1.0:compile
+      \- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)

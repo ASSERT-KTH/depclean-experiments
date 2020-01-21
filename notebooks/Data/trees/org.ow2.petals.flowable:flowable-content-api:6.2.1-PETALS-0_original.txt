@@ -1,0 +1,4 @@
+org.ow2.petals.flowable:flowable-content-api:jar:6.2.1-PETALS-0
++- org.ow2.petals.flowable:flowable-engine-common-api:jar:6.2.1-PETALS-0:compile
+|  \- org.apache.commons:commons-lang3:jar:3.3.2:compile
+\- joda-time:joda-time:jar:2.9.9:compile

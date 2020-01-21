@@ -1,0 +1,33 @@
+org.mobicents.resources:restcomm-slee-ra-cap-library:jar:7.4.0-177
++- org.mobicents.protocols.ss7.map:map-api:jar:7.4.0-65:compile
+|  +- (org.mobicents.protocols.ss7.tcap:tcap-api:jar:7.4.0-65:compile - omitted for duplicate)
+|  +- org.mobicents.protocols.ss7.sccp:sccp-api:jar:7.4.0-65:compile
+|  |  +- org.mobicents.protocols.ss7.mtp:mtp-api:jar:7.4.0-65:compile
+|  |  |  +- (org.mobicents.protocols.stream:stream:jar:1.0.0.CR1:compile - omitted for duplicate)
+|  |  |  \- (javolution:javolution:jar:5.5.1:compile - omitted for duplicate)
+|  |  \- (javolution:javolution:jar:5.5.1:compile - omitted for duplicate)
+|  +- (org.mobicents.protocols.asn:asn:jar:2.2.0-21:compile - omitted for conflict with 2.2.0-22)
+|  +- (org.mobicents.protocols.ss7.congestion:congestion:jar:7.4.0-65:compile - omitted for duplicate)
+|  \- org.mobicents.protocols.ss7.isup:isup-api:jar:7.4.0-65:compile
+|     +- (org.mobicents.protocols.ss7.mtp:mtp-api:jar:7.4.0-65:compile - omitted for duplicate)
+|     +- (org.mobicents.protocols.ss7.mtp:mtp:jar:7.4.0-65:compile - omitted for duplicate)
+|     \- (org.mobicents.protocols.asn:asn:jar:2.2.0-21:compile - omitted for conflict with 2.2.0-22)
++- org.mobicents.protocols.ss7.cap:cap-api:jar:7.4.0-65:compile
+|  +- (org.mobicents.protocols.ss7.tcap:tcap-api:jar:7.4.0-65:compile - omitted for duplicate)
+|  +- (org.mobicents.protocols.ss7.sccp:sccp-api:jar:7.4.0-65:compile - omitted for duplicate)
+|  +- (org.mobicents.protocols.asn:asn:jar:2.2.0-21:compile - omitted for conflict with 2.2.0-22)
+|  +- (org.mobicents.protocols.ss7.map:map-api:jar:7.4.0-65:compile - omitted for duplicate)
+|  +- (org.mobicents.protocols.ss7.isup:isup-api:jar:7.4.0-65:compile - omitted for duplicate)
+|  \- org.mobicents.protocols.ss7.inap:inap-api:jar:7.4.0-65:compile
+|     +- (org.mobicents.protocols.ss7.tcap:tcap-api:jar:7.4.0-65:compile - omitted for duplicate)
+|     +- (org.mobicents.protocols.ss7.sccp:sccp-api:jar:7.4.0-65:compile - omitted for duplicate)
+|     +- (org.mobicents.protocols.asn:asn:jar:2.2.0-21:compile - omitted for conflict with 2.2.0-22)
+|     +- (org.mobicents.protocols.ss7.isup:isup-api:jar:7.4.0-65:compile - omitted for duplicate)
+|     \- (org.mobicents.protocols.ss7.map:map-api:jar:7.4.0-65:compile - omitted for duplicate)
++- org.mobicents.protocols.ss7.tcap:tcap-api:jar:7.4.0-65:compile
+|  +- (org.mobicents.protocols.ss7.statistics:statistics-api:jar:7.4.0-65:compile - omitted for duplicate)
+|  +- (org.mobicents.protocols.ss7.sccp:sccp-api:jar:7.4.0-65:compile - omitted for duplicate)
+|  \- (org.mobicents.protocols.asn:asn:jar:2.2.0-21:compile - omitted for conflict with 2.2.0-22)
+\- org.mobicents.protocols.ss7.congestion:congestion:jar:7.4.0-65:compile
+   +- (log4j:log4j:jar:1.2.14:compile - version managed from 1.2.8; omitted for duplicate)
+   \- javolution:javolution:jar:5.5.1:compile

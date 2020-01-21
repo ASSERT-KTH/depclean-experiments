@@ -1,0 +1,1 @@
+org.webjars.bowergithub.iswpolymerelements:isw-responsive:jar:1.0.0

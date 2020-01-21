@@ -1,0 +1,7 @@
+org.webjars.npm:rc-trigger:jar:3.0.0-rc.3
++- org.webjars.npm:raf:jar:3.4.1:compile
+|  \- org.webjars.npm:performance-now:jar:2.1.0:compile
++- org.webjars.npm:babel-runtime:jar:7.0.0-beta.3:compile
+|  +- org.webjars.npm:core-js:jar:3.0.0-beta.9:compile
+|  \- org.webjars.npm:regenerator-runtime:jar:0.11.1:compile
+\- org.webjars.npm:classnames:jar:2.2.6:compile

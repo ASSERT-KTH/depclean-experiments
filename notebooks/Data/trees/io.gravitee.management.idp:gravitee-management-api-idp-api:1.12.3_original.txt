@@ -1,0 +1,42 @@
+io.gravitee.management.idp:gravitee-management-api-idp-api:jar:1.12.3
++- org.springframework.security:spring-security-web:jar:4.1.3.RELEASE:provided
+|  +- aopalliance:aopalliance:jar:1.0:provided
+|  +- org.springframework.security:spring-security-core:jar:4.1.3.RELEASE:provided
+|  |  +- (aopalliance:aopalliance:jar:1.0:provided - omitted for duplicate)
+|  |  +- (org.springframework:spring-aop:jar:4.3.3.RELEASE:provided - version managed from 4.3.2.RELEASE; omitted for duplicate)
+|  |  +- (org.springframework:spring-beans:jar:4.3.3.RELEASE:provided - version managed from 4.3.2.RELEASE; omitted for duplicate)
+|  |  +- (org.springframework:spring-context:jar:4.3.3.RELEASE:provided - version managed from 4.3.2.RELEASE; omitted for duplicate)
+|  |  +- (org.springframework:spring-core:jar:4.3.3.RELEASE:provided - version managed from 4.3.2.RELEASE; omitted for duplicate)
+|  |  \- (org.springframework:spring-expression:jar:4.3.3.RELEASE:provided - version managed from 4.3.2.RELEASE; omitted for duplicate)
+|  +- org.springframework:spring-beans:jar:4.3.3.RELEASE:provided
+|  |  \- (org.springframework:spring-core:jar:4.3.3.RELEASE:provided - version managed from 4.3.2.RELEASE; omitted for duplicate)
+|  +- org.springframework:spring-context:jar:4.3.3.RELEASE:provided
+|  |  +- (org.springframework:spring-aop:jar:4.3.3.RELEASE:provided - version managed from 4.3.2.RELEASE; omitted for duplicate)
+|  |  +- (org.springframework:spring-beans:jar:4.3.3.RELEASE:provided - version managed from 4.3.2.RELEASE; omitted for duplicate)
+|  |  +- (org.springframework:spring-core:jar:4.3.3.RELEASE:provided - version managed from 4.3.2.RELEASE; omitted for duplicate)
+|  |  \- (org.springframework:spring-expression:jar:4.3.3.RELEASE:provided - version managed from 4.3.2.RELEASE; omitted for duplicate)
+|  +- org.springframework:spring-core:jar:4.3.3.RELEASE:provided
+|  +- org.springframework:spring-expression:jar:4.3.3.RELEASE:provided
+|  |  \- (org.springframework:spring-core:jar:4.3.3.RELEASE:provided - version managed from 4.3.2.RELEASE; omitted for duplicate)
+|  \- org.springframework:spring-web:jar:4.3.3.RELEASE:provided (version managed from 4.3.2.RELEASE)
+|     +- (org.springframework:spring-aop:jar:4.3.3.RELEASE:provided - version managed from 4.3.2.RELEASE; omitted for duplicate)
+|     +- (org.springframework:spring-beans:jar:4.3.3.RELEASE:provided - version managed from 4.3.2.RELEASE; omitted for duplicate)
+|     +- (org.springframework:spring-context:jar:4.3.3.RELEASE:provided - version managed from 4.3.2.RELEASE; omitted for duplicate)
+|     \- (org.springframework:spring-core:jar:4.3.3.RELEASE:provided - version managed from 4.3.2.RELEASE; omitted for duplicate)
++- org.springframework.security:spring-security-config:jar:4.1.3.RELEASE:provided
+|  +- (aopalliance:aopalliance:jar:1.0:provided - omitted for duplicate)
+|  +- (org.springframework.security:spring-security-core:jar:4.1.3.RELEASE:provided - omitted for duplicate)
+|  +- org.springframework:spring-aop:jar:4.3.3.RELEASE:provided
+|  |  +- (org.springframework:spring-beans:jar:4.3.3.RELEASE:provided - version managed from 4.3.2.RELEASE; omitted for duplicate)
+|  |  \- (org.springframework:spring-core:jar:4.3.3.RELEASE:provided - version managed from 4.3.2.RELEASE; omitted for duplicate)
+|  +- (org.springframework:spring-beans:jar:4.3.3.RELEASE:provided - version managed from 4.3.2.RELEASE; omitted for duplicate)
+|  +- (org.springframework:spring-context:jar:4.3.3.RELEASE:provided - version managed from 4.3.2.RELEASE; omitted for duplicate)
+|  \- (org.springframework:spring-core:jar:4.3.3.RELEASE:provided - version managed from 4.3.2.RELEASE; omitted for duplicate)
++- io.gravitee.common:gravitee-common:jar:1.8.0:compile
+|  \- com.fasterxml.uuid:java-uuid-generator:jar:3.1.4:compile
++- org.slf4j:slf4j-api:jar:1.7.21:compile
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.mockito:mockito-all:jar:1.10.19:test
+\- org.springframework:spring-test:jar:4.3.3.RELEASE:test
+   \- (org.springframework:spring-core:jar:4.3.3.RELEASE:provided - version managed from 4.3.2.RELEASE; scope managed from test; omitted for duplicate)

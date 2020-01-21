@@ -1,0 +1,5 @@
+com.gu:content-api-models_2.12:jar:11.50
++- com.gu:story-packages-model-thrift:jar:1.0.3:compile
+|  \- (org.scala-lang:scala-library:jar:2.11.7:compile - omitted for conflict with 2.12.4)
+\- com.gu:content-entity-thrift:jar:0.1.5:compile
+   \- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.12.4)

@@ -1,0 +1,28 @@
+org.neo4j:server-api:jar:3.3.5
++- org.neo4j:neo4j-kernel:jar:3.3.5:compile
+|  +- org.neo4j:neo4j-graphdb-api:jar:3.3.5:compile
+|  |  \- org.neo4j:neo4j-resource:jar:3.3.5:compile
+|  +- org.neo4j:neo4j-common:jar:3.3.5:compile
+|  +- org.neo4j:neo4j-values:jar:3.3.5:compile
+|  +- org.neo4j:neo4j-collections:jar:3.3.5:compile
+|  +- org.neo4j:neo4j-primitive-collections:jar:3.3.5:compile
+|  |  \- org.neo4j:neo4j-unsafe:jar:3.3.5:compile
+|  +- org.neo4j:neo4j-io:jar:3.3.5:compile
+|  |  \- org.apache.commons:commons-lang3:jar:3.5:compile
+|  +- org.neo4j:neo4j-csv:jar:3.3.5:compile
+|  +- org.neo4j:neo4j-logging:jar:3.3.5:compile
+|  +- org.neo4j:neo4j-lucene-upgrade:jar:3.3.5:compile
+|  |  +- org.apache.lucene:lucene-core:jar:5.5.0:compile
+|  |  \- org.apache.lucene:lucene-backward-codecs:jar:5.5.0:compile
+|  +- org.neo4j:neo4j-configuration:jar:3.3.5:compile
+|  +- org.neo4j:neo4j-index:jar:3.3.5:compile
+|  \- org.neo4j:neo4j-ssl:jar:3.3.5:compile
+|     +- io.netty:netty-all:jar:4.1.21.Final:compile
+|     \- org.bouncycastle:bcpkix-jdk15on:jar:1.53:compile
+|        \- org.bouncycastle:bcprov-jdk15on:jar:1.53:compile
++- junit:junit:jar:4.12:test
++- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.neo4j.3rdparty.javax.ws.rs:jsr311-api:jar:1.1.2.r612:compile
+\- commons-configuration:commons-configuration:jar:1.10:compile
+   +- commons-lang:commons-lang:jar:2.6:compile
+   \- commons-logging:commons-logging:jar:1.1.1:compile

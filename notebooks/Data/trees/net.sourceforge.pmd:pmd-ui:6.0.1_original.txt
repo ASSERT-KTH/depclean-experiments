@@ -1,0 +1,45 @@
+net.sourceforge.pmd:pmd-ui:jar:6.0.1
++- net.sourceforge.pmd:pmd-core:jar:6.0.1:compile
+|  +- com.beust:jcommander:jar:1.48:compile
+|  +- commons-io:commons-io:jar:2.4:compile
+|  +- jaxen:jaxen:jar:1.1.6:compile
+|  +- net.java.dev.javacc:javacc:jar:5.0:compile
+|  +- net.sourceforge.saxon:saxon:jar:9.1.0.8:compile
+|  +- org.apache.commons:commons-lang3:jar:3.7:compile
+|  +- org.ow2.asm:asm:jar:6.0:compile
+|  +- com.google.code.gson:gson:jar:2.5:compile
+|  \- net.sourceforge.saxon:saxon:jar:dom:9.1.0.8:runtime
++- net.sourceforge.pmd:pmd-java:jar:6.0.1:compile
++- org.fxmisc.richtext:richtextfx:jar:0.8.1:compile
+|  +- org.reactfx:reactfx:jar:2.0-M5:compile
+|  +- org.fxmisc.undo:undofx:jar:1.3.1:compile
+|  +- org.fxmisc.flowless:flowless:jar:0.6:compile
+|  \- org.fxmisc.wellbehaved:wellbehavedfx:jar:0.3:compile
++- net.sourceforge.pmd:pmd-apex:jar:6.0.1:compile
+|  +- net.sourceforge.pmd:pmd-apex-jorje:jar:lib:6.0.1:compile
+|  |  +- cglib:cglib:jar:3.2.0:compile
+|  |  |  \- org.apache.ant:ant:jar:1.10.1:compile
+|  |  |     \- org.apache.ant:ant-launcher:jar:1.10.1:compile
+|  |  +- ch.qos.logback:logback-classic:jar:1.1.7:compile
+|  |  +- ch.qos.logback:logback-core:jar:1.1.7:compile
+|  |  +- com.google.code.findbugs:jsr305:jar:3.0.1:compile
+|  |  +- org.antlr:antlr-runtime:jar:3.5.2:compile
+|  |  +- org.eclipse.xtend:org.eclipse.xtend.lib:jar:2.10.0:compile
+|  |  +- org.eclipse.xtend:org.eclipse.xtend.lib.macro:jar:2.10.0:compile
+|  |  |  \- com.google.guava:guava:jar:19.0-rc3:compile (version selected from constraint [14.0,19.0))
+|  |  +- org.eclipse.xtext:org.eclipse.xtext.xbase.lib:jar:2.10.0:compile
+|  |  +- org.openjdk.jol:jol-core:jar:0.4:compile
+|  |  +- org.slf4j:slf4j-api:jar:1.7.12:compile
+|  |  +- org.yaml:snakeyaml:jar:1.17:compile
+|  |  +- aopalliance:aopalliance:jar:1.0:compile
+|  |  \- javax.inject:javax.inject:jar:1:compile
+|  \- net.sourceforge.pmd:pmd-apex-jorje:pom:6.0.1:compile
++- net.sourceforge.pmd:pmd-jsp:jar:6.0.1:compile
++- net.sourceforge.pmd:pmd-plsql:jar:6.0.1:compile
++- net.sourceforge.pmd:pmd-visualforce:jar:6.0.1:compile
++- net.sourceforge.pmd:pmd-xml:jar:6.0.1:compile
++- net.sourceforge.pmd:pmd-vm:jar:6.0.1:compile
++- net.sourceforge.pmd:pmd-javascript:jar:6.0.1:compile
+|  \- org.mozilla:rhino:jar:1.7.7:compile
+\- junit:junit:jar:4.12:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

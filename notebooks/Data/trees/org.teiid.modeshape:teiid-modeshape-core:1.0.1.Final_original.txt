@@ -1,0 +1,6 @@
+org.teiid.modeshape:teiid-modeshape-core:jar:1.0.1.Final
++- org.modeshape:modeshape-common:jar:5.1.0.Final:compile
+|  \- com.h2database:h2:jar:1.4.191:compile
+\- org.modeshape:modeshape-jcr-api:jar:5.1.0.Final:compile
+   +- javax.jcr:jcr:jar:2.0:compile
+   \- org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.0.1.Final:compile

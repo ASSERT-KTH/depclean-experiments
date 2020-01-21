@@ -1,0 +1,11 @@
+org.webjars.bowergithub.brightspaceui:localize-behavior:jar:1.1.1
++- org.webjars.bowergithub.polymerelements:app-localize-behavior:jar:2.0.2:compile
+|  +- org.webjars.bowergithub.polymerelements:iron-ajax:jar:2.1.3:compile
+|  |  \- (org.webjars.bowergithub.polymer:polymer:jar:2.8.0:compile - omitted for duplicate)
+|  +- org.webjars.bowergithub.yahoo:intl-messageformat:jar:1.3.0:compile
+|  |  \- org.webjars.bowergithub.yahoo:intl-messageformat-parser:jar:1.2.0:compile
+|  \- (org.webjars.bowergithub.polymer:polymer:jar:2.8.0:compile - omitted for duplicate)
++- org.webjars.bowergithub.brightspace:d2l-intl-import:jar:1.0.0:compile
+\- org.webjars.bowergithub.polymer:polymer:jar:2.8.0:compile
+   +- org.webjars.bowergithub.webcomponents:shadycss:jar:1.9.1:compile
+   \- org.webjars.bowergithub.webcomponents:webcomponentsjs:jar:2.0.0-beta.3:compile

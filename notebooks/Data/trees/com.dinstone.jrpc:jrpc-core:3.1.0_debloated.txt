@@ -1,0 +1,13 @@
+com.dinstone.jrpc:jrpc-core:jar:3.1.0
++- com.fasterxml.jackson.core:jackson-core:jar:2.7.4:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.7.4:compile
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.7.0:compile
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.7.4:compile - omitted for duplicate)
++- io.protostuff:protostuff-core:jar:1.4.4:compile
+|  \- io.protostuff:protostuff-api:jar:1.4.4:compile
++- io.protostuff:protostuff-runtime:jar:1.4.4:compile
+|  +- (io.protostuff:protostuff-api:jar:1.4.4:compile - omitted for duplicate)
+|  \- io.protostuff:protostuff-collectionschema:jar:1.4.4:compile
+|     \- (io.protostuff:protostuff-api:jar:1.4.4:compile - omitted for duplicate)
++- junit:junit:jar:4.4:test
+\- org.slf4j:slf4j-api:jar:1.7.12:compile

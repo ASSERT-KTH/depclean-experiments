@@ -1,0 +1,2 @@
+com.gitee.hengboy:mybatis-pageable-core:jar:1.0.1.RELEASE
+\- org.mybatis:mybatis:jar:3.4.4:compile

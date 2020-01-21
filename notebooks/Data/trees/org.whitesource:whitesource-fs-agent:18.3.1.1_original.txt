@@ -1,0 +1,286 @@
+org.whitesource:whitesource-fs-agent:jar:18.3.1.1
++- io.vertx:vertx-core:jar:3.5.0:compile
+|  +- io.netty:netty-common:jar:4.1.15.Final:compile
+|  +- io.netty:netty-buffer:jar:4.1.15.Final:compile
+|  |  \- (io.netty:netty-common:jar:4.1.15.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-transport:jar:4.1.15.Final:compile
+|  |  +- (io.netty:netty-buffer:jar:4.1.15.Final:compile - omitted for duplicate)
+|  |  \- (io.netty:netty-resolver:jar:4.1.15.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-handler:jar:4.1.15.Final:compile
+|  |  +- (io.netty:netty-buffer:jar:4.1.15.Final:compile - omitted for duplicate)
+|  |  +- (io.netty:netty-transport:jar:4.1.15.Final:compile - omitted for duplicate)
+|  |  \- io.netty:netty-codec:jar:4.1.15.Final:compile
+|  |     \- (io.netty:netty-transport:jar:4.1.15.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-handler-proxy:jar:4.1.15.Final:compile
+|  |  +- (io.netty:netty-transport:jar:4.1.15.Final:compile - omitted for duplicate)
+|  |  +- io.netty:netty-codec-socks:jar:4.1.15.Final:compile
+|  |  |  \- (io.netty:netty-codec:jar:4.1.15.Final:compile - omitted for duplicate)
+|  |  \- (io.netty:netty-codec-http:jar:4.1.15.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-codec-http:jar:4.1.15.Final:compile
+|  |  \- (io.netty:netty-codec:jar:4.1.15.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-codec-http2:jar:4.1.15.Final:compile
+|  |  +- (io.netty:netty-codec-http:jar:4.1.15.Final:compile - omitted for duplicate)
+|  |  \- (io.netty:netty-handler:jar:4.1.15.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-resolver:jar:4.1.15.Final:compile
+|  |  \- (io.netty:netty-common:jar:4.1.15.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-resolver-dns:jar:4.1.15.Final:compile
+|  |  +- (io.netty:netty-resolver:jar:4.1.15.Final:compile - omitted for duplicate)
+|  |  +- io.netty:netty-codec-dns:jar:4.1.15.Final:compile
+|  |  |  \- (io.netty:netty-codec:jar:4.1.15.Final:compile - omitted for duplicate)
+|  |  \- (io.netty:netty-transport:jar:4.1.15.Final:compile - omitted for duplicate)
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.9.0:compile
+|  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.0:compile - omitted for conflict with 2.9.2)
++- io.vertx:vertx-web:jar:3.5.0:compile
+|  +- io.vertx:vertx-auth-common:jar:3.5.0:compile
+|  |  \- (io.vertx:vertx-core:jar:3.5.0:compile - omitted for duplicate)
+|  +- io.vertx:vertx-bridge-common:jar:3.5.0:compile
+|  \- (io.vertx:vertx-core:jar:3.5.0:compile - omitted for duplicate)
++- org.apache.maven:maven-model-builder:jar:3.5.2:compile
+|  +- org.codehaus.plexus:plexus-utils:jar:3.1.0:compile
+|  +- org.codehaus.plexus:plexus-interpolation:jar:1.24:compile
+|  +- org.codehaus.plexus:plexus-component-annotations:jar:1.7.1:compile
+|  +- org.apache.maven:maven-model:jar:3.5.2:compile
+|  |  +- (org.codehaus.plexus:plexus-utils:jar:3.1.0:compile - omitted for duplicate)
+|  |  \- (org.apache.commons:commons-lang3:jar:3.5:compile - omitted for duplicate)
+|  +- org.apache.maven:maven-artifact:jar:3.5.2:compile
+|  |  +- (org.codehaus.plexus:plexus-utils:jar:3.1.0:compile - omitted for duplicate)
+|  |  \- (org.apache.commons:commons-lang3:jar:3.5:compile - omitted for duplicate)
+|  +- org.apache.maven:maven-builder-support:jar:3.5.2:compile
+|  |  \- (org.apache.commons:commons-lang3:jar:3.5:compile - omitted for duplicate)
+|  +- com.google.guava:guava:jar:20.0:compile
+|  \- (org.apache.commons:commons-lang3:jar:3.5:compile - omitted for conflict with 3.4)
++- org.whitesource:maven-dependency-tree-parser:jar:1.0.5:compile
+|  +- commons-lang:commons-lang:jar:2.4:compile
+|  \- (commons-io:commons-io:jar:2.0.1:compile - omitted for conflict with 2.4)
++- org.whitesource:wss-agent-api-client:jar:2.6.5:compile
+|  +- org.whitesource:wss-agent-api:jar:2.6.5:compile
+|  |  +- org.whitesource:wss-agent-via-api:jar:2.6.5:compile
+|  |  \- (commons-lang:commons-lang:jar:2.6:compile - omitted for conflict with 2.4)
+|  +- org.whitesource:wss-agent-hash-calculator:jar:2.6.5:compile
+|  |  +- (org.whitesource:wss-agent-api:jar:2.6.5:compile - omitted for duplicate)
+|  |  +- (commons-lang:commons-lang:jar:2.6:compile - omitted for conflict with 2.4)
+|  |  +- commons-codec:commons-codec:jar:1.10:compile
+|  |  +- (commons-io:commons-io:jar:2.4:compile - omitted for conflict with 2.0.1)
+|  |  +- org.whitesource:pecoff4j:jar:0.0.2.1:compile
+|  |  +- (net.java.dev.jna:jna-platform:jar:4.1.0:compile - omitted for duplicate)
+|  |  \- org.mozilla:rhino:jar:1.7.7.2:compile
+|  +- org.whitesource:wss-agent-utils:jar:2.6.5:compile
+|  |  +- (commons-codec:commons-codec:jar:1.10:compile - omitted for duplicate)
+|  |  +- (org.whitesource:wss-agent-api:jar:2.6.5:compile - omitted for duplicate)
+|  |  \- (com.google.code.gson:gson:jar:2.2.2:compile - omitted for duplicate)
+|  +- com.google.code.gson:gson:jar:2.2.2:compile
+|  \- org.apache.httpcomponents:httpclient:jar:4.4:compile
+|     +- org.apache.httpcomponents:httpcore:jar:4.4:compile
+|     +- commons-logging:commons-logging:jar:1.2:compile
+|     \- (commons-codec:commons-codec:jar:1.9:compile - omitted for conflict with 1.10)
++- org.whitesource:wss-agent-report:jar:2.6.5:compile
+|  +- (org.whitesource:wss-agent-api:jar:2.6.5:compile - omitted for duplicate)
+|  +- (org.whitesource:wss-agent-hash-calculator:jar:2.6.5:compile - omitted for duplicate)
+|  +- (org.whitesource:wss-agent-utils:jar:2.6.5:compile - omitted for duplicate)
+|  +- org.apache.velocity:velocity:jar:1.7:compile
+|  |  +- commons-collections:commons-collections:jar:3.2.1:compile
+|  |  \- (commons-lang:commons-lang:jar:2.4:compile - omitted for duplicate)
+|  +- (com.google.code.gson:gson:jar:2.2.2:compile - omitted for duplicate)
+|  \- (commons-io:commons-io:jar:2.4:compile - omitted for conflict with 2.0.1)
++- com.beust:jcommander:jar:1.35:compile
++- org.apache.ant:ant:jar:1.9.4:compile
+|  \- org.apache.ant:ant-launcher:jar:1.9.4:compile
++- org.eclipse.jgit:org.eclipse.jgit:jar:4.10.0.201712302008-r:compile
+|  +- com.jcraft:jsch:jar:0.1.54:compile
+|  +- com.googlecode.javaewah:JavaEWAH:jar:1.1.6:compile
+|  +- (org.apache.httpcomponents:httpclient:jar:4.5.2:compile - omitted for conflict with 4.4)
+|  \- (org.slf4j:slf4j-api:jar:1.7.2:compile - omitted for conflict with 1.7.5)
++- org.tmatesoft.svnkit:svnkit:jar:1.8.7:compile
+|  +- com.jcraft:jsch.agentproxy.svnkit-trilead-ssh2:jar:0.0.7:compile
+|  |  +- (com.trilead:trilead-ssh2:jar:1.0.0-build217:compile - omitted for duplicate)
+|  |  \- com.jcraft:jsch.agentproxy.core:jar:0.0.7:compile
+|  +- net.java.dev.jna:jna-platform:jar:4.1.0:compile
+|  |  \- (net.java.dev.jna:jna:jar:4.1.0:compile - omitted for duplicate)
+|  +- net.java.dev.jna:jna:jar:4.1.0:compile
+|  +- com.trilead:trilead-ssh2:jar:1.0.0-build217:compile
+|  +- com.jcraft:jsch.agentproxy.connector-factory:jar:0.0.7:compile
+|  |  +- (com.jcraft:jsch.agentproxy.core:jar:0.0.7:compile - omitted for duplicate)
+|  |  +- com.jcraft:jsch.agentproxy.usocket-jna:jar:0.0.7:compile
+|  |  |  +- (com.jcraft:jsch.agentproxy.core:jar:0.0.7:compile - omitted for duplicate)
+|  |  |  +- (net.java.dev.jna:jna:jar:3.4.0:compile - omitted for conflict with 4.1.0)
+|  |  |  \- net.java.dev.jna:platform:jar:3.4.0:compile
+|  |  +- com.jcraft:jsch.agentproxy.usocket-nc:jar:0.0.7:compile
+|  |  |  \- (com.jcraft:jsch.agentproxy.core:jar:0.0.7:compile - omitted for duplicate)
+|  |  +- com.jcraft:jsch.agentproxy.sshagent:jar:0.0.7:compile
+|  |  |  \- (com.jcraft:jsch.agentproxy.core:jar:0.0.7:compile - omitted for duplicate)
+|  |  \- com.jcraft:jsch.agentproxy.pageant:jar:0.0.7:compile
+|  |     +- (com.jcraft:jsch.agentproxy.core:jar:0.0.7:compile - omitted for duplicate)
+|  |     +- (net.java.dev.jna:jna:jar:3.4.0:compile - omitted for conflict with 4.1.0)
+|  |     \- (net.java.dev.jna:platform:jar:3.4.0:compile - omitted for duplicate)
+|  +- de.regnis.q.sequence:sequence-library:jar:1.0.3:compile
+|  \- org.tmatesoft.sqljet:sqljet:jar:1.1.10:compile
+|     \- org.antlr:antlr-runtime:jar:3.4:compile
++- com.aragost.javahg:javahg:jar:0.4:compile
+|  \- (com.google.guava:guava:jar:11.0.1:compile - omitted for conflict with 20.0)
++- net.lingala.zip4j:zip4j:jar:1.3.2:compile
++- org.codehaus.plexus:plexus-archiver:jar:3.4:compile
+|  +- (org.codehaus.plexus:plexus-utils:jar:3.0.24:compile - omitted for conflict with 3.1.0)
+|  +- org.codehaus.plexus:plexus-io:jar:2.7.1:compile
+|  |  +- (org.codehaus.plexus:plexus-utils:jar:3.0.22:compile - omitted for conflict with 3.1.0)
+|  |  \- (commons-io:commons-io:jar:2.2:compile - omitted for conflict with 2.0.1)
+|  +- (commons-io:commons-io:jar:2.5:compile - omitted for conflict with 2.0.1)
+|  +- (org.apache.commons:commons-compress:jar:1.11:compile - omitted for conflict with 1.8.1)
+|  +- org.iq80.snappy:snappy:jar:0.4:compile
+|  \- (org.tukaani:xz:jar:1.5:compile - scope updated from runtime; omitted for duplicate)
++- guru.nidi:graphviz-java:jar:0.2.3:compile
+|  +- org.apache.xmlgraphics:batik-rasterizer:jar:1.9:compile
+|  |  \- org.apache.xmlgraphics:batik-svgrasterizer:jar:1.9:compile
+|  |     +- org.apache.xmlgraphics:batik-parser:jar:1.9:compile
+|  |     |  +- (org.apache.xmlgraphics:batik-awt-util:jar:1.9:compile - omitted for duplicate)
+|  |     |  +- (org.apache.xmlgraphics:batik-util:jar:1.9:compile - omitted for duplicate)
+|  |     |  +- (org.apache.xmlgraphics:batik-xml:jar:1.9:compile - omitted for duplicate)
+|  |     |  +- (xml-apis:xml-apis:jar:1.3.04:compile - omitted for duplicate)
+|  |     |  \- (xml-apis:xml-apis-ext:jar:1.3.04:compile - omitted for duplicate)
+|  |     +- (org.apache.xmlgraphics:batik-transcoder:jar:1.9:compile - omitted for duplicate)
+|  |     \- (org.apache.xmlgraphics:batik-util:jar:1.9:compile - omitted for duplicate)
+|  +- org.apache.xmlgraphics:batik-codec:jar:1.9:compile
+|  |  +- org.apache.xmlgraphics:batik-awt-util:jar:1.9:compile
+|  |  |  \- (org.apache.xmlgraphics:batik-util:jar:1.9:compile - omitted for duplicate)
+|  |  +- org.apache.xmlgraphics:batik-bridge:jar:1.9:compile
+|  |  |  +- org.apache.xmlgraphics:batik-anim:jar:1.9:compile
+|  |  |  |  +- (org.apache.xmlgraphics:batik-awt-util:jar:1.9:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.xmlgraphics:batik-css:jar:1.9:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.xmlgraphics:batik-dom:jar:1.9:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.xmlgraphics:batik-ext:jar:1.9:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.xmlgraphics:batik-parser:jar:1.9:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.xmlgraphics:batik-svg-dom:jar:1.9:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.xmlgraphics:batik-util:jar:1.9:compile - omitted for duplicate)
+|  |  |  |  +- (xml-apis:xml-apis:jar:1.3.04:compile - omitted for duplicate)
+|  |  |  |  \- (xml-apis:xml-apis-ext:jar:1.3.04:compile - omitted for duplicate)
+|  |  |  +- (org.apache.xmlgraphics:batik-awt-util:jar:1.9:compile - omitted for duplicate)
+|  |  |  +- org.apache.xmlgraphics:batik-css:jar:1.9:compile
+|  |  |  |  +- (org.apache.xmlgraphics:batik-util:jar:1.9:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.xmlgraphics:xmlgraphics-commons:jar:2.2:compile - omitted for duplicate)
+|  |  |  |  +- (xml-apis:xml-apis:jar:1.3.04:compile - omitted for duplicate)
+|  |  |  |  \- (xml-apis:xml-apis-ext:jar:1.3.04:compile - omitted for duplicate)
+|  |  |  +- org.apache.xmlgraphics:batik-dom:jar:1.9:compile
+|  |  |  |  +- (org.apache.xmlgraphics:batik-css:jar:1.9:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.xmlgraphics:batik-ext:jar:1.9:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.xmlgraphics:batik-util:jar:1.9:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.xmlgraphics:batik-xml:jar:1.9:compile - omitted for duplicate)
+|  |  |  |  +- (xalan:xalan:jar:2.7.2:compile - omitted for duplicate)
+|  |  |  |  +- (xml-apis:xml-apis:jar:1.3.04:compile - omitted for duplicate)
+|  |  |  |  \- (xml-apis:xml-apis-ext:jar:1.3.04:compile - omitted for duplicate)
+|  |  |  +- org.apache.xmlgraphics:batik-ext:jar:1.9:compile
+|  |  |  +- org.apache.xmlgraphics:batik-gvt:jar:1.9:compile
+|  |  |  |  +- (org.apache.xmlgraphics:batik-awt-util:jar:1.9:compile - omitted for duplicate)
+|  |  |  |  \- (org.apache.xmlgraphics:batik-util:jar:1.9:compile - omitted for duplicate)
+|  |  |  +- (org.apache.xmlgraphics:batik-parser:jar:1.9:compile - omitted for duplicate)
+|  |  |  +- org.apache.xmlgraphics:batik-script:jar:1.9:compile
+|  |  |  |  +- (org.apache.xmlgraphics:batik-anim:jar:1.9:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.xmlgraphics:batik-util:jar:1.9:compile - omitted for duplicate)
+|  |  |  |  \- (xml-apis:xml-apis:jar:1.3.04:compile - omitted for duplicate)
+|  |  |  +- org.apache.xmlgraphics:batik-svg-dom:jar:1.9:compile
+|  |  |  |  +- (org.apache.xmlgraphics:batik-awt-util:jar:1.9:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.xmlgraphics:batik-css:jar:1.9:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.xmlgraphics:batik-dom:jar:1.9:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.xmlgraphics:batik-ext:jar:1.9:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.xmlgraphics:batik-parser:jar:1.9:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.xmlgraphics:batik-util:jar:1.9:compile - omitted for duplicate)
+|  |  |  |  +- (xml-apis:xml-apis:jar:1.3.04:compile - omitted for duplicate)
+|  |  |  |  \- (xml-apis:xml-apis-ext:jar:1.3.04:compile - omitted for duplicate)
+|  |  |  +- (org.apache.xmlgraphics:batik-util:jar:1.9:compile - omitted for duplicate)
+|  |  |  +- org.apache.xmlgraphics:batik-xml:jar:1.9:compile
+|  |  |  |  \- (org.apache.xmlgraphics:batik-util:jar:1.9:compile - omitted for duplicate)
+|  |  |  +- xalan:xalan:jar:2.7.2:compile
+|  |  |  |  \- xalan:serializer:jar:2.7.2:compile
+|  |  |  |     \- (xml-apis:xml-apis:jar:1.3.04:compile - omitted for duplicate)
+|  |  |  +- (xml-apis:xml-apis:jar:1.3.04:compile - omitted for duplicate)
+|  |  |  \- xml-apis:xml-apis-ext:jar:1.3.04:compile
+|  |  +- org.apache.xmlgraphics:batik-transcoder:jar:1.9:compile
+|  |  |  +- (org.apache.xmlgraphics:batik-anim:jar:1.9:compile - omitted for duplicate)
+|  |  |  +- (org.apache.xmlgraphics:batik-awt-util:jar:1.9:compile - omitted for duplicate)
+|  |  |  +- (org.apache.xmlgraphics:batik-bridge:jar:1.9:compile - omitted for duplicate)
+|  |  |  +- (org.apache.xmlgraphics:batik-dom:jar:1.9:compile - omitted for duplicate)
+|  |  |  +- (org.apache.xmlgraphics:batik-gvt:jar:1.9:compile - omitted for duplicate)
+|  |  |  +- org.apache.xmlgraphics:batik-svggen:jar:1.9:compile
+|  |  |  |  +- (org.apache.xmlgraphics:batik-awt-util:jar:1.9:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.xmlgraphics:batik-util:jar:1.9:compile - omitted for duplicate)
+|  |  |  |  \- (xml-apis:xml-apis:jar:1.3.04:compile - omitted for duplicate)
+|  |  |  +- (org.apache.xmlgraphics:batik-util:jar:1.9:compile - omitted for duplicate)
+|  |  |  +- (org.apache.xmlgraphics:batik-xml:jar:1.9:compile - omitted for duplicate)
+|  |  |  +- (xml-apis:xml-apis:jar:1.3.04:compile - omitted for duplicate)
+|  |  |  \- (xml-apis:xml-apis-ext:jar:1.3.04:compile - omitted for duplicate)
+|  |  +- org.apache.xmlgraphics:batik-util:jar:1.9:compile
+|  |  |  +- org.apache.xmlgraphics:batik-constants:jar:1.9:compile
+|  |  |  \- org.apache.xmlgraphics:batik-i18n:jar:1.9:compile
+|  |  \- xml-apis:xml-apis:jar:1.3.04:compile
+|  +- org.apache.xmlgraphics:xmlgraphics-commons:jar:2.2:compile
+|  |  \- (commons-io:commons-io:jar:1.3.1:compile - omitted for conflict with 2.0.1)
+|  +- com.eclipsesource.j2v8:j2v8_macosx_x86_64:jar:4.6.0:compile
+|  +- com.eclipsesource.j2v8:j2v8_linux_x86_64:jar:4.6.0:runtime
+|  +- com.eclipsesource.j2v8:j2v8_win32_x86_64:jar:4.6.0:runtime
+|  +- com.eclipsesource.j2v8:j2v8_win32_x86:jar:4.6.0:runtime
+|  +- org.apache.commons:commons-exec:jar:1.3:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for conflict with 1.7.2)
+|  +- org.slf4j:jcl-over-slf4j:jar:1.7.25:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for conflict with 1.7.2)
+|  \- org.slf4j:jul-to-slf4j:jar:1.7.25:compile
+|     \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for conflict with 1.7.2)
++- org.apache.commons:commons-compress:jar:1.8.1:compile
++- com.github.junrar:junrar:jar:0.7:compile
+|  +- commons-logging:commons-logging-api:jar:1.1:compile
+|  \- org.apache.commons:commons-vfs2:jar:2.0:compile
+|     +- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for conflict with 1.2)
+|     +- org.apache.maven.scm:maven-scm-api:jar:1.4:compile
+|     |  \- (org.codehaus.plexus:plexus-utils:jar:1.5.6:compile - omitted for conflict with 3.1.0)
+|     \- org.apache.maven.scm:maven-scm-provider-svnexe:jar:1.4:compile
+|        +- org.apache.maven.scm:maven-scm-provider-svn-commons:jar:1.4:compile
+|        |  +- (org.apache.maven.scm:maven-scm-api:jar:1.4:compile - omitted for duplicate)
+|        |  \- (org.codehaus.plexus:plexus-utils:jar:1.5.6:compile - omitted for conflict with 3.1.0)
+|        +- regexp:regexp:jar:1.3:compile
+|        +- (org.apache.maven.scm:maven-scm-api:jar:1.4:compile - omitted for duplicate)
+|        \- (org.codehaus.plexus:plexus-utils:jar:1.5.6:compile - omitted for conflict with 3.1.0)
++- org.redline-rpm:redline:jar:1.2.1:compile
+|  +- (org.apache.ant:ant:jar:1.9.1:compile - omitted for conflict with 1.9.4)
+|  +- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for conflict with 1.7.2)
+|  +- (org.apache.commons:commons-compress:jar:1.6:compile - omitted for conflict with 1.8.1)
+|  +- org.tukaani:xz:jar:1.5:compile
+|  \- org.bouncycastle:bcpg-jdk15on:jar:1.50:compile
+|     \- org.bouncycastle:bcprov-jdk15on:jar:1.50:compile
++- commons-io:commons-io:jar:2.4:compile
++- org.json:json:jar:20170516:compile
++- org.apache.commons:commons-lang3:jar:3.4:compile
++- org.slf4j:slf4j-api:jar:1.7.5:compile
++- ch.qos.logback:logback-classic:jar:1.2.3:compile
+|  \- ch.qos.logback:logback-core:jar:1.2.3:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.9.2:compile
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.2:compile - omitted for conflict with 2.9.0)
++- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.9.2:compile
+|  +- org.yaml:snakeyaml:jar:1.18:compile
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.2:compile - omitted for conflict with 2.9.0)
++- javax.xml.bind:jaxb-api:jar:2.3.0-b170201.1204:compile
++- org.simpleframework:simple-xml:jar:2.7.1:compile
+|  +- stax:stax-api:jar:1.0.1:compile
+|  +- stax:stax:jar:1.2.0:compile
+|  |  \- (stax:stax-api:jar:1.0.1:compile - omitted for duplicate)
+|  \- xpp3:xpp3:jar:1.1.3.3:compile
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- io.vertx:vertx-unit:jar:3.0.0:test
+|  \- (io.vertx:vertx-core:jar:3.0.0:test - omitted for conflict with 3.5.0)
++- org.codehaus.plexus:plexus-container-default:jar:1.7.1:compile
+|  +- (org.codehaus.plexus:plexus-utils:jar:3.0.20:compile - omitted for conflict with 3.1.0)
+|  +- org.codehaus.plexus:plexus-classworlds:jar:2.5.1:compile
+|  +- org.apache.xbean:xbean-reflect:jar:3.7:compile
+|  \- com.google.collections:google-collections:jar:1.0:compile
+\- org.springframework:spring-web:jar:4.3.1.RELEASE:compile
+   +- org.springframework:spring-aop:jar:4.3.1.RELEASE:compile
+   |  +- (org.springframework:spring-beans:jar:4.3.1.RELEASE:compile - omitted for duplicate)
+   |  \- (org.springframework:spring-core:jar:4.3.1.RELEASE:compile - omitted for duplicate)
+   +- org.springframework:spring-beans:jar:4.3.1.RELEASE:compile
+   |  \- (org.springframework:spring-core:jar:4.3.1.RELEASE:compile - omitted for duplicate)
+   +- org.springframework:spring-context:jar:4.3.1.RELEASE:compile
+   |  +- (org.springframework:spring-aop:jar:4.3.1.RELEASE:compile - omitted for duplicate)
+   |  +- (org.springframework:spring-beans:jar:4.3.1.RELEASE:compile - omitted for duplicate)
+   |  +- (org.springframework:spring-core:jar:4.3.1.RELEASE:compile - omitted for duplicate)
+   |  \- org.springframework:spring-expression:jar:4.3.1.RELEASE:compile
+   |     \- (org.springframework:spring-core:jar:4.3.1.RELEASE:compile - omitted for duplicate)
+   \- org.springframework:spring-core:jar:4.3.1.RELEASE:compile
+      \- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)

@@ -1,0 +1,19 @@
+com.arm.mbed.cloud.sdk:mds:jar:1.2.5
++- com.squareup.retrofit2:retrofit:jar:2.3.0:compile
+|  \- com.squareup.okhttp3:okhttp:jar:3.8.0:compile
+|     \- com.squareup.okio:okio:jar:1.13.0:compile
++- com.squareup.retrofit2:converter-scalars:jar:2.3.0:compile
+|  \- (com.squareup.retrofit2:retrofit:jar:2.3.0:compile - omitted for duplicate)
++- com.squareup.retrofit2:converter-gson:jar:2.3.0:compile
+|  +- (com.squareup.retrofit2:retrofit:jar:2.3.0:compile - omitted for duplicate)
+|  \- com.google.code.gson:gson:jar:2.7:compile
++- io.swagger:swagger-annotations:jar:1.5.15:compile
++- org.apache.oltu.oauth2:org.apache.oltu.oauth2.client:jar:1.0.1:compile
+|  +- org.apache.oltu.oauth2:org.apache.oltu.oauth2.common:jar:1.0.1:compile
+|  |  +- org.json:json:jar:20140107:compile
+|  |  +- commons-codec:commons-codec:jar:1.9:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for duplicate)
+|  \- org.slf4j:slf4j-api:jar:1.7.7:compile
++- io.gsonfire:gson-fire:jar:1.8.0:compile
+|  \- (com.google.code.gson:gson:jar:2.7:compile - omitted for duplicate)
+\- joda-time:joda-time:jar:2.9.9:compile

@@ -1,0 +1,8 @@
+com.ToxicBakery.kfinstatemachine:graph:jar:2.1.139
++- org.jetbrains.kotlin:kotlin-stdlib-jdk8:jar:1.2.41:runtime
+|  +- org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.41:runtime
+|  |  \- org.jetbrains:annotations:jar:13.0:runtime
+|  \- org.jetbrains.kotlin:kotlin-stdlib-jdk7:jar:1.2.41:runtime
+|     \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.41:runtime - omitted for duplicate)
+\- junit:junit:jar:4.12:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

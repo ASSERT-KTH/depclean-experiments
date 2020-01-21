@@ -1,0 +1,21 @@
+com.softwaremill.sttp:core_sjs0.6_2.12:jar:1.3.0-RC4
++- org.scala-lang:scala-library:jar:2.12.6:compile
++- org.webjars.npm:spark-md5:jar:3.0.0:test
++- org.scala-js:scalajs-library_2.12:jar:0.6.24:compile
+|  \- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
++- org.scala-js:scalajs-test-interface_2.12:jar:0.6.24:test
+|  +- (org.scala-lang:scala-library:jar:2.12.6:test - omitted for duplicate)
+|  \- (org.scala-js:scalajs-library_2.12:jar:0.6.24:test - omitted for duplicate)
++- org.scala-js:scalajs-dom_sjs0.6_2.12:jar:0.9.6:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
+|  \- (org.scala-js:scalajs-library_2.12:jar:0.6.23:compile - omitted for conflict with 0.6.24)
+\- org.scalatest:scalatest_sjs0.6_2.12:jar:3.0.5:test
+   +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for conflict with 2.12.6)
+   +- org.scalactic:scalactic_sjs0.6_2.12:jar:3.0.5:test
+   |  +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for conflict with 2.12.6)
+   |  +- (org.scala-js:scalajs-library_2.12:jar:0.6.22:test - omitted for conflict with 0.6.24)
+   |  \- (org.scala-lang:scala-reflect:jar:2.12.4:test - omitted for duplicate)
+   +- (org.scala-js:scalajs-library_2.12:jar:0.6.22:test - omitted for conflict with 0.6.24)
+   +- (org.scala-js:scalajs-test-interface_2.12:jar:0.6.22:test - omitted for conflict with 0.6.24)
+   \- org.scala-lang:scala-reflect:jar:2.12.4:test
+      \- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for conflict with 2.12.6)

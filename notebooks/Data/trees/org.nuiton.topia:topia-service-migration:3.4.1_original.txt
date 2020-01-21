@@ -1,0 +1,89 @@
+org.nuiton.topia:topia-service-migration:jar:3.4.1
++- org.nuiton.topia:topia-persistence:jar:3.4.1:compile
+|  +- (org.nuiton:nuiton-utils:jar:3.0:compile - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:23.0:compile - version managed from 19.0; omitted for duplicate)
+|  +- org.apache.commons:commons-collections4:jar:4.1:compile
+|  +- commons-beanutils:commons-beanutils:jar:1.9.3:compile
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  |  \- commons-collections:commons-collections:jar:3.2.2:compile
+|  +- commons-io:commons-io:jar:2.5:compile
+|  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  +- (org.apache.commons:commons-lang3:jar:3.6:compile - version managed from 3.4; omitted for duplicate)
+|  +- (org.hibernate:hibernate-core:jar:5.2.10.Final:compile - omitted for duplicate)
+|  +- org.hibernate:hibernate-ehcache:jar:5.2.10.Final:runtime
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:runtime - omitted for duplicate)
+|  |  +- (org.hibernate:hibernate-core:jar:5.2.10.Final:runtime - omitted for duplicate)
+|  |  \- net.sf.ehcache:ehcache:jar:2.10.3:runtime
+|  +- org.hibernate:hibernate-c3p0:jar:5.2.10.Final:compile
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile - omitted for duplicate)
+|  |  +- (org.hibernate:hibernate-core:jar:5.2.10.Final:compile - omitted for duplicate)
+|  |  \- com.mchange:c3p0:jar:0.9.5.2:compile
+|  |     \- com.mchange:mchange-commons-java:jar:0.2.11:compile
+|  \- org.hibernate:hibernate-hikaricp:jar:5.2.10.Final:compile
+|     +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile - omitted for duplicate)
+|     +- (org.hibernate:hibernate-core:jar:5.2.10.Final:compile - omitted for duplicate)
+|     \- com.zaxxer:HikariCP:jar:2.5.1:compile
+|        \- org.slf4j:slf4j-api:jar:1.7.25:compile (version managed from 1.7.21)
++- org.nuiton.topia:topia-junit:jar:3.4.1:test
+|  +- (org.nuiton.topia:topia-persistence:jar:3.4.1:test - omitted for duplicate)
+|  +- (commons-logging:commons-logging:jar:1.2:test - omitted for duplicate)
+|  \- (junit:junit:jar:4.12:test - omitted for duplicate)
++- org.nuiton.topia:topia-it:jar:3.4.1:test
+|  +- (org.nuiton.topia:topia-persistence:jar:3.4.1:test - omitted for duplicate)
+|  +- (org.nuiton.topia:topia-junit:jar:3.4.1:test - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:23.0:test - omitted for duplicate)
+|  +- (org.nuiton:nuiton-utils:jar:3.0:test - omitted for duplicate)
+|  +- (org.nuiton.i18n:nuiton-i18n:jar:3.6.3:compile - scope updated from test; omitted for duplicate)
+|  +- (org.hibernate:hibernate-core:jar:5.2.10.Final:test - omitted for duplicate)
+|  +- (org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final:compile - scope updated from test; omitted for duplicate)
+|  +- (commons-logging:commons-logging:jar:1.2:test - omitted for duplicate)
+|  \- (org.apache.commons:commons-lang3:jar:3.6:test - omitted for duplicate)
++- org.nuiton:nuiton-utils:jar:3.0:compile
+|  +- (org.apache.commons:commons-lang3:jar:3.6:compile - omitted for duplicate)
+|  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  +- commons-primitives:commons-primitives:jar:1.0:compile
+|  +- (org.apache.commons:commons-collections4:jar:4.1:compile - omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.5:compile - omitted for duplicate)
+|  +- (commons-beanutils:commons-beanutils:jar:1.9.3:compile - version managed from 1.9.2; omitted for duplicate)
+|  +- (com.google.guava:guava:jar:23.0:compile - omitted for duplicate)
+|  +- org.nuiton.i18n:nuiton-i18n:jar:3.6.3:compile
+|  |  +- (org.nuiton:nuiton-converter:jar:1.0:compile - omitted for duplicate)
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  |  +- (commons-beanutils:commons-beanutils:jar:1.9.3:compile - version managed from 1.9.2; omitted for duplicate)
+|  |  +- (org.apache.commons:commons-collections4:jar:4.1:compile - omitted for duplicate)
+|  |  \- (commons-io:commons-io:jar:2.5:compile - omitted for duplicate)
+|  \- org.nuiton:nuiton-converter:jar:1.0:compile
+|     +- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|     \- (commons-beanutils:commons-beanutils:jar:1.9.3:compile - version managed from 1.9.2; omitted for duplicate)
++- org.nuiton:nuiton-version:jar:1.0-rc-2:compile
+|  +- (org.apache.commons:commons-lang3:jar:3.6:compile - version managed from 3.4; omitted for duplicate)
+|  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  +- (org.apache.commons:commons-collections4:jar:4.1:compile - omitted for duplicate)
+|  +- (commons-beanutils:commons-beanutils:jar:1.9.3:compile - version managed from 1.9.2; omitted for duplicate)
+|  +- (com.google.guava:guava:jar:23.0:compile - version managed from 19.0; omitted for duplicate)
+|  \- (org.nuiton:nuiton-converter:jar:1.0:compile - omitted for duplicate)
++- org.apache.commons:commons-lang3:jar:3.6:compile
++- com.google.guava:guava:jar:23.0:compile
+|  +- com.google.code.findbugs:jsr305:jar:1.3.9:compile
+|  +- com.google.errorprone:error_prone_annotations:jar:2.0.18:compile
+|  +- com.google.j2objc:j2objc-annotations:jar:1.1:compile
+|  \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:compile
++- commons-logging:commons-logging:jar:1.2:compile
++- org.hibernate:hibernate-core:jar:5.2.10.Final:compile
+|  +- org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile
+|  +- org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final:compile
+|  +- org.javassist:javassist:jar:3.20.0-GA:compile
+|  +- antlr:antlr:jar:2.7.7:compile
+|  +- org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.0.1.Final:compile
+|  +- org.jboss:jandex:jar:2.0.3.Final:compile
+|  +- com.fasterxml:classmate:jar:1.3.0:compile
+|  +- dom4j:dom4j:jar:1.6.1:compile
+|  |  \- xml-apis:xml-apis:jar:1.0.b2:compile
+|  \- org.hibernate.common:hibernate-commons-annotations:jar:5.0.1.Final:compile
+|     \- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile - omitted for duplicate)
++- com.h2database:h2:jar:1.3.176:test
++- org.slf4j:slf4j-log4j12:jar:1.7.25:test
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.21; scope updated from test; omitted for duplicate)
+|  \- log4j:log4j:jar:1.2.17:test
+\- junit:junit:jar:4.12:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

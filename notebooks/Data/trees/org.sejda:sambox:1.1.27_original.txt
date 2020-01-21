@@ -1,0 +1,25 @@
+org.sejda:sambox:jar:1.1.27
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- org.slf4j:jcl-over-slf4j:jar:1.7.25:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
++- org.sejda:sejda-io:jar:1.1.3.RELEASE:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for conflict with 1.7.25)
+|  \- (commons-io:commons-io:jar:2.5:compile - omitted for duplicate)
++- commons-io:commons-io:jar:2.5:compile
++- org.apache.pdfbox:fontbox:jar:2.0.8:compile
++- org.bouncycastle:bcmail-jdk15on:jar:1.56:compile
+|  +- (org.bouncycastle:bcprov-jdk15on:jar:1.56:compile - omitted for duplicate)
+|  \- org.bouncycastle:bcpkix-jdk15on:jar:1.56:compile
+|     \- (org.bouncycastle:bcprov-jdk15on:jar:1.56:compile - omitted for duplicate)
++- org.bouncycastle:bcprov-jdk15on:jar:1.56:compile
++- ch.qos.logback:logback-classic:jar:1.2.2:test
+|  +- ch.qos.logback:logback-core:jar:1.2.2:test
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)
++- org.mockito:mockito-core:jar:1.10.19:test
+|  +- (org.hamcrest:hamcrest-core:jar:1.1:test - omitted for conflict with 1.3)
+|  \- org.objenesis:objenesis:jar:2.1:test
++- junit:junit:jar:4.12:test
+|  \- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for conflict with 1.1)
++- org.hamcrest:hamcrest-core:jar:1.3:test
++- com.googlecode.java-diff-utils:diffutils:jar:1.3.0:test
+\- nl.jqno.equalsverifier:equalsverifier:jar:1.7.5:test

@@ -1,0 +1,10 @@
+org.metafacture:metafacture-flux:jar:5.0.0
++- org.metafacture:metafacture-framework:jar:5.0.0:compile
++- org.metafacture:metafacture-commons:jar:5.0.0:runtime
++- org.metafacture:metafacture-io:jar:5.0.0:runtime
+|  +- (org.metafacture:metafacture-framework:jar:5.0.0:runtime - omitted for duplicate)
+|  +- (org.metafacture:metafacture-commons:jar:5.0.0:runtime - omitted for duplicate)
+|  +- commons-io:commons-io:jar:2.5:runtime
+|  \- org.apache.commons:commons-compress:jar:1.12:runtime
+\- junit:junit:jar:4.12:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

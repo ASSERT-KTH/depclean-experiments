@@ -1,0 +1,31 @@
+de.digitalcollections.imageio:imageio-turbojpeg:jar:0.2.6
++- com.github.jnr:jnr-ffi:jar:2.1.7:compile
+|  +- com.github.jnr:jffi:jar:1.2.16:compile
+|  +- com.github.jnr:jffi:jar:native:1.2.16:runtime
+|  +- org.ow2.asm:asm:jar:5.0.3:compile
+|  +- org.ow2.asm:asm-commons:jar:5.0.3:compile
+|  |  \- (org.ow2.asm:asm-tree:jar:5.0.3:compile - omitted for duplicate)
+|  +- org.ow2.asm:asm-analysis:jar:5.0.3:compile
+|  |  \- (org.ow2.asm:asm-tree:jar:5.0.3:compile - omitted for duplicate)
+|  +- org.ow2.asm:asm-tree:jar:5.0.3:compile
+|  |  \- (org.ow2.asm:asm:jar:5.0.3:compile - omitted for duplicate)
+|  +- org.ow2.asm:asm-util:jar:5.0.3:compile
+|  |  \- (org.ow2.asm:asm-tree:jar:5.0.3:compile - omitted for duplicate)
+|  \- com.github.jnr:jnr-x86asm:jar:1.0.2:compile
++- org.slf4j:slf4j-api:jar:1.8.0-beta0:compile
++- com.google.guava:guava:jar:23.3-jre:compile
+|  +- com.google.code.findbugs:jsr305:jar:1.3.9:compile
+|  +- com.google.errorprone:error_prone_annotations:jar:2.0.18:compile
+|  +- com.google.j2objc:j2objc-annotations:jar:1.1:compile
+|  \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:compile
++- org.assertj:assertj-core:jar:3.8.0:test
++- org.junit.jupiter:junit-jupiter-engine:jar:5.0.1:test
+|  +- org.junit.platform:junit-platform-engine:jar:1.0.1:test
+|  |  +- (org.junit.platform:junit-platform-commons:jar:1.0.1:test - omitted for duplicate)
+|  |  \- (org.opentest4j:opentest4j:jar:1.0.0:test - omitted for duplicate)
+|  \- (org.junit.jupiter:junit-jupiter-api:jar:5.0.1:test - omitted for duplicate)
++- org.junit.jupiter:junit-jupiter-api:jar:5.0.1:test
+|  +- org.opentest4j:opentest4j:jar:1.0.0:test
+|  \- org.junit.platform:junit-platform-commons:jar:1.0.1:test
+\- org.slf4j:slf4j-simple:jar:1.8.0-beta0:test
+   \- (org.slf4j:slf4j-api:jar:1.8.0-beta0:test - omitted for duplicate)

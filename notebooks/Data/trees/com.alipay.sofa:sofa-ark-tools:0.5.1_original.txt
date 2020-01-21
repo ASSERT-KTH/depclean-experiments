@@ -1,0 +1,17 @@
+com.alipay.sofa:sofa-ark-tools:jar:0.5.1
++- com.alipay.sofa:sofa-ark-spi:jar:0.5.1:compile
+|  \- com.alipay.sofa:sofa-ark-exception:jar:0.5.1:compile
++- com.alipay.sofa:sofa-ark-common:jar:0.5.1:compile
+|  +- (com.alipay.sofa:sofa-ark-spi:jar:0.5.1:compile - omitted for duplicate)
+|  +- com.alipay.sofa.common:sofa-common-tools:jar:1.0.12:compile
+|  |  \- org.slf4j:slf4j-api:jar:1.7.21:compile
+|  +- com.google.inject:guice:jar:4.0:compile
+|  |  +- javax.inject:javax.inject:jar:1:compile
+|  |  +- aopalliance:aopalliance:jar:1.0:compile
+|  |  \- com.google.guava:guava:jar:16.0.1:compile
+|  \- org.slf4j:slf4j-log4j12:jar:1.7.21:compile
+|     +- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|     \- log4j:log4j:jar:1.2.17:compile
++- org.ow2.asm:asm:jar:5.0.3:compile
+\- org.apache.maven:maven-artifact:jar:2.2.1:compile
+   \- org.codehaus.plexus:plexus-utils:jar:3.0:compile (version managed from 1.5.15)

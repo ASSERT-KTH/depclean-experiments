@@ -1,0 +1,2 @@
+com.gluonhq:charm-down-plugin-magnetometer:jar:3.7.1
+\- com.gluonhq:charm-down-core:jar:3.7.1:compile

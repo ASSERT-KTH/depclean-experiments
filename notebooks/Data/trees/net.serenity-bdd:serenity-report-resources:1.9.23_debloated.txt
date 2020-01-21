@@ -1,0 +1,11 @@
+net.serenity-bdd:serenity-report-resources:jar:1.9.23
++- com.google.inject:guice:jar:4.1.0:compile
+|  +- javax.inject:javax.inject:jar:1:compile
+|  \- aopalliance:aopalliance:jar:1.0:compile
++- org.ow2.asm:asm:jar:5.0.3:compile
++- org.objenesis:objenesis:jar:2.6:compile
++- xml-apis:xml-apis:jar:1.4.01:compile
++- commons-logging:commons-logging:jar:1.2:compile
++- org.mockito:mockito-core:jar:1.10.19:compile
+\- io.vavr:vavr:jar:0.9.0:compile
+   \- io.vavr:vavr-match:jar:0.9.0:compile

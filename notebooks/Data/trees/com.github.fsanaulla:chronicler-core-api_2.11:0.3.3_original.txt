@@ -1,0 +1,17 @@
+com.github.fsanaulla:chronicler-core-api_2.11:jar:0.3.3
++- org.scala-lang:scala-library:jar:2.11.8:compile
+\- com.github.fsanaulla:chronicler-core-model_2.11:jar:0.3.3:compile
+   +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for duplicate)
+   +- com.beachape:enumeratum_2.11:jar:1.5.13:compile
+   |  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for conflict with 2.11.8)
+   |  \- com.beachape:enumeratum-macros_2.11:jar:1.5.9:compile
+   |     +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for duplicate)
+   |     \- org.scala-lang:scala-reflect:jar:2.11.8:compile
+   |        \- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for duplicate)
+   \- org.spire-math:jawn-ast_2.11:jar:0.12.1:compile
+      +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for conflict with 2.11.8)
+      +- org.spire-math:jawn-parser_2.11:jar:0.12.1:compile
+      |  \- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for conflict with 2.11.8)
+      \- org.spire-math:jawn-util_2.11:jar:0.12.1:compile
+         +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for conflict with 2.11.8)
+         \- (org.spire-math:jawn-parser_2.11:jar:0.12.1:compile - omitted for duplicate)

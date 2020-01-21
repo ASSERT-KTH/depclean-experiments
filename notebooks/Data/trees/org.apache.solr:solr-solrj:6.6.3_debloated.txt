@@ -1,0 +1,12 @@
+org.apache.solr:solr-solrj:jar:6.6.3
++- commons-io:commons-io:jar:2.5:compile
++- org.apache.commons:commons-math3:jar:3.4.1:compile
++- org.apache.httpcomponents:httpclient:jar:4.4.1:compile
++- org.apache.httpcomponents:httpcore:jar:4.4.1:compile
++- org.apache.httpcomponents:httpmime:jar:4.4.1:compile
++- org.apache.zookeeper:zookeeper:jar:3.4.10:compile
++- org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1:compile
++- org.noggit:noggit:jar:0.6:compile
++- org.slf4j:slf4j-api:jar:1.7.7:compile
++- junit:junit:jar:4.10:test
+\- com.carrotsearch.randomizedtesting:randomizedtesting-runner:jar:2.5.0:test

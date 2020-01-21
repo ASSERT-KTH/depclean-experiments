@@ -1,0 +1,382 @@
+org.eclipse.ditto:ditto-services-gateway-endpoints:jar:0.8.0-M1
++- org.eclipse.ditto:ditto-services-gateway-util:jar:0.8.0-M1:compile
+|  +- (org.eclipse.ditto:ditto-services-gateway-streaming:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- org.eclipse.ditto:ditto-json:jar:0.8.0-M1:compile
+|  |  \- com.eclipsesource.minimal-json:minimal-json:jar:0.9.5:compile
+|  +- org.eclipse.ditto:ditto-model-base:jar:0.8.0-M1:compile
+|  |  \- (org.eclipse.ditto:ditto-json:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- org.eclipse.ditto:ditto-model-policies:jar:0.8.0-M1:compile
+|  |  +- (org.eclipse.ditto:ditto-model-base:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  \- (org.eclipse.ditto:ditto-json:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- org.eclipse.ditto:ditto-model-things:jar:0.8.0-M1:compile
+|  |  +- (org.eclipse.ditto:ditto-model-base:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  \- (org.eclipse.ditto:ditto-json:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- org.eclipse.ditto:ditto-model-thingsearch:jar:0.8.0-M1:compile
+|  |  +- (org.eclipse.ditto:ditto-model-base:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  \- (org.eclipse.ditto:ditto-json:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- org.eclipse.ditto:ditto-signals-commands-policies:jar:0.8.0-M1:compile
+|  |  +- (org.eclipse.ditto:ditto-model-policies:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  +- (org.eclipse.ditto:ditto-signals-commands-base:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  +- (org.eclipse.ditto:ditto-signals-base:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  +- (org.eclipse.ditto:ditto-json:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  \- (org.eclipse.ditto:ditto-model-base:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- (org.eclipse.ditto:ditto-signals-commands-things:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- (org.eclipse.ditto:ditto-signals-commands-messages:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- (org.eclipse.ditto:ditto-signals-commands-thingsearch:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- (org.eclipse.ditto:ditto-signals-commands-devops:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- (org.eclipse.ditto:ditto-signals-events-policies:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- (org.eclipse.ditto:ditto-signals-events-things:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- org.eclipse.ditto:ditto-services-models-connectivity:jar:0.8.0-M1:compile
+|  |  +- (org.eclipse.ditto:ditto-signals-commands-messages:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  +- (org.eclipse.ditto:ditto-signals-commands-devops:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  +- (org.eclipse.ditto:ditto-services-models-things:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  +- (org.eclipse.ditto:ditto-services-utils-cluster:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  +- org.eclipse.ditto:ditto-signals-commands-connectivity:jar:0.8.0-M1:compile
+|  |  |  +- (org.eclipse.ditto:ditto-signals-commands-base:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  |  +- org.eclipse.ditto:ditto-model-connectivity:jar:0.8.0-M1:compile
+|  |  |  |  +- (org.eclipse.ditto:ditto-model-base:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  |  |  \- (org.eclipse.ditto:ditto-json:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  |  +- (org.eclipse.ditto:ditto-signals-base:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  |  +- (org.eclipse.ditto:ditto-json:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  |  \- (org.eclipse.ditto:ditto-model-base:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  +- org.eclipse.ditto:ditto-signals-events-connectivity:jar:0.8.0-M1:compile
+|  |  |  +- (org.eclipse.ditto:ditto-signals-events-base:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  |  +- (org.eclipse.ditto:ditto-model-connectivity:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  |  +- (org.eclipse.ditto:ditto-signals-base:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  |  +- (org.eclipse.ditto:ditto-json:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  |  \- (org.eclipse.ditto:ditto-model-base:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  +- (org.eclipse.ditto:ditto-json:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  +- (org.eclipse.ditto:ditto-model-base:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  \- (org.eclipse.ditto:ditto-signals-commands-base:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- org.eclipse.ditto:ditto-services-models-policies:jar:0.8.0-M1:compile
+|  |  +- (org.eclipse.ditto:ditto-model-policies:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  +- (org.eclipse.ditto:ditto-model-things:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  +- (org.eclipse.ditto:ditto-signals-commands-policies:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  +- (org.eclipse.ditto:ditto-signals-commands-devops:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  +- (org.eclipse.ditto:ditto-signals-events-policies:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  +- (org.eclipse.ditto:ditto-services-models-streaming:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  +- (org.eclipse.ditto:ditto-services-utils-cluster:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  +- (org.eclipse.ditto:ditto-json:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  +- (org.eclipse.ditto:ditto-model-base:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  \- (org.eclipse.ditto:ditto-signals-commands-base:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- org.eclipse.ditto:ditto-services-models-things:jar:0.8.0-M1:compile
+|  |  +- (org.eclipse.ditto:ditto-model-things:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  +- (org.eclipse.ditto:ditto-model-policies:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  +- (org.eclipse.ditto:ditto-signals-commands-things:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  +- (org.eclipse.ditto:ditto-signals-commands-devops:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  +- (org.eclipse.ditto:ditto-signals-events-things:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  +- (org.eclipse.ditto:ditto-services-models-streaming:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  +- (org.eclipse.ditto:ditto-services-utils-cluster:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  +- (org.eclipse.ditto:ditto-json:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  +- (org.eclipse.ditto:ditto-model-base:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  \- (org.eclipse.ditto:ditto-signals-commands-base:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- (org.eclipse.ditto:ditto-services-models-thingsearch:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- (org.eclipse.ditto:ditto-services-utils-cluster:jar:0.8.0-M1:compile - omitted for duplicate)
+|  \- (com.typesafe.akka:akka-http_2.12:jar:10.1.3:compile - version managed from 10.0.13; omitted for duplicate)
++- org.eclipse.ditto:ditto-services-gateway-health:jar:0.8.0-M1:compile
+|  +- (org.eclipse.ditto:ditto-services-gateway-util:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- (org.eclipse.ditto:ditto-services-gateway-security:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- (org.eclipse.ditto:ditto-json:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- (org.eclipse.ditto:ditto-model-base:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- (org.eclipse.ditto:ditto-services-utils-akka:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- (org.eclipse.ditto:ditto-services-utils-health:jar:0.8.0-M1:compile - omitted for duplicate)
+|  \- (com.typesafe.akka:akka-actor_2.12:jar:2.5.13:compile - version managed from 2.5.7; omitted for duplicate)
++- org.eclipse.ditto:ditto-services-gateway-security:jar:0.8.0-M1:compile
+|  +- (org.eclipse.ditto:ditto-services-gateway-util:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- (org.eclipse.ditto:ditto-json:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- (org.eclipse.ditto:ditto-model-policies:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- (org.eclipse.ditto:ditto-signals-commands-base:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- (org.eclipse.ditto:ditto-services-utils-akka:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- org.eclipse.ditto:ditto-services-utils-cache:jar:0.8.0-M1:compile
+|  |  +- (org.eclipse.ditto:ditto-services-utils-metrics:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  +- (com.typesafe:config:jar:1.3.1:compile - version managed from 1.3.2; omitted for duplicate)
+|  |  +- com.github.ben-manes.caffeine:caffeine:jar:2.6.2:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.7; omitted for duplicate)
+|  +- (com.typesafe.akka:akka-actor_2.12:jar:2.5.13:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.7; omitted for duplicate)
++- org.eclipse.ditto:ditto-services-gateway-streaming:jar:0.8.0-M1:compile
+|  +- (org.eclipse.ditto:ditto-model-base:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- org.eclipse.ditto:ditto-protocol-adapter:jar:0.8.0-M1:compile
+|  |  +- (org.eclipse.ditto:ditto-json:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  +- (org.eclipse.ditto:ditto-model-base:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  +- (org.eclipse.ditto:ditto-model-policies:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  +- (org.eclipse.ditto:ditto-model-things:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  +- (org.eclipse.ditto:ditto-model-thingsearch:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  +- (org.eclipse.ditto:ditto-signals-commands-base:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  +- (org.eclipse.ditto:ditto-signals-commands-policies:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  +- (org.eclipse.ditto:ditto-signals-commands-things:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  +- (org.eclipse.ditto:ditto-signals-commands-thingsearch:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  +- (org.eclipse.ditto:ditto-signals-commands-messages:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  +- (org.eclipse.ditto:ditto-signals-events-base:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  +- (org.eclipse.ditto:ditto-signals-events-policies:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  \- (org.eclipse.ditto:ditto-signals-events-things:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- (org.eclipse.ditto:ditto-signals-commands-base:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- (org.eclipse.ditto:ditto-signals-commands-messages:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- (org.eclipse.ditto:ditto-signals-events-things:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- org.eclipse.ditto:ditto-services-models-concierge:jar:0.8.0-M1:compile
+|  |  +- (org.eclipse.ditto:ditto-signals-commands-messages:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  +- (org.eclipse.ditto:ditto-signals-commands-things:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  +- (org.eclipse.ditto:ditto-signals-commands-thingsearch:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  +- (org.eclipse.ditto:ditto-services-models-things:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  +- org.eclipse.ditto:ditto-signals-commands-batch:jar:0.8.0-M1:compile
+|  |  |  +- (org.eclipse.ditto:ditto-signals-commands-base:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  |  +- (org.eclipse.ditto:ditto-signals-base:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  |  +- (org.eclipse.ditto:ditto-json:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  |  \- (org.eclipse.ditto:ditto-model-base:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  +- org.eclipse.ditto:ditto-signals-events-batch:jar:0.8.0-M1:compile
+|  |  |  +- (org.eclipse.ditto:ditto-signals-events-base:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  |  +- (org.eclipse.ditto:ditto-signals-commands-base:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  |  +- (org.eclipse.ditto:ditto-signals-base:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  |  +- (org.eclipse.ditto:ditto-json:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  |  \- (org.eclipse.ditto:ditto-model-base:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  +- (com.typesafe.akka:akka-cluster-tools_2.12:jar:2.5.13:compile - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  +- (org.eclipse.ditto:ditto-json:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  +- (org.eclipse.ditto:ditto-model-base:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  \- (org.eclipse.ditto:ditto-signals-commands-base:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- (org.eclipse.ditto:ditto-services-utils-akka:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- (org.eclipse.ditto:ditto-services-utils-cluster:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- (com.typesafe.akka:akka-actor_2.12:jar:2.5.13:compile - omitted for duplicate)
+|  +- (com.typesafe.akka:akka-stream_2.12:jar:2.5.13:compile - version managed from 2.5.7; omitted for duplicate)
+|  +- (com.typesafe.akka:akka-cluster_2.12:jar:2.5.13:compile - version managed from 2.5.7; omitted for duplicate)
+|  \- com.typesafe.akka:akka-cluster-tools_2.12:jar:2.5.13:compile
+|     +- (org.scala-lang:scala-library:jar:2.12.6:compile - version managed from 2.12.4; omitted for duplicate)
+|     \- (com.typesafe.akka:akka-cluster_2.12:jar:2.5.13:compile - omitted for duplicate)
++- org.eclipse.ditto:ditto-signals-commands-base:jar:0.8.0-M1:compile
+|  +- org.eclipse.ditto:ditto-signals-base:jar:0.8.0-M1:compile
+|  |  +- (org.eclipse.ditto:ditto-json:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  \- (org.eclipse.ditto:ditto-model-base:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- (org.eclipse.ditto:ditto-json:jar:0.8.0-M1:compile - omitted for duplicate)
+|  \- (org.eclipse.ditto:ditto-model-base:jar:0.8.0-M1:compile - omitted for duplicate)
++- org.eclipse.ditto:ditto-signals-commands-devops:jar:0.8.0-M1:compile
+|  +- org.eclipse.ditto:ditto-model-devops:jar:0.8.0-M1:compile
+|  |  +- (org.eclipse.ditto:ditto-model-base:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  \- (org.eclipse.ditto:ditto-json:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- (org.eclipse.ditto:ditto-signals-commands-base:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- (org.eclipse.ditto:ditto-signals-base:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- (org.eclipse.ditto:ditto-json:jar:0.8.0-M1:compile - omitted for duplicate)
+|  \- (org.eclipse.ditto:ditto-model-base:jar:0.8.0-M1:compile - omitted for duplicate)
++- org.eclipse.ditto:ditto-signals-commands-things:jar:0.8.0-M1:compile
+|  +- (org.eclipse.ditto:ditto-model-things:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- (org.eclipse.ditto:ditto-signals-commands-base:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- (org.eclipse.ditto:ditto-signals-base:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- (org.eclipse.ditto:ditto-json:jar:0.8.0-M1:compile - omitted for duplicate)
+|  \- (org.eclipse.ditto:ditto-model-base:jar:0.8.0-M1:compile - omitted for duplicate)
++- org.eclipse.ditto:ditto-signals-commands-messages:jar:0.8.0-M1:compile
+|  +- org.eclipse.ditto:ditto-model-messages:jar:0.8.0-M1:compile
+|  |  +- (org.eclipse.ditto:ditto-model-base:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  \- (org.eclipse.ditto:ditto-json:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- (org.eclipse.ditto:ditto-signals-commands-base:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- (org.eclipse.ditto:ditto-signals-base:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- (org.eclipse.ditto:ditto-json:jar:0.8.0-M1:compile - omitted for duplicate)
+|  \- (org.eclipse.ditto:ditto-model-base:jar:0.8.0-M1:compile - omitted for duplicate)
++- org.eclipse.ditto:ditto-signals-commands-thingsearch:jar:0.8.0-M1:compile
+|  +- (org.eclipse.ditto:ditto-model-thingsearch:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- (org.eclipse.ditto:ditto-signals-commands-base:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- (org.eclipse.ditto:ditto-signals-base:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- (org.eclipse.ditto:ditto-json:jar:0.8.0-M1:compile - omitted for duplicate)
+|  \- (org.eclipse.ditto:ditto-model-base:jar:0.8.0-M1:compile - omitted for duplicate)
++- org.eclipse.ditto:ditto-signals-events-things:jar:0.8.0-M1:compile
+|  +- (org.eclipse.ditto:ditto-model-things:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- org.eclipse.ditto:ditto-signals-events-base:jar:0.8.0-M1:compile
+|  |  +- (org.eclipse.ditto:ditto-signals-base:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  +- (org.eclipse.ditto:ditto-json:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  \- (org.eclipse.ditto:ditto-model-base:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- (org.eclipse.ditto:ditto-signals-base:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- (org.eclipse.ditto:ditto-json:jar:0.8.0-M1:compile - omitted for duplicate)
+|  \- (org.eclipse.ditto:ditto-model-base:jar:0.8.0-M1:compile - omitted for duplicate)
++- org.eclipse.ditto:ditto-signals-events-policies:jar:0.8.0-M1:compile
+|  +- (org.eclipse.ditto:ditto-model-policies:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- (org.eclipse.ditto:ditto-signals-events-base:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- (org.eclipse.ditto:ditto-signals-base:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- (org.eclipse.ditto:ditto-json:jar:0.8.0-M1:compile - omitted for duplicate)
+|  \- (org.eclipse.ditto:ditto-model-base:jar:0.8.0-M1:compile - omitted for duplicate)
++- org.eclipse.ditto:ditto-services-models-thingsearch:jar:0.8.0-M1:compile
+|  +- (org.eclipse.ditto:ditto-services-models-policies:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- (org.eclipse.ditto:ditto-services-models-things:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- org.eclipse.ditto:ditto-services-models-streaming:jar:0.8.0-M1:compile
+|  |  +- (org.eclipse.ditto:ditto-json:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  +- (org.eclipse.ditto:ditto-model-base:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  \- (org.eclipse.ditto:ditto-signals-commands-base:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- (org.eclipse.ditto:ditto-signals-commands-thingsearch:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- (org.eclipse.ditto:ditto-json:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- (org.eclipse.ditto:ditto-model-base:jar:0.8.0-M1:compile - omitted for duplicate)
+|  \- (org.eclipse.ditto:ditto-signals-commands-base:jar:0.8.0-M1:compile - omitted for duplicate)
++- org.eclipse.ditto:ditto-services-utils-akka:jar:0.8.0-M1:compile
+|  +- (org.eclipse.ditto:ditto-json:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- (org.eclipse.ditto:ditto-model-base:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- (com.typesafe.akka:akka-actor_2.12:jar:2.5.13:compile - omitted for duplicate)
+|  +- (com.typesafe.akka:akka-stream_2.12:jar:2.5.13:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.7; omitted for duplicate)
+|  \- (org.eclipse.ditto:ditto-services-models-streaming:jar:0.8.0-M1:compile - omitted for duplicate)
++- org.eclipse.ditto:ditto-services-utils-health:jar:0.8.0-M1:compile
+|  +- (org.eclipse.ditto:ditto-json:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- (org.eclipse.ditto:ditto-model-base:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- (org.eclipse.ditto:ditto-services-utils-akka:jar:0.8.0-M1:compile - omitted for duplicate)
+|  \- (com.typesafe.akka:akka-actor_2.12:jar:2.5.13:compile - omitted for duplicate)
++- org.eclipse.ditto:ditto-services-utils-config:jar:0.8.0-M1:compile
+|  +- (org.eclipse.ditto:ditto-json:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- com.typesafe:config:jar:1.3.1:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.7; omitted for duplicate)
+|  \- (com.typesafe.akka:akka-actor_2.12:jar:2.5.13:compile - omitted for duplicate)
++- org.eclipse.ditto:ditto-services-utils-cluster:jar:0.8.0-M1:compile
+|  +- (org.eclipse.ditto:ditto-services-utils-akka:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- (org.eclipse.ditto:ditto-services-utils-config:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- (org.eclipse.ditto:ditto-services-utils-health:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- (org.eclipse.ditto:ditto-signals-base:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- (org.eclipse.ditto:ditto-signals-commands-base:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- (com.typesafe.akka:akka-cluster_2.12:jar:2.5.13:compile - omitted for duplicate)
+|  \- (com.typesafe.akka:akka-cluster-sharding_2.12:jar:2.5.13:compile - omitted for duplicate)
++- org.eclipse.ditto:ditto-services-utils-protocol:jar:0.8.0-M1:compile
+|  +- (org.eclipse.ditto:ditto-services-base:jar:0.8.0-M1:compile - omitted for duplicate)
+|  \- (org.eclipse.ditto:ditto-protocol-adapter:jar:0.8.0-M1:compile - omitted for duplicate)
++- org.eclipse.ditto:ditto-services-utils-tracing:jar:0.8.0-M1:compile
+|  +- (org.eclipse.ditto:ditto-signals-commands-base:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- org.eclipse.ditto:ditto-services-utils-metrics:jar:0.8.0-M1:compile
+|  |  +- (org.eclipse.ditto:ditto-model-base:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  +- (io.kamon:kamon-core_2.12:jar:1.1.2:compile - version managed from 1.0.0; omitted for duplicate)
+|  |  +- (io.kamon:kamon-prometheus_2.12:jar:1.1.1:compile - omitted for duplicate)
+|  |  +- (com.typesafe.akka:akka-actor_2.12:jar:2.5.13:compile - version managed from 2.5.7; omitted for duplicate)
+|  |  +- io.prometheus:simpleclient_dropwizard:jar:0.4.0:compile
+|  |  |  +- io.prometheus:simpleclient:jar:0.4.0:compile
+|  |  |  \- (io.dropwizard.metrics:metrics-core:jar:3.1.2:compile - omitted for duplicate)
+|  |  +- io.prometheus:simpleclient_common:jar:0.4.0:compile
+|  |  |  \- (io.prometheus:simpleclient:jar:0.4.0:compile - omitted for duplicate)
+|  |  \- io.dropwizard.metrics:metrics-core:jar:3.1.2:compile
+|  |     \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.7; omitted for duplicate)
+|  +- (com.typesafe.akka:akka-http_2.12:jar:10.1.3:compile - version managed from 10.0.13; omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.7; omitted for duplicate)
++- org.eclipse.ditto:ditto-services-base:jar:0.8.0-M1:compile
+|  +- (org.eclipse.ditto:ditto-model-base:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- org.eclipse.ditto:ditto-services-utils-devops:jar:0.8.0-M1:compile
+|  |  +- (org.eclipse.ditto:ditto-services-utils-akka:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  +- (org.eclipse.ditto:ditto-services-utils-cluster:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  +- (org.eclipse.ditto:ditto-json:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  +- (org.eclipse.ditto:ditto-model-base:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  +- (org.eclipse.ditto:ditto-model-devops:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  +- (org.eclipse.ditto:ditto-signals-commands-devops:jar:0.8.0-M1:compile - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  +- ch.qos.logback:logback-classic:jar:1.2.3:compile
+|  |  |  +- ch.qos.logback:logback-core:jar:1.2.3:compile
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  +- (com.typesafe.akka:akka-actor_2.12:jar:2.5.13:compile - version managed from 2.5.7; omitted for duplicate)
+|  |  \- (com.typesafe.akka:akka-cluster-tools_2.12:jar:2.5.13:compile - omitted for duplicate)
+|  +- (org.eclipse.ditto:ditto-services-utils-config:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- (org.eclipse.ditto:ditto-services-utils-metrics:jar:0.8.0-M1:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.7; omitted for duplicate)
+|  +- (com.typesafe.akka:akka-actor_2.12:jar:2.5.13:compile - version managed from 2.5.7; omitted for duplicate)
+|  +- com.lightbend.akka.management:akka-management_2.12:jar:0.14.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.6:compile - version managed from 2.12.2; omitted for duplicate)
+|  |  +- (com.typesafe.akka:akka-http_2.12:jar:10.1.3:compile - version managed from 10.0.13; omitted for duplicate)
+|  |  +- com.typesafe.akka:akka-http-spray-json_2.12:jar:10.1.3:compile (version managed from 10.0.13)
+|  |  |  +- (org.scala-lang:scala-library:jar:2.12.6:compile - version managed from 2.12.2; omitted for duplicate)
+|  |  |  +- (com.typesafe.akka:akka-http_2.12:jar:10.1.3:compile - version managed from 10.0.13; omitted for duplicate)
+|  |  |  \- (io.spray:spray-json_2.12:jar:1.3.4:compile - omitted for conflict with 1.3.3)
+|  |  +- (com.typesafe.akka:akka-stream_2.12:jar:2.5.13:compile - version managed from 2.5.7; omitted for duplicate)
+|  |  +- (com.typesafe.akka:akka-actor_2.12:jar:2.5.13:compile - version managed from 2.5.7; omitted for duplicate)
+|  |  \- io.spray:spray-json_2.12:jar:1.3.3:compile
+|  |     \- (org.scala-lang:scala-library:jar:2.12.6:compile - version managed from 2.12.1; omitted for duplicate)
+|  +- com.lightbend.akka.management:akka-management-cluster-bootstrap_2.12:jar:0.14.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.6:compile - version managed from 2.12.2; omitted for duplicate)
+|  |  +- (com.lightbend.akka.management:akka-management_2.12:jar:0.14.0:compile - omitted for duplicate)
+|  |  +- com.lightbend.akka.discovery:akka-discovery_2.12:jar:0.14.0:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.12.6:compile - version managed from 2.12.2; omitted for duplicate)
+|  |  |  \- (com.typesafe.akka:akka-actor_2.12:jar:2.5.13:compile - version managed from 2.5.7; omitted for duplicate)
+|  |  +- (com.typesafe.akka:akka-cluster_2.12:jar:2.5.13:compile - version managed from 2.5.7; omitted for duplicate)
+|  |  +- (com.typesafe.akka:akka-http-core_2.12:jar:10.1.3:compile - version managed from 10.0.13; omitted for duplicate)
+|  |  +- (com.typesafe.akka:akka-http-spray-json_2.12:jar:10.1.3:compile - version managed from 10.0.13; omitted for duplicate)
+|  |  \- (io.spray:spray-json_2.12:jar:1.3.3:compile - omitted for duplicate)
+|  +- com.github.scullxbones:akka-persistence-mongo-common_2.12:jar:2.0.9:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.6:compile - version managed from 2.12.2; omitted for duplicate)
+|  |  \- nl.grons:metrics-scala_2.12:jar:3.5.5_a2.4:compile
+|  |     +- (org.scala-lang:scala-library:jar:2.12.6:compile - version managed from 2.12.0; omitted for duplicate)
+|  |     +- (io.dropwizard.metrics:metrics-core:jar:3.1.2:compile - omitted for duplicate)
+|  |     \- io.dropwizard.metrics:metrics-healthchecks:jar:3.1.2:compile
+|  |        \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.7; omitted for duplicate)
+|  +- io.kamon:kamon-core_2.12:jar:1.1.2:compile (version managed from 1.0.0)
+|  |  +- (org.scala-lang:scala-library:jar:2.12.6:compile - version managed from 2.12.1; omitted for duplicate)
+|  |  +- (com.typesafe:config:jar:1.3.1:compile - version managed from 1.2.0; omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  +- org.hdrhistogram:HdrHistogram:jar:2.1.9:compile
+|  |  \- com.lihaoyi:fansi_2.12:jar:0.2.4:compile
+|  |     +- (org.scala-lang:scala-library:jar:2.12.6:compile - version managed from 2.12.0; omitted for duplicate)
+|  |     \- com.lihaoyi:sourcecode_2.12:jar:0.1.3:compile
+|  |        \- (org.scala-lang:scala-library:jar:2.12.6:compile - version managed from 2.12.0; omitted for duplicate)
+|  +- io.kamon:kamon-prometheus_2.12:jar:1.1.1:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.6:compile - version managed from 2.12.1; omitted for duplicate)
+|  |  +- (io.kamon:kamon-core_2.12:jar:1.1.2:compile - version managed from 1.1.0; omitted for duplicate)
+|  |  \- org.nanohttpd:nanohttpd:jar:2.3.1:compile
+|  \- io.kamon:kamon-system-metrics_2.12:jar:1.0.0:compile
+|     +- (org.scala-lang:scala-library:jar:2.12.6:compile - version managed from 2.12.1; omitted for duplicate)
+|     \- (io.kamon:kamon-core_2.12:jar:1.1.2:compile - version managed from 1.0.0; omitted for duplicate)
++- com.typesafe.akka:akka-actor_2.12:jar:2.5.13:compile
+|  +- org.scala-lang:scala-library:jar:2.12.6:compile
+|  +- (com.typesafe:config:jar:1.3.1:compile - version managed from 1.3.2; omitted for duplicate)
+|  \- org.scala-lang.modules:scala-java8-compat_2.12:jar:0.8.0:compile
+|     \- (org.scala-lang:scala-library:jar:2.12.6:compile - version managed from 2.12.0; omitted for duplicate)
++- com.typesafe.akka:akka-stream_2.12:jar:2.5.13:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.6:compile - version managed from 2.12.0; omitted for duplicate)
+|  +- (com.typesafe.akka:akka-actor_2.12:jar:2.5.13:compile - version managed from 2.5.7; omitted for duplicate)
+|  +- com.typesafe.akka:akka-protobuf_2.12:jar:2.5.13:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.12.6:compile - version managed from 2.12.0; omitted for duplicate)
+|  +- org.reactivestreams:reactive-streams:jar:1.0.2:compile
+|  \- com.typesafe:ssl-config-core_2.12:jar:0.2.3:compile
+|     +- (org.scala-lang:scala-library:jar:2.12.6:compile - version managed from 2.12.5; omitted for duplicate)
+|     +- (com.typesafe:config:jar:1.3.1:compile - version managed from 1.2.0; omitted for duplicate)
+|     \- org.scala-lang.modules:scala-parser-combinators_2.12:jar:1.1.0:compile
+|        \- (org.scala-lang:scala-library:jar:2.12.6:compile - version managed from 2.12.4; omitted for duplicate)
++- com.typesafe.akka:akka-http_2.12:jar:10.1.3:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.6:compile - version managed from 2.12.4; omitted for duplicate)
+|  \- com.typesafe.akka:akka-http-core_2.12:jar:10.1.3:compile (version managed from 10.0.13)
+|     +- (org.scala-lang:scala-library:jar:2.12.6:compile - version managed from 2.12.4; omitted for duplicate)
+|     \- com.typesafe.akka:akka-parsing_2.12:jar:10.1.3:compile
+|        \- (org.scala-lang:scala-library:jar:2.12.6:compile - version managed from 2.12.4; omitted for duplicate)
++- com.typesafe.akka:akka-slf4j_2.12:jar:2.5.13:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.6:compile - version managed from 2.12.4; omitted for duplicate)
+|  +- (com.typesafe.akka:akka-actor_2.12:jar:2.5.13:compile - version managed from 2.5.7; omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.7; omitted for duplicate)
++- com.typesafe.akka:akka-cluster_2.12:jar:2.5.13:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.6:compile - version managed from 2.12.4; omitted for duplicate)
+|  \- com.typesafe.akka:akka-remote_2.12:jar:2.5.13:compile
+|     +- (org.scala-lang:scala-library:jar:2.12.6:compile - version managed from 2.12.4; omitted for duplicate)
+|     +- (com.typesafe.akka:akka-actor_2.12:jar:2.5.13:compile - version managed from 2.5.7; omitted for duplicate)
+|     +- (com.typesafe.akka:akka-stream_2.12:jar:2.5.13:compile - version managed from 2.5.7; omitted for duplicate)
+|     +- (com.typesafe.akka:akka-protobuf_2.12:jar:2.5.13:compile - omitted for duplicate)
+|     +- io.netty:netty:jar:3.10.6.Final:compile
+|     +- io.aeron:aeron-driver:jar:1.9.1:compile
+|     |  \- (io.aeron:aeron-client:jar:1.9.1:compile - omitted for duplicate)
+|     \- io.aeron:aeron-client:jar:1.9.1:compile
+|        \- org.agrona:agrona:jar:0.9.17:compile
++- com.typesafe.akka:akka-cluster-sharding_2.12:jar:2.5.13:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.6:compile - version managed from 2.12.4; omitted for duplicate)
+|  +- (com.typesafe.akka:akka-cluster_2.12:jar:2.5.13:compile - version managed from 2.5.7; omitted for duplicate)
+|  +- com.typesafe.akka:akka-distributed-data_2.12:jar:2.5.13:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.6:compile - version managed from 2.12.4; omitted for duplicate)
+|  |  +- (com.typesafe.akka:akka-cluster_2.12:jar:2.5.13:compile - version managed from 2.5.7; omitted for duplicate)
+|  |  \- org.lmdbjava:lmdbjava:jar:0.6.0:compile
+|  |     +- com.github.jnr:jnr-ffi:jar:2.1.6:compile
+|  |     |  +- com.github.jnr:jffi:jar:1.2.16:compile
+|  |     |  +- com.github.jnr:jffi:jar:native:1.2.16:runtime
+|  |     |  +- org.ow2.asm:asm:jar:5.2:compile (version managed from 5.0.3)
+|  |     |  +- org.ow2.asm:asm-commons:jar:5.2:compile (version managed from 5.0.3)
+|  |     |  |  \- (org.ow2.asm:asm-tree:jar:5.2:compile - version managed from 5.0.3; omitted for duplicate)
+|  |     |  +- org.ow2.asm:asm-analysis:jar:5.2:compile (version managed from 5.0.3)
+|  |     |  |  \- (org.ow2.asm:asm-tree:jar:5.2:compile - version managed from 5.0.3; omitted for duplicate)
+|  |     |  +- org.ow2.asm:asm-tree:jar:5.2:compile
+|  |     |  |  \- (org.ow2.asm:asm:jar:5.2:compile - version managed from 5.0.3; omitted for duplicate)
+|  |     |  +- org.ow2.asm:asm-util:jar:5.2:compile (version managed from 5.0.3)
+|  |     |  |  \- (org.ow2.asm:asm-tree:jar:5.2:compile - version managed from 5.0.3; omitted for duplicate)
+|  |     |  \- com.github.jnr:jnr-x86asm:jar:1.0.2:compile
+|  |     \- com.github.jnr:jnr-constants:jar:0.9.9:compile
+|  +- com.typesafe.akka:akka-persistence_2.12:jar:2.5.13:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.6:compile - version managed from 2.12.4; omitted for duplicate)
+|  |  +- (com.typesafe.akka:akka-actor_2.12:jar:2.5.13:compile - version managed from 2.5.7; omitted for duplicate)
+|  |  \- (com.typesafe.akka:akka-protobuf_2.12:jar:2.5.13:compile - omitted for duplicate)
+|  \- (com.typesafe.akka:akka-cluster-tools_2.12:jar:2.5.13:compile - omitted for duplicate)
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- io.jsonwebtoken:jjwt:jar:0.7.0:compile
+|  \- com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile (version managed from 2.8.2)
+|     +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.5:compile (version managed from 2.9.0)
+|     \- com.fasterxml.jackson.core:jackson-core:jar:2.9.5:compile
++- com.google.code.findbugs:jsr305:jar:3.0.1:provided
+\- org.eclipse.ditto:ditto-utils-jsr305:jar:0.8.0-M1:provided

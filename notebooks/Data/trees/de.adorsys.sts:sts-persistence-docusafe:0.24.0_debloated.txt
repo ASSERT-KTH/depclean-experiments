@@ -1,0 +1,64 @@
+de.adorsys.sts:sts-persistence-docusafe:jar:0.24.0
++- de.adorsys.sts:sts-keymanagement:jar:0.24.0:compile
+|  +- de.adorsys.sts:sts-common:jar:0.24.0:compile
+|  +- de.adorsys.lock-persistence:lock-persistence-core:jar:0.3.1:compile
+|  +- (de.adorsys.cryptoutils:encobject:jar:0.18.4:compile - omitted for duplicate)
+|  +- de.adorsys.cryptoutils:jjwk:jar:0.18.4:compile
+|  |  +- com.nimbusds:nimbus-jose-jwt:jar:4.34.1:compile
+|  |  |  +- com.github.stephenc.jcip:jcip-annotations:jar:1.0-1:compile
+|  |  |  +- net.minidev:json-smart:jar:1.3.1:compile
+|  |  |  \- (org.bouncycastle:bcpkix-jdk15on:jar:1.55:compile - omitted for conflict with 1.54)
+|  |  +- (commons-io:commons-io:jar:2.5:compile - omitted for duplicate)
+|  |  \- de.adorsys.cryptoutils:jkeyutils:jar:0.18.4:compile
+|  |     +- (de.adorsys.cryptoutils:basetypes:jar:0.18.4:compile - omitted for duplicate)
+|  |     +- (org.bouncycastle:bcpkix-jdk15on:jar:1.58:compile - omitted for conflict with 1.55)
+|  |     +- (org.apache.commons:commons-lang3:jar:3.5:compile - omitted for duplicate)
+|  |     \- (org.projectlombok:lombok:jar:1.16.18:compile - omitted for duplicate)
+|  \- org.projectlombok:lombok:jar:1.16.18:compile
++- de.adorsys.sts:sts-resource-server:jar:0.24.0:compile
+|  +- (de.adorsys.sts:sts-common:jar:0.24.0:compile - omitted for duplicate)
+|  +- (de.adorsys.cryptoutils:encobject:jar:0.18.4:compile - omitted for duplicate)
+|  +- de.adorsys.envutils:envutils4j:jar:0.2:compile
+|  |  \- org.apache.commons:commons-lang3:jar:3.5:compile
+|  \- (org.projectlombok:lombok:jar:1.16.18:compile - omitted for duplicate)
++- de.adorsys:docusafe-business:jar:0.3.4-1:compile
+|  +- de.adorsys.cryptoutils:basetypes:jar:0.18.4:compile
+|  |  +- org.slf4j:slf4j-api:jar:1.7.25:compile (version managed from 1.8.0-alpha2)
+|  |  +- (org.apache.logging.log4j:log4j-slf4j-impl:jar:2.10.0:compile - version managed from 2.7; omitted for duplicate)
+|  |  \- (org.apache.logging.log4j:log4j-core:jar:2.10.0:compile - version managed from 2.7; omitted for duplicate)
+|  +- de.adorsys:docusafe-service:jar:0.3.4-1:compile
+|  |  +- (de.adorsys.cryptoutils:basetypes:jar:0.18.4:compile - omitted for duplicate)
+|  |  +- (de.adorsys.cryptoutils:encobject:jar:0.18.4:compile - omitted for duplicate)
+|  |  +- (de.adorsys.cryptoutils:jkeyutils:jar:0.18.4:compile - omitted for duplicate)
+|  |  +- (de.adorsys.cryptoutils:filesystemstoreconnection:jar:0.18.4:compile - omitted for duplicate)
+|  |  +- org.bouncycastle:bcprov-jdk15on:jar:1.58:compile
+|  |  +- org.bouncycastle:bcpkix-jdk15on:jar:1.54:compile
+|  |  |  \- (org.bouncycastle:bcprov-jdk15on:jar:1.58:compile - version managed from 1.54; omitted for duplicate)
+|  |  +- (org.apache.logging.log4j:log4j-api:jar:2.10.0:compile - version managed from 2.7; omitted for duplicate)
+|  |  +- (org.apache.logging.log4j:log4j-slf4j-impl:jar:2.10.0:compile - version managed from 2.7; omitted for duplicate)
+|  |  \- (org.apache.logging.log4j:log4j-core:jar:2.10.0:compile - version managed from 2.7; omitted for duplicate)
+|  +- org.apache.logging.log4j:log4j-api:jar:2.10.0:compile
+|  +- org.apache.logging.log4j:log4j-slf4j-impl:jar:2.10.0:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.8.0-alpha2; omitted for duplicate)
+|  |  +- (org.apache.logging.log4j:log4j-api:jar:2.10.0:compile - version managed from 2.7; omitted for duplicate)
+|  |  \- (org.apache.logging.log4j:log4j-core:jar:2.10.0:runtime - version managed from 2.7; omitted for duplicate)
+|  \- org.apache.logging.log4j:log4j-core:jar:2.10.0:compile
+|     \- (org.apache.logging.log4j:log4j-api:jar:2.10.0:compile - version managed from 2.7; omitted for duplicate)
++- de.adorsys.cryptoutils:filesystemstoreconnection:jar:0.18.4:compile
+|  +- de.adorsys.cryptoutils:storeconnection-api:jar:0.18.4:compile
+|  |  +- (io.swagger:swagger-annotations:jar:1.5.5:compile - omitted for duplicate)
+|  |  +- (de.adorsys.cryptoutils:basetypes:jar:0.18.4:compile - omitted for duplicate)
+|  |  \- (com.google.code.gson:gson:jar:2.5:compile - version managed from 2.8.2; omitted for duplicate)
+|  +- com.google.code.gson:gson:jar:2.5:compile
+|  \- commons-io:commons-io:jar:2.5:compile
++- de.adorsys.cryptoutils:encobject:jar:0.18.4:compile
+|  +- io.swagger:swagger-annotations:jar:1.5.5:compile
+|  +- (de.adorsys.cryptoutils:basetypes:jar:0.18.4:compile - omitted for duplicate)
+|  +- (de.adorsys.cryptoutils:storeconnection-api:jar:0.18.4:compile - omitted for duplicate)
+|  +- (de.adorsys.cryptoutils:jjwk:jar:0.18.4:compile - omitted for duplicate)
+|  +- (org.apache.logging.log4j:log4j-api:jar:2.10.0:compile - version managed from 2.7; omitted for duplicate)
+|  +- (org.apache.logging.log4j:log4j-slf4j-impl:jar:2.10.0:compile - version managed from 2.7; omitted for duplicate)
+|  \- (org.apache.logging.log4j:log4j-core:jar:2.10.0:compile - version managed from 2.7; omitted for duplicate)
+\- com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile
+   +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+   \- com.fasterxml.jackson.core:jackson-core:jar:2.9.5:compile

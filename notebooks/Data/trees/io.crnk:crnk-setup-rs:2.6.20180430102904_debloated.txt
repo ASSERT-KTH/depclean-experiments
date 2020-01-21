@@ -1,0 +1,8 @@
+io.crnk:crnk-setup-rs:jar:2.6.20180430102904
+\- io.crnk:crnk-core:jar:2.6.20180430102904:compile
+   +- net.jodah:typetools:jar:0.4.4:compile
+   +- org.slf4j:slf4j-api:jar:1.7.25:compile
+   +- com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile
+   |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.5:compile - version managed from 2.9.0; omitted for duplicate)
+   |  \- com.fasterxml.jackson.core:jackson-core:jar:2.9.5:compile
+   \- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.5:compile

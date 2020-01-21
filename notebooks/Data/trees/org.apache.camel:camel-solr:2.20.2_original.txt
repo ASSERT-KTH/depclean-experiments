@@ -1,0 +1,228 @@
+org.apache.camel:camel-solr:jar:2.20.2
++- org.apache.camel:camel-core:jar:2.20.2:compile
+|  +- org.slf4j:slf4j-api:jar:1.7.22:compile
+|  +- com.sun.xml.bind:jaxb-core:jar:2.2.11:compile
+|  \- com.sun.xml.bind:jaxb-impl:jar:2.2.11:compile
++- org.apache.solr:solr-solrj:jar:5.5.2:compile
+|  +- commons-io:commons-io:jar:2.5:compile (version managed from 2.4)
+|  +- (org.apache.httpcomponents:httpclient:jar:4.5.3:compile - version managed from 4.4.1; omitted for duplicate)
+|  +- org.apache.httpcomponents:httpcore:jar:4.4.7:compile (version managed from 4.4.1)
+|  +- (org.apache.httpcomponents:httpmime:jar:4.5.3:compile - version managed from 4.4.1; omitted for duplicate)
+|  +- org.apache.zookeeper:zookeeper:jar:3.4.10:compile (version managed from 3.4.6)
+|  +- org.codehaus.woodstox:stax2-api:jar:3.1.4:compile
+|  +- org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1:compile
+|  +- org.noggit:noggit:jar:0.6:compile
+|  +- org.slf4j:jcl-over-slf4j:jar:1.7.7:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.22:compile - version managed from 1.7.7; omitted for duplicate)
++- commons-codec:commons-codec:jar:1.10:compile
++- org.apache.httpcomponents:httpclient:jar:4.5.3:compile
+|  +- (org.apache.httpcomponents:httpcore:jar:4.4.7:compile - version managed from 4.4.6; omitted for duplicate)
+|  +- commons-logging:commons-logging:jar:1.2:compile
+|  \- (commons-codec:commons-codec:jar:1.10:compile - version managed from 1.9; omitted for duplicate)
++- org.apache.httpcomponents:httpmime:jar:4.5.3:compile
+|  \- (org.apache.httpcomponents:httpclient:jar:4.5.3:compile - version managed from 4.4.1; omitted for duplicate)
++- org.apache.camel:camel-test:jar:2.20.2:test
+|  +- (org.apache.camel:camel-core:jar:2.20.2:test - omitted for duplicate)
+|  \- junit:junit:jar:4.12:test
+|     \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.apache.solr:solr-test-framework:jar:5.5.2:test
+|  +- org.apache.lucene:lucene-test-framework:jar:5.5.2:test
+|  +- org.apache.lucene:lucene-analyzers-common:jar:5.5.2:test
+|  +- org.apache.lucene:lucene-analyzers-kuromoji:jar:5.5.2:test
+|  +- org.apache.lucene:lucene-analyzers-phonetic:jar:5.5.2:test
+|  +- org.apache.lucene:lucene-backward-codecs:jar:5.5.2:test
+|  +- org.apache.lucene:lucene-codecs:jar:5.5.2:test
+|  +- org.apache.lucene:lucene-core:jar:5.5.2:test
+|  +- org.apache.lucene:lucene-expressions:jar:5.5.2:test
+|  +- org.apache.lucene:lucene-grouping:jar:5.5.2:test
+|  +- org.apache.lucene:lucene-highlighter:jar:5.5.2:test
+|  +- org.apache.lucene:lucene-join:jar:5.5.2:test
+|  +- org.apache.lucene:lucene-memory:jar:5.5.2:test
+|  +- org.apache.lucene:lucene-misc:jar:5.5.2:test
+|  +- org.apache.lucene:lucene-queries:jar:5.5.2:test
+|  +- org.apache.lucene:lucene-queryparser:jar:5.5.2:test
+|  +- org.apache.lucene:lucene-sandbox:jar:5.5.2:test
+|  +- org.apache.lucene:lucene-spatial:jar:5.5.2:test
+|  +- org.apache.lucene:lucene-suggest:jar:5.5.2:test
+|  +- org.apache.solr:solr-core:jar:5.5.2:test
+|  +- (org.apache.solr:solr-solrj:jar:5.5.2:test - omitted for duplicate)
+|  +- com.carrotsearch:hppc:jar:0.7.1:test
+|  +- com.carrotsearch.randomizedtesting:junit4-ant:jar:2.3.2:test
+|  +- com.carrotsearch.randomizedtesting:randomizedtesting-runner:jar:2.3.2:test
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.8.10:test (version managed from 2.5.4)
+|  +- com.fasterxml.jackson.dataformat:jackson-dataformat-smile:jar:2.8.10:test (version managed from 2.5.4)
+|  +- com.google.guava:guava:jar:19.0:test (version managed from 14.0.1)
+|  +- com.google.protobuf:protobuf-java:jar:2.5.0:test
+|  +- com.googlecode.concurrentlinkedhashmap:concurrentlinkedhashmap-lru:jar:1.2:test
+|  +- com.spatial4j:spatial4j:jar:0.5:test
+|  +- com.tdunning:t-digest:jar:3.1:test
+|  +- commons-cli:commons-cli:jar:1.2:test
+|  +- (commons-codec:commons-codec:jar:1.10:test - version managed from 1.9; omitted for duplicate)
+|  +- commons-collections:commons-collections:jar:3.2.2:test
+|  +- commons-configuration:commons-configuration:jar:1.6:test
+|  +- commons-fileupload:commons-fileupload:jar:1.3.1:test
+|  +- (commons-io:commons-io:jar:2.5:test - version managed from 2.4; omitted for duplicate)
+|  +- commons-lang:commons-lang:jar:2.6:test
+|  +- dom4j:dom4j:jar:1.6.1:test
+|  +- javax.servlet:javax.servlet-api:jar:3.1.0:test
+|  +- joda-time:joda-time:jar:2.2:test
+|  +- (junit:junit:jar:4.12:test - version managed from 4.10; omitted for duplicate)
+|  +- org.antlr:antlr4-runtime:jar:4.5.1-1:test
+|  +- org.apache.ant:ant:jar:1.8.2:test
+|  +- org.apache.commons:commons-exec:jar:1.3:test
+|  +- org.apache.hadoop:hadoop-annotations:jar:2.6.0:test
+|  +- org.apache.hadoop:hadoop-auth:jar:2.6.0:test
+|  |  \- (org.apache.zookeeper:zookeeper:jar:3.4.10:test - version managed from 3.4.6; omitted for duplicate)
+|  +- org.apache.hadoop:hadoop-common:jar:2.6.0:test
+|  |  \- (org.apache.zookeeper:zookeeper:jar:3.4.10:test - version managed from 3.4.6; omitted for duplicate)
+|  +- org.apache.hadoop:hadoop-hdfs:jar:2.6.0:test
+|  +- (org.apache.httpcomponents:httpclient:jar:4.5.3:test - version managed from 4.4.1; omitted for duplicate)
+|  +- (org.apache.httpcomponents:httpcore:jar:4.4.7:test - version managed from 4.4.1; omitted for duplicate)
+|  +- (org.apache.httpcomponents:httpmime:jar:4.5.3:test - version managed from 4.4.1; omitted for duplicate)
+|  +- (org.apache.zookeeper:zookeeper:jar:3.4.10:test - version managed from 3.4.6; omitted for duplicate)
+|  +- (org.codehaus.woodstox:stax2-api:jar:3.1.4:test - omitted for duplicate)
+|  +- (org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1:test - omitted for duplicate)
+|  +- org.eclipse.jetty:jetty-continuation:jar:9.2.13.v20150730:test
+|  +- org.eclipse.jetty:jetty-deploy:jar:9.2.13.v20150730:test
+|  +- org.eclipse.jetty:jetty-http:jar:9.2.13.v20150730:test
+|  +- org.eclipse.jetty:jetty-io:jar:9.2.13.v20150730:test
+|  +- org.eclipse.jetty:jetty-jmx:jar:9.2.13.v20150730:test
+|  +- org.eclipse.jetty:jetty-rewrite:jar:9.2.13.v20150730:test
+|  +- org.eclipse.jetty:jetty-security:jar:9.2.13.v20150730:test
+|  +- (org.eclipse.jetty:jetty-server:jar:9.2.13.v20150730:test - omitted for conflict with 9.3.21.v20170918)
+|  +- (org.eclipse.jetty:jetty-servlet:jar:9.2.13.v20150730:test - omitted for conflict with 9.3.21.v20170918)
+|  +- org.eclipse.jetty:jetty-servlets:jar:9.2.13.v20150730:test
+|  +- org.eclipse.jetty:jetty-util:jar:9.2.13.v20150730:test
+|  +- org.eclipse.jetty:jetty-webapp:jar:9.2.13.v20150730:test
+|  +- org.eclipse.jetty:jetty-xml:jar:9.2.13.v20150730:test
+|  +- org.htrace:htrace-core:jar:3.0.4:test
+|  +- (org.noggit:noggit:jar:0.6:test - omitted for duplicate)
+|  +- org.ow2.asm:asm:jar:5.0.4:test
+|  +- org.ow2.asm:asm-commons:jar:5.0.4:test
+|  +- org.restlet.jee:org.restlet:jar:2.3.6:test (version managed from 2.3.0)
+|  +- org.restlet.jee:org.restlet.ext.servlet:jar:2.3.0:test
+|  +- (org.slf4j:jcl-over-slf4j:jar:1.7.7:test - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.22:test - version managed from 1.7.7; omitted for duplicate)
++- org.apache.solr:solr-cell:jar:5.5.2:test
+|  +- (org.apache.lucene:lucene-analyzers-common:jar:5.5.2:test - omitted for duplicate)
+|  +- (org.apache.lucene:lucene-analyzers-kuromoji:jar:5.5.2:test - omitted for duplicate)
+|  +- (org.apache.lucene:lucene-analyzers-phonetic:jar:5.5.2:test - omitted for duplicate)
+|  +- (org.apache.lucene:lucene-backward-codecs:jar:5.5.2:test - omitted for duplicate)
+|  +- (org.apache.lucene:lucene-codecs:jar:5.5.2:test - omitted for duplicate)
+|  +- (org.apache.lucene:lucene-core:jar:5.5.2:test - omitted for duplicate)
+|  +- (org.apache.lucene:lucene-expressions:jar:5.5.2:test - omitted for duplicate)
+|  +- (org.apache.lucene:lucene-grouping:jar:5.5.2:test - omitted for duplicate)
+|  +- (org.apache.lucene:lucene-highlighter:jar:5.5.2:test - omitted for duplicate)
+|  +- (org.apache.lucene:lucene-join:jar:5.5.2:test - omitted for duplicate)
+|  +- (org.apache.lucene:lucene-memory:jar:5.5.2:test - omitted for duplicate)
+|  +- (org.apache.lucene:lucene-misc:jar:5.5.2:test - omitted for duplicate)
+|  +- (org.apache.lucene:lucene-queries:jar:5.5.2:test - omitted for duplicate)
+|  +- (org.apache.lucene:lucene-queryparser:jar:5.5.2:test - omitted for duplicate)
+|  +- (org.apache.lucene:lucene-sandbox:jar:5.5.2:test - omitted for duplicate)
+|  +- (org.apache.lucene:lucene-spatial:jar:5.5.2:test - omitted for duplicate)
+|  +- (org.apache.lucene:lucene-suggest:jar:5.5.2:test - omitted for duplicate)
+|  +- (org.apache.solr:solr-core:jar:5.5.2:test - omitted for duplicate)
+|  +- (org.apache.solr:solr-solrj:jar:5.5.2:test - omitted for duplicate)
+|  +- com.adobe.xmp:xmpcore:jar:5.1.2:test
+|  +- (com.carrotsearch:hppc:jar:0.7.1:test - omitted for duplicate)
+|  +- com.drewnoakes:metadata-extractor:jar:2.6.2:test
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.10:test - version managed from 2.5.4; omitted for duplicate)
+|  +- (com.fasterxml.jackson.dataformat:jackson-dataformat-smile:jar:2.8.10:test - version managed from 2.5.4; omitted for duplicate)
+|  +- (com.google.guava:guava:jar:19.0:test - version managed from 14.0.1; omitted for duplicate)
+|  +- (com.google.protobuf:protobuf-java:jar:2.5.0:test - omitted for duplicate)
+|  +- (com.googlecode.concurrentlinkedhashmap:concurrentlinkedhashmap-lru:jar:1.2:test - omitted for duplicate)
+|  +- com.googlecode.juniversalchardet:juniversalchardet:jar:1.0.3:test
+|  +- com.googlecode.mp4parser:isoparser:jar:1.0.2:test
+|  +- com.ibm.icu:icu4j:jar:54.1:test
+|  +- com.pff:java-libpst:jar:0.8.1:test
+|  +- (com.spatial4j:spatial4j:jar:0.5:test - omitted for duplicate)
+|  +- (com.tdunning:t-digest:jar:3.1:test - omitted for duplicate)
+|  +- (commons-cli:commons-cli:jar:1.2:test - omitted for duplicate)
+|  +- (commons-codec:commons-codec:jar:1.10:test - version managed from 1.9; omitted for duplicate)
+|  +- (commons-collections:commons-collections:jar:3.2.2:test - omitted for duplicate)
+|  +- (commons-configuration:commons-configuration:jar:1.6:test - omitted for duplicate)
+|  +- (commons-fileupload:commons-fileupload:jar:1.3.1:test - omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.5:test - version managed from 2.4; omitted for duplicate)
+|  +- (commons-lang:commons-lang:jar:2.6:test - omitted for duplicate)
+|  +- de.l3s.boilerpipe:boilerpipe:jar:1.1.0:test
+|  +- (dom4j:dom4j:jar:1.6.1:test - omitted for duplicate)
+|  +- (javax.servlet:javax.servlet-api:jar:3.1.0:test - omitted for duplicate)
+|  +- jdom:jdom:jar:1.0:test
+|  +- (joda-time:joda-time:jar:2.2:test - omitted for duplicate)
+|  +- net.sourceforge.jmatio:jmatio:jar:1.0:test
+|  +- (org.antlr:antlr4-runtime:jar:4.5.1-1:test - omitted for duplicate)
+|  +- org.apache.commons:commons-compress:jar:1.8.1:test
+|  +- (org.apache.commons:commons-exec:jar:1.3:test - omitted for duplicate)
+|  +- (org.apache.hadoop:hadoop-annotations:jar:2.6.0:test - omitted for duplicate)
+|  +- (org.apache.hadoop:hadoop-auth:jar:2.6.0:test - omitted for duplicate)
+|  +- (org.apache.hadoop:hadoop-common:jar:2.6.0:test - omitted for duplicate)
+|  +- (org.apache.hadoop:hadoop-hdfs:jar:2.6.0:test - omitted for duplicate)
+|  +- (org.apache.httpcomponents:httpclient:jar:4.5.3:test - version managed from 4.4.1; omitted for duplicate)
+|  +- (org.apache.httpcomponents:httpcore:jar:4.4.7:test - version managed from 4.4.1; omitted for duplicate)
+|  +- (org.apache.httpcomponents:httpmime:jar:4.5.3:test - version managed from 4.4.1; omitted for duplicate)
+|  +- org.apache.james:apache-mime4j-core:jar:0.7.2:test
+|  +- org.apache.james:apache-mime4j-dom:jar:0.7.2:test
+|  +- org.apache.pdfbox:fontbox:jar:1.8.8:test
+|  +- org.apache.pdfbox:jempbox:jar:1.8.8:test
+|  +- org.apache.pdfbox:pdfbox:jar:1.8.8:test
+|  +- org.apache.poi:poi:jar:3.11:test
+|  +- org.apache.poi:poi-ooxml:jar:3.11:test
+|  +- org.apache.poi:poi-ooxml-schemas:jar:3.11:test
+|  +- org.apache.poi:poi-scratchpad:jar:3.11:test
+|  +- org.apache.tika:tika-core:jar:1.7:test
+|  +- org.apache.tika:tika-java7:jar:1.7:test
+|  +- org.apache.tika:tika-parsers:jar:1.7:test
+|  +- org.apache.tika:tika-xmp:jar:1.7:test
+|  +- org.apache.xmlbeans:xmlbeans:jar:2.6.0:test
+|  +- (org.apache.zookeeper:zookeeper:jar:3.4.10:test - version managed from 3.4.6; omitted for duplicate)
+|  +- org.aspectj:aspectjrt:jar:1.8.0:test
+|  +- org.bouncycastle:bcmail-jdk15:jar:1.45:test
+|  +- org.bouncycastle:bcprov-jdk15:jar:1.45:test
+|  +- org.ccil.cowan.tagsoup:tagsoup:jar:1.2.1:test
+|  +- (org.codehaus.woodstox:stax2-api:jar:3.1.4:test - omitted for duplicate)
+|  +- (org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1:test - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-continuation:jar:9.2.13.v20150730:test - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-deploy:jar:9.2.13.v20150730:test - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-http:jar:9.2.13.v20150730:test - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-io:jar:9.2.13.v20150730:test - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-jmx:jar:9.2.13.v20150730:test - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-rewrite:jar:9.2.13.v20150730:test - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-security:jar:9.2.13.v20150730:test - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-server:jar:9.2.13.v20150730:test - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-servlet:jar:9.2.13.v20150730:test - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-servlets:jar:9.2.13.v20150730:test - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-util:jar:9.2.13.v20150730:test - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-webapp:jar:9.2.13.v20150730:test - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-xml:jar:9.2.13.v20150730:test - omitted for duplicate)
+|  +- org.gagravarr:vorbis-java-core:jar:0.6:test
+|  +- org.gagravarr:vorbis-java-tika:jar:0.6:test
+|  +- (org.htrace:htrace-core:jar:3.0.4:test - omitted for duplicate)
+|  +- (org.noggit:noggit:jar:0.6:test - omitted for duplicate)
+|  +- (org.ow2.asm:asm:jar:5.0.4:test - omitted for duplicate)
+|  +- (org.ow2.asm:asm-commons:jar:5.0.4:test - omitted for duplicate)
+|  +- (org.restlet.jee:org.restlet:jar:2.3.6:test - version managed from 2.3.0; omitted for duplicate)
+|  +- (org.restlet.jee:org.restlet.ext.servlet:jar:2.3.0:test - omitted for duplicate)
+|  +- (org.slf4j:jcl-over-slf4j:jar:1.7.7:test - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.22:test - version managed from 1.7.7; omitted for duplicate)
+|  +- org.tukaani:xz:jar:1.5:test
+|  \- xerces:xercesImpl:jar:2.11.0:test (version managed from 2.9.1)
++- org.eclipse.jetty:jetty-server:jar:9.3.21.v20170918:test
+|  +- (javax.servlet:javax.servlet-api:jar:3.1.0:test - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-http:jar:9.3.21.v20170918:test - omitted for conflict with 9.2.13.v20150730)
+|  \- (org.eclipse.jetty:jetty-io:jar:9.3.21.v20170918:test - omitted for conflict with 9.2.13.v20150730)
++- org.eclipse.jetty:jetty-servlet:jar:9.3.21.v20170918:test
+|  \- (org.eclipse.jetty:jetty-security:jar:9.3.21.v20170918:test - omitted for conflict with 9.2.13.v20150730)
++- xml-apis:xml-apis:jar:1.4.01:test
++- org.apache.logging.log4j:log4j-api:jar:2.9.1:test
++- org.apache.logging.log4j:log4j-core:jar:2.9.1:test
+|  \- (org.apache.logging.log4j:log4j-api:jar:2.9.1:test - omitted for duplicate)
++- org.apache.logging.log4j:log4j-slf4j-impl:jar:2.9.1:test
+|  +- (org.slf4j:slf4j-api:jar:1.7.22:test - version managed from 1.7.25; omitted for duplicate)
+|  +- (org.apache.logging.log4j:log4j-api:jar:2.9.1:test - omitted for duplicate)
+|  \- (org.apache.logging.log4j:log4j-core:jar:2.9.1:test - omitted for duplicate)
++- org.apache.logging.log4j:log4j-1.2-api:jar:2.9.1:test
+|  +- (org.apache.logging.log4j:log4j-api:jar:2.9.1:test - omitted for duplicate)
+|  \- (org.apache.logging.log4j:log4j-core:jar:2.9.1:test - omitted for duplicate)
+\- org.apache.camel:apt:jar:2.20.2:provided
+   +- org.apache.camel:spi-annotations:jar:2.20.2:provided
+   \- org.apache.camel:json-simple-ordered:jar:2.20.2:provided

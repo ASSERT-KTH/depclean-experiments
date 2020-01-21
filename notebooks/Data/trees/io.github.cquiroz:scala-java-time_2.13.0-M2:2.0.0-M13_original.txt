@@ -1,0 +1,13 @@
+io.github.cquiroz:scala-java-time_2.13.0-M2:jar:2.0.0-M13
++- org.scala-lang:scala-library:jar:2.13.0-M2:compile
+\- org.scalatest:scalatest_2.13.0-M2:jar:3.0.4:test
+   +- (org.scala-lang:scala-library:jar:2.13.0-M2:test - omitted for duplicate)
+   +- org.scalactic:scalactic_2.13.0-M2:jar:3.0.4:test
+   |  +- (org.scala-lang:scala-library:jar:2.13.0-M2:test - omitted for duplicate)
+   |  \- (org.scala-lang:scala-reflect:jar:2.13.0-M2:test - omitted for duplicate)
+   +- org.scala-lang:scala-reflect:jar:2.13.0-M2:test
+   |  \- (org.scala-lang:scala-library:jar:2.13.0-M2:test - omitted for duplicate)
+   +- org.scala-lang.modules:scala-xml_2.13.0-M2:jar:1.0.6:test
+   |  \- (org.scala-lang:scala-library:jar:2.13.0-M2:test - omitted for duplicate)
+   \- org.scala-lang.modules:scala-parser-combinators_2.13.0-M2:jar:1.0.6:test
+      \- (org.scala-lang:scala-library:jar:2.13.0-M2:test - omitted for duplicate)

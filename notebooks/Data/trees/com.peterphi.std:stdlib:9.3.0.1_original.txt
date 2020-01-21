@@ -1,0 +1,23 @@
+com.peterphi.std:stdlib:jar:9.3.0.1
++- commons-io:commons-io:jar:2.4:compile
++- commons-lang:commons-lang:jar:2.6:compile
++- commons-logging:commons-logging:jar:1.1.1:compile
++- joda-time:joda-time:jar:2.7:compile
++- org.jdom:jdom2:jar:2.0.6:compile
++- sshtools:j2ssh-core:jar:0.2.9:compile
++- org.bouncycastle:bcprov-jdk15on:jar:1.55:compile
++- javax.xml:jaxrpc-api:jar:1.1:compile
++- javax.servlet:servlet-api:jar:2.5:provided
++- javatar:javatar:jar:2.5:compile
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- log4j:log4j:jar:1.2.17:compile
++- org.eclipse.persistence:org.eclipse.persistence.moxy:jar:2.6.4:compile
+|  +- org.eclipse.persistence:org.eclipse.persistence.core:jar:2.6.4:compile
+|  |  +- org.eclipse.persistence:org.eclipse.persistence.asm:jar:2.6.4:compile
+|  |  \- (org.glassfish:javax.json:jar:1.0.4:compile - omitted for duplicate)
+|  +- javax.validation:validation-api:jar:1.1.0.Final:compile
+|  \- org.glassfish:javax.json:jar:1.0.4:compile
++- org.slf4j:slf4j-api:jar:1.7.7:compile
+\- org.slf4j:slf4j-jdk14:jar:1.7.7:compile
+   \- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for duplicate)

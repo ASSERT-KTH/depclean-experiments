@@ -1,0 +1,1 @@
+org.webjars.bowergithub.scarygami:scary-cookie:jar:2.0.0

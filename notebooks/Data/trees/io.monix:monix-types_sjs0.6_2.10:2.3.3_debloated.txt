@@ -1,0 +1,29 @@
+io.monix:monix-types_sjs0.6_2.10:jar:2.3.3
++- org.scala-lang:scala-compiler:jar:2.10.7:provided
+|  +- (org.scala-lang:scala-library:jar:2.10.7:provided - omitted for duplicate)
+|  \- (org.scala-lang:scala-reflect:jar:2.10.7:provided - omitted for duplicate)
++- org.scala-lang:scala-library:jar:2.10.7:compile
++- org.scala-js:scalajs-test-interface_2.10:jar:0.6.21:test
+|  +- (org.scala-lang:scala-library:jar:2.10.6:test - omitted for conflict with 2.10.7)
+|  \- (org.scala-js:scalajs-library_2.10:jar:0.6.21:test - omitted for duplicate)
++- io.monix:minitest-laws_sjs0.6_2.10:jar:1.1.0:test
+|  +- (org.scala-lang:scala-library:jar:2.10.6:test - omitted for conflict with 2.10.7)
+|  +- io.monix:minitest_sjs0.6_2.10:jar:1.1.0:test
+|  |  +- (org.scala-lang:scala-library:jar:2.10.6:test - omitted for conflict with 2.10.7)
+|  |  +- (org.scala-js:scalajs-library_2.10:jar:0.6.16:test - omitted for conflict with 0.6.21)
+|  |  +- (org.scala-js:scalajs-test-interface_2.10:jar:0.6.16:test - omitted for conflict with 0.6.21)
+|  |  +- (org.scala-lang:scala-reflect:jar:2.10.6:test - omitted for conflict with 2.10.7)
+|  |  \- (org.typelevel:macro-compat_sjs0.6_2.10:jar:1.1.1:test - omitted for duplicate)
+|  +- (org.scala-js:scalajs-library_2.10:jar:0.6.16:test - omitted for conflict with 0.6.21)
+|  \- org.scalacheck:scalacheck_sjs0.6_2.10:jar:1.13.5:test
+|     +- (org.scala-lang:scala-library:jar:2.10.6:test - omitted for conflict with 2.10.7)
+|     +- (org.scala-js:scalajs-library_2.10:jar:0.6.13:test - omitted for conflict with 0.6.21)
+|     \- (org.scala-js:scalajs-test-interface_2.10:jar:0.6.13:test - omitted for conflict with 0.6.21)
++- org.scala-lang:scala-reflect:jar:2.10.7:provided (scope not updated to compile)
+|  \- (org.scala-lang:scala-library:jar:2.10.7:provided - omitted for duplicate)
+\- org.typelevel:macro-compat_sjs0.6_2.10:jar:1.1.1:compile
+   +- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for conflict with 2.10.7)
+   +- (org.scala-js:scalajs-library_2.10:jar:0.6.7:compile - omitted for conflict with 0.6.21)
+   \- org.scalamacros:quasiquotes_2.10:jar:2.1.0:compile
+      +- (org.scala-lang:scala-library:jar:2.10.4:compile - omitted for conflict with 2.10.7)
+      \- (org.scala-lang:scala-reflect:jar:2.10.4:compile - omitted for conflict with 2.10.7)

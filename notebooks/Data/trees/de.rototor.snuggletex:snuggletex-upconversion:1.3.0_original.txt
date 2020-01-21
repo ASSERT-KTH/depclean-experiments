@@ -1,0 +1,12 @@
+de.rototor.snuggletex:snuggletex-upconversion:jar:1.3.0
++- de.rototor.snuggletex:snuggletex-core:jar:1.3.0:compile
++- net.sf.saxon:saxon9:jar:9.1.0.8:runtime
++- net.sf.saxon:saxon9-dom:jar:9.1.0.8:runtime
++- uk.ac.ed.ph.asciimath:asciimath-parser:jar:1.0:test
+|  \- rhino:js:jar:1.7R2:test
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.easymock:easymock:jar:3.5.1:test
+|  \- org.objenesis:objenesis:jar:2.6:test
++- thaiopensource:jing:jar:20091111:test
+\- de.rototor.snuggletex:snuggletex-core:jar:tests:1.3.0:test

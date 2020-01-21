@@ -1,0 +1,4 @@
+org.scala-js:scalajs-library_2.13.0-M5:jar:0.6.25
++- org.scala-lang:scala-library:jar:2.13.0-M5:compile
+\- org.scala-lang:scala-reflect:jar:2.13.0-M5:provided
+   \- (org.scala-lang:scala-library:jar:2.13.0-M5:provided - omitted for duplicate)

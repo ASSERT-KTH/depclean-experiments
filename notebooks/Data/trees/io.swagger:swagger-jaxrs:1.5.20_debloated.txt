@@ -1,0 +1,70 @@
+io.swagger:swagger-jaxrs:bundle:1.5.20
++- com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile
+|  \- com.fasterxml.jackson.core:jackson-core:jar:2.9.5:compile
++- com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.9.5:test
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.5:test - omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:test - omitted for duplicate)
++- io.swagger:swagger-core:jar:1.5.20:compile
+|  +- org.apache.commons:commons-lang3:jar:3.2.1:compile
+|  +- org.slf4j:slf4j-api:jar:1.7.22:compile
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.5:compile
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile - omitted for duplicate)
+|  +- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.9.5:compile
+|  |  +- org.yaml:snakeyaml:jar:1.18:compile
+|  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.5:compile - omitted for duplicate)
+|  +- io.swagger:swagger-models:jar:1.5.20:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.5:compile - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.22:compile - omitted for duplicate)
+|  |  \- io.swagger:swagger-annotations:jar:1.5.20:compile
+|  +- (com.google.guava:guava:jar:20.0:compile - omitted for duplicate)
+|  \- javax.validation:validation-api:jar:1.1.0.Final:compile
++- io.swagger:swagger-core:test-jar:tests:1.5.20:test
+|  +- (org.apache.commons:commons-lang3:jar:3.2.1:compile - scope managed from test; omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.22:compile - scope managed from test; omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.5:test - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:test - omitted for duplicate)
+|  +- (com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.9.5:test - omitted for duplicate)
+|  +- (io.swagger:swagger-models:jar:1.5.20:test - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:20.0:test - omitted for duplicate)
+|  \- (javax.validation:validation-api:jar:1.1.0.Final:test - omitted for duplicate)
++- javax.servlet:servlet-api:jar:2.5:provided
++- javax.ws.rs:jsr311-api:jar:1.1.1:compile
++- org.reflections:reflections:jar:0.9.11:compile
+|  +- (com.google.guava:guava:jar:20.0:compile - omitted for duplicate)
+|  \- org.javassist:javassist:jar:3.21.0-GA:compile
++- com.google.guava:guava:jar:20.0:compile
++- ch.qos.logback:logback-classic:jar:1.2.3:provided
+|  +- (ch.qos.logback:logback-core:jar:1.2.3:provided - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.22:compile - version managed from 1.7.25; scope managed from provided; omitted for duplicate)
++- ch.qos.logback:logback-core:jar:1.2.3:provided
++- org.testng:testng:jar:6.10:test
+|  \- com.beust:jcommander:jar:1.48:test
++- com.jayway.restassured:rest-assured:jar:2.8.0:test
+|  +- org.codehaus.groovy:groovy:jar:2.4.4:test
+|  +- org.codehaus.groovy:groovy-xml:jar:2.4.4:test
+|  |  \- (org.codehaus.groovy:groovy:jar:2.4.4:test - omitted for duplicate)
+|  +- org.apache.httpcomponents:httpclient:jar:4.5.1:test
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.4.3:test
+|  |  +- commons-logging:commons-logging:jar:1.2:test
+|  |  \- commons-codec:commons-codec:jar:1.9:test
+|  +- org.apache.httpcomponents:httpmime:jar:4.5.1:test
+|  |  \- (org.apache.httpcomponents:httpclient:jar:4.5.1:test - omitted for duplicate)
+|  +- org.hamcrest:hamcrest-core:jar:1.3:test
+|  +- org.hamcrest:hamcrest-library:jar:1.3:test
+|  |  \- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for duplicate)
+|  +- org.ccil.cowan.tagsoup:tagsoup:jar:1.2.1:test
+|  +- com.jayway.restassured:json-path:jar:2.8.0:test
+|  |  +- org.codehaus.groovy:groovy-json:jar:2.4.4:test
+|  |  |  \- (org.codehaus.groovy:groovy:jar:2.4.4:test - omitted for duplicate)
+|  |  +- (org.codehaus.groovy:groovy:jar:2.4.4:test - omitted for duplicate)
+|  |  \- com.jayway.restassured:rest-assured-common:jar:2.8.0:test
+|  |     +- (org.codehaus.groovy:groovy:jar:2.4.4:test - omitted for duplicate)
+|  |     \- (org.apache.commons:commons-lang3:jar:3.2.1:compile - version managed from 3.3.2; scope managed from test; omitted for duplicate)
+|  \- com.jayway.restassured:xml-path:jar:2.8.0:test
+|     +- (org.codehaus.groovy:groovy-xml:jar:2.4.4:test - omitted for duplicate)
+|     +- (org.codehaus.groovy:groovy:jar:2.4.4:test - omitted for duplicate)
+|     +- (com.jayway.restassured:rest-assured-common:jar:2.8.0:test - omitted for duplicate)
+|     +- (org.apache.commons:commons-lang3:jar:3.2.1:compile - version managed from 3.3.2; scope managed from test; omitted for duplicate)
+|     \- (org.ccil.cowan.tagsoup:tagsoup:jar:1.2.1:test - omitted for duplicate)
++- org.mockito:mockito-all:jar:1.9.5:test
+\- commons-io:commons-io:jar:2.5:test

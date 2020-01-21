@@ -1,0 +1,9 @@
+org.rundeck:rundeck-storage-conf:jar:2.10.4
++- org.rundeck:rundeck-storage-data:jar:2.10.4:compile
+|  \- org.rundeck:rundeck-storage-api:jar:2.10.4:compile
++- org.codehaus.groovy:groovy-all:jar:2.3.7:test
+\- org.spockframework:spock-core:jar:0.7-groovy-2.0:test
+   +- junit:junit-dep:jar:4.10:test
+   |  \- (org.hamcrest:hamcrest-core:jar:1.1:test - omitted for conflict with 1.3)
+   +- (org.codehaus.groovy:groovy-all:jar:2.0.5:test - omitted for conflict with 2.3.7)
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

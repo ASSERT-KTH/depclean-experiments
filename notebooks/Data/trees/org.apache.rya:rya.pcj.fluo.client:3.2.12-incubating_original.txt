@@ -1,0 +1,655 @@
+org.apache.rya:rya.pcj.fluo.client:jar:3.2.12-incubating
++- org.apache.rya:rya.pcj.fluo.api:jar:3.2.12-incubating:compile
+|  +- org.apache.rya:rya.pcj.fluo.app:jar:3.2.12-incubating:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.12; omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:14.0.1:compile - version managed from 13.0.1; omitted for duplicate)
+|  |  +- (org.apache.rya:rya.indexing.pcj:jar:3.2.12-incubating:compile - omitted for duplicate)
+|  |  +- org.apache.rya:rya.api.evaluation:jar:3.2.12-incubating:compile
+|  |  |  +- (org.apache.rya:rya.api.model:jar:3.2.12-incubating:compile - omitted for duplicate)
+|  |  |  +- (org.openrdf.sesame:sesame-queryalgebra-model:jar:2.7.6:compile - omitted for duplicate)
+|  |  |  +- (org.openrdf.sesame:sesame-queryalgebra-evaluation:jar:2.7.6:compile - omitted for duplicate)
+|  |  |  +- (com.google.guava:guava:jar:14.0.1:compile - version managed from 13.0.1; omitted for duplicate)
+|  |  |  \- com.github.stephenc.findbugs:findbugs-annotations:jar:1.3.9-1:compile
+|  |  +- (org.apache.fluo:fluo-api:jar:1.0.0-incubating:compile - omitted for duplicate)
+|  |  +- org.apache.fluo:fluo-recipes-core:jar:1.0.0-incubating:compile
+|  |  |  +- (com.google.guava:guava:jar:14.0.1:compile - version managed from 13.0.1; omitted for duplicate)
+|  |  |  +- (commons-collections:commons-collections:jar:3.2.1:compile - omitted for duplicate)
+|  |  |  +- javax.xml.bind:jaxb-api:jar:2.2.2:compile
+|  |  |  |  +- javax.xml.stream:stax-api:jar:1.0-2:compile
+|  |  |  |  \- javax.activation:activation:jar:1.1:compile
+|  |  |  \- (org.apache.fluo:fluo-api:jar:1.0.0-incubating:compile - omitted for duplicate)
+|  |  +- org.apache.fluo:fluo-recipes-accumulo:jar:1.0.0-incubating:compile
+|  |  |  +- (commons-configuration:commons-configuration:jar:1.10:compile - omitted for duplicate)
+|  |  |  +- javax.inject:javax.inject:jar:1:compile
+|  |  |  +- (org.apache.accumulo:accumulo-core:jar:1.6.4:compile - version managed from 1.6.6; omitted for duplicate)
+|  |  |  +- (org.apache.fluo:fluo-api:jar:1.0.0-incubating:compile - omitted for duplicate)
+|  |  |  +- (org.apache.fluo:fluo-recipes-core:jar:1.0.0-incubating:compile - omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.12; omitted for duplicate)
+|  |  +- (org.openrdf.sesame:sesame-queryrender:jar:2.7.6:compile - omitted for duplicate)
+|  |  +- org.apache.kafka:kafka-clients:jar:0.10.0.1:compile
+|  |  |  +- net.jpountz.lz4:lz4:jar:1.3.0:compile
+|  |  |  +- org.xerial.snappy:snappy-java:jar:1.1.2.6:compile
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.21; omitted for duplicate)
+|  |  \- com.esotericsoftware:kryo:jar:3.0.3:compile
+|  |     +- com.esotericsoftware:reflectasm:jar:1.10.1:compile
+|  |     |  \- org.ow2.asm:asm:jar:5.0.3:compile
+|  |     +- com.esotericsoftware:minlog:jar:1.3.0:compile
+|  |     \- org.objenesis:objenesis:jar:2.1:compile
+|  +- org.apache.rya:rya.periodic.notification.api:jar:3.2.12-incubating:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.21; omitted for duplicate)
+|  |  +- com.google.code.gson:gson:jar:2.8.1:compile
+|  |  +- (org.openrdf.sesame:sesame-query:jar:2.7.6:compile - omitted for duplicate)
+|  |  +- (org.apache.kafka:kafka-clients:jar:0.10.0.1:compile - omitted for duplicate)
+|  |  \- (org.apache.rya:rya.indexing.pcj:jar:3.2.12-incubating:compile - omitted for duplicate)
+|  \- org.apache.rya:rya.sail:jar:3.2.12-incubating:compile
+|     +- org.apache.rya:rya.api:jar:3.2.12-incubating:compile
+|     |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.21; omitted for duplicate)
+|     |  +- org.calrissian.mango:mango-core:jar:1.2.0:compile
+|     |  |  +- (com.google.guava:guava:jar:14.0.1:compile - version managed from 15.0; omitted for duplicate)
+|     |  |  +- (commons-codec:commons-codec:jar:1.10:compile - version managed from 1.8; omitted for duplicate)
+|     |  |  +- (commons-lang:commons-lang:jar:2.6:compile - version managed from 2.4; omitted for duplicate)
+|     |  |  \- (commons-net:commons-net:jar:3.3:compile - omitted for conflict with 3.1)
+|     |  +- (org.openrdf.sesame:sesame-model:jar:2.7.6:compile - omitted for duplicate)
+|     |  +- (org.openrdf.sesame:sesame-query:jar:2.7.6:compile - omitted for duplicate)
+|     |  +- (org.openrdf.sesame:sesame-queryalgebra-model:jar:2.7.6:compile - omitted for duplicate)
+|     |  +- (org.openrdf.sesame:sesame-queryalgebra-evaluation:jar:2.7.6:compile - omitted for duplicate)
+|     |  +- (org.openrdf.sesame:sesame-rio-ntriples:jar:2.7.6:compile - omitted for duplicate)
+|     |  +- (org.openrdf.sesame:sesame-rio-trig:jar:2.7.6:compile - omitted for duplicate)
+|     |  +- (org.openrdf.sesame:sesame-rio-turtle:jar:2.7.6:compile - omitted for duplicate)
+|     |  +- (com.google.guava:guava:jar:14.0.1:compile - version managed from 15.0; omitted for duplicate)
+|     |  +- (com.google.code.gson:gson:jar:2.8.1:compile - omitted for duplicate)
+|     |  +- (com.github.stephenc.findbugs:findbugs-annotations:jar:1.3.9-1:compile - omitted for duplicate)
+|     |  +- com.github.stephenc.jcip:jcip-annotations:jar:1.0-1:compile
+|     |  +- (com.esotericsoftware:kryo:jar:3.0.3:compile - omitted for duplicate)
+|     |  +- (org.apache.hadoop:hadoop-common:jar:2.5.0:compile - omitted for duplicate)
+|     |  \- joda-time:joda-time:jar:2.1:compile
+|     +- org.apache.rya:rya.provenance:jar:3.2.12-incubating:compile
+|     |  +- (org.openrdf.sesame:sesame-runtime:jar:2.7.6:compile - omitted for duplicate)
+|     |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.6.1; omitted for duplicate)
+|     |  \- (org.slf4j:slf4j-log4j12:jar:1.7.25:compile - version managed from 1.6.1; omitted for duplicate)
+|     +- (org.apache.rya:rya.prospector:jar:3.2.12-incubating:compile - omitted for duplicate)
+|     +- net.sf.ehcache:ehcache-core:jar:1.7.2:compile
+|     |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.5.8; omitted for duplicate)
+|     +- org.apache.hadoop:hadoop-common:jar:2.5.0:compile
+|     |  +- (org.apache.hadoop:hadoop-annotations:jar:2.5.0:compile - omitted for duplicate)
+|     |  +- (com.google.guava:guava:jar:14.0.1:compile - version managed from 11.0.2; omitted for duplicate)
+|     |  +- (commons-cli:commons-cli:jar:1.2:compile - omitted for duplicate)
+|     |  +- org.apache.commons:commons-math3:jar:3.1.1:compile
+|     |  +- xmlenc:xmlenc:jar:0.52:compile
+|     |  +- commons-httpclient:commons-httpclient:jar:3.1:compile
+|     |  |  +- (commons-logging:commons-logging:jar:1.0.4:compile - omitted for conflict with 1.1.1)
+|     |  |  \- (commons-codec:commons-codec:jar:1.10:compile - version managed from 1.2; omitted for duplicate)
+|     |  +- (commons-codec:commons-codec:jar:1.10:compile - version managed from 1.4; omitted for duplicate)
+|     |  +- (commons-io:commons-io:jar:2.5:compile - version managed from 2.4; omitted for duplicate)
+|     |  +- commons-net:commons-net:jar:3.1:compile
+|     |  +- (commons-collections:commons-collections:jar:3.2.1:compile - omitted for duplicate)
+|     |  +- javax.servlet:servlet-api:jar:2.5:compile
+|     |  +- org.mortbay.jetty:jetty:jar:6.1.26:compile
+|     |  |  \- (org.mortbay.jetty:jetty-util:jar:6.1.26:compile - omitted for duplicate)
+|     |  +- org.mortbay.jetty:jetty-util:jar:6.1.26:compile
+|     |  +- com.sun.jersey:jersey-core:jar:1.9:compile
+|     |  +- com.sun.jersey:jersey-json:jar:1.9:compile
+|     |  |  +- org.codehaus.jettison:jettison:jar:1.1:compile
+|     |  |  +- com.sun.xml.bind:jaxb-impl:jar:2.2.3-1:compile
+|     |  |  |  \- (javax.xml.bind:jaxb-api:jar:2.2.2:compile - omitted for duplicate)
+|     |  |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.8.3:compile - omitted for conflict with 1.9.13)
+|     |  |  +- (org.codehaus.jackson:jackson-mapper-asl:jar:1.8.3:compile - omitted for conflict with 1.9.13)
+|     |  |  +- org.codehaus.jackson:jackson-jaxrs:jar:1.8.3:compile
+|     |  |  |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.8.3:compile - omitted for duplicate)
+|     |  |  |  \- (org.codehaus.jackson:jackson-mapper-asl:jar:1.8.3:compile - omitted for duplicate)
+|     |  |  +- org.codehaus.jackson:jackson-xc:jar:1.8.3:compile
+|     |  |  |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.8.3:compile - omitted for duplicate)
+|     |  |  |  \- (org.codehaus.jackson:jackson-mapper-asl:jar:1.8.3:compile - omitted for duplicate)
+|     |  |  \- (com.sun.jersey:jersey-core:jar:1.9:compile - omitted for duplicate)
+|     |  +- com.sun.jersey:jersey-server:jar:1.9:compile
+|     |  |  +- asm:asm:jar:3.1:compile
+|     |  |  \- (com.sun.jersey:jersey-core:jar:1.9:compile - omitted for duplicate)
+|     |  +- tomcat:jasper-compiler:jar:5.5.23:runtime
+|     |  +- tomcat:jasper-runtime:jar:5.5.23:runtime
+|     |  |  +- (javax.servlet:servlet-api:jar:2.4:runtime - omitted for conflict with 2.5)
+|     |  |  \- (commons-el:commons-el:jar:1.0:runtime - omitted for duplicate)
+|     |  +- javax.servlet.jsp:jsp-api:jar:2.1:runtime
+|     |  +- commons-el:commons-el:jar:1.0:runtime
+|     |  |  \- (commons-logging:commons-logging:jar:1.0.3:runtime - omitted for conflict with 1.1.1)
+|     |  +- (commons-logging:commons-logging:jar:1.1.3:compile - omitted for conflict with 1.2)
+|     |  +- log4j:log4j:jar:1.2.17:compile
+|     |  +- net.java.dev.jets3t:jets3t:jar:0.9.0:compile
+|     |  |  +- (commons-codec:commons-codec:jar:1.10:compile - version managed from 1.4; omitted for duplicate)
+|     |  |  +- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for conflict with 1.1.3)
+|     |  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.2:compile - version managed from 4.2.5; omitted for duplicate)
+|     |  |  +- (org.apache.httpcomponents:httpcore:jar:4.4.4:compile - version managed from 4.1.2; omitted for duplicate)
+|     |  |  \- com.jamesmurty.utils:java-xmlbuilder:jar:0.4:compile
+|     |  +- (commons-lang:commons-lang:jar:2.6:compile - version managed from 2.4; omitted for duplicate)
+|     |  +- (commons-configuration:commons-configuration:jar:1.6:compile - omitted for conflict with 1.10)
+|     |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.5; omitted for duplicate)
+|     |  +- (org.slf4j:slf4j-log4j12:jar:1.7.25:runtime - version managed from 1.7.5; omitted for duplicate)
+|     |  +- org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile
+|     |  +- org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:compile
+|     |  |  \- (org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile - omitted for duplicate)
+|     |  +- org.apache.avro:avro:jar:1.7.4:compile
+|     |  |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.8.8:compile - omitted for conflict with 1.9.13)
+|     |  |  +- (org.codehaus.jackson:jackson-mapper-asl:jar:1.8.8:compile - omitted for conflict with 1.9.13)
+|     |  |  +- com.thoughtworks.paranamer:paranamer:jar:2.3:compile
+|     |  |  +- (org.xerial.snappy:snappy-java:jar:1.0.4.1:compile - omitted for conflict with 1.1.2.6)
+|     |  |  +- (org.apache.commons:commons-compress:jar:1.4.1:compile - omitted for duplicate)
+|     |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.6.4; omitted for duplicate)
+|     |  +- com.google.protobuf:protobuf-java:jar:2.5.0:compile
+|     |  +- org.apache.hadoop:hadoop-auth:jar:2.5.0:compile
+|     |  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.5; omitted for duplicate)
+|     |  |  +- (commons-codec:commons-codec:jar:1.10:compile - version managed from 1.4; omitted for duplicate)
+|     |  |  +- (log4j:log4j:jar:1.2.17:runtime - omitted for duplicate)
+|     |  |  +- (org.slf4j:slf4j-log4j12:jar:1.7.25:runtime - version managed from 1.7.5; omitted for duplicate)
+|     |  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.2:compile - version managed from 4.2.5; omitted for duplicate)
+|     |  |  \- org.apache.directory.server:apacheds-kerberos-codec:jar:2.0.0-M15:compile
+|     |  |     +- org.apache.directory.server:apacheds-i18n:jar:2.0.0-M15:compile
+|     |  |     |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.5; omitted for duplicate)
+|     |  |     +- org.apache.directory.api:api-asn1-api:jar:1.0.0-M20:compile
+|     |  |     |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.5; omitted for duplicate)
+|     |  |     +- org.apache.directory.api:api-util:jar:1.0.0-M20:compile
+|     |  |     |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.5; omitted for duplicate)
+|     |  |     \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.5; omitted for duplicate)
+|     |  +- com.jcraft:jsch:jar:0.1.42:compile
+|     |  +- (org.apache.zookeeper:zookeeper:jar:3.4.6:compile - version managed from 3.3.6; omitted for duplicate)
+|     |  \- org.apache.commons:commons-compress:jar:1.4.1:compile
+|     |     \- org.tukaani:xz:jar:1.0:compile
+|     +- org.apache.tinkerpop:tinkergraph-gremlin:jar:3.2.2:compile
+|     |  +- org.apache.tinkerpop:gremlin-core:jar:3.2.2:compile
+|     |  |  +- org.apache.tinkerpop:gremlin-shaded:jar:3.2.2:compile
+|     |  |  +- (commons-configuration:commons-configuration:jar:1.10:compile - omitted for duplicate)
+|     |  |  +- org.yaml:snakeyaml:jar:1.15:compile
+|     |  |  +- org.javatuples:javatuples:jar:1.2:compile
+|     |  |  +- com.carrotsearch:hppc:jar:0.7.1:compile
+|     |  |  +- com.jcabi:jcabi-manifests:jar:1.1:compile
+|     |  |  |  \- com.jcabi:jcabi-log:jar:0.14:compile
+|     |  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.21; omitted for duplicate)
+|     |  |  \- org.slf4j:jcl-over-slf4j:jar:1.7.25:compile (version managed from 1.7.21)
+|     |  |     \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.21; omitted for duplicate)
+|     |  \- (org.apache.commons:commons-lang3:jar:3.3.1:compile - omitted for conflict with 3.0)
+|     \- org.openrdf.sesame:sesame-runtime:jar:2.7.6:compile
+|        +- (org.openrdf.sesame:sesame-model:jar:2.7.6:compile - omitted for duplicate)
+|        +- org.openrdf.sesame:sesame-repository-api:jar:2.7.6:compile
+|        |  +- (org.openrdf.sesame:sesame-query:jar:2.7.6:compile - omitted for duplicate)
+|        |  +- (org.openrdf.sesame:sesame-rio-api:jar:2.7.6:compile - omitted for duplicate)
+|        |  +- (org.openrdf.sesame:sesame-model:jar:2.7.6:compile - omitted for duplicate)
+|        |  +- (org.openrdf.sesame:sesame-util:jar:2.7.6:compile - omitted for duplicate)
+|        |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.6.1; omitted for duplicate)
+|        +- org.openrdf.sesame:sesame-repository-manager:jar:2.7.6:compile
+|        |  +- (org.openrdf.sesame:sesame-repository-api:jar:2.7.6:compile - omitted for duplicate)
+|        |  +- org.openrdf.sesame:sesame-repository-event:jar:2.7.6:compile
+|        |  |  +- (org.openrdf.sesame:sesame-repository-api:jar:2.7.6:compile - omitted for duplicate)
+|        |  |  \- (org.openrdf.sesame:sesame-model:jar:2.7.6:compile - omitted for duplicate)
+|        |  +- (org.openrdf.sesame:sesame-repository-sail:jar:2.7.6:compile - omitted for duplicate)
+|        |  +- (org.openrdf.sesame:sesame-sail-api:jar:2.7.6:compile - omitted for duplicate)
+|        |  +- org.openrdf.sesame:sesame-sail-memory:jar:2.7.6:compile
+|        |  |  +- (org.openrdf.sesame:sesame-sail-api:jar:2.7.6:compile - omitted for duplicate)
+|        |  |  +- (org.openrdf.sesame:sesame-sail-inferencer:jar:2.7.6:compile - omitted for duplicate)
+|        |  |  +- (org.openrdf.sesame:sesame-queryalgebra-evaluation:jar:2.7.6:compile - omitted for duplicate)
+|        |  |  +- (org.openrdf.sesame:sesame-queryalgebra-model:jar:2.7.6:compile - omitted for duplicate)
+|        |  |  +- (org.openrdf.sesame:sesame-query:jar:2.7.6:compile - omitted for duplicate)
+|        |  |  +- (org.openrdf.sesame:sesame-model:jar:2.7.6:compile - omitted for duplicate)
+|        |  |  +- (org.openrdf.sesame:sesame-util:jar:2.7.6:compile - omitted for duplicate)
+|        |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.6.1; omitted for duplicate)
+|        |  +- (org.openrdf.sesame:sesame-repository-http:jar:2.7.6:compile - omitted for duplicate)
+|        |  +- (org.openrdf.sesame:sesame-http-client:jar:2.7.6:compile - omitted for duplicate)
+|        |  +- org.openrdf.sesame:sesame-http-protocol:jar:2.7.6:compile
+|        |  |  +- (org.openrdf.sesame:sesame-repository-api:jar:2.7.6:compile - omitted for duplicate)
+|        |  |  +- (org.openrdf.sesame:sesame-rio-ntriples:jar:2.7.6:compile - omitted for duplicate)
+|        |  |  +- (org.openrdf.sesame:sesame-model:jar:2.7.6:compile - omitted for duplicate)
+|        |  |  \- (org.openrdf.sesame:sesame-util:jar:2.7.6:compile - omitted for duplicate)
+|        |  +- (org.openrdf.sesame:sesame-query:jar:2.7.6:compile - omitted for duplicate)
+|        |  +- (org.openrdf.sesame:sesame-model:jar:2.7.6:compile - omitted for duplicate)
+|        |  +- (org.openrdf.sesame:sesame-util:jar:2.7.6:compile - omitted for duplicate)
+|        |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.6.1; omitted for duplicate)
+|        +- org.openrdf.sesame:sesame-repository-http:jar:2.7.6:compile
+|        |  +- (org.openrdf.sesame:sesame-repository-api:jar:2.7.6:compile - omitted for duplicate)
+|        |  +- (org.openrdf.sesame:sesame-http-client:jar:2.7.6:compile - omitted for duplicate)
+|        |  +- (org.openrdf.sesame:sesame-http-protocol:jar:2.7.6:compile - omitted for duplicate)
+|        |  +- (org.openrdf.sesame:sesame-query:jar:2.7.6:compile - omitted for duplicate)
+|        |  +- (org.openrdf.sesame:sesame-queryparser-api:jar:2.7.6:compile - omitted for duplicate)
+|        |  +- (org.openrdf.sesame:sesame-queryresultio-api:jar:2.7.6:compile - omitted for duplicate)
+|        |  +- (org.openrdf.sesame:sesame-rio-api:jar:2.7.6:compile - omitted for duplicate)
+|        |  +- (org.openrdf.sesame:sesame-model:jar:2.7.6:compile - omitted for duplicate)
+|        |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.6.1; omitted for duplicate)
+|        +- org.openrdf.sesame:sesame-repository-sparql:jar:2.7.6:compile
+|        |  +- (org.openrdf.sesame:sesame-repository-api:jar:2.7.6:compile - omitted for duplicate)
+|        |  +- (org.openrdf.sesame:sesame-http-client:jar:2.7.6:compile - omitted for duplicate)
+|        |  +- (org.openrdf.sesame:sesame-queryparser-api:jar:2.7.6:compile - omitted for duplicate)
+|        |  +- org.openrdf.sesame:sesame-queryparser-sparql:jar:2.7.6:compile
+|        |  |  +- (org.openrdf.sesame:sesame-queryparser-api:jar:2.7.6:compile - omitted for duplicate)
+|        |  |  +- (org.openrdf.sesame:sesame-query:jar:2.7.6:compile - omitted for duplicate)
+|        |  |  +- (org.openrdf.sesame:sesame-queryalgebra-model:jar:2.7.6:compile - omitted for duplicate)
+|        |  |  +- (org.openrdf.sesame:sesame-model:jar:2.7.6:compile - omitted for duplicate)
+|        |  |  \- (org.openrdf.sesame:sesame-util:jar:2.7.6:compile - omitted for duplicate)
+|        |  \- org.openrdf.sesame:sesame-queryresultio-sparqlxml:jar:2.7.6:compile
+|        |     +- (org.openrdf.sesame:sesame-queryresultio-api:jar:2.7.6:compile - omitted for duplicate)
+|        |     +- (org.openrdf.sesame:sesame-query:jar:2.7.6:compile - omitted for duplicate)
+|        |     +- (org.openrdf.sesame:sesame-model:jar:2.7.6:compile - omitted for duplicate)
+|        |     \- (org.openrdf.sesame:sesame-util:jar:2.7.6:compile - omitted for duplicate)
+|        +- org.openrdf.sesame:sesame-repository-contextaware:jar:2.7.6:compile
+|        |  +- (org.openrdf.sesame:sesame-repository-api:jar:2.7.6:compile - omitted for duplicate)
+|        |  +- (org.openrdf.sesame:sesame-query:jar:2.7.6:compile - omitted for duplicate)
+|        |  +- (org.openrdf.sesame:sesame-rio-api:jar:2.7.6:compile - omitted for duplicate)
+|        |  \- (org.openrdf.sesame:sesame-model:jar:2.7.6:compile - omitted for duplicate)
+|        +- org.openrdf.sesame:sesame-repository-sail:jar:2.7.6:compile
+|        |  +- (org.openrdf.sesame:sesame-repository-api:jar:2.7.6:compile - omitted for duplicate)
+|        |  +- (org.openrdf.sesame:sesame-sail-api:jar:2.7.6:compile - omitted for duplicate)
+|        |  +- (org.openrdf.sesame:sesame-queryparser-api:jar:2.7.6:compile - omitted for duplicate)
+|        |  +- (org.openrdf.sesame:sesame-queryalgebra-model:jar:2.7.6:compile - omitted for duplicate)
+|        |  +- (org.openrdf.sesame:sesame-query:jar:2.7.6:compile - omitted for duplicate)
+|        |  +- (org.openrdf.sesame:sesame-rio-api:jar:2.7.6:compile - omitted for duplicate)
+|        |  \- (org.openrdf.sesame:sesame-model:jar:2.7.6:compile - omitted for duplicate)
+|        +- org.openrdf.sesame:sesame-sail-api:jar:2.7.6:compile
+|        |  +- (org.openrdf.sesame:sesame-query:jar:2.7.6:compile - omitted for duplicate)
+|        |  +- (org.openrdf.sesame:sesame-queryalgebra-model:jar:2.7.6:compile - omitted for duplicate)
+|        |  +- (org.openrdf.sesame:sesame-model:jar:2.7.6:compile - omitted for duplicate)
+|        |  +- (org.openrdf.sesame:sesame-util:jar:2.7.6:compile - omitted for duplicate)
+|        |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.6.1; omitted for duplicate)
+|        +- org.openrdf.sesame:sesame-sail-federation:jar:2.7.6:compile
+|        |  +- (org.openrdf.sesame:sesame-rio-turtle:jar:2.7.6:compile - omitted for duplicate)
+|        |  +- (org.openrdf.sesame:sesame-queryalgebra-evaluation:jar:2.7.6:compile - omitted for duplicate)
+|        |  +- org.openrdf.sesame:sesame-sail-inferencer:jar:2.7.6:compile
+|        |  |  +- (org.openrdf.sesame:sesame-sail-api:jar:2.7.6:compile - omitted for duplicate)
+|        |  |  +- (org.openrdf.sesame:sesame-queryalgebra-model:jar:2.7.6:compile - omitted for duplicate)
+|        |  |  +- (org.openrdf.sesame:sesame-query:jar:2.7.6:compile - omitted for duplicate)
+|        |  |  +- (org.openrdf.sesame:sesame-queryparser-api:jar:2.7.6:compile - omitted for duplicate)
+|        |  |  +- (org.openrdf.sesame:sesame-queryparser-serql:jar:2.7.6:runtime - omitted for duplicate)
+|        |  |  +- (org.openrdf.sesame:sesame-rio-api:jar:2.7.6:compile - omitted for duplicate)
+|        |  |  +- (org.openrdf.sesame:sesame-model:jar:2.7.6:compile - omitted for duplicate)
+|        |  |  +- (org.openrdf.sesame:sesame-util:jar:2.7.6:compile - omitted for duplicate)
+|        |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.6.1; omitted for duplicate)
+|        |  +- (org.openrdf.sesame:sesame-model:jar:2.7.6:compile - omitted for duplicate)
+|        |  \- (org.openrdf.sesame:sesame-repository-sail:jar:2.7.6:compile - omitted for duplicate)
+|        +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.6.1; omitted for duplicate)
+|        +- (org.openrdf.sesame:sesame-queryparser-api:jar:2.7.6:runtime - omitted for duplicate)
+|        +- org.openrdf.sesame:sesame-queryparser-serql:jar:2.7.6:runtime
+|        |  +- (org.openrdf.sesame:sesame-queryparser-api:jar:2.7.6:runtime - omitted for duplicate)
+|        |  +- (org.openrdf.sesame:sesame-query:jar:2.7.6:runtime - omitted for duplicate)
+|        |  +- (org.openrdf.sesame:sesame-queryalgebra-model:jar:2.7.6:runtime - omitted for duplicate)
+|        |  +- (org.openrdf.sesame:sesame-model:jar:2.7.6:runtime - omitted for duplicate)
+|        |  +- (org.openrdf.sesame:sesame-util:jar:2.7.6:runtime - omitted for duplicate)
+|        |  \- (org.slf4j:slf4j-api:jar:1.7.25:runtime - version managed from 1.6.1; omitted for duplicate)
+|        +- (org.openrdf.sesame:sesame-queryparser-sparql:jar:2.7.6:compile - scope updated from runtime; omitted for duplicate)
+|        +- (org.openrdf.sesame:sesame-queryresultio-api:jar:2.7.6:compile - scope updated from runtime; omitted for duplicate)
+|        +- org.openrdf.sesame:sesame-queryresultio-binary:jar:2.7.6:runtime
+|        |  +- (org.openrdf.sesame:sesame-queryresultio-api:jar:2.7.6:runtime - omitted for duplicate)
+|        |  +- (org.openrdf.sesame:sesame-query:jar:2.7.6:runtime - omitted for duplicate)
+|        |  \- (org.openrdf.sesame:sesame-model:jar:2.7.6:runtime - omitted for duplicate)
+|        +- org.openrdf.sesame:sesame-queryresultio-sparqljson:jar:2.7.6:runtime
+|        |  +- (org.openrdf.sesame:sesame-queryresultio-api:jar:2.7.6:runtime - omitted for duplicate)
+|        |  +- (org.openrdf.sesame:sesame-query:jar:2.7.6:runtime - omitted for duplicate)
+|        |  +- (org.openrdf.sesame:sesame-model:jar:2.7.6:runtime - omitted for duplicate)
+|        |  +- (org.openrdf.sesame:sesame-util:jar:2.7.6:runtime - omitted for duplicate)
+|        |  \- com.fasterxml.jackson.core:jackson-core:jar:2.2.1:runtime
+|        +- (org.openrdf.sesame:sesame-queryresultio-sparqlxml:jar:2.7.6:compile - scope updated from runtime; omitted for duplicate)
+|        +- (org.openrdf.sesame:sesame-queryresultio-text:jar:2.7.6:runtime - omitted for duplicate)
+|        +- org.openrdf.sesame:sesame-repository-dataset:jar:2.7.6:runtime
+|        |  +- (org.openrdf.sesame:sesame-repository-sail:jar:2.7.6:runtime - omitted for duplicate)
+|        |  +- (org.openrdf.sesame:sesame-repository-api:jar:2.7.6:runtime - omitted for duplicate)
+|        |  +- (org.openrdf.sesame:sesame-rio-api:jar:2.7.6:runtime - omitted for duplicate)
+|        |  +- (org.openrdf.sesame:sesame-query:jar:2.7.6:runtime - omitted for duplicate)
+|        |  \- (org.openrdf.sesame:sesame-model:jar:2.7.6:runtime - omitted for duplicate)
+|        +- (org.openrdf.sesame:sesame-http-protocol:jar:2.7.6:compile - scope updated from runtime; omitted for duplicate)
+|        +- (org.openrdf.sesame:sesame-http-client:jar:2.7.6:compile - scope updated from runtime; omitted for duplicate)
+|        +- (org.openrdf.sesame:sesame-rio-api:jar:2.7.6:compile - omitted for duplicate)
+|        +- (org.openrdf.sesame:sesame-rio-datatypes:jar:2.7.6:runtime - omitted for duplicate)
+|        +- (org.openrdf.sesame:sesame-rio-languages:jar:2.7.6:runtime - omitted for duplicate)
+|        +- org.openrdf.sesame:sesame-rio-binary:jar:2.7.6:runtime
+|        |  +- (org.openrdf.sesame:sesame-model:jar:2.7.6:runtime - omitted for duplicate)
+|        |  +- (org.openrdf.sesame:sesame-rio-api:jar:2.7.6:runtime - omitted for duplicate)
+|        |  \- (org.openrdf.sesame:sesame-util:jar:2.7.6:runtime - omitted for duplicate)
+|        +- (org.openrdf.sesame:sesame-rio-ntriples:jar:2.7.6:runtime - omitted for duplicate)
+|        +- (org.openrdf.sesame:sesame-rio-nquads:jar:2.7.6:compile - scope updated from runtime; omitted for duplicate)
+|        +- org.openrdf.sesame:sesame-rio-n3:jar:2.7.6:runtime
+|        |  +- (org.openrdf.sesame:sesame-model:jar:2.7.6:runtime - omitted for duplicate)
+|        |  +- (org.openrdf.sesame:sesame-rio-api:jar:2.7.6:runtime - omitted for duplicate)
+|        |  +- (org.openrdf.sesame:sesame-rio-turtle:jar:2.7.6:runtime - omitted for duplicate)
+|        |  +- (org.openrdf.sesame:sesame-rio-datatypes:jar:2.7.6:runtime - omitted for duplicate)
+|        |  \- (org.openrdf.sesame:sesame-rio-languages:jar:2.7.6:runtime - omitted for duplicate)
+|        +- org.openrdf.sesame:sesame-rio-rdfjson:jar:2.7.6:runtime
+|        |  +- (org.openrdf.sesame:sesame-model:jar:2.7.6:runtime - omitted for duplicate)
+|        |  +- (org.openrdf.sesame:sesame-rio-api:jar:2.7.6:runtime - omitted for duplicate)
+|        |  +- (org.openrdf.sesame:sesame-rio-datatypes:jar:2.7.6:runtime - omitted for duplicate)
+|        |  +- (org.openrdf.sesame:sesame-rio-languages:jar:2.7.6:runtime - omitted for duplicate)
+|        |  +- (org.openrdf.sesame:sesame-util:jar:2.7.6:runtime - omitted for duplicate)
+|        |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.2.1:runtime - omitted for duplicate)
+|        |  \- (commons-io:commons-io:jar:2.5:runtime - version managed from 2.4; omitted for duplicate)
+|        +- org.openrdf.sesame:sesame-rio-rdfxml:jar:2.7.6:runtime
+|        |  +- (org.openrdf.sesame:sesame-model:jar:2.7.6:runtime - omitted for duplicate)
+|        |  +- (org.openrdf.sesame:sesame-rio-api:jar:2.7.6:runtime - omitted for duplicate)
+|        |  +- (org.openrdf.sesame:sesame-rio-datatypes:jar:2.7.6:runtime - omitted for duplicate)
+|        |  +- (org.openrdf.sesame:sesame-rio-languages:jar:2.7.6:runtime - omitted for duplicate)
+|        |  +- (org.openrdf.sesame:sesame-util:jar:2.7.6:runtime - omitted for duplicate)
+|        |  \- (commons-io:commons-io:jar:2.5:runtime - version managed from 2.4; omitted for duplicate)
+|        +- org.openrdf.sesame:sesame-rio-trix:jar:2.7.6:runtime
+|        |  +- (org.openrdf.sesame:sesame-model:jar:2.7.6:runtime - omitted for duplicate)
+|        |  +- (org.openrdf.sesame:sesame-rio-api:jar:2.7.6:runtime - omitted for duplicate)
+|        |  +- (org.openrdf.sesame:sesame-rio-datatypes:jar:2.7.6:runtime - omitted for duplicate)
+|        |  +- (org.openrdf.sesame:sesame-rio-languages:jar:2.7.6:runtime - omitted for duplicate)
+|        |  +- (org.openrdf.sesame:sesame-util:jar:2.7.6:runtime - omitted for duplicate)
+|        |  \- (commons-io:commons-io:jar:2.5:runtime - version managed from 2.4; omitted for duplicate)
+|        +- (org.openrdf.sesame:sesame-rio-turtle:jar:2.7.6:runtime - omitted for duplicate)
+|        +- (org.openrdf.sesame:sesame-rio-trig:jar:2.7.6:runtime - omitted for duplicate)
+|        +- (org.openrdf.sesame:sesame-sail-inferencer:jar:2.7.6:compile - scope updated from runtime; omitted for duplicate)
+|        +- (org.openrdf.sesame:sesame-sail-memory:jar:2.7.6:compile - scope updated from runtime; omitted for duplicate)
+|        +- org.openrdf.sesame:sesame-sail-nativerdf:jar:2.7.6:runtime
+|        |  +- (org.openrdf.sesame:sesame-sail-api:jar:2.7.6:runtime - omitted for duplicate)
+|        |  +- (org.openrdf.sesame:sesame-sail-inferencer:jar:2.7.6:runtime - omitted for duplicate)
+|        |  +- (org.openrdf.sesame:sesame-queryalgebra-evaluation:jar:2.7.6:runtime - omitted for duplicate)
+|        |  +- (org.openrdf.sesame:sesame-queryalgebra-model:jar:2.7.6:runtime - omitted for duplicate)
+|        |  +- (org.openrdf.sesame:sesame-query:jar:2.7.6:runtime - omitted for duplicate)
+|        |  +- (org.openrdf.sesame:sesame-model:jar:2.7.6:runtime - omitted for duplicate)
+|        |  +- (org.openrdf.sesame:sesame-util:jar:2.7.6:runtime - omitted for duplicate)
+|        |  \- (org.slf4j:slf4j-api:jar:1.7.25:runtime - version managed from 1.6.1; omitted for duplicate)
+|        \- org.openrdf.sesame:sesame-sail-rdbms:jar:2.7.6:runtime
+|           +- (org.openrdf.sesame:sesame-sail-api:jar:2.7.6:runtime - omitted for duplicate)
+|           +- (org.openrdf.sesame:sesame-queryalgebra-evaluation:jar:2.7.6:runtime - omitted for duplicate)
+|           +- (org.openrdf.sesame:sesame-queryalgebra-model:jar:2.7.6:runtime - omitted for duplicate)
+|           +- (org.openrdf.sesame:sesame-query:jar:2.7.6:runtime - omitted for duplicate)
+|           +- (org.openrdf.sesame:sesame-model:jar:2.7.6:runtime - omitted for duplicate)
+|           +- (org.slf4j:slf4j-api:jar:1.7.25:runtime - version managed from 1.6.1; omitted for duplicate)
+|           \- commons-dbcp:commons-dbcp:jar:1.3:runtime
+|              \- commons-pool:commons-pool:jar:1.6:runtime (version managed from 1.5.4)
++- org.apache.rya:rya.indexing:jar:3.2.12-incubating:compile
+|  +- (org.apache.rya:rya.sail:jar:3.2.12-incubating:compile - omitted for duplicate)
+|  +- org.apache.rya:accumulo.rya:jar:3.2.12-incubating:compile
+|  |  +- (org.apache.rya:rya.api:jar:3.2.12-incubating:compile - omitted for duplicate)
+|  |  +- (org.apache.accumulo:accumulo-core:jar:1.6.4:compile - version managed from 1.6.5; omitted for duplicate)
+|  |  +- (org.openrdf.sesame:sesame-rio-ntriples:jar:2.7.6:compile - omitted for duplicate)
+|  |  +- org.openrdf.sesame:sesame-rio-nquads:jar:2.7.6:compile
+|  |  |  +- (org.openrdf.sesame:sesame-model:jar:2.7.6:compile - omitted for duplicate)
+|  |  |  +- (org.openrdf.sesame:sesame-rio-api:jar:2.7.6:compile - omitted for duplicate)
+|  |  |  +- (org.openrdf.sesame:sesame-rio-ntriples:jar:2.7.6:compile - omitted for duplicate)
+|  |  |  +- (org.openrdf.sesame:sesame-rio-datatypes:jar:2.7.6:runtime - omitted for duplicate)
+|  |  |  +- (org.openrdf.sesame:sesame-rio-languages:jar:2.7.6:runtime - omitted for duplicate)
+|  |  |  \- (commons-io:commons-io:jar:2.5:compile - version managed from 2.4; omitted for duplicate)
+|  |  +- org.openrdf.sesame:sesame-queryalgebra-evaluation:jar:2.7.6:compile
+|  |  |  +- (org.openrdf.sesame:sesame-queryalgebra-model:jar:2.7.6:compile - omitted for duplicate)
+|  |  |  +- (org.openrdf.sesame:sesame-model:jar:2.7.6:compile - omitted for duplicate)
+|  |  |  +- (org.openrdf.sesame:sesame-query:jar:2.7.6:compile - omitted for duplicate)
+|  |  |  +- (org.openrdf.sesame:sesame-repository-sparql:jar:2.7.6:compile - omitted for duplicate)
+|  |  |  +- org.openrdf.sesame:sesame-http-client:jar:2.7.6:compile
+|  |  |  |  +- (org.openrdf.sesame:sesame-http-protocol:jar:2.7.6:compile - omitted for duplicate)
+|  |  |  |  +- (org.openrdf.sesame:sesame-query:jar:2.7.6:compile - omitted for duplicate)
+|  |  |  |  +- (org.openrdf.sesame:sesame-queryresultio-api:jar:2.7.6:compile - omitted for duplicate)
+|  |  |  |  +- (org.openrdf.sesame:sesame-rio-api:jar:2.7.6:compile - omitted for duplicate)
+|  |  |  |  +- (org.openrdf.sesame:sesame-model:jar:2.7.6:compile - omitted for duplicate)
+|  |  |  |  +- (org.openrdf.sesame:sesame-repository-api:jar:2.7.6:compile - omitted for duplicate)
+|  |  |  |  +- (org.openrdf.sesame:sesame-util:jar:2.7.6:compile - omitted for duplicate)
+|  |  |  |  +- (commons-httpclient:commons-httpclient:jar:3.1:compile - omitted for duplicate)
+|  |  |  |  +- (commons-codec:commons-codec:jar:1.10:runtime - version managed from 1.4; omitted for duplicate)
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.6.1; omitted for duplicate)
+|  |  |  +- (org.openrdf.sesame:sesame-util:jar:2.7.6:compile - omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.6.1; omitted for duplicate)
+|  |  \- (commons-io:commons-io:jar:2.5:compile - version managed from 2.4; omitted for duplicate)
+|  +- org.apache.rya:mongodb.rya:jar:3.2.12-incubating:compile
+|  |  +- (org.apache.rya:rya.api:jar:3.2.12-incubating:compile - omitted for duplicate)
+|  |  +- (org.apache.accumulo:accumulo-core:jar:1.6.4:compile - version managed from 1.6.6; omitted for duplicate)
+|  |  +- org.mongodb:mongo-java-driver:jar:3.3.0:compile
+|  |  \- de.flapdoodle.embed:de.flapdoodle.embed.mongo:jar:1.50.5:compile
+|  |     \- de.flapdoodle.embed:de.flapdoodle.embed.process:jar:1.50.2:compile
+|  |        +- (commons-io:commons-io:jar:2.5:compile - version managed from 2.4; omitted for duplicate)
+|  |        +- (org.apache.commons:commons-lang3:jar:3.1:compile - omitted for conflict with 3.0)
+|  |        +- net.java.dev.jna:jna:jar:4.0.0:compile
+|  |        +- net.java.dev.jna:jna-platform:jar:4.0.0:compile
+|  |        |  \- (net.java.dev.jna:jna:jar:4.0.0:compile - omitted for duplicate)
+|  |        +- (org.apache.commons:commons-compress:jar:1.10:compile - omitted for conflict with 1.4.1)
+|  |        \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.10; omitted for duplicate)
+|  +- org.apache.rya:rya.prospector:jar:3.2.12-incubating:compile
+|  |  +- (org.apache.rya:rya.api:jar:3.2.12-incubating:compile - omitted for duplicate)
+|  |  +- (org.apache.rya:accumulo.rya:jar:3.2.12-incubating:compile - omitted for duplicate)
+|  |  +- commons-lang:commons-lang:jar:2.6:compile (version managed from 2.4)
+|  |  \- (com.google.guava:guava:jar:14.0.1:compile - version managed from 11.0.2; omitted for duplicate)
+|  +- org.apache.lucene:lucene-core:jar:3.6.2:compile
+|  +- org.apache.lucene:lucene-analyzers:jar:3.6.2:compile
+|  |  \- (org.apache.lucene:lucene-core:jar:3.6.2:compile - omitted for duplicate)
+|  +- commons-codec:commons-codec:jar:1.10:compile
+|  +- org.apache.httpcomponents:httpclient:jar:4.5.2:compile
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.4.4:compile
+|  |  +- commons-logging:commons-logging:jar:1.2:compile
+|  |  \- (commons-codec:commons-codec:jar:1.10:compile - version managed from 1.9; omitted for duplicate)
+|  +- org.apache.rya:rya.indexing.pcj:jar:3.2.12-incubating:compile
+|  |  +- (org.apache.rya:rya.api:jar:3.2.12-incubating:compile - omitted for duplicate)
+|  |  +- org.apache.rya:rya.api.model:jar:3.2.12-incubating:compile
+|  |  |  +- (org.openrdf.sesame:sesame-model:jar:2.7.6:compile - omitted for duplicate)
+|  |  |  +- (org.openrdf.sesame:sesame-query:jar:2.7.6:compile - omitted for duplicate)
+|  |  |  +- (com.google.guava:guava:jar:14.0.1:compile - version managed from 11.0.2; omitted for duplicate)
+|  |  |  \- (com.github.stephenc.findbugs:findbugs-annotations:jar:1.3.9-1:compile - omitted for duplicate)
+|  |  +- (org.apache.rya:accumulo.rya:jar:3.2.12-incubating:compile - omitted for duplicate)
+|  |  +- (org.apache.rya:mongodb.rya:jar:3.2.12-incubating:compile - omitted for duplicate)
+|  |  +- (org.apache.accumulo:accumulo-core:jar:1.6.4:compile - version managed from 1.6.6; omitted for duplicate)
+|  |  +- (org.apache.fluo:fluo-api:jar:1.0.0-incubating:compile - omitted for duplicate)
+|  |  \- org.apache.commons:commons-lang3:jar:3.0:compile
+|  +- (org.apache.rya:rya.pcj.fluo.api:jar:3.2.12-incubating:compile - omitted for duplicate)
+|  +- (org.apache.rya:rya.periodic.notification.api:jar:3.2.12-incubating:compile - omitted for duplicate)
+|  \- org.openrdf.sesame:sesame-queryresultio-text:jar:2.7.6:compile
+|     +- org.openrdf.sesame:sesame-queryresultio-api:jar:2.7.6:compile
+|     |  +- (org.openrdf.sesame:sesame-model:jar:2.7.6:compile - omitted for duplicate)
+|     |  +- (org.openrdf.sesame:sesame-query:jar:2.7.6:compile - omitted for duplicate)
+|     |  +- (org.openrdf.sesame:sesame-rio-api:jar:2.7.6:compile - omitted for duplicate)
+|     |  \- (org.openrdf.sesame:sesame-util:jar:2.7.6:compile - omitted for duplicate)
+|     +- (org.openrdf.sesame:sesame-query:jar:2.7.6:compile - omitted for duplicate)
+|     +- (org.openrdf.sesame:sesame-util:jar:2.7.6:compile - omitted for duplicate)
+|     \- net.sf.opencsv:opencsv:jar:2.0:compile
++- com.beust:jcommander:jar:1.60:compile
++- org.apache.fluo:fluo-core:jar:1.0.0-incubating:compile
+|  +- com.google.guava:guava:jar:14.0.1:compile
+|  +- commons-configuration:commons-configuration:jar:1.10:compile
+|  |  +- (commons-lang:commons-lang:jar:2.6:compile - version managed from 2.4; omitted for duplicate)
+|  |  \- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for conflict with 1.2)
+|  +- io.dropwizard.metrics:metrics-core:jar:3.1.1:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.7; omitted for duplicate)
+|  +- io.dropwizard.metrics:metrics-graphite:jar:3.1.1:compile
+|  |  +- (io.dropwizard.metrics:metrics-core:jar:3.1.1:compile - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.7; omitted for duplicate)
+|  +- org.apache.accumulo:accumulo-core:jar:1.6.4:compile
+|  |  +- (com.beust:jcommander:jar:1.60:compile - version managed from 1.32; omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:14.0.1:compile - version managed from 13.0.1; omitted for duplicate)
+|  |  +- commons-cli:commons-cli:jar:1.2:compile
+|  |  +- (commons-codec:commons-codec:jar:1.10:compile - version managed from 1.4; omitted for duplicate)
+|  |  +- commons-collections:commons-collections:jar:3.2.1:compile
+|  |  +- (commons-configuration:commons-configuration:jar:1.6:compile - omitted for conflict with 1.10)
+|  |  +- (commons-io:commons-io:jar:2.5:compile - version managed from 2.4; omitted for duplicate)
+|  |  +- (commons-lang:commons-lang:jar:2.6:compile - version managed from 2.4; omitted for duplicate)
+|  |  +- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for conflict with 1.2)
+|  |  +- jline:jline:jar:2.11:compile
+|  |  +- org.apache.accumulo:accumulo-fate:jar:1.6.4:compile
+|  |  |  +- (com.google.guava:guava:jar:14.0.1:compile - version managed from 13.0.1; omitted for duplicate)
+|  |  |  +- (commons-lang:commons-lang:jar:2.6:compile - version managed from 2.4; omitted for duplicate)
+|  |  |  \- (org.apache.zookeeper:zookeeper:jar:3.4.6:compile - version managed from 3.3.6; omitted for duplicate)
+|  |  +- org.apache.accumulo:accumulo-start:jar:1.6.4:compile
+|  |  |  +- (commons-io:commons-io:jar:2.5:compile - version managed from 2.4; omitted for duplicate)
+|  |  |  +- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for conflict with 1.2)
+|  |  |  +- (org.apache.commons:commons-vfs2:jar:2.0:compile - omitted for duplicate)
+|  |  |  \- (org.apache.hadoop:hadoop-client:jar:2.5.0:compile - version managed from 2.2.0; omitted for duplicate)
+|  |  +- org.apache.accumulo:accumulo-trace:jar:1.6.4:compile
+|  |  |  +- (org.apache.thrift:libthrift:jar:0.9.1:compile - omitted for duplicate)
+|  |  |  +- (org.apache.zookeeper:zookeeper:jar:3.4.6:compile - version managed from 3.3.6; omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.5; omitted for duplicate)
+|  |  +- org.apache.commons:commons-math:jar:2.1:compile
+|  |  +- org.apache.commons:commons-vfs2:jar:2.0:compile
+|  |  |  +- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for conflict with 1.2)
+|  |  |  +- org.apache.maven.scm:maven-scm-api:jar:1.4:compile
+|  |  |  |  \- org.codehaus.plexus:plexus-utils:jar:3.0.8:compile (version managed from 1.5.6)
+|  |  |  \- org.apache.maven.scm:maven-scm-provider-svnexe:jar:1.4:compile
+|  |  |     +- org.apache.maven.scm:maven-scm-provider-svn-commons:jar:1.4:compile
+|  |  |     |  +- (org.apache.maven.scm:maven-scm-api:jar:1.4:compile - omitted for duplicate)
+|  |  |     |  \- (org.codehaus.plexus:plexus-utils:jar:3.0.8:compile - version managed from 1.5.6; omitted for duplicate)
+|  |  |     +- regexp:regexp:jar:1.3:compile
+|  |  |     +- (org.apache.maven.scm:maven-scm-api:jar:1.4:compile - omitted for duplicate)
+|  |  |     \- (org.codehaus.plexus:plexus-utils:jar:3.0.8:compile - version managed from 1.5.6; omitted for duplicate)
+|  |  +- (org.apache.hadoop:hadoop-client:jar:2.5.0:compile - version managed from 2.6.3; omitted for duplicate)
+|  |  +- (org.apache.thrift:libthrift:jar:0.9.1:compile - omitted for duplicate)
+|  |  +- (org.apache.zookeeper:zookeeper:jar:3.4.6:compile - version managed from 3.4.8; omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.5; omitted for duplicate)
+|  +- org.apache.curator:curator-client:jar:2.7.1:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.6; omitted for duplicate)
+|  |  +- (org.apache.zookeeper:zookeeper:jar:3.4.6:compile - version managed from 3.3.6; omitted for duplicate)
+|  |  \- (com.google.guava:guava:jar:14.0.1:compile - version managed from 16.0.1; omitted for duplicate)
+|  +- org.apache.curator:curator-framework:jar:2.7.1:compile
+|  |  +- (org.apache.curator:curator-client:jar:2.7.1:compile - omitted for duplicate)
+|  |  +- (org.apache.zookeeper:zookeeper:jar:3.4.6:compile - version managed from 3.3.6; omitted for duplicate)
+|  |  \- (com.google.guava:guava:jar:14.0.1:compile - version managed from 16.0.1; omitted for duplicate)
+|  +- org.apache.curator:curator-recipes:jar:2.7.1:compile
+|  |  +- (org.apache.curator:curator-framework:jar:2.7.1:compile - omitted for duplicate)
+|  |  +- (org.apache.zookeeper:zookeeper:jar:3.4.6:compile - version managed from 3.3.6; omitted for duplicate)
+|  |  \- (com.google.guava:guava:jar:14.0.1:compile - version managed from 16.0.1; omitted for duplicate)
+|  +- org.apache.fluo:fluo-accumulo:jar:1.0.0-incubating:compile
+|  |  +- (com.google.guava:guava:jar:14.0.1:compile - version managed from 13.0.1; omitted for duplicate)
+|  |  +- (org.apache.accumulo:accumulo-core:jar:1.6.4:compile - version managed from 1.6.5; omitted for duplicate)
+|  |  +- (org.apache.fluo:fluo-api:jar:1.0.0-incubating:compile - omitted for duplicate)
+|  |  +- (org.apache.hadoop:hadoop-client:jar:2.5.0:compile - version managed from 2.6.3; omitted for duplicate)
+|  |  +- (org.apache.zookeeper:zookeeper:jar:3.4.6:compile - version managed from 3.4.8; omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.12; omitted for duplicate)
+|  +- org.apache.fluo:fluo-api:jar:1.0.0-incubating:compile
+|  |  +- (com.google.guava:guava:jar:14.0.1:compile - version managed from 13.0.1; omitted for duplicate)
+|  |  +- (commons-configuration:commons-configuration:jar:1.10:compile - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.12; omitted for duplicate)
+|  +- org.apache.hadoop:hadoop-client:jar:2.5.0:compile
+|  |  +- (org.apache.hadoop:hadoop-common:jar:2.5.0:compile - omitted for duplicate)
+|  |  +- org.apache.hadoop:hadoop-hdfs:jar:2.5.0:compile
+|  |  |  +- (com.google.guava:guava:jar:14.0.1:compile - version managed from 11.0.2; omitted for duplicate)
+|  |  |  +- (org.mortbay.jetty:jetty-util:jar:6.1.26:compile - omitted for duplicate)
+|  |  |  +- (commons-cli:commons-cli:jar:1.2:compile - omitted for duplicate)
+|  |  |  +- (commons-codec:commons-codec:jar:1.10:compile - version managed from 1.4; omitted for duplicate)
+|  |  |  +- (commons-io:commons-io:jar:2.5:compile - version managed from 2.4; omitted for duplicate)
+|  |  |  +- (commons-lang:commons-lang:jar:2.6:compile - version managed from 2.4; omitted for duplicate)
+|  |  |  +- (commons-logging:commons-logging:jar:1.1.3:compile - omitted for conflict with 1.2)
+|  |  |  +- (com.google.protobuf:protobuf-java:jar:2.5.0:compile - omitted for duplicate)
+|  |  |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile - omitted for duplicate)
+|  |  |  +- (org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:compile - omitted for duplicate)
+|  |  |  +- (xmlenc:xmlenc:jar:0.52:compile - omitted for duplicate)
+|  |  |  \- (io.netty:netty:jar:3.6.2.Final:compile - omitted for conflict with 3.7.0.Final)
+|  |  +- org.apache.hadoop:hadoop-mapreduce-client-app:jar:2.5.0:compile
+|  |  |  +- org.apache.hadoop:hadoop-mapreduce-client-common:jar:2.5.0:compile
+|  |  |  |  +- (org.apache.hadoop:hadoop-yarn-common:jar:2.5.0:compile - omitted for duplicate)
+|  |  |  |  +- org.apache.hadoop:hadoop-yarn-client:jar:2.5.0:compile
+|  |  |  |  |  +- (com.google.guava:guava:jar:14.0.1:compile - version managed from 11.0.2; omitted for duplicate)
+|  |  |  |  |  +- (commons-logging:commons-logging:jar:1.1.3:compile - omitted for conflict with 1.2)
+|  |  |  |  |  +- (commons-lang:commons-lang:jar:2.6:compile - version managed from 2.4; omitted for duplicate)
+|  |  |  |  |  +- (commons-cli:commons-cli:jar:1.2:compile - omitted for duplicate)
+|  |  |  |  |  +- (org.mortbay.jetty:jetty-util:jar:6.1.26:compile - omitted for duplicate)
+|  |  |  |  |  +- com.sun.jersey:jersey-client:jar:1.9:compile
+|  |  |  |  |  |  \- (com.sun.jersey:jersey-core:jar:1.9:compile - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.hadoop:hadoop-yarn-api:jar:2.5.0:compile - omitted for duplicate)
+|  |  |  |  |  \- (org.apache.hadoop:hadoop-yarn-common:jar:2.5.0:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.hadoop:hadoop-mapreduce-client-core:jar:2.5.0:compile - omitted for duplicate)
+|  |  |  |  +- org.apache.hadoop:hadoop-yarn-server-common:jar:2.5.0:compile
+|  |  |  |  |  +- (org.apache.hadoop:hadoop-yarn-api:jar:2.5.0:compile - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.hadoop:hadoop-yarn-common:jar:2.5.0:compile - omitted for duplicate)
+|  |  |  |  |  +- (com.google.guava:guava:jar:14.0.1:compile - version managed from 11.0.2; omitted for duplicate)
+|  |  |  |  |  +- (commons-logging:commons-logging:jar:1.1.3:compile - omitted for conflict with 1.2)
+|  |  |  |  |  +- (com.google.protobuf:protobuf-java:jar:2.5.0:compile - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.zookeeper:zookeeper:jar:3.4.6:compile - version managed from 3.4.8; omitted for duplicate)
+|  |  |  |  |  \- (org.fusesource.leveldbjni:leveldbjni-all:jar:1.8:compile - omitted for duplicate)
+|  |  |  |  +- (com.google.protobuf:protobuf-java:jar:2.5.0:compile - omitted for duplicate)
+|  |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.5; omitted for duplicate)
+|  |  |  |  \- (org.slf4j:slf4j-log4j12:jar:1.7.25:compile - version managed from 1.7.5; omitted for duplicate)
+|  |  |  +- org.apache.hadoop:hadoop-mapreduce-client-shuffle:jar:2.5.0:compile
+|  |  |  |  +- (org.apache.hadoop:hadoop-yarn-server-common:jar:2.5.0:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.hadoop:hadoop-mapreduce-client-common:jar:2.5.0:compile - omitted for duplicate)
+|  |  |  |  +- org.fusesource.leveldbjni:leveldbjni-all:jar:1.8:compile
+|  |  |  |  +- (com.google.protobuf:protobuf-java:jar:2.5.0:compile - omitted for duplicate)
+|  |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.5; omitted for duplicate)
+|  |  |  |  \- (org.slf4j:slf4j-log4j12:jar:1.7.25:compile - version managed from 1.7.5; omitted for duplicate)
+|  |  |  +- (com.google.protobuf:protobuf-java:jar:2.5.0:compile - omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.5; omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-log4j12:jar:1.7.25:compile - version managed from 1.7.5; omitted for duplicate)
+|  |  +- org.apache.hadoop:hadoop-yarn-api:jar:2.5.0:compile
+|  |  |  +- (commons-lang:commons-lang:jar:2.6:compile - version managed from 2.4; omitted for duplicate)
+|  |  |  +- (com.google.guava:guava:jar:14.0.1:compile - version managed from 11.0.2; omitted for duplicate)
+|  |  |  +- (commons-logging:commons-logging:jar:1.1.3:compile - omitted for conflict with 1.2)
+|  |  |  \- (com.google.protobuf:protobuf-java:jar:2.5.0:compile - omitted for duplicate)
+|  |  +- org.apache.hadoop:hadoop-mapreduce-client-core:jar:2.5.0:compile
+|  |  |  +- org.apache.hadoop:hadoop-yarn-common:jar:2.5.0:compile
+|  |  |  |  +- (org.apache.hadoop:hadoop-yarn-api:jar:2.5.0:compile - omitted for duplicate)
+|  |  |  |  +- (javax.xml.bind:jaxb-api:jar:2.2.2:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.commons:commons-compress:jar:1.4.1:compile - omitted for duplicate)
+|  |  |  |  +- (commons-lang:commons-lang:jar:2.6:compile - version managed from 2.4; omitted for duplicate)
+|  |  |  |  +- (javax.servlet:servlet-api:jar:2.5:compile - omitted for duplicate)
+|  |  |  |  +- (commons-codec:commons-codec:jar:1.10:compile - version managed from 1.4; omitted for duplicate)
+|  |  |  |  +- (com.sun.jersey:jersey-core:jar:1.9:compile - omitted for duplicate)
+|  |  |  |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile - omitted for duplicate)
+|  |  |  |  +- (org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:compile - omitted for duplicate)
+|  |  |  |  +- (org.codehaus.jackson:jackson-jaxrs:jar:1.9.13:compile - omitted for conflict with 1.8.3)
+|  |  |  |  +- (org.codehaus.jackson:jackson-xc:jar:1.9.13:compile - omitted for conflict with 1.8.3)
+|  |  |  |  +- (com.google.guava:guava:jar:14.0.1:compile - version managed from 11.0.2; omitted for duplicate)
+|  |  |  |  +- (commons-logging:commons-logging:jar:1.1.3:compile - omitted for conflict with 1.2)
+|  |  |  |  +- (commons-cli:commons-cli:jar:1.2:compile - omitted for duplicate)
+|  |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.5; omitted for duplicate)
+|  |  |  |  +- (com.google.protobuf:protobuf-java:jar:2.5.0:compile - omitted for duplicate)
+|  |  |  |  \- (commons-io:commons-io:jar:2.5:compile - version managed from 2.4; omitted for duplicate)
+|  |  |  +- (com.google.protobuf:protobuf-java:jar:2.5.0:compile - omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.5; omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-log4j12:jar:1.7.25:compile - version managed from 1.7.5; omitted for duplicate)
+|  |  +- org.apache.hadoop:hadoop-mapreduce-client-jobclient:jar:2.5.0:compile
+|  |  |  +- (org.apache.hadoop:hadoop-mapreduce-client-common:jar:2.5.0:compile - omitted for duplicate)
+|  |  |  +- (org.apache.hadoop:hadoop-mapreduce-client-shuffle:jar:2.5.0:compile - omitted for duplicate)
+|  |  |  +- (com.google.protobuf:protobuf-java:jar:2.5.0:compile - omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.5; omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-log4j12:jar:1.7.25:compile - version managed from 1.7.5; omitted for duplicate)
+|  |  \- org.apache.hadoop:hadoop-annotations:jar:2.5.0:compile
+|  +- org.apache.thrift:libthrift:jar:0.9.1:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.5.8; omitted for duplicate)
+|  |  +- (org.apache.commons:commons-lang3:jar:3.1:compile - omitted for conflict with 3.0)
+|  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.2:compile - version managed from 4.2.5; omitted for duplicate)
+|  |  \- (org.apache.httpcomponents:httpcore:jar:4.4.4:compile - version managed from 4.2.4; omitted for duplicate)
+|  +- org.apache.zookeeper:zookeeper:jar:3.4.6:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.6.1; omitted for duplicate)
+|  |  +- org.slf4j:slf4j-log4j12:jar:1.7.25:compile
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.6.1; omitted for duplicate)
+|  |  +- (jline:jline:jar:0.9.94:compile - omitted for conflict with 2.11)
+|  |  \- io.netty:netty:jar:3.7.0.Final:compile
+|  +- org.mpierce.metrics.reservoir:hdrhistogram-metrics-reservoir:jar:1.1.0:compile
+|  |  +- (io.dropwizard.metrics:metrics-core:jar:3.1.1:compile - omitted for duplicate)
+|  |  \- org.hdrhistogram:HdrHistogram:jar:2.1.4:compile
+|  \- org.slf4j:slf4j-api:jar:1.7.25:compile
++- org.openrdf.sesame:sesame-queryrender:jar:2.7.6:compile
+|  +- org.openrdf.sesame:sesame-query:jar:2.7.6:compile
+|  |  +- (org.openrdf.sesame:sesame-model:jar:2.7.6:compile - omitted for duplicate)
+|  |  \- (org.openrdf.sesame:sesame-rio-api:jar:2.7.6:compile - omitted for duplicate)
+|  +- org.openrdf.sesame:sesame-queryparser-api:jar:2.7.6:compile
+|  |  +- (org.openrdf.sesame:sesame-query:jar:2.7.6:compile - omitted for duplicate)
+|  |  +- (org.openrdf.sesame:sesame-queryalgebra-model:jar:2.7.6:compile - omitted for duplicate)
+|  |  \- (org.openrdf.sesame:sesame-util:jar:2.7.6:compile - omitted for duplicate)
+|  \- org.openrdf.sesame:sesame-queryalgebra-model:jar:2.7.6:compile
+|     +- (org.openrdf.sesame:sesame-model:jar:2.7.6:compile - omitted for duplicate)
+|     +- (org.openrdf.sesame:sesame-query:jar:2.7.6:compile - omitted for duplicate)
+|     \- (org.openrdf.sesame:sesame-util:jar:2.7.6:compile - omitted for duplicate)
++- org.openrdf.sesame:sesame-rio-ntriples:jar:2.7.6:compile
+|  +- org.openrdf.sesame:sesame-model:jar:2.7.6:compile
+|  |  \- (org.openrdf.sesame:sesame-util:jar:2.7.6:compile - omitted for duplicate)
+|  +- org.openrdf.sesame:sesame-rio-api:jar:2.7.6:compile
+|  |  +- (org.openrdf.sesame:sesame-model:jar:2.7.6:compile - omitted for duplicate)
+|  |  \- (org.openrdf.sesame:sesame-util:jar:2.7.6:compile - omitted for duplicate)
+|  +- org.openrdf.sesame:sesame-rio-datatypes:jar:2.7.6:runtime
+|  |  +- (org.openrdf.sesame:sesame-model:jar:2.7.6:runtime - omitted for duplicate)
+|  |  +- (org.openrdf.sesame:sesame-rio-api:jar:2.7.6:runtime - omitted for duplicate)
+|  |  \- (org.openrdf.sesame:sesame-util:jar:2.7.6:runtime - omitted for duplicate)
+|  +- org.openrdf.sesame:sesame-rio-languages:jar:2.7.6:runtime
+|  |  +- (org.openrdf.sesame:sesame-model:jar:2.7.6:runtime - omitted for duplicate)
+|  |  +- (org.openrdf.sesame:sesame-rio-api:jar:2.7.6:runtime - omitted for duplicate)
+|  |  \- (org.openrdf.sesame:sesame-util:jar:2.7.6:runtime - omitted for duplicate)
+|  \- commons-io:commons-io:jar:2.5:compile
++- org.openrdf.sesame:sesame-rio-trig:jar:2.7.6:compile
+|  +- (org.openrdf.sesame:sesame-model:jar:2.7.6:compile - omitted for duplicate)
+|  +- (org.openrdf.sesame:sesame-rio-api:jar:2.7.6:compile - omitted for duplicate)
+|  +- (org.openrdf.sesame:sesame-rio-turtle:jar:2.7.6:compile - omitted for duplicate)
+|  +- (org.openrdf.sesame:sesame-rio-datatypes:jar:2.7.6:runtime - omitted for duplicate)
+|  +- (org.openrdf.sesame:sesame-rio-languages:jar:2.7.6:runtime - omitted for duplicate)
+|  \- org.openrdf.sesame:sesame-util:jar:2.7.6:compile
+|     \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.6.1; omitted for duplicate)
++- org.openrdf.sesame:sesame-rio-turtle:jar:2.7.6:compile
+|  +- (org.openrdf.sesame:sesame-model:jar:2.7.6:compile - omitted for duplicate)
+|  +- (org.openrdf.sesame:sesame-rio-api:jar:2.7.6:compile - omitted for duplicate)
+|  +- (org.openrdf.sesame:sesame-rio-datatypes:jar:2.7.6:runtime - omitted for duplicate)
+|  +- (org.openrdf.sesame:sesame-rio-languages:jar:2.7.6:runtime - omitted for duplicate)
+|  +- (org.openrdf.sesame:sesame-util:jar:2.7.6:compile - omitted for duplicate)
+|  \- (commons-io:commons-io:jar:2.5:compile - version managed from 2.4; omitted for duplicate)
++- org.apache.logging.log4j:log4j-1.2-api:jar:2.5:compile
+|  +- (org.apache.logging.log4j:log4j-api:jar:2.5:compile - omitted for duplicate)
+|  \- (org.apache.logging.log4j:log4j-core:jar:2.5:compile - omitted for duplicate)
++- org.apache.logging.log4j:log4j-api:jar:2.5:compile
++- org.apache.logging.log4j:log4j-core:jar:2.5:compile
+|  \- (org.apache.logging.log4j:log4j-api:jar:2.5:compile - omitted for duplicate)
+\- junit:junit:jar:4.12:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

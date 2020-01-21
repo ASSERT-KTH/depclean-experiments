@@ -1,0 +1,9 @@
+org.restcomm.protocols.ss7.oam.common:jmx:jar:8.0.0-136
++- log4j:log4j:jar:1.2.14:compile
++- junit:junit:jar:3.8.1:provided
++- org.testng:testng:jar:6.2:test
+|  +- (junit:junit:jar:3.8.1:test - omitted for duplicate)
+|  +- org.beanshell:bsh:jar:1.3.0:test (version managed from 2.0b4)
+|  +- com.beust:jcommander:jar:1.12:test
+|  \- org.yaml:snakeyaml:jar:1.6:test
+\- javolution:javolution:jar:5.5.1:compile

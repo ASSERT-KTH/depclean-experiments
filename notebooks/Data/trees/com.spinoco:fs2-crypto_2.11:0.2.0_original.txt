@@ -1,0 +1,20 @@
+com.spinoco:fs2-crypto_2.11:jar:0.2.0
++- org.scala-lang:scala-library:jar:2.11.11:compile
++- co.fs2:fs2-core_2.11:jar:0.10.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for duplicate)
+|  \- org.typelevel:cats-effect_2.11:jar:0.8:compile
+|     +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for conflict with 2.11.11)
+|     \- org.typelevel:cats-core_2.11:jar:1.0.1:compile
+|        +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for conflict with 2.11.11)
+|        +- org.typelevel:cats-macros_2.11:jar:1.0.1:compile
+|        |  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for conflict with 2.11.11)
+|        |  \- (org.typelevel:machinist_2.11:jar:0.6.2:compile - omitted for duplicate)
+|        +- org.typelevel:cats-kernel_2.11:jar:1.0.1:compile
+|        |  \- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for conflict with 2.11.11)
+|        \- org.typelevel:machinist_2.11:jar:0.6.2:compile
+|           +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.11)
+|           \- org.scala-lang:scala-reflect:jar:2.11.8:compile
+|              \- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.11)
+\- co.fs2:fs2-io_2.11:jar:0.10.0:compile
+   +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for duplicate)
+   \- (co.fs2:fs2-core_2.11:jar:0.10.0:compile - omitted for duplicate)

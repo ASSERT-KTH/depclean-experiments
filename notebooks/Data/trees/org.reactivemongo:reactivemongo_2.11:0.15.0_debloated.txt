@@ -1,0 +1,49 @@
+org.reactivemongo:reactivemongo_2.11:jar:0.15.0
++- org.scala-lang:scala-library:jar:2.11.12:compile
++- org.reactivemongo:reactivemongo-bson-macros_2.11:jar:0.15.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  \- org.reactivemongo:reactivemongo-bson_2.11:jar:0.15.0:compile
+|     \- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
++- org.reactivemongo:reactivemongo-shaded:jar:0.15.0:compile
++- com.typesafe.akka:akka-actor_2.11:jar:2.3.13:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.5:compile - omitted for conflict with 2.11.12)
+|  \- com.typesafe:config:jar:1.2.1:compile
++- com.typesafe.akka:akka-testkit_2.11:jar:2.3.13:test
+|  +- (org.scala-lang:scala-library:jar:2.11.5:test - omitted for conflict with 2.11.12)
+|  \- (com.typesafe.akka:akka-actor_2.11:jar:2.3.13:test - omitted for duplicate)
++- com.typesafe.akka:akka-slf4j_2.11:jar:2.3.13:test
+|  +- (org.scala-lang:scala-library:jar:2.11.5:test - omitted for conflict with 2.11.12)
+|  +- (com.typesafe.akka:akka-actor_2.11:jar:2.3.13:test - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.5:test - omitted for conflict with 1.7.12)
++- dnsjava:dnsjava:jar:2.1.8:compile
++- com.typesafe.play:play-iteratees_2.11:jar:2.6.1:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.12)
+|  \- org.scala-stm:scala-stm_2.11:jar:0.8:compile
+|     \- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.12)
++- commons-codec:commons-codec:jar:1.11:compile
++- com.chuusai:shapeless_2.11:jar:2.3.3:test
+|  +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|  \- org.typelevel:macro-compat_2.11:jar:1.1.1:test
+|     \- (org.scala-lang:scala-library:jar:2.11.7:test - omitted for conflict with 2.11.12)
++- org.specs2:specs2-core_2.11:jar:4.2.0:test
+|  +- (org.scala-lang:scala-library:jar:2.11.11:test - omitted for conflict with 2.11.12)
+|  +- org.specs2:specs2-matcher_2.11:jar:4.2.0:test
+|  |  +- (org.scala-lang:scala-library:jar:2.11.11:test - omitted for conflict with 2.11.12)
+|  |  \- org.specs2:specs2-common_2.11:jar:4.2.0:test
+|  |     +- (org.scala-lang:scala-library:jar:2.11.11:test - omitted for conflict with 2.11.12)
+|  |     +- org.specs2:specs2-fp_2.11:jar:4.2.0:test
+|  |     |  \- (org.scala-lang:scala-library:jar:2.11.11:test - omitted for conflict with 2.11.12)
+|  |     +- org.scala-lang:scala-reflect:jar:2.11.11:test
+|  |     |  \- (org.scala-lang:scala-library:jar:2.11.11:test - omitted for conflict with 2.11.12)
+|  |     +- org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.1.0:test
+|  |     |  \- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|  |     \- org.scala-lang.modules:scala-xml_2.11:jar:1.0.6:test
+|  |        \- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.12)
+|  \- org.scala-sbt:test-interface:jar:1.0:test
++- org.slf4j:slf4j-api:jar:1.7.12:provided
++- org.apache.logging.log4j:log4j-api:jar:2.5:compile
++- org.apache.logging.log4j:log4j-core:jar:2.5:test
+|  \- (org.apache.logging.log4j:log4j-api:jar:2.5:test - omitted for duplicate)
+\- org.apache.logging.log4j:log4j-slf4j-impl:jar:2.5:test
+   +- (org.slf4j:slf4j-api:jar:1.7.12:test - omitted for duplicate)
+   \- (org.apache.logging.log4j:log4j-api:jar:2.5:test - omitted for duplicate)

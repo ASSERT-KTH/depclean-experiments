@@ -1,0 +1,31 @@
+com.github.isdream:cluster-dispatcher:jar:1.1.1
++- junit:junit:jar:3.8.1:test
++- io.fabric8:kubernetes-client:jar:3.1.7:compile
+|  +- io.fabric8:kubernetes-model:jar:2.0.4:compile
+|  |  +- com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.7.5:compile
+|  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.7.5:compile - omitted for conflict with 2.7.7)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.7.0:compile - omitted for duplicate)
+|  |  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.7.5:compile - omitted for conflict with 2.7.7)
+|  |  \- javax.validation:validation-api:jar:1.1.0.Final:compile
+|  +- com.squareup.okhttp3:okhttp:jar:3.9.0:compile
+|  |  \- com.squareup.okio:okio:jar:1.13.0:compile
+|  +- com.squareup.okhttp3:logging-interceptor:jar:3.9.0:compile
+|  |  \- (com.squareup.okhttp3:okhttp:jar:3.9.0:compile - omitted for duplicate)
+|  +- org.slf4j:slf4j-api:jar:1.7.13:compile
+|  +- org.slf4j:jul-to-slf4j:jar:1.7.13:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.13:compile - omitted for duplicate)
+|  +- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.7.7:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.7.7:compile - omitted for duplicate)
+|  |  \- (org.yaml:snakeyaml:jar:1.15:compile - omitted for conflict with 1.19)
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.7.7:compile
+|  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.7.0:compile
+|  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.7.7:compile - omitted for duplicate)
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.7.7:compile
+|  +- io.fabric8:zjsonpatch:jar:0.3.0:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.3.2:compile - omitted for conflict with 2.7.7)
+|  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.3.2:compile - omitted for conflict with 2.7.7)
+|  \- com.github.mifmif:generex:jar:1.0.1:compile
+|     \- dk.brics.automaton:automaton:jar:1.11-8:compile
++- io.fabric8:openshift-client:jar:3.1.7:compile
+|  \- (io.fabric8:kubernetes-client:jar:3.1.7:compile - omitted for duplicate)
+\- org.yaml:snakeyaml:jar:1.19:compile

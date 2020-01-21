@@ -1,0 +1,115 @@
+org.apache.jclouds.karaf:commands:bundle:2.1.0
++- org.apache.jclouds.karaf:cache:jar:2.1.0:compile
+|  +- (org.apache.jclouds.karaf:recipe:jar:2.1.0:compile - omitted for duplicate)
+|  +- (org.apache.jclouds.karaf:utils:jar:2.1.0:compile - omitted for duplicate)
+|  +- (org.osgi:org.osgi.core:jar:6.0.0:compile - omitted for duplicate)
+|  +- (org.osgi:osgi.cmpn:jar:6.0.0:compile - omitted for duplicate)
+|  +- (org.apache.jclouds:jclouds-compute:jar:2.1.0:compile - omitted for duplicate)
+|  +- (org.apache.jclouds:jclouds-blobstore:jar:2.1.0:compile - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:18.0:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.5.8:compile - version managed from 1.6.4; omitted for duplicate)
++- org.apache.jclouds.karaf:core:jar:2.1.0:compile
+|  +- (org.osgi:org.osgi.core:jar:6.0.0:compile - omitted for duplicate)
+|  +- (org.osgi:osgi.cmpn:jar:6.0.0:compile - omitted for duplicate)
+|  +- com.google.inject:guice:jar:3.0:compile
+|  |  +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  |  \- aopalliance:aopalliance:jar:1.0:compile
+|  +- (com.google.guava:guava:jar:18.0:compile - omitted for duplicate)
+|  +- (org.apache.jclouds:jclouds-core:jar:2.1.0:compile - omitted for duplicate)
+|  +- (org.apache.jclouds:jclouds-compute:jar:2.1.0:compile - omitted for duplicate)
+|  +- (org.apache.jclouds:jclouds-blobstore:jar:2.1.0:compile - omitted for duplicate)
+|  +- org.apache.jclouds:jclouds-scriptbuilder:jar:2.1.0:compile
+|  |  +- (org.apache.jclouds:jclouds-core:jar:2.1.0:compile - omitted for duplicate)
+|  |  \- (com.google.errorprone:error_prone_annotations:jar:2.1.0:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.5.8:compile - omitted for duplicate)
++- org.apache.jclouds.karaf:recipe:jar:2.1.0:compile
+|  +- (org.osgi:org.osgi.core:jar:6.0.0:compile - omitted for duplicate)
+|  +- (org.osgi:osgi.cmpn:jar:6.0.0:compile - omitted for duplicate)
+|  +- (org.apache.jclouds:jclouds-core:jar:2.1.0:compile - omitted for duplicate)
+|  +- (org.apache.jclouds:jclouds-scriptbuilder:jar:2.1.0:compile - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:18.0:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.5.8:compile - omitted for duplicate)
++- org.apache.jclouds.karaf:utils:jar:2.1.0:compile
+|  +- (org.apache.jclouds.karaf:core:jar:2.1.0:compile - omitted for duplicate)
+|  \- org.apache.jclouds.common:googlecloud:jar:2.1.0:compile
+|     +- org.apache.jclouds.api:oauth:jar:2.1.0:compile
+|     |  +- (org.apache.jclouds:jclouds-core:jar:2.1.0:compile - omitted for duplicate)
+|     |  \- (com.google.errorprone:error_prone_annotations:jar:2.1.0:compile - omitted for duplicate)
+|     \- (com.google.errorprone:error_prone_annotations:jar:2.1.0:compile - omitted for duplicate)
++- org.apache.jclouds.karaf:services:jar:2.1.0:compile
+|  +- (org.apache.jclouds.karaf:core:jar:2.1.0:compile - omitted for duplicate)
+|  +- (org.apache.jclouds:jclouds-core:jar:2.1.0:compile - omitted for duplicate)
+|  +- (org.apache.jclouds:jclouds-blobstore:jar:2.1.0:compile - omitted for duplicate)
+|  +- (org.apache.jclouds.driver:jclouds-log4j:jar:2.1.0:compile - omitted for duplicate)
+|  \- (org.apache.jclouds.driver:jclouds-jsch:jar:2.1.0:compile - omitted for duplicate)
++- org.apache.jclouds:jclouds-core:jar:2.1.0:compile
+|  +- javax.ws.rs:javax.ws.rs-api:jar:2.0.1:compile
+|  +- com.google.inject.extensions:guice-assistedinject:jar:3.0:compile
+|  |  \- (com.google.inject:guice:jar:3.0:compile - omitted for duplicate)
+|  +- (com.google.inject:guice:jar:3.0:compile - omitted for duplicate)
+|  +- javax.inject:javax.inject:jar:1:compile
+|  +- javax.annotation:jsr250-api:jar:1.0:compile
+|  +- com.google.code.gson:gson:jar:2.5:compile
+|  +- (com.google.guava:guava:jar:18.0:compile - omitted for duplicate)
+|  \- com.google.errorprone:error_prone_annotations:jar:2.1.0:compile
++- org.apache.jclouds:jclouds-compute:jar:2.1.0:compile
+|  +- (org.apache.jclouds:jclouds-scriptbuilder:jar:2.1.0:compile - omitted for duplicate)
+|  +- (org.apache.jclouds:jclouds-core:jar:2.1.0:compile - omitted for duplicate)
+|  \- (com.google.errorprone:error_prone_annotations:jar:2.1.0:compile - omitted for duplicate)
++- org.apache.jclouds:jclouds-blobstore:jar:2.1.0:compile
+|  +- (org.apache.jclouds:jclouds-core:jar:2.1.0:compile - omitted for duplicate)
+|  \- (com.google.errorprone:error_prone_annotations:jar:2.1.0:compile - omitted for duplicate)
++- org.apache.jclouds.api:ec2:jar:2.1.0:compile
+|  +- org.apache.jclouds.api:sts:jar:2.1.0:compile
+|  |  +- (org.apache.jclouds:jclouds-core:jar:2.1.0:compile - omitted for duplicate)
+|  |  \- (com.google.errorprone:error_prone_annotations:jar:2.1.0:compile - omitted for duplicate)
+|  +- (org.apache.jclouds:jclouds-compute:jar:2.1.0:compile - omitted for duplicate)
+|  \- (com.google.errorprone:error_prone_annotations:jar:2.1.0:compile - omitted for duplicate)
++- org.apache.jclouds.driver:jclouds-jsch:jar:2.1.0:compile
+|  +- (org.apache.jclouds:jclouds-compute:jar:2.1.0:compile - omitted for duplicate)
+|  +- (org.apache.jclouds:jclouds-core:jar:2.1.0:compile - omitted for duplicate)
+|  +- (org.apache.jclouds.driver:jclouds-slf4j:jar:2.1.0:compile - omitted for duplicate)
+|  +- com.jcraft:jsch:jar:0.1.54:compile (version managed from 0.1.49)
+|  +- com.jcraft:jsch.agentproxy.jsch:jar:0.0.9:compile
+|  |  +- (com.jcraft:jsch:jar:0.1.54:compile - version managed from 0.1.49; omitted for duplicate)
+|  |  \- com.jcraft:jsch.agentproxy.core:jar:0.0.9:compile
+|  +- com.jcraft:jsch.agentproxy.connector-factory:jar:0.0.9:compile
+|  |  +- (com.jcraft:jsch.agentproxy.core:jar:0.0.9:compile - omitted for duplicate)
+|  |  +- com.jcraft:jsch.agentproxy.usocket-jna:jar:0.0.9:compile
+|  |  |  +- (com.jcraft:jsch.agentproxy.core:jar:0.0.9:compile - omitted for duplicate)
+|  |  |  +- net.java.dev.jna:jna:jar:4.1.0:compile
+|  |  |  \- net.java.dev.jna:jna-platform:jar:4.1.0:compile
+|  |  |     \- (net.java.dev.jna:jna:jar:4.1.0:compile - omitted for duplicate)
+|  |  +- com.jcraft:jsch.agentproxy.usocket-nc:jar:0.0.9:compile
+|  |  |  \- (com.jcraft:jsch.agentproxy.core:jar:0.0.9:compile - omitted for duplicate)
+|  |  +- com.jcraft:jsch.agentproxy.sshagent:jar:0.0.9:compile
+|  |  |  \- (com.jcraft:jsch.agentproxy.core:jar:0.0.9:compile - omitted for duplicate)
+|  |  \- com.jcraft:jsch.agentproxy.pageant:jar:0.0.9:compile
+|  |     +- (com.jcraft:jsch.agentproxy.core:jar:0.0.9:compile - omitted for duplicate)
+|  |     +- (net.java.dev.jna:jna:jar:4.1.0:compile - omitted for duplicate)
+|  |     \- (net.java.dev.jna:jna-platform:jar:4.1.0:compile - omitted for duplicate)
+|  \- (com.google.errorprone:error_prone_annotations:jar:2.1.0:compile - omitted for duplicate)
++- org.apache.jclouds.driver:jclouds-slf4j:jar:2.1.0:compile
+|  +- (org.apache.jclouds:jclouds-core:jar:2.1.0:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.5.8:compile - version managed from 1.7.2; omitted for duplicate)
+|  \- (com.google.errorprone:error_prone_annotations:jar:2.1.0:compile - omitted for duplicate)
++- org.apache.jclouds.driver:jclouds-log4j:jar:2.1.0:compile
+|  +- (org.apache.jclouds:jclouds-core:jar:2.1.0:compile - omitted for duplicate)
+|  +- log4j:log4j:jar:1.2.17:compile
+|  \- (com.google.errorprone:error_prone_annotations:jar:2.1.0:compile - omitted for duplicate)
++- org.osgi:org.osgi.core:jar:6.0.0:compile
++- org.osgi:osgi.cmpn:jar:6.0.0:compile
++- org.apache.karaf.shell:org.apache.karaf.shell.console:jar:4.0.9:compile
+|  +- jline:jline:jar:2.14.1:compile
+|  +- org.apache.karaf.jaas:org.apache.karaf.jaas.modules:jar:4.0.9:compile
+|  |  \- org.apache.karaf.jaas:org.apache.karaf.jaas.config:jar:4.0.9:compile
+|  +- org.apache.karaf.jaas:org.apache.karaf.jaas.boot:jar:4.0.9:compile
+|  +- org.apache.karaf.shell:org.apache.karaf.shell.core:jar:4.0.9:compile
+|  |  +- (jline:jline:jar:2.14.1:compile - omitted for duplicate)
+|  |  +- (org.apache.karaf.jaas:org.apache.karaf.jaas.boot:jar:4.0.9:compile - omitted for duplicate)
+|  |  \- (org.apache.sshd:sshd-core:jar:0.14.0:compile - omitted for duplicate)
+|  \- org.apache.sshd:sshd-core:jar:0.14.0:compile
+|     \- (org.slf4j:slf4j-api:jar:1.5.8:compile - version managed from 1.6.4; omitted for duplicate)
++- com.google.guava:guava:jar:18.0:compile
++- org.codehaus.groovy:groovy:jar:2.4.4:compile
+\- org.slf4j:slf4j-api:jar:1.5.8:compile

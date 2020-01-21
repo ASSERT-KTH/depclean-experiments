@@ -1,0 +1,164 @@
+com.hp.autonomy.frontend:haven-search-components-core:jar:0.56.0
++- com.hp.autonomy.frontend:aci-types:jar:0.22.0:compile
+|  +- (org.apache.commons:commons-collections4:jar:4.0:compile - omitted for duplicate)
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.8.1:compile (version managed from 2.6.0)
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.8.1:compile (version managed from 2.6.0)
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.1:compile - version managed from 2.6.0; omitted for duplicate)
+|  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.8.1:compile - version managed from 2.6.0; omitted for duplicate)
+|  \- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.1:compile
++- com.hp.autonomy.aci.client:aci-annotations-processor:jar:1.0.0:compile
+|  +- com.hp.autonomy.aci.client:aci-api:jar:5.0.0:compile
+|  |  +- org.apache.httpcomponents:httpclient:jar:4.5.2:compile (version managed from 4.2.6)
+|  |  |  +- org.apache.httpcomponents:httpcore:jar:4.4.5:compile (version managed from 4.4.4)
+|  |  |  \- commons-codec:commons-codec:jar:1.10:compile (version managed from 1.9)
+|  |  +- org.slf4j:jcl-over-slf4j:jar:1.7.21:compile (version managed from 1.7.9)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.9; omitted for duplicate)
+|  |  +- (commons-lang:commons-lang:jar:2.6:compile - omitted for conflict with 2.5)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.10; omitted for duplicate)
+|  |  \- stax:stax:jar:1.2.0:compile
+|  |     \- stax:stax-api:jar:1.0.1:compile
+|  +- commons-lang:commons-lang:jar:2.5:compile
+|  \- org.slf4j:slf4j-api:jar:1.7.21:compile
++- com.hp.autonomy.frontend.configuration:configuration-impl:jar:2.1.3:compile
+|  +- com.hp.autonomy.frontend.configuration:configuration-api:jar:1.0.0:compile
+|  +- org.jasypt:jasypt:jar:1.9.0:compile
+|  +- org.mindrot:jbcrypt:jar:0.3m:compile
+|  +- (commons-lang:commons-lang:jar:2.5:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.7; omitted for duplicate)
++- com.hp.autonomy.aci.content:content-parameter-api:jar:3.0.1:compile
+|  +- (com.hp.autonomy.aci.client:aci-api:jar:5.0.1:compile - omitted for conflict with 5.0.0)
+|  +- org.apache.commons:commons-lang3:jar:3.4:compile
+|  \- (org.apache.commons:commons-collections4:jar:4.0:compile - omitted for duplicate)
++- com.hp.autonomy.frontend.configuration:configuration-authentication:jar:0.10.0:compile
+|  +- com.hp.autonomy.frontend.configuration:configuration-idol:jar:5.3.0:compile
+|  |  +- com.hp.autonomy.frontend:idol-types:jar:1.12.0:compile
+|  |  |  +- (com.hp.autonomy.frontend:aci-types:jar:0.22.0:compile - omitted for duplicate)
+|  |  |  +- (com.hp.autonomy.aci.client:aci-api:jar:6.0.0:compile - omitted for conflict with 5.0.0)
+|  |  |  +- org.jvnet.jaxb2_commons:jaxb2-basics-runtime:jar:0.9.5:compile
+|  |  |  +- net.sf.biweekly:biweekly:jar:0.4.1:compile
+|  |  |  +- (org.apache.commons:commons-lang3:jar:3.4:compile - omitted for duplicate)
+|  |  |  \- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+|  |  +- com.hp.autonomy.idol:indexing-api:jar:3.0.0:compile
+|  |  |  +- (org.apache.commons:commons-lang3:jar:3.3.2:compile - omitted for conflict with 3.4)
+|  |  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.2:compile - version managed from 4.3.6; omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  |  \- (org.slf4j:jcl-over-slf4j:jar:1.7.21:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  +- (com.hp.autonomy.frontend.configuration:configuration-impl:jar:2.1.1:compile - omitted for conflict with 2.1.3)
+|  |  +- (org.jasypt:jasypt:jar:1.9.0:compile - omitted for duplicate)
+|  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.1:compile - version managed from 2.8.3; omitted for duplicate)
+|  +- com.hp.autonomy.frontend.user:idol-user-service:jar:3.3.0:compile
+|  |  +- (com.hp.autonomy.frontend:aci-types:jar:0.19.2:compile - omitted for conflict with 0.22.0)
+|  |  +- (com.hp.autonomy.frontend:idol-types:jar:1.12.0:compile - omitted for duplicate)
+|  |  +- (com.hp.autonomy.aci.client:aci-api:jar:5.0.0:compile - omitted for duplicate)
+|  |  +- (com.hp.autonomy.frontend.configuration:configuration-api:jar:1.0.1:compile - omitted for conflict with 1.0.0)
+|  |  \- (joda-time:joda-time:jar:2.9.4:compile - version managed from 2.7; omitted for conflict with 2.3)
+|  \- org.springframework.security:spring-security-web:jar:4.1.1.RELEASE:compile (version managed from 3.2.5.RELEASE)
+|     +- aopalliance:aopalliance:jar:1.0:compile
+|     +- org.springframework.security:spring-security-core:jar:4.1.1.RELEASE:compile
+|     |  +- (aopalliance:aopalliance:jar:1.0:compile - omitted for duplicate)
+|     |  +- (org.springframework:spring-aop:jar:4.3.2.RELEASE:compile - version managed from 4.3.1.RELEASE; omitted for duplicate)
+|     |  +- (org.springframework:spring-beans:jar:4.3.2.RELEASE:compile - version managed from 4.3.1.RELEASE; omitted for duplicate)
+|     |  +- (org.springframework:spring-context:jar:4.3.2.RELEASE:compile - version managed from 4.3.1.RELEASE; omitted for duplicate)
+|     |  +- (org.springframework:spring-core:jar:4.3.2.RELEASE:compile - version managed from 4.3.1.RELEASE; omitted for duplicate)
+|     |  \- (org.springframework:spring-expression:jar:4.3.2.RELEASE:compile - version managed from 4.3.1.RELEASE; omitted for duplicate)
+|     +- org.springframework:spring-beans:jar:4.3.2.RELEASE:compile
+|     |  \- (org.springframework:spring-core:jar:4.3.2.RELEASE:compile - version managed from 4.3.1.RELEASE; omitted for duplicate)
+|     +- org.springframework:spring-context:jar:4.3.2.RELEASE:compile
+|     |  +- (org.springframework:spring-aop:jar:4.3.2.RELEASE:compile - version managed from 4.3.1.RELEASE; omitted for duplicate)
+|     |  +- (org.springframework:spring-beans:jar:4.3.2.RELEASE:compile - version managed from 4.3.1.RELEASE; omitted for duplicate)
+|     |  +- (org.springframework:spring-core:jar:4.3.2.RELEASE:compile - version managed from 4.3.1.RELEASE; omitted for duplicate)
+|     |  \- (org.springframework:spring-expression:jar:4.3.2.RELEASE:compile - version managed from 4.3.1.RELEASE; omitted for duplicate)
+|     +- (org.springframework:spring-core:jar:4.3.2.RELEASE:compile - version managed from 4.3.1.RELEASE; omitted for duplicate)
+|     +- org.springframework:spring-expression:jar:4.3.2.RELEASE:compile
+|     |  \- (org.springframework:spring-core:jar:4.3.2.RELEASE:compile - version managed from 4.3.1.RELEASE; omitted for duplicate)
+|     \- org.springframework:spring-web:jar:4.3.2.RELEASE:compile (version managed from 4.3.1.RELEASE)
+|        +- (org.springframework:spring-aop:jar:4.3.2.RELEASE:compile - version managed from 4.3.1.RELEASE; omitted for duplicate)
+|        +- (org.springframework:spring-beans:jar:4.3.2.RELEASE:compile - version managed from 4.3.1.RELEASE; omitted for duplicate)
+|        +- (org.springframework:spring-context:jar:4.3.2.RELEASE:compile - version managed from 4.3.1.RELEASE; omitted for duplicate)
+|        \- (org.springframework:spring-core:jar:4.3.2.RELEASE:compile - version managed from 4.3.1.RELEASE; omitted for duplicate)
++- com.hp.bigdata.frontend:spring-authentication-utils:jar:0.1.1:compile
++- org.springframework.boot:spring-boot-starter:jar:1.4.0.RELEASE:compile
+|  +- org.springframework.boot:spring-boot:jar:1.4.0.RELEASE:compile
+|  |  +- (org.springframework:spring-core:jar:4.3.2.RELEASE:compile - version managed from 4.3.1.RELEASE; omitted for duplicate)
+|  |  \- (org.springframework:spring-context:jar:4.3.2.RELEASE:compile - version managed from 4.3.1.RELEASE; omitted for duplicate)
+|  +- org.springframework.boot:spring-boot-autoconfigure:jar:1.4.0.RELEASE:compile
+|  |  \- (org.springframework.boot:spring-boot:jar:1.4.0.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework.boot:spring-boot-starter-logging:jar:1.4.0.RELEASE:compile
+|  |  +- ch.qos.logback:logback-classic:jar:1.1.7:compile
+|  |  |  +- ch.qos.logback:logback-core:jar:1.1.7:compile
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.20; omitted for duplicate)
+|  |  +- (org.slf4j:jcl-over-slf4j:jar:1.7.21:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  +- org.slf4j:jul-to-slf4j:jar:1.7.21:compile
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.20; omitted for duplicate)
+|  |  \- org.slf4j:log4j-over-slf4j:jar:1.7.21:compile
+|  |     \- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.20; omitted for duplicate)
+|  +- org.springframework:spring-core:jar:4.3.2.RELEASE:compile
+|  \- org.yaml:snakeyaml:jar:1.17:runtime
++- org.springframework.boot:spring-boot-starter-aop:jar:1.4.0.RELEASE:compile
+|  +- (org.springframework.boot:spring-boot-starter:jar:1.4.0.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework:spring-aop:jar:4.3.2.RELEASE:compile
+|  |  +- (org.springframework:spring-beans:jar:4.3.2.RELEASE:compile - version managed from 4.3.1.RELEASE; omitted for duplicate)
+|  |  \- (org.springframework:spring-core:jar:4.3.2.RELEASE:compile - version managed from 4.3.1.RELEASE; omitted for duplicate)
+|  \- org.aspectj:aspectjweaver:jar:1.8.9:compile
++- org.springframework.boot:spring-boot-starter-security:jar:1.4.0.RELEASE:compile
+|  +- (org.springframework.boot:spring-boot-starter:jar:1.4.0.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-aop:jar:4.3.2.RELEASE:compile - version managed from 4.3.1.RELEASE; omitted for duplicate)
+|  +- org.springframework.security:spring-security-config:jar:4.1.1.RELEASE:compile
+|  |  +- (org.springframework.security:spring-security-core:jar:4.1.1.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-aop:jar:4.3.2.RELEASE:compile - version managed from 4.3.1.RELEASE; omitted for duplicate)
+|  |  +- (org.springframework:spring-beans:jar:4.3.2.RELEASE:compile - version managed from 4.3.1.RELEASE; omitted for duplicate)
+|  |  +- (org.springframework:spring-context:jar:4.3.2.RELEASE:compile - version managed from 4.3.1.RELEASE; omitted for duplicate)
+|  |  \- (org.springframework:spring-core:jar:4.3.2.RELEASE:compile - version managed from 4.3.1.RELEASE; omitted for duplicate)
+|  \- (org.springframework.security:spring-security-web:jar:4.1.1.RELEASE:compile - version managed from 3.2.5.RELEASE; omitted for duplicate)
++- org.apache.commons:commons-collections4:jar:4.0:compile
++- commons-io:commons-io:jar:2.4:compile
++- com.google.guava:guava:jar:18.0:compile
++- joda-time:joda-time:jar:2.3:compile
++- com.fasterxml.jackson.datatype:jackson-datatype-joda:jar:2.8.1:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.1:compile - version managed from 2.8.0; omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.1:compile - version managed from 2.6.0; omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.1:compile - version managed from 2.8.3; omitted for duplicate)
+|  \- (joda-time:joda-time:jar:2.9.4:compile - version managed from 2.7; omitted for conflict with 2.3)
++- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.8.1:compile
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.1:compile - version managed from 2.6.0; omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.1:compile - version managed from 2.8.3; omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.1:compile - version managed from 2.8.0; omitted for duplicate)
++- javax:javaee-web-api:jar:7.0:compile
++- org.projectlombok:lombok:jar:1.16.10:provided
++- com.hp.autonomy.frontend.configuration:configuration-impl:test-jar:tests:2.1.3:test
+|  +- (com.hp.autonomy.frontend.configuration:configuration-api:jar:1.0.0:test - omitted for duplicate)
+|  +- (org.jasypt:jasypt:jar:1.9.0:test - omitted for duplicate)
+|  +- (org.mindrot:jbcrypt:jar:0.3m:test - omitted for duplicate)
+|  +- (commons-lang:commons-lang:jar:2.5:test - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.21:test - version managed from 1.7.7; omitted for duplicate)
++- org.springframework.boot:spring-boot-starter-test:jar:1.4.0.RELEASE:test
+|  +- org.springframework.boot:spring-boot-test:jar:1.4.0.RELEASE:test
+|  |  \- (org.springframework.boot:spring-boot:jar:1.4.0.RELEASE:test - omitted for duplicate)
+|  +- org.springframework.boot:spring-boot-test-autoconfigure:jar:1.4.0.RELEASE:test
+|  |  +- (org.springframework.boot:spring-boot-test:jar:1.4.0.RELEASE:test - omitted for duplicate)
+|  |  \- (org.springframework.boot:spring-boot-autoconfigure:jar:1.4.0.RELEASE:test - omitted for duplicate)
+|  +- com.jayway.jsonpath:json-path:jar:2.2.0:test
+|  |  +- net.minidev:json-smart:jar:2.2.1:test
+|  |  |  \- net.minidev:accessors-smart:jar:1.1:test
+|  |  |     \- org.ow2.asm:asm:jar:5.0.3:test
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.21:test - version managed from 1.7.16; omitted for duplicate)
+|  +- junit:junit:jar:4.12:test
+|  |  \- (org.hamcrest:hamcrest-core:jar:1.3:test - version managed from 1.1; omitted for duplicate)
+|  +- org.assertj:assertj-core:jar:2.5.0:test
+|  +- org.mockito:mockito-core:jar:1.10.19:test
+|  |  +- (org.hamcrest:hamcrest-core:jar:1.3:test - version managed from 1.1; omitted for duplicate)
+|  |  \- org.objenesis:objenesis:jar:2.1:test
+|  +- org.hamcrest:hamcrest-core:jar:1.3:test
+|  +- org.hamcrest:hamcrest-library:jar:1.3:test
+|  |  \- (org.hamcrest:hamcrest-core:jar:1.3:test - version managed from 1.1; omitted for duplicate)
+|  +- org.skyscreamer:jsonassert:jar:1.3.0:test
+|  |  \- org.json:json:jar:20140107:test (version managed from 20090211)
+|  +- (org.springframework:spring-core:jar:4.3.2.RELEASE:test - version managed from 4.3.1.RELEASE; omitted for duplicate)
+|  \- org.springframework:spring-test:jar:4.3.2.RELEASE:test
+|     \- (org.springframework:spring-core:jar:4.3.2.RELEASE:test - version managed from 4.3.1.RELEASE; omitted for duplicate)
++- javax.servlet:javax.servlet-api:jar:3.1.0:test
++- com.google.code.gson:gson:jar:2.7:test
+\- org.hibernate:hibernate-validator:jar:5.2.4.Final:test
+   +- javax.validation:validation-api:jar:1.1.0.Final:test
+   +- org.jboss.logging:jboss-logging:jar:3.3.0.Final:test (version managed from 3.2.1.Final)
+   \- com.fasterxml:classmate:jar:1.3.1:test (version managed from 1.1.0)

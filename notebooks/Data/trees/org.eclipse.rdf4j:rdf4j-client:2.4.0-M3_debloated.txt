@@ -1,0 +1,23 @@
+org.eclipse.rdf4j:rdf4j-client:jar:2.4.0-M3
++- org.apache.httpcomponents:httpclient:jar:4.5.5:compile
+|  \- (org.apache.httpcomponents:httpcore:jar:4.4.9:compile - omitted for duplicate)
++- org.apache.httpcomponents:httpcore:jar:4.4.9:compile
++- commons-codec:commons-codec:jar:1.10:runtime
++- org.slf4j:slf4j-api:jar:1.7.10:compile
++- com.fasterxml.jackson.core:jackson-core:jar:2.9.6:compile
++- com.opencsv:opencsv:jar:3.2:compile
+|  \- (org.apache.commons:commons-lang3:jar:3.3.2:compile - omitted for duplicate)
++- com.github.jsonld-java:jsonld-java:jar:0.12.0:compile
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.6:compile - version managed from 2.9.5; omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.6:compile - version managed from 2.9.5; omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.7.25; omitted for duplicate)
+|  +- (org.slf4j:jcl-over-slf4j:jar:1.7.10:runtime - version managed from 1.7.25; omitted for duplicate)
+|  \- (commons-io:commons-io:jar:2.5:compile - version managed from 2.6; omitted for duplicate)
++- com.fasterxml.jackson.core:jackson-databind:jar:2.9.6:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.6:compile - version managed from 2.9.0; omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.6:compile - version managed from 2.9.5; omitted for duplicate)
++- org.slf4j:jcl-over-slf4j:jar:1.7.10:runtime
+|  \- (org.slf4j:slf4j-api:jar:1.7.10:runtime - version managed from 1.7.25; omitted for duplicate)
++- org.apache.httpcomponents:httpclient-cache:jar:4.5.5:compile
+|  \- (org.apache.httpcomponents:httpclient:jar:4.5.5:compile - omitted for duplicate)
+\- commons-io:commons-io:jar:2.5:compile

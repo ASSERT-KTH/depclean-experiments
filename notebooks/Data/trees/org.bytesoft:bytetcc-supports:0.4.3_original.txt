@@ -1,0 +1,54 @@
+org.bytesoft:bytetcc-supports:jar:0.4.3
++- org.bytesoft:bytetcc-core:jar:0.4.3:compile
+|  +- org.bytesoft:bytetcc-common:jar:0.4.3:compile
+|  |  \- javax.transaction:javax.transaction-api:jar:1.2:compile
+|  +- org.bytesoft:bytejta-core:jar:0.4.0-rc3:compile
+|  |  +- (javax.transaction:javax.transaction-api:jar:1.2:compile - omitted for duplicate)
+|  |  +- javax.jms:javax.jms-api:jar:2.0:compile
+|  |  +- javax.resource:javax.resource-api:jar:1.7:compile
+|  |  |  \- (javax.transaction:javax.transaction-api:jar:1.2:compile - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.6:compile - omitted for duplicate)
+|  |  +- org.apache.commons:commons-lang3:jar:3.4:compile
+|  |  +- com.caucho:hessian:jar:4.0.38:compile
+|  |  +- (javax.annotation:javax.annotation-api:jar:1.2:compile - omitted for duplicate)
+|  |  \- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  +- org.slf4j:slf4j-api:jar:1.7.6:compile
+|  +- javax.annotation:javax.annotation-api:jar:1.2:compile
+|  \- javax.inject:javax.inject:jar:1:compile
++- org.bytesoft:bytejta-supports:jar:0.4.0-rc3:compile
+|  +- (org.bytesoft:bytejta-core:jar:0.4.0-rc3:compile - omitted for duplicate)
+|  +- (aopalliance:aopalliance:jar:1.0:compile - omitted for duplicate)
+|  +- (cglib:cglib:jar:2.2.2:compile - omitted for duplicate)
+|  \- (org.aspectj:aspectjweaver:jar:1.6.8:compile - omitted for duplicate)
++- javax.servlet:javax.servlet-api:jar:3.1.0:compile
++- org.springframework:spring-context:jar:4.3.7.RELEASE:compile
+|  +- (org.springframework:spring-aop:jar:4.3.7.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework:spring-beans:jar:4.3.7.RELEASE:compile
+|  |  \- (org.springframework:spring-core:jar:4.3.7.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework:spring-core:jar:4.3.7.RELEASE:compile
+|  |  \- commons-logging:commons-logging:jar:1.2:compile
+|  \- org.springframework:spring-expression:jar:4.3.7.RELEASE:compile
+|     \- (org.springframework:spring-core:jar:4.3.7.RELEASE:compile - omitted for duplicate)
++- org.springframework:spring-tx:jar:4.3.7.RELEASE:compile
+|  +- (org.springframework:spring-beans:jar:4.3.7.RELEASE:compile - omitted for duplicate)
+|  \- (org.springframework:spring-core:jar:4.3.7.RELEASE:compile - omitted for duplicate)
++- org.springframework:spring-jdbc:jar:4.3.7.RELEASE:compile
+|  +- (org.springframework:spring-beans:jar:4.3.7.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-core:jar:4.3.7.RELEASE:compile - omitted for duplicate)
+|  \- (org.springframework:spring-tx:jar:4.3.7.RELEASE:compile - omitted for duplicate)
++- org.springframework:spring-aop:jar:4.3.7.RELEASE:compile
+|  +- (org.springframework:spring-beans:jar:4.3.7.RELEASE:compile - omitted for duplicate)
+|  \- (org.springframework:spring-core:jar:4.3.7.RELEASE:compile - omitted for duplicate)
++- aopalliance:aopalliance:jar:1.0:compile
++- cglib:cglib:jar:2.2.2:compile
+|  \- asm:asm:jar:3.3.1:compile
++- org.aspectj:aspectjweaver:jar:1.6.8:compile
+\- org.apache.curator:curator-recipes:jar:2.11.0:compile
+   \- org.apache.curator:curator-framework:jar:2.11.0:compile
+      \- org.apache.curator:curator-client:jar:2.11.0:compile
+         +- org.apache.zookeeper:zookeeper:jar:3.4.6:compile
+         |  +- (org.slf4j:slf4j-api:jar:1.7.6:compile - version managed from 1.6.1; omitted for duplicate)
+         |  +- log4j:log4j:jar:1.2.16:compile
+         |  \- jline:jline:jar:0.9.94:compile
+         +- com.google.guava:guava:jar:16.0.1:compile
+         \- (org.slf4j:slf4j-api:jar:1.7.6:compile - version managed from 1.6.1; omitted for duplicate)

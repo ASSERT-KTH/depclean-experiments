@@ -1,0 +1,39 @@
+org.specs2:specs2-shapeless_2.13.0-M4:jar:4.3.0
++- org.scala-lang:scala-library:jar:2.13.0-M4:compile
++- org.specs2:specs2-matcher_2.13.0-M4:jar:4.3.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.13.0-M4:compile - omitted for duplicate)
+|  \- org.specs2:specs2-common_2.13.0-M4:jar:4.3.0:compile
+|     +- (org.scala-lang:scala-library:jar:2.13.0-M4:compile - omitted for duplicate)
+|     +- org.specs2:specs2-fp_2.13.0-M4:jar:4.3.0:compile
+|     |  \- (org.scala-lang:scala-library:jar:2.13.0-M4:compile - omitted for duplicate)
+|     +- org.scala-lang:scala-reflect:jar:2.13.0-M4:compile
+|     |  \- (org.scala-lang:scala-library:jar:2.13.0-M4:compile - omitted for duplicate)
+|     +- org.scala-lang.modules:scala-parser-combinators_2.13.0-M4:jar:1.1.1:compile
+|     |  \- (org.scala-lang:scala-library:jar:2.13.0-M4:compile - omitted for duplicate)
+|     \- org.scala-lang.modules:scala-xml_2.13.0-M4:jar:1.1.0:compile
+|        \- (org.scala-lang:scala-library:jar:2.13.0-M4:compile - omitted for duplicate)
++- org.specs2:specs2-matcher-extra_2.13.0-M4:jar:4.3.0:test
+|  +- (org.scala-lang:scala-library:jar:2.13.0-M4:test - omitted for duplicate)
+|  +- org.specs2:specs2-analysis_2.13.0-M4:jar:4.3.0:test
+|  |  +- org.scala-lang:scala-compiler:jar:2.13.0-M4:test
+|  |  |  +- (org.scala-lang:scala-library:jar:2.13.0-M4:test - omitted for duplicate)
+|  |  |  +- (org.scala-lang:scala-reflect:jar:2.13.0-M4:test - omitted for duplicate)
+|  |  |  \- jline:jline:jar:2.14.6:test
+|  |  +- (org.scala-lang:scala-library:jar:2.13.0-M4:test - omitted for duplicate)
+|  |  +- org.specs2:specs2-core_2.13.0-M4:jar:4.3.0:test
+|  |  |  +- (org.scala-lang:scala-library:jar:2.13.0-M4:test - omitted for duplicate)
+|  |  |  +- (org.specs2:specs2-matcher_2.13.0-M4:jar:4.3.0:test - omitted for duplicate)
+|  |  |  \- (org.scala-sbt:test-interface:jar:1.0:test - omitted for duplicate)
+|  |  +- (org.specs2:specs2-matcher_2.13.0-M4:jar:4.3.0:test - omitted for duplicate)
+|  |  +- org.specs2:classycle:jar:1.4.3:test
+|  |  \- (org.scala-sbt:test-interface:jar:1.0:test - omitted for duplicate)
+|  +- (org.specs2:specs2-matcher_2.13.0-M4:jar:4.3.0:test - omitted for duplicate)
+|  \- (org.scala-sbt:test-interface:jar:1.0:test - omitted for duplicate)
++- org.scala-sbt:test-interface:jar:1.0:compile
++- org.scala-js:scalajs-stubs_2.13.0-M4:jar:0.6.23:provided
+|  +- (org.scala-lang:scala-library:jar:2.13.0-M4:provided - omitted for duplicate)
+|  \- (org.scala-lang:scala-reflect:jar:2.13.0-M4:compile - scope updated from provided; omitted for duplicate)
+\- com.chuusai:shapeless_2.13.0-M4:jar:2.3.3:compile
+   +- (org.scala-lang:scala-library:jar:2.13.0-M4:compile - omitted for duplicate)
+   \- org.typelevel:macro-compat_2.13.0-M4:jar:1.1.1:compile
+      \- (org.scala-lang:scala-library:jar:2.13.0-M4:compile - omitted for duplicate)

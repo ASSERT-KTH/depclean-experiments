@@ -1,0 +1,17 @@
+com.consol.citrus.model:citrus-model-ws:jar:2.7.6
++- com.consol.citrus.model:citrus-model-core:jar:2.7.6:compile
++- javax.xml.bind:jaxb-api:jar:2.2.11:compile
++- com.sun.xml.bind:jaxb-impl:jar:2.2.11:compile
++- org.springframework:spring-test:jar:4.3.14.RELEASE:test
+|  \- org.springframework:spring-core:jar:4.3.14.RELEASE:test
+|     \- commons-logging:commons-logging:jar:1.2:provided
++- org.testng:testng:jar:6.14.3:test
+|  +- com.beust:jcommander:jar:1.72:test
+|  \- org.apache-extras.beanshell:bsh:jar:2.0b6:test
++- org.slf4j:slf4j-log4j12:jar:1.7.25:test
+|  \- log4j:log4j:jar:1.2.17:test
++- org.slf4j:jcl-over-slf4j:jar:1.7.25:test
+\- org.mockito:mockito-core:jar:2.13.0:test
+   +- net.bytebuddy:byte-buddy:jar:1.7.9:test
+   +- net.bytebuddy:byte-buddy-agent:jar:1.7.9:test
+   \- org.objenesis:objenesis:jar:2.6:test

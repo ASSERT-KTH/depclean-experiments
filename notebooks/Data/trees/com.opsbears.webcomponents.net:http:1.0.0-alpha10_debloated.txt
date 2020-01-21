@@ -1,0 +1,11 @@
+com.opsbears.webcomponents.net:http:jar:1.0.0-alpha10
++- com.opsbears.webcomponents:immutable:jar:1.0.0-alpha10:compile
+|  +- (com.google.code.findbugs:jsr305:jar:3.0.2:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
++- com.opsbears.webcomponents:mime:jar:1.0.0-alpha10:compile
+|  +- (com.google.code.findbugs:jsr305:jar:3.0.2:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
++- com.opsbears.webcomponents:net:jar:1.0.0-alpha10:compile
+|  +- (com.google.code.findbugs:jsr305:jar:3.0.2:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+\- com.google.code.findbugs:jsr305:jar:3.0.2:compile

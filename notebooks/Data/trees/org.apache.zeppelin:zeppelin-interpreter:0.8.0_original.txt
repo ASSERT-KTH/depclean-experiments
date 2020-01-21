@@ -1,0 +1,70 @@
+org.apache.zeppelin:zeppelin-interpreter:jar:0.8.0
++- org.apache.thrift:libthrift:jar:0.9.2:compile
+|  +- (org.slf4j:slf4j-api:jar:1.5.8:compile - omitted for conflict with 1.7.10)
+|  +- org.apache.httpcomponents:httpclient:jar:4.2.5:compile
+|  |  +- (org.apache.httpcomponents:httpcore:jar:4.2.4:compile - omitted for duplicate)
+|  |  +- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for duplicate)
+|  |  \- commons-codec:commons-codec:jar:1.6:compile
+|  \- org.apache.httpcomponents:httpcore:jar:4.2.4:compile
++- com.google.code.gson:gson:jar:2.8.5:compile
++- org.danilopianini:gson-extras:jar:0.2.1:compile
+|  \- (com.google.code.gson:gson:jar:2.8.5:compile - omitted for duplicate)
++- commons-configuration:commons-configuration:jar:1.9:compile
+|  +- (commons-lang:commons-lang:jar:2.6:compile - omitted for conflict with 2.5)
+|  \- commons-logging:commons-logging:jar:1.1.1:compile
++- org.apache.commons:commons-exec:jar:1.3:compile
++- org.apache.commons:commons-pool2:jar:2.3:compile
++- commons-lang:commons-lang:jar:2.5:compile
++- org.slf4j:slf4j-api:jar:1.7.10:compile
++- org.slf4j:slf4j-log4j12:jar:1.7.10:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.10:compile - omitted for duplicate)
+|  \- log4j:log4j:jar:1.2.17:compile
++- org.apache.maven:maven-plugin-api:jar:3.0:compile
+|  \- org.apache.maven:maven-artifact:jar:3.0:compile
++- org.sonatype.aether:aether-api:jar:1.12:compile
++- org.sonatype.aether:aether-util:jar:1.12:compile
+|  \- (org.sonatype.aether:aether-api:jar:1.12:compile - omitted for duplicate)
++- org.sonatype.aether:aether-impl:jar:1.12:compile
+|  +- (org.sonatype.aether:aether-api:jar:1.12:compile - omitted for duplicate)
+|  +- org.sonatype.aether:aether-spi:jar:1.12:compile
+|  |  \- (org.sonatype.aether:aether-api:jar:1.12:compile - omitted for duplicate)
+|  \- (org.sonatype.aether:aether-util:jar:1.12:compile - omitted for duplicate)
++- org.bouncycastle:bcpkix-jdk15on:jar:1.52:compile
+|  \- org.bouncycastle:bcprov-jdk15on:jar:1.52:compile
++- org.apache.maven:maven-aether-provider:jar:3.0.3:compile
+|  +- org.apache.maven:maven-model:jar:3.0.3:compile
+|  +- org.apache.maven:maven-model-builder:jar:3.0.3:compile
+|  |  +- org.codehaus.plexus:plexus-interpolation:jar:1.14:compile
+|  |  +- (org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile - omitted for duplicate)
+|  |  \- (org.apache.maven:maven-model:jar:3.0.3:compile - omitted for duplicate)
+|  +- org.apache.maven:maven-repository-metadata:jar:3.0.3:compile
+|  \- org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
++- org.sonatype.aether:aether-connector-file:jar:1.12:compile
+|  +- (org.sonatype.aether:aether-api:jar:1.12:compile - omitted for duplicate)
+|  +- (org.sonatype.aether:aether-spi:jar:1.12:compile - omitted for duplicate)
+|  \- (org.sonatype.aether:aether-util:jar:1.12:compile - omitted for duplicate)
++- org.sonatype.aether:aether-connector-wagon:jar:1.12:compile
+|  +- (org.sonatype.aether:aether-api:jar:1.12:compile - omitted for duplicate)
+|  +- (org.sonatype.aether:aether-spi:jar:1.12:compile - omitted for duplicate)
+|  +- (org.sonatype.aether:aether-util:jar:1.12:compile - omitted for duplicate)
+|  +- org.codehaus.plexus:plexus-classworlds:jar:2.4:compile
+|  +- org.codehaus.plexus:plexus-utils:jar:2.0.7:compile
+|  \- org.sonatype.sisu:sisu-inject-plexus:jar:2.2.2:compile
+|     +- (org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile - omitted for duplicate)
+|     +- (org.codehaus.plexus:plexus-classworlds:jar:2.4:compile - omitted for duplicate)
+|     +- (org.codehaus.plexus:plexus-utils:jar:2.0.7:compile - omitted for duplicate)
+|     \- org.sonatype.sisu:sisu-inject-bean:jar:2.2.2:compile
+|        \- org.sonatype.sisu:sisu-guice:jar:no_aop:3.0.2:compile
++- org.apache.maven.wagon:wagon-provider-api:jar:1.0:compile
++- org.apache.maven.wagon:wagon-http-lightweight:jar:1.0:compile
+|  \- (org.apache.maven.wagon:wagon-provider-api:jar:1.0:compile - omitted for duplicate)
++- org.apache.maven.wagon:wagon-http:jar:1.0:compile
+|  +- org.apache.maven.wagon:wagon-http-shared:jar:1.0:compile
+|  |  +- commons-httpclient:commons-httpclient:jar:3.1:compile
+|  |  |  \- (commons-codec:commons-codec:jar:1.2:compile - omitted for conflict with 1.6)
+|  |  +- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for duplicate)
+|  |  +- commons-io:commons-io:jar:2.0.1:compile
+|  |  +- org.jsoup:jsoup:jar:1.6.1:compile
+|  |  \- (org.apache.maven.wagon:wagon-provider-api:jar:1.0:compile - omitted for duplicate)
+|  \- (org.apache.maven.wagon:wagon-provider-api:jar:1.0:compile - omitted for duplicate)
+\- jline:jline:jar:2.12.1:compile

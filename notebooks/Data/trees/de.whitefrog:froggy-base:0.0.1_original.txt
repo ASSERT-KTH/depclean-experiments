@@ -1,0 +1,195 @@
+de.whitefrog:froggy-base:jar:0.0.1
++- org.neo4j:neo4j-enterprise:jar:3.3.1:compile
+|  +- org.neo4j:neo4j:jar:3.3.1:compile
+|  |  +- org.neo4j:neo4j-lucene-index:jar:3.3.1:compile
+|  |  |  +- org.apache.lucene:lucene-analyzers-common:jar:5.5.0:compile
+|  |  |  +- org.apache.lucene:lucene-core:jar:5.5.0:compile
+|  |  |  +- org.apache.lucene:lucene-queryparser:jar:5.5.0:compile
+|  |  |  \- org.apache.lucene:lucene-codecs:jar:5.5.0:compile
+|  |  +- org.neo4j:neo4j-graph-algo:jar:3.3.1:compile
+|  |  +- org.neo4j:neo4j-udc:jar:3.3.1:compile
+|  |  +- org.neo4j:neo4j-cypher:jar:3.3.1:compile
+|  |  |  +- org.scala-lang:scala-library:jar:2.11.11:compile
+|  |  |  +- org.scala-lang:scala-reflect:jar:2.11.11:compile
+|  |  |  +- org.neo4j:neo4j-graph-matching:jar:3.1.6:compile
+|  |  |  +- org.neo4j:neo4j-codegen:jar:3.3.1:compile
+|  |  |  |  +- org.ow2.asm:asm:jar:5.2:compile
+|  |  |  |  +- org.ow2.asm:asm-util:jar:5.2:compile
+|  |  |  |  +- org.ow2.asm:asm-analysis:jar:5.2:compile
+|  |  |  |  \- org.ow2.asm:asm-tree:jar:5.2:compile
+|  |  |  +- org.neo4j:neo4j-cypher-compiler-2.3:jar:2.3.11:compile
+|  |  |  |  +- org.neo4j:neo4j-cypher-frontend-2.3:jar:2.3.11:compile
+|  |  |  |  \- com.googlecode.concurrentlinkedhashmap:concurrentlinkedhashmap-lru:jar:1.4.2:compile
+|  |  |  +- org.neo4j:neo4j-cypher-compiler-3.1:jar:3.1.6:compile
+|  |  |  |  \- org.neo4j:neo4j-cypher-frontend-3.1:jar:3.1.6:compile
+|  |  |  +- org.neo4j:neo4j-cypher-compiler-3.2:jar:3.2.7:compile
+|  |  |  |  +- org.neo4j:neo4j-cypher-frontend-3.2:jar:3.2.7:compile
+|  |  |  |  \- org.neo4j:neo4j-cypher-ir-3.2:jar:3.2.7:compile
+|  |  |  +- org.neo4j:neo4j-cypher-compiler-3.3:jar:3.3.1:compile
+|  |  |  |  +- org.neo4j:neo4j-cypher-frontend-3.3:jar:3.3.1:compile
+|  |  |  |  +- org.neo4j:neo4j-cypher-ir-3.3:jar:3.3.1:compile
+|  |  |  |  \- org.neo4j:neo4j-cypher-logical-plans-3.3:jar:3.3.1:compile
+|  |  |  +- org.parboiled:parboiled-scala_2.11:jar:1.1.7:compile
+|  |  |  |  \- org.parboiled:parboiled-core:jar:1.1.7:compile
+|  |  |  \- net.sf.opencsv:opencsv:jar:2.3:compile
+|  |  +- org.neo4j:neo4j-jmx:jar:3.3.1:compile
+|  |  \- org.neo4j:neo4j-consistency-check:jar:3.3.1:compile
+|  +- org.neo4j:neo4j-query-logging:jar:3.3.1:compile
+|  +- org.neo4j:neo4j-com:jar:3.3.1:compile
+|  |  +- org.neo4j:neo4j-enterprise-kernel:jar:3.3.1:compile
+|  |  \- io.netty:netty:jar:3.9.9.Final:compile
+|  +- org.neo4j:neo4j-backup:jar:3.3.1:compile
+|  |  +- org.neo4j:neo4j-command-line:jar:3.3.1:compile
+|  |  |  \- org.apache.commons:commons-text:jar:1.1:compile
+|  |  +- org.neo4j:neo4j-dbms:jar:3.3.1:compile
+|  |  |  +- org.neo4j:neo4j-import-tool:jar:3.3.1:compile
+|  |  |  \- org.apache.commons:commons-compress:jar:1.12:compile
+|  |  \- org.neo4j:neo4j-cluster:jar:3.3.1:compile
+|  +- org.neo4j:neo4j-ha:jar:3.3.1:compile
+|  +- org.neo4j:neo4j-causal-clustering:jar:3.3.1:compile
+|  |  \- com.hazelcast:hazelcast-all:jar:3.7.5:compile
+|  +- org.neo4j:neo4j-metrics:jar:3.3.1:compile
+|  |  \- io.dropwizard.metrics:metrics-graphite:jar:3.1.2:compile
+|  +- org.neo4j:neo4j-management:jar:3.3.1:compile
+|  \- org.neo4j:neo4j-security-enterprise:jar:3.3.1:compile
+|     +- org.neo4j:neo4j-security:jar:3.3.1:compile
+|     +- org.neo4j:neo4j-auth-plugin-api:jar:3.3.1:compile
+|     +- org.apache.shiro:shiro-core:jar:1.4.0:compile
+|     |  +- org.apache.shiro:shiro-lang:jar:1.4.0:compile
+|     |  +- org.apache.shiro:shiro-cache:jar:1.4.0:compile
+|     |  +- org.apache.shiro:shiro-crypto-hash:jar:1.4.0:compile
+|     |  |  \- org.apache.shiro:shiro-crypto-core:jar:1.4.0:compile
+|     |  +- org.apache.shiro:shiro-crypto-cipher:jar:1.4.0:compile
+|     |  +- org.apache.shiro:shiro-config-core:jar:1.4.0:compile
+|     |  +- org.apache.shiro:shiro-config-ogdl:jar:1.4.0:compile
+|     |  \- org.apache.shiro:shiro-event:jar:1.4.0:compile
+|     \- com.github.ben-manes.caffeine:caffeine:jar:2.3.3:compile
++- org.neo4j:neo4j-bolt:jar:3.3.1:compile
+|  +- org.neo4j:neo4j-values:jar:3.3.1:compile
+|  +- org.neo4j:neo4j-kernel:jar:3.3.1:compile
+|  |  +- org.neo4j:neo4j-graphdb-api:jar:3.3.1:compile
+|  |  |  \- org.neo4j:neo4j-resource:jar:3.3.1:compile
+|  |  +- org.neo4j:neo4j-common:jar:3.3.1:compile
+|  |  +- org.neo4j:neo4j-collections:jar:3.3.1:compile
+|  |  +- org.neo4j:neo4j-primitive-collections:jar:3.3.1:compile
+|  |  |  \- org.neo4j:neo4j-unsafe:jar:3.3.1:compile
+|  |  +- org.neo4j:neo4j-io:jar:3.3.1:compile
+|  |  +- org.neo4j:neo4j-csv:jar:3.3.1:compile
+|  |  +- org.neo4j:neo4j-logging:jar:3.3.1:compile
+|  |  +- org.neo4j:neo4j-lucene-upgrade:jar:3.3.1:compile
+|  |  |  \- org.apache.lucene:lucene-backward-codecs:jar:5.5.0:compile
+|  |  +- org.neo4j:neo4j-configuration:jar:3.3.1:compile
+|  |  \- org.neo4j:neo4j-index:jar:3.3.1:compile
+|  +- org.neo4j:neo4j-ssl:jar:3.3.1:compile
+|  +- io.netty:netty-all:jar:4.1.17.Final:compile
+|  +- org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:compile
+|  |  \- org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile
+|  \- org.bouncycastle:bcpkix-jdk15on:jar:1.53:compile
+|     \- org.bouncycastle:bcprov-jdk15on:jar:1.53:compile
++- org.neo4j:neo4j-shell:jar:3.3.1:compile
+|  \- jline:jline:jar:2.12:compile
++- commons-configuration:commons-configuration:jar:1.10:compile
+|  +- commons-lang:commons-lang:jar:2.6:compile
+|  \- commons-logging:commons-logging:jar:1.1.1:compile
++- commons-validator:commons-validator:jar:1.4.0:compile
+|  +- commons-beanutils:commons-beanutils:jar:1.8.3:compile
+|  \- commons-digester:commons-digester:jar:1.8:compile
++- commons-collections:commons-collections:jar:3.2.1:compile
++- org.apache.commons:commons-lang3:jar:3.1:compile
++- org.slf4j:log4j-over-slf4j:jar:1.7.5:compile
+|  \- org.slf4j:slf4j-api:jar:1.7.5:compile
++- org.slf4j:jul-to-slf4j:jar:1.7.5:compile
++- org.slf4j:jcl-over-slf4j:jar:1.7.5:compile
++- ch.qos.logback:logback-classic:jar:1.1.7:compile
+|  \- ch.qos.logback:logback-core:jar:1.1.7:compile
++- com.fasterxml.uuid:java-uuid-generator:jar:3.1.3:compile
++- com.google.guava:guava:jar:18.0:compile
++- org.reflections:reflections:jar:0.9.10:compile
+|  +- org.javassist:javassist:jar:3.19.0-GA:compile
+|  \- com.google.code.findbugs:annotations:jar:2.0.1:compile
++- io.dropwizard:dropwizard-core:jar:1.0.6:compile
+|  +- io.dropwizard:dropwizard-util:jar:1.0.6:compile
+|  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.7.8:compile
+|  |  +- com.google.code.findbugs:jsr305:jar:3.0.1:compile
+|  |  \- joda-time:joda-time:jar:2.9.4:compile
+|  +- io.dropwizard:dropwizard-jackson:jar:1.0.6:compile
+|  |  +- com.fasterxml.jackson.core:jackson-core:jar:2.7.8:compile
+|  |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.7.8:compile
+|  |  +- com.fasterxml.jackson.datatype:jackson-datatype-guava:jar:2.7.8:compile
+|  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.7.8:compile
+|  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.7.8:compile
+|  |  +- com.fasterxml.jackson.module:jackson-module-afterburner:jar:2.7.8:compile
+|  |  \- com.fasterxml.jackson.datatype:jackson-datatype-joda:jar:2.7.8:compile
+|  +- io.dropwizard:dropwizard-validation:jar:1.0.6:compile
+|  |  +- org.hibernate:hibernate-validator:jar:5.2.4.Final:compile
+|  |  |  +- javax.validation:validation-api:jar:1.1.0.Final:compile
+|  |  |  +- org.jboss.logging:jboss-logging:jar:3.2.1.Final:compile
+|  |  |  \- com.fasterxml:classmate:jar:1.1.0:compile
+|  |  \- org.glassfish:javax.el:jar:3.0.0:compile
+|  +- io.dropwizard:dropwizard-configuration:jar:1.0.6:compile
+|  |  \- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.7.8:compile
+|  |     \- org.yaml:snakeyaml:jar:1.15:compile
+|  +- io.dropwizard:dropwizard-logging:jar:1.0.6:compile
+|  |  +- io.dropwizard.metrics:metrics-logback:jar:3.1.2:compile
+|  |  \- org.eclipse.jetty:jetty-util:jar:9.3.9.v20160517:compile
+|  +- io.dropwizard:dropwizard-metrics:jar:1.0.6:compile
+|  +- io.dropwizard:dropwizard-jersey:jar:1.0.6:compile
+|  |  +- org.glassfish.jersey.core:jersey-server:jar:2.23.2:compile
+|  |  |  +- org.glassfish.jersey.core:jersey-client:jar:2.23.2:compile
+|  |  |  +- javax.ws.rs:javax.ws.rs-api:jar:2.0.1:compile
+|  |  |  +- org.glassfish.jersey.media:jersey-media-jaxb:jar:2.23.2:compile
+|  |  |  +- javax.annotation:javax.annotation-api:jar:1.2:compile
+|  |  |  +- org.glassfish.hk2:hk2-api:jar:2.5.0-b05:compile
+|  |  |  |  +- org.glassfish.hk2:hk2-utils:jar:2.5.0-b05:compile
+|  |  |  |  \- org.glassfish.hk2.external:aopalliance-repackaged:jar:2.5.0-b05:compile
+|  |  |  +- org.glassfish.hk2.external:javax.inject:jar:2.5.0-b05:compile
+|  |  |  \- org.glassfish.hk2:hk2-locator:jar:2.5.0-b05:compile
+|  |  +- org.glassfish.jersey.ext:jersey-metainf-services:jar:2.23.2:compile
+|  |  +- org.glassfish.jersey.ext:jersey-bean-validation:jar:2.23.2:compile
+|  |  +- io.dropwizard.metrics:metrics-jersey2:jar:3.1.2:compile
+|  |  +- com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:jar:2.7.8:compile
+|  |  |  +- com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:jar:2.7.8:compile
+|  |  |  \- com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.7.8:compile
+|  |  +- org.glassfish.jersey.containers:jersey-container-servlet:jar:2.23.2:compile
+|  |  |  \- org.glassfish.jersey.containers:jersey-container-servlet-core:jar:2.23.2:compile
+|  |  +- org.eclipse.jetty:jetty-server:jar:9.3.9.v20160517:compile
+|  |  |  +- javax.servlet:javax.servlet-api:jar:3.1.0:compile
+|  |  |  \- org.eclipse.jetty:jetty-io:jar:9.3.9.v20160517:compile
+|  |  +- org.eclipse.jetty:jetty-webapp:jar:9.3.9.v20160517:compile
+|  |  |  \- org.eclipse.jetty:jetty-xml:jar:9.3.9.v20160517:compile
+|  |  \- org.eclipse.jetty:jetty-continuation:jar:9.3.9.v20160517:compile
+|  +- io.dropwizard:dropwizard-servlets:jar:1.0.6:compile
+|  |  \- io.dropwizard.metrics:metrics-annotation:jar:3.1.2:compile
+|  +- io.dropwizard:dropwizard-jetty:jar:1.0.6:compile
+|  |  +- io.dropwizard.metrics:metrics-jetty9:jar:3.1.2:compile
+|  |  +- org.eclipse.jetty:jetty-servlet:jar:9.3.9.v20160517:compile
+|  |  |  \- org.eclipse.jetty:jetty-security:jar:9.3.9.v20160517:compile
+|  |  +- org.eclipse.jetty:jetty-servlets:jar:9.3.9.v20160517:compile
+|  |  \- org.eclipse.jetty:jetty-http:jar:9.3.9.v20160517:compile
+|  +- io.dropwizard:dropwizard-lifecycle:jar:1.0.6:compile
+|  +- io.dropwizard.metrics:metrics-core:jar:3.1.2:compile
+|  +- io.dropwizard.metrics:metrics-jvm:jar:3.1.2:compile
+|  +- io.dropwizard.metrics:metrics-servlets:jar:3.1.2:compile
+|  |  \- io.dropwizard.metrics:metrics-json:jar:3.1.2:compile
+|  +- io.dropwizard.metrics:metrics-healthchecks:jar:3.1.2:compile
+|  +- io.dropwizard:dropwizard-request-logging:jar:1.0.6:compile
+|  |  \- ch.qos.logback:logback-access:jar:1.1.7:compile
+|  +- net.sourceforge.argparse4j:argparse4j:jar:0.7.0:compile
+|  \- org.eclipse.jetty.toolchain.setuid:jetty-setuid-java:jar:1.0.3:compile
++- io.dropwizard:dropwizard-forms:jar:1.0.6:compile
+|  \- org.glassfish.jersey.media:jersey-media-multipart:jar:2.23.2:compile
+|     +- org.glassfish.jersey.core:jersey-common:jar:2.23.2:compile
+|     |  +- org.glassfish.jersey.bundles.repackaged:jersey-guava:jar:2.23.2:compile
+|     |  \- org.glassfish.hk2:osgi-resource-locator:jar:1.0.1:compile
+|     \- org.jvnet.mimepull:mimepull:jar:1.9.6:compile
++- org.jetbrains.kotlin:kotlin-stdlib-jdk8:jar:1.2.10:compile
+|  +- org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.10:compile
+|  |  \- org.jetbrains:annotations:jar:13.0:compile
+|  \- org.jetbrains.kotlin:kotlin-stdlib-jdk7:jar:1.2.10:compile
++- com.github.zafarkhaja:java-semver:jar:0.9.0:compile
++- javax.mail:mail:jar:1.4.7:compile
+|  \- javax.activation:activation:jar:1.1:compile
++- junit:junit:jar:4.11:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.assertj:assertj-core:jar:1.3.0:test
+\- org.jetbrains.kotlin:kotlin-test:jar:1.2.10:test

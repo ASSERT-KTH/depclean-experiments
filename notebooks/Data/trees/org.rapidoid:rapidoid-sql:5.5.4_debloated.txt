@@ -1,0 +1,38 @@
+org.rapidoid:rapidoid-sql:jar:5.5.4
++- org.rapidoid:rapidoid-commons:jar:5.5.4:compile
+|  +- org.rapidoid:rapidoid-essentials:jar:5.5.4:compile
+|  +- org.javassist:javassist:jar:3.22.0-GA:compile
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.8.5:compile
+|  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile
+|  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.8.5:compile
+|  +- com.fasterxml.jackson.module:jackson-module-afterburner:jar:2.8.5:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.5:compile - omitted for duplicate)
+|  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.5:compile - omitted for duplicate)
+|  +- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.8.5:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.5:compile - omitted for duplicate)
+|  |  \- org.yaml:snakeyaml:jar:1.17:compile
+|  +- com.fasterxml.jackson.dataformat:jackson-dataformat-xml:jar:2.8.5:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.5:compile - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.5:compile - omitted for duplicate)
+|  |  +- com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.8.5:compile
+|  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.5:compile - omitted for duplicate)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.5:compile - omitted for conflict with 2.8.0)
+|  |  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.5:compile - omitted for duplicate)
+|  |  +- org.codehaus.woodstox:stax2-api:jar:3.1.4:compile
+|  |  \- com.fasterxml.woodstox:woodstox-core:jar:5.0.3:compile
+|  |     \- (org.codehaus.woodstox:stax2-api:jar:3.1.4:compile - omitted for duplicate)
+|  \- javax.inject:javax.inject:jar:1:compile
++- com.zaxxer:HikariCP:jar:2.6.1:compile
+|  \- org.slf4j:slf4j-api:jar:1.7.22:compile
++- com.mchange:c3p0:jar:0.9.5.2:compile
+|  \- com.mchange:mchange-commons-java:jar:0.2.11:compile
++- org.rapidoid:rapidoid-test-commons:jar:5.5.4:test
+|  +- junit:junit:jar:4.12:test
+|  |  \- org.hamcrest:hamcrest-core:jar:1.3:test
+|  \- org.mockito:mockito-core:jar:1.8.5:test
+|     +- (org.hamcrest:hamcrest-core:jar:1.1:test - omitted for conflict with 1.3)
+|     \- org.objenesis:objenesis:jar:1.0:test
++- mysql:mysql-connector-java:jar:5.1.41:test
++- com.h2database:h2:jar:1.4.187:test
+\- org.hsqldb:hsqldb:jar:2.3.3:test

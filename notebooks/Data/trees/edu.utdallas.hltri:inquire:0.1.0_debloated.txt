@@ -1,0 +1,158 @@
+edu.utdallas.hltri:inquire:jar:0.1.0
++- org.apache.lucene:lucene-core:jar:6.6.6:compile
++- org.apache.lucene:lucene-queryparser:jar:6.6.6:compile
+|  +- (org.apache.lucene:lucene-core:jar:6.6.6:compile - omitted for duplicate)
+|  +- (org.apache.lucene:lucene-queries:jar:6.6.6:compile - omitted for duplicate)
+|  \- org.apache.lucene:lucene-sandbox:jar:6.6.6:compile
++- org.apache.lucene:lucene-analyzers-common:jar:6.6.6:compile
+|  \- (org.apache.lucene:lucene-core:jar:6.6.6:compile - omitted for duplicate)
++- org.apache.lucene:lucene-backward-codecs:jar:6.6.6:compile
+|  \- (org.apache.lucene:lucene-core:jar:6.6.6:compile - omitted for duplicate)
++- org.apache.lucene:lucene-queries:jar:6.6.6:compile
+|  \- (org.apache.lucene:lucene-core:jar:6.6.6:compile - omitted for duplicate)
++- org.apache.lucene:lucene-benchmark:jar:6.6.6:compile
+|  +- (org.apache.lucene:lucene-analyzers-common:jar:6.6.6:compile - omitted for duplicate)
+|  +- org.apache.lucene:lucene-codecs:jar:6.6.6:compile
+|  +- (org.apache.lucene:lucene-core:jar:6.6.6:compile - omitted for duplicate)
+|  +- org.apache.lucene:lucene-facet:jar:6.6.6:compile
+|  +- org.apache.lucene:lucene-highlighter:jar:6.6.6:compile
+|  +- org.apache.lucene:lucene-join:jar:6.6.6:compile
+|  +- org.apache.lucene:lucene-memory:jar:6.6.6:compile
+|  +- (org.apache.lucene:lucene-queries:jar:6.6.6:compile - omitted for duplicate)
+|  +- (org.apache.lucene:lucene-queryparser:jar:6.6.6:compile - omitted for duplicate)
+|  +- org.apache.lucene:lucene-spatial-extras:jar:6.6.6:compile
+|  +- com.ibm.icu:icu4j:jar:56.1:compile
+|  +- net.sourceforge.nekohtml:nekohtml:jar:1.9.17:compile
+|  +- org.apache.commons:commons-compress:jar:1.14:compile
+|  +- org.locationtech.spatial4j:spatial4j:jar:0.6:compile
+|  \- xerces:xercesImpl:jar:2.9.1:compile
++- com.google.code.findbugs:jsr305:jar:3.0.2:compile
++- org.apache.commons:commons-math3:jar:3.5:compile
++- org.apache.commons:commons-lang3:jar:3.4:compile
++- net.sf.trove4j:trove4j:jar:3.0.3:compile
++- info.picocli:picocli:jar:0.9.7:compile
++- edu.utdallas.hltri:hltri-util:jar:1.0.1:compile
+|  +- com.google.guava:guava:jar:22.0-rc1-android:compile
+|  |  +- (com.google.code.findbugs:jsr305:jar:3.0.2:compile - omitted for duplicate)
+|  |  +- (com.google.errorprone:error_prone_annotations:jar:2.0.18:compile - omitted for conflict with 2.0.15)
+|  |  +- com.google.j2objc:j2objc-annotations:jar:1.1:compile
+|  |  \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:compile
+|  +- (com.google.code.findbugs:jsr305:jar:3.0.2:compile - omitted for duplicate)
+|  +- com.google.errorprone:error_prone_annotations:jar:2.0.15:compile
+|  +- org.apache.logging.log4j:log4j-api:jar:2.7:compile
+|  +- org.apache.logging.log4j:log4j-core:jar:2.7:compile
+|  |  \- (org.apache.logging.log4j:log4j-api:jar:2.7:compile - omitted for duplicate)
+|  +- org.apache.logging.log4j:log4j-jcl:jar:2.7:compile
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for conflict with 1.1.1)
+|  |  \- (org.apache.logging.log4j:log4j-api:jar:2.7:compile - omitted for duplicate)
+|  +- org.apache.logging.log4j:log4j-1.2-api:jar:2.7:compile
+|  |  +- (org.apache.logging.log4j:log4j-api:jar:2.7:compile - omitted for duplicate)
+|  |  \- (org.apache.logging.log4j:log4j-core:jar:2.7:compile - omitted for duplicate)
+|  +- org.apache.logging.log4j:log4j-slf4j-impl:jar:2.7:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for conflict with 1.7.7)
+|  |  \- (org.apache.logging.log4j:log4j-api:jar:2.7:compile - omitted for duplicate)
+|  +- org.apache.logging.log4j:log4j-jul:jar:2.7:compile
+|  |  \- (org.apache.logging.log4j:log4j-api:jar:2.7:compile - omitted for duplicate)
+|  +- org.apache.logging.log4j:log4j-web:jar:2.7:compile
+|  |  +- (org.apache.logging.log4j:log4j-api:jar:2.7:compile - omitted for duplicate)
+|  |  \- (org.apache.logging.log4j:log4j-core:jar:2.7:compile - omitted for duplicate)
+|  +- org.slf4j:slf4j-api:jar:1.7.7:compile
+|  +- com.lmax:disruptor:jar:3.3.5:compile
+|  +- com.googlecode.concurrent-trees:concurrent-trees:jar:2.4.0:compile
+|  +- (net.sf.trove4j:trove4j:jar:3.0.3:compile - omitted for duplicate)
+|  +- it.unimi.dsi:fastutil:jar:7.0.12:compile
+|  +- com.typesafe:config:jar:1.3.4:compile
+|  +- com.google.code.externalsortinginjava:externalsortinginjava:jar:0.1.10:compile
+|  +- joda-time:joda-time:jar:2.3:compile
+|  +- (info.picocli:picocli:jar:1.0.0:compile - omitted for conflict with 0.9.7)
+|  \- org.apache.commons:commons-csv:jar:1.4:compile
++- edu.utdallas.hltri:hltri-ml-api:jar:1.0.0:compile
+|  +- org.scala-lang:scala-library:jar:2.11.8:compile
+|  \- (edu.utdallas.hltri:hltri-util:jar:1.0.1:compile - omitted for duplicate)
+\- edu.utdallas.hltri:scribe:jar:0.3.1:compile
+   +- net.sf.jung:jung-graph-impl:jar:2.0.1:compile
+   |  +- net.sf.jung:jung-api:jar:2.0.1:compile
+   |  |  \- (net.sourceforge.collections:collections-generic:jar:4.01:compile - omitted for duplicate)
+   |  \- net.sourceforge.collections:collections-generic:jar:4.01:compile
+   +- net.sf.jung:jung-algorithms:jar:2.0.1:compile
+   |  +- (net.sf.jung:jung-api:jar:2.0.1:compile - omitted for duplicate)
+   |  +- (net.sourceforge.collections:collections-generic:jar:4.01:compile - omitted for duplicate)
+   |  \- colt:colt:jar:1.2.0:compile
+   +- (edu.utdallas.hltri:hltri-util:jar:1.0.1:compile - omitted for duplicate)
+   +- edu.mit:jwi:jar:2.2.3:compile
+   +- (org.jdom:jdom2:jar:2.0.5:compile - omitted for duplicate)
+   +- uk.ac.gate:gate-core:jar:8.0:compile
+   |  +- uk.ac.gate:gate-asm:jar:3.1:compile
+   |  +- uk.ac.gate:gate-compiler-jdt:jar:4.3.2-P20140317-1600:compile
+   |  +- commons-lang:commons-lang:jar:2.6:compile
+   |  +- commons-io:commons-io:jar:2.4:compile
+   |  +- (org.jdom:jdom:jar:1.1.3:compile - omitted for conflict with 1.1)
+   |  +- (net.sourceforge.nekohtml:nekohtml:jar:1.9.14:compile - omitted for conflict with 1.9.17)
+   |  +- org.apache.tika:tika-parsers:jar:1.5:runtime
+   |  |  +- org.apache.tika:tika-core:jar:1.5:runtime
+   |  |  +- org.apache.james:apache-mime4j-core:jar:0.7.2:runtime
+   |  |  +- org.apache.james:apache-mime4j-dom:jar:0.7.2:runtime
+   |  |  |  \- (org.apache.james:apache-mime4j-core:jar:0.7.2:runtime - omitted for duplicate)
+   |  |  +- (org.apache.commons:commons-compress:jar:1.5:runtime - omitted for conflict with 1.14)
+   |  |  +- commons-codec:commons-codec:jar:1.5:runtime
+   |  |  +- org.apache.pdfbox:pdfbox:jar:1.8.4:runtime
+   |  |  |  +- org.apache.pdfbox:fontbox:jar:1.8.4:runtime
+   |  |  |  \- org.apache.pdfbox:jempbox:jar:1.8.4:runtime
+   |  |  +- org.bouncycastle:bcmail-jdk15:jar:1.45:runtime
+   |  |  |  \- (org.bouncycastle:bcprov-jdk15:jar:1.45:runtime - omitted for duplicate)
+   |  |  +- org.bouncycastle:bcprov-jdk15:jar:1.45:runtime
+   |  |  +- org.apache.poi:poi:jar:3.10-beta2:runtime
+   |  |  |  \- (commons-codec:commons-codec:jar:1.5:runtime - omitted for duplicate)
+   |  |  +- org.apache.poi:poi-scratchpad:jar:3.10-beta2:runtime
+   |  |  |  \- (org.apache.poi:poi:jar:3.10-beta2:runtime - omitted for duplicate)
+   |  |  +- org.apache.poi:poi-ooxml:jar:3.10-beta2:runtime
+   |  |  |  +- (org.apache.poi:poi:jar:3.10-beta2:runtime - omitted for duplicate)
+   |  |  |  +- org.apache.poi:poi-ooxml-schemas:jar:3.10-beta2:runtime
+   |  |  |  |  \- org.apache.xmlbeans:xmlbeans:jar:2.3.0:runtime
+   |  |  |  \- dom4j:dom4j:jar:1.6.1:runtime
+   |  |  \- com.drewnoakes:metadata-extractor:jar:2.6.2:runtime
+   |  |     \- (xerces:xercesImpl:jar:2.8.1:runtime - omitted for conflict with 2.9.1)
+   |  +- org.codehaus.woodstox:woodstox-core-lgpl:jar:4.2.0:compile
+   |  |  \- org.codehaus.woodstox:stax2-api:jar:3.1.1:compile
+   |  +- org.apache.ivy:ivy:jar:2.3.0:compile
+   |  +- org.apache.ant:ant:jar:1.9.3:compile
+   |  |  \- org.apache.ant:ant-launcher:jar:1.9.3:compile
+   |  +- com.thoughtworks.xstream:xstream:jar:1.4.7:compile
+   |  +- xpp3:xpp3:jar:1.1.4c:runtime
+   |  +- jaxen:jaxen:jar:1.1.6:runtime
+   |  +- gnu.getopt:java-getopt:jar:1.0.13:compile
+   |  +- org.springframework:spring-aop:jar:2.5.6.SEC01:compile
+   |  |  +- aopalliance:aopalliance:jar:1.0:compile
+   |  |  +- org.springframework:spring-beans:jar:2.5.6.SEC01:compile
+   |  |  |  \- (org.springframework:spring-core:jar:2.5.6.SEC01:compile - omitted for duplicate)
+   |  |  \- org.springframework:spring-core:jar:2.5.6.SEC01:compile
+   |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.3.2:compile
+   |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.3.0:compile
+   |  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.3.2:compile - omitted for conflict with 2.6.1)
+   |  +- org.xhtmlrenderer:flying-saucer-core:jar:9.0.4:compile
+   |  +- xmlunit:xmlunit:jar:1.5:compile
+   |  \- (junit:junit:jar:4.11:compile - omitted for conflict with 4.10)
+   +- edu.stanford.nlp:stanford-corenlp:jar:3.6.0:compile
+   |  +- com.io7m.xom:xom:jar:1.2.10:compile
+   |  |  +- xml-apis:xml-apis:jar:1.3.03:compile
+   |  |  +- (xerces:xercesImpl:jar:2.8.0:compile - omitted for conflict with 2.9.1)
+   |  |  \- xalan:xalan:jar:2.7.0:compile
+   |  |     \- (xml-apis:xml-apis:jar:1.0.b2:compile - omitted for conflict with 1.3.03)
+   |  +- (joda-time:joda-time:jar:2.9:compile - omitted for conflict with 2.3)
+   |  +- de.jollyday:jollyday:jar:0.4.7:compile
+   |  |  +- (joda-time:joda-time:jar:2.1:compile - omitted for conflict with 2.3)
+   |  |  \- javax.xml.bind:jaxb-api:jar:2.2.7:compile
+   |  +- com.googlecode.efficient-java-matrix-library:ejml:jar:0.23:compile
+   |  +- javax.json:javax.json-api:jar:1.0:compile
+   |  \- (org.slf4j:slf4j-api:jar:1.7.12:compile - omitted for conflict with 1.7.7)
+   +- edu.stanford.nlp:stanford-corenlp:jar:models:3.6.0:compile
+   |  +- (com.io7m.xom:xom:jar:1.2.10:compile - omitted for duplicate)
+   |  +- (joda-time:joda-time:jar:2.9:compile - omitted for conflict with 2.3)
+   |  +- (de.jollyday:jollyday:jar:0.4.7:compile - omitted for duplicate)
+   |  +- (com.googlecode.efficient-java-matrix-library:ejml:jar:0.23:compile - omitted for duplicate)
+   |  +- (javax.json:javax.json-api:jar:1.0:compile - omitted for duplicate)
+   |  \- (org.slf4j:slf4j-api:jar:1.7.12:compile - omitted for conflict with 1.7.7)
+   +- (com.google.code.findbugs:jsr305:jar:3.0.2:compile - omitted for duplicate)
+   +- com.fasterxml.jackson.core:jackson-core:jar:2.6.1:compile
+   +- (org.apache.commons:commons-compress:jar:1.9:compile - omitted for conflict with 1.14)
+   \- org.tukaani:xz:jar:1.5:compile

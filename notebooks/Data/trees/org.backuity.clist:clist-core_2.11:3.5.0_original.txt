@@ -1,0 +1,18 @@
+org.backuity.clist:clist-core_2.11:jar:3.5.0
++- org.scala-lang:scala-library:jar:2.11.11:compile
++- org.backuity:matchete-junit_2.11:jar:1.26:test
+|  +- (org.scala-lang:scala-library:jar:2.11.6:test - omitted for conflict with 2.11.11)
+|  +- org.backuity:matchete-core_2.11:jar:1.26:test
+|  |  +- (org.scala-lang:scala-library:jar:2.11.6:test - omitted for conflict with 2.11.11)
+|  |  \- org.backuity:matchete-macros_2.11:jar:1.26:test
+|  |     +- (org.scala-lang:scala-library:jar:2.11.6:test - omitted for conflict with 2.11.11)
+|  |     \- org.scala-lang:scala-reflect:jar:2.11.6:test
+|  |        \- (org.scala-lang:scala-library:jar:2.11.6:test - omitted for conflict with 2.11.11)
+|  \- junit:junit:jar:4.10:test
+|     \- (org.hamcrest:hamcrest-core:jar:1.1:test - omitted for duplicate)
++- com.novocode:junit-interface:jar:0.11:test
+|  +- (junit:junit:jar:4.11:test - omitted for conflict with 4.10)
+|  \- org.scala-sbt:test-interface:jar:1.0:test
+\- org.mockito:mockito-core:jar:1.10.8:test
+   +- org.hamcrest:hamcrest-core:jar:1.1:test
+   \- org.objenesis:objenesis:jar:2.1:test

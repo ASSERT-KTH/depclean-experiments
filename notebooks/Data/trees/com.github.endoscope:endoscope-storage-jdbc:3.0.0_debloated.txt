@@ -1,0 +1,22 @@
+com.github.endoscope:endoscope-storage-jdbc:jar:3.0.0
++- com.github.endoscope:endoscope-core:jar:3.0.0:compile
+|  +- org.slf4j:slf4j-api:jar:1.7.7:compile
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.7.4:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.7.4:compile - version managed from 2.7.0; omitted for duplicate)
+|  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.7.4:compile
+|  +- commons-io:commons-io:jar:2.4:compile
+|  +- org.apache.commons:commons-lang3:jar:3.4:compile
+|  \- com.fasterxml.jackson.core:jackson-annotations:jar:2.7.4:compile
++- commons-dbutils:commons-dbutils:jar:1.6:compile
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.mockito:mockito-core:jar:1.10.19:test
+|  +- (org.hamcrest:hamcrest-core:jar:1.1:test - omitted for conflict with 1.3)
+|  \- org.objenesis:objenesis:jar:2.1:test
++- com.h2database:h2:jar:1.4.191:test
++- com.github.endoscope:endoscope-storage-aggr:jar:3.0.0:compile
+|  \- (com.github.endoscope:endoscope-core:jar:3.0.0:compile - omitted for duplicate)
+\- com.github.endoscope:endoscope-storage-test:jar:3.0.0:test
+   +- (com.github.endoscope:endoscope-core:jar:3.0.0:test - omitted for duplicate)
+   +- (junit:junit:jar:4.12:test - omitted for duplicate)
+   \- (org.mockito:mockito-core:jar:1.10.19:test - omitted for duplicate)

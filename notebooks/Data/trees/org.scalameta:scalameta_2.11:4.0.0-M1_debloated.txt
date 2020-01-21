@@ -1,0 +1,69 @@
+org.scalameta:scalameta_2.11:jar:4.0.0-M1
++- org.scala-lang:scala-library:jar:2.11.12:compile
++- org.scalameta:common_2.11:jar:4.0.0-M1:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  +- org.scalameta:semanticdb3_2.11:jar:4.0.0-M1:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  |  \- com.thesamet.scalapb:scalapb-runtime_2.11:jar:0.7.1:compile
+|  |     +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  |     +- com.thesamet.scalapb:lenses_2.11:jar:0.7.0-test2:compile
+|  |     |  \- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  |     +- (com.lihaoyi:fastparse_2.11:jar:1.0.0:compile - omitted for duplicate)
+|  |     \- com.google.protobuf:protobuf-java:jar:3.5.0:compile
+|  \- com.lihaoyi:sourcecode_2.11:jar:0.1.4:compile
+|     \- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
++- org.scalameta:dialects_2.11:jar:4.0.0-M1:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  \- (org.scalameta:common_2.11:jar:4.0.0-M1:compile - omitted for duplicate)
++- org.scalameta:parsers_2.11:jar:4.0.0-M1:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  +- (org.scalameta:common_2.11:jar:4.0.0-M1:compile - omitted for duplicate)
+|  +- (org.scalameta:dialects_2.11:jar:4.0.0-M1:compile - omitted for duplicate)
+|  +- (org.scalameta:inputs_2.11:jar:4.0.0-M1:compile - omitted for duplicate)
+|  +- org.scalameta:tokens_2.11:jar:4.0.0-M1:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  |  +- (org.scalameta:common_2.11:jar:4.0.0-M1:compile - omitted for duplicate)
+|  |  +- (org.scalameta:dialects_2.11:jar:4.0.0-M1:compile - omitted for duplicate)
+|  |  \- (org.scalameta:inputs_2.11:jar:4.0.0-M1:compile - omitted for duplicate)
+|  +- (org.scalameta:tokenizers_2.11:jar:4.0.0-M1:compile - omitted for duplicate)
+|  \- (org.scalameta:trees_2.11:jar:4.0.0-M1:compile - omitted for duplicate)
++- org.scalameta:quasiquotes_2.11:jar:4.0.0-M1:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  +- (org.scalameta:common_2.11:jar:4.0.0-M1:compile - omitted for duplicate)
+|  +- (org.scalameta:dialects_2.11:jar:4.0.0-M1:compile - omitted for duplicate)
+|  +- (org.scalameta:inputs_2.11:jar:4.0.0-M1:compile - omitted for duplicate)
+|  +- (org.scalameta:trees_2.11:jar:4.0.0-M1:compile - omitted for duplicate)
+|  \- (org.scalameta:parsers_2.11:jar:4.0.0-M1:compile - omitted for duplicate)
++- org.scalameta:tokenizers_2.11:jar:4.0.0-M1:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  +- (org.scalameta:common_2.11:jar:4.0.0-M1:compile - omitted for duplicate)
+|  +- (org.scalameta:dialects_2.11:jar:4.0.0-M1:compile - omitted for duplicate)
+|  +- (org.scalameta:inputs_2.11:jar:4.0.0-M1:compile - omitted for duplicate)
+|  +- (org.scalameta:tokens_2.11:jar:4.0.0-M1:compile - omitted for duplicate)
+|  \- com.lihaoyi:fastparse_2.11:jar:1.0.0:compile
+|     +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
+|     +- com.lihaoyi:fastparse-utils_2.11:jar:1.0.0:compile
+|     |  +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
+|     |  \- (com.lihaoyi:sourcecode_2.11:jar:0.1.4:compile - omitted for duplicate)
+|     \- (com.lihaoyi:sourcecode_2.11:jar:0.1.4:compile - omitted for duplicate)
++- org.scalameta:transversers_2.11:jar:4.0.0-M1:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  +- (org.scalameta:common_2.11:jar:4.0.0-M1:compile - omitted for duplicate)
+|  \- (org.scalameta:trees_2.11:jar:4.0.0-M1:compile - omitted for duplicate)
++- org.scalameta:trees_2.11:jar:4.0.0-M1:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  +- (org.scalameta:common_2.11:jar:4.0.0-M1:compile - omitted for duplicate)
+|  +- (org.scalameta:dialects_2.11:jar:4.0.0-M1:compile - omitted for duplicate)
+|  +- (org.scalameta:inputs_2.11:jar:4.0.0-M1:compile - omitted for duplicate)
+|  +- (org.scalameta:tokens_2.11:jar:4.0.0-M1:compile - omitted for duplicate)
+|  \- (org.scalameta:tokenizers_2.11:jar:4.0.0-M1:compile - omitted for duplicate)
++- org.scalameta:inputs_2.11:jar:4.0.0-M1:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  +- (org.scalameta:common_2.11:jar:4.0.0-M1:compile - omitted for duplicate)
+|  \- (org.scalameta:io_2.11:jar:4.0.0-M1:compile - omitted for duplicate)
++- org.scalameta:io_2.11:jar:4.0.0-M1:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  \- (org.scalameta:common_2.11:jar:4.0.0-M1:compile - omitted for duplicate)
+\- org.scalameta:semanticdb_2.11:jar:4.0.0-M1:compile
+   +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+   \- (org.scalameta:common_2.11:jar:4.0.0-M1:compile - omitted for duplicate)

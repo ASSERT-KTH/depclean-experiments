@@ -1,0 +1,355 @@
+org.restcomm:restcomm-connect.sms:jar:8.3.0-178
++- log4j:log4j:jar:1.2.16:provided
++- javax.mail:mail:jar:1.4:compile
+|  \- javax.activation:activation:jar:1.1:compile
++- com.googlecode.libphonenumber:libphonenumber:jar:4.3:compile
++- commons-configuration:commons-configuration:jar:1.7:compile
+|  +- commons-collections:commons-collections:jar:3.2.1:compile
+|  +- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+|  +- commons-logging:commons-logging:jar:1.1.1:compile
+|  +- commons-digester:commons-digester:jar:1.8.1:compile
+|  |  +- (commons-beanutils:commons-beanutils:jar:1.8.0:compile - omitted for conflict with 1.8.3)
+|  |  \- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for duplicate)
+|  \- commons-beanutils:commons-beanutils:jar:1.8.3:compile
+|     \- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for duplicate)
++- org.apache.httpcomponents:httpclient:jar:4.5.2:compile
+|  +- org.apache.httpcomponents:httpcore:jar:4.4.4:compile
+|  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for conflict with 1.1.1)
+|  \- (commons-codec:commons-codec:jar:1.10:compile - version managed from 1.9; omitted for duplicate)
++- org.mobicents.servlet.sip:sip-servlets-spec:jar:3.2.0-37:provided
++- javax.servlet:javax.servlet-api:jar:3.0.1:provided
++- org.restcomm:restcomm-connect.commons:jar:8.3.0-178:compile
+|  +- joda-time:joda-time:jar:2.9.7:compile
+|  +- org.scala-lang:scala-library:jar:2.10.1:compile
+|  +- com.typesafe.akka:akka-actor_2.10:jar:2.1.2:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.10.1:compile - omitted for duplicate)
+|  |  \- com.typesafe:config:jar:1.0.0:compile
+|  +- com.typesafe.akka:akka-slf4j_2.10:jar:2.1.2:compile
+|  |  +- (com.typesafe.akka:akka-actor_2.10:jar:2.1.2:compile - omitted for duplicate)
+|  |  +- (org.scala-lang:scala-library:jar:2.10.1:compile - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.5.5:compile - version managed from 1.7.2; omitted for duplicate)
+|  +- com.google.guava:guava:jar:14.0.1:compile
+|  +- (org.apache.httpcomponents:httpclient:jar:4.5.2:compile - omitted for duplicate)
+|  +- org.apache.httpcomponents:httpasyncclient:jar:4.1.3:compile
+|  |  +- (org.apache.httpcomponents:httpcore:jar:4.4.6:compile - omitted for conflict with 4.4.4)
+|  |  +- org.apache.httpcomponents:httpcore-nio:jar:4.4.6:compile
+|  |  |  \- (org.apache.httpcomponents:httpcore:jar:4.4.6:compile - omitted for conflict with 4.4.4)
+|  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.2:compile - version managed from 4.5.3; omitted for duplicate)
+|  |  \- (commons-logging:commons-logging:jar:1.2:compile - omitted for conflict with 1.1.1)
+|  +- (commons-configuration:commons-configuration:jar:1.7:compile - omitted for duplicate)
+|  +- commons-io:commons-io:jar:2.4:compile
+|  +- org.apache.shiro:shiro-core:jar:1.2.0:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.5.5:compile - version managed from 1.6.4; omitted for duplicate)
+|  |  \- (commons-beanutils:commons-beanutils:jar:1.8.3:compile - omitted for duplicate)
+|  +- (javax.mail:mail:jar:1.4:compile - omitted for duplicate)
+|  +- com.google.code.gson:gson:jar:2.3.1:compile
+|  +- com.amazonaws:aws-java-sdk-s3:jar:1.11.179:compile
+|  |  +- com.amazonaws:aws-java-sdk-kms:jar:1.11.179:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.179:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.179:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-core:jar:1.11.179:compile
+|  |  |  +- (commons-logging:commons-logging:jar:1.1.3:compile - omitted for conflict with 1.1.1)
+|  |  |  +- software.amazon.ion:ion-java:jar:1.0.2:compile
+|  |  |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.6.7.1:compile
+|  |  |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.6.0:compile
+|  |  |  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.6.7:compile
+|  |  |  +- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.6.7:compile
+|  |  |  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.6.7:compile - omitted for duplicate)
+|  |  |  \- (joda-time:joda-time:jar:2.9.7:compile - version managed from 2.8.1; omitted for duplicate)
+|  |  \- com.amazonaws:jmespath-java:jar:1.11.179:compile
+|  |     \- (com.fasterxml.jackson.core:jackson-databind:jar:2.6.7.1:compile - omitted for duplicate)
+|  +- (org.mobicents:checkstyle:jar:1.0.0.FINAL:compile - omitted for duplicate)
+|  +- (commons-codec:commons-codec:jar:1.10:compile - version managed from 1.9; omitted for duplicate)
+|  \- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
++- org.restcomm:restcomm-connect.dao:jar:8.3.0-178:provided
+|  +- (joda-time:joda-time:jar:2.9.7:provided - version managed from 2.8.1; omitted for duplicate)
+|  +- (commons-configuration:commons-configuration:jar:1.7:provided - omitted for duplicate)
+|  +- org.mybatis:mybatis:jar:3.2.2:provided
+|  +- org.mongodb:mongo-java-driver:jar:2.7.2:provided
+|  +- (org.apache.shiro:shiro-core:jar:1.2.0:provided - omitted for duplicate)
+|  +- org.apache.shiro:shiro-web:jar:1.2.0:provided
+|  |  \- (org.apache.shiro:shiro-core:jar:1.2.0:provided - omitted for duplicate)
+|  +- (com.googlecode.libphonenumber:libphonenumber:jar:4.3:provided - omitted for duplicate)
+|  +- (org.hsqldb:hsqldb:jar:2.3.2:provided - omitted for duplicate)
+|  +- (com.google.code.gson:gson:jar:2.3.1:provided - omitted for duplicate)
+|  +- (org.mobicents:checkstyle:jar:1.0.0.FINAL:provided - omitted for duplicate)
+|  +- (commons-codec:commons-codec:jar:1.10:provided - version managed from 1.9; omitted for duplicate)
+|  \- (commons-lang:commons-lang:jar:2.6:provided - omitted for duplicate)
++- org.restcomm:restcomm-connect.sms.api:jar:8.3.0-178:provided
+|  +- org.restcomm.smpp:smpp-extensions:jar:7.1.0-79:provided
+|  |  +- (log4j:log4j:jar:1.2.16:provided - version managed from 1.2.14; omitted for duplicate)
+|  |  +- javolution:javolution:jar:5.5.1:provided
+|  |  +- org.restcomm.smpp:ch-smpp:jar:5.1.0-9:provided
+|  |  |  +- org.restcomm.smpp:ch-commons-util:jar:7.0.6:provided
+|  |  |  |  +- (joda-time:joda-time:jar:2.9.7:provided - omitted for duplicate)
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.5.5:provided - omitted for duplicate)
+|  |  |  +- org.restcomm.smpp:ch-commons-charset:jar:7.0.6:provided
+|  |  |  |  \- (org.restcomm.smpp:ch-commons-util:jar:7.0.6:provided - omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.5.5:provided - version managed from 1.7.13; omitted for duplicate)
+|  |  |  \- (io.netty:netty:jar:3.9.6.Final:provided - omitted for duplicate)
+|  |  \- org.mobicents.protocols.ss7.management:shell-server-api:jar:7.4.0-65:provided
+|  +- (org.restcomm:restcomm-connect.commons:jar:8.3.0-178:provided - omitted for duplicate)
+|  +- (org.mobicents:checkstyle:jar:1.0.0.FINAL:provided - omitted for duplicate)
+|  +- (commons-codec:commons-codec:jar:1.10:provided - version managed from 1.9; omitted for duplicate)
+|  \- (commons-lang:commons-lang:jar:2.6:provided - omitted for duplicate)
++- org.restcomm:restcomm-connect.telephony.api:jar:8.3.0-178:provided
+|  +- (org.mobicents:checkstyle:jar:1.0.0.FINAL:provided - omitted for duplicate)
+|  +- (commons-codec:commons-codec:jar:1.10:provided - version managed from 1.9; omitted for duplicate)
+|  \- (commons-lang:commons-lang:jar:2.6:provided - omitted for duplicate)
++- org.restcomm:restcomm-connect.interpreter:jar:8.3.0-178:provided
+|  +- (org.slf4j:slf4j-api:jar:1.5.5:compile - version managed from 1.7.13; scope updated from provided; omitted for duplicate)
+|  +- org.slf4j:slf4j-log4j12:jar:1.5.5:provided
+|  |  +- (org.slf4j:slf4j-api:jar:1.5.5:provided - version managed from 1.7.13; omitted for duplicate)
+|  |  \- (log4j:log4j:jar:1.2.16:provided - version managed from 1.2.14; omitted for duplicate)
+|  +- (com.googlecode.libphonenumber:libphonenumber:jar:4.3:provided - omitted for duplicate)
+|  +- (commons-configuration:commons-configuration:jar:1.7:provided - omitted for duplicate)
+|  +- (org.scala-lang:scala-library:jar:2.10.1:provided - omitted for duplicate)
+|  +- (com.typesafe.akka:akka-actor_2.10:jar:2.1.2:provided - omitted for duplicate)
+|  +- (com.typesafe.akka:akka-slf4j_2.10:jar:2.1.2:provided - omitted for duplicate)
+|  +- org.restcomm:restcomm-connect.email.api:jar:8.3.0-178:provided
+|  |  +- (org.restcomm:restcomm-connect.commons:jar:8.3.0-178:provided - omitted for duplicate)
+|  |  +- (org.mobicents:checkstyle:jar:1.0.0.FINAL:provided - omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.10:provided - version managed from 1.9; omitted for duplicate)
+|  |  \- (commons-lang:commons-lang:jar:2.6:provided - omitted for duplicate)
+|  +- org.restcomm:restcomm-connect.email:jar:8.3.0-178:provided
+|  |  +- (commons-configuration:commons-configuration:jar:1.7:provided - omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.2:provided - version managed from 4.5.3; omitted for duplicate)
+|  |  +- (org.restcomm:restcomm-connect.commons:jar:8.3.0-178:provided - omitted for duplicate)
+|  |  +- (com.typesafe.akka:akka-actor_2.10:jar:2.1.2:provided - omitted for duplicate)
+|  |  +- (com.typesafe.akka:akka-slf4j_2.10:jar:2.1.2:provided - omitted for duplicate)
+|  |  +- (org.restcomm:restcomm-connect.email.api:jar:8.3.0-178:provided - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-log4j12:jar:1.5.5:provided - omitted for duplicate)
+|  |  +- (org.mobicents:checkstyle:jar:1.0.0.FINAL:provided - omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.10:provided - version managed from 1.9; omitted for duplicate)
+|  |  \- (commons-lang:commons-lang:jar:2.6:provided - omitted for duplicate)
+|  +- (org.mobicents:checkstyle:jar:1.0.0.FINAL:provided - omitted for duplicate)
+|  +- (commons-codec:commons-codec:jar:1.10:provided - version managed from 1.9; omitted for duplicate)
+|  \- (commons-lang:commons-lang:jar:2.6:provided - omitted for duplicate)
++- org.restcomm:restcomm-connect.http:jar:8.3.0-178:provided
+|  +- (org.apache.shiro:shiro-core:jar:1.2.0:provided - omitted for duplicate)
+|  +- (org.apache.shiro:shiro-web:jar:1.2.0:provided - omitted for duplicate)
+|  +- (com.google.code.gson:gson:jar:2.3.1:provided - omitted for duplicate)
+|  +- (com.googlecode.libphonenumber:libphonenumber:jar:4.3:provided - omitted for duplicate)
+|  +- javax.annotation:jsr250-api:jar:1.0:provided
+|  +- (org.apache.httpcomponents:httpasyncclient:jar:4.1.3:provided - omitted for duplicate)
+|  +- com.sun.jersey:jersey-server:jar:1.13:provided
+|  |  +- asm:asm:jar:3.1:provided
+|  |  \- com.sun.jersey:jersey-core:jar:1.13:provided
+|  +- com.sun.jersey:jersey-json:jar:1.13:provided
+|  |  +- org.codehaus.jettison:jettison:jar:1.1:provided
+|  |  |  \- stax:stax-api:jar:1.0.1:provided
+|  |  +- com.sun.xml.bind:jaxb-impl:jar:2.2.3-1:provided
+|  |  |  \- javax.xml.bind:jaxb-api:jar:2.2.2:provided
+|  |  |     +- javax.xml.stream:stax-api:jar:1.0-2:provided
+|  |  |     \- (javax.activation:activation:jar:1.1:provided - omitted for duplicate)
+|  |  +- org.codehaus.jackson:jackson-core-asl:jar:1.9.2:provided
+|  |  +- org.codehaus.jackson:jackson-mapper-asl:jar:1.9.2:provided
+|  |  |  \- (org.codehaus.jackson:jackson-core-asl:jar:1.9.2:provided - omitted for duplicate)
+|  |  +- org.codehaus.jackson:jackson-jaxrs:jar:1.9.2:provided
+|  |  |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.9.2:provided - omitted for duplicate)
+|  |  |  \- (org.codehaus.jackson:jackson-mapper-asl:jar:1.9.2:provided - omitted for duplicate)
+|  |  +- org.codehaus.jackson:jackson-xc:jar:1.9.2:provided
+|  |  |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.9.2:provided - omitted for duplicate)
+|  |  |  \- (org.codehaus.jackson:jackson-mapper-asl:jar:1.9.2:provided - omitted for duplicate)
+|  |  \- (com.sun.jersey:jersey-core:jar:1.13:provided - omitted for duplicate)
+|  +- com.sun.jersey:jersey-client:jar:1.13:provided
+|  |  \- (com.sun.jersey:jersey-core:jar:1.13:provided - omitted for duplicate)
+|  +- com.sun.jersey:jersey-servlet:jar:1.13:provided
+|  |  \- (com.sun.jersey:jersey-server:jar:1.13:provided - omitted for duplicate)
+|  +- com.thoughtworks.xstream:xstream:jar:1.4.2:provided
+|  |  +- xmlpull:xmlpull:jar:1.1.3.1:provided
+|  |  \- xpp3:xpp3_min:jar:1.1.4c:provided
+|  +- (org.restcomm:restcomm-connect.email.api:jar:8.3.0-178:provided - omitted for duplicate)
+|  +- (org.restcomm:restcomm-connect.email:jar:8.3.0-178:provided - omitted for duplicate)
+|  +- org.restcomm:restcomm-connect.mscontrol.api:jar:8.3.0-178:provided
+|  |  +- jain:jain-mgcp-ri:jar:1.0:provided
+|  |  +- (org.mobicents:checkstyle:jar:1.0.0.FINAL:provided - omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.10:provided - version managed from 1.9; omitted for duplicate)
+|  |  \- (commons-lang:commons-lang:jar:2.6:provided - omitted for duplicate)
+|  +- org.restcomm:restcomm-connect.dns.api:jar:8.3.0-178:provided
+|  |  +- (org.restcomm:restcomm-connect.commons:jar:8.3.0-178:provided - omitted for duplicate)
+|  |  +- (org.mobicents:checkstyle:jar:1.0.0.FINAL:provided - omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.10:provided - version managed from 1.9; omitted for duplicate)
+|  |  \- (commons-lang:commons-lang:jar:2.6:provided - omitted for duplicate)
+|  +- (org.hsqldb:hsqldb:jar:2.3.2:provided - omitted for duplicate)
+|  +- org.restcomm:restcomm-connect.extension.api:jar:8.3.0-178:provided
+|  |  +- (com.sun.jersey:jersey-core:jar:1.13:provided - omitted for duplicate)
+|  |  +- (joda-time:joda-time:jar:2.9.7:provided - omitted for duplicate)
+|  |  +- (org.mobicents:checkstyle:jar:1.0.0.FINAL:provided - omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.10:provided - version managed from 1.9; omitted for duplicate)
+|  |  \- (commons-lang:commons-lang:jar:2.6:provided - omitted for duplicate)
+|  +- org.restcomm:restcomm-connect.extension.controller:jar:8.3.0-178:provided
+|  |  +- (org.slf4j:slf4j-api:jar:1.5.5:provided - version managed from 1.7.13; omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-log4j12:jar:1.5.5:provided - omitted for duplicate)
+|  |  +- (commons-configuration:commons-configuration:jar:1.7:provided - omitted for duplicate)
+|  |  +- (org.restcomm:restcomm-connect.extension.api:jar:8.3.0-178:provided - omitted for duplicate)
+|  |  +- (org.restcomm:restcomm-connect.dao:jar:8.3.0-178:provided - omitted for duplicate)
+|  |  +- (org.restcomm:restcomm-connect.commons:jar:8.3.0-178:provided - omitted for duplicate)
+|  |  +- org.apache.maven:maven-artifact:jar:3.1.0:provided
+|  |  |  \- org.codehaus.plexus:plexus-utils:jar:3.0.10:provided
+|  |  +- (org.mobicents:checkstyle:jar:1.0.0.FINAL:provided - omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.10:provided - version managed from 1.9; omitted for duplicate)
+|  |  \- (commons-lang:commons-lang:jar:2.6:provided - omitted for duplicate)
+|  +- com.github.java-json-tools:json-schema-validator:jar:2.2.8:provided
+|  |  +- com.github.java-json-tools:json-schema-core:jar:1.2.8:provided
+|  |  |  +- (com.google.code.findbugs:jsr305:jar:2.0.1:provided - omitted for conflict with 3.0.1)
+|  |  |  +- org.mozilla:rhino:jar:1.7R4:provided
+|  |  |  +- com.github.fge:jackson-coreutils:jar:1.8:provided
+|  |  |  |  +- com.github.fge:msg-simple:jar:1.1:provided
+|  |  |  |  |  +- com.github.fge:btf:jar:1.2:provided
+|  |  |  |  |  |  \- (com.google.code.findbugs:jsr305:jar:2.0.1:provided - omitted for duplicate)
+|  |  |  |  |  \- (com.google.code.findbugs:jsr305:jar:2.0.1:provided - omitted for duplicate)
+|  |  |  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.2.3:provided - omitted for conflict with 2.6.7.1)
+|  |  |  |  +- (com.google.guava:guava:jar:14.0.1:provided - version managed from 16.0.1; omitted for duplicate)
+|  |  |  |  \- (com.google.code.findbugs:jsr305:jar:2.0.1:provided - omitted for duplicate)
+|  |  |  \- com.github.fge:uri-template:jar:0.9:provided
+|  |  |     +- (com.github.fge:msg-simple:jar:1.1:provided - omitted for duplicate)
+|  |  |     +- (com.google.guava:guava:jar:14.0.1:provided - version managed from 16.0.1; omitted for duplicate)
+|  |  |     \- (com.google.code.findbugs:jsr305:jar:2.0.1:provided - omitted for duplicate)
+|  |  +- javax.mail:mailapi:jar:1.4.3:provided
+|  |  |  \- (javax.activation:activation:jar:1.1:provided - omitted for duplicate)
+|  |  +- (joda-time:joda-time:jar:2.9.7:provided - omitted for duplicate)
+|  |  +- (com.googlecode.libphonenumber:libphonenumber:jar:4.3:provided - version managed from 8.0.0; omitted for duplicate)
+|  |  +- com.google.code.findbugs:jsr305:jar:3.0.1:provided
+|  |  \- net.sf.jopt-simple:jopt-simple:jar:5.0.3:provided
+|  +- (org.mobicents:checkstyle:jar:1.0.0.FINAL:provided - omitted for duplicate)
+|  +- (commons-codec:commons-codec:jar:1.10:provided - version managed from 1.9; omitted for duplicate)
+|  \- (commons-lang:commons-lang:jar:2.6:provided - omitted for duplicate)
++- org.restcomm:restcomm-connect.monitoring.service:jar:8.3.0-178:provided
+|  +- (org.slf4j:slf4j-api:jar:1.5.5:compile - version managed from 1.7.13; scope updated from provided; omitted for duplicate)
+|  +- (org.slf4j:slf4j-log4j12:jar:1.5.5:provided - omitted for duplicate)
+|  +- (org.scala-lang:scala-library:jar:2.10.1:provided - omitted for duplicate)
+|  +- (com.typesafe.akka:akka-actor_2.10:jar:2.1.2:provided - omitted for duplicate)
+|  +- (com.typesafe.akka:akka-slf4j_2.10:jar:2.1.2:provided - omitted for duplicate)
+|  +- (org.apache.httpcomponents:httpclient:jar:4.5.2:provided - version managed from 4.5.3; omitted for duplicate)
+|  +- (org.restcomm:restcomm-connect.commons:jar:8.3.0-178:provided - omitted for duplicate)
+|  +- org.restcomm:restcomm-connect.mgcp:jar:8.3.0-178:provided
+|  |  +- (org.scala-lang:scala-library:jar:2.10.1:provided - omitted for duplicate)
+|  |  +- (com.typesafe.akka:akka-actor_2.10:jar:2.1.2:provided - omitted for duplicate)
+|  |  +- (com.typesafe.akka:akka-slf4j_2.10:jar:2.1.2:provided - omitted for duplicate)
+|  |  +- (jain:jain-mgcp-ri:jar:1.0:provided - omitted for duplicate)
+|  |  +- org.mobicents.media.client:mgcp-driver:jar:6.0.23:provided
+|  |  |  +- (org.mobicents.media:concurrent:jar:6.0.23:provided - omitted for duplicate)
+|  |  |  +- (jain:jain-mgcp-ri:jar:1.0:provided - omitted for duplicate)
+|  |  |  +- (log4j:log4j:jar:1.2.16:provided - version managed from 1.2.9; omitted for duplicate)
+|  |  |  +- (javolution:javolution:jar:5.5.1:provided - omitted for duplicate)
+|  |  |  +- org.jboss.microcontainer:jboss-dependency:jar:2.0.6.GA:provided
+|  |  |  |  +- org.jboss:jbossxb:jar:2.0.1.GA:provided
+|  |  |  |  |  +- (org.jboss.logging:jboss-logging-spi:jar:2.0.5.GA:provided - omitted for duplicate)
+|  |  |  |  |  +- (org.jboss:jboss-common-core:jar:2.2.9.GA:provided - omitted for conflict with 2.2.13.GA)
+|  |  |  |  |  +- (org.jboss:jboss-reflect:jar:2.0.2.GA:provided - omitted for duplicate)
+|  |  |  |  |  +- wutka-dtdparser:dtdparser121:jar:1.2.1:provided
+|  |  |  |  |  \- (javax.activation:activation:jar:1.1.1:provided - omitted for conflict with 1.1)
+|  |  |  |  +- org.jboss:jboss-reflect:jar:2.0.2.GA:provided
+|  |  |  |  |  +- (org.jboss.logging:jboss-logging-spi:jar:2.0.5.GA:provided - omitted for duplicate)
+|  |  |  |  |  \- (org.jboss:jboss-common-core:jar:2.2.8.GA:provided - omitted for conflict with 2.2.9.GA)
+|  |  |  |  +- org.jboss:jboss-mdr:jar:2.0.1.GA:provided
+|  |  |  |  |  +- (org.jboss:jboss-reflect:jar:2.0.0.GA:provided - omitted for conflict with 2.0.2.GA)
+|  |  |  |  |  +- (org.jboss.logging:jboss-logging-spi:jar:2.0.5.GA:provided - omitted for duplicate)
+|  |  |  |  |  \- (org.jboss:jboss-common-core:jar:2.2.9.GA:provided - omitted for duplicate)
+|  |  |  |  +- org.jboss.logging:jboss-logging-spi:jar:2.0.5.GA:provided
+|  |  |  |  \- org.jboss:jboss-common-core:jar:2.2.13.GA:provided
+|  |  |  |     \- (org.jboss.logging:jboss-logging-spi:jar:2.0.5.GA:provided - omitted for duplicate)
+|  |  |  +- com.google.inject:guice:jar:4.0:provided
+|  |  |  |  +- javax.inject:javax.inject:jar:1:provided
+|  |  |  |  +- aopalliance:aopalliance:jar:1.0:provided
+|  |  |  |  \- (com.google.guava:guava:jar:14.0.1:provided - version managed from 16.0.1; omitted for duplicate)
+|  |  |  +- com.google.inject.extensions:guice-grapher:jar:4.1.0:provided
+|  |  |  |  +- com.google.inject.extensions:guice-assistedinject:jar:4.1.0:provided
+|  |  |  |  |  \- (com.google.inject:guice:jar:4.1.0:provided - omitted for conflict with 4.0)
+|  |  |  |  +- com.google.inject.extensions:guice-multibindings:jar:4.1.0:provided
+|  |  |  |  |  \- (com.google.inject:guice:jar:4.1.0:provided - omitted for conflict with 4.0)
+|  |  |  |  \- (com.google.inject:guice:jar:4.1.0:provided - omitted for conflict with 4.0)
+|  |  |  +- (com.google.guava:guava:jar:14.0.1:provided - version managed from 19.0; omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-log4j12:jar:1.5.5:provided - version managed from 1.5.6; omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.5.5:provided - version managed from 1.5.6; omitted for duplicate)
+|  |  +- org.mobicents.media:concurrent:jar:6.0.23:provided
+|  |  |  +- (javolution:javolution:jar:5.5.1:provided - omitted for duplicate)
+|  |  |  +- (org.jboss.microcontainer:jboss-dependency:jar:2.0.6.GA:provided - omitted for duplicate)
+|  |  |  +- (com.google.inject:guice:jar:4.0:provided - omitted for duplicate)
+|  |  |  +- (com.google.inject.extensions:guice-grapher:jar:4.1.0:provided - omitted for duplicate)
+|  |  |  +- (com.google.guava:guava:jar:14.0.1:provided - version managed from 19.0; omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-log4j12:jar:1.5.5:provided - version managed from 1.5.6; omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.5.5:provided - version managed from 1.5.6; omitted for duplicate)
+|  |  +- (javax.sip:jain-sip-ri:jar:1.2.293:test - scope managed from provided; omitted for duplicate)
+|  |  +- (org.mobicents:checkstyle:jar:1.0.0.FINAL:provided - omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.10:provided - version managed from 1.9; omitted for duplicate)
+|  |  \- (commons-lang:commons-lang:jar:2.6:provided - omitted for duplicate)
+|  +- (org.mobicents:checkstyle:jar:1.0.0.FINAL:provided - omitted for duplicate)
+|  +- (commons-codec:commons-codec:jar:1.10:provided - version managed from 1.9; omitted for duplicate)
+|  \- (commons-lang:commons-lang:jar:2.6:provided - omitted for duplicate)
++- com.cloudhopper:ch-commons-gsm:jar:3.0.0:compile
+|  \- (com.cloudhopper:ch-commons-util:jar:6.0.2:compile - omitted for duplicate)
++- com.cloudhopper:ch-smpp:jar:5.0.8:compile
+|  +- (com.cloudhopper:ch-commons-util:jar:6.0.2:compile - omitted for duplicate)
+|  +- com.cloudhopper:ch-commons-charset:jar:3.0.2:compile
+|  |  \- (com.cloudhopper:ch-commons-util:jar:6.0.2:compile - omitted for duplicate)
+|  +- org.slf4j:slf4j-api:jar:1.5.5:compile
+|  \- io.netty:netty:jar:3.9.6.Final:compile
++- com.cloudhopper:ch-commons-util:jar:6.0.2:compile
+|  +- (joda-time:joda-time:jar:2.9.7:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.5.5:compile - omitted for duplicate)
++- junit:junit:jar:4.11:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.scalatest:scalatest_2.9.1:jar:1.9.1:test
+|  \- (org.scala-lang:scala-library:jar:2.10.1:test - version managed from 2.9.1; omitted for duplicate)
++- com.typesafe.akka:akka-testkit_2.10:jar:2.1.2:test
+|  +- (com.typesafe.akka:akka-actor_2.10:jar:2.1.2:test - omitted for duplicate)
+|  \- (org.scala-lang:scala-library:jar:2.10.1:test - version managed from 2.9.1; omitted for duplicate)
++- org.apache.tomcat:tomcat-coyote:jar:7.0.64:test
+|  +- org.apache.tomcat:tomcat-servlet-api:jar:7.0.64:test
+|  +- org.apache.tomcat:tomcat-juli:jar:7.0.64:test
+|  \- org.apache.tomcat:tomcat-util:jar:7.0.64:test
+|     +- (org.apache.tomcat:tomcat-juli:jar:7.0.64:test - omitted for duplicate)
+|     \- (org.apache.tomcat:tomcat-api:jar:7.0.64:test - omitted for duplicate)
++- org.apache.tomcat:tomcat-jasper:jar:7.0.64:test
+|  +- (org.apache.tomcat:tomcat-servlet-api:jar:7.0.64:test - omitted for duplicate)
+|  +- (org.apache.tomcat:tomcat-juli:jar:7.0.64:test - omitted for duplicate)
+|  +- org.apache.tomcat:tomcat-jsp-api:jar:7.0.64:test
+|  |  +- (org.apache.tomcat:tomcat-el-api:jar:7.0.64:test - omitted for duplicate)
+|  |  \- (org.apache.tomcat:tomcat-servlet-api:jar:7.0.64:test - omitted for duplicate)
+|  +- org.apache.tomcat:tomcat-el-api:jar:7.0.64:test
+|  +- org.eclipse.jdt.core.compiler:ecj:jar:4.4.2:test
+|  +- org.apache.tomcat:tomcat-jasper-el:jar:7.0.64:test
+|  |  \- (org.apache.tomcat:tomcat-el-api:jar:7.0.64:test - omitted for duplicate)
+|  +- org.apache.tomcat:tomcat-api:jar:7.0.64:test
+|  |  \- (org.apache.tomcat:tomcat-servlet-api:jar:7.0.64:test - omitted for duplicate)
+|  \- (org.apache.tomcat:tomcat-util:jar:7.0.64:test - omitted for duplicate)
++- javax.sip:jain-sip-ri:jar:1.2.293:test
++- org.mobicents.servlet.sip.containers:sip-servlets-catalina-7:jar:3.2.0-37:test
+|  +- (org.mobicents.servlet.sip:sip-servlets-spec:jar:3.2.0-37:provided - scope managed from test; omitted for duplicate)
+|  +- org.mobicents.servlet.sip:sip-servlets-impl:jar:3.2.0-37:test
+|  |  +- (org.mobicents.servlet.sip:sip-servlets-spec:jar:3.2.0-37:provided - scope managed from test; omitted for duplicate)
+|  |  +- (org.mobicents.servlet.sip:sip-servlets-core-api:jar:3.2.0-37:test - omitted for duplicate)
+|  |  +- org.mobicents.servlet.sip:sip-servlets-annotations:jar:3.2.0-37:test
+|  |  +- org.mobicents.servlet.sip:sip-servlets-client:jar:3.2.0-37:test
+|  |  |  \- (org.mobicents.servlet.sip:sip-servlets-spec:jar:3.2.0-37:provided - scope managed from test; omitted for duplicate)
+|  |  +- org.mobicents.servlet.sip:sip-servlets-jruby:jar:3.2.0-37:test
+|  |  +- org.restcomm.commons:restcomm-statistics:jar:2.0.147:test
+|  |  |  +- (io.dropwizard.metrics:metrics-core:jar:3.1.0:test - omitted for duplicate)
+|  |  |  +- (com.google.code.gson:gson:jar:2.3.1:test - version managed from 2.6.2; omitted for duplicate)
+|  |  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.2:test - version managed from 4.5.3; omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-simple:jar:1.5.5:test - omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-log4j12:jar:1.5.5:test - version managed from 1.5.6; omitted for duplicate)
+|  |  +- io.dropwizard.metrics:metrics-core:jar:3.1.0:test
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.5.5:test - version managed from 1.7.7; omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.5.5:test - version managed from 1.7.7; omitted for duplicate)
+|  |  \- org.slf4j:slf4j-simple:jar:1.5.5:test
+|  |     \- (org.slf4j:slf4j-api:jar:1.5.5:test - version managed from 1.7.7; omitted for duplicate)
+|  \- org.mobicents.servlet.sip:sip-servlets-core-api:jar:3.2.0-37:test
+|     +- (org.mobicents.servlet.sip:sip-servlets-spec:jar:3.2.0-37:provided - scope managed from test; omitted for duplicate)
+|     +- (org.mobicents.servlet.sip:sip-servlets-jruby:jar:3.2.0-37:test - omitted for duplicate)
+|     +- (org.mobicents.servlet.sip:sip-servlets-client:jar:3.2.0-37:test - omitted for duplicate)
+|     \- (org.mobicents.servlet.sip:sip-servlets-annotations:jar:3.2.0-37:test - omitted for duplicate)
++- org.mobicents.servlet.sip:sip-servlets-application-router:jar:3.2.0-37:test
+|  +- (org.mobicents.servlet.sip:sip-servlets-spec:jar:3.2.0-37:provided - scope managed from test; omitted for duplicate)
+|  \- (org.mobicents.servlet.sip:sip-servlets-core-api:jar:3.2.0-37:test - omitted for duplicate)
++- org.hsqldb:hsqldb:jar:2.3.2:test
++- org.mobicents.sipunit:sipunit:jar:2.0.4:test
++- org.mobicents:checkstyle:jar:1.0.0.FINAL:compile
++- commons-codec:commons-codec:jar:1.10:compile
++- commons-lang:commons-lang:jar:2.6:compile
+\- org.mockito:mockito-core:jar:2.8.9:test
+   +- net.bytebuddy:byte-buddy:jar:1.6.14:test
+   +- net.bytebuddy:byte-buddy-agent:jar:1.6.14:test
+   \- org.objenesis:objenesis:jar:2.5:test

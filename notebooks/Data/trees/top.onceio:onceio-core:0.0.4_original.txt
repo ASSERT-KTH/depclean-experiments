@@ -1,0 +1,7 @@
+top.onceio:onceio-core:jar:0.0.4
++- log4j:log4j:jar:1.2.17:compile
++- cglib:cglib:jar:2.2.2:compile
+|  \- asm:asm:jar:3.3.1:compile
++- com.google.code.gson:gson:jar:2.8.3:compile
+\- junit:junit:jar:4.12:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

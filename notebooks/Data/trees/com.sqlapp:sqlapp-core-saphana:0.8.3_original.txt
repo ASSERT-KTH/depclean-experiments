@@ -1,0 +1,56 @@
+com.sqlapp:sqlapp-core-saphana:jar:0.8.3
++- com.sqlapp:sqlapp-core:jar:0.8.3:compile
+|  +- org.mvel:mvel2:jar:2.3.1.Final:compile
+|  +- ch.qos.logback:logback-classic:jar:1.2.3:compile
+|  |  +- ch.qos.logback:logback-core:jar:1.2.3:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  +- org.slf4j:slf4j-api:jar:1.7.25:compile
+|  +- org.slf4j:jcl-over-slf4j:jar:1.7.25:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.9.1:compile
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.1:compile
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.9.1:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile - omitted for conflict with 2.9.1)
+|  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.1:compile - omitted for duplicate)
+|  +- com.googlecode.java-diff-utils:diffutils:jar:1.3.0:compile
+|  +- com.vividsolutions:jts:jar:1.13:compile
+|  +- org.geolatte:geolatte-geom:jar:1.0.6:compile
+|  |  +- (com.vividsolutions:jts:jar:1.13:compile - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.6.1:compile - omitted for conflict with 1.7.25)
+|  +- org.apache.tomcat:tomcat-jdbc:jar:8.5.11:compile
+|  |  \- org.apache.tomcat:tomcat-juli:jar:8.5.11:compile
+|  +- org.apache.poi:poi:jar:3.16:compile
+|  |  +- commons-codec:commons-codec:jar:1.10:compile
+|  |  \- org.apache.commons:commons-collections4:jar:4.1:compile
+|  +- org.apache.poi:poi-scratchpad:jar:3.16:compile
+|  |  \- (org.apache.poi:poi:jar:3.16:compile - omitted for duplicate)
+|  +- org.apache.poi:poi-ooxml:jar:3.16:compile
+|  |  +- (org.apache.poi:poi:jar:3.16:compile - omitted for duplicate)
+|  |  +- (org.apache.poi:poi-ooxml-schemas:jar:3.16:compile - omitted for duplicate)
+|  |  \- com.github.virtuald:curvesapi:jar:1.04:compile
+|  +- org.apache.poi:poi-ooxml-schemas:jar:3.16:compile
+|  |  \- org.apache.xmlbeans:xmlbeans:jar:2.6.0:compile
+|  +- org.apache.poi:ooxml-schemas:jar:1.3:compile
+|  |  \- (org.apache.xmlbeans:xmlbeans:jar:2.3.0:compile - omitted for conflict with 2.6.0)
+|  +- org.apache.poi:poi-contrib:jar:3.6:compile
+|  |  \- (org.apache.poi:poi:jar:3.6:compile - omitted for conflict with 3.16)
+|  \- net.sf.supercsv:super-csv:jar:2.4.0:compile
++- org.hamcrest:hamcrest-library:jar:1.3:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- cglib:cglib-nodep:jar:3.2.5:test
++- org.objenesis:objenesis:jar:2.6:test
++- org.junit.jupiter:junit-jupiter-api:jar:5.1.0:test
+|  +- org.apiguardian:apiguardian-api:jar:1.0.0:test
+|  +- org.opentest4j:opentest4j:jar:1.0.0:test
+|  \- org.junit.platform:junit-platform-commons:jar:1.1.0:test
+|     \- (org.apiguardian:apiguardian-api:jar:1.0.0:test - omitted for duplicate)
++- org.junit.platform:junit-platform-launcher:jar:1.1.1:test
+|  +- (org.apiguardian:apiguardian-api:jar:1.0.0:test - omitted for duplicate)
+|  \- org.junit.platform:junit-platform-engine:jar:1.1.1:test
+|     +- (org.apiguardian:apiguardian-api:jar:1.0.0:test - omitted for duplicate)
+|     +- (org.junit.platform:junit-platform-commons:jar:1.1.1:test - omitted for conflict with 1.1.0)
+|     \- (org.opentest4j:opentest4j:jar:1.0.0:test - omitted for duplicate)
+\- org.junit.jupiter:junit-jupiter-engine:jar:5.1.0:test
+   +- (org.apiguardian:apiguardian-api:jar:1.0.0:test - omitted for duplicate)
+   +- (org.junit.platform:junit-platform-engine:jar:1.1.0:test - omitted for conflict with 1.1.1)
+   \- (org.junit.jupiter:junit-jupiter-api:jar:5.1.0:test - omitted for duplicate)

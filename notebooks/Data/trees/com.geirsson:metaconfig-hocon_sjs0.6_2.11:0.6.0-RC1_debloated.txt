@@ -1,0 +1,82 @@
+com.geirsson:metaconfig-hocon_sjs0.6_2.11:jar:0.6.0-RC1
++- org.scala-lang:scala-library:jar:2.11.11:compile
++- com.geirsson:metaconfig-core_sjs0.6_2.11:jar:0.6.0-RC1:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for duplicate)
+|  +- (org.scala-js:scalajs-library_2.11:jar:0.6.21:compile - omitted for duplicate)
+|  +- org.scalameta:inputs_sjs0.6_2.11:jar:2.0.0-M3:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for duplicate)
+|  |  +- org.scalameta:langmeta_sjs0.6_2.11:jar:2.0.0-M3:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for duplicate)
+|  |  |  +- (org.scala-js:scalajs-library_2.11:jar:0.6.18:compile - omitted for conflict with 0.6.21)
+|  |  |  +- com.trueaccord.scalapb:scalapb-runtime_2.11:jar:0.6.2:compile
+|  |  |  |  +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for duplicate)
+|  |  |  |  +- com.trueaccord.lenses:lenses_2.11:jar:0.4.12:compile
+|  |  |  |  |  \- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for duplicate)
+|  |  |  |  +- com.lihaoyi:fastparse_2.11:jar:0.4.3:compile
+|  |  |  |  |  +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.11)
+|  |  |  |  |  +- com.lihaoyi:fastparse-utils_2.11:jar:0.4.3:compile
+|  |  |  |  |  |  +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.11)
+|  |  |  |  |  |  \- (com.lihaoyi:sourcecode_2.11:jar:0.1.3:compile - omitted for duplicate)
+|  |  |  |  |  \- (com.lihaoyi:sourcecode_2.11:jar:0.1.3:compile - omitted for duplicate)
+|  |  |  |  \- com.google.protobuf:protobuf-java:jar:3.3.1:compile
+|  |  |  \- com.trueaccord.scalapb:scalapb-runtime_sjs0.6_2.11:jar:0.6.2:compile
+|  |  |     +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for duplicate)
+|  |  |     +- (org.scala-js:scalajs-library_2.11:jar:0.6.18:compile - omitted for conflict with 0.6.21)
+|  |  |     +- com.trueaccord.lenses:lenses_sjs0.6_2.11:jar:0.4.12:compile
+|  |  |     |  +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for duplicate)
+|  |  |     |  \- (org.scala-js:scalajs-library_2.11:jar:0.6.16:compile - omitted for conflict with 0.6.21)
+|  |  |     +- (com.lihaoyi:fastparse_sjs0.6_2.11:jar:0.4.3:compile - omitted for duplicate)
+|  |  |     \- com.trueaccord.scalapb:protobuf-runtime-scala_sjs0.6_2.11:jar:0.1.18:compile
+|  |  |        +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.11)
+|  |  |        \- (org.scala-js:scalajs-library_2.11:jar:0.6.18:compile - omitted for conflict with 0.6.21)
+|  |  +- org.scalameta:common_sjs0.6_2.11:jar:2.0.0-M3:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for duplicate)
+|  |  |  +- (org.scala-js:scalajs-library_2.11:jar:0.6.18:compile - omitted for conflict with 0.6.21)
+|  |  |  \- com.lihaoyi:sourcecode_2.11:jar:0.1.3:compile
+|  |  |     \- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.11)
+|  |  +- org.scalameta:io_sjs0.6_2.11:jar:2.0.0-M3:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for duplicate)
+|  |  |  +- (org.scalameta:langmeta_sjs0.6_2.11:jar:2.0.0-M3:compile - omitted for duplicate)
+|  |  |  +- (org.scalameta:common_sjs0.6_2.11:jar:2.0.0-M3:compile - omitted for duplicate)
+|  |  |  \- (org.scala-js:scalajs-library_2.11:jar:0.6.18:compile - omitted for conflict with 0.6.21)
+|  |  \- (org.scala-js:scalajs-library_2.11:jar:0.6.18:compile - omitted for conflict with 0.6.21)
+|  +- com.lihaoyi:pprint_sjs0.6_2.11:jar:0.5.3:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for duplicate)
+|  |  +- (org.scala-js:scalajs-library_2.11:jar:0.6.19:compile - omitted for conflict with 0.6.21)
+|  |  +- com.lihaoyi:fansi_sjs0.6_2.11:jar:0.2.5:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.11)
+|  |  |  +- (org.scala-js:scalajs-library_2.11:jar:0.6.19:compile - omitted for conflict with 0.6.21)
+|  |  |  \- (com.lihaoyi:sourcecode_sjs0.6_2.11:jar:0.1.4:compile - omitted for duplicate)
+|  |  \- (com.lihaoyi:sourcecode_sjs0.6_2.11:jar:0.1.4:compile - omitted for conflict with 0.1.3)
+|  \- org.typelevel:paiges-core_sjs0.6_2.11:jar:0.2.0:compile
+|     +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for duplicate)
+|     \- (org.scala-js:scalajs-library_2.11:jar:0.6.15:compile - omitted for conflict with 0.6.21)
++- org.scala-js:scalajs-library_2.11:jar:0.6.21:compile
+|  \- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for duplicate)
++- org.scala-js:scalajs-test-interface_2.11:jar:0.6.21:test
+|  +- (org.scala-lang:scala-library:jar:2.11.11:test - omitted for duplicate)
+|  \- (org.scala-js:scalajs-library_2.11:jar:0.6.21:test - omitted for duplicate)
++- org.scalacheck:scalacheck_sjs0.6_2.11:jar:1.13.5:test
+|  +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.11)
+|  +- (org.scala-js:scalajs-library_2.11:jar:0.6.13:test - omitted for conflict with 0.6.21)
+|  \- (org.scala-js:scalajs-test-interface_2.11:jar:0.6.13:test - omitted for conflict with 0.6.21)
++- org.scalatest:scalatest_sjs0.6_2.11:jar:3.0.2:test
+|  +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.11)
+|  +- org.scalactic:scalactic_sjs0.6_2.11:jar:3.0.2:test
+|  |  +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.11)
+|  |  +- (org.scala-js:scalajs-library_2.11:jar:0.6.13:test - omitted for conflict with 0.6.21)
+|  |  \- (org.scala-lang:scala-reflect:jar:2.11.8:test - omitted for duplicate)
+|  +- (org.scala-js:scalajs-library_2.11:jar:0.6.13:test - omitted for conflict with 0.6.21)
+|  +- (org.scala-js:scalajs-test-interface_2.11:jar:0.6.13:test - omitted for conflict with 0.6.21)
+|  \- org.scala-lang:scala-reflect:jar:2.11.8:test
+|     \- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.11)
+\- com.lihaoyi:fastparse_sjs0.6_2.11:jar:0.4.3:compile
+   +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.11)
+   +- com.lihaoyi:fastparse-utils_sjs0.6_2.11:jar:0.4.3:compile
+   |  +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.11)
+   |  +- (org.scala-js:scalajs-library_2.11:jar:0.6.16:compile - omitted for conflict with 0.6.21)
+   |  \- (com.lihaoyi:sourcecode_sjs0.6_2.11:jar:0.1.3:compile - omitted for conflict with 0.1.4)
+   +- (org.scala-js:scalajs-library_2.11:jar:0.6.16:compile - omitted for conflict with 0.6.21)
+   \- com.lihaoyi:sourcecode_sjs0.6_2.11:jar:0.1.3:compile
+      +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.11)
+      \- (org.scala-js:scalajs-library_2.11:jar:0.6.13:compile - omitted for conflict with 0.6.21)

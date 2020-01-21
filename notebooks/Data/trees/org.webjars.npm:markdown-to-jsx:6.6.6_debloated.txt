@@ -1,0 +1,2 @@
+org.webjars.npm:markdown-to-jsx:jar:6.6.6
+\- org.webjars.npm:unquote:jar:1.1.1:compile

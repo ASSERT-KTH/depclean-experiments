@@ -1,0 +1,22 @@
+net.anwiba.commons:anwiba-commons-thread:jar:1.0.126
++- net.anwiba.commons:anwiba-commons-utilities:jar:1.0.126:compile
+|  +- commons-lang:commons-lang:jar:2.6:compile
+|  +- net.anwiba.commons:anwiba-commons-ensure:jar:1.0.126:compile
+|  |  \- net.anwiba.commons:anwiba-commons-lang:jar:1.0.126:compile
+|  +- net.anwiba.commons:anwiba-commons-resource:jar:1.0.126:compile
+|  |  +- net.anwiba.commons:anwiba-commons-reflaction:jar:1.0.126:compile
+|  |  +- net.anwiba.commons:anwiba-commons-logging:jar:1.0.126:compile
+|  |  \- (net.anwiba.commons:anwiba-commons-lang:jar:1.0.126:compile - omitted for duplicate)
+|  \- net.jafama:jafama:jar:2.3.1:compile
++- net.anwiba.commons:anwiba-commons-message:jar:1.0.126:compile
+|  \- (net.anwiba.commons:anwiba-commons-ensure:jar:1.0.126:compile - omitted for duplicate)
++- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.hamcrest:hamcrest-library:jar:1.3:test
+|  \- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for duplicate)
++- org.mockito:mockito-core:jar:2.16.0:test
+|  +- net.bytebuddy:byte-buddy:jar:1.7.9:test
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.7.9:test
+|  \- org.objenesis:objenesis:jar:2.6:test
++- org.assertj:assertj-core:jar:3.9.1:test
+\- junit:junit:jar:4.12:test
+   \- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for duplicate)

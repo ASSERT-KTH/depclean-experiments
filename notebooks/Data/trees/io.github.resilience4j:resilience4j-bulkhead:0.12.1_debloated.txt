@@ -1,0 +1,6 @@
+io.github.resilience4j:resilience4j-bulkhead:jar:0.12.1
++- io.vavr:vavr:jar:0.9.2:compile
+|  \- io.vavr:vavr-match:jar:0.9.2:compile
+\- io.github.resilience4j:resilience4j-core:jar:0.12.1:compile
+   +- (io.vavr:vavr:jar:0.9.2:compile - omitted for duplicate)
+   \- (org.slf4j:slf4j-api:jar:1.7.24:compile - omitted for duplicate)

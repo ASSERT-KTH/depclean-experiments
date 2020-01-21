@@ -1,0 +1,2 @@
+org.bouncycastle:bcpg-jdk15on:jar:1.59
+\- org.bouncycastle:bcprov-jdk15on:jar:1.59:compile

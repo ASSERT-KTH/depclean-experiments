@@ -1,0 +1,35 @@
+org.atmosphere.extensions:atmosphere-gwt20-server:jar:2.4.19
++- org.atmosphere:atmosphere-runtime:jar:2.4.19:provided
+|  \- (org.slf4j:slf4j-api:jar:1.6.1:compile - version managed from 1.7.7; scope updated from provided; omitted for duplicate)
++- org.atmosphere.extensions:atmosphere-gwt20-common:jar:2.4.19:compile
+|  \- (org.slf4j:slf4j-api:jar:1.6.1:compile - version managed from 1.7.5; omitted for duplicate)
++- com.google.gwt:gwt-user:jar:2.5.0:provided
+|  +- javax.validation:validation-api:jar:1.0.0.GA:provided
+|  +- javax.validation:validation-api:jar:sources:1.0.0.GA:provided
+|  \- org.json:json:jar:20090211:provided
++- junit:junit:jar:4.8.2:test
++- org.eclipse.jetty:jetty-websocket:jar:7.6.0.v20120127:provided
+|  +- org.eclipse.jetty:jetty-util:jar:7.6.0.v20120127:provided
+|  +- org.eclipse.jetty:jetty-io:jar:7.6.0.v20120127:provided
+|  |  \- (org.eclipse.jetty:jetty-util:jar:7.6.0.v20120127:provided - omitted for duplicate)
+|  \- org.eclipse.jetty:jetty-http:jar:7.6.0.v20120127:provided
+|     \- (org.eclipse.jetty:jetty-io:jar:7.6.0.v20120127:provided - omitted for duplicate)
++- org.testng:testng:jar:jdk15:5.8:test
+|  \- (junit:junit:jar:4.8.2:test - version managed from 3.8.1; omitted for duplicate)
++- org.mortbay.jetty:jetty:jar:6.1.22:provided
+|  \- (org.mortbay.jetty:jetty-util:jar:6.1.22:provided - omitted for duplicate)
++- org.mortbay.jetty:jetty-util:jar:6.1.22:provided
++- org.mortbay.jetty:jetty-management:jar:6.1.22:provided
+|  \- (org.mortbay.jetty:jetty:jar:6.1.22:provided - omitted for duplicate)
++- com.ning:async-http-client:jar:1.8.3:test
+|  +- io.netty:netty:jar:3.9.0.Final:test
+|  \- (org.slf4j:slf4j-api:jar:1.6.1:test - version managed from 1.7.5; omitted for duplicate)
++- org.slf4j:slf4j-api:jar:1.6.1:compile
++- org.slf4j:jul-to-slf4j:jar:1.6.1:test
+|  \- (org.slf4j:slf4j-api:jar:1.6.1:test - version managed from 1.7.5; omitted for duplicate)
++- org.slf4j:jcl-over-slf4j:jar:1.6.1:test
+|  \- (org.slf4j:slf4j-api:jar:1.6.1:test - version managed from 1.7.5; omitted for duplicate)
++- ch.qos.logback:logback-core:jar:0.9.30:test
+\- ch.qos.logback:logback-classic:jar:0.9.30:test
+   +- (ch.qos.logback:logback-core:jar:0.9.30:test - omitted for duplicate)
+   \- (org.slf4j:slf4j-api:jar:1.6.1:test - version managed from 1.6.2; omitted for duplicate)

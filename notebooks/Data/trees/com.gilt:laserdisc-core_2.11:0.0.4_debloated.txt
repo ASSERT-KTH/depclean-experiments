@@ -1,0 +1,35 @@
+com.gilt:laserdisc-core_2.11:jar:0.0.4
++- eu.timepit:refined_2.11:jar:0.8.7:compile
+|  +- org.scala-lang:scala-compiler:jar:2.11.12:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  |  +- (org.scala-lang:scala-reflect:jar:2.11.12:compile - omitted for duplicate)
+|  |  +- (org.scala-lang.modules:scala-xml_2.11:jar:1.0.5:compile - omitted for conflict with 1.0.6)
+|  |  \- org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.0.4:compile
+|  |     \- (org.scala-lang:scala-library:jar:2.11.6:compile - omitted for conflict with 2.11.12)
+|  +- org.scala-lang:scala-library:jar:2.11.12:compile
+|  +- org.scala-lang:scala-reflect:jar:2.11.12:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  +- org.typelevel:macro-compat_2.11:jar:1.1.1:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.11.7:compile - omitted for conflict with 2.11.12)
+|  +- (com.chuusai:shapeless_2.11:jar:2.3.3:compile - omitted for duplicate)
+|  \- org.scala-lang.modules:scala-xml_2.11:jar:1.0.6:compile
+|     \- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.12)
++- org.scodec:scodec-bits_2.11:jar:1.1.5:compile
+|  \- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.12)
++- org.scodec:scodec-core_2.11:jar:1.10.3:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.12)
+|  +- (org.scodec:scodec-bits_2.11:jar:1.1.2:compile - omitted for conflict with 1.1.5)
+|  \- (com.chuusai:shapeless_2.11:jar:2.3.2:compile - omitted for conflict with 2.3.3)
++- com.chuusai:shapeless_2.11:jar:2.3.3:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  \- (org.typelevel:macro-compat_2.11:jar:1.1.1:compile - omitted for duplicate)
++- org.scalacheck:scalacheck_2.11:jar:1.13.5:test
+|  +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.12)
+|  \- org.scala-sbt:test-interface:jar:1.0:test
+\- org.scalatest:scalatest_2.11:jar:3.0.5:test
+   +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+   +- org.scalactic:scalactic_2.11:jar:3.0.5:test
+   |  +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+   |  \- (org.scala-lang:scala-reflect:jar:2.11.12:test - omitted for duplicate)
+   +- (org.scala-lang:scala-reflect:jar:2.11.12:test - omitted for duplicate)
+   \- (org.scala-lang.modules:scala-xml_2.11:jar:1.0.6:test - omitted for duplicate)

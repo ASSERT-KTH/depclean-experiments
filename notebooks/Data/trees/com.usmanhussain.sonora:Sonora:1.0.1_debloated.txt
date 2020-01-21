@@ -1,0 +1,258 @@
+com.usmanhussain.sonora:Sonora:jar:1.0.1
++- com.usmanhussain.habanero:Habanero:jar:1.2.0:compile
++- org.seleniumhq.selenium:selenium-java:jar:3.5.3:compile
+|  +- org.seleniumhq.selenium:selenium-api:jar:3.5.3:compile
+|  +- org.seleniumhq.selenium:selenium-chrome-driver:jar:3.5.3:compile
+|  |  +- (org.seleniumhq.selenium:selenium-api:jar:3.5.3:compile - omitted for duplicate)
+|  |  +- (org.seleniumhq.selenium:selenium-remote-driver:jar:3.5.3:compile - omitted for duplicate)
+|  |  +- (cglib:cglib-nodep:jar:3.2.4:compile - omitted for duplicate)
+|  |  +- (org.apache.commons:commons-exec:jar:1.3:compile - omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.10:compile - omitted for duplicate)
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  |  +- (com.google.code.gson:gson:jar:2.8.0:compile - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:23.0:compile - omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.3:compile - omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpcore:jar:4.4.6:compile - omitted for duplicate)
+|  |  +- (net.java.dev.jna:jna:jar:4.1.0:compile - omitted for duplicate)
+|  |  \- (net.java.dev.jna:jna-platform:jar:4.1.0:compile - omitted for duplicate)
+|  +- org.seleniumhq.selenium:selenium-edge-driver:jar:3.5.3:compile
+|  |  +- (org.seleniumhq.selenium:selenium-api:jar:3.5.3:compile - omitted for duplicate)
+|  |  +- (org.seleniumhq.selenium:selenium-remote-driver:jar:3.5.3:compile - omitted for duplicate)
+|  |  +- (cglib:cglib-nodep:jar:3.2.4:compile - omitted for duplicate)
+|  |  +- (org.apache.commons:commons-exec:jar:1.3:compile - omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.10:compile - omitted for duplicate)
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  |  +- (com.google.code.gson:gson:jar:2.8.0:compile - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:23.0:compile - omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.3:compile - omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpcore:jar:4.4.6:compile - omitted for duplicate)
+|  |  +- (net.java.dev.jna:jna:jar:4.1.0:compile - omitted for duplicate)
+|  |  \- (net.java.dev.jna:jna-platform:jar:4.1.0:compile - omitted for duplicate)
+|  +- org.seleniumhq.selenium:selenium-firefox-driver:jar:3.5.3:compile
+|  |  +- (org.seleniumhq.selenium:selenium-api:jar:3.5.3:compile - omitted for duplicate)
+|  |  +- (org.seleniumhq.selenium:selenium-remote-driver:jar:3.5.3:compile - omitted for duplicate)
+|  |  +- (cglib:cglib-nodep:jar:3.2.4:compile - omitted for duplicate)
+|  |  +- (org.apache.commons:commons-exec:jar:1.3:compile - omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.10:compile - omitted for duplicate)
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  |  +- (com.google.code.gson:gson:jar:2.8.0:compile - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:23.0:compile - omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.3:compile - omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpcore:jar:4.4.6:compile - omitted for duplicate)
+|  |  +- (net.java.dev.jna:jna:jar:4.1.0:compile - omitted for duplicate)
+|  |  \- (net.java.dev.jna:jna-platform:jar:4.1.0:compile - omitted for duplicate)
+|  +- org.seleniumhq.selenium:selenium-ie-driver:jar:3.5.3:compile
+|  |  +- (org.seleniumhq.selenium:selenium-api:jar:3.5.3:compile - omitted for duplicate)
+|  |  +- (org.seleniumhq.selenium:selenium-remote-driver:jar:3.5.3:compile - omitted for duplicate)
+|  |  +- (cglib:cglib-nodep:jar:3.2.4:compile - omitted for duplicate)
+|  |  +- (org.apache.commons:commons-exec:jar:1.3:compile - omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.10:compile - omitted for duplicate)
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  |  +- (com.google.code.gson:gson:jar:2.8.0:compile - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:23.0:compile - omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.3:compile - omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpcore:jar:4.4.6:compile - omitted for duplicate)
+|  |  +- (net.java.dev.jna:jna:jar:4.1.0:compile - omitted for duplicate)
+|  |  \- (net.java.dev.jna:jna-platform:jar:4.1.0:compile - omitted for duplicate)
+|  +- org.seleniumhq.selenium:selenium-opera-driver:jar:3.5.3:compile
+|  |  +- (org.seleniumhq.selenium:selenium-api:jar:3.5.3:compile - omitted for duplicate)
+|  |  +- (org.seleniumhq.selenium:selenium-remote-driver:jar:3.5.3:compile - omitted for duplicate)
+|  |  +- (cglib:cglib-nodep:jar:3.2.4:compile - omitted for duplicate)
+|  |  +- (org.apache.commons:commons-exec:jar:1.3:compile - omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.10:compile - omitted for duplicate)
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  |  +- (com.google.code.gson:gson:jar:2.8.0:compile - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:23.0:compile - omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.3:compile - omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpcore:jar:4.4.6:compile - omitted for duplicate)
+|  |  +- (net.java.dev.jna:jna:jar:4.1.0:compile - omitted for duplicate)
+|  |  \- (net.java.dev.jna:jna-platform:jar:4.1.0:compile - omitted for duplicate)
+|  +- (org.seleniumhq.selenium:selenium-remote-driver:jar:3.5.3:compile - omitted for duplicate)
+|  +- org.seleniumhq.selenium:selenium-safari-driver:jar:3.5.3:compile
+|  |  +- (org.seleniumhq.selenium:selenium-api:jar:3.5.3:compile - omitted for duplicate)
+|  |  +- (org.seleniumhq.selenium:selenium-remote-driver:jar:3.5.3:compile - omitted for duplicate)
+|  |  +- (cglib:cglib-nodep:jar:3.2.4:compile - omitted for duplicate)
+|  |  +- (org.apache.commons:commons-exec:jar:1.3:compile - omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.10:compile - omitted for duplicate)
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  |  +- (com.google.code.gson:gson:jar:2.8.0:compile - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:23.0:compile - omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.3:compile - omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpcore:jar:4.4.6:compile - omitted for duplicate)
+|  |  +- (net.java.dev.jna:jna:jar:4.1.0:compile - omitted for duplicate)
+|  |  \- (net.java.dev.jna:jna-platform:jar:4.1.0:compile - omitted for duplicate)
+|  +- (org.seleniumhq.selenium:selenium-support:jar:3.5.3:compile - omitted for duplicate)
+|  +- cglib:cglib-nodep:jar:3.2.4:compile
+|  +- org.apache.commons:commons-exec:jar:1.3:compile
+|  +- org.apache.commons:commons-lang3:jar:3.5:compile
+|  +- commons-codec:commons-codec:jar:1.10:compile
+|  +- commons-io:commons-io:jar:2.5:compile
+|  +- commons-logging:commons-logging:jar:1.2:compile
+|  +- org.w3c.css:sac:jar:1.3:compile
+|  +- net.sourceforge.cssparser:cssparser:jar:0.9.23:compile
+|  |  \- (org.w3c.css:sac:jar:1.3:compile - omitted for duplicate)
+|  +- com.google.code.gson:gson:jar:2.8.0:compile
+|  +- com.google.guava:guava:jar:23.0:compile
+|  |  +- com.google.code.findbugs:jsr305:jar:1.3.9:compile
+|  |  +- com.google.errorprone:error_prone_annotations:jar:2.0.18:compile
+|  |  +- com.google.j2objc:j2objc-annotations:jar:1.1:compile
+|  |  \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:compile
+|  +- org.hamcrest:hamcrest-core:jar:1.3:compile
+|  +- net.sourceforge.htmlunit:htmlunit:jar:2.27:compile
+|  |  +- (xalan:xalan:jar:2.7.2:compile - omitted for duplicate)
+|  |  +- (org.apache.commons:commons-lang3:jar:3.5:compile - omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpmime:jar:4.5.3:compile - omitted for duplicate)
+|  |  +- (net.sourceforge.htmlunit:htmlunit-core-js:jar:2.27:compile - omitted for duplicate)
+|  |  +- (net.sourceforge.htmlunit:neko-htmlunit:jar:2.27:compile - omitted for duplicate)
+|  |  +- (net.sourceforge.cssparser:cssparser:jar:0.9.23:compile - omitted for duplicate)
+|  |  +- (commons-io:commons-io:jar:2.5:compile - omitted for duplicate)
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  |  \- (org.eclipse.jetty.websocket:websocket-client:jar:9.4.5.v20170502:compile - omitted for duplicate)
+|  +- net.sourceforge.htmlunit:htmlunit-core-js:jar:2.27:compile
+|  +- net.sourceforge.htmlunit:neko-htmlunit:jar:2.27:compile
+|  |  \- (xerces:xercesImpl:jar:2.11.0:compile - omitted for duplicate)
+|  +- org.apache.httpcomponents:httpclient:jar:4.5.3:compile
+|  |  +- (org.apache.httpcomponents:httpcore:jar:4.4.6:compile - omitted for duplicate)
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  |  \- (commons-codec:commons-codec:jar:1.9:compile - omitted for conflict with 1.10)
+|  +- org.apache.httpcomponents:httpcore:jar:4.4.6:compile
+|  +- org.apache.httpcomponents:httpmime:jar:4.5.3:compile
+|  |  \- (org.apache.httpcomponents:httpclient:jar:4.5.3:compile - omitted for duplicate)
+|  +- org.eclipse.jetty:jetty-client:jar:9.4.5.v20170502:compile
+|  |  +- (org.eclipse.jetty:jetty-http:jar:9.4.5.v20170502:compile - omitted for duplicate)
+|  |  \- (org.eclipse.jetty:jetty-io:jar:9.4.5.v20170502:compile - omitted for duplicate)
+|  +- org.eclipse.jetty:jetty-http:jar:9.4.5.v20170502:compile
+|  |  +- (org.eclipse.jetty:jetty-util:jar:9.4.5.v20170502:compile - omitted for duplicate)
+|  |  \- (org.eclipse.jetty:jetty-io:jar:9.4.5.v20170502:compile - omitted for duplicate)
+|  +- org.eclipse.jetty:jetty-io:jar:9.4.5.v20170502:compile
+|  |  \- (org.eclipse.jetty:jetty-util:jar:9.4.5.v20170502:compile - omitted for duplicate)
+|  +- org.eclipse.jetty:jetty-util:jar:9.4.5.v20170502:compile
+|  +- net.java.dev.jna:jna:jar:4.1.0:compile
+|  +- net.java.dev.jna:jna-platform:jar:4.1.0:compile
+|  |  \- (net.java.dev.jna:jna:jar:4.1.0:compile - omitted for duplicate)
+|  +- (junit:junit:jar:4.12:compile - omitted for duplicate)
+|  +- (org.seleniumhq.selenium:selenium-java:jar:3.1.0:compile - omitted for cycle)
+|  +- com.codeborne:phantomjsdriver:jar:1.4.0:compile
+|  +- org.seleniumhq.selenium:htmlunit-driver:jar:2.27:compile
+|  |  +- (org.seleniumhq.selenium:selenium-api:jar:3.4.0:compile - omitted for conflict with 3.5.3)
+|  |  +- (org.seleniumhq.selenium:selenium-support:jar:3.4.0:compile - omitted for conflict with 3.5.3)
+|  |  \- (net.sourceforge.htmlunit:htmlunit:jar:2.27:compile - omitted for duplicate)
+|  +- javax.servlet:javax.servlet-api:jar:3.1.0:compile
+|  +- org.eclipse.jetty.websocket:websocket-api:jar:9.4.5.v20170502:compile
+|  +- org.eclipse.jetty.websocket:websocket-client:jar:9.4.5.v20170502:compile
+|  |  +- (org.eclipse.jetty:jetty-util:jar:9.4.5.v20170502:compile - omitted for duplicate)
+|  |  +- (org.eclipse.jetty:jetty-io:jar:9.4.5.v20170502:compile - omitted for duplicate)
+|  |  +- (org.eclipse.jetty:jetty-client:jar:9.4.5.v20170502:compile - omitted for duplicate)
+|  |  \- (org.eclipse.jetty.websocket:websocket-common:jar:9.4.5.v20170502:compile - omitted for duplicate)
+|  +- org.eclipse.jetty.websocket:websocket-common:jar:9.4.5.v20170502:compile
+|  |  +- (org.eclipse.jetty.websocket:websocket-api:jar:9.4.5.v20170502:compile - omitted for duplicate)
+|  |  +- (org.eclipse.jetty:jetty-util:jar:9.4.5.v20170502:compile - omitted for duplicate)
+|  |  \- (org.eclipse.jetty:jetty-io:jar:9.4.5.v20170502:compile - omitted for duplicate)
+|  +- xalan:serializer:jar:2.7.2:compile
+|  |  \- (xml-apis:xml-apis:jar:1.3.04:compile - omitted for conflict with 1.4.01)
+|  +- xalan:xalan:jar:2.7.2:compile
+|  |  \- (xalan:serializer:jar:2.7.2:compile - omitted for duplicate)
+|  +- xerces:xercesImpl:jar:2.11.0:compile
+|  |  \- (xml-apis:xml-apis:jar:1.4.01:compile - omitted for conflict with 1.3.04)
+|  \- xml-apis:xml-apis:jar:1.4.01:compile
++- org.seleniumhq.selenium:selenium-remote-driver:jar:3.5.3:compile
+|  +- (org.seleniumhq.selenium:selenium-api:jar:3.5.3:compile - omitted for duplicate)
+|  +- (cglib:cglib-nodep:jar:3.2.4:compile - omitted for duplicate)
+|  +- (org.apache.commons:commons-exec:jar:1.3:compile - omitted for duplicate)
+|  +- (commons-codec:commons-codec:jar:1.10:compile - omitted for duplicate)
+|  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  +- (com.google.code.gson:gson:jar:2.8.0:compile - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:23.0:compile - omitted for duplicate)
+|  +- (org.apache.httpcomponents:httpclient:jar:4.5.3:compile - omitted for duplicate)
+|  +- (org.apache.httpcomponents:httpcore:jar:4.4.6:compile - omitted for duplicate)
+|  +- (net.java.dev.jna:jna:jar:4.1.0:compile - omitted for duplicate)
+|  \- (net.java.dev.jna:jna-platform:jar:4.1.0:compile - omitted for duplicate)
++- org.seleniumhq.selenium:selenium-support:jar:3.5.3:compile
+|  +- (org.seleniumhq.selenium:selenium-api:jar:3.5.3:compile - omitted for duplicate)
+|  +- (org.seleniumhq.selenium:selenium-remote-driver:jar:3.5.3:compile - omitted for duplicate)
+|  +- (cglib:cglib-nodep:jar:3.2.4:compile - omitted for duplicate)
+|  +- (org.apache.commons:commons-exec:jar:1.3:compile - omitted for duplicate)
+|  +- (commons-codec:commons-codec:jar:1.10:compile - omitted for duplicate)
+|  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  +- (com.google.code.gson:gson:jar:2.8.0:compile - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:23.0:compile - omitted for duplicate)
+|  +- (org.hamcrest:hamcrest-core:jar:1.3:compile - omitted for duplicate)
+|  +- (org.apache.httpcomponents:httpclient:jar:4.5.3:compile - omitted for duplicate)
+|  +- (org.apache.httpcomponents:httpcore:jar:4.4.6:compile - omitted for duplicate)
+|  +- (net.java.dev.jna:jna:jar:4.1.0:compile - omitted for duplicate)
+|  +- (net.java.dev.jna:jna-platform:jar:4.1.0:compile - omitted for duplicate)
+|  \- (junit:junit:jar:4.12:compile - omitted for duplicate)
++- org.testcontainers:selenium:jar:1.4.2:compile
+|  \- org.testcontainers:testcontainers:jar:1.4.2:compile
+|     +- (junit:junit:jar:4.12:compile - omitted for duplicate)
+|     +- (org.hamcrest:hamcrest-core:jar:1.3:compile - omitted for duplicate)
+|     +- org.slf4j:slf4j-api:jar:1.7.25:compile
+|     +- com.kohlschutter.junixsocket:junixsocket-common:jar:2.0.4:compile
+|     +- com.kohlschutter.junixsocket:junixsocket-native-common:jar:2.0.4:compile
+|     |  +- (com.kohlschutter.junixsocket:junixsocket-common:jar:2.0.4:compile - omitted for duplicate)
+|     |  \- (org.scijava:native-lib-loader:jar:2.0.2:compile - omitted for duplicate)
+|     +- org.scijava:native-lib-loader:jar:2.0.2:compile
+|     +- org.apache.commons:commons-compress:jar:1.12:compile
+|     +- (commons-codec:commons-codec:jar:1.10:compile - omitted for duplicate)
+|     +- commons-lang:commons-lang:jar:2.6:compile
+|     +- (commons-io:commons-io:jar:2.5:compile - omitted for duplicate)
+|     +- org.slf4j:jcl-over-slf4j:jar:1.7.21:compile
+|     |  \- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for conflict with 1.7.25)
+|     +- org.rnorth:tcp-unix-socket-proxy:jar:1.0.1:compile
+|     |  +- (com.kohlschutter.junixsocket:junixsocket-native-common:jar:2.0.4:compile - omitted for duplicate)
+|     |  +- (com.kohlschutter.junixsocket:junixsocket-common:jar:2.0.4:compile - omitted for duplicate)
+|     |  \- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for conflict with 1.7.25)
+|     +- org.zeroturnaround:zt-exec:jar:1.8:compile
+|     |  +- (commons-io:commons-io:jar:1.4:compile - omitted for conflict with 2.5)
+|     |  \- (org.slf4j:slf4j-api:jar:1.7.2:compile - omitted for conflict with 1.7.25)
+|     +- org.rnorth.duct-tape:duct-tape:jar:1.0.6:compile
+|     |  \- (org.jetbrains:annotations:jar:13.0:compile - omitted for duplicate)
+|     +- org.jetbrains:annotations:jar:13.0:compile
+|     +- org.slf4j:slf4j-ext:jar:1.7.25:compile
+|     |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|     +- org.rnorth.visible-assertions:visible-assertions:jar:2.0.0:compile
+|     |  \- (com.github.jnr:jnr-posix:jar:3.0.41:compile - omitted for duplicate)
+|     +- com.github.jnr:jnr-posix:jar:3.0.41:compile
+|     |  +- (com.github.jnr:jnr-ffi:jar:2.1.4:compile - omitted for duplicate)
+|     |  \- (com.github.jnr:jnr-constants:jar:0.9.8:compile - omitted for duplicate)
+|     +- com.github.jnr:jnr-ffi:jar:2.1.4:compile
+|     |  +- (com.github.jnr:jffi:jar:1.2.15:compile - omitted for duplicate)
+|     |  +- (com.github.jnr:jffi:jar:native:1.2.15:runtime - omitted for duplicate)
+|     |  +- (org.ow2.asm:asm:jar:5.0.3:compile - omitted for duplicate)
+|     |  +- (org.ow2.asm:asm-commons:jar:5.0.3:compile - omitted for duplicate)
+|     |  +- (org.ow2.asm:asm-analysis:jar:5.0.3:compile - omitted for duplicate)
+|     |  +- (org.ow2.asm:asm-tree:jar:5.0.3:compile - omitted for duplicate)
+|     |  +- (org.ow2.asm:asm-util:jar:5.0.3:compile - omitted for duplicate)
+|     |  \- (com.github.jnr:jnr-x86asm:jar:1.0.2:compile - omitted for duplicate)
+|     +- com.github.jnr:jffi:jar:1.2.15:compile
+|     +- com.github.jnr:jffi:jar:native:1.2.15:runtime
+|     +- org.ow2.asm:asm:jar:5.0.3:compile
+|     +- org.ow2.asm:asm-commons:jar:5.0.3:compile
+|     |  \- (org.ow2.asm:asm-tree:jar:5.0.3:compile - omitted for duplicate)
+|     +- org.ow2.asm:asm-analysis:jar:5.0.3:compile
+|     |  \- (org.ow2.asm:asm-tree:jar:5.0.3:compile - omitted for duplicate)
+|     +- org.ow2.asm:asm-tree:jar:5.0.3:compile
+|     |  \- (org.ow2.asm:asm:jar:5.0.3:compile - omitted for duplicate)
+|     +- org.ow2.asm:asm-util:jar:5.0.3:compile
+|     |  \- (org.ow2.asm:asm-tree:jar:5.0.3:compile - omitted for duplicate)
+|     +- com.github.jnr:jnr-x86asm:jar:1.0.2:compile
+|     \- com.github.jnr:jnr-constants:jar:0.9.8:compile
++- org.hamcrest:hamcrest-all:jar:1.3:test
++- junit:junit:jar:4.12:test (scope not updated to compile)
+|  \- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for duplicate)
++- log4j:log4j:jar:1.2.17:compile
++- io.cucumber:cucumber-junit:jar:2.3.1:compile
+|  +- (io.cucumber:cucumber-core:jar:2.3.1:compile - omitted for duplicate)
+|  \- (junit:junit:jar:4.12:compile - omitted for duplicate)
++- io.cucumber:gherkin:jar:5.0.0:compile
+|  \- io.cucumber:gherkin-jvm-deps:jar:1.0.4:compile
++- io.cucumber:cucumber-core:jar:2.3.1:test (scope not updated to compile)
+|  +- (info.cukes:cucumber-html:jar:0.2.6:test - omitted for duplicate)
+|  +- (io.cucumber:cucumber-jvm-deps:jar:1.0.6:test - omitted for duplicate)
+|  +- (io.cucumber:gherkin:jar:5.0.0:test - omitted for duplicate)
+|  \- io.cucumber:tag-expressions:jar:1.1.1:test
++- com.google.inject:guice:jar:4.0:provided
+|  +- javax.inject:javax.inject:jar:1:provided
+|  +- aopalliance:aopalliance:jar:1.0:provided
+|  \- (com.google.guava:guava:jar:16.0.1:provided - omitted for conflict with 23.0)
+\- org.jsoup:jsoup:jar:1.11.2:compile

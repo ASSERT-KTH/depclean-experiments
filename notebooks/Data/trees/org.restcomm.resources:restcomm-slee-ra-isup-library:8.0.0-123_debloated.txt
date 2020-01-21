@@ -1,0 +1,21 @@
+org.restcomm.resources:restcomm-slee-ra-isup-library:jar:8.0.0-123
++- org.restcomm.protocols.ss7.isup:isup-impl:jar:8.0.0-145:compile
+|  +- log4j:log4j:jar:1.2.14:compile
+|  +- (org.restcomm.protocols.ss7.isup:isup-api:jar:8.0.0-145:compile - omitted for duplicate)
+|  +- (org.restcomm.protocols.ss7.mtp:mtp-api:jar:8.0.0-145:compile - omitted for duplicate)
+|  \- (org.restcomm.protocols.ss7.mtp:mtp:jar:8.0.0-145:compile - omitted for duplicate)
++- org.mobicents.protocols.stream:stream:jar:1.0.0.FINAL:compile
+|  +- (log4j:log4j:jar:1.2.14:compile - version managed from 1.2.8; omitted for duplicate)
+|  \- (javolution:javolution:jar:5.5.1:compile - omitted for duplicate)
+\- org.restcomm.protocols.ss7.m3ua:m3ua-impl:jar:8.0.0-145:compile
+   +- org.mobicents.commons:commons:jar:1.0.0.CR1:compile
+   +- org.restcomm.protocols.ss7.management:shell-server-api:jar:8.0.0-145:compile
+   +- (org.restcomm.protocols.ss7.m3ua:m3ua-api:jar:8.0.0-145:compile - omitted for duplicate)
+   +- (javolution:javolution:jar:5.5.1:compile - omitted for duplicate)
+   +- (io.netty:netty-all:jar:4.0.33.Final:compile - omitted for duplicate)
+   +- (org.restcomm.protocols.ss7.mtp:mtp:jar:8.0.0-145:compile - omitted for duplicate)
+   +- (org.restcomm.protocols.ss7.congestion:congestion:jar:8.0.0-145:compile - omitted for duplicate)
+   +- (org.mobicents.protocols.sctp:sctp-api:jar:2.0.0-128:compile - omitted for duplicate)
+   \- org.restcomm.protocols.ss7.statistics:statistics-impl:jar:8.0.0-145:compile
+      +- (org.restcomm.protocols.ss7.statistics:statistics-api:jar:8.0.0-145:compile - omitted for duplicate)
+      \- (javolution:javolution:jar:5.5.1:compile - omitted for duplicate)

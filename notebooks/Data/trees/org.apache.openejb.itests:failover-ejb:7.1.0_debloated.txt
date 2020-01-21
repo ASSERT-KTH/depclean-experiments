@@ -1,0 +1,2 @@
+org.apache.openejb.itests:failover-ejb:jar:7.1.0
+\- org.apache.tomee:javaee-api:jar:7.0-1:provided

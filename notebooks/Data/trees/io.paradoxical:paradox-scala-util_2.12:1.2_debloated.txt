@@ -1,0 +1,32 @@
+io.paradoxical:paradox-scala-util_2.12:jar:1.2
++- org.scala-lang:scala-compiler:jar:2.12.4:provided
+|  +- (org.scala-lang:scala-library:jar:2.12.4:provided - omitted for duplicate)
+|  +- org.scala-lang:scala-reflect:jar:2.12.4:provided
+|  |  \- (org.scala-lang:scala-library:jar:2.12.4:provided - omitted for duplicate)
+|  \- org.scala-lang.modules:scala-xml_2.12:jar:1.0.6:provided
+|     \- (org.scala-lang:scala-library:jar:2.12.0:provided - omitted for conflict with 2.12.4)
++- org.scala-lang:scala-library:jar:2.12.4:compile
++- io.paradoxical:paradox-scala-global_2.12:jar:1.2:compile
+|  \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
++- com.google.guava:guava:jar:21.0:compile
++- joda-time:joda-time:jar:2.9.7:compile
++- com.google.code.findbugs:jsr305:jar:3.0.2:compile
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- org.scalatest:scalatest_2.12:jar:3.0.1:test
+|  +- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.4)
+|  +- org.scalactic:scalactic_2.12:jar:3.0.1:test
+|  |  +- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.4)
+|  |  \- (org.scala-lang:scala-reflect:jar:2.12.0:test - omitted for conflict with 2.12.4)
+|  +- (org.scala-lang:scala-reflect:jar:2.12.0:test - omitted for conflict with 2.12.4)
+|  +- (org.scala-lang.modules:scala-xml_2.12:jar:1.0.5:test - omitted for conflict with 1.0.6)
+|  \- org.scala-lang.modules:scala-parser-combinators_2.12:jar:1.0.4:test
+|     \- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.4)
++- org.mockito:mockito-all:jar:1.10.19:test
+\- com.github.alexarchambault:scalacheck-shapeless_1.13_2.12:jar:1.1.5:test
+   +- (org.scala-lang:scala-library:jar:2.12.1:test - omitted for conflict with 2.12.4)
+   +- org.scalacheck:scalacheck_2.12:jar:1.13.5:test
+   |  +- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.4)
+   |  \- org.scala-sbt:test-interface:jar:1.0:test
+   \- com.chuusai:shapeless_2.12:jar:2.3.2:test
+      +- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.4)
+      \- (org.typelevel:macro-compat_2.12:jar:1.1.1:test - omitted for duplicate)

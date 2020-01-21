@@ -1,0 +1,45 @@
+com.github.ansell.csv.sum:csvsum:jar:0.6.0
++- com.github.ansell.jdefaultdict:jdefaultdict:jar:0.1:compile
++- com.fasterxml.jackson.core:jackson-core:jar:2.9.3:compile
++- com.fasterxml.jackson.dataformat:jackson-dataformat-csv:jar:2.9.3:compile
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.9.3:compile
+|  \- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.3:compile
++- net.sf.jopt-simple:jopt-simple:jar:5.0.4:compile
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.luaj:luaj-jse:jar:3.0.1:compile
++- org.jooq:jool:jar:0.9.12:compile
++- com.github.jsonld-java:jsonld-java:jar:0.11.1:compile
+|  +- org.apache.httpcomponents:httpclient-osgi:jar:4.5.3:compile
+|  |  +- org.apache.httpcomponents:httpclient:jar:4.5.3:compile
+|  |  +- commons-codec:commons-codec:jar:1.9:compile
+|  |  +- org.apache.httpcomponents:httpmime:jar:4.5.3:compile
+|  |  +- org.apache.httpcomponents:httpclient-cache:jar:4.5.3:compile
+|  |  \- org.apache.httpcomponents:fluent-hc:jar:4.5.3:compile
+|  +- org.apache.httpcomponents:httpcore-osgi:jar:4.4.6:compile
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.4.6:compile
+|  |  \- org.apache.httpcomponents:httpcore-nio:jar:4.4.6:compile
+|  +- org.slf4j:slf4j-api:jar:1.7.25:compile
+|  +- org.slf4j:jcl-over-slf4j:jar:1.7.25:runtime
+|  \- commons-io:commons-io:jar:2.5:compile
++- com.healthmarketscience.jackcess:jackcess:jar:2.1.6:compile
+|  \- commons-lang:commons-lang:jar:2.6:compile
++- org.slf4j:slf4j-simple:jar:1.7.25:runtime
++- org.apache.derby:derby:jar:10.13.1.1:runtime
++- org.postgresql:postgresql:jar:42.0.0:runtime
++- com.github.ansell.shp:utm2wgs:jar:0.0.3:compile
+|  +- org.geotools:gt-api:jar:18.0:compile
+|  |  +- com.vividsolutions:jts-core:jar:1.14.0:compile
+|  |  \- javax.media:jai_core:jar:1.1.3:compile
+|  +- org.geotools:gt-opengis:jar:18.0:compile
+|  |  +- net.java.dev.jsr-275:jsr-275:jar:1.0-beta-2:compile
+|  |  \- commons-pool:commons-pool:jar:1.5.4:compile
+|  +- org.geotools:gt-referencing:jar:18.0:compile
+|  |  +- com.googlecode.efficient-java-matrix-library:core:jar:0.26:compile
+|  |  +- org.geotools:gt-metadata:jar:18.0:compile
+|  |  +- jgridshift:jgridshift:jar:1.0:compile
+|  |  \- net.sf.geographiclib:GeographicLib-Java:jar:1.44:compile
+|  \- org.geotools:gt-epsg-hsql:jar:18.0:runtime
+|     \- org.hsqldb:hsqldb:jar:2.3.0:runtime
++- com.github.ansell.csv:csvstream:jar:0.0.5:compile
+\- com.fasterxml.util:java-merge-sort:jar:1.0.1:compile

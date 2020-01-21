@@ -1,0 +1,50 @@
+org.apache.juneau:juneau-examples-rest:jar:7.1.0
++- org.apache.juneau:juneau-microservice-server:jar:7.1.0:compile
+|  +- org.apache.juneau:juneau-rest-server:jar:7.1.0:compile
+|  |  +- org.apache.juneau:juneau-marshall:jar:7.1.0:compile
+|  |  +- org.apache.juneau:juneau-config:jar:7.1.0:compile
+|  |  |  +- (org.apache.juneau:juneau-marshall:jar:7.1.0:compile - omitted for duplicate)
+|  |  |  \- org.apache.juneau:juneau-svl:jar:7.1.0:compile
+|  |  |     \- (org.apache.juneau:juneau-marshall:jar:7.1.0:compile - omitted for duplicate)
+|  |  \- org.apache.juneau:juneau-dto:jar:7.1.0:compile
+|  |     \- (org.apache.juneau:juneau-marshall:jar:7.1.0:compile - omitted for duplicate)
+|  +- org.apache.juneau:juneau-rest-client:jar:7.1.0:compile
+|  |  +- (org.apache.juneau:juneau-marshall:jar:7.1.0:compile - omitted for duplicate)
+|  |  \- (org.apache.httpcomponents:httpclient:jar:4.5.4:compile - omitted for duplicate)
+|  +- org.apache.juneau:juneau-marshall-rdf:jar:7.1.0:compile
+|  |  \- (org.apache.juneau:juneau-marshall:jar:7.1.0:compile - omitted for duplicate)
+|  +- org.eclipse.jetty:jetty-server:jar:9.4.8.v20171121:compile
+|  |  +- javax.servlet:javax.servlet-api:jar:3.1.0:provided (scope managed from compile)
+|  |  +- org.eclipse.jetty:jetty-http:jar:9.4.8.v20171121:compile
+|  |  |  +- (org.eclipse.jetty:jetty-util:jar:9.4.8.v20171121:compile - omitted for duplicate)
+|  |  |  \- (org.eclipse.jetty:jetty-io:jar:9.4.8.v20171121:compile - omitted for duplicate)
+|  |  \- org.eclipse.jetty:jetty-io:jar:9.4.8.v20171121:compile
+|  |     \- (org.eclipse.jetty:jetty-util:jar:9.4.8.v20171121:compile - omitted for duplicate)
+|  +- org.eclipse.jetty:jetty-security:jar:9.4.8.v20171121:compile
+|  |  \- (org.eclipse.jetty:jetty-server:jar:9.4.8.v20171121:compile - omitted for duplicate)
+|  +- org.eclipse.jetty:jetty-servlet:jar:9.4.8.v20171121:compile
+|  |  \- (org.eclipse.jetty:jetty-security:jar:9.4.8.v20171121:compile - omitted for duplicate)
+|  \- org.eclipse.jetty:jetty-xml:jar:9.4.8.v20171121:compile
+|     \- org.eclipse.jetty:jetty-util:jar:9.4.8.v20171121:compile
++- org.apache.jena:jena-core:jar:2.7.1:compile
+|  +- org.apache.jena:jena-iri:jar:0.9.1:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.6.4:compile - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-log4j12:jar:1.6.4:compile - omitted for duplicate)
+|  |  \- (log4j:log4j:jar:1.2.16:compile - omitted for duplicate)
+|  +- xerces:xercesImpl:jar:2.10.0:compile
+|  |  \- xml-apis:xml-apis:jar:1.4.01:compile
+|  +- org.slf4j:slf4j-api:jar:1.6.4:compile
+|  +- org.slf4j:slf4j-log4j12:jar:1.6.4:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.6.4:compile - omitted for duplicate)
+|  |  \- (log4j:log4j:jar:1.2.16:compile - omitted for duplicate)
+|  \- log4j:log4j:jar:1.2.16:compile
++- org.apache.derby:derby:jar:10.10.2.0:compile
++- commons-fileupload:commons-fileupload:jar:1.3.1:compile
+|  \- commons-io:commons-io:jar:2.2:compile
++- org.apache.httpcomponents:httpmime:jar:4.5.4:compile
+|  \- org.apache.httpcomponents:httpclient:jar:4.5.4:compile
+|     +- org.apache.httpcomponents:httpcore:jar:4.4.7:compile
+|     +- commons-logging:commons-logging:jar:1.2:compile
+|     \- commons-codec:commons-codec:jar:1.10:compile
+\- junit:junit:jar:4.11:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

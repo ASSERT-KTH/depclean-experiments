@@ -1,0 +1,89 @@
+org.trellisldp:trellis-rosid-file:jar:0.3.0
++- org.apache.commons:commons-rdf-api:jar:0.5.0:compile
++- org.trellisldp:trellis-api:jar:0.5.1:compile
+|  \- (org.apache.commons:commons-rdf-api:jar:0.5.0:compile - omitted for duplicate)
++- org.trellisldp:trellis-rosid-common:jar:0.3.0:compile
+|  +- (org.apache.commons:commons-rdf-api:jar:0.5.0:compile - omitted for duplicate)
+|  +- org.apache.servicemix.bundles:org.apache.servicemix.bundles.kafka-clients:jar:1.0.0_1:compile
+|  |  \- org.lz4:lz4-java:jar:1.4:compile
+|  +- (org.trellisldp:trellis-api:jar:0.5.1:compile - omitted for duplicate)
+|  +- org.apache.curator:curator-recipes:jar:4.0.0:compile
+|  |  \- org.apache.curator:curator-framework:jar:4.0.0:compile
+|  |     \- org.apache.curator:curator-client:jar:4.0.0:compile
+|  |        +- com.google.guava:guava:jar:20.0:compile
+|  |        \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.9.3:runtime
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:runtime - omitted for duplicate)
+|  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.3:runtime - omitted for duplicate)
+|  +- (com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.3:runtime - omitted for duplicate)
+|  +- (commons-codec:commons-codec:jar:1.11:runtime - omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.6:runtime - omitted for duplicate)
+|  +- (org.apache.commons:commons-rdf-jena:jar:0.5.0:runtime - omitted for duplicate)
+|  +- (org.apache.jena:jena-osgi:jar:3.6.0:runtime - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - scope updated from runtime; omitted for duplicate)
+|  +- (org.trellisldp:trellis-vocabulary:jar:0.5.1:runtime - omitted for duplicate)
+|  \- org.apache.zookeeper:zookeeper:jar:3.4.11:runtime
+|     +- (org.slf4j:slf4j-api:jar:1.6.1:compile - scope updated from runtime; omitted for duplicate)
+|     +- jline:jline:jar:0.9.94:runtime
+|     |  \- junit:junit:jar:4.12:runtime
+|     +- org.apache.yetus:audience-annotations:jar:0.5.0:runtime
+|     \- io.netty:netty:jar:3.10.5.Final:runtime
++- commons-codec:commons-codec:jar:1.11:runtime
++- commons-io:commons-io:jar:2.6:runtime
++- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.3:runtime
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:runtime
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.9.3:runtime
+|  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.3:runtime - omitted for duplicate)
++- org.apache.commons:commons-text:jar:1.2:runtime
+|  \- org.apache.commons:commons-lang3:jar:3.7:runtime
++- org.apache.commons:commons-rdf-jena:jar:0.5.0:runtime
+|  +- (org.apache.commons:commons-rdf-api:jar:0.5.0:runtime - omitted for duplicate)
+|  +- org.apache.commons:commons-rdf-simple:jar:0.5.0:runtime
+|  |  \- (org.apache.commons:commons-rdf-api:jar:0.5.0:runtime - omitted for duplicate)
+|  +- (org.apache.jena:jena-osgi:jar:3.5.0:runtime - omitted for conflict with 3.6.0)
+|  +- org.apache.servicemix.bundles:org.apache.servicemix.bundles.xerces:jar:2.11.0_1:runtime
+|  |  \- xml-apis:xml-apis:jar:1.4.01:runtime
+|  \- com.github.andrewoma.dexx:collection:jar:0.7:runtime
++- org.apache.jena:jena-osgi:jar:3.6.0:runtime
+|  +- org.apache.httpcomponents:httpclient-osgi:jar:4.5.3:runtime
+|  +- org.apache.httpcomponents:httpcore-osgi:jar:4.4.6:runtime
+|  +- com.github.jsonld-java:jsonld-java:jar:0.11.1:runtime
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.0:runtime - omitted for conflict with 2.9.3)
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.0:runtime - omitted for conflict with 2.9.3)
+|  |  +- (org.slf4j:jcl-over-slf4j:jar:1.7.25:runtime - omitted for duplicate)
+|  |  \- (commons-io:commons-io:jar:2.5:runtime - omitted for conflict with 2.6)
+|  +- org.apache.commons:commons-csv:jar:1.5:runtime
+|  +- org.apache.thrift:libthrift:jar:0.10.0:runtime
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.12:compile - scope updated from runtime; omitted for duplicate)
+|  +- org.slf4j:jcl-over-slf4j:jar:1.7.25:runtime
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - scope updated from runtime; omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - scope updated from runtime; omitted for duplicate)
+|  +- (org.apache.commons:commons-lang3:jar:3.4:runtime - omitted for conflict with 3.7)
+|  \- org.osgi:org.osgi.core:jar:5.0.0:runtime
++- org.slf4j:slf4j-api:jar:1.7.25:runtime (scope not updated to compile)
++- org.trellisldp:trellis-vocabulary:jar:0.5.1:runtime
+|  \- (org.apache.commons:commons-rdf-api:jar:0.5.0:runtime - omitted for duplicate)
++- ch.qos.logback:logback-classic:jar:1.2.3:test
+|  +- ch.qos.logback:logback-core:jar:1.2.3:test
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)
++- org.apache.curator:curator-test:jar:4.0.0:test
+|  +- (org.apache.zookeeper:zookeeper:jar:3.5.3-beta:test - omitted for conflict with 3.4.11)
+|  \- (com.google.guava:guava:jar:20.0:compile - scope updated from test; omitted for duplicate)
++- org.apiguardian:apiguardian-api:jar:1.0.0:test
++- org.junit.platform:junit-platform-runner:jar:1.0.2:test
+|  +- org.junit.platform:junit-platform-launcher:jar:1.0.2:test
+|  |  \- (org.junit.platform:junit-platform-engine:jar:1.0.2:test - omitted for duplicate)
+|  +- org.junit.platform:junit-platform-suite-api:jar:1.0.2:test
+|  |  \- org.junit.platform:junit-platform-commons:jar:1.0.2:test
+|  \- (junit:junit:jar:4.12:runtime - scope updated from test; omitted for duplicate)
++- org.junit.jupiter:junit-jupiter-engine:jar:5.0.2:test
+|  +- org.junit.platform:junit-platform-engine:jar:1.0.2:test
+|  |  +- (org.junit.platform:junit-platform-commons:jar:1.0.2:test - omitted for duplicate)
+|  |  \- org.opentest4j:opentest4j:jar:1.0.0:test
+|  \- org.junit.jupiter:junit-jupiter-api:jar:5.0.2:test
+|     +- (org.opentest4j:opentest4j:jar:1.0.0:test - omitted for duplicate)
+|     \- (org.junit.platform:junit-platform-commons:jar:1.0.2:test - omitted for duplicate)
+\- org.mockito:mockito-core:jar:2.13.0:test
+   +- net.bytebuddy:byte-buddy:jar:1.7.9:test
+   +- net.bytebuddy:byte-buddy-agent:jar:1.7.9:test
+   \- org.objenesis:objenesis:jar:2.6:test

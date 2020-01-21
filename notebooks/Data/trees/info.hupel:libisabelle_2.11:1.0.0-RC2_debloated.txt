@@ -1,0 +1,54 @@
+info.hupel:libisabelle_2.11:jar:1.0.0-RC2
++- org.scala-lang:scala-compiler:jar:2.11.12:provided (scope not updated to compile)
+|  +- (org.scala-lang:scala-library:jar:2.11.12:provided - omitted for duplicate)
+|  +- (org.scala-lang:scala-reflect:jar:2.11.12:compile - scope updated from provided; omitted for duplicate)
+|  +- org.scala-lang.modules:scala-xml_2.11:jar:1.0.5:provided
+|  |  \- (org.scala-lang:scala-library:jar:2.11.7:provided - omitted for conflict with 2.11.12)
+|  \- (org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.0.4:compile - scope updated from provided; omitted for duplicate)
++- org.scala-lang:scala-library:jar:2.11.12:compile
++- info.hupel:pide-interface_2.11:jar:1.0.0-RC2:compile
+|  +- (org.scala-lang:scala-compiler:jar:2.11.12:compile - omitted for duplicate)
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  +- com.chuusai:shapeless_2.11:jar:2.3.3:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  |  \- org.typelevel:macro-compat_2.11:jar:1.1.1:compile
+|  |     \- (org.scala-lang:scala-library:jar:2.11.7:compile - omitted for conflict with 2.11.12)
+|  +- io.monix:monix-execution_2.11:jar:3.0.0-RC1:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  |  +- org.typelevel:cats-effect_2.11:jar:0.10:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  |  |  \- (org.typelevel:cats-core_2.11:jar:1.0.1:compile - omitted for conflict with 1.1.0)
+|  |  \- org.reactivestreams:reactive-streams:jar:1.0.2:compile
+|  +- org.log4s:log4s_2.11:jar:1.6.1:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  |  \- org.slf4j:slf4j-api:jar:1.7.25:compile
+|  +- org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.0.4:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  +- org.tukaani:xz:jar:1.8:compile
+|  +- com.jcraft:jsch:jar:0.1.54:compile
+|  +- com.jcraft:jzlib:jar:1.1.3:compile
+|  \- org.xerial:sqlite-jdbc:jar:3.23.1:compile
++- org.scala-lang:scala-reflect:jar:2.11.12:provided (scope not updated to compile)
+|  \- (org.scala-lang:scala-library:jar:2.11.12:provided - omitted for duplicate)
++- org.typelevel:cats-core_2.11:jar:1.1.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  +- org.typelevel:cats-macros_2.11:jar:1.1.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  |  \- (org.typelevel:machinist_2.11:jar:0.6.2:compile - omitted for duplicate)
+|  +- org.typelevel:cats-kernel_2.11:jar:1.1.0:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  \- org.typelevel:machinist_2.11:jar:0.6.2:compile
+|     +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.12)
+|     \- (org.scala-lang:scala-reflect:jar:2.11.8:compile - omitted for conflict with 2.11.12)
++- org.typelevel:cats-free_2.11:jar:1.1.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  +- (org.typelevel:cats-macros_2.11:jar:1.1.0:compile - omitted for duplicate)
+|  +- (org.typelevel:cats-core_2.11:jar:1.1.0:compile - omitted for duplicate)
+|  \- (org.typelevel:machinist_2.11:jar:0.6.2:compile - omitted for duplicate)
++- com.lihaoyi:scalatags_2.11:jar:0.6.7:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.12)
+|  \- com.lihaoyi:sourcecode_2.11:jar:0.1.4:compile
+|     \- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
++- org.apache.commons:commons-lang3:jar:3.7:compile
+\- org.scala-lang.modules:scala-java8-compat_2.11:jar:0.9.0:compile
+   \- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)

@@ -1,0 +1,8 @@
+org.apache.hbase:hbase-protocol:jar:1.4.3
++- org.apache.hbase:hbase-annotations:jar:1.4.3:compile
++- com.google.protobuf:protobuf-java:jar:2.5.0:compile
++- commons-logging:commons-logging:jar:1.2:compile
++- log4j:log4j:jar:1.2.17:compile
++- junit:junit:jar:4.12:compile
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
+\- org.mockito:mockito-all:jar:1.10.19:test

@@ -1,0 +1,5 @@
+org.webjars.bowergithub.predixdesignsystem:px-widths-design:jar:1.0.3
+\- org.webjars.bowergithub.predixdesignsystem:px-widths-tools-design:jar:1.0.3:compile
+   \- org.webjars.bowergithub.predixdesignsystem:px-defaults-design:jar:2.0.3:compile
+      \- org.webjars.bowergithub.predixdesignsystem:px-functions-design:jar:2.0.3:compile
+         \- org.webjars.bowergithub.inuitcss:tools.functions:jar:0.2.0:compile

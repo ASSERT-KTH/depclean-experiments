@@ -1,0 +1,281 @@
+org.wso2.am.microgw:org.wso2.micro.gateway.cli:jar:2.5.0-beta
++- io.swagger.core.v3:swagger-models:jar:2.0.0:compile
+|  \- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.4:compile
++- io.swagger.parser.v3:swagger-parser:jar:2.0.0-rc3:compile
+|  +- io.swagger.parser.v3:swagger-parser-v2-converter:jar:2.0.0-rc3:compile
+|  |  +- (io.swagger:swagger-parser:jar:1.0.34:compile - omitted for duplicate)
+|  |  +- io.swagger:swagger-compat-spec-parser:jar:1.0.34:compile
+|  |  |  +- (io.swagger:swagger-core:jar:1.5.18:compile - omitted for duplicate)
+|  |  |  +- (io.swagger:swagger-parser:jar:1.0.34:compile - omitted for duplicate)
+|  |  |  +- com.github.java-json-tools:json-schema-validator:jar:2.2.8:compile
+|  |  |  |  +- com.github.java-json-tools:json-schema-core:jar:1.2.8:compile
+|  |  |  |  |  +- (com.google.code.findbugs:jsr305:jar:2.0.1:compile - omitted for conflict with 3.0.1)
+|  |  |  |  |  +- (org.mozilla:rhino:jar:1.7R4:compile - omitted for duplicate)
+|  |  |  |  |  +- (com.github.fge:jackson-coreutils:jar:1.8:compile - omitted for conflict with 1.6)
+|  |  |  |  |  \- com.github.fge:uri-template:jar:0.9:compile
+|  |  |  |  |     +- (com.github.fge:msg-simple:jar:1.1:compile - omitted for duplicate)
+|  |  |  |  |     +- (com.google.guava:guava:jar:16.0.1:compile - omitted for conflict with 20.0)
+|  |  |  |  |     \- (com.google.code.findbugs:jsr305:jar:2.0.1:compile - omitted for duplicate)
+|  |  |  |  +- javax.mail:mailapi:jar:1.4.3:compile
+|  |  |  |  |  \- javax.activation:activation:jar:1.1:compile
+|  |  |  |  +- joda-time:joda-time:jar:2.9.7:compile
+|  |  |  |  +- com.googlecode.libphonenumber:libphonenumber:jar:8.0.0:compile
+|  |  |  |  +- com.google.code.findbugs:jsr305:jar:3.0.1:compile
+|  |  |  |  \- net.sf.jopt-simple:jopt-simple:jar:5.0.3:compile
+|  |  |  +- com.github.fge:json-patch:jar:1.6:compile
+|  |  |  |  +- com.github.fge:jackson-coreutils:jar:1.6:compile
+|  |  |  |  |  +- com.github.fge:msg-simple:jar:1.1:compile
+|  |  |  |  |  |  +- com.github.fge:btf:jar:1.2:compile
+|  |  |  |  |  |  |  \- (com.google.code.findbugs:jsr305:jar:2.0.1:compile - omitted for conflict with 3.0.1)
+|  |  |  |  |  |  \- (com.google.code.findbugs:jsr305:jar:2.0.1:compile - omitted for conflict with 3.0.1)
+|  |  |  |  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.2.3:compile - omitted for conflict with 2.9.3)
+|  |  |  |  |  +- (com.google.guava:guava:jar:16.0.1:compile - omitted for conflict with 20.0)
+|  |  |  |  |  \- (com.google.code.findbugs:jsr305:jar:2.0.1:compile - omitted for conflict with 3.0.1)
+|  |  |  |  \- (com.google.code.findbugs:jsr305:jar:2.0.1:compile - omitted for conflict with 3.0.1)
+|  |  |  \- org.apache.httpcomponents:httpclient:jar:4.5.2:compile
+|  |  |     +- org.apache.httpcomponents:httpcore:jar:4.4.4:compile
+|  |  |     +- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  |  |     \- commons-codec:commons-codec:jar:1.9:compile
+|  |  +- (io.swagger.core.v3:swagger-models:jar:2.0.0:compile - version managed from 2.0.0-rc4; omitted for duplicate)
+|  |  +- io.swagger.parser.v3:swagger-parser-core:jar:2.0.0-rc3:compile
+|  |  |  \- (io.swagger.core.v3:swagger-models:jar:2.0.0:compile - version managed from 2.0.0-rc4; omitted for duplicate)
+|  |  \- (io.swagger.parser.v3:swagger-parser-v3:jar:2.0.0-rc3:compile - omitted for duplicate)
+|  +- io.swagger.parser.v3:swagger-parser-v3:jar:2.0.0-rc3:compile
+|  |  +- (io.swagger.core.v3:swagger-models:jar:2.0.0:compile - version managed from 2.0.0-rc4; omitted for duplicate)
+|  |  +- io.swagger.core.v3:swagger-core:jar:2.0.0-rc4:compile
+|  |  |  +- (org.apache.commons:commons-lang3:jar:3.7:compile - omitted for conflict with 3.2.1)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.22:compile - version managed from 1.7.25; omitted for duplicate)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.1:compile - omitted for conflict with 2.9.4)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.1:compile - omitted for duplicate)
+|  |  |  +- (com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.9.1:compile - omitted for duplicate)
+|  |  |  +- io.swagger.core.v3:swagger-annotations:jar:2.0.0-rc4:compile
+|  |  |  +- (io.swagger.core.v3:swagger-models:jar:2.0.0:compile - version managed from 2.0.0-rc4; omitted for duplicate)
+|  |  |  \- (javax.validation:validation-api:jar:1.1.0.Final:compile - omitted for duplicate)
+|  |  +- (io.swagger.parser.v3:swagger-parser-core:jar:2.0.0-rc3:compile - omitted for duplicate)
+|  |  +- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.1:compile - omitted for conflict with 2.9.4)
+|  |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.9.1:compile
+|  |  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile - omitted for conflict with 2.9.4)
+|  |  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.9.1:compile
+|  |  \- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.9.1:compile
+|  |     +- org.yaml:snakeyaml:jar:1.18:compile
+|  |     \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.1:compile - omitted for duplicate)
+|  +- org.slf4j:slf4j-ext:jar:1.6.3:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.22:compile - version managed from 1.6.3; omitted for duplicate)
+|  |  \- ch.qos.cal10n:cal10n-api:jar:0.7.4:compile
+|  +- org.slf4j:slf4j-api:jar:1.7.22:compile
+|  \- commons-io:commons-io:jar:2.4:compile
++- io.swagger:swagger-models:jar:1.5.16:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.9:compile - omitted for conflict with 2.9.4)
+|  +- (org.slf4j:slf4j-api:jar:1.7.22:compile - version managed from 1.6.3; omitted for duplicate)
+|  \- io.swagger:swagger-annotations:jar:1.5.16:compile
++- io.swagger:swagger-parser:jar:1.0.34:compile
+|  +- io.swagger:swagger-core:jar:1.5.18:compile
+|  |  +- (org.apache.commons:commons-lang3:jar:3.2.1:compile - omitted for conflict with 3.1)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.22:compile - version managed from 1.6.3; omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.3:compile - omitted for conflict with 2.9.4)
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.3:compile - omitted for conflict with 2.9.1)
+|  |  +- (com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.9.3:compile - omitted for conflict with 2.9.1)
+|  |  +- (io.swagger:swagger-models:jar:1.5.16:compile - version managed from 1.5.18; omitted for duplicate)
+|  |  +- com.google.guava:guava:jar:20.0:compile
+|  |  \- javax.validation:validation-api:jar:1.1.0.Final:compile
+|  +- (org.slf4j:slf4j-ext:jar:1.6.3:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.22:compile - version managed from 1.6.3; omitted for duplicate)
+|  \- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
++- com.github.jknack:handlebars:jar:4.0.6:compile
+|  +- org.apache.commons:commons-lang3:jar:3.1:compile
+|  +- org.antlr:antlr4-runtime:jar:4.5.1-1:compile
+|  +- org.mozilla:rhino:jar:1.7R4:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.22:compile - version managed from 1.6.4; omitted for duplicate)
++- com.beust:jcommander:jar:1.60:compile
++- org.testng:testng:jar:6.13.1:compile
+|  \- (com.beust:jcommander:jar:1.60:compile - version managed from 1.72; omitted for duplicate)
++- org.ballerinalang:ballerina-config:jar:0.975.0:compile
+|  +- org.wso2.orbit.org.antlr:antlr4-runtime:jar:4.5.1.wso2v1:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.22:compile - version managed from 1.6.4; omitted for duplicate)
+|  \- org.ballerinalang:toml-parser:jar:0.975.0:compile
+|     \- (org.wso2.orbit.org.antlr:antlr4-runtime:jar:4.5.1.wso2v1:compile - omitted for duplicate)
++- org.ballerinalang:ballerina-packerina:jar:0.975.0:compile
+|  +- org.ballerinalang:ballerina-lang:jar:0.975.0:compile
+|  |  +- (org.wso2.orbit.org.antlr:antlr4-runtime:jar:4.5.1.wso2v1:compile - omitted for duplicate)
+|  |  +- (org.apache.commons:commons-lang3:jar:3.5:compile - omitted for conflict with 3.1)
+|  |  \- (org.ballerinalang:toml-parser:jar:0.975.0:compile - omitted for duplicate)
+|  +- org.ballerinalang:ballerina-core:jar:0.975.0:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.22:compile - version managed from 1.6.4; omitted for duplicate)
+|  |  +- (org.ballerinalang:ballerina-lang:jar:0.975.0:compile - omitted for duplicate)
+|  |  +- (org.ballerinalang:ballerina-config:jar:0.975.0:compile - omitted for duplicate)
+|  |  +- io.netty:netty-transport:jar:4.1.19.Final:compile
+|  |  |  +- (io.netty:netty-buffer:jar:4.1.19.Final:compile - omitted for duplicate)
+|  |  |  \- io.netty:netty-resolver:jar:4.1.19.Final:compile
+|  |  |     \- (io.netty:netty-common:jar:4.1.19.Final:compile - omitted for duplicate)
+|  |  +- io.netty:netty-codec:jar:4.1.19.Final:compile
+|  |  |  \- (io.netty:netty-transport:jar:4.1.19.Final:compile - omitted for duplicate)
+|  |  +- io.netty:netty-buffer:jar:4.1.19.Final:compile
+|  |  |  \- (io.netty:netty-common:jar:4.1.19.Final:compile - omitted for duplicate)
+|  |  +- io.netty:netty-common:jar:4.1.19.Final:compile
+|  |  +- io.netty:netty-codec-http:jar:4.1.19.Final:compile
+|  |  |  \- (io.netty:netty-codec:jar:4.1.19.Final:compile - omitted for duplicate)
+|  |  +- org.wso2.carbon.messaging:org.wso2.carbon.messaging:jar:2.3.7:compile
+|  |  |  +- org.wso2.carbon:org.wso2.carbon.launcher:jar:5.2.0-m3:compile
+|  |  |  |  \- org.osgi:org.osgi.core:jar:6.0.0:compile
+|  |  |  \- org.slf4j:slf4j-log4j12:jar:1.7.5:compile
+|  |  |     +- (org.slf4j:slf4j-api:jar:1.7.22:compile - version managed from 1.7.5; omitted for duplicate)
+|  |  |     \- log4j:log4j:jar:1.2.17:compile
+|  |  +- org.apache.ws.commons.axiom:axiom-api:jar:1.2.20:compile
+|  |  |  +- org.apache.geronimo.specs:geronimo-activation_1.1_spec:jar:1.1:compile
+|  |  |  +- commons-logging:commons-logging:jar:1.2:compile
+|  |  |  +- jaxen:jaxen:jar:1.1.6:compile
+|  |  |  +- (org.apache.geronimo.specs:geronimo-stax-api_1.0_spec:jar:1.0.1:compile - omitted for duplicate)
+|  |  |  \- org.apache.james:apache-mime4j-core:jar:0.7.2:compile
+|  |  +- org.apache.ws.commons.axiom:axiom-impl:jar:1.2.20:compile
+|  |  |  +- (org.apache.ws.commons.axiom:axiom-api:jar:1.2.20:compile - omitted for duplicate)
+|  |  |  +- org.codehaus.woodstox:woodstox-core-asl:jar:4.2.0:compile
+|  |  |  |  \- org.codehaus.woodstox:stax2-api:jar:3.1.1:compile
+|  |  |  \- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  |  +- org.apache.ws.commons.axiom:axiom-dom:jar:1.2.20:compile
+|  |  |  +- (org.apache.ws.commons.axiom:axiom-api:jar:1.2.20:compile - omitted for duplicate)
+|  |  |  +- (org.codehaus.woodstox:woodstox-core-asl:jar:4.2.0:compile - omitted for duplicate)
+|  |  |  \- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  |  +- org.apache.geronimo.specs:geronimo-stax-api_1.0_spec:jar:1.0.1:compile
+|  |  +- org.wso2.staxon:staxon-core:jar:1.2.0.wso2v2:compile
+|  |  |  \- org.wso2.staxon:staxon:jar:1.2.0-wso2v2:compile
+|  |  +- (org.apache.commons:commons-lang3:jar:3.5:compile - omitted for conflict with 3.1)
+|  |  +- javax.transaction:javax.transaction-api:jar:1.2:compile
+|  |  +- io.ballerina.messaging:broker-common:jar:0.970.0:compile
+|  |  |  +- (io.netty:netty-buffer:jar:4.1.19.Final:compile - omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.22:compile - version managed from 1.7.25; omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-log4j12:jar:1.7.25:compile - omitted for conflict with 1.7.5)
+|  |  |  \- org.wso2.carbon.config:org.wso2.carbon.config:jar:2.1.5:compile
+|  |  |     +- (org.slf4j:slf4j-api:jar:1.7.22:compile - version managed from 1.7.12; omitted for duplicate)
+|  |  |     +- (org.yaml:snakeyaml:jar:1.17:compile - omitted for conflict with 1.18)
+|  |  |     +- org.wso2.carbon.secvault:org.wso2.carbon.secvault:jar:5.0.8:compile
+|  |  |     |  +- (org.wso2.carbon.utils:org.wso2.carbon.utils:jar:2.0.1:compile - omitted for conflict with 2.0.2)
+|  |  |     |  +- (org.yaml:snakeyaml:jar:1.17:compile - omitted for conflict with 1.18)
+|  |  |     |  \- (org.slf4j:slf4j-api:jar:1.7.22:compile - version managed from 1.7.12; omitted for duplicate)
+|  |  |     \- org.wso2.carbon.utils:org.wso2.carbon.utils:jar:2.0.2:compile
+|  |  +- io.ballerina.messaging:broker-core:jar:0.970.0:compile
+|  |  |  +- (io.ballerina.messaging:broker-common:jar:0.970.0:compile - omitted for duplicate)
+|  |  |  +- io.ballerina.messaging:broker-auth:jar:0.970.0:compile
+|  |  |  |  +- (io.ballerina.messaging:broker-common:jar:0.970.0:compile - omitted for duplicate)
+|  |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.22:compile - version managed from 1.7.25; omitted for duplicate)
+|  |  |  |  +- (org.slf4j:slf4j-log4j12:jar:1.7.25:compile - omitted for conflict with 1.7.5)
+|  |  |  |  +- (com.google.guava:guava:jar:23.0:compile - omitted for conflict with 20.0)
+|  |  |  |  \- (org.wso2.carbon.config:org.wso2.carbon.config:jar:2.1.5:compile - omitted for duplicate)
+|  |  |  +- io.ballerina.messaging:broker-coordination:jar:0.970.0:compile
+|  |  |  |  +- (org.wso2.carbon.config:org.wso2.carbon.config:jar:2.1.5:compile - omitted for duplicate)
+|  |  |  |  +- (com.google.guava:guava:jar:23.0:compile - omitted for conflict with 20.0)
+|  |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.22:compile - version managed from 1.7.25; omitted for duplicate)
+|  |  |  |  +- (org.slf4j:slf4j-log4j12:jar:1.7.25:compile - omitted for conflict with 1.7.5)
+|  |  |  |  \- (io.ballerina.messaging:broker-common:jar:0.970.0:compile - omitted for duplicate)
+|  |  |  +- io.ballerina.messaging:broker-rest-runner:jar:0.970.0:compile
+|  |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.22:compile - version managed from 1.7.25; omitted for duplicate)
+|  |  |  |  +- (org.slf4j:slf4j-log4j12:jar:1.7.25:compile - omitted for conflict with 1.7.5)
+|  |  |  |  +- org.wso2.msf4j:msf4j-core:jar:2.6.1:compile
+|  |  |  |  |  +- (org.wso2.carbon.messaging:org.wso2.carbon.messaging:jar:3.0.2:compile - omitted for conflict with 2.3.7)
+|  |  |  |  |  +- org.wso2.transport.http:org.wso2.transport.http.netty:jar:6.0.163:compile
+|  |  |  |  |  |  +- (io.netty:netty-common:jar:4.1.19.Final:compile - omitted for duplicate)
+|  |  |  |  |  |  +- (io.netty:netty-buffer:jar:4.1.19.Final:compile - omitted for duplicate)
+|  |  |  |  |  |  +- (io.netty:netty-transport:jar:4.1.19.Final:compile - omitted for duplicate)
+|  |  |  |  |  |  +- io.netty:netty-handler:jar:4.1.19.Final:compile
+|  |  |  |  |  |  |  +- (io.netty:netty-buffer:jar:4.1.19.Final:compile - omitted for duplicate)
+|  |  |  |  |  |  |  +- (io.netty:netty-transport:jar:4.1.19.Final:compile - omitted for duplicate)
+|  |  |  |  |  |  |  \- (io.netty:netty-codec:jar:4.1.19.Final:compile - omitted for duplicate)
+|  |  |  |  |  |  +- (io.netty:netty-codec:jar:4.1.19.Final:compile - omitted for duplicate)
+|  |  |  |  |  |  +- (io.netty:netty-codec-http:jar:4.1.19.Final:compile - omitted for duplicate)
+|  |  |  |  |  |  +- io.netty:netty-handler-proxy:jar:4.1.19.Final:compile
+|  |  |  |  |  |  |  +- (io.netty:netty-transport:jar:4.1.19.Final:compile - omitted for duplicate)
+|  |  |  |  |  |  |  +- io.netty:netty-codec-socks:jar:4.1.19.Final:compile
+|  |  |  |  |  |  |  |  \- (io.netty:netty-codec:jar:4.1.19.Final:compile - omitted for duplicate)
+|  |  |  |  |  |  |  \- (io.netty:netty-codec-http:jar:4.1.19.Final:compile - omitted for duplicate)
+|  |  |  |  |  |  +- io.netty:netty-codec-http2:jar:4.1.19.Final:compile
+|  |  |  |  |  |  |  +- (io.netty:netty-codec-http:jar:4.1.19.Final:compile - omitted for duplicate)
+|  |  |  |  |  |  |  \- (io.netty:netty-handler:jar:4.1.19.Final:compile - omitted for duplicate)
+|  |  |  |  |  |  +- (io.netty:netty-resolver:jar:4.1.19.Final:compile - omitted for duplicate)
+|  |  |  |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.22:compile - version managed from 1.7.5; omitted for duplicate)
+|  |  |  |  |  |  +- commons-pool.wso2:commons-pool:jar:1.5.6.wso2v1:compile
+|  |  |  |  |  |  |  \- commons-pool:commons-pool:jar:1.5.6:compile
+|  |  |  |  |  |  \- javax.websocket:javax.websocket-api:jar:1.1:compile
+|  |  |  |  |  +- javax.ws.rs:javax.ws.rs-api:jar:2.0:compile
+|  |  |  |  |  +- org.wso2.msf4j:jaxrs-delegates:jar:2.6.1:compile
+|  |  |  |  |  |  +- (javax.ws.rs:javax.ws.rs-api:jar:2.0:compile - omitted for duplicate)
+|  |  |  |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.22:compile - version managed from 1.7.5; omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.2:compile - omitted for duplicate)
+|  |  |  |  |  |  \- (com.google.code.gson:gson:jar:2.2.4:compile - omitted for duplicate)
+|  |  |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.22:compile - version managed from 1.7.5; omitted for duplicate)
+|  |  |  |  |  +- (org.slf4j:slf4j-log4j12:jar:1.6.0:compile - omitted for conflict with 1.7.5)
+|  |  |  |  |  +- (com.google.code.gson:gson:jar:2.2.4:compile - omitted for conflict with 2.7)
+|  |  |  |  |  +- (com.google.code.findbugs:jsr305:jar:2.0.1:compile - omitted for conflict with 3.0.1)
+|  |  |  |  |  +- org.apache.servicemix.bundles:org.apache.servicemix.bundles.commons-beanutils:jar:1.8.3_2:compile
+|  |  |  |  |  |  \- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for conflict with 1.2)
+|  |  |  |  |  +- com.nimbusds:nimbus-jose-jwt:jar:2.25:compile
+|  |  |  |  |  |  +- net.jcip:jcip-annotations:jar:1.0:compile
+|  |  |  |  |  |  \- net.minidev:json-smart:jar:1.1.1:compile
+|  |  |  |  |  +- (org.yaml:snakeyaml:jar:1.17:compile - omitted for conflict with 1.18)
+|  |  |  |  |  +- (org.wso2.carbon.config:org.wso2.carbon.config:jar:2.1.5:compile - omitted for duplicate)
+|  |  |  |  |  \- commons-io.wso2:commons-io:jar:2.4.0.wso2v1:compile
+|  |  |  |  +- (io.ballerina.messaging:broker-common:jar:0.970.0:compile - omitted for duplicate)
+|  |  |  |  +- (io.ballerina.messaging:broker-coordination:jar:0.970.0:compile - omitted for duplicate)
+|  |  |  |  \- (io.ballerina.messaging:broker-auth:jar:0.970.0:compile - omitted for duplicate)
+|  |  |  +- io.ballerina.messaging:broker-metrics:jar:0.970.0:compile
+|  |  |  |  +- (io.ballerina.messaging:broker-common:jar:0.970.0:compile - omitted for duplicate)
+|  |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.22:compile - version managed from 1.7.25; omitted for duplicate)
+|  |  |  |  +- (org.slf4j:slf4j-log4j12:jar:1.7.25:compile - omitted for conflict with 1.7.5)
+|  |  |  |  +- (com.google.guava:guava:jar:23.0:compile - omitted for conflict with 20.0)
+|  |  |  |  \- org.wso2.carbon.metrics:org.wso2.carbon.metrics.core:jar:2.3.7:compile
+|  |  |  |     +- (io.dropwizard.metrics:metrics-core:jar:3.2.5:compile - omitted for conflict with 3.1.0)
+|  |  |  |     +- io.dropwizard.metrics:metrics-jvm:jar:3.2.5:compile
+|  |  |  |     |  +- (io.dropwizard.metrics:metrics-core:jar:3.2.5:compile - omitted for duplicate)
+|  |  |  |     |  \- (org.slf4j:slf4j-api:jar:1.7.22:compile - version managed from 1.7.25; omitted for duplicate)
+|  |  |  |     +- org.hdrhistogram:HdrHistogram:jar:2.1.10:compile
+|  |  |  |     +- (org.wso2.carbon.config:org.wso2.carbon.config:jar:2.1.4:compile - omitted for conflict with 2.1.5)
+|  |  |  |     \- (org.slf4j:slf4j-api:jar:1.7.22:compile - version managed from 1.7.25; omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.22:compile - version managed from 1.7.25; omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-log4j12:jar:1.7.25:compile - omitted for conflict with 1.7.5)
+|  |  |  +- (io.netty:netty-buffer:jar:4.1.19.Final:compile - omitted for duplicate)
+|  |  |  +- (com.google.guava:guava:jar:23.0:compile - omitted for conflict with 20.0)
+|  |  |  +- org.wso2.orbit.com.lmax:disruptor:jar:3.3.7.wso2v1:compile
+|  |  |  \- (org.wso2.carbon.config:org.wso2.carbon.config:jar:2.1.5:compile - omitted for duplicate)
+|  |  +- org.ballerinalang:siddhi-core:jar:0.975.0:compile
+|  |  |  +- (org.ballerinalang:siddhi-query-api:jar:0.975.0:compile - omitted for duplicate)
+|  |  |  +- (org.ballerinalang:siddhi-query-compiler:jar:0.975.0:compile - omitted for duplicate)
+|  |  |  +- (org.ballerinalang:siddhi-annotations:jar:0.975.0:compile - omitted for duplicate)
+|  |  |  +- org.slf4j:slf4j-simple:jar:1.7.22:compile
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.22:compile - version managed from 1.7.25; omitted for duplicate)
+|  |  |  +- (org.wso2.orbit.com.lmax:disruptor:jar:3.3.2.wso2v2:compile - omitted for conflict with 3.3.7.wso2v1)
+|  |  |  +- org.quartz-scheduler:quartz:jar:2.3.0:compile
+|  |  |  |  +- com.mchange:c3p0:jar:0.9.5.2:compile
+|  |  |  |  |  \- (com.mchange:mchange-commons-java:jar:0.2.11:compile - omitted for duplicate)
+|  |  |  |  +- com.mchange:mchange-commons-java:jar:0.2.11:compile
+|  |  |  |  +- com.zaxxer:HikariCP-java6:jar:2.3.13:compile
+|  |  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.22:compile - version managed from 1.7.10; omitted for duplicate)
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.22:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  |  +- io.dropwizard.metrics:metrics-core:jar:3.1.0:compile
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.22:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  |  +- (com.google.code.gson:gson:jar:2.7:compile - omitted for conflict with 2.8.1)
+|  |  |  \- (com.google.guava:guava:jar:19.0:compile - omitted for conflict with 20.0)
+|  |  +- org.ballerinalang:siddhi-query-api:jar:0.975.0:compile
+|  |  |  \- (org.slf4j:slf4j-simple:jar:1.7.22:compile - omitted for duplicate)
+|  |  +- org.ballerinalang:siddhi-query-compiler:jar:0.975.0:compile
+|  |  |  +- (org.ballerinalang:siddhi-query-api:jar:0.975.0:compile - omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-simple:jar:1.7.22:compile - omitted for duplicate)
+|  |  |  +- org.mvel:mvel2:jar:2.2.1.Final:compile
+|  |  |  \- (org.wso2.orbit.org.antlr:antlr4-runtime:jar:4.5.1.wso2v1:compile - omitted for duplicate)
+|  |  +- org.ballerinalang:siddhi-annotations:jar:0.975.0:compile
+|  |  |  \- (org.slf4j:slf4j-simple:jar:1.7.22:compile - omitted for duplicate)
+|  |  +- io.opentracing:opentracing-api:jar:0.31.0:compile
+|  |  \- io.opentracing:opentracing-util:jar:0.31.0:compile
+|  |     +- (io.opentracing:opentracing-api:jar:0.31.0:compile - omitted for duplicate)
+|  |     \- io.opentracing:opentracing-noop:jar:0.31.0:compile
+|  |        \- (io.opentracing:opentracing-api:jar:0.31.0:compile - omitted for duplicate)
+|  +- org.ballerinalang:ballerina-launcher:jar:0.975.0:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.22:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  +- (org.ballerinalang:ballerina-core:jar:0.975.0:compile - omitted for duplicate)
+|  |  +- (org.ballerinalang:ballerina-lang:jar:0.975.0:compile - omitted for duplicate)
+|  |  +- org.ballerinalang:ballerina-logging:jar:0.975.0:compile
+|  |  |  \- (org.ballerinalang:ballerina-config:jar:0.975.0:compile - omitted for duplicate)
+|  |  +- (org.ballerinalang:ballerina-config:jar:0.975.0:compile - omitted for duplicate)
+|  |  +- (com.beust:jcommander:jar:1.60:compile - version managed from 1.72; omitted for duplicate)
+|  |  \- (org.testng:testng:jar:6.13.1:compile - omitted for duplicate)
+|  \- (com.beust:jcommander:jar:1.60:compile - version managed from 1.72; omitted for duplicate)
+\- com.moandjiezana.toml:toml4j:jar:0.7.2:compile
+   \- com.google.code.gson:gson:jar:2.8.1:compile

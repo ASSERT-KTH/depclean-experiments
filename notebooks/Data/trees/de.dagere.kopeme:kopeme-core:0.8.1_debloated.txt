@@ -1,0 +1,14 @@
+de.dagere.kopeme:kopeme-core:jar:0.8.1
++- org.hamcrest:hamcrest-all:jar:1.3:compile
++- junit:junit:jar:4.12:compile
+|  \- org.hamcrest:hamcrest-core:jar:1.3:compile
++- net.sf.supercsv:super-csv:jar:2.4.0:compile
++- org.apache.commons:commons-math3:jar:3.6.1:compile
++- org.apache.logging.log4j:log4j-api:jar:2.5:compile
++- org.apache.logging.log4j:log4j-core:jar:2.5:compile
+|  \- (org.apache.logging.log4j:log4j-api:jar:2.5:compile - omitted for duplicate)
++- net.kieker-monitoring:kieker:jar:1.12:compile
++- net.kieker-monitoring:kieker:jar:aspectj:1.12:compile
+\- org.apache.maven:maven-model:jar:3.5.0:compile
+   +- org.codehaus.plexus:plexus-utils:jar:3.0.24:compile
+   \- org.apache.commons:commons-lang3:jar:3.5:compile

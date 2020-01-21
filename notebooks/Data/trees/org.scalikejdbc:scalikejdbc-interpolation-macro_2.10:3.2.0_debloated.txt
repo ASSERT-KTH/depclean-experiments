@@ -1,0 +1,22 @@
+org.scalikejdbc:scalikejdbc-interpolation-macro_2.10:jar:3.2.0
++- org.scala-lang:scala-compiler:jar:2.10.6:compile
+|  +- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for duplicate)
+|  \- (org.scala-lang:scala-reflect:jar:2.10.6:compile - omitted for duplicate)
++- org.scala-lang:scala-library:jar:2.10.6:compile
++- org.scalikejdbc:scalikejdbc-core_2.10:jar:3.2.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for duplicate)
+|  +- org.apache.commons:commons-dbcp2:jar:2.2.0:compile
+|  |  +- org.apache.commons:commons-pool2:jar:2.5.0:compile
+|  |  \- commons-logging:commons-logging:jar:1.2:compile
+|  +- org.slf4j:slf4j-api:jar:1.7.25:compile
+|  \- org.scalamacros:quasiquotes_2.10:jar:2.1.0:compile
+|     +- (org.scala-lang:scala-library:jar:2.10.4:compile - omitted for conflict with 2.10.6)
+|     \- (org.scala-lang:scala-reflect:jar:2.10.4:compile - omitted for conflict with 2.10.6)
++- org.scala-lang:scala-reflect:jar:2.10.6:compile
+|  \- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for duplicate)
+\- org.scalatest:scalatest_2.10:jar:3.0.4:test
+   +- (org.scala-lang:scala-library:jar:2.10.6:test - omitted for duplicate)
+   +- org.scalactic:scalactic_2.10:jar:3.0.4:test
+   |  +- (org.scala-lang:scala-library:jar:2.10.6:test - omitted for duplicate)
+   |  \- (org.scala-lang:scala-reflect:jar:2.10.6:test - omitted for duplicate)
+   \- (org.scala-lang:scala-reflect:jar:2.10.6:test - omitted for duplicate)

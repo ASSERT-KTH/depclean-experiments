@@ -1,0 +1,17 @@
+org.coodex:concrete-core:jar:0.2.3
++- org.slf4j:slf4j-log4j12:jar:1.7.25:test
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - scope updated from test; omitted for duplicate)
+|  \- log4j:log4j:jar:1.2.17:test
++- javax.inject:javax.inject:jar:1:provided
++- com.alibaba:fastjson:jar:1.2.35:test
++- org.coodex:shared-cache:jar:0.2.3:provided
+|  \- (org.coodex:coodex-utilities:jar:0.2.3:compile - scope updated from provided; omitted for duplicate)
++- org.coodex:concrete-api:jar:0.2.3:compile
+|  +- org.coodex:coodex-utilities:jar:0.2.3:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  \- org.slf4j:slf4j-api:jar:1.7.25:compile
++- org.aspectj:aspectjweaver:jar:1.8.10:provided
++- javax.validation:validation-api:jar:1.1.0.Final:provided
++- aopalliance:aopalliance:jar:1.0:compile
++- commons-codec:commons-codec:jar:1.10:compile
+\- org.javassist:javassist:jar:3.22.0-GA:compile

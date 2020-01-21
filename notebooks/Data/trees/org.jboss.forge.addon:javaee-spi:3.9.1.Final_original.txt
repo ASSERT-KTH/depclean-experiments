@@ -1,0 +1,7 @@
+org.jboss.forge.addon:javaee-spi:jar:3.9.1.Final
++- javax:javaee-api:jar:7.0:compile
+|  \- com.sun.mail:javax.mail:jar:1.5.0:compile
+|     \- javax.activation:activation:jar:1.1:compile
++- org.glassfish:javax.json:jar:1.0.4:compile
+\- junit:junit:jar:4.12:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

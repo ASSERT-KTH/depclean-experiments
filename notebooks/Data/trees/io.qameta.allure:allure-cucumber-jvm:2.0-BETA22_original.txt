@@ -1,0 +1,29 @@
+io.qameta.allure:allure-cucumber-jvm:jar:2.0-BETA22
++- info.cukes:cucumber-core:jar:1.2.5:compile
+|  +- info.cukes:cucumber-html:jar:0.2.3:compile
+|  +- info.cukes:cucumber-jvm-deps:jar:1.0.5:compile
+|  \- (info.cukes:gherkin:jar:2.12.2:compile - omitted for duplicate)
++- info.cukes:cucumber-java:jar:1.2.5:compile
+|  \- (info.cukes:cucumber-core:jar:1.2.5:compile - omitted for duplicate)
++- info.cukes:cucumber-junit:jar:1.2.5:compile
+|  +- (info.cukes:cucumber-core:jar:1.2.5:compile - omitted for duplicate)
+|  \- junit:junit:jar:4.12:compile
+|     \- org.hamcrest:hamcrest-core:jar:1.3:compile
++- info.cukes:gherkin:jar:2.12.2:compile
+\- io.qameta.allure:allure-java-commons:jar:2.0-BETA22:compile
+   +- com.google.guava:guava:jar:19.0:compile
+   +- io.qameta.allure:allure2-model-api:jar:1.0-BETA6:compile
+   |  +- io.qameta.allure:allure2-model-pojo:jar:1.0-BETA6:compile
+   |  |  \- org.apache.tika:tika-core:jar:1.14:compile
+   |  \- io.qameta.allure:allure2-model-jackson:jar:1.0-BETA6:compile
+   |     +- (io.qameta.allure:allure2-model-pojo:jar:1.0-BETA6:compile - omitted for duplicate)
+   |     +- com.fasterxml.jackson.core:jackson-databind:jar:2.7.0:compile
+   |     |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.7.0:compile
+   |     |  \- com.fasterxml.jackson.core:jackson-core:jar:2.7.0:compile
+   |     \- com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.7.0:compile
+   |        +- (com.fasterxml.jackson.core:jackson-core:jar:2.7.0:compile - omitted for duplicate)
+   |        \- (com.fasterxml.jackson.core:jackson-databind:jar:2.7.0:compile - omitted for duplicate)
+   +- org.apache.commons:commons-lang3:jar:3.5:compile
+   +- org.aspectj:aspectjrt:jar:1.8.10:compile
+   +- org.jooq:joor:jar:0.9.6:compile
+   \- org.slf4j:slf4j-api:jar:1.7.21:compile

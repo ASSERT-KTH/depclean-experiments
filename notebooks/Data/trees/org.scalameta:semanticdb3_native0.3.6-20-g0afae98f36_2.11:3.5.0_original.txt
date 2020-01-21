@@ -1,0 +1,85 @@
+org.scalameta:semanticdb3_native0.3.6-20-g0afae98f36_2.11:jar:3.5.0
++- org.scala-lang:scala-library:jar:2.11.12:compile
++- com.github.xenoby:nativelib_native0.3.6-20-g0afae98f36_2.11:jar:0.3.6-20-g0afae98f36:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  \- org.scala-lang:scala-reflect:jar:2.11.12:compile
+|     \- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
++- com.github.xenoby:javalib_native0.3.6-20-g0afae98f36_2.11:jar:0.3.6-20-g0afae98f36:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  \- (com.github.xenoby:nativelib_native0.3.6-20-g0afae98f36_2.11:jar:0.3.6-20-g0afae98f36:compile - omitted for duplicate)
++- com.github.xenoby:auxlib_native0.3.6-20-g0afae98f36_2.11:jar:0.3.6-20-g0afae98f36:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  \- (com.github.xenoby:nativelib_native0.3.6-20-g0afae98f36_2.11:jar:0.3.6-20-g0afae98f36:compile - omitted for duplicate)
++- com.github.xenoby:scalalib_native0.3.6-20-g0afae98f36_2.11:jar:0.3.6-20-g0afae98f36:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  +- (com.github.xenoby:auxlib_native0.3.6-20-g0afae98f36_2.11:jar:0.3.6-20-g0afae98f36:compile - omitted for duplicate)
+|  +- (com.github.xenoby:nativelib_native0.3.6-20-g0afae98f36_2.11:jar:0.3.6-20-g0afae98f36:compile - omitted for duplicate)
+|  \- (com.github.xenoby:javalib_native0.3.6-20-g0afae98f36_2.11:jar:0.3.6-20-g0afae98f36:compile - omitted for duplicate)
++- com.github.xenoby:test-interface_native0.3.6-20-g0afae98f36_2.11:jar:0.3.6-20-g0afae98f36:test
+|  +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|  +- com.github.xenoby:test-interface-serialization_native0.3.6-20-g0afae98f36_2.11:jar:0.3.6-20-g0afae98f36:test
+|  |  +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|  |  +- com.github.xenoby:test-interface-sbt-defs_native0.3.6-20-g0afae98f36_2.11:jar:0.3.6-20-g0afae98f36:test
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|  |  |  +- (com.github.xenoby:nativelib_native0.3.6-20-g0afae98f36_2.11:jar:0.3.6-20-g0afae98f36:test - omitted for duplicate)
+|  |  |  +- (com.github.xenoby:javalib_native0.3.6-20-g0afae98f36_2.11:jar:0.3.6-20-g0afae98f36:test - omitted for duplicate)
+|  |  |  +- (com.github.xenoby:auxlib_native0.3.6-20-g0afae98f36_2.11:jar:0.3.6-20-g0afae98f36:test - omitted for duplicate)
+|  |  |  \- (com.github.xenoby:scalalib_native0.3.6-20-g0afae98f36_2.11:jar:0.3.6-20-g0afae98f36:test - omitted for duplicate)
+|  |  +- (com.github.xenoby:nativelib_native0.3.6-20-g0afae98f36_2.11:jar:0.3.6-20-g0afae98f36:test - omitted for duplicate)
+|  |  +- (com.github.xenoby:javalib_native0.3.6-20-g0afae98f36_2.11:jar:0.3.6-20-g0afae98f36:test - omitted for duplicate)
+|  |  +- (com.github.xenoby:auxlib_native0.3.6-20-g0afae98f36_2.11:jar:0.3.6-20-g0afae98f36:test - omitted for duplicate)
+|  |  \- (com.github.xenoby:scalalib_native0.3.6-20-g0afae98f36_2.11:jar:0.3.6-20-g0afae98f36:test - omitted for duplicate)
+|  +- (com.github.xenoby:nativelib_native0.3.6-20-g0afae98f36_2.11:jar:0.3.6-20-g0afae98f36:test - omitted for duplicate)
+|  +- (com.github.xenoby:javalib_native0.3.6-20-g0afae98f36_2.11:jar:0.3.6-20-g0afae98f36:test - omitted for duplicate)
+|  +- (com.github.xenoby:auxlib_native0.3.6-20-g0afae98f36_2.11:jar:0.3.6-20-g0afae98f36:test - omitted for duplicate)
+|  +- (com.github.xenoby:scalalib_native0.3.6-20-g0afae98f36_2.11:jar:0.3.6-20-g0afae98f36:test - omitted for duplicate)
+|  \- org.scala-sbt:test-interface:jar:1.0:test
++- com.thesamet.scalapb:scalapb-runtime_2.11:jar:0.7.0-rc7:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  +- com.thesamet.scalapb:lenses_2.11:jar:0.7.0-test2:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  +- com.lihaoyi:fastparse_2.11:jar:1.0.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
+|  |  +- com.lihaoyi:fastparse-utils_2.11:jar:1.0.0:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
+|  |  |  \- (com.lihaoyi:sourcecode_2.11:jar:0.1.4:compile - omitted for duplicate)
+|  |  \- com.lihaoyi:sourcecode_2.11:jar:0.1.4:compile
+|  |     \- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
+|  \- com.google.protobuf:protobuf-java:jar:3.5.0:compile
+\- com.github.xenoby:scalapb-runtime_native0.3.6-20-g0afae98f36_2.11:jar:0.7.0-rc7:compile
+   +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+   +- (com.github.xenoby:nativelib_native0.3.6-20-g0afae98f36_2.11:jar:0.3.6-20-g0afae98f36:compile - omitted for duplicate)
+   +- (com.github.xenoby:javalib_native0.3.6-20-g0afae98f36_2.11:jar:0.3.6-20-g0afae98f36:compile - omitted for duplicate)
+   +- (com.github.xenoby:auxlib_native0.3.6-20-g0afae98f36_2.11:jar:0.3.6-20-g0afae98f36:compile - omitted for duplicate)
+   +- (com.github.xenoby:scalalib_native0.3.6-20-g0afae98f36_2.11:jar:0.3.6-20-g0afae98f36:compile - omitted for duplicate)
+   +- com.github.xenoby:lenses_native0.3.6-20-g0afae98f36_2.11:jar:0.7.0-rc7:compile
+   |  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+   |  +- (com.github.xenoby:nativelib_native0.3.6-20-g0afae98f36_2.11:jar:0.3.6-20-g0afae98f36:compile - omitted for duplicate)
+   |  +- (com.github.xenoby:javalib_native0.3.6-20-g0afae98f36_2.11:jar:0.3.6-20-g0afae98f36:compile - omitted for duplicate)
+   |  +- (com.github.xenoby:auxlib_native0.3.6-20-g0afae98f36_2.11:jar:0.3.6-20-g0afae98f36:compile - omitted for duplicate)
+   |  \- (com.github.xenoby:scalalib_native0.3.6-20-g0afae98f36_2.11:jar:0.3.6-20-g0afae98f36:compile - omitted for duplicate)
+   +- com.github.xenoby:fastparse_native0.3.6-20-g0afae98f36_2.11:jar:1.0.0:compile
+   |  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+   |  +- com.github.xenoby:fastparse-utils_native0.3.6-20-g0afae98f36_2.11:jar:1.0.0:compile
+   |  |  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+   |  |  +- (com.github.xenoby:nativelib_native0.3.6-20-g0afae98f36_2.11:jar:0.3.6-20-g0afae98f36:compile - omitted for duplicate)
+   |  |  +- (com.github.xenoby:javalib_native0.3.6-20-g0afae98f36_2.11:jar:0.3.6-20-g0afae98f36:compile - omitted for duplicate)
+   |  |  +- (com.github.xenoby:auxlib_native0.3.6-20-g0afae98f36_2.11:jar:0.3.6-20-g0afae98f36:compile - omitted for duplicate)
+   |  |  +- (com.github.xenoby:scalalib_native0.3.6-20-g0afae98f36_2.11:jar:0.3.6-20-g0afae98f36:compile - omitted for duplicate)
+   |  |  \- (com.github.xenoby:sourcecode_native0.3.6-20-g0afae98f36_2.11:jar:0.1.4:compile - omitted for duplicate)
+   |  +- (com.github.xenoby:nativelib_native0.3.6-20-g0afae98f36_2.11:jar:0.3.6-20-g0afae98f36:compile - omitted for duplicate)
+   |  +- (com.github.xenoby:javalib_native0.3.6-20-g0afae98f36_2.11:jar:0.3.6-20-g0afae98f36:compile - omitted for duplicate)
+   |  +- (com.github.xenoby:auxlib_native0.3.6-20-g0afae98f36_2.11:jar:0.3.6-20-g0afae98f36:compile - omitted for duplicate)
+   |  +- (com.github.xenoby:scalalib_native0.3.6-20-g0afae98f36_2.11:jar:0.3.6-20-g0afae98f36:compile - omitted for duplicate)
+   |  \- com.github.xenoby:sourcecode_native0.3.6-20-g0afae98f36_2.11:jar:0.1.4:compile
+   |     +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+   |     +- (com.github.xenoby:nativelib_native0.3.6-20-g0afae98f36_2.11:jar:0.3.6-20-g0afae98f36:compile - omitted for duplicate)
+   |     +- (com.github.xenoby:javalib_native0.3.6-20-g0afae98f36_2.11:jar:0.3.6-20-g0afae98f36:compile - omitted for duplicate)
+   |     +- (com.github.xenoby:auxlib_native0.3.6-20-g0afae98f36_2.11:jar:0.3.6-20-g0afae98f36:compile - omitted for duplicate)
+   |     \- (com.github.xenoby:scalalib_native0.3.6-20-g0afae98f36_2.11:jar:0.3.6-20-g0afae98f36:compile - omitted for duplicate)
+   \- com.github.xenoby:protobuf-runtime-scala_native0.3.6-20-g0afae98f36_2.11:jar:0.7.0-rc7:compile
+      +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+      +- (com.github.xenoby:nativelib_native0.3.6-20-g0afae98f36_2.11:jar:0.3.6-20-g0afae98f36:compile - omitted for duplicate)
+      +- (com.github.xenoby:javalib_native0.3.6-20-g0afae98f36_2.11:jar:0.3.6-20-g0afae98f36:compile - omitted for duplicate)
+      +- (com.github.xenoby:auxlib_native0.3.6-20-g0afae98f36_2.11:jar:0.3.6-20-g0afae98f36:compile - omitted for duplicate)
+      \- (com.github.xenoby:scalalib_native0.3.6-20-g0afae98f36_2.11:jar:0.3.6-20-g0afae98f36:compile - omitted for duplicate)

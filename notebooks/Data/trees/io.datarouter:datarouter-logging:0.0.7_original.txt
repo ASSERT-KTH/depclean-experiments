@@ -1,0 +1,19 @@
+io.datarouter:datarouter-logging:jar:0.0.7
++- javax.inject:javax.inject:jar:1:compile
++- org.apache.logging.log4j:log4j-slf4j-impl:jar:2.11.0:compile
+|  +- org.slf4j:slf4j-api:jar:1.8.0-alpha2:compile
+|  +- org.apache.logging.log4j:log4j-api:jar:2.11.0:compile
+|  \- (org.apache.logging.log4j:log4j-core:jar:2.11.0:compile - scope updated from runtime; omitted for duplicate)
++- org.apache.logging.log4j:log4j-1.2-api:jar:2.11.0:compile
+|  +- (org.apache.logging.log4j:log4j-api:jar:2.11.0:compile - omitted for duplicate)
+|  \- org.apache.logging.log4j:log4j-core:jar:2.11.0:compile
+|     \- (org.apache.logging.log4j:log4j-api:jar:2.11.0:compile - omitted for duplicate)
++- org.apache.logging.log4j:log4j-jcl:jar:2.11.0:compile
+|  +- commons-logging:commons-logging:jar:1.2:compile
+|  \- (org.apache.logging.log4j:log4j-api:jar:2.11.0:compile - omitted for duplicate)
++- org.apache.logging.log4j:log4j-web:jar:2.11.0:runtime
+|  +- (org.apache.logging.log4j:log4j-api:jar:2.11.0:runtime - omitted for duplicate)
+|  \- (org.apache.logging.log4j:log4j-core:jar:2.11.0:runtime - omitted for duplicate)
+\- org.testng:testng:jar:6.14.2:compile
+   +- com.beust:jcommander:jar:1.72:compile
+   \- org.apache-extras.beanshell:bsh:jar:2.0b6:compile

@@ -1,0 +1,126 @@
+de.knightsoft-net:gwtp-dynamic-navigation:jar:0.55.3
++- com.google.gwt:gwt-user:jar:2.8.2:compile
+|  +- com.google.jsinterop:jsinterop-annotations:jar:1.0.2:compile
+|  +- com.google.jsinterop:jsinterop-annotations:jar:sources:1.0.2:compile
+|  +- javax.servlet:javax.servlet-api:jar:3.1.0:compile
+|  \- org.w3c.css:sac:jar:1.3:compile
++- com.google.gwt:gwt-dev:jar:2.8.2:compile
+|  +- com.google.code.findbugs:jsr305:jar:1.3.9:compile
+|  +- com.google.code.gson:gson:jar:2.8.4:compile
+|  +- org.ow2.asm:asm:jar:5.0.3:compile
+|  +- org.ow2.asm:asm-util:jar:5.0.3:compile
+|  |  \- org.ow2.asm:asm-tree:jar:5.0.3:compile
+|  +- org.ow2.asm:asm-commons:jar:5.0.3:compile
+|  +- colt:colt:jar:1.2.0:compile
+|  +- ant:ant:jar:1.6.5:compile
+|  +- commons-collections:commons-collections:jar:3.2.2:compile
+|  +- commons-io:commons-io:jar:2.4:compile
+|  +- com.ibm.icu:icu4j:jar:50.1.1:compile
+|  +- tapestry:tapestry:jar:4.0.2:compile
+|  +- net.sourceforge.htmlunit:htmlunit:jar:2.29:compile
+|  |  +- xalan:xalan:jar:2.7.2:compile
+|  |  |  \- xalan:serializer:jar:2.7.2:compile
+|  |  +- org.apache.commons:commons-lang3:jar:3.7:compile
+|  |  +- org.apache.commons:commons-text:jar:1.2:compile
+|  |  +- org.apache.httpcomponents:httpmime:jar:4.5.5:compile
+|  |  |  \- org.apache.httpcomponents:httpclient:jar:4.5.5:compile
+|  |  |     +- org.apache.httpcomponents:httpcore:jar:4.4.9:compile
+|  |  |     \- commons-codec:commons-codec:jar:1.11:compile
+|  |  +- net.sourceforge.htmlunit:htmlunit-core-js:jar:2.28:compile
+|  |  +- net.sourceforge.htmlunit:neko-htmlunit:jar:2.28:compile
+|  |  |  \- xerces:xercesImpl:jar:2.11.0:compile
+|  |  |     \- xml-apis:xml-apis:jar:1.4.01:compile
+|  |  +- net.sourceforge.cssparser:cssparser:jar:0.9.24:compile
+|  |  +- commons-net:commons-net:jar:3.6:compile
+|  |  \- org.eclipse.jetty.websocket:websocket-client:jar:9.4.10.v20180503:compile
+|  |     +- org.eclipse.jetty:jetty-client:jar:9.4.10.v20180503:compile
+|  |     \- org.eclipse.jetty.websocket:websocket-common:jar:9.2.14.v20151106:compile
+|  |        \- org.eclipse.jetty.websocket:websocket-api:jar:9.2.14.v20151106:compile
+|  +- org.eclipse.jetty:jetty-webapp:jar:9.2.14.v20151106:compile
+|  |  +- org.eclipse.jetty:jetty-xml:jar:9.2.14.v20151106:compile
+|  |  \- org.eclipse.jetty:jetty-servlet:jar:9.2.14.v20151106:compile
+|  |     \- org.eclipse.jetty:jetty-security:jar:9.2.14.v20151106:compile
+|  +- org.eclipse.jetty:jetty-servlets:jar:9.2.14.v20151106:compile
+|  |  +- org.eclipse.jetty:jetty-continuation:jar:9.2.14.v20151106:compile
+|  |  +- org.eclipse.jetty:jetty-http:jar:9.2.14.v20151106:compile
+|  |  +- org.eclipse.jetty:jetty-util:jar:9.2.14.v20151106:compile
+|  |  \- org.eclipse.jetty:jetty-io:jar:9.2.14.v20151106:compile
+|  +- org.eclipse.jetty:jetty-annotations:jar:9.2.14.v20151106:compile
+|  |  +- org.eclipse.jetty:jetty-plus:jar:9.2.14.v20151106:compile
+|  |  |  \- org.eclipse.jetty:jetty-jndi:jar:9.2.14.v20151106:compile
+|  |  \- javax.annotation:javax.annotation-api:jar:1.3.2:compile
+|  \- org.eclipse.jetty:apache-jsp:jar:9.2.14.v20151106:compile
+|     +- org.eclipse.jetty:jetty-server:jar:9.2.14.v20151106:compile
+|     +- org.eclipse.jetty.toolchain:jetty-schemas:jar:3.1.M0:compile
+|     \- org.mortbay.jasper:apache-jsp:jar:8.0.9.M3:compile
+|        \- org.mortbay.jasper:apache-el:jar:8.5.24.2:compile
++- de.knightsoft-net:gwt-commons-lang3:jar:3.7-0:compile
++- de.knightsoft-net:gwtp-spring-integration:jar:0.55.3:compile
+|  +- de.knightsoft-net:mt-bean-validators:jar:0.55.3:compile
+|  |  +- org.hibernate.validator:hibernate-validator:jar:6.0.10.Final:compile
+|  |  +- org.glassfish:javax.el:jar:3.0.0:compile
+|  |  \- commons-validator:commons-validator:jar:1.6:compile
+|  +- com.google.guava:guava:jar:25.1-jre:compile
+|  |  +- org.checkerframework:checker-qual:jar:2.0.0:compile
+|  |  +- com.google.errorprone:error_prone_annotations:jar:2.1.3:compile
+|  |  +- com.google.j2objc:j2objc-annotations:jar:1.1:compile
+|  |  \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:compile
+|  +- org.springframework.boot:spring-boot-starter-web:jar:2.0.2.RELEASE:compile
+|  |  +- org.springframework.boot:spring-boot-starter:jar:2.0.2.RELEASE:compile
+|  |  |  +- org.springframework.boot:spring-boot:jar:2.0.2.RELEASE:compile
+|  |  |  +- org.springframework.boot:spring-boot-autoconfigure:jar:2.0.2.RELEASE:compile
+|  |  |  +- org.springframework.boot:spring-boot-starter-logging:jar:2.0.2.RELEASE:compile
+|  |  |  |  +- ch.qos.logback:logback-classic:jar:1.2.3:compile
+|  |  |  |  |  \- ch.qos.logback:logback-core:jar:1.2.3:compile
+|  |  |  |  +- org.apache.logging.log4j:log4j-to-slf4j:jar:2.10.0:compile
+|  |  |  |  |  \- org.apache.logging.log4j:log4j-api:jar:2.10.0:compile
+|  |  |  |  \- org.slf4j:jul-to-slf4j:jar:1.7.25:compile
+|  |  |  \- org.yaml:snakeyaml:jar:1.19:runtime
+|  |  +- org.springframework.boot:spring-boot-starter-json:jar:2.0.2.RELEASE:compile
+|  |  |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile
+|  |  |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+|  |  |  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.9.5:compile
+|  |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.5:compile
+|  |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.5:compile
+|  |  |  \- com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.9.5:compile
+|  |  +- org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.2.RELEASE:compile
+|  |  |  +- org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.31:compile
+|  |  |  +- org.apache.tomcat.embed:tomcat-embed-el:jar:8.5.31:compile
+|  |  |  \- org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.5.31:compile
+|  |  +- org.springframework:spring-web:jar:5.0.6.RELEASE:compile
+|  |  \- org.springframework:spring-webmvc:jar:5.0.6.RELEASE:compile
+|  +- org.springframework.boot:spring-boot-starter-security:jar:2.0.2.RELEASE:compile
+|  |  +- org.springframework:spring-aop:jar:5.0.6.RELEASE:compile
+|  |  +- org.springframework.security:spring-security-config:jar:5.0.5.RELEASE:compile
+|  |  |  \- org.springframework.security:spring-security-core:jar:5.0.5.RELEASE:compile
+|  |  \- org.springframework.security:spring-security-web:jar:5.0.5.RELEASE:compile
+|  +- org.springframework:spring-core:jar:sources:5.0.6.RELEASE:compile
+|  |  \- org.springframework:spring-jcl:jar:5.0.6.RELEASE:compile
+|  +- org.springframework.security:spring-security-core:jar:sources:5.0.5.RELEASE:compile
+|  |  +- org.springframework:spring-beans:jar:5.0.6.RELEASE:compile
+|  |  +- org.springframework:spring-context:jar:5.0.6.RELEASE:compile
+|  |  +- org.springframework:spring-core:jar:5.0.6.RELEASE:compile
+|  |  \- org.springframework:spring-expression:jar:5.0.6.RELEASE:compile
+|  +- org.springframework.data:spring-data-commons:jar:2.0.7.RELEASE:compile
+|  |  \- org.slf4j:slf4j-api:jar:1.7.25:compile
+|  \- org.springframework.data:spring-data-commons:jar:sources:2.0.7.RELEASE:compile
++- de.knightsoft-net:gwt-bean-validators:jar:0.55.3:provided
+|  +- javax.validation:validation-api:jar:2.0.1.Final:compile
+|  +- javax.validation:validation-api:jar:sources:2.0.1.Final:provided
+|  +- org.hibernate.validator:hibernate-validator:jar:sources:6.0.10.Final:provided
+|  |  +- org.jboss.logging:jboss-logging:jar:3.3.2.Final:compile
+|  |  \- com.fasterxml:classmate:jar:1.3.4:compile
+|  \- de.knightsoft-net:gwt-commons-validator:jar:1.6-0:provided
+|     +- commons-beanutils:commons-beanutils:jar:1.9.2:compile
+|     +- commons-digester:commons-digester:jar:1.8.1:compile
+|     \- commons-logging:commons-logging:jar:1.2:compile
++- com.gwtplatform:gwtp-mvp-client:jar:1.6:compile
+|  +- com.gwtplatform:gwtp-clients-common:jar:1.6:compile
+|  +- com.gwtplatform:gwtp-mvp-shared:jar:1.6:compile
+|  \- org.apache.velocity:velocity:jar:1.7:compile
+|     \- commons-lang:commons-lang:jar:2.4:compile
+\- com.google.gwt.inject:gin:jar:2.1.2:compile
+   +- com.google.inject:guice:jar:3.0:compile
+   |  +- javax.inject:javax.inject:jar:1:compile
+   |  \- aopalliance:aopalliance:jar:1.0:compile
+   \- com.google.inject.extensions:guice-assistedinject:jar:3.0:compile

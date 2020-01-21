@@ -1,0 +1,13 @@
+com.github.julien-truffaut:monocle-unsafe_2.11:jar:1.5.0
++- org.scala-lang:scala-library:jar:2.11.12:compile
++- com.github.julien-truffaut:monocle-core_2.11:jar:1.5.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  +- (org.scalaz:scalaz-core_2.11:jar:7.2.18:compile - omitted for duplicate)
+|  \- org.scala-lang.modules:scala-java8-compat_2.11:jar:0.7.0:compile
+|     \- (org.scala-lang:scala-library:jar:2.11.7:compile - omitted for conflict with 2.11.12)
++- org.scalaz:scalaz-core_2.11:jar:7.2.18:compile
+|  \- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
+\- com.chuusai:shapeless_2.11:jar:2.3.3:compile
+   +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+   \- org.typelevel:macro-compat_2.11:jar:1.1.1:compile
+      \- (org.scala-lang:scala-library:jar:2.11.7:compile - omitted for conflict with 2.11.12)

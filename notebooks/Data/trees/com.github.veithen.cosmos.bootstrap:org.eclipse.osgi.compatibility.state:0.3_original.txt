@@ -1,0 +1,11 @@
+com.github.veithen.cosmos.bootstrap:org.eclipse.osgi.compatibility.state:imported-bundle:0.3
+\- com.github.veithen.cosmos:cosmos-equinox:jar:0.3:compile
+   +- com.github.veithen.cosmos:cosmos-osgi-runtime:jar:0.3:compile
+   |  +- org.osgi:org.osgi.core:jar:6.0.0:compile
+   |  +- org.osgi:org.osgi.service.log:jar:1.3.0:compile
+   |  +- org.osgi:org.osgi.util.xml:jar:1.0.1:compile
+   |  +- org.slf4j:slf4j-api:jar:1.7.25:compile
+   |  \- org.ow2.asm:asm-tree:jar:6.0:compile
+   |     \- org.ow2.asm:asm:jar:6.0:compile
+   +- org.osgi:org.osgi.service.resolver:jar:1.0.1:compile
+   \- org.apache.felix:org.apache.felix.scr:jar:1.6.2:compile

@@ -1,0 +1,7 @@
+org.webjars.npm:material__dialog:jar:0.38.2
++- org.webjars.npm:material__typography:jar:0.38.0:compile
++- org.webjars.npm:material__base:jar:0.35.0:compile
++- org.webjars.npm:material__elevation:jar:0.38.0:compile
+|  +- (org.webjars.npm:material__animation:jar:0.34.0:compile - omitted for duplicate)
+|  \- (org.webjars.npm:material__theme:jar:0.38.0:compile - omitted for duplicate)
+\- org.webjars.npm:material__animation:jar:0.34.0:compile

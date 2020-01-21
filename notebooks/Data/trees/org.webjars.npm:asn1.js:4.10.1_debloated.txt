@@ -1,0 +1,2 @@
+org.webjars.npm:asn1.js:jar:4.10.1
+\- org.webjars.npm:inherits:jar:2.0.4:compile

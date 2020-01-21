@@ -1,0 +1,9 @@
+org.verapdf:metadata-fixer:jar:1.12.1
++- org.verapdf:parser:jar:1.12.1:compile
++- org.verapdf:verapdf-xmp-core:jar:1.12.1:compile
++- org.verapdf:core:jar:1.12.1:compile
+|  +- org.verapdf:pdf-model:jar:1.12.1:compile
+|  +- (org.verapdf:verapdf-xmp-core:jar:1.12.1:compile - omitted for duplicate)
+|  +- org.mozilla:rhino:jar:1.7.7.2:compile
+|  \- net.java.dev.stax-utils:stax-utils:jar:20070216:compile
+\- org.codehaus.sonar-plugins.java:sonar-jacoco-listeners:jar:1.2:test

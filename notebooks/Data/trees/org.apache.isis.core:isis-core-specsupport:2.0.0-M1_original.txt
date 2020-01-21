@@ -1,0 +1,111 @@
+org.apache.isis.core:isis-core-specsupport:jar:2.0.0-M1
++- org.apache.isis.core:isis-core-unittestsupport:jar:2.0.0-M1:compile
+|  +- org.apache.isis.core:isis-core-commons:jar:2.0.0-M1:compile
+|  |  +- javax:javaee-api:jar:7.0:compile
+|  |  |  \- com.sun.mail:javax.mail:jar:1.5.0:compile
+|  |  |     \- javax.activation:activation:jar:1.1:compile
+|  |  +- com.google.code.findbugs:annotations:jar:2.0.1:compile
+|  |  +- (org.hamcrest:hamcrest-library:jar:1.3:compile - version managed from 1.1; omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|  +- org.apache.isis.core:isis-core-plugins-codegen-bytebuddy:jar:2.0.0-M1:compile
+|  |  +- net.bytebuddy:byte-buddy:jar:1.8.0:compile
+|  |  +- org.objenesis:objenesis:jar:2.4:compile
+|  |  +- (org.apache.isis.core:isis-core-commons:jar:2.0.0-M1:compile - omitted for duplicate)
+|  |  +- (org.hamcrest:hamcrest-library:jar:1.3:compile - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|  +- (org.junit.jupiter:junit-jupiter-api:jar:5.2.0:compile - omitted for duplicate)
+|  +- (org.junit.jupiter:junit-jupiter-engine:jar:5.2.0:compile - omitted for duplicate)
+|  +- (org.junit.vintage:junit-vintage-engine:jar:5.2.0:compile - omitted for duplicate)
+|  +- org.picocontainer:picocontainer:jar:2.15:compile
+|  +- (org.jmock:jmock:jar:2.6.0:compile - omitted for duplicate)
+|  +- (org.jmock:jmock-junit4:jar:2.6.0:compile - omitted for duplicate)
+|  +- (org.hamcrest:hamcrest-library:jar:1.3:compile - version managed from 1.1; omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.6.3; omitted for duplicate)
++- org.apache.isis.core:isis-core-applib:jar:2.0.0-M1:compile
+|  +- (org.apache.isis.core:isis-core-commons:jar:2.0.0-M1:compile - omitted for duplicate)
+|  +- org.apache.isis.core:isis-core-schema:jar:2.0.0-M1:compile
+|  |  +- (org.apache.isis.core:isis-core-commons:jar:2.0.0-M1:compile - omitted for duplicate)
+|  |  +- joda-time:joda-time:jar:2.9.4:compile
+|  |  +- (org.hamcrest:hamcrest-library:jar:1.3:compile - version managed from 1.1; omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|  +- (org.hamcrest:hamcrest-library:jar:1.3:compile - version managed from 1.1; omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
++- org.apache.isis.core:isis-core-wrapper:jar:2.0.0-M1:compile
+|  +- org.apache.isis.core:isis-core-runtime:jar:2.0.0-M1:compile
+|  |  +- org.apache.isis.core:isis-core-log4j:jar:2.0.0-M1:compile
+|  |  |  +- (org.slf4j:slf4j-log4j12:jar:1.7.21:compile - omitted for duplicate)
+|  |  |  +- (log4j:log4j:jar:1.2.17:compile - omitted for duplicate)
+|  |  |  +- (org.hamcrest:hamcrest-library:jar:1.3:compile - version managed from 1.1; omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|  |  +- org.apache.isis.core:isis-core-metamodel:jar:2.0.0-M1:compile
+|  |  |  +- (org.apache.isis.core:isis-core-applib:jar:2.0.0-M1:compile - omitted for duplicate)
+|  |  |  +- commons-codec:commons-codec:jar:1.10:compile
+|  |  |  +- commons-cli:commons-cli:jar:1.3.1:compile
+|  |  |  +- com.google.inject:guice:jar:4.1.0:compile
+|  |  |  |  +- javax.inject:javax.inject:jar:1:compile
+|  |  |  |  +- aopalliance:aopalliance:jar:1.0:compile
+|  |  |  |  \- com.google.guava:guava:jar:19.0:compile
+|  |  |  +- com.google.code.gson:gson:jar:2.7:compile
+|  |  |  +- io.swagger:swagger-core:jar:1.5.9:compile
+|  |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.6.3; omitted for duplicate)
+|  |  |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile (version managed from 2.4.5)
+|  |  |  |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.8.0:compile (version managed from 2.4.5)
+|  |  |  |  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.8.0:compile
+|  |  |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-joda:jar:2.4.5:compile
+|  |  |  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.0:compile - version managed from 2.4.5; omitted for duplicate)
+|  |  |  |  |  \- (joda-time:joda-time:jar:2.9.4:compile - version managed from 2.2; omitted for duplicate)
+|  |  |  |  +- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.4.5:compile
+|  |  |  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.0:compile - version managed from 2.4.5; omitted for duplicate)
+|  |  |  |  |  \- org.yaml:snakeyaml:jar:1.12:compile
+|  |  |  |  +- io.swagger:swagger-models:jar:1.5.9:compile
+|  |  |  |  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile - version managed from 2.4.5; omitted for duplicate)
+|  |  |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.6.3; omitted for duplicate)
+|  |  |  |  |  \- io.swagger:swagger-annotations:jar:1.5.9:compile
+|  |  |  |  +- (com.google.guava:guava:jar:19.0:compile - version managed from 18.0; omitted for duplicate)
+|  |  |  |  \- javax.validation:validation-api:jar:1.1.0.Final:compile
+|  |  |  +- (org.hamcrest:hamcrest-library:jar:1.3:compile - version managed from 1.1; omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.6.3; omitted for duplicate)
+|  |  +- (org.apache.isis.core:isis-core-schema:jar:2.0.0-M1:compile - omitted for duplicate)
+|  |  +- org.slf4j:slf4j-log4j12:jar:1.7.21:compile
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.6.3; omitted for duplicate)
+|  |  |  \- (log4j:log4j:jar:1.2.17:compile - omitted for duplicate)
+|  |  +- log4j:log4j:jar:1.2.17:compile
+|  |  +- commons-logging:commons-logging:jar:1.2:compile
+|  |  +- org.apache.commons:commons-email:jar:1.4:compile
+|  |  +- (org.hamcrest:hamcrest-library:jar:1.3:compile - version managed from 1.1; omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.6.3; omitted for duplicate)
+|  +- (org.hamcrest:hamcrest-library:jar:1.3:compile - version managed from 1.1; omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.6.3; omitted for duplicate)
++- org.junit.jupiter:junit-jupiter-api:jar:5.2.0:compile
+|  +- org.apiguardian:apiguardian-api:jar:1.0.0:compile
+|  +- org.opentest4j:opentest4j:jar:1.1.0:compile
+|  \- org.junit.platform:junit-platform-commons:jar:1.2.0:compile
+|     \- (org.apiguardian:apiguardian-api:jar:1.0.0:compile - omitted for duplicate)
++- org.junit.jupiter:junit-jupiter-engine:jar:5.2.0:compile
+|  +- (org.apiguardian:apiguardian-api:jar:1.0.0:compile - omitted for duplicate)
+|  +- org.junit.platform:junit-platform-engine:jar:1.2.0:compile
+|  |  +- (org.apiguardian:apiguardian-api:jar:1.0.0:compile - omitted for duplicate)
+|  |  +- (org.junit.platform:junit-platform-commons:jar:1.2.0:compile - omitted for duplicate)
+|  |  \- (org.opentest4j:opentest4j:jar:1.1.0:compile - omitted for duplicate)
+|  \- (org.junit.jupiter:junit-jupiter-api:jar:5.2.0:compile - omitted for duplicate)
++- org.junit.vintage:junit-vintage-engine:jar:5.2.0:compile
+|  +- (org.apiguardian:apiguardian-api:jar:1.0.0:compile - omitted for duplicate)
+|  +- (org.junit.platform:junit-platform-engine:jar:1.2.0:compile - omitted for duplicate)
+|  \- (junit:junit:jar:4.12:compile - scope updated from runtime; omitted for duplicate)
++- org.jmock:jmock:jar:2.6.0:compile
+|  +- org.hamcrest:hamcrest-core:jar:1.3:compile (version managed from 1.1)
+|  \- (org.hamcrest:hamcrest-library:jar:1.3:compile - version managed from 1.1; omitted for duplicate)
++- info.cukes:cucumber-java:jar:1.2.4:compile
+|  \- info.cukes:cucumber-core:jar:1.2.4:compile
+|     +- info.cukes:cucumber-html:jar:0.2.3:compile
+|     +- info.cukes:cucumber-jvm-deps:jar:1.0.5:compile
+|     \- info.cukes:gherkin:jar:2.12.2:compile
++- info.cukes:cucumber-junit:jar:1.2.4:compile
+|  +- (info.cukes:cucumber-core:jar:1.2.4:compile - omitted for duplicate)
+|  \- junit:junit:jar:4.12:compile
+|     \- (org.hamcrest:hamcrest-core:jar:1.3:compile - version managed from 1.1; omitted for duplicate)
++- org.hamcrest:hamcrest-library:jar:1.3:compile
+|  \- (org.hamcrest:hamcrest-core:jar:1.3:compile - version managed from 1.1; omitted for duplicate)
++- org.slf4j:slf4j-api:jar:1.7.21:compile
+\- org.jmock:jmock-junit4:jar:2.6.0:test (scope not updated to compile)
+   \- (org.jmock:jmock:jar:2.6.0:test - omitted for duplicate)

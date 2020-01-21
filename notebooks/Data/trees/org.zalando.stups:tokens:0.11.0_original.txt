@@ -1,0 +1,22 @@
+org.zalando.stups:tokens:jar:0.11.0
++- com.fasterxml.jackson.core:jackson-databind:jar:2.8.7:compile
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile
+|  \- com.fasterxml.jackson.core:jackson-core:jar:2.8.7:compile
++- org.apache.httpcomponents:httpclient:jar:4.5.3:compile
+|  +- org.apache.httpcomponents:httpcore:jar:4.4.6:compile
+|  +- commons-logging:commons-logging:jar:1.2:compile
+|  \- commons-codec:commons-codec:jar:1.9:compile
++- org.slf4j:slf4j-api:jar:1.7.23:compile
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.slf4j:slf4j-log4j12:jar:1.7.23:test
+|  +- (org.slf4j:slf4j-api:jar:1.7.23:test - omitted for duplicate)
+|  \- (log4j:log4j:jar:1.2.17:test - omitted for duplicate)
++- log4j:log4j:jar:1.2.17:test
++- org.mockito:mockito-core:jar:2.7.14:test
+|  +- net.bytebuddy:byte-buddy:jar:1.6.9:test
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.6.9:test
+|  \- org.objenesis:objenesis:jar:2.5:test
++- org.assertj:assertj-core:jar:3.6.2:test
+\- com.github.stefanbirkner:system-rules:jar:1.16.0:test
+   \- (junit:junit:jar:4.11:test - omitted for conflict with 4.12)

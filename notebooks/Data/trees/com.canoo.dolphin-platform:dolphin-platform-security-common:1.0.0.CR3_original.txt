@@ -1,0 +1,3 @@
+com.canoo.dolphin-platform:dolphin-platform-security-common:jar:1.0.0.CR3
++- org.slf4j:slf4j-api:jar:1.7.25:compile
+\- org.apiguardian:apiguardian-api:jar:1.0.0:compile

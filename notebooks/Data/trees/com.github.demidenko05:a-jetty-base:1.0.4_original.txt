@@ -1,0 +1,18 @@
+com.github.demidenko05:a-jetty-base:jar:1.0.4
++- com.github.demidenko05:a-apache-jsp:jar:1.0.5:compile
+|  +- (com.github.demidenko05:a-javabeans8:jar:1.0.2:compile - omitted for duplicate)
+|  \- (javax.servlet:javax.servlet-api:jar:3.1.0:compile - omitted for duplicate)
++- com.github.demidenko05:taglibs-standard-spec:jar:1.0.5:compile
+|  +- (com.github.demidenko05:a-javabeans8:jar:1.0.2:compile - omitted for duplicate)
+|  \- (javax.servlet:javax.servlet-api:jar:3.1.0:compile - omitted for duplicate)
++- com.github.demidenko05:taglibs-standard-impl:jar:1.0.5:compile
+|  +- (com.github.demidenko05:a-javabeans8:jar:1.0.2:compile - omitted for duplicate)
+|  \- (javax.servlet:javax.servlet-api:jar:3.1.0:compile - omitted for duplicate)
++- com.github.demidenko05:a-javabeans8:jar:1.0.2:compile
++- org.beigesoft:beige-logging-base:jar:1.0.2:compile
++- javax.servlet:javax.servlet-api:jar:3.1.0:compile
++- org.bouncycastle:bcprov-jdk15on:jar:1.59:compile
++- org.bouncycastle:bcpkix-jdk15on:jar:1.59:compile
+|  \- (org.bouncycastle:bcprov-jdk15on:jar:1.59:compile - omitted for duplicate)
+\- junit:junit:jar:4.10:test
+   \- org.hamcrest:hamcrest-core:jar:1.1:test

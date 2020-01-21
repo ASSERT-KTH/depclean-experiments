@@ -1,0 +1,20 @@
+com.github.fromage.quasi:quasi-core:jar:0.7.10
++- io.dropwizard.metrics:metrics-core:jar:3.2.3:compile
+|  \- org.slf4j:slf4j-api:jar:1.7.22:compile
++- com.google.guava:guava:jar:20.0:compile
++- org.hdrhistogram:HdrHistogram:jar:2.1.9:compile
++- org.latencyutils:LatencyUtils:jar:2.0.3:compile
+|  \- (org.hdrhistogram:HdrHistogram:jar:2.1.8:compile - omitted for conflict with 2.1.9)
++- com.esotericsoftware:kryo:jar:4.0.0:compile
+|  +- com.esotericsoftware:reflectasm:jar:1.11.3:compile
+|  |  \- org.ow2.asm:asm:jar:5.0.4:compile
+|  +- com.esotericsoftware:minlog:jar:1.3.0:compile
+|  \- org.objenesis:objenesis:jar:2.2:compile
++- de.javakaffee:kryo-serializers:jar:0.42:compile
+|  \- (com.esotericsoftware:kryo:jar:4.0.0:compile - omitted for duplicate)
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- com.google.truth:truth:jar:0.34:test
+|  \- com.google.errorprone:error_prone_annotations:jar:2.0.18:test
++- org.hamcrest:hamcrest-all:jar:1.3:test
+\- org.mockito:mockito-all:jar:1.10.19:test

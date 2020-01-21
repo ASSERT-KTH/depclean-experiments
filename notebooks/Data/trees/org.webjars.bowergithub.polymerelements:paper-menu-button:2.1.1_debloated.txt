@@ -1,0 +1,8 @@
+org.webjars.bowergithub.polymerelements:paper-menu-button:jar:2.1.1
++- org.webjars.bowergithub.polymerelements:iron-fit-behavior:jar:2.2.1:compile
+|  \- (org.webjars.bowergithub.polymer:polymer:jar:2.8.0:compile - omitted for duplicate)
++- org.webjars.bowergithub.polymerelements:iron-behaviors:jar:2.1.1:compile
+|  +- (org.webjars.bowergithub.polymer:polymer:jar:2.8.0:compile - omitted for duplicate)
+|  \- (org.webjars.bowergithub.polymerelements:iron-a11y-keys-behavior:jar:2.1.1:compile - omitted for duplicate)
+\- org.webjars.bowergithub.polymerelements:iron-a11y-keys-behavior:jar:2.1.1:compile
+   \- (org.webjars.bowergithub.polymer:polymer:jar:2.8.0:compile - omitted for duplicate)

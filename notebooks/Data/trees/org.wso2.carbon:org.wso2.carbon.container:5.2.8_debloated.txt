@@ -1,0 +1,37 @@
+org.wso2.carbon:org.wso2.carbon.container:jar:5.2.8
++- org.ops4j.pax.logging:pax-logging-log4j2:jar:1.10.0:compile
+|  \- org.ops4j.pax.logging:pax-logging-api:jar:1.10.0:compile
++- org.apache.commons:commons-compress:jar:1.4.1:compile
+|  \- org.tukaani:xz:jar:1.0:compile
++- commons-io.wso2:commons-io:jar:2.4.0.wso2v1:compile
++- org.ops4j.pax.exam:pax-exam-container-remote:jar:4.9.1:compile
+|  +- (org.ops4j.pax.exam:pax-exam:jar:4.9.1:compile - omitted for duplicate)
+|  +- org.ops4j.pax.exam:pax-exam-container-rbc-client:jar:4.9.1:compile
+|  |  +- (org.ops4j.pax.exam:pax-exam:jar:4.9.1:compile - omitted for duplicate)
+|  |  +- org.ops4j.pax.exam:pax-exam-container-rbc:jar:4.9.1:compile
+|  |  +- org.ops4j.base:ops4j-base-io:jar:1.5.0:compile
+|  |  |  +- (org.ops4j.base:ops4j-base-lang:jar:1.5.0:compile - omitted for duplicate)
+|  |  |  \- (org.ops4j.base:ops4j-base-monitors:jar:1.5.0:compile - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.12:compile - version managed from 1.6.6; omitted for duplicate)
+|  +- org.ops4j.pax.exam:pax-exam-spi:jar:4.9.1:compile
+|  |  +- (org.ops4j.pax.exam:pax-exam:jar:4.9.1:compile - omitted for duplicate)
+|  |  +- org.ops4j.base:ops4j-base-spi:jar:1.5.0:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.12:compile - version managed from 1.6.6; omitted for duplicate)
+|  |  \- org.ops4j.pax.tinybundles:tinybundles:jar:2.1.1:compile
+|  |     +- (org.ops4j.base:ops4j-base-store:jar:1.5.0:compile - omitted for duplicate)
+|  |     \- biz.aQute.bnd:bndlib:jar:2.4.0:compile
+|  +- org.ops4j.pax.swissbox:pax-swissbox-core:jar:1.8.2:compile
+|  |  +- org.ops4j.pax.swissbox:pax-swissbox-lifecycle:jar:1.8.2:compile
+|  |  \- (org.ops4j.base:ops4j-base-lang:jar:1.5.0:compile - omitted for duplicate)
+|  +- org.ops4j.base:ops4j-base-lang:jar:1.5.0:compile
+|  +- org.ops4j.base:ops4j-base-net:jar:1.5.0:compile
+|  |  +- (org.ops4j.base:ops4j-base-lang:jar:1.5.0:compile - omitted for duplicate)
+|  |  \- org.ops4j.base:ops4j-base-monitors:jar:1.5.0:compile
+|  \- org.slf4j:slf4j-api:jar:1.7.12:compile
++- org.wso2.eclipse.osgi:org.eclipse.osgi:jar:3.11.0.v20160603-1336:compile
+\- org.ops4j.pax.exam:pax-exam:jar:4.9.1:compile
+   +- (org.ops4j.base:ops4j-base-lang:jar:1.5.0:compile - omitted for duplicate)
+   +- org.ops4j.base:ops4j-base-store:jar:1.5.0:compile
+   |  +- (org.slf4j:slf4j-api:jar:1.7.12:compile - version managed from 1.5.11; omitted for duplicate)
+   |  \- (org.ops4j.base:ops4j-base-io:jar:1.5.0:compile - omitted for duplicate)
+   \- org.ops4j.base:ops4j-base-util-property:jar:1.5.0:compile

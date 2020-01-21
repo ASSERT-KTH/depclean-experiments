@@ -1,0 +1,101 @@
+org.wso2.carbon.auth:org.wso2.carbon.auth.user.info:bundle:1.0.48
++- org.wso2.eclipse.osgi:org.eclipse.osgi:jar:3.10.2.v20150203-1939:compile
++- org.wso2.eclipse.osgi:org.eclipse.osgi.services:jar:3.4.0.v20140312-2051:compile
++- org.jacoco:org.jacoco.agent:jar:runtime:0.8.0:test
++- org.wso2.carbon.auth:org.wso2.carbon.auth.core:jar:1.0.48:compile
+|  +- org.wso2.carbon.datasources:org.wso2.carbon.datasource.core:jar:1.1.4:compile
+|  |  +- (org.wso2.eclipse.osgi:org.eclipse.osgi.services:jar:3.4.0.v20140312-2051:compile - omitted for duplicate)
+|  |  +- (org.wso2.carbon:org.wso2.carbon.core:jar:5.2.6:compile - version managed from 5.2.0; omitted for duplicate)
+|  |  +- commons-io.wso2:commons-io:jar:2.4.0.wso2v1:compile
+|  |  +- (org.wso2.eclipse.osgi:org.eclipse.osgi:jar:3.10.2.v20150203-1939:compile - version managed from 3.11.0.v20160603-1336; omitted for duplicate)
+|  |  +- com.zaxxer:HikariCP:jar:2.4.1:compile
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.12:compile - omitted for duplicate)
+|  |  +- org.wso2.carbon.jndi:org.wso2.carbon.jndi:jar:1.0.3:compile
+|  |  \- org.wso2.carbon.config:org.wso2.carbon.config:jar:2.1.2:compile
+|  |     +- (org.wso2.eclipse.osgi:org.eclipse.osgi:jar:3.10.2.v20150203-1939:compile - version managed from 3.11.0.v20160603-1336; omitted for duplicate)
+|  |     +- (org.wso2.eclipse.osgi:org.eclipse.osgi.services:jar:3.4.0.v20140312-2051:compile - version managed from 3.5.100.v20160504-1419; omitted for duplicate)
+|  |     +- (org.slf4j:slf4j-api:jar:1.7.12:compile - omitted for duplicate)
+|  |     +- (org.yaml:snakeyaml:jar:1.17:compile - omitted for duplicate)
+|  |     +- (org.wso2.carbon.secvault:org.wso2.carbon.secvault:jar:5.0.8:compile - omitted for duplicate)
+|  |     \- (org.wso2.carbon.utils:org.wso2.carbon.utils:jar:2.0.2:compile - omitted for conflict with 2.0.1)
+|  +- (org.wso2.eclipse.osgi:org.eclipse.osgi:jar:3.10.2.v20150203-1939:compile - version managed from 3.11.0.v20160603-1336; omitted for duplicate)
+|  +- (org.wso2.eclipse.osgi:org.eclipse.osgi.services:jar:3.4.0.v20140312-2051:compile - version managed from 3.5.100.v20160504-1419; omitted for duplicate)
+|  +- (org.osgi:org.osgi.core:jar:6.0.0:compile - omitted for duplicate)
+|  +- org.ops4j.pax.logging:pax-logging-api:jar:1.9.0:compile
+|  +- org.apache.commons:commons-lang3:jar:3.5:compile
+|  +- com.google.code.findbugs:jsr305:jar:3.0.0:compile
+|  +- com.google.code.findbugs:annotations:jar:3.0.0:compile
+|  +- org.wso2.carbon:org.wso2.carbon.core:jar:5.2.6:compile
+|  |  \- (org.wso2.carbon.config:org.wso2.carbon.config:jar:2.1.0:compile - omitted for conflict with 2.1.2)
+|  +- org.wso2.carbon.secvault:org.wso2.carbon.secvault:jar:5.0.8:compile
+|  |  +- (org.wso2.eclipse.osgi:org.eclipse.osgi:jar:3.10.2.v20150203-1939:compile - version managed from 3.11.0.v20160603-1336; omitted for duplicate)
+|  |  +- (org.wso2.eclipse.osgi:org.eclipse.osgi.services:jar:3.4.0.v20140312-2051:compile - version managed from 3.5.100.v20160504-1419; omitted for duplicate)
+|  |  +- org.wso2.carbon.utils:org.wso2.carbon.utils:jar:2.0.1:compile
+|  |  +- org.yaml:snakeyaml:jar:1.17:compile
+|  |  \- org.slf4j:slf4j-api:jar:1.7.12:compile
+|  \- javax.ws.rs:javax.ws.rs-api:jar:2.0:compile
++- org.wso2.carbon.auth:org.wso2.carbon.auth.token.introspection:jar:1.0.48:compile
+|  +- (org.apache.commons:commons-lang3:jar:3.5:compile - omitted for duplicate)
+|  +- (org.wso2.carbon.auth:org.wso2.carbon.auth.oauth:jar:1.0.48:compile - omitted for duplicate)
+|  \- com.nimbusds:oauth2-oidc-sdk:jar:5.36:compile
+|     +- javax.mail:mail:jar:1.4.7:compile
+|     |  \- javax.activation:activation:jar:1.1:compile
+|     +- com.github.stephenc.jcip:jcip-annotations:jar:1.0-1:compile
+|     +- (org.apache.commons:commons-lang3:jar:3.5:compile - omitted for duplicate)
+|     +- org.apache.commons:commons-collections4:jar:4.1:compile
+|     +- (net.minidev:json-smart:jar:2.3:compile - omitted for duplicate)
+|     +- com.nimbusds:lang-tag:jar:1.4.3:compile
+|     |  \- (net.minidev:json-smart:jar:2.3:compile - version managed from 1.3.1; omitted for duplicate)
+|     \- com.nimbusds:nimbus-jose-jwt:jar:5.1:compile
+|        +- (com.github.stephenc.jcip:jcip-annotations:jar:1.0-1:compile - omitted for duplicate)
+|        \- (net.minidev:json-smart:jar:2.3:compile - omitted for duplicate)
++- org.wso2.carbon.auth:org.wso2.carbon.auth.user.store:jar:1.0.48:compile
+|  +- (org.wso2.carbon.datasources:org.wso2.carbon.datasource.core:jar:1.1.4:compile - omitted for duplicate)
+|  +- org.slf4j:slf4j-simple:jar:1.7.22:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.22:compile - omitted for conflict with 1.7.12)
+|  +- (org.wso2.eclipse.osgi:org.eclipse.osgi:jar:3.10.2.v20150203-1939:compile - version managed from 3.11.0.v20160603-1336; omitted for duplicate)
+|  +- (org.wso2.eclipse.osgi:org.eclipse.osgi.services:jar:3.4.0.v20140312-2051:compile - version managed from 3.5.100.v20160504-1419; omitted for duplicate)
+|  +- (org.osgi:org.osgi.core:jar:6.0.0:compile - omitted for duplicate)
+|  +- (org.wso2.carbon.auth:org.wso2.carbon.auth.core:jar:1.0.48:compile - omitted for duplicate)
+|  \- org.wso2.charon:org.wso2.charon3.core:jar:3.0.5:compile
+|     +- org.json:json:jar:20090211:compile
+|     +- commons-logging:commons-logging:jar:1.2:compile
+|     +- org.apache.ws.commons.axiom:axiom-api:jar:1.2.11:compile
+|     |  +- org.apache.geronimo.specs:geronimo-activation_1.1_spec:jar:1.0.2:compile
+|     |  +- org.apache.geronimo.specs:geronimo-javamail_1.4_spec:jar:1.6:compile
+|     |  +- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for conflict with 1.2)
+|     |  +- jaxen:jaxen:jar:1.1.1:compile
+|     |  \- org.apache.geronimo.specs:geronimo-stax-api_1.0_spec:jar:1.0.1:compile
+|     +- org.apache.ws.commons.axiom:axiom-impl:jar:1.2.11:compile
+|     |  +- (org.apache.ws.commons.axiom:axiom-api:jar:1.2.11:compile - omitted for duplicate)
+|     |  +- (org.apache.geronimo.specs:geronimo-activation_1.1_spec:jar:1.0.2:compile - omitted for duplicate)
+|     |  +- (org.apache.geronimo.specs:geronimo-javamail_1.4_spec:jar:1.6:compile - omitted for duplicate)
+|     |  +- org.codehaus.woodstox:wstx-asl:jar:3.2.9:compile
+|     |  +- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for conflict with 1.2)
+|     |  \- (org.apache.geronimo.specs:geronimo-stax-api_1.0_spec:jar:1.0.1:compile - omitted for duplicate)
+|     \- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for conflict with 1.7.12)
++- org.wso2.carbon.auth:org.wso2.carbon.auth.scim:jar:1.0.48:compile
+|  +- (org.slf4j:slf4j-simple:jar:1.7.22:compile - omitted for duplicate)
+|  +- (org.wso2.eclipse.osgi:org.eclipse.osgi:jar:3.10.2.v20150203-1939:compile - version managed from 3.11.0.v20160603-1336; omitted for duplicate)
+|  +- (org.wso2.eclipse.osgi:org.eclipse.osgi.services:jar:3.4.0.v20140312-2051:compile - version managed from 3.5.100.v20160504-1419; omitted for duplicate)
+|  +- (org.osgi:org.osgi.core:jar:6.0.0:compile - omitted for duplicate)
+|  +- (org.wso2.charon:org.wso2.charon3.core:jar:3.0.5:compile - omitted for duplicate)
+|  +- (org.wso2.carbon.auth:org.wso2.carbon.auth.core:jar:1.0.48:compile - omitted for duplicate)
+|  \- (org.wso2.carbon.auth:org.wso2.carbon.auth.user.store:jar:1.0.48:compile - omitted for duplicate)
++- org.wso2.carbon.auth:org.wso2.carbon.auth.oauth:jar:1.0.48:compile
+|  +- (org.wso2.carbon.auth:org.wso2.carbon.auth.core:jar:1.0.48:compile - omitted for duplicate)
+|  +- org.wso2.carbon.auth:org.wso2.carbon.auth.user.mgt:jar:1.0.48:compile
+|  |  \- (org.wso2.carbon.auth:org.wso2.carbon.auth.user.store:jar:1.0.48:compile - omitted for duplicate)
+|  +- org.wso2.carbon.auth:org.wso2.carbon.auth.client.registration:jar:1.0.48:compile
+|  |  +- (org.wso2.carbon.auth:org.wso2.carbon.auth.core:jar:1.0.48:compile - omitted for duplicate)
+|  |  \- (com.nimbusds:oauth2-oidc-sdk:jar:5.36:compile - omitted for duplicate)
+|  +- (com.nimbusds:oauth2-oidc-sdk:jar:5.36:compile - omitted for duplicate)
+|  +- net.minidev:json-smart:jar:2.3:compile (version managed from 1.0.6.3)
+|  |  \- net.minidev:accessors-smart:jar:1.2:compile
+|  |     \- org.ow2.asm:asm:jar:5.2:compile (version managed from 5.0.4)
+|  \- commons-codec.wso2:commons-codec:jar:1.4.0.wso2v1:compile
+|     \- commons-codec:commons-codec:jar:1.4:compile
++- org.mockito:mockito-all:jar:1.10.19:test
+\- org.testng:testng:jar:6.9.10:test
+   +- com.beust:jcommander:jar:1.48:test
+   \- org.beanshell:bsh:jar:2.0b4:test

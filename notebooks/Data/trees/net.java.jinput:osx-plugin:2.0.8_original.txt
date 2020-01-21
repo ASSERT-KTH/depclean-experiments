@@ -1,0 +1,3 @@
+net.java.jinput:osx-plugin:jar:2.0.8
+\- net.java.jinput:coreapi:jar:2.0.8:compile
+   \- net.java.jutils:jutils:jar:1.0.0:compile

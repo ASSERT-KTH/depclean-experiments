@@ -1,0 +1,7 @@
+com.github.developframework:mock-text:jar:0.1
++- com.github.developframework:toolkit-base:jar:0.2:compile
+|  +- org.projectlombok:lombok:jar:1.16.20:compile
+|  +- org.slf4j:slf4j-api:jar:1.7.25:compile
+|  \- (org.apache.commons:commons-lang3:jar:3.7:compile - omitted for duplicate)
++- commons-io:commons-io:jar:2.5:compile
+\- org.apache.commons:commons-lang3:jar:3.7:compile

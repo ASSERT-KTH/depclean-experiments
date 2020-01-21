@@ -1,0 +1,6 @@
+org.apache.juneau:juneau-rest-client:bundle:7.1.0
++- org.apache.juneau:juneau-marshall:jar:7.1.0:compile
+\- org.apache.httpcomponents:httpclient:jar:4.5.4:compile
+   +- org.apache.httpcomponents:httpcore:jar:4.4.7:compile
+   +- commons-logging:commons-logging:jar:1.2:compile
+   \- commons-codec:commons-codec:jar:1.10:compile

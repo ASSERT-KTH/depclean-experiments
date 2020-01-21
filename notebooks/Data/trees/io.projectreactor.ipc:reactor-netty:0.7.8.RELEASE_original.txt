@@ -1,0 +1,32 @@
+io.projectreactor.ipc:reactor-netty:jar:0.7.8.RELEASE
++- io.netty:netty-codec-http:jar:4.1.25.Final:compile
+|  \- io.netty:netty-codec:jar:4.1.25.Final:compile
+|     \- (io.netty:netty-transport:jar:4.1.25.Final:compile - omitted for duplicate)
++- io.netty:netty-handler:jar:4.1.25.Final:compile
+|  +- io.netty:netty-buffer:jar:4.1.25.Final:compile
+|  |  \- (io.netty:netty-common:jar:4.1.25.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-transport:jar:4.1.25.Final:compile
+|  |  +- (io.netty:netty-buffer:jar:4.1.25.Final:compile - omitted for duplicate)
+|  |  \- io.netty:netty-resolver:jar:4.1.25.Final:compile
+|  |     \- (io.netty:netty-common:jar:4.1.25.Final:compile - omitted for duplicate)
+|  \- (io.netty:netty-codec:jar:4.1.25.Final:compile - omitted for duplicate)
++- io.netty:netty-handler-proxy:jar:4.1.25.Final:compile
+|  +- (io.netty:netty-transport:jar:4.1.25.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-codec-socks:jar:4.1.25.Final:compile
+|  |  \- (io.netty:netty-codec:jar:4.1.25.Final:compile - omitted for duplicate)
+|  \- (io.netty:netty-codec-http:jar:4.1.25.Final:compile - omitted for duplicate)
++- io.netty:netty-transport-native-epoll:jar:linux-x86_64:4.1.25.Final:compile
+|  +- io.netty:netty-common:jar:4.1.25.Final:compile
+|  +- (io.netty:netty-buffer:jar:4.1.25.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-transport-native-unix-common:jar:4.1.25.Final:compile
+|  |  +- (io.netty:netty-common:jar:4.1.25.Final:compile - omitted for duplicate)
+|  |  \- (io.netty:netty-transport:jar:4.1.25.Final:compile - omitted for duplicate)
+|  \- (io.netty:netty-transport:jar:4.1.25.Final:compile - omitted for duplicate)
++- io.netty:netty-transport-native-kqueue:jar:4.1.25.Final:compile
+|  +- (io.netty:netty-common:jar:4.1.25.Final:compile - omitted for duplicate)
+|  +- (io.netty:netty-buffer:jar:4.1.25.Final:compile - omitted for duplicate)
+|  +- (io.netty:netty-transport-native-unix-common:jar:4.1.25.Final:compile - omitted for duplicate)
+|  \- (io.netty:netty-transport:jar:4.1.25.Final:compile - omitted for duplicate)
++- io.projectreactor:reactor-core:jar:3.1.8.RELEASE:compile
+|  \- org.reactivestreams:reactive-streams:jar:1.0.2:compile
+\- org.slf4j:slf4j-api:jar:1.7.12:compile

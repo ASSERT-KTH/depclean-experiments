@@ -1,0 +1,6 @@
+org.apache.tomcat:tomcat-util-scan:jar:9.0.6
++- org.apache.tomcat:tomcat-util:jar:9.0.6:compile
+|  \- (org.apache.tomcat:tomcat-juli:jar:9.0.6:compile - omitted for duplicate)
++- org.apache.tomcat:tomcat-juli:jar:9.0.6:compile
+\- org.apache.tomcat:tomcat-api:jar:9.0.6:compile
+   \- org.apache.tomcat:tomcat-servlet-api:jar:9.0.6:compile

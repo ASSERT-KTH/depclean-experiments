@@ -1,0 +1,71 @@
+org.jasig.portal:uPortal-core:jar:5.2.2
++- com.googlecode.ehcache-spring-annotations:ehcache-spring-annotations:jar:1.2.0:compile
+|  +- aopalliance:aopalliance:jar:1.0:compile
+|  +- (org.slf4j:slf4j-api:jar:1.6.2:compile - omitted for conflict with 1.7.25)
+|  +- org.springframework:spring-aop:jar:3.0.6.RELEASE:compile
+|  |  +- (aopalliance:aopalliance:jar:1.0:compile - omitted for duplicate)
+|  |  +- org.springframework:spring-asm:jar:3.0.6.RELEASE:compile
+|  |  +- (org.springframework:spring-beans:jar:3.0.6.RELEASE:compile - omitted for duplicate)
+|  |  \- (org.springframework:spring-core:jar:3.0.6.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework:spring-beans:jar:3.0.6.RELEASE:compile
+|  |  \- (org.springframework:spring-core:jar:3.0.6.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-context:jar:3.0.6.RELEASE:compile - omitted for conflict with 4.3.18.RELEASE)
+|  +- org.springframework:spring-core:jar:3.0.6.RELEASE:compile
+|  |  \- (org.springframework:spring-asm:jar:3.0.6.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework:spring-expression:jar:3.0.6.RELEASE:compile
+|  |  \- (org.springframework:spring-core:jar:3.0.6.RELEASE:compile - omitted for duplicate)
+|  \- net.sf.ehcache:ehcache-core:jar:2.4.5:compile
+|     \- (org.slf4j:slf4j-api:jar:1.6.1:compile - omitted for conflict with 1.6.2)
++- commons-lang:commons-lang:jar:2.6:compile
++- joda-time:joda-time:jar:2.10:compile
++- org.apache.commons:commons-lang3:jar:3.7:compile
++- org.hibernate:hibernate-core:jar:4.2.21.Final:compile
+|  +- antlr:antlr:jar:2.7.7:compile
+|  +- org.jboss.logging:jboss-logging:jar:3.1.0.GA:compile
+|  +- dom4j:dom4j:jar:1.6.1:compile
+|  +- org.javassist:javassist:jar:3.18.1-GA:compile
+|  +- org.jboss.spec.javax.transaction:jboss-transaction-api_1.1_spec:jar:1.0.1.Final:compile
+|  +- org.hibernate.javax.persistence:hibernate-jpa-2.0-api:jar:1.0.1.Final:compile
+|  \- org.hibernate.common:hibernate-commons-annotations:jar:4.0.2.Final:compile
+|     \- (org.jboss.logging:jboss-logging:jar:3.1.0.CR2:compile - omitted for conflict with 3.1.0.GA)
++- org.jadira.usertype:usertype.core:jar:3.1.0.GA:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.6:compile - omitted for conflict with 1.6.2)
+|  \- (org.jadira.usertype:usertype.spi:jar:3.1.0.GA:compile - omitted for duplicate)
++- org.jadira.usertype:usertype.spi:jar:3.1.0.GA:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.6:compile - omitted for conflict with 1.6.2)
++- org.slf4j:log4j-over-slf4j:jar:1.7.25:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for conflict with 1.6.2)
++- org.slf4j:jcl-over-slf4j:jar:1.7.25:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for conflict with 1.6.2)
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- org.springframework:spring-context:jar:4.3.18.RELEASE:compile
+|  +- (org.springframework:spring-aop:jar:4.3.18.RELEASE:compile - omitted for conflict with 3.0.6.RELEASE)
+|  +- (org.springframework:spring-beans:jar:4.3.18.RELEASE:compile - omitted for conflict with 3.0.6.RELEASE)
+|  +- (org.springframework:spring-core:jar:4.3.18.RELEASE:compile - omitted for conflict with 3.0.6.RELEASE)
+|  \- (org.springframework:spring-expression:jar:4.3.18.RELEASE:compile - omitted for conflict with 3.0.6.RELEASE)
++- org.springframework:spring-jdbc:jar:4.3.18.RELEASE:compile
+|  +- (org.springframework:spring-beans:jar:4.3.18.RELEASE:compile - omitted for conflict with 3.0.6.RELEASE)
+|  +- (org.springframework:spring-core:jar:4.3.18.RELEASE:compile - omitted for conflict with 3.0.6.RELEASE)
+|  \- org.springframework:spring-tx:jar:4.3.18.RELEASE:compile
+|     +- (org.springframework:spring-beans:jar:4.3.18.RELEASE:compile - omitted for conflict with 3.0.6.RELEASE)
+|     \- (org.springframework:spring-core:jar:4.3.18.RELEASE:compile - omitted for conflict with 3.0.6.RELEASE)
++- org.springframework.security:spring-security-core:jar:4.2.7.RELEASE:compile
+|  +- (aopalliance:aopalliance:jar:1.0:compile - omitted for duplicate)
+|  +- (org.springframework:spring-aop:jar:4.3.18.RELEASE:compile - omitted for conflict with 3.0.6.RELEASE)
+|  +- (org.springframework:spring-beans:jar:4.3.18.RELEASE:compile - omitted for conflict with 3.0.6.RELEASE)
+|  +- (org.springframework:spring-context:jar:4.3.18.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-core:jar:4.3.18.RELEASE:compile - omitted for conflict with 3.0.6.RELEASE)
+|  \- (org.springframework:spring-expression:jar:4.3.18.RELEASE:compile - omitted for conflict with 3.0.6.RELEASE)
++- junit:junit:jar:4.12:test
++- org.easymock:easymock:jar:3.5.1:test
+|  \- org.objenesis:objenesis:jar:2.6:test
++- org.hamcrest:hamcrest-all:jar:1.3:test
++- org.mockito:mockito-core:jar:2.21.0:test
+|  +- net.bytebuddy:byte-buddy:jar:1.8.15:test
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.8.15:test
+|  \- (org.objenesis:objenesis:jar:2.6:test - omitted for duplicate)
++- org.springframework:spring-test:jar:4.3.18.RELEASE:test
+|  \- (org.springframework:spring-core:jar:4.3.18.RELEASE:test - omitted for conflict with 3.0.6.RELEASE)
+\- org.xmlunit:xmlunit-legacy:jar:2.6.0:test
+   +- org.xmlunit:xmlunit-core:jar:2.6.0:test
+   \- (junit:junit:jar:3.8.1:test - omitted for conflict with 4.12)

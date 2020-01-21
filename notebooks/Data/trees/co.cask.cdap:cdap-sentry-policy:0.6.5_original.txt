@@ -1,0 +1,37 @@
+co.cask.cdap:cdap-sentry-policy:jar:0.6.5
++- co.cask.cdap:cdap-sentry-model:jar:0.6.5:compile
+|  \- org.apache.sentry:sentry-core-common:jar:1.7.0:compile
+|     +- commons-lang:commons-lang:jar:2.6:compile
+|     +- commons-cli:commons-cli:jar:1.2:compile
+|     +- (com.google.guava:guava:jar:11.0.2:compile - omitted for duplicate)
+|     \- (org.apache.shiro:shiro-core:jar:1.2.3:compile - omitted for duplicate)
++- org.apache.sentry:sentry-policy-common:jar:1.7.0:compile
+|  +- (org.apache.sentry:sentry-core-common:jar:1.7.0:compile - omitted for duplicate)
+|  +- org.apache.shiro:shiro-core:jar:1.2.3:compile
+|  |  +- org.slf4j:slf4j-api:jar:1.7.5:compile (version managed from 1.6.4)
+|  |  \- commons-beanutils:commons-beanutils:jar:1.8.3:compile
+|  \- com.google.guava:guava:jar:11.0.2:compile
+|     \- com.google.code.findbugs:jsr305:jar:1.3.9:compile
++- org.apache.sentry:sentry-provider-common:jar:1.7.0:compile
+|  +- (org.apache.sentry:sentry-core-common:jar:1.7.0:compile - omitted for duplicate)
+|  +- (org.apache.sentry:sentry-policy-common:jar:1.7.0:compile - omitted for duplicate)
+|  \- (com.google.guava:guava:jar:11.0.2:compile - omitted for duplicate)
++- junit:junit:jar:4.11:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
+\- co.cask.cdap:cdap-proto:jar:4.3.4:test
+   \- co.cask.cdap:cdap-api:jar:4.3.4:test
+      +- co.cask.cdap:cdap-api-common:jar:4.3.4:test
+      |  +- (com.google.code.findbugs:jsr305:jar:2.0.1:test - omitted for conflict with 1.3.9)
+      |  \- (com.google.code.gson:gson:jar:2.2.4:test - omitted for duplicate)
+      +- (com.google.code.findbugs:jsr305:jar:2.0.1:test - omitted for conflict with 1.3.9)
+      +- com.google.code.gson:gson:jar:2.2.4:test
+      +- (org.slf4j:slf4j-api:jar:1.7.5:test - version managed from 1.6.4; omitted for duplicate)
+      +- org.apache.tephra:tephra-api:jar:0.13.0-incubating:test
+      +- org.apache.twill:twill-api:jar:0.12.1:test
+      |  +- org.apache.twill:twill-common:jar:0.12.1:test
+      |  |  +- (com.google.code.findbugs:jsr305:jar:2.0.1:test - omitted for conflict with 1.3.9)
+      |  |  \- (org.slf4j:slf4j-api:jar:1.7.5:test - version managed from 1.6.4; omitted for duplicate)
+      |  +- org.apache.twill:twill-discovery-api:jar:0.12.1:test
+      |  |  \- (org.apache.twill:twill-common:jar:0.12.1:test - omitted for duplicate)
+      |  \- (com.google.code.findbugs:jsr305:jar:2.0.1:test - omitted for conflict with 1.3.9)
+      \- javax.ws.rs:javax.ws.rs-api:jar:2.0:test

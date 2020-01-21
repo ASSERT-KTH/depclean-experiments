@@ -1,0 +1,3 @@
+org.webjars.bower:datatables.net-keytable:jar:2.4.1
+\- org.webjars.bower:datatables.net:jar:1.10.19:compile
+   \- (org.webjars.bower:jquery:jar:3.4.1:compile - omitted for duplicate)

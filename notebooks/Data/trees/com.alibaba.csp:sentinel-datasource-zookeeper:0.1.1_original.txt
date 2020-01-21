@@ -1,0 +1,24 @@
+com.alibaba.csp:sentinel-datasource-zookeeper:jar:0.1.1
++- com.alibaba.csp:sentinel-datasource-extension:jar:0.1.1:compile
+|  \- com.alibaba.csp:sentinel-core:jar:0.1.1:compile
++- org.apache.zookeeper:zookeeper:jar:3.4.13:compile
+|  +- org.slf4j:slf4j-api:jar:1.7.25:compile
+|  +- org.slf4j:slf4j-log4j12:jar:1.7.25:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  |  \- (log4j:log4j:jar:1.2.17:compile - omitted for duplicate)
+|  +- log4j:log4j:jar:1.2.17:compile
+|  +- jline:jline:jar:0.9.94:compile
+|  |  \- (junit:junit:jar:4.12:test - version managed from 3.8.1; scope managed from compile; omitted for duplicate)
+|  +- org.apache.yetus:audience-annotations:jar:0.5.0:compile
+|  \- io.netty:netty:jar:3.10.6.Final:compile
++- org.apache.curator:curator-recipes:jar:4.0.1:compile
+|  \- org.apache.curator:curator-framework:jar:4.0.1:compile
+|     \- org.apache.curator:curator-client:jar:4.0.1:compile
+|        +- com.google.guava:guava:jar:16.0.1:compile
+|        \- (org.slf4j:slf4j-api:jar:1.7.6:compile - omitted for conflict with 1.7.25)
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.apache.curator:curator-test:jar:2.12.0:test
+|  +- org.javassist:javassist:jar:3.18.1-GA:test
+|  \- (com.google.guava:guava:jar:16.0.1:compile - scope updated from test; omitted for duplicate)
+\- com.alibaba:fastjson:jar:1.2.47:test

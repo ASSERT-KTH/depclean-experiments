@@ -1,0 +1,30 @@
+com.sdl:odata_renderer:jar:2.6.0
++- com.sdl:odata_api:jar:2.6.0:compile
+|  +- org.scala-lang:scala-library:jar:2.12.2:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  \- (ch.qos.logback:logback-classic:jar:1.2.3:runtime - omitted for duplicate)
++- com.sdl:odata_parser:jar:2.6.0:compile
+|  +- org.scala-lang.modules:scala-parser-combinators_2.12:jar:1.0.6:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.12.2:compile - omitted for duplicate)
+|  +- (com.sdl:odata_api:jar:2.6.0:compile - omitted for duplicate)
+|  +- (org.springframework:spring-context:jar:4.3.16.RELEASE:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  \- (ch.qos.logback:logback-classic:jar:1.2.3:runtime - omitted for duplicate)
++- com.fasterxml.jackson.core:jackson-core:jar:2.9.4:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.9.4:compile
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.4:compile - omitted for duplicate)
++- org.springframework:spring-context:jar:4.3.16.RELEASE:compile
+|  +- org.springframework:spring-aop:jar:4.3.16.RELEASE:compile
+|  |  +- (org.springframework:spring-beans:jar:4.3.16.RELEASE:compile - omitted for duplicate)
+|  |  \- (org.springframework:spring-core:jar:4.3.16.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework:spring-beans:jar:4.3.16.RELEASE:compile
+|  |  \- (org.springframework:spring-core:jar:4.3.16.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework:spring-core:jar:4.3.16.RELEASE:compile
+|  |  \- commons-logging:commons-logging:jar:1.2:compile
+|  \- org.springframework:spring-expression:jar:4.3.16.RELEASE:compile
+|     \- (org.springframework:spring-core:jar:4.3.16.RELEASE:compile - omitted for duplicate)
++- org.slf4j:slf4j-api:jar:1.7.25:compile
+\- ch.qos.logback:logback-classic:jar:1.2.3:runtime
+   +- ch.qos.logback:logback-core:jar:1.2.3:runtime
+   \- (org.slf4j:slf4j-api:jar:1.7.25:runtime - omitted for duplicate)

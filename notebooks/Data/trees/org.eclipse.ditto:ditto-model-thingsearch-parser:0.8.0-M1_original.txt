@@ -1,0 +1,16 @@
+org.eclipse.ditto:ditto-model-thingsearch-parser:bundle:0.8.0-M1
++- org.eclipse.ditto:ditto-model-base:jar:0.8.0-M1:compile
+|  \- (org.eclipse.ditto:ditto-json:jar:0.8.0-M1:compile - omitted for duplicate)
++- org.eclipse.ditto:ditto-model-thingsearch:jar:0.8.0-M1:compile
+|  +- (org.eclipse.ditto:ditto-model-base:jar:0.8.0-M1:compile - omitted for duplicate)
+|  \- (org.eclipse.ditto:ditto-json:jar:0.8.0-M1:compile - omitted for duplicate)
++- org.parboiled:parboiled_2.12:jar:2.1.4:compile
+|  +- org.scala-lang:scala-library:jar:2.12.6:compile (version managed from 2.12.1)
+|  \- com.chuusai:shapeless_2.12:jar:2.3.2:compile
+|     +- (org.scala-lang:scala-library:jar:2.12.6:compile - version managed from 2.12.0; omitted for duplicate)
+|     \- org.typelevel:macro-compat_2.12:jar:1.1.1:compile
+|        \- (org.scala-lang:scala-library:jar:2.12.6:compile - version managed from 2.12.0; omitted for duplicate)
++- org.eclipse.ditto:ditto-json:jar:0.8.0-M1:compile
+|  \- com.eclipsesource.minimal-json:minimal-json:jar:0.9.5:compile
++- com.google.code.findbugs:jsr305:jar:3.0.1:provided
+\- org.eclipse.ditto:ditto-utils-jsr305:jar:0.8.0-M1:provided

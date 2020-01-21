@@ -1,0 +1,2 @@
+org.webjars.npm:interval-tree-1d:jar:1.0.3
+\- org.webjars.npm:binary-search-bounds:jar:1.0.0:compile

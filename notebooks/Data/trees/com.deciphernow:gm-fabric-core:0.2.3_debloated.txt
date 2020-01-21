@@ -1,0 +1,569 @@
+com.deciphernow:gm-fabric-core:jar:0.2.3
++- com.deciphernow:gm-fabric-jvm-config:jar:0.2.3:compile
+|  +- (com.twitter:finagle-core_2.11:jar:6.42.0:compile - omitted for duplicate)
+|  \- (com.twitter:finagle-serversets_2.11:jar:6.42.0:runtime - omitted for duplicate)
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- com.twitter:twitter-server_2.11:jar:1.27.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.8:compile - version managed from 2.11.4; omitted for duplicate)
+|  +- (com.twitter:finagle-core_2.11:jar:6.42.0:compile - omitted for duplicate)
+|  +- com.twitter:finagle-http_2.11:jar:6.42.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.8:compile - version managed from 2.11.6; omitted for duplicate)
+|  |  +- com.twitter:finagle-base-http_2.11:jar:6.42.0:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.8:compile - version managed from 2.11.6; omitted for duplicate)
+|  |  |  +- (com.twitter:finagle-core_2.11:jar:6.42.0:compile - omitted for duplicate)
+|  |  |  +- (com.twitter:util-collection_2.11:jar:6.41.0:compile - omitted for duplicate)
+|  |  |  +- (com.twitter:util-logging_2.11:jar:6.41.0:compile - omitted for duplicate)
+|  |  |  \- (commons-lang:commons-lang:jar:2.5:compile - omitted for conflict with 2.6)
+|  |  +- com.twitter:finagle-netty4-http_2.11:jar:6.42.0:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.8:compile - version managed from 2.11.6; omitted for duplicate)
+|  |  |  +- (com.twitter:finagle-netty4_2.11:jar:6.42.0:compile - omitted for duplicate)
+|  |  |  +- (com.twitter:finagle-base-http_2.11:jar:6.42.0:compile - omitted for duplicate)
+|  |  |  +- (com.twitter:util-app_2.11:jar:6.41.0:compile - omitted for duplicate)
+|  |  |  +- (com.twitter:util-codec_2.11:jar:6.41.0:compile - omitted for duplicate)
+|  |  |  +- (com.twitter:util-core_2.11:jar:6.41.0:compile - omitted for duplicate)
+|  |  |  +- (com.twitter:util-jvm_2.11:jar:6.41.0:compile - omitted for duplicate)
+|  |  |  +- (com.twitter:util-stats_2.11:jar:6.41.0:compile - omitted for duplicate)
+|  |  |  +- (commons-lang:commons-lang:jar:2.6:compile - omitted for conflict with 2.5)
+|  |  |  \- io.netty:netty-codec-http:jar:4.1.8.Final:compile
+|  |  |     \- io.netty:netty-codec:jar:4.1.8.Final:compile
+|  |  |        \- (io.netty:netty-transport:jar:4.1.8.Final:compile - omitted for duplicate)
+|  |  +- (com.twitter:finagle-toggle_2.11:jar:6.42.0:compile - omitted for duplicate)
+|  |  +- (com.twitter:util-codec_2.11:jar:6.41.0:compile - omitted for duplicate)
+|  |  +- com.twitter:util-collection_2.11:jar:6.41.0:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.8:compile - version managed from 2.11.6; omitted for duplicate)
+|  |  |  +- (com.twitter:util-core_2.11:jar:6.41.0:compile - omitted for duplicate)
+|  |  |  \- (com.google.guava:guava:jar:16.0.1:compile - omitted for duplicate)
+|  |  +- (com.twitter:util-logging_2.11:jar:6.41.0:compile - omitted for duplicate)
+|  |  +- commons-lang:commons-lang:jar:2.6:compile
+|  |  \- (com.google.guava:guava:jar:16.0.1:compile - omitted for duplicate)
+|  +- com.twitter:finagle-toggle_2.11:jar:6.42.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.8:compile - version managed from 2.11.6; omitted for duplicate)
+|  |  +- (com.twitter:util-app_2.11:jar:6.41.0:compile - omitted for duplicate)
+|  |  +- (com.twitter:util-core_2.11:jar:6.41.0:compile - omitted for duplicate)
+|  |  +- (com.twitter:util-logging_2.11:jar:6.41.0:compile - omitted for duplicate)
+|  |  +- (com.twitter:util-registry_2.11:jar:6.41.0:compile - omitted for duplicate)
+|  |  +- (com.twitter:util-stats_2.11:jar:6.41.0:compile - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.4:compile - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.4:compile - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.module:jackson-module-scala_2.11:jar:2.8.4:compile - omitted for duplicate)
+|  |  \- (com.google.guava:guava:jar:16.0.1:compile - omitted for duplicate)
+|  +- com.twitter:finagle-zipkin-core_2.11:jar:6.42.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.8:compile - version managed from 2.11.6; omitted for duplicate)
+|  |  +- (com.twitter:finagle-core_2.11:jar:6.42.0:compile - omitted for duplicate)
+|  |  +- (com.twitter:finagle-thrift_2.11:jar:6.42.0:compile - omitted for duplicate)
+|  |  +- (com.twitter:util-codec_2.11:jar:6.41.0:compile - omitted for duplicate)
+|  |  +- (com.twitter:util-events_2.11:jar:6.41.0:compile - omitted for duplicate)
+|  |  +- (com.twitter:util-core_2.11:jar:6.41.0:compile - omitted for duplicate)
+|  |  +- (com.twitter:util-stats_2.11:jar:6.41.0:compile - omitted for duplicate)
+|  |  +- com.twitter:libthrift:jar:0.5.0-7:compile
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.9:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  |  +- (commons-lang:commons-lang:jar:2.5:compile - omitted for conflict with 2.6)
+|  |  |  \- (javax.servlet:servlet-api:jar:2.5:compile - omitted for duplicate)
+|  |  +- com.twitter:scrooge-core_2.11:jar:4.14.0:compile
+|  |  |  \- (org.scala-lang:scala-library:jar:2.11.8:compile - version managed from 2.11.6; omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.4:compile - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.4:compile - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.module:jackson-module-scala_2.11:jar:2.8.4:compile - omitted for duplicate)
+|  |  \- (com.google.guava:guava:jar:16.0.1:compile - omitted for duplicate)
+|  +- com.twitter:util-app_2.11:jar:6.41.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.8:compile - version managed from 2.11.6; omitted for duplicate)
+|  |  +- (com.twitter:util-core_2.11:jar:6.41.0:compile - omitted for duplicate)
+|  |  +- (com.twitter:util-registry_2.11:jar:6.41.0:compile - omitted for duplicate)
+|  |  \- (com.google.guava:guava:jar:16.0.1:compile - omitted for duplicate)
+|  +- com.twitter:util-core_2.11:jar:6.41.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.8:compile - version managed from 2.11.6; omitted for duplicate)
+|  |  +- com.twitter:util-function_2.11:jar:6.41.0:compile
+|  |  |  \- (org.scala-lang:scala-library:jar:2.11.8:compile - version managed from 2.11.6; omitted for duplicate)
+|  |  +- (org.scala-lang:scala-reflect:jar:2.11.8:compile - omitted for duplicate)
+|  |  \- (org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.0.4:compile - omitted for duplicate)
+|  +- com.twitter:util-events_2.11:jar:6.41.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.8:compile - version managed from 2.11.6; omitted for duplicate)
+|  |  \- (com.twitter:util-app_2.11:jar:6.41.0:compile - omitted for duplicate)
+|  +- com.twitter:util-jvm_2.11:jar:6.41.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.8:compile - version managed from 2.11.6; omitted for duplicate)
+|  |  +- (com.twitter:util-app_2.11:jar:6.41.0:compile - omitted for duplicate)
+|  |  \- (com.twitter:util-core_2.11:jar:6.41.0:compile - omitted for duplicate)
+|  +- com.twitter:util-lint_2.11:jar:6.41.0:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.11.8:compile - version managed from 2.11.6; omitted for duplicate)
+|  +- (com.twitter:util-logging_2.11:jar:6.41.0:compile - omitted for duplicate)
+|  +- com.twitter:util-registry_2.11:jar:6.41.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.8:compile - version managed from 2.11.6; omitted for duplicate)
+|  |  \- (com.twitter:util-core_2.11:jar:6.41.0:compile - omitted for duplicate)
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.8.4:compile
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.8.4:compile
+|  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile
+|  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.8.4:compile - omitted for duplicate)
+|  +- com.fasterxml.jackson.module:jackson-module-scala_2.11:jar:2.8.4:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.8:compile - version managed from 2.11.6; omitted for duplicate)
+|  |  +- (org.scala-lang:scala-reflect:jar:2.11.8:compile - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.4:compile - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.4:compile - omitted for conflict with 2.8.0)
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.4:compile - omitted for duplicate)
+|  |  \- com.fasterxml.jackson.module:jackson-module-paranamer:jar:2.8.4:compile
+|  |     +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.4:compile - omitted for duplicate)
+|  |     \- com.thoughtworks.paranamer:paranamer:jar:2.8:compile
+|  \- com.google.guava:guava:jar:16.0.1:compile
++- com.twitter:finagle-core_2.11:jar:6.42.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.8:compile - version managed from 2.11.6; omitted for duplicate)
+|  +- (com.twitter:finagle-toggle_2.11:jar:6.42.0:compile - omitted for duplicate)
+|  +- (com.twitter:util-app_2.11:jar:6.41.0:compile - omitted for duplicate)
+|  +- com.twitter:util-cache_2.11:jar:6.41.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.8:compile - version managed from 2.11.6; omitted for duplicate)
+|  |  +- (com.twitter:util-core_2.11:jar:6.41.0:compile - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:16.0.1:compile - omitted for duplicate)
+|  |  +- (com.github.ben-manes.caffeine:caffeine:jar:2.3.4:compile - omitted for duplicate)
+|  |  \- (com.google.code.findbugs:jsr305:jar:2.0.1:compile - omitted for duplicate)
+|  +- com.twitter:util-codec_2.11:jar:6.41.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.8:compile - version managed from 2.11.6; omitted for duplicate)
+|  |  \- (com.twitter:util-core_2.11:jar:6.41.0:compile - omitted for duplicate)
+|  +- (com.twitter:util-core_2.11:jar:6.41.0:compile - omitted for duplicate)
+|  +- com.twitter:util-hashing_2.11:jar:6.41.0:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.11.8:compile - version managed from 2.11.6; omitted for duplicate)
+|  +- (com.twitter:util-jvm_2.11:jar:6.41.0:compile - omitted for duplicate)
+|  +- (com.twitter:util-lint_2.11:jar:6.41.0:compile - omitted for duplicate)
+|  +- (com.twitter:util-logging_2.11:jar:6.41.0:compile - omitted for duplicate)
+|  +- (com.twitter:util-registry_2.11:jar:6.41.0:compile - omitted for duplicate)
+|  +- com.twitter:util-security_2.11:jar:6.41.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.8:compile - version managed from 2.11.6; omitted for duplicate)
+|  |  +- (com.twitter:util-core_2.11:jar:6.41.0:compile - omitted for duplicate)
+|  |  \- (com.twitter:util-logging_2.11:jar:6.41.0:compile - omitted for duplicate)
+|  +- com.twitter:util-stats_2.11:jar:6.41.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.8:compile - version managed from 2.11.6; omitted for duplicate)
+|  |  +- (com.twitter:util-core_2.11:jar:6.41.0:compile - omitted for duplicate)
+|  |  +- (com.twitter:util-lint_2.11:jar:6.41.0:compile - omitted for duplicate)
+|  |  +- (com.github.ben-manes.caffeine:caffeine:jar:2.3.4:compile - omitted for duplicate)
+|  |  \- (com.google.code.findbugs:jsr305:jar:2.0.1:compile - omitted for duplicate)
+|  +- com.github.ben-manes.caffeine:caffeine:jar:2.3.4:compile
+|  +- com.google.code.findbugs:jsr305:jar:2.0.1:compile
+|  \- io.netty:netty:jar:3.10.1.Final:compile
++- com.twitter:finagle-serversets_2.11:jar:6.42.0:runtime
+|  +- (org.scala-lang:scala-library:jar:2.11.8:runtime - version managed from 2.11.6; omitted for duplicate)
+|  +- (com.twitter:finagle-core_2.11:jar:6.42.0:runtime - omitted for duplicate)
+|  +- (com.github.ben-manes.caffeine:caffeine:jar:2.3.4:runtime - omitted for duplicate)
+|  +- (com.twitter:util-cache_2.11:jar:6.41.0:runtime - omitted for duplicate)
+|  +- com.twitter:util-zk-common_2.11:jar:6.41.0:runtime
+|  |  +- (org.scala-lang:scala-library:jar:2.11.8:runtime - version managed from 2.11.6; omitted for duplicate)
+|  |  +- (com.twitter:util-core_2.11:jar:6.41.0:runtime - omitted for duplicate)
+|  |  +- (com.twitter:util-logging_2.11:jar:6.41.0:runtime - omitted for duplicate)
+|  |  +- com.twitter:util-zk_2.11:jar:6.41.0:runtime
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.8:runtime - version managed from 2.11.6; omitted for duplicate)
+|  |  |  +- (com.twitter:util-core_2.11:jar:6.41.0:runtime - omitted for duplicate)
+|  |  |  +- (com.twitter:util-collection_2.11:jar:6.41.0:runtime - omitted for duplicate)
+|  |  |  +- (com.twitter:util-logging_2.11:jar:6.41.0:runtime - omitted for duplicate)
+|  |  |  \- (org.apache.zookeeper:zookeeper:jar:3.5.0-alpha:runtime - omitted for duplicate)
+|  |  +- (com.twitter:util-collection_2.11:jar:6.41.0:runtime - omitted for duplicate)
+|  |  +- (com.twitter:util-hashing_2.11:jar:6.41.0:runtime - omitted for duplicate)
+|  |  +- com.twitter.common.zookeeper:client:jar:0.0.80:runtime
+|  |  |  +- (com.twitter.common:base:jar:0.0.115:runtime - omitted for duplicate)
+|  |  |  +- com.twitter.common:net-util:jar:0.0.102:runtime
+|  |  |  |  +- (com.twitter.common:collections:jar:0.0.110:runtime - omitted for duplicate)
+|  |  |  |  +- (commons-codec:commons-codec:jar:1.9:runtime - omitted for duplicate)
+|  |  |  |  +- (commons-lang:commons-lang:jar:2.6:runtime - omitted for duplicate)
+|  |  |  |  +- (com.google.guava:guava:jar:16.0.1:runtime - omitted for duplicate)
+|  |  |  |  \- (com.google.code.findbugs:jsr305:jar:2.0.1:runtime - omitted for duplicate)
+|  |  |  +- (com.twitter.common:quantity:jar:0.0.99:compile - scope updated from runtime; omitted for duplicate)
+|  |  |  +- (com.google.guava:guava:jar:16.0.1:runtime - omitted for duplicate)
+|  |  |  +- (com.google.code.findbugs:jsr305:jar:2.0.1:runtime - omitted for duplicate)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.6.5:runtime - omitted for conflict with 2.8.4)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.6.5:runtime - omitted for conflict with 2.8.4)
+|  |  |  +- (com.github.ben-manes.caffeine:caffeine:jar:2.3.0:runtime - omitted for conflict with 2.3.4)
+|  |  |  +- (io.netty:netty:jar:3.10.1.Final:runtime - omitted for duplicate)
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.8:runtime - version managed from 2.11.6; omitted for duplicate)
+|  |  |  +- (org.scala-lang:scala-reflect:jar:2.11.8:runtime - omitted for duplicate)
+|  |  |  +- (commons-lang:commons-lang:jar:2.6:runtime - omitted for duplicate)
+|  |  |  \- (commons-codec:commons-codec:jar:1.9:runtime - omitted for duplicate)
+|  |  +- com.twitter.common.zookeeper:group:jar:0.0.91:runtime
+|  |  |  +- (com.twitter.common.zookeeper:client:jar:0.0.80:runtime - omitted for duplicate)
+|  |  |  +- (com.twitter.common:base:jar:0.0.115:runtime - omitted for duplicate)
+|  |  |  +- (com.twitter.common:util:jar:0.0.121:runtime - omitted for duplicate)
+|  |  |  +- (com.google.guava:guava:jar:16.0.1:runtime - omitted for duplicate)
+|  |  |  +- (com.google.code.findbugs:jsr305:jar:2.0.1:runtime - omitted for duplicate)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.6.5:runtime - omitted for conflict with 2.8.4)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.6.5:runtime - omitted for conflict with 2.8.4)
+|  |  |  +- (com.github.ben-manes.caffeine:caffeine:jar:2.3.0:runtime - omitted for conflict with 2.3.4)
+|  |  |  +- (io.netty:netty:jar:3.10.1.Final:runtime - omitted for duplicate)
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.8:runtime - version managed from 2.11.6; omitted for duplicate)
+|  |  |  +- (org.scala-lang:scala-reflect:jar:2.11.8:runtime - omitted for duplicate)
+|  |  |  +- (commons-lang:commons-lang:jar:2.6:runtime - omitted for duplicate)
+|  |  |  +- (commons-codec:commons-codec:jar:1.9:runtime - omitted for duplicate)
+|  |  |  \- (com.google.inject:guice:jar:4.0:runtime - omitted for duplicate)
+|  |  +- (com.twitter.common.zookeeper:server-set:jar:1.0.111:runtime - omitted for duplicate)
+|  |  \- org.apache.zookeeper:zookeeper:jar:3.5.0-alpha:runtime
+|  |     +- (org.slf4j:slf4j-api:jar:1.7.9:runtime - version managed from 1.7.5; omitted for duplicate)
+|  |     +- org.slf4j:slf4j-log4j12:jar:1.7.5:runtime
+|  |     |  +- (org.slf4j:slf4j-api:jar:1.7.9:runtime - version managed from 1.7.5; omitted for duplicate)
+|  |     |  \- (log4j:log4j:jar:1.2.15:runtime - version managed from 1.2.16; omitted for duplicate)
+|  |     +- commons-cli:commons-cli:jar:1.2:runtime
+|  |     +- log4j:log4j:jar:1.2.15:runtime
+|  |     |  \- javax.mail:mail:jar:1.4:runtime
+|  |     |     \- javax.activation:activation:jar:1.1:runtime
+|  |     +- (io.netty:netty:jar:3.7.0.Final:runtime - omitted for conflict with 3.10.1.Final)
+|  |     \- net.java.dev.javacc:javacc:jar:5.0:runtime
+|  +- (com.twitter:libthrift:jar:0.5.0-7:compile - scope updated from runtime; omitted for duplicate)
+|  +- com.twitter.common:io-json:jar:0.0.54:runtime
+|  |  +- com.twitter.common:io:jar:0.0.68:runtime
+|  |  |  +- (com.twitter.common:base:jar:0.0.115:runtime - omitted for duplicate)
+|  |  |  +- (commons-io:commons-io:jar:2.4:runtime - omitted for duplicate)
+|  |  |  +- (commons-lang:commons-lang:jar:2.6:runtime - omitted for duplicate)
+|  |  |  +- (com.google.guava:guava:jar:16.0.1:runtime - omitted for duplicate)
+|  |  |  \- (com.google.code.findbugs:jsr305:jar:2.0.1:runtime - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:16.0.1:runtime - omitted for duplicate)
+|  |  +- (com.google.code.findbugs:jsr305:jar:2.0.1:runtime - omitted for duplicate)
+|  |  +- com.google.code.gson:gson:jar:2.3.1:runtime
+|  |  +- (commons-io:commons-io:jar:2.4:compile - scope updated from runtime; omitted for duplicate)
+|  |  \- (commons-lang:commons-lang:jar:2.6:runtime - omitted for duplicate)
+|  +- com.twitter.common.zookeeper:server-set:jar:1.0.111:runtime
+|  |  +- (com.twitter.common.zookeeper:client:jar:0.0.80:runtime - omitted for duplicate)
+|  |  +- (com.twitter.common.zookeeper:group:jar:0.0.91:runtime - omitted for duplicate)
+|  |  +- com.twitter.common:args:jar:0.2.41:runtime
+|  |  |  +- (com.twitter.common:args-core:jar:0.1.37:runtime - omitted for duplicate)
+|  |  |  +- (com.twitter.common:base:jar:0.0.115:runtime - omitted for duplicate)
+|  |  |  +- (com.twitter.common:net-util:jar:0.0.102:runtime - omitted for duplicate)
+|  |  |  +- (com.twitter.common:quantity:jar:0.0.99:runtime - omitted for duplicate)
+|  |  |  +- (com.twitter.common:collections:jar:0.0.110:compile - scope updated from runtime; omitted for duplicate)
+|  |  |  +- (com.google.code.findbugs:jsr305:jar:2.0.1:runtime - omitted for duplicate)
+|  |  |  +- (com.google.guava:guava:jar:16.0.1:runtime - omitted for duplicate)
+|  |  |  +- (commons-lang:commons-lang:jar:2.6:runtime - omitted for duplicate)
+|  |  |  \- (commons-codec:commons-codec:jar:1.9:runtime - omitted for duplicate)
+|  |  +- (com.twitter.common:base:jar:0.0.115:compile - scope updated from runtime; omitted for duplicate)
+|  |  +- (com.twitter.common:io:jar:0.0.68:runtime - omitted for duplicate)
+|  |  +- com.twitter.common:io-thrift:jar:0.0.67:runtime
+|  |  |  +- (com.twitter.common:io:jar:0.0.68:runtime - omitted for duplicate)
+|  |  |  +- (com.twitter.common:base:jar:0.0.115:runtime - omitted for duplicate)
+|  |  |  +- (com.google.guava:guava:jar:16.0.1:runtime - omitted for duplicate)
+|  |  |  +- (com.google.code.findbugs:jsr305:jar:2.0.1:runtime - omitted for duplicate)
+|  |  |  +- (commons-io:commons-io:jar:2.4:runtime - omitted for duplicate)
+|  |  |  \- (commons-lang:commons-lang:jar:2.6:runtime - omitted for duplicate)
+|  |  +- com.twitter.common:dynamic-host-set:jar:0.0.56:runtime
+|  |  |  +- (com.twitter.common:base:jar:0.0.115:runtime - omitted for duplicate)
+|  |  |  +- (com.google.guava:guava:jar:16.0.1:runtime - omitted for duplicate)
+|  |  |  +- (com.google.code.findbugs:jsr305:jar:2.0.1:runtime - omitted for duplicate)
+|  |  |  \- (commons-lang:commons-lang:jar:2.6:runtime - omitted for duplicate)
+|  |  +- com.twitter.common:util:jar:0.0.121:runtime
+|  |  |  +- (com.twitter.common:util-executor-service-shutdown:jar:0.0.67:compile - scope updated from runtime; omitted for duplicate)
+|  |  |  +- (com.twitter.common:util-system-mocks:jar:0.0.104:runtime - omitted for duplicate)
+|  |  |  +- com.twitter.common:jdk-logging:jar:0.0.82:runtime
+|  |  |  |  +- (com.google.guava:guava:jar:16.0.1:runtime - omitted for duplicate)
+|  |  |  |  \- (com.google.code.findbugs:jsr305:jar:2.0.1:runtime - omitted for duplicate)
+|  |  |  +- (com.twitter.common:base:jar:0.0.115:runtime - omitted for duplicate)
+|  |  |  +- (com.twitter.common:collections:jar:0.0.110:runtime - omitted for duplicate)
+|  |  |  +- (com.twitter.common:quantity:jar:0.0.99:runtime - omitted for duplicate)
+|  |  |  +- com.twitter.common:stats:jar:0.0.115:runtime
+|  |  |  |  +- com.twitter.common:stat:jar:0.0.74:runtime
+|  |  |  |  +- com.twitter.common:stats-registry:jar:0.0.1:runtime
+|  |  |  |  |  \- (com.twitter.common:stat:jar:0.0.74:runtime - omitted for duplicate)
+|  |  |  |  +- (com.twitter.common:stats-provider:jar:0.0.93:runtime - omitted for duplicate)
+|  |  |  |  +- com.twitter.common:application-action:jar:0.0.90:runtime
+|  |  |  |  |  +- (com.twitter.common:base:jar:0.0.115:runtime - omitted for duplicate)
+|  |  |  |  |  +- (com.google.guava:guava:jar:16.0.1:runtime - omitted for duplicate)
+|  |  |  |  |  +- (com.google.code.findbugs:jsr305:jar:2.0.1:runtime - omitted for duplicate)
+|  |  |  |  |  +- (com.google.inject:guice:jar:4.0:runtime - omitted for duplicate)
+|  |  |  |  |  \- (commons-lang:commons-lang:jar:2.6:runtime - omitted for duplicate)
+|  |  |  |  +- (com.twitter.common:base:jar:0.0.115:runtime - omitted for duplicate)
+|  |  |  |  +- (com.twitter.common:collections:jar:0.0.110:runtime - omitted for duplicate)
+|  |  |  |  +- (com.twitter.common:quantity:jar:0.0.99:runtime - omitted for duplicate)
+|  |  |  |  +- com.twitter.common:util-sampler:jar:0.0.78:runtime
+|  |  |  |  |  +- (com.twitter.common:util-system-mocks:jar:0.0.104:runtime - omitted for duplicate)
+|  |  |  |  |  +- (com.google.guava:guava:jar:16.0.1:runtime - omitted for duplicate)
+|  |  |  |  |  +- (com.google.code.findbugs:jsr305:jar:2.0.1:runtime - omitted for duplicate)
+|  |  |  |  |  \- (commons-lang:commons-lang:jar:2.6:runtime - omitted for duplicate)
+|  |  |  |  +- (com.twitter.common:util-system-mocks:jar:0.0.104:runtime - omitted for duplicate)
+|  |  |  |  +- (com.google.guava:guava:jar:16.0.1:runtime - omitted for duplicate)
+|  |  |  |  +- (com.google.code.findbugs:jsr305:jar:2.0.1:runtime - omitted for duplicate)
+|  |  |  |  +- (com.google.inject:guice:jar:4.0:runtime - omitted for duplicate)
+|  |  |  |  \- (commons-lang:commons-lang:jar:2.6:runtime - omitted for duplicate)
+|  |  |  +- com.twitter.common:stats-provider:jar:0.0.93:runtime
+|  |  |  |  +- (com.twitter.common:stat:jar:0.0.74:runtime - omitted for duplicate)
+|  |  |  |  +- (com.google.guava:guava:jar:16.0.1:runtime - omitted for duplicate)
+|  |  |  |  \- (com.google.code.findbugs:jsr305:jar:2.0.1:runtime - omitted for duplicate)
+|  |  |  +- (com.google.guava:guava:jar:16.0.1:runtime - omitted for duplicate)
+|  |  |  +- (com.google.code.findbugs:jsr305:jar:2.0.1:runtime - omitted for duplicate)
+|  |  |  +- (commons-lang:commons-lang:jar:2.6:runtime - omitted for duplicate)
+|  |  |  \- (com.google.inject:guice:jar:4.0:runtime - omitted for duplicate)
+|  |  +- com.twitter.common:args-core:jar:0.1.37:runtime
+|  |  |  +- (com.google.code.findbugs:jsr305:jar:2.0.1:runtime - omitted for duplicate)
+|  |  |  +- (com.google.guava:guava:jar:16.0.1:runtime - omitted for duplicate)
+|  |  |  \- (commons-lang:commons-lang:jar:2.6:runtime - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:16.0.1:runtime - omitted for duplicate)
+|  |  +- (com.google.code.findbugs:jsr305:jar:2.0.1:runtime - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.6.5:runtime - omitted for conflict with 2.8.4)
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.6.5:runtime - omitted for conflict with 2.8.4)
+|  |  +- (com.github.ben-manes.caffeine:caffeine:jar:2.3.0:runtime - omitted for conflict with 2.3.4)
+|  |  +- (io.netty:netty:jar:3.10.1.Final:runtime - omitted for duplicate)
+|  |  +- (org.scala-lang:scala-library:jar:2.11.8:runtime - version managed from 2.11.6; omitted for duplicate)
+|  |  +- (org.scala-lang:scala-reflect:jar:2.11.8:runtime - omitted for duplicate)
+|  |  +- (commons-lang:commons-lang:jar:2.6:runtime - omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.9:runtime - omitted for conflict with 1.6)
+|  |  +- (com.google.inject:guice:jar:4.0:compile - scope updated from runtime; omitted for duplicate)
+|  |  +- (com.google.code.gson:gson:jar:2.3.1:runtime - omitted for duplicate)
+|  |  \- (commons-io:commons-io:jar:2.4:runtime - omitted for duplicate)
+|  +- com.twitter.common:service-thrift:jar:1.0.55:runtime
+|  +- (com.google.guava:guava:jar:16.0.1:runtime - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.4:runtime - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.4:runtime - omitted for duplicate)
+|  \- (com.fasterxml.jackson.module:jackson-module-scala_2.11:jar:2.8.4:runtime - omitted for duplicate)
++- com.twitter:util-logging_2.11:jar:6.41.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.8:compile - version managed from 2.11.6; omitted for duplicate)
+|  +- (com.twitter:util-core_2.11:jar:6.41.0:compile - omitted for duplicate)
+|  +- (com.twitter:util-app_2.11:jar:6.41.0:compile - omitted for duplicate)
+|  \- (com.twitter:util-stats_2.11:jar:6.41.0:compile - omitted for duplicate)
++- com.twitter:finatra-http_2.11:jar:2.8.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.8:compile - version managed from 2.11.6; omitted for duplicate)
+|  +- com.twitter:finatra-jackson_2.11:jar:2.8.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.8:compile - version managed from 2.11.6; omitted for duplicate)
+|  |  +- com.twitter:inject-utils_2.11:jar:2.8.0:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.8:compile - version managed from 2.11.6; omitted for duplicate)
+|  |  |  +- (com.twitter:inject-core_2.11:jar:2.8.0:compile - omitted for duplicate)
+|  |  |  +- (com.twitter:finagle-core_2.11:jar:6.42.0:compile - omitted for duplicate)
+|  |  |  +- (com.twitter:finagle-mux_2.11:jar:6.42.0:compile - omitted for duplicate)
+|  |  |  +- (com.twitter:util-core_2.11:jar:6.41.0:compile - omitted for duplicate)
+|  |  |  \- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.4:compile - omitted for duplicate)
+|  |  +- com.fasterxml.jackson.datatype:jackson-datatype-joda:jar:2.8.4:compile
+|  |  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile - omitted for duplicate)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.4:compile - omitted for duplicate)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.4:compile - omitted for duplicate)
+|  |  |  \- (joda-time:joda-time:jar:2.7:compile - omitted for conflict with 2.5)
+|  |  +- (com.fasterxml.jackson.module:jackson-module-scala_2.11:jar:2.8.4:compile - omitted for duplicate)
+|  |  +- org.scala-lang:scalap:jar:2.11.8:compile
+|  |  +- (com.twitter:finagle-http_2.11:jar:6.42.0:compile - omitted for duplicate)
+|  |  +- (com.twitter:util-core_2.11:jar:6.41.0:compile - omitted for duplicate)
+|  |  \- com.twitter.finatra:finatra-scalap-compiler-deps_2.11:jar:2.0.0:compile
+|  |     +- (org.scala-lang:scala-library:jar:2.11.8:compile - version managed from 2.11.7; omitted for duplicate)
+|  |     \- (org.scala-lang:scala-reflect:jar:2.11.7:compile - omitted for conflict with 2.11.8)
+|  +- com.twitter:inject-server_2.11:jar:2.8.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.8:compile - version managed from 2.11.7; omitted for duplicate)
+|  |  +- com.twitter:inject-app_2.11:jar:2.8.0:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.8:compile - version managed from 2.11.7; omitted for duplicate)
+|  |  |  +- (com.twitter:inject-core_2.11:jar:2.8.0:compile - omitted for duplicate)
+|  |  |  \- (com.twitter:util-core_2.11:jar:6.41.0:compile - omitted for duplicate)
+|  |  +- com.twitter:inject-modules_2.11:jar:2.8.0:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.8:compile - version managed from 2.11.7; omitted for duplicate)
+|  |  |  +- (com.twitter:inject-core_2.11:jar:2.8.0:compile - omitted for duplicate)
+|  |  |  +- (com.twitter:finagle-core_2.11:jar:6.42.0:compile - omitted for duplicate)
+|  |  |  \- (com.twitter:util-stats_2.11:jar:6.41.0:compile - omitted for duplicate)
+|  |  +- com.twitter:inject-slf4j_2.11:jar:2.8.0:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.8:compile - version managed from 2.11.7; omitted for duplicate)
+|  |  |  +- (com.twitter:inject-core_2.11:jar:2.8.0:compile - omitted for duplicate)
+|  |  |  +- org.clapper:grizzled-slf4j_2.11:jar:1.3.0:compile
+|  |  |  |  +- (org.scala-lang:scala-library:jar:2.11.8:compile - version managed from 2.11.7; omitted for duplicate)
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.9:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  |  +- org.slf4j:jcl-over-slf4j:jar:1.7.21:compile
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.9:compile - version managed from 1.7.21; omitted for duplicate)
+|  |  |  +- (org.slf4j:jul-to-slf4j:jar:1.7.9:compile - version managed from 1.7.21; omitted for duplicate)
+|  |  |  +- org.slf4j:log4j-over-slf4j:jar:1.7.21:compile
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.9:compile - version managed from 1.7.21; omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.9:compile - version managed from 1.7.21; omitted for duplicate)
+|  |  +- (com.twitter:inject-utils_2.11:jar:2.8.0:compile - omitted for duplicate)
+|  |  +- com.twitter:finagle-stats_2.11:jar:6.42.0:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.8:compile - version managed from 2.11.7; omitted for duplicate)
+|  |  |  +- (com.twitter:finagle-core_2.11:jar:6.42.0:compile - omitted for duplicate)
+|  |  |  +- (com.twitter:finagle-http_2.11:jar:6.42.0:compile - omitted for duplicate)
+|  |  |  +- (com.twitter:finagle-toggle_2.11:jar:6.42.0:compile - omitted for duplicate)
+|  |  |  +- com.twitter.common:metrics:jar:0.0.38:compile
+|  |  |  |  +- com.twitter.common:base:jar:0.0.115:compile
+|  |  |  |  |  +- (com.twitter.common:quantity:jar:0.0.99:compile - omitted for duplicate)
+|  |  |  |  |  +- (com.twitter.common:util-system-mocks:jar:0.0.104:compile - omitted for duplicate)
+|  |  |  |  |  +- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+|  |  |  |  |  +- (com.google.guava:guava:jar:16.0.1:compile - omitted for duplicate)
+|  |  |  |  |  \- (com.google.code.findbugs:jsr305:jar:2.0.1:compile - omitted for duplicate)
+|  |  |  |  +- com.twitter.common:collections:jar:0.0.110:compile
+|  |  |  |  |  +- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+|  |  |  |  |  +- (com.google.guava:guava:jar:16.0.1:compile - omitted for duplicate)
+|  |  |  |  |  \- (com.google.code.findbugs:jsr305:jar:2.0.1:compile - omitted for duplicate)
+|  |  |  |  +- com.twitter.common:quantity:jar:0.0.99:compile
+|  |  |  |  |  +- (com.twitter.common:collections:jar:0.0.110:compile - omitted for duplicate)
+|  |  |  |  |  +- (com.google.guava:guava:jar:16.0.1:compile - omitted for duplicate)
+|  |  |  |  |  +- (com.google.code.findbugs:jsr305:jar:2.0.1:compile - omitted for duplicate)
+|  |  |  |  |  \- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+|  |  |  |  +- (com.twitter.common:stats-util:jar:0.0.59:compile - omitted for duplicate)
+|  |  |  |  +- com.twitter.common:util-executor-service-shutdown:jar:0.0.67:compile
+|  |  |  |  |  +- (com.twitter.common:base:jar:0.0.115:compile - omitted for duplicate)
+|  |  |  |  |  +- (com.twitter.common:quantity:jar:0.0.99:compile - omitted for duplicate)
+|  |  |  |  |  +- (com.google.guava:guava:jar:16.0.1:compile - omitted for duplicate)
+|  |  |  |  |  +- (com.google.code.findbugs:jsr305:jar:2.0.1:compile - omitted for duplicate)
+|  |  |  |  |  \- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+|  |  |  |  +- com.twitter.common:util-system-mocks:jar:0.0.104:compile
+|  |  |  |  |  +- (com.twitter.common:quantity:jar:0.0.99:compile - omitted for duplicate)
+|  |  |  |  |  +- (com.google.guava:guava:jar:16.0.1:compile - omitted for duplicate)
+|  |  |  |  |  +- (com.google.code.findbugs:jsr305:jar:2.0.1:compile - omitted for duplicate)
+|  |  |  |  |  \- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+|  |  |  |  +- (com.google.code.findbugs:jsr305:jar:2.0.1:compile - omitted for duplicate)
+|  |  |  |  +- (com.google.guava:guava:jar:16.0.1:compile - omitted for duplicate)
+|  |  |  |  +- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+|  |  |  |  \- (com.google.inject:guice:jar:4.0:compile - omitted for duplicate)
+|  |  |  +- (com.twitter:util-app_2.11:jar:6.41.0:compile - omitted for duplicate)
+|  |  |  +- (com.twitter:util-core_2.11:jar:6.41.0:compile - omitted for duplicate)
+|  |  |  +- (com.twitter:util-events_2.11:jar:6.41.0:compile - omitted for duplicate)
+|  |  |  +- (com.twitter:util-lint_2.11:jar:6.41.0:compile - omitted for duplicate)
+|  |  |  +- (com.twitter:util-logging_2.11:jar:6.41.0:compile - omitted for duplicate)
+|  |  |  +- (com.twitter:util-registry_2.11:jar:6.41.0:compile - omitted for duplicate)
+|  |  |  +- (com.twitter:util-stats_2.11:jar:6.41.0:compile - omitted for duplicate)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.4:compile - omitted for duplicate)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.4:compile - omitted for duplicate)
+|  |  |  +- (com.fasterxml.jackson.module:jackson-module-scala_2.11:jar:2.8.4:compile - omitted for duplicate)
+|  |  |  \- (com.google.guava:guava:jar:16.0.1:compile - omitted for duplicate)
+|  |  \- (com.twitter:twitter-server_2.11:jar:1.27.0:compile - omitted for duplicate)
+|  +- com.twitter:finatra-slf4j_2.11:jar:2.8.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.8:compile - version managed from 2.11.7; omitted for duplicate)
+|  |  +- (com.twitter:inject-slf4j_2.11:jar:2.8.0:compile - omitted for duplicate)
+|  |  +- com.twitter:inject-core_2.11:jar:2.8.0:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.8:compile - version managed from 2.11.7; omitted for duplicate)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.4:compile - omitted for conflict with 2.8.0)
+|  |  |  +- (com.google.guava:guava:jar:16.0.1:compile - omitted for duplicate)
+|  |  |  +- (com.google.inject:guice:jar:4.0:compile - omitted for duplicate)
+|  |  |  +- com.google.inject.extensions:guice-assistedinject:jar:4.0:compile
+|  |  |  |  \- (com.google.inject:guice:jar:4.0:compile - omitted for duplicate)
+|  |  |  +- com.google.inject.extensions:guice-multibindings:jar:4.0:compile
+|  |  |  |  \- (com.google.inject:guice:jar:4.0:compile - omitted for duplicate)
+|  |  |  +- (com.twitter:util-app_2.11:jar:6.41.0:compile - omitted for duplicate)
+|  |  |  +- (com.twitter:util-core_2.11:jar:6.41.0:compile - omitted for duplicate)
+|  |  |  +- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+|  |  |  +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  |  |  +- (joda-time:joda-time:jar:2.5:compile - omitted for conflict with 2.7)
+|  |  |  +- (com.github.nscala-time:nscala-time_2.11:jar:1.6.0:compile - omitted for duplicate)
+|  |  |  +- net.codingwell:scala-guice_2.11:jar:4.1.0:compile
+|  |  |  |  +- (org.scala-lang:scala-library:jar:2.11.8:compile - version managed from 2.11.4; omitted for duplicate)
+|  |  |  |  +- (com.google.inject:guice:jar:4.1.0:compile - omitted for conflict with 4.0)
+|  |  |  |  +- (com.google.inject.extensions:guice-multibindings:jar:4.1.0:compile - omitted for conflict with 4.0)
+|  |  |  |  +- (com.google.guava:guava:jar:19.0:compile - omitted for conflict with 16.0.1)
+|  |  |  |  \- (com.google.code.findbugs:jsr305:jar:3.0.1:compile - omitted for conflict with 2.0.1)
+|  |  |  +- (org.clapper:grizzled-slf4j_2.11:jar:1.3.0:compile - omitted for duplicate)
+|  |  |  \- org.joda:joda-convert:jar:1.2:compile
+|  |  \- (com.twitter:util-core_2.11:jar:6.41.0:compile - omitted for duplicate)
+|  +- com.twitter:finatra-utils_2.11:jar:2.8.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.8:compile - version managed from 2.11.4; omitted for duplicate)
+|  |  +- (com.twitter:inject-utils_2.11:jar:2.8.0:compile - omitted for duplicate)
+|  |  +- com.google.inject:guice:jar:4.0:compile
+|  |  |  +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  |  |  +- aopalliance:aopalliance:jar:1.0:compile
+|  |  |  \- (com.google.guava:guava:jar:16.0.1:compile - omitted for duplicate)
+|  |  +- joda-time:joda-time:jar:2.5:compile
+|  |  +- commons-io:commons-io:jar:2.4:compile
+|  |  +- com.github.nscala-time:nscala-time_2.11:jar:1.6.0:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.8:compile - version managed from 2.11.4; omitted for duplicate)
+|  |  |  +- (joda-time:joda-time:jar:2.5:compile - omitted for duplicate)
+|  |  |  \- (org.joda:joda-convert:jar:1.2:compile - omitted for duplicate)
+|  |  +- (com.twitter:libthrift:jar:0.5.0-7:compile - omitted for duplicate)
+|  |  +- (com.twitter:finagle-http_2.11:jar:6.42.0:compile - omitted for duplicate)
+|  |  \- (com.twitter:util-core_2.11:jar:6.41.0:compile - omitted for duplicate)
+|  +- com.github.spullara.mustache.java:compiler:jar:0.8.18:compile
+|  |  \- (com.google.guava:guava:jar:16.0.1:compile - omitted for duplicate)
+|  +- com.twitter:bijection-util_2.11:jar:0.9.4:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.8:compile - version managed from 2.11.4; omitted for duplicate)
+|  |  +- com.twitter:bijection-core_2.11:jar:0.9.4:compile
+|  |  |  \- (org.scala-lang:scala-library:jar:2.11.8:compile - version managed from 2.11.4; omitted for duplicate)
+|  |  \- (com.twitter:util-core_2.11:jar:6.41.0:compile - version managed from 6.24.0; omitted for duplicate)
+|  +- com.twitter:finagle-exp_2.11:jar:6.42.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.8:compile - version managed from 2.11.4; omitted for duplicate)
+|  |  +- (com.twitter:finagle-core_2.11:jar:6.42.0:compile - omitted for duplicate)
+|  |  \- (com.twitter:finagle-thrift_2.11:jar:6.42.0:compile - omitted for duplicate)
+|  +- (com.twitter:finagle-http_2.11:jar:6.42.0:compile - omitted for duplicate)
+|  +- commons-fileupload:commons-fileupload:jar:1.3.1:compile
+|  |  \- (commons-io:commons-io:jar:2.2:compile - omitted for conflict with 2.4)
+|  \- javax.servlet:servlet-api:jar:2.5:compile
++- com.twitter:finatra-thrift_2.11:jar:2.8.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.8:compile - version managed from 2.11.4; omitted for duplicate)
+|  +- (com.twitter:inject-server_2.11:jar:2.8.0:compile - omitted for duplicate)
+|  +- com.twitter:inject-thrift_2.11:jar:2.8.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.8:compile - version managed from 2.11.4; omitted for duplicate)
+|  |  +- (com.twitter:inject-utils_2.11:jar:2.8.0:compile - omitted for duplicate)
+|  |  +- (com.twitter:libthrift:jar:0.5.0-7:compile - omitted for duplicate)
+|  |  +- (com.twitter:finagle-core_2.11:jar:6.42.0:compile - omitted for duplicate)
+|  |  +- com.twitter:finagle-mux_2.11:jar:6.42.0:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.8:compile - version managed from 2.11.4; omitted for duplicate)
+|  |  |  +- (com.twitter:finagle-core_2.11:jar:6.42.0:compile - omitted for duplicate)
+|  |  |  +- (com.twitter:finagle-netty4_2.11:jar:6.42.0:compile - omitted for duplicate)
+|  |  |  +- (com.twitter:finagle-toggle_2.11:jar:6.42.0:compile - omitted for duplicate)
+|  |  |  +- (com.twitter:util-app_2.11:jar:6.41.0:compile - omitted for duplicate)
+|  |  |  +- (com.twitter:util-core_2.11:jar:6.41.0:compile - version managed from 6.24.0; omitted for duplicate)
+|  |  |  +- (com.twitter:util-logging_2.11:jar:6.41.0:compile - omitted for duplicate)
+|  |  |  +- (com.twitter:util-stats_2.11:jar:6.41.0:compile - omitted for duplicate)
+|  |  |  \- com.twitter.common:stats-util:jar:0.0.59:compile
+|  |  |     +- (com.twitter.common:quantity:jar:0.0.99:compile - omitted for duplicate)
+|  |  |     +- (com.twitter.common:util-system-mocks:jar:0.0.104:compile - omitted for duplicate)
+|  |  |     +- (com.google.guava:guava:jar:16.0.1:compile - omitted for duplicate)
+|  |  |     +- (com.google.code.findbugs:jsr305:jar:2.0.1:compile - omitted for duplicate)
+|  |  |     +- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+|  |  |     \- (com.google.inject:guice:jar:4.0:compile - omitted for duplicate)
+|  |  +- (com.twitter:scrooge-core_2.11:jar:4.14.0:compile - omitted for duplicate)
+|  |  \- (com.twitter:util-core_2.11:jar:6.41.0:compile - version managed from 6.24.0; omitted for duplicate)
+|  +- (com.twitter:finatra-utils_2.11:jar:2.8.0:compile - omitted for duplicate)
+|  +- (com.twitter:finatra-slf4j_2.11:jar:2.8.0:compile - omitted for duplicate)
+|  +- (com.twitter:finagle-core_2.11:jar:6.42.0:compile - omitted for duplicate)
+|  +- (com.twitter:finagle-exp_2.11:jar:6.42.0:compile - omitted for duplicate)
+|  +- com.twitter:finagle-thrift_2.11:jar:6.42.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.8:compile - version managed from 2.11.4; omitted for duplicate)
+|  |  +- (com.twitter:finagle-core_2.11:jar:6.42.0:compile - omitted for duplicate)
+|  |  +- com.twitter:finagle-netty4_2.11:jar:6.42.0:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.8:compile - version managed from 2.11.4; omitted for duplicate)
+|  |  |  +- (com.twitter:finagle-core_2.11:jar:6.42.0:compile - omitted for duplicate)
+|  |  |  +- (com.twitter:finagle-toggle_2.11:jar:6.42.0:compile - omitted for duplicate)
+|  |  |  +- (com.twitter:util-app_2.11:jar:6.41.0:compile - omitted for duplicate)
+|  |  |  +- (com.twitter:util-cache_2.11:jar:6.41.0:compile - omitted for duplicate)
+|  |  |  +- (com.twitter:util-codec_2.11:jar:6.41.0:compile - omitted for duplicate)
+|  |  |  +- (com.twitter:util-core_2.11:jar:6.41.0:compile - version managed from 6.24.0; omitted for duplicate)
+|  |  |  +- (com.twitter:util-stats_2.11:jar:6.41.0:compile - omitted for duplicate)
+|  |  |  +- (io.netty:netty-codec-http:jar:4.1.8.Final:compile - omitted for duplicate)
+|  |  |  +- io.netty:netty-handler:jar:4.1.8.Final:compile
+|  |  |  |  +- io.netty:netty-buffer:jar:4.1.8.Final:compile
+|  |  |  |  |  \- io.netty:netty-common:jar:4.1.8.Final:compile
+|  |  |  |  +- (io.netty:netty-transport:jar:4.1.8.Final:compile - omitted for duplicate)
+|  |  |  |  \- (io.netty:netty-codec:jar:4.1.8.Final:compile - omitted for duplicate)
+|  |  |  +- io.netty:netty-transport:jar:4.1.8.Final:compile
+|  |  |  |  +- (io.netty:netty-buffer:jar:4.1.8.Final:compile - omitted for duplicate)
+|  |  |  |  \- io.netty:netty-resolver:jar:4.1.8.Final:compile
+|  |  |  |     \- (io.netty:netty-common:jar:4.1.8.Final:compile - omitted for duplicate)
+|  |  |  \- io.netty:netty-handler-proxy:jar:4.1.8.Final:compile
+|  |  |     +- (io.netty:netty-transport:jar:4.1.8.Final:compile - omitted for duplicate)
+|  |  |     +- io.netty:netty-codec-socks:jar:4.1.8.Final:compile
+|  |  |     |  \- (io.netty:netty-codec:jar:4.1.8.Final:compile - omitted for duplicate)
+|  |  |     \- (io.netty:netty-codec-http:jar:4.1.8.Final:compile - omitted for duplicate)
+|  |  +- (com.twitter:finagle-toggle_2.11:jar:6.42.0:compile - omitted for duplicate)
+|  |  +- (com.twitter:libthrift:jar:0.5.0-7:compile - omitted for duplicate)
+|  |  \- (com.twitter:scrooge-core_2.11:jar:4.14.0:compile - omitted for duplicate)
+|  +- com.twitter:finagle-thriftmux_2.11:jar:6.42.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.8:compile - version managed from 2.11.4; omitted for duplicate)
+|  |  +- (com.twitter:finagle-core_2.11:jar:6.42.0:compile - omitted for duplicate)
+|  |  +- (com.twitter:finagle-mux_2.11:jar:6.42.0:compile - omitted for duplicate)
+|  |  +- (com.twitter:finagle-thrift_2.11:jar:6.42.0:compile - omitted for duplicate)
+|  |  +- (com.twitter:util-core_2.11:jar:6.41.0:compile - version managed from 6.24.0; omitted for duplicate)
+|  |  +- (com.twitter:util-logging_2.11:jar:6.41.0:compile - omitted for duplicate)
+|  |  +- (com.twitter:util-stats_2.11:jar:6.41.0:compile - omitted for duplicate)
+|  |  +- (com.twitter:libthrift:jar:0.5.0-7:compile - omitted for duplicate)
+|  |  \- (com.twitter:scrooge-core_2.11:jar:4.14.0:compile - omitted for duplicate)
+|  +- (com.twitter:util-core_2.11:jar:6.41.0:compile - version managed from 6.24.0; omitted for duplicate)
+|  +- javax.inject:javax.inject:jar:1:compile
+|  \- org.yaml:snakeyaml:jar:1.12:compile
++- org.scala-lang:scala-library:jar:2.11.8:compile
++- org.scala-lang:scala-compiler:jar:2.11.8:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.8:compile - version managed from 2.11.4; omitted for duplicate)
+|  +- org.scala-lang:scala-reflect:jar:2.11.8:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.11.8:compile - version managed from 2.11.4; omitted for duplicate)
+|  +- org.scala-lang.modules:scala-xml_2.11:jar:1.0.4:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.11.8:compile - version managed from 2.11.4; omitted for duplicate)
+|  \- org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.0.4:compile
+|     \- (org.scala-lang:scala-library:jar:2.11.8:compile - version managed from 2.11.6; omitted for duplicate)
++- com.typesafe.scala-logging:scala-logging-api_2.11:jar:2.1.2:compile
+|  \- (org.scala-lang:scala-library:jar:2.11.8:compile - version managed from 2.11.0; omitted for duplicate)
++- com.typesafe.scala-logging:scala-logging-slf4j_2.11:jar:2.1.2:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.8:compile - version managed from 2.11.0; omitted for duplicate)
+|  +- (com.typesafe.scala-logging:scala-logging-api_2.11:jar:2.1.2:compile - omitted for duplicate)
+|  +- (org.scala-lang:scala-reflect:jar:2.11.0:compile - omitted for conflict with 2.11.8)
+|  \- org.slf4j:slf4j-api:jar:1.7.9:compile
++- org.slf4j:jul-to-slf4j:jar:1.7.9:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.9:compile - version managed from 1.7.7; omitted for duplicate)
++- org.apache.httpcomponents:httpcore:jar:4.3.2:compile
++- org.scalatest:scalatest_2.11:jar:3.0.0:test
+|  +- (org.scala-lang:scala-library:jar:2.11.8:test - version managed from 2.11.0; omitted for duplicate)
+|  +- org.scalactic:scalactic_2.11:jar:3.0.0:test
+|  |  +- (org.scala-lang:scala-library:jar:2.11.8:test - version managed from 2.11.0; omitted for duplicate)
+|  |  \- (org.scala-lang:scala-reflect:jar:2.11.8:test - omitted for duplicate)
+|  +- (org.scala-lang:scala-reflect:jar:2.11.8:test - omitted for duplicate)
+|  +- (org.scala-lang.modules:scala-xml_2.11:jar:1.0.5:test - omitted for conflict with 1.0.4)
+|  \- (org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.0.4:test - omitted for duplicate)
++- ch.qos.logback:logback-core:jar:1.1.2:test
+\- ch.qos.logback:logback-classic:jar:1.1.2:test
+   +- (ch.qos.logback:logback-core:jar:1.1.2:test - omitted for duplicate)
+   \- (org.slf4j:slf4j-api:jar:1.7.9:test - version managed from 1.7.6; omitted for duplicate)

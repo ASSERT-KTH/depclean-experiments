@@ -1,0 +1,61 @@
+org.apache.ignite:ignite-cassandra-store:jar:2.4.0
++- commons-beanutils:commons-beanutils:jar:1.8.3:compile
+|  \- commons-logging:commons-logging:jar:1.1.1:compile
++- org.apache.ignite:ignite-core:jar:2.4.0:compile
+|  +- javax.cache:cache-api:jar:1.0.0:compile
+|  +- org.jetbrains:annotations:jar:13.0:compile
+|  \- org.gridgain:ignite-shmem:jar:1.0.0:compile
++- org.apache.ignite:ignite-spring:jar:2.4.0:compile
+|  +- (org.apache.ignite:ignite-core:jar:2.4.0:compile - omitted for duplicate)
+|  +- org.apache.ignite:ignite-indexing:jar:2.4.0:compile
+|  |  +- (org.apache.ignite:ignite-core:jar:2.4.0:compile - omitted for duplicate)
+|  |  +- commons-codec:commons-codec:jar:1.6:compile
+|  |  +- org.apache.lucene:lucene-core:jar:5.5.2:compile
+|  |  +- org.apache.lucene:lucene-analyzers-common:jar:5.5.2:compile
+|  |  |  \- (org.apache.lucene:lucene-core:jar:5.5.2:compile - omitted for duplicate)
+|  |  +- org.apache.lucene:lucene-queryparser:jar:5.5.2:compile
+|  |  |  +- (org.apache.lucene:lucene-core:jar:5.5.2:compile - omitted for duplicate)
+|  |  |  +- org.apache.lucene:lucene-queries:jar:5.5.2:compile
+|  |  |  \- org.apache.lucene:lucene-sandbox:jar:5.5.2:compile
+|  |  \- com.h2database:h2:jar:1.4.195:compile
+|  +- org.springframework:spring-core:jar:4.3.7.RELEASE:compile
+|  |  \- (commons-logging:commons-logging:jar:1.2:compile - omitted for conflict with 1.1.1)
+|  +- org.springframework:spring-aop:jar:4.3.7.RELEASE:compile
+|  |  +- (org.springframework:spring-beans:jar:4.3.7.RELEASE:compile - omitted for duplicate)
+|  |  \- (org.springframework:spring-core:jar:4.3.7.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework:spring-beans:jar:4.3.7.RELEASE:compile
+|  |  \- (org.springframework:spring-core:jar:4.3.7.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework:spring-context:jar:4.3.7.RELEASE:compile
+|  |  +- (org.springframework:spring-aop:jar:4.3.7.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-beans:jar:4.3.7.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-core:jar:4.3.7.RELEASE:compile - omitted for duplicate)
+|  |  \- (org.springframework:spring-expression:jar:4.3.7.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework:spring-expression:jar:4.3.7.RELEASE:compile
+|  |  \- (org.springframework:spring-core:jar:4.3.7.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework:spring-tx:jar:4.3.7.RELEASE:compile
+|  |  +- (org.springframework:spring-beans:jar:4.3.7.RELEASE:compile - omitted for duplicate)
+|  |  \- (org.springframework:spring-core:jar:4.3.7.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework:spring-jdbc:jar:4.3.7.RELEASE:compile
+|  |  +- (org.springframework:spring-beans:jar:4.3.7.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-core:jar:4.3.7.RELEASE:compile - omitted for duplicate)
+|  |  \- (org.springframework:spring-tx:jar:4.3.7.RELEASE:compile - omitted for duplicate)
+|  \- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for duplicate)
++- com.datastax.cassandra:cassandra-driver-core:jar:3.0.0:compile
+|  +- (io.netty:netty-handler:jar:4.0.33.Final:compile - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:16.0.1:compile - omitted for conflict with 19.0)
+|  \- io.dropwizard.metrics:metrics-core:jar:3.1.2:compile
+|     \- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for conflict with 1.7.5)
++- io.netty:netty-handler:jar:4.0.33.Final:compile
+|  +- (io.netty:netty-buffer:jar:4.0.33.Final:compile - omitted for duplicate)
+|  +- (io.netty:netty-transport:jar:4.0.33.Final:compile - omitted for duplicate)
+|  \- (io.netty:netty-codec:jar:4.0.33.Final:compile - omitted for duplicate)
++- io.netty:netty-buffer:jar:4.0.33.Final:compile
+|  \- (io.netty:netty-common:jar:4.0.33.Final:compile - omitted for duplicate)
++- io.netty:netty-common:jar:4.0.33.Final:compile
++- io.netty:netty-transport:jar:4.0.33.Final:compile
+|  \- (io.netty:netty-buffer:jar:4.0.33.Final:compile - omitted for duplicate)
++- io.netty:netty-codec:jar:4.0.33.Final:compile
+|  \- (io.netty:netty-transport:jar:4.0.33.Final:compile - omitted for duplicate)
++- com.google.guava:guava:jar:19.0:compile
+\- com.codahale.metrics:metrics-core:jar:3.0.2:compile
+   \- org.slf4j:slf4j-api:jar:1.7.5:compile

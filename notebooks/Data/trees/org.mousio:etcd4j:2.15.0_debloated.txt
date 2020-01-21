@@ -1,0 +1,50 @@
+org.mousio:etcd4j:jar:2.15.0
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- io.netty:netty-codec-dns:jar:4.1.20.Final:compile
+|  \- io.netty:netty-codec:jar:4.1.20.Final:compile
+|     \- (io.netty:netty-transport:jar:4.1.20.Final:compile - omitted for duplicate)
++- io.netty:netty-codec-http:jar:4.1.20.Final:compile
+|  \- (io.netty:netty-codec:jar:4.1.20.Final:compile - omitted for duplicate)
++- io.netty:netty-handler:jar:4.1.20.Final:compile
+|  +- io.netty:netty-buffer:jar:4.1.20.Final:compile
+|  |  \- io.netty:netty-common:jar:4.1.20.Final:compile
+|  +- io.netty:netty-transport:jar:4.1.20.Final:compile
+|  |  +- (io.netty:netty-buffer:jar:4.1.20.Final:compile - omitted for duplicate)
+|  |  \- (io.netty:netty-resolver:jar:4.1.20.Final:compile - omitted for duplicate)
+|  \- (io.netty:netty-codec:jar:4.1.20.Final:compile - omitted for duplicate)
++- io.netty:netty-resolver-dns:jar:4.1.20.Final:compile
+|  +- io.netty:netty-resolver:jar:4.1.20.Final:compile
+|  |  \- (io.netty:netty-common:jar:4.1.20.Final:compile - omitted for duplicate)
+|  +- (io.netty:netty-codec-dns:jar:4.1.20.Final:compile - omitted for duplicate)
+|  \- (io.netty:netty-transport:jar:4.1.20.Final:compile - omitted for duplicate)
++- com.fasterxml.jackson.core:jackson-databind:jar:2.8.10:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile - omitted for conflict with 2.8.10)
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.8.10:compile - omitted for duplicate)
++- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.10:compile
++- com.fasterxml.jackson.module:jackson-module-afterburner:jar:2.8.10:compile
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.10:compile - omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.10:compile - omitted for duplicate)
++- com.github.wnameless:json-flattener:jar:0.4.1:compile
+|  +- com.eclipsesource.minimal-json:minimal-json:jar:0.9.4:compile
+|  \- org.apache.commons:commons-lang3:jar:3.5:compile
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.slf4j:slf4j-simple:jar:1.7.25:test
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)
++- com.xebialabs.restito:restito:jar:0.9.3:test
+|  +- (junit:junit:jar:4.12:test - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.21:test - omitted for conflict with 1.7.25)
+|  +- org.glassfish.grizzly:grizzly-http-server:jar:2.3.25:test
+|  |  \- org.glassfish.grizzly:grizzly-http:jar:2.3.25:test
+|  |     \- org.glassfish.grizzly:grizzly-framework:jar:2.3.25:test
+|  +- com.jayway.jsonpath:json-path:jar:2.1.0:test
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.13:test - omitted for conflict with 1.7.25)
+|  |  \- net.minidev:json-smart:jar:2.2:test
+|  |     \- net.minidev:accessors-smart:jar:1.1:test
+|  |        \- org.ow2.asm:asm:jar:5.0.3:test
+|  \- org.apache.mina:mina-core:jar:2.0.13:test
+|     \- (org.slf4j:slf4j-api:jar:1.7.14:test - omitted for conflict with 1.7.25)
++- org.assertj:assertj-core:jar:3.9.0:test
+\- ch.qos.logback:logback-classic:jar:1.2.3:test
+   +- ch.qos.logback:logback-core:jar:1.2.3:test
+   \- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)

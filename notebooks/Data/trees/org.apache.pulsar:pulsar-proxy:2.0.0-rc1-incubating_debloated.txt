@@ -1,0 +1,536 @@
+org.apache.pulsar:pulsar-proxy:jar:2.0.0-rc1-incubating
++- org.apache.pulsar:pulsar-common:jar:2.0.0-rc1-incubating:compile
+|  +- org.slf4j:slf4j-api:jar:1.7.25:compile
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.8.4:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.4:compile - version managed from 2.8.0; omitted for duplicate)
+|  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.8.4:compile - version managed from 2.8.9; omitted for duplicate)
+|  +- com.google.protobuf:protobuf-java:jar:2.4.1:compile
+|  +- com.google.guava:guava:jar:20.0:compile
+|  +- io.netty:netty-all:jar:4.1.21.Final:compile
+|  +- net.jpountz.lz4:lz4:jar:1.3.0:compile
+|  +- org.apache.bookkeeper:circe-checksum:jar:4.7.0:compile
+|  |  +- (com.google.guava:guava:jar:20.0:compile - version managed from 21.0; omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  |  \- commons-configuration:commons-configuration:jar:1.6:compile (version managed from 1.10)
+|  |     +- commons-collections:commons-collections:jar:3.2.1:compile
+|  |     +- (commons-lang:commons-lang:jar:2.4:compile - omitted for conflict with 2.6)
+|  |     +- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for conflict with 1.2)
+|  |     +- commons-digester:commons-digester:jar:1.8:compile
+|  |     |  +- commons-beanutils:commons-beanutils:jar:1.7.0:compile
+|  |     |  |  \- (commons-logging:commons-logging:jar:1.0.3:compile - omitted for conflict with 1.1.1)
+|  |     |  \- (commons-logging:commons-logging:jar:1.1:compile - omitted for conflict with 1.1.1)
+|  |     \- commons-beanutils:commons-beanutils-core:jar:1.8.0:compile
+|  |        \- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for duplicate)
+|  +- io.netty:netty-tcnative-boringssl-static:jar:2.0.7.Final:compile
+|  +- (org.eclipse.jetty:jetty-server:jar:9.3.11.v20160721:compile - omitted for duplicate)
+|  \- org.apache.commons:commons-lang3:jar:3.4:compile
++- org.apache.pulsar:pulsar-client-original:jar:2.0.0-rc1-incubating:compile
+|  +- (org.apache.pulsar:pulsar-common:jar:2.0.0-rc1-incubating:compile - omitted for duplicate)
+|  +- org.apache.pulsar:pulsar-connect-core:jar:2.0.0-rc1-incubating:compile
+|  +- (org.apache.commons:commons-lang3:jar:3.4:compile - omitted for duplicate)
+|  +- org.asynchttpclient:async-http-client:jar:2.1.0-alpha26:compile
+|  |  +- org.asynchttpclient:async-http-client-netty-utils:jar:2.1.0-alpha26:compile
+|  |  |  +- io.netty:netty-buffer:jar:4.1.17.Final:compile
+|  |  |  |  \- (io.netty:netty-common:jar:4.1.17.Final:compile - omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  |  +- io.netty:netty-codec-http:jar:4.1.17.Final:compile
+|  |  |  \- io.netty:netty-codec:jar:4.1.17.Final:compile
+|  |  |     \- (io.netty:netty-transport:jar:4.1.17.Final:compile - omitted for duplicate)
+|  |  +- io.netty:netty-handler:jar:4.1.17.Final:compile
+|  |  |  +- (io.netty:netty-buffer:jar:4.1.17.Final:compile - omitted for duplicate)
+|  |  |  +- io.netty:netty-transport:jar:4.1.17.Final:compile
+|  |  |  |  +- (io.netty:netty-buffer:jar:4.1.17.Final:compile - omitted for duplicate)
+|  |  |  |  \- (io.netty:netty-resolver:jar:4.1.17.Final:compile - omitted for duplicate)
+|  |  |  \- (io.netty:netty-codec:jar:4.1.17.Final:compile - omitted for duplicate)
+|  |  +- io.netty:netty-transport-native-epoll:jar:linux-x86_64:4.1.17.Final:compile
+|  |  |  +- io.netty:netty-common:jar:4.1.17.Final:compile
+|  |  |  +- (io.netty:netty-buffer:jar:4.1.17.Final:compile - omitted for duplicate)
+|  |  |  +- io.netty:netty-transport-native-unix-common:jar:4.1.17.Final:compile
+|  |  |  |  +- (io.netty:netty-common:jar:4.1.17.Final:compile - omitted for duplicate)
+|  |  |  |  \- (io.netty:netty-transport:jar:4.1.17.Final:compile - omitted for duplicate)
+|  |  |  \- (io.netty:netty-transport:jar:4.1.17.Final:compile - omitted for duplicate)
+|  |  +- io.netty:netty-resolver-dns:jar:4.1.17.Final:compile
+|  |  |  +- io.netty:netty-resolver:jar:4.1.17.Final:compile
+|  |  |  |  \- (io.netty:netty-common:jar:4.1.17.Final:compile - omitted for duplicate)
+|  |  |  +- io.netty:netty-codec-dns:jar:4.1.17.Final:compile
+|  |  |  |  \- (io.netty:netty-codec:jar:4.1.17.Final:compile - omitted for duplicate)
+|  |  |  \- (io.netty:netty-transport:jar:4.1.17.Final:compile - omitted for duplicate)
+|  |  +- org.reactivestreams:reactive-streams:jar:1.0.0:compile
+|  |  +- com.typesafe.netty:netty-reactive-streams:jar:2.0.0:compile
+|  |  |  +- (io.netty:netty-handler:jar:4.1.13.Final:compile - omitted for conflict with 4.1.17.Final)
+|  |  |  \- (org.reactivestreams:reactive-streams:jar:1.0.0:compile - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  +- commons-codec:commons-codec:jar:1.10:compile
+|  +- com.yahoo.datasketches:sketches-core:jar:0.8.3:compile
+|  |  \- com.yahoo.datasketches:memory:jar:0.8.3:compile
+|  +- org.bouncycastle:bcpkix-jdk15on:jar:1.55:compile
+|  |  \- org.bouncycastle:bcprov-jdk15on:jar:1.55:compile
+|  +- com.google.code.gson:gson:jar:2.8.2:compile
+|  +- org.apache.httpcomponents:httpclient:jar:4.5.5:compile
+|  |  +- (org.apache.httpcomponents:httpcore:jar:4.4.9:compile - omitted for duplicate)
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for conflict with 1.1.1)
+|  |  \- (commons-codec:commons-codec:jar:1.10:compile - omitted for duplicate)
+|  +- commons-logging:commons-logging:jar:1.1.1:compile
+|  +- org.apache.httpcomponents:httpcore:jar:4.4.9:compile
+|  \- com.fasterxml.jackson.module:jackson-module-jsonSchema:jar:2.9.0:compile
+|     +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.4:compile - version managed from 2.9.0; omitted for duplicate)
+|     +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.4:compile - version managed from 2.9.0; omitted for duplicate)
+|     +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.4:compile - version managed from 2.9.0; omitted for duplicate)
+|     \- (javax.validation:validation-api:jar:1.1.0.Final:compile - omitted for duplicate)
++- org.apache.pulsar:pulsar-zookeeper-utils:jar:2.0.0-rc1-incubating:compile
+|  +- (org.apache.commons:commons-lang3:jar:3.4:compile - omitted for duplicate)
+|  +- org.apache.bookkeeper:bookkeeper-server-shaded:jar:4.7.0:compile
+|  |  +- org.rocksdb:rocksdbjni:jar:5.8.6:compile
+|  |  +- org.apache.zookeeper:zookeeper:jar:3.4.10:compile (version managed from 3.5.3-beta)
+|  |  |  \- jline:jline:jar:0.9.94:compile
+|  |  |     \- junit:junit:jar:3.8.1:compile
+|  |  +- (io.netty:netty-all:jar:4.1.21.Final:compile - version managed from 4.1.12.Final; omitted for duplicate)
+|  |  +- (io.netty:netty-tcnative-boringssl-static:jar:2.0.7.Final:compile - version managed from 2.0.3.Final; omitted for duplicate)
+|  |  +- org.apache.bookkeeper.http:http-server:jar:4.7.0:compile
+|  |  |  +- (commons-configuration:commons-configuration:jar:1.6:compile - version managed from 1.10; omitted for duplicate)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.4:compile - version managed from 2.8.9; omitted for duplicate)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.4:compile - version managed from 2.8.9; omitted for duplicate)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.4:compile - version managed from 2.8.9; omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.4:compile - version managed from 2.8.9; omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.4:compile - version managed from 2.8.9; omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.4:compile - version managed from 2.8.9; omitted for duplicate)
+|  |  +- commons-cli:commons-cli:jar:1.2:compile
+|  |  +- (commons-codec:commons-codec:jar:1.10:compile - version managed from 1.6; omitted for duplicate)
+|  |  +- commons-io:commons-io:jar:2.5:compile (version managed from 2.4)
+|  |  +- (org.apache.commons:commons-lang3:jar:3.4:compile - version managed from 3.3.2; omitted for duplicate)
+|  |  +- org.apache.commons:commons-collections4:jar:4.1:compile
+|  |  +- (com.beust:jcommander:jar:1.48:compile - omitted for duplicate)
+|  |  +- net.java.dev.jna:jna:jar:4.2.0:compile (version managed from 3.2.7)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  |  +- (commons-configuration:commons-configuration:jar:1.6:compile - version managed from 1.10; omitted for duplicate)
+|  |  +- commons-lang:commons-lang:jar:2.6:compile
+|  |  \- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for duplicate)
+|  +- org.apache.bookkeeper.stats:prometheus-metrics-provider:jar:4.7.0:compile
+|  |  +- org.apache.bookkeeper.stats:bookkeeper-stats-api:jar:4.7.0:compile
+|  |  |  +- (commons-configuration:commons-configuration:jar:1.6:compile - version managed from 1.10; omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  |  +- (io.prometheus:simpleclient:jar:0.0.23:compile - version managed from 0.0.21; omitted for duplicate)
+|  |  +- (io.prometheus:simpleclient_hotspot:jar:0.0.23:compile - version managed from 0.0.21; omitted for duplicate)
+|  |  +- (io.prometheus:simpleclient_servlet:jar:0.0.23:compile - version managed from 0.0.21; omitted for duplicate)
+|  |  +- (io.netty:netty-all:jar:4.1.21.Final:compile - version managed from 4.1.12.Final; omitted for duplicate)
+|  |  +- (org.eclipse.jetty:jetty-servlet:jar:9.3.11.v20160721:compile - version managed from 9.4.5.v20170502; omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:20.0:compile - version managed from 21.0; omitted for duplicate)
+|  |  +- (com.yahoo.datasketches:sketches-core:jar:0.8.3:compile - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  |  \- (commons-configuration:commons-configuration:jar:1.6:compile - version managed from 1.10; omitted for duplicate)
+|  +- com.github.ben-manes.caffeine:caffeine:jar:2.3.3:compile
+|  \- (org.apache.pulsar:pulsar-common:jar:2.0.0-rc1-incubating:compile - omitted for duplicate)
++- org.apache.pulsar:pulsar-broker-common:jar:2.0.0-rc1-incubating:compile
+|  +- (org.apache.pulsar:pulsar-zookeeper-utils:jar:2.0.0-rc1-incubating:compile - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:20.0:compile - version managed from 21.0; omitted for duplicate)
+|  +- javax.servlet:javax.servlet-api:jar:3.1.0:compile
+|  \- javax.ws.rs:javax.ws.rs-api:jar:2.1:compile
++- org.eclipse.jetty:jetty-server:jar:9.3.11.v20160721:compile
+|  +- (javax.servlet:javax.servlet-api:jar:3.1.0:compile - omitted for duplicate)
+|  +- org.eclipse.jetty:jetty-http:jar:9.3.11.v20160721:compile
+|  |  \- (org.eclipse.jetty:jetty-util:jar:9.3.11.v20160721:compile - omitted for duplicate)
+|  \- org.eclipse.jetty:jetty-io:jar:9.3.11.v20160721:compile
+|     \- (org.eclipse.jetty:jetty-util:jar:9.3.11.v20160721:compile - omitted for duplicate)
++- org.eclipse.jetty:jetty-servlet:jar:9.3.11.v20160721:compile
+|  \- org.eclipse.jetty:jetty-security:jar:9.3.11.v20160721:compile
+|     \- (org.eclipse.jetty:jetty-server:jar:9.3.11.v20160721:compile - omitted for duplicate)
++- org.eclipse.jetty:jetty-servlets:jar:9.3.11.v20160721:compile
+|  +- org.eclipse.jetty:jetty-continuation:jar:9.3.11.v20160721:compile
+|  +- (org.eclipse.jetty:jetty-http:jar:9.3.11.v20160721:compile - omitted for duplicate)
+|  +- org.eclipse.jetty:jetty-util:jar:9.3.11.v20160721:compile
+|  \- (org.eclipse.jetty:jetty-io:jar:9.3.11.v20160721:compile - omitted for duplicate)
++- org.eclipse.jetty:jetty-proxy:jar:9.3.11.v20160721:compile
+|  +- (org.eclipse.jetty:jetty-util:jar:9.3.11.v20160721:compile - omitted for duplicate)
+|  \- org.eclipse.jetty:jetty-client:jar:9.3.11.v20160721:compile
+|     +- (org.eclipse.jetty:jetty-http:jar:9.3.11.v20160721:compile - omitted for duplicate)
+|     \- (org.eclipse.jetty:jetty-io:jar:9.3.11.v20160721:compile - omitted for duplicate)
++- org.glassfish.jersey.core:jersey-server:jar:2.25:compile
+|  +- org.glassfish.jersey.core:jersey-common:jar:2.25:compile
+|  |  +- (javax.ws.rs:javax.ws.rs-api:jar:2.1:compile - version managed from 2.0.1; omitted for duplicate)
+|  |  +- (javax.annotation:javax.annotation-api:jar:1.2:compile - omitted for duplicate)
+|  |  +- org.glassfish.jersey.bundles.repackaged:jersey-guava:jar:2.25:compile
+|  |  +- (org.glassfish.hk2:hk2-api:jar:2.5.0-b30:compile - omitted for duplicate)
+|  |  +- (org.glassfish.hk2.external:javax.inject:jar:2.5.0-b30:compile - omitted for duplicate)
+|  |  +- (org.glassfish.hk2:hk2-locator:jar:2.5.0-b30:compile - omitted for duplicate)
+|  |  \- org.glassfish.hk2:osgi-resource-locator:jar:1.0.1:compile
+|  +- org.glassfish.jersey.core:jersey-client:jar:2.25:compile
+|  |  +- (javax.ws.rs:javax.ws.rs-api:jar:2.1:compile - version managed from 2.0.1; omitted for duplicate)
+|  |  +- (org.glassfish.jersey.core:jersey-common:jar:2.25:compile - omitted for duplicate)
+|  |  +- (org.glassfish.hk2:hk2-api:jar:2.5.0-b30:compile - omitted for duplicate)
+|  |  +- (org.glassfish.hk2.external:javax.inject:jar:2.5.0-b30:compile - omitted for duplicate)
+|  |  \- (org.glassfish.hk2:hk2-locator:jar:2.5.0-b30:compile - omitted for duplicate)
+|  +- (javax.ws.rs:javax.ws.rs-api:jar:2.1:compile - version managed from 2.0.1; omitted for duplicate)
+|  +- org.glassfish.jersey.media:jersey-media-jaxb:jar:2.25:compile
+|  |  +- (org.glassfish.jersey.core:jersey-common:jar:2.25:compile - omitted for duplicate)
+|  |  +- (org.glassfish.hk2:hk2-api:jar:2.5.0-b30:compile - omitted for duplicate)
+|  |  +- (org.glassfish.hk2.external:javax.inject:jar:2.5.0-b30:compile - omitted for duplicate)
+|  |  +- (org.glassfish.hk2:hk2-locator:jar:2.5.0-b30:compile - omitted for duplicate)
+|  |  \- (org.glassfish.hk2:osgi-resource-locator:jar:1.0.1:compile - omitted for duplicate)
+|  +- javax.annotation:javax.annotation-api:jar:1.2:compile
+|  +- org.glassfish.hk2:hk2-api:jar:2.5.0-b30:compile
+|  |  +- org.glassfish.hk2:hk2-utils:jar:2.5.0-b30:compile
+|  |  \- org.glassfish.hk2.external:aopalliance-repackaged:jar:2.5.0-b30:compile
+|  +- org.glassfish.hk2.external:javax.inject:jar:2.5.0-b30:compile
+|  +- org.glassfish.hk2:hk2-locator:jar:2.5.0-b30:compile
+|  |  +- (org.glassfish.hk2.external:javax.inject:jar:2.5.0-b30:compile - omitted for duplicate)
+|  |  +- (org.glassfish.hk2.external:aopalliance-repackaged:jar:2.5.0-b30:compile - omitted for duplicate)
+|  |  +- (org.glassfish.hk2:hk2-api:jar:2.5.0-b30:compile - omitted for duplicate)
+|  |  +- (org.glassfish.hk2:hk2-utils:jar:2.5.0-b30:compile - omitted for duplicate)
+|  |  \- org.javassist:javassist:jar:3.20.0-GA:compile
+|  \- javax.validation:validation-api:jar:1.1.0.Final:compile
++- org.glassfish.jersey.containers:jersey-container-servlet-core:jar:2.25:compile
+|  +- (org.glassfish.hk2.external:javax.inject:jar:2.5.0-b30:compile - omitted for duplicate)
+|  +- (org.glassfish.jersey.core:jersey-common:jar:2.25:compile - omitted for duplicate)
+|  +- (org.glassfish.jersey.core:jersey-server:jar:2.25:compile - omitted for duplicate)
+|  \- (javax.ws.rs:javax.ws.rs-api:jar:2.1:compile - version managed from 2.0.1; omitted for duplicate)
++- org.glassfish.jersey.media:jersey-media-json-jackson:jar:2.25:compile
+|  +- (org.glassfish.jersey.core:jersey-common:jar:2.25:compile - omitted for duplicate)
+|  +- org.glassfish.jersey.ext:jersey-entity-filtering:jar:2.25:compile
+|  |  \- (javax.ws.rs:javax.ws.rs-api:jar:2.1:compile - version managed from 2.0.1; omitted for duplicate)
+|  +- com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:jar:2.8.4:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.4:compile - version managed from 2.8.9; omitted for duplicate)
+|  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.4:compile - version managed from 2.8.9; omitted for duplicate)
+|  +- (com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:jar:2.8.4:compile - omitted for duplicate)
+|  \- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.4:compile
++- com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:jar:2.8.4:compile
+|  +- (com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:jar:2.8.4:compile - omitted for duplicate)
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.8.4:compile
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.4:compile - version managed from 2.8.9; omitted for duplicate)
+|  \- com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.8.4:compile
+|     +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.4:compile - version managed from 2.8.9; omitted for duplicate)
+|     +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.4:compile - version managed from 2.8.0; omitted for duplicate)
+|     \- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.4:compile - version managed from 2.8.9; omitted for duplicate)
++- org.slf4j:jul-to-slf4j:jar:1.7.25:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
++- io.prometheus:simpleclient:jar:0.0.23:compile
++- io.prometheus:simpleclient_hotspot:jar:0.0.23:compile
+|  \- (io.prometheus:simpleclient:jar:0.0.23:compile - version managed from 0.0.21; omitted for duplicate)
++- io.prometheus:simpleclient_servlet:jar:0.0.23:compile
+|  +- (io.prometheus:simpleclient:jar:0.0.23:compile - version managed from 0.0.21; omitted for duplicate)
+|  \- io.prometheus:simpleclient_common:jar:0.0.23:compile
+|     \- (io.prometheus:simpleclient:jar:0.0.23:compile - version managed from 0.0.21; omitted for duplicate)
++- org.apache.pulsar:pulsar-broker:jar:2.0.0-rc1-incubating:test
+|  +- (commons-codec:commons-codec:jar:1.10:test - version managed from 1.6; omitted for duplicate)
+|  +- (org.apache.commons:commons-lang3:jar:3.4:test - version managed from 3.3.2; omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)
+|  +- (io.netty:netty-all:jar:4.1.21.Final:test - version managed from 4.1.12.Final; omitted for duplicate)
+|  +- (com.google.protobuf:protobuf-java:jar:2.4.1:test - omitted for duplicate)
+|  +- (org.apache.pulsar:pulsar-common:jar:2.0.0-rc1-incubating:test - omitted for duplicate)
+|  +- (org.apache.pulsar:pulsar-client-original:jar:2.0.0-rc1-incubating:test - omitted for duplicate)
+|  +- org.apache.pulsar:pulsar-websocket:jar:2.0.0-rc1-incubating:test
+|  |  +- (org.apache.pulsar:pulsar-broker-common:jar:2.0.0-rc1-incubating:test - omitted for duplicate)
+|  |  +- (org.apache.pulsar:pulsar-common:jar:2.0.0-rc1-incubating:test - omitted for duplicate)
+|  |  +- (org.apache.pulsar:pulsar-client-original:jar:2.0.0-rc1-incubating:test - omitted for duplicate)
+|  |  +- (org.apache.pulsar:pulsar-zookeeper-utils:jar:2.0.0-rc1-incubating:test - omitted for duplicate)
+|  |  +- (org.apache.commons:commons-lang3:jar:3.4:test - version managed from 3.3.2; omitted for duplicate)
+|  |  +- (org.glassfish.jersey.containers:jersey-container-servlet-core:jar:2.25:test - omitted for duplicate)
+|  |  +- (org.glassfish.jersey.containers:jersey-container-servlet:jar:2.25:test - omitted for duplicate)
+|  |  +- (com.google.code.gson:gson:jar:2.8.2:test - omitted for duplicate)
+|  |  +- (io.swagger:swagger-core:jar:1.5.3:test - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:jar:2.8.4:test - omitted for duplicate)
+|  |  +- (org.slf4j:jul-to-slf4j:jar:1.7.25:test - omitted for duplicate)
+|  |  +- org.eclipse.jetty.websocket:websocket-api:jar:9.3.11.v20160721:test
+|  |  +- org.eclipse.jetty.websocket:websocket-server:jar:9.3.11.v20160721:test
+|  |  |  +- org.eclipse.jetty.websocket:websocket-common:jar:9.3.11.v20160721:test
+|  |  |  |  +- (org.eclipse.jetty.websocket:websocket-api:jar:9.3.11.v20160721:test - omitted for duplicate)
+|  |  |  |  +- (org.eclipse.jetty:jetty-util:jar:9.3.11.v20160721:test - omitted for duplicate)
+|  |  |  |  \- (org.eclipse.jetty:jetty-io:jar:9.3.11.v20160721:test - omitted for duplicate)
+|  |  |  +- org.eclipse.jetty.websocket:websocket-client:jar:9.3.11.v20160721:test
+|  |  |  |  +- (org.eclipse.jetty:jetty-util:jar:9.3.11.v20160721:test - omitted for duplicate)
+|  |  |  |  +- (org.eclipse.jetty:jetty-io:jar:9.3.11.v20160721:test - omitted for duplicate)
+|  |  |  |  \- (org.eclipse.jetty.websocket:websocket-common:jar:9.3.11.v20160721:test - omitted for duplicate)
+|  |  |  +- org.eclipse.jetty.websocket:websocket-servlet:jar:9.3.11.v20160721:test
+|  |  |  |  +- (org.eclipse.jetty.websocket:websocket-api:jar:9.3.11.v20160721:test - omitted for duplicate)
+|  |  |  |  \- (javax.servlet:javax.servlet-api:jar:3.1.0:test - omitted for duplicate)
+|  |  |  +- (org.eclipse.jetty:jetty-servlet:jar:9.3.11.v20160721:test - version managed from 9.4.5.v20170502; omitted for duplicate)
+|  |  |  \- (org.eclipse.jetty:jetty-http:jar:9.3.11.v20160721:test - omitted for duplicate)
+|  |  +- org.eclipse.jetty.websocket:javax-websocket-client-impl:jar:9.3.11.v20160721:test
+|  |  |  +- (org.eclipse.jetty.websocket:websocket-client:jar:9.3.11.v20160721:test - omitted for duplicate)
+|  |  |  \- javax.websocket:javax.websocket-api:jar:1.0:test
+|  |  \- (org.hdrhistogram:HdrHistogram:jar:2.1.9:test - omitted for duplicate)
+|  +- org.apache.pulsar:pulsar-client-admin-original:jar:2.0.0-rc1-incubating:test
+|  |  +- (org.apache.pulsar:pulsar-client-original:jar:2.0.0-rc1-incubating:test - omitted for duplicate)
+|  |  +- (org.apache.pulsar:pulsar-common:jar:2.0.0-rc1-incubating:test - omitted for duplicate)
+|  |  +- org.apache.pulsar:pulsar-functions-proto-shaded:jar:2.0.0-rc1-incubating:test
+|  |  |  +- io.grpc:grpc-all:jar:1.5.0:test
+|  |  |  |  +- (io.grpc:grpc-auth:jar:1.5.0:test - omitted for duplicate)
+|  |  |  |  +- (io.grpc:grpc-core:jar:1.5.0:test - omitted for duplicate)
+|  |  |  |  +- (io.grpc:grpc-context:jar:1.5.0:test - omitted for duplicate)
+|  |  |  |  +- (io.grpc:grpc-netty:jar:1.5.0:test - omitted for duplicate)
+|  |  |  |  +- (io.grpc:grpc-okhttp:jar:1.5.0:test - omitted for duplicate)
+|  |  |  |  +- (io.grpc:grpc-protobuf:jar:1.5.0:test - omitted for duplicate)
+|  |  |  |  +- (io.grpc:grpc-protobuf-nano:jar:1.5.0:test - omitted for duplicate)
+|  |  |  |  \- (io.grpc:grpc-stub:jar:1.5.0:test - omitted for duplicate)
+|  |  |  +- io.grpc:grpc-auth:jar:1.5.0:test
+|  |  |  |  +- (io.grpc:grpc-core:jar:1.5.0:test - omitted for duplicate)
+|  |  |  |  \- (com.google.auth:google-auth-library-credentials:jar:0.4.0:test - omitted for duplicate)
+|  |  |  +- com.google.auth:google-auth-library-credentials:jar:0.4.0:test
+|  |  |  +- io.grpc:grpc-core:jar:1.5.0:test
+|  |  |  |  +- (com.google.guava:guava:jar:20.0:test - version managed from 19.0; omitted for duplicate)
+|  |  |  |  +- (com.google.errorprone:error_prone_annotations:jar:2.0.19:test - omitted for duplicate)
+|  |  |  |  +- (com.google.code.findbugs:jsr305:jar:3.0.0:test - omitted for duplicate)
+|  |  |  |  +- (io.grpc:grpc-context:jar:1.5.0:test - omitted for duplicate)
+|  |  |  |  \- (com.google.instrumentation:instrumentation-api:jar:0.4.3:test - omitted for duplicate)
+|  |  |  +- (com.google.guava:guava:jar:20.0:test - version managed from 19.0; omitted for duplicate)
+|  |  |  +- com.google.errorprone:error_prone_annotations:jar:2.0.19:test
+|  |  |  +- com.google.code.findbugs:jsr305:jar:3.0.0:test
+|  |  |  +- com.google.instrumentation:instrumentation-api:jar:0.4.3:test
+|  |  |  |  +- (com.google.errorprone:error_prone_annotations:jar:2.0.11:test - omitted for conflict with 2.0.19)
+|  |  |  |  +- (com.google.code.findbugs:jsr305:jar:3.0.0:test - omitted for duplicate)
+|  |  |  |  +- (io.grpc:grpc-context:jar:1.2.0:test - omitted for conflict with 1.5.0)
+|  |  |  |  \- (com.google.guava:guava:jar:20.0:test - version managed from 19.0; omitted for duplicate)
+|  |  |  +- io.grpc:grpc-context:jar:1.5.0:test
+|  |  |  +- io.grpc:grpc-netty:jar:1.5.0:test
+|  |  |  |  +- (io.grpc:grpc-core:jar:1.5.0:test - omitted for duplicate)
+|  |  |  |  +- (io.netty:netty-codec-http2:jar:4.1.12.Final:test - omitted for duplicate)
+|  |  |  |  \- (io.netty:netty-handler-proxy:jar:4.1.12.Final:test - omitted for duplicate)
+|  |  |  +- io.netty:netty-codec-http2:jar:4.1.12.Final:test
+|  |  |  |  +- (io.netty:netty-codec-http:jar:4.1.12.Final:test - omitted for conflict with 4.1.17.Final)
+|  |  |  |  \- (io.netty:netty-handler:jar:4.1.12.Final:test - omitted for conflict with 4.1.17.Final)
+|  |  |  +- (io.netty:netty-codec-http:jar:4.1.12.Final:test - omitted for conflict with 4.1.17.Final)
+|  |  |  +- (io.netty:netty-codec:jar:4.1.12.Final:test - omitted for conflict with 4.1.17.Final)
+|  |  |  +- (io.netty:netty-handler:jar:4.1.12.Final:test - omitted for conflict with 4.1.17.Final)
+|  |  |  +- (io.netty:netty-buffer:jar:4.1.12.Final:test - omitted for conflict with 4.1.17.Final)
+|  |  |  +- (io.netty:netty-common:jar:4.1.12.Final:test - omitted for conflict with 4.1.17.Final)
+|  |  |  +- io.netty:netty-handler-proxy:jar:4.1.12.Final:test
+|  |  |  |  +- (io.netty:netty-transport:jar:4.1.12.Final:test - omitted for conflict with 4.1.17.Final)
+|  |  |  |  +- (io.netty:netty-codec-socks:jar:4.1.12.Final:test - omitted for duplicate)
+|  |  |  |  \- (io.netty:netty-codec-http:jar:4.1.12.Final:test - omitted for conflict with 4.1.17.Final)
+|  |  |  +- (io.netty:netty-transport:jar:4.1.12.Final:test - omitted for conflict with 4.1.17.Final)
+|  |  |  +- (io.netty:netty-resolver:jar:4.1.12.Final:test - omitted for conflict with 4.1.17.Final)
+|  |  |  +- io.netty:netty-codec-socks:jar:4.1.12.Final:test
+|  |  |  |  \- (io.netty:netty-codec:jar:4.1.12.Final:test - omitted for conflict with 4.1.17.Final)
+|  |  |  +- io.grpc:grpc-okhttp:jar:1.5.0:test
+|  |  |  |  +- (io.grpc:grpc-core:jar:1.5.0:test - omitted for duplicate)
+|  |  |  |  +- (com.squareup.okhttp:okhttp:jar:2.5.0:test - omitted for duplicate)
+|  |  |  |  \- (com.squareup.okio:okio:jar:1.6.0:test - omitted for duplicate)
+|  |  |  +- com.squareup.okhttp:okhttp:jar:2.5.0:test
+|  |  |  |  \- (com.squareup.okio:okio:jar:1.6.0:test - omitted for duplicate)
+|  |  |  +- com.squareup.okio:okio:jar:1.6.0:test
+|  |  |  +- io.grpc:grpc-protobuf:jar:1.5.0:test
+|  |  |  |  +- (io.grpc:grpc-core:jar:1.5.0:test - omitted for duplicate)
+|  |  |  |  +- (com.google.protobuf:protobuf-java:jar:3.3.1:test - omitted for conflict with 2.4.1)
+|  |  |  |  +- (com.google.guava:guava:jar:20.0:test - version managed from 19.0; omitted for duplicate)
+|  |  |  |  +- com.google.protobuf:protobuf-java-util:jar:3.3.1:test
+|  |  |  |  |  +- (com.google.protobuf:protobuf-java:jar:3.3.1:test - omitted for conflict with 2.4.1)
+|  |  |  |  |  +- (com.google.guava:guava:jar:20.0:test - version managed from 19.0; omitted for duplicate)
+|  |  |  |  |  \- (com.google.code.gson:gson:jar:2.8.2:test - version managed from 2.7; omitted for duplicate)
+|  |  |  |  +- (com.google.api.grpc:proto-google-common-protos:jar:0.1.9:test - omitted for duplicate)
+|  |  |  |  \- (io.grpc:grpc-protobuf-lite:jar:1.5.0:test - omitted for duplicate)
+|  |  |  +- (com.google.code.gson:gson:jar:2.8.2:test - version managed from 2.7; omitted for duplicate)
+|  |  |  +- com.google.api.grpc:proto-google-common-protos:jar:0.1.9:test
+|  |  |  |  \- (com.google.protobuf:protobuf-java:jar:3.2.0:test - omitted for conflict with 2.4.1)
+|  |  |  +- io.grpc:grpc-protobuf-lite:jar:1.5.0:test
+|  |  |  |  +- (io.grpc:grpc-core:jar:1.5.0:test - omitted for duplicate)
+|  |  |  |  \- (com.google.guava:guava:jar:20.0:test - version managed from 19.0; omitted for duplicate)
+|  |  |  +- io.grpc:grpc-protobuf-nano:jar:1.5.0:test
+|  |  |  |  +- (io.grpc:grpc-core:jar:1.5.0:test - omitted for duplicate)
+|  |  |  |  +- com.google.protobuf.nano:protobuf-javanano:jar:3.0.0-alpha-5:test
+|  |  |  |  \- (com.google.guava:guava:jar:20.0:test - version managed from 19.0; omitted for duplicate)
+|  |  |  \- io.grpc:grpc-stub:jar:1.5.0:test
+|  |  |     \- (io.grpc:grpc-core:jar:1.5.0:test - omitted for duplicate)
+|  |  +- (org.glassfish.jersey.core:jersey-client:jar:2.25:test - omitted for duplicate)
+|  |  +- (org.glassfish.jersey.media:jersey-media-json-jackson:jar:2.25:test - omitted for duplicate)
+|  |  +- org.glassfish.jersey.media:jersey-media-multipart:jar:2.25:test
+|  |  |  +- (org.glassfish.jersey.core:jersey-common:jar:2.25:test - omitted for duplicate)
+|  |  |  \- org.jvnet.mimepull:mimepull:jar:1.9.6:test
+|  |  +- (com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:jar:2.8.4:test - omitted for duplicate)
+|  |  +- (org.slf4j:jul-to-slf4j:jar:1.7.25:test - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:20.0:test - version managed from 19.0; omitted for duplicate)
+|  |  \- (com.google.code.gson:gson:jar:2.8.2:test - version managed from 2.7; omitted for duplicate)
+|  +- org.apache.pulsar:managed-ledger:jar:2.0.0-rc1-incubating:test
+|  |  +- (org.apache.bookkeeper:bookkeeper-server-shaded:jar:4.7.0:test - omitted for duplicate)
+|  |  +- (org.apache.pulsar:pulsar-common:jar:2.0.0-rc1-incubating:test - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:20.0:test - version managed from 19.0; omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:test - version managed from 1.6.3; omitted for duplicate)
+|  +- (org.apache.pulsar:pulsar-broker-common:jar:2.0.0-rc1-incubating:test - omitted for duplicate)
+|  +- (org.apache.pulsar:pulsar-zookeeper-utils:jar:2.0.0-rc1-incubating:test - omitted for duplicate)
+|  +- org.apache.pulsar:pulsar-functions-worker:jar:2.0.0-rc1-incubating:test
+|  |  +- org.apache.pulsar:pulsar-functions-runtime-shaded:jar:2.0.0-rc1-incubating:test
+|  |  |  +- (com.google.code.gson:gson:jar:2.8.2:test - version managed from 2.7; omitted for duplicate)
+|  |  |  +- (org.apache.pulsar:pulsar-connect-core:jar:2.0.0-rc1-incubating:test - omitted for duplicate)
+|  |  |  +- (com.google.code.findbugs:jsr305:jar:3.0.2:test - omitted for conflict with 3.0.0)
+|  |  |  +- (com.yahoo.datasketches:sketches-core:jar:0.8.3:test - omitted for duplicate)
+|  |  |  +- (com.yahoo.datasketches:memory:jar:0.8.3:test - omitted for duplicate)
+|  |  |  +- (com.google.guava:guava:jar:20.0:test - version managed from 19.0; omitted for duplicate)
+|  |  |  +- (org.apache.bookkeeper:bookkeeper-server-shaded:jar:4.7.0:test - omitted for duplicate)
+|  |  |  +- (org.rocksdb:rocksdbjni:jar:5.8.6:test - omitted for duplicate)
+|  |  |  +- (org.apache.zookeeper:zookeeper:jar:3.4.10:test - version managed from 3.5.3-beta; omitted for duplicate)
+|  |  |  +- (jline:jline:jar:0.9.94:test - omitted for duplicate)
+|  |  |  +- (io.netty:netty-tcnative-boringssl-static:jar:2.0.7.Final:test - version managed from 2.0.3.Final; omitted for duplicate)
+|  |  |  +- (org.apache.bookkeeper.http:http-server:jar:4.7.0:test - omitted for duplicate)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.4:test - version managed from 2.8.9; omitted for duplicate)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.4:test - version managed from 2.4.5; omitted for duplicate)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.4:test - version managed from 2.4.5; omitted for duplicate)
+|  |  |  +- (commons-cli:commons-cli:jar:1.2:test - omitted for duplicate)
+|  |  |  +- (commons-codec:commons-codec:jar:1.10:test - version managed from 1.6; omitted for duplicate)
+|  |  |  +- (commons-io:commons-io:jar:2.5:test - version managed from 2.4; omitted for duplicate)
+|  |  |  +- (org.apache.commons:commons-lang3:jar:3.4:test - version managed from 3.2.1; omitted for duplicate)
+|  |  |  +- (org.apache.commons:commons-collections4:jar:4.1:test - omitted for duplicate)
+|  |  |  +- (net.java.dev.jna:jna:jar:4.2.0:test - version managed from 3.2.7; omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.25:test - version managed from 1.6.3; omitted for duplicate)
+|  |  |  +- (commons-configuration:commons-configuration:jar:1.6:test - version managed from 1.10; omitted for duplicate)
+|  |  |  +- (commons-collections:commons-collections:jar:3.2.1:test - omitted for duplicate)
+|  |  |  +- (commons-digester:commons-digester:jar:1.8:test - omitted for duplicate)
+|  |  |  +- (commons-beanutils:commons-beanutils:jar:1.7.0:compile - scope updated from test; omitted for duplicate)
+|  |  |  +- (commons-beanutils:commons-beanutils-core:jar:1.8.0:test - omitted for duplicate)
+|  |  |  +- (commons-lang:commons-lang:jar:2.6:test - omitted for duplicate)
+|  |  |  +- (commons-logging:commons-logging:jar:1.1.1:test - omitted for duplicate)
+|  |  |  +- (org.apache.logging.log4j:log4j-api:jar:2.10.0:test - omitted for duplicate)
+|  |  |  +- (org.apache.logging.log4j:log4j-core:jar:2.10.0:test - omitted for duplicate)
+|  |  |  \- (org.apache.logging.log4j:log4j-slf4j-impl:jar:2.10.0:test - omitted for duplicate)
+|  |  +- (org.apache.pulsar:pulsar-client-original:jar:2.0.0-rc1-incubating:test - omitted for duplicate)
+|  |  +- (org.apache.pulsar:pulsar-client-admin-original:jar:2.0.0-rc1-incubating:test - omitted for duplicate)
+|  |  +- (org.apache.pulsar:pulsar-common:jar:2.0.0-rc1-incubating:test - omitted for duplicate)
+|  |  +- (org.glassfish.jersey.media:jersey-media-json-jackson:jar:2.25:test - omitted for duplicate)
+|  |  +- (org.glassfish.jersey.core:jersey-server:jar:2.25:test - omitted for duplicate)
+|  |  +- (org.glassfish.jersey.containers:jersey-container-servlet:jar:2.25:test - omitted for duplicate)
+|  |  +- (org.glassfish.jersey.containers:jersey-container-servlet-core:jar:2.25:test - omitted for duplicate)
+|  |  +- (org.glassfish.jersey.media:jersey-media-multipart:jar:2.25:test - omitted for duplicate)
+|  |  +- (org.eclipse.jetty:jetty-server:jar:9.3.11.v20160721:test - omitted for duplicate)
+|  |  +- (org.eclipse.jetty:jetty-servlet:jar:9.3.11.v20160721:test - version managed from 9.4.5.v20170502; omitted for duplicate)
+|  |  \- org.apache.distributedlog:distributedlog-core-shaded:jar:4.7.0:test
+|  |     +- (io.netty:netty-all:jar:4.1.21.Final:test - version managed from 4.1.12.Final; omitted for duplicate)
+|  |     +- (io.netty:netty-tcnative-boringssl-static:jar:2.0.7.Final:test - version managed from 2.0.3.Final; omitted for duplicate)
+|  |     +- (com.beust:jcommander:jar:1.48:test - omitted for duplicate)
+|  |     +- (org.slf4j:slf4j-api:jar:1.7.25:test - version managed from 1.8.0-alpha2; omitted for duplicate)
+|  |     \- (commons-configuration:commons-configuration:jar:1.6:test - version managed from 1.10; omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-server:jar:9.3.11.v20160721:test - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-servlet:jar:9.3.11.v20160721:test - version managed from 9.4.5.v20170502; omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-servlets:jar:9.3.11.v20160721:test - omitted for duplicate)
+|  +- (org.glassfish.jersey.core:jersey-server:jar:2.25:test - omitted for duplicate)
+|  +- (org.glassfish.jersey.containers:jersey-container-servlet-core:jar:2.25:test - omitted for duplicate)
+|  +- org.glassfish.jersey.containers:jersey-container-servlet:jar:2.25:test
+|  |  +- (org.glassfish.jersey.containers:jersey-container-servlet-core:jar:2.25:test - omitted for duplicate)
+|  |  +- (org.glassfish.jersey.core:jersey-common:jar:2.25:test - omitted for duplicate)
+|  |  +- (org.glassfish.jersey.core:jersey-server:jar:2.25:test - omitted for duplicate)
+|  |  \- (javax.ws.rs:javax.ws.rs-api:jar:2.1:test - version managed from 2.0.1; omitted for duplicate)
+|  +- (org.glassfish.jersey.media:jersey-media-json-jackson:jar:2.25:test - omitted for duplicate)
+|  +- (com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:jar:2.8.4:test - omitted for duplicate)
+|  +- (org.slf4j:jul-to-slf4j:jar:1.7.25:test - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:20.0:test - version managed from 19.0; omitted for duplicate)
+|  +- (com.beust:jcommander:jar:1.48:compile - scope updated from test; omitted for duplicate)
+|  +- com.wordnik:swagger-annotations:jar:1.5.3-M1:test
+|  +- (io.prometheus:simpleclient:jar:0.0.23:test - version managed from 0.0.21; omitted for duplicate)
+|  +- (io.prometheus:simpleclient_hotspot:jar:0.0.23:test - version managed from 0.0.21; omitted for duplicate)
+|  +- io.swagger:swagger-core:jar:1.5.3:test
+|  |  +- (org.apache.commons:commons-lang3:jar:3.4:test - version managed from 3.2.1; omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:test - version managed from 1.6.3; omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.4:test - version managed from 2.4.5; omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.4:test - version managed from 2.4.5; omitted for duplicate)
+|  |  +- com.fasterxml.jackson.datatype:jackson-datatype-joda:jar:2.8.4:test (version managed from 2.4.5)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.4:test - version managed from 2.8.9; omitted for duplicate)
+|  |  |  \- joda-time:joda-time:jar:2.7:test
+|  |  +- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.8.4:test (version managed from 2.4.5)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.4:test - version managed from 2.8.9; omitted for duplicate)
+|  |  |  \- org.yaml:snakeyaml:jar:1.15:test
+|  |  +- io.swagger:swagger-models:jar:1.5.3:test
+|  |  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.4:test - version managed from 2.4.5; omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.25:test - version managed from 1.6.3; omitted for duplicate)
+|  |  |  \- io.swagger:swagger-annotations:jar:1.5.3:test
+|  |  +- (com.google.guava:guava:jar:20.0:test - version managed from 18.0; omitted for duplicate)
+|  |  \- (javax.validation:validation-api:jar:1.1.0.Final:test - omitted for duplicate)
+|  +- org.hdrhistogram:HdrHistogram:jar:2.1.9:test
+|  +- (com.google.code.gson:gson:jar:2.8.2:test - version managed from 2.7; omitted for duplicate)
+|  +- com.github.zafarkhaja:java-semver:jar:0.9.0:test
+|  +- org.aspectj:aspectjrt:jar:1.8.9:test
+|  +- org.aspectj:aspectjweaver:jar:1.8.9:test
+|  +- com.ea.agentloader:ea-agent-loader:jar:1.0.2:test
+|  \- com.carrotsearch:hppc:jar:0.7.3:test
++- org.apache.pulsar:pulsar-broker:test-jar:tests:2.0.0-rc1-incubating:test
+|  +- (commons-codec:commons-codec:jar:1.10:test - version managed from 1.6; omitted for duplicate)
+|  +- (org.apache.commons:commons-lang3:jar:3.4:test - version managed from 3.2.1; omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:test - version managed from 1.6.3; omitted for duplicate)
+|  +- (io.netty:netty-all:jar:4.1.21.Final:test - version managed from 4.1.12.Final; omitted for duplicate)
+|  +- (com.google.protobuf:protobuf-java:jar:2.4.1:test - omitted for duplicate)
+|  +- (org.apache.pulsar:pulsar-common:jar:2.0.0-rc1-incubating:test - omitted for duplicate)
+|  +- (org.apache.pulsar:pulsar-client-original:jar:2.0.0-rc1-incubating:test - omitted for duplicate)
+|  +- (org.apache.pulsar:pulsar-websocket:jar:2.0.0-rc1-incubating:test - omitted for duplicate)
+|  +- (org.apache.pulsar:pulsar-client-admin-original:jar:2.0.0-rc1-incubating:test - omitted for duplicate)
+|  +- (org.apache.pulsar:managed-ledger:jar:2.0.0-rc1-incubating:test - omitted for duplicate)
+|  +- (org.apache.pulsar:pulsar-broker-common:jar:2.0.0-rc1-incubating:test - omitted for duplicate)
+|  +- (org.apache.pulsar:pulsar-zookeeper-utils:jar:2.0.0-rc1-incubating:test - omitted for duplicate)
+|  +- (org.apache.pulsar:pulsar-functions-worker:jar:2.0.0-rc1-incubating:test - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-server:jar:9.3.11.v20160721:test - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-servlet:jar:9.3.11.v20160721:test - version managed from 9.4.5.v20170502; omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-servlets:jar:9.3.11.v20160721:test - omitted for duplicate)
+|  +- (org.glassfish.jersey.core:jersey-server:jar:2.25:test - omitted for duplicate)
+|  +- (org.glassfish.jersey.containers:jersey-container-servlet-core:jar:2.25:test - omitted for duplicate)
+|  +- (org.glassfish.jersey.containers:jersey-container-servlet:jar:2.25:test - omitted for duplicate)
+|  +- (org.glassfish.jersey.media:jersey-media-json-jackson:jar:2.25:test - omitted for duplicate)
+|  +- (com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:jar:2.8.4:test - omitted for duplicate)
+|  +- (org.slf4j:jul-to-slf4j:jar:1.7.25:test - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:20.0:test - version managed from 18.0; omitted for duplicate)
+|  +- (com.beust:jcommander:jar:1.48:compile - scope updated from test; omitted for duplicate)
+|  +- (com.wordnik:swagger-annotations:jar:1.5.3-M1:test - omitted for duplicate)
+|  +- (io.prometheus:simpleclient:jar:0.0.23:test - version managed from 0.0.21; omitted for duplicate)
+|  +- (io.prometheus:simpleclient_hotspot:jar:0.0.23:test - version managed from 0.0.21; omitted for duplicate)
+|  +- (io.swagger:swagger-core:jar:1.5.3:test - omitted for duplicate)
+|  +- (org.hdrhistogram:HdrHistogram:jar:2.1.9:test - omitted for duplicate)
+|  +- (com.google.code.gson:gson:jar:2.8.2:test - version managed from 2.7; omitted for duplicate)
+|  +- (com.github.zafarkhaja:java-semver:jar:0.9.0:test - omitted for duplicate)
+|  +- (org.aspectj:aspectjrt:jar:1.8.9:test - omitted for duplicate)
+|  +- (org.aspectj:aspectjweaver:jar:1.8.9:test - omitted for duplicate)
+|  +- (com.ea.agentloader:ea-agent-loader:jar:1.0.2:test - omitted for duplicate)
+|  \- (com.carrotsearch:hppc:jar:0.7.3:test - omitted for duplicate)
++- org.apache.pulsar:managed-ledger:test-jar:tests:2.0.0-rc1-incubating:test
+|  +- (org.apache.bookkeeper:bookkeeper-server-shaded:jar:4.7.0:test - omitted for duplicate)
+|  +- (org.apache.pulsar:pulsar-common:jar:2.0.0-rc1-incubating:test - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:20.0:test - version managed from 18.0; omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:test - version managed from 1.6.3; omitted for duplicate)
++- com.beust:jcommander:jar:1.48:compile
++- org.mockito:mockito-core:jar:1.10.19:test
+|  +- org.hamcrest:hamcrest-core:jar:1.1:test
+|  \- org.objenesis:objenesis:jar:2.1:test
++- org.apache.pulsar:buildtools:jar:2.0.0-rc1-incubating:test
+|  +- (org.testng:testng:jar:6.13.1:test - omitted for duplicate)
+|  +- org.apache.logging.log4j:log4j-api:jar:2.10.0:test
+|  +- org.apache.logging.log4j:log4j-core:jar:2.10.0:test
+|  |  \- (org.apache.logging.log4j:log4j-api:jar:2.10.0:test - omitted for duplicate)
+|  \- org.apache.logging.log4j:log4j-slf4j-impl:jar:2.10.0:test
+|     +- (org.slf4j:slf4j-api:jar:1.7.25:test - version managed from 1.8.0-alpha2; omitted for duplicate)
+|     +- (org.apache.logging.log4j:log4j-api:jar:2.10.0:test - omitted for duplicate)
+|     \- (org.apache.logging.log4j:log4j-core:jar:2.10.0:test - omitted for duplicate)
++- org.testng:testng:jar:6.13.1:test
+|  \- (com.beust:jcommander:jar:1.48:test - version managed from 1.72; omitted for duplicate)
++- org.powermock:powermock-api-mockito:jar:1.7.3:test
+|  +- org.powermock:powermock-api-mockito-common:jar:1.7.3:test
+|  |  +- org.powermock:powermock-api-support:jar:1.7.3:test
+|  |  |  +- (org.powermock:powermock-reflect:jar:1.7.3:test - omitted for duplicate)
+|  |  |  \- (org.powermock:powermock-core:jar:1.7.3:test - omitted for duplicate)
+|  |  \- (org.mockito:mockito-core:jar:1.10.19:test - version managed from 2.8.9; omitted for duplicate)
+|  \- (org.mockito:mockito-core:jar:1.10.19:test - version managed from 2.8.9; omitted for duplicate)
++- org.powermock:powermock-module-testng:jar:1.7.3:test
+|  +- org.powermock:powermock-core:jar:1.7.3:test
+|  |  +- org.powermock:powermock-reflect:jar:1.7.3:test
+|  |  |  \- (org.objenesis:objenesis:jar:2.4:test - omitted for conflict with 2.1)
+|  |  +- (org.javassist:javassist:jar:3.21.0-GA:test - omitted for conflict with 3.20.0-GA)
+|  |  \- (org.mockito:mockito-core:jar:1.10.19:test - version managed from 2.8.9; omitted for duplicate)
+|  +- org.powermock:powermock-module-testng-common:jar:1.7.3:test
+|  |  +- (org.powermock:powermock-reflect:jar:1.7.3:test - omitted for duplicate)
+|  |  +- (org.powermock:powermock-core:jar:1.7.3:test - omitted for duplicate)
+|  |  \- (org.testng:testng:jar:6.13.1:test - version managed from 6.9.10; omitted for duplicate)
+|  \- (org.testng:testng:jar:6.13.1:test - version managed from 6.9.10; omitted for duplicate)
++- org.projectlombok:lombok:jar:1.16.20:provided
+\- org.apache.bookkeeper:bookkeeper-server-tests-shaded:jar:4.7.0:test
+   +- (org.rocksdb:rocksdbjni:jar:5.8.6:compile - scope updated from test; omitted for duplicate)
+   +- (org.apache.zookeeper:zookeeper:jar:3.4.10:compile - version managed from 3.5.3-beta; scope updated from test; omitted for duplicate)
+   +- (io.netty:netty-all:jar:4.1.21.Final:test - version managed from 4.1.12.Final; omitted for duplicate)
+   +- (io.netty:netty-tcnative-boringssl-static:jar:2.0.7.Final:test - version managed from 2.0.3.Final; omitted for duplicate)
+   +- (org.apache.bookkeeper.http:http-server:jar:4.7.0:compile - scope updated from test; omitted for duplicate)
+   +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.4:test - version managed from 2.8.9; omitted for duplicate)
+   +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.4:test - version managed from 2.8.9; omitted for duplicate)
+   +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.4:test - version managed from 2.8.9; omitted for duplicate)
+   +- (commons-cli:commons-cli:jar:1.2:compile - scope updated from test; omitted for duplicate)
+   +- (commons-codec:commons-codec:jar:1.10:test - version managed from 1.6; omitted for duplicate)
+   +- (commons-io:commons-io:jar:2.5:compile - version managed from 2.4; scope updated from test; omitted for duplicate)
+   +- (org.apache.commons:commons-lang3:jar:3.4:test - version managed from 3.3.2; omitted for duplicate)
+   +- (org.apache.commons:commons-collections4:jar:4.1:compile - scope updated from test; omitted for duplicate)
+   +- (com.beust:jcommander:jar:1.48:test - version managed from 1.72; omitted for duplicate)
+   +- (net.java.dev.jna:jna:jar:4.2.0:compile - version managed from 3.2.7; scope updated from test; omitted for duplicate)
+   +- (org.slf4j:slf4j-api:jar:1.7.25:test - version managed from 1.8.0-alpha2; omitted for duplicate)
+   +- (commons-configuration:commons-configuration:jar:1.6:compile - version managed from 1.10; scope updated from test; omitted for duplicate)
+   +- (commons-lang:commons-lang:jar:2.6:compile - scope updated from test; omitted for duplicate)
+   \- (commons-logging:commons-logging:jar:1.1.1:test - omitted for duplicate)

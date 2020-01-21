@@ -1,0 +1,14 @@
+org.apache.sling:org.apache.sling.testing.osgi-mock.core:bundle:2.4.2
++- com.google.guava:guava:jar:15.0:compile
++- org.apache.commons:commons-lang3:jar:3.3.2:compile
++- commons-io:commons-io:jar:2.4:compile
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- org.reflections:reflections:jar:0.9.9:compile
+|  \- org.javassist:javassist:jar:3.18.2-GA:compile
++- org.mockito:mockito-core:jar:2.21.0:test
++- junit:junit:jar:4.12:test
++- org.apache.sling:org.apache.sling.testing.logging-mock:jar:2.0.0:test
++- org.osgi:org.osgi.annotation.versioning:jar:1.0.0:provided
++- org.osgi:osgi.core:jar:6.0.0:provided
++- org.osgi:osgi.cmpn:jar:6.0.0:provided
+\- org.jetbrains:annotations:jar:16.0.2:provided

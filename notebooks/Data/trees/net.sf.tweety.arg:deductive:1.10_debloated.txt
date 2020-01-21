@@ -1,0 +1,28 @@
+net.sf.tweety.arg:deductive:jar:1.10
++- net.sf.tweety.logics:pl:jar:1.10:compile
+|  +- org.ow2.sat4j:org.ow2.sat4j.core:jar:2.3.4:compile
+|  +- net.sf.tweety.logics:fol:jar:1.10:compile
+|  |  +- net.sf.tweety.logics:commons:jar:1.10:compile
+|  |  |  +- (net.sf.tweety:commons:jar:1.10:compile - omitted for duplicate)
+|  |  |  \- (net.sf.tweety:math:jar:1.10:compile - omitted for duplicate)
+|  |  \- net.sf.tweety:plugin:jar:1.10:compile
+|  |     +- jspf:core:jar:1.0.2:compile
+|  |     \- (net.sf.tweety:math:jar:1.10:compile - omitted for duplicate)
+|  \- net.sf.tweety:math:jar:1.10:compile
+|     +- net.sf.tweety:commons:jar:1.10:compile
+|     |  +- ch.qos.logback:logback-core:jar:0.9.30:compile
+|     |  +- ch.qos.logback:logback-classic:jar:0.9.30:compile
+|     |  |  +- (ch.qos.logback:logback-core:jar:0.9.30:compile - omitted for duplicate)
+|     |  |  \- (org.slf4j:slf4j-api:jar:1.6.2:compile - omitted for conflict with 1.6.3)
+|     |  \- (org.slf4j:log4j-over-slf4j:jar:1.6.3:compile - omitted for duplicate)
+|     +- org.apache.commons:commons-math:jar:2.1:compile
+|     +- org.apache.commons:commons-math3:jar:3.2:compile
+|     +- (gov.nist.math:jama:jar:1.0.3:compile - omitted for duplicate)
+|     +- org.slf4j:log4j-over-slf4j:jar:1.6.3:compile
+|     |  \- org.slf4j:slf4j-api:jar:1.6.3:compile
+|     +- org.ojalgo:ojalgo:jar:35.0:compile
+|     \- com.dbtsai.lbfgs:lbfgs:jar:0.1:compile
+|        \- org.scala-lang:scala-library:jar:2.10.3:compile
+\- net.sf.tweety:graphs:jar:1.10:compile
+   +- (net.sf.tweety:math:jar:1.10:compile - omitted for duplicate)
+   \- gov.nist.math:jama:jar:1.0.3:compile

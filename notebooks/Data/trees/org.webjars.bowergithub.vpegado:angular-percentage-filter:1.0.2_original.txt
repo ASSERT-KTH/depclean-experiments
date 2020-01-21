@@ -1,0 +1,2 @@
+org.webjars.bowergithub.vpegado:angular-percentage-filter:jar:1.0.2
+\- org.webjars.bowergithub.angular:bower-angular:jar:1.7.8:compile

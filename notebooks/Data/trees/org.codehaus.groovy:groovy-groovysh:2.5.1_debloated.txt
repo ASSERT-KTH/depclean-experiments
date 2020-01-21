@@ -1,0 +1,15 @@
+org.codehaus.groovy:groovy-groovysh:jar:2.5.1
++- org.codehaus.groovy:groovy:jar:2.5.1:compile
++- org.codehaus.groovy:groovy-cli-picocli:jar:2.5.1:compile
+|  +- (org.codehaus.groovy:groovy:jar:2.5.1:compile - omitted for duplicate)
+|  \- info.picocli:picocli:jar:3.2.0:compile
++- org.codehaus.groovy:groovy-console:jar:2.5.1:compile
+|  +- (org.codehaus.groovy:groovy:jar:2.5.1:compile - omitted for duplicate)
+|  +- (org.codehaus.groovy:groovy-cli-picocli:jar:2.5.1:compile - omitted for duplicate)
+|  +- org.codehaus.groovy:groovy-swing:jar:2.5.1:compile
+|  |  \- (org.codehaus.groovy:groovy:jar:2.5.1:compile - omitted for duplicate)
+|  \- org.codehaus.groovy:groovy-templates:jar:2.5.1:compile
+|     +- (org.codehaus.groovy:groovy:jar:2.5.1:compile - omitted for duplicate)
+|     \- org.codehaus.groovy:groovy-xml:jar:2.5.1:compile
+|        \- (org.codehaus.groovy:groovy:jar:2.5.1:compile - omitted for duplicate)
+\- jline:jline:jar:2.14.6:compile

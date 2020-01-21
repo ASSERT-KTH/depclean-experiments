@@ -1,0 +1,9 @@
+org.hildan.livedoc:livedoc-core:jar:4.0.0
++- org.hildan.livedoc:livedoc-annotations:jar:4.0.0:compile
+|  \- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile
++- org.reflections:reflections:jar:0.9.10:compile
+|  +- com.google.guava:guava:jar:15.0:compile
+|  +- org.javassist:javassist:jar:3.19.0-GA:compile
+|  \- com.google.code.findbugs:annotations:jar:2.0.1:compile
++- org.slf4j:slf4j-api:jar:1.7.10:compile
+\- org.jetbrains:annotations:jar:13.0:compile

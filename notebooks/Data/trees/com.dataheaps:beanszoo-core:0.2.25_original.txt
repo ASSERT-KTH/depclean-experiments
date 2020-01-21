@@ -1,0 +1,508 @@
+com.dataheaps:beanszoo-core:jar:0.2.25
++- org.projectlombok:lombok:jar:1.16.6:provided
++- org.apache.commons:commons-lang3:jar:3.4:compile
++- org.yaml:snakeyaml:jar:1.16:compile
++- org.apache.zookeeper:zookeeper:jar:3.4.6:compile
+|  +- (org.slf4j:slf4j-api:jar:1.6.1:compile - omitted for conflict with 1.7.22)
+|  +- org.slf4j:slf4j-log4j12:jar:1.6.1:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.6.1:compile - omitted for duplicate)
+|  |  \- (log4j:log4j:jar:1.2.16:compile - omitted for duplicate)
+|  +- log4j:log4j:jar:1.2.16:compile
+|  +- jline:jline:jar:0.9.94:compile
+|  |  \- (junit:junit:jar:3.8.1:compile - omitted for conflict with 4.11)
+|  \- io.netty:netty:jar:3.7.0.Final:compile
++- commons-io:commons-io:jar:2.4:compile
++- de.ruedigermoeller:fst:jar:2.47:compile
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.5.3:compile
+|  +- org.javassist:javassist:jar:3.19.0-GA:compile
+|  \- org.objenesis:objenesis:jar:2.4:compile
++- org.slf4j:slf4j-api:jar:1.7.22:compile
++- junit:junit:jar:4.11:test (scope not updated to compile)
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- commons-beanutils:commons-beanutils:jar:1.9.3:compile
+|  +- commons-logging:commons-logging:jar:1.2:compile
+|  \- commons-collections:commons-collections:jar:3.2.2:compile
++- org.apache.commons:commons-vfs2:jar:2.0:compile
+|  +- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for conflict with 1.2)
+|  +- org.apache.maven.scm:maven-scm-api:jar:1.4:compile
+|  |  \- org.codehaus.plexus:plexus-utils:jar:1.5.6:compile
+|  \- org.apache.maven.scm:maven-scm-provider-svnexe:jar:1.4:compile
+|     +- org.apache.maven.scm:maven-scm-provider-svn-commons:jar:1.4:compile
+|     |  +- (org.apache.maven.scm:maven-scm-api:jar:1.4:compile - omitted for duplicate)
+|     |  \- (org.codehaus.plexus:plexus-utils:jar:1.5.6:compile - omitted for duplicate)
+|     +- regexp:regexp:jar:1.3:compile
+|     +- (org.apache.maven.scm:maven-scm-api:jar:1.4:compile - omitted for duplicate)
+|     \- (org.codehaus.plexus:plexus-utils:jar:1.5.6:compile - omitted for duplicate)
++- org.apache.twill:twill-api:jar:0.11.0:compile
+|  +- org.apache.twill:twill-common:jar:0.11.0:compile
+|  |  +- (com.google.code.findbugs:jsr305:jar:2.0.1:compile - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for conflict with 1.7.22)
+|  +- org.apache.twill:twill-discovery-api:jar:0.11.0:compile
+|  |  \- (org.apache.twill:twill-common:jar:0.11.0:compile - omitted for duplicate)
+|  \- com.google.code.findbugs:jsr305:jar:2.0.1:compile
++- org.apache.twill:twill-yarn:jar:0.11.0:compile
+|  +- org.apache.twill:twill-core:jar:0.11.0:compile
+|  |  +- (org.apache.twill:twill-api:jar:0.11.0:compile - omitted for duplicate)
+|  |  +- org.apache.twill:twill-zookeeper:jar:0.11.0:compile
+|  |  |  +- (org.apache.twill:twill-api:jar:0.11.0:compile - omitted for duplicate)
+|  |  |  +- (org.apache.twill:twill-common:jar:0.11.0:compile - omitted for duplicate)
+|  |  |  +- (com.google.guava:guava:jar:13.0.1:compile - omitted for duplicate)
+|  |  |  +- (com.google.code.findbugs:jsr305:jar:2.0.1:compile - omitted for duplicate)
+|  |  |  +- (org.apache.zookeeper:zookeeper:jar:3.4.5:compile - omitted for conflict with 3.4.6)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for conflict with 1.7.22)
+|  |  |  +- (ch.qos.logback:logback-core:jar:1.0.9:compile - omitted for duplicate)
+|  |  |  \- (ch.qos.logback:logback-classic:jar:1.0.9:compile - omitted for duplicate)
+|  |  +- (org.apache.twill:twill-discovery-core:jar:0.11.0:compile - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:13.0.1:compile - omitted for duplicate)
+|  |  +- (com.google.code.gson:gson:jar:2.2.4:compile - omitted for duplicate)
+|  |  +- (io.netty:netty:jar:3.6.6.Final:compile - omitted for conflict with 3.7.0.Final)
+|  |  +- org.xerial.snappy:snappy-java:jar:1.0.5:compile
+|  |  +- org.ow2.asm:asm-all:jar:5.0.2:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for conflict with 1.7.22)
+|  |  +- ch.qos.logback:logback-core:jar:1.0.9:compile
+|  |  +- ch.qos.logback:logback-classic:jar:1.0.9:compile
+|  |  |  +- (ch.qos.logback:logback-core:jar:1.0.9:compile - omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.2:compile - omitted for conflict with 1.7.22)
+|  |  +- org.apache.kafka:kafka_2.10:jar:0.8.0:compile
+|  |  |  +- (org.apache.zookeeper:zookeeper:jar:3.3.4:compile - omitted for conflict with 3.4.6)
+|  |  |  +- org.scala-lang:scala-library:jar:2.10.1:compile
+|  |  |  +- (log4j:log4j:jar:1.2.15:compile - omitted for conflict with 1.2.16)
+|  |  |  +- (net.sf.jopt-simple:jopt-simple:jar:3.2:compile - omitted for duplicate)
+|  |  |  +- org.scala-lang:scala-compiler:jar:2.10.1:compile
+|  |  |  |  +- (org.scala-lang:scala-library:jar:2.10.1:compile - omitted for duplicate)
+|  |  |  |  \- org.scala-lang:scala-reflect:jar:2.10.1:compile
+|  |  |  |     \- (org.scala-lang:scala-library:jar:2.10.1:compile - omitted for duplicate)
+|  |  |  +- com.101tec:zkclient:jar:0.3:compile
+|  |  |  |  +- (org.apache.zookeeper:zookeeper:jar:3.3.1:compile - omitted for conflict with 3.4.6)
+|  |  |  |  \- (log4j:log4j:jar:1.2.14:compile - omitted for conflict with 1.2.16)
+|  |  |  +- (org.xerial.snappy:snappy-java:jar:1.0.4.1:compile - omitted for conflict with 1.0.5)
+|  |  |  +- com.yammer.metrics:metrics-core:jar:2.2.0:compile
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.2:compile - omitted for conflict with 1.7.22)
+|  |  |  \- com.yammer.metrics:metrics-annotation:jar:2.2.0:compile
+|  |  \- net.sf.jopt-simple:jopt-simple:jar:3.2:compile
+|  +- org.apache.twill:twill-discovery-core:jar:0.11.0:compile
+|  |  +- (org.apache.twill:twill-discovery-api:jar:0.11.0:compile - omitted for duplicate)
+|  |  +- (org.apache.twill:twill-zookeeper:jar:0.11.0:compile - omitted for duplicate)
+|  |  \- (com.google.code.gson:gson:jar:2.2.4:compile - omitted for duplicate)
+|  +- com.google.guava:guava:jar:13.0.1:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for conflict with 1.7.22)
+|  +- org.slf4j:jcl-over-slf4j:jar:1.7.2:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.2:compile - omitted for conflict with 1.7.22)
+|  +- (org.apache.hadoop:hadoop-common:jar:2.3.0:compile - omitted for conflict with 2.7.0)
+|  \- (org.apache.hadoop:hadoop-hdfs:jar:2.3.0:compile - omitted for conflict with 2.7.0)
++- org.slf4j:slf4j-simple:jar:1.7.22:test
+|  \- (org.slf4j:slf4j-api:jar:1.7.22:test - omitted for duplicate)
++- org.apache.hadoop:hadoop-minicluster:jar:2.7.0:test
+|  +- org.apache.hadoop:hadoop-common:test-jar:tests:2.7.0:test
+|  |  +- (org.apache.hadoop:hadoop-annotations:jar:2.7.0:test - omitted for conflict with 2.3.0)
+|  |  +- (com.google.guava:guava:jar:11.0.2:test - omitted for conflict with 13.0.1)
+|  |  +- (commons-cli:commons-cli:jar:1.2:test - omitted for duplicate)
+|  |  +- (org.apache.commons:commons-math3:jar:3.1.1:test - omitted for duplicate)
+|  |  +- (xmlenc:xmlenc:jar:0.52:test - omitted for duplicate)
+|  |  +- (commons-httpclient:commons-httpclient:jar:3.1:test - omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.4:test - omitted for duplicate)
+|  |  +- (commons-io:commons-io:jar:2.4:test - omitted for duplicate)
+|  |  +- (commons-net:commons-net:jar:3.1:test - omitted for duplicate)
+|  |  +- (commons-collections:commons-collections:jar:3.2.1:test - omitted for conflict with 3.2.2)
+|  |  +- (javax.servlet:servlet-api:jar:2.5:test - omitted for duplicate)
+|  |  +- (org.mortbay.jetty:jetty:jar:6.1.26:test - omitted for duplicate)
+|  |  +- (org.mortbay.jetty:jetty-util:jar:6.1.26:test - omitted for duplicate)
+|  |  +- (javax.servlet.jsp:jsp-api:jar:2.1:test - omitted for duplicate)
+|  |  +- (com.sun.jersey:jersey-core:jar:1.9:test - omitted for duplicate)
+|  |  +- (com.sun.jersey:jersey-json:jar:1.9:test - omitted for duplicate)
+|  |  +- (com.sun.jersey:jersey-server:jar:1.9:test - omitted for duplicate)
+|  |  +- (commons-logging:commons-logging:jar:1.1.3:test - omitted for conflict with 1.2)
+|  |  +- (log4j:log4j:jar:1.2.17:test - omitted for conflict with 1.2.16)
+|  |  +- (net.java.dev.jets3t:jets3t:jar:0.9.0:test - omitted for duplicate)
+|  |  +- (commons-lang:commons-lang:jar:2.6:test - omitted for duplicate)
+|  |  +- (commons-configuration:commons-configuration:jar:1.6:test - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.10:test - omitted for conflict with 1.7.22)
+|  |  +- (org.slf4j:slf4j-log4j12:jar:1.7.10:test - omitted for conflict with 1.6.1)
+|  |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.9.13:test - omitted for conflict with 1.8.8)
+|  |  +- (org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:test - omitted for conflict with 1.8.8)
+|  |  +- (org.apache.avro:avro:jar:1.7.4:test - omitted for duplicate)
+|  |  +- (com.google.protobuf:protobuf-java:jar:2.5.0:test - omitted for duplicate)
+|  |  +- (com.google.code.gson:gson:jar:2.2.4:test - omitted for duplicate)
+|  |  +- (org.apache.hadoop:hadoop-auth:jar:2.7.0:test - omitted for conflict with 2.3.0)
+|  |  +- (com.jcraft:jsch:jar:0.1.42:test - omitted for duplicate)
+|  |  +- (org.apache.curator:curator-client:jar:2.7.1:compile - scope updated from test; omitted for duplicate)
+|  |  +- (org.apache.curator:curator-recipes:jar:2.7.1:test - omitted for duplicate)
+|  |  +- (com.google.code.findbugs:jsr305:jar:3.0.0:test - omitted for conflict with 2.0.1)
+|  |  +- (org.apache.htrace:htrace-core:jar:3.1.0-incubating:test - omitted for duplicate)
+|  |  +- (org.apache.zookeeper:zookeeper:jar:3.4.6:test - omitted for duplicate)
+|  |  \- (org.apache.commons:commons-compress:jar:1.4.1:test - omitted for duplicate)
+|  +- org.apache.hadoop:hadoop-hdfs:test-jar:tests:2.7.0:test
+|  |  +- (com.google.guava:guava:jar:11.0.2:test - omitted for conflict with 13.0.1)
+|  |  +- (org.mortbay.jetty:jetty:jar:6.1.26:test - omitted for duplicate)
+|  |  +- (org.mortbay.jetty:jetty-util:jar:6.1.26:test - omitted for duplicate)
+|  |  +- (com.sun.jersey:jersey-core:jar:1.9:test - omitted for duplicate)
+|  |  +- (com.sun.jersey:jersey-server:jar:1.9:test - omitted for duplicate)
+|  |  +- (commons-cli:commons-cli:jar:1.2:test - omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.4:test - omitted for duplicate)
+|  |  +- (commons-io:commons-io:jar:2.4:test - omitted for duplicate)
+|  |  +- (commons-lang:commons-lang:jar:2.6:test - omitted for duplicate)
+|  |  +- (commons-logging:commons-logging:jar:1.1.3:test - omitted for conflict with 1.2)
+|  |  +- (commons-daemon:commons-daemon:jar:1.0.13:test - omitted for duplicate)
+|  |  +- (log4j:log4j:jar:1.2.17:test - omitted for conflict with 1.2.16)
+|  |  +- (com.google.protobuf:protobuf-java:jar:2.5.0:test - omitted for duplicate)
+|  |  +- (javax.servlet:servlet-api:jar:2.5:test - omitted for duplicate)
+|  |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.9.13:test - omitted for conflict with 1.8.8)
+|  |  +- (org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:test - omitted for conflict with 1.8.8)
+|  |  +- (xmlenc:xmlenc:jar:0.52:test - omitted for duplicate)
+|  |  +- (io.netty:netty-all:jar:4.0.23.Final:test - omitted for duplicate)
+|  |  +- (xerces:xercesImpl:jar:2.9.1:test - omitted for duplicate)
+|  |  +- (org.apache.htrace:htrace-core:jar:3.1.0-incubating:test - omitted for duplicate)
+|  |  \- (org.fusesource.leveldbjni:leveldbjni-all:jar:1.8:test - omitted for duplicate)
+|  +- org.apache.hadoop:hadoop-yarn-server-tests:test-jar:tests:2.7.0:test
+|  |  +- (org.apache.hadoop:hadoop-annotations:jar:2.7.0:test - omitted for conflict with 2.3.0)
+|  |  +- org.apache.hadoop:hadoop-yarn-server-common:jar:2.7.0:test
+|  |  |  +- (org.apache.hadoop:hadoop-yarn-api:jar:2.7.0:test - omitted for duplicate)
+|  |  |  +- (org.apache.hadoop:hadoop-yarn-common:jar:2.7.0:test - omitted for duplicate)
+|  |  |  +- (com.google.guava:guava:jar:11.0.2:test - omitted for conflict with 13.0.1)
+|  |  |  +- (commons-logging:commons-logging:jar:1.1.3:test - omitted for conflict with 1.2)
+|  |  |  +- (org.apache.hadoop:hadoop-annotations:jar:2.7.0:test - omitted for conflict with 2.3.0)
+|  |  |  +- (com.google.protobuf:protobuf-java:jar:2.5.0:test - omitted for duplicate)
+|  |  |  +- (org.apache.zookeeper:zookeeper:jar:3.4.6:test - omitted for duplicate)
+|  |  |  \- (org.fusesource.leveldbjni:leveldbjni-all:jar:1.8:test - omitted for duplicate)
+|  |  +- org.apache.hadoop:hadoop-yarn-server-nodemanager:jar:2.7.0:test
+|  |  |  +- (org.apache.hadoop:hadoop-yarn-common:jar:2.7.0:test - omitted for duplicate)
+|  |  |  +- (org.apache.hadoop:hadoop-yarn-api:jar:2.7.0:test - omitted for duplicate)
+|  |  |  +- (javax.xml.bind:jaxb-api:jar:2.2.2:compile - scope updated from test; omitted for duplicate)
+|  |  |  +- (org.codehaus.jettison:jettison:jar:1.1:test - omitted for duplicate)
+|  |  |  +- (commons-lang:commons-lang:jar:2.6:test - omitted for duplicate)
+|  |  |  +- (javax.servlet:servlet-api:jar:2.5:test - omitted for duplicate)
+|  |  |  +- (commons-codec:commons-codec:jar:1.4:test - omitted for duplicate)
+|  |  |  +- (com.sun.jersey:jersey-core:jar:1.9:test - omitted for duplicate)
+|  |  |  +- (com.sun.jersey:jersey-client:jar:1.9:test - omitted for duplicate)
+|  |  |  +- (org.mortbay.jetty:jetty-util:jar:6.1.26:test - omitted for duplicate)
+|  |  |  +- (com.google.guava:guava:jar:11.0.2:test - omitted for conflict with 13.0.1)
+|  |  |  +- (commons-logging:commons-logging:jar:1.1.3:test - omitted for conflict with 1.2)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.10:test - omitted for conflict with 1.7.22)
+|  |  |  +- (org.apache.hadoop:hadoop-annotations:jar:2.7.0:test - omitted for conflict with 2.3.0)
+|  |  |  +- (com.google.inject.extensions:guice-servlet:jar:3.0:test - omitted for duplicate)
+|  |  |  +- (com.google.protobuf:protobuf-java:jar:2.5.0:test - omitted for duplicate)
+|  |  |  +- (com.google.inject:guice:jar:3.0:test - omitted for duplicate)
+|  |  |  +- (com.sun.jersey:jersey-json:jar:1.9:test - omitted for duplicate)
+|  |  |  +- (com.sun.jersey.contribs:jersey-guice:jar:1.9:test - omitted for duplicate)
+|  |  |  +- (org.apache.hadoop:hadoop-yarn-server-common:jar:2.7.0:test - omitted for duplicate)
+|  |  |  \- (org.fusesource.leveldbjni:leveldbjni-all:jar:1.8:test - omitted for duplicate)
+|  |  +- org.apache.hadoop:hadoop-yarn-server-resourcemanager:jar:2.7.0:test
+|  |  |  +- (javax.servlet:servlet-api:jar:2.5:test - omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.10:test - omitted for conflict with 1.7.22)
+|  |  |  +- (org.apache.hadoop:hadoop-annotations:jar:2.7.0:test - omitted for conflict with 2.3.0)
+|  |  |  +- (com.google.inject.extensions:guice-servlet:jar:3.0:test - omitted for duplicate)
+|  |  |  +- (com.google.protobuf:protobuf-java:jar:2.5.0:test - omitted for duplicate)
+|  |  |  +- (commons-io:commons-io:jar:2.4:test - omitted for duplicate)
+|  |  |  +- (com.google.inject:guice:jar:3.0:test - omitted for duplicate)
+|  |  |  +- (com.sun.jersey:jersey-json:jar:1.9:test - omitted for duplicate)
+|  |  |  +- (com.sun.jersey.contribs:jersey-guice:jar:1.9:test - omitted for duplicate)
+|  |  |  +- (org.apache.hadoop:hadoop-yarn-common:jar:2.7.0:test - omitted for duplicate)
+|  |  |  +- (org.apache.hadoop:hadoop-yarn-api:jar:2.7.0:test - omitted for duplicate)
+|  |  |  +- (javax.xml.bind:jaxb-api:jar:2.2.2:test - omitted for duplicate)
+|  |  |  +- (org.codehaus.jettison:jettison:jar:1.1:test - omitted for duplicate)
+|  |  |  +- (commons-lang:commons-lang:jar:2.6:test - omitted for duplicate)
+|  |  |  +- (com.sun.jersey:jersey-core:jar:1.9:test - omitted for duplicate)
+|  |  |  +- (com.sun.jersey:jersey-client:jar:1.9:test - omitted for duplicate)
+|  |  |  +- (org.mortbay.jetty:jetty-util:jar:6.1.26:test - omitted for duplicate)
+|  |  |  +- (com.google.guava:guava:jar:11.0.2:test - omitted for conflict with 13.0.1)
+|  |  |  +- (commons-logging:commons-logging:jar:1.1.3:test - omitted for conflict with 1.2)
+|  |  |  +- (log4j:log4j:jar:1.2.17:test - omitted for conflict with 1.2.16)
+|  |  |  +- (org.apache.hadoop:hadoop-yarn-server-common:jar:2.7.0:test - omitted for duplicate)
+|  |  |  +- org.apache.hadoop:hadoop-yarn-server-applicationhistoryservice:jar:2.7.0:test
+|  |  |  |  +- (javax.servlet:servlet-api:jar:2.5:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.hadoop:hadoop-annotations:jar:2.7.0:test - omitted for conflict with 2.3.0)
+|  |  |  |  +- (com.google.inject.extensions:guice-servlet:jar:3.0:test - omitted for duplicate)
+|  |  |  |  +- (com.google.protobuf:protobuf-java:jar:2.5.0:test - omitted for duplicate)
+|  |  |  |  +- (com.google.inject:guice:jar:3.0:test - omitted for duplicate)
+|  |  |  |  +- (com.sun.jersey:jersey-json:jar:1.9:test - omitted for duplicate)
+|  |  |  |  +- (com.sun.jersey.contribs:jersey-guice:jar:1.9:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.hadoop:hadoop-yarn-common:jar:2.7.0:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.hadoop:hadoop-yarn-api:jar:2.7.0:test - omitted for duplicate)
+|  |  |  |  +- (javax.xml.bind:jaxb-api:jar:2.2.2:test - omitted for duplicate)
+|  |  |  |  +- (org.codehaus.jettison:jettison:jar:1.1:test - omitted for duplicate)
+|  |  |  |  +- (com.sun.jersey:jersey-core:jar:1.9:test - omitted for duplicate)
+|  |  |  |  +- (com.sun.jersey:jersey-client:jar:1.9:test - omitted for duplicate)
+|  |  |  |  +- (com.google.guava:guava:jar:11.0.2:test - omitted for conflict with 13.0.1)
+|  |  |  |  +- (commons-logging:commons-logging:jar:1.1.3:test - omitted for conflict with 1.2)
+|  |  |  |  +- (org.apache.hadoop:hadoop-yarn-server-common:jar:2.7.0:test - omitted for duplicate)
+|  |  |  |  +- (commons-collections:commons-collections:jar:3.2.1:test - omitted for conflict with 3.2.2)
+|  |  |  |  \- (org.fusesource.leveldbjni:leveldbjni-all:jar:1.8:test - omitted for duplicate)
+|  |  |  +- (org.apache.hadoop:hadoop-yarn-server-web-proxy:jar:2.7.0:test - omitted for duplicate)
+|  |  |  +- (org.apache.zookeeper:zookeeper:jar:3.4.6:test - omitted for duplicate)
+|  |  |  +- (org.fusesource.leveldbjni:leveldbjni-all:jar:1.8:test - omitted for duplicate)
+|  |  |  \- org.apache.zookeeper:zookeeper:test-jar:tests:3.4.6:test
+|  |  |     +- (org.slf4j:slf4j-api:jar:1.6.1:test - omitted for conflict with 1.7.22)
+|  |  |     +- (org.slf4j:slf4j-log4j12:jar:1.6.1:test - omitted for duplicate)
+|  |  |     +- (log4j:log4j:jar:1.2.16:test - omitted for duplicate)
+|  |  |     \- (io.netty:netty:jar:3.7.0.Final:test - omitted for duplicate)
+|  |  +- (org.apache.hadoop:hadoop-yarn-common:jar:2.7.0:test - omitted for duplicate)
+|  |  +- (org.apache.hadoop:hadoop-yarn-api:jar:2.7.0:test - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:11.0.2:test - omitted for conflict with 13.0.1)
+|  |  \- (commons-logging:commons-logging:jar:1.1.3:test - omitted for conflict with 1.2)
+|  +- org.apache.hadoop:hadoop-mapreduce-client-jobclient:test-jar:tests:2.7.0:test
+|  |  +- org.apache.hadoop:hadoop-mapreduce-client-common:jar:2.7.0:test
+|  |  |  +- (org.apache.hadoop:hadoop-yarn-common:jar:2.7.0:test - omitted for duplicate)
+|  |  |  +- (org.apache.hadoop:hadoop-yarn-client:jar:2.7.0:test - omitted for duplicate)
+|  |  |  +- (org.apache.hadoop:hadoop-mapreduce-client-core:jar:2.7.0:test - omitted for duplicate)
+|  |  |  +- (org.apache.hadoop:hadoop-yarn-server-common:jar:2.7.0:test - omitted for duplicate)
+|  |  |  +- (com.google.protobuf:protobuf-java:jar:2.5.0:test - omitted for duplicate)
+|  |  |  +- (org.apache.avro:avro:jar:1.7.4:test - omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.10:test - omitted for conflict with 1.7.22)
+|  |  |  +- (org.slf4j:slf4j-log4j12:jar:1.7.10:test - omitted for conflict with 1.6.1)
+|  |  |  +- (org.apache.hadoop:hadoop-annotations:jar:2.7.0:test - omitted for conflict with 2.3.0)
+|  |  |  +- (com.google.inject.extensions:guice-servlet:jar:3.0:test - omitted for duplicate)
+|  |  |  \- (io.netty:netty:jar:3.6.2.Final:test - omitted for conflict with 3.7.0.Final)
+|  |  +- org.apache.hadoop:hadoop-mapreduce-client-shuffle:jar:2.7.0:test
+|  |  |  +- (org.apache.hadoop:hadoop-yarn-server-common:jar:2.7.0:test - omitted for duplicate)
+|  |  |  +- (org.apache.hadoop:hadoop-yarn-server-nodemanager:jar:2.7.0:test - omitted for duplicate)
+|  |  |  +- (org.apache.hadoop:hadoop-mapreduce-client-common:jar:2.7.0:test - omitted for duplicate)
+|  |  |  +- (org.fusesource.leveldbjni:leveldbjni-all:jar:1.8:test - omitted for duplicate)
+|  |  |  +- (com.google.protobuf:protobuf-java:jar:2.5.0:test - omitted for duplicate)
+|  |  |  +- (org.apache.avro:avro:jar:1.7.4:test - omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.10:test - omitted for conflict with 1.7.22)
+|  |  |  +- (org.slf4j:slf4j-log4j12:jar:1.7.10:test - omitted for conflict with 1.6.1)
+|  |  |  +- (org.apache.hadoop:hadoop-annotations:jar:2.7.0:test - omitted for conflict with 2.3.0)
+|  |  |  +- (com.google.inject.extensions:guice-servlet:jar:3.0:test - omitted for duplicate)
+|  |  |  \- (io.netty:netty:jar:3.6.2.Final:test - omitted for conflict with 3.7.0.Final)
+|  |  +- (com.google.protobuf:protobuf-java:jar:2.5.0:test - omitted for duplicate)
+|  |  +- (org.apache.avro:avro:jar:1.7.4:test - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.10:test - omitted for conflict with 1.7.22)
+|  |  +- (org.slf4j:slf4j-log4j12:jar:1.7.10:test - omitted for conflict with 1.6.1)
+|  |  +- (org.apache.hadoop:hadoop-annotations:jar:2.7.0:test - omitted for conflict with 2.3.0)
+|  |  +- (com.google.inject.extensions:guice-servlet:jar:3.0:test - omitted for duplicate)
+|  |  \- (io.netty:netty:jar:3.6.2.Final:test - omitted for conflict with 3.7.0.Final)
+|  +- (org.apache.hadoop:hadoop-common:jar:2.7.0:test - omitted for conflict with 2.3.0)
+|  +- (org.apache.hadoop:hadoop-hdfs:jar:2.7.0:test - omitted for conflict with 2.3.0)
+|  +- org.apache.hadoop:hadoop-mapreduce-client-app:jar:2.7.0:test
+|  |  +- (org.apache.hadoop:hadoop-mapreduce-client-common:jar:2.7.0:test - omitted for duplicate)
+|  |  +- org.apache.hadoop:hadoop-yarn-server-web-proxy:jar:2.7.0:test
+|  |  |  +- (javax.servlet:servlet-api:jar:2.5:test - omitted for duplicate)
+|  |  |  +- (org.apache.hadoop:hadoop-yarn-server-common:jar:2.7.0:test - omitted for duplicate)
+|  |  |  +- (org.apache.hadoop:hadoop-yarn-common:jar:2.7.0:test - omitted for duplicate)
+|  |  |  +- (org.apache.hadoop:hadoop-yarn-api:jar:2.7.0:test - omitted for duplicate)
+|  |  |  +- (com.google.guava:guava:jar:11.0.2:test - omitted for conflict with 13.0.1)
+|  |  |  +- (commons-logging:commons-logging:jar:1.1.3:test - omitted for conflict with 1.2)
+|  |  |  \- (org.mortbay.jetty:jetty:jar:6.1.26:test - omitted for duplicate)
+|  |  +- (org.apache.hadoop:hadoop-mapreduce-client-shuffle:jar:2.7.0:test - omitted for duplicate)
+|  |  +- (com.google.protobuf:protobuf-java:jar:2.5.0:test - omitted for duplicate)
+|  |  +- (org.apache.avro:avro:jar:1.7.4:test - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.10:test - omitted for conflict with 1.7.22)
+|  |  +- (org.slf4j:slf4j-log4j12:jar:1.7.10:test - omitted for conflict with 1.6.1)
+|  |  +- (org.apache.hadoop:hadoop-annotations:jar:2.7.0:test - omitted for conflict with 2.3.0)
+|  |  +- (com.google.inject.extensions:guice-servlet:jar:3.0:test - omitted for duplicate)
+|  |  \- (io.netty:netty:jar:3.6.2.Final:test - omitted for conflict with 3.7.0.Final)
+|  +- (org.apache.hadoop:hadoop-yarn-api:jar:2.7.0:test - omitted for duplicate)
+|  +- org.apache.hadoop:hadoop-mapreduce-client-core:jar:2.7.0:test
+|  |  +- (org.apache.hadoop:hadoop-yarn-common:jar:2.7.0:test - omitted for duplicate)
+|  |  +- (com.google.protobuf:protobuf-java:jar:2.5.0:test - omitted for duplicate)
+|  |  +- (org.apache.avro:avro:jar:1.7.4:test - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.10:test - omitted for conflict with 1.7.22)
+|  |  +- (org.slf4j:slf4j-log4j12:jar:1.7.10:test - omitted for conflict with 1.6.1)
+|  |  +- (org.apache.hadoop:hadoop-annotations:jar:2.7.0:test - omitted for conflict with 2.3.0)
+|  |  +- (com.google.inject.extensions:guice-servlet:jar:3.0:test - omitted for duplicate)
+|  |  \- (io.netty:netty:jar:3.6.2.Final:test - omitted for conflict with 3.7.0.Final)
+|  +- org.apache.hadoop:hadoop-mapreduce-client-jobclient:jar:2.7.0:test
+|  |  +- (org.apache.hadoop:hadoop-mapreduce-client-common:jar:2.7.0:test - omitted for duplicate)
+|  |  +- (org.apache.hadoop:hadoop-mapreduce-client-shuffle:jar:2.7.0:test - omitted for duplicate)
+|  |  +- (com.google.protobuf:protobuf-java:jar:2.5.0:test - omitted for duplicate)
+|  |  +- (org.apache.avro:avro:jar:1.7.4:test - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.10:test - omitted for conflict with 1.7.22)
+|  |  +- (org.slf4j:slf4j-log4j12:jar:1.7.10:test - omitted for conflict with 1.6.1)
+|  |  +- (org.apache.hadoop:hadoop-annotations:jar:2.7.0:test - omitted for conflict with 2.3.0)
+|  |  +- (com.google.inject.extensions:guice-servlet:jar:3.0:test - omitted for duplicate)
+|  |  \- (io.netty:netty:jar:3.6.2.Final:test - omitted for conflict with 3.7.0.Final)
+|  \- org.apache.hadoop:hadoop-mapreduce-client-hs:jar:2.7.0:test
+|     +- (org.apache.hadoop:hadoop-hdfs:jar:2.7.0:test - omitted for conflict with 2.3.0)
+|     +- (org.apache.hadoop:hadoop-mapreduce-client-common:jar:2.7.0:test - omitted for duplicate)
+|     +- (org.apache.hadoop:hadoop-mapreduce-client-app:jar:2.7.0:test - omitted for duplicate)
+|     +- (org.fusesource.leveldbjni:leveldbjni-all:jar:1.8:test - omitted for duplicate)
+|     +- (com.google.protobuf:protobuf-java:jar:2.5.0:test - omitted for duplicate)
+|     +- (org.apache.avro:avro:jar:1.7.4:test - omitted for duplicate)
+|     +- (org.slf4j:slf4j-api:jar:1.7.10:test - omitted for conflict with 1.7.22)
+|     +- (org.slf4j:slf4j-log4j12:jar:1.7.10:test - omitted for conflict with 1.6.1)
+|     +- (org.apache.hadoop:hadoop-annotations:jar:2.7.0:test - omitted for conflict with 2.3.0)
+|     +- (com.google.inject.extensions:guice-servlet:jar:3.0:test - omitted for duplicate)
+|     \- (io.netty:netty:jar:3.6.2.Final:test - omitted for conflict with 3.7.0.Final)
++- org.apache.hadoop:hadoop-common:jar:2.7.0:compile
+|  +- org.apache.hadoop:hadoop-annotations:jar:2.7.0:compile
+|  +- (com.google.guava:guava:jar:11.0.2:compile - omitted for conflict with 13.0.1)
+|  +- commons-cli:commons-cli:jar:1.2:compile
+|  +- org.apache.commons:commons-math3:jar:3.1.1:compile
+|  +- xmlenc:xmlenc:jar:0.52:compile
+|  +- commons-httpclient:commons-httpclient:jar:3.1:compile
+|  |  +- (commons-logging:commons-logging:jar:1.0.4:compile - omitted for conflict with 1.2)
+|  |  \- (commons-codec:commons-codec:jar:1.2:compile - omitted for conflict with 1.4)
+|  +- commons-codec:commons-codec:jar:1.4:compile
+|  +- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+|  +- commons-net:commons-net:jar:3.1:compile
+|  +- (commons-collections:commons-collections:jar:3.2.1:compile - omitted for conflict with 3.2.2)
+|  +- javax.servlet:servlet-api:jar:2.5:compile
+|  +- org.mortbay.jetty:jetty:jar:6.1.26:compile
+|  |  \- (org.mortbay.jetty:jetty-util:jar:6.1.26:compile - omitted for duplicate)
+|  +- org.mortbay.jetty:jetty-util:jar:6.1.26:compile
+|  +- javax.servlet.jsp:jsp-api:jar:2.1:runtime
+|  +- com.sun.jersey:jersey-core:jar:1.9:compile
+|  +- com.sun.jersey:jersey-json:jar:1.9:compile
+|  |  +- org.codehaus.jettison:jettison:jar:1.1:compile
+|  |  +- com.sun.xml.bind:jaxb-impl:jar:2.2.3-1:compile
+|  |  |  \- (javax.xml.bind:jaxb-api:jar:2.2.2:compile - omitted for duplicate)
+|  |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.8.3:compile - omitted for conflict with 1.9.13)
+|  |  +- (org.codehaus.jackson:jackson-mapper-asl:jar:1.8.3:compile - omitted for conflict with 1.9.13)
+|  |  +- (org.codehaus.jackson:jackson-jaxrs:jar:1.8.3:compile - omitted for conflict with 1.9.13)
+|  |  +- (org.codehaus.jackson:jackson-xc:jar:1.8.3:compile - omitted for conflict with 1.9.13)
+|  |  \- (com.sun.jersey:jersey-core:jar:1.9:compile - omitted for duplicate)
+|  +- com.sun.jersey:jersey-server:jar:1.9:compile
+|  |  +- asm:asm:jar:3.1:compile
+|  |  \- (com.sun.jersey:jersey-core:jar:1.9:compile - omitted for duplicate)
+|  +- (commons-logging:commons-logging:jar:1.1.3:compile - omitted for conflict with 1.2)
+|  +- (log4j:log4j:jar:1.2.17:compile - omitted for conflict with 1.2.16)
+|  +- net.java.dev.jets3t:jets3t:jar:0.9.0:compile
+|  |  +- (commons-codec:commons-codec:jar:1.4:compile - omitted for duplicate)
+|  |  +- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for conflict with 1.2)
+|  |  +- org.apache.httpcomponents:httpclient:jar:4.1.2:compile
+|  |  |  \- (org.apache.httpcomponents:httpcore:jar:4.1.2:compile - omitted for duplicate)
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.1.2:compile
+|  |  \- com.jamesmurty.utils:java-xmlbuilder:jar:0.4:compile
+|  +- commons-lang:commons-lang:jar:2.6:compile
+|  +- commons-configuration:commons-configuration:jar:1.6:compile
+|  |  +- (commons-collections:commons-collections:jar:3.2.1:compile - omitted for conflict with 3.2.2)
+|  |  +- (commons-lang:commons-lang:jar:2.4:compile - omitted for conflict with 2.6)
+|  |  +- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for conflict with 1.2)
+|  |  +- commons-digester:commons-digester:jar:1.8:compile
+|  |  |  +- (commons-beanutils:commons-beanutils:jar:1.7.0:compile - omitted for conflict with 1.9.3)
+|  |  |  \- (commons-logging:commons-logging:jar:1.1:compile - omitted for conflict with 1.2)
+|  |  \- commons-beanutils:commons-beanutils-core:jar:1.8.0:compile
+|  |     \- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for conflict with 1.2)
+|  +- (org.slf4j:slf4j-api:jar:1.7.10:compile - omitted for conflict with 1.7.22)
+|  +- (org.slf4j:slf4j-log4j12:jar:1.7.10:runtime - omitted for conflict with 1.6.1)
+|  +- org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile
+|  +- org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:compile
+|  |  \- (org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile - omitted for duplicate)
+|  +- org.apache.avro:avro:jar:1.7.4:compile
+|  |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.8.8:compile - omitted for conflict with 1.9.13)
+|  |  +- (org.codehaus.jackson:jackson-mapper-asl:jar:1.8.8:compile - omitted for conflict with 1.9.13)
+|  |  +- com.thoughtworks.paranamer:paranamer:jar:2.3:compile
+|  |  +- (org.xerial.snappy:snappy-java:jar:1.0.4.1:compile - omitted for conflict with 1.0.5)
+|  |  +- (org.apache.commons:commons-compress:jar:1.4.1:compile - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.6.4:compile - omitted for conflict with 1.7.22)
+|  +- com.google.protobuf:protobuf-java:jar:2.5.0:compile
+|  +- com.google.code.gson:gson:jar:2.2.4:compile
+|  +- org.apache.hadoop:hadoop-auth:jar:2.7.0:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.10:compile - omitted for conflict with 1.7.22)
+|  |  +- (commons-codec:commons-codec:jar:1.4:compile - omitted for duplicate)
+|  |  +- (log4j:log4j:jar:1.2.17:runtime - omitted for conflict with 1.2.16)
+|  |  +- (org.slf4j:slf4j-log4j12:jar:1.7.10:runtime - omitted for conflict with 1.6.1)
+|  |  +- (org.apache.httpcomponents:httpclient:jar:4.2.5:compile - omitted for conflict with 4.1.2)
+|  |  +- org.apache.directory.server:apacheds-kerberos-codec:jar:2.0.0-M15:compile
+|  |  |  +- org.apache.directory.server:apacheds-i18n:jar:2.0.0-M15:compile
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for conflict with 1.7.22)
+|  |  |  +- org.apache.directory.api:api-asn1-api:jar:1.0.0-M20:compile
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for conflict with 1.7.22)
+|  |  |  +- org.apache.directory.api:api-util:jar:1.0.0-M20:compile
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for conflict with 1.7.22)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for conflict with 1.7.22)
+|  |  +- (org.apache.zookeeper:zookeeper:jar:3.4.6:compile - omitted for duplicate)
+|  |  \- org.apache.curator:curator-framework:jar:2.7.1:compile
+|  |     +- (org.apache.curator:curator-client:jar:2.7.1:compile - omitted for duplicate)
+|  |     +- (org.apache.zookeeper:zookeeper:jar:3.4.6:compile - omitted for duplicate)
+|  |     \- (com.google.guava:guava:jar:16.0.1:compile - omitted for conflict with 13.0.1)
+|  +- com.jcraft:jsch:jar:0.1.42:compile
+|  +- org.apache.curator:curator-client:jar:2.7.1:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.6:compile - omitted for conflict with 1.7.22)
+|  |  +- (org.apache.zookeeper:zookeeper:jar:3.4.6:compile - omitted for duplicate)
+|  |  \- (com.google.guava:guava:jar:16.0.1:compile - omitted for conflict with 13.0.1)
+|  +- org.apache.curator:curator-recipes:jar:2.7.1:compile
+|  |  +- (org.apache.curator:curator-framework:jar:2.7.1:compile - omitted for duplicate)
+|  |  +- (org.apache.zookeeper:zookeeper:jar:3.4.6:compile - omitted for duplicate)
+|  |  \- (com.google.guava:guava:jar:16.0.1:compile - omitted for conflict with 13.0.1)
+|  +- (com.google.code.findbugs:jsr305:jar:3.0.0:compile - omitted for conflict with 2.0.1)
+|  +- org.apache.htrace:htrace-core:jar:3.1.0-incubating:compile
+|  +- (org.apache.zookeeper:zookeeper:jar:3.4.6:compile - omitted for duplicate)
+|  \- org.apache.commons:commons-compress:jar:1.4.1:compile
+|     \- org.tukaani:xz:jar:1.0:compile
++- org.apache.hadoop:hadoop-hdfs:jar:2.7.0:compile
+|  +- (com.google.guava:guava:jar:11.0.2:compile - omitted for conflict with 13.0.1)
+|  +- (org.mortbay.jetty:jetty:jar:6.1.26:compile - omitted for duplicate)
+|  +- (org.mortbay.jetty:jetty-util:jar:6.1.26:compile - omitted for duplicate)
+|  +- (com.sun.jersey:jersey-core:jar:1.9:compile - omitted for duplicate)
+|  +- (com.sun.jersey:jersey-server:jar:1.9:compile - omitted for duplicate)
+|  +- (commons-cli:commons-cli:jar:1.2:compile - omitted for duplicate)
+|  +- (commons-codec:commons-codec:jar:1.4:compile - omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+|  +- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+|  +- (commons-logging:commons-logging:jar:1.1.3:compile - omitted for conflict with 1.2)
+|  +- commons-daemon:commons-daemon:jar:1.0.13:compile
+|  +- (log4j:log4j:jar:1.2.17:compile - omitted for conflict with 1.2.16)
+|  +- (com.google.protobuf:protobuf-java:jar:2.5.0:compile - omitted for duplicate)
+|  +- (javax.servlet:servlet-api:jar:2.5:compile - omitted for duplicate)
+|  +- (org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile - omitted for duplicate)
+|  +- (org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:compile - omitted for duplicate)
+|  +- (xmlenc:xmlenc:jar:0.52:compile - omitted for duplicate)
+|  +- io.netty:netty-all:jar:4.0.23.Final:compile
+|  +- xerces:xercesImpl:jar:2.9.1:compile
+|  |  \- xml-apis:xml-apis:jar:1.3.04:compile
+|  +- (org.apache.htrace:htrace-core:jar:3.1.0-incubating:compile - omitted for duplicate)
+|  \- org.fusesource.leveldbjni:leveldbjni-all:jar:1.8:compile
++- org.apache.hadoop:hadoop-yarn-api:jar:2.7.0:compile
+|  +- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:11.0.2:compile - omitted for conflict with 13.0.1)
+|  +- (commons-logging:commons-logging:jar:1.1.3:compile - omitted for conflict with 1.2)
+|  +- (org.apache.hadoop:hadoop-annotations:jar:2.7.0:compile - omitted for duplicate)
+|  \- (com.google.protobuf:protobuf-java:jar:2.5.0:compile - omitted for duplicate)
++- org.apache.hadoop:hadoop-yarn-common:jar:2.7.0:compile
+|  +- (org.apache.hadoop:hadoop-yarn-api:jar:2.7.0:compile - omitted for duplicate)
+|  +- javax.xml.bind:jaxb-api:jar:2.2.2:compile
+|  |  +- javax.xml.stream:stax-api:jar:1.0-2:compile
+|  |  \- javax.activation:activation:jar:1.1:compile
+|  +- (org.apache.commons:commons-compress:jar:1.4.1:compile - omitted for duplicate)
+|  +- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+|  +- (javax.servlet:servlet-api:jar:2.5:compile - omitted for duplicate)
+|  +- (commons-codec:commons-codec:jar:1.4:compile - omitted for duplicate)
+|  +- (org.mortbay.jetty:jetty-util:jar:6.1.26:compile - omitted for duplicate)
+|  +- (com.sun.jersey:jersey-core:jar:1.9:compile - omitted for duplicate)
+|  +- com.sun.jersey:jersey-client:jar:1.9:compile
+|  |  \- (com.sun.jersey:jersey-core:jar:1.9:compile - omitted for duplicate)
+|  +- (org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile - omitted for duplicate)
+|  +- (org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:compile - omitted for duplicate)
+|  +- org.codehaus.jackson:jackson-jaxrs:jar:1.9.13:compile
+|  |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile - omitted for duplicate)
+|  |  \- (org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:compile - omitted for duplicate)
+|  +- org.codehaus.jackson:jackson-xc:jar:1.9.13:compile
+|  |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile - omitted for duplicate)
+|  |  \- (org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:compile - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:11.0.2:compile - omitted for conflict with 13.0.1)
+|  +- (commons-logging:commons-logging:jar:1.1.3:compile - omitted for conflict with 1.2)
+|  +- (commons-cli:commons-cli:jar:1.2:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.10:compile - omitted for conflict with 1.7.22)
+|  +- (org.apache.hadoop:hadoop-annotations:jar:2.7.0:compile - omitted for duplicate)
+|  +- com.google.inject.extensions:guice-servlet:jar:3.0:compile
+|  |  \- (com.google.inject:guice:jar:3.0:compile - omitted for duplicate)
+|  +- (com.google.protobuf:protobuf-java:jar:2.5.0:compile - omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+|  +- com.google.inject:guice:jar:3.0:compile
+|  |  +- javax.inject:javax.inject:jar:1:compile
+|  |  \- aopalliance:aopalliance:jar:1.0:compile
+|  +- (com.sun.jersey:jersey-server:jar:1.9:compile - omitted for duplicate)
+|  +- (com.sun.jersey:jersey-json:jar:1.9:compile - omitted for duplicate)
+|  +- com.sun.jersey.contribs:jersey-guice:jar:1.9:compile
+|  |  +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  |  +- (com.google.inject:guice:jar:3.0:compile - omitted for duplicate)
+|  |  +- (com.google.inject.extensions:guice-servlet:jar:3.0:compile - omitted for duplicate)
+|  |  \- (com.sun.jersey:jersey-server:jar:1.9:compile - omitted for duplicate)
+|  \- (log4j:log4j:jar:1.2.17:compile - omitted for conflict with 1.2.16)
++- org.apache.hadoop:hadoop-yarn-client:jar:2.7.0:compile
+|  +- (com.google.guava:guava:jar:11.0.2:compile - omitted for conflict with 13.0.1)
+|  +- (commons-logging:commons-logging:jar:1.1.3:compile - omitted for conflict with 1.2)
+|  +- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+|  +- (commons-cli:commons-cli:jar:1.2:compile - omitted for duplicate)
+|  +- (log4j:log4j:jar:1.2.17:compile - omitted for conflict with 1.2.16)
+|  +- (org.apache.hadoop:hadoop-annotations:jar:2.7.0:compile - omitted for duplicate)
+|  +- (org.apache.hadoop:hadoop-yarn-api:jar:2.7.0:compile - omitted for duplicate)
+|  \- (org.apache.hadoop:hadoop-yarn-common:jar:2.7.0:compile - omitted for duplicate)
+\- com.github.sakserv:hadoop-mini-clusters-zookeeper:jar:0.1.14:test
+   +- org.apache.curator:curator-test:jar:2.12.0:test
+   |  +- (org.javassist:javassist:jar:3.18.1-GA:test - omitted for conflict with 3.19.0-GA)
+   |  \- (com.google.guava:guava:jar:16.0.1:test - omitted for conflict with 13.0.1)
+   +- com.github.sakserv:hadoop-mini-clusters-common:jar:0.1.14:test
+   |  \- (org.slf4j:slf4j-api:jar:1.7.10:test - omitted for conflict with 1.7.22)
+   \- (org.slf4j:slf4j-api:jar:1.7.10:test - omitted for conflict with 1.7.22)

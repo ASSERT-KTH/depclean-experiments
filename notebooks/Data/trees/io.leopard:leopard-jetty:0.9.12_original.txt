@@ -1,0 +1,62 @@
+io.leopard:leopard-jetty:jar:0.9.12
++- org.eclipse.jetty:jetty-server:jar:9.4.5.v20170502:compile
+|  +- (javax.servlet:javax.servlet-api:jar:3.1.0:provided - scope managed from compile; omitted for duplicate)
+|  +- org.eclipse.jetty:jetty-http:jar:9.4.5.v20170502:compile
+|  |  +- (org.eclipse.jetty:jetty-util:jar:9.4.5.v20170502:compile - omitted for duplicate)
+|  |  \- (org.eclipse.jetty:jetty-io:jar:9.4.5.v20170502:compile - omitted for duplicate)
+|  \- org.eclipse.jetty:jetty-io:jar:9.4.5.v20170502:compile
+|     \- (org.eclipse.jetty:jetty-util:jar:9.4.5.v20170502:compile - omitted for duplicate)
++- org.eclipse.jetty:jetty-servlet:jar:9.4.5.v20170502:compile
+|  \- org.eclipse.jetty:jetty-security:jar:9.4.5.v20170502:compile
+|     \- (org.eclipse.jetty:jetty-server:jar:9.4.5.v20170502:compile - omitted for duplicate)
++- org.eclipse.jetty:jetty-proxy:jar:9.4.5.v20170502:compile
+|  +- org.eclipse.jetty:jetty-util:jar:9.4.5.v20170502:compile
+|  \- org.eclipse.jetty:jetty-client:jar:9.4.5.v20170502:compile
+|     +- (org.eclipse.jetty:jetty-http:jar:9.4.5.v20170502:compile - omitted for duplicate)
+|     \- (org.eclipse.jetty:jetty-io:jar:9.4.5.v20170502:compile - omitted for duplicate)
++- org.eclipse.jetty:jetty-rewrite:jar:9.4.5.v20170502:compile
+|  +- (org.eclipse.jetty:jetty-server:jar:9.4.5.v20170502:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-client:jar:9.4.5.v20170502:compile - omitted for duplicate)
+|  \- (javax.servlet:javax.servlet-api:jar:3.1.0:provided - scope managed from compile; omitted for duplicate)
++- org.eclipse.jetty:jetty-webapp:jar:9.4.5.v20170502:compile
+|  +- org.eclipse.jetty:jetty-xml:jar:9.4.5.v20170502:compile
+|  |  \- (org.eclipse.jetty:jetty-util:jar:9.4.5.v20170502:compile - omitted for duplicate)
+|  \- (org.eclipse.jetty:jetty-servlet:jar:9.4.5.v20170502:compile - omitted for duplicate)
++- org.eclipse.jetty.websocket:websocket-server:jar:9.4.5.v20170502:compile
+|  +- org.eclipse.jetty.websocket:websocket-common:jar:9.4.5.v20170502:compile
+|  |  +- org.eclipse.jetty.websocket:websocket-api:jar:9.4.5.v20170502:compile
+|  |  +- (org.eclipse.jetty:jetty-util:jar:9.4.5.v20170502:compile - omitted for duplicate)
+|  |  \- (org.eclipse.jetty:jetty-io:jar:9.4.5.v20170502:compile - omitted for duplicate)
+|  +- org.eclipse.jetty.websocket:websocket-client:jar:9.4.5.v20170502:compile
+|  |  +- (org.eclipse.jetty:jetty-util:jar:9.4.5.v20170502:compile - omitted for duplicate)
+|  |  +- (org.eclipse.jetty:jetty-io:jar:9.4.5.v20170502:compile - omitted for duplicate)
+|  |  +- (org.eclipse.jetty:jetty-client:jar:9.4.5.v20170502:compile - omitted for duplicate)
+|  |  \- (org.eclipse.jetty.websocket:websocket-common:jar:9.4.5.v20170502:compile - omitted for duplicate)
+|  +- org.eclipse.jetty.websocket:websocket-servlet:jar:9.4.5.v20170502:compile
+|  |  +- (org.eclipse.jetty.websocket:websocket-api:jar:9.4.5.v20170502:compile - omitted for duplicate)
+|  |  \- (javax.servlet:javax.servlet-api:jar:3.1.0:provided - scope managed from compile; omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-servlet:jar:9.4.5.v20170502:compile - omitted for duplicate)
+|  \- (org.eclipse.jetty:jetty-http:jar:9.4.5.v20170502:compile - omitted for duplicate)
++- org.eclipse.jetty:jetty-annotations:jar:9.4.5.v20170502:compile
+|  +- org.eclipse.jetty:jetty-plus:jar:9.4.5.v20170502:compile
+|  |  +- (org.eclipse.jetty:jetty-webapp:jar:9.4.5.v20170502:compile - omitted for duplicate)
+|  |  \- org.eclipse.jetty:jetty-jndi:jar:9.4.5.v20170502:compile
+|  |     \- (org.eclipse.jetty:jetty-util:jar:9.4.5.v20170502:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-webapp:jar:9.4.5.v20170502:compile - omitted for duplicate)
+|  +- javax.annotation:javax.annotation-api:jar:1.2:compile
+|  +- (org.ow2.asm:asm:jar:5.0.3:compile - version managed from 5.1; omitted for duplicate)
+|  \- (org.ow2.asm:asm-commons:jar:5.1:compile - omitted for conflict with 5.0.3)
++- org.ow2.asm:asm:jar:5.0.3:compile
++- org.ow2.asm:asm-commons:jar:5.0.3:compile
+|  \- org.ow2.asm:asm-tree:jar:5.0.3:compile
+|     \- (org.ow2.asm:asm:jar:5.0.3:compile - version managed from 5.1; omitted for duplicate)
++- org.eclipse.jetty:jetty-jsp:jar:9.3.0.M1:compile
+|  +- org.eclipse.jetty.toolchain:jetty-schemas:jar:3.1.M0:compile
+|  +- (javax.servlet:javax.servlet-api:jar:3.1.0:provided - scope managed from compile; omitted for duplicate)
+|  +- javax.servlet.jsp:javax.servlet.jsp-api:jar:2.3.1:compile
+|  +- org.glassfish.web:javax.servlet.jsp:jar:2.3.2:compile
+|  |  \- (javax.servlet.jsp:javax.servlet.jsp-api:jar:2.3.1:compile - omitted for duplicate)
+|  +- org.eclipse.jetty.orbit:javax.servlet.jsp.jstl:jar:1.2.0.v201105211821:compile
+|  \- org.glassfish.web:javax.servlet.jsp.jstl:jar:1.2.2:compile
++- javax.servlet:javax.servlet-api:jar:3.1.0:compile
+\- io.leopard:leopard-jetty-handler:jar:0.9.12:compile

@@ -1,0 +1,37 @@
+io.frees:frees-rpc-common_2.12:jar:0.14.1
++- org.scala-lang:scala-library:jar:2.12.6:compile
++- org.scalatest:scalatest_2.12:jar:3.0.5:test
+|  +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for conflict with 2.12.6)
+|  +- org.scalactic:scalactic_2.12:jar:3.0.5:test
+|  |  +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for conflict with 2.12.6)
+|  |  \- (org.scala-lang:scala-reflect:jar:2.12.4:test - omitted for duplicate)
+|  +- org.scala-lang:scala-reflect:jar:2.12.4:test
+|  |  \- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for conflict with 2.12.6)
+|  \- org.scala-lang.modules:scala-xml_2.12:jar:1.0.6:test
+|     \- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.6)
++- org.slf4j:slf4j-nop:jar:1.7.25:test
+|  \- org.slf4j:slf4j-api:jar:1.7.25:test
++- org.typelevel:cats-effect_2.12:jar:0.10.1:test
+|  +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for conflict with 2.12.6)
+|  \- org.typelevel:cats-core_2.12:jar:1.1.0:test
+|     +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for conflict with 2.12.6)
+|     +- org.typelevel:cats-macros_2.12:jar:1.1.0:test
+|     |  +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for conflict with 2.12.6)
+|     |  \- (org.typelevel:machinist_2.12:jar:0.6.2:test - omitted for duplicate)
+|     +- org.typelevel:cats-kernel_2.12:jar:1.1.0:test
+|     |  \- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for conflict with 2.12.6)
+|     \- org.typelevel:machinist_2.12:jar:0.6.2:test
+|        +- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.6)
+|        \- (org.scala-lang:scala-reflect:jar:2.12.0:test - omitted for conflict with 2.12.4)
++- org.scalamock:scalamock-scalatest-support_2.12:jar:3.6.0:test
+|  +- (org.scala-lang:scala-library:jar:2.12.1:test - omitted for conflict with 2.12.6)
+|  +- org.scalamock:scalamock-core_2.12:jar:3.6.0:test
+|  |  +- (org.scala-lang:scala-library:jar:2.12.1:test - omitted for conflict with 2.12.6)
+|  |  \- (org.scala-lang:scala-reflect:jar:2.12.1:test - omitted for conflict with 2.12.4)
+|  \- (org.scalatest:scalatest_2.12:jar:3.0.1:test - omitted for conflict with 3.0.5)
+\- com.47deg:scalacheck-toolbox-datetime_2.12:jar:0.2.4:test
+   +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for conflict with 2.12.6)
+   +- org.scalacheck:scalacheck_2.12:jar:1.13.5:test
+   |  +- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.6)
+   |  \- org.scala-sbt:test-interface:jar:1.0:test
+   \- joda-time:joda-time:jar:2.9.9:test

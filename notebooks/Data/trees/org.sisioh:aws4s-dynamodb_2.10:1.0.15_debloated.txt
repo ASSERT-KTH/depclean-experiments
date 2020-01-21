@@ -1,0 +1,112 @@
+org.sisioh:aws4s-dynamodb_2.10:jar:1.0.15
++- org.scala-lang:scala-library:jar:2.10.5:compile
++- org.sisioh:aws4s-core_2.10:jar:1.0.15:compile
+|  +- (org.scala-lang:scala-library:jar:2.10.5:compile - omitted for duplicate)
+|  \- (com.amazonaws:aws-java-sdk-core:jar:1.11.249:compile - omitted for duplicate)
++- com.amazonaws:aws-java-sdk-core:jar:1.11.249:compile
+|  +- commons-logging:commons-logging:jar:1.1.3:compile
+|  +- org.apache.httpcomponents:httpclient:jar:4.5.2:compile
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.4.4:compile
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for conflict with 1.1.3)
+|  |  \- commons-codec:commons-codec:jar:1.9:compile
+|  +- software.amazon.ion:ion-java:jar:1.0.2:compile
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.6.7.1:compile - omitted for conflict with 2.5.4)
+|  +- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.6.7:compile
+|  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.6.7:compile - omitted for duplicate)
+|  \- (joda-time:joda-time:jar:2.8.1:compile - omitted for conflict with 2.3)
++- com.amazonaws:aws-java-sdk-dynamodb:jar:1.11.249:compile
+|  +- com.amazonaws:aws-java-sdk-s3:jar:1.11.249:compile
+|  |  +- com.amazonaws:aws-java-sdk-kms:jar:1.11.249:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.249:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.249:compile - omitted for duplicate)
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.249:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.249:compile - omitted for duplicate)
+|  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.249:compile - omitted for duplicate)
+|  \- com.amazonaws:jmespath-java:jar:1.11.249:compile
+|     \- (com.fasterxml.jackson.core:jackson-databind:jar:2.6.7.1:compile - omitted for duplicate)
++- org.scalatest:scalatest_2.10:jar:2.2.1:test
+|  +- (org.scala-lang:scala-library:jar:2.10.4:test - omitted for conflict with 2.10.5)
+|  \- org.scala-lang:scala-reflect:jar:2.10.4:test
+|     \- (org.scala-lang:scala-library:jar:2.10.4:test - omitted for conflict with 2.10.5)
++- org.antlr:antlr4-runtime:jar:4.1:test
+|  \- org.abego.treelayout:org.abego.treelayout.core:jar:1.0.1:test
++- commons-cli:commons-cli:jar:1.2:test
++- com.fasterxml.jackson.core:jackson-core:jar:2.5.4:test (scope not updated to compile)
++- com.fasterxml.jackson.core:jackson-annotations:jar:2.5.4:test (scope not updated to compile)
++- com.fasterxml.jackson.core:jackson-databind:jar:2.5.4:test (scope not updated to compile)
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.5.0:test - omitted for conflict with 2.5.4)
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.5.4:test - omitted for duplicate)
++- joda-time:joda-time:jar:2.3:test (scope not updated to compile)
++- org.apache.logging.log4j:log4j-api:jar:2.1:test
++- org.apache.logging.log4j:log4j-core:jar:2.1:test
+|  \- (org.apache.logging.log4j:log4j-api:jar:2.1:test - omitted for duplicate)
++- javax.servlet:javax.servlet-api:jar:3.0.1:test
++- org.eclipse.jetty.spdy:spdy-core:jar:8.1.12.v20130726:test
+|  \- (org.eclipse.jetty:jetty-util:jar:8.1.12.v20130726:test - omitted for duplicate)
++- org.eclipse.jetty.spdy:spdy-jetty:jar:8.1.12.v20130726:test
+|  +- (org.eclipse.jetty.spdy:spdy-core:jar:8.1.12.v20130726:test - omitted for duplicate)
+|  \- (org.eclipse.jetty:jetty-server:jar:8.1.12.v20130726:test - omitted for duplicate)
++- org.eclipse.jetty.spdy:spdy-jetty-http:jar:8.1.12.v20130726:test
+|  +- (org.eclipse.jetty.spdy:spdy-jetty:jar:8.1.12.v20130726:test - omitted for duplicate)
+|  \- junit:junit:jar:4.8.1:test
++- org.eclipse.jetty:jetty-ajp:jar:8.1.12.v20130726:test
+|  \- (org.eclipse.jetty:jetty-server:jar:8.1.12.v20130726:test - omitted for duplicate)
++- org.eclipse.jetty:jetty-annotations:jar:8.1.12.v20130726:test
+|  +- (org.eclipse.jetty:jetty-plus:jar:8.1.12.v20130726:test - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-webapp:jar:8.1.12.v20130726:test - omitted for duplicate)
+|  +- org.eclipse.jetty.orbit:javax.annotation:jar:1.1.0.v201108011116:test
+|  \- org.eclipse.jetty.orbit:org.objectweb.asm:jar:3.1.0.v200803061910:test
++- org.eclipse.jetty:jetty-client:jar:8.1.12.v20130726:test
+|  \- (org.eclipse.jetty:jetty-http:jar:8.1.12.v20130726:test - omitted for conflict with 8.1.13.v20130916)
++- org.eclipse.jetty:jetty-continuation:jar:8.1.12.v20130726:test
++- org.eclipse.jetty:jetty-deploy:jar:8.1.12.v20130726:test
+|  +- (org.eclipse.jetty:jetty-webapp:jar:8.1.12.v20130726:test - omitted for duplicate)
+|  \- (org.eclipse.jetty:jetty-xml:jar:8.1.12.v20130726:test - omitted for duplicate)
++- org.eclipse.jetty:jetty-http:jar:8.1.13.v20130916:test
+|  \- (org.eclipse.jetty:jetty-io:jar:8.1.13.v20130916:test - omitted for conflict with 8.1.12.v20130726)
++- org.eclipse.jetty:jetty-io:jar:8.1.12.v20130726:test
+|  \- (org.eclipse.jetty:jetty-util:jar:8.1.12.v20130726:test - omitted for duplicate)
++- org.eclipse.jetty:jetty-jmx:jar:8.1.12.v20130726:test
+|  \- (org.eclipse.jetty:jetty-util:jar:8.1.12.v20130726:test - omitted for duplicate)
++- org.eclipse.jetty:jetty-jndi:jar:8.1.12.v20130726:test
+|  +- (org.eclipse.jetty:jetty-server:jar:8.1.12.v20130726:test - omitted for duplicate)
+|  \- org.eclipse.jetty.orbit:javax.mail.glassfish:jar:1.4.1.v201005082020:test
+|     \- org.eclipse.jetty.orbit:javax.activation:jar:1.1.0.v201105071233:test
++- org.eclipse.jetty:jetty-overlay-deployer:jar:8.1.12.v20130726:test
+|  +- (org.eclipse.jetty:jetty-deploy:jar:8.1.12.v20130726:test - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-server:jar:8.1.12.v20130726:test - omitted for duplicate)
+|  \- (org.eclipse.jetty:jetty-plus:jar:8.1.12.v20130726:test - omitted for duplicate)
++- org.eclipse.jetty:jetty-plus:jar:8.1.12.v20130726:test
+|  +- org.eclipse.jetty.orbit:javax.transaction:jar:1.1.1.v201105210645:test
+|  +- (org.eclipse.jetty:jetty-webapp:jar:8.1.12.v20130726:test - omitted for duplicate)
+|  \- (org.eclipse.jetty:jetty-jndi:jar:8.1.12.v20130726:test - omitted for duplicate)
++- org.eclipse.jetty:jetty-policy:jar:8.1.12.v20130726:test
+|  \- (org.eclipse.jetty:jetty-util:jar:8.1.12.v20130726:test - omitted for duplicate)
++- org.eclipse.jetty:jetty-rewrite:jar:8.1.12.v20130726:test
+|  +- (org.eclipse.jetty:jetty-server:jar:8.1.12.v20130726:test - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-client:jar:8.1.12.v20130726:test - omitted for duplicate)
+|  \- org.eclipse.jetty.orbit:javax.servlet:jar:3.0.0.v201112011016:test
++- org.eclipse.jetty:jetty-security:jar:8.1.12.v20130726:test
+|  \- (org.eclipse.jetty:jetty-server:jar:8.1.12.v20130726:test - omitted for duplicate)
++- org.eclipse.jetty:jetty-server:jar:8.1.12.v20130726:test
+|  +- (org.eclipse.jetty.orbit:javax.servlet:jar:3.0.0.v201112011016:test - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-continuation:jar:8.1.12.v20130726:test - omitted for duplicate)
+|  \- (org.eclipse.jetty:jetty-http:jar:8.1.12.v20130726:test - omitted for conflict with 8.1.13.v20130916)
++- org.eclipse.jetty:jetty-servlet:jar:8.1.12.v20130726:test
+|  \- (org.eclipse.jetty:jetty-security:jar:8.1.12.v20130726:test - omitted for duplicate)
++- org.eclipse.jetty:jetty-servlets:jar:8.1.12.v20130726:test
+|  +- (org.eclipse.jetty:jetty-continuation:jar:8.1.12.v20130726:test - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-client:jar:8.1.12.v20130726:test - omitted for duplicate)
+|  \- (org.eclipse.jetty:jetty-util:jar:8.1.12.v20130726:test - omitted for duplicate)
++- org.eclipse.jetty:jetty-start:jar:8.1.12.v20130726:test
++- org.eclipse.jetty:jetty-util:jar:8.1.12.v20130726:test
++- org.eclipse.jetty:jetty-webapp:jar:8.1.12.v20130726:test
+|  +- (org.eclipse.jetty:jetty-xml:jar:8.1.12.v20130726:test - omitted for duplicate)
+|  \- (org.eclipse.jetty:jetty-servlet:jar:8.1.12.v20130726:test - omitted for duplicate)
++- org.eclipse.jetty:jetty-websocket:jar:8.1.12.v20130726:test
+|  +- (org.eclipse.jetty:jetty-util:jar:8.1.12.v20130726:test - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-io:jar:8.1.12.v20130726:test - omitted for duplicate)
+|  \- (org.eclipse.jetty:jetty-http:jar:8.1.12.v20130726:test - omitted for conflict with 8.1.13.v20130916)
++- org.eclipse.jetty:jetty-xml:jar:8.1.12.v20130726:test
+|  \- (org.eclipse.jetty:jetty-util:jar:8.1.12.v20130726:test - omitted for duplicate)
+\- org.apache.commons:commons-lang3:jar:3.0:test

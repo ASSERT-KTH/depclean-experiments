@@ -1,0 +1,24 @@
+org.webjars.bowergithub.vaadin:vaadin-split-layout:jar:4.0.0
++- org.webjars.bowergithub.vaadin:vaadin-element-mixin:jar:2.0.0-beta1:compile
+|  +- (org.webjars.bowergithub.polymer:polymer:jar:2.8.0:compile - omitted for duplicate)
+|  +- org.webjars.bowergithub.vaadin:vaadin-usage-statistics:jar:2.0.4:compile
+|  |  \- (org.webjars.bowergithub.vaadin:vaadin-development-mode-detector:jar:2.0.4:compile - omitted for duplicate)
+|  \- org.webjars.bowergithub.vaadin:vaadin-development-mode-detector:jar:2.0.4:compile
++- org.webjars.bowergithub.polymer:polymer:jar:2.8.0:compile
+|  +- org.webjars.bowergithub.webcomponents:shadycss:jar:1.9.1:compile
+|  \- org.webjars.bowergithub.webcomponents:webcomponentsjs:jar:2.0.0-beta.3:compile
++- org.webjars.bowergithub.vaadin:vaadin-lumo-styles:jar:1.5.0:compile
+|  +- (org.webjars.bowergithub.polymer:polymer:jar:2.8.0:compile - omitted for duplicate)
+|  +- org.webjars.bowergithub.polymerelements:iron-icon:jar:2.1.0:compile
+|  |  +- org.webjars.bowergithub.polymerelements:iron-flex-layout:jar:2.0.3:compile
+|  |  |  \- (org.webjars.bowergithub.polymer:polymer:jar:2.8.0:compile - omitted for duplicate)
+|  |  +- org.webjars.bowergithub.polymerelements:iron-meta:jar:2.1.1:compile
+|  |  |  \- (org.webjars.bowergithub.polymer:polymer:jar:2.8.0:compile - omitted for duplicate)
+|  |  \- (org.webjars.bowergithub.polymer:polymer:jar:2.8.0:compile - omitted for duplicate)
+|  \- org.webjars.bowergithub.polymerelements:iron-iconset-svg:jar:2.2.1:compile
+|     +- (org.webjars.bowergithub.polymer:polymer:jar:2.8.0:compile - omitted for duplicate)
+|     \- (org.webjars.bowergithub.polymerelements:iron-meta:jar:2.1.1:compile - omitted for duplicate)
++- org.webjars.bowergithub.polymerelements:iron-resizable-behavior:jar:2.1.1:compile
+|  \- (org.webjars.bowergithub.polymer:polymer:jar:2.8.0:compile - omitted for duplicate)
+\- org.webjars.bowergithub.vaadin:vaadin-themable-mixin:jar:1.4.4:compile
+   \- (org.webjars.bowergithub.polymer:polymer:jar:2.8.0:compile - omitted for duplicate)

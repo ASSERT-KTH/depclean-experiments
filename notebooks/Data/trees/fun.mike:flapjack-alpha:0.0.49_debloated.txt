@@ -1,0 +1,9 @@
+fun.mike:flapjack-alpha:jar:0.0.49
++- fun.mike:record-alpha:jar:0.0.30:compile
++- com.codepoetics:protonpack:jar:1.15:compile
++- fun.mike:map-support-alpha:jar:0.0.16:compile
+|  \- fun.mike:url-validation:jar:0.0.1:compile
++- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.5:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile
+\- junit:junit:jar:4.12:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

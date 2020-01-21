@@ -1,0 +1,1 @@
+org.webjars.npm:is-arrow-function:jar:2.0.3

@@ -1,0 +1,2 @@
+com.canoo.dolphin-platform:dolphin-platform-security-common:jar:1.0.0.CR3
+\- org.apiguardian:apiguardian-api:jar:1.0.0:compile

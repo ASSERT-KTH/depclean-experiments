@@ -1,0 +1,32 @@
+com.arxanfintech:java-common:jar:1.5.1
++- com.alibaba:fastjson:jar:1.2.47:compile
++- com.mashape.unirest:unirest-java:jar:1.4.9:compile
+|  +- (org.apache.httpcomponents:httpclient:jar:4.5.2:compile - omitted for conflict with 4.5.4)
+|  +- org.apache.httpcomponents:httpasyncclient:jar:4.1.1:compile
+|  |  +- (org.apache.httpcomponents:httpcore:jar:4.4.4:compile - omitted for duplicate)
+|  |  +- org.apache.httpcomponents:httpcore-nio:jar:4.4.4:compile
+|  |  |  \- (org.apache.httpcomponents:httpcore:jar:4.4.4:compile - omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.1:compile - omitted for conflict with 4.5.2)
+|  |  \- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  +- org.apache.httpcomponents:httpmime:jar:4.5.2:compile
+|  |  \- (org.apache.httpcomponents:httpclient:jar:4.5.2:compile - omitted for duplicate)
+|  \- (org.json:json:jar:20160212:compile - omitted for conflict with 20160810)
++- commons-io:commons-io:jar:2.4:compile
++- org.json:json:jar:20160810:compile
++- org.apache.commons:commons-lang3:jar:3.5:compile
++- org.bouncycastle:bcprov-jdk15on:jar:1.55:compile
++- org.bouncycastle:bcpkix-jdk15on:jar:1.55:compile
+|  \- (org.bouncycastle:bcprov-jdk15on:jar:1.55:compile - omitted for duplicate)
++- org.apache.httpcomponents:httpclient:jar:4.5.4:compile
+|  +- org.apache.httpcomponents:httpcore:jar:4.4.7:compile
+|  +- commons-logging:commons-logging:jar:1.2:compile
+|  \- commons-codec:commons-codec:jar:1.10:compile
++- com.madgag.spongycastle:core:jar:1.54.0.0:compile
++- com.madgag.spongycastle:prov:jar:1.54.0.0:compile
+|  \- (com.madgag.spongycastle:core:jar:1.54.0.0:compile - omitted for duplicate)
++- org.slf4j:slf4j-api:jar:1.7.7:compile
++- org.slf4j:slf4j-nop:jar:1.7.7:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for duplicate)
++- org.slf4j:jul-to-slf4j:jar:1.7.7:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for duplicate)
+\- junit:junit:jar:3.8.1:test

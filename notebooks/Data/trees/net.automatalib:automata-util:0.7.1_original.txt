@@ -1,0 +1,22 @@
+net.automatalib:automata-util:jar:0.7.1
++- net.automatalib:automata-commons-util:jar:0.7.1:compile
+|  \- org.slf4j:slf4j-api:jar:1.7.25:compile
++- net.automatalib:automata-commons-smartcollections:jar:0.7.1:compile
++- net.automatalib:automata-api:jar:0.7.1:compile
++- net.automatalib:automata-core:jar:0.7.1:compile
++- com.github.misberner.duzzt:duzzt-processor:jar:0.0.2:provided
+|  +- org.antlr:ST4:jar:4.0.7:provided
+|  |  \- org.antlr:antlr-runtime:jar:3.5:provided
+|  |     \- org.antlr:stringtemplate:jar:3.2.1:provided
+|  |        \- antlr:antlr:jar:2.7.7:provided
+|  +- dk.brics.automaton:automaton:jar:1.11-8:provided
+|  +- com.github.misberner.ap-commons:ap-commons:jar:0.0.2:provided
+|  \- com.github.misberner.duzzt:duzzt-annotations:jar:0.0.2:provided
++- com.google.guava:guava:jar:22.0:compile
+|  +- com.google.errorprone:error_prone_annotations:jar:2.0.18:compile
+|  +- com.google.j2objc:j2objc-annotations:jar:1.1:compile
+|  \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:compile
++- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+\- org.testng:testng:jar:6.11:test
+   +- com.beust:jcommander:jar:1.64:test
+   \- org.yaml:snakeyaml:jar:1.17:test

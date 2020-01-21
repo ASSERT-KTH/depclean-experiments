@@ -1,0 +1,10 @@
+com.blazebit:blaze-persistence-jpa-criteria-impl:jar:1.3.0-Alpha3
++- com.blazebit:blaze-persistence-core-api:jar:1.3.0-Alpha3:compile
++- com.blazebit:blaze-persistence-core-parser:jar:1.3.0-Alpha3:compile
+|  \- org.antlr:antlr4-runtime:jar:4.6:compile
++- com.blazebit:blaze-persistence-jpa-criteria-api:jar:1.3.0-Alpha3:compile
++- com.blazebit:blaze-common-utils:jar:0.1.16:compile
++- org.javassist:javassist:jar:3.23.1-GA:compile
++- com.blazebit:blaze-apt-utils:jar:0.1.16:provided
++- org.apache.openejb:javaee-api:jar:6.0-6:provided
+\- com.blazebit:blaze-persistence-jpa-criteria-jpa-2-compatibility:jar:1.3.0-Alpha3:provided

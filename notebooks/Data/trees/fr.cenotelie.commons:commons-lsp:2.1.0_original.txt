@@ -1,0 +1,4 @@
+fr.cenotelie.commons:commons-lsp:bundle:2.1.0
+\- fr.cenotelie.commons:commons-jsonrpc:jar:2.1.0:compile
+   \- fr.cenotelie.commons:commons-utils:jar:2.1.0:compile
+      \- fr.cenotelie.hime:hime-redist:jar:3.3.1:compile

@@ -1,0 +1,17 @@
+org.picketbox:picketbox-acl-impl:jar:5.1.0.Final
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.hibernate:hibernate-entitymanager:jar:5.1.9.Final:compile
++- org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final:compile
++- org.hsqldb:hsqldb:jar:2.3.3:test
++- org.jboss.logging:jboss-logging-annotations:jar:2.0.1.Final:provided
++- org.jboss.logging:jboss-logging-processor:jar:2.0.1.Final:provided
+|  \- org.jboss.jdeparser:jdeparser:jar:2.0.0.Final:provided
++- org.picketbox:acl-spi:jar:5.1.0.Final:compile
++- org.picketbox:authorization-spi:jar:5.1.0.Final:compile
++- org.picketbox:common-spi:jar:5.1.0.Final:compile
++- org.picketbox:identity-spi:jar:5.1.0.Final:compile
+\- org.picketbox:picketbox-identity-impl:jar:5.1.0.Final:compile
+   \- org.picketbox:picketbox-spi-bare:jar:5.1.0.Final:compile
+      +- org.jboss.spec.javax.security.auth.message:jboss-jaspi-api_1.1_spec:jar:1.0.0.Final:compile
+      \- org.jboss.spec.javax.servlet:jboss-servlet-api_3.1_spec:jar:1.0.0.Final:compile

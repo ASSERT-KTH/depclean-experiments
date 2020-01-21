@@ -1,0 +1,76 @@
+org.uma.jmetal:jmetal-algorithm:jar:5.5.2
++- org.uma.jmetal:jmetal-core:jar:5.5.2:compile
+|  +- org.apache.maven.reporting:maven-reporting-api:jar:3.0:compile
+|  |  \- org.apache.maven.doxia:doxia-sink-api:jar:1.0:compile
+|  +- org.apache.commons:commons-lang3:jar:3.3.2:compile
+|  +- commons-io:commons-io:jar:2.4:compile
+|  +- org.hamcrest:hamcrest-all:jar:1.3:compile
+|  +- org.knowm.xchart:xchart:jar:3.2.2:compile
+|  |  \- de.erichseifert.vectorgraphics2d:VectorGraphics2D:jar:0.11:compile
+|  +- org.apache.commons:commons-math3:jar:3.6.1:compile
+|  \- nz.ac.waikato.cms.weka:weka-stable:jar:3.8.1:compile
+|     +- nz.ac.waikato.cms.weka.thirdparty:java-cup-11b:jar:2015.03.26:compile
+|     +- nz.ac.waikato.cms.weka.thirdparty:java-cup-11b-runtime:jar:2015.03.26:compile
+|     +- nz.ac.waikato.cms.weka.thirdparty:bounce:jar:0.18:compile
+|     +- com.googlecode.matrix-toolkits-java:mtj:jar:1.0.4:compile
+|     |  \- com.github.fommil.netlib:all:pom:1.1.2:compile
+|     |     +- (net.sourceforge.f2j:arpack_combined_all:jar:0.1:compile - omitted for duplicate)
+|     |     +- (com.github.fommil.netlib:core:jar:1.1.2:compile - omitted for conflict with 1.1)
+|     |     +- com.github.fommil.netlib:netlib-native_ref-osx-x86_64:jar:natives:1.1:compile
+|     |     |  +- com.github.fommil.netlib:native_ref-java:jar:1.1:compile
+|     |     |  |  +- com.github.fommil:jniloader:jar:1.1:compile
+|     |     |  |  +- (com.github.fommil.netlib:core:jar:1.1:compile - omitted for conflict with 1.1.2)
+|     |     |  |  \- (net.sourceforge.f2j:arpack_combined_all:jar:0.1:compile - omitted for duplicate)
+|     |     |  \- (net.sourceforge.f2j:arpack_combined_all:jar:0.1:compile - omitted for duplicate)
+|     |     +- com.github.fommil.netlib:netlib-native_ref-linux-x86_64:jar:natives:1.1:compile
+|     |     |  +- (com.github.fommil.netlib:native_ref-java:jar:1.1:compile - omitted for duplicate)
+|     |     |  \- (net.sourceforge.f2j:arpack_combined_all:jar:0.1:compile - omitted for duplicate)
+|     |     +- com.github.fommil.netlib:netlib-native_ref-linux-i686:jar:natives:1.1:compile
+|     |     |  +- (com.github.fommil.netlib:native_ref-java:jar:1.1:compile - omitted for duplicate)
+|     |     |  \- (net.sourceforge.f2j:arpack_combined_all:jar:0.1:compile - omitted for duplicate)
+|     |     +- com.github.fommil.netlib:netlib-native_ref-win-x86_64:jar:natives:1.1:compile
+|     |     |  +- (com.github.fommil.netlib:native_ref-java:jar:1.1:compile - omitted for duplicate)
+|     |     |  \- (net.sourceforge.f2j:arpack_combined_all:jar:0.1:compile - omitted for duplicate)
+|     |     +- com.github.fommil.netlib:netlib-native_ref-win-i686:jar:natives:1.1:compile
+|     |     |  +- (com.github.fommil.netlib:native_ref-java:jar:1.1:compile - omitted for duplicate)
+|     |     |  \- (net.sourceforge.f2j:arpack_combined_all:jar:0.1:compile - omitted for duplicate)
+|     |     +- com.github.fommil.netlib:netlib-native_ref-linux-armhf:jar:natives:1.1:compile
+|     |     |  +- (com.github.fommil.netlib:native_ref-java:jar:1.1:compile - omitted for duplicate)
+|     |     |  \- (net.sourceforge.f2j:arpack_combined_all:jar:0.1:compile - omitted for duplicate)
+|     |     +- com.github.fommil.netlib:netlib-native_system-osx-x86_64:jar:natives:1.1:compile
+|     |     |  +- com.github.fommil.netlib:native_system-java:jar:1.1:compile
+|     |     |  |  +- (com.github.fommil:jniloader:jar:1.1:compile - omitted for duplicate)
+|     |     |  |  +- (com.github.fommil.netlib:core:jar:1.1:compile - omitted for conflict with 1.1.2)
+|     |     |  |  \- (net.sourceforge.f2j:arpack_combined_all:jar:0.1:compile - omitted for duplicate)
+|     |     |  \- (net.sourceforge.f2j:arpack_combined_all:jar:0.1:compile - omitted for duplicate)
+|     |     +- com.github.fommil.netlib:netlib-native_system-linux-x86_64:jar:natives:1.1:compile
+|     |     |  +- (com.github.fommil.netlib:native_system-java:jar:1.1:compile - omitted for duplicate)
+|     |     |  \- (net.sourceforge.f2j:arpack_combined_all:jar:0.1:compile - omitted for duplicate)
+|     |     +- com.github.fommil.netlib:netlib-native_system-linux-i686:jar:natives:1.1:compile
+|     |     |  +- (com.github.fommil.netlib:native_system-java:jar:1.1:compile - omitted for duplicate)
+|     |     |  \- (net.sourceforge.f2j:arpack_combined_all:jar:0.1:compile - omitted for duplicate)
+|     |     +- com.github.fommil.netlib:netlib-native_system-linux-armhf:jar:natives:1.1:compile
+|     |     |  +- (com.github.fommil.netlib:native_system-java:jar:1.1:compile - omitted for duplicate)
+|     |     |  \- (net.sourceforge.f2j:arpack_combined_all:jar:0.1:compile - omitted for duplicate)
+|     |     +- com.github.fommil.netlib:netlib-native_system-win-x86_64:jar:natives:1.1:compile
+|     |     |  +- (com.github.fommil.netlib:native_system-java:jar:1.1:compile - omitted for duplicate)
+|     |     |  \- (net.sourceforge.f2j:arpack_combined_all:jar:0.1:compile - omitted for duplicate)
+|     |     \- com.github.fommil.netlib:netlib-native_system-win-i686:jar:natives:1.1:compile
+|     |        +- (com.github.fommil.netlib:native_system-java:jar:1.1:compile - omitted for duplicate)
+|     |        \- (net.sourceforge.f2j:arpack_combined_all:jar:0.1:compile - omitted for duplicate)
+|     +- net.sourceforge.f2j:arpack_combined_all:jar:0.1:compile
+|     \- com.googlecode.netlib-java:netlib-java:jar:1.1:compile
+|        \- com.github.fommil.netlib:core:jar:1.1:compile
+|           \- (net.sourceforge.f2j:arpack_combined_all:jar:0.1:compile - omitted for duplicate)
++- org.uma.jmetal:jmetal-problem:jar:5.5.2:compile
+|  +- (org.uma.jmetal:jmetal-core:jar:5.5.2:compile - omitted for duplicate)
+|  +- (org.apache.maven.reporting:maven-reporting-api:jar:3.0:compile - omitted for duplicate)
+|  \- (org.apache.commons:commons-lang3:jar:3.3.2:compile - omitted for duplicate)
++- junit:junit:jar:4.11:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.mockito:mockito-core:jar:1.10.8:test
+|  +- (org.hamcrest:hamcrest-core:jar:1.1:test - omitted for conflict with 1.3)
+|  \- org.objenesis:objenesis:jar:2.1:test
+\- org.springframework:spring-test:jar:4.0.7.RELEASE:test
+   \- org.springframework:spring-core:jar:4.0.7.RELEASE:test
+      \- commons-logging:commons-logging:jar:1.1.3:test

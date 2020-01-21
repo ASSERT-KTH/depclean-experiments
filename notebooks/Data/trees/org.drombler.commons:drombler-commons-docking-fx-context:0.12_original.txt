@@ -1,0 +1,15 @@
+org.drombler.commons:drombler-commons-docking-fx-context:bundle:0.12
++- org.drombler.commons:drombler-commons-context:jar:0.12:compile
+|  +- org.slf4j:slf4j-api:jar:1.7.22:compile
+|  \- org.softsmithy.lib:softsmithy-lib-core:jar:0.9:compile
++- org.drombler.commons:drombler-commons-docking-context:jar:0.12:compile
+|  +- org.drombler.commons:drombler-commons-docking-core:jar:0.12:compile
+|  \- org.softsmithy.lib:softsmithy-lib-beans:jar:0.9:compile
++- org.drombler.commons:drombler-commons-docking-fx:jar:0.12:compile
+|  +- org.drombler.commons:drombler-commons-docking-spi:jar:0.12:compile
+|  |  \- org.drombler.commons:drombler-commons-client-core:jar:0.12:compile
+|  |     \- org.apache.commons:commons-lang3:jar:3.5:compile
+|  \- org.drombler.commons:drombler-commons-fx-core:jar:0.12:compile
++- org.drombler.commons:drombler-commons-action-command:jar:0.12:compile
+\- junit:junit:jar:4.12:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

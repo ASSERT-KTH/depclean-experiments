@@ -1,0 +1,10 @@
+org.scala-js:scalajs-js-envs_2.11:jar:1.0.0-M5
++- org.scala-lang:scala-library:jar:2.11.12:compile
++- org.scala-js:scalajs-io_2.11:jar:1.0.0-M5:compile
+|  \- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
++- org.scala-js:scalajs-logging_2.11:jar:1.0.0-M5:compile
+|  \- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+\- com.novocode:junit-interface:jar:0.9:test
+   +- junit:junit-dep:jar:4.8.2:test
+   |  \- org.hamcrest:hamcrest-core:jar:1.1:test
+   \- org.scala-tools.testing:test-interface:jar:0.5:test

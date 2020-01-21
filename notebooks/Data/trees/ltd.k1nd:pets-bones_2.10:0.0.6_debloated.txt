@@ -1,0 +1,19 @@
+ltd.k1nd:pets-bones_2.10:jar:0.0.6
++- org.scala-lang:scala-library:jar:2.10.7:compile
++- org.scalatest:scalatest_2.10:jar:3.0.5:test
+|  +- (org.scala-lang:scala-library:jar:2.10.7:test - omitted for duplicate)
+|  +- (org.scalactic:scalactic_2.10:jar:3.0.5:test - omitted for duplicate)
+|  \- org.scala-lang:scala-reflect:jar:2.10.7:test
+|     \- (org.scala-lang:scala-library:jar:2.10.7:test - omitted for duplicate)
++- org.scalactic:scalactic_2.10:jar:3.0.5:test
+|  +- (org.scala-lang:scala-library:jar:2.10.7:test - omitted for duplicate)
+|  \- (org.scala-lang:scala-reflect:jar:2.10.7:test - omitted for duplicate)
++- org.scalacheck:scalacheck_2.10:jar:1.14.0:test
+|  +- (org.scala-lang:scala-library:jar:2.10.7:test - omitted for duplicate)
+|  \- org.scala-sbt:test-interface:jar:1.0:test
+\- org.scalamock:scalamock_2.10:jar:4.1.0:test
+   +- (org.scala-lang:scala-library:jar:2.10.6:test - omitted for conflict with 2.10.7)
+   +- org.scalamacros:quasiquotes_2.10:jar:2.1.0:test
+   |  +- (org.scala-lang:scala-library:jar:2.10.4:test - omitted for conflict with 2.10.7)
+   |  \- (org.scala-lang:scala-reflect:jar:2.10.4:test - omitted for conflict with 2.10.7)
+   \- (org.scala-lang:scala-reflect:jar:2.10.6:test - omitted for conflict with 2.10.7)

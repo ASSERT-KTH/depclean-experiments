@@ -1,0 +1,16 @@
+org.dmfs:http-client-basics:jar:0.16.2
++- org.dmfs:optional:jar:1.13:compile
+|  \- org.dmfs:jems:jar:1.13:compile
++- org.dmfs:http-client-essentials:jar:0.16.2:compile
+|  \- (org.dmfs:optional:jar:1.13:compile - omitted for duplicate)
++- org.dmfs:http-client-types:jar:0.16.2:compile
+|  +- (org.dmfs:http-client-essentials:jar:0.16.2:compile - omitted for duplicate)
+|  \- org.dmfs:iterators:jar:1.13:compile
+|     \- (org.dmfs:jems:jar:1.13:compile - omitted for duplicate)
++- org.dmfs:http-client-headers:jar:0.16.2:compile
+|  +- (org.dmfs:http-client-essentials:jar:0.16.2:compile - omitted for duplicate)
+|  +- (org.dmfs:http-client-types:jar:0.16.2:compile - omitted for duplicate)
+|  \- (org.dmfs:iterators:jar:1.13:compile - omitted for duplicate)
+\- org.dmfs:rfc3986-uri:jar:0.8:compile
+   +- (org.dmfs:iterators:jar:1.5:compile - omitted for conflict with 1.13)
+   \- (org.dmfs:optional:jar:0.3:compile - omitted for conflict with 1.13)

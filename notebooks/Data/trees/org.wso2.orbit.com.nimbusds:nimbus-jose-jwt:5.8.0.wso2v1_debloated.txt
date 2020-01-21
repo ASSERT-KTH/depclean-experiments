@@ -1,0 +1,7 @@
+org.wso2.orbit.com.nimbusds:nimbus-jose-jwt:bundle:5.8.0.wso2v1
++- com.nimbusds:nimbus-jose-jwt:jar:5.8:compile
+|  +- com.github.stephenc.jcip:jcip-annotations:jar:1.0-1:compile
+|  \- (net.minidev:json-smart:jar:2.3:compile - omitted for duplicate)
+\- net.minidev:json-smart:jar:2.3:compile
+   \- net.minidev:accessors-smart:jar:1.2:compile
+      \- org.ow2.asm:asm:jar:5.0.4:compile

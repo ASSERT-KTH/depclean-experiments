@@ -1,0 +1,14 @@
+com.thoughtworks.binding:xmlextractor_2.11:jar:11.0.1
++- org.scala-lang:scala-compiler:jar:2.11.11:provided
+|  +- (org.scala-lang:scala-library:jar:2.11.11:provided - omitted for duplicate)
+|  +- (org.scala-lang:scala-reflect:jar:2.11.11:provided - omitted for duplicate)
+|  +- org.scala-lang.modules:scala-xml_2.11:jar:1.0.5:provided
+|  |  \- (org.scala-lang:scala-library:jar:2.11.7:provided - omitted for conflict with 2.11.11)
+|  \- org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.0.4:provided
+|     \- (org.scala-lang:scala-library:jar:2.11.6:provided - omitted for conflict with 2.11.11)
++- org.scala-lang:scala-library:jar:2.11.11:compile
++- com.thoughtworks.extractor:extractor_2.11:jar:2.1.0:compile
+|  \- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.11)
++- org.scala-lang:scala-reflect:jar:2.11.11:compile
+|  \- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for duplicate)
+\- org.apache.commons:commons-lang3:jar:3.4:compile

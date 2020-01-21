@@ -1,0 +1,26 @@
+com.github.gphat:censorinus_2.11:jar:2.1.13
++- org.scala-lang:scala-library:jar:2.11.11:compile
++- org.scalactic:scalactic_2.11:jar:3.0.3:test
+|  +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.11)
+|  \- org.scala-lang:scala-reflect:jar:2.11.8:test
+|     \- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.11)
++- org.scalatest:scalatest_2.11:jar:3.0.3:test
+|  +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.11)
+|  +- (org.scalactic:scalactic_2.11:jar:3.0.3:test - omitted for duplicate)
+|  +- (org.scala-lang:scala-reflect:jar:2.11.8:test - omitted for duplicate)
+|  +- org.scala-lang.modules:scala-xml_2.11:jar:1.0.5:test
+|  |  \- (org.scala-lang:scala-library:jar:2.11.7:test - omitted for conflict with 2.11.11)
+|  \- org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.0.4:test
+|     \- (org.scala-lang:scala-library:jar:2.11.6:test - omitted for conflict with 2.11.11)
+\- com.thesamet.scalapb:scalapb-runtime_2.11:jar:0.7.0-rc6:compile
+   +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for duplicate)
+   +- com.thesamet.scalapb:lenses_2.11:jar:0.7.0-test1:compile
+   |  \- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for duplicate)
+   +- com.lihaoyi:fastparse_2.11:jar:1.0.0:compile
+   |  +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for duplicate)
+   |  +- com.lihaoyi:fastparse-utils_2.11:jar:1.0.0:compile
+   |  |  +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for duplicate)
+   |  |  \- (com.lihaoyi:sourcecode_2.11:jar:0.1.4:compile - omitted for duplicate)
+   |  \- com.lihaoyi:sourcecode_2.11:jar:0.1.4:compile
+   |     \- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for duplicate)
+   \- com.google.protobuf:protobuf-java:jar:3.5.0:compile

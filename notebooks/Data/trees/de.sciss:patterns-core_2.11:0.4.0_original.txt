@@ -1,0 +1,81 @@
+de.sciss:patterns-core_2.11:jar:0.4.0
++- org.scala-lang:scala-library:jar:2.11.12:compile
++- de.sciss:numbers_2.11:jar:0.2.0:compile
+|  \- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
++- de.sciss:optional_2.11:jar:1.0.0:compile
+|  \- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.12)
++- de.sciss:serial_2.11:jar:1.1.1:compile
+|  \- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
++- de.sciss:lucre-data_2.11:jar:3.9.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  +- de.sciss:lucre-base_2.11:jar:3.9.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  |  \- (de.sciss:serial_2.11:jar:1.1.1:compile - omitted for duplicate)
+|  \- de.sciss:lucre-geom_2.11:jar:3.9.0:compile
+|     +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|     \- (de.sciss:serial_2.11:jar:1.1.1:compile - omitted for duplicate)
++- de.sciss:kollflitz_2.11:jar:0.2.2:test
+|  \- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
++- de.sciss:scalacollider_2.11:jar:1.27.0:test
+|  +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|  +- de.sciss:scalaosc_2.11:jar:1.1.6:test
+|  |  \- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|  +- de.sciss:audiofile_2.11:jar:1.5.0:test
+|  |  +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|  |  \- (de.sciss:serial_2.11:jar:1.1.0:test - omitted for conflict with 1.1.1)
+|  +- (de.sciss:scalacolliderugens-core_2.11:jar:1.19.0:test - omitted for conflict with 1.19.1)
+|  +- de.sciss:processor_2.11:jar:0.4.1:test
+|  |  +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.12)
+|  |  \- de.sciss:model_2.11:jar:0.3.3:test
+|  |     \- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.12)
+|  \- (de.sciss:optional_2.11:jar:1.0.0:test - omitted for duplicate)
++- de.sciss:scalacolliderswing-plotting_2.11:jar:1.39.0:test
+|  +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|  +- de.sciss:scalacolliderswing-core_2.11:jar:1.39.0:test
+|  |  +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|  |  +- (de.sciss:scalacollider_2.11:jar:1.27.0:test - omitted for duplicate)
+|  |  +- (de.sciss:scalacolliderugens-core_2.11:jar:1.19.0:test - omitted for duplicate)
+|  |  +- (de.sciss:scalacolliderugens-plugins_2.11:jar:1.19.0:test - omitted for conflict with 1.19.1)
+|  |  +- de.sciss:fileutil_2.11:jar:1.1.3:test
+|  |  |  \- (org.scala-lang:scala-library:jar:2.11.11:test - omitted for conflict with 2.11.12)
+|  |  +- de.sciss:prefuse-core:jar:1.0.1:test
+|  |  |  \- lucene:lucene:jar:1.4.3:test
+|  |  +- de.sciss:audiowidgets-swing_2.11:jar:1.12.0:test
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|  |  |  +- de.sciss:audiowidgets-core_2.11:jar:1.12.0:test
+|  |  |  |  \- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|  |  |  \- (de.sciss:swingplus_2.11:jar:0.3.0:test - omitted for duplicate)
+|  |  \- de.sciss:scalacollider-dot_2.11:jar:0.9.0:test
+|  |     +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|  |     +- (de.sciss:scalacollider_2.11:jar:1.27.0:test - omitted for duplicate)
+|  |     \- de.sciss:scalacolliderugens-spec:jar:1.19.0:test
+|  +- de.sciss:pdflitz_2.11:jar:1.3.0:test
+|  |  +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|  |  +- com.itextpdf:itextpdf:jar:5.5.13:test
+|  |  \- de.sciss:swingplus_2.11:jar:0.3.0:test
+|  |     +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|  |     \- (org.scala-lang.modules:scala-swing_2.11:jar:2.0.3:test - omitted for duplicate)
+|  \- de.sciss:scala-chart_2.11:jar:0.6.0:test
+|     +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|     +- org.scala-lang.modules:scala-swing_2.11:jar:2.0.3:test
+|     |  \- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|     \- org.jfree:jfreechart:jar:1.0.19:test
+|        \- org.jfree:jcommon:jar:1.0.23:test
++- de.sciss:scalacolliderugens-core_2.11:jar:1.19.1:test
+|  +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|  \- de.sciss:scalacolliderugens-api_2.11:jar:1.19.1:test
+|     +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|     +- (de.sciss:numbers_2.11:jar:0.2.0:test - omitted for duplicate)
+|     \- (org.scala-lang.modules:scala-xml_2.11:jar:1.0.6:test - omitted for duplicate)
++- de.sciss:scalacolliderugens-plugins_2.11:jar:1.19.1:test
+|  +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|  \- (de.sciss:scalacolliderugens-core_2.11:jar:1.19.1:test - omitted for duplicate)
+\- org.scalatest:scalatest_2.11:jar:3.0.5:test
+   +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+   +- org.scalactic:scalactic_2.11:jar:3.0.5:test
+   |  +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+   |  \- (org.scala-lang:scala-reflect:jar:2.11.12:test - omitted for duplicate)
+   +- org.scala-lang:scala-reflect:jar:2.11.12:test
+   |  \- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+   \- org.scala-lang.modules:scala-xml_2.11:jar:1.0.6:test
+      \- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.12)

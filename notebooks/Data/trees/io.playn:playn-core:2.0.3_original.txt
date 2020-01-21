@@ -1,0 +1,5 @@
+io.playn:playn-core:jar:2.0.3
++- com.samskivert:pythagoras:jar:1.4.3:compile
++- com.threerings:react:jar:1.5.4:compile
+\- junit:junit:jar:4.12:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

@@ -1,0 +1,2 @@
+org.webjars.npm:d3-interpolate:jar:1.3.2
+\- org.webjars.npm:d3-color:jar:1.2.8:compile

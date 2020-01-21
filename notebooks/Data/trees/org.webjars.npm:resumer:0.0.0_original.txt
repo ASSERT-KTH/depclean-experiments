@@ -1,0 +1,2 @@
+org.webjars.npm:resumer:jar:0.0.0
+\- org.webjars.npm:through:jar:2.3.8:compile

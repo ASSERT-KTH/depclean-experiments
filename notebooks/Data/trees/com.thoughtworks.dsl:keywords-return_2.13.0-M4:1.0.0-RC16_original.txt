@@ -1,0 +1,14 @@
+com.thoughtworks.dsl:keywords-return_2.13.0-M4:jar:1.0.0-RC16
++- org.scala-lang:scala-library:jar:2.13.0-M4:compile
++- com.thoughtworks.dsl:dsl_2.13.0-M4:jar:1.0.0-RC16:compile
+|  \- (org.scala-lang:scala-library:jar:2.13.0-M4:compile - omitted for duplicate)
+\- org.scalatest:scalatest_2.13.0-M4:jar:3.0.6-SNAP1:test
+   +- (org.scala-lang:scala-library:jar:2.13.0-M4:test - omitted for duplicate)
+   +- org.scalactic:scalactic_2.13.0-M4:jar:3.0.6-SNAP1:test
+   |  +- (org.scala-lang:scala-library:jar:2.13.0-M4:test - omitted for duplicate)
+   |  +- (org.scala-lang:scala-reflect:jar:2.13.0-M4:test - omitted for duplicate)
+   |  \- (org.scala-lang.modules:scala-xml_2.13.0-M4:jar:1.1.0:test - omitted for duplicate)
+   +- org.scala-lang:scala-reflect:jar:2.13.0-M4:test
+   |  \- (org.scala-lang:scala-library:jar:2.13.0-M4:test - omitted for duplicate)
+   \- org.scala-lang.modules:scala-xml_2.13.0-M4:jar:1.1.0:test
+      \- (org.scala-lang:scala-library:jar:2.13.0-M4:test - omitted for duplicate)

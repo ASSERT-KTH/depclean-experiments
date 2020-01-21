@@ -1,0 +1,39 @@
+org.apache.jackrabbit:jackrabbit-aws-ext:bundle:2.14.5
++- javax.jcr:jcr:jar:2.0:provided
++- biz.aQute:bndlib:jar:1.43.0:provided
++- com.amazonaws:aws-java-sdk-s3:jar:1.11.241:compile
+|  +- com.amazonaws:aws-java-sdk-kms:jar:1.11.241:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.241:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.241:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-core:jar:1.11.241:compile
+|  |  +- commons-logging:commons-logging:jar:1.1.3:compile
+|  |  +- org.apache.httpcomponents:httpclient:jar:4.5.2:compile
+|  |  |  +- org.apache.httpcomponents:httpcore:jar:4.4.4:compile
+|  |  |  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for conflict with 1.1.3)
+|  |  |  \- commons-codec:commons-codec:jar:1.9:compile
+|  |  +- software.amazon.ion:ion-java:jar:1.0.2:compile
+|  |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.6.7.1:compile
+|  |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.6.0:compile
+|  |  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.6.7:compile
+|  |  +- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.6.7:compile
+|  |  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.6.7:compile - omitted for duplicate)
+|  |  \- joda-time:joda-time:jar:2.8.1:compile
+|  \- com.amazonaws:jmespath-java:jar:1.11.241:compile
+|     \- (com.fasterxml.jackson.core:jackson-databind:jar:2.6.7.1:compile - omitted for duplicate)
++- org.apache.jackrabbit:jackrabbit-data:jar:2.14.5:compile
+|  +- org.apache.jackrabbit:jackrabbit-api:jar:2.14.5:compile
+|  +- (org.apache.jackrabbit:jackrabbit-jcr-commons:jar:2.14.5:compile - omitted for duplicate)
+|  +- commons-io:commons-io:jar:2.6:compile
+|  \- org.slf4j:jcl-over-slf4j:jar:1.7.4:compile
+|     \- (org.slf4j:slf4j-api:jar:1.6.6:compile - version managed from 1.7.4; omitted for duplicate)
++- org.apache.jackrabbit:jackrabbit-data:test-jar:tests:2.14.5:compile
+|  +- (org.apache.jackrabbit:jackrabbit-api:jar:2.14.5:compile - omitted for duplicate)
+|  +- (org.apache.jackrabbit:jackrabbit-jcr-commons:jar:2.14.5:compile - omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.6:compile - omitted for duplicate)
+|  \- (org.slf4j:jcl-over-slf4j:jar:1.7.4:compile - omitted for duplicate)
++- org.slf4j:slf4j-api:jar:1.6.6:compile
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
+\- org.slf4j:slf4j-log4j12:jar:1.7.5:test
+   +- (org.slf4j:slf4j-api:jar:1.6.6:test - version managed from 1.7.5; omitted for duplicate)
+   \- log4j:log4j:jar:1.2.17:test

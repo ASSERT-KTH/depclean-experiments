@@ -1,0 +1,8 @@
+net.sf.tweety:agents:jar:1.11
+\- net.sf.tweety:commons:jar:1.11:compile
+   +- ch.qos.logback:logback-core:jar:0.9.30:compile
+   +- ch.qos.logback:logback-classic:jar:0.9.30:compile
+   |  +- (ch.qos.logback:logback-core:jar:0.9.30:compile - omitted for duplicate)
+   |  \- org.slf4j:slf4j-api:jar:1.6.2:compile
+   \- org.slf4j:log4j-over-slf4j:jar:1.6.3:compile
+      \- (org.slf4j:slf4j-api:jar:1.6.3:compile - omitted for conflict with 1.6.2)

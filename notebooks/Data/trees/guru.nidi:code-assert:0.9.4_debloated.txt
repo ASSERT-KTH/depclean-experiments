@@ -1,0 +1,87 @@
+guru.nidi:code-assert:jar:0.9.4
++- org.hamcrest:hamcrest-core:jar:1.3:compile
++- com.github.spotbugs:spotbugs:jar:3.1.6:compile
+|  +- org.ow2.asm:asm:jar:6.2:compile
+|  +- org.ow2.asm:asm-analysis:jar:6.2:compile
+|  |  \- (org.ow2.asm:asm-tree:jar:6.2:compile - omitted for duplicate)
+|  +- org.ow2.asm:asm-commons:jar:6.2:compile
+|  |  +- (org.ow2.asm:asm:jar:6.2:compile - omitted for duplicate)
+|  |  +- (org.ow2.asm:asm-tree:jar:6.2:compile - omitted for duplicate)
+|  |  \- (org.ow2.asm:asm-analysis:jar:6.2:compile - omitted for duplicate)
+|  +- org.ow2.asm:asm-tree:jar:6.2:compile
+|  |  \- (org.ow2.asm:asm:jar:6.2:compile - omitted for duplicate)
+|  +- org.ow2.asm:asm-util:jar:6.2:compile
+|  |  +- (org.ow2.asm:asm:jar:6.2:compile - omitted for duplicate)
+|  |  +- (org.ow2.asm:asm-tree:jar:6.2:compile - omitted for duplicate)
+|  |  \- (org.ow2.asm:asm-analysis:jar:6.2:compile - omitted for duplicate)
+|  +- org.ow2.asm:asm-xml:jar:6.2:compile
+|  |  +- (org.ow2.asm:asm:jar:6.2:compile - omitted for duplicate)
+|  |  \- (org.ow2.asm:asm-util:jar:6.2:compile - omitted for duplicate)
+|  +- org.apache.bcel:bcel:jar:6.2:compile
+|  +- net.jcip:jcip-annotations:jar:1.0:compile
+|  +- org.dom4j:dom4j:jar:2.1.0:compile
+|  |  \- (jaxen:jaxen:jar:1.1.6:compile - omitted for duplicate)
+|  +- jaxen:jaxen:jar:1.1.6:compile
+|  +- commons-lang:commons-lang:jar:2.6:compile
+|  +- com.google.code.findbugs:jFormatString:jar:3.0.0:compile
+|  \- com.github.spotbugs:spotbugs-annotations:jar:3.1.6:compile
+|     \- com.google.code.findbugs:jsr305:jar:3.0.2:compile
++- net.sourceforge.pmd:pmd-java:jar:5.8.1:compile
+|  +- (jaxen:jaxen:jar:1.1.6:compile - omitted for duplicate)
+|  +- net.java.dev.javacc:javacc:jar:5.0:compile
+|  +- net.sourceforge.pmd:pmd-core:jar:5.8.1:compile
+|  |  +- com.beust:jcommander:jar:1.48:compile
+|  |  +- commons-io:commons-io:jar:2.4:compile
+|  |  +- (jaxen:jaxen:jar:1.1.6:compile - omitted for duplicate)
+|  |  +- (net.java.dev.javacc:javacc:jar:5.0:compile - omitted for duplicate)
+|  |  +- (net.sourceforge.saxon:saxon:jar:9.1.0.8:compile - omitted for duplicate)
+|  |  +- org.apache.commons:commons-lang3:jar:3.4:compile
+|  |  +- (org.ow2.asm:asm:jar:5.0.4:compile - omitted for conflict with 6.2)
+|  |  +- com.google.code.gson:gson:jar:2.5:compile
+|  |  \- (net.sourceforge.saxon:saxon:jar:dom:9.1.0.8:runtime - omitted for duplicate)
+|  +- net.sourceforge.saxon:saxon:jar:9.1.0.8:compile
+|  +- (org.ow2.asm:asm:jar:5.0.4:compile - omitted for conflict with 6.2)
+|  \- net.sourceforge.saxon:saxon:jar:dom:9.1.0.8:runtime
++- com.puppycrawl.tools:checkstyle:jar:6.19:compile
+|  +- antlr:antlr:jar:2.7.7:compile
+|  +- org.antlr:antlr4-runtime:jar:4.5.3:compile
+|  +- commons-beanutils:commons-beanutils:jar:1.9.2:compile
+|  +- commons-collections:commons-collections:jar:3.2.2:compile
+|  +- commons-cli:commons-cli:jar:1.3.1:compile
+|  \- com.google.guava:guava:jar:19.0:compile
++- org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.51:provided (scope not updated to runtime)
+|  +- org.jetbrains.kotlin:kotlin-stdlib-common:jar:1.2.51:provided
+|  \- org.jetbrains:annotations:jar:13.0:provided
++- io.gitlab.arturbosch.detekt:detekt-core:jar:1.0.0.RC8:compile
+|  +- io.gitlab.arturbosch.detekt:detekt-api:jar:1.0.0.RC8:compile
+|  |  +- org.yaml:snakeyaml:jar:1.21:runtime
+|  |  +- (org.jetbrains.kotlin:kotlin-compiler-embeddable:jar:1.2.51:runtime - omitted for duplicate)
+|  |  \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.51:runtime - omitted for duplicate)
+|  +- (org.jetbrains.kotlin:kotlin-compiler-embeddable:jar:1.2.51:compile - scope updated from runtime; omitted for duplicate)
+|  \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.51:runtime - omitted for duplicate)
++- io.gitlab.arturbosch.detekt:detekt-rules:jar:1.0.0.RC8:compile
+|  +- (io.gitlab.arturbosch.detekt:detekt-api:jar:1.0.0.RC8:runtime - omitted for duplicate)
+|  +- (org.jetbrains.kotlin:kotlin-compiler-embeddable:jar:1.2.51:runtime - omitted for duplicate)
+|  \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.51:runtime - omitted for duplicate)
++- com.github.shyiko.ktlint:ktlint-core:jar:0.27.0:compile
+|  \- org.jetbrains.kotlin:kotlin-compiler-embeddable:jar:1.2.51:compile
+|     +- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.51:runtime - omitted for duplicate)
+|     \- org.jetbrains.kotlin:kotlin-script-runtime:jar:1.2.51:runtime
++- junit:junit:jar:4.12:provided
+|  \- (org.hamcrest:hamcrest-core:jar:1.3:provided - omitted for duplicate)
++- org.junit.jupiter:junit-jupiter-api:jar:5.0.1:provided
+|  +- org.opentest4j:opentest4j:jar:1.0.0:provided
+|  \- org.junit.platform:junit-platform-commons:jar:1.0.1:provided
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- org.slf4j:jcl-over-slf4j:jar:1.7.25:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
++- org.slf4j:jul-to-slf4j:jar:1.7.25:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
++- org.slf4j:slf4j-simple:jar:1.7.25:test
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)
++- org.junit.jupiter:junit-jupiter-engine:jar:5.0.1:test
+|  +- org.junit.platform:junit-platform-engine:jar:1.0.1:test
+|  |  +- (org.junit.platform:junit-platform-commons:jar:1.0.1:test - omitted for duplicate)
+|  |  \- (org.opentest4j:opentest4j:jar:1.0.0:test - omitted for duplicate)
+|  \- (org.junit.jupiter:junit-jupiter-api:jar:5.0.1:test - omitted for duplicate)
+\- org.apiguardian:apiguardian-api:jar:1.0.0:test

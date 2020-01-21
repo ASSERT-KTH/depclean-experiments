@@ -1,0 +1,6 @@
+com.github.serlockholmes:easy-server:jar:0.1.1
++- io.netty:netty-all:jar:5.0.0.Alpha2:compile
++- com.alibaba:fastjson:jar:1.2.47:compile
++- org.slf4j:slf4j-api:jar:1.7.25:compile
+\- org.slf4j:slf4j-jdk14:jar:1.7.25:compile
+   \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)

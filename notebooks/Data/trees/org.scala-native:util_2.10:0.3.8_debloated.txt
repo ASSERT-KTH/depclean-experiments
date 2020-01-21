@@ -1,0 +1,2 @@
+org.scala-native:util_2.10:jar:0.3.8
+\- org.scala-lang:scala-library:jar:2.10.7:compile

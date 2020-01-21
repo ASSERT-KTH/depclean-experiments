@@ -1,0 +1,7 @@
+com.github.solarknight:fsm-core:jar:1.0.2
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- ch.qos.logback:logback-classic:jar:1.1.11:test
+|  +- ch.qos.logback:logback-core:jar:1.1.11:test
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:test - version managed from 1.7.22; omitted for duplicate)
+\- junit:junit:jar:4.12:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

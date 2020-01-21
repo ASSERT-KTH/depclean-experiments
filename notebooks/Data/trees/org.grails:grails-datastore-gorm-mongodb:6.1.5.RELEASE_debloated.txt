@@ -1,0 +1,89 @@
+org.grails:grails-datastore-gorm-mongodb:jar:6.1.5.RELEASE
++- org.mongodb:mongodb-driver:jar:3.5.0:compile
+|  +- org.mongodb:bson:jar:3.5.0:compile
+|  \- org.mongodb:mongodb-driver-core:jar:3.5.0:compile
+|     \- (org.mongodb:bson:jar:3.5.0:compile - omitted for duplicate)
++- org.grails:grails-datastore-gorm-validation:jar:6.1.9.RELEASE:compile
+|  +- org.codehaus.groovy:groovy:jar:2.4.11:compile
+|  +- commons-validator:commons-validator:jar:1.5.1:compile
+|  |  \- commons-collections:commons-collections:jar:3.2.2:compile
+|  \- org.grails:grails-datastore-core:jar:6.1.9.RELEASE:compile
+|     +- org.springframework:spring-context:jar:4.3.14.RELEASE:compile
+|     +- org.javassist:javassist:jar:3.21.0-GA:compile
+|     +- org.slf4j:jcl-over-slf4j:jar:1.7.22:compile
+|     |  \- (org.slf4j:slf4j-api:jar:1.7.22:compile - omitted for duplicate)
+|     +- com.googlecode.concurrentlinkedhashmap:concurrentlinkedhashmap-lru:jar:1.4.2:compile
+|     +- (org.codehaus.groovy:groovy:jar:2.4.11:compile - omitted for duplicate)
+|     +- org.springframework:spring-beans:jar:4.3.9.RELEASE:compile
+|     +- org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final:compile
+|     +- org.springframework:spring-core:jar:4.3.9.RELEASE:compile
+|     +- org.springframework:spring-tx:jar:4.3.14.RELEASE:compile
+|     +- javax.transaction:jta:jar:1.1:compile
+|     \- (org.slf4j:slf4j-api:jar:1.7.22:compile - omitted for duplicate)
++- org.grails:grails-datastore-gorm:jar:6.1.9.RELEASE:compile
+|  +- (org.codehaus.groovy:groovy:jar:2.4.11:compile - omitted for duplicate)
+|  +- (org.grails:grails-datastore-core:jar:6.1.9.RELEASE:compile - omitted for duplicate)
+|  +- (org.grails:grails-datastore-gorm-validation:jar:6.1.9.RELEASE:compile - omitted for duplicate)
+|  \- org.slf4j:slf4j-api:jar:1.7.22:compile
++- org.grails:grails-datastore-gorm-bson:jar:6.1.5.RELEASE:compile
+|  +- (org.grails:grails-datastore-gorm:jar:6.1.9.RELEASE:compile - omitted for duplicate)
+|  \- (org.mongodb:bson:jar:3.5.0:compile - omitted for duplicate)
++- org.grails:grails-datastore-gorm-support:jar:6.1.9.RELEASE:test
+|  +- (org.codehaus.groovy:groovy:jar:2.4.11:test - omitted for duplicate)
+|  +- org.grails:grails-bootstrap:jar:3.2.11:test
+|  |  +- (org.codehaus.groovy:groovy:jar:2.4.11:test - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.22:test - omitted for duplicate)
+|  |  +- (org.slf4j:jcl-over-slf4j:jar:1.7.22:test - omitted for duplicate)
+|  |  +- org.codehaus.groovy:groovy-templates:jar:2.4.11:test
+|  |  |  \- (org.codehaus.groovy:groovy:jar:2.4.11:test - omitted for duplicate)
+|  |  \- org.yaml:snakeyaml:jar:1.14:test
+|  +- org.grails:grails-core:jar:3.2.11:test
+|  |  +- (org.codehaus.groovy:groovy:jar:2.4.11:test - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.22:test - omitted for duplicate)
+|  |  +- (org.slf4j:jcl-over-slf4j:jar:1.7.22:test - omitted for duplicate)
+|  |  +- (org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final:test - omitted for duplicate)
+|  |  +- org.springframework.boot:spring-boot:jar:1.4.6.RELEASE:test
+|  |  |  \- (org.springframework:spring-core:jar:4.3.8.RELEASE:test - omitted for conflict with 4.3.9.RELEASE)
+|  |  +- (org.springframework:spring-core:jar:4.3.9.RELEASE:test - omitted for conflict with 4.3.9.RELEASE)
+|  |  \- (org.springframework:spring-tx:jar:4.3.9.RELEASE:test - omitted for conflict with 4.3.14.RELEASE)
+|  \- (org.grails:grails-datastore-gorm:jar:6.1.9.RELEASE:test - omitted for duplicate)
++- org.spockframework:spock-core:jar:1.0-groovy-2.4:test
+|  +- org.codehaus.groovy:groovy-all:jar:2.4.1:test
+|  \- junit:junit:jar:4.12:test
+|     \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.grails:grails-datastore-gorm-tck:jar:6.1.9.RELEASE:test
+|  +- javax.servlet:javax.servlet-api:jar:3.0.1:test
+|  +- (org.codehaus.groovy:groovy:jar:2.4.11:test - omitted for duplicate)
+|  +- (org.grails:grails-datastore-gorm-support:jar:6.1.9.RELEASE:test - omitted for duplicate)
+|  +- (junit:junit:jar:4.12:test - omitted for duplicate)
+|  +- (org.grails:grails-bootstrap:jar:3.2.11:test - omitted for duplicate)
+|  +- (org.spockframework:spock-core:jar:1.0-groovy-2.4:test - omitted for duplicate)
+|  +- org.grails:grails-validation:jar:3.2.11:test
+|  |  +- (org.codehaus.groovy:groovy:jar:2.4.11:test - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.22:test - omitted for duplicate)
+|  |  +- (org.slf4j:jcl-over-slf4j:jar:1.7.22:test - omitted for duplicate)
+|  |  \- (commons-validator:commons-validator:jar:1.5.1:test - omitted for duplicate)
+|  +- (org.grails:grails-core:jar:3.2.11:test - omitted for duplicate)
+|  +- commons-lang:commons-lang:jar:2.6:test
+|  +- org.grails:grails-datastore-gorm-async:jar:6.1.9.RELEASE:test
+|  |  +- (org.codehaus.groovy:groovy:jar:2.4.11:test - omitted for duplicate)
+|  |  +- org.grails:grails-datastore-async:jar:6.1.9.RELEASE:test
+|  |  |  +- (org.codehaus.groovy:groovy:jar:2.4.11:test - omitted for duplicate)
+|  |  |  \- org.grails:grails-async:jar:3.2.11:test
+|  |  |     +- (org.codehaus.groovy:groovy:jar:2.4.11:test - omitted for duplicate)
+|  |  |     +- (org.slf4j:slf4j-api:jar:1.7.22:test - omitted for duplicate)
+|  |  |     +- (org.slf4j:jcl-over-slf4j:jar:1.7.22:test - omitted for duplicate)
+|  |  |     \- org.codehaus.gpars:gpars:jar:1.2.1:test
+|  |  |        \- org.codehaus.jsr166-mirror:jsr166y:jar:1.7.0:test
+|  |  \- (org.grails:grails-datastore-gorm:jar:6.1.9.RELEASE:test - omitted for duplicate)
+|  \- org.springframework:spring-expression:jar:4.3.14.RELEASE:test
+|     \- (org.springframework:spring-core:jar:4.3.14.RELEASE:test - omitted for duplicate)
++- org.hibernate:hibernate-validator:jar:5.0.3.Final:test
+|  +- javax.validation:validation-api:jar:1.1.0.Final:test
+|  +- org.jboss.logging:jboss-logging:jar:3.1.1.GA:test
+|  \- com.fasterxml:classmate:jar:1.0.0:test
++- org.springframework:spring-aop:jar:4.3.9.RELEASE:test
+|  +- (org.springframework:spring-beans:jar:4.3.9.RELEASE:compile - scope updated from test; omitted for duplicate)
+|  \- (org.springframework:spring-core:jar:4.3.9.RELEASE:compile - scope updated from test; omitted for duplicate)
+\- org.glassfish.web:el-impl:jar:2.2:test
+   \- javax.el:el-api:jar:2.2:test

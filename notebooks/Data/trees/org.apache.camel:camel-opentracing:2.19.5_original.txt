@@ -1,0 +1,57 @@
+org.apache.camel:camel-opentracing:jar:2.19.5
++- org.apache.camel:camel-core:jar:2.19.5:compile
+|  +- org.slf4j:slf4j-api:jar:1.7.22:compile
+|  +- com.sun.xml.bind:jaxb-core:jar:2.2.11:compile
+|  \- com.sun.xml.bind:jaxb-impl:jar:2.2.11:compile
++- io.opentracing:opentracing-api:jar:0.30.0:compile
++- io.opentracing:opentracing-noop:jar:0.30.0:compile
+|  \- (io.opentracing:opentracing-api:jar:0.30.0:compile - omitted for duplicate)
++- io.opentracing.contrib:opentracing-tracerresolver:jar:0.1.0:compile
+|  \- (io.opentracing:opentracing-api:jar:0.21.0:compile - omitted for conflict with 0.30.0)
++- io.opentracing.contrib:opentracing-agent:jar:0.1.0:test
+|  +- org.jboss.byteman:byteman:jar:4.0.0-BETA5:test
+|  +- (io.opentracing:opentracing-api:jar:0.30.0:test - omitted for duplicate)
+|  +- io.opentracing:opentracing-util:jar:0.30.0:test
+|  |  +- (io.opentracing:opentracing-api:jar:0.30.0:test - omitted for duplicate)
+|  |  \- (io.opentracing:opentracing-noop:jar:0.30.0:test - omitted for duplicate)
+|  +- (io.opentracing:opentracing-noop:jar:0.30.0:test - omitted for duplicate)
+|  \- (io.opentracing.contrib:opentracing-tracerresolver:jar:0.1.0:test - omitted for duplicate)
++- io.opentracing:opentracing-mock:jar:0.30.0:test
+|  +- (io.opentracing:opentracing-api:jar:0.30.0:test - omitted for duplicate)
+|  \- (io.opentracing:opentracing-noop:jar:0.30.0:test - omitted for duplicate)
++- org.apache.camel:camel-test-spring:jar:2.19.5:test
+|  +- org.apache.camel:camel-test:jar:2.19.5:test
+|  |  +- (org.apache.camel:camel-core:jar:2.19.5:test - omitted for duplicate)
+|  |  \- junit:junit:jar:4.12:test
+|  |     \- org.hamcrest:hamcrest-core:jar:1.3:test
+|  +- org.apache.camel:camel-spring:jar:2.19.5:test
+|  |  +- (org.apache.camel:camel-core:jar:2.19.5:test - omitted for duplicate)
+|  |  +- org.springframework:spring-core:jar:4.3.11.RELEASE:test
+|  |  |  \- commons-logging:commons-logging:jar:1.2:test
+|  |  +- org.springframework:spring-aop:jar:4.3.11.RELEASE:test
+|  |  |  +- (org.springframework:spring-beans:jar:4.3.11.RELEASE:test - omitted for duplicate)
+|  |  |  \- (org.springframework:spring-core:jar:4.3.11.RELEASE:test - omitted for duplicate)
+|  |  +- org.springframework:spring-context:jar:4.3.11.RELEASE:test
+|  |  |  +- (org.springframework:spring-aop:jar:4.3.11.RELEASE:test - omitted for duplicate)
+|  |  |  +- (org.springframework:spring-beans:jar:4.3.11.RELEASE:test - omitted for duplicate)
+|  |  |  +- (org.springframework:spring-core:jar:4.3.11.RELEASE:test - omitted for duplicate)
+|  |  |  \- (org.springframework:spring-expression:jar:4.3.11.RELEASE:test - omitted for duplicate)
+|  |  +- org.springframework:spring-beans:jar:4.3.11.RELEASE:test
+|  |  |  \- (org.springframework:spring-core:jar:4.3.11.RELEASE:test - omitted for duplicate)
+|  |  +- org.springframework:spring-expression:jar:4.3.11.RELEASE:test
+|  |  |  \- (org.springframework:spring-core:jar:4.3.11.RELEASE:test - omitted for duplicate)
+|  |  \- org.springframework:spring-tx:jar:4.3.11.RELEASE:test
+|  |     +- (org.springframework:spring-beans:jar:4.3.11.RELEASE:test - omitted for duplicate)
+|  |     \- (org.springframework:spring-core:jar:4.3.11.RELEASE:test - omitted for duplicate)
+|  \- org.springframework:spring-test:jar:4.3.11.RELEASE:test
+|     \- (org.springframework:spring-core:jar:4.3.11.RELEASE:test - omitted for duplicate)
++- org.apache.logging.log4j:log4j-api:jar:2.8.2:test
++- org.apache.logging.log4j:log4j-core:jar:2.8.2:test
+|  \- (org.apache.logging.log4j:log4j-api:jar:2.8.2:test - omitted for duplicate)
++- org.apache.logging.log4j:log4j-slf4j-impl:jar:2.8.2:test
+|  +- (org.slf4j:slf4j-api:jar:1.7.22:test - version managed from 1.7.24; omitted for duplicate)
+|  \- (org.apache.logging.log4j:log4j-api:jar:2.8.2:test - omitted for duplicate)
++- org.mockito:mockito-core:jar:1.10.19:test
+|  \- org.objenesis:objenesis:jar:2.1:test
+\- org.apache.camel:apt:jar:2.19.5:provided
+   \- org.apache.camel:spi-annotations:jar:2.19.5:provided

@@ -1,0 +1,5 @@
+int.esa.opssat:spacecraft-simulator:jar:1.2.0
++- int.esa.opssat:gps-simulator:jar:1.2.0:compile
++- org.orekit:orekit:jar:7.2:compile
+|  \- (org.apache.commons:commons-math3:jar:3.6.1:compile - omitted for duplicate)
+\- org.apache.commons:commons-math3:jar:3.6.1:compile

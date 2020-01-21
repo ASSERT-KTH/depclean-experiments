@@ -1,0 +1,135 @@
+com.itv:bucky-scalaz_2.12:jar:1.3.0
++- org.scala-lang:scala-library:jar:2.12.1:compile
++- com.itv:bucky-core_2.12:jar:1.3.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.1:compile - omitted for duplicate)
+|  \- com.typesafe.scala-logging:scala-logging_2.12:jar:3.5.0:compile
+|     +- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.1)
+|     +- org.scala-lang:scala-reflect:jar:2.12.0:compile
+|     |  \- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.1)
+|     \- org.slf4j:slf4j-api:jar:1.7.21:compile
++- com.itv:bucky-rabbitmq_2.12:jar:1.3.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.1:compile - omitted for duplicate)
+|  +- (com.itv:bucky-core_2.12:jar:1.3.0:compile - omitted for duplicate)
+|  +- com.itv:lifecycle_2.12:jar:0.16:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.12.1:compile - omitted for duplicate)
+|  +- com.rabbitmq:amqp-client:jar:4.0.2:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|  +- (com.typesafe.scala-logging:scala-logging_2.12:jar:3.5.0:compile - omitted for duplicate)
+|  \- (com.typesafe:config:jar:1.3.1:compile - omitted for duplicate)
++- com.itv:bucky-test_2.12:jar:1.3.0:test
+|  +- (org.scala-lang:scala-library:jar:2.12.1:test - omitted for duplicate)
+|  +- (com.itv:bucky-core_2.12:jar:1.3.0:test - omitted for duplicate)
+|  +- (com.itv:lifecycle_2.12:jar:0.16:test - omitted for duplicate)
+|  +- (com.typesafe.scala-logging:scala-logging_2.12:jar:3.5.0:test - omitted for duplicate)
+|  +- org.apache.qpid:qpid-broker:jar:6.0.4:test
+|  |  +- org.apache.qpid:qpid-broker-core:jar:6.0.4:test
+|  |  |  +- (org.apache.qpid:qpid-common:jar:6.0.4:test - omitted for duplicate)
+|  |  |  +- org.apache.qpid:qpid-management-common:jar:6.0.4:test
+|  |  |  +- (ch.qos.logback:logback-classic:jar:1.1.3:test - omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.12:test - omitted for conflict with 1.7.21)
+|  |  |  +- com.fasterxml.jackson.core:jackson-core:jar:2.5.3:test
+|  |  |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.5.3:test
+|  |  |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.5.0:test
+|  |  |  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.5.3:test - omitted for duplicate)
+|  |  |  +- org.apache.bcel:bcel:jar:5.2:test
+|  |  |  \- com.google.guava:guava:jar:18.0:test
+|  |  +- org.apache.qpid:qpid-common:jar:6.0.4:test
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.12:test - omitted for conflict with 1.7.21)
+|  |  +- ch.qos.logback:logback-classic:jar:1.1.3:test
+|  |  |  +- ch.qos.logback:logback-core:jar:1.1.3:test
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.7:test - omitted for conflict with 1.7.21)
+|  |  +- commons-cli:commons-cli:jar:1.2:test
+|  |  +- org.apache.qpid:qpid-broker-plugins-access-control:jar:6.0.4:test
+|  |  |  \- (ch.qos.logback:logback-classic:jar:1.1.3:test - omitted for duplicate)
+|  |  +- org.apache.qpid:qpid-broker-plugins-amqp-0-8-protocol:jar:6.0.4:test
+|  |  |  \- (ch.qos.logback:logback-classic:jar:1.1.3:test - omitted for duplicate)
+|  |  +- org.apache.qpid:qpid-broker-plugins-amqp-0-10-protocol:jar:6.0.4:test
+|  |  |  +- (ch.qos.logback:logback-classic:jar:1.1.3:test - omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.12:test - omitted for conflict with 1.7.21)
+|  |  +- org.apache.qpid:qpid-broker-plugins-amqp-1-0-protocol:jar:6.0.4:test
+|  |  |  \- (ch.qos.logback:logback-classic:jar:1.1.3:test - omitted for duplicate)
+|  |  +- org.apache.qpid:qpid-broker-plugins-amqp-msg-conv-0-8-to-0-10:jar:6.0.4:test
+|  |  |  +- (org.apache.qpid:qpid-common:jar:6.0.4:test - omitted for duplicate)
+|  |  |  +- (org.apache.qpid:qpid-broker-plugins-amqp-0-8-protocol:jar:6.0.4:test - omitted for duplicate)
+|  |  |  \- (org.apache.qpid:qpid-broker-plugins-amqp-0-10-protocol:jar:6.0.4:test - omitted for duplicate)
+|  |  +- org.apache.qpid:qpid-broker-plugins-amqp-msg-conv-0-8-to-1-0:jar:6.0.4:test
+|  |  |  +- (org.apache.qpid:qpid-common:jar:6.0.4:test - omitted for duplicate)
+|  |  |  +- (org.apache.qpid:qpid-broker-plugins-amqp-0-8-protocol:jar:6.0.4:test - omitted for duplicate)
+|  |  |  \- (org.apache.qpid:qpid-broker-plugins-amqp-1-0-protocol:jar:6.0.4:test - omitted for duplicate)
+|  |  +- org.apache.qpid:qpid-broker-plugins-amqp-msg-conv-0-10-to-1-0:jar:6.0.4:test
+|  |  |  +- (org.apache.qpid:qpid-common:jar:6.0.4:test - omitted for duplicate)
+|  |  |  +- (org.apache.qpid:qpid-broker-plugins-amqp-0-10-protocol:jar:6.0.4:test - omitted for duplicate)
+|  |  |  \- (org.apache.qpid:qpid-broker-plugins-amqp-1-0-protocol:jar:6.0.4:test - omitted for duplicate)
+|  |  +- org.apache.qpid:qpid-broker-plugins-derby-store:jar:6.0.4:test
+|  |  |  +- (org.apache.qpid:qpid-broker-core:jar:6.0.4:test - omitted for duplicate)
+|  |  |  +- org.apache.derby:derby:jar:10.11.1.1:test
+|  |  |  \- (ch.qos.logback:logback-classic:jar:1.1.3:test - omitted for duplicate)
+|  |  +- org.apache.qpid:qpid-broker-plugins-jdbc-provider-bone:jar:6.0.4:test
+|  |  |  +- com.jolbox:bonecp:jar:0.7.1.RELEASE:test
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.5.10:test - omitted for conflict with 1.7.21)
+|  |  |  \- (com.google.guava:guava:jar:18.0:test - omitted for duplicate)
+|  |  +- org.apache.qpid:qpid-broker-plugins-jdbc-store:jar:6.0.4:test
+|  |  |  \- (ch.qos.logback:logback-classic:jar:1.1.3:test - omitted for duplicate)
+|  |  +- org.apache.qpid:qpid-broker-plugins-management-http:jar:6.0.4:test
+|  |  |  +- (ch.qos.logback:logback-classic:jar:1.1.3:test - omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.12:test - omitted for conflict with 1.7.21)
+|  |  |  +- org.apache.geronimo.specs:geronimo-servlet_3.0_spec:jar:1.0:test
+|  |  |  +- org.eclipse.jetty:jetty-server:jar:8.1.17.v20150415:test
+|  |  |  |  +- org.eclipse.jetty:jetty-continuation:jar:8.1.17.v20150415:test
+|  |  |  |  \- org.eclipse.jetty:jetty-http:jar:8.1.17.v20150415:test
+|  |  |  |     \- (org.eclipse.jetty:jetty-io:jar:8.1.17.v20150415:test - omitted for duplicate)
+|  |  |  +- org.eclipse.jetty:jetty-servlet:jar:8.1.17.v20150415:test
+|  |  |  |  \- org.eclipse.jetty:jetty-security:jar:8.1.17.v20150415:test
+|  |  |  |     \- (org.eclipse.jetty:jetty-server:jar:8.1.17.v20150415:test - omitted for duplicate)
+|  |  |  \- org.dojotoolkit:dojo:zip:distribution:1.10.3:test
+|  |  +- org.apache.qpid:qpid-broker-plugins-management-jmx:jar:6.0.4:test
+|  |  |  +- (org.apache.qpid:qpid-management-common:jar:6.0.4:test - omitted for duplicate)
+|  |  |  \- (ch.qos.logback:logback-classic:jar:1.1.3:test - omitted for duplicate)
+|  |  +- org.apache.qpid:qpid-broker-plugins-memory-store:jar:6.0.4:test
+|  |  \- org.apache.qpid:qpid-broker-plugins-websocket:jar:6.0.4:test
+|  |     +- (org.apache.geronimo.specs:geronimo-servlet_3.0_spec:jar:1.0:test - omitted for duplicate)
+|  |     +- (org.eclipse.jetty:jetty-server:jar:8.1.17.v20150415:test - omitted for duplicate)
+|  |     \- org.eclipse.jetty:jetty-websocket:jar:8.1.17.v20150415:test
+|  |        +- org.eclipse.jetty:jetty-util:jar:8.1.17.v20150415:test
+|  |        +- org.eclipse.jetty:jetty-io:jar:8.1.17.v20150415:test
+|  |        |  \- (org.eclipse.jetty:jetty-util:jar:8.1.17.v20150415:test - omitted for duplicate)
+|  |        \- (org.eclipse.jetty:jetty-http:jar:8.1.17.v20150415:test - omitted for duplicate)
+|  +- io.netty:netty:jar:3.4.2.Final:test
+|  +- org.scalatest:scalatest_2.12:jar:3.0.4:test
+|  |  +- (org.scala-lang:scala-library:jar:2.12.3:test - omitted for conflict with 2.12.1)
+|  |  +- org.scalactic:scalactic_2.12:jar:3.0.4:test
+|  |  |  +- (org.scala-lang:scala-library:jar:2.12.3:test - omitted for conflict with 2.12.1)
+|  |  |  \- (org.scala-lang:scala-reflect:jar:2.12.3:test - omitted for conflict with 2.12.0)
+|  |  +- (org.scala-lang:scala-reflect:jar:2.12.3:test - omitted for conflict with 2.12.0)
+|  |  +- org.scala-lang.modules:scala-xml_2.12:jar:1.0.5:test
+|  |  |  \- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.1)
+|  |  \- org.scala-lang.modules:scala-parser-combinators_2.12:jar:1.0.4:test
+|  |     \- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.1)
+|  +- co.fs2:fs2-core_2.12:jar:0.10.1:test
+|  |  +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for conflict with 2.12.1)
+|  |  \- org.typelevel:cats-effect_2.12:jar:0.8:test
+|  |     +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for conflict with 2.12.1)
+|  |     \- org.typelevel:cats-core_2.12:jar:1.0.1:test
+|  |        +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for conflict with 2.12.1)
+|  |        +- org.typelevel:cats-macros_2.12:jar:1.0.1:test
+|  |        |  +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for conflict with 2.12.1)
+|  |        |  \- (org.typelevel:machinist_2.12:jar:0.6.2:test - omitted for duplicate)
+|  |        +- org.typelevel:cats-kernel_2.12:jar:1.0.1:test
+|  |        |  \- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for conflict with 2.12.1)
+|  |        \- org.typelevel:machinist_2.12:jar:0.6.2:test
+|  |           +- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.1)
+|  |           \- (org.scala-lang:scala-reflect:jar:2.12.0:test - omitted for duplicate)
+|  \- (com.rabbitmq:amqp-client:jar:4.0.2:test - omitted for duplicate)
++- org.scalaz.stream:scalaz-stream_2.12:jar:0.8.6a:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.1)
+|  +- org.scalaz:scalaz-core_2.12:jar:7.2.7:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.1)
+|  +- org.scalaz:scalaz-concurrent_2.12:jar:7.2.7:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.1)
+|  |  +- (org.scalaz:scalaz-core_2.12:jar:7.2.7:compile - omitted for duplicate)
+|  |  \- org.scalaz:scalaz-effect_2.12:jar:7.2.7:compile
+|  |     +- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.1)
+|  |     \- (org.scalaz:scalaz-core_2.12:jar:7.2.7:compile - omitted for duplicate)
+|  \- org.scodec:scodec-bits_2.12:jar:1.1.2:compile
+|     \- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.1)
+\- com.typesafe:config:jar:1.3.1:compile

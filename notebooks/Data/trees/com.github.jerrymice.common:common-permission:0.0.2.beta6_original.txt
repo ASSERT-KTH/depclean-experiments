@@ -1,0 +1,5 @@
+com.github.jerrymice.common:common-permission:jar:0.0.2.beta6
++- com.github.jerrymice.common:common-entity:jar:0.0.2.beta6:compile
+|  \- com.google.code.gson:gson:jar:2.2.4:compile
++- org.aspectj:aspectjrt:jar:1.8.11:compile
+\- org.aspectj:aspectjweaver:jar:1.8.11:compile

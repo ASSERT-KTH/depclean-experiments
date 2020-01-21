@@ -1,0 +1,7 @@
+com.qiniu:qiniu-java-sdk:jar:7.2.11
++- com.squareup.okhttp3:okhttp:jar:3.9.1:compile
+|  \- com.squareup.okio:okio:jar:1.13.0:compile
++- com.google.code.gson:gson:jar:2.8.2:compile
++- com.qiniu:happy-dns-java:jar:0.1.6:compile
+\- junit:junit:jar:4.12:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

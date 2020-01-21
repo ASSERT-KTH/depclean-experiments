@@ -1,0 +1,27 @@
+software.amazon.awscdk:s3:jar:0.8.0
++- software.amazon.awscdk:iam:jar:0.8.0:compile
+|  +- (software.amazon.awscdk:cdk:jar:0.8.0:compile - omitted for duplicate)
+|  +- (software.amazon.jsii:jsii-runtime:jar:0.5.0-beta:compile - omitted for duplicate)
+|  \- (com.google.code.findbugs:jsr305:jar:3.0.2:compile - omitted for duplicate)
++- software.amazon.awscdk:kms:jar:0.8.0:compile
+|  +- (software.amazon.awscdk:iam:jar:0.8.0:compile - omitted for duplicate)
+|  +- (software.amazon.awscdk:cdk:jar:0.8.0:compile - omitted for duplicate)
+|  +- (software.amazon.jsii:jsii-runtime:jar:0.5.0-beta:compile - omitted for duplicate)
+|  \- (com.google.code.findbugs:jsr305:jar:3.0.2:compile - omitted for duplicate)
++- software.amazon.awscdk:cdk:jar:0.8.0:compile
+|  +- software.amazon.awscdk:cdk-cx-api:jar:0.8.0:compile
+|  |  +- (software.amazon.jsii:jsii-runtime:jar:0.5.0-beta:compile - omitted for duplicate)
+|  |  \- (com.google.code.findbugs:jsr305:jar:3.0.2:compile - omitted for duplicate)
+|  +- (software.amazon.jsii:jsii-runtime:jar:0.5.0-beta:compile - omitted for duplicate)
+|  \- (com.google.code.findbugs:jsr305:jar:3.0.2:compile - omitted for duplicate)
++- software.amazon.jsii:jsii-runtime:jar:0.5.0-beta:compile
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.9.5:compile
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile
+|  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+|  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.5:compile - omitted for duplicate)
+|  +- com.google.guava:guava-io:jar:r03:compile
+|  |  +- com.google.guava:guava-annotations:jar:r03:compile
+|  |  \- com.google.guava:guava-base:jar:r03:compile
+|  |     \- (com.google.guava:guava-annotations:jar:r03:compile - omitted for duplicate)
+|  \- (com.google.code.findbugs:jsr305:jar:3.0.2:compile - omitted for duplicate)
+\- com.google.code.findbugs:jsr305:jar:3.0.2:compile

@@ -1,0 +1,15 @@
+org.wikimedia.search.highlighter:experimental-highlighter-lucene:jar:6.3.1.1
++- com.github.spotbugs:spotbugs-annotations:jar:3.1.5:provided (optional)
+|  \- com.google.code.findbugs:jsr305:jar:3.0.2:provided (optional)
++- org.apache.lucene:lucene-core:jar:7.3.1:compile
++- org.apache.lucene:lucene-queries:jar:7.3.1:compile
++- org.elasticsearch:securemock:jar:1.2:test
++- org.wikimedia.search.highlighter:experimental-highlighter-core:jar:6.3.1.1:compile
++- com.carrotsearch.randomizedtesting:randomizedtesting-runner:jar:2.5.2:test
++- com.google.guava:guava:jar:18.0:test
++- junit:junit:jar:4.12:test
++- org.apache.lucene:lucene-analyzers-common:jar:7.3.1:test
++- org.apache.lucene:lucene-memory:jar:7.3.1:test
++- org.apache.lucene:lucene-test-framework:jar:7.3.1:test
+|  \- org.apache.lucene:lucene-codecs:jar:7.3.1:test
+\- org.hamcrest:hamcrest-all:jar:1.3:test

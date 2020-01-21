@@ -1,0 +1,4 @@
+org.scalaz:testz-scalatest_2.12:jar:0.0.4
++- org.scala-lang:scala-library:jar:2.12.4:compile
+\- org.scalaz:testz-core_2.12:jar:0.0.4:compile
+   \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)

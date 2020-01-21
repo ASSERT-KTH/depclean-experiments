@@ -1,0 +1,30 @@
+io.pleo:prop-archaius:jar:1.2.1
++- org.slf4j:slf4j-api:jar:1.7.20:compile
++- io.pleo:prop-core:jar:1.2.1:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.20:compile - omitted for duplicate)
++- com.netflix.archaius:archaius-core:jar:0.7.5:compile
+|  +- com.google.code.findbugs:jsr305:jar:3.0.1:runtime
+|  +- commons-configuration:commons-configuration:jar:1.8:runtime
+|  |  +- commons-lang:commons-lang:jar:2.6:runtime
+|  |  \- commons-logging:commons-logging:jar:1.1.1:runtime
+|  +- (org.slf4j:slf4j-api:jar:1.6.4:runtime - omitted for conflict with 1.7.20)
+|  +- (com.google.guava:guava:jar:16.0:runtime - omitted for conflict with 21.0)
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.4.3:runtime
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.4.3:runtime
+|  \- com.fasterxml.jackson.core:jackson-databind:jar:2.4.3:runtime
+|     +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.4.0:runtime - omitted for conflict with 2.4.3)
+|     \- (com.fasterxml.jackson.core:jackson-core:jar:2.4.3:runtime - omitted for duplicate)
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.mockito:mockito-core:jar:2.6.8:test
+|  +- net.bytebuddy:byte-buddy:jar:1.6.5:test
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.6.5:test
+|  \- org.objenesis:objenesis:jar:2.5:test
++- com.google.truth:truth:jar:0.31:test
+|  +- (com.google.guava:guava:jar:20.0:test - omitted for conflict with 16.0)
+|  +- (junit:junit:jar:4.10:test - omitted for conflict with 4.12)
+|  \- com.google.errorprone:error_prone_annotations:jar:2.0.12:test
++- ch.qos.logback:logback-classic:jar:1.2.3:test
+|  +- ch.qos.logback:logback-core:jar:1.2.3:test
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for conflict with 1.7.20)
+\- com.google.guava:guava:jar:21.0:test (scope not updated to runtime)

@@ -1,0 +1,6 @@
+org.valiktor:valiktor-core:jar:0.3.0
++- org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.51:compile
+|  +- org.jetbrains.kotlin:kotlin-stdlib-common:jar:1.2.51:compile
+|  \- org.jetbrains:annotations:jar:13.0:compile
+\- org.jetbrains.kotlin:kotlin-reflect:jar:1.2.51:compile
+   \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.51:compile - omitted for duplicate)

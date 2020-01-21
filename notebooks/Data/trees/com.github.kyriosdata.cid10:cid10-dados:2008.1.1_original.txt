@@ -1,0 +1,3 @@
+com.github.kyriosdata.cid10:cid10-dados:jar:2008.1.1
++- com.google.code.gson:gson:jar:2.8.2:compile
+\- junit:junit:jar:4.5:test

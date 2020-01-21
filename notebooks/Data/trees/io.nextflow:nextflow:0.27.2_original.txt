@@ -1,0 +1,92 @@
+io.nextflow:nextflow:jar:0.27.2
++- io.nextflow:nxf-commons:jar:0.27.2:compile
+|  +- (ch.qos.logback:logback-classic:jar:1.1.10:compile - omitted for duplicate)
+|  +- (org.codehaus.groovy:groovy:jar:2.4.13:compile - omitted for duplicate)
+|  +- (org.codehaus.groovy:groovy-nio:jar:2.4.13:compile - omitted for duplicate)
+|  +- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+|  \- com.google.guava:guava:jar:16.0.1:compile
++- io.nextflow:nxf-httpfs:jar:0.27.2:compile
+|  +- (ch.qos.logback:logback-classic:jar:1.1.10:compile - omitted for duplicate)
+|  +- (org.codehaus.groovy:groovy:jar:2.4.13:compile - omitted for duplicate)
+|  \- (org.codehaus.groovy:groovy-nio:jar:2.4.13:compile - omitted for duplicate)
++- org.codehaus.groovy:groovy:jar:2.4.13:compile
++- org.codehaus.groovy:groovy-nio:jar:2.4.13:compile
+|  \- (org.codehaus.groovy:groovy:jar:2.4.13:compile - omitted for duplicate)
++- org.codehaus.groovy:groovy-json:jar:2.4.13:compile
+|  \- (org.codehaus.groovy:groovy:jar:2.4.13:compile - omitted for duplicate)
++- org.codehaus.groovy:groovy-templates:jar:2.4.13:compile
+|  +- (org.codehaus.groovy:groovy:jar:2.4.13:compile - omitted for duplicate)
+|  \- org.codehaus.groovy:groovy-xml:jar:2.4.13:compile
+|     \- (org.codehaus.groovy:groovy:jar:2.4.13:compile - omitted for duplicate)
++- org.slf4j:jcl-over-slf4j:jar:1.7.21:compile
+|  \- org.slf4j:slf4j-api:jar:1.7.21:compile
++- org.slf4j:jul-to-slf4j:jar:1.7.21:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
++- org.slf4j:log4j-over-slf4j:jar:1.7.21:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
++- ch.qos.logback:logback-classic:jar:1.1.10:compile
+|  +- (ch.qos.logback:logback-core:jar:1.1.10:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.22:compile - omitted for conflict with 1.7.21)
++- ch.qos.logback:logback-core:jar:1.1.10:compile
++- org.codehaus.gpars:gpars:jar:1.2.1:compile
+|  +- org.multiverse:multiverse-core:jar:0.7.0:compile
+|  \- org.codehaus.jsr166-mirror:jsr166y:jar:1.7.0:compile
++- ch.grengine:grengine:jar:1.2.1:compile
+|  \- (org.codehaus.groovy:groovy:jar:2.4.8:compile - omitted for conflict with 2.4.13)
++- commons-lang:commons-lang:jar:2.6:compile
++- com.beust:jcommander:jar:1.35:compile
++- com.esotericsoftware.kryo:kryo:jar:2.24.0:compile
+|  \- (org.objenesis:objenesis:jar:2.1:compile - omitted for conflict with 1.4)
++- org.iq80.leveldb:leveldb:jar:0.7:compile
+|  +- org.iq80.leveldb:leveldb-api:jar:0.7:compile
+|  \- (com.google.guava:guava:jar:16.0.1:compile - omitted for duplicate)
++- org.eclipse.jgit:org.eclipse.jgit:jar:4.8.0.201706111038-r:compile
+|  +- com.jcraft:jsch:jar:0.1.54:compile
+|  +- com.googlecode.javaewah:JavaEWAH:jar:1.1.6:compile
+|  +- org.apache.httpcomponents:httpclient:jar:4.3.6:compile
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.3.3:compile
+|  |  +- commons-logging:commons-logging:jar:1.1.3:compile
+|  |  \- commons-codec:commons-codec:jar:1.6:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.2:compile - omitted for conflict with 1.7.21)
++- io.nextflow:nxf-s3fs:jar:1.0.2:compile
+|  +- (com.google.guava:guava:jar:11.0.1:compile - omitted for conflict with 16.0.1)
+|  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - omitted for conflict with 1.7.21)
++- com.amazonaws:aws-java-sdk-s3:jar:1.11.172:compile
+|  +- com.amazonaws:aws-java-sdk-kms:jar:1.11.172:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.172:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.172:compile - omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk-core:jar:1.11.172:compile
+|  |  +- (commons-logging:commons-logging:jar:1.1.3:compile - omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.2:compile - omitted for conflict with 4.3.6)
+|  |  +- software.amazon.ion:ion-java:jar:1.0.2:compile
+|  |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.6.7.1:compile
+|  |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.6.0:compile
+|  |  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.6.7:compile
+|  |  +- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.6.7:compile
+|  |  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.6.7:compile - omitted for duplicate)
+|  |  \- joda-time:joda-time:jar:2.8.1:compile
+|  \- com.amazonaws:jmespath-java:jar:1.11.172:compile
+|     \- (com.fasterxml.jackson.core:jackson-databind:jar:2.6.7.1:compile - omitted for duplicate)
++- com.amazonaws:aws-java-sdk-ec2:jar:1.11.172:compile
+|  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.172:compile - omitted for duplicate)
+|  \- (com.amazonaws:jmespath-java:jar:1.11.172:compile - omitted for duplicate)
++- com.amazonaws:aws-java-sdk-batch:jar:1.11.172:compile
+|  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.172:compile - omitted for duplicate)
+|  \- (com.amazonaws:jmespath-java:jar:1.11.172:compile - omitted for duplicate)
++- javax.mail:mail:jar:1.4.7:compile
+|  \- javax.activation:activation:jar:1.1:compile
++- org.yaml:snakeyaml:jar:1.18:compile
++- org.jsoup:jsoup:jar:1.11.2:compile
++- org.apache.ivy:ivy:jar:2.3.0:runtime
++- cglib:cglib-nodep:jar:2.2:test
++- org.objenesis:objenesis:jar:1.4:test (scope not updated to compile)
++- org.spockframework:spock-core:jar:1.1-groovy-2.4:test
+|  \- junit:junit:jar:4.12:test
+|     \- org.hamcrest:hamcrest-core:jar:1.3:test
++- com.google.jimfs:jimfs:jar:1.0:test
+|  \- (com.google.guava:guava:jar:16.0.1:test - omitted for duplicate)
+\- org.subethamail:subethasmtp:jar:3.1.7:test
+   +- (javax.mail:mail:jar:1.4.4:test - omitted for conflict with 1.4.7)
+   +- (javax.activation:activation:jar:1.1.1:test - omitted for conflict with 1.1)
+   +- (org.slf4j:slf4j-api:jar:1.6.1:test - omitted for conflict with 1.7.21)
+   \- com.google.code.findbugs:jsr305:jar:1.3.9:test

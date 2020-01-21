@@ -1,0 +1,34 @@
+org.bedework:bw-util-deployment:jar:4.0.18
++- org.bedework:bw-util-args:jar:4.0.18:compile
++- org.bedework:bw-util-dav:jar:4.0.18:compile
+|  +- org.bedework:bw-util-http:jar:4.0.18:compile
+|  |  +- org.bedework:bw-util-config:jar:4.0.18:compile
+|  |  |  +- (org.bedework:bw-util-misc:jar:4.0.18:compile - omitted for duplicate)
+|  |  |  \- (org.bedework:bw-util-xml:jar:4.0.18:compile - omitted for duplicate)
+|  |  +- org.bedework:bw-util-jmx:jar:4.0.18:compile
+|  |  |  +- (org.bedework:bw-util-config:jar:4.0.18:compile - omitted for duplicate)
+|  |  |  \- (org.bedework:bw-util-misc:jar:4.0.18:compile - omitted for duplicate)
+|  |  +- org.apache.httpcomponents:httpclient:jar:4.5.3:compile
+|  |  |  +- (org.apache.httpcomponents:httpcore:jar:4.4.8:compile - version managed from 4.4.6; omitted for duplicate)
+|  |  |  +- commons-logging:commons-logging:jar:1.2:compile
+|  |  |  \- commons-codec:commons-codec:jar:1.5:compile (version managed from 1.9)
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.4.8:compile
+|  |  \- log4j:log4j:jar:1.2.15:compile
+|  |     \- javax.mail:mail:jar:1.4:compile
+|  |        \- javax.activation:activation:jar:1.1:compile
+|  \- (org.bedework:bw-util-xml:jar:4.0.18:compile - omitted for duplicate)
++- org.bedework:bw-util-xml:jar:4.0.18:compile
+|  \- org.bedework:bw-util-misc:jar:4.0.18:compile
++- org.apache.maven:maven-plugin-api:jar:3.0:compile
+|  +- org.apache.maven:maven-model:jar:3.0:compile
+|  |  \- org.codehaus.plexus:plexus-utils:jar:2.0.4:compile
+|  +- org.apache.maven:maven-artifact:jar:3.0:compile
+|  |  \- (org.codehaus.plexus:plexus-utils:jar:2.0.4:compile - omitted for duplicate)
+|  \- org.sonatype.sisu:sisu-inject-plexus:jar:1.4.2:compile
+|     +- org.codehaus.plexus:plexus-component-annotations:jar:1.5.4:compile
+|     +- org.codehaus.plexus:plexus-classworlds:jar:2.2.3:compile
+|     +- (org.codehaus.plexus:plexus-utils:jar:2.0.5:compile - omitted for conflict with 2.0.4)
+|     \- org.sonatype.sisu:sisu-inject-bean:jar:1.4.2:compile
+|        \- org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7:compile
+\- org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.4:provided
+   \- (org.apache.maven:maven-artifact:jar:3.0:provided - omitted for duplicate)

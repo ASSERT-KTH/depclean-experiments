@@ -1,0 +1,258 @@
+ml.dmlc:xgboost4j-flink:jar:0.72
++- ml.dmlc:xgboost4j:jar:0.72:compile
+|  +- com.typesafe.akka:akka-actor_2.11:jar:2.3.11:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.5:compile - omitted for conflict with 2.11.8)
+|  |  \- com.typesafe:config:jar:1.2.1:compile
+|  +- (com.esotericsoftware.kryo:kryo:jar:2.21:compile - omitted for duplicate)
+|  +- (org.scala-lang:scala-compiler:jar:2.11.8:compile - omitted for duplicate)
+|  +- (org.scala-lang:scala-reflect:jar:2.11.8:compile - omitted for duplicate)
+|  +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for duplicate)
+|  \- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
++- org.apache.flink:flink-scala_2.11:jar:0.10.2:compile
+|  +- org.apache.flink:flink-core_2.11:jar:0.10.2:compile
+|  |  +- org.apache.flink:flink-shaded-hadoop2_2.11:jar:0.10.2:compile
+|  |  |  +- (commons-cli:commons-cli:jar:1.2:compile - omitted for duplicate)
+|  |  |  +- (org.apache.commons:commons-math3:jar:3.5:compile - omitted for duplicate)
+|  |  |  +- xmlenc:xmlenc:jar:0.52:compile
+|  |  |  +- commons-httpclient:commons-httpclient:jar:3.1:compile
+|  |  |  |  +- (commons-logging:commons-logging:jar:1.0.4:compile - omitted for conflict with 1.2)
+|  |  |  |  \- (commons-codec:commons-codec:jar:1.2:compile - omitted for conflict with 1.4)
+|  |  |  +- commons-codec:commons-codec:jar:1.4:compile
+|  |  |  +- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+|  |  |  +- commons-net:commons-net:jar:3.1:compile
+|  |  |  +- (commons-collections:commons-collections:jar:3.2.2:compile - omitted for duplicate)
+|  |  |  +- com.sun.jersey:jersey-core:jar:1.9:compile
+|  |  |  +- commons-el:commons-el:jar:1.0:runtime
+|  |  |  |  \- (commons-logging:commons-logging:jar:1.0.3:runtime - omitted for conflict with 1.2)
+|  |  |  +- (commons-logging:commons-logging:jar:1.1.3:compile - omitted for conflict with 1.2)
+|  |  |  +- net.java.dev.jets3t:jets3t:jar:0.9.0:compile
+|  |  |  |  +- (commons-codec:commons-codec:jar:1.4:compile - omitted for duplicate)
+|  |  |  |  +- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for conflict with 1.2)
+|  |  |  |  +- (org.apache.httpcomponents:httpclient:jar:4.1.2:compile - omitted for conflict with 4.2)
+|  |  |  |  +- (org.apache.httpcomponents:httpcore:jar:4.1.2:compile - omitted for conflict with 4.2)
+|  |  |  |  \- (com.jamesmurty.utils:java-xmlbuilder:jar:0.4:compile - omitted for duplicate)
+|  |  |  +- (org.apache.httpcomponents:httpclient:jar:4.2:compile - omitted for duplicate)
+|  |  |  +- org.apache.httpcomponents:httpcore:jar:4.2:compile
+|  |  |  +- com.jamesmurty.utils:java-xmlbuilder:jar:0.4:compile
+|  |  |  +- commons-lang:commons-lang:jar:2.6:compile
+|  |  |  +- commons-configuration:commons-configuration:jar:1.6:compile
+|  |  |  |  +- (commons-collections:commons-collections:jar:3.2.1:compile - omitted for conflict with 3.2.2)
+|  |  |  |  +- (commons-lang:commons-lang:jar:2.4:compile - omitted for conflict with 2.6)
+|  |  |  |  +- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for conflict with 1.2)
+|  |  |  |  +- (commons-digester:commons-digester:jar:1.8:compile - omitted for duplicate)
+|  |  |  |  \- (commons-beanutils:commons-beanutils-core:jar:1.8.0:compile - omitted for duplicate)
+|  |  |  +- commons-digester:commons-digester:jar:1.8:compile
+|  |  |  |  +- (commons-beanutils:commons-beanutils:jar:1.7.0:compile - omitted for duplicate)
+|  |  |  |  \- (commons-logging:commons-logging:jar:1.1:compile - omitted for conflict with 1.2)
+|  |  |  +- commons-beanutils:commons-beanutils:jar:1.7.0:compile
+|  |  |  |  \- (commons-logging:commons-logging:jar:1.0.3:compile - omitted for conflict with 1.2)
+|  |  |  +- commons-beanutils:commons-beanutils-core:jar:1.8.0:compile
+|  |  |  |  \- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for conflict with 1.2)
+|  |  |  +- org.codehaus.jackson:jackson-core-asl:jar:1.8.8:compile
+|  |  |  +- org.codehaus.jackson:jackson-mapper-asl:jar:1.8.8:compile
+|  |  |  |  \- (org.codehaus.jackson:jackson-core-asl:jar:1.8.8:compile - omitted for duplicate)
+|  |  |  +- (org.apache.avro:avro:jar:1.7.6:compile - omitted for duplicate)
+|  |  |  +- com.thoughtworks.paranamer:paranamer:jar:2.3:compile
+|  |  |  +- org.xerial.snappy:snappy-java:jar:1.0.5:compile
+|  |  |  +- com.jcraft:jsch:jar:0.1.42:compile
+|  |  |  +- (org.apache.zookeeper:zookeeper:jar:3.4.6:compile - omitted for duplicate)
+|  |  |  +- org.apache.commons:commons-compress:jar:1.4.1:compile
+|  |  |  |  \- (org.tukaani:xz:jar:1.0:compile - omitted for duplicate)
+|  |  |  +- org.tukaani:xz:jar:1.0:compile
+|  |  |  +- commons-daemon:commons-daemon:jar:1.0.13:compile
+|  |  |  +- javax.xml.bind:jaxb-api:jar:2.2.2:compile
+|  |  |  |  +- (javax.xml.stream:stax-api:jar:1.0-2:compile - omitted for duplicate)
+|  |  |  |  \- (javax.activation:activation:jar:1.1:compile - omitted for duplicate)
+|  |  |  +- javax.xml.stream:stax-api:jar:1.0-2:compile
+|  |  |  +- javax.activation:activation:jar:1.1:compile
+|  |  |  +- com.google.inject:guice:jar:3.0:compile
+|  |  |  |  +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  |  |  |  \- (aopalliance:aopalliance:jar:1.0:compile - omitted for duplicate)
+|  |  |  +- javax.inject:javax.inject:jar:1:compile
+|  |  |  +- aopalliance:aopalliance:jar:1.0:compile
+|  |  |  +- (org.apache.commons:commons-lang3:jar:3.3.2:compile - omitted for conflict with 3.4)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-log4j12:jar:1.7.7:compile - omitted for duplicate)
+|  |  |  \- (log4j:log4j:jar:1.2.17:compile - omitted for duplicate)
+|  |  +- commons-collections:commons-collections:jar:3.2.2:compile
+|  |  +- (com.esotericsoftware.kryo:kryo:jar:2.24.0:compile - omitted for conflict with 2.21)
+|  |  +- com.twitter:chill_2.11:jar:0.5.2:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.5:compile - omitted for conflict with 2.11.8)
+|  |  |  +- com.twitter:chill-java:jar:0.5.2:compile
+|  |  |  |  \- (com.esotericsoftware.kryo:kryo:jar:2.21:compile - omitted for duplicate)
+|  |  |  \- (com.esotericsoftware.kryo:kryo:jar:2.21:compile - omitted for duplicate)
+|  |  +- (org.apache.commons:commons-lang3:jar:3.3.2:compile - omitted for conflict with 3.4)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-log4j12:jar:1.7.7:compile - omitted for duplicate)
+|  |  \- (log4j:log4j:jar:1.2.17:compile - omitted for duplicate)
+|  +- org.apache.flink:flink-java_2.11:jar:0.10.2:compile
+|  |  +- (org.apache.flink:flink-core_2.11:jar:0.10.2:compile - omitted for duplicate)
+|  |  +- (org.apache.flink:flink-shaded-hadoop2_2.11:jar:0.10.2:compile - omitted for duplicate)
+|  |  +- org.apache.avro:avro:jar:1.7.6:compile
+|  |  |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile - omitted for conflict with 1.8.8)
+|  |  |  +- (org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:compile - omitted for conflict with 1.8.8)
+|  |  |  +- (com.thoughtworks.paranamer:paranamer:jar:2.3:compile - omitted for duplicate)
+|  |  |  +- (org.xerial.snappy:snappy-java:jar:1.0.5:compile - omitted for duplicate)
+|  |  |  +- (org.apache.commons:commons-compress:jar:1.4.1:compile - omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.6.4:compile - omitted for conflict with 1.7.7)
+|  |  +- (com.esotericsoftware.kryo:kryo:jar:2.24.0:compile - omitted for conflict with 2.21)
+|  |  +- (com.twitter:chill_2.11:jar:0.5.2:compile - omitted for duplicate)
+|  |  +- com.twitter:chill-avro_2.11:jar:0.5.2:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.5:compile - omitted for conflict with 2.11.8)
+|  |  |  +- (com.twitter:chill_2.11:jar:0.5.2:compile - omitted for duplicate)
+|  |  |  +- (com.twitter:chill-java:jar:0.5.2:compile - omitted for duplicate)
+|  |  |  +- com.twitter:chill-bijection_2.11:jar:0.5.2:compile
+|  |  |  |  +- (org.scala-lang:scala-library:jar:2.11.5:compile - omitted for conflict with 2.11.8)
+|  |  |  |  +- (com.twitter:chill_2.11:jar:0.5.2:compile - omitted for duplicate)
+|  |  |  |  +- (com.esotericsoftware.kryo:kryo:jar:2.21:compile - omitted for duplicate)
+|  |  |  |  \- com.twitter:bijection-core_2.11:jar:0.7.2:compile
+|  |  |  |     \- (org.scala-lang:scala-library:jar:2.11.5:compile - omitted for conflict with 2.11.8)
+|  |  |  +- (com.esotericsoftware.kryo:kryo:jar:2.21:compile - omitted for duplicate)
+|  |  |  \- com.twitter:bijection-avro_2.11:jar:0.7.2:compile
+|  |  |     +- (org.scala-lang:scala-library:jar:2.11.5:compile - omitted for conflict with 2.11.8)
+|  |  |     +- (com.twitter:bijection-core_2.11:jar:0.7.2:compile - omitted for duplicate)
+|  |  |     \- (org.apache.avro:avro:jar:1.7.5:compile - omitted for conflict with 1.7.6)
+|  |  +- de.javakaffee:kryo-serializers:jar:0.27:compile
+|  |  |  \- (com.esotericsoftware.kryo:kryo:jar:2.24.0:compile - omitted for conflict with 2.21)
+|  |  +- joda-time:joda-time:jar:2.5:compile
+|  |  +- org.joda:joda-convert:jar:1.7:compile
+|  |  +- org.apache.commons:commons-math3:jar:3.5:compile
+|  |  +- (org.apache.commons:commons-lang3:jar:3.3.2:compile - omitted for conflict with 3.4)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-log4j12:jar:1.7.7:compile - omitted for duplicate)
+|  |  \- (log4j:log4j:jar:1.2.17:compile - omitted for duplicate)
+|  +- org.apache.flink:flink-optimizer_2.11:jar:0.10.2:compile
+|  |  +- (org.apache.flink:flink-core_2.11:jar:0.10.2:compile - omitted for duplicate)
+|  |  +- (org.apache.flink:flink-runtime_2.11:jar:0.10.2:compile - omitted for duplicate)
+|  |  +- (org.apache.flink:flink-java_2.11:jar:0.10.2:compile - omitted for duplicate)
+|  |  +- (org.apache.commons:commons-lang3:jar:3.3.2:compile - omitted for conflict with 3.4)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-log4j12:jar:1.7.7:compile - omitted for duplicate)
+|  |  \- (log4j:log4j:jar:1.2.17:compile - omitted for duplicate)
+|  +- (org.scala-lang:scala-reflect:jar:2.11.7:compile - omitted for conflict with 2.11.8)
+|  +- (org.scala-lang:scala-library:jar:2.11.7:compile - omitted for conflict with 2.11.8)
+|  +- (org.scala-lang:scala-compiler:jar:2.11.7:compile - omitted for conflict with 2.11.8)
+|  +- (org.apache.commons:commons-lang3:jar:3.3.2:compile - omitted for conflict with 3.4)
+|  +- org.slf4j:slf4j-api:jar:1.7.7:compile
+|  +- org.slf4j:slf4j-log4j12:jar:1.7.7:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for duplicate)
+|  |  \- (log4j:log4j:jar:1.2.17:compile - omitted for duplicate)
+|  \- log4j:log4j:jar:1.2.17:compile
++- org.apache.flink:flink-clients_2.11:jar:0.10.2:compile
+|  +- (org.apache.flink:flink-core_2.11:jar:0.10.2:compile - omitted for duplicate)
+|  +- org.apache.flink:flink-runtime_2.11:jar:0.10.2:compile
+|  |  +- (org.apache.flink:flink-core_2.11:jar:0.10.2:compile - omitted for duplicate)
+|  |  +- (org.apache.flink:flink-java_2.11:jar:0.10.2:compile - omitted for duplicate)
+|  |  +- (org.apache.flink:flink-shaded-hadoop2_2.11:jar:0.10.2:compile - omitted for duplicate)
+|  |  +- (commons-cli:commons-cli:jar:1.2:compile - omitted for duplicate)
+|  |  +- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+|  |  +- org.apache.httpcomponents:httpclient:jar:4.2:compile
+|  |  |  +- (org.apache.httpcomponents:httpcore:jar:4.2:compile - omitted for duplicate)
+|  |  |  +- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for conflict with 1.2)
+|  |  |  \- (commons-codec:commons-codec:jar:1.6:compile - omitted for conflict with 1.4)
+|  |  +- io.netty:netty-all:jar:4.0.27.Final:compile
+|  |  +- org.javassist:javassist:jar:3.18.2-GA:compile
+|  |  +- org.codehaus.jettison:jettison:jar:1.1:compile
+|  |  |  \- stax:stax-api:jar:1.0.1:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.7:compile - omitted for conflict with 2.11.8)
+|  |  +- (com.typesafe.akka:akka-actor_2.11:jar:2.3.7:compile - omitted for conflict with 2.3.11)
+|  |  +- com.typesafe.akka:akka-remote_2.11:jar:2.3.7:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.4:compile - omitted for conflict with 2.11.8)
+|  |  |  +- (com.typesafe.akka:akka-actor_2.11:jar:2.3.7:compile - omitted for conflict with 2.3.11)
+|  |  |  +- io.netty:netty:jar:3.8.0.Final:compile
+|  |  |  +- com.google.protobuf:protobuf-java:jar:2.5.0:compile
+|  |  |  \- org.uncommons.maths:uncommons-maths:jar:1.2.2a:compile
+|  |  +- com.typesafe.akka:akka-slf4j_2.11:jar:2.3.7:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.4:compile - omitted for conflict with 2.11.8)
+|  |  |  +- (com.typesafe.akka:akka-actor_2.11:jar:2.3.7:compile - omitted for conflict with 2.3.11)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for conflict with 1.7.7)
+|  |  +- org.clapper:grizzled-slf4j_2.11:jar:1.0.2:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.0:compile - omitted for conflict with 2.11.8)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for duplicate)
+|  |  +- com.github.scopt:scopt_2.11:jar:3.2.0:compile
+|  |  +- io.dropwizard.metrics:metrics-core:jar:3.1.0:compile
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for duplicate)
+|  |  +- io.dropwizard.metrics:metrics-jvm:jar:3.1.0:compile
+|  |  |  +- (io.dropwizard.metrics:metrics-core:jar:3.1.0:compile - omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for duplicate)
+|  |  +- io.dropwizard.metrics:metrics-json:jar:3.1.0:compile
+|  |  |  +- (io.dropwizard.metrics:metrics-core:jar:3.1.0:compile - omitted for duplicate)
+|  |  |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.4.2:compile
+|  |  |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.4.0:compile
+|  |  |  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.4.2:compile
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for duplicate)
+|  |  +- org.apache.zookeeper:zookeeper:jar:3.4.6:compile
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.6.1:compile - omitted for conflict with 1.7.7)
+|  |  |  +- (org.slf4j:slf4j-log4j12:jar:1.6.1:compile - omitted for conflict with 1.7.7)
+|  |  |  +- (log4j:log4j:jar:1.2.16:compile - omitted for conflict with 1.2.17)
+|  |  |  +- jline:jline:jar:0.9.94:compile
+|  |  |  |  \- (junit:junit:jar:3.8.1:compile - omitted for conflict with 4.8.2)
+|  |  |  \- (io.netty:netty:jar:3.7.0.Final:compile - omitted for conflict with 3.8.0.Final)
+|  |  +- (org.apache.commons:commons-lang3:jar:3.3.2:compile - omitted for conflict with 3.4)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-log4j12:jar:1.7.7:compile - omitted for duplicate)
+|  |  \- (log4j:log4j:jar:1.2.17:compile - omitted for duplicate)
+|  +- (org.apache.flink:flink-optimizer_2.11:jar:0.10.2:compile - omitted for duplicate)
+|  +- (org.apache.flink:flink-java_2.11:jar:0.10.2:compile - omitted for duplicate)
+|  +- org.eclipse.jetty:jetty-server:jar:8.0.0.M1:compile
+|  |  +- org.mortbay.jetty:servlet-api:jar:3.0.20100224:compile
+|  |  +- org.eclipse.jetty:jetty-continuation:jar:8.0.0.M1:compile
+|  |  \- org.eclipse.jetty:jetty-http:jar:8.0.0.M1:compile
+|  |     \- org.eclipse.jetty:jetty-io:jar:8.0.0.M1:compile
+|  |        \- org.eclipse.jetty:jetty-util:jar:8.0.0.M1:compile
+|  +- org.eclipse.jetty:jetty-security:jar:8.0.0.M1:compile
+|  |  \- (org.eclipse.jetty:jetty-server:jar:8.0.0.M1:compile - omitted for duplicate)
+|  +- org.eclipse.jetty:jetty-servlet:jar:8.0.0.M1:compile
+|  |  \- (org.eclipse.jetty:jetty-security:jar:8.0.0.M1:compile - omitted for duplicate)
+|  +- commons-fileupload:commons-fileupload:jar:1.3.1:compile
+|  |  \- (commons-io:commons-io:jar:2.2:compile - omitted for conflict with 2.4)
+|  +- commons-io:commons-io:jar:2.4:compile
+|  +- commons-cli:commons-cli:jar:1.2:compile
+|  +- (org.apache.commons:commons-lang3:jar:3.3.2:compile - omitted for conflict with 3.4)
+|  +- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-log4j12:jar:1.7.7:compile - omitted for duplicate)
+|  \- (log4j:log4j:jar:1.2.17:compile - omitted for duplicate)
++- org.apache.flink:flink-ml_2.11:jar:0.10.2:compile
+|  +- (org.apache.flink:flink-scala_2.11:jar:0.10.2:compile - omitted for duplicate)
+|  +- org.scalanlp:breeze_2.11:jar:0.11.2:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.4:compile - omitted for conflict with 2.11.8)
+|  |  +- org.scalanlp:breeze-macros_2.11:jar:0.11.2:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.4:compile - omitted for conflict with 2.11.8)
+|  |  |  \- (org.scala-lang:scala-reflect:jar:2.11.4:compile - omitted for conflict with 2.11.8)
+|  |  +- com.github.fommil.netlib:core:jar:1.1.2:compile
+|  |  |  \- (net.sourceforge.f2j:arpack_combined_all:jar:0.1:compile - omitted for duplicate)
+|  |  +- net.sourceforge.f2j:arpack_combined_all:jar:0.1:compile
+|  |  +- net.sf.opencsv:opencsv:jar:2.3:compile
+|  |  +- com.github.rwl:jtransforms:jar:2.4.0:compile
+|  |  |  \- junit:junit:jar:4.8.2:compile
+|  |  +- (org.apache.commons:commons-math3:jar:3.2:compile - omitted for conflict with 3.5)
+|  |  +- org.spire-math:spire_2.11:jar:0.7.4:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.0:compile - omitted for conflict with 2.11.8)
+|  |  |  +- org.spire-math:spire-macros_2.11:jar:0.7.4:compile
+|  |  |  |  +- (org.scala-lang:scala-library:jar:2.11.0:compile - omitted for conflict with 2.11.8)
+|  |  |  |  \- (org.scala-lang:scala-reflect:jar:2.11.0:compile - omitted for conflict with 2.11.8)
+|  |  |  \- (org.scala-lang:scala-reflect:jar:2.11.0:compile - omitted for conflict with 2.11.8)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for conflict with 1.7.7)
+|  +- (org.apache.commons:commons-lang3:jar:3.3.2:compile - omitted for conflict with 3.4)
+|  +- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-log4j12:jar:1.7.7:compile - omitted for duplicate)
+|  \- (log4j:log4j:jar:1.2.17:compile - omitted for duplicate)
++- org.scala-lang:scala-compiler:jar:2.11.8:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for duplicate)
+|  +- (org.scala-lang:scala-reflect:jar:2.11.8:compile - omitted for duplicate)
+|  +- org.scala-lang.modules:scala-xml_2.11:jar:1.0.4:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.11.4:compile - omitted for conflict with 2.11.8)
+|  \- org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.0.4:compile
+|     \- (org.scala-lang:scala-library:jar:2.11.6:compile - omitted for conflict with 2.11.8)
++- org.scala-lang:scala-reflect:jar:2.11.8:compile
+|  \- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for duplicate)
++- org.scala-lang:scala-library:jar:2.11.8:compile
++- commons-logging:commons-logging:jar:1.2:compile
+\- org.scalatest:scalatest_2.11:jar:3.0.0:test
+   +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for duplicate)
+   +- org.scalactic:scalactic_2.11:jar:3.0.0:test
+   |  +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for duplicate)
+   |  \- (org.scala-lang:scala-reflect:jar:2.11.8:test - omitted for duplicate)
+   +- (org.scala-lang:scala-reflect:jar:2.11.8:test - omitted for duplicate)
+   +- (org.scala-lang.modules:scala-xml_2.11:jar:1.0.5:test - omitted for conflict with 1.0.4)
+   \- (org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.0.4:test - omitted for duplicate)

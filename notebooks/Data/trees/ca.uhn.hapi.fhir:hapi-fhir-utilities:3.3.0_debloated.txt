@@ -1,0 +1,20 @@
+ca.uhn.hapi.fhir:hapi-fhir-utilities:bundle:3.3.0
++- ca.uhn.hapi.fhir:hapi-fhir-base:jar:3.3.0:compile
+|  +- org.apache.commons:commons-lang3:jar:3.6:compile
+|  +- com.google.guava:guava:jar:23.0:compile
+|  |  +- com.google.code.findbugs:jsr305:jar:1.3.9:compile
+|  |  +- com.google.errorprone:error_prone_annotations:jar:2.0.18:compile
+|  |  +- com.google.j2objc:j2objc-annotations:jar:1.1:compile
+|  |  \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:compile
+|  +- org.slf4j:slf4j-api:jar:1.7.25:compile
+|  \- org.slf4j:jcl-over-slf4j:jar:1.7.25:compile
++- com.google.code.gson:gson:jar:2.8.1:compile
++- commons-codec:commons-codec:jar:1.10:compile
++- commons-io:commons-io:jar:2.5:compile
++- com.atlassian.commonmark:commonmark:jar:0.9.0:compile (optional)
++- es.nitaur.markdown:txtmark:jar:0.16:compile (optional)
++- net.sf.saxon:Saxon-HE:jar:9.5.1-5:compile (optional)
++- xpp3:xpp3:jar:1.1.4c:compile (optional)
++- junit:junit:jar:4.12:test
++- org.hamcrest:java-hamcrest:jar:2.0.0.0:test
+\- org.mockito:mockito-all:jar:1.10.19:test

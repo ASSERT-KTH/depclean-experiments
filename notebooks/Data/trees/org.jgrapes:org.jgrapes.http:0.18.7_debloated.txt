@@ -1,0 +1,9 @@
+org.jgrapes:org.jgrapes.http:jar:0.18.7
++- org.jgrapes:org.jgrapes.io:jar:0.18.7:compile
+|  +- org.jgrapes:org.jgrapes.core:jar:0.18.7:compile
+|  \- org.jgrapes:org.jgrapes.util:jar:0.18.7:compile
+|     +- (org.jgrapes:org.jgrapes.core:jar:0.18.7:compile - omitted for duplicate)
+|     \- org.jdrupes.json:json:jar:2.0.1:compile
+|        \- com.fasterxml.jackson.core:jackson-core:jar:2.9.4:compile
+\- org.jdrupes.httpcodec:httpcodec:jar:1.0.8:compile
+   \- com.sun.activation:javax.activation:jar:1.2.0:compile

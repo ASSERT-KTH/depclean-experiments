@@ -1,0 +1,2 @@
+org.webjars.npm:stimulus__mutation-observers:jar:1.1.0
+\- org.webjars.npm:stimulus__multimap:jar:1.1.1:compile

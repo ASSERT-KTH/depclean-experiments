@@ -1,0 +1,28 @@
+org.apache.maven:maven-model-builder:jar:3.5.3
++- org.codehaus.plexus:plexus-utils:jar:3.1.0:compile
++- org.codehaus.plexus:plexus-interpolation:jar:1.24:compile
++- org.codehaus.plexus:plexus-component-annotations:jar:1.7.1:compile
++- org.apache.maven:maven-model:jar:3.5.3:compile
+|  +- (org.codehaus.plexus:plexus-utils:jar:3.1.0:compile - omitted for duplicate)
+|  \- (org.apache.commons:commons-lang3:jar:3.5:compile - omitted for duplicate)
++- org.apache.maven:maven-artifact:jar:3.5.3:compile
+|  +- (org.codehaus.plexus:plexus-utils:jar:3.1.0:compile - omitted for duplicate)
+|  \- (org.apache.commons:commons-lang3:jar:3.5:compile - omitted for duplicate)
++- org.apache.maven:maven-builder-support:jar:3.5.3:compile
+|  \- (org.apache.commons:commons-lang3:jar:3.5:compile - omitted for duplicate)
++- org.apache.commons:commons-lang3:jar:3.5:compile
++- org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.3.3:test
+|  +- javax.enterprise:cdi-api:jar:1.0:test
+|  |  +- javax.annotation:jsr250-api:jar:1.0:test
+|  |  \- (javax.inject:javax.inject:jar:1:test - omitted for duplicate)
+|  +- org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.3.3:test
+|  +- (org.codehaus.plexus:plexus-component-annotations:jar:1.7.1:test - version managed from 1.5.5; omitted for duplicate)
+|  +- org.codehaus.plexus:plexus-classworlds:jar:2.5.2:test
+|  \- (org.codehaus.plexus:plexus-utils:jar:3.1.0:test - version managed from 3.0.17; omitted for duplicate)
++- com.google.inject:guice:jar:no_aop:4.0:test
+|  +- javax.inject:javax.inject:jar:1:test
+|  +- aopalliance:aopalliance:jar:1.0:test
+|  \- (com.google.guava:guava:jar:20.0:test - version managed from 16.0.1; omitted for duplicate)
++- xmlunit:xmlunit:jar:1.6:test
+\- junit:junit:jar:4.12:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

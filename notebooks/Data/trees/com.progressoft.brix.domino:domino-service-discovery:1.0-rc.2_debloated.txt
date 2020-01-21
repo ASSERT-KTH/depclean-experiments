@@ -1,0 +1,60 @@
+com.progressoft.brix.domino:domino-service-discovery:jar:1.0-rc.2
++- io.vertx:vertx-service-discovery:jar:3.4.2:compile
+|  \- io.vertx:vertx-core:jar:3.4.2:compile
+|     +- io.netty:netty-common:jar:4.1.8.Final:compile
+|     +- io.netty:netty-buffer:jar:4.1.8.Final:compile
+|     |  \- (io.netty:netty-common:jar:4.1.8.Final:compile - omitted for duplicate)
+|     +- io.netty:netty-transport:jar:4.1.8.Final:compile
+|     |  +- (io.netty:netty-buffer:jar:4.1.8.Final:compile - omitted for duplicate)
+|     |  \- (io.netty:netty-resolver:jar:4.1.8.Final:compile - omitted for duplicate)
+|     +- io.netty:netty-handler:jar:4.1.8.Final:compile
+|     |  +- (io.netty:netty-buffer:jar:4.1.8.Final:compile - omitted for duplicate)
+|     |  +- (io.netty:netty-transport:jar:4.1.8.Final:compile - omitted for duplicate)
+|     |  \- io.netty:netty-codec:jar:4.1.8.Final:compile
+|     |     \- (io.netty:netty-transport:jar:4.1.8.Final:compile - omitted for duplicate)
+|     +- io.netty:netty-handler-proxy:jar:4.1.8.Final:compile
+|     |  +- (io.netty:netty-transport:jar:4.1.8.Final:compile - omitted for duplicate)
+|     |  +- io.netty:netty-codec-socks:jar:4.1.8.Final:compile
+|     |  |  \- (io.netty:netty-codec:jar:4.1.8.Final:compile - omitted for duplicate)
+|     |  \- (io.netty:netty-codec-http:jar:4.1.8.Final:compile - omitted for duplicate)
+|     +- io.netty:netty-codec-http:jar:4.1.8.Final:compile
+|     |  \- (io.netty:netty-codec:jar:4.1.8.Final:compile - omitted for duplicate)
+|     +- io.netty:netty-codec-http2:jar:4.1.8.Final:compile
+|     |  +- (io.netty:netty-codec-http:jar:4.1.8.Final:compile - omitted for duplicate)
+|     |  \- (io.netty:netty-handler:jar:4.1.8.Final:compile - omitted for duplicate)
+|     +- io.netty:netty-resolver:jar:4.1.8.Final:compile
+|     |  \- (io.netty:netty-common:jar:4.1.8.Final:compile - omitted for duplicate)
+|     +- io.netty:netty-resolver-dns:jar:4.1.8.Final:compile
+|     |  +- (io.netty:netty-resolver:jar:4.1.8.Final:compile - omitted for duplicate)
+|     |  +- io.netty:netty-codec-dns:jar:4.1.8.Final:compile
+|     |  |  \- (io.netty:netty-codec:jar:4.1.8.Final:compile - omitted for duplicate)
+|     |  \- (io.netty:netty-transport:jar:4.1.8.Final:compile - omitted for duplicate)
+|     +- (com.fasterxml.jackson.core:jackson-core:jar:2.7.4:compile - omitted for duplicate)
+|     \- (com.fasterxml.jackson.core:jackson-databind:jar:2.7.4:compile - omitted for duplicate)
++- io.vertx:vertx-unit:jar:3.4.2:test
+|  \- (io.vertx:vertx-core:jar:3.4.2:test - omitted for duplicate)
++- io.vertx:vertx-web-client:jar:3.4.2:compile
+|  +- io.vertx:vertx-web-common:jar:3.4.2:compile
+|  |  \- (io.vertx:vertx-core:jar:3.4.2:compile - omitted for duplicate)
+|  \- (io.vertx:vertx-core:jar:3.4.2:compile - omitted for duplicate)
++- io.vertx:vertx-codegen:jar:3.4.2:compile
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.7.4:compile
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.7.4:compile
+|  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.7.0:compile
+|  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.7.4:compile - omitted for duplicate)
+|  \- org.mvel:mvel2:jar:2.2.8.Final:compile
++- io.vertx:vertx-jdbc-client:jar:3.4.2:compile
+|  +- io.vertx:vertx-sql-common:jar:3.4.2:compile
+|  \- com.mchange:c3p0:jar:0.9.5.2:compile
+|     \- com.mchange:mchange-commons-java:jar:0.2.11:compile
++- io.vertx:vertx-redis-client:jar:3.4.2:compile
+|  \- (io.vertx:vertx-core:jar:3.4.2:compile - omitted for duplicate)
++- io.vertx:vertx-mongo-client:jar:3.4.2:compile
+|  +- (io.vertx:vertx-core:jar:3.4.2:compile - omitted for duplicate)
+|  \- org.mongodb:mongodb-driver-async:jar:3.4.1:compile
+|     +- org.mongodb:mongodb-driver-core:jar:3.4.1:compile
+|     |  \- (org.mongodb:bson:jar:3.4.1:compile - omitted for duplicate)
+|     \- org.mongodb:bson:jar:3.4.1:compile
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
+\- org.assertj:assertj-core:jar:3.7.0:test

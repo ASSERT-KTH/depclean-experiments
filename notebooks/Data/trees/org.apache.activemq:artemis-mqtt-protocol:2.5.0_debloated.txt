@@ -1,0 +1,85 @@
+org.apache.activemq:artemis-mqtt-protocol:bundle:2.5.0
++- org.jboss.logging:jboss-logging-processor:jar:2.1.0.Final:compile
+|  +- (org.jboss.logging:jboss-logging-annotations:jar:2.1.0.Final:provided - scope managed from compile; omitted for duplicate)
+|  \- org.jboss.jdeparser:jdeparser:jar:2.0.2.Final:compile
++- org.jboss.logging:jboss-logging-annotations:jar:2.1.0.Final:provided
++- org.jboss.logging:jboss-logging:jar:3.3.1.Final:compile
++- org.apache.activemq:artemis-server:jar:2.5.0:compile
+|  +- (org.jboss.logging:jboss-logging:jar:3.3.1.Final:compile - omitted for duplicate)
+|  +- (org.apache.activemq:artemis-commons:jar:2.5.0:compile - omitted for duplicate)
+|  +- org.apache.activemq:artemis-selector:jar:2.5.0:compile
+|  +- (org.apache.activemq:artemis-journal:jar:2.5.0:compile - omitted for duplicate)
+|  +- org.apache.activemq:artemis-jdbc-store:jar:2.5.0:compile
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.1.Final:compile - omitted for duplicate)
+|  |  +- (org.apache.activemq:artemis-commons:jar:2.5.0:compile - omitted for duplicate)
+|  |  +- (org.apache.activemq:artemis-journal:jar:2.5.0:compile - omitted for duplicate)
+|  |  \- (org.apache.activemq:artemis-core-client:jar:2.5.0:compile - omitted for duplicate)
+|  +- (org.apache.activemq:artemis-core-client:jar:2.5.0:compile - omitted for duplicate)
+|  +- org.apache.activemq:artemis-native:jar:2.5.0:compile
+|  |  \- (org.jboss.logging:jboss-logging:jar:3.3.1.Final:compile - omitted for duplicate)
+|  +- (io.netty:netty-buffer:jar:4.1.22.Final:compile - omitted for duplicate)
+|  +- (io.netty:netty-transport:jar:4.1.22.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-codec-http:jar:4.1.22.Final:compile
+|  |  \- (io.netty:netty-codec:jar:4.1.22.Final:compile - omitted for duplicate)
+|  +- (io.netty:netty-common:jar:4.1.22.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-handler:jar:4.1.22.Final:compile
+|  |  +- (io.netty:netty-buffer:jar:4.1.22.Final:compile - omitted for duplicate)
+|  |  +- (io.netty:netty-transport:jar:4.1.22.Final:compile - omitted for duplicate)
+|  |  \- (io.netty:netty-codec:jar:4.1.22.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-transport-native-epoll:jar:linux-x86_64:4.1.22.Final:compile
+|  |  +- (io.netty:netty-common:jar:4.1.22.Final:compile - omitted for duplicate)
+|  |  +- (io.netty:netty-buffer:jar:4.1.22.Final:compile - omitted for duplicate)
+|  |  +- io.netty:netty-transport-native-unix-common:jar:4.1.22.Final:compile
+|  |  |  +- (io.netty:netty-common:jar:4.1.22.Final:compile - omitted for duplicate)
+|  |  |  \- (io.netty:netty-transport:jar:4.1.22.Final:compile - omitted for duplicate)
+|  |  \- (io.netty:netty-transport:jar:4.1.22.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-transport-native-kqueue:jar:osx-x86_64:4.1.22.Final:compile
+|  |  +- (io.netty:netty-common:jar:4.1.22.Final:compile - omitted for duplicate)
+|  |  +- (io.netty:netty-buffer:jar:4.1.22.Final:compile - omitted for duplicate)
+|  |  +- (io.netty:netty-transport-native-unix-common:jar:4.1.22.Final:compile - omitted for duplicate)
+|  |  \- (io.netty:netty-transport:jar:4.1.22.Final:compile - omitted for duplicate)
+|  +- (io.netty:netty-codec:jar:4.1.22.Final:compile - omitted for duplicate)
+|  +- commons-beanutils:commons-beanutils:jar:1.9.3:compile
+|  |  +- commons-logging:commons-logging:jar:1.2:compile
+|  |  \- commons-collections:commons-collections:jar:3.2.2:compile
+|  +- commons-io:commons-io:jar:2.6:compile
+|  +- org.apache.geronimo.specs:geronimo-json_1.0_spec:jar:1.0-alpha-1:compile
+|  \- com.google.guava:guava:jar:19.0:compile
++- org.apache.activemq:artemis-core-client:jar:2.5.0:compile
+|  +- org.jgroups:jgroups:jar:3.6.13.Final:compile
+|  +- (org.apache.activemq:artemis-commons:jar:2.5.0:compile - omitted for duplicate)
+|  +- (org.apache.geronimo.specs:geronimo-json_1.0_spec:jar:1.0-alpha-1:compile - omitted for duplicate)
+|  +- org.apache.johnzon:johnzon-core:jar:0.9.5:compile
+|  +- (io.netty:netty-transport-native-epoll:jar:linux-x86_64:4.1.22.Final:compile - omitted for duplicate)
+|  +- (io.netty:netty-transport-native-kqueue:jar:osx-x86_64:4.1.22.Final:compile - omitted for duplicate)
+|  +- (io.netty:netty-codec-http:jar:4.1.22.Final:compile - omitted for duplicate)
+|  +- (io.netty:netty-buffer:jar:4.1.22.Final:compile - omitted for duplicate)
+|  +- (io.netty:netty-transport:jar:4.1.22.Final:compile - omitted for duplicate)
+|  +- (io.netty:netty-handler:jar:4.1.22.Final:compile - omitted for duplicate)
+|  +- (io.netty:netty-codec:jar:4.1.22.Final:compile - omitted for duplicate)
+|  \- (io.netty:netty-common:jar:4.1.22.Final:compile - omitted for duplicate)
++- org.apache.activemq:artemis-commons:jar:2.5.0:compile
+|  +- (org.jboss.logging:jboss-logging:jar:3.3.1.Final:compile - omitted for duplicate)
+|  +- (io.netty:netty-buffer:jar:4.1.22.Final:compile - omitted for duplicate)
+|  +- (io.netty:netty-transport:jar:4.1.22.Final:compile - omitted for duplicate)
+|  +- (io.netty:netty-handler:jar:4.1.22.Final:compile - omitted for duplicate)
+|  +- (commons-beanutils:commons-beanutils:jar:1.9.3:compile - omitted for duplicate)
+|  \- (com.google.guava:guava:jar:19.0:compile - omitted for duplicate)
++- org.apache.activemq:artemis-journal:jar:2.5.0:compile
+|  +- (org.jboss.logging:jboss-logging:jar:3.3.1.Final:compile - omitted for duplicate)
+|  +- (org.apache.activemq:artemis-commons:jar:2.5.0:compile - omitted for duplicate)
+|  +- (org.apache.activemq:artemis-native:jar:2.5.0:compile - omitted for duplicate)
+|  +- (io.netty:netty-buffer:jar:4.1.22.Final:compile - omitted for duplicate)
+|  \- (io.netty:netty-common:jar:4.1.22.Final:compile - omitted for duplicate)
++- io.netty:netty-buffer:jar:4.1.22.Final:compile
+|  \- (io.netty:netty-common:jar:4.1.22.Final:compile - omitted for duplicate)
++- io.netty:netty-transport:jar:4.1.22.Final:compile
+|  +- (io.netty:netty-buffer:jar:4.1.22.Final:compile - omitted for duplicate)
+|  \- io.netty:netty-resolver:jar:4.1.22.Final:compile
+|     \- (io.netty:netty-common:jar:4.1.22.Final:compile - omitted for duplicate)
++- io.netty:netty-codec:jar:4.1.22.Final:compile
+|  \- (io.netty:netty-transport:jar:4.1.22.Final:compile - omitted for duplicate)
++- io.netty:netty-common:jar:4.1.22.Final:compile
++- io.netty:netty-codec-mqtt:jar:4.1.22.Final:compile
+|  \- (io.netty:netty-codec:jar:4.1.22.Final:compile - omitted for duplicate)
+\- org.osgi:osgi.cmpn:jar:6.0.0:provided

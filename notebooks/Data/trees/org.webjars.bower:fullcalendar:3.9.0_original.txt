@@ -1,0 +1,3 @@
+org.webjars.bower:fullcalendar:jar:3.9.0
++- org.webjars.bower:jquery:jar:3.4.1:compile
+\- org.webjars.bower:moment:jar:2.24.0:compile

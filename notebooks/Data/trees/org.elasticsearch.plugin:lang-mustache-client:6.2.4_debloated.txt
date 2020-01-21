@@ -1,0 +1,37 @@
+org.elasticsearch.plugin:lang-mustache-client:jar:6.2.4
++- com.github.spullara.mustache.java:compiler:jar:0.9.3:compile
++- org.elasticsearch:elasticsearch:jar:6.2.4:compile
+|  +- org.elasticsearch:elasticsearch-core:jar:6.2.4:compile
+|  |  \- (org.apache.logging.log4j:log4j-api:jar:2.9.1:compile - omitted for duplicate)
+|  +- org.apache.lucene:lucene-core:jar:7.2.1:compile
+|  +- org.apache.lucene:lucene-analyzers-common:jar:7.2.1:compile
+|  +- org.apache.lucene:lucene-backward-codecs:jar:7.2.1:compile
+|  +- org.apache.lucene:lucene-grouping:jar:7.2.1:compile
+|  +- org.apache.lucene:lucene-highlighter:jar:7.2.1:compile
+|  +- org.apache.lucene:lucene-join:jar:7.2.1:compile
+|  +- org.apache.lucene:lucene-memory:jar:7.2.1:compile
+|  +- org.apache.lucene:lucene-misc:jar:7.2.1:compile
+|  +- org.apache.lucene:lucene-queries:jar:7.2.1:compile
+|  +- org.apache.lucene:lucene-queryparser:jar:7.2.1:compile
+|  +- org.apache.lucene:lucene-sandbox:jar:7.2.1:compile
+|  +- org.apache.lucene:lucene-spatial:jar:7.2.1:compile
+|  +- org.apache.lucene:lucene-spatial-extras:jar:7.2.1:compile
+|  +- org.apache.lucene:lucene-spatial3d:jar:7.2.1:compile
+|  +- org.apache.lucene:lucene-suggest:jar:7.2.1:compile
+|  +- org.elasticsearch:securesm:jar:1.2:compile
+|  +- org.elasticsearch:elasticsearch-cli:jar:6.2.4:compile
+|  |  \- net.sf.jopt-simple:jopt-simple:jar:5.0.2:compile
+|  +- com.carrotsearch:hppc:jar:0.7.1:compile
+|  +- joda-time:joda-time:jar:2.9.9:compile
+|  +- org.yaml:snakeyaml:jar:1.17:compile
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.8.10:compile
+|  +- com.fasterxml.jackson.dataformat:jackson-dataformat-smile:jar:2.8.10:compile
+|  +- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.8.10:compile
+|  +- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.8.10:compile
+|  +- com.tdunning:t-digest:jar:3.0:compile
+|  +- org.hdrhistogram:HdrHistogram:jar:2.1.9:compile
+|  +- (org.apache.logging.log4j:log4j-api:jar:2.9.1:compile - omitted for duplicate)
+|  \- (org.elasticsearch:jna:jar:4.5.1:compile - omitted for duplicate)
++- com.vividsolutions:jts:jar:1.13:compile
++- org.apache.logging.log4j:log4j-api:jar:2.9.1:compile
+\- org.elasticsearch:jna:jar:4.5.1:compile

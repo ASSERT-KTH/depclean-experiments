@@ -1,0 +1,4 @@
+org.webjars.npm:material__drawer:jar:0.38.0
++- org.webjars.npm:material__typography:jar:0.38.0:compile
++- org.webjars.npm:material__rtl:jar:0.36.0:compile
+\- org.webjars.npm:material__base:jar:0.35.0:compile

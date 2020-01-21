@@ -1,0 +1,17 @@
+org.typelevel:catalysts-testkit_2.11:jar:0.6
++- org.scala-lang:scala-compiler:jar:2.11.12:provided
+|  +- (org.scala-lang:scala-library:jar:2.11.12:provided - omitted for duplicate)
+|  +- (org.scala-lang:scala-reflect:jar:2.11.12:provided - omitted for duplicate)
+|  +- org.scala-lang.modules:scala-xml_2.11:jar:1.0.5:provided
+|  |  \- (org.scala-lang:scala-library:jar:2.11.7:provided - omitted for conflict with 2.11.12)
+|  \- org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.0.4:provided
+|     \- (org.scala-lang:scala-library:jar:2.11.6:provided - omitted for conflict with 2.11.12)
++- org.scala-lang:scala-library:jar:2.11.12:compile
++- org.typelevel:catalysts-macros_2.11:jar:0.6:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  \- (org.typelevel:macro-compat_2.11:jar:1.1.1:compile - omitted for duplicate)
++- org.typelevel:catalysts-platform_2.11:jar:0.6:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  \- (org.typelevel:catalysts-macros_2.11:jar:0.6:compile - omitted for duplicate)
+\- org.scala-lang:scala-reflect:jar:2.11.12:provided
+   \- (org.scala-lang:scala-library:jar:2.11.12:provided - omitted for duplicate)

@@ -1,0 +1,18 @@
+uk.ac.rdg.resc:edal-common:jar:1.2.13
++- org.opengis:geoapi:jar:3.0.0:compile
+|  \- javax.measure:jsr-275:jar:0.9.3:compile
++- org.apache.sis.core:sis-referencing:jar:0.7:compile
+|  +- org.apache.sis.core:sis-utility:jar:0.7:compile
+|  |  \- (org.opengis:geoapi:jar:3.0.0:compile - omitted for duplicate)
+|  +- org.apache.sis.core:sis-metadata:jar:0.7:compile
+|  |  +- (org.apache.sis.core:sis-utility:jar:0.7:compile - omitted for duplicate)
+|  |  \- (org.opengis:geoapi:jar:3.0.0:compile - omitted for duplicate)
+|  \- (org.opengis:geoapi:jar:3.0.0:compile - omitted for duplicate)
++- joda-time:joda-time:jar:2.9.4:compile
++- org.slf4j:slf4j-log4j12:jar:1.7.2:compile
+|  +- org.slf4j:slf4j-api:jar:1.7.2:compile
+|  \- log4j:log4j:jar:1.2.17:compile
++- com.h2database:h2:jar:1.3.173:compile
++- net.sf.ehcache:ehcache:jar:2.8.3:compile
+|  \- (org.slf4j:slf4j-api:jar:1.6.6:compile - omitted for conflict with 1.7.2)
+\- junit:junit:jar:4.5:test

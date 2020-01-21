@@ -1,0 +1,148 @@
+com.orientechnologies:orientdb-gremlin-server:jar:3.0.1
++- com.orientechnologies:orientdb-server:jar:3.0.1:compile
+|  +- com.orientechnologies:orientdb-client:jar:3.0.1:compile
+|  |  \- (com.orientechnologies:orientdb-core:jar:3.0.1:compile - omitted for duplicate)
+|  +- com.orientechnologies:orientdb-tools:jar:3.0.1:compile
+|  |  +- (com.orientechnologies:orientdb-client:jar:3.0.1:compile - omitted for duplicate)
+|  |  \- (com.orientechnologies:orientdb-core:jar:3.0.1:compile - omitted for duplicate)
+|  +- javax.mail:mail:jar:1.4.7:compile
+|  |  \- javax.activation:activation:jar:1.1:compile
+|  \- com.sun.xml.bind:jaxb-impl:jar:2.2.3:compile
+|     \- javax.xml.bind:jaxb-api:jar:2.2.2:compile
+|        +- javax.xml.stream:stax-api:jar:1.0-2:compile
+|        \- (javax.activation:activation:jar:1.1:compile - omitted for duplicate)
++- com.orientechnologies:orientdb-test-commons:jar:3.0.1:test
+|  +- (junit:junit:jar:4.12:compile - scope updated from test; omitted for duplicate)
+|  +- (org.mockito:mockito-core:jar:1.10.19:compile - scope updated from test; omitted for duplicate)
+|  +- org.assertj:assertj-core:jar:3.4.1:test
+|  \- (org.objenesis:objenesis:jar:2.4:runtime - scope updated from test; omitted for duplicate)
++- com.orientechnologies:orientdb-core:test-jar:tests:3.0.1:test
+|  +- (net.java.dev.jna:jna:jar:4.5.0:compile - scope updated from test; omitted for duplicate)
+|  +- (net.java.dev.jna:jna-platform:jar:4.5.0:compile - scope updated from test; omitted for duplicate)
+|  \- (com.googlecode.concurrentlinkedhashmap:concurrentlinkedhashmap-lru:jar:1.4.2:compile - scope updated from test; omitted for duplicate)
++- com.orientechnologies:orientdb-core:jar:3.0.1:compile
+|  +- net.java.dev.jna:jna:jar:4.5.0:compile
+|  +- net.java.dev.jna:jna-platform:jar:4.5.0:compile
+|  |  \- (net.java.dev.jna:jna:jar:4.5.0:compile - omitted for duplicate)
+|  \- com.googlecode.concurrentlinkedhashmap:concurrentlinkedhashmap-lru:jar:1.4.2:compile
++- com.orientechnologies:orientdb-lucene:jar:3.0.1:compile
+|  +- (com.orientechnologies:orientdb-core:jar:3.0.1:compile - omitted for duplicate)
+|  +- (com.orientechnologies:orientdb-client:jar:3.0.1:compile - omitted for duplicate)
+|  +- (com.orientechnologies:orientdb-server:jar:3.0.1:compile - omitted for duplicate)
+|  +- org.apache.lucene:lucene-core:jar:7.3.0:compile
+|  +- org.apache.lucene:lucene-analyzers-common:jar:7.3.0:compile
+|  |  \- (org.apache.lucene:lucene-core:jar:7.3.0:compile - omitted for duplicate)
+|  +- org.apache.lucene:lucene-queryparser:jar:7.3.0:compile
+|  |  +- (org.apache.lucene:lucene-core:jar:7.3.0:compile - omitted for duplicate)
+|  |  +- (org.apache.lucene:lucene-queries:jar:7.3.0:compile - omitted for duplicate)
+|  |  \- org.apache.lucene:lucene-sandbox:jar:7.3.0:compile
+|  +- org.apache.lucene:lucene-queries:jar:7.3.0:compile
+|  |  \- (org.apache.lucene:lucene-core:jar:7.3.0:compile - omitted for duplicate)
+|  +- org.apache.lucene:lucene-misc:jar:7.3.0:compile
+|  |  \- (org.apache.lucene:lucene-core:jar:7.3.0:compile - omitted for duplicate)
+|  +- org.apache.lucene:lucene-facet:jar:7.3.0:compile
+|  |  +- (org.apache.lucene:lucene-core:jar:7.3.0:compile - omitted for duplicate)
+|  |  \- com.carrotsearch:hppc:jar:0.7.3:compile
+|  +- org.apache.lucene:lucene-memory:jar:7.3.0:compile
+|  |  \- (org.apache.lucene:lucene-core:jar:7.3.0:compile - omitted for duplicate)
+|  +- org.apache.lucene:lucene-highlighter:jar:7.3.0:compile
+|  |  +- (org.apache.lucene:lucene-analyzers-common:jar:7.3.0:compile - omitted for duplicate)
+|  |  +- (org.apache.lucene:lucene-core:jar:7.3.0:compile - omitted for duplicate)
+|  |  +- org.apache.lucene:lucene-join:jar:7.3.0:compile
+|  |  +- (org.apache.lucene:lucene-memory:jar:7.3.0:compile - omitted for duplicate)
+|  |  \- (org.apache.lucene:lucene-queries:jar:7.3.0:compile - omitted for duplicate)
+|  +- org.apache.lucene:lucene-codecs:jar:7.3.0:compile
+|  |  \- (org.apache.lucene:lucene-core:jar:7.3.0:compile - omitted for duplicate)
+|  +- org.apache.lucene:lucene-backward-codecs:jar:7.3.0:compile
+|  |  \- (org.apache.lucene:lucene-core:jar:7.3.0:compile - omitted for duplicate)
+|  +- org.apache.lucene:lucene-spatial:jar:7.3.0:compile
+|  |  \- (org.apache.lucene:lucene-core:jar:7.3.0:compile - omitted for duplicate)
+|  +- org.apache.lucene:lucene-spatial-extras:jar:7.3.0:compile
+|  |  +- (org.apache.lucene:lucene-core:jar:7.3.0:compile - omitted for duplicate)
+|  |  +- org.apache.lucene:lucene-spatial3d:jar:7.3.0:compile
+|  |  +- io.sgr:s2-geometry-library-java:jar:1.0.0:compile
+|  |  \- org.locationtech.spatial4j:spatial4j:jar:0.7:compile
+|  +- org.locationtech.jts:jts-core:jar:1.15.0:compile
+|  \- org.noggit:noggit:jar:0.8:compile
++- com.orientechnologies:orientdb-distributed:jar:3.0.1:compile
+|  +- (com.orientechnologies:orientdb-server:jar:3.0.1:compile - omitted for duplicate)
+|  +- (com.orientechnologies:orientdb-tools:jar:3.0.1:compile - omitted for duplicate)
+|  \- com.hazelcast:hazelcast:jar:3.8.4:compile
++- org.apache.tinkerpop:gremlin-groovy:jar:3.3.0:compile
+|  +- org.apache.tinkerpop:gremlin-core:jar:3.3.0:compile
+|  |  +- org.apache.tinkerpop:gremlin-shaded:jar:3.3.0:compile
+|  |  +- commons-configuration:commons-configuration:jar:1.10:compile
+|  |  |  \- commons-lang:commons-lang:jar:2.6:compile
+|  |  +- org.yaml:snakeyaml:jar:1.15:compile
+|  |  +- org.javatuples:javatuples:jar:1.2:compile
+|  |  +- (com.carrotsearch:hppc:jar:0.7.1:compile - omitted for conflict with 0.7.3)
+|  |  +- com.jcabi:jcabi-manifests:jar:1.1:compile
+|  |  |  \- com.jcabi:jcabi-log:jar:0.14:compile
+|  |  +- com.squareup:javapoet:jar:1.8.0:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|  |  \- (org.slf4j:jcl-over-slf4j:jar:1.7.21:compile - omitted for duplicate)
+|  +- org.apache.ivy:ivy:jar:2.3.0:compile
+|  +- org.codehaus.groovy:groovy:jar:indy:2.4.11:compile
+|  +- org.codehaus.groovy:groovy-groovysh:jar:indy:2.4.11:compile
+|  |  +- org.codehaus.groovy:groovy-console:jar:2.4.11:compile
+|  |  |  +- org.codehaus.groovy:groovy-templates:jar:2.4.11:compile
+|  |  |  |  +- org.codehaus.groovy:groovy-xml:jar:2.4.11:compile
+|  |  |  |  |  \- (org.codehaus.groovy:groovy:jar:2.4.11:compile - omitted for duplicate)
+|  |  |  |  \- (org.codehaus.groovy:groovy:jar:2.4.11:compile - omitted for duplicate)
+|  |  |  +- org.codehaus.groovy:groovy-swing:jar:2.4.11:compile
+|  |  |  |  \- (org.codehaus.groovy:groovy:jar:2.4.11:compile - omitted for duplicate)
+|  |  |  \- (org.codehaus.groovy:groovy:jar:2.4.11:compile - omitted for duplicate)
+|  |  +- jline:jline:jar:2.12:compile
+|  |  \- org.codehaus.groovy:groovy:jar:2.4.11:compile
+|  +- org.codehaus.groovy:groovy-json:jar:indy:2.4.11:compile
+|  |  \- (org.codehaus.groovy:groovy:jar:2.4.11:compile - omitted for duplicate)
+|  +- org.codehaus.groovy:groovy-jsr223:jar:indy:2.4.11:compile
+|  |  \- (org.codehaus.groovy:groovy:jar:2.4.11:compile - omitted for duplicate)
+|  +- org.apache.commons:commons-lang3:jar:3.3.1:compile
+|  +- org.mindrot:jbcrypt:jar:0.4:compile
+|  \- com.github.ben-manes.caffeine:caffeine:jar:2.3.1:compile
++- org.apache.tinkerpop:tinkergraph-gremlin:jar:3.3.0:compile
+|  +- (org.apache.tinkerpop:gremlin-core:jar:3.3.0:compile - omitted for duplicate)
+|  +- (org.apache.commons:commons-lang3:jar:3.3.1:compile - omitted for duplicate)
+|  \- org.apache.tinkerpop:gremlin-test:jar:3.3.0:compile
+|     +- (org.apache.tinkerpop:gremlin-core:jar:3.3.0:compile - omitted for duplicate)
+|     +- commons-io:commons-io:jar:2.4:compile
+|     +- (junit:junit:jar:4.12:compile - omitted for duplicate)
+|     +- org.mockito:mockito-core:jar:1.10.19:compile
+|     |  \- org.objenesis:objenesis:jar:2.4:runtime
+|     \- org.hamcrest:hamcrest-all:jar:1.3:compile
++- org.apache.tinkerpop:gremlin-console:jar:3.3.0:compile
+|  +- (org.apache.tinkerpop:gremlin-groovy:jar:3.3.0:compile - omitted for duplicate)
+|  +- (org.apache.tinkerpop:tinkergraph-gremlin:jar:3.3.0:compile - omitted for duplicate)
+|  +- org.apache.httpcomponents:httpclient:jar:4.5.1:compile
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.4.3:compile
+|  |  +- commons-logging:commons-logging:jar:1.2:compile
+|  |  \- commons-codec:commons-codec:jar:1.9:compile
+|  +- commons-cli:commons-cli:jar:1.2:compile
+|  +- org.apache.tinkerpop:gremlin-driver:jar:3.3.0:compile
+|  |  +- (org.apache.tinkerpop:gremlin-core:jar:3.3.0:compile - omitted for duplicate)
+|  |  +- io.netty:netty-all:jar:4.0.50.Final:compile
+|  |  +- (org.codehaus.groovy:groovy:jar:indy:2.4.11:compile - omitted for duplicate)
+|  |  +- (org.codehaus.groovy:groovy-json:jar:indy:2.4.11:compile - omitted for duplicate)
+|  |  +- org.codehaus.groovy:groovy-sql:jar:indy:2.4.11:compile
+|  |  |  \- (org.codehaus.groovy:groovy:jar:2.4.11:compile - omitted for duplicate)
+|  |  \- (org.apache.commons:commons-lang3:jar:3.3.1:compile - omitted for duplicate)
+|  +- org.gperfutils:gbench:jar:0.4.3-groovy-2.4:compile
+|  \- org.gperfutils:gprof:jar:0.3.1-groovy-2.4:compile
++- org.apache.tinkerpop:gremlin-server:jar:3.3.0:compile
+|  +- (org.apache.tinkerpop:tinkergraph-gremlin:jar:3.3.0:compile - omitted for duplicate)
+|  +- (org.apache.tinkerpop:gremlin-driver:jar:3.3.0:compile - omitted for duplicate)
+|  +- (org.apache.tinkerpop:gremlin-groovy:jar:3.3.0:compile - omitted for duplicate)
+|  +- commons-collections:commons-collections:jar:3.2.2:compile
+|  \- com.codahale.metrics:metrics-core:jar:3.0.2:compile
++- org.slf4j:slf4j-jdk14:jar:1.7.21:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
++- org.slf4j:jcl-over-slf4j:jar:1.7.21:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
++- com.orientechnologies:orientdb-gremlin:jar:3.0.1:compile
+|  +- (org.apache.tinkerpop:gremlin-core:jar:3.3.0:compile - omitted for duplicate)
+|  +- (org.apache.tinkerpop:gremlin-groovy:jar:3.3.0:compile - omitted for duplicate)
+|  +- (com.orientechnologies:orientdb-client:jar:3.0.1:compile - omitted for duplicate)
+|  \- com.google.guava:guava:jar:18.0:compile
+\- junit:junit:jar:4.12:test (scope not updated to compile)
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

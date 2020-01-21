@@ -1,0 +1,45 @@
+de.wayofquality.blended:blended.spray.api:bundle:2.4.0-RC5
++- org.scala-lang:scala-library:jar:2.11.11:provided
++- io.spray:spray-servlet_2.11:jar:1.3.4:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.11:provided - version managed from 2.11.8; scope managed from compile; omitted for duplicate)
+|  +- io.spray:spray-http_2.11:jar:1.3.4:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.11:provided - version managed from 2.11.8; scope managed from compile; omitted for duplicate)
+|  |  +- (io.spray:spray-util_2.11:jar:1.3.4:compile - omitted for duplicate)
+|  |  \- org.parboiled:parboiled-scala_2.11:jar:1.1.7:compile
+|  |     +- (org.scala-lang:scala-library:jar:2.11.11:provided - version managed from 2.11.5; scope managed from compile; omitted for duplicate)
+|  |     \- org.parboiled:parboiled-core:jar:1.1.7:compile
+|  \- io.spray:spray-util_2.11:jar:1.3.4:compile
+|     \- (org.scala-lang:scala-library:jar:2.11.11:provided - version managed from 2.11.8; scope managed from compile; omitted for duplicate)
++- io.spray:spray-client_2.11:jar:1.3.4:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.11:provided - version managed from 2.11.8; scope managed from compile; omitted for duplicate)
+|  +- io.spray:spray-can_2.11:jar:1.3.4:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.11:provided - version managed from 2.11.8; scope managed from compile; omitted for duplicate)
+|  |  +- io.spray:spray-io_2.11:jar:1.3.4:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.11:provided - version managed from 2.11.8; scope managed from compile; omitted for duplicate)
+|  |  |  +- (io.spray:spray-util_2.11:jar:1.3.4:compile - omitted for duplicate)
+|  |  |  \- (io.spray:spray-http_2.11:jar:1.3.4:compile - omitted for duplicate)
+|  |  +- (io.spray:spray-http_2.11:jar:1.3.4:compile - omitted for duplicate)
+|  |  \- (io.spray:spray-util_2.11:jar:1.3.4:compile - omitted for duplicate)
+|  +- (io.spray:spray-http_2.11:jar:1.3.4:compile - omitted for duplicate)
+|  +- io.spray:spray-httpx_2.11:jar:1.3.4:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.11:provided - version managed from 2.11.8; scope managed from compile; omitted for duplicate)
+|  |  +- (io.spray:spray-http_2.11:jar:1.3.4:compile - omitted for duplicate)
+|  |  +- (io.spray:spray-util_2.11:jar:1.3.4:compile - omitted for duplicate)
+|  |  +- org.scala-lang.modules:scala-xml_2.11:jar:1.0.3:compile
+|  |  |  \- (org.scala-lang:scala-library:jar:2.11.11:provided - version managed from 2.11.4; scope managed from compile; omitted for duplicate)
+|  |  \- org.jvnet.mimepull:mimepull:jar:1.9.5:compile
+|  \- (io.spray:spray-util_2.11:jar:1.3.4:compile - omitted for duplicate)
++- io.spray:spray-routing_2.11:jar:1.3.4:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.11:provided - version managed from 2.11.8; scope managed from compile; omitted for duplicate)
+|  +- (io.spray:spray-http_2.11:jar:1.3.4:compile - omitted for duplicate)
+|  +- (io.spray:spray-httpx_2.11:jar:1.3.4:compile - omitted for duplicate)
+|  +- (io.spray:spray-util_2.11:jar:1.3.4:compile - omitted for duplicate)
+|  \- (com.chuusai:shapeless_2.11:jar:1.2.4:compile - omitted for duplicate)
++- io.spray:spray-json_2.11:jar:1.3.4:compile
+|  \- (org.scala-lang:scala-library:jar:2.11.11:provided - version managed from 2.11.0; scope managed from compile; omitted for duplicate)
++- io.spray:spray-caching_2.11:jar:1.3.4:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.11:provided - version managed from 2.11.8; scope managed from compile; omitted for duplicate)
+|  +- (io.spray:spray-util_2.11:jar:1.3.4:compile - omitted for duplicate)
+|  \- (com.googlecode.concurrentlinkedhashmap:concurrentlinkedhashmap-lru:jar:1.4.2:compile - omitted for duplicate)
+\- com.chuusai:shapeless_2.11:jar:1.2.4:compile
+   \- (org.scala-lang:scala-library:jar:2.11.11:provided - version managed from 2.11.0; scope managed from compile; omitted for duplicate)

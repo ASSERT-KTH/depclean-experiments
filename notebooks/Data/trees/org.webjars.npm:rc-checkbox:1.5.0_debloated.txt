@@ -1,0 +1,12 @@
+org.webjars.npm:rc-checkbox:jar:1.5.0
+\- org.webjars.npm:rc-util:jar:5.0.0-beta.0:compile
+   +- org.webjars.npm:add-dom-event-listener:jar:1.1.0:compile
+   |  \- org.webjars.npm:object-assign:jar:4.1.1:compile
+   +- org.webjars.npm:babel-runtime:jar:7.0.0-beta.3:compile
+   |  +- org.webjars.npm:core-js:jar:3.0.0-beta.9:compile
+   |  \- org.webjars.npm:regenerator-runtime:jar:0.11.1:compile
+   \- org.webjars.npm:shallowequal:jar:0.2.2:compile
+      \- org.webjars.npm:lodash.keys:jar:3.1.2:compile
+         +- org.webjars.npm:lodash._getnative:jar:3.9.1:compile
+         +- org.webjars.npm:lodash.isarguments:jar:3.1.0:compile
+         \- org.webjars.npm:lodash.isarray:jar:3.0.4:compile

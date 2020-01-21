@@ -1,0 +1,4 @@
+org.webjars.npm:quad-indices:jar:2.0.1
++- org.webjars.npm:an-array:jar:1.0.0:compile
++- org.webjars.npm:dtype:jar:2.0.0:compile
+\- org.webjars.npm:is-buffer:jar:1.1.6:compile

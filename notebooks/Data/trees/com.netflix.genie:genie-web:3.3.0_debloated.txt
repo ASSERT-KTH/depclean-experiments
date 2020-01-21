@@ -1,0 +1,545 @@
+com.netflix.genie:genie-web:jar:3.3.0
++- com.netflix.genie:genie-core:jar:3.3.0:compile
+|  +- com.h2database:h2:jar:1.4.196:compile
+|  +- mysql:mysql-connector-java:jar:5.1.44:compile
+|  +- org.postgresql:postgresql:jar:9.4.1212.jre7:compile
+|  +- com.netflix.genie:genie-common:jar:3.3.0:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.10:compile - version managed from 2.6.6; omitted for duplicate)
+|  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.8.10:compile
+|  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.10:compile - omitted for duplicate)
+|  |  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.10:compile - omitted for duplicate)
+|  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.8.10:compile
+|  |  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile - omitted for duplicate)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.10:compile - omitted for duplicate)
+|  |  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.10:compile - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:20.0:compile - version managed from 18.0; omitted for duplicate)
+|  |  +- org.apache.commons:commons-lang3:jar:3.5:compile
+|  |  \- (org.hibernate:hibernate-validator:jar:5.3.6.Final:compile - omitted for duplicate)
+|  +- com.github.fge:json-patch:jar:1.9:compile
+|  |  \- com.github.fge:jackson-coreutils:jar:1.6:compile
+|  |     +- com.github.fge:msg-simple:jar:1.1:compile
+|  |     |  +- com.github.fge:btf:jar:1.2:compile
+|  |     |  |  \- (com.google.code.findbugs:jsr305:jar:3.0.2:compile - version managed from 2.0.1; omitted for duplicate)
+|  |     |  \- (com.google.code.findbugs:jsr305:jar:3.0.2:compile - version managed from 2.0.1; omitted for duplicate)
+|  |     +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.10:compile - version managed from 2.2.3; omitted for duplicate)
+|  |     +- (com.google.guava:guava:jar:20.0:compile - version managed from 16.0.1; omitted for duplicate)
+|  |     \- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+|  +- commons-httpclient:commons-httpclient:jar:3.1:compile
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - version managed from 1.1.3; omitted for duplicate)
+|  |  \- (commons-codec:commons-codec:jar:1.10:compile - version managed from 1.9; omitted for duplicate)
+|  +- commons-io:commons-io:jar:2.5:compile
+|  +- (org.apache.commons:commons-exec:jar:1.3:compile - omitted for duplicate)
+|  +- com.netflix.spectator:spectator-api:jar:0.60.0:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.24; omitted for duplicate)
+|  +- org.springframework.boot:spring-boot-starter-aop:jar:1.5.9.RELEASE:compile
+|  |  +- (org.springframework.boot:spring-boot-starter:jar:1.5.9.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-aop:jar:4.3.13.RELEASE:compile - version managed from 4.3.11.RELEASE; omitted for duplicate)
+|  |  \- org.aspectj:aspectjweaver:jar:1.8.13:compile
+|  +- org.springframework.boot:spring-boot-starter-data-jpa:jar:1.5.9.RELEASE:compile
+|  |  +- (org.springframework.boot:spring-boot-starter:jar:1.5.9.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework.boot:spring-boot-starter-aop:jar:1.5.9.RELEASE:compile - omitted for duplicate)
+|  |  +- org.springframework.boot:spring-boot-starter-jdbc:jar:1.5.9.RELEASE:compile
+|  |  |  +- (org.springframework.boot:spring-boot-starter:jar:1.5.9.RELEASE:compile - omitted for duplicate)
+|  |  |  +- org.apache.tomcat:tomcat-jdbc:jar:8.5.23:compile
+|  |  |  |  \- org.apache.tomcat:tomcat-juli:jar:8.5.23:compile
+|  |  |  \- org.springframework:spring-jdbc:jar:4.3.13.RELEASE:compile
+|  |  |     +- (org.springframework:spring-beans:jar:4.3.13.RELEASE:compile - omitted for duplicate)
+|  |  |     +- (org.springframework:spring-core:jar:4.3.13.RELEASE:compile - omitted for duplicate)
+|  |  |     \- (org.springframework:spring-tx:jar:4.3.13.RELEASE:compile - omitted for duplicate)
+|  |  +- org.hibernate:hibernate-core:jar:5.0.12.Final:compile
+|  |  |  +- (org.jboss.logging:jboss-logging:jar:3.3.1.Final:compile - version managed from 3.3.0.Final; omitted for duplicate)
+|  |  |  +- org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final:compile
+|  |  |  +- org.javassist:javassist:jar:3.21.0-GA:compile (version managed from 3.18.1-GA)
+|  |  |  +- antlr:antlr:jar:2.7.7:compile
+|  |  |  +- org.jboss:jandex:jar:2.0.0.Final:compile
+|  |  |  +- dom4j:dom4j:jar:1.6.1:compile
+|  |  |  \- org.hibernate.common:hibernate-commons-annotations:jar:5.0.1.Final:compile
+|  |  |     \- (org.jboss.logging:jboss-logging:jar:3.3.1.Final:compile - version managed from 3.3.0.Final; omitted for duplicate)
+|  |  +- org.hibernate:hibernate-entitymanager:jar:5.0.12.Final:compile
+|  |  |  +- (org.jboss.logging:jboss-logging:jar:3.3.1.Final:compile - version managed from 3.3.0.Final; omitted for duplicate)
+|  |  |  +- (org.hibernate:hibernate-core:jar:5.0.12.Final:compile - omitted for duplicate)
+|  |  |  +- (dom4j:dom4j:jar:1.6.1:compile - omitted for duplicate)
+|  |  |  +- (org.hibernate.common:hibernate-commons-annotations:jar:5.0.1.Final:compile - omitted for duplicate)
+|  |  |  +- (org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final:compile - omitted for duplicate)
+|  |  |  \- (org.javassist:javassist:jar:3.21.0-GA:compile - version managed from 3.18.1-GA; omitted for duplicate)
+|  |  +- javax.transaction:javax.transaction-api:jar:1.2:compile
+|  |  +- org.springframework.data:spring-data-jpa:jar:1.11.9.RELEASE:compile
+|  |  |  +- org.springframework.data:spring-data-commons:jar:1.13.9.RELEASE:compile
+|  |  |  |  +- (org.springframework:spring-core:jar:4.3.13.RELEASE:compile - omitted for duplicate)
+|  |  |  |  +- (org.springframework:spring-beans:jar:4.3.13.RELEASE:compile - omitted for duplicate)
+|  |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.22; omitted for duplicate)
+|  |  |  |  \- (org.slf4j:jcl-over-slf4j:jar:1.7.25:runtime - omitted for duplicate)
+|  |  |  +- org.springframework:spring-orm:jar:4.3.13.RELEASE:compile
+|  |  |  |  +- (org.springframework:spring-beans:jar:4.3.13.RELEASE:compile - omitted for duplicate)
+|  |  |  |  +- (org.springframework:spring-core:jar:4.3.13.RELEASE:compile - omitted for duplicate)
+|  |  |  |  +- (org.springframework:spring-jdbc:jar:4.3.13.RELEASE:compile - omitted for duplicate)
+|  |  |  |  \- (org.springframework:spring-tx:jar:4.3.13.RELEASE:compile - omitted for duplicate)
+|  |  |  +- (org.springframework:spring-context:jar:4.3.13.RELEASE:compile - omitted for duplicate)
+|  |  |  +- (org.springframework:spring-aop:jar:4.3.13.RELEASE:compile - omitted for duplicate)
+|  |  |  +- (org.springframework:spring-tx:jar:4.3.13.RELEASE:compile - omitted for duplicate)
+|  |  |  +- (org.springframework:spring-beans:jar:4.3.13.RELEASE:compile - omitted for duplicate)
+|  |  |  +- (org.springframework:spring-core:jar:4.3.13.RELEASE:compile - omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.22; omitted for duplicate)
+|  |  |  \- (org.slf4j:jcl-over-slf4j:jar:1.7.25:compile - scope updated from runtime; omitted for duplicate)
+|  |  \- org.springframework:spring-aspects:jar:4.3.13.RELEASE:compile
+|  |     \- (org.aspectj:aspectjweaver:jar:1.8.13:compile - version managed from 1.8.9; omitted for duplicate)
+|  +- (org.springframework.boot:spring-boot-starter-mail:jar:1.5.9.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework.retry:spring-retry:jar:1.2.1.RELEASE:compile
+|  |  \- (org.springframework:spring-core:jar:4.3.13.RELEASE:compile - version managed from 4.0.9.RELEASE; omitted for duplicate)
+|  +- org.springframework.cloud:spring-cloud-aws-context:jar:1.2.2.RELEASE:compile
+|  |  +- org.springframework.cloud:spring-cloud-aws-core:jar:1.2.2.RELEASE:compile
+|  |  |  +- (org.springframework:spring-beans:jar:4.3.13.RELEASE:compile - version managed from 4.3.12.RELEASE; omitted for duplicate)
+|  |  |  +- (org.springframework:spring-aop:jar:4.3.13.RELEASE:compile - version managed from 4.3.12.RELEASE; omitted for duplicate)
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.125:compile - omitted for duplicate)
+|  |  |  +- com.amazonaws:aws-java-sdk-s3:jar:1.11.125:compile
+|  |  |  |  +- com.amazonaws:aws-java-sdk-kms:jar:1.11.125:compile
+|  |  |  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.125:compile - omitted for duplicate)
+|  |  |  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.125:compile - omitted for duplicate)
+|  |  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.125:compile - omitted for duplicate)
+|  |  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.125:compile - omitted for duplicate)
+|  |  |  +- com.amazonaws:aws-java-sdk-ec2:jar:1.11.125:compile
+|  |  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.125:compile - omitted for duplicate)
+|  |  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.125:compile - omitted for duplicate)
+|  |  |  +- com.amazonaws:aws-java-sdk-cloudformation:jar:1.11.125:compile
+|  |  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.125:compile - omitted for duplicate)
+|  |  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.125:compile - omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.22; omitted for duplicate)
+|  |  +- (org.springframework:spring-context:jar:4.3.13.RELEASE:compile - version managed from 4.3.12.RELEASE; omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.22; omitted for duplicate)
+|  \- com.amazonaws:aws-java-sdk-sts:jar:1.11.125:compile
+|     +- com.amazonaws:aws-java-sdk-core:jar:1.11.125:compile
+|     |  +- (commons-logging:commons-logging:jar:1.2:compile - version managed from 1.1.3; omitted for duplicate)
+|     |  +- (org.apache.httpcomponents:httpclient:jar:4.5.3:compile - version managed from 4.5.2; omitted for duplicate)
+|     |  +- software.amazon.ion:ion-java:jar:1.0.2:compile
+|     |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.10:compile - version managed from 2.6.6; omitted for duplicate)
+|     |  +- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.8.10:compile (version managed from 2.6.6)
+|     |  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.8.10:compile - omitted for duplicate)
+|     |  \- (joda-time:joda-time:jar:2.9.9:compile - version managed from 2.2; omitted for duplicate)
+|     \- com.amazonaws:jmespath-java:jar:1.11.125:compile
+|        \- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.10:compile - version managed from 2.6.6; omitted for duplicate)
++- io.springfox:springfox-swagger2:jar:2.7.0:compile
+|  +- io.swagger:swagger-annotations:jar:1.5.13:compile
+|  +- io.swagger:swagger-models:jar:1.5.13:compile
+|  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.22; omitted for duplicate)
+|  |  \- (io.swagger:swagger-annotations:jar:1.5.13:compile - omitted for duplicate)
+|  +- io.springfox:springfox-spi:jar:2.7.0:compile
+|  |  \- io.springfox:springfox-core:jar:2.7.0:compile
+|  |     +- net.bytebuddy:byte-buddy:jar:1.6.14:compile
+|  |     +- (com.google.guava:guava:jar:20.0:compile - version managed from 18.0; omitted for duplicate)
+|  |     +- (com.fasterxml:classmate:jar:1.3.4:compile - version managed from 1.3.3; omitted for duplicate)
+|  |     +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.24; omitted for duplicate)
+|  |     +- (org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE:compile - omitted for duplicate)
+|  |     \- (org.springframework.plugin:spring-plugin-metadata:jar:1.2.0.RELEASE:compile - omitted for duplicate)
+|  +- io.springfox:springfox-schema:jar:2.7.0:compile
+|  |  +- (io.springfox:springfox-core:jar:2.7.0:compile - omitted for duplicate)
+|  |  \- (io.springfox:springfox-spi:jar:2.7.0:compile - omitted for duplicate)
+|  +- io.springfox:springfox-swagger-common:jar:2.7.0:compile
+|  |  +- (io.swagger:swagger-annotations:jar:1.5.13:compile - omitted for duplicate)
+|  |  +- (io.swagger:swagger-models:jar:1.5.13:compile - omitted for duplicate)
+|  |  +- (io.springfox:springfox-spi:jar:2.7.0:compile - omitted for duplicate)
+|  |  +- (io.springfox:springfox-schema:jar:2.7.0:compile - omitted for duplicate)
+|  |  +- (io.springfox:springfox-spring-web:jar:2.7.0:compile - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:20.0:compile - version managed from 18.0; omitted for duplicate)
+|  |  +- (com.fasterxml:classmate:jar:1.3.4:compile - version managed from 1.3.3; omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.24; omitted for duplicate)
+|  |  +- (org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE:compile - omitted for duplicate)
+|  |  \- (org.springframework.plugin:spring-plugin-metadata:jar:1.2.0.RELEASE:compile - omitted for duplicate)
+|  +- io.springfox:springfox-spring-web:jar:2.7.0:compile
+|  |  +- org.reflections:reflections:jar:0.9.11:compile
+|  |  |  +- (com.google.guava:guava:jar:20.0:compile - version managed from 18.0; omitted for duplicate)
+|  |  |  \- (org.javassist:javassist:jar:3.21.0-GA:compile - version managed from 3.18.1-GA; omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:20.0:compile - version managed from 18.0; omitted for duplicate)
+|  |  +- (com.fasterxml:classmate:jar:1.3.4:compile - version managed from 1.3.3; omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.24; omitted for duplicate)
+|  |  +- (org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework.plugin:spring-plugin-metadata:jar:1.2.0.RELEASE:compile - omitted for duplicate)
+|  |  \- (io.springfox:springfox-spi:jar:2.7.0:compile - omitted for duplicate)
+|  +- com.google.guava:guava:jar:20.0:compile
+|  +- com.fasterxml:classmate:jar:1.3.4:compile
+|  +- org.slf4j:slf4j-api:jar:1.7.25:compile
+|  +- org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE:compile
+|  |  +- (org.springframework:spring-beans:jar:4.3.13.RELEASE:compile - version managed from 4.0.9.RELEASE; omitted for duplicate)
+|  |  +- (org.springframework:spring-context:jar:4.3.13.RELEASE:compile - version managed from 4.0.9.RELEASE; omitted for duplicate)
+|  |  +- (org.springframework:spring-aop:jar:4.3.13.RELEASE:compile - version managed from 4.0.9.RELEASE; omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.10; omitted for duplicate)
+|  +- org.springframework.plugin:spring-plugin-metadata:jar:1.2.0.RELEASE:compile
+|  |  +- (org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE:compile - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.10; omitted for duplicate)
+|  \- org.mapstruct:mapstruct:jar:1.1.0.Final:compile
++- io.springfox:springfox-swagger-ui:jar:2.7.0:compile
+|  \- (io.springfox:springfox-spring-web:jar:2.7.0:compile - omitted for duplicate)
++- io.springfox:springfox-bean-validators:jar:2.7.0:compile
+|  +- (com.google.guava:guava:jar:20.0:compile - version managed from 18.0; omitted for duplicate)
+|  +- (com.fasterxml:classmate:jar:1.3.4:compile - version managed from 1.3.3; omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.24; omitted for duplicate)
+|  +- (org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework.plugin:spring-plugin-metadata:jar:1.2.0.RELEASE:compile - omitted for duplicate)
+|  \- (io.springfox:springfox-spi:jar:2.7.0:compile - omitted for duplicate)
++- org.apache.commons:commons-exec:jar:1.3:compile
++- commons-validator:commons-validator:jar:1.6:compile
+|  +- commons-beanutils:commons-beanutils:jar:1.9.3:compile (version managed from 1.9.2)
+|  |  \- (commons-collections:commons-collections:jar:3.2.2:compile - omitted for duplicate)
+|  +- commons-digester:commons-digester:jar:2.1:compile (version managed from 1.8.1)
+|  +- commons-logging:commons-logging:jar:1.2:compile
+|  \- commons-collections:commons-collections:jar:3.2.2:compile
++- org.bitbucket.b_c:jose4j:jar:0.6.2:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.21; omitted for duplicate)
++- org.springframework.boot:spring-boot-starter-actuator:jar:1.5.9.RELEASE:compile
+|  +- org.springframework.boot:spring-boot-starter:jar:1.5.9.RELEASE:compile
+|  |  +- org.springframework.boot:spring-boot:jar:1.5.9.RELEASE:compile
+|  |  |  +- (org.springframework:spring-core:jar:4.3.13.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|  |  |  \- (org.springframework:spring-context:jar:4.3.13.RELEASE:compile - version managed from 4.0.9.RELEASE; omitted for duplicate)
+|  |  +- org.springframework.boot:spring-boot-autoconfigure:jar:1.5.9.RELEASE:compile
+|  |  |  \- (org.springframework.boot:spring-boot:jar:1.5.9.RELEASE:compile - omitted for duplicate)
+|  |  +- org.springframework.boot:spring-boot-starter-logging:jar:1.5.9.RELEASE:compile
+|  |  |  +- ch.qos.logback:logback-classic:jar:1.1.11:compile
+|  |  |  |  +- ch.qos.logback:logback-core:jar:1.1.11:compile
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.22; omitted for duplicate)
+|  |  |  +- org.slf4j:jcl-over-slf4j:jar:1.7.25:compile
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.22; omitted for duplicate)
+|  |  |  +- org.slf4j:jul-to-slf4j:jar:1.7.25:compile
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.22; omitted for duplicate)
+|  |  |  \- org.slf4j:log4j-over-slf4j:jar:1.7.25:compile
+|  |  |     \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.22; omitted for duplicate)
+|  |  +- (org.springframework:spring-core:jar:4.3.13.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|  |  \- org.yaml:snakeyaml:jar:1.17:runtime
+|  \- org.springframework.boot:spring-boot-actuator:jar:1.5.9.RELEASE:compile
+|     +- (org.springframework.boot:spring-boot:jar:1.5.9.RELEASE:compile - omitted for duplicate)
+|     +- (org.springframework.boot:spring-boot-autoconfigure:jar:1.5.9.RELEASE:compile - omitted for duplicate)
+|     +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.10:compile - version managed from 2.6.6; omitted for duplicate)
+|     +- (org.springframework:spring-core:jar:4.3.13.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|     \- (org.springframework:spring-context:jar:4.3.13.RELEASE:compile - version managed from 4.0.9.RELEASE; omitted for duplicate)
++- org.springframework.boot:spring-boot-starter-data-redis:jar:1.5.9.RELEASE:compile
+|  +- (org.springframework.boot:spring-boot-starter:jar:1.5.9.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework.data:spring-data-redis:jar:1.8.9.RELEASE:compile
+|  |  +- org.springframework.data:spring-data-keyvalue:jar:1.2.9.RELEASE:compile
+|  |  |  +- (org.springframework.data:spring-data-commons:jar:1.13.9.RELEASE:compile - omitted for duplicate)
+|  |  |  +- (org.springframework:spring-context:jar:4.3.13.RELEASE:compile - version managed from 4.0.9.RELEASE; omitted for duplicate)
+|  |  |  +- (org.springframework:spring-tx:jar:4.3.13.RELEASE:compile - omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.22; omitted for duplicate)
+|  |  |  \- (org.slf4j:jcl-over-slf4j:jar:1.7.25:runtime - omitted for duplicate)
+|  |  +- org.springframework:spring-tx:jar:4.3.13.RELEASE:compile
+|  |  |  +- (org.springframework:spring-beans:jar:4.3.13.RELEASE:compile - version managed from 4.0.9.RELEASE; omitted for duplicate)
+|  |  |  \- (org.springframework:spring-core:jar:4.3.13.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|  |  +- org.springframework:spring-oxm:jar:4.3.13.RELEASE:compile
+|  |  |  +- (org.springframework:spring-beans:jar:4.3.13.RELEASE:compile - version managed from 4.0.9.RELEASE; omitted for duplicate)
+|  |  |  \- (org.springframework:spring-core:jar:4.3.13.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|  |  +- (org.springframework:spring-aop:jar:4.3.13.RELEASE:compile - version managed from 4.0.9.RELEASE; omitted for duplicate)
+|  |  +- (org.springframework:spring-context-support:jar:4.3.13.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.22; omitted for duplicate)
+|  |  \- (org.slf4j:jcl-over-slf4j:jar:1.7.25:compile - scope updated from runtime; omitted for duplicate)
+|  \- redis.clients:jedis:jar:2.9.0:compile
+|     \- org.apache.commons:commons-pool2:jar:2.4.3:compile (version managed from 2.4.2)
++- org.springframework.boot:spring-boot-starter-hateoas:jar:1.5.9.RELEASE:compile
+|  +- (org.springframework.boot:spring-boot-starter-web:jar:1.5.9.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework.hateoas:spring-hateoas:jar:0.23.0.RELEASE:compile
+|  |  +- (org.springframework:spring-aop:jar:4.3.13.RELEASE:compile - version managed from 4.3.5.RELEASE; omitted for duplicate)
+|  |  +- (org.springframework:spring-beans:jar:4.3.13.RELEASE:compile - version managed from 4.3.5.RELEASE; omitted for duplicate)
+|  |  +- (org.springframework:spring-context:jar:4.3.13.RELEASE:compile - version managed from 4.3.5.RELEASE; omitted for duplicate)
+|  |  +- (org.springframework:spring-core:jar:4.3.13.RELEASE:compile - version managed from 4.3.5.RELEASE; omitted for duplicate)
+|  |  +- (org.springframework:spring-web:jar:4.3.13.RELEASE:compile - version managed from 4.3.5.RELEASE; omitted for duplicate)
+|  |  +- (org.springframework:spring-webmvc:jar:4.3.13.RELEASE:compile - version managed from 4.3.5.RELEASE; omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.22; omitted for duplicate)
+|  \- (org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE:compile - omitted for duplicate)
++- org.springframework.boot:spring-boot-starter-integration:jar:1.5.9.RELEASE:compile
+|  +- (org.springframework.boot:spring-boot-starter:jar:1.5.9.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework.boot:spring-boot-starter-aop:jar:1.5.9.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework.integration:spring-integration-core:jar:4.3.12.RELEASE:compile
+|  |  +- (org.springframework:spring-core:jar:4.3.13.RELEASE:compile - version managed from 4.3.11.RELEASE; omitted for duplicate)
+|  |  +- (org.springframework:spring-aop:jar:4.3.13.RELEASE:compile - version managed from 4.3.11.RELEASE; omitted for duplicate)
+|  |  +- (org.springframework:spring-context:jar:4.3.13.RELEASE:compile - version managed from 4.3.11.RELEASE; omitted for duplicate)
+|  |  +- org.springframework:spring-messaging:jar:4.3.13.RELEASE:compile (version managed from 4.3.11.RELEASE)
+|  |  |  +- (org.springframework:spring-beans:jar:4.3.13.RELEASE:compile - version managed from 4.3.5.RELEASE; omitted for duplicate)
+|  |  |  +- (org.springframework:spring-context:jar:4.3.13.RELEASE:compile - version managed from 4.3.11.RELEASE; omitted for duplicate)
+|  |  |  \- (org.springframework:spring-core:jar:4.3.13.RELEASE:compile - version managed from 4.3.11.RELEASE; omitted for duplicate)
+|  |  +- (org.springframework:spring-tx:jar:4.3.13.RELEASE:compile - version managed from 4.3.11.RELEASE; omitted for duplicate)
+|  |  \- (org.springframework.retry:spring-retry:jar:1.2.1.RELEASE:compile - version managed from 1.1.3.RELEASE; omitted for duplicate)
+|  \- org.springframework.integration:spring-integration-java-dsl:jar:1.2.3.RELEASE:compile
+|     +- (org.springframework.integration:spring-integration-core:jar:4.3.12.RELEASE:compile - omitted for duplicate)
+|     \- org.reactivestreams:reactive-streams:jar:1.0.1:compile (version managed from 1.0.0)
++- org.springframework.boot:spring-boot-starter-thymeleaf:jar:1.5.9.RELEASE:compile
+|  +- (org.springframework.boot:spring-boot-starter:jar:1.5.9.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework.boot:spring-boot-starter-web:jar:1.5.9.RELEASE:compile - omitted for duplicate)
+|  +- org.thymeleaf:thymeleaf-spring4:jar:2.1.6.RELEASE:compile
+|  |  +- org.thymeleaf:thymeleaf:jar:2.1.6.RELEASE:compile
+|  |  |  +- ognl:ognl:jar:3.0.8:compile
+|  |  |  +- (org.javassist:javassist:jar:3.21.0-GA:compile - version managed from 3.16.1-GA; omitted for duplicate)
+|  |  |  +- org.unbescape:unbescape:jar:1.1.0.RELEASE:compile
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.6.6; omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.6.6; omitted for duplicate)
+|  \- nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect:jar:1.4.0:compile
+|     +- org.codehaus.groovy:groovy:jar:2.4.13:compile (version managed from 2.4.3)
+|     \- (org.thymeleaf:thymeleaf:jar:2.1.6.RELEASE:compile - version managed from 2.1.4.RELEASE; omitted for duplicate)
++- org.springframework.boot:spring-boot-starter-web:jar:1.5.9.RELEASE:compile
+|  +- (org.springframework.boot:spring-boot-starter:jar:1.5.9.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.9.RELEASE:compile - omitted for duplicate)
+|  +- org.hibernate:hibernate-validator:jar:5.3.6.Final:compile
+|  |  +- javax.validation:validation-api:jar:1.1.0.Final:compile
+|  |  +- org.jboss.logging:jboss-logging:jar:3.3.1.Final:compile (version managed from 3.3.0.Final)
+|  |  \- (com.fasterxml:classmate:jar:1.3.4:compile - version managed from 1.3.1; omitted for duplicate)
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.8.10:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile - version managed from 2.8.5; omitted for duplicate)
+|  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.8.10:compile
+|  +- org.springframework:spring-web:jar:4.3.13.RELEASE:compile (version managed from 4.3.9.RELEASE)
+|  |  +- (org.springframework:spring-aop:jar:4.3.13.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|  |  +- (org.springframework:spring-beans:jar:4.3.13.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|  |  +- (org.springframework:spring-context:jar:4.3.13.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|  |  \- (org.springframework:spring-core:jar:4.3.13.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|  \- org.springframework:spring-webmvc:jar:4.3.13.RELEASE:compile (version managed from 4.3.5.RELEASE)
+|     +- (org.springframework:spring-aop:jar:4.3.13.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|     +- (org.springframework:spring-beans:jar:4.3.13.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|     +- (org.springframework:spring-context:jar:4.3.13.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|     +- (org.springframework:spring-core:jar:4.3.13.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|     +- (org.springframework:spring-expression:jar:4.3.13.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|     \- (org.springframework:spring-web:jar:4.3.13.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
++- org.springframework.integration:spring-integration-zookeeper:jar:4.3.12.RELEASE:compile
+|  +- (org.springframework.integration:spring-integration-core:jar:4.3.12.RELEASE:compile - omitted for duplicate)
+|  \- org.apache.curator:curator-recipes:jar:2.11.1:compile (version managed from 2.10.0)
+|     \- org.apache.curator:curator-framework:jar:2.11.1:compile
+|        \- org.apache.curator:curator-client:jar:2.11.1:compile
+|           +- org.apache.zookeeper:zookeeper:jar:3.4.8:compile
+|           |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.6.1; omitted for duplicate)
+|           |  \- jline:jline:jar:2.14.5:compile (version managed from 0.9.94)
+|           +- (com.google.guava:guava:jar:20.0:compile - version managed from 16.0.1; omitted for duplicate)
+|           \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.6; omitted for duplicate)
++- org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:1.4.0.RELEASE:compile
+|  +- (org.springframework.boot:spring-boot-starter-web:jar:1.5.9.RELEASE:compile - version managed from 1.5.8.RELEASE; omitted for duplicate)
+|  +- org.springframework.cloud:spring-cloud-starter:jar:1.3.0.RELEASE:compile
+|  |  +- (org.springframework.boot:spring-boot-starter:jar:1.5.9.RELEASE:compile - version managed from 1.5.8.RELEASE; omitted for duplicate)
+|  |  +- org.springframework.cloud:spring-cloud-context:jar:1.3.0.RELEASE:compile
+|  |  |  \- org.springframework.security:spring-security-crypto:jar:4.2.3.RELEASE:compile
+|  |  +- org.springframework.cloud:spring-cloud-commons:jar:1.3.0.RELEASE:compile
+|  |  |  +- (org.springframework.security:spring-security-crypto:jar:4.2.3.RELEASE:compile - omitted for duplicate)
+|  |  |  \- (org.apache.httpcomponents:httpclient:jar:4.5.3:compile - version managed from 4.5.1; omitted for duplicate)
+|  |  \- org.springframework.security:spring-security-rsa:jar:1.0.3.RELEASE:compile
+|  |     \- (org.bouncycastle:bcpkix-jdk15on:jar:1.56:compile - version managed from 1.55; omitted for duplicate)
+|  +- org.springframework.cloud:spring-cloud-netflix-core:jar:1.4.0.RELEASE:compile
+|  |  +- (org.springframework.boot:spring-boot:jar:1.5.9.RELEASE:compile - version managed from 1.5.8.RELEASE; omitted for duplicate)
+|  |  \- (org.springframework.boot:spring-boot-autoconfigure:jar:1.5.9.RELEASE:compile - version managed from 1.5.8.RELEASE; omitted for duplicate)
+|  +- org.springframework.cloud:spring-cloud-netflix-eureka-client:jar:1.4.0.RELEASE:compile
+|  |  \- (org.springframework.cloud:spring-cloud-netflix-core:jar:1.4.0.RELEASE:compile - omitted for duplicate)
+|  +- com.netflix.eureka:eureka-client:jar:1.7.0:compile
+|  |  +- org.codehaus.jettison:jettison:jar:1.2:runtime (version managed from 1.3.7)
+|  |  |  \- stax:stax-api:jar:1.0.1:runtime
+|  |  +- com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0:runtime
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.25:runtime - version managed from 1.6.4; omitted for duplicate)
+|  |  |  +- com.netflix.netflix-commons:netflix-infix:jar:0.3.0:runtime
+|  |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.25:runtime - version managed from 1.6.4; omitted for duplicate)
+|  |  |  |  +- commons-jxpath:commons-jxpath:jar:1.3:runtime
+|  |  |  |  +- (joda-time:joda-time:jar:2.9.9:runtime - version managed from 2.3; omitted for duplicate)
+|  |  |  |  +- org.antlr:antlr-runtime:jar:3.4:runtime
+|  |  |  |  |  +- org.antlr:stringtemplate:jar:3.2.1:runtime
+|  |  |  |  |  |  \- (antlr:antlr:jar:2.7.7:runtime - omitted for duplicate)
+|  |  |  |  |  \- (antlr:antlr:jar:2.7.7:runtime - omitted for duplicate)
+|  |  |  |  +- (com.google.guava:guava:jar:20.0:runtime - version managed from 14.0.1; omitted for duplicate)
+|  |  |  |  \- com.google.code.gson:gson:jar:2.8.2:runtime (version managed from 2.1)
+|  |  |  +- (com.netflix.servo:servo-core:jar:0.12.17:runtime - version managed from 0.10.1; omitted for duplicate)
+|  |  |  +- (com.netflix.archaius:archaius-core:jar:0.7.4:runtime - version managed from 0.7.5; omitted for duplicate)
+|  |  |  \- org.apache.commons:commons-math:jar:2.2:runtime
+|  |  +- (com.thoughtworks.xstream:xstream:jar:1.4.10:runtime - version managed from 1.4.9; omitted for duplicate)
+|  |  +- (com.netflix.archaius:archaius-core:jar:0.7.4:compile - version managed from 0.7.5; scope updated from runtime; omitted for duplicate)
+|  |  +- javax.ws.rs:jsr311-api:jar:1.1.1:runtime
+|  |  +- (com.netflix.servo:servo-core:jar:0.12.17:compile - version managed from 0.10.1; scope updated from runtime; omitted for duplicate)
+|  |  +- com.sun.jersey:jersey-core:jar:1.19.1:runtime
+|  |  |  \- (javax.ws.rs:jsr311-api:jar:1.1.1:runtime - omitted for duplicate)
+|  |  +- com.sun.jersey:jersey-client:jar:1.19.1:runtime
+|  |  |  \- (com.sun.jersey:jersey-core:jar:1.19.1:runtime - omitted for duplicate)
+|  |  +- com.sun.jersey.contribs:jersey-apache-client4:jar:1.19.1:runtime
+|  |  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.3:runtime - version managed from 4.1.1; omitted for duplicate)
+|  |  |  \- (com.sun.jersey:jersey-client:jar:1.19.1:runtime - omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.3:runtime - version managed from 4.3.4; omitted for duplicate)
+|  |  +- com.google.inject:guice:jar:3.0:runtime (version managed from 4.1.0)
+|  |  |  +- javax.inject:javax.inject:jar:1:runtime
+|  |  |  \- (aopalliance:aopalliance:jar:1.0:runtime - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:runtime - version managed from 2.8.7; omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.10:runtime - version managed from 2.8.7; omitted for duplicate)
+|  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.10:runtime - version managed from 2.8.7; omitted for duplicate)
+|  +- com.netflix.eureka:eureka-core:jar:1.7.0:compile
+|  |  +- (com.netflix.eureka:eureka-client:jar:1.7.0:runtime - omitted for duplicate)
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.125:runtime - version managed from 1.11.105; omitted for duplicate)
+|  |  +- (com.amazonaws:aws-java-sdk-ec2:jar:1.11.125:compile - version managed from 1.11.105; scope updated from runtime; omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-autoscaling:jar:1.11.125:runtime (version managed from 1.11.105)
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.125:runtime - version managed from 1.11.105; omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.125:runtime - omitted for duplicate)
+|  |  +- (com.amazonaws:aws-java-sdk-sts:jar:1.11.125:runtime - version managed from 1.11.105; omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-route53:jar:1.11.125:runtime (version managed from 1.11.105)
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.125:runtime - version managed from 1.11.105; omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.125:runtime - omitted for duplicate)
+|  |  +- (com.thoughtworks.xstream:xstream:jar:1.4.10:runtime - version managed from 1.4.9; omitted for duplicate)
+|  |  +- (javax.ws.rs:jsr311-api:jar:1.1.1:runtime - omitted for duplicate)
+|  |  \- org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1:runtime
+|  |     +- javax.xml.stream:stax-api:jar:1.0-2:runtime
+|  |     \- org.codehaus.woodstox:stax2-api:jar:3.1.4:runtime
+|  +- org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:1.4.0.RELEASE:compile
+|  |  +- (org.springframework.cloud:spring-cloud-starter:jar:1.3.0.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework.cloud:spring-cloud-netflix-core:jar:1.4.0.RELEASE:compile - omitted for duplicate)
+|  |  +- com.netflix.archaius:archaius-core:jar:0.7.4:compile
+|  |  |  +- (com.google.code.findbugs:jsr305:jar:3.0.2:runtime - version managed from 3.0.1; omitted for duplicate)
+|  |  |  +- (commons-configuration:commons-configuration:jar:1.8:runtime - omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.25:runtime - version managed from 1.6.4; omitted for duplicate)
+|  |  |  +- (com.google.guava:guava:jar:20.0:runtime - version managed from 16.0; omitted for duplicate)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:runtime - version managed from 2.4.3; omitted for duplicate)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.10:runtime - version managed from 2.4.3; omitted for duplicate)
+|  |  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.10:runtime - version managed from 2.4.3; omitted for duplicate)
+|  |  +- commons-configuration:commons-configuration:jar:1.8:compile
+|  |  |  \- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile - version managed from 2.4.3; omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.10:compile - version managed from 2.4.3; omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.10:compile - version managed from 2.4.3; omitted for duplicate)
+|  |  \- (com.google.guava:guava:jar:20.0:compile - version managed from 18.0; omitted for duplicate)
+|  +- org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:1.4.0.RELEASE:compile
+|  |  +- (org.springframework.cloud:spring-cloud-starter:jar:1.3.0.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework.cloud:spring-cloud-netflix-core:jar:1.4.0.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:1.4.0.RELEASE:compile - omitted for duplicate)
+|  |  +- com.netflix.ribbon:ribbon:jar:2.2.4:compile
+|  |  |  +- (com.netflix.ribbon:ribbon-core:jar:2.2.4:runtime - omitted for duplicate)
+|  |  |  +- com.netflix.ribbon:ribbon-transport:jar:2.2.4:runtime
+|  |  |  |  +- (com.netflix.ribbon:ribbon-core:jar:2.2.4:runtime - omitted for duplicate)
+|  |  |  |  +- (com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.4:runtime - omitted for duplicate)
+|  |  |  |  +- (io.reactivex:rxjava:jar:1.2.0:runtime - version managed from 1.0.10; omitted for duplicate)
+|  |  |  |  +- (io.reactivex:rxnetty:jar:0.4.9:runtime - omitted for duplicate)
+|  |  |  |  +- io.reactivex:rxnetty-contexts:jar:0.4.9:runtime
+|  |  |  |  |  +- (io.reactivex:rxjava:jar:1.2.0:runtime - version managed from 1.0.10; omitted for duplicate)
+|  |  |  |  |  \- (io.reactivex:rxnetty:jar:0.4.9:runtime - omitted for duplicate)
+|  |  |  |  +- io.reactivex:rxnetty-servo:jar:0.4.9:runtime
+|  |  |  |  |  +- (io.reactivex:rxjava:jar:1.2.0:runtime - version managed from 1.0.10; omitted for duplicate)
+|  |  |  |  |  +- (io.reactivex:rxnetty:jar:0.4.9:runtime - omitted for duplicate)
+|  |  |  |  |  \- (com.netflix.servo:servo-core:jar:0.12.17:runtime - version managed from 0.7.5; omitted for duplicate)
+|  |  |  |  +- (javax.inject:javax.inject:jar:1:runtime - omitted for duplicate)
+|  |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.25:runtime - version managed from 1.7.12; omitted for duplicate)
+|  |  |  |  +- (com.google.guava:guava:jar:20.0:runtime - version managed from 16.0.1; omitted for duplicate)
+|  |  |  |  \- (com.netflix.archaius:archaius-core:jar:0.7.4:runtime - version managed from 0.7.5; omitted for duplicate)
+|  |  |  +- com.netflix.hystrix:hystrix-core:jar:1.5.12:runtime (version managed from 1.4.3)
+|  |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.25:runtime - version managed from 1.7.0; omitted for duplicate)
+|  |  |  |  +- (com.netflix.archaius:archaius-core:jar:0.7.4:runtime - version managed from 0.4.1; omitted for duplicate)
+|  |  |  |  +- (io.reactivex:rxjava:jar:1.2.0:runtime - version managed from 1.0.10; omitted for duplicate)
+|  |  |  |  \- org.hdrhistogram:HdrHistogram:jar:2.1.9:runtime
+|  |  |  +- (javax.inject:javax.inject:jar:1:runtime - omitted for duplicate)
+|  |  |  +- (io.reactivex:rxjava:jar:1.2.0:runtime - version managed from 1.0.9; omitted for duplicate)
+|  |  |  +- io.reactivex:rxnetty:jar:0.4.9:runtime
+|  |  |  |  +- (io.reactivex:rxjava:jar:1.2.0:runtime - version managed from 1.0.10; omitted for duplicate)
+|  |  |  |  +- io.netty:netty-codec-http:jar:4.0.27.Final:runtime
+|  |  |  |  |  +- io.netty:netty-codec:jar:4.0.27.Final:runtime
+|  |  |  |  |  |  \- (io.netty:netty-transport:jar:4.0.27.Final:runtime - omitted for duplicate)
+|  |  |  |  |  \- io.netty:netty-handler:jar:4.0.27.Final:runtime
+|  |  |  |  |     +- (io.netty:netty-buffer:jar:4.0.27.Final:runtime - omitted for duplicate)
+|  |  |  |  |     +- (io.netty:netty-transport:jar:4.0.27.Final:runtime - omitted for duplicate)
+|  |  |  |  |     \- (io.netty:netty-codec:jar:4.0.27.Final:runtime - omitted for duplicate)
+|  |  |  |  +- io.netty:netty-transport-native-epoll:jar:4.0.27.Final:runtime
+|  |  |  |  |  +- io.netty:netty-common:jar:4.0.27.Final:runtime
+|  |  |  |  |  +- io.netty:netty-buffer:jar:4.0.27.Final:runtime
+|  |  |  |  |  |  \- (io.netty:netty-common:jar:4.0.27.Final:runtime - omitted for duplicate)
+|  |  |  |  |  \- io.netty:netty-transport:jar:4.0.27.Final:runtime
+|  |  |  |  |     \- (io.netty:netty-buffer:jar:4.0.27.Final:runtime - omitted for duplicate)
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:runtime - version managed from 1.7.6; omitted for duplicate)
+|  |  |  +- (commons-configuration:commons-configuration:jar:1.8:runtime - omitted for duplicate)
+|  |  |  +- (com.google.guava:guava:jar:20.0:runtime - version managed from 16.0.1; omitted for duplicate)
+|  |  |  \- (com.netflix.archaius:archaius-core:jar:0.7.4:runtime - version managed from 0.4.1; omitted for duplicate)
+|  |  +- com.netflix.ribbon:ribbon-core:jar:2.2.4:compile
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.25:runtime - version managed from 1.6.4; omitted for duplicate)
+|  |  |  +- (com.google.guava:guava:jar:20.0:runtime - version managed from 16.0; omitted for duplicate)
+|  |  |  +- (commons-configuration:commons-configuration:jar:1.8:runtime - omitted for duplicate)
+|  |  |  +- (commons-lang:commons-lang:jar:2.6:runtime - omitted for duplicate)
+|  |  |  \- (com.netflix.archaius:archaius-core:jar:0.7.4:runtime - version managed from 0.4.1; omitted for duplicate)
+|  |  +- com.netflix.ribbon:ribbon-httpclient:jar:2.2.4:compile
+|  |  |  +- (com.netflix.ribbon:ribbon-core:jar:2.2.4:runtime - omitted for duplicate)
+|  |  |  +- (com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.4:runtime - omitted for duplicate)
+|  |  |  +- (commons-collections:commons-collections:jar:3.2.2:runtime - omitted for duplicate)
+|  |  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.3:runtime - version managed from 4.2.1; omitted for duplicate)
+|  |  |  +- (com.sun.jersey:jersey-client:jar:1.19.1:runtime - omitted for duplicate)
+|  |  |  +- (com.sun.jersey.contribs:jersey-apache-client4:jar:1.19.1:runtime - omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.25:runtime - version managed from 1.7.12; omitted for duplicate)
+|  |  |  +- (com.netflix.servo:servo-core:jar:0.12.17:runtime - version managed from 0.10.1; omitted for duplicate)
+|  |  |  +- (com.google.guava:guava:jar:20.0:runtime - version managed from 16.0.1; omitted for duplicate)
+|  |  |  +- (com.netflix.archaius:archaius-core:jar:0.7.4:runtime - version managed from 0.4.1; omitted for duplicate)
+|  |  |  \- com.netflix.netflix-commons:netflix-commons-util:jar:0.1.1:runtime
+|  |  |     \- (org.slf4j:slf4j-api:jar:1.7.25:runtime - version managed from 1.6.4; omitted for duplicate)
+|  |  +- com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.4:compile
+|  |  |  +- (com.netflix.ribbon:ribbon-core:jar:2.2.4:runtime - omitted for duplicate)
+|  |  |  +- com.netflix.netflix-commons:netflix-statistics:jar:0.1.1:runtime
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:runtime - version managed from 1.6.4; omitted for duplicate)
+|  |  |  +- (io.reactivex:rxjava:jar:1.2.0:runtime - version managed from 1.0.9; omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.25:runtime - version managed from 1.7.12; omitted for duplicate)
+|  |  |  +- (com.netflix.servo:servo-core:jar:0.12.17:runtime - version managed from 0.10.1; omitted for duplicate)
+|  |  |  +- (com.google.guava:guava:jar:20.0:runtime - version managed from 16.0.1; omitted for duplicate)
+|  |  |  +- (com.netflix.archaius:archaius-core:jar:0.7.4:runtime - version managed from 0.4.1; omitted for duplicate)
+|  |  |  \- (com.netflix.netflix-commons:netflix-commons-util:jar:0.1.1:runtime - omitted for duplicate)
+|  |  \- io.reactivex:rxjava:jar:1.2.0:compile
+|  +- com.netflix.ribbon:ribbon-eureka:jar:2.2.4:compile
+|  |  +- (com.netflix.ribbon:ribbon-core:jar:2.2.4:runtime - omitted for duplicate)
+|  |  +- (com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.4:runtime - omitted for duplicate)
+|  |  +- (com.netflix.eureka:eureka-client:jar:1.7.0:runtime - version managed from 1.4.6; omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:runtime - version managed from 1.7.12; omitted for duplicate)
+|  |  \- (com.netflix.archaius:archaius-core:jar:0.7.4:runtime - version managed from 0.4.1; omitted for duplicate)
+|  \- com.thoughtworks.xstream:xstream:jar:1.4.10:compile
+|     +- xmlpull:xmlpull:jar:1.1.3.1:compile
+|     \- xpp3:xpp3_min:jar:1.1.4c:compile
++- org.springframework.cloud:spring-cloud-starter-netflix-spectator:jar:1.4.0.RELEASE:compile
+|  +- (org.springframework.cloud:spring-cloud-starter:jar:1.3.0.RELEASE:compile - omitted for duplicate)
+|  \- org.springframework.cloud:spring-cloud-netflix-spectator:jar:1.4.0.RELEASE:compile
+|     +- (org.springframework.boot:spring-boot:jar:1.5.9.RELEASE:compile - version managed from 1.5.8.RELEASE; omitted for duplicate)
+|     +- (org.springframework.boot:spring-boot-autoconfigure:jar:1.5.9.RELEASE:compile - version managed from 1.5.8.RELEASE; omitted for duplicate)
+|     +- (org.springframework.boot:spring-boot-starter-actuator:jar:1.5.9.RELEASE:compile - version managed from 1.5.8.RELEASE; omitted for duplicate)
+|     +- (org.springframework.cloud:spring-cloud-netflix-core:jar:1.4.0.RELEASE:compile - omitted for duplicate)
+|     +- (org.springframework:spring-webmvc:jar:4.3.13.RELEASE:compile - version managed from 4.3.12.RELEASE; omitted for duplicate)
+|     +- com.netflix.servo:servo-core:jar:0.12.17:compile
+|     |  +- (org.slf4j:slf4j-api:jar:1.7.25:runtime - version managed from 1.7.21; omitted for duplicate)
+|     |  \- (com.google.guava:guava:jar:20.0:runtime - version managed from 19.0; omitted for duplicate)
+|     +- (com.netflix.spectator:spectator-api:jar:0.60.0:compile - version managed from 0.30.0; omitted for duplicate)
+|     \- com.netflix.spectator:spectator-reg-servo:jar:0.60.0:compile (version managed from 0.30.0)
+|        +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.21; omitted for duplicate)
+|        +- (com.google.guava:guava:jar:20.0:compile - version managed from 19.0; omitted for duplicate)
+|        +- (com.netflix.spectator:spectator-api:jar:0.60.0:compile - version managed from 0.30.0; omitted for duplicate)
+|        \- (com.netflix.servo:servo-core:jar:0.12.17:compile - version managed from 0.10.1; omitted for duplicate)
++- org.springframework.security.extensions:spring-security-saml2-core:jar:1.0.3.RELEASE:compile
+|  +- org.opensaml:opensaml:jar:2.6.4:compile (version managed from 2.6.1)
+|  |  +- org.opensaml:openws:jar:1.5.4:compile
+|  |  |  +- org.opensaml:xmltooling:jar:1.4.4:compile
+|  |  |  |  +- (org.bouncycastle:bcprov-jdk15on:jar:1.51:compile - omitted for conflict with 1.56)
+|  |  |  |  +- (commons-codec:commons-codec:jar:1.10:compile - version managed from 1.7; omitted for duplicate)
+|  |  |  |  +- (joda-time:joda-time:jar:2.9.9:compile - version managed from 2.2; omitted for duplicate)
+|  |  |  |  +- ca.juliusdavies:not-yet-commons-ssl:jar:0.3.9:compile
+|  |  |  |  |  \- (commons-httpclient:commons-httpclient:jar:3.1:compile - version managed from 3.0; omitted for duplicate)
+|  |  |  |  \- (org.apache.santuario:xmlsec:jar:1.5.7:compile - omitted for duplicate)
+|  |  |  +- (commons-codec:commons-codec:jar:1.10:compile - version managed from 1.7; omitted for duplicate)
+|  |  |  +- (commons-httpclient:commons-httpclient:jar:3.1:compile - version managed from 3.0; omitted for duplicate)
+|  |  |  +- (joda-time:joda-time:jar:2.9.9:compile - version managed from 2.2; omitted for duplicate)
+|  |  |  \- (org.apache.santuario:xmlsec:jar:1.5.7:compile - omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.10:compile - version managed from 1.7; omitted for duplicate)
+|  |  +- (commons-collections:commons-collections:jar:3.2.2:compile - version managed from 3.2.1; omitted for duplicate)
+|  |  +- commons-lang:commons-lang:jar:2.6:compile
+|  |  +- org.apache.velocity:velocity:jar:1.7:compile
+|  |  |  +- (commons-collections:commons-collections:jar:3.2.2:compile - version managed from 3.2.1; omitted for duplicate)
+|  |  |  \- (commons-lang:commons-lang:jar:2.6:compile - version managed from 2.4; omitted for duplicate)
+|  |  +- org.owasp.esapi:esapi:jar:2.0.1:compile
+|  |  +- joda-time:joda-time:jar:2.9.9:compile
+|  |  \- org.apache.santuario:xmlsec:jar:1.5.7:compile
+|  |     \- (commons-logging:commons-logging:jar:1.2:compile - version managed from 1.1.1; omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.6.3; omitted for duplicate)
+|  +- (org.springframework.security:spring-security-config:jar:4.2.3.RELEASE:compile - version managed from 3.1.2.RELEASE; omitted for duplicate)
+|  +- org.springframework.security:spring-security-core:jar:4.2.3.RELEASE:compile
+|  |  +- aopalliance:aopalliance:jar:1.0:compile
+|  |  +- (org.springframework:spring-aop:jar:4.3.13.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|  |  +- (org.springframework:spring-beans:jar:4.3.13.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|  |  +- (org.springframework:spring-context:jar:4.3.13.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|  |  +- (org.springframework:spring-core:jar:4.3.13.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|  |  \- (org.springframework:spring-expression:jar:4.3.13.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|  +- (org.springframework.security:spring-security-web:jar:4.2.3.RELEASE:compile - version managed from 3.1.2.RELEASE; omitted for duplicate)
+|  \- xml-apis:xml-apis:jar:1.4.01:runtime
++- org.springframework.security.oauth:spring-security-oauth2:jar:2.0.14.RELEASE:compile
+|  +- org.springframework:spring-beans:jar:4.3.13.RELEASE:compile
+|  |  \- (org.springframework:spring-core:jar:4.3.13.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|  +- org.springframework:spring-core:jar:4.3.13.RELEASE:compile
+|  +- (org.springframework:spring-context:jar:4.3.13.RELEASE:compile - version managed from 4.0.9.RELEASE; omitted for duplicate)
+|  +- (org.springframework:spring-webmvc:jar:4.3.13.RELEASE:compile - version managed from 4.0.9.RELEASE; omitted for duplicate)
+|  +- (org.springframework.security:spring-security-core:jar:4.2.3.RELEASE:compile - version managed from 3.2.10.RELEASE; omitted for duplicate)
+|  +- (org.springframework.security:spring-security-config:jar:4.2.3.RELEASE:compile - version managed from 3.2.10.RELEASE; omitted for duplicate)
+|  +- (org.springframework.security:spring-security-web:jar:4.2.3.RELEASE:compile - version managed from 3.2.10.RELEASE; omitted for duplicate)
+|  +- (commons-codec:commons-codec:jar:1.10:compile - version managed from 1.9; omitted for duplicate)
+|  \- org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:compile
+|     \- org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile
++- org.projectlombok:lombok:jar:1.16.18:provided
++- com.google.code.findbugs:annotations:jar:2.0.3:provided
+\- org.springframework.boot:spring-boot-configuration-processor:jar:1.5.9.RELEASE:provided
+   \- com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:provided

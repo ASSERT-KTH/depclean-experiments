@@ -1,0 +1,27 @@
+org.tinygroup:tinymenuframe-view-uicomponent:jar:1.0.1
++- org.tinygroup:org.tinygroup.ui.tpl.diy01:jar:3.0.0:compile
+|  \- (org.tinygroup:org.tinygroup.ui.framecommon:jar:3.0.0:compile - omitted for duplicate)
++- org.tinygroup:org.tinygroup.ui.tpl.purple:jar:3.0.0:compile
+|  \- (org.tinygroup:org.tinygroup.ui.framecommon:jar:3.0.0:compile - omitted for duplicate)
++- org.tinygroup:org.tinygroup.ui.button:jar:3.0.0:compile
+|  \- (org.tinygroup:org.tinygroup.ui.base:jar:3.0.0:compile - omitted for duplicate)
++- org.tinygroup:org.tinygroup.ui.modal:jar:3.0.0:compile
+|  \- (org.tinygroup:org.tinygroup.ui.base:jar:3.0.0:compile - omitted for duplicate)
++- org.tinygroup:org.tinygroup.ui.form:jar:3.0.0:compile
+|  +- (org.tinygroup:org.tinygroup.ui.base:jar:3.0.0:compile - omitted for duplicate)
+|  +- org.tinygroup:org.tinygroup.ui.bootstrapdate:jar:3.0.0:compile
+|  |  \- (org.tinygroup:org.tinygroup.ui.base:jar:3.0.0:compile - omitted for duplicate)
+|  +- org.tinygroup:org.tinygroup.ui.ztree:jar:3.0.0:compile
+|  |  \- (org.tinygroup:org.tinygroup.ui.base:jar:3.0.0:compile - omitted for duplicate)
+|  +- org.tinygroup:org.tinygroup.ui.select2:jar:3.0.0:compile
+|  |  \- (org.tinygroup:org.tinygroup.ui.base:jar:3.0.0:compile - omitted for duplicate)
+|  \- org.tinygroup:org.tinygroup.ui.bootstrapvalidator:jar:3.0.0:compile
+|     \- (org.tinygroup:org.tinygroup.ui.jquery:jar:3.0.0:compile - omitted for duplicate)
++- org.tinygroup:org.tinygroup.ui.pjax:jar:3.0.0:compile
+|  \- (org.tinygroup:org.tinygroup.ui.jquery:jar:3.0.0:compile - omitted for duplicate)
++- org.tinygroup:org.tinygroup.ui.submainmenu:jar:3.0.0:compile
+|  \- (org.tinygroup:org.tinygroup.ui.base:jar:3.0.0:compile - omitted for duplicate)
++- org.tinygroup:org.tinygroup.ui.contextmenu:jar:3.0.0:compile
+|  +- (org.tinygroup:org.tinygroup.ui.root:jar:3.0.0:compile - omitted for duplicate)
+|  \- (org.tinygroup:org.tinygroup.ui.jquery:jar:3.0.0:compile - omitted for duplicate)
+\- junit:junit:jar:3.8.1:test

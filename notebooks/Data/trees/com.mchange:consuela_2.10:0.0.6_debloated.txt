@@ -1,0 +1,128 @@
+com.mchange:consuela_2.10:jar:0.0.6
++- org.scala-lang:scala-library:jar:2.10.7:compile
++- com.mchange:mlog-scala_2.10:jar:0.3.10:compile
+|  +- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for conflict with 2.10.7)
+|  \- (com.mchange:mchange-commons-java:jar:0.2.14:compile - omitted for conflict with 0.2.15)
++- com.mchange:failable_2.10:jar:0.0.1:compile
+|  \- (org.scala-lang:scala-library:jar:2.10.7:compile - omitted for duplicate)
++- com.mchange:failable-logging_2.10:jar:0.0.1:compile
+|  +- (org.scala-lang:scala-library:jar:2.10.7:compile - omitted for duplicate)
+|  +- (com.mchange:failable_2.10:jar:0.0.1:compile - omitted for duplicate)
+|  \- (com.mchange:mlog-scala_2.10:jar:0.3.10:compile - omitted for duplicate)
++- com.mchange:restricted-type_2.10:jar:0.0.4:compile
+|  +- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for conflict with 2.10.7)
+|  \- (com.mchange:mchange-commons-scala_2.10:jar:0.4.4:compile - omitted for conflict with 0.4.6)
++- com.mchange:yinyang_2.10:jar:0.0.2:compile
+|  \- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for conflict with 2.10.7)
++- com.mchange:mchange-commons-scala_2.10:jar:0.4.6:compile
+|  +- (org.scala-lang:scala-library:jar:2.10.7:compile - omitted for duplicate)
+|  +- org.scala-lang:scala-reflect:jar:2.10.7:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.10.7:compile - omitted for duplicate)
+|  +- com.typesafe.akka:akka-actor_2.10:jar:2.3.15:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.10.4:compile - omitted for conflict with 2.10.7)
+|  |  \- (com.typesafe:config:jar:1.2.1:compile - omitted for duplicate)
+|  +- (com.mchange:mchange-commons-java:jar:0.2.15:compile - omitted for conflict with 0.2.14)
+|  +- (com.mchange:mlog-scala_2.10:jar:0.3.10:compile - omitted for duplicate)
+|  +- (com.mchange:failable_2.10:jar:0.0.1:compile - omitted for duplicate)
+|  \- (com.mchange:yinyang_2.10:jar:0.0.2:compile - omitted for duplicate)
++- com.mchange:literal_2.10:jar:0.0.2:compile
+|  \- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for conflict with 2.10.7)
++- com.mchange:mchange-play-json-util_2.10:jar:0.0.2:compile
+|  +- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for conflict with 2.10.7)
+|  +- (com.mchange:mchange-commons-scala_2.10:jar:0.4.4:compile - omitted for conflict with 0.4.6)
+|  \- (com.typesafe.play:play-json_2.10:jar:2.4.9:compile - omitted for conflict with 2.4.11)
++- com.mchange:jsonrpc-client_2.10:jar:0.0.2:compile
+|  +- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for conflict with 2.10.7)
+|  +- (com.mchange:mlog-scala_2.10:jar:0.3.10:compile - omitted for duplicate)
+|  +- (com.mchange:yinyang_2.10:jar:0.0.2:compile - omitted for duplicate)
+|  +- (com.mchange:mchange-commons-scala_2.10:jar:0.4.4:compile - omitted for conflict with 0.4.6)
+|  +- (com.mchange:mchange-play-json-util_2.10:jar:0.0.2:compile - omitted for duplicate)
+|  +- org.eclipse.jetty:jetty-client:jar:9.4.7.v20170914:compile
+|  |  +- org.eclipse.jetty:jetty-http:jar:9.4.7.v20170914:compile
+|  |  |  +- org.eclipse.jetty:jetty-util:jar:9.4.7.v20170914:compile
+|  |  |  \- (org.eclipse.jetty:jetty-io:jar:9.4.7.v20170914:compile - omitted for duplicate)
+|  |  \- org.eclipse.jetty:jetty-io:jar:9.4.7.v20170914:compile
+|  |     \- (org.eclipse.jetty:jetty-util:jar:9.4.7.v20170914:compile - omitted for duplicate)
+|  \- (com.typesafe.play:play-json_2.10:jar:2.4.9:compile - omitted for duplicate)
++- com.mchange:mchange-commons-java:jar:0.2.15:compile
++- org.reactivestreams:reactive-streams:jar:1.0.1:compile
++- com.typesafe:config:jar:1.2.1:compile
++- org.bouncycastle:bcprov-jdk15on:jar:1.54:compile
++- com.madgag.spongycastle:prov:jar:1.54.0.0:compile
+|  \- com.madgag.spongycastle:core:jar:1.54.0.0:compile
++- com.mchange:restricted-type-scalacheck-util_2.10:jar:0.0.4:test
+|  +- (org.scala-lang:scala-library:jar:2.10.6:test - omitted for conflict with 2.10.7)
+|  +- (com.mchange:restricted-type_2.10:jar:0.0.4:test - omitted for duplicate)
+|  \- org.scalacheck:scalacheck_2.10:jar:1.13.5:test
+|     +- (org.scala-lang:scala-library:jar:2.10.6:test - omitted for conflict with 2.10.7)
+|     \- org.scala-sbt:test-interface:jar:1.0:test
++- org.specs2:specs2_2.10:jar:2.4.17:test
+|  +- org.scala-lang:scala-compiler:jar:2.10.4:test
+|  |  +- (org.scala-lang:scala-library:jar:2.10.4:test - omitted for conflict with 2.10.7)
+|  |  \- (org.scala-lang:scala-reflect:jar:2.10.4:test - omitted for conflict with 2.10.7)
+|  +- (org.scala-lang:scala-library:jar:2.10.4:test - omitted for conflict with 2.10.7)
+|  +- org.scalaz.stream:scalaz-stream_2.10:jar:0.5a:test
+|  |  +- (org.scala-lang:scala-library:jar:2.10.4:test - omitted for conflict with 2.10.7)
+|  |  +- (org.scalaz:scalaz-core_2.10:jar:7.1.0:test - omitted for duplicate)
+|  |  +- (org.scalaz:scalaz-concurrent_2.10:jar:7.1.0:test - omitted for duplicate)
+|  |  \- org.typelevel:scodec-bits_2.10:jar:1.0.2:test
+|  |     +- (org.scala-lang:scala-library:jar:2.10.4:test - omitted for conflict with 2.10.7)
+|  |     \- (org.scala-lang:scala-reflect:jar:2.10.4:test - omitted for conflict with 2.10.7)
+|  +- org.scalamacros:quasiquotes_2.10:jar:2.0.0:test
+|  |  +- (org.scala-lang:scala-library:jar:2.10.3:test - omitted for conflict with 2.10.7)
+|  |  \- (org.scala-lang:scala-reflect:jar:2.10.3:test - omitted for conflict with 2.10.7)
+|  +- org.pegdown:pegdown:jar:1.2.1:test
+|  |  \- org.parboiled:parboiled-java:jar:1.1.4:test
+|  |     +- org.parboiled:parboiled-core:jar:1.1.4:test
+|  |     +- org.ow2.asm:asm:jar:4.1:test
+|  |     +- org.ow2.asm:asm-tree:jar:4.1:test
+|  |     |  \- (org.ow2.asm:asm:jar:4.1:test - omitted for duplicate)
+|  |     +- org.ow2.asm:asm-analysis:jar:4.1:test
+|  |     |  \- (org.ow2.asm:asm-tree:jar:4.1:test - omitted for duplicate)
+|  |     \- org.ow2.asm:asm-util:jar:4.1:test
+|  |        \- (org.ow2.asm:asm-tree:jar:4.1:test - omitted for duplicate)
+|  +- org.scalaz:scalaz-core_2.10:jar:7.1.0:test
+|  |  \- (org.scala-lang:scala-library:jar:2.10.4:test - omitted for conflict with 2.10.7)
+|  +- org.scalaz:scalaz-concurrent_2.10:jar:7.1.0:test
+|  |  +- (org.scala-lang:scala-library:jar:2.10.4:test - omitted for conflict with 2.10.7)
+|  |  +- (org.scalaz:scalaz-core_2.10:jar:7.1.0:test - omitted for duplicate)
+|  |  \- org.scalaz:scalaz-effect_2.10:jar:7.1.0:test
+|  |     +- (org.scala-lang:scala-library:jar:2.10.4:test - omitted for conflict with 2.10.7)
+|  |     \- (org.scalaz:scalaz-core_2.10:jar:7.1.0:test - omitted for duplicate)
+|  +- (org.scala-lang:scala-reflect:jar:2.10.4:test - omitted for conflict with 2.10.7)
+|  +- (org.scalacheck:scalacheck_2.10:jar:1.12.1:test - omitted for conflict with 1.13.5)
+|  +- org.hamcrest:hamcrest-core:jar:1.3:test
+|  +- org.mockito:mockito-core:jar:1.9.5:test
+|  |  +- (org.hamcrest:hamcrest-core:jar:1.1:test - omitted for conflict with 1.3)
+|  |  \- org.objenesis:objenesis:jar:1.0:test
+|  +- junit:junit:jar:4.11:test
+|  |  \- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for duplicate)
+|  \- org.specs2:classycle:jar:1.4.3:test
++- ch.qos.logback:logback-classic:jar:1.1.2:test
+|  +- ch.qos.logback:logback-core:jar:1.1.2:test
+|  \- org.slf4j:slf4j-api:jar:1.7.6:test
+\- com.typesafe.play:play-json_2.10:jar:2.4.11:compile
+   +- (org.scala-lang:scala-library:jar:2.10.5:compile - omitted for conflict with 2.10.7)
+   +- com.typesafe.play:play-iteratees_2.10:jar:2.4.11:compile
+   |  +- (org.scala-lang:scala-library:jar:2.10.5:compile - omitted for conflict with 2.10.7)
+   |  +- org.scala-stm:scala-stm_2.10:jar:0.7:compile
+   |  |  \- (org.scala-lang:scala-library:jar:2.10.0:compile - omitted for conflict with 2.10.7)
+   |  \- (com.typesafe:config:jar:1.3.0:compile - omitted for conflict with 1.2.1)
+   +- com.typesafe.play:play-functional_2.10:jar:2.4.11:compile
+   |  \- (org.scala-lang:scala-library:jar:2.10.5:compile - omitted for conflict with 2.10.7)
+   +- com.typesafe.play:play-datacommons_2.10:jar:2.4.11:compile
+   |  \- (org.scala-lang:scala-library:jar:2.10.5:compile - omitted for conflict with 2.10.7)
+   +- joda-time:joda-time:jar:2.8.1:compile
+   +- org.joda:joda-convert:jar:1.7:compile
+   +- (org.scala-lang:scala-reflect:jar:2.10.5:compile - omitted for conflict with 2.10.7)
+   +- com.fasterxml.jackson.core:jackson-core:jar:2.5.4:compile
+   +- com.fasterxml.jackson.core:jackson-annotations:jar:2.5.4:compile
+   +- com.fasterxml.jackson.core:jackson-databind:jar:2.5.4:compile
+   |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.5.0:compile - omitted for conflict with 2.5.4)
+   |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.5.4:compile - omitted for duplicate)
+   +- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.5.4:compile
+   |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.5.4:compile - omitted for duplicate)
+   |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.5.4:compile - omitted for duplicate)
+   \- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.5.4:compile
+      +- (com.fasterxml.jackson.core:jackson-core:jar:2.5.4:compile - omitted for duplicate)
+      \- (com.fasterxml.jackson.core:jackson-databind:jar:2.5.4:compile - omitted for duplicate)

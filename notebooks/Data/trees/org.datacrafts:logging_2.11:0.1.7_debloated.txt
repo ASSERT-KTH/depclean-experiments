@@ -1,0 +1,18 @@
+org.datacrafts:logging_2.11:jar:0.1.7
++- org.scala-lang:scala-library:jar:2.11.12:compile
++- org.scalatest:scalatest_2.11:jar:3.0.5:test
+|  +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|  +- org.scalactic:scalactic_2.11:jar:3.0.5:test
+|  |  +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|  |  \- (org.scala-lang:scala-reflect:jar:2.11.12:test - omitted for duplicate)
+|  +- (org.scala-lang:scala-reflect:jar:2.11.12:compile - scope updated from test; omitted for duplicate)
+|  \- org.scala-lang.modules:scala-xml_2.11:jar:1.0.6:test
+|     \- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.12)
++- com.typesafe.scala-logging:scala-logging_2.11:jar:3.7.2:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
+|  +- org.scala-lang:scala-reflect:jar:2.11.12:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
+|  \- org.slf4j:slf4j-api:jar:1.7.25:compile
+\- org.slf4j:slf4j-log4j12:jar:1.7.25:test
+   +- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)
+   \- log4j:log4j:jar:1.2.17:test

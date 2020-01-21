@@ -1,0 +1,76 @@
+com.eurodyn.qlack2.be:qlack2-be-workflow-api:bundle:2.3.6
++- com.eurodyn.qlack2.common:qlack2-common-util:jar:2.3.6:compile
+|  +- commons-beanutils:commons-beanutils:jar:1.9.3:compile
+|  |  +- commons-logging:commons-logging:jar:1.2:compile
+|  |  \- commons-collections:commons-collections:jar:3.2.2:compile
+|  +- com.github.slugify:slugify:jar:2.1.4:compile
+|  \- (javax.interceptor:javax.interceptor-api:jar:1.2:compile - omitted for duplicate)
++- com.eurodyn.qlack2.fuse:qlack2-fuse-idm-api:jar:2.3.6:compile
+|  +- org.aspectj:aspectjtools:jar:1.8.5:compile
+|  +- org.aspectj:aspectjrt:jar:1.8.5:compile
+|  +- (com.eurodyn.qlack2.common:qlack2-common-util:jar:2.3.6:compile - omitted for duplicate)
+|  +- org.apache.commons:commons-lang3:jar:3.5:compile
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.8.5:compile
+|  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile
+|  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.8.5:compile
+|  +- com.eurodyn.qlack2.fuse:qlack2-fuse-ticket-server-impl:jar:2.3.6:compile
+|  |  +- com.eurodyn.qlack2.fuse:qlack2-fuse-ticket-server-api:jar:2.3.6:compile
+|  |  |  +- (com.eurodyn.qlack2.common:qlack2-common-util:jar:2.3.6:compile - omitted for duplicate)
+|  |  |  \- (javax.interceptor:javax.interceptor-api:jar:1.2:compile - omitted for duplicate)
+|  |  +- joda-time:joda-time:jar:2.2:compile
+|  |  +- (org.apache.commons:commons-lang3:jar:3.5:compile - omitted for duplicate)
+|  |  +- org.eclipse.persistence:javax.persistence:jar:2.1.1:compile
+|  |  +- javax.transaction:javax.transaction-api:jar:1.2:compile
+|  |  +- org.apache.karaf.shell:org.apache.karaf.shell.core:jar:4.0.9:compile
+|  |  |  +- jline:jline:jar:2.14.1:compile
+|  |  |  +- org.apache.karaf.jaas:org.apache.karaf.jaas.boot:jar:4.0.9:compile
+|  |  |  \- org.apache.sshd:sshd-core:jar:0.14.0:compile
+|  |  |     \- org.slf4j:slf4j-api:jar:1.6.4:compile
+|  |  +- org.ops4j.pax.cdi:pax-cdi-api:jar:0.12.0:compile
+|  |  |  +- org.osgi:org.osgi.core:jar:4.3.1:compile
+|  |  |  \- (org.osgi:org.osgi.compendium:jar:4.3.1:compile - omitted for conflict with 5.0.0)
+|  |  +- javax.inject:javax.inject:jar:1:compile
+|  |  +- com.eurodyn.qlack2.util:qlack2-util-liquibase-api:jar:2.3.6:compile
+|  |  |  +- (org.osgi:org.osgi.core:jar:5.0.0:compile - omitted for conflict with 4.3.1)
+|  |  |  \- (javax.interceptor:javax.interceptor-api:jar:1.2:compile - omitted for duplicate)
+|  |  \- (javax.interceptor:javax.interceptor-api:jar:1.2:compile - omitted for duplicate)
+|  \- (javax.interceptor:javax.interceptor-api:jar:1.2:compile - omitted for duplicate)
++- com.eurodyn.qlack2.webdesktop:qlack2-wd-api:jar:2.3.6:compile
+|  +- (com.eurodyn.qlack2.common:qlack2-common-util:jar:2.3.6:compile - omitted for duplicate)
+|  +- (com.eurodyn.qlack2.fuse:qlack2-fuse-idm-api:jar:2.3.6:compile - omitted for duplicate)
+|  +- org.osgi:org.osgi.compendium:jar:5.0.0:compile
+|  +- (commons-beanutils:commons-beanutils:jar:1.9.3:compile - omitted for duplicate)
+|  +- javax.ws.rs:javax.ws.rs-api:jar:2.0:compile
+|  \- (javax.interceptor:javax.interceptor-api:jar:1.2:compile - omitted for duplicate)
++- com.eurodyn.qlack2.be:qlack2-be-explorer-api:jar:2.3.6:compile
+|  +- (com.eurodyn.qlack2.fuse:qlack2-fuse-idm-api:jar:2.3.6:compile - omitted for duplicate)
+|  +- (com.eurodyn.qlack2.webdesktop:qlack2-wd-api:jar:2.3.6:compile - omitted for duplicate)
+|  +- (com.eurodyn.qlack2.common:qlack2-common-karaf-features:xml:features:2.3.6:compile - omitted for duplicate)
+|  +- (com.eurodyn.qlack2.util:qlack2-util-karaf-features:xml:features:2.3.6:compile - omitted for duplicate)
+|  +- (com.eurodyn.qlack2.util:qlack2-util-repack-karaf-features:xml:features:2.3.6:compile - omitted for duplicate)
+|  +- (com.eurodyn.qlack2.fuse:qlack2-fuse-karaf-features:xml:features:2.3.6:compile - omitted for duplicate)
+|  \- (javax.interceptor:javax.interceptor-api:jar:1.2:compile - omitted for duplicate)
++- com.eurodyn.qlack2.be:qlack2-be-rules-api:jar:2.3.6:compile
+|  +- (com.eurodyn.qlack2.common:qlack2-common-util:jar:2.3.6:compile - omitted for duplicate)
+|  +- (com.eurodyn.qlack2.fuse:qlack2-fuse-idm-api:jar:2.3.6:compile - omitted for duplicate)
+|  +- com.eurodyn.qlack2.fuse:qlack2-fuse-event-publisher-api:jar:2.3.6:compile
+|  |  \- (javax.interceptor:javax.interceptor-api:jar:1.2:compile - omitted for duplicate)
+|  +- com.eurodyn.qlack2.fuse:qlack2-fuse-rules-runtime-api:jar:2.3.6:compile
+|  |  +- (com.eurodyn.qlack2.common:qlack2-common-util:jar:2.3.6:compile - omitted for duplicate)
+|  |  \- (javax.interceptor:javax.interceptor-api:jar:1.2:compile - omitted for duplicate)
+|  +- (com.eurodyn.qlack2.webdesktop:qlack2-wd-api:jar:2.3.6:compile - omitted for duplicate)
+|  +- (com.eurodyn.qlack2.be:qlack2-be-explorer-api:jar:2.3.6:compile - omitted for duplicate)
+|  +- (com.eurodyn.qlack2.common:qlack2-common-karaf-features:xml:features:2.3.6:compile - omitted for duplicate)
+|  +- (com.eurodyn.qlack2.util:qlack2-util-karaf-features:xml:features:2.3.6:compile - omitted for duplicate)
+|  +- (com.eurodyn.qlack2.util:qlack2-util-repack-karaf-features:xml:features:2.3.6:compile - omitted for duplicate)
+|  +- (com.eurodyn.qlack2.fuse:qlack2-fuse-karaf-features:xml:features:2.3.6:compile - omitted for duplicate)
+|  \- (javax.interceptor:javax.interceptor-api:jar:1.2:compile - omitted for duplicate)
++- com.eurodyn.qlack2.common:qlack2-common-karaf-features:xml:features:2.3.6:compile
+|  \- (javax.interceptor:javax.interceptor-api:jar:1.2:compile - omitted for duplicate)
++- com.eurodyn.qlack2.util:qlack2-util-karaf-features:xml:features:2.3.6:compile
+|  \- (javax.interceptor:javax.interceptor-api:jar:1.2:compile - omitted for duplicate)
++- com.eurodyn.qlack2.util:qlack2-util-repack-karaf-features:xml:features:2.3.6:compile
+|  \- (javax.interceptor:javax.interceptor-api:jar:1.2:compile - omitted for duplicate)
++- com.eurodyn.qlack2.fuse:qlack2-fuse-karaf-features:xml:features:2.3.6:compile
+|  \- (javax.interceptor:javax.interceptor-api:jar:1.2:compile - omitted for duplicate)
+\- javax.interceptor:javax.interceptor-api:jar:1.2:compile

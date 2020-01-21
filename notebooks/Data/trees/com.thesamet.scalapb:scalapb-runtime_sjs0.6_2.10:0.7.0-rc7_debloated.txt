@@ -1,0 +1,35 @@
+com.thesamet.scalapb:scalapb-runtime_sjs0.6_2.10:jar:0.7.0-rc7
++- org.scala-lang:scala-library:jar:2.10.6:compile
++- org.scala-js:scalajs-library_2.10:jar:0.6.21:compile
+|  \- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for duplicate)
++- org.scala-js:scalajs-test-interface_2.10:jar:0.6.21:test
+|  +- (org.scala-lang:scala-library:jar:2.10.6:test - omitted for duplicate)
+|  \- (org.scala-js:scalajs-library_2.10:jar:0.6.21:test - omitted for duplicate)
++- com.thesamet.scalapb:lenses_sjs0.6_2.10:jar:0.7.0-test2:compile
+|  +- (org.scala-lang:scala-library:jar:2.10.7:compile - omitted for conflict with 2.10.6)
+|  \- (org.scala-js:scalajs-library_2.10:jar:0.6.21:compile - omitted for duplicate)
++- com.lihaoyi:fastparse_sjs0.6_2.10:jar:1.0.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for duplicate)
+|  +- com.lihaoyi:fastparse-utils_sjs0.6_2.10:jar:1.0.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for duplicate)
+|  |  +- (org.scala-js:scalajs-library_2.10:jar:0.6.19:compile - omitted for conflict with 0.6.21)
+|  |  +- (org.scalamacros:quasiquotes_2.10:jar:2.1.0:compile - omitted for duplicate)
+|  |  \- (com.lihaoyi:sourcecode_sjs0.6_2.10:jar:0.1.4:compile - omitted for duplicate)
+|  +- (org.scala-js:scalajs-library_2.10:jar:0.6.19:compile - omitted for conflict with 0.6.21)
+|  +- org.scalamacros:quasiquotes_2.10:jar:2.1.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.10.4:compile - omitted for conflict with 2.10.6)
+|  |  \- org.scala-lang:scala-reflect:jar:2.10.6:compile
+|  |     \- (org.scala-lang:scala-library:jar:2.10.4:compile - omitted for conflict with 2.10.6)
+|  \- com.lihaoyi:sourcecode_sjs0.6_2.10:jar:0.1.4:compile
+|     +- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for duplicate)
+|     +- (org.scala-js:scalajs-library_2.10:jar:0.6.18:compile - omitted for conflict with 0.6.21)
+|     \- (org.scalamacros:quasiquotes_2.10:jar:2.1.0:compile - omitted for duplicate)
++- com.lihaoyi:utest_sjs0.6_2.10:jar:0.6.3:test
+|  +- (org.scala-lang:scala-library:jar:2.10.6:test - omitted for duplicate)
+|  +- (org.scala-js:scalajs-library_2.10:jar:0.6.19:test - omitted for conflict with 0.6.21)
+|  +- (org.scala-js:scalajs-test-interface_2.10:jar:0.6.19:test - omitted for conflict with 0.6.21)
+|  +- (org.scala-lang:scala-reflect:jar:2.10.6:compile - scope updated from test; omitted for duplicate)
+|  \- (org.scalamacros:quasiquotes_2.10:jar:2.1.0:test - omitted for duplicate)
+\- com.thesamet.scalapb:protobuf-runtime-scala_sjs0.6_2.10:jar:0.7.0.1:compile
+   +- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for duplicate)
+   \- (org.scala-js:scalajs-library_2.10:jar:0.6.19:compile - omitted for conflict with 0.6.21)

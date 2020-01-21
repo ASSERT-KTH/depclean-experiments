@@ -1,0 +1,35 @@
+com.github.alexarchambault:case-app-annotations_native0.3_2.11:jar:2.0.0-M3
++- org.scala-native:nativelib_native0.3_2.11:jar:0.3.6:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  \- org.scala-lang:scala-reflect:jar:2.11.12:compile
+|     \- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
++- org.scala-native:javalib_native0.3_2.11:jar:0.3.6:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  \- (org.scala-native:nativelib_native0.3_2.11:jar:0.3.6:compile - omitted for duplicate)
++- org.scala-native:auxlib_native0.3_2.11:jar:0.3.6:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  \- (org.scala-native:nativelib_native0.3_2.11:jar:0.3.6:compile - omitted for duplicate)
++- org.scala-native:scalalib_native0.3_2.11:jar:0.3.6:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  +- (org.scala-native:auxlib_native0.3_2.11:jar:0.3.6:compile - omitted for duplicate)
+|  +- (org.scala-native:nativelib_native0.3_2.11:jar:0.3.6:compile - omitted for duplicate)
+|  \- (org.scala-native:javalib_native0.3_2.11:jar:0.3.6:compile - omitted for duplicate)
+\- org.scala-native:test-interface_native0.3_2.11:jar:0.3.6:test
+   +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+   +- org.scala-native:test-interface-serialization_native0.3_2.11:jar:0.3.6:test
+   |  +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+   |  +- org.scala-native:test-interface-sbt-defs_native0.3_2.11:jar:0.3.6:test
+   |  |  +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+   |  |  +- (org.scala-native:nativelib_native0.3_2.11:jar:0.3.6:test - omitted for duplicate)
+   |  |  +- (org.scala-native:javalib_native0.3_2.11:jar:0.3.6:test - omitted for duplicate)
+   |  |  +- (org.scala-native:auxlib_native0.3_2.11:jar:0.3.6:test - omitted for duplicate)
+   |  |  \- (org.scala-native:scalalib_native0.3_2.11:jar:0.3.6:test - omitted for duplicate)
+   |  +- (org.scala-native:nativelib_native0.3_2.11:jar:0.3.6:test - omitted for duplicate)
+   |  +- (org.scala-native:javalib_native0.3_2.11:jar:0.3.6:test - omitted for duplicate)
+   |  +- (org.scala-native:auxlib_native0.3_2.11:jar:0.3.6:test - omitted for duplicate)
+   |  \- (org.scala-native:scalalib_native0.3_2.11:jar:0.3.6:test - omitted for duplicate)
+   +- (org.scala-native:nativelib_native0.3_2.11:jar:0.3.6:test - omitted for duplicate)
+   +- (org.scala-native:javalib_native0.3_2.11:jar:0.3.6:test - omitted for duplicate)
+   +- (org.scala-native:auxlib_native0.3_2.11:jar:0.3.6:test - omitted for duplicate)
+   +- (org.scala-native:scalalib_native0.3_2.11:jar:0.3.6:test - omitted for duplicate)
+   \- org.scala-sbt:test-interface:jar:1.0:test

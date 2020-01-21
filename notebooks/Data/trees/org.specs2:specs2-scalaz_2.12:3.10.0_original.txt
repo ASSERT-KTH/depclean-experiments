@@ -1,0 +1,26 @@
+org.specs2:specs2-scalaz_2.12:jar:3.10.0
++- org.scala-lang:scala-library:jar:2.12.6:compile
++- org.specs2:specs2-matcher_2.12:jar:3.10.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
+|  \- org.specs2:specs2-common_2.12:jar:3.10.0:compile
+|     +- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
+|     +- (org.scalaz:scalaz-core_2.12:jar:7.2.23:compile - omitted for duplicate)
+|     +- (org.scalaz:scalaz-effect_2.12:jar:7.2.23:compile - omitted for duplicate)
+|     +- org.scala-lang:scala-reflect:jar:2.12.6:compile
+|     |  \- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
+|     +- org.scala-lang.modules:scala-parser-combinators_2.12:jar:1.1.0:compile
+|     |  \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.6)
+|     \- org.scala-lang.modules:scala-xml_2.12:jar:1.0.6:compile
+|        \- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.6)
++- org.specs2:specs2-core_2.12:jar:3.10.0:test
+|  +- (org.scala-lang:scala-library:jar:2.12.6:test - omitted for duplicate)
+|  \- (org.specs2:specs2-matcher_2.12:jar:3.10.0:test - omitted for duplicate)
++- org.scalaz:scalaz-core_2.12:jar:7.2.23:compile
+|  \- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
++- org.scalaz:scalaz-effect_2.12:jar:7.2.23:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
+|  \- (org.scalaz:scalaz-core_2.12:jar:7.2.23:compile - omitted for duplicate)
+\- org.scalaz:scalaz-concurrent_2.12:jar:7.2.23:compile
+   +- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
+   +- (org.scalaz:scalaz-core_2.12:jar:7.2.23:compile - omitted for duplicate)
+   \- (org.scalaz:scalaz-effect_2.12:jar:7.2.23:compile - omitted for duplicate)

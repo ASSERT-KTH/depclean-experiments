@@ -1,0 +1,124 @@
+com.devonfw.modules:devonfw-winauth-ad:jar:2.4.0
++- javax.servlet:javax.servlet-api:jar:3.1.0:provided
++- org.jasypt:jasypt:jar:1.9.2:compile
++- org.springframework.security:spring-security-ldap:jar:4.2.2.RELEASE:compile
+|  +- org.springframework.ldap:spring-ldap-core:jar:2.2.0.RELEASE:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for conflict with 1.5.10)
+|  +- org.springframework.security:spring-security-core:jar:4.2.2.RELEASE:compile
+|  |  +- aopalliance:aopalliance:jar:1.0:compile
+|  |  +- (org.springframework:spring-aop:jar:4.3.5.RELEASE:compile - omitted for conflict with 4.3.8.RELEASE)
+|  |  +- (org.springframework:spring-beans:jar:4.3.5.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-context:jar:4.3.5.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-core:jar:4.3.5.RELEASE:compile - omitted for duplicate)
+|  |  \- (org.springframework:spring-expression:jar:4.3.5.RELEASE:compile - omitted for conflict with 4.3.8.RELEASE)
+|  +- org.springframework:spring-beans:jar:4.3.5.RELEASE:compile
+|  |  \- (org.springframework:spring-core:jar:4.3.5.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-context:jar:4.3.5.RELEASE:compile - omitted for conflict with 4.3.8.RELEASE)
+|  +- org.springframework:spring-core:jar:4.3.5.RELEASE:compile
+|  \- org.springframework:spring-tx:jar:4.3.5.RELEASE:compile
+|     +- (org.springframework:spring-beans:jar:4.3.5.RELEASE:compile - omitted for duplicate)
+|     \- (org.springframework:spring-core:jar:4.3.5.RELEASE:compile - omitted for duplicate)
++- org.springframework.security.kerberos:spring-security-kerberos-core:jar:1.0.1.RELEASE:compile
+|  +- (org.springframework:spring-core:jar:4.1.6.RELEASE:compile - omitted for conflict with 4.3.5.RELEASE)
+|  \- (org.springframework.security:spring-security-core:jar:3.2.7.RELEASE:compile - omitted for conflict with 4.2.2.RELEASE)
++- org.springframework.security.kerberos:spring-security-kerberos-web:jar:1.0.1.RELEASE:compile
+|  +- (org.springframework:spring-core:jar:4.1.6.RELEASE:compile - omitted for conflict with 4.3.5.RELEASE)
+|  +- org.springframework.security:spring-security-web:jar:3.2.7.RELEASE:compile
+|  |  +- (aopalliance:aopalliance:jar:1.0:compile - omitted for duplicate)
+|  |  +- (org.springframework.security:spring-security-core:jar:3.2.7.RELEASE:compile - omitted for conflict with 4.2.2.RELEASE)
+|  |  +- (org.springframework:spring-beans:jar:3.2.13.RELEASE:compile - omitted for conflict with 4.3.5.RELEASE)
+|  |  +- (org.springframework:spring-context:jar:3.2.13.RELEASE:compile - omitted for conflict with 4.3.5.RELEASE)
+|  |  +- (org.springframework:spring-core:jar:3.2.13.RELEASE:compile - omitted for conflict with 4.3.5.RELEASE)
+|  |  +- (org.springframework:spring-expression:jar:3.2.13.RELEASE:compile - omitted for conflict with 4.3.5.RELEASE)
+|  |  \- (org.springframework:spring-web:jar:3.2.13.RELEASE:compile - omitted for conflict with 4.1.6.RELEASE)
+|  +- org.springframework:spring-web:jar:4.1.6.RELEASE:compile
+|  |  +- (org.springframework:spring-aop:jar:4.1.6.RELEASE:compile - omitted for conflict with 4.3.5.RELEASE)
+|  |  +- (org.springframework:spring-beans:jar:4.1.6.RELEASE:compile - omitted for conflict with 4.3.5.RELEASE)
+|  |  +- (org.springframework:spring-context:jar:4.1.6.RELEASE:compile - omitted for conflict with 4.3.5.RELEASE)
+|  |  \- (org.springframework:spring-core:jar:4.1.6.RELEASE:compile - omitted for conflict with 4.3.5.RELEASE)
+|  \- (org.springframework.security.kerberos:spring-security-kerberos-core:jar:1.0.1.RELEASE:compile - omitted for duplicate)
++- org.hibernate:hibernate-validator-annotation-processor:jar:4.1.0.Final:compile
+|  \- org.hibernate:hibernate-validator:jar:4.1.0.Final:compile
+|     +- (javax.validation:validation-api:jar:1.0.0.GA:compile - omitted for conflict with 1.1.0.Final)
+|     \- (org.slf4j:slf4j-api:jar:1.5.6:compile - omitted for conflict with 1.5.10)
++- org.springframework.boot:spring-boot:jar:1.5.3.RELEASE:compile
+|  +- (org.springframework:spring-core:jar:4.3.8.RELEASE:compile - omitted for conflict with 4.3.5.RELEASE)
+|  \- (org.springframework:spring-context:jar:4.3.8.RELEASE:compile - omitted for conflict with 4.3.5.RELEASE)
++- org.springframework.boot:spring-boot-autoconfigure:jar:1.5.3.RELEASE:compile
+|  \- (org.springframework.boot:spring-boot:jar:1.5.3.RELEASE:compile - omitted for duplicate)
++- javax.inject:javax.inject:jar:1:compile
++- org.springframework:spring-context:jar:4.3.8.RELEASE:compile
+|  +- org.springframework:spring-aop:jar:4.3.8.RELEASE:compile
+|  |  +- (org.springframework:spring-beans:jar:4.3.8.RELEASE:compile - omitted for conflict with 4.3.5.RELEASE)
+|  |  \- (org.springframework:spring-core:jar:4.3.8.RELEASE:compile - omitted for conflict with 4.3.5.RELEASE)
+|  +- (org.springframework:spring-beans:jar:4.3.8.RELEASE:compile - omitted for conflict with 4.3.5.RELEASE)
+|  +- (org.springframework:spring-core:jar:4.3.8.RELEASE:compile - omitted for conflict with 4.3.5.RELEASE)
+|  \- org.springframework:spring-expression:jar:4.3.8.RELEASE:compile
+|     \- (org.springframework:spring-core:jar:4.3.8.RELEASE:compile - omitted for conflict with 4.3.5.RELEASE)
++- io.oasp.java.modules:oasp4j-security:jar:2.6.0:compile
+|  +- (org.springframework:spring-web:jar:4.3.8.RELEASE:compile - omitted for conflict with 4.1.6.RELEASE)
+|  +- org.springframework.security:spring-security-config:jar:4.2.2.RELEASE:compile
+|  |  +- (aopalliance:aopalliance:jar:1.0:compile - omitted for duplicate)
+|  |  +- (org.springframework.security:spring-security-core:jar:4.2.2.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-aop:jar:4.3.5.RELEASE:compile - omitted for conflict with 4.3.8.RELEASE)
+|  |  +- (org.springframework:spring-beans:jar:4.3.5.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-context:jar:4.3.5.RELEASE:compile - omitted for conflict with 4.3.8.RELEASE)
+|  |  \- (org.springframework:spring-core:jar:4.3.5.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework.security:spring-security-web:jar:4.2.2.RELEASE:compile - omitted for conflict with 3.2.7.RELEASE)
+|  +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  +- javax.annotation:javax.annotation-api:jar:1.2:compile
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.8.8:compile
+|  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile
+|  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.8.8:compile
+|  +- net.sf.m-m-m:mmm-util-core:jar:7.5.1:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for conflict with 1.5.10)
+|  |  \- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for conflict with 1.5.10)
++- io.oasp.java.modules:oasp4j-basic:jar:2.6.0:compile
+|  +- net.sf.m-m-m:mmm-util-entity:jar:7.5.1:compile
+|  |  \- net.sf.m-m-m:mmm-util-pojo:jar:7.5.1:compile
+|  |     \- (net.sf.m-m-m:mmm-util-core:jar:7.5.1:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for conflict with 1.5.10)
++- io.oasp.java.modules:oasp4j-rest:jar:2.6.0:compile
+|  +- com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:jar:2.8.8:compile
+|  |  +- com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:jar:2.8.8:compile
+|  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.8:compile - omitted for duplicate)
+|  |  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.8:compile - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.8:compile - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.8:compile - omitted for duplicate)
+|  |  \- com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.8.8:compile
+|  |     +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.8:compile - omitted for duplicate)
+|  |     +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile - omitted for duplicate)
+|  |     \- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.8:compile - omitted for duplicate)
+|  +- javax.ws.rs:javax.ws.rs-api:jar:2.0.1:compile
+|  +- io.oasp.java.modules:oasp4j-service:jar:2.6.0:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for conflict with 1.5.10)
+|  |  +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  |  \- (io.oasp.java.modules:oasp4j-basic:jar:2.6.0:compile - omitted for duplicate)
+|  +- io.oasp.java.modules:oasp4j-json:jar:2.6.0:compile
+|  |  +- (com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:jar:2.8.8:compile - omitted for duplicate)
+|  |  +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  |  +- (net.sf.m-m-m:mmm-util-core:jar:7.5.1:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-context:jar:4.3.8.RELEASE:compile - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for conflict with 1.5.10)
+|  +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  +- javax.validation:validation-api:jar:1.1.0.Final:compile
+|  +- (org.springframework:spring-context:jar:4.3.8.RELEASE:compile - omitted for duplicate)
+|  +- net.sf.m-m-m:mmm-util-validation:jar:7.5.1:compile
+|  |  \- (net.sf.m-m-m:mmm-util-pojo:jar:7.5.1:compile - omitted for duplicate)
+|  +- javax.el:javax.el-api:jar:2.2.4:compile
+|  +- org.glassfish.web:javax.el:jar:2.2.6:compile
+|  |  \- (javax.el:javax.el-api:jar:2.2.5:compile - omitted for conflict with 2.2.4)
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for conflict with 1.5.10)
++- io.oasp.java.modules:oasp4j-beanmapping:jar:2.6.0:compile
+|  +- net.sf.dozer:dozer:jar:5.5.1:compile
+|  |  +- commons-beanutils:commons-beanutils:jar:1.9.1:compile
+|  |  |  \- (commons-collections:commons-collections:jar:3.2.1:compile - omitted for duplicate)
+|  |  +- org.apache.commons:commons-lang3:jar:3.2.1:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for conflict with 1.5.10)
+|  |  \- org.slf4j:jcl-over-slf4j:jar:1.7.5:compile
+|  |     \- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for conflict with 1.5.10)
+|  +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  +- (net.sf.m-m-m:mmm-util-entity:jar:7.5.1:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for conflict with 1.5.10)
+\- org.slf4j:slf4j-api:jar:1.7.25:compile

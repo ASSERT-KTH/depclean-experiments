@@ -1,0 +1,5 @@
+org.webjars.bower:morris.js:jar:0.5.1
++- org.webjars.bower:jquery:jar:3.4.1:compile
++- org.webjars.bower:raphael:jar:2.2.7:compile
+|  \- org.webjars.bower:eve-raphael:jar:0.5.0:compile
+\- org.webjars.bower:mocha:jar:1.17.1:compile

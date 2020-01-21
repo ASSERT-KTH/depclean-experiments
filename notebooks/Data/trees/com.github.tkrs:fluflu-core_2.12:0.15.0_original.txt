@@ -1,0 +1,11 @@
+com.github.tkrs:fluflu-core_2.12:jar:0.15.0
++- org.scala-lang:scala-library:jar:2.12.4:compile
++- com.github.tkrs:fluflu-msgpack_2.12:jar:0.15.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  +- (com.typesafe.scala-logging:scala-logging_2.12:jar:3.7.2:compile - omitted for duplicate)
+|  \- org.msgpack:msgpack-core:jar:0.8.13:compile
+\- com.typesafe.scala-logging:scala-logging_2.12:jar:3.7.2:compile
+   +- (org.scala-lang:scala-library:jar:2.12.2:compile - omitted for conflict with 2.12.4)
+   +- org.scala-lang:scala-reflect:jar:2.12.2:compile
+   |  \- (org.scala-lang:scala-library:jar:2.12.2:compile - omitted for conflict with 2.12.4)
+   \- org.slf4j:slf4j-api:jar:1.7.25:compile

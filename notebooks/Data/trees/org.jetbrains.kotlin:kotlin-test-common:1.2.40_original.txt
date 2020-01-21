@@ -1,0 +1,4 @@
+org.jetbrains.kotlin:kotlin-test-common:jar:1.2.40
++- org.jetbrains.kotlin:kotlin-stdlib-common:jar:1.2.40:compile
+\- org.jetbrains.kotlin:kotlin-test-annotations-common:jar:1.2.40:test
+   \- (org.jetbrains.kotlin:kotlin-stdlib-common:jar:1.2.40:test - omitted for duplicate)

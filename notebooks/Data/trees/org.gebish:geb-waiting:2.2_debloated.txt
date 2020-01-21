@@ -1,0 +1,6 @@
+org.gebish:geb-waiting:jar:2.2
++- org.codehaus.groovy:groovy-all:jar:2.4.15:compile
++- org.gebish:geb-implicit-assertions:jar:2.2:compile
+|  \- (org.codehaus.groovy:groovy-all:jar:2.4.15:compile - omitted for duplicate)
+\- org.gebish:geb-exceptions:jar:2.2:compile
+   \- (org.codehaus.groovy:groovy-all:jar:2.4.15:compile - omitted for duplicate)

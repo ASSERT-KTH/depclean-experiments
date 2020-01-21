@@ -1,0 +1,4 @@
+net.jangaroo:jangaroo-utils:jar:4.0.58
++- args4j:args4j:jar:2.33:compile
+\- junit:junit:jar:4.12:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

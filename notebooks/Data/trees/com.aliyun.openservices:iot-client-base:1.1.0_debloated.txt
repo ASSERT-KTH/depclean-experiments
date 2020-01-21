@@ -1,0 +1,12 @@
+com.aliyun.openservices:iot-client-base:jar:1.1.0
++- commons-codec:commons-codec:jar:1.11:compile
++- com.aliyun:aliyun-java-sdk-core:jar:3.7.1:provided
+|  \- org.json:json:jar:20170516:provided
++- io.netty:netty-all:jar:4.1.22.Final:compile
++- org.slf4j:slf4j-api:jar:1.7.5:compile
+\- com.google.guava:guava:jar:23.6-jre:compile
+   +- com.google.code.findbugs:jsr305:jar:1.3.9:compile
+   +- org.checkerframework:checker-compat-qual:jar:2.0.0:compile
+   +- com.google.errorprone:error_prone_annotations:jar:2.1.3:compile
+   +- com.google.j2objc:j2objc-annotations:jar:1.1:compile
+   \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:compile

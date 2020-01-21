@@ -1,0 +1,13 @@
+com.codemettle.jsactor:jsactor-bridge-shared-boopickle_sjs0.6_2.12:jar:0.7.0
++- org.scala-lang:scala-library:jar:2.12.3:compile
++- com.codemettle.jsactor:jsactor-bridge-shared_sjs0.6_2.12:jar:0.7.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.3:compile - omitted for duplicate)
+|  \- (org.scala-js:scalajs-library_2.12:jar:0.6.18:compile - omitted for duplicate)
++- org.scala-js:scalajs-library_2.12:jar:0.6.18:compile
+|  \- (org.scala-lang:scala-library:jar:2.12.2:compile - omitted for conflict with 2.12.3)
++- org.scala-js:scalajs-test-interface_2.12:jar:0.6.18:test
+|  +- (org.scala-lang:scala-library:jar:2.12.2:test - omitted for conflict with 2.12.3)
+|  \- (org.scala-js:scalajs-library_2.12:jar:0.6.18:test - omitted for duplicate)
+\- io.suzaku:boopickle_sjs0.6_2.12:jar:1.2.6:compile
+   +- (org.scala-lang:scala-library:jar:2.12.1:compile - omitted for conflict with 2.12.3)
+   \- (org.scala-js:scalajs-library_2.12:jar:0.6.13:compile - omitted for conflict with 0.6.18)

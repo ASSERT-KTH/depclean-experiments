@@ -1,0 +1,31 @@
+org.typelevel:alleycats-core_sjs0.6_2.10:jar:1.1.0
++- org.scala-lang:scala-library:jar:2.10.7:compile
++- org.typelevel:cats-core_sjs0.6_2.10:jar:1.1.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.10.7:compile - omitted for duplicate)
+|  +- org.typelevel:cats-macros_sjs0.6_2.10:jar:1.1.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.10.7:compile - omitted for duplicate)
+|  |  +- (org.scala-js:scalajs-library_2.10:jar:0.6.20:compile - omitted for duplicate)
+|  |  \- (org.typelevel:machinist_sjs0.6_2.10:jar:0.6.2:compile - omitted for duplicate)
+|  +- org.typelevel:cats-kernel_sjs0.6_2.10:jar:1.1.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.10.7:compile - omitted for duplicate)
+|  |  \- (org.scala-js:scalajs-library_2.10:jar:0.6.20:compile - omitted for duplicate)
+|  +- (org.scala-js:scalajs-library_2.10:jar:0.6.20:compile - omitted for duplicate)
+|  \- (org.typelevel:machinist_sjs0.6_2.10:jar:0.6.2:compile - omitted for duplicate)
++- org.scala-js:scalajs-library_2.10:jar:0.6.20:compile
+|  \- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for conflict with 2.10.7)
++- org.scala-js:scalajs-test-interface_2.10:jar:0.6.20:test
+|  +- (org.scala-lang:scala-library:jar:2.10.6:test - omitted for conflict with 2.10.7)
+|  \- (org.scala-js:scalajs-library_2.10:jar:0.6.20:test - omitted for duplicate)
++- org.typelevel:export-hook_2.10:jar:1.2.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for conflict with 2.10.7)
+|  +- org.typelevel:macro-compat_2.10:jar:1.1.1:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for conflict with 2.10.7)
+|  |  \- (org.scalamacros:quasiquotes_2.10:jar:2.1.0:compile - omitted for duplicate)
+|  \- org.scalamacros:quasiquotes_2.10:jar:2.1.0:compile
+|     +- (org.scala-lang:scala-library:jar:2.10.4:compile - omitted for conflict with 2.10.7)
+|     \- (org.scala-lang:scala-reflect:jar:2.10.4:compile - omitted for conflict with 2.10.6)
+\- org.typelevel:machinist_sjs0.6_2.10:jar:0.6.2:compile
+   +- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for conflict with 2.10.7)
+   +- (org.scala-js:scalajs-library_2.10:jar:0.6.16:compile - omitted for conflict with 0.6.20)
+   \- org.scala-lang:scala-reflect:jar:2.10.6:compile
+      \- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for conflict with 2.10.7)

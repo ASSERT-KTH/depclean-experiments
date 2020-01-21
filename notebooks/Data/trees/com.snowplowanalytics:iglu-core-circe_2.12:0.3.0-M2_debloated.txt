@@ -1,0 +1,42 @@
+com.snowplowanalytics:iglu-core-circe_2.12:jar:0.3.0-M2
++- org.scala-lang:scala-library:jar:2.12.4:compile
++- com.snowplowanalytics:iglu-core_2.12:jar:0.3.0-M2:compile
+|  \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
++- io.circe:circe-core_2.12:jar:0.9.3:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.5:compile - omitted for conflict with 2.12.4)
+|  +- io.circe:circe-numbers_2.12:jar:0.9.3:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.12.5:compile - omitted for conflict with 2.12.4)
+|  \- (org.typelevel:cats-core_2.12:jar:1.0.1:compile - omitted for conflict with 1.2.0)
++- io.circe:circe-parser_2.12:jar:0.9.3:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.5:compile - omitted for conflict with 2.12.4)
+|  +- io.circe:circe-jawn_2.12:jar:0.9.3:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.5:compile - omitted for conflict with 2.12.4)
+|  |  +- (io.circe:circe-core_2.12:jar:0.9.3:compile - omitted for duplicate)
+|  |  \- org.spire-math:jawn-parser_2.12:jar:0.11.1:compile
+|  |     \- (org.scala-lang:scala-library:jar:2.12.2:compile - omitted for conflict with 2.12.4)
+|  \- (io.circe:circe-core_2.12:jar:0.9.3:compile - omitted for duplicate)
++- org.typelevel:cats-core_2.12:jar:1.2.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for conflict with 2.12.4)
+|  +- org.typelevel:cats-macros_2.12:jar:1.2.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for conflict with 2.12.4)
+|  |  \- (org.typelevel:machinist_2.12:jar:0.6.4:compile - omitted for duplicate)
+|  +- org.typelevel:cats-kernel_2.12:jar:1.2.0:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for conflict with 2.12.4)
+|  \- org.typelevel:machinist_2.12:jar:0.6.4:compile
+|     +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|     \- org.scala-lang:scala-reflect:jar:2.12.4:compile
+|        \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+\- org.specs2:specs2-core_2.12:jar:4.3.2:test
+   +- (org.scala-lang:scala-library:jar:2.12.6:test - omitted for conflict with 2.12.4)
+   +- org.specs2:specs2-matcher_2.12:jar:4.3.2:test
+   |  +- (org.scala-lang:scala-library:jar:2.12.6:test - omitted for conflict with 2.12.4)
+   |  \- org.specs2:specs2-common_2.12:jar:4.3.2:test
+   |     +- (org.scala-lang:scala-library:jar:2.12.6:test - omitted for conflict with 2.12.4)
+   |     +- org.specs2:specs2-fp_2.12:jar:4.3.2:test
+   |     |  \- (org.scala-lang:scala-library:jar:2.12.6:test - omitted for conflict with 2.12.4)
+   |     +- (org.scala-lang:scala-reflect:jar:2.12.6:test - omitted for conflict with 2.12.4)
+   |     +- org.scala-lang.modules:scala-parser-combinators_2.12:jar:1.1.1:test
+   |     |  \- (org.scala-lang:scala-library:jar:2.12.6:test - omitted for conflict with 2.12.4)
+   |     \- org.scala-lang.modules:scala-xml_2.12:jar:1.1.0:test
+   |        \- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for duplicate)
+   \- org.scala-sbt:test-interface:jar:1.0:test

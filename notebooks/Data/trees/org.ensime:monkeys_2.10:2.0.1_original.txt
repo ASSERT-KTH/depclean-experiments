@@ -1,0 +1,25 @@
+org.ensime:monkeys_2.10:jar:2.0.1
++- org.scala-lang:scala-compiler:jar:2.10.6:compile
+|  +- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for duplicate)
+|  \- org.scala-lang:scala-reflect:jar:2.10.6:compile
+|     \- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for duplicate)
++- org.scala-lang:scala-library:jar:2.10.6:compile
++- org.codehaus.janino:janino:jar:2.7.8:test
+|  \- org.codehaus.janino:commons-compiler:jar:2.7.8:test
++- org.scalatest:scalatest_2.10:jar:3.0.3:test
+|  +- (org.scala-lang:scala-library:jar:2.10.6:test - omitted for duplicate)
+|  +- org.scalactic:scalactic_2.10:jar:3.0.3:test
+|  |  +- (org.scala-lang:scala-library:jar:2.10.6:test - omitted for duplicate)
+|  |  \- (org.scala-lang:scala-reflect:jar:2.10.6:test - omitted for duplicate)
+|  \- (org.scala-lang:scala-reflect:jar:2.10.6:test - omitted for duplicate)
++- ch.qos.logback:logback-classic:jar:1.2.3:test
+|  +- ch.qos.logback:logback-core:jar:1.2.3:test
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)
++- org.slf4j:slf4j-api:jar:1.7.25:test
++- org.slf4j:jul-to-slf4j:jar:1.7.25:test
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)
++- org.slf4j:jcl-over-slf4j:jar:1.7.25:test
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)
++- org.slf4j:log4j-over-slf4j:jar:1.7.25:test
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)
+\- org.apache.commons:commons-vfs2:jar:2.1:compile

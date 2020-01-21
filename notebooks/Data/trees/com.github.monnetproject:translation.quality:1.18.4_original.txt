@@ -1,0 +1,24 @@
+com.github.monnetproject:translation.quality:jar:1.18.4
++- junit:junit:jar:4.8.2:test
++- com.github.monnetproject:translation.core:jar:1.18.4:compile
+|  +- com.github.monnetproject:lemon.api:jar:1.18.4:compile
+|  |  \- org.apache.httpcomponents:httpclient:jar:4.1.3:compile
+|  |     +- org.apache.httpcomponents:httpcore:jar:4.1.4:compile
+|  |     +- commons-logging:commons-logging:jar:1.1.1:compile
+|  |     \- commons-codec:commons-codec:jar:1.4:compile
+|  \- com.github.monnetproject:ontology:jar:1.18.4:compile
+|     \- com.github.monnetproject:language:jar:1.18.4:compile
++- com.github.monnetproject:framework.services:jar:1.18.4:compile
++- com.github.monnetproject:translation.sqlpt:jar:1.18.4:runtime
+|  +- (com.github.monnetproject:translation.core:jar:1.18.4:runtime - omitted for duplicate)
+|  \- com.github.monnetproject:translation.decomposer:jar:1.18.4:runtime
+|     +- org.apache.lucene:lucene-analyzers:jar:3.6.1:runtime
+|     |  \- org.apache.lucene:lucene-core:jar:3.6.1:runtime
+|     +- commons-dbutils:commons-dbutils:jar:1.2:runtime
+|     \- (com.github.monnetproject:translation.core:jar:1.18.4:runtime - omitted for duplicate)
++- mysql:mysql-connector-java:jar:5.1.20:runtime
++- it.unimi.dsi:fastutil:jar:6.4.1:compile
+\- com.github.monnetproject:translation.langmodel:jar:1.18.4:compile
+   +- (it.unimi.dsi:fastutil:jar:6.4.1:compile - omitted for duplicate)
+   +- (com.github.monnetproject:translation.core:jar:1.18.4:compile - omitted for duplicate)
+   \- com.google.guava:guava:jar:13.0.1:compile

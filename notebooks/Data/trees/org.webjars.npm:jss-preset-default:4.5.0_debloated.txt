@@ -1,0 +1,11 @@
+org.webjars.npm:jss-preset-default:jar:4.5.0
++- org.webjars.npm:jss-extend:jar:6.2.0:compile
+|  \- org.webjars.npm:warning:jar:3.0.0:compile
+|     \- org.webjars.npm:loose-envify:jar:1.4.0:compile
+|        \- org.webjars.npm:js-tokens:jar:4.0.0:compile
++- org.webjars.npm:jss-template:jar:1.0.1:compile
+|  \- (org.webjars.npm:warning:jar:3.0.0:compile - omitted for duplicate)
++- org.webjars.npm:jss-global:jar:3.0.0:compile
++- org.webjars.npm:jss-default-unit:jar:8.0.2:compile
+\- org.webjars.npm:jss-nested:jar:6.0.1:compile
+   \- (org.webjars.npm:warning:jar:3.0.0:compile - omitted for duplicate)

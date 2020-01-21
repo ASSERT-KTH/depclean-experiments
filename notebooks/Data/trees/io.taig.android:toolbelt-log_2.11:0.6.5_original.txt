@@ -1,0 +1,2 @@
+io.taig.android:toolbelt-log_2.11:jar:0.6.5
+\- org.scala-lang:scala-library:jar:2.11.12:compile

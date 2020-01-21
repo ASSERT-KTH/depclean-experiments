@@ -1,0 +1,54 @@
+io.rdbc.pgsql:pgsql-core_2.11:jar:0.3.1.21
++- org.scala-lang:scala-library:jar:2.11.12:compile
++- io.rdbc:rdbc-api-scala_2.11:jar:0.0.77:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  \- org.reactivestreams:reactive-streams:jar:1.0.2:compile
++- io.rdbc:rdbc-typeconv_2.11:jar:0.0.77:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  \- (io.rdbc:rdbc-api-scala_2.11:jar:0.0.77:compile - omitted for duplicate)
++- io.rdbc:rdbc-implbase_2.11:jar:0.0.77:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  +- (io.rdbc:rdbc-api-scala_2.11:jar:0.0.77:compile - omitted for duplicate)
+|  \- (io.rdbc:rdbc-util_2.11:jar:0.0.77:compile - omitted for duplicate)
++- io.rdbc:rdbc-util_2.11:jar:0.0.77:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  +- (com.lihaoyi:sourcecode_2.11:jar:0.1.4:compile - omitted for duplicate)
+|  \- (com.typesafe.scala-logging:scala-logging_2.11:jar:3.8.0:compile - omitted for duplicate)
++- com.typesafe.scala-logging:scala-logging_2.11:jar:3.8.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  +- org.scala-lang:scala-reflect:jar:2.11.12:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  \- org.slf4j:slf4j-api:jar:1.7.25:compile
++- com.lihaoyi:sourcecode_2.11:jar:0.1.4:compile
+|  \- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
++- org.scodec:scodec-core_2.11:jar:1.10.3:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.12)
+|  +- (org.scodec:scodec-bits_2.11:jar:1.1.2:compile - omitted for conflict with 1.1.5)
+|  \- com.chuusai:shapeless_2.11:jar:2.3.2:compile
+|     +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.12)
+|     \- org.typelevel:macro-compat_2.11:jar:1.1.1:compile
+|        \- (org.scala-lang:scala-library:jar:2.11.7:compile - omitted for conflict with 2.11.12)
++- org.scodec:scodec-bits_2.11:jar:1.1.5:compile
+|  \- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.12)
++- org.scala-stm:scala-stm_2.11:jar:0.8:compile
+|  \- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.12)
++- ch.qos.logback:logback-classic:jar:1.2.3:test
+|  +- ch.qos.logback:logback-core:jar:1.2.3:test
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)
++- org.scalatest:scalatest_2.11:jar:3.0.5:test
+|  +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|  +- org.scalactic:scalactic_2.11:jar:3.0.5:test
+|  |  +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|  |  \- (org.scala-lang:scala-reflect:jar:2.11.12:test - omitted for duplicate)
+|  +- (org.scala-lang:scala-reflect:jar:2.11.12:test - omitted for duplicate)
+|  \- org.scala-lang.modules:scala-xml_2.11:jar:1.0.6:test
+|     \- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.12)
+\- org.reactivestreams:reactive-streams-tck:jar:1.0.2:test
+   +- org.testng:testng:jar:5.14.10:test
+   |  +- junit:junit:jar:3.8.1:test
+   |  +- org.beanshell:bsh:jar:2.0b4:test
+   |  +- com.beust:jcommander:jar:1.12:test
+   |  \- org.yaml:snakeyaml:jar:1.6:test
+   +- (org.reactivestreams:reactive-streams:jar:1.0.2:test - omitted for duplicate)
+   \- org.reactivestreams:reactive-streams-examples:jar:1.0.2:test
+      \- (org.reactivestreams:reactive-streams:jar:1.0.2:test - omitted for duplicate)

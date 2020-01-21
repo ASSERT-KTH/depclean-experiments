@@ -1,0 +1,4 @@
+org.scodec:scodec-bits_2.12:jar:1.1.6
++- org.scala-lang:scala-library:jar:2.12.6:compile
+\- org.scala-lang:scala-reflect:jar:2.12.6:provided
+   \- (org.scala-lang:scala-library:jar:2.12.6:provided - omitted for duplicate)

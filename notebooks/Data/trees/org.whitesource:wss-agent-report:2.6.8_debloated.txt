@@ -1,0 +1,24 @@
+org.whitesource:wss-agent-report:jar:2.6.8
++- org.whitesource:wss-agent-api:jar:2.6.8:compile
+|  +- org.whitesource:wss-agent-via-api:jar:2.6.8:compile
+|  \- commons-lang:commons-lang:jar:2.6:compile
++- org.whitesource:wss-agent-hash-calculator:jar:2.6.8:compile
+|  +- (org.whitesource:wss-agent-api:jar:2.6.8:compile - omitted for duplicate)
+|  +- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+|  +- commons-codec:commons-codec:jar:1.10:compile
+|  +- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+|  +- org.whitesource:pecoff4j:jar:0.0.2.1:compile
+|  +- net.java.dev.jna:jna-platform:jar:4.1.0:compile
+|  |  \- net.java.dev.jna:jna:jar:4.1.0:compile
+|  \- org.mozilla:rhino:jar:1.7.7.2:compile
++- org.whitesource:wss-agent-utils:jar:2.6.8:compile
+|  +- (commons-codec:commons-codec:jar:1.10:compile - omitted for duplicate)
+|  +- (org.whitesource:wss-agent-api:jar:2.6.8:compile - omitted for duplicate)
+|  \- (com.google.code.gson:gson:jar:2.2.2:compile - omitted for duplicate)
++- org.apache.velocity:velocity:jar:1.7:compile
+|  +- commons-collections:commons-collections:jar:3.2.1:compile
+|  \- (commons-lang:commons-lang:jar:2.6:compile - version managed from 2.4; omitted for duplicate)
++- com.google.code.gson:gson:jar:2.2.2:compile
++- commons-io:commons-io:jar:2.4:compile
+\- junit:junit:jar:4.10:test
+   \- org.hamcrest:hamcrest-core:jar:1.1:test

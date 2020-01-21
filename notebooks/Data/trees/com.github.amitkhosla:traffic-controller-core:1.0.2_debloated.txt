@@ -1,0 +1,7 @@
+com.github.amitkhosla:traffic-controller-core:jar:1.0.2
++- com.github.amitkhosla:in-memory-queue:jar:1.0.2:compile
+|  \- commons-collections:commons-collections:jar:3.2:compile
++- com.github.amitkhosla:memory-pool:jar:1.0.2:compile
+|  \- (com.github.amitkhosla:in-memory-queue:jar:1.0.2:compile - omitted for duplicate)
++- junit:junit:jar:4.8.2:test
+\- org.mockito:mockito-all:jar:1.10.19:test

@@ -1,0 +1,108 @@
+io.apiman:apiman-manager-api-rest-impl:bundle:1.3.3.Final
++- io.apiman:apiman-common-util:jar:1.3.3.Final:compile
+|  +- commons-codec:commons-codec:jar:1.10:compile
+|  +- (org.apache.commons:commons-lang3:jar:3.3.2:compile - omitted for duplicate)
+|  \- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
++- io.apiman:apiman-common-logging-core:jar:1.3.3.Final:compile
++- io.apiman:apiman-manager-api-beans:jar:1.3.3.Final:compile
+|  \- (io.apiman:apiman-common-util:jar:1.3.3.Final:compile - omitted for duplicate)
++- io.apiman:apiman-manager-api-config:jar:1.3.3.Final:compile
+|  \- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
++- io.apiman:apiman-manager-api-rest:jar:1.3.3.Final:compile
+|  +- (io.apiman:apiman-manager-api-beans:jar:1.3.3.Final:compile - omitted for duplicate)
+|  \- io.swagger:swagger-annotations:jar:1.5.13:compile
++- io.apiman:apiman-manager-api-core:jar:1.3.3.Final:compile
+|  +- (io.apiman:apiman-common-util:jar:1.3.3.Final:compile - omitted for duplicate)
+|  +- io.apiman:apiman-common-config:jar:1.3.3.Final:compile
+|  |  +- (io.apiman:apiman-common-util:jar:1.3.3.Final:compile - omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.10:compile - omitted for duplicate)
+|  |  +- (commons-configuration:commons-configuration:jar:1.10:compile - omitted for duplicate)
+|  |  +- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+|  |  \- commons-lang:commons-lang:jar:2.6:compile
+|  +- (io.apiman:apiman-common-logging-core:jar:1.3.3.Final:compile - omitted for duplicate)
+|  +- (io.apiman:apiman-common-plugin:jar:1.3.3.Final:compile - omitted for duplicate)
+|  +- (io.apiman:apiman-manager-api-beans:jar:1.3.3.Final:compile - omitted for duplicate)
+|  +- (joda-time:joda-time:jar:2.7:compile - omitted for duplicate)
+|  +- commons-configuration:commons-configuration:jar:1.10:compile
+|  |  \- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+|  +- (org.apache.commons:commons-lang3:jar:3.3.2:compile - omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+|  +- org.apache.logging.log4j:log4j-api:jar:2.8.2:compile
+|  +- org.mvel:mvel2:jar:2.2.7.Final:compile
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.9.5:compile
+|  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile - omitted for duplicate)
++- io.apiman:apiman-manager-api-security:jar:1.3.3.Final:compile
+|  +- (io.apiman:apiman-common-util:jar:1.3.3.Final:compile - omitted for duplicate)
+|  +- (io.apiman:apiman-manager-api-beans:jar:1.3.3.Final:compile - omitted for duplicate)
+|  \- (io.apiman:apiman-manager-api-core:jar:1.3.3.Final:compile - omitted for duplicate)
++- io.apiman:apiman-manager-api-gateway:jar:1.3.3.Final:compile
+|  +- (io.apiman:apiman-common-util:jar:1.3.3.Final:compile - omitted for duplicate)
+|  +- (io.apiman:apiman-gateway-engine-beans:jar:1.3.3.Final:compile - omitted for duplicate)
+|  +- io.apiman:apiman-gateway-api-rest:jar:1.3.3.Final:compile
+|  |  +- (io.apiman:apiman-gateway-engine-beans:jar:1.3.3.Final:compile - omitted for duplicate)
+|  |  \- (io.swagger:swagger-annotations:jar:1.5.13:compile - omitted for duplicate)
+|  +- (io.apiman:apiman-manager-api-beans:jar:1.3.3.Final:compile - omitted for duplicate)
+|  +- org.apache.httpcomponents:httpclient:jar:4.5.3:compile
+|  |  +- (org.apache.httpcomponents:httpcore:jar:4.4.1:compile - version managed from 4.4.6; omitted for duplicate)
+|  |  +- commons-logging:commons-logging:jar:1.2:compile
+|  |  \- (commons-codec:commons-codec:jar:1.10:compile - version managed from 1.9; omitted for duplicate)
+|  +- org.apache.httpcomponents:httpcore:jar:4.4.1:compile
+|  +- (commons-codec:commons-codec:jar:1.10:compile - version managed from 1.9; omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+|  +- (org.apache.commons:commons-lang3:jar:3.3.2:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.5:compile - omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile - omitted for duplicate)
++- io.apiman:apiman-gateway-engine-beans:jar:1.3.3.Final:compile
+|  +- net.openhft:zero-allocation-hashing:jar:0.6:compile
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.5:compile
+|  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile - omitted for duplicate)
++- io.apiman:apiman-manager-api-export-import-api:jar:1.3.3.Final:compile
+|  +- (io.apiman:apiman-common-util:jar:1.3.3.Final:compile - omitted for duplicate)
+|  +- (io.apiman:apiman-common-logging-core:jar:1.3.3.Final:compile - omitted for duplicate)
+|  +- (io.apiman:apiman-gateway-engine-beans:jar:1.3.3.Final:compile - omitted for duplicate)
+|  +- (io.apiman:apiman-gateway-api-rest:jar:1.3.3.Final:compile - omitted for duplicate)
+|  +- (io.apiman:apiman-manager-api-gateway:jar:1.3.3.Final:compile - omitted for duplicate)
+|  +- (io.apiman:apiman-manager-api-core:jar:1.3.3.Final:compile - omitted for duplicate)
+|  +- (io.apiman:apiman-manager-api-beans:jar:1.3.3.Final:compile - omitted for duplicate)
+|  +- (io.apiman:apiman-manager-api-config:jar:1.3.3.Final:compile - omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+|  +- (org.apache.commons:commons-lang3:jar:3.3.2:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.5:compile - omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile - omitted for duplicate)
++- io.apiman:apiman-manager-api-migrator:jar:1.3.3.Final:compile
+|  +- (io.apiman:apiman-common-util:jar:1.3.3.Final:compile - omitted for duplicate)
+|  +- (io.apiman:apiman-common-logging-core:jar:1.3.3.Final:compile - omitted for duplicate)
+|  +- (io.apiman:apiman-manager-api-core:jar:1.3.3.Final:compile - omitted for duplicate)
+|  +- (io.apiman:apiman-manager-api-config:jar:1.3.3.Final:compile - omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+|  +- (org.apache.commons:commons-lang3:jar:3.3.2:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.5:compile - omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile - omitted for duplicate)
++- io.apiman:apiman-common-plugin:jar:1.3.3.Final:compile
+|  +- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile - omitted for duplicate)
++- commons-io:commons-io:jar:2.4:compile
++- org.apache.commons:commons-lang3:jar:3.3.2:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.5:compile - version managed from 2.9.0; omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.5:compile - omitted for duplicate)
++- javax.enterprise:cdi-api:jar:1.2:provided
+|  +- javax.el:javax.el-api:jar:3.0.0:provided
+|  +- javax.interceptor:javax.interceptor-api:jar:1.2:provided
+|  \- javax.inject:javax.inject:jar:1:provided
++- org.jboss.resteasy:resteasy-jaxrs:jar:3.1.4.Final:provided
+|  +- org.jboss.spec.javax.ws.rs:jboss-jaxrs-api_2.0_spec:jar:1.0.0.Final:provided (version managed from 1.0.1.Beta1)
+|  +- org.jboss.resteasy:resteasy-jaxrs-services:jar:3.1.4.Final:provided
+|  +- org.jboss.spec.javax.annotation:jboss-annotations-api_1.2_spec:jar:1.0.0.Final:provided
+|  +- javax.activation:activation:jar:1.1.1:provided
+|  +- (org.apache.httpcomponents:httpclient:jar:4.5.3:provided - version managed from 4.5.2; omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.4:provided - version managed from 2.5; omitted for duplicate)
+|  +- net.jcip:jcip-annotations:jar:1.0:provided
+|  \- org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided
++- org.jboss.spec.javax.servlet:jboss-servlet-api_3.0_spec:jar:1.0.2.Final:provided
++- org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final:provided
++- joda-time:joda-time:jar:2.7:compile
++- org.slf4j:slf4j-api:jar:1.7.21:provided
++- junit:junit:jar:4.11:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
+\- org.mockito:mockito-all:jar:1.9.5:test

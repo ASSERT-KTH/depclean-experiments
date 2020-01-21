@@ -1,0 +1,27 @@
+eu.timepit:refined_sjs0.6_2.11:jar:0.9.0
++- org.scala-lang:scala-compiler:jar:2.11.12:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  +- (org.scala-lang:scala-reflect:jar:2.11.12:compile - omitted for duplicate)
+|  +- (org.scala-lang.modules:scala-xml_2.11:jar:1.0.5:compile - omitted for conflict with 1.0.6)
+|  \- org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.0.4:compile
+|     \- (org.scala-lang:scala-library:jar:2.11.6:compile - omitted for conflict with 2.11.12)
++- org.scala-lang:scala-library:jar:2.11.12:compile
++- org.scala-js:scalajs-library_2.11:jar:0.6.22:compile
+|  \- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
++- org.scala-js:scalajs-test-interface_2.11:jar:0.6.22:test
+|  +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|  \- (org.scala-js:scalajs-library_2.11:jar:0.6.22:test - omitted for duplicate)
++- org.scala-lang:scala-reflect:jar:2.11.12:compile
+|  \- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
++- org.typelevel:macro-compat_2.11:jar:1.1.1:compile
+|  \- (org.scala-lang:scala-library:jar:2.11.7:compile - omitted for conflict with 2.11.12)
++- com.chuusai:shapeless_sjs0.6_2.11:jar:2.3.3:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  +- (org.scala-js:scalajs-library_2.11:jar:0.6.21:compile - omitted for conflict with 0.6.22)
+|  \- (org.typelevel:macro-compat_2.11:jar:1.1.1:compile - omitted for duplicate)
++- org.scalacheck:scalacheck_sjs0.6_2.11:jar:1.13.5:test
+|  +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.12)
+|  +- (org.scala-js:scalajs-library_2.11:jar:0.6.13:test - omitted for conflict with 0.6.22)
+|  \- (org.scala-js:scalajs-test-interface_2.11:jar:0.6.13:test - omitted for conflict with 0.6.22)
+\- org.scala-lang.modules:scala-xml_2.11:jar:1.0.6:compile
+   \- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.12)

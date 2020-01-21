@@ -1,0 +1,74 @@
+org.wso2.transport.jms:transport-jms:bundle:6.0.50
++- javax.jms:javax.jms-api:jar:2.0.1:compile
++- org.wso2.eclipse.osgi:org.eclipse.osgi:jar:3.10.2.v20150203-1939:compile
++- org.wso2.eclipse.osgi:org.eclipse.osgi.services:jar:3.4.0.v20140312-2051:compile
++- org.slf4j:slf4j-api:jar:1.7.5:compile
++- org.wso2.carbon.transport:org.wso2.carbon.connector.framework:jar:6.0.47:compile
+|  +- (org.wso2.eclipse.osgi:org.eclipse.osgi:jar:3.10.2.v20150203-1939:compile - omitted for duplicate)
+|  +- (org.wso2.eclipse.osgi:org.eclipse.osgi.services:jar:3.4.0.v20140312-2051:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for duplicate)
+|  +- org.wso2.carbon.messaging:org.wso2.carbon.messaging:jar:2.3.7:compile
+|  |  +- org.wso2.carbon:org.wso2.carbon.launcher:jar:5.2.0-m3:compile
+|  |  |  \- org.osgi:org.osgi.core:jar:6.0.0:compile
+|  |  +- org.wso2.carbon:org.wso2.carbon.kernel.feature:zip:5.2.0-m3:compile
+|  |  |  +- (org.wso2.carbon:org.wso2.carbon.core:jar:5.2.0-m3:compile - omitted for conflict with 5.1.0)
+|  |  |  +- org.yaml:snakeyaml:jar:1.17:compile
+|  |  |  +- (org.wso2.carbon:org.wso2.carbon.launcher:jar:5.2.0-m3:compile - omitted for duplicate)
+|  |  |  +- (org.osgi:org.osgi.core:jar:6.0.0:compile - omitted for duplicate)
+|  |  |  +- org.wso2.carbon:org.wso2.carbon.tools.core:jar:5.2.0-m3:compile
+|  |  |  |  +- (org.wso2.carbon:org.wso2.carbon.launcher:jar:5.2.0-m3:compile - omitted for duplicate)
+|  |  |  |  \- (org.wso2.carbon:org.wso2.carbon.core:jar:5.2.0-m3:compile - omitted for duplicate)
+|  |  |  \- org.json.wso2:json:jar:3.0.0.wso2v1:compile
+|  |  |     \- org.json:json:jar:20140107:compile
+|  |  +- org.wso2.carbon:org.wso2.carbon.runtime.feature:zip:5.2.0-m3:compile
+|  |  |  +- (org.wso2.eclipse.osgi:org.eclipse.osgi:jar:3.10.2.v20150203-1939:compile - version managed from 3.11.0.v20160603-1336; omitted for duplicate)
+|  |  |  +- (org.wso2.eclipse.osgi:org.eclipse.osgi.services:jar:3.4.0.v20140312-2051:compile - version managed from 3.5.100.v20160504-1419; omitted for duplicate)
+|  |  |  +- org.wso2.eclipse.equinox:org.eclipse.equinox.launcher.gtk.linux.x86:jar:1.1.400.v20160518-1444:compile
+|  |  |  +- org.wso2.eclipse.equinox:org.eclipse.equinox.common:jar:3.8.0.v20160509-1230:compile
+|  |  |  +- org.wso2.eclipse.equinox:org.eclipse.equinox.simpleconfigurator:jar:1.1.200.v20160504-1450:compile
+|  |  |  +- org.wso2.eclipse.equinox:org.eclipse.equinox.util:jar:1.0.500.v20130404-1337:compile
+|  |  |  +- org.wso2.eclipse.equinox:org.eclipse.equinox.ds:jar:1.4.400.v20160226-2036:compile
+|  |  |  +- org.wso2.eclipse.equinox:org.eclipse.equinox.launcher:jar:1.3.200.v20160318-1642:compile
+|  |  |  +- org.wso2.eclipse.equinox:org.eclipse.equinox.concurrent:jar:1.1.0.v20130327-1442:compile
+|  |  |  +- org.wso2.eclipse.equinox:org.eclipse.equinox.frameworkadmin:jar:2.0.300.v20160504-1450:compile
+|  |  |  +- org.wso2.eclipse.equinox:org.eclipse.equinox.frameworkadmin.equinox:jar:1.0.700.v20160102-2223:compile
+|  |  |  +- org.wso2.eclipse.equinox:org.eclipse.equinox.console:jar:1.1.200.v20150929-1405:compile
+|  |  |  +- org.apache.felix:org.apache.felix.gogo.command:jar:0.10.0.v201209301215:compile
+|  |  |  +- org.apache.felix:org.apache.felix.gogo.shell:jar:0.10.0.v201212101605:compile
+|  |  |  +- org.apache.felix:org.apache.felix.gogo.runtime:jar:0.10.0.v201209301036:compile
+|  |  |  +- org.ops4j.pax.logging:pax-logging-api:jar:1.9.0:compile
+|  |  |  +- org.ops4j.pax.logging:pax-logging-log4j2:jar:1.9.0:compile
+|  |  |  |  \- (org.ops4j.pax.logging:pax-logging-api:jar:1.9.0:compile - omitted for duplicate)
+|  |  |  +- org.wso2.eclipse.equinox:org.eclipse.equinox.cm:jar:1.1.200.v20160324-1850:compile
+|  |  |  +- org.wso2.eclipse.equinox:org.eclipse.equinox.preferences:jar:3.6.0.v20160120-1756:compile
+|  |  |  +- org.wso2.eclipse.equinox:org.eclipse.equinox.simpleconfigurator.manipulator:jar:2.0.200.v20160504-1450:compile
+|  |  |  \- org.wso2.eclipse.osgi:org.eclipse.osgi.compatibility.state:jar:1.0.200.v20160504-1419:compile
+|  |  \- org.slf4j:slf4j-log4j12:jar:1.7.5:compile
+|  |     +- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for duplicate)
+|  |     \- log4j:log4j:jar:1.2.17:compile
+|  +- org.wso2.carbon:org.wso2.carbon.core:jar:5.1.0:compile
+|  +- org.wso2.orbit.org.quartz-scheduler:quartz:jar:2.3.0.wso2v2:compile
+|  \- javax.websocket:javax.websocket-api:jar:1.1:compile
++- org.apache.commons:commons-pool2:jar:2.4.2:compile
++- org.testng:testng:jar:6.9.10:test
+|  +- com.beust:jcommander:jar:1.48:test
+|  \- org.beanshell:bsh:jar:2.0b4:test
++- org.apache.activemq:activemq-broker:jar:5.14.3:test
+|  +- org.apache.activemq:activemq-client:jar:5.14.3:test
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.5:test - version managed from 1.7.13; omitted for duplicate)
+|  |  +- org.apache.geronimo.specs:geronimo-jms_1.1_spec:jar:1.1.1:test
+|  |  +- org.fusesource.hawtbuf:hawtbuf:jar:1.11:test
+|  |  \- (org.apache.geronimo.specs:geronimo-j2ee-management_1.1_spec:jar:1.0.1:test - omitted for duplicate)
+|  \- org.apache.activemq:activemq-openwire-legacy:jar:5.14.3:test
+|     \- (org.apache.activemq:activemq-client:jar:5.14.3:test - omitted for duplicate)
++- org.apache.activemq:activemq-kahadb-store:jar:5.14.3:test
+|  +- (org.apache.activemq:activemq-broker:jar:5.14.3:test - omitted for duplicate)
+|  +- org.apache.activemq.protobuf:activemq-protobuf:jar:1.1:test
+|  +- org.apache.geronimo.specs:geronimo-j2ee-management_1.1_spec:jar:1.0.1:test
+|  \- commons-net:commons-net:jar:3.5:test
++- org.apache.activemq:activemq-jaas:jar:5.14.3:test
+|  \- (org.slf4j:slf4j-api:jar:1.7.5:test - version managed from 1.7.13; omitted for duplicate)
++- javax.transaction:javax.transaction-api:jar:1.2:test
+\- org.atomikos.wso2:atomikos:jar:3.8.0.wso2v1:test
+   \- com.atomikos:transactions-osgi:jar:3.8.0:test
+      \- org.mockito:mockito-all:jar:1.9.0:test

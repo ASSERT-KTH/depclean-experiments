@@ -1,0 +1,58 @@
+eu.fbk.dh:tint-readability:jar:0.2
++- edu.stanford.nlp:stanford-corenlp:jar:3.8.0:compile
+|  +- com.apple:AppleJavaExtensions:jar:1.4:compile
+|  +- de.jollyday:jollyday:jar:0.4.9:compile
+|  |  +- (joda-time:joda-time:jar:2.4:compile - omitted for conflict with 2.9.4)
+|  |  \- javax.xml.bind:jaxb-api:jar:2.2.7:compile
+|  +- org.apache.commons:commons-lang3:jar:3.4:compile (version managed from 3.3.1)
+|  +- org.apache.lucene:lucene-queryparser:jar:4.10.3:compile
+|  |  +- (org.apache.lucene:lucene-core:jar:4.10.3:compile - omitted for duplicate)
+|  |  +- (org.apache.lucene:lucene-queries:jar:4.10.3:compile - omitted for duplicate)
+|  |  \- org.apache.lucene:lucene-sandbox:jar:4.10.3:compile
+|  +- org.apache.lucene:lucene-analyzers-common:jar:4.10.3:compile
+|  |  \- (org.apache.lucene:lucene-core:jar:4.10.3:compile - omitted for duplicate)
+|  +- org.apache.lucene:lucene-queries:jar:4.10.3:compile
+|  |  \- (org.apache.lucene:lucene-core:jar:4.10.3:compile - omitted for duplicate)
+|  +- org.apache.lucene:lucene-core:jar:4.10.3:compile
+|  +- javax.servlet:javax.servlet-api:jar:3.1.0:compile (version managed from 3.0.1)
+|  +- com.io7m.xom:xom:jar:1.2.10:compile
+|  |  +- xml-apis:xml-apis:jar:1.3.03:compile
+|  |  +- xerces:xercesImpl:jar:2.8.0:compile
+|  |  |  \- (xml-apis:xml-apis:jar:1.3.03:compile - omitted for duplicate)
+|  |  \- xalan:xalan:jar:2.7.0:compile
+|  |     \- (xml-apis:xml-apis:jar:1.0.b2:compile - omitted for conflict with 1.3.03)
+|  +- joda-time:joda-time:jar:2.9.4:compile
+|  +- com.googlecode.efficient-java-matrix-library:ejml:jar:0.23:compile
+|  +- org.glassfish:javax.json:jar:1.0.4:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.12:compile - version managed from 1.7.13; omitted for duplicate)
+|  \- com.google.protobuf:protobuf-java:jar:3.2.0:compile
++- eu.fbk.dh:tint-verb:jar:0.2:compile
+|  +- (com.google.guava:guava:jar:20.0-rc1:compile - omitted for duplicate)
+|  +- eu.fbk.utils:utils-corenlp:jar:3.1.1:compile
+|  |  +- (edu.stanford.nlp:stanford-corenlp:jar:3.8.0:compile - version managed from 3.7.0; omitted for duplicate)
+|  |  +- (eu.fbk.utils:utils-gson:jar:3.1.1:compile - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:20.0-rc1:compile - omitted for duplicate)
+|  |  +- (com.google.code.gson:gson:jar:2.8.0:compile - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.12:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.12:compile - omitted for duplicate)
+|  +- (edu.stanford.nlp:stanford-corenlp:jar:3.8.0:compile - version managed from 3.7.0; omitted for duplicate)
+|  +- (eu.fbk.utils:utils-core:jar:3.1.1:compile - omitted for duplicate)
+|  \- (eu.fbk.utils:utils-gson:jar:3.1.1:compile - omitted for duplicate)
++- eu.fbk.utils:utils-core:jar:3.1.1:compile
+|  +- (com.google.guava:guava:jar:20.0-rc1:compile - omitted for duplicate)
+|  +- commons-cli:commons-cli:jar:1.3.1:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.12:compile - omitted for duplicate)
++- eu.fbk.utils:utils-gson:jar:3.1.1:compile
+|  \- (com.google.code.gson:gson:jar:2.8.0:compile - omitted for conflict with 2.7)
++- com.itextpdf:hyph:jar:7.0.1:runtime
+|  \- (org.slf4j:slf4j-api:jar:1.7.12:runtime - version managed from 1.7.13; omitted for duplicate)
++- com.itextpdf:layout:jar:7.0.1:compile
+|  +- com.itextpdf:kernel:jar:7.0.1:compile
+|  |  +- com.itextpdf:io:jar:7.0.1:compile
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.12:compile - version managed from 1.7.13; omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.12:compile - version managed from 1.7.13; omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.12:compile - version managed from 1.7.13; omitted for duplicate)
++- com.google.code.findbugs:jsr305:jar:3.0.0:compile
++- com.google.code.gson:gson:jar:2.7:compile
++- com.google.guava:guava:jar:20.0-rc1:compile
+\- org.slf4j:slf4j-api:jar:1.7.12:compile

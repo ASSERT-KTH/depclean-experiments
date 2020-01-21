@@ -1,0 +1,12 @@
+com.github.xmlet:xsdAsmFaster:jar:1.0.1
++- org.ow2.asm:asm-parent:pom:6.0:compile
++- org.ow2.asm:asm:jar:6.0:compile
++- org.ow2.asm:asm-tree:jar:6.0:compile
+|  \- (org.ow2.asm:asm:jar:6.0:compile - omitted for duplicate)
++- org.ow2.asm:asm-commons:jar:6.0:compile
+|  \- (org.ow2.asm:asm-tree:jar:6.0:compile - omitted for duplicate)
++- org.ow2.asm:asm-xml:jar:6.0:compile
+|  \- (org.ow2.asm:asm-util:jar:6.0:compile - omitted for duplicate)
++- org.apache.commons:commons-lang3:jar:3.1:compile
+\- com.github.xmlet:xsdParser:jar:1.0.11:compile
+   \- javax.validation:validation-api:jar:1.0.0.GA:compile

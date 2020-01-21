@@ -1,0 +1,36 @@
+com.commercetools.sdk.jvm.core:sdk-http-apache-async:bundle:1.30.0
++- com.commercetools.sdk.jvm.core:sdk-http:jar:1.30.0:compile
+|  +- org.apache.commons:commons-lang3:jar:3.4:compile
+|  +- (com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.9.4:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.4:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.4:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.4:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|  \- (com.google.code.findbugs:jsr305:jar:3.0.1:compile - omitted for duplicate)
++- org.apache.httpcomponents:httpasyncclient-osgi:jar:4.1.3:compile
+|  \- org.apache.httpcomponents:httpasyncclient:jar:4.1.3:compile
+|     +- org.apache.httpcomponents:httpcore:jar:4.4.6:compile
+|     +- org.apache.httpcomponents:httpcore-nio:jar:4.4.6:compile
+|     |  \- (org.apache.httpcomponents:httpcore:jar:4.4.6:compile - omitted for duplicate)
+|     +- org.apache.httpcomponents:httpclient:jar:4.5.3:compile
+|     |  +- (org.apache.httpcomponents:httpcore:jar:4.4.6:compile - omitted for duplicate)
+|     |  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|     |  \- commons-codec:commons-codec:jar:1.9:compile
+|     \- commons-logging:commons-logging:jar:1.2:compile
++- commons-io:commons-io:jar:2.4:compile
++- com.fasterxml.jackson.core:jackson-core:jar:2.9.4:compile
++- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.4:compile
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.4:compile - omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.4:compile - omitted for duplicate)
++- org.slf4j:slf4j-api:jar:1.7.21:compile
++- com.google.code.findbugs:jsr305:jar:3.0.1:compile
++- ch.qos.logback:logback-classic:jar:1.1.7:test
+|  \- ch.qos.logback:logback-core:jar:1.1.7:test
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.assertj:assertj-core:jar:3.8.0:test
++- org.mockito:mockito-core:jar:2.9.0:test
+|  +- net.bytebuddy:byte-buddy:jar:1.7.0:test
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.7.0:test
+|  \- org.objenesis:objenesis:jar:2.6:test
+\- net.jcip:jcip-annotations:jar:1.0:test

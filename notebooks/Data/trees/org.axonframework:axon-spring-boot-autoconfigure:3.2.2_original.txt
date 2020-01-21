@@ -1,0 +1,234 @@
+org.axonframework:axon-spring-boot-autoconfigure:jar:3.2.2
++- org.axonframework:axon-amqp:jar:3.2.2:compile
+|  +- org.axonframework:axon-core:jar:3.2.2:compile
+|  |  +- org.slf4j:slf4j-api:jar:1.7.21:compile
+|  |  +- com.thoughtworks.xstream:xstream:jar:1.4.10:compile
+|  |  \- xpp3:xpp3:jar:1.1.4c:compile
+|  \- com.rabbitmq:amqp-client:jar:4.1.0:compile
+|     \- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
++- org.axonframework:axon-spring:jar:3.2.2:compile
+|  \- (org.axonframework:axon-core:jar:3.2.2:compile - omitted for duplicate)
++- org.axonframework:axon-distributed-commandbus-jgroups:jar:3.2.2:compile
+|  \- (org.axonframework:axon-core:jar:3.2.2:compile - omitted for duplicate)
++- org.axonframework:axon-distributed-commandbus-springcloud:jar:3.2.2:compile
+|  \- (org.axonframework:axon-core:jar:3.2.2:compile - omitted for duplicate)
++- org.axonframework:axon-metrics:jar:3.2.2:compile
+|  +- (org.axonframework:axon-core:jar:3.2.2:compile - omitted for duplicate)
+|  \- io.dropwizard.metrics:metrics-core:jar:3.1.2:compile
+|     \- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for conflict with 1.7.21)
++- org.jgroups:jgroups:jar:4.0.6.Final:compile
++- org.springframework.boot:spring-boot-configuration-processor:jar:1.5.7.RELEASE:compile
+|  \- com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:compile
++- org.springframework.boot:spring-boot-starter-amqp:jar:1.5.7.RELEASE:compile
+|  +- (org.springframework.boot:spring-boot-starter:jar:1.5.7.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework:spring-messaging:jar:4.3.11.RELEASE:compile
+|  |  +- org.springframework:spring-beans:jar:4.3.11.RELEASE:compile
+|  |  |  \- (org.springframework:spring-core:jar:4.3.11.RELEASE:compile - omitted for duplicate)
+|  |  +- org.springframework:spring-context:jar:4.3.11.RELEASE:compile
+|  |  |  +- (org.springframework:spring-aop:jar:4.3.11.RELEASE:compile - omitted for duplicate)
+|  |  |  +- (org.springframework:spring-beans:jar:4.3.11.RELEASE:compile - omitted for duplicate)
+|  |  |  +- (org.springframework:spring-core:jar:4.3.11.RELEASE:compile - omitted for duplicate)
+|  |  |  \- org.springframework:spring-expression:jar:4.3.11.RELEASE:compile
+|  |  |     \- (org.springframework:spring-core:jar:4.3.11.RELEASE:compile - omitted for duplicate)
+|  |  \- (org.springframework:spring-core:jar:4.3.11.RELEASE:compile - omitted for duplicate)
+|  \- org.springframework.amqp:spring-rabbit:jar:1.7.4.RELEASE:compile
+|     +- (org.springframework:spring-messaging:jar:4.3.11.RELEASE:compile - omitted for duplicate)
+|     +- org.springframework:spring-web:jar:4.3.11.RELEASE:compile
+|     |  +- (org.springframework:spring-aop:jar:4.3.11.RELEASE:compile - omitted for duplicate)
+|     |  +- (org.springframework:spring-beans:jar:4.3.11.RELEASE:compile - omitted for duplicate)
+|     |  +- (org.springframework:spring-context:jar:4.3.11.RELEASE:compile - omitted for duplicate)
+|     |  \- (org.springframework:spring-core:jar:4.3.11.RELEASE:compile - omitted for duplicate)
+|     +- (org.springframework:spring-context:jar:4.3.11.RELEASE:compile - omitted for duplicate)
+|     +- com.rabbitmq:http-client:jar:1.1.1.RELEASE:compile
+|     |  +- (org.apache.httpcomponents:httpclient:jar:4.3.6:compile - omitted for conflict with 4.5.1)
+|     |  \- com.fasterxml.jackson.core:jackson-databind:jar:2.8.8:compile
+|     |     +- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile
+|     |     \- com.fasterxml.jackson.core:jackson-core:jar:2.8.8:compile
+|     +- (com.rabbitmq:amqp-client:jar:4.0.3:compile - omitted for conflict with 4.1.0)
+|     +- org.springframework.retry:spring-retry:jar:1.2.0.RELEASE:compile
+|     |  \- (org.springframework:spring-core:jar:4.3.11.RELEASE:compile - version managed from 4.3.3.RELEASE; omitted for duplicate)
+|     +- org.springframework.amqp:spring-amqp:jar:1.7.4.RELEASE:compile
+|     |  \- (org.springframework:spring-core:jar:4.3.11.RELEASE:compile - version managed from 4.3.3.RELEASE; omitted for duplicate)
+|     \- org.springframework:spring-tx:jar:4.3.11.RELEASE:compile
+|        +- (org.springframework:spring-beans:jar:4.3.11.RELEASE:compile - omitted for duplicate)
+|        \- (org.springframework:spring-core:jar:4.3.11.RELEASE:compile - version managed from 4.3.3.RELEASE; omitted for duplicate)
++- org.springframework.boot:spring-boot-starter:jar:1.5.7.RELEASE:compile
+|  +- org.springframework.boot:spring-boot:jar:1.5.7.RELEASE:compile
+|  |  +- (org.springframework:spring-core:jar:4.3.11.RELEASE:compile - version managed from 4.3.3.RELEASE; omitted for duplicate)
+|  |  \- (org.springframework:spring-context:jar:4.3.11.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework.boot:spring-boot-autoconfigure:jar:1.5.7.RELEASE:compile
+|  |  \- (org.springframework.boot:spring-boot:jar:1.5.7.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework.boot:spring-boot-starter-logging:jar:1.5.7.RELEASE:compile
+|  |  +- (org.slf4j:jcl-over-slf4j:jar:1.7.25:compile - omitted for conflict with 1.7.21)
+|  |  \- (org.slf4j:jul-to-slf4j:jar:1.7.25:compile - omitted for conflict with 1.7.21)
+|  +- org.springframework:spring-core:jar:4.3.11.RELEASE:compile
+|  \- org.yaml:snakeyaml:jar:1.17:runtime
++- org.springframework.boot:spring-boot-starter-data-jpa:jar:1.5.7.RELEASE:compile
+|  +- (org.springframework.boot:spring-boot-starter:jar:1.5.7.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework.boot:spring-boot-starter-aop:jar:1.5.7.RELEASE:compile
+|  |  +- (org.springframework.boot:spring-boot-starter:jar:1.5.7.RELEASE:compile - omitted for duplicate)
+|  |  +- org.springframework:spring-aop:jar:4.3.11.RELEASE:compile
+|  |  |  +- (org.springframework:spring-beans:jar:4.3.11.RELEASE:compile - omitted for duplicate)
+|  |  |  \- (org.springframework:spring-core:jar:4.3.11.RELEASE:compile - version managed from 4.3.3.RELEASE; omitted for duplicate)
+|  |  \- org.aspectj:aspectjweaver:jar:1.8.10:compile
+|  +- org.springframework.boot:spring-boot-starter-jdbc:jar:1.5.7.RELEASE:compile
+|  |  +- (org.springframework.boot:spring-boot-starter:jar:1.5.7.RELEASE:compile - omitted for duplicate)
+|  |  +- org.apache.tomcat:tomcat-jdbc:jar:8.5.20:compile
+|  |  |  \- org.apache.tomcat:tomcat-juli:jar:8.5.20:compile
+|  |  \- org.springframework:spring-jdbc:jar:4.3.11.RELEASE:compile
+|  |     +- (org.springframework:spring-beans:jar:4.3.11.RELEASE:compile - omitted for duplicate)
+|  |     +- (org.springframework:spring-core:jar:4.3.11.RELEASE:compile - version managed from 4.3.3.RELEASE; omitted for duplicate)
+|  |     \- (org.springframework:spring-tx:jar:4.3.11.RELEASE:compile - omitted for duplicate)
+|  +- org.hibernate:hibernate-core:jar:5.0.12.Final:compile
+|  |  +- org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile
+|  |  +- org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final:compile
+|  |  +- org.javassist:javassist:jar:3.20.0-GA:compile (version managed from 3.18.1-GA)
+|  |  +- antlr:antlr:jar:2.7.7:compile
+|  |  +- org.jboss:jandex:jar:2.0.0.Final:compile
+|  |  +- dom4j:dom4j:jar:1.6.1:compile
+|  |  |  \- xml-apis:xml-apis:jar:1.0.b2:compile
+|  |  \- org.hibernate.common:hibernate-commons-annotations:jar:5.0.1.Final:compile
+|  |     \- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile - omitted for duplicate)
+|  +- org.hibernate:hibernate-entitymanager:jar:5.0.12.Final:compile
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile - omitted for duplicate)
+|  |  +- (org.hibernate:hibernate-core:jar:5.0.12.Final:compile - omitted for duplicate)
+|  |  +- (dom4j:dom4j:jar:1.6.1:compile - omitted for duplicate)
+|  |  +- (org.hibernate.common:hibernate-commons-annotations:jar:5.0.1.Final:compile - omitted for duplicate)
+|  |  +- (org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final:compile - omitted for duplicate)
+|  |  \- (org.javassist:javassist:jar:3.20.0-GA:compile - version managed from 3.18.1-GA; omitted for duplicate)
+|  +- javax.transaction:javax.transaction-api:jar:1.2:compile
+|  +- org.springframework.data:spring-data-jpa:jar:1.11.7.RELEASE:compile
+|  |  +- org.springframework.data:spring-data-commons:jar:1.13.7.RELEASE:compile
+|  |  |  +- (org.springframework:spring-core:jar:4.3.11.RELEASE:compile - version managed from 4.3.3.RELEASE; omitted for duplicate)
+|  |  |  +- (org.springframework:spring-beans:jar:4.3.11.RELEASE:compile - omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for conflict with 1.7.21)
+|  |  |  \- (org.slf4j:jcl-over-slf4j:jar:1.7.25:runtime - omitted for duplicate)
+|  |  +- (org.springframework:spring-orm:jar:4.3.11.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-context:jar:4.3.11.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-aop:jar:4.3.11.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-tx:jar:4.3.11.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-beans:jar:4.3.11.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-core:jar:4.3.11.RELEASE:compile - version managed from 4.3.3.RELEASE; omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for conflict with 1.7.21)
+|  |  \- (org.slf4j:jcl-over-slf4j:jar:1.7.25:runtime - omitted for duplicate)
+|  \- org.springframework:spring-aspects:jar:4.3.11.RELEASE:compile
+|     \- (org.aspectj:aspectjweaver:jar:1.8.9:compile - omitted for conflict with 1.8.10)
++- org.springframework.cloud:spring-cloud-commons:jar:1.3.2.RELEASE:compile
+|  +- org.springframework.security:spring-security-crypto:jar:4.2.4.RELEASE:compile
+|  \- org.apache.httpcomponents:httpclient:jar:4.5.1:compile
+|     +- org.apache.httpcomponents:httpcore:jar:4.4.3:compile
+|     \- commons-codec:commons-codec:jar:1.9:compile
++- org.springframework.boot:spring-boot-starter-test:jar:1.5.7.RELEASE:test
+|  +- org.springframework.boot:spring-boot-test:jar:1.5.7.RELEASE:test
+|  |  \- (org.springframework.boot:spring-boot:jar:1.5.7.RELEASE:test - omitted for duplicate)
+|  +- org.springframework.boot:spring-boot-test-autoconfigure:jar:1.5.7.RELEASE:test
+|  |  +- (org.springframework.boot:spring-boot-test:jar:1.5.7.RELEASE:test - omitted for duplicate)
+|  |  \- (org.springframework.boot:spring-boot-autoconfigure:jar:1.5.7.RELEASE:test - omitted for duplicate)
+|  +- com.jayway.jsonpath:json-path:jar:2.2.0:test
+|  |  +- net.minidev:json-smart:jar:2.2.1:test
+|  |  |  \- net.minidev:accessors-smart:jar:1.1:test
+|  |  |     \- org.ow2.asm:asm:jar:5.0.3:test
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.16:test - omitted for conflict with 1.7.21)
+|  +- (junit:junit:jar:4.12:test - omitted for duplicate)
+|  +- org.assertj:assertj-core:jar:2.6.0:test
+|  +- (org.mockito:mockito-core:jar:1.10.19:test - omitted for duplicate)
+|  +- org.hamcrest:hamcrest-core:jar:1.3:test
+|  +- org.hamcrest:hamcrest-library:jar:1.3:test
+|  |  \- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for duplicate)
+|  +- org.skyscreamer:jsonassert:jar:1.4.0:test
+|  |  \- (com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:test - omitted for duplicate)
+|  +- (org.springframework:spring-core:jar:4.3.11.RELEASE:test - version managed from 4.3.3.RELEASE; omitted for duplicate)
+|  \- (org.springframework:spring-test:jar:4.3.11.RELEASE:test - omitted for duplicate)
++- org.hsqldb:hsqldb:jar:2.3.3:test
++- com.lmax:disruptor:jar:3.3.6:test
++- org.springframework:spring-orm:jar:4.3.11.RELEASE:test (scope not updated to compile)
+|  +- (org.springframework:spring-beans:jar:4.3.11.RELEASE:compile - scope updated from test; omitted for duplicate)
+|  +- (org.springframework:spring-core:jar:4.3.11.RELEASE:test - version managed from 4.3.3.RELEASE; omitted for duplicate)
+|  +- (org.springframework:spring-jdbc:jar:4.3.11.RELEASE:compile - scope updated from test; omitted for duplicate)
+|  \- (org.springframework:spring-tx:jar:4.3.11.RELEASE:compile - scope updated from test; omitted for duplicate)
++- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.8.8:test
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile - scope updated from test; omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.8:compile - scope updated from test; omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.8:compile - scope updated from test; omitted for duplicate)
++- org.springframework:spring-test:jar:4.3.11.RELEASE:test
+|  \- (org.springframework:spring-core:jar:4.3.11.RELEASE:test - version managed from 4.3.3.RELEASE; omitted for duplicate)
++- junit:junit:jar:4.12:test
+|  \- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for duplicate)
++- org.mockito:mockito-core:jar:1.10.19:test
+|  +- (org.hamcrest:hamcrest-core:jar:1.1:test - omitted for conflict with 1.3)
+|  \- org.objenesis:objenesis:jar:2.1:test
++- org.slf4j:jul-to-slf4j:jar:1.7.21:test (scope not updated to compile)
+|  \- (org.slf4j:slf4j-api:jar:1.7.21:compile - scope updated from test; omitted for duplicate)
++- org.slf4j:slf4j-log4j12:jar:1.7.21:test
+|  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - scope updated from test; omitted for duplicate)
+|  \- (log4j:log4j:jar:1.2.17:test - omitted for duplicate)
++- org.slf4j:jcl-over-slf4j:jar:1.7.21:test (scope not updated to compile)
+|  \- (org.slf4j:slf4j-api:jar:1.7.21:compile - scope updated from test; omitted for duplicate)
++- log4j:log4j:jar:1.2.17:test
++- org.apache.felix:org.apache.felix.framework:jar:5.6.2:test
++- org.ops4j.pax.exam:pax-exam-container-native:jar:4.10.0:test
+|  +- org.ops4j.pax.exam:pax-exam:jar:4.10.0:test
+|  |  +- (org.ops4j.base:ops4j-base-lang:jar:1.5.0:test - omitted for duplicate)
+|  |  +- org.ops4j.base:ops4j-base-store:jar:1.5.0:test
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.5.11:test - omitted for conflict with 1.7.21)
+|  |  |  \- org.ops4j.base:ops4j-base-io:jar:1.5.0:test
+|  |  |     +- (org.ops4j.base:ops4j-base-lang:jar:1.5.0:test - omitted for duplicate)
+|  |  |     \- (org.ops4j.base:ops4j-base-monitors:jar:1.5.0:test - omitted for duplicate)
+|  |  \- (org.ops4j.base:ops4j-base-util-property:jar:1.5.0:test - omitted for duplicate)
+|  +- org.ops4j.pax.exam:pax-exam-spi:jar:4.10.0:test
+|  |  +- (org.ops4j.pax.exam:pax-exam:jar:4.10.0:test - omitted for duplicate)
+|  |  +- org.ops4j.base:ops4j-base-spi:jar:1.5.0:test
+|  |  +- (org.slf4j:slf4j-api:jar:1.6.6:test - omitted for conflict with 1.7.21)
+|  |  \- org.ops4j.pax.tinybundles:tinybundles:jar:2.1.1:test
+|  |     +- (org.ops4j.base:ops4j-base-store:jar:1.5.0:test - omitted for duplicate)
+|  |     \- biz.aQute.bnd:bndlib:jar:2.4.0:test
+|  +- org.ops4j.pax.swissbox:pax-swissbox-core:jar:1.8.2:test
+|  |  +- org.ops4j.pax.swissbox:pax-swissbox-lifecycle:jar:1.8.2:test
+|  |  \- (org.ops4j.base:ops4j-base-lang:jar:1.5.0:test - omitted for duplicate)
+|  +- org.ops4j.pax.swissbox:pax-swissbox-tracker:jar:1.8.2:test
+|  |  +- (org.ops4j.pax.swissbox:pax-swissbox-lifecycle:jar:1.8.2:test - omitted for duplicate)
+|  |  +- (org.ops4j.base:ops4j-base-lang:jar:1.5.0:test - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.5.11:test - omitted for conflict with 1.7.21)
+|  +- org.ops4j.base:ops4j-base-lang:jar:1.5.0:test
+|  +- org.ops4j.base:ops4j-base-net:jar:1.5.0:test
+|  |  +- (org.ops4j.base:ops4j-base-lang:jar:1.5.0:test - omitted for duplicate)
+|  |  \- org.ops4j.base:ops4j-base-monitors:jar:1.5.0:test
+|  +- org.ops4j.pax.url:pax-url-link:jar:2.4.5:test
+|  |  +- (org.ops4j.base:ops4j-base-lang:jar:1.4.0:test - omitted for conflict with 1.5.0)
+|  |  +- (org.ops4j.base:ops4j-base-util-property:jar:1.4.0:test - omitted for conflict with 1.5.0)
+|  |  \- (org.ops4j.pax.url:pax-url-commons:jar:2.4.5:test - omitted for conflict with 2.5.2)
+|  \- org.ops4j.pax.url:pax-url-classpath:jar:2.4.5:test
+|     +- (org.ops4j.base:ops4j-base-lang:jar:1.4.0:test - omitted for conflict with 1.5.0)
+|     +- (org.ops4j.base:ops4j-base-util-property:jar:1.4.0:test - omitted for conflict with 1.5.0)
+|     +- (org.ops4j.pax.swissbox:pax-swissbox-optional-jcl:jar:1.8.2:test - omitted for duplicate)
+|     \- (org.ops4j.pax.url:pax-url-commons:jar:2.4.5:test - omitted for duplicate)
++- org.ops4j.pax.exam:pax-exam-junit4:jar:4.10.0:test
+|  +- (org.ops4j.pax.exam:pax-exam-spi:jar:4.10.0:test - omitted for duplicate)
+|  +- (org.ops4j.base:ops4j-base-lang:jar:1.5.0:test - omitted for duplicate)
+|  \- (junit:junit:jar:4.12:test - omitted for duplicate)
++- org.ops4j.pax.exam:pax-exam-link-mvn:jar:4.10.0:test
+|  +- (org.ops4j.pax.url:pax-url-aether:jar:2.4.5:test - omitted for conflict with 2.5.2)
+|  +- (org.ops4j.pax.url:pax-url-link:jar:2.4.5:test - omitted for duplicate)
+|  \- (org.ops4j.pax.url:pax-url-classpath:jar:2.4.5:test - omitted for duplicate)
++- org.ops4j.pax.url:pax-url-aether:jar:2.5.2:test
+|  +- org.ops4j.pax.url:pax-url-aether-support:jar:2.5.2:test
+|  |  \- org.eclipse.aether:aether-impl:jar:1.0.2.v20150114:test
+|  |     +- org.eclipse.aether:aether-api:jar:1.0.2.v20150114:test
+|  |     +- org.eclipse.aether:aether-spi:jar:1.0.2.v20150114:test
+|  |     |  \- (org.eclipse.aether:aether-api:jar:1.0.2.v20150114:test - omitted for duplicate)
+|  |     \- org.eclipse.aether:aether-util:jar:1.0.2.v20150114:test
+|  |        \- (org.eclipse.aether:aether-api:jar:1.0.2.v20150114:test - omitted for duplicate)
+|  \- (org.slf4j:jcl-over-slf4j:jar:1.6.6:test - omitted for conflict with 1.7.21)
++- org.ops4j.pax.url:pax-url-reference:jar:2.5.2:test
+|  +- (org.ops4j.base:ops4j-base-lang:jar:1.5.0:test - omitted for duplicate)
+|  +- org.ops4j.base:ops4j-base-util-property:jar:1.5.0:test
+|  +- org.ops4j.pax.swissbox:pax-swissbox-optional-jcl:jar:1.8.2:test
+|  \- org.ops4j.pax.url:pax-url-commons:jar:2.5.2:test
+|     +- (org.ops4j.base:ops4j-base-lang:jar:1.5.0:test - omitted for duplicate)
+|     +- org.ops4j.pax.swissbox:pax-swissbox-property:jar:1.8.2:test
+|     |  +- (org.ops4j.base:ops4j-base-lang:jar:1.5.0:test - omitted for duplicate)
+|     |  \- (org.ops4j.base:ops4j-base-util-property:jar:1.5.0:test - omitted for duplicate)
+|     \- (org.slf4j:slf4j-api:jar:1.6.6:test - omitted for conflict with 1.7.21)
++- javax.inject:javax.inject:jar:1:test
++- commons-io:commons-io:jar:1.3.2:test
+\- javax.xml.bind:jaxb-api:jar:2.3.0:test

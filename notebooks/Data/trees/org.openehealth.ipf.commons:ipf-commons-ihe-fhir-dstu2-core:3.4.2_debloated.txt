@@ -1,0 +1,76 @@
+org.openehealth.ipf.commons:ipf-commons-ihe-fhir-dstu2-core:jar:3.4.2
++- ca.uhn.hapi.fhir:hapi-fhir-structures-hl7org-dstu2:jar:3.0.0:compile
+|  +- ca.uhn.hapi.fhir:hapi-fhir-base:jar:3.0.0:compile
+|  |  +- com.google.code.gson:gson:jar:2.8.2:compile (version managed from 2.8.1)
+|  |  +- org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1:compile
+|  |  |  +- javax.xml.stream:stax-api:jar:1.0-2:compile
+|  |  |  \- org.codehaus.woodstox:stax2-api:jar:3.1.4:compile
+|  |  +- org.apache.commons:commons-lang3:jar:3.5:compile (version managed from 3.6)
+|  |  +- commons-codec:commons-codec:jar:1.10:compile
+|  |  +- commons-io:commons-io:jar:2.5:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  |  \- (org.slf4j:jcl-over-slf4j:jar:1.7.25:runtime - scope managed from compile; omitted for duplicate)
+|  +- ca.uhn.hapi.fhir:hapi-fhir-utilities:jar:3.0.0:compile
+|  |  +- (ca.uhn.hapi.fhir:hapi-fhir-base:jar:3.0.0:compile - omitted for duplicate)
+|  |  +- (com.google.code.gson:gson:jar:2.8.2:compile - version managed from 2.8.1; omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.10:compile - omitted for duplicate)
+|  |  \- (commons-io:commons-io:jar:2.5:compile - omitted for duplicate)
+|  +- xpp3:xpp3_min:jar:1.1.4c:compile
+|  \- net.sf.saxon:Saxon-HE:jar:9.7.0-19:compile (version managed from 9.5.1-5)
++- org.openehealth.ipf.commons:ipf-commons-ihe-fhir-core:jar:3.4.2:compile
+|  +- ca.uhn.hapi.fhir:hapi-fhir-server:jar:3.0.0:compile
+|  |  \- (ca.uhn.hapi.fhir:hapi-fhir-base:jar:3.0.0:compile - omitted for duplicate)
+|  +- ca.uhn.hapi.fhir:hapi-fhir-client:jar:3.0.0:compile
+|  |  +- (ca.uhn.hapi.fhir:hapi-fhir-base:jar:3.0.0:compile - omitted for duplicate)
+|  |  +- org.apache.httpcomponents:httpclient:jar:4.5.2:compile (version managed from 4.5.3)
+|  |  |  +- (org.apache.httpcomponents:httpcore:jar:4.4.8:compile - version managed from 4.4.6; omitted for duplicate)
+|  |  |  \- (commons-codec:commons-codec:jar:1.10:compile - version managed from 1.9; omitted for duplicate)
+|  |  \- org.apache.httpcomponents:httpcore:jar:4.4.8:compile
+|  +- ca.uhn.hapi.fhir:hapi-fhir-validation:jar:3.0.0:compile
+|  |  +- (ca.uhn.hapi.fhir:hapi-fhir-base:jar:3.0.0:compile - omitted for duplicate)
+|  |  +- (ca.uhn.hapi.fhir:hapi-fhir-utilities:jar:3.0.0:compile - omitted for duplicate)
+|  |  \- (org.apache.httpcomponents:httpclient:jar:4.5.2:compile - version managed from 4.5.3; omitted for duplicate)
+|  +- org.openehealth.ipf.commons:ipf-commons-ihe-core:jar:3.4.2:compile
+|  |  +- org.openehealth.ipf.oht.atna:ipf-oht-atna-auditor:jar:3.6.0:compile
+|  |  |  +- (org.openehealth.ipf.oht.atna:ipf-oht-atna-nodeauth:jar:3.6.0:compile - omitted for duplicate)
+|  |  |  +- (commons-codec:commons-codec:jar:1.10:compile - version managed from 1.9; omitted for duplicate)
+|  |  |  \- (org.apache.commons:commons-lang3:jar:3.5:compile - version managed from 3.6; omitted for duplicate)
+|  |  +- org.openehealth.ipf.oht.atna:ipf-oht-atna-nodeauth:jar:3.6.0:compile
+|  |  |  +- org.openehealth.ipf.oht.atna:ipf-oht-atna-context:jar:3.6.0:compile
+|  |  |  |  +- org.openehealth.ipf.oht.atna:ipf-oht-util:jar:3.6.0:compile
+|  |  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  |  +- org.codehaus.groovy:groovy:jar:2.4.12:compile
+|  |  +- (org.apache.commons:commons-lang3:jar:3.5:compile - version managed from 3.6; omitted for duplicate)
+|  |  +- (commons-io:commons-io:jar:2.5:compile - omitted for duplicate)
+|  |  +- (org.slf4j:jcl-over-slf4j:jar:1.7.25:runtime - scope managed from compile; omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  +- org.openehealth.ipf.commons:ipf-commons-core:jar:3.4.2:compile
+|  |  +- (commons-io:commons-io:jar:2.5:compile - omitted for duplicate)
+|  |  +- (org.codehaus.groovy:groovy:jar:2.4.12:compile - omitted for duplicate)
+|  |  +- (org.slf4j:jcl-over-slf4j:jar:1.7.25:runtime - scope managed from compile; omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  +- org.openehealth.ipf.commons:ipf-commons-map:jar:3.4.2:compile
+|  |  +- (org.openehealth.ipf.commons:ipf-commons-core:jar:3.4.2:compile - omitted for duplicate)
+|  |  +- (org.slf4j:jcl-over-slf4j:jar:1.7.25:runtime - scope managed from compile; omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  +- javax.servlet:javax.servlet-api:jar:3.1.0:compile
+|  +- (org.slf4j:jcl-over-slf4j:jar:1.7.25:runtime - scope managed from compile; omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.easymock:easymock:jar:3.4:test
+|  \- org.objenesis:objenesis:jar:2.2:test
++- net.java.quickcheck:quickcheck:jar:0.6:test
+|  \- net.java.quickcheck:quickcheck-src-generator:jar:0.6:test
++- org.apache.logging.log4j:log4j-api:jar:2.9.0:test
++- org.apache.logging.log4j:log4j-core:jar:2.9.0:test
+|  \- (org.apache.logging.log4j:log4j-api:jar:2.9.0:test - omitted for duplicate)
++- org.apache.logging.log4j:log4j-slf4j-impl:jar:2.9.0:test
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)
+|  +- (org.apache.logging.log4j:log4j-api:jar:2.9.0:test - omitted for duplicate)
+|  \- (org.apache.logging.log4j:log4j-core:jar:2.9.0:test - omitted for duplicate)
++- org.slf4j:jcl-over-slf4j:jar:1.7.25:runtime
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:runtime - omitted for duplicate)
+\- org.projectlombok:lombok:jar:1.16.18:provided

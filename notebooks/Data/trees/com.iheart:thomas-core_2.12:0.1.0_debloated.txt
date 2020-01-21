@@ -1,0 +1,226 @@
+com.iheart:thomas-core_2.12:jar:0.1.0
++- org.scala-lang:scala-library:jar:2.12.6:compile
++- com.kailuowang:mainecoon-macros_2.12:jar:0.6.4:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
+|  +- com.kailuowang:mainecoon-core_2.12:jar:0.6.4:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
+|  |  \- (org.typelevel:cats-core_2.12:jar:1.1.0:compile - omitted for duplicate)
+|  \- org.scalameta:scalameta_2.12:jar:1.8.0:compile
+|     +- (org.scala-lang:scala-library:jar:2.12.2:compile - omitted for conflict with 2.12.6)
+|     +- org.scalameta:common_2.12:jar:1.8.0:compile
+|     |  +- (org.scala-lang:scala-library:jar:2.12.2:compile - omitted for conflict with 2.12.6)
+|     |  \- com.lihaoyi:sourcecode_2.12:jar:0.1.3:compile
+|     |     \- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.6)
+|     +- org.scalameta:dialects_2.12:jar:1.8.0:compile
+|     |  +- (org.scala-lang:scala-library:jar:2.12.2:compile - omitted for conflict with 2.12.6)
+|     |  \- (org.scalameta:common_2.12:jar:1.8.0:compile - omitted for duplicate)
+|     +- org.scalameta:parsers_2.12:jar:1.8.0:compile
+|     |  +- (org.scala-lang:scala-library:jar:2.12.2:compile - omitted for conflict with 2.12.6)
+|     |  +- (org.scalameta:common_2.12:jar:1.8.0:compile - omitted for duplicate)
+|     |  +- (org.scalameta:dialects_2.12:jar:1.8.0:compile - omitted for duplicate)
+|     |  +- (org.scalameta:inputs_2.12:jar:1.8.0:compile - omitted for duplicate)
+|     |  +- org.scalameta:tokens_2.12:jar:1.8.0:compile
+|     |  |  +- (org.scala-lang:scala-library:jar:2.12.2:compile - omitted for conflict with 2.12.6)
+|     |  |  +- (org.scalameta:common_2.12:jar:1.8.0:compile - omitted for duplicate)
+|     |  |  +- (org.scalameta:dialects_2.12:jar:1.8.0:compile - omitted for duplicate)
+|     |  |  \- (org.scalameta:inputs_2.12:jar:1.8.0:compile - omitted for duplicate)
+|     |  +- (org.scalameta:tokenizers_2.12:jar:1.8.0:compile - omitted for duplicate)
+|     |  \- (org.scalameta:trees_2.12:jar:1.8.0:compile - omitted for duplicate)
+|     +- org.scalameta:quasiquotes_2.12:jar:1.8.0:compile
+|     |  +- (org.scala-lang:scala-library:jar:2.12.2:compile - omitted for conflict with 2.12.6)
+|     |  +- (org.scalameta:common_2.12:jar:1.8.0:compile - omitted for duplicate)
+|     |  +- (org.scalameta:dialects_2.12:jar:1.8.0:compile - omitted for duplicate)
+|     |  +- (org.scalameta:inputs_2.12:jar:1.8.0:compile - omitted for duplicate)
+|     |  +- (org.scalameta:trees_2.12:jar:1.8.0:compile - omitted for duplicate)
+|     |  \- (org.scalameta:parsers_2.12:jar:1.8.0:compile - omitted for duplicate)
+|     +- org.scalameta:tokenizers_2.12:jar:1.8.0:compile
+|     |  +- (org.scala-lang:scala-library:jar:2.12.2:compile - omitted for conflict with 2.12.6)
+|     |  +- (org.scalameta:common_2.12:jar:1.8.0:compile - omitted for duplicate)
+|     |  +- (org.scalameta:dialects_2.12:jar:1.8.0:compile - omitted for duplicate)
+|     |  +- (org.scalameta:inputs_2.12:jar:1.8.0:compile - omitted for duplicate)
+|     |  +- (org.scalameta:tokens_2.12:jar:1.8.0:compile - omitted for duplicate)
+|     |  \- com.lihaoyi:fastparse_2.12:jar:0.4.3:compile
+|     |     +- (org.scala-lang:scala-library:jar:2.12.2:compile - omitted for conflict with 2.12.6)
+|     |     +- com.lihaoyi:fastparse-utils_2.12:jar:0.4.3:compile
+|     |     |  +- (org.scala-lang:scala-library:jar:2.12.2:compile - omitted for conflict with 2.12.6)
+|     |     |  \- (com.lihaoyi:sourcecode_2.12:jar:0.1.3:compile - omitted for duplicate)
+|     |     \- (com.lihaoyi:sourcecode_2.12:jar:0.1.3:compile - omitted for duplicate)
+|     +- org.scalameta:transversers_2.12:jar:1.8.0:compile
+|     |  +- (org.scala-lang:scala-library:jar:2.12.2:compile - omitted for conflict with 2.12.6)
+|     |  +- (org.scalameta:common_2.12:jar:1.8.0:compile - omitted for duplicate)
+|     |  \- (org.scalameta:trees_2.12:jar:1.8.0:compile - omitted for duplicate)
+|     +- org.scalameta:trees_2.12:jar:1.8.0:compile
+|     |  +- (org.scala-lang:scala-library:jar:2.12.2:compile - omitted for conflict with 2.12.6)
+|     |  +- (org.scalameta:common_2.12:jar:1.8.0:compile - omitted for duplicate)
+|     |  +- (org.scalameta:dialects_2.12:jar:1.8.0:compile - omitted for duplicate)
+|     |  +- (org.scalameta:inputs_2.12:jar:1.8.0:compile - omitted for duplicate)
+|     |  +- (org.scalameta:tokens_2.12:jar:1.8.0:compile - omitted for duplicate)
+|     |  \- (org.scalameta:tokenizers_2.12:jar:1.8.0:compile - omitted for duplicate)
+|     +- org.scalameta:inline_2.12:jar:1.8.0:compile
+|     |  +- (org.scala-lang:scala-library:jar:2.12.2:compile - omitted for conflict with 2.12.6)
+|     |  \- (org.scalameta:inputs_2.12:jar:1.8.0:compile - omitted for duplicate)
+|     +- org.scalameta:inputs_2.12:jar:1.8.0:compile
+|     |  +- (org.scala-lang:scala-library:jar:2.12.2:compile - omitted for conflict with 2.12.6)
+|     |  +- (org.scalameta:common_2.12:jar:1.8.0:compile - omitted for duplicate)
+|     |  \- (org.scalameta:io_2.12:jar:1.8.0:compile - omitted for duplicate)
+|     +- org.scalameta:io_2.12:jar:1.8.0:compile
+|     |  +- (org.scala-lang:scala-library:jar:2.12.2:compile - omitted for conflict with 2.12.6)
+|     |  \- (org.scalameta:common_2.12:jar:1.8.0:compile - omitted for duplicate)
+|     \- org.scalameta:semantic_2.12:jar:1.8.0:compile
+|        +- (org.scala-lang:scala-library:jar:2.12.2:compile - omitted for conflict with 2.12.6)
+|        +- (org.scalameta:common_2.12:jar:1.8.0:compile - omitted for duplicate)
+|        +- (org.scalameta:parsers_2.12:jar:1.8.0:compile - omitted for duplicate)
+|        +- (org.scalameta:trees_2.12:jar:1.8.0:compile - omitted for duplicate)
+|        \- com.trueaccord.scalapb:scalapb-runtime_2.12:jar:0.6.0-pre2:compile
+|           +- (org.scala-lang:scala-library:jar:2.12.1:compile - omitted for conflict with 2.12.6)
+|           +- com.trueaccord.lenses:lenses_2.12:jar:0.4.10:compile
+|           |  \- (org.scala-lang:scala-library:jar:2.12.1:compile - omitted for conflict with 2.12.6)
+|           +- (com.lihaoyi:fastparse_2.12:jar:0.4.2:compile - omitted for conflict with 0.4.3)
+|           \- com.google.protobuf:protobuf-java:jar:3.2.0:compile
++- com.kailuowang:henkan-convert_2.12:jar:0.6.2:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.6)
+|  \- com.chuusai:shapeless_2.12:jar:2.3.3:compile
+|     +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.6)
+|     \- (org.typelevel:macro-compat_2.12:jar:1.1.1:compile - omitted for duplicate)
++- com.iheart:lihua-mongo_2.12:jar:0.11.2:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
+|  +- (com.kailuowang:mainecoon-macros_2.12:jar:0.6.3:compile - omitted for conflict with 0.6.4)
+|  +- (org.typelevel:cats-core_2.12:jar:1.1.0:compile - omitted for duplicate)
+|  +- org.typelevel:cats-effect_2.12:jar:1.0.0-RC2:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.6)
+|  |  \- (org.typelevel:cats-core_2.12:jar:1.1.0:compile - omitted for duplicate)
+|  +- org.reactivemongo:reactivemongo_2.12:jar:0.13.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.6)
+|  |  +- org.reactivemongo:reactivemongo-bson-macros_2.12:jar:0.13.0:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.6)
+|  |  |  \- org.reactivemongo:reactivemongo-bson_2.12:jar:0.13.0:compile
+|  |  |     \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.6)
+|  |  +- org.reactivemongo:reactivemongo-shaded:jar:0.13.0:compile
+|  |  +- com.typesafe.akka:akka-actor_2.12:jar:2.5.6:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.12.3:compile - omitted for conflict with 2.12.6)
+|  |  |  +- (com.typesafe:config:jar:1.3.1:compile - omitted for conflict with 1.3.2)
+|  |  |  \- org.scala-lang.modules:scala-java8-compat_2.12:jar:0.8.0:compile
+|  |  |     \- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.6)
+|  |  +- com.typesafe.play:play-iteratees_2.12:jar:2.6.1:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.12.1:compile - omitted for conflict with 2.12.6)
+|  |  |  \- org.scala-stm:scala-stm_2.12:jar:0.8:compile
+|  |  |     \- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.6)
+|  |  +- commons-codec:commons-codec:jar:1.10:compile
+|  |  \- org.apache.logging.log4j:log4j-api:jar:2.5:compile
+|  +- org.reactivemongo:reactivemongo-play-json_2.12:jar:0.13.0-play26:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.6)
+|  +- org.reactivemongo:reactivemongo-iteratees_2.12:jar:0.13.0:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.6)
+|  +- com.iheart:ficus_2.12:jar:1.4.3:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.3:compile - omitted for conflict with 2.12.6)
+|  |  +- com.typesafe:config:jar:1.3.2:compile
+|  |  \- (org.typelevel:macro-compat_2.12:jar:1.1.1:compile - omitted for duplicate)
+|  +- com.github.cb372:scalacache-caffeine_2.12:jar:0.22.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.6)
+|  |  +- com.github.cb372:scalacache-core_2.12:jar:0.22.0:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.6)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  |  |  \- (org.scala-lang:scala-reflect:jar:2.12.4:compile - omitted for conflict with 2.12.0)
+|  |  +- org.slf4j:slf4j-api:jar:1.7.25:compile
+|  |  \- com.github.ben-manes.caffeine:caffeine:jar:2.6.0:compile
+|  +- com.typesafe.play:play-json_2.12:jar:2.6.2:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.2:compile - omitted for conflict with 2.12.6)
+|  |  +- com.typesafe.play:play-functional_2.12:jar:2.6.2:compile
+|  |  |  \- (org.scala-lang:scala-library:jar:2.12.2:compile - omitted for conflict with 2.12.6)
+|  |  +- (org.scala-lang:scala-reflect:jar:2.12.0:compile - omitted for conflict with 2.12.4)
+|  |  +- (org.typelevel:macro-compat_2.12:jar:1.1.1:compile - omitted for duplicate)
+|  |  +- joda-time:joda-time:jar:2.9.9:compile
+|  |  +- com.fasterxml.jackson.core:jackson-core:jar:2.8.9:compile
+|  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.9:compile
+|  |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.8.9:compile
+|  |  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile - omitted for conflict with 2.8.9)
+|  |  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.8.9:compile - omitted for duplicate)
+|  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.8.9:compile
+|  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.9:compile - omitted for duplicate)
+|  |  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.9:compile - omitted for duplicate)
+|  |  \- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.8.9:compile
+|  |     +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile - omitted for conflict with 2.8.9)
+|  |     +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.9:compile - omitted for duplicate)
+|  |     \- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.9:compile - omitted for duplicate)
+|  +- org.log4s:log4s_2.12:jar:1.3.4:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.1:compile - omitted for conflict with 2.12.6)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for conflict with 1.7.25)
+|  \- com.google.code.findbugs:jsr305:jar:3.0.0:compile
++- com.iheart:lihua-crypt_2.12:jar:0.11.2:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
+|  +- (com.iheart:lihua-mongo_2.12:jar:0.11.2:compile - omitted for duplicate)
+|  +- (com.kailuowang:mainecoon-macros_2.12:jar:0.6.3:compile - omitted for conflict with 0.6.4)
+|  +- (org.typelevel:cats-core_2.12:jar:1.1.0:compile - omitted for duplicate)
+|  \- io.github.jmcardon:tsec-cipher-jca_2.12:jar:0.0.1-M11:compile
+|     +- (org.scala-lang:scala-library:jar:2.12.5:compile - omitted for conflict with 2.12.6)
+|     +- io.github.jmcardon:tsec-common_2.12:jar:0.0.1-M11:compile
+|     |  +- (org.scala-lang:scala-library:jar:2.12.5:compile - omitted for conflict with 2.12.6)
+|     |  +- (org.typelevel:cats-core_2.12:jar:1.1.0:compile - omitted for duplicate)
+|     |  +- (commons-codec:commons-codec:jar:1.11:compile - omitted for conflict with 1.10)
+|     |  \- (co.fs2:fs2-io_2.12:jar:0.10.3:compile - omitted for duplicate)
+|     +- io.github.jmcardon:tsec-cipher-core_2.12:jar:0.0.1-M11:compile
+|     |  +- (org.scala-lang:scala-library:jar:2.12.5:compile - omitted for conflict with 2.12.6)
+|     |  +- (io.github.jmcardon:tsec-common_2.12:jar:0.0.1-M11:compile - omitted for duplicate)
+|     |  +- (org.typelevel:cats-core_2.12:jar:1.1.0:compile - omitted for duplicate)
+|     |  +- (commons-codec:commons-codec:jar:1.11:compile - omitted for conflict with 1.10)
+|     |  \- (co.fs2:fs2-io_2.12:jar:0.10.3:compile - omitted for duplicate)
+|     +- (org.typelevel:cats-core_2.12:jar:1.1.0:compile - omitted for duplicate)
+|     +- (commons-codec:commons-codec:jar:1.11:compile - omitted for conflict with 1.10)
+|     \- co.fs2:fs2-io_2.12:jar:0.10.3:compile
+|        +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.6)
+|        \- co.fs2:fs2-core_2.12:jar:0.10.3:compile
+|           +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.6)
+|           +- (org.typelevel:cats-effect_2.12:jar:0.10:compile - omitted for conflict with 1.0.0-RC2)
+|           \- (org.typelevel:cats-core_2.12:jar:1.1.0:compile - omitted for duplicate)
++- org.typelevel:mouse_2.12:jar:0.16:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.6)
+|  \- (org.typelevel:cats-core_2.12:jar:1.0.1:compile - omitted for conflict with 1.1.0)
++- org.scalacheck:scalacheck_2.12:jar:1.13.4:test (scope not updated to compile)
+|  +- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.6)
+|  \- org.scala-sbt:test-interface:jar:1.0:test
++- org.scalatest:scalatest_2.12:jar:3.0.1:test
+|  +- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.6)
+|  +- org.scalactic:scalactic_2.12:jar:3.0.1:test
+|  |  +- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.6)
+|  |  \- (org.scala-lang:scala-reflect:jar:2.12.0:test - omitted for conflict with 2.12.0)
+|  +- (org.scala-lang:scala-reflect:jar:2.12.0:compile - scope updated from test; omitted for duplicate)
+|  +- org.scala-lang.modules:scala-xml_2.12:jar:1.0.5:test
+|  |  \- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.6)
+|  \- org.scala-lang.modules:scala-parser-combinators_2.12:jar:1.0.4:test
+|     \- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.6)
++- org.typelevel:cats-core_2.12:jar:1.1.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.6)
+|  +- org.typelevel:cats-macros_2.12:jar:1.1.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.6)
+|  |  \- (org.typelevel:machinist_2.12:jar:0.6.2:compile - omitted for duplicate)
+|  +- org.typelevel:cats-kernel_2.12:jar:1.1.0:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.6)
+|  \- org.typelevel:machinist_2.12:jar:0.6.2:compile
+|     +- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.6)
+|     \- (org.scala-lang:scala-reflect:jar:2.12.0:compile - omitted for duplicate)
++- org.typelevel:cats-mtl-core_2.12:jar:0.3.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.6)
+|  +- com.github.mpilquist:simulacrum_2.12:jar:0.12.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.6)
+|  |  \- (org.typelevel:macro-compat_2.12:jar:1.1.1:compile - omitted for duplicate)
+|  +- (org.typelevel:machinist_2.12:jar:0.6.4:compile - omitted for conflict with 0.6.2)
+|  +- (org.typelevel:cats-core_2.12:jar:1.1.0:compile - omitted for duplicate)
+|  \- (org.scalacheck:scalacheck_2.12:jar:1.13.5:compile - omitted for conflict with 1.13.4)
++- com.github.julien-truffaut:monocle-macro_2.12:jar:1.5.0-cats:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.6)
+|  +- (com.github.julien-truffaut:monocle-core_2.12:jar:1.5.0-cats:compile - omitted for duplicate)
+|  +- org.scala-lang:scala-reflect:jar:2.12.4:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.6)
+|  \- org.typelevel:macro-compat_2.12:jar:1.1.1:compile
+|     \- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.6)
+\- com.github.julien-truffaut:monocle-core_2.12:jar:1.5.0-cats:compile
+   +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.6)
+   +- (org.typelevel:cats-core_2.12:jar:1.0.1:compile - omitted for conflict with 1.1.0)
+   +- org.typelevel:cats-free_2.12:jar:1.0.1:compile
+   |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.6)
+   |  +- (org.typelevel:cats-macros_2.12:jar:1.0.1:compile - omitted for conflict with 1.1.0)
+   |  +- (org.typelevel:cats-core_2.12:jar:1.0.1:compile - omitted for conflict with 1.1.0)
+   |  \- (org.typelevel:machinist_2.12:jar:0.6.2:compile - omitted for duplicate)
+   \- com.github.julien-truffaut:newts-core_2.12:jar:0.3.0:compile
+      +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.6)
+      \- (org.typelevel:cats-core_2.12:jar:1.0.0:compile - omitted for conflict with 1.1.0)

@@ -1,0 +1,42 @@
+com.att.cdp:cdp-pal-common:jar:1.1.25.9-oss
++- org.apache.commons:commons-lang3:jar:3.0:compile
++- commons-net:commons-net:jar:3.5:compile
++- com.att.eelf:eelf-core:jar:0.0.1:compile
+|  +- (ch.qos.logback:logback-core:jar:1.1.3:compile - omitted for duplicate)
+|  +- (ch.qos.logback:logback-classic:jar:1.1.3:compile - omitted for duplicate)
+|  +- org.mockito:mockito-core:jar:1.10.19:compile
+|  |  +- (org.hamcrest:hamcrest-core:jar:1.1:compile - scope updated from runtime; omitted for duplicate)
+|  |  \- (org.objenesis:objenesis:jar:2.1:compile - scope updated from runtime; omitted for duplicate)
+|  +- org.powermock:powermock-module-junit4:jar:1.6.4:compile
+|  |  +- (junit:junit:jar:4.12-beta-3:compile - version managed from 4.4; omitted for duplicate)
+|  |  \- org.powermock:powermock-module-junit4-common:jar:1.6.4:compile
+|  |     +- (junit:junit:jar:4.12-beta-3:compile - version managed from 4.4; omitted for duplicate)
+|  |     +- org.powermock:powermock-core:jar:1.6.4:compile
+|  |     |  +- (org.powermock:powermock-reflect:jar:1.6.4:compile - omitted for duplicate)
+|  |     |  \- org.javassist:javassist:jar:3.20.0-GA:compile
+|  |     \- org.powermock:powermock-reflect:jar:1.6.4:compile
+|  |        \- org.objenesis:objenesis:jar:2.1:compile
+|  \- org.powermock:powermock-api-mockito:jar:1.6.4:compile
+|     +- (org.mockito:mockito-core:jar:1.10.19:compile - omitted for duplicate)
+|     +- (org.hamcrest:hamcrest-core:jar:1.3:compile - omitted for duplicate)
+|     \- org.powermock:powermock-api-support:jar:1.6.4:compile
+|        +- (org.powermock:powermock-core:jar:1.6.4:compile - omitted for duplicate)
+|        \- (org.powermock:powermock-reflect:jar:1.6.4:compile - omitted for duplicate)
++- org.slf4j:slf4j-api:jar:1.7.13:compile
++- ch.qos.logback:logback-core:jar:1.1.3:compile
++- ch.qos.logback:logback-classic:jar:1.1.3:compile
+|  +- (ch.qos.logback:logback-core:jar:1.1.3:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.13:compile - version managed from 1.7.7; omitted for duplicate)
++- com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:jar:2.8.8:compile
+|  +- com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:jar:2.8.8:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.8:compile - omitted for duplicate)
+|  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.8:compile - omitted for duplicate)
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.8.8:compile
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.8.8:compile
+|  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile
+|  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.8.8:compile - omitted for duplicate)
+|  \- com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.8.8:compile
+|     +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.8:compile - omitted for duplicate)
+|     +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile - omitted for duplicate)
+|     \- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.8:compile - omitted for duplicate)
+\- com.jcraft:jsch:jar:0.1.51:compile

@@ -1,0 +1,7 @@
+com.despegar:http-java-native-client:jar:1.0.4
++- org.slf4j:slf4j-api:jar:1.7.21:compile
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.slf4j:slf4j-simple:jar:1.7.21:test
+|  \- (org.slf4j:slf4j-api:jar:1.7.21:test - omitted for duplicate)
+\- org.nanohttpd:nanohttpd:jar:2.3.0:test

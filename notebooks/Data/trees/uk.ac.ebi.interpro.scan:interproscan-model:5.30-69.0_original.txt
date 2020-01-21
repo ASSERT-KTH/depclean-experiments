@@ -1,0 +1,95 @@
+uk.ac.ebi.interpro.scan:interproscan-model:jar:5.30-69.0
++- javax.xml.bind:jaxb-api:jar:2.2.12:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.8.6:compile
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile
+|  \- com.fasterxml.jackson.core:jackson-core:jar:2.8.6:compile
++- commons-lang:commons-lang:jar:2.6:compile
++- org.hibernate:hibernate-entitymanager:jar:5.0.3.Final:compile
+|  +- org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile
+|  +- org.hibernate:hibernate-core:jar:5.0.3.Final:compile
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile - omitted for duplicate)
+|  |  +- (org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final:compile - omitted for duplicate)
+|  |  +- (org.javassist:javassist:jar:3.18.1-GA:compile - omitted for duplicate)
+|  |  +- antlr:antlr:jar:2.7.7:compile
+|  |  +- org.jboss:jandex:jar:2.0.0.CR1:compile
+|  |  +- (org.apache.geronimo.specs:geronimo-jta_1.1_spec:jar:1.1.1:compile - omitted for duplicate)
+|  |  +- (dom4j:dom4j:jar:1.6.1:compile - omitted for duplicate)
+|  |  \- (org.hibernate.common:hibernate-commons-annotations:jar:5.0.0.Final:compile - omitted for duplicate)
+|  +- dom4j:dom4j:jar:1.6.1:compile
+|  |  \- xml-apis:xml-apis:jar:1.0.b2:compile
+|  +- org.hibernate.common:hibernate-commons-annotations:jar:5.0.0.Final:compile
+|  |  \- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile - omitted for duplicate)
+|  +- org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final:compile
+|  +- org.apache.geronimo.specs:geronimo-jta_1.1_spec:jar:1.1.1:compile
+|  \- org.javassist:javassist:jar:3.18.1-GA:compile
++- org.hibernate:hibernate-c3p0:jar:5.0.3.Final:compile
+|  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile - omitted for duplicate)
+|  +- (org.hibernate:hibernate-core:jar:5.0.3.Final:compile - omitted for duplicate)
+|  \- com.mchange:c3p0:jar:0.9.2.1:compile
+|     \- com.mchange:mchange-commons-java:jar:0.2.3.4:compile
++- c3p0:c3p0:jar:0.9.1.2:compile
++- xmlunit:xmlunit:jar:1.3:test
++- org.springframework:spring-oxm:jar:4.2.2.RELEASE:test
+|  +- (org.springframework:spring-beans:jar:4.2.2.RELEASE:compile - scope updated from test; omitted for duplicate)
+|  \- (org.springframework:spring-core:jar:4.2.2.RELEASE:compile - scope updated from test; omitted for duplicate)
++- org.codehaus.groovy:groovy:jar:2.4.5:test
++- uk.ac.ebi.interpro.scan:generic-jpa-dao:jar:5.30-69.0:test
+|  +- uk.ac.ebi.interpro.scan:interproscan-util:jar:5.30-69.0:test
+|  |  +- (log4j:log4j:jar:1.2.14:test - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-log4j12:jar:1.7.13:test - omitted for duplicate)
+|  |  +- (commons-logging:commons-logging:jar:1.1.1:test - omitted for conflict with 1.2)
+|  |  +- (org.springframework:spring-jdbc:jar:4.2.2.RELEASE:test - omitted for duplicate)
+|  |  +- (org.springframework:spring-context:jar:4.2.2.RELEASE:test - omitted for duplicate)
+|  |  +- (org.springframework:spring-core:jar:4.2.2.RELEASE:test - omitted for duplicate)
+|  |  +- (org.springframework:spring-orm:jar:4.2.2.RELEASE:test - omitted for duplicate)
+|  |  +- (org.springframework:spring-test:jar:4.2.2.RELEASE:test - omitted for duplicate)
+|  |  +- (commons-io:commons-io:jar:2.1:test - omitted for duplicate)
+|  |  \- (joda-time:joda-time:jar:2.1:test - omitted for duplicate)
+|  +- (org.hibernate:hibernate-entitymanager:jar:5.0.3.Final:test - omitted for duplicate)
+|  +- (org.hibernate:hibernate-c3p0:jar:5.0.3.Final:test - omitted for duplicate)
+|  +- (c3p0:c3p0:jar:0.9.1.2:test - omitted for duplicate)
+|  +- (log4j:log4j:jar:1.2.14:test - omitted for duplicate)
+|  +- (org.slf4j:slf4j-log4j12:jar:1.7.13:test - omitted for duplicate)
+|  +- (commons-logging:commons-logging:jar:1.1.1:test - omitted for duplicate)
+|  +- (org.springframework:spring-jdbc:jar:4.2.2.RELEASE:test - omitted for duplicate)
+|  +- (org.springframework:spring-context:jar:4.2.2.RELEASE:test - omitted for duplicate)
+|  +- (org.springframework:spring-core:jar:4.2.2.RELEASE:test - omitted for duplicate)
+|  +- (org.springframework:spring-orm:jar:4.2.2.RELEASE:test - omitted for duplicate)
+|  +- (org.springframework:spring-test:jar:4.2.2.RELEASE:test - omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.1:test - omitted for duplicate)
+|  \- (joda-time:joda-time:jar:2.1:test - omitted for duplicate)
++- hsqldb:hsqldb:jar:1.8.0.10:test
++- log4j:log4j:jar:1.2.14:compile
++- org.slf4j:slf4j-log4j12:jar:1.7.13:compile
+|  +- org.slf4j:slf4j-api:jar:1.7.13:compile
+|  \- (log4j:log4j:jar:1.2.17:compile - omitted for conflict with 1.2.14)
++- commons-logging:commons-logging:jar:1.1.1:compile
++- org.springframework:spring-jdbc:jar:4.2.2.RELEASE:compile
+|  +- org.springframework:spring-beans:jar:4.2.2.RELEASE:compile
+|  |  \- (org.springframework:spring-core:jar:4.2.2.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-core:jar:4.2.2.RELEASE:compile - omitted for duplicate)
+|  \- org.springframework:spring-tx:jar:4.2.2.RELEASE:compile
+|     +- (org.springframework:spring-beans:jar:4.2.2.RELEASE:compile - omitted for duplicate)
+|     \- (org.springframework:spring-core:jar:4.2.2.RELEASE:compile - omitted for duplicate)
++- org.springframework:spring-context:jar:4.2.2.RELEASE:compile
+|  +- org.springframework:spring-aop:jar:4.2.2.RELEASE:compile
+|  |  +- aopalliance:aopalliance:jar:1.0:compile
+|  |  +- (org.springframework:spring-beans:jar:4.2.2.RELEASE:compile - omitted for duplicate)
+|  |  \- (org.springframework:spring-core:jar:4.2.2.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-beans:jar:4.2.2.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-core:jar:4.2.2.RELEASE:compile - omitted for duplicate)
+|  \- org.springframework:spring-expression:jar:4.2.2.RELEASE:compile
+|     \- (org.springframework:spring-core:jar:4.2.2.RELEASE:compile - omitted for duplicate)
++- org.springframework:spring-core:jar:4.2.2.RELEASE:compile
+|  \- (commons-logging:commons-logging:jar:1.2:compile - omitted for conflict with 1.1.1)
++- org.springframework:spring-orm:jar:4.2.2.RELEASE:compile
+|  +- (org.springframework:spring-beans:jar:4.2.2.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-core:jar:4.2.2.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-jdbc:jar:4.2.2.RELEASE:compile - omitted for duplicate)
+|  \- (org.springframework:spring-tx:jar:4.2.2.RELEASE:compile - omitted for duplicate)
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.springframework:spring-test:jar:4.2.2.RELEASE:compile
+|  \- (org.springframework:spring-core:jar:4.2.2.RELEASE:compile - omitted for duplicate)
++- commons-io:commons-io:jar:2.1:compile
+\- joda-time:joda-time:jar:2.1:compile

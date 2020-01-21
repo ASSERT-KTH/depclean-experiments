@@ -1,0 +1,6 @@
+com.distelli.monitor:task-monitor-api:jar:9.14.0
+\- com.distelli.persistence:persistence-api:jar:3.5.1:compile
+   +- (javax.persistence:persistence-api:jar:1.0:compile - omitted for duplicate)
+   +- com.distelli.persistence:cred-api:jar:3.5.1:compile
+   \- com.distelli.persistence:crypto-api:jar:3.5.1:compile
+      \- (com.distelli.persistence:cred-api:jar:3.5.1:compile - omitted for duplicate)

@@ -1,0 +1,48 @@
+org.apache.activemq:artemis-core-client:jar:2.5.0
++- org.jboss.logging:jboss-logging-processor:jar:2.1.0.Final:provided
+|  +- (org.jboss.logging:jboss-logging-annotations:jar:2.1.0.Final:provided - omitted for duplicate)
+|  \- org.jboss.jdeparser:jdeparser:jar:2.0.2.Final:provided
++- org.jboss.logging:jboss-logging-annotations:jar:2.1.0.Final:provided
++- org.jboss.logging:jboss-logging:jar:3.3.1.Final:provided (scope not updated to compile)
++- org.jboss.logmanager:jboss-logmanager:jar:2.0.3.Final:provided
++- org.jgroups:jgroups:jar:3.6.13.Final:compile
++- org.apache.activemq:artemis-commons:jar:2.5.0:compile
+|  +- (org.jboss.logging:jboss-logging:jar:3.3.1.Final:compile - omitted for duplicate)
+|  +- (io.netty:netty-buffer:jar:4.1.22.Final:compile - omitted for duplicate)
+|  +- (io.netty:netty-transport:jar:4.1.22.Final:compile - omitted for duplicate)
+|  +- (io.netty:netty-handler:jar:4.1.22.Final:compile - omitted for duplicate)
+|  +- commons-beanutils:commons-beanutils:jar:1.9.3:compile
+|  |  +- commons-logging:commons-logging:jar:1.2:compile
+|  |  \- commons-collections:commons-collections:jar:3.2.2:compile
+|  \- com.google.guava:guava:jar:19.0:compile
++- junit:junit:jar:4.11:test
+|  \- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for duplicate)
++- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.apache.geronimo.specs:geronimo-json_1.0_spec:jar:1.0-alpha-1:compile
++- io.netty:netty-transport-native-epoll:jar:linux-x86_64:4.1.22.Final:compile
+|  +- (io.netty:netty-common:jar:4.1.22.Final:compile - omitted for duplicate)
+|  +- (io.netty:netty-buffer:jar:4.1.22.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-transport-native-unix-common:jar:4.1.22.Final:compile
+|  |  +- (io.netty:netty-common:jar:4.1.22.Final:compile - omitted for duplicate)
+|  |  \- (io.netty:netty-transport:jar:4.1.22.Final:compile - omitted for duplicate)
+|  \- (io.netty:netty-transport:jar:4.1.22.Final:compile - omitted for duplicate)
++- io.netty:netty-transport-native-kqueue:jar:osx-x86_64:4.1.22.Final:compile
+|  +- (io.netty:netty-common:jar:4.1.22.Final:compile - omitted for duplicate)
+|  +- (io.netty:netty-buffer:jar:4.1.22.Final:compile - omitted for duplicate)
+|  +- (io.netty:netty-transport-native-unix-common:jar:4.1.22.Final:compile - omitted for duplicate)
+|  \- (io.netty:netty-transport:jar:4.1.22.Final:compile - omitted for duplicate)
++- io.netty:netty-codec-http:jar:4.1.22.Final:compile
+|  \- (io.netty:netty-codec:jar:4.1.22.Final:compile - omitted for duplicate)
++- io.netty:netty-buffer:jar:4.1.22.Final:compile
+|  \- (io.netty:netty-common:jar:4.1.22.Final:compile - omitted for duplicate)
++- io.netty:netty-transport:jar:4.1.22.Final:compile
+|  +- (io.netty:netty-buffer:jar:4.1.22.Final:compile - omitted for duplicate)
+|  \- io.netty:netty-resolver:jar:4.1.22.Final:compile
+|     \- (io.netty:netty-common:jar:4.1.22.Final:compile - omitted for duplicate)
++- io.netty:netty-handler:jar:4.1.22.Final:compile
+|  +- (io.netty:netty-buffer:jar:4.1.22.Final:compile - omitted for duplicate)
+|  +- (io.netty:netty-transport:jar:4.1.22.Final:compile - omitted for duplicate)
+|  \- (io.netty:netty-codec:jar:4.1.22.Final:compile - omitted for duplicate)
++- io.netty:netty-codec:jar:4.1.22.Final:compile
+|  \- (io.netty:netty-transport:jar:4.1.22.Final:compile - omitted for duplicate)
+\- io.netty:netty-common:jar:4.1.22.Final:compile

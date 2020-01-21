@@ -1,0 +1,50 @@
+org.jresearch.commons.gwt:org.jresearch.commons.gwt.oauth2:jar:1.0.181
++- javax.ws.rs:javax.ws.rs-api:jar:2.0.1:compile
++- org.fusesource.restygwt:restygwt:jar:2.2.3:compile
+|  \- com.github.nmorel.gwtjackson:gwt-jackson:jar:0.15.0:compile
+|     \- com.squareup:javapoet:jar:1.0.0:compile
++- com.google.inject:guice:jar:3.0:compile
+|  +- javax.inject:javax.inject:jar:1:compile
+|  \- aopalliance:aopalliance:jar:1.0:compile
++- org.jresearch.commons.gwt:org.jresearch.commons.gwt.base:jar:1.0.181:compile
+|  +- org.jresearch.gwt.momentjs:org.jresearch.gwt.momentjs.lib:jar:1.0.17:compile
+|  |  +- com.google.jsinterop:jsinterop-annotations:jar:1.0.2:compile
+|  |  \- (com.google.code.findbugs:jsr305:jar:3.0.2:compile - omitted for duplicate)
+|  +- (javax.ws.rs:javax.ws.rs-api:jar:2.0.1:compile - omitted for duplicate)
+|  +- org.jresearch.commons.gwt:org.jresearch.commons.gwt.base.model:jar:1.0.181:compile
+|  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.4:compile
+|  |  +- (com.google.guava:guava:jar:24.0-jre:compile - omitted for duplicate)
+|  |  \- (com.google.code.findbugs:jsr305:jar:3.0.2:compile - omitted for duplicate)
+|  +- (org.fusesource.restygwt:restygwt:jar:2.2.3:compile - omitted for duplicate)
+|  +- com.googlecode.gwtquery:gwtquery:jar:1.5-beta1:compile
+|  |  \- com.google.gwt:gwt-elemental:jar:2.8.0-beta1:compile
+|  |     \- (com.google.gwt:gwt-user:jar:2.8.0-beta1:compile - omitted for conflict with 2.4.0)
+|  +- (com.google.inject:guice:jar:3.0:compile - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:24.0-jre:compile - omitted for duplicate)
+|  +- (com.google.code.findbugs:jsr305:jar:3.0.2:compile - omitted for duplicate)
+|  \- (com.google.gwt.inject:gin:jar:2.1.2:compile - omitted for duplicate)
++- org.jresearch.commons.gwt:org.jresearch.commons.gwt.oauth2.shared:jar:1.0.181:compile
+|  +- (org.jresearch.commons.gwt:org.jresearch.commons.gwt.base.model:jar:1.0.181:compile - omitted for duplicate)
+|  \- (com.google.code.findbugs:jsr305:jar:3.0.2:compile - omitted for duplicate)
++- com.google.api:gwt-oauth2:jar:0.2:compile
+|  +- (com.google.gwt:gwt-user:jar:2.4.0:compile - omitted for conflict with 2.8.2)
+|  \- junit:junit:jar:4.10:compile
+|     \- org.hamcrest:hamcrest-core:jar:1.1:compile
++- com.google.gwt:gwt-user:jar:2.8.2:provided (scope not updated to compile)
+|  +- (com.google.jsinterop:jsinterop-annotations:jar:1.0.2:compile - scope updated from provided; omitted for duplicate)
+|  +- com.google.jsinterop:jsinterop-annotations:jar:sources:1.0.2:provided
+|  +- javax.validation:validation-api:jar:1.0.0.GA:provided
+|  +- javax.validation:validation-api:jar:sources:1.0.0.GA:provided
+|  +- javax.servlet:javax.servlet-api:jar:3.1.0:provided
+|  \- org.w3c.css:sac:jar:1.3:provided
++- com.google.guava:guava:jar:24.0-jre:compile
+|  +- (com.google.code.findbugs:jsr305:jar:1.3.9:compile - omitted for conflict with 3.0.2)
+|  +- org.checkerframework:checker-compat-qual:jar:2.0.0:compile
+|  +- com.google.errorprone:error_prone_annotations:jar:2.1.3:compile
+|  +- com.google.j2objc:j2objc-annotations:jar:1.1:compile
+|  \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:compile
++- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+\- com.google.gwt.inject:gin:jar:2.1.2:compile
+   +- (com.google.inject:guice:jar:3.0:compile - omitted for duplicate)
+   \- com.google.inject.extensions:guice-assistedinject:jar:3.0:compile
+      \- (com.google.inject:guice:jar:3.0:compile - omitted for duplicate)

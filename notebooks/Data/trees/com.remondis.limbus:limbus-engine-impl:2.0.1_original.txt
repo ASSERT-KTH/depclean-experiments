@@ -1,0 +1,207 @@
+com.remondis.limbus:limbus-engine-impl:jar:2.0.1
++- com.remondis.limbus:limbus-engine-api:jar:2.0.1:compile
++- com.remondis.limbus:limbus-engine-interfaces:jar:2.0.1:compile
+|  \- (com.remondis.limbus:limbus-engine-api:jar:2.0.1:compile - omitted for duplicate)
++- com.remondis.limbus:limbus-properties:jar:2.0.1:compile
+|  +- (com.remondis.limbus:limbus-vfs:jar:2.0.1:compile - omitted for duplicate)
+|  \- (com.remondis.limbus:limbus-utils:jar:2.0.1:compile - omitted for duplicate)
++- com.remondis.limbus:limbus-vfs:jar:2.0.1:compile
+|  +- (com.remondis.limbus:limbus-engine-api:jar:2.0.1:compile - omitted for duplicate)
+|  +- (com.remondis.limbus:limbus-utils:jar:2.0.1:compile - omitted for duplicate)
+|  \- commons-io:commons-io:jar:2.5:compile
++- com.remondis.limbus:limbus-system:jar:2.0.1:compile
+|  +- (com.remondis.limbus:limbus-engine-api:jar:2.0.1:compile - omitted for duplicate)
+|  +- (com.remondis.limbus:limbus-event-multicaster:jar:2.0.1:compile - omitted for duplicate)
+|  +- (com.remondis.limbus:limbus-utils:jar:2.0.1:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.20:compile - omitted for duplicate)
++- com.remondis.limbus:limbus-event-multicaster:jar:2.0.1:compile
+|  +- (com.remondis.limbus:limbus-utils:jar:2.0.1:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.20:compile - omitted for duplicate)
++- com.remondis.limbus:limbus-task-scheduler:jar:2.0.1:compile
+|  +- (com.remondis.limbus:limbus-engine-api:jar:2.0.1:compile - omitted for duplicate)
+|  +- (com.remondis.limbus:limbus-properties:jar:2.0.1:compile - omitted for duplicate)
+|  +- (com.remondis.limbus:limbus-system:jar:2.0.1:compile - omitted for duplicate)
+|  +- (com.remondis.limbus:limbus-utils:jar:2.0.1:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.20:compile - omitted for duplicate)
++- com.remondis.limbus:limbus-utils:jar:2.0.1:compile
+|  +- com.thoughtworks.xstream:xstream:jar:1.4.8:compile
+|  |  +- xmlpull:xmlpull:jar:1.1.3.1:compile
+|  |  \- xpp3:xpp3_min:jar:1.1.4c:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.20:compile - omitted for duplicate)
++- com.remondis.limbus:limbus-launcher:jar:2.0.1:compile
+|  +- (com.remondis.limbus:limbus-engine-interfaces:jar:2.0.1:compile - omitted for duplicate)
+|  +- (com.remondis.limbus:limbus-system:jar:2.0.1:compile - omitted for duplicate)
+|  +- (com.remondis.limbus:limbus-utils:jar:2.0.1:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.20:compile - omitted for duplicate)
+|  \- commons-cli:commons-cli:jar:1.3.1:compile
++- com.googlecode.lanterna:lanterna:jar:3.0.0-rc1:compile
++- org.slf4j:slf4j-api:jar:1.7.20:compile
++- org.eclipse.aether:aether-api:jar:1.0.2.v20150114:compile
++- org.eclipse.aether:aether-util:jar:1.0.2.v20150114:compile
+|  \- (org.eclipse.aether:aether-api:jar:1.0.2.v20150114:compile - omitted for duplicate)
++- org.eclipse.aether:aether-impl:jar:1.0.2.v20150114:compile
+|  +- (org.eclipse.aether:aether-api:jar:1.0.2.v20150114:compile - omitted for duplicate)
+|  +- org.eclipse.aether:aether-spi:jar:1.0.2.v20150114:compile
+|  |  \- (org.eclipse.aether:aether-api:jar:1.0.2.v20150114:compile - omitted for duplicate)
+|  \- (org.eclipse.aether:aether-util:jar:1.0.2.v20150114:compile - omitted for duplicate)
++- org.eclipse.aether:aether-connector-basic:jar:1.0.2.v20150114:compile
+|  +- (org.eclipse.aether:aether-api:jar:1.0.2.v20150114:compile - omitted for duplicate)
+|  +- (org.eclipse.aether:aether-spi:jar:1.0.2.v20150114:compile - omitted for duplicate)
+|  \- (org.eclipse.aether:aether-util:jar:1.0.2.v20150114:compile - omitted for duplicate)
++- org.eclipse.aether:aether-transport-file:jar:1.0.2.v20150114:compile
+|  +- (org.eclipse.aether:aether-api:jar:1.0.2.v20150114:compile - omitted for duplicate)
+|  +- (org.eclipse.aether:aether-spi:jar:1.0.2.v20150114:compile - omitted for duplicate)
+|  \- (org.eclipse.aether:aether-util:jar:1.0.2.v20150114:compile - omitted for duplicate)
++- org.eclipse.aether:aether-transport-http:jar:1.0.2.v20150114:compile
+|  +- (org.eclipse.aether:aether-api:jar:1.0.2.v20150114:compile - omitted for duplicate)
+|  +- (org.eclipse.aether:aether-spi:jar:1.0.2.v20150114:compile - omitted for duplicate)
+|  +- (org.eclipse.aether:aether-util:jar:1.0.2.v20150114:compile - omitted for duplicate)
+|  +- org.apache.httpcomponents:httpclient:jar:4.2.6:compile
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.2.5:compile
+|  |  \- commons-codec:commons-codec:jar:1.6:compile
+|  \- org.slf4j:jcl-over-slf4j:jar:1.6.2:compile
+|     \- (org.slf4j:slf4j-api:jar:1.7.20:compile - version managed from 1.6.2; omitted for duplicate)
++- org.eclipse.aether:aether-transport-wagon:jar:1.0.2.v20150114:compile
+|  +- (org.eclipse.aether:aether-api:jar:1.0.2.v20150114:compile - omitted for duplicate)
+|  +- (org.eclipse.aether:aether-spi:jar:1.0.2.v20150114:compile - omitted for duplicate)
+|  +- (org.eclipse.aether:aether-util:jar:1.0.2.v20150114:compile - omitted for duplicate)
+|  \- org.apache.maven.wagon:wagon-provider-api:jar:1.0:compile
+|     \- (org.codehaus.plexus:plexus-utils:jar:1.4.2:compile - omitted for duplicate)
++- org.apache.maven.wagon:wagon-ssh:jar:1.0:compile
+|  +- com.jcraft:jsch:jar:0.1.44-1:compile
+|  +- (org.codehaus.plexus:plexus-utils:jar:1.4.2:compile - omitted for conflict with 3.0.24)
+|  +- org.apache.maven.wagon:wagon-ssh-common:jar:1.0:compile
+|  |  +- (org.codehaus.plexus:plexus-utils:jar:1.4.2:compile - omitted for duplicate)
+|  |  +- org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-6:compile
+|  |  |  \- (org.codehaus.plexus:plexus-utils:jar:1.4:compile - omitted for conflict with 1.4.2)
+|  |  \- (org.apache.maven.wagon:wagon-provider-api:jar:1.0:compile - omitted for duplicate)
+|  \- (org.apache.maven.wagon:wagon-provider-api:jar:1.0:compile - omitted for duplicate)
++- org.apache.maven:maven-settings-builder:jar:3.3.3:compile
+|  +- org.apache.maven:maven-builder-support:jar:3.3.3:compile
+|  |  \- (org.codehaus.plexus:plexus-utils:jar:3.0.20:compile - omitted for conflict with 1.4.2)
+|  +- (org.codehaus.plexus:plexus-utils:jar:3.0.20:compile - omitted for conflict with 1.4.2)
+|  +- org.codehaus.plexus:plexus-interpolation:jar:1.21:compile
+|  +- org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
+|  +- org.apache.maven:maven-settings:jar:3.3.3:compile
+|  |  \- (org.codehaus.plexus:plexus-utils:jar:3.0.20:compile - omitted for conflict with 1.4.2)
+|  \- org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+|     +- (org.codehaus.plexus:plexus-utils:jar:1.5.5:compile - omitted for conflict with 1.4.2)
+|     \- org.sonatype.plexus:plexus-cipher:jar:1.4:compile
++- org.apache.maven:maven-aether-provider:jar:3.3.3:compile
+|  +- org.apache.maven:maven-model:jar:3.3.3:compile
+|  |  \- (org.codehaus.plexus:plexus-utils:jar:3.0.20:compile - omitted for conflict with 1.4.2)
+|  +- org.apache.maven:maven-model-builder:jar:3.3.3:compile
+|  |  +- (org.codehaus.plexus:plexus-utils:jar:3.0.20:compile - omitted for conflict with 1.4.2)
+|  |  +- (org.codehaus.plexus:plexus-interpolation:jar:1.21:compile - omitted for duplicate)
+|  |  +- (org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile - omitted for duplicate)
+|  |  +- (org.apache.maven:maven-model:jar:3.3.3:compile - omitted for duplicate)
+|  |  +- (org.apache.maven:maven-builder-support:jar:3.3.3:compile - omitted for duplicate)
+|  |  \- com.google.guava:guava:jar:18.0:compile
+|  +- org.apache.maven:maven-repository-metadata:jar:3.3.3:compile
+|  |  \- (org.codehaus.plexus:plexus-utils:jar:3.0.20:compile - omitted for conflict with 1.4.2)
+|  +- (org.eclipse.aether:aether-api:jar:1.0.2.v20150114:compile - omitted for duplicate)
+|  +- (org.eclipse.aether:aether-spi:jar:1.0.2.v20150114:compile - omitted for duplicate)
+|  +- (org.eclipse.aether:aether-util:jar:1.0.2.v20150114:compile - omitted for duplicate)
+|  +- (org.eclipse.aether:aether-impl:jar:1.0.2.v20150114:compile - omitted for duplicate)
+|  +- (org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile - omitted for duplicate)
+|  \- (org.codehaus.plexus:plexus-utils:jar:3.0.20:compile - omitted for conflict with 1.4.2)
++- org.codehaus.plexus:plexus-utils:jar:3.0.24:compile
++- org.slf4j:slf4j-log4j12:jar:1.7.20:test
+|  +- (org.slf4j:slf4j-api:jar:1.7.20:test - version managed from 1.6.2; omitted for duplicate)
+|  \- log4j:log4j:jar:1.2.17:test
++- com.remondis.limbus:limbus-staging:jar:2.0.1:test
+|  +- (com.remondis.limbus:limbus-engine-interfaces:jar:2.0.1:test - omitted for duplicate)
+|  +- (com.remondis.limbus:limbus-utils:jar:2.0.1:test - omitted for duplicate)
+|  +- (com.remondis.limbus:limbus-vfs:jar:2.0.1:test - omitted for duplicate)
+|  +- (com.remondis.limbus:limbus-system:jar:2.0.1:test - omitted for duplicate)
+|  +- (com.remondis.limbus:limbus-launcher:jar:2.0.1:test - omitted for duplicate)
+|  +- org.jboss.shrinkwrap:shrinkwrap-depchain:pom:1.2.6:test
+|  |  +- org.jboss.shrinkwrap:shrinkwrap-api:jar:1.2.6:test
+|  |  +- org.jboss.shrinkwrap:shrinkwrap-spi:jar:1.2.6:test
+|  |  |  \- (org.jboss.shrinkwrap:shrinkwrap-api:jar:1.2.6:test - omitted for duplicate)
+|  |  \- org.jboss.shrinkwrap:shrinkwrap-impl-base:jar:1.2.6:test
+|  |     +- (org.jboss.shrinkwrap:shrinkwrap-api:jar:1.2.6:test - omitted for duplicate)
+|  |     \- (org.jboss.shrinkwrap:shrinkwrap-spi:jar:1.2.6:test - omitted for duplicate)
+|  \- org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-depchain:pom:3.0.0-alpha-4:test
+|     +- org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-api:jar:3.0.0-alpha-4:test
+|     +- org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-spi:jar:3.0.0-alpha-4:test
+|     |  \- (org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-api:jar:3.0.0-alpha-4:test - omitted for duplicate)
+|     +- org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-api-maven:jar:3.0.0-alpha-4:test
+|     |  +- (org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-api:jar:3.0.0-alpha-4:test - omitted for duplicate)
+|     |  \- (org.apache.maven:maven-model:jar:3.3.9:test - omitted for conflict with 3.3.3)
+|     +- org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-spi-maven:jar:3.0.0-alpha-4:test
+|     |  +- (org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-api-maven:jar:3.0.0-alpha-4:test - omitted for duplicate)
+|     |  \- (org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-spi:jar:3.0.0-alpha-4:test - omitted for duplicate)
+|     +- org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-api-maven-archive:jar:3.0.0-alpha-4:test
+|     |  +- (org.jboss.shrinkwrap:shrinkwrap-api:jar:1.2.6:test - omitted for duplicate)
+|     |  +- (org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-spi:jar:3.0.0-alpha-4:test - omitted for duplicate)
+|     |  \- (org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-api-maven:jar:3.0.0-alpha-4:test - omitted for duplicate)
+|     +- org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-impl-maven:jar:3.0.0-alpha-4:test
+|     |  +- (org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-api-maven:jar:3.0.0-alpha-4:test - omitted for duplicate)
+|     |  +- (org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-spi-maven:jar:3.0.0-alpha-4:test - omitted for duplicate)
+|     |  +- (org.eclipse.aether:aether-api:jar:1.0.2.v20150114:test - omitted for duplicate)
+|     |  +- (org.eclipse.aether:aether-impl:jar:1.0.2.v20150114:test - omitted for duplicate)
+|     |  +- (org.eclipse.aether:aether-spi:jar:1.0.2.v20150114:test - omitted for duplicate)
+|     |  +- (org.eclipse.aether:aether-util:jar:1.0.2.v20150114:test - omitted for duplicate)
+|     |  +- (org.eclipse.aether:aether-connector-basic:jar:1.0.2.v20150114:test - omitted for duplicate)
+|     |  +- (org.eclipse.aether:aether-transport-wagon:jar:1.0.2.v20150114:test - omitted for duplicate)
+|     |  +- (org.apache.maven:maven-aether-provider:jar:3.3.9:test - omitted for conflict with 3.3.3)
+|     |  +- (org.apache.maven:maven-model:jar:3.3.9:test - omitted for conflict with 3.3.3)
+|     |  +- (org.apache.maven:maven-model-builder:jar:3.3.9:test - omitted for conflict with 3.3.3)
+|     |  +- (org.apache.maven:maven-repository-metadata:jar:3.3.9:test - omitted for conflict with 3.3.3)
+|     |  +- (org.apache.maven:maven-settings:jar:3.3.9:test - omitted for conflict with 3.3.3)
+|     |  +- (org.apache.maven:maven-settings-builder:jar:3.3.9:test - omitted for conflict with 3.3.3)
+|     |  +- (com.google.guava:guava:jar:18.0:test - omitted for duplicate)
+|     |  +- (org.codehaus.plexus:plexus-interpolation:jar:1.21:test - omitted for duplicate)
+|     |  +- (org.codehaus.plexus:plexus-utils:jar:3.0.22:test - omitted for conflict with 3.0.24)
+|     |  +- (org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:test - omitted for duplicate)
+|     |  +- (org.apache.maven.wagon:wagon-provider-api:jar:2.10:test - omitted for conflict with 1.0)
+|     |  +- org.apache.maven.wagon:wagon-file:jar:2.10:test
+|     |  |  +- commons-lang:commons-lang:jar:2.6:test
+|     |  |  \- (org.apache.maven.wagon:wagon-provider-api:jar:2.10:test - omitted for conflict with 1.0)
+|     |  \- org.apache.maven.wagon:wagon-http-lightweight:jar:2.10:test
+|     |     +- org.apache.maven.wagon:wagon-http-shared:jar:2.10:test
+|     |     |  +- org.jsoup:jsoup:jar:1.7.2:test
+|     |     |  +- (commons-lang:commons-lang:jar:2.6:test - omitted for duplicate)
+|     |     |  +- (commons-io:commons-io:jar:2.2:test - omitted for conflict with 2.5)
+|     |     |  \- (org.apache.maven.wagon:wagon-provider-api:jar:2.10:test - omitted for conflict with 1.0)
+|     |     \- (org.apache.maven.wagon:wagon-provider-api:jar:2.10:test - omitted for conflict with 1.0)
+|     +- org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-impl-maven-archive:jar:3.0.0-alpha-4:test
+|     |  +- (org.jboss.shrinkwrap:shrinkwrap-impl-base:jar:1.2.6:test - omitted for duplicate)
+|     |  +- (org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-api-maven:jar:3.0.0-alpha-4:test - omitted for duplicate)
+|     |  +- (org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-api-maven-archive:jar:3.0.0-alpha-4:test - omitted for duplicate)
+|     |  +- org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-spi-maven-archive:jar:3.0.0-alpha-4:test
+|     |  |  +- (org.jboss.shrinkwrap:shrinkwrap-api:jar:1.2.6:test - omitted for duplicate)
+|     |  |  +- (org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-spi:jar:3.0.0-alpha-4:test - omitted for duplicate)
+|     |  |  \- (org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-api-maven:jar:3.0.0-alpha-4:test - omitted for duplicate)
+|     |  +- (org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-impl-maven:jar:3.0.0-alpha-4:test - omitted for duplicate)
+|     |  +- org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.3.2:test
+|     |  |  +- javax.enterprise:cdi-api:jar:1.0:test
+|     |  |  |  +- javax.annotation:jsr250-api:jar:1.0:test
+|     |  |  |  \- javax.inject:javax.inject:jar:1:test
+|     |  |  \- org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.3.2:test
+|     |  +- org.codehaus.plexus:plexus-compiler-javac:jar:2.7:test
+|     |  |  \- org.codehaus.plexus:plexus-compiler-api:jar:2.7:test
+|     |  \- (org.codehaus.plexus:plexus-utils:jar:3.0.22:test - omitted for conflict with 3.0.24)
+|     +- org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-api-maven-embedded:jar:3.0.0-alpha-4:test
+|     |  +- (org.jboss.shrinkwrap:shrinkwrap-api:jar:1.2.6:test - omitted for duplicate)
+|     |  +- (org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-api-maven:jar:3.0.0-alpha-4:test - omitted for duplicate)
+|     |  +- (org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-spi:jar:3.0.0-alpha-4:test - omitted for duplicate)
+|     |  \- org.apache.maven.shared:maven-invoker:jar:2.2:test
+|     |     +- (org.codehaus.plexus:plexus-utils:jar:3.0.20:test - omitted for conflict with 3.0.24)
+|     |     \- (org.codehaus.plexus:plexus-component-annotations:jar:1.6:test - omitted for conflict with 1.5.5)
+|     \- org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-impl-maven-embedded:jar:3.0.0-alpha-4:test
+|        +- (org.jboss.shrinkwrap:shrinkwrap-impl-base:jar:1.2.6:test - omitted for duplicate)
+|        +- (org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-api-maven-embedded:jar:3.0.0-alpha-4:test - omitted for duplicate)
+|        +- (org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-impl-maven:jar:3.0.0-alpha-4:test - omitted for duplicate)
+|        +- (org.apache.maven.shared:maven-invoker:jar:2.2:test - omitted for duplicate)
+|        +- org.arquillian.spacelift:arquillian-spacelift:jar:1.0.0.Alpha8:test
+|        |  +- org.arquillian.spacelift:arquillian-spacelift-api:jar:1.0.0.Alpha8:test
+|        |  \- org.apache.commons:commons-compress:jar:1.8.1:test
+|        \- (commons-codec:commons-codec:jar:1.10:test - omitted for conflict with 1.6)
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
+\- org.mockito:mockito-core:jar:2.7.17:test
+   +- net.bytebuddy:byte-buddy:jar:1.6.11:test
+   +- net.bytebuddy:byte-buddy-agent:jar:1.6.11:test
+   \- org.objenesis:objenesis:jar:2.5:test

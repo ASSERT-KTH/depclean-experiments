@@ -1,0 +1,68 @@
+org.bitbucket.iamkenos:cissnei-commons:jar:1.0.2
++- org.assertj:assertj-core:jar:3.9.1:compile
++- io.cucumber:cucumber-java:jar:2.4.0:compile
+|  \- io.cucumber:cucumber-core:jar:2.4.0:compile
+|     +- info.cukes:cucumber-html:jar:0.2.6:compile
+|     +- io.cucumber:cucumber-jvm-deps:jar:1.0.6:compile
+|     +- io.cucumber:gherkin:jar:5.0.0:compile
+|     \- io.cucumber:tag-expressions:jar:1.1.1:compile
++- io.cucumber:cucumber-junit:jar:2.4.0:compile
+|  +- (io.cucumber:cucumber-core:jar:2.4.0:compile - omitted for duplicate)
+|  \- (junit:junit:jar:4.12:compile - omitted for duplicate)
++- io.rest-assured:rest-assured:jar:3.0.6:compile
+|  +- org.codehaus.groovy:groovy:jar:2.4.12:compile
+|  +- org.codehaus.groovy:groovy-xml:jar:2.4.12:compile
+|  |  \- (org.codehaus.groovy:groovy:jar:2.4.12:compile - omitted for duplicate)
+|  +- org.apache.httpcomponents:httpclient:jar:4.5.3:compile
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.4.6:compile
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  |  \- (commons-codec:commons-codec:jar:1.9:compile - omitted for conflict with 1.10)
+|  +- org.apache.httpcomponents:httpmime:jar:4.5.1:compile
+|  |  \- (org.apache.httpcomponents:httpclient:jar:4.5.1:compile - omitted for conflict with 4.5.3)
+|  +- (org.hamcrest:hamcrest-core:jar:1.3:compile - omitted for duplicate)
+|  +- org.hamcrest:hamcrest-library:jar:1.3:compile
+|  |  \- (org.hamcrest:hamcrest-core:jar:1.3:compile - omitted for duplicate)
+|  +- org.ccil.cowan.tagsoup:tagsoup:jar:1.2.1:compile
+|  +- io.rest-assured:json-path:jar:3.0.6:compile
+|  |  +- org.codehaus.groovy:groovy-json:jar:2.4.12:compile
+|  |  |  \- (org.codehaus.groovy:groovy:jar:2.4.12:compile - omitted for duplicate)
+|  |  +- (org.codehaus.groovy:groovy:jar:2.4.12:compile - omitted for duplicate)
+|  |  \- io.rest-assured:rest-assured-common:jar:3.0.6:compile
+|  |     +- (org.codehaus.groovy:groovy:jar:2.4.12:compile - omitted for duplicate)
+|  |     \- (org.apache.commons:commons-lang3:jar:3.6:compile - version managed from 3.4; omitted for duplicate)
+|  \- io.rest-assured:xml-path:jar:3.0.6:compile
+|     +- (org.codehaus.groovy:groovy-xml:jar:2.4.12:compile - omitted for duplicate)
+|     +- (org.codehaus.groovy:groovy:jar:2.4.12:compile - omitted for duplicate)
+|     +- (io.rest-assured:rest-assured-common:jar:3.0.6:compile - omitted for duplicate)
+|     +- (org.apache.commons:commons-lang3:jar:3.6:compile - version managed from 3.4; omitted for duplicate)
+|     +- (org.ccil.cowan.tagsoup:tagsoup:jar:1.2.1:compile - omitted for duplicate)
+|     \- javax.xml.bind:jaxb-api:jar:2.2.12:compile
++- com.google.guava:guava:jar:23.0:compile
+|  +- com.google.code.findbugs:jsr305:jar:1.3.9:compile
+|  +- com.google.errorprone:error_prone_annotations:jar:2.0.18:compile
+|  +- com.google.j2objc:j2objc-annotations:jar:1.1:compile
+|  \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:compile
++- com.google.code.gson:gson:jar:2.8.2:compile
++- com.google.protobuf:protobuf-java:jar:3.3.1:compile
++- org.apache.poi:poi:jar:3.16:compile
+|  +- commons-codec:commons-codec:jar:1.10:compile
+|  \- org.apache.commons:commons-collections4:jar:4.1:compile
++- org.apache.poi:poi-ooxml:jar:3.16:compile
+|  +- (org.apache.poi:poi:jar:3.16:compile - omitted for duplicate)
+|  +- org.apache.poi:poi-ooxml-schemas:jar:3.16:compile
+|  |  \- org.apache.xmlbeans:xmlbeans:jar:2.6.0:compile
+|  |     \- stax:stax-api:jar:1.0.1:compile
+|  \- com.github.virtuald:curvesapi:jar:1.04:compile
++- commons-io:commons-io:jar:2.5:compile
++- org.apache.commons:commons-lang3:jar:3.6:compile
++- org.apache.commons:commons-text:jar:1.1:compile
+|  \- (org.apache.commons:commons-lang3:jar:3.6:compile - version managed from 3.5; omitted for duplicate)
++- org.apache.commons:commons-configuration2:jar:2.1.1:compile
+|  +- (org.apache.commons:commons-lang3:jar:3.6:compile - version managed from 3.3.2; omitted for duplicate)
+|  \- commons-logging:commons-logging:jar:1.2:compile
++- org.apache.logging.log4j:log4j-web:jar:2.8.2:compile
+|  +- (org.apache.logging.log4j:log4j-api:jar:2.8.2:compile - omitted for duplicate)
+|  \- (org.apache.logging.log4j:log4j-core:jar:2.8.2:compile - omitted for duplicate)
++- org.apache.logging.log4j:log4j-api:jar:2.8.2:compile
+\- org.apache.logging.log4j:log4j-core:jar:2.8.2:compile
+   \- (org.apache.logging.log4j:log4j-api:jar:2.8.2:compile - omitted for duplicate)

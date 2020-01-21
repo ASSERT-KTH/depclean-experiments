@@ -1,0 +1,15 @@
+de.mhus.lib:mhu-lib-core:bundle:3.3.4
++- org.codehaus.jackson:jackson-mapper-asl:jar:1.9.5:compile
+|  \- org.codehaus.jackson:jackson-core-asl:jar:1.9.5:compile
++- de.mhus.lib:mhu-lib-annotations:jar:3.3.4:compile
++- log4j:log4j:jar:1.2.14:compile
++- org.slf4j:slf4j-api:jar:1.7.5:compile
++- org.bouncycastle:bcprov-jdk16:jar:1.46:compile
++- org.apache.httpcomponents:httpclient:jar:4.5.3:compile
+|  +- org.apache.httpcomponents:httpcore:jar:4.4.6:compile
+|  +- commons-logging:commons-logging:jar:1.2:compile
+|  \- commons-codec:commons-codec:jar:1.9:compile
++- net.bytebuddy:byte-buddy:jar:1.7.6:compile
++- net.bytebuddy:byte-buddy-agent:jar:1.7.6:compile
+\- javax.mail:mail:jar:1.4.1:compile
+   \- javax.activation:activation:jar:1.1:compile

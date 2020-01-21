@@ -1,0 +1,2 @@
+org.keycloak:keycloak-osgi-jaas:bundle:3.4.3.Final
+\- org.keycloak:keycloak-adapter-core:jar:3.4.3.Final:compile

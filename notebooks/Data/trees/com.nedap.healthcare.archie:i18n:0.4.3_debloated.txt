@@ -1,0 +1,10 @@
+com.nedap.healthcare.archie:i18n:jar:0.4.3
++- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.2:compile
++- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.2:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile - omitted for conflict with 2.9.2)
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.2:compile - omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.2:compile - omitted for duplicate)
++- commons-io:commons-io:jar:2.4:compile
+\- org.reflections:reflections:jar:0.9.11:compile
+   +- (com.google.guava:guava:jar:20.0:compile - omitted for conflict with 23.2-jre)
+   \- org.javassist:javassist:jar:3.21.0-GA:compile

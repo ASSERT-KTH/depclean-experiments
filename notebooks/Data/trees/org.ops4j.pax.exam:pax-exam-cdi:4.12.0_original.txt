@@ -1,0 +1,13 @@
+org.ops4j.pax.exam:pax-exam-cdi:bundle:4.12.0
++- org.ops4j.pax.exam:pax-exam:jar:4.12.0:compile
+|  +- org.ops4j.base:ops4j-base-lang:jar:1.5.0:compile
+|  +- org.ops4j.base:ops4j-base-store:jar:1.5.0:compile
+|  |  +- org.slf4j:slf4j-api:jar:1.7.25:compile (version managed from 1.5.11)
+|  |  \- org.ops4j.base:ops4j-base-io:jar:1.5.0:compile
+|  |     +- (org.ops4j.base:ops4j-base-lang:jar:1.5.0:compile - omitted for duplicate)
+|  |     \- org.ops4j.base:ops4j-base-monitors:jar:1.5.0:compile
+|  \- org.ops4j.base:ops4j-base-util-property:jar:1.5.0:compile
++- javax:javaee-api:jar:7.0:provided
+|  \- com.sun.mail:javax.mail:jar:1.5.0:provided
+|     \- javax.activation:activation:jar:1.1:provided
+\- org.kohsuke.metainf-services:metainf-services:jar:1.2:provided

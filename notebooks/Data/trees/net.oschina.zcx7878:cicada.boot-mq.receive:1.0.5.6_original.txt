@@ -1,0 +1,44 @@
+net.oschina.zcx7878:cicada.boot-mq.receive:jar:1.0.5.6
++- net.oschina.zcx7878:cicada.boot-core:jar:1.0.5.6:compile
+|  +- org.springframework.boot:spring-boot-starter:jar:1.5.10.RELEASE:compile
+|  |  +- org.springframework.boot:spring-boot:jar:1.5.10.RELEASE:compile
+|  |  |  +- (org.springframework:spring-core:jar:4.3.14.RELEASE:compile - omitted for duplicate)
+|  |  |  \- org.springframework:spring-context:jar:4.3.14.RELEASE:compile
+|  |  |     +- org.springframework:spring-aop:jar:4.3.14.RELEASE:compile
+|  |  |     |  +- (org.springframework:spring-beans:jar:4.3.14.RELEASE:compile - omitted for duplicate)
+|  |  |     |  \- (org.springframework:spring-core:jar:4.3.14.RELEASE:compile - omitted for duplicate)
+|  |  |     +- org.springframework:spring-beans:jar:4.3.14.RELEASE:compile
+|  |  |     |  \- (org.springframework:spring-core:jar:4.3.14.RELEASE:compile - omitted for duplicate)
+|  |  |     +- (org.springframework:spring-core:jar:4.3.14.RELEASE:compile - omitted for duplicate)
+|  |  |     \- org.springframework:spring-expression:jar:4.3.14.RELEASE:compile
+|  |  |        \- (org.springframework:spring-core:jar:4.3.14.RELEASE:compile - omitted for duplicate)
+|  |  +- org.springframework.boot:spring-boot-autoconfigure:jar:1.5.10.RELEASE:compile
+|  |  |  \- (org.springframework.boot:spring-boot:jar:1.5.10.RELEASE:compile - omitted for duplicate)
+|  |  +- org.springframework.boot:spring-boot-starter-logging:jar:1.5.10.RELEASE:compile
+|  |  |  +- ch.qos.logback:logback-classic:jar:1.1.11:compile
+|  |  |  |  +- ch.qos.logback:logback-core:jar:1.1.11:compile
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.22:compile - omitted for conflict with 1.7.21)
+|  |  |  +- org.slf4j:jcl-over-slf4j:jar:1.7.25:compile
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for conflict with 1.7.22)
+|  |  |  +- org.slf4j:jul-to-slf4j:jar:1.7.25:compile
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for conflict with 1.7.22)
+|  |  |  \- org.slf4j:log4j-over-slf4j:jar:1.7.25:compile
+|  |  |     \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for conflict with 1.7.22)
+|  |  +- org.springframework:spring-core:jar:4.3.14.RELEASE:compile
+|  |  \- org.yaml:snakeyaml:jar:1.17:runtime
+|  +- org.springframework.boot:spring-boot-starter-actuator:jar:1.5.10.RELEASE:compile
+|  |  +- (org.springframework.boot:spring-boot-starter:jar:1.5.10.RELEASE:compile - omitted for duplicate)
+|  |  \- org.springframework.boot:spring-boot-actuator:jar:1.5.10.RELEASE:compile
+|  |     +- (org.springframework.boot:spring-boot:jar:1.5.10.RELEASE:compile - omitted for duplicate)
+|  |     +- (org.springframework.boot:spring-boot-autoconfigure:jar:1.5.10.RELEASE:compile - omitted for duplicate)
+|  |     +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.10:compile - omitted for conflict with 2.7.4)
+|  |     +- (org.springframework:spring-core:jar:4.3.14.RELEASE:compile - omitted for duplicate)
+|  |     \- (org.springframework:spring-context:jar:4.3.14.RELEASE:compile - omitted for duplicate)
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.7.4:compile
+|  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.7.0:compile
+|  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.7.4:compile
+|  \- (junit:junit:jar:4.12:compile - omitted for conflict with 4.8.2)
++- com.rabbitmq:amqp-client:jar:4.2.0:compile
+|  \- org.slf4j:slf4j-api:jar:1.7.21:compile
++- junit:junit:jar:4.8.2:test (scope not updated to compile)
+\- org.assertj:assertj-core:jar:2.6.0:test

@@ -1,0 +1,7 @@
+org.scala-js:scalajs-dom_sjs1.0.0-M3_2.13.0-M3:jar:0.9.6
++- org.scala-lang:scala-library:jar:2.13.0-M3:compile
++- org.scala-js:scalajs-library_2.13.0-M3:jar:1.0.0-M3:compile
+|  \- (org.scala-lang:scala-library:jar:2.13.0-M3:compile - omitted for duplicate)
+\- org.scala-js:scalajs-test-interface_2.13.0-M3:jar:1.0.0-M3:test
+   +- (org.scala-lang:scala-library:jar:2.13.0-M3:test - omitted for duplicate)
+   \- (org.scala-js:scalajs-library_2.13.0-M3:jar:1.0.0-M3:test - omitted for duplicate)

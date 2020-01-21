@@ -1,0 +1,5 @@
+me.eugeniomarletti.kotlin.metadata:kotlin-metadata:jar:1.4.0
++- org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.40:compile
+|  \- org.jetbrains:annotations:jar:13.0:compile
+\- me.eugeniomarletti.kotlin.metadata:kotlin-compiler-lite:jar:1.0.3-k-1.2.40:compile
+   \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.40:compile - omitted for duplicate)

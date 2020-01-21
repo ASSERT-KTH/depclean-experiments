@@ -1,0 +1,51 @@
+com.github.tomakehurst:wiremock:pom:2.18.0
++- org.eclipse.jetty:jetty-server:jar:9.2.24.v20180105:compile
+|  +- javax.servlet:javax.servlet-api:jar:3.1.0:compile
+|  +- org.eclipse.jetty:jetty-http:jar:9.2.24.v20180105:compile
+|  |  \- (org.eclipse.jetty:jetty-util:jar:9.2.24.v20180105:compile - omitted for duplicate)
+|  \- org.eclipse.jetty:jetty-io:jar:9.2.24.v20180105:compile
+|     \- (org.eclipse.jetty:jetty-util:jar:9.2.24.v20180105:compile - omitted for duplicate)
++- org.eclipse.jetty:jetty-servlet:jar:9.2.24.v20180105:compile
+|  \- org.eclipse.jetty:jetty-security:jar:9.2.24.v20180105:compile
+|     \- (org.eclipse.jetty:jetty-server:jar:9.2.24.v20180105:compile - omitted for duplicate)
++- org.eclipse.jetty:jetty-servlets:jar:9.2.24.v20180105:compile
+|  +- org.eclipse.jetty:jetty-continuation:jar:9.2.24.v20180105:compile
+|  +- (org.eclipse.jetty:jetty-http:jar:9.2.24.v20180105:compile - omitted for duplicate)
+|  +- org.eclipse.jetty:jetty-util:jar:9.2.24.v20180105:compile
+|  \- (org.eclipse.jetty:jetty-io:jar:9.2.24.v20180105:compile - omitted for duplicate)
++- org.eclipse.jetty:jetty-webapp:jar:9.2.24.v20180105:compile
+|  +- org.eclipse.jetty:jetty-xml:jar:9.2.24.v20180105:compile
+|  |  \- (org.eclipse.jetty:jetty-util:jar:9.2.24.v20180105:compile - omitted for duplicate)
+|  \- (org.eclipse.jetty:jetty-servlet:jar:9.2.24.v20180105:compile - omitted for duplicate)
++- com.google.guava:guava:jar:20.0:compile
++- com.fasterxml.jackson.core:jackson-core:jar:2.8.11:compile
++- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.11:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.8.11:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile - omitted for conflict with 2.8.11)
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.8.10:compile - omitted for conflict with 2.8.11)
++- org.apache.httpcomponents:httpclient:jar:4.5.5:compile
+|  +- org.apache.httpcomponents:httpcore:jar:4.4.9:compile
+|  +- commons-logging:commons-logging:jar:1.2:compile
+|  \- commons-codec:commons-codec:jar:1.10:compile
++- org.xmlunit:xmlunit-core:jar:2.5.1:compile
++- org.xmlunit:xmlunit-legacy:jar:2.5.1:compile
+|  +- (org.xmlunit:xmlunit-core:jar:2.5.1:compile - omitted for duplicate)
+|  \- (junit:junit:jar:3.8.1:compile - omitted for conflict with 4.12)
++- com.jayway.jsonpath:json-path:jar:2.4.0:compile
+|  +- net.minidev:json-smart:jar:2.3:compile
+|  |  \- net.minidev:accessors-smart:jar:1.2:compile
+|  |     \- org.ow2.asm:asm:jar:5.0.4:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for conflict with 1.7.12)
++- org.slf4j:slf4j-api:jar:1.7.12:compile
++- net.sf.jopt-simple:jopt-simple:jar:5.0.3:compile
++- junit:junit:jar:4.12:compile
++- org.apache.commons:commons-lang3:jar:3.7:compile
++- com.flipkart.zjsonpatch:zjsonpatch:jar:0.4.4:compile
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.10:compile - omitted for conflict with 2.8.11)
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.8.10:compile - omitted for conflict with 2.8.11)
++- com.github.jknack:handlebars:jar:4.0.6:compile
+|  +- (org.apache.commons:commons-lang3:jar:3.1:compile - omitted for conflict with 3.7)
+|  +- org.antlr:antlr4-runtime:jar:4.5.1-1:compile
+|  \- (org.slf4j:slf4j-api:jar:1.6.4:compile - omitted for conflict with 1.7.12)
+\- com.github.jknack:handlebars-helpers:jar:4.0.6:compile
+   \- (com.github.jknack:handlebars:jar:4.0.6:compile - omitted for duplicate)

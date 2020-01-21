@@ -1,0 +1,1 @@
+cn.mybatisboost:mybatis-boost-spring-boot-starter:jar:1.1.9

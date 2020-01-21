@@ -1,0 +1,4 @@
+org.webjars.npm:asn1.js:jar:4.10.1
++- org.webjars.npm:bn.js:jar:4.11.8:compile
++- org.webjars.npm:inherits:jar:2.0.4:compile
+\- org.webjars.npm:minimalistic-assert:jar:1.0.1:compile

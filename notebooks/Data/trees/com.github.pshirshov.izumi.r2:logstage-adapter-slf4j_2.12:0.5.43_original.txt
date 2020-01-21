@@ -1,0 +1,57 @@
+com.github.pshirshov.izumi.r2:logstage-adapter-slf4j_2.12:jar:0.5.43
++- org.scala-lang:scala-library:jar:2.12.6:compile
++- com.github.pshirshov.izumi.r2:fundamentals-collections_2.12:jar:0.5.43:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
+|  +- (org.scala-lang.modules:scala-java8-compat_2.12:jar:0.9.0:compile - omitted for duplicate)
+|  \- (org.scala-lang.modules:scala-collection-compat_2.12:jar:0.1.1:compile - omitted for duplicate)
++- com.github.pshirshov.izumi.r2:fundamentals-platform_2.12:jar:0.5.43:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
+|  +- (org.scala-lang.modules:scala-java8-compat_2.12:jar:0.9.0:compile - omitted for duplicate)
+|  \- (org.scala-lang.modules:scala-collection-compat_2.12:jar:0.1.1:compile - omitted for duplicate)
++- com.github.pshirshov.izumi.r2:fundamentals-functional_2.12:jar:0.5.43:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
+|  +- (org.scala-lang.modules:scala-java8-compat_2.12:jar:0.9.0:compile - omitted for duplicate)
+|  \- (org.scala-lang.modules:scala-collection-compat_2.12:jar:0.1.1:compile - omitted for duplicate)
++- com.github.pshirshov.izumi.r2:logstage-api-logger_2.12:jar:0.5.43:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
+|  +- (com.github.pshirshov.izumi.r2:fundamentals-collections_2.12:jar:0.5.43:compile - omitted for duplicate)
+|  +- (com.github.pshirshov.izumi.r2:fundamentals-platform_2.12:jar:0.5.43:compile - omitted for duplicate)
+|  +- (com.github.pshirshov.izumi.r2:fundamentals-functional_2.12:jar:0.5.43:compile - omitted for duplicate)
+|  +- com.github.pshirshov.izumi.r2:logstage-api-base-macro_2.12:jar:0.5.43:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
+|  |  +- (com.github.pshirshov.izumi.r2:fundamentals-collections_2.12:jar:0.5.43:compile - omitted for duplicate)
+|  |  +- (com.github.pshirshov.izumi.r2:fundamentals-platform_2.12:jar:0.5.43:compile - omitted for duplicate)
+|  |  +- (com.github.pshirshov.izumi.r2:fundamentals-functional_2.12:jar:0.5.43:compile - omitted for duplicate)
+|  |  +- com.github.pshirshov.izumi.r2:logstage-api-base_2.12:jar:0.5.43:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
+|  |  |  +- (com.github.pshirshov.izumi.r2:fundamentals-collections_2.12:jar:0.5.43:compile - omitted for duplicate)
+|  |  |  +- (com.github.pshirshov.izumi.r2:fundamentals-platform_2.12:jar:0.5.43:compile - omitted for duplicate)
+|  |  |  +- (com.github.pshirshov.izumi.r2:fundamentals-functional_2.12:jar:0.5.43:compile - omitted for duplicate)
+|  |  |  +- (org.scala-lang.modules:scala-java8-compat_2.12:jar:0.9.0:compile - omitted for duplicate)
+|  |  |  \- (org.scala-lang.modules:scala-collection-compat_2.12:jar:0.1.1:compile - omitted for duplicate)
+|  |  +- com.github.pshirshov.izumi.r2:fundamentals-reflection_2.12:jar:0.5.43:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
+|  |  |  +- (com.github.pshirshov.izumi.r2:fundamentals-platform_2.12:jar:0.5.43:compile - omitted for duplicate)
+|  |  |  +- (org.scala-lang.modules:scala-java8-compat_2.12:jar:0.9.0:compile - omitted for duplicate)
+|  |  |  +- (org.scala-lang.modules:scala-collection-compat_2.12:jar:0.1.1:compile - omitted for duplicate)
+|  |  |  \- (org.scala-lang:scala-reflect:jar:2.12.6:compile - omitted for duplicate)
+|  |  +- (org.scala-lang.modules:scala-java8-compat_2.12:jar:0.9.0:compile - omitted for duplicate)
+|  |  +- (org.scala-lang.modules:scala-collection-compat_2.12:jar:0.1.1:compile - omitted for duplicate)
+|  |  \- org.scala-lang:scala-reflect:jar:2.12.4:compile
+|  |     \- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
+|  +- (org.scala-lang.modules:scala-java8-compat_2.12:jar:0.9.0:compile - omitted for duplicate)
+|  \- (org.scala-lang.modules:scala-collection-compat_2.12:jar:0.1.1:compile - omitted for duplicate)
++- org.scala-lang.modules:scala-java8-compat_2.12:jar:0.9.0:compile
+|  \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.6)
++- org.scala-lang.modules:scala-collection-compat_2.12:jar:0.1.1:compile
+|  \- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
++- org.scalatest:scalatest_2.12:jar:3.0.6-SNAP1:test
+|  +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for conflict with 2.12.6)
+|  +- org.scalactic:scalactic_2.12:jar:3.0.6-SNAP1:test
+|  |  +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for conflict with 2.12.6)
+|  |  +- (org.scala-lang:scala-reflect:jar:2.12.4:test - omitted for conflict with 2.12.4)
+|  |  \- (org.scala-lang.modules:scala-xml_2.12:jar:1.1.0:test - omitted for duplicate)
+|  +- (org.scala-lang:scala-reflect:jar:2.12.4:compile - scope updated from test; omitted for duplicate)
+|  \- org.scala-lang.modules:scala-xml_2.12:jar:1.1.0:test
+|     \- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for conflict with 2.12.6)
+\- org.slf4j:slf4j-api:jar:1.7.25:compile

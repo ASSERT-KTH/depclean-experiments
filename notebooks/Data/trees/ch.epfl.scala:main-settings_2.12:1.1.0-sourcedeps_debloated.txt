@@ -1,0 +1,144 @@
+ch.epfl.scala:main-settings_2.12:jar:1.1.0-sourcedeps
++- org.scala-lang:scala-library:jar:2.12.4:compile
++- ch.epfl.scala:completion_2.12:jar:1.1.0-sourcedeps:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  +- ch.epfl.scala:collections_2.12:jar:1.1.0-sourcedeps:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  |  +- (com.eed3si9n:sjson-new-scalajson_2.12:jar:0.8.2:compile - omitted for duplicate)
+|  |  \- (org.scala-sbt:util-position_2.12:jar:1.1.2:compile - omitted for duplicate)
+|  +- jline:jline:jar:2.14.4:compile
+|  +- (org.scala-sbt:io_2.12:jar:1.1.3:compile - omitted for duplicate)
+|  \- org.scala-sbt:util-control_2.12:jar:1.1.2:compile
+|     \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
++- ch.epfl.scala:command_2.12:jar:1.1.0-sourcedeps:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  +- ch.epfl.scala:protocol_2.12:jar:1.1.0-sourcedeps:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  |  +- (com.eed3si9n:sjson-new-core_2.12:jar:0.8.2:compile - omitted for duplicate)
+|  |  +- (com.eed3si9n:sjson-new-scalajson_2.12:jar:0.8.2:compile - omitted for duplicate)
+|  |  \- (org.scala-sbt:util-logging_2.12:jar:1.1.2:compile - omitted for duplicate)
+|  +- (ch.epfl.scala:completion_2.12:jar:1.1.0-sourcedeps:compile - omitted for duplicate)
+|  +- com.eed3si9n:sjson-new-core_2.12:jar:0.8.2:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.12.2:compile - omitted for conflict with 2.12.4)
+|  +- org.scala-sbt:launcher-interface:jar:1.0.2:compile
+|  +- com.eed3si9n:sjson-new-scalajson_2.12:jar:0.8.2:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.2:compile - omitted for conflict with 2.12.4)
+|  |  +- (com.eed3si9n:sjson-new-core_2.12:jar:0.8.2:compile - omitted for duplicate)
+|  |  +- com.eed3si9n:shaded-scalajson_2.12:jar:1.0.0-M4:compile
+|  |  |  \- (org.scala-lang:scala-library:jar:2.12.2:compile - omitted for conflict with 2.12.4)
+|  |  \- org.spire-math:jawn-parser_2.12:jar:0.10.4:compile
+|  |     \- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.4)
+|  +- org.scala-sbt:template-resolver:jar:0.1:compile
+|  +- (org.scala-sbt:io_2.12:jar:1.1.3:compile - omitted for duplicate)
+|  +- (org.scala-sbt:util-logging_2.12:jar:1.1.2:compile - omitted for duplicate)
+|  +- (org.scala-sbt:compiler-interface:jar:1.1.0:compile - omitted for duplicate)
+|  +- (org.scala-sbt:zinc-classpath_2.12:jar:1.1.0:compile - omitted for duplicate)
+|  \- (org.scala-sbt:librarymanagement-core_2.12:jar:1.1.2:compile - omitted for duplicate)
++- ch.epfl.scala:task-system_2.12:jar:1.1.0-sourcedeps:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  +- (ch.epfl.scala:collections_2.12:jar:1.1.0-sourcedeps:compile - omitted for duplicate)
+|  +- ch.epfl.scala:tasks_2.12:jar:1.1.0-sourcedeps:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  |  +- (ch.epfl.scala:collections_2.12:jar:1.1.0-sourcedeps:compile - omitted for duplicate)
+|  |  \- (org.scala-sbt:util-control_2.12:jar:1.1.2:compile - omitted for duplicate)
+|  +- (org.scala-sbt:io_2.12:jar:1.1.3:compile - omitted for duplicate)
+|  +- (org.scala-sbt:util-logging_2.12:jar:1.1.2:compile - omitted for duplicate)
+|  \- (org.scala-sbt:util-cache_2.12:jar:1.1.2:compile - omitted for duplicate)
++- ch.epfl.scala:core-macros_2.12:jar:1.1.0-sourcedeps:compile
+|  +- org.scala-lang:scala-compiler:jar:2.12.4:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  |  +- (org.scala-lang:scala-reflect:jar:2.12.4:compile - omitted for duplicate)
+|  |  \- (org.scala-lang.modules:scala-xml_2.12:jar:1.0.6:compile - omitted for conflict with 1.0.5)
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  \- (ch.epfl.scala:collections_2.12:jar:1.1.0-sourcedeps:compile - omitted for duplicate)
++- org.scalacheck:scalacheck_2.12:jar:1.13.4:test
+|  +- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.4)
+|  \- org.scala-sbt:test-interface:jar:1.0:test
++- org.specs2:specs2-junit_2.12:jar:4.0.1:test
+|  +- (org.scala-lang:scala-library:jar:2.12.3:test - omitted for conflict with 2.12.4)
+|  +- org.specs2:specs2-core_2.12:jar:4.0.1:test
+|  |  +- (org.scala-lang:scala-library:jar:2.12.3:test - omitted for conflict with 2.12.4)
+|  |  +- org.specs2:specs2-matcher_2.12:jar:4.0.1:test
+|  |  |  +- (org.scala-lang:scala-library:jar:2.12.3:test - omitted for conflict with 2.12.4)
+|  |  |  \- org.specs2:specs2-common_2.12:jar:4.0.1:test
+|  |  |     +- (org.scala-lang:scala-library:jar:2.12.3:test - omitted for conflict with 2.12.4)
+|  |  |     +- org.specs2:specs2-fp_2.12:jar:4.0.1:test
+|  |  |     |  \- (org.scala-lang:scala-library:jar:2.12.3:test - omitted for conflict with 2.12.4)
+|  |  |     +- (org.scala-lang:scala-reflect:jar:2.12.3:test - omitted for conflict with 2.12.3)
+|  |  |     +- (org.scala-lang.modules:scala-xml_2.12:jar:1.0.6:test - omitted for conflict with 1.0.5)
+|  |  |     \- (org.scala-lang.modules:scala-parser-combinators_2.12:jar:1.0.6:compile - scope updated from test; omitted for duplicate)
+|  |  \- (org.scala-sbt:test-interface:jar:1.0:test - omitted for duplicate)
+|  +- (junit:junit:jar:4.12:test - omitted for conflict with 4.11)
+|  \- (org.scala-sbt:test-interface:jar:1.0:test - omitted for duplicate)
++- junit:junit:jar:4.11:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.scalatest:scalatest_2.12:jar:3.0.4:test
+|  +- (org.scala-lang:scala-library:jar:2.12.3:test - omitted for conflict with 2.12.4)
+|  +- org.scalactic:scalactic_2.12:jar:3.0.4:test
+|  |  +- (org.scala-lang:scala-library:jar:2.12.3:test - omitted for conflict with 2.12.4)
+|  |  \- (org.scala-lang:scala-reflect:jar:2.12.3:test - omitted for conflict with 2.12.3)
+|  +- (org.scala-lang:scala-reflect:jar:2.12.3:compile - scope updated from test; omitted for duplicate)
+|  +- (org.scala-lang.modules:scala-xml_2.12:jar:1.0.5:compile - scope updated from test; omitted for duplicate)
+|  \- (org.scala-lang.modules:scala-parser-combinators_2.12:jar:1.0.4:compile - scope updated from test; omitted for duplicate)
++- org.scala-sbt:io_2.12:jar:1.1.3:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  +- net.java.dev.jna:jna:jar:4.5.0:compile
+|  \- net.java.dev.jna:jna-platform:jar:4.5.0:compile
+|     \- (net.java.dev.jna:jna:jar:4.5.0:compile - omitted for duplicate)
++- org.scala-sbt:util-logging_2.12:jar:1.1.2:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  +- org.scala-sbt:util-interface:jar:1.1.2:compile
+|  +- (com.eed3si9n:sjson-new-core_2.12:jar:0.8.2:compile - omitted for duplicate)
+|  +- (jline:jline:jar:2.14.4:compile - omitted for duplicate)
+|  +- org.apache.logging.log4j:log4j-api:jar:2.8.1:compile
+|  +- org.apache.logging.log4j:log4j-core:jar:2.8.1:compile
+|  |  \- (org.apache.logging.log4j:log4j-api:jar:2.8.1:compile - omitted for duplicate)
+|  +- com.lmax:disruptor:jar:3.3.6:compile
+|  +- (com.eed3si9n:sjson-new-scalajson_2.12:jar:0.8.2:compile - omitted for duplicate)
+|  \- org.scala-lang:scala-reflect:jar:2.12.4:compile
+|     \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
++- org.scala-sbt:util-cache_2.12:jar:1.1.2:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  +- (com.eed3si9n:sjson-new-scalajson_2.12:jar:0.8.2:compile - omitted for duplicate)
+|  +- com.eed3si9n:sjson-new-murmurhash_2.12:jar:0.8.2:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.2:compile - omitted for conflict with 2.12.4)
+|  |  \- (com.eed3si9n:sjson-new-core_2.12:jar:0.8.2:compile - omitted for duplicate)
+|  +- (org.scala-lang:scala-reflect:jar:2.12.4:compile - omitted for duplicate)
+|  \- (org.scala-sbt:io_2.12:jar:1.1.3:compile - omitted for duplicate)
++- org.scala-sbt:util-relation_2.12:jar:1.1.2:compile
+|  \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
++- org.scala-sbt:zinc-classpath_2.12:jar:1.1.0:compile
+|  +- (org.scala-lang:scala-compiler:jar:2.12.4:compile - omitted for duplicate)
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  +- (org.scala-sbt:compiler-interface:jar:1.1.0:compile - omitted for duplicate)
+|  +- (org.scala-sbt:launcher-interface:jar:1.0.0:compile - omitted for conflict with 1.0.2)
+|  \- (org.scala-sbt:io_2.12:jar:1.1.3:compile - omitted for duplicate)
+\- org.scala-sbt:librarymanagement-core_2.12:jar:1.1.2:compile
+   +- (org.scala-lang:scala-compiler:jar:2.12.4:compile - omitted for duplicate)
+   +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+   +- (com.eed3si9n:sjson-new-core_2.12:jar:0.8.2:compile - omitted for duplicate)
+   +- com.jcraft:jsch:jar:0.1.46:compile
+   +- (org.scala-lang:scala-reflect:jar:2.12.4:compile - omitted for duplicate)
+   +- (org.scala-sbt:launcher-interface:jar:1.0.0:compile - omitted for conflict with 1.0.2)
+   +- com.eed3si9n:gigahorse-okhttp_2.12:jar:0.3.0:compile
+   |  +- (org.scala-lang:scala-library:jar:2.12.2:compile - omitted for conflict with 2.12.4)
+   |  +- com.eed3si9n:gigahorse-core_2.12:jar:0.3.0:compile
+   |  |  +- (org.scala-lang:scala-library:jar:2.12.2:compile - omitted for conflict with 2.12.4)
+   |  |  +- com.typesafe:ssl-config-core_2.12:jar:0.2.2:compile
+   |  |  |  +- (org.scala-lang:scala-library:jar:2.12.1:compile - omitted for conflict with 2.12.4)
+   |  |  |  +- com.typesafe:config:jar:1.2.0:compile
+   |  |  |  \- org.scala-lang.modules:scala-parser-combinators_2.12:jar:1.0.4:compile
+   |  |  |     \- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.4)
+   |  |  +- org.reactivestreams:reactive-streams:jar:1.0.0:compile
+   |  |  \- org.slf4j:slf4j-api:jar:1.7.25:compile
+   |  \- com.squareup.okhttp3:okhttp:jar:3.7.0:compile
+   |     \- com.squareup.okio:okio:jar:1.12.0:compile
+   +- com.squareup.okhttp3:okhttp-urlconnection:jar:3.7.0:compile
+   |  \- (com.squareup.okhttp3:okhttp:jar:3.7.0:compile - omitted for duplicate)
+   +- org.scala-lang.modules:scala-xml_2.12:jar:1.0.5:compile
+   |  \- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.4)
+   +- (org.scala-sbt:io_2.12:jar:1.1.3:compile - omitted for duplicate)
+   +- (org.scala-sbt:util-logging_2.12:jar:1.1.2:compile - omitted for duplicate)
+   +- org.scala-sbt:util-position_2.12:jar:1.1.2:compile
+   |  \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+   \- (org.scala-sbt:util-cache_2.12:jar:1.1.2:compile - omitted for duplicate)

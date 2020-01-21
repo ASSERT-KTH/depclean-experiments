@@ -1,0 +1,302 @@
+com.simiacryptus:java-util:jar:1.4.17
++- ch.qos.logback:logback-classic:jar:1.1.3:compile
+|  +- ch.qos.logback:logback-core:jar:1.1.3:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for conflict with 1.7.12)
++- org.slf4j:slf4j-api:jar:1.7.12:compile
++- org.slf4j:jul-to-slf4j:jar:1.7.12:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.12:compile - omitted for duplicate)
++- org.slf4j:jcl-over-slf4j:jar:1.7.12:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.12:compile - omitted for duplicate)
++- org.slf4j:log4j-over-slf4j:jar:1.7.12:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.12:compile - omitted for duplicate)
++- commons-io:commons-io:jar:2.5:compile
++- junit:junit:jar:4.10:test
+|  \- org.hamcrest:hamcrest-core:jar:1.1:test
++- com.google.guava:guava:jar:18.0:compile
++- com.google.code.findbugs:jsr305:jar:2.0.2:compile
++- org.json:json:jar:20160810:compile
++- guru.nidi:graphviz-java:jar:0.1.4:compile
+|  +- org.apache.xmlgraphics:batik-rasterizer:jar:1.8:compile
+|  |  +- org.apache.xmlgraphics:batik-parser:jar:1.8:compile
+|  |  |  +- (org.apache.xmlgraphics:batik-awt-util:jar:1.8:compile - omitted for duplicate)
+|  |  |  +- (org.apache.xmlgraphics:batik-util:jar:1.8:compile - omitted for duplicate)
+|  |  |  +- org.apache.xmlgraphics:batik-xml:jar:1.8:compile
+|  |  |  |  \- (org.apache.xmlgraphics:batik-util:jar:1.8:compile - omitted for duplicate)
+|  |  |  \- xml-apis:xml-apis:jar:1.3.04:compile
+|  |  +- org.apache.xmlgraphics:batik-transcoder:jar:1.8:compile
+|  |  |  +- org.apache.xmlgraphics:batik-anim:jar:1.8:compile
+|  |  |  |  +- (org.apache.xmlgraphics:batik-awt-util:jar:1.8:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.xmlgraphics:batik-css:jar:1.8:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.xmlgraphics:batik-dom:jar:1.8:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.xmlgraphics:batik-ext:jar:1.8:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.xmlgraphics:batik-parser:jar:1.8:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.xmlgraphics:batik-svg-dom:jar:1.8:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.xmlgraphics:batik-util:jar:1.8:compile - omitted for duplicate)
+|  |  |  |  +- (xml-apis:xml-apis:jar:1.3.04:compile - omitted for duplicate)
+|  |  |  |  \- (xml-apis:xml-apis-ext:jar:1.3.04:compile - omitted for duplicate)
+|  |  |  +- (org.apache.xmlgraphics:batik-awt-util:jar:1.8:compile - omitted for duplicate)
+|  |  |  +- (org.apache.xmlgraphics:batik-bridge:jar:1.8:compile - omitted for duplicate)
+|  |  |  +- org.apache.xmlgraphics:batik-dom:jar:1.8:compile
+|  |  |  |  +- (org.apache.xmlgraphics:batik-css:jar:1.8:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.xmlgraphics:batik-ext:jar:1.8:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.xmlgraphics:batik-util:jar:1.8:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.xmlgraphics:batik-xml:jar:1.8:compile - omitted for duplicate)
+|  |  |  |  +- (xalan:xalan:jar:2.7.0:compile - omitted for duplicate)
+|  |  |  |  +- (xml-apis:xml-apis:jar:1.3.04:compile - omitted for duplicate)
+|  |  |  |  \- (xml-apis:xml-apis-ext:jar:1.3.04:compile - omitted for duplicate)
+|  |  |  +- org.apache.xmlgraphics:batik-gvt:jar:1.8:compile
+|  |  |  |  +- (org.apache.xmlgraphics:batik-awt-util:jar:1.8:compile - omitted for duplicate)
+|  |  |  |  \- (org.apache.xmlgraphics:batik-util:jar:1.8:compile - omitted for duplicate)
+|  |  |  +- org.apache.xmlgraphics:batik-svggen:jar:1.8:compile
+|  |  |  |  +- (org.apache.xmlgraphics:batik-awt-util:jar:1.8:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.xmlgraphics:batik-util:jar:1.8:compile - omitted for duplicate)
+|  |  |  |  \- (xml-apis:xml-apis:jar:1.3.04:compile - omitted for duplicate)
+|  |  |  +- (org.apache.xmlgraphics:batik-util:jar:1.8:compile - omitted for duplicate)
+|  |  |  +- (org.apache.xmlgraphics:batik-xml:jar:1.8:compile - omitted for duplicate)
+|  |  |  +- (xml-apis:xml-apis:jar:1.3.04:compile - omitted for duplicate)
+|  |  |  \- xml-apis:xml-apis-ext:jar:1.3.04:compile
+|  |  \- org.apache.xmlgraphics:batik-util:jar:1.8:compile
+|  +- org.apache.xmlgraphics:batik-codec:jar:1.8:compile
+|  |  +- org.apache.xmlgraphics:batik-awt-util:jar:1.8:compile
+|  |  |  \- (org.apache.xmlgraphics:batik-util:jar:1.8:compile - omitted for duplicate)
+|  |  +- org.apache.xmlgraphics:batik-bridge:jar:1.8:compile
+|  |  |  +- (org.apache.xmlgraphics:batik-anim:jar:1.8:compile - omitted for duplicate)
+|  |  |  +- (org.apache.xmlgraphics:batik-awt-util:jar:1.8:compile - omitted for duplicate)
+|  |  |  +- org.apache.xmlgraphics:batik-css:jar:1.8:compile
+|  |  |  |  +- (org.apache.xmlgraphics:batik-ext:jar:1.8:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.xmlgraphics:batik-util:jar:1.8:compile - omitted for duplicate)
+|  |  |  |  +- (xml-apis:xml-apis:jar:1.3.04:compile - omitted for duplicate)
+|  |  |  |  \- (xml-apis:xml-apis-ext:jar:1.3.04:compile - omitted for duplicate)
+|  |  |  +- (org.apache.xmlgraphics:batik-dom:jar:1.8:compile - omitted for duplicate)
+|  |  |  +- org.apache.xmlgraphics:batik-ext:jar:1.8:compile
+|  |  |  |  \- (xml-apis:xml-apis:jar:1.3.04:compile - omitted for duplicate)
+|  |  |  +- (org.apache.xmlgraphics:batik-gvt:jar:1.8:compile - omitted for duplicate)
+|  |  |  +- (org.apache.xmlgraphics:batik-parser:jar:1.8:compile - omitted for duplicate)
+|  |  |  +- org.apache.xmlgraphics:batik-script:jar:1.8:compile
+|  |  |  |  +- (org.apache.xmlgraphics:batik-anim:jar:1.8:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.xmlgraphics:batik-util:jar:1.8:compile - omitted for duplicate)
+|  |  |  |  \- (xml-apis:xml-apis:jar:1.3.04:compile - omitted for duplicate)
+|  |  |  +- org.apache.xmlgraphics:batik-svg-dom:jar:1.8:compile
+|  |  |  |  +- (org.apache.xmlgraphics:batik-awt-util:jar:1.8:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.xmlgraphics:batik-css:jar:1.8:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.xmlgraphics:batik-dom:jar:1.8:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.xmlgraphics:batik-ext:jar:1.8:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.xmlgraphics:batik-parser:jar:1.8:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.xmlgraphics:batik-util:jar:1.8:compile - omitted for duplicate)
+|  |  |  |  +- (xml-apis:xml-apis:jar:1.3.04:compile - omitted for duplicate)
+|  |  |  |  \- (xml-apis:xml-apis-ext:jar:1.3.04:compile - omitted for duplicate)
+|  |  |  +- (org.apache.xmlgraphics:batik-util:jar:1.8:compile - omitted for duplicate)
+|  |  |  +- (org.apache.xmlgraphics:batik-xml:jar:1.8:compile - omitted for duplicate)
+|  |  |  +- xalan:xalan:jar:2.7.0:compile
+|  |  |  |  \- (xml-apis:xml-apis:jar:1.0.b2:compile - omitted for conflict with 1.3.04)
+|  |  |  +- (xml-apis:xml-apis:jar:1.3.04:compile - omitted for duplicate)
+|  |  |  \- (xml-apis:xml-apis-ext:jar:1.3.04:compile - omitted for duplicate)
+|  |  +- (org.apache.xmlgraphics:batik-transcoder:jar:1.8:compile - omitted for duplicate)
+|  |  \- (org.apache.xmlgraphics:batik-util:jar:1.8:compile - omitted for duplicate)
+|  +- org.apache.xmlgraphics:xmlgraphics-commons:jar:2.2:compile
+|  |  +- (commons-io:commons-io:jar:1.3.1:compile - omitted for conflict with 2.5)
+|  |  \- commons-logging:commons-logging:jar:1.0.4:compile
+|  +- com.eclipsesource.j2v8:j2v8_macosx_x86_64:jar:4.6.0:compile
+|  +- com.eclipsesource.j2v8:j2v8_linux_x86_64:jar:4.6.0:compile
+|  \- com.eclipsesource.j2v8:j2v8_win32_x86_64:jar:4.6.0:compile
++- com.esotericsoftware:kryo:jar:4.0.2:compile
+|  +- com.esotericsoftware:reflectasm:jar:1.11.3:compile
+|  |  \- org.ow2.asm:asm:jar:5.0.4:compile
+|  +- com.esotericsoftware:minlog:jar:1.3.0:compile
+|  \- org.objenesis:objenesis:jar:2.5.1:compile
++- de.javakaffee:kryo-serializers:jar:0.33:compile
+|  +- (com.esotericsoftware:kryo:jar:3.0.2:compile - omitted for conflict with 4.0.2)
+|  \- com.google.protobuf:protobuf-java:jar:2.6.1:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.8.4:compile
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile
+|  \- com.fasterxml.jackson.core:jackson-core:jar:2.8.4:compile
++- com.fasterxml.jackson.module:jackson-module-scala_2.11:jar:2.8.4:compile
+|  +- org.scala-lang:scala-library:jar:2.11.8:compile
+|  +- org.scala-lang:scala-reflect:jar:2.11.8:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.4:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.4:compile - omitted for conflict with 2.8.0)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.4:compile - omitted for duplicate)
+|  \- com.fasterxml.jackson.module:jackson-module-paranamer:jar:2.8.4:compile
+|     +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.4:compile - omitted for duplicate)
+|     \- com.thoughtworks.paranamer:paranamer:jar:2.8:compile
++- org.nanohttpd:nanohttpd:jar:2.2.0:compile
++- com.google.code.gson:gson:jar:2.8.0:compile
++- org.apache.commons:commons-lang3:jar:3.7:compile
+\- com.vladsch.flexmark:flexmark-all:jar:0.32.18:compile
+   +- com.vladsch.flexmark:flexmark:jar:0.32.18:compile
+   |  \- (com.vladsch.flexmark:flexmark-util:jar:0.32.18:compile - omitted for duplicate)
+   +- com.vladsch.flexmark:flexmark-ext-abbreviation:jar:0.32.18:compile
+   |  +- (com.vladsch.flexmark:flexmark-util:jar:0.32.18:compile - omitted for duplicate)
+   |  +- (com.vladsch.flexmark:flexmark-ext-autolink:jar:0.32.18:compile - omitted for duplicate)
+   |  +- (com.vladsch.flexmark:flexmark:jar:0.32.18:compile - omitted for duplicate)
+   |  +- (com.vladsch.flexmark:flexmark-formatter:jar:0.32.18:compile - omitted for duplicate)
+   |  +- (com.vladsch.flexmark:flexmark-ext-typographic:jar:0.32.18:compile - omitted for duplicate)
+   |  +- (com.vladsch.flexmark:flexmark-ext-ins:jar:0.32.18:compile - omitted for duplicate)
+   |  +- (com.vladsch.flexmark:flexmark-ext-gfm-strikethrough:jar:0.32.18:compile - omitted for duplicate)
+   |  \- (com.vladsch.flexmark:flexmark-ext-superscript:jar:0.32.18:compile - omitted for duplicate)
+   +- com.vladsch.flexmark:flexmark-ext-admonition:jar:0.32.18:compile
+   |  +- (com.vladsch.flexmark:flexmark-util:jar:0.32.18:compile - omitted for duplicate)
+   |  +- (com.vladsch.flexmark:flexmark:jar:0.32.18:compile - omitted for duplicate)
+   |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.32.18:compile - omitted for duplicate)
+   +- com.vladsch.flexmark:flexmark-ext-anchorlink:jar:0.32.18:compile
+   |  +- (com.vladsch.flexmark:flexmark-util:jar:0.32.18:compile - omitted for duplicate)
+   |  +- (com.vladsch.flexmark:flexmark:jar:0.32.18:compile - omitted for duplicate)
+   |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.32.18:compile - omitted for duplicate)
+   +- com.vladsch.flexmark:flexmark-ext-aside:jar:0.32.18:compile
+   |  +- (com.vladsch.flexmark:flexmark-util:jar:0.32.18:compile - omitted for duplicate)
+   |  +- (com.vladsch.flexmark:flexmark:jar:0.32.18:compile - omitted for duplicate)
+   |  +- (com.vladsch.flexmark:flexmark-jira-converter:jar:0.32.18:compile - omitted for duplicate)
+   |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.32.18:compile - omitted for duplicate)
+   +- com.vladsch.flexmark:flexmark-ext-attributes:jar:0.32.18:compile
+   |  +- (com.vladsch.flexmark:flexmark-util:jar:0.32.18:compile - omitted for duplicate)
+   |  +- (com.vladsch.flexmark:flexmark:jar:0.32.18:compile - omitted for duplicate)
+   |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.32.18:compile - omitted for duplicate)
+   +- com.vladsch.flexmark:flexmark-ext-autolink:jar:0.32.18:compile
+   |  +- (com.vladsch.flexmark:flexmark-util:jar:0.32.18:compile - omitted for duplicate)
+   |  +- (com.vladsch.flexmark:flexmark:jar:0.32.18:compile - omitted for duplicate)
+   |  +- org.nibor.autolink:autolink:jar:0.6.0:compile
+   |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.32.18:compile - omitted for duplicate)
+   +- com.vladsch.flexmark:flexmark-ext-definition:jar:0.32.18:compile
+   |  +- (com.vladsch.flexmark:flexmark-util:jar:0.32.18:compile - omitted for duplicate)
+   |  +- (com.vladsch.flexmark:flexmark:jar:0.32.18:compile - omitted for duplicate)
+   |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.32.18:compile - omitted for duplicate)
+   +- com.vladsch.flexmark:flexmark-ext-emoji:jar:0.32.18:compile
+   |  +- (com.vladsch.flexmark:flexmark-util:jar:0.32.18:compile - omitted for duplicate)
+   |  +- (com.vladsch.flexmark:flexmark:jar:0.32.18:compile - omitted for duplicate)
+   |  +- (com.vladsch.flexmark:flexmark-jira-converter:jar:0.32.18:compile - omitted for duplicate)
+   |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.32.18:compile - omitted for duplicate)
+   +- com.vladsch.flexmark:flexmark-ext-enumerated-reference:jar:0.32.18:compile
+   |  +- (com.vladsch.flexmark:flexmark-util:jar:0.32.18:compile - omitted for duplicate)
+   |  +- (com.vladsch.flexmark:flexmark:jar:0.32.18:compile - omitted for duplicate)
+   |  +- (com.vladsch.flexmark:flexmark-formatter:jar:0.32.18:compile - omitted for duplicate)
+   |  \- (com.vladsch.flexmark:flexmark-ext-attributes:jar:0.32.18:compile - omitted for duplicate)
+   +- com.vladsch.flexmark:flexmark-ext-escaped-character:jar:0.32.18:compile
+   |  +- (com.vladsch.flexmark:flexmark-util:jar:0.32.18:compile - omitted for duplicate)
+   |  +- (com.vladsch.flexmark:flexmark:jar:0.32.18:compile - omitted for duplicate)
+   |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.32.18:compile - omitted for duplicate)
+   +- com.vladsch.flexmark:flexmark-ext-footnotes:jar:0.32.18:compile
+   |  +- (com.vladsch.flexmark:flexmark-util:jar:0.32.18:compile - omitted for duplicate)
+   |  +- (com.vladsch.flexmark:flexmark:jar:0.32.18:compile - omitted for duplicate)
+   |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.32.18:compile - omitted for duplicate)
+   +- com.vladsch.flexmark:flexmark-ext-gfm-issues:jar:0.32.18:compile
+   |  +- (com.vladsch.flexmark:flexmark-util:jar:0.32.18:compile - omitted for duplicate)
+   |  +- (com.vladsch.flexmark:flexmark:jar:0.32.18:compile - omitted for duplicate)
+   |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.32.18:compile - omitted for duplicate)
+   +- com.vladsch.flexmark:flexmark-ext-gfm-strikethrough:jar:0.32.18:compile
+   |  +- (com.vladsch.flexmark:flexmark-util:jar:0.32.18:compile - omitted for duplicate)
+   |  +- (com.vladsch.flexmark:flexmark:jar:0.32.18:compile - omitted for duplicate)
+   |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.32.18:compile - omitted for duplicate)
+   +- com.vladsch.flexmark:flexmark-ext-gfm-tables:jar:0.32.18:compile
+   |  +- (com.vladsch.flexmark:flexmark-util:jar:0.32.18:compile - omitted for duplicate)
+   |  +- (com.vladsch.flexmark:flexmark:jar:0.32.18:compile - omitted for duplicate)
+   |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.32.18:compile - omitted for duplicate)
+   +- com.vladsch.flexmark:flexmark-ext-gfm-tasklist:jar:0.32.18:compile
+   |  +- (com.vladsch.flexmark:flexmark-util:jar:0.32.18:compile - omitted for duplicate)
+   |  +- (com.vladsch.flexmark:flexmark:jar:0.32.18:compile - omitted for duplicate)
+   |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.32.18:compile - omitted for duplicate)
+   +- com.vladsch.flexmark:flexmark-ext-gfm-users:jar:0.32.18:compile
+   |  +- (com.vladsch.flexmark:flexmark-util:jar:0.32.18:compile - omitted for duplicate)
+   |  +- (com.vladsch.flexmark:flexmark:jar:0.32.18:compile - omitted for duplicate)
+   |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.32.18:compile - omitted for duplicate)
+   +- com.vladsch.flexmark:flexmark-ext-jekyll-front-matter:jar:0.32.18:compile
+   |  +- (com.vladsch.flexmark:flexmark-util:jar:0.32.18:compile - omitted for duplicate)
+   |  +- (com.vladsch.flexmark:flexmark:jar:0.32.18:compile - omitted for duplicate)
+   |  +- (com.vladsch.flexmark:flexmark-ext-yaml-front-matter:jar:0.32.18:compile - omitted for duplicate)
+   |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.32.18:compile - omitted for duplicate)
+   +- com.vladsch.flexmark:flexmark-ext-jekyll-tag:jar:0.32.18:compile
+   |  +- (com.vladsch.flexmark:flexmark-util:jar:0.32.18:compile - omitted for duplicate)
+   |  +- (com.vladsch.flexmark:flexmark:jar:0.32.18:compile - omitted for duplicate)
+   |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.32.18:compile - omitted for duplicate)
+   +- com.vladsch.flexmark:flexmark-ext-ins:jar:0.32.18:compile
+   |  +- (com.vladsch.flexmark:flexmark-util:jar:0.32.18:compile - omitted for duplicate)
+   |  +- (com.vladsch.flexmark:flexmark:jar:0.32.18:compile - omitted for duplicate)
+   |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.32.18:compile - omitted for duplicate)
+   +- com.vladsch.flexmark:flexmark-ext-xwiki-macros:jar:0.32.18:compile
+   |  +- (com.vladsch.flexmark:flexmark-util:jar:0.32.18:compile - omitted for duplicate)
+   |  +- (com.vladsch.flexmark:flexmark:jar:0.32.18:compile - omitted for duplicate)
+   |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.32.18:compile - omitted for duplicate)
+   +- com.vladsch.flexmark:flexmark-ext-superscript:jar:0.32.18:compile
+   |  +- (com.vladsch.flexmark:flexmark-util:jar:0.32.18:compile - omitted for duplicate)
+   |  +- (com.vladsch.flexmark:flexmark:jar:0.32.18:compile - omitted for duplicate)
+   |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.32.18:compile - omitted for duplicate)
+   +- com.vladsch.flexmark:flexmark-ext-tables:jar:0.32.18:compile
+   |  +- (com.vladsch.flexmark:flexmark-util:jar:0.32.18:compile - omitted for duplicate)
+   |  +- (com.vladsch.flexmark:flexmark:jar:0.32.18:compile - omitted for duplicate)
+   |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.32.18:compile - omitted for duplicate)
+   +- com.vladsch.flexmark:flexmark-ext-toc:jar:0.32.18:compile
+   |  +- (com.vladsch.flexmark:flexmark-util:jar:0.32.18:compile - omitted for duplicate)
+   |  +- (com.vladsch.flexmark:flexmark:jar:0.32.18:compile - omitted for duplicate)
+   |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.32.18:compile - omitted for duplicate)
+   +- com.vladsch.flexmark:flexmark-ext-typographic:jar:0.32.18:compile
+   |  +- (com.vladsch.flexmark:flexmark-util:jar:0.32.18:compile - omitted for duplicate)
+   |  +- (com.vladsch.flexmark:flexmark:jar:0.32.18:compile - omitted for duplicate)
+   |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.32.18:compile - omitted for duplicate)
+   +- com.vladsch.flexmark:flexmark-ext-wikilink:jar:0.32.18:compile
+   |  +- (com.vladsch.flexmark:flexmark-util:jar:0.32.18:compile - omitted for duplicate)
+   |  +- (com.vladsch.flexmark:flexmark:jar:0.32.18:compile - omitted for duplicate)
+   |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.32.18:compile - omitted for duplicate)
+   +- com.vladsch.flexmark:flexmark-ext-yaml-front-matter:jar:0.32.18:compile
+   |  +- (com.vladsch.flexmark:flexmark-util:jar:0.32.18:compile - omitted for duplicate)
+   |  +- (com.vladsch.flexmark:flexmark:jar:0.32.18:compile - omitted for duplicate)
+   |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.32.18:compile - omitted for duplicate)
+   +- com.vladsch.flexmark:flexmark-ext-youtube-embedded:jar:0.32.18:compile
+   |  \- (com.vladsch.flexmark:flexmark:jar:0.32.18:compile - omitted for duplicate)
+   +- com.vladsch.flexmark:flexmark-formatter:jar:0.32.18:compile
+   |  +- (com.vladsch.flexmark:flexmark-util:jar:0.32.18:compile - omitted for duplicate)
+   |  \- (com.vladsch.flexmark:flexmark:jar:0.32.18:compile - omitted for duplicate)
+   +- com.vladsch.flexmark:flexmark-html-parser:jar:0.32.18:compile
+   |  +- (com.vladsch.flexmark:flexmark-util:jar:0.32.18:compile - omitted for duplicate)
+   |  +- (com.vladsch.flexmark:flexmark:jar:0.32.18:compile - omitted for duplicate)
+   |  +- (com.vladsch.flexmark:flexmark-ext-emoji:jar:0.32.18:compile - omitted for duplicate)
+   |  \- org.jsoup:jsoup:jar:1.10.2:compile
+   +- com.vladsch.flexmark:flexmark-jira-converter:jar:0.32.18:compile
+   |  +- (com.vladsch.flexmark:flexmark-util:jar:0.32.18:compile - omitted for duplicate)
+   |  +- (com.vladsch.flexmark:flexmark-ext-gfm-strikethrough:jar:0.32.18:compile - omitted for duplicate)
+   |  +- (com.vladsch.flexmark:flexmark-ext-tables:jar:0.32.18:compile - omitted for duplicate)
+   |  +- (com.vladsch.flexmark:flexmark-ext-wikilink:jar:0.32.18:compile - omitted for duplicate)
+   |  +- (com.vladsch.flexmark:flexmark-ext-ins:jar:0.32.18:compile - omitted for duplicate)
+   |  +- (com.vladsch.flexmark:flexmark-ext-superscript:jar:0.32.18:compile - omitted for duplicate)
+   |  \- (com.vladsch.flexmark:flexmark:jar:0.32.18:compile - omitted for duplicate)
+   +- com.vladsch.flexmark:flexmark-pdf-converter:jar:0.32.18:compile
+   |  +- (com.vladsch.flexmark:flexmark-util:jar:0.32.18:compile - omitted for duplicate)
+   |  +- (com.vladsch.flexmark:flexmark:jar:0.32.18:compile - omitted for duplicate)
+   |  +- (org.jsoup:jsoup:jar:1.10.2:compile - omitted for duplicate)
+   |  +- com.openhtmltopdf:openhtmltopdf-core:jar:0.0.1-RC9:compile
+   |  +- com.openhtmltopdf:openhtmltopdf-pdfbox:jar:0.0.1-RC9:compile
+   |  |  +- org.apache.pdfbox:pdfbox:jar:2.0.4:compile
+   |  |  |  +- org.apache.pdfbox:fontbox:jar:2.0.4:compile
+   |  |  |  |  \- (commons-logging:commons-logging:jar:1.2:compile - omitted for conflict with 1.0.4)
+   |  |  |  \- (commons-logging:commons-logging:jar:1.2:compile - omitted for conflict with 1.0.4)
+   |  |  \- (com.openhtmltopdf:openhtmltopdf-core:jar:0.0.1-RC9:compile - omitted for duplicate)
+   |  +- com.openhtmltopdf:openhtmltopdf-rtl-support:jar:0.0.1-RC9:compile
+   |  |  +- com.ibm.icu:icu4j:jar:58.1:compile
+   |  |  \- (com.openhtmltopdf:openhtmltopdf-core:jar:0.0.1-RC9:compile - omitted for duplicate)
+   |  \- com.openhtmltopdf:openhtmltopdf-jsoup-dom-converter:jar:0.0.1-RC9:compile
+   |     \- (org.jsoup:jsoup:jar:1.8.3:compile - omitted for conflict with 1.10.2)
+   +- com.vladsch.flexmark:flexmark-profile-pegdown:jar:0.32.18:compile
+   |  +- (com.vladsch.flexmark:flexmark:jar:0.32.18:compile - omitted for duplicate)
+   |  +- (com.vladsch.flexmark:flexmark-ext-abbreviation:jar:0.32.18:compile - omitted for duplicate)
+   |  +- (com.vladsch.flexmark:flexmark-ext-anchorlink:jar:0.32.18:compile - omitted for duplicate)
+   |  +- (com.vladsch.flexmark:flexmark-ext-aside:jar:0.32.18:compile - omitted for duplicate)
+   |  +- (com.vladsch.flexmark:flexmark-ext-autolink:jar:0.32.18:compile - omitted for duplicate)
+   |  +- (com.vladsch.flexmark:flexmark-ext-definition:jar:0.32.18:compile - omitted for duplicate)
+   |  +- (com.vladsch.flexmark:flexmark-ext-emoji:jar:0.32.18:compile - omitted for duplicate)
+   |  +- (com.vladsch.flexmark:flexmark-ext-escaped-character:jar:0.32.18:compile - omitted for duplicate)
+   |  +- (com.vladsch.flexmark:flexmark-ext-footnotes:jar:0.32.18:compile - omitted for duplicate)
+   |  +- (com.vladsch.flexmark:flexmark-ext-gfm-strikethrough:jar:0.32.18:compile - omitted for duplicate)
+   |  +- (com.vladsch.flexmark:flexmark-ext-gfm-tasklist:jar:0.32.18:compile - omitted for duplicate)
+   |  +- (com.vladsch.flexmark:flexmark-ext-ins:jar:0.32.18:compile - omitted for duplicate)
+   |  +- (com.vladsch.flexmark:flexmark-ext-jekyll-front-matter:jar:0.32.18:compile - omitted for duplicate)
+   |  +- (com.vladsch.flexmark:flexmark-ext-superscript:jar:0.32.18:compile - omitted for duplicate)
+   |  +- (com.vladsch.flexmark:flexmark-ext-tables:jar:0.32.18:compile - omitted for duplicate)
+   |  +- (com.vladsch.flexmark:flexmark-ext-toc:jar:0.32.18:compile - omitted for duplicate)
+   |  +- (com.vladsch.flexmark:flexmark-ext-typographic:jar:0.32.18:compile - omitted for duplicate)
+   |  +- (com.vladsch.flexmark:flexmark-ext-wikilink:jar:0.32.18:compile - omitted for duplicate)
+   |  \- (com.vladsch.flexmark:flexmark-util:jar:0.32.18:compile - omitted for duplicate)
+   +- com.vladsch.flexmark:flexmark-util:jar:0.32.18:compile
+   \- com.vladsch.flexmark:flexmark-youtrack-converter:jar:0.32.18:compile
+      +- (com.vladsch.flexmark:flexmark-util:jar:0.32.18:compile - omitted for duplicate)
+      +- (com.vladsch.flexmark:flexmark:jar:0.32.18:compile - omitted for duplicate)
+      +- (com.vladsch.flexmark:flexmark-ext-gfm-strikethrough:jar:0.32.18:compile - omitted for duplicate)
+      \- (com.vladsch.flexmark:flexmark-ext-tables:jar:0.32.18:compile - omitted for duplicate)

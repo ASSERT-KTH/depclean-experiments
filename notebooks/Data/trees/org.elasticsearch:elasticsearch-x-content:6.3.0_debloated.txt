@@ -1,0 +1,6 @@
+org.elasticsearch:elasticsearch-x-content:jar:6.3.0
++- org.elasticsearch:elasticsearch-core:jar:6.3.0:compile
++- com.fasterxml.jackson.core:jackson-core:jar:2.8.10:compile
++- com.fasterxml.jackson.dataformat:jackson-dataformat-smile:jar:2.8.10:compile
++- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.8.10:compile
+\- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.8.10:compile

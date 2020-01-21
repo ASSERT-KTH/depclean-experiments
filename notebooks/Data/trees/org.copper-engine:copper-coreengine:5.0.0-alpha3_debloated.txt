@@ -1,0 +1,24 @@
+org.copper-engine:copper-coreengine:jar:5.0.0-alpha3
++- org.copper-engine:copper-jmx-interface:jar:5.0.0-alpha3:compile
+|  \- (org.slf4j:slf4j-api:jar:1.8.0-beta2:runtime - omitted for duplicate)
++- org.slf4j:slf4j-api:jar:1.8.0-beta2:runtime
++- org.ow2.asm:asm:jar:6.1.1:runtime
++- org.ow2.asm:asm-commons:jar:6.1.1:runtime
+|  +- (org.ow2.asm:asm:jar:6.1.1:runtime - omitted for duplicate)
+|  +- (org.ow2.asm:asm-tree:jar:6.1.1:runtime - omitted for duplicate)
+|  \- (org.ow2.asm:asm-analysis:jar:6.1.1:runtime - omitted for duplicate)
++- org.ow2.asm:asm-tree:jar:6.1.1:runtime
+|  \- (org.ow2.asm:asm:jar:6.1.1:runtime - omitted for duplicate)
++- org.ow2.asm:asm-util:jar:6.1.1:runtime
+|  +- (org.ow2.asm:asm:jar:6.1.1:runtime - omitted for duplicate)
+|  +- (org.ow2.asm:asm-tree:jar:6.1.1:runtime - omitted for duplicate)
+|  \- (org.ow2.asm:asm-analysis:jar:6.1.1:runtime - omitted for duplicate)
++- org.ow2.asm:asm-analysis:jar:6.1.1:runtime
+|  \- (org.ow2.asm:asm-tree:jar:6.1.1:runtime - omitted for duplicate)
++- javax.xml.bind:jaxb-api:jar:2.3.0:runtime
++- junit:junit:jar:4.11:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.mockito:mockito-all:jar:1.9.5:test
+\- org.slf4j:slf4j-log4j12:jar:1.8.0-beta2:test
+   +- (org.slf4j:slf4j-api:jar:1.8.0-beta2:test - omitted for duplicate)
+   \- log4j:log4j:jar:1.2.17:test

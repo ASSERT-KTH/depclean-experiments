@@ -1,0 +1,90 @@
+org.hdiv:hdiv-config:jar:3.4.0
++- org.hdiv:hdiv-core:jar:3.4.0:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for duplicate)
++- org.hdiv:hdiv-spring-mvc:jar:3.4.0:compile
+|  +- (org.hdiv:hdiv-core:jar:3.4.0:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for duplicate)
++- org.hdiv:hdiv-struts-1:jar:3.4.0:compile
+|  +- org.apache.struts:struts-core:jar:1.3.8:compile
+|  |  +- antlr:antlr:jar:2.7.2:compile
+|  |  +- commons-beanutils:commons-beanutils:jar:1.7.0:compile
+|  |  +- commons-chain:commons-chain:jar:1.1:compile
+|  |  |  +- (commons-beanutils:commons-beanutils:jar:1.7.0:compile - omitted for duplicate)
+|  |  |  \- (commons-digester:commons-digester:jar:1.6:compile - omitted for conflict with 1.8)
+|  |  +- commons-digester:commons-digester:jar:1.8:compile
+|  |  |  \- (commons-beanutils:commons-beanutils:jar:1.7.0:compile - omitted for duplicate)
+|  |  +- commons-validator:commons-validator:jar:1.3.1:compile
+|  |  |  +- (commons-beanutils:commons-beanutils:jar:1.7.0:compile - omitted for duplicate)
+|  |  |  \- (commons-digester:commons-digester:jar:1.6:compile - omitted for conflict with 1.8)
+|  |  \- oro:oro:jar:2.0.8:compile
+|  +- org.apache.struts:struts-taglib:jar:1.3.8:compile
+|  |  \- (org.apache.struts:struts-core:jar:1.3.8:compile - omitted for duplicate)
+|  +- org.apache.struts:struts-tiles:jar:1.3.8:compile
+|  |  \- (org.apache.struts:struts-core:jar:1.3.8:compile - omitted for duplicate)
+|  +- (org.hdiv:hdiv-core:jar:3.4.0:compile - omitted for duplicate)
+|  +- javax.servlet:jstl:jar:1.0.6:compile
+|  +- org.apache.struts:struts-el:jar:1.3.8:compile
+|  |  +- (javax.servlet:jstl:jar:1.0.2:compile - omitted for conflict with 1.0.6)
+|  |  +- (org.apache.struts:struts-core:jar:1.3.8:compile - omitted for duplicate)
+|  |  +- (org.apache.struts:struts-taglib:jar:1.3.8:compile - omitted for duplicate)
+|  |  \- taglibs:standard:jar:1.0.2:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for duplicate)
++- org.hdiv:hdiv-jsf:jar:3.4.0:compile
+|  +- (org.hdiv:hdiv-core:jar:3.4.0:compile - omitted for duplicate)
+|  +- org.springframework:spring-web:jar:3.2.16.RELEASE:compile
+|  |  +- org.springframework:spring-aop:jar:3.2.16.RELEASE:compile
+|  |  |  +- (aopalliance:aopalliance:jar:1.0:compile - omitted for duplicate)
+|  |  |  +- (org.springframework:spring-beans:jar:3.2.16.RELEASE:compile - omitted for duplicate)
+|  |  |  \- (org.springframework:spring-core:jar:3.2.16.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-beans:jar:3.2.16.RELEASE:compile - omitted for conflict with 4.0.9.RELEASE)
+|  |  +- (org.springframework:spring-context:jar:3.2.16.RELEASE:compile - omitted for conflict with 4.0.9.RELEASE)
+|  |  \- (org.springframework:spring-core:jar:3.2.16.RELEASE:compile - omitted for conflict with 4.0.9.RELEASE)
+|  \- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for duplicate)
++- javax.faces:jsf-api:jar:2.0:compile
++- org.hdiv:hdiv-thymeleaf:jar:3.4.0:compile
+|  +- (org.hdiv:hdiv-core:jar:3.4.0:compile - omitted for duplicate)
+|  +- (org.hdiv:hdiv-spring-mvc:jar:3.4.0:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for duplicate)
++- org.springframework:spring-webmvc:jar:4.0.9.RELEASE:compile
+|  +- org.springframework:spring-beans:jar:4.0.9.RELEASE:compile
+|  |  \- (org.springframework:spring-core:jar:4.0.9.RELEASE:compile - omitted for conflict with 3.2.16.RELEASE)
+|  +- org.springframework:spring-context:jar:4.0.9.RELEASE:compile
+|  |  +- (org.springframework:spring-aop:jar:4.0.9.RELEASE:compile - omitted for conflict with 3.2.16.RELEASE)
+|  |  +- (org.springframework:spring-beans:jar:4.0.9.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-core:jar:4.0.9.RELEASE:compile - omitted for conflict with 3.2.16.RELEASE)
+|  |  \- (org.springframework:spring-expression:jar:4.0.9.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework:spring-core:jar:4.0.9.RELEASE:compile
+|  +- org.springframework:spring-expression:jar:4.0.9.RELEASE:compile
+|  |  \- (org.springframework:spring-core:jar:4.0.9.RELEASE:compile - omitted for duplicate)
+|  \- (org.springframework:spring-web:jar:4.0.9.RELEASE:compile - omitted for conflict with 3.2.16.RELEASE)
++- javax.servlet:javax.servlet-api:jar:3.0.1:provided
++- org.springframework.security:spring-security-web:jar:3.2.9.RELEASE:compile
+|  +- aopalliance:aopalliance:jar:1.0:compile
+|  +- org.springframework.security:spring-security-core:jar:3.2.9.RELEASE:compile
+|  |  +- (aopalliance:aopalliance:jar:1.0:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-aop:jar:3.2.13.RELEASE:compile - omitted for conflict with 3.2.16.RELEASE)
+|  |  +- (org.springframework:spring-beans:jar:3.2.13.RELEASE:compile - omitted for conflict with 4.0.9.RELEASE)
+|  |  +- (org.springframework:spring-context:jar:3.2.13.RELEASE:compile - omitted for conflict with 4.0.9.RELEASE)
+|  |  +- (org.springframework:spring-core:jar:3.2.13.RELEASE:compile - omitted for conflict with 4.0.9.RELEASE)
+|  |  \- (org.springframework:spring-expression:jar:3.2.13.RELEASE:compile - omitted for conflict with 4.0.9.RELEASE)
+|  +- (org.springframework:spring-beans:jar:3.2.13.RELEASE:compile - omitted for conflict with 4.0.9.RELEASE)
+|  +- (org.springframework:spring-context:jar:3.2.13.RELEASE:compile - omitted for conflict with 4.0.9.RELEASE)
+|  +- (org.springframework:spring-core:jar:3.2.13.RELEASE:compile - omitted for conflict with 4.0.9.RELEASE)
+|  +- (org.springframework:spring-expression:jar:3.2.13.RELEASE:compile - omitted for conflict with 4.0.9.RELEASE)
+|  \- (org.springframework:spring-web:jar:3.2.13.RELEASE:compile - omitted for conflict with 3.2.16.RELEASE)
++- org.springframework:spring-test:jar:4.0.9.RELEASE:test
+|  \- (org.springframework:spring-core:jar:4.0.9.RELEASE:test - omitted for duplicate)
++- javax.validation:validation-api:jar:1.0.0.GA:test
++- org.hibernate:hibernate-validator:jar:4.3.0.Final:test
+|  +- (javax.validation:validation-api:jar:1.0.0.GA:test - omitted for duplicate)
+|  \- org.jboss.logging:jboss-logging:jar:3.1.0.CR2:test
++- cglib:cglib:jar:3.1:test
+|  \- org.ow2.asm:asm:jar:4.2:test
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.slf4j:slf4j-log4j12:jar:1.7.5:test
+|  +- (org.slf4j:slf4j-api:jar:1.7.5:test - omitted for duplicate)
+|  \- (log4j:log4j:jar:1.2.17:test - omitted for duplicate)
++- log4j:log4j:jar:1.2.17:test
++- commons-logging:commons-logging:jar:1.2:test
+\- org.slf4j:slf4j-api:jar:1.7.5:compile

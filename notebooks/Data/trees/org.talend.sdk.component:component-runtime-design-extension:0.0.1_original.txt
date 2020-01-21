@@ -1,0 +1,29 @@
+org.talend.sdk.component:component-runtime-design-extension:bundle:0.0.1
++- org.talend.sdk.component:component-runtime-manager:jar:0.0.1:compile
+|  +- org.talend.sdk.component:component-spi:jar:0.0.1:compile
+|  +- org.talend.sdk.component:component-runtime-impl:jar:0.0.1:compile
+|  |  +- org.talend.sdk.component:component-api:jar:0.0.1:compile
+|  |  |  +- org.apache.geronimo.specs:geronimo-annotation_1.3_spec:jar:1.0:compile
+|  |  |  +- org.apache.geronimo.specs:geronimo-json_1.1_spec:jar:1.0:compile
+|  |  |  \- org.apache.geronimo.specs:geronimo-jsonb_1.0_spec:jar:1.0:compile
+|  |  \- org.apache.johnzon:johnzon-jsonb:jar:1.1.7:compile
+|  |     \- org.apache.johnzon:johnzon-mapper:jar:1.1.7:compile
+|  |        \- (org.apache.johnzon:johnzon-core:jar:1.1.7:compile - omitted for duplicate)
+|  +- org.talend.sdk.component:container-core:jar:0.0.1:compile
+|  |  \- org.slf4j:slf4j-api:jar:1.7.25:compile
+|  +- org.apache.xbean:xbean-finder-shaded:jar:4.6:compile
+|  |  \- org.apache.xbean:xbean-asm6-shaded:jar:4.6:compile
+|  +- org.apache.xbean:xbean-reflect:jar:4.6:compile
+|  \- org.apache.johnzon:johnzon-core:jar:1.1.7:compile
++- org.slf4j:slf4j-jdk14:jar:1.7.25:provided
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - scope updated from provided; omitted for duplicate)
++- org.apache.tomee:ziplock:jar:7.0.4:test
+|  +- org.jboss.shrinkwrap:shrinkwrap-api:jar:1.2.6:test
+|  \- org.apache.tomee:javaee-api:jar:7.0-1:test
++- org.talend.sdk.component:component-runtime-junit-base:jar:0.0.1:test
++- org.projectlombok:lombok:jar:1.16.18:provided
+\- org.junit.jupiter:junit-jupiter-api:jar:5.1.0-RC1:test
+   +- org.apiguardian:apiguardian-api:jar:1.0.0:test
+   +- org.opentest4j:opentest4j:jar:1.0.0:test
+   \- org.junit.platform:junit-platform-commons:jar:1.1.0-RC1:test
+      \- (org.apiguardian:apiguardian-api:jar:1.0.0:test - omitted for duplicate)

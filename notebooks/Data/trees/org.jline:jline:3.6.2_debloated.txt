@@ -1,0 +1,7 @@
+org.jline:jline:jar:3.6.2
++- org.fusesource.jansi:jansi:jar:1.17:compile
++- net.java.dev.jna:jna:jar:4.2.2:compile
++- com.googlecode.juniversalchardet:juniversalchardet:jar:1.0.3:compile
++- org.apache.sshd:sshd-core:jar:1.4.0:compile
+|  \- org.slf4j:slf4j-api:jar:1.7.21:compile (version managed from 1.7.22)
+\- com.google.code.findbugs:jsr305:jar:3.0.2:compile

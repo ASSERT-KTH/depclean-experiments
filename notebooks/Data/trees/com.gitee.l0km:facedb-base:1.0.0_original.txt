@@ -1,0 +1,16 @@
+com.gitee.l0km:facedb-base:jar:1.0.0
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.apache.commons:commons-lang3:jar:3.7:compile
++- com.gitee.l0km:common-base:jar:1.0.5:compile
++- com.gitee.l0km:common-base2:jar:1.0.5:compile
+|  \- com.google.guava:guava:jar:20.0:compile
++- com.gitee.l0km:codegen-annotations:jar:1.0.2:provided
++- com.gitee.l0km:faceapi-base:jar:1.0.3:compile
+|  \- (com.gitee.l0km:common-base:jar:1.0.5:compile - omitted for duplicate)
+\- com.gitee.l0km:facedb-db:jar:1.0.0:compile
+   +- mysql:mysql-connector-java:jar:5.1.43:compile
+   +- c3p0:c3p0:jar:0.9.0.4:compile
+   +- commons-lang:commons-lang:jar:2.1:compile
+   +- com.facebook.swift:swift-annotations:jar:0.14.2:compile
+   \- (com.google.guava:guava:jar:20.0:compile - omitted for duplicate)

@@ -1,0 +1,296 @@
+org.webpieces:WEBPIECESxAPPNAME:jar:1.9.101
++- javax.inject:javax.inject:jar:1:compile
++- org.slf4j:slf4j-api:jar:1.7.21:compile
++- ch.qos.logback:logback-classic:jar:1.1.7:compile
+|  +- ch.qos.logback:logback-core:jar:1.1.7:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.20:compile - omitted for conflict with 1.7.21)
++- joda-time:joda-time:jar:2.9.4:compile
++- org.webpieces:http-webserver:jar:1.9.101:compile
+|  +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|  +- (ch.qos.logback:logback-classic:jar:1.1.7:compile - omitted for duplicate)
+|  +- (joda-time:joda-time:jar:2.9.4:compile - omitted for duplicate)
+|  +- com.google.inject:guice:jar:4.2.0:compile
+|  |  +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  |  +- aopalliance:aopalliance:jar:1.0:compile
+|  |  \- com.google.guava:guava:jar:23.6-android:compile
+|  |     +- com.google.code.findbugs:jsr305:jar:1.3.9:compile
+|  |     +- org.checkerframework:checker-compat-qual:jar:2.0.0:compile
+|  |     +- com.google.errorprone:error_prone_annotations:jar:2.1.3:compile
+|  |     +- com.google.j2objc:j2objc-annotations:jar:1.1:compile
+|  |     \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:compile
+|  +- org.shredzone.acme4j:acme4j-client:jar:2.1:compile
+|  |  +- org.bitbucket.b_c:jose4j:jar:0.6.3:compile
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for conflict with 1.7.21)
+|  +- org.webpieces:http-frontend2:jar:1.9.101:compile
+|  |  +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|  |  +- (ch.qos.logback:logback-classic:jar:1.1.7:compile - omitted for duplicate)
+|  |  +- (joda-time:joda-time:jar:2.9.4:compile - omitted for duplicate)
+|  |  +- org.webpieces:core-asyncserver:jar:1.9.101:compile
+|  |  |  +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|  |  |  +- (ch.qos.logback:logback-classic:jar:1.1.7:compile - omitted for duplicate)
+|  |  |  +- (joda-time:joda-time:jar:2.9.4:compile - omitted for duplicate)
+|  |  |  \- org.webpieces:core-channelmanager2:jar:1.9.101:compile
+|  |  |     +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  |  |     +- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|  |  |     +- (ch.qos.logback:logback-classic:jar:1.1.7:compile - omitted for duplicate)
+|  |  |     +- (joda-time:joda-time:jar:2.9.4:compile - omitted for duplicate)
+|  |  |     +- io.dropwizard.metrics:metrics-core:jar:3.1.0:compile
+|  |  |     |  \- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for conflict with 1.7.21)
+|  |  |     +- (org.webpieces:core-util:jar:1.9.101:compile - omitted for duplicate)
+|  |  |     +- (org.webpieces:core-datawrapper:jar:1.9.101:compile - omitted for duplicate)
+|  |  |     \- org.webpieces:core-ssl:jar:1.9.101:compile
+|  |  |        +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  |  |        +- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|  |  |        +- (ch.qos.logback:logback-classic:jar:1.1.7:compile - omitted for duplicate)
+|  |  |        +- (joda-time:joda-time:jar:2.9.4:compile - omitted for duplicate)
+|  |  |        +- (org.webpieces:core-datawrapper:jar:1.9.101:compile - omitted for duplicate)
+|  |  |        \- (org.webpieces:core-util:jar:1.9.101:compile - omitted for duplicate)
+|  |  +- (org.webpieces:http1_1-parser:jar:1.9.101:compile - omitted for duplicate)
+|  |  +- org.webpieces:http2-engine:jar:1.9.101:compile
+|  |  |  +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|  |  |  +- (ch.qos.logback:logback-classic:jar:1.1.7:compile - omitted for duplicate)
+|  |  |  +- (joda-time:joda-time:jar:2.9.4:compile - omitted for duplicate)
+|  |  |  +- javax.xml.bind:jaxb-api:jar:2.3.0:compile
+|  |  |  +- org.webpieces:http2-hpack:jar:1.9.101:compile
+|  |  |  |  +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|  |  |  |  +- (ch.qos.logback:logback-classic:jar:1.1.7:compile - omitted for duplicate)
+|  |  |  |  +- (joda-time:joda-time:jar:2.9.4:compile - omitted for duplicate)
+|  |  |  |  +- com.twitter:hpack:jar:v1.0.1:compile
+|  |  |  |  +- (org.webpieces:core-util:jar:1.9.101:compile - omitted for duplicate)
+|  |  |  |  \- org.webpieces:http2-parser:jar:1.9.101:compile
+|  |  |  |     +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  |  |  |     +- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|  |  |  |     +- (ch.qos.logback:logback-classic:jar:1.1.7:compile - omitted for duplicate)
+|  |  |  |     +- (joda-time:joda-time:jar:2.9.4:compile - omitted for duplicate)
+|  |  |  |     \- (org.webpieces:core-datawrapper:jar:1.9.101:compile - omitted for duplicate)
+|  |  |  \- org.webpieces:core-statemachine:jar:1.9.101:compile
+|  |  |     +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  |  |     +- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|  |  |     +- (ch.qos.logback:logback-classic:jar:1.1.7:compile - omitted for duplicate)
+|  |  |     +- (joda-time:joda-time:jar:2.9.4:compile - omitted for duplicate)
+|  |  |     \- (org.webpieces:core-util:jar:1.9.101:compile - omitted for duplicate)
+|  |  \- org.webpieces:http2-translations:jar:1.9.101:compile
+|  |     +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  |     +- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|  |     +- (ch.qos.logback:logback-classic:jar:1.1.7:compile - omitted for duplicate)
+|  |     +- (joda-time:joda-time:jar:2.9.4:compile - omitted for duplicate)
+|  |     +- (org.webpieces:http2-hpack:jar:1.9.101:compile - omitted for duplicate)
+|  |     \- (org.webpieces:http1_1-parser:jar:1.9.101:compile - omitted for duplicate)
+|  +- org.webpieces:http-templating:jar:1.9.101:compile
+|  |  +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|  |  +- (ch.qos.logback:logback-classic:jar:1.1.7:compile - omitted for duplicate)
+|  |  +- (joda-time:joda-time:jar:2.9.4:compile - omitted for duplicate)
+|  |  +- (com.google.inject:guice:jar:4.2.0:compile - omitted for duplicate)
+|  |  +- (org.codehaus.groovy:groovy-all:jar:2.4.6:compile - omitted for duplicate)
+|  |  +- commons-beanutils:commons-beanutils:jar:1.9.2:compile
+|  |  |  +- commons-logging:commons-logging:jar:1.1.1:compile
+|  |  |  \- commons-collections:commons-collections:jar:3.2.2:compile
+|  |  +- org.webpieces:core-util:jar:1.9.101:compile
+|  |  |  +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|  |  |  +- (ch.qos.logback:logback-classic:jar:1.1.7:compile - omitted for duplicate)
+|  |  |  \- (joda-time:joda-time:jar:2.9.4:compile - omitted for duplicate)
+|  |  \- org.webpieces:http-shared:jar:1.9.101:compile
+|  |     +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  |     +- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|  |     +- (ch.qos.logback:logback-classic:jar:1.1.7:compile - omitted for duplicate)
+|  |     +- (joda-time:joda-time:jar:2.9.4:compile - omitted for duplicate)
+|  |     +- (com.google.inject:guice:jar:4.2.0:compile - omitted for duplicate)
+|  |     +- (org.webpieces:core-util:jar:1.9.101:compile - omitted for duplicate)
+|  |     \- (org.webpieces:core-datawrapper:jar:1.9.101:compile - omitted for duplicate)
+|  \- org.webpieces:http-router:jar:1.9.101:compile
+|     +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|     +- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|     +- (ch.qos.logback:logback-classic:jar:1.1.7:compile - omitted for duplicate)
+|     +- (joda-time:joda-time:jar:2.9.4:compile - omitted for duplicate)
+|     +- (com.google.inject:guice:jar:4.2.0:compile - omitted for duplicate)
+|     +- com.google.inject.extensions:guice-multibindings:jar:4.0:compile
+|     |  \- (com.google.inject:guice:jar:4.0:compile - omitted for conflict with 4.2.0)
+|     +- (org.webpieces:core-util:jar:1.9.101:compile - omitted for duplicate)
+|     +- org.webpieces:core-datawrapper:jar:1.9.101:compile
+|     |  +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|     |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|     |  +- (ch.qos.logback:logback-classic:jar:1.1.7:compile - omitted for duplicate)
+|     |  \- (joda-time:joda-time:jar:2.9.4:compile - omitted for duplicate)
+|     \- (org.webpieces:http-shared:jar:1.9.101:compile - omitted for duplicate)
++- org.webpieces:plugin-hibernate:jar:1.9.101:compile
+|  +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|  +- (ch.qos.logback:logback-classic:jar:1.1.7:compile - omitted for duplicate)
+|  +- (joda-time:joda-time:jar:2.9.4:compile - omitted for duplicate)
+|  +- org.hibernate:hibernate-core:jar:5.3.2.Final:compile
+|  |  +- org.jboss.logging:jboss-logging:jar:3.3.2.Final:compile
+|  |  +- javax.persistence:javax.persistence-api:jar:2.2:compile
+|  |  +- org.javassist:javassist:jar:3.22.0-GA:compile
+|  |  +- net.bytebuddy:byte-buddy:jar:1.8.12:compile
+|  |  +- antlr:antlr:jar:2.7.7:compile
+|  |  +- org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.1.1.Final:compile
+|  |  +- org.jboss:jandex:jar:2.0.5.Final:compile
+|  |  +- com.fasterxml:classmate:jar:1.3.4:compile
+|  |  +- javax.activation:javax.activation-api:jar:1.2.0:compile
+|  |  +- dom4j:dom4j:jar:1.6.1:compile
+|  |  |  \- xml-apis:xml-apis:jar:1.0.b2:compile
+|  |  \- org.hibernate.common:hibernate-commons-annotations:jar:5.0.4.Final:compile
+|  |     \- (org.jboss.logging:jboss-logging:jar:3.3.1.Final:compile - omitted for conflict with 3.3.2.Final)
+|  +- com.googlecode.log4jdbc:log4jdbc:jar:1.2:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.6.0:compile - omitted for conflict with 1.7.21)
+|  \- (org.webpieces:http-router:jar:1.9.101:compile - omitted for duplicate)
++- org.webpieces:plugin-json-jackson:jar:1.9.101:compile
+|  +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|  +- (ch.qos.logback:logback-classic:jar:1.1.7:compile - omitted for duplicate)
+|  +- (joda-time:joda-time:jar:2.9.4:compile - omitted for duplicate)
+|  +- org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:compile
+|  |  \- org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile
+|  +- (org.webpieces:http-router:jar:1.9.101:compile - omitted for duplicate)
+|  \- org.webpieces:http1_1-parser:jar:1.9.101:compile
+|     +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|     +- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|     +- (ch.qos.logback:logback-classic:jar:1.1.7:compile - omitted for duplicate)
+|     +- (joda-time:joda-time:jar:2.9.4:compile - omitted for duplicate)
+|     +- (org.webpieces:core-datawrapper:jar:1.9.101:compile - omitted for duplicate)
+|     \- (org.webpieces:core-util:jar:1.9.101:compile - omitted for duplicate)
++- org.webpieces:plugin-backend:jar:1.9.101:compile
+|  +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|  +- (ch.qos.logback:logback-classic:jar:1.1.7:compile - omitted for duplicate)
+|  +- (joda-time:joda-time:jar:2.9.4:compile - omitted for duplicate)
+|  +- (org.webpieces:http-webserver:jar:1.9.101:compile - omitted for duplicate)
+|  \- (org.webpieces:http1_1-parser:jar:1.9.101:compile - omitted for duplicate)
++- org.webpieces:plugin-install-sslcert:jar:1.9.101:compile
+|  +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|  +- (ch.qos.logback:logback-classic:jar:1.1.7:compile - omitted for duplicate)
+|  +- (joda-time:joda-time:jar:2.9.4:compile - omitted for duplicate)
+|  +- (org.shredzone.acme4j:acme4j-client:jar:2.1:compile - omitted for duplicate)
+|  +- org.shredzone.acme4j:acme4j-utils:jar:2.1:compile
+|  |  +- (org.shredzone.acme4j:acme4j-client:jar:2.1:compile - omitted for duplicate)
+|  |  +- org.bouncycastle:bcprov-jdk15on:jar:1.59:compile
+|  |  +- org.bouncycastle:bcpkix-jdk15on:jar:1.59:compile
+|  |  |  \- (org.bouncycastle:bcprov-jdk15on:jar:1.59:compile - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for conflict with 1.7.21)
+|  +- (org.webpieces:http-router:jar:1.9.101:compile - omitted for duplicate)
+|  +- (org.webpieces:http1_1-parser:jar:1.9.101:compile - omitted for duplicate)
+|  \- (org.webpieces:plugin-backend:jar:1.9.101:compile - omitted for duplicate)
++- org.apache.commons:commons-lang3:jar:3.5:compile
++- junit:junit:jar:4.11:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.codehaus.groovy:groovy-all:jar:2.4.6:test (scope not updated to compile)
++- org.webpieces:core-ddl:jar:1.9.101:test
+|  +- (javax.inject:javax.inject:jar:1:test - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.21:test - omitted for duplicate)
+|  +- (ch.qos.logback:logback-classic:jar:1.1.7:test - omitted for duplicate)
+|  +- (joda-time:joda-time:jar:2.9.4:test - omitted for duplicate)
+|  \- (org.webpieces:core-util:jar:1.9.101:compile - scope updated from test; omitted for duplicate)
++- org.webpieces:core-mock:jar:1.9.101:test
+|  +- (javax.inject:javax.inject:jar:1:test - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.21:test - omitted for duplicate)
+|  +- (ch.qos.logback:logback-classic:jar:1.1.7:test - omitted for duplicate)
+|  +- (joda-time:joda-time:jar:2.9.4:test - omitted for duplicate)
+|  \- (org.webpieces:core-util:jar:1.9.101:compile - scope updated from test; omitted for duplicate)
++- org.webpieces:plugin-h2db:jar:1.9.101:test
+|  +- (javax.inject:javax.inject:jar:1:test - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.21:test - omitted for duplicate)
+|  +- (ch.qos.logback:logback-classic:jar:1.1.7:test - omitted for duplicate)
+|  +- (joda-time:joda-time:jar:2.9.4:test - omitted for duplicate)
+|  +- com.h2database:h2:jar:1.4.192:test
+|  \- (org.webpieces:http-router:jar:1.9.101:test - omitted for duplicate)
++- org.webpieces:http-webserver-test:jar:1.9.101:test
+|  +- (javax.inject:javax.inject:jar:1:test - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.21:test - omitted for duplicate)
+|  +- (ch.qos.logback:logback-classic:jar:1.1.7:test - omitted for duplicate)
+|  +- (joda-time:joda-time:jar:2.9.4:test - omitted for duplicate)
+|  +- (com.google.inject:guice:jar:4.2.0:test - omitted for duplicate)
+|  +- (org.webpieces:core-mock:jar:1.9.101:test - omitted for duplicate)
+|  +- (org.webpieces:http-frontend2:jar:1.9.101:test - omitted for duplicate)
+|  +- org.webpieces:http1_1-client:jar:1.9.101:test
+|  |  +- (javax.inject:javax.inject:jar:1:test - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.21:test - omitted for duplicate)
+|  |  +- (ch.qos.logback:logback-classic:jar:1.1.7:test - omitted for duplicate)
+|  |  +- (joda-time:joda-time:jar:2.9.4:test - omitted for duplicate)
+|  |  +- (org.webpieces:core-channelmanager2:jar:1.9.101:compile - scope updated from test; omitted for duplicate)
+|  |  \- (org.webpieces:http1_1-parser:jar:1.9.101:test - omitted for duplicate)
+|  +- org.webpieces:http2-client:jar:1.9.101:test
+|  |  +- (javax.inject:javax.inject:jar:1:test - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.21:test - omitted for duplicate)
+|  |  +- (ch.qos.logback:logback-classic:jar:1.1.7:test - omitted for duplicate)
+|  |  +- (joda-time:joda-time:jar:2.9.4:test - omitted for duplicate)
+|  |  +- (org.webpieces:core-channelmanager2:jar:1.9.101:compile - scope updated from test; omitted for duplicate)
+|  |  \- (org.webpieces:http2-engine:jar:1.9.101:test - omitted for duplicate)
+|  \- org.webpieces:http-templating-dev:jar:1.9.101:test
+|     +- (javax.inject:javax.inject:jar:1:test - omitted for duplicate)
+|     +- (org.slf4j:slf4j-api:jar:1.7.21:test - omitted for duplicate)
+|     +- (ch.qos.logback:logback-classic:jar:1.1.7:test - omitted for duplicate)
+|     +- (joda-time:joda-time:jar:2.9.4:test - omitted for duplicate)
+|     +- commons-io:commons-io:jar:2.4:test
+|     +- (org.apache.commons:commons-lang3:jar:3.5:test - omitted for duplicate)
+|     \- (org.webpieces:http-templating:jar:1.9.101:test - omitted for duplicate)
+\- org.seleniumhq.selenium:selenium-java:jar:2.53.1:test
+   +- org.seleniumhq.selenium:selenium-chrome-driver:jar:2.53.1:test
+   |  \- org.seleniumhq.selenium:selenium-remote-driver:jar:2.53.1:test
+   |     +- cglib:cglib-nodep:jar:2.1_3:test
+   |     +- com.google.code.gson:gson:jar:2.3.1:test
+   |     +- org.seleniumhq.selenium:selenium-api:jar:2.53.1:test
+   |     |  +- (com.google.guava:guava:jar:19.0:test - omitted for conflict with 23.6-android)
+   |     |  \- (com.google.code.gson:gson:jar:2.3.1:test - omitted for duplicate)
+   |     +- org.apache.httpcomponents:httpclient:jar:4.5.1:test
+   |     |  +- org.apache.httpcomponents:httpcore:jar:4.4.3:test
+   |     |  +- (commons-logging:commons-logging:jar:1.2:test - omitted for conflict with 1.1.1)
+   |     |  \- (commons-codec:commons-codec:jar:1.9:test - omitted for conflict with 1.10)
+   |     +- (com.google.guava:guava:jar:19.0:test - omitted for conflict with 23.6-android)
+   |     +- (org.apache.commons:commons-exec:jar:1.3:test - omitted for duplicate)
+   |     +- (net.java.dev.jna:jna:jar:4.1.0:test - omitted for duplicate)
+   |     \- (net.java.dev.jna:jna-platform:jar:4.1.0:test - omitted for duplicate)
+   +- org.seleniumhq.selenium:selenium-edge-driver:jar:2.53.1:test
+   |  +- (org.seleniumhq.selenium:selenium-remote-driver:jar:2.53.1:test - omitted for duplicate)
+   |  +- (commons-io:commons-io:jar:2.4:test - omitted for duplicate)
+   |  \- org.apache.commons:commons-exec:jar:1.3:test
+   +- org.seleniumhq.selenium:htmlunit-driver:jar:2.21:test
+   |  +- net.sourceforge.htmlunit:htmlunit:jar:2.21:test
+   |  |  +- xalan:xalan:jar:2.7.2:test
+   |  |  |  \- xalan:serializer:jar:2.7.2:test
+   |  |  +- (org.apache.commons:commons-lang3:jar:3.4:test - omitted for conflict with 3.5)
+   |  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.2:test - omitted for conflict with 4.5.1)
+   |  |  +- org.apache.httpcomponents:httpmime:jar:4.5.2:test
+   |  |  |  \- (org.apache.httpcomponents:httpclient:jar:4.5.2:test - omitted for conflict with 4.5.1)
+   |  |  +- commons-codec:commons-codec:jar:1.10:test
+   |  |  +- net.sourceforge.htmlunit:htmlunit-core-js:jar:2.17:test
+   |  |  +- net.sourceforge.htmlunit:neko-htmlunit:jar:2.21:test
+   |  |  |  \- xerces:xercesImpl:jar:2.11.0:test
+   |  |  |     \- (xml-apis:xml-apis:jar:1.4.01:test - omitted for conflict with 1.0.b2)
+   |  |  +- net.sourceforge.cssparser:cssparser:jar:0.9.18:test
+   |  |  |  \- org.w3c.css:sac:jar:1.3:test
+   |  |  +- (commons-io:commons-io:jar:2.4:test - omitted for duplicate)
+   |  |  +- (commons-logging:commons-logging:jar:1.2:test - omitted for conflict with 1.1.1)
+   |  |  \- org.eclipse.jetty.websocket:websocket-client:jar:9.2.15.v20160210:test
+   |  |     +- org.eclipse.jetty:jetty-util:jar:9.2.15.v20160210:test
+   |  |     +- org.eclipse.jetty:jetty-io:jar:9.2.15.v20160210:test
+   |  |     |  \- (org.eclipse.jetty:jetty-util:jar:9.2.15.v20160210:test - omitted for duplicate)
+   |  |     \- org.eclipse.jetty.websocket:websocket-common:jar:9.2.15.v20160210:test
+   |  |        +- org.eclipse.jetty.websocket:websocket-api:jar:9.2.15.v20160210:test
+   |  |        +- (org.eclipse.jetty:jetty-util:jar:9.2.15.v20160210:test - omitted for duplicate)
+   |  |        \- (org.eclipse.jetty:jetty-io:jar:9.2.15.v20160210:test - omitted for duplicate)
+   |  \- (commons-collections:commons-collections:jar:3.2.2:compile - scope updated from test; omitted for duplicate)
+   +- org.seleniumhq.selenium:selenium-firefox-driver:jar:2.53.1:test
+   |  +- (org.seleniumhq.selenium:selenium-remote-driver:jar:2.53.1:test - omitted for duplicate)
+   |  +- (commons-io:commons-io:jar:2.4:test - omitted for duplicate)
+   |  \- (org.apache.commons:commons-exec:jar:1.3:test - omitted for duplicate)
+   +- org.seleniumhq.selenium:selenium-ie-driver:jar:2.53.1:test
+   |  +- net.java.dev.jna:jna:jar:4.1.0:test
+   |  +- net.java.dev.jna:jna-platform:jar:4.1.0:test
+   |  |  \- (net.java.dev.jna:jna:jar:4.1.0:test - omitted for duplicate)
+   |  \- (org.seleniumhq.selenium:selenium-remote-driver:jar:2.53.1:test - omitted for duplicate)
+   +- org.seleniumhq.selenium:selenium-safari-driver:jar:2.53.1:test
+   |  +- (org.seleniumhq.selenium:selenium-remote-driver:jar:2.53.1:test - omitted for duplicate)
+   |  \- io.netty:netty:jar:3.5.7.Final:test
+   +- org.seleniumhq.selenium:selenium-support:jar:2.53.1:test
+   |  \- (org.seleniumhq.selenium:selenium-remote-driver:jar:2.53.1:test - omitted for duplicate)
+   \- org.seleniumhq.selenium:selenium-leg-rc:jar:2.53.1:test
+      \- (org.seleniumhq.selenium:selenium-remote-driver:jar:2.53.1:test - omitted for duplicate)

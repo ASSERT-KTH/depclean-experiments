@@ -1,0 +1,15 @@
+com.sap.cloud.servicesdk:hana-connectivity-cds:jar:1.14.0
++- junit:junit:jar:4.8.1:test
++- org.mockito:mockito-all:jar:1.9.5:test
++- javax.servlet:javax.servlet-api:jar:3.1.0:provided
++- org.slf4j:slf4j-simple:jar:1.7.7:provided
+|  \- org.slf4j:slf4j-api:jar:1.7.7:provided
++- org.apache.commons:commons-lang3:jar:3.3.2:compile
++- com.sap.cloud.servicesdk.prov:odata4.core:jar:1.14.0:compile
+|  +- com.sap.cloud.servicesdk.prov:odata4.api:jar:1.14.0:compile
+|  \- com.sap.cloud.servicesdk.prov:edmxparser:jar:1.14.0:compile
++- com.sap.cloud.servicesdk.prov:api:jar:1.14.0:compile
+|  +- com.google.guava:guava:jar:21.0:compile
+|  \- javax.transaction:javax.transaction-api:jar:1.2:compile
++- com.sap.cloud.servicesdk:hana.connectivity.cds-core:jar:1.14.0:compile
+\- org.apache.derby:derby:jar:10.8.3.0:test

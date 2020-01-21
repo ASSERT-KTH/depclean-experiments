@@ -1,0 +1,35 @@
+org.boofcv:boofcv-io:jar:0.28
++- org.georegression:georegression:jar:0.15:compile
+|  \- org.ddogleg:ddogleg:jar:0.13:compile
+|     +- org.ejml:ejml-core:jar:0.33:compile
+|     +- org.ejml:ejml-fdense:jar:0.33:compile
+|     |  \- (org.ejml:ejml-core:jar:0.33:compile - omitted for duplicate)
+|     +- org.ejml:ejml-ddense:jar:0.33:compile
+|     |  \- (org.ejml:ejml-core:jar:0.33:compile - omitted for duplicate)
+|     +- org.ejml:ejml-simple:jar:0.33:compile
+|     |  +- (org.ejml:ejml-core:jar:0.33:compile - omitted for duplicate)
+|     |  +- (org.ejml:ejml-fdense:jar:0.33:compile - omitted for duplicate)
+|     |  +- (org.ejml:ejml-ddense:jar:0.33:compile - omitted for duplicate)
+|     |  +- org.ejml:ejml-cdense:jar:0.33:compile
+|     |  |  \- (org.ejml:ejml-core:jar:0.33:compile - omitted for duplicate)
+|     |  +- org.ejml:ejml-zdense:jar:0.33:compile
+|     |  |  \- (org.ejml:ejml-core:jar:0.33:compile - omitted for duplicate)
+|     |  \- (org.ejml:ejml-dsparse:jar:0.33:compile - omitted for duplicate)
+|     \- org.ejml:ejml-dsparse:jar:0.33:compile
+|        +- (org.ejml:ejml-core:jar:0.33:compile - omitted for duplicate)
+|        \- (org.ejml:ejml-ddense:jar:0.33:compile - omitted for duplicate)
++- org.boofcv:boofcv-ip:jar:0.28:compile
+|  \- (org.georegression:georegression:jar:0.15:compile - omitted for duplicate)
++- org.boofcv:boofcv-calibration:jar:0.28:compile
+|  +- (org.georegression:georegression:jar:0.15:compile - omitted for duplicate)
+|  +- (org.boofcv:boofcv-ip:jar:0.28:compile - omitted for duplicate)
+|  +- org.boofcv:boofcv-feature:jar:0.28:compile
+|  |  +- (org.georegression:georegression:jar:0.15:compile - omitted for duplicate)
+|  |  \- (org.boofcv:boofcv-ip:jar:0.28:compile - omitted for duplicate)
+|  \- org.boofcv:boofcv-geo:jar:0.28:compile
+|     +- (org.georegression:georegression:jar:0.15:compile - omitted for duplicate)
+|     +- (org.boofcv:boofcv-ip:jar:0.28:compile - omitted for duplicate)
+|     \- (org.boofcv:boofcv-feature:jar:0.28:compile - omitted for duplicate)
++- org.yaml:snakeyaml:jar:1.17:compile
+\- junit:junit:jar:4.12:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

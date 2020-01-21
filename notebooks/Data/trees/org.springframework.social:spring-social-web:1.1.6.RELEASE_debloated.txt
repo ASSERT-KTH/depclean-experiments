@@ -1,0 +1,38 @@
+org.springframework.social:spring-social-web:jar:1.1.6.RELEASE
++- org.springframework.social:spring-social-core:jar:1.1.6.RELEASE:compile
+|  \- (org.springframework:spring-web:jar:4.1.8.RELEASE:compile - omitted for duplicate)
++- javax.inject:javax.inject:jar:1:compile
++- org.springframework:spring-web:jar:4.1.8.RELEASE:compile
+|  +- org.springframework:spring-aop:jar:4.1.8.RELEASE:compile
+|  |  +- aopalliance:aopalliance:jar:1.0:compile
+|  |  +- (org.springframework:spring-beans:jar:4.1.8.RELEASE:compile - omitted for duplicate)
+|  |  \- (org.springframework:spring-core:jar:4.1.8.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework:spring-beans:jar:4.1.8.RELEASE:compile
+|  |  \- (org.springframework:spring-core:jar:4.1.8.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework:spring-context:jar:4.1.8.RELEASE:compile
+|  |  +- (org.springframework:spring-aop:jar:4.1.8.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-beans:jar:4.1.8.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-core:jar:4.1.8.RELEASE:compile - omitted for duplicate)
+|  |  \- (org.springframework:spring-expression:jar:4.1.8.RELEASE:compile - omitted for duplicate)
+|  \- org.springframework:spring-core:jar:4.1.8.RELEASE:compile
+|     \- commons-logging:commons-logging:jar:1.2:compile
++- org.springframework:spring-webmvc:jar:4.1.8.RELEASE:compile
+|  +- (org.springframework:spring-beans:jar:4.1.8.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-context:jar:4.1.8.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-core:jar:4.1.8.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework:spring-expression:jar:4.1.8.RELEASE:compile
+|  |  \- (org.springframework:spring-core:jar:4.1.8.RELEASE:compile - omitted for duplicate)
+|  \- (org.springframework:spring-web:jar:4.1.8.RELEASE:compile - omitted for duplicate)
++- javax.servlet:javax.servlet-api:jar:3.1.0:provided
++- javax.servlet.jsp:javax.servlet.jsp-api:jar:2.2.1:provided
++- org.thymeleaf:thymeleaf:jar:2.1.5.RELEASE:compile
+|  +- ognl:ognl:jar:3.0.8:compile
+|  +- org.javassist:javassist:jar:3.16.1-GA:compile
+|  +- org.unbescape:unbescape:jar:1.1.0.RELEASE:compile
+|  \- org.slf4j:slf4j-api:jar:1.6.6:compile
++- org.thymeleaf:thymeleaf-spring4:jar:2.1.5.RELEASE:compile
+|  +- (org.thymeleaf:thymeleaf:jar:2.1.5.RELEASE:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.6.6:compile - omitted for duplicate)
+\- org.thymeleaf:thymeleaf-spring5:jar:3.0.9.RELEASE:compile
+   +- (org.thymeleaf:thymeleaf:jar:3.0.9.RELEASE:compile - omitted for conflict with 2.1.5.RELEASE)
+   \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for conflict with 1.6.6)

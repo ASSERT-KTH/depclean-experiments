@@ -1,0 +1,32 @@
+com.heroku.sdk:heroku-deploy:jar:2.0.4
++- com.fasterxml.jackson.core:jackson-core:jar:2.9.2:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.9.2:compile
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.2:compile - omitted for duplicate)
++- org.apache.commons:commons-compress:jar:1.15:compile
+|  \- org.objenesis:objenesis:jar:2.6:compile
++- commons-io:commons-io:jar:2.6:compile
++- org.apache.commons:commons-text:jar:1.1:compile
+|  \- org.apache.commons:commons-lang3:jar:3.5:compile
++- org.eclipse.jgit:org.eclipse.jgit:jar:4.5.3.201708160445-r:compile
+|  +- com.jcraft:jsch:jar:0.1.53:compile
+|  +- com.googlecode.javaewah:JavaEWAH:jar:0.7.9:compile
+|  +- (org.apache.httpcomponents:httpclient:jar:4.3.6:compile - omitted for conflict with 4.5.3)
+|  \- org.slf4j:slf4j-api:jar:1.7.2:compile
++- org.apache.httpcomponents:httpclient:jar:4.5.3:compile
+|  +- org.apache.httpcomponents:httpcore:jar:4.4.6:compile
+|  +- commons-logging:commons-logging:jar:1.2:compile
+|  \- commons-codec:commons-codec:jar:1.9:compile
++- com.heroku.api:heroku-api:jar:0.31:compile
++- com.heroku.api:heroku-json-jackson:jar:0.31:compile
+|  +- (com.heroku.api:heroku-api:jar:0.31:compile - omitted for duplicate)
+|  +- org.codehaus.jackson:jackson-mapper-asl:jar:1.9.10:compile
+|  |  \- (org.codehaus.jackson:jackson-core-asl:jar:1.9.10:compile - omitted for duplicate)
+|  \- org.codehaus.jackson:jackson-core-asl:jar:1.9.10:compile
++- com.heroku.api:heroku-http-apache:jar:0.31:compile
+|  +- (com.heroku.api:heroku-api:jar:0.31:compile - omitted for duplicate)
+|  +- (org.apache.httpcomponents:httpclient:jar:4.4:compile - omitted for conflict with 4.5.3)
+|  +- (org.apache.httpcomponents:httpcore:jar:4.4:compile - omitted for conflict with 4.4.6)
+|  \- (commons-codec:commons-codec:jar:1.10:compile - omitted for conflict with 1.9)
+\- junit:junit:jar:4.12:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

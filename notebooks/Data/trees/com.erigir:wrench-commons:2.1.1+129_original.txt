@@ -1,0 +1,22 @@
+com.erigir:wrench-commons:jar:2.1.1+129
++- ch.qos.logback:logback-classic:jar:1.2.3:provided
+|  +- ch.qos.logback:logback-core:jar:1.2.3:provided
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:provided - omitted for duplicate)
++- com.lowagie:itext:jar:2.1.7:provided
+|  +- bouncycastle:bcmail-jdk14:jar:138:provided
+|  +- bouncycastle:bcprov-jdk14:jar:138:provided
+|  \- org.bouncycastle:bctsp-jdk14:jar:1.38:provided
+|     +- org.bouncycastle:bcprov-jdk14:jar:1.38:provided
+|     \- org.bouncycastle:bcmail-jdk14:jar:1.38:provided
+|        \- (org.bouncycastle:bcprov-jdk14:jar:1.38:provided - omitted for duplicate)
++- com.fasterxml.jackson.core:jackson-databind:jar:2.9.3:provided
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:provided
+|  \- com.fasterxml.jackson.core:jackson-core:jar:2.9.3:provided
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.easymock:easymock:jar:3.5.1:test
+|  \- org.objenesis:objenesis:jar:2.6:test
++- org.slf4j:slf4j-simple:jar:1.7.25:test
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)
+\- org.projectlombok:lombok:jar:1.16.20:provided

@@ -1,0 +1,4 @@
+com.gitee.hengboy:code-builder-core:jar:1.0.5.RELEASE
++- org.projectlombok:lombok:jar:1.16.20:provided
++- org.freemarker:freemarker:jar:2.3.28:compile
+\- org.slf4j:slf4j-api:jar:1.7.25:provided

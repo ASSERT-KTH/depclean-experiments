@@ -1,0 +1,228 @@
+org.obolibrary.robot:robot-core:jar:1.1.0
++- org.apache.jena:jena-arq:jar:2.13.0:compile
+|  +- org.apache.jena:jena-core:jar:2.13.0:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.6:compile - omitted for duplicate)
+|  |  +- org.apache.jena:jena-iri:jar:1.1.2:compile
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.6:compile - omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-log4j12:jar:1.7.6:compile - omitted for duplicate)
+|  |  |  \- (log4j:log4j:jar:1.2.17:compile - omitted for duplicate)
+|  |  +- xerces:xercesImpl:jar:2.11.0:compile
+|  |  |  \- xml-apis:xml-apis:jar:1.4.01:compile
+|  |  +- (org.slf4j:slf4j-log4j12:jar:1.7.6:compile - omitted for duplicate)
+|  |  \- (log4j:log4j:jar:1.2.17:compile - omitted for duplicate)
+|  +- org.apache.httpcomponents:httpclient:jar:4.2.6:compile
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.2.5:compile
+|  |  \- commons-codec:commons-codec:jar:1.6:compile
+|  +- (com.github.jsonld-java:jsonld-java:jar:0.5.1:compile - omitted for duplicate)
+|  +- org.apache.httpcomponents:httpclient-cache:jar:4.2.6:compile
+|  |  \- (org.apache.httpcomponents:httpclient:jar:4.2.6:compile - omitted for duplicate)
+|  +- org.apache.thrift:libthrift:jar:0.9.2:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.5.8:compile - omitted for conflict with 1.7.6)
+|  |  \- (org.apache.httpcomponents:httpclient:jar:4.2.5:compile - omitted for conflict with 4.2.6)
+|  +- org.slf4j:jcl-over-slf4j:jar:1.7.6:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.6:compile - omitted for duplicate)
+|  +- org.apache.commons:commons-csv:jar:1.0:compile
+|  +- org.apache.commons:commons-lang3:jar:3.3.2:compile
+|  +- org.slf4j:slf4j-api:jar:1.7.6:compile
+|  +- (org.slf4j:slf4j-log4j12:jar:1.7.6:compile - omitted for conflict with 1.7.10)
+|  \- log4j:log4j:jar:1.2.17:compile
++- com.github.jsonld-java:jsonld-java:jar:0.5.1:compile
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.3.3:compile - omitted for conflict with 2.9.3)
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.3.3:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.3.0:compile - omitted for conflict with 2.5.1)
+|  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.3.3:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for conflict with 1.7.6)
+|  +- (org.apache.httpcomponents:httpclient-cache:jar:4.2.5:compile - omitted for conflict with 4.2.6)
+|  +- (org.apache.httpcomponents:httpclient:jar:4.2.5:compile - omitted for conflict with 4.2.6)
+|  \- (org.slf4j:jcl-over-slf4j:jar:1.7.7:runtime - omitted for conflict with 1.7.6)
++- org.yaml:snakeyaml:jar:1.15:compile
++- com.opencsv:opencsv:jar:3.3:compile
+|  \- (org.apache.commons:commons-lang3:jar:3.3.2:compile - omitted for duplicate)
++- org.geneontology:expression-materializing-reasoner:jar:0.1.3:compile
+|  \- (net.sourceforge.owlapi:owlapi-distribution:jar:4.2.5:compile - omitted for conflict with 4.2.6)
++- org.geneontology:obographs:jar:0.0.8:compile
+|  +- (net.sourceforge.owlapi:owlapi-distribution:jar:4.2.6:compile - omitted for conflict with 4.2.5)
+|  +- com.google.guava:guava:jar:19.0:compile
+|  +- (commons-io:commons-io:jar:2.2:compile - omitted for conflict with 2.4)
+|  +- com.io-informatics.oss:jackson-jsonld:jar:0.0.5:compile
+|  |  +- (com.github.jsonld-java:jsonld-java:jar:0.5.1:compile - omitted for duplicate)
+|  |  \- commons-lang:commons-lang:jar:2.6:compile
+|  +- (com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.5.4:compile - omitted for conflict with 2.9.3)
+|  +- com.fasterxml.jackson.module:jackson-module-jsonSchema:jar:2.7.2:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.7.0:compile - omitted for conflict with 2.3.0)
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.7.2:compile - omitted for conflict with 2.3.3)
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.7.2:compile - omitted for conflict with 2.3.3)
+|  |  \- javax.validation:validation-api:jar:1.1.0.Final:compile
+|  +- com.fasterxml.jackson.dataformat:jackson-dataformat-protobuf:jar:2.7.2:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.7.2:compile - omitted for conflict with 2.3.3)
+|  |  +- com.squareup:protoparser:jar:4.0.0:compile
+|  |  \- (com.fasterxml.jackson.core:jackson-annotations:jar:2.7.0:compile - omitted for conflict with 2.3.0)
+|  \- com.beust:jcommander:jar:1.48:compile
++- com.fasterxml.jackson.core:jackson-core:jar:2.9.3:compile
++- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.9.3:compile
+|  +- (org.yaml:snakeyaml:jar:1.18:compile - omitted for conflict with 1.15)
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.3:compile - omitted for duplicate)
++- junit:junit:jar:4.12:compile
+|  \- org.hamcrest:hamcrest-core:jar:1.3:compile
++- org.slf4j:slf4j-log4j12:jar:1.7.10:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.10:compile - omitted for conflict with 1.7.6)
+|  \- (log4j:log4j:jar:1.2.17:compile - omitted for duplicate)
++- commons-io:commons-io:jar:2.4:compile
++- net.sourceforge.owlapi:owlapi-distribution:jar:4.2.6:compile
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.5.1:compile - omitted for conflict with 2.9.3)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.5.1:compile - omitted for conflict with 2.3.3)
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.5.1:compile
+|  +- org.tukaani:xz:jar:1.5:compile
+|  +- org.openrdf.sesame:sesame-model:jar:2.7.16:compile
+|  |  \- org.openrdf.sesame:sesame-util:jar:2.7.16:compile
+|  |     \- (org.slf4j:slf4j-api:jar:1.6.1:compile - omitted for conflict with 1.7.6)
+|  +- org.openrdf.sesame:sesame-rio-api:jar:2.7.16:compile
+|  |  +- (org.openrdf.sesame:sesame-model:jar:2.7.16:compile - omitted for duplicate)
+|  |  \- (org.openrdf.sesame:sesame-util:jar:2.7.16:compile - omitted for duplicate)
+|  +- org.openrdf.sesame:sesame-rio-languages:jar:2.7.16:compile
+|  |  +- (org.openrdf.sesame:sesame-model:jar:2.7.16:compile - omitted for duplicate)
+|  |  +- (org.openrdf.sesame:sesame-rio-api:jar:2.7.16:compile - omitted for duplicate)
+|  |  \- (org.openrdf.sesame:sesame-util:jar:2.7.16:compile - omitted for duplicate)
+|  +- org.openrdf.sesame:sesame-rio-datatypes:jar:2.7.16:compile
+|  |  +- (org.openrdf.sesame:sesame-model:jar:2.7.16:compile - omitted for duplicate)
+|  |  +- (org.openrdf.sesame:sesame-rio-api:jar:2.7.16:compile - omitted for duplicate)
+|  |  \- (org.openrdf.sesame:sesame-util:jar:2.7.16:compile - omitted for duplicate)
+|  +- org.openrdf.sesame:sesame-rio-binary:jar:2.7.16:compile
+|  |  +- (org.openrdf.sesame:sesame-model:jar:2.7.16:compile - omitted for duplicate)
+|  |  +- (org.openrdf.sesame:sesame-rio-api:jar:2.7.16:compile - omitted for duplicate)
+|  |  \- (org.openrdf.sesame:sesame-util:jar:2.7.16:compile - omitted for duplicate)
+|  +- org.openrdf.sesame:sesame-rio-n3:jar:2.7.16:compile
+|  |  +- (org.openrdf.sesame:sesame-model:jar:2.7.16:compile - omitted for duplicate)
+|  |  +- (org.openrdf.sesame:sesame-rio-api:jar:2.7.16:compile - omitted for duplicate)
+|  |  +- (org.openrdf.sesame:sesame-rio-turtle:jar:2.7.16:compile - omitted for duplicate)
+|  |  +- (org.openrdf.sesame:sesame-rio-datatypes:jar:2.7.16:runtime - omitted for duplicate)
+|  |  \- (org.openrdf.sesame:sesame-rio-languages:jar:2.7.16:runtime - omitted for duplicate)
+|  +- org.openrdf.sesame:sesame-rio-nquads:jar:2.7.16:compile
+|  |  +- (org.openrdf.sesame:sesame-model:jar:2.7.16:compile - omitted for duplicate)
+|  |  +- (org.openrdf.sesame:sesame-rio-api:jar:2.7.16:compile - omitted for duplicate)
+|  |  +- (org.openrdf.sesame:sesame-rio-ntriples:jar:2.7.16:compile - omitted for duplicate)
+|  |  +- (org.openrdf.sesame:sesame-rio-datatypes:jar:2.7.16:runtime - omitted for duplicate)
+|  |  +- (org.openrdf.sesame:sesame-rio-languages:jar:2.7.16:runtime - omitted for duplicate)
+|  |  \- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+|  +- org.openrdf.sesame:sesame-rio-ntriples:jar:2.7.16:compile
+|  |  +- (org.openrdf.sesame:sesame-model:jar:2.7.16:compile - omitted for duplicate)
+|  |  +- (org.openrdf.sesame:sesame-rio-api:jar:2.7.16:compile - omitted for duplicate)
+|  |  +- (org.openrdf.sesame:sesame-rio-datatypes:jar:2.7.16:runtime - omitted for duplicate)
+|  |  +- (org.openrdf.sesame:sesame-rio-languages:jar:2.7.16:runtime - omitted for duplicate)
+|  |  \- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+|  +- org.openrdf.sesame:sesame-rio-rdfjson:jar:2.7.16:compile
+|  |  +- (org.openrdf.sesame:sesame-model:jar:2.7.16:compile - omitted for duplicate)
+|  |  +- (org.openrdf.sesame:sesame-rio-api:jar:2.7.16:compile - omitted for duplicate)
+|  |  +- (org.openrdf.sesame:sesame-rio-datatypes:jar:2.7.16:runtime - omitted for duplicate)
+|  |  +- (org.openrdf.sesame:sesame-rio-languages:jar:2.7.16:runtime - omitted for duplicate)
+|  |  +- (org.openrdf.sesame:sesame-util:jar:2.7.16:compile - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.2.1:compile - omitted for conflict with 2.9.3)
+|  |  \- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+|  +- org.openrdf.sesame:sesame-rio-rdfxml:jar:2.7.16:compile
+|  |  +- (org.openrdf.sesame:sesame-model:jar:2.7.16:compile - omitted for duplicate)
+|  |  +- (org.openrdf.sesame:sesame-rio-api:jar:2.7.16:compile - omitted for duplicate)
+|  |  +- (org.openrdf.sesame:sesame-rio-datatypes:jar:2.7.16:runtime - omitted for duplicate)
+|  |  +- (org.openrdf.sesame:sesame-rio-languages:jar:2.7.16:runtime - omitted for duplicate)
+|  |  +- (org.openrdf.sesame:sesame-util:jar:2.7.16:compile - omitted for duplicate)
+|  |  \- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+|  +- org.openrdf.sesame:sesame-rio-trix:jar:2.7.16:compile
+|  |  +- (org.openrdf.sesame:sesame-model:jar:2.7.16:compile - omitted for duplicate)
+|  |  +- (org.openrdf.sesame:sesame-rio-api:jar:2.7.16:compile - omitted for duplicate)
+|  |  +- (org.openrdf.sesame:sesame-rio-datatypes:jar:2.7.16:runtime - omitted for duplicate)
+|  |  +- (org.openrdf.sesame:sesame-rio-languages:jar:2.7.16:runtime - omitted for duplicate)
+|  |  +- (org.openrdf.sesame:sesame-util:jar:2.7.16:compile - omitted for duplicate)
+|  |  \- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+|  +- org.openrdf.sesame:sesame-rio-turtle:jar:2.7.16:compile
+|  |  +- (org.openrdf.sesame:sesame-model:jar:2.7.16:compile - omitted for duplicate)
+|  |  +- (org.openrdf.sesame:sesame-rio-api:jar:2.7.16:compile - omitted for duplicate)
+|  |  +- (org.openrdf.sesame:sesame-rio-datatypes:jar:2.7.16:runtime - omitted for duplicate)
+|  |  +- (org.openrdf.sesame:sesame-rio-languages:jar:2.7.16:runtime - omitted for duplicate)
+|  |  +- (org.openrdf.sesame:sesame-util:jar:2.7.16:compile - omitted for duplicate)
+|  |  \- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+|  +- org.openrdf.sesame:sesame-rio-trig:jar:2.7.16:compile
+|  |  +- (org.openrdf.sesame:sesame-model:jar:2.7.16:compile - omitted for duplicate)
+|  |  +- (org.openrdf.sesame:sesame-rio-api:jar:2.7.16:compile - omitted for duplicate)
+|  |  +- (org.openrdf.sesame:sesame-rio-turtle:jar:2.7.16:compile - omitted for duplicate)
+|  |  +- (org.openrdf.sesame:sesame-rio-datatypes:jar:2.7.16:runtime - omitted for duplicate)
+|  |  +- (org.openrdf.sesame:sesame-rio-languages:jar:2.7.16:runtime - omitted for duplicate)
+|  |  \- (org.openrdf.sesame:sesame-util:jar:2.7.16:compile - omitted for duplicate)
+|  +- com.github.jsonld-java:jsonld-java-sesame:jar:0.5.0:compile
+|  |  +- (com.github.jsonld-java:jsonld-java:jar:0.5.0:compile - omitted for conflict with 0.5.1)
+|  |  +- (org.openrdf.sesame:sesame-model:jar:2.7.12:compile - omitted for conflict with 2.7.16)
+|  |  \- (org.openrdf.sesame:sesame-rio-api:jar:2.7.12:compile - omitted for conflict with 2.7.16)
+|  +- org.semarglproject:semargl-sesame:jar:0.6.1:compile
+|  |  +- org.semarglproject:semargl-core:jar:0.6.1:compile
+|  |  +- org.semarglproject:semargl-rdfa:jar:0.6.1:compile
+|  |  |  +- (org.semarglproject:semargl-core:jar:0.6.1:compile - omitted for duplicate)
+|  |  |  \- org.semarglproject:semargl-rdf:jar:0.6.1:compile
+|  |  |     \- (org.semarglproject:semargl-core:jar:0.6.1:compile - omitted for duplicate)
+|  |  \- (org.openrdf.sesame:sesame-rio-api:jar:2.7.5:compile - omitted for conflict with 2.7.16)
+|  +- net.sf.trove4j:trove4j:jar:3.0.3:compile
+|  +- (com.google.guava:guava:jar:18.0:compile - omitted for conflict with 19.0)
+|  +- com.google.inject:guice:jar:4.0:compile
+|  |  +- javax.inject:javax.inject:jar:1:compile
+|  |  +- aopalliance:aopalliance:jar:1.0:compile
+|  |  \- (com.google.guava:guava:jar:16.0.1:compile - omitted for conflict with 19.0)
+|  +- com.google.inject.extensions:guice-assistedinject:jar:4.0:compile
+|  |  \- (com.google.inject:guice:jar:4.0:compile - omitted for duplicate)
+|  +- com.google.inject.extensions:guice-multibindings:jar:4.0:compile
+|  |  \- (com.google.inject:guice:jar:4.0:compile - omitted for duplicate)
+|  +- com.google.code.findbugs:jsr305:jar:2.0.1:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.10:compile - omitted for conflict with 1.7.6)
+|  \- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
++- org.semanticweb.elk:elk-owlapi:jar:0.4.3:compile
+|  +- org.semanticweb.elk:elk-owl-model:jar:0.4.3:compile
+|  +- org.semanticweb.elk:elk-owl-implementation:jar:0.4.3:compile
+|  |  +- (org.semanticweb.elk:elk-owl-model:jar:0.4.3:compile - omitted for duplicate)
+|  |  \- org.semanticweb.elk:elk-util-hashing:jar:0.4.3:compile
+|  +- org.semanticweb.elk:elk-reasoner:jar:0.4.3:compile
+|  |  +- (org.semanticweb.elk:elk-owl-model:jar:0.4.3:compile - omitted for duplicate)
+|  |  +- (org.semanticweb.elk:elk-owl-implementation:jar:0.4.3:compile - omitted for duplicate)
+|  |  +- (org.semanticweb.elk:elk-util-collections:jar:0.4.3:compile - omitted for duplicate)
+|  |  +- org.semanticweb.elk:elk-util-concurrent:jar:0.4.3:compile
+|  |  +- (org.semanticweb.elk:elk-util-hashing:jar:0.4.3:compile - omitted for duplicate)
+|  |  +- (org.semanticweb.elk:elk-util-logging:jar:0.4.3:compile - omitted for duplicate)
+|  |  +- org.semanticweb.elk:elk-util-common:jar:0.4.3:compile
+|  |  |  +- (log4j:log4j:jar:1.2.14:compile - omitted for conflict with 1.2.17)
+|  |  |  \- (org.semanticweb.elk:elk-util-io:jar:0.4.3:compile - omitted for duplicate)
+|  |  +- (org.semanticweb.elk:elk-util-io:jar:0.4.3:compile - omitted for duplicate)
+|  |  \- (log4j:log4j:jar:1.2.14:compile - omitted for conflict with 1.2.17)
+|  +- org.semanticweb.elk:elk-util-io:jar:0.4.3:compile
+|  +- org.semanticweb.elk:elk-util-collections:jar:0.4.3:compile
+|  +- org.semanticweb.elk:elk-util-logging:jar:0.4.3:compile
+|  |  +- (log4j:log4j:jar:1.2.14:compile - omitted for conflict with 1.2.17)
+|  |  \- (org.semanticweb.elk:elk-util-hashing:jar:0.4.3:compile - omitted for duplicate)
+|  \- (log4j:log4j:jar:1.2.14:compile - omitted for conflict with 1.2.17)
++- net.sourceforge.owlapi:org.semanticweb.hermit:jar:1.3.8.413:compile
+|  +- commons-logging:commons-logging:jar:1.1.3:compile
+|  +- (net.sourceforge.owlapi:owlapi-distribution:jar:4.1.3:compile - omitted for conflict with 4.2.6)
+|  +- org.apache.ws.commons.axiom:axiom-api:jar:1.2.14:compile
+|  |  +- org.apache.geronimo.specs:geronimo-activation_1.1_spec:jar:1.1:compile
+|  |  +- org.apache.geronimo.specs:geronimo-javamail_1.4_spec:jar:1.7.1:compile
+|  |  +- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for conflict with 1.1.3)
+|  |  +- jaxen:jaxen:jar:1.1.4:compile
+|  |  +- org.apache.geronimo.specs:geronimo-stax-api_1.0_spec:jar:1.0.1:compile
+|  |  \- org.apache.james:apache-mime4j-core:jar:0.7.2:compile
+|  +- org.apache.ws.commons.axiom:axiom-c14n:jar:1.2.14:compile
+|  |  +- (org.apache.ws.commons.axiom:axiom-api:jar:1.2.14:compile - omitted for duplicate)
+|  |  \- (org.apache.ws.commons.axiom:axiom-impl:jar:1.2.14:compile - omitted for duplicate)
+|  +- org.apache.ws.commons.axiom:axiom-impl:jar:1.2.14:compile
+|  |  +- (org.apache.ws.commons.axiom:axiom-api:jar:1.2.14:compile - omitted for duplicate)
+|  |  +- (org.apache.geronimo.specs:geronimo-activation_1.1_spec:jar:1.1:compile - omitted for duplicate)
+|  |  +- (org.apache.geronimo.specs:geronimo-javamail_1.4_spec:jar:1.7.1:compile - omitted for duplicate)
+|  |  +- org.codehaus.woodstox:woodstox-core-asl:jar:4.1.4:compile
+|  |  |  \- org.codehaus.woodstox:stax2-api:jar:3.1.1:compile
+|  |  +- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for conflict with 1.1.3)
+|  |  \- (org.apache.geronimo.specs:geronimo-stax-api_1.0_spec:jar:1.0.1:compile - omitted for duplicate)
+|  +- org.apache.ws.commons.axiom:axiom-dom:jar:1.2.14:compile
+|  |  +- (org.apache.ws.commons.axiom:axiom-api:jar:1.2.14:compile - omitted for duplicate)
+|  |  +- (org.apache.geronimo.specs:geronimo-activation_1.1_spec:jar:1.1:compile - omitted for duplicate)
+|  |  +- (org.apache.geronimo.specs:geronimo-javamail_1.4_spec:jar:1.7.1:compile - omitted for duplicate)
+|  |  +- (org.codehaus.woodstox:woodstox-core-asl:jar:4.1.4:compile - omitted for duplicate)
+|  |  \- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for conflict with 1.1.3)
+|  \- dk.brics.automaton:automaton:jar:1.11-8:compile
+\- net.sourceforge.owlapi:jfact:jar:4.0.4:compile
+   +- (net.sourceforge.owlapi:owlapi-distribution:jar:4.2.7:compile - omitted for conflict with 4.2.6)
+   +- (net.sf.trove4j:trove4j:jar:3.0.3:compile - omitted for duplicate)
+   +- joda-time:joda-time:jar:2.3:compile
+   \- org.roaringbitmap:RoaringBitmap:jar:0.4.9:compile

@@ -1,0 +1,58 @@
+org.apache.nifi.minifi:minifi-bootstrap:jar:0.5.0
++- org.slf4j:slf4j-api:jar:1.7.25:provided
++- org.apache.nifi:nifi-api:jar:1.7.0:compile
++- org.apache.nifi:nifi-processor-utils:jar:1.7.0:compile
+|  +- org.apache.nifi:nifi-utils:jar:1.7.0:compile
+|  |  \- (org.apache.nifi:nifi-api:jar:1.7.0:compile - omitted for duplicate)
+|  +- org.apache.nifi:nifi-security-utils:jar:1.7.0:compile
+|  |  +- (org.apache.nifi:nifi-api:jar:1.7.0:compile - omitted for duplicate)
+|  |  +- (org.apache.nifi:nifi-utils:jar:1.7.0:compile - omitted for duplicate)
+|  |  +- (org.apache.commons:commons-lang3:jar:3.4:compile - version managed from 3.7; omitted for duplicate)
+|  |  +- commons-codec:commons-codec:jar:1.10:compile (version managed from 1.11)
+|  |  +- org.bouncycastle:bcprov-jdk15on:jar:1.55:provided (version managed from 1.59; scope managed from compile)
+|  |  +- org.bouncycastle:bcpkix-jdk15on:jar:1.55:provided (version managed from 1.59; scope managed from compile)
+|  |  |  \- (org.bouncycastle:bcprov-jdk15on:jar:1.55:provided - version managed from 1.59; scope managed from compile; omitted for duplicate)
+|  |  \- org.apache.nifi:nifi-properties:jar:1.7.0:compile
+|  +- (commons-io:commons-io:jar:2.5:compile - version managed from 2.6; omitted for duplicate)
+|  \- com.fasterxml.jackson.core:jackson-databind:jar:2.9.1:compile (version managed from 2.9.5)
+|     +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+|     \- com.fasterxml.jackson.core:jackson-core:jar:2.9.1:compile
++- org.apache.nifi:nifi-expression-language:jar:1.7.0:compile
+|  +- org.antlr:antlr-runtime:jar:3.5.2:compile
+|  +- (org.apache.nifi:nifi-api:jar:1.7.0:compile - omitted for duplicate)
+|  +- (org.apache.nifi:nifi-utils:jar:1.7.0:compile - omitted for duplicate)
+|  +- com.jayway.jsonpath:json-path:jar:2.4.0:compile
+|  |  +- net.minidev:json-smart:jar:2.3:compile
+|  |  |  \- net.minidev:accessors-smart:jar:1.2:compile
+|  |  |     \- org.ow2.asm:asm:jar:5.0.4:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:provided - scope managed from compile; omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.1:compile - version managed from 2.9.5; omitted for duplicate)
+|  \- org.apache.commons:commons-lang3:jar:3.4:compile
++- org.apache.nifi.minifi:minifi-api:jar:0.5.0:compile
+|  +- (org.apache.nifi:nifi-api:jar:1.7.0:compile - omitted for duplicate)
+|  \- org.apache.nifi:nifi-framework-api:jar:1.7.0:compile
+|     \- (org.apache.nifi:nifi-api:jar:1.7.0:compile - omitted for duplicate)
++- org.apache.nifi.minifi:minifi-utils:jar:0.5.0:compile
+|  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.1:compile - version managed from 2.9.5; omitted for duplicate)
++- org.yaml:snakeyaml:jar:1.17:compile
++- org.apache.nifi.minifi:minifi-commons-schema:jar:0.5.0:compile
+|  +- (org.yaml:snakeyaml:jar:1.17:compile - omitted for duplicate)
+|  \- (org.apache.nifi:nifi-api:jar:1.7.0:compile - omitted for duplicate)
++- org.eclipse.jetty:jetty-server:jar:9.4.3.v20170317:compile
+|  +- javax.servlet:javax.servlet-api:jar:3.1.0:provided (scope managed from compile)
+|  +- org.eclipse.jetty:jetty-http:jar:9.4.3.v20170317:compile
+|  |  +- org.eclipse.jetty:jetty-util:jar:9.4.3.v20170317:provided (scope managed from compile)
+|  |  \- (org.eclipse.jetty:jetty-io:jar:9.4.3.v20170317:compile - omitted for duplicate)
+|  \- org.eclipse.jetty:jetty-io:jar:9.4.3.v20170317:compile
+|     \- (org.eclipse.jetty:jetty-util:jar:9.4.3.v20170317:provided - scope managed from compile; omitted for duplicate)
++- org.eclipse.jetty:jetty-servlet:jar:9.4.3.v20170317:compile
+|  \- org.eclipse.jetty:jetty-security:jar:9.4.3.v20170317:compile
+|     \- (org.eclipse.jetty:jetty-server:jar:9.4.3.v20170317:provided - scope managed from compile; omitted for duplicate)
++- com.squareup.okhttp3:okhttp:jar:3.4.1:compile
+|  \- com.squareup.okio:okio:jar:1.9.0:compile
++- commons-io:commons-io:jar:2.5:provided (scope not updated to compile)
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.mockito:mockito-all:jar:1.10.19:test
+\- org.slf4j:slf4j-simple:jar:1.7.25:test
+   \- (org.slf4j:slf4j-api:jar:1.7.25:provided - scope managed from test; omitted for duplicate)

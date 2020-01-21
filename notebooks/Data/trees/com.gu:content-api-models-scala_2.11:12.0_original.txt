@@ -1,0 +1,32 @@
+com.gu:content-api-models-scala_2.11:jar:12.0
++- org.scala-lang:scala-library:jar:2.11.12:compile
++- com.gu:content-api-models_2.11:jar:12.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  +- com.gu:story-packages-model-thrift:jar:1.0.3:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.11.7:compile - omitted for conflict with 2.11.12)
+|  +- com.gu:content-atom-model-thrift:jar:2.4.61:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.3:compile - omitted for conflict with 2.11.12)
+|  |  \- (com.gu:content-entity-thrift:jar:0.1.5:compile - omitted for duplicate)
+|  +- com.gu:content-entity-thrift:jar:0.1.5:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.12)
+|  \- com.gu:story-model-thrift:jar:1.1:compile
+|     +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.12)
+|     \- (com.gu:content-atom-model-thrift:jar:2.4.36:compile - omitted for conflict with 2.4.61)
++- org.apache.thrift:libthrift:jar:0.9.1:compile
+|  +- org.slf4j:slf4j-api:jar:1.5.8:compile
+|  +- org.apache.commons:commons-lang3:jar:3.1:compile
+|  +- org.apache.httpcomponents:httpclient:jar:4.2.5:compile
+|  |  +- (org.apache.httpcomponents:httpcore:jar:4.2.4:compile - omitted for duplicate)
+|  |  +- commons-logging:commons-logging:jar:1.1.1:compile
+|  |  \- commons-codec:commons-codec:jar:1.6:compile
+|  \- org.apache.httpcomponents:httpcore:jar:4.2.4:compile
+\- com.twitter:scrooge-core_2.11:jar:4.18.0:compile
+   +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
+   \- com.twitter:util-core_2.11:jar:6.45.0:compile
+      +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
+      +- com.twitter:util-function_2.11:jar:6.45.0:compile
+      |  \- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
+      +- org.scala-lang:scala-reflect:jar:2.11.11:compile
+      |  \- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
+      \- org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.0.4:compile
+         \- (org.scala-lang:scala-library:jar:2.11.6:compile - omitted for conflict with 2.11.12)

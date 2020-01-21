@@ -1,0 +1,10 @@
+com.openhtmltopdf:openhtmltopdf-pdfbox:jar:0.0.1-RC13
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.apache.pdfbox:pdfbox:jar:2.0.8:compile
+|  +- org.apache.pdfbox:fontbox:jar:2.0.8:compile
+|  |  \- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  \- commons-logging:commons-logging:jar:1.2:compile
++- com.openhtmltopdf:openhtmltopdf-core:jar:0.0.1-RC13:compile
+\- de.rototor.pdfbox:graphics2d:jar:0.12:compile
+   \- (org.apache.pdfbox:pdfbox:jar:2.0.8:compile - omitted for duplicate)

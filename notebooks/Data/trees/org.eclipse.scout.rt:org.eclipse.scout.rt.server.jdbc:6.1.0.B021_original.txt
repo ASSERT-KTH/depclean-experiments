@@ -1,0 +1,18 @@
+org.eclipse.scout.rt:org.eclipse.scout.rt.server.jdbc:jar:6.1.0.B021
++- org.eclipse.scout.rt:org.eclipse.scout.rt.server:jar:6.1.0.B021:compile
+|  +- org.eclipse.scout.rt:org.eclipse.scout.rt.shared:jar:6.1.0.B021:compile
+|  |  +- org.eclipse.scout.rt:org.eclipse.scout.rt.platform:jar:6.1.0.B021:compile
+|  |  |  +- org.jboss:jandex:jar:1.2.2.Final:compile
+|  |  |  +- org.slf4j:slf4j-api:jar:1.7.12:compile
+|  |  |  \- org.quartz-scheduler:quartz:jar:2.2.2:compile
+|  |  |     \- (org.slf4j:slf4j-api:jar:1.7.12:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  \- com.sun.mail:javax.mail:jar:1.5.4:compile
+|  |     \- javax.activation:activation:jar:1.1:compile
+|  +- org.eclipse.scout.rt:org.eclipse.scout.rt.server.commons:jar:6.1.0.B021:compile
+|  |  \- (org.eclipse.scout.rt:org.eclipse.scout.rt.shared:jar:6.1.0.B021:compile - omitted for duplicate)
+|  \- org.eclipse.scout.rt:org.eclipse.scout.rt.mom.api:jar:6.1.0.B021:compile
+|     +- (org.eclipse.scout.rt:org.eclipse.scout.rt.platform:jar:6.1.0.B021:compile - omitted for duplicate)
+|     \- com.fasterxml.jackson.core:jackson-databind:jar:2.8.1:compile
+|        +- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.1:compile (version managed from 2.8.0)
+|        \- com.fasterxml.jackson.core:jackson-core:jar:2.8.1:compile
+\- javax.servlet:javax.servlet-api:jar:3.1.0:provided

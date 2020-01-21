@@ -1,0 +1,44 @@
+org.neo4j:neo4j-cypher-compiler-3.3:jar:3.3.6
++- org.scala-lang:scala-library:jar:2.11.12:compile
++- org.scalatest:scalatest_2.11:jar:2.2.5:test
+|  \- org.scala-lang.modules:scala-xml_2.11:jar:1.0.2:test
++- org.scalacheck:scalacheck_2.11:jar:1.12.5:test
+|  \- org.scala-sbt:test-interface:jar:1.0:test
++- org.neo4j:neo4j-graph-algo:jar:3.3.6:provided
+|  \- org.neo4j:neo4j-kernel:jar:3.3.6:provided
++- org.neo4j:neo4j-cypher-frontend-3.3:jar:3.3.6:compile
++- org.neo4j:neo4j-cypher-ir-3.3:jar:3.3.6:compile
++- org.neo4j:neo4j-cypher-logical-plans-3.3:jar:3.3.6:compile
++- org.neo4j:neo4j-kernel:test-jar:tests:3.3.6:test
+|  +- org.neo4j:neo4j-graphdb-api:jar:3.3.6:provided
+|  |  \- org.neo4j:neo4j-resource:jar:3.3.6:provided
+|  +- org.neo4j:neo4j-common:jar:3.3.6:provided
+|  +- org.neo4j:neo4j-values:jar:3.3.6:provided
+|  +- org.neo4j:neo4j-collections:jar:3.3.6:provided
+|  +- org.neo4j:neo4j-primitive-collections:jar:3.3.6:provided
+|  +- org.neo4j:neo4j-io:jar:3.3.6:provided
+|  +- org.neo4j:neo4j-csv:jar:3.3.6:provided
+|  +- org.neo4j:neo4j-logging:jar:3.3.6:provided
+|  +- org.neo4j:neo4j-lucene-upgrade:jar:3.3.6:provided
+|  |  +- org.apache.lucene:lucene-core:jar:5.5.0:provided
+|  |  \- org.apache.lucene:lucene-backward-codecs:jar:5.5.0:provided
+|  +- org.neo4j:neo4j-configuration:jar:3.3.6:provided
+|  +- org.neo4j:neo4j-index:jar:3.3.6:provided
+|  \- org.neo4j:neo4j-ssl:jar:3.3.6:provided
+|     +- io.netty:netty-all:jar:4.1.21.Final:provided
+|     \- org.bouncycastle:bcpkix-jdk15on:jar:1.53:provided
+|        \- org.bouncycastle:bcprov-jdk15on:jar:1.53:provided
++- org.neo4j:neo4j-cypher-frontend-3.3:test-jar:tests:3.3.6:test
++- org.neo4j:neo4j-io:test-jar:tests:3.3.6:test
+|  \- org.neo4j:neo4j-unsafe:jar:3.3.6:provided
++- org.parboiled:parboiled-scala_2.11:jar:1.1.7:compile
+|  \- org.parboiled:parboiled-core:jar:1.1.7:compile
++- org.apache.commons:commons-lang3:jar:3.5:test
++- com.google.code.findbugs:annotations:jar:3.0.1:provided
+|  +- net.jcip:jcip-annotations:jar:1.0:provided
+|  \- com.google.code.findbugs:jsr305:jar:3.0.1:provided
++- junit:junit:jar:4.12:test
++- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.hamcrest:hamcrest-library:jar:1.3:test
+\- org.mockito:mockito-core:jar:1.10.19:test
+   \- org.objenesis:objenesis:jar:2.2:test

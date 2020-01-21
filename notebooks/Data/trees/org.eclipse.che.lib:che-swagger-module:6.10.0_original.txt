@@ -1,0 +1,28 @@
+org.eclipse.che.lib:che-swagger-module:jar:6.10.0
++- com.fasterxml.jackson.core:jackson-databind:jar:2.7.7:compile
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.7.7:compile
+|  \- com.fasterxml.jackson.core:jackson-core:jar:2.7.7:compile
++- com.google.guava:guava:jar:20.0:compile
++- com.google.inject:guice:jar:4.1.0:compile
+|  +- javax.inject:javax.inject:jar:1:compile
+|  \- aopalliance:aopalliance:jar:1.0:compile
++- com.google.inject.extensions:guice-multibindings:jar:4.1.0:compile
++- com.google.inject.extensions:guice-servlet:jar:4.1.0:compile
++- io.swagger:swagger-core:jar:1.5.9:compile
+|  \- javax.validation:validation-api:jar:1.1.0.Final:compile
++- io.swagger:swagger-jaxrs:jar:1.5.9:compile
+|  \- org.reflections:reflections:jar:0.9.9:compile
+|     \- org.javassist:javassist:jar:3.22.0-GA:compile
++- io.swagger:swagger-models:jar:1.5.9:compile
+|  \- io.swagger:swagger-annotations:jar:1.5.9:compile
++- org.apache.commons:commons-lang3:jar:3.4:compile
++- org.slf4j:slf4j-api:jar:1.7.24:compile
++- javax.servlet:javax.servlet-api:jar:3.1.0:provided
++- javax.ws.rs:javax.ws.rs-api:jar:2.0:provided
++- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.7.7:runtime
++- com.fasterxml.jackson.datatype:jackson-datatype-joda:jar:2.7.7:runtime
++- com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:jar:2.7.7:runtime
+|  +- com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:jar:2.7.7:runtime
+|  \- com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.7.7:runtime
++- joda-time:joda-time:jar:2.3:runtime
+\- org.yaml:snakeyaml:jar:1.14:runtime

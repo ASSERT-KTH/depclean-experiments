@@ -1,0 +1,186 @@
+org.apache.skywalking:collector-naming-jetty-provider:jar:5.0.0-alpha
++- org.apache.skywalking:collector-naming-define:jar:5.0.0-alpha:compile
+|  +- (org.apache.skywalking:apm-collector-core:jar:5.0.0-alpha:compile - omitted for duplicate)
+|  +- (org.apache.skywalking:collector-cluster-define:jar:5.0.0-alpha:compile - omitted for duplicate)
+|  +- (org.apache.skywalking:server-component:jar:5.0.0-alpha:compile - omitted for duplicate)
+|  +- (org.apache.skywalking:apm-util:jar:5.0.0-alpha:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  +- (org.slf4j:log4j-over-slf4j:jar:1.7.25:compile - omitted for duplicate)
+|  +- (org.apache.logging.log4j:log4j-core:jar:2.9.0:compile - omitted for duplicate)
+|  \- (org.apache.logging.log4j:log4j-slf4j-impl:jar:2.9.0:compile - omitted for duplicate)
++- org.apache.skywalking:collector-jetty-manager-define:jar:5.0.0-alpha:compile
+|  +- (org.apache.skywalking:apm-collector-core:jar:5.0.0-alpha:compile - omitted for duplicate)
+|  +- (org.apache.skywalking:server-component:jar:5.0.0-alpha:compile - omitted for duplicate)
+|  +- (org.apache.skywalking:apm-util:jar:5.0.0-alpha:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  +- (org.slf4j:log4j-over-slf4j:jar:1.7.25:compile - omitted for duplicate)
+|  +- (org.apache.logging.log4j:log4j-core:jar:2.9.0:compile - omitted for duplicate)
+|  \- (org.apache.logging.log4j:log4j-slf4j-impl:jar:2.9.0:compile - omitted for duplicate)
++- org.apache.skywalking:apm-collector-core:jar:5.0.0-alpha:compile
+|  +- com.google.code.gson:gson:jar:2.8.1:compile
+|  +- joda-time:joda-time:jar:2.9.9:compile
+|  +- (org.apache.skywalking:apm-util:jar:5.0.0-alpha:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  +- (org.slf4j:log4j-over-slf4j:jar:1.7.25:compile - omitted for duplicate)
+|  +- (org.apache.logging.log4j:log4j-core:jar:2.9.0:compile - omitted for duplicate)
+|  \- (org.apache.logging.log4j:log4j-slf4j-impl:jar:2.9.0:compile - omitted for duplicate)
++- org.apache.skywalking:collector-cluster-define:jar:5.0.0-alpha:compile
+|  +- (org.apache.skywalking:apm-collector-core:jar:5.0.0-alpha:compile - omitted for duplicate)
+|  +- org.apache.skywalking:client-component:jar:5.0.0-alpha:compile
+|  |  +- com.h2database:h2:jar:1.4.196:compile
+|  |  +- redis.clients:jedis:jar:2.9.0:compile
+|  |  |  \- org.apache.commons:commons-pool2:jar:2.4.2:compile
+|  |  +- org.elasticsearch.client:transport:jar:5.5.0:compile
+|  |  |  +- org.elasticsearch:elasticsearch:jar:5.5.0:compile
+|  |  |  |  +- org.apache.lucene:lucene-core:jar:6.6.0:compile
+|  |  |  |  +- org.apache.lucene:lucene-analyzers-common:jar:6.6.0:compile
+|  |  |  |  +- org.apache.lucene:lucene-backward-codecs:jar:6.6.0:compile
+|  |  |  |  +- org.apache.lucene:lucene-grouping:jar:6.6.0:compile
+|  |  |  |  +- org.apache.lucene:lucene-highlighter:jar:6.6.0:compile
+|  |  |  |  +- org.apache.lucene:lucene-join:jar:6.6.0:compile
+|  |  |  |  +- org.apache.lucene:lucene-memory:jar:6.6.0:compile
+|  |  |  |  +- org.apache.lucene:lucene-misc:jar:6.6.0:compile
+|  |  |  |  +- org.apache.lucene:lucene-queries:jar:6.6.0:compile
+|  |  |  |  +- org.apache.lucene:lucene-queryparser:jar:6.6.0:compile
+|  |  |  |  +- org.apache.lucene:lucene-sandbox:jar:6.6.0:compile
+|  |  |  |  +- org.apache.lucene:lucene-spatial:jar:6.6.0:compile
+|  |  |  |  +- org.apache.lucene:lucene-spatial-extras:jar:6.6.0:compile
+|  |  |  |  +- org.apache.lucene:lucene-spatial3d:jar:6.6.0:compile
+|  |  |  |  +- org.apache.lucene:lucene-suggest:jar:6.6.0:compile
+|  |  |  |  +- org.elasticsearch:securesm:jar:1.1:compile
+|  |  |  |  +- net.sf.jopt-simple:jopt-simple:jar:5.0.2:compile
+|  |  |  |  +- com.carrotsearch:hppc:jar:0.7.1:compile
+|  |  |  |  +- (joda-time:joda-time:jar:2.9.5:compile - omitted for conflict with 2.9.9)
+|  |  |  |  +- com.fasterxml.jackson.core:jackson-core:jar:2.8.6:compile
+|  |  |  |  +- com.fasterxml.jackson.dataformat:jackson-dataformat-smile:jar:2.8.6:compile
+|  |  |  |  +- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.8.6:compile
+|  |  |  |  +- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.8.6:compile
+|  |  |  |  +- com.tdunning:t-digest:jar:3.0:compile
+|  |  |  |  +- org.hdrhistogram:HdrHistogram:jar:2.1.9:compile
+|  |  |  |  +- (org.apache.logging.log4j:log4j-api:jar:2.8.2:compile - omitted for conflict with 2.9.0)
+|  |  |  |  \- org.elasticsearch:jna:jar:4.4.0:compile
+|  |  |  +- org.elasticsearch.plugin:transport-netty3-client:jar:5.5.0:compile
+|  |  |  |  \- (io.netty:netty:jar:3.10.6.Final:compile - omitted for conflict with 3.10.5.Final)
+|  |  |  +- org.elasticsearch.plugin:transport-netty4-client:jar:5.5.0:compile
+|  |  |  +- org.elasticsearch.plugin:reindex-client:jar:5.5.0:compile
+|  |  |  |  \- org.elasticsearch.client:rest:jar:5.5.0:compile
+|  |  |  |     +- org.apache.httpcomponents:httpclient:jar:4.5.2:compile
+|  |  |  |     +- org.apache.httpcomponents:httpcore:jar:4.4.5:compile
+|  |  |  |     +- org.apache.httpcomponents:httpasyncclient:jar:4.1.2:compile
+|  |  |  |     +- org.apache.httpcomponents:httpcore-nio:jar:4.4.5:compile
+|  |  |  |     +- commons-codec:commons-codec:jar:1.10:compile
+|  |  |  |     \- commons-logging:commons-logging:jar:1.1.3:compile
+|  |  |  +- org.elasticsearch.plugin:lang-mustache-client:jar:5.5.0:compile
+|  |  |  |  \- com.github.spullara.mustache.java:compiler:jar:0.9.3:compile
+|  |  |  +- org.elasticsearch.plugin:percolator-client:jar:5.5.0:compile
+|  |  |  \- org.elasticsearch.plugin:parent-join-client:jar:5.5.0:compile
+|  |  +- org.apache.zookeeper:zookeeper:jar:3.4.10:compile
+|  |  |  +- log4j:log4j:jar:1.2.16:compile
+|  |  |  +- jline:jline:jar:0.9.94:compile
+|  |  |  |  \- (junit:junit:jar:3.8.1:compile - omitted for conflict with 4.12)
+|  |  |  \- io.netty:netty:jar:3.10.5.Final:compile
+|  |  +- (org.apache.skywalking:apm-network:jar:5.0.0-alpha:compile - omitted for duplicate)
+|  |  +- (org.apache.skywalking:apm-collector-core:jar:5.0.0-alpha:compile - omitted for duplicate)
+|  |  +- (org.apache.skywalking:apm-util:jar:5.0.0-alpha:compile - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  |  +- (org.slf4j:log4j-over-slf4j:jar:1.7.25:compile - omitted for duplicate)
+|  |  +- (org.apache.logging.log4j:log4j-core:jar:2.9.0:compile - omitted for duplicate)
+|  |  \- (org.apache.logging.log4j:log4j-slf4j-impl:jar:2.9.0:compile - omitted for duplicate)
+|  +- (org.apache.skywalking:apm-util:jar:5.0.0-alpha:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  +- (org.slf4j:log4j-over-slf4j:jar:1.7.25:compile - omitted for duplicate)
+|  +- (org.apache.logging.log4j:log4j-core:jar:2.9.0:compile - omitted for duplicate)
+|  \- (org.apache.logging.log4j:log4j-slf4j-impl:jar:2.9.0:compile - omitted for duplicate)
++- org.apache.skywalking:server-component:jar:5.0.0-alpha:compile
+|  +- org.apache.skywalking:apm-network:jar:5.0.0-alpha:compile
+|  |  +- io.grpc:grpc-netty:jar:1.8.0:compile
+|  |  |  \- io.grpc:grpc-core:jar:1.8.0:compile
+|  |  |     +- io.grpc:grpc-context:jar:1.8.0:compile
+|  |  |     +- com.google.errorprone:error_prone_annotations:jar:2.0.19:compile
+|  |  |     +- com.google.code.findbugs:jsr305:jar:3.0.0:compile
+|  |  |     +- com.google.instrumentation:instrumentation-api:jar:0.4.3:compile
+|  |  |     |  \- (com.google.code.findbugs:jsr305:jar:3.0.0:compile - omitted for duplicate)
+|  |  |     +- io.opencensus:opencensus-api:jar:0.8.0:compile
+|  |  |     \- io.opencensus:opencensus-contrib-grpc-metrics:jar:0.8.0:compile
+|  |  |        +- (com.google.errorprone:error_prone_annotations:jar:2.0.19:compile - omitted for duplicate)
+|  |  |        \- (io.opencensus:opencensus-api:jar:0.8.0:compile - omitted for duplicate)
+|  |  +- io.grpc:grpc-protobuf:jar:1.8.0:compile
+|  |  |  +- (io.grpc:grpc-core:jar:1.8.0:compile - omitted for duplicate)
+|  |  |  +- com.google.protobuf:protobuf-java:jar:3.4.0:compile
+|  |  |  +- com.google.protobuf:protobuf-java-util:jar:3.4.0:compile
+|  |  |  |  +- (com.google.protobuf:protobuf-java:jar:3.4.0:compile - omitted for duplicate)
+|  |  |  |  \- (com.google.code.gson:gson:jar:2.7:compile - omitted for conflict with 2.8.1)
+|  |  |  +- com.google.api.grpc:proto-google-common-protos:jar:0.1.9:compile
+|  |  |  \- io.grpc:grpc-protobuf-lite:jar:1.8.0:compile
+|  |  |     \- (io.grpc:grpc-core:jar:1.8.0:compile - omitted for duplicate)
+|  |  +- io.grpc:grpc-stub:jar:1.8.0:compile
+|  |  |  \- (io.grpc:grpc-core:jar:1.8.0:compile - omitted for duplicate)
+|  |  +- io.netty:netty-codec-http2:jar:4.1.17.Final:compile
+|  |  |  +- io.netty:netty-codec-http:jar:4.1.17.Final:compile
+|  |  |  |  \- io.netty:netty-codec:jar:4.1.17.Final:compile
+|  |  |  |     \- (io.netty:netty-transport:jar:4.1.17.Final:compile - omitted for duplicate)
+|  |  |  \- io.netty:netty-handler:jar:4.1.17.Final:compile
+|  |  |     +- (io.netty:netty-buffer:jar:4.1.17.Final:compile - omitted for duplicate)
+|  |  |     +- (io.netty:netty-transport:jar:4.1.17.Final:compile - omitted for duplicate)
+|  |  |     \- (io.netty:netty-codec:jar:4.1.17.Final:compile - omitted for duplicate)
+|  |  +- io.netty:netty-handler-proxy:jar:4.1.17.Final:compile
+|  |  |  +- io.netty:netty-transport:jar:4.1.17.Final:compile
+|  |  |  |  +- (io.netty:netty-buffer:jar:4.1.17.Final:compile - omitted for duplicate)
+|  |  |  |  \- io.netty:netty-resolver:jar:4.1.17.Final:compile
+|  |  |  |     \- (io.netty:netty-common:jar:4.1.17.Final:compile - omitted for duplicate)
+|  |  |  +- io.netty:netty-codec-socks:jar:4.1.17.Final:compile
+|  |  |  |  \- (io.netty:netty-codec:jar:4.1.17.Final:compile - omitted for duplicate)
+|  |  |  \- (io.netty:netty-codec-http:jar:4.1.17.Final:compile - omitted for duplicate)
+|  |  \- io.netty:netty-transport-native-epoll:jar:4.1.17.Final:compile
+|  |     +- io.netty:netty-common:jar:4.1.17.Final:compile
+|  |     +- io.netty:netty-buffer:jar:4.1.17.Final:compile
+|  |     |  \- (io.netty:netty-common:jar:4.1.17.Final:compile - omitted for duplicate)
+|  |     +- io.netty:netty-transport-native-unix-common:jar:4.1.17.Final:compile
+|  |     |  +- (io.netty:netty-common:jar:4.1.17.Final:compile - omitted for duplicate)
+|  |     |  \- (io.netty:netty-transport:jar:4.1.17.Final:compile - omitted for duplicate)
+|  |     \- (io.netty:netty-transport:jar:4.1.17.Final:compile - omitted for duplicate)
+|  +- org.eclipse.jetty:jetty-server:jar:9.4.2.v20170220:compile
+|  |  +- javax.servlet:javax.servlet-api:jar:3.1.0:compile
+|  |  +- org.eclipse.jetty:jetty-http:jar:9.4.2.v20170220:compile
+|  |  |  +- org.eclipse.jetty:jetty-util:jar:9.4.2.v20170220:compile
+|  |  |  \- (org.eclipse.jetty:jetty-io:jar:9.4.2.v20170220:compile - omitted for duplicate)
+|  |  \- org.eclipse.jetty:jetty-io:jar:9.4.2.v20170220:compile
+|  |     \- (org.eclipse.jetty:jetty-util:jar:9.4.2.v20170220:compile - omitted for duplicate)
+|  +- org.eclipse.jetty:jetty-servlet:jar:9.4.2.v20170220:compile
+|  |  \- org.eclipse.jetty:jetty-security:jar:9.4.2.v20170220:compile
+|  |     \- (org.eclipse.jetty:jetty-server:jar:9.4.2.v20170220:compile - omitted for duplicate)
+|  +- (org.apache.skywalking:apm-collector-core:jar:5.0.0-alpha:compile - omitted for duplicate)
+|  +- (org.apache.skywalking:apm-util:jar:5.0.0-alpha:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  +- (org.slf4j:log4j-over-slf4j:jar:1.7.25:compile - omitted for duplicate)
+|  +- (org.apache.logging.log4j:log4j-core:jar:2.9.0:compile - omitted for duplicate)
+|  \- (org.apache.logging.log4j:log4j-slf4j-impl:jar:2.9.0:compile - omitted for duplicate)
++- org.apache.skywalking:apm-util:jar:5.0.0-alpha:compile
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- org.slf4j:log4j-over-slf4j:jar:1.7.25:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
++- org.apache.logging.log4j:log4j-core:jar:2.9.0:compile
+|  \- org.apache.logging.log4j:log4j-api:jar:2.9.0:compile
++- org.apache.logging.log4j:log4j-slf4j-impl:jar:2.9.0:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  \- (org.apache.logging.log4j:log4j-api:jar:2.9.0:compile - omitted for duplicate)
++- junit:junit:jar:4.12:test (scope not updated to compile)
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.mockito:mockito-all:jar:1.10.19:test
++- org.powermock:powermock-module-junit4:jar:1.6.4:test
+|  +- (junit:junit:jar:4.12:test - omitted for duplicate)
+|  \- org.powermock:powermock-module-junit4-common:jar:1.6.4:test
+|     +- (junit:junit:jar:4.4:test - omitted for conflict with 4.12)
+|     +- org.powermock:powermock-core:jar:1.6.4:test
+|     |  +- (org.powermock:powermock-reflect:jar:1.6.4:test - omitted for duplicate)
+|     |  \- org.javassist:javassist:jar:3.20.0-GA:test
+|     \- org.powermock:powermock-reflect:jar:1.6.4:test
+|        \- (org.objenesis:objenesis:jar:2.1:test - omitted for duplicate)
+\- org.powermock:powermock-api-mockito:jar:1.6.4:test
+   +- org.mockito:mockito-core:jar:1.10.19:test
+   |  +- (org.hamcrest:hamcrest-core:jar:1.1:test - omitted for conflict with 1.3)
+   |  \- org.objenesis:objenesis:jar:2.1:test
+   +- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for duplicate)
+   \- org.powermock:powermock-api-support:jar:1.6.4:test
+      +- (org.powermock:powermock-core:jar:1.6.4:test - omitted for duplicate)
+      \- (org.powermock:powermock-reflect:jar:1.6.4:test - omitted for duplicate)

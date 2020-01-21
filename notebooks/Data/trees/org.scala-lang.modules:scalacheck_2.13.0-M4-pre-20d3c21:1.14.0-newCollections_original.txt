@@ -1,0 +1,3 @@
+org.scala-lang.modules:scalacheck_2.13.0-M4-pre-20d3c21:jar:1.14.0-newCollections
++- org.scala-lang:scala-library:jar:2.13.0-M4-pre-20d3c21:compile
+\- org.scala-sbt:test-interface:jar:1.0:compile

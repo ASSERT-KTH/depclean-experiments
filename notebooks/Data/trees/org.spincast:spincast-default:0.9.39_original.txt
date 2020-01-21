@@ -1,0 +1,77 @@
+org.spincast:spincast-default:jar:0.9.39
++- org.spincast:spincast-core:jar:0.9.39:compile
+|  +- org.spincast:spincast-shaded-dependencies:jar:1.0.11:compile
+|  |  +- org.apache.httpcomponents:httpclient:jar:4.5.6:compile
+|  |  |  +- org.apache.httpcomponents:httpcore:jar:4.4.10:compile
+|  |  |  +- commons-logging:commons-logging:jar:1.2:compile
+|  |  |  \- commons-codec:commons-codec:jar:1.10:compile
+|  |  +- org.apache.httpcomponents:httpmime:jar:4.5.6:compile
+|  |  |  \- (org.apache.httpcomponents:httpclient:jar:4.5.6:compile - omitted for duplicate)
+|  |  +- commons-io:commons-io:jar:2.6:compile
+|  |  +- org.apache.commons:commons-lang3:jar:3.7:compile
+|  |  +- commons-validator:commons-validator:jar:1.6:compile
+|  |  |  +- commons-beanutils:commons-beanutils:jar:1.9.2:compile
+|  |  |  |  +- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for conflict with 1.2)
+|  |  |  |  \- (commons-collections:commons-collections:jar:3.2.1:compile - omitted for conflict with 3.2.2)
+|  |  |  +- commons-digester:commons-digester:jar:1.8.1:compile
+|  |  |  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  |  |  \- commons-collections:commons-collections:jar:3.2.2:compile
+|  |  \- org.apache.commons:commons-text:jar:1.4:compile
+|  |     \- (org.apache.commons:commons-lang3:jar:3.7:compile - omitted for duplicate)
+|  +- com.google.inject:guice:jar:4.2.0:compile
+|  |  +- javax.inject:javax.inject:jar:1:compile
+|  |  +- aopalliance:aopalliance:jar:1.0:compile
+|  |  \- com.google.guava:guava:jar:23.6-android:compile
+|  |     +- (com.google.code.findbugs:jsr305:jar:3.0.2:compile - version managed from 3.0.1; omitted for duplicate)
+|  |     +- org.checkerframework:checker-compat-qual:jar:2.0.0:compile
+|  |     +- com.google.errorprone:error_prone_annotations:jar:2.1.3:compile
+|  |     +- com.google.j2objc:j2objc-annotations:jar:1.1:compile
+|  |     \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:compile
+|  +- com.google.inject.extensions:guice-multibindings:jar:4.2.0:compile
+|  |  \- (com.google.inject:guice:jar:4.2.0:compile - omitted for duplicate)
+|  +- com.google.inject.extensions:guice-throwingproviders:jar:4.2.0:compile
+|  |  +- (com.google.code.findbugs:jsr305:jar:3.0.2:compile - version managed from 3.0.1; omitted for duplicate)
+|  |  \- (com.google.inject:guice:jar:4.2.0:compile - omitted for duplicate)
+|  +- com.google.inject.extensions:guice-assistedinject:jar:4.2.0:compile
+|  |  \- (com.google.inject:guice:jar:4.2.0:compile - omitted for duplicate)
+|  +- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+|  \- org.slf4j:slf4j-api:jar:1.7.25:compile
++- org.spincast:spincast-plugins-config:jar:0.9.39:compile
+|  \- org.yaml:snakeyaml:jar:1.21:compile
++- org.spincast:spincast-plugins-dictionary:jar:0.9.39:compile
++- org.spincast:spincast-plugins-undertow:jar:0.9.39:compile
+|  \- io.undertow:undertow-core:jar:2.0.12.Final:compile
+|     +- org.jboss.logging:jboss-logging:jar:3.3.2.Final:compile
+|     +- org.jboss.xnio:xnio-api:jar:3.3.8.Final:compile
+|     \- org.jboss.xnio:xnio-nio:jar:3.3.8.Final:runtime
+|        \- (org.jboss.xnio:xnio-api:jar:3.3.8.Final:runtime - omitted for duplicate)
++- org.spincast:spincast-plugins-pebble:jar:0.9.39:compile
+|  \- com.mitchellbosecke:pebble:jar:2.4.0:compile
+|     \- com.coverity.security:coverity-escapers:jar:1.1:compile
++- org.spincast:spincast-plugins-jackson-json:jar:0.9.39:compile
+|  \- com.fasterxml.jackson.core:jackson-databind:jar:2.9.6:compile
+|     +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+|     \- com.fasterxml.jackson.core:jackson-core:jar:2.9.6:compile
++- org.spincast:spincast-plugins-jackson-xml:jar:0.9.39:compile
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.6:compile - omitted for duplicate)
+|  +- com.fasterxml.jackson.dataformat:jackson-dataformat-xml:jar:2.9.6:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.6:compile - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.6:compile - omitted for duplicate)
+|  |  +- com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.9.6:compile
+|  |  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile - omitted for duplicate)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.6:compile - omitted for duplicate)
+|  |  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.6:compile - omitted for duplicate)
+|  |  +- org.codehaus.woodstox:stax2-api:jar:3.1.4:compile
+|  |  \- com.fasterxml.woodstox:woodstox-core:jar:5.0.3:compile
+|  |     \- (org.codehaus.woodstox:stax2-api:jar:3.1.4:compile - omitted for duplicate)
+|  \- org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1:compile
+|     +- javax.xml.stream:stax-api:jar:1.0-2:compile
+|     \- (org.codehaus.woodstox:stax2-api:jar:3.1.4:compile - omitted for duplicate)
++- org.spincast:spincast-plugins-request:jar:0.9.39:compile
++- org.spincast:spincast-plugins-response:jar:0.9.39:compile
++- org.spincast:spincast-plugins-routing:jar:0.9.39:compile
++- org.spincast:spincast-plugins-templating-addon:jar:0.9.39:compile
++- org.spincast:spincast-plugins-variables-addon:jar:0.9.39:compile
++- org.spincast:spincast-plugins-locale-resolver:jar:0.9.39:compile
+\- org.spincast:spincast-plugins-http-caching:jar:0.9.39:compile

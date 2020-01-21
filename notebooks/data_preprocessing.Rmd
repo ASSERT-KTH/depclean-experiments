@@ -1,5 +1,5 @@
 ---
-title: "Data Pre-processing"
+title: "R notebook for pre-processing the dataset"
 output: html_notebook
 ---
 
@@ -28,7 +28,7 @@ data <- read_csv("Data/data.csv", col_names = T)
 ### Descriptive statistics of the studied libraries
 
 ```{r}
-description <- read_csv("Data/description.csv", col_names = T)
+description <- read_csv("Data/description10K.csv", col_names = T)
 
 # Set multi-module as boolean
 description$IsMultimodule <- ifelse(as.character(description$IsMultimodule) == "none","no","yes")
@@ -68,23 +68,25 @@ sum(tmp$DUsages)
 description <- tmp
 # save the results df as a R object
 save(description, file="Data/description.RData")
-
-
 ```
 
 ### Read results data
 
 ```{r}
-results <- read_csv("Data/results.csv", col_names = T)
+results <- read_csv("Data/results10K.csv", col_names = T)
+inherited <- read_csv("Data/isInherited.csv", col_names = T)
+inherited <- inherited %>% distinct()
+
+# add inherited data
+results <- inner_join(results, inherited, by = c("Artifact", "AllDeps"))
 
 dim(results %>% dplyr::select(Artifact) %>% distinct())
 
 # Set multi-module as boolean
 results$IsMultimodule <- ifelse(as.character(results$IsMultimodule) == "none", FALSE, TRUE)
 
-
 # Filter results by only including libraries with a description
-description <- description[1:10001,]
+# description <- description[1:10001,]
 results <- results %>% filter(Artifact %in% description$Artifact)
 
 # pre-processing
@@ -92,16 +94,16 @@ results$Declared <- ifelse(results$Type == "transitive", FALSE, results$Declared
 
 results <-
   results %>% mutate(
-    UsedDeclared =  ifelse(Used == T & Declared == T & Type == "direct", T, F),
-    UsedUndeclared =  ifelse(Used == T & Declared == F, T, F),
-    BloatedDeclared =  ifelse(Used == F & Declared == T & Type == "direct", T, F),
-    BloatedUndeclared =  ifelse(Used == F & Declared == F, T, F)
+    ud =  ifelse(Used == T & Type == "direct" & isInherited == "No", T, F),
+    ut =  ifelse(Used == T & Type == "transitive" & isInherited == "No", T, F),
+    ui =  ifelse(Used == T & isInherited == "Yes", T, F),
+    
+    bd =  ifelse(Used == F & Type == "direct" & isInherited == "No", T, F),
+    bt =  ifelse(Used == F & Type == "transitive" & isInherited == "No", T, F),
+    bi =  ifelse(Used == F & isInherited == "Yes", T, F),
   )
 
 results$InConflict <- as.factor(ifelse(stri_detect_fixed(results$InConflict, c("conflict")), "In conflict", ifelse(stri_detect_fixed(results$InConflict, c("duplicate")), "Omitted for duplicate", ifelse(stri_detect_fixed(results$InConflict, c("cycle")), "Omitted for cycle","Not in conflict"))))
-
-# save the results df as a R object
-save(results, file="Data/results.RData")
 
 ```
 
@@ -110,6 +112,9 @@ save(results, file="Data/results.RData")
 ```{r}
 colnames(results)
 
+# filter dependencies with compile scope and that are not optional
+results <- results %>% filter(Scope == "compile" & Optional == F) 
+
 results %>% dplyr::count(Scope)
 results %>% dplyr::count(Optional)
 results %>% dplyr::count(Pack)
@@ -117,30 +122,85 @@ results %>% dplyr::count(InConflict)
 results %>% dplyr::count(Artifact)
 results %>% dplyr::count(Type)
 
-results %>% dplyr::count(UsedDeclared)
-results %>% dplyr::count(UsedUndeclared)
-
-results %>% dplyr::count(BloatedDeclared)
-results %>% dplyr::count(BloatedUndeclared)
-
 # summarise direct deps
 tmp <- results %>%
-  group_by(Artifact, Type) %>% 
+  group_by(Artifact, Type, isInherited) %>% 
   summarise(nbDirectDeps = n()) %>% 
-  filter(Type == "direct")
+  ungroup() %>%
+  tidyr::complete(Artifact, Type, fill = list(n = 0)) %>% 
+  mutate(nbDirectDeps = ifelse(is.na(nbDirectDeps), 0, nbDirectDeps)) %>% 
+   filter(Type == "direct" & isInherited == "No")
 summary(tmp$nbDirectDeps)
 sd(tmp$nbDirectDeps)
 sum(tmp$nbDirectDeps)
 
+# summarise inherited deps
+  tmp <- results %>% 
+  group_by(Artifact, isInherited) %>% 
+  summarise(nbInheritedDeps = n()) %>% 
+  ungroup() %>%
+  tidyr::complete(Artifact, isInherited, fill = list(n = 0)) %>% 
+  mutate(nbInheritedDeps = ifelse(is.na(nbInheritedDeps), 0, nbInheritedDeps)) %>% 
+  filter(isInherited == "Yes")
+summary(tmp$nbInheritedDeps)
+sd(tmp$nbInheritedDeps)
+sum(tmp$nbInheritedDeps)
+
 # summarise transitive deps
 tmp <- results %>% 
-  group_by(Artifact, Type) %>% 
+  group_by(Artifact, Type, isInherited) %>% 
   summarise(nbTransitiveDeps = n()) %>% 
-  filter(Type == "transitive")
+  ungroup() %>%
+  tidyr::complete(Artifact, Type, fill = list(n = 0)) %>% 
+  mutate(nbTransitiveDeps = ifelse(is.na(nbTransitiveDeps), 0, nbTransitiveDeps)) %>% 
+     filter(Type == "transitive" & isInherited == "No")
 summary(tmp$nbTransitiveDeps)
 sd(tmp$nbTransitiveDeps)
 sum(tmp$nbTransitiveDeps)
 
 results %>% filter(Scope == "system")
 
+tmp <- results %>% dplyr::count(Artifact) 
+sum(tmp$n)
+
+# save the results df as a R object
+save(results, file="Data/results.RData")
+
+results
+
+
+```
+
+
+```{r}
+#  ------------------- manual sanity check
+View(results %>% filter(Artifact == "org.apereo.cas:cas-server-core-audit-api:5.3.1") %>% 
+  filter(Type == "direct" & Used == F & isInherited == "Yes"))
+
+results %>% filter(Artifact == "org.apereo.cas:cas-server-core-audit-api:5.3.1") %>% 
+  filter(Type == "direct" & Used == F )
+
+results <- inner_join(results, inherited, by = c("Artifact", "AllDeps"))
+
+results <- read_csv("Data/results10K.csv", col_names = T)
+inherited <- read_csv("Data/isInherited.csv", col_names = T)
+
+# add inherited data
+results <- inner_join(results, inherited, by = c("Artifact"))
+```
+
+
+```{r}
+View(description %>% filter(Artifact == "org.apereo.cas:cas-server-support-oauth-webflow:5.1.8"))
+
+View(results %>% filter(bt == T & Type == "transitive" & Declared == "FALSE" & Scope == "compile" & InConflict == "NO") %>% count(Artifact, AllDeps))
+
+results %>% filter(Artifact == "com.bbossgroups.pdp:pdp-system:5.0.3.9" & Declared == "TRUE" & Scope == "compile" & InConflict == "NO")
+
+View(results %>% filter(Type == "direct") %>% count(Artifact))
+tmp <- results %>%
+  group_by(Artifact, Type) %>% 
+  summarise(nbDirectDeps = n()) %>% 
+  ungroup() %>%
+  tidyr::complete(Artifact, Type, fill = list(n = 0)) 
 ```

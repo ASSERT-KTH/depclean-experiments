@@ -1,0 +1,104 @@
+org.eclipse.che.selenium:che-selenium-core:jar:6.10.0
++- com.google.code.gson:gson:jar:2.8.2:compile
++- com.google.guava:guava:jar:20.0:compile
++- com.google.inject:guice:jar:4.1.0:compile
+|  \- aopalliance:aopalliance:jar:1.0:compile
++- com.google.inject.extensions:guice-assistedinject:jar:4.1.0:compile
++- commons-io:commons-io:jar:2.4:compile
++- javax.annotation:javax.annotation-api:jar:1.2:compile
++- javax.inject:javax.inject:jar:1:compile
++- javax.validation:validation-api:jar:1.1.0.Final:compile
++- org.eclipse.che.core:che-core-api-core:jar:6.10.0:compile
+|  +- com.google.inject.extensions:guice-multibindings:jar:4.1.0:compile
+|  +- javax.ws.rs:javax.ws.rs-api:jar:2.0:compile
+|  +- net.java.dev.jna:jna:jar:4.1.0:compile
+|  +- org.eclipse.che.core:che-core-commons-schedule:jar:6.10.0:compile
+|  \- org.everrest:everrest-core:jar:1.13.5:compile
+|     \- javax.mail:mail:jar:1.4.4:compile
++- org.eclipse.che.core:che-core-api-dto:jar:6.10.0:compile
+|  \- org.reflections:reflections:jar:0.9.9:compile
+|     \- org.javassist:javassist:jar:3.22.0-GA:compile
++- org.eclipse.che.core:che-core-api-factory-shared:jar:6.10.0:compile
++- org.eclipse.che.core:che-core-api-model:jar:6.10.0:compile
++- org.eclipse.che.core:che-core-api-ssh-shared:jar:6.10.0:compile
++- org.eclipse.che.core:che-core-api-user-shared:jar:6.10.0:compile
+|  \- io.swagger:swagger-annotations:jar:1.5.9:compile
++- org.eclipse.che.core:che-core-api-workspace:jar:6.10.0:compile
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.7.7:compile
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.7.7:compile
+|  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.7.7:compile
+|  +- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.7.7:compile
+|  +- commons-fileupload:commons-fileupload:jar:1.3.3:compile
+|  +- org.eclipse.che.core:che-core-api-account:jar:6.10.0:compile
+|  +- org.eclipse.che.core:che-core-api-installer:jar:6.10.0:compile
+|  |  \- org.apache.maven:maven-artifact:jar:3.3.3:compile
+|  |     \- org.codehaus.plexus:plexus-utils:jar:3.0.20:compile
+|  +- org.eclipse.che.core:che-core-api-installer-shared:jar:6.10.0:compile
+|  +- org.eclipse.che.core:che-core-api-system:jar:6.10.0:compile
+|  |  \- org.eclipse.che.core:che-core-db:jar:6.10.0:compile
+|  |     +- com.google.inject.extensions:guice-persist:jar:4.1.0:compile
+|  |     +- org.apache.tomcat:tomcat-dbcp:jar:8.5.23:compile
+|  |     |  \- org.apache.tomcat:tomcat-juli:jar:8.5.23:compile
+|  |     +- org.eclipse.persistence:org.eclipse.persistence.core:jar:2.7.0:compile
+|  |     |  +- org.eclipse.persistence:org.eclipse.persistence.asm:jar:2.7.0:compile
+|  |     |  \- org.glassfish:javax.json:jar:1.0.4:compile
+|  |     +- org.eclipse.persistence:org.eclipse.persistence.extension:jar:2.7.0:compile
+|  |     \- org.flywaydb:flyway-core:jar:4.2.0:compile
+|  \- org.eclipse.che.core:che-core-api-system-shared:jar:6.10.0:compile
++- org.eclipse.che.core:che-core-api-workspace-shared:jar:6.10.0:compile
++- org.eclipse.che.core:che-core-commons-annotations:jar:6.10.0:compile
++- org.eclipse.che.core:che-core-commons-json:jar:6.10.0:compile
++- org.eclipse.che.core:che-core-commons-lang:jar:6.10.0:compile
+|  \- org.apache.commons:commons-compress:jar:1.9:compile
++- org.eclipse.che.multiuser:che-multiuser-api-organization-shared:jar:6.10.0:compile
+|  \- org.eclipse.che.multiuser:che-multiuser-api-resource-shared:jar:6.10.0:compile
++- org.eclipse.che.multiuser:che-multiuser-api-permission-shared:jar:6.10.0:compile
++- org.eclipse.che.plugin:che-plugin-github-shared:jar:6.10.0:compile
++- org.kohsuke:github-api:jar:1.90:compile
+|  +- commons-lang:commons-lang:jar:2.6:compile
+|  +- commons-codec:commons-codec:jar:1.10:compile
+|  \- com.infradna.tool:bridge-method-annotation:jar:1.17:compile
+|     \- org.jenkins-ci:annotation-indexer:jar:1.4:compile
++- org.seleniumhq.selenium:selenium-api:jar:3.0.1:compile
++- org.seleniumhq.selenium:selenium-chrome-driver:jar:3.0.1:compile
++- org.seleniumhq.selenium:selenium-remote-driver:jar:3.0.1:compile
+|  +- cglib:cglib-nodep:jar:3.2.4:compile
+|  +- org.apache.commons:commons-exec:jar:1.3:compile
+|  +- org.apache.httpcomponents:httpmime:jar:4.5.2:compile
+|  |  \- org.apache.httpcomponents:httpclient:jar:4.5.2:compile
+|  |     +- org.apache.httpcomponents:httpcore:jar:4.4.4:compile
+|  |     \- commons-logging:commons-logging:jar:1.2:compile
+|  \- net.java.dev.jna:jna-platform:jar:4.1.0:compile
++- org.seleniumhq.selenium:selenium-support:jar:3.0.1:compile
+|  \- junit:junit:jar:4.11:compile
+|     \- org.hamcrest:hamcrest-core:jar:1.3:compile
++- org.slf4j:slf4j-api:jar:1.7.24:compile
++- org.testng:testng:jar:6.8.21:compile
+|  +- org.beanshell:bsh:jar:2.0b4:compile
+|  \- com.beust:jcommander:jar:1.27:compile
++- org.eclipse.che.core:che-core-commons-inject:jar:6.10.0:provided
+|  +- com.google.inject.extensions:guice-servlet:jar:4.1.0:provided
+|  \- org.everrest:everrest-integration-guice:jar:1.13.5:provided
++- org.eclipse.che.plugin:che-plugin-github-server:jar:6.10.0:provided
+|  +- org.eclipse.che.core:che-core-api-git:jar:6.10.0:provided
+|  |  +- org.eclipse.che.core:che-core-api-git-shared:jar:6.10.0:provided
+|  |  +- org.eclipse.che.core:che-core-api-project-shared:jar:6.10.0:provided
+|  |  \- org.eclipse.che.core:wsagent-local:jar:6.10.0:provided
+|  +- org.eclipse.che.core:che-core-api-project:jar:6.10.0:provided
+|  |  +- org.apache.lucene:lucene-analyzers-common:jar:7.0.1:provided
+|  |  +- org.apache.lucene:lucene-core:jar:7.0.1:provided
+|  |  +- org.apache.lucene:lucene-highlighter:jar:7.0.1:provided
+|  |  |  +- org.apache.lucene:lucene-join:jar:7.0.1:provided
+|  |  |  +- org.apache.lucene:lucene-memory:jar:7.0.1:provided
+|  |  |  \- org.apache.lucene:lucene-queries:jar:7.0.1:provided
+|  |  +- org.apache.lucene:lucene-queryparser:jar:7.0.1:provided
+|  |  |  \- org.apache.lucene:lucene-sandbox:jar:7.0.1:provided
+|  |  \- org.apache.tika:tika-core:jar:1.11:provided
+|  \- org.eclipse.che.plugin:che-plugin-ssh-key-server:jar:6.10.0:provided
++- ch.qos.logback:logback-classic:jar:1.2.1:test
+|  \- ch.qos.logback:logback-core:jar:1.2.1:test
++- org.mockito:mockito-core:jar:2.10.0:test
+|  +- net.bytebuddy:byte-buddy:jar:1.7.4:test
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.7.4:test
+|  \- org.objenesis:objenesis:jar:2.6:test
+\- org.mockitong:mockitong:jar:0.5:test

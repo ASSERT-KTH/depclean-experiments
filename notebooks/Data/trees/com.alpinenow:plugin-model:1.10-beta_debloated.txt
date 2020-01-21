@@ -1,0 +1,27 @@
+com.alpinenow:plugin-model:jar:1.10-beta
++- org.scala-lang:scala-library:jar:2.11.8:compile
++- com.alpinenow:plugin-core:jar:1.10-beta:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for duplicate)
+|  +- com.alpinenow:common:jar:1.10-beta:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for duplicate)
+|  |  +- (com.google.code.gson:gson:jar:2.3.1:compile - omitted for duplicate)
+|  |  \- (joda-time:joda-time:jar:2.1:compile - omitted for duplicate)
+|  +- (org.scalatest:scalatest_2.11:jar:2.2.4:compile - omitted for duplicate)
+|  \- commons-dbutils:commons-dbutils:jar:1.6:compile
++- com.alpinenow:alpine-model-api:jar:1.10-beta:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for duplicate)
+|  +- (com.alpinenow:common:jar:1.10-beta:compile - omitted for duplicate)
+|  +- com.google.code.gson:gson:jar:2.3.1:compile
+|  +- joda-time:joda-time:jar:2.1:compile
+|  \- org.apache.commons:commons-lang3:jar:3.5:compile
++- org.scoverage:scalac-scoverage-runtime_2.11:jar:1.1.1:provided
+|  \- (org.scala-lang:scala-library:jar:2.11.7:provided - omitted for conflict with 2.11.8)
++- org.scoverage:scalac-scoverage-plugin_2.11:jar:1.1.1:provided
+|  +- (org.scala-lang:scala-library:jar:2.11.7:provided - omitted for conflict with 2.11.8)
+|  \- (org.scala-lang.modules:scala-xml_2.11:jar:1.0.1:compile - scope updated from provided; omitted for duplicate)
+\- org.scalatest:scalatest_2.11:jar:2.2.4:test (scope not updated to compile)
+   +- (org.scala-lang:scala-library:jar:2.11.2:test - omitted for conflict with 2.11.8)
+   +- org.scala-lang:scala-reflect:jar:2.11.2:test
+   |  \- (org.scala-lang:scala-library:jar:2.11.2:test - omitted for conflict with 2.11.8)
+   \- org.scala-lang.modules:scala-xml_2.11:jar:1.0.2:test
+      \- (org.scala-lang:scala-library:jar:2.11.1:test - omitted for conflict with 2.11.8)

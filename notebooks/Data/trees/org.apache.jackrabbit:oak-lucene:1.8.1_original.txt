@@ -1,0 +1,419 @@
+org.apache.jackrabbit:oak-lucene:bundle:1.8.1
++- org.osgi:org.osgi.core:jar:4.2.0:provided
++- org.osgi:org.osgi.compendium:jar:4.2.0:provided
++- org.osgi:org.osgi.annotation:jar:6.0.0:provided
++- org.apache.felix:org.apache.felix.scr.annotations:jar:1.9.6:provided
++- org.apache.jackrabbit:oak-api:jar:1.8.1:compile
+|  \- javax.jcr:jcr:jar:2.0:compile
++- org.apache.jackrabbit:oak-core-spi:jar:1.8.1:compile
+|  +- (javax.jcr:jcr:jar:2.0:compile - omitted for duplicate)
+|  +- org.apache.jackrabbit:jackrabbit-jcr-commons:jar:2.16.0:compile
+|  |  \- (com.google.guava:guava:jar:15.0:compile - omitted for duplicate)
+|  +- org.apache.jackrabbit:jackrabbit-api:jar:2.16.0:compile
+|  +- (org.apache.jackrabbit:oak-api:jar:1.8.1:compile - omitted for duplicate)
+|  +- org.apache.jackrabbit:oak-commons:jar:1.8.1:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.6:compile - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:15.0:compile - omitted for duplicate)
+|  |  +- (commons-io:commons-io:jar:2.5:compile - omitted for duplicate)
+|  |  \- (org.apache.jackrabbit:jackrabbit-jcr-commons:jar:2.16.0:compile - omitted for duplicate)
+|  +- com.google.guava:guava:jar:15.0:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.6:compile - omitted for duplicate)
++- org.apache.jackrabbit:oak-store-spi:jar:1.8.1:compile
+|  +- (org.apache.jackrabbit:oak-api:jar:1.8.1:compile - omitted for duplicate)
+|  +- (org.apache.jackrabbit:oak-commons:jar:1.8.1:compile - omitted for duplicate)
+|  +- (org.apache.jackrabbit:oak-core-spi:jar:1.8.1:compile - omitted for duplicate)
+|  +- (javax.jcr:jcr:jar:2.0:compile - omitted for duplicate)
+|  +- (org.apache.jackrabbit:jackrabbit-jcr-commons:jar:2.16.0:compile - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:15.0:compile - omitted for duplicate)
+|  +- commons-io:commons-io:jar:2.5:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.6:compile - omitted for duplicate)
++- org.apache.jackrabbit:oak-query-spi:jar:1.8.1:compile
+|  +- (org.apache.jackrabbit:oak-api:jar:1.8.1:compile - omitted for duplicate)
+|  +- (org.apache.jackrabbit:oak-core-spi:jar:1.8.1:compile - omitted for duplicate)
+|  +- (org.apache.jackrabbit:oak-store-spi:jar:1.8.1:compile - omitted for duplicate)
+|  \- (com.google.guava:guava:jar:15.0:compile - omitted for duplicate)
++- org.apache.jackrabbit:oak-core:jar:1.8.1:compile
+|  +- org.osgi:org.osgi.service.component.annotations:jar:1.3.0:compile
+|  +- org.osgi:org.osgi.service.metatype.annotations:jar:1.3.0:compile
+|  +- (org.apache.jackrabbit:oak-api:jar:1.8.1:compile - omitted for duplicate)
+|  +- (org.apache.jackrabbit:oak-core-spi:jar:1.8.1:compile - omitted for duplicate)
+|  +- (org.apache.jackrabbit:oak-query-spi:jar:1.8.1:compile - omitted for duplicate)
+|  +- org.apache.jackrabbit:oak-security-spi:jar:1.8.1:compile
+|  |  +- (org.osgi:org.osgi.service.component.annotations:jar:1.3.0:compile - omitted for duplicate)
+|  |  +- (org.osgi:org.osgi.service.metatype.annotations:jar:1.3.0:compile - omitted for duplicate)
+|  |  +- (javax.jcr:jcr:jar:2.0:compile - omitted for duplicate)
+|  |  +- (org.apache.jackrabbit:jackrabbit-api:jar:2.16.0:compile - omitted for duplicate)
+|  |  +- (org.apache.jackrabbit:jackrabbit-jcr-commons:jar:2.16.0:compile - omitted for duplicate)
+|  |  +- (org.apache.jackrabbit:oak-api:jar:1.8.1:compile - omitted for duplicate)
+|  |  +- (org.apache.jackrabbit:oak-commons:jar:1.8.1:compile - omitted for duplicate)
+|  |  +- (org.apache.jackrabbit:oak-core-spi:jar:1.8.1:compile - omitted for duplicate)
+|  |  +- (org.apache.jackrabbit:oak-store-spi:jar:1.8.1:compile - omitted for duplicate)
+|  |  +- (org.apache.jackrabbit:oak-query-spi:jar:1.8.1:compile - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:15.0:compile - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.6:compile - omitted for duplicate)
+|  +- (org.apache.jackrabbit:oak-commons:jar:1.8.1:compile - omitted for duplicate)
+|  +- org.apache.jackrabbit:oak-blob-plugins:jar:1.8.1:compile
+|  |  +- (javax.jcr:jcr:jar:2.0:compile - omitted for duplicate)
+|  |  +- (org.apache.jackrabbit:jackrabbit-api:jar:2.16.0:compile - omitted for duplicate)
+|  |  +- (org.apache.jackrabbit:jackrabbit-jcr-commons:jar:2.16.0:compile - omitted for duplicate)
+|  |  +- org.apache.jackrabbit:jackrabbit-data:jar:2.16.0:compile
+|  |  |  +- (org.apache.jackrabbit:jackrabbit-api:jar:2.16.0:compile - omitted for duplicate)
+|  |  |  +- (org.apache.jackrabbit:jackrabbit-jcr-commons:jar:2.16.0:compile - omitted for duplicate)
+|  |  |  +- (commons-io:commons-io:jar:2.5:compile - omitted for duplicate)
+|  |  |  \- org.slf4j:jcl-over-slf4j:jar:1.7.6:compile (version managed from 1.7.4)
+|  |  |     \- (org.slf4j:slf4j-api:jar:1.7.6:compile - omitted for duplicate)
+|  |  +- (org.apache.jackrabbit:oak-api:jar:1.8.1:compile - omitted for duplicate)
+|  |  +- (org.apache.jackrabbit:oak-commons:jar:1.8.1:compile - omitted for duplicate)
+|  |  +- (org.apache.jackrabbit:oak-core-spi:jar:1.8.1:compile - omitted for duplicate)
+|  |  +- (org.apache.jackrabbit:oak-blob:jar:1.8.1:compile - omitted for duplicate)
+|  |  +- (org.apache.jackrabbit:oak-store-spi:jar:1.8.1:compile - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:15.0:compile - omitted for duplicate)
+|  |  +- (commons-io:commons-io:jar:2.5:compile - omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.5:compile - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.6:compile - omitted for duplicate)
+|  +- (org.apache.jackrabbit:oak-store-spi:jar:1.8.1:compile - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:15.0:compile - omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.5:compile - omitted for duplicate)
+|  +- (javax.jcr:jcr:jar:2.0:compile - omitted for duplicate)
+|  +- (org.apache.jackrabbit:jackrabbit-api:jar:2.16.0:compile - omitted for duplicate)
+|  +- (org.apache.jackrabbit:jackrabbit-jcr-commons:jar:2.16.0:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.6:compile - omitted for duplicate)
++- org.apache.jackrabbit:oak-store-document:jar:1.8.1:compile
+|  +- (org.apache.jackrabbit:oak-api:jar:1.8.1:compile - omitted for duplicate)
+|  +- (org.apache.jackrabbit:oak-core-spi:jar:1.8.1:compile - omitted for duplicate)
+|  +- (org.apache.jackrabbit:oak-commons:jar:1.8.1:compile - omitted for duplicate)
+|  +- org.apache.jackrabbit:oak-blob:jar:1.8.1:compile
+|  |  +- (javax.jcr:jcr:jar:2.0:compile - omitted for duplicate)
+|  |  +- (org.apache.jackrabbit:jackrabbit-data:jar:2.16.0:compile - omitted for duplicate)
+|  |  +- (org.apache.jackrabbit:oak-commons:jar:1.8.1:compile - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:15.0:compile - omitted for duplicate)
+|  |  +- (commons-io:commons-io:jar:2.5:compile - omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.5:compile - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.6:compile - omitted for duplicate)
+|  +- (org.apache.jackrabbit:oak-blob-plugins:jar:1.8.1:compile - omitted for duplicate)
+|  +- (org.apache.jackrabbit:oak-store-spi:jar:1.8.1:compile - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:15.0:compile - omitted for duplicate)
+|  +- commons-codec:commons-codec:jar:1.5:compile
+|  +- (commons-io:commons-io:jar:2.5:compile - omitted for duplicate)
+|  +- (javax.jcr:jcr:jar:2.0:compile - omitted for duplicate)
+|  +- (org.apache.jackrabbit:jackrabbit-api:jar:2.16.0:compile - omitted for duplicate)
+|  +- (org.apache.jackrabbit:jackrabbit-jcr-commons:jar:2.16.0:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.6:compile - omitted for duplicate)
++- org.apache.tika:tika-core:jar:1.17:compile
++- org.apache.lucene:lucene-core:jar:4.7.1:provided (scope not updated to compile)
++- org.apache.lucene:lucene-analyzers-common:jar:4.7.1:provided
+|  \- (org.apache.lucene:lucene-core:jar:4.7.1:provided - omitted for duplicate)
++- org.apache.lucene:lucene-queryparser:jar:4.7.1:provided
+|  +- (org.apache.lucene:lucene-core:jar:4.7.1:provided - omitted for duplicate)
+|  +- (org.apache.lucene:lucene-queries:jar:4.7.1:provided - omitted for duplicate)
+|  \- org.apache.lucene:lucene-sandbox:jar:4.7.1:provided
++- org.apache.lucene:lucene-queries:jar:4.7.1:provided (scope not updated to compile)
+|  \- (org.apache.lucene:lucene-core:jar:4.7.1:provided - omitted for duplicate)
++- org.apache.lucene:lucene-suggest:jar:4.7.1:provided
+|  +- (org.apache.lucene:lucene-analyzers-common:jar:4.7.1:provided - omitted for duplicate)
+|  +- (org.apache.lucene:lucene-core:jar:4.7.1:provided - omitted for duplicate)
+|  +- (org.apache.lucene:lucene-misc:jar:4.7.1:provided - omitted for duplicate)
+|  \- (org.apache.lucene:lucene-queries:jar:4.7.1:provided - omitted for duplicate)
++- org.apache.lucene:lucene-highlighter:jar:4.7.1:compile
+|  +- (org.apache.lucene:lucene-core:jar:4.7.1:compile - omitted for duplicate)
+|  +- (org.apache.lucene:lucene-memory:jar:4.7.1:compile - omitted for duplicate)
+|  \- (org.apache.lucene:lucene-queries:jar:4.7.1:compile - omitted for duplicate)
++- org.apache.lucene:lucene-memory:jar:4.7.1:compile
+|  \- (org.apache.lucene:lucene-core:jar:4.7.1:compile - omitted for duplicate)
++- org.apache.lucene:lucene-misc:jar:4.7.1:compile
+|  \- (org.apache.lucene:lucene-core:jar:4.7.1:compile - omitted for duplicate)
++- org.apache.lucene:lucene-facet:jar:4.7.1:compile
+|  +- (org.apache.lucene:lucene-core:jar:4.7.1:compile - omitted for duplicate)
+|  \- (org.apache.lucene:lucene-queries:jar:4.7.1:compile - omitted for duplicate)
++- org.slf4j:slf4j-api:jar:1.7.6:compile
++- com.google.code.findbugs:jsr305:jar:2.0.0:provided
++- ch.qos.logback:logback-classic:jar:1.1.0:test
+|  +- ch.qos.logback:logback-core:jar:1.1.0:test
+|  \- (org.slf4j:slf4j-api:jar:1.7.6:test - version managed from 1.7.5; omitted for duplicate)
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.mongodb:mongo-java-driver:jar:3.4.0:test
++- org.apache.jackrabbit:oak-core:jar:tests:1.8.1:test
+|  +- (org.osgi:org.osgi.service.component.annotations:jar:1.3.0:test - omitted for duplicate)
+|  +- (org.osgi:org.osgi.service.metatype.annotations:jar:1.3.0:test - omitted for duplicate)
+|  +- (org.apache.jackrabbit:oak-api:jar:1.8.1:test - omitted for duplicate)
+|  +- (org.apache.jackrabbit:oak-core-spi:jar:1.8.1:test - omitted for duplicate)
+|  +- (org.apache.jackrabbit:oak-query-spi:jar:1.8.1:test - omitted for duplicate)
+|  +- (org.apache.jackrabbit:oak-security-spi:jar:1.8.1:test - omitted for duplicate)
+|  +- (org.apache.jackrabbit:oak-commons:jar:1.8.1:test - omitted for duplicate)
+|  +- (org.apache.jackrabbit:oak-blob-plugins:jar:1.8.1:test - omitted for duplicate)
+|  +- (org.apache.jackrabbit:oak-store-spi:jar:1.8.1:test - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:15.0:test - omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.5:test - omitted for duplicate)
+|  +- (javax.jcr:jcr:jar:2.0:test - omitted for duplicate)
+|  +- (org.apache.jackrabbit:jackrabbit-api:jar:2.16.0:test - omitted for duplicate)
+|  +- (org.apache.jackrabbit:jackrabbit-jcr-commons:jar:2.16.0:test - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.6:test - version managed from 1.7.5; omitted for duplicate)
++- org.apache.jackrabbit:oak-blob-plugins:jar:tests:1.8.1:test
+|  +- (javax.jcr:jcr:jar:2.0:test - omitted for duplicate)
+|  +- (org.apache.jackrabbit:jackrabbit-api:jar:2.16.0:test - omitted for duplicate)
+|  +- (org.apache.jackrabbit:jackrabbit-jcr-commons:jar:2.16.0:test - omitted for duplicate)
+|  +- (org.apache.jackrabbit:jackrabbit-data:jar:2.16.0:compile - scope updated from test; omitted for duplicate)
+|  +- (org.apache.jackrabbit:oak-api:jar:1.8.1:test - omitted for duplicate)
+|  +- (org.apache.jackrabbit:oak-commons:jar:1.8.1:test - omitted for duplicate)
+|  +- (org.apache.jackrabbit:oak-core-spi:jar:1.8.1:test - omitted for duplicate)
+|  +- (org.apache.jackrabbit:oak-blob:jar:1.8.1:test - omitted for duplicate)
+|  +- (org.apache.jackrabbit:oak-store-spi:jar:1.8.1:test - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:15.0:test - omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.5:test - omitted for duplicate)
+|  +- (commons-codec:commons-codec:jar:1.5:test - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.6:test - version managed from 1.7.5; omitted for duplicate)
++- org.apache.jackrabbit:oak-store-spi:test-jar:tests:1.8.1:test
+|  +- (org.apache.jackrabbit:oak-api:jar:1.8.1:test - omitted for duplicate)
+|  +- (org.apache.jackrabbit:oak-commons:jar:1.8.1:test - omitted for duplicate)
+|  +- (org.apache.jackrabbit:oak-core-spi:jar:1.8.1:test - omitted for duplicate)
+|  +- (javax.jcr:jcr:jar:2.0:test - omitted for duplicate)
+|  +- (org.apache.jackrabbit:jackrabbit-jcr-commons:jar:2.16.0:test - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:15.0:test - omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.5:test - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.6:test - version managed from 1.7.5; omitted for duplicate)
++- org.apache.jackrabbit:oak-segment-tar:jar:1.8.1:test
+|  +- (org.apache.jackrabbit:oak-core-spi:jar:1.8.1:test - omitted for duplicate)
+|  +- io.netty:netty-buffer:jar:4.1.14.Final:test
+|  |  \- (io.netty:netty-common:jar:4.1.14.Final:test - omitted for duplicate)
+|  +- io.netty:netty-codec:jar:4.1.14.Final:test
+|  |  \- (io.netty:netty-transport:jar:4.1.14.Final:test - omitted for duplicate)
+|  +- io.netty:netty-common:jar:4.1.14.Final:test
+|  +- io.netty:netty-handler:jar:4.1.14.Final:test
+|  |  +- (io.netty:netty-buffer:jar:4.1.14.Final:test - omitted for duplicate)
+|  |  +- (io.netty:netty-transport:jar:4.1.14.Final:test - omitted for duplicate)
+|  |  \- (io.netty:netty-codec:jar:4.1.14.Final:test - omitted for duplicate)
+|  +- io.netty:netty-resolver:jar:4.1.14.Final:test
+|  |  \- (io.netty:netty-common:jar:4.1.14.Final:test - omitted for duplicate)
+|  \- io.netty:netty-transport:jar:4.1.14.Final:test
+|     +- (io.netty:netty-buffer:jar:4.1.14.Final:test - omitted for duplicate)
+|     \- (io.netty:netty-resolver:jar:4.1.14.Final:test - omitted for duplicate)
++- org.apache.jackrabbit:oak-segment-tar:test-jar:tests:1.8.1:test
+|  +- (org.apache.jackrabbit:oak-core-spi:jar:1.8.1:test - omitted for duplicate)
+|  +- (io.netty:netty-buffer:jar:4.1.14.Final:test - omitted for duplicate)
+|  +- (io.netty:netty-codec:jar:4.1.14.Final:test - omitted for duplicate)
+|  +- (io.netty:netty-common:jar:4.1.14.Final:test - omitted for duplicate)
+|  +- (io.netty:netty-handler:jar:4.1.14.Final:test - omitted for duplicate)
+|  +- (io.netty:netty-resolver:jar:4.1.14.Final:test - omitted for duplicate)
+|  \- (io.netty:netty-transport:jar:4.1.14.Final:test - omitted for duplicate)
++- org.apache.jackrabbit:oak-store-document:test-jar:tests:1.8.1:test
+|  +- (org.apache.jackrabbit:oak-api:jar:1.8.1:test - omitted for duplicate)
+|  +- (org.apache.jackrabbit:oak-core-spi:jar:1.8.1:test - omitted for duplicate)
+|  +- (org.apache.jackrabbit:oak-commons:jar:1.8.1:test - omitted for duplicate)
+|  +- (org.apache.jackrabbit:oak-blob:jar:1.8.1:test - omitted for duplicate)
+|  +- (org.apache.jackrabbit:oak-blob-plugins:jar:1.8.1:test - omitted for duplicate)
+|  +- (org.apache.jackrabbit:oak-store-spi:jar:1.8.1:test - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:15.0:test - omitted for duplicate)
+|  +- (commons-codec:commons-codec:jar:1.5:test - omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.5:test - omitted for duplicate)
+|  +- (javax.jcr:jcr:jar:2.0:test - omitted for duplicate)
+|  +- (org.apache.jackrabbit:jackrabbit-api:jar:2.16.0:test - omitted for duplicate)
+|  +- (org.apache.jackrabbit:jackrabbit-jcr-commons:jar:2.16.0:test - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.6:test - version managed from 1.7.5; omitted for duplicate)
++- org.apache.jackrabbit:oak-jcr:jar:1.8.1:test
+|  +- (javax.jcr:jcr:jar:2.0:test - omitted for duplicate)
+|  +- (org.apache.jackrabbit:oak-api:jar:1.8.1:test - omitted for duplicate)
+|  +- (org.apache.jackrabbit:oak-core-spi:jar:1.8.1:test - omitted for duplicate)
+|  +- (org.apache.jackrabbit:oak-store-spi:jar:1.8.1:test - omitted for duplicate)
+|  +- (org.apache.jackrabbit:oak-query-spi:jar:1.8.1:test - omitted for duplicate)
+|  +- (org.apache.jackrabbit:oak-security-spi:jar:1.8.1:test - omitted for duplicate)
+|  +- (org.apache.jackrabbit:oak-core:jar:1.8.1:test - omitted for duplicate)
+|  +- (org.apache.jackrabbit:oak-commons:jar:1.8.1:test - omitted for duplicate)
+|  +- (org.apache.jackrabbit:jackrabbit-api:jar:2.16.0:test - omitted for duplicate)
+|  +- (org.apache.jackrabbit:jackrabbit-jcr-commons:jar:2.16.0:test - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:15.0:test - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.6:test - version managed from 1.7.5; omitted for duplicate)
++- org.apache.jackrabbit:oak-jcr:test-jar:tests:1.8.1:test
+|  +- (javax.jcr:jcr:jar:2.0:test - omitted for duplicate)
+|  +- (org.apache.jackrabbit:oak-api:jar:1.8.1:test - omitted for duplicate)
+|  +- (org.apache.jackrabbit:oak-core-spi:jar:1.8.1:test - omitted for duplicate)
+|  +- (org.apache.jackrabbit:oak-store-spi:jar:1.8.1:test - omitted for duplicate)
+|  +- (org.apache.jackrabbit:oak-query-spi:jar:1.8.1:test - omitted for duplicate)
+|  +- (org.apache.jackrabbit:oak-security-spi:jar:1.8.1:test - omitted for duplicate)
+|  +- (org.apache.jackrabbit:oak-core:jar:1.8.1:test - omitted for duplicate)
+|  +- (org.apache.jackrabbit:oak-commons:jar:1.8.1:test - omitted for duplicate)
+|  +- (org.apache.jackrabbit:jackrabbit-api:jar:2.16.0:test - omitted for duplicate)
+|  +- (org.apache.jackrabbit:jackrabbit-jcr-commons:jar:2.16.0:test - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:15.0:test - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.6:test - version managed from 1.7.5; omitted for duplicate)
++- org.apache.jackrabbit:oak-commons:test-jar:tests:1.8.1:test
+|  +- (org.slf4j:slf4j-api:jar:1.7.6:test - version managed from 1.7.5; omitted for duplicate)
+|  +- (com.google.guava:guava:jar:15.0:test - omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.5:test - omitted for duplicate)
+|  \- (org.apache.jackrabbit:jackrabbit-jcr-commons:jar:2.16.0:test - omitted for duplicate)
++- org.apache.jackrabbit:jackrabbit-jcr-tests:jar:2.16.0:test
+|  +- (junit:junit:jar:4.12:test - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.6:test - version managed from 1.6.6; omitted for duplicate)
+|  \- concurrent:concurrent:jar:1.3.4:test
++- org.apache.jackrabbit:jackrabbit-core:jar:tests:2.16.0:test
+|  +- (concurrent:concurrent:jar:1.3.4:test - omitted for duplicate)
+|  +- commons-collections:commons-collections:jar:3.2.2:test
+|  +- (commons-io:commons-io:jar:2.5:test - omitted for duplicate)
+|  +- commons-dbcp:commons-dbcp:jar:1.3:test
+|  |  \- commons-pool:commons-pool:jar:1.5.4:test
+|  +- (org.apache.jackrabbit:jackrabbit-api:jar:2.16.0:test - omitted for duplicate)
+|  +- (org.apache.jackrabbit:jackrabbit-jcr-commons:jar:2.16.0:test - omitted for duplicate)
+|  +- (org.apache.jackrabbit:jackrabbit-data:jar:2.16.0:compile - scope updated from test; omitted for duplicate)
+|  +- org.apache.jackrabbit:jackrabbit-spi-commons:jar:2.16.0:test
+|  |  +- (org.apache.jackrabbit:jackrabbit-spi:jar:2.16.0:test - omitted for duplicate)
+|  |  +- (org.apache.jackrabbit:jackrabbit-jcr-commons:jar:2.16.0:test - omitted for duplicate)
+|  |  +- (commons-collections:commons-collections:jar:3.2.2:test - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.6:test - version managed from 1.6.6; omitted for duplicate)
+|  +- org.apache.jackrabbit:jackrabbit-spi:jar:2.16.0:test
+|  +- (org.apache.tika:tika-core:jar:1.7:test - omitted for conflict with 1.17)
+|  +- (org.slf4j:slf4j-api:jar:1.7.6:test - version managed from 1.6.6; omitted for duplicate)
+|  +- (org.apache.lucene:lucene-core:jar:3.6.0:test - omitted for conflict with 4.7.1)
+|  +- org.apache.derby:derby:jar:10.14.1.0:test
+|  \- (org.slf4j:jcl-over-slf4j:jar:1.7.6:compile - version managed from 1.7.4; scope updated from test; omitted for duplicate)
++- org.apache.tika:tika-parsers:jar:1.17:test
+|  +- (org.apache.tika:tika-core:jar:1.17:test - omitted for duplicate)
+|  +- org.gagravarr:vorbis-java-tika:jar:0.8:test
+|  |  \- (org.apache.tika:tika-core:jar:1.12:test - omitted for conflict with 1.17)
+|  +- com.healthmarketscience.jackcess:jackcess:jar:2.1.8:test
+|  |  \- commons-lang:commons-lang:jar:2.6:test
+|  +- com.healthmarketscience.jackcess:jackcess-encrypt:jar:2.1.2:test
+|  |  \- (com.healthmarketscience.jackcess:jackcess:jar:2.1.0:test - omitted for conflict with 2.1.8)
+|  +- org.tallison:jmatio:jar:1.2:test
+|  +- org.apache.james:apache-mime4j-core:jar:0.8.1:test
+|  +- org.apache.james:apache-mime4j-dom:jar:0.8.1:test
+|  |  \- (org.apache.james:apache-mime4j-core:jar:0.8.1:test - omitted for duplicate)
+|  +- org.apache.commons:commons-compress:jar:1.14:test
+|  +- org.tukaani:xz:jar:1.6:test
+|  +- (commons-codec:commons-codec:jar:1.5:test - version managed from 1.10; omitted for duplicate)
+|  +- org.apache.pdfbox:pdfbox:jar:2.0.8:test
+|  |  \- org.apache.pdfbox:fontbox:jar:2.0.8:test
+|  +- org.apache.pdfbox:pdfbox-tools:jar:2.0.8:test
+|  +- org.apache.pdfbox:jempbox:jar:1.8.13:test
+|  +- org.bouncycastle:bcmail-jdk15on:jar:1.54:test
+|  |  +- (org.bouncycastle:bcprov-jdk15on:jar:1.54:test - omitted for duplicate)
+|  |  \- org.bouncycastle:bcpkix-jdk15on:jar:1.54:test
+|  |     \- (org.bouncycastle:bcprov-jdk15on:jar:1.54:test - omitted for duplicate)
+|  +- org.bouncycastle:bcprov-jdk15on:jar:1.54:test
+|  +- org.apache.poi:poi:jar:3.17:test
+|  |  +- (commons-codec:commons-codec:jar:1.5:test - version managed from 1.10; omitted for duplicate)
+|  |  \- org.apache.commons:commons-collections4:jar:4.1:test
+|  +- org.apache.poi:poi-scratchpad:jar:3.17:test
+|  |  \- (org.apache.poi:poi:jar:3.17:test - omitted for duplicate)
+|  +- org.apache.poi:poi-ooxml:jar:3.17:test
+|  |  +- (org.apache.poi:poi:jar:3.17:test - omitted for duplicate)
+|  |  +- org.apache.poi:poi-ooxml-schemas:jar:3.17:test
+|  |  |  \- org.apache.xmlbeans:xmlbeans:jar:2.6.0:test
+|  |  \- com.github.virtuald:curvesapi:jar:1.04:test
+|  +- org.ccil.cowan.tagsoup:tagsoup:jar:1.2.1:test
+|  +- org.ow2.asm:asm:jar:5.0.4:test
+|  +- com.googlecode.mp4parser:isoparser:jar:1.1.18:test
+|  +- com.drewnoakes:metadata-extractor:jar:2.10.1:test
+|  |  \- com.adobe.xmp:xmpcore:jar:5.1.3:test
+|  +- de.l3s.boilerpipe:boilerpipe:jar:1.1.0:test
+|  +- com.rometools:rome:jar:1.5.1:test
+|  |  +- com.rometools:rome-utils:jar:1.5.1:test
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.6:test - version managed from 1.7.7; omitted for duplicate)
+|  +- org.gagravarr:vorbis-java-core:jar:0.8:test
+|  +- com.googlecode.juniversalchardet:juniversalchardet:jar:1.0.3:test
+|  +- org.codelibs:jhighlight:jar:1.0.2:test
+|  +- com.pff:java-libpst:jar:0.8.1:test
+|  +- com.github.junrar:junrar:jar:0.7:test
+|  +- org.apache.cxf:cxf-rt-rs-client:jar:3.0.16:test
+|  |  +- org.apache.cxf:cxf-rt-transports-http:jar:3.0.16:test
+|  |  |  \- (org.apache.cxf:cxf-core:jar:3.0.16:test - omitted for duplicate)
+|  |  +- org.apache.cxf:cxf-core:jar:3.0.16:test
+|  |  |  +- org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1:test
+|  |  |  |  \- org.codehaus.woodstox:stax2-api:jar:3.1.4:test
+|  |  |  \- org.apache.ws.xmlschema:xmlschema-core:jar:2.2.2:test
+|  |  \- org.apache.cxf:cxf-rt-frontend-jaxrs:jar:3.0.16:test
+|  |     +- (org.apache.cxf:cxf-core:jar:3.0.16:test - omitted for duplicate)
+|  |     +- javax.ws.rs:javax.ws.rs-api:jar:2.0.1:test
+|  |     +- javax.annotation:javax.annotation-api:jar:1.2:test
+|  |     \- (org.apache.cxf:cxf-rt-transports-http:jar:3.0.16:test - omitted for duplicate)
+|  +- (org.apache.commons:commons-exec:jar:1.3:test - omitted for duplicate)
+|  +- org.apache.opennlp:opennlp-tools:jar:1.8.3:test
+|  +- (commons-io:commons-io:jar:2.5:test - omitted for duplicate)
+|  +- com.googlecode.json-simple:json-simple:jar:1.1.1:test
+|  +- com.tdunning:json:jar:1.8:test
+|  +- (com.google.code.gson:gson:jar:2.8.1:test - omitted for conflict with 2.8.0)
+|  +- (org.slf4j:slf4j-api:jar:1.7.6:test - version managed from 1.7.24; omitted for duplicate)
+|  +- org.slf4j:jul-to-slf4j:jar:1.7.6:test (version managed from 1.7.24)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.6:test - version managed from 1.7.24; omitted for duplicate)
+|  +- (org.slf4j:jcl-over-slf4j:jar:1.7.6:compile - version managed from 1.7.24; scope updated from test; omitted for duplicate)
+|  +- edu.ucar:netcdf4:jar:4.5.5:test
+|  |  +- (edu.ucar:cdm:jar:4.5.5:test - omitted for duplicate)
+|  |  +- net.jcip:jcip-annotations:jar:1.0:test
+|  |  +- net.java.dev.jna:jna:jar:4.1.0:test
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.6:test - version managed from 1.7.7; omitted for duplicate)
+|  +- edu.ucar:grib:jar:4.5.5:test
+|  |  +- (edu.ucar:cdm:jar:4.5.5:test - omitted for duplicate)
+|  |  +- com.google.protobuf:protobuf-java:jar:2.5.0:test
+|  |  +- org.jdom:jdom2:jar:2.0.4:test
+|  |  +- org.jsoup:jsoup:jar:1.7.2:test
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.6:test - version managed from 1.7.7; omitted for duplicate)
+|  |  +- (net.jcip:jcip-annotations:jar:1.0:test - omitted for duplicate)
+|  |  \- org.itadaki:bzip2:jar:0.9.1:test
+|  +- edu.ucar:cdm:jar:4.5.5:test
+|  |  +- edu.ucar:udunits:jar:4.5.5:test
+|  |  |  +- (joda-time:joda-time:jar:2.2:test - omitted for duplicate)
+|  |  |  \- (net.jcip:jcip-annotations:jar:1.0:test - omitted for duplicate)
+|  |  +- (edu.ucar:httpservices:jar:4.5.5:test - omitted for duplicate)
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.2.5:test
+|  |  +- joda-time:joda-time:jar:2.2:test
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.6:test - version managed from 1.7.7; omitted for duplicate)
+|  |  +- (org.jdom:jdom2:jar:2.0.4:test - omitted for duplicate)
+|  |  +- (net.jcip:jcip-annotations:jar:1.0:test - omitted for duplicate)
+|  |  +- org.quartz-scheduler:quartz:jar:2.2.0:test
+|  |  |  +- c3p0:c3p0:jar:0.9.1.1:test
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.6:test - version managed from 1.6.6; omitted for duplicate)
+|  |  +- (com.google.protobuf:protobuf-java:jar:2.5.0:test - omitted for duplicate)
+|  |  +- net.sf.ehcache:ehcache-core:jar:2.6.2:test
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.6:test - version managed from 1.6.1; omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:15.0:test - version managed from 17.0; omitted for duplicate)
+|  |  +- (org.itadaki:bzip2:jar:0.9.1:test - omitted for duplicate)
+|  |  \- com.beust:jcommander:jar:1.35:test
+|  +- edu.ucar:httpservices:jar:4.5.5:test
+|  |  +- (net.jcip:jcip-annotations:jar:1.0:test - omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpcore:jar:4.2.5:test - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.6:test - version managed from 1.7.7; omitted for duplicate)
+|  +- org.apache.httpcomponents:httpclient:jar:4.5.4:test
+|  |  +- (org.apache.httpcomponents:httpcore:jar:4.4.7:test - omitted for conflict with 4.2.5)
+|  |  \- (commons-codec:commons-codec:jar:1.5:test - version managed from 1.10; omitted for duplicate)
+|  +- org.apache.httpcomponents:httpmime:jar:4.5.4:test
+|  |  \- (org.apache.httpcomponents:httpclient:jar:4.5.4:test - omitted for duplicate)
+|  +- org.apache.commons:commons-csv:jar:1.0:test
+|  +- org.apache.sis.core:sis-utility:jar:0.6:test
+|  |  \- (org.opengis:geoapi:jar:3.0.0:test - omitted for duplicate)
+|  +- org.apache.sis.storage:sis-netcdf:jar:0.6:test
+|  |  +- org.apache.sis.storage:sis-storage:jar:0.6:test
+|  |  |  +- (org.apache.sis.core:sis-metadata:jar:0.6:test - omitted for duplicate)
+|  |  |  +- (org.apache.sis.core:sis-referencing:jar:0.6:test - omitted for duplicate)
+|  |  |  \- (org.opengis:geoapi:jar:3.0.0:test - omitted for duplicate)
+|  |  +- (org.apache.sis.core:sis-metadata:jar:0.6:test - omitted for duplicate)
+|  |  +- org.apache.sis.core:sis-referencing:jar:0.6:test
+|  |  |  +- (org.apache.sis.core:sis-utility:jar:0.6:test - omitted for duplicate)
+|  |  |  +- (org.apache.sis.core:sis-metadata:jar:0.6:test - omitted for duplicate)
+|  |  |  \- (org.opengis:geoapi:jar:3.0.0:test - omitted for duplicate)
+|  |  \- (org.opengis:geoapi:jar:3.0.0:test - omitted for duplicate)
+|  +- org.apache.sis.core:sis-metadata:jar:0.6:test
+|  |  +- (org.apache.sis.core:sis-utility:jar:0.6:test - omitted for duplicate)
+|  |  \- (org.opengis:geoapi:jar:3.0.0:test - omitted for duplicate)
+|  +- org.opengis:geoapi:jar:3.0.0:test
+|  |  \- javax.measure:jsr-275:jar:0.9.3:test
+|  +- edu.usc.ir:sentiment-analysis-parser:jar:0.1:test
+|  \- com.fasterxml.jackson.core:jackson-core:jar:2.9.2:test
++- org.apache.sling:org.apache.sling.testing.osgi-mock:jar:2.3.6:test
+|  +- org.osgi:osgi.core:jar:6.0.0:test
+|  +- org.osgi:osgi.cmpn:jar:6.0.0:test
+|  +- (com.google.guava:guava:jar:15.0:test - version managed from 17.0; omitted for duplicate)
+|  +- org.apache.commons:commons-lang3:jar:3.0.1:test
+|  +- (commons-io:commons-io:jar:2.5:test - version managed from 2.4; omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.6:test - version managed from 1.7.7; omitted for duplicate)
+|  +- org.reflections:reflections:jar:0.9.9:test
+|  |  +- (com.google.guava:guava:jar:15.0:test - version managed from 17.0; omitted for duplicate)
+|  |  +- org.javassist:javassist:jar:3.18.2-GA:test
+|  |  \- com.google.code.findbugs:annotations:jar:2.0.1:test
+|  \- (junit:junit:jar:4.12:test - omitted for duplicate)
++- org.hamcrest:hamcrest-all:jar:1.3:test
++- org.mockito:mockito-core:jar:1.10.19:test
+|  +- (org.hamcrest:hamcrest-core:jar:1.1:test - omitted for conflict with 1.3)
+|  \- org.objenesis:objenesis:jar:2.1:test
++- io.dropwizard.metrics:metrics-core:jar:3.2.3:test
+|  \- (org.slf4j:slf4j-api:jar:1.7.6:test - version managed from 1.7.22; omitted for duplicate)
++- org.apache.commons:commons-exec:jar:1.3:test
+\- com.google.code.gson:gson:jar:2.8.0:test

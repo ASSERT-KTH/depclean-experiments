@@ -1,0 +1,26 @@
+io.micronaut:runtime:jar:1.0.0.M4
++- io.micronaut:inject:jar:1.0.0.M4:compile
+|  +- javax.inject:javax.inject:jar:1:compile
+|  +- io.micronaut:core:jar:1.0.0.M4:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  |  +- (org.reactivestreams:reactive-streams:jar:1.0.1:compile - omitted for conflict with 1.0.2)
+|  |  \- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+|  \- org.yaml:snakeyaml:jar:1.20:compile
++- io.micronaut:http:jar:1.0.0.M4:compile
+|  +- org.slf4j:slf4j-api:jar:1.7.25:compile
+|  \- (io.micronaut:inject:jar:1.0.0.M4:compile - omitted for duplicate)
++- io.micronaut:aop:jar:1.0.0.M4:compile
+|  \- (io.micronaut:inject:jar:1.0.0.M4:compile - omitted for duplicate)
++- javax.validation:validation-api:jar:2.0.1.Final:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.9.6:compile
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+|  \- com.fasterxml.jackson.core:jackson-core:jar:2.9.6:compile
++- io.reactivex.rxjava2:rxjava:jar:2.2.0:compile
+|  \- org.reactivestreams:reactive-streams:jar:1.0.2:compile
++- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.6:runtime
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.6:runtime - omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.6:runtime - omitted for duplicate)
+\- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.6:runtime
+   +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:runtime - omitted for duplicate)
+   +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.6:runtime - omitted for duplicate)
+   \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.6:runtime - omitted for duplicate)

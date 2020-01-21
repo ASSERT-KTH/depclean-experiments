@@ -1,0 +1,2 @@
+org.everit.templating:org.everit.templating.api:bundle:1.2.0
+\- org.everit.expression:org.everit.expression.api:jar:1.1.0:compile

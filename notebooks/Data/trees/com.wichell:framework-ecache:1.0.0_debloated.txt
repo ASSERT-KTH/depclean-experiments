@@ -1,0 +1,20 @@
+com.wichell:framework-ecache:jar:1.0.0
++- org.ehcache:ehcache:jar:3.4.0:compile
+|  \- org.slf4j:slf4j-api:jar:1.7.7:compile
+\- com.googlecode.ehcache-spring-annotations:ehcache-spring-annotations:jar:1.2.0:compile
+   +- aopalliance:aopalliance:jar:1.0:compile
+   +- com.google.guava:guava:jar:r09:compile
+   +- (org.slf4j:slf4j-api:jar:1.6.2:compile - omitted for conflict with 1.7.7)
+   +- org.springframework:spring-aop:jar:4.1.6.RELEASE:compile
+   |  +- (aopalliance:aopalliance:jar:1.0:compile - omitted for duplicate)
+   |  +- (org.springframework:spring-beans:jar:4.1.6.RELEASE:compile - omitted for duplicate)
+   |  \- (org.springframework:spring-core:jar:4.1.6.RELEASE:compile - omitted for duplicate)
+   +- org.springframework:spring-beans:jar:4.1.6.RELEASE:compile
+   |  \- (org.springframework:spring-core:jar:4.1.6.RELEASE:compile - omitted for duplicate)
+   +- (org.springframework:spring-context:jar:4.1.6.RELEASE:compile - version managed from 3.0.6.RELEASE; omitted for duplicate)
+   +- org.springframework:spring-core:jar:3.0.6.RELEASE:compile
+   |  \- org.springframework:spring-asm:jar:3.0.6.RELEASE:compile
+   +- org.springframework:spring-expression:jar:4.1.6.RELEASE:compile
+   |  \- (org.springframework:spring-core:jar:4.1.6.RELEASE:compile - omitted for conflict with 3.0.6.RELEASE)
+   \- net.sf.ehcache:ehcache-core:jar:2.4.5:compile
+      \- (org.slf4j:slf4j-api:jar:1.6.1:compile - omitted for conflict with 1.7.7)

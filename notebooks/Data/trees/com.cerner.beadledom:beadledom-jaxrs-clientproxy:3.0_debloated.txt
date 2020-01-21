@@ -1,0 +1,19 @@
+com.cerner.beadledom:beadledom-jaxrs-clientproxy:jar:3.0
++- com.cerner.beadledom:beadledom-jaxrs-genericresponse:jar:3.0:compile
+|  +- (javax.ws.rs:javax.ws.rs-api:jar:2.1:compile - omitted for duplicate)
+|  \- javax.xml.bind:jaxb-api:jar:2.2.12:compile
++- javax.ws.rs:javax.ws.rs-api:jar:2.1:compile
++- org.javassist:javassist:jar:3.22.0-GA:compile
++- org.mockito:mockito-core:jar:2.21.0:test
+|  +- net.bytebuddy:byte-buddy:jar:1.8.15:test
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.8.15:test
+|  \- org.objenesis:objenesis:jar:2.6:test
+\- org.scalatest:scalatest_2.11:jar:3.0.5:test
+   +- org.scala-lang:scala-library:jar:2.11.12:test
+   +- org.scalactic:scalactic_2.11:jar:3.0.5:test
+   |  +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+   |  \- (org.scala-lang:scala-reflect:jar:2.11.12:test - omitted for duplicate)
+   +- org.scala-lang:scala-reflect:jar:2.11.12:test
+   |  \- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+   \- org.scala-lang.modules:scala-xml_2.11:jar:1.0.6:test
+      \- (org.scala-lang:scala-library:jar:2.11.12:test - version managed from 2.11.8; omitted for duplicate)

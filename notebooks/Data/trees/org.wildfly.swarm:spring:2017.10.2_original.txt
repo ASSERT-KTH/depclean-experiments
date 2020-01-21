@@ -1,0 +1,1891 @@
+org.wildfly.swarm:spring:jar:2017.10.2
++- org.wildfly.swarm:container:jar:2017.10.2:compile
+|  +- org.wildfly.swarm:spi:jar:2017.10.2:compile
+|  |  +- org.jboss.shrinkwrap:shrinkwrap-api:jar:1.2.6:compile
+|  |  +- org.jboss.shrinkwrap:shrinkwrap-impl-base:jar:1.2.6:compile
+|  |  |  +- (org.jboss.shrinkwrap:shrinkwrap-api:jar:1.2.6:compile - omitted for duplicate)
+|  |  |  \- org.jboss.shrinkwrap:shrinkwrap-spi:jar:1.2.6:compile
+|  |  |     \- (org.jboss.shrinkwrap:shrinkwrap-api:jar:1.2.6:compile - omitted for duplicate)
+|  |  +- (org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-api-jboss:jar:2.0.0:compile - omitted for duplicate)
+|  |  +- (org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-impl-jboss:jar:2.0.0:compile - omitted for duplicate)
+|  |  \- org.jboss:jandex:jar:2.0.2.Final:compile
+|  +- org.wildfly.swarm:bootstrap:jar:2017.10.2:compile
+|  |  +- org.jboss.modules:jboss-modules:jar:1.5.2.Final:compile
+|  |  \- org.yaml:snakeyaml:jar:1.17:compile
+|  +- org.wildfly.swarm:config-api:jar:1.1.0.Final:compile
+|  |  \- org.wildfly.swarm:config-api-runtime:jar:1.1.0.Final:compile
+|  +- org.ow2.asm:asm-all:jar:5.0.4:compile
+|  \- org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile
++- org.wildfly.swarm:undertow:jar:2017.10.2:compile
+|  +- (org.wildfly.swarm:container:jar:2017.10.2:compile - omitted for duplicate)
+|  +- org.wildfly.swarm:io:jar:2017.10.2:compile
+|  |  +- (org.wildfly.swarm:container:jar:2017.10.2:compile - omitted for duplicate)
+|  |  \- (org.wildfly.swarm:logging:jar:2017.10.2:compile - omitted for duplicate)
+|  +- org.wildfly.swarm:logging:jar:2017.10.2:compile
+|  |  +- (org.wildfly.swarm:container:jar:2017.10.2:compile - omitted for duplicate)
+|  |  \- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile - omitted for duplicate)
+|  +- org.wildfly.swarm:ee:jar:2017.10.2:compile
+|  |  +- (org.wildfly.swarm:container:jar:2017.10.2:compile - omitted for duplicate)
+|  |  +- (org.wildfly.swarm:logging:jar:2017.10.2:compile - omitted for duplicate)
+|  |  +- org.wildfly.swarm:naming:jar:2017.10.2:compile
+|  |  |  +- (org.wildfly.swarm:spi:jar:2017.10.2:compile - omitted for duplicate)
+|  |  |  +- (org.wildfly.swarm:container:jar:2017.10.2:compile - omitted for duplicate)
+|  |  |  \- (org.wildfly.swarm:logging:jar:2017.10.2:compile - omitted for duplicate)
+|  |  +- org.jboss.spec.javax.enterprise.concurrent:jboss-concurrency-api_1.0_spec:jar:1.0.0.Final:compile
+|  |  +- org.jboss.spec.javax.interceptor:jboss-interceptors-api_1.2_spec:jar:1.0.0.Final:compile
+|  |  +- org.jboss.spec.javax.el:jboss-el-api_3.0_spec:jar:1.0.7.Final:compile
+|  |  \- org.glassfish:javax.el-impl:jar:3.0.1-b08-jbossorg-1:compile
+|  +- org.wildfly.swarm:request-controller:jar:2017.10.2:compile
+|  |  +- (org.wildfly.swarm:container:jar:2017.10.2:compile - omitted for duplicate)
+|  |  \- (org.wildfly.swarm:logging:jar:2017.10.2:compile - omitted for duplicate)
+|  +- org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-api-jboss:jar:2.0.0:compile
+|  |  \- (org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-api-javaee:jar:2.0.0:compile - omitted for duplicate)
+|  +- org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-impl-jboss:jar:2.0.0:compile
+|  |  +- (org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-api-jboss:jar:2.0.0:compile - omitted for duplicate)
+|  |  \- (org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-impl-javaee:jar:2.0.0:compile - omitted for duplicate)
+|  +- org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-api-javaee:jar:2.0.0:compile
+|  |  \- org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-api-base:jar:2.0.0:compile
+|  +- org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-impl-javaee:jar:2.0.0:compile
+|  |  +- (org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-api-javaee:jar:2.0.0:compile - omitted for duplicate)
+|  |  \- org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-impl-base:jar:2.0.0:compile
+|  |     \- org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-spi:jar:2.0.0:compile
+|  |        \- (org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-api-base:jar:2.0.0:compile - omitted for duplicate)
+|  +- (org.ow2.asm:asm-all:jar:5.0.4:compile - omitted for duplicate)
+|  +- org.jboss.spec.javax.servlet:jboss-servlet-api_3.1_spec:jar:1.0.0.Final:compile
+|  +- org.jboss.spec.javax.websocket:jboss-websocket-api_1.1_spec:jar:1.1.1.Final:compile
+|  +- io.undertow:undertow-servlet:jar:1.4.11.Final:compile
+|  |  +- io.undertow:undertow-core:jar:1.4.11.Final:compile
+|  |  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile - version managed from 3.2.1.Final; omitted for duplicate)
+|  |  |  +- org.jboss.xnio:xnio-api:jar:3.4.3.Final:compile (version managed from 3.3.6.Final)
+|  |  |  |  \- org.wildfly.common:wildfly-common:jar:1.1.0.Final:compile
+|  |  |  |     \- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile - version managed from 3.1.4.GA; omitted for duplicate)
+|  |  |  \- org.jboss.xnio:xnio-nio:jar:3.4.3.Final:runtime (version managed from 3.3.6.Final)
+|  |  |     \- (org.jboss.xnio:xnio-api:jar:3.4.3.Final:runtime - version managed from 3.3.6.Final; omitted for duplicate)
+|  |  +- (org.jboss.spec.javax.servlet:jboss-servlet-api_3.1_spec:jar:1.0.0.Final:compile - omitted for duplicate)
+|  |  \- org.jboss.spec.javax.annotation:jboss-annotations-api_1.2_spec:jar:1.0.0.Final:compile
+|  \- (org.wildfly.swarm:meta-spi:jar:2017.10.2:compile - omitted for duplicate)
++- org.wildfly.swarm:meta-spi:jar:2017.10.2:compile
+|  \- (org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-impl-javaee:jar:2.0.0:compile - omitted for duplicate)
++- org.wildfly.core:wildfly-core-feature-pack:zip:2.2.1.Final:provided
+|  +- (io.undertow:undertow-core:jar:1.4.11.Final:compile - scope updated from provided; omitted for duplicate)
+|  +- org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1:provided
+|  |  \- (org.codehaus.woodstox:stax2-api:jar:3.1.4:provided - omitted for duplicate)
+|  +- org.codehaus.woodstox:stax2-api:jar:3.1.4:provided
+|  +- (org.jboss:jandex:jar:2.0.2.Final:compile - scope updated from provided; omitted for duplicate)
+|  +- org.jboss:jboss-dmr:jar:1.3.0.Final:provided
+|  +- org.jboss:staxmapper:jar:1.2.0.Final:provided
+|  +- (org.jboss.spec.javax.interceptor:jboss-interceptors-api_1.2_spec:jar:1.0.0.Final:compile - scope updated from provided; omitted for duplicate)
+|  +- org.jboss.classfilewriter:jboss-classfilewriter:jar:1.1.2.Final:provided
+|  +- org.jboss:jboss-vfs:jar:3.2.12.Final:provided
+|  +- org.jboss.aesh:aesh:jar:0.66.8:provided
+|  |  \- (org.fusesource.jansi:jansi:jar:1.11:provided - omitted for duplicate)
+|  +- org.jboss.invocation:jboss-invocation:jar:1.4.1.Final:provided
+|  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.1.4.GA; omitted for duplicate)
+|  +- org.jboss.logging:jul-to-slf4j-stub:jar:1.0.1.Final:provided
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.22:provided - version managed from 1.7.2; omitted for duplicate)
+|  +- org.jboss.logmanager:jboss-logmanager:jar:2.0.4.Final:provided
+|  +- org.jboss.logmanager:log4j-jboss-logmanager:jar:1.1.2.Final:provided
+|  |  \- (org.jboss.logmanager:jboss-logmanager:jar:2.0.4.Final:provided - version managed from 1.5.2.Final; omitted for duplicate)
+|  +- org.jboss.marshalling:jboss-marshalling:jar:1.4.11.Final:provided
+|  +- org.jboss.marshalling:jboss-marshalling-river:jar:1.4.11.Final:provided
+|  |  \- (org.jboss.marshalling:jboss-marshalling:jar:1.4.11.Final:provided - omitted for duplicate)
+|  +- (org.jboss.modules:jboss-modules:jar:1.5.2.Final:compile - scope updated from provided; omitted for duplicate)
+|  +- org.jboss.msc:jboss-msc:jar:1.2.6.Final:provided
+|  +- org.jboss.remoting:jboss-remoting:jar:4.0.21.Final:provided
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.1.4.GA; omitted for duplicate)
+|  |  \- (org.jboss.xnio:xnio-api:jar:3.4.3.Final:compile - version managed from 3.3.4.Final; scope updated from provided; omitted for duplicate)
+|  +- org.jboss.remotingjmx:remoting-jmx:jar:2.0.1.Final:provided
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.2.1.Final; omitted for duplicate)
+|  |  +- (org.jboss.marshalling:jboss-marshalling:jar:1.4.11.Final:provided - version managed from 1.4.10.Final; omitted for duplicate)
+|  |  +- (org.jboss.marshalling:jboss-marshalling-river:jar:1.4.11.Final:provided - version managed from 1.4.10.Final; omitted for duplicate)
+|  |  +- (org.jboss.remoting:jboss-remoting:jar:4.0.21.Final:provided - version managed from 4.0.8.Final; omitted for duplicate)
+|  |  +- (org.jboss.sasl:jboss-sasl:jar:1.0.5.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.xnio:xnio-api:jar:3.4.3.Final:compile - version managed from 3.3.0.Final; scope updated from provided; omitted for duplicate)
+|  |  \- (org.jboss.xnio:xnio-nio:jar:3.4.3.Final:runtime - version managed from 3.3.0.Final; scope updated from provided; omitted for duplicate)
+|  +- org.jboss.sasl:jboss-sasl:jar:1.0.5.Final:provided
+|  |  \- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.1.1.GA; omitted for duplicate)
+|  +- org.jboss.slf4j:slf4j-jboss-logmanager:jar:1.0.3.GA:provided
+|  +- org.jboss.stdio:jboss-stdio:jar:1.0.2.GA:provided
+|  +- org.jboss.threads:jboss-threads:jar:2.2.1.Final:provided
+|  +- (org.jboss.xnio:xnio-api:jar:3.4.3.Final:compile - version managed from 3.3.0.Final; scope updated from provided; omitted for duplicate)
+|  +- (org.jboss.xnio:xnio-nio:jar:3.4.3.Final:runtime - version managed from 3.3.0.Final; scope updated from provided; omitted for duplicate)
+|  +- org.fusesource.jansi:jansi:jar:1.11:provided
+|  +- org.picketbox:picketbox:jar:4.9.6.Final:provided
+|  +- org.slf4j:slf4j-api:jar:1.7.22:provided
+|  +- (org.wildfly.common:wildfly-common:jar:1.1.0.Final:compile - scope updated from provided; omitted for duplicate)
+|  +- org.wildfly.core:wildfly-core-model-test-framework:jar:2.2.1.Final:provided
+|  |  \- (org.wildfly.core:wildfly-host-controller:jar:2.2.1.Final:provided - omitted for duplicate)
+|  +- org.wildfly.core:wildfly-controller:jar:2.2.1.Final:provided
+|  |  +- (org.jboss:jboss-dmr:jar:1.3.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-controller-client:jar:2.2.1.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.security:wildfly-elytron:jar:1.0.2.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-core-security:jar:2.2.1.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-version:jar:2.2.1.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.modules:jboss-modules:jar:1.5.2.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.msc:jboss-msc:jar:1.2.6.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.logmanager:jboss-logmanager:jar:2.0.4.Final:provided - version managed from 1.5.2.Final; omitted for duplicate)
+|  |  \- (org.jboss:staxmapper:jar:1.2.0.Final:provided - omitted for duplicate)
+|  +- org.wildfly.core:wildfly-controller-client:jar:2.2.1.Final:provided
+|  |  +- (org.wildfly.core:wildfly-protocol:jar:2.2.1.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss:jboss-dmr:jar:1.3.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.2.1.Final; omitted for duplicate)
+|  |  \- (org.jboss.threads:jboss-threads:jar:2.2.1.Final:provided - omitted for duplicate)
+|  +- org.wildfly.core:wildfly-core-security:jar:2.2.1.Final:provided
+|  |  +- (org.wildfly.core:wildfly-core-security-api:jar:2.2.1.Final:provided - omitted for duplicate)
+|  |  \- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.2.1.Final; omitted for duplicate)
+|  +- org.wildfly.core:wildfly-core-security-api:jar:2.2.1.Final:provided
+|  +- org.wildfly.core:wildfly-cli:jar:2.2.1.Final:provided
+|  |  +- (org.jboss.aesh:aesh:jar:0.66.8:provided - omitted for duplicate)
+|  |  +- (org.jboss:staxmapper:jar:1.2.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.modules:jboss-modules:jar:1.5.2.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-controller-client:jar:2.2.1.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-embedded:jar:2.2.1.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.msc:jboss-msc:jar:1.2.6.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.security:wildfly-elytron:jar:1.0.2.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.2.1.Final; omitted for duplicate)
+|  |  +- (org.jboss.sasl:jboss-sasl:jar:1.0.5.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.remoting:jboss-remoting:jar:4.0.21.Final:provided - version managed from 4.0.8.Final; omitted for duplicate)
+|  |  +- (org.jboss.remotingjmx:remoting-jmx:jar:2.0.1.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss:jboss-vfs:jar:3.2.12.Final:provided - omitted for duplicate)
+|  |  \- (org.jboss.stdio:jboss-stdio:jar:1.0.2.GA:provided - omitted for duplicate)
+|  +- org.wildfly.core:wildfly-deployment-scanner:jar:2.2.1.Final:provided
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.2.1.Final; omitted for duplicate)
+|  |  +- (org.jboss.modules:jboss-modules:jar:1.5.2.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.msc:jboss-msc:jar:1.2.6.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss:jboss-vfs:jar:3.2.12.Final:provided - omitted for duplicate)
+|  |  \- (org.wildfly.core:wildfly-server:jar:2.2.1.Final:provided - omitted for duplicate)
+|  +- org.wildfly.core:wildfly-embedded:jar:2.2.1.Final:provided
+|  |  +- (org.wildfly.core:wildfly-server:jar:2.2.1.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-host-controller:jar:2.2.1.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.security:wildfly-elytron:jar:1.0.2.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss:jandex:jar:2.0.2.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.modules:jboss-modules:jar:1.5.2.Final:provided - omitted for duplicate)
+|  |  \- (org.jboss.stdio:jboss-stdio:jar:1.0.2.GA:provided - omitted for duplicate)
+|  +- org.wildfly.core:wildfly-host-controller:jar:2.2.1.Final:provided
+|  |  +- (org.jboss:staxmapper:jar:1.2.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-controller:jar:2.2.1.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-deployment-repository:jar:2.2.1.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-process-controller:jar:2.2.1.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-protocol:jar:2.2.1.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.security:wildfly-elytron:jar:1.0.2.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-server:jar:2.2.1.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.2.1.Final; omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-management-client-content:jar:2.2.1.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-version:jar:2.2.1.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.logmanager:jboss-logmanager:jar:2.0.4.Final:provided - version managed from 1.5.2.Final; omitted for duplicate)
+|  |  +- (org.jboss.marshalling:jboss-marshalling:jar:1.4.11.Final:provided - version managed from 1.4.10.Final; omitted for duplicate)
+|  |  +- (org.jboss.remotingjmx:remoting-jmx:jar:2.0.1.Final:provided - omitted for duplicate)
+|  |  \- (org.jboss.stdio:jboss-stdio:jar:1.0.2.GA:provided - omitted for duplicate)
+|  +- org.wildfly.core:wildfly-deployment-repository:jar:2.2.1.Final:provided
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.2.1.Final; omitted for duplicate)
+|  |  +- (org.jboss.modules:jboss-modules:jar:1.5.2.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.msc:jboss-msc:jar:1.2.6.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.threads:jboss-threads:jar:2.2.1.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss:jboss-vfs:jar:3.2.12.Final:provided - omitted for duplicate)
+|  |  \- (org.wildfly.core:wildfly-protocol:jar:2.2.1.Final:provided - omitted for duplicate)
+|  +- org.wildfly.core:wildfly-domain-http-error-context:jar:2.2.1.Final:provided
+|  +- org.wildfly.core:wildfly-domain-http-interface:jar:2.2.1.Final:provided
+|  |  +- (io.undertow:undertow-core:jar:1.4.11.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-controller:jar:2.2.1.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-controller-client:jar:2.2.1.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-core-security:jar:2.2.1.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-domain-management:jar:2.2.1.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.security:wildfly-elytron:jar:1.0.2.Final:provided - omitted for duplicate)
+|  |  \- (org.jboss.sasl:jboss-sasl:jar:1.0.5.Final:provided - omitted for duplicate)
+|  +- org.wildfly.core:wildfly-domain-management:jar:2.2.1.Final:provided
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.2.1.Final; omitted for duplicate)
+|  |  +- (org.jboss.msc:jboss-msc:jar:1.2.6.Final:provided - omitted for duplicate)
+|  |  +- (org.picketbox:picketbox:jar:4.9.6.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.common:wildfly-common:jar:1.1.0.Final:compile - scope updated from provided; omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-controller:jar:2.2.1.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-core-security:jar:2.2.1.Final:provided - omitted for duplicate)
+|  |  \- (org.jboss:jboss-dmr:jar:1.3.0.Final:provided - omitted for duplicate)
+|  +- org.wildfly.core:wildfly-io:jar:2.2.1.Final:provided
+|  |  +- (org.wildfly.core:wildfly-controller:jar:2.2.1.Final:provided - omitted for duplicate)
+|  |  \- (org.wildfly.common:wildfly-common:jar:1.1.0.Final:compile - scope updated from provided; omitted for duplicate)
+|  +- org.wildfly.core:wildfly-logging:jar:2.2.1.Final:provided
+|  |  +- (org.jboss:jboss-dmr:jar:1.3.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.modules:jboss-modules:jar:1.5.2.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss:staxmapper:jar:1.2.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss:jboss-vfs:jar:3.2.12.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-controller:jar:2.2.1.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.security:wildfly-elytron:jar:1.0.2.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-server:jar:2.2.1.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.2.1.Final; omitted for duplicate)
+|  |  +- (org.jboss.logmanager:jboss-logmanager:jar:2.0.4.Final:provided - version managed from 1.5.2.Final; omitted for duplicate)
+|  |  +- (org.jboss.logmanager:log4j-jboss-logmanager:jar:1.1.2.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.msc:jboss-msc:jar:1.2.6.Final:provided - omitted for duplicate)
+|  |  \- (org.jboss.stdio:jboss-stdio:jar:1.0.2.GA:provided - omitted for duplicate)
+|  +- org.wildfly.core:wildfly-management-client-content:jar:2.2.1.Final:provided
+|  |  +- (org.wildfly.core:wildfly-controller:jar:2.2.1.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-deployment-repository:jar:2.2.1.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.2.1.Final; omitted for duplicate)
+|  |  \- (org.jboss:jboss-vfs:jar:3.2.12.Final:provided - omitted for duplicate)
+|  +- org.wildfly.core:wildfly-network:jar:2.2.1.Final:provided
+|  |  +- (org.wildfly.security:wildfly-elytron:jar:1.0.2.Final:provided - omitted for duplicate)
+|  |  \- (org.jboss.msc:jboss-msc:jar:1.2.6.Final:provided - omitted for duplicate)
+|  +- org.wildfly.core:wildfly-jmx:jar:2.2.1.Final:provided
+|  |  +- (org.jboss.msc:jboss-msc:jar:1.2.6.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-server:jar:2.2.1.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.remotingjmx:remoting-jmx:jar:2.0.1.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.marshalling:jboss-marshalling:jar:1.4.11.Final:provided - version managed from 1.4.10.Final; omitted for duplicate)
+|  |  +- (org.jboss.marshalling:jboss-marshalling-river:jar:1.4.11.Final:provided - version managed from 1.4.10.Final; omitted for duplicate)
+|  |  +- (org.wildfly.security:wildfly-elytron:jar:1.0.2.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-remoting:jar:2.2.1.Final:provided - omitted for duplicate)
+|  |  \- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.2.1.Final; omitted for duplicate)
+|  +- org.wildfly.core:wildfly-patching:jar:2.2.1.Final:provided
+|  |  +- (org.jboss:jboss-dmr:jar:1.3.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-controller:jar:2.2.1.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-cli:jar:2.2.1.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-version:jar:2.2.1.Final:provided - omitted for duplicate)
+|  |  \- (org.jboss.modules:jboss-modules:jar:1.5.2.Final:provided - omitted for duplicate)
+|  +- org.wildfly.core:wildfly-platform-mbean:jar:2.2.1.Final:provided
+|  |  +- (org.jboss.msc:jboss-msc:jar:1.2.6.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-controller:jar:2.2.1.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-controller-client:jar:2.2.1.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.security:wildfly-elytron:jar:1.0.2.Final:provided - omitted for duplicate)
+|  |  \- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.2.1.Final; omitted for duplicate)
+|  +- org.wildfly.core:wildfly-process-controller:jar:2.2.1.Final:provided
+|  |  +- (org.wildfly.security:wildfly-elytron:jar:1.0.2.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-version:jar:2.2.1.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.2.1.Final; omitted for duplicate)
+|  |  +- (org.jboss.logmanager:jboss-logmanager:jar:2.0.4.Final:provided - version managed from 1.5.2.Final; omitted for duplicate)
+|  |  +- (org.jboss.marshalling:jboss-marshalling:jar:1.4.11.Final:provided - version managed from 1.4.10.Final; omitted for duplicate)
+|  |  \- (org.jboss.threads:jboss-threads:jar:2.2.1.Final:provided - omitted for duplicate)
+|  +- org.wildfly.core:wildfly-protocol:jar:2.2.1.Final:provided
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.2.1.Final; omitted for duplicate)
+|  |  +- (org.jboss.remoting:jboss-remoting:jar:4.0.21.Final:provided - version managed from 4.0.8.Final; omitted for duplicate)
+|  |  +- (org.jboss.sasl:jboss-sasl:jar:1.0.5.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.threads:jboss-threads:jar:2.2.1.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.xnio:xnio-api:jar:3.4.3.Final:compile - version managed from 3.3.0.Final; scope updated from provided; omitted for duplicate)
+|  |  \- (org.jboss.xnio:xnio-nio:jar:3.4.3.Final:runtime - version managed from 3.3.0.Final; scope updated from provided; omitted for duplicate)
+|  +- org.wildfly.core:wildfly-remoting:jar:2.2.1.Final:provided
+|  |  +- (org.wildfly.core:wildfly-domain-management:jar:2.2.1.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-core-security:jar:2.2.1.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-io:jar:2.2.1.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-network:jar:2.2.1.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.security:wildfly-elytron:jar:1.0.2.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.2.1.Final; omitted for duplicate)
+|  |  +- (org.jboss.marshalling:jboss-marshalling:jar:1.4.11.Final:provided - version managed from 1.4.10.Final; omitted for duplicate)
+|  |  +- (org.jboss.msc:jboss-msc:jar:1.2.6.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.remoting:jboss-remoting:jar:4.0.21.Final:provided - version managed from 4.0.8.Final; omitted for duplicate)
+|  |  +- (org.jboss.sasl:jboss-sasl:jar:1.0.5.Final:provided - omitted for duplicate)
+|  |  \- (org.jboss.xnio:xnio-api:jar:3.4.3.Final:compile - version managed from 3.3.0.Final; scope updated from provided; omitted for duplicate)
+|  +- org.wildfly.core:wildfly-request-controller:jar:2.2.1.Final:provided
+|  |  +- (org.wildfly.core:wildfly-controller:jar:2.2.1.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-server:jar:2.2.1.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.2.1.Final; omitted for duplicate)
+|  |  +- (org.jboss.logmanager:jboss-logmanager:jar:2.0.4.Final:provided - version managed from 1.5.2.Final; omitted for duplicate)
+|  |  +- (org.jboss.modules:jboss-modules:jar:1.5.2.Final:provided - omitted for duplicate)
+|  |  \- (org.jboss.msc:jboss-msc:jar:1.2.6.Final:provided - omitted for duplicate)
+|  +- org.wildfly.security:wildfly-elytron:jar:1.0.2.Final:provided
+|  |  \- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.2.1.Final; omitted for duplicate)
+|  +- org.wildfly.core:wildfly-self-contained:jar:2.2.1.Final:provided
+|  |  +- (org.jboss.msc:jboss-msc:jar:1.2.6.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-deployment-repository:jar:2.2.1.Final:provided - omitted for duplicate)
+|  |  \- (org.wildfly.core:wildfly-controller:jar:2.2.1.Final:provided - omitted for duplicate)
+|  +- org.wildfly.core:wildfly-server:jar:2.2.1.Final:provided
+|  |  +- (org.wildfly.core:wildfly-controller:jar:2.2.1.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-domain-http-interface:jar:2.2.1.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-deployment-repository:jar:2.2.1.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-platform-mbean:jar:2.2.1.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-process-controller:jar:2.2.1.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-remoting:jar:2.2.1.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-network:jar:2.2.1.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-self-contained:jar:2.2.1.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.security:wildfly-elytron:jar:1.0.2.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-version:jar:2.2.1.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss:jandex:jar:2.0.2.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss:jboss-dmr:jar:1.3.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.invocation:jboss-invocation:jar:1.4.1.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.2.1.Final; omitted for duplicate)
+|  |  +- (org.jboss.logmanager:jboss-logmanager:jar:2.0.4.Final:provided - version managed from 1.5.2.Final; omitted for duplicate)
+|  |  +- (org.jboss.marshalling:jboss-marshalling:jar:1.4.11.Final:provided - version managed from 1.4.10.Final; omitted for duplicate)
+|  |  +- (org.jboss.modules:jboss-modules:jar:1.5.2.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.msc:jboss-msc:jar:1.2.6.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.remoting:jboss-remoting:jar:4.0.21.Final:provided - version managed from 4.0.8.Final; omitted for duplicate)
+|  |  +- (org.jboss.sasl:jboss-sasl:jar:1.0.5.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.stdio:jboss-stdio:jar:1.0.2.GA:provided - omitted for duplicate)
+|  |  +- (org.jboss.threads:jboss-threads:jar:2.2.1.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss:jboss-vfs:jar:3.2.12.Final:provided - omitted for duplicate)
+|  |  +- (io.undertow:undertow-core:jar:1.4.11.Final:provided - omitted for duplicate)
+|  |  \- (org.wildfly.common:wildfly-common:jar:1.1.0.Final:compile - scope updated from provided; omitted for duplicate)
+|  +- org.wildfly.core:wildfly-threads:jar:2.2.1.Final:provided
+|  |  +- (org.wildfly.core:wildfly-controller:jar:2.2.1.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.threads:jboss-threads:jar:2.2.1.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.common:wildfly-common:jar:1.1.0.Final:compile - scope updated from provided; omitted for duplicate)
+|  |  \- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.2.1.Final; omitted for duplicate)
+|  +- org.wildfly.core:wildfly-version:jar:2.2.1.Final:provided
+|  |  \- (org.jboss.modules:jboss-modules:jar:1.5.2.Final:provided - omitted for duplicate)
+|  +- org.wildfly.core:wildfly-launcher:jar:2.2.1.Final:provided
+|  +- xerces:xercesImpl:jar:2.11.0.SP5:provided
+|  \- xml-resolver:xml-resolver:jar:1.2:provided
++- org.wildfly:wildfly-servlet-feature-pack:zip:10.1.0.Final:provided
+|  +- (org.wildfly.core:wildfly-core-feature-pack:zip:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  +- (io.undertow:undertow-servlet:jar:1.4.11.Final:provided - version managed from 1.4.0.Final; omitted for duplicate)
+|  +- io.undertow:undertow-websockets-jsr:jar:1.4.11.Final:provided (version managed from 1.4.0.Final)
+|  |  +- (io.undertow:undertow-core:jar:1.4.11.Final:provided - omitted for duplicate)
+|  |  +- (io.undertow:undertow-servlet:jar:1.4.11.Final:provided - version managed from 1.4.0.Final; omitted for duplicate)
+|  |  \- (org.jboss.spec.javax.websocket:jboss-websocket-api_1.1_spec:jar:1.1.1.Final:provided - version managed from 1.1.0.Final; omitted for duplicate)
+|  +- io.undertow.jastow:jastow:jar:2.0.1.Final:provided
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.2.1.Final; omitted for duplicate)
+|  |  +- org.glassfish:javax.el:jar:3.0.1-b08:provided
+|  |  +- (org.eclipse.jdt.core.compiler:ecj:jar:4.5.1:provided - version managed from 4.4.2; omitted for duplicate)
+|  |  \- (io.undertow:undertow-servlet:jar:1.4.11.Final:provided - version managed from 1.2.6.Final; omitted for duplicate)
+|  +- javax.activation:activation:jar:1.1.1:provided
+|  +- javax.validation:validation-api:jar:1.1.0.Final:provided
+|  +- javax.enterprise:cdi-api:jar:1.2:provided
+|  |  \- (javax.inject:javax.inject:jar:1:provided - omitted for duplicate)
+|  +- javax.inject:javax.inject:jar:1:provided
+|  +- org.eclipse.jdt.core.compiler:ecj:jar:4.5.1:provided
+|  +- org.glassfish:javax.enterprise.concurrent:jar:1.0:provided
+|  +- (org.glassfish:javax.el-impl:jar:3.0.1-b08-jbossorg-1:compile - scope updated from provided; omitted for duplicate)
+|  +- org.jboss:jboss-remote-naming:jar:2.0.4.Final:provided
+|  |  +- (org.jboss:jboss-ejb-client:jar:2.1.4.Final:provided - version managed from 2.0.0.Final; omitted for duplicate)
+|  |  +- (org.jboss.marshalling:jboss-marshalling:jar:1.4.11.Final:provided - version managed from 1.4.3.Final; omitted for duplicate)
+|  |  +- (org.jboss.marshalling:jboss-marshalling-river:jar:1.4.11.Final:provided - version managed from 1.4.3.Final; omitted for duplicate)
+|  |  +- (org.jboss.xnio:xnio-api:jar:3.4.3.Final:compile - version managed from 3.2.0.Final; scope updated from provided; omitted for duplicate)
+|  |  +- (org.jboss.remoting:jboss-remoting:jar:4.0.21.Final:provided - version managed from 4.0.0.Final; omitted for duplicate)
+|  |  +- (org.jboss.sasl:jboss-sasl:jar:1.0.5.Final:provided - version managed from 1.0.4.Final; omitted for duplicate)
+|  |  \- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.1.4.GA; omitted for duplicate)
+|  +- org.jboss.common:jboss-common-beans:jar:2.0.0.Final:provided
+|  +- (org.jboss.spec.javax.annotation:jboss-annotations-api_1.2_spec:jar:1.0.0.Final:compile - scope updated from provided; omitted for duplicate)
+|  +- (org.jboss.spec.javax.enterprise.concurrent:jboss-concurrency-api_1.0_spec:jar:1.0.0.Final:compile - scope updated from provided; omitted for duplicate)
+|  +- (org.jboss.spec.javax.el:jboss-el-api_3.0_spec:jar:1.0.7.Final:compile - scope updated from provided; omitted for duplicate)
+|  +- org.jboss.spec.javax.security.auth.message:jboss-jaspi-api_1.1_spec:jar:1.0.0.Final:provided
+|  +- (org.jboss.spec.javax.servlet:jboss-servlet-api_3.1_spec:jar:1.0.0.Final:provided - omitted for duplicate)
+|  +- org.jboss.spec.javax.servlet.jsp:jboss-jsp-api_2.3_spec:jar:1.0.1.Final:provided
+|  |  +- (org.jboss.spec.javax.el:jboss-el-api_3.0_spec:jar:1.0.7.Final:provided - version managed from 1.0.2.Final; omitted for duplicate)
+|  |  \- (org.jboss.spec.javax.servlet:jboss-servlet-api_3.1_spec:jar:1.0.0.Final:provided - omitted for duplicate)
+|  +- org.jboss.spec.javax.servlet.jstl:jboss-jstl-api_1.2_spec:jar:1.1.3.Final:provided
+|  |  +- (org.jboss.spec.javax.el:jboss-el-api_3.0_spec:jar:1.0.7.Final:provided - version managed from 1.0.4.Final; omitted for duplicate)
+|  |  +- (org.jboss.spec.javax.servlet:jboss-servlet-api_3.1_spec:jar:1.0.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.spec.javax.servlet.jsp:jboss-jsp-api_2.3_spec:jar:1.0.1.Final:provided - omitted for duplicate)
+|  |  \- (xalan:xalan:jar:2.7.1.jbossorg-2:provided - version managed from 2.7.1; omitted for duplicate)
+|  +- org.jboss.spec.javax.security.jacc:jboss-jacc-api_1.5_spec:jar:1.0.0.Final:provided
+|  |  \- (org.jboss.spec.javax.servlet:jboss-servlet-api_3.1_spec:jar:1.0.0.Final:provided - omitted for duplicate)
+|  +- org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.0.0.Final:provided
+|  +- (org.jboss.spec.javax.websocket:jboss-websocket-api_1.1_spec:jar:1.1.1.Final:provided - version managed from 1.1.0.Final; omitted for duplicate)
+|  +- org.jboss.metadata:jboss-metadata-common:jar:10.0.0.Final:provided
+|  |  \- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.1.3.GA; omitted for duplicate)
+|  +- org.jboss.metadata:jboss-metadata-ear:jar:10.0.0.Final:provided
+|  |  +- (org.jboss.metadata:jboss-metadata-common:jar:10.0.0.Final:provided - omitted for duplicate)
+|  |  \- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.1.3.GA; omitted for duplicate)
+|  +- org.jboss.metadata:jboss-metadata-web:jar:10.0.0.Final:provided
+|  |  +- (org.jboss.metadata:jboss-metadata-common:jar:10.0.0.Final:provided - omitted for duplicate)
+|  |  \- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.1.3.GA; omitted for duplicate)
+|  +- org.jboss.security:jboss-negotiation-common:jar:3.0.2.Final:provided
+|  |  +- (io.undertow:undertow-core:jar:1.4.11.Final:provided - version managed from 1.3.0.CR1; omitted for duplicate)
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.2.1.Final; omitted for duplicate)
+|  |  +- (org.jboss.spec.javax.servlet:jboss-servlet-api_3.1_spec:jar:1.0.0.Final:provided - omitted for duplicate)
+|  |  +- (org.picketbox:picketbox:jar:4.9.6.Final:provided - version managed from 4.9.3.Final; omitted for duplicate)
+|  |  \- (org.picketbox:picketbox-commons:jar:1.0.0.final:provided - omitted for duplicate)
+|  +- org.jboss.security:jboss-negotiation-extras:jar:3.0.2.Final:provided
+|  |  +- (org.jboss.security:jboss-negotiation-common:jar:3.0.2.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.2.1.Final; omitted for duplicate)
+|  |  +- (org.picketbox:picketbox:jar:4.9.6.Final:provided - version managed from 4.9.3.Final; omitted for duplicate)
+|  |  \- (org.picketbox:picketbox-commons:jar:1.0.0.final:provided - omitted for duplicate)
+|  +- org.jboss.security:jboss-negotiation-ntlm:jar:3.0.2.Final:provided
+|  |  \- (org.jboss.security:jboss-negotiation-common:jar:3.0.2.Final:provided - omitted for duplicate)
+|  +- org.jboss.security:jboss-negotiation-spnego:jar:3.0.2.Final:provided
+|  |  +- (org.jboss.security:jboss-negotiation-common:jar:3.0.2.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.2.1.Final; omitted for duplicate)
+|  |  +- (org.picketbox:picketbox:jar:4.9.6.Final:provided - version managed from 4.9.3.Final; omitted for duplicate)
+|  |  \- (org.picketbox:picketbox-commons:jar:1.0.0.final:provided - omitted for duplicate)
+|  +- (org.picketbox:picketbox:jar:4.9.6.Final:provided - version managed from 4.9.3.Final; omitted for duplicate)
+|  +- org.picketbox:picketbox-commons:jar:1.0.0.final:provided
+|  +- org.picketbox:picketbox-infinispan:jar:4.9.6.Final:provided
+|  |  \- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.2.1.Final; omitted for duplicate)
+|  +- org.wildfly:wildfly-ee:jar:10.1.0.Final:provided
+|  |  +- (org.glassfish:javax.enterprise.concurrent:jar:1.0:provided - omitted for duplicate)
+|  |  +- (org.jboss.metadata:jboss-metadata-common:jar:10.0.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.metadata:jboss-metadata-ear:jar:10.0.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.msc:jboss-msc:jar:1.2.6.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.spec.javax.enterprise.concurrent:jboss-concurrency-api_1.0_spec:jar:1.0.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.0.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.2.1.Final; omitted for duplicate)
+|  |  +- (org.jboss.spec.javax.annotation:jboss-annotations-api_1.2_spec:jar:1.0.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.common:wildfly-common:jar:1.1.0.Final:compile - scope updated from provided; omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-server:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-request-controller:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  +- (org.jboss.invocation:jboss-invocation:jar:1.4.1.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-naming:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.security:wildfly-elytron:jar:1.0.2.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.spec.javax.interceptor:jboss-interceptors-api_1.2_spec:jar:1.0.0.Final:provided - omitted for duplicate)
+|  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  +- org.wildfly:wildfly-naming:jar:10.1.0.Final:provided
+|  |  +- (org.wildfly.security:wildfly-elytron:jar:1.0.2.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss:jboss-remote-naming:jar:2.0.4.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.msc:jboss-msc:jar:1.2.6.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-server:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  +- org.wildfly:wildfly-security:jar:10.1.0.Final:provided
+|  |  +- (org.jboss.msc:jboss-msc:jar:1.2.6.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-domain-management:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-core-security:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  +- (org.wildfly.security:wildfly-elytron:jar:1.0.2.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-server:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-naming:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-clustering-infinispan-spi:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-transactions:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.1.3.GA; omitted for duplicate)
+|  |  +- (org.jboss.security:jboss-negotiation-extras:jar:3.0.2.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.security:jboss-negotiation-spnego:jar:3.0.2.Final:provided - omitted for duplicate)
+|  |  +- (org.picketbox:picketbox:jar:4.9.6.Final:provided - version managed from 4.9.3.Final; omitted for duplicate)
+|  |  +- (org.jboss.spec.javax.security.jacc:jboss-jacc-api_1.5_spec:jar:1.0.0.Final:provided - omitted for duplicate)
+|  |  +- (org.picketbox:picketbox-infinispan:jar:4.9.6.Final:provided - omitted for duplicate)
+|  |  +- (org.picketbox:picketbox-commons:jar:1.0.0.final:provided - omitted for duplicate)
+|  |  +- (commons-cli:commons-cli:jar:1.2:provided - omitted for duplicate)
+|  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  +- org.wildfly:wildfly-security-manager:jar:10.1.0.Final:provided
+|  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  +- org.wildfly:wildfly-undertow:jar:10.1.0.Final:provided
+|  |  +- (org.jboss.common:jboss-common-beans:jar:2.0.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-controller:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-request-controller:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-ee:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-io:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-server:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-security:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-web-common:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (io.undertow:undertow-core:jar:1.4.11.Final:provided - version managed from 1.4.0.Final; omitted for duplicate)
+|  |  +- (io.undertow:undertow-servlet:jar:1.4.11.Final:provided - version managed from 1.4.0.Final; omitted for duplicate)
+|  |  +- (io.undertow:undertow-websockets-jsr:jar:1.4.11.Final:provided - version managed from 1.4.0.Final; omitted for duplicate)
+|  |  +- (io.undertow.jastow:jastow:jar:2.0.1.Final:provided - omitted for duplicate)
+|  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  +- org.wildfly:wildfly-web-common:jar:10.1.0.Final:provided
+|  |  +- (org.jboss.msc:jboss-msc:jar:1.2.6.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-server:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-ee:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.metadata:jboss-metadata-common:jar:10.0.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.metadata:jboss-metadata-web:jar:10.0.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.spec.javax.annotation:jboss-annotations-api_1.2_spec:jar:1.0.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.spec.javax.security.auth.message:jboss-jaspi-api_1.1_spec:jar:1.0.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.spec.javax.servlet:jboss-servlet-api_3.1_spec:jar:1.0.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.spec.javax.servlet.jsp:jboss-jsp-api_2.3_spec:jar:1.0.1.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.1.3.GA; omitted for duplicate)
+|  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  +- xalan:serializer:jar:2.7.1.jbossorg-2:provided
+|  +- xalan:xalan:jar:2.7.1.jbossorg-2:provided
+|  |  \- (xalan:serializer:jar:2.7.1.jbossorg-2:provided - omitted for duplicate)
+|  \- org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided
++- org.wildfly:wildfly-feature-pack:zip:10.1.0.Final:provided
+|  +- (org.wildfly:wildfly-servlet-feature-pack:zip:10.1.0.Final:provided - omitted for duplicate)
+|  +- org.wildfly:wildfly-picketlink:jar:10.1.0.Final:provided
+|  |  +- (org.wildfly.core:wildfly-server:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-controller:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-jpa:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (javax.enterprise:cdi-api:jar:1.2:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-weld:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-undertow:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.hibernate:hibernate-core:jar:5.0.10.Final:provided - omitted for duplicate)
+|  |  +- (org.picketlink:picketlink-api:jar:2.5.5.SP2:provided - omitted for duplicate)
+|  |  +- (org.picketlink:picketlink-idm-api:jar:2.5.5.SP2:provided - omitted for duplicate)
+|  |  +- (org.picketlink:picketlink-idm-impl:jar:2.5.5.SP2:provided - omitted for duplicate)
+|  |  +- (org.picketlink:picketlink-federation:jar:2.5.5.SP2:provided - omitted for duplicate)
+|  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  +- org.wildfly:wildfly-security-api:jar:10.1.0.Final:provided
+|  |  +- (org.wildfly:wildfly-security:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  +- org.wildfly:wildfly-system-jmx:jar:10.1.0.Final:provided
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.2.1.Final; omitted for duplicate)
+|  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  +- org.jboss.narayana.rts:restat-util:jar:5.3.3.Final:provided
+|  +- antlr:antlr:jar:2.7.7:provided
+|  +- asm:asm:jar:3.3.1:provided
+|  +- ch.qos.cal10n:cal10n-api:jar:0.8.1:provided
+|  +- com.fasterxml:classmate:jar:1.3.1:provided
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.7.4:provided
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.7.4:provided
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.7.4:provided
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.7.4:provided - version managed from 2.7.0; omitted for duplicate)
+|  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.7.4:provided - omitted for duplicate)
+|  +- com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:jar:2.7.4:provided
+|  |  +- (com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:jar:2.7.4:provided - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.7.4:provided - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.7.4:provided - omitted for duplicate)
+|  |  \- (com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.7.4:provided - omitted for duplicate)
+|  +- com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:jar:2.7.4:provided
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.7.4:provided - omitted for duplicate)
+|  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.7.4:provided - omitted for duplicate)
+|  +- com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.7.4:provided
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.7.4:provided - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.7.4:provided - version managed from 2.7.0; omitted for duplicate)
+|  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.7.4:provided - omitted for duplicate)
+|  +- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.7.4:provided
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.7.4:provided - omitted for duplicate)
+|  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.7.4:provided - omitted for duplicate)
+|  +- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.7.4:provided
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.7.4:provided - omitted for duplicate)
+|  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.7.4:provided - omitted for duplicate)
+|  +- com.github.relaxng:relaxngDatatype:jar:2011.1:provided
+|  +- com.github.spullara.mustache.java:compiler:jar:0.8.13:provided
+|  |  \- (com.google.guava:guava:jar:18.0:provided - version managed from 13.0.1; omitted for duplicate)
+|  +- com.google.guava:guava:jar:18.0:provided
+|  +- com.h2database:h2:jar:1.3.173:provided
+|  +- com.microsoft.azure:azure-storage:jar:4.0.0:provided
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.7.4:provided - version managed from 2.6.0; omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.22:provided - version managed from 1.7.12; omitted for duplicate)
+|  |  \- org.apache.commons:commons-lang3:jar:3.4:provided
+|  +- com.sun.faces:jsf-impl:jar:2.2.13.SP1:provided
+|  +- com.sun.istack:istack-commons-runtime:jar:2.21:provided
+|  +- com.sun.istack:istack-commons-tools:jar:2.21:provided
+|  +- org.glassfish.jaxb:jaxb-core:jar:2.2.11.jbossorg-1:provided
+|  +- org.glassfish.jaxb:jaxb-runtime:jar:2.2.11.jbossorg-1:provided
+|  +- org.glassfish.jaxb:jaxb-xjc:jar:2.2.11.jbossorg-1:provided
+|  +- org.glassfish.jaxb:jaxb-jxc:jar:2.2.11.jbossorg-1:provided
+|  +- org.glassfish.jaxb:codemodel:jar:2.2.11.jbossorg-1:provided
+|  +- com.sun.xml.fastinfoset:FastInfoset:jar:1.2.13:provided
+|  +- com.sun.xml.messaging.saaj:saaj-impl:jar:1.3.16-jbossorg-1:provided
+|  |  \- (xerces:xercesImpl:jar:2.11.0.SP5:provided - version managed from 2.9.1; omitted for duplicate)
+|  +- org.glassfish.jaxb:txw2:jar:2.2.11.jbossorg-1:provided
+|  +- com.sun.xml.bind.external:rngom:jar:2.2.11.jbossorg-1:provided
+|  +- com.sun.xsom:xsom:jar:20140925:provided
+|  +- commons-beanutils:commons-beanutils:jar:1.9.2:provided
+|  |  \- (commons-collections:commons-collections:jar:3.2.2:provided - version managed from 3.2.1; omitted for duplicate)
+|  +- commons-cli:commons-cli:jar:1.2:provided
+|  +- commons-codec:commons-codec:jar:1.10:provided
+|  +- commons-collections:commons-collections:jar:3.2.2:provided
+|  +- commons-io:commons-io:jar:2.4:provided
+|  +- commons-lang:commons-lang:jar:2.6:provided
+|  +- commons-pool:commons-pool:jar:1.6:provided
+|  +- dom4j:dom4j:jar:1.6.1:provided
+|  +- gnu.getopt:java-getopt:jar:1.0.13:provided
+|  +- org.jboss.openjdk-orb:openjdk-orb:jar:8.0.6.Final:provided
+|  |  \- (org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.0.0.Final:provided - omitted for duplicate)
+|  +- javax.jws:jsr181-api:jar:1.0-MR1:provided
+|  +- com.sun.mail:javax.mail:jar:1.5.5:provided
+|  |  \- (javax.activation:activation:jar:1.1.1:provided - version managed from 1.1; omitted for duplicate)
+|  +- jaxen:jaxen:jar:1.1.6:provided
+|  +- jboss.jaxbintros:jboss-jaxb-intros:jar:1.0.2.GA:provided
+|  +- joda-time:joda-time:jar:2.7:provided
+|  +- org.jsoup:jsoup:jar:1.8.3:provided
+|  +- net.jcip:jcip-annotations:jar:1.0:provided
+|  +- org.apache.avro:avro:jar:1.7.6:provided
+|  |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.9.13:provided - version managed from 1.9.12; omitted for duplicate)
+|  |  +- (org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:provided - version managed from 1.9.12; omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.22:provided - version managed from 1.6.4; omitted for duplicate)
+|  +- org.jboss.ws:jbossws-api:jar:1.0.3.Final:provided
+|  +- org.jboss.ws:jbossws-common:jar:3.1.3.Final:provided
+|  |  +- (org.jboss.ws:jbossws-spi:jar:3.1.2.Final:provided - omitted for duplicate)
+|  |  \- (org.jboss.spec.javax.xml.ws:jboss-jaxws-api_2.2_spec:jar:2.0.3.Final:provided - version managed from 2.0.2.Final; omitted for duplicate)
+|  +- org.jboss.ws:jbossws-common-tools:jar:1.2.2.Final:provided
+|  |  \- (org.jboss.ws:jbossws-api:jar:1.0.3.Final:provided - omitted for duplicate)
+|  +- org.jboss.ws:jbossws-spi:jar:3.1.2.Final:provided
+|  |  \- (org.jboss.ws:jbossws-api:jar:1.0.3.Final:provided - omitted for duplicate)
+|  +- org.jboss.ws.cxf:jbossws-cxf-client:jar:5.1.5.Final:provided
+|  |  +- (org.jboss.ws:jbossws-api:jar:1.0.3.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.ws:jbossws-common:jar:3.1.3.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.ws:jbossws-common-tools:jar:1.2.2.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.ws:jbossws-spi:jar:3.1.2.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.ws.cxf:jbossws-cxf-factories:jar:5.1.5.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.ws.cxf:jbossws-cxf-transports-udp:jar:5.1.5.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.ws.cxf:jbossws-cxf-transports-undertow:jar:5.1.5.Final:provided - omitted for duplicate)
+|  |  +- (org.apache.cxf.services.ws-discovery:cxf-services-ws-discovery-api:jar:3.1.6:provided - omitted for duplicate)
+|  |  +- (org.apache.cxf.xjcplugins:cxf-xjc-bug986:jar:3.0.5:provided - omitted for duplicate)
+|  |  +- (org.apache.cxf.xjc-utils:cxf-xjc-runtime:jar:3.0.5:provided - omitted for duplicate)
+|  |  +- (org.apache.velocity:velocity:jar:1.7:provided - omitted for duplicate)
+|  |  +- (org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1:provided - omitted for duplicate)
+|  |  +- (javax.jws:jsr181-api:jar:1.0-MR1:provided - omitted for duplicate)
+|  |  +- (org.jboss.spec.javax.xml.bind:jboss-jaxb-api_2.2_spec:jar:1.0.4.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.spec.javax.xml.ws:jboss-jaxws-api_2.2_spec:jar:2.0.3.Final:provided - version managed from 2.0.2.Final; omitted for duplicate)
+|  |  +- (org.jboss.spec.javax.xml.soap:jboss-saaj-api_1.3_spec:jar:1.0.3.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.spec.javax.servlet:jboss-servlet-api_3.1_spec:jar:1.0.0.Final:provided - omitted for duplicate)
+|  |  +- (org.glassfish.jaxb:jaxb-runtime:jar:2.2.11.jbossorg-1:provided - omitted for duplicate)
+|  |  +- (org.glassfish.jaxb:jaxb-xjc:jar:2.2.11.jbossorg-1:provided - omitted for duplicate)
+|  |  +- (org.glassfish.jaxb:jaxb-core:jar:2.2.11.jbossorg-1:provided - omitted for duplicate)
+|  |  +- org.slf4j:slf4j-log4j12:jar:1.7.15:provided
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.22:provided - version managed from 1.7.15; omitted for duplicate)
+|  |  \- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.2.1.Final; omitted for duplicate)
+|  +- org.jboss.ws.cxf:jbossws-cxf-jaspi:jar:5.1.5.Final:provided
+|  |  +- (org.jboss.ws:jbossws-spi:jar:3.1.2.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.spec.javax.servlet:jboss-servlet-api_3.1_spec:jar:1.0.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.ws.cxf:jbossws-cxf-factories:jar:5.1.5.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.spec.javax.security.auth.message:jboss-jaspi-api_1.1_spec:jar:1.0.0.Final:provided - version managed from 1.0.0.Alpha1; omitted for duplicate)
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.2.1.Final; omitted for duplicate)
+|  |  \- org.jboss.logging:jboss-logging-annotations:jar:2.0.1.Final:provided (version managed from 1.2.0.Final)
+|  +- org.jboss.ws.cxf:jbossws-cxf-factories:jar:5.1.5.Final:provided
+|  +- org.jboss.ws.cxf:jbossws-cxf-resources:jar:wildfly1000:5.1.5.Final:provided
+|  |  \- (org.jboss.ws.cxf:jbossws-cxf-server:jar:5.1.5.Final:provided - omitted for duplicate)
+|  +- org.jboss.ws.cxf:jbossws-cxf-server:jar:5.1.5.Final:provided
+|  |  +- (org.jboss.ws.cxf:jbossws-cxf-factories:jar:5.1.5.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.ws.cxf:jbossws-cxf-client:jar:5.1.5.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.spec.javax.servlet:jboss-servlet-api_3.1_spec:jar:1.0.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.ws:jbossws-common:jar:3.1.3.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.ws:jbossws-spi:jar:3.1.2.Final:provided - omitted for duplicate)
+|  |  +- (org.apache.cxf:cxf-rt-features-clustering:jar:3.1.6:provided - omitted for duplicate)
+|  |  +- (org.apache.cxf.services.ws-discovery:cxf-services-ws-discovery-api:jar:3.1.6:provided - omitted for duplicate)
+|  |  +- (org.apache.cxf.xjcplugins:cxf-xjc-bug986:jar:3.0.5:provided - omitted for duplicate)
+|  |  +- (org.apache.cxf.xjc-utils:cxf-xjc-runtime:jar:3.0.5:provided - omitted for duplicate)
+|  |  +- (org.apache.velocity:velocity:jar:1.7:provided - omitted for duplicate)
+|  |  +- (org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1:provided - omitted for duplicate)
+|  |  +- (javax.jws:jsr181-api:jar:1.0-MR1:provided - omitted for duplicate)
+|  |  +- (org.glassfish.jaxb:jaxb-runtime:jar:2.2.11.jbossorg-1:provided - omitted for duplicate)
+|  |  +- (org.glassfish.jaxb:jaxb-xjc:jar:2.2.11.jbossorg-1:provided - omitted for duplicate)
+|  |  +- (org.glassfish.jaxb:jaxb-core:jar:2.2.11.jbossorg-1:provided - omitted for duplicate)
+|  |  +- (org.jboss.spec.javax.xml.bind:jboss-jaxb-api_2.2_spec:jar:1.0.4.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.spec.javax.xml.soap:jboss-saaj-api_1.3_spec:jar:1.0.3.Final:provided - omitted for duplicate)
+|  |  \- (org.jboss.spec.javax.security.jacc:jboss-jacc-api_1.5_spec:jar:1.0.0.Final:provided - omitted for duplicate)
+|  +- org.jboss.ws.cxf:jbossws-cxf-transports-udp:jar:5.1.5.Final:provided
+|  |  \- (org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.1.6:provided - omitted for duplicate)
+|  +- org.apache.cxf:cxf-rt-bindings-coloc:jar:3.1.6:provided
+|  +- org.apache.cxf:cxf-rt-bindings-object:jar:3.1.6:provided
+|  |  \- (org.apache.cxf:cxf-core:jar:3.1.6:provided - omitted for duplicate)
+|  +- org.apache.cxf:cxf-rt-bindings-soap:jar:3.1.6:provided
+|  |  +- (org.apache.cxf:cxf-core:jar:3.1.6:provided - omitted for duplicate)
+|  |  \- (org.apache.cxf:cxf-rt-wsdl:jar:3.1.6:provided - omitted for duplicate)
+|  +- org.apache.cxf:cxf-rt-bindings-xml:jar:3.1.6:provided
+|  |  \- (org.apache.cxf:cxf-core:jar:3.1.6:provided - omitted for duplicate)
+|  +- org.apache.cxf:cxf-core:jar:3.1.6:provided
+|  |  \- (org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1:provided - omitted for duplicate)
+|  +- org.apache.cxf:cxf-rt-databinding-aegis:jar:3.1.6:provided
+|  |  \- (org.apache.cxf:cxf-rt-wsdl:jar:3.1.6:provided - omitted for duplicate)
+|  +- org.apache.cxf:cxf-rt-databinding-jaxb:jar:3.1.6:provided
+|  |  +- (org.apache.cxf:cxf-core:jar:3.1.6:provided - omitted for duplicate)
+|  |  \- (org.apache.cxf:cxf-rt-wsdl:jar:3.1.6:provided - omitted for duplicate)
+|  +- org.apache.cxf:cxf-rt-features-clustering:jar:3.1.6:provided
+|  |  \- (org.apache.cxf:cxf-core:jar:3.1.6:provided - omitted for duplicate)
+|  +- org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.1.6:provided
+|  |  +- (xml-resolver:xml-resolver:jar:1.2:provided - omitted for duplicate)
+|  |  +- org.ow2.asm:asm:jar:5.0.4:provided
+|  |  +- (org.apache.cxf:cxf-rt-bindings-soap:jar:3.1.6:provided - omitted for duplicate)
+|  |  \- (org.apache.cxf:cxf-rt-bindings-xml:jar:3.1.6:provided - omitted for duplicate)
+|  +- org.apache.cxf:cxf-rt-frontend-simple:jar:3.1.6:provided
+|  |  +- (org.apache.cxf:cxf-core:jar:3.1.6:provided - omitted for duplicate)
+|  |  +- (org.apache.cxf:cxf-rt-bindings-soap:jar:3.1.6:provided - omitted for duplicate)
+|  |  \- (org.apache.cxf:cxf-rt-wsdl:jar:3.1.6:provided - omitted for duplicate)
+|  +- org.apache.cxf:cxf-rt-management:jar:3.1.6:provided
+|  +- org.apache.cxf:cxf-rt-security:jar:3.1.6:provided
+|  +- org.apache.cxf:cxf-rt-security-saml:jar:3.1.6:provided
+|  |  +- (org.apache.cxf:cxf-rt-security:jar:3.1.6:provided - omitted for duplicate)
+|  |  \- (org.apache.wss4j:wss4j-ws-security-dom:jar:2.1.5:provided - omitted for duplicate)
+|  +- org.apache.cxf:cxf-rt-transports-http:jar:3.1.6:provided
+|  |  \- (org.apache.cxf:cxf-core:jar:3.1.6:provided - omitted for duplicate)
+|  +- org.apache.cxf:cxf-rt-transports-http-hc:jar:3.1.6:provided
+|  |  +- (org.apache.cxf:cxf-core:jar:3.1.6:provided - omitted for duplicate)
+|  |  +- (org.apache.cxf:cxf-rt-transports-http:jar:3.1.6:provided - omitted for duplicate)
+|  |  +- (org.slf4j:jcl-over-slf4j:jar:1.7.22:provided - version managed from 1.7.7.jbossorg-1; omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpcore-nio:jar:4.4.1:provided - version managed from 4.4.4; omitted for duplicate)
+|  |  \- (org.apache.httpcomponents:httpasyncclient:jar:4.1:provided - version managed from 4.1.1; omitted for duplicate)
+|  +- org.apache.cxf:cxf-rt-transports-local:jar:3.1.6:provided
+|  +- org.apache.cxf:cxf-rt-transports-jms:jar:3.1.6:provided
+|  +- org.apache.cxf:cxf-rt-wsdl:jar:3.1.6:provided
+|  |  +- (wsdl4j:wsdl4j:jar:1.6.3:provided - omitted for duplicate)
+|  |  \- (org.ow2.asm:asm:jar:5.0.4:provided - omitted for duplicate)
+|  +- org.apache.cxf:cxf-rt-ws-addr:jar:3.1.6:provided
+|  |  +- (org.apache.cxf:cxf-core:jar:3.1.6:provided - omitted for duplicate)
+|  |  +- (org.apache.cxf:cxf-rt-bindings-soap:jar:3.1.6:provided - omitted for duplicate)
+|  |  \- (org.apache.cxf:cxf-rt-ws-policy:jar:3.1.6:provided - omitted for duplicate)
+|  +- org.apache.cxf:cxf-rt-ws-mex:jar:3.1.6:provided
+|  |  +- (org.apache.cxf:cxf-core:jar:3.1.6:provided - omitted for duplicate)
+|  |  +- (org.apache.cxf:cxf-rt-bindings-soap:jar:3.1.6:provided - omitted for duplicate)
+|  |  +- (org.apache.cxf:cxf-rt-ws-addr:jar:3.1.6:provided - omitted for duplicate)
+|  |  +- (org.apache.cxf:cxf-rt-ws-policy:jar:3.1.6:provided - omitted for duplicate)
+|  |  \- (org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.1.6:provided - omitted for duplicate)
+|  +- org.apache.cxf:cxf-rt-ws-policy:jar:3.1.6:provided
+|  |  +- (wsdl4j:wsdl4j:jar:1.6.3:provided - omitted for duplicate)
+|  |  \- (org.apache.neethi:neethi:jar:3.0.3:provided - omitted for duplicate)
+|  +- org.apache.cxf:cxf-rt-ws-rm:jar:3.1.6:provided
+|  |  +- (org.apache.cxf:cxf-rt-ws-policy:jar:3.1.6:provided - omitted for duplicate)
+|  |  +- (org.apache.cxf:cxf-rt-ws-security:jar:3.1.6:provided - omitted for duplicate)
+|  |  +- (org.apache.cxf:cxf-rt-management:jar:3.1.6:provided - omitted for duplicate)
+|  |  \- (org.apache.wss4j:wss4j-policy:jar:2.1.5:provided - omitted for duplicate)
+|  +- org.apache.cxf:cxf-rt-ws-security:jar:3.1.6:provided
+|  |  \- (org.apache.cxf:cxf-rt-security-saml:jar:3.1.6:provided - omitted for duplicate)
+|  +- org.apache.cxf:cxf-tools-common:jar:3.1.6:provided
+|  |  +- (commons-collections:commons-collections:jar:3.2.2:provided - version managed from 3.2.1; omitted for duplicate)
+|  |  +- com.sun.xml.bind:jaxb-core:jar:2.2.11:provided
+|  |  \- (org.apache.cxf:cxf-core:jar:3.1.6:provided - omitted for duplicate)
+|  +- org.apache.cxf:cxf-tools-java2ws:jar:3.1.6:provided
+|  |  +- (org.apache.cxf:cxf-rt-databinding-aegis:jar:3.1.6:provided - omitted for duplicate)
+|  |  +- com.sun.xml.bind:jaxb-xjc:jar:2.2.11:provided
+|  |  \- (com.sun.xml.bind:jaxb-core:jar:2.2.11:provided - omitted for duplicate)
+|  +- org.apache.cxf:cxf-tools-validator:jar:3.1.6:provided
+|  |  +- (com.sun.xml.bind:jaxb-core:jar:2.2.11:provided - omitted for duplicate)
+|  |  \- (org.apache.cxf:cxf-rt-bindings-soap:jar:3.1.6:provided - omitted for duplicate)
+|  +- org.apache.cxf:cxf-tools-wsdlto-core:jar:3.1.6:provided
+|  |  +- (org.apache.cxf:cxf-tools-validator:jar:3.1.6:provided - omitted for duplicate)
+|  |  +- (org.apache.cxf:cxf-rt-wsdl:jar:3.1.6:provided - omitted for duplicate)
+|  |  \- (com.sun.xml.bind:jaxb-core:jar:2.2.11:provided - omitted for duplicate)
+|  +- org.apache.cxf:cxf-tools-wsdlto-databinding-jaxb:jar:3.1.6:provided
+|  |  +- (com.sun.xml.bind:jaxb-core:jar:2.2.11:provided - omitted for duplicate)
+|  |  \- (org.apache.cxf:cxf-tools-wsdlto-core:jar:3.1.6:provided - omitted for duplicate)
+|  +- org.apache.cxf:cxf-tools-wsdlto-frontend-jaxws:jar:3.1.6:provided
+|  |  +- (xml-resolver:xml-resolver:jar:1.2:provided - omitted for duplicate)
+|  |  \- (org.apache.cxf:cxf-tools-wsdlto-core:jar:3.1.6:provided - omitted for duplicate)
+|  +- org.apache.cxf.services.sts:cxf-services-sts-core:jar:3.1.6:provided
+|  |  +- (org.apache.cxf:cxf-rt-ws-security:jar:3.1.6:provided - omitted for duplicate)
+|  |  +- (org.apache.cxf:cxf-rt-ws-addr:jar:3.1.6:provided - omitted for duplicate)
+|  |  \- (org.apache.cxf:cxf-rt-transports-http:jar:3.1.6:provided - omitted for duplicate)
+|  +- org.apache.cxf.services.ws-discovery:cxf-services-ws-discovery-api:jar:3.1.6:provided
+|  |  +- (org.apache.cxf:cxf-core:jar:3.1.6:provided - omitted for duplicate)
+|  |  \- (org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.1.6:provided - omitted for duplicate)
+|  +- org.apache.cxf.xjc-utils:cxf-xjc-runtime:jar:3.0.5:provided
+|  +- org.apache.cxf.xjcplugins:cxf-xjc-boolean:jar:3.0.5:provided
+|  +- org.apache.cxf.xjcplugins:cxf-xjc-bug986:jar:3.0.5:provided
+|  +- org.apache.cxf.xjcplugins:cxf-xjc-dv:jar:3.0.5:provided
+|  +- org.apache.cxf.xjcplugins:cxf-xjc-ts:jar:3.0.5:provided
+|  +- org.wildfly:wildfly-rts:jar:10.1.0.Final:provided
+|  |  +- (org.jboss.narayana.rts:restat-integration:jar:5.3.3.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.narayana.rts:restat-bridge:jar:5.3.3.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.narayana.rts:restat-api:jar:5.3.3.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.narayana.rts:restat-util:jar:5.3.3.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-undertow:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.spec.javax.ejb:jboss-ejb-api_3.2_spec:jar:1.0.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.spec.javax.ws.rs:jboss-jaxrs-api_2.0_spec:jar:1.0.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.resteasy:resteasy-jaxrs:jar:3.0.19.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.resteasy:resteasy-jaxb-provider:jar:3.0.19.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.resteasy:resteasy-jettison-provider:jar:3.0.19.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.1.4.GA; omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-controller:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-server:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-jaxrs:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  +- org.jboss.narayana.rts:restat-api:jar:5.3.3.Final:provided
+|  |  \- (org.jboss.narayana.rts:restat-util:jar:5.3.3.Final:provided - omitted for duplicate)
+|  +- org.jboss.narayana.rts:restat-integration:jar:5.3.3.Final:provided
+|  +- org.jboss.narayana.rts:restat-bridge:jar:5.3.3.Final:provided
+|  +- org.jboss.narayana.compensations:compensations:jar:5.3.3.Final:provided
+|  +- org.jboss.narayana.txframework:txframework:jar:5.3.3.Final:provided
+|  +- org.jboss:jboss-ejb-client:jar:2.1.4.Final:provided
+|  |  +- (org.jboss.marshalling:jboss-marshalling:jar:1.4.11.Final:provided - version managed from 1.4.3.Final; omitted for duplicate)
+|  |  +- (org.jboss.xnio:xnio-api:jar:3.4.3.Final:compile - version managed from 3.2.0.Final; scope updated from provided; omitted for duplicate)
+|  |  +- (org.jboss.remoting:jboss-remoting:jar:4.0.21.Final:provided - version managed from 4.0.5.Final; omitted for duplicate)
+|  |  \- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.1.4.GA; omitted for duplicate)
+|  +- org.jboss.ejb3:jboss-ejb3-ext-api:jar:2.2.0.Final:provided
+|  +- org.wildfly:wildfly-jpa:jar:10.1.0.Final:provided
+|  |  +- (org.wildfly:wildfly-bean-validation:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-controller:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-ejb3:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:jipijapa-spi:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.msc:jboss-msc:jar:1.2.6.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.weld:weld-core-impl:jar:2.3.5.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.spec.javax.el:jboss-el-api_3.0_spec:jar:1.0.7.Final:provided - version managed from 1.0.4.Final; omitted for duplicate)
+|  |  +- (javax.enterprise:cdi-api:jar:1.2:provided - omitted for duplicate)
+|  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  +- org.wildfly:jipijapa-hibernate5:jar:10.1.0.Final:provided
+|  |  +- (org.wildfly:jipijapa-spi:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.2.1.Final; omitted for duplicate)
+|  |  +- (org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss:jboss-vfs:jar:3.2.12.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.spec.javax.annotation:jboss-annotations-api_1.2_spec:jar:1.0.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.0.0.Final:provided - omitted for duplicate)
+|  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  +- org.wildfly:jipijapa-hibernate4-3:jar:10.1.0.Final:provided
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.2.1.Final; omitted for duplicate)
+|  |  +- (org.jboss:jboss-vfs:jar:3.2.12.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.spec.javax.annotation:jboss-annotations-api_1.2_spec:jar:1.0.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.0.0.Final:provided - omitted for duplicate)
+|  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  +- org.wildfly:jipijapa-hibernate4-1:jar:10.1.0.Final:provided
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.2.1.Final; omitted for duplicate)
+|  |  +- (org.jboss:jboss-vfs:jar:3.2.12.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.spec.javax.annotation:jboss-annotations-api_1.2_spec:jar:1.0.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.0.0.Final:provided - omitted for duplicate)
+|  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  +- org.wildfly:jipijapa-eclipselink:jar:10.1.0.Final:provided
+|  |  +- (org.wildfly:jipijapa-spi:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.2.1.Final; omitted for duplicate)
+|  |  +- (org.jboss.spec.javax.annotation:jboss-annotations-api_1.2_spec:jar:1.0.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.0.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss:jboss-vfs:jar:3.2.12.Final:provided - omitted for duplicate)
+|  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  +- org.wildfly:jipijapa-openjpa:jar:10.1.0.Final:provided
+|  |  +- (org.wildfly:jipijapa-spi:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  +- org.wildfly:jipijapa-spi:jar:10.1.0.Final:provided
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.2.1.Final; omitted for duplicate)
+|  |  +- (org.jboss:jandex:jar:2.0.2.Final:provided - version managed from 1.1.0.Final; omitted for duplicate)
+|  |  +- (org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.0.0.Final:provided - omitted for duplicate)
+|  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  +- org.jboss:jboss-transaction-spi:jar:7.3.0.Final:provided
+|  +- org.jboss.genericjms:generic-jms-ra-jar:jar:1.0.7.Final:provided
+|  |  \- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.1.0.GA; omitted for duplicate)
+|  +- org.jboss.ironjacamar:ironjacamar-core-api:jar:1.3.4.Final:provided
+|  |  +- (org.jboss.ironjacamar:ironjacamar-spec-api:jar:1.3.4.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss:jboss-transaction-spi:jar:7.3.0.Final:provided - version managed from 7.2.0.Final; omitted for duplicate)
+|  |  \- (org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.0.0.Final:provided - omitted for duplicate)
+|  +- org.jboss.ironjacamar:ironjacamar-core-impl:jar:1.3.4.Final:provided
+|  |  +- (org.jboss.ironjacamar:ironjacamar-common-impl:jar:1.3.4.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.ironjacamar:ironjacamar-core-api:jar:1.3.4.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.ironjacamar:ironjacamar-spec-api:jar:1.3.4.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.1.3.GA; omitted for duplicate)
+|  |  +- (javax.validation:validation-api:jar:1.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss:jboss-transaction-spi:jar:7.3.0.Final:provided - version managed from 7.2.0.Final; omitted for duplicate)
+|  |  +- (org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.0.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.threads:jboss-threads:jar:2.2.1.Final:provided - version managed from 2.1.1.Final; omitted for duplicate)
+|  |  \- (org.picketbox:picketbox:jar:4.9.6.Final:provided - version managed from 4.0.19.Final; omitted for duplicate)
+|  +- org.jboss.ironjacamar:ironjacamar-common-api:jar:1.3.4.Final:provided
+|  +- org.jboss.ironjacamar:ironjacamar-common-spi:jar:1.3.4.Final:provided
+|  +- org.jboss.ironjacamar:ironjacamar-common-impl:jar:1.3.4.Final:provided
+|  |  +- (org.jboss.ironjacamar:ironjacamar-common-api:jar:1.3.4.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.ironjacamar:ironjacamar-common-spi:jar:1.3.4.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.ironjacamar:ironjacamar-spec-api:jar:1.3.4.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.1.3.GA; omitted for duplicate)
+|  |  \- (org.jboss:jandex:jar:2.0.2.Final:provided - version managed from 1.1.0.Final; omitted for duplicate)
+|  +- org.jboss.ironjacamar:ironjacamar-deployers-common:jar:1.3.4.Final:provided
+|  |  \- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.1.3.GA; omitted for duplicate)
+|  +- org.jboss.ironjacamar:ironjacamar-jdbc:jar:1.3.4.Final:provided
+|  |  \- (org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.0.0.Final:provided - omitted for duplicate)
+|  +- org.jboss.ironjacamar:ironjacamar-spec-api:jar:1.3.4.Final:provided
+|  |  \- (org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.0.0.Final:provided - omitted for duplicate)
+|  +- org.jboss.ironjacamar:ironjacamar-validator:jar:1.3.4.Final:provided
+|  |  +- (org.jboss.ironjacamar:ironjacamar-common-api:jar:1.3.4.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.ironjacamar:ironjacamar-common-impl:jar:1.3.4.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.ironjacamar:ironjacamar-common-spi:jar:1.3.4.Final:provided - omitted for duplicate)
+|  |  \- (org.jboss.ironjacamar:ironjacamar-spec-api:jar:1.3.4.Final:provided - omitted for duplicate)
+|  +- org.jboss.narayana.jts:narayana-jts-idlj:jar:5.3.3.Final:provided
+|  |  \- (org.jboss.openjdk-orb:openjdk-orb:jar:8.0.6.Final:provided - version managed from 8.0.4.Final; omitted for duplicate)
+|  +- org.jboss.narayana.jts:narayana-jts-integration:jar:5.3.3.Final:provided
+|  +- org.jboss.narayana:jbosstxbridge:jar:5.3.3.Final:provided
+|  +- org.jboss.narayana.xts:jbossxts:jar:5.3.3.Final:provided
+|  +- org.jboss.narayana.xts:jbossxts:jar:api:5.3.3.Final:provided
+|  +- org.jboss.metadata:jboss-metadata-appclient:jar:10.0.0.Final:provided
+|  |  +- (org.jboss.metadata:jboss-metadata-common:jar:10.0.0.Final:provided - omitted for duplicate)
+|  |  \- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.1.3.GA; omitted for duplicate)
+|  +- org.jboss.metadata:jboss-metadata-ejb:jar:10.0.0.Final:provided
+|  |  +- (org.jboss.metadata:jboss-metadata-common:jar:10.0.0.Final:provided - omitted for duplicate)
+|  |  \- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.1.3.GA; omitted for duplicate)
+|  +- org.jboss.mod_cluster:mod_cluster-container-spi:jar:1.3.3.Final:provided
+|  +- org.jboss.mod_cluster:mod_cluster-core:jar:1.3.3.Final:provided
+|  |  +- (org.jboss.mod_cluster:mod_cluster-container-spi:jar:1.3.3.Final:provided - omitted for duplicate)
+|  |  \- (net.jcip:jcip-annotations:jar:1.0:provided - omitted for duplicate)
+|  +- org.jboss.xnio.netty:netty-xnio-transport:jar:0.1.1.Final:provided
+|  |  +- io.netty:netty-transport:jar:4.0.13.Final:provided
+|  |  |  \- (io.netty:netty-buffer:jar:4.0.13.Final:provided - omitted for duplicate)
+|  |  +- io.netty:netty-buffer:jar:4.0.13.Final:provided
+|  |  |  \- io.netty:netty-common:jar:4.0.13.Final:provided
+|  |  \- (org.jboss.xnio:xnio-api:jar:3.4.3.Final:compile - version managed from 3.2.0.Beta4; scope updated from provided; omitted for duplicate)
+|  +- io.netty:netty-all:jar:4.0.33.Final:provided
+|  +- io.undertow.js:undertow-js:jar:1.0.2.Final:provided
+|  +- org.jboss.spec.javax.ws.rs:jboss-jaxrs-api_2.0_spec:jar:1.0.0.Final:provided
+|  +- org.jboss.resteasy:jose-jwt:jar:3.0.19.Final:provided
+|  |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.9.13:provided - version managed from 1.9.12; omitted for duplicate)
+|  |  +- (org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:provided - version managed from 1.9.12; omitted for duplicate)
+|  |  +- (org.codehaus.jackson:jackson-xc:jar:1.9.13:provided - version managed from 1.9.12; omitted for duplicate)
+|  |  +- (org.bouncycastle:bcprov-jdk15on:jar:1.52:provided - version managed from 1.51; omitted for duplicate)
+|  |  \- (org.jboss.resteasy:resteasy-jackson-provider:jar:3.0.19.Final:provided - omitted for duplicate)
+|  +- org.jboss.resteasy:resteasy-client:jar:3.0.19.Final:provided
+|  |  \- (org.jboss.resteasy:resteasy-jaxrs:jar:3.0.19.Final:provided - omitted for duplicate)
+|  +- org.jboss.resteasy:resteasy-jaxrs:jar:3.0.19.Final:provided
+|  |  +- (org.jboss.spec.javax.ws.rs:jboss-jaxrs-api_2.0_spec:jar:1.0.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.spec.javax.annotation:jboss-annotations-api_1.2_spec:jar:1.0.0.Final:provided - omitted for duplicate)
+|  |  +- (javax.activation:activation:jar:1.1.1:provided - version managed from 1.1; omitted for duplicate)
+|  |  +- (commons-io:commons-io:jar:2.4:provided - version managed from 2.1; omitted for duplicate)
+|  |  \- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.1.4.GA; omitted for duplicate)
+|  +- org.jboss.resteasy:async-http-servlet-3.0:jar:3.0.19.Final:provided
+|  +- org.jboss.resteasy:resteasy-spring:jar:3.0.19.Final:provided
+|  |  +- (org.jboss.resteasy:resteasy-jaxrs:jar:3.0.19.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.spec.javax.ws.rs:jboss-jaxrs-api_2.0_spec:jar:1.0.0.Final:provided - omitted for duplicate)
+|  |  +- (javax.activation:activation:jar:1.1.1:provided - version managed from 1.1; omitted for duplicate)
+|  |  \- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.1.4.GA; omitted for duplicate)
+|  +- org.jboss.resteasy:resteasy-atom-provider:jar:3.0.19.Final:provided
+|  |  +- (org.jboss.resteasy:resteasy-jaxrs:jar:3.0.19.Final:provided - omitted for duplicate)
+|  |  \- (org.jboss.resteasy:resteasy-jaxb-provider:jar:3.0.19.Final:provided - omitted for duplicate)
+|  +- org.jboss.resteasy:resteasy-cdi:jar:3.0.19.Final:provided
+|  |  +- (org.jboss.spec.javax.ws.rs:jboss-jaxrs-api_2.0_spec:jar:1.0.0.Final:provided - omitted for duplicate)
+|  |  +- (javax.validation:validation-api:jar:1.1.0.Final:provided - omitted for duplicate)
+|  |  \- (org.jboss.resteasy:resteasy-jaxrs:jar:3.0.19.Final:provided - omitted for duplicate)
+|  +- org.jboss.resteasy:resteasy-crypto:jar:3.0.19.Final:provided
+|  |  +- (org.jboss.resteasy:resteasy-jaxrs:jar:3.0.19.Final:provided - omitted for duplicate)
+|  |  +- (org.bouncycastle:bcprov-jdk15on:jar:1.52:provided - version managed from 1.51; omitted for duplicate)
+|  |  +- (org.bouncycastle:bcmail-jdk15on:jar:1.52:provided - omitted for duplicate)
+|  |  \- (com.sun.mail:javax.mail:jar:1.5.5:provided - omitted for duplicate)
+|  +- org.jboss.resteasy:resteasy-jackson-provider:jar:3.0.19.Final:provided
+|  +- org.jboss.resteasy:resteasy-jackson2-provider:jar:3.0.19.Final:provided
+|  +- org.jboss.resteasy:resteasy-json-p-provider:jar:3.0.19.Final:provided
+|  |  \- (org.glassfish:javax.json:jar:1.0.3:provided - omitted for duplicate)
+|  +- org.jboss.resteasy:resteasy-jaxb-provider:jar:3.0.19.Final:provided
+|  +- org.jboss.resteasy:resteasy-jettison-provider:jar:3.0.19.Final:provided
+|  |  +- (org.jboss.resteasy:resteasy-jaxb-provider:jar:3.0.19.Final:provided - omitted for duplicate)
+|  |  \- (org.codehaus.jettison:jettison:jar:1.3.3:provided - version managed from 1.3.2; omitted for duplicate)
+|  +- org.jboss.resteasy:resteasy-jsapi:jar:3.0.19.Final:provided
+|  |  +- (org.jboss.resteasy:resteasy-jaxrs:jar:3.0.19.Final:provided - omitted for duplicate)
+|  |  \- (org.jboss.spec.javax.ws.rs:jboss-jaxrs-api_2.0_spec:jar:1.0.0.Final:provided - omitted for duplicate)
+|  +- org.jboss.resteasy:resteasy-multipart-provider:jar:3.0.19.Final:provided
+|  |  +- (org.jboss.resteasy:resteasy-jaxrs:jar:3.0.19.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.resteasy:resteasy-client:jar:3.0.19.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.resteasy:resteasy-jaxb-provider:jar:3.0.19.Final:provided - omitted for duplicate)
+|  |  +- (com.sun.mail:javax.mail:jar:1.5.5:provided - omitted for duplicate)
+|  |  \- (org.apache.james:apache-mime4j:jar:0.6:provided - omitted for duplicate)
+|  +- org.jboss.resteasy:resteasy-validator-provider-11:jar:3.0.19.Final:provided
+|  |  +- (org.hibernate:hibernate-validator:jar:5.2.4.Final:provided - version managed from 5.1.3.Final; omitted for duplicate)
+|  |  \- (com.fasterxml:classmate:jar:1.3.1:provided - version managed from 0.8.0; omitted for duplicate)
+|  +- org.jboss.resteasy:resteasy-yaml-provider:jar:3.0.19.Final:provided
+|  |  \- (org.jboss.resteasy:resteasy-jaxrs:jar:3.0.19.Final:provided - omitted for duplicate)
+|  +- org.jboss.seam.integration:jboss-seam-int-jbossas:jar:7.0.0.GA:provided
+|  +- org.jboss.security:jbossxacml:jar:2.0.8.Final:provided
+|  +- org.jboss.spec.javax.batch:jboss-batch-api_1.0_spec:jar:1.0.0.Final:provided
+|  |  +- (javax.inject:javax.inject:jar:1:provided - omitted for duplicate)
+|  |  \- (javax.enterprise:cdi-api:jar:1.2:provided - version managed from 1.1; omitted for duplicate)
+|  +- org.jboss.spec.javax.ejb:jboss-ejb-api_3.2_spec:jar:1.0.0.Final:provided
+|  +- org.jboss.spec.javax.faces:jboss-jsf-api_2.2_spec:jar:2.2.13:provided
+|  +- org.jboss.spec.javax.jms:jboss-jms-api_2.0_spec:jar:1.0.0.Final:provided
+|  +- org.jboss.spec.javax.management.j2ee:jboss-j2eemgmt-api_1.1_spec:jar:1.0.1.Final:provided
+|  +- org.jboss.spec.javax.resource:jboss-connector-api_1.7_spec:jar:1.0.0.Final:provided
+|  +- org.jboss.spec.javax.rmi:jboss-rmi-api_1.0_spec:jar:1.0.4.Final:provided
+|  +- (org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.0.0.Final:provided - omitted for duplicate)
+|  +- org.jboss.spec.javax.xml.bind:jboss-jaxb-api_2.2_spec:jar:1.0.4.Final:provided
+|  +- org.jboss.spec.javax.xml.rpc:jboss-jaxrpc-api_1.1_spec:jar:1.0.1.Final:provided
+|  +- org.jboss.spec.javax.xml.soap:jboss-saaj-api_1.3_spec:jar:1.0.3.Final:provided
+|  +- org.jboss.spec.javax.xml.ws:jboss-jaxws-api_2.2_spec:jar:2.0.3.Final:provided
+|  +- org.jboss.weld:weld-api:jar:2.3.SP2:provided
+|  |  +- (javax.inject:javax.inject:jar:1:provided - omitted for duplicate)
+|  |  \- (javax.enterprise:cdi-api:jar:1.2:provided - version managed from 1.1; omitted for duplicate)
+|  +- org.jboss.weld:weld-core-impl:jar:2.3.5.Final:provided
+|  |  +- (org.jboss.classfilewriter:jboss-classfilewriter:jar:1.1.2.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.spec.javax.annotation:jboss-annotations-api_1.2_spec:jar:1.0.0.Final:provided - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:18.0:provided - version managed from 13.0.1; omitted for duplicate)
+|  |  +- (org.jboss.spec.javax.interceptor:jboss-interceptors-api_1.2_spec:jar:1.0.0.Final:provided - omitted for duplicate)
+|  |  \- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.2.1.Final; omitted for duplicate)
+|  +- org.jboss.weld.probe:weld-probe-core:jar:2.3.5.Final:provided
+|  |  +- (javax.enterprise:cdi-api:jar:1.2:provided - version managed from 1.1; omitted for duplicate)
+|  |  \- (org.jboss.weld:weld-core-impl:jar:2.3.5.Final:provided - omitted for duplicate)
+|  +- org.jboss.weld:weld-core-jsf:jar:2.3.5.Final:provided
+|  +- org.jboss.weld:weld-spi:jar:2.3.SP2:provided
+|  |  +- (javax.inject:javax.inject:jar:1:provided - omitted for duplicate)
+|  |  +- (javax.enterprise:cdi-api:jar:1.2:provided - version managed from 1.1; omitted for duplicate)
+|  |  \- (org.jboss.weld:weld-api:jar:2.3.SP2:provided - omitted for duplicate)
+|  +- org.jdom:jdom:jar:1.1.3:provided
+|  +- org.jgroups:jgroups:jar:3.6.10.Final:provided
+|  +- org.jgroups:jgroups-azure:jar:1.0.0.Final:provided
+|  |  +- (org.jgroups:jgroups:jar:3.6.10.Final:provided - version managed from 3.6.7.Final; omitted for duplicate)
+|  |  \- (com.microsoft.azure:azure-storage:jar:4.0.0:provided - omitted for duplicate)
+|  +- org.picketlink:picketlink-api:jar:2.5.5.SP2:provided
+|  |  \- (org.picketlink:picketlink-idm-api:jar:2.5.5.SP2:provided - omitted for duplicate)
+|  +- org.picketlink:picketlink-impl:jar:2.5.5.SP2:provided
+|  |  +- (org.picketlink:picketlink-api:jar:2.5.5.SP2:provided - omitted for duplicate)
+|  |  +- (org.picketlink:picketlink-common:jar:2.5.5.SP2:provided - omitted for duplicate)
+|  |  \- (org.picketlink:picketlink-idm-impl:jar:2.5.5.SP2:provided - omitted for duplicate)
+|  +- org.picketlink:picketlink-federation:jar:2.5.5.SP2:provided
+|  |  +- (org.picketlink:picketlink-common:jar:2.5.5.SP2:provided - omitted for duplicate)
+|  |  +- (org.picketlink:picketlink-config:jar:2.5.5.SP2:provided - omitted for duplicate)
+|  |  +- (org.apache.santuario:xmlsec:jar:2.0.6:provided - version managed from 2.0.3; omitted for duplicate)
+|  |  +- (org.jboss.security:jbossxacml:jar:2.0.8.Final:provided - omitted for duplicate)
+|  |  \- (org.picketbox:picketbox:jar:4.9.6.Final:provided - version managed from 4.0.20.Final; omitted for duplicate)
+|  +- org.picketlink:picketlink-common:jar:2.5.5.SP2:provided
+|  +- org.picketlink:picketlink-config:jar:2.5.5.SP2:provided
+|  |  +- (org.picketlink:picketlink-common:jar:2.5.5.SP2:provided - omitted for duplicate)
+|  |  \- (org.picketlink:picketlink-idm-impl:jar:2.5.5.SP2:provided - omitted for duplicate)
+|  +- org.picketlink:picketlink-idm-api:jar:2.5.5.SP2:provided
+|  |  \- (org.picketlink:picketlink-common:jar:2.5.5.SP2:provided - omitted for duplicate)
+|  +- org.picketlink:picketlink-idm-impl:jar:2.5.5.SP2:provided
+|  |  +- (org.picketlink:picketlink-common:jar:2.5.5.SP2:provided - omitted for duplicate)
+|  |  \- (org.picketlink:picketlink-idm-api:jar:2.5.5.SP2:provided - omitted for duplicate)
+|  +- org.slf4j:jcl-over-slf4j:jar:1.7.22:provided
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.22:provided - version managed from 1.7.13; omitted for duplicate)
+|  +- org.slf4j:slf4j-ext:jar:1.7.7.jbossorg-1:provided
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.22:provided - version managed from 1.7.7.jbossorg-1; omitted for duplicate)
+|  |  \- (ch.qos.cal10n:cal10n-api:jar:0.8.1:provided - omitted for duplicate)
+|  +- (org.yaml:snakeyaml:jar:1.17:compile - version managed from 1.15; scope updated from provided; omitted for duplicate)
+|  +- wsdl4j:wsdl4j:jar:1.6.3:provided
+|  +- com.io7m.xom:xom:jar:1.2.10:provided
+|  |  +- (xerces:xercesImpl:jar:2.11.0.SP5:provided - version managed from 2.8.0; omitted for duplicate)
+|  |  \- (xalan:xalan:jar:2.7.1.jbossorg-2:provided - version managed from 2.7.0; omitted for duplicate)
+|  +- org.cryptacular:cryptacular:jar:1.0:provided
+|  |  \- (org.bouncycastle:bcprov-jdk15on:jar:1.52:provided - version managed from 1.50; omitted for duplicate)
+|  +- org.opensaml:opensaml-core:jar:3.1.1:provided
+|  |  +- (joda-time:joda-time:jar:2.7:provided - omitted for duplicate)
+|  |  +- (net.shibboleth.utilities:java-support:jar:7.1.1:provided - omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.10:provided - version managed from 1.9; omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.22:provided - version managed from 1.7.10; omitted for duplicate)
+|  +- org.opensaml:opensaml-profile-api:jar:3.1.1:provided
+|  |  +- (org.opensaml:opensaml-core:jar:3.1.1:provided - omitted for duplicate)
+|  |  +- org.opensaml:opensaml-messaging-api:jar:3.1.1:provided
+|  |  |  +- (org.opensaml:opensaml-core:jar:3.1.1:provided - omitted for duplicate)
+|  |  |  +- (joda-time:joda-time:jar:2.7:provided - omitted for duplicate)
+|  |  |  +- (net.shibboleth.utilities:java-support:jar:7.1.1:provided - omitted for duplicate)
+|  |  |  +- (commons-codec:commons-codec:jar:1.10:provided - version managed from 1.9; omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.22:provided - version managed from 1.7.10; omitted for duplicate)
+|  |  +- (net.shibboleth.utilities:java-support:jar:7.1.1:provided - omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.10:provided - version managed from 1.9; omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.22:provided - version managed from 1.7.10; omitted for duplicate)
+|  +- org.opensaml:opensaml-saml-api:jar:3.1.1:provided
+|  |  +- (org.opensaml:opensaml-xmlsec-api:jar:3.1.1:provided - omitted for duplicate)
+|  |  +- (org.opensaml:opensaml-soap-api:jar:3.1.1:provided - omitted for duplicate)
+|  |  +- (org.opensaml:opensaml-messaging-api:jar:3.1.1:provided - omitted for duplicate)
+|  |  +- (org.opensaml:opensaml-profile-api:jar:3.1.1:provided - omitted for duplicate)
+|  |  +- org.opensaml:opensaml-storage-api:jar:3.1.1:provided
+|  |  |  +- (joda-time:joda-time:jar:2.7:provided - omitted for duplicate)
+|  |  |  +- (net.shibboleth.utilities:java-support:jar:7.1.1:provided - omitted for duplicate)
+|  |  |  +- (commons-codec:commons-codec:jar:1.10:provided - version managed from 1.9; omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.22:provided - version managed from 1.7.10; omitted for duplicate)
+|  |  +- (net.shibboleth.utilities:java-support:jar:7.1.1:provided - omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.10:provided - version managed from 1.9; omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.22:provided - version managed from 1.7.10; omitted for duplicate)
+|  +- org.opensaml:opensaml-saml-impl:jar:3.1.1:provided
+|  |  +- (org.opensaml:opensaml-profile-api:jar:3.1.1:provided - omitted for duplicate)
+|  |  +- (org.opensaml:opensaml-saml-api:jar:3.1.1:provided - omitted for duplicate)
+|  |  +- (org.opensaml:opensaml-storage-api:jar:3.1.1:provided - omitted for duplicate)
+|  |  +- (org.opensaml:opensaml-security-impl:jar:3.1.1:provided - omitted for duplicate)
+|  |  +- (org.opensaml:opensaml-xmlsec-impl:jar:3.1.1:provided - omitted for duplicate)
+|  |  +- org.opensaml:opensaml-soap-impl:jar:3.1.1:provided
+|  |  |  +- (org.opensaml:opensaml-soap-api:jar:3.1.1:provided - omitted for duplicate)
+|  |  |  +- (org.opensaml:opensaml-profile-api:jar:3.1.1:provided - omitted for duplicate)
+|  |  |  +- (net.shibboleth.utilities:java-support:jar:7.1.1:provided - omitted for duplicate)
+|  |  |  +- (commons-codec:commons-codec:jar:1.10:provided - version managed from 1.9; omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.22:provided - version managed from 1.7.10; omitted for duplicate)
+|  |  +- (org.apache.velocity:velocity:jar:1.7:provided - omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpclient:jar:4.5:provided - version managed from 4.3.6; omitted for duplicate)
+|  |  +- (net.shibboleth.utilities:java-support:jar:7.1.1:provided - omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.10:provided - version managed from 1.9; omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.22:provided - version managed from 1.7.10; omitted for duplicate)
+|  +- org.opensaml:opensaml-security-api:jar:3.1.1:provided
+|  |  +- (org.opensaml:opensaml-core:jar:3.1.1:provided - omitted for duplicate)
+|  |  +- (org.opensaml:opensaml-messaging-api:jar:3.1.1:provided - omitted for duplicate)
+|  |  +- (org.apache.santuario:xmlsec:jar:2.0.6:provided - version managed from 2.0.3; omitted for duplicate)
+|  |  +- (org.cryptacular:cryptacular:jar:1.0:provided - omitted for duplicate)
+|  |  +- (org.bouncycastle:bcprov-jdk15on:jar:1.52:provided - version managed from 1.51; omitted for duplicate)
+|  |  +- (net.shibboleth.utilities:java-support:jar:7.1.1:provided - omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.10:provided - version managed from 1.9; omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.22:provided - version managed from 1.7.10; omitted for duplicate)
+|  +- org.opensaml:opensaml-security-impl:jar:3.1.1:provided
+|  |  +- (org.opensaml:opensaml-security-api:jar:3.1.1:provided - omitted for duplicate)
+|  |  +- (org.opensaml:opensaml-messaging-api:jar:3.1.1:provided - omitted for duplicate)
+|  |  +- (net.shibboleth.utilities:java-support:jar:7.1.1:provided - omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.10:provided - version managed from 1.9; omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.22:provided - version managed from 1.7.10; omitted for duplicate)
+|  +- org.opensaml:opensaml-soap-api:jar:3.1.1:provided
+|  |  +- (org.opensaml:opensaml-xmlsec-api:jar:3.1.1:provided - omitted for duplicate)
+|  |  +- (org.opensaml:opensaml-messaging-api:jar:3.1.1:provided - omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpclient:jar:4.5:provided - version managed from 4.3.6; omitted for duplicate)
+|  |  +- (net.shibboleth.utilities:java-support:jar:7.1.1:provided - omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.10:provided - version managed from 1.9; omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.22:provided - version managed from 1.7.10; omitted for duplicate)
+|  +- org.opensaml:opensaml-xacml-api:jar:3.1.1:provided
+|  |  +- (org.opensaml:opensaml-core:jar:3.1.1:provided - omitted for duplicate)
+|  |  +- (net.shibboleth.utilities:java-support:jar:7.1.1:provided - omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.10:provided - version managed from 1.9; omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.22:provided - version managed from 1.7.10; omitted for duplicate)
+|  +- org.opensaml:opensaml-xacml-impl:jar:3.1.1:provided
+|  |  +- (org.opensaml:opensaml-xacml-api:jar:3.1.1:provided - omitted for duplicate)
+|  |  +- (net.shibboleth.utilities:java-support:jar:7.1.1:provided - omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.10:provided - version managed from 1.9; omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.22:provided - version managed from 1.7.10; omitted for duplicate)
+|  +- org.opensaml:opensaml-xacml-saml-api:jar:3.1.1:provided
+|  |  +- (org.opensaml:opensaml-xacml-api:jar:3.1.1:provided - omitted for duplicate)
+|  |  +- (org.opensaml:opensaml-saml-api:jar:3.1.1:provided - omitted for duplicate)
+|  |  +- (net.shibboleth.utilities:java-support:jar:7.1.1:provided - omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.10:provided - version managed from 1.9; omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.22:provided - version managed from 1.7.10; omitted for duplicate)
+|  +- org.opensaml:opensaml-xacml-saml-impl:jar:3.1.1:provided
+|  |  +- (org.opensaml:opensaml-xacml-saml-api:jar:3.1.1:provided - omitted for duplicate)
+|  |  +- (org.opensaml:opensaml-saml-impl:jar:3.1.1:provided - omitted for duplicate)
+|  |  +- (net.shibboleth.utilities:java-support:jar:7.1.1:provided - omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.10:provided - version managed from 1.9; omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.22:provided - version managed from 1.7.10; omitted for duplicate)
+|  +- org.opensaml:opensaml-xmlsec-api:jar:3.1.1:provided
+|  |  +- (org.opensaml:opensaml-security-api:jar:3.1.1:provided - omitted for duplicate)
+|  |  +- (org.opensaml:opensaml-messaging-api:jar:3.1.1:provided - omitted for duplicate)
+|  |  +- (net.shibboleth.utilities:java-support:jar:7.1.1:provided - omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.10:provided - version managed from 1.9; omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.22:provided - version managed from 1.7.10; omitted for duplicate)
+|  +- org.opensaml:opensaml-xmlsec-impl:jar:3.1.1:provided
+|  |  +- (org.opensaml:opensaml-xmlsec-api:jar:3.1.1:provided - omitted for duplicate)
+|  |  +- (org.opensaml:opensaml-security-impl:jar:3.1.1:provided - omitted for duplicate)
+|  |  +- (net.shibboleth.utilities:java-support:jar:7.1.1:provided - omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.10:provided - version managed from 1.9; omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.22:provided - version managed from 1.7.10; omitted for duplicate)
+|  +- net.shibboleth.utilities:java-support:jar:7.1.1:provided
+|  |  +- (commons-codec:commons-codec:jar:1.10:provided - version managed from 1.9; omitted for duplicate)
+|  |  +- com.google.code.findbugs:jsr305:jar:3.0.0:provided
+|  |  +- (com.google.guava:guava:jar:18.0:provided - version managed from 13.0.1; omitted for duplicate)
+|  |  +- (joda-time:joda-time:jar:2.7:provided - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.22:provided - version managed from 1.7.10; omitted for duplicate)
+|  +- org.jboss.activemq.artemis.integration:artemis-wildfly-integration:jar:1.0.2:provided
+|  +- org.apache.activemq:artemis-amqp-protocol:jar:1.1.0.wildfly-017:provided
+|  |  +- (org.apache.activemq:artemis-jms-client:jar:1.1.0.wildfly-017:provided - omitted for duplicate)
+|  |  +- (org.apache.activemq:artemis-core-client:jar:1.1.0.wildfly-017:provided - omitted for duplicate)
+|  |  +- (org.apache.activemq:artemis-commons:jar:1.1.0.wildfly-017:provided - omitted for duplicate)
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.1.4.GA; omitted for duplicate)
+|  |  +- (org.apache.activemq:artemis-server:jar:1.1.0.wildfly-017:provided - omitted for duplicate)
+|  |  +- (org.apache.activemq:artemis-proton-plug:jar:1.1.0.wildfly-017:provided - omitted for duplicate)
+|  |  +- (org.apache.qpid:proton-j:jar:0.8:provided - version managed from 0.10; omitted for duplicate)
+|  |  \- (org.apache.qpid:proton-jms:jar:0.8:provided - version managed from 0.10; omitted for duplicate)
+|  +- org.apache.activemq:artemis-cli:jar:1.1.0.wildfly-017:provided
+|  |  +- (org.apache.activemq:artemis-server:jar:1.1.0.wildfly-017:provided - omitted for duplicate)
+|  |  +- (org.apache.activemq:artemis-jms-server:jar:1.1.0.wildfly-017:provided - omitted for duplicate)
+|  |  +- (org.apache.activemq:artemis-dto:jar:1.1.0.wildfly-017:provided - omitted for duplicate)
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.1.4.GA; omitted for duplicate)
+|  |  \- io.airlift:airline:jar:0.7:provided
+|  |     +- (javax.inject:javax.inject:jar:1:provided - omitted for duplicate)
+|  |     +- com.google.code.findbugs:annotations:jar:2.0.3:provided
+|  |     \- (com.google.guava:guava:jar:18.0:provided - version managed from 13.0.1; omitted for duplicate)
+|  +- org.apache.activemq:artemis-commons:jar:1.1.0.wildfly-017:provided
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.1.4.GA; omitted for duplicate)
+|  |  +- (io.netty:netty-all:jar:4.0.33.Final:provided - version managed from 4.0.30.Final; omitted for duplicate)
+|  |  +- (commons-beanutils:commons-beanutils:jar:1.9.2:provided - omitted for duplicate)
+|  |  \- (com.google.guava:guava:jar:18.0:provided - version managed from 13.0.1; omitted for duplicate)
+|  +- org.apache.activemq:artemis-core-client:jar:1.1.0.wildfly-017:provided
+|  |  +- (org.jgroups:jgroups:jar:3.6.10.Final:provided - version managed from 3.6.0.Final; omitted for duplicate)
+|  |  +- (org.apache.activemq:artemis-commons:jar:1.1.0.wildfly-017:provided - omitted for duplicate)
+|  |  +- (org.apache.activemq:artemis-selector:jar:1.1.0.wildfly-017:provided - omitted for duplicate)
+|  |  +- (org.apache.activemq:artemis-journal:jar:1.1.0.wildfly-017:provided - omitted for duplicate)
+|  |  \- (io.netty:netty-all:jar:4.0.33.Final:provided - version managed from 4.0.30.Final; omitted for duplicate)
+|  +- org.apache.activemq:artemis-dto:jar:1.1.0.wildfly-017:provided
+|  |  \- (org.apache.activemq:artemis-commons:jar:1.1.0.wildfly-017:provided - omitted for duplicate)
+|  +- org.apache.activemq:artemis-hornetq-protocol:jar:1.1.0.wildfly-017:provided
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.1.4.GA; omitted for duplicate)
+|  |  +- (org.apache.activemq:artemis-server:jar:1.1.0.wildfly-017:provided - omitted for duplicate)
+|  |  \- (org.apache.activemq:artemis-hqclient-protocol:jar:1.1.0.wildfly-017:provided - omitted for duplicate)
+|  +- org.apache.activemq:artemis-hqclient-protocol:jar:1.1.0.wildfly-017:provided
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.1.4.GA; omitted for duplicate)
+|  |  \- (org.apache.activemq:artemis-core-client:jar:1.1.0.wildfly-017:provided - omitted for duplicate)
+|  +- org.apache.activemq:artemis-jms-client:jar:1.1.0.wildfly-017:provided
+|  |  +- (org.apache.activemq:artemis-core-client:jar:1.1.0.wildfly-017:provided - omitted for duplicate)
+|  |  \- (javax.inject:javax.inject:jar:1:provided - omitted for duplicate)
+|  +- org.apache.activemq:artemis-jms-server:jar:1.1.0.wildfly-017:provided
+|  |  +- (org.apache.activemq:artemis-core-client:jar:1.1.0.wildfly-017:provided - omitted for duplicate)
+|  |  +- (org.apache.activemq:artemis-jms-client:jar:1.1.0.wildfly-017:provided - omitted for duplicate)
+|  |  +- (org.apache.activemq:artemis-server:jar:1.1.0.wildfly-017:provided - omitted for duplicate)
+|  |  +- (org.apache.activemq:artemis-service-extensions:jar:1.1.0.wildfly-017:provided - omitted for duplicate)
+|  |  +- org.apache.geronimo.specs:geronimo-jms_2.0_spec:jar:1.0-alpha-2:provided
+|  |  +- org.apache.geronimo.specs:geronimo-ejb_3.0_spec:jar:1.0.1:provided
+|  |  \- org.apache.geronimo.specs:geronimo-jta_1.1_spec:jar:1.1.1:provided
+|  +- org.apache.activemq:artemis-journal:jar:1.1.0.wildfly-017:provided
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.1.4.GA; omitted for duplicate)
+|  |  +- (org.apache.activemq:artemis-commons:jar:1.1.0.wildfly-017:provided - omitted for duplicate)
+|  |  \- (org.apache.activemq:artemis-native:jar:1.1.0.wildfly-017:provided - omitted for duplicate)
+|  +- org.apache.activemq:artemis-native:jar:1.1.0.wildfly-017:provided
+|  |  \- (org.apache.activemq:artemis-commons:jar:1.1.0.wildfly-017:provided - omitted for duplicate)
+|  +- org.apache.activemq:artemis-proton-plug:jar:1.1.0.wildfly-017:provided
+|  |  +- (org.apache.activemq:artemis-jms-client:jar:1.1.0.wildfly-017:provided - omitted for duplicate)
+|  |  +- (org.apache.activemq:artemis-core-client:jar:1.1.0.wildfly-017:provided - omitted for duplicate)
+|  |  +- (org.apache.activemq:artemis-server:jar:1.1.0.wildfly-017:provided - omitted for duplicate)
+|  |  \- (org.apache.qpid:proton-j:jar:0.8:provided - version managed from 0.10; omitted for duplicate)
+|  +- org.apache.activemq:artemis-ra:jar:1.1.0.wildfly-017:provided
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.1.4.GA; omitted for duplicate)
+|  |  \- (org.apache.activemq:artemis-service-extensions:jar:1.1.0.wildfly-017:provided - omitted for duplicate)
+|  +- org.apache.activemq:artemis-selector:jar:1.1.0.wildfly-017:provided
+|  +- org.apache.activemq:artemis-server:jar:1.1.0.wildfly-017:provided
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.1.4.GA; omitted for duplicate)
+|  |  +- (org.apache.activemq:artemis-commons:jar:1.1.0.wildfly-017:provided - omitted for duplicate)
+|  |  +- (org.apache.activemq:artemis-journal:jar:1.1.0.wildfly-017:provided - omitted for duplicate)
+|  |  +- (org.apache.activemq:artemis-core-client:jar:1.1.0.wildfly-017:provided - omitted for duplicate)
+|  |  \- (io.netty:netty-all:jar:4.0.33.Final:provided - version managed from 4.0.30.Final; omitted for duplicate)
+|  +- org.apache.activemq:artemis-service-extensions:jar:1.1.0.wildfly-017:provided
+|  |  +- (org.apache.activemq:artemis-core-client:jar:1.1.0.wildfly-017:provided - omitted for duplicate)
+|  |  +- (org.apache.activemq:artemis-jms-client:jar:1.1.0.wildfly-017:provided - omitted for duplicate)
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.1.4.GA; omitted for duplicate)
+|  |  +- (org.apache.geronimo.specs:geronimo-jta_1.1_spec:jar:1.1.1:provided - omitted for duplicate)
+|  |  \- (org.apache.activemq:artemis-commons:jar:1.1.0.wildfly-017:provided - omitted for duplicate)
+|  +- org.apache.activemq:artemis-stomp-protocol:jar:1.1.0.wildfly-017:provided
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.1.4.GA; omitted for duplicate)
+|  |  \- (org.apache.activemq:artemis-server:jar:1.1.0.wildfly-017:provided - omitted for duplicate)
+|  +- org.apache.httpcomponents:httpclient:jar:4.5:provided
+|  |  +- (org.apache.httpcomponents:httpcore:jar:4.4.1:provided - omitted for duplicate)
+|  |  \- (commons-codec:commons-codec:jar:1.10:provided - version managed from 1.9; omitted for duplicate)
+|  +- org.apache.httpcomponents:httpcore:jar:4.4.1:provided
+|  +- org.apache.httpcomponents:httpcore-nio:jar:4.4.1:provided
+|  |  \- (org.apache.httpcomponents:httpcore:jar:4.4.1:provided - omitted for duplicate)
+|  +- org.apache.httpcomponents:httpasyncclient:jar:4.1:provided
+|  |  +- (org.apache.httpcomponents:httpcore:jar:4.4.1:provided - omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpcore-nio:jar:4.4.1:provided - version managed from 4.4.4; omitted for duplicate)
+|  |  \- (org.apache.httpcomponents:httpclient:jar:4.5:provided - version managed from 4.4.1; omitted for duplicate)
+|  +- org.apache.httpcomponents:httpmime:jar:4.5:provided
+|  |  \- (org.apache.httpcomponents:httpclient:jar:4.5:provided - version managed from 4.4.1; omitted for duplicate)
+|  +- org.apache.james:apache-mime4j:jar:0.6:provided
+|  +- org.apache.lucene:lucene-analyzers-common:jar:5.3.1:provided
+|  |  \- (org.apache.lucene:lucene-core:jar:5.3.1:provided - omitted for duplicate)
+|  +- org.apache.lucene:lucene-core:jar:5.3.1:provided
+|  +- org.apache.lucene:lucene-facet:jar:5.3.1:provided
+|  |  +- (org.apache.lucene:lucene-core:jar:5.3.1:provided - omitted for duplicate)
+|  |  \- (org.apache.lucene:lucene-queries:jar:5.3.1:provided - omitted for duplicate)
+|  +- org.apache.lucene:lucene-queryparser:jar:5.3.1:provided
+|  |  +- (org.apache.lucene:lucene-core:jar:5.3.1:provided - omitted for duplicate)
+|  |  \- (org.apache.lucene:lucene-queries:jar:5.3.1:provided - omitted for duplicate)
+|  +- org.apache.lucene:lucene-queries:jar:5.3.1:provided
+|  |  \- (org.apache.lucene:lucene-core:jar:5.3.1:provided - omitted for duplicate)
+|  +- org.apache.lucene:lucene-misc:jar:5.3.1:provided
+|  |  \- (org.apache.lucene:lucene-core:jar:5.3.1:provided - omitted for duplicate)
+|  +- org.apache.lucene:lucene-backward-codecs:jar:5.3.1:provided
+|  |  \- (org.apache.lucene:lucene-core:jar:5.3.1:provided - omitted for duplicate)
+|  +- org.apache.neethi:neethi:jar:3.0.3:provided
+|  |  \- (org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1:provided - version managed from 4.2.0; omitted for duplicate)
+|  +- org.apache.qpid:proton-jms:jar:0.8:provided
+|  |  \- (org.apache.qpid:proton-j:jar:0.8:provided - version managed from 0.10; omitted for duplicate)
+|  +- org.apache.qpid:proton-j:jar:0.8:provided
+|  +- org.apache.santuario:xmlsec:jar:2.0.6:provided
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.22:provided - version managed from 1.7.13; omitted for duplicate)
+|  |  \- (commons-codec:commons-codec:jar:1.10:provided - version managed from 1.9; omitted for duplicate)
+|  +- org.apache.ws.xmlschema:xmlschema-core:jar:2.2.1:provided
+|  +- org.apache.velocity:velocity:jar:1.7:provided
+|  |  +- (commons-collections:commons-collections:jar:3.2.2:provided - version managed from 3.2.1; omitted for duplicate)
+|  |  \- (commons-lang:commons-lang:jar:2.6:provided - version managed from 2.4; omitted for duplicate)
+|  +- org.apache.wss4j:wss4j-bindings:jar:2.1.5:provided
+|  |  \- (org.apache.santuario:xmlsec:jar:2.0.6:provided - version managed from 2.0.3; omitted for duplicate)
+|  +- org.apache.wss4j:wss4j-ws-security-common:jar:2.1.5:provided
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.22:provided - version managed from 1.7.14; omitted for duplicate)
+|  |  +- (org.apache.santuario:xmlsec:jar:2.0.6:provided - version managed from 2.0.3; omitted for duplicate)
+|  |  +- (org.opensaml:opensaml-saml-impl:jar:3.1.1:provided - omitted for duplicate)
+|  |  +- (org.opensaml:opensaml-xacml-impl:jar:3.1.1:provided - omitted for duplicate)
+|  |  +- (org.opensaml:opensaml-xacml-saml-impl:jar:3.1.1:provided - omitted for duplicate)
+|  |  \- (org.jasypt:jasypt:jar:1.9.1:provided - version managed from 1.9.2; omitted for duplicate)
+|  +- org.apache.wss4j:wss4j-ws-security-dom:jar:2.1.5:provided
+|  |  \- (org.apache.wss4j:wss4j-ws-security-common:jar:2.1.5:provided - omitted for duplicate)
+|  +- org.apache.wss4j:wss4j-ws-security-stax:jar:2.1.5:provided
+|  |  +- (org.apache.wss4j:wss4j-bindings:jar:2.1.5:provided - omitted for duplicate)
+|  |  \- (org.apache.wss4j:wss4j-ws-security-common:jar:2.1.5:provided - omitted for duplicate)
+|  +- org.apache.wss4j:wss4j-policy:jar:2.1.5:provided
+|  |  \- (org.apache.neethi:neethi:jar:3.0.3:provided - omitted for duplicate)
+|  +- org.apache.wss4j:wss4j-ws-security-policy-stax:jar:2.1.5:provided
+|  |  +- (org.apache.wss4j:wss4j-ws-security-stax:jar:2.1.5:provided - omitted for duplicate)
+|  |  \- (org.apache.wss4j:wss4j-policy:jar:2.1.5:provided - omitted for duplicate)
+|  +- org.bouncycastle:bcprov-jdk15on:jar:1.52:provided
+|  +- org.bouncycastle:bcmail-jdk15on:jar:1.52:provided
+|  |  +- (org.bouncycastle:bcprov-jdk15on:jar:1.52:provided - version managed from 1.51; omitted for duplicate)
+|  |  \- (org.bouncycastle:bcpkix-jdk15on:jar:1.52:provided - omitted for duplicate)
+|  +- org.bouncycastle:bcpkix-jdk15on:jar:1.52:provided
+|  |  \- (org.bouncycastle:bcprov-jdk15on:jar:1.52:provided - version managed from 1.51; omitted for duplicate)
+|  +- org.codehaus.jackson:jackson-core-asl:jar:1.9.13:provided
+|  +- org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:provided
+|  |  \- (org.codehaus.jackson:jackson-core-asl:jar:1.9.13:provided - version managed from 1.9.12; omitted for duplicate)
+|  +- org.codehaus.jackson:jackson-jaxrs:jar:1.9.13:provided
+|  |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.9.13:provided - version managed from 1.9.12; omitted for duplicate)
+|  |  \- (org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:provided - version managed from 1.9.12; omitted for duplicate)
+|  +- org.codehaus.jackson:jackson-xc:jar:1.9.13:provided
+|  |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.9.13:provided - version managed from 1.9.12; omitted for duplicate)
+|  |  \- (org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:provided - version managed from 1.9.12; omitted for duplicate)
+|  +- org.codehaus.jettison:jettison:jar:1.3.3:provided
+|  +- org.glassfish:javax.json:jar:1.0.3:provided
+|  +- org.hibernate:hibernate-core:jar:5.0.10.Final:provided
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.1.4.GA; omitted for duplicate)
+|  |  +- (org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final:provided - omitted for duplicate)
+|  |  +- (org.javassist:javassist:jar:3.18.1-GA:provided - omitted for duplicate)
+|  |  +- (antlr:antlr:jar:2.7.7:provided - omitted for duplicate)
+|  |  +- (org.apache.geronimo.specs:geronimo-jta_1.1_spec:jar:1.1.1:provided - omitted for duplicate)
+|  |  +- (org.jboss:jandex:jar:2.0.2.Final:provided - version managed from 2.0.0.Final; omitted for duplicate)
+|  |  +- (dom4j:dom4j:jar:1.6.1:provided - omitted for duplicate)
+|  |  \- (org.hibernate.common:hibernate-commons-annotations:jar:5.0.1.Final:provided - omitted for duplicate)
+|  +- org.hibernate.common:hibernate-commons-annotations:jar:5.0.1.Final:provided
+|  |  \- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.1.4.GA; omitted for duplicate)
+|  +- org.hibernate:hibernate-entitymanager:jar:5.0.10.Final:provided
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.1.4.GA; omitted for duplicate)
+|  |  +- (dom4j:dom4j:jar:1.6.1:provided - omitted for duplicate)
+|  |  +- (org.hibernate.common:hibernate-commons-annotations:jar:5.0.1.Final:provided - omitted for duplicate)
+|  |  +- (org.javassist:javassist:jar:3.18.1-GA:provided - omitted for duplicate)
+|  |  \- (org.apache.geronimo.specs:geronimo-jta_1.1_spec:jar:1.1.1:provided - omitted for duplicate)
+|  +- org.hibernate:hibernate-java8:jar:5.0.10.Final:provided
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.1.4.GA; omitted for duplicate)
+|  |  \- (org.hibernate:hibernate-core:jar:5.0.10.Final:provided - omitted for duplicate)
+|  +- org.hibernate:hibernate-infinispan:jar:5.0.10.Final:provided
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.1.4.GA; omitted for duplicate)
+|  |  \- (org.infinispan:infinispan-core:jar:8.2.4.Final:provided - version managed from 7.2.5.Final; omitted for duplicate)
+|  +- org.hibernate:hibernate-validator:jar:5.2.4.Final:provided
+|  |  +- (javax.validation:validation-api:jar:1.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.2.1.Final; omitted for duplicate)
+|  |  \- (com.fasterxml:classmate:jar:1.3.1:provided - version managed from 1.1.0; omitted for duplicate)
+|  +- org.hibernate:hibernate-validator-cdi:jar:5.2.4.Final:provided
+|  |  \- (org.hibernate:hibernate-validator:jar:5.2.4.Final:provided - version managed from 5.1.3.Final; omitted for duplicate)
+|  +- org.hibernate:hibernate-envers:jar:5.0.10.Final:provided
+|  |  \- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.2.1.Final; omitted for duplicate)
+|  +- org.hibernate:hibernate-search-engine:jar:5.5.4.Final:provided
+|  |  +- (org.hibernate.common:hibernate-commons-annotations:jar:5.0.1.Final:provided - omitted for duplicate)
+|  |  +- (org.apache.lucene:lucene-core:jar:5.3.1:provided - omitted for duplicate)
+|  |  +- (org.apache.lucene:lucene-backward-codecs:jar:5.3.1:provided - omitted for duplicate)
+|  |  +- (org.apache.lucene:lucene-misc:jar:5.3.1:provided - omitted for duplicate)
+|  |  +- (org.apache.lucene:lucene-analyzers-common:jar:5.3.1:provided - omitted for duplicate)
+|  |  +- (org.apache.lucene:lucene-facet:jar:5.3.1:provided - omitted for duplicate)
+|  |  \- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.2.1.Final; omitted for duplicate)
+|  +- org.hibernate:hibernate-search-orm:jar:5.5.4.Final:provided
+|  +- org.hibernate:hibernate-search-backend-jms:jar:5.5.4.Final:provided
+|  |  \- (org.hibernate:hibernate-search-engine:jar:5.5.4.Final:provided - omitted for duplicate)
+|  +- org.hibernate:hibernate-search-backend-jgroups:jar:5.5.4.Final:provided
+|  |  +- (org.hibernate:hibernate-search-engine:jar:5.5.4.Final:provided - omitted for duplicate)
+|  |  +- (org.jgroups:jgroups:jar:3.6.10.Final:provided - version managed from 3.6.6.Final; omitted for duplicate)
+|  |  \- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.2.1.Final; omitted for duplicate)
+|  +- org.hibernate:hibernate-search-serialization-avro:jar:5.5.4.Final:provided
+|  |  +- (org.hibernate:hibernate-search-engine:jar:5.5.4.Final:provided - omitted for duplicate)
+|  |  +- (org.apache.avro:avro:jar:1.7.6:provided - omitted for duplicate)
+|  |  \- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.2.1.Final; omitted for duplicate)
+|  +- org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final:provided
+|  +- org.hornetq:hornetq-commons:jar:2.4.7.Final:provided
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.1.0.GA; omitted for duplicate)
+|  |  \- (io.netty:netty-all:jar:4.0.33.Final:provided - version managed from 4.0.13.Final; omitted for duplicate)
+|  +- org.hornetq:hornetq-core-client:jar:2.4.7.Final:provided
+|  |  +- (org.jgroups:jgroups:jar:3.6.10.Final:provided - version managed from 3.3.4.Final; omitted for duplicate)
+|  |  +- (org.hornetq:hornetq-commons:jar:2.4.7.Final:provided - omitted for duplicate)
+|  |  +- (org.hornetq:hornetq-journal:jar:2.4.7.Final:provided - omitted for duplicate)
+|  |  \- (io.netty:netty-all:jar:4.0.33.Final:provided - version managed from 4.0.13.Final; omitted for duplicate)
+|  +- org.hornetq:hornetq-jms-client:jar:2.4.7.Final:provided
+|  |  +- (org.hornetq:hornetq-core-client:jar:2.4.7.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.spec.javax.jms:jboss-jms-api_2.0_spec:jar:1.0.0.Final:provided - omitted for duplicate)
+|  |  \- (javax.inject:javax.inject:jar:1:provided - omitted for duplicate)
+|  +- org.hornetq:hornetq-journal:jar:2.4.7.Final:provided
+|  |  +- (org.hornetq:hornetq-commons:jar:2.4.7.Final:provided - omitted for duplicate)
+|  |  \- (org.hornetq:hornetq-native:jar:2.4.7.Final:provided - omitted for duplicate)
+|  +- org.hornetq:hornetq-native:jar:2.4.7.Final:provided
+|  |  \- (org.hornetq:hornetq-commons:jar:2.4.7.Final:provided - omitted for duplicate)
+|  +- org.infinispan:infinispan-cachestore-jdbc:jar:8.2.4.Final:provided
+|  |  \- (org.infinispan:infinispan-core:jar:8.2.4.Final:provided - version managed from 7.2.5.Final; omitted for duplicate)
+|  +- org.infinispan:infinispan-cachestore-remote:jar:8.2.4.Final:provided
+|  |  +- (org.infinispan:infinispan-client-hotrod:jar:8.2.4.Final:provided - omitted for duplicate)
+|  |  \- (org.infinispan:infinispan-core:jar:8.2.4.Final:provided - version managed from 7.2.5.Final; omitted for duplicate)
+|  +- org.infinispan:infinispan-client-hotrod:jar:8.2.4.Final:provided
+|  |  \- (org.infinispan:infinispan-commons:jar:8.2.4.Final:provided - omitted for duplicate)
+|  +- org.infinispan:infinispan-commons:jar:8.2.4.Final:provided
+|  +- org.infinispan:infinispan-core:jar:8.2.4.Final:provided
+|  |  \- (org.infinispan:infinispan-commons:jar:8.2.4.Final:provided - omitted for duplicate)
+|  +- org.javassist:javassist:jar:3.18.1-GA:provided
+|  +- org.jasypt:jasypt:jar:1.9.1:provided
+|  +- org.jberet:jberet-core:jar:1.2.1.Final:provided
+|  +- org.jboss:jboss-iiop-client:jar:1.0.0.Final:provided
+|  +- org.wildfly:wildfly-appclient:jar:10.1.0.Final:provided
+|  |  +- (org.wildfly:wildfly-connector:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-ee:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-security:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.security:wildfly-elytron:jar:1.0.2.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-server:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-transactions:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-ejb3:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-webservices-server-integration:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.metadata:jboss-metadata-ejb:jar:10.0.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss:jboss-ejb-client:jar:2.1.4.Final:provided - version managed from 2.0.0.Final; omitted for duplicate)
+|  |  +- (org.jboss.ejb3:jboss-ejb3-ext-api:jar:2.2.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.marshalling:jboss-marshalling:jar:1.4.11.Final:provided - version managed from 1.4.3.Final; omitted for duplicate)
+|  |  +- (org.jboss.marshalling:jboss-marshalling-river:jar:1.4.11.Final:provided - version managed from 1.4.3.Final; omitted for duplicate)
+|  |  +- (org.jboss.metadata:jboss-metadata-appclient:jar:10.0.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.remoting:jboss-remoting:jar:4.0.21.Final:provided - version managed from 4.0.5.Final; omitted for duplicate)
+|  |  +- (org.jboss.sasl:jboss-sasl:jar:1.0.5.Final:provided - version managed from 1.0.4.Final; omitted for duplicate)
+|  |  +- (org.jboss.spec.javax.jms:jboss-jms-api_2.0_spec:jar:1.0.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.spec.javax.xml.rpc:jboss-jaxrpc-api_1.1_spec:jar:1.0.1.Final:provided - omitted for duplicate)
+|  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  +- org.wildfly.core:wildfly-cli:jar:client:2.2.1.Final:provided (version managed from 2.2.0.Final)
+|  |  +- (org.jboss.aesh:aesh:jar:0.66.8:provided - omitted for duplicate)
+|  |  +- (org.jboss:staxmapper:jar:1.2.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.modules:jboss-modules:jar:1.5.2.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-controller-client:jar:2.2.1.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-embedded:jar:2.2.1.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.msc:jboss-msc:jar:1.2.6.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.security:wildfly-elytron:jar:1.0.2.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.1.0.GA; omitted for duplicate)
+|  |  +- (org.jboss.sasl:jboss-sasl:jar:1.0.5.Final:provided - version managed from 1.0.4.Final; omitted for duplicate)
+|  |  +- (org.jboss.remoting:jboss-remoting:jar:4.0.21.Final:provided - version managed from 4.0.5.Final; omitted for duplicate)
+|  |  +- (org.jboss.remotingjmx:remoting-jmx:jar:2.0.1.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss:jboss-vfs:jar:3.2.12.Final:provided - omitted for duplicate)
+|  |  \- (org.jboss.stdio:jboss-stdio:jar:1.0.2.GA:provided - omitted for duplicate)
+|  +- (org.wildfly.core:wildfly-version:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  +- org.wildfly:wildfly-client-all:jar:10.1.0.Final:provided
+|  |  +- org.wildfly:wildfly-ejb-client-bom:pom:10.1.0.Final:provided
+|  |  |  +- (org.jboss:jboss-ejb-client:jar:2.1.4.Final:provided - version managed from 2.0.0.Final; omitted for duplicate)
+|  |  |  +- (org.jboss:jboss-remote-naming:jar:2.0.4.Final:provided - omitted for duplicate)
+|  |  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.1.0.GA; omitted for duplicate)
+|  |  |  +- (org.jboss.marshalling:jboss-marshalling:jar:1.4.11.Final:provided - version managed from 1.4.3.Final; omitted for duplicate)
+|  |  |  +- (org.jboss.marshalling:jboss-marshalling-river:jar:1.4.11.Final:provided - version managed from 1.4.3.Final; omitted for duplicate)
+|  |  |  +- (org.jboss.remoting:jboss-remoting:jar:4.0.21.Final:provided - version managed from 4.0.5.Final; omitted for duplicate)
+|  |  |  +- (org.jboss.sasl:jboss-sasl:jar:1.0.5.Final:provided - version managed from 1.0.4.Final; omitted for duplicate)
+|  |  |  +- (org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.0.0.Final:provided - omitted for duplicate)
+|  |  |  +- (org.jboss.spec.javax.ejb:jboss-ejb-api_3.2_spec:jar:1.0.0.Final:provided - omitted for duplicate)
+|  |  |  +- (org.jboss.xnio:xnio-api:jar:3.4.3.Final:provided - version managed from 3.4.0.Final; omitted for duplicate)
+|  |  |  +- (org.jboss.xnio:xnio-nio:jar:3.4.3.Final:provided - version managed from 3.4.0.Final; omitted for duplicate)
+|  |  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  |  +- org.wildfly:wildfly-jms-client-bom:pom:10.1.0.Final:provided
+|  |  |  +- (commons-beanutils:commons-beanutils:jar:1.9.2:provided - omitted for duplicate)
+|  |  |  +- (io.netty:netty-all:jar:4.0.33.Final:provided - version managed from 4.0.13.Final; omitted for duplicate)
+|  |  |  +- (org.apache.activemq:artemis-commons:jar:1.1.0.wildfly-017:provided - omitted for duplicate)
+|  |  |  +- (org.apache.activemq:artemis-core-client:jar:1.1.0.wildfly-017:provided - omitted for duplicate)
+|  |  |  +- (org.apache.activemq:artemis-hqclient-protocol:jar:1.1.0.wildfly-017:provided - omitted for duplicate)
+|  |  |  +- (org.apache.activemq:artemis-jms-client:jar:1.1.0.wildfly-017:provided - omitted for duplicate)
+|  |  |  +- (org.jboss:jboss-remote-naming:jar:2.0.4.Final:provided - omitted for duplicate)
+|  |  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.1.0.GA; omitted for duplicate)
+|  |  |  +- (org.jboss.marshalling:jboss-marshalling:jar:1.4.11.Final:provided - version managed from 1.4.3.Final; omitted for duplicate)
+|  |  |  +- (org.jboss.marshalling:jboss-marshalling-river:jar:1.4.11.Final:provided - version managed from 1.4.3.Final; omitted for duplicate)
+|  |  |  +- (org.jboss.remoting:jboss-remoting:jar:4.0.21.Final:provided - version managed from 4.0.5.Final; omitted for duplicate)
+|  |  |  +- (org.jboss.sasl:jboss-sasl:jar:1.0.5.Final:provided - version managed from 1.0.4.Final; omitted for duplicate)
+|  |  |  +- (org.jboss.spec.javax.jms:jboss-jms-api_2.0_spec:jar:1.0.0.Final:provided - omitted for duplicate)
+|  |  |  +- (org.jboss.xnio:xnio-api:jar:3.4.3.Final:provided - version managed from 3.4.0.Final; omitted for duplicate)
+|  |  |  +- (org.jboss.xnio:xnio-nio:jar:3.4.3.Final:provided - version managed from 3.4.0.Final; omitted for duplicate)
+|  |  |  +- (org.jgroups:jgroups:jar:3.6.10.Final:provided - version managed from 3.3.4.Final; omitted for duplicate)
+|  |  |  +- (org.slf4j:jcl-over-slf4j:jar:1.7.22:provided - version managed from 1.7.7.jbossorg-1; omitted for duplicate)
+|  |  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  +- org.wildfly:wildfly-clustering-api:jar:10.1.0.Final:provided
+|  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  +- org.wildfly:wildfly-clustering-common:jar:10.1.0.Final:provided
+|  |  +- (org.wildfly:wildfly-clustering-service:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-naming:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  +- org.wildfly:wildfly-clustering-ee-infinispan:jar:10.1.0.Final:provided
+|  |  +- (org.wildfly:wildfly-clustering-ee-spi:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.infinispan:infinispan-core:jar:8.2.4.Final:provided - version managed from 7.2.5.Final; omitted for duplicate)
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.1.0.GA; omitted for duplicate)
+|  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  +- org.wildfly:wildfly-clustering-ee-spi:jar:10.1.0.Final:provided
+|  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  +- org.wildfly:wildfly-clustering-ejb-infinispan:jar:10.1.0.Final:provided
+|  |  +- (org.wildfly:wildfly-clustering-api:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-clustering-ee-infinispan:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-clustering-marshalling-jboss:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-clustering-ejb-spi:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-clustering-infinispan-spi:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-clustering-spi:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-server:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  +- org.wildfly:wildfly-clustering-ejb-spi:jar:10.1.0.Final:provided
+|  |  +- (org.wildfly:wildfly-clustering-ee-spi:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-clustering-service:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss:jboss-ejb-client:jar:2.1.4.Final:provided - version managed from 2.0.0.Final; omitted for duplicate)
+|  |  +- (org.jboss.modules:jboss-modules:jar:1.5.2.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.msc:jboss-msc:jar:1.2.6.Final:provided - omitted for duplicate)
+|  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  +- org.wildfly:wildfly-clustering-infinispan-extension:jar:10.1.0.Final:provided
+|  |  +- (org.wildfly:wildfly-clustering-ee-infinispan:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-clustering-jgroups-extension:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-clustering-infinispan-spi:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-clustering-marshalling-api:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-clustering-spi:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-ee:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-jmx:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-threads:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-transactions:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.infinispan:infinispan-cachestore-jdbc:jar:8.2.4.Final:provided - omitted for duplicate)
+|  |  +- (org.infinispan:infinispan-cachestore-remote:jar:8.2.4.Final:provided - omitted for duplicate)
+|  |  +- (net.jcip:jcip-annotations:jar:1.0:provided - omitted for duplicate)
+|  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  +- org.wildfly:wildfly-clustering-infinispan-spi:jar:10.1.0.Final:provided
+|  |  +- (org.wildfly:wildfly-clustering-marshalling-api:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-clustering-service:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.security:wildfly-elytron:jar:1.0.2.Final:provided - omitted for duplicate)
+|  |  +- (org.infinispan:infinispan-core:jar:8.2.4.Final:provided - version managed from 7.2.5.Final; omitted for duplicate)
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.1.0.GA; omitted for duplicate)
+|  |  +- (org.jboss.msc:jboss-msc:jar:1.2.6.Final:provided - omitted for duplicate)
+|  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  +- org.wildfly:wildfly-clustering-jgroups-api:jar:10.1.0.Final:provided
+|  |  +- (org.jgroups:jgroups:jar:3.6.10.Final:provided - version managed from 3.3.4.Final; omitted for duplicate)
+|  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  +- org.wildfly:wildfly-clustering-jgroups-extension:jar:10.1.0.Final:provided
+|  |  +- (org.wildfly:wildfly-clustering-common:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-clustering-spi:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-clustering-jgroups-spi:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-jmx:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-network:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-server:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  +- (org.jgroups:jgroups:jar:3.6.10.Final:provided - version managed from 3.3.4.Final; omitted for duplicate)
+|  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  +- org.wildfly:wildfly-clustering-jgroups-spi:jar:10.1.0.Final:provided
+|  |  +- (org.wildfly:wildfly-clustering-jgroups-api:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-clustering-service:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-network:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.1.0.GA; omitted for duplicate)
+|  |  +- (org.jboss.modules:jboss-modules:jar:1.5.2.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.msc:jboss-msc:jar:1.2.6.Final:provided - omitted for duplicate)
+|  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  +- org.wildfly:wildfly-clustering-marshalling-api:jar:10.1.0.Final:provided
+|  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  +- org.wildfly:wildfly-clustering-marshalling-jboss:jar:10.1.0.Final:provided
+|  |  +- (org.wildfly:wildfly-clustering-marshalling-api:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.marshalling:jboss-marshalling:jar:1.4.11.Final:provided - version managed from 1.4.3.Final; omitted for duplicate)
+|  |  +- (org.jboss.modules:jboss-modules:jar:1.5.2.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.security:wildfly-elytron:jar:1.0.2.Final:provided - omitted for duplicate)
+|  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  +- org.wildfly:wildfly-clustering-server:jar:10.1.0.Final:provided
+|  |  +- (org.wildfly:wildfly-clustering-api:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-clustering-common:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-clustering-ee-infinispan:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-clustering-spi:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-clustering-infinispan-spi:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-clustering-jgroups-spi:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-clustering-marshalling-jboss:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-clustering-singleton-api:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-server:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  +- org.wildfly:wildfly-clustering-service:jar:10.1.0.Final:provided
+|  |  +- (org.jboss.msc:jboss-msc:jar:1.2.6.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.threads:jboss-threads:jar:2.2.1.Final:provided - version managed from 2.1.1.Final; omitted for duplicate)
+|  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  +- org.wildfly:wildfly-clustering-singleton-api:jar:10.1.0.Final:provided
+|  |  +- (org.wildfly:wildfly-clustering-api:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-clustering-service:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  +- org.wildfly:wildfly-clustering-singleton-extension:jar:10.1.0.Final:provided
+|  |  +- (org.wildfly:wildfly-clustering-common:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-clustering-singleton-api:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-clustering-spi:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-ee:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  +- org.wildfly:wildfly-clustering-spi:jar:10.1.0.Final:provided
+|  |  +- (org.jboss.modules:jboss-modules:jar:1.5.2.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-clustering-service:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  +- org.wildfly:wildfly-clustering-web-api:jar:10.1.0.Final:provided
+|  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  +- org.wildfly:wildfly-clustering-web-infinispan:jar:10.1.0.Final:provided
+|  |  +- (net.jcip:jcip-annotations:jar:1.0:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-clustering-api:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-clustering-ee-infinispan:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-clustering-infinispan-spi:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-clustering-marshalling-jboss:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-clustering-spi:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-clustering-web-api:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-clustering-web-spi:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.security:wildfly-elytron:jar:1.0.2.Final:provided - omitted for duplicate)
+|  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  +- org.wildfly:wildfly-clustering-web-spi:jar:10.1.0.Final:provided
+|  |  +- (org.wildfly:wildfly-clustering-ee-spi:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-clustering-service:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.modules:jboss-modules:jar:1.5.2.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.spec.javax.servlet:jboss-servlet-api_3.1_spec:jar:1.0.0.Final:provided - omitted for duplicate)
+|  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  +- org.wildfly:wildfly-clustering-web-undertow:jar:10.1.0.Final:provided
+|  |  +- (org.wildfly:wildfly-clustering-web-api:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-clustering-web-spi:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-undertow:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  +- org.wildfly:wildfly-cmp:jar:10.1.0.Final:provided
+|  |  +- (org.wildfly.core:wildfly-controller:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.1.0.GA; omitted for duplicate)
+|  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  +- org.wildfly:wildfly-configadmin:jar:10.1.0.Final:provided
+|  |  +- (org.wildfly.core:wildfly-server:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  +- org.jboss.hal:release-stream:jar:resources:2.8.27.Final:provided
+|  +- org.wildfly:wildfly-batch:jar:10.1.0.Final:provided
+|  |  +- (org.wildfly:wildfly-jberet:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-batch-jberet:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-controller:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-server:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-threads:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-transactions:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jberet:jberet-core:jar:1.2.1.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.1.0.GA; omitted for duplicate)
+|  |  +- (org.jboss.msc:jboss-msc:jar:1.2.6.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-ee:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.security:wildfly-elytron:jar:1.0.2.Final:provided - omitted for duplicate)
+|  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  +- org.wildfly:wildfly-batch-jberet:jar:10.1.0.Final:provided
+|  |  +- (org.wildfly:wildfly-jberet:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-controller:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-server:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-threads:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-transactions:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jberet:jberet-core:jar:1.2.1.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.1.0.GA; omitted for duplicate)
+|  |  +- (org.jboss.msc:jboss-msc:jar:1.2.6.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-ee:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.security:wildfly-elytron:jar:1.0.2.Final:provided - omitted for duplicate)
+|  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  +- org.wildfly:wildfly-bean-validation:jar:10.1.0.Final:provided
+|  |  +- (javax.validation:validation-api:jar:1.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.hibernate:hibernate-validator:jar:5.2.4.Final:provided - version managed from 5.1.3.Final; omitted for duplicate)
+|  |  +- (org.jboss.msc:jboss-msc:jar:1.2.6.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.1.0.GA; omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-ee:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-server:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-naming:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.security:wildfly-elytron:jar:1.0.2.Final:provided - omitted for duplicate)
+|  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  +- org.wildfly:wildfly-jberet:jar:10.1.0.Final:provided
+|  |  +- (javax.enterprise:cdi-api:jar:1.2:provided - version managed from 1.1; omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-naming:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.spec.javax.batch:jboss-batch-api_1.0_spec:jar:1.0.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.0.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jberet:jberet-core:jar:1.2.1.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.1.0.GA; omitted for duplicate)
+|  |  +- (org.jboss.msc:jboss-msc:jar:1.2.6.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-ee:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.security:wildfly-elytron:jar:1.0.2.Final:provided - omitted for duplicate)
+|  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  +- org.wildfly:wildfly-connector:jar:10.1.0.Final:provided
+|  |  +- (org.wildfly.core:wildfly-server:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-clustering-jgroups-spi:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-ee:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-naming:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-transactions:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-threads:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-security:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.threads:jboss-threads:jar:2.2.1.Final:provided - version managed from 2.1.1.Final; omitted for duplicate)
+|  |  +- (org.jboss.ironjacamar:ironjacamar-core-api:jar:1.3.4.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.ironjacamar:ironjacamar-core-impl:jar:1.3.4.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.ironjacamar:ironjacamar-common-api:jar:1.3.4.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.ironjacamar:ironjacamar-common-spi:jar:1.3.4.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.ironjacamar:ironjacamar-common-impl:jar:1.3.4.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.ironjacamar:ironjacamar-deployers-common:jar:1.3.4.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.ironjacamar:ironjacamar-jdbc:jar:1.3.4.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.ironjacamar:ironjacamar-validator:jar:1.3.4.Final:provided - omitted for duplicate)
+|  |  +- (javax.validation:validation-api:jar:1.1.0.Final:provided - omitted for duplicate)
+|  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  +- org.wildfly:wildfly-ejb3:jar:10.1.0.Final:provided
+|  |  +- (org.jboss.common:jboss-common-beans:jar:2.0.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-connector:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-controller:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-clustering-api:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-clustering-common:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-clustering-ejb-spi:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-clustering-marshalling-jboss:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-clustering-singleton-api:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-ee:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-iiop-openjdk:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-request-controller:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-security:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.security:wildfly-elytron:jar:1.0.2.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-transactions:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.classfilewriter:jboss-classfilewriter:jar:1.1.2.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss:jboss-ejb-client:jar:2.1.4.Final:provided - version managed from 2.0.0.Final; omitted for duplicate)
+|  |  +- (org.jboss:jboss-iiop-client:jar:1.0.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.1.0.GA; omitted for duplicate)
+|  |  +- (org.jboss.metadata:jboss-metadata-ejb:jar:10.0.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.ejb3:jboss-ejb3-ext-api:jar:2.2.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.marshalling:jboss-marshalling:jar:1.4.11.Final:provided - version managed from 1.4.3.Final; omitted for duplicate)
+|  |  +- (org.jboss.marshalling:jboss-marshalling-river:jar:1.4.11.Final:provided - version managed from 1.4.3.Final; omitted for duplicate)
+|  |  +- (org.jboss.spec.javax.ejb:jboss-ejb-api_3.2_spec:jar:1.0.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.spec.javax.jms:jboss-jms-api_2.0_spec:jar:1.0.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.spec.javax.xml.rpc:jboss-jaxrpc-api_1.1_spec:jar:1.0.1.Final:provided - omitted for duplicate)
+|  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  +- org.wildfly:wildfly-jaxr:jar:10.1.0.Final:provided
+|  |  +- (org.wildfly.core:wildfly-controller:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.1.0.GA; omitted for duplicate)
+|  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  +- org.wildfly:wildfly-jaxrs:jar:10.1.0.Final:provided
+|  |  +- (org.wildfly:wildfly-naming:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-ee:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.security:wildfly-elytron:jar:1.0.2.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-server:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-web-common:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-undertow:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.1.0.GA; omitted for duplicate)
+|  |  +- (org.jboss.msc:jboss-msc:jar:1.2.6.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.resteasy:resteasy-cdi:jar:3.0.19.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.spec.javax.ws.rs:jboss-jaxrs-api_2.0_spec:jar:1.0.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.resteasy:resteasy-crypto:jar:3.0.19.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.resteasy:resteasy-jaxrs:jar:3.0.19.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.resteasy:async-http-servlet-3.0:jar:3.0.19.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.spec.javax.annotation:jboss-annotations-api_1.2_spec:jar:1.0.0.Final:provided - omitted for duplicate)
+|  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  +- org.wildfly:wildfly-jdr:jar:10.1.0.Final:provided
+|  |  +- (commons-cli:commons-cli:jar:1.2:provided - omitted for duplicate)
+|  |  +- (xalan:xalan:jar:2.7.1.jbossorg-2:provided - version managed from 2.7.0; omitted for duplicate)
+|  |  +- (commons-io:commons-io:jar:2.4:provided - version managed from 2.1; omitted for duplicate)
+|  |  +- (org.jboss.msc:jboss-msc:jar:1.2.6.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-network:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-server:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-controller:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-cli:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-threads:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  +- org.wildfly:wildfly-jsf:jar:10.1.0.Final:provided
+|  |  +- (org.wildfly.core:wildfly-controller:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-ee:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-weld:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-server:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-web-common:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.metadata:jboss-metadata-web:jar:10.0.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.spec.javax.servlet:jboss-servlet-api_3.1_spec:jar:1.0.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.spec.javax.faces:jboss-jsf-api_2.2_spec:jar:2.2.13:provided - omitted for duplicate)
+|  |  +- (com.sun.faces:jsf-impl:jar:2.2.13.SP1:provided - omitted for duplicate)
+|  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  +- org.wildfly:wildfly-jsf-injection:jar:10.1.0.Final:provided
+|  |  +- (org.wildfly:wildfly-jsf:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (com.sun.faces:jsf-impl:jar:2.2.13.SP1:provided - omitted for duplicate)
+|  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  +- org.wildfly:wildfly-jsr77:jar:10.1.0.Final:provided
+|  |  +- (org.jboss:jboss-ejb-client:jar:2.1.4.Final:provided - version managed from 2.0.0.Final; omitted for duplicate)
+|  |  +- (org.jboss.msc:jboss-msc:jar:1.2.6.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-ejb3:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-server:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  +- (org.jboss.spec.javax.management.j2ee:jboss-j2eemgmt-api_1.1_spec:jar:1.0.1.Final:provided - omitted for duplicate)
+|  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  +- org.wildfly:wildfly-iiop-openjdk:jar:10.1.0.Final:provided
+|  |  +- (org.jboss.openjdk-orb:openjdk-orb:jar:8.0.6.Final:provided - version managed from 8.0.4.Final; omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-server:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-naming:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-network:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  +- (org.jboss.narayana.jts:narayana-jts-idlj:jar:5.3.3.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.metadata:jboss-metadata-common:jar:10.0.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.metadata:jboss-metadata-ejb:jar:10.0.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.0.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.1.0.GA; omitted for duplicate)
+|  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  +- org.wildfly:wildfly-jacorb:jar:10.1.0.Final:provided
+|  |  +- (org.wildfly.core:wildfly-server:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-iiop-openjdk:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.openjdk-orb:openjdk-orb:jar:8.0.6.Final:provided - version managed from 8.0.4.Final; omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-naming:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-network:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  +- (org.jboss.metadata:jboss-metadata-common:jar:10.0.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.spec.javax.rmi:jboss-rmi-api_1.0_spec:jar:1.0.4.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.metadata:jboss-metadata-ejb:jar:10.0.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.0.0.Final:provided - omitted for duplicate)
+|  |  +- (org.picketbox:picketbox:jar:4.9.6.Final:provided - version managed from 4.0.20.Final; omitted for duplicate)
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.1.0.GA; omitted for duplicate)
+|  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  +- org.wildfly:wildfly-mail:jar:10.1.0.Final:provided
+|  |  +- (org.wildfly.core:wildfly-controller:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-ee:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-server:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-naming:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-network:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.1.0.GA; omitted for duplicate)
+|  |  +- (com.sun.mail:javax.mail:jar:1.5.5:provided - omitted for duplicate)
+|  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  +- org.wildfly:wildfly-messaging:jar:10.1.0.Final:provided
+|  |  +- (org.jboss.msc:jboss-msc:jar:1.2.6.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-cli:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-controller:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  +- (org.wildfly.security:wildfly-elytron:jar:1.0.2.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.spec.javax.jms:jboss-jms-api_2.0_spec:jar:1.0.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-connector:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-naming:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-network:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-transactions:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-clustering-jgroups-spi:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-web-common:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-weld:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.common:jboss-common-beans:jar:2.0.0.Final:provided - omitted for duplicate)
+|  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  +- org.wildfly:wildfly-messaging-activemq:jar:10.1.0.Final:provided
+|  |  +- (org.jboss.msc:jboss-msc:jar:1.2.6.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-cli:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-controller:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  +- (org.wildfly.security:wildfly-elytron:jar:1.0.2.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.activemq.artemis.integration:artemis-wildfly-integration:jar:1.0.2:provided - omitted for duplicate)
+|  |  +- (org.apache.activemq:artemis-core-client:jar:1.1.0.wildfly-017:provided - omitted for duplicate)
+|  |  +- (org.apache.activemq:artemis-server:jar:1.1.0.wildfly-017:provided - omitted for duplicate)
+|  |  +- (org.apache.activemq:artemis-cli:jar:1.1.0.wildfly-017:provided - omitted for duplicate)
+|  |  +- (org.apache.activemq:artemis-commons:jar:1.1.0.wildfly-017:provided - omitted for duplicate)
+|  |  +- (org.apache.activemq:artemis-dto:jar:1.1.0.wildfly-017:provided - omitted for duplicate)
+|  |  +- (org.apache.activemq:artemis-journal:jar:1.1.0.wildfly-017:provided - omitted for duplicate)
+|  |  +- (org.apache.activemq:artemis-jms-client:jar:1.1.0.wildfly-017:provided - omitted for duplicate)
+|  |  +- (org.apache.activemq:artemis-jms-server:jar:1.1.0.wildfly-017:provided - omitted for duplicate)
+|  |  +- (org.apache.activemq:artemis-ra:jar:1.1.0.wildfly-017:provided - omitted for duplicate)
+|  |  +- (org.hornetq:hornetq-jms-client:jar:2.4.7.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.spec.javax.jms:jboss-jms-api_2.0_spec:jar:1.0.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-connector:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-naming:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-network:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-transactions:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-clustering-jgroups-spi:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-web-common:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-weld:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.ironjacamar:ironjacamar-common-api:jar:1.3.4.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.ironjacamar:ironjacamar-common-impl:jar:1.3.4.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.common:jboss-common-beans:jar:2.0.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.xnio.netty:netty-xnio-transport:jar:0.1.1.Final:provided - omitted for duplicate)
+|  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  +- org.wildfly:wildfly-mod_cluster-extension:jar:10.1.0.Final:provided
+|  |  +- (org.jboss.common:jboss-common-beans:jar:2.0.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.msc:jboss-msc:jar:1.2.6.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-clustering-common:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-controller:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-server:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  +- (org.jboss.mod_cluster:mod_cluster-core:jar:1.3.3.Final:provided - omitted for duplicate)
+|  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  +- org.wildfly:wildfly-mod_cluster-undertow:jar:10.1.0.Final:provided
+|  |  +- (org.wildfly:wildfly-mod_cluster-extension:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-undertow:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  +- org.wildfly:wildfly-pojo:jar:10.1.0.Final:provided
+|  |  +- (org.jboss:jboss-vfs:jar:3.2.12.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.msc:jboss-msc:jar:1.2.6.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-controller:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  +- (org.wildfly.security:wildfly-elytron:jar:1.0.2.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.common:jboss-common-beans:jar:2.0.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-server:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.1.0.GA; omitted for duplicate)
+|  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  +- org.wildfly:wildfly-sar:jar:10.1.0.Final:provided
+|  |  +- (org.jboss:jboss-vfs:jar:3.2.12.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.1.0.GA; omitted for duplicate)
+|  |  +- (org.jboss.common:jboss-common-beans:jar:2.0.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.metadata:jboss-metadata-common:jar:10.0.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.msc:jboss-msc:jar:1.2.6.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-ee:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.security:wildfly-elytron:jar:1.0.2.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-server:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-jmx:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  +- org.wildfly:wildfly-transactions:jar:10.1.0.Final:provided
+|  |  +- (org.wildfly.core:wildfly-controller:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-ee:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-iiop-openjdk:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.openjdk-orb:openjdk-orb:jar:8.0.6.Final:provided - version managed from 8.0.4.Final; omitted for duplicate)
+|  |  +- (org.jboss:jboss-transaction-spi:jar:7.3.0.Final:provided - version managed from 7.2.0.Final; omitted for duplicate)
+|  |  +- (org.jboss.narayana.jts:narayana-jts-idlj:jar:5.3.3.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.narayana.jts:narayana-jts-integration:jar:5.3.3.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.narayana.compensations:compensations:jar:5.3.3.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.spec.javax.resource:jboss-connector-api_1.7_spec:jar:1.0.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.0.0.Final:provided - omitted for duplicate)
+|  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  +- org.wildfly:wildfly-web:jar:10.1.0.Final:provided
+|  |  +- (org.wildfly.core:wildfly-controller:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-undertow:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.1.0.GA; omitted for duplicate)
+|  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  +- org.wildfly:wildfly-weld:jar:10.1.0.Final:provided
+|  |  +- (javax.validation:validation-api:jar:1.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.hibernate:hibernate-validator-cdi:jar:5.2.4.Final:provided - omitted for duplicate)
+|  |  +- (org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-ee:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-ejb3:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-jpa:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-naming:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.security:wildfly-elytron:jar:1.0.2.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-server:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-transactions:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-web-common:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-webservices-server-integration:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.metadata:jboss-metadata-web:jar:10.0.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.1.0.GA; omitted for duplicate)
+|  |  +- (org.jboss.msc:jboss-msc:jar:1.2.6.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.threads:jboss-threads:jar:2.2.1.Final:provided - version managed from 2.1.1.Final; omitted for duplicate)
+|  |  +- (org.jboss.spec.javax.annotation:jboss-annotations-api_1.2_spec:jar:1.0.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.spec.javax.el:jboss-el-api_3.0_spec:jar:1.0.7.Final:provided - version managed from 1.0.4.Final; omitted for duplicate)
+|  |  +- (org.jboss.spec.javax.servlet:jboss-servlet-api_3.1_spec:jar:1.0.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.spec.javax.servlet.jsp:jboss-jsp-api_2.3_spec:jar:1.0.1.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.0.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.weld:weld-api:jar:2.3.SP2:provided - omitted for duplicate)
+|  |  +- (org.jboss.weld:weld-core-impl:jar:2.3.5.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.weld:weld-spi:jar:2.3.SP2:provided - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:18.0:provided - version managed from 13.0.1; omitted for duplicate)
+|  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  +- org.wildfly:wildfly-webservices-server-integration:jar:10.1.0.Final:provided
+|  |  +- (org.jboss.msc:jboss-msc:jar:1.2.6.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.security:wildfly-elytron:jar:1.0.2.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-jmx:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-server:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-ee:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-ejb3:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-web-common:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.ws:jbossws-api:jar:1.0.3.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.1.0.GA; omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-undertow:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.ws:jbossws-common:jar:3.1.3.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.ws:jbossws-spi:jar:3.1.2.Final:provided - omitted for duplicate)
+|  |  +- (javax.jws:jsr181-api:jar:1.0-MR1:provided - omitted for duplicate)
+|  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  +- org.wildfly:wildfly-xts:jar:10.1.0.Final:provided
+|  |  +- (org.wildfly:wildfly-ee:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-server:jar:2.2.1.Final:provided - version managed from 2.2.0.Final; omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-transactions:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-webservices-server-integration:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-security:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.narayana.jts:narayana-jts-idlj:jar:5.3.3.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.narayana.xts:jbossxts:jar:5.3.3.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.narayana.xts:jbossxts:jar:api:5.3.3.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.narayana:jbosstxbridge:jar:5.3.3.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.ws:jbossws-spi:jar:3.1.2.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - version managed from 3.1.0.GA; omitted for duplicate)
+|  |  +- (org.jboss.narayana.compensations:compensations:jar:5.3.3.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.narayana.txframework:txframework:jar:5.3.3.Final:provided - omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-weld:jar:10.1.0.Final:provided - omitted for duplicate)
+|  |  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
+|  +- org.jboss.ws.cxf:jbossws-cxf-transports-undertow:jar:5.1.5.Final:provided
+|  |  +- (org.apache.cxf:cxf-rt-transports-http:jar:3.1.6:provided - omitted for duplicate)
+|  |  \- (org.jboss.spec.javax.xml.ws:jboss-jaxws-api_2.2_spec:jar:2.0.3.Final:provided - version managed from 2.0.2.Final; omitted for duplicate)
+|  +- org.jboss.ws.projects:jaxws-undertow-httpspi:jar:1.0.1.Final:provided
+|  |  +- (org.jboss.spec.javax.xml.ws:jboss-jaxws-api_2.2_spec:jar:2.0.3.Final:provided - version managed from 2.0.2.Final; omitted for duplicate)
+|  |  \- (io.undertow:undertow-core:jar:1.4.11.Final:provided - version managed from 1.0.10.Final; omitted for duplicate)
+|  +- org.picketlink:picketlink-idm-simple-schema:jar:2.5.5.SP2:provided
+|  +- org.picketlink.distribution:picketlink-wildfly8:jar:2.5.5.SP2:provided
+|  \- (org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.4.Final:provided - omitted for duplicate)
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.easytesting:fest-assert:jar:1.4:test
+|  \- org.easytesting:fest-util:jar:1.1.6:test
++- org.mockito:mockito-core:jar:2.2.28:test
+|  +- net.bytebuddy:byte-buddy:jar:1.5.5:test
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.5.5:test
+|  \- org.objenesis:objenesis:jar:2.4:test
+\- org.wildfly.swarm:build-resources:jar:2017.10.2:test

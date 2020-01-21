@@ -1,0 +1,239 @@
+de.unistuttgart.ims:de.unistuttgart.ims.drama.core:jar:1.0.0
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.apache.uima:uimafit-core:jar:2.2.0:compile
+|  +- commons-lang:commons-lang:jar:2.6:compile
+|  +- commons-io:commons-io:jar:2.5:compile (version managed from 2.2)
+|  +- commons-logging:commons-logging-api:jar:1.1:compile
+|  +- org.apache.uima:uimaj-core:jar:2.8.1:compile
+|  +- org.springframework:spring-core:jar:3.2.16.RELEASE:compile
+|  |  \- commons-logging:commons-logging:jar:1.1.3:compile
+|  +- org.springframework:spring-context:jar:3.2.16.RELEASE:compile
+|  |  +- org.springframework:spring-aop:jar:3.2.16.RELEASE:compile
+|  |  |  +- aopalliance:aopalliance:jar:1.0:compile
+|  |  |  +- (org.springframework:spring-beans:jar:3.2.16.RELEASE:compile - omitted for duplicate)
+|  |  |  \- (org.springframework:spring-core:jar:3.2.16.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-beans:jar:3.2.16.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-core:jar:3.2.16.RELEASE:compile - omitted for duplicate)
+|  |  \- org.springframework:spring-expression:jar:3.2.16.RELEASE:compile
+|  |     \- (org.springframework:spring-core:jar:3.2.16.RELEASE:compile - omitted for duplicate)
+|  \- org.springframework:spring-beans:jar:3.2.16.RELEASE:compile
+|     \- (org.springframework:spring-core:jar:3.2.16.RELEASE:compile - omitted for duplicate)
++- de.tudarmstadt.ukp.dkpro.core:de.tudarmstadt.ukp.dkpro.core.languagetool-asl:jar:1.7.0:test
+|  +- (org.apache.uima:uimaj-core:jar:2.8.1:test - version managed from 2.6.0; omitted for duplicate)
+|  +- (org.apache.uima:uimafit-core:jar:2.2.0:test - version managed from 2.1.0; omitted for duplicate)
+|  +- de.tudarmstadt.ukp.dkpro.core:de.tudarmstadt.ukp.dkpro.core.api.anomaly-asl:jar:1.7.0:test
+|  |  \- (org.apache.uima:uimaj-core:jar:2.8.1:test - version managed from 2.6.0; omitted for duplicate)
+|  +- (de.tudarmstadt.ukp.dkpro.core:de.tudarmstadt.ukp.dkpro.core.api.resources-asl:jar:1.7.0:compile - scope updated from test; omitted for duplicate)
+|  +- (de.tudarmstadt.ukp.dkpro.core:de.tudarmstadt.ukp.dkpro.core.api.lexmorph-asl:jar:1.7.0:compile - scope updated from test; omitted for duplicate)
+|  +- (de.tudarmstadt.ukp.dkpro.core:de.tudarmstadt.ukp.dkpro.core.api.segmentation-asl:jar:1.7.0:test - omitted for duplicate)
+|  +- de.tudarmstadt.ukp.dkpro.core:de.tudarmstadt.ukp.dkpro.core.api.frequency-asl:jar:1.7.0:test
+|  |  +- it.unimi.dsi:fastutil:jar:6.5.13:test
+|  |  +- com.google.guava:guava:jar:16.0.1:test
+|  |  +- (org.apache.uima:uimafit-core:jar:2.2.0:test - version managed from 2.1.0; omitted for duplicate)
+|  |  \- (org.apache.uima:uimaj-core:jar:2.8.1:test - version managed from 2.6.0; omitted for duplicate)
+|  +- org.languagetool:languagetool-core:jar:2.7:test
+|  |  +- (commons-lang:commons-lang:jar:2.6:test - omitted for duplicate)
+|  |  +- net.java.dev.jna:jna:jar:4.1.0:test
+|  |  +- org.carrot2:morfologik-fsa:jar:1.9.0:test
+|  |  +- org.carrot2:morfologik-speller:jar:1.9.0:test
+|  |  |  \- (org.carrot2:morfologik-stemming:jar:1.9.0:test - omitted for duplicate)
+|  |  +- org.carrot2:morfologik-stemming:jar:1.9.0:test
+|  |  |  \- (org.carrot2:morfologik-fsa:jar:1.9.0:test - omitted for duplicate)
+|  |  +- net.sourceforge.segment:segment:jar:1.4.2:test
+|  |  |  \- (commons-logging:commons-logging:jar:1.1.1:test - omitted for conflict with 1.1.3)
+|  |  +- org.apache.tika:tika-core:jar:1.5:test
+|  |  \- org.apache.lucene:lucene-core:jar:4.9.0:test
+|  \- org.languagetool:language-all:jar:2.7:test
+|     +- org.languagetool:language-en:jar:2.7:test
+|     |  +- (org.languagetool:languagetool-core:jar:2.7:test - omitted for duplicate)
+|     |  +- org.apache.opennlp:opennlp-tools:jar:1.5.3:test
+|     |  |  \- org.apache.opennlp:opennlp-maxent:jar:3.0.3:test
+|     |  +- edu.washington.cs.knowitall:opennlp-tokenize-models:jar:1.5:test
+|     |  +- edu.washington.cs.knowitall:opennlp-postag-models:jar:1.5:test
+|     |  \- edu.washington.cs.knowitall:opennlp-chunk-models:jar:1.5:test
+|     +- org.languagetool:language-fa:jar:2.7:test
+|     |  \- (org.languagetool:languagetool-core:jar:2.7:test - omitted for duplicate)
+|     +- org.languagetool:language-fr:jar:2.7:test
+|     |  +- (org.languagetool:languagetool-core:jar:2.7:test - omitted for duplicate)
+|     |  \- org.languagetool:hunspell-native-libs:jar:2.7:test
+|     +- org.languagetool:language-de:jar:2.7:test
+|     |  +- (org.languagetool:languagetool-core:jar:2.7:test - omitted for duplicate)
+|     |  +- (org.languagetool:hunspell-native-libs:jar:2.7:test - omitted for duplicate)
+|     |  \- de.abelssoft:jwordsplitter:jar:3.4:test
+|     +- org.languagetool:language-de-DE-x-simple-language:jar:2.7:test
+|     |  \- (org.languagetool:language-de:jar:2.7:test - omitted for duplicate)
+|     +- org.languagetool:language-pl:jar:2.7:test
+|     |  \- (org.languagetool:languagetool-core:jar:2.7:test - omitted for duplicate)
+|     +- org.languagetool:language-ca:jar:2.7:test
+|     |  \- (org.languagetool:languagetool-core:jar:2.7:test - omitted for duplicate)
+|     +- org.languagetool:language-it:jar:2.7:test
+|     |  \- (org.languagetool:languagetool-core:jar:2.7:test - omitted for duplicate)
+|     +- org.languagetool:language-br:jar:2.7:test
+|     |  \- (org.languagetool:languagetool-core:jar:2.7:test - omitted for duplicate)
+|     +- org.languagetool:language-nl:jar:2.7:test
+|     |  \- (org.languagetool:languagetool-core:jar:2.7:test - omitted for duplicate)
+|     +- org.languagetool:language-pt:jar:2.7:test
+|     |  +- (org.languagetool:languagetool-core:jar:2.7:test - omitted for duplicate)
+|     |  \- (org.languagetool:hunspell-native-libs:jar:2.7:test - omitted for duplicate)
+|     +- org.languagetool:language-ru:jar:2.7:test
+|     |  \- (org.languagetool:languagetool-core:jar:2.7:test - omitted for duplicate)
+|     +- org.languagetool:language-ast:jar:2.7:test
+|     |  +- (org.languagetool:languagetool-core:jar:2.7:test - omitted for duplicate)
+|     |  \- (org.languagetool:hunspell-native-libs:jar:2.7:test - omitted for duplicate)
+|     +- org.languagetool:language-be:jar:2.7:test
+|     |  \- (org.languagetool:languagetool-core:jar:2.7:test - omitted for duplicate)
+|     +- org.languagetool:language-zh:jar:2.7:test
+|     |  +- (org.languagetool:languagetool-core:jar:2.7:test - omitted for duplicate)
+|     |  +- com.googlecode.ictclas4j:ictclas4j:jar:1.0.1:test
+|     |  |  \- (commons-lang:commons-lang:jar:2.4:test - omitted for conflict with 2.6)
+|     |  \- com.google.code:cjftransform:jar:1.0.1:test
+|     +- org.languagetool:language-da:jar:2.7:test
+|     |  +- (org.languagetool:languagetool-core:jar:2.7:test - omitted for duplicate)
+|     |  \- (org.languagetool:hunspell-native-libs:jar:2.7:test - omitted for duplicate)
+|     +- org.languagetool:language-eo:jar:2.7:test
+|     |  +- (org.languagetool:languagetool-core:jar:2.7:test - omitted for duplicate)
+|     |  \- (org.languagetool:hunspell-native-libs:jar:2.7:test - omitted for duplicate)
+|     +- org.languagetool:language-gl:jar:2.7:test
+|     |  +- (org.languagetool:languagetool-core:jar:2.7:test - omitted for duplicate)
+|     |  \- (org.languagetool:hunspell-native-libs:jar:2.7:test - omitted for duplicate)
+|     +- org.languagetool:language-el:jar:2.7:test
+|     |  \- (org.languagetool:languagetool-core:jar:2.7:test - omitted for duplicate)
+|     +- org.languagetool:language-is:jar:2.7:test
+|     |  +- (org.languagetool:languagetool-core:jar:2.7:test - omitted for duplicate)
+|     |  \- (org.languagetool:hunspell-native-libs:jar:2.7:test - omitted for duplicate)
+|     +- org.languagetool:language-ja:jar:2.7:test
+|     |  +- (org.languagetool:languagetool-core:jar:2.7:test - omitted for duplicate)
+|     |  \- com.google.code:lucene-gosen-ipadic:jar:1.2.1:test
+|     +- org.languagetool:language-km:jar:2.7:test
+|     |  +- (org.languagetool:languagetool-core:jar:2.7:test - omitted for duplicate)
+|     |  \- (org.languagetool:hunspell-native-libs:jar:2.7:test - omitted for duplicate)
+|     +- org.languagetool:language-lt:jar:2.7:test
+|     |  \- (org.languagetool:languagetool-core:jar:2.7:test - omitted for duplicate)
+|     +- org.languagetool:language-ml:jar:2.7:test
+|     |  \- (org.languagetool:languagetool-core:jar:2.7:test - omitted for duplicate)
+|     +- org.languagetool:language-ro:jar:2.7:test
+|     |  \- (org.languagetool:languagetool-core:jar:2.7:test - omitted for duplicate)
+|     +- org.languagetool:language-sk:jar:2.7:test
+|     |  \- (org.languagetool:languagetool-core:jar:2.7:test - omitted for duplicate)
+|     +- org.languagetool:language-sl:jar:2.7:test
+|     |  \- (org.languagetool:languagetool-core:jar:2.7:test - omitted for duplicate)
+|     +- org.languagetool:language-es:jar:2.7:test
+|     |  +- (org.languagetool:languagetool-core:jar:2.7:test - omitted for duplicate)
+|     |  \- (org.languagetool:hunspell-native-libs:jar:2.7:test - omitted for duplicate)
+|     +- org.languagetool:language-sv:jar:2.7:test
+|     |  +- (org.languagetool:languagetool-core:jar:2.7:test - omitted for duplicate)
+|     |  \- (org.languagetool:hunspell-native-libs:jar:2.7:test - omitted for duplicate)
+|     +- org.languagetool:language-ta:jar:2.7:test
+|     |  \- (org.languagetool:languagetool-core:jar:2.7:test - omitted for duplicate)
+|     +- org.languagetool:language-tl:jar:2.7:test
+|     |  +- (org.languagetool:languagetool-core:jar:2.7:test - omitted for duplicate)
+|     |  \- (org.languagetool:hunspell-native-libs:jar:2.7:test - omitted for duplicate)
+|     \- org.languagetool:language-uk:jar:2.7:test
+|        \- (org.languagetool:languagetool-core:jar:2.7:test - omitted for duplicate)
++- de.tudarmstadt.ukp.dkpro.core:de.tudarmstadt.ukp.dkpro.core.io.xmi-asl:jar:1.7.0:test
+|  +- (org.apache.uima:uimaj-core:jar:2.8.1:test - version managed from 2.6.0; omitted for duplicate)
+|  +- (org.apache.uima:uimafit-core:jar:2.2.0:test - version managed from 2.1.0; omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.5:test - version managed from 2.0.1; omitted for duplicate)
+|  +- (de.tudarmstadt.ukp.dkpro.core:de.tudarmstadt.ukp.dkpro.core.api.io-asl:jar:1.7.0:compile - scope updated from test; omitted for duplicate)
+|  \- (de.tudarmstadt.ukp.dkpro.core:de.tudarmstadt.ukp.dkpro.core.api.resources-asl:jar:1.7.0:test - omitted for duplicate)
++- de.tudarmstadt.ukp.dkpro.core:de.tudarmstadt.ukp.dkpro.core.stanfordnlp-gpl:jar:1.7.0:test
+|  +- (org.apache.uima:uimaj-core:jar:2.8.1:test - version managed from 2.6.0; omitted for duplicate)
+|  +- (org.apache.uima:uimafit-core:jar:2.2.0:test - version managed from 2.1.0; omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.5:test - version managed from 2.0.1; omitted for duplicate)
+|  +- (commons-lang:commons-lang:jar:2.6:test - omitted for duplicate)
+|  +- edu.stanford.nlp:stanford-corenlp:jar:3.4.1:test
+|  |  +- com.io7m.xom:xom:jar:1.2.10:test
+|  |  |  +- (xml-apis:xml-apis:jar:1.3.03:test - omitted for duplicate)
+|  |  |  +- (xerces:xercesImpl:jar:2.8.0:test - omitted for duplicate)
+|  |  |  \- (xalan:xalan:jar:2.7.0:test - omitted for duplicate)
+|  |  +- joda-time:joda-time:jar:2.1:test
+|  |  +- de.jollyday:jollyday:jar:0.4.7:test
+|  |  |  +- (joda-time:joda-time:jar:2.1:test - omitted for duplicate)
+|  |  |  \- javax.xml.bind:jaxb-api:jar:2.2.7:test
+|  |  +- com.googlecode.efficient-java-matrix-library:ejml:jar:0.23:test
+|  |  \- javax.json:javax.json-api:jar:1.0:test
+|  +- (de.tudarmstadt.ukp.dkpro.core:de.tudarmstadt.ukp.dkpro.core.api.lexmorph-asl:jar:1.7.0:test - omitted for duplicate)
+|  +- (de.tudarmstadt.ukp.dkpro.core:de.tudarmstadt.ukp.dkpro.core.api.resources-asl:jar:1.7.0:test - omitted for duplicate)
+|  +- de.tudarmstadt.ukp.dkpro.core:de.tudarmstadt.ukp.dkpro.core.api.ner-asl:jar:1.7.0:test
+|  |  \- (org.apache.uima:uimaj-core:jar:2.8.1:test - version managed from 2.6.0; omitted for duplicate)
+|  +- (de.tudarmstadt.ukp.dkpro.core:de.tudarmstadt.ukp.dkpro.core.api.segmentation-asl:jar:1.7.0:test - omitted for duplicate)
+|  +- de.tudarmstadt.ukp.dkpro.core:de.tudarmstadt.ukp.dkpro.core.api.syntax-asl:jar:1.7.0:test
+|  |  +- (org.apache.uima:uimaj-core:jar:2.8.1:test - version managed from 2.6.0; omitted for duplicate)
+|  |  \- (de.tudarmstadt.ukp.dkpro.core:de.tudarmstadt.ukp.dkpro.core.api.segmentation-asl:jar:1.7.0:test - omitted for duplicate)
+|  +- (de.tudarmstadt.ukp.dkpro.core:de.tudarmstadt.ukp.dkpro.core.api.metadata-asl:jar:1.7.0:compile - scope updated from test; omitted for duplicate)
+|  \- (de.tudarmstadt.ukp.dkpro.core:de.tudarmstadt.ukp.dkpro.core.api.coref-asl:jar:1.7.0:compile - scope updated from test; omitted for duplicate)
++- de.tudarmstadt.ukp.dkpro.core:de.tudarmstadt.ukp.dkpro.core.api.segmentation-asl:jar:1.7.0:compile
+|  +- (org.apache.uima:uimaj-core:jar:2.8.1:compile - version managed from 2.6.0; omitted for duplicate)
+|  +- (org.apache.uima:uimafit-core:jar:2.2.0:compile - version managed from 2.1.0; omitted for duplicate)
+|  \- de.tudarmstadt.ukp.dkpro.core:de.tudarmstadt.ukp.dkpro.core.api.lexmorph-asl:jar:1.7.0:compile
+|     \- (org.apache.uima:uimaj-core:jar:2.8.1:compile - version managed from 2.6.0; omitted for duplicate)
++- de.unistuttgart.ims:de.unistuttgart.ims.drama.api:jar:1.0.0:compile
+|  +- (org.apache.uima:uimafit-core:jar:2.2.0:compile - version managed from 2.1.0; omitted for duplicate)
+|  +- de.tudarmstadt.ukp.dkpro.core:de.tudarmstadt.ukp.dkpro.core.api.metadata-asl:jar:1.7.0:compile
+|  |  +- (org.apache.uima:uimaj-core:jar:2.8.1:compile - version managed from 2.6.0; omitted for duplicate)
+|  |  +- org.apache.uima:uimaj-document-annotation:jar:2.6.0:compile
+|  |  |  \- (org.apache.uima:uimaj-core:jar:2.8.1:compile - version managed from 2.6.0; omitted for duplicate)
+|  |  \- (org.apache.uima:uimafit-core:jar:2.2.0:compile - version managed from 2.1.0; omitted for duplicate)
+|  +- (de.tudarmstadt.ukp.dkpro.core:de.tudarmstadt.ukp.dkpro.core.api.segmentation-asl:jar:1.7.0:compile - omitted for duplicate)
+|  \- de.tudarmstadt.ukp.dkpro.core:de.tudarmstadt.ukp.dkpro.core.api.coref-asl:jar:1.7.0:compile
+|     \- (org.apache.uima:uimaj-core:jar:2.8.1:compile - version managed from 2.6.0; omitted for duplicate)
++- de.unistuttgart.ims:commons:jar:0.1:compile
+|  \- (org.apache.commons:commons-math3:jar:3.5:compile - omitted for conflict with 3.6)
++- org.apache.commons:commons-csv:jar:1.2:compile
++- de.unistuttgart.ims:de.unistuttgart.ims.drama.util:jar:1.0.0:compile
+|  +- (org.apache.uima:uimafit-core:jar:2.2.0:compile - version managed from 2.1.0; omitted for duplicate)
+|  \- (de.unistuttgart.ims:de.unistuttgart.ims.drama.api:jar:1.0.0:compile - omitted for duplicate)
++- xom:xom:jar:1.2.5:compile
+|  +- xml-apis:xml-apis:jar:1.3.03:compile
+|  +- xerces:xercesImpl:jar:2.8.0:compile
+|  |  \- (xml-apis:xml-apis:jar:1.3.03:compile - omitted for duplicate)
+|  \- xalan:xalan:jar:2.7.0:compile
+|     \- (xml-apis:xml-apis:jar:1.0.b2:compile - omitted for conflict with 1.3.03)
++- de.unistuttgart.ims:uimautil:jar:0.7.2:compile
+|  +- (org.apache.uima:uimafit-core:jar:2.2.0:compile - version managed from 2.1.0; omitted for duplicate)
+|  +- (de.tudarmstadt.ukp.dkpro.core:de.tudarmstadt.ukp.dkpro.core.api.segmentation-asl:jar:1.7.0:compile - omitted for duplicate)
+|  +- (de.tudarmstadt.ukp.dkpro.core:de.tudarmstadt.ukp.dkpro.core.api.metadata-asl:jar:1.7.0:compile - omitted for duplicate)
+|  +- org.apache.commons:commons-dbcp2:jar:2.1.1:compile
+|  |  +- org.apache.commons:commons-pool2:jar:2.4.2:compile
+|  |  \- (commons-logging:commons-logging:jar:1.2:compile - omitted for conflict with 1.1.3)
+|  +- de.tudarmstadt.ukp.dkpro.core:de.tudarmstadt.ukp.dkpro.core.api.io-asl:jar:1.7.0:compile
+|  |  +- (org.apache.uima:uimafit-core:jar:2.2.0:compile - version managed from 2.1.0; omitted for duplicate)
+|  |  +- (commons-io:commons-io:jar:2.5:compile - version managed from 2.0.1; omitted for duplicate)
+|  |  +- org.apache.ant:ant:jar:1.8.1:compile
+|  |  |  \- org.apache.ant:ant-launcher:jar:1.8.1:compile
+|  |  +- de.tudarmstadt.ukp.dkpro.core:de.tudarmstadt.ukp.dkpro.core.api.resources-asl:jar:1.7.0:compile
+|  |  |  +- (org.apache.uima:uimaj-core:jar:2.8.1:compile - version managed from 2.6.0; omitted for duplicate)
+|  |  |  +- (org.apache.uima:uimafit-core:jar:2.2.0:compile - version managed from 2.1.0; omitted for duplicate)
+|  |  |  +- (commons-io:commons-io:jar:2.5:compile - version managed from 2.0.1; omitted for duplicate)
+|  |  |  +- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+|  |  |  +- org.apache.commons:commons-compress:jar:1.7:compile
+|  |  |  |  \- org.tukaani:xz:jar:1.4:compile
+|  |  |  +- (commons-logging:commons-logging-api:jar:1.1:compile - omitted for duplicate)
+|  |  |  +- (org.springframework:spring-core:jar:3.1.2.RELEASE:compile - omitted for conflict with 3.2.16.RELEASE)
+|  |  |  +- org.apache.maven:maven-model:jar:3.0.5:compile
+|  |  |  |  \- (org.codehaus.plexus:plexus-utils:jar:2.0.6:compile - omitted for duplicate)
+|  |  |  +- org.apache.ivy:ivy:jar:2.3.0:compile
+|  |  |  +- (de.tudarmstadt.ukp.dkpro.core:de.tudarmstadt.ukp.dkpro.core.api.metadata-asl:jar:1.7.0:compile - omitted for duplicate)
+|  |  |  \- org.codehaus.plexus:plexus-utils:jar:2.0.6:compile
+|  |  +- (de.tudarmstadt.ukp.dkpro.core:de.tudarmstadt.ukp.dkpro.core.api.metadata-asl:jar:1.7.0:compile - omitted for duplicate)
+|  |  +- (de.tudarmstadt.ukp.dkpro.core:de.tudarmstadt.ukp.dkpro.core.api.segmentation-asl:jar:1.7.0:compile - omitted for duplicate)
+|  |  +- (org.apache.uima:uimaj-core:jar:2.8.1:compile - version managed from 2.6.0; omitted for duplicate)
+|  |  +- (org.springframework:spring-core:jar:3.1.2.RELEASE:compile - omitted for conflict with 3.2.16.RELEASE)
+|  |  \- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+|  +- (org.apache.commons:commons-csv:jar:1.4:compile - omitted for conflict with 1.2)
+|  \- org.apache.commons:commons-configuration2:jar:2.1:compile
+|     +- org.apache.commons:commons-lang3:jar:3.3.2:compile
+|     \- (commons-logging:commons-logging:jar:1.2:compile - omitted for conflict with 1.1.3)
++- de.unistuttgart.ims:de.unistuttgart.ims.drama.io.core:jar:1.0.0:test
+|  +- (org.jsoup:jsoup:jar:1.11.2:compile - scope updated from test; omitted for duplicate)
+|  +- (org.apache.uima:uimafit-core:jar:2.2.0:test - version managed from 2.1.0; omitted for duplicate)
+|  +- (de.unistuttgart.ims:de.unistuttgart.ims.drama.api:jar:1.0.0:test - omitted for duplicate)
+|  +- (org.apache.commons:commons-csv:jar:1.2:test - omitted for duplicate)
+|  +- (de.unistuttgart.ims:de.unistuttgart.ims.drama.util:jar:1.0.0:test - omitted for duplicate)
+|  +- (de.tudarmstadt.ukp.dkpro.core:de.tudarmstadt.ukp.dkpro.core.api.io-asl:jar:1.7.0:test - omitted for duplicate)
+|  +- (de.unistuttgart.ims:uimautil:jar:0.7.2:test - omitted for duplicate)
+|  \- (de.unistuttgart.ims.uima.io:generic-xml-reader:jar:1.0.0:test - omitted for duplicate)
+\- de.unistuttgart.ims.uima.io:generic-xml-reader:jar:1.0.0:compile
+   +- org.jsoup:jsoup:jar:1.11.2:compile
+   \- (org.apache.uima:uimafit-core:jar:2.2.0:compile - version managed from 2.4.0; omitted for duplicate)

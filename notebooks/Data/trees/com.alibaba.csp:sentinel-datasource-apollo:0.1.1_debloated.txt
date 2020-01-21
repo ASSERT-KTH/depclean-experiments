@@ -1,0 +1,13 @@
+com.alibaba.csp:sentinel-datasource-apollo:jar:0.1.1
++- com.alibaba.csp:sentinel-datasource-extension:jar:0.1.1:compile
+|  \- com.alibaba.csp:sentinel-core:jar:0.1.1:compile
+\- com.ctrip.framework.apollo:apollo-client:jar:1.0.0:compile
+   +- com.ctrip.framework.apollo:apollo-core:jar:1.0.0:compile
+   |  +- com.google.code.gson:gson:jar:2.8.0:compile
+   |  +- com.google.guava:guava:jar:19.0:compile
+   |  \- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+   +- com.google.inject:guice:jar:4.1.0:compile
+   |  +- javax.inject:javax.inject:jar:1:compile
+   |  +- aopalliance:aopalliance:jar:1.0:compile
+   |  \- (com.google.guava:guava:jar:19.0:compile - omitted for duplicate)
+   \- org.slf4j:slf4j-api:jar:1.7.21:compile

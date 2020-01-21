@@ -1,0 +1,8 @@
+org.apache.lucene:lucene-facet:jar:7.3.0
++- org.apache.lucene:lucene-test-framework:jar:7.3.0:test
++- org.apache.lucene:lucene-core:jar:7.3.0:compile
++- com.carrotsearch:hppc:jar:0.7.3:compile
++- org.apache.lucene:lucene-codecs:jar:7.3.0:test
++- org.apache.lucene:lucene-queries:jar:7.3.0:test
++- junit:junit:jar:4.10:test
+\- com.carrotsearch.randomizedtesting:randomizedtesting-runner:jar:2.5.3:test

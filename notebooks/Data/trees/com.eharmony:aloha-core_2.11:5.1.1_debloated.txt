@@ -1,0 +1,74 @@
+com.eharmony:aloha-core_2.11:jar:5.1.1
++- org.scala-lang:scala-compiler:jar:2.11.8:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for duplicate)
+|  +- (org.scala-lang:scala-reflect:jar:2.11.8:compile - omitted for duplicate)
+|  +- org.scala-lang.modules:scala-xml_2.11:jar:1.0.4:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.11.4:compile - omitted for conflict with 2.11.8)
+|  \- org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.0.4:compile
+|     \- (org.scala-lang:scala-library:jar:2.11.6:compile - omitted for conflict with 2.11.8)
++- org.scala-lang:scala-library:jar:2.11.8:compile
++- org.scala-lang:scala-reflect:jar:2.11.8:compile
+|  \- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for duplicate)
++- com.fasterxml:classmate:jar:1.0.0:compile
++- commons-codec:commons-codec:jar:1.4:compile
++- commons-io:commons-io:jar:2.4:compile
++- com.github.multiworldtesting:explore-java:jar:1.0.0:compile
++- org.reflections:reflections:jar:0.9.9:compile
+|  +- com.google.guava:guava:jar:15.0:compile
+|  +- org.javassist:javassist:jar:3.18.2-GA:compile
+|  \- com.google.code.findbugs:annotations:jar:2.0.1:compile
++- com.github.deaktator:scala-runtime-manifest_2.11:jar:1.0.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for duplicate)
+|  \- (org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.0.4:compile - omitted for duplicate)
++- org.scalaz:scalaz-core_2.11:jar:7.0.6:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.0:compile - omitted for conflict with 2.11.8)
+|  +- (org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.0.1:compile - omitted for conflict with 1.0.4)
+|  \- (org.scala-lang.modules:scala-xml_2.11:jar:1.0.1:compile - omitted for conflict with 1.0.4)
++- org.slf4j:slf4j-api:jar:1.7.10:compile
++- io.spray:spray-json_2.11:jar:1.3.1:compile
+|  \- (org.scala-lang:scala-library:jar:2.11.2:compile - omitted for conflict with 2.11.8)
++- com.twitter:util-core_2.11:jar:6.27.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.7:compile - omitted for conflict with 2.11.8)
+|  +- com.twitter:util-function_2.11:jar:6.27.0:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.11.7:compile - omitted for conflict with 2.11.8)
+|  \- (org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.0.4:compile - omitted for duplicate)
++- commons-vfs:commons-vfs:jar:1.0:compile
+|  \- commons-logging:commons-logging:jar:1.0.4:compile
++- org.apache.commons:commons-vfs2:jar:2.0:compile
+|  \- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for conflict with 1.0.4)
++- junit:junit:jar:4.11:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- com.novocode:junit-interface:jar:0.11:test
+|  +- (junit:junit:jar:4.11:test - omitted for duplicate)
+|  \- org.scala-sbt:test-interface:jar:1.0:test
++- cc.mallet:mallet:jar:2.0.7:test
+|  +- org.beanshell:bsh:jar:2.0b4:test
+|  +- jgrapht:jgrapht:jar:0.6.0:test
+|  +- net.sf.jwordnet:jwnl:jar:1.4_rc3:test
+|  |  \- (commons-logging:commons-logging:jar:1.1.1:test - omitted for conflict with 1.0.4)
+|  +- net.sf.trove4j:trove4j:jar:2.0.2:test
+|  +- com.googlecode.matrix-toolkits-java:mtj:jar:0.9.14:test
+|  |  \- com.googlecode.netlib-java:netlib-java:jar:0.9.3:test
+|  |     \- net.sourceforge.f2j:arpack_combined_all:jar:0.1:test
+|  \- org.jdom:jdom:jar:1.1:test
++- org.springframework:spring-beans:jar:3.1.4.RELEASE:test
+|  \- (org.springframework:spring-core:jar:3.1.4.RELEASE:test - omitted for duplicate)
++- org.springframework:spring-core:jar:3.1.4.RELEASE:test
+|  +- org.springframework:spring-asm:jar:3.1.4.RELEASE:test
+|  \- (commons-logging:commons-logging:jar:1.1.1:test - omitted for conflict with 1.0.4)
++- org.springframework:spring-context:jar:3.1.4.RELEASE:test
+|  +- org.springframework:spring-aop:jar:3.1.4.RELEASE:test
+|  |  +- aopalliance:aopalliance:jar:1.0:test
+|  |  +- (org.springframework:spring-asm:jar:3.1.4.RELEASE:test - omitted for duplicate)
+|  |  +- (org.springframework:spring-beans:jar:3.1.4.RELEASE:test - omitted for duplicate)
+|  |  \- (org.springframework:spring-core:jar:3.1.4.RELEASE:test - omitted for duplicate)
+|  +- (org.springframework:spring-beans:jar:3.1.4.RELEASE:test - omitted for duplicate)
+|  +- (org.springframework:spring-core:jar:3.1.4.RELEASE:test - omitted for duplicate)
+|  +- org.springframework:spring-expression:jar:3.1.4.RELEASE:test
+|  |  \- (org.springframework:spring-core:jar:3.1.4.RELEASE:test - omitted for duplicate)
+|  \- (org.springframework:spring-asm:jar:3.1.4.RELEASE:test - omitted for duplicate)
++- org.springframework:spring-context-support:jar:3.1.4.RELEASE:test
+|  +- (org.springframework:spring-beans:jar:3.1.4.RELEASE:test - omitted for duplicate)
+|  +- (org.springframework:spring-context:jar:3.1.4.RELEASE:test - omitted for duplicate)
+|  \- (org.springframework:spring-core:jar:3.1.4.RELEASE:test - omitted for duplicate)
+\- org.springframework:spring-test:jar:3.1.4.RELEASE:test

@@ -1,0 +1,32 @@
+com.github.jcustenborder.kafka.connect:connect-utils:jar:0.3.140
++- com.fasterxml.jackson.core:jackson-databind:jar:2.9.6:provided
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:provided
+|  \- com.fasterxml.jackson.core:jackson-core:jar:2.9.6:provided
++- com.google.guava:guava:jar:18.0:provided
++- org.apache.kafka:connect-api:jar:2.0.0:provided
+|  +- org.apache.kafka:kafka-clients:jar:2.0.0:provided
+|  |  +- org.lz4:lz4-java:jar:1.4.1:provided
+|  |  +- org.xerial.snappy:snappy-java:jar:1.1.7.1:provided
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:provided - omitted for duplicate)
+|  +- org.slf4j:slf4j-api:jar:1.7.25:provided
+|  \- javax.ws.rs:javax.ws.rs-api:jar:2.1:provided
++- org.freemarker:freemarker:jar:2.3.25-incubating:compile
++- org.junit.jupiter:junit-jupiter-engine:jar:5.0.0:test
+|  +- org.apiguardian:apiguardian-api:jar:1.0.0:test
+|  +- org.junit.platform:junit-platform-engine:jar:1.0.0:test
+|  |  +- (org.apiguardian:apiguardian-api:jar:1.0.0:test - omitted for duplicate)
+|  |  +- (org.junit.platform:junit-platform-commons:jar:1.0.0:test - omitted for duplicate)
+|  |  \- (org.opentest4j:opentest4j:jar:1.0.0:test - omitted for duplicate)
+|  \- (org.junit.jupiter:junit-jupiter-api:jar:5.0.0:test - omitted for duplicate)
++- org.junit.jupiter:junit-jupiter-api:jar:5.0.0:test
+|  +- (org.apiguardian:apiguardian-api:jar:1.0.0:test - omitted for duplicate)
+|  +- org.opentest4j:opentest4j:jar:1.0.0:test
+|  \- org.junit.platform:junit-platform-commons:jar:1.0.0:test
+|     \- (org.apiguardian:apiguardian-api:jar:1.0.0:test - omitted for duplicate)
++- org.mockito:mockito-core:jar:2.6.3:test
+|  +- net.bytebuddy:byte-buddy:jar:1.6.2:test
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.6.2:test
+|  \- org.objenesis:objenesis:jar:2.5:test
+\- ch.qos.logback:logback-classic:jar:1.1.8:test
+   +- ch.qos.logback:logback-core:jar:1.1.8:test
+   \- (org.slf4j:slf4j-api:jar:1.7.21:test - omitted for conflict with 1.7.25)

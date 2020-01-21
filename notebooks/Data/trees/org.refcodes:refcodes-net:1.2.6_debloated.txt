@@ -1,0 +1,123 @@
+org.refcodes:refcodes-net:jar:1.2.6
++- org.refcodes:refcodes-security:jar:1.2.6:compile
+|  +- org.refcodes:refcodes-logger:jar:1.2.6:compile
+|  |  +- org.refcodes:refcodes-criteria:jar:1.2.6:compile
+|  |  |  +- (org.refcodes:refcodes-data:jar:1.2.6:compile - omitted for duplicate)
+|  |  |  +- (org.refcodes:refcodes-exception:jar:1.2.6:compile - omitted for duplicate)
+|  |  |  +- (org.refcodes:refcodes-mixin:jar:1.2.6:compile - omitted for duplicate)
+|  |  |  +- (org.refcodes:refcodes-textual:jar:1.2.6:compile - omitted for duplicate)
+|  |  |  \- (org.refcodes:refcodes-licensing:jar:1.2.6:compile - omitted for duplicate)
+|  |  +- org.refcodes:refcodes-mixin:jar:1.2.6:compile
+|  |  |  \- (org.refcodes:refcodes-licensing:jar:1.2.6:compile - omitted for duplicate)
+|  |  +- org.refcodes:refcodes-tabular:jar:1.2.6:compile
+|  |  |  +- (org.refcodes:refcodes-component:jar:1.2.6:compile - omitted for duplicate)
+|  |  |  +- (org.refcodes:refcodes-controlflow:jar:1.2.6:compile - omitted for duplicate)
+|  |  |  +- (org.refcodes:refcodes-data:jar:1.2.6:compile - omitted for duplicate)
+|  |  |  +- org.refcodes:refcodes-numerical:jar:1.2.6:compile
+|  |  |  |  +- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+|  |  |  |  +- (org.refcodes:refcodes-data:jar:1.2.6:compile - omitted for duplicate)
+|  |  |  |  +- (org.refcodes:refcodes-mixin:jar:1.2.6:compile - omitted for duplicate)
+|  |  |  |  +- (org.refcodes:refcodes-exception:jar:1.2.6:compile - omitted for duplicate)
+|  |  |  |  \- (org.refcodes:refcodes-licensing:jar:1.2.6:compile - omitted for duplicate)
+|  |  |  +- (org.refcodes:refcodes-mixin:jar:1.2.6:compile - omitted for duplicate)
+|  |  |  +- (org.refcodes:refcodes-factory:jar:1.2.6:compile - omitted for duplicate)
+|  |  |  +- (org.refcodes:refcodes-textual:jar:1.2.6:compile - omitted for duplicate)
+|  |  |  \- (org.refcodes:refcodes-licensing:jar:1.2.6:compile - omitted for duplicate)
+|  |  +- commons-configuration:commons-configuration:jar:1.10:compile
+|  |  |  +- commons-lang:commons-lang:jar:2.6:compile
+|  |  |  \- commons-logging:commons-logging:jar:1.1.1:compile
+|  |  +- commons-beanutils:commons-beanutils:jar:1.8.3:compile
+|  |  |  \- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for duplicate)
+|  |  +- commons-collections:commons-collections:jar:3.2.2:compile
+|  |  \- (org.refcodes:refcodes-licensing:jar:1.2.6:compile - omitted for duplicate)
+|  +- org.jasypt:jasypt:jar:1.9.2:compile
+|  \- (org.refcodes:refcodes-licensing:jar:1.2.6:compile - omitted for duplicate)
++- org.json:json:jar:20170516:compile
++- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.9.4:compile
+|  +- org.yaml:snakeyaml:jar:1.18:compile
+|  \- com.fasterxml.jackson.core:jackson-core:jar:2.9.4:compile
++- com.fasterxml.jackson.dataformat:jackson-dataformat-xml:jar:2.9.4:compile
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.4:compile - omitted for duplicate)
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.4:compile (version managed from 2.9.0)
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.9.4:compile
+|  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.4:compile - omitted for duplicate)
+|  +- com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.9.4:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.4:compile - version managed from 2.9.0; omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.4:compile - omitted for duplicate)
+|  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.4:compile - omitted for duplicate)
+|  +- org.codehaus.woodstox:stax2-api:jar:3.1.4:compile
+|  \- com.fasterxml.woodstox:woodstox-core:jar:5.0.3:compile
+|     \- (org.codehaus.woodstox:stax2-api:jar:3.1.4:compile - omitted for duplicate)
++- org.refcodes:refcodes-configuration:jar:1.2.6:compile
+|  +- org.refcodes:refcodes-runtime:jar:1.2.6:compile
+|  |  +- (org.refcodes:refcodes-data:jar:1.2.6:compile - omitted for duplicate)
+|  |  +- (org.refcodes:refcodes-exception:jar:1.2.6:compile - omitted for duplicate)
+|  |  +- org.refcodes:refcodes-generator:jar:1.2.6:compile
+|  |  |  +- (org.refcodes:refcodes-data:jar:1.2.6:compile - omitted for duplicate)
+|  |  |  +- (org.refcodes:refcodes-numerical:jar:1.2.6:compile - omitted for duplicate)
+|  |  |  \- (org.refcodes:refcodes-licensing:jar:1.2.6:compile - omitted for duplicate)
+|  |  +- (org.refcodes:refcodes-structure:jar:1.2.6:compile - omitted for duplicate)
+|  |  +- jline:jline:jar:2.14.5:compile
+|  |  \- (org.refcodes:refcodes-licensing:jar:1.2.6:compile - omitted for duplicate)
+|  +- org.refcodes:refcodes-component:jar:1.2.6:compile
+|  |  +- org.refcodes:refcodes-controlflow:jar:1.2.6:compile
+|  |  |  +- (org.refcodes:refcodes-data:jar:1.2.6:compile - omitted for duplicate)
+|  |  |  +- (org.refcodes:refcodes-exception:jar:1.2.6:compile - omitted for duplicate)
+|  |  |  +- (org.refcodes:refcodes-mixin:jar:1.2.6:compile - omitted for duplicate)
+|  |  |  \- (org.refcodes:refcodes-licensing:jar:1.2.6:compile - omitted for duplicate)
+|  |  +- (org.refcodes:refcodes-exception:jar:1.2.6:compile - omitted for duplicate)
+|  |  +- (org.refcodes:refcodes-generator:jar:1.2.6:compile - omitted for duplicate)
+|  |  +- (org.refcodes:refcodes-mixin:jar:1.2.6:compile - omitted for duplicate)
+|  |  \- (org.refcodes:refcodes-licensing:jar:1.2.6:compile - omitted for duplicate)
+|  +- org.refcodes:refcodes-structure:jar:1.2.6:compile
+|  |  +- (org.refcodes:refcodes-data:jar:1.2.6:compile - omitted for duplicate)
+|  |  +- (org.refcodes:refcodes-exception:jar:1.2.6:compile - omitted for duplicate)
+|  |  +- (org.refcodes:refcodes-mixin:jar:1.2.6:compile - omitted for duplicate)
+|  |  \- (org.refcodes:refcodes-licensing:jar:1.2.6:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.dataformat:jackson-dataformat-xml:jar:2.9.4:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.9.4:compile - omitted for duplicate)
+|  +- (org.json:json:jar:20170516:compile - omitted for duplicate)
+|  \- (org.refcodes:refcodes-licensing:jar:1.2.6:compile - omitted for duplicate)
++- org.refcodes:refcodes-exception:jar:1.2.6:compile
+|  \- (org.refcodes:refcodes-licensing:jar:1.2.6:compile - omitted for duplicate)
++- org.refcodes:refcodes-io:jar:1.2.6:compile
+|  +- org.refcodes:refcodes-data:jar:1.2.6:compile
+|  |  +- org.refcodes:refcodes-time:jar:1.2.6:compile
+|  |  |  \- (org.refcodes:refcodes-licensing:jar:1.2.6:compile - omitted for duplicate)
+|  |  +- (org.refcodes:refcodes-mixin:jar:1.2.6:compile - omitted for duplicate)
+|  |  \- (org.refcodes:refcodes-licensing:jar:1.2.6:compile - omitted for duplicate)
+|  +- (org.refcodes:refcodes-runtime:jar:1.2.6:compile - omitted for duplicate)
+|  +- org.refcodes:refcodes-textual:jar:1.2.6:compile
+|  |  +- (org.refcodes:refcodes-data:jar:1.2.6:compile - omitted for duplicate)
+|  |  +- (org.refcodes:refcodes-exception:jar:1.2.6:compile - omitted for duplicate)
+|  |  +- (org.refcodes:refcodes-mixin:jar:1.2.6:compile - omitted for duplicate)
+|  |  +- org.refcodes:refcodes-factory:jar:1.2.6:compile
+|  |  |  +- (org.refcodes:refcodes-exception:jar:1.2.6:compile - omitted for duplicate)
+|  |  |  \- (org.refcodes:refcodes-licensing:jar:1.2.6:compile - omitted for duplicate)
+|  |  +- org.refcodes:refcodes-graphical:jar:1.2.6:compile
+|  |  |  +- (org.refcodes:refcodes-component:jar:1.2.6:compile - omitted for duplicate)
+|  |  |  \- (org.refcodes:refcodes-licensing:jar:1.2.6:compile - omitted for duplicate)
+|  |  +- (org.refcodes:refcodes-runtime:jar:1.2.6:compile - omitted for duplicate)
+|  |  \- (org.refcodes:refcodes-licensing:jar:1.2.6:compile - omitted for duplicate)
+|  +- (org.refcodes:refcodes-component:jar:1.2.6:compile - omitted for duplicate)
+|  +- (org.refcodes:refcodes-logger:jar:1.2.6:compile - omitted for duplicate)
+|  \- (org.refcodes:refcodes-licensing:jar:1.2.6:compile - omitted for duplicate)
++- org.refcodes:refcodes-logger-alt-console:jar:1.2.6:test
+|  +- (org.refcodes:refcodes-logger:jar:1.2.6:test - omitted for duplicate)
+|  \- (org.refcodes:refcodes-licensing:jar:1.2.6:test - omitted for duplicate)
++- org.junit.platform:junit-platform-runner:jar:1.0.1:test
+|  +- org.junit.platform:junit-platform-launcher:jar:1.0.1:test
+|  |  \- (org.junit.platform:junit-platform-engine:jar:1.0.1:test - omitted for duplicate)
+|  +- org.junit.platform:junit-platform-suite-api:jar:1.0.1:test
+|  |  \- (org.junit.platform:junit-platform-commons:jar:1.0.1:test - omitted for duplicate)
+|  \- junit:junit:jar:4.12:test
+|     \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.junit.jupiter:junit-jupiter-engine:jar:5.0.1:test
+|  +- org.junit.platform:junit-platform-engine:jar:1.0.1:test
+|  |  +- (org.junit.platform:junit-platform-commons:jar:1.0.1:test - omitted for duplicate)
+|  |  \- (org.opentest4j:opentest4j:jar:1.0.0:test - omitted for duplicate)
+|  \- (org.junit.jupiter:junit-jupiter-api:jar:5.0.1:test - omitted for duplicate)
++- org.junit.jupiter:junit-jupiter-api:jar:5.0.1:test
+|  +- org.opentest4j:opentest4j:jar:1.0.0:test
+|  \- org.junit.platform:junit-platform-commons:jar:1.0.1:test
+\- log4j:log4j:jar:1.2.17:test

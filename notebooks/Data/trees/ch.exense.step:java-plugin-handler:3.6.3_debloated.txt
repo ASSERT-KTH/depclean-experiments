@@ -1,0 +1,28 @@
+ch.exense.step:java-plugin-handler:jar:3.6.3
++- ch.exense.step:grid-api:jar:3.6.3:provided (scope not updated to compile)
+|  +- org.glassfish:javax.json:jar:1.0:provided
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.5.4:compile - scope updated from provided; omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.5:compile - scope updated from provided; omitted for duplicate)
+|  \- (ch.qos.logback:logback-classic:jar:1.0.13:compile - scope updated from provided; omitted for duplicate)
++- ch.exense.step:script-dev-java:jar:3.6.3:compile
+|  +- (ch.exense.step:grid-api:jar:3.6.3:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for duplicate)
+|  \- (ch.qos.logback:logback-classic:jar:1.0.13:compile - omitted for duplicate)
++- ch.exense.step:commons:jar:3.6.3:compile
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.5.4:compile
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.5.4:compile
+|  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.5.4:compile
+|  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.5.4:compile - omitted for duplicate)
+|  +- com.google.guava:guava:jar:19.0:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for duplicate)
+|  \- (ch.qos.logback:logback-classic:jar:1.0.13:compile - omitted for duplicate)
++- org.reflections:reflections:jar:0.9.10:compile
+|  +- (com.google.guava:guava:jar:15.0:compile - omitted for conflict with 19.0)
+|  +- org.javassist:javassist:jar:3.19.0-GA:compile
+|  \- com.google.code.findbugs:annotations:jar:2.0.1:compile
++- junit:junit:jar:4.8.1:test
++- org.codehaus.groovy:groovy-all:jar:2.2.1:test
++- org.python:jython:jar:2.5.4-rc1:test
+\- ch.qos.logback:logback-classic:jar:1.0.13:compile
+   +- ch.qos.logback:logback-core:jar:1.0.13:compile
+   \- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for duplicate)

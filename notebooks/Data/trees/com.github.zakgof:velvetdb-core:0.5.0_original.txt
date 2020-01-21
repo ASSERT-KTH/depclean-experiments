@@ -1,0 +1,9 @@
+com.github.zakgof:velvetdb-core:jar:0.5.0
++- com.google.guava:guava:jar:18.0:compile
++- com.github.zakgof:tools:jar:0.4.0:compile
+|  +- (com.google.guava:guava:jar:18.0:compile - omitted for duplicate)
+|  \- org.objenesis:objenesis:jar:2.6:compile
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
+\- org.apache.commons:commons-text:jar:1.2:test
+   \- org.apache.commons:commons-lang3:jar:3.7:test

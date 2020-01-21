@@ -1,0 +1,4 @@
+org.scala-js:scalajs-logging_sjs1.0.0-M5_2.13.0-M3:jar:1.0.0-M5
++- org.scala-lang:scala-library:jar:2.13.0-M3:compile
+\- org.scala-js:scalajs-library_2.13.0-M3:jar:1.0.0-M5:compile
+   \- (org.scala-lang:scala-library:jar:2.13.0-M3:compile - omitted for duplicate)

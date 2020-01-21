@@ -1,0 +1,6 @@
+com.holon-platform.jpa:documentation-jpa:jar:5.1.0
++- com.holon-platform.jpa:holon-jpa-bean-processors:jar:5.1.0:compile
+|  \- com.holon-platform.core:holon-core:jar:5.1.0:compile
+|     +- org.apache.commons:commons-lang3:jar:3.7:compile
+|     \- javax.annotation:javax.annotation-api:jar:1.2:compile
+\- javax.persistence:javax.persistence-api:jar:2.2:provided

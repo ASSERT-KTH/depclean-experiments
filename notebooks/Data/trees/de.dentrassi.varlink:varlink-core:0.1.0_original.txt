@@ -1,0 +1,32 @@
+de.dentrassi.varlink:varlink-core:bundle:0.1.0
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- io.netty:netty-buffer:jar:4.1.18.Final:compile
+|  \- (io.netty:netty-common:jar:4.1.18.Final:compile - omitted for duplicate)
++- io.netty:netty-common:jar:4.1.18.Final:compile
++- io.netty:netty-transport:jar:4.1.18.Final:compile
+|  +- (io.netty:netty-buffer:jar:4.1.18.Final:compile - omitted for duplicate)
+|  \- io.netty:netty-resolver:jar:4.1.18.Final:compile
+|     \- (io.netty:netty-common:jar:4.1.18.Final:compile - omitted for duplicate)
++- io.netty:netty-codec:jar:4.1.18.Final:compile
+|  \- (io.netty:netty-transport:jar:4.1.18.Final:compile - omitted for duplicate)
++- io.netty:netty-handler:jar:4.1.18.Final:compile
+|  +- (io.netty:netty-buffer:jar:4.1.18.Final:compile - omitted for duplicate)
+|  +- (io.netty:netty-transport:jar:4.1.18.Final:compile - omitted for duplicate)
+|  \- (io.netty:netty-codec:jar:4.1.18.Final:compile - omitted for duplicate)
++- io.netty:netty-transport-native-epoll:jar:4.1.18.Final:compile
+|  +- (io.netty:netty-common:jar:4.1.18.Final:compile - omitted for duplicate)
+|  +- (io.netty:netty-buffer:jar:4.1.18.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-transport-native-unix-common:jar:4.1.18.Final:compile
+|  |  +- (io.netty:netty-common:jar:4.1.18.Final:compile - omitted for duplicate)
+|  |  \- (io.netty:netty-transport:jar:4.1.18.Final:compile - omitted for duplicate)
+|  \- (io.netty:netty-transport:jar:4.1.18.Final:compile - omitted for duplicate)
++- io.glutamate:glutamate:jar:0.0.7:compile
++- com.google.code.gson:gson:jar:2.8.2:compile
++- ch.qos.logback:logback-classic:jar:1.2.3:runtime
+|  +- ch.qos.logback:logback-core:jar:1.2.3:runtime
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:runtime - omitted for duplicate)
+\- io.netty:netty-transport-native-epoll:jar:linux-x86_64:4.1.18.Final:runtime
+   +- (io.netty:netty-common:jar:4.1.18.Final:runtime - omitted for duplicate)
+   +- (io.netty:netty-buffer:jar:4.1.18.Final:runtime - omitted for duplicate)
+   +- (io.netty:netty-transport-native-unix-common:jar:4.1.18.Final:runtime - omitted for duplicate)
+   \- (io.netty:netty-transport:jar:4.1.18.Final:runtime - omitted for duplicate)

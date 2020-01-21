@@ -1,0 +1,10 @@
+io.github.cquiroz:scala-java-time_sjs1.0.0-M3_2.13.0-M2:jar:2.0.0-M13
++- org.scala-lang:scala-library:jar:2.13.0-M2:compile
++- org.scala-js:scalajs-library_2.13.0-M2:jar:1.0.0-M3:compile
+|  \- (org.scala-lang:scala-library:jar:2.13.0-M2:compile - omitted for duplicate)
++- org.scala-js:scalajs-test-interface_2.13.0-M2:jar:1.0.0-M3:test
+|  +- (org.scala-lang:scala-library:jar:2.13.0-M2:test - omitted for duplicate)
+|  \- (org.scala-js:scalajs-library_2.13.0-M2:jar:1.0.0-M3:test - omitted for duplicate)
+\- io.github.cquiroz:scala-java-locales_sjs1.0.0-M3_2.13.0-M2:jar:0.3.10-cldr32:compile
+   +- (org.scala-lang:scala-library:jar:2.13.0-M2:compile - omitted for duplicate)
+   \- (org.scala-js:scalajs-library_2.13.0-M2:jar:1.0.0-M3:compile - omitted for duplicate)

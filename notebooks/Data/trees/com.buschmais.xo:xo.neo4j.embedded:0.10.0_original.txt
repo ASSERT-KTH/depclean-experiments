@@ -1,0 +1,328 @@
+com.buschmais.xo:xo.neo4j.embedded:jar:0.10.0
++- com.buschmais.xo:xo.neo4j.api:jar:0.10.0:compile
+|  +- com.buschmais.xo:xo.api:jar:0.10.0:compile
+|  |  \- javax.validation:validation-api:jar:1.1.0.Final:compile
+|  \- com.buschmais.xo:xo.spi:jar:0.10.0:compile
+|     +- (com.buschmais.xo:xo.api:jar:0.10.0:compile - omitted for duplicate)
+|     +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|     \- (com.google.guava:guava:jar:15.0:compile - omitted for duplicate)
++- com.buschmais.xo:xo.neo4j.spi:jar:0.10.0:compile
+|  +- (com.buschmais.xo:xo.neo4j.api:jar:0.10.0:compile - omitted for duplicate)
+|  +- (com.buschmais.xo:xo.spi:jar:0.10.0:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
++- org.neo4j:neo4j:jar:3.4.0-rc02:compile
+|  +- org.neo4j:neo4j-kernel:jar:3.4.0-rc02:compile
+|  |  +- (org.neo4j:neo4j-graphdb-api:jar:3.4.0-rc02:compile - omitted for duplicate)
+|  |  +- (org.neo4j:neo4j-procedure-api:jar:3.4.0-rc02:compile - omitted for duplicate)
+|  |  +- (org.neo4j:neo4j-kernel-api:jar:3.4.0-rc02:compile - omitted for duplicate)
+|  |  +- (org.neo4j:neo4j-common:jar:3.4.0-rc02:compile - omitted for duplicate)
+|  |  +- (org.neo4j:neo4j-values:jar:3.4.0-rc02:compile - omitted for duplicate)
+|  |  +- (org.neo4j:neo4j-collections:jar:3.4.0-rc02:compile - omitted for duplicate)
+|  |  +- (org.neo4j:neo4j-primitive-collections:jar:3.4.0-rc02:compile - omitted for duplicate)
+|  |  +- (org.neo4j:neo4j-io:jar:3.4.0-rc02:compile - omitted for duplicate)
+|  |  +- (org.neo4j:neo4j-csv:jar:3.4.0-rc02:compile - omitted for duplicate)
+|  |  +- (org.neo4j:neo4j-logging:jar:3.4.0-rc02:compile - omitted for duplicate)
+|  |  +- (org.neo4j:neo4j-lucene-upgrade:jar:3.4.0-rc02:compile - omitted for duplicate)
+|  |  +- (org.neo4j:neo4j-configuration:jar:3.4.0-rc02:compile - omitted for duplicate)
+|  |  +- (org.neo4j:neo4j-index:jar:3.4.0-rc02:compile - omitted for duplicate)
+|  |  +- (org.neo4j:neo4j-spatial-index:jar:3.4.0-rc02:compile - omitted for duplicate)
+|  |  \- (org.neo4j:neo4j-ssl:jar:3.4.0-rc02:compile - omitted for duplicate)
+|  +- org.neo4j:neo4j-lucene-index:jar:3.4.0-rc02:compile
+|  |  +- (org.neo4j:neo4j-kernel:jar:3.4.0-rc02:compile - omitted for duplicate)
+|  |  +- org.apache.lucene:lucene-analyzers-common:jar:5.5.5:compile
+|  |  |  \- (org.apache.lucene:lucene-core:jar:5.5.5:compile - omitted for conflict with 5.5.0)
+|  |  +- org.apache.lucene:lucene-core:jar:5.5.5:compile
+|  |  +- org.apache.lucene:lucene-queryparser:jar:5.5.5:compile
+|  |  |  \- (org.apache.lucene:lucene-core:jar:5.5.5:compile - omitted for duplicate)
+|  |  \- org.apache.lucene:lucene-codecs:jar:5.5.5:compile
+|  |     \- (org.apache.lucene:lucene-core:jar:5.5.5:compile - omitted for duplicate)
+|  +- org.neo4j:neo4j-graph-algo:jar:3.4.0-rc02:compile
+|  |  \- (org.neo4j:neo4j-kernel:jar:3.4.0-rc02:compile - omitted for duplicate)
+|  +- org.neo4j:neo4j-udc:jar:3.4.0-rc02:compile
+|  |  \- (org.neo4j:neo4j-kernel:jar:3.4.0-rc02:compile - omitted for duplicate)
+|  +- org.neo4j:neo4j-cypher:jar:3.4.0-rc02:compile
+|  |  +- org.scala-lang:scala-library:jar:2.11.12:compile
+|  |  +- org.scala-lang:scala-reflect:jar:2.11.12:compile
+|  |  |  \- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  |  +- (org.neo4j:neo4j-kernel:jar:3.4.0-rc02:compile - omitted for duplicate)
+|  |  +- (org.neo4j:neo4j-lucene-index:jar:3.4.0-rc02:compile - omitted for duplicate)
+|  |  +- org.neo4j:neo4j-graph-matching:jar:3.1.6:compile
+|  |  |  \- (org.neo4j:neo4j-kernel:jar:3.4.0-rc02:compile - version managed from 3.1.6; omitted for duplicate)
+|  |  +- (org.neo4j:neo4j-graph-algo:jar:3.4.0-rc02:compile - omitted for duplicate)
+|  |  +- org.neo4j:neo4j-codegen:jar:3.4.0-rc02:compile
+|  |  |  +- org.ow2.asm:asm:jar:6.0:compile
+|  |  |  +- org.ow2.asm:asm-util:jar:6.0:compile
+|  |  |  |  \- (org.ow2.asm:asm-tree:jar:6.0:compile - omitted for duplicate)
+|  |  |  +- org.ow2.asm:asm-analysis:jar:6.0:compile
+|  |  |  |  \- (org.ow2.asm:asm-tree:jar:6.0:compile - omitted for duplicate)
+|  |  |  +- org.ow2.asm:asm-tree:jar:6.0:compile
+|  |  |  |  \- (org.ow2.asm:asm:jar:6.0:compile - omitted for duplicate)
+|  |  |  +- (org.apache.commons:commons-lang3:jar:3.7:compile - omitted for duplicate)
+|  |  |  \- (org.neo4j:neo4j-values:jar:3.4.0-rc02:compile - omitted for duplicate)
+|  |  +- org.neo4j:neo4j-cypher-compiler-2.3:jar:2.3.12:compile
+|  |  |  +- (org.scala-lang:scala-reflect:jar:2.11.7:compile - omitted for conflict with 2.11.12)
+|  |  |  +- org.neo4j:neo4j-cypher-frontend-2.3:jar:2.3.12:compile
+|  |  |  |  +- (org.scala-lang:scala-reflect:jar:2.11.7:compile - omitted for conflict with 2.11.12)
+|  |  |  |  +- (org.parboiled:parboiled-scala_2.11:jar:1.1.7:compile - omitted for duplicate)
+|  |  |  |  \- (org.apache.commons:commons-lang3:jar:3.3.2:compile - omitted for conflict with 3.7)
+|  |  |  +- (org.parboiled:parboiled-scala_2.11:jar:1.1.7:compile - omitted for duplicate)
+|  |  |  \- com.googlecode.concurrentlinkedhashmap:concurrentlinkedhashmap-lru:jar:1.4.2:compile
+|  |  +- org.neo4j:neo4j-cypher-compiler-3.1:jar:3.1.8:compile
+|  |  |  +- org.neo4j:neo4j-cypher-frontend-3.1:jar:3.1.8:compile
+|  |  |  |  +- (org.parboiled:parboiled-scala_2.11:jar:1.1.7:compile - omitted for duplicate)
+|  |  |  |  \- (org.apache.commons:commons-lang3:jar:3.3.2:compile - omitted for conflict with 3.7)
+|  |  |  +- (org.parboiled:parboiled-scala_2.11:jar:1.1.7:compile - omitted for duplicate)
+|  |  |  \- com.github.ben-manes.caffeine:caffeine:jar:2.3.3:compile
+|  |  +- org.neo4j:neo4j-cypher-compiler-3.3:jar:3.3.5:compile
+|  |  |  +- org.neo4j:neo4j-cypher-frontend-3.3:jar:3.3.5:compile
+|  |  |  |  +- (org.parboiled:parboiled-scala_2.11:jar:1.1.7:compile - omitted for duplicate)
+|  |  |  |  \- (org.apache.commons:commons-lang3:jar:3.5:compile - omitted for conflict with 3.7)
+|  |  |  +- org.neo4j:neo4j-cypher-ir-3.3:jar:3.3.5:compile
+|  |  |  |  +- (org.neo4j:neo4j-cypher-frontend-3.3:jar:3.3.5:compile - omitted for duplicate)
+|  |  |  |  +- (org.parboiled:parboiled-scala_2.11:jar:1.1.7:compile - omitted for duplicate)
+|  |  |  |  \- (org.apache.commons:commons-lang3:jar:3.5:compile - omitted for conflict with 3.7)
+|  |  |  +- org.neo4j:neo4j-cypher-logical-plans-3.3:jar:3.3.5:compile
+|  |  |  |  +- (org.neo4j:neo4j-cypher-frontend-3.3:jar:3.3.5:compile - omitted for duplicate)
+|  |  |  |  \- (org.neo4j:neo4j-cypher-ir-3.3:jar:3.3.5:compile - omitted for duplicate)
+|  |  |  +- (org.parboiled:parboiled-scala_2.11:jar:1.1.7:compile - omitted for duplicate)
+|  |  |  \- (com.github.ben-manes.caffeine:caffeine:jar:2.3.3:compile - omitted for duplicate)
+|  |  +- org.neo4j:neo4j-cypher-util-3.4:jar:3.4.0-rc02:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  |  |  +- (org.scala-lang:scala-reflect:jar:2.11.12:compile - omitted for duplicate)
+|  |  |  +- (org.parboiled:parboiled-scala_2.11:jar:1.1.7:compile - omitted for duplicate)
+|  |  |  \- (org.apache.commons:commons-lang3:jar:3.7:compile - omitted for duplicate)
+|  |  +- org.neo4j:neo4j-cypher-planner-3.4:jar:3.4.0-rc02:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  |  |  +- (org.scala-lang:scala-reflect:jar:2.11.12:compile - omitted for duplicate)
+|  |  |  +- org.neo4j:openCypher-frontend-1:jar:3.4.0-rc02:compile
+|  |  |  |  +- (org.neo4j:neo4j-cypher-util-3.4:jar:3.4.0-rc02:compile - omitted for duplicate)
+|  |  |  |  +- org.neo4j:neo4j-cypher-expression-3.4:jar:3.4.0-rc02:compile
+|  |  |  |  |  +- (org.neo4j:neo4j-cypher-util-3.4:jar:3.4.0-rc02:compile - omitted for duplicate)
+|  |  |  |  |  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  |  |  |  |  +- (org.scala-lang:scala-reflect:jar:2.11.12:compile - omitted for duplicate)
+|  |  |  |  |  +- (org.parboiled:parboiled-scala_2.11:jar:1.1.7:compile - omitted for duplicate)
+|  |  |  |  |  \- (org.apache.commons:commons-lang3:jar:3.7:compile - omitted for duplicate)
+|  |  |  |  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  |  |  |  +- (org.scala-lang:scala-reflect:jar:2.11.12:compile - omitted for duplicate)
+|  |  |  |  +- (org.parboiled:parboiled-scala_2.11:jar:1.1.7:compile - omitted for duplicate)
+|  |  |  |  \- (org.apache.commons:commons-lang3:jar:3.7:compile - omitted for duplicate)
+|  |  |  +- org.neo4j:neo4j-cypher-ir-3.4:jar:3.4.0-rc02:compile
+|  |  |  |  +- (org.neo4j:openCypher-frontend-1:jar:3.4.0-rc02:compile - omitted for duplicate)
+|  |  |  |  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  |  |  |  +- (org.scala-lang:scala-reflect:jar:2.11.12:compile - omitted for duplicate)
+|  |  |  |  +- (org.parboiled:parboiled-scala_2.11:jar:1.1.7:compile - omitted for duplicate)
+|  |  |  |  \- (org.apache.commons:commons-lang3:jar:3.7:compile - omitted for duplicate)
+|  |  |  +- org.neo4j:neo4j-cypher-logical-plans-3.4:jar:3.4.0-rc02:compile
+|  |  |  |  +- (org.neo4j:neo4j-graphdb-api:jar:3.4.0-rc02:compile - omitted for duplicate)
+|  |  |  |  +- (org.neo4j:openCypher-frontend-1:jar:3.4.0-rc02:compile - omitted for duplicate)
+|  |  |  |  +- (org.neo4j:neo4j-cypher-ir-3.4:jar:3.4.0-rc02:compile - omitted for duplicate)
+|  |  |  |  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  |  |  |  +- (org.scala-lang:scala-reflect:jar:2.11.12:compile - omitted for duplicate)
+|  |  |  |  +- (org.parboiled:parboiled-scala_2.11:jar:1.1.7:compile - omitted for duplicate)
+|  |  |  |  \- (org.apache.commons:commons-lang3:jar:3.7:compile - omitted for duplicate)
+|  |  |  +- (org.neo4j:neo4j-cypher-planner-spi-3.4:jar:3.4.0-rc02:compile - omitted for duplicate)
+|  |  |  +- (org.parboiled:parboiled-scala_2.11:jar:1.1.7:compile - omitted for duplicate)
+|  |  |  \- (com.github.ben-manes.caffeine:caffeine:jar:2.6.2:compile - omitted for conflict with 2.3.3)
+|  |  +- org.neo4j:neo4j-cypher-planner-spi-3.4:jar:3.4.0-rc02:compile
+|  |  |  +- (org.neo4j:neo4j-cypher-util-3.4:jar:3.4.0-rc02:compile - omitted for duplicate)
+|  |  |  +- (org.neo4j:neo4j-cypher-logical-plans-3.4:jar:3.4.0-rc02:compile - omitted for duplicate)
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  |  |  +- (org.scala-lang:scala-reflect:jar:2.11.12:compile - omitted for duplicate)
+|  |  |  +- (org.parboiled:parboiled-scala_2.11:jar:1.1.7:compile - omitted for duplicate)
+|  |  |  \- (org.apache.commons:commons-lang3:jar:3.7:compile - omitted for duplicate)
+|  |  +- org.neo4j:neo4j-cypher-runtime-util:jar:3.4.0-rc02:compile
+|  |  |  +- (org.neo4j:neo4j-cypher-logical-plans-3.4:jar:3.4.0-rc02:compile - omitted for duplicate)
+|  |  |  +- (org.neo4j:neo4j-cypher-planner-spi-3.4:jar:3.4.0-rc02:compile - omitted for duplicate)
+|  |  |  +- (org.neo4j:neo4j-values:jar:3.4.0-rc02:compile - omitted for duplicate)
+|  |  |  +- (org.neo4j:neo4j-graphdb-api:jar:3.4.0-rc02:compile - omitted for duplicate)
+|  |  |  +- (org.neo4j:neo4j-kernel:jar:3.4.0-rc02:compile - version managed from 3.1.6; omitted for duplicate)
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  |  |  +- (org.scala-lang:scala-reflect:jar:2.11.12:compile - omitted for duplicate)
+|  |  |  +- (org.parboiled:parboiled-scala_2.11:jar:1.1.7:compile - omitted for duplicate)
+|  |  |  \- (org.apache.commons:commons-lang3:jar:3.7:compile - omitted for duplicate)
+|  |  +- org.neo4j:neo4j-cypher-interpreted-runtime:jar:3.4.0-rc02:compile
+|  |  |  +- (org.neo4j:neo4j-cypher-logical-plans-3.4:jar:3.4.0-rc02:compile - omitted for duplicate)
+|  |  |  +- (org.neo4j:neo4j-cypher-planner-spi-3.4:jar:3.4.0-rc02:compile - omitted for duplicate)
+|  |  |  +- (org.neo4j:neo4j-cypher-runtime-util:jar:3.4.0-rc02:compile - omitted for duplicate)
+|  |  |  +- (org.neo4j:neo4j-values:jar:3.4.0-rc02:compile - omitted for duplicate)
+|  |  |  +- (org.neo4j:neo4j-graphdb-api:jar:3.4.0-rc02:compile - omitted for duplicate)
+|  |  |  +- (org.neo4j:neo4j-graph-algo:jar:3.4.0-rc02:compile - omitted for duplicate)
+|  |  |  +- (org.neo4j:neo4j-kernel:jar:3.4.0-rc02:compile - version managed from 3.1.6; omitted for duplicate)
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  |  |  +- (org.scala-lang:scala-reflect:jar:2.11.12:compile - omitted for duplicate)
+|  |  |  +- (org.parboiled:parboiled-scala_2.11:jar:1.1.7:compile - omitted for duplicate)
+|  |  |  \- (org.apache.commons:commons-lang3:jar:3.7:compile - omitted for duplicate)
+|  |  +- org.parboiled:parboiled-scala_2.11:jar:1.1.7:compile
+|  |  |  \- org.parboiled:parboiled-core:jar:1.1.7:compile
+|  |  +- net.sf.opencsv:opencsv:jar:2.3:compile
+|  |  \- (org.apache.commons:commons-lang3:jar:3.7:compile - omitted for duplicate)
+|  +- org.neo4j:neo4j-jmx:jar:3.4.0-rc02:compile
+|  \- org.neo4j:neo4j-consistency-check:jar:3.4.0-rc02:compile
+|     +- (org.neo4j:neo4j-kernel:jar:3.4.0-rc02:compile - version managed from 3.1.6; omitted for duplicate)
+|     +- (org.neo4j:neo4j-lucene-index:jar:3.4.0-rc02:compile - omitted for duplicate)
+|     +- org.neo4j:neo4j-command-line:jar:3.4.0-rc02:compile
+|     |  +- (org.neo4j:neo4j-kernel:jar:3.4.0-rc02:compile - version managed from 3.1.6; omitted for duplicate)
+|     |  +- (org.neo4j:neo4j-collections:jar:3.4.0-rc02:compile - omitted for duplicate)
+|     |  \- org.apache.commons:commons-text:jar:1.3:compile
+|     |     \- (org.apache.commons:commons-lang3:jar:3.7:compile - omitted for duplicate)
+|     +- org.neo4j:neo4j-dbms:jar:3.4.0-rc02:compile
+|     |  +- (org.neo4j:neo4j-kernel:jar:3.4.0-rc02:compile - version managed from 3.1.6; omitted for duplicate)
+|     |  +- (org.neo4j:neo4j-graphdb-api:jar:3.4.0-rc02:compile - omitted for duplicate)
+|     |  +- (org.neo4j:neo4j-command-line:jar:3.4.0-rc02:compile - omitted for duplicate)
+|     |  +- (org.neo4j:neo4j-collections:jar:3.4.0-rc02:compile - omitted for duplicate)
+|     |  +- (org.neo4j:neo4j-io:jar:3.4.0-rc02:compile - omitted for duplicate)
+|     |  +- org.neo4j:neo4j-import-tool:jar:3.4.0-rc02:compile
+|     |  |  +- (org.neo4j:neo4j-kernel:jar:3.4.0-rc02:compile - version managed from 3.1.6; omitted for duplicate)
+|     |  |  \- (org.neo4j:neo4j-lucene-index:jar:3.4.0-rc02:compile - omitted for duplicate)
+|     |  +- (org.neo4j:neo4j-jmx:jar:3.4.0-rc02:compile - omitted for duplicate)
+|     |  +- org.jprocesses:jProcesses:jar:1.6.4:compile
+|     |  |  \- com.profesorfalken:WMI4Java:jar:1.6.1:compile
+|     |  |     \- com.profesorfalken:jPowerShell:jar:1.9:compile
+|     |  \- org.apache.commons:commons-compress:jar:1.16.1:compile
+|     |     \- org.objenesis:objenesis:jar:2.6:compile
+|     \- (org.neo4j:neo4j-io:jar:3.4.0-rc02:compile - omitted for duplicate)
++- org.neo4j:neo4j-kernel:test-jar:tests:3.4.0-rc02:compile
+|  +- org.neo4j:neo4j-graphdb-api:jar:3.4.0-rc02:compile
+|  |  +- (org.neo4j:neo4j-common:jar:3.4.0-rc02:compile - omitted for duplicate)
+|  |  +- org.neo4j:neo4j-resource:jar:3.4.0-rc02:compile
+|  |  +- (org.neo4j:neo4j-collections:jar:3.4.0-rc02:compile - omitted for duplicate)
+|  |  \- (org.neo4j:neo4j-primitive-collections:jar:3.4.0-rc02:compile - omitted for duplicate)
+|  +- org.neo4j:neo4j-procedure-api:jar:3.4.0-rc02:compile
+|  |  +- (org.neo4j:neo4j-graphdb-api:jar:3.4.0-rc02:compile - omitted for duplicate)
+|  |  \- (org.neo4j:neo4j-logging:jar:3.4.0-rc02:compile - omitted for duplicate)
+|  +- org.neo4j:neo4j-kernel-api:jar:3.4.0-rc02:compile
+|  |  +- (org.neo4j:neo4j-primitive-collections:jar:3.4.0-rc02:compile - omitted for duplicate)
+|  |  +- (org.neo4j:neo4j-values:jar:3.4.0-rc02:compile - omitted for duplicate)
+|  |  +- (org.neo4j:neo4j-graphdb-api:jar:3.4.0-rc02:compile - omitted for duplicate)
+|  |  +- (org.neo4j:neo4j-procedure-api:jar:3.4.0-rc02:compile - omitted for duplicate)
+|  |  +- (org.neo4j:neo4j-common:jar:3.4.0-rc02:compile - omitted for duplicate)
+|  |  \- (org.apache.commons:commons-lang3:jar:3.7:compile - omitted for duplicate)
+|  +- org.neo4j:neo4j-common:jar:3.4.0-rc02:compile
+|  +- org.neo4j:neo4j-values:jar:3.4.0-rc02:compile
+|  |  \- (org.neo4j:neo4j-graphdb-api:jar:3.4.0-rc02:compile - omitted for duplicate)
+|  +- org.neo4j:neo4j-collections:jar:3.4.0-rc02:compile
+|  |  +- (org.neo4j:neo4j-resource:jar:3.4.0-rc02:compile - omitted for duplicate)
+|  |  \- (org.neo4j:neo4j-common:jar:3.4.0-rc02:compile - omitted for duplicate)
+|  +- org.neo4j:neo4j-primitive-collections:jar:3.4.0-rc02:compile
+|  |  +- (org.neo4j:neo4j-unsafe:jar:3.4.0-rc02:compile - omitted for duplicate)
+|  |  +- (org.neo4j:neo4j-common:jar:3.4.0-rc02:compile - omitted for duplicate)
+|  |  \- (org.neo4j:neo4j-resource:jar:3.4.0-rc02:compile - omitted for duplicate)
+|  +- org.neo4j:neo4j-io:jar:3.4.0-rc02:compile
+|  |  +- (org.neo4j:neo4j-unsafe:jar:3.4.0-rc02:compile - omitted for duplicate)
+|  |  +- (org.neo4j:neo4j-primitive-collections:jar:3.4.0-rc02:compile - omitted for duplicate)
+|  |  +- (org.apache.commons:commons-lang3:jar:3.7:compile - omitted for duplicate)
+|  |  \- (org.neo4j:neo4j-graphdb-api:jar:3.4.0-rc02:compile - omitted for duplicate)
+|  +- org.neo4j:neo4j-csv:jar:3.4.0-rc02:compile
+|  |  +- (org.neo4j:neo4j-primitive-collections:jar:3.4.0-rc02:compile - omitted for duplicate)
+|  |  +- (org.neo4j:neo4j-collections:jar:3.4.0-rc02:compile - omitted for duplicate)
+|  |  \- (org.neo4j:neo4j-values:jar:3.4.0-rc02:compile - omitted for duplicate)
+|  +- org.neo4j:neo4j-logging:jar:3.4.0-rc02:compile
+|  |  \- (org.neo4j:neo4j-io:jar:3.4.0-rc02:compile - omitted for duplicate)
+|  +- org.neo4j:neo4j-lucene-upgrade:jar:3.4.0-rc02:compile
+|  |  +- (org.apache.lucene:lucene-core:jar:5.5.0:compile - omitted for conflict with 5.5.5)
+|  |  \- org.apache.lucene:lucene-backward-codecs:jar:5.5.0:compile
+|  |     \- (org.apache.lucene:lucene-core:jar:5.5.0:compile - omitted for conflict with 5.5.5)
+|  +- org.neo4j:neo4j-configuration:jar:3.4.0-rc02:compile
+|  |  +- (org.neo4j:neo4j-graphdb-api:jar:3.4.0-rc02:compile - omitted for duplicate)
+|  |  \- (org.neo4j:neo4j-logging:jar:3.4.0-rc02:compile - omitted for duplicate)
+|  +- org.neo4j:neo4j-index:jar:3.4.0-rc02:compile
+|  |  \- (org.neo4j:neo4j-io:jar:3.4.0-rc02:compile - omitted for duplicate)
+|  +- org.neo4j:neo4j-spatial-index:jar:3.4.0-rc02:compile
+|  \- org.neo4j:neo4j-ssl:jar:3.4.0-rc02:compile
+|     +- (org.neo4j:neo4j-logging:jar:3.4.0-rc02:compile - omitted for duplicate)
+|     +- (org.neo4j:neo4j-common:jar:3.4.0-rc02:compile - omitted for duplicate)
+|     +- io.netty:netty-all:jar:4.1.24.Final:compile
+|     \- org.bouncycastle:bcpkix-jdk15on:jar:1.59:compile
+|        \- org.bouncycastle:bcprov-jdk15on:jar:1.59:compile
++- org.neo4j:neo4j-io:test-jar:tests:3.4.0-rc02:compile
+|  +- org.neo4j:neo4j-unsafe:jar:3.4.0-rc02:compile
+|  |  \- (org.neo4j:neo4j-common:jar:3.4.0-rc02:compile - omitted for duplicate)
+|  +- (org.neo4j:neo4j-primitive-collections:jar:3.4.0-rc02:compile - omitted for duplicate)
+|  +- org.apache.commons:commons-lang3:jar:3.7:compile
+|  \- (org.neo4j:neo4j-graphdb-api:jar:3.4.0-rc02:compile - omitted for duplicate)
++- commons-lang:commons-lang:jar:2.4:compile
++- com.google.guava:guava:jar:15.0:compile
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- com.buschmais.xo:xo.test:jar:0.10.0:test
+|  +- (com.buschmais.xo:xo.api:jar:0.10.0:test - omitted for duplicate)
+|  +- (com.buschmais.xo:xo.spi:jar:0.10.0:test - omitted for duplicate)
+|  +- com.buschmais.xo:xo.impl:jar:0.10.0:runtime (scope managed from test)
+|  |  +- (com.buschmais.xo:xo.api:jar:0.10.0:runtime - omitted for duplicate)
+|  |  +- (com.buschmais.xo:xo.spi:jar:0.10.0:runtime - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:15.0:runtime - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:runtime - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.hamcrest:hamcrest-library:jar:1.3:test
+|  \- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for duplicate)
++- org.hibernate:hibernate-validator:jar:5.3.6.Final:test
+|  +- (javax.validation:validation-api:jar:1.1.0.Final:compile - scope updated from test; omitted for duplicate)
+|  +- org.jboss.logging:jboss-logging:jar:3.3.0.Final:test
+|  \- com.fasterxml:classmate:jar:1.3.1:test
++- org.slf4j:slf4j-simple:jar:1.7.25:test
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)
+\- org.neo4j.app:neo4j-server:jar:3.4.0-rc02:test
+   +- org.neo4j:neo4j:pom:3.4.0-rc02:test
+   |  +- (org.neo4j:neo4j-kernel:jar:3.4.0-rc02:test - version managed from 3.1.6; omitted for duplicate)
+   |  +- (org.neo4j:neo4j-lucene-index:jar:3.4.0-rc02:test - omitted for duplicate)
+   |  +- (org.neo4j:neo4j-graph-algo:jar:3.4.0-rc02:test - omitted for duplicate)
+   |  +- (org.neo4j:neo4j-udc:jar:3.4.0-rc02:test - omitted for duplicate)
+   |  +- (org.neo4j:neo4j-cypher:jar:3.4.0-rc02:test - omitted for duplicate)
+   |  +- (org.neo4j:neo4j-jmx:jar:3.4.0-rc02:test - omitted for duplicate)
+   |  \- (org.neo4j:neo4j-consistency-check:jar:3.4.0-rc02:test - omitted for duplicate)
+   +- (org.neo4j:neo4j-kernel:jar:3.4.0-rc02:test - version managed from 3.1.6; omitted for duplicate)
+   +- org.neo4j:neo4j-security:jar:3.4.0-rc02:test
+   |  +- (org.neo4j:neo4j-logging:jar:3.4.0-rc02:test - omitted for duplicate)
+   |  +- (org.neo4j:neo4j-common:jar:3.4.0-rc02:test - omitted for duplicate)
+   |  +- (org.neo4j:neo4j-kernel:jar:3.4.0-rc02:test - version managed from 3.1.6; omitted for duplicate)
+   |  +- (org.neo4j:neo4j-graphdb-api:jar:3.4.0-rc02:test - omitted for duplicate)
+   |  +- (org.neo4j:neo4j-command-line:jar:3.4.0-rc02:test - omitted for duplicate)
+   |  \- (org.neo4j:neo4j-dbms:jar:3.4.0-rc02:test - omitted for duplicate)
+   +- (org.neo4j:neo4j-dbms:jar:3.4.0-rc02:compile - scope updated from test; omitted for duplicate)
+   +- (org.neo4j:neo4j-command-line:jar:3.4.0-rc02:compile - scope updated from test; omitted for duplicate)
+   +- org.neo4j:server-api:jar:3.4.0-rc02:test
+   |  +- (org.neo4j:neo4j-kernel:jar:3.4.0-rc02:test - version managed from 3.1.6; omitted for duplicate)
+   |  +- org.neo4j.3rdparty.javax.ws.rs:jsr311-api:jar:1.1.2.r612:test
+   |  \- (commons-configuration:commons-configuration:jar:1.10:test - omitted for duplicate)
+   +- (org.neo4j:neo4j-cypher:jar:3.4.0-rc02:test - omitted for duplicate)
+   +- org.neo4j:neo4j-bolt:jar:3.4.0-rc02:test
+   |  +- (org.neo4j:neo4j:jar:3.4.0-rc02:test - omitted for duplicate)
+   |  +- (org.neo4j:neo4j-values:jar:3.4.0-rc02:test - omitted for duplicate)
+   |  +- (org.neo4j:neo4j-kernel:jar:3.4.0-rc02:test - version managed from 3.1.6; omitted for duplicate)
+   |  +- (org.neo4j:neo4j-ssl:jar:3.4.0-rc02:test - omitted for duplicate)
+   |  +- (io.netty:netty-all:jar:4.1.24.Final:test - omitted for duplicate)
+   |  +- org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:test
+   |  |  \- (org.codehaus.jackson:jackson-core-asl:jar:1.9.13:test - omitted for duplicate)
+   |  +- (org.apache.commons:commons-lang3:jar:3.7:test - omitted for duplicate)
+   |  \- (org.bouncycastle:bcpkix-jdk15on:jar:1.59:test - omitted for duplicate)
+   +- org.neo4j.client:neo4j-browser:jar:3.1.12:test
+   +- org.neo4j:neo4j-shell:jar:3.4.0-rc02:test
+   |  \- jline:jline:jar:2.12:test
+   +- org.eclipse.jetty:jetty-server:jar:9.4.8.v20171121:test
+   |  +- javax.servlet:javax.servlet-api:jar:3.1.0:test
+   |  +- org.eclipse.jetty:jetty-http:jar:9.4.8.v20171121:test
+   |  |  +- org.eclipse.jetty:jetty-util:jar:9.4.8.v20171121:test
+   |  |  \- (org.eclipse.jetty:jetty-io:jar:9.4.8.v20171121:test - omitted for duplicate)
+   |  \- org.eclipse.jetty:jetty-io:jar:9.4.8.v20171121:test
+   |     \- (org.eclipse.jetty:jetty-util:jar:9.4.8.v20171121:test - omitted for duplicate)
+   +- org.eclipse.jetty:jetty-webapp:jar:9.4.8.v20171121:test
+   |  +- org.eclipse.jetty:jetty-xml:jar:9.4.8.v20171121:test
+   |  |  \- (org.eclipse.jetty:jetty-util:jar:9.4.8.v20171121:test - omitted for duplicate)
+   |  \- org.eclipse.jetty:jetty-servlet:jar:9.4.8.v20171121:test
+   |     \- org.eclipse.jetty:jetty-security:jar:9.4.8.v20171121:test
+   |        \- (org.eclipse.jetty:jetty-server:jar:9.4.8.v20171121:test - omitted for duplicate)
+   +- com.sun.jersey:jersey-server:jar:1.19.3:test
+   |  \- com.sun.jersey:jersey-core:jar:1.19.3:test
+   +- com.sun.jersey:jersey-servlet:jar:1.19.3:test
+   |  \- (com.sun.jersey:jersey-server:jar:1.19.3:test - omitted for duplicate)
+   +- commons-configuration:commons-configuration:jar:1.10:test
+   |  +- (commons-lang:commons-lang:jar:2.4:test - version managed from 2.6; omitted for duplicate)
+   |  \- commons-logging:commons-logging:jar:1.1.1:test
+   +- commons-io:commons-io:jar:2.4:test (version managed from 2.6)
+   +- org.codehaus.jackson:jackson-jaxrs:jar:1.9.13:test
+   |  +- org.codehaus.jackson:jackson-core-asl:jar:1.9.13:test
+   |  \- (org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:test - omitted for duplicate)
+   +- org.mozilla:rhino:jar:1.7.9:test
+   +- (org.bouncycastle:bcprov-jdk15on:jar:1.59:compile - scope updated from test; omitted for duplicate)
+   \- (org.bouncycastle:bcpkix-jdk15on:jar:1.59:compile - scope updated from test; omitted for duplicate)

@@ -1,0 +1,169 @@
+org.apache.drill:drill-common:jar:1.14.0
++- org.apache.drill:drill-protocol:jar:1.14.0:compile
+|  +- com.google.protobuf:protobuf-java:jar:2.5.0:compile
+|  +- com.dyuproject.protostuff:protostuff-core:jar:1.0.8:compile
+|  |  \- com.dyuproject.protostuff:protostuff-api:jar:1.0.8:compile
+|  +- com.dyuproject.protostuff:protostuff-json:jar:1.0.8:compile
+|  |  +- (com.dyuproject.protostuff:protostuff-api:jar:1.0.8:compile - omitted for duplicate)
+|  |  \- org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile
+|  +- (commons-codec:commons-codec:jar:1.10:compile - omitted for duplicate)
+|  +- (io.netty:netty-handler:jar:4.0.48.Final:compile - omitted for duplicate)
+|  +- (io.netty:netty-common:jar:4.0.48.Final:compile - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:18.0:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.6:compile - omitted for duplicate)
+|  +- (org.slf4j:jul-to-slf4j:jar:1.7.6:compile - omitted for duplicate)
+|  +- (org.slf4j:jcl-over-slf4j:jar:1.7.6:compile - omitted for duplicate)
+|  +- (org.slf4j:log4j-over-slf4j:jar:1.7.6:compile - omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+|  \- (org.xerial.snappy:snappy-java:jar:1.1.2.6:compile - omitted for duplicate)
++- junit:junit:jar:4.12:compile
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test (scope managed from compile)
++- org.apache.calcite:calcite-core:jar:1.16.0-drill-r6:compile
+|  +- org.apache.calcite:calcite-linq4j:jar:1.16.0-drill-r6:compile
+|  |  \- (com.google.guava:guava:jar:19.0:compile - omitted for conflict with 18.0)
+|  +- commons-dbcp:commons-dbcp:jar:1.4:compile
+|  |  \- commons-pool:commons-pool:jar:1.5.4:compile
+|  +- (org.apache.commons:commons-lang3:jar:3.2:compile - omitted for duplicate)
+|  +- com.esri.geometry:esri-geometry-api:jar:2.0.0:compile
+|  +- com.google.code.findbugs:jsr305:jar:3.0.1:compile
+|  +- (com.google.guava:guava:jar:19.0:compile - omitted for conflict with 18.0)
+|  +- com.yahoo.datasketches:sketches-core:jar:0.9.0:compile
+|  |  \- com.yahoo.datasketches:memory:jar:0.9.0:compile
+|  +- net.hydromatic:aggdesigner-algorithm:jar:6.0:compile
+|  |  \- commons-lang:commons-lang:jar:2.4:compile
+|  +- org.codehaus.janino:janino:jar:2.7.6:compile
+|  |  \- (org.codehaus.janino:commons-compiler:jar:2.7.6:compile - omitted for duplicate)
+|  +- org.codehaus.janino:commons-compiler:jar:2.7.6:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.13:compile - omitted for conflict with 1.7.6)
++- com.typesafe:config:jar:1.0.0:compile
++- org.apache.commons:commons-lang3:jar:3.2:compile
++- org.msgpack:msgpack:jar:0.6.6:compile
+|  +- com.googlecode.json-simple:json-simple:jar:1.1.1:compile
+|  |  \- (junit:junit:jar:4.10:compile - omitted for conflict with 4.12)
+|  \- (org.javassist:javassist:jar:3.22.0-GA:compile - version managed from 3.19.0-GA; omitted for duplicate)
++- org.reflections:reflections:jar:0.9.10:compile
+|  +- (com.google.guava:guava:jar:15.0:compile - omitted for conflict with 18.0)
+|  +- (org.javassist:javassist:jar:3.22.0-GA:compile - version managed from 3.19.0-GA; omitted for duplicate)
+|  \- com.google.code.findbugs:annotations:jar:2.0.1:compile
++- org.javassist:javassist:jar:3.22.0-GA:compile
++- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.5:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.5:compile - version managed from 2.9.0; omitted for duplicate)
+|  \- com.fasterxml.jackson.core:jackson-core:jar:2.9.5:compile
++- io.dropwizard.metrics:metrics-core:jar:4.0.2:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for conflict with 1.7.6)
++- io.dropwizard.metrics:metrics-servlets:jar:4.0.2:compile
+|  +- (io.dropwizard.metrics:metrics-core:jar:4.0.2:compile - omitted for duplicate)
+|  +- io.dropwizard.metrics:metrics-healthchecks:jar:4.0.2:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for conflict with 1.7.6)
+|  +- io.dropwizard.metrics:metrics-json:jar:4.0.2:compile
+|  |  +- (io.dropwizard.metrics:metrics-core:jar:4.0.2:compile - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile - version managed from 2.9.3; omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for conflict with 1.7.6)
+|  +- (io.dropwizard.metrics:metrics-jvm:jar:4.0.2:compile - omitted for duplicate)
+|  +- com.papertrail:profiler:jar:1.0.2:compile
+|  |  \- (joda-time:joda-time:jar:2.9.1:compile - omitted for conflict with 2.9)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile - version managed from 2.9.3; omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for conflict with 1.7.6)
++- io.dropwizard.metrics:metrics-jvm:jar:4.0.2:compile
+|  +- (io.dropwizard.metrics:metrics-core:jar:4.0.2:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for conflict with 1.7.6)
++- io.dropwizard.metrics:metrics-jmx:jar:4.0.2:compile
+|  +- (io.dropwizard.metrics:metrics-core:jar:4.0.2:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for conflict with 1.7.6)
++- org.antlr:antlr-runtime:jar:3.4:compile
+|  +- org.antlr:stringtemplate:jar:3.2.1:compile
+|  |  \- (antlr:antlr:jar:2.7.7:compile - omitted for duplicate)
+|  \- antlr:antlr:jar:2.7.7:compile
++- joda-time:joda-time:jar:2.9:compile
++- commons-codec:commons-codec:jar:1.10:compile
++- io.netty:netty-handler:jar:4.0.48.Final:compile
+|  +- io.netty:netty-buffer:jar:4.0.48.Final:compile
+|  |  \- (io.netty:netty-common:jar:4.0.48.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-transport:jar:4.0.48.Final:compile
+|  |  \- (io.netty:netty-buffer:jar:4.0.48.Final:compile - omitted for duplicate)
+|  \- io.netty:netty-codec:jar:4.0.48.Final:compile
+|     \- (io.netty:netty-transport:jar:4.0.48.Final:compile - omitted for duplicate)
++- io.netty:netty-common:jar:4.0.48.Final:compile
++- com.google.guava:guava:jar:18.0:compile
++- org.slf4j:slf4j-api:jar:1.7.6:compile
++- org.slf4j:jul-to-slf4j:jar:1.7.6:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.6:compile - omitted for duplicate)
++- org.slf4j:jcl-over-slf4j:jar:1.7.6:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.6:compile - omitted for duplicate)
++- org.slf4j:log4j-over-slf4j:jar:1.7.6:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.6:compile - omitted for duplicate)
++- commons-io:commons-io:jar:2.4:compile
++- org.jmockit:jmockit:jar:1.39:test
+|  \- (com.google.code.findbugs:jsr305:jar:3.0.2:test - omitted for conflict with 3.0.1)
++- org.mockito:mockito-core:jar:2.18.3:test
+|  +- net.bytebuddy:byte-buddy:jar:1.8.5:test
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.8.5:test
+|  \- org.objenesis:objenesis:jar:2.6:test
++- ch.qos.logback:logback-classic:jar:1.0.13:test
+|  +- ch.qos.logback:logback-core:jar:1.0.13:test
+|  \- (org.slf4j:slf4j-api:jar:1.7.5:test - omitted for conflict with 1.7.6)
++- de.huxhorn.lilith:de.huxhorn.lilith.logback.appender.multiplex-classic:jar:0.9.44:test
+|  +- de.huxhorn.sulky:de.huxhorn.sulky.codec:jar:0.9.17:test
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.7:test - omitted for conflict with 1.7.6)
+|  |  \- de.huxhorn.sulky:de.huxhorn.sulky.io:jar:0.9.17:test
+|  +- (ch.qos.logback:logback-classic:jar:1.1.2:test - omitted for conflict with 1.0.13)
+|  +- de.huxhorn.lilith:de.huxhorn.lilith.logback.converter-classic:jar:0.9.44:test
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.7:test - omitted for conflict with 1.7.6)
+|  |  +- (de.huxhorn.sulky:de.huxhorn.sulky.codec:jar:0.9.17:test - omitted for duplicate)
+|  |  +- (ch.qos.logback:logback-classic:jar:1.1.2:test - omitted for conflict with 1.0.13)
+|  |  +- de.huxhorn.lilith:de.huxhorn.lilith.data.converter:jar:0.9.44:test
+|  |  +- de.huxhorn.lilith:de.huxhorn.lilith.logback.classic:jar:0.9.44:test
+|  |  |  \- (de.huxhorn.lilith:de.huxhorn.lilith.data.logging:jar:0.9.44:test - omitted for duplicate)
+|  |  \- de.huxhorn.lilith:de.huxhorn.lilith.data.logging:jar:0.9.44:test
+|  |     +- de.huxhorn.sulky:de.huxhorn.sulky.formatting:jar:0.9.17:test
+|  |     |  \- (org.slf4j:slf4j-api:jar:1.7.7:test - omitted for conflict with 1.7.6)
+|  |     \- de.huxhorn.lilith:de.huxhorn.lilith.data.eventsource:jar:0.9.44:test
+|  +- de.huxhorn.lilith:de.huxhorn.lilith.logback.appender.multiplex-core:jar:0.9.44:test
+|  |  +- (ch.qos.logback:logback-core:jar:1.1.2:test - omitted for conflict with 1.0.13)
+|  |  +- (de.huxhorn.sulky:de.huxhorn.sulky.codec:jar:0.9.17:test - omitted for duplicate)
+|  |  \- de.huxhorn.lilith:de.huxhorn.lilith.sender:jar:0.9.44:test
+|  |     +- (org.slf4j:slf4j-api:jar:1.7.7:test - omitted for conflict with 1.7.6)
+|  |     \- (de.huxhorn.sulky:de.huxhorn.sulky.io:jar:0.9.17:test - omitted for duplicate)
+|  \- de.huxhorn.lilith:de.huxhorn.lilith.data.logging.protobuf:jar:0.9.44:test
+|     +- (de.huxhorn.sulky:de.huxhorn.sulky.codec:jar:0.9.17:test - omitted for duplicate)
+|     +- (com.google.protobuf:protobuf-java:jar:2.5.0:test - omitted for duplicate)
+|     \- (de.huxhorn.lilith:de.huxhorn.lilith.data.logging:jar:0.9.44:test - omitted for duplicate)
++- org.xerial.snappy:snappy-java:jar:1.1.2.6:compile
++- org.apache.kerby:kerb-client:jar:1.0.0-RC2:test
+|  +- org.apache.kerby:kerby-config:jar:1.0.0-RC2:test
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.14:test - omitted for conflict with 1.7.6)
+|  +- (org.apache.kerby:kerb-core:jar:1.0.0-RC2:test - omitted for duplicate)
+|  +- org.apache.kerby:kerb-common:jar:1.0.0-RC2:test
+|  |  +- (org.apache.kerby:kerby-config:jar:1.0.0-RC2:test - omitted for duplicate)
+|  |  +- (org.apache.kerby:kerb-core:jar:1.0.0-RC2:test - omitted for duplicate)
+|  |  \- org.apache.kerby:kerb-crypto:jar:1.0.0-RC2:test
+|  |     +- (org.apache.kerby:kerby-util:jar:1.0.0-RC2:test - omitted for duplicate)
+|  |     \- (org.apache.kerby:kerb-core:jar:1.0.0-RC2:test - omitted for duplicate)
+|  \- org.apache.kerby:kerb-util:jar:1.0.0-RC2:test
+|     +- (org.apache.kerby:kerby-config:jar:1.0.0-RC2:test - omitted for duplicate)
+|     +- (org.apache.kerby:kerb-core:jar:1.0.0-RC2:test - omitted for duplicate)
+|     \- (org.apache.kerby:kerb-crypto:jar:1.0.0-RC2:test - omitted for duplicate)
++- org.apache.kerby:kerb-core:jar:1.0.0-RC2:test
+|  +- org.apache.kerby:kerby-asn1:jar:1.0.0-RC2:test
+|  \- org.apache.kerby:kerby-pkix:jar:1.0.0-RC2:test
+|     +- (org.apache.kerby:kerby-asn1:jar:1.0.0-RC2:test - omitted for duplicate)
+|     +- org.apache.kerby:kerby-util:jar:1.0.0-RC2:test
+|     \- (org.slf4j:slf4j-api:jar:1.7.14:test - omitted for conflict with 1.7.6)
+\- org.apache.kerby:kerb-simplekdc:jar:1.0.0-RC2:test
+   +- (org.apache.kerby:kerby-config:jar:1.0.0-RC2:test - omitted for duplicate)
+   +- (org.apache.kerby:kerb-core:jar:1.0.0-RC2:test - omitted for duplicate)
+   +- (org.apache.kerby:kerb-client:jar:1.0.0-RC2:test - omitted for duplicate)
+   +- (org.apache.kerby:kerb-util:jar:1.0.0-RC2:test - omitted for duplicate)
+   +- org.apache.kerby:kerb-server:jar:1.0.0-RC2:test
+   |  +- (org.apache.kerby:kerby-config:jar:1.0.0-RC2:test - omitted for duplicate)
+   |  +- (org.apache.kerby:kerb-core:jar:1.0.0-RC2:test - omitted for duplicate)
+   |  +- (org.apache.kerby:kerb-common:jar:1.0.0-RC2:test - omitted for duplicate)
+   |  \- org.apache.kerby:kerb-identity:jar:1.0.0-RC2:test
+   |     +- (org.apache.kerby:kerby-config:jar:1.0.0-RC2:test - omitted for duplicate)
+   |     \- (org.apache.kerby:kerb-core:jar:1.0.0-RC2:test - omitted for duplicate)
+   \- org.apache.kerby:kerb-admin:jar:1.0.0-RC2:test
+      +- (org.apache.kerby:kerby-config:jar:1.0.0-RC2:test - omitted for duplicate)
+      +- (org.apache.kerby:kerb-identity:jar:1.0.0-RC2:test - omitted for duplicate)
+      +- (org.apache.kerby:kerb-server:jar:1.0.0-RC2:test - omitted for duplicate)
+      \- (org.apache.kerby:kerb-util:jar:1.0.0-RC2:test - omitted for duplicate)

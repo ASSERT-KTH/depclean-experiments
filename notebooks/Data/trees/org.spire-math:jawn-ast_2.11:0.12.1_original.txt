@@ -1,0 +1,19 @@
+org.spire-math:jawn-ast_2.11:jar:0.12.1
++- org.scala-lang:scala-library:jar:2.11.12:compile
++- org.spire-math:jawn-parser_2.11:jar:0.12.1:compile
+|  \- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
++- org.spire-math:jawn-util_2.11:jar:0.12.1:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  \- (org.spire-math:jawn-parser_2.11:jar:0.12.1:compile - omitted for duplicate)
++- org.scalatest:scalatest_2.11:jar:3.0.5:test
+|  +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|  +- org.scalactic:scalactic_2.11:jar:3.0.5:test
+|  |  +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|  |  \- (org.scala-lang:scala-reflect:jar:2.11.12:test - omitted for duplicate)
+|  +- org.scala-lang:scala-reflect:jar:2.11.12:test
+|  |  \- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|  \- org.scala-lang.modules:scala-xml_2.11:jar:1.0.6:test
+|     \- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.12)
+\- org.scalacheck:scalacheck_2.11:jar:1.13.5:test
+   +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.12)
+   \- org.scala-sbt:test-interface:jar:1.0:test

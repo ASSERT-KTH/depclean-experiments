@@ -1,0 +1,36 @@
+org.apache.spark:spark-streaming-flume-sink_2.10:jar:2.2.2
++- org.apache.flume:flume-ng-sdk:jar:1.6.0:compile
+|  +- org.apache.avro:avro:jar:1.7.7:compile
+|  |  +- org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile
+|  |  +- org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:compile
+|  |  +- com.thoughtworks.paranamer:paranamer:jar:2.6:compile
+|  |  +- org.xerial.snappy:snappy-java:jar:1.1.2.6:compile
+|  |  \- org.apache.commons:commons-compress:jar:1.4.1:compile
+|  |     \- org.tukaani:xz:jar:1.0:compile
+|  \- org.apache.avro:avro-ipc:jar:1.7.7:compile
++- org.apache.flume:flume-ng-core:jar:1.6.0:compile
+|  +- org.apache.flume:flume-ng-configuration:jar:1.6.0:compile
+|  +- org.slf4j:slf4j-api:jar:1.7.16:compile
+|  +- commons-io:commons-io:jar:2.4:compile
+|  +- commons-codec:commons-codec:jar:1.10:compile
+|  +- log4j:log4j:jar:1.2.17:compile
+|  +- org.slf4j:slf4j-log4j12:jar:1.7.16:compile
+|  +- commons-cli:commons-cli:jar:1.2:compile
+|  +- commons-lang:commons-lang:jar:2.6:compile
+|  +- joda-time:joda-time:jar:2.9.3:compile
+|  +- org.mortbay.jetty:jetty-util:jar:6.1.26:compile
+|  +- org.mortbay.jetty:jetty:jar:6.1.26:compile
+|  +- com.google.code.gson:gson:jar:2.2.2:compile
+|  \- org.apache.mina:mina-core:jar:2.0.4:compile
++- org.scala-lang:scala-library:jar:2.10.6:compile
++- com.google.guava:guava:jar:14.0.1:test
++- io.netty:netty:jar:3.4.0.Final:test
++- org.apache.spark:spark-tags_2.10:jar:2.2.2:compile
++- org.apache.spark:spark-tags_2.10:test-jar:tests:2.2.2:test
++- org.scalatest:scalatest_2.10:jar:2.2.6:test
++- junit:junit:jar:4.12:test
++- com.novocode:junit-interface:jar:0.11:test
++- org.spark-project.spark:unused:jar:1.0.0:compile
+\- org.scalatest:scalatest_2.11:jar:2.2.6:test
+   +- org.scala-lang:scala-reflect:jar:2.11.8:test
+   \- org.scala-lang.modules:scala-xml_2.11:jar:1.0.2:test

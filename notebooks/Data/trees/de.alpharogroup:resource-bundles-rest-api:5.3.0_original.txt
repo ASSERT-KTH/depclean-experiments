@@ -1,0 +1,92 @@
+de.alpharogroup:resource-bundles-rest-api:jar:5.3.0
++- de.alpharogroup:rest-api:jar:6.2.0:compile
+|  +- de.alpharogroup:domain-api:jar:6.2.0:compile
+|  +- javax.ws.rs:javax.ws.rs-api:jar:2.1:compile
+|  +- com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:jar:2.9.5:compile
+|  |  +- com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:jar:2.9.5:compile
+|  |  \- com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.9.5:compile
+|  |     \- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+|  +- com.fasterxml.jackson.datatype:jackson-datatype-jaxrs:jar:2.9.5:compile
+|  |  +- com.fasterxml.jackson.core:jackson-core:jar:2.9.5:compile
+|  |  \- com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile
+|  \- javax:javaee-api:jar:7.0:compile
+|     \- com.sun.mail:javax.mail:jar:1.5.0:compile
+|        \- javax.activation:activation:jar:1.1:compile
++- de.alpharogroup:resource-bundles-domain:jar:5.3.0:compile
+|  +- de.alpharogroup:domain-mapper:jar:6.2.0:compile
+|  |  +- de.alpharogroup:data-api:jar:6.2.0:compile
+|  |  |  +- de.alpharogroup:base-entities:jar:6.2.0:compile
+|  |  |  +- org.hibernate:hibernate-core:jar:5.2.12.Final:compile
+|  |  |  |  +- org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile
+|  |  |  |  +- org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final:compile
+|  |  |  |  +- org.javassist:javassist:jar:3.20.0-GA:compile
+|  |  |  |  +- antlr:antlr:jar:2.7.7:compile
+|  |  |  |  +- org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.0.1.Final:compile
+|  |  |  |  +- org.jboss:jandex:jar:2.0.3.Final:compile
+|  |  |  |  +- com.fasterxml:classmate:jar:1.3.0:compile
+|  |  |  |  +- dom4j:dom4j:jar:1.6.1:compile
+|  |  |  |  \- org.hibernate.common:hibernate-commons-annotations:jar:5.0.1.Final:compile
+|  |  |  +- org.springframework:spring-core:jar:4.3.15.RELEASE:compile
+|  |  |  +- org.springframework:spring-orm:jar:4.3.15.RELEASE:compile
+|  |  |  |  +- org.springframework:spring-jdbc:jar:4.3.15.RELEASE:compile
+|  |  |  |  \- org.springframework:spring-tx:jar:4.3.15.RELEASE:compile
+|  |  |  \- de.alpharogroup:xml-extensions:jar:4.18.0:compile
+|  |  |     +- xerces:xercesImpl:jar:2.11.0:compile
+|  |  |     |  \- xml-apis:xml-apis:jar:1.4.01:compile
+|  |  |     +- org.apache.xmlbeans:xmlbeans:jar:2.6.0:compile
+|  |  |     |  \- stax:stax-api:jar:1.0.1:compile
+|  |  |     +- org.codehaus.jettison:jettison:jar:1.3.8:compile
+|  |  |     +- com.thoughtworks.xstream:xstream:jar:1.4.9:compile
+|  |  |     |  +- xmlpull:xmlpull:jar:1.1.3.1:compile
+|  |  |     |  \- xpp3:xpp3_min:jar:1.1.4c:compile
+|  |  |     \- org.json:json:jar:20171018:compile
+|  |  +- net.sf.dozer:dozer:jar:5.5.1:compile
+|  |  |  \- org.slf4j:jcl-over-slf4j:jar:1.7.25:compile
+|  |  \- de.alpharogroup:jobject-merge:jar:1.10.0:compile
+|  +- de.alpharogroup:resource-bundles-domain-model:jar:5.3.0:compile
+|  +- de.alpharogroup:resource-bundles-business:jar:5.3.0:compile
+|  |  \- de.alpharogroup:business-api:jar:6.2.0:compile
+|  +- de.alpharogroup:resource-bundles-entities:jar:5.3.0:compile
+|  |  \- org.springframework:spring-context:jar:4.3.15.RELEASE:compile
+|  |     +- org.springframework:spring-aop:jar:4.3.15.RELEASE:compile
+|  |     +- org.springframework:spring-beans:jar:4.3.15.RELEASE:compile
+|  |     \- org.springframework:spring-expression:jar:4.3.15.RELEASE:compile
+|  \- de.alpharogroup:jcommons-lang:jar:4.29.0:compile
+|     +- org.apache.commons:commons-collections4:jar:4.1:compile
+|     +- commons-codec:commons-codec:jar:1.11:compile
+|     +- org.apache.commons:commons-lang3:jar:3.7:compile
+|     +- joda-time:joda-time:jar:2.9.9:compile
+|     +- de.alpharogroup:jobject-core:jar:1.10.0:compile
+|     \- de.alpharogroup:jobject-diff:jar:1.10.0:compile
++- de.alpharogroup:resourcebundle-inspector:jar:2.20.0:compile
+|  +- de.alpharogroup:silly-collections:jar:4.27.0:compile
+|  |  \- de.alpharogroup:jobject-compare:jar:1.10.0:compile
+|  +- de.alpharogroup:jobject-clone:jar:1.10.0:compile
+|  |  +- commons-beanutils:commons-beanutils:jar:1.9.3:compile
+|  |  |  +- commons-logging:commons-logging:jar:1.2:compile
+|  |  |  \- commons-collections:commons-collections:jar:3.2.2:compile
+|  |  +- uk.com.robust-it:cloning:jar:1.9.9:compile
+|  |  \- de.alpharogroup:jobject-copy:jar:1.10.0:compile
+|  +- de.alpharogroup:file-worker:jar:4.19.0:compile
+|  |  +- org.apache.poi:poi:jar:3.17:compile
+|  |  +- org.apache.poi:poi-ooxml:jar:3.17:compile
+|  |  |  +- org.apache.poi:poi-ooxml-schemas:jar:3.17:compile
+|  |  |  \- com.github.virtuald:curvesapi:jar:1.04:compile
+|  |  \- net.lingala.zip4j:zip4j:jar:1.3.2:compile
+|  +- com.neovisionaries:nv-i18n:jar:1.23:compile
+|  \- commons-io:commons-io:jar:2.6:compile
++- org.projectlombok:lombok:jar:1.16.20:compile
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- org.slf4j:slf4j-log4j12:jar:1.7.25:compile
+|  \- log4j:log4j:jar:1.2.17:compile
++- org.apache.logging.log4j:log4j-api:jar:2.11.0:compile
++- org.apache.logging.log4j:log4j-core:jar:2.11.0:compile
++- org.testng:testng:jar:6.14.3:test
+|  +- com.beust:jcommander:jar:1.72:test
+|  \- org.apache-extras.beanshell:bsh:jar:2.0b6:test
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
+\- org.mockito:mockito-core:jar:2.18.0:test
+   +- net.bytebuddy:byte-buddy:jar:1.8.3:test
+   +- net.bytebuddy:byte-buddy-agent:jar:1.8.3:test
+   \- org.objenesis:objenesis:jar:2.6:compile

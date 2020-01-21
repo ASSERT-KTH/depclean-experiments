@@ -1,0 +1,26 @@
+io.micronaut:http-netty:jar:1.0.0.M4
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- io.micronaut:buffer-netty:jar:1.0.0.M4:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  +- io.micronaut:core:jar:1.0.0.M4:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  |  +- org.reactivestreams:reactive-streams:jar:1.0.1:compile
+|  |  \- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+|  \- io.netty:netty-buffer:jar:4.1.28.Final:compile
+|     \- io.netty:netty-common:jar:4.1.28.Final:compile
++- io.micronaut:http:jar:1.0.0.M4:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  \- io.micronaut:inject:jar:1.0.0.M4:compile
+|     +- javax.inject:javax.inject:jar:1:compile
+|     +- (io.micronaut:core:jar:1.0.0.M4:compile - omitted for duplicate)
+|     \- org.yaml:snakeyaml:jar:1.20:compile
++- io.netty:netty-codec-http:jar:4.1.28.Final:compile
+|  \- io.netty:netty-codec:jar:4.1.28.Final:compile
+|     \- (io.netty:netty-transport:jar:4.1.28.Final:compile - omitted for duplicate)
+\- io.netty:netty-handler:jar:4.1.28.Final:compile
+   +- (io.netty:netty-buffer:jar:4.1.28.Final:compile - omitted for duplicate)
+   +- io.netty:netty-transport:jar:4.1.28.Final:compile
+   |  +- (io.netty:netty-buffer:jar:4.1.28.Final:compile - omitted for duplicate)
+   |  \- io.netty:netty-resolver:jar:4.1.28.Final:compile
+   |     \- (io.netty:netty-common:jar:4.1.28.Final:compile - omitted for duplicate)
+   \- (io.netty:netty-codec:jar:4.1.28.Final:compile - omitted for duplicate)

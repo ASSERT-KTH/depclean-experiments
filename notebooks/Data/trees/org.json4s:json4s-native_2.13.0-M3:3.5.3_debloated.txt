@@ -1,0 +1,11 @@
+org.json4s:json4s-native_2.13.0-M3:jar:3.5.3
++- org.scala-lang:scala-library:jar:2.13.0-M3:compile
+\- org.json4s:json4s-core_2.13.0-M3:jar:3.5.3:compile
+   +- (org.scala-lang:scala-library:jar:2.13.0-M3:compile - omitted for duplicate)
+   +- org.json4s:json4s-ast_2.13.0-M3:jar:3.5.3:compile
+   |  \- (org.scala-lang:scala-library:jar:2.13.0-M3:compile - omitted for duplicate)
+   +- org.json4s:json4s-scalap_2.13.0-M3:jar:3.5.3:compile
+   |  \- (org.scala-lang:scala-library:jar:2.13.0-M3:compile - omitted for duplicate)
+   +- com.thoughtworks.paranamer:paranamer:jar:2.8:compile
+   \- org.scala-lang.modules:scala-xml_2.13.0-M3:jar:1.0.6:compile
+      \- (org.scala-lang:scala-library:jar:2.13.0-M3:compile - omitted for duplicate)

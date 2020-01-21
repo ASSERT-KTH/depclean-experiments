@@ -1,0 +1,18 @@
+org.jscsi:commons:jar:2.6.0
++- org.slf4j:slf4j-api:jar:1.7.2:compile
++- ch.qos.logback:logback-classic:jar:1.0.10:compile
+|  +- (ch.qos.logback:logback-core:jar:1.0.10:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.2:compile - omitted for duplicate)
++- org.testng:testng:jar:6.8:test
+|  +- junit:junit:jar:4.10:test
+|  |  \- (org.hamcrest:hamcrest-core:jar:1.1:test - omitted for duplicate)
+|  +- org.beanshell:bsh:jar:2.0b4:test
+|  +- com.beust:jcommander:jar:1.27:test
+|  \- org.yaml:snakeyaml:jar:1.6:test
++- org.perfidix:perfidix:jar:3.6.9:test
+|  +- commons-primitives:commons-primitives:jar:20041207.202534:test
+|  +- commons-math:commons-math:jar:1.2:test
+|  \- joda-time:joda-time:jar:2.1:test
+\- org.mockito:mockito-core:jar:1.9.5:test
+   +- org.hamcrest:hamcrest-core:jar:1.1:test
+   \- org.objenesis:objenesis:jar:1.0:test

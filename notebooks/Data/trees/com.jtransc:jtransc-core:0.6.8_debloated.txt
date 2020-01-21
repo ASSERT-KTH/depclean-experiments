@@ -1,0 +1,82 @@
+com.jtransc:jtransc-core:jar:0.6.8
++- com.jtransc:jtransc-utils:jar:0.6.8:compile
+|  +- org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.10:compile
+|  |  \- org.jetbrains:annotations:jar:13.0:compile
+|  \- com.jtransc:jtransc-rt-core:jar:0.6.8:compile
+|     \- com.jtransc:jtransc-annotations:jar:0.6.8:compile
++- com.jtransc:jtransc-asm:jar:0.6.8:compile
++- org.apache.maven:maven-core:jar:3.3.9:compile
+|  +- org.apache.maven:maven-model:jar:3.3.9:compile
+|  |  +- (org.codehaus.plexus:plexus-utils:jar:3.0.22:compile - omitted for conflict with 2.0.4)
+|  |  \- (org.apache.commons:commons-lang3:jar:3.4:compile - omitted for duplicate)
+|  +- org.apache.maven:maven-settings:jar:3.3.9:compile
+|  |  \- (org.codehaus.plexus:plexus-utils:jar:3.0.22:compile - omitted for conflict with 2.0.4)
+|  +- org.apache.maven:maven-settings-builder:jar:3.3.9:compile
+|  |  +- org.apache.maven:maven-builder-support:jar:3.3.9:compile
+|  |  |  +- (org.codehaus.plexus:plexus-utils:jar:3.0.22:compile - omitted for conflict with 2.0.4)
+|  |  |  \- (org.apache.commons:commons-lang3:jar:3.4:compile - omitted for duplicate)
+|  |  +- (org.codehaus.plexus:plexus-utils:jar:3.0.22:compile - omitted for conflict with 2.0.4)
+|  |  +- (org.codehaus.plexus:plexus-interpolation:jar:1.21:compile - omitted for duplicate)
+|  |  +- (org.codehaus.plexus:plexus-component-annotations:jar:1.6:compile - omitted for duplicate)
+|  |  +- (org.apache.maven:maven-settings:jar:3.3.9:compile - omitted for duplicate)
+|  |  +- (org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile - omitted for duplicate)
+|  |  \- (org.apache.commons:commons-lang3:jar:3.4:compile - omitted for duplicate)
+|  +- org.apache.maven:maven-repository-metadata:jar:3.3.9:compile
+|  |  \- (org.codehaus.plexus:plexus-utils:jar:3.0.22:compile - omitted for conflict with 2.0.4)
+|  +- (org.apache.maven:maven-artifact:jar:3.3.9:compile - omitted for conflict with 3.0)
+|  +- org.apache.maven:maven-plugin-api:jar:3.3.9:compile
+|  |  +- (org.apache.maven:maven-model:jar:3.3.9:compile - omitted for duplicate)
+|  |  +- (org.apache.maven:maven-artifact:jar:3.3.9:compile - omitted for conflict with 3.0)
+|  |  \- (org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.3.2:compile - omitted for duplicate)
+|  +- org.apache.maven:maven-model-builder:jar:3.3.9:compile
+|  |  +- (org.codehaus.plexus:plexus-utils:jar:3.0.22:compile - omitted for conflict with 2.0.4)
+|  |  +- (org.codehaus.plexus:plexus-interpolation:jar:1.21:compile - omitted for duplicate)
+|  |  +- (org.codehaus.plexus:plexus-component-annotations:jar:1.6:compile - omitted for duplicate)
+|  |  +- (org.apache.maven:maven-model:jar:3.3.9:compile - omitted for duplicate)
+|  |  +- (org.apache.maven:maven-artifact:jar:3.3.9:compile - omitted for conflict with 3.0)
+|  |  +- (org.apache.maven:maven-builder-support:jar:3.3.9:compile - omitted for duplicate)
+|  |  +- com.google.guava:guava:jar:18.0:compile
+|  |  \- (org.apache.commons:commons-lang3:jar:3.4:compile - omitted for duplicate)
+|  +- org.apache.maven:maven-aether-provider:jar:3.3.9:compile
+|  |  +- (org.apache.maven:maven-model:jar:3.3.9:compile - omitted for duplicate)
+|  |  +- (org.apache.maven:maven-model-builder:jar:3.3.9:compile - omitted for duplicate)
+|  |  +- (org.apache.maven:maven-repository-metadata:jar:3.3.9:compile - omitted for duplicate)
+|  |  +- (org.eclipse.aether:aether-api:jar:1.0.2.v20150114:compile - omitted for duplicate)
+|  |  +- org.eclipse.aether:aether-spi:jar:1.0.2.v20150114:compile
+|  |  |  \- (org.eclipse.aether:aether-api:jar:1.0.2.v20150114:compile - omitted for duplicate)
+|  |  +- (org.eclipse.aether:aether-util:jar:1.0.2.v20150114:compile - omitted for duplicate)
+|  |  +- (org.eclipse.aether:aether-impl:jar:1.0.2.v20150114:compile - omitted for duplicate)
+|  |  +- (org.codehaus.plexus:plexus-component-annotations:jar:1.6:compile - omitted for duplicate)
+|  |  +- (org.codehaus.plexus:plexus-utils:jar:3.0.22:compile - omitted for conflict with 2.0.4)
+|  |  \- (org.apache.commons:commons-lang3:jar:3.4:compile - omitted for duplicate)
+|  +- org.eclipse.aether:aether-impl:jar:1.0.2.v20150114:compile
+|  |  +- (org.eclipse.aether:aether-api:jar:1.0.2.v20150114:compile - omitted for duplicate)
+|  |  +- (org.eclipse.aether:aether-spi:jar:1.0.2.v20150114:compile - omitted for duplicate)
+|  |  \- (org.eclipse.aether:aether-util:jar:1.0.2.v20150114:compile - omitted for duplicate)
+|  +- (org.eclipse.aether:aether-api:jar:1.0.2.v20150114:compile - omitted for conflict with 1.1.0)
+|  +- (org.eclipse.aether:aether-util:jar:1.0.2.v20150114:compile - omitted for conflict with 1.1.0)
+|  +- org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.3.2:compile
+|  |  +- javax.enterprise:cdi-api:jar:1.0:compile
+|  |  |  +- javax.annotation:jsr250-api:jar:1.0:compile
+|  |  |  \- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  |  +- org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.3.2:compile
+|  |  +- (org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile - omitted for conflict with 1.6)
+|  |  +- (org.codehaus.plexus:plexus-classworlds:jar:2.5.2:compile - omitted for duplicate)
+|  |  \- (org.codehaus.plexus:plexus-utils:jar:3.0.17:compile - omitted for conflict with 2.0.4)
+|  +- com.google.inject:guice:jar:no_aop:4.0:compile
+|  |  +- javax.inject:javax.inject:jar:1:compile
+|  |  +- aopalliance:aopalliance:jar:1.0:compile
+|  |  \- (com.google.guava:guava:jar:16.0.1:compile - omitted for conflict with 18.0)
+|  +- org.codehaus.plexus:plexus-interpolation:jar:1.21:compile
+|  +- org.codehaus.plexus:plexus-utils:jar:3.0.22:compile
+|  +- org.codehaus.plexus:plexus-classworlds:jar:2.5.2:compile
+|  +- org.codehaus.plexus:plexus-component-annotations:jar:1.6:compile
+|  +- org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+|  |  +- (org.codehaus.plexus:plexus-utils:jar:1.5.5:compile - omitted for conflict with 3.0.22)
+|  |  \- org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+|  \- org.apache.commons:commons-lang3:jar:3.4:compile
++- org.apache.maven.shared:maven-artifact-resolver:jar:1.0:compile
++- org.eclipse.aether:aether-util:jar:1.1.0:compile
+|  \- (org.eclipse.aether:aether-api:jar:1.1.0:compile - omitted for duplicate)
+\- junit:junit:jar:4.12:test (scope not updated to compile)
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

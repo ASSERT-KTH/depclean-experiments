@@ -1,0 +1,107 @@
+com.github.skjolber.log-domain:log-domain-support-stackdriver:jar:1.0.3
++- com.google.cloud:google-cloud-logging:jar:1.19.0:compile
+|  +- com.google.cloud:google-cloud-core:jar:1.19.0:compile
+|  |  +- com.google.guava:guava:jar:23.4-android:compile
+|  |  +- joda-time:joda-time:jar:2.9.2:compile
+|  |  +- com.google.http-client:google-http-client:jar:1.23.0:compile
+|  |  |  \- org.apache.httpcomponents:httpclient:jar:4.0.1:compile
+|  |  |     +- org.apache.httpcomponents:httpcore:jar:4.0.1:compile
+|  |  |     +- commons-logging:commons-logging:jar:1.1.1:compile
+|  |  |     \- commons-codec:commons-codec:jar:1.3:compile
+|  |  +- com.google.code.findbugs:jsr305:jar:3.0.1:compile
+|  |  +- com.google.api:api-common:jar:1.3.0:compile
+|  |  |  +- (com.google.code.findbugs:jsr305:jar:3.0.0:compile - omitted for conflict with 3.0.1)
+|  |  |  \- (com.google.guava:guava:jar:19.0:compile - omitted for conflict with 23.4-android)
+|  |  +- com.google.api:gax:jar:1.19.0:compile
+|  |  |  +- (com.google.code.findbugs:jsr305:jar:3.0.0:compile - omitted for conflict with 3.0.1)
+|  |  |  +- (com.google.guava:guava:jar:20.0:compile - omitted for duplicate)
+|  |  |  +- (org.threeten:threetenbp:jar:1.3.3:compile - omitted for duplicate)
+|  |  |  +- (com.google.auth:google-auth-library-oauth2-http:jar:0.9.0:compile - omitted for duplicate)
+|  |  |  \- (com.google.api:api-common:jar:1.2.0:compile - omitted for conflict with 1.3.0)
+|  |  +- com.google.protobuf:protobuf-java-util:jar:3.5.1:compile
+|  |  |  +- (com.google.protobuf:protobuf-java:jar:3.5.1:compile - omitted for duplicate)
+|  |  |  +- (com.google.guava:guava:jar:19.0:compile - omitted for conflict with 23.4-android)
+|  |  |  \- com.google.code.gson:gson:jar:2.7:compile
+|  |  +- com.google.api.grpc:proto-google-common-protos:jar:1.1.1:compile
+|  |  |  \- (com.google.protobuf:protobuf-java:jar:3.4.0:compile - omitted for conflict with 3.5.1)
+|  |  \- com.google.api.grpc:proto-google-iam-v1:jar:0.2.1:compile
+|  |     +- (com.google.api:api-common:jar:1.3.0:compile - omitted for duplicate)
+|  |     +- (com.google.protobuf:protobuf-java:jar:3.4.0:compile - omitted for conflict with 3.5.1)
+|  |     \- (com.google.api.grpc:proto-google-common-protos:jar:1.1.1:compile - omitted for duplicate)
+|  +- com.google.cloud:google-cloud-core-grpc:jar:1.19.0:compile
+|  |  +- com.google.auth:google-auth-library-credentials:jar:0.9.0:compile
+|  |  +- (com.google.cloud:google-cloud-core:jar:1.19.0:compile - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:20.0:compile - omitted for duplicate)
+|  |  +- com.google.protobuf:protobuf-java:jar:3.5.1:compile
+|  |  +- (com.google.protobuf:protobuf-java-util:jar:3.5.1:compile - omitted for duplicate)
+|  |  +- io.grpc:grpc-protobuf:jar:1.9.0:compile
+|  |  |  +- (io.grpc:grpc-core:jar:1.9.0:compile - omitted for duplicate)
+|  |  |  +- (com.google.protobuf:protobuf-java:jar:3.5.1:compile - omitted for duplicate)
+|  |  |  +- (com.google.guava:guava:jar:19.0:compile - omitted for conflict with 23.4-android)
+|  |  |  +- (com.google.protobuf:protobuf-java-util:jar:3.5.1:compile - omitted for duplicate)
+|  |  |  +- (com.google.api.grpc:proto-google-common-protos:jar:1.0.0:compile - omitted for conflict with 1.1.1)
+|  |  |  \- io.grpc:grpc-protobuf-lite:jar:1.9.0:compile
+|  |  |     +- (io.grpc:grpc-core:jar:1.9.0:compile - omitted for duplicate)
+|  |  |     \- (com.google.guava:guava:jar:19.0:compile - omitted for conflict with 23.4-android)
+|  |  +- io.grpc:grpc-context:jar:1.9.0:compile
+|  |  +- (io.grpc:grpc-netty-shaded:jar:1.9.0:compile - omitted for duplicate)
+|  |  +- (io.grpc:grpc-stub:jar:1.9.0:compile - omitted for duplicate)
+|  |  +- (io.grpc:grpc-auth:jar:1.9.0:compile - omitted for duplicate)
+|  |  \- (com.google.api:gax-grpc:jar:1.19.0:compile - omitted for duplicate)
+|  +- com.google.api:gax-grpc:jar:1.19.0:compile
+|  |  +- (com.google.code.findbugs:jsr305:jar:3.0.0:compile - omitted for conflict with 3.0.1)
+|  |  +- (com.google.api:gax:jar:1.19.0:compile - omitted for duplicate)
+|  |  +- (io.grpc:grpc-stub:jar:1.9.0:compile - omitted for duplicate)
+|  |  +- (io.grpc:grpc-auth:jar:1.9.0:compile - omitted for duplicate)
+|  |  +- (io.grpc:grpc-protobuf:jar:1.9.0:compile - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:20.0:compile - omitted for duplicate)
+|  |  +- org.threeten:threetenbp:jar:1.3.3:compile
+|  |  +- com.google.auth:google-auth-library-oauth2-http:jar:0.9.0:compile
+|  |  |  +- (com.google.auth:google-auth-library-credentials:jar:0.9.0:compile - omitted for duplicate)
+|  |  |  +- (com.google.http-client:google-http-client:jar:1.19.0:compile - omitted for conflict with 1.23.0)
+|  |  |  +- com.google.http-client:google-http-client-jackson2:jar:1.19.0:compile
+|  |  |  |  +- (com.google.http-client:google-http-client:jar:1.19.0:compile - omitted for conflict with 1.23.0)
+|  |  |  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.9.4:compile (version managed from 2.1.3)
+|  |  |  \- (com.google.guava:guava:jar:19.0:compile - omitted for conflict with 23.4-android)
+|  |  +- (com.google.auth:google-auth-library-credentials:jar:0.9.0:compile - omitted for duplicate)
+|  |  +- (com.google.api.grpc:proto-google-common-protos:jar:1.0.0:compile - omitted for conflict with 1.1.1)
+|  |  \- (com.google.api:api-common:jar:1.2.0:compile - omitted for conflict with 1.3.0)
+|  +- com.google.api.grpc:proto-google-cloud-logging-v2:jar:0.2.1:compile
+|  |  +- (com.google.api:api-common:jar:1.3.0:compile - omitted for duplicate)
+|  |  +- (com.google.protobuf:protobuf-java:jar:3.4.0:compile - omitted for conflict with 3.5.1)
+|  |  \- (com.google.api.grpc:proto-google-common-protos:jar:1.1.1:compile - omitted for duplicate)
+|  +- io.grpc:grpc-netty-shaded:jar:1.9.0:compile
+|  |  \- (io.grpc:grpc-core:jar:1.9.0:compile - scope updated from runtime; omitted for duplicate)
+|  +- io.grpc:grpc-stub:jar:1.9.0:compile
+|  |  \- io.grpc:grpc-core:jar:1.9.0:compile
+|  |     +- (io.grpc:grpc-context:jar:1.9.0:compile - omitted for duplicate)
+|  |     +- (com.google.guava:guava:jar:19.0:compile - omitted for conflict with 23.4-android)
+|  |     +- com.google.errorprone:error_prone_annotations:jar:2.1.3:compile
+|  |     +- (com.google.code.findbugs:jsr305:jar:3.0.0:compile - omitted for conflict with 3.0.1)
+|  |     +- com.google.instrumentation:instrumentation-api:jar:0.4.3:compile
+|  |     |  +- (com.google.code.findbugs:jsr305:jar:3.0.0:compile - omitted for conflict with 3.0.1)
+|  |     |  \- (com.google.guava:guava:jar:19.0:compile - omitted for conflict with 23.4-android)
+|  |     +- io.opencensus:opencensus-api:jar:0.10.0:compile
+|  |     |  \- (com.google.guava:guava:jar:19.0:compile - omitted for conflict with 23.4-android)
+|  |     \- io.opencensus:opencensus-contrib-grpc-metrics:jar:0.10.0:compile
+|  |        +- (com.google.errorprone:error_prone_annotations:jar:2.1.2:compile - omitted for duplicate)
+|  |        \- (io.opencensus:opencensus-api:jar:0.10.0:compile - omitted for duplicate)
+|  \- io.grpc:grpc-auth:jar:1.9.0:compile
+|     +- (io.grpc:grpc-core:jar:1.9.0:compile - omitted for duplicate)
+|     \- (com.google.auth:google-auth-library-credentials:jar:0.9.0:compile - omitted for duplicate)
++- com.google.cloud:google-cloud-logging-logback:jar:0.37.0-alpha:compile
+|  +- ch.qos.logback:logback-classic:jar:1.2.3:compile
+|  |  +- ch.qos.logback:logback-core:jar:1.2.3:compile
+|  |  \- org.slf4j:slf4j-api:jar:1.7.25:compile
+|  \- (com.google.cloud:google-cloud-logging:jar:1.19.0:compile - omitted for duplicate)
++- com.google.truth:truth:jar:0.39:test
+|  +- (com.google.guava:guava:jar:23.4-android:compile - scope updated from test; omitted for duplicate)
+|  +- (junit:junit:jar:4.12:test - omitted for duplicate)
+|  \- (com.google.errorprone:error_prone_annotations:jar:2.1.3:compile - scope updated from test; omitted for duplicate)
++- junit:junit:jar:4.12:test
+|  \- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for duplicate)
++- org.mockito:mockito-core:jar:2.15.0:test
+|  +- net.bytebuddy:byte-buddy:jar:1.7.9:test
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.7.9:test
+|  \- org.objenesis:objenesis:jar:2.6:test
+\- org.hamcrest:hamcrest-core:jar:1.3:test

@@ -1,0 +1,12 @@
+org.sonatype.nexus.bundles:org.sonatype.nexus.bundles.elasticsearch:jar:3.10.0-04
++- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.9.2:compile
+|  \- com.fasterxml.jackson.core:jackson-core:jar:2.9.2:compile
++- com.fasterxml.jackson.dataformat:jackson-dataformat-smile:jar:2.9.2:compile
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.2:compile - omitted for duplicate)
++- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.9.2:compile
+|  +- org.yaml:snakeyaml:jar:1.18:compile
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.2:compile - omitted for duplicate)
++- org.hdrhistogram:HdrHistogram:jar:2.1.6:compile
++- com.vividsolutions:jts:jar:1.13:compile
++- com.ning:compress-lzf:jar:1.0.2:compile
+\- io.netty:netty:jar:3.10.6.Final:compile

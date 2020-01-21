@@ -1,0 +1,4 @@
+org.foundweekends:pamflet-knockoff_2.10:jar:0.7.2
++- org.scala-lang:scala-library:jar:2.10.7:compile
+\- org.foundweekends:knockoff_2.10:jar:0.8.6:compile
+   \- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for conflict with 2.10.7)

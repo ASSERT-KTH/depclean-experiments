@@ -1,0 +1,9 @@
+org.bytedeco.javacpp-presets:liquidfun-platform:jar:20170717-43d53e0-1.4
++- org.bytedeco.javacpp-presets:liquidfun:jar:20170717-43d53e0-1.4:compile
+|  \- org.bytedeco:javacpp:jar:1.4:compile
++- org.bytedeco.javacpp-presets:liquidfun:jar:linux-x86:20170717-43d53e0-1.4:compile
+|  \- (org.bytedeco:javacpp:jar:1.4:compile - omitted for duplicate)
++- org.bytedeco.javacpp-presets:liquidfun:jar:linux-x86_64:20170717-43d53e0-1.4:compile
+|  \- (org.bytedeco:javacpp:jar:1.4:compile - omitted for duplicate)
+\- org.bytedeco.javacpp-presets:liquidfun:jar:macosx-x86_64:20170717-43d53e0-1.4:compile
+   \- (org.bytedeco:javacpp:jar:1.4:compile - omitted for duplicate)

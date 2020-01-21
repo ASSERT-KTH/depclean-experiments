@@ -1,0 +1,8 @@
+org.eclipse.ditto:ditto-services-utils-distributed-cache-model:jar:0.1.0-M3
++- org.eclipse.ditto:ditto-json:jar:0.1.0-M3:compile
+|  \- com.eclipsesource.minimal-json:minimal-json:jar:0.9.5:compile
++- org.eclipse.ditto:ditto-model-base:jar:0.1.0-M3:compile
+|  \- (org.eclipse.ditto:ditto-json:jar:0.1.0-M3:compile - omitted for duplicate)
++- com.google.code.findbugs:jsr305:jar:3.0.1:compile
+\- org.eclipse.ditto:ditto-utils-jsr305:jar:0.1.0-M3:provided
+   \- (com.google.code.findbugs:jsr305:jar:3.0.1:provided - omitted for duplicate)

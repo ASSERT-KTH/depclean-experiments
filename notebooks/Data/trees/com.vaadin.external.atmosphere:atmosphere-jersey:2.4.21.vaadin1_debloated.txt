@@ -1,0 +1,61 @@
+com.vaadin.external.atmosphere:atmosphere-jersey:bundle:2.4.21.vaadin1
++- org.eclipse.jetty:jetty-servlet:jar:7.6.9.v20130131:test
+|  \- org.eclipse.jetty:jetty-security:jar:7.6.9.v20130131:test
+|     \- org.eclipse.jetty:jetty-server:jar:7.6.9.v20130131:test
+|        +- org.eclipse.jetty:jetty-continuation:jar:7.6.9.v20130131:test
+|        \- (org.eclipse.jetty:jetty-http:jar:7.6.9.v20130131:test - omitted for duplicate)
++- com.vaadin.external.atmosphere:atmosphere-annotations:jar:2.4.21.vaadin1:compile
+|  +- com.vaadin.external.atmosphere:atmosphere-runtime:jar:2.4.21.vaadin1:compile
+|  |  \- (com.vaadin.external.slf4j:vaadin-slf4j-jdk14:jar:1.6.1:compile - omitted for duplicate)
+|  \- (com.vaadin.external.slf4j:vaadin-slf4j-jdk14:jar:1.6.1:compile - omitted for duplicate)
++- com.sun.jersey:jersey-server:jar:1.19.4:compile
+|  \- com.sun.jersey:jersey-core:jar:1.19.4:compile
+|     \- javax.ws.rs:jsr311-api:jar:1.1.1:compile
++- com.sun.jersey:jersey-servlet:jar:1.19.4:compile
+|  \- (com.sun.jersey:jersey-server:jar:1.19.4:compile - omitted for duplicate)
++- com.sun.grizzly:grizzly-http:jar:1.9.57:test
+|  +- com.sun.grizzly:grizzly-framework:jar:1.9.57:test
+|  |  \- (com.sun.grizzly:grizzly-utils:jar:1.9.57:test - omitted for duplicate)
+|  +- com.sun.grizzly:grizzly-rcm:jar:1.9.57:test
+|  |  +- (com.sun.grizzly:grizzly-framework:jar:1.9.57:test - omitted for duplicate)
+|  |  \- (com.sun.grizzly:grizzly-utils:jar:1.9.57:test - omitted for duplicate)
+|  +- com.sun.grizzly:grizzly-portunif:jar:1.9.57:test
+|  |  \- (com.sun.grizzly:grizzly-framework:jar:1.9.57:test - omitted for duplicate)
+|  \- com.sun.grizzly:grizzly-utils:jar:1.9.57:test
+|     \- com.sun.grizzly:grizzly-lzma:jar:1.9.57:test
++- com.sun.grizzly:grizzly-http-servlet:jar:1.9.57:test
+|  \- (com.sun.grizzly:grizzly-utils:jar:1.9.57:test - omitted for duplicate)
++- com.sun.grizzly:grizzly-comet:jar:1.9.57:test
+|  \- (com.sun.grizzly:grizzly-http:jar:1.9.57:test - omitted for duplicate)
++- com.sun.grizzly:grizzly-compat:jar:1.9.57:test
+|  \- (com.sun.grizzly:grizzly-comet:jar:1.9.57:test - omitted for duplicate)
++- org.apache.tomcat:coyote:jar:6.0.35:test
+|  +- (org.apache.tomcat:catalina:jar:6.0.35:test - omitted for duplicate)
+|  \- org.apache.tomcat:juli:jar:6.0.35:test
++- org.apache.tomcat:catalina:jar:6.0.35:test
+|  +- (org.apache.tomcat:juli:jar:6.0.35:test - omitted for duplicate)
+|  \- org.apache.tomcat:annotations-api:jar:6.0.35:test
++- org.apache.geronimo.specs:geronimo-servlet_3.0_spec:jar:1.0:provided
++- org.mockito:mockito-all:jar:1.8.5:test
++- org.eclipse.jetty:jetty-websocket:jar:7.6.9.v20130131:provided
+|  +- org.eclipse.jetty:jetty-util:jar:7.6.9.v20130131:provided
+|  +- org.eclipse.jetty:jetty-io:jar:7.6.9.v20130131:provided
+|  |  \- (org.eclipse.jetty:jetty-util:jar:7.6.9.v20130131:provided - omitted for duplicate)
+|  \- org.eclipse.jetty:jetty-http:jar:7.6.9.v20130131:provided
+|     \- (org.eclipse.jetty:jetty-io:jar:7.6.9.v20130131:provided - omitted for duplicate)
++- org.testng:testng:jar:6.9.10:test
+|  +- com.beust:jcommander:jar:1.48:test
+|  \- org.beanshell:bsh:jar:2.0b4:test
++- org.mortbay.jetty:jetty:jar:6.1.22:provided
+|  \- (org.mortbay.jetty:jetty-util:jar:6.1.22:provided - omitted for duplicate)
++- org.mortbay.jetty:jetty-util:jar:6.1.22:provided
++- org.mortbay.jetty:jetty-management:jar:6.1.22:provided
+|  \- (org.mortbay.jetty:jetty:jar:6.1.22:provided - omitted for duplicate)
++- com.ning:async-http-client:jar:1.7.7:test
+|  +- io.netty:netty:jar:3.4.4.Final:test
+|  \- org.slf4j:slf4j-api:jar:1.6.2:test
++- ch.qos.logback:logback-core:jar:1.1.2:test
++- ch.qos.logback:logback-classic:jar:1.1.2:test
+|  +- (ch.qos.logback:logback-core:jar:1.1.2:test - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.6:test - omitted for conflict with 1.6.2)
+\- com.vaadin.external.slf4j:vaadin-slf4j-jdk14:jar:1.6.1:compile

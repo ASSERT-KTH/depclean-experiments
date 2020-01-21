@@ -1,0 +1,31 @@
+org.wildfly:wildfly-naming-client:jar:1.0.9.Final
++- org.wildfly.common:wildfly-common:jar:1.2.0.Final:compile
++- org.wildfly.client:wildfly-client-config:jar:1.0.0.Final:compile
+|  +- (org.jboss.logging:jboss-logging:jar:3.3.1.Final:compile - omitted for duplicate)
+|  \- (org.wildfly.common:wildfly-common:jar:1.2.0.Final:compile - omitted for duplicate)
++- org.wildfly.security:wildfly-elytron:jar:1.1.0.Final:compile
+|  +- (org.jboss.logging:jboss-logging:jar:3.3.1.Final:compile - omitted for duplicate)
+|  \- (org.wildfly.common:wildfly-common:jar:1.2.0.Final:compile - omitted for duplicate)
++- org.jboss.logging:jboss-logging:jar:3.3.1.Final:compile
++- org.jboss.logging:jboss-logging-annotations:jar:2.1.0.Final:provided
++- org.jboss.logging:jboss-logging-processor:jar:2.1.0.Final:provided
+|  +- (org.jboss.logging:jboss-logging-annotations:jar:2.1.0.Final:provided - omitted for duplicate)
+|  \- (org.jboss.jdeparser:jdeparser:jar:2.0.2.Final:provided - omitted for duplicate)
++- org.jboss.jdeparser:jdeparser:jar:2.0.2.Final:provided
++- org.jboss.marshalling:jboss-marshalling:jar:2.0.0.Final:compile
++- org.jboss.marshalling:jboss-marshalling-river:jar:2.0.0.Final:compile
+|  \- (org.jboss.marshalling:jboss-marshalling:jar:2.0.0.Final:compile - omitted for duplicate)
++- org.jboss.remoting:jboss-remoting:jar:5.0.0.Final:compile
+|  +- (org.jboss.logging:jboss-logging:jar:3.2.1.Final:compile - omitted for conflict with 3.3.1.Final)
+|  +- (org.jboss.xnio:xnio-api:jar:3.5.1.Final:compile - omitted for duplicate)
+|  +- (org.wildfly.common:wildfly-common:jar:1.2.0.Final:compile - omitted for duplicate)
+|  +- (org.wildfly.client:wildfly-client-config:jar:1.0.0.CR2:compile - omitted for conflict with 1.0.0.Final)
+|  \- (org.wildfly.security:wildfly-elytron:jar:1.1.0.Final:compile - omitted for duplicate)
++- org.jboss.xnio:xnio-api:jar:3.5.1.Final:compile
+|  +- (org.wildfly.common:wildfly-common:jar:1.2.0.Final:compile - omitted for duplicate)
+|  \- (org.wildfly.client:wildfly-client-config:jar:1.0.0.Final:compile - omitted for duplicate)
++- org.jboss.xnio:xnio-nio:jar:3.5.1.Final:compile
+|  \- (org.jboss.xnio:xnio-api:jar:3.5.1.Final:compile - omitted for duplicate)
++- org.jboss.threads:jboss-threads:jar:2.2.1.Final:compile
++- junit:junit:jar:4.8.2:test
+\- org.kohsuke.metainf-services:metainf-services:jar:1.7:provided

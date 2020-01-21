@@ -1,0 +1,18 @@
+com.identityx.auth:daon-http-digest-auth:jar:4.4.0.9
++- org.slf4j:slf4j-api:jar:1.7.22:compile
++- org.apache.httpcomponents:httpclient:jar:4.5.3:compile
+|  +- org.apache.httpcomponents:httpcore:jar:4.4.6:compile
+|  +- commons-logging:commons-logging:jar:1.2:compile
+|  \- commons-codec:commons-codec:jar:1.9:compile
++- com.nimbusds:nimbus-jose-jwt:jar:4.34.2:compile
+|  +- com.github.stephenc.jcip:jcip-annotations:jar:1.0-1:compile
+|  \- org.bouncycastle:bcpkix-jdk15on:jar:1.55:compile
+|     \- org.bouncycastle:bcprov-jdk15on:jar:1.55:compile
++- net.minidev:json-smart:jar:2.2.1:compile
+|  \- net.minidev:accessors-smart:jar:1.1:compile
+|     \- org.ow2.asm:asm:jar:5.0.3:compile
++- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.7:compile
++- com.fasterxml.jackson.core:jackson-core:jar:2.8.7:compile
+\- com.fasterxml.jackson.core:jackson-databind:jar:2.8.7:compile
+   +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile - omitted for conflict with 2.8.7)
+   \- (com.fasterxml.jackson.core:jackson-core:jar:2.8.7:compile - omitted for duplicate)

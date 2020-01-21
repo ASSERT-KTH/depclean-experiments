@@ -1,0 +1,31 @@
+com.alipay.sofa.lookout:lookout-client:jar:1.4.1
++- com.alipay.sofa.lookout:lookout-reg-server:jar:1.4.1:compile
+|  +- com.alipay.sofa.lookout:lookout-core:jar:1.4.1:compile
+|  |  +- (com.alipay.sofa.lookout:lookout-common:jar:1.4.1:compile - omitted for duplicate)
+|  |  +- com.alibaba:fastjson:jar:1.2.47:compile
+|  |  \- org.apache.commons:commons-configuration2:jar:2.1.1:compile
+|  |     +- org.apache.commons:commons-lang3:jar:3.3.2:compile
+|  |     \- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  +- com.google.guava:guava:jar:18.0:compile
+|  +- org.xerial.snappy:snappy-java:jar:1.1.2.6:compile
+|  +- org.apache.httpcomponents:httpclient:jar:4.5.2:compile
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.4.4:compile
+|  |  +- commons-logging:commons-logging:jar:1.2:compile
+|  |  \- commons-codec:commons-codec:jar:1.9:compile
+|  +- commons-lang:commons-lang:jar:2.3:compile
+|  \- org.slf4j:slf4j-api:jar:1.7.21:compile
++- com.alipay.sofa.lookout:lookout-ext-jvm:jar:1.4.1:compile
+|  +- (com.alipay.sofa.lookout:lookout-core:jar:1.4.1:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
++- com.alipay.sofa.lookout:lookout-ext-os:jar:1.4.1:compile
+|  +- com.alipay.sofa.lookout:lookout-common:jar:1.4.1:compile
+|  |  +- com.alipay.sofa.lookout:lookout-api:jar:1.4.1:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|  |  \- com.alipay.sofa.common:sofa-common-tools:jar:1.0.12:compile
+|  |     \- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|  +- (com.alipay.sofa.lookout:lookout-core:jar:1.4.1:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|  +- commons-io:commons-io:jar:2.5:compile
+|  \- (commons-lang:commons-lang:jar:2.3:compile - omitted for duplicate)
+\- junit:junit:jar:4.12:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

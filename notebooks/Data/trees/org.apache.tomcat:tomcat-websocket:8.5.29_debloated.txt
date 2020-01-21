@@ -1,0 +1,6 @@
+org.apache.tomcat:tomcat-websocket:jar:8.5.29
++- org.apache.tomcat:tomcat-servlet-api:jar:8.5.29:compile
++- org.apache.tomcat:tomcat-websocket-api:jar:8.5.29:compile
++- org.apache.tomcat:tomcat-juli:jar:8.5.29:compile
+\- org.apache.tomcat:tomcat-util:jar:8.5.29:compile
+   \- (org.apache.tomcat:tomcat-juli:jar:8.5.29:compile - omitted for duplicate)

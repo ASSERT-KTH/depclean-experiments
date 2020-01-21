@@ -1,0 +1,1 @@
+org.webjars.npm:espurify:jar:1.7.0

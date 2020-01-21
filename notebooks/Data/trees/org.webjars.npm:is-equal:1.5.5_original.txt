@@ -1,0 +1,30 @@
+org.webjars.npm:is-equal:jar:1.5.5
++- org.webjars.npm:is-date-object:jar:1.0.1:compile
++- org.webjars.npm:is-callable:jar:1.1.4:compile
++- org.webjars.npm:is-string:jar:1.0.4:compile
++- org.webjars.npm:is-arrow-function:jar:2.0.3:compile
+|  \- (org.webjars.npm:is-callable:jar:1.1.4:compile - omitted for duplicate)
++- org.webjars.npm:is-generator-function:jar:1.0.7:compile
++- org.webjars.npm:object.entries:jar:1.0.4:compile
+|  +- org.webjars.npm:define-properties:jar:1.1.3:compile
+|  |  \- org.webjars.npm:object-keys:jar:1.1.1:compile
+|  +- org.webjars.npm:es-abstract:jar:1.13.0:compile
+|  |  +- (org.webjars.npm:is-callable:jar:1.1.4:compile - omitted for duplicate)
+|  |  +- (org.webjars.npm:has:jar:1.0.3:compile - omitted for duplicate)
+|  |  +- (org.webjars.npm:object-keys:jar:1.1.1:compile - omitted for duplicate)
+|  |  +- (org.webjars.npm:function-bind:jar:1.1.1:compile - omitted for duplicate)
+|  |  +- org.webjars.npm:es-to-primitive:jar:1.2.0:compile
+|  |  |  +- (org.webjars.npm:is-callable:jar:1.1.4:compile - omitted for duplicate)
+|  |  |  +- (org.webjars.npm:is-date-object:jar:1.0.1:compile - omitted for duplicate)
+|  |  |  \- (org.webjars.npm:is-symbol:jar:1.0.2:compile - omitted for duplicate)
+|  |  \- (org.webjars.npm:is-regex:jar:1.0.4:compile - omitted for duplicate)
+|  +- (org.webjars.npm:has:jar:1.0.3:compile - omitted for duplicate)
+|  \- org.webjars.npm:function-bind:jar:1.1.1:compile
++- org.webjars.npm:is-symbol:jar:1.0.2:compile
+|  \- org.webjars.npm:has-symbols:jar:1.0.0:compile
++- org.webjars.npm:has:jar:1.0.3:compile
+|  \- (org.webjars.npm:function-bind:jar:1.1.1:compile - omitted for duplicate)
++- org.webjars.npm:is-regex:jar:1.0.4:compile
+|  \- (org.webjars.npm:has:jar:1.0.3:compile - omitted for duplicate)
++- org.webjars.npm:is-boolean-object:jar:1.0.0:compile
+\- org.webjars.npm:is-number-object:jar:1.0.3:compile

@@ -1,0 +1,18 @@
+co.cask.cdap:cdap-api:jar:4.3.3
++- co.cask.cdap:cdap-api-common:jar:4.3.3:compile
+|  +- (com.google.code.findbugs:jsr305:jar:2.0.1:compile - omitted for duplicate)
+|  \- (com.google.code.gson:gson:jar:2.2.4:compile - omitted for duplicate)
++- com.google.code.findbugs:jsr305:jar:2.0.1:compile
++- com.google.code.gson:gson:jar:2.2.4:compile
++- org.slf4j:slf4j-api:jar:1.7.5:compile
++- org.apache.tephra:tephra-api:jar:0.13.0-incubating:compile
++- org.apache.twill:twill-api:jar:0.12.0:compile
+|  +- org.apache.twill:twill-common:jar:0.12.0:compile
+|  |  +- (com.google.code.findbugs:jsr305:jar:2.0.1:compile - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for duplicate)
+|  +- org.apache.twill:twill-discovery-api:jar:0.12.0:compile
+|  |  \- (org.apache.twill:twill-common:jar:0.12.0:compile - omitted for duplicate)
+|  \- (com.google.code.findbugs:jsr305:jar:2.0.1:compile - omitted for duplicate)
++- javax.ws.rs:javax.ws.rs-api:jar:2.0:compile
+\- junit:junit:jar:4.11:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

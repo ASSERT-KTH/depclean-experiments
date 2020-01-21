@@ -1,0 +1,38 @@
+com.malinskiy.marathon:core:jar:0.2.0
++- com.malinskiy.marathon:marathon-html-report:jar:0.2.0:runtime
+|  +- (com.google.code.gson:gson:jar:2.8.5:runtime - omitted for duplicate)
+|  +- (org.jetbrains.kotlin:kotlin-stdlib-jdk8:jar:1.2.51:runtime - omitted for duplicate)
+|  +- (org.jetbrains.kotlinx:kotlinx-coroutines-core:jar:0.21:runtime - omitted for duplicate)
+|  \- (io.github.microutils:kotlin-logging:jar:1.4.9:runtime - omitted for duplicate)
++- com.malinskiy.marathon:execution-timeline:jar:0.2.0:runtime
+|  +- (com.google.code.gson:gson:jar:2.8.5:runtime - omitted for duplicate)
+|  +- (org.jetbrains.kotlin:kotlin-stdlib-jdk8:jar:1.2.51:runtime - omitted for duplicate)
+|  +- (org.jetbrains.kotlinx:kotlinx-coroutines-core:jar:0.21:runtime - omitted for duplicate)
+|  \- (io.github.microutils:kotlin-logging:jar:1.4.9:runtime - omitted for duplicate)
++- com.google.code.gson:gson:jar:2.8.5:runtime
++- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.5:runtime
++- org.apache.commons:commons-text:jar:1.3:runtime
+|  \- org.apache.commons:commons-lang3:jar:3.7:runtime
++- commons-io:commons-io:jar:2.6:runtime
++- org.jetbrains.kotlin:kotlin-stdlib-jdk8:jar:1.2.51:runtime
+|  +- org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.51:runtime
+|  |  +- org.jetbrains.kotlin:kotlin-stdlib-common:jar:1.2.51:runtime
+|  |  \- org.jetbrains:annotations:jar:13.0:runtime
+|  \- org.jetbrains.kotlin:kotlin-stdlib-jdk7:jar:1.2.51:runtime
+|     \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.51:runtime - omitted for duplicate)
++- org.jetbrains.kotlinx:kotlinx-coroutines-core:jar:0.21:runtime
+|  \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.10:runtime - omitted for conflict with 1.2.51)
++- io.github.microutils:kotlin-logging:jar:1.4.9:runtime
+|  +- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.10:runtime - omitted for conflict with 1.2.51)
+|  \- org.slf4j:slf4j-api:jar:1.7.25:runtime
+\- org.influxdb:influxdb-java:jar:2.10:runtime
+   +- com.squareup.retrofit2:retrofit:jar:2.4.0:runtime
+   |  \- (com.squareup.okhttp3:okhttp:jar:3.10.0:runtime - omitted for duplicate)
+   +- com.squareup.retrofit2:converter-moshi:jar:2.4.0:runtime
+   |  +- (com.squareup.retrofit2:retrofit:jar:2.4.0:runtime - omitted for duplicate)
+   |  \- com.squareup.moshi:moshi:jar:1.5.0:runtime
+   |     \- (com.squareup.okio:okio:jar:1.13.0:runtime - omitted for conflict with 1.14.0)
+   +- com.squareup.okhttp3:okhttp:jar:3.10.0:runtime
+   |  \- com.squareup.okio:okio:jar:1.14.0:runtime
+   \- com.squareup.okhttp3:logging-interceptor:jar:3.10.0:runtime
+      \- (com.squareup.okhttp3:okhttp:jar:3.10.0:runtime - omitted for duplicate)

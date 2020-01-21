@@ -1,0 +1,37 @@
+org.typelevel:catalysts-lawkit_sjs0.6_2.13.0-M4:jar:0.7
++- org.scala-lang:scala-compiler:jar:2.13.0-M4:provided
+|  +- (org.scala-lang:scala-library:jar:2.13.0-M4:provided - omitted for duplicate)
+|  +- (org.scala-lang:scala-reflect:jar:2.13.0-M4:provided - omitted for duplicate)
+|  \- jline:jline:jar:2.14.6:provided
++- org.scala-lang:scala-library:jar:2.13.0-M4:compile
++- org.typelevel:catalysts-macros_sjs0.6_2.13.0-M4:jar:0.7:compile
+|  +- (org.scala-lang:scala-library:jar:2.13.0-M4:compile - omitted for duplicate)
+|  +- (org.scala-js:scalajs-library_2.13.0-M4:jar:0.6.24:compile - omitted for duplicate)
+|  \- (org.typelevel:macro-compat_sjs0.6_2.13.0-M4:jar:1.1.1:compile - omitted for duplicate)
++- org.typelevel:catalysts-testkit_sjs0.6_2.13.0-M4:jar:0.7:compile
+|  +- (org.scala-lang:scala-library:jar:2.13.0-M4:compile - omitted for duplicate)
+|  +- (org.typelevel:catalysts-macros_sjs0.6_2.13.0-M4:jar:0.7:compile - omitted for duplicate)
+|  +- org.typelevel:catalysts-platform_sjs0.6_2.13.0-M4:jar:0.7:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.13.0-M4:compile - omitted for duplicate)
+|  |  +- (org.typelevel:catalysts-macros_sjs0.6_2.13.0-M4:jar:0.7:compile - omitted for duplicate)
+|  |  \- (org.scala-js:scalajs-library_2.13.0-M4:jar:0.6.24:compile - omitted for duplicate)
+|  +- (org.scala-js:scalajs-library_2.13.0-M4:jar:0.6.24:compile - omitted for duplicate)
+|  \- (org.typelevel:macro-compat_sjs0.6_2.13.0-M4:jar:1.1.1:compile - omitted for duplicate)
++- org.scala-js:scalajs-library_2.13.0-M4:jar:0.6.24:compile
+|  \- (org.scala-lang:scala-library:jar:2.13.0-M4:compile - omitted for duplicate)
++- org.scala-js:scalajs-test-interface_2.13.0-M4:jar:0.6.24:test (scope not updated to compile)
+|  +- (org.scala-lang:scala-library:jar:2.13.0-M4:test - omitted for duplicate)
+|  \- (org.scala-js:scalajs-library_2.13.0-M4:jar:0.6.24:test - omitted for duplicate)
++- org.typelevel:macro-compat_sjs0.6_2.13.0-M4:jar:1.1.1:compile
+|  +- (org.scala-lang:scala-library:jar:2.13.0-M4:compile - omitted for duplicate)
+|  \- (org.scala-js:scalajs-library_2.13.0-M4:jar:0.6.23:compile - omitted for conflict with 0.6.24)
++- org.scala-lang:scala-reflect:jar:2.13.0-M4:provided
+|  \- (org.scala-lang:scala-library:jar:2.13.0-M4:provided - omitted for duplicate)
++- org.typelevel:discipline_sjs0.6_2.13.0-M4:jar:0.10.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.13.0-M4:compile - omitted for duplicate)
+|  +- (org.scala-js:scalajs-library_2.13.0-M4:jar:0.6.23:compile - omitted for conflict with 0.6.24)
+|  \- (org.scalacheck:scalacheck_sjs0.6_2.13.0-M4:jar:1.14.0:compile - omitted for duplicate)
+\- org.scalacheck:scalacheck_sjs0.6_2.13.0-M4:jar:1.14.0:compile
+   +- (org.scala-lang:scala-library:jar:2.13.0-M4:compile - omitted for duplicate)
+   +- (org.scala-js:scalajs-library_2.13.0-M4:jar:0.6.23:compile - omitted for conflict with 0.6.24)
+   \- (org.scala-js:scalajs-test-interface_2.13.0-M4:jar:0.6.23:compile - omitted for conflict with 0.6.24)

@@ -1,0 +1,12 @@
+org.digidoc4j.dss:dss-validation-soap-client:jar:5.2.d4j.1
+\- org.digidoc4j.dss:dss-reports:jar:5.2.d4j.1:compile
+   +- org.digidoc4j.dss:dss-model:jar:5.2.d4j.1:compile
+   +- org.digidoc4j.dss:dss-utils:jar:5.2.d4j.1:compile
+   +- org.digidoc4j.dss:dss-policy-jaxb:jar:5.2.d4j.1:compile
+   +- org.digidoc4j.dss:dss-detailed-report-jaxb:jar:5.2.d4j.1:compile
+   |  \- org.digidoc4j.dss:dss-common-validation-jaxb:jar:5.2.d4j.1:compile
+   |     \- org.slf4j:slf4j-api:jar:1.7.25:compile
+   +- org.digidoc4j.dss:dss-simple-report-jaxb:jar:5.2.d4j.1:compile
+   |  \- (org.digidoc4j.dss:dss-common-validation-jaxb:jar:5.2.d4j.1:compile - omitted for duplicate)
+   \- org.digidoc4j.dss:dss-diagnostic-jaxb:jar:5.2.d4j.1:compile
+      \- (org.digidoc4j.dss:dss-common-validation-jaxb:jar:5.2.d4j.1:compile - omitted for duplicate)

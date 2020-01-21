@@ -1,0 +1,19 @@
+org.apache.hive:hive-service-rpc:jar:2.3.3
++- commons-cli:commons-cli:jar:1.2:compile
++- tomcat:jasper-runtime:jar:5.5.23:compile
+|  +- javax.servlet:servlet-api:jar:2.4:compile
+|  \- commons-el:commons-el:jar:1.0:compile
+|     \- commons-logging:commons-logging:jar:1.0.3:compile
++- org.apache.thrift:libfb303:jar:0.9.3:compile
+|  \- (org.apache.thrift:libthrift:jar:0.9.3:compile - omitted for duplicate)
++- org.apache.thrift:libthrift:jar:0.9.3:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.7.12; omitted for duplicate)
+|  +- org.apache.httpcomponents:httpclient:jar:4.4:compile (version managed from 4.4.1)
+|  |  +- (org.apache.httpcomponents:httpcore:jar:4.4:compile - version managed from 4.4.1; omitted for duplicate)
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for conflict with 1.0.3)
+|  |  \- (commons-codec:commons-codec:jar:1.4:compile - version managed from 1.9; omitted for duplicate)
+|  \- org.apache.httpcomponents:httpcore:jar:4.4:compile
++- junit:junit:jar:4.11:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.slf4j:slf4j-api:jar:1.7.10:compile
+\- org.mockito:mockito-all:jar:1.9.5:test

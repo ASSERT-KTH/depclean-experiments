@@ -1,0 +1,175 @@
+com.microsoft.azure:azure-keyvault-extensions:jar:1.1.1
++- com.microsoft.azure:azure-keyvault-webkey:jar:1.1.1:compile
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.9.6:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.6:compile - version managed from 2.9.0; omitted for duplicate)
+|  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.6:compile - omitted for duplicate)
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.9.6:compile
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.6:compile
+|  +- (commons-codec:commons-codec:jar:1.10:compile - omitted for duplicate)
+|  \- (com.google.guava:guava:jar:20.0:compile - omitted for duplicate)
++- com.microsoft.azure:azure-keyvault-core:jar:1.1.1:compile
+|  +- (org.apache.commons:commons-lang3:jar:3.4:compile - omitted for duplicate)
+|  \- (com.google.guava:guava:jar:20.0:compile - omitted for duplicate)
++- com.microsoft.azure:azure-keyvault-cryptography:jar:1.1.1:compile
+|  +- (com.microsoft.azure:azure-keyvault-webkey:jar:1.1.1:compile - omitted for duplicate)
+|  +- (com.microsoft.azure:azure-keyvault-core:jar:1.1.1:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.6:compile - omitted for duplicate)
+|  +- (org.apache.commons:commons-lang3:jar:3.4:compile - omitted for duplicate)
+|  +- (commons-codec:commons-codec:jar:1.10:compile - omitted for duplicate)
+|  \- (com.google.guava:guava:jar:20.0:compile - omitted for duplicate)
++- com.microsoft.azure:azure-keyvault:jar:1.1.1:compile
+|  +- (com.microsoft.azure:azure-keyvault-cryptography:jar:1.1.1:compile - omitted for duplicate)
+|  +- (com.microsoft.azure:azure-keyvault-webkey:jar:1.1.1:compile - omitted for duplicate)
+|  +- (com.microsoft.azure:azure-client-runtime:jar:1.3.0:compile - omitted for duplicate)
+|  +- (com.microsoft.rest:client-runtime:jar:1.6.1:compile - version managed from 1.3.0; omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.6:compile - version managed from 2.9.4; omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.6:compile - version managed from 2.9.0; omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.6:compile - version managed from 2.9.4; omitted for duplicate)
+|  +- (commons-codec:commons-codec:jar:1.10:compile - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:20.0:compile - omitted for duplicate)
+|  +- (org.apache.commons:commons-lang3:jar:3.4:compile - omitted for duplicate)
+|  +- joda-time:joda-time:jar:2.1:compile
+|  +- com.squareup.retrofit2:retrofit:jar:2.4.0:compile
+|  |  \- (com.squareup.okhttp3:okhttp:jar:3.10.0:compile - omitted for conflict with 3.11.0)
+|  +- com.squareup.okhttp3:okhttp:jar:3.10.0:compile
+|  |  \- (com.squareup.okio:okio:jar:1.14.0:compile - omitted for duplicate)
+|  +- com.squareup.okio:okio:jar:1.14.0:compile
+|  \- io.reactivex:rxjava:jar:1.2.4:compile
++- com.microsoft.azure:azure-client-runtime:jar:1.3.0:compile
+|  \- (com.microsoft.rest:client-runtime:jar:1.6.1:compile - version managed from 1.3.0; omitted for duplicate)
++- com.microsoft.azure:azure-mgmt-resources:jar:1.3.0:compile
+|  +- org.slf4j:slf4j-simple:jar:1.7.5:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for conflict with 1.7.22)
+|  +- (com.microsoft.azure:azure-client-runtime:jar:1.3.0:compile - omitted for duplicate)
+|  +- (io.reactivex:rxjava:jar:1.2.4:compile - version managed from 1.3.0; omitted for duplicate)
+|  +- com.microsoft.azure:azure-annotations:jar:1.3.0:compile
+|  \- org.apache.httpcomponents:httpcore:jar:4.4.5:compile
++- com.microsoft.rest:client-runtime:jar:1.6.1:compile
+|  +- (com.google.guava:guava:jar:20.0:compile - omitted for duplicate)
+|  +- (com.squareup.retrofit2:retrofit:jar:2.4.0:compile - omitted for duplicate)
+|  +- (com.squareup.okhttp3:okhttp:jar:3.11.0:compile - omitted for conflict with 3.10.0)
+|  +- com.squareup.okhttp3:logging-interceptor:jar:3.11.0:compile
+|  |  \- (com.squareup.okhttp3:okhttp:jar:3.11.0:compile - omitted for conflict with 3.10.0)
+|  +- com.squareup.okhttp3:okhttp-urlconnection:jar:3.11.0:compile
+|  |  \- (com.squareup.okhttp3:okhttp:jar:3.11.0:compile - omitted for conflict with 3.10.0)
+|  +- com.squareup.retrofit2:converter-jackson:jar:2.4.0:compile
+|  |  +- (com.squareup.retrofit2:retrofit:jar:2.4.0:compile - omitted for duplicate)
+|  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.6:compile - version managed from 2.9.4; omitted for duplicate)
+|  +- com.fasterxml.jackson.datatype:jackson-datatype-joda:jar:2.9.4:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.6:compile - version managed from 2.9.0; omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.6:compile - version managed from 2.9.4; omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.6:compile - version managed from 2.9.4; omitted for duplicate)
+|  |  \- (joda-time:joda-time:jar:2.7:compile - omitted for conflict with 2.1)
+|  +- (org.apache.commons:commons-lang3:jar:3.4:compile - omitted for duplicate)
+|  +- (io.reactivex:rxjava:jar:1.2.4:compile - version managed from 1.3.8; omitted for duplicate)
+|  +- com.squareup.retrofit2:adapter-rxjava:jar:2.4.0:compile
+|  |  +- (com.squareup.retrofit2:retrofit:jar:2.4.0:compile - omitted for duplicate)
+|  |  \- (io.reactivex:rxjava:jar:1.2.4:compile - version managed from 1.3.0; omitted for duplicate)
+|  +- org.slf4j:slf4j-api:jar:1.7.22:compile
+|  \- (com.microsoft.azure:azure-annotations:jar:1.2.0:compile - omitted for conflict with 1.3.0)
++- com.google.guava:guava:jar:20.0:compile
++- org.apache.commons:commons-lang3:jar:3.4:compile
++- commons-codec:commons-codec:jar:1.10:compile
++- com.microsoft.azure:azure-mgmt-resources:test-jar:tests:1.3.1-SNAPSHOT:test
+|  +- (org.slf4j:slf4j-simple:jar:1.7.5:test - omitted for duplicate)
+|  +- (com.microsoft.azure:azure-client-runtime:jar:1.3.0:test - omitted for duplicate)
+|  +- (io.reactivex:rxjava:jar:1.2.4:test - version managed from 1.3.0; omitted for duplicate)
+|  +- (com.microsoft.azure:azure-annotations:jar:1.4.0:test - omitted for conflict with 1.3.0)
+|  \- (org.apache.httpcomponents:httpcore:jar:4.4.5:test - omitted for duplicate)
++- com.microsoft.azure:adal4j:jar:1.4.0:test
+|  +- com.nimbusds:oauth2-oidc-sdk:jar:5.24.1:test
+|  |  +- javax.mail:mail:jar:1.4.7:test
+|  |  |  \- javax.activation:activation:jar:1.1:test
+|  |  +- com.github.stephenc.jcip:jcip-annotations:jar:1.0-1:test
+|  |  +- (org.apache.commons:commons-lang3:jar:3.4:test - version managed from 3.5; omitted for duplicate)
+|  |  +- org.apache.commons:commons-collections4:jar:4.1:test
+|  |  +- net.minidev:json-smart:jar:1.3.1:test
+|  |  +- com.nimbusds:lang-tag:jar:1.4.4:test
+|  |  \- com.nimbusds:nimbus-jose-jwt:jar:7.4:test
+|  |     +- (com.github.stephenc.jcip:jcip-annotations:jar:1.0-1:test - omitted for duplicate)
+|  |     \- (net.minidev:json-smart:jar:1.3.1:test - omitted for duplicate)
+|  +- com.google.code.gson:gson:jar:2.2.4:test
+|  +- (org.slf4j:slf4j-api:jar:1.7.5:test - omitted for conflict with 1.7.22)
+|  \- (commons-codec:commons-codec:jar:1.10:test - omitted for duplicate)
++- com.microsoft.azure:azure:jar:1.3.0:test
+|  +- (com.microsoft.azure:azure-client-runtime:jar:1.3.0:test - omitted for duplicate)
+|  +- com.microsoft.azure:azure-client-authentication:jar:1.6.10:test
+|  |  +- (com.microsoft.azure:azure-client-runtime:jar:1.3.0:test - version managed from 1.6.10; omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.10:test - version managed from 1.11; omitted for duplicate)
+|  |  +- (com.microsoft.azure:adal4j:jar:1.4.0:test - version managed from 1.6.2; omitted for duplicate)
+|  |  \- (com.microsoft.azure:azure-annotations:jar:1.7.0:test - omitted for conflict with 1.3.0)
+|  +- (com.microsoft.azure:azure-mgmt-resources:jar:1.3.0:test - omitted for duplicate)
+|  +- com.microsoft.azure:azure-mgmt-storage:jar:1.3.0:test
+|  |  +- (com.microsoft.azure:azure-client-runtime:jar:1.3.0:test - omitted for duplicate)
+|  |  \- (com.microsoft.azure:azure-mgmt-resources:jar:1.3.0:test - omitted for duplicate)
+|  +- com.microsoft.azure:azure-mgmt-network:jar:1.3.0:test
+|  |  +- (com.microsoft.azure:azure-client-runtime:jar:1.3.0:test - omitted for duplicate)
+|  |  \- (com.microsoft.azure:azure-mgmt-resources:jar:1.3.0:test - omitted for duplicate)
+|  +- com.microsoft.azure:azure-mgmt-compute:jar:1.3.0:test
+|  |  +- (com.microsoft.azure:azure-client-runtime:jar:1.3.0:test - omitted for duplicate)
+|  |  +- (com.microsoft.azure:azure-mgmt-resources:jar:1.3.0:test - omitted for duplicate)
+|  |  +- (com.microsoft.azure:azure-mgmt-storage:jar:1.3.0:test - omitted for duplicate)
+|  |  +- (com.microsoft.azure:azure-mgmt-network:jar:1.3.0:test - omitted for duplicate)
+|  |  \- (com.microsoft.azure:azure-mgmt-graph-rbac:jar:1.3.0:test - omitted for duplicate)
+|  +- com.microsoft.azure:azure-mgmt-graph-rbac:jar:1.3.0:test
+|  |  +- (com.microsoft.azure:azure-client-runtime:jar:1.3.0:test - omitted for duplicate)
+|  |  \- (com.microsoft.azure:azure-mgmt-resources:jar:1.3.0:test - omitted for duplicate)
+|  +- com.microsoft.azure:azure-mgmt-keyvault:jar:1.11.1:test (version managed from 1.3.0)
+|  |  +- (com.microsoft.azure:azure-client-runtime:jar:1.3.0:test - version managed from 1.5.2; omitted for duplicate)
+|  |  +- (com.microsoft.azure:azure-mgmt-resources:jar:1.3.0:test - version managed from 1.11.1; omitted for duplicate)
+|  |  +- (com.microsoft.azure:azure-mgmt-graph-rbac:jar:1.11.1:test - omitted for conflict with 1.3.0)
+|  |  \- (com.microsoft.azure:azure-keyvault:jar:1.1.1:test - version managed from 1.0.0; omitted for duplicate)
+|  +- com.microsoft.azure:azure-mgmt-batch:jar:1.3.0:test
+|  |  +- (com.microsoft.azure:azure-client-runtime:jar:1.3.0:test - omitted for duplicate)
+|  |  +- (com.microsoft.azure:azure-mgmt-resources:jar:1.3.0:test - version managed from 1.11.1; omitted for duplicate)
+|  |  \- (com.microsoft.azure:azure-mgmt-storage:jar:1.3.0:test - omitted for duplicate)
+|  +- com.microsoft.azure:azure-mgmt-trafficmanager:jar:1.3.0:test
+|  |  +- (com.microsoft.azure:azure-client-runtime:jar:1.3.0:test - omitted for duplicate)
+|  |  +- (com.microsoft.azure:azure-mgmt-resources:jar:1.3.0:test - version managed from 1.11.1; omitted for duplicate)
+|  |  \- (com.microsoft.azure:azure-mgmt-storage:jar:1.3.0:test - omitted for duplicate)
+|  +- com.microsoft.azure:azure-mgmt-dns:jar:1.3.0:test
+|  |  +- (com.microsoft.azure:azure-client-runtime:jar:1.3.0:test - omitted for duplicate)
+|  |  \- (com.microsoft.azure:azure-mgmt-resources:jar:1.3.0:test - version managed from 1.11.1; omitted for duplicate)
+|  +- com.microsoft.azure:azure-mgmt-redis:jar:1.3.0:test
+|  |  +- (com.microsoft.azure:azure-client-runtime:jar:1.3.0:test - omitted for duplicate)
+|  |  \- (com.microsoft.azure:azure-mgmt-resources:jar:1.3.0:test - version managed from 1.11.1; omitted for duplicate)
+|  +- com.microsoft.azure:azure-mgmt-appservice:jar:1.3.0:test
+|  |  +- (com.microsoft.azure:azure-client-runtime:jar:1.3.0:test - omitted for duplicate)
+|  |  +- (com.microsoft.azure:azure-mgmt-resources:jar:1.3.0:test - version managed from 1.11.1; omitted for duplicate)
+|  |  +- (com.microsoft.azure:azure-mgmt-storage:jar:1.3.0:test - omitted for duplicate)
+|  |  \- (com.microsoft.azure:azure-mgmt-keyvault:jar:1.11.1:test - version managed from 1.3.0; omitted for duplicate)
+|  +- com.microsoft.azure:azure-mgmt-cdn:jar:1.3.0:test
+|  |  +- (com.microsoft.azure:azure-client-runtime:jar:1.3.0:test - omitted for duplicate)
+|  |  \- (com.microsoft.azure:azure-mgmt-resources:jar:1.3.0:test - version managed from 1.11.1; omitted for duplicate)
+|  +- com.microsoft.azure:azure-mgmt-sql:jar:1.3.0:test
+|  |  +- (com.microsoft.azure:azure-client-runtime:jar:1.3.0:test - omitted for duplicate)
+|  |  \- (com.microsoft.azure:azure-mgmt-resources:jar:1.3.0:test - version managed from 1.11.1; omitted for duplicate)
+|  +- com.microsoft.azure:azure-mgmt-containerinstance:jar:1.3.0:test
+|  |  +- (com.microsoft.azure:azure-client-runtime:jar:1.3.0:test - omitted for duplicate)
+|  |  +- (com.microsoft.azure:azure-mgmt-resources:jar:1.3.0:test - version managed from 1.11.1; omitted for duplicate)
+|  |  +- (com.microsoft.azure:azure-mgmt-storage:jar:1.3.0:test - omitted for duplicate)
+|  |  \- com.microsoft.azure:azure-storage:jar:4.4.0:test
+|  |     +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.6:test - version managed from 2.6.0; omitted for duplicate)
+|  |     +- (org.slf4j:slf4j-api:jar:1.7.12:test - omitted for conflict with 1.7.22)
+|  |     +- (org.apache.commons:commons-lang3:jar:3.4:test - version managed from 3.5; omitted for duplicate)
+|  |     \- (com.microsoft.azure:azure-keyvault-core:jar:1.1.1:test - version managed from 0.8.0; omitted for duplicate)
+|  +- com.microsoft.azure:azure-mgmt-containerregistry:jar:1.3.0:test
+|  |  +- (com.microsoft.azure:azure-client-runtime:jar:1.3.0:test - omitted for duplicate)
+|  |  +- (com.microsoft.azure:azure-mgmt-resources:jar:1.3.0:test - version managed from 1.11.1; omitted for duplicate)
+|  |  \- (com.microsoft.azure:azure-mgmt-storage:jar:1.3.0:test - omitted for duplicate)
+|  +- com.microsoft.azure:azure-mgmt-cosmosdb:jar:1.3.0:test
+|  |  +- (com.microsoft.azure:azure-client-runtime:jar:1.3.0:test - omitted for duplicate)
+|  |  \- (com.microsoft.azure:azure-mgmt-resources:jar:1.3.0:test - version managed from 1.11.1; omitted for duplicate)
+|  +- com.microsoft.azure:azure-mgmt-search:jar:1.3.0:test
+|  |  +- (com.microsoft.azure:azure-client-runtime:jar:1.3.0:test - omitted for duplicate)
+|  |  \- (com.microsoft.azure:azure-mgmt-resources:jar:1.3.0:test - version managed from 1.11.1; omitted for duplicate)
+|  \- com.microsoft.azure:azure-mgmt-servicebus:jar:1.3.0:test
+|     +- (com.microsoft.azure:azure-client-runtime:jar:1.3.0:test - omitted for duplicate)
+|     +- (com.microsoft.azure:azure-mgmt-resources:jar:1.3.0:test - version managed from 1.11.1; omitted for duplicate)
+|     \- (joda-time:joda-time:jar:2.1:test - omitted for duplicate)
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.bouncycastle:bcprov-jdk15on:jar:1.59:test
+\- org.mockito:mockito-core:jar:1.10.19:test
+   +- (org.hamcrest:hamcrest-core:jar:1.1:test - omitted for conflict with 1.3)
+   \- org.objenesis:objenesis:jar:2.1:test

@@ -1,0 +1,15 @@
+com.fasterxml.woodstox:woodstox-core:bundle:5.1.0
++- org.codehaus.woodstox:stax2-api:jar:4.1:compile
++- net.java.dev.msv:msv-core:jar:2013.6.1:provided
+|  +- (net.java.dev.msv:xsdlib:jar:2013.6.1:provided - omitted for duplicate)
+|  \- com.sun.xml.bind.jaxb:isorelax:jar:20090621:provided
++- net.java.dev.msv:msv-rngconverter:jar:2013.6.1:provided
+|  +- (net.java.dev.msv:xsdlib:jar:2013.6.1:provided - omitted for duplicate)
+|  +- (net.java.dev.msv:msv-core:jar:2013.6.1:provided - omitted for duplicate)
+|  \- xerces:xercesImpl:jar:2.9.1:provided
+|     \- xml-apis:xml-apis:jar:1.3.04:provided
++- net.java.dev.msv:xsdlib:jar:2013.6.1:provided
+|  \- relaxngDatatype:relaxngDatatype:jar:20020414:provided
++- org.apache.felix:org.osgi.core:jar:1.4.0:provided
+\- junit:junit:jar:4.12:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

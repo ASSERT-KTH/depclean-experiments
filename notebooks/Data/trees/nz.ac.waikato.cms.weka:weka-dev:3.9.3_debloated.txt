@@ -1,0 +1,53 @@
+nz.ac.waikato.cms.weka:weka-dev:jar:3.9.3
++- junit:junit:jar:3.8.2:test
++- nz.ac.waikato.cms.weka.thirdparty:java-cup-11b-runtime:jar:2015.03.26:compile
++- nz.ac.waikato.cms.weka.thirdparty:bounce:jar:0.18:compile
++- com.googlecode.matrix-toolkits-java:mtj:jar:1.0.4:compile
+|  \- com.github.fommil.netlib:all:pom:1.1.2:compile
+|     +- (net.sourceforge.f2j:arpack_combined_all:jar:0.1:compile - omitted for duplicate)
+|     +- (com.github.fommil.netlib:core:jar:1.1.2:compile - omitted for conflict with 1.1)
+|     +- com.github.fommil.netlib:netlib-native_ref-osx-x86_64:jar:natives:1.1:compile
+|     |  +- com.github.fommil.netlib:native_ref-java:jar:1.1:compile
+|     |  |  +- com.github.fommil:jniloader:jar:1.1:compile
+|     |  |  +- (com.github.fommil.netlib:core:jar:1.1:compile - omitted for conflict with 1.1.2)
+|     |  |  \- (net.sourceforge.f2j:arpack_combined_all:jar:0.1:compile - omitted for duplicate)
+|     |  \- (net.sourceforge.f2j:arpack_combined_all:jar:0.1:compile - omitted for duplicate)
+|     +- com.github.fommil.netlib:netlib-native_ref-linux-x86_64:jar:natives:1.1:compile
+|     |  +- (com.github.fommil.netlib:native_ref-java:jar:1.1:compile - omitted for duplicate)
+|     |  \- (net.sourceforge.f2j:arpack_combined_all:jar:0.1:compile - omitted for duplicate)
+|     +- com.github.fommil.netlib:netlib-native_ref-linux-i686:jar:natives:1.1:compile
+|     |  +- (com.github.fommil.netlib:native_ref-java:jar:1.1:compile - omitted for duplicate)
+|     |  \- (net.sourceforge.f2j:arpack_combined_all:jar:0.1:compile - omitted for duplicate)
+|     +- com.github.fommil.netlib:netlib-native_ref-win-x86_64:jar:natives:1.1:compile
+|     |  +- (com.github.fommil.netlib:native_ref-java:jar:1.1:compile - omitted for duplicate)
+|     |  \- (net.sourceforge.f2j:arpack_combined_all:jar:0.1:compile - omitted for duplicate)
+|     +- com.github.fommil.netlib:netlib-native_ref-win-i686:jar:natives:1.1:compile
+|     |  +- (com.github.fommil.netlib:native_ref-java:jar:1.1:compile - omitted for duplicate)
+|     |  \- (net.sourceforge.f2j:arpack_combined_all:jar:0.1:compile - omitted for duplicate)
+|     +- com.github.fommil.netlib:netlib-native_ref-linux-armhf:jar:natives:1.1:compile
+|     |  +- (com.github.fommil.netlib:native_ref-java:jar:1.1:compile - omitted for duplicate)
+|     |  \- (net.sourceforge.f2j:arpack_combined_all:jar:0.1:compile - omitted for duplicate)
+|     +- com.github.fommil.netlib:netlib-native_system-osx-x86_64:jar:natives:1.1:compile
+|     |  +- com.github.fommil.netlib:native_system-java:jar:1.1:compile
+|     |  |  +- (com.github.fommil:jniloader:jar:1.1:compile - omitted for duplicate)
+|     |  |  +- (com.github.fommil.netlib:core:jar:1.1:compile - omitted for conflict with 1.1.2)
+|     |  |  \- (net.sourceforge.f2j:arpack_combined_all:jar:0.1:compile - omitted for duplicate)
+|     |  \- (net.sourceforge.f2j:arpack_combined_all:jar:0.1:compile - omitted for duplicate)
+|     +- com.github.fommil.netlib:netlib-native_system-linux-x86_64:jar:natives:1.1:compile
+|     |  +- (com.github.fommil.netlib:native_system-java:jar:1.1:compile - omitted for duplicate)
+|     |  \- (net.sourceforge.f2j:arpack_combined_all:jar:0.1:compile - omitted for duplicate)
+|     +- com.github.fommil.netlib:netlib-native_system-linux-i686:jar:natives:1.1:compile
+|     |  +- (com.github.fommil.netlib:native_system-java:jar:1.1:compile - omitted for duplicate)
+|     |  \- (net.sourceforge.f2j:arpack_combined_all:jar:0.1:compile - omitted for duplicate)
+|     +- com.github.fommil.netlib:netlib-native_system-linux-armhf:jar:natives:1.1:compile
+|     |  +- (com.github.fommil.netlib:native_system-java:jar:1.1:compile - omitted for duplicate)
+|     |  \- (net.sourceforge.f2j:arpack_combined_all:jar:0.1:compile - omitted for duplicate)
+|     +- com.github.fommil.netlib:netlib-native_system-win-x86_64:jar:natives:1.1:compile
+|     |  +- (com.github.fommil.netlib:native_system-java:jar:1.1:compile - omitted for duplicate)
+|     |  \- (net.sourceforge.f2j:arpack_combined_all:jar:0.1:compile - omitted for duplicate)
+|     \- com.github.fommil.netlib:netlib-native_system-win-i686:jar:natives:1.1:compile
+|        +- (com.github.fommil.netlib:native_system-java:jar:1.1:compile - omitted for duplicate)
+|        \- (net.sourceforge.f2j:arpack_combined_all:jar:0.1:compile - omitted for duplicate)
+\- com.googlecode.netlib-java:netlib-java:jar:1.1:compile
+   \- com.github.fommil.netlib:core:jar:1.1:compile
+      \- (net.sourceforge.f2j:arpack_combined_all:jar:0.1:compile - omitted for duplicate)

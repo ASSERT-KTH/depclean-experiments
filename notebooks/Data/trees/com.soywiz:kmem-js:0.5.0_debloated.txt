@@ -1,0 +1,5 @@
+com.soywiz:kmem-js:jar:0.5.0
+\- org.jetbrains.kotlin:kotlin-test-js:jar:1.2.20:test
+   +- org.jetbrains.kotlin:kotlin-test-annotations-common:jar:1.2.20:test
+   |  \- org.jetbrains.kotlin:kotlin-stdlib-common:jar:1.2.20:test
+   \- (org.jetbrains.kotlin:kotlin-stdlib-js:jar:1.2.20:test - omitted for duplicate)

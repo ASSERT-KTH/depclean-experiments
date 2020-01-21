@@ -1,0 +1,80 @@
+com.querydsl:querydsl-sql-spatial:jar:4.2.1
++- com.querydsl:querydsl-sql:jar:4.2.1:compile
+|  +- com.querydsl:querydsl-core:jar:4.2.1:compile
+|  |  +- com.google.guava:guava:jar:15.0:compile
+|  |  +- com.google.code.findbugs:jsr305:jar:1.3.9:compile
+|  |  +- com.mysema.commons:mysema-commons-lang:jar:0.2.4:compile
+|  |  \- (com.infradna.tool:bridge-method-annotation:jar:1.13:compile - omitted for duplicate)
+|  +- joda-time:joda-time:jar:1.6:compile
+|  +- javax.validation:validation-api:jar:1.1.0.Final:compile
+|  +- org.slf4j:slf4j-api:jar:1.6.1:compile
+|  +- org.apache.servicemix.bundles:org.apache.servicemix.bundles.javax-inject:jar:1_2:compile
+|  \- (com.infradna.tool:bridge-method-annotation:jar:1.13:compile - omitted for duplicate)
++- com.querydsl:querydsl-spatial:jar:4.2.1:compile
+|  +- (com.querydsl:querydsl-core:jar:4.2.1:compile - omitted for duplicate)
+|  \- org.geolatte:geolatte-geom:jar:0.13:compile
+|     +- (com.vividsolutions:jts:jar:1.13:compile - omitted for duplicate)
+|     \- (org.slf4j:slf4j-api:jar:1.6.1:compile - omitted for duplicate)
++- com.vividsolutions:jts:jar:1.13:compile
++- org.slf4j:slf4j-log4j12:jar:1.6.1:provided
+|  +- (org.slf4j:slf4j-api:jar:1.6.1:provided - omitted for duplicate)
+|  \- log4j:log4j:jar:1.2.16:provided
++- cglib:cglib:jar:2.2.2:test
+|  \- asm:asm:jar:3.3.1:test
++- org.hsqldb:hsqldb:jar:2.3.2:test
++- org.apache.derby:derby:jar:10.11.1.1:test
++- mysql:mysql-connector-java:jar:5.1.30:test
++- org.postgresql:postgresql:jar:9.4-1200-jdbc41:test
+|  +- com.github.dblock.waffle:waffle-jna:jar:1.7:test
+|  |  +- net.java.dev.jna:jna:jar:4.1.0:test
+|  |  +- net.java.dev.jna:jna-platform:jar:4.1.0:test
+|  |  |  \- (net.java.dev.jna:jna:jar:4.1.0:test - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.6.1:test - version managed from 1.7.7; omitted for duplicate)
+|  |  \- (com.google.guava:guava:jar:18.0:test - omitted for duplicate)
+|  \- org.slf4j:slf4j-simple:jar:1.7.7:test
+|     \- (org.slf4j:slf4j-api:jar:1.6.1:test - version managed from 1.7.7; omitted for duplicate)
++- org.postgis:postgis-jdbc:jar:1.3.3:compile
+|  \- org.postgis:postgis-stubs:jar:1.3.3:compile
+|     \- postgresql:postgresql:jar:8.3-603.jdbc4:compile
++- com.oracle:ojdbc6:jar:11.1.0.7.0:compile
++- oracle:sdoapi:jar:11.2.0:compile
++- net.sourceforge.jtds:jtds:jar:1.3.1:test
++- com.h2database:h2:jar:1.4.186:test
++- org.opengeo:geodb:jar:0.7:test
+|  +- (com.h2database:h2:jar:1.1.118:test - omitted for conflict with 1.4.186)
+|  +- (com.vividsolutions:jts:jar:1.12:test - omitted for conflict with 1.13)
+|  \- net.sourceforge.hatbox:hatbox:jar:1.0.b7:test
+|     +- (com.h2database:h2:jar:1.1.117:test - omitted for conflict with 1.4.186)
+|     \- (com.vividsolutions:jts:jar:1.10:test - omitted for conflict with 1.13)
++- cubrid:cubrid-jdbc:jar:9.3.1.0005:test
++- org.firebirdsql.jdbc:jaybird-jdk16:jar:2.2.5:test
+|  +- javax.resource:connector-api:jar:1.5:test
+|  \- org.antlr:antlr-runtime:jar:3.4:test
+|     +- org.antlr:stringtemplate:jar:3.2.1:test
+|     |  \- (antlr:antlr:jar:2.7.7:test - omitted for duplicate)
+|     \- antlr:antlr:jar:2.7.7:test
++- org.xerial:sqlite-jdbc:jar:3.7.2:test
++- com.querydsl:querydsl-core:test-jar:tests:4.2.1:test
+|  +- (com.google.guava:guava:jar:18.0:compile - scope updated from test; omitted for duplicate)
+|  +- (com.google.code.findbugs:jsr305:jar:1.3.9:compile - scope updated from test; omitted for duplicate)
+|  +- (com.mysema.commons:mysema-commons-lang:jar:0.2.4:compile - scope updated from test; omitted for duplicate)
+|  \- (com.infradna.tool:bridge-method-annotation:jar:1.13:test - omitted for duplicate)
++- com.querydsl:querydsl-sql:test-jar:tests:4.2.1:test
+|  +- (com.querydsl:querydsl-core:jar:4.2.1:test - omitted for duplicate)
+|  +- (joda-time:joda-time:jar:1.6:test - omitted for duplicate)
+|  +- (javax.validation:validation-api:jar:1.1.0.Final:test - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.6.1:test - version managed from 1.7.7; omitted for duplicate)
+|  +- (org.apache.servicemix.bundles:org.apache.servicemix.bundles.javax-inject:jar:1_2:test - omitted for duplicate)
+|  \- (com.infradna.tool:bridge-method-annotation:jar:1.13:test - omitted for duplicate)
++- jdepend:jdepend:jar:2.9.1:test
++- org.jvnet.hudson:annotation-indexer:jar:1.2:compile
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.hamcrest:hamcrest-library:jar:1.3:test
+|  \- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for duplicate)
++- org.easymock:easymock:jar:3.0:test
+|  \- org.objenesis:objenesis:jar:1.2:test
+\- org.reflections:reflections:jar:0.9.9:test
+   +- (com.google.guava:guava:jar:15.0:compile - scope updated from test; omitted for duplicate)
+   +- org.javassist:javassist:jar:3.18.2-GA:test
+   \- com.google.code.findbugs:annotations:jar:2.0.1:test

@@ -1,0 +1,27 @@
+org.kaazing:k3po.driver:jar:3.0.0-alpha-88
++- org.kaazing:k3po.lang:jar:3.0.0-alpha-88:compile
+|  \- org.antlr:antlr4-runtime:jar:4.7:compile
++- javax.annotation:javax.annotation-api:jar:1.3.1:compile
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.jmock:jmock:jar:2.8.3:test
+|  +- org.jmock:jmock-testjar:jar:2.8.3:test
+|  +- cglib:cglib:jar:3.2.0:test
+|  |  \- org.apache.ant:ant:jar:1.9.4:test
+|  |     \- org.apache.ant:ant-launcher:jar:1.9.4:test
+|  +- org.ow2.asm:asm:jar:5.0.4:test
+|  +- org.apache-extras.beanshell:bsh:jar:2.0b6:test
+|  \- org.hamcrest:hamcrest-library:jar:1.3:test
++- org.jmock:jmock-junit4:jar:2.8.3:test
++- org.jmock:jmock-legacy:jar:2.8.3:test
+|  \- org.objenesis:objenesis:jar:2.1:test
++- org.mockito:mockito-all:jar:1.10.19:test
++- io.netty:netty:jar:3.10.5.Final:compile
++- de.odysseus.juel:juel-api:jar:2.2.7:compile
++- org.kaazing:net.api:jar:1.1.0.9:test
++- org.kaazing:net.tcp:jar:1.1.0.9:test
++- org.kaazing:net.bbosh:jar:1.1.0.9:test
+|  \- org.kaazing:robotic.bbosh:jar:1.0.0-alpha-1:test
++- com.fasterxml.jackson.core:jackson-databind:jar:2.8.9:compile
+|  \- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile
+\- org.agrona:Agrona:jar:0.5.5:compile

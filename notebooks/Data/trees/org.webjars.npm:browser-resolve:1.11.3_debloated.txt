@@ -1,0 +1,1 @@
+org.webjars.npm:browser-resolve:jar:1.11.3

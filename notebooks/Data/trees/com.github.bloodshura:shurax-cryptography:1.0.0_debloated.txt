@@ -1,0 +1,9 @@
+com.github.bloodshura:shurax-cryptography:jar:1.0.0
++- com.github.bloodshura:shurax:jar:1.0.0:compile
+|  \- com.google.code.findbugs:jsr305:jar:3.0.2:compile
++- com.github.bloodshura:shurax-assets:jar:1.0.0:compile
+|  \- (com.github.bloodshura:shurax:jar:1.0.0:compile - omitted for duplicate)
++- com.github.bloodshura:shurax-cfg:jar:1.0.0:compile
+|  \- (com.github.bloodshura:shurax:jar:1.0.0:compile - omitted for duplicate)
++- org.gnu:gnu-crypto:jar:2.0.1:compile
+\- org.mindrot:jbcrypt:jar:0.4:compile

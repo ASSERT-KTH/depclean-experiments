@@ -1,0 +1,18 @@
+org.jbehave:jbehave-scala:jar:4.3
++- org.jbehave:jbehave-core:jar:4.3:compile
+|  +- junit:junit:jar:4.12:compile
+|  +- org.hamcrest:hamcrest-core:jar:1.3:compile
+|  +- org.hamcrest:hamcrest-library:jar:1.3:compile
+|  +- org.hamcrest:hamcrest-integration:jar:1.3:compile
+|  +- org.apache.commons:commons-collections4:jar:4.1:compile
+|  +- commons-io:commons-io:jar:2.6:compile
+|  +- org.apache.commons:commons-lang3:jar:3.7:compile
+|  +- org.apache.commons:commons-text:jar:1.2:compile
+|  +- org.codehaus.plexus:plexus-utils:jar:3.0.22:compile
+|  +- org.freemarker:freemarker:jar:2.3.23:compile
+|  +- com.thoughtworks.paranamer:paranamer:jar:2.8:compile
+|  +- com.thoughtworks.xstream:xstream:jar:1.4.9:compile
+|  |  +- xmlpull:xmlpull:jar:1.1.3.1:compile
+|  |  \- xpp3:xpp3_min:jar:1.1.4c:compile
+|  \- com.google.code.gson:gson:jar:2.8.0:compile
+\- org.mockito:mockito-all:jar:1.10.19:test

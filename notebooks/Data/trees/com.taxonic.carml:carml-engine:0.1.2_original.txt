@@ -1,0 +1,89 @@
+com.taxonic.carml:carml-engine:jar:0.1.2
++- com.taxonic.carml:carml-rdf-mapper:jar:0.1.2:compile
+|  +- javax.inject:javax.inject:jar:1:compile
+|  +- org.eclipse.rdf4j:rdf4j-repository-api:jar:2.2.2:compile
+|  |  +- org.eclipse.rdf4j:rdf4j-query:jar:2.2.2:compile
+|  |  |  +- (org.eclipse.rdf4j:rdf4j-model:jar:2.2.2:compile - omitted for duplicate)
+|  |  |  \- (org.eclipse.rdf4j:rdf4j-rio-api:jar:2.2.2:compile - omitted for duplicate)
+|  |  +- (org.eclipse.rdf4j:rdf4j-rio-api:jar:2.2.2:compile - omitted for duplicate)
+|  |  +- (org.eclipse.rdf4j:rdf4j-model:jar:2.2.2:compile - omitted for duplicate)
+|  |  +- (org.eclipse.rdf4j:rdf4j-util:jar:2.2.2:compile - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - omitted for conflict with 1.7.25)
+|  +- (org.eclipse.rdf4j:rdf4j-model:jar:2.2.2:compile - omitted for duplicate)
+|  +- (org.eclipse.rdf4j:rdf4j-util:jar:2.2.2:compile - omitted for duplicate)
+|  +- (org.eclipse.rdf4j:rdf4j-rio-api:jar:2.2.2:compile - omitted for duplicate)
+|  +- (org.eclipse.rdf4j:rdf4j-rio-turtle:jar:2.2.2:compile - omitted for duplicate)
+|  +- (org.eclipse.rdf4j:rdf4j-rio-trig:jar:2.2.2:compile - omitted for duplicate)
+|  +- (org.apache.commons:commons-lang3:jar:3.6:compile - omitted for duplicate)
+|  +- (org.apache.logging.log4j:log4j-api:jar:2.8.2:compile - omitted for duplicate)
+|  +- (org.apache.logging.log4j:log4j-core:jar:2.8.2:compile - omitted for duplicate)
+|  +- (org.apache.logging.log4j:log4j-slf4j-impl:jar:2.8.2:compile - omitted for duplicate)
+|  \- (com.google.guava:guava:jar:23.0:compile - omitted for duplicate)
++- com.taxonic.carml:carml-model:jar:0.1.2:compile
+|  +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  +- (com.taxonic.carml:carml-rdf-mapper:jar:0.1.2:compile - omitted for duplicate)
+|  +- (org.eclipse.rdf4j:rdf4j-model:jar:2.2.2:compile - omitted for duplicate)
+|  +- (org.eclipse.rdf4j:rdf4j-util:jar:2.2.2:compile - omitted for duplicate)
+|  +- (org.eclipse.rdf4j:rdf4j-rio-api:jar:2.2.2:compile - omitted for duplicate)
+|  +- (org.eclipse.rdf4j:rdf4j-rio-turtle:jar:2.2.2:compile - omitted for duplicate)
+|  +- (org.eclipse.rdf4j:rdf4j-rio-trig:jar:2.2.2:compile - omitted for duplicate)
+|  +- (org.apache.commons:commons-lang3:jar:3.6:compile - omitted for duplicate)
+|  +- (org.apache.logging.log4j:log4j-api:jar:2.8.2:compile - omitted for duplicate)
+|  +- (org.apache.logging.log4j:log4j-core:jar:2.8.2:compile - omitted for duplicate)
+|  +- (org.apache.logging.log4j:log4j-slf4j-impl:jar:2.8.2:compile - omitted for duplicate)
+|  \- (com.google.guava:guava:jar:23.0:compile - omitted for duplicate)
++- com.jayway.jsonpath:json-path:jar:2.4.0:compile
+|  +- net.minidev:json-smart:jar:2.3:compile
+|  |  \- net.minidev:accessors-smart:jar:1.2:compile
+|  |     \- org.ow2.asm:asm:jar:5.0.4:compile
+|  \- org.slf4j:slf4j-api:jar:1.7.25:compile
++- net.sf.saxon:Saxon-HE:jar:9.8.0-6:compile
++- com.univocity:univocity-parsers:jar:2.5.9:compile
++- org.eclipse.rdf4j:rdf4j-model:jar:2.2.2:compile
+|  \- (org.eclipse.rdf4j:rdf4j-util:jar:2.2.2:compile - omitted for duplicate)
++- org.eclipse.rdf4j:rdf4j-util:jar:2.2.2:compile
+|  +- (com.google.guava:guava:jar:18.0:compile - omitted for conflict with 23.0)
+|  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - omitted for conflict with 1.7.25)
++- org.eclipse.rdf4j:rdf4j-rio-api:jar:2.2.2:compile
+|  +- (org.eclipse.rdf4j:rdf4j-model:jar:2.2.2:compile - omitted for duplicate)
+|  \- (org.eclipse.rdf4j:rdf4j-util:jar:2.2.2:compile - omitted for duplicate)
++- org.eclipse.rdf4j:rdf4j-rio-turtle:jar:2.2.2:compile
+|  +- (org.eclipse.rdf4j:rdf4j-model:jar:2.2.2:compile - omitted for duplicate)
+|  +- (org.eclipse.rdf4j:rdf4j-rio-api:jar:2.2.2:compile - omitted for duplicate)
+|  +- org.eclipse.rdf4j:rdf4j-rio-datatypes:jar:2.2.2:runtime
+|  |  +- (org.eclipse.rdf4j:rdf4j-model:jar:2.2.2:runtime - omitted for duplicate)
+|  |  +- (org.eclipse.rdf4j:rdf4j-rio-api:jar:2.2.2:runtime - omitted for duplicate)
+|  |  \- (org.eclipse.rdf4j:rdf4j-util:jar:2.2.2:runtime - omitted for duplicate)
+|  +- org.eclipse.rdf4j:rdf4j-rio-languages:jar:2.2.2:runtime
+|  |  +- (org.eclipse.rdf4j:rdf4j-model:jar:2.2.2:runtime - omitted for duplicate)
+|  |  +- (org.eclipse.rdf4j:rdf4j-rio-api:jar:2.2.2:runtime - omitted for duplicate)
+|  |  \- (org.eclipse.rdf4j:rdf4j-util:jar:2.2.2:runtime - omitted for duplicate)
+|  +- (org.eclipse.rdf4j:rdf4j-util:jar:2.2.2:compile - omitted for duplicate)
+|  \- commons-io:commons-io:jar:2.4:compile
++- org.eclipse.rdf4j:rdf4j-rio-trig:jar:2.2.2:compile
+|  +- (org.eclipse.rdf4j:rdf4j-model:jar:2.2.2:compile - omitted for duplicate)
+|  +- (org.eclipse.rdf4j:rdf4j-rio-api:jar:2.2.2:compile - omitted for duplicate)
+|  +- (org.eclipse.rdf4j:rdf4j-rio-turtle:jar:2.2.2:compile - omitted for duplicate)
+|  +- (org.eclipse.rdf4j:rdf4j-rio-datatypes:jar:2.2.2:runtime - omitted for duplicate)
+|  +- (org.eclipse.rdf4j:rdf4j-rio-languages:jar:2.2.2:runtime - omitted for duplicate)
+|  \- (org.eclipse.rdf4j:rdf4j-util:jar:2.2.2:compile - omitted for duplicate)
++- org.apache.commons:commons-lang3:jar:3.6:compile
++- org.apache.logging.log4j:log4j-api:jar:2.8.2:compile
++- org.apache.logging.log4j:log4j-core:jar:2.8.2:compile
+|  \- (org.apache.logging.log4j:log4j-api:jar:2.8.2:compile - omitted for duplicate)
++- org.apache.logging.log4j:log4j-slf4j-impl:jar:2.8.2:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.24:compile - omitted for conflict with 1.7.25)
+|  \- (org.apache.logging.log4j:log4j-api:jar:2.8.2:compile - omitted for duplicate)
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.hamcrest:hamcrest-library:jar:1.3:test
+|  \- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for duplicate)
++- org.mockito:mockito-core:jar:2.11.0:test
+|  +- net.bytebuddy:byte-buddy:jar:1.7.4:test
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.7.4:test
+|  \- org.objenesis:objenesis:jar:2.6:test
+\- com.google.guava:guava:jar:23.0:compile
+   +- com.google.code.findbugs:jsr305:jar:1.3.9:compile
+   +- com.google.errorprone:error_prone_annotations:jar:2.0.18:compile
+   +- com.google.j2objc:j2objc-annotations:jar:1.1:compile
+   \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:compile

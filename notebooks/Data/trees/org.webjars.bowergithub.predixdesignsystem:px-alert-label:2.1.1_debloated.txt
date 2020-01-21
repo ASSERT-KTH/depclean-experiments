@@ -1,0 +1,1 @@
+org.webjars.bowergithub.predixdesignsystem:px-alert-label:jar:2.1.1

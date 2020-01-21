@@ -1,0 +1,11 @@
+org.tentackle:tentackle-swing-print:jar:2.1.2
++- org.tentackle:tentackle-swing:jar:2.1.2:compile
+|  +- org.tentackle:tentackle-core:jar:2.1.2:compile
+|  |  \- org.tentackle:tentackle-common:jar:2.1.2:compile
+|  \- org.apache.poi:poi:jar:3.16:compile
+|     +- commons-codec:commons-codec:jar:1.10:compile
+|     \- org.apache.commons:commons-collections4:jar:4.1:compile
++- org.testng:testng:jar:6.11:test
+|  +- com.beust:jcommander:jar:1.64:test
+|  \- org.yaml:snakeyaml:jar:1.17:test
+\- postgresql:postgresql:jar:9.1-901-1.jdbc4:test

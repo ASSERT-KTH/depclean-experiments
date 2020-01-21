@@ -1,0 +1,3 @@
+org.codehaus.izpack:izpack-gui:jar:5.1.3
+\- org.codehaus.izpack:izpack-api:jar:5.1.3:compile
+   \- org.codehaus.izpack:izpack-tools:jar:5.1.3:compile

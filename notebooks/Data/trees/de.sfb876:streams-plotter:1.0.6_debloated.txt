@@ -1,0 +1,20 @@
+de.sfb876:streams-plotter:jar:1.0.6
++- org.jfree:jfreechart:jar:1.0.14:compile
+|  +- org.jfree:jcommon:jar:1.0.17:compile
+|  +- xml-apis:xml-apis:jar:1.3.04:compile
+|  \- com.lowagie:itext:jar:2.1.5:compile
+|     +- bouncycastle:bcmail-jdk14:jar:138:compile
+|     \- bouncycastle:bcprov-jdk14:jar:138:compile
++- org.slf4j:slf4j-log4j12:jar:1.6.4:test
+|  +- (org.slf4j:slf4j-api:jar:1.6.4:compile - scope updated from test; omitted for duplicate)
+|  \- (log4j:log4j:jar:1.2.16:test - omitted for conflict with 1.2.12)
++- log4j:log4j:jar:1.2.12:test
++- de.sfb876:streams-runtime:jar:1.0.6:test
+|  +- (de.sfb876:streams-api:jar:1.0.6:test - omitted for duplicate)
+|  +- (org.slf4j:slf4j-log4j12:jar:1.6.4:test - omitted for duplicate)
+|  \- net.minidev:json-smart:jar:2.3:test
+|     \- net.minidev:accessors-smart:jar:1.2:test
+|        \- org.ow2.asm:asm:jar:5.0.4:test
+\- de.sfb876:streams-api:jar:1.0.6:compile
+   +- org.slf4j:slf4j-api:jar:1.6.4:compile
+   \- colt:colt:jar:1.2.0:compile

@@ -1,0 +1,17 @@
+org.concordion:concordion-run-totals-extension:jar:1.2.0
+\- org.concordion:concordion:jar:2.2.0:compile
+   +- junit:junit:jar:4.12:compile
+   |  \- org.hamcrest:hamcrest-core:jar:1.3:compile
+   +- ognl:ognl:jar:3.1:compile
+   |  \- javassist:javassist:jar:3.11.0.GA:compile
+   +- org.pegdown:pegdown:jar:1.6.0:compile
+   |  \- org.parboiled:parboiled-java:jar:1.1.7:compile
+   |     +- org.parboiled:parboiled-core:jar:1.1.7:compile
+   |     +- org.ow2.asm:asm:jar:5.0.3:compile
+   |     +- org.ow2.asm:asm-tree:jar:5.0.3:compile
+   |     |  \- (org.ow2.asm:asm:jar:5.0.3:compile - omitted for duplicate)
+   |     +- org.ow2.asm:asm-analysis:jar:5.0.3:compile
+   |     |  \- (org.ow2.asm:asm-tree:jar:5.0.3:compile - omitted for duplicate)
+   |     \- org.ow2.asm:asm-util:jar:5.0.3:compile
+   |        \- (org.ow2.asm:asm-tree:jar:5.0.3:compile - omitted for duplicate)
+   \- xom:xom:jar:1.2.5:compile

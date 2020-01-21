@@ -1,0 +1,17 @@
+com.zerotoheroes:hs-game-entities:jar:1.0.19
++- org.slf4j:slf4j-jdk14:jar:1.7.13:compile
+|  \- org.slf4j:slf4j-api:jar:1.7.13:compile
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.mockito:mockito-all:jar:1.10.19:test
++- javax.xml.bind:jaxb-api:jar:2.2.12:compile
++- org.glassfish.jaxb:jaxb-runtime:jar:2.2.11:compile
++- org.glassfish.jaxb:jaxb-core:jar:2.2.11:compile
++- org.glassfish.jaxb:txw2:jar:2.2.11:compile
++- com.sun.istack:istack-commons-runtime:jar:2.21:compile
++- org.jvnet.staxex:stax-ex:jar:1.7.7:compile
+|  +- javax.xml.stream:stax-api:jar:1.0-2:compile
+|  \- javax.activation:activation:jar:1.1:compile
++- com.sun.xml.fastinfoset:FastInfoset:jar:1.2.13:compile
++- org.projectlombok:lombok:jar:1.16.6:provided
+\- commons-lang:commons-lang:jar:2.6:compile

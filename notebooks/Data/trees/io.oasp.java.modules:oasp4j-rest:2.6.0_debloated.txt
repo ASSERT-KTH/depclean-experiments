@@ -1,0 +1,37 @@
+io.oasp.java.modules:oasp4j-rest:jar:2.6.0
++- com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:jar:2.8.8:compile
+|  +- com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:jar:2.8.8:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.8:compile - omitted for duplicate)
+|  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.8:compile - omitted for duplicate)
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.8.8:compile
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.8.8:compile
+|  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile
+|  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.8.8:compile - omitted for duplicate)
+|  \- com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.8.8:compile
+|     +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.8:compile - omitted for duplicate)
+|     +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile - omitted for duplicate)
+|     \- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.8:compile - omitted for duplicate)
++- javax.ws.rs:javax.ws.rs-api:jar:2.0.1:compile
++- io.oasp.java.modules:oasp4j-service:jar:2.6.0:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  \- io.oasp.java.modules:oasp4j-basic:jar:2.6.0:compile
+|     +- net.sf.m-m-m:mmm-util-entity:jar:7.5.1:compile
+|     |  \- (net.sf.m-m-m:mmm-util-pojo:jar:7.5.1:compile - omitted for duplicate)
+|     \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
++- io.oasp.java.modules:oasp4j-json:jar:2.6.0:compile
+|  +- (com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:jar:2.8.8:compile - omitted for duplicate)
+|  +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  +- net.sf.m-m-m:mmm-util-core:jar:7.5.1:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for conflict with 1.7.25)
+|  |  \- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  +- (org.springframework:spring-context:jar:4.3.8.RELEASE:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
++- javax.inject:javax.inject:jar:1:compile
++- javax.validation:validation-api:jar:1.1.0.Final:compile
++- net.sf.m-m-m:mmm-util-validation:jar:7.5.1:compile
+|  \- net.sf.m-m-m:mmm-util-pojo:jar:7.5.1:compile
+|     \- (net.sf.m-m-m:mmm-util-core:jar:7.5.1:compile - omitted for duplicate)
++- org.glassfish.web:javax.el:jar:2.2.6:compile
+|  \- (javax.el:javax.el-api:jar:2.2.5:compile - omitted for conflict with 2.2.4)
+\- org.slf4j:slf4j-api:jar:1.7.25:compile

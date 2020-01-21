@@ -1,0 +1,166 @@
+org.sistcoop:openfact-services:jar:1.0.2.Final
++- org.sistcoop:openfact-server-spi:jar:1.0.2.Final:compile
+|  \- org.sistcoop:openfact-core:jar:1.0.2.Final:compile
+|     +- org.sistcoop:openfact-common:jar:1.0.2.Final:compile
+|     |  +- (org.bouncycastle:bcprov-jdk15on:jar:1.52:compile - omitted for duplicate)
+|     |  +- (org.bouncycastle:bcpkix-jdk15on:jar:1.52:compile - omitted for duplicate)
+|     |  +- com.google.guava:guava:jar:19.0:compile
+|     |  \- commons-lang:commons-lang:jar:2.6:compile
+|     +- (org.bouncycastle:bcprov-jdk15on:jar:1.52:compile - omitted for duplicate)
+|     +- (org.bouncycastle:bcpkix-jdk15on:jar:1.52:compile - omitted for duplicate)
+|     \- (org.json:json:jar:20160810:compile - omitted for duplicate)
++- org.sistcoop:openfact-server-spi-private:jar:1.0.2.Final:compile
+|  +- (org.sistcoop:openfact-server-spi:jar:1.0.2.Final:compile - omitted for duplicate)
+|  +- com.helger:ph-ubl21:jar:5.1.0:compile
+|  |  +- com.helger:ph-commons:jar:8.5.0:compile
+|  |  |  +- com.google.code.findbugs:jsr305:jar:3.0.1:compile
+|  |  |  \- org.slf4j:slf4j-api:jar:1.7.7:compile (version managed from 1.7.21)
+|  |  +- com.helger:ph-jaxb:jar:8.5.0:compile
+|  |  |  +- (com.helger:ph-commons:jar:8.5.0:compile - omitted for duplicate)
+|  |  |  +- com.helger:ph-xml:jar:8.5.0:compile
+|  |  |  |  +- (com.helger:ph-commons:jar:8.5.0:compile - omitted for duplicate)
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.7:compile - version managed from 1.7.21; omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.7:compile - version managed from 1.7.21; omitted for duplicate)
+|  |  +- com.helger:ph-xsds-xmldsig:jar:1.0.0:compile
+|  |  |  \- (com.helger:ph-commons:jar:8.2.0:compile - omitted for conflict with 8.5.0)
+|  |  +- com.helger:ph-xsds-xades132:jar:1.0.0:compile
+|  |  |  +- (com.helger:ph-xsds-xmldsig:jar:1.0.0:compile - omitted for duplicate)
+|  |  |  \- (com.helger:ph-commons:jar:8.2.0:compile - omitted for conflict with 8.5.0)
+|  |  +- com.helger:ph-xsds-xades141:jar:1.0.0:compile
+|  |  |  +- (com.helger:ph-xsds-xmldsig:jar:1.0.0:compile - omitted for duplicate)
+|  |  |  +- (com.helger:ph-xsds-xades132:jar:1.0.0:compile - omitted for duplicate)
+|  |  |  \- (com.helger:ph-commons:jar:8.2.0:compile - omitted for conflict with 8.5.0)
+|  |  \- com.helger:ph-xsds-ccts-cct-schemamodule:jar:1.0.0:compile
+|  |     \- (com.helger:ph-commons:jar:8.2.0:compile - omitted for conflict with 8.5.0)
+|  +- org.json:json:jar:20160810:compile
+|  \- de.odysseus.staxon:staxon-gson:jar:1.3:compile
+|     +- com.google.code.gson:gson:jar:2.2.4:compile
+|     \- de.odysseus.staxon:staxon:jar:1.3:compile
++- org.sistcoop:openfact-integration:jar:1.0.2.Final:compile
+|  +- (org.sistcoop:openfact-core:jar:1.0.2.Final:compile - omitted for duplicate)
+|  +- (org.sistcoop:openfact-server-spi:jar:1.0.2.Final:compile - omitted for duplicate)
+|  +- (org.sistcoop:openfact-server-spi-private:jar:1.0.2.Final:compile - omitted for duplicate)
+|  +- org.sistcoop:openfact-themes:jar:1.0.2.Final:compile
+|  +- org.sistcoop:openfact-reports:jar:1.0.2.Final:compile
+|  +- org.freemarker:freemarker:jar:2.3.23:compile
+|  +- commons-validator:commons-validator:jar:1.5.1:compile
+|  |  +- commons-beanutils:commons-beanutils:jar:1.9.2:compile
+|  |  |  \- (commons-collections:commons-collections:jar:3.2.2:compile - version managed from 3.2.1; omitted for duplicate)
+|  |  +- commons-digester:commons-digester:jar:1.8:compile (version managed from 1.8.1)
+|  |  +- commons-logging:commons-logging:jar:1.2:compile
+|  |  \- commons-collections:commons-collections:jar:3.2.2:compile
+|  +- net.sf.jasperreports:jasperreports:jar:6.3.1:compile
+|  |  +- (commons-beanutils:commons-beanutils:jar:1.9.2:compile - version managed from 1.9.0; omitted for duplicate)
+|  |  +- (commons-collections:commons-collections:jar:3.2.2:compile - version managed from 3.2.1; omitted for duplicate)
+|  |  +- (commons-digester:commons-digester:jar:1.8:compile - version managed from 2.1; omitted for duplicate)
+|  |  +- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for conflict with 1.2)
+|  |  +- (com.lowagie:itext:jar:2.1.7.js5:compile - omitted for conflict with 2.1.7)
+|  |  +- org.jfree:jcommon:jar:1.0.23:compile
+|  |  +- org.jfree:jfreechart:jar:1.0.19:compile
+|  |  |  \- (org.jfree:jcommon:jar:1.0.23:compile - omitted for duplicate)
+|  |  +- org.eclipse.jdt.core.compiler:ecj:jar:4.5.1:compile (version managed from 4.3.1)
+|  |  +- org.codehaus.castor:castor-xml:jar:1.3.3:compile
+|  |  |  +- org.codehaus.castor:castor-core:jar:1.3.3:compile
+|  |  |  |  +- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for conflict with 1.2)
+|  |  |  |  \- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+|  |  |  +- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for conflict with 1.2)
+|  |  |  +- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+|  |  |  +- (commons-collections:commons-collections:jar:3.2.2:compile - version managed from 3.2.1; omitted for duplicate)
+|  |  |  +- javax.inject:javax.inject:jar:1:compile
+|  |  |  +- stax:stax:jar:1.2.0:compile
+|  |  |  |  \- stax:stax-api:jar:1.0.1:compile
+|  |  |  +- javax.xml.stream:stax-api:jar:1.0-2:compile
+|  |  |  \- org.springframework:spring-context:jar:3.0.6.RELEASE:compile
+|  |  |     +- org.springframework:spring-aop:jar:3.0.6.RELEASE:compile
+|  |  |     |  +- aopalliance:aopalliance:jar:1.0:compile
+|  |  |     |  +- (org.springframework:spring-asm:jar:3.0.6.RELEASE:compile - omitted for duplicate)
+|  |  |     |  +- (org.springframework:spring-beans:jar:3.0.6.RELEASE:compile - omitted for duplicate)
+|  |  |     |  \- (org.springframework:spring-core:jar:3.0.6.RELEASE:compile - omitted for duplicate)
+|  |  |     +- org.springframework:spring-beans:jar:3.0.6.RELEASE:compile
+|  |  |     |  \- (org.springframework:spring-core:jar:3.0.6.RELEASE:compile - omitted for duplicate)
+|  |  |     +- org.springframework:spring-core:jar:3.0.6.RELEASE:compile
+|  |  |     |  +- (org.springframework:spring-asm:jar:3.0.6.RELEASE:compile - omitted for duplicate)
+|  |  |     |  \- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for conflict with 1.2)
+|  |  |     +- org.springframework:spring-expression:jar:3.0.6.RELEASE:compile
+|  |  |     |  \- (org.springframework:spring-core:jar:3.0.6.RELEASE:compile - omitted for duplicate)
+|  |  |     \- org.springframework:spring-asm:jar:3.0.6.RELEASE:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.7.4:compile - version managed from 2.5.4; omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.7.4:compile - version managed from 2.5.4; omitted for duplicate)
+|  |  +- org.apache.lucene:lucene-core:jar:5.3.1:compile (version managed from 4.5.1)
+|  |  +- org.apache.lucene:lucene-analyzers-common:jar:5.3.1:compile (version managed from 4.5.1)
+|  |  |  \- (org.apache.lucene:lucene-core:jar:5.3.1:compile - version managed from 4.5.1; omitted for duplicate)
+|  |  +- org.apache.lucene:lucene-queryparser:jar:5.3.1:compile (version managed from 4.5.1)
+|  |  |  +- (org.apache.lucene:lucene-core:jar:5.3.1:compile - version managed from 4.5.1; omitted for duplicate)
+|  |  |  \- org.apache.lucene:lucene-queries:jar:5.3.1:compile
+|  |  +- (org.olap4j:olap4j:jar:0.9.7.309-JS-3:compile - omitted for conflict with 1.2.0)
+|  |  +- com.google.zxing:core:jar:3.2.1:compile
+|  |  \- com.ibm.icu:icu4j:jar:57.1:compile
+|  +- net.sf.jasperreports:jasperreports-fonts:jar:6.0.0:compile
+|  +- com.lowagie:itext:jar:2.1.7:compile
+|  +- org.olap4j:olap4j:jar:1.2.0:compile
+|  |  \- xerces:xercesImpl:jar:2.11.0.SP5:compile (version managed from 2.11.0)
+|  +- net.sf.barcode4j:barcode4j:jar:2.1:compile
+|  |  +- avalon-framework:avalon-framework-impl:jar:4.2.0:compile
+|  |  +- commons-cli:commons-cli:jar:1.2:compile (version managed from 1.0)
+|  |  \- org.apache.ant:ant:jar:1.7.1:compile
+|  |     \- org.apache.ant:ant-launcher:jar:1.7.1:compile
+|  +- (org.keycloak:keycloak-common:jar:3.1.0.Final:compile - omitted for duplicate)
+|  +- (org.keycloak:keycloak-core:jar:3.1.0.Final:compile - omitted for duplicate)
+|  +- (org.keycloak:keycloak-adapter-core:jar:3.1.0.Final:compile - omitted for duplicate)
+|  +- org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile
+|  \- org.apache.deltaspike.core:deltaspike-core-api:jar:1.7.2:compile
++- org.sistcoop:openfact-model-jpa:jar:1.0.2.Final:compile
+|  +- (org.sistcoop:openfact-core:jar:1.0.2.Final:compile - omitted for duplicate)
+|  +- (org.sistcoop:openfact-server-spi:jar:1.0.2.Final:compile - omitted for duplicate)
+|  +- (org.sistcoop:openfact-server-spi-private:jar:1.0.2.Final:compile - omitted for duplicate)
+|  \- (org.sistcoop:openfact-integration:jar:1.0.2.Final:compile - omitted for duplicate)
++- javax:javaee-api:jar:7.0:provided
+|  \- com.sun.mail:javax.mail:jar:1.5.5:provided (version managed from 1.5.0)
+|     \- (javax.activation:activation:jar:1.1.1:provided - version managed from 1.1; omitted for duplicate)
++- org.jboss.resteasy:resteasy-jaxrs:jar:3.1.1.Final:provided
+|  +- org.jboss.spec.javax.ws.rs:jboss-jaxrs-api_2.0_spec:jar:1.0.0.Final:provided (version managed from 1.0.1.Beta1)
+|  +- org.jboss.resteasy:resteasy-jaxrs-services:jar:3.1.1.Final:provided
+|  +- org.jboss.spec.javax.annotation:jboss-annotations-api_1.2_spec:jar:1.0.0.Final:provided
+|  +- javax.activation:activation:jar:1.1.1:provided
+|  +- org.apache.httpcomponents:httpclient:jar:4.5:provided (version managed from 4.5.2)
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.4.1:provided
+|  |  +- (commons-logging:commons-logging:jar:1.2:provided - omitted for duplicate)
+|  |  \- commons-codec:commons-codec:jar:1.10:provided (version managed from 1.9)
+|  +- (commons-io:commons-io:jar:2.5:provided - omitted for duplicate)
+|  +- net.jcip:jcip-annotations:jar:1.0:provided
+|  \- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - omitted for duplicate)
++- org.jboss.resteasy:resteasy-multipart-provider:jar:3.1.1.Final:provided
+|  +- (org.jboss.resteasy:resteasy-jaxrs:jar:3.1.1.Final:provided - omitted for duplicate)
+|  +- org.jboss.resteasy:resteasy-client:jar:3.1.1.Final:provided
+|  |  +- (org.jboss.resteasy:resteasy-jaxrs:jar:3.1.1.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.resteasy:resteasy-jaxrs-services:jar:3.1.1.Final:provided - omitted for duplicate)
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - omitted for duplicate)
+|  |  \- (org.apache.httpcomponents:httpclient:jar:4.5:provided - version managed from 4.5.2; omitted for duplicate)
+|  +- org.jboss.resteasy:resteasy-jaxb-provider:jar:3.1.1.Final:provided
+|  |  +- com.sun.xml.bind:jaxb-impl:jar:2.2.7:provided
+|  |  |  +- com.sun.xml.bind:jaxb-core:jar:2.2.7:provided
+|  |  |  |  +- javax.xml.bind:jaxb-api:jar:2.2.7:provided
+|  |  |  |  \- com.sun.istack:istack-commons-runtime:jar:2.21:provided (version managed from 2.16)
+|  |  |  \- com.sun.xml.fastinfoset:FastInfoset:jar:1.2.13:provided (version managed from 1.2.12)
+|  |  \- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - omitted for duplicate)
+|  +- (com.sun.mail:javax.mail:jar:1.5.5:provided - version managed from 1.5.6; omitted for duplicate)
+|  +- org.apache.james:apache-mime4j:jar:0.6:provided
+|  \- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - omitted for duplicate)
++- com.fasterxml.jackson.core:jackson-databind:jar:2.7.4:provided (scope not updated to compile)
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.7.4:provided (version managed from 2.7.0)
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.7.4:compile - version managed from 2.5.4; scope updated from provided; omitted for duplicate)
++- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.7.4:provided
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.7.4:compile - version managed from 2.5.4; scope updated from provided; omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.7.4:provided - version managed from 2.5.4; omitted for duplicate)
++- org.keycloak:keycloak-common:jar:3.1.0.Final:compile
+|  +- org.bouncycastle:bcprov-jdk15on:jar:1.52:compile
+|  \- org.bouncycastle:bcpkix-jdk15on:jar:1.52:compile
+|     \- (org.bouncycastle:bcprov-jdk15on:jar:1.52:compile - omitted for duplicate)
++- org.keycloak:keycloak-core:jar:3.1.0.Final:compile
+|  +- (org.keycloak:keycloak-common:jar:3.1.0.Final:compile - omitted for duplicate)
+|  +- (org.bouncycastle:bcprov-jdk15on:jar:1.52:compile - omitted for duplicate)
+|  +- (org.bouncycastle:bcpkix-jdk15on:jar:1.52:compile - omitted for duplicate)
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.7.4:compile
+|  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.7.4:compile - version managed from 2.5.4; omitted for duplicate)
++- org.keycloak:keycloak-adapter-spi:jar:3.1.0.Final:provided
+\- commons-io:commons-io:jar:2.5:compile

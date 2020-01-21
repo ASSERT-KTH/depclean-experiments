@@ -1,0 +1,9 @@
+net.guerlab:guerlab-web:jar:1.2.0
+\- net.guerlab:guerlab-commons:jar:1.2.0:compile
+   +- org.slf4j:slf4j-api:jar:1.7.25:compile
+   +- org.apache.commons:commons-lang3:jar:3.6:compile
+   +- commons-codec:commons-codec:jar:1.10:compile
+   +- com.fasterxml.jackson.core:jackson-databind:jar:2.9.2:compile
+   |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+   |  \- com.fasterxml.jackson.core:jackson-core:jar:2.9.2:compile
+   \- io.swagger:swagger-annotations:jar:1.5.16:compile

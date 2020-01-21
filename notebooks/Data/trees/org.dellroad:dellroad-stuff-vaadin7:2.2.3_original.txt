@@ -1,0 +1,61 @@
+org.dellroad:dellroad-stuff-vaadin7:jar:2.2.3
++- org.dellroad:dellroad-stuff-main:jar:2.2.3:compile
+|  +- com.google.guava:guava:jar:21.0:compile
+|  +- javax.validation:validation-api:jar:1.1.0.Final:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
++- com.vaadin:vaadin-shared:jar:7.7.10:compile
++- com.vaadin:vaadin-server:jar:7.7.10:compile
+|  +- com.vaadin:vaadin-sass-compiler:jar:0.9.13:compile
+|  |  +- org.w3c.css:sac:jar:1.3:compile
+|  |  \- com.vaadin.external.flute:flute:jar:1.3.0.gg2:compile
+|  +- (com.vaadin:vaadin-shared:jar:7.7.10:compile - omitted for duplicate)
+|  \- org.jsoup:jsoup:jar:1.8.3:compile
++- org.springframework:spring-aspects:jar:4.3.7.RELEASE:compile
+|  \- org.aspectj:aspectjweaver:jar:1.8.9:compile
++- org.springframework:spring-context:jar:4.3.7.RELEASE:compile
+|  +- org.springframework:spring-aop:jar:4.3.7.RELEASE:compile
+|  |  +- (org.springframework:spring-beans:jar:4.3.7.RELEASE:compile - omitted for duplicate)
+|  |  \- (org.springframework:spring-core:jar:4.3.7.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework:spring-beans:jar:4.3.7.RELEASE:compile
+|  |  \- (org.springframework:spring-core:jar:4.3.7.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework:spring-core:jar:4.3.7.RELEASE:compile
+|  |  \- commons-logging:commons-logging:jar:1.2:compile
+|  \- org.springframework:spring-expression:jar:4.3.7.RELEASE:compile
+|     \- (org.springframework:spring-core:jar:4.3.7.RELEASE:compile - omitted for duplicate)
++- org.springframework:spring-web:jar:4.3.7.RELEASE:compile
+|  +- (org.springframework:spring-aop:jar:4.3.7.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-beans:jar:4.3.7.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-context:jar:4.3.7.RELEASE:compile - omitted for duplicate)
+|  \- (org.springframework:spring-core:jar:4.3.7.RELEASE:compile - omitted for duplicate)
++- org.springframework:spring-webmvc:jar:4.3.7.RELEASE:compile
+|  +- (org.springframework:spring-aop:jar:4.3.7.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-beans:jar:4.3.7.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-context:jar:4.3.7.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-core:jar:4.3.7.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-expression:jar:4.3.7.RELEASE:compile - omitted for duplicate)
+|  \- (org.springframework:spring-web:jar:4.3.7.RELEASE:compile - omitted for duplicate)
++- org.aspectj:aspectjrt:jar:1.8.9:compile
++- javax.servlet:javax.servlet-api:jar:3.1.0:provided
++- javax.portlet:portlet-api:jar:2.0:provided
++- org.dellroad:dellroad-stuff-spring:jar:2.2.3:compile
+|  +- (org.dellroad:dellroad-stuff-main:jar:2.2.3:compile - omitted for duplicate)
+|  +- (org.springframework:spring-aspects:jar:4.3.7.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-context:jar:4.3.7.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework:spring-orm:jar:4.3.7.RELEASE:compile
+|  |  +- (org.springframework:spring-beans:jar:4.3.7.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-core:jar:4.3.7.RELEASE:compile - omitted for duplicate)
+|  |  +- org.springframework:spring-jdbc:jar:4.3.7.RELEASE:compile
+|  |  |  +- (org.springframework:spring-beans:jar:4.3.7.RELEASE:compile - omitted for duplicate)
+|  |  |  +- (org.springframework:spring-core:jar:4.3.7.RELEASE:compile - omitted for duplicate)
+|  |  |  \- (org.springframework:spring-tx:jar:4.3.7.RELEASE:compile - omitted for duplicate)
+|  |  \- (org.springframework:spring-tx:jar:4.3.7.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework:spring-tx:jar:4.3.7.RELEASE:compile
+|  |  +- (org.springframework:spring-beans:jar:4.3.7.RELEASE:compile - omitted for duplicate)
+|  |  \- (org.springframework:spring-core:jar:4.3.7.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-web:jar:4.3.7.RELEASE:compile - omitted for duplicate)
+|  +- (org.aspectj:aspectjrt:jar:1.8.9:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
++- org.slf4j:slf4j-api:jar:1.7.25:compile
+\- org.testng:testng:jar:6.9.10:test
+   +- com.beust:jcommander:jar:1.48:test
+   \- org.beanshell:bsh:jar:2.0b4:test

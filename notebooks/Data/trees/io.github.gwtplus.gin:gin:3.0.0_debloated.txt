@@ -1,0 +1,103 @@
+io.github.gwtplus.gin:gin:jar:3.0.0
++- javax.inject:javax.inject:jar:1:compile
++- javax.inject:javax.inject:jar:sources:1:compile
++- com.google.inject:guice:jar:4.2.0:compile
+|  +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  +- aopalliance:aopalliance:jar:1.0:compile
+|  \- com.google.guava:guava:jar:23.6-android:compile
+|     +- (com.google.code.findbugs:jsr305:jar:1.3.9:compile - omitted for conflict with 3.0.2)
+|     +- org.checkerframework:checker-compat-qual:jar:2.0.0:compile
+|     +- com.google.errorprone:error_prone_annotations:jar:2.1.3:compile
+|     +- com.google.j2objc:j2objc-annotations:jar:1.1:compile
+|     \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:compile
++- com.google.inject.extensions:guice-assistedinject:jar:4.2.0:compile
+|  \- (com.google.inject:guice:jar:4.2.0:compile - omitted for duplicate)
++- com.google.gwt:gwt-user:jar:2.8.2:provided
+|  +- com.google.jsinterop:jsinterop-annotations:jar:1.0.2:provided
+|  +- com.google.jsinterop:jsinterop-annotations:jar:sources:1.0.2:provided
+|  +- javax.validation:validation-api:jar:1.0.0.GA:provided
+|  +- javax.validation:validation-api:jar:sources:1.0.0.GA:provided
+|  +- javax.servlet:javax.servlet-api:jar:3.1.0:provided
+|  \- org.w3c.css:sac:jar:1.3:provided
++- com.google.gwt:gwt-dev:jar:2.8.2:provided
+|  +- (com.google.code.findbugs:jsr305:jar:1.3.9:compile - scope updated from provided; omitted for duplicate)
+|  +- com.google.code.gson:gson:jar:2.6.2:provided
+|  +- org.ow2.asm:asm:jar:5.0.3:provided
+|  +- org.ow2.asm:asm-util:jar:5.0.3:provided
+|  |  \- org.ow2.asm:asm-tree:jar:5.0.3:provided
+|  |     \- (org.ow2.asm:asm:jar:5.0.3:provided - omitted for duplicate)
+|  +- org.ow2.asm:asm-commons:jar:5.0.3:provided
+|  |  \- (org.ow2.asm:asm-tree:jar:5.0.3:provided - omitted for duplicate)
+|  +- colt:colt:jar:1.2.0:provided
+|  +- ant:ant:jar:1.6.5:provided
+|  +- commons-collections:commons-collections:jar:3.2.2:provided
+|  +- commons-io:commons-io:jar:2.4:provided
+|  +- com.ibm.icu:icu4j:jar:50.1.1:provided
+|  +- tapestry:tapestry:jar:4.0.2:provided
+|  +- net.sourceforge.htmlunit:htmlunit:jar:2.19:provided
+|  |  +- xalan:xalan:jar:2.7.2:provided
+|  |  |  \- xalan:serializer:jar:2.7.2:provided
+|  |  |     \- (xml-apis:xml-apis:jar:1.3.04:provided - omitted for conflict with 1.4.01)
+|  |  +- (commons-collections:commons-collections:jar:3.2.1:provided - omitted for conflict with 3.2.2)
+|  |  +- org.apache.commons:commons-lang3:jar:3.4:provided
+|  |  +- org.apache.httpcomponents:httpclient:jar:4.5.1:provided
+|  |  |  +- org.apache.httpcomponents:httpcore:jar:4.4.3:provided
+|  |  |  +- (commons-logging:commons-logging:jar:1.2:provided - omitted for duplicate)
+|  |  |  \- (commons-codec:commons-codec:jar:1.9:provided - omitted for conflict with 1.10)
+|  |  +- org.apache.httpcomponents:httpmime:jar:4.5.1:provided
+|  |  |  \- (org.apache.httpcomponents:httpclient:jar:4.5.1:provided - omitted for duplicate)
+|  |  +- commons-codec:commons-codec:jar:1.10:provided
+|  |  +- net.sourceforge.htmlunit:htmlunit-core-js:jar:2.17:provided
+|  |  +- xerces:xercesImpl:jar:2.11.0:provided
+|  |  |  \- xml-apis:xml-apis:jar:1.4.01:provided
+|  |  +- net.sourceforge.nekohtml:nekohtml:jar:1.9.22:provided
+|  |  +- net.sourceforge.cssparser:cssparser:jar:0.9.18:provided
+|  |  |  \- (org.w3c.css:sac:jar:1.3:provided - omitted for duplicate)
+|  |  +- (commons-io:commons-io:jar:2.4:provided - omitted for duplicate)
+|  |  +- commons-logging:commons-logging:jar:1.2:provided
+|  |  \- org.eclipse.jetty.websocket:websocket-client:jar:9.2.13.v20150730:provided
+|  |     +- (org.eclipse.jetty:jetty-util:jar:9.2.13.v20150730:provided - omitted for conflict with 9.2.14.v20151106)
+|  |     +- (org.eclipse.jetty:jetty-io:jar:9.2.13.v20150730:provided - omitted for conflict with 9.2.14.v20151106)
+|  |     \- org.eclipse.jetty.websocket:websocket-common:jar:9.2.13.v20150730:provided
+|  |        +- org.eclipse.jetty.websocket:websocket-api:jar:9.2.13.v20150730:provided
+|  |        +- (org.eclipse.jetty:jetty-util:jar:9.2.13.v20150730:provided - omitted for duplicate)
+|  |        \- (org.eclipse.jetty:jetty-io:jar:9.2.13.v20150730:provided - omitted for duplicate)
+|  +- org.eclipse.jetty:jetty-webapp:jar:9.2.14.v20151106:provided
+|  |  +- org.eclipse.jetty:jetty-xml:jar:9.2.14.v20151106:provided
+|  |  |  \- (org.eclipse.jetty:jetty-util:jar:9.2.14.v20151106:provided - omitted for conflict with 9.2.13.v20150730)
+|  |  \- org.eclipse.jetty:jetty-servlet:jar:9.2.14.v20151106:provided
+|  |     \- org.eclipse.jetty:jetty-security:jar:9.2.14.v20151106:provided
+|  |        \- (org.eclipse.jetty:jetty-server:jar:9.2.14.v20151106:provided - omitted for duplicate)
+|  +- org.eclipse.jetty:jetty-servlets:jar:9.2.14.v20151106:provided
+|  |  +- org.eclipse.jetty:jetty-continuation:jar:9.2.14.v20151106:provided
+|  |  +- org.eclipse.jetty:jetty-http:jar:9.2.14.v20151106:provided
+|  |  |  \- (org.eclipse.jetty:jetty-util:jar:9.2.14.v20151106:provided - omitted for conflict with 9.2.13.v20150730)
+|  |  +- org.eclipse.jetty:jetty-util:jar:9.2.14.v20151106:provided
+|  |  \- org.eclipse.jetty:jetty-io:jar:9.2.14.v20151106:provided
+|  |     \- (org.eclipse.jetty:jetty-util:jar:9.2.14.v20151106:provided - omitted for duplicate)
+|  +- org.eclipse.jetty:jetty-annotations:jar:9.2.14.v20151106:provided
+|  |  +- org.eclipse.jetty:jetty-plus:jar:9.2.14.v20151106:provided
+|  |  |  +- (org.eclipse.jetty:jetty-webapp:jar:9.2.14.v20151106:provided - omitted for duplicate)
+|  |  |  \- org.eclipse.jetty:jetty-jndi:jar:9.2.14.v20151106:provided
+|  |  |     \- (org.eclipse.jetty:jetty-util:jar:9.2.14.v20151106:provided - omitted for duplicate)
+|  |  +- (org.eclipse.jetty:jetty-webapp:jar:9.2.14.v20151106:provided - omitted for duplicate)
+|  |  +- (javax.annotation:javax.annotation-api:jar:1.2:provided - omitted for conflict with 1.3.2)
+|  |  +- (org.ow2.asm:asm:jar:5.0.1:provided - omitted for conflict with 5.0.3)
+|  |  \- (org.ow2.asm:asm-commons:jar:5.0.1:provided - omitted for conflict with 5.0.3)
+|  \- org.eclipse.jetty:apache-jsp:jar:9.2.14.v20151106:provided
+|     +- (org.eclipse.jetty:jetty-util:jar:9.2.14.v20151106:provided - omitted for duplicate)
+|     +- org.eclipse.jetty:jetty-server:jar:9.2.14.v20151106:provided
+|     |  +- (javax.servlet:javax.servlet-api:jar:3.1.0:provided - omitted for duplicate)
+|     |  +- (org.eclipse.jetty:jetty-http:jar:9.2.14.v20151106:provided - omitted for duplicate)
+|     |  \- (org.eclipse.jetty:jetty-io:jar:9.2.14.v20151106:provided - omitted for duplicate)
+|     +- org.eclipse.jetty.toolchain:jetty-schemas:jar:3.1.M0:provided
+|     +- (javax.servlet:javax.servlet-api:jar:3.1.0:provided - omitted for duplicate)
+|     \- org.mortbay.jasper:apache-jsp:jar:8.0.9.M3:provided
+|        +- (org.eclipse.jetty.toolchain:jetty-schemas:jar:3.1.M0:provided - omitted for duplicate)
+|        \- org.mortbay.jasper:apache-el:jar:8.0.9.M3:provided
++- com.google.code.findbugs:jsr305:jar:3.0.2:provided (scope not updated to compile)
++- javax.annotation:javax.annotation-api:jar:1.3.2:provided
++- junit:junit:jar:3.8.1:test
+\- org.easymock:easymock:jar:3.1:test
+   +- cglib:cglib-nodep:jar:2.2.2:test
+   \- org.objenesis:objenesis:jar:1.2:test

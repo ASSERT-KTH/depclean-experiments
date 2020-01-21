@@ -1,0 +1,14 @@
+kz.greetgo:greetgo.java_compiler:jar:2.0.2
++- kz.greetgo:greetgo.util:jar:0.0.27:compile
+|  \- com.google.code.findbugs:annotations:jar:2.0.1:compile
++- kz.greetgo.depinject:greetgo.depinject:jar:2.0.3:test
++- org.testng:testng:jar:6.5.1:test
+|  +- junit:junit:jar:4.10:test
+|  |  \- org.hamcrest:hamcrest-core:jar:1.1:test
+|  +- org.beanshell:bsh:jar:2.0b4:test
+|  +- com.beust:jcommander:jar:1.12:test
+|  \- org.yaml:snakeyaml:jar:1.6:test
++- org.easytesting:fest-assert-core:jar:2.0M10:test
+|  \- org.easytesting:fest-util:jar:1.2.5:test
+\- org.jfree:jfreechart:jar:1.0.19:test
+   \- org.jfree:jcommon:jar:1.0.23:test

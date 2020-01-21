@@ -1,0 +1,30 @@
+io.spot-next:spot-instrumentation:jar:1.0.8-BETA-20180902
++- io.github.lukehutch:fast-classpath-scanner:jar:2.8.2:compile
++- commons-io:commons-io:jar:2.6:compile
++- org.apache.commons:commons-lang3:jar:3.6:compile
++- org.assertj:assertj-core:jar:3.8.0:compile
++- com.google.code.findbugs:jsr305:jar:3.0.2:compile
++- org.springframework:spring-context:jar:5.0.8.RELEASE:compile
+|  +- org.springframework:spring-aop:jar:5.0.8.RELEASE:compile
+|  |  +- (org.springframework:spring-beans:jar:5.0.8.RELEASE:compile - omitted for duplicate)
+|  |  \- (org.springframework:spring-core:jar:5.0.8.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework:spring-beans:jar:5.0.8.RELEASE:compile
+|  |  \- (org.springframework:spring-core:jar:5.0.8.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-core:jar:5.0.8.RELEASE:compile - omitted for duplicate)
+|  \- org.springframework:spring-expression:jar:5.0.8.RELEASE:compile
+|     \- (org.springframework:spring-core:jar:5.0.8.RELEASE:compile - omitted for duplicate)
++- org.springframework:spring-core:jar:5.0.8.RELEASE:compile
+|  \- org.springframework:spring-jcl:jar:5.0.8.RELEASE:compile
++- org.slf4j:jcl-over-slf4j:jar:1.8.0-beta0:compile
+|  \- org.slf4j:slf4j-api:jar:1.8.0-beta0:compile
++- org.springframework:spring-instrument:jar:5.0.8.RELEASE:compile
++- org.aspectj:aspectjweaver:jar:1.8.12:compile
++- org.zeroturnaround:zt-exec:jar:1.10:compile
+|  +- (commons-io:commons-io:jar:1.4:compile - omitted for conflict with 2.6)
+|  \- (org.slf4j:slf4j-api:jar:1.7.2:compile - omitted for conflict with 1.8.0-beta0)
++- org.javassist:javassist:jar:3.23.1-GA:compile
++- org.springframework:spring-aspects:jar:5.0.8.RELEASE:compile
+|  \- (org.aspectj:aspectjweaver:jar:1.8.13:compile - omitted for conflict with 1.8.12)
++- org.aspectj:aspectjrt:jar:1.9.1:compile
++- com.google.code.findbugs:annotations:jar:3.0.1:compile
+\- org.apache.commons:commons-collections4:jar:4.1:compile

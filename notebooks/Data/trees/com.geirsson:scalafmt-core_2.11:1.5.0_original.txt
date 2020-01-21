@@ -1,0 +1,91 @@
+com.geirsson:scalafmt-core_2.11:jar:1.5.0
++- org.scala-lang:scala-library:jar:2.11.11:compile
++- org.scalatest:scalatest_2.11:jar:3.0.4:test
+|  +- (org.scala-lang:scala-library:jar:2.11.11:test - omitted for duplicate)
+|  +- org.scalactic:scalactic_2.11:jar:3.0.4:test
+|  |  +- (org.scala-lang:scala-library:jar:2.11.11:test - omitted for duplicate)
+|  |  \- (org.scala-lang:scala-reflect:jar:2.11.11:test - omitted for duplicate)
+|  +- org.scala-lang:scala-reflect:jar:2.11.11:test
+|  |  \- (org.scala-lang:scala-library:jar:2.11.11:test - omitted for duplicate)
+|  +- org.scala-lang.modules:scala-xml_2.11:jar:1.0.5:test
+|  |  \- (org.scala-lang:scala-library:jar:2.11.7:test - omitted for conflict with 2.11.11)
+|  \- org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.0.4:test
+|     \- (org.scala-lang:scala-library:jar:2.11.6:test - omitted for conflict with 2.11.11)
++- org.scalameta:scalameta_2.11:jar:1.7.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.10:compile - omitted for conflict with 2.11.11)
+|  +- org.scalameta:common_2.11:jar:1.7.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.10:compile - omitted for conflict with 2.11.11)
+|  |  \- com.lihaoyi:sourcecode_2.11:jar:0.1.3:compile
+|  |     \- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.11)
+|  +- org.scalameta:dialects_2.11:jar:1.7.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.10:compile - omitted for conflict with 2.11.11)
+|  |  \- (org.scalameta:common_2.11:jar:1.7.0:compile - omitted for duplicate)
+|  +- org.scalameta:parsers_2.11:jar:1.7.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.10:compile - omitted for conflict with 2.11.11)
+|  |  +- (org.scalameta:common_2.11:jar:1.7.0:compile - omitted for duplicate)
+|  |  +- (org.scalameta:dialects_2.11:jar:1.7.0:compile - omitted for duplicate)
+|  |  +- (org.scalameta:inputs_2.11:jar:1.7.0:compile - omitted for duplicate)
+|  |  +- org.scalameta:tokens_2.11:jar:1.7.0:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.10:compile - omitted for conflict with 2.11.11)
+|  |  |  +- (org.scalameta:common_2.11:jar:1.7.0:compile - omitted for duplicate)
+|  |  |  +- (org.scalameta:dialects_2.11:jar:1.7.0:compile - omitted for duplicate)
+|  |  |  \- (org.scalameta:inputs_2.11:jar:1.7.0:compile - omitted for duplicate)
+|  |  +- (org.scalameta:tokenizers_2.11:jar:1.7.0:compile - omitted for duplicate)
+|  |  \- (org.scalameta:trees_2.11:jar:1.7.0:compile - omitted for duplicate)
+|  +- org.scalameta:quasiquotes_2.11:jar:1.7.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.10:compile - omitted for conflict with 2.11.11)
+|  |  +- (org.scalameta:common_2.11:jar:1.7.0:compile - omitted for duplicate)
+|  |  +- (org.scalameta:dialects_2.11:jar:1.7.0:compile - omitted for duplicate)
+|  |  +- (org.scalameta:inputs_2.11:jar:1.7.0:compile - omitted for duplicate)
+|  |  +- (org.scalameta:trees_2.11:jar:1.7.0:compile - omitted for duplicate)
+|  |  \- (org.scalameta:parsers_2.11:jar:1.7.0:compile - omitted for duplicate)
+|  +- org.scalameta:tokenizers_2.11:jar:1.7.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.10:compile - omitted for conflict with 2.11.11)
+|  |  +- (org.scalameta:common_2.11:jar:1.7.0:compile - omitted for duplicate)
+|  |  +- (org.scalameta:dialects_2.11:jar:1.7.0:compile - omitted for duplicate)
+|  |  +- (org.scalameta:inputs_2.11:jar:1.7.0:compile - omitted for duplicate)
+|  |  +- (org.scalameta:tokens_2.11:jar:1.7.0:compile - omitted for duplicate)
+|  |  \- com.lihaoyi:scalaparse_2.11:jar:0.4.2:compile
+|  |     +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.11)
+|  |     +- com.lihaoyi:fastparse_2.11:jar:0.4.2:compile
+|  |     |  +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.11)
+|  |     |  +- com.lihaoyi:fastparse-utils_2.11:jar:0.4.2:compile
+|  |     |  |  +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.11)
+|  |     |  |  \- (com.lihaoyi:sourcecode_2.11:jar:0.1.3:compile - omitted for duplicate)
+|  |     |  \- (com.lihaoyi:sourcecode_2.11:jar:0.1.3:compile - omitted for duplicate)
+|  |     \- (com.lihaoyi:sourcecode_2.11:jar:0.1.3:compile - omitted for duplicate)
+|  +- org.scalameta:transversers_2.11:jar:1.7.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.10:compile - omitted for conflict with 2.11.11)
+|  |  +- (org.scalameta:common_2.11:jar:1.7.0:compile - omitted for duplicate)
+|  |  \- (org.scalameta:trees_2.11:jar:1.7.0:compile - omitted for duplicate)
+|  +- org.scalameta:trees_2.11:jar:1.7.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.10:compile - omitted for conflict with 2.11.11)
+|  |  +- (org.scalameta:common_2.11:jar:1.7.0:compile - omitted for duplicate)
+|  |  +- (org.scalameta:dialects_2.11:jar:1.7.0:compile - omitted for duplicate)
+|  |  +- (org.scalameta:inputs_2.11:jar:1.7.0:compile - omitted for duplicate)
+|  |  +- (org.scalameta:tokens_2.11:jar:1.7.0:compile - omitted for duplicate)
+|  |  \- (org.scalameta:tokenizers_2.11:jar:1.7.0:compile - omitted for duplicate)
+|  +- org.scalameta:inline_2.11:jar:1.7.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.10:compile - omitted for conflict with 2.11.11)
+|  |  \- (org.scalameta:inputs_2.11:jar:1.7.0:compile - omitted for duplicate)
+|  \- org.scalameta:semantic_2.11:jar:1.7.0:compile
+|     +- (org.scala-lang:scala-library:jar:2.11.10:compile - omitted for conflict with 2.11.11)
+|     +- (org.scalameta:common_2.11:jar:1.7.0:compile - omitted for duplicate)
+|     +- (org.scalameta:trees_2.11:jar:1.7.0:compile - omitted for duplicate)
+|     \- com.trueaccord.scalapb:scalapb-runtime_2.11:jar:0.6.0-pre2:compile
+|        +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.11)
+|        +- com.trueaccord.lenses:lenses_2.11:jar:0.4.10:compile
+|        |  \- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.11)
+|        +- (com.lihaoyi:fastparse_2.11:jar:0.4.2:compile - omitted for duplicate)
+|        \- com.google.protobuf:protobuf-java:jar:3.2.0:compile
++- com.geirsson:metaconfig-core_2.11:jar:0.4.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for duplicate)
+|  \- org.scalameta:inputs_2.11:jar:1.7.0:compile
+|     +- (org.scala-lang:scala-library:jar:2.11.10:compile - omitted for conflict with 2.11.11)
+|     +- (org.scalameta:common_2.11:jar:1.7.0:compile - omitted for duplicate)
+|     \- org.scalameta:io_2.11:jar:1.7.0:compile
+|        \- (org.scala-lang:scala-library:jar:2.11.10:compile - omitted for conflict with 2.11.11)
+\- com.geirsson:metaconfig-typesafe-config_2.11:jar:0.4.0:compile
+   +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for duplicate)
+   +- (com.geirsson:metaconfig-core_2.11:jar:0.4.0:compile - omitted for duplicate)
+   \- com.typesafe:config:jar:1.2.1:compile

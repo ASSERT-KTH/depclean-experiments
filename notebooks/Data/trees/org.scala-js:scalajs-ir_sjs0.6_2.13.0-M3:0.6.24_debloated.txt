@@ -1,0 +1,12 @@
+org.scala-js:scalajs-ir_sjs0.6_2.13.0-M3:jar:0.6.24
++- org.scala-lang:scala-library:jar:2.13.0-M3:compile
++- org.scala-js:scalajs-javalib-ex_2.13.0-M3:jar:0.6.24:compile
+|  +- (org.scala-lang:scala-library:jar:2.13.0-M3:compile - omitted for duplicate)
+|  +- org.scala-js:scalajs-library_2.13.0-M3:jar:0.6.24:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.13.0-M3:compile - omitted for duplicate)
+|  \- org.webjars:jszip:jar:2.4.0:compile
+\- org.scala-js:scalajs-junit-test-runtime_2.13.0-M3:jar:0.6.24:test
+   +- (org.scala-lang:scala-library:jar:2.13.0-M3:test - omitted for duplicate)
+   \- org.scala-js:scalajs-test-interface_2.13.0-M3:jar:0.6.24:test
+      +- (org.scala-lang:scala-library:jar:2.13.0-M3:test - omitted for duplicate)
+      \- (org.scala-js:scalajs-library_2.13.0-M3:jar:0.6.24:test - omitted for duplicate)

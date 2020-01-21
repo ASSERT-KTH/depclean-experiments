@@ -1,0 +1,27 @@
+com.github.jep42:robotframework-formatcompare:jar:0.0.3
++- org.robotframework:javalib-core:jar:1.2.1:compile
+|  +- commons-collections:commons-collections:jar:3.2:compile
+|  \- com.thoughtworks.paranamer:paranamer:jar:1.1.2:compile
++- junit:junit:jar:4.10:test
+|  \- org.hamcrest:hamcrest-core:jar:1.1:test
++- org.mockito:mockito-all:jar:1.10.19:test
++- org.slf4j:slf4j-api:jar:1.7.21:compile
++- com.github.jep42:robotframework-easycsvmap:jar:0.0.2:compile
+|  +- (org.robotframework:javalib-core:jar:1.2.1:compile - omitted for duplicate)
+|  +- net.sf.opencsv:opencsv:jar:2.3:compile
+|  +- (com.google.code.findbugs:jsr305:jar:2.0.1:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
++- com.jayway.jsonpath:json-path:jar:2.2.0:compile
+|  +- net.minidev:json-smart:jar:2.2.1:compile
+|  |  \- net.minidev:accessors-smart:jar:1.1:compile
+|  |     \- org.ow2.asm:asm:jar:5.0.3:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.16; omitted for duplicate)
++- org.apache.poi:poi:jar:3.17:compile
+|  +- commons-codec:commons-codec:jar:1.10:compile
+|  \- org.apache.commons:commons-collections4:jar:4.1:compile
+\- org.apache.poi:poi-ooxml:jar:3.17:compile
+   +- (org.apache.poi:poi:jar:3.17:compile - omitted for duplicate)
+   +- org.apache.poi:poi-ooxml-schemas:jar:3.17:compile
+   |  \- org.apache.xmlbeans:xmlbeans:jar:2.6.0:compile
+   |     \- stax:stax-api:jar:1.0.1:compile
+   \- com.github.virtuald:curvesapi:jar:1.04:compile

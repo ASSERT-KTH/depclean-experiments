@@ -1,0 +1,12 @@
+org.typelevel:spire_2.12:jar:0.15.0
++- org.scala-lang:scala-library:jar:2.12.1:compile
++- org.typelevel:spire-macros_2.12:jar:0.15.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.1:compile - omitted for duplicate)
+|  +- (org.typelevel:machinist_2.12:jar:0.6.1:compile - omitted for duplicate)
+|  \- (org.typelevel:algebra_2.12:jar:1.0.0:compile - omitted for duplicate)
++- org.scala-lang:scala-reflect:jar:2.12.1:provided (scope not updated to compile)
+|  \- (org.scala-lang:scala-library:jar:2.12.1:provided - omitted for duplicate)
+\- org.typelevel:algebra_2.12:jar:1.0.0:compile
+   +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.1)
+   \- org.typelevel:cats-kernel_2.12:jar:1.0.1:compile
+      \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.1)

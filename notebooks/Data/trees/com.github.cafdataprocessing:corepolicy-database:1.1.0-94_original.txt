@@ -1,0 +1,7 @@
+com.github.cafdataprocessing:corepolicy-database:jar:1.1.0-94
++- org.apache.logging.log4j:log4j-api:jar:2.0:test
++- org.apache.logging.log4j:log4j-core:jar:2.0:test
+|  \- (org.apache.logging.log4j:log4j-api:jar:2.0:test - omitted for duplicate)
++- org.slf4j:slf4j-api:jar:1.7.10:compile
+\- org.slf4j:jcl-over-slf4j:jar:1.7.10:compile
+   \- (org.slf4j:slf4j-api:jar:1.7.10:compile - omitted for duplicate)

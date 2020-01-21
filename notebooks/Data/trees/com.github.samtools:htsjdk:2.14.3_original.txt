@@ -1,0 +1,41 @@
+com.github.samtools:htsjdk:jar:2.14.3
++- org.apache.commons:commons-jexl:jar:2.1.1:compile
+|  \- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for duplicate)
++- commons-logging:commons-logging:jar:1.1.1:compile
++- org.xerial.snappy:snappy-java:jar:1.1.4:compile
++- org.apache.commons:commons-compress:jar:1.4.1:compile
+|  \- (org.tukaani:xz:jar:1.0:compile - omitted for conflict with 1.5)
++- org.tukaani:xz:jar:1.5:compile
++- gov.nih.nlm.ncbi:ngs-java:jar:1.2.4:compile
++- org.scala-lang:scala-library:jar:2.12.1:test
++- org.scalatest:scalatest_2.12:jar:3.0.1:test
+|  +- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.1)
+|  +- org.scalactic:scalactic_2.12:jar:3.0.1:test
+|  |  +- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.1)
+|  |  \- (org.scala-lang:scala-reflect:jar:2.12.0:test - omitted for duplicate)
+|  +- org.scala-lang:scala-reflect:jar:2.12.0:test
+|  |  \- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.1)
+|  +- org.scala-lang.modules:scala-xml_2.12:jar:1.0.5:test
+|  |  \- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.1)
+|  \- org.scala-lang.modules:scala-parser-combinators_2.12:jar:1.0.4:test
+|     \- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.1)
++- org.testng:testng:jar:6.9.9:test
+|  +- junit:junit:jar:4.10:test
+|  |  \- org.hamcrest:hamcrest-core:jar:1.1:test
+|  +- com.beust:jcommander:jar:1.48:test
+|  +- org.apache.ant:ant:jar:1.7.0:test
+|  |  \- org.apache.ant:ant-launcher:jar:1.7.0:test
+|  +- org.yaml:snakeyaml:jar:1.15:test
+|  \- org.beanshell:bsh:jar:2.0b4:test
++- com.google.jimfs:jimfs:jar:1.1:test
+|  \- com.google.guava:guava:jar:18.0:test
+\- org.pegdown:pegdown:jar:1.4.2:test
+   \- org.parboiled:parboiled-java:jar:1.1.6:test
+      +- org.parboiled:parboiled-core:jar:1.1.6:test
+      +- org.ow2.asm:asm:jar:4.1:test
+      +- org.ow2.asm:asm-tree:jar:4.1:test
+      |  \- (org.ow2.asm:asm:jar:4.1:test - omitted for duplicate)
+      +- org.ow2.asm:asm-analysis:jar:4.1:test
+      |  \- (org.ow2.asm:asm-tree:jar:4.1:test - omitted for duplicate)
+      \- org.ow2.asm:asm-util:jar:4.1:test
+         \- (org.ow2.asm:asm-tree:jar:4.1:test - omitted for duplicate)

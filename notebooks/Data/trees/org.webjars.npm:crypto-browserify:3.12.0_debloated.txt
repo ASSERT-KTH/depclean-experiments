@@ -1,0 +1,50 @@
+org.webjars.npm:crypto-browserify:jar:3.12.0
++- org.webjars.npm:browserify-cipher:jar:1.0.1:compile
+|  +- org.webjars.npm:browserify-aes:jar:1.2.0-1:compile
+|  |  +- (org.webjars.npm:inherits:jar:2.0.4:compile - omitted for duplicate)
+|  |  +- (org.webjars.npm:safe-buffer:jar:5.2.0:compile - omitted for duplicate)
+|  |  +- (org.webjars.npm:create-hash:jar:1.2.0:compile - omitted for duplicate)
+|  |  +- org.webjars.npm:buffer-xor:jar:1.0.3:compile
+|  |  +- (org.webjars.npm:cipher-base:jar:1.0.4:compile - omitted for duplicate)
+|  |  \- (org.webjars.npm:evp_bytestokey:jar:1.0.3:compile - omitted for duplicate)
+|  +- org.webjars.npm:browserify-des:jar:1.0.2:compile
+|  |  +- (org.webjars.npm:cipher-base:jar:1.0.4:compile - omitted for duplicate)
+|  |  +- org.webjars.npm:des.js:jar:1.0.0:compile
+|  |  |  +- (org.webjars.npm:inherits:jar:2.0.4:compile - omitted for duplicate)
+|  |  |  \- (org.webjars.npm:minimalistic-assert:jar:1.0.1:compile - omitted for duplicate)
+|  |  +- (org.webjars.npm:inherits:jar:2.0.4:compile - omitted for duplicate)
+|  |  \- (org.webjars.npm:safe-buffer:jar:5.2.0:compile - omitted for duplicate)
+|  \- org.webjars.npm:evp_bytestokey:jar:1.0.3:compile
+|     +- (org.webjars.npm:md5.js:jar:1.3.5:compile - omitted for duplicate)
+|     \- (org.webjars.npm:safe-buffer:jar:5.2.0:compile - omitted for duplicate)
++- org.webjars.npm:randomfill:jar:1.0.4:compile
+|  +- (org.webjars.npm:randombytes:jar:2.1.0:compile - omitted for duplicate)
+|  \- org.webjars.npm:safe-buffer:jar:5.2.0:compile
++- org.webjars.npm:create-ecdh:jar:4.0.3:compile
+|  +- org.webjars.npm:bn.js:jar:4.11.8:compile
+|  \- org.webjars.npm:elliptic:jar:6.5.0:compile
+|     +- (org.webjars.npm:inherits:jar:2.0.4:compile - omitted for duplicate)
+|     +- org.webjars.npm:brorand:jar:1.1.0:compile
+|     +- org.webjars.npm:hmac-drbg:jar:1.0.1:compile
+|     |  +- (org.webjars.npm:hash.js:jar:1.1.7:compile - omitted for duplicate)
+|     |  +- (org.webjars.npm:minimalistic-assert:jar:1.0.1:compile - omitted for duplicate)
+|     |  \- (org.webjars.npm:minimalistic-crypto-utils:jar:1.0.1:compile - omitted for duplicate)
+|     +- org.webjars.npm:minimalistic-crypto-utils:jar:1.0.1:compile
+|     +- org.webjars.npm:minimalistic-assert:jar:1.0.1:compile
+|     +- org.webjars.npm:hash.js:jar:1.1.7:compile
+|     |  +- (org.webjars.npm:inherits:jar:2.0.4:compile - omitted for duplicate)
+|     |  \- (org.webjars.npm:minimalistic-assert:jar:1.0.1:compile - omitted for duplicate)
+|     \- (org.webjars.npm:bn.js:jar:4.11.8:compile - omitted for duplicate)
++- org.webjars.npm:create-hmac:jar:1.1.7:compile
+|  +- (org.webjars.npm:sha.js:jar:2.4.10:compile - omitted for duplicate)
+|  +- (org.webjars.npm:create-hash:jar:1.2.0:compile - omitted for duplicate)
+|  +- (org.webjars.npm:inherits:jar:2.0.4:compile - omitted for duplicate)
+|  +- (org.webjars.npm:ripemd160:jar:2.0.2:compile - omitted for duplicate)
+|  +- (org.webjars.npm:safe-buffer:jar:5.2.0:compile - omitted for duplicate)
+|  \- (org.webjars.npm:cipher-base:jar:1.0.4:compile - omitted for duplicate)
+\- org.webjars.npm:diffie-hellman:jar:5.0.3:compile
+   +- (org.webjars.npm:bn.js:jar:4.11.8:compile - omitted for duplicate)
+   +- org.webjars.npm:miller-rabin:jar:4.0.1:compile
+   |  +- (org.webjars.npm:bn.js:jar:4.11.8:compile - omitted for duplicate)
+   |  \- (org.webjars.npm:brorand:jar:1.1.0:compile - omitted for duplicate)
+   \- (org.webjars.npm:randombytes:jar:2.1.0:compile - omitted for duplicate)

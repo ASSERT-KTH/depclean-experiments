@@ -1,0 +1,16 @@
+org.mortbay.jasper:apache-jsp:jar:8.5.24.2
++- org.mortbay.jasper:apache-el:jar:8.5.24.2:compile
++- org.apache.tomcat:tomcat-jasper:jar:8.5.24:compile
+|  +- org.apache.tomcat:tomcat-juli:jar:8.5.24:compile
+|  +- org.apache.tomcat:tomcat-jsp-api:jar:8.5.24:compile
+|  |  \- (org.apache.tomcat:tomcat-el-api:jar:8.5.24:compile - omitted for duplicate)
+|  +- org.apache.tomcat:tomcat-el-api:jar:8.5.24:compile
+|  +- org.apache.tomcat:tomcat-jasper-el:jar:8.5.24:compile
+|  |  \- (org.apache.tomcat:tomcat-el-api:jar:8.5.24:compile - omitted for duplicate)
+|  +- org.apache.tomcat:tomcat-api:jar:8.5.24:compile
+|  \- org.apache.tomcat:tomcat-util-scan:jar:8.5.24:compile
+|     +- org.apache.tomcat:tomcat-util:jar:8.5.24:compile
+|     |  \- (org.apache.tomcat:tomcat-juli:jar:8.5.24:compile - omitted for duplicate)
+|     +- (org.apache.tomcat:tomcat-juli:jar:8.5.24:compile - omitted for duplicate)
+|     \- (org.apache.tomcat:tomcat-api:jar:8.5.24:compile - omitted for duplicate)
+\- org.eclipse.jdt:ecj:jar:3.12.3:compile

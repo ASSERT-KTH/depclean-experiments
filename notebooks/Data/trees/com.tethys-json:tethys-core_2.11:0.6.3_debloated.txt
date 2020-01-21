@@ -1,0 +1,13 @@
+com.tethys-json:tethys-core_2.11:jar:0.6.3
++- org.scala-lang:scala-library:jar:2.11.8:compile
+\- org.scalatest:scalatest_2.11:jar:3.0.1:test
+   +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for duplicate)
+   +- org.scalactic:scalactic_2.11:jar:3.0.1:test
+   |  +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for duplicate)
+   |  \- (org.scala-lang:scala-reflect:jar:2.11.8:test - omitted for duplicate)
+   +- org.scala-lang:scala-reflect:jar:2.11.8:test
+   |  \- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for duplicate)
+   +- org.scala-lang.modules:scala-xml_2.11:jar:1.0.5:test
+   |  \- (org.scala-lang:scala-library:jar:2.11.7:test - omitted for conflict with 2.11.8)
+   \- org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.0.4:test
+      \- (org.scala-lang:scala-library:jar:2.11.6:test - omitted for conflict with 2.11.8)

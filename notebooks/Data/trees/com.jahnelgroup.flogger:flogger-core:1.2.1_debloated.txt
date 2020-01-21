@@ -1,0 +1,4 @@
+com.jahnelgroup.flogger:flogger-core:jar:1.2.1
++- org.aspectj:aspectjrt:jar:1.8.13:runtime
++- org.aspectj:aspectjweaver:jar:1.8.13:compile
+\- org.slf4j:slf4j-api:jar:1.7.25:compile

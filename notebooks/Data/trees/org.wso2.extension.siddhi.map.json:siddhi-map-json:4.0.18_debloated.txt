@@ -1,0 +1,48 @@
+org.wso2.extension.siddhi.map.json:siddhi-map-json:bundle:4.0.18
++- org.wso2.siddhi:siddhi-core:jar:4.0.4:compile
+|  +- (org.wso2.siddhi:siddhi-query-api:jar:4.0.4:compile - omitted for duplicate)
+|  +- org.wso2.siddhi:siddhi-query-compiler:jar:4.0.4:compile
+|  |  +- (org.wso2.siddhi:siddhi-query-api:jar:4.0.4:compile - omitted for duplicate)
+|  |  +- (org.apache.log4j.wso2:log4j:jar:1.2.17.wso2v1:compile - omitted for duplicate)
+|  |  +- org.mvel:mvel2:jar:2.2.1.Final:compile
+|  |  \- org.antlr:antlr4-runtime:jar:4.5.1:compile
+|  +- (org.wso2.siddhi:siddhi-annotations:jar:4.0.4:compile - omitted for duplicate)
+|  +- (org.apache.log4j.wso2:log4j:jar:1.2.17.wso2v1:compile - omitted for duplicate)
+|  +- org.slf4j:slf4j-simple:jar:1.7.12:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.12:compile - omitted for conflict with 1.7.16)
+|  +- org.wso2.orbit.com.lmax:disruptor:jar:3.3.2.wso2v2:compile
+|  +- com.google.guava:guava:jar:19.0:compile
+|  +- org.quartz-scheduler.wso2:quartz:jar:2.1.1.wso2v1:compile
+|  |  \- org.quartz-scheduler:quartz:jar:2.1.1:compile
+|  |     +- c3p0:c3p0:jar:0.9.1.1:compile
+|  |     \- (org.slf4j:slf4j-api:jar:1.6.1:compile - omitted for conflict with 1.7.12)
+|  +- io.dropwizard.metrics:metrics-core:jar:3.1.0:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for conflict with 1.7.12)
+|  +- (com.google.code.gson:gson:jar:2.8.0:compile - omitted for duplicate)
+|  +- (com.jayway.jsonpath:json-path:jar:2.2.0:compile - omitted for duplicate)
+|  +- org.eclipse.osgi:org.eclipse.osgi.services:jar:3.3.100.v20120522-1822:compile
+|  \- org.osgi:org.osgi.core:jar:6.0.0:compile
++- org.wso2.siddhi:siddhi-query-api:jar:4.0.4:compile
+|  \- (org.apache.log4j.wso2:log4j:jar:1.2.17.wso2v1:compile - omitted for duplicate)
++- org.wso2.siddhi:siddhi-annotations:jar:4.0.4:compile
+|  \- org.atteo.classindex:classindex:jar:3.4:compile
++- org.apache.log4j.wso2:log4j:jar:1.2.17.wso2v1:compile
+|  \- log4j:log4j:jar:1.2.17:compile
++- com.jayway.jsonpath:json-path:jar:2.2.0:compile
+|  +- (net.minidev:json-smart:jar:2.1.0:compile - version managed from 2.2.1; omitted for duplicate)
+|  \- org.slf4j:slf4j-api:jar:1.7.16:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.7.4:compile
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.7.0:compile
+|  \- com.fasterxml.jackson.core:jackson-core:jar:2.7.4:compile
++- com.google.code.gson:gson:jar:2.8.0:compile
++- org.wso2.orbit.org.apache.tapestry:tapestry-json:jar:5.4.1.wso2v1:compile
++- net.minidev:json-smart:jar:2.1.0:compile
+|  \- net.minidev:asm:jar:1.0.2:compile
+|     \- asm:asm:jar:3.3.1:compile
++- org.testng:testng:jar:6.8:test
+|  +- junit:junit:jar:4.10:test
+|  |  \- org.hamcrest:hamcrest-core:jar:1.1:test
+|  +- org.beanshell:bsh:jar:2.0b4:test
+|  +- com.beust:jcommander:jar:1.27:test
+|  \- org.yaml:snakeyaml:jar:1.6:test
+\- org.jacoco:org.jacoco.agent:jar:runtime:0.7.9:test

@@ -1,0 +1,263 @@
+io.spot-next:spot-cms-base:jar:1.0.9-BETA-20180913
++- io.spot-next:spot-core:jar:1.0.9-BETA-20180913:compile
+|  +- io.spot-next:spot-core-model-infrastructure:jar:1.0.9-BETA-20180913:compile
+|  |  +- (io.spot-next:spot-core-support:jar:1.0.9-BETA-20180913:compile - omitted for duplicate)
+|  |  +- io.spot-next:spot-instrumentation:jar:1.0.9-BETA-20180913:compile
+|  |  |  +- io.github.lukehutch:fast-classpath-scanner:jar:2.8.2:compile
+|  |  |  +- commons-io:commons-io:jar:2.6:compile
+|  |  |  +- (org.apache.commons:commons-lang3:jar:3.6:compile - omitted for duplicate)
+|  |  |  +- org.assertj:assertj-core:jar:3.8.0:compile
+|  |  |  +- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+|  |  |  +- org.springframework:spring-context:jar:5.0.8.RELEASE:compile
+|  |  |  |  +- (org.springframework:spring-aop:jar:5.0.8.RELEASE:compile - omitted for duplicate)
+|  |  |  |  +- (org.springframework:spring-beans:jar:5.0.8.RELEASE:compile - omitted for duplicate)
+|  |  |  |  +- (org.springframework:spring-core:jar:5.0.8.RELEASE:compile - omitted for duplicate)
+|  |  |  |  \- org.springframework:spring-expression:jar:5.0.8.RELEASE:compile
+|  |  |  |     \- (org.springframework:spring-core:jar:5.0.8.RELEASE:compile - omitted for duplicate)
+|  |  |  +- (org.springframework:spring-core:jar:5.0.8.RELEASE:compile - omitted for duplicate)
+|  |  |  +- org.slf4j:jcl-over-slf4j:jar:1.8.0-beta0:compile
+|  |  |  +- org.springframework:spring-instrument:jar:5.0.8.RELEASE:compile
+|  |  |  +- (org.aspectj:aspectjweaver:jar:1.8.12:compile - omitted for conflict with 1.8.13)
+|  |  |  +- org.zeroturnaround:zt-exec:jar:1.10:compile
+|  |  |  |  \- (commons-io:commons-io:jar:1.4:compile - omitted for conflict with 2.6)
+|  |  |  +- (org.javassist:javassist:jar:3.23.1-GA:compile - omitted for duplicate)
+|  |  |  +- (org.springframework:spring-aspects:jar:5.0.8.RELEASE:compile - omitted for duplicate)
+|  |  |  +- (org.aspectj:aspectjrt:jar:1.9.1:compile - omitted for duplicate)
+|  |  |  +- (com.google.code.findbugs:annotations:jar:3.0.1:compile - omitted for duplicate)
+|  |  |  \- (org.apache.commons:commons-collections4:jar:4.1:compile - omitted for duplicate)
+|  |  +- (org.javassist:javassist:jar:3.23.1-GA:compile - omitted for conflict with 3.20.0-GA)
+|  |  +- (org.springframework:spring-aspects:jar:5.0.8.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.aspectj:aspectjrt:jar:1.9.1:compile - omitted for duplicate)
+|  |  +- (com.google.code.findbugs:annotations:jar:3.0.1:compile - omitted for duplicate)
+|  |  +- (org.apache.commons:commons-lang3:jar:3.6:compile - omitted for duplicate)
+|  |  \- (org.apache.commons:commons-collections4:jar:4.1:compile - omitted for duplicate)
+|  +- io.spot-next:spot-core-base-models:jar:1.0.9-BETA-20180913:compile
+|  |  +- (io.spot-next:spot-core-model-infrastructure:jar:1.0.9-BETA-20180913:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-aspects:jar:5.0.8.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.aspectj:aspectjrt:jar:1.9.1:compile - omitted for duplicate)
+|  |  +- (com.google.code.findbugs:annotations:jar:3.0.1:compile - omitted for duplicate)
+|  |  +- (org.apache.commons:commons-lang3:jar:3.6:compile - omitted for duplicate)
+|  |  \- (org.apache.commons:commons-collections4:jar:4.1:compile - omitted for duplicate)
+|  +- io.spot-next:spot-core-support:jar:1.0.9-BETA-20180913:compile
+|  |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile
+|  |  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile - omitted for duplicate)
+|  |  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.5:compile - omitted for conflict with 2.9.6)
+|  |  +- com.google.code.gson:gson:jar:2.8.0:compile
+|  |  +- org.hibernate.validator:hibernate-validator:jar:6.0.9.Final:compile
+|  |  |  +- javax.validation:validation-api:jar:2.0.1.Final:compile
+|  |  |  +- org.jboss.logging:jboss-logging:jar:3.3.2.Final:compile
+|  |  |  \- com.fasterxml:classmate:jar:1.3.4:compile
+|  |  +- javax.el:javax.el-api:jar:3.0.0:compile
+|  |  +- org.glassfish:javax.el:jar:3.0.0:compile
+|  |  +- org.apache.commons:commons-configuration2:jar:2.3:compile
+|  |  |  +- (org.apache.commons:commons-lang3:jar:3.7:compile - omitted for conflict with 3.6)
+|  |  |  \- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  |  +- org.springframework.boot:spring-boot-starter-data-jpa:jar:2.0.4.RELEASE:compile
+|  |  |  +- (org.springframework.boot:spring-boot-starter:jar:2.0.4.RELEASE:compile - omitted for duplicate)
+|  |  |  +- (org.springframework.boot:spring-boot-starter-aop:jar:2.0.4.RELEASE:compile - omitted for duplicate)
+|  |  |  +- org.springframework.boot:spring-boot-starter-jdbc:jar:2.0.4.RELEASE:compile
+|  |  |  |  +- (org.springframework.boot:spring-boot-starter:jar:2.0.4.RELEASE:compile - omitted for duplicate)
+|  |  |  |  +- (com.zaxxer:HikariCP:jar:2.7.9:compile - omitted for conflict with 2.7.7)
+|  |  |  |  \- (org.springframework:spring-jdbc:jar:5.0.8.RELEASE:compile - omitted for duplicate)
+|  |  |  +- org.hibernate:hibernate-core:jar:5.2.17.Final:compile
+|  |  |  |  +- (org.jboss.logging:jboss-logging:jar:3.3.1.Final:compile - omitted for conflict with 3.3.2.Final)
+|  |  |  |  +- org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final:compile
+|  |  |  |  +- (org.javassist:javassist:jar:3.22.0-GA:compile - omitted for conflict with 3.23.1-GA)
+|  |  |  |  +- (antlr:antlr:jar:2.7.7:compile - omitted for conflict with 2.7.6)
+|  |  |  |  +- org.jboss:jandex:jar:2.0.3.Final:compile
+|  |  |  |  +- (com.fasterxml:classmate:jar:1.3.0:compile - omitted for conflict with 1.3.4)
+|  |  |  |  +- dom4j:dom4j:jar:1.6.1:compile
+|  |  |  |  |  \- xml-apis:xml-apis:jar:1.0.b2:compile
+|  |  |  |  \- org.hibernate.common:hibernate-commons-annotations:jar:5.0.1.Final:compile
+|  |  |  |     \- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile - omitted for conflict with 3.3.2.Final)
+|  |  |  +- javax.transaction:javax.transaction-api:jar:1.2:compile
+|  |  |  +- org.springframework.data:spring-data-jpa:jar:2.0.9.RELEASE:compile
+|  |  |  |  +- org.springframework.data:spring-data-commons:jar:2.0.9.RELEASE:compile
+|  |  |  |  |  +- (org.springframework:spring-core:jar:5.0.8.RELEASE:compile - omitted for duplicate)
+|  |  |  |  |  \- (org.springframework:spring-beans:jar:5.0.8.RELEASE:compile - omitted for duplicate)
+|  |  |  |  +- (org.springframework:spring-orm:jar:5.0.8.RELEASE:compile - omitted for duplicate)
+|  |  |  |  +- (org.springframework:spring-context:jar:5.0.8.RELEASE:compile - omitted for duplicate)
+|  |  |  |  +- (org.springframework:spring-aop:jar:5.0.8.RELEASE:compile - omitted for duplicate)
+|  |  |  |  +- (org.springframework:spring-tx:jar:5.0.8.RELEASE:compile - omitted for duplicate)
+|  |  |  |  +- (org.springframework:spring-beans:jar:5.0.8.RELEASE:compile - omitted for duplicate)
+|  |  |  |  \- (org.springframework:spring-core:jar:5.0.8.RELEASE:compile - omitted for duplicate)
+|  |  |  \- (org.springframework:spring-aspects:jar:5.0.8.RELEASE:compile - omitted for duplicate)
+|  |  +- org.springframework.boot:spring-boot-starter-aop:jar:2.0.4.RELEASE:compile
+|  |  |  +- (org.springframework.boot:spring-boot-starter:jar:2.0.4.RELEASE:compile - omitted for duplicate)
+|  |  |  +- org.springframework:spring-aop:jar:5.0.8.RELEASE:compile
+|  |  |  |  +- (org.springframework:spring-beans:jar:5.0.8.RELEASE:compile - omitted for duplicate)
+|  |  |  |  \- (org.springframework:spring-core:jar:5.0.8.RELEASE:compile - omitted for duplicate)
+|  |  |  \- (org.aspectj:aspectjweaver:jar:1.8.13:compile - omitted for conflict with 1.8.12)
+|  |  +- org.springframework.boot:spring-boot-starter-test:jar:2.0.4.RELEASE:compile
+|  |  |  +- (org.springframework.boot:spring-boot-starter:jar:2.0.4.RELEASE:compile - omitted for duplicate)
+|  |  |  +- org.springframework.boot:spring-boot-test:jar:2.0.4.RELEASE:compile
+|  |  |  |  \- (org.springframework.boot:spring-boot:jar:2.0.4.RELEASE:compile - omitted for duplicate)
+|  |  |  +- org.springframework.boot:spring-boot-test-autoconfigure:jar:2.0.4.RELEASE:compile
+|  |  |  |  +- (org.springframework.boot:spring-boot-test:jar:2.0.4.RELEASE:compile - omitted for duplicate)
+|  |  |  |  \- (org.springframework.boot:spring-boot-autoconfigure:jar:2.0.4.RELEASE:compile - omitted for duplicate)
+|  |  |  +- com.jayway.jsonpath:json-path:jar:2.4.0:compile
+|  |  |  |  \- net.minidev:json-smart:jar:2.3:compile
+|  |  |  |     \- net.minidev:accessors-smart:jar:1.2:compile
+|  |  |  |        \- (org.ow2.asm:asm:jar:5.0.4:compile - omitted for conflict with 5.0.3)
+|  |  |  +- junit:junit:jar:4.12:compile
+|  |  |  |  \- (org.hamcrest:hamcrest-core:jar:1.3:compile - omitted for duplicate)
+|  |  |  +- (org.assertj:assertj-core:jar:3.9.1:compile - omitted for conflict with 3.8.0)
+|  |  |  +- org.mockito:mockito-core:jar:2.15.0:compile
+|  |  |  |  +- (net.bytebuddy:byte-buddy:jar:1.7.9:compile - omitted for conflict with 1.8.13)
+|  |  |  |  +- net.bytebuddy:byte-buddy-agent:jar:1.7.9:compile
+|  |  |  |  \- (org.objenesis:objenesis:jar:2.6:compile - omitted for conflict with 1.3)
+|  |  |  +- org.hamcrest:hamcrest-core:jar:1.3:compile
+|  |  |  +- org.hamcrest:hamcrest-library:jar:1.3:compile
+|  |  |  |  \- (org.hamcrest:hamcrest-core:jar:1.3:compile - omitted for duplicate)
+|  |  |  +- org.skyscreamer:jsonassert:jar:1.5.0:compile
+|  |  |  |  \- com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:compile
+|  |  |  +- (org.springframework:spring-core:jar:5.0.8.RELEASE:compile - omitted for duplicate)
+|  |  |  +- org.springframework:spring-test:jar:5.0.8.RELEASE:compile
+|  |  |  |  \- (org.springframework:spring-core:jar:5.0.8.RELEASE:compile - omitted for duplicate)
+|  |  |  \- org.xmlunit:xmlunit-core:jar:2.5.1:compile
+|  |  +- (org.springframework:spring-aspects:jar:5.0.8.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.aspectj:aspectjrt:jar:1.9.1:compile - omitted for duplicate)
+|  |  +- (com.google.code.findbugs:annotations:jar:3.0.1:compile - omitted for duplicate)
+|  |  +- (org.apache.commons:commons-lang3:jar:3.6:compile - omitted for duplicate)
+|  |  \- (org.apache.commons:commons-collections4:jar:4.1:compile - omitted for duplicate)
+|  +- com.opencsv:opencsv:jar:4.2:compile
+|  |  +- (org.apache.commons:commons-lang3:jar:3.7:compile - omitted for conflict with 3.6)
+|  |  +- org.apache.commons:commons-text:jar:1.3:compile
+|  |  |  \- (org.apache.commons:commons-lang3:jar:3.7:compile - omitted for conflict with 3.6)
+|  |  +- (commons-beanutils:commons-beanutils:jar:1.9.3:compile - omitted for duplicate)
+|  |  \- (org.apache.commons:commons-collections4:jar:4.1:compile - omitted for duplicate)
+|  +- commons-cli:commons-cli:jar:1.4:compile
+|  +- org.apache.commons:commons-jexl3:jar:3.1:compile
+|  |  \- commons-logging:commons-logging:jar:1.2:compile
+|  +- org.reflections:reflections:jar:0.9.11:compile
+|  |  +- com.google.guava:guava:jar:20.0:compile
+|  |  \- (org.javassist:javassist:jar:3.21.0-GA:compile - omitted for conflict with 3.23.1-GA)
+|  +- commons-beanutils:commons-beanutils:jar:1.9.3:compile
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  |  \- (commons-collections:commons-collections:jar:3.2.2:compile - omitted for conflict with 3.2.1)
+|  +- commons-validator:commons-validator:jar:1.6:compile
+|  |  +- (commons-beanutils:commons-beanutils:jar:1.9.2:compile - omitted for conflict with 1.9.3)
+|  |  +- commons-digester:commons-digester:jar:1.8.1:compile
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  |  \- (commons-collections:commons-collections:jar:3.2.2:compile - omitted for duplicate)
+|  +- javax.inject:javax.inject:jar:1:compile
+|  +- io.gsonfire:gson-fire:jar:1.8.3:compile
+|  |  \- (com.google.code.gson:gson:jar:2.7:compile - omitted for conflict with 2.8.0)
+|  +- net.bytebuddy:byte-buddy:jar:1.8.13:compile
+|  +- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.6:compile
+|  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+|  |  +- com.fasterxml.jackson.core:jackson-core:jar:2.9.6:compile
+|  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.6:compile - omitted for conflict with 2.9.5)
+|  +- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.6:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.6:compile - omitted for duplicate)
+|  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.6:compile - omitted for conflict with 2.9.5)
+|  +- org.springmodules:spring-modules-validation:jar:0.8:compile
+|  |  +- (commons-logging:commons-logging:jar:1.0.4:compile - omitted for conflict with 1.2)
+|  |  +- (commons-lang:commons-lang:jar:2.2:compile - omitted for conflict with 2.4)
+|  |  +- (commons-collections:commons-collections:jar:3.1:compile - omitted for conflict with 3.2.2)
+|  |  +- (commons-validator:commons-validator:jar:1.3.0:compile - omitted for conflict with 1.6)
+|  |  +- (commons-beanutils:commons-beanutils:jar:1.7.0:compile - omitted for conflict with 1.9.3)
+|  |  +- (commons-digester:commons-digester:jar:1.7:compile - omitted for conflict with 1.8.1)
+|  |  +- antlr:antlr:jar:2.7.6:compile
+|  |  \- rhino:js:jar:1.6R2:compile
+|  +- org.springframework:spring-orm:jar:5.0.8.RELEASE:compile
+|  |  +- org.springframework:spring-beans:jar:5.0.8.RELEASE:compile
+|  |  |  \- (org.springframework:spring-core:jar:5.0.8.RELEASE:compile - omitted for duplicate)
+|  |  +- org.springframework:spring-core:jar:5.0.8.RELEASE:compile
+|  |  |  \- org.springframework:spring-jcl:jar:5.0.8.RELEASE:compile
+|  |  +- org.springframework:spring-jdbc:jar:5.0.8.RELEASE:compile
+|  |  |  +- (org.springframework:spring-beans:jar:5.0.8.RELEASE:compile - omitted for duplicate)
+|  |  |  +- (org.springframework:spring-core:jar:5.0.8.RELEASE:compile - omitted for duplicate)
+|  |  |  \- (org.springframework:spring-tx:jar:5.0.8.RELEASE:compile - omitted for duplicate)
+|  |  \- org.springframework:spring-tx:jar:5.0.8.RELEASE:compile
+|  |     +- (org.springframework:spring-beans:jar:5.0.8.RELEASE:compile - omitted for duplicate)
+|  |     \- (org.springframework:spring-core:jar:5.0.8.RELEASE:compile - omitted for duplicate)
+|  +- org.hsqldb:hsqldb:jar:2.4.0:compile
+|  +- mysql:mysql-connector-java:jar:8.0.8-dmr:compile
+|  +- com.zaxxer:HikariCP:jar:2.7.7:compile
+|  +- org.torpedoquery:org.torpedoquery:jar:2.5.1:compile
+|  |  +- (org.javassist:javassist:jar:3.18.0-GA:compile - omitted for conflict with 3.23.1-GA)
+|  |  +- org.objenesis:objenesis:jar:1.3:compile
+|  |  +- (com.google.guava:guava:jar:19.0:compile - omitted for conflict with 20.0)
+|  |  \- (org.apache.commons:commons-lang3:jar:3.5:compile - omitted for conflict with 3.6)
+|  +- com.trigersoft:jaque:jar:2.1.2:compile
+|  |  \- (org.ow2.asm:asm:jar:5.0.3:compile - omitted for duplicate)
+|  +- org.ow2.asm:asm:jar:5.0.3:compile
+|  +- com.sparkjava:spark-core:jar:2.7.2:compile
+|  |  +- org.eclipse.jetty:jetty-server:jar:9.4.8.v20171121:compile
+|  |  |  +- javax.servlet:javax.servlet-api:jar:3.1.0:compile
+|  |  |  +- org.eclipse.jetty:jetty-http:jar:9.4.8.v20171121:compile
+|  |  |  |  +- org.eclipse.jetty:jetty-util:jar:9.4.8.v20171121:compile
+|  |  |  |  \- (org.eclipse.jetty:jetty-io:jar:9.4.8.v20171121:compile - omitted for duplicate)
+|  |  |  \- org.eclipse.jetty:jetty-io:jar:9.4.8.v20171121:compile
+|  |  |     \- (org.eclipse.jetty:jetty-util:jar:9.4.8.v20171121:compile - omitted for duplicate)
+|  |  +- org.eclipse.jetty:jetty-webapp:jar:9.4.8.v20171121:compile
+|  |  |  +- org.eclipse.jetty:jetty-xml:jar:9.4.8.v20171121:compile
+|  |  |  |  \- (org.eclipse.jetty:jetty-util:jar:9.4.8.v20171121:compile - omitted for duplicate)
+|  |  |  \- org.eclipse.jetty:jetty-servlet:jar:9.4.8.v20171121:compile
+|  |  |     \- org.eclipse.jetty:jetty-security:jar:9.4.8.v20171121:compile
+|  |  |        \- (org.eclipse.jetty:jetty-server:jar:9.4.8.v20171121:compile - omitted for duplicate)
+|  |  +- org.eclipse.jetty.websocket:websocket-server:jar:9.4.8.v20171121:compile
+|  |  |  +- org.eclipse.jetty.websocket:websocket-common:jar:9.4.8.v20171121:compile
+|  |  |  |  +- (org.eclipse.jetty.websocket:websocket-api:jar:9.4.8.v20171121:compile - omitted for duplicate)
+|  |  |  |  +- (org.eclipse.jetty:jetty-util:jar:9.4.8.v20171121:compile - omitted for duplicate)
+|  |  |  |  \- (org.eclipse.jetty:jetty-io:jar:9.4.8.v20171121:compile - omitted for duplicate)
+|  |  |  +- org.eclipse.jetty.websocket:websocket-client:jar:9.4.8.v20171121:compile
+|  |  |  |  +- org.eclipse.jetty:jetty-client:jar:9.4.8.v20171121:compile
+|  |  |  |  |  +- (org.eclipse.jetty:jetty-http:jar:9.4.8.v20171121:compile - omitted for duplicate)
+|  |  |  |  |  \- (org.eclipse.jetty:jetty-io:jar:9.4.8.v20171121:compile - omitted for duplicate)
+|  |  |  |  +- (org.eclipse.jetty:jetty-xml:jar:9.4.8.v20171121:compile - omitted for duplicate)
+|  |  |  |  +- (org.eclipse.jetty:jetty-util:jar:9.4.8.v20171121:compile - omitted for duplicate)
+|  |  |  |  +- (org.eclipse.jetty:jetty-io:jar:9.4.8.v20171121:compile - omitted for duplicate)
+|  |  |  |  \- (org.eclipse.jetty.websocket:websocket-common:jar:9.4.8.v20171121:compile - omitted for duplicate)
+|  |  |  +- (org.eclipse.jetty.websocket:websocket-servlet:jar:9.4.8.v20171121:compile - omitted for duplicate)
+|  |  |  +- (org.eclipse.jetty:jetty-servlet:jar:9.4.8.v20171121:compile - omitted for duplicate)
+|  |  |  \- (org.eclipse.jetty:jetty-http:jar:9.4.8.v20171121:compile - omitted for duplicate)
+|  |  \- org.eclipse.jetty.websocket:websocket-servlet:jar:9.4.8.v20171121:compile
+|  |     +- org.eclipse.jetty.websocket:websocket-api:jar:9.4.8.v20171121:compile
+|  |     \- (javax.servlet:javax.servlet-api:jar:3.1.0:compile - omitted for duplicate)
+|  +- (org.springframework:spring-aspects:jar:5.0.8.RELEASE:compile - omitted for duplicate)
+|  +- (org.aspectj:aspectjrt:jar:1.9.1:compile - omitted for duplicate)
+|  +- (com.google.code.findbugs:annotations:jar:3.0.1:compile - omitted for duplicate)
+|  +- (org.apache.commons:commons-lang3:jar:3.6:compile - omitted for duplicate)
+|  \- (org.apache.commons:commons-collections4:jar:4.1:compile - omitted for duplicate)
++- org.apache.velocity:velocity:jar:1.7:compile
+|  +- commons-collections:commons-collections:jar:3.2.1:compile
+|  \- commons-lang:commons-lang:jar:2.4:compile
++- org.freemarker:freemarker:jar:2.3.23:compile
++- org.springframework.boot:spring-boot-starter-thymeleaf:jar:2.0.4.RELEASE:compile
+|  +- org.springframework.boot:spring-boot-starter:jar:2.0.4.RELEASE:compile
+|  |  +- org.springframework.boot:spring-boot:jar:2.0.4.RELEASE:compile
+|  |  |  +- (org.springframework:spring-core:jar:5.0.8.RELEASE:compile - omitted for duplicate)
+|  |  |  \- (org.springframework:spring-context:jar:5.0.8.RELEASE:compile - omitted for duplicate)
+|  |  +- org.springframework.boot:spring-boot-autoconfigure:jar:2.0.4.RELEASE:compile
+|  |  |  \- (org.springframework.boot:spring-boot:jar:2.0.4.RELEASE:compile - omitted for duplicate)
+|  |  +- org.springframework.boot:spring-boot-starter-logging:jar:2.0.4.RELEASE:compile
+|  |  |  +- ch.qos.logback:logback-classic:jar:1.2.3:compile
+|  |  |  |  +- ch.qos.logback:logback-core:jar:1.2.3:compile
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  |  |  +- org.apache.logging.log4j:log4j-to-slf4j:jar:2.10.0:compile
+|  |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  |  |  |  \- org.apache.logging.log4j:log4j-api:jar:2.10.0:compile
+|  |  |  \- org.slf4j:jul-to-slf4j:jar:1.7.25:compile
+|  |  |     \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  |  +- javax.annotation:javax.annotation-api:jar:1.3.2:compile
+|  |  +- (org.springframework:spring-core:jar:5.0.8.RELEASE:compile - omitted for duplicate)
+|  |  \- org.yaml:snakeyaml:jar:1.19:runtime
+|  +- org.thymeleaf:thymeleaf-spring5:jar:3.0.9.RELEASE:compile
+|  |  +- org.thymeleaf:thymeleaf:jar:3.0.9.RELEASE:compile
+|  |  |  +- org.attoparser:attoparser:jar:2.0.4.RELEASE:compile
+|  |  |  +- org.unbescape:unbescape:jar:1.1.5.RELEASE:compile
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  |  \- org.slf4j:slf4j-api:jar:1.7.25:compile
+|  \- org.thymeleaf.extras:thymeleaf-extras-java8time:jar:3.0.1.RELEASE:compile
+|     +- (org.thymeleaf:thymeleaf:jar:3.0.0.RELEASE:compile - omitted for conflict with 3.0.9.RELEASE)
+|     \- (org.slf4j:slf4j-api:jar:1.6.6:compile - omitted for conflict with 1.7.25)
++- ognl:ognl:jar:3.1.12:compile
+|  \- org.javassist:javassist:jar:3.20.0-GA:compile
++- org.springframework:spring-aspects:jar:5.0.8.RELEASE:compile
+|  \- org.aspectj:aspectjweaver:jar:1.8.13:compile
++- org.aspectj:aspectjrt:jar:1.9.1:compile
++- com.google.code.findbugs:annotations:jar:3.0.1:compile
++- org.apache.commons:commons-lang3:jar:3.6:compile
+\- org.apache.commons:commons-collections4:jar:4.1:compile

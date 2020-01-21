@@ -1,0 +1,12 @@
+com.atomikos:transactions-jta:jar:4.0.6
++- com.atomikos:transactions-api:jar:4.0.6:compile
++- com.atomikos:transactions:jar:4.0.6:runtime
+|  +- (com.atomikos:transactions-api:jar:4.0.6:runtime - omitted for duplicate)
+|  \- (com.atomikos:atomikos-util:jar:4.0.6:runtime - omitted for duplicate)
++- com.atomikos:atomikos-util:jar:4.0.6:compile
+|  \- (com.atomikos:transactions-api:jar:4.0.6:compile - omitted for duplicate)
++- org.apache.geronimo.specs:geronimo-jms_1.1_spec:jar:1.1.1:provided
++- org.apache.geronimo.specs:geronimo-jta_1.0.1B_spec:jar:1.0:provided
++- org.mockito:mockito-all:jar:1.9.0:test
+\- junit:junit:jar:4.11:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

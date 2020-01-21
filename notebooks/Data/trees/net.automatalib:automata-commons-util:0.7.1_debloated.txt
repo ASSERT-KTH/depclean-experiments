@@ -1,0 +1,10 @@
+net.automatalib:automata-commons-util:jar:0.7.1
++- com.google.guava:guava:jar:22.0:compile
+|  +- com.google.errorprone:error_prone_annotations:jar:2.0.18:compile
+|  +- com.google.j2objc:j2objc-annotations:jar:1.1:compile
+|  \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:compile
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+\- org.testng:testng:jar:6.11:test
+   +- com.beust:jcommander:jar:1.64:test
+   \- org.yaml:snakeyaml:jar:1.17:test

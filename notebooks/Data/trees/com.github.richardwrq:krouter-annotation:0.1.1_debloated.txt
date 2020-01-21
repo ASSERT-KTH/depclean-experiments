@@ -1,0 +1,6 @@
+com.github.richardwrq:krouter-annotation:jar:0.1.1
+\- org.jetbrains.kotlin:kotlin-stdlib-jre8:jar:1.2.21:runtime
+   +- org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.21:runtime
+   |  \- org.jetbrains:annotations:jar:13.0:runtime
+   \- org.jetbrains.kotlin:kotlin-stdlib-jre7:jar:1.2.21:runtime
+      \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.21:runtime - omitted for duplicate)

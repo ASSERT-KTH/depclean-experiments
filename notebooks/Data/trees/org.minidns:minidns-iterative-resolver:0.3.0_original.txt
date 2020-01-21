@@ -1,0 +1,9 @@
+org.minidns:minidns-iterative-resolver:jar:0.3.0
++- org.minidns:minidns-client:jar:0.3.0:compile
+|  \- org.minidns:minidns-core:jar:0.3.0:compile
++- org.minidns:minidns-client:jar:sources:0.3.0:test
+|  \- (org.minidns:minidns-core:jar:0.3.0:test - omitted for duplicate)
++- org.minidns:minidns-client:jar:javadoc:0.3.0:test
+|  \- (org.minidns:minidns-core:jar:0.3.0:test - omitted for duplicate)
+\- org.minidns:minidns-client:jar:tests:0.3.0:test
+   \- (org.minidns:minidns-core:jar:0.3.0:test - omitted for duplicate)

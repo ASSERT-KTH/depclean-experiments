@@ -1,0 +1,30 @@
+com.waspring.framework:antenna-access:jar:1.0.0
++- com.waspring.framework:antenna-service:jar:1.0.0:compile
+|  +- com.waspring.framework:antenna-preservation:jar:1.0.0:compile
+|  |  +- com.waspring.framework:antenna-config:jar:1.0.0:compile
+|  |  |  \- com.waspring.framework:antenna-core:jar:1.0.0:compile
+|  |  |     +- commons-lang:commons-lang:jar:2.6:compile
+|  |  |     +- commons-beanutils:commons-beanutils:jar:1.9.1:compile
+|  |  |     |  +- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for conflict with 1.2)
+|  |  |     |  \- commons-collections:commons-collections:jar:3.2.1:compile
+|  |  |     +- (commons-codec:commons-codec:jar:1.3:compile - omitted for conflict with 1.9)
+|  |  |     +- com.alibaba:fastjson:jar:1.2.5:compile
+|  |  |     \- log4j:log4j:jar:1.2.17:compile
+|  |  \- commons-io:commons-io:jar:1.2:compile
+|  +- org.apache.httpcomponents:httpclient:jar:4.4:compile
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.4:compile
+|  |  +- commons-logging:commons-logging:jar:1.2:compile
+|  |  \- commons-codec:commons-codec:jar:1.9:compile
+|  \- org.apache.httpcomponents:httpmime:jar:4.4:compile
+|     \- (org.apache.httpcomponents:httpclient:jar:4.4:compile - omitted for duplicate)
++- com.github.rholder:guava-retrying:jar:2.0.0:compile
+|  +- com.google.guava:guava:jar:28.0-jre:compile
+|  |  +- com.google.guava:failureaccess:jar:1.0.1:compile
+|  |  +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+|  |  +- (com.google.code.findbugs:jsr305:jar:3.0.2:compile - omitted for conflict with 2.0.2)
+|  |  +- org.checkerframework:checker-qual:jar:2.8.1:compile
+|  |  +- com.google.errorprone:error_prone_annotations:jar:2.3.2:compile
+|  |  +- com.google.j2objc:j2objc-annotations:jar:1.3:compile
+|  |  \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.17:compile
+|  \- com.google.code.findbugs:jsr305:jar:2.0.2:compile
+\- javax.servlet:servlet-api:jar:2.5:provided

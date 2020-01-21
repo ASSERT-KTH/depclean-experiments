@@ -1,0 +1,28 @@
+org.sonarsource.sonarqube:sonar-process:jar:6.7.1
++- com.hazelcast:hazelcast:jar:3.8.6:compile
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- org.slf4j:jul-to-slf4j:jar:1.7.25:compile
++- ch.qos.logback:logback-classic:jar:1.2.3:compile
+|  \- ch.qos.logback:logback-core:jar:1.2.3:compile
++- commons-codec:commons-codec:jar:1.8:compile
++- commons-io:commons-io:jar:2.4:compile
++- commons-lang:commons-lang:jar:2.6:compile
++- com.google.guava:guava:jar:18.0:compile
++- com.google.code.findbugs:jsr305:jar:3.0.2:provided
++- org.nanohttpd:nanohttpd:jar:2.3.0:compile (optional) 
++- com.google.protobuf:protobuf-java:jar:3.0.0-beta-2:compile (optional) 
++- org.assertj:assertj-core:jar:3.4.1:test
++- com.tngtech.java:junit-dataprovider:jar:1.9.2:test
++- org.sonarsource.sonarqube:sonar-testing-harness:jar:6.7.1:test
+|  +- com.googlecode.json-simple:json-simple:jar:1.1.1:test
+|  +- com.google.code.gson:gson:jar:2.3.1:test
+|  \- junit:junit:jar:4.12:test
+|     \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.mockito:mockito-core:jar:1.10.19:test
+|  \- org.objenesis:objenesis:jar:2.1:test
+\- org.eclipse.jetty:jetty-server:jar:8.1.12.v20130726:test
+   +- org.eclipse.jetty.orbit:javax.servlet:jar:3.0.0.v201112011016:test
+   +- org.eclipse.jetty:jetty-continuation:jar:8.1.12.v20130726:test
+   \- org.eclipse.jetty:jetty-http:jar:8.1.12.v20130726:test
+      \- org.eclipse.jetty:jetty-io:jar:8.1.12.v20130726:test
+         \- org.eclipse.jetty:jetty-util:jar:8.1.12.v20130726:test

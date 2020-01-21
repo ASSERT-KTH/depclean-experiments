@@ -1,0 +1,35 @@
+nz.net.osnz.composite:composite-jetty:jar:3.7
++- org.eclipse.jetty:jetty-servlets:jar:9.4.9.v20180320:compile
+|  +- org.eclipse.jetty:jetty-continuation:jar:9.4.9.v20180320:compile
+|  +- (org.eclipse.jetty:jetty-http:jar:9.4.9.v20180320:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-util:jar:9.4.9.v20180320:compile - omitted for duplicate)
+|  \- (org.eclipse.jetty:jetty-io:jar:9.4.9.v20180320:compile - omitted for duplicate)
++- org.eclipse.jetty:jetty-jsp:jar:9.2.24.v20180105:compile
+|  +- org.eclipse.jetty.toolchain:jetty-schemas:jar:3.1.M0:compile
+|  +- (javax.servlet:javax.servlet-api:jar:3.1.0:compile - omitted for duplicate)
+|  +- javax.servlet.jsp:javax.servlet.jsp-api:jar:2.3.1:compile
+|  +- org.glassfish.web:javax.servlet.jsp:jar:2.3.2:compile
+|  |  +- (org.glassfish:javax.el:jar:3.0.0:compile - omitted for duplicate)
+|  |  \- (javax.servlet.jsp:javax.servlet.jsp-api:jar:2.3.1:compile - omitted for duplicate)
+|  +- org.eclipse.jetty.orbit:javax.servlet.jsp.jstl:jar:1.2.0.v201105211821:compile
+|  +- org.glassfish.web:javax.servlet.jsp.jstl:jar:1.2.2:compile
+|  +- org.glassfish:javax.el:jar:3.0.0:compile
+|  \- org.eclipse.jetty.orbit:org.eclipse.jdt.core:jar:3.8.2.v20130121:compile
+\- org.eclipse.jetty.websocket:websocket-server:jar:9.4.9.v20180320:compile
+   +- org.eclipse.jetty.websocket:websocket-common:jar:9.4.9.v20180320:compile
+   |  +- org.eclipse.jetty.websocket:websocket-api:jar:9.4.9.v20180320:compile
+   |  +- (org.eclipse.jetty:jetty-util:jar:9.4.9.v20180320:compile - omitted for duplicate)
+   |  \- (org.eclipse.jetty:jetty-io:jar:9.4.9.v20180320:compile - omitted for duplicate)
+   +- org.eclipse.jetty.websocket:websocket-client:jar:9.4.9.v20180320:compile
+   |  +- org.eclipse.jetty:jetty-client:jar:9.4.9.v20180320:compile
+   |  |  +- (org.eclipse.jetty:jetty-http:jar:9.4.9.v20180320:compile - omitted for duplicate)
+   |  |  \- (org.eclipse.jetty:jetty-io:jar:9.4.9.v20180320:compile - omitted for duplicate)
+   |  +- (org.eclipse.jetty:jetty-xml:jar:9.4.9.v20180320:compile - omitted for duplicate)
+   |  +- (org.eclipse.jetty:jetty-util:jar:9.4.9.v20180320:compile - omitted for duplicate)
+   |  +- (org.eclipse.jetty:jetty-io:jar:9.4.9.v20180320:compile - omitted for duplicate)
+   |  \- (org.eclipse.jetty.websocket:websocket-common:jar:9.4.9.v20180320:compile - omitted for duplicate)
+   +- org.eclipse.jetty.websocket:websocket-servlet:jar:9.4.9.v20180320:compile
+   |  +- (org.eclipse.jetty.websocket:websocket-api:jar:9.4.9.v20180320:compile - omitted for duplicate)
+   |  \- (javax.servlet:javax.servlet-api:jar:3.1.0:compile - omitted for duplicate)
+   +- (org.eclipse.jetty:jetty-servlet:jar:9.4.9.v20180320:compile - omitted for duplicate)
+   \- (org.eclipse.jetty:jetty-http:jar:9.4.9.v20180320:compile - omitted for duplicate)

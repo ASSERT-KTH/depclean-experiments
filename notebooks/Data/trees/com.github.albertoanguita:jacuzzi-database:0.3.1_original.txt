@@ -1,0 +1,15 @@
+com.github.albertoanguita:jacuzzi-database:jar:0.3.1
++- com.github.albertoanguita:jacuzzi-core:jar:0.3.1:compile
+|  +- org.jetbrains:annotations:jar:15.0:compile
+|  +- org.apache.httpcomponents:httpclient:jar:4.5.1:compile
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.4.3:compile
+|  |  +- commons-logging:commons-logging:jar:1.2:compile
+|  |  \- commons-codec:commons-codec:jar:1.9:compile
+|  \- org.slf4j:slf4j-api:jar:1.7.25:compile
++- org.javalite:activejdbc:jar:1.4.12:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for conflict with 1.7.25)
+|  \- org.javalite:javalite-common:jar:1.4.12:compile
+|     +- org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile
+|     \- org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:compile
+|        \- (org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile - omitted for duplicate)
+\- org.xerial:sqlite-jdbc:jar:3.8.11.1:compile

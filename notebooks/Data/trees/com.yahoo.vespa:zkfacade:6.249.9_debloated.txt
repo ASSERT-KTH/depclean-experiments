@@ -1,0 +1,253 @@
+com.yahoo.vespa:zkfacade:container-plugin:6.249.9
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- com.yahoo.vespa:defaults:jar:6.249.9:provided
++- com.yahoo.vespa:container-dev:jar:6.249.9:provided
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.4:provided
+|  +- com.yahoo.vespa:jdisc_core:jar:6.249.9:provided
+|  |  +- xml-apis:xml-apis:jar:1.4.01:provided
+|  |  +- javax.annotation:javax.annotation-api:jar:1.2:provided
+|  |  +- aopalliance:aopalliance:jar:1.0:provided
+|  |  +- (com.google.guava:guava:jar:18.0:provided - omitted for duplicate)
+|  |  +- (com.google.inject:guice:jar:no_aop:3.0:provided - omitted for duplicate)
+|  |  +- com.google.inject.extensions:guice-assistedinject:jar:3.0:provided
+|  |  +- com.google.inject.extensions:guice-multibindings:jar:3.0:provided
+|  |  +- commons-daemon:commons-daemon:jar:1.0.3:provided
+|  |  +- org.apache.felix:org.apache.felix.framework:jar:5.6.10:provided
+|  |  +- org.apache.felix:org.apache.felix.log:jar:1.0.1:provided
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.5:compile - version managed from 1.7.25; scope updated from provided; omitted for duplicate)
+|  |  +- org.slf4j:jcl-over-slf4j:jar:1.7.5:provided
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.5:provided - omitted for duplicate)
+|  |  +- org.slf4j:log4j-over-slf4j:jar:1.7.5:provided
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.5:provided - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-jdk14:jar:1.7.5:provided - omitted for duplicate)
+|  |  +- (com.yahoo.vespa:config-lib:jar:6.249.9:provided - omitted for duplicate)
+|  |  +- com.yahoo.vespa:yolean:jar:6.249.9:provided
+|  |  \- (com.yahoo.vespa:vespajlib:jar:6.249.9:provided - omitted for duplicate)
+|  +- com.yahoo.vespa:jdisc_http_service:jar:6.249.9:provided
+|  +- com.yahoo.vespa:simplemetrics:jar:6.249.9:provided
+|  +- com.yahoo.vespa:config-lib:jar:6.249.9:provided
+|  |  +- com.google.code.findbugs:annotations:jar:1.3.9:provided
+|  |  +- com.google.code.findbugs:jsr305:jar:1.3.9:provided
+|  |  \- (com.yahoo.vespa:annotations:jar:6.249.9:provided - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:18.0:compile - version managed from 16.0.1; scope updated from provided; omitted for duplicate)
+|  +- javax.servlet:javax.servlet-api:jar:3.1.0:provided
+|  +- com.google.inject:guice:jar:no_aop:3.0:provided
+|  |  +- javax.inject:javax.inject:jar:1:provided
+|  |  \- (aopalliance:aopalliance:jar:1.0:provided - omitted for duplicate)
+|  +- org.apache.felix:org.apache.felix.main:jar:5.6.10:provided
+|  |  \- (org.apache.felix:org.apache.felix.framework:jar:5.6.10:provided - omitted for duplicate)
+|  +- commons-logging:commons-logging:jar:1.1.1:provided
+|  +- com.yahoo.vespa:provided-dependencies:jar:6.249.9:provided
+|  |  +- (com.yahoo.vespa:jdisc_core:jar:6.249.9:provided - omitted for duplicate)
+|  |  +- (com.yahoo.vespa:jdisc_http_service:jar:6.249.9:provided - omitted for duplicate)
+|  |  +- org.bouncycastle:bcprov-jdk15on:jar:1.58:provided
+|  |  +- org.bouncycastle:bcpkix-jdk15on:jar:1.58:provided
+|  |  |  \- (org.bouncycastle:bcprov-jdk15on:jar:1.58:provided - omitted for duplicate)
+|  |  +- org.eclipse.jetty:jetty-util:jar:9.4.10.v20180503:provided
+|  |  +- org.eclipse.jetty:jetty-http:jar:9.4.10.v20180503:provided
+|  |  |  +- (org.eclipse.jetty:jetty-util:jar:9.4.10.v20180503:provided - omitted for duplicate)
+|  |  |  \- org.eclipse.jetty:jetty-io:jar:9.4.10.v20180503:provided
+|  |  |     \- (org.eclipse.jetty:jetty-util:jar:9.4.10.v20180503:provided - omitted for duplicate)
+|  |  +- (com.yahoo.vespa:config-lib:jar:6.249.9:provided - omitted for duplicate)
+|  |  +- (com.yahoo.vespa:defaults:jar:6.249.9:provided - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:18.0:provided - omitted for duplicate)
+|  |  +- (com.google.inject:guice:jar:no_aop:3.0:provided - omitted for duplicate)
+|  |  \- (org.apache.felix:org.apache.felix.main:jar:5.6.10:provided - omitted for duplicate)
+|  +- com.yahoo.vespa:component:jar:6.249.9:provided
+|  +- com.yahoo.vespa:container-disc:jar:6.249.9:provided
+|  |  +- org.json:json:jar:20090211:provided
+|  |  +- com.yahoo.vespa:container-core:jar:6.249.9:provided
+|  |  |  +- (org.json:json:jar:20090211:provided - omitted for duplicate)
+|  |  |  +- com.yahoo.vespa:container-accesslogging:jar:6.249.9:provided
+|  |  |  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.4:provided - omitted for duplicate)
+|  |  |  +- com.yahoo.vespa:processing:jar:6.249.9:provided
+|  |  |  |  \- com.yahoo.vespa:chain:jar:6.249.9:provided
+|  |  |  |     +- (com.google.code.findbugs:annotations:jar:1.3.9:provided - omitted for duplicate)
+|  |  |  |     +- (com.google.code.findbugs:jsr305:jar:1.3.9:provided - omitted for duplicate)
+|  |  |  |     +- (com.yahoo.vespa:annotations:jar:6.249.9:provided - omitted for duplicate)
+|  |  |  |     +- com.yahoo.vespa:container-di:jar:6.249.9:provided
+|  |  |  |     |  +- (com.google.code.findbugs:annotations:jar:1.3.9:provided - omitted for duplicate)
+|  |  |  |     |  +- (com.google.code.findbugs:jsr305:jar:1.3.9:provided - omitted for duplicate)
+|  |  |  |     |  +- (com.yahoo.vespa:annotations:jar:6.249.9:provided - omitted for duplicate)
+|  |  |  |     |  \- (com.yahoo.vespa:vespajlib:jar:6.249.9:provided - omitted for duplicate)
+|  |  |  |     +- (com.yahoo.vespa:vespajlib:jar:6.249.9:provided - omitted for duplicate)
+|  |  |  |     \- (net.jcip:jcip-annotations:jar:1.0:provided - omitted for duplicate)
+|  |  |  +- (com.yahoo.vespa:annotations:jar:6.249.9:provided - omitted for duplicate)
+|  |  |  +- com.yahoo.vespa:linguistics:jar:6.249.9:provided
+|  |  |  |  +- com.yahoo.vespa:configdefinitions:jar:6.249.9:provided
+|  |  |  |  \- (com.yahoo.vespa:vespajlib:jar:6.249.9:provided - omitted for duplicate)
+|  |  |  +- com.yahoo.vespa:messagebus:jar:6.249.9:provided
+|  |  |  |  +- (com.yahoo.vespa:vespajlib:jar:6.249.9:provided - omitted for duplicate)
+|  |  |  |  +- (com.yahoo.vespa:configdefinitions:jar:6.249.9:provided - omitted for duplicate)
+|  |  |  |  \- (com.yahoo.vespa:jrt:jar:6.249.9:provided - omitted for duplicate)
+|  |  |  +- (com.yahoo.vespa:document:jar:6.249.9:provided - omitted for duplicate)
+|  |  |  +- com.yahoo.vespa:documentapi:jar:6.249.9:provided
+|  |  |  |  +- (com.yahoo.vespa:component:jar:6.249.9:provided - omitted for duplicate)
+|  |  |  |  +- (com.yahoo.vespa:messagebus:jar:6.249.9:provided - omitted for duplicate)
+|  |  |  |  +- com.yahoo.vespa:vdslib:jar:6.249.9:provided
+|  |  |  |  |  +- (com.yahoo.vespa:document:jar:6.249.9:provided - omitted for duplicate)
+|  |  |  |  |  \- (com.yahoo.vespa:configdefinitions:jar:6.249.9:provided - omitted for duplicate)
+|  |  |  |  +- (com.yahoo.vespa:vespajlib:jar:6.249.9:provided - omitted for duplicate)
+|  |  |  |  +- (com.yahoo.vespa:document:jar:6.249.9:provided - omitted for duplicate)
+|  |  |  |  +- (com.yahoo.vespa:configdefinitions:jar:6.249.9:provided - omitted for duplicate)
+|  |  |  |  \- (com.yahoo.vespa:annotations:jar:6.249.9:provided - omitted for duplicate)
+|  |  |  +- (com.yahoo.vespa:vespajlib:jar:6.249.9:provided - omitted for duplicate)
+|  |  |  +- com.yahoo.vespa:fileacquirer:jar:6.249.9:provided
+|  |  |  \- com.yahoo.vespa:statistics:jar:6.249.9:provided
+|  |  |     +- (com.google.code.findbugs:annotations:jar:1.3.9:provided - omitted for duplicate)
+|  |  |     +- (com.google.code.findbugs:jsr305:jar:1.3.9:provided - omitted for duplicate)
+|  |  |     \- (com.yahoo.vespa:vespalog:jar:6.249.9:provided - omitted for duplicate)
+|  |  +- com.yahoo.vespa:container-messagebus:jar:6.249.9:provided
+|  |  +- com.yahoo.vespa:messagebus-disc:jar:6.249.9:provided
+|  |  |  \- com.yahoo.vespa:jdisc_messagebus_service:jar:6.249.9:provided
+|  |  |     +- (com.yahoo.vespa:component:jar:6.249.9:provided - omitted for duplicate)
+|  |  |     \- (com.yahoo.vespa:messagebus:jar:6.249.9:provided - omitted for duplicate)
+|  |  +- (com.yahoo.vespa:vespajlib:jar:6.249.9:provided - omitted for duplicate)
+|  |  +- (com.yahoo.vespa:vespalog:jar:6.249.9:provided - omitted for duplicate)
+|  |  \- com.yahoo.vespa:searchlib:jar:6.249.9:provided
+|  |     +- (com.yahoo.vespa:document:jar:6.249.9:provided - omitted for duplicate)
+|  |     \- (com.yahoo.vespa:vespajlib:jar:6.249.9:provided - omitted for duplicate)
+|  +- com.yahoo.vespa:container-jersey2:jar:6.249.9:provided
+|  |  \- org.ow2.asm:asm:jar:6.1.1:provided
+|  +- com.yahoo.vespa:vespa_jersey2:pom:6.249.9:provided
+|  |  +- javax.ws.rs:javax.ws.rs-api:jar:2.0.1:provided
+|  |  +- org.glassfish.jersey.containers:jersey-container-servlet-core:jar:2.25:provided
+|  |  |  +- org.glassfish.hk2.external:javax.inject:jar:2.5.0-b32:provided (version managed from 2.5.0-b30)
+|  |  |  +- org.glassfish.jersey.core:jersey-common:jar:2.25:provided
+|  |  |  |  +- (javax.ws.rs:javax.ws.rs-api:jar:2.0.1:provided - omitted for duplicate)
+|  |  |  |  +- (javax.annotation:javax.annotation-api:jar:1.2:provided - omitted for duplicate)
+|  |  |  |  +- org.glassfish.jersey.bundles.repackaged:jersey-guava:jar:2.25:provided
+|  |  |  |  +- (org.glassfish.hk2:hk2-api:jar:2.5.0-b32:provided - version managed from 2.5.0-b30; omitted for duplicate)
+|  |  |  |  +- (org.glassfish.hk2.external:javax.inject:jar:2.5.0-b32:provided - version managed from 2.5.0-b30; omitted for duplicate)
+|  |  |  |  +- (org.glassfish.hk2:hk2-locator:jar:2.5.0-b32:provided - version managed from 2.5.0-b30; omitted for duplicate)
+|  |  |  |  \- org.glassfish.hk2:osgi-resource-locator:jar:1.0.1:provided
+|  |  |  +- org.glassfish.jersey.core:jersey-server:jar:2.25:provided
+|  |  |  |  +- (org.glassfish.jersey.core:jersey-common:jar:2.25:provided - omitted for duplicate)
+|  |  |  |  +- (org.glassfish.jersey.core:jersey-client:jar:2.25:provided - omitted for duplicate)
+|  |  |  |  +- (javax.ws.rs:javax.ws.rs-api:jar:2.0.1:provided - omitted for duplicate)
+|  |  |  |  +- org.glassfish.jersey.media:jersey-media-jaxb:jar:2.25:provided
+|  |  |  |  |  +- (org.glassfish.jersey.core:jersey-common:jar:2.25:provided - omitted for duplicate)
+|  |  |  |  |  +- (org.glassfish.hk2:hk2-api:jar:2.5.0-b32:provided - version managed from 2.5.0-b30; omitted for duplicate)
+|  |  |  |  |  +- (org.glassfish.hk2.external:javax.inject:jar:2.5.0-b32:provided - version managed from 2.5.0-b30; omitted for duplicate)
+|  |  |  |  |  +- (org.glassfish.hk2:hk2-locator:jar:2.5.0-b32:provided - version managed from 2.5.0-b30; omitted for duplicate)
+|  |  |  |  |  \- (org.glassfish.hk2:osgi-resource-locator:jar:1.0.1:provided - omitted for duplicate)
+|  |  |  |  +- (javax.annotation:javax.annotation-api:jar:1.2:provided - omitted for duplicate)
+|  |  |  |  +- (org.glassfish.hk2:hk2-api:jar:2.5.0-b32:provided - version managed from 2.5.0-b30; omitted for duplicate)
+|  |  |  |  +- (org.glassfish.hk2.external:javax.inject:jar:2.5.0-b32:provided - version managed from 2.5.0-b30; omitted for duplicate)
+|  |  |  |  +- (org.glassfish.hk2:hk2-locator:jar:2.5.0-b32:provided - version managed from 2.5.0-b30; omitted for duplicate)
+|  |  |  |  \- javax.validation:validation-api:jar:1.1.0.Final:provided
+|  |  |  \- (javax.ws.rs:javax.ws.rs-api:jar:2.0.1:provided - omitted for duplicate)
+|  |  +- org.glassfish.jersey.containers:jersey-container-servlet:jar:2.25:provided
+|  |  |  +- (org.glassfish.jersey.containers:jersey-container-servlet-core:jar:2.25:provided - omitted for duplicate)
+|  |  |  +- (org.glassfish.jersey.core:jersey-common:jar:2.25:provided - omitted for duplicate)
+|  |  |  +- (org.glassfish.jersey.core:jersey-server:jar:2.25:provided - omitted for duplicate)
+|  |  |  \- (javax.ws.rs:javax.ws.rs-api:jar:2.0.1:provided - omitted for duplicate)
+|  |  +- org.glassfish.jersey.media:jersey-media-json-jackson:jar:2.25:provided
+|  |  |  +- (org.glassfish.jersey.core:jersey-common:jar:2.25:provided - omitted for duplicate)
+|  |  |  +- org.glassfish.jersey.ext:jersey-entity-filtering:jar:2.25:provided
+|  |  |  |  \- (javax.ws.rs:javax.ws.rs-api:jar:2.0.1:provided - omitted for duplicate)
+|  |  |  +- com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:jar:2.8.4:provided
+|  |  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.4:provided - omitted for duplicate)
+|  |  |  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.4:provided - omitted for duplicate)
+|  |  |  +- com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:jar:2.8.4:provided
+|  |  |  |  +- (com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:jar:2.8.4:provided - omitted for duplicate)
+|  |  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.4:provided - omitted for duplicate)
+|  |  |  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.4:provided - omitted for duplicate)
+|  |  |  |  \- com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.8.4:provided
+|  |  |  |     +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.4:provided - omitted for duplicate)
+|  |  |  |     +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.4:provided - version managed from 2.8.0; omitted for duplicate)
+|  |  |  |     \- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.4:provided - omitted for duplicate)
+|  |  |  \- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.4:provided - version managed from 2.8.0; omitted for duplicate)
+|  |  +- org.glassfish.jersey.media:jersey-media-multipart:jar:2.25:provided
+|  |  |  +- (org.glassfish.jersey.core:jersey-common:jar:2.25:provided - omitted for duplicate)
+|  |  |  \- org.jvnet.mimepull:mimepull:jar:1.9.6:provided
+|  |  +- org.glassfish.jersey.ext:jersey-proxy-client:jar:2.25:provided
+|  |  |  +- (org.glassfish.jersey.core:jersey-common:jar:2.25:provided - omitted for duplicate)
+|  |  |  \- (javax.ws.rs:javax.ws.rs-api:jar:2.0.1:provided - omitted for duplicate)
+|  |  +- org.glassfish.jersey.core:jersey-client:jar:2.25:provided
+|  |  |  +- (javax.ws.rs:javax.ws.rs-api:jar:2.0.1:provided - omitted for duplicate)
+|  |  |  +- (org.glassfish.jersey.core:jersey-common:jar:2.25:provided - omitted for duplicate)
+|  |  |  +- org.glassfish.hk2:hk2-api:jar:2.5.0-b32:provided
+|  |  |  |  +- org.glassfish.hk2:hk2-utils:jar:2.5.0-b32:provided
+|  |  |  |  \- org.glassfish.hk2.external:aopalliance-repackaged:jar:2.5.0-b32:provided
+|  |  |  +- (org.glassfish.hk2.external:javax.inject:jar:2.5.0-b32:provided - version managed from 2.5.0-b30; omitted for duplicate)
+|  |  |  \- org.glassfish.hk2:hk2-locator:jar:2.5.0-b32:provided
+|  |  |     +- (org.glassfish.hk2.external:javax.inject:jar:2.5.0-b32:provided - version managed from 2.5.0-b30; omitted for duplicate)
+|  |  |     +- (org.glassfish.hk2.external:aopalliance-repackaged:jar:2.5.0-b32:provided - omitted for duplicate)
+|  |  |     +- (org.glassfish.hk2:hk2-api:jar:2.5.0-b32:provided - version managed from 2.5.0-b30; omitted for duplicate)
+|  |  |     +- (org.glassfish.hk2:hk2-utils:jar:2.5.0-b32:provided - omitted for duplicate)
+|  |  |     \- (org.javassist:javassist:jar:3.20.0-GA:provided - version managed from 3.18.1-GA; omitted for duplicate)
+|  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.8.4:provided
+|  |  |  +- com.fasterxml.jackson.core:jackson-core:jar:2.8.4:provided
+|  |  |  \- com.fasterxml.jackson.core:jackson-databind:jar:2.8.4:provided
+|  |  |     +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.4:provided - version managed from 2.8.0; omitted for duplicate)
+|  |  |     \- (com.fasterxml.jackson.core:jackson-core:jar:2.8.4:provided - omitted for duplicate)
+|  |  \- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.8.4:provided
+|  |     +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.4:provided - omitted for duplicate)
+|  |     +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.4:provided - omitted for duplicate)
+|  |     \- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.4:provided - version managed from 2.8.0; omitted for duplicate)
+|  +- (com.yahoo.vespa:vespajlib:jar:6.249.9:provided - omitted for duplicate)
+|  +- (com.yahoo.vespa:defaults:jar:6.249.9:provided - omitted for duplicate)
+|  +- com.yahoo.vespa:container-search-and-docproc:jar:6.249.9:provided
+|  |  +- com.yahoo.vespa:container-search:jar:6.249.9:provided
+|  |  |  +- com.yahoo.vespa:fsa:jar:6.249.9:provided
+|  |  |  +- (org.apache.httpcomponents:httpcore:jar:4.3.3:provided - omitted for duplicate)
+|  |  |  +- (org.apache.httpcomponents:httpclient:jar:4.3.6:provided - omitted for duplicate)
+|  |  |  +- (commons-codec:commons-codec:jar:1.4:provided - version managed from 1.6; omitted for duplicate)
+|  |  |  +- net.jcip:jcip-annotations:jar:1.0:provided
+|  |  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.4:provided - omitted for duplicate)
+|  |  +- com.yahoo.vespa:docproc:jar:6.249.9:provided
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.3.3:provided
+|  |  \- org.apache.httpcomponents:httpclient:jar:4.3.6:provided
+|  |     +- (org.apache.httpcomponents:httpcore:jar:4.3.3:provided - omitted for duplicate)
+|  |     +- (commons-logging:commons-logging:jar:1.1.1:provided - version managed from 1.1.3; omitted for duplicate)
+|  |     \- (commons-codec:commons-codec:jar:1.4:provided - version managed from 1.6; omitted for duplicate)
+|  +- com.yahoo.vespa:config-bundle:jar:6.249.9:provided
+|  |  +- com.yahoo.vespa:config:jar:6.249.9:provided
+|  |  |  +- (com.google.code.findbugs:annotations:jar:1.3.9:provided - omitted for duplicate)
+|  |  |  +- (com.yahoo.vespa:annotations:jar:6.249.9:provided - omitted for duplicate)
+|  |  |  +- (com.yahoo.vespa:config-lib:jar:6.249.9:provided - omitted for duplicate)
+|  |  |  +- (com.yahoo.vespa:configgen:jar:6.249.9:provided - omitted for duplicate)
+|  |  |  +- com.yahoo.vespa:jrt:jar:6.249.9:provided
+|  |  |  |  \- (com.yahoo.vespa:annotations:jar:6.249.9:provided - omitted for duplicate)
+|  |  |  +- (com.yahoo.vespa:vespajlib:jar:6.249.9:provided - omitted for duplicate)
+|  |  |  +- (com.yahoo.vespa:yolean:jar:6.249.9:provided - omitted for duplicate)
+|  |  |  +- (com.yahoo.vespa:vespalog:jar:6.249.9:provided - omitted for duplicate)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.4:provided - omitted for duplicate)
+|  |  |  \- (net.jpountz.lz4:lz4:jar:1.3.0:provided - omitted for duplicate)
+|  |  \- com.yahoo.vespa:configgen:jar:6.249.9:provided
+|  +- com.yahoo.vespa:document:jar:6.249.9:provided
+|  |  +- commons-codec:commons-codec:jar:1.4:provided
+|  |  +- (net.jpountz.lz4:lz4:jar:1.3.0:provided - omitted for duplicate)
+|  |  +- (com.yahoo.vespa:config:jar:6.249.9:provided - omitted for duplicate)
+|  |  +- (com.yahoo.vespa:predicate-search-core:jar:6.249.9:provided - omitted for duplicate)
+|  |  +- (com.yahoo.vespa:vespajlib:jar:6.249.9:provided - omitted for duplicate)
+|  |  \- (com.yahoo.vespa:annotations:jar:6.249.9:provided - omitted for duplicate)
+|  \- com.yahoo.vespa:predicate-search-core:jar:6.249.9:provided
+|     +- (com.yahoo.vespa:vespajlib:jar:6.249.9:provided - omitted for duplicate)
+|     \- (com.yahoo.vespa:annotations:jar:6.249.9:provided - omitted for duplicate)
++- com.yahoo.vespa:vespajlib:jar:6.249.9:provided
+|  +- net.jpountz.lz4:lz4:jar:1.3.0:provided
+|  +- commons-lang:commons-lang:jar:2.6:provided
+|  \- org.apache.commons:commons-exec:jar:1.3:provided
++- org.apache.curator:curator-recipes:jar:2.9.1:compile
+|  \- org.apache.curator:curator-framework:jar:2.9.1:compile
+|     \- org.apache.curator:curator-client:jar:2.9.1:compile
+|        +- org.apache.zookeeper:zookeeper:jar:3.4.12:compile (version managed from 3.4.6)
+|        |  +- (org.slf4j:slf4j-api:jar:1.7.5:compile - version managed from 1.7.6; omitted for duplicate)
+|        |  +- log4j:log4j:jar:1.2.17:compile
+|        |  +- jline:jline:jar:0.9.94:compile
+|        |  +- org.apache.yetus:audience-annotations:jar:0.5.0:compile
+|        |  \- io.netty:netty:jar:3.10.6.Final:compile
+|        +- (com.google.guava:guava:jar:18.0:compile - version managed from 16.0.1; omitted for conflict with 13.0.1)
+|        \- (org.slf4j:slf4j-api:jar:1.7.5:compile - version managed from 1.7.6; omitted for duplicate)
++- org.apache.curator:curator-test:jar:2.9.1:test
+|  +- (org.apache.zookeeper:zookeeper:jar:3.4.12:compile - version managed from 3.4.6; scope updated from test; omitted for duplicate)
+|  +- org.javassist:javassist:jar:3.20.0-GA:test
+|  \- org.apache.commons:commons-math:jar:2.2:test
++- com.google.guava:guava:jar:13.0.1:provided (scope not updated to compile)
+\- com.yahoo.vespa:vespalog:jar:6.249.9:provided
+   +- (com.yahoo.vespa:vespajlib:jar:6.249.9:provided - omitted for duplicate)
+   +- (com.yahoo.vespa:defaults:jar:6.249.9:provided - omitted for duplicate)
+   \- com.yahoo.vespa:annotations:jar:6.249.9:provided

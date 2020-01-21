@@ -1,0 +1,56 @@
+org.apache.marmotta:kiwi-sparql:jar:3.4.0
++- org.apache.marmotta:kiwi-triplestore:jar:3.4.0:compile
+|  +- org.apache.tomcat:tomcat-jdbc:jar:7.0.55:compile
+|  |  \- org.apache.tomcat:tomcat-juli:jar:7.0.55:compile
+|  +- com.fasterxml.uuid:java-uuid-generator:jar:3.1.3:compile
+|  +- org.openrdf.sesame:sesame-sail-inferencer:jar:2.7.16:compile
+|  |  \- org.openrdf.sesame:sesame-queryparser-serql:jar:2.7.16:runtime
+|  +- org.openrdf.sesame:sesame-queryalgebra-model:jar:2.7.16:compile
+|  +- org.openrdf.sesame:sesame-queryalgebra-evaluation:jar:2.7.16:compile
+|  |  +- org.openrdf.sesame:sesame-repository-sparql:jar:2.7.16:compile
+|  |  \- org.openrdf.sesame:sesame-http-client:jar:2.7.16:compile
+|  |     +- org.openrdf.sesame:sesame-http-protocol:jar:2.7.16:compile
+|  |     |  \- org.openrdf.sesame:sesame-rio-ntriples:jar:2.7.16:compile
+|  |     +- commons-httpclient:commons-httpclient:jar:3.1:compile
+|  |     \- commons-codec:commons-codec:jar:1.10:runtime
+|  +- org.apache.marmotta:marmotta-util-tripletable:jar:3.4.0:compile
+|  +- joda-time:joda-time:jar:2.5:compile
+|  +- org.apache.marmotta:marmotta-commons:jar:3.4.0:compile
+|  |  \- commons-validator:commons-validator:jar:1.5.1:compile
+|  |     +- commons-beanutils:commons-beanutils:jar:1.9.2:compile
+|  |     \- commons-digester:commons-digester:jar:1.8.1:compile
+|  \- org.apache.marmotta:marmotta-model-vocabs:jar:3.4.0:compile
++- org.slf4j:slf4j-api:jar:1.7.21:compile
++- org.openrdf.sesame:sesame-model:jar:2.7.16:compile
+|  \- org.openrdf.sesame:sesame-util:jar:2.7.16:compile
++- org.openrdf.sesame:sesame-sail-api:jar:2.7.16:compile
++- org.openrdf.sesame:sesame-query:jar:2.7.16:compile
++- org.openrdf.sesame:sesame-queryparser-sparql:jar:2.7.16:compile
++- com.google.guava:guava:jar:19.0:compile
++- org.apache.commons:commons-lang3:jar:3.4:compile
++- commons-io:commons-io:jar:2.5:compile
++- junit:junit:jar:4.11:test
++- org.apache.marmotta:kiwi-triplestore:test-jar:tests:3.4.0:test
++- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.hamcrest:hamcrest-library:jar:1.3:test
++- ch.qos.logback:logback-core:jar:1.1.7:test
++- ch.qos.logback:logback-classic:jar:1.1.7:test
++- com.h2database:h2:jar:1.4.178:test
++- org.postgresql:postgresql:jar:9.3-1100-jdbc4:test
++- mysql:mysql-connector-java:jar:5.1.21:test (optional)
++- org.openrdf.sesame:sesame-sail-memory:jar:2.7.16:test
++- org.openrdf.sesame:sesame-rio-api:jar:2.7.16:test
++- org.openrdf.sesame:sesame-rio-rdfxml:jar:2.7.16:test
+|  +- org.openrdf.sesame:sesame-rio-datatypes:jar:2.7.16:runtime
+|  \- org.openrdf.sesame:sesame-rio-languages:jar:2.7.16:runtime
++- commons-collections:commons-collections:jar:3.2.2:test
++- org.openrdf.sesame:sesame-sparql-testsuite:jar:2.7.16:test
+|  +- org.openrdf.sesame:sesame-queryresultio-api:jar:2.7.16:compile
+|  +- org.openrdf.sesame:sesame-queryresultio-sparqlxml:jar:2.7.16:compile
+|  +- org.openrdf.sesame:sesame-queryresultio-sparqljson:jar:2.7.16:test
+|  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.3.3:test
+|  +- org.openrdf.sesame:sesame-queryresultio-text:jar:2.7.16:test
+|  |  \- net.sf.opencsv:opencsv:jar:2.0:test
+|  +- org.openrdf.sesame:sesame-repository-dataset:jar:2.7.16:test
+|  \- org.openrdf.sesame:sesame-repository-contextaware:jar:2.7.16:test
+\- javax.servlet:javax.servlet-api:jar:3.0.1:provided

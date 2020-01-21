@@ -1,0 +1,64 @@
+org.keycloak:keycloak-tomcat8-adapter:jar:4.2.1.Final
++- org.jboss.logging:jboss-logging:jar:3.3.1.Final:compile
++- org.keycloak:keycloak-core:jar:4.2.1.Final:compile
+|  +- org.keycloak:keycloak-common:jar:4.2.1.Final:compile
+|  |  +- (org.bouncycastle:bcprov-jdk15on:jar:1.56:compile - omitted for duplicate)
+|  |  \- (org.bouncycastle:bcpkix-jdk15on:jar:1.56:compile - omitted for duplicate)
+|  +- (org.bouncycastle:bcprov-jdk15on:jar:1.56:compile - omitted for duplicate)
+|  +- org.bouncycastle:bcpkix-jdk15on:jar:1.56:compile
+|  |  \- (org.bouncycastle:bcprov-jdk15on:jar:1.56:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.11:compile - version managed from 2.8.10; omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.11.1:compile - omitted for duplicate)
++- org.keycloak:keycloak-adapter-core:jar:4.2.1.Final:compile
++- org.apache.tomcat:tomcat-servlet-api:jar:8.0.14:provided
++- org.apache.tomcat:tomcat-catalina:jar:8.0.14:provided
+|  +- (org.apache.tomcat:tomcat-servlet-api:jar:8.0.14:provided - omitted for duplicate)
+|  +- org.apache.tomcat:tomcat-jsp-api:jar:8.0.14:provided
+|  |  +- org.apache.tomcat:tomcat-el-api:jar:8.0.14:provided
+|  |  \- (org.apache.tomcat:tomcat-servlet-api:jar:8.0.14:provided - omitted for duplicate)
+|  +- org.apache.tomcat:tomcat-juli:jar:8.0.14:provided
+|  +- org.apache.tomcat:tomcat-annotations-api:jar:8.0.14:provided
+|  +- org.apache.tomcat:tomcat-api:jar:8.0.14:provided
+|  |  \- (org.apache.tomcat:tomcat-servlet-api:jar:8.0.14:provided - omitted for duplicate)
+|  +- org.apache.tomcat:tomcat-jni:jar:8.0.14:provided
+|  +- org.apache.tomcat:tomcat-coyote:jar:8.0.14:provided
+|  |  +- (org.apache.tomcat:tomcat-servlet-api:jar:8.0.14:provided - omitted for duplicate)
+|  |  +- (org.apache.tomcat:tomcat-jni:jar:8.0.14:provided - omitted for duplicate)
+|  |  +- (org.apache.tomcat:tomcat-juli:jar:8.0.14:provided - omitted for duplicate)
+|  |  \- (org.apache.tomcat:tomcat-util:jar:8.0.14:provided - omitted for duplicate)
+|  +- org.apache.tomcat:tomcat-util:jar:8.0.14:provided
+|  |  \- (org.apache.tomcat:tomcat-juli:jar:8.0.14:provided - omitted for duplicate)
+|  \- org.apache.tomcat:tomcat-util-scan:jar:8.0.14:provided
+|     +- (org.apache.tomcat:tomcat-util:jar:8.0.14:provided - omitted for duplicate)
+|     +- (org.apache.tomcat:tomcat-juli:jar:8.0.14:provided - omitted for duplicate)
+|     \- (org.apache.tomcat:tomcat-api:jar:8.0.14:provided - omitted for duplicate)
++- org.keycloak:keycloak-tomcat-core-adapter:jar:4.2.1.Final:compile
+|  +- (org.jboss.logging:jboss-logging:jar:3.3.1.Final:compile - omitted for duplicate)
+|  +- (org.keycloak:keycloak-core:jar:4.2.1.Final:compile - omitted for duplicate)
+|  +- org.keycloak:keycloak-adapter-spi:jar:4.2.1.Final:compile
+|  +- org.keycloak:keycloak-tomcat-adapter-spi:jar:4.2.1.Final:compile
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.1.Final:compile - omitted for duplicate)
+|  |  +- (org.keycloak:keycloak-adapter-spi:jar:4.2.1.Final:compile - omitted for duplicate)
+|  |  \- (org.keycloak:keycloak-common:jar:4.2.1.Final:compile - omitted for duplicate)
+|  +- (org.keycloak:keycloak-adapter-core:jar:4.2.1.Final:compile - omitted for duplicate)
+|  +- (org.apache.httpcomponents:httpclient:jar:4.5.2:compile - omitted for duplicate)
+|  +- (org.bouncycastle:bcprov-jdk15on:jar:1.56:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.11:compile - version managed from 2.8.10; omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.11.1:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.11:compile - version managed from 2.8.0; omitted for duplicate)
+|  \- org.keycloak:keycloak-authz-client:jar:4.2.1.Final:compile
+|     +- (org.keycloak:keycloak-core:jar:4.2.1.Final:compile - omitted for duplicate)
+|     +- (org.jboss.logging:jboss-logging:jar:3.3.1.Final:compile - omitted for duplicate)
+|     \- (org.apache.httpcomponents:httpclient:jar:4.5.2:compile - omitted for duplicate)
++- org.apache.httpcomponents:httpclient:jar:4.5.2:compile
+|  +- org.apache.httpcomponents:httpcore:jar:4.4.4:compile
+|  +- commons-logging:commons-logging:jar:1.2:compile
+|  \- commons-codec:commons-codec:jar:1.9:compile
++- org.bouncycastle:bcprov-jdk15on:jar:1.56:compile
++- com.fasterxml.jackson.core:jackson-core:jar:2.8.11:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.8.11.1:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.11:compile - version managed from 2.8.0; omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.8.11:compile - version managed from 2.8.10; omitted for duplicate)
++- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.11:compile
+\- junit:junit:jar:4.12:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

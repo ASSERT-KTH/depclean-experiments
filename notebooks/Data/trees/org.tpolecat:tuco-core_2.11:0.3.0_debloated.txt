@@ -1,0 +1,40 @@
+org.tpolecat:tuco-core_2.11:jar:0.3.0
++- org.scala-lang:scala-library:jar:2.11.11:compile
++- org.tpolecat:tuco-wimpi_2.11:jar:0.3.0:compile
+|  \- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for duplicate)
++- org.typelevel:cats-core_2.11:jar:1.0.1:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for conflict with 2.11.11)
+|  +- org.typelevel:cats-macros_2.11:jar:1.0.1:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for conflict with 2.11.11)
+|  |  \- (org.typelevel:machinist_2.11:jar:0.6.2:compile - omitted for duplicate)
+|  +- org.typelevel:cats-kernel_2.11:jar:1.0.1:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for conflict with 2.11.11)
+|  \- org.typelevel:machinist_2.11:jar:0.6.2:compile
+|     +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.11)
+|     \- (org.scala-lang:scala-reflect:jar:2.11.8:compile - omitted for conflict with 2.11.12)
++- org.typelevel:cats-free_2.11:jar:1.0.1:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for conflict with 2.11.11)
+|  +- (org.typelevel:cats-macros_2.11:jar:1.0.1:compile - omitted for duplicate)
+|  +- (org.typelevel:cats-core_2.11:jar:1.0.1:compile - omitted for duplicate)
+|  \- (org.typelevel:machinist_2.11:jar:0.6.2:compile - omitted for duplicate)
++- org.typelevel:cats-effect_2.11:jar:0.8:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for conflict with 2.11.11)
+|  \- (org.typelevel:cats-core_2.11:jar:1.0.1:compile - omitted for duplicate)
++- com.github.julien-truffaut:monocle-core_2.11:jar:1.5.0-cats:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for conflict with 2.11.11)
+|  +- (org.typelevel:cats-core_2.11:jar:1.0.1:compile - omitted for duplicate)
+|  +- (org.typelevel:cats-free_2.11:jar:1.0.1:compile - omitted for duplicate)
+|  +- com.github.julien-truffaut:newts-core_2.11:jar:0.3.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for conflict with 2.11.11)
+|  |  \- (org.typelevel:cats-core_2.11:jar:1.0.0:compile - omitted for conflict with 1.0.1)
+|  \- org.scala-lang.modules:scala-java8-compat_2.11:jar:0.7.0:compile
+|     \- (org.scala-lang:scala-library:jar:2.11.7:compile - omitted for conflict with 2.11.11)
+\- com.github.julien-truffaut:monocle-law_2.11:jar:1.5.0-cats:test
+   +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for conflict with 2.11.11)
+   +- (com.github.julien-truffaut:monocle-core_2.11:jar:1.5.0-cats:test - omitted for duplicate)
+   +- org.typelevel:discipline_2.11:jar:0.8:test
+   |  +- (org.scala-lang:scala-library:jar:2.11.11:test - omitted for duplicate)
+   |  \- (org.scalacheck:scalacheck_2.11:jar:1.13.5:test - omitted for duplicate)
+   \- org.scalacheck:scalacheck_2.11:jar:1.13.5:test
+      +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.11)
+      \- org.scala-sbt:test-interface:jar:1.0:test

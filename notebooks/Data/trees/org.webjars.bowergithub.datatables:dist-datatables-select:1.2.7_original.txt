@@ -1,0 +1,4 @@
+org.webjars.bowergithub.datatables:dist-datatables-select:jar:1.2.7
++- org.webjars.bowergithub.jquery:jquery-dist:jar:3.4.1:compile
+\- org.webjars.bowergithub.datatables:dist-datatables:jar:1.10.19:compile
+   \- (org.webjars.bowergithub.jquery:jquery-dist:jar:3.4.1:compile - omitted for duplicate)

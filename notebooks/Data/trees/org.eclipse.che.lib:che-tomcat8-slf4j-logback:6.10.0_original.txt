@@ -1,0 +1,17 @@
+org.eclipse.che.lib:che-tomcat8-slf4j-logback:jar:6.10.0
++- ch.qos.logback:logback-access:jar:1.2.1:compile
++- ch.qos.logback:logback-classic:jar:1.2.1:compile
++- ch.qos.logback:logback-core:jar:1.2.1:compile
++- com.fasterxml.jackson.core:jackson-annotations:jar:2.7.7:compile
++- com.fasterxml.jackson.core:jackson-core:jar:2.7.7:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.7.7:compile
++- javax.mail:mail:jar:1.4.4:compile
+|  \- javax.activation:activation:jar:1.1:compile
++- net.logstash.logback:logstash-logback-encoder:jar:4.11:compile
++- org.apache.tomcat:tomcat-catalina-jmx-remote:jar:8.5.23:compile
+|  \- org.apache.tomcat:tomcat-util:jar:8.5.23:compile
++- org.apache.tomcat:tomcat-juli:jar:8.5.23:compile
++- org.slf4j:jcl-over-slf4j:jar:1.7.24:compile
++- org.slf4j:jul-to-slf4j:jar:1.7.24:compile
++- org.slf4j:log4j-over-slf4j:jar:1.7.24:compile
+\- org.slf4j:slf4j-api:jar:1.7.24:compile

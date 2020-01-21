@@ -1,0 +1,61 @@
+io.protostuff:protostuff-generator:jar:2.2.25
++- io.protostuff:protostuff-parser:jar:2.2.25:compile
+|  +- commons-io:commons-io:jar:2.5:compile
+|  +- org.antlr:antlr4:jar:4.7:compile
+|  |  +- org.antlr:antlr4-runtime:jar:4.7:compile
+|  |  +- (org.antlr:antlr-runtime:jar:3.5.2:compile - omitted for duplicate)
+|  |  +- (org.antlr:ST4:jar:4.0.8:compile - omitted for duplicate)
+|  |  +- org.abego.treelayout:org.abego.treelayout.core:jar:1.0.3:compile
+|  |  +- org.glassfish:javax.json:jar:1.0.4:compile
+|  |  \- com.ibm.icu:icu4j:jar:58.2:compile
+|  +- com.google.guava:guava:jar:21.0:compile
+|  +- com.google.inject:guice:jar:4.1.0:compile
+|  |  +- javax.inject:javax.inject:jar:1:compile
+|  |  +- aopalliance:aopalliance:jar:1.0:compile
+|  |  \- (com.google.guava:guava:jar:21.0:compile - version managed from 19.0; omitted for duplicate)
+|  +- com.google.inject.extensions:guice-multibindings:jar:4.1.0:compile
+|  |  \- (com.google.inject:guice:jar:4.1.0:compile - omitted for duplicate)
+|  +- com.google.inject.extensions:guice-assistedinject:jar:4.1.0:compile
+|  |  \- (com.google.inject:guice:jar:4.1.0:compile - omitted for duplicate)
+|  \- org.slf4j:slf4j-api:jar:1.7.25:compile
++- com.fasterxml.jackson.core:jackson-core:jar:2.8.6:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.8.6:compile
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.8.6:compile - omitted for duplicate)
++- org.antlr:ST4:jar:4.0.8:compile
+|  \- org.antlr:antlr-runtime:jar:3.5.2:compile
++- org.pegdown:pegdown:jar:1.6.0:compile
+|  \- org.parboiled:parboiled-java:jar:1.1.7:compile
+|     +- org.parboiled:parboiled-core:jar:1.1.7:compile
+|     +- org.ow2.asm:asm:jar:5.0.3:compile
+|     +- org.ow2.asm:asm-tree:jar:5.0.3:compile
+|     |  \- (org.ow2.asm:asm:jar:5.0.3:compile - omitted for duplicate)
+|     +- org.ow2.asm:asm-analysis:jar:5.0.3:compile
+|     |  \- (org.ow2.asm:asm-tree:jar:5.0.3:compile - omitted for duplicate)
+|     \- org.ow2.asm:asm-util:jar:5.0.3:compile
+|        \- (org.ow2.asm:asm-tree:jar:5.0.3:compile - omitted for duplicate)
++- net.sourceforge.plantuml:plantuml:jar:8059:compile
++- org.webjars:angularjs:jar:1.5.8:compile
++- org.webjars:bootstrap:jar:3.3.5:compile
+|  \- (org.webjars:jquery:jar:1.11.1:compile - omitted for duplicate)
++- org.webjars:jquery:jar:1.11.1:compile
++- org.webjars:angular-material:jar:1.1.1:compile
++- org.webjars.bower:angular-bootstrap-nav-tree-gildo:jar:0.1.0:compile
+|  +- org.webjars.bower:angular:jar:1.7.8:compile
+|  \- org.webjars.bower:bootstrap:jar:4.3.1:compile
++- org.immutables:value:jar:2.4.6:provided
++- com.google.code.findbugs:jsr305:jar:3.0.2:compile
++- com.google.errorprone:error_prone_annotations:jar:2.0.19:compile
++- org.junit.jupiter:junit-jupiter-engine:jar:5.0.1:test
+|  +- org.junit.platform:junit-platform-engine:jar:1.0.1:test
+|  |  +- org.junit.platform:junit-platform-commons:jar:1.0.1:test
+|  |  \- org.opentest4j:opentest4j:jar:1.0.0:test
+|  \- org.junit.jupiter:junit-jupiter-api:jar:5.0.1:test
+|     +- (org.opentest4j:opentest4j:jar:1.0.0:test - omitted for duplicate)
+|     \- (org.junit.platform:junit-platform-commons:jar:1.0.1:test - omitted for duplicate)
++- org.mockito:mockito-core:jar:2.11.0:test
+|  +- net.bytebuddy:byte-buddy:jar:1.7.4:test
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.7.4:test
+|  \- org.objenesis:objenesis:jar:2.6:test
+\- org.slf4j:slf4j-simple:jar:1.7.25:test
+   \- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)

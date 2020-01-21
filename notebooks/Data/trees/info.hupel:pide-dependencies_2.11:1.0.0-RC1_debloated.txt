@@ -1,0 +1,6 @@
+info.hupel:pide-dependencies_2.11:jar:1.0.0-RC1
++- org.scala-lang:scala-library:jar:2.11.12:compile
++- org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.1.1:compile
+|  \- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
++- com.jcraft:jsch:jar:0.1.54:compile
+\- org.xerial:sqlite-jdbc:jar:3.23.1:compile

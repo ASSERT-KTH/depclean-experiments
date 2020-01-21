@@ -1,0 +1,18 @@
+io.datakernel:datakernel-bytebuf:jar:2.5.10
++- io.datakernel:datakernel-common:jar:2.5.10:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.12:compile - omitted for duplicate)
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- ch.qos.logback:logback-classic:jar:1.1.3:test
+|  +- ch.qos.logback:logback-core:jar:1.1.3:test
+|  \- (org.slf4j:slf4j-api:jar:1.7.12:test - version managed from 1.7.7; omitted for duplicate)
+\- org.jmock:jmock-junit4:jar:2.8.1:test
+   +- (junit:junit:jar:4.12:test - version managed from 4.11; omitted for duplicate)
+   \- org.jmock:jmock:jar:2.8.1:test
+      +- (junit:junit:jar:4.12:test - version managed from 4.11; omitted for duplicate)
+      +- org.jmock:jmock-testjar:jar:2.8.1:test
+      +- cglib:cglib-nodep:jar:3.1:test
+      +- org.ow2.asm:asm:jar:5.0.4:test (version managed from 5.0.3)
+      +- org.beanshell:bsh:jar:1.3.0:test
+      \- org.hamcrest:hamcrest-library:jar:1.3:test
+         \- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for duplicate)

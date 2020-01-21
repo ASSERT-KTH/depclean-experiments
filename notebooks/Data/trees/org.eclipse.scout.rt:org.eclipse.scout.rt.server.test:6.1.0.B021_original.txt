@@ -1,0 +1,30 @@
+org.eclipse.scout.rt:org.eclipse.scout.rt.server.test:jar:6.1.0.B021
++- org.eclipse.scout.rt:org.eclipse.scout.rt.server:jar:6.1.0.B021:compile
+|  +- org.eclipse.scout.rt:org.eclipse.scout.rt.shared:jar:6.1.0.B021:compile
+|  |  +- org.eclipse.scout.rt:org.eclipse.scout.rt.platform:jar:6.1.0.B021:compile
+|  |  |  +- org.jboss:jandex:jar:1.2.2.Final:compile
+|  |  |  +- org.slf4j:slf4j-api:jar:1.7.12:compile
+|  |  |  \- org.quartz-scheduler:quartz:jar:2.2.2:compile
+|  |  |     \- (org.slf4j:slf4j-api:jar:1.7.12:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  \- com.sun.mail:javax.mail:jar:1.5.4:compile
+|  |     \- javax.activation:activation:jar:1.1:compile
+|  +- org.eclipse.scout.rt:org.eclipse.scout.rt.server.commons:jar:6.1.0.B021:compile
+|  |  \- (org.eclipse.scout.rt:org.eclipse.scout.rt.shared:jar:6.1.0.B021:compile - omitted for duplicate)
+|  \- org.eclipse.scout.rt:org.eclipse.scout.rt.mom.api:jar:6.1.0.B021:compile
+|     +- (org.eclipse.scout.rt:org.eclipse.scout.rt.platform:jar:6.1.0.B021:compile - omitted for duplicate)
+|     \- com.fasterxml.jackson.core:jackson-databind:jar:2.8.1:compile
+|        +- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.1:compile (version managed from 2.8.0)
+|        \- com.fasterxml.jackson.core:jackson-core:jar:2.8.1:compile
++- javax.servlet:javax.servlet-api:jar:3.1.0:provided
++- org.eclipse.scout.rt:org.eclipse.scout.rt.shared.test:jar:6.1.0.B021:compile
+|  +- (org.eclipse.scout.rt:org.eclipse.scout.rt.shared:jar:6.1.0.B021:compile - omitted for duplicate)
+|  \- org.eclipse.scout.rt:org.eclipse.scout.rt.platform.test:jar:6.1.0.B021:compile
+|     +- (org.eclipse.scout.rt:org.eclipse.scout.rt.platform:jar:6.1.0.B021:compile - omitted for duplicate)
+|     +- junit:junit:jar:4.12:compile
+|     |  \- org.hamcrest:hamcrest-core:jar:1.3:compile
+|     \- org.mockito:mockito-core:jar:1.10.19:compile
+|        +- (org.hamcrest:hamcrest-core:jar:1.3:runtime - version managed from 1.1; omitted for duplicate)
+|        \- org.objenesis:objenesis:jar:2.2:runtime (version managed from 2.1)
+\- ch.qos.logback:logback-classic:jar:1.1.3:test
+   +- ch.qos.logback:logback-core:jar:1.1.3:test
+   \- (org.slf4j:slf4j-api:jar:1.7.12:compile - version managed from 1.7.7; scope updated from test; omitted for duplicate)

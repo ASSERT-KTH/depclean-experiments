@@ -1,0 +1,2 @@
+org.eclipse.collections:eclipse-collections:jar:9.2.0
+\- org.eclipse.collections:eclipse-collections-api:jar:9.2.0:compile

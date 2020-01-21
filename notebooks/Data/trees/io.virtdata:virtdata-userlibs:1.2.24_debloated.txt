@@ -1,0 +1,57 @@
+io.virtdata:virtdata-userlibs:jar:1.2.24
++- io.virtdata:project-processors:jar:1.2.24:compile
+|  +- org.yaml:snakeyaml:jar:1.21:compile
+|  +- com.squareup:javapoet:jar:1.10.0:compile
+|  \- (io.virtdata:project-annotations:jar:1.2.24:compile - omitted for duplicate)
++- io.virtdata:virtdata-lib-realer:jar:1.2.24:compile
+|  +- (com.google.auto.service:auto-service:jar:1.0-rc4:compile - omitted for duplicate)
+|  +- (io.virtdata:virtdata-api:jar:1.2.24:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  \- (io.virtdata:virtdata-lib-basics:jar:1.2.24:compile - omitted for duplicate)
++- io.virtdata:virtdata-lib-random:jar:1.2.24:compile
+|  +- (com.google.auto.service:auto-service:jar:1.0-rc4:compile - omitted for duplicate)
+|  +- (io.virtdata:virtdata-api:jar:1.2.24:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  +- (org.apache.commons:commons-lang3:jar:3.7:compile - omitted for duplicate)
+|  +- (joda-time:joda-time:jar:2.9.9:compile - omitted for duplicate)
+|  +- (org.apache.commons:commons-math3:jar:3.6.1:compile - omitted for duplicate)
+|  +- (de.greenrobot:java-common:jar:2.3.1:compile - omitted for duplicate)
+|  \- (com.elega9t:number-to-words:jar:1.0.0:compile - omitted for duplicate)
++- io.virtdata:virtdata-lib-curves4:jar:1.2.24:compile
+|  +- (io.virtdata:virtdata-api:jar:1.2.24:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  +- org.apache.commons:commons-math4:jar:4.0-SNAPSHOT:compile
+|  |  +- (org.apache.commons:commons-statistics-distribution:jar:0.1-SNAPSHOT:compile - omitted for duplicate)
+|  |  +- org.apache.commons:commons-numbers-core:jar:1.0-SNAPSHOT:compile
+|  |  +- org.apache.commons:commons-numbers-complex:jar:1.0-SNAPSHOT:compile
+|  |  |  \- (org.apache.commons:commons-numbers-core:jar:1.0-SNAPSHOT:compile - omitted for duplicate)
+|  |  +- org.apache.commons:commons-numbers-complex-streams:jar:1.0-SNAPSHOT:compile
+|  |  |  \- (org.apache.commons:commons-numbers-complex:jar:1.0-SNAPSHOT:compile - omitted for duplicate)
+|  |  +- org.apache.commons:commons-numbers-gamma:jar:1.0-SNAPSHOT:compile
+|  |  |  \- org.apache.commons:commons-numbers-fraction:jar:1.0-SNAPSHOT:compile
+|  |  |     \- (org.apache.commons:commons-numbers-core:jar:1.0-SNAPSHOT:compile - omitted for duplicate)
+|  |  +- org.apache.commons:commons-numbers-combinatorics:jar:1.0-SNAPSHOT:compile
+|  |  |  +- (org.apache.commons:commons-numbers-gamma:jar:1.0-SNAPSHOT:compile - omitted for duplicate)
+|  |  |  \- (org.apache.commons:commons-numbers-core:jar:1.0-SNAPSHOT:compile - omitted for duplicate)
+|  |  +- org.apache.commons:commons-numbers-arrays:jar:1.0-SNAPSHOT:compile
+|  |  +- org.apache.commons:commons-numbers-angle:jar:1.0-SNAPSHOT:compile
+|  |  +- org.apache.commons:commons-numbers-rootfinder:jar:1.0-SNAPSHOT:compile
+|  |  |  \- (org.apache.commons:commons-numbers-core:jar:1.0-SNAPSHOT:compile - omitted for duplicate)
+|  |  +- org.apache.commons:commons-rng-client-api:jar:1.1:compile
+|  |  +- org.apache.commons:commons-rng-simple:jar:1.1:compile
+|  |  |  \- org.apache.commons:commons-rng-core:jar:1.1:compile
+|  |  |     \- (org.apache.commons:commons-rng-client-api:jar:1.1:compile - omitted for duplicate)
+|  |  \- org.apache.commons:commons-rng-sampling:jar:1.1:compile
+|  |     \- (org.apache.commons:commons-rng-client-api:jar:1.1:compile - omitted for duplicate)
+|  +- (de.greenrobot:java-common:jar:2.3.1:compile - omitted for duplicate)
+|  \- org.apache.commons:commons-statistics-distribution:jar:0.1-SNAPSHOT:compile
+|     +- (org.apache.commons:commons-rng-client-api:jar:1.2:compile - omitted for conflict with 1.1)
+|     +- (org.apache.commons:commons-rng-sampling:jar:1.2:compile - omitted for conflict with 1.1)
+|     +- (org.apache.commons:commons-numbers-core:jar:1.0-SNAPSHOT:compile - omitted for duplicate)
+|     +- (org.apache.commons:commons-numbers-combinatorics:jar:1.0-SNAPSHOT:compile - omitted for duplicate)
+|     +- (org.apache.commons:commons-numbers-gamma:jar:1.0-SNAPSHOT:compile - omitted for duplicate)
+|     \- (org.apache.commons:commons-numbers-rootfinder:jar:1.0-SNAPSHOT:compile - omitted for duplicate)
++- ch.qos.logback:logback-core:jar:1.2.3:compile
++- org.testng:testng:jar:6.13.1:test
+|  \- com.beust:jcommander:jar:1.72:test
+\- org.assertj:assertj-core-java8:jar:1.0.0m1:test

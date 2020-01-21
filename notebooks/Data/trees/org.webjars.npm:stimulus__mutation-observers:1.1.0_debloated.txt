@@ -1,0 +1,1 @@
+org.webjars.npm:stimulus__mutation-observers:jar:1.1.0

@@ -1,0 +1,843 @@
+com.qaprosoft:carina-webdriver:jar:5.2.4.101
++- com.qaprosoft:carina-utils:jar:5.2.4.101:compile
+|  +- com.qaprosoft:carina-crypto:jar:5.2.4.101:compile
+|  |  +- com.qaprosoft:carina-commons:jar:5.2.4.101:compile
+|  |  +- (log4j:log4j:jar:1.2.17:compile - omitted for duplicate)
+|  |  +- commons-cli:commons-cli:jar:1.2:compile
+|  |  +- (commons-io:commons-io:jar:2.5:compile - omitted for duplicate)
+|  |  +- (org.apache.commons:commons-lang3:jar:3.4:compile - omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.9:compile - version managed from 1.10; omitted for duplicate)
+|  |  \- (org.testng:testng:jar:6.8.8:compile - omitted for duplicate)
+|  +- (log4j:log4j:jar:1.2.17:compile - version managed from 1.2.12; omitted for duplicate)
+|  +- (org.apache.commons:commons-lang3:jar:3.4:compile - version managed from 3.3.2; omitted for duplicate)
+|  +- commons-io:commons-io:jar:2.5:compile
+|  +- (org.seleniumhq.selenium:selenium-java:jar:3.12.0:compile - omitted for duplicate)
+|  +- com.sun.jna:jna:jar:3.0.9:compile
+|  +- com.jayway.restassured:rest-assured:jar:2.9.0:compile
+|  |  +- org.codehaus.groovy:groovy:jar:2.4.4:compile
+|  |  +- org.codehaus.groovy:groovy-xml:jar:2.4.4:compile
+|  |  |  \- (org.codehaus.groovy:groovy:jar:2.4.4:compile - omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.3:compile - version managed from 4.5.1; omitted for duplicate)
+|  |  +- org.apache.httpcomponents:httpmime:jar:4.5.1:compile
+|  |  |  \- (org.apache.httpcomponents:httpclient:jar:4.5.3:compile - version managed from 4.5.1; omitted for duplicate)
+|  |  +- (org.hamcrest:hamcrest-core:jar:1.3:compile - omitted for duplicate)
+|  |  +- org.hamcrest:hamcrest-library:jar:1.3:compile
+|  |  |  \- (org.hamcrest:hamcrest-core:jar:1.3:compile - omitted for duplicate)
+|  |  +- org.ccil.cowan.tagsoup:tagsoup:jar:1.2.1:compile
+|  |  +- com.jayway.restassured:json-path:jar:2.9.0:compile
+|  |  |  +- org.codehaus.groovy:groovy-json:jar:2.4.4:compile
+|  |  |  |  \- (org.codehaus.groovy:groovy:jar:2.4.4:compile - omitted for duplicate)
+|  |  |  +- (org.codehaus.groovy:groovy:jar:2.4.4:compile - omitted for duplicate)
+|  |  |  \- com.jayway.restassured:rest-assured-common:jar:2.9.0:compile
+|  |  |     +- (org.codehaus.groovy:groovy:jar:2.4.4:compile - omitted for duplicate)
+|  |  |     \- (org.apache.commons:commons-lang3:jar:3.4:compile - version managed from 3.3.2; omitted for duplicate)
+|  |  \- com.jayway.restassured:xml-path:jar:2.9.0:compile
+|  |     +- (org.codehaus.groovy:groovy-xml:jar:2.4.4:compile - omitted for duplicate)
+|  |     +- (org.codehaus.groovy:groovy:jar:2.4.4:compile - omitted for duplicate)
+|  |     +- (com.jayway.restassured:rest-assured-common:jar:2.9.0:compile - omitted for duplicate)
+|  |     +- (org.apache.commons:commons-lang3:jar:3.4:compile - version managed from 3.3.2; omitted for duplicate)
+|  |     \- (org.ccil.cowan.tagsoup:tagsoup:jar:1.2.1:compile - omitted for duplicate)
+|  +- org.testng:testng:jar:6.8.8:compile
+|  |  +- org.beanshell:bsh:jar:2.0b4:compile
+|  |  \- com.beust:jcommander:jar:1.27:compile
+|  +- org.apache.pdfbox:pdfbox:jar:1.8.7:compile
+|  |  +- org.apache.pdfbox:fontbox:jar:1.8.7:compile
+|  |  |  \- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for conflict with 1.2)
+|  |  +- org.apache.pdfbox:jempbox:jar:1.8.7:compile
+|  |  \- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for conflict with 1.2)
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.8.9:compile
+|  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile
+|  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.8.9:compile
+|  +- org.mongodb:mongo-java-driver:jar:2.11.3:compile
+|  +- joda-time:joda-time:jar:2.9.9:compile
+|  +- net.rcarz:jira-client:jar:0.5:compile
+|  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.3:compile - version managed from 4.2.5; omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpmime:jar:4.2.5:compile - omitted for conflict with 4.5.1)
+|  |  +- net.sf.json-lib:json-lib:jar:jdk15:2.4:compile
+|  |  |  +- (commons-beanutils:commons-beanutils:jar:1.8.0:compile - omitted for conflict with 1.9.2)
+|  |  |  +- (commons-collections:commons-collections:jar:3.2.1:compile - omitted for conflict with 3.2.2)
+|  |  |  +- commons-lang:commons-lang:jar:2.5:compile
+|  |  |  +- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for conflict with 1.2)
+|  |  |  \- net.sf.ezmorph:ezmorph:jar:1.0.6:compile
+|  |  |     \- (commons-lang:commons-lang:jar:2.3:compile - omitted for conflict with 2.5)
+|  |  +- (joda-time:joda-time:jar:2.3:compile - omitted for conflict with 2.9.9)
+|  |  +- junit:junit:jar:4.12:compile (version managed from 4.8.2)
+|  |  |  \- (org.hamcrest:hamcrest-core:jar:1.3:compile - omitted for duplicate)
+|  |  +- org.mockito:mockito-all:jar:1.9.0:compile
+|  |  \- commons-httpclient:commons-httpclient:jar:3.1:compile
+|  |     +- (commons-logging:commons-logging:jar:1.0.4:compile - omitted for conflict with 1.2)
+|  |     \- (commons-codec:commons-codec:jar:1.9:compile - version managed from 1.2; omitted for duplicate)
+|  \- (org.imgscalr:imgscalr-lib:jar:4.2:compile - omitted for duplicate)
++- com.qaprosoft:carina-proxy:jar:5.2.4.101:compile
+|  +- (com.qaprosoft:carina-utils:jar:5.2.4.101:compile - omitted for duplicate)
+|  +- (log4j:log4j:jar:1.2.17:compile - omitted for duplicate)
+|  \- net.lightbody.bmp:browsermob-core:jar:2.1.5:compile
+|     +- net.lightbody.bmp:littleproxy:jar:1.1.0-beta-bmp-17:compile
+|     |  +- (com.google.guava:guava:jar:22.0-android:compile - omitted for conflict with 23.6-jre)
+|     |  +- (org.apache.commons:commons-lang3:jar:3.4:compile - version managed from 3.5; omitted for duplicate)
+|     |  +- (io.netty:netty-all:jar:4.0.49.Final:compile - omitted for conflict with 4.0.51.Final)
+|     |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|     +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.9:compile - omitted for duplicate)
+|     +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.9:compile - omitted for duplicate)
+|     +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.9:compile - omitted for conflict with 2.8.0)
+|     +- (com.google.guava:guava:jar:23.0-android:compile - omitted for conflict with 23.6-jre)
+|     +- dnsjava:dnsjava:jar:2.1.8:compile
+|     +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for conflict with 1.7.5)
+|     +- org.slf4j:jcl-over-slf4j:jar:1.7.25:compile
+|     |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|     +- com.jcraft:jzlib:jar:1.1.3:compile
+|     +- io.netty:netty-all:jar:4.0.51.Final:compile
+|     +- org.bouncycastle:bcprov-jdk15on:jar:1.58:compile
+|     +- org.bouncycastle:bcpkix-jdk15on:jar:1.58:compile
+|     |  \- (org.bouncycastle:bcprov-jdk15on:jar:1.58:compile - omitted for duplicate)
+|     \- net.lightbody.bmp:mitm:jar:2.1.5:compile
+|        +- (org.bouncycastle:bcprov-jdk15on:jar:1.58:compile - omitted for duplicate)
+|        \- (org.bouncycastle:bcpkix-jdk15on:jar:1.58:compile - omitted for duplicate)
++- com.qaprosoft:carina-reporting:jar:5.2.4.101:compile
+|  +- (com.qaprosoft:carina-utils:jar:5.2.4.101:compile - omitted for duplicate)
+|  +- (com.qaprosoft:carina-crypto:jar:5.2.4.101:compile - omitted for duplicate)
+|  +- (log4j:log4j:jar:1.2.17:compile - omitted for duplicate)
+|  +- javax.mail:mail:jar:1.4:compile
+|  |  \- javax.activation:activation:jar:1.1:compile
+|  +- com.qaprosoft:zafira-client:jar:3.0.39:compile
+|  |  +- com.qaprosoft:zafira-models:jar:3.0.39:compile
+|  |  |  +- (org.springframework.security:spring-security-core:jar:4.2.3.RELEASE:compile - omitted for duplicate)
+|  |  |  +- org.springframework.data:spring-data-commons-core:jar:1.4.1.RELEASE:compile
+|  |  |  |  +- (org.springframework:spring-core:jar:3.1.2.RELEASE:compile - omitted for conflict with 4.3.9.RELEASE)
+|  |  |  |  \- (org.springframework:spring-beans:jar:3.1.2.RELEASE:compile - omitted for conflict with 4.3.9.RELEASE)
+|  |  |  +- (org.springframework:spring-web:jar:4.3.2.RELEASE:compile - omitted for duplicate)
+|  |  |  +- (joda-time:joda-time:jar:2.3:compile - omitted for conflict with 2.9.9)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.2:compile - omitted for conflict with 2.8.0)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.2:compile - omitted for conflict with 2.8.9)
+|  |  |  +- (org.hibernate:hibernate-validator:jar:5.2.4.Final:compile - omitted for duplicate)
+|  |  |  +- org.quartz-scheduler:quartz:jar:2.2.1:compile
+|  |  |  |  +- c3p0:c3p0:jar:0.9.1.1:compile
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.6.6:compile - omitted for conflict with 1.7.25)
+|  |  |  +- javax.validation:validation-api:jar:1.1.0.Final:compile
+|  |  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.8.2:compile - omitted for conflict with 2.8.9)
+|  |  +- (com.sun.jersey:jersey-client:jar:1.19.4:compile - omitted for duplicate)
+|  |  +- (com.sun.jersey:jersey-json:jar:1.19.4:compile - omitted for duplicate)
+|  |  +- (com.owlike:genson:jar:0.99:compile - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for conflict with 1.7.25)
+|  |  +- (org.testng:testng:jar:6.8.8:compile - version managed from 6.8.7; omitted for duplicate)
+|  |  +- (org.apache.commons:commons-configuration2:jar:2.1:compile - omitted for duplicate)
+|  |  +- (commons-io:commons-io:jar:2.5:compile - version managed from 1.3.2; omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.3:compile - version managed from 4.2.5; omitted for duplicate)
+|  |  +- com.rabbitmq:amqp-client:jar:5.0.0:compile
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  |  \- (log4j:log4j:jar:1.2.17:compile - version managed from 1.2.12; omitted for duplicate)
+|  +- com.pojosontheweb:monte-repack:jar:1.0:compile
+|  |  +- javax.media.jai:com.springsource.javax.media.jai.core:jar:1.1.3:compile
+|  |  |  +- (javax.media.jai:com.springsource.javax.media.jai.core:jar:1.1.3:compile - omitted for cycle)
+|  |  |  \- javax.media.jai:com.springsource.javax.media.jai.codec:jar:1.1.3:compile
+|  |  \- javax.media:jmf:jar:2.1.1e:compile
+|  \- com.googlecode.json-simple:json-simple:jar:1.1:compile
++- com.qaprosoft:carina-aws-s3:jar:5.2.4.101:compile
+|  +- (com.qaprosoft:carina-utils:jar:5.2.4.101:compile - omitted for duplicate)
+|  +- (log4j:log4j:jar:1.2.17:compile - version managed from 1.2.12; omitted for duplicate)
+|  +- com.amazonaws:aws-java-sdk:jar:1.11.324:compile
+|  |  +- com.amazonaws:aws-java-sdk-iotanalytics:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- com.amazonaws:jmespath-java:jar:1.11.324:compile
+|  |  |     \- (com.fasterxml.jackson.core:jackson-databind:jar:2.6.7.1:compile - omitted for conflict with 2.8.9)
+|  |  +- com.amazonaws:aws-java-sdk-acmpca:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-secretsmanager:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-fms:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-connect:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-transcribe:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-autoscalingplans:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-workmail:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-servicediscovery:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-cloud9:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-serverlessapplicationrepository:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-alexaforbusiness:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-resourcegroups:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-comprehend:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-translate:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-sagemaker:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-iotjobsdataplane:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-sagemakerruntime:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-kinesisvideo:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  +- io.netty:netty-codec-http:jar:4.1.17.Final:compile
+|  |  |  |  \- io.netty:netty-codec:jar:4.1.17.Final:compile
+|  |  |  |     \- (io.netty:netty-transport:jar:4.1.17.Final:compile - omitted for duplicate)
+|  |  |  +- io.netty:netty-handler:jar:4.1.17.Final:compile
+|  |  |  |  +- io.netty:netty-buffer:jar:4.1.17.Final:compile
+|  |  |  |  |  \- io.netty:netty-common:jar:4.1.17.Final:compile
+|  |  |  |  +- io.netty:netty-transport:jar:4.1.17.Final:compile
+|  |  |  |  |  +- (io.netty:netty-buffer:jar:4.1.17.Final:compile - omitted for duplicate)
+|  |  |  |  |  \- io.netty:netty-resolver:jar:4.1.17.Final:compile
+|  |  |  |  |     \- (io.netty:netty-common:jar:4.1.17.Final:compile - omitted for duplicate)
+|  |  |  |  \- (io.netty:netty-codec:jar:4.1.17.Final:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-appsync:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-guardduty:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-mq:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-mediaconvert:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-mediastore:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-mediastoredata:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-medialive:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-mediapackage:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-costexplorer:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-pricing:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-mobile:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-cloudhsmv2:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-glue:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-migrationhub:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-dax:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-greengrass:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-athena:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-marketplaceentitlement:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-codestar:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-lexmodelbuilding:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-resourcegroupstaggingapi:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-pinpoint:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-xray:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-opsworkscm:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-support:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-simpledb:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-servicecatalog:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-servermigration:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-simpleworkflow:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-storagegateway:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-route53:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-s3:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-kms:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-importexport:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-sts:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-sqs:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-rds:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-redshift:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-elasticbeanstalk:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-glacier:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-sqs:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  +- (com.amazonaws:aws-java-sdk-sns:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  +- (com.amazonaws:aws-java-sdk-s3:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-iam:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-datapipeline:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-elasticloadbalancing:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-elasticloadbalancingv2:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-emr:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-elasticache:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-elastictranscoder:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-ec2:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-dynamodb:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-s3:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-sns:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-sqs:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-budgets:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-cloudtrail:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-cloudwatch:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-logs:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-events:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-cognitoidentity:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-cognitosync:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-directconnect:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-cloudformation:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-cloudfront:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-clouddirectory:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-kinesis:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-opsworks:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-ses:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-autoscaling:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-cloudsearch:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-cloudwatchmetrics:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-cloudwatch:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  +- (com.amazonaws:aws-java-sdk-dynamodb:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-codedeploy:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-codepipeline:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-kms:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-config:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-lambda:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-ecs:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-ecr:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-cloudhsm:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-ssm:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-workspaces:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-machinelearning:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-directory:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-efs:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-codecommit:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-devicefarm:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-elasticsearch:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-waf:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-marketplacecommerceanalytics:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-inspector:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-iot:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-api-gateway:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-acm:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-gamelift:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-dms:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-marketplacemeteringservice:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-cognitoidp:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-discovery:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-applicationautoscaling:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-snowball:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-rekognition:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-polly:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-lightsail:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-stepfunctions:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-health:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-costandusagereport:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-codebuild:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-appstream:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-shield:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-batch:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-lex:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-mechanicalturkrequester:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-organizations:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-workdocs:jar:1.11.324:compile
+|  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile - omitted for duplicate)
+|  |  |  \- (com.amazonaws:jmespath-java:jar:1.11.324:compile - omitted for duplicate)
+|  |  +- com.amazonaws:aws-java-sdk-core:jar:1.11.324:compile
+|  |  |  +- (commons-logging:commons-logging:jar:1.1.3:compile - omitted for conflict with 1.2)
+|  |  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.3:compile - version managed from 4.5.5; omitted for duplicate)
+|  |  |  +- software.amazon.ion:ion-java:jar:1.0.2:compile
+|  |  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.6.7.1:compile - omitted for conflict with 2.8.9)
+|  |  |  +- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.6.7:compile
+|  |  |  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.6.7:compile - omitted for conflict with 2.8.9)
+|  |  |  \- (joda-time:joda-time:jar:2.8.1:compile - omitted for conflict with 2.9.9)
+|  |  +- com.amazonaws:aws-java-sdk-models:jar:1.11.324:compile
+|  |  \- com.amazonaws:aws-java-sdk-swf-libraries:jar:1.11.22:compile
+|  |     \- (com.amazonaws:aws-java-sdk-simpleworkflow:jar:1.11.22:compile - omitted for conflict with 1.11.324)
+|  \- (org.testng:testng:jar:6.8.8:compile - version managed from 6.8.7; omitted for duplicate)
++- log4j:log4j:jar:1.2.17:compile
++- org.apache.commons:commons-lang3:jar:3.4:compile
++- org.seleniumhq.selenium:selenium-java:jar:3.12.0:compile
+|  +- org.seleniumhq.selenium:selenium-api:jar:3.12.0:compile
+|  +- org.seleniumhq.selenium:selenium-chrome-driver:jar:3.12.0:compile
+|  |  +- (org.seleniumhq.selenium:selenium-api:jar:3.12.0:compile - omitted for duplicate)
+|  |  +- (org.seleniumhq.selenium:selenium-remote-driver:jar:3.12.0:compile - omitted for duplicate)
+|  |  +- (net.bytebuddy:byte-buddy:jar:1.8.3:compile - omitted for duplicate)
+|  |  +- (org.apache.commons:commons-exec:jar:1.3:compile - omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.9:compile - version managed from 1.10; omitted for duplicate)
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  |  +- (com.google.code.gson:gson:jar:2.8.2:compile - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:23.6-jre:compile - omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.3:compile - version managed from 4.5.5; omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpcore:jar:4.4.6:compile - omitted for duplicate)
+|  |  +- (com.squareup.okhttp3:okhttp:jar:3.9.1:compile - omitted for duplicate)
+|  |  \- (com.squareup.okio:okio:jar:1.13.0:compile - omitted for duplicate)
+|  +- org.seleniumhq.selenium:selenium-edge-driver:jar:3.12.0:compile
+|  |  +- (org.seleniumhq.selenium:selenium-api:jar:3.12.0:compile - omitted for duplicate)
+|  |  +- (org.seleniumhq.selenium:selenium-remote-driver:jar:3.12.0:compile - omitted for duplicate)
+|  |  +- (net.bytebuddy:byte-buddy:jar:1.8.3:compile - omitted for duplicate)
+|  |  +- (org.apache.commons:commons-exec:jar:1.3:compile - omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.9:compile - version managed from 1.10; omitted for duplicate)
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  |  +- (com.google.code.gson:gson:jar:2.8.2:compile - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:23.6-jre:compile - omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.3:compile - version managed from 4.5.5; omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpcore:jar:4.4.6:compile - omitted for duplicate)
+|  |  +- (com.squareup.okhttp3:okhttp:jar:3.9.1:compile - omitted for duplicate)
+|  |  \- (com.squareup.okio:okio:jar:1.13.0:compile - omitted for duplicate)
+|  +- org.seleniumhq.selenium:selenium-firefox-driver:jar:3.12.0:compile
+|  |  +- (org.seleniumhq.selenium:selenium-api:jar:3.12.0:compile - omitted for duplicate)
+|  |  +- (org.seleniumhq.selenium:selenium-remote-driver:jar:3.12.0:compile - omitted for duplicate)
+|  |  +- (net.bytebuddy:byte-buddy:jar:1.8.3:compile - omitted for duplicate)
+|  |  +- (org.apache.commons:commons-exec:jar:1.3:compile - omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.9:compile - version managed from 1.10; omitted for duplicate)
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  |  +- (com.google.code.gson:gson:jar:2.8.2:compile - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:23.6-jre:compile - omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.3:compile - version managed from 4.5.5; omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpcore:jar:4.4.6:compile - omitted for duplicate)
+|  |  +- (com.squareup.okhttp3:okhttp:jar:3.9.1:compile - omitted for duplicate)
+|  |  \- (com.squareup.okio:okio:jar:1.13.0:compile - omitted for duplicate)
+|  +- org.seleniumhq.selenium:selenium-ie-driver:jar:3.12.0:compile
+|  |  +- (org.seleniumhq.selenium:selenium-api:jar:3.12.0:compile - omitted for duplicate)
+|  |  +- (org.seleniumhq.selenium:selenium-remote-driver:jar:3.12.0:compile - omitted for duplicate)
+|  |  +- (net.bytebuddy:byte-buddy:jar:1.8.3:compile - omitted for duplicate)
+|  |  +- (org.apache.commons:commons-exec:jar:1.3:compile - omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.9:compile - version managed from 1.10; omitted for duplicate)
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  |  +- (com.google.code.gson:gson:jar:2.8.2:compile - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:23.6-jre:compile - omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.3:compile - version managed from 4.5.5; omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpcore:jar:4.4.6:compile - omitted for duplicate)
+|  |  +- (com.squareup.okhttp3:okhttp:jar:3.9.1:compile - omitted for duplicate)
+|  |  \- (com.squareup.okio:okio:jar:1.13.0:compile - omitted for duplicate)
+|  +- org.seleniumhq.selenium:selenium-opera-driver:jar:3.12.0:compile
+|  |  +- (org.seleniumhq.selenium:selenium-api:jar:3.12.0:compile - omitted for duplicate)
+|  |  +- (org.seleniumhq.selenium:selenium-remote-driver:jar:3.12.0:compile - omitted for duplicate)
+|  |  +- (net.bytebuddy:byte-buddy:jar:1.8.3:compile - omitted for duplicate)
+|  |  +- (org.apache.commons:commons-exec:jar:1.3:compile - omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.9:compile - version managed from 1.10; omitted for duplicate)
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  |  +- (com.google.code.gson:gson:jar:2.8.2:compile - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:23.6-jre:compile - omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.3:compile - version managed from 4.5.5; omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpcore:jar:4.4.6:compile - omitted for duplicate)
+|  |  +- (com.squareup.okhttp3:okhttp:jar:3.9.1:compile - omitted for duplicate)
+|  |  \- (com.squareup.okio:okio:jar:1.13.0:compile - omitted for duplicate)
+|  +- org.seleniumhq.selenium:selenium-remote-driver:jar:3.12.0:compile
+|  |  +- (org.seleniumhq.selenium:selenium-api:jar:3.12.0:compile - omitted for duplicate)
+|  |  +- (net.bytebuddy:byte-buddy:jar:1.8.3:compile - omitted for duplicate)
+|  |  +- (org.apache.commons:commons-exec:jar:1.3:compile - omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.9:compile - version managed from 1.10; omitted for duplicate)
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  |  +- (com.google.code.gson:gson:jar:2.8.2:compile - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:23.6-jre:compile - omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.3:compile - version managed from 4.5.5; omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpcore:jar:4.4.6:compile - omitted for duplicate)
+|  |  +- (com.squareup.okhttp3:okhttp:jar:3.9.1:compile - omitted for duplicate)
+|  |  \- (com.squareup.okio:okio:jar:1.13.0:compile - omitted for duplicate)
+|  +- org.seleniumhq.selenium:selenium-safari-driver:jar:3.12.0:compile
+|  |  +- (org.seleniumhq.selenium:selenium-api:jar:3.12.0:compile - omitted for duplicate)
+|  |  +- (org.seleniumhq.selenium:selenium-remote-driver:jar:3.12.0:compile - omitted for duplicate)
+|  |  +- (net.bytebuddy:byte-buddy:jar:1.8.3:compile - omitted for duplicate)
+|  |  +- (org.apache.commons:commons-exec:jar:1.3:compile - omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.9:compile - version managed from 1.10; omitted for duplicate)
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  |  +- (com.google.code.gson:gson:jar:2.8.2:compile - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:23.6-jre:compile - omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.3:compile - version managed from 4.5.5; omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpcore:jar:4.4.6:compile - omitted for duplicate)
+|  |  +- (com.squareup.okhttp3:okhttp:jar:3.9.1:compile - omitted for duplicate)
+|  |  \- (com.squareup.okio:okio:jar:1.13.0:compile - omitted for duplicate)
+|  +- org.seleniumhq.selenium:selenium-support:jar:3.12.0:compile
+|  |  +- (org.seleniumhq.selenium:selenium-api:jar:3.12.0:compile - omitted for duplicate)
+|  |  +- (org.seleniumhq.selenium:selenium-remote-driver:jar:3.12.0:compile - omitted for duplicate)
+|  |  +- (net.bytebuddy:byte-buddy:jar:1.8.3:compile - omitted for duplicate)
+|  |  +- (org.apache.commons:commons-exec:jar:1.3:compile - omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.9:compile - version managed from 1.10; omitted for duplicate)
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  |  +- (com.google.code.gson:gson:jar:2.8.2:compile - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:23.6-jre:compile - omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.3:compile - version managed from 4.5.5; omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpcore:jar:4.4.6:compile - omitted for duplicate)
+|  |  +- (com.squareup.okhttp3:okhttp:jar:3.9.1:compile - omitted for duplicate)
+|  |  \- (com.squareup.okio:okio:jar:1.13.0:compile - omitted for duplicate)
+|  +- net.bytebuddy:byte-buddy:jar:1.8.3:compile
+|  +- org.apache.commons:commons-exec:jar:1.3:compile
+|  +- commons-codec:commons-codec:jar:1.9:compile
+|  +- commons-logging:commons-logging:jar:1.2:compile
+|  +- com.google.code.gson:gson:jar:2.8.2:compile
+|  +- com.google.guava:guava:jar:23.6-jre:compile
+|  |  +- com.google.code.findbugs:jsr305:jar:1.3.9:compile
+|  |  +- org.checkerframework:checker-compat-qual:jar:2.0.0:compile
+|  |  +- com.google.errorprone:error_prone_annotations:jar:2.1.3:compile
+|  |  +- com.google.j2objc:j2objc-annotations:jar:1.1:compile
+|  |  \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:compile
+|  +- org.apache.httpcomponents:httpclient:jar:4.5.3:compile
+|  |  +- (org.apache.httpcomponents:httpcore:jar:4.4.6:compile - omitted for duplicate)
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  |  \- (commons-codec:commons-codec:jar:1.9:compile - version managed from 1.10; omitted for duplicate)
+|  +- org.apache.httpcomponents:httpcore:jar:4.4.6:compile
+|  +- com.squareup.okhttp3:okhttp:jar:3.9.1:compile
+|  |  \- (com.squareup.okio:okio:jar:1.13.0:compile - omitted for duplicate)
+|  \- com.squareup.okio:okio:jar:1.13.0:compile
++- io.appium:java-client:jar:6.0.0:compile
+|  +- (org.seleniumhq.selenium:selenium-java:jar:3.12.0:compile - omitted for duplicate)
+|  +- (org.seleniumhq.selenium:selenium-support:jar:3.12.0:compile - omitted for duplicate)
+|  +- (org.seleniumhq.selenium:selenium-api:jar:3.12.0:compile - omitted for duplicate)
+|  +- (org.apache.httpcomponents:httpclient:jar:4.5.3:compile - version managed from 4.5.5; omitted for duplicate)
+|  +- cglib:cglib:jar:3.2.6:compile
+|  |  +- org.ow2.asm:asm:jar:6.0:compile
+|  |  \- org.apache.ant:ant:jar:1.9.6:compile
+|  |     \- org.apache.ant:ant-launcher:jar:1.9.6:compile
+|  +- commons-validator:commons-validator:jar:1.6:compile
+|  |  +- commons-beanutils:commons-beanutils:jar:1.9.2:compile
+|  |  |  +- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for conflict with 1.2)
+|  |  |  \- (commons-collections:commons-collections:jar:3.2.1:compile - omitted for duplicate)
+|  |  +- commons-digester:commons-digester:jar:1.8.1:compile
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  |  \- commons-collections:commons-collections:jar:3.2.2:compile
+|  +- (org.apache.commons:commons-lang3:jar:3.4:compile - version managed from 3.7; omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.5:compile - version managed from 2.6; omitted for duplicate)
+|  +- org.springframework:spring-context:jar:5.0.5.RELEASE:compile
+|  |  +- org.springframework:spring-aop:jar:5.0.5.RELEASE:compile
+|  |  |  +- (org.springframework:spring-beans:jar:5.0.5.RELEASE:compile - omitted for duplicate)
+|  |  |  \- (org.springframework:spring-core:jar:5.0.5.RELEASE:compile - omitted for duplicate)
+|  |  +- org.springframework:spring-beans:jar:5.0.5.RELEASE:compile
+|  |  |  \- (org.springframework:spring-core:jar:5.0.5.RELEASE:compile - omitted for duplicate)
+|  |  +- org.springframework:spring-core:jar:5.0.5.RELEASE:compile
+|  |  |  \- org.springframework:spring-jcl:jar:5.0.5.RELEASE:compile
+|  |  \- org.springframework:spring-expression:jar:5.0.5.RELEASE:compile
+|  |     \- (org.springframework:spring-core:jar:5.0.5.RELEASE:compile - omitted for duplicate)
+|  +- org.aspectj:aspectjweaver:jar:1.9.1:compile
+|  +- org.openpnp:opencv:jar:3.2.0-1:compile
+|  +- javax.websocket:javax.websocket-api:jar:1.1:compile
+|  +- org.glassfish.tyrus:tyrus-client:jar:1.13.1:compile
+|  |  \- org.glassfish.tyrus:tyrus-core:jar:1.13.1:compile
+|  |     \- org.glassfish.tyrus:tyrus-spi:jar:1.13.1:compile
+|  |        \- (javax.websocket:javax.websocket-api:jar:1.1:compile - omitted for duplicate)
+|  \- org.glassfish.tyrus:tyrus-container-grizzly:jar:1.2.1:compile
+|     +- org.glassfish.grizzly:grizzly-framework:jar:2.3.3:compile
+|     +- org.glassfish.grizzly:grizzly-http-server:jar:2.3.3:compile
+|     |  +- org.glassfish.grizzly:grizzly-http:jar:2.3.3:compile
+|     |  |  \- (org.glassfish.grizzly:grizzly-framework:jar:2.3.3:compile - omitted for duplicate)
+|     |  \- org.glassfish.grizzly:grizzly-rcm:jar:2.3.3:compile
+|     |     \- (org.glassfish.grizzly:grizzly-framework:jar:2.3.3:compile - omitted for duplicate)
+|     \- (org.glassfish.tyrus:tyrus-core:jar:1.2.1:compile - omitted for conflict with 1.13.1)
++- org.imgscalr:imgscalr-lib:jar:4.2:compile
++- ru.yandex.qatools.ashot:ashot:jar:1.5.3:compile
+|  +- (org.seleniumhq.selenium:selenium-remote-driver:jar:2.53.0:compile - omitted for conflict with 3.12.0)
+|  +- (commons-io:commons-io:jar:2.5:compile - version managed from 2.6; omitted for duplicate)
+|  +- (com.google.code.gson:gson:jar:2.6.2:compile - omitted for conflict with 2.8.2)
+|  +- org.hamcrest:hamcrest-core:jar:1.3:compile
+|  \- com.googlecode.lambdaj:lambdaj:jar:2.3.3:compile
+|     +- org.hamcrest:hamcrest-all:jar:1.1:compile
+|     +- org.objenesis:objenesis:jar:1.2:compile
+|     \- cglib:cglib-nodep:jar:2.2:compile
++- org.apache.httpcomponents:fluent-hc:jar:4.4:compile
+|  +- (org.apache.httpcomponents:httpclient:jar:4.5.3:compile - version managed from 4.4; omitted for duplicate)
+|  \- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
++- com.itextpdf:itextpdf:jar:5.0.6:compile
+|  +- org.bouncycastle:bcmail-jdk14:jar:1.38:compile
+|  |  \- (org.bouncycastle:bcprov-jdk14:jar:1.38:compile - omitted for duplicate)
+|  +- org.bouncycastle:bcprov-jdk14:jar:1.38:compile
+|  \- org.bouncycastle:bctsp-jdk14:jar:1.38:compile
+|     +- (org.bouncycastle:bcprov-jdk14:jar:1.38:compile - omitted for duplicate)
+|     \- (org.bouncycastle:bcmail-jdk14:jar:1.38:compile - omitted for duplicate)
++- com.qaprosoft:alice-client:jar:1.1.0:compile
+|  +- com.qaprosoft:alice-models:jar:1.1.0:compile
+|  |  +- (org.springframework:spring-core:jar:4.3.2.RELEASE:compile - omitted for conflict with 5.0.5.RELEASE)
+|  |  +- (org.springframework:spring-beans:jar:4.3.2.RELEASE:compile - omitted for conflict with 5.0.5.RELEASE)
+|  |  +- (org.springframework:spring-context:jar:4.3.2.RELEASE:compile - omitted for conflict with 5.0.5.RELEASE)
+|  |  +- org.springframework:spring-tx:jar:4.3.2.RELEASE:compile
+|  |  |  +- (org.springframework:spring-beans:jar:4.3.2.RELEASE:compile - omitted for conflict with 5.0.5.RELEASE)
+|  |  |  \- (org.springframework:spring-core:jar:4.3.2.RELEASE:compile - omitted for conflict with 5.0.5.RELEASE)
+|  |  +- org.springframework:spring-jdbc:jar:4.3.2.RELEASE:compile
+|  |  |  +- (org.springframework:spring-beans:jar:4.3.2.RELEASE:compile - omitted for conflict with 5.0.5.RELEASE)
+|  |  |  +- (org.springframework:spring-core:jar:4.3.2.RELEASE:compile - omitted for conflict with 5.0.5.RELEASE)
+|  |  |  \- (org.springframework:spring-tx:jar:4.3.2.RELEASE:compile - omitted for duplicate)
+|  |  +- org.springframework.data:spring-data-mongodb:jar:1.9.2.RELEASE:compile
+|  |  |  +- (org.springframework:spring-tx:jar:4.2.6.RELEASE:compile - omitted for conflict with 4.3.2.RELEASE)
+|  |  |  +- (org.springframework:spring-context:jar:4.2.6.RELEASE:compile - omitted for conflict with 5.0.5.RELEASE)
+|  |  |  +- (org.springframework:spring-beans:jar:4.2.6.RELEASE:compile - omitted for conflict with 5.0.5.RELEASE)
+|  |  |  +- (org.springframework:spring-core:jar:4.2.6.RELEASE:compile - omitted for conflict with 5.0.5.RELEASE)
+|  |  |  +- (org.springframework:spring-expression:jar:4.2.6.RELEASE:compile - omitted for conflict with 5.0.5.RELEASE)
+|  |  |  +- org.springframework.data:spring-data-commons:jar:1.12.2.RELEASE:compile
+|  |  |  |  +- (org.springframework:spring-core:jar:4.2.6.RELEASE:compile - omitted for conflict with 5.0.5.RELEASE)
+|  |  |  |  +- (org.springframework:spring-beans:jar:4.2.6.RELEASE:compile - omitted for conflict with 5.0.5.RELEASE)
+|  |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for conflict with 1.7.25)
+|  |  |  |  \- (org.slf4j:jcl-over-slf4j:jar:1.7.21:runtime - omitted for conflict with 1.7.25)
+|  |  |  +- (org.mongodb:mongo-java-driver:jar:2.14.0:compile - omitted for conflict with 2.11.3)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for conflict with 1.7.25)
+|  |  |  \- (org.slf4j:jcl-over-slf4j:jar:1.7.21:runtime - omitted for conflict with 1.7.25)
+|  |  +- org.springframework.data:spring-data-redis:jar:1.7.2.RELEASE:compile
+|  |  |  +- org.springframework.data:spring-data-keyvalue:jar:1.1.2.RELEASE:compile
+|  |  |  |  +- (org.springframework.data:spring-data-commons:jar:1.12.2.RELEASE:compile - omitted for duplicate)
+|  |  |  |  +- (org.springframework:spring-context:jar:4.2.6.RELEASE:compile - omitted for conflict with 5.0.5.RELEASE)
+|  |  |  |  +- (org.springframework:spring-tx:jar:4.2.6.RELEASE:compile - omitted for conflict with 4.3.2.RELEASE)
+|  |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for conflict with 1.7.25)
+|  |  |  |  \- (org.slf4j:jcl-over-slf4j:jar:1.7.21:runtime - omitted for conflict with 1.7.25)
+|  |  |  +- (org.springframework:spring-tx:jar:4.2.6.RELEASE:compile - omitted for conflict with 4.3.2.RELEASE)
+|  |  |  +- org.springframework:spring-oxm:jar:4.2.6.RELEASE:compile
+|  |  |  |  +- (org.springframework:spring-beans:jar:4.2.6.RELEASE:compile - omitted for conflict with 5.0.5.RELEASE)
+|  |  |  |  \- (org.springframework:spring-core:jar:4.2.6.RELEASE:compile - omitted for conflict with 5.0.5.RELEASE)
+|  |  |  +- (org.springframework:spring-aop:jar:4.2.6.RELEASE:compile - omitted for conflict with 5.0.5.RELEASE)
+|  |  |  +- org.springframework:spring-context-support:jar:4.2.6.RELEASE:compile
+|  |  |  |  +- (org.springframework:spring-beans:jar:4.2.6.RELEASE:compile - omitted for conflict with 5.0.5.RELEASE)
+|  |  |  |  +- (org.springframework:spring-context:jar:4.2.6.RELEASE:compile - omitted for conflict with 5.0.5.RELEASE)
+|  |  |  |  \- (org.springframework:spring-core:jar:4.2.6.RELEASE:compile - omitted for conflict with 5.0.5.RELEASE)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for conflict with 1.7.25)
+|  |  |  \- (org.slf4j:jcl-over-slf4j:jar:1.7.21:runtime - omitted for conflict with 1.7.25)
+|  |  +- org.springframework.security:spring-security-core:jar:4.2.3.RELEASE:compile
+|  |  |  +- aopalliance:aopalliance:jar:1.0:compile
+|  |  |  +- (org.springframework:spring-aop:jar:4.3.9.RELEASE:compile - omitted for conflict with 5.0.5.RELEASE)
+|  |  |  +- (org.springframework:spring-beans:jar:4.3.9.RELEASE:compile - omitted for conflict with 5.0.5.RELEASE)
+|  |  |  +- (org.springframework:spring-context:jar:4.3.9.RELEASE:compile - omitted for conflict with 5.0.5.RELEASE)
+|  |  |  +- (org.springframework:spring-core:jar:4.3.9.RELEASE:compile - omitted for conflict with 5.0.5.RELEASE)
+|  |  |  \- (org.springframework:spring-expression:jar:4.3.9.RELEASE:compile - omitted for conflict with 5.0.5.RELEASE)
+|  |  +- org.springframework:spring-web:jar:4.3.2.RELEASE:compile
+|  |  |  +- (org.springframework:spring-aop:jar:4.3.2.RELEASE:compile - omitted for conflict with 5.0.5.RELEASE)
+|  |  |  +- (org.springframework:spring-beans:jar:4.3.2.RELEASE:compile - omitted for conflict with 5.0.5.RELEASE)
+|  |  |  +- (org.springframework:spring-context:jar:4.3.2.RELEASE:compile - omitted for conflict with 5.0.5.RELEASE)
+|  |  |  \- (org.springframework:spring-core:jar:4.3.2.RELEASE:compile - omitted for conflict with 5.0.5.RELEASE)
+|  |  +- (joda-time:joda-time:jar:2.3:compile - omitted for conflict with 2.9.9)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for conflict with 1.7.25)
+|  |  +- ch.qos.logback:logback-core:jar:1.0.13:compile
+|  |  +- ch.qos.logback:logback-classic:jar:1.0.13:compile
+|  |  |  +- (ch.qos.logback:logback-core:jar:1.0.13:compile - omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for conflict with 1.7.25)
+|  |  +- net.sourceforge.jtds:jtds:jar:1.3.1:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.2:compile - omitted for conflict with 2.8.0)
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.2:compile - omitted for conflict with 2.8.9)
+|  |  +- org.hibernate:hibernate-validator:jar:5.2.4.Final:compile
+|  |  |  +- (javax.validation:validation-api:jar:1.1.0.Final:compile - omitted for duplicate)
+|  |  |  +- org.jboss.logging:jboss-logging:jar:3.2.1.Final:compile
+|  |  |  \- com.fasterxml:classmate:jar:1.1.0:compile
+|  |  \- javax.servlet:jstl:jar:1.2:compile
+|  +- com.sun.jersey:jersey-client:jar:1.19.4:compile
+|  |  \- com.sun.jersey:jersey-core:jar:1.19.4:compile
+|  |     \- javax.ws.rs:jsr311-api:jar:1.1.1:compile
+|  +- com.sun.jersey:jersey-json:jar:1.19.4:compile
+|  |  +- org.codehaus.jettison:jettison:jar:1.1:compile
+|  |  +- com.sun.xml.bind:jaxb-impl:jar:2.2.3-1:compile
+|  |  |  \- javax.xml.bind:jaxb-api:jar:2.2.2:compile
+|  |  |     +- javax.xml.stream:stax-api:jar:1.0-2:compile
+|  |  |     \- (javax.activation:activation:jar:1.1:compile - omitted for duplicate)
+|  |  +- org.codehaus.jackson:jackson-core-asl:jar:1.9.2:compile
+|  |  +- org.codehaus.jackson:jackson-mapper-asl:jar:1.9.2:compile
+|  |  |  \- (org.codehaus.jackson:jackson-core-asl:jar:1.9.2:compile - omitted for duplicate)
+|  |  +- org.codehaus.jackson:jackson-jaxrs:jar:1.9.2:compile
+|  |  |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.9.2:compile - omitted for duplicate)
+|  |  |  \- (org.codehaus.jackson:jackson-mapper-asl:jar:1.9.2:compile - omitted for duplicate)
+|  |  +- org.codehaus.jackson:jackson-xc:jar:1.9.2:compile
+|  |  |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.9.2:compile - omitted for duplicate)
+|  |  |  \- (org.codehaus.jackson:jackson-mapper-asl:jar:1.9.2:compile - omitted for duplicate)
+|  |  \- (com.sun.jersey:jersey-core:jar:1.19.4:compile - omitted for duplicate)
+|  +- com.sun.jersey.contribs:jersey-multipart:jar:1.19.4:compile
+|  |  +- org.jvnet.mimepull:mimepull:jar:1.9.3:compile
+|  |  \- (com.sun.jersey:jersey-core:jar:1.19.4:compile - omitted for duplicate)
+|  +- com.owlike:genson:jar:0.99:compile
+|  +- org.slf4j:slf4j-api:jar:1.7.5:compile
+|  +- (org.testng:testng:jar:6.8.8:compile - version managed from 6.8.7; omitted for duplicate)
+|  +- org.apache.commons:commons-configuration2:jar:2.1:compile
+|  |  +- (org.apache.commons:commons-lang3:jar:3.4:compile - version managed from 3.3.2; omitted for duplicate)
+|  |  \- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  \- (commons-io:commons-io:jar:2.5:compile - version managed from 1.3.2; omitted for duplicate)
+\- org.reflections:reflections:jar:0.9.11:compile
+   \- org.javassist:javassist:jar:3.21.0-GA:compile

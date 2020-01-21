@@ -1,0 +1,19 @@
+de.sciss:filecache-txn_2.11:jar:0.4.0
++- org.scala-lang:scala-library:jar:2.11.12:compile
++- de.sciss:filecache-common_2.11:jar:0.4.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  +- de.sciss:serial_2.11:jar:1.1.0:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  \- de.sciss:fileutil_2.11:jar:1.1.3:compile
+|     \- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
++- org.scala-stm:scala-stm_2.11:jar:0.8:compile
+|  \- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.12)
+\- org.scalatest:scalatest_2.11:jar:3.0.5:test
+   +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+   +- org.scalactic:scalactic_2.11:jar:3.0.5:test
+   |  +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+   |  \- (org.scala-lang:scala-reflect:jar:2.11.12:test - omitted for duplicate)
+   +- org.scala-lang:scala-reflect:jar:2.11.12:test
+   |  \- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+   \- org.scala-lang.modules:scala-xml_2.11:jar:1.0.6:test
+      \- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.12)

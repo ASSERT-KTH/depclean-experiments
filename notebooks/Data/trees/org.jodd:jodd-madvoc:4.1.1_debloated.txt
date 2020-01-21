@@ -1,0 +1,27 @@
+org.jodd:jodd-madvoc:jar:4.1.1
++- org.jodd:jodd-core:jar:4.1.1:compile
++- org.jodd:jodd-bean:jar:4.1.1:compile
+|  \- (org.jodd:jodd-core:jar:4.1.1:compile - omitted for duplicate)
++- org.jodd:jodd-props:jar:4.1.1:compile
+|  \- (org.jodd:jodd-core:jar:4.1.1:compile - omitted for duplicate)
++- org.jodd:jodd-upload:jar:4.1.1:compile
+|  \- (org.jodd:jodd-core:jar:4.1.1:compile - omitted for duplicate)
++- org.jodd:jodd-servlet:jar:4.1.1:compile
+|  +- (org.jodd:jodd-core:jar:4.1.1:compile - omitted for duplicate)
+|  +- (org.jodd:jodd-bean:jar:4.1.1:compile - omitted for duplicate)
+|  \- (org.jodd:jodd-upload:jar:4.1.1:compile - omitted for duplicate)
++- org.jodd:jodd-petite:jar:4.1.1:compile
+|  +- (org.jodd:jodd-core:jar:4.1.1:compile - omitted for duplicate)
+|  +- (org.jodd:jodd-bean:jar:4.1.1:compile - omitted for duplicate)
+|  +- (org.jodd:jodd-props:jar:4.1.1:compile - omitted for duplicate)
+|  +- (org.jodd:jodd-log:jar:4.1.1:compile - omitted for duplicate)
+|  \- (org.jodd:jodd-proxetta:jar:4.1.1:compile - omitted for duplicate)
++- org.jodd:jodd-log:jar:4.1.1:compile
++- org.jodd:jodd-proxetta:jar:4.1.1:compile
+|  +- (org.jodd:jodd-core:jar:4.1.1:compile - omitted for duplicate)
+|  \- (org.jodd:jodd-log:jar:4.1.1:compile - omitted for duplicate)
++- org.jodd:jodd-json:jar:4.1.1:compile
+|  +- (org.jodd:jodd-bean:jar:4.1.1:compile - omitted for duplicate)
+|  \- (org.jodd:jodd-core:jar:4.1.1:compile - omitted for duplicate)
++- javax.servlet:javax.servlet-api:jar:3.1.0:provided
+\- javax.servlet.jsp:javax.servlet.jsp-api:jar:2.3.1:provided

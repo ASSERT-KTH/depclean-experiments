@@ -1,0 +1,5 @@
+io.pkts:pkts-sdp:jar:3.0.3
++- io.pkts:pkts-buffers:jar:3.0.3:compile
++- javax.sip:jain-sip-ri:jar:1.2.159:compile
++- junit:junit:jar:4.8.2:test
+\- org.mockito:mockito-all:jar:1.8.5:test

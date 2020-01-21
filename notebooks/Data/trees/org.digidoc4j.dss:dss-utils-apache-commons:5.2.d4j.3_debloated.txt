@@ -1,0 +1,9 @@
+org.digidoc4j.dss:dss-utils-apache-commons:jar:5.2.d4j.3
++- org.digidoc4j.dss:dss-utils:jar:5.2.d4j.3:compile
++- org.apache.commons:commons-lang3:jar:3.6:compile
++- org.apache.commons:commons-collections4:jar:4.1:compile
++- commons-codec:commons-codec:jar:1.6:compile
++- commons-io:commons-io:jar:2.5:compile
++- org.digidoc4j.dss:dss-utils:test-jar:tests:5.2.d4j.3:test
+\- junit:junit:jar:4.12:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

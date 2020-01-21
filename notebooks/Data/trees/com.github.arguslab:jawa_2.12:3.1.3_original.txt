@@ -1,0 +1,27 @@
+com.github.arguslab:jawa_2.12:jar:3.1.3
++- org.scala-lang:scala-library:jar:2.12.4:compile
++- org.scalatest:scalatest_2.12:jar:3.0.1:test
+|  +- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.4)
+|  +- org.scalactic:scalactic_2.12:jar:3.0.1:test
+|  |  +- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.4)
+|  |  \- (org.scala-lang:scala-reflect:jar:2.12.0:test - omitted for duplicate)
+|  +- org.scala-lang:scala-reflect:jar:2.12.0:test
+|  |  \- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.4)
+|  +- org.scala-lang.modules:scala-xml_2.12:jar:1.0.5:test
+|  |  \- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.4)
+|  \- org.scala-lang.modules:scala-parser-combinators_2.12:jar:1.0.4:test
+|     \- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.4)
++- com.google.code.findbugs:jsr305:jar:3.0.2:compile
++- com.google.guava:guava:jar:21.0:compile
++- org.apache.commons:commons-lang3:jar:3.5:compile
++- org.antlr:antlr4-runtime:jar:4.7:compile
++- org.ow2.asm:asm-all:jar:5.2:compile
++- org.antlr:ST4:jar:4.0.8:compile
+|  \- org.antlr:antlr-runtime:jar:3.5.2:compile
++- org.jgrapht:jgrapht-core:jar:1.0.1:compile
++- org.jgrapht:jgrapht-ext:jar:1.0.1:compile
+|  +- (org.jgrapht:jgrapht-core:jar:1.0.1:compile - omitted for duplicate)
+|  +- org.tinyjee.jgraphx:jgraphx:jar:2.0.0.1:compile
+|  +- jgraph:jgraph:jar:5.13.0.0:compile
+|  \- (org.antlr:antlr4-runtime:jar:4.5.3:compile - omitted for conflict with 4.7)
+\- com.github.javaparser:javaparser-core:jar:3.4.0:compile

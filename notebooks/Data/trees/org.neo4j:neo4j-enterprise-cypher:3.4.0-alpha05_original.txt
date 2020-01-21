@@ -1,0 +1,114 @@
+org.neo4j:neo4j-enterprise-cypher:jar:3.4.0-alpha05
++- org.scala-lang:scala-library:jar:2.11.12:compile
++- org.scala-lang:scala-reflect:jar:2.11.12:compile
++- org.scalatest:scalatest_2.11:jar:2.2.5:test
+|  \- org.scala-lang.modules:scala-xml_2.11:jar:1.0.2:test
++- org.scalautils:scalautils_2.11:jar:2.1.7:test
++- org.scalacheck:scalacheck_2.11:jar:1.12.5:test
+|  \- org.scala-sbt:test-interface:jar:1.0:test
++- org.neo4j:neo4j-enterprise-kernel:jar:3.4.0-alpha05:compile
++- org.neo4j:neo4j-kernel:jar:3.4.0-alpha05:compile
+|  +- org.neo4j:neo4j-graphdb-api:jar:3.4.0-alpha05:compile
+|  |  \- org.neo4j:neo4j-resource:jar:3.4.0-alpha05:compile
+|  +- org.neo4j:neo4j-kernel-api:jar:3.4.0-alpha05:compile
+|  +- org.neo4j:neo4j-common:jar:3.4.0-alpha05:compile
+|  +- org.neo4j:neo4j-values:jar:3.4.0-alpha05:compile
+|  +- org.neo4j:neo4j-collections:jar:3.4.0-alpha05:compile
+|  +- org.neo4j:neo4j-primitive-collections:jar:3.4.0-alpha05:compile
+|  +- org.neo4j:neo4j-io:jar:3.4.0-alpha05:compile
+|  +- org.neo4j:neo4j-csv:jar:3.4.0-alpha05:compile
+|  +- org.neo4j:neo4j-logging:jar:3.4.0-alpha05:compile
+|  +- org.neo4j:neo4j-lucene-upgrade:jar:3.4.0-alpha05:compile
+|  |  +- org.apache.lucene:lucene-core:jar:5.5.0:compile
+|  |  \- org.apache.lucene:lucene-backward-codecs:jar:5.5.0:compile
+|  +- org.neo4j:neo4j-configuration:jar:3.4.0-alpha05:compile
+|  +- org.neo4j:neo4j-index:jar:3.4.0-alpha05:compile
+|  \- org.neo4j:neo4j-ssl:jar:3.4.0-alpha05:compile
+|     +- io.netty:netty-all:jar:4.1.17.Final:compile
+|     \- org.bouncycastle:bcpkix-jdk15on:jar:1.53:compile
+|        \- org.bouncycastle:bcprov-jdk15on:jar:1.53:compile
++- org.neo4j:neo4j-cypher:jar:3.4.0-alpha05:compile
+|  +- org.neo4j:neo4j-lucene-index:jar:3.4.0-alpha05:compile
+|  |  +- org.apache.lucene:lucene-analyzers-common:jar:5.5.0:compile
+|  |  +- org.apache.lucene:lucene-queryparser:jar:5.5.0:compile
+|  |  \- org.apache.lucene:lucene-codecs:jar:5.5.0:compile
+|  +- org.neo4j:neo4j-graph-matching:jar:3.1.6:compile
+|  +- org.neo4j:neo4j-graph-algo:jar:3.4.0-alpha05:compile
+|  +- org.neo4j:neo4j-cypher-compiler-2.3:jar:2.3.11:compile
+|  |  +- org.neo4j:neo4j-cypher-frontend-2.3:jar:2.3.11:compile
+|  |  \- com.googlecode.concurrentlinkedhashmap:concurrentlinkedhashmap-lru:jar:1.4.2:compile
+|  +- org.neo4j:neo4j-cypher-compiler-3.1:jar:3.1.6:compile
+|  |  \- org.neo4j:neo4j-cypher-frontend-3.1:jar:3.1.6:compile
+|  +- org.neo4j:neo4j-cypher-compiler-3.3:jar:3.3.1:compile
+|  |  +- org.neo4j:neo4j-cypher-frontend-3.3:jar:3.3.1:compile
+|  |  +- org.neo4j:neo4j-cypher-ir-3.3:jar:3.3.1:compile
+|  |  \- org.neo4j:neo4j-cypher-logical-plans-3.3:jar:3.3.1:compile
+|  +- org.neo4j:neo4j-cypher-util-3.4:jar:3.4.0-alpha05:compile
+|  +- org.neo4j:neo4j-cypher-planner-spi-3.4:jar:3.4.0-alpha05:compile
+|  +- org.neo4j:neo4j-cypher-runtime-util:jar:3.4.0-alpha05:compile
+|  +- org.neo4j:neo4j-cypher-interpreted-runtime:jar:3.4.0-alpha05:compile
+|  \- org.apache.commons:commons-lang3:jar:3.5:compile
++- org.neo4j:neo4j-codegen:jar:3.4.0-alpha05:compile
+|  +- org.ow2.asm:asm:jar:6.0:compile
+|  \- org.ow2.asm:asm-tree:jar:6.0:compile
++- org.neo4j:neo4j-cypher-slotted-runtime:jar:3.4.0-alpha05:compile
++- org.neo4j:neo4j-cypher-morsel-runtime:jar:3.4.0-alpha05:compile
++- org.neo4j:neo4j-cypher-physical-planning:jar:3.4.0-alpha05:compile
++- org.neo4j:neo4j-kernel:test-jar:tests:3.4.0-alpha05:test
++- org.neo4j:neo4j-io:test-jar:tests:3.4.0-alpha05:test
+|  \- org.neo4j:neo4j-unsafe:jar:3.4.0-alpha05:compile
++- org.neo4j:neo4j-kernel-api:test-jar:tests:3.4.0-alpha05:test
++- org.neo4j:neo4j-common:test-jar:tests:3.4.0-alpha05:test
++- org.neo4j:neo4j-enterprise-kernel:test-jar:tests:3.4.0-alpha05:test
++- org.neo4j:neo4j-cypher-planner-3.4:jar:3.4.0-alpha05:compile
+|  +- org.neo4j:neo4j-cypher-frontend-3.4:jar:3.4.0-alpha05:compile
+|  +- org.neo4j:neo4j-cypher-ir-3.4:jar:3.4.0-alpha05:compile
+|  +- org.neo4j:neo4j-cypher-logical-plans-3.4:jar:3.4.0-alpha05:compile
+|  \- com.github.ben-manes.caffeine:caffeine:jar:2.3.3:compile
++- org.neo4j:neo4j-cypher-planner-3.4:test-jar:tests:3.4.0-alpha05:test
++- org.neo4j:neo4j-cypher-frontend-3.4:test-jar:tests:3.4.0-alpha05:test
+|  \- org.neo4j:neo4j-cypher-expression-3.4:jar:3.4.0-alpha05:compile
++- org.neo4j:neo4j-cypher-util-3.4:test-jar:tests:3.4.0-alpha05:test
++- org.neo4j:neo4j-cypher:test-jar:tests:3.4.0-alpha05:test
++- org.neo4j:neo4j-cypher-runtime-util:test-jar:tests:3.4.0-alpha05:test
++- org.parboiled:parboiled-scala_2.11:jar:1.1.7:compile
+|  \- org.parboiled:parboiled-core:jar:1.1.7:compile
++- net.sf.opencsv:opencsv:jar:2.3:compile
++- org.ow2.asm:asm-util:jar:6.0:test
++- org.ow2.asm:asm-analysis:jar:6.0:test
++- com.novus:salat-core_2.11:jar:1.9.9:test
+|  +- com.novus:salat-util_2.11:jar:1.9.9:test
+|  |  \- org.slf4j:slf4j-api:jar:1.7.7:test
+|  +- org.mongodb:casbah-core_2.11:jar:2.7.1:test
+|  |  +- org.mongodb:casbah-commons_2.11:jar:2.7.1:test
+|  |  |  \- org.mongodb:mongo-java-driver:jar:2.12.1:test
+|  |  +- org.mongodb:casbah-query_2.11:jar:2.7.1:test
+|  |  \- com.github.nscala-time:nscala-time_2.11:jar:1.0.0:test
+|  |     +- joda-time:joda-time:jar:2.3:test
+|  |     \- org.joda:joda-convert:jar:1.2:test
+|  \- org.json4s:json4s-native_2.11:jar:3.2.9:test
+|     \- org.json4s:json4s-core_2.11:jar:3.2.9:test
+|        +- org.json4s:json4s-ast_2.11:jar:3.2.9:test
+|        \- com.thoughtworks.paranamer:paranamer:jar:2.6:test
++- org.eclipse.jetty:jetty-server:jar:9.2.22.v20170606:test
+|  +- javax.servlet:javax.servlet-api:jar:3.1.0:test
+|  +- org.eclipse.jetty:jetty-http:jar:9.2.22.v20170606:test
+|  |  \- org.eclipse.jetty:jetty-util:jar:9.2.22.v20170606:test
+|  \- org.eclipse.jetty:jetty-io:jar:9.2.22.v20170606:test
++- org.eclipse.jetty:jetty-servlet:jar:9.2.22.v20170606:test
+|  \- org.eclipse.jetty:jetty-security:jar:9.2.22.v20170606:test
++- commons-codec:commons-codec:jar:1.9:test
++- org.bitbucket.inkytonik.kiama:kiama_2.11:jar:2.1.0:compile
+|  +- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+|  +- com.google.guava:guava:jar:21.0:compile
+|  +- org.rogach:scallop_2.11:jar:2.1.1:compile
+|  \- jline:jline:jar:2.14.3:compile
++- com.google.code.findbugs:annotations:jar:3.0.1:provided
+|  \- net.jcip:jcip-annotations:jar:1.0:provided
++- junit:junit:jar:4.12:test
++- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.hamcrest:hamcrest-library:jar:1.3:test
+\- org.mockito:mockito-core:jar:2.10.0:test
+   +- net.bytebuddy:byte-buddy:jar:1.7.4:test
+   +- net.bytebuddy:byte-buddy-agent:jar:1.7.4:test
+   \- org.objenesis:objenesis:jar:2.6:test

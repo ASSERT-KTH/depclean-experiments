@@ -1,0 +1,2 @@
+com.github.jcute:jcute-core-plugin:jar:0.0.7
+\- com.github.jcute:jcute-basic:jar:0.0.7:compile

@@ -1,0 +1,714 @@
+org.apache.knox:gateway-release:jar:1.1.0
++- org.apache.knox:gateway-server:jar:1.1.0:compile
+|  +- org.eclipse.persistence:eclipselink:jar:2.5.2:compile
+|  |  +- org.eclipse.persistence:javax.persistence:jar:2.1.0:compile
+|  |  \- org.eclipse.persistence:commonj.sdo:jar:2.1.1:compile
+|  +- org.apache.knox:gateway-i18n:jar:1.1.0:compile
+|  +- org.apache.knox:gateway-i18n-logging-log4j:jar:1.1.0:compile
+|  |  +- (log4j:log4j:jar:1.2.17:compile - version managed from 1.2.16; omitted for duplicate)
+|  |  \- (org.apache.knox:gateway-i18n:jar:1.1.0:compile - omitted for duplicate)
+|  +- org.apache.knox:gateway-util-launcher:jar:1.1.0:compile
+|  +- org.apache.knox:gateway-util-urltemplate:jar:1.1.0:compile
+|  |  \- (org.apache.knox:gateway-i18n:jar:1.1.0:compile - omitted for duplicate)
+|  +- org.apache.knox:gateway-spi:jar:1.1.0:compile
+|  |  +- (org.apache.knox:gateway-i18n:jar:1.1.0:compile - omitted for duplicate)
+|  |  +- (org.apache.knox:gateway-util-common:jar:1.1.0:compile - omitted for duplicate)
+|  |  +- org.apache.knox:gateway-util-configinjector:jar:1.1.0:compile
+|  |  |  \- (commons-beanutils:commons-beanutils:jar:1.9.3:compile - omitted for duplicate)
+|  |  +- (org.apache.knox:gateway-util-urltemplate:jar:1.1.0:compile - omitted for duplicate)
+|  |  +- (org.apache.hadoop:hadoop-common:jar:3.0.0:compile - omitted for duplicate)
+|  |  +- (javax.servlet:javax.servlet-api:jar:3.1.0:compile - omitted for duplicate)
+|  |  +- (org.jboss.shrinkwrap:shrinkwrap-api:jar:1.2.3:compile - omitted for duplicate)
+|  |  +- (org.jboss.shrinkwrap:shrinkwrap-impl-base:jar:1.2.3:compile - omitted for duplicate)
+|  |  +- (org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-api-javaee:jar:2.0.0-alpha-8:compile - omitted for duplicate)
+|  |  +- (org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-impl-javaee:jar:2.0.0-alpha-8:compile - omitted for duplicate)
+|  |  +- com.nimbusds:nimbus-jose-jwt:jar:4.41.2:compile
+|  |  |  +- com.github.stephenc.jcip:jcip-annotations:jar:1.0-1:compile
+|  |  |  \- (net.minidev:json-smart:jar:2.3:compile - omitted for duplicate)
+|  |  +- net.minidev:json-smart:jar:2.3:compile
+|  |  |  \- net.minidev:accessors-smart:jar:1.2:compile
+|  |  |     \- (org.ow2.asm:asm:jar:5.0.4:compile - omitted for conflict with 5.0.1)
+|  |  +- (commons-net:commons-net:jar:1.4.1:compile - version managed from 3.1; omitted for duplicate)
+|  |  +- (commons-io:commons-io:jar:2.4:compile - version managed from 2.5; omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.4:compile - version managed from 4.5.2; omitted for duplicate)
+|  |  +- (com.jayway.jsonpath:json-path:jar:2.4.0:compile - omitted for duplicate)
+|  |  +- commons-collections:commons-collections:jar:3.2.2:compile
+|  |  +- (joda-time:joda-time:jar:2.9.2:compile - omitted for duplicate)
+|  |  +- io.dropwizard.metrics:metrics-core:jar:3.1.2:compile
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.6.6:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  +- io.dropwizard.metrics:metrics-httpclient:jar:3.1.2:compile
+|  |  |  +- (io.dropwizard.metrics:metrics-core:jar:3.1.2:compile - omitted for duplicate)
+|  |  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.4:compile - version managed from 4.3.5; omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.6.6:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  \- (org.eclipse.jetty:jetty-util:jar:9.2.22.v20170606:compile - version managed from 9.3.19.v20170502; omitted for duplicate)
+|  +- org.apache.hadoop:hadoop-common:jar:3.0.0:compile
+|  |  +- com.google.guava:guava:jar:11.0.2:compile
+|  |  |  \- (com.google.code.findbugs:jsr305:jar:1.3.9:compile - omitted for conflict with 3.0.0)
+|  |  +- org.apache.commons:commons-math3:jar:3.1.1:compile
+|  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.4:compile - version managed from 4.5.2; omitted for duplicate)
+|  |  +- (commons-io:commons-io:jar:2.4:compile - version managed from 2.5; omitted for duplicate)
+|  |  +- (commons-net:commons-net:jar:1.4.1:compile - version managed from 3.1; omitted for duplicate)
+|  |  +- (commons-collections:commons-collections:jar:3.2.2:compile - omitted for duplicate)
+|  |  +- (javax.servlet:javax.servlet-api:jar:3.1.0:compile - omitted for duplicate)
+|  |  +- (org.eclipse.jetty:jetty-server:jar:9.2.22.v20170606:compile - version managed from 9.3.19.v20170502; omitted for duplicate)
+|  |  +- (org.eclipse.jetty:jetty-util:jar:9.2.22.v20170606:compile - version managed from 9.3.19.v20170502; omitted for duplicate)
+|  |  +- (org.eclipse.jetty:jetty-servlet:jar:9.2.22.v20170606:compile - version managed from 9.3.19.v20170502; omitted for duplicate)
+|  |  +- (org.eclipse.jetty:jetty-webapp:jar:9.2.22.v20170606:compile - version managed from 9.3.19.v20170502; omitted for duplicate)
+|  |  +- commons-lang:commons-lang:jar:2.6:compile
+|  |  +- commons-beanutils:commons-beanutils:jar:1.9.3:compile
+|  |  |  \- (commons-collections:commons-collections:jar:3.2.2:compile - omitted for duplicate)
+|  |  +- org.apache.commons:commons-configuration2:jar:2.1.1:compile
+|  |  +- (org.apache.commons:commons-lang3:jar:3.4:compile - omitted for duplicate)
+|  |  +- com.google.re2j:re2j:jar:1.1:compile
+|  |  +- com.google.code.gson:gson:jar:2.2.4:compile
+|  |  +- org.apache.curator:curator-client:jar:4.0.0:compile (version managed from 2.12.0)
+|  |  |  \- (com.google.guava:guava:jar:20.0:compile - omitted for conflict with 11.0.2)
+|  |  +- org.apache.curator:curator-recipes:jar:4.0.0:compile (version managed from 2.12.0)
+|  |  |  \- (org.apache.curator:curator-framework:jar:4.0.0:compile - version managed from 2.12.0; omitted for duplicate)
+|  |  +- com.google.code.findbugs:jsr305:jar:3.0.0:compile
+|  |  +- org.apache.htrace:htrace-core4:jar:4.1.0-incubating:compile
+|  |  +- org.apache.kerby:kerb-simplekdc:jar:1.0.1:compile
+|  |  |  +- org.apache.kerby:kerb-client:jar:1.0.1:compile
+|  |  |  |  +- org.apache.kerby:kerby-config:jar:1.0.1:compile
+|  |  |  |  +- org.apache.kerby:kerb-core:jar:1.0.1:compile
+|  |  |  |  |  \- org.apache.kerby:kerby-pkix:jar:1.0.1:compile
+|  |  |  |  |     +- org.apache.kerby:kerby-asn1:jar:1.0.1:compile
+|  |  |  |  |     \- org.apache.kerby:kerby-util:jar:1.0.1:compile
+|  |  |  |  +- org.apache.kerby:kerb-common:jar:1.0.1:compile
+|  |  |  |  |  +- (org.apache.kerby:kerby-config:jar:1.0.1:compile - omitted for duplicate)
+|  |  |  |  |  +- org.apache.kerby:kerb-crypto:jar:1.0.1:compile
+|  |  |  |  |  |  +- (org.apache.kerby:kerby-util:jar:1.0.1:compile - omitted for duplicate)
+|  |  |  |  |  |  \- (org.apache.kerby:kerb-core:jar:1.0.1:compile - omitted for duplicate)
+|  |  |  |  |  \- (commons-io:commons-io:jar:2.4:compile - version managed from 2.5; omitted for duplicate)
+|  |  |  |  +- org.apache.kerby:kerb-util:jar:1.0.1:compile
+|  |  |  |  |  +- (org.apache.kerby:kerby-config:jar:1.0.1:compile - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.kerby:kerb-core:jar:1.0.1:compile - omitted for duplicate)
+|  |  |  |  |  \- (org.apache.kerby:kerb-crypto:jar:1.0.1:compile - omitted for duplicate)
+|  |  |  |  \- org.apache.kerby:token-provider:jar:1.0.1:compile
+|  |  |  |     +- (org.apache.kerby:kerb-core:jar:1.0.1:compile - omitted for duplicate)
+|  |  |  |     \- (com.nimbusds:nimbus-jose-jwt:jar:4.41.2:compile - version managed from 3.10; omitted for duplicate)
+|  |  |  \- org.apache.kerby:kerb-admin:jar:1.0.1:compile
+|  |  |     +- org.apache.kerby:kerb-server:jar:1.0.1:compile
+|  |  |     |  +- (org.apache.kerby:kerb-common:jar:1.0.1:compile - omitted for duplicate)
+|  |  |     |  \- org.apache.kerby:kerb-identity:jar:1.0.1:compile
+|  |  |     |     +- (org.apache.kerby:kerby-config:jar:1.0.1:compile - omitted for duplicate)
+|  |  |     |     \- (org.apache.kerby:kerb-core:jar:1.0.1:compile - omitted for duplicate)
+|  |  |     +- (org.apache.kerby:kerb-util:jar:1.0.1:compile - omitted for duplicate)
+|  |  |     \- org.apache.kerby:kerby-xdr:jar:1.0.1:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile - version managed from 2.4.2; omitted for duplicate)
+|  |  +- org.codehaus.woodstox:stax2-api:jar:3.1.4:compile
+|  |  \- com.fasterxml.woodstox:woodstox-core:jar:5.0.3:compile
+|  |     \- (org.codehaus.woodstox:stax2-api:jar:3.1.4:compile - omitted for duplicate)
+|  +- org.apache.hadoop:hadoop-auth:jar:3.0.0:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.6.6:compile - version managed from 1.6.1; omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.7:compile - version managed from 1.10; omitted for duplicate)
+|  |  +- (log4j:log4j:jar:1.2.17:runtime - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-log4j12:jar:1.6.6:compile - version managed from 1.7.25; scope updated from runtime; omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.4:compile - version managed from 4.5.2; omitted for duplicate)
+|  |  +- (com.nimbusds:nimbus-jose-jwt:jar:4.41.2:compile - version managed from 4.41.1; omitted for duplicate)
+|  |  +- (org.apache.zookeeper:zookeeper:jar:3.4.10:compile - version managed from 3.4.9; omitted for duplicate)
+|  |  +- (org.apache.curator:curator-framework:jar:4.0.0:compile - version managed from 2.12.0; omitted for duplicate)
+|  |  +- (org.apache.kerby:kerb-simplekdc:jar:1.0.1:compile - omitted for duplicate)
+|  |  \- (com.google.guava:guava:jar:11.0.2:compile - omitted for duplicate)
+|  +- org.slf4j:slf4j-api:jar:1.6.6:compile
+|  +- org.eclipse.jetty:jetty-server:jar:9.2.22.v20170606:compile
+|  |  +- (javax.servlet:javax.servlet-api:jar:3.1.0:compile - omitted for duplicate)
+|  |  +- org.eclipse.jetty:jetty-http:jar:9.2.22.v20170606:compile
+|  |  |  \- (org.eclipse.jetty:jetty-util:jar:9.2.22.v20170606:compile - version managed from 9.3.19.v20170502; omitted for duplicate)
+|  |  \- org.eclipse.jetty:jetty-io:jar:9.2.22.v20170606:compile
+|  |     \- (org.eclipse.jetty:jetty-util:jar:9.2.22.v20170606:compile - version managed from 9.3.19.v20170502; omitted for duplicate)
+|  +- org.eclipse.jetty:jetty-servlet:jar:9.2.22.v20170606:compile
+|  |  \- org.eclipse.jetty:jetty-security:jar:9.2.22.v20170606:compile
+|  |     \- (org.eclipse.jetty:jetty-server:jar:9.2.22.v20170606:compile - version managed from 9.3.19.v20170502; omitted for duplicate)
+|  +- org.eclipse.jetty:jetty-webapp:jar:9.2.22.v20170606:compile
+|  |  +- org.eclipse.jetty:jetty-xml:jar:9.2.22.v20170606:compile
+|  |  |  \- (org.eclipse.jetty:jetty-util:jar:9.2.22.v20170606:compile - version managed from 9.3.19.v20170502; omitted for duplicate)
+|  |  \- (org.eclipse.jetty:jetty-servlet:jar:9.2.22.v20170606:compile - version managed from 9.3.19.v20170502; omitted for duplicate)
+|  +- org.eclipse.jetty:jetty-servlets:jar:9.2.22.v20170606:compile
+|  |  +- org.eclipse.jetty:jetty-continuation:jar:9.2.22.v20170606:compile
+|  |  +- (org.eclipse.jetty:jetty-http:jar:9.2.22.v20170606:compile - omitted for duplicate)
+|  |  +- (org.eclipse.jetty:jetty-util:jar:9.2.22.v20170606:compile - version managed from 9.3.19.v20170502; omitted for duplicate)
+|  |  \- (org.eclipse.jetty:jetty-io:jar:9.2.22.v20170606:compile - omitted for duplicate)
+|  +- javax.servlet:javax.servlet-api:jar:3.1.0:compile
+|  +- org.apache.httpcomponents:httpclient:jar:4.5.4:compile
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.4.7:compile
+|  |  +- commons-logging:commons-logging:jar:1.2:compile
+|  |  \- (commons-codec:commons-codec:jar:1.7:compile - version managed from 1.10; omitted for duplicate)
+|  +- org.apache.shiro:shiro-web:jar:1.2.6:compile
+|  |  \- org.apache.shiro:shiro-core:jar:1.2.6:compile
+|  |     +- (org.slf4j:slf4j-api:jar:1.6.6:compile - version managed from 1.6.4; omitted for duplicate)
+|  |     \- (commons-beanutils:commons-beanutils:jar:1.9.3:compile - version managed from 1.8.3; omitted for duplicate)
+|  +- commons-codec:commons-codec:jar:1.7:compile
+|  +- commons-net:commons-net:jar:1.4.1:compile
+|  |  \- oro:oro:jar:2.0.8:compile
+|  +- org.apache.commons:commons-digester3:jar:3.2:compile
+|  |  +- cglib:cglib:jar:2.2.2:compile
+|  |  |  \- asm:asm:jar:3.3.1:compile
+|  |  +- (commons-beanutils:commons-beanutils:jar:1.9.3:compile - version managed from 1.8.3; omitted for duplicate)
+|  |  \- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for conflict with 1.2)
+|  +- commons-cli:commons-cli:jar:1.2:compile
+|  +- org.jboss.shrinkwrap:shrinkwrap-api:jar:1.2.3:compile
+|  +- org.jboss.shrinkwrap:shrinkwrap-impl-base:jar:1.2.3:compile
+|  |  +- (org.jboss.shrinkwrap:shrinkwrap-api:jar:1.2.3:compile - omitted for duplicate)
+|  |  \- org.jboss.shrinkwrap:shrinkwrap-spi:jar:1.2.3:compile
+|  |     \- (org.jboss.shrinkwrap:shrinkwrap-api:jar:1.2.3:compile - omitted for duplicate)
+|  +- org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-api-javaee:jar:2.0.0-alpha-8:compile
+|  |  \- org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-api-base:jar:2.0.0-alpha-8:compile
+|  +- org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-impl-javaee:jar:2.0.0-alpha-8:compile
+|  |  +- (org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-api-javaee:jar:2.0.0-alpha-8:compile - omitted for duplicate)
+|  |  \- org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-impl-base:jar:2.0.0-alpha-8:compile
+|  |     \- org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-spi:jar:2.0.0-alpha-8:compile
+|  |        \- (org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-api-base:jar:2.0.0-alpha-8:compile - omitted for duplicate)
+|  +- commons-io:commons-io:jar:2.4:compile
+|  +- org.apache.knox:gateway-service-definitions:jar:1.1.0:compile
+|  |  \- (org.eclipse.persistence:eclipselink:jar:2.5.2:compile - omitted for duplicate)
+|  +- (org.apache.knox:gateway-provider-rewrite:jar:1.1.0:compile - omitted for duplicate)
+|  +- org.apache.knox:gateway-server-xforwarded-filter:jar:1.1.0:compile
+|  |  \- (org.apache.knox:gateway-spi:jar:1.1.0:compile - omitted for duplicate)
+|  +- org.apache.knox:gateway-service-remoteconfig:jar:1.1.0:compile
+|  |  +- (org.apache.knox:gateway-spi:jar:1.1.0:compile - omitted for duplicate)
+|  |  +- (org.apache.zookeeper:zookeeper:jar:3.4.10:compile - version managed from 3.4.9; omitted for duplicate)
+|  |  +- (org.apache.curator:curator-framework:jar:4.0.0:compile - version managed from 2.12.0; omitted for duplicate)
+|  |  \- (org.apache.curator:curator-client:jar:4.0.0:compile - version managed from 2.12.0; omitted for duplicate)
+|  +- net.lingala.zip4j:zip4j:jar:1.3.2:compile
+|  +- joda-time:joda-time:jar:2.9.2:compile
+|  +- io.dropwizard.metrics:metrics-graphite:jar:3.1.2:compile
+|  |  +- (io.dropwizard.metrics:metrics-core:jar:3.1.2:compile - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.6.6:compile - version managed from 1.7.7; omitted for duplicate)
+|  +- io.dropwizard.metrics:metrics-jetty9:jar:3.1.2:compile
+|  |  +- (io.dropwizard.metrics:metrics-core:jar:3.1.2:compile - omitted for duplicate)
+|  |  +- (org.eclipse.jetty:jetty-server:jar:9.2.22.v20170606:compile - version managed from 9.2.2.v20140723; omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.6.6:compile - version managed from 1.7.7; omitted for duplicate)
+|  +- org.eclipse.jetty:jetty-annotations:jar:9.2.22.v20170606:compile
+|  |  +- org.eclipse.jetty:jetty-plus:jar:9.2.22.v20170606:compile
+|  |  |  +- (org.eclipse.jetty:jetty-webapp:jar:9.2.22.v20170606:compile - version managed from 9.3.19.v20170502; omitted for duplicate)
+|  |  |  \- org.eclipse.jetty:jetty-jndi:jar:9.2.22.v20170606:compile
+|  |  |     \- (org.eclipse.jetty:jetty-util:jar:9.2.22.v20170606:compile - version managed from 9.3.19.v20170502; omitted for duplicate)
+|  |  +- (org.eclipse.jetty:jetty-webapp:jar:9.2.22.v20170606:compile - version managed from 9.3.19.v20170502; omitted for duplicate)
+|  |  +- javax.annotation:javax.annotation-api:jar:1.2:compile
+|  |  +- org.ow2.asm:asm:jar:5.0.1:compile
+|  |  \- org.ow2.asm:asm-commons:jar:5.0.1:compile
+|  |     \- org.ow2.asm:asm-tree:jar:5.0.1:compile
+|  |        \- (org.ow2.asm:asm:jar:5.0.1:compile - omitted for duplicate)
+|  +- org.eclipse.jetty:apache-jsp:jar:9.2.22.v20170606:compile
+|  |  +- (org.eclipse.jetty:jetty-util:jar:9.2.22.v20170606:compile - version managed from 9.3.19.v20170502; omitted for duplicate)
+|  |  +- (org.eclipse.jetty:jetty-server:jar:9.2.22.v20170606:compile - version managed from 9.2.2.v20140723; omitted for duplicate)
+|  |  +- org.eclipse.jetty.toolchain:jetty-schemas:jar:3.1.M0:compile
+|  |  +- (javax.servlet:javax.servlet-api:jar:3.1.0:compile - omitted for duplicate)
+|  |  +- org.mortbay.jasper:apache-jsp:jar:8.0.33:compile
+|  |  |  +- (org.eclipse.jetty.toolchain:jetty-schemas:jar:3.1.M0:compile - omitted for duplicate)
+|  |  |  \- org.mortbay.jasper:apache-el:jar:8.0.33:compile
+|  |  \- org.eclipse.jetty.orbit:org.eclipse.jdt.core:jar:3.8.2.v20130121:compile
+|  +- org.eclipse.jetty:apache-jstl:jar:9.2.22.v20170606:compile
+|  |  +- org.apache.taglibs:taglibs-standard-spec:jar:1.2.1:compile
+|  |  \- org.apache.taglibs:taglibs-standard-impl:jar:1.2.1:compile
+|  +- org.eclipse.jetty.websocket:websocket-server:jar:9.2.22.v20170606:compile
+|  |  +- org.eclipse.jetty.websocket:websocket-common:jar:9.2.22.v20170606:compile
+|  |  |  +- (org.eclipse.jetty.websocket:websocket-api:jar:9.2.22.v20170606:compile - omitted for duplicate)
+|  |  |  +- (org.eclipse.jetty:jetty-util:jar:9.2.22.v20170606:compile - version managed from 9.3.19.v20170502; omitted for duplicate)
+|  |  |  \- (org.eclipse.jetty:jetty-io:jar:9.2.22.v20170606:compile - omitted for duplicate)
+|  |  +- org.eclipse.jetty.websocket:websocket-client:jar:9.2.22.v20170606:compile
+|  |  |  +- (org.eclipse.jetty:jetty-util:jar:9.2.22.v20170606:compile - version managed from 9.3.19.v20170502; omitted for duplicate)
+|  |  |  +- (org.eclipse.jetty:jetty-io:jar:9.2.22.v20170606:compile - omitted for duplicate)
+|  |  |  \- (org.eclipse.jetty.websocket:websocket-common:jar:9.2.22.v20170606:compile - omitted for duplicate)
+|  |  +- (org.eclipse.jetty.websocket:websocket-servlet:jar:9.2.22.v20170606:compile - omitted for duplicate)
+|  |  +- (org.eclipse.jetty:jetty-servlet:jar:9.2.22.v20170606:compile - version managed from 9.3.19.v20170502; omitted for duplicate)
+|  |  \- (org.eclipse.jetty:jetty-http:jar:9.2.22.v20170606:compile - omitted for duplicate)
+|  +- org.eclipse.jetty.websocket:websocket-servlet:jar:9.2.22.v20170606:compile
+|  |  +- org.eclipse.jetty.websocket:websocket-api:jar:9.2.22.v20170606:compile
+|  |  \- (javax.servlet:javax.servlet-api:jar:3.1.0:compile - omitted for duplicate)
+|  +- javax.websocket:javax.websocket-api:jar:1.1:compile
+|  +- org.eclipse.jetty.websocket:javax-websocket-server-impl:jar:9.2.22.v20170606:compile
+|  |  +- (org.eclipse.jetty:jetty-annotations:jar:9.2.22.v20170606:compile - omitted for duplicate)
+|  |  +- (org.eclipse.jetty.websocket:javax-websocket-client-impl:jar:9.2.22.v20170606:compile - omitted for duplicate)
+|  |  +- (org.eclipse.jetty.websocket:websocket-server:jar:9.2.22.v20170606:compile - omitted for duplicate)
+|  |  \- (javax.websocket:javax.websocket-api:jar:1.1:compile - version managed from 1.0; omitted for duplicate)
+|  +- org.eclipse.jetty.websocket:javax-websocket-client-impl:jar:9.2.22.v20170606:compile
+|  |  +- (org.eclipse.jetty.websocket:websocket-client:jar:9.2.22.v20170606:compile - omitted for duplicate)
+|  |  \- (javax.websocket:javax.websocket-api:jar:1.1:compile - version managed from 1.0; omitted for duplicate)
+|  +- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.9.5:compile
+|  |  +- org.yaml:snakeyaml:jar:1.18:compile
+|  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.9.5:compile
+|  \- io.dropwizard.metrics:metrics-servlets:jar:3.1.2:compile
+|     +- (io.dropwizard.metrics:metrics-core:jar:3.1.2:compile - omitted for duplicate)
+|     +- io.dropwizard.metrics:metrics-healthchecks:jar:3.1.2:compile
+|     |  \- (org.slf4j:slf4j-api:jar:1.6.6:compile - version managed from 1.7.7; omitted for duplicate)
+|     +- io.dropwizard.metrics:metrics-json:jar:3.1.2:compile
+|     |  +- (io.dropwizard.metrics:metrics-core:jar:3.1.2:compile - omitted for duplicate)
+|     |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile - version managed from 2.4.2; omitted for duplicate)
+|     |  \- (org.slf4j:slf4j-api:jar:1.6.6:compile - version managed from 1.7.7; omitted for duplicate)
+|     +- io.dropwizard.metrics:metrics-jvm:jar:3.1.2:compile
+|     |  +- (io.dropwizard.metrics:metrics-core:jar:3.1.2:compile - omitted for duplicate)
+|     |  \- (org.slf4j:slf4j-api:jar:1.6.6:compile - version managed from 1.7.7; omitted for duplicate)
+|     +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile - version managed from 2.4.2; omitted for duplicate)
+|     \- (org.slf4j:slf4j-api:jar:1.6.6:compile - version managed from 1.7.7; omitted for duplicate)
++- org.apache.knox:knox-cli-launcher:jar:1.1.0:compile
+|  \- (org.apache.knox:gateway-util-launcher:jar:1.1.0:compile - omitted for duplicate)
++- org.apache.knox:gateway-server-launcher:jar:1.1.0:compile
+|  \- (org.apache.knox:gateway-util-launcher:jar:1.1.0:compile - omitted for duplicate)
++- org.apache.knox:gateway-service-admin:jar:1.1.0:compile
+|  +- (org.apache.knox:gateway-spi:jar:1.1.0:compile - omitted for duplicate)
+|  +- (org.apache.knox:gateway-provider-rewrite:jar:1.1.0:compile - omitted for duplicate)
+|  +- org.apache.knox:gateway-provider-jersey:jar:1.1.0:compile
+|  |  +- org.glassfish.jersey.containers:jersey-container-servlet:jar:2.6:compile
+|  |  |  +- org.glassfish.jersey.containers:jersey-container-servlet-core:jar:2.6:compile
+|  |  |  |  +- (org.glassfish.hk2.external:javax.inject:jar:2.2.0:compile - omitted for duplicate)
+|  |  |  |  +- (org.glassfish.jersey.core:jersey-server:jar:2.6:compile - omitted for duplicate)
+|  |  |  |  +- (org.glassfish.jersey.core:jersey-common:jar:2.6:compile - omitted for duplicate)
+|  |  |  |  \- (javax.ws.rs:javax.ws.rs-api:jar:2.0:compile - omitted for duplicate)
+|  |  |  +- org.glassfish.jersey.core:jersey-common:jar:2.6:compile
+|  |  |  |  +- (javax.ws.rs:javax.ws.rs-api:jar:2.0:compile - omitted for duplicate)
+|  |  |  |  +- (javax.annotation:javax.annotation-api:jar:1.2:compile - omitted for duplicate)
+|  |  |  |  +- org.glassfish.jersey.bundles.repackaged:jersey-guava:jar:2.6:compile
+|  |  |  |  +- (org.glassfish.hk2:hk2-api:jar:2.2.0:compile - omitted for duplicate)
+|  |  |  |  +- (org.glassfish.hk2.external:javax.inject:jar:2.2.0:compile - omitted for duplicate)
+|  |  |  |  +- (org.glassfish.hk2:hk2-locator:jar:2.2.0:compile - omitted for duplicate)
+|  |  |  |  \- org.glassfish.hk2:osgi-resource-locator:jar:1.0.1:compile
+|  |  |  +- (org.glassfish.jersey.core:jersey-server:jar:2.6:compile - omitted for duplicate)
+|  |  |  \- javax.ws.rs:javax.ws.rs-api:jar:2.0:compile
+|  |  +- org.glassfish.jersey.core:jersey-server:jar:2.6:compile
+|  |  |  +- (org.glassfish.jersey.core:jersey-common:jar:2.6:compile - omitted for duplicate)
+|  |  |  +- org.glassfish.jersey.core:jersey-client:jar:2.6:compile
+|  |  |  |  +- (org.glassfish.jersey.core:jersey-common:jar:2.6:compile - omitted for duplicate)
+|  |  |  |  +- (javax.ws.rs:javax.ws.rs-api:jar:2.0:compile - omitted for duplicate)
+|  |  |  |  +- (org.glassfish.hk2:hk2-api:jar:2.2.0:compile - omitted for duplicate)
+|  |  |  |  +- (org.glassfish.hk2.external:javax.inject:jar:2.2.0:compile - omitted for duplicate)
+|  |  |  |  \- (org.glassfish.hk2:hk2-locator:jar:2.2.0:compile - omitted for duplicate)
+|  |  |  +- (javax.ws.rs:javax.ws.rs-api:jar:2.0:compile - omitted for duplicate)
+|  |  |  +- (javax.annotation:javax.annotation-api:jar:1.2:compile - omitted for duplicate)
+|  |  |  +- org.glassfish.hk2:hk2-api:jar:2.2.0:compile
+|  |  |  |  +- org.glassfish.hk2:hk2-utils:jar:2.2.0:compile
+|  |  |  |  \- org.glassfish.hk2.external:aopalliance-repackaged:jar:2.2.0:compile
+|  |  |  +- org.glassfish.hk2.external:javax.inject:jar:2.2.0:compile
+|  |  |  +- org.glassfish.hk2:hk2-locator:jar:2.2.0:compile
+|  |  |  |  +- (org.glassfish.hk2.external:javax.inject:jar:2.2.0:compile - omitted for duplicate)
+|  |  |  |  +- (org.glassfish.hk2.external:aopalliance-repackaged:jar:2.2.0:compile - omitted for duplicate)
+|  |  |  |  +- (org.glassfish.hk2:hk2-api:jar:2.2.0:compile - omitted for duplicate)
+|  |  |  |  +- (org.glassfish.hk2:hk2-utils:jar:2.2.0:compile - omitted for duplicate)
+|  |  |  |  \- org.javassist:javassist:jar:3.18.1-GA:compile
+|  |  |  \- javax.validation:validation-api:jar:1.1.0.Final:compile
+|  |  +- (org.jboss.shrinkwrap:shrinkwrap-api:jar:1.2.3:compile - omitted for duplicate)
+|  |  +- (org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-api-javaee:jar:2.0.0-alpha-8:compile - omitted for duplicate)
+|  |  +- (org.apache.knox:gateway-spi:jar:1.1.0:compile - omitted for duplicate)
+|  |  \- (org.apache.commons:commons-lang3:jar:3.4:compile - omitted for duplicate)
+|  \- (org.eclipse.persistence:eclipselink:jar:2.5.2:compile - omitted for duplicate)
++- org.apache.knox:gateway-service-test:jar:1.1.0:compile
+|  +- (org.apache.knox:gateway-spi:jar:1.1.0:compile - omitted for duplicate)
+|  +- (org.apache.knox:gateway-provider-rewrite:jar:1.1.0:compile - omitted for duplicate)
+|  +- (org.apache.knox:gateway-provider-jersey:jar:1.1.0:compile - omitted for duplicate)
+|  \- (org.eclipse.persistence:eclipselink:jar:2.5.2:compile - omitted for duplicate)
++- org.apache.knox:gateway-service-as:jar:1.1.0:compile
+|  +- (org.apache.knox:gateway-spi:jar:1.1.0:compile - omitted for duplicate)
+|  \- (org.apache.knox:gateway-provider-rewrite:jar:1.1.0:compile - omitted for duplicate)
++- org.apache.knox:gateway-service-hbase:jar:1.1.0:compile
+|  +- (org.apache.knox:gateway-spi:jar:1.1.0:compile - omitted for duplicate)
+|  \- (org.apache.knox:gateway-provider-rewrite:jar:1.1.0:compile - omitted for duplicate)
++- org.apache.knox:gateway-service-hive:jar:1.1.0:compile
+|  +- (org.apache.knox:gateway-spi:jar:1.1.0:compile - omitted for duplicate)
+|  +- (org.apache.knox:gateway-provider-rewrite:jar:1.1.0:compile - omitted for duplicate)
+|  +- (org.apache.knox:gateway-provider-ha:jar:1.1.0:compile - omitted for duplicate)
+|  \- (org.apache.httpcomponents:httpclient:jar:4.5.4:compile - version managed from 4.5.2; omitted for duplicate)
++- org.apache.knox:gateway-service-webhdfs:jar:1.1.0:compile
+|  +- (org.apache.knox:gateway-spi:jar:1.1.0:compile - omitted for duplicate)
+|  +- (org.apache.knox:gateway-provider-rewrite:jar:1.1.0:compile - omitted for duplicate)
+|  \- (org.apache.knox:gateway-provider-ha:jar:1.1.0:compile - omitted for duplicate)
++- org.apache.knox:gateway-service-rm:jar:1.1.0:compile
+|  +- (org.apache.knox:gateway-spi:jar:1.1.0:compile - omitted for duplicate)
+|  +- (org.apache.knox:gateway-provider-rewrite:jar:1.1.0:compile - omitted for duplicate)
+|  \- (org.apache.knox:gateway-provider-ha:jar:1.1.0:compile - omitted for duplicate)
++- org.apache.knox:gateway-service-storm:jar:1.1.0:compile
+|  +- (org.apache.knox:gateway-spi:jar:1.1.0:compile - omitted for duplicate)
+|  +- (org.apache.knox:gateway-provider-rewrite:jar:1.1.0:compile - omitted for duplicate)
+|  \- (org.apache.httpcomponents:httpclient:jar:4.5.4:compile - version managed from 4.5.2; omitted for duplicate)
++- org.apache.knox:gateway-service-tgs:jar:1.1.0:compile
+|  +- (org.apache.knox:gateway-spi:jar:1.1.0:compile - omitted for duplicate)
+|  \- (org.apache.knox:gateway-provider-rewrite:jar:1.1.0:compile - omitted for duplicate)
++- org.apache.knox:gateway-service-knoxsso:jar:1.1.0:compile
+|  +- org.apache.knox:gateway-util-common:jar:1.1.0:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile - version managed from 2.4.2; omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.7:compile - version managed from 1.10; omitted for duplicate)
+|  |  +- (javax.servlet:javax.servlet-api:jar:3.1.0:compile - omitted for duplicate)
+|  |  +- (org.apache.knox:gateway-i18n:jar:1.1.0:compile - omitted for duplicate)
+|  |  +- org.apache.directory.server:apacheds-jdbm:jar:2.0.0-M5:compile
+|  |  |  +- org.apache.directory.server:apacheds-i18n:jar:2.0.0-M5:compile
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.6.6:compile - version managed from 1.6.4; omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.6.6:compile - version managed from 1.6.4; omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.6.6:compile - version managed from 1.6.4; omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-log4j12:jar:1.6.6:compile - version managed from 1.6.1; omitted for duplicate)
+|  +- (org.apache.knox:gateway-spi:jar:1.1.0:compile - omitted for duplicate)
+|  +- (org.apache.knox:gateway-provider-rewrite:jar:1.1.0:compile - omitted for duplicate)
+|  \- (org.apache.knox:gateway-provider-jersey:jar:1.1.0:compile - omitted for duplicate)
++- org.apache.knox:gateway-service-knoxssout:jar:1.1.0:compile
+|  +- (org.apache.knox:gateway-util-common:jar:1.1.0:compile - omitted for duplicate)
+|  +- (org.apache.knox:gateway-spi:jar:1.1.0:compile - omitted for duplicate)
+|  +- (org.apache.knox:gateway-provider-rewrite:jar:1.1.0:compile - omitted for duplicate)
+|  \- (org.apache.knox:gateway-provider-jersey:jar:1.1.0:compile - omitted for duplicate)
++- org.apache.knox:gateway-service-knoxtoken:jar:1.1.0:compile
+|  +- (org.apache.knox:gateway-util-common:jar:1.1.0:compile - omitted for duplicate)
+|  +- (org.apache.knox:gateway-spi:jar:1.1.0:compile - omitted for duplicate)
+|  +- (org.apache.knox:gateway-provider-rewrite:jar:1.1.0:compile - omitted for duplicate)
+|  \- (org.apache.knox:gateway-provider-jersey:jar:1.1.0:compile - omitted for duplicate)
++- org.apache.knox:gateway-service-health:jar:1.1.0:compile
+|  +- (org.apache.knox:gateway-util-common:jar:1.1.0:compile - omitted for duplicate)
+|  +- (org.apache.knox:gateway-spi:jar:1.1.0:compile - omitted for duplicate)
+|  +- (org.apache.knox:gateway-provider-rewrite:jar:1.1.0:compile - omitted for duplicate)
+|  +- (org.apache.knox:gateway-provider-jersey:jar:1.1.0:compile - omitted for duplicate)
+|  +- (io.dropwizard.metrics:metrics-servlets:jar:3.1.2:compile - omitted for duplicate)
+|  \- (org.apache.knox:gateway-server:jar:1.1.0:compile - omitted for duplicate)
++- org.apache.knox:gateway-service-nifi:jar:1.1.0:compile
+|  +- (org.apache.knox:gateway-spi:jar:1.1.0:compile - omitted for duplicate)
+|  \- (org.apache.knox:gateway-provider-ha:jar:1.1.0:compile - omitted for duplicate)
++- org.apache.knox:gateway-provider-rewrite:jar:1.1.0:compile
+|  +- (org.apache.knox:gateway-util-common:jar:1.1.0:compile - omitted for duplicate)
+|  +- (org.apache.knox:gateway-util-urltemplate:jar:1.1.0:compile - omitted for duplicate)
+|  +- (org.apache.knox:gateway-i18n:jar:1.1.0:compile - omitted for duplicate)
+|  +- (org.apache.knox:gateway-i18n-logging-log4j:jar:1.1.0:compile - omitted for duplicate)
+|  +- (org.apache.knox:gateway-spi:jar:1.1.0:compile - omitted for duplicate)
+|  +- (org.apache.commons:commons-digester3:jar:3.2:compile - omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.4:compile - version managed from 2.5; omitted for duplicate)
+|  +- org.apache.commons:commons-lang3:jar:3.4:compile
+|  +- net.htmlparser.jericho:jericho-html:jar:3.2:compile
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile
+|  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+|  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.5:compile - omitted for duplicate)
+|  \- org.eclipse.jetty:jetty-util:jar:9.2.22.v20170606:compile
++- org.apache.knox:gateway-provider-rewrite-step-secure-query:jar:1.1.0:compile
+|  +- (org.apache.knox:gateway-util-common:jar:1.1.0:compile - omitted for duplicate)
+|  +- (org.apache.knox:gateway-util-urltemplate:jar:1.1.0:compile - omitted for duplicate)
+|  +- (org.apache.knox:gateway-i18n:jar:1.1.0:compile - omitted for duplicate)
+|  +- (org.apache.knox:gateway-i18n-logging-log4j:jar:1.1.0:compile - omitted for duplicate)
+|  +- (org.apache.knox:gateway-spi:jar:1.1.0:compile - omitted for duplicate)
+|  +- (org.apache.knox:gateway-provider-rewrite:jar:1.1.0:compile - omitted for duplicate)
+|  \- (commons-codec:commons-codec:jar:1.7:compile - version managed from 1.10; omitted for duplicate)
++- org.apache.knox:gateway-provider-rewrite-step-encrypt-uri:jar:1.1.0:compile
+|  +- (org.apache.knox:gateway-util-common:jar:1.1.0:compile - omitted for duplicate)
+|  +- (org.apache.knox:gateway-util-urltemplate:jar:1.1.0:compile - omitted for duplicate)
+|  +- (org.apache.knox:gateway-i18n:jar:1.1.0:compile - omitted for duplicate)
+|  +- (org.apache.knox:gateway-i18n-logging-log4j:jar:1.1.0:compile - omitted for duplicate)
+|  +- (org.apache.knox:gateway-spi:jar:1.1.0:compile - omitted for duplicate)
+|  +- (org.apache.knox:gateway-provider-rewrite:jar:1.1.0:compile - omitted for duplicate)
+|  \- (commons-codec:commons-codec:jar:1.7:compile - version managed from 1.10; omitted for duplicate)
++- org.apache.knox:gateway-provider-rewrite-func-hostmap-static:jar:1.1.0:compile
+|  +- (org.apache.knox:gateway-i18n:jar:1.1.0:compile - omitted for duplicate)
+|  +- (org.apache.knox:gateway-spi:jar:1.1.0:compile - omitted for duplicate)
+|  +- (org.apache.knox:gateway-provider-rewrite:jar:1.1.0:compile - omitted for duplicate)
+|  +- (org.jboss.shrinkwrap:shrinkwrap-api:jar:1.2.3:compile - omitted for duplicate)
+|  +- (org.jboss.shrinkwrap:shrinkwrap-impl-base:jar:1.2.3:compile - omitted for duplicate)
+|  +- (org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-api-javaee:jar:2.0.0-alpha-8:compile - omitted for duplicate)
+|  \- (org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-impl-javaee:jar:2.0.0-alpha-8:compile - omitted for duplicate)
++- org.apache.knox:gateway-provider-rewrite-func-service-registry:jar:1.1.0:compile
+|  +- (org.apache.knox:gateway-i18n:jar:1.1.0:compile - omitted for duplicate)
+|  +- (org.apache.knox:gateway-i18n-logging-log4j:jar:1.1.0:compile - omitted for duplicate)
+|  +- (org.apache.knox:gateway-spi:jar:1.1.0:compile - omitted for duplicate)
+|  +- (org.apache.knox:gateway-provider-rewrite:jar:1.1.0:compile - omitted for duplicate)
+|  +- (org.apache.knox:gateway-provider-ha:jar:1.1.0:compile - omitted for duplicate)
+|  \- (javax.servlet:javax.servlet-api:jar:3.1.0:compile - omitted for duplicate)
++- org.apache.knox:gateway-provider-rewrite-func-inbound-query-param:jar:1.1.0:compile
+|  +- (org.apache.knox:gateway-i18n:jar:1.1.0:compile - omitted for duplicate)
+|  +- (org.apache.knox:gateway-spi:jar:1.1.0:compile - omitted for duplicate)
+|  +- (org.apache.knox:gateway-provider-rewrite:jar:1.1.0:compile - omitted for duplicate)
+|  +- (org.jboss.shrinkwrap:shrinkwrap-api:jar:1.2.3:compile - omitted for duplicate)
+|  +- (org.jboss.shrinkwrap:shrinkwrap-impl-base:jar:1.2.3:compile - omitted for duplicate)
+|  +- (org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-api-javaee:jar:2.0.0-alpha-8:compile - omitted for duplicate)
+|  \- (org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-impl-javaee:jar:2.0.0-alpha-8:compile - omitted for duplicate)
++- org.apache.knox:gateway-provider-security-shiro:jar:1.1.0:compile
+|  +- (org.apache.knox:gateway-server:jar:1.1.0:compile - omitted for duplicate)
+|  +- (org.apache.knox:gateway-spi:jar:1.1.0:compile - omitted for duplicate)
+|  +- (org.jboss.shrinkwrap:shrinkwrap-api:jar:1.2.3:compile - omitted for duplicate)
+|  +- (org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-api-javaee:jar:2.0.0-alpha-8:compile - omitted for duplicate)
+|  +- (org.apache.shiro:shiro-web:jar:1.2.6:compile - omitted for duplicate)
+|  +- org.apache.shiro:shiro-ehcache:jar:1.2.6:compile
+|  |  +- (org.apache.shiro:shiro-core:jar:1.2.6:compile - omitted for duplicate)
+|  |  \- net.sf.ehcache:ehcache-core:jar:2.5.0:compile
+|  |     \- (org.slf4j:slf4j-api:jar:1.6.6:compile - version managed from 1.6.1; omitted for duplicate)
+|  +- org.abstractj:libpam4j:jar:1.9.1:compile
+|  |  \- net.java.dev.jna:jna:jar:4.1.0:compile
+|  \- (commons-io:commons-io:jar:2.4:compile - version managed from 2.5; omitted for duplicate)
++- org.apache.knox:gateway-provider-security-jwt:jar:1.1.0:compile
+|  +- (org.apache.knox:gateway-spi:jar:1.1.0:compile - omitted for duplicate)
+|  +- (org.apache.knox:gateway-util-common:jar:1.1.0:compile - omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.4:compile - version managed from 2.5; omitted for duplicate)
+|  +- (commons-codec:commons-codec:jar:1.7:compile - version managed from 1.10; omitted for duplicate)
+|  \- log4j:log4j:jar:1.2.17:compile
++- org.apache.knox:gateway-provider-security-pac4j:jar:1.1.0:compile
+|  +- (org.apache.knox:gateway-server:jar:1.1.0:compile - omitted for duplicate)
+|  +- org.pac4j:j2e-pac4j:jar:3.0.0:compile
+|  +- org.pac4j:pac4j-http:jar:2.1.0:compile
+|  |  +- (org.pac4j:pac4j-core:jar:2.1.0:compile - omitted for duplicate)
+|  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile - version managed from 2.8.7; omitted for duplicate)
+|  +- org.pac4j:pac4j-oidc:jar:2.1.0:compile
+|  |  +- (org.pac4j:pac4j-core:jar:2.1.0:compile - omitted for duplicate)
+|  |  +- com.nimbusds:oauth2-oidc-sdk:jar:5.24.2:compile
+|  |  |  +- javax.mail:mail:jar:1.4.7:compile
+|  |  |  |  \- javax.activation:activation:jar:1.1:compile
+|  |  |  +- (com.github.stephenc.jcip:jcip-annotations:jar:1.0-1:compile - omitted for duplicate)
+|  |  |  +- (org.apache.commons:commons-lang3:jar:3.4:compile - version managed from 3.5; omitted for duplicate)
+|  |  |  +- org.apache.commons:commons-collections4:jar:4.1:compile
+|  |  |  \- (net.minidev:json-smart:jar:2.3:compile - version managed from 1.3.1; omitted for duplicate)
+|  |  \- (com.nimbusds:nimbus-jose-jwt:jar:4.41.2:compile - version managed from 4.34.2; omitted for duplicate)
+|  +- org.pac4j:pac4j-saml:jar:2.1.0:compile
+|  |  +- (org.pac4j:pac4j-core:jar:2.1.0:compile - omitted for duplicate)
+|  |  +- org.opensaml:opensaml-core:jar:3.3.0:compile
+|  |  |  +- (joda-time:joda-time:jar:2.9.2:compile - version managed from 2.9; omitted for duplicate)
+|  |  |  +- (io.dropwizard.metrics:metrics-core:jar:3.1.2:compile - omitted for duplicate)
+|  |  |  +- (net.shibboleth.utilities:java-support:jar:7.3.0:compile - omitted for duplicate)
+|  |  |  +- (commons-codec:commons-codec:jar:1.7:compile - version managed from 1.10; omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.6.6:compile - version managed from 1.7.12; omitted for duplicate)
+|  |  +- net.shibboleth.utilities:java-support:jar:7.3.0:compile
+|  |  |  +- (commons-codec:commons-codec:jar:1.7:compile - version managed from 1.10; omitted for duplicate)
+|  |  |  +- (com.google.code.findbugs:jsr305:jar:3.0.1:compile - omitted for conflict with 3.0.0)
+|  |  |  +- (com.google.guava:guava:jar:19.0:compile - omitted for conflict with 11.0.2)
+|  |  |  +- (joda-time:joda-time:jar:2.9.2:compile - version managed from 2.9; omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.6.6:compile - version managed from 1.7.12; omitted for duplicate)
+|  |  +- org.opensaml:opensaml-saml-api:jar:3.3.0:compile
+|  |  |  +- (org.opensaml:opensaml-xmlsec-api:jar:3.3.0:compile - omitted for duplicate)
+|  |  |  +- (org.opensaml:opensaml-soap-api:jar:3.3.0:compile - omitted for duplicate)
+|  |  |  +- (org.opensaml:opensaml-messaging-api:jar:3.3.0:compile - omitted for duplicate)
+|  |  |  +- (org.opensaml:opensaml-profile-api:jar:3.3.0:compile - omitted for duplicate)
+|  |  |  +- org.opensaml:opensaml-storage-api:jar:3.3.0:compile
+|  |  |  |  +- (joda-time:joda-time:jar:2.9.2:compile - version managed from 2.9; omitted for duplicate)
+|  |  |  |  +- (net.shibboleth.utilities:java-support:jar:7.3.0:compile - omitted for duplicate)
+|  |  |  |  +- (commons-codec:commons-codec:jar:1.7:compile - version managed from 1.10; omitted for duplicate)
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.6.6:compile - version managed from 1.7.12; omitted for duplicate)
+|  |  |  +- (net.shibboleth.utilities:java-support:jar:7.3.0:compile - omitted for duplicate)
+|  |  |  +- (commons-codec:commons-codec:jar:1.7:compile - version managed from 1.10; omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.6.6:compile - version managed from 1.7.12; omitted for duplicate)
+|  |  +- org.opensaml:opensaml-saml-impl:jar:3.3.0:compile
+|  |  |  +- (org.opensaml:opensaml-profile-api:jar:3.3.0:compile - omitted for duplicate)
+|  |  |  +- (org.opensaml:opensaml-saml-api:jar:3.3.0:compile - omitted for duplicate)
+|  |  |  +- (org.opensaml:opensaml-storage-api:jar:3.3.0:compile - omitted for duplicate)
+|  |  |  +- (org.opensaml:opensaml-security-impl:jar:3.3.0:compile - omitted for duplicate)
+|  |  |  +- (org.opensaml:opensaml-xmlsec-impl:jar:3.3.0:compile - omitted for duplicate)
+|  |  |  +- org.opensaml:opensaml-soap-impl:jar:3.3.0:compile
+|  |  |  |  +- (org.opensaml:opensaml-soap-api:jar:3.3.0:compile - omitted for duplicate)
+|  |  |  |  +- (org.opensaml:opensaml-profile-api:jar:3.3.0:compile - omitted for duplicate)
+|  |  |  |  +- (net.shibboleth.utilities:java-support:jar:7.3.0:compile - omitted for duplicate)
+|  |  |  |  +- (commons-codec:commons-codec:jar:1.7:compile - version managed from 1.10; omitted for duplicate)
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.6.6:compile - version managed from 1.7.12; omitted for duplicate)
+|  |  |  +- (org.apache.velocity:velocity:jar:1.7:compile - omitted for duplicate)
+|  |  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.4:compile - version managed from 4.3.6; omitted for duplicate)
+|  |  |  +- (net.shibboleth.utilities:java-support:jar:7.3.0:compile - omitted for duplicate)
+|  |  |  +- (commons-codec:commons-codec:jar:1.7:compile - version managed from 1.10; omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.6.6:compile - version managed from 1.7.12; omitted for duplicate)
+|  |  +- org.opensaml:opensaml-soap-api:jar:3.3.0:compile
+|  |  |  +- (org.opensaml:opensaml-xmlsec-api:jar:3.3.0:compile - omitted for duplicate)
+|  |  |  +- (org.opensaml:opensaml-messaging-api:jar:3.3.0:compile - omitted for duplicate)
+|  |  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.4:compile - version managed from 4.3.6; omitted for duplicate)
+|  |  |  +- (net.shibboleth.utilities:java-support:jar:7.3.0:compile - omitted for duplicate)
+|  |  |  +- (commons-codec:commons-codec:jar:1.7:compile - version managed from 1.10; omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.6.6:compile - version managed from 1.7.12; omitted for duplicate)
+|  |  +- org.opensaml:opensaml-xmlsec-api:jar:3.3.0:compile
+|  |  |  +- (org.opensaml:opensaml-security-api:jar:3.3.0:compile - omitted for duplicate)
+|  |  |  +- (org.opensaml:opensaml-messaging-api:jar:3.3.0:compile - omitted for duplicate)
+|  |  |  +- (net.shibboleth.utilities:java-support:jar:7.3.0:compile - omitted for duplicate)
+|  |  |  +- (commons-codec:commons-codec:jar:1.7:compile - version managed from 1.10; omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.6.6:compile - version managed from 1.7.12; omitted for duplicate)
+|  |  +- org.opensaml:opensaml-security-api:jar:3.3.0:compile
+|  |  |  +- (org.opensaml:opensaml-core:jar:3.3.0:compile - omitted for duplicate)
+|  |  |  +- (org.opensaml:opensaml-messaging-api:jar:3.3.0:compile - omitted for duplicate)
+|  |  |  +- org.apache.santuario:xmlsec:jar:2.0.5:compile
+|  |  |  |  +- (org.slf4j:slf4j-api:jar:1.6.6:compile - version managed from 1.7.12; omitted for duplicate)
+|  |  |  |  +- org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1:compile
+|  |  |  |  |  +- javax.xml.stream:stax-api:jar:1.0-2:compile
+|  |  |  |  |  \- (org.codehaus.woodstox:stax2-api:jar:3.1.4:compile - omitted for duplicate)
+|  |  |  |  \- (commons-codec:commons-codec:jar:1.7:compile - version managed from 1.10; omitted for duplicate)
+|  |  |  +- (org.cryptacular:cryptacular:jar:1.1.1:compile - omitted for conflict with 1.1.0)
+|  |  |  +- org.bouncycastle:bcprov-jdk15on:jar:1.54:compile
+|  |  |  +- (net.shibboleth.utilities:java-support:jar:7.3.0:compile - omitted for duplicate)
+|  |  |  +- (commons-codec:commons-codec:jar:1.7:compile - version managed from 1.10; omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.6.6:compile - version managed from 1.7.12; omitted for duplicate)
+|  |  +- org.opensaml:opensaml-security-impl:jar:3.3.0:compile
+|  |  |  +- (org.opensaml:opensaml-security-api:jar:3.3.0:compile - omitted for duplicate)
+|  |  |  +- (org.opensaml:opensaml-messaging-api:jar:3.3.0:compile - omitted for duplicate)
+|  |  |  +- (net.shibboleth.utilities:java-support:jar:7.3.0:compile - omitted for duplicate)
+|  |  |  +- (commons-codec:commons-codec:jar:1.7:compile - version managed from 1.10; omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.6.6:compile - version managed from 1.7.12; omitted for duplicate)
+|  |  +- org.opensaml:opensaml-profile-api:jar:3.3.0:compile
+|  |  |  +- (org.opensaml:opensaml-core:jar:3.3.0:compile - omitted for duplicate)
+|  |  |  +- (org.opensaml:opensaml-messaging-api:jar:3.3.0:compile - omitted for duplicate)
+|  |  |  +- (net.shibboleth.utilities:java-support:jar:7.3.0:compile - omitted for duplicate)
+|  |  |  +- (commons-codec:commons-codec:jar:1.7:compile - version managed from 1.10; omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.6.6:compile - version managed from 1.7.12; omitted for duplicate)
+|  |  +- org.opensaml:opensaml-profile-impl:jar:3.3.0:compile
+|  |  |  +- (org.opensaml:opensaml-profile-api:jar:3.3.0:compile - omitted for duplicate)
+|  |  |  +- (org.opensaml:opensaml-messaging-api:jar:3.3.0:compile - omitted for duplicate)
+|  |  |  +- (org.opensaml:opensaml-xmlsec-api:jar:3.3.0:compile - omitted for duplicate)
+|  |  |  +- (net.shibboleth.utilities:java-support:jar:7.3.0:compile - omitted for duplicate)
+|  |  |  +- (commons-codec:commons-codec:jar:1.7:compile - version managed from 1.10; omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.6.6:compile - version managed from 1.7.12; omitted for duplicate)
+|  |  +- org.opensaml:opensaml-messaging-api:jar:3.3.0:compile
+|  |  |  +- (org.opensaml:opensaml-core:jar:3.3.0:compile - omitted for duplicate)
+|  |  |  +- (joda-time:joda-time:jar:2.9.2:compile - version managed from 2.9; omitted for duplicate)
+|  |  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.4:compile - version managed from 4.3.6; omitted for duplicate)
+|  |  |  +- (net.shibboleth.utilities:java-support:jar:7.3.0:compile - omitted for duplicate)
+|  |  |  +- (commons-codec:commons-codec:jar:1.7:compile - version managed from 1.10; omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.6.6:compile - version managed from 1.7.12; omitted for duplicate)
+|  |  +- org.opensaml:opensaml-messaging-impl:jar:3.3.0:compile
+|  |  |  +- (org.opensaml:opensaml-messaging-api:jar:3.3.0:compile - omitted for duplicate)
+|  |  |  +- (net.shibboleth.utilities:java-support:jar:7.3.0:compile - omitted for duplicate)
+|  |  |  +- (commons-codec:commons-codec:jar:1.7:compile - version managed from 1.10; omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.6.6:compile - version managed from 1.7.12; omitted for duplicate)
+|  |  +- org.opensaml:opensaml-xmlsec-impl:jar:3.3.0:compile
+|  |  |  +- (org.opensaml:opensaml-xmlsec-api:jar:3.3.0:compile - omitted for duplicate)
+|  |  |  +- (org.opensaml:opensaml-security-impl:jar:3.3.0:compile - omitted for duplicate)
+|  |  |  +- (net.shibboleth.utilities:java-support:jar:7.3.0:compile - omitted for duplicate)
+|  |  |  +- (commons-codec:commons-codec:jar:1.7:compile - version managed from 1.10; omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.6.6:compile - version managed from 1.7.12; omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:21.0:compile - omitted for conflict with 11.0.2)
+|  |  +- org.cryptacular:cryptacular:jar:1.1.0:compile
+|  |  +- (joda-time:joda-time:jar:2.9.2:compile - version managed from 2.9; omitted for duplicate)
+|  |  +- (org.apache.velocity:velocity:jar:1.7:compile - omitted for duplicate)
+|  |  +- (commons-collections:commons-collections:jar:3.2.2:compile - version managed from 3.2.1; omitted for duplicate)
+|  |  \- org.slf4j:jcl-over-slf4j:jar:1.7.25:compile
+|  |     \- (org.slf4j:slf4j-api:jar:1.6.6:compile - version managed from 1.7.25; omitted for duplicate)
+|  +- org.springframework:spring-core:jar:4.3.15.RELEASE:compile
+|  |  \- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  +- org.pac4j:pac4j-cas:jar:2.1.0:compile
+|  |  +- (org.pac4j:pac4j-core:jar:2.1.0:compile - omitted for duplicate)
+|  |  +- org.jasig.cas.client:cas-client-core:jar:3.4.1:compile
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.6.6:compile - version managed from 1.7.1; omitted for duplicate)
+|  |  +- org.jasig.cas.client:cas-client-support-saml:jar:3.4.1:compile
+|  |  |  +- (org.jasig.cas.client:cas-client-core:jar:3.4.1:compile - omitted for duplicate)
+|  |  |  +- (joda-time:joda-time:jar:2.9.2:compile - version managed from 2.7; omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.6.6:compile - version managed from 1.7.1; omitted for duplicate)
+|  |  \- (com.google.guava:guava:jar:21.0:compile - omitted for conflict with 11.0.2)
+|  +- org.pac4j:pac4j-oauth:jar:2.1.0:compile
+|  |  +- (org.pac4j:pac4j-core:jar:2.1.0:compile - omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.7:compile - version managed from 1.10; omitted for duplicate)
+|  |  +- com.github.scribejava:scribejava-apis:jar:3.3.0:compile
+|  |  |  \- com.github.scribejava:scribejava-core:jar:3.3.0:compile
+|  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile - version managed from 2.8.7; omitted for duplicate)
+|  +- org.pac4j:pac4j-core:jar:2.1.0:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.6.6:compile - version managed from 1.7.25; omitted for duplicate)
+|  +- com.nimbusds:lang-tag:jar:1.4.3:compile
+|  |  \- (net.minidev:json-smart:jar:2.3:compile - version managed from 1.3.1; omitted for duplicate)
+|  +- org.pac4j:pac4j-config:jar:2.1.0:compile
+|  |  +- (org.pac4j:pac4j-core:jar:2.1.0:compile - omitted for duplicate)
+|  |  \- com.zaxxer:HikariCP:jar:2.6.1:compile
+|  |     \- (org.slf4j:slf4j-api:jar:1.6.6:compile - version managed from 1.7.22; omitted for duplicate)
+|  \- org.apache.velocity:velocity:jar:1.7:compile
+|     +- (commons-collections:commons-collections:jar:3.2.2:compile - version managed from 3.2.1; omitted for duplicate)
+|     \- (commons-lang:commons-lang:jar:2.4:compile - omitted for conflict with 2.6)
++- org.apache.knox:gateway-provider-security-webappsec:jar:1.1.0:compile
+|  +- (org.apache.knox:gateway-spi:jar:1.1.0:compile - omitted for duplicate)
+|  +- (org.apache.knox:gateway-util-common:jar:1.1.0:compile - omitted for duplicate)
+|  \- com.thetransactioncompany:cors-filter:jar:2.4:compile
+|     \- com.thetransactioncompany:java-property-utils:jar:1.9.1:compile
++- org.apache.knox:gateway-provider-security-preauth:jar:1.1.0:compile
+|  +- (org.apache.knox:gateway-spi:jar:1.1.0:compile - omitted for duplicate)
+|  +- (org.apache.knox:gateway-util-common:jar:1.1.0:compile - omitted for duplicate)
+|  \- (org.apache.knox:gateway-server:jar:1.1.0:compile - omitted for duplicate)
++- org.apache.knox:gateway-provider-security-hadoopauth:jar:1.1.0:compile
+|  +- (org.apache.knox:gateway-spi:jar:1.1.0:compile - omitted for duplicate)
+|  +- (org.apache.knox:gateway-util-common:jar:1.1.0:compile - omitted for duplicate)
+|  \- (org.apache.hadoop:hadoop-auth:jar:3.0.0:compile - omitted for duplicate)
++- org.apache.knox:gateway-provider-security-authc-anon:jar:1.1.0:compile
+|  +- (org.apache.knox:gateway-spi:jar:1.1.0:compile - omitted for duplicate)
+|  \- (org.apache.knox:gateway-util-common:jar:1.1.0:compile - omitted for duplicate)
++- org.apache.knox:gateway-provider-security-authz-acls:jar:1.1.0:compile
+|  +- (org.apache.knox:gateway-spi:jar:1.1.0:compile - omitted for duplicate)
+|  +- (org.apache.knox:gateway-util-common:jar:1.1.0:compile - omitted for duplicate)
+|  \- (commons-io:commons-io:jar:2.4:compile - version managed from 2.5; omitted for duplicate)
++- org.apache.knox:gateway-provider-identity-assertion-common:jar:1.1.0:compile
+|  +- (commons-io:commons-io:jar:2.4:compile - version managed from 2.5; omitted for duplicate)
+|  +- (commons-codec:commons-codec:jar:1.7:compile - version managed from 1.10; omitted for duplicate)
+|  +- (org.apache.knox:gateway-spi:jar:1.1.0:compile - omitted for duplicate)
+|  \- (org.apache.knox:gateway-provider-rewrite:jar:1.1.0:compile - omitted for duplicate)
++- org.apache.knox:gateway-provider-identity-assertion-concat:jar:1.1.0:compile
+|  +- (commons-io:commons-io:jar:2.4:compile - version managed from 2.5; omitted for duplicate)
+|  +- (org.apache.knox:gateway-spi:jar:1.1.0:compile - omitted for duplicate)
+|  \- (org.apache.knox:gateway-provider-identity-assertion-common:jar:1.1.0:compile - omitted for duplicate)
++- org.apache.knox:gateway-provider-identity-assertion-pseudo:jar:1.1.0:compile
+|  +- (commons-io:commons-io:jar:2.4:compile - version managed from 2.5; omitted for duplicate)
+|  +- (org.apache.knox:gateway-provider-identity-assertion-common:jar:1.1.0:compile - omitted for duplicate)
+|  \- (org.apache.knox:gateway-provider-rewrite:jar:1.1.0:compile - omitted for duplicate)
++- org.apache.knox:gateway-provider-identity-assertion-hadoop-groups:jar:1.1.0:compile
+|  +- (org.apache.knox:gateway-provider-identity-assertion-common:jar:1.1.0:compile - omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.4:compile - version managed from 2.5; omitted for duplicate)
+|  +- (org.apache.knox:gateway-spi:jar:1.1.0:compile - omitted for duplicate)
+|  +- (org.apache.hadoop:hadoop-common:jar:3.0.0:compile - omitted for duplicate)
+|  \- (org.apache.hadoop:hadoop-auth:jar:3.0.0:compile - omitted for duplicate)
++- org.apache.knox:gateway-provider-identity-assertion-regex:jar:1.1.0:compile
+|  +- (org.apache.knox:gateway-provider-identity-assertion-common:jar:1.1.0:compile - omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.4:compile - version managed from 2.5; omitted for duplicate)
+|  \- (org.apache.knox:gateway-spi:jar:1.1.0:compile - omitted for duplicate)
++- org.apache.knox:gateway-provider-identity-assertion-switchcase:jar:1.1.0:compile
+|  \- (org.apache.knox:gateway-provider-identity-assertion-common:jar:1.1.0:compile - omitted for duplicate)
++- org.apache.knox:gateway-provider-ha:jar:1.1.0:compile
+|  +- (commons-io:commons-io:jar:2.4:compile - version managed from 2.5; omitted for duplicate)
+|  +- (org.apache.knox:gateway-spi:jar:1.1.0:compile - omitted for duplicate)
+|  +- org.apache.zookeeper:zookeeper:jar:3.4.10:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.6.6:compile - version managed from 1.6.1; omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-log4j12:jar:1.6.6:compile - version managed from 1.6.1; omitted for duplicate)
+|  |  +- (log4j:log4j:jar:1.2.17:compile - version managed from 1.2.16; omitted for duplicate)
+|  |  +- (jline:jline:jar:2.13:compile - version managed from 2.12; omitted for duplicate)
+|  |  \- io.netty:netty:jar:3.10.5.Final:compile
+|  +- org.apache.curator:curator-framework:jar:4.0.0:compile
+|  |  \- (org.apache.curator:curator-client:jar:4.0.0:compile - version managed from 2.12.0; omitted for duplicate)
+|  \- (org.apache.knox:gateway-provider-rewrite:jar:1.1.0:compile - omitted for duplicate)
++- org.apache.knox:hadoop-examples:jar:1.1.0:compile
++- org.apache.knox:gateway-shell:jar:1.1.0:compile
+|  +- (org.apache.knox:gateway-util-common:jar:1.1.0:compile - omitted for duplicate)
+|  +- org.codehaus.groovy:groovy:jar:2.4.8:compile
+|  +- org.codehaus.groovy:groovy-groovysh:jar:2.4.8:compile
+|  |  +- (org.codehaus.groovy:groovy:jar:2.4.8:compile - omitted for duplicate)
+|  |  +- org.codehaus.groovy:groovy-console:jar:2.4.8:compile
+|  |  |  +- (org.codehaus.groovy:groovy:jar:2.4.8:compile - omitted for duplicate)
+|  |  |  +- org.codehaus.groovy:groovy-templates:jar:2.4.8:compile
+|  |  |  |  +- (org.codehaus.groovy:groovy:jar:2.4.8:compile - omitted for duplicate)
+|  |  |  |  \- (org.codehaus.groovy:groovy-xml:jar:2.4.8:compile - omitted for duplicate)
+|  |  |  \- org.codehaus.groovy:groovy-swing:jar:2.4.8:compile
+|  |  |     \- (org.codehaus.groovy:groovy:jar:2.4.8:compile - omitted for duplicate)
+|  |  \- (jline:jline:jar:2.13:compile - version managed from 2.12; omitted for duplicate)
+|  +- org.codehaus.groovy:groovy-xml:jar:2.4.8:compile
+|  |  \- (org.codehaus.groovy:groovy:jar:2.4.8:compile - omitted for duplicate)
+|  +- org.codehaus.groovy:groovy-json:jar:2.4.8:compile
+|  |  \- (org.codehaus.groovy:groovy:jar:2.4.8:compile - omitted for duplicate)
+|  +- org.fusesource.jansi:jansi:jar:1.16:compile
+|  +- jline:jline:jar:2.13:compile
+|  |  \- (org.fusesource.jansi:jansi:jar:1.16:compile - version managed from 1.11; omitted for duplicate)
+|  +- (org.apache.httpcomponents:httpclient:jar:4.5.4:compile - version managed from 4.3.6; omitted for duplicate)
+|  +- com.jayway.jsonpath:json-path:jar:2.4.0:compile
+|  |  +- (net.minidev:json-smart:jar:2.3:compile - version managed from 1.3.1; omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.6.6:compile - version managed from 1.7.25; omitted for duplicate)
+|  +- (org.apache.commons:commons-lang3:jar:3.4:compile - version managed from 3.5; omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.4:compile - version managed from 2.5; omitted for duplicate)
+|  \- commons-configuration:commons-configuration:jar:1.6:compile
+|     +- (commons-collections:commons-collections:jar:3.2.2:compile - version managed from 3.2.1; omitted for duplicate)
+|     +- (commons-lang:commons-lang:jar:2.4:compile - omitted for conflict with 2.6)
+|     +- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for conflict with 1.2)
+|     +- commons-digester:commons-digester:jar:1.8:compile
+|     |  +- (commons-beanutils:commons-beanutils:jar:1.9.3:compile - version managed from 1.7.0; omitted for duplicate)
+|     |  \- (commons-logging:commons-logging:jar:1.1:compile - omitted for conflict with 1.2)
+|     \- commons-beanutils:commons-beanutils-core:jar:1.8.0:compile
+|        \- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for conflict with 1.2)
++- org.apache.knox:gateway-shell-launcher:jar:1.1.0:compile
+|  \- (org.apache.knox:gateway-util-launcher:jar:1.1.0:compile - omitted for duplicate)
++- org.apache.knox:gateway-demo-ldap:jar:1.1.0:compile
+|  +- org.apache.directory.server:apacheds-all:jar:2.0.0-M16:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.6.6:compile - version managed from 1.7.5; omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.6.6:compile - version managed from 1.7.5; omitted for duplicate)
+|  \- org.slf4j:slf4j-log4j12:jar:1.6.6:compile
+|     +- (org.slf4j:slf4j-api:jar:1.6.6:compile - version managed from 1.7.5; omitted for duplicate)
+|     \- (log4j:log4j:jar:1.2.17:compile - version managed from 1.2.16; omitted for duplicate)
++- org.apache.knox:gateway-demo-ldap-launcher:jar:1.1.0:compile
+|  \- (org.apache.knox:gateway-util-launcher:jar:1.1.0:compile - omitted for duplicate)
++- org.apache.knox:gateway-applications:jar:1.1.0:compile
+|  +- (org.eclipse.persistence:eclipselink:jar:2.5.2:compile - omitted for duplicate)
+|  \- (org.apache.knox:gateway-spi:jar:1.1.0:compile - omitted for duplicate)
++- org.apache.knox:gateway-shell-samples:jar:1.1.0:compile
++- org.apache.knox:gateway-discovery-ambari:jar:1.1.0:compile
+|  \- (org.apache.knox:gateway-spi:jar:1.1.0:compile - omitted for duplicate)
++- org.apache.knox:gateway-adapter:jar:1.1.0:compile
+|  +- (org.apache.knox:gateway-util-launcher:jar:1.1.0:compile - omitted for duplicate)
+|  +- (org.apache.knox:gateway-provider-security-shiro:jar:1.1.0:compile - omitted for duplicate)
+|  +- (org.apache.knox:gateway-service-webhdfs:jar:1.1.0:compile - omitted for duplicate)
+|  +- (org.apache.knox:gateway-provider-security-jwt:jar:1.1.0:compile - omitted for duplicate)
+|  +- (org.apache.knox:gateway-provider-security-hadoopauth:jar:1.1.0:compile - omitted for duplicate)
+|  +- (org.apache.knox:gateway-service-hbase:jar:1.1.0:compile - omitted for duplicate)
+|  +- (org.apache.knox:gateway-service-hive:jar:1.1.0:compile - omitted for duplicate)
+|  +- (org.apache.knox:gateway-service-nifi:jar:1.1.0:compile - omitted for duplicate)
+|  +- (org.apache.knox:gateway-service-rm:jar:1.1.0:compile - omitted for duplicate)
+|  \- (org.apache.knox:gateway-service-storm:jar:1.1.0:compile - omitted for duplicate)
+\- junit:junit:jar:4.12:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

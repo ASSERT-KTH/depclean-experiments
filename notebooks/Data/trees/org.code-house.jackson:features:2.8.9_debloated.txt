@@ -1,0 +1,53 @@
+org.code-house.jackson:features:jar:2.8.9
++- com.fasterxml.jackson.core:jackson-core:jar:2.8.9:compile
++- com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.8.9:compile
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.9:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.9:compile - version managed from 2.8.0; omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.9:compile - omitted for duplicate)
++- com.fasterxml.jackson.datatype:jackson-datatype-joda:jar:2.8.9:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.9:compile - version managed from 2.8.0; omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.9:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.9:compile - omitted for duplicate)
+|  \- joda-time:joda-time:jar:2.7:compile
++- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.8.9:compile
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.9:compile - omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.9:compile - omitted for duplicate)
++- com.fasterxml.jackson.dataformat:jackson-dataformat-avro:jar:2.8.9:compile
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.9:compile - omitted for duplicate)
+|  +- org.apache.avro:avro:jar:1.7.7:compile
+|  |  +- org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile
+|  |  +- org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:compile
+|  |  |  \- (org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile - omitted for duplicate)
+|  |  +- com.thoughtworks.paranamer:paranamer:jar:2.3:compile
+|  |  +- org.xerial.snappy:snappy-java:jar:1.0.5:compile
+|  |  +- org.apache.commons:commons-compress:jar:1.4.1:compile
+|  |  |  \- org.tukaani:xz:jar:1.0:compile
+|  |  \- org.slf4j:slf4j-api:jar:1.6.4:compile
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.8.9:compile - omitted for duplicate)
++- com.fasterxml.jackson.dataformat:jackson-dataformat-csv:jar:2.8.9:compile
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.9:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.9:compile - omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.9:compile - version managed from 2.8.0; omitted for duplicate)
++- com.fasterxml.jackson.dataformat:jackson-dataformat-smile:jar:2.8.9:compile
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.8.9:compile - omitted for duplicate)
++- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.8.9:compile
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.9:compile - omitted for duplicate)
+|  \- org.yaml:snakeyaml:jar:1.17:compile
++- com.fasterxml.jackson.jaxrs:jackson-jaxrs-cbor-provider:jar:2.8.9:compile
+|  +- (com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:jar:2.8.9:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.9:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.9:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.8.9:compile - omitted for duplicate)
+|  \- (com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.8.9:compile - omitted for duplicate)
++- com.fasterxml.jackson.jaxrs:jackson-jaxrs-smile-provider:jar:2.8.9:compile
+|  +- (com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:jar:2.8.9:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.9:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.9:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.dataformat:jackson-dataformat-smile:jar:2.8.9:compile - omitted for duplicate)
+|  \- (com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.8.9:compile - omitted for duplicate)
+\- com.fasterxml.jackson.jaxrs:jackson-jaxrs-yaml-provider:jar:2.8.9:compile
+   +- (com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:jar:2.8.9:compile - omitted for duplicate)
+   +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.9:compile - omitted for duplicate)
+   +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.9:compile - omitted for duplicate)
+   +- (com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.8.9:compile - omitted for duplicate)
+   \- (com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.8.9:compile - omitted for duplicate)

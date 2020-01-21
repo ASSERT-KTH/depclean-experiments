@@ -1,0 +1,36 @@
+org.jboss.as:patch-gen:jar:2.0.1.Final
++- org.wildfly.core:wildfly-patching:jar:5.0.0.Final:compile
+|  +- org.jboss:jboss-dmr:jar:1.5.0.Final:compile
+|  +- org.wildfly.core:wildfly-controller:jar:5.0.0.Final:compile
+|  |  +- org.wildfly.core:wildfly-controller-client:jar:5.0.0.Final:compile
+|  |  |  +- org.wildfly.core:wildfly-protocol:jar:5.0.0.Final:compile
+|  |  |  \- org.jboss.threads:jboss-threads:jar:2.3.2.Final:compile
+|  |  +- org.wildfly.security:wildfly-elytron:jar:1.3.3.Final:compile
+|  |  +- org.wildfly.core:wildfly-core-security:jar:5.0.0.Final:compile
+|  |  |  \- org.wildfly.core:wildfly-core-security-api:jar:5.0.0.Final:compile
+|  |  +- org.jboss.msc:jboss-msc:jar:1.4.2.Final:compile
+|  |  +- org.jboss.logmanager:jboss-logmanager:jar:2.1.2.Final:compile
+|  |  +- org.jboss:staxmapper:jar:1.3.0.Final:compile
+|  |  +- org.wildfly.common:wildfly-common:jar:1.4.0.Final:compile
+|  |  \- org.projectodd.vdx:vdx-wildfly:jar:1.1.6:compile
+|  |     \- org.projectodd.vdx:vdx-core:jar:1.1.6:compile
+|  +- org.wildfly.core:wildfly-cli:jar:5.0.0.Final:compile
+|  |  +- org.aesh:aesh-readline:jar:1.7:compile
+|  |  |  \- org.fusesource.jansi:jansi:jar:1.11:compile
+|  |  +- org.aesh:aesh:jar:1.4:compile
+|  |  +- org.aesh:aesh-extensions:jar:1.3:compile
+|  |  +- org.wildfly.core:wildfly-embedded:jar:5.0.0.Final:compile
+|  |  +- org.jboss.logging:jboss-logging:jar:3.3.1.Final:compile
+|  |  +- org.jboss.remoting:jboss-remoting:jar:5.0.7.Final:compile
+|  |  |  +- org.jboss.xnio:xnio-api:jar:3.5.3.Final:compile
+|  |  |  \- org.wildfly.client:wildfly-client-config:jar:1.0.0.CR2:compile
+|  |  +- org.jboss.remotingjmx:remoting-jmx:jar:3.0.0.Final:compile
+|  |  |  +- org.jboss.marshalling:jboss-marshalling:jar:2.0.0.Final:compile
+|  |  |  +- org.jboss.marshalling:jboss-marshalling-river:jar:2.0.0.Final:compile
+|  |  |  \- org.jboss.xnio:xnio-nio:jar:3.5.1.Final:compile
+|  |  +- org.jboss:jboss-vfs:jar:3.2.12.Final:compile
+|  |  \- org.jboss.stdio:jboss-stdio:jar:1.0.2.GA:compile
+|  +- org.wildfly.core:wildfly-version:jar:5.0.0.Final:compile
+|  \- org.jboss.modules:jboss-modules:jar:1.8.5.Final:compile
+\- junit:junit:jar:4.11:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

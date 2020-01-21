@@ -1,0 +1,16 @@
+org.jgrapes:org.jgrapes.portal.jqueryui:jar:0.19.3
++- org.jgrapes:org.jgrapes.portal.base:jar:0.19.3:compile
+|  +- org.jgrapes:org.jgrapes.http:jar:1.0.5:compile
+|  |  +- org.jgrapes:org.jgrapes.io:jar:1.0.5:compile
+|  |  |  +- (org.jgrapes:org.jgrapes.core:jar:1.0.5:compile - omitted for duplicate)
+|  |  |  \- (org.jgrapes:org.jgrapes.util:jar:1.0.5:compile - omitted for duplicate)
+|  |  \- org.jdrupes.httpcodec:httpcodec:jar:2.0.3:compile
+|  |     \- com.sun.activation:javax.activation:jar:1.2.0:compile
+|  +- org.jgrapes:org.jgrapes.util:jar:1.0.5:compile
+|  |  +- org.jgrapes:org.jgrapes.core:jar:1.0.5:compile
+|  |  \- (org.jdrupes.json:json:jar:2.0.1:compile - omitted for duplicate)
+|  +- org.jdrupes.json:json:jar:2.0.1:compile
+|  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.9.4:compile
+|  \- org.freemarker:freemarker:jar:2.3.28:compile
+\- org.jgrapes:org.jgrapes.portal.providers.fontawesome:jar:0.19.3:compile
+   \- (org.jgrapes:org.jgrapes.portal.base:jar:0.19.3:compile - omitted for duplicate)

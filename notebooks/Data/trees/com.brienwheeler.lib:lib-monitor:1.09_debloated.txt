@@ -1,0 +1,15 @@
+com.brienwheeler.lib:lib-monitor:jar:1.09
++- com.brienwheeler.lib:lib-logging:jar:1.09:compile
+|  +- commons-logging:commons-logging-api:jar:1.1:compile
+|  +- com.brienwheeler.lib:lib-logging-defconfig:jar:1.09:runtime
+|  +- commons-logging:commons-logging:jar:1.1.2:runtime
+|  \- log4j:log4j:jar:1.2.16:runtime
++- com.brienwheeler.lib:lib-util:jar:1.09:compile
+|  \- (commons-logging:commons-logging-api:jar:1.1:compile - omitted for duplicate)
++- org.aspectj:aspectjrt:jar:1.6.11:compile
++- org.json:json:jar:20090211:compile
++- org.springframework:spring-test:jar:3.2.9.RELEASE:test
+|  \- (org.springframework:spring-core:jar:3.2.9.RELEASE:test - omitted for duplicate)
++- org.springframework:spring-core:jar:3.2.9.RELEASE:test
+|  \- (commons-logging:commons-logging:jar:1.1.2:test - version managed from 1.1.3; omitted for duplicate)
+\- junit:junit:jar:4.8.1:test

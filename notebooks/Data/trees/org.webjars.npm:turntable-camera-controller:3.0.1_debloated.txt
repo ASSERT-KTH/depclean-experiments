@@ -1,0 +1,4 @@
+org.webjars.npm:turntable-camera-controller:jar:3.0.1
+\- org.webjars.npm:filtered-vector:jar:1.2.4:compile
+   +- org.webjars.npm:binary-search-bounds:jar:1.0.0:compile
+   \- org.webjars.npm:cubic-hermite:jar:1.0.0:compile

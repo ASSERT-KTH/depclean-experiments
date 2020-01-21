@@ -1,0 +1,157 @@
+com.carrotgarden.maven:maven-plugin-tools-annotations:jar:1.1.20180226045720
++- org.apache.maven:maven-plugin-api:jar:3.5.2:compile
+|  +- org.apache.maven:maven-model:jar:3.5.2:compile
+|  |  +- (org.codehaus.plexus:plexus-utils:jar:3.1.0:compile - omitted for duplicate)
+|  |  \- (org.apache.commons:commons-lang3:jar:3.5:compile - omitted for duplicate)
+|  +- org.apache.maven:maven-artifact:jar:3.5.2:compile
+|  |  +- (org.codehaus.plexus:plexus-utils:jar:3.1.0:compile - omitted for duplicate)
+|  |  \- (org.apache.commons:commons-lang3:jar:3.5:compile - omitted for duplicate)
+|  +- org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.3.3:compile
+|  |  +- javax.enterprise:cdi-api:jar:1.0:compile
+|  |  |  +- javax.annotation:jsr250-api:jar:1.0:compile
+|  |  |  \- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  |  +- (org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.3.3:compile - omitted for duplicate)
+|  |  +- (org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile - omitted for conflict with 1.7.1)
+|  |  +- (org.codehaus.plexus:plexus-classworlds:jar:2.5.2:compile - omitted for duplicate)
+|  |  \- (org.codehaus.plexus:plexus-utils:jar:3.0.17:compile - omitted for conflict with 3.1.0)
+|  +- org.codehaus.plexus:plexus-utils:jar:3.1.0:compile
+|  \- org.codehaus.plexus:plexus-classworlds:jar:2.5.2:compile
++- org.apache.maven:maven-core:jar:3.5.2:compile
+|  +- (org.apache.maven:maven-model:jar:3.5.2:compile - omitted for duplicate)
+|  +- org.apache.maven:maven-settings:jar:3.5.2:compile
+|  |  \- (org.codehaus.plexus:plexus-utils:jar:3.1.0:compile - omitted for duplicate)
+|  +- org.apache.maven:maven-settings-builder:jar:3.5.2:compile
+|  |  +- (org.apache.maven:maven-builder-support:jar:3.5.2:compile - omitted for duplicate)
+|  |  +- (org.codehaus.plexus:plexus-utils:jar:3.1.0:compile - omitted for duplicate)
+|  |  +- (org.codehaus.plexus:plexus-interpolation:jar:1.24:compile - omitted for duplicate)
+|  |  +- (org.codehaus.plexus:plexus-component-annotations:jar:1.7.1:compile - omitted for conflict with 1.5.5)
+|  |  +- (org.apache.maven:maven-settings:jar:3.5.2:compile - omitted for duplicate)
+|  |  +- org.sonatype.plexus:plexus-sec-dispatcher:jar:1.4:compile
+|  |  |  +- (org.codehaus.plexus:plexus-utils:jar:1.5.5:compile - omitted for conflict with 3.1.0)
+|  |  |  \- org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+|  |  \- (org.apache.commons:commons-lang3:jar:3.5:compile - omitted for duplicate)
+|  +- org.apache.maven:maven-builder-support:jar:3.5.2:compile
+|  |  \- (org.apache.commons:commons-lang3:jar:3.5:compile - omitted for duplicate)
+|  +- org.apache.maven:maven-repository-metadata:jar:3.5.2:compile
+|  |  \- (org.codehaus.plexus:plexus-utils:jar:3.1.0:compile - omitted for duplicate)
+|  +- (org.apache.maven:maven-artifact:jar:3.5.2:compile - omitted for duplicate)
+|  +- (org.apache.maven:maven-plugin-api:jar:3.5.2:compile - omitted for duplicate)
+|  +- org.apache.maven:maven-model-builder:jar:3.5.2:compile
+|  |  +- (org.codehaus.plexus:plexus-utils:jar:3.1.0:compile - omitted for duplicate)
+|  |  +- (org.codehaus.plexus:plexus-interpolation:jar:1.24:compile - omitted for duplicate)
+|  |  +- (org.codehaus.plexus:plexus-component-annotations:jar:1.7.1:compile - omitted for conflict with 1.5.5)
+|  |  +- (org.apache.maven:maven-model:jar:3.5.2:compile - omitted for duplicate)
+|  |  +- (org.apache.maven:maven-artifact:jar:3.5.2:compile - omitted for duplicate)
+|  |  +- (org.apache.maven:maven-builder-support:jar:3.5.2:compile - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:20.0:compile - omitted for duplicate)
+|  |  \- (org.apache.commons:commons-lang3:jar:3.5:compile - omitted for duplicate)
+|  +- org.apache.maven:maven-resolver-provider:jar:3.5.2:compile
+|  |  +- (org.apache.maven:maven-model:jar:3.5.2:compile - omitted for duplicate)
+|  |  +- (org.apache.maven:maven-model-builder:jar:3.5.2:compile - omitted for duplicate)
+|  |  +- (org.apache.maven:maven-repository-metadata:jar:3.5.2:compile - omitted for duplicate)
+|  |  +- (org.apache.maven.resolver:maven-resolver-api:jar:1.1.0:compile - omitted for duplicate)
+|  |  +- (org.apache.maven.resolver:maven-resolver-spi:jar:1.1.0:compile - omitted for duplicate)
+|  |  +- (org.apache.maven.resolver:maven-resolver-util:jar:1.1.0:compile - omitted for duplicate)
+|  |  +- (org.apache.maven.resolver:maven-resolver-impl:jar:1.1.0:compile - omitted for duplicate)
+|  |  +- (org.codehaus.plexus:plexus-utils:jar:3.1.0:compile - omitted for duplicate)
+|  |  +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:20.0:compile - omitted for duplicate)
+|  |  \- (org.apache.commons:commons-lang3:jar:3.5:compile - omitted for duplicate)
+|  +- org.apache.maven.resolver:maven-resolver-impl:jar:1.1.0:compile
+|  |  +- (org.apache.maven.resolver:maven-resolver-api:jar:1.1.0:compile - omitted for duplicate)
+|  |  +- (org.apache.maven.resolver:maven-resolver-spi:jar:1.1.0:compile - omitted for duplicate)
+|  |  \- (org.apache.maven.resolver:maven-resolver-util:jar:1.1.0:compile - omitted for duplicate)
+|  +- org.apache.maven.resolver:maven-resolver-api:jar:1.1.0:compile
+|  +- org.apache.maven.resolver:maven-resolver-spi:jar:1.1.0:compile
+|  |  \- (org.apache.maven.resolver:maven-resolver-api:jar:1.1.0:compile - omitted for duplicate)
+|  +- org.apache.maven.resolver:maven-resolver-util:jar:1.1.0:compile
+|  |  \- (org.apache.maven.resolver:maven-resolver-api:jar:1.1.0:compile - omitted for duplicate)
+|  +- org.apache.maven.shared:maven-shared-utils:jar:3.1.0:compile
+|  |  \- commons-io:commons-io:jar:2.5:compile
+|  +- (org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.3.3:compile - omitted for duplicate)
+|  +- org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.3.3:compile
+|  +- com.google.inject:guice:jar:no_aop:4.0:compile
+|  |  +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  |  +- aopalliance:aopalliance:jar:1.0:compile
+|  |  \- (com.google.guava:guava:jar:16.0.1:compile - omitted for conflict with 20.0)
+|  +- com.google.guava:guava:jar:20.0:compile
+|  +- javax.inject:javax.inject:jar:1:compile
+|  +- (org.codehaus.plexus:plexus-utils:jar:3.1.0:compile - omitted for duplicate)
+|  +- (org.codehaus.plexus:plexus-classworlds:jar:2.5.2:compile - omitted for duplicate)
+|  +- org.codehaus.plexus:plexus-component-annotations:jar:1.7.1:compile
+|  \- org.apache.commons:commons-lang3:jar:3.5:compile
++- org.apache.maven:maven-compat:jar:3.5.2:compile
+|  +- (org.apache.maven:maven-model:jar:3.5.2:compile - omitted for duplicate)
+|  +- (org.apache.maven:maven-model-builder:jar:3.5.2:compile - omitted for duplicate)
+|  +- (org.apache.maven:maven-settings:jar:3.5.2:compile - omitted for duplicate)
+|  +- (org.apache.maven:maven-settings-builder:jar:3.5.2:compile - omitted for duplicate)
+|  +- (org.apache.maven:maven-artifact:jar:3.5.2:compile - omitted for duplicate)
+|  +- (org.apache.maven:maven-core:jar:3.5.2:compile - omitted for duplicate)
+|  +- (org.apache.maven:maven-resolver-provider:jar:3.5.2:compile - omitted for duplicate)
+|  +- (org.apache.maven:maven-repository-metadata:jar:3.5.2:compile - omitted for duplicate)
+|  +- (org.apache.maven.resolver:maven-resolver-api:jar:1.1.0:compile - omitted for duplicate)
+|  +- (org.apache.maven.resolver:maven-resolver-util:jar:1.1.0:compile - omitted for duplicate)
+|  +- (org.apache.maven.resolver:maven-resolver-impl:jar:1.1.0:compile - omitted for duplicate)
+|  +- (org.codehaus.plexus:plexus-utils:jar:3.1.0:compile - omitted for duplicate)
+|  +- org.codehaus.plexus:plexus-interpolation:jar:1.24:compile
+|  +- (org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.3.3:compile - omitted for duplicate)
+|  +- (org.codehaus.plexus:plexus-component-annotations:jar:1.7.1:compile - omitted for duplicate)
+|  \- org.apache.maven.wagon:wagon-provider-api:jar:2.12:compile
+|     \- (org.codehaus.plexus:plexus-utils:jar:3.0.24:compile - omitted for conflict with 3.1.0)
++- org.apache.maven.plugin-tools:maven-plugin-tools-annotations:jar:3.5.1:compile
+|  +- org.apache.maven:maven-project:jar:2.2.1:compile
+|  |  +- (org.apache.maven:maven-settings:jar:2.2.1:compile - omitted for conflict with 3.5.2)
+|  |  +- org.apache.maven:maven-profile:jar:2.2.1:compile
+|  |  |  +- (org.apache.maven:maven-model:jar:2.2.1:compile - omitted for conflict with 3.5.2)
+|  |  |  +- (org.codehaus.plexus:plexus-utils:jar:1.5.15:compile - omitted for conflict with 3.1.0)
+|  |  |  +- (org.codehaus.plexus:plexus-interpolation:jar:1.11:compile - omitted for conflict with 1.24)
+|  |  |  \- (org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile - omitted for duplicate)
+|  |  +- (org.apache.maven:maven-model:jar:2.2.1:compile - omitted for conflict with 3.5.2)
+|  |  +- org.apache.maven:maven-artifact-manager:jar:2.2.1:compile
+|  |  |  +- (org.apache.maven:maven-repository-metadata:jar:2.2.1:compile - omitted for conflict with 3.5.2)
+|  |  |  +- (org.codehaus.plexus:plexus-utils:jar:1.5.15:compile - omitted for conflict with 3.1.0)
+|  |  |  +- (org.apache.maven:maven-artifact:jar:2.2.1:compile - omitted for conflict with 3.5.2)
+|  |  |  +- (org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile - omitted for duplicate)
+|  |  |  +- (org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-6:compile - omitted for conflict with 2.12)
+|  |  |  \- backport-util-concurrent:backport-util-concurrent:jar:3.1:compile
+|  |  +- org.apache.maven:maven-plugin-registry:jar:2.2.1:compile
+|  |  |  +- (org.codehaus.plexus:plexus-utils:jar:1.5.15:compile - omitted for conflict with 3.1.0)
+|  |  |  \- (org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile - omitted for duplicate)
+|  |  +- (org.codehaus.plexus:plexus-interpolation:jar:1.11:compile - omitted for conflict with 1.24)
+|  |  +- (org.codehaus.plexus:plexus-utils:jar:1.5.15:compile - omitted for conflict with 3.1.0)
+|  |  +- (org.apache.maven:maven-artifact:jar:2.2.1:compile - omitted for conflict with 3.5.2)
+|  |  \- org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+|  |     +- junit:junit:jar:3.8.1:compile
+|  |     +- (org.codehaus.plexus:plexus-utils:jar:1.0.4:compile - omitted for conflict with 3.1.0)
+|  |     \- classworlds:classworlds:jar:1.1-alpha-2:compile
+|  +- (org.apache.maven:maven-model:jar:2.2.1:compile - omitted for conflict with 3.5.2)
+|  +- org.apache.maven:maven-plugin-descriptor:jar:2.2.1:compile
+|  |  +- (org.apache.maven:maven-plugin-api:jar:2.2.1:compile - omitted for conflict with 3.5.2)
+|  |  +- (org.apache.maven:maven-artifact:jar:2.2.1:compile - omitted for conflict with 3.5.2)
+|  |  \- (org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile - omitted for duplicate)
+|  +- (org.apache.maven.plugin-tools:maven-plugin-tools-api:jar:3.5.1:compile - omitted for duplicate)
+|  +- (org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.5.1:compile - omitted for duplicate)
+|  +- (org.codehaus.plexus:plexus-utils:jar:3.0.20:compile - omitted for conflict with 3.1.0)
+|  +- (org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile - omitted for conflict with 1.7.1)
+|  +- (org.ow2.asm:asm:jar:6.0_ALPHA:compile - omitted for conflict with 6.0)
+|  +- org.codehaus.plexus:plexus-archiver:jar:2.1.1:compile
+|  |  +- (org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile - omitted for duplicate)
+|  |  +- (org.codehaus.plexus:plexus-utils:jar:3.0:compile - omitted for conflict with 3.1.0)
+|  |  \- org.codehaus.plexus:plexus-io:jar:2.0.3:compile
+|  |     \- (org.codehaus.plexus:plexus-utils:jar:3.0:compile - omitted for conflict with 3.1.0)
+|  \- com.thoughtworks.qdox:qdox:jar:2.0-M5:compile
++- org.apache.maven.plugin-tools:maven-plugin-tools-java:jar:3.5.1:compile
+|  +- (org.apache.maven:maven-project:jar:2.2.1:compile - omitted for duplicate)
+|  +- (org.apache.maven:maven-model:jar:2.2.1:compile - omitted for conflict with 3.5.2)
+|  +- (org.apache.maven:maven-plugin-descriptor:jar:2.2.1:compile - omitted for duplicate)
+|  +- (org.apache.maven.plugin-tools:maven-plugin-tools-api:jar:3.5.1:compile - omitted for duplicate)
+|  +- (org.codehaus.plexus:plexus-utils:jar:3.0.20:compile - omitted for conflict with 3.1.0)
+|  +- (org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile - omitted for conflict with 1.7.1)
+|  \- (com.thoughtworks.qdox:qdox:jar:2.0-M5:compile - omitted for duplicate)
+\- org.apache.maven.plugin-tools:maven-plugin-tools-api:jar:3.5.1:compile
+   +- (org.apache.maven:maven-project:jar:2.2.1:compile - omitted for duplicate)
+   +- (org.apache.maven:maven-model:jar:2.2.1:compile - omitted for conflict with 3.5.2)
+   +- (org.apache.maven:maven-plugin-api:jar:2.2.1:compile - omitted for conflict with 3.5.2)
+   +- (org.apache.maven:maven-artifact:jar:2.2.1:compile - omitted for conflict with 3.5.2)
+   +- (org.apache.maven:maven-plugin-descriptor:jar:2.2.1:compile - omitted for duplicate)
+   \- (org.codehaus.plexus:plexus-utils:jar:3.0.20:compile - omitted for conflict with 3.1.0)

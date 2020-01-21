@@ -1,0 +1,42 @@
+software.reinvent:commons:jar:0.3.9
++- com.google.inject:guice:jar:4.2.0:compile
+|  +- javax.inject:javax.inject:jar:1:compile
+|  +- aopalliance:aopalliance:jar:1.0:compile
+|  \- (com.google.guava:guava:jar:23.6-android:compile - omitted for conflict with 24.0-jre)
++- org.apache.commons:commons-lang3:jar:3.7:compile
++- com.google.guava:guava:jar:24.0-jre:compile
+|  +- com.google.code.findbugs:jsr305:jar:1.3.9:compile
+|  +- org.checkerframework:checker-compat-qual:jar:2.0.0:compile
+|  +- com.google.errorprone:error_prone_annotations:jar:2.1.3:compile
+|  +- com.google.j2objc:j2objc-annotations:jar:1.1:compile
+|  \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:compile
++- org.apache.commons:commons-collections4:jar:4.1:compile
++- commons-io:commons-io:jar:2.6:compile
++- com.typesafe:config:jar:1.3.3:compile
++- org.unbescape:unbescape:jar:1.1.5.RELEASE:compile
++- com.github.rholder:guava-retrying:jar:2.0.0:compile
+|  \- (com.google.code.findbugs:jsr305:jar:2.0.2:compile - omitted for conflict with 1.3.9)
++- com.github.mfornos:humanize-slim:jar:1.2.2:compile
+|  +- org.ocpsoft.prettytime:prettytime:jar:3.2.5.Final:compile
+|  +- me.xuender:unidecode:jar:0.0.7:compile
+|  \- (com.google.code.findbugs:jsr305:jar:1.3.9:compile - omitted for duplicate)
++- ch.qos.logback:logback-classic:jar:1.2.3:compile
+|  +- (ch.qos.logback:logback-core:jar:1.2.3:compile - omitted for duplicate)
+|  \- org.slf4j:slf4j-api:jar:1.7.25:compile
++- ch.qos.logback:logback-core:jar:1.2.3:compile
++- org.assertj:assertj-core:jar:3.9.1:test
++- org.assertj:assertj-guava:jar:3.1.0:test
+|  \- (org.assertj:assertj-core:jar:3.5.2:test - omitted for conflict with 3.9.1)
++- com.novocode:junit-interface:jar:0.11:test
+|  +- junit:junit:jar:4.11:test
+|  |  \- org.hamcrest:hamcrest-core:jar:1.3:test
+|  \- org.scala-sbt:test-interface:jar:1.0:test
+\- org.jukito:jukito:jar:1.5:test
+   +- org.mockito:mockito-core:jar:2.5.7:test
+   |  +- net.bytebuddy:byte-buddy:jar:1.6.2:test
+   |  +- net.bytebuddy:byte-buddy-agent:jar:1.6.2:test
+   |  \- org.objenesis:objenesis:jar:2.4:test
+   +- (junit:junit:jar:4.12:test - omitted for conflict with 4.11)
+   +- (com.google.inject:guice:jar:4.0:test - omitted for conflict with 4.2.0)
+   \- com.google.inject.extensions:guice-assistedinject:jar:4.0:test
+      \- (com.google.inject:guice:jar:4.0:test - omitted for conflict with 4.2.0)

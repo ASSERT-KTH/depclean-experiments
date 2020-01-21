@@ -1,0 +1,106 @@
+com.atlassian.oai:swagger-request-validator-pact:jar:1.3.10
++- com.atlassian.oai:swagger-request-validator-core:jar:1.3.10:compile
+|  +- io.swagger:swagger-parser:jar:1.0.32:compile
+|  |  +- io.swagger:swagger-core:jar:1.5.16:compile
+|  |  |  +- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.8.9:compile
+|  |  |  |  \- org.yaml:snakeyaml:jar:1.17:compile
+|  |  |  +- io.swagger:swagger-models:jar:1.5.16:compile
+|  |  |  |  \- io.swagger:swagger-annotations:jar:1.5.16:compile
+|  |  |  \- javax.validation:validation-api:jar:1.1.0.Final:compile
+|  |  \- org.slf4j:slf4j-ext:jar:1.6.3:compile
+|  |     \- ch.qos.cal10n:cal10n-api:jar:0.7.4:compile
+|  +- com.github.java-json-tools:json-schema-validator:jar:2.2.8:compile
+|  |  +- com.github.java-json-tools:json-schema-core:jar:1.2.8:compile
+|  |  |  +- org.mozilla:rhino:jar:1.7R4:compile
+|  |  |  +- com.github.fge:jackson-coreutils:jar:1.8:compile
+|  |  |  |  \- com.github.fge:msg-simple:jar:1.1:compile
+|  |  |  |     \- com.github.fge:btf:jar:1.2:compile
+|  |  |  \- com.github.fge:uri-template:jar:0.9:compile
+|  |  +- javax.mail:mailapi:jar:1.4.3:compile
+|  |  |  \- javax.activation:activation:jar:1.1:compile
+|  |  +- joda-time:joda-time:jar:2.9.7:compile
+|  |  \- com.googlecode.libphonenumber:libphonenumber:jar:8.0.0:compile
+|  +- org.slf4j:slf4j-api:jar:1.7.20:compile
+|  +- com.google.guava:guava:jar:18.0:compile
+|  \- com.google.code.findbugs:jsr305:jar:3.0.2:compile
++- au.com.dius:pact-jvm-model_2.11:jar:3.2.6:compile
+|  +- com.typesafe.scala-logging:scala-logging_2.11:jar:3.1.0:compile
+|  |  \- org.scala-lang:scala-reflect:jar:2.11.1:compile
+|  +- net.databinder:unfiltered-netty-server_2.11:jar:0.8.2:compile
+|  |  +- net.databinder:unfiltered-netty_2.11:jar:0.8.2:compile
+|  |  |  +- net.databinder:unfiltered_2.11:jar:0.8.2:compile
+|  |  |  \- io.netty:netty-codec-http:jar:4.0.23.Final:compile
+|  |  |     +- io.netty:netty-codec:jar:4.0.23.Final:compile
+|  |  |     |  \- io.netty:netty-transport:jar:4.0.23.Final:compile
+|  |  |     \- io.netty:netty-handler:jar:4.0.23.Final:compile
+|  |  |        \- io.netty:netty-buffer:jar:4.0.23.Final:compile
+|  |  |           \- io.netty:netty-common:jar:4.0.23.Final:compile
+|  |  \- net.databinder:unfiltered-util_2.11:jar:0.8.2:compile
+|  +- org.apache.httpcomponents:httpclient:jar:4.5.1:compile
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.4.3:compile
+|  |  +- commons-logging:commons-logging:jar:1.2:compile
+|  |  \- commons-codec:commons-codec:jar:1.9:compile
+|  +- org.json:json:jar:20140107:compile
+|  +- org.scala-lang:scala-compiler:jar:2.11.7:compile
+|  |  +- org.scala-lang.modules:scala-xml_2.11:jar:1.0.4:compile
+|  |  \- org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.0.4:compile
+|  +- org.codehaus.groovy:groovy-all:jar:indy:2.4.6:compile
+|  +- org.codehaus.groovy.modules.http-builder:http-builder:jar:0.7.1:compile
+|  |  +- net.sf.json-lib:json-lib:jar:jdk15:2.3:compile
+|  |  |  +- commons-beanutils:commons-beanutils:jar:1.8.0:compile
+|  |  |  +- commons-collections:commons-collections:jar:3.2.1:compile
+|  |  |  +- commons-lang:commons-lang:jar:2.4:compile
+|  |  |  \- net.sf.ezmorph:ezmorph:jar:1.0.6:compile
+|  |  +- net.sourceforge.nekohtml:nekohtml:jar:1.9.16:compile
+|  |  |  \- xerces:xercesImpl:jar:2.9.1:compile
+|  |  |     \- xml-apis:xml-apis:jar:1.3.04:compile
+|  |  \- xml-resolver:xml-resolver:jar:1.2:compile
+|  +- net.databinder.dispatch:dispatch-core_2.11:jar:0.11.3:compile
+|  |  \- com.ning:async-http-client:jar:1.9.11:compile
+|  |     \- io.netty:netty:jar:3.10.0.Final:compile
+|  +- com.github.zafarkhaja:java-semver:jar:0.9.0:compile
+|  \- org.scala-lang:scala-library:jar:2.11.7:compile
++- com.fasterxml.jackson.core:jackson-core:jar:2.6.3:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.6.3:compile
++- com.fasterxml.jackson.core:jackson-annotations:jar:2.6.3:compile
++- junit:junit:jar:4.12:compile (optional) 
+|  \- org.hamcrest:hamcrest-core:jar:1.3:compile
++- au.com.dius:pact-jvm-consumer-junit_2.11:jar:3.2.6:compile (optional) 
+|  +- org.apache.commons:commons-lang3:jar:3.3.2:compile
+|  \- au.com.dius:pact-jvm-consumer_2.11:jar:3.2.6:compile (optional) 
+|     \- dk.brics.automaton:automaton:jar:1.11-8:compile (optional) 
++- au.com.dius:pact-jvm-provider_2.11:jar:3.2.6:compile (optional) 
+|  +- com.googlecode.java-diff-utils:diffutils:jar:1.3.0:compile (optional) 
+|  +- commons-io:commons-io:jar:2.4:compile
+|  +- au.com.dius:pact-jvm-matchers_2.11:jar:3.2.6:compile (optional) 
+|  |  \- io.gatling:jsonpath_2.11:jar:0.6.4:compile (optional) 
+|  +- org.scalatest:scalatest_2.11:jar:2.2.1:compile (optional) 
+|  +- org.codehaus.groovy:groovy-all:jar:2.4.6:compile (optional) 
+|  +- org.fusesource.jansi:jansi:jar:1.11:compile (optional) 
+|  \- org.reflections:reflections:jar:0.9.10:compile (optional) 
+|     +- org.javassist:javassist:jar:3.19.0-GA:compile (optional) 
+|     \- com.google.code.findbugs:annotations:jar:2.0.1:compile (optional) 
++- ch.qos.logback:logback-classic:jar:1.0.13:test
+|  \- ch.qos.logback:logback-core:jar:1.0.13:test
++- org.hamcrest:hamcrest-library:jar:1.3:test
+\- com.github.tomakehurst:wiremock:jar:2.1.7:test
+   +- org.eclipse.jetty:jetty-server:jar:9.2.13.v20150730:test
+   |  +- javax.servlet:javax.servlet-api:jar:3.1.0:test
+   |  +- org.eclipse.jetty:jetty-http:jar:9.2.13.v20150730:test
+   |  \- org.eclipse.jetty:jetty-io:jar:9.2.13.v20150730:test
+   +- org.eclipse.jetty:jetty-servlet:jar:9.2.13.v20150730:test
+   |  \- org.eclipse.jetty:jetty-security:jar:9.2.13.v20150730:test
+   +- org.eclipse.jetty:jetty-servlets:jar:9.2.13.v20150730:test
+   |  +- org.eclipse.jetty:jetty-continuation:jar:9.2.13.v20150730:test
+   |  \- org.eclipse.jetty:jetty-util:jar:9.2.13.v20150730:test
+   +- org.eclipse.jetty:jetty-webapp:jar:9.2.13.v20150730:test
+   |  \- org.eclipse.jetty:jetty-xml:jar:9.2.13.v20150730:test
+   +- org.xmlunit:xmlunit-core:jar:2.1.1:test
+   +- org.xmlunit:xmlunit-legacy:jar:2.1.1:test
+   +- com.jayway.jsonpath:json-path:jar:2.0.0:test
+   |  \- net.minidev:json-smart:jar:2.1.1:test
+   |     \- net.minidev:asm:jar:1.0.2:test
+   |        \- asm:asm:jar:3.3.1:test
+   +- net.sf.jopt-simple:jopt-simple:jar:4.9:compile
+   \- com.flipkart.zjsonpatch:zjsonpatch:jar:0.2.1:test
+      \- org.apache.commons:commons-collections4:jar:4.0:test

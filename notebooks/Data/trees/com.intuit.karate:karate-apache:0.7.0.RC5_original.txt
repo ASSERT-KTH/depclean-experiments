@@ -1,0 +1,24 @@
+com.intuit.karate:karate-apache:jar:0.7.0.RC5
++- com.intuit.karate:karate-core:jar:0.7.0.RC5:compile
+|  +- com.jayway.jsonpath:json-path:jar:2.1.0:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.13:compile - omitted for conflict with 1.7.25)
+|  |  \- net.minidev:json-smart:jar:2.2:compile
+|  |     \- net.minidev:accessors-smart:jar:1.1:compile
+|  |        \- org.ow2.asm:asm:jar:5.0.3:compile
+|  +- info.cukes:cucumber-java:jar:1.2.5:compile
+|  |  \- info.cukes:cucumber-core:jar:1.2.5:compile
+|  |     +- info.cukes:cucumber-html:jar:0.2.3:compile
+|  |     +- info.cukes:cucumber-jvm-deps:jar:1.0.5:compile
+|  |     \- info.cukes:gherkin:jar:2.12.2:compile
+|  +- org.yaml:snakeyaml:jar:1.18:compile
+|  \- (ch.qos.logback:logback-classic:jar:1.2.3:compile - omitted for duplicate)
++- org.apache.httpcomponents:httpclient:jar:4.5.4:compile
+|  +- org.apache.httpcomponents:httpcore:jar:4.4.7:compile
+|  \- commons-codec:commons-codec:jar:1.10:compile
++- org.apache.httpcomponents:httpmime:jar:4.5.4:compile
+|  \- (org.apache.httpcomponents:httpclient:jar:4.5.4:compile - omitted for duplicate)
++- org.slf4j:jcl-over-slf4j:jar:1.7.25:compile
+|  \- org.slf4j:slf4j-api:jar:1.7.25:compile
+\- ch.qos.logback:logback-classic:jar:1.2.3:compile
+   +- ch.qos.logback:logback-core:jar:1.2.3:compile
+   \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)

@@ -1,0 +1,4 @@
+org.playframework.anorm:anorm-tokenizer_2.12:jar:2.6.2
++- org.scala-lang:scala-library:jar:2.12.4:compile
+\- org.scala-lang:scala-reflect:jar:2.12.4:compile
+   \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)

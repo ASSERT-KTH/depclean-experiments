@@ -1,0 +1,21 @@
+org.webjars.npm:boxen:jar:1.3.0
++- org.webjars.npm:term-size:jar:1.2.0:compile
+|  \- org.webjars.npm:execa:jar:0.7.0:compile
+|     +- org.webjars.npm:cross-spawn:jar:5.1.0:compile
+|     |  +- org.webjars.npm:lru-cache:jar:4.1.5:compile
+|     |  |  +- org.webjars.npm:pseudomap:jar:1.0.2:compile
+|     |  |  \- org.webjars.npm:yallist:jar:2.1.2:compile
+|     |  +- org.webjars.npm:shebang-command:jar:1.2.0:compile
+|     |  |  \- org.webjars.npm:shebang-regex:jar:1.0.0:compile
+|     |  \- org.webjars.npm:which:jar:1.3.1:compile
+|     |     \- org.webjars.npm:isexe:jar:2.0.0:compile
+|     +- org.webjars.npm:npm-run-path:jar:2.0.2:compile
+|     |  \- org.webjars.npm:path-key:jar:2.0.1:compile
+|     +- org.webjars.npm:strip-eof:jar:1.0.0:compile
+|     +- org.webjars.npm:p-finally:jar:1.0.0:compile
+|     +- org.webjars.npm:get-stream:jar:3.0.0:compile
+|     +- org.webjars.npm:signal-exit:jar:3.0.2:compile
+|     \- org.webjars.npm:is-stream:jar:1.1.0:compile
++- org.webjars.npm:ansi-align:jar:2.0.0:compile
+|  \- (org.webjars.npm:string-width:jar:2.1.1:compile - omitted for duplicate)
+\- org.webjars.npm:camelcase:jar:4.1.0:compile

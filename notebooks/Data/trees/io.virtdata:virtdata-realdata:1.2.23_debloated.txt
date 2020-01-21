@@ -1,0 +1,45 @@
+io.virtdata:virtdata-realdata:jar:1.2.23
++- com.google.auto.service:auto-service:jar:1.0-rc4:compile
+|  +- com.google.auto:auto-common:jar:0.8:compile
+|  |  \- (com.google.guava:guava:jar:19.0:compile - omitted for conflict with 23.5-jre)
+|  \- com.google.guava:guava:jar:23.5-jre:compile
+|     +- com.google.code.findbugs:jsr305:jar:1.3.9:compile
+|     +- org.checkerframework:checker-qual:jar:2.0.0:compile
+|     +- com.google.errorprone:error_prone_annotations:jar:2.0.18:compile
+|     +- com.google.j2objc:j2objc-annotations:jar:1.1:compile
+|     \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:compile
++- io.virtdata:virtdata-api:jar:1.2.23:compile
+|  +- io.virtdata:project-processors:jar:1.2.23:compile
+|  |  +- org.yaml:snakeyaml:jar:1.21:compile
+|  |  +- com.squareup:javapoet:jar:1.10.0:compile
+|  |  \- (io.virtdata:project-annotations:jar:1.2.23:compile - omitted for duplicate)
+|  +- io.virtdata:project-annotations:jar:1.2.23:compile
+|  |  \- (com.google.auto.service:auto-service:jar:1.0-rc4:compile - omitted for duplicate)
+|  +- io.virtdata:virtdata-lang:jar:1.2.23:compile
+|  |  +- ch.qos.logback:logback-classic:jar:1.2.3:compile
+|  |  |  +- ch.qos.logback:logback-core:jar:1.2.3:compile
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  |  \- org.antlr:antlr4:jar:4.7.1:compile
+|  |     +- org.antlr:antlr4-runtime:jar:4.7.1:compile
+|  |     +- org.antlr:antlr-runtime:jar:3.5.2:compile
+|  |     +- org.antlr:ST4:jar:4.0.8:compile
+|  |     |  \- (org.antlr:antlr-runtime:jar:3.5.2:compile - omitted for duplicate)
+|  |     +- org.abego.treelayout:org.abego.treelayout.core:jar:1.0.3:compile
+|  |     +- org.glassfish:javax.json:jar:1.0.4:compile
+|  |     \- com.ibm.icu:icu4j:jar:58.2:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  +- (org.apache.commons:commons-lang3:jar:3.7:compile - omitted for duplicate)
+|  +- org.jetbrains:annotations:jar:15.0:compile
+|  +- org.bitbucket.mstrobel:procyon-reflection:jar:0.5.32:compile
+|  |  \- org.bitbucket.mstrobel:procyon-core:jar:0.5.32:compile
+|  \- org.apache.commons:commons-csv:jar:1.5:compile
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- org.apache.commons:commons-lang3:jar:3.7:compile
++- joda-time:joda-time:jar:2.9.9:compile
++- org.apache.commons:commons-math3:jar:3.6.1:compile
++- de.greenrobot:java-common:jar:2.3.1:compile
++- com.elega9t:number-to-words:jar:1.0.0:compile
++- org.testng:testng:jar:6.13.1:test
+|  \- com.beust:jcommander:jar:1.72:test
+\- org.assertj:assertj-core-java8:jar:1.0.0m1:test

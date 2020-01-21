@@ -1,0 +1,176 @@
+au.com.dius:pact-jvm-consumer-java8_2.12:jar:3.5.13
++- org.jetbrains.kotlin:kotlin-reflect:jar:1.2.0:compile
+|  \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.0:compile - omitted for duplicate)
++- org.codehaus.groovy:groovy-all:jar:indy:2.4.12:compile
++- io.github.microutils:kotlin-logging:jar:1.4.4:compile
+|  +- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.1.1:runtime - omitted for conflict with 1.2.0)
+|  \- (org.slf4j:slf4j-api:jar:1.7.21:runtime - omitted for conflict with 1.7.25)
++- org.scala-lang:scala-compiler:jar:2.12.3:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.3:compile - omitted for duplicate)
+|  +- org.scala-lang:scala-reflect:jar:2.12.3:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.12.3:compile - omitted for duplicate)
+|  \- org.scala-lang.modules:scala-xml_2.12:jar:1.0.6:compile
+|     \- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.3)
++- au.com.dius:pact-jvm-consumer-junit_2.12:jar:3.5.13:compile
+|  +- (org.jetbrains.kotlin:kotlin-stdlib-jre8:jar:1.2.0:compile - omitted for duplicate)
+|  +- (org.jetbrains.kotlin:kotlin-reflect:jar:1.2.0:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  +- (org.codehaus.groovy:groovy-all:jar:indy:2.4.12:compile - omitted for duplicate)
+|  +- (io.github.microutils:kotlin-logging:jar:1.4.4:compile - omitted for duplicate)
+|  +- (org.scala-lang:scala-library:jar:2.12.3:compile - omitted for duplicate)
+|  +- (org.scala-lang:scala-compiler:jar:2.12.3:compile - omitted for duplicate)
+|  +- (com.typesafe.scala-logging:scala-logging_2.12:jar:3.7.2:compile - omitted for duplicate)
+|  +- au.com.dius:pact-jvm-consumer_2.12:jar:3.5.13:compile
+|  |  +- (org.jetbrains.kotlin:kotlin-stdlib-jre8:jar:1.2.0:compile - omitted for duplicate)
+|  |  +- (org.jetbrains.kotlin:kotlin-reflect:jar:1.2.0:compile - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  |  +- (org.codehaus.groovy:groovy-all:jar:indy:2.4.12:compile - omitted for duplicate)
+|  |  +- (io.github.microutils:kotlin-logging:jar:1.4.4:compile - omitted for duplicate)
+|  |  +- (org.scala-lang:scala-library:jar:2.12.3:compile - omitted for duplicate)
+|  |  +- (org.scala-lang:scala-compiler:jar:2.12.3:compile - omitted for duplicate)
+|  |  +- (com.typesafe.scala-logging:scala-logging_2.12:jar:3.7.2:compile - omitted for duplicate)
+|  |  +- au.com.dius:pact-jvm-model:jar:3.5.13:compile
+|  |  |  +- (org.jetbrains.kotlin:kotlin-stdlib-jre8:jar:1.2.0:compile - omitted for duplicate)
+|  |  |  +- (org.jetbrains.kotlin:kotlin-reflect:jar:1.2.0:compile - omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  |  |  +- (org.codehaus.groovy:groovy-all:jar:indy:2.4.12:compile - omitted for duplicate)
+|  |  |  +- (io.github.microutils:kotlin-logging:jar:1.4.4:compile - omitted for duplicate)
+|  |  |  +- au.com.dius:pact-jvm-pact-broker:jar:3.5.13:compile
+|  |  |  |  +- (org.jetbrains.kotlin:kotlin-stdlib-jre8:jar:1.2.0:compile - omitted for duplicate)
+|  |  |  |  +- (org.jetbrains.kotlin:kotlin-reflect:jar:1.2.0:compile - omitted for duplicate)
+|  |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  |  |  |  +- (org.codehaus.groovy:groovy-all:jar:indy:2.4.12:compile - omitted for duplicate)
+|  |  |  |  +- (io.github.microutils:kotlin-logging:jar:1.4.4:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.commons:commons-lang3:jar:3.4:compile - omitted for duplicate)
+|  |  |  |  +- com.github.salomonbrys.kotson:kotson:jar:2.5.0:compile
+|  |  |  |  |  +- (com.google.code.gson:gson:jar:2.8.0:compile - omitted for conflict with 2.8.1)
+|  |  |  |  |  \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.0.6:compile - omitted for conflict with 1.2.0)
+|  |  |  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.2:compile - omitted for conflict with 4.5.3)
+|  |  |  |  +- (com.google.guava:guava:jar:18.0:compile - omitted for duplicate)
+|  |  |  |  \- org.dmfs:rfc3986-uri:jar:0.8:compile
+|  |  |  |     +- org.dmfs:iterators:jar:1.5:compile
+|  |  |  |     \- org.dmfs:optional:jar:0.3:compile
+|  |  |  |        \- (org.dmfs:iterators:jar:1.4:compile - omitted for conflict with 1.5)
+|  |  |  +- (org.json:json:jar:20160212:compile - omitted for duplicate)
+|  |  |  +- io.netty:netty-handler:jar:4.1.9.Final:compile
+|  |  |  |  +- io.netty:netty-buffer:jar:4.1.9.Final:compile
+|  |  |  |  |  \- io.netty:netty-common:jar:4.1.9.Final:compile
+|  |  |  |  +- io.netty:netty-transport:jar:4.1.9.Final:compile
+|  |  |  |  |  +- (io.netty:netty-buffer:jar:4.1.9.Final:compile - omitted for duplicate)
+|  |  |  |  |  \- io.netty:netty-resolver:jar:4.1.9.Final:compile
+|  |  |  |  |     \- (io.netty:netty-common:jar:4.1.9.Final:compile - omitted for duplicate)
+|  |  |  |  \- io.netty:netty-codec:jar:4.1.9.Final:compile
+|  |  |  |     \- (io.netty:netty-transport:jar:4.1.9.Final:compile - omitted for duplicate)
+|  |  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.3:compile - omitted for duplicate)
+|  |  |  +- org.apache.httpcomponents:httpmime:jar:4.5.3:compile
+|  |  |  |  \- (org.apache.httpcomponents:httpclient:jar:4.5.3:compile - omitted for duplicate)
+|  |  |  +- com.github.zafarkhaja:java-semver:jar:0.9.0:compile
+|  |  |  +- com.amazonaws:aws-java-sdk-s3:jar:1.11.30:compile
+|  |  |  |  +- com.amazonaws:aws-java-sdk-kms:jar:1.11.30:compile
+|  |  |  |  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.30:compile - omitted for duplicate)
+|  |  |  |  |  \- (com.amazonaws:jmespath-java:jar:1.0:compile - omitted for duplicate)
+|  |  |  |  +- com.amazonaws:aws-java-sdk-core:jar:1.11.30:compile
+|  |  |  |  |  +- (commons-logging:commons-logging:jar:1.1.3:compile - omitted for conflict with 1.2)
+|  |  |  |  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.2:compile - omitted for conflict with 4.5.3)
+|  |  |  |  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.6.6:compile - omitted for conflict with 2.8.1)
+|  |  |  |  |  +- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.6.6:compile
+|  |  |  |  |  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.6.6:compile - omitted for duplicate)
+|  |  |  |  |  \- joda-time:joda-time:jar:2.8.1:compile
+|  |  |  |  \- com.amazonaws:jmespath-java:jar:1.0:compile
+|  |  |  |     \- (com.fasterxml.jackson.core:jackson-databind:jar:2.6.6:compile - omitted for duplicate)
+|  |  |  +- com.google.code.gson:gson:jar:2.8.1:compile
+|  |  |  +- org.apache.commons:commons-collections4:jar:4.1:compile
+|  |  |  +- (org.apache.commons:commons-lang3:jar:3.4:compile - omitted for duplicate)
+|  |  |  +- com.github.mifmif:generex:jar:1.0.1:compile
+|  |  |  |  \- (dk.brics.automaton:automaton:jar:1.11-8:compile - omitted for duplicate)
+|  |  |  +- (com.google.guava:guava:jar:18.0:compile - omitted for duplicate)
+|  |  |  \- javax.mail:mail:jar:1.5.0-b01:compile
+|  |  |     \- javax.activation:activation:jar:1.1:compile
+|  |  +- au.com.dius:pact-jvm-matchers_2.12:jar:3.5.13:compile
+|  |  |  +- (org.jetbrains.kotlin:kotlin-stdlib-jre8:jar:1.2.0:compile - omitted for duplicate)
+|  |  |  +- (org.jetbrains.kotlin:kotlin-reflect:jar:1.2.0:compile - omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  |  |  +- (org.codehaus.groovy:groovy-all:jar:indy:2.4.12:compile - omitted for duplicate)
+|  |  |  +- (io.github.microutils:kotlin-logging:jar:1.4.4:compile - omitted for duplicate)
+|  |  |  +- (org.scala-lang:scala-library:jar:2.12.3:compile - omitted for duplicate)
+|  |  |  +- (org.scala-lang:scala-compiler:jar:2.12.3:compile - omitted for duplicate)
+|  |  |  +- (com.typesafe.scala-logging:scala-logging_2.12:jar:3.7.2:compile - omitted for duplicate)
+|  |  |  +- (au.com.dius:pact-jvm-model:jar:3.5.13:compile - omitted for duplicate)
+|  |  |  +- (org.apache.commons:commons-lang3:jar:3.4:compile - omitted for duplicate)
+|  |  |  +- io.gatling:jsonpath_2.12:jar:0.6.9:compile
+|  |  |  |  +- (org.scala-lang:scala-library:jar:2.12.1:compile - omitted for conflict with 2.12.3)
+|  |  |  |  \- org.scala-lang.modules:scala-parser-combinators_2.12:jar:1.0.6:compile
+|  |  |  |     \- (org.scala-lang:scala-library:jar:2.12.1:compile - omitted for conflict with 2.12.3)
+|  |  |  \- (com.googlecode.java-diff-utils:diffutils:jar:1.3.0:compile - omitted for duplicate)
+|  |  +- com.googlecode.java-diff-utils:diffutils:jar:1.3.0:compile
+|  |  +- dk.brics.automaton:automaton:jar:1.11-8:compile
+|  |  +- org.apache.httpcomponents:httpclient:jar:4.5.3:compile
+|  |  |  +- org.apache.httpcomponents:httpcore:jar:4.4.6:compile
+|  |  |  +- commons-logging:commons-logging:jar:1.2:compile
+|  |  |  \- commons-codec:commons-codec:jar:1.9:compile
+|  |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.8.1:compile
+|  |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile
+|  |  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.8.1:compile
+|  |  +- ws.unfiltered:unfiltered-netty-server_2.12:jar:0.9.1:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.12.1:compile - omitted for conflict with 2.12.3)
+|  |  |  +- ws.unfiltered:unfiltered-netty_2.12:jar:0.9.1:compile
+|  |  |  |  +- (org.scala-lang:scala-library:jar:2.12.1:compile - omitted for conflict with 2.12.3)
+|  |  |  |  +- ws.unfiltered:unfiltered_2.12:jar:0.9.1:compile
+|  |  |  |  |  +- (org.scala-lang:scala-library:jar:2.12.1:compile - omitted for conflict with 2.12.3)
+|  |  |  |  |  +- (ws.unfiltered:unfiltered-util_2.12:jar:0.9.1:compile - omitted for duplicate)
+|  |  |  |  |  +- (commons-codec:commons-codec:jar:1.10:compile - omitted for conflict with 1.9)
+|  |  |  |  |  \- (org.scala-lang.modules:scala-xml_2.12:jar:1.0.6:compile - omitted for duplicate)
+|  |  |  |  +- io.netty:netty-codec-http:jar:4.1.9.Final:compile
+|  |  |  |  |  \- (io.netty:netty-codec:jar:4.1.9.Final:compile - omitted for duplicate)
+|  |  |  |  \- (io.netty:netty-handler:jar:4.1.9.Final:compile - omitted for duplicate)
+|  |  |  \- ws.unfiltered:unfiltered-util_2.12:jar:0.9.1:compile
+|  |  |     \- (org.scala-lang:scala-library:jar:2.12.1:compile - omitted for conflict with 2.12.3)
+|  |  +- org.apache.httpcomponents:fluent-hc:jar:4.5.3:compile
+|  |  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.3:compile - omitted for duplicate)
+|  |  |  \- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  |  \- org.scala-lang.modules:scala-java8-compat_2.12:jar:0.8.0:compile
+|  |     \- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.3)
+|  +- (junit:junit:jar:4.12:compile - omitted for duplicate)
+|  +- org.json:json:jar:20160212:compile
+|  +- org.apache.commons:commons-lang3:jar:3.4:compile
+|  \- com.google.guava:guava:jar:18.0:compile
++- org.specs2:specs2-core_2.12:jar:3.9.4:test
+|  +- (org.scala-lang:scala-library:jar:2.12.2:test - omitted for conflict with 2.12.3)
+|  \- org.specs2:specs2-matcher_2.12:jar:3.9.4:test
+|     +- (org.scala-lang:scala-library:jar:2.12.2:test - omitted for conflict with 2.12.3)
+|     \- org.specs2:specs2-common_2.12:jar:3.9.4:test
+|        +- (org.scala-lang:scala-library:jar:2.12.2:test - omitted for conflict with 2.12.3)
+|        +- org.scalaz:scalaz-core_2.12:jar:7.2.12:test
+|        |  \- (org.scala-lang:scala-library:jar:2.12.2:test - omitted for conflict with 2.12.3)
+|        +- org.scalaz:scalaz-effect_2.12:jar:7.2.12:test
+|        |  +- (org.scala-lang:scala-library:jar:2.12.2:test - omitted for conflict with 2.12.3)
+|        |  \- (org.scalaz:scalaz-core_2.12:jar:7.2.12:test - omitted for duplicate)
+|        +- (org.scala-lang:scala-reflect:jar:2.12.2:test - omitted for conflict with 2.12.3)
+|        +- (org.scala-lang.modules:scala-parser-combinators_2.12:jar:1.0.6:compile - scope updated from test; omitted for duplicate)
+|        \- (org.scala-lang.modules:scala-xml_2.12:jar:1.0.6:test - omitted for duplicate)
++- org.specs2:specs2-junit_2.12:jar:3.9.4:test
+|  +- (org.scala-lang:scala-library:jar:2.12.2:test - omitted for conflict with 2.12.3)
+|  +- (org.specs2:specs2-core_2.12:jar:3.9.4:test - omitted for duplicate)
+|  \- (junit:junit:jar:4.12:test - omitted for duplicate)
++- org.hamcrest:hamcrest-all:jar:1.3:test
++- org.mockito:mockito-core:jar:1.10.19:test
+|  +- (org.hamcrest:hamcrest-core:jar:1.1:compile - scope updated from test; omitted for duplicate)
+|  \- (org.objenesis:objenesis:jar:2.1:test - omitted for conflict with 2.4)
++- junit:junit:jar:4.12:test (scope not updated to compile)
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.spockframework:spock-core:jar:1.1-groovy-2.4:test
+|  +- org.codehaus.groovy:groovy-all:jar:2.4.9:test
+|  \- (junit:junit:jar:4.12:test - omitted for duplicate)
++- cglib:cglib:jar:3.2.4:test
+|  +- org.ow2.asm:asm:jar:6.0_ALPHA:test
+|  \- org.apache.ant:ant:jar:1.9.6:test
+|     \- org.apache.ant:ant-launcher:jar:1.9.6:test
++- org.objenesis:objenesis:jar:2.4:test
+\- io.kotlintest:kotlintest:jar:2.0.7:test
+   +- (junit:junit:jar:4.12:test - omitted for duplicate)
+   +- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.1.51:test - omitted for conflict with 1.2.0)
+   +- (org.jetbrains.kotlin:kotlin-reflect:jar:1.1.51:test - omitted for conflict with 1.2.0)
+   +- (org.mockito:mockito-core:jar:2.7.11:test - omitted for conflict with 1.10.19)
+   \- org.reflections:reflections:jar:0.9.11:test
+      +- (com.google.guava:guava:jar:20.0:test - omitted for conflict with 18.0)
+      \- org.javassist:javassist:jar:3.21.0-GA:test

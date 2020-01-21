@@ -1,0 +1,4 @@
+com.ardikars.common:common-util:jar:1.2.0.RC2
++- com.ardikars.common:common-annotation:jar:1.2.0.RC2:compile
+\- junit:junit:jar:4.12:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

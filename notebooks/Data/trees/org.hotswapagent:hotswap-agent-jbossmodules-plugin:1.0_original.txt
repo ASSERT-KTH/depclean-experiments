@@ -1,0 +1,3 @@
+org.hotswapagent:hotswap-agent-jbossmodules-plugin:jar:1.0
++- org.hotswapagent:hotswap-agent-core:jar:1.0:compile
+\- org.jboss.modules:jboss-modules:jar:1.3.7.Final:compile

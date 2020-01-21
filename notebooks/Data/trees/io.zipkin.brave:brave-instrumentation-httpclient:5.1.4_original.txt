@@ -1,0 +1,50 @@
+io.zipkin.brave:brave-instrumentation-httpclient:jar:5.1.4
++- io.zipkin.brave:brave-instrumentation-http:jar:5.1.4:compile
+|  \- (io.zipkin.brave:brave:jar:5.1.4:compile - omitted for duplicate)
++- org.apache.httpcomponents:httpclient:jar:4.5.6:provided (scope not updated to compile)
+|  +- org.apache.httpcomponents:httpcore:jar:4.4.10:provided
+|  +- (commons-logging:commons-logging:jar:1.2:compile - scope updated from provided; omitted for duplicate)
+|  \- commons-codec:commons-codec:jar:1.10:provided
++- org.apache.httpcomponents:httpclient-cache:jar:4.5.6:compile
+|  +- (org.apache.httpcomponents:httpclient:jar:4.5.6:compile - omitted for duplicate)
+|  \- commons-logging:commons-logging:jar:1.2:compile
++- io.zipkin.brave:brave-tests:jar:5.1.4:test
+|  +- (io.zipkin.brave:brave:jar:5.1.4:test - omitted for duplicate)
+|  +- (junit:junit:jar:4.12:test - omitted for duplicate)
+|  \- (org.assertj:assertj-core:jar:3.10.0:test - omitted for duplicate)
++- io.zipkin.brave:brave-instrumentation-http-tests:jar:5.1.4:test
+|  +- (io.zipkin.brave:brave-instrumentation-http:jar:5.1.4:test - omitted for duplicate)
+|  +- (junit:junit:jar:4.12:test - omitted for duplicate)
+|  +- org.eclipse.jetty:jetty-servlet:jar:8.1.22.v20160922:test
+|  |  \- org.eclipse.jetty:jetty-security:jar:8.1.22.v20160922:test
+|  |     \- org.eclipse.jetty:jetty-server:jar:8.1.22.v20160922:test
+|  |        +- org.eclipse.jetty.orbit:javax.servlet:jar:3.0.0.v201112011016:test
+|  |        +- org.eclipse.jetty:jetty-continuation:jar:8.1.22.v20160922:test
+|  |        \- org.eclipse.jetty:jetty-http:jar:8.1.22.v20160922:test
+|  |           \- org.eclipse.jetty:jetty-io:jar:8.1.22.v20160922:test
+|  |              \- org.eclipse.jetty:jetty-util:jar:8.1.22.v20160922:test
+|  +- (org.assertj:assertj-core:jar:3.10.0:test - omitted for duplicate)
+|  +- com.squareup.okhttp3:mockwebserver:jar:3.11.0:test
+|  |  +- com.squareup.okhttp3:okhttp:jar:3.11.0:test
+|  |  |  \- com.squareup.okio:okio:jar:1.14.0:test
+|  |  \- (junit:junit:jar:4.12:test - omitted for duplicate)
+|  \- (io.zipkin.brave:brave:jar:5.1.4:test - omitted for duplicate)
++- io.zipkin.brave:brave:jar:5.1.4:compile
+|  +- io.zipkin.zipkin2:zipkin:jar:2.10.4:compile
+|  \- io.zipkin.reporter2:zipkin-reporter:jar:2.7.7:compile
+|     \- (io.zipkin.zipkin2:zipkin:jar:2.10.4:compile - omitted for duplicate)
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.assertj:assertj-core:jar:3.10.0:test
++- org.apache.logging.log4j:log4j-core:jar:2.11.0:test
+|  \- org.apache.logging.log4j:log4j-api:jar:2.11.0:test
++- org.apache.logging.log4j:log4j-jul:jar:2.11.0:test
+|  \- (org.apache.logging.log4j:log4j-api:jar:2.11.0:test - omitted for duplicate)
++- org.apache.logging.log4j:log4j-1.2-api:jar:2.11.0:test
+|  +- (org.apache.logging.log4j:log4j-api:jar:2.11.0:test - omitted for duplicate)
+|  \- (org.apache.logging.log4j:log4j-core:jar:2.11.0:test - omitted for duplicate)
++- org.apache.logging.log4j:log4j-slf4j-impl:jar:2.11.0:test
+|  +- org.slf4j:slf4j-api:jar:1.8.0-alpha2:test
+|  +- (org.apache.logging.log4j:log4j-api:jar:2.11.0:test - omitted for duplicate)
+|  \- (org.apache.logging.log4j:log4j-core:jar:2.11.0:test - omitted for duplicate)
+\- org.mockito:mockito-all:jar:1.10.19:test

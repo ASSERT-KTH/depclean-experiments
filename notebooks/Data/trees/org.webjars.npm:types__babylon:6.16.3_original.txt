@@ -1,0 +1,2 @@
+org.webjars.npm:types__babylon:jar:6.16.3
+\- org.webjars.npm:types__babel-types:jar:7.0.7:compile

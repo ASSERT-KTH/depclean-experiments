@@ -1,0 +1,57 @@
+nz.co.senanque:madura-objects-cdi:jar:3.3.5
++- nz.co.senanque:madura-objects:jar:3.3.5:compile
+|  +- org.jvnet.jaxb2_commons:jaxb2-basics:jar:0.6.2:compile
+|  |  +- org.jvnet.jaxb2_commons:jaxb2-basics-runtime:jar:0.6.2:compile
+|  |  \- org.jvnet.jaxb2_commons:jaxb2-basics-tools:jar:0.6.2:compile
+|  |     +- commons-beanutils:commons-beanutils:jar:1.7.0:compile
+|  |     +- (commons-lang:commons-lang:jar:2.6:compile - version managed from 2.2; omitted for duplicate)
+|  |     \- (org.jvnet.jaxb2_commons:jaxb2-basics-runtime:jar:0.6.2:compile - omitted for duplicate)
+|  +- org.slf4j:slf4j-api:jar:1.7.12:compile
+|  +- org.jdom:jdom:jar:1.1:compile
+|  +- org.springframework:spring-orm:jar:4.3.3.RELEASE:compile
+|  |  +- org.springframework:spring-beans:jar:4.3.3.RELEASE:compile
+|  |  |  \- (org.springframework:spring-core:jar:4.3.3.RELEASE:compile - omitted for duplicate)
+|  |  +- org.springframework:spring-core:jar:4.3.3.RELEASE:compile
+|  |  +- org.springframework:spring-jdbc:jar:4.3.3.RELEASE:compile
+|  |  |  +- (org.springframework:spring-beans:jar:4.3.3.RELEASE:compile - omitted for duplicate)
+|  |  |  +- (org.springframework:spring-core:jar:4.3.3.RELEASE:compile - omitted for duplicate)
+|  |  |  \- (org.springframework:spring-tx:jar:4.3.3.RELEASE:compile - omitted for duplicate)
+|  |  \- org.springframework:spring-tx:jar:4.3.3.RELEASE:compile
+|  |     +- (org.springframework:spring-beans:jar:4.3.3.RELEASE:compile - omitted for duplicate)
+|  |     \- (org.springframework:spring-core:jar:4.3.3.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework:spring-oxm:jar:4.3.3.RELEASE:compile
+|  |  +- (org.springframework:spring-beans:jar:4.3.3.RELEASE:compile - omitted for duplicate)
+|  |  \- (org.springframework:spring-core:jar:4.3.3.RELEASE:compile - omitted for duplicate)
+|  +- org.javassist:javassist:jar:3.16.1-GA:compile
+|  +- org.springframework:spring-context-support:jar:4.3.3.RELEASE:compile
+|  |  +- (org.springframework:spring-beans:jar:4.3.3.RELEASE:compile - omitted for duplicate)
+|  |  +- org.springframework:spring-context:jar:4.3.3.RELEASE:compile
+|  |  |  +- org.springframework:spring-aop:jar:4.3.3.RELEASE:compile
+|  |  |  |  +- (org.springframework:spring-beans:jar:4.3.3.RELEASE:compile - omitted for duplicate)
+|  |  |  |  \- (org.springframework:spring-core:jar:4.3.3.RELEASE:compile - omitted for duplicate)
+|  |  |  +- (org.springframework:spring-beans:jar:4.3.3.RELEASE:compile - omitted for duplicate)
+|  |  |  +- (org.springframework:spring-core:jar:4.3.3.RELEASE:compile - omitted for duplicate)
+|  |  |  \- org.springframework:spring-expression:jar:4.3.3.RELEASE:compile
+|  |  |     \- (org.springframework:spring-core:jar:4.3.3.RELEASE:compile - omitted for duplicate)
+|  |  \- (org.springframework:spring-core:jar:4.3.3.RELEASE:compile - omitted for duplicate)
+|  +- cglib:cglib:jar:3.2.0:compile
+|  |  +- org.ow2.asm:asm:jar:5.0.3:compile
+|  |  \- org.apache.ant:ant:jar:1.9.4:compile
+|  |     \- org.apache.ant:ant-launcher:jar:1.9.4:compile
+|  +- commons-lang:commons-lang:jar:2.6:compile
+|  +- com.sun.xml.bind:jaxb-xjc:jar:2.2.4-1:compile
+|  |  \- com.sun.xml.bind:jaxb-impl:jar:2.2.4-1:compile
+|  |     \- javax.xml.bind:jaxb-api:jar:2.2.3:compile
+|  |        +- javax.xml.stream:stax-api:jar:1.0-2:compile
+|  |        \- javax.activation:activation:jar:1.1:compile
+|  +- org.slf4j:jcl-over-slf4j:jar:1.7.12:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.12:compile - omitted for duplicate)
+|  \- nz.co.senanque:madura-resource-loader:jar:1.4.0:compile
+|     +- (org.slf4j:slf4j-api:jar:1.7.12:compile - omitted for duplicate)
+|     +- (org.slf4j:jcl-over-slf4j:jar:1.7.12:compile - omitted for duplicate)
+|     +- (org.springframework:spring-context-support:jar:4.3.3.RELEASE:compile - omitted for duplicate)
+|     \- javax.annotation:jsr250-api:jar:1.0:compile
++- org.jboss.weld.se:weld-se:jar:2.2.4.Final:provided
++- org.apache.deltaspike.core:deltaspike-core-api:jar:1.2.1:provided
+\- org.apache.deltaspike.core:deltaspike-core-impl:jar:1.2.1:provided
+   \- (org.apache.deltaspike.core:deltaspike-core-api:jar:1.2.1:provided - omitted for duplicate)

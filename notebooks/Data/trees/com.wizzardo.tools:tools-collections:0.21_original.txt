@@ -1,0 +1,3 @@
+com.wizzardo.tools:tools-collections:jar:0.21
++- com.wizzardo.tools:tools-interfaces:jar:0.21:compile
+\- com.wizzardo.tools:tools-exception:jar:0.21:compile

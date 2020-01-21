@@ -1,0 +1,32 @@
+com.github.java-json-tools:json-schema-validator:jar:2.2.10
++- com.github.java-json-tools:json-schema-core:jar:1.2.10:compile
+|  +- com.github.java-json-tools:jackson-coreutils:jar:1.9:compile
+|  |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.2.3:compile
+|  |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.2.3:compile
+|  |  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.2.3:compile
+|  |  +- com.google.guava:guava:jar:16.0.1:compile
+|  |  +- com.github.fge:msg-simple:jar:1.1:compile
+|  |  |  +- com.github.fge:btf:jar:1.2:compile
+|  |  |  |  \- (com.google.code.findbugs:jsr305:jar:2.0.1:compile - omitted for duplicate)
+|  |  |  \- (com.google.code.findbugs:jsr305:jar:2.0.1:compile - omitted for duplicate)
+|  |  \- (com.google.code.findbugs:jsr305:jar:2.0.1:compile - omitted for conflict with 3.0.1)
+|  +- com.github.fge:uri-template:jar:0.9:compile
+|  |  +- (com.github.fge:msg-simple:jar:1.1:compile - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:16.0.1:compile - omitted for duplicate)
+|  |  \- (com.google.code.findbugs:jsr305:jar:2.0.1:compile - omitted for duplicate)
+|  +- org.mozilla:rhino:jar:1.7.7.1:compile
+|  \- (com.google.code.findbugs:jsr305:jar:3.0.1:compile - omitted for duplicate)
++- javax.mail:mailapi:jar:1.4.3:compile
+|  \- javax.activation:activation:jar:1.1:compile
++- joda-time:joda-time:jar:2.9.7:compile
++- com.googlecode.libphonenumber:libphonenumber:jar:8.0.0:compile
++- com.google.code.findbugs:jsr305:jar:3.0.1:compile
++- net.sf.jopt-simple:jopt-simple:jar:5.0.3:compile
++- org.testng:testng:jar:6.10:test
+|  \- com.beust:jcommander:jar:1.48:test
++- org.mockito:mockito-core:jar:2.4.2:test
+|  +- net.bytebuddy:byte-buddy:jar:1.5.5:test
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.5.5:test
+|  \- org.objenesis:objenesis:jar:2.4:test
+\- org.easytesting:fest-assert:jar:1.4:test
+   \- org.easytesting:fest-util:jar:1.1.6:test

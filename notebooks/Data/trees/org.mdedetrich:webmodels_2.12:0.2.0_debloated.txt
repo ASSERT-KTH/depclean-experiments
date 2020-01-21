@@ -1,0 +1,39 @@
+org.mdedetrich:webmodels_2.12:jar:0.2.0
++- org.scala-lang:scala-library:jar:2.12.4:compile
++- io.circe:circe-core_2.12:jar:0.9.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  +- io.circe:circe-numbers_2.12:jar:0.9.0:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  \- org.typelevel:cats-core_2.12:jar:1.0.1:compile
+|     +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|     +- org.typelevel:cats-macros_2.12:jar:1.0.1:compile
+|     |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|     |  \- (org.typelevel:machinist_2.12:jar:0.6.2:compile - omitted for duplicate)
+|     +- org.typelevel:cats-kernel_2.12:jar:1.0.1:compile
+|     |  \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|     \- org.typelevel:machinist_2.12:jar:0.6.2:compile
+|        +- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.4)
+|        \- org.scala-lang:scala-reflect:jar:2.12.0:compile
+|           \- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.4)
++- org.specs2:specs2-core_2.12:jar:4.0.0:test
+|  +- (org.scala-lang:scala-library:jar:2.12.3:test - omitted for conflict with 2.12.4)
+|  +- org.specs2:specs2-matcher_2.12:jar:4.0.0:test
+|  |  +- (org.scala-lang:scala-library:jar:2.12.3:test - omitted for conflict with 2.12.4)
+|  |  \- org.specs2:specs2-common_2.12:jar:4.0.0:test
+|  |     +- (org.scala-lang:scala-library:jar:2.12.3:test - omitted for conflict with 2.12.4)
+|  |     +- org.specs2:specs2-fp_2.12:jar:4.0.0:test
+|  |     |  \- (org.scala-lang:scala-library:jar:2.12.3:test - omitted for conflict with 2.12.4)
+|  |     +- org.scala-lang.modules:scala-parser-combinators_2.12:jar:1.0.5:test
+|  |     |  \- (org.scala-lang:scala-library:jar:2.12.1:test - omitted for conflict with 2.12.4)
+|  |     +- (org.scala-lang:scala-reflect:jar:2.12.3:test - omitted for conflict with 2.12.0)
+|  |     \- org.scala-lang.modules:scala-xml_2.12:jar:1.0.6:test
+|  |        \- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.4)
+|  \- org.scala-sbt:test-interface:jar:1.0:test
+\- io.circe:circe-parser_2.12:jar:0.9.0:test
+   +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for duplicate)
+   +- io.circe:circe-jawn_2.12:jar:0.9.0:test
+   |  +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for duplicate)
+   |  +- (io.circe:circe-core_2.12:jar:0.9.0:test - omitted for duplicate)
+   |  \- org.spire-math:jawn-parser_2.12:jar:0.11.0:test
+   |     \- (org.scala-lang:scala-library:jar:2.12.2:test - omitted for conflict with 2.12.4)
+   \- (io.circe:circe-core_2.12:jar:0.9.0:test - omitted for duplicate)

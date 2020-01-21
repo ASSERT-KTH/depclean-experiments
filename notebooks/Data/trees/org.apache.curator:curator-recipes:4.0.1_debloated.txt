@@ -1,0 +1,24 @@
+org.apache.curator:curator-recipes:bundle:4.0.1
++- org.apache.curator:curator-framework:jar:4.0.1:compile
+|  \- org.apache.curator:curator-client:jar:4.0.1:compile
+|     +- org.apache.zookeeper:zookeeper:jar:3.5.3-beta:compile
+|     |  +- (org.slf4j:slf4j-api:jar:1.7.6:compile - version managed from 1.7.5; omitted for duplicate)
+|     |  +- commons-cli:commons-cli:jar:1.2:compile
+|     |  +- log4j:log4j:jar:1.2.17:compile
+|     |  \- io.netty:netty:jar:3.10.5.Final:compile
+|     +- com.google.guava:guava:jar:20.0:compile
+|     \- org.slf4j:slf4j-api:jar:1.7.6:compile
++- org.apache.curator:curator-framework:test-jar:tests:4.0.1:test
+|  \- (org.apache.curator:curator-client:jar:4.0.1:test - omitted for duplicate)
++- org.apache.curator:curator-test:jar:4.0.1:test
+|  +- (org.apache.zookeeper:zookeeper:jar:3.5.3-beta:compile - scope updated from test; omitted for duplicate)
+|  \- (com.google.guava:guava:jar:20.0:compile - scope updated from test; omitted for duplicate)
++- org.mockito:mockito-core:jar:1.9.5:test
+|  +- org.hamcrest:hamcrest-core:jar:1.1:test
+|  \- org.objenesis:objenesis:jar:1.0:test
++- org.testng:testng:jar:6.10:test
+|  \- com.beust:jcommander:jar:1.48:test
++- org.slf4j:slf4j-log4j12:jar:1.7.6:test
+|  +- (org.slf4j:slf4j-api:jar:1.7.6:compile - version managed from 1.7.5; scope updated from test; omitted for duplicate)
+|  \- (log4j:log4j:jar:1.2.17:compile - scope updated from test; omitted for duplicate)
+\- org.apache.commons:commons-math:jar:2.2:test

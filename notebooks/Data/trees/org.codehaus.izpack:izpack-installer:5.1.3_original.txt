@@ -1,0 +1,25 @@
+org.codehaus.izpack:izpack-installer:jar:5.1.3
++- org.codehaus.izpack:izpack-api:jar:5.1.3:compile
++- org.codehaus.izpack:izpack-core:jar:5.1.3:compile
++- org.codehaus.izpack:izpack-gui:jar:5.1.3:compile
++- org.codehaus.izpack:izpack-tools:jar:5.1.3:compile
++- org.codehaus.izpack:izpack-util:jar:5.1.3:compile
+|  +- org.apache.ant:ant:jar:1.9.9:compile
+|  |  \- org.apache.ant:ant-launcher:jar:1.9.9:compile
+|  +- jline:jline:jar:2.12.1:compile
+|  \- org.jdom:jdom2:jar:2.0.5:compile
++- org.codehaus.izpack:izpack-test-common:jar:5.1.3:test
++- org.picocontainer:picocontainer:jar:2.15:compile
++- commons-io:commons-io:jar:2.5:compile
++- org.apache.commons:commons-compress:jar:1.12:compile
++- org.tukaani:xz:jar:1.6:runtime
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.mockito:mockito-all:jar:1.8.5:test
++- org.hamcrest:hamcrest-all:jar:1.1:test
++- org.easytesting:fest-swing:jar:1.2.1:test
+|  +- org.easytesting:fest-assert:jar:1.2:test
+|  +- org.easytesting:fest-reflect:jar:1.2:test
+|  +- org.easytesting:fest-util:jar:1.1.3:test
+|  \- net.jcip:jcip-annotations:jar:1.0:test
+\- org.apache.commons:commons-lang3:jar:3.5:test

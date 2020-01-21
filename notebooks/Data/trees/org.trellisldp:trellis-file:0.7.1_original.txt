@@ -1,0 +1,42 @@
+org.trellisldp:trellis-file:jar:0.7.1
++- org.apache.commons:commons-rdf-api:jar:0.5.0:compile
++- org.glassfish.hk2.external:javax.inject:jar:2.5.0-b61:compile
++- org.trellisldp:trellis-api:jar:0.7.1:compile
+|  +- (org.apache.commons:commons-rdf-api:jar:0.5.0:compile - omitted for duplicate)
+|  \- (org.apache.commons:commons-lang3:jar:3.7:compile - omitted for duplicate)
++- commons-codec:commons-codec:jar:1.11:runtime
++- commons-io:commons-io:jar:2.6:runtime
++- org.apache.commons:commons-collections4:jar:4.1:runtime
++- org.apache.commons:commons-lang3:jar:3.7:runtime (scope not updated to compile)
++- org.apache.commons:commons-rdf-jena:jar:0.5.0:runtime
+|  +- (org.apache.commons:commons-rdf-api:jar:0.5.0:runtime - omitted for duplicate)
+|  +- org.apache.commons:commons-rdf-simple:jar:0.5.0:runtime
+|  |  \- (org.apache.commons:commons-rdf-api:jar:0.5.0:runtime - omitted for duplicate)
+|  +- (org.apache.jena:jena-osgi:jar:3.5.0:runtime - omitted for conflict with 3.8.0)
+|  +- org.apache.servicemix.bundles:org.apache.servicemix.bundles.xerces:jar:2.11.0_1:runtime
+|  |  \- xml-apis:xml-apis:jar:1.4.01:runtime
+|  \- com.github.andrewoma.dexx:collection:jar:0.7:runtime
++- org.apache.jena:jena-osgi:jar:3.8.0:runtime
+|  +- org.apache.httpcomponents:httpclient-osgi:jar:4.5.5:runtime
+|  +- org.apache.httpcomponents:httpcore-osgi:jar:4.4.9:runtime
+|  +- com.github.jsonld-java:jsonld-java:jar:0.12.0:runtime
+|  |  +- com.fasterxml.jackson.core:jackson-core:jar:2.9.5:runtime
+|  |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:runtime
+|  |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:runtime
+|  |  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.5:runtime - omitted for duplicate)
+|  |  +- (org.slf4j:jcl-over-slf4j:jar:1.7.25:runtime - omitted for duplicate)
+|  |  \- (commons-io:commons-io:jar:2.6:runtime - omitted for duplicate)
+|  +- org.apache.commons:commons-csv:jar:1.5:runtime
+|  +- org.apache.thrift:libthrift:jar:0.10.0:runtime
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.12:runtime - omitted for conflict with 1.7.25)
+|  +- org.slf4j:jcl-over-slf4j:jar:1.7.25:runtime
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:runtime - omitted for conflict with 1.7.12)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:runtime - omitted for duplicate)
+|  +- (org.apache.commons:commons-lang3:jar:3.4:runtime - omitted for conflict with 3.7)
+|  \- org.osgi:org.osgi.core:jar:5.0.0:runtime
++- org.apache.tamaya:tamaya-api:jar:0.3-incubating:runtime
+|  \- org.apache.geronimo.specs:geronimo-annotation_1.2_spec:jar:1.0-alpha-1:runtime
++- org.slf4j:slf4j-api:jar:1.7.25:runtime
++- org.trellisldp:trellis-vocabulary:jar:0.7.1:runtime
+|  \- (org.apache.commons:commons-rdf-api:jar:0.5.0:runtime - omitted for duplicate)
+\- org.apache.commons:commons-compress:jar:1.17:runtime

@@ -1,0 +1,13 @@
+org.pitest:pitest-entry:jar:1.4.0
++- org.pitest:pitest:jar:1.4.0:compile
++- com.thoughtworks.xstream:xstream:jar:1.4.8:test
++- org.pitest:pitest:test-jar:tests:1.4.0:test
++- nl.jqno.equalsverifier:equalsverifier:jar:1.7.5:test
++- com.google.jimfs:jimfs:jar:1.1:test
++- org.easymock:easymock:jar:3.3.1:test
+|  \- org.ow2.asm:asm:jar:5.0.3:test
++- org.testng:testng:jar:6.8.21:test
++- junit:junit:jar:4.11:test
++- org.mockito:mockito-all:jar:1.9.5:test
++- org.assertj:assertj-core:jar:3.9.0:test
+\- org.pitest.quickbuilder:quickbuilder:jar:1.2:test

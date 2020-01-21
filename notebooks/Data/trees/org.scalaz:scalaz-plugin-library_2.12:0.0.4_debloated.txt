@@ -1,0 +1,7 @@
+org.scalaz:scalaz-plugin-library_2.12:jar:0.0.4
++- org.scala-lang:scala-library:jar:2.12.4:compile
++- com.github.ghik:silencer-lib_2.12:jar:1.0:provided
+|  \- (org.scala-lang:scala-library:jar:2.12.6:provided - omitted for conflict with 2.12.4)
+\- org.scalacheck:scalacheck_2.12:jar:1.14.0:test
+   +- (org.scala-lang:scala-library:jar:2.12.5:test - omitted for conflict with 2.12.4)
+   \- org.scala-sbt:test-interface:jar:1.0:test

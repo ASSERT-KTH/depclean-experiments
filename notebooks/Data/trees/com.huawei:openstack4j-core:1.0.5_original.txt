@@ -1,0 +1,24 @@
+com.huawei:openstack4j-core:jar:1.0.5
++- org.projectlombok:lombok:jar:1.16.18:provided
++- com.google.guava:guava:jar:20.0:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.8.7:compile
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile
+|  \- com.fasterxml.jackson.core:jackson-core:jar:2.8.7:compile
++- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.8.7:compile
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.7:compile - omitted for duplicate)
+|  \- org.yaml:snakeyaml:jar:1.17:compile
++- com.google.code.findbugs:jsr305:jar:2.0.1:compile
++- org.slf4j:slf4j-api:jar:1.7.21:compile
++- com.github.fge:json-patch:jar:1.9:compile
+|  \- com.github.fge:jackson-coreutils:jar:1.6:compile
+|     +- com.github.fge:msg-simple:jar:1.1:compile
+|     |  +- com.github.fge:btf:jar:1.2:compile
+|     |  |  \- (com.google.code.findbugs:jsr305:jar:2.0.1:compile - omitted for duplicate)
+|     |  \- (com.google.code.findbugs:jsr305:jar:2.0.1:compile - omitted for duplicate)
+|     +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.7:compile - version managed from 2.2.3; omitted for duplicate)
+|     +- (com.google.guava:guava:jar:20.0:compile - version managed from 16.0.1; omitted for duplicate)
+|     \- (com.google.code.findbugs:jsr305:jar:2.0.1:compile - omitted for duplicate)
+\- org.testng:testng:jar:6.8:test
+   +- org.beanshell:bsh:jar:2.0b4:test
+   +- com.beust:jcommander:jar:1.27:test
+   \- (org.yaml:snakeyaml:jar:1.6:test - omitted for conflict with 1.17)

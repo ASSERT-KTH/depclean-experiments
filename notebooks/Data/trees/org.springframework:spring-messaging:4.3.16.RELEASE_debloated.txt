@@ -1,0 +1,42 @@
+org.springframework:spring-messaging:jar:4.3.16.RELEASE
++- com.fasterxml.jackson.core:jackson-databind:jar:2.8.11.1:compile
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile
+|  \- com.fasterxml.jackson.core:jackson-core:jar:2.8.10:compile
++- io.netty:netty-all:jar:4.1.22.Final:compile
++- io.projectreactor:reactor-core:jar:2.0.8.RELEASE:compile
+|  +- org.reactivestreams:reactive-streams:jar:1.0.0:compile
+|  \- org.slf4j:slf4j-api:jar:1.7.12:compile
++- io.projectreactor:reactor-net:jar:2.0.8.RELEASE:compile
+|  +- io.projectreactor:reactor-bus:jar:2.0.8.RELEASE:compile
+|  |  +- com.goldmansachs:gs-collections:jar:5.1.0:compile
+|  |  |  \- com.goldmansachs:gs-collections-api:jar:5.1.0:compile
+|  |  \- (io.projectreactor:reactor-core:jar:2.0.8.RELEASE:compile - omitted for duplicate)
+|  \- io.projectreactor:reactor-stream:jar:2.0.8.RELEASE:compile
+|     \- (io.projectreactor:reactor-core:jar:2.0.8.RELEASE:compile - omitted for duplicate)
++- org.eclipse.jetty.websocket:websocket-server:jar:9.3.14.v20161028:compile
+|  +- (org.eclipse.jetty.websocket:websocket-common:jar:9.3.14.v20161028:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty.websocket:websocket-client:jar:9.3.14.v20161028:compile - omitted for duplicate)
+|  +- org.eclipse.jetty.websocket:websocket-servlet:jar:9.3.14.v20161028:compile
+|  |  \- (org.eclipse.jetty.websocket:websocket-api:jar:9.3.14.v20161028:compile - omitted for duplicate)
+|  +- org.eclipse.jetty:jetty-servlet:jar:9.3.14.v20161028:compile
+|  |  \- org.eclipse.jetty:jetty-security:jar:9.3.14.v20161028:compile
+|  |     \- org.eclipse.jetty:jetty-server:jar:9.3.14.v20161028:compile
+|  |        +- (org.eclipse.jetty:jetty-http:jar:9.3.14.v20161028:compile - omitted for duplicate)
+|  |        \- (org.eclipse.jetty:jetty-io:jar:9.3.14.v20161028:compile - omitted for duplicate)
+|  \- org.eclipse.jetty:jetty-http:jar:9.3.14.v20161028:compile
+|     \- (org.eclipse.jetty:jetty-util:jar:9.3.14.v20161028:compile - omitted for duplicate)
++- org.springframework:spring-beans:jar:4.3.16.RELEASE:compile
+|  \- (org.springframework:spring-core:jar:4.3.16.RELEASE:compile - omitted for duplicate)
++- org.springframework:spring-context:jar:4.3.16.RELEASE:compile
+|  +- org.springframework:spring-aop:jar:4.3.16.RELEASE:compile
+|  |  +- (org.springframework:spring-beans:jar:4.3.16.RELEASE:compile - omitted for duplicate)
+|  |  \- (org.springframework:spring-core:jar:4.3.16.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-beans:jar:4.3.16.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-core:jar:4.3.16.RELEASE:compile - omitted for duplicate)
+|  \- org.springframework:spring-expression:jar:4.3.16.RELEASE:compile
+|     \- (org.springframework:spring-core:jar:4.3.16.RELEASE:compile - omitted for duplicate)
++- org.springframework:spring-core:jar:4.3.16.RELEASE:compile
+|  \- commons-logging:commons-logging:jar:1.2:compile
+\- org.springframework:spring-oxm:jar:4.3.16.RELEASE:compile
+   +- (org.springframework:spring-beans:jar:4.3.16.RELEASE:compile - omitted for duplicate)
+   \- (org.springframework:spring-core:jar:4.3.16.RELEASE:compile - omitted for duplicate)

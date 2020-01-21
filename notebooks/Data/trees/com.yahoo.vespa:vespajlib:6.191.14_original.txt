@@ -1,0 +1,18 @@
+com.yahoo.vespa:vespajlib:container-plugin:6.191.14
++- com.google.guava:guava:jar:18.0:provided
++- net.jpountz.lz4:lz4:jar:1.3.0:compile
++- org.hamcrest:hamcrest-library:jar:1.3:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.mockito:mockito-core:jar:1.9.5:test
+|  +- (org.hamcrest:hamcrest-core:jar:1.3:test - version managed from 1.1; omitted for duplicate)
+|  \- org.objenesis:objenesis:jar:1.0:test
++- junit:junit:jar:4.12:test
+|  \- (org.hamcrest:hamcrest-core:jar:1.3:test - version managed from 1.1; omitted for duplicate)
++- com.yahoo.vespa:annotations:jar:6.191.14:provided
++- com.yahoo.vespa:yolean:jar:6.191.14:provided
++- commons-lang:commons-lang:jar:2.6:compile
++- com.fasterxml.jackson.core:jackson-core:jar:2.8.3:test
++- com.fasterxml.jackson.core:jackson-databind:jar:2.8.3:test
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.3:test (version managed from 2.8.0)
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.8.3:test - omitted for duplicate)
+\- org.apache.commons:commons-exec:jar:1.3:compile

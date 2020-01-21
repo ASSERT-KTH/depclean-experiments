@@ -1,0 +1,72 @@
+org.dellroad:dellroad-stuff-spring:jar:2.2.3
++- org.dellroad:dellroad-stuff-main:jar:2.2.3:compile
+|  +- com.google.guava:guava:jar:21.0:compile
+|  +- javax.validation:validation-api:jar:1.1.0.Final:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
++- org.dellroad:dellroad-stuff-test:jar:2.2.3:test
+|  +- (org.testng:testng:jar:6.9.10:test - omitted for duplicate)
+|  +- org.hibernate:hibernate-validator:jar:5.2.4.Final:test
+|  |  +- (javax.validation:validation-api:jar:1.1.0.Final:test - omitted for duplicate)
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.2.1.Final:test - omitted for conflict with 3.3.0.Final)
+|  |  \- com.fasterxml:classmate:jar:1.1.0:test
+|  +- javax.el:javax.el-api:jar:2.2.5:test
+|  +- (javax.validation:validation-api:jar:1.1.0.Final:test - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)
++- org.jmock:jmock:jar:2.8.2:test
+|  +- junit:junit:jar:4.12:test
+|  |  \- org.hamcrest:hamcrest-core:jar:1.3:test
+|  +- org.jmock:jmock-testjar:jar:2.8.2:test
+|  +- cglib:cglib:jar:3.2.0:test
+|  |  +- (org.ow2.asm:asm:jar:5.0.3:test - omitted for conflict with 5.0.4)
+|  |  \- org.apache.ant:ant:jar:1.9.4:test
+|  |     \- org.apache.ant:ant-launcher:jar:1.9.4:test
+|  +- org.ow2.asm:asm:jar:5.0.4:test
+|  +- org.beanshell:bsh:jar:1.3.0:test
+|  \- org.hamcrest:hamcrest-library:jar:1.3:test
+|     \- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for duplicate)
++- org.springframework:spring-aspects:jar:4.3.7.RELEASE:compile
+|  \- org.aspectj:aspectjweaver:jar:1.8.9:compile
++- org.springframework:spring-context:jar:4.3.7.RELEASE:compile
+|  +- org.springframework:spring-aop:jar:4.3.7.RELEASE:compile
+|  |  +- (org.springframework:spring-beans:jar:4.3.7.RELEASE:compile - omitted for duplicate)
+|  |  \- (org.springframework:spring-core:jar:4.3.7.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework:spring-beans:jar:4.3.7.RELEASE:compile
+|  |  \- (org.springframework:spring-core:jar:4.3.7.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework:spring-core:jar:4.3.7.RELEASE:compile
+|  |  \- commons-logging:commons-logging:jar:1.2:compile
+|  \- org.springframework:spring-expression:jar:4.3.7.RELEASE:compile
+|     \- (org.springframework:spring-core:jar:4.3.7.RELEASE:compile - omitted for duplicate)
++- org.springframework:spring-orm:jar:4.3.7.RELEASE:compile
+|  +- (org.springframework:spring-beans:jar:4.3.7.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-core:jar:4.3.7.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework:spring-jdbc:jar:4.3.7.RELEASE:compile
+|  |  +- (org.springframework:spring-beans:jar:4.3.7.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-core:jar:4.3.7.RELEASE:compile - omitted for duplicate)
+|  |  \- (org.springframework:spring-tx:jar:4.3.7.RELEASE:compile - omitted for duplicate)
+|  \- (org.springframework:spring-tx:jar:4.3.7.RELEASE:compile - omitted for duplicate)
++- org.springframework:spring-tx:jar:4.3.7.RELEASE:compile
+|  +- (org.springframework:spring-beans:jar:4.3.7.RELEASE:compile - omitted for duplicate)
+|  \- (org.springframework:spring-core:jar:4.3.7.RELEASE:compile - omitted for duplicate)
++- org.springframework:spring-web:jar:4.3.7.RELEASE:compile
+|  +- (org.springframework:spring-aop:jar:4.3.7.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-beans:jar:4.3.7.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-context:jar:4.3.7.RELEASE:compile - omitted for duplicate)
+|  \- (org.springframework:spring-core:jar:4.3.7.RELEASE:compile - omitted for duplicate)
++- org.aspectj:aspectjrt:jar:1.8.9:compile
++- javax.servlet:javax.servlet-api:jar:3.1.0:provided
++- org.hibernate:hibernate-core:jar:5.0.7.Final:compile
+|  +- org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile
+|  +- (org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final:compile - omitted for duplicate)
+|  +- org.javassist:javassist:jar:3.18.1-GA:compile
+|  +- antlr:antlr:jar:2.7.7:compile
+|  +- org.apache.geronimo.specs:geronimo-jta_1.1_spec:jar:1.1.1:compile
+|  +- org.jboss:jandex:jar:2.0.0.Final:compile
+|  +- dom4j:dom4j:jar:1.6.1:compile
+|  |  \- xml-apis:xml-apis:jar:1.0.b2:compile
+|  \- org.hibernate.common:hibernate-commons-annotations:jar:5.0.1.Final:compile
+|     \- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile - omitted for duplicate)
++- org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final:compile
++- org.slf4j:slf4j-api:jar:1.7.25:compile
+\- org.testng:testng:jar:6.9.10:test
+   +- com.beust:jcommander:jar:1.48:test
+   \- (org.beanshell:bsh:jar:2.0b4:test - omitted for conflict with 1.3.0)

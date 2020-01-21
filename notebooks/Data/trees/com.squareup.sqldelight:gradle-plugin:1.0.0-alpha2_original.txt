@@ -1,0 +1,44 @@
+com.squareup.sqldelight:gradle-plugin:jar:1.0.0-alpha2
++- com.squareup.sqldelight:core:jar:1.0.0-alpha2:runtime
+|  +- (com.alecstrong:core:jar:0.1.0:runtime - omitted for duplicate)
+|  +- com.squareup.moshi:moshi-kotlin:jar:1.5.0:runtime
+|  |  +- com.squareup.moshi:moshi:jar:1.5.0:runtime
+|  |  |  \- com.squareup.okio:okio:jar:1.13.0:runtime
+|  |  +- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.1.1:runtime - omitted for conflict with 1.2.21)
+|  |  \- (org.jetbrains.kotlin:kotlin-reflect:jar:1.1.1:runtime - omitted for conflict with 1.2.21)
+|  +- com.squareup:kotlinpoet:jar:0.7.0:runtime
+|  |  +- org.jetbrains.kotlin:kotlin-stdlib-jre7:jar:1.2.21:runtime
+|  |  |  \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.21:runtime - omitted for duplicate)
+|  |  \- (org.jetbrains.kotlin:kotlin-reflect:jar:1.2.21:runtime - omitted for duplicate)
+|  \- (org.jetbrains.kotlin:kotlin-stdlib-jdk7:jar:1.2.40:runtime - omitted for duplicate)
++- com.squareup.sqldelight:migrations:jar:1.0.0-alpha2:runtime
+|  +- (com.alecstrong:core:jar:0.1.0:runtime - omitted for duplicate)
+|  +- (org.jetbrains.kotlin:kotlin-stdlib-jdk7:jar:1.2.40:runtime - omitted for duplicate)
+|  +- org.xerial:sqlite-jdbc:jar:3.21.0.1:runtime
+|  +- de.danielbechler:java-object-diff:jar:0.95:runtime
+|  |  \- org.slf4j:slf4j-api:jar:1.7.22:runtime
+|  +- us.fatehi:schemacrawler-tools:jar:14.16.04.01-java7:runtime
+|  |  \- us.fatehi:schemacrawler-api:jar:14.16.04.01-java7:runtime
+|  |     +- org.threeten:threetenbp:jar:1.3.3:runtime
+|  |     \- com.annimon:stream:jar:1.1.7:runtime
+|  \- us.fatehi:schemacrawler-sqlite:jar:14.16.04.01-java7:runtime
+|     +- (us.fatehi:schemacrawler-tools:jar:14.16.04.01-java7:runtime - omitted for duplicate)
+|     \- (org.xerial:sqlite-jdbc:jar:3.7.8:runtime - omitted for conflict with 3.21.0.1)
++- org.jetbrains.kotlin:kotlin-stdlib-jdk7:jar:1.2.40:runtime
+|  \- org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.40:runtime
+|     \- org.jetbrains:annotations:jar:13.0:runtime
++- com.alecstrong:core:jar:0.1.0:runtime
+|  +- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.21:runtime - omitted for conflict with 1.2.40)
+|  \- org.jetbrains.kotlin:kotlin-reflect:jar:1.2.21:runtime
+|     \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.21:runtime - omitted for conflict with 1.2.40)
++- com.google.guava:guava:jar:23.0:runtime
+|  +- com.google.code.findbugs:jsr305:jar:1.3.9:runtime
+|  +- com.google.errorprone:error_prone_annotations:jar:2.0.18:runtime
+|  +- com.google.j2objc:j2objc-annotations:jar:1.1:runtime
+|  \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:runtime
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
+\- com.google.truth:truth:jar:0.30:test
+   +- (com.google.guava:guava:jar:19.0:test - omitted for conflict with 23.0)
+   +- (junit:junit:jar:4.10:test - omitted for conflict with 4.12)
+   \- (com.google.errorprone:error_prone_annotations:jar:2.0.8:test - omitted for conflict with 2.0.18)

@@ -1,0 +1,67 @@
+com.linecorp.centraldogma:centraldogma-client-armeria-shaded:pom:0.26.0
++- com.linecorp.centraldogma:centraldogma-client-shaded:jar:0.26.0:compile
+|  +- (com.linecorp.centraldogma:centraldogma-common-shaded:jar:0.26.0:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.5:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.5:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile - omitted for duplicate)
+|  +- (com.github.ben-manes.caffeine:caffeine:jar:2.6.2:compile - omitted for duplicate)
+|  +- (com.google.code.findbugs:jsr305:jar:3.0.2:compile - omitted for duplicate)
+|  +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  +- org.javassist:javassist:jar:3.22.0-GA:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
++- com.linecorp.centraldogma:centraldogma-common-shaded:jar:0.26.0:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.5:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.5:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile - omitted for duplicate)
+|  +- (com.github.ben-manes.caffeine:caffeine:jar:2.6.2:compile - omitted for duplicate)
+|  +- (com.google.code.findbugs:jsr305:jar:3.0.2:compile - omitted for duplicate)
+|  +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
++- com.fasterxml.jackson.core:jackson-core:jar:2.9.5:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile - omitted for conflict with 2.9.5)
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.5:compile - omitted for duplicate)
++- com.google.code.findbugs:jsr305:jar:3.0.2:compile
++- com.linecorp.armeria:armeria-shaded:jar:0.64.0:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.5:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.5:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile - omitted for duplicate)
+|  +- (com.google.code.findbugs:jsr305:jar:3.0.2:compile - omitted for duplicate)
+|  +- io.micrometer:micrometer-core:jar:1.0.4:compile
+|  |  +- org.hdrhistogram:HdrHistogram:jar:2.1.10:compile
+|  |  \- org.latencyutils:LatencyUtils:jar:2.0.3:compile
+|  +- io.netty:netty-codec-haproxy:jar:4.1.25.Final:compile
+|  |  \- io.netty:netty-codec:jar:4.1.25.Final:compile
+|  |     \- (io.netty:netty-transport:jar:4.1.25.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-codec-http2:jar:4.1.25.Final:compile
+|  |  +- io.netty:netty-codec-http:jar:4.1.25.Final:compile
+|  |  |  \- (io.netty:netty-codec:jar:4.1.25.Final:compile - omitted for duplicate)
+|  |  \- io.netty:netty-handler:jar:4.1.25.Final:compile
+|  |     +- (io.netty:netty-buffer:jar:4.1.25.Final:compile - omitted for duplicate)
+|  |     +- (io.netty:netty-transport:jar:4.1.25.Final:compile - omitted for duplicate)
+|  |     \- (io.netty:netty-codec:jar:4.1.25.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-resolver-dns:jar:4.1.25.Final:compile
+|  |  +- io.netty:netty-resolver:jar:4.1.25.Final:compile
+|  |  |  \- (io.netty:netty-common:jar:4.1.25.Final:compile - omitted for duplicate)
+|  |  +- io.netty:netty-codec-dns:jar:4.1.25.Final:compile
+|  |  |  \- (io.netty:netty-codec:jar:4.1.25.Final:compile - omitted for duplicate)
+|  |  \- (io.netty:netty-transport:jar:4.1.25.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-tcnative-boringssl-static:jar:2.0.8.Final:compile
+|  +- io.netty:netty-transport:jar:4.1.25.Final:compile
+|  |  +- io.netty:netty-buffer:jar:4.1.25.Final:compile
+|  |  |  \- (io.netty:netty-common:jar:4.1.25.Final:compile - omitted for duplicate)
+|  |  \- (io.netty:netty-resolver:jar:4.1.25.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-transport-native-epoll:jar:linux-x86_64:4.1.25.Final:compile
+|  |  +- io.netty:netty-common:jar:4.1.25.Final:compile
+|  |  +- (io.netty:netty-buffer:jar:4.1.25.Final:compile - omitted for duplicate)
+|  |  +- io.netty:netty-transport-native-unix-common:jar:4.1.25.Final:compile
+|  |  |  +- (io.netty:netty-common:jar:4.1.25.Final:compile - omitted for duplicate)
+|  |  |  \- (io.netty:netty-transport:jar:4.1.25.Final:compile - omitted for duplicate)
+|  |  \- (io.netty:netty-transport:jar:4.1.25.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-transport-native-unix-common:jar:linux-x86_64:4.1.25.Final:compile
+|  |  +- (io.netty:netty-common:jar:4.1.25.Final:compile - omitted for duplicate)
+|  |  \- (io.netty:netty-transport:jar:4.1.25.Final:compile - omitted for duplicate)
+|  +- (org.javassist:javassist:jar:3.22.0-GA:runtime - omitted for duplicate)
+|  +- org.reactivestreams:reactive-streams:jar:1.0.2:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+\- org.slf4j:slf4j-api:jar:1.7.25:compile

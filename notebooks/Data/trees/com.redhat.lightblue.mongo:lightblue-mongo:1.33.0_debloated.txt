@@ -1,0 +1,121 @@
+com.redhat.lightblue.mongo:lightblue-mongo:jar:1.33.0
++- com.redhat.lightblue:lightblue-core-api:jar:2.14.0:compile
+|  +- (com.redhat.lightblue:lightblue-core-util:jar:2.14.0:compile - omitted for duplicate)
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.7.1:compile
+|  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.7.0:compile
+|  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.7.1:compile - omitted for duplicate)
+|  \- io.reactivex:rxjava:jar:1.0.7:compile
++- com.redhat.lightblue:lightblue-core-metadata:jar:2.14.0:compile
+|  +- (com.redhat.lightblue:lightblue-core-util:jar:2.14.0:compile - omitted for duplicate)
+|  +- (com.redhat.lightblue:lightblue-core-api:jar:2.14.0:compile - omitted for duplicate)
+|  +- (com.redhat.lightblue:lightblue-core-query-api:jar:2.14.0:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.7.1:compile - omitted for duplicate)
+|  +- (org.skyscreamer:jsonassert:jar:1.2.3:test - scope managed from compile; omitted for duplicate)
+|  +- com.google.guava:guava:jar:19.0:test
+|  +- org.slf4j:slf4j-api:jar:1.7.7:compile
+|  \- (io.reactivex:rxjava:jar:1.0.7:compile - omitted for duplicate)
++- com.redhat.lightblue:lightblue-core-crud:jar:2.14.0:compile
+|  +- (com.redhat.lightblue:lightblue-core-metadata:jar:2.14.0:compile - omitted for duplicate)
+|  +- (com.redhat.lightblue:lightblue-core-api:jar:2.14.0:compile - omitted for duplicate)
+|  +- (com.redhat.lightblue:lightblue-core-query-api:jar:2.14.0:compile - omitted for duplicate)
+|  +- (com.redhat.lightblue:lightblue-core-util:jar:2.14.0:compile - omitted for duplicate)
+|  +- (com.redhat.lightblue:lightblue-core-extensions:jar:2.14.0:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.7.1:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for duplicate)
+|  +- (com.github.fge:json-schema-core:jar:1.2.4:compile - omitted for duplicate)
+|  \- (io.reactivex:rxjava:jar:1.0.7:compile - omitted for duplicate)
++- com.redhat.lightblue:lightblue-core-config:jar:2.14.0:compile
+|  +- (com.redhat.lightblue:lightblue-core-metadata:jar:2.14.0:compile - omitted for duplicate)
+|  +- (com.redhat.lightblue:lightblue-core-util:jar:2.14.0:compile - omitted for duplicate)
+|  +- (com.redhat.lightblue:lightblue-core-api:jar:2.14.0:compile - omitted for duplicate)
+|  +- (com.redhat.lightblue:lightblue-core-query-api:jar:2.14.0:compile - omitted for duplicate)
+|  +- (com.redhat.lightblue:lightblue-core-crud:jar:2.14.0:compile - omitted for duplicate)
+|  +- (com.redhat.lightblue:lightblue-core-extensions:jar:2.14.0:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.7.1:compile - omitted for duplicate)
+|  +- (com.github.fge:json-schema-validator:jar:2.2.5:compile - version managed from 2.2.6; omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for duplicate)
+|  \- (io.reactivex:rxjava:jar:1.0.7:compile - omitted for duplicate)
++- com.redhat.lightblue:lightblue-core-extensions:jar:2.14.0:compile
+|  +- (com.redhat.lightblue:lightblue-core-metadata:jar:2.14.0:compile - omitted for duplicate)
+|  \- (io.reactivex:rxjava:jar:1.0.7:compile - omitted for duplicate)
++- de.flapdoodle.embed:de.flapdoodle.embed.mongo:jar:1.50.0:test
+|  \- de.flapdoodle.embed:de.flapdoodle.embed.process:jar:1.50.0:test
+|     +- commons-io:commons-io:jar:2.4:test
+|     +- (org.apache.commons:commons-lang3:jar:3.1:test - omitted for conflict with 3.4)
+|     +- net.java.dev.jna:jna:jar:4.0.0:test
+|     +- net.java.dev.jna:jna-platform:jar:4.0.0:test
+|     |  \- (net.java.dev.jna:jna:jar:4.0.0:test - omitted for duplicate)
+|     +- org.apache.commons:commons-compress:jar:1.3:test
+|     \- (org.slf4j:slf4j-api:jar:1.7.10:test - omitted for conflict with 1.7.7)
++- com.redhat.lightblue.mongo:lightblue-mongo-test:jar:1.33.0:test
+|  +- (junit:junit:jar:4.12:test - version managed from 4.11; omitted for duplicate)
+|  +- (de.flapdoodle.embed:de.flapdoodle.embed.mongo:jar:1.50.0:test - omitted for duplicate)
+|  +- (com.redhat.lightblue:lightblue-core-test:jar:2.14.0:test - omitted for duplicate)
+|  +- (com.redhat.lightblue:lightblue-core-util:jar:2.14.0:test - omitted for duplicate)
+|  +- (com.redhat.lightblue:lightblue-core-query-api:jar:2.14.0:test - omitted for duplicate)
+|  \- (org.mongodb:mongo-java-driver:jar:3.2.2:test - omitted for duplicate)
++- com.binarytweed:quarantining-test-runner:jar:0.0.1:test
+|  +- (junit:junit:jar:4.12:test - version managed from 4.11; omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.10:test - omitted for conflict with 1.7.7)
++- org.skyscreamer:jsonassert:jar:1.2.3:test
+|  \- org.json:json:jar:20090211:test
++- org.mockito:mockito-all:jar:1.10.17:test
++- com.redhat.lightblue:lightblue-core-util:jar:2.14.0:compile
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.7.1:compile
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.7.1:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for duplicate)
+|  +- org.apache.commons:commons-lang3:jar:3.4:compile
+|  +- (com.github.fge:json-schema-core:jar:1.2.4:compile - omitted for duplicate)
+|  +- org.aspectj:aspectjrt:jar:1.8.9:compile
+|  +- io.dropwizard.metrics:metrics-core:jar:3.2.2:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.22:compile - omitted for conflict with 1.7.7)
+|  +- io.dropwizard.metrics:metrics-jvm:jar:3.2.2:compile
+|  |  +- (io.dropwizard.metrics:metrics-core:jar:3.2.2:compile - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.22:compile - omitted for conflict with 1.7.7)
+|  \- (io.reactivex:rxjava:jar:1.0.7:compile - omitted for duplicate)
++- com.redhat.lightblue:lightblue-core-query-api:jar:2.14.0:compile
+|  +- (com.redhat.lightblue:lightblue-core-util:jar:2.14.0:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.7.1:compile - omitted for duplicate)
+|  +- (com.github.fge:json-schema-core:jar:1.2.4:compile - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:19.0:test - version managed from 16.0.1; scope managed from compile; omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for duplicate)
+|  \- (io.reactivex:rxjava:jar:1.0.7:compile - omitted for duplicate)
++- com.redhat.lightblue:lightblue-core-test:jar:2.14.0:test
+|  +- (com.redhat.lightblue:lightblue-core-config:jar:2.14.0:test - omitted for duplicate)
+|  +- (com.redhat.lightblue:lightblue-core-metadata:jar:2.14.0:test - omitted for duplicate)
+|  +- (com.redhat.lightblue:lightblue-core-api:jar:2.14.0:test - omitted for duplicate)
+|  +- (com.redhat.lightblue:lightblue-core-util:jar:2.14.0:test - omitted for duplicate)
+|  +- (junit:junit:jar:4.12:test - version managed from 4.11; omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.7.1:test - omitted for duplicate)
+|  \- (io.reactivex:rxjava:jar:1.0.7:test - omitted for duplicate)
++- org.mongodb:mongo-java-driver:jar:3.2.2:compile
++- com.github.fge:json-schema-validator:jar:2.2.5:test (scope not updated to compile)
+|  +- (com.github.fge:json-schema-core:jar:1.2.4:test - omitted for duplicate)
+|  +- joda-time:joda-time:jar:2.3:test
+|  +- com.googlecode.libphonenumber:libphonenumber:jar:6.0:test
+|  +- javax.mail:mailapi:jar:1.4.3:test
+|  |  \- javax.activation:activation:jar:1.1:test
+|  +- (com.google.code.findbugs:jsr305:jar:2.0.1:compile - scope updated from test; omitted for duplicate)
+|  \- net.sf.jopt-simple:jopt-simple:jar:4.6:test
++- com.github.fge:json-schema-core:jar:1.2.4:test (scope not updated to compile)
+|  +- com.github.fge:uri-template:jar:0.9:test
+|  |  +- com.github.fge:msg-simple:jar:1.1:test
+|  |  |  +- com.github.fge:btf:jar:1.2:test
+|  |  |  |  \- (com.google.code.findbugs:jsr305:jar:2.0.1:test - omitted for duplicate)
+|  |  |  \- (com.google.code.findbugs:jsr305:jar:2.0.1:test - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:19.0:test - version managed from 16.0.1; scope managed from compile; omitted for duplicate)
+|  |  \- (com.google.code.findbugs:jsr305:jar:2.0.1:test - omitted for duplicate)
+|  +- com.github.fge:jackson-coreutils:jar:1.8:test
+|  |  +- (com.github.fge:msg-simple:jar:1.1:test - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.2.3:test - omitted for conflict with 2.7.1)
+|  |  +- (com.google.guava:guava:jar:19.0:test - version managed from 16.0.1; scope managed from compile; omitted for duplicate)
+|  |  \- (com.google.code.findbugs:jsr305:jar:2.0.1:test - omitted for duplicate)
+|  +- org.mozilla:rhino:jar:1.7R4:test
+|  \- com.google.code.findbugs:jsr305:jar:2.0.1:test
++- org.slf4j:slf4j-simple:jar:1.7.7:test
+|  \- (org.slf4j:slf4j-api:jar:1.7.7:test - omitted for duplicate)
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
+\- org.mockito:mockito-core:jar:1.10.8:test
+   +- (org.hamcrest:hamcrest-core:jar:1.1:test - omitted for conflict with 1.3)
+   \- org.objenesis:objenesis:jar:2.1:test

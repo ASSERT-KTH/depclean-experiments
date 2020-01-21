@@ -1,0 +1,3 @@
+org.webjars.npm:is-my-json-valid:jar:2.17.2
++- org.webjars.npm:xtend:jar:4.0.2:compile
+\- org.webjars.npm:is-my-ip-valid:jar:1.0.0:compile

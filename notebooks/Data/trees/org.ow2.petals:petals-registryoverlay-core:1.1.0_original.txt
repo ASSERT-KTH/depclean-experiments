@@ -1,0 +1,25 @@
+org.ow2.petals:petals-registryoverlay-core:jar:1.1.0
++- com.hazelcast:hazelcast:jar:3.7.1:compile
++- com.hazelcast:hazelcast-client:jar:3.7.1:test
+|  \- (com.hazelcast:hazelcast:jar:3.7.1:test - omitted for duplicate)
++- org.ow2.easycommons:easycommons-lang:jar:1.5.0:test
++- org.ow2.petals:petals-registryoverlay-configuration:jar:1.1.0:compile
+|  \- org.jvnet.jaxb2_commons:jaxb2-basics-runtime:jar:0.11.1:compile
++- org.ow2.petals:petals-registryoverlay-cltsrv-api:jar:1.1.0:compile
+|  +- (com.hazelcast:hazelcast:jar:3.7.1:compile - omitted for duplicate)
+|  \- (org.ow2.petals:petals-topology:jar:1.9.3:compile - omitted for duplicate)
++- org.ow2.petals:petals-topology:jar:1.9.3:compile
+|  \- (org.jvnet.jaxb2_commons:jaxb2-basics-runtime:jar:0.11.1:compile - version managed from 0.11.0; omitted for duplicate)
++- org.easymock:easymock:jar:2.4:test
++- org.easymock:easymockclassextension:jar:2.4:test
+|  +- (org.easymock:easymock:jar:2.4:test - omitted for duplicate)
+|  \- cglib:cglib-nodep:jar:3.1:test (version managed from 2.1_3)
++- com.jayway.awaitility:awaitility:jar:1.7.0:test
+|  +- (org.hamcrest:hamcrest-library:jar:1.3:test - omitted for duplicate)
+|  +- org.hamcrest:hamcrest-core:jar:1.3:test
+|  +- (cglib:cglib-nodep:jar:3.1:test - version managed from 2.1_3; omitted for duplicate)
+|  \- org.objenesis:objenesis:jar:2.1:test
++- org.hamcrest:hamcrest-library:jar:1.3:test
+|  \- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for duplicate)
+\- junit:junit:jar:4.12:test
+   \- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for duplicate)

@@ -1,0 +1,15 @@
+org.jasig.resourceserver:resource-server-api:jar:1.3.0
++- commons-io:commons-io:jar:2.4:compile
++- commons-lang:commons-lang:jar:2.6:compile
++- org.slf4j:slf4j-api:jar:1.7.6:compile
++- org.slf4j:jcl-over-slf4j:jar:1.7.6:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.6:compile - omitted for duplicate)
++- org.jvnet.jaxb2_commons:jaxb2-basics-runtime:jar:0.6.4:compile
++- junit:junit:jar:4.11:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- ch.qos.logback:logback-classic:jar:1.1.0:test
+|  +- ch.qos.logback:logback-core:jar:1.1.0:test
+|  \- (org.slf4j:slf4j-api:jar:1.7.6:test - version managed from 1.7.5; omitted for duplicate)
++- org.springframework:spring-core:jar:3.1.4.RELEASE:test
+|  \- org.springframework:spring-asm:jar:3.1.4.RELEASE:test
+\- xmlunit:xmlunit:jar:1.4:test

@@ -1,0 +1,17 @@
+com.alibaba.spring:spring-context-velocity:jar:1.4.3.18.RELEASE
++- org.apache.velocity:velocity:jar:1.7:compile
+|  +- commons-collections:commons-collections:jar:3.2.1:compile
+|  \- commons-lang:commons-lang:jar:2.4:compile
+\- org.springframework:spring-context-support:jar:4.3.18.RELEASE:compile
+   +- org.springframework:spring-beans:jar:4.3.18.RELEASE:compile
+   |  \- (org.springframework:spring-core:jar:4.3.18.RELEASE:compile - omitted for duplicate)
+   +- org.springframework:spring-context:jar:4.3.18.RELEASE:compile
+   |  +- org.springframework:spring-aop:jar:4.3.18.RELEASE:compile
+   |  |  +- (org.springframework:spring-beans:jar:4.3.18.RELEASE:compile - omitted for duplicate)
+   |  |  \- (org.springframework:spring-core:jar:4.3.18.RELEASE:compile - omitted for duplicate)
+   |  +- (org.springframework:spring-beans:jar:4.3.18.RELEASE:compile - omitted for duplicate)
+   |  +- (org.springframework:spring-core:jar:4.3.18.RELEASE:compile - omitted for duplicate)
+   |  \- org.springframework:spring-expression:jar:4.3.18.RELEASE:compile
+   |     \- (org.springframework:spring-core:jar:4.3.18.RELEASE:compile - omitted for duplicate)
+   \- org.springframework:spring-core:jar:4.3.18.RELEASE:compile
+      \- commons-logging:commons-logging:jar:1.2:compile

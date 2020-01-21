@@ -1,0 +1,545 @@
+com.sdl.dxa:dxa-tridion-provider:jar:2.0.0
++- com.sdl.dxa:dxa-common-api:jar:2.0.0:compile
+|  +- com.sdl.dxa:dxa-common:jar:2.0.0:compile
+|  |  +- (com.sdl.dxa:dxa-data-model:jar:2.0.0:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-web:jar:4.3.8.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.apache.commons:commons-lang3:jar:3.5:compile - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:20.0:compile - omitted for duplicate)
+|  |  +- (joda-time:joda-time:jar:2.9.7:compile - version managed from 2.7; omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.2:compile - omitted for duplicate)
+|  |  +- (javax.cache:cache-api:jar:1.0.0:compile - omitted for duplicate)
+|  |  +- (org.ehcache:ehcache:jar:3.1.3:compile - omitted for duplicate)
+|  |  +- (ch.qos.logback:logback-core:jar:1.1.8:compile - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.16; omitted for duplicate)
+|  |  +- (org.slf4j:jcl-over-slf4j:jar:1.7.21:runtime - omitted for duplicate)
+|  |  +- (ch.qos.logback:logback-classic:jar:1.1.8:compile - omitted for duplicate)
+|  |  +- (org.projectlombok:lombok:jar:1.16.12:compile - omitted for duplicate)
+|  |  \- (org.jetbrains:annotations:jar:13.0:compile - omitted for duplicate)
+|  +- (org.apache.commons:commons-lang3:jar:3.5:compile - version managed from 3.4; omitted for duplicate)
+|  +- (org.springframework:spring-beans:jar:4.3.8.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-context:jar:4.3.8.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-core:jar:4.3.8.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-web:jar:4.3.8.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework:spring-webmvc:jar:4.3.8.RELEASE:compile
+|  |  +- (org.springframework:spring-aop:jar:4.3.8.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-beans:jar:4.3.8.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-context:jar:4.3.8.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-core:jar:4.3.8.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-expression:jar:4.3.8.RELEASE:compile - omitted for duplicate)
+|  |  \- (org.springframework:spring-web:jar:4.3.8.RELEASE:compile - omitted for duplicate)
+|  +- (javax.servlet.jsp:javax.servlet.jsp-api:jar:2.3.1:compile - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:20.0:compile - version managed from 18.0; omitted for duplicate)
+|  +- (javax.cache:cache-api:jar:1.0.0:compile - omitted for duplicate)
+|  +- (org.ehcache:ehcache:jar:3.1.3:compile - version managed from 3.3.1; omitted for duplicate)
+|  +- (joda-time:joda-time:jar:2.9.7:compile - version managed from 2.7; omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.5:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.4:compile - version managed from 2.8.3; omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.4:compile - version managed from 2.8.3; omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.4:compile - version managed from 2.8.3; omitted for duplicate)
+|  +- com.fasterxml.jackson.datatype:jackson-datatype-joda:jar:2.9.4:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.4:compile - version managed from 2.9.0; omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.4:compile - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.4:compile - omitted for duplicate)
+|  |  \- (joda-time:joda-time:jar:2.9.7:compile - version managed from 2.7; omitted for duplicate)
+|  +- commons-collections:commons-collections:jar:3.2.2:compile
+|  +- (org.jsoup:jsoup:jar:1.8.3:compile - version managed from 1.5.2; omitted for duplicate)
+|  +- com.rometools:rome:jar:1.7.1:compile
+|  |  +- com.rometools:rome-utils:jar:1.7.1:compile
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.16; omitted for duplicate)
+|  |  +- org.jdom:jdom2:jar:2.0.5:compile (version managed from 2.0.6)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.16; omitted for duplicate)
+|  +- org.apache.httpcomponents:httpclient:jar:4.5.2:compile
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.4.6:compile (version managed from 4.4.4)
+|  |  +- commons-logging:commons-logging:jar:1.2:compile
+|  |  \- commons-codec:commons-codec:jar:1.8:compile (version managed from 1.9)
+|  +- (ch.qos.logback:logback-core:jar:1.1.8:compile - version managed from 1.2.3; omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.7; omitted for duplicate)
+|  +- (org.slf4j:jcl-over-slf4j:jar:1.7.21:runtime - version managed from 1.7.5; scope managed from compile; omitted for duplicate)
+|  +- (ch.qos.logback:logback-classic:jar:1.1.8:compile - version managed from 1.2.3; omitted for duplicate)
+|  +- (org.projectlombok:lombok:jar:1.16.12:compile - omitted for duplicate)
+|  \- (org.jetbrains:annotations:jar:13.0:compile - omitted for duplicate)
++- com.sdl.dxa:dxa-tridion-common:jar:2.0.0:compile
+|  +- (com.sdl.dxa:dxa-common:jar:2.0.0:compile - omitted for duplicate)
+|  +- (com.sdl.web:cil:pom:10.1.0-1012:compile - omitted for duplicate)
+|  +- (javax.cache:cache-api:jar:1.0.0:compile - omitted for duplicate)
+|  +- (org.springframework:spring-context-support:jar:4.3.8.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-context:jar:4.3.8.RELEASE:compile - omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.5:compile - omitted for duplicate)
+|  +- org.powermock:powermock-api-mockito:jar:1.6.6:compile
+|  |  +- org.mockito:mockito-core:jar:1.10.19:compile
+|  |  |  +- (org.hamcrest:hamcrest-core:jar:1.3:test - version managed from 1.1; scope managed from compile; omitted for duplicate)
+|  |  |  \- (org.objenesis:objenesis:jar:2.1:compile - scope updated from runtime; omitted for duplicate)
+|  |  +- (org.hamcrest:hamcrest-core:jar:1.3:test - version managed from 1.1; scope managed from compile; omitted for duplicate)
+|  |  \- org.powermock:powermock-api-mockito-common:jar:1.6.6:compile
+|  |     +- (org.hamcrest:hamcrest-core:jar:1.3:test - version managed from 1.1; scope managed from compile; omitted for duplicate)
+|  |     \- org.powermock:powermock-api-support:jar:1.6.6:compile
+|  |        +- (org.powermock:powermock-core:jar:1.6.6:compile - omitted for duplicate)
+|  |        \- (org.powermock:powermock-reflect:jar:1.6.6:compile - omitted for duplicate)
+|  +- org.powermock:powermock-module-junit4:jar:1.6.6:compile
+|  |  +- (junit:junit:jar:4.12:test - scope managed from compile; omitted for duplicate)
+|  |  \- org.powermock:powermock-module-junit4-common:jar:1.6.6:compile
+|  |     +- (junit:junit:jar:4.12:test - scope managed from compile; omitted for duplicate)
+|  |     +- org.powermock:powermock-core:jar:1.6.6:compile
+|  |     |  +- (org.powermock:powermock-reflect:jar:1.6.6:compile - omitted for duplicate)
+|  |     |  \- org.javassist:javassist:jar:3.21.0-GA:compile
+|  |     \- org.powermock:powermock-reflect:jar:1.6.6:compile
+|  |        \- org.objenesis:objenesis:jar:2.4:compile
+|  +- (ch.qos.logback:logback-core:jar:1.1.8:compile - version managed from 1.2.3; omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.25; omitted for duplicate)
+|  +- (org.slf4j:jcl-over-slf4j:jar:1.7.21:runtime - version managed from 1.7.5; scope managed from compile; omitted for duplicate)
+|  +- (ch.qos.logback:logback-classic:jar:1.1.8:compile - version managed from 1.2.3; omitted for duplicate)
+|  +- (org.projectlombok:lombok:jar:1.16.12:compile - omitted for duplicate)
+|  \- (org.jetbrains:annotations:jar:13.0:compile - omitted for duplicate)
++- com.sdl.dxa:dxa-model-service-client:jar:2.0.0:compile
+|  +- (com.sdl.web:cil:pom:10.1.0-1012:compile - omitted for duplicate)
+|  +- (org.springframework:spring-web:jar:4.3.8.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-context:jar:4.3.8.RELEASE:compile - omitted for duplicate)
+|  \- (javax.cache:cache-api:jar:1.0.0:compile - omitted for duplicate)
++- com.sdl.dxa:dxa-data-model:jar:2.0.0:compile
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.4:compile - version managed from 2.8.3; omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.4:compile - version managed from 2.8.3; omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.4:compile - version managed from 2.8.3; omitted for duplicate)
+|  +- (org.springframework:spring-context:jar:4.3.8.RELEASE:compile - omitted for duplicate)
+|  +- (org.apache.commons:commons-lang3:jar:3.5:compile - version managed from 3.4; omitted for duplicate)
+|  +- (com.google.guava:guava:jar:20.0:compile - version managed from 18.0; omitted for duplicate)
+|  +- (com.fasterxml.jackson.datatype:jackson-datatype-joda:jar:2.9.4:compile - omitted for duplicate)
+|  +- (joda-time:joda-time:jar:2.9.7:compile - version managed from 2.7; omitted for duplicate)
+|  +- (org.powermock:powermock-api-mockito:jar:1.6.6:compile - omitted for duplicate)
+|  +- (org.powermock:powermock-module-junit4:jar:1.6.6:compile - omitted for duplicate)
+|  +- (ch.qos.logback:logback-core:jar:1.1.8:compile - version managed from 1.2.3; omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.25; omitted for duplicate)
+|  +- (org.slf4j:jcl-over-slf4j:jar:1.7.21:runtime - version managed from 1.7.5; scope managed from compile; omitted for duplicate)
+|  +- (ch.qos.logback:logback-classic:jar:1.1.8:compile - version managed from 1.2.3; omitted for duplicate)
+|  +- (org.projectlombok:lombok:jar:1.16.12:compile - omitted for duplicate)
+|  \- (org.jetbrains:annotations:jar:13.0:compile - omitted for duplicate)
++- com.sdl.web:cil:pom:10.1.0-1012:compile
+|  +- com.sdl.delivery:cil:pom:10.1.0-1019:compile
+|  |  +- com.sdl:odata_api:jar:2.5.4:compile
+|  |  |  +- org.scala-lang:scala-library:jar:2.12.2:compile
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.25; omitted for duplicate)
+|  |  |  \- (ch.qos.logback:logback-classic:jar:1.1.8:runtime - version managed from 1.2.3; omitted for duplicate)
+|  |  +- com.sdl:odata_client:jar:2.5.4:compile
+|  |  |  +- (com.sdl:odata_client_api:jar:2.5.4:compile - omitted for duplicate)
+|  |  |  +- (com.sdl:odata_renderer:jar:2.5.4:compile - omitted for duplicate)
+|  |  |  +- (com.sdl:odata_parser:jar:2.5.4:compile - omitted for duplicate)
+|  |  |  +- (com.sdl:odata_edm:jar:2.5.4:compile - omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.25; omitted for duplicate)
+|  |  |  \- (ch.qos.logback:logback-classic:jar:1.1.8:runtime - version managed from 1.2.3; omitted for duplicate)
+|  |  +- com.sdl:odata_client_api:jar:2.5.4:compile
+|  |  |  +- (com.sdl:odata_api:jar:2.5.4:compile - omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.25; omitted for duplicate)
+|  |  |  \- (ch.qos.logback:logback-classic:jar:1.1.8:runtime - version managed from 1.2.3; omitted for duplicate)
+|  |  +- com.sdl:odata_edm:jar:2.5.4:compile
+|  |  |  +- (com.sdl:odata_api:jar:2.5.4:compile - omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.25; omitted for duplicate)
+|  |  |  \- (ch.qos.logback:logback-classic:jar:1.1.8:runtime - version managed from 1.2.3; omitted for duplicate)
+|  |  +- com.sdl:odata_parser:jar:2.5.4:compile
+|  |  |  +- org.scala-lang.modules:scala-parser-combinators_2.12:jar:1.0.6:compile
+|  |  |  |  \- (org.scala-lang:scala-library:jar:2.12.2:compile - omitted for duplicate)
+|  |  |  +- (com.sdl:odata_api:jar:2.5.4:compile - omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.25; omitted for duplicate)
+|  |  |  \- (ch.qos.logback:logback-classic:jar:1.1.8:runtime - version managed from 1.2.3; omitted for duplicate)
+|  |  +- com.sdl:odata_renderer:jar:2.5.4:compile
+|  |  |  +- (com.sdl:odata_api:jar:2.5.4:compile - omitted for duplicate)
+|  |  |  +- (com.sdl:odata_parser:jar:2.5.4:compile - omitted for duplicate)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.4:compile - version managed from 2.8.8; omitted for duplicate)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.4:compile - version managed from 2.8.8; omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.25; omitted for duplicate)
+|  |  |  \- (ch.qos.logback:logback-classic:jar:1.1.8:runtime - version managed from 1.2.3; omitted for duplicate)
+|  |  +- com.sdl.delivery:adf-api:jar:10.1.0-1009:compile
+|  |  |  +- (com.tridion:cd_common_util:jar:10.1.0-1009:compile - omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.25; omitted for duplicate)
+|  |  |  \- (ch.qos.logback:logback-classic:jar:1.1.8:compile - version managed from 1.2.3; omitted for duplicate)
+|  |  +- com.sdl.delivery:adf-client:jar:10.1.0-1009:compile
+|  |  |  +- (com.tridion:cd_common_config:jar:10.1.0-1009:compile - omitted for duplicate)
+|  |  |  +- (com.tridion:cd_common_config_legacy:jar:10.1.0-1009:compile - omitted for duplicate)
+|  |  |  +- (com.sdl.delivery:adf-api:jar:10.1.0-1009:compile - omitted for duplicate)
+|  |  |  +- (com.google.code.gson:gson:jar:2.8.0:compile - omitted for conflict with 2.7)
+|  |  |  +- org.apache.commons:commons-compress:jar:1.12:compile
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.25; omitted for duplicate)
+|  |  |  \- (ch.qos.logback:logback-classic:jar:1.1.8:compile - version managed from 1.2.3; omitted for duplicate)
+|  |  +- com.sdl.delivery:oauth-common:jar:10.1.0-1009:compile
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.25; omitted for duplicate)
+|  |  |  \- (ch.qos.logback:logback-classic:jar:1.1.8:compile - version managed from 1.2.3; omitted for duplicate)
+|  |  +- com.tridion:cd_common_config:jar:10.1.0-1009:compile
+|  |  |  +- (com.tridion:cd_common_config_api:jar:10.1.0-1009:compile - omitted for duplicate)
+|  |  |  +- (com.tridion:cd_common_util:jar:10.1.0-1009:compile - omitted for duplicate)
+|  |  |  +- (xalan:xalan:jar:2.7.2:runtime - scope managed from compile; omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.25; omitted for duplicate)
+|  |  |  \- (ch.qos.logback:logback-classic:jar:1.1.8:compile - version managed from 1.2.3; omitted for duplicate)
+|  |  +- com.tridion:cd_common_config_api:jar:10.1.0-1009:compile
+|  |  |  +- (com.tridion:cd_common_util:jar:10.1.0-1009:compile - omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.25; omitted for duplicate)
+|  |  |  \- (ch.qos.logback:logback-classic:jar:1.1.8:compile - version managed from 1.2.3; omitted for duplicate)
+|  |  +- com.tridion:cd_common_config_legacy:jar:10.1.0-1009:compile
+|  |  |  +- (com.tridion:cd_common_util:jar:10.1.0-1009:compile - omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.25; omitted for duplicate)
+|  |  |  \- (ch.qos.logback:logback-classic:jar:1.1.8:compile - version managed from 1.2.3; omitted for duplicate)
+|  |  +- com.tridion:cd_common_util:jar:10.1.0-1009:compile
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.25; omitted for duplicate)
+|  |  |  \- (ch.qos.logback:logback-classic:jar:1.1.8:compile - version managed from 1.2.3; omitted for duplicate)
+|  |  +- com.tridion:cd_core:jar:10.1.0-1010:compile
+|  |  |  +- (com.tridion:cd_common_config:jar:10.1.0-1009:compile - omitted for duplicate)
+|  |  |  +- (com.tridion:cd_common_config_legacy:jar:10.1.0-1009:compile - omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.25; omitted for duplicate)
+|  |  |  \- (ch.qos.logback:logback-classic:jar:1.1.8:compile - version managed from 1.2.3; omitted for duplicate)
+|  |  +- com.tridion:cd_model:jar:10.1.0-1014:compile
+|  |  |  +- (com.tridion:cd_core:jar:10.1.0-1010:compile - omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.25; omitted for duplicate)
+|  |  |  \- (ch.qos.logback:logback-classic:jar:1.1.8:compile - version managed from 1.2.3; omitted for duplicate)
+|  |  +- com.sdl.web:content-api:jar:10.1.0-1019:compile
+|  |  |  +- (com.tridion:cd_model:jar:10.1.0-1014:compile - omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.25; omitted for duplicate)
+|  |  |  \- (ch.qos.logback:logback-classic:jar:1.1.8:compile - version managed from 1.2.3; omitted for duplicate)
+|  |  +- com.sdl.web:content-ambient-client:jar:10.1.0-1019:compile
+|  |  |  +- (com.sdl.web:content-client-api:jar:10.1.0-1019:compile - omitted for duplicate)
+|  |  |  +- (com.sdl.web:content-ambient-model:jar:10.1.0-1022:compile - omitted for duplicate)
+|  |  |  +- (com.sdl.delivery:adf-client:jar:10.1.0-1009:compile - omitted for duplicate)
+|  |  |  +- (org.apache.commons:commons-lang3:jar:3.5:compile - version managed from 3.4; omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.25; omitted for duplicate)
+|  |  |  \- (ch.qos.logback:logback-classic:jar:1.1.8:compile - version managed from 1.2.3; omitted for duplicate)
+|  |  +- com.sdl.web:content-broker:jar:10.1.0-1019:compile
+|  |  |  +- (com.sdl.web:content-client-api:jar:10.1.0-1019:compile - omitted for duplicate)
+|  |  |  +- (com.sdl.web:content-api:jar:10.1.0-1019:compile - omitted for duplicate)
+|  |  |  +- (com.sdl.web:content-model:jar:10.1.0-1019:compile - omitted for duplicate)
+|  |  |  +- (com.sdl.web:content-core:jar:10.1.0-1020:compile - omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.25; omitted for duplicate)
+|  |  |  \- (ch.qos.logback:logback-classic:jar:1.1.8:compile - version managed from 1.2.3; omitted for duplicate)
+|  |  +- com.sdl.web:content-client-api:jar:10.1.0-1019:compile
+|  |  |  +- (com.sdl:odata_client:jar:2.5.4:compile - omitted for duplicate)
+|  |  |  +- (com.sdl:odata_client_api:jar:2.5.4:compile - omitted for duplicate)
+|  |  |  +- (com.sdl:odata_renderer:jar:2.5.4:compile - omitted for duplicate)
+|  |  |  +- (com.sdl.web:content-api:jar:10.1.0-1019:compile - omitted for duplicate)
+|  |  |  +- (com.sdl.web:content-model:jar:10.1.0-1019:compile - omitted for duplicate)
+|  |  |  +- (com.sdl.delivery:adf-client:jar:10.1.0-1009:compile - omitted for duplicate)
+|  |  |  +- (com.sdl.web:discovery-client-lightweight:jar:10.1.0-1016:compile - omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.25; omitted for duplicate)
+|  |  |  \- (ch.qos.logback:logback-classic:jar:1.1.8:compile - version managed from 1.2.3; omitted for duplicate)
+|  |  +- com.sdl.web:content-compatible:jar:10.1.0-1019:compile
+|  |  |  +- (com.sdl.web:content-dynamic:jar:10.1.0-1019:compile - omitted for duplicate)
+|  |  |  +- (com.sdl.web:content-broker:jar:10.1.0-1019:compile - omitted for duplicate)
+|  |  |  +- (com.sdl.web:content-linking:jar:10.1.0-1019:compile - omitted for duplicate)
+|  |  |  +- (com.sdl.web:content-core:jar:10.1.0-1020:compile - omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.25; omitted for duplicate)
+|  |  |  \- (ch.qos.logback:logback-classic:jar:1.1.8:compile - version managed from 1.2.3; omitted for duplicate)
+|  |  +- com.sdl.web:content-dynamic:jar:10.1.0-1019:compile
+|  |  |  +- (com.sdl.web:content-client-api:jar:10.1.0-1019:compile - omitted for duplicate)
+|  |  |  +- (com.sdl.web:content-broker:jar:10.1.0-1019:compile - omitted for duplicate)
+|  |  |  +- (com.sdl.web:content-api:jar:10.1.0-1019:compile - omitted for duplicate)
+|  |  |  +- (com.sdl.web:content-core:jar:10.1.0-1020:compile - omitted for duplicate)
+|  |  |  +- (org.apache.commons:commons-lang3:jar:3.5:compile - version managed from 3.4; omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.25; omitted for duplicate)
+|  |  |  \- (ch.qos.logback:logback-classic:jar:1.1.8:compile - version managed from 1.2.3; omitted for duplicate)
+|  |  +- com.sdl.web:content-linking:jar:10.1.0-1019:compile
+|  |  |  +- (com.sdl.web:content-client-api:jar:10.1.0-1019:compile - omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.25; omitted for duplicate)
+|  |  |  \- (ch.qos.logback:logback-classic:jar:1.1.8:compile - version managed from 1.2.3; omitted for duplicate)
+|  |  +- com.sdl.web:content-tags:jar:10.1.0-1019:compile
+|  |  |  +- (com.sdl.web:content-compatible:jar:10.1.0-1019:compile - omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.25; omitted for duplicate)
+|  |  |  \- (ch.qos.logback:logback-classic:jar:1.1.8:compile - version managed from 1.2.3; omitted for duplicate)
+|  |  +- com.sdl.web:content-core:jar:10.1.0-1020:compile
+|  |  |  +- (com.sdl.web:content-api:jar:10.1.0-1019:compile - omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.25; omitted for duplicate)
+|  |  |  \- (ch.qos.logback:logback-classic:jar:1.1.8:compile - version managed from 1.2.3; omitted for duplicate)
+|  |  +- com.sdl.web:content-model:jar:10.1.0-1019:compile
+|  |  |  +- (com.sdl.web:content-api:jar:10.1.0-1019:compile - omitted for duplicate)
+|  |  |  +- (com.sdl:odata_api:jar:2.5.4:compile - omitted for duplicate)
+|  |  |  +- (com.google.code.gson:gson:jar:2.8.0:compile - omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.25; omitted for duplicate)
+|  |  |  \- (ch.qos.logback:logback-classic:jar:1.1.8:compile - version managed from 1.2.3; omitted for duplicate)
+|  |  +- com.sdl.web:content-ambient-model:jar:10.1.0-1022:compile
+|  |  |  +- (com.google.code.gson:gson:jar:2.8.0:compile - omitted for duplicate)
+|  |  |  +- (com.sdl.web:content-model:jar:10.1.0-1019:compile - omitted for duplicate)
+|  |  |  +- (com.sdl.delivery:adf-api:jar:10.1.0-1009:compile - omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.25; omitted for duplicate)
+|  |  |  \- (ch.qos.logback:logback-classic:jar:1.1.8:compile - version managed from 1.2.3; omitted for duplicate)
+|  |  +- com.sdl.web:context-api:jar:10.1.0-1019:compile
+|  |  |  +- (ch.qos.logback:logback-core:jar:1.1.8:compile - version managed from 1.2.3; omitted for duplicate)
+|  |  |  +- (org.slf4j:jcl-over-slf4j:jar:1.7.21:runtime - version managed from 1.7.25; scope managed from compile; omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.25; omitted for duplicate)
+|  |  |  \- (ch.qos.logback:logback-classic:jar:1.1.8:compile - version managed from 1.2.3; omitted for duplicate)
+|  |  +- com.sdl.web:context-image-proxy:jar:10.1.0-1019:compile
+|  |  |  +- (com.sdl.web:discovery-client-lightweight:jar:10.1.0-1016:compile - omitted for duplicate)
+|  |  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.2:compile - version managed from 4.5.3; omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.25; omitted for duplicate)
+|  |  +- com.sdl.web:context-client:jar:10.1.0-1019:compile
+|  |  |  +- (com.sdl.web:context-api:jar:10.1.0-1019:compile - omitted for duplicate)
+|  |  |  +- (com.sdl.web:context-service-common:jar:10.1.0-1019:compile - omitted for duplicate)
+|  |  |  +- (com.sdl:odata_edm:jar:2.5.4:compile - omitted for duplicate)
+|  |  |  +- (com.sdl:odata_parser:jar:2.5.4:compile - omitted for duplicate)
+|  |  |  +- (com.sdl:odata_renderer:jar:2.5.4:compile - omitted for duplicate)
+|  |  |  +- (org.ehcache:ehcache:jar:3.1.3:compile - version managed from 3.3.1; omitted for duplicate)
+|  |  |  +- (javax.cache:cache-api:jar:1.0.0:compile - omitted for duplicate)
+|  |  |  +- (com.sdl.web:discovery-client-lightweight:jar:10.1.0-1016:compile - omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.25; omitted for duplicate)
+|  |  |  \- (ch.qos.logback:logback-classic:jar:1.1.8:compile - version managed from 1.2.3; omitted for duplicate)
+|  |  +- com.sdl.web:context-service-common:jar:10.1.0-1019:compile
+|  |  |  +- (com.sdl.web:context-api:jar:10.1.0-1019:compile - omitted for duplicate)
+|  |  |  +- (com.sdl:odata_api:jar:2.5.4:compile - omitted for duplicate)
+|  |  |  +- (org.apache.commons:commons-lang3:jar:3.5:compile - version managed from 3.4; omitted for duplicate)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.4:compile - version managed from 2.8.8; omitted for duplicate)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.4:compile - version managed from 2.8.8; omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.25; omitted for duplicate)
+|  |  |  \- (ch.qos.logback:logback-classic:jar:1.1.8:compile - version managed from 1.2.3; omitted for duplicate)
+|  |  +- com.sdl.web:discovery-client-lightweight:jar:10.1.0-1016:compile
+|  |  |  +- (com.sdl:odata_client:jar:2.5.4:compile - omitted for duplicate)
+|  |  |  +- (com.sdl.web:discovery-common:jar:10.1.0-1016:compile - omitted for duplicate)
+|  |  |  +- (com.sdl.delivery:oauth-common:jar:10.1.0-1009:compile - omitted for duplicate)
+|  |  |  +- (org.ehcache:ehcache:jar:3.1.3:compile - version managed from 3.3.1; omitted for duplicate)
+|  |  |  +- (javax.cache:cache-api:jar:1.0.0:compile - omitted for duplicate)
+|  |  |  +- redis.clients:jedis:jar:2.9.0:compile
+|  |  |  |  \- org.apache.commons:commons-pool2:jar:2.4.2:compile
+|  |  |  +- (com.tridion:cd_common_util:jar:10.1.0-1009:compile - omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.25; omitted for duplicate)
+|  |  |  \- (ch.qos.logback:logback-classic:jar:1.1.8:compile - version managed from 1.2.3; omitted for duplicate)
+|  |  +- com.sdl.web:discovery-common:jar:10.1.0-1016:compile
+|  |  |  +- (com.sdl:odata_client_api:jar:2.5.4:compile - omitted for duplicate)
+|  |  |  +- (com.sdl:odata_parser:jar:2.5.4:compile - omitted for duplicate)
+|  |  |  +- (com.google.guava:guava:jar:20.0:compile - version managed from 18.0; omitted for duplicate)
+|  |  |  +- (org.apache.commons:commons-compress:jar:1.12:compile - omitted for duplicate)
+|  |  |  +- de.ruedigermoeller:fst:jar:2.47:compile
+|  |  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.4:compile - version managed from 2.5.3; omitted for duplicate)
+|  |  |  |  +- (org.javassist:javassist:jar:3.19.0-GA:compile - omitted for conflict with 3.21.0-GA)
+|  |  |  |  \- (org.objenesis:objenesis:jar:2.4:compile - omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.25; omitted for duplicate)
+|  |  |  \- (ch.qos.logback:logback-classic:jar:1.1.8:compile - version managed from 1.2.3; omitted for duplicate)
+|  |  +- com.sdl.delivery:iq-index-api:jar:10.1.0-1015:compile
+|  |  |  +- com.sdl.delivery:iq-api-common:jar:10.1.0-1015:compile
+|  |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.25; omitted for duplicate)
+|  |  |  |  \- (ch.qos.logback:logback-classic:jar:1.1.8:compile - version managed from 1.2.3; omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.25; omitted for duplicate)
+|  |  |  \- (ch.qos.logback:logback-classic:jar:1.1.8:compile - version managed from 1.2.3; omitted for duplicate)
+|  |  +- com.sdl.delivery:iq-query-api:jar:10.1.0-1015:compile
+|  |  |  +- (com.sdl.delivery:iq-api-common:jar:10.1.0-1015:compile - omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.25; omitted for duplicate)
+|  |  |  \- (ch.qos.logback:logback-classic:jar:1.1.8:compile - version managed from 1.2.3; omitted for duplicate)
+|  |  +- com.sdl.delivery:iq-query-client:jar:10.1.0-1018:compile
+|  |  |  +- (com.sdl.delivery:iq-query-api:jar:10.1.0-1015:compile - omitted for duplicate)
+|  |  |  +- (com.sdl.delivery:iq-query-model:jar:10.1.0-1017:compile - omitted for duplicate)
+|  |  |  +- com.sdl.delivery:iq-client-configuration-common:jar:10.1.0-1018:compile
+|  |  |  |  +- (com.sdl.delivery:iq-query-model:jar:10.1.0-1017:compile - omitted for duplicate)
+|  |  |  |  +- (com.sdl.web:discovery-client-lightweight:jar:10.1.0-1016:compile - omitted for duplicate)
+|  |  |  |  +- (com.tridion:cd_common_config_api:jar:10.1.0-1009:compile - omitted for duplicate)
+|  |  |  |  +- (com.tridion:cd_common_config:jar:10.1.0-1009:compile - omitted for duplicate)
+|  |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.25; omitted for duplicate)
+|  |  |  |  \- (ch.qos.logback:logback-classic:jar:1.1.8:compile - version managed from 1.2.3; omitted for duplicate)
+|  |  |  +- com.sdl.delivery:iq-query-client-rest:jar:10.1.0-1018:compile
+|  |  |  |  +- (com.sdl.delivery:iq-client-configuration-common:jar:10.1.0-1018:compile - omitted for duplicate)
+|  |  |  |  +- com.sdl.delivery:iq-query-client-common:jar:10.1.0-1018:compile
+|  |  |  |  |  +- (com.sdl.delivery:iq-query-model:jar:10.1.0-1017:compile - omitted for duplicate)
+|  |  |  |  |  +- (com.sdl.delivery:iq-client-configuration-common:jar:10.1.0-1018:compile - omitted for duplicate)
+|  |  |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.25; omitted for duplicate)
+|  |  |  |  |  \- (ch.qos.logback:logback-classic:jar:1.1.8:compile - version managed from 1.2.3; omitted for duplicate)
+|  |  |  |  +- com.sdl.delivery:iq-http-client:jar:10.1.0-1018:compile
+|  |  |  |  |  +- (com.sdl.delivery:iq-api-common:jar:10.1.0-1015:compile - omitted for duplicate)
+|  |  |  |  |  +- (com.sdl.delivery:iq-client-configuration-common:jar:10.1.0-1018:compile - omitted for duplicate)
+|  |  |  |  |  +- (com.sdl.web:discovery-client-lightweight:jar:10.1.0-1016:compile - omitted for duplicate)
+|  |  |  |  |  +- (com.squareup.okhttp3:okhttp:jar:3.7.0:compile - omitted for duplicate)
+|  |  |  |  |  +- com.squareup.okhttp3:logging-interceptor:jar:3.7.0:compile
+|  |  |  |  |  |  \- (com.squareup.okhttp3:okhttp:jar:3.7.0:compile - omitted for duplicate)
+|  |  |  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.4:compile - version managed from 2.8.8; omitted for duplicate)
+|  |  |  |  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.4:compile - version managed from 2.8.8; omitted for duplicate)
+|  |  |  |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.8.8:compile
+|  |  |  |  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.4:compile - version managed from 2.8.8; omitted for duplicate)
+|  |  |  |  |  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.4:compile - version managed from 2.8.8; omitted for duplicate)
+|  |  |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.25; omitted for duplicate)
+|  |  |  |  |  \- (ch.qos.logback:logback-classic:jar:1.1.8:compile - version managed from 1.2.3; omitted for duplicate)
+|  |  |  |  +- com.squareup.okhttp3:okhttp:jar:3.7.0:compile
+|  |  |  |  |  \- com.squareup.okio:okio:jar:1.12.0:compile
+|  |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.25; omitted for duplicate)
+|  |  |  |  \- (ch.qos.logback:logback-classic:jar:1.1.8:compile - version managed from 1.2.3; omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.25; omitted for duplicate)
+|  |  |  \- (ch.qos.logback:logback-classic:jar:1.1.8:compile - version managed from 1.2.3; omitted for duplicate)
+|  |  +- com.sdl.delivery:iq-query-model:jar:10.1.0-1017:compile
+|  |  |  +- (com.sdl.delivery:iq-api-common:jar:10.1.0-1015:compile - omitted for duplicate)
+|  |  |  +- (com.sdl.delivery:iq-query-api:jar:10.1.0-1015:compile - omitted for duplicate)
+|  |  |  +- com.sdl.delivery:iq-model-common:jar:10.1.0-1017:compile
+|  |  |  |  +- com.sdl.delivery:iq-index-model:jar:10.1.0-1017:compile
+|  |  |  |  |  +- (com.sdl.delivery:iq-api-common:jar:10.1.0-1015:compile - omitted for duplicate)
+|  |  |  |  |  +- (com.sdl.delivery:iq-index-api:jar:10.1.0-1015:compile - omitted for duplicate)
+|  |  |  |  |  +- (com.tridion:cd_common_config_api:jar:10.1.0-1009:compile - omitted for duplicate)
+|  |  |  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.4:compile - version managed from 2.8.8; omitted for duplicate)
+|  |  |  |  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.4:compile - version managed from 2.8.8; omitted for duplicate)
+|  |  |  |  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.4:compile - version managed from 2.8.8; omitted for duplicate)
+|  |  |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.25; omitted for duplicate)
+|  |  |  |  |  \- (ch.qos.logback:logback-classic:jar:1.1.8:compile - version managed from 1.2.3; omitted for duplicate)
+|  |  |  |  +- (com.sdl.delivery:iq-query-api:jar:10.1.0-1015:compile - omitted for duplicate)
+|  |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.25; omitted for duplicate)
+|  |  |  |  \- (ch.qos.logback:logback-classic:jar:1.1.8:compile - version managed from 1.2.3; omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.25; omitted for duplicate)
+|  |  |  \- (ch.qos.logback:logback-classic:jar:1.1.8:compile - version managed from 1.2.3; omitted for duplicate)
+|  |  +- com.tridion:cd_preview_content_client:jar:10.1.0-1019:compile
+|  |  |  +- (com.tridion:cd_preview_content_common:jar:10.1.0-1019:compile - omitted for duplicate)
+|  |  |  +- (com.sdl.web:content-dynamic:jar:10.1.0-1019:compile - omitted for duplicate)
+|  |  |  +- (com.sdl.delivery:adf-client:jar:10.1.0-1009:compile - omitted for duplicate)
+|  |  |  +- (com.sdl.web:content-client-api:jar:10.1.0-1019:compile - omitted for duplicate)
+|  |  |  +- (com.sdl.web:content-ambient-client:jar:10.1.0-1019:compile - omitted for duplicate)
+|  |  |  +- (com.tridion:cd_model:jar:10.1.0-1014:compile - omitted for duplicate)
+|  |  |  +- (com.sdl.delivery:adf-api:jar:10.1.0-1009:compile - omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.25; omitted for duplicate)
+|  |  |  \- (ch.qos.logback:logback-classic:jar:1.1.8:compile - version managed from 1.2.3; omitted for duplicate)
+|  |  +- com.tridion:cd_preview_content_common:jar:10.1.0-1019:compile
+|  |  |  +- (com.google.code.gson:gson:jar:2.8.0:compile - omitted for duplicate)
+|  |  |  +- (com.sdl.delivery:adf-client:jar:10.1.0-1009:compile - omitted for duplicate)
+|  |  |  +- (com.tridion:cd_model:jar:10.1.0-1014:compile - omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.25; omitted for duplicate)
+|  |  |  \- (ch.qos.logback:logback-classic:jar:1.1.8:compile - version managed from 1.2.3; omitted for duplicate)
+|  |  +- com.sdl.delivery:ugc-taglib:jar:10.1.0-1018:compile
+|  |  |  +- com.sdl.delivery:ugc-model:jar:10.1.0-1018:compile
+|  |  |  |  +- (com.sdl.delivery:ugc-api:jar:10.1.0-1018:compile - omitted for duplicate)
+|  |  |  |  +- (com.tridion:cd_model:jar:10.1.0-1014:compile - omitted for duplicate)
+|  |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.25; omitted for duplicate)
+|  |  |  |  \- (ch.qos.logback:logback-classic:jar:1.1.8:compile - version managed from 1.2.3; omitted for duplicate)
+|  |  |  +- com.sdl.delivery:ugc-tcdl:jar:10.1.0-1018:compile
+|  |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.25; omitted for duplicate)
+|  |  |  |  \- (ch.qos.logback:logback-classic:jar:1.1.8:compile - version managed from 1.2.3; omitted for duplicate)
+|  |  |  +- com.sdl.delivery:ugc-client-common:jar:10.1.0-1018:compile
+|  |  |  |  +- (com.sdl.web:content-client-api:jar:10.1.0-1019:compile - omitted for duplicate)
+|  |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.25; omitted for duplicate)
+|  |  |  |  \- (ch.qos.logback:logback-classic:jar:1.1.8:compile - version managed from 1.2.3; omitted for duplicate)
+|  |  |  +- (com.sdl.web:content-ambient-client:jar:10.1.0-1019:compile - omitted for duplicate)
+|  |  |  +- (com.sdl.web:content-client-api:jar:10.1.0-1019:compile - omitted for duplicate)
+|  |  |  +- javax.ws.rs:javax.ws.rs-api:jar:2.0.1:compile
+|  |  |  +- org.glassfish.jersey.core:jersey-client:jar:2.23.2:compile
+|  |  |  |  +- (javax.ws.rs:javax.ws.rs-api:jar:2.0.1:compile - omitted for duplicate)
+|  |  |  |  +- org.glassfish.jersey.core:jersey-common:jar:2.23.2:compile
+|  |  |  |  |  +- (javax.ws.rs:javax.ws.rs-api:jar:2.0.1:compile - omitted for duplicate)
+|  |  |  |  |  +- javax.annotation:javax.annotation-api:jar:1.2:compile
+|  |  |  |  |  +- org.glassfish.jersey.bundles.repackaged:jersey-guava:jar:2.23.2:compile
+|  |  |  |  |  +- (org.glassfish.hk2:hk2-api:jar:2.5.0-b05:compile - omitted for duplicate)
+|  |  |  |  |  +- (org.glassfish.hk2.external:javax.inject:jar:2.5.0-b05:compile - omitted for duplicate)
+|  |  |  |  |  \- (org.glassfish.hk2:hk2-locator:jar:2.5.0-b05:compile - omitted for duplicate)
+|  |  |  |  +- org.glassfish.hk2:hk2-api:jar:2.5.0-b05:compile
+|  |  |  |  |  \- org.glassfish.hk2:hk2-utils:jar:2.5.0-b05:compile
+|  |  |  |  +- org.glassfish.hk2.external:javax.inject:jar:2.5.0-b05:compile
+|  |  |  |  \- org.glassfish.hk2:hk2-locator:jar:2.5.0-b05:compile
+|  |  |  |     +- (org.glassfish.hk2.external:javax.inject:jar:2.5.0-b05:compile - omitted for duplicate)
+|  |  |  |     +- (org.glassfish.hk2:hk2-api:jar:2.5.0-b05:compile - omitted for duplicate)
+|  |  |  |     \- (org.glassfish.hk2:hk2-utils:jar:2.5.0-b05:compile - omitted for duplicate)
+|  |  |  +- org.codehaus.jettison:jettison:jar:1.3.8:compile
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.25; omitted for duplicate)
+|  |  |  \- (ch.qos.logback:logback-classic:jar:1.1.8:compile - version managed from 1.2.3; omitted for duplicate)
+|  |  +- com.sdl.delivery:ugc-client-api:jar:10.1.0-1018:compile
+|  |  |  +- (com.sdl.delivery:ugc-client-common:jar:10.1.0-1018:compile - omitted for duplicate)
+|  |  |  +- com.sdl.delivery:ugc-api:jar:10.1.0-1018:compile
+|  |  |  |  +- (com.tridion:cd_model:jar:10.1.0-1014:compile - omitted for duplicate)
+|  |  |  |  +- (com.sdl.delivery:adf-client:jar:10.1.0-1009:compile - omitted for duplicate)
+|  |  |  |  +- (org.jsoup:jsoup:jar:1.8.3:compile - version managed from 1.5.2; omitted for duplicate)
+|  |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.25; omitted for duplicate)
+|  |  |  |  \- (ch.qos.logback:logback-classic:jar:1.1.8:compile - version managed from 1.2.3; omitted for duplicate)
+|  |  |  +- (com.sdl:odata_client_api:jar:2.5.4:compile - omitted for duplicate)
+|  |  |  +- (com.sdl.web:content-client-api:jar:10.1.0-1019:compile - omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.25; omitted for duplicate)
+|  |  |  \- (ch.qos.logback:logback-classic:jar:1.1.8:compile - version managed from 1.2.3; omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.25; omitted for duplicate)
+|  |  \- (ch.qos.logback:logback-classic:jar:1.1.8:compile - version managed from 1.2.3; omitted for duplicate)
+|  +- com.sdl.web:xo-client:jar:8.6.0:compile
+|  |  +- (com.sdl.web:xo-model:jar:8.6.0:compile - omitted for duplicate)
+|  |  +- (com.sdl:odata_client:jar:2.3.8:compile - omitted for conflict with 2.5.4)
+|  |  +- (com.sdl.web:content-client-api:jar:8.5.0-1046:compile - omitted for conflict with 10.1.0-1019)
+|  |  +- (com.sdl.web:discovery-client-lightweight:jar:8.5.0-1036:compile - omitted for conflict with 10.1.0-1016)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.12; omitted for duplicate)
+|  |  \- (ch.qos.logback:logback-classic:jar:1.1.8:compile - version managed from 1.1.7; omitted for duplicate)
+|  +- com.sdl.web:xo-client-compatible:jar:8.6.0:compile
+|  |  +- (com.tridion.smarttarget:smarttarget_core:jar:8.6.0:compile - omitted for duplicate)
+|  |  +- (com.sdl.web:xo-client:jar:8.6.0:compile - omitted for duplicate)
+|  |  +- (com.sdl.web:xo-model:jar:8.6.0:compile - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.12; omitted for duplicate)
+|  |  \- (ch.qos.logback:logback-classic:jar:1.1.8:compile - version managed from 1.1.7; omitted for duplicate)
+|  +- com.sdl.web:xo-model:jar:8.6.0:compile
+|  |  +- (com.tridion.smarttarget:smarttarget_entitymodel:jar:8.6.0:compile - omitted for duplicate)
+|  |  +- (com.sdl:odata_api:jar:2.3.8:compile - omitted for conflict with 2.5.4)
+|  |  +- (com.sdl:odata_client_api:jar:2.3.8:compile - omitted for conflict with 2.5.4)
+|  |  +- net.sf.dozer:dozer:jar:5.5.1:compile
+|  |  |  +- commons-beanutils:commons-beanutils:jar:1.9.1:compile
+|  |  |  |  \- (commons-collections:commons-collections:jar:3.2.2:compile - version managed from 3.2.1; omitted for duplicate)
+|  |  |  +- (org.apache.commons:commons-lang3:jar:3.5:compile - version managed from 3.2.1; omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.5; omitted for duplicate)
+|  |  |  \- (org.slf4j:jcl-over-slf4j:jar:1.7.21:runtime - version managed from 1.7.5; scope managed from compile; omitted for duplicate)
+|  |  \- com.google.code.gson:gson:jar:2.7:compile
+|  +- com.tridion.smarttarget:smarttarget_core:jar:8.6.0:compile
+|  |  +- javax.el:javax.el-api:jar:2.2.5:compile
+|  |  +- org.apache.tomcat.embed:tomcat-embed-jasper:jar:8.5.5:compile
+|  |  |  +- org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.5:compile
+|  |  |  +- org.apache.tomcat.embed:tomcat-embed-el:jar:8.5.5:compile
+|  |  |  \- org.eclipse.jdt.core.compiler:ecj:jar:4.5.1:compile
+|  |  +- (commons-codec:commons-codec:jar:1.8:compile - version managed from 1.10; omitted for duplicate)
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  |  \- (org.apache.commons:commons-lang3:jar:3.5:compile - version managed from 3.4; omitted for duplicate)
+|  +- com.tridion.smarttarget:smarttarget_entitymodel:jar:8.6.0:compile
+|  +- com.sdl.audiencemanager:audiencemanager_profile_compatibility:jar:8.6.0:compile
+|  |  +- com.sdl.audiencemanager:audiencemanager_core:jar:8.6.0:compile
+|  |  |  +- com.sdl.audiencemanager:audiencemanager_odata_models:jar:8.6.0:compile
+|  |  |  |  +- (com.sdl:odata_api:jar:2.3.8:compile - omitted for conflict with 2.5.4)
+|  |  |  |  +- (com.sdl:odata_client_api:jar:2.3.8:compile - omitted for conflict with 2.5.4)
+|  |  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.4:compile - version managed from 2.8.3; omitted for duplicate)
+|  |  |  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.4:compile - version managed from 2.8.3; omitted for duplicate)
+|  |  |  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.4:compile - version managed from 2.8.3; omitted for duplicate)
+|  |  |  +- com.sdl.audiencemanager:audiencemanager_odata_client:jar:8.6.0:compile
+|  |  |  |  +- (com.sdl:odata_client:jar:2.3.8:compile - omitted for conflict with 2.5.4)
+|  |  |  |  +- (com.sdl:odata_client_api:jar:2.3.8:compile - omitted for conflict with 2.5.4)
+|  |  |  |  +- (com.sdl.web:discovery-client-lightweight:jar:8.5.0-1036:compile - omitted for conflict with 10.1.0-1016)
+|  |  |  |  +- (com.tridion:cd_common_config:jar:8.5.0-1024:compile - omitted for conflict with 10.1.0-1009)
+|  |  |  |  +- (com.tridion:cd_common_config_api:jar:8.5.0-1024:compile - omitted for conflict with 10.1.0-1009)
+|  |  |  |  +- (com.sdl.audiencemanager:audiencemanager_odata_models:jar:8.6.0:compile - omitted for duplicate)
+|  |  |  |  \- (com.sdl.audiencemanager:audiencemanager_common:jar:8.6.0:compile - omitted for duplicate)
+|  |  |  +- (com.sdl.web:content-linking:jar:8.5.0-1046:compile - omitted for conflict with 10.1.0-1019)
+|  |  |  \- (com.sdl.web:content-dynamic:jar:8.5.0-1046:compile - omitted for conflict with 10.1.0-1019)
+|  |  \- com.sdl.audiencemanager:audiencemanager_common:jar:8.6.0:compile
+|  +- com.sdl.audiencemanager:audiencemanager_tracking_compatibility:jar:8.6.0:compile
+|  |  \- (com.sdl.audiencemanager:audiencemanager_core:jar:8.6.0:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.25; omitted for duplicate)
+|  \- (ch.qos.logback:logback-classic:jar:1.1.8:compile - version managed from 1.2.3; omitted for duplicate)
++- org.springframework:spring-core:jar:4.3.8.RELEASE:compile
++- org.springframework:spring-beans:jar:4.3.8.RELEASE:compile
+|  \- (org.springframework:spring-core:jar:4.3.8.RELEASE:compile - omitted for duplicate)
++- org.springframework:spring-context:jar:4.3.8.RELEASE:compile
+|  +- org.springframework:spring-aop:jar:4.3.8.RELEASE:compile
+|  |  +- (org.springframework:spring-beans:jar:4.3.8.RELEASE:compile - omitted for duplicate)
+|  |  \- (org.springframework:spring-core:jar:4.3.8.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-beans:jar:4.3.8.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-core:jar:4.3.8.RELEASE:compile - omitted for duplicate)
+|  \- org.springframework:spring-expression:jar:4.3.8.RELEASE:compile
+|     \- (org.springframework:spring-core:jar:4.3.8.RELEASE:compile - omitted for duplicate)
++- org.springframework:spring-context-support:jar:4.3.8.RELEASE:compile
+|  +- (org.springframework:spring-beans:jar:4.3.8.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-context:jar:4.3.8.RELEASE:compile - omitted for duplicate)
+|  \- (org.springframework:spring-core:jar:4.3.8.RELEASE:compile - omitted for duplicate)
++- org.springframework:spring-web:jar:4.3.8.RELEASE:compile
+|  +- (org.springframework:spring-aop:jar:4.3.8.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-beans:jar:4.3.8.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-context:jar:4.3.8.RELEASE:compile - omitted for duplicate)
+|  \- (org.springframework:spring-core:jar:4.3.8.RELEASE:compile - omitted for duplicate)
++- com.fasterxml.jackson.core:jackson-core:jar:2.9.4:compile
++- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.4:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.9.4:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.4:compile - version managed from 2.9.0; omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.4:compile - version managed from 2.8.3; omitted for duplicate)
++- org.apache.commons:commons-lang3:jar:3.5:compile
++- org.ehcache:ehcache:jar:3.1.3:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.7; omitted for duplicate)
++- xalan:xalan:jar:2.7.2:runtime
+|  \- xalan:serializer:jar:2.7.2:runtime
++- org.jsoup:jsoup:jar:1.8.3:compile
++- javax.servlet:javax.servlet-api:jar:3.1.0:provided
++- javax.servlet:jstl:jar:1.2:compile
++- com.google.guava:guava:jar:20.0:compile
++- joda-time:joda-time:jar:2.9.7:compile
++- org.slf4j:slf4j-api:jar:1.7.21:compile
++- org.slf4j:jcl-over-slf4j:jar:1.7.21:runtime
+|  \- (org.slf4j:slf4j-api:jar:1.7.21:runtime - version managed from 1.7.7; omitted for duplicate)
++- ch.qos.logback:logback-classic:jar:1.1.8:compile
+|  +- (ch.qos.logback:logback-core:jar:1.1.8:compile - version managed from 1.2.3; omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.7; omitted for duplicate)
++- org.projectlombok:lombok:jar:1.16.12:compile
++- org.jetbrains:annotations:jar:13.0:compile
++- junit:junit:jar:4.12:test
+|  \- (org.hamcrest:hamcrest-core:jar:1.3:test - version managed from 1.1; scope managed from compile; omitted for duplicate)
++- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.hamcrest:hamcrest-library:jar:1.3:test
+|  \- (org.hamcrest:hamcrest-core:jar:1.3:test - version managed from 1.1; scope managed from compile; omitted for duplicate)
++- org.mockito:mockito-all:jar:1.10.19:test
++- org.springframework:spring-test:jar:4.3.8.RELEASE:test
+|  \- (org.springframework:spring-core:jar:4.3.8.RELEASE:test - omitted for duplicate)
+\- com.openpojo:openpojo:jar:0.8.4:test

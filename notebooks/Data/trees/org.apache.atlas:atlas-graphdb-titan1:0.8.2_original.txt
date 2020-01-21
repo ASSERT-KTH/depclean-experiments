@@ -1,0 +1,25 @@
+org.apache.atlas:atlas-graphdb-titan1:jar:0.8.2
++- org.apache.atlas:atlas-graphdb-api:jar:0.8.2:provided
+|  +- (org.slf4j:slf4j-api:jar:1.7.21:provided - omitted for duplicate)
+|  +- (org.slf4j:slf4j-log4j12:jar:1.7.21:provided - omitted for duplicate)
+|  +- (org.slf4j:jul-to-slf4j:jar:1.7.21:provided - omitted for duplicate)
+|  \- (cglib:cglib:jar:2.2.2:provided - omitted for duplicate)
++- commons-configuration:commons-configuration:jar:1.10:provided
+|  +- commons-lang:commons-lang:jar:2.6:provided
+|  \- commons-logging:commons-logging:jar:1.1.1:provided
++- org.testng:testng:jar:6.9.4:test
++- org.mockito:mockito-all:jar:1.8.5:test
++- org.apache.atlas:atlas-graphdb-common:jar:tests:0.8.2:test
+|  +- (org.apache.atlas:atlas-graphdb-api:jar:0.8.2:test - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.21:test - omitted for duplicate)
+|  +- (org.slf4j:slf4j-log4j12:jar:1.7.21:test - omitted for duplicate)
+|  +- (org.slf4j:jul-to-slf4j:jar:1.7.21:test - omitted for duplicate)
+|  \- (cglib:cglib:jar:2.2.2:test - omitted for duplicate)
++- org.slf4j:slf4j-api:jar:1.7.21:compile
++- org.slf4j:slf4j-log4j12:jar:1.7.21:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|  \- log4j:log4j:jar:1.2.17:compile (scope managed from provided)
++- org.slf4j:jul-to-slf4j:jar:1.7.21:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+\- cglib:cglib:jar:2.2.2:compile
+   \- asm:asm:jar:3.3.1:compile

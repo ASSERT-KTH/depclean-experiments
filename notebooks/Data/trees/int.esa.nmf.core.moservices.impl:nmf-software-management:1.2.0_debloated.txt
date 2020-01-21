@@ -1,0 +1,20 @@
+int.esa.nmf.core.moservices.impl:nmf-software-management:jar:1.2.0
++- int.esa.ccsds.mo:API_MAL:jar:1.7:compile
++- int.esa.nmf.core.moservices.api:com-nmf:jar:1.2.0:compile
+|  +- (int.esa.ccsds.mo:API_MAL:jar:1.7:compile - omitted for duplicate)
+|  \- int.esa.nmf.core.moservices:xml:jar:1.2.0:compile
++- int.esa.nmf.core.moservices.api:software-management:jar:1.2.0:compile
+|  +- (int.esa.ccsds.mo:API_MAL:jar:1.7:compile - omitted for duplicate)
+|  +- (int.esa.nmf.core.moservices.api:com-nmf:jar:1.2.0:compile - omitted for duplicate)
+|  \- (int.esa.nmf.core.moservices:xml:jar:1.2.0:compile - omitted for duplicate)
++- int.esa.nmf.core:helper-tools:jar:1.2.0:compile
+|  \- (int.esa.ccsds.mo:API_MAL:jar:1.7:compile - omitted for duplicate)
+\- int.esa.nmf.core.moservices.impl:ccsds-com:jar:1.2.0:compile
+   +- int.esa.ccsds.mo:API_COMMON:jar:1.0-RC1:compile
+   |  \- (int.esa.ccsds.mo:API_MAL:jar:1.7:compile - version managed from 1.2; omitted for duplicate)
+   +- (int.esa.nmf.core.moservices.api:com-nmf:jar:1.2.0:compile - omitted for duplicate)
+   +- (int.esa.nmf.core:helper-tools:jar:1.2.0:compile - omitted for duplicate)
+   +- org.eclipse.persistence:eclipselink:jar:2.5.2:compile
+   |  +- org.eclipse.persistence:javax.persistence:jar:2.1.0:compile
+   |  \- org.eclipse.persistence:commonj.sdo:jar:2.1.1:compile
+   \- org.xerial:sqlite-jdbc:jar:3.18.0:compile

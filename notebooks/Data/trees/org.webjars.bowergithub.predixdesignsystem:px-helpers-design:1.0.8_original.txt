@@ -1,0 +1,2 @@
+org.webjars.bowergithub.predixdesignsystem:px-helpers-design:jar:1.0.8
+\- org.webjars.bowergithub.predixdesignsystem:px-colors-design:jar:1.0.8:compile

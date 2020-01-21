@@ -1,0 +1,2 @@
+io.circe:circe-numbers_sjs0.6_2.12:jar:0.9.3
+\- org.scala-lang:scala-library:jar:2.12.5:compile

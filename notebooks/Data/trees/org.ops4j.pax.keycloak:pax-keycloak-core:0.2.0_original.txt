@@ -1,0 +1,40 @@
+org.ops4j.pax.keycloak:pax-keycloak-core:bundle:0.2.0
++- org.keycloak:keycloak-common:jar:3.4.1.Final:compile
+|  +- org.bouncycastle:bcprov-jdk15on:jar:1.56:compile
+|  \- org.bouncycastle:bcpkix-jdk15on:jar:1.56:compile
+|     \- (org.bouncycastle:bcprov-jdk15on:jar:1.56:compile - omitted for duplicate)
++- org.keycloak:keycloak-core:jar:3.4.1.Final:compile
+|  +- (org.keycloak:keycloak-common:jar:3.4.1.Final:compile - omitted for duplicate)
+|  +- (org.bouncycastle:bcprov-jdk15on:jar:1.56:compile - omitted for duplicate)
+|  +- (org.bouncycastle:bcpkix-jdk15on:jar:1.56:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.7.0:compile - version managed from 2.8.9; omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.7.0:compile - version managed from 2.8.9; omitted for duplicate)
++- org.keycloak:keycloak-authz-client:jar:3.4.1.Final:compile
+|  +- (org.keycloak:keycloak-core:jar:3.4.1.Final:compile - omitted for duplicate)
+|  \- org.jboss.logging:jboss-logging:jar:3.3.1.Final:compile
++- org.keycloak:keycloak-adapter-spi:jar:3.4.1.Final:compile
++- org.keycloak:keycloak-adapter-core:jar:3.4.1.Final:compile
++- com.fasterxml.jackson.core:jackson-core:jar:2.7.0:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.7.0:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.7.0:compile - omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.7.0:compile - version managed from 2.8.9; omitted for duplicate)
++- com.fasterxml.jackson.core:jackson-annotations:jar:2.7.0:compile
++- org.apache.httpcomponents:httpclient-osgi:jar:4.5.4:compile
+|  +- org.apache.httpcomponents:httpclient:jar:4.5.4:compile
+|  |  +- (org.apache.httpcomponents:httpcore:jar:4.4.7:compile - omitted for conflict with 4.4.8)
+|  |  +- commons-logging:commons-logging:jar:1.2:compile
+|  |  \- (commons-codec:commons-codec:jar:1.10:compile - omitted for duplicate)
+|  +- commons-codec:commons-codec:jar:1.10:compile
+|  +- org.apache.httpcomponents:httpmime:jar:4.5.4:compile
+|  |  \- (org.apache.httpcomponents:httpclient:jar:4.5.4:compile - omitted for duplicate)
+|  +- org.apache.httpcomponents:httpclient-cache:jar:4.5.4:compile
+|  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.4:compile - omitted for duplicate)
+|  |  \- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  \- org.apache.httpcomponents:fluent-hc:jar:4.5.4:compile
+|     +- (org.apache.httpcomponents:httpclient:jar:4.5.4:compile - omitted for duplicate)
+|     \- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
++- org.apache.httpcomponents:httpcore-osgi:jar:4.4.8:compile
+|  +- org.apache.httpcomponents:httpcore:jar:4.4.8:compile
+|  \- org.apache.httpcomponents:httpcore-nio:jar:4.4.8:compile
+|     \- (org.apache.httpcomponents:httpcore:jar:4.4.8:compile - omitted for duplicate)
+\- org.ops4j.pax.logging:pax-logging-api:jar:1.10.1:compile

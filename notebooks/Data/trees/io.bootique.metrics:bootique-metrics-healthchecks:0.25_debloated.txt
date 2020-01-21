@@ -1,0 +1,27 @@
+io.bootique.metrics:bootique-metrics-healthchecks:jar:0.25
++- io.bootique:bootique:jar:0.25:compile
+|  +- com.google.inject:guice:jar:4.0:compile
+|  |  +- javax.inject:javax.inject:jar:1:compile
+|  |  +- aopalliance:aopalliance:jar:1.0:compile
+|  |  \- com.google.guava:guava:jar:16.0.1:compile
+|  +- com.google.inject.extensions:guice-multibindings:jar:4.0:compile
+|  |  \- (com.google.inject:guice:jar:4.0:compile - omitted for duplicate)
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.6.4:compile
+|  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.6.0:compile
+|  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.6.4:compile - omitted for duplicate)
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.6.4:compile
+|  +- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.6.4:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.6.4:compile - omitted for duplicate)
+|  |  \- org.yaml:snakeyaml:jar:1.15:compile
+|  \- net.sf.jopt-simple:jopt-simple:jar:5.0.3:compile
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.mockito:mockito-core:jar:2.15.0:test
+|  +- net.bytebuddy:byte-buddy:jar:1.7.9:test
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.7.9:test
+|  \- org.objenesis:objenesis:jar:2.6:test
++- io.bootique:bootique-test:jar:0.25:test
+|  \- (io.bootique:bootique:jar:0.25:test - omitted for duplicate)
+\- org.slf4j:slf4j-simple:jar:1.7.25:test
+   \- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)

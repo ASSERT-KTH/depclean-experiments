@@ -1,0 +1,2 @@
+org.hotswapagent:hotswap-agent-jersey2-plugin:jar:1.0
+\- org.hotswapagent:hotswap-agent-core:jar:1.0:compile

@@ -1,0 +1,295 @@
+com.geirsson:mdoc_2.12.6:jar:0.4.0
++- org.scala-lang:scala-compiler:jar:2.12.6:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
+|  +- org.scala-lang:scala-reflect:jar:2.12.6:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
+|  \- org.scala-lang.modules:scala-xml_2.12:jar:1.0.6:compile
+|     \- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.6)
++- org.scala-lang:scala-library:jar:2.12.6:compile
++- com.geirsson:mdoc-runtime_2.12:jar:0.4.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
+|  \- com.lihaoyi:pprint_2.12:jar:0.5.2:compile
+|     +- (org.scala-lang:scala-library:jar:2.12.2:compile - omitted for conflict with 2.12.6)
+|     +- (com.lihaoyi:fansi_2.12:jar:0.2.4:compile - omitted for conflict with 0.2.5)
+|     \- (com.lihaoyi:sourcecode_2.12:jar:0.1.3:compile - omitted for conflict with 0.1.4)
++- com.googlecode.java-diff-utils:diffutils:jar:1.3.0:compile
++- ch.qos.logback:logback-classic:jar:1.2.3:compile
+|  +- ch.qos.logback:logback-core:jar:1.2.3:compile
+|  \- org.slf4j:slf4j-api:jar:1.7.25:compile
++- org.scalameta:scalameta_2.12:jar:4.0.0-M8:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
+|  +- org.scalameta:common_2.12:jar:4.0.0-M8:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
+|  |  +- org.scalameta:semanticdb_2.12:jar:4.0.0-M8:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
+|  |  |  +- (com.lihaoyi:pprint_2.12:jar:0.5.3:compile - omitted for conflict with 0.5.2)
+|  |  |  \- com.thesamet.scalapb:scalapb-runtime_2.12:jar:0.8.0-RC1:compile
+|  |  |     +- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
+|  |  |     +- com.thesamet.scalapb:lenses_2.12:jar:0.8.0-RC1:compile
+|  |  |     |  \- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
+|  |  |     +- (com.lihaoyi:fastparse_2.12:jar:1.0.0:compile - omitted for duplicate)
+|  |  |     \- com.google.protobuf:protobuf-java:jar:3.5.1:compile
+|  |  +- (com.lihaoyi:pprint_2.12:jar:0.5.3:compile - omitted for conflict with 0.5.2)
+|  |  \- (com.lihaoyi:sourcecode_2.12:jar:0.1.4:compile - omitted for conflict with 0.1.3)
+|  +- org.scalameta:dialects_2.12:jar:4.0.0-M8:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
+|  |  +- (org.scalameta:common_2.12:jar:4.0.0-M8:compile - omitted for duplicate)
+|  |  \- (com.lihaoyi:pprint_2.12:jar:0.5.3:compile - omitted for conflict with 0.5.2)
+|  +- org.scalameta:parsers_2.12:jar:4.0.0-M8:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
+|  |  +- (org.scalameta:common_2.12:jar:4.0.0-M8:compile - omitted for duplicate)
+|  |  +- (org.scalameta:dialects_2.12:jar:4.0.0-M8:compile - omitted for duplicate)
+|  |  +- (org.scalameta:inputs_2.12:jar:4.0.0-M8:compile - omitted for duplicate)
+|  |  +- org.scalameta:tokens_2.12:jar:4.0.0-M8:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
+|  |  |  +- (org.scalameta:common_2.12:jar:4.0.0-M8:compile - omitted for duplicate)
+|  |  |  +- (org.scalameta:dialects_2.12:jar:4.0.0-M8:compile - omitted for duplicate)
+|  |  |  +- (org.scalameta:inputs_2.12:jar:4.0.0-M8:compile - omitted for duplicate)
+|  |  |  \- (com.lihaoyi:pprint_2.12:jar:0.5.3:compile - omitted for conflict with 0.5.2)
+|  |  +- (org.scalameta:tokenizers_2.12:jar:4.0.0-M8:compile - omitted for duplicate)
+|  |  +- (org.scalameta:trees_2.12:jar:4.0.0-M8:compile - omitted for duplicate)
+|  |  \- (com.lihaoyi:pprint_2.12:jar:0.5.3:compile - omitted for conflict with 0.5.2)
+|  +- org.scalameta:quasiquotes_2.12:jar:4.0.0-M8:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
+|  |  +- (org.scalameta:common_2.12:jar:4.0.0-M8:compile - omitted for duplicate)
+|  |  +- (org.scalameta:dialects_2.12:jar:4.0.0-M8:compile - omitted for duplicate)
+|  |  +- (org.scalameta:inputs_2.12:jar:4.0.0-M8:compile - omitted for duplicate)
+|  |  +- (org.scalameta:trees_2.12:jar:4.0.0-M8:compile - omitted for duplicate)
+|  |  +- (org.scalameta:parsers_2.12:jar:4.0.0-M8:compile - omitted for duplicate)
+|  |  \- (com.lihaoyi:pprint_2.12:jar:0.5.3:compile - omitted for conflict with 0.5.2)
+|  +- org.scalameta:tokenizers_2.12:jar:4.0.0-M8:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
+|  |  +- (org.scalameta:common_2.12:jar:4.0.0-M8:compile - omitted for duplicate)
+|  |  +- (org.scalameta:dialects_2.12:jar:4.0.0-M8:compile - omitted for duplicate)
+|  |  +- (org.scalameta:inputs_2.12:jar:4.0.0-M8:compile - omitted for duplicate)
+|  |  +- (org.scalameta:tokens_2.12:jar:4.0.0-M8:compile - omitted for duplicate)
+|  |  +- (com.lihaoyi:pprint_2.12:jar:0.5.3:compile - omitted for conflict with 0.5.2)
+|  |  \- com.lihaoyi:fastparse_2.12:jar:1.0.0:compile
+|  |     +- (org.scala-lang:scala-library:jar:2.12.3:compile - omitted for conflict with 2.12.6)
+|  |     +- com.lihaoyi:fastparse-utils_2.12:jar:1.0.0:compile
+|  |     |  +- (org.scala-lang:scala-library:jar:2.12.3:compile - omitted for conflict with 2.12.6)
+|  |     |  \- (com.lihaoyi:sourcecode_2.12:jar:0.1.4:compile - omitted for conflict with 0.1.3)
+|  |     \- (com.lihaoyi:sourcecode_2.12:jar:0.1.4:compile - omitted for conflict with 0.1.3)
+|  +- org.scalameta:transversers_2.12:jar:4.0.0-M8:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
+|  |  +- (org.scalameta:common_2.12:jar:4.0.0-M8:compile - omitted for duplicate)
+|  |  +- (org.scalameta:trees_2.12:jar:4.0.0-M8:compile - omitted for duplicate)
+|  |  \- (com.lihaoyi:pprint_2.12:jar:0.5.3:compile - omitted for conflict with 0.5.2)
+|  +- org.scalameta:trees_2.12:jar:4.0.0-M8:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
+|  |  +- (org.scalameta:common_2.12:jar:4.0.0-M8:compile - omitted for duplicate)
+|  |  +- (org.scalameta:dialects_2.12:jar:4.0.0-M8:compile - omitted for duplicate)
+|  |  +- (org.scalameta:inputs_2.12:jar:4.0.0-M8:compile - omitted for duplicate)
+|  |  +- (org.scalameta:tokens_2.12:jar:4.0.0-M8:compile - omitted for duplicate)
+|  |  +- (org.scalameta:tokenizers_2.12:jar:4.0.0-M8:compile - omitted for duplicate)
+|  |  \- (com.lihaoyi:pprint_2.12:jar:0.5.3:compile - omitted for conflict with 0.5.2)
+|  +- org.scalameta:inputs_2.12:jar:4.0.0-M8:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
+|  |  +- (org.scalameta:common_2.12:jar:4.0.0-M8:compile - omitted for duplicate)
+|  |  +- (org.scalameta:io_2.12:jar:4.0.0-M8:compile - omitted for duplicate)
+|  |  \- (com.lihaoyi:pprint_2.12:jar:0.5.3:compile - omitted for conflict with 0.5.2)
+|  +- org.scalameta:io_2.12:jar:4.0.0-M8:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
+|  |  +- (org.scalameta:common_2.12:jar:4.0.0-M8:compile - omitted for duplicate)
+|  |  \- (com.lihaoyi:pprint_2.12:jar:0.5.3:compile - omitted for conflict with 0.5.2)
+|  \- (com.lihaoyi:pprint_2.12:jar:0.5.3:compile - omitted for conflict with 0.5.2)
++- com.geirsson:metaconfig-typesafe-config_2.12:jar:0.8.3:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.2:compile - omitted for conflict with 2.12.6)
+|  +- com.geirsson:metaconfig-core_2.12:jar:0.8.3:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.2:compile - omitted for conflict with 2.12.6)
+|  |  +- (com.lihaoyi:pprint_2.12:jar:0.5.3:compile - omitted for conflict with 0.5.2)
+|  |  \- org.typelevel:paiges-core_2.12:jar:0.2.0:compile
+|  |     \- (org.scala-lang:scala-library:jar:2.12.2:compile - omitted for conflict with 2.12.6)
+|  \- com.typesafe:config:jar:1.2.1:compile
++- com.vladsch.flexmark:flexmark-all:jar:0.26.4:compile
+|  +- com.vladsch.flexmark:flexmark:jar:0.26.4:compile
+|  |  \- (com.vladsch.flexmark:flexmark-util:jar:0.26.4:compile - omitted for duplicate)
+|  +- com.vladsch.flexmark:flexmark-ext-abbreviation:jar:0.26.4:compile
+|  |  +- (com.vladsch.flexmark:flexmark-util:jar:0.26.4:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark-ext-autolink:jar:0.26.4:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark-ext-typographic:jar:0.26.4:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark:jar:0.26.4:compile - omitted for duplicate)
+|  |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.26.4:compile - omitted for duplicate)
+|  +- com.vladsch.flexmark:flexmark-ext-anchorlink:jar:0.26.4:compile
+|  |  +- (com.vladsch.flexmark:flexmark-util:jar:0.26.4:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark:jar:0.26.4:compile - omitted for duplicate)
+|  |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.26.4:compile - omitted for duplicate)
+|  +- com.vladsch.flexmark:flexmark-ext-aside:jar:0.26.4:compile
+|  |  +- (com.vladsch.flexmark:flexmark-util:jar:0.26.4:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark:jar:0.26.4:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark-jira-converter:jar:0.26.4:compile - omitted for duplicate)
+|  |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.26.4:compile - omitted for duplicate)
+|  +- com.vladsch.flexmark:flexmark-ext-autolink:jar:0.26.4:compile
+|  |  +- (com.vladsch.flexmark:flexmark-util:jar:0.26.4:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark:jar:0.26.4:compile - omitted for duplicate)
+|  |  +- org.nibor.autolink:autolink:jar:0.6.0:compile
+|  |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.26.4:compile - omitted for duplicate)
+|  +- com.vladsch.flexmark:flexmark-ext-definition:jar:0.26.4:compile
+|  |  +- (com.vladsch.flexmark:flexmark-util:jar:0.26.4:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark:jar:0.26.4:compile - omitted for duplicate)
+|  |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.26.4:compile - omitted for duplicate)
+|  +- com.vladsch.flexmark:flexmark-ext-emoji:jar:0.26.4:compile
+|  |  +- (com.vladsch.flexmark:flexmark-util:jar:0.26.4:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark:jar:0.26.4:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark-jira-converter:jar:0.26.4:compile - omitted for duplicate)
+|  |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.26.4:compile - omitted for duplicate)
+|  +- com.vladsch.flexmark:flexmark-ext-escaped-character:jar:0.26.4:compile
+|  |  +- (com.vladsch.flexmark:flexmark-util:jar:0.26.4:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark:jar:0.26.4:compile - omitted for duplicate)
+|  |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.26.4:compile - omitted for duplicate)
+|  +- com.vladsch.flexmark:flexmark-ext-footnotes:jar:0.26.4:compile
+|  |  +- (com.vladsch.flexmark:flexmark-util:jar:0.26.4:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark:jar:0.26.4:compile - omitted for duplicate)
+|  |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.26.4:compile - omitted for duplicate)
+|  +- com.vladsch.flexmark:flexmark-ext-gfm-issues:jar:0.26.4:compile
+|  |  +- (com.vladsch.flexmark:flexmark-util:jar:0.26.4:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark:jar:0.26.4:compile - omitted for duplicate)
+|  |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.26.4:compile - omitted for duplicate)
+|  +- com.vladsch.flexmark:flexmark-ext-gfm-strikethrough:jar:0.26.4:compile
+|  |  +- (com.vladsch.flexmark:flexmark-util:jar:0.26.4:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark:jar:0.26.4:compile - omitted for duplicate)
+|  |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.26.4:compile - omitted for duplicate)
+|  +- com.vladsch.flexmark:flexmark-ext-gfm-tables:jar:0.26.4:compile
+|  |  +- (com.vladsch.flexmark:flexmark-util:jar:0.26.4:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark:jar:0.26.4:compile - omitted for duplicate)
+|  |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.26.4:compile - omitted for duplicate)
+|  +- com.vladsch.flexmark:flexmark-ext-gfm-tasklist:jar:0.26.4:compile
+|  |  +- (com.vladsch.flexmark:flexmark-util:jar:0.26.4:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark:jar:0.26.4:compile - omitted for duplicate)
+|  |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.26.4:compile - omitted for duplicate)
+|  +- com.vladsch.flexmark:flexmark-ext-gfm-users:jar:0.26.4:compile
+|  |  +- (com.vladsch.flexmark:flexmark-util:jar:0.26.4:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark:jar:0.26.4:compile - omitted for duplicate)
+|  |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.26.4:compile - omitted for duplicate)
+|  +- com.vladsch.flexmark:flexmark-ext-jekyll-front-matter:jar:0.26.4:compile
+|  |  +- (com.vladsch.flexmark:flexmark-util:jar:0.26.4:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark:jar:0.26.4:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark-ext-yaml-front-matter:jar:0.26.4:compile - omitted for duplicate)
+|  |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.26.4:compile - omitted for duplicate)
+|  +- com.vladsch.flexmark:flexmark-ext-jekyll-tag:jar:0.26.4:compile
+|  |  +- (com.vladsch.flexmark:flexmark-util:jar:0.26.4:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark:jar:0.26.4:compile - omitted for duplicate)
+|  |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.26.4:compile - omitted for duplicate)
+|  +- com.vladsch.flexmark:flexmark-ext-ins:jar:0.26.4:compile
+|  |  +- (com.vladsch.flexmark:flexmark-util:jar:0.26.4:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark:jar:0.26.4:compile - omitted for duplicate)
+|  |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.26.4:compile - omitted for duplicate)
+|  +- com.vladsch.flexmark:flexmark-ext-xwiki-macros:jar:0.26.4:compile
+|  |  +- (com.vladsch.flexmark:flexmark-util:jar:0.26.4:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark:jar:0.26.4:compile - omitted for duplicate)
+|  |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.26.4:compile - omitted for duplicate)
+|  +- com.vladsch.flexmark:flexmark-ext-superscript:jar:0.26.4:compile
+|  |  +- (com.vladsch.flexmark:flexmark-util:jar:0.26.4:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark:jar:0.26.4:compile - omitted for duplicate)
+|  |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.26.4:compile - omitted for duplicate)
+|  +- com.vladsch.flexmark:flexmark-ext-tables:jar:0.26.4:compile
+|  |  +- (com.vladsch.flexmark:flexmark-util:jar:0.26.4:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark:jar:0.26.4:compile - omitted for duplicate)
+|  |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.26.4:compile - omitted for duplicate)
+|  +- com.vladsch.flexmark:flexmark-ext-toc:jar:0.26.4:compile
+|  |  +- (com.vladsch.flexmark:flexmark-util:jar:0.26.4:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark:jar:0.26.4:compile - omitted for duplicate)
+|  |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.26.4:compile - omitted for duplicate)
+|  +- com.vladsch.flexmark:flexmark-ext-typographic:jar:0.26.4:compile
+|  |  +- (com.vladsch.flexmark:flexmark-util:jar:0.26.4:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark:jar:0.26.4:compile - omitted for duplicate)
+|  |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.26.4:compile - omitted for duplicate)
+|  +- com.vladsch.flexmark:flexmark-ext-wikilink:jar:0.26.4:compile
+|  |  +- (com.vladsch.flexmark:flexmark-util:jar:0.26.4:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark:jar:0.26.4:compile - omitted for duplicate)
+|  |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.26.4:compile - omitted for duplicate)
+|  +- com.vladsch.flexmark:flexmark-ext-yaml-front-matter:jar:0.26.4:compile
+|  |  +- (com.vladsch.flexmark:flexmark-util:jar:0.26.4:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark:jar:0.26.4:compile - omitted for duplicate)
+|  |  \- (com.vladsch.flexmark:flexmark-formatter:jar:0.26.4:compile - omitted for duplicate)
+|  +- com.vladsch.flexmark:flexmark-formatter:jar:0.26.4:compile
+|  |  +- (com.vladsch.flexmark:flexmark-util:jar:0.26.4:compile - omitted for duplicate)
+|  |  \- (com.vladsch.flexmark:flexmark:jar:0.26.4:compile - omitted for duplicate)
+|  +- com.vladsch.flexmark:flexmark-html-parser:jar:0.26.4:compile
+|  |  +- (com.vladsch.flexmark:flexmark-util:jar:0.26.4:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark:jar:0.26.4:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark-ext-emoji:jar:0.26.4:compile - omitted for duplicate)
+|  |  \- org.jsoup:jsoup:jar:1.10.2:compile
+|  +- com.vladsch.flexmark:flexmark-jira-converter:jar:0.26.4:compile
+|  |  +- (com.vladsch.flexmark:flexmark-util:jar:0.26.4:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark-ext-gfm-strikethrough:jar:0.26.4:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark-ext-tables:jar:0.26.4:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark-ext-wikilink:jar:0.26.4:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark-ext-ins:jar:0.26.4:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark-ext-superscript:jar:0.26.4:compile - omitted for duplicate)
+|  |  \- (com.vladsch.flexmark:flexmark:jar:0.26.4:compile - omitted for duplicate)
+|  +- com.vladsch.flexmark:flexmark-pdf-converter:jar:0.26.4:compile
+|  |  +- (com.vladsch.flexmark:flexmark-util:jar:0.26.4:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark:jar:0.26.4:compile - omitted for duplicate)
+|  |  +- (org.jsoup:jsoup:jar:1.10.2:compile - omitted for duplicate)
+|  |  +- com.openhtmltopdf:openhtmltopdf-core:jar:0.0.1-RC9:compile
+|  |  +- com.openhtmltopdf:openhtmltopdf-pdfbox:jar:0.0.1-RC9:compile
+|  |  |  +- org.apache.pdfbox:pdfbox:jar:2.0.4:compile
+|  |  |  |  +- org.apache.pdfbox:fontbox:jar:2.0.4:compile
+|  |  |  |  |  \- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  |  |  |  \- commons-logging:commons-logging:jar:1.2:compile
+|  |  |  \- (com.openhtmltopdf:openhtmltopdf-core:jar:0.0.1-RC9:compile - omitted for duplicate)
+|  |  +- com.openhtmltopdf:openhtmltopdf-rtl-support:jar:0.0.1-RC9:compile
+|  |  |  +- com.ibm.icu:icu4j:jar:58.1:compile
+|  |  |  \- (com.openhtmltopdf:openhtmltopdf-core:jar:0.0.1-RC9:compile - omitted for duplicate)
+|  |  \- com.openhtmltopdf:openhtmltopdf-jsoup-dom-converter:jar:0.0.1-RC9:compile
+|  |     \- (org.jsoup:jsoup:jar:1.8.3:compile - omitted for conflict with 1.10.2)
+|  +- com.vladsch.flexmark:flexmark-profile-pegdown:jar:0.26.4:compile
+|  |  +- (com.vladsch.flexmark:flexmark:jar:0.26.4:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark-ext-abbreviation:jar:0.26.4:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark-ext-anchorlink:jar:0.26.4:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark-ext-aside:jar:0.26.4:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark-ext-autolink:jar:0.26.4:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark-ext-definition:jar:0.26.4:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark-ext-emoji:jar:0.26.4:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark-ext-escaped-character:jar:0.26.4:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark-ext-footnotes:jar:0.26.4:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark-ext-gfm-strikethrough:jar:0.26.4:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark-ext-gfm-tasklist:jar:0.26.4:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark-ext-ins:jar:0.26.4:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark-ext-jekyll-front-matter:jar:0.26.4:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark-ext-superscript:jar:0.26.4:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark-ext-tables:jar:0.26.4:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark-ext-toc:jar:0.26.4:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark-ext-typographic:jar:0.26.4:compile - omitted for duplicate)
+|  |  +- (com.vladsch.flexmark:flexmark-ext-wikilink:jar:0.26.4:compile - omitted for duplicate)
+|  |  \- (com.vladsch.flexmark:flexmark-util:jar:0.26.4:compile - omitted for duplicate)
+|  +- com.vladsch.flexmark:flexmark-util:jar:0.26.4:compile
+|  \- com.vladsch.flexmark:flexmark-youtrack-converter:jar:0.26.4:compile
+|     +- (com.vladsch.flexmark:flexmark-util:jar:0.26.4:compile - omitted for duplicate)
+|     +- (com.vladsch.flexmark:flexmark:jar:0.26.4:compile - omitted for duplicate)
+|     +- (com.vladsch.flexmark:flexmark-ext-gfm-strikethrough:jar:0.26.4:compile - omitted for duplicate)
+|     \- (com.vladsch.flexmark:flexmark-ext-tables:jar:0.26.4:compile - omitted for duplicate)
++- com.lihaoyi:fansi_2.12:jar:0.2.5:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.6)
+|  \- com.lihaoyi:sourcecode_2.12:jar:0.1.4:compile
+|     \- (org.scala-lang:scala-library:jar:2.12.2:compile - omitted for conflict with 2.12.6)
++- io.methvin:directory-watcher:jar:0.6.0:compile
+|  +- net.java.dev.jna:jna:jar:4.2.1:compile
+|  +- com.google.guava:guava:jar:23.0:compile
+|  |  +- com.google.code.findbugs:jsr305:jar:1.3.9:compile
+|  |  +- com.google.errorprone:error_prone_annotations:jar:2.0.18:compile
+|  |  +- com.google.j2objc:j2objc-annotations:jar:1.1:compile
+|  |  \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+\- ch.epfl.scala:scalafix-core_2.12:jar:0.6.0-M14:compile
+   +- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
+   +- org.scalameta:contrib_2.12:jar:4.0.0-M8:compile
+   |  +- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
+   |  +- (org.scalameta:scalameta_2.12:jar:4.0.0-M8:compile - omitted for duplicate)
+   |  \- (com.lihaoyi:pprint_2.12:jar:0.5.3:compile - omitted for conflict with 0.5.2)
+   +- org.scalameta:symtab_2.12:jar:4.0.0-M8:compile
+   |  +- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
+   |  +- org.scalameta:metacp_2.12:jar:4.0.0-M8:compile
+   |  |  +- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
+   |  |  +- (org.scalameta:semanticdb_2.12:jar:4.0.0-M8:compile - omitted for duplicate)
+   |  |  +- org.scalameta:cli_2.12:jar:4.0.0-M8:compile
+   |  |  |  +- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
+   |  |  |  \- (com.lihaoyi:pprint_2.12:jar:0.5.3:compile - omitted for conflict with 0.5.2)
+   |  |  +- (org.scalameta:io_2.12:jar:4.0.0-M8:compile - omitted for duplicate)
+   |  |  +- (com.lihaoyi:pprint_2.12:jar:0.5.3:compile - omitted for conflict with 0.5.2)
+   |  |  \- org.scala-lang:scalap:jar:2.12.6:compile
+   |  |     \- (org.scala-lang:scala-compiler:jar:2.12.6:compile - omitted for duplicate)
+   |  \- (com.lihaoyi:pprint_2.12:jar:0.5.3:compile - omitted for conflict with 0.5.2)
+   +- (com.googlecode.java-diff-utils:diffutils:jar:1.3.0:compile - omitted for duplicate)
+   \- (com.geirsson:metaconfig-typesafe-config_2.12:jar:0.8.3:compile - omitted for duplicate)

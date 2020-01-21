@@ -1,0 +1,33 @@
+com.netflix.evcache:evcache-core:jar:5.0.19-rc.1
++- net.spy:spymemcached:jar:2.12.2:compile
++- com.google.inject:guice:jar:4.1.0:compile
+|  +- javax.inject:javax.inject:jar:1:compile
+|  +- aopalliance:aopalliance:jar:1.0:compile
+|  \- com.google.guava:guava:jar:19.0:compile
++- org.json:json:jar:20180130:compile
++- com.google.code.findbugs:annotations:jar:3.0.1:compile
+|  +- net.jcip:jcip-annotations:jar:1.0:compile
+|  \- com.google.code.findbugs:jsr305:jar:3.0.1:compile
++- com.netflix.archaius:archaius-core:jar:0.7.6:compile
+|  +- (com.google.code.findbugs:jsr305:jar:3.0.1:runtime - omitted for duplicate)
+|  +- commons-configuration:commons-configuration:jar:1.8:runtime
+|  |  +- commons-lang:commons-lang:jar:2.6:runtime
+|  |  \- (commons-logging:commons-logging:jar:1.1.1:runtime - omitted for conflict with 1.2)
+|  +- (org.slf4j:slf4j-api:jar:1.6.4:compile - scope updated from runtime; omitted for duplicate)
+|  +- (com.google.guava:guava:jar:16.0:runtime - omitted for conflict with 19.0)
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.4.3:runtime
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.4.3:runtime
+|  \- com.fasterxml.jackson.core:jackson-databind:jar:2.4.3:runtime
+|     +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.4.0:runtime - omitted for conflict with 2.4.3)
+|     \- (com.fasterxml.jackson.core:jackson-core:jar:2.4.3:runtime - omitted for duplicate)
++- com.netflix.spectator:spectator-api:jar:0.61.0:compile
+|  \- (org.slf4j:slf4j-api:jar:1.6.4:compile - omitted for conflict with 1.7.25)
++- io.reactivex:rxjava:jar:1.3.6:compile
++- org.slf4j:slf4j-log4j12:jar:1.7.25:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for conflict with 1.6.4)
+|  \- log4j:log4j:jar:1.2.17:compile
++- org.slf4j:slf4j-api:jar:1.7.25:compile
+\- org.apache.httpcomponents:httpclient:jar:4.5.5:compile
+   +- org.apache.httpcomponents:httpcore:jar:4.4.9:compile
+   +- commons-logging:commons-logging:jar:1.2:compile
+   \- commons-codec:commons-codec:jar:1.10:compile

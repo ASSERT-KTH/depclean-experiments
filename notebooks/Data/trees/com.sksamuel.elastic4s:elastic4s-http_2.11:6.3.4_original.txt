@@ -1,0 +1,46 @@
+com.sksamuel.elastic4s:elastic4s-http_2.11:jar:6.3.4
++- org.scala-lang:scala-library:jar:2.11.12:compile
++- com.sksamuel.elastic4s:elastic4s-core_2.11:jar:6.3.4:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  +- (com.sksamuel.exts:exts_2.11:jar:1.60.0:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  +- joda-time:joda-time:jar:2.9.9:compile
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.6:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.6:compile - omitted for duplicate)
+|  \- (com.fasterxml.jackson.module:jackson-module-scala_2.11:jar:2.9.6:compile - omitted for duplicate)
++- com.sksamuel.exts:exts_2.11:jar:1.60.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
+|  +- (org.slf4j:slf4j-api:jar:1.7.16:compile - omitted for conflict with 1.7.25)
+|  +- org.scala-lang:scala-reflect:jar:2.11.11:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
+|  \- com.typesafe:config:jar:1.3.0:compile
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- org.mockito:mockito-all:jar:1.9.5:test
++- org.scalatest:scalatest_2.11:jar:3.0.5:test
+|  +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|  +- org.scalactic:scalactic_2.11:jar:3.0.5:test
+|  |  +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|  |  \- (org.scala-lang:scala-reflect:jar:2.11.12:test - omitted for conflict with 2.11.11)
+|  +- (org.scala-lang:scala-reflect:jar:2.11.12:test - omitted for conflict with 2.11.11)
+|  \- org.scala-lang.modules:scala-xml_2.11:jar:1.0.6:test
+|     \- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.12)
++- org.elasticsearch.client:elasticsearch-rest-client:jar:6.3.0:compile
+|  +- org.apache.httpcomponents:httpclient:jar:4.5.2:compile
+|  +- org.apache.httpcomponents:httpcore:jar:4.4.5:compile
+|  +- org.apache.httpcomponents:httpasyncclient:jar:4.1.2:compile
+|  +- org.apache.httpcomponents:httpcore-nio:jar:4.4.5:compile
+|  +- commons-codec:commons-codec:jar:1.10:compile
+|  \- commons-logging:commons-logging:jar:1.1.3:compile
++- org.apache.logging.log4j:log4j-api:jar:2.9.1:test
++- com.fasterxml.jackson.core:jackson-core:jar:2.9.6:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.9.6:compile
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.6:compile - omitted for duplicate)
+\- com.fasterxml.jackson.module:jackson-module-scala_2.11:jar:2.9.6:compile
+   +- (org.scala-lang:scala-reflect:jar:2.11.11:compile - omitted for duplicate)
+   +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.6:compile - omitted for duplicate)
+   +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.6:compile - omitted for conflict with 2.9.0)
+   +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.6:compile - omitted for duplicate)
+   \- com.fasterxml.jackson.module:jackson-module-paranamer:jar:2.9.6:compile
+      +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.6:compile - omitted for duplicate)
+      \- com.thoughtworks.paranamer:paranamer:jar:2.8:compile

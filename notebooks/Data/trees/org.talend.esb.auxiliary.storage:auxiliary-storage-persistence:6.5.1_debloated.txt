@@ -1,0 +1,7 @@
+org.talend.esb.auxiliary.storage:auxiliary-storage-persistence:bundle:6.5.1
++- junit:junit:jar:4.10:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test (version managed from 1.1)
++- org.easymock:easymock:jar:3.1:test
+|  +- cglib:cglib-nodep:jar:2.2.2:test
+|  \- org.objenesis:objenesis:jar:1.2:test
+\- org.talend.esb.auxiliary.storage:auxiliary-storage-common:jar:6.5.1:compile

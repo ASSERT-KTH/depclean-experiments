@@ -1,0 +1,34 @@
+com.alibaba:dubbo-rpc-api:jar:2.6.1
++- com.alibaba:dubbo-common:jar:2.6.1:compile
+|  +- commons-logging:commons-logging:jar:1.2:compile
+|  +- log4j:log4j:jar:1.2.16:compile
+|  +- org.javassist:javassist:jar:3.20.0-GA:compile
+|  +- com.alibaba:hessian-lite:jar:3.2.2:compile
+|  +- com.alibaba:fastjson:jar:1.2.46:compile
+|  +- com.esotericsoftware:kryo:jar:4.0.1:compile
+|  |  +- com.esotericsoftware:reflectasm:jar:1.11.3:compile
+|  |  |  \- org.ow2.asm:asm:jar:5.0.4:compile
+|  |  +- com.esotericsoftware:minlog:jar:1.3.0:compile
+|  |  \- org.objenesis:objenesis:jar:2.2:compile
+|  +- de.javakaffee:kryo-serializers:jar:0.42:compile
+|  |  \- (com.esotericsoftware:kryo:jar:4.0.1:compile - version managed from 4.0.0; omitted for duplicate)
+|  \- de.ruedigermoeller:fst:jar:2.48-jdk-6:compile
+|     +- com.fasterxml.jackson.core:jackson-core:jar:2.8.6:compile
+|     +- (org.javassist:javassist:jar:3.20.0-GA:compile - version managed from 3.19.0-GA; omitted for duplicate)
+|     +- (org.objenesis:objenesis:jar:2.4:compile - omitted for conflict with 2.2)
+|     \- com.cedarsoftware:java-util:jar:1.9.0:compile
+|        +- (commons-logging:commons-logging:jar:1.2:compile - version managed from 1.1.1; omitted for duplicate)
+|        \- com.cedarsoftware:json-io:jar:2.5.1:compile
++- com.alibaba:dubbo-serialization-api:jar:2.6.1:compile
+|  +- (com.alibaba:dubbo-common:jar:2.6.1:compile - omitted for duplicate)
+|  +- (com.alibaba:hessian-lite:jar:3.2.2:compile - omitted for duplicate)
+|  +- (com.alibaba:fastjson:jar:1.2.46:compile - omitted for duplicate)
+|  +- (com.esotericsoftware:kryo:jar:4.0.1:compile - version managed from 4.0.0; omitted for duplicate)
+|  +- (de.javakaffee:kryo-serializers:jar:0.42:compile - omitted for duplicate)
+|  \- (de.ruedigermoeller:fst:jar:2.48-jdk-6:compile - omitted for duplicate)
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.easymock:easymock:jar:3.4:test
+|  \- (org.objenesis:objenesis:jar:2.2:compile - scope updated from test; omitted for duplicate)
++- org.jmockit:jmockit:jar:1.33:test
+\- cglib:cglib-nodep:jar:2.2:test

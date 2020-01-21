@@ -1,0 +1,7 @@
+org.eclipse.ditto:ditto-model-thingsearch:bundle:0.8.0-M1
++- org.eclipse.ditto:ditto-model-base:jar:0.8.0-M1:compile
+|  \- (org.eclipse.ditto:ditto-json:jar:0.8.0-M1:compile - omitted for duplicate)
++- org.eclipse.ditto:ditto-json:jar:0.8.0-M1:compile
+|  \- com.eclipsesource.minimal-json:minimal-json:jar:0.9.5:compile
++- com.google.code.findbugs:jsr305:jar:3.0.1:provided
+\- org.eclipse.ditto:ditto-utils-jsr305:jar:0.8.0-M1:provided

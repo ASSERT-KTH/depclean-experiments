@@ -1,0 +1,17 @@
+org.jfxtras:jfxtras-all:jar:9.0-r1
++- org.jfxtras:jfxtras-agenda:jar:9.0-r1:compile
+|  \- (org.jfxtras:jfxtras-controls:jar:9.0-r1:compile - omitted for duplicate)
++- org.jfxtras:jfxtras-common:jar:9.0-r1:compile
++- org.jfxtras:jfxtras-controls:jar:9.0-r1:compile
+|  +- (org.jfxtras:jfxtras-common:jar:9.0-r1:compile - omitted for duplicate)
+|  \- org.jfxtras:jfxtras-fxml:jar:9.0-r1:compile
++- org.jfxtras:jfxtras-font-roboto:jar:9.0-r1:compile
++- org.jfxtras:jfxtras-gauge-linear:jar:9.0-r1:compile
+|  \- (org.jfxtras:jfxtras-common:jar:9.0-r1:compile - omitted for duplicate)
++- org.jfxtras:jfxtras-icalendaragenda:jar:9.0-r1:compile
+|  +- (org.jfxtras:jfxtras-agenda:jar:9.0-r1:compile - omitted for duplicate)
+|  +- (org.jfxtras:jfxtras-controls:jar:9.0-r1:compile - omitted for duplicate)
+|  \- (org.jfxtras:jfxtras-icalendarfx:jar:9.0-r1:compile - omitted for duplicate)
++- org.jfxtras:jfxtras-icalendarfx:jar:9.0-r1:compile
+\- org.jfxtras:jfxtras-menu:jar:9.0-r1:compile
+   \- (org.jfxtras:jfxtras-common:jar:9.0-r1:compile - omitted for duplicate)

@@ -1,0 +1,34 @@
+com.baidu.apm:bot-monitor-java:jar:1.1.0
++- junit:junit:jar:3.8.1:test
++- javax.servlet:javax.servlet-api:jar:3.0.1:compile
++- com.fasterxml.jackson.core:jackson-annotations:jar:2.6.2:compile
++- com.fasterxml.jackson.core:jackson-core:jar:2.6.7:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.6.7:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.6.0:compile - omitted for conflict with 2.6.2)
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.6.7:compile - omitted for duplicate)
++- commons-lang:commons-lang:jar:2.6:compile
++- commons-codec:commons-codec:jar:1.10:compile
++- commons-io:commons-io:jar:2.4:compile
++- log4j:log4j:jar:1.2.17:compile
++- org.slf4j:slf4j-api:jar:1.7.0:compile
++- org.slf4j:slf4j-log4j12:jar:1.7.0:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.0:compile - omitted for duplicate)
+|  \- (log4j:log4j:jar:1.2.17:compile - omitted for duplicate)
++- commons-digester:commons-digester:jar:2.1:compile
+|  +- commons-beanutils:commons-beanutils:jar:1.8.3:compile
+|  |  \- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for duplicate)
+|  \- commons-logging:commons-logging:jar:1.1.1:compile
++- org.json:json:jar:20090211:compile
++- org.apache.httpcomponents:httpasyncclient:jar:4.1.1:compile
+|  +- org.apache.httpcomponents:httpcore:jar:4.4.4:compile
+|  +- org.apache.httpcomponents:httpcore-nio:jar:4.4.4:compile
+|  |  \- (org.apache.httpcomponents:httpcore:jar:4.4.4:compile - omitted for duplicate)
+|  +- org.apache.httpcomponents:httpclient:jar:4.5.1:compile
+|  |  +- (org.apache.httpcomponents:httpcore:jar:4.4.3:compile - omitted for conflict with 4.4.4)
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for conflict with 1.1.1)
+|  |  \- (commons-codec:commons-codec:jar:1.9:compile - omitted for conflict with 1.10)
+|  \- (commons-logging:commons-logging:jar:1.2:compile - omitted for conflict with 1.1.1)
++- org.apache.commons:commons-lang3:jar:3.3:compile
+\- com.github.wnameless:json-flattener:jar:0.4.0:compile
+   +- com.eclipsesource.minimal-json:minimal-json:jar:0.9.4:compile
+   \- (org.apache.commons:commons-lang3:jar:3.5:compile - omitted for conflict with 3.3)

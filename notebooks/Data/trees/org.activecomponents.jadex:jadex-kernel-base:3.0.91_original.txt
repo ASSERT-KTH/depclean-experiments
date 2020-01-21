@@ -1,0 +1,13 @@
+org.activecomponents.jadex:jadex-kernel-base:jar:3.0.91
++- org.activecomponents.jadex:jadex-commons:jar:3.0.91:compile
++- org.activecomponents.jadex:jadex-javaparser:jar:3.0.91:compile
+|  \- (org.activecomponents.jadex:jadex-commons:jar:3.0.91:compile - omitted for duplicate)
++- org.activecomponents.jadex:jadex-bridge:jar:3.0.91:compile
+|  +- (org.activecomponents.jadex:jadex-commons:jar:3.0.91:compile - omitted for duplicate)
+|  +- (org.activecomponents.jadex:jadex-javaparser:jar:3.0.91:compile - omitted for duplicate)
+|  +- org.activecomponents.jadex:jadex-rules-eca:jar:3.0.91:compile
+|  |  +- (org.activecomponents.jadex:jadex-commons:jar:3.0.91:compile - omitted for duplicate)
+|  |  \- (org.activecomponents.jadex:jadex-javaparser:jar:3.0.91:compile - omitted for duplicate)
+|  \- (junit:junit:jar:4.11:compile - omitted for duplicate)
+\- junit:junit:jar:4.11:test (scope not updated to compile)
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

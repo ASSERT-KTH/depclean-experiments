@@ -1,0 +1,22 @@
+com.ecfront.dew:common:jar:1.4.7
++- com.fasterxml.jackson.core:jackson-databind:jar:2.9.2:compile
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+|  \- com.fasterxml.jackson.core:jackson-core:jar:2.9.2:compile
++- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.2:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.2:compile - omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.2:compile - omitted for duplicate)
++- commons-beanutils:commons-beanutils:jar:1.9.3:compile
+|  +- commons-logging:commons-logging:jar:1.2:compile
+|  \- commons-collections:commons-collections:jar:3.2.2:compile
++- org.mindrot:jbcrypt:jar:0.4:compile
++- org.apache.httpcomponents:httpclient:jar:4.5.3:compile
+|  +- org.apache.httpcomponents:httpcore:jar:4.4.6:compile
+|  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  \- commons-codec:commons-codec:jar:1.9:compile
++- org.apache.httpcomponents:httpmime:jar:4.5.3:compile
+|  \- (org.apache.httpcomponents:httpclient:jar:4.5.3:compile - omitted for duplicate)
++- org.jooq:joox:jar:1.4.0:compile
++- org.slf4j:slf4j-api:jar:1.7.25:compile
+\- junit:junit:jar:4.12:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

@@ -1,0 +1,66 @@
+com.github.pshirshov.izumi.legacy:commons-model_2.11:jar:1.4.9
++- org.scala-lang:scala-library:jar:2.11.12:compile
++- com.github.pshirshov.izumi.legacy:commons-test_2.11:jar:1.4.9:test
+|  +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|  +- (com.google.inject:guice:jar:4.1.0:test - omitted for duplicate)
+|  +- (com.typesafe.scala-logging:scala-logging_2.11:jar:3.5.0:test - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.24:compile - scope updated from test; omitted for duplicate)
+|  +- (org.scalactic:scalactic_2.11:jar:3.0.1:test - omitted for duplicate)
+|  +- (com.google.code.findbugs:jsr305:jar:3.0.1:test - omitted for duplicate)
+|  +- (org.slf4j:log4j-over-slf4j:jar:1.7.24:test - omitted for duplicate)
+|  +- (io.dropwizard.metrics:metrics-core:jar:3.1.2:test - omitted for duplicate)
+|  +- (org.apache.commons:commons-math3:jar:3.6.1:test - omitted for duplicate)
+|  +- (com.google.inject.extensions:guice-jmx:jar:4.1.0:test - omitted for duplicate)
+|  +- (org.apache.commons:commons-compress:jar:1.14:test - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:19.0:test - omitted for duplicate)
+|  +- (org.antlr:ST4:jar:4.0.8:test - omitted for duplicate)
+|  +- (org.apache.commons:commons-lang3:jar:3.5:test - omitted for duplicate)
+|  +- (net.codingwell:scala-guice_2.11:jar:4.1.0:test - omitted for duplicate)
+|  +- (ch.qos.logback:logback-classic:jar:1.2.1:test - omitted for duplicate)
+|  +- (com.jsuereth:scala-arm_2.11:jar:2.0:test - omitted for duplicate)
+|  +- (com.google.inject.extensions:guice-multibindings:jar:4.1.0:compile - scope updated from test; omitted for duplicate)
+|  +- (com.typesafe:config:jar:1.3.1:test - omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.5:test - omitted for duplicate)
+|  +- (org.scalamock:scalamock-scalatest-support_2.11:jar:3.5.0:test - omitted for duplicate)
+|  +- (com.google.inject.extensions:guice-assistedinject:jar:4.1.0:test - omitted for duplicate)
+|  +- (org.scalatest:scalatest_2.11:jar:3.0.1:test - omitted for duplicate)
+|  +- (commons-codec:commons-codec:jar:1.10:test - omitted for duplicate)
+|  \- (com.google.inject.extensions:guice-grapher:jar:4.1.0:test - omitted for duplicate)
++- com.typesafe.scala-logging:scala-logging_2.11:jar:3.5.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.12)
+|  +- org.scala-lang:scala-reflect:jar:2.11.8:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.12)
+|  \- (org.slf4j:slf4j-api:jar:1.7.24:compile - omitted for duplicate)
++- org.scalactic:scalactic_2.11:jar:3.0.1:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.12)
+|  \- (org.scala-lang:scala-reflect:jar:2.11.8:compile - omitted for duplicate)
++- org.slf4j:log4j-over-slf4j:jar:1.7.24:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.24:compile - omitted for duplicate)
++- org.apache.commons:commons-math3:jar:3.6.1:compile
++- org.apache.commons:commons-compress:jar:1.14:compile
++- org.antlr:ST4:jar:4.0.8:compile
+|  \- org.antlr:antlr-runtime:jar:3.5.2:compile
++- net.codingwell:scala-guice_2.11:jar:4.1.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.12)
+|  +- (com.google.inject:guice:jar:4.1.0:compile - omitted for duplicate)
+|  \- (com.google.inject.extensions:guice-multibindings:jar:4.1.0:compile - omitted for duplicate)
++- com.jsuereth:scala-arm_2.11:jar:2.0:compile
+|  \- (org.scala-lang:scala-library:jar:2.11.6:compile - omitted for conflict with 2.11.12)
++- com.typesafe:config:jar:1.3.1:compile
++- org.scalamock:scalamock-scalatest-support_2.11:jar:3.5.0:test
+|  +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.12)
+|  \- org.scalamock:scalamock-core_2.11:jar:3.5.0:test
+|     +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.12)
+|     \- (org.scala-lang:scala-reflect:jar:2.11.8:test - omitted for duplicate)
++- org.scalatest:scalatest_2.11:jar:3.0.1:test
+|  +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.12)
+|  +- (org.scalactic:scalactic_2.11:jar:3.0.1:test - omitted for duplicate)
+|  +- (org.scala-lang:scala-reflect:jar:2.11.8:test - omitted for duplicate)
+|  +- org.scala-lang.modules:scala-xml_2.11:jar:1.0.5:test
+|  |  \- (org.scala-lang:scala-library:jar:2.11.7:test - omitted for conflict with 2.11.12)
+|  \- org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.0.4:test
+|     \- (org.scala-lang:scala-library:jar:2.11.6:test - omitted for conflict with 2.11.12)
+\- com.google.inject.extensions:guice-grapher:jar:4.1.0:compile
+   +- (com.google.inject.extensions:guice-assistedinject:jar:4.1.0:compile - omitted for duplicate)
+   +- (com.google.inject.extensions:guice-multibindings:jar:4.1.0:compile - omitted for duplicate)
+   \- (com.google.inject:guice:jar:4.1.0:compile - omitted for duplicate)

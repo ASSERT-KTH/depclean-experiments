@@ -1,0 +1,2 @@
+org.webjars.npm:color-parse:jar:1.3.5
+\- org.webjars.npm:defined:jar:1.0.0:compile

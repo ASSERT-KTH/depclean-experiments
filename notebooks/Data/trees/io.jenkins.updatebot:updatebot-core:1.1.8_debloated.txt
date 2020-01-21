@@ -1,0 +1,28 @@
+io.jenkins.updatebot:updatebot-core:jar:1.1.8
++- com.beust:jcommander:jar:1.72:compile
++- io.fabric8:fabric8-utils:jar:2.3.7:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.12:compile - omitted for conflict with 1.7.25)
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.7.4:compile - omitted for conflict with 2.9.1)
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- org.kohsuke:github-api:jar:1.92:compile
+|  +- commons-lang:commons-lang:jar:2.6:compile
+|  +- commons-codec:commons-codec:jar:1.7:compile
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.2:compile - omitted for conflict with 2.9.1)
+|  \- commons-io:commons-io:jar:1.4:compile
++- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.9.1:compile
+|  +- org.yaml:snakeyaml:jar:1.18:compile
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.1:compile - omitted for conflict with 2.7.4)
++- com.fasterxml.jackson.core:jackson-core:jar:2.9.1:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.9.1:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile - omitted for conflict with 2.9.1)
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.1:compile - omitted for duplicate)
++- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.1:compile
++- org.slf4j:slf4j-simple:jar:1.7.25:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
++- org.fusesource.jansi:jansi:jar:1.16:compile
++- org.springframework:spring-core:jar:5.0.0.RELEASE:compile
+|  \- org.springframework:spring-jcl:jar:5.0.0.RELEASE:compile
++- de.pdark:decentxml:jar:1.4:compile
++- org.assertj:assertj-core:jar:2.4.1:test
+\- junit:junit:jar:4.12:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

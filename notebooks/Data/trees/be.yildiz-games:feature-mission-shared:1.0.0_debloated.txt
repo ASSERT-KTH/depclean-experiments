@@ -1,0 +1,18 @@
+be.yildiz-games:feature-mission-shared:jar:1.0.0
++- be.yildiz-games:common-mapping:jar:1.0.0:compile
++- be.yildiz-games:common-model:jar:1.0.0:compile
++- be.yildiz-games:common-logging:jar:1.0.0:compile
+|  +- ch.qos.logback:logback-classic:jar:1.2.3:compile
+|  |  \- ch.qos.logback:logback-core:jar:1.2.3:compile
+|  \- org.slf4j:slf4j-api:jar:1.7.25:compile
++- be.yildiz-games:common-util:jar:1.0.0:compile
+|  \- be.yildiz-games:common-exception:jar:1.0.0:compile
++- org.junit.jupiter:junit-jupiter-api:jar:5.0.2:test
+|  +- org.opentest4j:opentest4j:jar:1.0.0:test
+|  \- org.junit.platform:junit-platform-commons:jar:1.0.2:test
++- org.junit.platform:junit-platform-launcher:jar:1.0.2:test
+|  \- org.junit.platform:junit-platform-engine:jar:1.0.2:test
+\- org.mockito:mockito-core:jar:2.15.0:test
+   +- net.bytebuddy:byte-buddy:jar:1.7.9:test
+   +- net.bytebuddy:byte-buddy-agent:jar:1.7.9:test
+   \- org.objenesis:objenesis:jar:2.6:test

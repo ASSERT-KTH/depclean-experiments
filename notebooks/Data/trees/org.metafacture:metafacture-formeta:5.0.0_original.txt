@@ -1,0 +1,9 @@
+org.metafacture:metafacture-formeta:jar:5.0.0
++- org.metafacture:metafacture-framework:jar:5.0.0:compile
++- org.metafacture:metafacture-commons:jar:5.0.0:runtime
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
+\- org.mockito:mockito-core:jar:2.5.5:test
+   +- net.bytebuddy:byte-buddy:jar:1.6.0:test
+   +- net.bytebuddy:byte-buddy-agent:jar:1.6.0:test
+   \- org.objenesis:objenesis:jar:2.4:test

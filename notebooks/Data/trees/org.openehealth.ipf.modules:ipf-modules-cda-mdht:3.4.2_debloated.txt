@@ -1,0 +1,54 @@
+org.openehealth.ipf.modules:ipf-modules-cda-mdht:jar:3.4.2
++- org.openehealth.ipf.commons:ipf-commons-core:jar:3.4.2:compile
+|  +- commons-io:commons-io:jar:2.5:compile
+|  +- org.codehaus.groovy:groovy:jar:2.4.12:compile
+|  +- (org.slf4j:jcl-over-slf4j:jar:1.7.25:runtime - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
++- org.openehealth.ipf.oht.mdht:ipf-oht-mdht-uml-cda:jar:1.2.0.201212201425:compile
+|  +- org.openehealth.ipf.oht.mdht:ipf-oht-mdht-uml-hl7-datatypes:jar:1.2.0.201212201425:compile
+|  |  +- (org.openehealth.ipf.oht.mdht:ipf-oht-mdht-uml-hl7-vocab:jar:1.2.0.201212201425:compile - omitted for duplicate)
+|  |  +- (org.openehealth.ipf.eclipse.ocl:ipf-eclipse-ocl:jar:3.1.0.v20110913-1213:compile - omitted for duplicate)
+|  |  +- (org.eclipse.birt.runtime:org.eclipse.emf.common:jar:2.8.0.v20120606-0717:compile - omitted for duplicate)
+|  |  +- (org.eclipse.birt.runtime:org.eclipse.emf.ecore:jar:2.8.0.v20120606-0717:compile - omitted for duplicate)
+|  |  \- (org.eclipse.birt.runtime:org.eclipse.emf.ecore.xmi:jar:2.8.0.v20120606-0717:compile - omitted for duplicate)
+|  +- org.openehealth.ipf.oht.mdht:ipf-oht-mdht-uml-hl7-rim:jar:1.2.0.201212201425:compile
+|  +- org.openehealth.ipf.oht.mdht:ipf-oht-mdht-uml-hl7-vocab:jar:1.2.0.201212201425:compile
+|  +- org.openehealth.ipf.oht.mdht:ipf-oht-mdht-emf-runtime:jar:1.2.0.201212201425:compile
+|  |  +- (org.openehealth.ipf.eclipse.ocl:ipf-eclipse-ocl:jar:3.1.0.v20110913-1213:compile - omitted for duplicate)
+|  |  +- (org.eclipse.birt.runtime:org.eclipse.emf.common:jar:2.8.0.v20120606-0717:compile - omitted for duplicate)
+|  |  +- (org.eclipse.birt.runtime:org.eclipse.emf.ecore:jar:2.8.0.v20120606-0717:compile - omitted for duplicate)
+|  |  \- (org.eclipse.birt.runtime:org.eclipse.emf.ecore.xmi:jar:2.8.0.v20120606-0717:compile - omitted for duplicate)
+|  +- org.eclipse.birt.runtime:org.eclipse.emf.common:jar:2.8.0.v20120606-0717:compile
+|  +- org.eclipse.birt.runtime:org.eclipse.emf.ecore:jar:2.8.0.v20120606-0717:compile
+|  +- org.eclipse.birt.runtime:org.eclipse.emf.ecore.xmi:jar:2.8.0.v20120606-0717:compile
+|  +- org.openehealth.ipf.eclipse.ocl:ipf-eclipse-ocl:jar:3.1.0.v20110913-1213:compile
+|  +- org.openehealth.ipf.eclipse.ocl:ipf-eclipse-ocl-ecore:jar:3.1.1.v20110823-1646:compile
+|  |  +- (org.openehealth.ipf.eclipse.ocl:ipf-eclipse-ocl:jar:3.1.0.v20110913-1213:compile - omitted for duplicate)
+|  |  +- (org.eclipse.birt.runtime:org.eclipse.emf.common:jar:2.8.0.v20120606-0717:compile - omitted for duplicate)
+|  |  +- (org.eclipse.birt.runtime:org.eclipse.emf.ecore:jar:2.8.0.v20120606-0717:compile - omitted for duplicate)
+|  |  \- (org.eclipse.birt.runtime:org.eclipse.emf.ecore.xmi:jar:2.8.0.v20120606-0717:compile - omitted for duplicate)
+|  \- lpg.runtime:java:jar:2.0.17-v201004271640:compile
++- org.openehealth.ipf.oht.mdht:ipf-oht-mdht-uml-cda-ccd:jar:1.2.0.201212201425:compile
+|  \- (org.openehealth.ipf.oht.mdht:ipf-oht-mdht-uml-cda:jar:1.2.0.201212201425:compile - omitted for duplicate)
++- org.openehealth.ipf.oht.mdht:ipf-oht-mdht-uml-cda-hitsp:jar:1.2.0.201212201425:compile
+|  +- (org.openehealth.ipf.oht.mdht:ipf-oht-mdht-emf-runtime:jar:1.2.0.201212201425:compile - omitted for duplicate)
+|  \- (org.openehealth.ipf.oht.mdht:ipf-oht-mdht-uml-cda-ihe:jar:1.2.0.201212201425:compile - omitted for duplicate)
++- org.openehealth.ipf.oht.mdht:ipf-oht-mdht-uml-cda-consol:jar:1.2.0.201212201425:compile
+|  \- (org.openehealth.ipf.oht.mdht:ipf-oht-mdht-uml-cda:jar:1.2.0.201212201425:compile - omitted for duplicate)
++- org.openehealth.ipf.oht.mdht:ipf-oht-mdht-uml-cda-ihe:jar:1.2.0.201212201425:compile
+|  \- (org.openehealth.ipf.oht.mdht:ipf-oht-mdht-uml-cda-cdt:jar:1.2.0.201212201425:compile - omitted for duplicate)
++- org.openehealth.ipf.oht.mdht:ipf-oht-mdht-uml-cda-cdt:jar:1.2.0.201212201425:compile
+|  \- (org.openehealth.ipf.oht.mdht:ipf-oht-mdht-uml-cda-ccd:jar:1.2.0.201212201425:compile - omitted for duplicate)
++- org.apache.logging.log4j:log4j-api:jar:2.9.0:test
++- org.apache.logging.log4j:log4j-core:jar:2.9.0:test
+|  \- (org.apache.logging.log4j:log4j-api:jar:2.9.0:test - omitted for duplicate)
++- org.apache.logging.log4j:log4j-slf4j-impl:jar:2.9.0:test
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)
+|  +- (org.apache.logging.log4j:log4j-api:jar:2.9.0:test - omitted for duplicate)
+|  \- (org.apache.logging.log4j:log4j-core:jar:2.9.0:test - omitted for duplicate)
++- org.slf4j:jcl-over-slf4j:jar:1.7.25:runtime
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:runtime - omitted for duplicate)
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
+\- org.projectlombok:lombok:jar:1.16.18:provided

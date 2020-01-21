@@ -1,0 +1,5 @@
+org.unlaxer:ebnf:jar:1.1.12
++- org.unlaxer:unlaxer-common:jar:1.1.12:compile
++- net.arnx:jsonic:jar:1.3.10:test
+\- junit:junit:jar:4.12:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

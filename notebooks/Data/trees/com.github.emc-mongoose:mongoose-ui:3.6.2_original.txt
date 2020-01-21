@@ -1,0 +1,30 @@
+com.github.emc-mongoose:mongoose-ui:jar:3.6.2
++- com.github.akurilov:java-commons:jar:1.4.1:compile
+|  \- org.apache.commons:commons-collections4:jar:4.1:compile
++- com.github.emc-mongoose:mongoose-api-model:jar:3.6.2:compile
+|  +- (com.github.akurilov:java-commons:jar:1.4.1:compile - omitted for duplicate)
+|  +- com.github.akurilov:java-coroutines:jar:1.1.3:compile
+|  |  \- (com.github.akurilov:java-commons:jar:1.4.1:compile - omitted for duplicate)
+|  +- com.github.emc-mongoose:mongoose-api-common:jar:3.6.2:compile
+|  |  +- (com.github.akurilov:java-commons:jar:1.4.1:compile - omitted for duplicate)
+|  |  +- (com.github.akurilov:java-coroutines:jar:1.1.3:compile - omitted for duplicate)
+|  |  \- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+|  +- commons-codec:commons-codec:jar:1.10:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.24:compile - omitted for duplicate)
+|  \- (org.apache.logging.log4j:log4j-api:jar:2.8.2:compile - omitted for duplicate)
++- commons-lang:commons-lang:jar:2.6:compile
++- org.apache.logging.log4j:log4j-api:jar:2.8.2:compile
++- org.apache.logging.log4j:log4j-core:jar:2.8.2:compile
+|  \- (org.apache.logging.log4j:log4j-api:jar:2.8.2:compile - omitted for duplicate)
++- org.apache.logging.log4j:log4j-iostreams:jar:2.8.2:compile
+|  \- (org.apache.logging.log4j:log4j-api:jar:2.8.2:compile - omitted for duplicate)
++- org.apache.logging.log4j:log4j-jul:jar:2.8.2:compile
+|  \- (org.apache.logging.log4j:log4j-api:jar:2.8.2:compile - omitted for duplicate)
++- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.1:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.9.1:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile - omitted for conflict with 2.9.1)
+|  \- com.fasterxml.jackson.core:jackson-core:jar:2.9.1:compile
++- org.slf4j:slf4j-api:jar:1.7.24:runtime (scope not updated to compile)
+\- org.apache.logging.log4j:log4j-slf4j-impl:jar:2.8.2:runtime
+   +- (org.slf4j:slf4j-api:jar:1.7.24:runtime - omitted for duplicate)
+   \- (org.apache.logging.log4j:log4j-api:jar:2.8.2:runtime - omitted for duplicate)

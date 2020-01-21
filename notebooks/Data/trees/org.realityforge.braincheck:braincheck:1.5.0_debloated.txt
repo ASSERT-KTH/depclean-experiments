@@ -1,0 +1,68 @@
+org.realityforge.braincheck:braincheck:jar:1.5.0
++- com.google.code.findbugs:jsr305:jar:3.0.1:provided (scope not updated to compile)
++- org.realityforge.anodoc:anodoc:jar:1.0.0:provided
++- org.w3c.css:sac:jar:1.3:compile
++- com.google.gwt:gwt-user:jar:2.8.2:compile
+|  +- (com.google.jsinterop:jsinterop-annotations:jar:1.0.2:compile - omitted for conflict with 1.0.1)
+|  +- com.google.jsinterop:jsinterop-annotations:jar:sources:1.0.2:compile
+|  +- (javax.validation:validation-api:jar:1.0.0.GA:compile - omitted for duplicate)
+|  +- javax.validation:validation-api:jar:sources:1.0.0.GA:compile
+|  +- (javax.servlet:javax.servlet-api:jar:3.1.0:compile - omitted for duplicate)
+|  \- (org.w3c.css:sac:jar:1.3:compile - omitted for duplicate)
++- org.ow2.asm:asm:jar:5.0.3:compile
++- org.ow2.asm:asm-tree:jar:5.0.3:compile
+|  \- (org.ow2.asm:asm:jar:5.0.3:compile - omitted for duplicate)
++- colt:colt:jar:1.2.0:compile
++- commons-collections:commons-collections:jar:3.2.2:compile
++- com.ibm.icu:icu4j:jar:50.1.1:compile
++- tapestry:tapestry:jar:4.0.2:compile
+|  +- jboss:javassist:jar:3.0:runtime
+|  +- commons-codec:commons-codec:jar:1.3:compile
+|  +- commons-fileupload:commons-fileupload:jar:1.1:compile
+|  |  \- (commons-io:commons-io:jar:1.1:compile - omitted for conflict with 2.4)
+|  +- commons-logging:commons-logging:jar:1.0.4:compile
+|  +- ognl:ognl:jar:2.6.7:compile
+|  +- oro:oro:jar:2.0.8:compile
+|  +- hivemind:hivemind:jar:1.1.1:compile
+|  \- hivemind:hivemind-lib:jar:1.1.1:compile
++- javax.servlet:javax.servlet-api:jar:3.1.0:compile
++- org.eclipse.jetty:jetty-continuation:jar:9.2.14.v20151106:compile
++- org.eclipse.jetty:jetty-io:jar:9.2.14.v20151106:compile
+|  \- (org.eclipse.jetty:jetty-util:jar:9.2.14.v20151106:compile - omitted for duplicate)
++- org.eclipse.jetty:jetty-plus:jar:9.2.14.v20151106:compile
+|  +- (org.eclipse.jetty:jetty-webapp:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  \- (org.eclipse.jetty:jetty-jndi:jar:9.2.14.v20151106:compile - omitted for duplicate)
++- org.eclipse.jetty:jetty-server:jar:9.2.14.v20151106:compile
+|  +- (javax.servlet:javax.servlet-api:jar:3.1.0:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-http:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  \- (org.eclipse.jetty:jetty-io:jar:9.2.14.v20151106:compile - omitted for duplicate)
++- org.eclipse.jetty:jetty-servlets:jar:9.2.14.v20151106:compile
+|  +- (org.eclipse.jetty:jetty-continuation:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-http:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-util:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  \- (org.eclipse.jetty:jetty-io:jar:9.2.14.v20151106:compile - omitted for duplicate)
++- org.eclipse.jetty:jetty-webapp:jar:9.2.14.v20151106:compile
+|  +- (org.eclipse.jetty:jetty-xml:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  \- (org.eclipse.jetty:jetty-servlet:jar:9.2.14.v20151106:compile - omitted for duplicate)
++- org.eclipse.jetty.toolchain:jetty-schemas:jar:3.1.M0:compile
++- org.testng:testng:jar:6.11:test
+|  +- (com.beust:jcommander:jar:1.64:test - omitted for conflict with 1.27)
+|  \- org.yaml:snakeyaml:jar:1.17:test
++- com.beust:jcommander:jar:1.27:test
++- org.jmock:jmock:jar:2.5.1:test
+|  +- (org.hamcrest:hamcrest-core:jar:1.1:test - omitted for duplicate)
+|  \- (org.hamcrest:hamcrest-library:jar:1.1:test - omitted for duplicate)
++- org.jmock:jmock-junit4:jar:2.5.1:test
+|  +- (org.jmock:jmock:jar:2.5.1:test - omitted for duplicate)
+|  \- junit:junit-dep:jar:4.4:test
++- org.hamcrest:hamcrest-core:jar:1.1:test
++- org.hamcrest:hamcrest-library:jar:1.1:test
+|  \- (org.hamcrest:hamcrest-core:jar:1.1:test - omitted for duplicate)
+\- org.realityforge.guiceyloops:guiceyloops:jar:0.92:test
+   +- org.mockito:mockito-all:jar:1.9.5:test
+   +- com.google.inject:guice:jar:3.0:test
+   |  +- javax.inject:javax.inject:jar:1:test
+   |  \- (aopalliance:aopalliance:jar:1.0:test - omitted for duplicate)
+   +- aopalliance:aopalliance:jar:1.0:test
+   \- com.google.inject.extensions:guice-assistedinject:jar:3.0:test
+      \- (com.google.inject:guice:jar:3.0:test - omitted for duplicate)

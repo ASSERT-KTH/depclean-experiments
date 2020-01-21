@@ -1,0 +1,204 @@
+org.wildfly.nosql:wildfly-nosql-common:jar:1.0.0.Beta1
++- org.jboss.logging:jboss-logging-annotations:jar:2.0.1.Final:provided
++- org.jboss.logging:jboss-logging-processor:jar:2.0.1.Final:provided
+|  +- (org.jboss.logging:jboss-logging-annotations:jar:2.0.1.Final:provided - omitted for duplicate)
+|  \- (org.jboss.jdeparser:jdeparser:jar:2.0.0.Final:provided - omitted for duplicate)
++- org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided (scope not updated to compile)
++- org.wildfly:wildfly-ee:jar:11.0.0.Final:compile
+|  +- org.glassfish:javax.enterprise.concurrent:jar:1.0:compile
+|  +- org.jboss.metadata:jboss-metadata-common:jar:10.0.0.Final:compile (version managed from 10.0.2.Final)
+|  |  \- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile - version managed from 3.1.3.GA; omitted for duplicate)
+|  +- org.jboss.metadata:jboss-metadata-ear:jar:10.0.2.Final:compile
+|  |  +- (org.jboss.metadata:jboss-metadata-common:jar:10.0.0.Final:compile - version managed from 10.0.2.Final; omitted for duplicate)
+|  |  \- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile - version managed from 3.1.3.GA; omitted for duplicate)
+|  +- (org.jboss.msc:jboss-msc:jar:1.2.7.Final:compile - version managed from 1.2.7.SP1; omitted for duplicate)
+|  +- org.jboss.spec.javax.enterprise.concurrent:jboss-concurrency-api_1.0_spec:jar:1.0.0.Final:compile
+|  +- org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.0.0.Final:compile (version managed from 1.0.1.Final)
+|  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile - version managed from 3.3.1.Final; omitted for duplicate)
+|  +- org.jboss.spec.javax.annotation:jboss-annotations-api_1.2_spec:jar:1.0.0.Final:compile
+|  +- org.wildfly.common:wildfly-common:jar:1.2.0.Beta1:compile (version managed from 1.2.0.Final)
+|  |  \- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile - version managed from 3.1.4.GA; omitted for duplicate)
+|  +- (org.wildfly.core:wildfly-server:jar:3.0.0.Alpha14:compile - version managed from 3.0.8.Final; omitted for duplicate)
+|  +- org.wildfly.core:wildfly-request-controller:jar:3.0.0.Alpha14:compile (version managed from 3.0.8.Final)
+|  |  +- (org.wildfly.core:wildfly-controller:jar:3.0.0.Alpha14:compile - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-server:jar:3.0.0.Alpha14:compile - version managed from 3.0.8.Final; omitted for duplicate)
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile - version managed from 3.2.1.Final; omitted for duplicate)
+|  |  +- (org.jboss.logmanager:jboss-logmanager:jar:2.0.4.Final:compile - omitted for duplicate)
+|  |  +- (org.jboss.modules:jboss-modules:jar:1.6.0.Beta3:compile - omitted for duplicate)
+|  |  \- (org.jboss.msc:jboss-msc:jar:1.2.7.Final:compile - version managed from 1.2.7.SP1; omitted for duplicate)
+|  +- org.jboss.invocation:jboss-invocation:jar:1.5.0.Beta1:compile
+|  +- org.wildfly:wildfly-naming:jar:11.0.0.Final:compile
+|  |  +- (org.wildfly.security:wildfly-elytron:jar:1.1.0.Beta16:compile - version managed from 1.1.6.Final; omitted for duplicate)
+|  |  +- (org.jboss.msc:jboss-msc:jar:1.2.7.Final:compile - version managed from 1.2.7.SP1; omitted for duplicate)
+|  |  +- org.wildfly:wildfly-naming-client:jar:1.0.7.Final:compile
+|  |  |  +- (org.wildfly.common:wildfly-common:jar:1.2.0.Beta1:compile - version managed from 1.2.0.Final; omitted for duplicate)
+|  |  |  +- (org.wildfly.client:wildfly-client-config:jar:1.0.0.Beta1:compile - version managed from 1.0.0.Final; omitted for duplicate)
+|  |  |  +- (org.wildfly.security:wildfly-elytron:jar:1.1.0.Beta16:compile - version managed from 1.1.0.Final; omitted for duplicate)
+|  |  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile - version managed from 3.3.1.Final; omitted for duplicate)
+|  |  |  +- (org.jboss.marshalling:jboss-marshalling:jar:1.4.11.Final:compile - version managed from 2.0.0.Final; omitted for duplicate)
+|  |  |  +- org.jboss.marshalling:jboss-marshalling-river:jar:1.4.11.Final:compile (version managed from 2.0.0.Final)
+|  |  |  |  \- (org.jboss.marshalling:jboss-marshalling:jar:1.4.11.Final:compile - version managed from 2.0.0.Final; omitted for duplicate)
+|  |  |  +- (org.jboss.remoting:jboss-remoting:jar:5.0.0.Beta9:compile - version managed from 5.0.0.Final; omitted for duplicate)
+|  |  |  +- (org.jboss.xnio:xnio-api:jar:3.4.1.Final:compile - version managed from 3.5.1.Final; omitted for duplicate)
+|  |  |  +- org.jboss.xnio:xnio-nio:jar:3.4.1.Final:compile
+|  |  |  |  \- (org.jboss.xnio:xnio-api:jar:3.4.1.Final:compile - version managed from 3.5.1.Final; omitted for duplicate)
+|  |  |  \- (org.jboss.threads:jboss-threads:jar:2.2.1.Final:compile - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-server:jar:3.0.0.Alpha14:compile - version managed from 3.0.8.Final; omitted for duplicate)
+|  |  \- org.wildfly.wildfly-http-client:wildfly-http-naming-client:jar:1.0.8.Final:compile
+|  |     +- (io.undertow:undertow-core:jar:1.4.6.Final:compile - version managed from 1.4.20.Final; omitted for duplicate)
+|  |     +- org.wildfly.wildfly-http-client:wildfly-http-client-common:jar:1.0.8.Final:compile
+|  |     |  +- (io.undertow:undertow-core:jar:1.4.6.Final:compile - version managed from 1.4.20.Final; omitted for duplicate)
+|  |     |  +- (org.jboss.marshalling:jboss-marshalling-river:jar:1.4.11.Final:compile - version managed from 2.0.0.Final; omitted for duplicate)
+|  |     |  +- (org.wildfly.common:wildfly-common:jar:1.2.0.Beta1:compile - version managed from 1.2.0.Final; omitted for duplicate)
+|  |     |  +- (org.wildfly.client:wildfly-client-config:jar:1.0.0.Beta1:compile - version managed from 1.0.0.Final; omitted for duplicate)
+|  |     |  \- (org.wildfly.security:wildfly-elytron:jar:1.1.0.Beta16:compile - version managed from 1.1.3.Final; omitted for duplicate)
+|  |     +- (org.wildfly:wildfly-naming-client:jar:1.0.6.Final:compile - omitted for conflict with 1.0.7.Final)
+|  |     +- org.jboss.spec.javax.ejb:jboss-ejb-api_3.2_spec:jar:1.0.0.Final:compile
+|  |     +- (org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.0.0.Final:compile - version managed from 1.0.1.Final; omitted for duplicate)
+|  |     \- (org.jboss.marshalling:jboss-marshalling-river:jar:1.4.11.Final:compile - version managed from 2.0.0.Final; omitted for duplicate)
+|  +- org.wildfly.security:wildfly-elytron:jar:1.1.0.Beta16:compile
+|  |  \- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile - version managed from 3.2.1.Final; omitted for duplicate)
+|  +- org.jboss.spec.javax.interceptor:jboss-interceptors-api_1.2_spec:jar:1.0.0.Final:compile
+|  \- org.jboss.spec.javax.el:jboss-el-api_3.0_spec:jar:1.0.9.Final:compile
++- org.wildfly.core:wildfly-server:jar:3.0.0.Alpha14:compile
+|  +- (org.wildfly.core:wildfly-controller:jar:3.0.0.Alpha14:compile - omitted for duplicate)
+|  +- org.wildfly.core:wildfly-core-management-client:jar:3.0.0.Alpha14:compile
+|  |  \- (org.wildfly.core:wildfly-controller:jar:3.0.0.Alpha14:compile - omitted for duplicate)
+|  +- org.wildfly.core:wildfly-domain-http-interface:jar:3.0.0.Alpha14:compile
+|  |  +- (io.undertow:undertow-core:jar:1.4.6.Final:compile - version managed from 1.4.20.Final; omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-controller:jar:3.0.0.Alpha14:compile - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-controller-client:jar:3.0.0.Alpha14:compile - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-core-security:jar:3.0.0.Alpha14:compile - omitted for duplicate)
+|  |  +- org.wildfly.core:wildfly-domain-management:jar:3.0.0.Alpha14:compile
+|  |  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile - version managed from 3.2.1.Final; omitted for duplicate)
+|  |  |  +- (org.jboss.msc:jboss-msc:jar:1.2.7.Final:compile - version managed from 1.2.7.SP1; omitted for duplicate)
+|  |  |  +- org.picketbox:picketbox:jar:5.0.0.Alpha3:compile
+|  |  |  +- (org.wildfly.core:wildfly-controller:jar:3.0.0.Alpha14:compile - omitted for duplicate)
+|  |  |  +- (org.wildfly.core:wildfly-core-security:jar:3.0.0.Alpha14:compile - omitted for duplicate)
+|  |  |  +- org.wildfly.openssl:wildfly-openssl-java:jar:1.0.0.Alpha4:compile
+|  |  |  |  \- org.wildfly.openssl:wildfly-openssl-linux:jar:1.0.0.Alpha4:compile
+|  |  |  \- (org.jboss:jboss-dmr:jar:1.4.0.Beta1:compile - omitted for duplicate)
+|  |  +- (org.wildfly.common:wildfly-common:jar:1.2.0.Beta1:compile - version managed from 1.1.0.Final; omitted for duplicate)
+|  |  +- (org.wildfly.security:wildfly-elytron:jar:1.1.0.Beta16:compile - version managed from 1.1.0.Beta15; omitted for duplicate)
+|  |  \- org.wildfly.security.elytron-web:undertow-server:jar:1.0.0.Beta5:compile
+|  +- org.wildfly.core:wildfly-deployment-repository:jar:3.0.0.Alpha14:compile
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile - version managed from 3.2.1.Final; omitted for duplicate)
+|  |  +- (org.jboss.modules:jboss-modules:jar:1.6.0.Beta3:compile - omitted for duplicate)
+|  |  +- (org.jboss.msc:jboss-msc:jar:1.2.7.Final:compile - version managed from 1.2.7.SP1; omitted for duplicate)
+|  |  +- (org.jboss.threads:jboss-threads:jar:2.2.1.Final:compile - omitted for duplicate)
+|  |  +- (org.jboss:jboss-vfs:jar:3.2.12.Final:compile - omitted for duplicate)
+|  |  \- org.wildfly.core:wildfly-protocol:jar:3.0.0.Alpha14:compile
+|  |     +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile - version managed from 3.2.1.Final; omitted for duplicate)
+|  |     +- (org.jboss.modules:jboss-modules:jar:1.6.0.Beta3:compile - omitted for duplicate)
+|  |     +- (org.jboss.remoting:jboss-remoting:jar:5.0.0.Beta9:compile - version managed from 5.0.0.Final; omitted for duplicate)
+|  |     +- (org.wildfly.security:wildfly-elytron:jar:1.1.0.Beta16:compile - version managed from 1.1.0.Beta15; omitted for duplicate)
+|  |     +- (org.jboss.threads:jboss-threads:jar:2.2.1.Final:compile - omitted for duplicate)
+|  |     +- (org.jboss.xnio:xnio-api:jar:3.4.1.Final:compile - version managed from 3.4.0.Beta3; omitted for duplicate)
+|  |     \- (org.jboss.xnio:xnio-nio:jar:3.4.1.Final:compile - version managed from 3.3.6.Final; omitted for duplicate)
+|  +- org.wildfly.core:wildfly-platform-mbean:jar:3.0.0.Alpha14:compile
+|  |  +- (org.jboss.msc:jboss-msc:jar:1.2.7.Final:compile - version managed from 1.2.7.SP1; omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-controller:jar:3.0.0.Alpha14:compile - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-controller-client:jar:3.0.0.Alpha14:compile - omitted for duplicate)
+|  |  +- (org.wildfly.security:wildfly-elytron:jar:1.1.0.Beta16:compile - version managed from 1.1.0.Beta15; omitted for duplicate)
+|  |  \- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile - version managed from 3.1.4.GA; omitted for duplicate)
+|  +- org.wildfly.core:wildfly-process-controller:jar:3.0.0.Alpha14:compile
+|  |  +- (org.wildfly.security:wildfly-elytron:jar:1.1.0.Beta16:compile - version managed from 1.1.0.Beta15; omitted for duplicate)
+|  |  +- (org.wildfly.common:wildfly-common:jar:1.2.0.Beta1:compile - version managed from 1.1.0.Final; omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-version:jar:3.0.0.Alpha14:compile - omitted for duplicate)
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile - version managed from 3.1.4.GA; omitted for duplicate)
+|  |  +- (org.jboss.logmanager:jboss-logmanager:jar:2.0.4.Final:compile - omitted for duplicate)
+|  |  +- (org.jboss.marshalling:jboss-marshalling:jar:1.4.11.Final:compile - version managed from 2.0.0.Final; omitted for duplicate)
+|  |  \- (org.jboss.threads:jboss-threads:jar:2.2.1.Final:compile - omitted for duplicate)
+|  +- org.wildfly.core:wildfly-remoting:jar:3.0.0.Alpha14:compile
+|  |  +- (org.wildfly.core:wildfly-domain-management:jar:3.0.0.Alpha14:compile - omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-core-security:jar:3.0.0.Alpha14:compile - omitted for duplicate)
+|  |  +- org.wildfly.core:wildfly-io:jar:3.0.0.Alpha14:compile
+|  |  |  +- (org.wildfly.core:wildfly-controller:jar:3.0.0.Alpha14:compile - omitted for duplicate)
+|  |  |  \- (org.wildfly.common:wildfly-common:jar:1.2.0.Beta1:compile - version managed from 1.1.0.Final; omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-network:jar:3.0.0.Alpha14:compile - omitted for duplicate)
+|  |  +- (org.wildfly.security:wildfly-elytron:jar:1.1.0.Beta16:compile - version managed from 1.1.0.Beta15; omitted for duplicate)
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile - version managed from 3.1.4.GA; omitted for duplicate)
+|  |  +- (org.jboss.marshalling:jboss-marshalling:jar:1.4.11.Final:compile - version managed from 2.0.0.Final; omitted for duplicate)
+|  |  +- (org.jboss.msc:jboss-msc:jar:1.2.7.Final:compile - version managed from 1.2.7.SP1; omitted for duplicate)
+|  |  +- (org.jboss.remoting:jboss-remoting:jar:5.0.0.Beta9:compile - version managed from 5.0.0.Final; omitted for duplicate)
+|  |  \- org.jboss.xnio:xnio-api:jar:3.4.1.Final:compile
+|  |     \- (org.wildfly.common:wildfly-common:jar:1.2.0.Beta1:compile - version managed from 1.1.0.Final; omitted for duplicate)
+|  +- org.wildfly.core:wildfly-network:jar:3.0.0.Alpha14:compile
+|  |  +- (org.wildfly.security:wildfly-elytron:jar:1.1.0.Beta16:compile - version managed from 1.1.0.Beta15; omitted for duplicate)
+|  |  +- (org.wildfly.common:wildfly-common:jar:1.2.0.Beta1:compile - version managed from 1.1.0.Final; omitted for duplicate)
+|  |  \- (org.jboss.msc:jboss-msc:jar:1.2.7.Final:compile - version managed from 1.2.7.SP1; omitted for duplicate)
+|  +- org.wildfly.core:wildfly-self-contained:jar:3.0.0.Alpha14:compile
+|  |  +- (org.jboss.msc:jboss-msc:jar:1.2.7.Final:compile - version managed from 1.2.7.SP1; omitted for duplicate)
+|  |  +- (org.wildfly.core:wildfly-deployment-repository:jar:3.0.0.Alpha14:compile - omitted for duplicate)
+|  |  \- (org.wildfly.core:wildfly-controller:jar:3.0.0.Alpha14:compile - omitted for duplicate)
+|  +- (org.wildfly.security:wildfly-elytron:jar:1.1.0.Beta16:compile - version managed from 1.1.0.Beta15; omitted for duplicate)
+|  +- org.wildfly.core:wildfly-version:jar:3.0.0.Alpha14:compile
+|  |  \- (org.jboss.modules:jboss-modules:jar:1.6.0.Beta3:compile - omitted for duplicate)
+|  +- (org.jboss:jandex:jar:2.0.3.Final:compile - omitted for duplicate)
+|  +- org.jboss:jboss-dmr:jar:1.4.0.Beta1:compile
+|  +- (org.jboss.invocation:jboss-invocation:jar:1.5.0.Beta1:compile - version managed from 1.5.0.Final; omitted for duplicate)
+|  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile - version managed from 3.1.4.GA; omitted for duplicate)
+|  +- org.jboss.logmanager:jboss-logmanager:jar:2.0.4.Final:compile
+|  +- org.jboss.marshalling:jboss-marshalling:jar:1.4.11.Final:compile
+|  +- (org.jboss.modules:jboss-modules:jar:1.6.0.Beta3:compile - omitted for duplicate)
+|  +- (org.jboss.msc:jboss-msc:jar:1.2.7.Final:compile - version managed from 1.2.7.SP1; omitted for duplicate)
+|  +- org.jboss.remoting:jboss-remoting:jar:5.0.0.Beta9:compile
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile - version managed from 3.2.1.Final; omitted for duplicate)
+|  |  +- (org.jboss.xnio:xnio-api:jar:3.4.1.Final:compile - version managed from 3.4.0.Beta3; omitted for duplicate)
+|  |  +- (org.wildfly.common:wildfly-common:jar:1.2.0.Beta1:compile - version managed from 1.1.0.Final; omitted for duplicate)
+|  |  +- org.wildfly.client:wildfly-client-config:jar:1.0.0.Beta1:compile (version managed from 1.0.0.Alpha3)
+|  |  |  \- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile - version managed from 3.1.4.GA; omitted for duplicate)
+|  |  \- (org.wildfly.security:wildfly-elytron:jar:1.1.0.Beta16:compile - version managed from 1.1.0.Beta15; omitted for duplicate)
+|  +- org.jboss.stdio:jboss-stdio:jar:1.0.2.GA:compile
+|  +- org.jboss.threads:jboss-threads:jar:2.2.1.Final:compile
+|  +- org.jboss:jboss-vfs:jar:3.2.12.Final:compile
+|  +- io.undertow:undertow-core:jar:1.4.6.Final:compile
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile - version managed from 3.2.1.Final; omitted for duplicate)
+|  |  +- (org.jboss.xnio:xnio-api:jar:3.4.1.Final:compile - version managed from 3.3.6.Final; omitted for duplicate)
+|  |  \- (org.jboss.xnio:xnio-nio:jar:3.4.1.Final:compile - version managed from 3.3.6.Final; scope updated from runtime; omitted for duplicate)
+|  \- (org.wildfly.common:wildfly-common:jar:1.2.0.Beta1:compile - version managed from 1.1.0.Final; omitted for duplicate)
++- org.jboss.msc:jboss-msc:jar:1.2.7.Final:compile
++- org.jboss.modules:jboss-modules:jar:1.6.0.Beta3:compile
++- org.wildfly.core:wildfly-controller:jar:3.0.0.Alpha14:compile
+|  +- (org.jboss:jboss-dmr:jar:1.4.0.Beta1:compile - omitted for duplicate)
+|  +- org.wildfly.core:wildfly-controller-client:jar:3.0.0.Alpha14:compile
+|  |  +- (org.wildfly.core:wildfly-protocol:jar:3.0.0.Alpha14:compile - omitted for duplicate)
+|  |  +- (org.jboss:jboss-dmr:jar:1.4.0.Beta1:compile - omitted for duplicate)
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile - version managed from 3.2.1.Final; omitted for duplicate)
+|  |  \- (org.jboss.threads:jboss-threads:jar:2.2.1.Final:compile - omitted for duplicate)
+|  +- (org.wildfly.security:wildfly-elytron:jar:1.1.0.Beta16:compile - version managed from 1.1.0.Beta15; omitted for duplicate)
+|  +- org.wildfly.core:wildfly-core-security:jar:3.0.0.Alpha14:compile
+|  |  +- org.wildfly.core:wildfly-core-security-api:jar:3.0.0.Alpha14:compile
+|  |  \- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile - version managed from 3.2.1.Final; omitted for duplicate)
+|  +- (org.wildfly.core:wildfly-version:jar:3.0.0.Alpha14:compile - omitted for duplicate)
+|  +- (org.jboss.modules:jboss-modules:jar:1.6.0.Beta3:compile - omitted for duplicate)
+|  +- (org.jboss.msc:jboss-msc:jar:1.2.7.Final:compile - version managed from 1.2.7.SP1; omitted for duplicate)
+|  +- (org.jboss.logmanager:jboss-logmanager:jar:2.0.4.Final:compile - omitted for duplicate)
+|  +- org.jboss:staxmapper:jar:1.3.0.Final:compile
+|  +- (org.wildfly.common:wildfly-common:jar:1.2.0.Beta1:compile - version managed from 1.1.0.Final; omitted for duplicate)
+|  \- org.projectodd.vdx:vdx-wildfly:jar:1.1.1:compile
+|     \- org.projectodd.vdx:vdx-core:jar:1.1.1:compile
++- org.jboss:jandex:jar:2.0.3.Final:compile
++- javax.enterprise:cdi-api:jar:1.2:compile
+|  +- javax.el:javax.el-api:jar:3.0.0:compile
+|  +- javax.interceptor:javax.interceptor-api:jar:1.2:compile
+|  \- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
++- javax.inject:javax.inject:jar:1:compile
++- org.wildfly:wildfly-weld-common:jar:11.0.0.Final:compile
+|  +- org.wildfly:wildfly-weld-spi:jar:11.0.0.Final:compile
+|  |  +- (org.wildfly.core:wildfly-server:jar:3.0.0.Alpha14:compile - version managed from 3.0.8.Final; omitted for duplicate)
+|  |  +- (org.wildfly:wildfly-ee:jar:11.0.0.Final:compile - omitted for duplicate)
+|  |  +- org.jboss.weld:weld-api:jar:2.4.Final:compile (version managed from 2.4.SP1)
+|  |  |  +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  |  |  \- (javax.enterprise:cdi-api:jar:1.2:compile - omitted for duplicate)
+|  |  \- org.jboss.weld:weld-spi:jar:2.4.Final:compile (version managed from 2.4.SP1)
+|  |     +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  |     +- (javax.enterprise:cdi-api:jar:1.2:compile - omitted for duplicate)
+|  |     \- (org.jboss.weld:weld-api:jar:2.4.Final:compile - version managed from 2.4.SP1; omitted for duplicate)
+|  +- org.jboss.weld:weld-core-impl:jar:2.4.0.Final:compile (version managed from 2.4.3.Final)
+|  |  +- org.jboss.classfilewriter:jboss-classfilewriter:jar:1.1.2.Final:compile
+|  |  +- (org.jboss.spec.javax.annotation:jboss-annotations-api_1.2_spec:jar:1.0.0.Final:compile - omitted for duplicate)
+|  |  +- (org.jboss.spec.javax.interceptor:jboss-interceptors-api_1.2_spec:jar:1.0.0.Final:compile - omitted for duplicate)
+|  |  \- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile - version managed from 3.2.1.Final; omitted for duplicate)
+|  \- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile - version managed from 3.3.1.Final; omitted for duplicate)
+\- org.wildfly.checkstyle:wildfly-checkstyle-config:jar:1.0.5.Final:compile

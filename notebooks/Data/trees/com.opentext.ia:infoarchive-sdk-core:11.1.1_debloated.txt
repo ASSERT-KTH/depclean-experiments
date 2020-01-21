@@ -1,0 +1,29 @@
+com.opentext.ia:infoarchive-sdk-core:jar:11.1.1
++- com.opentext.ia:infoarchive-yaml:jar:11.1.1:compile
+|  +- com.opentext.ia:infoarchive-configuration:jar:11.1.1:compile
+|  |  +- (commons-io:commons-io:jar:2.6:compile - omitted for duplicate)
+|  |  +- (org.atteo:evo-inflector:jar:1.2.2:compile - omitted for duplicate)
+|  |  \- org.json:json:jar:20180130:compile
+|  +- (commons-io:commons-io:jar:2.6:compile - omitted for duplicate)
+|  +- (org.apache.commons:commons-lang3:jar:3.7:compile - omitted for duplicate)
+|  +- (org.atteo:evo-inflector:jar:1.2.2:compile - omitted for duplicate)
+|  \- (org.yaml:snakeyaml:jar:1.21:compile - omitted for duplicate)
++- commons-beanutils:commons-beanutils:jar:1.9.3:compile
+|  +- commons-logging:commons-logging:jar:1.2:compile
+|  \- commons-collections:commons-collections:jar:3.2.2:compile
++- commons-codec:commons-codec:jar:1.11:compile
++- commons-io:commons-io:jar:2.6:compile
++- org.apache.commons:commons-lang3:jar:3.7:compile
++- org.atteo:evo-inflector:jar:1.2.2:compile
++- org.apache.httpcomponents:httpclient:jar:4.5.5:compile
+|  +- org.apache.httpcomponents:httpcore:jar:4.4.9:compile
+|  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  \- (commons-codec:commons-codec:jar:1.10:compile - omitted for conflict with 1.11)
++- org.apache.httpcomponents:httpmime:jar:4.5.3:compile
+|  \- (org.apache.httpcomponents:httpclient:jar:4.5.3:compile - omitted for conflict with 4.5.5)
++- com.fasterxml.jackson.core:jackson-core:jar:2.9.5:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.5:compile - omitted for duplicate)
++- com.github.zafarkhaja:java-semver:jar:0.9.0:compile
+\- javax.validation:validation-api:jar:2.0.1.Final:compile

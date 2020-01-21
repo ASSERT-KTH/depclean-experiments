@@ -1,0 +1,42 @@
+com.sap.cloud.lm.sl.cf:com.sap.cloud.lm.sl.cf.api:jar:1.54.1
++- javax.ws.rs:javax.ws.rs-api:jar:2.0.1:compile
++- javax.inject:javax.inject:jar:1:compile
++- org.glassfish.jersey.core:jersey-server:jar:2.23.2:compile
+|  +- org.glassfish.jersey.core:jersey-common:jar:2.23.2:compile
+|  |  +- (javax.ws.rs:javax.ws.rs-api:jar:2.0.1:compile - omitted for duplicate)
+|  |  +- (javax.annotation:javax.annotation-api:jar:1.2:compile - omitted for duplicate)
+|  |  +- org.glassfish.jersey.bundles.repackaged:jersey-guava:jar:2.23.2:compile
+|  |  +- (org.glassfish.hk2:hk2-api:jar:2.4.0-b10:compile - version managed from 2.5.0-b05; omitted for duplicate)
+|  |  +- (org.glassfish.hk2.external:javax.inject:jar:2.5.0-b05:compile - omitted for duplicate)
+|  |  \- (org.glassfish.hk2:hk2-locator:jar:2.4.0-b10:compile - version managed from 2.5.0-b05; omitted for duplicate)
+|  +- org.glassfish.jersey.core:jersey-client:jar:2.23.2:compile
+|  |  +- (javax.ws.rs:javax.ws.rs-api:jar:2.0.1:compile - omitted for duplicate)
+|  |  +- (org.glassfish.jersey.core:jersey-common:jar:2.23.2:compile - omitted for duplicate)
+|  |  +- (org.glassfish.hk2:hk2-api:jar:2.4.0-b10:compile - version managed from 2.5.0-b05; omitted for duplicate)
+|  |  +- (org.glassfish.hk2.external:javax.inject:jar:2.5.0-b05:compile - omitted for duplicate)
+|  |  \- (org.glassfish.hk2:hk2-locator:jar:2.4.0-b10:compile - version managed from 2.5.0-b05; omitted for duplicate)
+|  +- (javax.ws.rs:javax.ws.rs-api:jar:2.0.1:compile - omitted for duplicate)
+|  +- org.glassfish.jersey.media:jersey-media-jaxb:jar:2.23.2:compile
+|  |  +- (org.glassfish.jersey.core:jersey-common:jar:2.23.2:compile - omitted for duplicate)
+|  |  +- (org.glassfish.hk2:hk2-api:jar:2.4.0-b10:compile - version managed from 2.5.0-b05; omitted for duplicate)
+|  |  +- (org.glassfish.hk2.external:javax.inject:jar:2.5.0-b05:compile - omitted for duplicate)
+|  |  \- (org.glassfish.hk2:hk2-locator:jar:2.4.0-b10:compile - version managed from 2.5.0-b05; omitted for duplicate)
+|  +- javax.annotation:javax.annotation-api:jar:1.2:compile
+|  +- org.glassfish.hk2:hk2-api:jar:2.4.0-b10:compile
+|  |  \- org.glassfish.hk2:hk2-utils:jar:2.4.0-b10:compile
+|  +- org.glassfish.hk2.external:javax.inject:jar:2.5.0-b05:compile
+|  +- org.glassfish.hk2:hk2-locator:jar:2.4.0-b10:compile
+|  |  +- (org.glassfish.hk2.external:javax.inject:jar:2.4.0-b10:compile - omitted for conflict with 2.5.0-b05)
+|  |  +- (org.glassfish.hk2:hk2-api:jar:2.4.0-b10:compile - version managed from 2.5.0-b05; omitted for duplicate)
+|  |  +- (org.glassfish.hk2:hk2-utils:jar:2.4.0-b10:compile - omitted for duplicate)
+|  |  \- org.javassist:javassist:jar:3.19.0-GA:compile (version managed from 3.18.1-GA)
+|  \- javax.validation:validation-api:jar:1.1.0.Final:compile
++- io.swagger:swagger-annotations:jar:1.5.16:compile
++- javax.servlet:javax.servlet-api:jar:4.0.0:provided
++- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.3:compile
++- com.google.code.gson:gson:jar:2.3.1:compile
+\- com.sap.cloud.lm.sl:com.sap.cloud.lm.sl.common:jar:1.56.0:compile
+   +- (javax.ws.rs:javax.ws.rs-api:jar:2.0.1:compile - omitted for duplicate)
+   +- commons-io:commons-io:jar:2.4:compile (version managed from 2.0.1)
+   +- (com.google.code.gson:gson:jar:2.3.1:compile - omitted for duplicate)
+   \- org.yaml:snakeyaml:jar:1.17:compile (version managed from 1.9)

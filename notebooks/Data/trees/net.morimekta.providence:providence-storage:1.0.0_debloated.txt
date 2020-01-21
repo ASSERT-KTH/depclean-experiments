@@ -1,0 +1,79 @@
+net.morimekta.providence:providence-storage:jar:1.0.0
++- net.morimekta.providence:providence-core:jar:1.0.0:compile
+|  +- (com.google.guava:guava:jar:23.6-jre:compile - omitted for duplicate)
+|  +- (net.morimekta.utils:io-util:jar:2.4.0:compile - omitted for duplicate)
+|  \- (com.google.code.findbugs:jsr305:jar:3.0.2:compile - version managed from 1.3.9; omitted for duplicate)
++- com.google.guava:guava:jar:23.6-jre:compile
+|  +- (com.google.code.findbugs:jsr305:jar:3.0.2:compile - version managed from 1.3.9; omitted for duplicate)
+|  +- org.checkerframework:checker-compat-qual:jar:2.0.0:compile
+|  +- com.google.errorprone:error_prone_annotations:jar:2.1.3:compile
+|  +- com.google.j2objc:j2objc-annotations:jar:1.1:compile
+|  \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:compile
++- net.morimekta.utils:io-util:jar:2.4.0:compile
+|  \- org.slf4j:slf4j-api:jar:1.7.25:compile
++- com.google.code.findbugs:jsr305:jar:3.0.2:provided (scope not updated to compile)
++- com.google.code.findbugs:findbugs-annotations:jar:3.0.1:provided
++- net.morimekta.utils:testing-util:jar:2.4.0:test
+|  +- (net.morimekta.utils:io-util:jar:2.4.0:test - omitted for duplicate)
+|  +- net.morimekta.utils:diff-util:jar:2.4.0:test
+|  |  \- (net.morimekta.utils:io-util:jar:2.4.0:test - omitted for duplicate)
+|  +- net.morimekta.utils:console-util:jar:2.4.0:test
+|  |  +- (net.morimekta.utils:io-util:jar:2.4.0:test - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:23.6-jre:test - version managed from 23.5-jre; omitted for duplicate)
+|  |  \- org.apache.commons:commons-lang3:jar:3.7:test
+|  +- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for duplicate)
+|  +- org.hamcrest:hamcrest-library:jar:1.3:test
+|  |  \- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for duplicate)
+|  +- (junit:junit:jar:4.12:test - omitted for duplicate)
+|  \- com.google.http-client:google-http-client:jar:1.23.0:test
+|     +- (com.google.code.findbugs:jsr305:jar:3.0.2:test - version managed from 1.3.9; omitted for duplicate)
+|     \- org.apache.httpcomponents:httpclient:jar:4.5.4:test (version managed from 4.0.1)
+|        +- org.apache.httpcomponents:httpcore:jar:4.4.8:test (version managed from 4.4.7)
+|        \- commons-codec:commons-codec:jar:1.10:test
++- net.morimekta.providence:providence-testing:jar:1.0.0:test
+|  +- (net.morimekta.providence:providence-core:jar:1.0.0:test - omitted for duplicate)
+|  +- net.morimekta.providence:providence-core-jackson:jar:1.0.0:test
+|  |  +- (net.morimekta.providence:providence-core:jar:1.0.0:test - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.3:test - version managed from 2.9.0; omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.3:test - omitted for duplicate)
+|  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.3:test - omitted for duplicate)
+|  +- net.morimekta.utils:android-util:jar:2.4.0:test
+|  +- org.eclipse.jetty:jetty-server:jar:9.4.8.v20171121:test
+|  |  +- javax.servlet:javax.servlet-api:jar:3.1.0:test
+|  |  +- org.eclipse.jetty:jetty-http:jar:9.4.8.v20171121:test
+|  |  |  +- org.eclipse.jetty:jetty-util:jar:9.4.8.v20171121:test
+|  |  |  \- (org.eclipse.jetty:jetty-io:jar:9.4.8.v20171121:test - omitted for duplicate)
+|  |  \- org.eclipse.jetty:jetty-io:jar:9.4.8.v20171121:test
+|  |     \- (org.eclipse.jetty:jetty-util:jar:9.4.8.v20171121:test - omitted for duplicate)
+|  +- (com.google.http-client:google-http-client:jar:1.23.0:test - omitted for duplicate)
+|  +- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for duplicate)
+|  +- (org.hamcrest:hamcrest-library:jar:1.3:test - omitted for duplicate)
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.9.3:test
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.3:test - version managed from 2.9.0; omitted for duplicate)
+|  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.3:test - omitted for duplicate)
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.3:test
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.9.3:test
+|  +- (junit:junit:jar:4.12:test - omitted for duplicate)
+|  +- io.codearte.jfairy:jfairy:jar:0.5.9:test
+|  |  +- org.apache.commons:commons-math3:jar:3.6.1:test
+|  |  +- org.yaml:snakeyaml:jar:1.18:test
+|  |  +- (com.google.guava:guava:jar:23.6-jre:test - version managed from 20.0; omitted for duplicate)
+|  |  +- com.google.inject.extensions:guice-assistedinject:jar:4.1.0:test
+|  |  |  \- (com.google.inject:guice:jar:4.1.0:test - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)
+|  |  +- joda-time:joda-time:jar:2.9.9:test
+|  |  +- org.reflections:reflections:jar:0.9.11:test
+|  |  |  +- (com.google.guava:guava:jar:23.6-jre:test - version managed from 20.0; omitted for duplicate)
+|  |  |  \- org.javassist:javassist:jar:3.21.0-GA:test
+|  |  +- org.iban4j:iban4j:jar:3.2.1:test
+|  |  +- (org.apache.commons:commons-lang3:jar:3.7:test - version managed from 3.6; omitted for duplicate)
+|  |  \- com.google.inject:guice:jar:4.1.0:test
+|  |     +- javax.inject:javax.inject:jar:1:test
+|  |     +- aopalliance:aopalliance:jar:1.0:test
+|  |     \- (com.google.guava:guava:jar:23.6-jre:test - version managed from 19.0; omitted for duplicate)
+|  \- (net.morimekta.utils:testing-util:jar:2.4.0:test - omitted for duplicate)
++- junit:junit:jar:4.12:test
+|  \- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for duplicate)
++- org.hamcrest:hamcrest-core:jar:1.3:test
+\- org.slf4j:slf4j-simple:jar:1.7.25:test
+   \- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)

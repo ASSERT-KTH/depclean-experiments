@@ -1,0 +1,4 @@
+com.google.api.grpc:proto-google-cloud-language-v1beta2:jar:0.8.0
++- com.google.protobuf:protobuf-java:jar:3.5.1:compile
+\- com.google.api.grpc:proto-google-common-protos:jar:1.7.0:compile
+   \- (com.google.protobuf:protobuf-java:jar:3.5.1:compile - omitted for duplicate)

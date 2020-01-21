@@ -1,0 +1,9 @@
+de.cit-ec.tcs.alignment:sets:jar:3.1.0
++- de.cit-ec.tcs.alignment:algorithms:jar:3.1.0:compile
+|  +- de.cit-ec.tcs.alignment:comparators:jar:3.1.0:compile
+|  |  \- (org.projectlombok:lombok:jar:1.16.8:compile - omitted for duplicate)
+|  +- de.cit-ec.tcs.alignment:parallel:jar:3.1.0:compile
+|  |  \- (org.projectlombok:lombok:jar:1.16.8:compile - omitted for duplicate)
+|  \- org.projectlombok:lombok:jar:1.16.8:compile
+\- junit:junit:jar:4.10:test
+   \- org.hamcrest:hamcrest-core:jar:1.1:test

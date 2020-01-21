@@ -1,0 +1,36 @@
+com.impetus.blkchn:blkchn-antlr4-gen:jar:1.0.0
++- org.antlr:antlr4:jar:4.5:compile
+|  +- org.antlr:antlr4-runtime:jar:4.5:compile
+|  |  \- org.abego.treelayout:org.abego.treelayout.core:jar:1.0.1:compile
+|  +- org.antlr:antlr-runtime:jar:3.5.2:compile
+|  \- org.antlr:ST4:jar:4.0.8:compile
+|     \- (org.antlr:antlr-runtime:jar:3.5.2:compile - omitted for duplicate)
++- junit:junit:jar:4.12:compile
+|  \- org.hamcrest:hamcrest-core:jar:1.3:compile
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- ch.qos.logback:logback-classic:jar:1.2.3:compile
+|  +- (ch.qos.logback:logback-core:jar:1.2.3:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
++- ch.qos.logback:logback-core:jar:1.2.3:compile
++- org.mockito:mockito-all:jar:1.10.19:test
++- org.powermock:powermock-api-mockito:jar:1.7.3:test
+|  +- org.powermock:powermock-api-mockito-common:jar:1.7.3:test
+|  |  +- org.powermock:powermock-api-support:jar:1.7.3:test
+|  |  |  +- (org.powermock:powermock-reflect:jar:1.7.3:test - omitted for duplicate)
+|  |  |  \- (org.powermock:powermock-core:jar:1.7.3:test - omitted for duplicate)
+|  |  \- (org.mockito:mockito-core:jar:2.8.9:test - omitted for conflict with 1.10.19)
+|  \- org.mockito:mockito-core:jar:1.10.19:test
+|     +- (org.hamcrest:hamcrest-core:jar:1.1:test - omitted for conflict with 1.3)
+|     \- org.objenesis:objenesis:jar:2.1:test
+\- org.powermock:powermock-module-junit4:jar:1.7.3:test
+   +- org.powermock:powermock-module-junit4-common:jar:1.7.3:test
+   |  +- org.powermock:powermock-reflect:jar:1.7.3:test
+   |  |  \- (org.objenesis:objenesis:jar:2.4:test - omitted for conflict with 2.1)
+   |  +- org.powermock:powermock-core:jar:1.7.3:test
+   |  |  +- (org.powermock:powermock-reflect:jar:1.7.3:test - omitted for duplicate)
+   |  |  +- org.javassist:javassist:jar:3.21.0-GA:test
+   |  |  \- (org.mockito:mockito-core:jar:2.8.9:test - omitted for conflict with 1.10.19)
+   |  +- (junit:junit:jar:4.12:test - omitted for duplicate)
+   |  \- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for duplicate)
+   +- (junit:junit:jar:4.12:test - omitted for duplicate)
+   \- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for duplicate)

@@ -1,0 +1,34 @@
+de.wayofquality.blended:blended.security.login:bundle:2.5.0-M5
++- org.scala-lang:scala-library:jar:2.11.12:provided
++- de.wayofquality.blended:blended.domino:jar:2.5.0-M5:compile
+|  +- com.github.domino-osgi:domino_2.11:jar:1.1.2:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.12:provided - version managed from 2.11.11; scope managed from compile; omitted for duplicate)
+|  |  +- org.scala-lang:scala-reflect:jar:2.11.12:compile
+|  |  |  \- (org.scala-lang:scala-library:jar:2.11.12:provided - version managed from 2.11.11; scope managed from compile; omitted for duplicate)
+|  |  +- org.osgi:org.osgi.core:jar:4.3.0:compile
+|  |  \- org.osgi:org.osgi.compendium:jar:4.3.0:compile
+|  +- com.typesafe:config:jar:1.3.1:compile
+|  +- de.wayofquality.blended:blended.container.context.api:jar:2.5.0-M5:compile
+|  |  +- (com.typesafe:config:jar:1.3.1:compile - omitted for duplicate)
+|  |  \- (org.log4s:log4s_2.11:jar:1.6.1:compile - omitted for duplicate)
+|  \- (org.scala-lang:scala-library:jar:2.11.12:provided - version managed from 2.11.11; scope managed from compile; omitted for duplicate)
++- io.jsonwebtoken:jjwt:jar:0.7.0:compile
+|  \- com.fasterxml.jackson.core:jackson-databind:jar:2.8.2:compile
+|     +- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile
+|     \- com.fasterxml.jackson.core:jackson-core:jar:2.8.2:compile
++- org.log4s:log4s_2.11:jar:1.6.1:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:provided - version managed from 2.11.11; scope managed from compile; omitted for duplicate)
+|  \- org.slf4j:slf4j-api:jar:1.7.25:compile
++- org.bouncycastle:bcprov-jdk15on:jar:1.59:compile
++- org.scalatest:scalatest_2.11:jar:3.0.5:test
+|  +- (org.scala-lang:scala-library:jar:2.11.12:provided - version managed from 2.11.11; scope managed from test; omitted for duplicate)
+|  +- org.scalactic:scalactic_2.11:jar:3.0.5:test
+|  |  +- (org.scala-lang:scala-library:jar:2.11.12:provided - version managed from 2.11.11; scope managed from test; omitted for duplicate)
+|  |  \- (org.scala-lang:scala-reflect:jar:2.11.12:test - omitted for conflict with 2.11.12)
+|  +- (org.scala-lang:scala-reflect:jar:2.11.12:compile - scope updated from test; omitted for duplicate)
+|  \- org.scala-lang.modules:scala-xml_2.11:jar:1.0.6:test
+|     \- (org.scala-lang:scala-library:jar:2.11.12:provided - version managed from 2.11.8; scope managed from test; omitted for duplicate)
++- ch.qos.logback:logback-core:jar:1.2.3:test
+\- ch.qos.logback:logback-classic:jar:1.2.3:test
+   +- (ch.qos.logback:logback-core:jar:1.2.3:test - omitted for duplicate)
+   \- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)

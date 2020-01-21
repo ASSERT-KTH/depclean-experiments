@@ -1,0 +1,11 @@
+com.github.os72:protobuf-java-util-shaded-351:jar:0.9
++- com.github.os72:protoc-jar:jar:3.5.1:provided
++- com.github.os72:protobuf-java-shaded-351:jar:0.9:compile
++- com.google.guava:guava:jar:19.0:compile
++- com.google.code.gson:gson:jar:2.7:compile
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.easymock:easymock:jar:2.2:test
+\- org.easymock:easymockclassextension:jar:2.2.1:test
+   +- (org.easymock:easymock:jar:2.2:test - omitted for duplicate)
+   \- cglib:cglib-nodep:jar:2.1_3:test

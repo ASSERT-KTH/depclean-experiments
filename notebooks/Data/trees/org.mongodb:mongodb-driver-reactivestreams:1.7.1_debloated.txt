@@ -1,0 +1,6 @@
+org.mongodb:mongodb-driver-reactivestreams:jar:1.7.1
++- org.mongodb:mongodb-driver-async:jar:3.6.3:compile
+|  +- org.mongodb:bson:jar:3.6.3:compile
+|  \- org.mongodb:mongodb-driver-core:jar:3.6.3:compile
+|     \- (org.mongodb:bson:jar:3.6.3:compile - omitted for duplicate)
+\- org.reactivestreams:reactive-streams:jar:1.0.1:compile

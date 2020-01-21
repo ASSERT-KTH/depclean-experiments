@@ -1,0 +1,17 @@
+com.librato.metrics:metrics-librato:jar:5.1.1
++- com.librato.metrics:librato-java:jar:2.1.0:compile
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.8.8:compile
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.8.8:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile - omitted for conflict with 2.8.8)
+|  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.8.8:compile - omitted for duplicate)
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.8:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
++- io.dropwizard.metrics:metrics-core:jar:3.1.2:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for conflict with 1.7.25)
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- org.slf4j:slf4j-simple:jar:1.7.25:test
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)
++- org.mockito:mockito-all:jar:1.10.19:test
+\- org.assertj:assertj-core:jar:2.7.0:test

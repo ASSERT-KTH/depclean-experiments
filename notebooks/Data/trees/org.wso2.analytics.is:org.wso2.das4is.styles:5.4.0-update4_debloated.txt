@@ -1,0 +1,67 @@
+org.wso2.analytics.is:org.wso2.das4is.styles:bundle:5.4.0-update4
++- org.wso2.carbon:org.wso2.carbon.registry.core:jar:4.4.20:compile
+|  +- commons-io.wso2:commons-io:jar:2.4.0.wso2v1:compile
+|  +- net.sourceforge.findbugs:annotations:jar:1.3.2:compile
+|  +- (org.eclipse.osgi:org.eclipse.osgi.services:jar:3.3.100.v20130513-1956:compile - omitted for duplicate)
+|  +- org.apache.ws.commons.schema.wso2:XmlSchema:jar:1.4.7.wso2v3:compile
+|  +- org.wso2.carbon:org.wso2.carbon.registry.api:jar:4.4.20:compile
+|  +- (org.wso2.carbon:org.wso2.carbon.utils:jar:4.4.20:compile - omitted for duplicate)
+|  +- org.wso2.carbon:javax.cache.wso2:jar:4.4.20:compile
+|  |  +- org.apache.geronimo.specs:geronimo-jta_1.1_spec:jar:1.1:compile
+|  |  +- (org.eclipse.osgi:org.eclipse.osgi:jar:3.9.1.v20130814-1242:compile - omitted for duplicate)
+|  |  +- (org.wso2.carbon:org.wso2.carbon.utils:jar:4.4.20:compile - omitted for duplicate)
+|  |  +- (org.wso2.carbon:org.wso2.carbon.base:jar:4.4.20:compile - omitted for duplicate)
+|  |  +- (org.wso2.carbon:org.wso2.carbon.logging:jar:4.4.20:compile - omitted for duplicate)
+|  |  \- (commons-lang.wso2:commons-lang:jar:2.6.0.wso2v1:compile - omitted for duplicate)
+|  +- org.wso2.carbon:org.wso2.carbon.registry.xboot:jar:4.4.20:compile
+|  +- org.wso2.securevault:org.wso2.securevault:jar:1.0.0-wso2v2:compile
+|  |  +- org.apache.ws.commons.axiom:axiom-api:jar:1.2.11:compile
+|  |  |  +- org.apache.geronimo.specs:geronimo-activation_1.1_spec:jar:1.0.2:compile
+|  |  |  +- org.apache.geronimo.specs:geronimo-javamail_1.4_spec:jar:1.6:compile
+|  |  |  +- (commons-logging:commons-logging:jar:1.1.1:compile - version managed from 1.2; omitted for duplicate)
+|  |  |  +- (jaxen:jaxen:jar:1.1.1:compile - omitted for duplicate)
+|  |  |  \- (org.apache.geronimo.specs:geronimo-stax-api_1.0_spec:jar:1.0.1:compile - omitted for duplicate)
+|  |  +- org.apache.ws.commons.axiom:axiom-impl:jar:1.2.11:compile
+|  |  |  +- (org.apache.ws.commons.axiom:axiom-api:jar:1.2.11:compile - omitted for duplicate)
+|  |  |  +- (org.apache.geronimo.specs:geronimo-activation_1.1_spec:jar:1.0.2:compile - omitted for duplicate)
+|  |  |  +- (org.apache.geronimo.specs:geronimo-javamail_1.4_spec:jar:1.6:compile - omitted for duplicate)
+|  |  |  +- org.codehaus.woodstox:wstx-asl:jar:3.2.9:compile
+|  |  |  +- (commons-logging:commons-logging:jar:1.1.1:compile - version managed from 1.2; omitted for duplicate)
+|  |  |  \- (org.apache.geronimo.specs:geronimo-stax-api_1.0_spec:jar:1.0.1:compile - omitted for duplicate)
+|  |  +- (log4j:log4j:jar:1.2.13:compile - version managed from 1.2.14; omitted for duplicate)
+|  |  +- jline:jline:jar:0.9.94:compile
+|  |  |  \- junit:junit:jar:4.10:test (version managed from 3.8.1; scope managed from compile)
+|  |  |     \- org.hamcrest:hamcrest-core:jar:1.1:test
+|  |  +- (commons-logging:commons-logging:jar:1.1.1:compile - version managed from 1.2; omitted for duplicate)
+|  |  +- commons-cli:commons-cli:jar:1.0:compile
+|  |  |  \- (commons-logging:commons-logging:jar:1.1.1:compile - version managed from 1.0; omitted for duplicate)
+|  |  +- commons-io:commons-io:jar:2.4:compile (version managed from 2.0)
+|  |  \- commons-codec:commons-codec:jar:1.2:compile
+|  +- org.wso2.carbon:org.wso2.carbon.user.core:jar:4.4.20:compile
+|  |  +- (org.wso2.carbon:javax.cache.wso2:jar:4.4.20:compile - omitted for duplicate)
+|  |  +- (org.wso2.carbon:org.wso2.carbon.user.api:jar:4.4.20:compile - omitted for duplicate)
+|  |  +- (xerces.wso2:xercesImpl:jar:2.8.1.wso2v2:compile - omitted for duplicate)
+|  |  +- (org.wso2.carbon:org.wso2.carbon.utils:jar:4.4.20:compile - omitted for duplicate)
+|  |  +- commons-dbcp.wso2:commons-dbcp:jar:1.4.0.wso2v1:compile
+|  |  +- (org.wso2.carbon:org.wso2.carbon.logging:jar:4.4.20:compile - omitted for duplicate)
+|  |  +- (org.wso2.orbit.org.apache.tomcat:jdbc-pool:jar:7.0.81.wso2v2:compile - omitted for duplicate)
+|  |  +- (org.wso2.securevault:org.wso2.securevault:jar:1.0.0-wso2v2:compile - omitted for duplicate)
+|  |  +- (org.wso2.orbit.commons-collections:commons-collections:jar:3.2.2.wso2v1:compile - omitted for duplicate)
+|  |  \- (commons-lang.wso2:commons-lang:jar:2.6.0.wso2v1:compile - omitted for duplicate)
+|  +- org.compass-project.wso2:compass:jar:2.0.1.wso2v2:compile
+|  +- org.apache.abdera.wso2:abdera:jar:1.0.0.wso2v3:compile
+|  +- (org.wso2.carbon:org.wso2.carbon.logging:jar:4.4.20:compile - omitted for duplicate)
+|  +- org.wso2.orbit.org.apache.tomcat:jdbc-pool:jar:7.0.81.wso2v2:compile
+|  +- org.wso2.orbit.commons-httpclient:commons-httpclient:jar:3.1.0.wso2v6:compile
+|  \- commons-pool.wso2:commons-pool:jar:1.5.6.wso2v1:compile
+|     \- commons-pool:commons-pool:jar:1.5.6:compile
++- org.apache.felix:org.apache.felix.main:jar:1.0.3:compile
+|  +- (org.apache.felix:org.apache.felix.framework:jar:1.0.3:compile - omitted for duplicate)
+|  +- org.apache.felix:org.apache.felix.shell:jar:1.0.0:compile
+|  +- org.apache.felix:org.apache.felix.shell.tui:jar:1.0.0:compile
+|  |  \- (org.apache.felix:org.apache.felix.shell:jar:1.0.0:compile - omitted for duplicate)
+|  \- org.apache.felix:org.apache.felix.bundlerepository:jar:1.0.2:compile
+|     \- (org.apache.felix:org.apache.felix.shell:jar:1.0.0:compile - omitted for duplicate)
++- org.eclipse.equinox:org.eclipse.equinox.http.servlet:jar:2.2.2:compile
++- org.eclipse.equinox:org.eclipse.equinox.jsp.jasper:jar:1.0.400.v20120522-2049:compile
+\- log4j:log4j:jar:1.2.13:compile

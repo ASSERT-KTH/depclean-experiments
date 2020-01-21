@@ -1,0 +1,2 @@
+de.dentrassi.kura.addons:de.dentrassi.kura.addons.drools.ecj:bundle:0.5.0
+\- org.eclipse.jdt:ecj:jar:3.13.100:compile

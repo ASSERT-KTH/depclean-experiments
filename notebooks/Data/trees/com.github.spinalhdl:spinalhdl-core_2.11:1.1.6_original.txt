@@ -1,0 +1,12 @@
+com.github.spinalhdl:spinalhdl-core_2.11:jar:1.1.6
++- org.scala-lang:scala-library:jar:2.11.6:compile
++- com.github.spinalhdl:spinalhdl-sim_2.11:jar:1.1.6:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.6:compile - omitted for duplicate)
+|  +- (org.scala-lang.plugins:scala-continuations-library_2.11:jar:1.0.2:compile - omitted for duplicate)
+|  \- commons-io:commons-io:jar:2.4:compile
++- org.scala-lang.plugins:scala-continuations-library_2.11:jar:1.0.2:compile
+|  \- (org.scala-lang:scala-library:jar:2.11.1:compile - omitted for conflict with 2.11.6)
++- org.scala-lang:scala-reflect:jar:2.11.6:compile
+|  \- (org.scala-lang:scala-library:jar:2.11.6:compile - omitted for duplicate)
+\- com.github.scopt:scopt_2.11:jar:3.4.0:compile
+   \- (org.scala-lang:scala-library:jar:2.11.7:compile - omitted for conflict with 2.11.6)

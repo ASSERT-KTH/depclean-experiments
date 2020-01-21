@@ -1,0 +1,5 @@
+io.github.nibiruos.async:org.nibiru.async.core:jar:1.0.0
++- com.google.dagger:dagger:jar:2.7:compile
+|  \- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
++- javax.inject:javax.inject:jar:1:compile
+\- com.google.guava:guava:jar:20.0:compile

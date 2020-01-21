@@ -1,0 +1,91 @@
+com.github.seratch:awscala_2.12:jar:0.6.3
++- org.scala-lang:scala-library:jar:2.12.4:compile
++- com.amazonaws:aws-java-sdk-iam:jar:1.11.285:compile
+|  +- com.amazonaws:aws-java-sdk-core:jar:1.11.285:compile
+|  |  +- commons-logging:commons-logging:jar:1.1.3:compile
+|  |  +- org.apache.httpcomponents:httpclient:jar:4.5.2:compile
+|  |  |  +- org.apache.httpcomponents:httpcore:jar:4.4.4:compile
+|  |  |  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for conflict with 1.1.3)
+|  |  |  \- commons-codec:commons-codec:jar:1.9:compile
+|  |  +- software.amazon.ion:ion-java:jar:1.0.2:compile
+|  |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.6.7.1:compile
+|  |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.6.0:compile
+|  |  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.6.7:compile
+|  |  +- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.6.7:compile
+|  |  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.6.7:compile - omitted for duplicate)
+|  |  \- (joda-time:joda-time:jar:2.8.1:compile - omitted for conflict with 2.9.9)
+|  \- com.amazonaws:jmespath-java:jar:1.11.285:compile
+|     \- (com.fasterxml.jackson.core:jackson-databind:jar:2.6.7.1:compile - omitted for duplicate)
++- com.amazonaws:aws-java-sdk-sts:jar:1.11.285:compile
+|  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.285:compile - omitted for duplicate)
+|  \- (com.amazonaws:jmespath-java:jar:1.11.285:compile - omitted for duplicate)
++- com.amazonaws:aws-java-sdk-ec2:jar:1.11.285:compile
+|  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.285:compile - omitted for duplicate)
+|  \- (com.amazonaws:jmespath-java:jar:1.11.285:compile - omitted for duplicate)
++- com.amazonaws:aws-java-sdk-s3:jar:1.11.285:compile
+|  +- com.amazonaws:aws-java-sdk-kms:jar:1.11.285:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.285:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.285:compile - omitted for duplicate)
+|  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.285:compile - omitted for duplicate)
+|  \- (com.amazonaws:jmespath-java:jar:1.11.285:compile - omitted for duplicate)
++- com.amazonaws:aws-java-sdk-sqs:jar:1.11.285:compile
+|  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.285:compile - omitted for duplicate)
+|  \- (com.amazonaws:jmespath-java:jar:1.11.285:compile - omitted for duplicate)
++- com.amazonaws:aws-java-sdk-emr:jar:1.11.285:compile
+|  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.285:compile - omitted for duplicate)
+|  \- (com.amazonaws:jmespath-java:jar:1.11.285:compile - omitted for duplicate)
++- com.amazonaws:aws-java-sdk-redshift:jar:1.11.285:compile
+|  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.285:compile - omitted for duplicate)
+|  \- (com.amazonaws:jmespath-java:jar:1.11.285:compile - omitted for duplicate)
++- com.amazonaws:aws-java-sdk-dynamodb:jar:1.11.285:compile
+|  +- (com.amazonaws:aws-java-sdk-s3:jar:1.11.285:compile - omitted for duplicate)
+|  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.285:compile - omitted for duplicate)
+|  \- (com.amazonaws:jmespath-java:jar:1.11.285:compile - omitted for duplicate)
++- com.amazonaws:aws-java-sdk-simpledb:jar:1.11.285:compile
+|  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.285:compile - omitted for duplicate)
+|  \- (com.amazonaws:jmespath-java:jar:1.11.285:compile - omitted for duplicate)
++- joda-time:joda-time:jar:2.9.9:compile
++- org.joda:joda-convert:jar:2.0:compile
++- com.github.seratch.com.veact:scala-ssh_2.12:jar:0.8.0-1:provided
+|  +- (org.scala-lang:scala-library:jar:2.12.0:provided - omitted for conflict with 2.12.4)
+|  +- com.hierynomus:sshj:jar:0.16.0:provided
+|  |  +- org.bouncycastle:bcpkix-jdk15on:jar:1.51:provided
+|  |  |  \- (org.bouncycastle:bcprov-jdk15on:jar:1.51:provided - omitted for duplicate)
+|  |  +- com.jcraft:jzlib:jar:1.1.3:provided
+|  |  +- net.vrallev.ecc:ecc-25519-java:jar:1.0.1:provided
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.7:provided - omitted for conflict with 1.7.21)
+|  |  \- org.bouncycastle:bcprov-jdk15on:jar:1.51:provided
+|  +- org.slf4j:slf4j-api:jar:1.7.21:provided
+|  +- com.jcraft:jsch.agentproxy.sshj:jar:0.0.9:provided
+|  |  +- net.schmizz:sshj:jar:0.10.0:provided
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.7:provided - omitted for conflict with 1.7.21)
+|  |  |  \- (org.bouncycastle:bcpkix-jdk15on:jar:1.50:provided - omitted for conflict with 1.51)
+|  |  \- com.jcraft:jsch.agentproxy.core:jar:0.0.9:provided
+|  \- com.jcraft:jsch.agentproxy.connector-factory:jar:0.0.9:provided
+|     +- (com.jcraft:jsch.agentproxy.core:jar:0.0.9:provided - omitted for duplicate)
+|     +- com.jcraft:jsch.agentproxy.usocket-jna:jar:0.0.9:provided
+|     |  +- (com.jcraft:jsch.agentproxy.core:jar:0.0.9:provided - omitted for duplicate)
+|     |  +- net.java.dev.jna:jna:jar:4.1.0:provided
+|     |  \- net.java.dev.jna:jna-platform:jar:4.1.0:provided
+|     |     \- (net.java.dev.jna:jna:jar:4.1.0:provided - omitted for duplicate)
+|     +- com.jcraft:jsch.agentproxy.usocket-nc:jar:0.0.9:provided
+|     |  \- (com.jcraft:jsch.agentproxy.core:jar:0.0.9:provided - omitted for duplicate)
+|     +- com.jcraft:jsch.agentproxy.sshagent:jar:0.0.9:provided
+|     |  \- (com.jcraft:jsch.agentproxy.core:jar:0.0.9:provided - omitted for duplicate)
+|     \- com.jcraft:jsch.agentproxy.pageant:jar:0.0.9:provided
+|        +- (com.jcraft:jsch.agentproxy.core:jar:0.0.9:provided - omitted for duplicate)
+|        +- (net.java.dev.jna:jna:jar:4.1.0:provided - omitted for duplicate)
+|        \- (net.java.dev.jna:jna-platform:jar:4.1.0:provided - omitted for duplicate)
++- org.bouncycastle:bcprov-jdk16:jar:1.46:provided
++- ch.qos.logback:logback-classic:jar:1.2.3:test
+|  +- ch.qos.logback:logback-core:jar:1.2.3:test
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for conflict with 1.7.21)
+\- org.scalatest:scalatest_2.12:jar:3.0.5:test
+   +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for duplicate)
+   +- org.scalactic:scalactic_2.12:jar:3.0.5:test
+   |  +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for duplicate)
+   |  \- (org.scala-lang:scala-reflect:jar:2.12.4:test - omitted for duplicate)
+   +- org.scala-lang:scala-reflect:jar:2.12.4:test
+   |  \- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for duplicate)
+   \- org.scala-lang.modules:scala-xml_2.12:jar:1.0.6:test
+      \- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.4)

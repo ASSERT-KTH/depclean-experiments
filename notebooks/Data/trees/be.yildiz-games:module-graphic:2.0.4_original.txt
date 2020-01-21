@@ -1,0 +1,22 @@
+be.yildiz-games:module-graphic:jar:2.0.4
++- be.yildiz-games:common-client:jar:2.0.1:compile
++- be.yildiz-games:module-window:jar:2.0.2:compile
++- be.yildiz-games:common-frame:jar:1.0.0:compile
+|  \- be.yildiz-games:common-time:jar:1.0.0:compile
++- be.yildiz-games:common-util:jar:1.0.0:compile
+|  \- be.yildiz-games:common-exception:jar:1.0.0:compile
++- be.yildiz-games:common-file:jar:1.0.0:compile
++- be.yildiz-games:common-shape:jar:1.0.1:compile
++- be.yildiz-games:common-gameobject:jar:1.0.0:compile
+|  +- be.yildiz-games:common-model:jar:1.0.0:compile
+|  \- be.yildiz-games:common-geometry:jar:1.0.0:compile
++- org.junit.jupiter:junit-jupiter-api:jar:5.1.0:test
+|  +- org.apiguardian:apiguardian-api:jar:1.0.0:test
+|  +- org.opentest4j:opentest4j:jar:1.0.0:test
+|  \- org.junit.platform:junit-platform-commons:jar:1.1.0:test
++- org.junit.platform:junit-platform-launcher:jar:1.1.0:test
+|  \- org.junit.platform:junit-platform-engine:jar:1.1.0:test
+\- org.mockito:mockito-core:jar:2.18.0:test
+   +- net.bytebuddy:byte-buddy:jar:1.8.3:test
+   +- net.bytebuddy:byte-buddy-agent:jar:1.8.3:test
+   \- org.objenesis:objenesis:jar:2.6:test

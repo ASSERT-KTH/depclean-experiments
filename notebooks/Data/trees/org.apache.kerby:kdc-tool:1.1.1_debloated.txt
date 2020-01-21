@@ -1,0 +1,34 @@
+org.apache.kerby:kdc-tool:jar:1.1.1
++- org.apache.kerby:kerby-config:jar:1.1.1:compile
+|  \- org.slf4j:slf4j-api:jar:1.7.25:compile
++- org.apache.kerby:kerb-identity:jar:1.1.1:compile
+|  +- (org.apache.kerby:kerby-config:jar:1.1.1:compile - omitted for duplicate)
+|  +- org.apache.kerby:kerb-common:jar:1.1.1:compile
+|  |  +- (org.apache.kerby:kerby-config:jar:1.1.1:compile - omitted for duplicate)
+|  |  +- (org.apache.kerby:kerb-crypto:jar:1.1.1:compile - omitted for duplicate)
+|  |  \- commons-io:commons-io:jar:2.6:compile
+|  \- org.apache.kerby:kerb-core:jar:1.1.1:compile
+|     \- org.apache.kerby:kerby-pkix:jar:1.1.1:compile
+|        +- org.apache.kerby:kerby-asn1:jar:1.1.1:compile
+|        +- (org.apache.kerby:kerby-util:jar:1.1.1:compile - omitted for duplicate)
+|        \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
++- org.apache.kerby:kerb-server:jar:1.1.1:compile
+|  +- (org.apache.kerby:kerb-common:jar:1.1.1:compile - omitted for duplicate)
+|  \- (org.apache.kerby:kerb-identity:jar:1.1.1:compile - omitted for duplicate)
++- org.apache.kerby:kerb-util:jar:1.1.1:compile
+|  +- (org.apache.kerby:kerby-config:jar:1.1.1:compile - omitted for duplicate)
+|  +- (org.apache.kerby:kerb-core:jar:1.1.1:compile - omitted for duplicate)
+|  \- org.apache.kerby:kerb-crypto:jar:1.1.1:compile
+|     +- org.apache.kerby:kerby-util:jar:1.1.1:compile
+|     \- (org.apache.kerby:kerb-core:jar:1.1.1:compile - omitted for duplicate)
++- org.apache.kerby:kerb-admin:jar:1.1.1:compile
+|  +- (org.apache.kerby:kerb-server:jar:1.1.1:compile - omitted for duplicate)
+|  +- (org.apache.kerby:kerb-util:jar:1.1.1:compile - omitted for duplicate)
+|  \- org.apache.kerby:kerby-xdr:jar:1.1.1:compile
++- org.apache.kerby:kerb-admin-server:jar:1.1.1:compile
+|  +- (org.apache.kerby:kerby-config:jar:1.1.1:compile - omitted for duplicate)
+|  +- (org.apache.kerby:kerb-identity:jar:1.1.1:compile - omitted for duplicate)
+|  +- (org.apache.kerby:kerb-util:jar:1.1.1:compile - omitted for duplicate)
+|  +- (org.apache.kerby:kerb-admin:jar:1.1.1:compile - omitted for duplicate)
+|  \- (org.apache.kerby:kerb-common:jar:1.1.1:compile - omitted for duplicate)
+\- org.jline:jline:jar:3.6.0:compile

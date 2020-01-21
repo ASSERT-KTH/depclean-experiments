@@ -1,0 +1,13 @@
+com.sflpro.identity:identity-api-common:jar:0.0.5
++- com.sflpro.identity:identity-core-datatypes:jar:0.0.5:compile
++- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.2:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.9.2:compile
+|  \- com.fasterxml.jackson.core:jackson-core:jar:2.9.2:compile
++- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.2:compile
++- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.2:compile
++- javax.ws.rs:javax.ws.rs-api:jar:2.1:compile
++- javax.validation:validation-api:jar:2.0.0.Final:compile
++- org.apache.commons:commons-lang3:jar:3.7:compile
+\- io.swagger:swagger-models:jar:1.5.17:compile
+   +- org.slf4j:slf4j-api:jar:1.7.25:compile
+   \- io.swagger:swagger-annotations:jar:1.5.17:compile

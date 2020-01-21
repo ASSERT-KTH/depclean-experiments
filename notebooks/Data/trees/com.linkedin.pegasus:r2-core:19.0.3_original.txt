@@ -1,0 +1,43 @@
+com.linkedin.pegasus:r2-core:jar:19.0.3
++- org.slf4j:slf4j-api:jar:1.6.2:compile
++- com.linkedin.pegasus:data:jar:19.0.3:compile
+|  +- org.antlr:antlr4:jar:4.5:compile
+|  |  +- org.antlr:antlr4-runtime:jar:4.5:compile
+|  |  |  \- org.abego.treelayout:org.abego.treelayout.core:jar:1.0.1:compile
+|  |  +- org.antlr:antlr-runtime:jar:3.5.2:compile
+|  |  \- org.antlr:ST4:jar:4.0.8:compile
+|  |     \- (org.antlr:antlr-runtime:jar:3.5.2:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.6.2:compile - omitted for duplicate)
+|  +- org.apache.commons:commons-lang3:jar:3.4:compile
+|  +- com.google.guava:guava:jar:19.0:compile
+|  \- com.fasterxml.jackson.core:jackson-core:jar:2.8.3:compile
++- com.linkedin.pegasus:pegasus-common:jar:19.0.3:compile
+|  \- (org.slf4j:slf4j-api:jar:1.6.2:compile - omitted for duplicate)
++- javax.servlet:javax.servlet-api:jar:3.1.0:compile
++- javax.mail:mail:jar:1.4.1:compile
+|  \- javax.activation:activation:jar:1.1:compile
++- (com.linkedin.pegasus:r2-core:jar:19.0.3:test - omitted for cycle)
++- com.linkedin.pegasus:r2-testutils:jar:19.0.3:test
+|  \- (org.slf4j:slf4j-api:jar:1.6.2:test - omitted for duplicate)
++- org.testng:testng:jar:6.9.9:test
+|  +- junit:junit:jar:4.10:test
+|  |  \- org.hamcrest:hamcrest-core:jar:1.1:test
+|  +- com.beust:jcommander:jar:1.48:test
+|  +- org.apache.ant:ant:jar:1.7.0:test
+|  |  \- org.apache.ant:ant-launcher:jar:1.7.0:test
+|  +- org.yaml:snakeyaml:jar:1.15:test
+|  \- org.beanshell:bsh:jar:2.0b4:test
++- org.easymock:easymock:jar:3.1:test
+|  +- cglib:cglib-nodep:jar:2.2.2:test
+|  \- org.objenesis:objenesis:jar:1.2:test
+\- com.linkedin.pegasus:log-test-config:jar:19.0.3:test
+   +- (org.slf4j:slf4j-api:jar:1.6.2:test - omitted for duplicate)
+   +- org.apache.logging.log4j:log4j-slf4j-impl:jar:2.0.2:test
+   |  +- (org.slf4j:slf4j-api:jar:1.7.7:test - omitted for conflict with 1.6.2)
+   |  \- (org.apache.logging.log4j:log4j-api:jar:2.0.2:test - omitted for duplicate)
+   +- org.apache.logging.log4j:log4j-api:jar:2.0.2:test
+   +- org.apache.logging.log4j:log4j-core:jar:2.0.2:test
+   |  \- (org.apache.logging.log4j:log4j-api:jar:2.0.2:test - omitted for duplicate)
+   \- org.apache.logging.log4j:log4j-1.2-api:jar:2.0.2:test
+      +- (org.apache.logging.log4j:log4j-api:jar:2.0.2:test - omitted for duplicate)
+      \- (org.apache.logging.log4j:log4j-core:jar:2.0.2:test - omitted for duplicate)

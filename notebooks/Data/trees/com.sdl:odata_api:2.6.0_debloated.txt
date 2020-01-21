@@ -1,0 +1,7 @@
+com.sdl:odata_api:jar:2.6.0
++- org.scala-lang:scala-library:jar:2.12.2:compile
++- javax.servlet:javax.servlet-api:jar:3.0.1:provided
++- org.slf4j:slf4j-api:jar:1.7.25:compile
+\- ch.qos.logback:logback-classic:jar:1.2.3:runtime
+   +- ch.qos.logback:logback-core:jar:1.2.3:runtime
+   \- (org.slf4j:slf4j-api:jar:1.7.25:runtime - omitted for duplicate)

@@ -1,0 +1,42 @@
+org.springframework.kafka:spring-kafka:jar:2.1.5.RELEASE
++- org.springframework:spring-context:jar:5.0.4.RELEASE:compile
+|  +- org.springframework:spring-aop:jar:5.0.4.RELEASE:compile
+|  |  +- (org.springframework:spring-beans:jar:5.0.4.RELEASE:compile - omitted for duplicate)
+|  |  \- (org.springframework:spring-core:jar:5.0.4.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework:spring-beans:jar:5.0.4.RELEASE:compile
+|  |  \- (org.springframework:spring-core:jar:5.0.4.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework:spring-core:jar:5.0.4.RELEASE:compile
+|  |  \- org.springframework:spring-jcl:jar:5.0.4.RELEASE:compile
+|  \- org.springframework:spring-expression:jar:5.0.4.RELEASE:compile
+|     \- (org.springframework:spring-core:jar:5.0.4.RELEASE:compile - omitted for duplicate)
++- org.springframework:spring-messaging:jar:5.0.4.RELEASE:compile
+|  +- (org.springframework:spring-beans:jar:5.0.4.RELEASE:compile - omitted for duplicate)
+|  \- (org.springframework:spring-core:jar:5.0.4.RELEASE:compile - omitted for duplicate)
++- org.springframework:spring-tx:jar:5.0.4.RELEASE:compile
+|  +- (org.springframework:spring-beans:jar:5.0.4.RELEASE:compile - omitted for duplicate)
+|  \- (org.springframework:spring-core:jar:5.0.4.RELEASE:compile - omitted for duplicate)
++- org.springframework.retry:spring-retry:jar:1.2.2.RELEASE:compile
+|  \- (org.springframework:spring-core:jar:4.3.13.RELEASE:compile - omitted for conflict with 5.0.4.RELEASE)
++- org.apache.kafka:kafka-clients:jar:1.0.1:compile
+|  +- org.lz4:lz4-java:jar:1.4:compile
+|  \- org.xerial.snappy:snappy-java:jar:1.1.4:compile
++- org.apache.kafka:kafka-streams:jar:1.0.1:compile
+|  +- (org.apache.kafka:kafka-clients:jar:1.0.1:compile - omitted for duplicate)
+|  +- org.apache.kafka:connect-json:jar:1.0.1:compile
+|  |  +- org.apache.kafka:connect-api:jar:1.0.1:compile
+|  |  |  \- (org.apache.kafka:kafka-clients:jar:1.0.1:compile - omitted for duplicate)
+|  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.1:compile - omitted for conflict with 2.9.4)
+|  \- org.rocksdb:rocksdbjni:jar:5.7.3:compile
++- com.fasterxml.jackson.core:jackson-core:jar:2.9.4:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.9.4:compile
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.4:compile - omitted for duplicate)
++- org.springframework.data:spring-data-commons:jar:2.0.4.RELEASE:compile
+|  +- (org.springframework:spring-core:jar:5.0.4.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-beans:jar:5.0.4.RELEASE:compile - omitted for duplicate)
+|  \- org.slf4j:slf4j-api:jar:1.7.25:compile
+\- com.jayway.jsonpath:json-path:jar:2.4.0:compile
+   +- net.minidev:json-smart:jar:2.3:compile
+   |  \- net.minidev:accessors-smart:jar:1.2:compile
+   |     \- org.ow2.asm:asm:jar:5.0.4:compile
+   \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)

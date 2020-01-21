@@ -1,0 +1,55 @@
+com.spinoco:fs2-http_2.12:jar:0.3.0
++- org.scala-lang:scala-library:jar:2.12.1:compile
++- org.scodec:scodec-bits_2.12:jar:1.1.4:compile
+|  \- (org.scala-lang:scala-library:jar:2.12.1:compile - omitted for duplicate)
++- org.scodec:scodec-core_2.12:jar:1.10.3:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.1)
+|  +- (org.scodec:scodec-bits_2.12:jar:1.1.2:compile - omitted for conflict with 1.1.4)
+|  \- com.chuusai:shapeless_2.12:jar:2.3.2:compile
+|     +- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.1)
+|     \- org.typelevel:macro-compat_2.12:jar:1.1.1:compile
+|        \- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.1)
++- com.spinoco:protocol-http_2.12:jar:0.3.4:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.1:compile - omitted for duplicate)
+|  +- com.spinoco:protocol-common_2.12:jar:0.3.4:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.1:compile - omitted for duplicate)
+|  |  +- (org.scodec:scodec-bits_2.12:jar:1.1.5:compile - omitted for conflict with 1.1.4)
+|  |  \- (org.scodec:scodec-core_2.12:jar:1.10.3:compile - omitted for duplicate)
+|  +- com.spinoco:protocol-mime_2.12:jar:0.3.4:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.1:compile - omitted for duplicate)
+|  |  +- (com.spinoco:protocol-common_2.12:jar:0.3.4:compile - omitted for duplicate)
+|  |  +- (org.scodec:scodec-bits_2.12:jar:1.1.5:compile - omitted for conflict with 1.1.4)
+|  |  \- (org.scodec:scodec-core_2.12:jar:1.10.3:compile - omitted for duplicate)
+|  +- (org.scodec:scodec-bits_2.12:jar:1.1.5:compile - omitted for conflict with 1.1.4)
+|  \- (org.scodec:scodec-core_2.12:jar:1.10.3:compile - omitted for duplicate)
++- com.spinoco:protocol-websocket_2.12:jar:0.3.4:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.1:compile - omitted for duplicate)
+|  +- (com.spinoco:protocol-common_2.12:jar:0.3.4:compile - omitted for duplicate)
+|  +- (org.scodec:scodec-bits_2.12:jar:1.1.5:compile - omitted for conflict with 1.1.4)
+|  \- (org.scodec:scodec-core_2.12:jar:1.10.3:compile - omitted for duplicate)
++- co.fs2:fs2-core_2.12:jar:0.10.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.1)
+|  \- org.typelevel:cats-effect_2.12:jar:0.8:compile
+|     +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.1)
+|     \- org.typelevel:cats-core_2.12:jar:1.0.1:compile
+|        +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.1)
+|        +- org.typelevel:cats-macros_2.12:jar:1.0.1:compile
+|        |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.1)
+|        |  \- (org.typelevel:machinist_2.12:jar:0.6.2:compile - omitted for duplicate)
+|        +- org.typelevel:cats-kernel_2.12:jar:1.0.1:compile
+|        |  \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.1)
+|        \- org.typelevel:machinist_2.12:jar:0.6.2:compile
+|           +- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.1)
+|           \- org.scala-lang:scala-reflect:jar:2.12.0:compile
+|              \- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.1)
++- co.fs2:fs2-io_2.12:jar:0.10.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.1)
+|  \- (co.fs2:fs2-core_2.12:jar:0.10.0:compile - omitted for duplicate)
++- co.fs2:fs2-scodec_2.12:jar:0.10.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.1)
+|  +- (co.fs2:fs2-core_2.12:jar:0.10.0:compile - omitted for duplicate)
+|  \- (org.scodec:scodec-bits_2.12:jar:1.1.5:compile - omitted for conflict with 1.1.4)
+\- com.spinoco:fs2-crypto_2.12:jar:0.2.0:compile
+   +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.1)
+   +- (co.fs2:fs2-core_2.12:jar:0.10.0:compile - omitted for duplicate)
+   \- (co.fs2:fs2-io_2.12:jar:0.10.0:compile - omitted for duplicate)

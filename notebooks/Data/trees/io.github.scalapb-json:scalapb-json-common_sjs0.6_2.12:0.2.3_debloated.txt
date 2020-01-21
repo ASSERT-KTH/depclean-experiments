@@ -1,0 +1,63 @@
+io.github.scalapb-json:scalapb-json-common_sjs0.6_2.12:jar:0.2.3
++- org.scala-lang:scala-library:jar:2.12.4:compile
++- org.scala-js:scalajs-library_2.12:jar:0.6.22:compile
+|  \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
++- org.scala-js:scalajs-test-interface_2.12:jar:0.6.22:test
+|  +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for duplicate)
+|  \- (org.scala-js:scalajs-library_2.12:jar:0.6.22:test - omitted for duplicate)
++- com.thesamet.scalapb:scalapb-runtime_sjs0.6_2.12:jar:0.7.2:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  +- (org.scala-js:scalajs-library_2.12:jar:0.6.22:compile - omitted for duplicate)
+|  +- com.thesamet.scalapb:lenses_sjs0.6_2.12:jar:0.7.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  |  \- (org.scala-js:scalajs-library_2.12:jar:0.6.22:compile - omitted for duplicate)
+|  +- com.lihaoyi:fastparse_sjs0.6_2.12:jar:1.0.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.3:compile - omitted for conflict with 2.12.4)
+|  |  +- com.lihaoyi:fastparse-utils_sjs0.6_2.12:jar:1.0.0:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.12.3:compile - omitted for conflict with 2.12.4)
+|  |  |  +- (org.scala-js:scalajs-library_2.12:jar:0.6.19:compile - omitted for conflict with 0.6.22)
+|  |  |  \- (com.lihaoyi:sourcecode_sjs0.6_2.12:jar:0.1.4:compile - omitted for duplicate)
+|  |  +- (org.scala-js:scalajs-library_2.12:jar:0.6.19:compile - omitted for conflict with 0.6.22)
+|  |  \- com.lihaoyi:sourcecode_sjs0.6_2.12:jar:0.1.4:compile
+|  |     +- (org.scala-lang:scala-library:jar:2.12.2:compile - omitted for conflict with 2.12.4)
+|  |     \- (org.scala-js:scalajs-library_2.12:jar:0.6.18:compile - omitted for conflict with 0.6.22)
+|  \- com.thesamet.scalapb:protobuf-runtime-scala_sjs0.6_2.12:jar:0.7.1:compile
+|     +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|     \- (org.scala-js:scalajs-library_2.12:jar:0.6.22:compile - omitted for duplicate)
++- com.thesamet.scalapb:scalapb-runtime_2.12:jar:0.7.2:test
+|  +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for duplicate)
+|  +- com.thesamet.scalapb:lenses_2.12:jar:0.7.0:test
+|  |  \- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for duplicate)
+|  +- com.lihaoyi:fastparse_2.12:jar:1.0.0:test
+|  |  +- (org.scala-lang:scala-library:jar:2.12.3:test - omitted for conflict with 2.12.4)
+|  |  +- com.lihaoyi:fastparse-utils_2.12:jar:1.0.0:test
+|  |  |  +- (org.scala-lang:scala-library:jar:2.12.3:test - omitted for conflict with 2.12.4)
+|  |  |  \- (com.lihaoyi:sourcecode_2.12:jar:0.1.4:test - omitted for duplicate)
+|  |  \- com.lihaoyi:sourcecode_2.12:jar:0.1.4:test
+|  |     \- (org.scala-lang:scala-library:jar:2.12.2:test - omitted for conflict with 2.12.4)
+|  \- com.google.protobuf:protobuf-java:jar:3.5.1:test
++- com.lihaoyi:utest_sjs0.6_2.12:jar:0.6.4:test
+|  +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for duplicate)
+|  +- (org.scala-js:scalajs-library_2.12:jar:0.6.22:test - omitted for duplicate)
+|  +- (org.scala-js:scalajs-test-interface_2.12:jar:0.6.22:test - omitted for duplicate)
+|  \- org.scala-lang:scala-reflect:jar:2.12.4:test
+|     \- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for duplicate)
++- io.github.cquiroz:scala-java-time_sjs0.6_2.12:jar:2.0.0-M13:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  +- (org.scala-js:scalajs-library_2.12:jar:0.6.22:compile - omitted for duplicate)
+|  \- io.github.cquiroz:scala-java-locales_sjs0.6_2.12:jar:0.3.10-cldr32:compile
+|     +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|     \- (org.scala-js:scalajs-library_2.12:jar:0.6.21:compile - omitted for conflict with 0.6.22)
+\- com.github.scalaprops:scalaprops_sjs0.6_2.12:jar:0.5.4:test
+   +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for duplicate)
+   +- com.github.scalaprops:scalaprops-core_sjs0.6_2.12:jar:0.5.4:test
+   |  +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for duplicate)
+   |  +- com.github.scalaprops:scalaprops-gen_sjs0.6_2.12:jar:0.5.4:test
+   |  |  +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for duplicate)
+   |  |  +- (org.scala-js:scalajs-library_2.12:jar:0.6.22:test - omitted for duplicate)
+   |  |  \- org.scalaz:scalaz-core_sjs0.6_2.12:jar:7.2.20:test
+   |  |     +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for duplicate)
+   |  |     \- (org.scala-js:scalajs-library_2.12:jar:0.6.22:test - omitted for duplicate)
+   |  \- (org.scala-js:scalajs-library_2.12:jar:0.6.22:test - omitted for duplicate)
+   +- (org.scala-js:scalajs-library_2.12:jar:0.6.22:test - omitted for duplicate)
+   \- (org.scala-js:scalajs-test-interface_2.12:jar:0.6.22:test - omitted for duplicate)

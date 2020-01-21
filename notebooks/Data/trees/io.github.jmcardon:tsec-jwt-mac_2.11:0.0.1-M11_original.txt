@@ -1,0 +1,95 @@
+io.github.jmcardon:tsec-jwt-mac_2.11:jar:0.0.1-M11
++- org.scala-lang:scala-library:jar:2.11.12:compile
++- io.github.jmcardon:tsec-common_2.11:jar:0.0.1-M11:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  +- (org.typelevel:cats-core_2.11:jar:1.1.0:compile - omitted for duplicate)
+|  +- (commons-codec:commons-codec:jar:1.11:compile - omitted for duplicate)
+|  \- (co.fs2:fs2-io_2.11:jar:0.10.3:compile - omitted for duplicate)
++- io.github.jmcardon:tsec-mac_2.11:jar:0.0.1-M11:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  +- (io.github.jmcardon:tsec-common_2.11:jar:0.0.1-M11:compile - omitted for duplicate)
+|  +- (org.typelevel:cats-core_2.11:jar:1.1.0:compile - omitted for duplicate)
+|  +- (commons-codec:commons-codec:jar:1.11:compile - omitted for duplicate)
+|  \- (co.fs2:fs2-io_2.11:jar:0.10.3:compile - omitted for duplicate)
++- io.github.jmcardon:tsec-jwt-core_2.11:jar:0.0.1-M11:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  +- (io.github.jmcardon:tsec-common_2.11:jar:0.0.1-M11:compile - omitted for duplicate)
+|  +- (io.github.jmcardon:tsec-mac_2.11:jar:0.0.1-M11:compile - omitted for duplicate)
+|  +- io.github.jmcardon:tsec-signatures_2.11:jar:0.0.1-M11:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  |  +- (io.github.jmcardon:tsec-common_2.11:jar:0.0.1-M11:compile - omitted for duplicate)
+|  |  +- io.github.jmcardon:tsec-bouncy_2.11:jar:0.0.1-M11:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  |  |  +- (org.typelevel:cats-core_2.11:jar:1.1.0:compile - omitted for duplicate)
+|  |  |  +- (commons-codec:commons-codec:jar:1.11:compile - omitted for duplicate)
+|  |  |  +- (co.fs2:fs2-io_2.11:jar:0.10.3:compile - omitted for duplicate)
+|  |  |  \- (org.bouncycastle:bcprov-jdk15on:jar:1.58:compile - omitted for duplicate)
+|  |  +- (org.typelevel:cats-core_2.11:jar:1.1.0:compile - omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.11:compile - omitted for duplicate)
+|  |  +- (co.fs2:fs2-io_2.11:jar:0.10.3:compile - omitted for duplicate)
+|  |  \- org.bouncycastle:bcprov-jdk15on:jar:1.58:compile
+|  +- (org.typelevel:cats-core_2.11:jar:1.1.0:compile - omitted for duplicate)
+|  +- (commons-codec:commons-codec:jar:1.11:compile - omitted for duplicate)
+|  +- (co.fs2:fs2-io_2.11:jar:0.10.3:compile - omitted for duplicate)
+|  +- (io.circe:circe-core_2.11:jar:0.9.3:compile - omitted for duplicate)
+|  +- (io.circe:circe-generic_2.11:jar:0.9.3:compile - omitted for duplicate)
+|  +- (io.circe:circe-generic-extras_2.11:jar:0.9.3:compile - omitted for duplicate)
+|  \- (io.circe:circe-parser_2.11:jar:0.9.3:compile - omitted for duplicate)
++- org.typelevel:cats-core_2.11:jar:1.1.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  +- org.typelevel:cats-macros_2.11:jar:1.1.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  |  \- (org.typelevel:machinist_2.11:jar:0.6.2:compile - omitted for duplicate)
+|  +- org.typelevel:cats-kernel_2.11:jar:1.1.0:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  \- org.typelevel:machinist_2.11:jar:0.6.2:compile
+|     +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.12)
+|     \- org.scala-lang:scala-reflect:jar:2.11.11:compile
+|        \- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.12)
++- org.scalatest:scalatest_2.11:jar:3.0.4:test
+|  +- (org.scala-lang:scala-library:jar:2.11.11:test - omitted for conflict with 2.11.12)
+|  +- org.scalactic:scalactic_2.11:jar:3.0.4:test
+|  |  +- (org.scala-lang:scala-library:jar:2.11.11:test - omitted for conflict with 2.11.12)
+|  |  \- (org.scala-lang:scala-reflect:jar:2.11.11:test - omitted for conflict with 2.11.11)
+|  +- (org.scala-lang:scala-reflect:jar:2.11.11:compile - scope updated from test; omitted for duplicate)
+|  +- org.scala-lang.modules:scala-xml_2.11:jar:1.0.5:test
+|  |  \- (org.scala-lang:scala-library:jar:2.11.7:test - omitted for conflict with 2.11.12)
+|  \- org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.0.4:test
+|     \- (org.scala-lang:scala-library:jar:2.11.6:test - omitted for conflict with 2.11.12)
++- org.scalacheck:scalacheck_2.11:jar:1.13.5:test
+|  +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.12)
+|  \- org.scala-sbt:test-interface:jar:1.0:test
++- commons-codec:commons-codec:jar:1.11:compile
++- co.fs2:fs2-io_2.11:jar:0.10.3:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  \- co.fs2:fs2-core_2.11:jar:0.10.3:compile
+|     +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|     +- org.typelevel:cats-effect_2.11:jar:0.10:compile
+|     |  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|     |  \- (org.typelevel:cats-core_2.11:jar:1.0.1:compile - omitted for conflict with 1.1.0)
+|     \- (org.typelevel:cats-core_2.11:jar:1.1.0:compile - omitted for duplicate)
++- io.circe:circe-core_2.11:jar:0.9.3:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  +- io.circe:circe-numbers_2.11:jar:0.9.3:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  \- (org.typelevel:cats-core_2.11:jar:1.0.1:compile - omitted for conflict with 1.1.0)
++- io.circe:circe-generic_2.11:jar:0.9.3:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  +- (io.circe:circe-core_2.11:jar:0.9.3:compile - omitted for duplicate)
+|  +- org.typelevel:macro-compat_2.11:jar:1.1.1:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.11.7:compile - omitted for conflict with 2.11.12)
+|  \- com.chuusai:shapeless_2.11:jar:2.3.3:compile
+|     +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|     \- (org.typelevel:macro-compat_2.11:jar:1.1.1:compile - omitted for duplicate)
++- io.circe:circe-generic-extras_2.11:jar:0.9.3:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  +- (io.circe:circe-generic_2.11:jar:0.9.3:compile - omitted for duplicate)
+|  \- (org.typelevel:macro-compat_2.11:jar:1.1.1:compile - omitted for duplicate)
+\- io.circe:circe-parser_2.11:jar:0.9.3:compile
+   +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+   +- io.circe:circe-jawn_2.11:jar:0.9.3:compile
+   |  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+   |  +- (io.circe:circe-core_2.11:jar:0.9.3:compile - omitted for duplicate)
+   |  \- org.spire-math:jawn-parser_2.11:jar:0.11.1:compile
+   |     \- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
+   \- (io.circe:circe-core_2.11:jar:0.9.3:compile - omitted for duplicate)

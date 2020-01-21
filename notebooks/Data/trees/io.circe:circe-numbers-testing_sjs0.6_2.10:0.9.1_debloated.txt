@@ -1,0 +1,8 @@
+io.circe:circe-numbers-testing_sjs0.6_2.10:jar:0.9.1
++- org.scala-lang:scala-library:jar:2.10.7:compile
+\- org.scalacheck:scalacheck_sjs0.6_2.10:jar:1.13.5:compile
+   +- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for conflict with 2.10.7)
+   +- (org.scala-js:scalajs-library_2.10:jar:0.6.13:compile - omitted for conflict with 0.6.21)
+   \- org.scala-js:scalajs-test-interface_2.10:jar:0.6.13:compile
+      +- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for conflict with 2.10.7)
+      \- (org.scala-js:scalajs-library_2.10:jar:0.6.13:compile - omitted for conflict with 0.6.21)

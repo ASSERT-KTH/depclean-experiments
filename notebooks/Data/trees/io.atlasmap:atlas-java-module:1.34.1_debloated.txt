@@ -1,0 +1,18 @@
+io.atlasmap:atlas-java-module:bundle:1.34.1
++- io.atlasmap:atlas-model:jar:1.34.1:compile
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.5:compile
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.8.5:compile
+|  \- com.fasterxml.jackson.core:jackson-core:jar:2.8.5:compile
++- io.atlasmap:atlas-api:jar:1.34.1:compile
++- io.atlasmap:atlas-core:jar:1.34.1:compile
+|  \- org.slf4j:slf4j-api:jar:1.7.23:compile
++- io.atlasmap:atlas-java-model:jar:1.34.1:compile
+|  \- javax.xml.bind:jaxb-api:jar:2.2.12:compile
++- io.atlasmap:atlas-java-core:jar:1.34.1:compile
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.apache.logging.log4j:log4j-api:jar:2.8.1:test
++- org.apache.logging.log4j:log4j-core:jar:2.8.1:test
++- org.apache.logging.log4j:log4j-slf4j-impl:jar:2.8.1:test
++- io.atlasmap:atlas-java-test-model:jar:1.34.1:test
+\- io.atlasmap:atlas-core:jar:tests:1.34.1:test

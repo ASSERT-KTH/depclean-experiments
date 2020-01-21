@@ -1,0 +1,24 @@
+io.scalecube:scalecube-services-jackson:jar:2.1.4
++- io.scalecube:scalecube-services-codec:jar:2.1.4:compile
+|  +- io.scalecube:scalecube-services-api:jar:2.1.4:compile
+|  |  +- io.projectreactor:reactor-core:jar:3.1.8.RELEASE:compile
+|  |  |  \- org.reactivestreams:reactive-streams:jar:1.0.2:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.7:compile - version managed from 1.7.21; omitted for duplicate)
+|  |  +- (org.apache.logging.log4j:log4j-slf4j-impl:jar:2.6.2:compile - omitted for duplicate)
+|  |  \- (org.apache.logging.log4j:log4j-core:jar:2.6.2:compile - omitted for duplicate)
+|  +- io.netty:netty-common:jar:4.1.25.Final:compile
+|  +- io.netty:netty-buffer:jar:4.1.25.Final:compile
+|  |  \- (io.netty:netty-common:jar:4.1.25.Final:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.7:compile - version managed from 1.7.21; omitted for duplicate)
+|  +- (org.apache.logging.log4j:log4j-slf4j-impl:jar:2.6.2:compile - omitted for duplicate)
+|  \- (org.apache.logging.log4j:log4j-core:jar:2.6.2:compile - omitted for duplicate)
++- com.fasterxml.jackson.core:jackson-databind:jar:2.9.0:compile
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.0:compile - omitted for duplicate)
++- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.0:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.0:compile - omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.0:compile - omitted for duplicate)
+\- org.apache.logging.log4j:log4j-slf4j-impl:jar:2.6.2:compile
+   +- (org.slf4j:slf4j-api:jar:1.7.7:compile - version managed from 1.7.21; omitted for duplicate)
+   \- org.apache.logging.log4j:log4j-api:jar:2.6.2:compile

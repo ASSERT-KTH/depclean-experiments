@@ -1,0 +1,39 @@
+com.hubspot.slack:slack-base:jar:1.0
++- com.fasterxml.jackson.core:jackson-databind:jar:2.7.9.1:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.7.9:compile - version managed from 2.7.0; omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.7.9:compile - omitted for duplicate)
++- com.fasterxml.jackson.datatype:jackson-datatype-guava:jar:2.7.9:compile
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.7.9.1:compile - version managed from 2.7.9; omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.7.9:compile - omitted for duplicate)
++- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.7.9:compile
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.7.9:compile - omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.7.9.1:compile - version managed from 2.7.9; omitted for duplicate)
++- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.7.9:compile
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.7.9:compile - omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.7.9.1:compile - version managed from 2.7.9; omitted for duplicate)
++- com.fasterxml.jackson.datatype:jackson-datatype-joda:jar:2.7.9:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.7.9:compile - version managed from 2.7.0; omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.7.9:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.7.9.1:compile - version managed from 2.7.9; omitted for duplicate)
+|  \- joda-time:joda-time:jar:2.9.4:compile (version managed from 2.4)
++- com.hubspot.immutables:hubspot-style:jar:1.2:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.7.9:compile - version managed from 2.7.0; omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.7.9.1:compile - version managed from 2.7.9; omitted for duplicate)
+|  +- (com.google.code.findbugs:annotations:jar:3.0.1:compile - omitted for duplicate)
+|  \- (com.hubspot.immutables:immutables-exceptions:jar:1.2:compile - omitted for duplicate)
++- com.hubspot.immutables:immutables-exceptions:jar:1.2:compile
++- com.google.code.findbugs:annotations:jar:3.0.1:compile
++- com.fasterxml.jackson.core:jackson-annotations:jar:2.7.9:compile
++- org.immutables:value:jar:2.2.10:provided
++- com.google.guava:guava:jar:22.0:compile
+|  +- com.google.errorprone:error_prone_annotations:jar:2.0.18:compile
+|  +- com.google.j2objc:j2objc-annotations:jar:1.1:compile
+|  \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:compile
++- com.fasterxml.jackson.core:jackson-core:jar:2.7.9:compile
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.assertj:assertj-core:jar:3.4.1:test
+\- org.reflections:reflections:jar:0.9.10:test
+   +- (com.google.guava:guava:jar:22.0:test - version managed from 15.0; omitted for duplicate)
+   +- org.javassist:javassist:jar:3.22.0-GA:test (version managed from 3.19.0-GA)
+   \- (com.google.code.findbugs:annotations:jar:3.0.1:test - version managed from 2.0.1; omitted for duplicate)

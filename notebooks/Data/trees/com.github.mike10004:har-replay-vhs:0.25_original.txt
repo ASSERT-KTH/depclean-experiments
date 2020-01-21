@@ -1,0 +1,158 @@
+com.github.mike10004:har-replay-vhs:jar:0.25
++- com.github.mike10004:har-replay-core:jar:0.25:compile
+|  +- com.google.guava:guava:jar:24.1-jre:compile
+|  |  +- (com.google.code.findbugs:jsr305:jar:3.0.1:compile - version managed from 1.3.9; omitted for duplicate)
+|  |  +- org.checkerframework:checker-compat-qual:jar:2.0.0:compile
+|  |  +- com.google.errorprone:error_prone_annotations:jar:2.1.3:compile
+|  |  +- com.google.j2objc:j2objc-annotations:jar:1.1:compile
+|  |  \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:compile
+|  +- commons-io:commons-io:jar:2.6:compile
+|  +- com.google.code.gson:gson:jar:2.8.2:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.24; omitted for duplicate)
+|  +- (org.apache.commons:commons-lang3:jar:3.6:compile - version managed from 3.5; omitted for duplicate)
+|  \- (com.google.code.findbugs:jsr305:jar:3.0.1:compile - version managed from 1.3.9; omitted for duplicate)
++- com.github.mike10004:virtual-har-server:jar:0.25:compile
+|  +- net.lightbody.bmp:browsermob-core:jar:2.1.5:compile
+|  |  +- net.lightbody.bmp:littleproxy:jar:1.1.0-beta-bmp-17:compile
+|  |  |  +- (com.google.guava:guava:jar:24.1-jre:compile - version managed from 22.0-android; omitted for duplicate)
+|  |  |  +- (org.apache.commons:commons-lang3:jar:3.6:compile - version managed from 3.5; omitted for duplicate)
+|  |  |  +- (io.netty:netty-all:jar:4.0.49.Final:compile - omitted for conflict with 4.0.51.Final)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  |  +- com.fasterxml.jackson.core:jackson-core:jar:2.8.9:compile
+|  |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.8.9:compile
+|  |  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.9:compile - version managed from 2.8.0; omitted for duplicate)
+|  |  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.8.9:compile - omitted for duplicate)
+|  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.9:compile
+|  |  +- (com.google.guava:guava:jar:24.1-jre:compile - version managed from 23.0-android; omitted for duplicate)
+|  |  +- dnsjava:dnsjava:jar:2.1.8:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  |  +- org.slf4j:jcl-over-slf4j:jar:1.7.25:compile
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  |  +- com.jcraft:jzlib:jar:1.1.3:compile
+|  |  +- io.netty:netty-all:jar:4.0.51.Final:compile
+|  |  +- org.bouncycastle:bcprov-jdk15on:jar:1.58:compile
+|  |  +- org.bouncycastle:bcpkix-jdk15on:jar:1.58:compile
+|  |  |  \- (org.bouncycastle:bcprov-jdk15on:jar:1.58:compile - omitted for duplicate)
+|  |  \- net.lightbody.bmp:mitm:jar:2.1.5:compile
+|  |     +- (org.bouncycastle:bcprov-jdk15on:jar:1.58:compile - omitted for duplicate)
+|  |     \- (org.bouncycastle:bcpkix-jdk15on:jar:1.58:compile - omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.6:compile - omitted for duplicate)
+|  +- (org.apache.commons:commons-text:jar:1.3:compile - omitted for duplicate)
+|  +- de.sstoehr:har-reader:jar:2.0.1:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.9:compile - version managed from 2.6.1; omitted for duplicate)
+|  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.9:compile - version managed from 2.6.1; omitted for duplicate)
+|  +- org.brotli:dec:jar:0.1.2:compile
+|  +- commons-validator:commons-validator:jar:1.6:compile
+|  |  +- commons-beanutils:commons-beanutils:jar:1.9.2:compile
+|  |  |  +- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for conflict with 1.2)
+|  |  |  \- (commons-collections:commons-collections:jar:3.2.1:compile - omitted for conflict with 3.2.2)
+|  |  +- commons-digester:commons-digester:jar:1.8.1:compile
+|  |  +- commons-logging:commons-logging:jar:1.2:compile
+|  |  \- commons-collections:commons-collections:jar:3.2.2:compile
+|  \- (com.google.code.findbugs:jsr305:jar:3.0.1:compile - version managed from 1.3.9; omitted for duplicate)
++- com.github.mike10004:har-replay-test-support:jar:0.25:test
+|  +- (com.github.mike10004:har-replay-core:jar:0.25:test - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:24.1-jre:test - version managed from 23.0-android; omitted for duplicate)
+|  +- junit:junit:jar:4.12:test
+|  |  \- org.hamcrest:hamcrest-core:jar:1.3:test
+|  +- org.slf4j:slf4j-simple:jar:1.7.25:test
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)
+|  +- org.apache.httpcomponents:httpclient:jar:4.5.5:test
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.4.9:test
+|  |  +- (commons-logging:commons-logging:jar:1.2:test - omitted for duplicate)
+|  |  \- commons-codec:commons-codec:jar:1.10:test
+|  +- io.github.bonigarcia:webdrivermanager:jar:2.1.0:test
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:test - version managed from 1.7.24; omitted for duplicate)
+|  |  +- (commons-io:commons-io:jar:2.6:test - version managed from 2.5; omitted for duplicate)
+|  |  +- (com.google.code.gson:gson:jar:2.8.2:test - version managed from 2.8.0; omitted for duplicate)
+|  |  +- (org.apache.commons:commons-lang3:jar:3.6:test - version managed from 3.5; omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.5:test - version managed from 4.5.3; omitted for duplicate)
+|  |  +- org.rauschig:jarchivelib:jar:0.7.1:test
+|  |  |  \- org.apache.commons:commons-compress:jar:1.9:test
+|  |  \- org.jsoup:jsoup:jar:1.10.2:test
+|  +- org.seleniumhq.selenium:selenium-java:jar:3.11.0:test
+|  |  +- org.seleniumhq.selenium:selenium-api:jar:3.11.0:test
+|  |  +- org.seleniumhq.selenium:selenium-chrome-driver:jar:3.11.0:test
+|  |  |  +- (org.seleniumhq.selenium:selenium-api:jar:3.11.0:test - omitted for duplicate)
+|  |  |  +- (org.seleniumhq.selenium:selenium-remote-driver:jar:3.11.0:test - omitted for duplicate)
+|  |  |  +- (net.bytebuddy:byte-buddy:jar:1.7.9:test - omitted for duplicate)
+|  |  |  +- (org.apache.commons:commons-exec:jar:1.3:test - omitted for duplicate)
+|  |  |  +- (commons-codec:commons-codec:jar:1.10:test - omitted for duplicate)
+|  |  |  +- (commons-logging:commons-logging:jar:1.2:test - omitted for duplicate)
+|  |  |  +- (com.google.code.gson:gson:jar:2.8.2:test - version managed from 2.8.0; omitted for duplicate)
+|  |  |  +- (com.google.guava:guava:jar:24.1-jre:test - version managed from 23.6-jre; omitted for duplicate)
+|  |  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.5:test - version managed from 4.5.3; omitted for duplicate)
+|  |  |  +- (org.apache.httpcomponents:httpcore:jar:4.4.9:test - version managed from 4.4.6; omitted for duplicate)
+|  |  |  +- (com.squareup.okhttp3:okhttp:jar:3.9.1:test - omitted for duplicate)
+|  |  |  \- (com.squareup.okio:okio:jar:1.13.0:test - omitted for duplicate)
+|  |  +- org.seleniumhq.selenium:selenium-firefox-driver:jar:3.11.0:test
+|  |  |  +- (org.seleniumhq.selenium:selenium-api:jar:3.11.0:test - omitted for duplicate)
+|  |  |  +- (org.seleniumhq.selenium:selenium-remote-driver:jar:3.11.0:test - omitted for duplicate)
+|  |  |  +- (net.bytebuddy:byte-buddy:jar:1.7.9:test - omitted for duplicate)
+|  |  |  +- (org.apache.commons:commons-exec:jar:1.3:test - omitted for duplicate)
+|  |  |  +- (commons-codec:commons-codec:jar:1.10:test - omitted for duplicate)
+|  |  |  +- (commons-logging:commons-logging:jar:1.2:test - omitted for duplicate)
+|  |  |  +- (com.google.code.gson:gson:jar:2.8.2:test - version managed from 2.8.0; omitted for duplicate)
+|  |  |  +- (com.google.guava:guava:jar:24.1-jre:test - version managed from 23.6-jre; omitted for duplicate)
+|  |  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.5:test - version managed from 4.5.3; omitted for duplicate)
+|  |  |  +- (org.apache.httpcomponents:httpcore:jar:4.4.9:test - version managed from 4.4.6; omitted for duplicate)
+|  |  |  +- (com.squareup.okhttp3:okhttp:jar:3.9.1:test - omitted for duplicate)
+|  |  |  \- (com.squareup.okio:okio:jar:1.13.0:test - omitted for duplicate)
+|  |  +- org.seleniumhq.selenium:selenium-remote-driver:jar:3.11.0:test
+|  |  |  +- (org.seleniumhq.selenium:selenium-api:jar:3.11.0:test - omitted for duplicate)
+|  |  |  +- (net.bytebuddy:byte-buddy:jar:1.7.9:test - omitted for duplicate)
+|  |  |  +- (org.apache.commons:commons-exec:jar:1.3:test - omitted for duplicate)
+|  |  |  +- (commons-codec:commons-codec:jar:1.10:test - omitted for duplicate)
+|  |  |  +- (commons-logging:commons-logging:jar:1.2:test - omitted for duplicate)
+|  |  |  +- (com.google.code.gson:gson:jar:2.8.2:test - version managed from 2.8.0; omitted for duplicate)
+|  |  |  +- (com.google.guava:guava:jar:24.1-jre:test - version managed from 23.6-jre; omitted for duplicate)
+|  |  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.5:test - version managed from 4.5.3; omitted for duplicate)
+|  |  |  +- (org.apache.httpcomponents:httpcore:jar:4.4.9:test - version managed from 4.4.6; omitted for duplicate)
+|  |  |  +- (com.squareup.okhttp3:okhttp:jar:3.9.1:test - omitted for duplicate)
+|  |  |  \- (com.squareup.okio:okio:jar:1.13.0:test - omitted for duplicate)
+|  |  +- org.seleniumhq.selenium:selenium-support:jar:3.11.0:test
+|  |  |  +- (org.seleniumhq.selenium:selenium-api:jar:3.11.0:test - omitted for duplicate)
+|  |  |  +- (org.seleniumhq.selenium:selenium-remote-driver:jar:3.11.0:test - omitted for duplicate)
+|  |  |  +- (net.bytebuddy:byte-buddy:jar:1.7.9:test - omitted for duplicate)
+|  |  |  +- (org.apache.commons:commons-exec:jar:1.3:test - omitted for duplicate)
+|  |  |  +- (commons-codec:commons-codec:jar:1.10:test - omitted for duplicate)
+|  |  |  +- (commons-logging:commons-logging:jar:1.2:test - omitted for duplicate)
+|  |  |  +- (com.google.code.gson:gson:jar:2.8.2:test - version managed from 2.8.0; omitted for duplicate)
+|  |  |  +- (com.google.guava:guava:jar:24.1-jre:test - version managed from 23.6-jre; omitted for duplicate)
+|  |  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.5:test - version managed from 4.5.3; omitted for duplicate)
+|  |  |  +- (org.apache.httpcomponents:httpcore:jar:4.4.9:test - version managed from 4.4.6; omitted for duplicate)
+|  |  |  +- (com.squareup.okhttp3:okhttp:jar:3.9.1:test - omitted for duplicate)
+|  |  |  \- (com.squareup.okio:okio:jar:1.13.0:test - omitted for duplicate)
+|  |  +- net.bytebuddy:byte-buddy:jar:1.7.9:test
+|  |  +- org.apache.commons:commons-exec:jar:1.3:test
+|  |  +- (commons-codec:commons-codec:jar:1.10:test - omitted for duplicate)
+|  |  +- (commons-logging:commons-logging:jar:1.2:test - omitted for duplicate)
+|  |  +- (com.google.code.gson:gson:jar:2.8.2:test - version managed from 2.8.0; omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:24.1-jre:test - version managed from 23.6-jre; omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.5:test - version managed from 4.5.3; omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpcore:jar:4.4.9:test - version managed from 4.4.6; omitted for duplicate)
+|  |  +- com.squareup.okhttp3:okhttp:jar:3.9.1:test
+|  |  |  \- (com.squareup.okio:okio:jar:1.13.0:test - omitted for duplicate)
+|  |  \- com.squareup.okio:okio:jar:1.13.0:test
+|  +- com.github.mike10004:xvfb-testing:jar:0.16:test
+|  |  +- com.github.mike10004:xvfb-manager:jar:0.16:test
+|  |  |  +- com.github.mike10004:native-helper:jar:8.0.5:test
+|  |  |  |  +- (com.google.guava:guava:jar:24.1-jre:test - version managed from 23.6-jre; omitted for duplicate)
+|  |  |  |  +- (org.apache.commons:commons-lang3:jar:3.6:test - version managed from 3.5; omitted for duplicate)
+|  |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.25:test - version managed from 1.7.24; omitted for duplicate)
+|  |  |  |  \- (com.google.code.findbugs:jsr305:jar:3.0.1:test - version managed from 1.3.9; omitted for duplicate)
+|  |  |  +- com.github.mike10004:imnetio-helper:jar:8.0.5:test
+|  |  |  |  +- (com.google.guava:guava:jar:24.1-jre:test - version managed from 23.6-jre; omitted for duplicate)
+|  |  |  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.5:test - version managed from 4.5; omitted for duplicate)
+|  |  |  |  \- (com.google.code.findbugs:jsr305:jar:3.0.1:test - version managed from 1.3.9; omitted for duplicate)
+|  |  |  +- (commons-io:commons-io:jar:2.6:test - version managed from 2.5; omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.25:test - version managed from 1.7.24; omitted for duplicate)
+|  |  |  \- (com.google.code.gson:gson:jar:2.8.2:test - version managed from 2.7; omitted for duplicate)
+|  |  \- (junit:junit:jar:4.12:test - omitted for duplicate)
+|  +- (de.sstoehr:har-reader:jar:2.0.1:test - omitted for duplicate)
+|  \- (com.google.code.findbugs:jsr305:jar:3.0.1:test - version managed from 1.3.9; omitted for duplicate)
++- org.apache.commons:commons-lang3:jar:3.6:compile
++- org.apache.commons:commons-text:jar:1.3:test (scope not updated to compile)
+|  \- (org.apache.commons:commons-lang3:jar:3.6:test - version managed from 3.7; omitted for duplicate)
++- org.slf4j:slf4j-api:jar:1.7.25:compile
+\- com.google.code.findbugs:jsr305:jar:3.0.1:compile

@@ -1,0 +1,55 @@
+com.powsybl:powsybl-loadflow-api:jar:2.0.0
++- com.fasterxml.jackson.core:jackson-databind:jar:2.8.7:compile
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile
+|  \- com.fasterxml.jackson.core:jackson-core:jar:2.8.7:compile
++- com.powsybl:powsybl-computation:jar:2.0.0:compile
+|  +- com.google.guava:guava:jar:20.0:compile
+|  +- joda-time:joda-time:jar:2.9.7:compile
+|  +- org.slf4j:slf4j-api:jar:1.7.22:compile
+|  \- com.powsybl:powsybl-commons:jar:2.0.0:compile
++- com.powsybl:powsybl-iidm-api:jar:2.0.0:compile
+|  +- org.apache.commons:commons-math3:jar:3.6.1:compile
+|  +- org.ow2.sirocco:sirocco-text-table-formatter:jar:1.0:compile
+|  +- org.codehaus.groovy:groovy-all:jar:2.4.12:compile
+|  \- org.kohsuke:graphviz-api:jar:1.1:compile
++- com.powsybl:powsybl-iidm-converter-api:jar:2.0.0:compile
+|  +- com.google.auto.service:auto-service:jar:1.0-rc2:compile
+|  |  \- com.google.auto:auto-common:jar:0.3:compile
+|  \- com.powsybl:powsybl-computation-local:jar:2.0.0:compile
++- com.powsybl:powsybl-scripting:jar:2.0.0:compile
+|  +- jline:jline:jar:2.12:compile
+|  +- com.powsybl:powsybl-afs-core:jar:2.0.0:compile
+|  |  \- com.powsybl:powsybl-afs-storage-api:jar:2.0.0:compile
+|  |     \- com.powsybl:powsybl-math:jar:2.0.0:compile
+|  |        +- commons-io:commons-io:jar:2.5:compile
+|  |        +- gov.nist.math:jama:jar:1.0.3:compile
+|  |        +- net.sf.trove4j:trove4j:jar:3.0.3:compile
+|  |        \- org.threeten:threeten-extra:jar:1.0:compile
+|  \- com.powsybl:powsybl-tools:jar:2.0.0:compile
++- com.google.jimfs:jimfs:jar:1.1:test
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.mockito:mockito-all:jar:1.10.19:test
++- org.slf4j:slf4j-simple:jar:1.7.22:test
++- com.powsybl:powsybl-commons:test-jar:tests:2.0.0:test
+|  +- commons-cli:commons-cli:jar:1.3.1:compile
+|  +- net.java.truevfs:truevfs-driver-zip:jar:0.12.0:compile
+|  |  +- net.java.truevfs:truevfs-comp-ibm437:jar:0.12.0:runtime
+|  |  |  \- net.java.truecommons:truecommons-annotations:jar:2.5.0:compile
+|  |  |     \- com.google.code.findbugs:annotations:jar:3.0.0:compile
+|  |  \- net.java.truevfs:truevfs-comp-zipdriver:jar:0.12.0:compile
+|  |     +- net.java.truevfs:truevfs-comp-zip:jar:0.12.0:compile
+|  |     |  +- org.bouncycastle:bcprov-jdk15on:jar:1.58:compile
+|  |     |  +- net.java.truecommons:truecommons-io:jar:2.5.0:compile
+|  |     |  +- net.java.truecommons:truecommons-key-spec:jar:2.5.0:compile
+|  |     |  \- net.java.truecommons:truecommons-shed:jar:2.5.0:compile
+|  |     \- net.java.truevfs:truevfs-kernel-spec:jar:0.12.0:compile
+|  |        +- net.java.truecommons:truecommons-cio:jar:2.5.0:compile
+|  |        \- net.java.truecommons:truecommons-services:jar:2.5.0:compile
+|  |           +- net.java.truecommons:truecommons-logging:jar:2.5.0:compile
+|  |           \- javax.inject:javax.inject:jar:1:compile
+|  +- net.sf.supercsv:super-csv:jar:2.4.0:compile
+|  +- org.apache.commons:commons-compress:jar:1.14:compile
+|  +- org.apache.commons:commons-lang3:jar:3.4:compile
+|  \- org.yaml:snakeyaml:jar:1.21:compile
+\- com.powsybl:powsybl-scripting:test-jar:tests:2.0.0:test

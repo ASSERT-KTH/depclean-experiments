@@ -1,0 +1,20 @@
+nz.co.senanque:madura-objects-test-externals:jar:3.3.4
++- nz.co.senanque:madura-rules:jar:3.3.4:compile
+|  +- (nz.co.senanque:madura-objects:jar:3.3.4:compile - omitted for duplicate)
+|  \- nz.co.senanque:madura-utils:jar:3.3.4:compile
+|     +- (org.slf4j:jcl-over-slf4j:jar:1.7.12:compile - omitted for duplicate)
+|     +- (org.springframework:spring-tx:jar:4.3.3.RELEASE:compile - omitted for duplicate)
+|     +- (org.springframework:spring-context:jar:4.3.3.RELEASE:compile - omitted for duplicate)
+|     +- (org.jdom:jdom:jar:1.1:compile - omitted for duplicate)
+|     +- (commons-lang:commons-lang:jar:2.6:compile - version managed from 2.2; omitted for duplicate)
+|     \- com.github.mifmif:generex:jar:1.0.1:compile
+|        \- dk.brics.automaton:automaton:jar:1.11-8:compile
++- org.apache.deltaspike.core:deltaspike-core-api:jar:1.2.1:compile
++- org.apache.deltaspike.core:deltaspike-core-impl:jar:1.2.1:runtime
+|  \- (org.apache.deltaspike.core:deltaspike-core-api:jar:1.2.1:provided - scope managed from runtime; omitted for duplicate)
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- ch.qos.logback:logback-classic:jar:1.1.3:test
+|  \- ch.qos.logback:logback-core:jar:1.1.3:test
+\- org.springframework:spring-test:jar:4.3.3.RELEASE:test
+   \- (org.springframework:spring-core:jar:4.3.3.RELEASE:compile - scope updated from test; omitted for duplicate)

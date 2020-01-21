@@ -1,0 +1,66 @@
+com.github.pshirshov.izumi.r2:idealingua-runtime-rpc-circe_2.12:jar:0.5.11
++- org.scala-lang:scala-library:jar:2.12.6:compile
++- com.github.pshirshov.izumi.r2:fundamentals-collections_2.12:jar:0.5.11:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
+|  \- (org.scala-lang.modules:scala-java8-compat_2.12:jar:0.9.0:compile - omitted for duplicate)
++- com.github.pshirshov.izumi.r2:fundamentals-platform_2.12:jar:0.5.11:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
+|  \- (org.scala-lang.modules:scala-java8-compat_2.12:jar:0.9.0:compile - omitted for duplicate)
++- com.github.pshirshov.izumi.r2:fundamentals-functional_2.12:jar:0.5.11:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
+|  \- (org.scala-lang.modules:scala-java8-compat_2.12:jar:0.9.0:compile - omitted for duplicate)
++- com.github.pshirshov.izumi.r2:idealingua-runtime-rpc_2.12:jar:0.5.11:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
+|  +- (com.github.pshirshov.izumi.r2:fundamentals-collections_2.12:jar:0.5.11:compile - omitted for duplicate)
+|  +- (com.github.pshirshov.izumi.r2:fundamentals-platform_2.12:jar:0.5.11:compile - omitted for duplicate)
+|  +- (com.github.pshirshov.izumi.r2:fundamentals-functional_2.12:jar:0.5.11:compile - omitted for duplicate)
+|  \- (org.scala-lang.modules:scala-java8-compat_2.12:jar:0.9.0:compile - omitted for duplicate)
++- org.scalatest:scalatest_2.12:jar:3.0.5:test
+|  +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for conflict with 2.12.6)
+|  +- org.scalactic:scalactic_2.12:jar:3.0.5:test
+|  |  +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for conflict with 2.12.6)
+|  |  \- (org.scala-lang:scala-reflect:jar:2.12.4:test - omitted for duplicate)
+|  +- (org.scala-lang:scala-reflect:jar:2.12.4:compile - scope updated from test; omitted for duplicate)
+|  \- org.scala-lang.modules:scala-xml_2.12:jar:1.0.6:test
+|     \- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.6)
++- io.circe:circe-core_2.12:jar:0.9.3:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.5:compile - omitted for conflict with 2.12.6)
+|  +- io.circe:circe-numbers_2.12:jar:0.9.3:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.12.5:compile - omitted for conflict with 2.12.6)
+|  \- org.typelevel:cats-core_2.12:jar:1.0.1:compile
+|     +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.6)
+|     +- org.typelevel:cats-macros_2.12:jar:1.0.1:compile
+|     |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.6)
+|     |  \- (org.typelevel:machinist_2.12:jar:0.6.2:compile - omitted for duplicate)
+|     +- org.typelevel:cats-kernel_2.12:jar:1.0.1:compile
+|     |  \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.6)
+|     \- org.typelevel:machinist_2.12:jar:0.6.2:compile
+|        +- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.6)
+|        \- org.scala-lang:scala-reflect:jar:2.12.0:compile
+|           \- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.6)
++- io.circe:circe-generic_2.12:jar:0.9.3:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.5:compile - omitted for conflict with 2.12.6)
+|  +- (io.circe:circe-core_2.12:jar:0.9.3:compile - omitted for duplicate)
+|  +- org.typelevel:macro-compat_2.12:jar:1.1.1:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.6)
+|  \- com.chuusai:shapeless_2.12:jar:2.3.3:compile
+|     +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.6)
+|     \- (org.typelevel:macro-compat_2.12:jar:1.1.1:compile - omitted for duplicate)
++- io.circe:circe-generic-extras_2.12:jar:0.9.3:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.5:compile - omitted for conflict with 2.12.6)
+|  +- (io.circe:circe-generic_2.12:jar:0.9.3:compile - omitted for duplicate)
+|  \- (org.typelevel:macro-compat_2.12:jar:1.1.1:compile - omitted for duplicate)
++- io.circe:circe-parser_2.12:jar:0.9.3:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.5:compile - omitted for conflict with 2.12.6)
+|  +- io.circe:circe-jawn_2.12:jar:0.9.3:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.5:compile - omitted for conflict with 2.12.6)
+|  |  +- (io.circe:circe-core_2.12:jar:0.9.3:compile - omitted for duplicate)
+|  |  \- org.spire-math:jawn-parser_2.12:jar:0.11.1:compile
+|  |     \- (org.scala-lang:scala-library:jar:2.12.2:compile - omitted for conflict with 2.12.6)
+|  \- (io.circe:circe-core_2.12:jar:0.9.3:compile - omitted for duplicate)
++- io.circe:circe-java8_2.12:jar:0.9.3:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.5:compile - omitted for conflict with 2.12.6)
+|  \- (io.circe:circe-core_2.12:jar:0.9.3:compile - omitted for duplicate)
+\- io.circe:circe-derivation_2.12:jar:0.9.0-M3:compile
+   +- (org.scala-lang:scala-library:jar:2.12.5:compile - omitted for conflict with 2.12.6)
+   \- (io.circe:circe-core_2.12:jar:0.9.3:compile - omitted for duplicate)

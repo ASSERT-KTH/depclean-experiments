@@ -1,0 +1,2 @@
+com.panayotis:xray:jar:0.0.2
+\- org.javassist:javassist:jar:3.22.0-GA:compile

@@ -1,0 +1,51 @@
+org.apache.nifi:nifi-toolkit-s2s:jar:1.7.1
++- org.apache.nifi:nifi-site-to-site-client:jar:1.7.1:compile
+|  +- org.apache.nifi:nifi-api:jar:1.7.1:compile
+|  +- org.apache.nifi:nifi-framework-api:jar:1.7.1:compile
+|  |  \- (org.apache.nifi:nifi-api:jar:1.7.1:compile - omitted for duplicate)
+|  +- org.apache.nifi:nifi-utils:jar:1.7.1:compile
+|  |  \- (org.apache.nifi:nifi-api:jar:1.7.1:compile - omitted for duplicate)
+|  +- org.apache.nifi:nifi-security-utils:jar:1.7.1:compile
+|  |  +- (org.apache.nifi:nifi-api:jar:1.7.1:compile - omitted for duplicate)
+|  |  +- (org.apache.nifi:nifi-utils:jar:1.7.1:compile - omitted for duplicate)
+|  |  +- (org.apache.commons:commons-lang3:jar:3.7:compile - omitted for duplicate)
+|  |  +- commons-codec:commons-codec:jar:1.11:compile
+|  |  +- org.bouncycastle:bcprov-jdk15on:jar:1.59:compile
+|  |  +- org.bouncycastle:bcpkix-jdk15on:jar:1.59:compile
+|  |  |  \- (org.bouncycastle:bcprov-jdk15on:jar:1.59:compile - omitted for duplicate)
+|  |  \- org.apache.nifi:nifi-properties:jar:1.7.1:compile
+|  +- org.apache.commons:commons-lang3:jar:3.7:compile
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile - omitted for duplicate)
+|  +- org.apache.nifi:nifi-client-dto:jar:1.7.1:compile
+|  |  +- io.swagger:swagger-annotations:jar:1.5.16:compile
+|  |  \- org.apache.nifi.registry:nifi-registry-data-model:jar:0.2.0:compile
+|  |     +- (io.swagger:swagger-annotations:jar:1.5.16:compile - omitted for duplicate)
+|  |     +- javax.validation:validation-api:jar:2.0.0.Final:compile
+|  |     +- javax.ws.rs:javax.ws.rs-api:jar:2.1:compile
+|  |     \- (org.apache.commons:commons-lang3:jar:3.5:compile - omitted for conflict with 3.7)
+|  +- org.apache.httpcomponents:httpclient:jar:4.5.5:compile
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.4.9:compile
+|  |  +- commons-logging:commons-logging:jar:1.2:compile
+|  |  \- (commons-codec:commons-codec:jar:1.10:compile - omitted for conflict with 1.11)
+|  \- org.apache.httpcomponents:httpasyncclient:jar:4.1.3:compile
+|     +- (org.apache.httpcomponents:httpcore:jar:4.4.6:compile - omitted for conflict with 4.4.9)
+|     +- org.apache.httpcomponents:httpcore-nio:jar:4.4.6:compile
+|     |  \- (org.apache.httpcomponents:httpcore:jar:4.4.6:compile - omitted for conflict with 4.4.9)
+|     +- (org.apache.httpcomponents:httpclient:jar:4.5.3:compile - omitted for conflict with 4.5.5)
+|     \- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
++- commons-cli:commons-cli:jar:1.3.1:compile
++- commons-io:commons-io:jar:2.6:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.5:compile - omitted for duplicate)
++- com.fasterxml.jackson.core:jackson-core:jar:2.9.5:compile
++- org.slf4j:slf4j-log4j12:jar:1.7.25:compile
+|  +- org.slf4j:slf4j-api:jar:1.7.25:provided (scope managed from compile)
+|  \- log4j:log4j:jar:1.2.17:compile
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.mockito:mockito-core:jar:1.10.19:test
+|  +- (org.hamcrest:hamcrest-core:jar:1.1:test - omitted for conflict with 1.3)
+|  \- org.objenesis:objenesis:jar:2.1:test
+\- org.slf4j:slf4j-simple:jar:1.7.25:test
+   \- (org.slf4j:slf4j-api:jar:1.7.25:provided - scope managed from test; omitted for duplicate)

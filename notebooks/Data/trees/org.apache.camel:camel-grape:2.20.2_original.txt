@@ -1,0 +1,23 @@
+org.apache.camel:camel-grape:jar:2.20.2
++- commons-io:commons-io:jar:2.5:compile
++- org.apache.commons:commons-lang3:jar:3.6:compile
++- org.apache.camel:camel-core:jar:2.20.2:compile
+|  +- org.slf4j:slf4j-api:jar:1.7.22:compile
+|  +- com.sun.xml.bind:jaxb-core:jar:2.2.11:compile
+|  \- com.sun.xml.bind:jaxb-impl:jar:2.2.11:compile
++- org.apache.ivy:ivy:jar:2.4.0:compile
++- org.codehaus.groovy:groovy:jar:2.4.12:compile
++- org.apache.camel:camel-test:jar:2.20.2:test
+|  +- (org.apache.camel:camel-core:jar:2.20.2:test - omitted for duplicate)
+|  \- junit:junit:jar:4.12:test
+|     \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.apache.logging.log4j:log4j-api:jar:2.9.1:test
++- org.apache.logging.log4j:log4j-core:jar:2.9.1:test
+|  \- (org.apache.logging.log4j:log4j-api:jar:2.9.1:test - omitted for duplicate)
++- org.apache.logging.log4j:log4j-slf4j-impl:jar:2.9.1:test
+|  +- (org.slf4j:slf4j-api:jar:1.7.22:test - version managed from 1.7.25; omitted for duplicate)
+|  +- (org.apache.logging.log4j:log4j-api:jar:2.9.1:test - omitted for duplicate)
+|  \- (org.apache.logging.log4j:log4j-core:jar:2.9.1:test - omitted for duplicate)
+\- org.apache.camel:apt:jar:2.20.2:provided
+   +- org.apache.camel:spi-annotations:jar:2.20.2:provided
+   \- org.apache.camel:json-simple-ordered:jar:2.20.2:provided

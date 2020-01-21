@@ -1,0 +1,25 @@
+com.alibaba.nls:nls-sdk-common:jar:1.9.0
++- junit:junit:jar:4.11:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.slf4j:slf4j-api:jar:1.7.21:compile
++- com.alibaba:fastjson:jar:1.2.41:compile
++- ch.qos.logback:logback-classic:jar:1.0.13:test
+|  +- ch.qos.logback:logback-core:jar:1.0.13:test
+|  \- (org.slf4j:slf4j-api:jar:1.7.5:test - omitted for conflict with 1.7.21)
++- com.aliyun:aliyun-java-sdk-core:jar:3.5.1:compile
+|  \- org.json:json:jar:20170516:compile
++- io.netty:netty-transport:jar:4.1.9.Final:compile
+|  +- (io.netty:netty-buffer:jar:4.1.9.Final:compile - omitted for duplicate)
+|  \- io.netty:netty-resolver:jar:4.1.9.Final:compile
+|     \- (io.netty:netty-common:jar:4.1.9.Final:compile - omitted for duplicate)
++- io.netty:netty-handler:jar:4.1.9.Final:compile
+|  +- (io.netty:netty-buffer:jar:4.1.9.Final:compile - omitted for duplicate)
+|  +- (io.netty:netty-transport:jar:4.1.9.Final:compile - omitted for duplicate)
+|  \- (io.netty:netty-codec:jar:4.1.9.Final:compile - omitted for duplicate)
++- io.netty:netty-common:jar:4.1.9.Final:compile
++- io.netty:netty-codec-http:jar:4.1.9.Final:compile
+|  \- (io.netty:netty-codec:jar:4.1.9.Final:compile - omitted for duplicate)
++- io.netty:netty-codec:jar:4.1.9.Final:compile
+|  \- (io.netty:netty-transport:jar:4.1.9.Final:compile - omitted for duplicate)
+\- io.netty:netty-buffer:jar:4.1.9.Final:compile
+   \- (io.netty:netty-common:jar:4.1.9.Final:compile - omitted for duplicate)

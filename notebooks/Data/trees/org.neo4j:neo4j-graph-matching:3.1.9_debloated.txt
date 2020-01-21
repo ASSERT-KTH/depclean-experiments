@@ -1,0 +1,43 @@
+org.neo4j:neo4j-graph-matching:jar:3.1.9
++- org.neo4j:neo4j-kernel:jar:3.1.9:compile
+|  +- org.neo4j:neo4j-graphdb-api:jar:3.1.9:compile
+|  |  +- (org.neo4j:neo4j-common:jar:3.1.9:compile - omitted for duplicate)
+|  |  +- org.neo4j:neo4j-resource:jar:3.1.9:compile
+|  |  +- (org.neo4j:neo4j-collections:jar:3.1.9:compile - omitted for duplicate)
+|  |  \- (org.neo4j:neo4j-primitive-collections:jar:3.1.9:compile - omitted for duplicate)
+|  +- org.neo4j:neo4j-common:jar:3.1.9:compile
+|  +- org.neo4j:neo4j-collections:jar:3.1.9:compile
+|  |  +- (org.neo4j:neo4j-resource:jar:3.1.9:compile - omitted for duplicate)
+|  |  \- (org.neo4j:neo4j-common:jar:3.1.9:compile - omitted for duplicate)
+|  +- org.neo4j:neo4j-primitive-collections:jar:3.1.9:compile
+|  |  +- org.neo4j:neo4j-unsafe:jar:3.1.9:compile
+|  |  +- (org.neo4j:neo4j-common:jar:3.1.9:compile - omitted for duplicate)
+|  |  \- (org.neo4j:neo4j-resource:jar:3.1.9:compile - omitted for duplicate)
+|  +- org.neo4j:neo4j-io:jar:3.1.9:compile
+|  |  +- (org.neo4j:neo4j-unsafe:jar:3.1.9:compile - omitted for duplicate)
+|  |  +- (org.neo4j:neo4j-primitive-collections:jar:3.1.9:compile - omitted for duplicate)
+|  |  \- org.apache.commons:commons-lang3:jar:3.3.2:compile
+|  +- org.neo4j:neo4j-csv:jar:3.1.9:compile
+|  |  +- (org.neo4j:neo4j-primitive-collections:jar:3.1.9:compile - omitted for duplicate)
+|  |  \- (org.neo4j:neo4j-collections:jar:3.1.9:compile - omitted for duplicate)
+|  +- org.neo4j:neo4j-logging:jar:3.1.9:compile
+|  |  \- (org.neo4j:neo4j-io:jar:3.1.9:compile - omitted for duplicate)
+|  \- org.neo4j:neo4j-lucene-upgrade:jar:3.1.9:compile
+|     +- org.apache.lucene:lucene-core:jar:5.5.0:compile
+|     \- org.apache.lucene:lucene-backward-codecs:jar:5.5.0:compile
+|        \- (org.apache.lucene:lucene-core:jar:5.5.0:compile - omitted for duplicate)
++- org.neo4j:neo4j-kernel:test-jar:tests:3.1.9:test
+|  +- (org.neo4j:neo4j-graphdb-api:jar:3.1.9:test - omitted for duplicate)
+|  +- (org.neo4j:neo4j-common:jar:3.1.9:test - omitted for duplicate)
+|  +- (org.neo4j:neo4j-collections:jar:3.1.9:test - omitted for duplicate)
+|  +- (org.neo4j:neo4j-primitive-collections:jar:3.1.9:test - omitted for duplicate)
+|  +- (org.neo4j:neo4j-io:jar:3.1.9:test - omitted for duplicate)
+|  +- (org.neo4j:neo4j-csv:jar:3.1.9:test - omitted for duplicate)
+|  +- (org.neo4j:neo4j-logging:jar:3.1.9:test - omitted for duplicate)
+|  \- (org.neo4j:neo4j-lucene-upgrade:jar:3.1.9:test - omitted for duplicate)
++- org.neo4j:neo4j-io:test-jar:tests:3.1.9:test
+|  +- (org.neo4j:neo4j-unsafe:jar:3.1.9:compile - scope updated from test; omitted for duplicate)
+|  +- (org.neo4j:neo4j-primitive-collections:jar:3.1.9:test - omitted for duplicate)
+|  \- (org.apache.commons:commons-lang3:jar:3.3.2:compile - scope updated from test; omitted for duplicate)
+\- junit:junit:jar:4.12:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

@@ -1,0 +1,12 @@
+com.ibm.wala:com.ibm.wala.cast.java:jar:1.5.0
++- com.ibm.wala:com.ibm.wala.util:jar:1.5.0:compile
++- com.ibm.wala:com.ibm.wala.cast:jar:1.5.0:compile
+|  +- (com.ibm.wala:com.ibm.wala.util:jar:1.5.0:compile - omitted for duplicate)
+|  +- (com.ibm.wala:com.ibm.wala.core:jar:1.5.0:compile - omitted for duplicate)
+|  +- (com.ibm.wala:com.ibm.wala.shrike:jar:1.5.0:compile - omitted for duplicate)
+|  \- commons-io:commons-io:jar:2.4:compile
++- com.ibm.wala:com.ibm.wala.core:jar:1.5.0:compile
+|  +- (com.ibm.wala:com.ibm.wala.util:jar:1.5.0:compile - omitted for duplicate)
+|  \- (com.ibm.wala:com.ibm.wala.shrike:jar:1.5.0:compile - omitted for duplicate)
+\- com.ibm.wala:com.ibm.wala.shrike:jar:1.5.0:compile
+   \- (com.ibm.wala:com.ibm.wala.util:jar:1.5.0:compile - omitted for duplicate)

@@ -1,0 +1,5 @@
+de.adorsys.cryptoutils:basetypes:jar:0.18.9
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- junit:junit:jar:4.10:test
+\- org.slf4j:slf4j-simple:jar:1.7.25:test
+   \- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)

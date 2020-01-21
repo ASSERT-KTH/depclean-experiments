@@ -1,0 +1,49 @@
+org.bedework.selfreg:bw-self-registration-common:jar:4.0.3
++- org.bedework:bw-util-config:jar:4.0.18:compile
+|  +- (org.bedework:bw-util-misc:jar:4.0.18:compile - omitted for duplicate)
+|  \- org.bedework:bw-util-xml:jar:4.0.18:compile
+|     \- (org.bedework:bw-util-misc:jar:4.0.18:compile - omitted for duplicate)
++- org.bedework:bw-util-jmx:jar:4.0.18:compile
+|  +- (org.bedework:bw-util-config:jar:4.0.18:compile - omitted for duplicate)
+|  \- (org.bedework:bw-util-misc:jar:4.0.18:compile - omitted for duplicate)
++- org.bedework:bw-util-hibernate:jar:4.0.18:compile
+|  +- (org.bedework:bw-util-jmx:jar:4.0.18:compile - omitted for duplicate)
+|  +- (org.bedework:bw-util-xml:jar:4.0.18:compile - omitted for duplicate)
+|  \- (log4j:log4j:jar:1.2.15:compile - omitted for duplicate)
++- org.bedework:bw-util-misc:jar:4.0.18:compile
++- org.bedework:bw-util-security:jar:4.0.18:compile
+|  +- (org.bedework:bw-util-jmx:jar:4.0.18:compile - omitted for duplicate)
+|  +- (commons-codec:commons-codec:jar:1.5:compile - version managed from 1.6; omitted for duplicate)
+|  \- (log4j:log4j:jar:1.2.15:compile - omitted for duplicate)
++- org.apache.httpcomponents:httpclient:jar:4.2.2:compile
+|  +- (org.apache.httpcomponents:httpcore:jar:4.2.2:compile - omitted for duplicate)
+|  +- commons-logging:commons-logging:jar:1.1.1:compile
+|  \- (commons-codec:commons-codec:jar:1.5:compile - version managed from 1.6; omitted for duplicate)
++- javax.servlet:servlet-api:jar:2.5:provided
++- org.hibernate:hibernate-core:jar:5.2.5.Final:provided
+|  +- org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided
+|  +- org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final:provided
+|  +- org.javassist:javassist:jar:3.20.0-GA:provided
+|  +- antlr:antlr:jar:2.7.7:provided
+|  +- org.apache.geronimo.specs:geronimo-jta_1.1_spec:jar:1.1.1:provided
+|  +- org.jboss:jandex:jar:2.0.3.Final:provided
+|  +- com.fasterxml:classmate:jar:1.3.0:provided
+|  +- dom4j:dom4j:jar:1.6.1:provided
+|  |  \- xml-apis:xml-apis:jar:1.0.b2:provided
+|  +- org.hibernate.common:hibernate-commons-annotations:jar:5.0.1.Final:provided
+|  |  \- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:provided - omitted for duplicate)
+|  \- javax.enterprise:cdi-api:jar:1.1:provided
+|     +- javax.el:el-api:jar:2.2:provided
+|     +- org.jboss.spec.javax.interceptor:jboss-interceptors-api_1.1_spec:jar:1.0.0.Beta1:provided
+|     +- javax.annotation:jsr250-api:jar:1.0:provided
+|     \- javax.inject:javax.inject:jar:1:provided
++- org.jasypt:jasypt:jar:1.9.2:compile
++- com.fasterxml.jackson.core:jackson-core:jar:2.3.1:provided
++- com.fasterxml.jackson.core:jackson-annotations:jar:2.3.1:provided
++- com.fasterxml.jackson.core:jackson-databind:jar:2.3.1:provided
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.3.1:provided - version managed from 2.3.0; omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.3.1:provided - omitted for duplicate)
++- log4j:log4j:jar:1.2.15:compile
+|  \- javax.mail:mail:jar:1.4:compile
+|     \- javax.activation:activation:jar:1.1:compile
+\- junit:junit:jar:4.8.2:test

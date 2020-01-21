@@ -1,0 +1,50 @@
+com.github.biopet:krakenreporttojson_2.11:jar:0.1
++- org.scala-lang:scala-library:jar:2.11.12:compile
++- com.github.biopet:tool-utils_2.11:jar:0.3:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  +- com.github.biopet:common-utils_2.11:jar:0.3:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  |  +- log4j:log4j:jar:1.2.17:compile
+|  |  +- commons-io:commons-io:jar:2.6:compile
+|  |  +- com.typesafe.play:play-json_2.11:jar:2.6.8:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
+|  |  |  +- com.typesafe.play:play-functional_2.11:jar:2.6.8:compile
+|  |  |  |  \- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
+|  |  |  +- org.scala-lang:scala-reflect:jar:2.11.11:compile
+|  |  |  |  \- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
+|  |  |  +- org.typelevel:macro-compat_2.11:jar:1.1.1:compile
+|  |  |  |  \- (org.scala-lang:scala-library:jar:2.11.7:compile - omitted for conflict with 2.11.12)
+|  |  |  +- joda-time:joda-time:jar:2.9.9:compile
+|  |  |  +- com.fasterxml.jackson.core:jackson-core:jar:2.8.9:compile
+|  |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.9:compile
+|  |  |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.8.9:compile
+|  |  |  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile - omitted for conflict with 2.8.9)
+|  |  |  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.8.9:compile - omitted for duplicate)
+|  |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.8.9:compile
+|  |  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.9:compile - omitted for duplicate)
+|  |  |  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.9:compile - omitted for duplicate)
+|  |  |  \- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.8.9:compile
+|  |  |     +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile - omitted for conflict with 2.8.9)
+|  |  |     +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.9:compile - omitted for duplicate)
+|  |  |     \- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.9:compile - omitted for duplicate)
+|  |  +- org.yaml:snakeyaml:jar:1.17:compile
+|  |  +- org.slf4j:slf4j-simple:jar:1.7.25:compile
+|  |  |  \- org.slf4j:slf4j-api:jar:1.7.25:compile
+|  |  \- (com.github.biopet:test-utils_2.11:jar:0.3:compile - omitted for duplicate)
+|  +- com.github.scopt:scopt_2.11:jar:3.7.0:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
+|  \- com.github.biopet:test-utils_2.11:jar:0.3:compile
+|     +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|     +- org.scalatest:scalatest_2.11:jar:2.2.6:compile
+|     |  +- (org.scala-lang:scala-library:jar:2.11.7:compile - omitted for conflict with 2.11.12)
+|     |  +- (org.scala-lang:scala-reflect:jar:2.11.7:compile - omitted for conflict with 2.11.11)
+|     |  \- org.scala-lang.modules:scala-xml_2.11:jar:1.0.2:compile
+|     |     \- (org.scala-lang:scala-library:jar:2.11.1:compile - omitted for conflict with 2.11.12)
+|     +- org.mockito:mockito-all:jar:1.10.19:compile
+|     \- org.testng:testng:jar:6.14.2:compile
+|        +- com.beust:jcommander:jar:1.72:compile
+|        \- org.apache-extras.beanshell:bsh:jar:2.0b6:compile
+\- com.github.biopet:tool-test-utils_2.11:jar:0.2.1:compile
+   +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+   +- (com.github.biopet:test-utils_2.11:jar:0.3:compile - omitted for duplicate)
+   \- (com.github.biopet:tool-utils_2.11:jar:0.3:compile - omitted for duplicate)

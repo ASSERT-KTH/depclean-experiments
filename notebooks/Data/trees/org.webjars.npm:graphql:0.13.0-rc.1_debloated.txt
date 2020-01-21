@@ -1,0 +1,1 @@
+org.webjars.npm:graphql:jar:0.13.0-rc.1

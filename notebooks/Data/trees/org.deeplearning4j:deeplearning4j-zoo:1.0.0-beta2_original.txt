@@ -1,0 +1,254 @@
+org.deeplearning4j:deeplearning4j-zoo:jar:1.0.0-beta2
++- org.slf4j:slf4j-api:jar:1.7.21:compile
++- org.nd4j:nd4j-api:jar:1.0.0-beta2:compile
+|  +- org.apache.commons:commons-math3:jar:3.5:compile
+|  +- com.vlkan:flatbuffers:jar:1.2.0-3f79e055:compile
+|  +- com.google.guava:guava:jar:20.0:compile
+|  +- com.github.os72:protobuf-java-shaded-351:jar:0.9:compile
+|  +- com.github.os72:protobuf-java-util-shaded-351:jar:0.9:compile
+|  |  +- (com.github.os72:protobuf-java-shaded-351:jar:0.9:compile - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:20.0:compile - version managed from 19.0; omitted for duplicate)
+|  |  \- com.google.code.gson:gson:jar:2.7:compile
+|  +- org.objenesis:objenesis:jar:2.6:compile
+|  +- uk.com.robust-it:cloning:jar:1.9.3:compile
+|  |  \- (org.objenesis:objenesis:jar:2.1:compile - omitted for conflict with 2.6)
+|  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|  +- org.nd4j:jackson:jar:1.0.0-beta2:compile
+|  |  +- org.yaml:snakeyaml:jar:1.12:compile
+|  |  +- org.codehaus.woodstox:stax2-api:jar:3.1.4:compile
+|  |  \- joda-time:joda-time:jar:2.2:compile
+|  +- org.nd4j:nd4j-buffer:jar:1.0.0-beta2:compile
+|  |  +- (org.nd4j:nd4j-context:jar:1.0.0-beta2:compile - omitted for duplicate)
+|  |  \- org.bytedeco:javacpp:jar:1.4.2:compile
+|  +- org.nd4j:nd4j-context:jar:1.0.0-beta2:compile
+|  |  \- (org.nd4j:nd4j-common:jar:1.0.0-beta2:compile - omitted for duplicate)
+|  \- net.ericaro:neoitertools:jar:1.0.0:compile
++- org.deeplearning4j:deeplearning4j-nn:jar:1.0.0-beta2:compile
+|  +- org.deeplearning4j:deeplearning4j-utility-iterators:jar:1.0.0-beta2:compile
+|  |  +- org.deeplearning4j:deeplearning4j-util:jar:1.0.0-beta2:compile
+|  |  |  +- (org.nd4j:nd4j-api:jar:1.0.0-beta2:compile - omitted for duplicate)
+|  |  |  \- (org.nd4j:nd4j-common:jar:1.0.0-beta2:compile - omitted for duplicate)
+|  |  \- (org.nd4j:nd4j-api:jar:1.0.0-beta2:compile - omitted for duplicate)
+|  +- (org.deeplearning4j:deeplearning4j-common:jar:1.0.0-beta2:compile - omitted for duplicate)
+|  +- commons-io:commons-io:jar:2.5:compile
+|  +- (org.nd4j:nd4j-api:jar:1.0.0-beta2:compile - omitted for duplicate)
+|  +- org.nd4j:nd4j-native-api:jar:1.0.0-beta2:compile
+|  |  +- (org.nd4j:nd4j-buffer:jar:1.0.0-beta2:compile - omitted for duplicate)
+|  |  +- (org.nd4j:nd4j-api:jar:1.0.0-beta2:compile - omitted for duplicate)
+|  |  \- (org.bytedeco:javacpp:jar:1.4.2:compile - omitted for duplicate)
+|  +- org.nd4j:nd4j-common:jar:1.0.0-beta2:compile
+|  |  +- (org.nd4j:jackson:jar:1.0.0-beta2:compile - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|  |  +- (commons-io:commons-io:jar:2.5:compile - omitted for duplicate)
+|  |  +- (org.apache.commons:commons-math3:jar:3.5:compile - omitted for duplicate)
+|  |  +- org.apache.commons:commons-lang3:jar:3.6:compile
+|  |  +- org.apache.commons:commons-compress:jar:1.16.1:compile
+|  |  |  \- (org.objenesis:objenesis:jar:2.6:compile - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:20.0:compile - version managed from 19.0; omitted for duplicate)
+|  |  \- commons-codec:commons-codec:jar:1.10:compile
+|  +- (org.nd4j:jackson:jar:1.0.0-beta2:compile - omitted for duplicate)
+|  +- org.nd4j:nd4j-jackson:jar:1.0.0-beta2:compile
+|  |  +- org.nd4j:nd4j-base64:jar:1.0.0-beta2:compile
+|  |  |  +- (org.nd4j:nd4j-api:jar:1.0.0-beta2:compile - omitted for duplicate)
+|  |  |  \- commons-net:commons-net:jar:3.1:compile
+|  |  \- (org.nd4j:jackson:jar:1.0.0-beta2:compile - omitted for duplicate)
+|  +- com.github.oshi:oshi-core:jar:3.4.2:compile
+|  |  +- net.java.dev.jna:jna-platform:jar:4.3.0:compile
+|  |  |  \- net.java.dev.jna:jna:jar:4.3.0:compile
+|  |  +- org.threeten:threetenbp:jar:1.3.3:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.24; omitted for duplicate)
+|  \- it.unimi.dsi:fastutil:jar:6.5.7:compile
++- org.deeplearning4j:deeplearning4j-common:jar:1.0.0-beta2:compile
+|  \- (org.nd4j:nd4j-common:jar:1.0.0-beta2:compile - omitted for duplicate)
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- ch.qos.logback:logback-classic:jar:1.2.3:test
+|  +- ch.qos.logback:logback-core:jar:1.2.3:test
+|  \- (org.slf4j:slf4j-api:jar:1.7.21:test - version managed from 1.7.25; omitted for duplicate)
++- org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta2:test
+|  +- org.deeplearning4j:deeplearning4j-tsne:jar:1.0.0-beta2:test
+|  |  +- org.deeplearning4j:nearestneighbor-core:jar:1.0.0-beta2:test
+|  |  |  +- (org.nd4j:nd4j-api:jar:1.0.0-beta2:test - omitted for duplicate)
+|  |  |  \- (org.deeplearning4j:deeplearning4j-nn:jar:1.0.0-beta2:test - omitted for duplicate)
+|  |  +- (org.deeplearning4j:deeplearning4j-nn:jar:1.0.0-beta2:test - omitted for duplicate)
+|  |  \- (org.nd4j:nd4j-api:jar:1.0.0-beta2:test - omitted for duplicate)
+|  +- org.deeplearning4j:deeplearning4j-datasets:jar:1.0.0-beta2:test
+|  |  +- (org.datavec:datavec-data-image:jar:1.0.0-beta2:test - omitted for duplicate)
+|  |  +- (org.deeplearning4j:deeplearning4j-datavec-iterators:jar:1.0.0-beta2:test - omitted for duplicate)
+|  |  \- (org.deeplearning4j:deeplearning4j-common:jar:1.0.0-beta2:test - omitted for duplicate)
+|  +- org.deeplearning4j:deeplearning4j-datavec-iterators:jar:1.0.0-beta2:test
+|  |  +- (org.datavec:datavec-api:jar:1.0.0-beta2:test - omitted for duplicate)
+|  |  \- (org.nd4j:nd4j-api:jar:1.0.0-beta2:test - omitted for duplicate)
+|  +- org.deeplearning4j:deeplearning4j-modelimport:jar:1.0.0-beta2:test
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.21:test - version managed from 1.7.25; omitted for duplicate)
+|  |  +- (org.nd4j:nd4j-api:jar:1.0.0-beta2:test - omitted for duplicate)
+|  |  +- (org.deeplearning4j:deeplearning4j-nn:jar:1.0.0-beta2:test - omitted for duplicate)
+|  |  +- (org.nd4j:jackson:jar:1.0.0-beta2:test - omitted for duplicate)
+|  |  +- (org.bytedeco:javacpp:jar:1.4.2:test - omitted for duplicate)
+|  |  \- org.bytedeco.javacpp-presets:hdf5-platform:jar:1.10.2-1.4.2:test
+|  |     +- org.bytedeco.javacpp-presets:hdf5:jar:1.10.2-1.4.2:test
+|  |     |  \- (org.bytedeco:javacpp:jar:1.4.2:test - omitted for duplicate)
+|  |     +- org.bytedeco.javacpp-presets:hdf5:jar:linux-x86:1.10.2-1.4.2:test
+|  |     |  \- (org.bytedeco:javacpp:jar:1.4.2:test - omitted for duplicate)
+|  |     +- org.bytedeco.javacpp-presets:hdf5:jar:linux-x86_64:1.10.2-1.4.2:test
+|  |     |  \- (org.bytedeco:javacpp:jar:1.4.2:test - omitted for duplicate)
+|  |     +- org.bytedeco.javacpp-presets:hdf5:jar:linux-ppc64le:1.10.2-1.4.2:test
+|  |     |  \- (org.bytedeco:javacpp:jar:1.4.2:test - omitted for duplicate)
+|  |     +- org.bytedeco.javacpp-presets:hdf5:jar:macosx-x86_64:1.10.2-1.4.2:test
+|  |     |  \- (org.bytedeco:javacpp:jar:1.4.2:test - omitted for duplicate)
+|  |     +- org.bytedeco.javacpp-presets:hdf5:jar:windows-x86:1.10.2-1.4.2:test
+|  |     |  \- (org.bytedeco:javacpp:jar:1.4.2:test - omitted for duplicate)
+|  |     \- org.bytedeco.javacpp-presets:hdf5:jar:windows-x86_64:1.10.2-1.4.2:test
+|  |        \- (org.bytedeco:javacpp:jar:1.4.2:test - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.21:test - version managed from 1.7.25; omitted for duplicate)
+|  +- (org.deeplearning4j:deeplearning4j-nn:jar:1.0.0-beta2:test - omitted for duplicate)
+|  +- (org.apache.commons:commons-math3:jar:3.5:test - omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.5:test - omitted for duplicate)
+|  +- (org.apache.commons:commons-compress:jar:1.16.1:compile - scope updated from test; omitted for duplicate)
+|  +- (com.google.guava:guava:jar:20.0:test - version managed from 19.0; omitted for duplicate)
+|  +- (org.nd4j:nd4j-api:jar:1.0.0-beta2:test - omitted for duplicate)
+|  +- (org.apache.commons:commons-lang3:jar:3.6:compile - scope updated from test; omitted for duplicate)
+|  +- (org.nd4j:jackson:jar:1.0.0-beta2:test - omitted for duplicate)
+|  +- org.datavec:datavec-api:jar:1.0.0-beta2:test
+|  |  +- org.jetbrains:annotations:jar:13.0:test
+|  |  +- (org.apache.commons:commons-lang3:jar:3.6:test - omitted for duplicate)
+|  |  +- (commons-io:commons-io:jar:2.5:test - omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.10:test - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.21:test - version managed from 1.7.25; omitted for duplicate)
+|  |  +- (joda-time:joda-time:jar:2.2:test - omitted for duplicate)
+|  |  +- (org.yaml:snakeyaml:jar:1.12:test - omitted for duplicate)
+|  |  +- (org.nd4j:jackson:jar:1.0.0-beta2:test - omitted for duplicate)
+|  |  +- org.freemarker:freemarker:jar:2.3.23:test
+|  |  +- (org.nd4j:nd4j-common:jar:1.0.0-beta2:test - omitted for duplicate)
+|  |  +- (org.nd4j:nd4j-api:jar:1.0.0-beta2:test - omitted for duplicate)
+|  |  +- com.clearspring.analytics:stream:jar:2.7.0:test
+|  |  |  \- (it.unimi.dsi:fastutil:jar:6.5.7:test - omitted for duplicate)
+|  |  +- net.sf.opencsv:opencsv:jar:2.3:test
+|  |  +- com.tdunning:t-digest:jar:3.2:test
+|  |  \- (it.unimi.dsi:fastutil:jar:6.5.7:test - omitted for duplicate)
+|  +- org.datavec:datavec-data-image:jar:1.0.0-beta2:test
+|  |  +- (org.datavec:datavec-api:jar:1.0.0-beta2:test - omitted for duplicate)
+|  |  +- (org.nd4j:nd4j-buffer:jar:1.0.0-beta2:test - omitted for duplicate)
+|  |  +- com.github.jai-imageio:jai-imageio-core:jar:1.3.0:test
+|  |  +- com.twelvemonkeys.imageio:imageio-jpeg:jar:3.1.1:test
+|  |  |  +- com.twelvemonkeys.imageio:imageio-core:jar:3.1.1:test
+|  |  |  |  +- (com.twelvemonkeys.common:common-lang:jar:3.1.1:test - omitted for duplicate)
+|  |  |  |  +- (com.twelvemonkeys.common:common-io:jar:3.1.1:test - omitted for duplicate)
+|  |  |  |  \- (com.twelvemonkeys.common:common-image:jar:3.1.1:test - omitted for duplicate)
+|  |  |  +- com.twelvemonkeys.imageio:imageio-metadata:jar:3.1.1:test
+|  |  |  |  +- (com.twelvemonkeys.imageio:imageio-core:jar:3.1.1:test - omitted for duplicate)
+|  |  |  |  +- (com.twelvemonkeys.common:common-lang:jar:3.1.1:test - omitted for duplicate)
+|  |  |  |  +- (com.twelvemonkeys.common:common-io:jar:3.1.1:test - omitted for duplicate)
+|  |  |  |  \- (com.twelvemonkeys.common:common-image:jar:3.1.1:test - omitted for duplicate)
+|  |  |  +- com.twelvemonkeys.common:common-lang:jar:3.1.1:test
+|  |  |  +- com.twelvemonkeys.common:common-io:jar:3.1.1:test
+|  |  |  |  \- (com.twelvemonkeys.common:common-lang:jar:3.1.1:test - omitted for duplicate)
+|  |  |  \- com.twelvemonkeys.common:common-image:jar:3.1.1:test
+|  |  |     +- (com.twelvemonkeys.common:common-lang:jar:3.1.1:test - omitted for duplicate)
+|  |  |     \- (com.twelvemonkeys.common:common-io:jar:3.1.1:test - omitted for duplicate)
+|  |  +- com.twelvemonkeys.imageio:imageio-tiff:jar:3.1.1:test
+|  |  |  +- (com.twelvemonkeys.imageio:imageio-core:jar:3.1.1:test - omitted for duplicate)
+|  |  |  +- (com.twelvemonkeys.imageio:imageio-metadata:jar:3.1.1:test - omitted for duplicate)
+|  |  |  +- (com.twelvemonkeys.common:common-lang:jar:3.1.1:test - omitted for duplicate)
+|  |  |  +- (com.twelvemonkeys.common:common-io:jar:3.1.1:test - omitted for duplicate)
+|  |  |  \- (com.twelvemonkeys.common:common-image:jar:3.1.1:test - omitted for duplicate)
+|  |  +- com.twelvemonkeys.imageio:imageio-psd:jar:3.1.1:test
+|  |  |  +- (com.twelvemonkeys.imageio:imageio-core:jar:3.1.1:test - omitted for duplicate)
+|  |  |  +- (com.twelvemonkeys.imageio:imageio-metadata:jar:3.1.1:test - omitted for duplicate)
+|  |  |  +- (com.twelvemonkeys.common:common-lang:jar:3.1.1:test - omitted for duplicate)
+|  |  |  +- (com.twelvemonkeys.common:common-io:jar:3.1.1:test - omitted for duplicate)
+|  |  |  \- (com.twelvemonkeys.common:common-image:jar:3.1.1:test - omitted for duplicate)
+|  |  +- com.twelvemonkeys.imageio:imageio-bmp:jar:3.1.1:test
+|  |  |  +- (com.twelvemonkeys.imageio:imageio-core:jar:3.1.1:test - omitted for duplicate)
+|  |  |  +- (com.twelvemonkeys.common:common-lang:jar:3.1.1:test - omitted for duplicate)
+|  |  |  +- (com.twelvemonkeys.common:common-io:jar:3.1.1:test - omitted for duplicate)
+|  |  |  \- (com.twelvemonkeys.common:common-image:jar:3.1.1:test - omitted for duplicate)
+|  |  +- (org.bytedeco:javacpp:jar:1.4.2:test - omitted for duplicate)
+|  |  +- org.bytedeco:javacv:jar:1.4.2:test
+|  |  |  +- (org.bytedeco:javacpp:jar:1.4.2:test - omitted for duplicate)
+|  |  |  +- org.bytedeco.javacpp-presets:opencv:jar:3.4.2-1.4.2:test
+|  |  |  |  \- (org.bytedeco:javacpp:jar:1.4.2:test - omitted for duplicate)
+|  |  |  +- org.bytedeco.javacpp-presets:ffmpeg:jar:4.0.1-1.4.2:test
+|  |  |  |  \- (org.bytedeco:javacpp:jar:1.4.2:test - omitted for duplicate)
+|  |  |  +- org.bytedeco.javacpp-presets:flycapture:jar:2.11.3.121-1.4.2:test
+|  |  |  |  \- (org.bytedeco:javacpp:jar:1.4.2:test - omitted for duplicate)
+|  |  |  +- org.bytedeco.javacpp-presets:libdc1394:jar:2.2.5-1.4.2:test
+|  |  |  |  \- (org.bytedeco:javacpp:jar:1.4.2:test - omitted for duplicate)
+|  |  |  +- org.bytedeco.javacpp-presets:libfreenect:jar:0.5.3-1.4.2:test
+|  |  |  |  \- (org.bytedeco:javacpp:jar:1.4.2:test - omitted for duplicate)
+|  |  |  +- org.bytedeco.javacpp-presets:libfreenect2:jar:0.2.0-1.4.2:test
+|  |  |  |  \- (org.bytedeco:javacpp:jar:1.4.2:test - omitted for duplicate)
+|  |  |  +- org.bytedeco.javacpp-presets:librealsense:jar:1.12.1-1.4.2:test
+|  |  |  |  \- (org.bytedeco:javacpp:jar:1.4.2:test - omitted for duplicate)
+|  |  |  +- org.bytedeco.javacpp-presets:videoinput:jar:0.200-1.4.2:test
+|  |  |  |  \- (org.bytedeco:javacpp:jar:1.4.2:test - omitted for duplicate)
+|  |  |  +- org.bytedeco.javacpp-presets:artoolkitplus:jar:2.3.1-1.4.2:test
+|  |  |  |  \- (org.bytedeco:javacpp:jar:1.4.2:test - omitted for duplicate)
+|  |  |  +- org.bytedeco.javacpp-presets:flandmark:jar:1.07-1.4.2:test
+|  |  |  |  +- (org.bytedeco.javacpp-presets:opencv:jar:3.4.2-1.4.2:test - omitted for duplicate)
+|  |  |  |  \- (org.bytedeco:javacpp:jar:1.4.2:test - omitted for duplicate)
+|  |  |  +- org.bytedeco.javacpp-presets:leptonica:jar:1.76.0-1.4.2:test
+|  |  |  |  \- (org.bytedeco:javacpp:jar:1.4.2:test - omitted for duplicate)
+|  |  |  \- org.bytedeco.javacpp-presets:tesseract:jar:4.0.0-beta.3-1.4.2:test
+|  |  |     +- (org.bytedeco.javacpp-presets:leptonica:jar:1.76.0-1.4.2:test - omitted for duplicate)
+|  |  |     \- (org.bytedeco:javacpp:jar:1.4.2:test - omitted for duplicate)
+|  |  +- org.bytedeco.javacpp-presets:opencv-platform:jar:3.4.2-1.4.2:test
+|  |  |  +- (org.bytedeco.javacpp-presets:opencv:jar:3.4.2-1.4.2:test - omitted for duplicate)
+|  |  |  +- org.bytedeco.javacpp-presets:opencv:jar:android-arm:3.4.2-1.4.2:test
+|  |  |  |  \- (org.bytedeco:javacpp:jar:1.4.2:test - omitted for duplicate)
+|  |  |  +- org.bytedeco.javacpp-presets:opencv:jar:android-arm64:3.4.2-1.4.2:test
+|  |  |  |  \- (org.bytedeco:javacpp:jar:1.4.2:test - omitted for duplicate)
+|  |  |  +- org.bytedeco.javacpp-presets:opencv:jar:android-x86:3.4.2-1.4.2:test
+|  |  |  |  \- (org.bytedeco:javacpp:jar:1.4.2:test - omitted for duplicate)
+|  |  |  +- org.bytedeco.javacpp-presets:opencv:jar:android-x86_64:3.4.2-1.4.2:test
+|  |  |  |  \- (org.bytedeco:javacpp:jar:1.4.2:test - omitted for duplicate)
+|  |  |  +- org.bytedeco.javacpp-presets:opencv:jar:ios-arm64:3.4.2-1.4.2:test
+|  |  |  |  \- (org.bytedeco:javacpp:jar:1.4.2:test - omitted for duplicate)
+|  |  |  +- org.bytedeco.javacpp-presets:opencv:jar:ios-x86_64:3.4.2-1.4.2:test
+|  |  |  |  \- (org.bytedeco:javacpp:jar:1.4.2:test - omitted for duplicate)
+|  |  |  +- org.bytedeco.javacpp-presets:opencv:jar:linux-x86:3.4.2-1.4.2:test
+|  |  |  |  \- (org.bytedeco:javacpp:jar:1.4.2:test - omitted for duplicate)
+|  |  |  +- org.bytedeco.javacpp-presets:opencv:jar:linux-x86_64:3.4.2-1.4.2:test
+|  |  |  |  \- (org.bytedeco:javacpp:jar:1.4.2:test - omitted for duplicate)
+|  |  |  +- org.bytedeco.javacpp-presets:opencv:jar:linux-armhf:3.4.2-1.4.2:test
+|  |  |  |  \- (org.bytedeco:javacpp:jar:1.4.2:test - omitted for duplicate)
+|  |  |  +- org.bytedeco.javacpp-presets:opencv:jar:linux-ppc64le:3.4.2-1.4.2:test
+|  |  |  |  \- (org.bytedeco:javacpp:jar:1.4.2:test - omitted for duplicate)
+|  |  |  +- org.bytedeco.javacpp-presets:opencv:jar:macosx-x86_64:3.4.2-1.4.2:test
+|  |  |  |  \- (org.bytedeco:javacpp:jar:1.4.2:test - omitted for duplicate)
+|  |  |  +- org.bytedeco.javacpp-presets:opencv:jar:windows-x86:3.4.2-1.4.2:test
+|  |  |  |  \- (org.bytedeco:javacpp:jar:1.4.2:test - omitted for duplicate)
+|  |  |  \- org.bytedeco.javacpp-presets:opencv:jar:windows-x86_64:3.4.2-1.4.2:test
+|  |  |     \- (org.bytedeco:javacpp:jar:1.4.2:test - omitted for duplicate)
+|  |  +- org.bytedeco.javacpp-presets:leptonica-platform:jar:1.76.0-1.4.2:test
+|  |  |  +- (org.bytedeco.javacpp-presets:leptonica:jar:1.76.0-1.4.2:test - omitted for duplicate)
+|  |  |  +- org.bytedeco.javacpp-presets:leptonica:jar:android-arm:1.76.0-1.4.2:test
+|  |  |  |  \- (org.bytedeco:javacpp:jar:1.4.2:test - omitted for duplicate)
+|  |  |  +- org.bytedeco.javacpp-presets:leptonica:jar:android-arm64:1.76.0-1.4.2:test
+|  |  |  |  \- (org.bytedeco:javacpp:jar:1.4.2:test - omitted for duplicate)
+|  |  |  +- org.bytedeco.javacpp-presets:leptonica:jar:android-x86:1.76.0-1.4.2:test
+|  |  |  |  \- (org.bytedeco:javacpp:jar:1.4.2:test - omitted for duplicate)
+|  |  |  +- org.bytedeco.javacpp-presets:leptonica:jar:android-x86_64:1.76.0-1.4.2:test
+|  |  |  |  \- (org.bytedeco:javacpp:jar:1.4.2:test - omitted for duplicate)
+|  |  |  +- org.bytedeco.javacpp-presets:leptonica:jar:linux-x86:1.76.0-1.4.2:test
+|  |  |  |  \- (org.bytedeco:javacpp:jar:1.4.2:test - omitted for duplicate)
+|  |  |  +- org.bytedeco.javacpp-presets:leptonica:jar:linux-x86_64:1.76.0-1.4.2:test
+|  |  |  |  \- (org.bytedeco:javacpp:jar:1.4.2:test - omitted for duplicate)
+|  |  |  +- org.bytedeco.javacpp-presets:leptonica:jar:linux-armhf:1.76.0-1.4.2:test
+|  |  |  |  \- (org.bytedeco:javacpp:jar:1.4.2:test - omitted for duplicate)
+|  |  |  +- org.bytedeco.javacpp-presets:leptonica:jar:linux-ppc64le:1.76.0-1.4.2:test
+|  |  |  |  \- (org.bytedeco:javacpp:jar:1.4.2:test - omitted for duplicate)
+|  |  |  +- org.bytedeco.javacpp-presets:leptonica:jar:macosx-x86_64:1.76.0-1.4.2:test
+|  |  |  |  \- (org.bytedeco:javacpp:jar:1.4.2:test - omitted for duplicate)
+|  |  |  +- org.bytedeco.javacpp-presets:leptonica:jar:windows-x86:1.76.0-1.4.2:test
+|  |  |  |  \- (org.bytedeco:javacpp:jar:1.4.2:test - omitted for duplicate)
+|  |  |  \- org.bytedeco.javacpp-presets:leptonica:jar:windows-x86_64:1.76.0-1.4.2:test
+|  |  |     \- (org.bytedeco:javacpp:jar:1.4.2:test - omitted for duplicate)
+|  |  +- (org.bytedeco.javacpp-presets:hdf5-platform:jar:1.10.2-1.4.2:test - omitted for duplicate)
+|  |  \- (org.nd4j:nd4j-api:jar:1.0.0-beta2:test - omitted for duplicate)
+|  \- org.deeplearning4j:deeplearning4j-ui-components:jar:1.0.0-beta2:test
+|     +- (org.nd4j:jackson:jar:1.0.0-beta2:test - omitted for duplicate)
+|     +- (org.freemarker:freemarker:jar:2.3.23:test - omitted for duplicate)
+|     +- (commons-io:commons-io:jar:2.5:test - omitted for duplicate)
+|     \- (org.nd4j:nd4j-common:jar:1.0.0-beta2:test - omitted for duplicate)
+\- org.projectlombok:lombok:jar:1.18.0:provided

@@ -1,0 +1,24 @@
+cn.univyz:univyz-framework:jar:1.2.7
++- javax.servlet:javax.servlet-api:jar:3.1.0:provided
++- javax.servlet.jsp:jsp-api:jar:2.2:provided
++- javax.servlet:jstl:jar:1.2:runtime
++- org.slf4j:slf4j-log4j12:jar:1.7.7:compile
+|  +- org.slf4j:slf4j-api:jar:1.7.7:compile
+|  \- log4j:log4j:jar:1.2.17:compile
++- mysql:mysql-connector-java:jar:5.1.43:runtime
++- com.fasterxml.jackson.core:jackson-databind:jar:2.4.4:compile
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.4.0:compile
+|  \- com.fasterxml.jackson.core:jackson-core:jar:2.4.4:compile
++- org.apache.commons:commons-lang3:jar:3.3.2:compile
++- org.apache.commons:commons-collections4:jar:4.0:compile
++- commons-dbutils:commons-dbutils:jar:1.6:compile
++- org.apache.commons:commons-dbcp2:jar:2.0.1:compile
+|  +- org.apache.commons:commons-pool2:jar:2.2:compile
+|  \- commons-logging:commons-logging:jar:1.1.3:compile
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- cglib:cglib:jar:2.2.2:compile
+|  \- asm:asm:jar:3.3.1:compile
++- commons-fileupload:commons-fileupload:jar:1.3.3:compile
+|  \- commons-io:commons-io:jar:2.2:compile
+\- commons-codec:commons-codec:jar:1.4:compile

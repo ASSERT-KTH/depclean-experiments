@@ -1,0 +1,53 @@
+org.apache.metamodel:MetaModel-elasticsearch-rest:jar:5.1.0
++- org.apache.metamodel:MetaModel-core:jar:5.1.0:compile
+|  \- org.slf4j:slf4j-api:jar:1.7.7:compile
++- org.apache.metamodel:MetaModel-elasticsearch-common:jar:5.1.0:compile
+|  +- (org.apache.metamodel:MetaModel-core:jar:5.1.0:compile - omitted for duplicate)
+|  +- org.elasticsearch:elasticsearch:jar:5.6.3:compile
+|  |  +- org.apache.lucene:lucene-core:jar:6.6.1:compile
+|  |  +- org.apache.lucene:lucene-analyzers-common:jar:6.6.1:compile
+|  |  +- org.apache.lucene:lucene-backward-codecs:jar:6.6.1:compile
+|  |  +- org.apache.lucene:lucene-grouping:jar:6.6.1:compile
+|  |  +- org.apache.lucene:lucene-highlighter:jar:6.6.1:compile
+|  |  +- org.apache.lucene:lucene-join:jar:6.6.1:compile
+|  |  +- org.apache.lucene:lucene-memory:jar:6.6.1:compile
+|  |  +- org.apache.lucene:lucene-misc:jar:6.6.1:compile
+|  |  +- org.apache.lucene:lucene-queries:jar:6.6.1:compile
+|  |  +- org.apache.lucene:lucene-queryparser:jar:6.6.1:compile
+|  |  +- org.apache.lucene:lucene-sandbox:jar:6.6.1:compile
+|  |  +- org.apache.lucene:lucene-spatial:jar:6.6.1:compile
+|  |  +- org.apache.lucene:lucene-spatial-extras:jar:6.6.1:compile
+|  |  +- org.apache.lucene:lucene-spatial3d:jar:6.6.1:compile
+|  |  +- org.apache.lucene:lucene-suggest:jar:6.6.1:compile
+|  |  +- org.elasticsearch:securesm:jar:1.1:compile
+|  |  +- net.sf.jopt-simple:jopt-simple:jar:5.0.2:compile
+|  |  +- com.carrotsearch:hppc:jar:0.7.1:compile
+|  |  +- joda-time:joda-time:jar:2.9.5:compile
+|  |  +- org.yaml:snakeyaml:jar:1.15:compile
+|  |  +- com.fasterxml.jackson.core:jackson-core:jar:2.6.3:compile (version managed from 2.8.6)
+|  |  +- com.fasterxml.jackson.dataformat:jackson-dataformat-smile:jar:2.8.6:compile
+|  |  +- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.6.3:compile (version managed from 2.8.6)
+|  |  +- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.8.6:compile
+|  |  +- com.tdunning:t-digest:jar:3.0:compile
+|  |  +- org.hdrhistogram:HdrHistogram:jar:2.1.9:compile
+|  |  +- org.apache.logging.log4j:log4j-api:jar:2.9.1:compile
+|  |  \- org.elasticsearch:jna:jar:4.4.0-1:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for duplicate)
++- commons-io:commons-io:jar:2.4:compile
++- org.slf4j:jcl-over-slf4j:jar:1.7.7:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for duplicate)
++- org.elasticsearch.client:elasticsearch-rest-high-level-client:jar:5.6.3:compile
+|  +- (org.elasticsearch:elasticsearch:jar:5.6.3:compile - omitted for duplicate)
+|  +- org.elasticsearch.client:elasticsearch-rest-client:jar:5.6.3:compile
+|  |  +- org.apache.httpcomponents:httpclient:jar:4.4.1:compile (version managed from 4.5.2)
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.4.1:compile (version managed from 4.4.5)
+|  |  +- org.apache.httpcomponents:httpasyncclient:jar:4.1.2:compile
+|  |  +- org.apache.httpcomponents:httpcore-nio:jar:4.4.5:compile
+|  |  \- commons-codec:commons-codec:jar:1.7:compile (version managed from 1.10)
+|  +- org.elasticsearch.plugin:parent-join-client:jar:5.6.3:compile
+|  \- org.elasticsearch.plugin:aggs-matrix-stats-client:jar:5.6.3:compile
++- org.apache.logging.log4j:log4j-core:jar:2.9.1:test
+|  \- (org.apache.logging.log4j:log4j-api:jar:2.9.1:compile - scope updated from test; omitted for duplicate)
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
+\- org.hamcrest:hamcrest-all:jar:1.3:test

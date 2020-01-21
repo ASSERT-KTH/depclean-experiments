@@ -1,0 +1,9 @@
+net.lecousin.framework.network:core:jar:0.2.8
++- net.lecousin:core:jar:0.9.16:compile
+|  \- com.github.spotbugs:spotbugs-annotations:jar:3.1.1:compile
+|     \- com.google.code.findbugs:jsr305:jar:3.0.2:compile
++- commons-logging:commons-logging:jar:1.2:compile
++- net.lecousin.framework:log.bridges.commons-logging:jar:0.1.1:test
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
+\- net.lecousin:core:test-jar:tests:0.9.16:test

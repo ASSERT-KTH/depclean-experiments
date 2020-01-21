@@ -1,0 +1,6 @@
+com.intel.analytics.bigdl.spark-version:2.0-SPARK_2.3:jar:0.6.0
++- org.apache.spark:spark-core_2.11:jar:2.3.1:provided
+|  \- (org.spark-project.spark:unused:jar:1.0.0:provided - omitted for duplicate)
+\- org.apache.spark:spark-mllib_2.11:jar:2.3.1:provided
+   +- (org.apache.spark:spark-core_2.11:jar:2.3.1:provided - omitted for duplicate)
+   \- (org.spark-project.spark:unused:jar:1.0.0:provided - omitted for duplicate)

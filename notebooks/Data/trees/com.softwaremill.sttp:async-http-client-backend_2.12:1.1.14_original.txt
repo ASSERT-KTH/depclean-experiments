@@ -1,0 +1,42 @@
+com.softwaremill.sttp:async-http-client-backend_2.12:jar:1.1.14
++- org.scala-lang:scala-library:jar:2.12.6:compile
++- com.softwaremill.sttp:core_2.12:jar:1.1.14:compile
+|  \- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
+\- org.asynchttpclient:async-http-client:jar:2.4.4:compile
+   +- org.asynchttpclient:async-http-client-netty-utils:jar:2.4.4:compile
+   |  +- io.netty:netty-buffer:jar:4.1.22.Final:compile
+   |  |  \- (io.netty:netty-common:jar:4.1.22.Final:compile - omitted for duplicate)
+   |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+   +- io.netty:netty-codec-http:jar:4.1.22.Final:compile
+   |  \- io.netty:netty-codec:jar:4.1.22.Final:compile
+   |     \- (io.netty:netty-transport:jar:4.1.22.Final:compile - omitted for duplicate)
+   +- io.netty:netty-handler:jar:4.1.22.Final:compile
+   |  +- (io.netty:netty-buffer:jar:4.1.22.Final:compile - omitted for duplicate)
+   |  +- io.netty:netty-transport:jar:4.1.22.Final:compile
+   |  |  +- (io.netty:netty-buffer:jar:4.1.22.Final:compile - omitted for duplicate)
+   |  |  \- (io.netty:netty-resolver:jar:4.1.22.Final:compile - omitted for duplicate)
+   |  \- (io.netty:netty-codec:jar:4.1.22.Final:compile - omitted for duplicate)
+   +- io.netty:netty-codec-socks:jar:4.1.22.Final:compile
+   |  \- (io.netty:netty-codec:jar:4.1.22.Final:compile - omitted for duplicate)
+   +- io.netty:netty-handler-proxy:jar:4.1.22.Final:compile
+   |  +- (io.netty:netty-transport:jar:4.1.22.Final:compile - omitted for duplicate)
+   |  +- (io.netty:netty-codec-socks:jar:4.1.22.Final:compile - omitted for duplicate)
+   |  \- (io.netty:netty-codec-http:jar:4.1.22.Final:compile - omitted for duplicate)
+   +- io.netty:netty-transport-native-epoll:jar:linux-x86_64:4.1.22.Final:compile
+   |  +- io.netty:netty-common:jar:4.1.22.Final:compile
+   |  +- (io.netty:netty-buffer:jar:4.1.22.Final:compile - omitted for duplicate)
+   |  +- io.netty:netty-transport-native-unix-common:jar:4.1.22.Final:compile
+   |  |  +- (io.netty:netty-common:jar:4.1.22.Final:compile - omitted for duplicate)
+   |  |  \- (io.netty:netty-transport:jar:4.1.22.Final:compile - omitted for duplicate)
+   |  \- (io.netty:netty-transport:jar:4.1.22.Final:compile - omitted for duplicate)
+   +- io.netty:netty-resolver-dns:jar:4.1.22.Final:compile
+   |  +- io.netty:netty-resolver:jar:4.1.22.Final:compile
+   |  |  \- (io.netty:netty-common:jar:4.1.22.Final:compile - omitted for duplicate)
+   |  +- io.netty:netty-codec-dns:jar:4.1.22.Final:compile
+   |  |  \- (io.netty:netty-codec:jar:4.1.22.Final:compile - omitted for duplicate)
+   |  \- (io.netty:netty-transport:jar:4.1.22.Final:compile - omitted for duplicate)
+   +- org.reactivestreams:reactive-streams:jar:1.0.2:compile
+   +- com.typesafe.netty:netty-reactive-streams:jar:2.0.0:compile
+   |  +- (io.netty:netty-handler:jar:4.1.13.Final:compile - omitted for conflict with 4.1.22.Final)
+   |  \- (org.reactivestreams:reactive-streams:jar:1.0.0:compile - omitted for conflict with 1.0.2)
+   \- org.slf4j:slf4j-api:jar:1.7.25:compile

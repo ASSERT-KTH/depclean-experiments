@@ -1,0 +1,10 @@
+io.aeron:aeron-client:jar:1.9.1
++- org.agrona:agrona:jar:0.9.17:compile
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.mockito:mockito-core:jar:2.18.3:test
+|  +- net.bytebuddy:byte-buddy:jar:1.8.5:test
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.8.5:test
+|  \- org.objenesis:objenesis:jar:2.6:test
+\- org.hamcrest:hamcrest-library:jar:1.3:test
+   \- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for duplicate)

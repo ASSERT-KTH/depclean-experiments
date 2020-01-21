@@ -1,0 +1,334 @@
+io.vertx:vertx-lang-scala-docs_2.12:jar:3.5.1
++- io.vertx:vertx-lang-scala-stack_2.12:pom:3.5.1:provided
+|  \- (io.vertx:vertx-lang-scala_2.12:jar:3.5.1:compile - scope updated from provided; omitted for duplicate)
++- io.vertx:vertx-docgen:jar:3.5.1:compile
++- io.vertx:vertx-amqp-bridge-scala_2.12:jar:3.5.1:compile
+|  +- io.vertx:vertx-amqp-bridge:jar:3.5.1:compile
+|  |  +- (io.vertx:vertx-core:jar:3.5.1:compile - omitted for duplicate)
+|  |  \- io.vertx:vertx-proton:jar:3.5.1:compile
+|  |     +- (io.vertx:vertx-core:jar:3.5.1:compile - omitted for duplicate)
+|  |     +- org.apache.qpid:proton-j:jar:0.25.0:compile
+|  |     \- io.vertx:vertx-codegen:jar:processor:3.5.1:compile
+|  |        +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.3:compile - version managed from 2.9.0; omitted for duplicate)
+|  |        +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.3:compile - version managed from 2.9.0; omitted for duplicate)
+|  |        \- (org.mvel:mvel2:jar:2.3.1.Final:compile - omitted for duplicate)
+|  +- io.vertx:vertx-proton-scala_2.12:jar:3.5.1:compile
+|  |  +- (io.vertx:vertx-proton:jar:3.5.1:compile - omitted for duplicate)
+|  |  +- (io.vertx:vertx-auth-common-scala_2.12:jar:3.5.1:compile - omitted for duplicate)
+|  |  \- (io.vertx:vertx-lang-scala_2.12:jar:3.5.1:compile - omitted for duplicate)
+|  \- io.vertx:vertx-lang-scala_2.12:jar:3.5.1:compile
+|     +- (io.vertx:vertx-core:jar:3.5.1:compile - omitted for duplicate)
+|     +- io.vertx:vertx-lang-scala-on-the-fly_2.12:jar:3.5.1:compile
+|     |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|     |  \- org.scala-lang:scala-compiler:jar:2.12.4:compile
+|     |     +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|     |     +- (org.scala-lang:scala-reflect:jar:2.12.4:compile - omitted for duplicate)
+|     |     \- org.scala-lang.modules:scala-xml_2.12:jar:1.0.6:compile
+|     |        \- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.4)
+|     +- org.scala-lang:scala-library:jar:2.12.4:compile
+|     +- org.scala-lang:scala-reflect:jar:2.12.4:compile
+|     |  \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|     \- com.fasterxml.jackson.module:jackson-module-scala_2.12:jar:2.9.0:compile
+|        +- (org.scala-lang:scala-library:jar:2.12.3:compile - omitted for conflict with 2.12.4)
+|        +- (org.scala-lang:scala-reflect:jar:2.12.3:compile - omitted for conflict with 2.12.4)
+|        +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.3:compile - version managed from 2.9.0; omitted for duplicate)
+|        +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile - omitted for duplicate)
+|        +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.3:compile - version managed from 2.9.0; omitted for duplicate)
+|        \- com.fasterxml.jackson.module:jackson-module-paranamer:jar:2.9.0:compile
+|           +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.3:compile - version managed from 2.9.0; omitted for duplicate)
+|           \- com.thoughtworks.paranamer:paranamer:jar:2.8:compile
++- io.vertx:vertx-consul-service-scala_2.12:jar:3.5.1:compile
+|  +- io.vertx:vertx-consul-service:jar:3.5.1:compile
+|  |  +- (io.vertx:vertx-consul-client:jar:3.5.1:compile - omitted for duplicate)
+|  |  +- io.vertx:vertx-service-factory:jar:3.5.1:compile
+|  |  |  \- (io.vertx:vertx-core:jar:3.5.1:compile - omitted for duplicate)
+|  |  +- io.vertx:vertx-service-proxy:jar:3.5.1:compile
+|  |  |  \- (io.vertx:vertx-core:jar:3.5.1:compile - omitted for duplicate)
+|  |  \- (io.vertx:vertx-web-client:jar:3.5.1:compile - omitted for duplicate)
+|  +- (io.vertx:vertx-consul-client-scala_2.12:jar:3.5.1:compile - omitted for duplicate)
+|  \- (io.vertx:vertx-lang-scala_2.12:jar:3.5.1:compile - omitted for duplicate)
++- io.vertx:vertx-sql-common-scala_2.12:jar:3.5.1:compile
+|  +- io.vertx:vertx-sql-common:jar:3.5.1:compile
+|  \- (io.vertx:vertx-lang-scala_2.12:jar:3.5.1:compile - omitted for duplicate)
++- io.vertx:vertx-jdbc-client-scala_2.12:jar:3.5.1:compile
+|  +- (io.vertx:vertx-sql-common-scala_2.12:jar:3.5.1:compile - omitted for duplicate)
+|  +- io.agroal:agroal-api:jar:0.2:compile
+|  +- io.vertx:vertx-jdbc-client:jar:3.5.1:compile
+|  |  +- (io.vertx:vertx-sql-common:jar:3.5.1:compile - omitted for duplicate)
+|  |  \- com.mchange:c3p0:jar:0.9.5.2:compile
+|  |     \- com.mchange:mchange-commons-java:jar:0.2.11:compile
+|  \- (io.vertx:vertx-lang-scala_2.12:jar:3.5.1:compile - omitted for duplicate)
++- io.vertx:vertx-mongo-service-scala_2.12:jar:3.5.1:compile
+|  +- (io.vertx:vertx-mongo-client-scala_2.12:jar:3.5.1:compile - omitted for duplicate)
+|  +- io.vertx:vertx-mongo-service:jar:3.5.1:compile
+|  |  +- (io.vertx:vertx-mongo-client:jar:3.5.1:compile - omitted for duplicate)
+|  |  +- (io.vertx:vertx-service-factory:jar:3.5.1:compile - omitted for duplicate)
+|  |  +- (io.vertx:vertx-service-proxy:jar:3.5.1:compile - omitted for duplicate)
+|  |  +- (io.vertx:vertx-core:jar:3.5.1:compile - omitted for duplicate)
+|  |  \- (org.mongodb:mongodb-driver-async:jar:3.6.1:compile - omitted for duplicate)
+|  \- (io.vertx:vertx-lang-scala_2.12:jar:3.5.1:compile - omitted for duplicate)
++- io.vertx:vertx-auth-shiro-scala_2.12:jar:3.5.1:compile
+|  +- io.vertx:vertx-auth-shiro:jar:3.5.1:compile
+|  |  +- (io.vertx:vertx-auth-common:jar:3.5.1:compile - omitted for duplicate)
+|  |  +- org.slf4j:slf4j-api:jar:1.7.21:compile
+|  |  +- org.apache.shiro:shiro-core:jar:1.2.6:compile
+|  |  |  \- commons-beanutils:commons-beanutils:jar:1.8.3:compile
+|  |  \- (io.vertx:vertx-core:jar:3.5.1:compile - omitted for duplicate)
+|  +- (io.vertx:vertx-auth-common-scala_2.12:jar:3.5.1:compile - omitted for duplicate)
+|  \- (io.vertx:vertx-lang-scala_2.12:jar:3.5.1:compile - omitted for duplicate)
++- io.vertx:vertx-auth-oauth2-scala_2.12:jar:3.5.1:compile
+|  +- io.vertx:vertx-auth-oauth2:jar:3.5.1:compile
+|  |  +- (io.vertx:vertx-auth-common:jar:3.5.1:compile - omitted for duplicate)
+|  |  +- io.vertx:vertx-jwt:jar:3.5.1:compile
+|  |  |  \- (io.vertx:vertx-core:jar:3.5.1:compile - omitted for duplicate)
+|  |  \- (io.vertx:vertx-core:jar:3.5.1:compile - omitted for duplicate)
+|  +- (io.vertx:vertx-auth-common-scala_2.12:jar:3.5.1:compile - omitted for duplicate)
+|  +- (io.vertx:vertx-auth-jwt-scala_2.12:jar:3.5.1:compile - omitted for duplicate)
+|  \- (io.vertx:vertx-lang-scala_2.12:jar:3.5.1:compile - omitted for duplicate)
++- io.vertx:vertx-auth-jwt-scala_2.12:jar:3.5.1:compile
+|  +- io.vertx:vertx-auth-jwt:jar:3.5.1:compile
+|  |  +- (io.vertx:vertx-auth-common:jar:3.5.1:compile - omitted for duplicate)
+|  |  +- (io.vertx:vertx-jwt:jar:3.5.1:compile - omitted for duplicate)
+|  |  \- (io.vertx:vertx-core:jar:3.5.1:compile - omitted for duplicate)
+|  +- (io.vertx:vertx-auth-common-scala_2.12:jar:3.5.1:compile - omitted for duplicate)
+|  +- io.vertx:vertx-jwt-scala_2.12:jar:3.5.1:compile
+|  |  +- (io.vertx:vertx-jwt:jar:3.5.1:compile - omitted for duplicate)
+|  |  +- (io.vertx:vertx-auth-common-scala_2.12:jar:3.5.1:compile - omitted for duplicate)
+|  |  \- (io.vertx:vertx-lang-scala_2.12:jar:3.5.1:compile - omitted for duplicate)
+|  \- (io.vertx:vertx-lang-scala_2.12:jar:3.5.1:compile - omitted for duplicate)
++- io.vertx:vertx-web-scala_2.12:jar:3.5.1:compile
+|  +- io.vertx:vertx-web:jar:3.5.1:compile
+|  |  +- (io.vertx:vertx-auth-common:jar:3.5.1:compile - omitted for duplicate)
+|  |  +- (io.vertx:vertx-bridge-common:jar:3.5.1:compile - omitted for duplicate)
+|  |  \- (io.vertx:vertx-core:jar:3.5.1:compile - omitted for duplicate)
+|  \- (io.vertx:vertx-lang-scala_2.12:jar:3.5.1:compile - omitted for duplicate)
++- io.vertx:vertx-web-client-scala_2.12:jar:3.5.1:compile
+|  +- (io.vertx:vertx-core:jar:3.5.1:compile - omitted for duplicate)
+|  +- (io.vertx:vertx-web-common-scala_2.12:jar:3.5.1:compile - omitted for duplicate)
+|  +- io.vertx:vertx-web-client:jar:3.5.1:compile
+|  |  +- (io.vertx:vertx-web-common:jar:3.5.1:compile - omitted for duplicate)
+|  |  \- (io.vertx:vertx-core:jar:3.5.1:compile - omitted for duplicate)
+|  \- (io.vertx:vertx-lang-scala_2.12:jar:3.5.1:compile - omitted for duplicate)
++- io.vertx:vertx-web-templ-freemarker-scala_2.12:jar:3.5.1:compile
+|  +- (io.vertx:vertx-web-scala_2.12:jar:3.5.1:compile - omitted for duplicate)
+|  +- io.vertx:vertx-web-templ-freemarker:jar:3.5.1:compile
+|  |  +- org.freemarker:freemarker:jar:2.3.23:compile
+|  |  +- (io.vertx:vertx-web:jar:3.5.1:compile - omitted for duplicate)
+|  |  \- (io.vertx:vertx-core:jar:3.5.1:compile - omitted for duplicate)
+|  \- (io.vertx:vertx-lang-scala_2.12:jar:3.5.1:compile - omitted for duplicate)
++- io.vertx:vertx-web-templ-jade-scala_2.12:jar:3.5.1:compile
+|  +- (io.vertx:vertx-web-scala_2.12:jar:3.5.1:compile - omitted for duplicate)
+|  +- io.vertx:vertx-web-templ-jade:jar:3.5.1:compile
+|  |  +- de.neuland-bfi:jade4j:jar:1.2.5:compile
+|  |  |  +- org.apache.commons:commons-jexl:jar:2.1.1:compile
+|  |  |  |  \- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for duplicate)
+|  |  |  +- commons-collections:commons-collections:jar:3.2.2:compile
+|  |  |  +- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+|  |  |  +- (org.apache.commons:commons-lang3:jar:3.4:compile - omitted for duplicate)
+|  |  |  +- com.googlecode.concurrentlinkedhashmap:concurrentlinkedhashmap-lru:jar:1.4.2:compile
+|  |  |  \- org.pegdown:pegdown:jar:1.6.0:compile
+|  |  |     \- org.parboiled:parboiled-java:jar:1.1.7:compile
+|  |  |        +- org.parboiled:parboiled-core:jar:1.1.7:compile
+|  |  |        +- org.ow2.asm:asm:jar:5.0.3:compile
+|  |  |        +- org.ow2.asm:asm-tree:jar:5.0.3:compile
+|  |  |        |  \- (org.ow2.asm:asm:jar:5.0.3:compile - omitted for duplicate)
+|  |  |        +- org.ow2.asm:asm-analysis:jar:5.0.3:compile
+|  |  |        |  \- (org.ow2.asm:asm-tree:jar:5.0.3:compile - omitted for duplicate)
+|  |  |        \- org.ow2.asm:asm-util:jar:5.0.3:compile
+|  |  |           \- (org.ow2.asm:asm-tree:jar:5.0.3:compile - omitted for duplicate)
+|  |  +- (io.vertx:vertx-web:jar:3.5.1:compile - omitted for duplicate)
+|  |  \- (io.vertx:vertx-core:jar:3.5.1:compile - omitted for duplicate)
+|  \- (io.vertx:vertx-lang-scala_2.12:jar:3.5.1:compile - omitted for duplicate)
++- io.vertx:vertx-web-templ-pebble-scala_2.12:jar:3.5.1:compile
+|  +- (io.vertx:vertx-web-scala_2.12:jar:3.5.1:compile - omitted for duplicate)
+|  +- io.vertx:vertx-web-templ-pebble:jar:3.5.1:compile
+|  |  +- com.mitchellbosecke:pebble:jar:2.3.0:compile
+|  |  |  +- (com.google.guava:guava:jar:16.0.1:compile - omitted for conflict with 19.0)
+|  |  |  \- com.coverity.security:coverity-escapers:jar:1.1:compile
+|  |  +- com.google.guava:guava:jar:19.0:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|  |  +- (io.vertx:vertx-web:jar:3.5.1:compile - omitted for duplicate)
+|  |  \- (io.vertx:vertx-core:jar:3.5.1:compile - omitted for duplicate)
+|  \- (io.vertx:vertx-lang-scala_2.12:jar:3.5.1:compile - omitted for duplicate)
++- io.vertx:vertx-mysql-postgresql-client-scala_2.12:jar:3.5.1:compile
+|  +- io.vertx:vertx-mysql-postgresql-client:jar:3.5.1:compile
+|  |  +- (io.vertx:vertx-sql-common:jar:3.5.1:compile - omitted for duplicate)
+|  |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  |  +- com.github.mauricio:postgresql-async_2.12:jar:0.2.21:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.12.1:compile - omitted for conflict with 2.12.4)
+|  |  |  \- com.github.mauricio:db-async-common_2.12:jar:0.2.21:compile
+|  |  |     +- (org.scala-lang:scala-library:jar:2.12.1:compile - omitted for conflict with 2.12.4)
+|  |  |     +- joda-time:joda-time:jar:2.9.7:compile
+|  |  |     +- org.joda:joda-convert:jar:1.8.1:compile
+|  |  |     \- (org.javassist:javassist:jar:3.21.0-GA:compile - omitted for duplicate)
+|  |  \- com.github.mauricio:mysql-async_2.12:jar:0.2.21:compile
+|  |     +- (org.scala-lang:scala-library:jar:2.12.1:compile - omitted for conflict with 2.12.4)
+|  |     \- (com.github.mauricio:db-async-common_2.12:jar:0.2.21:compile - omitted for duplicate)
+|  +- (io.vertx:vertx-sql-common-scala_2.12:jar:3.5.1:compile - omitted for duplicate)
+|  \- (io.vertx:vertx-lang-scala_2.12:jar:3.5.1:compile - omitted for duplicate)
++- io.vertx:vertx-rabbitmq-client-scala_2.12:jar:3.5.1:compile
+|  +- io.vertx:vertx-rabbitmq-client:jar:3.5.1:compile
+|  |  +- (io.vertx:vertx-core:jar:3.5.1:compile - omitted for duplicate)
+|  |  \- com.rabbitmq:amqp-client:jar:3.6.5:compile
+|  \- (io.vertx:vertx-lang-scala_2.12:jar:3.5.1:compile - omitted for duplicate)
++- io.vertx:vertx-stomp-scala_2.12:jar:3.5.1:compile
+|  +- io.vertx:vertx-stomp:jar:3.5.1:compile
+|  |  +- (io.vertx:vertx-auth-common:jar:3.5.1:compile - omitted for duplicate)
+|  |  \- (io.vertx:vertx-bridge-common:jar:3.5.1:compile - omitted for duplicate)
+|  +- (io.vertx:vertx-auth-common-scala_2.12:jar:3.5.1:compile - omitted for duplicate)
+|  +- (io.vertx:vertx-bridge-common-scala_2.12:jar:3.5.1:compile - omitted for duplicate)
+|  \- (io.vertx:vertx-lang-scala_2.12:jar:3.5.1:compile - omitted for duplicate)
++- io.vertx:vertx-dropwizard-metrics-scala_2.12:jar:3.5.1:compile
+|  +- io.vertx:vertx-dropwizard-metrics:jar:3.5.1:compile
+|  |  +- (io.vertx:vertx-core:jar:3.5.1:compile - omitted for duplicate)
+|  |  \- io.dropwizard.metrics:metrics-core:jar:4.0.2:compile
+|  +- (io.vertx:vertx-shell-scala_2.12:jar:3.5.1:compile - omitted for duplicate)
+|  \- (io.vertx:vertx-lang-scala_2.12:jar:3.5.1:compile - omitted for duplicate)
++- io.vertx:vertx-shell-scala_2.12:jar:3.5.1:compile
+|  +- io.vertx:vertx-shell:jar:3.5.1:compile
+|  |  +- (io.vertx:vertx-core:jar:3.5.1:compile - omitted for duplicate)
+|  |  +- (io.vertx:vertx-auth-common:jar:3.5.1:compile - omitted for duplicate)
+|  |  +- (io.vertx:vertx-web:jar:3.5.1:compile - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|  |  +- io.termd:termd-core:jar:1.1.3:compile
+|  |  |  +- (io.netty:netty-common:jar:4.1.19.Final:compile - version managed from 4.1.1.Final; omitted for duplicate)
+|  |  |  +- (io.netty:netty-buffer:jar:4.1.19.Final:compile - version managed from 4.1.1.Final; omitted for duplicate)
+|  |  |  +- (io.netty:netty-transport:jar:4.1.19.Final:compile - version managed from 4.1.1.Final; omitted for duplicate)
+|  |  |  +- (io.netty:netty-handler:jar:4.1.19.Final:compile - version managed from 4.1.1.Final; omitted for duplicate)
+|  |  |  +- (io.netty:netty-codec-http:jar:4.1.19.Final:compile - version managed from 4.1.1.Final; omitted for duplicate)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.3:compile - version managed from 2.7.4; omitted for duplicate)
+|  |  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.3:compile - version managed from 2.7.4; omitted for duplicate)
+|  |  \- org.apache.sshd:sshd-core:jar:1.2.0:compile
+|  +- (io.vertx:vertx-auth-jdbc-scala_2.12:jar:3.5.1:compile - omitted for duplicate)
+|  +- (io.vertx:vertx-auth-mongo-scala_2.12:jar:3.5.1:compile - omitted for duplicate)
+|  +- (io.vertx:vertx-auth-shiro-scala_2.12:jar:3.5.1:compile - omitted for duplicate)
+|  +- (io.vertx:vertx-web-scala_2.12:jar:3.5.1:compile - omitted for duplicate)
+|  \- (io.vertx:vertx-lang-scala_2.12:jar:3.5.1:compile - omitted for duplicate)
++- io.vertx:vertx-service-discovery-scala_2.12:jar:3.5.1:compile
+|  +- io.vertx:vertx-service-discovery:jar:3.5.1:compile
+|  |  \- (io.vertx:vertx-core:jar:3.5.1:compile - omitted for duplicate)
+|  \- (io.vertx:vertx-lang-scala_2.12:jar:3.5.1:compile - omitted for duplicate)
++- io.vertx:vertx-service-discovery-backend-redis-scala_2.12:jar:3.5.1:compile
+|  +- io.vertx:vertx-service-discovery-backend-redis:jar:3.5.1:compile
+|  |  +- (io.vertx:vertx-redis-client:jar:3.5.1:compile - omitted for duplicate)
+|  |  +- (io.vertx:vertx-service-discovery:jar:3.5.1:compile - omitted for duplicate)
+|  |  \- (io.vertx:vertx-core:jar:3.5.1:compile - omitted for duplicate)
+|  \- (io.vertx:vertx-lang-scala_2.12:jar:3.5.1:compile - omitted for duplicate)
++- io.vertx:vertx-service-discovery-bridge-docker-scala_2.12:jar:3.5.1:compile
+|  +- io.vertx:vertx-service-discovery-bridge-docker:jar:3.5.1:compile
+|  |  +- commons-logging:commons-logging:jar:1.1.1:compile
+|  |  +- (com.google.guava:guava:jar:19.0:compile - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile - omitted for duplicate)
+|  |  +- org.apache.httpcomponents:httpclient:jar:4.5.3:compile
+|  |  |  +- org.apache.httpcomponents:httpcore:jar:4.4.6:compile
+|  |  |  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for conflict with 1.1.1)
+|  |  |  \- commons-codec:commons-codec:jar:1.9:compile
+|  |  +- org.bouncycastle:bcprov-jdk15on:jar:1.54:compile
+|  |  +- org.apache.commons:commons-compress:jar:1.10:compile
+|  |  +- commons-io:commons-io:jar:2.4:compile
+|  |  +- com.github.docker-java:docker-java:jar:3.0.0:compile
+|  |  |  +- com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:jar:2.6.4:compile
+|  |  |  |  +- com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:jar:2.6.4:compile
+|  |  |  |  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.3:compile - version managed from 2.6.4; omitted for duplicate)
+|  |  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.3:compile - version managed from 2.6.4; omitted for duplicate)
+|  |  |  |  \- (com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.6.4:compile - omitted for conflict with 2.7.4)
+|  |  |  +- org.glassfish.jersey.connectors:jersey-apache-connector:jar:2.11:compile
+|  |  |  |  +- (org.apache.httpcomponents:httpclient:jar:4.3.1:compile - omitted for conflict with 4.5.3)
+|  |  |  |  +- org.glassfish.jersey.core:jersey-common:jar:2.11:compile
+|  |  |  |  |  +- (javax.ws.rs:javax.ws.rs-api:jar:2.0:compile - omitted for duplicate)
+|  |  |  |  |  +- javax.annotation:javax.annotation-api:jar:1.2:compile
+|  |  |  |  |  +- org.glassfish.jersey.bundles.repackaged:jersey-guava:jar:2.11:compile
+|  |  |  |  |  +- (org.glassfish.hk2:hk2-api:jar:2.3.0-b05:compile - omitted for duplicate)
+|  |  |  |  |  +- (org.glassfish.hk2.external:javax.inject:jar:2.3.0-b05:compile - omitted for duplicate)
+|  |  |  |  |  +- (org.glassfish.hk2:hk2-locator:jar:2.3.0-b05:compile - omitted for duplicate)
+|  |  |  |  |  \- org.glassfish.hk2:osgi-resource-locator:jar:1.0.1:compile
+|  |  |  |  +- (org.glassfish.jersey.core:jersey-client:jar:2.11:compile - omitted for duplicate)
+|  |  |  |  \- javax.ws.rs:javax.ws.rs-api:jar:2.0:compile
+|  |  |  +- (org.apache.httpcomponents:httpclient:jar:4.3.1:compile - omitted for conflict with 4.5.3)
+|  |  |  +- org.glassfish.jersey.core:jersey-client:jar:2.11:compile
+|  |  |  |  +- (org.glassfish.jersey.core:jersey-common:jar:2.11:compile - omitted for duplicate)
+|  |  |  |  +- (javax.ws.rs:javax.ws.rs-api:jar:2.0:compile - omitted for duplicate)
+|  |  |  |  +- org.glassfish.hk2:hk2-api:jar:2.3.0-b05:compile
+|  |  |  |  |  +- org.glassfish.hk2:hk2-utils:jar:2.3.0-b05:compile
+|  |  |  |  |  \- org.glassfish.hk2.external:aopalliance-repackaged:jar:2.3.0-b05:compile
+|  |  |  |  +- org.glassfish.hk2.external:javax.inject:jar:2.3.0-b05:compile
+|  |  |  |  \- org.glassfish.hk2:hk2-locator:jar:2.3.0-b05:compile
+|  |  |  |     +- (org.glassfish.hk2.external:javax.inject:jar:2.3.0-b05:compile - omitted for duplicate)
+|  |  |  |     +- (org.glassfish.hk2.external:aopalliance-repackaged:jar:2.3.0-b05:compile - omitted for duplicate)
+|  |  |  |     +- (org.glassfish.hk2:hk2-api:jar:2.3.0-b05:compile - omitted for duplicate)
+|  |  |  |     \- (org.glassfish.hk2:hk2-utils:jar:2.3.0-b05:compile - omitted for duplicate)
+|  |  |  +- de.gesellix:unix-socket-factory:jar:2015-01-27T15-02-14:compile
+|  |  |  |  \- (org.apache.httpcomponents:httpclient:jar:4.3:runtime - omitted for conflict with 4.5.3)
+|  |  |  +- (org.apache.commons:commons-compress:jar:1.5:compile - omitted for conflict with 1.10)
+|  |  |  +- (commons-codec:commons-codec:jar:1.8:compile - omitted for conflict with 1.9)
+|  |  |  +- commons-lang:commons-lang:jar:2.6:compile
+|  |  |  +- (commons-io:commons-io:jar:2.3:compile - omitted for conflict with 2.4)
+|  |  |  +- (com.google.guava:guava:jar:18.0:compile - omitted for conflict with 19.0)
+|  |  |  +- org.bouncycastle:bcpkix-jdk15on:jar:1.51:compile
+|  |  |  |  \- (org.bouncycastle:bcprov-jdk15on:jar:1.51:compile - omitted for conflict with 1.54)
+|  |  |  \- io.netty:netty-transport-native-epoll:jar:linux-x86_64:4.1.19.Final:compile (version managed from 4.1.0.CR3)
+|  |  |     +- (io.netty:netty-common:jar:4.1.19.Final:compile - version managed from 4.1.1.Final; omitted for duplicate)
+|  |  |     +- (io.netty:netty-buffer:jar:4.1.19.Final:compile - version managed from 4.1.1.Final; omitted for duplicate)
+|  |  |     +- io.netty:netty-transport-native-unix-common:jar:4.1.19.Final:compile
+|  |  |     |  +- (io.netty:netty-common:jar:4.1.19.Final:compile - version managed from 4.1.1.Final; omitted for duplicate)
+|  |  |     |  \- (io.netty:netty-transport:jar:4.1.19.Final:compile - version managed from 4.1.1.Final; omitted for duplicate)
+|  |  |     \- (io.netty:netty-transport:jar:4.1.19.Final:compile - version managed from 4.1.1.Final; omitted for duplicate)
+|  |  +- com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.7.4:compile
+|  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.3:compile - version managed from 2.7.4; omitted for duplicate)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.7.0:compile - omitted for conflict with 2.9.0)
+|  |  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.3:compile - version managed from 2.7.4; omitted for duplicate)
+|  |  +- (io.vertx:vertx-service-discovery:jar:3.5.1:compile - omitted for duplicate)
+|  |  \- (io.vertx:vertx-core:jar:3.5.1:compile - omitted for duplicate)
+|  \- (io.vertx:vertx-lang-scala_2.12:jar:3.5.1:compile - omitted for duplicate)
++- io.vertx:vertx-service-discovery-bridge-kubernetes-scala_2.12:jar:3.5.1:compile
+|  +- io.vertx:vertx-service-discovery-bridge-kubernetes:jar:3.5.1:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.3:compile - version managed from 2.7.4; omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.3:compile - version managed from 2.7.4; omitted for duplicate)
+|  |  +- (io.vertx:vertx-service-discovery:jar:3.5.1:compile - omitted for duplicate)
+|  |  +- (io.vertx:vertx-web-client:jar:3.5.1:compile - omitted for duplicate)
+|  |  \- (io.vertx:vertx-core:jar:3.5.1:compile - omitted for duplicate)
+|  \- (io.vertx:vertx-lang-scala_2.12:jar:3.5.1:compile - omitted for duplicate)
++- io.vertx:vertx-circuit-breaker-scala_2.12:jar:3.5.1:compile
+|  +- io.vertx:vertx-circuit-breaker:jar:3.5.1:compile
+|  |  +- org.hdrhistogram:HdrHistogram:jar:2.1.9:compile
+|  |  \- (io.vertx:vertx-core:jar:3.5.1:compile - omitted for duplicate)
+|  +- (io.vertx:vertx-web-scala_2.12:jar:3.5.1:compile - omitted for duplicate)
+|  \- (io.vertx:vertx-lang-scala_2.12:jar:3.5.1:compile - omitted for duplicate)
++- io.vertx:vertx-config-git-scala_2.12:jar:3.5.1:compile
+|  +- io.vertx:vertx-config-git:jar:3.5.1:compile
+|  |  +- (io.vertx:vertx-config:jar:3.5.1:compile - omitted for duplicate)
+|  |  +- org.eclipse.jgit:org.eclipse.jgit:jar:4.4.1.201607150455-r:compile
+|  |  |  +- com.jcraft:jsch:jar:0.1.53:compile
+|  |  |  +- com.googlecode.javaewah:JavaEWAH:jar:0.7.9:compile
+|  |  |  \- (org.apache.httpcomponents:httpclient:jar:4.3.6:compile - omitted for conflict with 4.5.3)
+|  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.3:compile - omitted for duplicate)
+|  |  +- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for duplicate)
+|  |  \- (io.vertx:vertx-core:jar:3.5.1:compile - omitted for duplicate)
+|  \- (io.vertx:vertx-lang-scala_2.12:jar:3.5.1:compile - omitted for duplicate)
++- io.vertx:vertx-config-kubernetes-configmap-scala_2.12:jar:3.5.1:compile
+|  +- io.vertx:vertx-config-kubernetes-configmap:jar:3.5.1:compile
+|  |  +- (io.vertx:vertx-config:jar:3.5.1:compile - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.3:compile - version managed from 2.7.4; omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.3:compile - version managed from 2.7.4; omitted for duplicate)
+|  |  +- (io.vertx:vertx-web-client:jar:3.5.1:compile - omitted for duplicate)
+|  |  \- (io.vertx:vertx-core:jar:3.5.1:compile - omitted for duplicate)
+|  \- (io.vertx:vertx-lang-scala_2.12:jar:3.5.1:compile - omitted for duplicate)
++- io.vertx:vertx-config-spring-config-server-scala_2.12:jar:3.5.1:compile
+|  +- io.vertx:vertx-config-spring-config-server:jar:3.5.1:compile
+|  |  +- (io.vertx:vertx-config:jar:3.5.1:compile - omitted for duplicate)
+|  |  +- (com.typesafe:config:jar:1.3.0:compile - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile - omitted for duplicate)
+|  |  \- (io.vertx:vertx-core:jar:3.5.1:compile - omitted for duplicate)
+|  \- (io.vertx:vertx-lang-scala_2.12:jar:3.5.1:compile - omitted for duplicate)
+\- io.vertx:vertx-config-zookeeper-scala_2.12:jar:3.5.1:compile
+   +- io.vertx:vertx-config-zookeeper:jar:3.5.1:compile
+   |  +- (com.google.guava:guava:jar:19.0:compile - omitted for duplicate)
+   |  +- (io.vertx:vertx-config:jar:3.5.1:compile - omitted for duplicate)
+   |  +- (org.apache.curator:curator-framework:jar:2.11.0:compile - omitted for duplicate)
+   |  +- (org.apache.zookeeper:zookeeper:jar:3.4.10:compile - omitted for duplicate)
+   |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+   |  +- (org.slf4j:slf4j-log4j12:jar:1.7.21:compile - omitted for duplicate)
+   |  +- (log4j:log4j:jar:1.2.16:compile - omitted for duplicate)
+   |  \- (io.vertx:vertx-core:jar:3.5.1:compile - omitted for duplicate)
+   \- (io.vertx:vertx-lang-scala_2.12:jar:3.5.1:compile - omitted for duplicate)

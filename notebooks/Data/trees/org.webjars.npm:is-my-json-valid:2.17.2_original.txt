@@ -1,0 +1,8 @@
+org.webjars.npm:is-my-json-valid:jar:2.17.2
++- org.webjars.npm:jsonpointer:jar:4.0.1:compile
++- org.webjars.npm:xtend:jar:4.0.2:compile
++- org.webjars.npm:generate-function:jar:2.3.1:compile
+|  \- org.webjars.npm:is-property:jar:1.0.2:compile
++- org.webjars.npm:is-my-ip-valid:jar:1.0.0:compile
+\- org.webjars.npm:generate-object-property:jar:1.2.0:compile
+   \- (org.webjars.npm:is-property:jar:1.0.2:compile - omitted for duplicate)

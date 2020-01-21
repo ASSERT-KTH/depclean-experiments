@@ -1,0 +1,13 @@
+com.brienwheeler.lib:lib-util:jar:1.10
++- commons-logging:commons-logging-api:jar:1.1:compile
++- com.brienwheeler.lib:lib-test:jar:1.10:test
+|  +- (junit:junit:jar:4.8.1:test - omitted for duplicate)
+|  \- org.springframework:spring-aop:jar:3.2.9.RELEASE:test
+|     +- aopalliance:aopalliance:jar:1.0:test
+|     +- org.springframework:spring-beans:jar:3.2.9.RELEASE:test
+|     |  \- (org.springframework:spring-core:jar:3.2.9.RELEASE:test - omitted for duplicate)
+|     \- (org.springframework:spring-core:jar:3.2.9.RELEASE:test - omitted for duplicate)
++- org.springframework:spring-test:jar:3.2.9.RELEASE:test
+|  \- org.springframework:spring-core:jar:3.2.9.RELEASE:test
+|     \- commons-logging:commons-logging:jar:1.1.2:test (version managed from 1.1.3)
+\- junit:junit:jar:4.8.1:test

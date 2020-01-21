@@ -1,0 +1,1 @@
+de.dentrassi.kura.addons:de.dentrassi.kura.addons.drools.ecj:bundle:0.5.0

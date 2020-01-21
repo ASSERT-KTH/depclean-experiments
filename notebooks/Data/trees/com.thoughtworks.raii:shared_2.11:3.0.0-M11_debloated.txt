@@ -1,0 +1,28 @@
+com.thoughtworks.raii:shared_2.11:jar:3.0.0-M11
++- org.scala-lang:scala-library:jar:2.11.12:compile
++- com.thoughtworks.raii:covariant_2.11:jar:3.0.0-M11:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  \- org.scalaz:scalaz-core_2.11:jar:7.2.14:compile
+|     \- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
++- org.scalatest:scalatest_2.11:jar:3.0.3:test
+|  +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.12)
+|  +- org.scalactic:scalactic_2.11:jar:3.0.3:test
+|  |  +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.12)
+|  |  \- (org.scala-lang:scala-reflect:jar:2.11.8:test - omitted for duplicate)
+|  +- org.scala-lang:scala-reflect:jar:2.11.8:test
+|  |  \- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.12)
+|  +- org.scala-lang.modules:scala-xml_2.11:jar:1.0.5:test
+|  |  \- (org.scala-lang:scala-library:jar:2.11.7:test - omitted for conflict with 2.11.12)
+|  \- org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.0.4:test
+|     \- (org.scala-lang:scala-library:jar:2.11.6:test - omitted for conflict with 2.11.12)
++- com.thoughtworks.tryt:covariant_2.11:jar:2.0.3:test
+|  +- (org.scala-lang:scala-library:jar:2.11.11:test - omitted for conflict with 2.11.12)
+|  \- (org.scalaz:scalaz-core_2.11:jar:7.2.13:test - omitted for conflict with 7.2.14)
++- com.thoughtworks.continuation:continuation_2.11:jar:2.0.0-M2:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
+|  \- (org.scalaz:scalaz-core_2.11:jar:7.2.14:compile - omitted for duplicate)
+\- com.thoughtworks.future:future_2.11:jar:2.0.0-M2:test
+   +- (org.scala-lang:scala-library:jar:2.11.11:test - omitted for conflict with 2.11.12)
+   +- (com.thoughtworks.continuation:continuation_2.11:jar:2.0.0-M2:test - omitted for duplicate)
+   +- (org.scalaz:scalaz-core_2.11:jar:7.2.14:test - omitted for duplicate)
+   \- (com.thoughtworks.tryt:covariant_2.11:jar:2.0.3:test - omitted for duplicate)

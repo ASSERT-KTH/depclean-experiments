@@ -1,0 +1,3 @@
+org.webjars.npm:buffer:jar:5.2.1
++- org.webjars.npm:base64-js:jar:1.3.0:compile
+\- org.webjars.npm:ieee754:jar:1.1.13:compile

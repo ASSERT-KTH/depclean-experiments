@@ -1,0 +1,54 @@
+com.addthis:codec:jar:3.8.0
++- com.addthis:maljson:jar:0.2.0:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.7.2; omitted for duplicate)
+|  \- com.google.code.findbugs:jsr305:jar:2.0.3:compile (version managed from 2.0.2)
++- com.addthis.basis:basis-core:jar:4.3.0:compile
+|  +- com.google.guava:guava:jar:19.0:compile
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.5:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile - omitted for duplicate)
+|  +- (com.google.code.findbugs:jsr305:jar:2.0.3:compile - version managed from 2.0.2; omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.7.5; omitted for duplicate)
++- com.typesafe:config:jar:1.3.0:compile
++- io.netty:netty-buffer:jar:4.0.28.Final:compile
+|  \- io.netty:netty-common:jar:4.0.28.Final:compile
++- io.dropwizard:dropwizard-util:jar:1.0.2:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.5:compile - version managed from 2.9.0; omitted for duplicate)
+|  +- (com.google.guava:guava:jar:19.0:compile - omitted for duplicate)
+|  +- (com.google.code.findbugs:jsr305:jar:2.0.3:compile - version managed from 3.0.1; omitted for duplicate)
+|  \- (joda-time:joda-time:jar:2.5:compile - version managed from 2.9.4; omitted for duplicate)
++- io.dropwizard:dropwizard-validation:jar:1.0.2:compile
+|  +- (io.dropwizard:dropwizard-util:jar:1.0.2:compile - omitted for duplicate)
+|  +- org.hibernate:hibernate-validator:jar:5.2.4.Final:compile
+|  |  +- javax.validation:validation-api:jar:1.1.0.Final:compile
+|  |  +- org.jboss.logging:jboss-logging:jar:3.2.1.Final:compile
+|  |  \- com.fasterxml:classmate:jar:1.1.0:compile
+|  \- org.glassfish:javax.el:jar:3.0.0:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.5:compile - version managed from 2.9.0; omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.5:compile - omitted for duplicate)
++- com.fasterxml.jackson.core:jackson-core:jar:2.9.5:compile
++- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.5:compile
++- com.fasterxml.jackson.datatype:jackson-datatype-guava:jar:2.9.5:compile
+|  +- (com.google.guava:guava:jar:19.0:compile - version managed from 18.0; omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.5:compile - omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile - omitted for duplicate)
++- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.5:compile
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.5:compile - omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile - omitted for duplicate)
++- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.5:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.5:compile - version managed from 2.9.0; omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.5:compile - omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile - omitted for duplicate)
++- joda-time:joda-time:jar:2.5:compile
++- com.fasterxml.jackson.datatype:jackson-datatype-joda:jar:2.9.5:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.5:compile - version managed from 2.9.0; omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.5:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile - omitted for duplicate)
+|  \- (joda-time:joda-time:jar:2.5:compile - version managed from 2.7; omitted for duplicate)
++- com.yammer.metrics:metrics-core:jar:2.2.0:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.7.2; omitted for duplicate)
++- org.slf4j:slf4j-simple:jar:1.7.10:test
+|  \- (org.slf4j:slf4j-api:jar:1.7.10:test - version managed from 1.7.2; omitted for duplicate)
++- org.slf4j:slf4j-api:jar:1.7.10:compile
+\- junit:junit:jar:4.12:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

@@ -1,0 +1,60 @@
+org.wildfly.core:wildfly-subsystem-test-framework:jar:6.0.0.CR2
++- junit:junit:jar:4.12:compile
+|  \- org.hamcrest:hamcrest-core:jar:1.3:compile
++- org.jboss.logging:jboss-logging:jar:3.3.2.Final:compile
++- org.jboss.slf4j:slf4j-jboss-logmanager:jar:1.0.3.GA:compile
++- org.wildfly.core:wildfly-controller:jar:6.0.0.CR2:compile
+|  +- org.jboss:jboss-dmr:jar:1.5.0.Final:compile
+|  +- org.wildfly.core:wildfly-controller-client:jar:6.0.0.CR2:compile
+|  +- org.wildfly.security:wildfly-elytron:jar:1.5.4.Final:compile
+|  +- org.wildfly.core:wildfly-core-security:jar:6.0.0.CR2:compile
+|  |  \- org.wildfly.core:wildfly-core-security-api:jar:6.0.0.CR2:compile
+|  +- org.wildfly.core:wildfly-version:jar:6.0.0.CR2:compile
+|  +- org.jboss.modules:jboss-modules:jar:1.8.5.Final:compile
+|  +- org.jboss.msc:jboss-msc:jar:1.4.2.Final:compile
+|  +- org.jboss:staxmapper:jar:1.3.0.Final:compile
+|  +- org.projectodd.vdx:vdx-wildfly:jar:1.1.6:compile
+|  |  \- org.projectodd.vdx:vdx-core:jar:1.1.6:compile
+|  \- org.eclipse.jgit:org.eclipse.jgit:jar:5.0.2.201807311906-r:compile
+|     +- com.jcraft:jzlib:jar:1.1.1:compile
+|     \- com.googlecode.javaewah:JavaEWAH:jar:1.1.6:compile
++- org.wildfly.core:wildfly-deployment-repository:jar:6.0.0.CR2:compile
+|  +- org.jboss:jboss-vfs:jar:3.2.13.Final:compile
+|  \- org.wildfly.core:wildfly-protocol:jar:6.0.0.CR2:compile
+|     +- org.jboss.xnio:xnio-api:jar:3.6.5.Final:compile
+|     \- org.jboss.xnio:xnio-nio:jar:3.6.5.Final:compile
++- org.wildfly.core:wildfly-server:jar:6.0.0.CR2:compile
+|  +- org.wildfly.core:wildfly-core-management-client:jar:6.0.0.CR2:compile
+|  +- org.wildfly.core:wildfly-domain-http-interface:jar:6.0.0.CR2:compile
+|  |  +- org.wildfly.core:wildfly-domain-management:jar:6.0.0.CR2:compile
+|  |  |  \- org.picketbox:picketbox:jar:5.0.3.Final:compile
+|  |  \- org.wildfly.security.elytron-web:undertow-server:jar:1.2.1.Final:compile
+|  +- org.wildfly.core:wildfly-platform-mbean:jar:6.0.0.CR2:compile
+|  +- org.wildfly.core:wildfly-process-controller:jar:6.0.0.CR2:compile
+|  +- org.wildfly.core:wildfly-remoting:jar:6.0.0.CR2:compile
+|  |  \- org.wildfly.core:wildfly-io:jar:6.0.0.CR2:compile
+|  +- org.wildfly.core:wildfly-network:jar:6.0.0.CR2:compile
+|  +- org.jboss:jandex:jar:2.0.5.Final:compile
+|  +- org.jboss.invocation:jboss-invocation:jar:1.5.1.Final:compile
+|  +- org.jboss.marshalling:jboss-marshalling:jar:2.0.5.Final:compile
+|  +- org.jboss.remoting:jboss-remoting:jar:5.0.8.Final:compile
+|  |  \- org.wildfly.client:wildfly-client-config:jar:1.0.0.Final:compile
+|  +- org.jboss.stdio:jboss-stdio:jar:1.0.2.GA:compile
+|  +- org.jboss.threads:jboss-threads:jar:2.3.2.Final:compile
+|  +- io.undertow:undertow-core:jar:2.0.13.Final:compile
+|  \- com.jcraft:jsch:jar:0.1.54:compile
++- org.wildfly.legacy.test:wildfly-legacy-spi:jar:3.0.0.Final:compile
++- xerces:xercesImpl:jar:2.11.0.SP5:compile
++- xalan:xalan:jar:2.7.1.jbossorg-2:test
+|  \- xalan:serializer:jar:2.7.1.jbossorg-2:test
++- org.wildfly.core:wildfly-model-test:jar:6.0.0.CR2:compile
+|  +- org.apache.maven.resolver:maven-resolver-connector-basic:jar:1.1.0:compile
+|  +- org.apache.maven.resolver:maven-resolver-transport-file:jar:1.1.0:compile
+|  +- org.apache.maven.resolver:maven-resolver-transport-http:jar:1.1.0:compile
+|  |  +- org.apache.httpcomponents:httpclient:jar:4.5.2:compile
+|  |  |  \- commons-codec:commons-codec:jar:1.9:compile
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.4.4:compile
+|  |  \- org.slf4j:jcl-over-slf4j:jar:1.7.22.jbossorg-1:runtime
+|  +- org.slf4j:slf4j-api:jar:1.7.22.jbossorg-1:compile
+|  \- org.wildfly.legacy.test:wildfly-legacy-versions:jar:3.0.0.Final:compile
+\- org.jboss.marshalling:jboss-marshalling-river:jar:2.0.5.Final:test

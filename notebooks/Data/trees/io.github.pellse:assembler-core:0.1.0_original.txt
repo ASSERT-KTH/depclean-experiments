@@ -1,0 +1,2 @@
+io.github.pellse:assembler-core:pom:0.1.0
+\- io.github.pellse:assembler-util:jar:0.1.0:compile

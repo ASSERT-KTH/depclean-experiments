@@ -1,0 +1,88 @@
+com.linkedin.pegasus:r2-netty:jar:23.0.19
++- org.slf4j:slf4j-api:jar:1.6.2:compile
++- com.linkedin.pegasus:pegasus-common:jar:23.0.19:compile
+|  \- (org.slf4j:slf4j-api:jar:1.6.2:compile - omitted for duplicate)
++- com.linkedin.pegasus:data:jar:23.0.19:compile
+|  +- (org.slf4j:slf4j-api:jar:1.6.2:compile - omitted for duplicate)
+|  +- com.linkedin.pegasus:entity-stream:jar:23.0.19:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.6.2:compile - omitted for duplicate)
+|  |  \- (com.linkedin.pegasus:pegasus-common:jar:23.0.19:compile - omitted for duplicate)
+|  +- org.antlr:antlr4-runtime:jar:4.5:compile
+|  |  \- org.abego.treelayout:org.abego.treelayout.core:jar:1.0.1:compile
+|  +- org.apache.commons:commons-lang3:jar:3.4:compile
+|  \- com.fasterxml.jackson.core:jackson-core:jar:2.9.2:compile
++- com.linkedin.pegasus:r2-core:jar:23.0.19:compile
+|  +- (org.slf4j:slf4j-api:jar:1.6.2:compile - omitted for duplicate)
+|  +- (com.linkedin.pegasus:entity-stream:jar:23.0.19:compile - omitted for duplicate)
+|  +- (com.linkedin.pegasus:data:jar:23.0.19:compile - omitted for duplicate)
+|  +- (com.linkedin.pegasus:pegasus-common:jar:23.0.19:compile - omitted for duplicate)
+|  +- (javax.servlet:javax.servlet-api:jar:3.1.0:compile - omitted for duplicate)
+|  \- javax.mail:mail:jar:1.4.1:compile
+|     \- javax.activation:activation:jar:1.1:compile
++- com.linkedin.pegasus:r2-disruptor:jar:23.0.19:compile
+|  +- (org.slf4j:slf4j-api:jar:1.6.2:compile - omitted for duplicate)
+|  \- (com.linkedin.pegasus:r2-core:jar:23.0.19:compile - omitted for duplicate)
++- com.linkedin.pegasus:r2-filter-compression:jar:23.0.19:compile
+|  +- (org.slf4j:slf4j-api:jar:1.6.2:compile - omitted for duplicate)
+|  +- (com.linkedin.pegasus:data:jar:23.0.19:compile - omitted for duplicate)
+|  +- (com.linkedin.pegasus:r2-core:jar:23.0.19:compile - omitted for duplicate)
+|  +- (com.linkedin.pegasus:pegasus-common:jar:23.0.19:compile - omitted for duplicate)
+|  +- org.apache.commons:commons-compress:jar:1.2:compile
+|  +- commons-io:commons-io:jar:2.4:compile
+|  \- org.iq80.snappy:snappy:jar:0.4:compile
++- io.netty:netty-all:jar:4.1.6.Final:compile
++- org.mockito:mockito-all:jar:1.9.5:test
++- org.eclipse.jetty:jetty-alpn-server:jar:9.3.21.v20170918:test
+|  \- (org.eclipse.jetty:jetty-server:jar:9.3.21.v20170918:test - omitted for duplicate)
++- org.eclipse.jetty:jetty-http:jar:9.3.21.v20170918:test
+|  \- (org.eclipse.jetty:jetty-util:jar:9.3.21.v20170918:test - omitted for duplicate)
++- org.eclipse.jetty.http2:http2-server:jar:9.3.21.v20170918:test
+|  +- org.eclipse.jetty.http2:http2-common:jar:9.3.21.v20170918:test
+|  |  \- org.eclipse.jetty.http2:http2-hpack:jar:9.3.21.v20170918:test
+|  |     +- (org.eclipse.jetty:jetty-util:jar:9.3.21.v20170918:test - omitted for duplicate)
+|  |     +- (org.eclipse.jetty:jetty-http:jar:9.3.21.v20170918:test - omitted for duplicate)
+|  |     \- (org.eclipse.jetty:jetty-io:jar:9.3.21.v20170918:test - omitted for duplicate)
+|  \- (org.eclipse.jetty:jetty-server:jar:9.3.21.v20170918:test - omitted for duplicate)
++- org.eclipse.jetty:jetty-servlet:jar:9.3.21.v20170918:test
+|  \- org.eclipse.jetty:jetty-security:jar:9.3.21.v20170918:test
+|     \- (org.eclipse.jetty:jetty-server:jar:9.3.21.v20170918:test - omitted for duplicate)
++- org.eclipse.jetty:jetty-server:jar:9.3.21.v20170918:test
+|  +- (javax.servlet:javax.servlet-api:jar:3.1.0:test - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-http:jar:9.3.21.v20170918:test - omitted for duplicate)
+|  \- org.eclipse.jetty:jetty-io:jar:9.3.21.v20170918:test
+|     \- (org.eclipse.jetty:jetty-util:jar:9.3.21.v20170918:test - omitted for duplicate)
++- org.eclipse.jetty:jetty-util:jar:9.3.21.v20170918:test
++- javax.servlet:javax.servlet-api:jar:3.1.0:test (scope not updated to compile)
++- org.testng:testng:jar:6.9.9:test
+|  +- junit:junit:jar:4.10:test
+|  |  \- org.hamcrest:hamcrest-core:jar:1.1:test
+|  +- com.beust:jcommander:jar:1.48:test
+|  +- org.apache.ant:ant:jar:1.7.0:test
+|  |  \- org.apache.ant:ant-launcher:jar:1.7.0:test
+|  +- org.yaml:snakeyaml:jar:1.15:test
+|  \- org.beanshell:bsh:jar:2.0b4:test
++- com.linkedin.pegasus:test-util:jar:23.0.19:test
+|  +- (org.slf4j:slf4j-api:jar:1.6.2:test - omitted for duplicate)
+|  +- (org.testng:testng:jar:6.9.9:test - omitted for duplicate)
+|  \- (commons-lang:commons-lang:jar:2.6:test - omitted for duplicate)
++- com.linkedin.pegasus:r2-testutils:jar:23.0.19:test
+|  +- (org.slf4j:slf4j-api:jar:1.6.2:test - omitted for duplicate)
+|  +- (com.linkedin.pegasus:r2-core:jar:23.0.19:test - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-alpn-server:jar:9.3.21.v20170918:test - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-http:jar:9.3.21.v20170918:test - omitted for duplicate)
+|  +- (org.eclipse.jetty.http2:http2-server:jar:9.3.21.v20170918:test - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-servlet:jar:9.3.21.v20170918:test - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-server:jar:9.3.21.v20170918:test - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-util:jar:9.3.21.v20170918:test - omitted for duplicate)
+|  \- (javax.servlet:javax.servlet-api:jar:3.1.0:test - omitted for duplicate)
+\- com.linkedin.pegasus:log-test-config:jar:23.0.19:test
+   +- (org.slf4j:slf4j-api:jar:1.6.2:test - omitted for duplicate)
+   +- org.apache.logging.log4j:log4j-slf4j-impl:jar:2.0.2:test
+   |  +- (org.slf4j:slf4j-api:jar:1.7.7:test - omitted for conflict with 1.6.2)
+   |  \- (org.apache.logging.log4j:log4j-api:jar:2.0.2:test - omitted for duplicate)
+   +- org.apache.logging.log4j:log4j-api:jar:2.0.2:test
+   +- org.apache.logging.log4j:log4j-core:jar:2.0.2:test
+   |  \- (org.apache.logging.log4j:log4j-api:jar:2.0.2:test - omitted for duplicate)
+   \- org.apache.logging.log4j:log4j-1.2-api:jar:2.0.2:test
+      +- (org.apache.logging.log4j:log4j-api:jar:2.0.2:test - omitted for duplicate)
+      \- (org.apache.logging.log4j:log4j-core:jar:2.0.2:test - omitted for duplicate)

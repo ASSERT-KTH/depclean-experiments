@@ -1,0 +1,51 @@
+org.apache.activemq:activemq-console:jar:5.15.5
++- org.apache.activemq:activemq-kahadb-store:jar:5.15.5:compile
+|  +- org.apache.activemq:activemq-broker:jar:5.15.5:compile
+|  |  +- org.apache.activemq:activemq-client:jar:5.15.5:compile
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  |  |  +- (org.apache.geronimo.specs:geronimo-jms_1.1_spec:jar:1.1.1:compile - omitted for duplicate)
+|  |  |  +- (org.fusesource.hawtbuf:hawtbuf:jar:1.11:compile - omitted for duplicate)
+|  |  |  \- (org.apache.geronimo.specs:geronimo-j2ee-management_1.1_spec:jar:1.0.1:compile - omitted for duplicate)
+|  |  +- org.apache.activemq:activemq-openwire-legacy:jar:5.15.5:compile
+|  |  |  \- (org.apache.activemq:activemq-client:jar:5.15.5:compile - omitted for duplicate)
+|  |  +- com.google.guava:guava:jar:18.0:compile
+|  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.6:compile - omitted for duplicate)
+|  +- org.apache.activemq.protobuf:activemq-protobuf:jar:1.1:compile
+|  +- org.apache.geronimo.specs:geronimo-j2ee-management_1.1_spec:jar:1.0.1:compile
+|  \- commons-net:commons-net:jar:3.6:compile
++- org.apache.geronimo.specs:geronimo-jms_1.1_spec:jar:1.1.1:compile
++- org.apache.xbean:xbean-spring:jar:4.2:compile
+|  \- (commons-logging:commons-logging:jar:1.2:compile - version managed from 1.0.3; omitted for duplicate)
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- org.fusesource.hawtbuf:hawtbuf-proto:jar:1.11:compile
+|  \- org.fusesource.hawtbuf:hawtbuf:jar:1.11:compile
++- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.6:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.9.6:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.6:compile - version managed from 2.9.0; omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.6:compile - omitted for duplicate)
++- org.apache.activemq:activemq-broker:test-jar:tests:5.15.5:test
+|  +- (org.apache.activemq:activemq-client:jar:5.15.5:compile - scope updated from test; omitted for duplicate)
+|  +- (org.apache.activemq:activemq-openwire-legacy:jar:5.15.5:compile - scope updated from test; omitted for duplicate)
+|  +- (com.google.guava:guava:jar:18.0:compile - scope updated from test; omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.6:test - omitted for duplicate)
++- org.springframework:spring-context:jar:4.3.18.RELEASE:test
+|  +- org.springframework:spring-aop:jar:4.3.18.RELEASE:test
+|  |  +- (org.springframework:spring-beans:jar:4.3.18.RELEASE:test - omitted for duplicate)
+|  |  \- (org.springframework:spring-core:jar:4.3.18.RELEASE:test - omitted for duplicate)
+|  +- org.springframework:spring-beans:jar:4.3.18.RELEASE:test
+|  |  \- (org.springframework:spring-core:jar:4.3.18.RELEASE:test - omitted for duplicate)
+|  +- org.springframework:spring-core:jar:4.3.18.RELEASE:test
+|  |  \- (commons-logging:commons-logging:jar:1.2:test - version managed from 1.0.3; omitted for duplicate)
+|  \- org.springframework:spring-expression:jar:4.3.18.RELEASE:test
+|     \- (org.springframework:spring-core:jar:4.3.18.RELEASE:test - omitted for duplicate)
++- org.slf4j:slf4j-log4j12:jar:1.7.25:test
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)
+|  \- (log4j:log4j:jar:1.2.17:runtime - scope managed from test; omitted for duplicate)
++- log4j:log4j:jar:1.2.17:test (scope not updated to runtime)
++- org.apache.derby:derby:jar:10.14.2.0:test
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- commons-collections:commons-collections:jar:3.2.2:compile
++- org.apache.servicemix.bundles:org.apache.servicemix.bundles.josql:jar:1.5_5:compile
++- org.jasypt:jasypt:jar:1.9.2:compile
+\- commons-daemon:commons-daemon:jar:1.0.15:compile

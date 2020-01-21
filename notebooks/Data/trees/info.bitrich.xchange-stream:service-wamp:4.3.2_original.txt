@@ -1,0 +1,38 @@
+info.bitrich.xchange-stream:service-wamp:jar:4.3.2
++- info.bitrich.xchange-stream:service-core:jar:4.3.2:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.13:compile - omitted for duplicate)
+|  \- (io.reactivex.rxjava2:rxjava:jar:2.0.9:compile - omitted for duplicate)
++- ws.wamp.jawampa:jawampa-netty:jar:0.5.0:compile
+|  +- ws.wamp.jawampa:jawampa-core:jar:0.5.0:compile
+|  |  \- (org.msgpack:jackson-dataformat-msgpack:jar:0.7.0-p7:compile - omitted for duplicate)
+|  \- org.msgpack:jackson-dataformat-msgpack:jar:0.7.0-p7:compile
+|     \- org.msgpack:msgpack-core:jar:0.7.0-p7:compile
++- io.netty:netty-codec-http:jar:4.1.21.Final:compile
+|  \- io.netty:netty-codec:jar:4.1.21.Final:compile
+|     \- (io.netty:netty-transport:jar:4.1.21.Final:compile - omitted for duplicate)
++- io.netty:netty-handler:jar:4.1.21.Final:compile
+|  +- io.netty:netty-buffer:jar:4.1.21.Final:compile
+|  |  \- io.netty:netty-common:jar:4.1.21.Final:compile
+|  +- io.netty:netty-transport:jar:4.1.21.Final:compile
+|  |  +- (io.netty:netty-buffer:jar:4.1.21.Final:compile - omitted for duplicate)
+|  |  \- io.netty:netty-resolver:jar:4.1.21.Final:compile
+|  |     \- (io.netty:netty-common:jar:4.1.21.Final:compile - omitted for duplicate)
+|  \- (io.netty:netty-codec:jar:4.1.21.Final:compile - omitted for duplicate)
++- com.github.akarnokd:rxjava2-interop:jar:0.8.3:compile
+|  +- org.reactivestreams:reactive-streams:jar:1.0.0:compile
+|  \- io.reactivex:rxjava:jar:1.2.5:compile
++- org.slf4j:slf4j-api:jar:1.7.13:compile
++- io.reactivex.rxjava2:rxjava:jar:2.0.9:compile
+|  \- (org.reactivestreams:reactive-streams:jar:1.0.0:compile - omitted for duplicate)
++- org.apache.logging.log4j:log4j-slf4j-impl:jar:2.6.2:test
+|  +- (org.slf4j:slf4j-api:jar:1.7.21:test - omitted for conflict with 1.7.13)
+|  \- org.apache.logging.log4j:log4j-api:jar:2.6.2:test
++- org.apache.logging.log4j:log4j-core:jar:2.6.2:test
+|  \- (org.apache.logging.log4j:log4j-api:jar:2.6.2:test - omitted for duplicate)
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.mockito:mockito-core:jar:2.6.3:test
+|  +- net.bytebuddy:byte-buddy:jar:1.6.2:test
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.6.2:test
+|  \- org.objenesis:objenesis:jar:2.5:test
+\- org.assertj:assertj-core:jar:3.6.1:test

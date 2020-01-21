@@ -1,0 +1,2 @@
+com.squareup.haha:haha:jar:2.0.4
+\- org.jetbrains.trove4j:trove4j:jar:20160824:compile

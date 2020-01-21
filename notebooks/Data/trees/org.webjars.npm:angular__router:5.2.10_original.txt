@@ -1,0 +1,2 @@
+org.webjars.npm:angular__router:jar:5.2.10
+\- org.webjars.npm:tslib:jar:1.10.0:compile

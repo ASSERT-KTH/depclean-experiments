@@ -1,0 +1,5 @@
+org.ow2.easycommons:easycommons-properties:jar:1.3.0
++- org.ow2.easycommons:easycommons-io:jar:1.3.0:compile
+|  \- org.ow2.easycommons:easycommons-lang:jar:1.5.0:compile
+\- junit:junit:jar:4.12:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

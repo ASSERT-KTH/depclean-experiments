@@ -1,0 +1,160 @@
+org.apache.camel:camel-flink:jar:2.20.2
++- org.apache.camel:camel-core:jar:2.20.2:compile
+|  +- org.slf4j:slf4j-api:jar:1.7.22:compile
+|  +- com.sun.xml.bind:jaxb-core:jar:2.2.11:compile
+|  \- com.sun.xml.bind:jaxb-impl:jar:2.2.11:compile
++- org.apache.flink:flink-java:jar:1.3.2:compile
+|  +- org.apache.flink:flink-core:jar:1.3.2:compile
+|  |  +- org.apache.flink:flink-annotations:jar:1.3.2:compile
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.22:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  |  +- (com.google.code.findbugs:jsr305:jar:1.3.9:compile - omitted for duplicate)
+|  |  |  \- (org.apache.flink:force-shading:jar:1.3.2:compile - omitted for duplicate)
+|  |  +- org.apache.flink:flink-metrics-core:jar:1.3.2:compile
+|  |  |  \- (org.apache.flink:force-shading:jar:1.3.2:compile - omitted for duplicate)
+|  |  +- (org.apache.commons:commons-lang3:jar:3.3.2:compile - omitted for duplicate)
+|  |  +- com.esotericsoftware.kryo:kryo:jar:2.24.0:compile
+|  |  |  +- com.esotericsoftware.minlog:minlog:jar:1.2:compile
+|  |  |  \- org.objenesis:objenesis:jar:2.1:compile
+|  |  +- commons-collections:commons-collections:jar:3.2.2:compile
+|  |  +- org.apache.commons:commons-compress:jar:1.4.1:compile
+|  |  |  \- (org.tukaani:xz:jar:1.0:compile - omitted for duplicate)
+|  |  +- org.apache.avro:avro:jar:1.8.2:compile (version managed from 1.7.7)
+|  |  |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile - omitted for conflict with 1.8.8)
+|  |  |  +- (org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:compile - omitted for conflict with 1.8.8)
+|  |  |  +- com.thoughtworks.paranamer:paranamer:jar:2.7:compile
+|  |  |  +- (org.xerial.snappy:snappy-java:jar:1.1.1.3:compile - omitted for conflict with 1.0.5)
+|  |  |  +- (org.apache.commons:commons-compress:jar:1.8.1:compile - omitted for conflict with 1.4.1)
+|  |  |  +- (org.tukaani:xz:jar:1.5:compile - omitted for conflict with 1.0)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.22:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  +- org.xerial.snappy:snappy-java:jar:1.0.5:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.22:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  +- (com.google.code.findbugs:jsr305:jar:1.3.9:compile - omitted for duplicate)
+|  |  \- (org.apache.flink:force-shading:jar:1.3.2:compile - omitted for duplicate)
+|  +- org.apache.flink:flink-shaded-hadoop2:jar:1.3.2:compile
+|  |  +- (org.apache.commons:commons-compress:jar:1.4.1:compile - omitted for duplicate)
+|  |  +- org.tukaani:xz:jar:1.0:compile
+|  |  +- (commons-cli:commons-cli:jar:1.3.1:compile - omitted for duplicate)
+|  |  +- (org.apache.commons:commons-math3:jar:3.5:compile - omitted for duplicate)
+|  |  +- xmlenc:xmlenc:jar:0.52:compile
+|  |  +- commons-codec:commons-codec:jar:1.10:compile (version managed from 1.4)
+|  |  +- commons-io:commons-io:jar:2.5:compile (version managed from 2.4)
+|  |  +- commons-net:commons-net:jar:3.1:compile
+|  |  +- (commons-collections:commons-collections:jar:3.2.2:compile - omitted for duplicate)
+|  |  +- javax.servlet:servlet-api:jar:2.5:compile
+|  |  +- org.mortbay.jetty:jetty-util:jar:6.1.26:compile
+|  |  +- com.sun.jersey:jersey-core:jar:1.9:compile
+|  |  +- commons-el:commons-el:jar:1.0:runtime
+|  |  |  \- (commons-logging:commons-logging:jar:1.2:runtime - version managed from 1.1.3; omitted for duplicate)
+|  |  +- commons-logging:commons-logging:jar:1.2:compile
+|  |  +- com.jamesmurty.utils:java-xmlbuilder:jar:0.4:compile
+|  |  +- commons-lang:commons-lang:jar:2.6:compile
+|  |  +- commons-configuration:commons-configuration:jar:1.7:compile
+|  |  |  +- (commons-collections:commons-collections:jar:3.2.2:compile - version managed from 3.2.1; omitted for duplicate)
+|  |  |  +- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+|  |  |  +- (commons-logging:commons-logging:jar:1.2:compile - version managed from 1.1.1; omitted for duplicate)
+|  |  |  \- (commons-digester:commons-digester:jar:1.8.1:compile - omitted for duplicate)
+|  |  +- commons-digester:commons-digester:jar:1.8.1:compile
+|  |  |  \- (commons-logging:commons-logging:jar:1.2:compile - version managed from 1.1.1; omitted for duplicate)
+|  |  +- org.codehaus.jackson:jackson-core-asl:jar:1.8.8:compile
+|  |  +- org.codehaus.jackson:jackson-mapper-asl:jar:1.8.8:compile
+|  |  |  \- (org.codehaus.jackson:jackson-core-asl:jar:1.8.8:compile - omitted for duplicate)
+|  |  +- com.jcraft:jsch:jar:0.1.42:compile
+|  |  +- commons-beanutils:commons-beanutils-bean-collections:jar:1.8.3:compile
+|  |  |  \- (commons-logging:commons-logging:jar:1.2:compile - version managed from 1.1.1; omitted for duplicate)
+|  |  +- commons-daemon:commons-daemon:jar:1.0.13:compile
+|  |  +- javax.xml.bind:jaxb-api:jar:2.2.2:compile
+|  |  |  +- (javax.xml.stream:stax-api:jar:1.0-2:compile - omitted for duplicate)
+|  |  |  \- (javax.activation:activation:jar:1.1:compile - omitted for duplicate)
+|  |  +- javax.xml.stream:stax-api:jar:1.0-2:compile
+|  |  +- javax.activation:activation:jar:1.1:compile
+|  |  \- (org.apache.flink:force-shading:jar:1.3.2:compile - omitted for duplicate)
+|  +- org.apache.commons:commons-lang3:jar:3.3.2:compile
+|  +- org.apache.commons:commons-math3:jar:3.5:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.22:compile - version managed from 1.7.7; omitted for duplicate)
+|  +- com.google.code.findbugs:jsr305:jar:1.3.9:compile
+|  \- org.apache.flink:force-shading:jar:1.3.2:compile
++- org.apache.flink:flink-clients_2.11:jar:1.3.2:compile
+|  +- (org.apache.flink:flink-core:jar:1.3.2:compile - omitted for duplicate)
+|  +- org.apache.flink:flink-runtime_2.11:jar:1.3.2:compile
+|  |  +- (org.apache.flink:flink-core:jar:1.3.2:compile - omitted for duplicate)
+|  |  +- (org.apache.flink:flink-java:jar:1.3.2:compile - omitted for duplicate)
+|  |  +- (org.apache.flink:flink-shaded-hadoop2:jar:1.3.2:compile - omitted for duplicate)
+|  |  +- (org.apache.commons:commons-lang3:jar:3.3.2:compile - omitted for duplicate)
+|  |  +- (commons-cli:commons-cli:jar:1.3.1:compile - omitted for duplicate)
+|  |  +- io.netty:netty-all:jar:4.0.27.Final:compile
+|  |  +- org.javassist:javassist:jar:3.18.2-GA:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.7:compile - version managed from 2.11.0; omitted for duplicate)
+|  |  +- com.data-artisans:flakka-actor_2.11:jar:2.3-custom:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.7:compile - version managed from 2.11.5; omitted for duplicate)
+|  |  |  \- com.typesafe:config:jar:1.2.1:compile
+|  |  +- com.data-artisans:flakka-remote_2.11:jar:2.3-custom:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.7:compile - version managed from 2.11.5; omitted for duplicate)
+|  |  |  +- (com.data-artisans:flakka-actor_2.11:jar:2.3-custom:compile - omitted for duplicate)
+|  |  |  +- io.netty:netty:jar:3.8.0.Final:compile
+|  |  |  +- com.google.protobuf:protobuf-java:jar:2.5.0:compile
+|  |  |  \- org.uncommons.maths:uncommons-maths:jar:1.2.2a:compile
+|  |  +- com.data-artisans:flakka-slf4j_2.11:jar:2.3-custom:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.7:compile - version managed from 2.11.5; omitted for duplicate)
+|  |  |  +- (com.data-artisans:flakka-actor_2.11:jar:2.3-custom:compile - omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.22:compile - version managed from 1.7.5; omitted for duplicate)
+|  |  +- org.clapper:grizzled-slf4j_2.11:jar:1.0.2:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.7:compile - version managed from 2.11.0; omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.22:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  +- com.github.scopt:scopt_2.11:jar:3.5.0:compile
+|  |  +- com.fasterxml.jackson.core:jackson-core:jar:2.8.10:compile (version managed from 2.7.4)
+|  |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.8.10:compile (version managed from 2.7.4)
+|  |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.10:compile (version managed from 2.8.0)
+|  |  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.8.10:compile - version managed from 2.7.4; omitted for duplicate)
+|  |  +- org.apache.zookeeper:zookeeper:jar:3.4.10:compile (version managed from 3.4.6)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.22:compile - version managed from 1.6.1; omitted for duplicate)
+|  |  |  +- jline:jline:jar:0.9.94:compile
+|  |  |  |  \- junit:junit:jar:4.12:compile (version managed from 3.8.1)
+|  |  |  |     \- org.hamcrest:hamcrest-core:jar:1.3:compile
+|  |  |  \- (io.netty:netty:jar:3.10.5.Final:compile - omitted for conflict with 3.8.0.Final)
+|  |  +- com.twitter:chill_2.11:jar:0.7.4:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.7:compile - version managed from 2.11.0; omitted for duplicate)
+|  |  |  +- com.twitter:chill-java:jar:0.7.4:compile
+|  |  |  |  \- (com.esotericsoftware.kryo:kryo:jar:2.21:compile - omitted for conflict with 2.24.0)
+|  |  |  \- (com.esotericsoftware.kryo:kryo:jar:2.21:compile - omitted for conflict with 2.24.0)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.22:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  +- (com.google.code.findbugs:jsr305:jar:1.3.9:compile - omitted for duplicate)
+|  |  \- (org.apache.flink:force-shading:jar:1.3.2:compile - omitted for duplicate)
+|  +- org.apache.flink:flink-optimizer_2.11:jar:1.3.2:compile
+|  |  +- (org.apache.flink:flink-core:jar:1.3.2:compile - omitted for duplicate)
+|  |  +- (org.apache.flink:flink-runtime_2.11:jar:1.3.2:compile - omitted for duplicate)
+|  |  +- (org.apache.flink:flink-java:jar:1.3.2:compile - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.22:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  +- (com.google.code.findbugs:jsr305:jar:1.3.9:compile - omitted for duplicate)
+|  |  \- (org.apache.flink:force-shading:jar:1.3.2:compile - omitted for duplicate)
+|  +- (org.apache.flink:flink-java:jar:1.3.2:compile - omitted for duplicate)
+|  +- commons-cli:commons-cli:jar:1.3.1:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.22:compile - version managed from 1.7.7; omitted for duplicate)
+|  +- (com.google.code.findbugs:jsr305:jar:1.3.9:compile - omitted for duplicate)
+|  \- (org.apache.flink:force-shading:jar:1.3.2:compile - omitted for duplicate)
++- org.apache.flink:flink-streaming-java_2.11:jar:1.3.2:compile
+|  +- (org.apache.flink:flink-core:jar:1.3.2:compile - omitted for duplicate)
+|  +- (org.apache.flink:flink-runtime_2.11:jar:1.3.2:compile - omitted for duplicate)
+|  +- (org.apache.flink:flink-clients_2.11:jar:1.3.2:compile - omitted for duplicate)
+|  +- (org.apache.commons:commons-math3:jar:3.5:compile - omitted for duplicate)
+|  +- org.apache.sling:org.apache.sling.commons.json:jar:2.0.6:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.22:compile - version managed from 1.7.7; omitted for duplicate)
+|  +- (com.google.code.findbugs:jsr305:jar:1.3.9:compile - omitted for duplicate)
+|  \- (org.apache.flink:force-shading:jar:1.3.2:compile - omitted for duplicate)
++- org.scala-lang:scala-library:jar:2.11.7:compile
++- org.apache.camel:camel-test:jar:2.20.2:test
+|  +- (org.apache.camel:camel-core:jar:2.20.2:test - omitted for duplicate)
+|  \- (junit:junit:jar:4.12:compile - version managed from 3.8.1; scope updated from test; omitted for duplicate)
++- com.google.truth:truth:jar:0.30:test
+|  +- com.google.guava:guava:jar:19.0:test
+|  +- (junit:junit:jar:4.12:compile - version managed from 4.10; scope updated from test; omitted for duplicate)
+|  \- com.google.errorprone:error_prone_annotations:jar:2.0.8:test
++- org.apache.logging.log4j:log4j-api:jar:2.9.1:test
++- org.apache.logging.log4j:log4j-core:jar:2.9.1:test
+|  \- (org.apache.logging.log4j:log4j-api:jar:2.9.1:test - omitted for duplicate)
++- org.apache.logging.log4j:log4j-slf4j-impl:jar:2.9.1:test
+|  +- (org.slf4j:slf4j-api:jar:1.7.22:test - version managed from 1.7.25; omitted for duplicate)
+|  +- (org.apache.logging.log4j:log4j-api:jar:2.9.1:test - omitted for duplicate)
+|  \- (org.apache.logging.log4j:log4j-core:jar:2.9.1:test - omitted for duplicate)
+\- org.apache.camel:apt:jar:2.20.2:provided
+   +- org.apache.camel:spi-annotations:jar:2.20.2:provided
+   \- org.apache.camel:json-simple-ordered:jar:2.20.2:provided

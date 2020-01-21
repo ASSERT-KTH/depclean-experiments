@@ -1,0 +1,15 @@
+com.kloudtek.devmagic:devmagic-core:jar:0.9.9
++- org.apache.httpcomponents:fluent-hc:jar:4.5.4:compile
+|  +- (org.apache.httpcomponents:httpclient:jar:4.5.4:compile - omitted for duplicate)
+|  \- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
++- com.kloudtek.ktcli:ktcli:jar:0.9.11:compile
+|  +- org.slf4j:slf4j-api:jar:1.7.25:compile
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.9.2:compile
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.9.2:compile
+|  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+|  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.2:compile - omitted for duplicate)
+|  +- (com.kloudtek.ktutils:ktutils-core:jar:1.2.17:compile - omitted for duplicate)
+|  \- org.jetbrains:annotations:jar:15.0:compile
+\- org.junit.jupiter:junit-jupiter-api:jar:5.1.0-M1:test
+   +- org.opentest4j:opentest4j:jar:1.0.0:test
+   \- org.junit.platform:junit-platform-commons:jar:1.1.0-M1:test

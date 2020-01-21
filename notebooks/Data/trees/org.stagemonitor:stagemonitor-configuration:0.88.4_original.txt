@@ -1,0 +1,2 @@
+org.stagemonitor:stagemonitor-configuration:jar:0.88.4
+\- org.slf4j:slf4j-api:jar:1.7.25:compile

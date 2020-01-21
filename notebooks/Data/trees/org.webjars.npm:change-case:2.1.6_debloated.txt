@@ -1,0 +1,14 @@
+org.webjars.npm:change-case:jar:2.1.6
++- org.webjars.npm:sentence-case:jar:1.1.3:compile
+|  \- (org.webjars.npm:lower-case:jar:1.1.4:compile - omitted for duplicate)
++- org.webjars.npm:is-lower-case:jar:1.1.3:compile
+|  \- (org.webjars.npm:lower-case:jar:1.1.4:compile - omitted for duplicate)
++- org.webjars.npm:is-upper-case:jar:1.1.2:compile
+|  \- (org.webjars.npm:upper-case:jar:1.1.3:compile - omitted for duplicate)
++- org.webjars.npm:upper-case:jar:1.1.3:compile
++- org.webjars.npm:camel-case:jar:1.2.2:compile
+|  +- (org.webjars.npm:sentence-case:jar:1.1.3:compile - omitted for duplicate)
+|  \- (org.webjars.npm:upper-case:jar:1.1.3:compile - omitted for duplicate)
++- org.webjars.npm:lower-case:jar:1.1.4:compile
+\- org.webjars.npm:param-case:jar:1.1.2:compile
+   \- (org.webjars.npm:sentence-case:jar:1.1.3:compile - omitted for duplicate)

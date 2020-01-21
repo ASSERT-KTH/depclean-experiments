@@ -1,0 +1,42 @@
+ws.palladian:palladian-retrieval:jar:1.0.0
++- ws.palladian:palladian-commons:jar:1.0.0:compile
+|  +- commons-configuration:commons-configuration:jar:1.10:compile
+|  |  +- commons-lang:commons-lang:jar:2.6:compile
+|  |  \- (commons-logging:commons-logging:jar:99-empty:compile - version managed from 1.2; omitted for duplicate)
+|  +- javax.mail:mail:jar:1.4.7:compile
+|  |  \- javax.activation:activation:jar:1.1:compile
+|  +- org.apache.commons:commons-lang3:jar:3.3.2:compile
+|  +- it.unimi.dsi:fastutil:jar:7.0.7:compile
+|  +- commons-codec:commons-codec:jar:1.9:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for duplicate)
++- ws.palladian:palladian-persistence:jar:1.0.0:compile
+|  +- com.jolbox:bonecp:jar:0.8.0.RELEASE:compile
+|  |  +- com.google.guava:guava:jar:15.0:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.2:compile - omitted for conflict with 1.7.7)
+|  +- (commons-configuration:commons-configuration:jar:1.10:compile - omitted for duplicate)
+|  +- (org.apache.commons:commons-lang3:jar:3.3.2:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for duplicate)
++- org.apache.httpcomponents:httpclient:jar:4.5.5:compile
+|  +- org.apache.httpcomponents:httpcore:jar:4.4.9:compile
+|  +- commons-logging:commons-logging:jar:99-empty:compile
+|  \- (commons-codec:commons-codec:jar:1.10:compile - omitted for conflict with 1.9)
++- com.rometools:rome:jar:1.5.0:compile
+|  +- com.rometools:rome-utils:jar:1.5.0:compile
+|  +- org.jdom:jdom:jar:2.0.2:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for duplicate)
++- nu.validator:htmlparser:jar:1.4.10:compile
++- org.slf4j:jcl-over-slf4j:jar:1.7.7:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for duplicate)
++- com.jayway.jsonpath:json-path:jar:2.3.0:compile
+|  +- net.minidev:json-smart:jar:2.3:compile
+|  |  \- net.minidev:accessors-smart:jar:1.2:compile
+|  |     \- org.ow2.asm:asm:jar:5.0.4:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for conflict with 1.7.7)
++- org.slf4j:slf4j-api:jar:1.7.7:compile
++- junit:junit:jar:4.11:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.hamcrest:hamcrest-all:jar:1.3:test
++- ch.qos.logback:logback-classic:jar:1.1.2:test
+|  +- (ch.qos.logback:logback-core:jar:1.1.2:test - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.6:test - omitted for conflict with 1.7.7)
+\- ch.qos.logback:logback-core:jar:1.1.2:test

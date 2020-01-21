@@ -1,0 +1,7 @@
+org.mydotey.scf:scf-core:jar:1.4.0
++- org.slf4j:slf4j-api:jar:1.7.21:compile
++- com.google.guava:guava:jar:19.0:test
++- org.slf4j:slf4j-simple:jar:1.7.21:test
+|  \- (org.slf4j:slf4j-api:jar:1.7.21:test - omitted for duplicate)
+\- junit:junit:jar:4.12:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

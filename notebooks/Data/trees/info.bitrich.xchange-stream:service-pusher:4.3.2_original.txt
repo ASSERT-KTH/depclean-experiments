@@ -1,0 +1,23 @@
+info.bitrich.xchange-stream:service-pusher:jar:4.3.2
++- info.bitrich.xchange-stream:service-core:jar:4.3.2:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.13:compile - omitted for duplicate)
+|  \- (io.reactivex.rxjava2:rxjava:jar:2.0.9:compile - omitted for duplicate)
++- com.pusher:pusher-java-client:jar:1.4.0:compile
+|  +- com.google.code.gson:gson:jar:2.2.2:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for conflict with 1.7.13)
+|  \- com.pusher:java-websocket:jar:1.4.1:compile
++- org.slf4j:slf4j-api:jar:1.7.13:compile
++- io.reactivex.rxjava2:rxjava:jar:2.0.9:compile
+|  \- org.reactivestreams:reactive-streams:jar:1.0.0:compile
++- org.apache.logging.log4j:log4j-slf4j-impl:jar:2.6.2:test
+|  +- (org.slf4j:slf4j-api:jar:1.7.21:test - omitted for conflict with 1.7.13)
+|  \- org.apache.logging.log4j:log4j-api:jar:2.6.2:test
++- org.apache.logging.log4j:log4j-core:jar:2.6.2:test
+|  \- (org.apache.logging.log4j:log4j-api:jar:2.6.2:test - omitted for duplicate)
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.mockito:mockito-core:jar:2.6.3:test
+|  +- net.bytebuddy:byte-buddy:jar:1.6.2:test
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.6.2:test
+|  \- org.objenesis:objenesis:jar:2.5:test
+\- org.assertj:assertj-core:jar:3.6.1:test

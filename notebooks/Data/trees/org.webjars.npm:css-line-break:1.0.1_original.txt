@@ -1,0 +1,2 @@
+org.webjars.npm:css-line-break:jar:1.0.1
+\- org.webjars.npm:base64-arraybuffer:jar:0.1.5:compile

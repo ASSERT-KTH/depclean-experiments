@@ -1,0 +1,43 @@
+com.twosigma.webtau:webtau-http:jar:0.23
++- com.twosigma.webtau:webtau-core:jar:0.23:compile
+|  +- com.twosigma.webtau:webtau-console:jar:0.23:compile
+|  |  \- (com.twosigma.webtau:webtau-utils:jar:0.23:compile - omitted for duplicate)
+|  +- org.codehaus.groovy:groovy-all:jar:2.4.12:compile
+|  \- org.apache.commons:commons-lang3:jar:3.5:compile
++- com.twosigma.webtau:webtau-utils:jar:0.23:compile
+|  +- commons-io:commons-io:jar:2.5:compile
+|  \- com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile
+|     +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+|     \- com.fasterxml.jackson.core:jackson-core:jar:2.9.5:compile
++- com.twosigma.webtau:webtau-report:jar:0.23:compile
+|  +- (com.twosigma.webtau:webtau-core:jar:0.23:compile - omitted for duplicate)
+|  +- com.twosigma.webtau:webtau-config:jar:0.23:compile
+|  |  \- (com.twosigma.webtau:webtau-console:jar:0.23:compile - omitted for duplicate)
+|  +- (com.twosigma.webtau:webtau-utils:jar:0.23:compile - omitted for duplicate)
+|  \- com.twosigma.webtau:webtau-reactjs:jar:0.23:compile
++- org.slf4j:slf4j-simple:jar:1.7.25:runtime
+|  \- org.slf4j:slf4j-api:jar:1.7.25:runtime
++- com.twosigma.webtau:webtau-test-server:jar:0.23:test
+|  +- (com.twosigma.webtau:webtau-utils:jar:0.23:test - omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.5:test - omitted for duplicate)
+|  +- org.eclipse.jetty:jetty-server:jar:9.4.2.v20170220:test
+|  |  +- javax.servlet:javax.servlet-api:jar:3.1.0:test
+|  |  +- org.eclipse.jetty:jetty-http:jar:9.4.2.v20170220:test
+|  |  |  +- org.eclipse.jetty:jetty-util:jar:9.4.2.v20170220:test
+|  |  |  \- (org.eclipse.jetty:jetty-io:jar:9.4.2.v20170220:test - omitted for duplicate)
+|  |  \- org.eclipse.jetty:jetty-io:jar:9.4.2.v20170220:test
+|  |     \- (org.eclipse.jetty:jetty-util:jar:9.4.2.v20170220:test - omitted for duplicate)
+|  \- org.eclipse.jetty:jetty-webapp:jar:9.4.2.v20170220:test
+|     +- org.eclipse.jetty:jetty-xml:jar:9.4.2.v20170220:test
+|     |  \- (org.eclipse.jetty:jetty-util:jar:9.4.2.v20170220:test - omitted for duplicate)
+|     \- org.eclipse.jetty:jetty-servlet:jar:9.4.2.v20170220:test
+|        \- org.eclipse.jetty:jetty-security:jar:9.4.2.v20170220:test
+|           \- (org.eclipse.jetty:jetty-server:jar:9.4.2.v20170220:test - omitted for duplicate)
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
+\- com.twosigma.webtau:webtau-core-groovy:jar:0.23:test
+   +- (com.twosigma.webtau:webtau-core:jar:0.23:test - omitted for duplicate)
+   +- com.twosigma.webtau:webtau-groovy-ast:jar:0.23:test
+   |  +- (com.twosigma.webtau:webtau-core:jar:0.23:test - omitted for duplicate)
+   |  \- (org.codehaus.groovy:groovy-all:jar:2.4.12:test - omitted for duplicate)
+   \- (org.codehaus.groovy:groovy-all:jar:2.4.12:test - omitted for duplicate)

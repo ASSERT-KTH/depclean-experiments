@@ -1,0 +1,23 @@
+org.eclipse.rdf4j:rdf4j-rio-trig:jar:2.3.2
++- org.eclipse.rdf4j:rdf4j-model:jar:2.3.2:compile
+|  \- (org.eclipse.rdf4j:rdf4j-util:jar:2.3.2:compile - omitted for duplicate)
++- org.eclipse.rdf4j:rdf4j-rio-api:jar:2.3.2:compile
+|  +- (org.eclipse.rdf4j:rdf4j-model:jar:2.3.2:compile - omitted for duplicate)
+|  \- (org.eclipse.rdf4j:rdf4j-util:jar:2.3.2:compile - omitted for duplicate)
++- org.eclipse.rdf4j:rdf4j-rio-turtle:jar:2.3.2:compile
+|  +- (org.eclipse.rdf4j:rdf4j-model:jar:2.3.2:compile - omitted for duplicate)
+|  +- (org.eclipse.rdf4j:rdf4j-rio-api:jar:2.3.2:compile - omitted for duplicate)
+|  +- (org.eclipse.rdf4j:rdf4j-rio-datatypes:jar:2.3.2:runtime - omitted for duplicate)
+|  +- (org.eclipse.rdf4j:rdf4j-rio-languages:jar:2.3.2:runtime - omitted for duplicate)
+|  +- (org.eclipse.rdf4j:rdf4j-util:jar:2.3.2:compile - omitted for duplicate)
+|  \- commons-io:commons-io:jar:2.4:compile
++- org.eclipse.rdf4j:rdf4j-rio-datatypes:jar:2.3.2:runtime
+|  +- (org.eclipse.rdf4j:rdf4j-model:jar:2.3.2:runtime - omitted for duplicate)
+|  +- (org.eclipse.rdf4j:rdf4j-rio-api:jar:2.3.2:runtime - omitted for duplicate)
+|  \- (org.eclipse.rdf4j:rdf4j-util:jar:2.3.2:runtime - omitted for duplicate)
++- org.eclipse.rdf4j:rdf4j-rio-languages:jar:2.3.2:runtime
+|  +- (org.eclipse.rdf4j:rdf4j-model:jar:2.3.2:runtime - omitted for duplicate)
+|  +- (org.eclipse.rdf4j:rdf4j-rio-api:jar:2.3.2:runtime - omitted for duplicate)
+|  \- (org.eclipse.rdf4j:rdf4j-util:jar:2.3.2:runtime - omitted for duplicate)
+\- org.eclipse.rdf4j:rdf4j-util:jar:2.3.2:compile
+   \- org.slf4j:slf4j-api:jar:1.7.10:compile

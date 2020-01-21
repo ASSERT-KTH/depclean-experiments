@@ -1,0 +1,53 @@
+com.yahoo.vespa:container-dev:jar:6.198.37
++- com.yahoo.vespa:jdisc_core:jar:6.198.37:compile
+|  +- xml-apis:xml-apis:jar:1.4.01:compile
+|  +- javax.annotation:javax.annotation-api:jar:1.2:compile
+|  +- aopalliance:aopalliance:jar:1.0:compile
+|  +- (com.google.guava:guava:jar:18.0:compile - omitted for duplicate)
+|  +- (com.google.inject:guice:jar:no_aop:3.0:compile - omitted for duplicate)
+|  +- com.google.inject.extensions:guice-assistedinject:jar:3.0:compile
+|  +- com.google.inject.extensions:guice-multibindings:jar:3.0:compile
+|  +- commons-daemon:commons-daemon:jar:1.0.3:compile
+|  +- org.apache.felix:org.apache.felix.framework:jar:4.2.1:compile
+|  +- org.apache.felix:org.apache.felix.log:jar:1.0.1:compile
+|  +- org.slf4j:slf4j-api:jar:1.7.5:compile
+|  +- org.slf4j:jcl-over-slf4j:jar:1.7.5:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for duplicate)
+|  +- org.slf4j:log4j-over-slf4j:jar:1.7.5:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for duplicate)
+|  +- org.slf4j:slf4j-jdk14:jar:1.7.5:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for duplicate)
+|  +- (com.yahoo.vespa:config-lib:jar:6.198.37:compile - omitted for duplicate)
+|  +- com.yahoo.vespa:yolean:jar:6.198.37:compile
+|  \- (com.yahoo.vespa:vespajlib:jar:6.198.37:compile - omitted for duplicate)
++- com.yahoo.vespa:simplemetrics:jar:6.198.37:compile
++- com.google.guava:guava:jar:18.0:compile
++- com.google.inject:guice:jar:no_aop:3.0:compile
+|  +- javax.inject:javax.inject:jar:1:compile
+|  \- (aopalliance:aopalliance:jar:1.0:compile - omitted for duplicate)
++- commons-logging:commons-logging:jar:1.1.1:compile
++- com.yahoo.vespa:component:jar:6.198.37:compile
++- com.yahoo.vespa:container-jersey2:jar:6.198.37:compile
++- com.yahoo.vespa:vespajlib:jar:6.198.37:compile
+|  \- net.jpountz.lz4:lz4:jar:1.3.0:compile
++- com.yahoo.vespa:container-search-and-docproc:jar:6.198.37:compile
+|  +- com.yahoo.vespa:container-search:jar:6.198.37:compile
+|  |  +- com.yahoo.vespa:fsa:jar:6.198.37:compile
+|  |  +- (org.apache.httpcomponents:httpcore:jar:4.3.3:compile - omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpclient:jar:4.3.6:compile - omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.4:compile - version managed from 1.6; omitted for duplicate)
+|  |  +- net.jcip:jcip-annotations:jar:1.0:compile
+|  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.3:compile - omitted for duplicate)
+|  +- com.yahoo.vespa:docproc:jar:6.198.37:compile
+|  +- org.apache.httpcomponents:httpcore:jar:4.3.3:compile
+|  \- org.apache.httpcomponents:httpclient:jar:4.3.6:compile
+|     +- (org.apache.httpcomponents:httpcore:jar:4.3.3:compile - omitted for duplicate)
+|     +- (commons-logging:commons-logging:jar:1.1.1:compile - version managed from 1.1.3; omitted for duplicate)
+|     \- (commons-codec:commons-codec:jar:1.4:compile - version managed from 1.6; omitted for duplicate)
+\- com.yahoo.vespa:document:jar:6.198.37:compile
+   +- commons-codec:commons-codec:jar:1.4:compile
+   +- (net.jpountz.lz4:lz4:jar:1.3.0:compile - omitted for duplicate)
+   +- (com.yahoo.vespa:config:jar:6.198.37:compile - omitted for duplicate)
+   +- (com.yahoo.vespa:predicate-search-core:jar:6.198.37:compile - omitted for duplicate)
+   +- (com.yahoo.vespa:vespajlib:jar:6.198.37:compile - omitted for duplicate)
+   \- (com.yahoo.vespa:annotations:jar:6.198.37:compile - omitted for duplicate)

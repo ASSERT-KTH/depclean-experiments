@@ -1,0 +1,45 @@
+org.sangria-graphql:sangria-slowlog_2.12:jar:0.1.5
++- org.scala-lang:scala-library:jar:2.12.4:compile
++- org.sangria-graphql:sangria_2.12:jar:1.4.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  +- org.parboiled:parboiled_2.12:jar:2.1.4:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.1:compile - omitted for conflict with 2.12.4)
+|  |  \- com.chuusai:shapeless_2.12:jar:2.3.2:compile
+|  |     +- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.4)
+|  |     \- org.typelevel:macro-compat_2.12:jar:1.1.1:compile
+|  |        \- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.4)
+|  +- org.sangria-graphql:macro-visit_2.12:jar:0.1.1:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.1:compile - omitted for conflict with 2.12.4)
+|  |  \- (org.scala-lang:scala-reflect:jar:2.12.1:compile - omitted for conflict with 2.12.4)
+|  +- org.sangria-graphql:sangria-marshalling-api_2.12:jar:1.0.1:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  +- org.sangria-graphql:sangria-streaming-api_2.12:jar:1.0.0:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.12.1:compile - omitted for conflict with 2.12.4)
+|  \- org.scala-lang:scala-reflect:jar:2.12.4:compile
+|     \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
++- io.dropwizard.metrics:metrics-core:jar:4.0.2:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- org.scalatest:scalatest_2.12:jar:3.0.5:test
+|  +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for duplicate)
+|  +- org.scalactic:scalactic_2.12:jar:3.0.5:test
+|  |  +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for duplicate)
+|  |  \- (org.scala-lang:scala-reflect:jar:2.12.4:test - omitted for duplicate)
+|  +- (org.scala-lang:scala-reflect:jar:2.12.4:test - omitted for duplicate)
+|  \- org.scala-lang.modules:scala-xml_2.12:jar:1.0.6:test
+|     \- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.4)
++- org.sangria-graphql:sangria-json4s-native_2.12:jar:1.0.0:test
+|  +- (org.scala-lang:scala-library:jar:2.12.1:test - omitted for conflict with 2.12.4)
+|  +- (org.sangria-graphql:sangria-marshalling-api_2.12:jar:1.0.0:test - omitted for conflict with 1.0.1)
+|  \- org.json4s:json4s-native_2.12:jar:3.5.0:test
+|     +- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.4)
+|     \- org.json4s:json4s-core_2.12:jar:3.5.0:test
+|        +- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.4)
+|        +- org.json4s:json4s-ast_2.12:jar:3.5.0:test
+|        |  \- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.4)
+|        +- org.json4s:json4s-scalap_2.12:jar:3.5.0:test
+|        |  \- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.4)
+|        +- com.thoughtworks.paranamer:paranamer:jar:2.8:test
+|        \- (org.scala-lang.modules:scala-xml_2.12:jar:1.0.6:test - omitted for duplicate)
+\- org.slf4j:slf4j-simple:jar:1.7.25:test
+   \- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)

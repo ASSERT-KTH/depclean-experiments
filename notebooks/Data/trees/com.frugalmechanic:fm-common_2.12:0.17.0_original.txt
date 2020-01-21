@@ -1,0 +1,31 @@
+com.frugalmechanic:fm-common_2.12:jar:0.17.0
++- org.scala-lang:scala-library:jar:2.12.4:compile
++- org.scalatest:scalatest_2.12:jar:3.0.4:test
+|  +- (org.scala-lang:scala-library:jar:2.12.3:test - omitted for conflict with 2.12.4)
+|  +- org.scalactic:scalactic_2.12:jar:3.0.4:test
+|  |  +- (org.scala-lang:scala-library:jar:2.12.3:test - omitted for conflict with 2.12.4)
+|  |  \- (org.scala-lang:scala-reflect:jar:2.12.3:test - omitted for duplicate)
+|  +- org.scala-lang:scala-reflect:jar:2.12.3:test
+|  |  \- (org.scala-lang:scala-library:jar:2.12.3:test - omitted for conflict with 2.12.4)
+|  +- org.scala-lang.modules:scala-xml_2.12:jar:1.0.5:test
+|  |  \- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.4)
+|  \- org.scala-lang.modules:scala-parser-combinators_2.12:jar:1.0.4:test
+|     \- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.4)
++- ch.qos.logback:logback-classic:jar:1.2.3:compile
+|  +- ch.qos.logback:logback-core:jar:1.2.3:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
++- com.google.guava:guava:jar:21.0:compile
++- com.googlecode.juniversalchardet:juniversalchardet:jar:1.0.3:compile
++- com.sun.mail:javax.mail:jar:1.5.2:provided
+|  \- javax.activation:activation:jar:1.1:provided
++- com.fasterxml.woodstox:woodstox-core:jar:5.0.2:compile
+|  \- org.codehaus.woodstox:stax2-api:jar:3.1.4:compile
++- commons-codec:commons-codec:jar:1.10:compile
++- commons-io:commons-io:jar:2.5:compile
++- it.unimi.dsi:fastutil:jar:7.0.13:compile
++- org.apache.commons:commons-compress:jar:1.13:compile
++- org.apache.commons:commons-lang3:jar:3.5:compile
++- org.bouncycastle:bcprov-jdk15on:jar:1.56:compile
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- org.tukaani:xz:jar:1.6:compile
+\- org.xerial.snappy:snappy-java:jar:1.1.2.6:compile

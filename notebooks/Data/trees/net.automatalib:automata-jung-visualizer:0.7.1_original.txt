@@ -1,0 +1,19 @@
+net.automatalib:automata-jung-visualizer:jar:0.7.1
++- net.automatalib:automata-api:jar:0.7.1:compile
+|  \- com.google.code.findbugs:jsr305:jar:3.0.2:compile
++- net.automatalib:automata-core:jar:0.7.1:compile
++- net.automatalib:automata-commons-util:jar:0.7.1:compile
++- com.google.guava:guava:jar:22.0:compile
+|  +- com.google.errorprone:error_prone_annotations:jar:2.0.18:compile
+|  +- com.google.j2objc:j2objc-annotations:jar:1.1:compile
+|  \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:compile
++- net.sf.jung:jung-api:jar:2.1.1:compile
++- net.sf.jung:jung-algorithms:jar:2.1.1:compile
++- net.sf.jung:jung-graph-impl:jar:2.1.1:compile
++- net.sf.jung:jung-visualization:jar:2.1.1:compile
++- org.kohsuke.metainf-services:metainf-services:jar:1.7:provided
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- com.github.misberner.graphviz-awt-shapes:graphviz-awt-shapes:jar:0.0.1:compile
+\- org.testng:testng:jar:6.11:test
+   +- com.beust:jcommander:jar:1.64:test
+   \- org.yaml:snakeyaml:jar:1.17:test

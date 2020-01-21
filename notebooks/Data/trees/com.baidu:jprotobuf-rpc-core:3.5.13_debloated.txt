@@ -1,0 +1,40 @@
+com.baidu:jprotobuf-rpc-core:jar:3.5.13
++- com.baidu:jprotobuf-rpc-core-test:jar:3.5.13:compile
+|  +- org.springframework:spring-web:jar:3.2.11.RELEASE:compile
+|  |  +- org.springframework:spring-aop:jar:3.2.11.RELEASE:compile
+|  |  |  +- aopalliance:aopalliance:jar:1.0:compile
+|  |  |  +- (org.springframework:spring-beans:jar:3.2.11.RELEASE:compile - omitted for duplicate)
+|  |  |  \- (org.springframework:spring-core:jar:3.2.11.RELEASE:compile - omitted for duplicate)
+|  |  +- org.springframework:spring-beans:jar:3.2.11.RELEASE:compile
+|  |  |  \- (org.springframework:spring-core:jar:3.2.11.RELEASE:compile - omitted for duplicate)
+|  |  +- org.springframework:spring-context:jar:3.2.11.RELEASE:compile
+|  |  |  +- (org.springframework:spring-aop:jar:3.2.11.RELEASE:compile - omitted for duplicate)
+|  |  |  +- (org.springframework:spring-beans:jar:3.2.11.RELEASE:compile - omitted for duplicate)
+|  |  |  +- (org.springframework:spring-core:jar:3.2.11.RELEASE:compile - omitted for duplicate)
+|  |  |  \- org.springframework:spring-expression:jar:3.2.11.RELEASE:compile
+|  |  |     \- (org.springframework:spring-core:jar:3.2.11.RELEASE:compile - omitted for duplicate)
+|  |  \- org.springframework:spring-core:jar:3.2.11.RELEASE:compile
+|  |     \- (commons-logging:commons-logging:jar:1.1.3:compile - omitted for conflict with 1.2)
+|  +- (javax.servlet:servlet-api:jar:2.4:compile - omitted for duplicate)
+|  +- (junit:junit:jar:4.10:compile - omitted for duplicate)
+|  +- (com.baidu:jprotobuf:jar:1.11.0:compile - omitted for duplicate)
+|  +- (com.baidu:jprotobuf-rpc-common:jar:1.8:compile - omitted for duplicate)
+|  +- (org.apache.commons:commons-pool2:jar:2.3:compile - omitted for duplicate)
+|  +- (io.netty:netty-all:jar:4.0.27.Final:compile - omitted for duplicate)
+|  \- (org.xerial.snappy:snappy-java:jar:1.1.1.6:compile - omitted for duplicate)
++- io.netty:netty-all:jar:4.0.27.Final:compile
++- javax.servlet:servlet-api:jar:2.4:provider (scope not updated to compile)
++- org.apache.logging.log4j:log4j-core:jar:2.2:compile
+|  \- (org.apache.logging.log4j:log4j-api:jar:2.2:compile - omitted for duplicate)
++- org.apache.logging.log4j:log4j-slf4j-impl:jar:2.2:compile
+|  +- org.slf4j:slf4j-api:jar:1.7.7:compile
+|  \- (org.apache.logging.log4j:log4j-api:jar:2.2:compile - omitted for duplicate)
++- junit:junit:jar:4.10:test (scope not updated to compile)
+|  \- org.hamcrest:hamcrest-core:jar:1.1:test
++- com.baidu:jprotobuf:jar:1.11.0:compile
+|  +- com.google.protobuf:protobuf-java:jar:2.5.0:compile
+|  +- com.squareup:protoparser:jar:3.1.5:compile
+|  \- org.javassist:javassist:jar:3.22.0-CR1:compile
++- com.baidu:jprotobuf-rpc-common:jar:1.8:compile
++- org.apache.commons:commons-pool2:jar:2.3:compile
+\- org.xerial.snappy:snappy-java:jar:1.1.1.6:compile

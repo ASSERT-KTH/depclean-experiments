@@ -1,0 +1,30 @@
+org.ops4j.pax.cdi:pax-cdi-web:bundle:1.0.0
++- org.ops4j.pax.cdi:pax-cdi-spi:jar:1.0.0:compile
+|  +- org.ops4j.pax.cdi:pax-cdi-api:jar:1.0.0:compile
+|  +- org.ops4j.pax.swissbox:pax-swissbox-core:jar:1.8.2:compile
+|  |  +- (org.ops4j.pax.swissbox:pax-swissbox-lifecycle:jar:1.8.2:compile - omitted for duplicate)
+|  |  \- (org.ops4j.base:ops4j-base-lang:jar:1.5.0:compile - omitted for duplicate)
+|  +- org.apache.xbean:xbean-bundleutils:jar:4.6:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.6.4:compile - version managed from 1.5.11; omitted for duplicate)
+|  \- org.apache.xbean:xbean-finder-shaded:jar:4.6:compile
+|     \- org.apache.xbean:xbean-asm6-shaded:jar:4.6:compile
++- org.ops4j.pax.cdi:pax-cdi-extender:jar:1.0.0:compile
+|  +- (org.ops4j.pax.cdi:pax-cdi-spi:jar:1.0.0:compile - omitted for duplicate)
+|  +- (org.ops4j.pax.cdi:pax-cdi-api:jar:1.0.0:compile - omitted for duplicate)
+|  +- (org.ops4j.pax.swissbox:pax-swissbox-core:jar:1.8.2:compile - omitted for duplicate)
+|  +- org.ops4j.pax.swissbox:pax-swissbox-extender:jar:1.8.2:compile
+|  |  +- (org.ops4j.pax.swissbox:pax-swissbox-lifecycle:jar:1.8.2:compile - omitted for duplicate)
+|  |  +- (org.ops4j.base:ops4j-base-lang:jar:1.5.0:compile - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.6.4:compile - version managed from 1.5.11; omitted for duplicate)
+|  +- (org.ops4j.pax.swissbox:pax-swissbox-tracker:jar:1.8.2:compile - omitted for duplicate)
+|  \- org.ops4j.base:ops4j-base-spi:jar:1.5.0:compile
++- org.ops4j.pax.web:pax-web-api:jar:6.0.10:compile
++- org.ops4j.pax.web:pax-web-spi:jar:6.0.10:compile
++- org.ops4j.pax.swissbox:pax-swissbox-tracker:jar:1.8.2:compile
+|  +- org.ops4j.pax.swissbox:pax-swissbox-lifecycle:jar:1.8.2:compile
+|  +- org.ops4j.base:ops4j-base-lang:jar:1.5.0:compile
+|  \- (org.slf4j:slf4j-api:jar:1.6.4:compile - version managed from 1.5.11; omitted for duplicate)
++- org.slf4j:slf4j-api:jar:1.6.4:compile
++- javax.servlet:javax.servlet-api:jar:3.1.0:compile
++- org.osgi:org.osgi.core:jar:6.0.0:provided
+\- org.osgi:org.osgi.compendium:jar:5.0.0:provided

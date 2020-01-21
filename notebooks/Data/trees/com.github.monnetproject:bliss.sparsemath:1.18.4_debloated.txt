@@ -1,0 +1,6 @@
+com.github.monnetproject:bliss.sparsemath:jar:1.18.4
++- org.apache.commons:commons-math:jar:2.2:test
++- it.unimi.dsi:fastutil:jar:6.4.4:compile
++- org.apache.commons:commons-compress:jar:1.4.1:test
+|  \- org.tukaani:xz:jar:1.0:test
+\- colt:colt:jar:1.2.0:test

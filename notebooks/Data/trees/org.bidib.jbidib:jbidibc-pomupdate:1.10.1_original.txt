@@ -1,0 +1,19 @@
+org.bidib.jbidib:jbidibc-pomupdate:jar:1.10.1
++- org.bidib.jbidib:jbidibc:jar:1.10.1:compile
+|  +- com.sun.xml.bind:jaxb-core:jar:2.3.0:compile
+|  +- com.sun.xml.bind:jaxb-impl:jar:2.3.0:compile
+|  +- commons-io:commons-io:jar:2.4:compile
+|  +- commons-lang:commons-lang:jar:2.6:compile
+|  +- javax.xml.bind:jaxb-api:jar:2.3.0:compile
+|  +- net.java.dev.stax-utils:stax-utils:jar:20070216:compile
+|  +- net.sf.saxon:Saxon-HE:jar:9.7.0-10:compile
+|  +- org.apache.commons:commons-collections4:jar:4.1:compile
+|  +- org.apache.commons:commons-lang3:jar:3.6:compile
+|  +- org.codehaus.woodstox:woodstox-core-asl:jar:4.2.1:compile
+|  |  \- org.codehaus.woodstox:stax2-api:jar:3.1.4:compile
+|  \- org.slf4j:slf4j-api:jar:1.7.25:compile
++- ch.qos.logback:logback-classic:jar:1.2.3:test
+|  \- ch.qos.logback:logback-core:jar:1.2.3:test
+\- org.testng:testng:jar:6.14.2:test
+   +- com.beust:jcommander:jar:1.71:test
+   \- org.apache-extras.beanshell:bsh:jar:2.0b6:test

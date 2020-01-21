@@ -1,0 +1,47 @@
+org.dkpro.lab:dkpro-lab-uima-engine-simple:jar:0.14.0
++- org.dkpro.lab:dkpro-lab-core:jar:0.14.0:compile
+|  +- commons-lang:commons-lang:jar:2.6:compile
+|  +- org.springframework:spring-core:jar:3.2.16.RELEASE:compile
+|  +- org.springframework:spring-context:jar:3.2.16.RELEASE:compile
+|  |  +- org.springframework:spring-aop:jar:3.2.16.RELEASE:compile
+|  |  |  \- aopalliance:aopalliance:jar:1.0:compile
+|  |  \- org.springframework:spring-expression:jar:3.2.16.RELEASE:compile
+|  +- org.springframework:spring-tx:jar:3.2.16.RELEASE:compile
+|  +- org.springframework:spring-beans:jar:3.2.16.RELEASE:compile
+|  +- org.safehaus.jug:jug:jar:asl:2.0.0:compile
+|  +- org.jfree:jfreechart:jar:1.0.19:compile
+|  |  \- org.jfree:jcommon:jar:1.0.23:compile
+|  +- net.sf.opencsv:opencsv:jar:2.3:compile
+|  +- org.apache.poi:poi:jar:3.14:compile
+|  |  \- commons-codec:commons-codec:jar:1.10:compile
+|  +- org.apache.xmlgraphics:xmlgraphics-commons:jar:2.2:compile
+|  +- org.apache.xmlgraphics:batik-svggen:jar:1.9.1:compile
+|  |  +- org.apache.xmlgraphics:batik-awt-util:jar:1.9.1:compile
+|  |  \- org.apache.xmlgraphics:batik-util:jar:1.9.1:compile
+|  |     +- org.apache.xmlgraphics:batik-constants:jar:1.9.1:compile
+|  |     \- org.apache.xmlgraphics:batik-i18n:jar:1.9.1:compile
+|  +- org.apache.xmlgraphics:batik-dom:jar:1.9.1:compile
+|  |  +- org.apache.xmlgraphics:batik-css:jar:1.9.1:compile
+|  |  +- org.apache.xmlgraphics:batik-ext:jar:1.9.1:compile
+|  |  \- org.apache.xmlgraphics:batik-xml:jar:1.9.1:compile
+|  +- org.apache.xmlgraphics:fop:jar:2.1:compile
+|  |  +- org.apache.xmlgraphics:batik-svg-dom:jar:1.8:compile
+|  |  |  \- org.apache.xmlgraphics:batik-parser:jar:1.8:compile
+|  |  +- org.apache.xmlgraphics:batik-bridge:jar:1.9.1:compile
+|  |  |  \- org.apache.xmlgraphics:batik-anim:jar:1.9.1:compile
+|  |  +- org.apache.xmlgraphics:batik-gvt:jar:1.9.1:compile
+|  |  +- org.apache.xmlgraphics:batik-transcoder:jar:1.8:compile
+|  |  +- org.apache.xmlgraphics:batik-extension:jar:1.8:compile
+|  |  +- org.apache.avalon.framework:avalon-framework-api:jar:4.3.1:compile
+|  |  \- org.apache.avalon.framework:avalon-framework-impl:jar:4.3.1:compile
+|  +- javax.ws.rs:jsr311-api:jar:1.1.1:compile
+|  +- org.apache.ant:ant:jar:1.9.6:compile
+|  |  \- org.apache.ant:ant-launcher:jar:1.9.6:compile
+|  \- commons-logging:commons-logging-api:jar:1.1:compile
++- org.dkpro.lab:dkpro-lab-uima:jar:0.14.0:compile
++- commons-io:commons-io:jar:2.4:test
++- org.apache.uima:uimaj-core:jar:2.10.2:compile
++- org.apache.uima:uimafit-core:jar:2.4.0:compile
++- junit:junit:jar:4.10:test
+|  \- org.hamcrest:hamcrest-core:jar:1.1:test
+\- org.springframework:spring-test:jar:3.2.16.RELEASE:test

@@ -1,0 +1,36 @@
+com.github.nosan:embedded-cassandra:jar:0.0.13
++- de.flapdoodle.embed:de.flapdoodle.embed.process:jar:2.0.5:compile
++- net.java.dev.jna:jna-platform:jar:4.5.1:compile
+|  \- net.java.dev.jna:jna:jar:4.5.1:compile
++- org.apache.commons:commons-compress:jar:1.17:compile
++- org.apache.commons:commons-lang3:jar:3.7:compile
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- org.yaml:snakeyaml:jar:1.21:compile
+\- com.datastax.cassandra:cassandra-driver-core:jar:3.5.0:compile
+   +- io.netty:netty-handler:jar:4.0.56.Final:compile
+   |  +- io.netty:netty-buffer:jar:4.0.56.Final:compile
+   |  |  \- io.netty:netty-common:jar:4.0.56.Final:compile
+   |  +- io.netty:netty-transport:jar:4.0.56.Final:compile
+   |  |  \- (io.netty:netty-buffer:jar:4.0.56.Final:compile - omitted for duplicate)
+   |  \- io.netty:netty-codec:jar:4.0.56.Final:compile
+   |     \- (io.netty:netty-transport:jar:4.0.56.Final:compile - omitted for duplicate)
+   +- com.google.guava:guava:jar:19.0:compile
+   +- io.dropwizard.metrics:metrics-core:jar:3.2.2:compile
+   |  \- (org.slf4j:slf4j-api:jar:1.7.22:compile - omitted for conflict with 1.7.25)
+   +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+   +- com.github.jnr:jnr-ffi:jar:2.1.7:compile
+   |  +- com.github.jnr:jffi:jar:1.2.16:compile
+   |  +- com.github.jnr:jffi:jar:native:1.2.16:runtime
+   |  +- org.ow2.asm:asm:jar:5.0.3:compile
+   |  +- org.ow2.asm:asm-commons:jar:5.0.3:compile
+   |  |  \- (org.ow2.asm:asm-tree:jar:5.0.3:compile - omitted for duplicate)
+   |  +- org.ow2.asm:asm-analysis:jar:5.0.3:compile
+   |  |  \- (org.ow2.asm:asm-tree:jar:5.0.3:compile - omitted for duplicate)
+   |  +- org.ow2.asm:asm-tree:jar:5.0.3:compile
+   |  |  \- (org.ow2.asm:asm:jar:5.0.3:compile - omitted for duplicate)
+   |  +- org.ow2.asm:asm-util:jar:5.0.3:compile
+   |  |  \- (org.ow2.asm:asm-tree:jar:5.0.3:compile - omitted for duplicate)
+   |  \- com.github.jnr:jnr-x86asm:jar:1.0.2:compile
+   \- com.github.jnr:jnr-posix:jar:3.0.44:compile
+      +- (com.github.jnr:jnr-ffi:jar:2.1.7:compile - omitted for duplicate)
+      \- com.github.jnr:jnr-constants:jar:0.9.9:compile

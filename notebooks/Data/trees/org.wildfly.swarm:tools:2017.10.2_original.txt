@@ -1,0 +1,35 @@
+org.wildfly.swarm:tools:jar:2017.10.2
++- org.wildfly.swarm:bootstrap:jar:2017.10.2:compile
+|  +- org.jboss.modules:jboss-modules:jar:1.5.2.Final:compile
+|  \- org.yaml:snakeyaml:jar:1.17:compile
++- org.wildfly.swarm:fraction-metadata:jar:2017.10.2:compile
+|  +- org.wildfly.swarm:meta-spi:jar:2017.10.2:compile
+|  |  \- (org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-impl-javaee:jar:2.0.0:compile - omitted for duplicate)
+|  +- org.ow2.asm:asm-all:jar:5.0.4:compile
+|  \- com.eclipsesource.minimal-json:minimal-json:jar:0.9.4:compile
++- org.jboss.shrinkwrap:shrinkwrap-api:jar:1.2.6:compile
++- org.jboss.shrinkwrap:shrinkwrap-spi:jar:1.2.6:compile
+|  \- (org.jboss.shrinkwrap:shrinkwrap-api:jar:1.2.6:compile - omitted for duplicate)
++- org.jboss.shrinkwrap:shrinkwrap-impl-base:jar:1.2.6:compile
+|  +- (org.jboss.shrinkwrap:shrinkwrap-api:jar:1.2.6:compile - omitted for duplicate)
+|  \- (org.jboss.shrinkwrap:shrinkwrap-spi:jar:1.2.6:compile - omitted for duplicate)
++- org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-api-jboss:jar:2.0.0:compile
+|  \- org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-api-javaee:jar:2.0.0:compile
+|     \- org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-api-base:jar:2.0.0:compile
++- org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-impl-jboss:jar:2.0.0:compile
+|  +- (org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-api-jboss:jar:2.0.0:compile - omitted for duplicate)
+|  \- org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-impl-javaee:jar:2.0.0:compile
+|     +- (org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-api-javaee:jar:2.0.0:compile - omitted for duplicate)
+|     \- org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-impl-base:jar:2.0.0:compile
+|        \- org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-spi:jar:2.0.0:compile
+|           \- (org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-api-base:jar:2.0.0:compile - omitted for duplicate)
++- net.lingala.zip4j:zip4j:jar:1.3.2:compile
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.easytesting:fest-assert:jar:1.4:test
+|  \- org.easytesting:fest-util:jar:1.1.6:test
++- org.mockito:mockito-core:jar:2.2.28:test
+|  +- net.bytebuddy:byte-buddy:jar:1.5.5:test
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.5.5:test
+|  \- org.objenesis:objenesis:jar:2.4:test
+\- org.wildfly.swarm:build-resources:jar:2017.10.2:test

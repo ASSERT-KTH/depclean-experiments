@@ -1,0 +1,72 @@
+org.bytedeco:javacv:jar:1.4.1
++- org.bytedeco:javacpp:jar:1.4.1:compile
++- org.bytedeco.javacpp-presets:opencv:jar:3.4.1-1.4.1:compile
+|  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
++- org.bytedeco.javacpp-presets:ffmpeg:jar:3.4.2-1.4.1:compile
+|  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
++- org.bytedeco.javacpp-presets:flycapture:jar:2.11.3.121-1.4.1:compile
+|  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
++- org.bytedeco.javacpp-presets:libdc1394:jar:2.2.5-1.4.1:compile
+|  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
++- org.bytedeco.javacpp-presets:libfreenect:jar:0.5.3-1.4.1:compile
+|  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
++- org.bytedeco.javacpp-presets:libfreenect2:jar:0.2.0-1.4.1:compile
+|  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
++- org.bytedeco.javacpp-presets:librealsense:jar:1.12.1-1.4.1:compile
+|  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
++- org.bytedeco.javacpp-presets:videoinput:jar:0.200-1.4.1:compile
+|  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
++- org.bytedeco.javacpp-presets:artoolkitplus:jar:2.3.1-1.4.1:compile
+|  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
++- org.bytedeco.javacpp-presets:flandmark:jar:1.07-1.4.1:compile
+|  +- (org.bytedeco.javacpp-presets:opencv:jar:3.4.1-1.4.1:compile - omitted for duplicate)
+|  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
++- com.google.android:android:jar:4.1.1.4:compile
+|  +- commons-logging:commons-logging:jar:1.1.1:compile
+|  +- org.apache.httpcomponents:httpclient:jar:4.0.1:compile
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.0.1:compile
+|  |  +- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for duplicate)
+|  |  \- commons-codec:commons-codec:jar:1.3:compile
+|  +- org.khronos:opengl-api:jar:gl1.1-android-2.1_r1:compile
+|  +- xerces:xmlParserAPIs:jar:2.6.2:compile
+|  +- xpp3:xpp3:jar:1.1.4c:compile
+|  \- org.json:json:jar:20080701:compile
++- org.jogamp.gluegen:gluegen-rt-main:jar:2.3.1:compile
+|  +- org.jogamp.gluegen:gluegen-rt:jar:2.3.1:compile
+|  +- org.jogamp.gluegen:gluegen-rt:jar:natives-android-aarch64:2.3.1:compile
+|  +- org.jogamp.gluegen:gluegen-rt:jar:natives-android-armv6:2.3.1:compile
+|  +- org.jogamp.gluegen:gluegen-rt:jar:natives-linux-amd64:2.3.1:compile
+|  +- org.jogamp.gluegen:gluegen-rt:jar:natives-linux-armv6:2.3.1:compile
+|  +- org.jogamp.gluegen:gluegen-rt:jar:natives-linux-armv6hf:2.3.1:compile
+|  +- org.jogamp.gluegen:gluegen-rt:jar:natives-linux-i586:2.3.1:compile
+|  +- org.jogamp.gluegen:gluegen-rt:jar:natives-macosx-universal:2.3.1:compile
+|  +- org.jogamp.gluegen:gluegen-rt:jar:natives-solaris-amd64:2.3.1:compile
+|  +- org.jogamp.gluegen:gluegen-rt:jar:natives-solaris-i586:2.3.1:compile
+|  +- org.jogamp.gluegen:gluegen-rt:jar:natives-windows-amd64:2.3.1:compile
+|  \- org.jogamp.gluegen:gluegen-rt:jar:natives-windows-i586:2.3.1:compile
++- org.jogamp.jogl:jogl-all-main:jar:2.3.1:compile
+|  +- org.jogamp.jogl:jogl-all:jar:2.3.1:compile
+|  +- org.jogamp.jogl:jogl-all:jar:natives-android-aarch64:2.3.1:compile
+|  +- org.jogamp.jogl:jogl-all:jar:natives-android-armv6:2.3.1:compile
+|  +- org.jogamp.jogl:jogl-all:jar:natives-linux-amd64:2.3.1:compile
+|  +- org.jogamp.jogl:jogl-all:jar:natives-linux-armv6:2.3.1:compile
+|  +- org.jogamp.jogl:jogl-all:jar:natives-linux-armv6hf:2.3.1:compile
+|  +- org.jogamp.jogl:jogl-all:jar:natives-linux-i586:2.3.1:compile
+|  +- org.jogamp.jogl:jogl-all:jar:natives-macosx-universal:2.3.1:compile
+|  +- org.jogamp.jogl:jogl-all:jar:natives-solaris-amd64:2.3.1:compile
+|  +- org.jogamp.jogl:jogl-all:jar:natives-solaris-i586:2.3.1:compile
+|  +- org.jogamp.jogl:jogl-all:jar:natives-windows-amd64:2.3.1:compile
+|  \- org.jogamp.jogl:jogl-all:jar:natives-windows-i586:2.3.1:compile
+\- org.jogamp.jocl:jocl-main:jar:2.3.1:compile
+   +- org.jogamp.jocl:jocl:jar:2.3.1:compile
+   +- org.jogamp.jocl:jocl:jar:natives-android-aarch64:2.3.1:compile
+   +- org.jogamp.jocl:jocl:jar:natives-android-armv6:2.3.1:compile
+   +- org.jogamp.jocl:jocl:jar:natives-linux-amd64:2.3.1:compile
+   +- org.jogamp.jocl:jocl:jar:natives-linux-armv6:2.3.1:compile
+   +- org.jogamp.jocl:jocl:jar:natives-linux-armv6hf:2.3.1:compile
+   +- org.jogamp.jocl:jocl:jar:natives-linux-i586:2.3.1:compile
+   +- org.jogamp.jocl:jocl:jar:natives-macosx-universal:2.3.1:compile
+   +- org.jogamp.jocl:jocl:jar:natives-solaris-amd64:2.3.1:compile
+   +- org.jogamp.jocl:jocl:jar:natives-solaris-i586:2.3.1:compile
+   +- org.jogamp.jocl:jocl:jar:natives-windows-amd64:2.3.1:compile
+   \- org.jogamp.jocl:jocl:jar:natives-windows-i586:2.3.1:compile

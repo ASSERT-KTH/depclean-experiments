@@ -1,0 +1,17 @@
+org.webjars.bowergithub.polymerelements:paper-dialog-behavior:jar:2.2.2-1
++- org.webjars.bowergithub.polymerelements:iron-overlay-behavior:jar:2.3.4:compile
+|  +- org.webjars.bowergithub.polymerelements:iron-a11y-keys-behavior:jar:2.1.1:compile
+|  |  \- (org.webjars.bowergithub.polymer:polymer:jar:2.8.0:compile - omitted for duplicate)
+|  +- org.webjars.bowergithub.polymerelements:iron-fit-behavior:jar:2.2.1:compile
+|  |  \- (org.webjars.bowergithub.polymer:polymer:jar:2.8.0:compile - omitted for duplicate)
+|  +- org.webjars.bowergithub.polymerelements:iron-resizable-behavior:jar:2.1.1:compile
+|  |  \- (org.webjars.bowergithub.polymer:polymer:jar:2.8.0:compile - omitted for duplicate)
+|  \- (org.webjars.bowergithub.polymer:polymer:jar:2.8.0:compile - omitted for duplicate)
++- org.webjars.bowergithub.polymerelements:paper-styles:jar:2.1.0:compile
+|  +- org.webjars.bowergithub.polymerelements:iron-flex-layout:jar:2.0.3:compile
+|  |  \- (org.webjars.bowergithub.polymer:polymer:jar:2.8.0:compile - omitted for duplicate)
+|  +- org.webjars.bowergithub.polymerelements:font-roboto:jar:1.1.0:compile
+|  \- (org.webjars.bowergithub.polymer:polymer:jar:2.8.0:compile - omitted for duplicate)
+\- org.webjars.bowergithub.polymer:polymer:jar:2.8.0:compile
+   +- org.webjars.bowergithub.webcomponents:shadycss:jar:1.9.1:compile
+   \- org.webjars.bowergithub.webcomponents:webcomponentsjs:jar:2.0.0-beta.3:compile

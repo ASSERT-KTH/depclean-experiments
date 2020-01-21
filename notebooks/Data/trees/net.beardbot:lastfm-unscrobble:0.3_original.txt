@@ -1,0 +1,10 @@
+net.beardbot:lastfm-unscrobble:jar:0.3
++- commons-io:commons-io:jar:2.5:compile
++- org.apache.httpcomponents:httpclient:jar:4.5.5:compile
+|  +- org.apache.httpcomponents:httpcore:jar:4.4.9:compile
+|  +- commons-logging:commons-logging:jar:1.2:compile
+|  \- commons-codec:commons-codec:jar:1.10:compile
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- org.slf4j:slf4j-simple:jar:1.7.25:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+\- org.projectlombok:lombok:jar:1.16.20:compile

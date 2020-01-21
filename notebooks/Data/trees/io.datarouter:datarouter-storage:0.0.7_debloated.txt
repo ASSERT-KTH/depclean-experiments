@@ -1,0 +1,47 @@
+io.datarouter:datarouter-storage:jar:0.0.7
++- io.datarouter:datarouter-inject:jar:0.0.7:compile
+|  +- io.datarouter:datarouter-util:jar:0.0.7:compile
+|  |  +- io.datarouter:datarouter-logging:jar:0.0.7:compile
+|  |  |  +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  |  |  +- org.apache.logging.log4j:log4j-slf4j-impl:jar:2.11.0:compile
+|  |  |  |  +- org.slf4j:slf4j-api:jar:1.8.0-alpha2:compile
+|  |  |  |  +- org.apache.logging.log4j:log4j-api:jar:2.11.0:compile
+|  |  |  |  \- (org.apache.logging.log4j:log4j-core:jar:2.11.0:compile - scope updated from runtime; omitted for duplicate)
+|  |  |  +- org.apache.logging.log4j:log4j-1.2-api:jar:2.11.0:compile
+|  |  |  |  +- (org.apache.logging.log4j:log4j-api:jar:2.11.0:compile - omitted for duplicate)
+|  |  |  |  \- org.apache.logging.log4j:log4j-core:jar:2.11.0:compile
+|  |  |  |     \- (org.apache.logging.log4j:log4j-api:jar:2.11.0:compile - omitted for duplicate)
+|  |  |  +- org.apache.logging.log4j:log4j-jcl:jar:2.11.0:compile
+|  |  |  |  +- commons-logging:commons-logging:jar:1.2:compile
+|  |  |  |  \- (org.apache.logging.log4j:log4j-api:jar:2.11.0:compile - omitted for duplicate)
+|  |  |  +- org.apache.logging.log4j:log4j-web:jar:2.11.0:runtime
+|  |  |  |  +- (org.apache.logging.log4j:log4j-api:jar:2.11.0:runtime - omitted for duplicate)
+|  |  |  |  \- (org.apache.logging.log4j:log4j-core:jar:2.11.0:runtime - omitted for duplicate)
+|  |  |  \- (org.testng:testng:jar:6.14.2:compile - omitted for duplicate)
+|  |  +- com.fasterxml.uuid:java-uuid-generator:jar:3.1.5:compile
+|  |  +- com.google.code.gson:gson:jar:2.8.2:compile
+|  |  \- (org.testng:testng:jar:6.14.2:compile - omitted for duplicate)
+|  +- com.google.inject:guice:jar:4.2.0:compile
+|  |  +- javax.inject:javax.inject:jar:1:compile
+|  |  +- aopalliance:aopalliance:jar:1.0:compile
+|  |  \- (com.google.guava:guava:jar:23.6-android:compile - omitted for conflict with 24.1-jre)
+|  \- (org.testng:testng:jar:6.14.2:compile - omitted for duplicate)
++- io.datarouter:datarouter-model:jar:0.0.7:compile
+|  +- (io.datarouter:datarouter-util:jar:0.0.7:compile - omitted for duplicate)
+|  +- commons-codec:commons-codec:jar:1.11:compile
+|  +- org.apache.commons:commons-text:jar:1.3:compile
+|  |  \- org.apache.commons:commons-lang3:jar:3.7:compile
+|  +- com.google.guava:guava:jar:24.1-jre:compile
+|  |  +- com.google.code.findbugs:jsr305:jar:1.3.9:compile
+|  |  +- org.checkerframework:checker-compat-qual:jar:2.0.0:compile
+|  |  +- com.google.errorprone:error_prone_annotations:jar:2.1.3:compile
+|  |  +- com.google.j2objc:j2objc-annotations:jar:1.1:compile
+|  |  \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:compile
+|  \- (org.testng:testng:jar:6.14.2:compile - omitted for duplicate)
++- io.datarouter:datarouter-instrumentation:jar:0.0.7:compile
+|  \- (org.testng:testng:jar:6.14.2:compile - omitted for duplicate)
++- com.sun.mail:javax.mail:jar:1.6.1:compile
+|  \- javax.activation:activation:jar:1.1:compile
+\- org.testng:testng:jar:6.14.2:compile
+   +- com.beust:jcommander:jar:1.72:compile
+   \- org.apache-extras.beanshell:bsh:jar:2.0b6:compile

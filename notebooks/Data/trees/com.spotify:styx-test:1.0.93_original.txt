@@ -1,0 +1,73 @@
+com.spotify:styx-test:jar:1.0.93
++- com.google.auto.value:auto-value:jar:1.5.3:provided (scope not updated to compile)
++- com.google.guava:guava:jar:19.0:compile
++- com.google.cloud.bigtable:bigtable-hbase-1.2:jar:0.9.6.2:compile
+|  +- com.google.api:api-common:jar:1.1.0:compile (version managed from 0.0.2)
+|  |  +- (com.google.code.findbugs:jsr305:jar:3.0.1:compile - version managed from 3.0.0; omitted for duplicate)
+|  |  \- (com.google.guava:guava:jar:19.0:compile - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:19.0:compile - omitted for duplicate)
+|  +- (com.google.auto.value:auto-value:jar:1.5.3:compile - version managed from 1.1; omitted for duplicate)
+|  +- com.google.inject:guice:jar:4.0:compile
+|  |  +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  |  +- (aopalliance:aopalliance:jar:1.0:compile - omitted for duplicate)
+|  |  \- (com.google.guava:guava:jar:19.0:compile - version managed from 16.0.1; omitted for duplicate)
+|  +- javax.inject:javax.inject:jar:1:compile
+|  +- aopalliance:aopalliance:jar:1.0:compile
+|  +- joda-time:joda-time:jar:2.9.2:compile (version managed from 2.8.2)
+|  +- com.google.code.gson:gson:jar:2.7:compile
+|  +- com.google.code.findbugs:jsr305:jar:3.0.1:compile
+|  +- commons-logging:commons-logging:jar:1.2:compile
+|  +- com.google.appengine:appengine-api-1.0-sdk:jar:1.9.34:compile
+|  +- org.slf4j:slf4j-api:jar:1.7.25:compile (version managed from 1.7.7)
+|  +- com.google.errorprone:error_prone_annotations:jar:2.0.11:compile
+|  +- org.apache.httpcomponents:httpclient:jar:4.5:compile (version managed from 4.0.1)
+|  |  +- (org.apache.httpcomponents:httpcore:jar:4.4.1:compile - version managed from 4.0.1; omitted for duplicate)
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  |  \- (commons-codec:commons-codec:jar:1.9:compile - version managed from 1.3; omitted for duplicate)
+|  +- org.apache.httpcomponents:httpcore:jar:4.4.1:compile
+|  +- commons-codec:commons-codec:jar:1.9:compile
+|  +- commons-lang:commons-lang:jar:2.6:compile
+|  +- org.apache.hbase:hbase-client:jar:1.2.4:compile
+|  |  +- (org.apache.hbase:hbase-annotations:jar:1.2.4:compile - omitted for duplicate)
+|  |  +- (org.apache.hbase:hbase-common:jar:1.2.4:compile - omitted for duplicate)
+|  |  +- (org.apache.hbase:hbase-protocol:jar:1.2.4:compile - omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.9:compile - version managed from 1.4; omitted for duplicate)
+|  |  +- (commons-lang:commons-lang:jar:2.6:compile - version managed from 2.4; omitted for duplicate)
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - version managed from 1.1.1; omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:19.0:compile - version managed from 12.0.1; omitted for duplicate)
+|  |  +- (com.google.protobuf:protobuf-java:jar:3.2.0:compile - version managed from 2.5.0; omitted for duplicate)
+|  |  \- (org.apache.hadoop:hadoop-common:jar:2.5.1:compile - omitted for duplicate)
+|  +- com.google.protobuf:protobuf-java:jar:3.2.0:compile
+|  +- org.apache.hbase:hbase-common:jar:1.2.4:compile
+|  |  +- (org.apache.hbase:hbase-protocol:jar:1.2.4:compile - omitted for duplicate)
+|  |  +- (org.apache.hbase:hbase-annotations:jar:1.2.4:compile - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:19.0:compile - version managed from 12.0.1; omitted for duplicate)
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - version managed from 1.1.1; omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.9:compile - version managed from 1.4; omitted for duplicate)
+|  |  +- (commons-lang:commons-lang:jar:2.6:compile - version managed from 2.4; omitted for duplicate)
+|  |  +- (commons-collections:commons-collections:jar:3.2.2:compile - version managed from 3.2.1; omitted for duplicate)
+|  |  +- (com.google.protobuf:protobuf-java:jar:3.2.0:compile - version managed from 2.5.0; omitted for duplicate)
+|  |  \- (org.apache.hadoop:hadoop-common:jar:2.5.1:compile - omitted for duplicate)
+|  +- org.apache.hbase:hbase-protocol:jar:1.2.4:compile
+|  |  +- (org.apache.hbase:hbase-annotations:jar:1.2.4:compile - omitted for duplicate)
+|  |  +- (com.google.protobuf:protobuf-java:jar:3.2.0:compile - version managed from 2.5.0; omitted for duplicate)
+|  |  \- (commons-logging:commons-logging:jar:1.2:compile - version managed from 1.1.1; omitted for duplicate)
+|  +- org.apache.hbase:hbase-annotations:jar:1.2.4:compile
+|  +- org.apache.hadoop:hadoop-common:jar:2.5.1:compile
+|  |  +- (com.google.guava:guava:jar:19.0:compile - version managed from 11.0.2; omitted for duplicate)
+|  |  +- (commons-cli:commons-cli:jar:1.2:compile - omitted for conflict with 1.3.1)
+|  |  +- (commons-codec:commons-codec:jar:1.9:compile - version managed from 1.4; omitted for duplicate)
+|  |  +- (commons-collections:commons-collections:jar:3.2.2:compile - version managed from 3.2.1; omitted for duplicate)
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - version managed from 1.1.3; omitted for duplicate)
+|  |  +- (commons-lang:commons-lang:jar:2.6:compile - version managed from 2.4; omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.5; omitted for duplicate)
+|  |  +- (com.google.protobuf:protobuf-java:jar:3.2.0:compile - version managed from 2.5.0; omitted for duplicate)
+|  |  \- (com.google.code.findbugs:jsr305:jar:3.0.1:compile - version managed from 1.3.9; omitted for duplicate)
+|  +- commons-cli:commons-cli:jar:1.3.1:compile
+|  \- commons-collections:commons-collections:jar:3.2.2:compile
++- junit:junit:jar:4.12:compile
+|  \- org.hamcrest:hamcrest-core:jar:1.3:compile
++- org.mockito:mockito-core:jar:1.10.19:compile
+|  +- (org.hamcrest:hamcrest-core:jar:1.3:runtime - version managed from 1.1; omitted for duplicate)
+|  \- org.objenesis:objenesis:jar:2.1:runtime
+\- org.hamcrest:hamcrest-all:jar:1.3:compile

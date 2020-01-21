@@ -1,0 +1,15 @@
+org.virtuslab:unicorn_2.11:jar:1.0.1
++- org.virtuslab:unicorn-core_2.11:jar:1.0.1:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.6:compile - omitted for duplicate)
+|  +- com.typesafe.slick:slick_2.11:jar:3.1.1:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.6:compile - omitted for duplicate)
+|  |  +- org.slf4j:slf4j-api:jar:1.7.10:compile
+|  |  +- com.typesafe:config:jar:1.2.1:compile
+|  |  \- org.reactivestreams:reactive-streams:jar:1.0.0:compile
+|  +- joda-time:joda-time:jar:2.8.1:compile
+|  \- org.joda:joda-convert:jar:1.7:compile
++- org.scoverage:scalac-scoverage-runtime_2.11:jar:1.1.0:provided
+|  \- (org.scala-lang:scala-library:jar:2.11.4:provided - omitted for conflict with 2.11.6)
+\- org.scoverage:scalac-scoverage-plugin_2.11:jar:1.1.0:provided
+   +- (org.scala-lang:scala-library:jar:2.11.4:provided - omitted for conflict with 2.11.6)
+   \- (org.scala-lang.modules:scala-xml_2.11:jar:1.0.1:compile - scope updated from provided; omitted for duplicate)

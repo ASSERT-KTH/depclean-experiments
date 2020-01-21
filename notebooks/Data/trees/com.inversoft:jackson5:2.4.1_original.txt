@@ -1,0 +1,17 @@
+com.inversoft:jackson5:jar:2.4.1
++- com.fasterxml.jackson.core:jackson-core:jar:2.8.8:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.8.8:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile - omitted for conflict with 2.8.8)
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.8.8:compile - omitted for duplicate)
++- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.8:compile
++- com.google.inject:guice:jar:4.0:compile
+|  +- javax.inject:javax.inject:jar:1:compile
+|  +- aopalliance:aopalliance:jar:1.0:compile
+|  \- com.google.guava:guava:jar:16.0.1:compile
++- org.slf4j:slf4j-api:jar:1.7.7:compile
+\- org.testng:testng:jar:6.8.7:test
+   +- junit:junit:jar:4.10:test
+   |  \- org.hamcrest:hamcrest-core:jar:1.1:test
+   +- org.beanshell:bsh:jar:2.0b4:test
+   +- com.beust:jcommander:jar:1.27:test
+   \- org.yaml:snakeyaml:jar:1.12:test

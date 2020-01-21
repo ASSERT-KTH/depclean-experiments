@@ -1,0 +1,12 @@
+org.julienrf:endpoints-algebra-json-schema_2.10:jar:0.6.0
++- org.scala-lang:scala-compiler:jar:2.10.7:runtime
+|  +- (org.scala-lang:scala-library:jar:2.10.7:runtime - omitted for duplicate)
+|  \- org.scala-lang:scala-reflect:jar:2.10.7:runtime
+|     \- (org.scala-lang:scala-library:jar:2.10.7:runtime - omitted for duplicate)
++- org.scala-lang:scala-library:jar:2.10.7:compile
+\- org.scalatest:scalatest_2.10:jar:3.0.1:test
+   +- (org.scala-lang:scala-library:jar:2.10.6:test - omitted for conflict with 2.10.7)
+   +- org.scalactic:scalactic_2.10:jar:3.0.1:test
+   |  +- (org.scala-lang:scala-library:jar:2.10.6:test - omitted for conflict with 2.10.7)
+   |  \- (org.scala-lang:scala-reflect:jar:2.10.6:test - omitted for conflict with 2.10.7)
+   \- (org.scala-lang:scala-reflect:jar:2.10.6:test - omitted for conflict with 2.10.7)

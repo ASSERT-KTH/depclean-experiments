@@ -1,0 +1,5 @@
+org.walkmod:javalang:jar:4.8.8
++- org.walkmod:merger:jar:1.0.1:compile
++- org.walkmod:model-checker:jar:1.1:compile
+\- junit:junit:jar:4.12:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

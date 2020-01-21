@@ -1,0 +1,347 @@
+com.commercetools.sunrise:common_2.11:jar:1.0.0-M9.3
++- org.scala-lang:scala-library:jar:2.11.8:compile
++- com.commercetools.sunrise:test-lib_2.11:jar:1.0.0-M9.3:test
+|  +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for duplicate)
+|  +- (com.typesafe.play:twirl-api_2.11:jar:1.1.1:test - omitted for duplicate)
+|  +- (com.typesafe.play:play-server_2.11:jar:2.5.14:test - omitted for duplicate)
+|  +- (com.typesafe.play:play-test_2.11:jar:2.5.14:test - omitted for duplicate)
+|  +- (com.typesafe.play:play-java_2.11:jar:2.5.14:test - omitted for duplicate)
+|  +- (com.typesafe.play:play-netty-server_2.11:jar:2.5.14:test - omitted for duplicate)
+|  +- (com.typesafe.play:play-logback_2.11:jar:2.5.14:test - omitted for duplicate)
+|  +- (org.assertj:assertj-core:jar:3.6.2:test - omitted for duplicate)
+|  +- (org.mockito:mockito-core:jar:2.8.47:test - omitted for duplicate)
+|  +- (com.commercetools.sunrise.email:email-smtp:jar:0.3.0:test - omitted for duplicate)
+|  +- (com.typesafe.play:play-java-ws_2.11:jar:2.5.14:test - omitted for duplicate)
+|  +- (com.commercetools.sdk.jvm.core:commercetools-models:jar:1.17.0:test - omitted for duplicate)
+|  +- (com.commercetools.sdk.jvm.core:commercetools-java-client:jar:1.17.0:test - omitted for duplicate)
+|  +- (com.commercetools.sdk.jvm.core:commercetools-convenience:jar:1.17.0:test - omitted for duplicate)
+|  +- (com.typesafe.play:filters-helpers_2.11:jar:2.5.14:test - omitted for duplicate)
+|  +- (com.typesafe.play:play-cache_2.11:jar:2.5.14:test - omitted for duplicate)
+|  +- (commons-beanutils:commons-beanutils:jar:1.9.2:test - omitted for duplicate)
+|  \- (commons-io:commons-io:jar:2.4:test - omitted for duplicate)
++- com.typesafe.play:twirl-api_2.11:jar:1.1.1:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.6:compile - omitted for conflict with 2.11.8)
+|  +- org.apache.commons:commons-lang3:jar:3.4:compile
+|  \- org.scala-lang.modules:scala-xml_2.11:jar:1.0.1:compile
+|     \- (org.scala-lang:scala-library:jar:2.11.0:compile - omitted for conflict with 2.11.8)
++- com.typesafe.play:play-server_2.11:jar:2.5.14:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.7:compile - omitted for conflict with 2.11.8)
+|  +- com.typesafe.play:play_2.11:jar:2.5.14:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.7:compile - omitted for conflict with 2.11.8)
+|  |  +- com.typesafe.play:build-link:jar:2.5.14:compile
+|  |  |  \- com.typesafe.play:play-exceptions:jar:2.5.14:compile
+|  |  +- (com.typesafe.play:play-iteratees_2.11:jar:2.5.14:compile - omitted for duplicate)
+|  |  +- com.typesafe.play:play-json_2.11:jar:2.5.14:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.7:compile - omitted for conflict with 2.11.8)
+|  |  |  +- (com.typesafe.play:play-iteratees_2.11:jar:2.5.14:compile - omitted for duplicate)
+|  |  |  +- com.typesafe.play:play-functional_2.11:jar:2.5.14:compile
+|  |  |  |  \- (org.scala-lang:scala-library:jar:2.11.7:compile - omitted for conflict with 2.11.8)
+|  |  |  +- com.typesafe.play:play-datacommons_2.11:jar:2.5.14:compile
+|  |  |  |  \- (org.scala-lang:scala-library:jar:2.11.7:compile - omitted for conflict with 2.11.8)
+|  |  |  +- (joda-time:joda-time:jar:2.9.6:compile - omitted for duplicate)
+|  |  |  +- (org.joda:joda-convert:jar:1.8.1:compile - omitted for duplicate)
+|  |  |  +- (org.scala-lang:scala-reflect:jar:2.11.7:compile - omitted for duplicate)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.7.8:compile - omitted for duplicate)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.7.8:compile - omitted for duplicate)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.7.8:compile - omitted for duplicate)
+|  |  |  +- (com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.7.8:compile - omitted for duplicate)
+|  |  |  \- (com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.7.8:compile - omitted for duplicate)
+|  |  +- com.typesafe.play:play-netty-utils:jar:2.5.14:compile
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|  |  |  +- (org.slf4j:jul-to-slf4j:jar:1.7.21:compile - omitted for duplicate)
+|  |  |  \- (org.slf4j:jcl-over-slf4j:jar:1.7.21:compile - omitted for duplicate)
+|  |  +- com.typesafe.play:play-streams_2.11:jar:2.5.14:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.7:compile - omitted for conflict with 2.11.8)
+|  |  |  +- (com.typesafe.play:play-iteratees_2.11:jar:2.5.14:compile - omitted for duplicate)
+|  |  |  +- (org.reactivestreams:reactive-streams:jar:1.0.0:compile - omitted for duplicate)
+|  |  |  +- com.typesafe.akka:akka-stream_2.11:jar:2.4.17:compile
+|  |  |  |  +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for duplicate)
+|  |  |  |  +- (com.typesafe.akka:akka-actor_2.11:jar:2.4.17:compile - omitted for duplicate)
+|  |  |  |  +- (org.reactivestreams:reactive-streams:jar:1.0.0:compile - omitted for duplicate)
+|  |  |  |  \- com.typesafe:ssl-config-core_2.11:jar:0.2.1:compile
+|  |  |  |     +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for duplicate)
+|  |  |  |     +- (com.typesafe:config:jar:1.2.0:compile - omitted for conflict with 1.3.1)
+|  |  |  |     \- (org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.0.4:compile - omitted for duplicate)
+|  |  |  \- (org.scala-lang.modules:scala-java8-compat_2.11:jar:0.7.0:compile - omitted for duplicate)
+|  |  +- (com.typesafe.play:twirl-api_2.11:jar:1.1.1:compile - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|  |  +- org.slf4j:jul-to-slf4j:jar:1.7.21:compile
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|  |  +- org.slf4j:jcl-over-slf4j:jar:1.7.21:compile
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|  |  +- com.typesafe.akka:akka-actor_2.11:jar:2.4.17:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for duplicate)
+|  |  |  +- (com.typesafe:config:jar:1.3.0:compile - omitted for conflict with 1.3.1)
+|  |  |  \- (org.scala-lang.modules:scala-java8-compat_2.11:jar:0.7.0:compile - omitted for duplicate)
+|  |  +- com.typesafe.akka:akka-slf4j_2.11:jar:2.4.17:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for duplicate)
+|  |  |  +- (com.typesafe.akka:akka-actor_2.11:jar:2.4.17:compile - omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.16:compile - omitted for conflict with 1.7.21)
+|  |  +- com.fasterxml.jackson.core:jackson-core:jar:2.7.8:compile
+|  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.7.8:compile
+|  |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.7.8:compile
+|  |  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.7.0:compile - omitted for conflict with 2.7.8)
+|  |  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.7.8:compile - omitted for duplicate)
+|  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.7.8:compile
+|  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.7.8:compile - omitted for duplicate)
+|  |  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.7.8:compile - omitted for duplicate)
+|  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.7.8:compile
+|  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.7.8:compile - omitted for duplicate)
+|  |  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.7.8:compile - omitted for duplicate)
+|  |  +- org.scala-stm:scala-stm_2.11:jar:0.7:compile
+|  |  |  \- (org.scala-lang:scala-library:jar:2.11.0:compile - omitted for conflict with 2.11.8)
+|  |  +- commons-codec:commons-codec:jar:1.10:compile
+|  |  +- joda-time:joda-time:jar:2.9.6:compile
+|  |  +- org.joda:joda-convert:jar:1.8.1:compile
+|  |  +- (org.apache.commons:commons-lang3:jar:3.4:compile - omitted for duplicate)
+|  |  +- xerces:xercesImpl:jar:2.11.0:compile
+|  |  |  \- xml-apis:xml-apis:jar:1.4.01:compile
+|  |  +- javax.transaction:jta:jar:1.1:compile
+|  |  +- com.google.inject:guice:jar:4.0:compile
+|  |  |  +- javax.inject:javax.inject:jar:1:compile
+|  |  |  +- aopalliance:aopalliance:jar:1.0:compile
+|  |  |  \- (com.google.guava:guava:jar:19.0:compile - omitted for conflict with 15.0)
+|  |  +- com.google.inject.extensions:guice-assistedinject:jar:4.0:compile
+|  |  |  \- (com.google.inject:guice:jar:4.0:compile - omitted for duplicate)
+|  |  +- org.scala-lang:scala-reflect:jar:2.11.7:compile
+|  |  |  \- (org.scala-lang:scala-library:jar:2.11.7:compile - omitted for conflict with 2.11.8)
+|  |  +- (org.scala-lang.modules:scala-java8-compat_2.11:jar:0.7.0:compile - omitted for duplicate)
+|  |  \- org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.0.4:compile
+|  |     \- (org.scala-lang:scala-library:jar:2.11.6:compile - omitted for conflict with 2.11.8)
+|  \- com.typesafe.play:play-iteratees_2.11:jar:2.5.14:compile
+|     +- (org.scala-lang:scala-library:jar:2.11.7:compile - omitted for conflict with 2.11.8)
+|     +- (org.scala-stm:scala-stm_2.11:jar:0.7:compile - omitted for duplicate)
+|     \- com.typesafe:config:jar:1.3.1:compile
++- com.typesafe.play:play-test_2.11:jar:2.5.14:test
+|  +- (org.scala-lang:scala-library:jar:2.11.7:test - omitted for conflict with 2.11.8)
+|  +- (com.typesafe.play:play-netty-server_2.11:jar:2.5.14:test - omitted for duplicate)
+|  +- junit:junit:jar:4.12:test
+|  |  \- org.hamcrest:hamcrest-core:jar:1.3:test
+|  +- com.novocode:junit-interface:jar:0.11:test
+|  |  +- (junit:junit:jar:4.11:test - omitted for conflict with 4.12)
+|  |  \- org.scala-sbt:test-interface:jar:1.0:test
+|  +- (com.google.guava:guava:jar:19.0:compile - scope updated from test; omitted for duplicate)
+|  +- (com.google.code.findbugs:jsr305:jar:3.0.1:compile - scope updated from test; omitted for duplicate)
+|  +- net.sourceforge.htmlunit:htmlunit:jar:2.20:test
+|  |  +- xalan:xalan:jar:2.7.2:test
+|  |  |  \- xalan:serializer:jar:2.7.2:test
+|  |  |     \- (xml-apis:xml-apis:jar:1.3.04:test - omitted for conflict with 1.4.01)
+|  |  +- (org.apache.commons:commons-lang3:jar:3.4:test - omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.2:test - omitted for duplicate)
+|  |  +- org.apache.httpcomponents:httpmime:jar:4.5.2:test
+|  |  |  \- (org.apache.httpcomponents:httpclient:jar:4.5.2:test - omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.10:test - omitted for duplicate)
+|  |  +- net.sourceforge.htmlunit:htmlunit-core-js:jar:2.17:test
+|  |  +- (xerces:xercesImpl:jar:2.11.0:test - omitted for duplicate)
+|  |  +- net.sourceforge.nekohtml:nekohtml:jar:1.9.22:test
+|  |  +- net.sourceforge.cssparser:cssparser:jar:0.9.18:test
+|  |  |  \- org.w3c.css:sac:jar:1.3:test
+|  |  +- (commons-io:commons-io:jar:2.4:test - omitted for duplicate)
+|  |  +- (commons-logging:commons-logging:jar:1.2:test - omitted for conflict with 1.1.1)
+|  |  \- org.eclipse.jetty.websocket:websocket-client:jar:9.2.15.v20160210:test
+|  |     +- org.eclipse.jetty:jetty-util:jar:9.2.15.v20160210:test
+|  |     +- org.eclipse.jetty:jetty-io:jar:9.2.15.v20160210:test
+|  |     |  \- (org.eclipse.jetty:jetty-util:jar:9.2.15.v20160210:test - omitted for duplicate)
+|  |     \- org.eclipse.jetty.websocket:websocket-common:jar:9.2.15.v20160210:test
+|  |        +- org.eclipse.jetty.websocket:websocket-api:jar:9.2.15.v20160210:test
+|  |        +- (org.eclipse.jetty:jetty-util:jar:9.2.15.v20160210:test - omitted for duplicate)
+|  |        \- (org.eclipse.jetty:jetty-io:jar:9.2.15.v20160210:test - omitted for duplicate)
+|  \- org.fluentlenium:fluentlenium-core:jar:0.10.9:test
+|     \- org.seleniumhq.selenium:selenium-java:jar:2.48.2:test
+|        +- org.seleniumhq.selenium:selenium-chrome-driver:jar:2.48.2:test
+|        |  \- org.seleniumhq.selenium:selenium-remote-driver:jar:2.48.2:test
+|        |     +- cglib:cglib-nodep:jar:2.1_3:test
+|        |     +- com.google.code.gson:gson:jar:2.3.1:test
+|        |     +- org.seleniumhq.selenium:selenium-api:jar:2.48.2:test
+|        |     |  +- (com.google.guava:guava:jar:18.0:test - omitted for conflict with 19.0)
+|        |     |  +- (com.google.code.gson:gson:jar:2.3.1:test - omitted for duplicate)
+|        |     |  \- (org.apache.httpcomponents:httpclient:jar:4.5.1:test - omitted for conflict with 4.5.2)
+|        |     +- (org.apache.httpcomponents:httpclient:jar:4.5.1:test - omitted for conflict with 4.5.2)
+|        |     +- (com.google.guava:guava:jar:18.0:test - omitted for conflict with 19.0)
+|        |     +- (org.apache.commons:commons-exec:jar:1.3:test - omitted for duplicate)
+|        |     +- (net.java.dev.jna:jna:jar:4.1.0:test - omitted for duplicate)
+|        |     \- (net.java.dev.jna:jna-platform:jar:4.1.0:test - omitted for duplicate)
+|        +- org.seleniumhq.selenium:selenium-edge-driver:jar:2.48.2:test
+|        |  +- (org.seleniumhq.selenium:selenium-remote-driver:jar:2.48.2:test - omitted for duplicate)
+|        |  +- (commons-io:commons-io:jar:2.4:test - omitted for duplicate)
+|        |  \- org.apache.commons:commons-exec:jar:1.3:test
+|        +- org.seleniumhq.selenium:selenium-htmlunit-driver:jar:2.48.2:test
+|        |  +- (org.seleniumhq.selenium:selenium-support:jar:2.48.2:test - omitted for duplicate)
+|        |  +- (net.sourceforge.htmlunit:htmlunit:jar:2.18:test - omitted for conflict with 2.20)
+|        |  \- (org.apache.httpcomponents:httpclient:jar:4.5.1:test - omitted for conflict with 4.5.2)
+|        +- org.seleniumhq.selenium:selenium-firefox-driver:jar:2.48.2:test
+|        |  +- (org.seleniumhq.selenium:selenium-remote-driver:jar:2.48.2:test - omitted for duplicate)
+|        |  +- (commons-io:commons-io:jar:2.4:test - omitted for duplicate)
+|        |  \- (org.apache.commons:commons-exec:jar:1.3:test - omitted for duplicate)
+|        +- org.seleniumhq.selenium:selenium-ie-driver:jar:2.48.2:test
+|        |  +- net.java.dev.jna:jna:jar:4.1.0:test
+|        |  +- net.java.dev.jna:jna-platform:jar:4.1.0:test
+|        |  |  \- (net.java.dev.jna:jna:jar:4.1.0:test - omitted for duplicate)
+|        |  \- (org.seleniumhq.selenium:selenium-remote-driver:jar:2.48.2:test - omitted for duplicate)
+|        +- org.seleniumhq.selenium:selenium-safari-driver:jar:2.48.2:test
+|        |  +- (org.seleniumhq.selenium:selenium-remote-driver:jar:2.48.2:test - omitted for duplicate)
+|        |  \- (org.webbitserver:webbit:jar:0.4.14:test - omitted for duplicate)
+|        +- org.seleniumhq.selenium:selenium-support:jar:2.48.2:test
+|        |  \- (org.seleniumhq.selenium:selenium-remote-driver:jar:2.48.2:test - omitted for duplicate)
+|        +- org.webbitserver:webbit:jar:0.4.14:test
+|        |  \- io.netty:netty:jar:3.5.2.Final:test
+|        \- org.seleniumhq.selenium:selenium-leg-rc:jar:2.48.2:test
+|           \- (org.seleniumhq.selenium:selenium-remote-driver:jar:2.48.2:test - omitted for duplicate)
++- com.typesafe.play:play-java_2.11:jar:2.5.14:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.7:compile - omitted for conflict with 2.11.8)
+|  +- (com.typesafe.play:play_2.11:jar:2.5.14:compile - omitted for duplicate)
+|  +- org.scala-lang.modules:scala-java8-compat_2.11:jar:0.7.0:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.11.7:compile - omitted for conflict with 2.11.8)
+|  +- org.yaml:snakeyaml:jar:1.16:compile
+|  +- org.hibernate:hibernate-validator:jar:5.2.4.Final:compile
+|  |  +- javax.validation:validation-api:jar:1.1.0.Final:compile
+|  |  +- org.jboss.logging:jboss-logging:jar:3.2.1.Final:compile
+|  |  \- com.fasterxml:classmate:jar:1.1.0:compile
+|  +- javax.el:javax.el-api:jar:3.0.0:compile
+|  +- org.springframework:spring-context:jar:4.2.7.RELEASE:compile
+|  +- org.springframework:spring-core:jar:4.2.7.RELEASE:compile
+|  +- org.springframework:spring-beans:jar:4.2.7.RELEASE:compile
+|  +- org.reflections:reflections:jar:0.9.10:compile
+|  |  +- (com.google.guava:guava:jar:15.0:compile - omitted for conflict with 19.0)
+|  |  \- org.javassist:javassist:jar:3.19.0-GA:compile
+|  +- net.jodah:typetools:jar:0.4.4:compile
+|  +- com.google.guava:guava:jar:19.0:compile
+|  +- com.google.code.findbugs:jsr305:jar:3.0.1:compile
+|  \- org.apache.tomcat:tomcat-servlet-api:jar:8.0.33:compile
++- com.typesafe.play:play-logback_2.11:jar:2.5.14:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.7:compile - omitted for conflict with 2.11.8)
+|  +- (com.typesafe.play:play_2.11:jar:2.5.14:compile - omitted for duplicate)
+|  \- ch.qos.logback:logback-classic:jar:1.2.3:compile
+|     +- ch.qos.logback:logback-core:jar:1.2.3:compile
+|     \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for conflict with 1.7.21)
++- org.assertj:assertj-core:jar:3.6.2:test
++- org.mockito:mockito-core:jar:2.8.47:test
+|  +- net.bytebuddy:byte-buddy:jar:1.6.14:test
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.6.14:test
+|  \- org.objenesis:objenesis:jar:2.5:test
++- com.commercetools.sunrise.email:email-smtp:jar:0.3.0:test
+|  +- (com.commercetools.sunrise.email:email-api:jar:0.3.0:test - omitted for duplicate)
+|  +- com.sun.mail:mailapi:jar:1.5.5:test
+|  +- com.sun.mail:smtp:jar:1.5.5:test
+|  \- com.sun.mail:dsn:jar:1.5.5:test
+|     \- com.sun.mail:javax.mail:jar:1.5.5:test
+|        \- javax.activation:activation:jar:1.1:test
++- com.typesafe.play:play-java-ws_2.11:jar:2.5.14:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.7:compile - omitted for conflict with 2.11.8)
+|  +- (com.typesafe.play:play_2.11:jar:2.5.14:compile - omitted for duplicate)
+|  +- com.typesafe.play:play-ws_2.11:jar:2.5.14:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.7:compile - omitted for conflict with 2.11.8)
+|  |  +- (com.typesafe.play:play_2.11:jar:2.5.14:compile - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:19.0:compile - omitted for duplicate)
+|  |  +- (org.asynchttpclient:async-http-client:jar:2.0.24:compile - omitted for duplicate)
+|  |  +- (oauth.signpost:signpost-core:jar:1.2.1.2:compile - omitted for duplicate)
+|  |  +- (oauth.signpost:signpost-commonshttp4:jar:1.2.1.2:compile - omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.2:compile - omitted for duplicate)
+|  |  \- (org.apache.httpcomponents:httpcore:jar:4.4.4:compile - omitted for duplicate)
+|  +- (com.typesafe.play:play-java_2.11:jar:2.5.14:compile - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:19.0:compile - omitted for duplicate)
+|  +- org.asynchttpclient:async-http-client:jar:2.0.24:compile
+|  |  +- org.asynchttpclient:async-http-client-netty-utils:jar:2.0.24:compile
+|  |  |  +- (io.netty:netty-buffer:jar:4.0.42.Final:compile - omitted for conflict with 4.0.41.Final)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|  |  +- (io.netty:netty-codec-http:jar:4.0.42.Final:compile - omitted for conflict with 4.0.41.Final)
+|  |  +- (io.netty:netty-transport-native-epoll:jar:linux-x86_64:4.0.42.Final:compile - omitted for conflict with 4.0.41.Final)
+|  |  +- org.asynchttpclient:netty-resolver-dns:jar:2.0.24:compile
+|  |  |  +- org.asynchttpclient:netty-resolver:jar:2.0.24:compile
+|  |  |  |  +- (io.netty:netty-common:jar:4.0.42.Final:compile - omitted for conflict with 4.0.41.Final)
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|  |  |  +- org.asynchttpclient:netty-codec-dns:jar:2.0.24:compile
+|  |  |  |  +- (io.netty:netty-codec:jar:4.0.42.Final:compile - omitted for conflict with 4.0.41.Final)
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|  |  |  +- (io.netty:netty-transport:jar:4.0.42.Final:compile - omitted for conflict with 4.0.41.Final)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|  |  +- org.reactivestreams:reactive-streams:jar:1.0.0:compile
+|  |  +- (com.typesafe.netty:netty-reactive-streams:jar:1.0.8:compile - omitted for duplicate)
+|  |  +- (org.javassist:javassist:jar:3.21.0-GA:compile - omitted for conflict with 3.19.0-GA)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|  +- oauth.signpost:signpost-core:jar:1.2.1.2:compile
+|  |  \- (commons-codec:commons-codec:jar:1.3:compile - omitted for conflict with 1.10)
+|  +- oauth.signpost:signpost-commonshttp4:jar:1.2.1.2:compile
+|  |  +- (oauth.signpost:signpost-core:jar:1.2.1.2:compile - omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpcore:jar:4.0.1:compile - omitted for conflict with 4.4.4)
+|  |  \- (org.apache.httpcomponents:httpclient:jar:4.0.1:compile - omitted for conflict with 4.5.2)
+|  +- org.apache.httpcomponents:httpclient:jar:4.5.2:compile
+|  |  +- (org.apache.httpcomponents:httpcore:jar:4.4.4:compile - omitted for duplicate)
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for conflict with 1.1.1)
+|  |  \- (commons-codec:commons-codec:jar:1.9:compile - omitted for conflict with 1.10)
+|  \- org.apache.httpcomponents:httpcore:jar:4.4.4:compile
++- com.commercetools.sdk.jvm.core:commercetools-models:jar:1.17.0:compile
+|  +- com.commercetools.sdk.jvm.core:commercetools-sdk-base:jar:1.17.0:compile
+|  |  +- com.commercetools.sdk.jvm.core:sdk-http:jar:1.17.0:compile
+|  |  |  +- (org.apache.commons:commons-lang3:jar:3.4:compile - omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|  |  |  \- (com.google.code.findbugs:jsr305:jar:3.0.1:compile - omitted for duplicate)
+|  |  +- org.javamoney:moneta:jar:1.0:compile
+|  |  |  +- javax.money:money-api:jar:1.0:compile
+|  |  |  \- javax.annotation:javax.annotation-api:jar:1.2:compile
+|  |  +- (org.apache.commons:commons-lang3:jar:3.4:compile - omitted for duplicate)
+|  |  +- com.neovisionaries:nv-i18n:jar:1.17:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.6.5:compile - omitted for conflict with 2.7.8)
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.6.5:compile - omitted for conflict with 2.7.8)
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.6.5:compile - omitted for conflict with 2.7.8)
+|  |  +- com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.6.5:compile
+|  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.6.5:compile - omitted for conflict with 2.7.8)
+|  |  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.6.5:compile - omitted for conflict with 2.7.8)
+|  |  +- (com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.6.5:compile - omitted for conflict with 2.7.8)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|  |  \- (com.google.code.findbugs:jsr305:jar:3.0.1:compile - omitted for duplicate)
+|  +- org.slf4j:slf4j-api:jar:1.7.21:compile
+|  \- (com.google.code.findbugs:jsr305:jar:3.0.1:compile - omitted for duplicate)
++- com.commercetools.sdk.jvm.core:commercetools-java-client:jar:1.17.0:compile
+|  +- com.commercetools.sdk.jvm.core:commercetools-java-client-ahc-2_0:jar:1.17.0:compile
+|  |  +- com.commercetools.sdk.jvm.core:sdk-http-ahc-2_0:jar:1.17.0:compile
+|  |  |  +- (com.commercetools.sdk.jvm.core:sdk-http:jar:1.17.0:compile - omitted for duplicate)
+|  |  |  +- (org.asynchttpclient:async-http-client:jar:2.0.28:compile - omitted for conflict with 2.0.24)
+|  |  |  +- (io.netty:netty-handler:jar:4.0.44.Final:compile - omitted for conflict with 4.0.41.Final)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|  |  |  \- (com.google.code.findbugs:jsr305:jar:3.0.1:compile - omitted for duplicate)
+|  |  +- (com.commercetools.sdk.jvm.core:commercetools-java-client-core:jar:1.17.0:compile - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|  |  \- (com.google.code.findbugs:jsr305:jar:3.0.1:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|  \- (com.google.code.findbugs:jsr305:jar:3.0.1:compile - omitted for duplicate)
++- com.commercetools.sdk.jvm.core:commercetools-convenience:jar:1.17.0:compile
+|  +- com.commercetools.sdk.jvm.core:commercetools-java-client-core:jar:1.17.0:compile
+|  |  +- (com.commercetools.sdk.jvm.core:commercetools-sdk-base:jar:1.17.0:compile - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|  |  \- (com.google.code.findbugs:jsr305:jar:3.0.1:compile - omitted for duplicate)
+|  +- (com.commercetools.sdk.jvm.core:commercetools-models:jar:1.17.0:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|  \- (com.google.code.findbugs:jsr305:jar:3.0.1:compile - omitted for duplicate)
++- org.webjars:webjars-play_2.11:jar:2.5.0-2:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for duplicate)
+|  +- org.webjars:requirejs:jar:2.1.20:compile
+|  \- org.webjars:webjars-locator:jar:0.31:compile
+|     +- org.webjars:webjars-locator-core:jar:0.30:compile
+|     |  +- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for conflict with 1.7.21)
+|     |  +- (org.apache.commons:commons-lang3:jar:3.1:compile - omitted for conflict with 3.4)
+|     |  \- org.apache.commons:commons-compress:jar:1.9:compile
+|     \- (com.fasterxml.jackson.core:jackson-databind:jar:2.3.3:compile - omitted for conflict with 2.7.8)
++- com.github.jknack:handlebars:jar:4.0.5:compile
+|  +- (org.apache.commons:commons-lang3:jar:3.1:compile - omitted for conflict with 3.4)
+|  +- org.antlr:antlr4-runtime:jar:4.5.1-1:compile
+|  +- org.mozilla:rhino:jar:1.7R4:compile
+|  \- (org.slf4j:slf4j-api:jar:1.6.4:compile - omitted for conflict with 1.7.21)
++- com.commercetools.sunrise.cms:cms-api:jar:0.1.0:compile
+|  +- (org.apache.commons:commons-lang3:jar:3.4:compile - omitted for duplicate)
+|  \- (com.google.code.findbugs:jsr305:jar:3.0.0:compile - omitted for conflict with 3.0.1)
++- com.commercetools.sunrise.email:email-api:jar:0.3.0:compile
+|  +- (com.google.code.findbugs:jsr305:jar:3.0.0:compile - omitted for conflict with 3.0.1)
+|  \- javax.mail:javax.mail-api:jar:1.5.5:compile
++- com.typesafe.play:filters-helpers_2.11:jar:2.5.14:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.7:compile - omitted for conflict with 2.11.8)
+|  \- (com.typesafe.play:play_2.11:jar:2.5.14:compile - omitted for duplicate)
++- com.typesafe.play:play-cache_2.11:jar:2.5.14:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.7:compile - omitted for conflict with 2.11.8)
+|  +- (com.typesafe.play:play_2.11:jar:2.5.14:compile - omitted for duplicate)
+|  \- net.sf.ehcache:ehcache-core:jar:2.6.11:compile
+|     \- (org.slf4j:slf4j-api:jar:1.6.1:compile - omitted for conflict with 1.7.21)
++- commons-beanutils:commons-beanutils:jar:1.9.2:compile
+|  +- commons-logging:commons-logging:jar:1.1.1:compile
+|  \- commons-collections:commons-collections:jar:3.2.1:compile
+\- commons-io:commons-io:jar:2.4:compile

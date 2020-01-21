@@ -1,0 +1,9 @@
+com.couchbase.lite:couchbase-lite-java-core:jar:1.4.3
++- com.fasterxml.jackson.core:jackson-core:jar:2.5.0:compile
++- com.github.oxo42:stateless4j:jar:2.4.0:compile
++- com.squareup.okhttp3:okhttp:jar:3.3.1:compile
+|  \- com.squareup.okio:okio:jar:1.8.0:compile
++- com.fasterxml.jackson.core:jackson-annotations:jar:2.5.0:compile
+\- com.fasterxml.jackson.core:jackson-databind:jar:2.5.0:compile
+   +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.5.0:compile - omitted for duplicate)
+   \- (com.fasterxml.jackson.core:jackson-core:jar:2.5.0:compile - omitted for duplicate)

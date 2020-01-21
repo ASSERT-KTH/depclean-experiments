@@ -1,0 +1,11 @@
+org.webjars.npm:event-stream:jar:3.0.20
++- org.webjars.npm:map-stream:jar:0.0.7:compile
++- org.webjars.npm:stream-combiner:jar:0.0.4:compile
+|  \- (org.webjars.npm:duplexer:jar:0.1.1:compile - omitted for duplicate)
++- org.webjars.npm:duplexer:jar:0.1.1:compile
++- org.webjars.npm:pause-stream:jar:0.0.11:compile
+|  \- (org.webjars.npm:through:jar:2.3.8:compile - omitted for duplicate)
++- org.webjars.npm:split:jar:0.2.10:compile
+|  \- (org.webjars.npm:through:jar:2.3.8:compile - omitted for duplicate)
++- org.webjars.npm:from:jar:0.1.7:compile
+\- org.webjars.npm:through:jar:2.3.8:compile

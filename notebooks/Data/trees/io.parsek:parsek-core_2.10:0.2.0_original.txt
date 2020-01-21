@@ -1,0 +1,10 @@
+io.parsek:parsek-core_2.10:jar:0.2.0
++- org.scala-lang:scala-library:jar:2.10.6:compile
++- org.scala-lang:scala-reflect:jar:2.10.6:compile
+|  \- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for duplicate)
+\- org.scalatest:scalatest_2.10:jar:3.0.4:test
+   +- (org.scala-lang:scala-library:jar:2.10.6:test - omitted for duplicate)
+   +- org.scalactic:scalactic_2.10:jar:3.0.4:test
+   |  +- (org.scala-lang:scala-library:jar:2.10.6:test - omitted for duplicate)
+   |  \- (org.scala-lang:scala-reflect:jar:2.10.6:test - omitted for duplicate)
+   \- (org.scala-lang:scala-reflect:jar:2.10.6:test - omitted for duplicate)

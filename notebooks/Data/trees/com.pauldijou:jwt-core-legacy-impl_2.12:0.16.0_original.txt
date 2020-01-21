@@ -1,0 +1,13 @@
+com.pauldijou:jwt-core-legacy-impl_2.12:jar:0.16.0
++- org.scala-lang:scala-library:jar:2.12.4:compile
++- org.scalatest:scalatest_2.12:jar:3.0.5:test
+|  +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for duplicate)
+|  +- org.scalactic:scalactic_2.12:jar:3.0.5:test
+|  |  +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for duplicate)
+|  |  \- (org.scala-lang:scala-reflect:jar:2.12.4:test - omitted for duplicate)
+|  +- org.scala-lang:scala-reflect:jar:2.12.4:test
+|  |  \- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for duplicate)
+|  \- org.scala-lang.modules:scala-xml_2.12:jar:1.0.6:test
+|     \- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.4)
++- org.jmockit:jmockit:jar:1.24:test
+\- commons-codec:commons-codec:jar:1.10:compile

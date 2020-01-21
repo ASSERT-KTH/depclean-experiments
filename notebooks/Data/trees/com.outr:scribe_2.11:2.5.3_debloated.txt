@@ -1,0 +1,13 @@
+com.outr:scribe_2.11:jar:2.5.3
++- org.scala-lang:scala-library:jar:2.11.12:compile
++- com.outr:scribe-macros_2.11:jar:2.5.3:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  \- (org.scala-lang:scala-reflect:jar:2.11.12:compile - omitted for duplicate)
++- com.outr:perfolation_2.11:jar:1.0.4:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  +- com.outr:perfolation-macros_2.11:jar:1.0.4:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  |  \- (org.scala-lang:scala-reflect:jar:2.11.12:compile - omitted for duplicate)
+|  \- (org.scala-lang:scala-reflect:jar:2.11.12:compile - omitted for duplicate)
+\- org.scala-lang:scala-reflect:jar:2.11.12:compile
+   \- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)

@@ -1,0 +1,36 @@
+org.wvlet.airframe:airframe-tablet_2.13.0-M2:jar:0.33
++- org.scala-lang:scala-library:jar:2.13.0-M2:compile
++- org.wvlet.airframe:airframe-codec_2.13.0-M2:jar:0.33:compile
+|  +- (org.scala-lang:scala-library:jar:2.13.0-M2:compile - omitted for duplicate)
+|  +- (org.wvlet.airframe:airframe-log_2.13.0-M2:jar:0.33:compile - omitted for duplicate)
+|  +- (org.wvlet.airframe:airframe-surface_2.13.0-M2:jar:0.33:compile - omitted for duplicate)
+|  \- org.msgpack:msgpack-core:jar:0.8.14:compile
++- org.wvlet.airframe:airframe-log_2.13.0-M2:jar:0.33:compile
+|  +- (org.scala-lang:scala-library:jar:2.13.0-M2:compile - omitted for duplicate)
+|  +- org.scala-lang.modules:scala-parallel-collections_2.13.0-M2:jar:0.1.2:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.13.0-M2:compile - omitted for duplicate)
+|  \- ch.qos.logback:logback-core:jar:1.2.3:compile
++- org.wvlet.airframe:airframe-surface_2.13.0-M2:jar:0.33:compile
+|  +- (org.scala-lang:scala-library:jar:2.13.0-M2:compile - omitted for duplicate)
+|  +- (org.wvlet.airframe:airframe-log_2.13.0-M2:jar:0.33:compile - omitted for duplicate)
+|  \- org.scala-lang:scala-reflect:jar:2.13.0-M2:compile
+|     \- (org.scala-lang:scala-library:jar:2.13.0-M2:compile - omitted for duplicate)
++- org.wvlet.airframe:airframe-spec_2.13.0-M2:jar:0.33:test
+|  +- (org.scala-lang:scala-library:jar:2.13.0-M2:test - omitted for duplicate)
+|  +- (org.wvlet.airframe:airframe-log_2.13.0-M2:jar:0.33:test - omitted for duplicate)
+|  +- org.scalatest:scalatest_2.13.0-M2:jar:3.0.4:test
+|  |  +- (org.scala-lang:scala-library:jar:2.13.0-M2:test - omitted for duplicate)
+|  |  +- org.scalactic:scalactic_2.13.0-M2:jar:3.0.4:test
+|  |  |  +- (org.scala-lang:scala-library:jar:2.13.0-M2:test - omitted for duplicate)
+|  |  |  \- (org.scala-lang:scala-reflect:jar:2.13.0-M2:test - omitted for duplicate)
+|  |  +- (org.scala-lang:scala-reflect:jar:2.13.0-M2:test - omitted for duplicate)
+|  |  +- org.scala-lang.modules:scala-xml_2.13.0-M2:jar:1.0.6:test
+|  |  |  \- (org.scala-lang:scala-library:jar:2.13.0-M2:test - omitted for duplicate)
+|  |  \- (org.scala-lang.modules:scala-parser-combinators_2.13.0-M2:jar:1.0.6:test - omitted for duplicate)
+|  \- (org.scala-lang.modules:scala-parallel-collections_2.13.0-M2:jar:0.1.2:test - omitted for duplicate)
++- org.scala-lang.modules:scala-parser-combinators_2.13.0-M2:jar:1.0.6:compile
+|  \- (org.scala-lang:scala-library:jar:2.13.0-M2:compile - omitted for duplicate)
++- org.scalacheck:scalacheck_2.13.0-M2:jar:1.13.5:test
+|  +- (org.scala-lang:scala-library:jar:2.13.0-M2:test - omitted for duplicate)
+|  \- org.scala-sbt:test-interface:jar:1.0:test
+\- org.xerial:sqlite-jdbc:jar:3.20.1:test

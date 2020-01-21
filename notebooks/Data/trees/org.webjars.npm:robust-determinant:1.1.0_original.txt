@@ -1,0 +1,7 @@
+org.webjars.npm:robust-determinant:jar:1.1.0
++- org.webjars.npm:robust-sum:jar:1.0.0:compile
++- org.webjars.npm:two-product:jar:1.0.2:compile
++- org.webjars.npm:robust-scale:jar:1.0.2:compile
+|  +- (org.webjars.npm:two-product:jar:1.0.2:compile - omitted for duplicate)
+|  \- org.webjars.npm:two-sum:jar:1.0.0:compile
+\- org.webjars.npm:robust-compress:jar:1.0.0:compile

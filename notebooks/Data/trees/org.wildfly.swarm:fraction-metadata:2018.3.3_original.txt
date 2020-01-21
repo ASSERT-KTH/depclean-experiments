@@ -1,0 +1,119 @@
+org.wildfly.swarm:fraction-metadata:jar:2018.3.3
++- org.wildfly.swarm:meta-spi:jar:2018.3.3:compile
+|  \- org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-impl-javaee:jar:2.0.0:compile
+|     +- org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-api-javaee:jar:2.0.0:compile
+|     |  \- org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-api-base:jar:2.0.0:compile
+|     \- org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-impl-base:jar:2.0.0:compile
+|        \- org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-spi:jar:2.0.0:compile
+|           \- (org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-api-base:jar:2.0.0:compile - omitted for duplicate)
++- org.ow2.asm:asm:jar:6.0:compile
++- com.eclipsesource.minimal-json:minimal-json:jar:0.9.4:compile
++- org.wildfly.swarm:jaxrs:jar:2018.3.3:test
+|  +- org.wildfly.swarm:container:jar:2018.3.3:test
+|  |  +- org.wildfly.swarm:spi:jar:2018.3.3:test
+|  |  |  +- org.jboss.shrinkwrap:shrinkwrap-api:jar:1.2.6:test
+|  |  |  +- org.jboss.shrinkwrap:shrinkwrap-impl-base:jar:1.2.6:test
+|  |  |  |  +- (org.jboss.shrinkwrap:shrinkwrap-api:jar:1.2.6:test - omitted for duplicate)
+|  |  |  |  \- org.jboss.shrinkwrap:shrinkwrap-spi:jar:1.2.6:test
+|  |  |  |     \- (org.jboss.shrinkwrap:shrinkwrap-api:jar:1.2.6:test - omitted for duplicate)
+|  |  |  +- (org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-api-jboss:jar:2.0.0:test - omitted for duplicate)
+|  |  |  +- (org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-impl-jboss:jar:2.0.0:test - omitted for duplicate)
+|  |  |  \- org.jboss:jandex:jar:2.0.3.Final:test
+|  |  +- org.wildfly.swarm:bootstrap:jar:2018.3.3:test
+|  |  |  +- org.jboss.modules:jboss-modules:jar:1.6.1.Final:test
+|  |  |  \- org.yaml:snakeyaml:jar:1.17:test
+|  |  +- org.wildfly.swarm:config-api:jar:1.3.0:test
+|  |  |  \- org.wildfly.swarm:config-api-runtime:jar:1.3.0:test
+|  |  +- (org.ow2.asm:asm:jar:6.0:test - omitted for duplicate)
+|  |  \- org.jboss.logging:jboss-logging:jar:3.3.1.Final:test
+|  +- org.wildfly.swarm:logging:jar:2018.3.3:test
+|  |  +- (org.wildfly.swarm:container:jar:2018.3.3:test - omitted for duplicate)
+|  |  \- (org.jboss.logging:jboss-logging:jar:3.3.1.Final:test - omitted for duplicate)
+|  +- org.wildfly.swarm:undertow:jar:2018.3.3:test
+|  |  +- (org.wildfly.swarm:container:jar:2018.3.3:test - omitted for duplicate)
+|  |  +- org.wildfly.swarm:io:jar:2018.3.3:test
+|  |  |  +- (org.wildfly.swarm:container:jar:2018.3.3:test - omitted for duplicate)
+|  |  |  \- (org.wildfly.swarm:logging:jar:2018.3.3:test - omitted for duplicate)
+|  |  +- (org.wildfly.swarm:logging:jar:2018.3.3:test - omitted for duplicate)
+|  |  +- org.wildfly.swarm:ee:jar:2018.3.3:test
+|  |  |  +- (org.wildfly.swarm:container:jar:2018.3.3:test - omitted for duplicate)
+|  |  |  +- (org.wildfly.swarm:logging:jar:2018.3.3:test - omitted for duplicate)
+|  |  |  +- org.wildfly.swarm:naming:jar:2018.3.3:test
+|  |  |  |  +- (org.wildfly.swarm:spi:jar:2018.3.3:test - omitted for duplicate)
+|  |  |  |  +- (org.wildfly.swarm:container:jar:2018.3.3:test - omitted for duplicate)
+|  |  |  |  \- (org.wildfly.swarm:logging:jar:2018.3.3:test - omitted for duplicate)
+|  |  |  +- org.jboss.spec.javax.enterprise.concurrent:jboss-concurrency-api_1.0_spec:jar:1.0.0.Final:test
+|  |  |  +- org.jboss.spec.javax.interceptor:jboss-interceptors-api_1.2_spec:jar:1.0.0.Final:test
+|  |  |  +- org.jboss.spec.javax.el:jboss-el-api_3.0_spec:jar:1.0.9.Final:test
+|  |  |  \- org.glassfish:javax.el-impl:jar:3.0.1-b08-jbossorg-1:test
+|  |  +- org.wildfly.swarm:request-controller:jar:2018.3.3:test
+|  |  |  +- (org.wildfly.swarm:container:jar:2018.3.3:test - omitted for duplicate)
+|  |  |  \- (org.wildfly.swarm:logging:jar:2018.3.3:test - omitted for duplicate)
+|  |  +- org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-api-jboss:jar:2.0.0:test
+|  |  |  \- (org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-api-javaee:jar:2.0.0:test - omitted for duplicate)
+|  |  +- org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-impl-jboss:jar:2.0.0:test
+|  |  |  +- (org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-api-jboss:jar:2.0.0:test - omitted for duplicate)
+|  |  |  \- (org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-impl-javaee:jar:2.0.0:test - omitted for duplicate)
+|  |  +- (org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-api-javaee:jar:2.0.0:test - omitted for duplicate)
+|  |  +- (org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-impl-javaee:jar:2.0.0:test - omitted for duplicate)
+|  |  +- (org.ow2.asm:asm:jar:6.0:test - omitted for duplicate)
+|  |  +- org.ow2.asm:asm-commons:jar:6.0:test
+|  |  |  \- org.ow2.asm:asm-tree:jar:6.0:test
+|  |  |     \- (org.ow2.asm:asm:jar:6.0:test - omitted for duplicate)
+|  |  +- org.jboss.spec.javax.servlet:jboss-servlet-api_3.1_spec:jar:1.0.0.Final:test
+|  |  +- org.jboss.spec.javax.websocket:jboss-websocket-api_1.1_spec:jar:1.1.1.Final:test
+|  |  +- io.undertow:undertow-servlet:jar:1.4.18.Final:test
+|  |  |  +- io.undertow:undertow-core:jar:1.4.18.Final:test
+|  |  |  |  +- (org.jboss.logging:jboss-logging:jar:3.3.1.Final:test - version managed from 3.2.1.Final; omitted for duplicate)
+|  |  |  |  +- org.jboss.xnio:xnio-api:jar:3.5.4.Final:test (version managed from 3.3.8.Final)
+|  |  |  |  |  +- org.wildfly.common:wildfly-common:jar:1.2.0.Final:test
+|  |  |  |  |  \- org.wildfly.client:wildfly-client-config:jar:1.0.0.Final:test
+|  |  |  |  |     +- (org.jboss.logging:jboss-logging:jar:3.3.1.Final:test - version managed from 3.2.1.Final; omitted for duplicate)
+|  |  |  |  |     \- (org.wildfly.common:wildfly-common:jar:1.2.0.Final:test - omitted for duplicate)
+|  |  |  |  \- org.jboss.xnio:xnio-nio:jar:3.5.4.Final:test (version managed from 3.3.8.Final)
+|  |  |  |     \- (org.jboss.xnio:xnio-api:jar:3.5.4.Final:test - version managed from 3.3.8.Final; omitted for duplicate)
+|  |  |  +- (org.jboss.spec.javax.servlet:jboss-servlet-api_3.1_spec:jar:1.0.0.Final:test - omitted for duplicate)
+|  |  |  \- (org.jboss.spec.javax.annotation:jboss-annotations-api_1.2_spec:jar:1.0.0.Final:test - omitted for duplicate)
+|  |  \- (org.wildfly.swarm:meta-spi:jar:2018.3.3:test - omitted for duplicate)
+|  +- org.wildfly.swarm:security:jar:2018.3.3:test
+|  |  +- (org.wildfly.swarm:container:jar:2018.3.3:test - omitted for duplicate)
+|  |  +- (org.wildfly.swarm:logging:jar:2018.3.3:test - omitted for duplicate)
+|  |  +- org.wildfly.swarm:elytron:jar:2018.3.3:test
+|  |  |  +- (org.wildfly.swarm:container:jar:2018.3.3:test - omitted for duplicate)
+|  |  |  +- (org.wildfly.swarm:logging:jar:2018.3.3:test - omitted for duplicate)
+|  |  |  +- (org.wildfly.swarm:ee:jar:2018.3.3:test - omitted for duplicate)
+|  |  |  +- (org.wildfly.swarm:meta-spi:jar:2018.3.3:test - omitted for duplicate)
+|  |  |  \- (org.jboss.spec.javax.annotation:jboss-annotations-api_1.2_spec:jar:1.0.0.Final:test - omitted for duplicate)
+|  |  +- (org.wildfly.swarm:ee:jar:2018.3.3:test - omitted for duplicate)
+|  |  +- (org.wildfly.swarm:meta-spi:jar:2018.3.3:test - omitted for duplicate)
+|  |  \- org.jboss.spec.javax.annotation:jboss-annotations-api_1.2_spec:jar:1.0.0.Final:test
+|  +- org.wildfly.swarm:jaxrs-cdi:jar:2018.3.3:test
+|  |  +- (org.wildfly.swarm:container:jar:2018.3.3:test - omitted for duplicate)
+|  |  \- (org.wildfly.swarm:logging:jar:2018.3.3:test - omitted for duplicate)
+|  +- (org.ow2.asm:asm:jar:6.0:test - omitted for duplicate)
+|  +- org.jboss.spec.javax.ws.rs:jboss-jaxrs-api_2.0_spec:jar:1.0.0.Final:test
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.8.9:test
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.9:test
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.8.9:test
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.9:test - version managed from 2.8.0; omitted for duplicate)
+|  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.8.9:test - omitted for duplicate)
+|  +- com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:jar:2.8.9:test
+|  |  +- com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:jar:2.8.9:test
+|  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.9:test - omitted for duplicate)
+|  |  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.9:test - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.9:test - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.9:test - omitted for duplicate)
+|  |  \- com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.8.9:test
+|  |     +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.9:test - omitted for duplicate)
+|  |     +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.9:test - version managed from 2.8.0; omitted for duplicate)
+|  |     \- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.9:test - omitted for duplicate)
+|  \- (org.wildfly.swarm:meta-spi:jar:2018.3.3:test - omitted for duplicate)
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.easytesting:fest-assert:jar:1.4:test
+|  \- org.easytesting:fest-util:jar:1.1.6:test
++- org.mockito:mockito-core:jar:2.2.28:test
+|  +- net.bytebuddy:byte-buddy:jar:1.5.5:test
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.5.5:test
+|  \- org.objenesis:objenesis:jar:2.4:test
+\- org.wildfly.swarm:build-resources:jar:2018.3.3:test

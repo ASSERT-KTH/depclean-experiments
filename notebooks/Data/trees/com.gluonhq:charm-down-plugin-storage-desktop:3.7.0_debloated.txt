@@ -1,0 +1,3 @@
+com.gluonhq:charm-down-plugin-storage-desktop:jar:3.7.0
+\- com.gluonhq:charm-down-plugin-storage:jar:3.7.0:compile
+   \- com.gluonhq:charm-down-core:jar:3.7.0:compile

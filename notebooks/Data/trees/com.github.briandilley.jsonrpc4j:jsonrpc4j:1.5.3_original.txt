@@ -1,0 +1,36 @@
+com.github.briandilley.jsonrpc4j:jsonrpc4j:jar:1.5.3
++- net.iharder:base64:jar:2.3.9:runtime
++- org.slf4j:slf4j-api:jar:1.7.22:runtime
++- com.fasterxml.jackson.core:jackson-core:jar:2.8.5:runtime
++- com.fasterxml.jackson.core:jackson-databind:jar:2.8.5:runtime
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:runtime - omitted for conflict with 2.8.5)
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.8.5:runtime - omitted for duplicate)
++- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.5:runtime
++- org.springframework:spring-core:jar:4.3.5.RELEASE:runtime
+|  \- commons-logging:commons-logging:jar:1.2:runtime
++- org.springframework:spring-context:jar:4.3.5.RELEASE:runtime
+|  +- org.springframework:spring-aop:jar:4.3.5.RELEASE:runtime
+|  |  +- (org.springframework:spring-beans:jar:4.3.5.RELEASE:runtime - omitted for duplicate)
+|  |  \- (org.springframework:spring-core:jar:4.3.5.RELEASE:runtime - omitted for duplicate)
+|  +- org.springframework:spring-beans:jar:4.3.5.RELEASE:runtime
+|  |  \- (org.springframework:spring-core:jar:4.3.5.RELEASE:runtime - omitted for duplicate)
+|  +- (org.springframework:spring-core:jar:4.3.5.RELEASE:runtime - omitted for duplicate)
+|  \- org.springframework:spring-expression:jar:4.3.5.RELEASE:runtime
+|     \- (org.springframework:spring-core:jar:4.3.5.RELEASE:runtime - omitted for duplicate)
++- org.springframework:spring-web:jar:4.3.5.RELEASE:runtime
+|  +- (org.springframework:spring-aop:jar:4.3.5.RELEASE:runtime - omitted for duplicate)
+|  +- (org.springframework:spring-beans:jar:4.3.5.RELEASE:runtime - omitted for duplicate)
+|  +- (org.springframework:spring-context:jar:4.3.5.RELEASE:runtime - omitted for duplicate)
+|  \- (org.springframework:spring-core:jar:4.3.5.RELEASE:runtime - omitted for duplicate)
++- org.springframework:spring-webmvc:jar:4.3.5.RELEASE:runtime
+|  +- (org.springframework:spring-aop:jar:4.3.5.RELEASE:runtime - omitted for duplicate)
+|  +- (org.springframework:spring-beans:jar:4.3.5.RELEASE:runtime - omitted for duplicate)
+|  +- (org.springframework:spring-context:jar:4.3.5.RELEASE:runtime - omitted for duplicate)
+|  +- (org.springframework:spring-core:jar:4.3.5.RELEASE:runtime - omitted for duplicate)
+|  +- (org.springframework:spring-expression:jar:4.3.5.RELEASE:runtime - omitted for duplicate)
+|  \- (org.springframework:spring-web:jar:4.3.5.RELEASE:runtime - omitted for duplicate)
++- commons-codec:commons-codec:jar:1.10:runtime
++- org.apache.httpcomponents:httpcore-nio:jar:4.4.5:runtime
+|  \- org.apache.httpcomponents:httpcore:jar:4.4.5:runtime
++- javax.portlet:portlet-api:jar:2.0:provided
+\- javax.servlet:javax.servlet-api:jar:3.1.0:provided

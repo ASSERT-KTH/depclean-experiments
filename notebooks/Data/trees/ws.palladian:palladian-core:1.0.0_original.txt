@@ -1,0 +1,60 @@
+ws.palladian:palladian-core:jar:1.0.0
++- ws.palladian:palladian-commons:jar:1.0.0:compile
+|  +- commons-configuration:commons-configuration:jar:1.10:compile
+|  |  +- commons-lang:commons-lang:jar:2.6:compile
+|  |  \- commons-logging:commons-logging:jar:1.1.1:compile
+|  +- javax.mail:mail:jar:1.4.7:compile
+|  |  \- javax.activation:activation:jar:1.1:compile
+|  +- org.apache.commons:commons-lang3:jar:3.3.2:compile
+|  +- it.unimi.dsi:fastutil:jar:7.0.7:compile
+|  +- commons-codec:commons-codec:jar:1.9:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for duplicate)
++- ws.palladian:palladian-retrieval:jar:1.0.0:compile
+|  +- (ws.palladian:palladian-commons:jar:1.0.0:compile - omitted for duplicate)
+|  +- ws.palladian:palladian-persistence:jar:1.0.0:compile
+|  |  +- com.jolbox:bonecp:jar:0.8.0.RELEASE:compile
+|  |  |  +- (com.google.guava:guava:jar:15.0:compile - omitted for conflict with 13.0)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.2:compile - omitted for conflict with 1.7.7)
+|  |  +- (commons-configuration:commons-configuration:jar:1.10:compile - omitted for duplicate)
+|  |  +- (org.apache.commons:commons-lang3:jar:3.3.2:compile - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for duplicate)
+|  +- org.apache.httpcomponents:httpclient:jar:4.5.5:compile
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.4.9:compile
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for conflict with 1.1.1)
+|  |  \- (commons-codec:commons-codec:jar:1.10:compile - omitted for conflict with 1.9)
+|  +- com.rometools:rome:jar:1.5.0:compile
+|  |  +- com.rometools:rome-utils:jar:1.5.0:compile
+|  |  +- org.jdom:jdom:jar:2.0.2:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for duplicate)
+|  +- nu.validator:htmlparser:jar:1.4.10:compile
+|  +- org.slf4j:jcl-over-slf4j:jar:1.7.7:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for duplicate)
+|  +- com.jayway.jsonpath:json-path:jar:2.3.0:compile
+|  |  +- net.minidev:json-smart:jar:2.3:compile
+|  |  |  \- net.minidev:accessors-smart:jar:1.2:compile
+|  |  |     \- org.ow2.asm:asm:jar:5.0.4:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for conflict with 1.7.7)
+|  \- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for duplicate)
++- com.github.rholder:snowball-stemmer:jar:1.3.0.581.1:compile
++- com.sun.media:jai-codec:jar:1.1.3:compile
+|  \- javax.media:jai-core:jar:1.1.3:compile
++- com.h2database:h2:jar:1.4.180:compile
++- quickdt:quickdt:jar:0.0.8.10:compile
+|  +- com.uprizer.sensearray:freetools:jar:1.10:compile
+|  |  \- (com.google.guava:guava:jar:13.0:compile - omitted for conflict with 15.0)
+|  +- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for conflict with 1.7.7)
+|  +- com.google.guava:guava:jar:15.0:compile
+|  \- org.javatuples:javatuples:jar:1.2:compile
++- mysql:mysql-connector-java:jar:5.1.31:test
++- org.apache.commons:commons-compress:jar:1.5:compile
+|  \- org.tukaani:xz:jar:1.2:compile
++- org.jfree:jfreechart:jar:1.0.19:compile
+|  \- org.jfree:jcommon:jar:1.0.23:compile
++- org.slf4j:slf4j-api:jar:1.7.7:compile
++- junit:junit:jar:4.11:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.hamcrest:hamcrest-all:jar:1.3:test
++- ch.qos.logback:logback-classic:jar:1.1.2:test
+|  +- (ch.qos.logback:logback-core:jar:1.1.2:test - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.6:test - omitted for conflict with 1.7.7)
+\- ch.qos.logback:logback-core:jar:1.1.2:test

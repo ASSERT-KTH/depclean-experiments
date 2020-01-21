@@ -1,0 +1,26 @@
+io.sigs:seals-core_2.11:jar:0.2.0-M1
++- org.typelevel:scala-library:jar:2.11.11-bin-typelevel-4:compile
++- io.sigs:seals-macros_2.11:jar:0.2.0-M1:compile
+|  +- (org.typelevel:scala-library:jar:2.11.11-bin-typelevel-4:compile - omitted for duplicate)
+|  +- (org.typelevel:cats-core_2.11:jar:1.0.1:compile - omitted for duplicate)
+|  +- (com.chuusai:shapeless_2.11:jar:2.3.3:compile - omitted for duplicate)
+|  \- (org.typelevel:scala-reflect:jar:2.11.11-bin-typelevel-4:compile - omitted for duplicate)
++- org.typelevel:cats-core_2.11:jar:1.0.1:compile
+|  +- org.scala-lang:scala-library:jar:2.11.12:compile
+|  +- org.typelevel:cats-macros_2.11:jar:1.0.1:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  |  \- (org.typelevel:machinist_2.11:jar:0.6.2:compile - omitted for duplicate)
+|  +- org.typelevel:cats-kernel_2.11:jar:1.0.1:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  \- org.typelevel:machinist_2.11:jar:0.6.2:compile
+|     +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.12)
+|     \- org.scala-lang:scala-reflect:jar:2.11.8:compile
+|        \- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.12)
++- com.chuusai:shapeless_2.11:jar:2.3.3:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  \- org.typelevel:macro-compat_2.11:jar:1.1.1:compile
+|     \- (org.scala-lang:scala-library:jar:2.11.7:compile - omitted for conflict with 2.11.12)
++- org.scodec:scodec-bits_2.11:jar:1.1.4:compile
+|  \- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.12)
+\- org.typelevel:scala-reflect:jar:2.11.11-bin-typelevel-4:compile
+   \- (org.typelevel:scala-library:jar:2.11.11-bin-typelevel-4:compile - omitted for duplicate)

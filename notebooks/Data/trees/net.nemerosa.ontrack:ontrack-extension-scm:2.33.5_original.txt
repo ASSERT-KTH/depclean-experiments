@@ -1,0 +1,159 @@
+net.nemerosa.ontrack:ontrack-extension-scm:jar:2.33.5
++- org.jetbrains.kotlin:kotlin-stdlib-jre8:jar:1.1.4-3:runtime
+|  +- org.jetbrains.kotlin:kotlin-stdlib:jar:1.1.4-3:runtime
+|  |  \- org.jetbrains:annotations:jar:13.0:runtime
+|  \- org.jetbrains.kotlin:kotlin-stdlib-jre7:jar:1.1.4-3:runtime
+|     \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.1.4-3:runtime - omitted for duplicate)
++- org.jetbrains.kotlin:kotlin-reflect:jar:1.1.4-3:runtime
+|  \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.1.4-3:runtime - omitted for duplicate)
++- net.nemerosa.ontrack:ontrack-extension-support:jar:2.33.5:runtime
+|  +- net.nemerosa.ontrack:ontrack-git:jar:2.33.5:runtime
+|  |  +- (org.jetbrains.kotlin:kotlin-stdlib-jre8:jar:1.1.4-3:runtime - omitted for duplicate)
+|  |  +- (org.jetbrains.kotlin:kotlin-reflect:jar:1.1.4-3:runtime - omitted for duplicate)
+|  |  +- org.eclipse.jgit:org.eclipse.jgit:jar:4.4.1.201607150455-r:runtime
+|  |  |  +- com.jcraft:jsch:jar:0.1.53:runtime
+|  |  |  +- com.googlecode.javaewah:JavaEWAH:jar:0.7.9:runtime
+|  |  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.3:runtime - version managed from 4.3.6; omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:runtime - version managed from 1.7.2; omitted for duplicate)
+|  |  +- org.springframework:spring-tx:jar:4.3.12.RELEASE:runtime
+|  |  |  +- org.springframework:spring-beans:jar:4.3.12.RELEASE:runtime
+|  |  |  |  \- (org.springframework:spring-core:jar:4.3.12.RELEASE:runtime - omitted for duplicate)
+|  |  |  \- org.springframework:spring-core:jar:4.3.12.RELEASE:runtime
+|  |  |     \- commons-logging:commons-logging:jar:1.2:runtime
+|  |  +- commons-io:commons-io:jar:2.5:runtime
+|  |  +- com.google.guava:guava:jar:23.0:runtime
+|  |  |  +- com.google.code.findbugs:jsr305:jar:1.3.9:runtime
+|  |  |  +- com.google.errorprone:error_prone_annotations:jar:2.0.18:runtime
+|  |  |  +- com.google.j2objc:j2objc-annotations:jar:1.1:runtime
+|  |  |  \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:runtime
+|  |  +- net.nemerosa.ontrack:ontrack-common:jar:2.33.5:runtime
+|  |  |  +- (org.jetbrains.kotlin:kotlin-stdlib-jre8:jar:1.1.4-3:runtime - omitted for duplicate)
+|  |  |  +- (org.jetbrains.kotlin:kotlin-reflect:jar:1.1.4-3:runtime - omitted for duplicate)
+|  |  |  +- org.apache.commons:commons-lang3:jar:3.6:runtime
+|  |  |  +- (commons-io:commons-io:jar:2.5:runtime - omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:runtime - version managed from 1.7.2; omitted for duplicate)
+|  |  +- (org.codehaus.groovy:groovy-all:jar:2.4.12:runtime - omitted for duplicate)
+|  |  \- org.slf4j:slf4j-api:jar:1.7.25:runtime
+|  +- net.nemerosa.ontrack:ontrack-tx:jar:2.33.5:runtime
+|  |  +- (org.jetbrains.kotlin:kotlin-stdlib-jre8:jar:1.1.4-3:runtime - omitted for duplicate)
+|  |  +- (org.jetbrains.kotlin:kotlin-reflect:jar:1.1.4-3:runtime - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:23.0:runtime - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:runtime - version managed from 1.7.2; omitted for duplicate)
+|  |  \- org.springframework:spring-context:jar:4.3.12.RELEASE:runtime
+|  |     +- org.springframework:spring-aop:jar:4.3.12.RELEASE:runtime
+|  |     |  +- (org.springframework:spring-beans:jar:4.3.12.RELEASE:runtime - omitted for duplicate)
+|  |     |  \- (org.springframework:spring-core:jar:4.3.12.RELEASE:runtime - omitted for duplicate)
+|  |     +- (org.springframework:spring-beans:jar:4.3.12.RELEASE:runtime - omitted for duplicate)
+|  |     +- (org.springframework:spring-core:jar:4.3.12.RELEASE:runtime - omitted for duplicate)
+|  |     \- org.springframework:spring-expression:jar:4.3.12.RELEASE:runtime
+|  |        \- (org.springframework:spring-core:jar:4.3.12.RELEASE:runtime - omitted for duplicate)
+|  +- (org.jetbrains.kotlin:kotlin-stdlib-jre8:jar:1.1.4-3:runtime - omitted for duplicate)
+|  +- (org.jetbrains.kotlin:kotlin-reflect:jar:1.1.4-3:runtime - omitted for duplicate)
+|  +- net.nemerosa.ontrack:ontrack-extension-api:jar:2.33.5:runtime
+|  |  +- (org.jetbrains.kotlin:kotlin-stdlib-jre8:jar:1.1.4-3:runtime - omitted for duplicate)
+|  |  +- (org.jetbrains.kotlin:kotlin-reflect:jar:1.1.4-3:runtime - omitted for duplicate)
+|  |  +- net.nemerosa.ontrack:ontrack-model:jar:2.33.5:runtime
+|  |  |  +- (org.jetbrains.kotlin:kotlin-stdlib-jre8:jar:1.1.4-3:runtime - omitted for duplicate)
+|  |  |  +- (org.jetbrains.kotlin:kotlin-reflect:jar:1.1.4-3:runtime - omitted for duplicate)
+|  |  |  +- (net.nemerosa.ontrack:ontrack-common:jar:2.33.5:runtime - omitted for duplicate)
+|  |  |  +- (net.nemerosa.ontrack:ontrack-json:jar:2.33.5:runtime - omitted for duplicate)
+|  |  |  +- net.nemerosa.ontrack:ontrack-job:jar:2.33.5:runtime
+|  |  |  |  +- (org.jetbrains.kotlin:kotlin-stdlib-jre8:jar:1.1.4-3:runtime - omitted for duplicate)
+|  |  |  |  +- (org.jetbrains.kotlin:kotlin-reflect:jar:1.1.4-3:runtime - omitted for duplicate)
+|  |  |  |  +- (net.nemerosa.ontrack:ontrack-common:jar:2.33.5:runtime - omitted for duplicate)
+|  |  |  |  +- (org.springframework:spring-context:jar:4.3.12.RELEASE:runtime - omitted for duplicate)
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:runtime - version managed from 1.7.2; omitted for duplicate)
+|  |  |  +- (com.google.guava:guava:jar:23.0:runtime - omitted for duplicate)
+|  |  |  +- (org.springframework:spring-context:jar:4.3.12.RELEASE:runtime - omitted for duplicate)
+|  |  |  +- org.springframework.security:spring-security-core:jar:4.2.3.RELEASE:runtime
+|  |  |  |  +- aopalliance:aopalliance:jar:1.0:runtime
+|  |  |  |  +- (org.springframework:spring-aop:jar:4.3.12.RELEASE:runtime - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|  |  |  |  +- (org.springframework:spring-beans:jar:4.3.12.RELEASE:runtime - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|  |  |  |  +- (org.springframework:spring-context:jar:4.3.12.RELEASE:runtime - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|  |  |  |  +- (org.springframework:spring-core:jar:4.3.12.RELEASE:runtime - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|  |  |  |  \- (org.springframework:spring-expression:jar:4.3.12.RELEASE:runtime - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|  |  |  +- javax.validation:validation-api:jar:1.1.0.Final:runtime
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.25:runtime - version managed from 1.7.2; omitted for duplicate)
+|  |  |  \- (org.springframework.boot:spring-boot-starter-actuator:jar:1.5.8.RELEASE:runtime - omitted for duplicate)
+|  |  \- org.springframework.boot:spring-boot-starter-actuator:jar:1.5.8.RELEASE:runtime
+|  |     +- org.springframework.boot:spring-boot-starter:jar:1.5.8.RELEASE:runtime
+|  |     |  +- org.springframework.boot:spring-boot:jar:1.5.8.RELEASE:runtime
+|  |     |  |  +- (org.springframework:spring-core:jar:4.3.12.RELEASE:runtime - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|  |     |  |  \- (org.springframework:spring-context:jar:4.3.12.RELEASE:runtime - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|  |     |  +- org.springframework.boot:spring-boot-autoconfigure:jar:1.5.8.RELEASE:runtime
+|  |     |  |  \- (org.springframework.boot:spring-boot:jar:1.5.8.RELEASE:runtime - omitted for duplicate)
+|  |     |  +- org.springframework.boot:spring-boot-starter-logging:jar:1.5.8.RELEASE:runtime
+|  |     |  |  +- ch.qos.logback:logback-classic:jar:1.1.11:runtime
+|  |     |  |  |  +- ch.qos.logback:logback-core:jar:1.1.11:runtime
+|  |     |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:runtime - version managed from 1.7.22; omitted for duplicate)
+|  |     |  |  +- org.slf4j:jcl-over-slf4j:jar:1.7.25:runtime
+|  |     |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:runtime - version managed from 1.7.22; omitted for duplicate)
+|  |     |  |  +- org.slf4j:jul-to-slf4j:jar:1.7.25:runtime
+|  |     |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:runtime - version managed from 1.7.22; omitted for duplicate)
+|  |     |  |  \- org.slf4j:log4j-over-slf4j:jar:1.7.25:runtime
+|  |     |  |     \- (org.slf4j:slf4j-api:jar:1.7.25:runtime - version managed from 1.7.22; omitted for duplicate)
+|  |     |  +- (org.springframework:spring-core:jar:4.3.12.RELEASE:runtime - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|  |     |  \- org.yaml:snakeyaml:jar:1.17:runtime
+|  |     \- org.springframework.boot:spring-boot-actuator:jar:1.5.8.RELEASE:runtime
+|  |        +- (org.springframework.boot:spring-boot:jar:1.5.8.RELEASE:runtime - omitted for duplicate)
+|  |        +- (org.springframework.boot:spring-boot-autoconfigure:jar:1.5.8.RELEASE:runtime - omitted for duplicate)
+|  |        +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.10:runtime - omitted for duplicate)
+|  |        +- (org.springframework:spring-core:jar:4.3.12.RELEASE:runtime - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|  |        \- (org.springframework:spring-context:jar:4.3.12.RELEASE:runtime - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|  +- net.nemerosa.ontrack:ontrack-client:jar:2.33.5:runtime
+|  |  +- (org.jetbrains.kotlin:kotlin-stdlib-jre8:jar:1.1.4-3:runtime - omitted for duplicate)
+|  |  +- (org.jetbrains.kotlin:kotlin-reflect:jar:1.1.4-3:runtime - omitted for duplicate)
+|  |  +- (net.nemerosa.ontrack:ontrack-common:jar:2.33.5:runtime - omitted for duplicate)
+|  |  +- net.nemerosa.ontrack:ontrack-json:jar:2.33.5:runtime
+|  |  |  +- (org.jetbrains.kotlin:kotlin-stdlib-jre8:jar:1.1.4-3:runtime - omitted for duplicate)
+|  |  |  +- (org.jetbrains.kotlin:kotlin-reflect:jar:1.1.4-3:runtime - omitted for duplicate)
+|  |  |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.8.10:runtime
+|  |  |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:runtime
+|  |  |  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.8.10:runtime
+|  |  |  +- com.fasterxml.jackson.module:jackson-module-kotlin:jar:2.8.10:runtime
+|  |  |  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.10:runtime - omitted for duplicate)
+|  |  |  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:runtime - omitted for duplicate)
+|  |  |  |  \- (org.jetbrains.kotlin:kotlin-reflect:jar:1.1.1:runtime - omitted for conflict with 1.1.4-3)
+|  |  |  \- (org.apache.commons:commons-lang3:jar:3.6:runtime - omitted for duplicate)
+|  |  +- org.apache.httpcomponents:httpclient:jar:4.5.3:runtime
+|  |  |  +- org.apache.httpcomponents:httpcore:jar:4.4.8:runtime (version managed from 4.4.6)
+|  |  |  \- commons-codec:commons-codec:jar:1.10:runtime (version managed from 1.9)
+|  |  +- org.apache.httpcomponents:httpmime:jar:4.5.3:runtime
+|  |  |  \- (org.apache.httpcomponents:httpclient:jar:4.5.3:runtime - version managed from 4.3.6; omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:runtime - version managed from 1.7.22; omitted for duplicate)
+|  \- net.nemerosa.ontrack:ontrack-ui-support:jar:2.33.5:runtime
+|     +- (org.jetbrains.kotlin:kotlin-stdlib-jre8:jar:1.1.4-3:runtime - omitted for duplicate)
+|     +- (org.jetbrains.kotlin:kotlin-reflect:jar:1.1.4-3:runtime - omitted for duplicate)
+|     +- (net.nemerosa.ontrack:ontrack-model:jar:2.33.5:runtime - omitted for duplicate)
+|     +- (net.nemerosa.ontrack:ontrack-extension-api:jar:2.33.5:runtime - omitted for duplicate)
+|     +- org.springframework:spring-webmvc:jar:4.3.12.RELEASE:runtime
+|     |  +- (org.springframework:spring-aop:jar:4.3.12.RELEASE:runtime - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|     |  +- (org.springframework:spring-beans:jar:4.3.12.RELEASE:runtime - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|     |  +- (org.springframework:spring-context:jar:4.3.12.RELEASE:runtime - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|     |  +- (org.springframework:spring-core:jar:4.3.12.RELEASE:runtime - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|     |  +- (org.springframework:spring-expression:jar:4.3.12.RELEASE:runtime - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|     |  \- org.springframework:spring-web:jar:4.3.12.RELEASE:runtime
+|     |     +- (org.springframework:spring-aop:jar:4.3.12.RELEASE:runtime - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|     |     +- (org.springframework:spring-beans:jar:4.3.12.RELEASE:runtime - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|     |     +- (org.springframework:spring-context:jar:4.3.12.RELEASE:runtime - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|     |     \- (org.springframework:spring-core:jar:4.3.12.RELEASE:runtime - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|     \- org.springframework.boot:spring-boot-starter-web:jar:1.5.8.RELEASE:runtime
+|        +- (org.springframework.boot:spring-boot-starter:jar:1.5.8.RELEASE:runtime - omitted for duplicate)
+|        +- org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.8.RELEASE:runtime
+|        |  +- org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.23:runtime
+|        |  |  \- org.apache.tomcat:tomcat-annotations-api:jar:8.5.23:runtime
+|        |  +- org.apache.tomcat.embed:tomcat-embed-el:jar:8.5.23:runtime
+|        |  \- org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.5.23:runtime
+|        |     \- (org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.23:runtime - omitted for duplicate)
+|        +- org.hibernate:hibernate-validator:jar:5.3.5.Final:runtime
+|        |  +- (javax.validation:validation-api:jar:1.1.0.Final:runtime - omitted for duplicate)
+|        |  +- org.jboss.logging:jboss-logging:jar:3.3.1.Final:runtime (version managed from 3.3.0.Final)
+|        |  \- com.fasterxml:classmate:jar:1.3.4:runtime (version managed from 1.3.1)
+|        +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.10:runtime - omitted for duplicate)
+|        +- (org.springframework:spring-web:jar:4.3.12.RELEASE:runtime - omitted for duplicate)
+|        \- (org.springframework:spring-webmvc:jar:4.3.12.RELEASE:runtime - omitted for duplicate)
+\- net.nemerosa.ontrack:ontrack-extension-issues:jar:2.33.5:runtime
+   +- (org.jetbrains.kotlin:kotlin-stdlib-jre8:jar:1.1.4-3:runtime - omitted for duplicate)
+   +- (org.jetbrains.kotlin:kotlin-reflect:jar:1.1.4-3:runtime - omitted for duplicate)
+   +- (net.nemerosa.ontrack:ontrack-extension-support:jar:2.33.5:runtime - omitted for duplicate)
+   \- org.codehaus.groovy:groovy-all:jar:2.4.12:runtime

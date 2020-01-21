@@ -1,0 +1,50 @@
+com.facebook.presto:presto-client:jar:0.192
++- com.facebook.presto:presto-spi:jar:0.192:compile
+|  +- io.airlift:slice:jar:0.32:compile
+|  |  \- (org.openjdk.jol:jol-core:jar:0.2:compile - omitted for duplicate)
+|  +- (io.airlift:units:jar:1.0:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.1:compile - omitted for duplicate)
+|  \- org.openjdk.jol:jol-core:jar:0.2:compile
++- com.google.code.findbugs:jsr305:jar:3.0.2:compile
++- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.1:compile
++- com.fasterxml.jackson.core:jackson-core:jar:2.8.1:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.8.1:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.1:compile - version managed from 2.8.0; omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.8.1:compile - omitted for duplicate)
++- io.airlift:json:jar:0.161:compile
+|  +- com.google.inject:guice:jar:4.0:compile
+|  |  +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  |  +- aopalliance:aopalliance:jar:1.0:compile
+|  |  \- (com.google.guava:guava:jar:21.0:compile - version managed from 16.0; omitted for duplicate)
+|  +- com.google.inject.extensions:guice-multibindings:jar:4.0:compile
+|  |  \- (com.google.inject:guice:jar:4.0:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.1:compile - version managed from 2.8.0; omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.1:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.1:compile - omitted for duplicate)
+|  +- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.8.1:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.1:compile - omitted for duplicate)
+|  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.1:compile - omitted for duplicate)
+|  +- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.8.1:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.1:compile - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.1:compile - omitted for duplicate)
+|  |  \- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.1:compile - version managed from 2.8.0; omitted for duplicate)
+|  +- com.fasterxml.jackson.datatype:jackson-datatype-guava:jar:2.8.1:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.1:compile - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.1:compile - omitted for duplicate)
+|  |  \- (com.google.guava:guava:jar:21.0:compile - version managed from 16.0; omitted for duplicate)
+|  +- com.fasterxml.jackson.datatype:jackson-datatype-joda:jar:2.8.1:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.1:compile - version managed from 2.8.0; omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.1:compile - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.1:compile - omitted for duplicate)
+|  |  \- (joda-time:joda-time:jar:2.9.9:compile - version managed from 2.7; omitted for duplicate)
+|  +- javax.inject:javax.inject:jar:1:compile
+|  +- (com.google.guava:guava:jar:21.0:compile - version managed from 16.0; omitted for duplicate)
+|  \- joda-time:joda-time:jar:2.9.9:compile
++- io.airlift:security:jar:0.161:compile
+|  \- (com.google.guava:guava:jar:21.0:compile - version managed from 16.0; omitted for duplicate)
++- io.airlift:units:jar:1.0:compile
++- com.google.guava:guava:jar:21.0:compile
++- com.squareup.okhttp3:okhttp:jar:3.9.0:compile
+|  \- com.squareup.okio:okio:jar:1.13.0:compile
+\- org.testng:testng:jar:6.10:test
+   \- com.beust:jcommander:jar:1.48:test

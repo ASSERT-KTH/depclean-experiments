@@ -1,0 +1,10 @@
+com.liferay.faces:com.liferay.faces.portal:jar:3.0.2
++- javax.el:javax.el-api:jar:2.2.1:provided
++- javax.faces:javax.faces-api:jar:2.2:provided
++- javax.portlet:portlet-api:jar:2.0:provided
++- javax.servlet:javax.servlet-api:jar:3.0.1:provided
++- javax.servlet.jsp:javax.servlet.jsp-api:jar:2.2.1:provided
++- com.liferay:com.liferay.captcha.taglib:jar:1.0.0:provided
++- com.liferay.portal:com.liferay.portal.kernel:jar:2.3.0:provided
++- com.liferay.portal:com.liferay.util.taglib:jar:2.1.0:provided
+\- com.liferay.faces:com.liferay.faces.util:jar:3.1.0:compile

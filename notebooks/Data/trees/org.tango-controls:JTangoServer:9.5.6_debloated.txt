@@ -1,0 +1,62 @@
+org.tango-controls:JTangoServer:jar:9.5.6
++- org.tango-controls:TangORB:jar:9.5.6:compile
+|  +- org.jacorb:jacorb:jar:3.8:compile
+|  |  \- org.jacorb:jacorb-omgapi:jar:3.8:compile
+|  +- org.jacorb:jacorb-services:jar:3.8:compile
+|  |  +- (org.jacorb:jacorb:jar:3.8:compile - omitted for duplicate)
+|  |  +- (org.jacorb:jacorb-omgapi:jar:3.8:compile - omitted for duplicate)
+|  |  +- antlr:antlr:jar:2.7.2:compile
+|  |  +- mx4j:mx4j:jar:3.0.1:compile
+|  |  +- nanocontainer:nanocontainer-remoting:jar:1.0-RC-1:compile
+|  |  |  +- geronimo-spec:geronimo-spec-ejb:jar:2.1-rc2:compile
+|  |  |  +- mx4j:mx4j-jmx:jar:2.1.1:compile
+|  |  |  +- mx4j:mx4j-impl:jar:2.1.1:compile
+|  |  |  +- jmock:jmock:jar:1.0.1:compile
+|  |  |  |  \- (junit:junit:jar:4.12:test - version managed from 3.8.1; scope managed from compile; omitted for duplicate)
+|  |  |  +- jmock:jmock-cglib:jar:1.0.1:compile
+|  |  |  |  +- (jmock:jmock:jar:1.0.1:compile - omitted for duplicate)
+|  |  |  |  \- (cglib:cglib-full:jar:2.0:compile - omitted for duplicate)
+|  |  |  +- cglib:cglib-full:jar:2.0:compile
+|  |  |  \- proxytoys:proxytoys:jar:0.1:compile
+|  |  +- org.beanshell:bsh:jar:2.0b5:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.5:compile - version managed from 1.6.4; omitted for duplicate)
+|  |  +- picocontainer:picocontainer:jar:1.2:compile
+|  |  \- tanukisoft:wrapper:jar:3.1.0:compile
+|  +- org.zeromq:jeromq:jar:0.3.4:compile
+|  \- org.tango-controls:JTangoCommons:jar:9.5.6:compile
+|     +- org.tango-controls:JavaTangoIDL:jar:9.5.6:compile
+|     |  +- (org.jacorb:jacorb-omgapi:jar:3.8:compile - omitted for duplicate)
+|     |  \- org.jacorb:jacorb-idl-compiler:jar:3.8:compile
+|     |     +- org.apache.ant:ant:jar:1.8.2:compile
+|     |     |  \- org.apache.ant:ant-launcher:jar:1.8.2:compile
+|     |     \- java_cup:java_cup:jar:0.9e:compile
+|     +- (org.slf4j:slf4j-api:jar:1.7.5:compile - version managed from 1.7.14; omitted for duplicate)
+|     +- (org.slf4j:slf4j-ext:jar:1.7.5:compile - version managed from 1.6.4; omitted for duplicate)
+|     +- com.google.guava:guava:jar:20.0:compile
+|     \- (org.apache.commons:commons-lang3:jar:3.4:compile - omitted for duplicate)
++- org.tango-controls:JTangoClientLang:jar:9.5.6:compile
+|  +- org.apache.commons:commons-lang3:jar:3.4:compile
+|  +- (org.tango-controls:TangORB:jar:9.5.6:compile - omitted for duplicate)
+|  +- org.mozilla:rhino:jar:1.7.7.1:compile
+|  +- (net.sf.transmorph:transmorph:jar:3.1.3:compile - omitted for duplicate)
+|  +- org.slf4j:slf4j-api:jar:1.7.5:compile
+|  \- (org.slf4j:slf4j-ext:jar:1.7.5:compile - version managed from 1.6.4; omitted for conflict with 1.6.4)
++- ch.qos.logback:logback-classic:jar:1.1.1:compile
+|  +- ch.qos.logback:logback-core:jar:1.1.1:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.5:compile - version managed from 1.7.6; omitted for duplicate)
++- org.slf4j:slf4j-ext:jar:1.6.4:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.5:compile - version managed from 1.6.4; omitted for duplicate)
+|  \- ch.qos.cal10n:cal10n-api:jar:0.7.4:compile
++- net.sf.transmorph:transmorph:jar:3.1.3:compile
++- net.sf.ehcache:ehcache-core:jar:2.3.0:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.5:compile - version managed from 1.5.11; omitted for duplicate)
++- org.quartz-scheduler:quartz:jar:2.2.1:compile
+|  +- c3p0:c3p0:jar:0.9.1.1:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.5:compile - version managed from 1.6.6; omitted for duplicate)
++- org.apache.commons:commons-math3:jar:3.2:compile
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.mockito:mockito-core:jar:1.9.5:test
+|  +- (org.hamcrest:hamcrest-core:jar:1.1:test - omitted for conflict with 1.3)
+|  \- org.objenesis:objenesis:jar:1.0:test
+\- org.databene:contiperf:jar:2.2.0:test

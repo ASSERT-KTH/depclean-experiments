@@ -1,0 +1,1 @@
+com.github.veithen.visualwas.thirdparty:org.openide.awt:pom:2.0.0

@@ -1,0 +1,24 @@
+io.playn:playn-java-lwjgl2:jar:2.0.3
++- io.playn:playn-java-base:jar:2.0.3:compile
+|  +- io.playn:playn-core:jar:2.0.3:compile
+|  |  +- com.samskivert:pythagoras:jar:1.4.3:compile
+|  |  \- com.threerings:react:jar:1.5.4:compile
+|  +- com.googlecode.soundlibs:mp3spi:jar:1.9.5-1:compile
+|  |  +- com.googlecode.soundlibs:jlayer:jar:1.0.1-1:compile
+|  |  |  \- (junit:junit:jar:3.8.2:compile - omitted for conflict with 4.12)
+|  |  \- com.googlecode.soundlibs:tritonus-share:jar:0.3.7-1:compile
+|  \- org.java-websocket:Java-WebSocket:jar:1.3.0:compile
++- org.lwjgl.lwjgl:lwjgl:jar:2.9.3:compile
+|  +- (org.lwjgl.lwjgl:lwjgl-platform:jar:natives-windows:2.9.3:compile - omitted for duplicate)
+|  +- (org.lwjgl.lwjgl:lwjgl-platform:jar:natives-linux:2.9.3:compile - omitted for duplicate)
+|  +- (org.lwjgl.lwjgl:lwjgl-platform:jar:natives-osx:2.9.3:compile - omitted for duplicate)
+|  \- net.java.jinput:jinput:jar:2.0.5:compile
+|     +- net.java.jutils:jutils:jar:1.0.0:compile
+|     +- net.java.jinput:jinput-platform:jar:natives-linux:2.0.5:runtime
+|     +- net.java.jinput:jinput-platform:jar:natives-windows:2.0.5:runtime
+|     \- net.java.jinput:jinput-platform:jar:natives-osx:2.0.5:runtime
++- org.lwjgl.lwjgl:lwjgl_util:jar:2.9.3:compile
+|  \- (org.lwjgl.lwjgl:lwjgl:jar:2.9.3:compile - omitted for duplicate)
++- org.lwjgl.lwjgl:lwjgl-platform:jar:natives-windows:2.9.3:compile
+\- junit:junit:jar:4.12:test (scope not updated to compile)
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

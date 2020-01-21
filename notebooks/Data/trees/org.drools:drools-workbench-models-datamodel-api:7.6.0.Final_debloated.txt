@@ -1,0 +1,8 @@
+org.drools:drools-workbench-models-datamodel-api:bundle:7.6.0.Final
++- org.kie.soup:kie-soup-commons:jar:7.6.0.Final:compile
++- org.kie.soup:kie-soup-project-datamodel-api:jar:7.6.0.Final:compile
++- org.assertj:assertj-core:jar:3.8.0:test
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
+\- org.mockito:mockito-core:jar:1.10.19:test
+   \- org.objenesis:objenesis:jar:2.1:test

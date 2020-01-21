@@ -1,0 +1,151 @@
+com.lightbend.lagom:lagom-persistence-cassandra-core_2.11:jar:1.4.5-M1
++- org.scala-lang:scala-library:jar:2.11.12:compile
++- com.lightbend.lagom:lagom-persistence-core_2.11:jar:1.4.5-M1:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  +- com.lightbend.lagom:lagom-cluster-core_2.11:jar:1.4.5-M1:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  |  +- com.typesafe.akka:akka-cluster_2.11:jar:2.5.11:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  |  |  \- com.typesafe.akka:akka-remote_2.11:jar:2.5.11:compile
+|  |  |     +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  |  |     +- (com.typesafe.akka:akka-actor_2.11:jar:2.5.11:compile - omitted for duplicate)
+|  |  |     +- (com.typesafe.akka:akka-stream_2.11:jar:2.5.11:compile - omitted for duplicate)
+|  |  |     +- (com.typesafe.akka:akka-protobuf_2.11:jar:2.5.11:compile - omitted for duplicate)
+|  |  |     +- io.netty:netty:jar:3.10.6.Final:compile
+|  |  |     +- io.aeron:aeron-driver:jar:1.7.0:compile
+|  |  |     |  \- (io.aeron:aeron-client:jar:1.7.0:compile - omitted for duplicate)
+|  |  |     \- io.aeron:aeron-client:jar:1.7.0:compile
+|  |  |        \- org.agrona:agrona:jar:0.9.12:compile
+|  |  +- org.scala-lang.modules:scala-java8-compat_2.11:jar:0.8.0:compile
+|  |  |  \- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.12)
+|  |  \- org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.0.6:compile
+|  |     \- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
+|  +- com.typesafe.akka:akka-persistence_2.11:jar:2.5.11:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  |  +- com.typesafe.akka:akka-actor_2.11:jar:2.5.11:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  |  |  +- com.typesafe:config:jar:1.3.2:compile
+|  |  |  \- (org.scala-lang.modules:scala-java8-compat_2.11:jar:0.7.0:compile - omitted for conflict with 0.8.0)
+|  |  \- com.typesafe.akka:akka-protobuf_2.11:jar:2.5.11:compile
+|  |     \- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  +- com.typesafe.akka:akka-persistence-query_2.11:jar:2.5.11:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  |  +- com.typesafe.akka:akka-stream_2.11:jar:2.5.11:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  |  |  +- (com.typesafe.akka:akka-actor_2.11:jar:2.5.11:compile - omitted for duplicate)
+|  |  |  +- (com.typesafe.akka:akka-protobuf_2.11:jar:2.5.11:compile - omitted for duplicate)
+|  |  |  +- org.reactivestreams:reactive-streams:jar:1.0.2:compile
+|  |  |  \- com.typesafe:ssl-config-core_2.11:jar:0.2.2:compile
+|  |  |     +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.12)
+|  |  |     +- (com.typesafe:config:jar:1.2.0:compile - omitted for conflict with 1.3.2)
+|  |  |     \- (org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.0.4:compile - omitted for conflict with 1.0.6)
+|  |  \- (com.typesafe.akka:akka-persistence_2.11:jar:2.5.11:compile - omitted for duplicate)
+|  +- com.typesafe.akka:akka-cluster-sharding_2.11:jar:2.5.11:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  |  +- (com.typesafe.akka:akka-cluster_2.11:jar:2.5.11:compile - omitted for duplicate)
+|  |  +- com.typesafe.akka:akka-distributed-data_2.11:jar:2.5.11:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  |  |  +- (com.typesafe.akka:akka-cluster_2.11:jar:2.5.11:compile - omitted for duplicate)
+|  |  |  \- org.lmdbjava:lmdbjava:jar:0.6.0:compile
+|  |  |     +- (com.github.jnr:jnr-ffi:jar:2.1.6:compile - omitted for conflict with 2.0.7)
+|  |  |     \- (com.github.jnr:jnr-constants:jar:0.9.9:compile - omitted for conflict with 0.9.0)
+|  |  +- (com.typesafe.akka:akka-persistence_2.11:jar:2.5.11:compile - omitted for duplicate)
+|  |  \- (com.typesafe.akka:akka-cluster-tools_2.11:jar:2.5.11:compile - omitted for conflict with 2.5.9)
+|  +- com.typesafe.akka:akka-slf4j_2.11:jar:2.5.11:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  |  \- (com.typesafe.akka:akka-actor_2.11:jar:2.5.11:compile - omitted for duplicate)
+|  +- com.typesafe.play:play_2.11:jar:2.6.12:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  |  +- com.typesafe.play:build-link:jar:2.6.12:compile
+|  |  |  \- com.typesafe.play:play-exceptions:jar:2.6.12:compile
+|  |  +- com.typesafe.play:play-netty-utils:jar:2.6.12:compile
+|  |  +- com.typesafe.play:play-streams_2.11:jar:2.6.12:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  |  |  +- (org.reactivestreams:reactive-streams:jar:1.0.1:compile - omitted for conflict with 1.0.2)
+|  |  |  +- (com.typesafe.akka:akka-stream_2.11:jar:2.5.11:compile - omitted for duplicate)
+|  |  |  \- (org.scala-lang.modules:scala-java8-compat_2.11:jar:0.8.0:compile - omitted for duplicate)
+|  |  +- com.typesafe.play:twirl-api_2.11:jar:1.3.14:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
+|  |  |  \- org.scala-lang.modules:scala-xml_2.11:jar:1.0.6:compile
+|  |  |     \- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.12)
+|  |  +- (com.typesafe.akka:akka-actor_2.11:jar:2.5.11:compile - omitted for duplicate)
+|  |  +- (com.typesafe.akka:akka-slf4j_2.11:jar:2.5.11:compile - omitted for duplicate)
+|  |  +- com.fasterxml.jackson.core:jackson-core:jar:2.8.11:compile
+|  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.11:compile
+|  |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.8.11:compile
+|  |  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile - omitted for conflict with 2.8.11)
+|  |  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.8.10:compile - omitted for conflict with 2.8.11)
+|  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.8.11:compile
+|  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.11:compile - omitted for duplicate)
+|  |  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.11:compile - omitted for duplicate)
+|  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.8.11:compile
+|  |  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile - omitted for conflict with 2.8.11)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.11:compile - omitted for duplicate)
+|  |  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.11:compile - omitted for duplicate)
+|  |  +- commons-codec:commons-codec:jar:1.10:compile
+|  |  +- (com.typesafe.play:play-json_2.11:jar:2.6.8:compile - omitted for conflict with 2.6.9)
+|  |  +- com.google.guava:guava:jar:22.0:compile
+|  |  |  +- com.google.code.findbugs:jsr305:jar:1.3.9:compile
+|  |  |  +- com.google.errorprone:error_prone_annotations:jar:2.0.18:compile
+|  |  |  +- com.google.j2objc:j2objc-annotations:jar:1.1:compile
+|  |  |  \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:compile
+|  |  +- io.jsonwebtoken:jjwt:jar:0.7.0:compile
+|  |  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.2:compile - omitted for conflict with 2.8.11)
+|  |  +- org.apache.commons:commons-lang3:jar:3.6:compile
+|  |  +- javax.transaction:jta:jar:1.1:compile
+|  |  +- javax.inject:javax.inject:jar:1:compile
+|  |  +- org.scala-lang:scala-reflect:jar:2.11.12:compile
+|  |  |  \- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  |  +- (org.scala-lang.modules:scala-java8-compat_2.11:jar:0.8.0:compile - omitted for duplicate)
+|  |  \- (org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.0.6:compile - omitted for duplicate)
+|  \- com.typesafe.play:play-json_2.11:jar:2.6.9:compile
+|     +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
+|     +- com.typesafe.play:play-functional_2.11:jar:2.6.9:compile
+|     |  \- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
+|     +- (org.scala-lang:scala-reflect:jar:2.11.11:compile - omitted for conflict with 2.11.12)
+|     +- org.typelevel:macro-compat_2.11:jar:1.1.1:compile
+|     |  \- (org.scala-lang:scala-library:jar:2.11.7:compile - omitted for conflict with 2.11.12)
+|     +- joda-time:joda-time:jar:2.9.9:compile
+|     +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.9:compile - omitted for conflict with 2.8.11)
+|     +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.9:compile - omitted for conflict with 2.8.11)
+|     +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.9:compile - omitted for conflict with 2.8.11)
+|     +- (com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.8.9:compile - omitted for conflict with 2.8.11)
+|     \- (com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.8.9:compile - omitted for conflict with 2.8.11)
++- com.typesafe.akka:akka-persistence-cassandra_2.11:jar:0.60:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
+|  +- com.datastax.cassandra:cassandra-driver-core:jar:3.2.0:compile
+|  |  +- (io.netty:netty-handler:jar:4.0.44.Final:compile - omitted for conflict with 4.1.22.Final)
+|  |  +- (com.google.guava:guava:jar:19.0:compile - omitted for conflict with 22.0)
+|  |  +- (io.dropwizard.metrics:metrics-core:jar:3.1.2:compile - omitted for conflict with 3.2.2)
+|  |  +- com.github.jnr:jnr-ffi:jar:2.0.7:compile
+|  |  |  +- com.github.jnr:jffi:jar:1.2.10:compile
+|  |  |  +- com.github.jnr:jffi:jar:native:1.2.10:runtime
+|  |  |  +- org.ow2.asm:asm:jar:5.0.3:compile
+|  |  |  +- org.ow2.asm:asm-commons:jar:5.0.3:compile
+|  |  |  |  \- (org.ow2.asm:asm-tree:jar:5.0.3:compile - omitted for duplicate)
+|  |  |  +- org.ow2.asm:asm-analysis:jar:5.0.3:compile
+|  |  |  |  \- (org.ow2.asm:asm-tree:jar:5.0.3:compile - omitted for duplicate)
+|  |  |  +- org.ow2.asm:asm-tree:jar:5.0.3:compile
+|  |  |  |  \- (org.ow2.asm:asm:jar:5.0.3:compile - omitted for duplicate)
+|  |  |  +- org.ow2.asm:asm-util:jar:5.0.3:compile
+|  |  |  |  \- (org.ow2.asm:asm-tree:jar:5.0.3:compile - omitted for duplicate)
+|  |  |  \- com.github.jnr:jnr-x86asm:jar:1.0.2:compile
+|  |  \- com.github.jnr:jnr-posix:jar:3.0.27:compile
+|  |     +- (com.github.jnr:jnr-ffi:jar:2.0.7:compile - omitted for duplicate)
+|  |     \- com.github.jnr:jnr-constants:jar:0.9.0:compile
+|  +- (com.typesafe.akka:akka-persistence_2.11:jar:2.5.9:compile - omitted for conflict with 2.5.11)
+|  +- com.typesafe.akka:akka-cluster-tools_2.11:jar:2.5.9:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  |  \- (com.typesafe.akka:akka-cluster_2.11:jar:2.5.9:compile - omitted for conflict with 2.5.11)
+|  \- (com.typesafe.akka:akka-persistence-query_2.11:jar:2.5.9:compile - omitted for conflict with 2.5.11)
++- com.typesafe.akka:akka-persistence-cassandra-launcher_2.11:jar:0.60:test
+|  \- (org.scala-lang:scala-library:jar:2.11.11:test - omitted for conflict with 2.11.12)
+\- io.netty:netty-handler:jar:4.1.22.Final:compile
+   +- io.netty:netty-buffer:jar:4.1.22.Final:compile
+   |  \- io.netty:netty-common:jar:4.1.22.Final:compile
+   +- io.netty:netty-transport:jar:4.1.22.Final:compile
+   |  +- (io.netty:netty-buffer:jar:4.1.22.Final:compile - omitted for duplicate)
+   |  \- io.netty:netty-resolver:jar:4.1.22.Final:compile
+   |     \- (io.netty:netty-common:jar:4.1.22.Final:compile - omitted for duplicate)
+   \- io.netty:netty-codec:jar:4.1.22.Final:compile
+      \- (io.netty:netty-transport:jar:4.1.22.Final:compile - omitted for duplicate)

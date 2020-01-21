@@ -1,0 +1,94 @@
+org.apache.xmlgraphics:fop:jar:2.3
++- org.apache.xmlgraphics:xmlgraphics-commons:jar:2.3:compile
+|  +- (commons-io:commons-io:jar:1.3.1:compile - omitted for duplicate)
+|  \- (commons-logging:commons-logging:jar:1.0.4:compile - omitted for duplicate)
++- org.apache.xmlgraphics:batik-svg-dom:jar:1.10:compile
+|  +- (org.apache.xmlgraphics:batik-awt-util:jar:1.10:compile - omitted for duplicate)
+|  +- org.apache.xmlgraphics:batik-css:jar:1.10:compile
+|  |  +- (org.apache.xmlgraphics:batik-util:jar:1.10:compile - omitted for duplicate)
+|  |  +- (org.apache.xmlgraphics:xmlgraphics-commons:jar:2.2:compile - omitted for conflict with 2.3)
+|  |  \- (xml-apis:xml-apis-ext:jar:1.3.04:compile - omitted for duplicate)
+|  +- org.apache.xmlgraphics:batik-dom:jar:1.10:compile
+|  |  +- (org.apache.xmlgraphics:batik-css:jar:1.10:compile - omitted for duplicate)
+|  |  +- (org.apache.xmlgraphics:batik-ext:jar:1.10:compile - omitted for duplicate)
+|  |  +- (org.apache.xmlgraphics:batik-util:jar:1.10:compile - omitted for duplicate)
+|  |  +- (org.apache.xmlgraphics:batik-xml:jar:1.10:compile - omitted for duplicate)
+|  |  +- (xalan:xalan:jar:2.7.2:compile - omitted for duplicate)
+|  |  +- xml-apis:xml-apis:jar:1.3.04:compile
+|  |  \- (xml-apis:xml-apis-ext:jar:1.3.04:compile - omitted for duplicate)
+|  +- (org.apache.xmlgraphics:batik-ext:jar:1.10:compile - omitted for duplicate)
+|  +- org.apache.xmlgraphics:batik-parser:jar:1.10:compile
+|  |  +- (org.apache.xmlgraphics:batik-awt-util:jar:1.10:compile - omitted for duplicate)
+|  |  +- (org.apache.xmlgraphics:batik-util:jar:1.10:compile - omitted for duplicate)
+|  |  +- (org.apache.xmlgraphics:batik-xml:jar:1.10:compile - omitted for duplicate)
+|  |  \- (xml-apis:xml-apis-ext:jar:1.3.04:compile - omitted for duplicate)
+|  +- org.apache.xmlgraphics:batik-util:jar:1.10:compile
+|  |  +- org.apache.xmlgraphics:batik-constants:jar:1.10:compile
+|  |  \- org.apache.xmlgraphics:batik-i18n:jar:1.10:compile
+|  \- xml-apis:xml-apis-ext:jar:1.3.04:compile
++- org.apache.xmlgraphics:batik-bridge:jar:1.10:compile
+|  +- org.apache.xmlgraphics:batik-anim:jar:1.10:compile
+|  |  +- (org.apache.xmlgraphics:batik-awt-util:jar:1.10:compile - omitted for duplicate)
+|  |  +- (org.apache.xmlgraphics:batik-css:jar:1.10:compile - omitted for duplicate)
+|  |  +- (org.apache.xmlgraphics:batik-dom:jar:1.10:compile - omitted for duplicate)
+|  |  +- (org.apache.xmlgraphics:batik-ext:jar:1.10:compile - omitted for duplicate)
+|  |  +- (org.apache.xmlgraphics:batik-parser:jar:1.10:compile - omitted for duplicate)
+|  |  +- (org.apache.xmlgraphics:batik-svg-dom:jar:1.10:compile - omitted for duplicate)
+|  |  +- (org.apache.xmlgraphics:batik-util:jar:1.10:compile - omitted for duplicate)
+|  |  \- (xml-apis:xml-apis-ext:jar:1.3.04:compile - omitted for duplicate)
+|  +- (org.apache.xmlgraphics:batik-awt-util:jar:1.10:compile - omitted for duplicate)
+|  +- (org.apache.xmlgraphics:batik-css:jar:1.10:compile - omitted for duplicate)
+|  +- (org.apache.xmlgraphics:batik-dom:jar:1.10:compile - omitted for duplicate)
+|  +- (org.apache.xmlgraphics:batik-gvt:jar:1.10:compile - omitted for duplicate)
+|  +- (org.apache.xmlgraphics:batik-parser:jar:1.10:compile - omitted for duplicate)
+|  +- org.apache.xmlgraphics:batik-script:jar:1.10:compile
+|  |  +- (org.apache.xmlgraphics:batik-anim:jar:1.10:compile - omitted for duplicate)
+|  |  \- (org.apache.xmlgraphics:batik-util:jar:1.10:compile - omitted for duplicate)
+|  +- (org.apache.xmlgraphics:batik-svg-dom:jar:1.10:compile - omitted for duplicate)
+|  +- (org.apache.xmlgraphics:batik-util:jar:1.10:compile - omitted for duplicate)
+|  +- org.apache.xmlgraphics:batik-xml:jar:1.10:compile
+|  |  \- (org.apache.xmlgraphics:batik-util:jar:1.10:compile - omitted for duplicate)
+|  +- (org.apache.xmlgraphics:xmlgraphics-commons:jar:2.2:compile - omitted for conflict with 2.3)
+|  \- (xml-apis:xml-apis-ext:jar:1.3.04:compile - omitted for duplicate)
++- org.apache.xmlgraphics:batik-awt-util:jar:1.10:compile
+|  +- (org.apache.xmlgraphics:batik-util:jar:1.10:compile - omitted for duplicate)
+|  \- (org.apache.xmlgraphics:xmlgraphics-commons:jar:2.2:compile - omitted for conflict with 2.3)
++- org.apache.xmlgraphics:batik-gvt:jar:1.10:compile
+|  +- (org.apache.xmlgraphics:batik-awt-util:jar:1.10:compile - omitted for duplicate)
+|  \- (org.apache.xmlgraphics:batik-util:jar:1.10:compile - omitted for duplicate)
++- org.apache.xmlgraphics:batik-transcoder:jar:1.10:compile
+|  +- (org.apache.xmlgraphics:batik-anim:jar:1.10:compile - omitted for duplicate)
+|  +- (org.apache.xmlgraphics:batik-awt-util:jar:1.10:compile - omitted for duplicate)
+|  +- (org.apache.xmlgraphics:batik-bridge:jar:1.10:compile - omitted for duplicate)
+|  +- (org.apache.xmlgraphics:batik-dom:jar:1.10:compile - omitted for duplicate)
+|  +- (org.apache.xmlgraphics:batik-gvt:jar:1.10:compile - omitted for duplicate)
+|  +- org.apache.xmlgraphics:batik-svggen:jar:1.10:compile
+|  |  +- (org.apache.xmlgraphics:batik-awt-util:jar:1.10:compile - omitted for duplicate)
+|  |  \- (org.apache.xmlgraphics:batik-util:jar:1.10:compile - omitted for duplicate)
+|  +- (org.apache.xmlgraphics:batik-util:jar:1.10:compile - omitted for duplicate)
+|  +- (org.apache.xmlgraphics:batik-xml:jar:1.10:compile - omitted for duplicate)
+|  \- (xml-apis:xml-apis-ext:jar:1.3.04:compile - omitted for duplicate)
++- org.apache.xmlgraphics:batik-extension:jar:1.10:compile
+|  +- (org.apache.xmlgraphics:batik-anim:jar:1.10:compile - omitted for duplicate)
+|  +- (org.apache.xmlgraphics:batik-awt-util:jar:1.10:compile - omitted for duplicate)
+|  +- (org.apache.xmlgraphics:batik-bridge:jar:1.10:compile - omitted for duplicate)
+|  +- (org.apache.xmlgraphics:batik-css:jar:1.10:compile - omitted for duplicate)
+|  +- (org.apache.xmlgraphics:batik-dom:jar:1.10:compile - omitted for duplicate)
+|  +- (org.apache.xmlgraphics:batik-ext:jar:1.10:compile - omitted for duplicate)
+|  +- (org.apache.xmlgraphics:batik-gvt:jar:1.10:compile - omitted for duplicate)
+|  +- (org.apache.xmlgraphics:batik-parser:jar:1.10:compile - omitted for duplicate)
+|  +- (org.apache.xmlgraphics:batik-svg-dom:jar:1.10:compile - omitted for duplicate)
+|  +- (org.apache.xmlgraphics:batik-util:jar:1.10:compile - omitted for duplicate)
+|  \- (xml-apis:xml-apis-ext:jar:1.3.04:compile - omitted for duplicate)
++- org.apache.xmlgraphics:batik-ext:jar:1.10:compile
++- commons-logging:commons-logging:jar:1.0.4:compile
++- commons-io:commons-io:jar:1.3.1:compile
++- org.apache.avalon.framework:avalon-framework-api:jar:4.3.1:compile
++- org.apache.avalon.framework:avalon-framework-impl:jar:4.3.1:compile
+|  \- (org.apache.avalon.framework:avalon-framework-api:jar:4.3.1:compile - omitted for duplicate)
++- javax.servlet:servlet-api:jar:2.2:provided
++- xalan:xalan:jar:2.7.2:provided (scope not updated to compile)
+|  \- xalan:serializer:jar:2.7.2:provided
+|     \- (xml-apis:xml-apis:jar:1.3.04:provided - omitted for duplicate)
+\- org.apache.pdfbox:fontbox:jar:2.0.7:compile
+   \- (commons-logging:commons-logging:jar:1.2:compile - omitted for conflict with 1.0.4)

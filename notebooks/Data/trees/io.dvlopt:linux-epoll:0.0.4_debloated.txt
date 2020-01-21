@@ -1,0 +1,5 @@
+io.dvlopt:linux-epoll:jar:0.0.4
++- io.dvlopt:linux-common:jar:0.1.0:compile
+|  \- net.java.dev.jna:jna:jar:4.5.1:compile
+\- io.dvlopt:linux-io:jar:0.0.3:runtime
+   \- (io.dvlopt:linux-common:jar:0.1.0:runtime - omitted for duplicate)

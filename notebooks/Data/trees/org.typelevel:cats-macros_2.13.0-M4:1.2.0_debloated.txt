@@ -1,0 +1,8 @@
+org.typelevel:cats-macros_2.13.0-M4:jar:1.2.0
++- org.scala-lang:scala-library:jar:2.13.0-M4:compile
++- org.typelevel:machinist_2.13.0-M4:jar:0.6.5:compile
+|  +- (org.scala-lang:scala-library:jar:2.13.0-M4:compile - omitted for duplicate)
+|  \- org.scala-lang:scala-reflect:jar:2.13.0-M4:compile
+|     \- (org.scala-lang:scala-library:jar:2.13.0-M4:compile - omitted for duplicate)
+\- org.scala-lang.modules:scala-collection-compat_2.13.0-M4:jar:0.1.1:compile
+   \- (org.scala-lang:scala-library:jar:2.13.0-M4:compile - omitted for duplicate)

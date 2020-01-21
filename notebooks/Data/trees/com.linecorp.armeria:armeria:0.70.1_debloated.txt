@@ -1,0 +1,60 @@
+com.linecorp.armeria:armeria:jar:0.70.1
++- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.6:compile
++- com.fasterxml.jackson.core:jackson-core:jar:2.9.6:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.9.6:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile - omitted for conflict with 2.9.6)
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.6:compile - omitted for duplicate)
++- com.github.ben-manes.caffeine:caffeine:jar:2.6.2:compile
++- com.google.code.findbugs:jsr305:jar:3.0.2:compile
++- com.google.guava:guava:jar:26.0-jre:compile
+|  +- (com.google.code.findbugs:jsr305:jar:3.0.2:compile - omitted for duplicate)
+|  \- org.checkerframework:checker-qual:jar:2.5.2:compile
++- com.spotify:completable-futures:jar:0.3.2:compile
++- io.dropwizard.metrics:metrics-core:jar:4.0.3:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
++- io.micrometer:micrometer-core:jar:1.0.6:compile
+|  +- org.hdrhistogram:HdrHistogram:jar:2.1.10:compile
+|  \- org.latencyutils:LatencyUtils:jar:2.0.3:compile
++- io.micrometer:micrometer-registry-prometheus:jar:1.0.6:compile
+|  +- (io.micrometer:micrometer-core:jar:1.0.6:compile - omitted for duplicate)
+|  \- (io.prometheus:simpleclient_common:jar:0.4.0:compile - omitted for conflict with 0.5.0)
++- io.netty:netty-codec-haproxy:jar:4.1.29.Final:compile
+|  \- io.netty:netty-codec:jar:4.1.29.Final:compile
+|     \- (io.netty:netty-transport:jar:4.1.29.Final:compile - omitted for duplicate)
++- io.netty:netty-codec-http2:jar:4.1.29.Final:compile
+|  +- io.netty:netty-codec-http:jar:4.1.29.Final:compile
+|  |  \- (io.netty:netty-codec:jar:4.1.29.Final:compile - omitted for duplicate)
+|  \- io.netty:netty-handler:jar:4.1.29.Final:compile
+|     +- (io.netty:netty-buffer:jar:4.1.29.Final:compile - omitted for duplicate)
+|     +- (io.netty:netty-transport:jar:4.1.29.Final:compile - omitted for duplicate)
+|     \- (io.netty:netty-codec:jar:4.1.29.Final:compile - omitted for duplicate)
++- io.netty:netty-resolver-dns:jar:4.1.29.Final:compile
+|  +- io.netty:netty-resolver:jar:4.1.29.Final:compile
+|  |  \- (io.netty:netty-common:jar:4.1.29.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-codec-dns:jar:4.1.29.Final:compile
+|  |  \- (io.netty:netty-codec:jar:4.1.29.Final:compile - omitted for duplicate)
+|  \- (io.netty:netty-transport:jar:4.1.29.Final:compile - omitted for duplicate)
++- io.netty:netty-transport:jar:4.1.29.Final:compile
+|  +- io.netty:netty-buffer:jar:4.1.29.Final:compile
+|  |  \- (io.netty:netty-common:jar:4.1.29.Final:compile - omitted for duplicate)
+|  \- (io.netty:netty-resolver:jar:4.1.29.Final:compile - omitted for duplicate)
++- io.netty:netty-transport-native-epoll:jar:linux-x86_64:4.1.29.Final:compile
+|  +- io.netty:netty-common:jar:4.1.29.Final:compile
+|  +- (io.netty:netty-buffer:jar:4.1.29.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-transport-native-unix-common:jar:4.1.29.Final:compile
+|  |  +- (io.netty:netty-common:jar:4.1.29.Final:compile - omitted for duplicate)
+|  |  \- (io.netty:netty-transport:jar:4.1.29.Final:compile - omitted for duplicate)
+|  \- (io.netty:netty-transport:jar:4.1.29.Final:compile - omitted for duplicate)
++- io.netty:netty-transport-native-unix-common:jar:linux-x86_64:4.1.29.Final:compile
+|  +- (io.netty:netty-common:jar:4.1.29.Final:compile - omitted for duplicate)
+|  \- (io.netty:netty-transport:jar:4.1.29.Final:compile - omitted for duplicate)
++- io.prometheus:simpleclient_common:jar:0.5.0:compile
+|  \- io.prometheus:simpleclient:jar:0.5.0:compile
++- it.unimi.dsi:fastutil:jar:8.2.1:compile
++- org.bouncycastle:bcprov-jdk15on:jar:1.60:compile
++- org.jctools:jctools-core:jar:2.1.2:compile
++- org.reactivestreams:reactive-streams:jar:1.0.2:compile
++- org.reflections:reflections:jar:0.9.11:compile
+|  +- (com.google.guava:guava:jar:20.0:compile - omitted for conflict with 26.0-jre)
+|  \- org.javassist:javassist:jar:3.21.0-GA:compile
+\- org.slf4j:slf4j-api:jar:1.7.25:compile

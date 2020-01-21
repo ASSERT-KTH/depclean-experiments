@@ -1,0 +1,29 @@
+com.olvind:scalajs-react-components-macros_sjs0.6_2.12:jar:1.0.0-M2
++- org.scala-lang:scala-library:jar:2.12.4:compile
++- org.scala-js:scalajs-library_2.12:jar:0.6.22:compile
+|  \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
++- org.scala-js:scalajs-test-interface_2.12:jar:0.6.22:test
+|  +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for duplicate)
+|  \- (org.scala-js:scalajs-library_2.12:jar:0.6.22:test - omitted for duplicate)
++- com.github.japgolly.scalajs-react:core_sjs0.6_2.12:jar:1.1.1:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  +- (org.scala-js:scalajs-library_2.12:jar:0.6.20:compile - omitted for conflict with 0.6.22)
+|  +- org.scala-lang:scala-reflect:jar:2.12.4:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  \- org.scala-js:scalajs-dom_sjs0.6_2.12:jar:0.9.3:compile
+|     +- (org.scala-lang:scala-library:jar:2.12.2:compile - omitted for conflict with 2.12.4)
+|     \- (org.scala-js:scalajs-library_2.12:jar:0.6.18:compile - omitted for conflict with 0.6.22)
++- com.github.japgolly.scalajs-react:extra_sjs0.6_2.12:jar:1.1.1:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  +- (com.github.japgolly.scalajs-react:core_sjs0.6_2.12:jar:1.1.1:compile - omitted for duplicate)
+|  +- (org.scala-js:scalajs-library_2.12:jar:0.6.20:compile - omitted for conflict with 0.6.22)
+|  \- (org.scala-lang:scala-reflect:jar:2.12.4:compile - omitted for duplicate)
+\- org.scalatest:scalatest_sjs0.6_2.12:jar:3.0.4:test
+   +- (org.scala-lang:scala-library:jar:2.12.3:test - omitted for conflict with 2.12.4)
+   +- org.scalactic:scalactic_sjs0.6_2.12:jar:3.0.4:test
+   |  +- (org.scala-lang:scala-library:jar:2.12.3:test - omitted for conflict with 2.12.4)
+   |  +- (org.scala-js:scalajs-library_2.12:jar:0.6.19:test - omitted for conflict with 0.6.22)
+   |  \- (org.scala-lang:scala-reflect:jar:2.12.3:test - omitted for conflict with 2.12.4)
+   +- (org.scala-js:scalajs-library_2.12:jar:0.6.19:test - omitted for conflict with 0.6.22)
+   +- (org.scala-js:scalajs-test-interface_2.12:jar:0.6.19:test - omitted for conflict with 0.6.22)
+   \- (org.scala-lang:scala-reflect:jar:2.12.3:test - omitted for conflict with 2.12.4)

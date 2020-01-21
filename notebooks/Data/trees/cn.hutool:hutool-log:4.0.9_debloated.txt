@@ -1,0 +1,13 @@
+cn.hutool:hutool-log:jar:4.0.9
++- cn.hutool:hutool-core:jar:4.0.9:compile
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- ch.qos.logback:logback-classic:jar:1.2.3:test
+|  +- ch.qos.logback:logback-core:jar:1.2.3:test
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)
++- log4j:log4j:jar:1.2.17:compile
++- org.apache.logging.log4j:log4j-core:jar:2.10.0:compile
+|  \- org.apache.logging.log4j:log4j-api:jar:2.10.0:compile
++- commons-logging:commons-logging:jar:1.2:compile
++- org.tinylog:tinylog:jar:1.3.2:compile
+\- junit:junit:jar:4.12:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

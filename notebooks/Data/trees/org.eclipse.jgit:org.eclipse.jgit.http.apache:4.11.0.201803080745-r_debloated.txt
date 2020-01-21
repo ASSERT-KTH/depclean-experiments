@@ -1,0 +1,10 @@
+org.eclipse.jgit:org.eclipse.jgit.http.apache:jar:4.11.0.201803080745-r
++- org.eclipse.jgit:org.eclipse.jgit:jar:4.11.0.201803080745-r:compile
+|  +- com.jcraft:jsch:jar:0.1.54:compile
+|  +- com.jcraft:jzlib:jar:1.1.1:compile
+|  +- com.googlecode.javaewah:JavaEWAH:jar:1.1.6:compile
+|  \- org.slf4j:slf4j-api:jar:1.7.2:compile
++- org.apache.httpcomponents:httpclient:jar:4.5.2:compile
+|  +- commons-logging:commons-logging:jar:1.2:compile
+|  \- commons-codec:commons-codec:jar:1.9:compile
+\- org.apache.httpcomponents:httpcore:jar:4.4.6:compile

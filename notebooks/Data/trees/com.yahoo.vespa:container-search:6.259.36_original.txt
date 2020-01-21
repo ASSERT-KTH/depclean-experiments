@@ -1,0 +1,168 @@
+com.yahoo.vespa:container-search:jar:6.259.36
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.hamcrest:hamcrest-library:jar:1.3:test
+|  \- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for duplicate)
++- com.yahoo.vespa:provided-dependencies:jar:6.259.36:provided
+|  +- com.yahoo.vespa:jdisc_core:jar:6.259.36:provided
+|  |  +- (javax.xml.bind:jaxb-api:jar:2.3.0:provided - omitted for duplicate)
+|  |  +- com.sun.activation:javax.activation:jar:1.2.0:provided
+|  |  +- xml-apis:xml-apis:jar:1.4.01:provided
+|  |  +- javax.annotation:javax.annotation-api:jar:1.2:provided
+|  |  +- aopalliance:aopalliance:jar:1.0:provided
+|  |  +- (com.google.guava:guava:jar:18.0:provided - omitted for duplicate)
+|  |  +- (com.google.inject:guice:jar:no_aop:3.0:provided - omitted for duplicate)
+|  |  +- com.google.inject.extensions:guice-assistedinject:jar:3.0:provided
+|  |  +- com.google.inject.extensions:guice-multibindings:jar:3.0:provided
+|  |  +- commons-daemon:commons-daemon:jar:1.0.3:provided
+|  |  +- org.apache.felix:org.apache.felix.framework:jar:5.6.10:provided
+|  |  +- org.apache.felix:org.apache.felix.log:jar:1.0.1:provided
+|  |  +- org.slf4j:slf4j-api:jar:1.7.5:provided
+|  |  +- org.slf4j:jcl-over-slf4j:jar:1.7.5:provided
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.5:provided - omitted for duplicate)
+|  |  +- org.slf4j:log4j-over-slf4j:jar:1.7.5:provided
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.5:provided - omitted for duplicate)
+|  |  +- org.slf4j:slf4j-jdk14:jar:1.7.5:provided
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.5:provided - omitted for duplicate)
+|  |  +- (com.yahoo.vespa:config-lib:jar:6.259.36:provided - omitted for duplicate)
+|  |  +- (com.yahoo.vespa:yolean:jar:6.259.36:compile - scope updated from provided; omitted for duplicate)
+|  |  \- (com.yahoo.vespa:vespajlib:jar:6.259.36:provided - omitted for duplicate)
+|  +- com.yahoo.vespa:jdisc_http_service:jar:6.259.36:provided
+|  +- org.bouncycastle:bcprov-jdk15on:jar:1.58:provided
+|  +- org.bouncycastle:bcpkix-jdk15on:jar:1.58:provided
+|  |  \- (org.bouncycastle:bcprov-jdk15on:jar:1.58:provided - omitted for duplicate)
+|  +- org.eclipse.jetty:jetty-util:jar:9.4.10.v20180503:provided
+|  +- org.eclipse.jetty:jetty-http:jar:9.4.10.v20180503:provided
+|  |  +- (org.eclipse.jetty:jetty-util:jar:9.4.10.v20180503:provided - omitted for duplicate)
+|  |  \- org.eclipse.jetty:jetty-io:jar:9.4.10.v20180503:provided
+|  |     \- (org.eclipse.jetty:jetty-util:jar:9.4.10.v20180503:provided - omitted for duplicate)
+|  +- (com.yahoo.vespa:config-lib:jar:6.259.36:compile - scope updated from provided; omitted for duplicate)
+|  +- (com.yahoo.vespa:defaults:jar:6.259.36:provided - omitted for duplicate)
+|  +- com.google.guava:guava:jar:18.0:provided
+|  +- com.google.inject:guice:jar:no_aop:3.0:provided
+|  |  +- javax.inject:javax.inject:jar:1:provided
+|  |  \- (aopalliance:aopalliance:jar:1.0:provided - omitted for duplicate)
+|  \- org.apache.felix:org.apache.felix.main:jar:5.6.10:provided
+|     \- (org.apache.felix:org.apache.felix.framework:jar:5.6.10:provided - omitted for duplicate)
++- com.yahoo.vespa:component:jar:6.259.36:provided
++- com.yahoo.vespa:config-bundle:jar:6.259.36:provided
+|  +- (com.yahoo.vespa:config:jar:6.259.36:compile - scope updated from provided; omitted for duplicate)
+|  \- (com.yahoo.vespa:configgen:jar:6.259.36:compile - scope updated from provided; omitted for duplicate)
++- com.yahoo.vespa:defaults:jar:6.259.36:provided (scope not updated to compile)
++- com.yahoo.vespa:simplemetrics:jar:6.259.36:provided
+|  \- org.hdrhistogram:HdrHistogram:jar:2.1.8:provided
++- org.json:json:jar:20090211:provided
++- com.yahoo.vespa:container-accesslogging:jar:6.259.36:provided
+|  +- (commons-lang:commons-lang:jar:2.6:provided - omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.4:provided - omitted for duplicate)
++- com.yahoo.vespa:container-core:jar:6.259.36:provided
+|  +- (org.json:json:jar:20090211:provided - omitted for duplicate)
+|  +- (com.yahoo.vespa:container-accesslogging:jar:6.259.36:provided - omitted for duplicate)
+|  +- com.yahoo.vespa:processing:jar:6.259.36:provided
+|  |  \- com.yahoo.vespa:chain:jar:6.259.36:provided
+|  |     +- (com.google.code.findbugs:annotations:jar:1.3.9:provided - omitted for duplicate)
+|  |     +- (com.google.code.findbugs:jsr305:jar:1.3.9:provided - omitted for duplicate)
+|  |     +- (com.yahoo.vespa:annotations:jar:6.259.36:provided - omitted for duplicate)
+|  |     +- com.yahoo.vespa:container-di:jar:6.259.36:provided
+|  |     |  +- (com.google.code.findbugs:annotations:jar:1.3.9:provided - omitted for duplicate)
+|  |     |  +- (com.google.code.findbugs:jsr305:jar:1.3.9:provided - omitted for duplicate)
+|  |     |  +- (com.yahoo.vespa:annotations:jar:6.259.36:provided - omitted for duplicate)
+|  |     |  \- (com.yahoo.vespa:vespajlib:jar:6.259.36:provided - omitted for duplicate)
+|  |     +- (com.yahoo.vespa:vespajlib:jar:6.259.36:provided - omitted for duplicate)
+|  |     \- (net.jcip:jcip-annotations:jar:1.0:provided - omitted for duplicate)
+|  +- (com.yahoo.vespa:annotations:jar:6.259.36:compile - scope updated from provided; omitted for duplicate)
+|  +- com.yahoo.vespa:linguistics:jar:6.259.36:provided
+|  |  +- com.yahoo.vespa:configdefinitions:jar:6.259.36:provided
+|  |  \- (com.yahoo.vespa:vespajlib:jar:6.259.36:provided - omitted for duplicate)
+|  +- com.yahoo.vespa:messagebus:jar:6.259.36:provided
+|  |  +- (com.yahoo.vespa:vespajlib:jar:6.259.36:provided - omitted for duplicate)
+|  |  +- (com.yahoo.vespa:configdefinitions:jar:6.259.36:provided - omitted for duplicate)
+|  |  \- (com.yahoo.vespa:jrt:jar:6.259.36:provided - omitted for duplicate)
+|  +- (com.yahoo.vespa:document:jar:6.259.36:compile - scope updated from provided; omitted for duplicate)
+|  +- com.yahoo.vespa:documentapi:jar:6.259.36:provided
+|  |  +- (com.yahoo.vespa:component:jar:6.259.36:provided - omitted for duplicate)
+|  |  +- (com.yahoo.vespa:messagebus:jar:6.259.36:provided - omitted for duplicate)
+|  |  +- com.yahoo.vespa:vdslib:jar:6.259.36:provided
+|  |  |  +- (com.yahoo.vespa:document:jar:6.259.36:provided - omitted for duplicate)
+|  |  |  \- (com.yahoo.vespa:configdefinitions:jar:6.259.36:provided - omitted for duplicate)
+|  |  +- (com.yahoo.vespa:vespajlib:jar:6.259.36:provided - omitted for duplicate)
+|  |  +- (com.yahoo.vespa:document:jar:6.259.36:provided - omitted for duplicate)
+|  |  +- (com.yahoo.vespa:configdefinitions:jar:6.259.36:provided - omitted for duplicate)
+|  |  \- (com.yahoo.vespa:annotations:jar:6.259.36:provided - omitted for duplicate)
+|  +- (com.yahoo.vespa:vespajlib:jar:6.259.36:compile - scope updated from provided; omitted for duplicate)
+|  +- com.yahoo.vespa:fileacquirer:jar:6.259.36:provided
+|  \- com.yahoo.vespa:statistics:jar:6.259.36:provided
+|     +- (com.google.code.findbugs:annotations:jar:1.3.9:provided - omitted for duplicate)
+|     +- (com.google.code.findbugs:jsr305:jar:1.3.9:provided - omitted for duplicate)
+|     \- (com.yahoo.vespa:vespalog:jar:6.259.36:provided - omitted for duplicate)
++- commons-collections:commons-collections:jar:3.2.1:compile
++- commons-lang:commons-lang:jar:2.6:compile
++- xerces:xercesImpl:jar:2.11.0:compile
++- com.yahoo.vespa:searchlib:jar:6.259.36:compile
+|  +- com.yahoo.vespa:document:jar:6.259.36:compile
+|  |  +- (commons-codec:commons-codec:jar:1.4:compile - version managed from 1.6; omitted for duplicate)
+|  |  +- (commons-collections:commons-collections:jar:3.2.1:compile - omitted for duplicate)
+|  |  +- net.jpountz.lz4:lz4:jar:1.3.0:compile
+|  |  +- com.yahoo.vespa:config:jar:6.259.36:compile
+|  |  |  +- com.google.code.findbugs:annotations:jar:1.3.9:compile
+|  |  |  +- (com.yahoo.vespa:annotations:jar:6.259.36:compile - omitted for duplicate)
+|  |  |  +- com.yahoo.vespa:config-lib:jar:6.259.36:compile
+|  |  |  |  +- (com.google.code.findbugs:annotations:jar:1.3.9:compile - omitted for duplicate)
+|  |  |  |  +- com.google.code.findbugs:jsr305:jar:1.3.9:compile
+|  |  |  |  \- (com.yahoo.vespa:annotations:jar:6.259.36:compile - omitted for duplicate)
+|  |  |  +- com.yahoo.vespa:configgen:jar:6.259.36:compile
+|  |  |  +- com.yahoo.vespa:jrt:jar:6.259.36:compile
+|  |  |  |  \- (com.yahoo.vespa:annotations:jar:6.259.36:compile - omitted for duplicate)
+|  |  |  +- (com.yahoo.vespa:vespajlib:jar:6.259.36:compile - omitted for duplicate)
+|  |  |  +- com.yahoo.vespa:yolean:jar:6.259.36:compile
+|  |  |  +- com.yahoo.vespa:vespalog:jar:6.259.36:compile
+|  |  |  |  +- (com.yahoo.vespa:vespajlib:jar:6.259.36:compile - omitted for duplicate)
+|  |  |  |  +- (com.yahoo.vespa:defaults:jar:6.259.36:compile - omitted for duplicate)
+|  |  |  |  \- (com.yahoo.vespa:annotations:jar:6.259.36:compile - omitted for duplicate)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.4:compile - omitted for duplicate)
+|  |  |  \- (net.jpountz.lz4:lz4:jar:1.3.0:compile - omitted for duplicate)
+|  |  +- com.yahoo.vespa:predicate-search-core:jar:6.259.36:compile
+|  |  |  +- org.antlr:antlr-runtime:jar:3.5.2:compile
+|  |  |  +- (com.yahoo.vespa:vespajlib:jar:6.259.36:compile - omitted for duplicate)
+|  |  |  \- (com.yahoo.vespa:annotations:jar:6.259.36:compile - omitted for duplicate)
+|  |  +- (com.yahoo.vespa:vespajlib:jar:6.259.36:compile - omitted for duplicate)
+|  |  \- com.yahoo.vespa:annotations:jar:6.259.36:compile
+|  +- com.yahoo.vespa:vespajlib:jar:6.259.36:compile
+|  |  +- (net.jpountz.lz4:lz4:jar:1.3.0:compile - omitted for duplicate)
+|  |  +- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+|  |  \- org.apache.commons:commons-exec:jar:1.3:compile
+|  +- com.google.protobuf:protobuf-java:jar:3.4.0:compile
+|  +- org.tensorflow:proto:jar:1.6.0:compile
+|  |  \- (com.google.protobuf:protobuf-java:jar:3.4.0:compile - version managed from 3.3.1; omitted for duplicate)
+|  \- org.tensorflow:tensorflow:jar:1.6.0:compile
+|     +- org.tensorflow:libtensorflow:jar:1.6.0:compile
+|     \- org.tensorflow:libtensorflow_jni:jar:1.6.0:compile
++- com.yahoo.vespa:fsa:jar:6.259.36:compile
++- org.apache.httpcomponents:httpcore:jar:4.3.3:compile
++- org.apache.httpcomponents:httpclient:jar:4.3.6:compile
+|  +- (org.apache.httpcomponents:httpcore:jar:4.3.3:compile - omitted for duplicate)
+|  +- commons-logging:commons-logging:jar:1.1.1:compile (version managed from 1.1.3)
+|  \- (commons-codec:commons-codec:jar:1.4:compile - version managed from 1.6; omitted for duplicate)
++- commons-codec:commons-codec:jar:1.4:compile
++- com.ibm.icu:icu4j:jar:57.1:compile
++- net.jcip:jcip-annotations:jar:1.0:compile
++- com.fasterxml.jackson.core:jackson-core:jar:2.8.4:provided (scope not updated to compile)
++- com.fasterxml.jackson.core:jackson-databind:jar:2.8.4:compile
+|  \- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.4:compile (version managed from 2.8.0)
++- javax.xml.bind:jaxb-api:jar:2.3.0:test
++- org.antlr:antlr4-runtime:jar:4.5:compile
+|  \- org.abego.treelayout:org.abego.treelayout.core:jar:1.0.1:compile
++- org.mockito:mockito-core:jar:1.9.5:test
+|  +- (org.hamcrest:hamcrest-core:jar:1.3:test - version managed from 1.1; omitted for duplicate)
+|  \- org.objenesis:objenesis:jar:1.0:test
+\- com.yahoo.vespa:testutil:jar:6.259.36:test
+   +- (org.hamcrest:hamcrest-core:jar:1.3:test - version managed from 1.1; omitted for duplicate)
+   +- (org.hamcrest:hamcrest-library:jar:1.3:test - omitted for duplicate)
+   +- uk.co.datumedge:hamcrest-json:jar:0.2:test
+   |  +- org.skyscreamer:jsonassert:jar:1.1.1:test
+   |  |  +- (org.json:json:jar:20090211:test - omitted for duplicate)
+   |  |  \- (commons-collections:commons-collections:jar:3.2.1:test - version managed from 3.0; omitted for duplicate)
+   |  \- (org.hamcrest:hamcrest-core:jar:1.3:test - version managed from 1.1; omitted for duplicate)
+   +- (junit:junit:jar:4.12:test - omitted for duplicate)
+   \- com.google.jimfs:jimfs:jar:1.1:test
+      \- (com.google.guava:guava:jar:18.0:test - omitted for duplicate)

@@ -1,0 +1,26 @@
+org.corpus-tools:pepper-framework:bundle:3.2.1
++- org.corpus-tools:salt-api:jar:3.3.4:compile
+|  +- (org.apache.commons:commons-lang3:jar:3.4:compile - omitted for duplicate)
+|  +- com.neovisionaries:nv-i18n:jar:1.1:compile
+|  +- org.knallgrau.utils:textcat:jar:1.0.1:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for conflict with 1.7.5)
+|  +- com.google.guava:guava:jar:19.0:compile
+|  +- com.fasterxml.woodstox:woodstox-core:jar:5.0.3:compile
+|  |  \- org.codehaus.woodstox:stax2-api:jar:3.1.4:compile
+|  +- org.json:json:jar:20160810:compile
+|  +- org.eclipse.emf:org.eclipse.emf.common:jar:2.9.1-v20130827-0309:compile
+|  +- org.eclipse.emf:org.eclipse.emf.ecore:jar:2.9.1-v20130827-0309:compile
+|  \- org.eclipse.emf:org.eclipse.emf.ecore.xmi:jar:2.9.1-v20130827-0309:compile
++- org.apache.commons:commons-lang3:jar:3.4:compile
++- org.slf4j:slf4j-api:jar:1.7.5:compile
++- junit:junit:jar:4.11:compile
+|  \- org.hamcrest:hamcrest-core:jar:1.3:compile
++- org.assertj:assertj-core:jar:2.4.1:compile
++- xmlunit:xmlunit:jar:1.5:compile
++- org.mockito:mockito-all:jar:1.10.19:test
++- org.osgi:org.osgi.core:jar:4.3.1:provided
++- org.osgi:org.osgi.compendium:jar:4.3.1:provided
++- commons-io:commons-io:jar:2.4:compile
++- org.eclipse.birt.runtime:org.eclipse.osgi.services:jar:3.4.0.v20140312-2051:compile
++- com.carrotgarden.osgi:carrot-osgi-anno-scr-core:jar:2.0.2:provided
+\- com.carrotgarden.osgi:carrot-osgi-anno-scr-make:jar:2.0.2:provided

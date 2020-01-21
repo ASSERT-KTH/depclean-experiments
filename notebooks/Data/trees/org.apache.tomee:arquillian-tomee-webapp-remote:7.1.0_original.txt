@@ -1,0 +1,148 @@
+org.apache.tomee:arquillian-tomee-webapp-remote:jar:7.1.0
++- org.apache.tomee:arquillian-openejb-transaction-provider:jar:7.1.0:compile
+|  +- org.jboss.arquillian.extension:arquillian-transaction-impl-base:jar:1.0.1.Final:compile
+|  |  +- org.jboss.arquillian.extension:arquillian-transaction-api:jar:1.0.1.Final:compile
+|  |  \- org.jboss.arquillian.extension:arquillian-transaction-spi:jar:1.0.1.Final:compile
+|  |     \- (org.jboss.arquillian.extension:arquillian-transaction-api:jar:1.0.1.Final:compile - omitted for duplicate)
+|  +- org.jboss.arquillian.container:arquillian-container-test-spi:jar:1.1.13.Final:compile
+|  |  +- (org.jboss.arquillian.container:arquillian-container-spi:jar:1.1.13.Final:compile - omitted for duplicate)
+|  |  +- (org.jboss.arquillian.test:arquillian-test-spi:jar:1.1.13.Final:compile - omitted for duplicate)
+|  |  \- (org.jboss.arquillian.container:arquillian-container-test-api:jar:1.1.13.Final:compile - omitted for duplicate)
+|  +- org.jboss.arquillian.test:arquillian-test-spi:jar:1.1.13.Final:compile
+|  |  +- (org.jboss.arquillian.core:arquillian-core-spi:jar:1.1.13.Final:compile - omitted for duplicate)
+|  |  \- org.jboss.arquillian.test:arquillian-test-api:jar:1.1.13.Final:compile
+|  |     \- (org.jboss.arquillian.core:arquillian-core-api:jar:1.1.13.Final:compile - omitted for duplicate)
+|  +- org.jboss.arquillian.core:arquillian-core-spi:jar:1.1.13.Final:compile
+|  |  \- org.jboss.arquillian.core:arquillian-core-api:jar:1.1.13.Final:compile
+|  \- (org.jboss.arquillian.container:arquillian-container-spi:jar:1.1.13.Final:compile - omitted for duplicate)
++- org.jboss.arquillian.container:arquillian-container-spi:jar:1.1.13.Final:compile
+|  +- (org.jboss.arquillian.core:arquillian-core-spi:jar:1.1.13.Final:compile - omitted for duplicate)
+|  +- org.jboss.arquillian.config:arquillian-config-api:jar:1.1.13.Final:compile
+|  +- org.jboss.arquillian.config:arquillian-config-impl-base:jar:1.1.13.Final:compile
+|  |  +- (org.jboss.arquillian.config:arquillian-config-api:jar:1.1.13.Final:compile - omitted for duplicate)
+|  |  +- (org.jboss.arquillian.core:arquillian-core-api:jar:1.1.13.Final:compile - omitted for duplicate)
+|  |  \- (org.jboss.arquillian.core:arquillian-core-spi:jar:1.1.13.Final:compile - omitted for duplicate)
+|  \- org.jboss.shrinkwrap:shrinkwrap-api:jar:1.2.6:compile
++- org.jboss.arquillian.protocol:arquillian-protocol-servlet:jar:1.1.13.Final:compile
+|  +- (org.jboss.arquillian.container:arquillian-container-spi:jar:1.1.13.Final:compile - omitted for duplicate)
+|  +- org.jboss.arquillian.container:arquillian-container-test-api:jar:1.1.13.Final:compile
+|  |  \- (org.jboss.shrinkwrap:shrinkwrap-api:jar:1.2.6:compile - omitted for duplicate)
+|  +- (org.jboss.arquillian.container:arquillian-container-test-spi:jar:1.1.13.Final:compile - omitted for duplicate)
+|  \- org.jboss.arquillian.container:arquillian-container-test-impl-base:jar:1.1.13.Final:compile
+|     +- (org.jboss.arquillian.container:arquillian-container-spi:jar:1.1.13.Final:compile - omitted for duplicate)
+|     +- (org.jboss.arquillian.test:arquillian-test-api:jar:1.1.13.Final:compile - omitted for duplicate)
+|     +- (org.jboss.arquillian.container:arquillian-container-test-api:jar:1.1.13.Final:compile - omitted for duplicate)
+|     \- (org.jboss.arquillian.container:arquillian-container-test-spi:jar:1.1.13.Final:compile - omitted for duplicate)
++- org.apache.tomcat:tomcat-catalina:jar:8.5.32:compile
+|  +- org.apache.tomcat:tomcat-servlet-api:jar:8.5.32:compile
+|  +- org.apache.tomcat:tomcat-jsp-api:jar:8.5.32:compile
+|  |  +- (org.apache.tomcat:tomcat-el-api:jar:8.5.32:compile - omitted for duplicate)
+|  |  \- (org.apache.tomcat:tomcat-servlet-api:jar:8.5.32:compile - omitted for duplicate)
+|  +- org.apache.tomcat:tomcat-juli:jar:8.5.32:compile
+|  +- org.apache.tomcat:tomcat-annotations-api:jar:8.5.32:compile
+|  +- org.apache.tomcat:tomcat-api:jar:8.5.32:compile
+|  |  \- (org.apache.tomcat:tomcat-servlet-api:jar:8.5.32:compile - omitted for duplicate)
+|  +- org.apache.tomcat:tomcat-jni:jar:8.5.32:compile
+|  +- (org.apache.tomcat:tomcat-coyote:jar:8.5.32:compile - omitted for duplicate)
+|  +- org.apache.tomcat:tomcat-util:jar:8.5.32:compile
+|  |  \- (org.apache.tomcat:tomcat-juli:jar:8.5.32:compile - omitted for duplicate)
+|  +- org.apache.tomcat:tomcat-util-scan:jar:8.5.32:compile
+|  |  +- (org.apache.tomcat:tomcat-util:jar:8.5.32:compile - omitted for duplicate)
+|  |  +- (org.apache.tomcat:tomcat-juli:jar:8.5.32:compile - omitted for duplicate)
+|  |  \- (org.apache.tomcat:tomcat-api:jar:8.5.32:compile - omitted for duplicate)
+|  \- org.apache.tomcat:tomcat-jaspic-api:jar:8.5.32:compile
++- org.apache.tomcat:tomcat-coyote:jar:8.5.32:compile
+|  +- (org.apache.tomcat:tomcat-servlet-api:jar:8.5.32:compile - omitted for duplicate)
+|  +- (org.apache.tomcat:tomcat-jni:jar:8.5.32:compile - omitted for duplicate)
+|  +- (org.apache.tomcat:tomcat-juli:jar:8.5.32:compile - omitted for duplicate)
+|  \- (org.apache.tomcat:tomcat-util:jar:8.5.32:compile - omitted for duplicate)
++- org.apache.tomcat:tomcat-jasper:jar:8.5.32:compile
+|  +- (org.apache.tomcat:tomcat-servlet-api:jar:8.5.32:compile - omitted for duplicate)
+|  +- (org.apache.tomcat:tomcat-juli:jar:8.5.32:compile - omitted for duplicate)
+|  +- (org.apache.tomcat:tomcat-jsp-api:jar:8.5.32:compile - omitted for duplicate)
+|  +- org.apache.tomcat:tomcat-el-api:jar:8.5.32:compile
+|  +- org.eclipse.jdt:ecj:jar:3.12.3:compile
+|  +- org.apache.tomcat:tomcat-jasper-el:jar:8.5.32:compile
+|  |  \- (org.apache.tomcat:tomcat-el-api:jar:8.5.32:compile - omitted for duplicate)
+|  +- (org.apache.tomcat:tomcat-api:jar:8.5.32:compile - omitted for duplicate)
+|  \- (org.apache.tomcat:tomcat-util-scan:jar:8.5.32:compile - omitted for duplicate)
++- org.jboss.arquillian.junit:arquillian-junit-container:jar:1.1.13.Final:test
+|  +- org.jboss.arquillian.junit:arquillian-junit-core:jar:1.1.13.Final:test
+|  |  \- (org.jboss.arquillian.test:arquillian-test-spi:jar:1.1.13.Final:test - omitted for duplicate)
+|  +- (org.jboss.arquillian.test:arquillian-test-api:jar:1.1.13.Final:compile - scope updated from test; omitted for duplicate)
+|  +- (org.jboss.arquillian.test:arquillian-test-spi:jar:1.1.13.Final:test - omitted for duplicate)
+|  +- (org.jboss.arquillian.container:arquillian-container-test-api:jar:1.1.13.Final:test - omitted for duplicate)
+|  +- (org.jboss.arquillian.container:arquillian-container-test-spi:jar:1.1.13.Final:test - omitted for duplicate)
+|  +- org.jboss.arquillian.core:arquillian-core-impl-base:jar:1.1.13.Final:test
+|  |  +- (org.jboss.arquillian.core:arquillian-core-api:jar:1.1.13.Final:test - omitted for duplicate)
+|  |  \- (org.jboss.arquillian.core:arquillian-core-spi:jar:1.1.13.Final:test - omitted for duplicate)
+|  +- org.jboss.arquillian.test:arquillian-test-impl-base:jar:1.1.13.Final:test
+|  |  +- (org.jboss.arquillian.test:arquillian-test-api:jar:1.1.13.Final:test - omitted for duplicate)
+|  |  \- (org.jboss.arquillian.test:arquillian-test-spi:jar:1.1.13.Final:test - omitted for duplicate)
+|  +- org.jboss.arquillian.container:arquillian-container-impl-base:jar:1.1.13.Final:test
+|  |  +- (org.jboss.arquillian.core:arquillian-core-api:jar:1.1.13.Final:test - omitted for duplicate)
+|  |  +- (org.jboss.arquillian.core:arquillian-core-spi:jar:1.1.13.Final:test - omitted for duplicate)
+|  |  +- (org.jboss.arquillian.config:arquillian-config-api:jar:1.1.13.Final:test - omitted for duplicate)
+|  |  +- (org.jboss.arquillian.config:arquillian-config-impl-base:jar:1.1.13.Final:test - omitted for duplicate)
+|  |  \- (org.jboss.arquillian.container:arquillian-container-spi:jar:1.1.13.Final:test - omitted for duplicate)
+|  +- (org.jboss.arquillian.container:arquillian-container-test-impl-base:jar:1.1.13.Final:test - omitted for duplicate)
+|  \- org.jboss.shrinkwrap:shrinkwrap-impl-base:jar:1.2.6:test
+|     +- (org.jboss.shrinkwrap:shrinkwrap-api:jar:1.2.6:test - omitted for duplicate)
+|     \- org.jboss.shrinkwrap:shrinkwrap-spi:jar:1.2.6:test
+|        \- (org.jboss.shrinkwrap:shrinkwrap-api:jar:1.2.6:test - omitted for duplicate)
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.apache.tomee:openejb-client:jar:7.1.0:compile
+|  +- org.apache.tomee:javaee-api:jar:7.0-1:compile
+|  +- javax.xml.bind:jaxb-api:jar:2.3.0:compile
+|  +- com.sun.xml.bind:jaxb-impl:jar:2.3.0:compile
+|  \- com.sun.xml.bind:jaxb-core:jar:2.3.0:compile
++- org.apache.tomee:openejb-core:jar:7.1.0:compile
+|  +- org.apache.tomee:openejb-jpa-integration:jar:7.1.0:compile
+|  +- org.apache.tomee:openejb-loader:jar:7.1.0:compile
+|  +- org.apache.tomee:openejb-jee-accessors:jar:7.1.0:compile
+|  |  +- (org.apache.tomee:openejb-loader:jar:7.1.0:compile - omitted for duplicate)
+|  |  \- org.metatype.sxc:sxc-jaxb-core:jar:0.8:compile
+|  |     \- org.metatype.sxc:sxc-runtime:jar:0.8:compile
+|  +- commons-collections:commons-collections:jar:3.2.2:compile
+|  +- org.apache.activemq:activemq-jdbc-store:jar:5.14.5:compile
+|  +- org.hsqldb:hsqldb:jar:2.3.2:compile
+|  +- org.apache.commons:commons-dbcp2:jar:2.1:compile
+|  |  \- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  +- org.apache.commons:commons-pool2:jar:2.3:compile
+|  +- commons-logging:commons-logging:jar:1.2:compile
+|  +- org.slf4j:slf4j-jdk14:jar:1.7.21:compile
+|  +- org.slf4j:slf4j-api:jar:1.7.21:compile
+|  +- org.apache.openwebbeans:openwebbeans-impl:jar:1.7.5:compile
+|  |  \- (org.apache.openwebbeans:openwebbeans-spi:jar:1.7.5:compile - omitted for duplicate)
+|  +- org.apache.openwebbeans:openwebbeans-spi:jar:1.7.5:compile
+|  \- org.apache.bval:bval-jsr:jar:1.1.2:compile
++- org.apache.tomee:arquillian-tomee-common:jar:7.1.0:compile
+|  +- (org.apache.tomee:arquillian-common:jar:7.1.0:compile - omitted for duplicate)
+|  +- (org.jboss.arquillian.container:arquillian-container-spi:jar:1.1.13.Final:compile - omitted for duplicate)
+|  +- (org.apache.tomee:javaee-api:jar:7.0-1:compile - omitted for duplicate)
+|  +- org.apache.tomee:tomee-util:jar:7.1.0:compile
+|  |  \- (org.apache.tomee:openejb-core:jar:7.1.0:compile - omitted for duplicate)
+|  +- (org.apache.tomee:openejb-core:jar:7.1.0:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
++- org.apache.tomee:tomee-common:jar:7.1.0:compile
+|  +- (org.apache.tomee:openejb-loader:jar:7.1.0:compile - omitted for duplicate)
+|  +- (org.codehaus.swizzle:swizzle-stream:jar:1.6.2:compile - omitted for duplicate)
+|  +- org.apache.xbean:xbean-naming:jar:4.9:compile
+|  +- (org.apache.tomee:openejb-client:jar:7.1.0:compile - omitted for duplicate)
+|  \- (org.apache.tomee:openejb-core:jar:7.1.0:compile - omitted for duplicate)
++- org.codehaus.swizzle:swizzle-stream:jar:1.6.2:compile
++- org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-impl-javaee:jar:2.0.0:compile
+|  +- org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-api-javaee:jar:2.0.0:compile
+|  |  \- org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-api-base:jar:2.0.0:compile
+|  \- org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-impl-base:jar:2.0.0:compile
+|     \- org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-spi:jar:2.0.0:compile
+|        \- (org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-api-base:jar:2.0.0:compile - omitted for duplicate)
++- commons-httpclient:commons-httpclient:jar:3.1:test
+|  +- (commons-logging:commons-logging:jar:1.2:test - version managed from 1.0.4; omitted for duplicate)
+|  \- commons-codec:commons-codec:jar:1.10:test (version managed from 1.2)
+\- org.apache.tomee:arquillian-common:jar:7.1.0:compile
+   +- (org.jboss.arquillian.test:arquillian-test-spi:jar:1.1.13.Final:compile - omitted for duplicate)
+   +- (org.jboss.arquillian.config:arquillian-config-impl-base:jar:1.1.13.Final:compile - omitted for duplicate)
+   +- (org.jboss.arquillian.container:arquillian-container-spi:jar:1.1.13.Final:compile - omitted for duplicate)
+   \- (org.codehaus.swizzle:swizzle-stream:jar:1.6.2:compile - omitted for duplicate)

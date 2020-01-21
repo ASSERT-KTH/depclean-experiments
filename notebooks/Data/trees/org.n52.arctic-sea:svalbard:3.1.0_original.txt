@@ -1,0 +1,31 @@
+org.n52.arctic-sea:svalbard:jar:3.1.0
++- org.n52.arctic-sea:janmayen:jar:3.1.0:compile
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.9.2:compile
+|  \- com.fasterxml.jackson.core:jackson-databind:jar:2.9.2:compile
+|     \- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.2:compile
++- org.n52.arctic-sea:faroe-annotations:jar:3.1.0:compile
++- org.n52.arctic-sea:faroe-utils:jar:3.1.0:compile
++- org.n52.arctic-sea:shetland:jar:3.1.0:compile
+|  +- org.slf4j:jcl-over-slf4j:jar:1.7.25:runtime
+|  +- org.apache.httpcomponents:httpcore:jar:4.4.8:compile
+|  +- org.apache.httpcomponents:httpclient:jar:4.5.3:compile
+|  +- commons-codec:commons-codec:jar:1.11:runtime
+|  \- commons-lang:commons-lang:jar:2.6:compile
++- joda-time:joda-time:jar:2.9.9:compile
++- org.locationtech.jts:jts-core:jar:1.15.0:compile
++- stax:stax-api:jar:1.0.1:provided
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- com.google.guava:guava:jar:23.4-jre:compile
+|  +- com.google.errorprone:error_prone_annotations:jar:2.0.18:compile
+|  +- com.google.j2objc:j2objc-annotations:jar:1.1:compile
+|  \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:compile
++- javax.inject:javax.inject:jar:1:compile
++- com.google.code.findbugs:jsr305:jar:3.0.1:compile
++- com.google.code.findbugs:findbugs-annotations:jar:3.0.1:provided
++- org.apache.xmlbeans:xmlbeans:jar:2.6.0:compile
++- junit:junit:jar:4.12:test
++- org.hamcrest:hamcrest-all:jar:1.3:test
+\- org.mockito:mockito-core:jar:2.12.0:test
+   +- net.bytebuddy:byte-buddy:jar:1.7.9:test
+   +- net.bytebuddy:byte-buddy-agent:jar:1.7.9:test
+   \- org.objenesis:objenesis:jar:2.6:test

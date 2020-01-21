@@ -1,0 +1,42 @@
+org.ensime:s-express_2.10:jar:2.0.1
++- org.scala-lang:scala-library:jar:2.10.6:compile
++- org.codehaus.janino:janino:jar:2.7.8:test
+|  \- org.codehaus.janino:commons-compiler:jar:2.7.8:test
++- org.scalatest:scalatest_2.10:jar:3.0.3:test
+|  +- (org.scala-lang:scala-library:jar:2.10.6:test - omitted for duplicate)
+|  +- org.scalactic:scalactic_2.10:jar:3.0.3:test
+|  |  +- (org.scala-lang:scala-library:jar:2.10.6:test - omitted for duplicate)
+|  |  \- (org.scala-lang:scala-reflect:jar:2.10.6:test - omitted for duplicate)
+|  \- (org.scala-lang:scala-reflect:jar:2.10.6:compile - scope updated from test; omitted for duplicate)
++- ch.qos.logback:logback-classic:jar:1.2.3:compile
+|  +- ch.qos.logback:logback-core:jar:1.2.3:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- org.slf4j:jul-to-slf4j:jar:1.7.25:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
++- org.slf4j:jcl-over-slf4j:jar:1.7.25:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
++- org.slf4j:log4j-over-slf4j:jar:1.7.25:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
++- com.lihaoyi:fastparse_2.10:jar:1.0.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for duplicate)
+|  +- com.lihaoyi:fastparse-utils_2.10:jar:1.0.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for duplicate)
+|  |  +- (org.scalamacros:quasiquotes_2.10:jar:2.1.0:compile - omitted for duplicate)
+|  |  \- (com.lihaoyi:sourcecode_2.10:jar:0.1.4:compile - omitted for duplicate)
+|  +- org.scalamacros:quasiquotes_2.10:jar:2.1.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.10.4:compile - omitted for conflict with 2.10.6)
+|  |  \- org.scala-lang:scala-reflect:jar:2.10.4:compile
+|  |     \- (org.scala-lang:scala-library:jar:2.10.4:compile - omitted for conflict with 2.10.6)
+|  \- com.lihaoyi:sourcecode_2.10:jar:0.1.4:compile
+|     +- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for duplicate)
+|     \- (org.scalamacros:quasiquotes_2.10:jar:2.1.0:compile - omitted for duplicate)
++- org.scalacheck:scalacheck_2.10:jar:1.13.5:test
+|  +- (org.scala-lang:scala-library:jar:2.10.6:test - omitted for duplicate)
+|  \- org.scala-sbt:test-interface:jar:1.0:test
+\- com.chuusai:shapeless_2.10:jar:2.3.2:compile
+   +- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for duplicate)
+   +- org.typelevel:macro-compat_2.10:jar:1.1.1:compile
+   |  +- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for duplicate)
+   |  \- (org.scalamacros:quasiquotes_2.10:jar:2.1.0:compile - omitted for duplicate)
+   \- (org.scalamacros:quasiquotes_2.10:jar:2.1.0:compile - omitted for duplicate)

@@ -1,0 +1,27 @@
+com.atlassian.bamboo:bamboo-specs:jar:6.6.0-rc1
++- com.atlassian.bamboo:bamboo-specs-api:jar:6.6.0-rc1:compile
++- com.google.code.gson:gson:jar:2.8.0:compile
++- org.apache.commons:commons-lang3:jar:3.4:compile
++- commons-validator:commons-validator:jar:1.5.1:compile
+|  +- commons-beanutils:commons-beanutils:jar:1.9.2:compile
+|  +- commons-digester:commons-digester:jar:1.8.1:compile
+|  +- commons-logging:commons-logging:jar:1.2:compile
+|  \- commons-collections:commons-collections:jar:3.2.2:compile
++- org.jetbrains:annotations:jar:13.0:compile
++- org.yaml:snakeyaml:jar:1.18:compile
++- org.apache.httpcomponents:httpclient:jar:4.5.2:compile
+|  +- org.apache.httpcomponents:httpcore:jar:4.4.4:compile
+|  \- commons-codec:commons-codec:jar:1.9:compile
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.hamcrest:hamcrest-all:jar:1.3:test
++- org.reflections:reflections:jar:0.9.10:test
+|  +- com.google.guava:guava:jar:15.0:test
+|  +- org.javassist:javassist:jar:3.19.0-GA:test
+|  \- com.google.code.findbugs:annotations:jar:2.0.1:test
++- org.springframework:spring-core:jar:4.2.8.RELEASE:test
++- org.mockito:mockito-core:jar:2.2.0:test
+|  +- net.bytebuddy:byte-buddy:jar:1.4.26:test
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.4.26:test
+|  \- org.objenesis:objenesis:jar:2.4:test
+\- pl.pragmatists:JUnitParams:jar:1.0.5:test

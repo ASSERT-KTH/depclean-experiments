@@ -1,0 +1,44 @@
+com.cehome:task-console-core:jar:2.0.5
++- junit:junit:jar:3.8.1:test
++- com.cehome:task:jar:2.0.5:compile
+|  +- com.cehome:jsharp:jar:1.35:compile
+|  |  +- commons-dbutils:commons-dbutils:jar:1.5:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.6.1:compile - omitted for conflict with 1.7.22)
+|  |  +- cglib:cglib-nodep:jar:2.2:compile
+|  |  +- javax.persistence:persistence-api:jar:1.0:compile
+|  |  +- commons-io:commons-io:jar:2.3:compile
+|  |  +- commons-beanutils:commons-beanutils:jar:1.8.3:compile
+|  |  |  \- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for conflict with 1.2)
+|  |  +- commons-lang:commons-lang:jar:2.6:compile
+|  |  \- com.alibaba:fastjson:jar:1.2.25:compile
+|  +- com.h2database:h2:jar:1.4.196:compile
+|  +- mysql:mysql-connector-java:jar:5.1.25:compile
+|  +- org.apache.httpcomponents:httpclient:jar:4.5.1:compile
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.4.3:compile
+|  |  +- commons-logging:commons-logging:jar:1.2:compile
+|  |  \- commons-codec:commons-codec:jar:1.9:compile
+|  +- org.apache.tomcat:tomcat-jdbc:jar:8.5.20:compile
+|  |  \- org.apache.tomcat:tomcat-juli:jar:8.5.20:compile
+|  +- redis.clients:jedis:jar:2.9.0:compile
+|  |  \- org.apache.commons:commons-pool2:jar:2.4.2:compile
+|  \- org.apache.commons:commons-lang3:jar:3.1:compile
++- javax.servlet:servlet-api:jar:2.5:provided
++- org.springframework:spring-web:jar:3.2.2.RELEASE:provided
+|  +- aopalliance:aopalliance:jar:1.0:provided
+|  +- org.springframework:spring-aop:jar:3.2.2.RELEASE:provided
+|  |  +- (aopalliance:aopalliance:jar:1.0:provided - omitted for duplicate)
+|  |  +- (org.springframework:spring-beans:jar:3.2.2.RELEASE:provided - omitted for duplicate)
+|  |  \- (org.springframework:spring-core:jar:3.2.2.RELEASE:provided - omitted for duplicate)
+|  +- org.springframework:spring-beans:jar:3.2.2.RELEASE:provided
+|  |  \- (org.springframework:spring-core:jar:3.2.2.RELEASE:provided - omitted for duplicate)
+|  +- org.springframework:spring-context:jar:3.2.2.RELEASE:provided
+|  |  +- (org.springframework:spring-aop:jar:3.2.2.RELEASE:provided - omitted for duplicate)
+|  |  +- (org.springframework:spring-beans:jar:3.2.2.RELEASE:provided - omitted for duplicate)
+|  |  +- (org.springframework:spring-core:jar:3.2.2.RELEASE:provided - omitted for duplicate)
+|  |  \- org.springframework:spring-expression:jar:3.2.2.RELEASE:provided
+|  |     \- (org.springframework:spring-core:jar:3.2.2.RELEASE:provided - omitted for duplicate)
+|  \- org.springframework:spring-core:jar:3.2.2.RELEASE:provided
+|     \- (commons-logging:commons-logging:jar:1.1.1:provided - omitted for conflict with 1.2)
+\- ch.qos.logback:logback-classic:jar:1.1.11:compile
+   +- ch.qos.logback:logback-core:jar:1.1.11:compile
+   \- org.slf4j:slf4j-api:jar:1.7.22:compile

@@ -1,0 +1,23 @@
+com.devops4j.io:devops4j-io:jar:0.0.1-alpha
++- commons-io:commons-io:jar:2.5:compile
++- commons-lang:commons-lang:jar:2.6:compile
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- javax.servlet:javax.servlet-api:jar:3.1.0:compile
++- org.projectlombok:lombok:jar:1.16.10:compile
++- com.devops4j.groundwork:groundwork:jar:1.0.1:compile
++- org.apache.logging.log4j:log4j-api:jar:2.7:compile
++- org.apache.logging.log4j:log4j-core:jar:2.7:compile
+|  \- (org.apache.logging.log4j:log4j-api:jar:2.7:compile - omitted for duplicate)
++- org.apache.logging.log4j:log4j-slf4j-impl:jar:2.7:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|  \- (org.apache.logging.log4j:log4j-api:jar:2.7:compile - omitted for duplicate)
++- org.slf4j:log4j-over-slf4j:jar:1.7.5:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for conflict with 1.7.21)
++- org.slf4j:jcl-over-slf4j:jar:1.7.21:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
++- org.slf4j:jul-to-slf4j:jar:1.7.21:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
++- org.slf4j:slf4j-api:jar:1.7.21:compile
++- com.lmax:disruptor:jar:3.3.5:compile
+\- commons-codec:commons-codec:jar:1.9:compile

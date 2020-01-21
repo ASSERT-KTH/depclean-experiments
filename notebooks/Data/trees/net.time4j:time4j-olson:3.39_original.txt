@@ -1,0 +1,6 @@
+net.time4j:time4j-olson:jar:3.39
++- net.time4j:time4j-core:jar:3.39:compile
++- net.time4j:time4j-i18n:jar:3.39:compile
+|  \- (net.time4j:time4j-core:jar:3.39:compile - omitted for duplicate)
+\- junit:junit:jar:4.11:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

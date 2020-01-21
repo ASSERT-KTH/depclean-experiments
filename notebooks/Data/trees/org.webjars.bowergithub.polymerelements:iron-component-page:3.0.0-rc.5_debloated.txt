@@ -1,0 +1,44 @@
+org.webjars.bowergithub.polymerelements:iron-component-page:jar:3.0.0-rc.5
++- org.webjars.bowergithub.polymer:polymer:jar:2.8.0:compile
+|  +- org.webjars.bowergithub.webcomponents:shadycss:jar:1.9.1:compile
+|  \- org.webjars.bowergithub.webcomponents:webcomponentsjs:jar:2.0.0-beta.3:compile
++- org.webjars.bowergithub.polymerelements:paper-icon-button:jar:2.2.1:compile
+|  +- (org.webjars.bowergithub.polymer:polymer:jar:2.8.0:compile - omitted for duplicate)
+|  +- org.webjars.bowergithub.polymerelements:iron-icon:jar:2.1.0:compile
+|  |  +- (org.webjars.bowergithub.polymerelements:iron-flex-layout:jar:2.0.3:compile - omitted for duplicate)
+|  |  +- org.webjars.bowergithub.polymerelements:iron-meta:jar:2.1.1:compile
+|  |  |  \- (org.webjars.bowergithub.polymer:polymer:jar:2.8.0:compile - omitted for duplicate)
+|  |  \- (org.webjars.bowergithub.polymer:polymer:jar:2.8.0:compile - omitted for duplicate)
+|  +- org.webjars.bowergithub.polymerelements:paper-behaviors:jar:2.1.1:compile
+|  |  +- org.webjars.bowergithub.polymerelements:iron-behaviors:jar:2.1.1:compile
+|  |  |  +- (org.webjars.bowergithub.polymer:polymer:jar:2.8.0:compile - omitted for duplicate)
+|  |  |  \- (org.webjars.bowergithub.polymerelements:iron-a11y-keys-behavior:jar:2.1.1:compile - omitted for duplicate)
+|  |  +- org.webjars.bowergithub.polymerelements:iron-checked-element-behavior:jar:2.1.1:compile
+|  |  |  +- (org.webjars.bowergithub.polymer:polymer:jar:2.8.0:compile - omitted for duplicate)
+|  |  |  +- org.webjars.bowergithub.polymerelements:iron-validatable-behavior:jar:2.1.0:compile
+|  |  |  |  +- (org.webjars.bowergithub.polymerelements:iron-meta:jar:2.1.1:compile - omitted for duplicate)
+|  |  |  |  \- (org.webjars.bowergithub.polymer:polymer:jar:2.8.0:compile - omitted for duplicate)
+|  |  |  \- org.webjars.bowergithub.polymerelements:iron-form-element-behavior:jar:2.1.3:compile
+|  |  |     \- (org.webjars.bowergithub.polymer:polymer:jar:2.8.0:compile - omitted for duplicate)
+|  |  +- org.webjars.bowergithub.polymerelements:paper-ripple:jar:2.1.1:compile
+|  |  |  +- (org.webjars.bowergithub.polymerelements:iron-a11y-keys-behavior:jar:2.1.1:compile - omitted for duplicate)
+|  |  |  \- (org.webjars.bowergithub.polymer:polymer:jar:2.8.0:compile - omitted for duplicate)
+|  |  \- (org.webjars.bowergithub.polymer:polymer:jar:2.8.0:compile - omitted for duplicate)
+|  \- (org.webjars.bowergithub.polymerelements:paper-styles:jar:2.1.0:compile - omitted for duplicate)
++- org.webjars.bowergithub.polymerelements:iron-icons:jar:2.1.1:compile
+|  +- (org.webjars.bowergithub.polymerelements:iron-icon:jar:2.1.0:compile - omitted for duplicate)
+|  +- org.webjars.bowergithub.polymerelements:iron-iconset-svg:jar:2.2.1:compile
+|  |  +- (org.webjars.bowergithub.polymer:polymer:jar:2.8.0:compile - omitted for duplicate)
+|  |  \- (org.webjars.bowergithub.polymerelements:iron-meta:jar:2.1.1:compile - omitted for duplicate)
+|  \- (org.webjars.bowergithub.polymer:polymer:jar:2.8.0:compile - omitted for duplicate)
+\- org.webjars.bowergithub.polymerelements:iron-doc-viewer:jar:3.3.2:compile
+   +- org.webjars.bowergithub.polymerelements:prism-element:jar:2.1.0:compile
+   |  +- org.webjars.bowergithub.prismjs:prism:jar:1.16.0:compile
+   |  \- (org.webjars.bowergithub.polymer:polymer:jar:2.8.0:compile - omitted for duplicate)
+   +- (org.webjars.bowergithub.polymer:polymer:jar:2.8.0:compile - omitted for duplicate)
+   +- org.webjars.bowergithub.polymerelements:marked-element:jar:2.4.0:compile
+   |  +- org.webjars.bowergithub.markedjs:marked:jar:0.3.19:compile
+   |  \- (org.webjars.bowergithub.polymer:polymer:jar:2.8.0:compile - omitted for duplicate)
+   +- org.webjars.bowergithub.polymerelements:iron-location:jar:2.2.2:compile
+   |  \- (org.webjars.bowergithub.polymer:polymer:jar:2.8.0:compile - omitted for duplicate)
+   \- (org.webjars.bowergithub.polymerelements:paper-styles:jar:2.1.0:compile - omitted for duplicate)

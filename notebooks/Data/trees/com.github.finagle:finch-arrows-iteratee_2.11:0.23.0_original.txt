@@ -1,0 +1,250 @@
+com.github.finagle:finch-arrows-iteratee_2.11:jar:0.23.0
++- org.scala-lang:scala-library:jar:2.11.12:compile
++- com.github.finagle:finch-arrows-core_2.11:jar:0.23.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  +- (com.chuusai:shapeless_2.11:jar:2.3.3:compile - omitted for duplicate)
+|  +- (org.typelevel:cats-core_2.11:jar:1.1.0:compile - omitted for duplicate)
+|  +- (com.twitter:finagle-http_2.11:jar:18.8.0:compile - omitted for duplicate)
+|  +- (org.scala-lang:scala-reflect:jar:2.11.12:compile - omitted for duplicate)
+|  \- (io.trane:arrows-twitter_2.11:jar:0.1.22:compile - omitted for duplicate)
++- com.chuusai:shapeless_2.11:jar:2.3.3:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  \- org.typelevel:macro-compat_2.11:jar:1.1.1:compile
+|     \- (org.scala-lang:scala-library:jar:2.11.7:compile - omitted for conflict with 2.11.12)
++- org.typelevel:cats-core_2.11:jar:1.1.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  +- org.typelevel:cats-macros_2.11:jar:1.1.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  |  \- (org.typelevel:machinist_2.11:jar:0.6.2:compile - omitted for duplicate)
+|  +- org.typelevel:cats-kernel_2.11:jar:1.1.0:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  \- org.typelevel:machinist_2.11:jar:0.6.2:compile
+|     +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.12)
+|     \- (org.scala-lang:scala-reflect:jar:2.11.8:compile - omitted for conflict with 2.11.12)
++- com.twitter:finagle-http_2.11:jar:18.8.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
+|  +- com.twitter:finagle-base-http_2.11:jar:18.8.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
+|  |  +- com.twitter:finagle-core_2.11:jar:18.8.0:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
+|  |  |  +- (com.twitter:finagle-toggle_2.11:jar:18.8.0:compile - omitted for duplicate)
+|  |  |  +- com.twitter:finagle-init_2.11:jar:18.8.0:compile
+|  |  |  |  \- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
+|  |  |  +- (com.twitter:util-app_2.11:jar:18.8.0:compile - omitted for duplicate)
+|  |  |  +- (com.twitter:util-cache_2.11:jar:18.8.0:compile - omitted for duplicate)
+|  |  |  +- (com.twitter:util-codec_2.11:jar:18.8.0:compile - omitted for duplicate)
+|  |  |  +- (com.twitter:util-core_2.11:jar:18.8.0:compile - omitted for duplicate)
+|  |  |  +- com.twitter:util-hashing_2.11:jar:18.8.0:compile
+|  |  |  |  \- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
+|  |  |  +- (com.twitter:util-jvm_2.11:jar:18.8.0:compile - omitted for duplicate)
+|  |  |  +- com.twitter:util-lint_2.11:jar:18.8.0:compile
+|  |  |  |  +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
+|  |  |  |  \- (com.twitter:util-core_2.11:jar:18.8.0:compile - omitted for duplicate)
+|  |  |  +- (com.twitter:util-logging_2.11:jar:18.8.0:compile - omitted for duplicate)
+|  |  |  +- com.twitter:util-registry_2.11:jar:18.8.0:compile
+|  |  |  |  +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
+|  |  |  |  \- (com.twitter:util-core_2.11:jar:18.8.0:compile - omitted for duplicate)
+|  |  |  +- com.twitter:util-security_2.11:jar:18.8.0:compile
+|  |  |  |  +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
+|  |  |  |  +- (com.twitter:util-core_2.11:jar:18.8.0:compile - omitted for duplicate)
+|  |  |  |  \- (com.twitter:util-logging_2.11:jar:18.8.0:compile - omitted for duplicate)
+|  |  |  +- (com.twitter:util-stats_2.11:jar:18.8.0:compile - omitted for duplicate)
+|  |  |  +- com.twitter:util-tunable_2.11:jar:18.8.0:compile
+|  |  |  |  +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
+|  |  |  |  +- (com.twitter:util-app_2.11:jar:18.8.0:compile - omitted for duplicate)
+|  |  |  |  +- (com.twitter:util-core_2.11:jar:18.8.0:compile - omitted for duplicate)
+|  |  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.4:compile - omitted for duplicate)
+|  |  |  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.4:compile - omitted for duplicate)
+|  |  |  |  \- (com.fasterxml.jackson.module:jackson-module-scala_2.11:jar:2.8.4:compile - omitted for duplicate)
+|  |  |  +- com.github.ben-manes.caffeine:caffeine:jar:2.3.4:compile
+|  |  |  +- org.hdrhistogram:HdrHistogram:jar:2.1.10:compile
+|  |  |  \- com.google.code.findbugs:jsr305:jar:2.0.1:compile
+|  |  +- com.twitter:finagle-netty3_2.11:jar:18.8.0:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
+|  |  |  +- (com.twitter:finagle-core_2.11:jar:18.8.0:compile - omitted for duplicate)
+|  |  |  +- (com.twitter:util-app_2.11:jar:18.8.0:compile - omitted for duplicate)
+|  |  |  +- (com.twitter:util-cache_2.11:jar:18.8.0:compile - omitted for duplicate)
+|  |  |  +- (com.twitter:util-codec_2.11:jar:18.8.0:compile - omitted for duplicate)
+|  |  |  +- (com.twitter:util-core_2.11:jar:18.8.0:compile - omitted for duplicate)
+|  |  |  +- (com.twitter:util-lint_2.11:jar:18.8.0:compile - omitted for duplicate)
+|  |  |  +- (com.twitter:util-stats_2.11:jar:18.8.0:compile - omitted for duplicate)
+|  |  |  \- io.netty:netty:jar:3.10.1.Final:compile
+|  |  +- (com.twitter:finagle-toggle_2.11:jar:18.8.0:compile - omitted for duplicate)
+|  |  +- com.twitter:finagle-http-cookie_2.11:jar:18.8.0:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
+|  |  |  \- (io.netty:netty:jar:3.10.1.Final:compile - omitted for duplicate)
+|  |  +- (com.twitter:util-collection_2.11:jar:18.8.0:compile - omitted for duplicate)
+|  |  +- (com.twitter:util-logging_2.11:jar:18.8.0:compile - omitted for duplicate)
+|  |  +- io.netty:netty-codec-http:jar:4.1.16.Final:compile
+|  |  |  \- io.netty:netty-codec:jar:4.1.16.Final:compile
+|  |  |     \- (io.netty:netty-transport:jar:4.1.16.Final:compile - omitted for duplicate)
+|  |  +- io.netty:netty-handler:jar:4.1.16.Final:compile
+|  |  |  +- io.netty:netty-buffer:jar:4.1.16.Final:compile
+|  |  |  |  \- (io.netty:netty-common:jar:4.1.16.Final:compile - omitted for duplicate)
+|  |  |  +- (io.netty:netty-transport:jar:4.1.16.Final:compile - omitted for duplicate)
+|  |  |  \- (io.netty:netty-codec:jar:4.1.16.Final:compile - omitted for duplicate)
+|  |  +- io.netty:netty-transport:jar:4.1.16.Final:compile
+|  |  |  +- (io.netty:netty-buffer:jar:4.1.16.Final:compile - omitted for duplicate)
+|  |  |  \- io.netty:netty-resolver:jar:4.1.16.Final:compile
+|  |  |     \- (io.netty:netty-common:jar:4.1.16.Final:compile - omitted for duplicate)
+|  |  +- io.netty:netty-transport-native-epoll:jar:linux-x86_64:4.1.16.Final:compile
+|  |  |  +- io.netty:netty-common:jar:4.1.16.Final:compile
+|  |  |  +- (io.netty:netty-buffer:jar:4.1.16.Final:compile - omitted for duplicate)
+|  |  |  +- (io.netty:netty-transport-native-unix-common:jar:4.1.16.Final:compile - omitted for duplicate)
+|  |  |  \- (io.netty:netty-transport:jar:4.1.16.Final:compile - omitted for duplicate)
+|  |  +- io.netty:netty-transport-native-unix-common:jar:4.1.16.Final:compile
+|  |  |  +- (io.netty:netty-common:jar:4.1.16.Final:compile - omitted for duplicate)
+|  |  |  \- (io.netty:netty-transport:jar:4.1.16.Final:compile - omitted for duplicate)
+|  |  \- io.netty:netty-handler-proxy:jar:4.1.16.Final:compile
+|  |     +- (io.netty:netty-transport:jar:4.1.16.Final:compile - omitted for duplicate)
+|  |     +- io.netty:netty-codec-socks:jar:4.1.16.Final:compile
+|  |     |  \- (io.netty:netty-codec:jar:4.1.16.Final:compile - omitted for duplicate)
+|  |     \- (io.netty:netty-codec-http:jar:4.1.16.Final:compile - omitted for duplicate)
+|  +- com.twitter:finagle-netty4-http_2.11:jar:18.8.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
+|  |  +- com.twitter:finagle-netty4_2.11:jar:18.8.0:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
+|  |  |  +- (com.twitter:finagle-core_2.11:jar:18.8.0:compile - omitted for duplicate)
+|  |  |  +- (com.twitter:finagle-toggle_2.11:jar:18.8.0:compile - omitted for duplicate)
+|  |  |  +- (com.twitter:util-app_2.11:jar:18.8.0:compile - omitted for duplicate)
+|  |  |  +- (com.twitter:util-cache_2.11:jar:18.8.0:compile - omitted for duplicate)
+|  |  |  +- (com.twitter:util-codec_2.11:jar:18.8.0:compile - omitted for duplicate)
+|  |  |  +- (com.twitter:util-core_2.11:jar:18.8.0:compile - omitted for duplicate)
+|  |  |  +- (com.twitter:util-lint_2.11:jar:18.8.0:compile - omitted for duplicate)
+|  |  |  +- (com.twitter:util-stats_2.11:jar:18.8.0:compile - omitted for duplicate)
+|  |  |  +- (io.netty:netty-handler:jar:4.1.16.Final:compile - omitted for duplicate)
+|  |  |  +- (io.netty:netty-transport:jar:4.1.16.Final:compile - omitted for duplicate)
+|  |  |  +- (io.netty:netty-transport-native-epoll:jar:linux-x86_64:4.1.16.Final:compile - omitted for duplicate)
+|  |  |  +- (io.netty:netty-transport-native-unix-common:jar:4.1.16.Final:compile - omitted for duplicate)
+|  |  |  \- (io.netty:netty-handler-proxy:jar:4.1.16.Final:compile - omitted for duplicate)
+|  |  +- (com.twitter:finagle-base-http_2.11:jar:18.8.0:compile - omitted for duplicate)
+|  |  +- com.twitter:util-app_2.11:jar:18.8.0:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
+|  |  |  +- (com.twitter:util-core_2.11:jar:18.8.0:compile - omitted for duplicate)
+|  |  |  \- (com.twitter:util-registry_2.11:jar:18.8.0:compile - omitted for duplicate)
+|  |  +- (com.twitter:util-codec_2.11:jar:18.8.0:compile - omitted for duplicate)
+|  |  +- (com.twitter:util-core_2.11:jar:18.8.0:compile - omitted for duplicate)
+|  |  +- com.twitter:util-jvm_2.11:jar:18.8.0:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
+|  |  |  +- (com.twitter:util-app_2.11:jar:18.8.0:compile - omitted for duplicate)
+|  |  |  +- (com.twitter:util-core_2.11:jar:18.8.0:compile - omitted for duplicate)
+|  |  |  \- (com.twitter:util-stats_2.11:jar:18.8.0:compile - omitted for duplicate)
+|  |  +- com.twitter:util-stats_2.11:jar:18.8.0:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
+|  |  |  +- (com.twitter:util-core_2.11:jar:18.8.0:compile - omitted for duplicate)
+|  |  |  +- (com.twitter:util-lint_2.11:jar:18.8.0:compile - omitted for duplicate)
+|  |  |  +- (com.github.ben-manes.caffeine:caffeine:jar:2.3.4:compile - omitted for duplicate)
+|  |  |  \- (com.google.code.findbugs:jsr305:jar:2.0.1:compile - omitted for duplicate)
+|  |  +- commons-lang:commons-lang:jar:2.6:compile
+|  |  \- (io.netty:netty-codec-http:jar:4.1.16.Final:compile - omitted for duplicate)
+|  +- com.twitter:finagle-http2_2.11:jar:18.8.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
+|  |  +- (com.twitter:finagle-core_2.11:jar:18.8.0:compile - omitted for duplicate)
+|  |  +- (com.twitter:finagle-netty4_2.11:jar:18.8.0:compile - omitted for duplicate)
+|  |  +- (com.twitter:finagle-netty4-http_2.11:jar:18.8.0:compile - omitted for duplicate)
+|  |  +- (com.twitter:finagle-base-http_2.11:jar:18.8.0:compile - omitted for duplicate)
+|  |  +- (io.netty:netty-codec-http:jar:4.1.16.Final:compile - omitted for duplicate)
+|  |  +- io.netty:netty-codec-http2:jar:4.1.16.Final:compile
+|  |  |  +- (io.netty:netty-codec-http:jar:4.1.16.Final:compile - omitted for duplicate)
+|  |  |  \- (io.netty:netty-handler:jar:4.1.16.Final:compile - omitted for duplicate)
+|  |  +- (io.netty:netty-tcnative-boringssl-static:jar:2.0.6.Final:compile - omitted for duplicate)
+|  |  +- com.twitter:util-cache_2.11:jar:18.8.0:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
+|  |  |  +- (com.twitter:util-core_2.11:jar:18.8.0:compile - omitted for duplicate)
+|  |  |  +- (com.github.ben-manes.caffeine:caffeine:jar:2.3.4:compile - omitted for duplicate)
+|  |  |  \- (com.google.code.findbugs:jsr305:jar:2.0.1:compile - omitted for duplicate)
+|  |  +- (com.twitter:util-core_2.11:jar:18.8.0:compile - omitted for duplicate)
+|  |  +- (com.twitter:util-logging_2.11:jar:18.8.0:compile - omitted for duplicate)
+|  |  +- (io.netty:netty-handler:jar:4.1.16.Final:compile - omitted for duplicate)
+|  |  +- (io.netty:netty-transport:jar:4.1.16.Final:compile - omitted for duplicate)
+|  |  +- (io.netty:netty-transport-native-epoll:jar:linux-x86_64:4.1.16.Final:compile - omitted for duplicate)
+|  |  +- (io.netty:netty-transport-native-unix-common:jar:4.1.16.Final:compile - omitted for duplicate)
+|  |  \- (io.netty:netty-handler-proxy:jar:4.1.16.Final:compile - omitted for duplicate)
+|  +- com.twitter:finagle-toggle_2.11:jar:18.8.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
+|  |  +- (com.twitter:util-app_2.11:jar:18.8.0:compile - omitted for duplicate)
+|  |  +- (com.twitter:util-core_2.11:jar:18.8.0:compile - omitted for duplicate)
+|  |  +- (com.twitter:util-logging_2.11:jar:18.8.0:compile - omitted for duplicate)
+|  |  +- (com.twitter:util-stats_2.11:jar:18.8.0:compile - omitted for duplicate)
+|  |  +- com.fasterxml.jackson.core:jackson-core:jar:2.8.4:compile
+|  |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.8.4:compile
+|  |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile
+|  |  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.8.4:compile - omitted for duplicate)
+|  |  \- com.fasterxml.jackson.module:jackson-module-scala_2.11:jar:2.8.4:compile
+|  |     +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.12)
+|  |     +- (org.scala-lang:scala-reflect:jar:2.11.8:compile - omitted for conflict with 2.11.12)
+|  |     +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.4:compile - omitted for duplicate)
+|  |     +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.4:compile - omitted for conflict with 2.8.0)
+|  |     +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.4:compile - omitted for duplicate)
+|  |     \- com.fasterxml.jackson.module:jackson-module-paranamer:jar:2.8.4:compile
+|  |        +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.4:compile - omitted for duplicate)
+|  |        \- com.thoughtworks.paranamer:paranamer:jar:2.8:compile
+|  +- com.twitter:util-codec_2.11:jar:18.8.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
+|  |  \- (com.twitter:util-core_2.11:jar:18.8.0:compile - omitted for duplicate)
+|  +- com.twitter:util-collection_2.11:jar:18.8.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
+|  |  \- (com.twitter:util-core_2.11:jar:18.8.0:compile - omitted for duplicate)
+|  +- com.twitter:util-logging_2.11:jar:18.8.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
+|  |  +- (com.twitter:util-core_2.11:jar:18.8.0:compile - omitted for duplicate)
+|  |  +- (com.twitter:util-app_2.11:jar:18.8.0:compile - omitted for duplicate)
+|  |  \- (com.twitter:util-stats_2.11:jar:18.8.0:compile - omitted for duplicate)
+|  \- io.netty:netty-tcnative-boringssl-static:jar:2.0.6.Final:compile
++- org.scala-lang:scala-reflect:jar:2.11.12:compile
+|  \- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
++- io.trane:arrows-twitter_2.11:jar:0.1.22:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  \- com.twitter:util-core_2.11:jar:18.8.0:compile
+|     +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
+|     +- com.twitter:util-function_2.11:jar:18.8.0:compile
+|     |  \- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
+|     +- (org.scala-lang:scala-reflect:jar:2.11.11:compile - omitted for conflict with 2.11.12)
+|     \- org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.0.4:compile
+|        \- (org.scala-lang:scala-library:jar:2.11.6:compile - omitted for conflict with 2.11.12)
++- io.catbird:catbird-util_2.11:jar:18.8.0:test (scope not updated to compile)
+|  +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|  +- (org.typelevel:cats-core_2.11:jar:1.1.0:test - omitted for duplicate)
+|  \- (com.twitter:util-core_2.11:jar:18.8.0:test - omitted for duplicate)
++- org.scalacheck:scalacheck_2.11:jar:1.13.5:test
+|  +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.12)
+|  \- org.scala-sbt:test-interface:jar:1.0:test
++- org.scalatest:scalatest_2.11:jar:3.0.5:test
+|  +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|  +- org.scalactic:scalactic_2.11:jar:3.0.5:test
+|  |  +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|  |  \- (org.scala-lang:scala-reflect:jar:2.11.12:test - omitted for duplicate)
+|  +- (org.scala-lang:scala-reflect:jar:2.11.12:test - omitted for duplicate)
+|  \- org.scala-lang.modules:scala-xml_2.11:jar:1.0.6:test
+|     \- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.12)
++- org.typelevel:cats-laws_2.11:jar:1.1.0:test
+|  +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|  +- (org.typelevel:cats-macros_2.11:jar:1.1.0:test - omitted for duplicate)
+|  +- (org.typelevel:cats-kernel_2.11:jar:1.1.0:test - omitted for duplicate)
+|  +- (org.typelevel:cats-core_2.11:jar:1.1.0:test - omitted for duplicate)
+|  +- org.typelevel:cats-kernel-laws_2.11:jar:1.1.0:test
+|  |  +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|  |  +- (org.typelevel:cats-kernel_2.11:jar:1.1.0:test - omitted for duplicate)
+|  |  +- (org.scalacheck:scalacheck_2.11:jar:1.13.5:test - omitted for duplicate)
+|  |  +- (org.typelevel:discipline_2.11:jar:0.8:test - omitted for duplicate)
+|  |  \- (org.typelevel:catalysts-platform_2.11:jar:0.0.5:test - omitted for duplicate)
+|  +- (org.typelevel:machinist_2.11:jar:0.6.2:test - omitted for duplicate)
+|  +- (org.scalacheck:scalacheck_2.11:jar:1.13.5:test - omitted for duplicate)
+|  +- (org.typelevel:discipline_2.11:jar:0.8:test - omitted for conflict with 0.9.0)
+|  \- org.typelevel:catalysts-platform_2.11:jar:0.0.5:test
+|     +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.12)
+|     \- org.typelevel:catalysts-macros_2.11:jar:0.0.5:test
+|        +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.12)
+|        \- (org.typelevel:macro-compat_2.11:jar:1.1.1:test - omitted for duplicate)
++- org.typelevel:discipline_2.11:jar:0.9.0:test
+|  +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|  \- (org.scalacheck:scalacheck_2.11:jar:1.13.5:test - omitted for duplicate)
++- io.iteratee:iteratee-core_2.11:jar:0.17.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  \- (org.typelevel:cats-core_2.11:jar:1.0.1:compile - omitted for conflict with 1.1.0)
+\- io.iteratee:iteratee-twitter_2.11:jar:18.8.0:compile
+   +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+   +- io.iteratee:iteratee-files_2.11:jar:0.17.0:compile
+   |  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+   |  \- (io.iteratee:iteratee-core_2.11:jar:0.17.0:compile - omitted for duplicate)
+   \- (io.catbird:catbird-util_2.11:jar:18.8.0:compile - omitted for duplicate)

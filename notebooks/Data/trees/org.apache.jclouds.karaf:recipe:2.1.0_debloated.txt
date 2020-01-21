@@ -1,0 +1,18 @@
+org.apache.jclouds.karaf:recipe:bundle:2.1.0
++- org.osgi:org.osgi.core:jar:6.0.0:compile
++- org.apache.jclouds:jclouds-core:jar:2.1.0:compile
+|  +- javax.ws.rs:javax.ws.rs-api:jar:2.0.1:compile
+|  +- com.google.inject.extensions:guice-assistedinject:jar:3.0:compile
+|  |  \- (com.google.inject:guice:jar:3.0:compile - omitted for duplicate)
+|  +- com.google.inject:guice:jar:3.0:compile
+|  |  +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  |  \- aopalliance:aopalliance:jar:1.0:compile
+|  +- javax.inject:javax.inject:jar:1:compile
+|  +- javax.annotation:jsr250-api:jar:1.0:compile
+|  +- com.google.code.gson:gson:jar:2.5:compile
+|  +- (com.google.guava:guava:jar:18.0:compile - omitted for duplicate)
+|  \- com.google.errorprone:error_prone_annotations:jar:2.1.0:compile
++- org.apache.jclouds:jclouds-scriptbuilder:jar:2.1.0:compile
+|  +- (org.apache.jclouds:jclouds-core:jar:2.1.0:compile - omitted for duplicate)
+|  \- (com.google.errorprone:error_prone_annotations:jar:2.1.0:compile - omitted for duplicate)
+\- com.google.guava:guava:jar:18.0:compile

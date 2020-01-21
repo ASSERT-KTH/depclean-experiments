@@ -1,0 +1,15 @@
+io.monix:minitest_2.11:jar:2.1.1
++- org.scala-lang:scala-compiler:jar:2.11.12:provided
+|  +- (org.scala-lang:scala-library:jar:2.11.12:provided - omitted for duplicate)
+|  +- (org.scala-lang:scala-reflect:jar:2.11.12:provided - omitted for duplicate)
+|  +- org.scala-lang.modules:scala-xml_2.11:jar:1.0.5:provided
+|  |  \- (org.scala-lang:scala-library:jar:2.11.7:provided - omitted for conflict with 2.11.12)
+|  \- org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.0.4:provided
+|     \- (org.scala-lang:scala-library:jar:2.11.6:provided - omitted for conflict with 2.11.12)
++- org.scala-lang:scala-library:jar:2.11.12:compile
++- org.scala-lang:scala-reflect:jar:2.11.12:compile
+|  \- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
++- org.scala-sbt:test-interface:jar:1.0:compile
+\- org.scala-js:scalajs-stubs_2.11:jar:0.6.22:provided
+   +- (org.scala-lang:scala-library:jar:2.11.12:provided - omitted for duplicate)
+   \- (org.scala-lang:scala-reflect:jar:2.11.12:provided - omitted for duplicate)

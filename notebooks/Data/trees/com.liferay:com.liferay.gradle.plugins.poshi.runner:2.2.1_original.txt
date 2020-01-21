@@ -1,0 +1,10 @@
+com.liferay:com.liferay.gradle.plugins.poshi.runner:jar:2.2.1
++- com.liferay:com.liferay.gradle.util:jar:1.0.29:compile
+\- org.eclipse.jgit:org.eclipse.jgit:jar:4.10.0.201712302008-r:compile
+   +- com.jcraft:jsch:jar:0.1.54:compile
+   +- com.googlecode.javaewah:JavaEWAH:jar:1.1.6:compile
+   +- org.apache.httpcomponents:httpclient:jar:4.5.2:compile
+   |  +- org.apache.httpcomponents:httpcore:jar:4.4.4:compile
+   |  +- commons-logging:commons-logging:jar:1.2:compile
+   |  \- commons-codec:commons-codec:jar:1.9:compile
+   \- org.slf4j:slf4j-api:jar:1.7.2:compile

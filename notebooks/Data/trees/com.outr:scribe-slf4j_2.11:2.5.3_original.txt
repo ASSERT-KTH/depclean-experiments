@@ -1,0 +1,24 @@
+com.outr:scribe-slf4j_2.11:jar:2.5.3
++- org.scala-lang:scala-library:jar:2.11.12:compile
++- com.outr:scribe_2.11:jar:2.5.3:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  +- com.outr:scribe-macros_2.11:jar:2.5.3:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  |  \- (org.scala-lang:scala-reflect:jar:2.11.12:compile - omitted for duplicate)
+|  +- com.outr:perfolation_2.11:jar:1.0.4:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  |  +- com.outr:perfolation-macros_2.11:jar:1.0.4:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  |  |  \- (org.scala-lang:scala-reflect:jar:2.11.12:compile - omitted for duplicate)
+|  |  \- (org.scala-lang:scala-reflect:jar:2.11.12:compile - omitted for duplicate)
+|  \- org.scala-lang:scala-reflect:jar:2.11.12:compile
+|     \- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
++- org.slf4j:slf4j-api:jar:1.7.25:compile
+\- org.scalatest:scalatest_2.11:jar:3.0.5:test
+   +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+   +- org.scalactic:scalactic_2.11:jar:3.0.5:test
+   |  +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+   |  \- (org.scala-lang:scala-reflect:jar:2.11.12:test - omitted for duplicate)
+   +- (org.scala-lang:scala-reflect:jar:2.11.12:test - omitted for duplicate)
+   \- org.scala-lang.modules:scala-xml_2.11:jar:1.0.6:test
+      \- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.12)

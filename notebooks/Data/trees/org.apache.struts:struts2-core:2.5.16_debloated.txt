@@ -1,0 +1,102 @@
+org.apache.struts:struts2-core:jar:2.5.16
++- org.freemarker:freemarker:jar:2.3.26-incubating:compile
++- javax.servlet:servlet-api:jar:2.4:provided
++- javax.servlet:jsp-api:jar:2.0:provided
+|  \- (javax.servlet:servlet-api:jar:2.4:provided - omitted for duplicate)
++- ognl:ognl:jar:3.1.15:compile
+|  \- org.javassist:javassist:jar:3.20.0-GA:compile
++- org.apache.velocity:velocity:jar:1.7:compile
+|  +- commons-collections:commons-collections:jar:3.2.2:compile (version managed from 3.2.1)
+|  \- commons-lang:commons-lang:jar:2.4:compile
++- org.apache.velocity:velocity-tools:jar:2.0:compile
+|  +- commons-beanutils:commons-beanutils:jar:1.9.2:compile (version managed from 1.7.0)
+|  |  +- (commons-logging:commons-logging:jar:1.1.3:compile - version managed from 1.1; omitted for duplicate)
+|  |  \- (commons-collections:commons-collections:jar:3.2.2:compile - version managed from 3.2.1; omitted for duplicate)
+|  +- commons-digester:commons-digester:jar:2.1:compile (version managed from 1.8)
+|  |  +- (commons-beanutils:commons-beanutils:jar:1.9.2:compile - version managed from 1.8.3; omitted for duplicate)
+|  |  \- (commons-logging:commons-logging:jar:1.1.3:compile - version managed from 1.1.1; omitted for duplicate)
+|  +- commons-chain:commons-chain:jar:1.1:compile
+|  |  +- (commons-beanutils:commons-beanutils:jar:1.9.2:compile - version managed from 1.7.0; omitted for duplicate)
+|  |  +- (commons-digester:commons-digester:jar:2.1:compile - version managed from 1.6; omitted for duplicate)
+|  |  \- (commons-logging:commons-logging:jar:1.1.3:compile - version managed from 1.0.3; omitted for duplicate)
+|  +- (commons-collections:commons-collections:jar:3.2.2:compile - version managed from 3.2; omitted for duplicate)
+|  +- (commons-logging:commons-logging:jar:1.1.3:compile - version managed from 1.0.4; omitted for duplicate)
+|  +- (commons-validator:commons-validator:jar:1.5.1:compile - version managed from 1.3.1; omitted for duplicate)
+|  +- dom4j:dom4j:jar:1.1:compile
+|  +- oro:oro:jar:2.0.8:compile
+|  +- sslext:sslext:jar:1.2-0:compile
+|  +- org.apache.struts:struts-core:jar:1.3.8:compile
+|  |  +- antlr:antlr:jar:2.7.2:compile
+|  |  +- (commons-beanutils:commons-beanutils:jar:1.9.2:compile - version managed from 1.7.0; omitted for duplicate)
+|  |  +- (commons-chain:commons-chain:jar:1.1:compile - omitted for duplicate)
+|  |  +- (commons-digester:commons-digester:jar:2.1:compile - version managed from 1.8; omitted for duplicate)
+|  |  +- (commons-logging:commons-logging:jar:1.1.3:compile - version managed from 1.0.4; omitted for duplicate)
+|  |  +- (commons-validator:commons-validator:jar:1.5.1:compile - version managed from 1.3.1; omitted for duplicate)
+|  |  \- (oro:oro:jar:2.0.8:compile - omitted for duplicate)
+|  +- org.apache.struts:struts-taglib:jar:1.3.8:compile
+|  |  \- (org.apache.struts:struts-core:jar:1.3.8:compile - omitted for duplicate)
+|  +- org.apache.struts:struts-tiles:jar:1.3.8:compile
+|  |  \- (org.apache.struts:struts-core:jar:1.3.8:compile - omitted for duplicate)
+|  \- (org.apache.velocity:velocity:jar:1.7:compile - version managed from 1.6.2; omitted for duplicate)
++- org.apache.logging.log4j:log4j-api:jar:2.10.0:compile
++- commons-fileupload:commons-fileupload:jar:1.3.3:compile
+|  \- (commons-io:commons-io:jar:2.5:compile - version managed from 2.2; omitted for duplicate)
++- commons-logging:commons-logging:jar:1.1.3:compile
++- org.apache.commons:commons-lang3:jar:3.6:compile
++- org.springframework:spring-core:jar:4.3.13.RELEASE:compile
+|  \- (commons-logging:commons-logging:jar:1.1.3:compile - version managed from 1.2; omitted for duplicate)
++- org.springframework:spring-aop:jar:4.3.13.RELEASE:compile
+|  +- (org.springframework:spring-beans:jar:4.3.13.RELEASE:compile - omitted for duplicate)
+|  \- (org.springframework:spring-core:jar:4.3.13.RELEASE:compile - omitted for duplicate)
++- org.springframework:spring-beans:jar:4.3.13.RELEASE:compile
+|  \- (org.springframework:spring-core:jar:4.3.13.RELEASE:compile - omitted for duplicate)
++- org.springframework:spring-context:jar:4.3.13.RELEASE:compile
+|  +- (org.springframework:spring-aop:jar:4.3.13.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-beans:jar:4.3.13.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-core:jar:4.3.13.RELEASE:compile - omitted for duplicate)
+|  \- org.springframework:spring-expression:jar:4.3.13.RELEASE:compile
+|     \- (org.springframework:spring-core:jar:4.3.13.RELEASE:compile - omitted for duplicate)
++- org.springframework:spring-context-support:jar:4.3.13.RELEASE:compile
+|  +- (org.springframework:spring-beans:jar:4.3.13.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-context:jar:4.3.13.RELEASE:compile - omitted for duplicate)
+|  \- (org.springframework:spring-core:jar:4.3.13.RELEASE:compile - omitted for duplicate)
++- org.springframework:spring-web:jar:4.3.13.RELEASE:compile
+|  +- (org.springframework:spring-aop:jar:4.3.13.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-beans:jar:4.3.13.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-context:jar:4.3.13.RELEASE:compile - omitted for duplicate)
+|  \- (org.springframework:spring-core:jar:4.3.13.RELEASE:compile - omitted for duplicate)
++- org.springframework:spring-test:jar:4.3.13.RELEASE:test
+|  \- (org.springframework:spring-core:jar:4.3.13.RELEASE:test - omitted for duplicate)
++- junit:junit:jar:4.12:compile
+|  \- org.hamcrest:hamcrest-core:jar:1.3:compile
++- org.apache.logging.log4j:log4j-core:jar:2.10.0:test
+|  \- (org.apache.logging.log4j:log4j-api:jar:2.10.0:test - omitted for duplicate)
++- org.apache.commons:commons-collections4:jar:4.1:test
++- mockobjects:mockobjects-jdk1.3:jar:0.09:test
++- mockobjects:mockobjects-alt-jdk1.3:jar:0.09:test
++- mockobjects:mockobjects-alt-jdk1.3-j2ee1.3:jar:0.09:test
++- mockobjects:mockobjects-jdk1.3-j2ee1.3:jar:0.09:test
++- jmock:jmock:jar:1.2.0:test
+|  \- (junit:junit:jar:4.12:test - version managed from 3.8.1; omitted for duplicate)
++- org.mockito:mockito-all:jar:1.9.5:test
++- org.easytesting:fest-assert:jar:1.4:test
+|  \- org.easytesting:fest-util:jar:1.1.6:test
++- mockobjects:mockobjects-core:jar:0.09:test
++- org.easymock:easymock:jar:3.4:test
+|  \- org.objenesis:objenesis:jar:2.2:test
++- org.apache.struts:struts-annotations:jar:1.0.6:compile
+|  \- (org.freemarker:freemarker:jar:2.3.26-incubating:compile - version managed from 2.3.11; omitted for duplicate)
++- org.testng:testng:jar:5.14.10:compile
+|  +- (junit:junit:jar:4.12:compile - version managed from 3.8.1; omitted for duplicate)
+|  +- org.beanshell:bsh:jar:2.0b4:compile
+|  +- com.beust:jcommander:jar:1.12:compile
+|  \- org.yaml:snakeyaml:jar:1.6:compile
++- org.slf4j:slf4j-api:jar:1.7.12:compile
++- org.slf4j:slf4j-simple:jar:1.7.12:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.12:compile - omitted for duplicate)
++- javax.servlet:javax.servlet-api:jar:3.1.0:test
+\- commons-validator:commons-validator:jar:1.5.1:test (scope not updated to compile)
+   +- (commons-beanutils:commons-beanutils:jar:1.9.2:test - version managed from 1.7.0; omitted for duplicate)
+   +- (commons-digester:commons-digester:jar:2.1:test - version managed from 1.8.1; omitted for duplicate)
+   +- (commons-logging:commons-logging:jar:1.1.3:test - version managed from 1.2; omitted for duplicate)
+   \- (commons-collections:commons-collections:jar:3.2.2:test - version managed from 3.2; omitted for duplicate)

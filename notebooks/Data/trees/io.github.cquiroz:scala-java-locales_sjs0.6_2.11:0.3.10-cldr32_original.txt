@@ -1,0 +1,7 @@
+io.github.cquiroz:scala-java-locales_sjs0.6_2.11:jar:0.3.10-cldr32
++- org.scala-lang:scala-library:jar:2.11.12:compile
++- org.scala-js:scalajs-library_2.11:jar:0.6.21:compile
+|  \- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
+\- org.scala-js:scalajs-test-interface_2.11:jar:0.6.21:test
+   +- (org.scala-lang:scala-library:jar:2.11.11:test - omitted for conflict with 2.11.12)
+   \- (org.scala-js:scalajs-library_2.11:jar:0.6.21:test - omitted for duplicate)

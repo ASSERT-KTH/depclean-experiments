@@ -1,0 +1,6 @@
+org.webjars.npm:d3-scale:jar:1.0.0
++- org.webjars.npm:d3-interpolate:jar:1.3.2:compile
+|  \- (org.webjars.npm:d3-color:jar:1.2.8:compile - omitted for duplicate)
++- org.webjars.npm:d3-time:jar:1.0.11:compile
+\- org.webjars.npm:d3-time-format:jar:2.1.3:compile
+   \- (org.webjars.npm:d3-time:jar:1.0.11:compile - omitted for duplicate)

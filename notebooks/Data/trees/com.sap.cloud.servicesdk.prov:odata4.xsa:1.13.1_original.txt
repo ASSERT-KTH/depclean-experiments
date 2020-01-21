@@ -1,0 +1,8 @@
+com.sap.cloud.servicesdk.prov:odata4.xsa:jar:1.13.1
++- com.fasterxml.jackson.core:jackson-core:jar:2.8.9:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.8.9:compile
+|  \- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile
++- com.sap.cloud.servicesdk.prov:api:jar:1.13.1:compile
+|  +- com.google.guava:guava:jar:21.0:compile
+|  \- javax.transaction:javax.transaction-api:jar:1.2:compile
+\- org.slf4j:slf4j-api:jar:1.7.7:provided

@@ -1,0 +1,3 @@
+org.webjars.npm:jwa:jar:1.1.6
+\- org.webjars.npm:ecdsa-sig-formatter:jar:1.0.10:compile
+   \- (org.webjars.npm:safe-buffer:jar:5.2.0:compile - omitted for duplicate)

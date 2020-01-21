@@ -1,0 +1,15 @@
+org.ff4j:ff4j-utils-json:jar:1.7.1
++- org.ff4j:ff4j-core:jar:1.7.1:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.6.4:compile
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.6.4:compile (version managed from 2.6.0)
+|  \- com.fasterxml.jackson.core:jackson-core:jar:2.6.4:compile
++- org.ff4j:ff4j-test:jar:1.7.1:test
+|  +- (org.ff4j:ff4j-core:jar:1.7.1:test - omitted for duplicate)
+|  +- org.slf4j:jcl-over-slf4j:jar:1.7.7:test
+|  |  \- org.slf4j:slf4j-api:jar:1.7.7:test
+|  +- ch.qos.logback:logback-classic:jar:1.1.2:test
+|  |  +- ch.qos.logback:logback-core:jar:1.1.2:test
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.7:test - version managed from 1.7.6; omitted for duplicate)
+|  \- (junit:junit:jar:4.12:test - omitted for duplicate)
+\- junit:junit:jar:4.12:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

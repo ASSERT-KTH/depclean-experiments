@@ -1,0 +1,7 @@
+org.webjars.npm:material__icon-button:jar:0.38.1
++- org.webjars.npm:material__base:jar:0.35.0:compile
++- org.webjars.npm:material__ripple:jar:0.38.1:compile
+|  +- org.webjars.npm:material__animation:jar:0.34.0:compile
+|  +- (org.webjars.npm:material__base:jar:0.35.0:compile - omitted for duplicate)
+|  \- (org.webjars.npm:material__theme:jar:0.38.0:compile - omitted for duplicate)
+\- org.webjars.npm:material__theme:jar:0.38.0:compile

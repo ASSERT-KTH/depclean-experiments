@@ -1,0 +1,27 @@
+com.bstek.urule:urule-core-pro:jar:2.0.6
++- org.antlr:antlr4-runtime:jar:4.5:compile
+|  \- org.abego.treelayout:org.abego.treelayout.core:jar:1.0.1:compile
++- org.slf4j:slf4j-jdk14:jar:1.7.2:compile
+|  \- org.slf4j:slf4j-api:jar:1.7.2:compile
++- javax.servlet:servlet-api:jar:2.5:provided
++- org.springframework:spring-web:jar:4.3.11.RELEASE:compile
+|  +- org.springframework:spring-aop:jar:4.3.11.RELEASE:compile
+|  |  +- (org.springframework:spring-beans:jar:4.3.11.RELEASE:compile - omitted for duplicate)
+|  |  \- (org.springframework:spring-core:jar:4.3.11.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework:spring-beans:jar:4.3.11.RELEASE:compile
+|  |  \- (org.springframework:spring-core:jar:4.3.11.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework:spring-context:jar:4.3.11.RELEASE:compile
+|  |  +- (org.springframework:spring-aop:jar:4.3.11.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-beans:jar:4.3.11.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-core:jar:4.3.11.RELEASE:compile - omitted for duplicate)
+|  |  \- org.springframework:spring-expression:jar:4.3.11.RELEASE:compile
+|  |     \- (org.springframework:spring-core:jar:4.3.11.RELEASE:compile - omitted for duplicate)
+|  \- org.springframework:spring-core:jar:4.3.11.RELEASE:compile
+|     \- commons-logging:commons-logging:jar:1.2:compile
++- commons-lang:commons-lang:jar:2.6:compile
++- dom4j:dom4j:jar:1.6.1:compile
+|  \- xml-apis:xml-apis:jar:1.0.b2:compile
++- commons-beanutils:commons-beanutils:jar:1.8.3:compile
++- org.codehaus.jackson:jackson-mapper-asl:jar:1.9.11:compile
+|  \- org.codehaus.jackson:jackson-core-asl:jar:1.9.11:compile
+\- commons-io:commons-io:jar:2.4:compile

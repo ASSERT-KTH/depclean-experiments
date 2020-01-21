@@ -1,0 +1,20 @@
+org.eclipse.milo:stack-core:jar:0.2.1
++- org.bouncycastle:bcprov-jdk15on:jar:1.58:compile
++- org.bouncycastle:bcpkix-jdk15on:jar:1.58:compile
+|  \- (org.bouncycastle:bcprov-jdk15on:jar:1.58:compile - omitted for duplicate)
++- com.google.guava:guava:jar:19.0:compile
++- com.google.code.findbugs:jsr305:jar:3.0.1:compile
++- io.netty:netty-codec:jar:4.0.36.Final:compile
+|  \- io.netty:netty-transport:jar:4.0.36.Final:compile
+|     \- (io.netty:netty-buffer:jar:4.0.36.Final:compile - omitted for duplicate)
++- io.netty:netty-handler:jar:4.0.36.Final:compile
+|  +- io.netty:netty-buffer:jar:4.0.36.Final:compile
+|  |  \- io.netty:netty-common:jar:4.0.36.Final:compile
+|  +- (io.netty:netty-transport:jar:4.0.36.Final:compile - omitted for duplicate)
+|  \- (io.netty:netty-codec:jar:4.0.36.Final:compile - omitted for duplicate)
++- org.slf4j:slf4j-api:jar:1.7.21:compile
++- org.testng:testng:jar:6.9.10:test
+|  +- com.beust:jcommander:jar:1.48:test
+|  \- org.beanshell:bsh:jar:2.0b4:test
+\- org.slf4j:slf4j-simple:jar:1.7.21:test
+   \- (org.slf4j:slf4j-api:jar:1.7.21:test - omitted for duplicate)

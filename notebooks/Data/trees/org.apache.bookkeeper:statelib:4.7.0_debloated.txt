@@ -1,0 +1,187 @@
+org.apache.bookkeeper:statelib:jar:4.7.0
++- org.apache.distributedlog:distributedlog-core:jar:4.7.0:compile
+|  +- org.apache.distributedlog:distributedlog-protocol:jar:4.7.0:compile
+|  |  +- org.apache.distributedlog:distributedlog-common:jar:4.7.0:compile
+|  |  |  +- (org.apache.bookkeeper.stats:bookkeeper-stats-api:jar:4.7.0:compile - omitted for duplicate)
+|  |  |  +- (org.apache.bookkeeper:bookkeeper-common:jar:4.7.0:compile - omitted for duplicate)
+|  |  |  +- (org.apache.commons:commons-lang3:jar:3.3.2:compile - omitted for duplicate)
+|  |  |  +- (com.google.guava:guava:jar:21.0:compile - omitted for duplicate)
+|  |  |  +- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+|  |  |  +- (commons-codec:commons-codec:jar:1.6:compile - omitted for duplicate)
+|  |  |  +- net.jpountz.lz4:lz4:jar:1.3.0:compile
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  |  |  \- (commons-configuration:commons-configuration:jar:1.10:compile - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  |  \- (commons-configuration:commons-configuration:jar:1.10:compile - omitted for duplicate)
+|  +- org.apache.zookeeper:zookeeper:jar:3.5.3-beta:compile
+|  |  \- commons-cli:commons-cli:jar:1.2:compile
+|  +- org.apache.bookkeeper:bookkeeper-server:jar:4.7.0:compile
+|  |  +- (org.apache.bookkeeper:bookkeeper-common:jar:4.7.0:compile - omitted for duplicate)
+|  |  +- org.apache.bookkeeper:bookkeeper-proto:jar:4.7.0:compile
+|  |  |  +- (com.google.protobuf:protobuf-java:jar:3.4.0:compile - version managed from 3.2.0; omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  |  |  \- (commons-configuration:commons-configuration:jar:1.10:compile - omitted for duplicate)
+|  |  +- (org.rocksdb:rocksdbjni:jar:5.8.6:compile - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-log4j12:jar:1.7.25:compile - omitted for duplicate)
+|  |  +- (org.apache.zookeeper:zookeeper:jar:3.5.3-beta:compile - omitted for duplicate)
+|  |  +- io.netty:netty-all:jar:4.1.12.Final:compile
+|  |  +- io.netty:netty-tcnative-boringssl-static:jar:2.0.3.Final:compile
+|  |  +- org.apache.bookkeeper.http:http-server:jar:4.7.0:compile
+|  |  |  +- (commons-configuration:commons-configuration:jar:1.10:compile - omitted for duplicate)
+|  |  |  +- com.fasterxml.jackson.core:jackson-core:jar:2.8.9:compile
+|  |  |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.8.9:compile
+|  |  |  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.9:compile - version managed from 2.8.0; omitted for duplicate)
+|  |  |  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.8.9:compile - omitted for duplicate)
+|  |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.9:compile
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  |  +- org.apache.bookkeeper:circe-checksum:jar:4.7.0:compile
+|  |  |  +- (com.google.guava:guava:jar:21.0:compile - omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  |  |  \- (commons-configuration:commons-configuration:jar:1.10:compile - omitted for duplicate)
+|  |  +- (commons-cli:commons-cli:jar:1.2:compile - omitted for duplicate)
+|  |  +- commons-codec:commons-codec:jar:1.6:compile
+|  |  +- commons-io:commons-io:jar:2.4:compile
+|  |  +- (org.apache.commons:commons-lang3:jar:3.3.2:compile - version managed from 3.4; omitted for duplicate)
+|  |  +- org.apache.commons:commons-collections4:jar:4.1:compile
+|  |  +- com.beust:jcommander:jar:1.48:compile
+|  |  +- net.java.dev.jna:jna:jar:3.2.7:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  |  \- (commons-configuration:commons-configuration:jar:1.10:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  \- (commons-configuration:commons-configuration:jar:1.10:compile - omitted for duplicate)
++- org.apache.bookkeeper:bookkeeper-common:jar:4.7.0:compile
+|  +- org.apache.bookkeeper.stats:bookkeeper-stats-api:jar:4.7.0:compile
+|  |  +- (commons-configuration:commons-configuration:jar:1.10:compile - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:21.0:compile - version managed from 16.0; omitted for duplicate)
+|  +- io.netty:netty-common:jar:4.1.12.Final:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  \- (commons-configuration:commons-configuration:jar:1.10:compile - omitted for duplicate)
++- org.apache.bookkeeper:stream-storage-common:jar:4.7.0:compile
+|  +- (org.apache.bookkeeper:bookkeeper-common:jar:4.7.0:compile - omitted for duplicate)
+|  +- io.netty:netty-buffer:jar:4.1.12.Final:compile
+|  |  \- (io.netty:netty-common:jar:4.1.12.Final:compile - omitted for duplicate)
+|  +- io.grpc:grpc-all:jar:1.5.0:compile
+|  |  +- io.grpc:grpc-auth:jar:1.5.0:compile
+|  |  |  +- (io.grpc:grpc-core:jar:1.5.0:compile - omitted for duplicate)
+|  |  |  \- com.google.auth:google-auth-library-credentials:jar:0.4.0:compile
+|  |  +- io.grpc:grpc-core:jar:1.5.0:compile
+|  |  |  +- (com.google.guava:guava:jar:21.0:compile - version managed from 19.0; omitted for duplicate)
+|  |  |  +- com.google.errorprone:error_prone_annotations:jar:2.1.2:compile (version managed from 2.0.19)
+|  |  |  +- (com.google.code.findbugs:jsr305:jar:3.0.2:compile - version managed from 3.0.0; omitted for duplicate)
+|  |  |  +- (io.grpc:grpc-context:jar:1.5.0:compile - omitted for duplicate)
+|  |  |  \- com.google.instrumentation:instrumentation-api:jar:0.4.3:compile
+|  |  |     +- (com.google.errorprone:error_prone_annotations:jar:2.1.2:compile - version managed from 2.0.11; omitted for duplicate)
+|  |  |     +- (com.google.code.findbugs:jsr305:jar:3.0.2:compile - version managed from 3.0.0; omitted for duplicate)
+|  |  |     +- (io.grpc:grpc-context:jar:1.2.0:compile - omitted for conflict with 1.5.0)
+|  |  |     \- (com.google.guava:guava:jar:21.0:compile - version managed from 19.0; omitted for duplicate)
+|  |  +- io.grpc:grpc-context:jar:1.5.0:compile
+|  |  +- io.grpc:grpc-netty:jar:1.5.0:compile
+|  |  |  +- (io.grpc:grpc-core:jar:1.5.0:compile - omitted for duplicate)
+|  |  |  +- io.netty:netty-codec-http2:jar:4.1.12.Final:compile
+|  |  |  |  +- io.netty:netty-codec-http:jar:4.1.12.Final:compile
+|  |  |  |  |  \- io.netty:netty-codec:jar:4.1.12.Final:compile
+|  |  |  |  |     \- (io.netty:netty-transport:jar:4.1.12.Final:compile - omitted for duplicate)
+|  |  |  |  \- io.netty:netty-handler:jar:4.1.12.Final:compile
+|  |  |  |     +- (io.netty:netty-buffer:jar:4.1.12.Final:compile - omitted for duplicate)
+|  |  |  |     +- (io.netty:netty-transport:jar:4.1.12.Final:compile - omitted for duplicate)
+|  |  |  |     \- (io.netty:netty-codec:jar:4.1.12.Final:compile - omitted for duplicate)
+|  |  |  \- io.netty:netty-handler-proxy:jar:4.1.12.Final:compile
+|  |  |     +- io.netty:netty-transport:jar:4.1.12.Final:compile
+|  |  |     |  +- (io.netty:netty-buffer:jar:4.1.12.Final:compile - omitted for duplicate)
+|  |  |     |  \- io.netty:netty-resolver:jar:4.1.12.Final:compile
+|  |  |     |     \- (io.netty:netty-common:jar:4.1.12.Final:compile - omitted for duplicate)
+|  |  |     +- io.netty:netty-codec-socks:jar:4.1.12.Final:compile
+|  |  |     |  \- (io.netty:netty-codec:jar:4.1.12.Final:compile - omitted for duplicate)
+|  |  |     \- (io.netty:netty-codec-http:jar:4.1.12.Final:compile - omitted for duplicate)
+|  |  +- io.grpc:grpc-okhttp:jar:1.5.0:compile
+|  |  |  +- (io.grpc:grpc-core:jar:1.5.0:compile - omitted for duplicate)
+|  |  |  +- com.squareup.okhttp:okhttp:jar:2.5.0:compile
+|  |  |  |  \- (com.squareup.okio:okio:jar:1.6.0:compile - omitted for duplicate)
+|  |  |  \- com.squareup.okio:okio:jar:1.6.0:compile
+|  |  +- io.grpc:grpc-protobuf:jar:1.5.0:compile
+|  |  |  +- (io.grpc:grpc-core:jar:1.5.0:compile - omitted for duplicate)
+|  |  |  +- (com.google.protobuf:protobuf-java:jar:3.4.0:compile - version managed from 3.3.1; omitted for duplicate)
+|  |  |  +- (com.google.guava:guava:jar:21.0:compile - version managed from 19.0; omitted for duplicate)
+|  |  |  +- com.google.protobuf:protobuf-java-util:jar:3.3.1:compile
+|  |  |  |  +- (com.google.protobuf:protobuf-java:jar:3.4.0:compile - version managed from 3.3.1; omitted for duplicate)
+|  |  |  |  +- (com.google.guava:guava:jar:21.0:compile - version managed from 19.0; omitted for duplicate)
+|  |  |  |  \- com.google.code.gson:gson:jar:2.7:compile
+|  |  |  +- com.google.api.grpc:proto-google-common-protos:jar:0.1.9:compile
+|  |  |  |  \- (com.google.protobuf:protobuf-java:jar:3.4.0:compile - version managed from 3.2.0; omitted for duplicate)
+|  |  |  \- io.grpc:grpc-protobuf-lite:jar:1.5.0:compile
+|  |  |     +- (io.grpc:grpc-core:jar:1.5.0:compile - omitted for duplicate)
+|  |  |     \- (com.google.guava:guava:jar:21.0:compile - version managed from 19.0; omitted for duplicate)
+|  |  +- io.grpc:grpc-protobuf-nano:jar:1.5.0:compile
+|  |  |  +- (io.grpc:grpc-core:jar:1.5.0:compile - omitted for duplicate)
+|  |  |  +- com.google.protobuf.nano:protobuf-javanano:jar:3.0.0-alpha-5:compile
+|  |  |  \- (com.google.guava:guava:jar:21.0:compile - version managed from 19.0; omitted for duplicate)
+|  |  \- io.grpc:grpc-stub:jar:1.5.0:compile
+|  |     \- (io.grpc:grpc-core:jar:1.5.0:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  \- (commons-configuration:commons-configuration:jar:1.10:compile - omitted for duplicate)
++- org.apache.bookkeeper:stream-storage-api:jar:4.7.0:compile
+|  +- (org.apache.bookkeeper:bookkeeper-common:jar:4.7.0:compile - omitted for duplicate)
+|  +- (org.apache.bookkeeper:stream-storage-common:jar:4.7.0:compile - omitted for duplicate)
+|  +- (io.netty:netty-buffer:jar:4.1.12.Final:compile - omitted for duplicate)
+|  +- org.inferred:freebuilder:jar:1.12.3:compile
+|  |  +- (org.apache.commons:commons-lang3:jar:3.3.2:compile - version managed from 3.4; omitted for duplicate)
+|  |  +- com.google.googlejavaformat:google-java-format:jar:1.2:compile
+|  |  |  +- (com.google.guava:guava:jar:21.0:compile - version managed from 19.0; omitted for duplicate)
+|  |  |  \- com.google.errorprone:javac:jar:9-dev-r3297-1-shaded:compile
+|  |  +- (com.google.guava:guava:jar:21.0:compile - version managed from 16.0; omitted for duplicate)
+|  |  \- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  \- (commons-configuration:commons-configuration:jar:1.10:compile - omitted for duplicate)
++- org.apache.bookkeeper:stream-storage-proto:jar:4.7.0:compile
+|  +- (org.apache.bookkeeper:stream-storage-common:jar:4.7.0:compile - omitted for duplicate)
+|  +- org.apache.commons:commons-lang3:jar:3.3.2:compile
+|  +- (com.google.protobuf:protobuf-java:jar:3.4.0:compile - version managed from 3.2.0; omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  \- (commons-configuration:commons-configuration:jar:1.10:compile - omitted for duplicate)
++- com.google.guava:guava:jar:21.0:compile
++- org.rocksdb:rocksdbjni:jar:5.8.6:compile
++- com.google.protobuf:protobuf-java:jar:3.4.0:compile
++- org.apache.distributedlog:distributedlog-core:jar:tests:4.7.0:compile
+|  +- (org.apache.distributedlog:distributedlog-protocol:jar:4.7.0:compile - omitted for duplicate)
+|  +- (org.apache.zookeeper:zookeeper:jar:3.5.3-beta:compile - omitted for duplicate)
+|  +- (org.apache.bookkeeper:bookkeeper-server:jar:4.7.0:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  \- (commons-configuration:commons-configuration:jar:1.10:compile - omitted for duplicate)
++- org.projectlombok:lombok:jar:1.16.20:provided
++- com.github.spotbugs:spotbugs-annotations:jar:3.1.1:provided
+|  \- (com.google.code.findbugs:jsr305:jar:3.0.2:compile - version managed from 3.0.0; scope updated from provided; omitted for duplicate)
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- commons-configuration:commons-configuration:jar:1.10:compile
+|  +- commons-lang:commons-lang:jar:2.6:compile
+|  \- commons-logging:commons-logging:jar:1.1.1:compile
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.hamcrest:hamcrest-all:jar:1.3:test
++- org.slf4j:slf4j-log4j12:jar:1.7.25:test (scope not updated to compile)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)
+|  \- log4j:log4j:jar:1.2.17:test
++- org.mockito:mockito-core:jar:2.13.0:test
+|  +- net.bytebuddy:byte-buddy:jar:1.7.9:test
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.7.9:test
+|  \- org.objenesis:objenesis:jar:2.6:test
++- org.powermock:powermock-api-mockito2:jar:2.0.0-beta.5:test
+|  +- org.powermock:powermock-api-support:jar:2.0.0-beta.5:test
+|  |  +- org.powermock:powermock-reflect:jar:2.0.0-beta.5:test
+|  |  |  +- (org.objenesis:objenesis:jar:2.6:test - omitted for duplicate)
+|  |  |  +- (net.bytebuddy:byte-buddy:jar:1.7.5:test - omitted for conflict with 1.7.9)
+|  |  |  \- (net.bytebuddy:byte-buddy-agent:jar:1.7.5:test - omitted for conflict with 1.7.9)
+|  |  \- org.powermock:powermock-core:jar:2.0.0-beta.5:test
+|  |     +- (org.powermock:powermock-reflect:jar:2.0.0-beta.5:test - omitted for duplicate)
+|  |     +- org.javassist:javassist:jar:3.22.0-CR2:test
+|  |     +- (net.bytebuddy:byte-buddy:jar:1.7.5:test - omitted for conflict with 1.7.9)
+|  |     \- (net.bytebuddy:byte-buddy-agent:jar:1.7.5:test - omitted for conflict with 1.7.9)
+|  \- (org.mockito:mockito-core:jar:2.13.0:test - version managed from 2.10.0; omitted for duplicate)
+\- org.powermock:powermock-module-junit4:jar:2.0.0-beta.5:test
+   +- org.powermock:powermock-module-junit4-common:jar:2.0.0-beta.5:test
+   |  +- (org.powermock:powermock-reflect:jar:2.0.0-beta.5:test - omitted for duplicate)
+   |  +- (org.powermock:powermock-core:jar:2.0.0-beta.5:test - omitted for duplicate)
+   |  +- (junit:junit:jar:4.12:test - omitted for duplicate)
+   |  \- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for duplicate)
+   +- (junit:junit:jar:4.12:test - omitted for duplicate)
+   \- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for duplicate)

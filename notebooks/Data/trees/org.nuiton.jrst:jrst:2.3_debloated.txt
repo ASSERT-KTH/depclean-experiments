@@ -1,0 +1,89 @@
+org.nuiton.jrst:jrst:jar:2.3
++- org.nuiton.jrst:docutils:jar:2.3:runtime
++- org.nuiton.jaxx:jaxx-runtime:jar:2.40:compile
+|  +- (org.nuiton:nuiton-utils:jar:3.0-java6:compile - version managed from 3.0-rc-15; omitted for duplicate)
+|  +- org.nuiton:nuiton-decorator:jar:3.0:compile
+|  |  +- commons-jxpath:commons-jxpath:jar:1.3:compile
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  |  \- (commons-beanutils:commons-beanutils:jar:1.9.2:compile - omitted for conflict with 1.9.3)
+|  +- org.nuiton:nuiton-converter:jar:1.0:compile
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  |  \- (commons-beanutils:commons-beanutils:jar:1.9.2:compile - omitted for conflict with 1.9.3)
+|  +- (org.nuiton.i18n:nuiton-i18n:jar:3.6.3:compile - version managed from 3.6.2; omitted for duplicate)
+|  +- (org.apache.commons:commons-lang3:jar:3.7:compile - version managed from 3.4; omitted for duplicate)
+|  +- (commons-logging:commons-logging:jar:1.2:compile - version managed from 1.1.1; omitted for duplicate)
+|  +- org.apache.commons:commons-collections4:jar:4.1:compile
+|  +- commons-beanutils:commons-beanutils:jar:1.9.2:compile
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - version managed from 1.1.1; omitted for duplicate)
+|  |  \- commons-collections:commons-collections:jar:3.2.1:compile
+|  +- (commons-io:commons-io:jar:2.6:compile - version managed from 2.5; omitted for duplicate)
+|  +- (com.google.guava:guava:jar:20.0:compile - version managed from 19.0; omitted for duplicate)
+|  +- javax.help:javahelp:jar:2.0.05:compile
+|  +- org.swinglabs:jxlayer:jar:3.0.4:compile
+|  \- org.swinglabs.swingx:swingx-core:jar:1.6.5-1:compile
+|     +- org.swinglabs.swingx:swingx-autocomplete:jar:1.6.5-1:compile
+|     |  \- org.swinglabs.swingx:swingx-common:jar:1.6.5-1:compile
+|     +- org.swinglabs.swingx:swingx-action:jar:1.6.5-1:compile
+|     +- org.swinglabs.swingx:swingx-plaf:jar:1.6.5-1:compile
+|     |  \- (org.swinglabs.swingx:swingx-common:jar:1.6.5-1:compile - omitted for duplicate)
+|     +- org.swinglabs.swingx:swingx-graphics:jar:1.6.5-1:compile
+|     |  \- (org.swinglabs.swingx:swingx-common:jar:1.6.5-1:compile - omitted for duplicate)
+|     \- org.swinglabs.swingx:swingx-painters:jar:1.6.5-1:compile
+|        \- (org.swinglabs.swingx:swingx-common:jar:1.6.5-1:compile - omitted for duplicate)
++- org.apache.commons:commons-lang3:jar:3.7:compile
++- commons-io:commons-io:jar:2.6:compile
++- commons-logging:commons-logging:jar:1.2:compile
++- commons-primitives:commons-primitives:jar:1.0:compile
++- org.nuiton:nuiton-utils:jar:3.0-java6:compile
+|  +- (org.apache.commons:commons-lang3:jar:3.7:compile - version managed from 3.5; omitted for duplicate)
+|  +- (commons-logging:commons-logging:jar:1.2:compile - version managed from 1.1.1; omitted for duplicate)
+|  +- (commons-primitives:commons-primitives:jar:1.0:compile - omitted for duplicate)
+|  +- (org.apache.commons:commons-collections4:jar:4.1:compile - omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.6:compile - version managed from 2.5; omitted for duplicate)
+|  +- (commons-beanutils:commons-beanutils:jar:1.9.3:compile - omitted for conflict with 1.9.2)
+|  +- (com.google.guava:guava:jar:20.0:compile - version managed from 19.0; omitted for duplicate)
+|  +- (org.nuiton.i18n:nuiton-i18n:jar:3.6.3:compile - version managed from 3.6.2; omitted for duplicate)
+|  \- (org.nuiton:nuiton-converter:jar:1.0:compile - omitted for duplicate)
++- org.nuiton:nuiton-config:jar:3.4:compile
+|  +- (org.nuiton:nuiton-converter:jar:1.0:compile - omitted for duplicate)
+|  +- org.nuiton:nuiton-version:jar:1.0-rc-2:compile
+|  |  +- (org.apache.commons:commons-lang3:jar:3.7:compile - version managed from 3.4; omitted for duplicate)
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - version managed from 1.1.1; omitted for duplicate)
+|  |  +- (org.apache.commons:commons-collections4:jar:4.1:compile - omitted for duplicate)
+|  |  +- (commons-beanutils:commons-beanutils:jar:1.9.2:compile - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:20.0:compile - version managed from 19.0; omitted for duplicate)
+|  |  \- (org.nuiton:nuiton-converter:jar:1.0:compile - omitted for duplicate)
+|  +- (org.nuiton:nuiton-utils:jar:3.0-java6:compile - version managed from 3.0-rc-18; omitted for duplicate)
+|  +- (org.apache.commons:commons-lang3:jar:3.7:compile - version managed from 3.6; omitted for duplicate)
+|  +- (commons-logging:commons-logging:jar:1.2:compile - version managed from 1.1.1; omitted for duplicate)
+|  +- (org.apache.commons:commons-collections4:jar:4.1:compile - omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.6:compile - version managed from 2.5; omitted for duplicate)
+|  \- (commons-beanutils:commons-beanutils:jar:1.9.3:compile - omitted for conflict with 1.9.2)
++- org.nuiton.i18n:nuiton-i18n:jar:3.6.3:compile
+|  +- (org.nuiton:nuiton-converter:jar:1.0:compile - omitted for duplicate)
+|  +- (commons-logging:commons-logging:jar:1.2:compile - version managed from 1.1.1; omitted for duplicate)
+|  +- (commons-beanutils:commons-beanutils:jar:1.9.3:compile - omitted for conflict with 1.9.2)
+|  +- (org.apache.commons:commons-collections4:jar:4.1:compile - omitted for duplicate)
+|  \- (commons-io:commons-io:jar:2.6:compile - version managed from 2.5; omitted for duplicate)
++- dom4j:dom4j:jar:1.6.1:compile
++- org.codehaus.plexus:plexus-component-annotations:jar:1.7.1:provided
++- jaxen:jaxen:jar:1.1.4:runtime
++- net.sourceforge.saxon:saxon:jar:9.1.0.8:runtime
++- net.sf.docbook:docbook-xsl:zip:resources:1.79.1:provided
++- log4j:log4j:jar:1.2.17:runtime
++- org.python:jython-standalone:jar:2.7.1:compile
++- com.google.guava:guava:jar:20.0:compile
++- org.xhtmlrenderer:flying-saucer-pdf:jar:9.1.1:compile
+|  +- (com.lowagie:itext:jar:2.1.7:compile - omitted for duplicate)
+|  \- (org.xhtmlrenderer:flying-saucer-core:jar:9.1.1:compile - omitted for duplicate)
++- org.xhtmlrenderer:flying-saucer-core:jar:9.1.1:compile
++- com.lowagie:itext:jar:2.1.7:compile
+|  +- bouncycastle:bcmail-jdk14:jar:138:compile
+|  +- bouncycastle:bcprov-jdk14:jar:138:compile
+|  \- org.bouncycastle:bctsp-jdk14:jar:1.38:compile
+|     +- org.bouncycastle:bcprov-jdk14:jar:1.38:compile
+|     \- org.bouncycastle:bcmail-jdk14:jar:1.38:compile
+|        \- (org.bouncycastle:bcprov-jdk14:jar:1.38:compile - omitted for duplicate)
++- xmlunit:xmlunit:jar:1.6:test
+\- junit:junit:jar:4.12:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

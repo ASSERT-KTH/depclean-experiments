@@ -1,0 +1,127 @@
+org.swisspush.gateleen:gateleen-runconfig:jar:1.1.22
++- org.swisspush.gateleen:gateleen-core:jar:1.1.22:compile
+|  +- (io.vertx:vertx-core:jar:3.5.0:compile - omitted for duplicate)
+|  +- (io.vertx:vertx-web:jar:3.5.0:compile - omitted for duplicate)
+|  +- (io.vertx:vertx-redis-client:jar:3.5.0:compile - omitted for duplicate)
+|  +- io.vertx:vertx-auth-common:jar:3.5.0:compile
+|  |  \- (io.vertx:vertx-core:jar:3.5.0:compile - omitted for duplicate)
+|  +- io.vertx:vertx-codegen:jar:3.5.0:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.7.4:compile - omitted for conflict with 2.9.0)
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.5:compile - version managed from 2.7.4; omitted for duplicate)
+|  |  \- org.mvel:mvel2:jar:2.3.1.Final:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.6.6; omitted for duplicate)
+|  +- com.github.fge:json-schema-validator:jar:2.0.1:compile
+|  |  +- com.github.fge:json-schema-core:jar:1.0.2:compile
+|  |  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.5:compile - version managed from 2.1.4; omitted for duplicate)
+|  |  |  +- org.mozilla:rhino:jar:1.7R4:compile
+|  |  |  +- com.google.guava:guava:jar:22.0:compile (version managed from 13.0.1)
+|  |  |  |  +- com.google.code.findbugs:jsr305:jar:1.3.9:compile
+|  |  |  |  +- com.google.errorprone:error_prone_annotations:jar:2.0.18:compile
+|  |  |  |  +- com.google.j2objc:j2objc-annotations:jar:1.1:compile
+|  |  |  |  \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:compile
+|  |  |  \- net.jcip:jcip-annotations:jar:1.0:compile
+|  |  +- javax.mail:mailapi:jar:1.4.3:compile
+|  |  +- joda-time:joda-time:jar:2.3:compile (version managed from 2.1)
+|  |  \- com.googlecode.libphonenumber:libphonenumber:jar:5.3:compile
+|  +- commons-codec:commons-codec:jar:1.9:compile
+|  +- com.floreysoft:jmte:jar:3.0:compile
+|  |  \- asm:asm:jar:3.3.1:compile
+|  +- com.bazaarvoice.jolt:jolt-core:jar:0.1.0:compile
+|  |  \- javax.inject:javax.inject:jar:1:compile
+|  \- com.bazaarvoice.jolt:json-utils:jar:0.1.0:compile
+|     +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.5:compile - version managed from 2.5.0; omitted for duplicate)
+|     \- (com.fasterxml.jackson.core:jackson-core:jar:2.5.0:compile - omitted for conflict with 2.9.0)
++- org.swisspush.gateleen:gateleen-logging:jar:1.1.22:compile
+|  +- (org.swisspush.gateleen:gateleen-validation:jar:1.1.22:compile - omitted for duplicate)
+|  \- (log4j:log4j:jar:1.2.17:compile - omitted for duplicate)
++- org.swisspush.gateleen:gateleen-monitoring:jar:1.1.22:compile
+|  +- (org.swisspush.gateleen:gateleen-core:jar:1.1.22:compile - omitted for duplicate)
+|  \- (org.swisspush:redisques:jar:2.5.0:compile - omitted for duplicate)
++- org.swisspush.gateleen:gateleen-routing:jar:1.1.22:compile
+|  +- (org.swisspush.gateleen:gateleen-logging:jar:1.1.22:compile - omitted for duplicate)
+|  \- (org.swisspush.gateleen:gateleen-monitoring:jar:1.1.22:compile - omitted for duplicate)
++- org.swisspush.gateleen:gateleen-scheduler:jar:1.1.22:compile
+|  +- org.swisspush.gateleen:gateleen-queue:jar:1.1.22:compile
+|  |  +- (org.swisspush.gateleen:gateleen-routing:jar:1.1.22:compile - omitted for duplicate)
+|  |  \- (org.swisspush:redisques:jar:2.5.0:compile - omitted for duplicate)
+|  \- org.quartz-scheduler:quartz:jar:2.2.1:compile
+|     \- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.6.6; omitted for duplicate)
++- org.swisspush.gateleen:gateleen-validation:jar:1.1.22:compile
+|  \- (org.swisspush.gateleen:gateleen-core:jar:1.1.22:compile - omitted for duplicate)
++- org.swisspush.gateleen:gateleen-hook:jar:1.1.22:compile
+|  \- (org.swisspush.gateleen:gateleen-queue:jar:1.1.22:compile - omitted for duplicate)
++- org.swisspush.gateleen:gateleen-packing:jar:1.1.22:compile
+|  \- (org.swisspush.gateleen:gateleen-core:jar:1.1.22:compile - omitted for duplicate)
++- org.swisspush.gateleen:gateleen-user:jar:1.1.22:compile
+|  \- (org.swisspush.gateleen:gateleen-logging:jar:1.1.22:compile - omitted for duplicate)
++- org.swisspush.gateleen:gateleen-expansion:jar:1.1.22:compile
+|  +- (org.swisspush.gateleen:gateleen-routing:jar:1.1.22:compile - omitted for duplicate)
+|  \- (org.swisspush:rest-storage:jar:2.5.1:compile - omitted for duplicate)
++- org.swisspush.gateleen:gateleen-delta:jar:1.1.22:compile
+|  \- (org.swisspush.gateleen:gateleen-routing:jar:1.1.22:compile - omitted for duplicate)
++- org.swisspush.gateleen:gateleen-security:jar:1.1.22:compile
+|  \- (org.swisspush.gateleen:gateleen-validation:jar:1.1.22:compile - omitted for duplicate)
++- org.swisspush.gateleen:gateleen-qos:jar:1.1.22:compile
+|  \- (org.swisspush.gateleen:gateleen-validation:jar:1.1.22:compile - omitted for duplicate)
++- org.swisspush.gateleen:gateleen-delegate:jar:1.1.22:compile
+|  \- (org.swisspush.gateleen:gateleen-queue:jar:1.1.22:compile - omitted for duplicate)
++- org.swisspush.gateleen:gateleen-merge:jar:1.1.22:compile
+|  \- (org.swisspush.gateleen:gateleen-core:jar:1.1.22:compile - omitted for duplicate)
++- org.swisspush:redisques:jar:2.5.0:compile
+|  +- (io.vertx:vertx-core:jar:3.5.0:compile - omitted for duplicate)
+|  +- (io.vertx:vertx-redis-client:jar:3.5.0:compile - omitted for duplicate)
+|  +- (commons-codec:commons-codec:jar:1.9:compile - omitted for duplicate)
+|  \- (io.vertx:vertx-web:jar:3.5.0:compile - omitted for duplicate)
++- org.swisspush:rest-storage:jar:2.5.1:compile
+|  +- (io.vertx:vertx-core:jar:3.5.0:compile - omitted for duplicate)
+|  +- (io.vertx:vertx-redis-client:jar:3.5.0:compile - omitted for duplicate)
+|  +- (io.vertx:vertx-web:jar:3.5.0:compile - omitted for duplicate)
+|  +- (commons-codec:commons-codec:jar:1.9:compile - omitted for duplicate)
+|  \- (commons-lang:commons-lang:jar:2.4:compile - omitted for duplicate)
++- org.swisspush:mod-metrics:jar:2.1.0:compile
++- io.vertx:vertx-core:jar:3.5.0:compile
+|  +- io.netty:netty-common:jar:4.1.15.Final:compile
+|  +- io.netty:netty-buffer:jar:4.1.15.Final:compile
+|  |  \- (io.netty:netty-common:jar:4.1.15.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-transport:jar:4.1.15.Final:compile
+|  |  +- (io.netty:netty-buffer:jar:4.1.15.Final:compile - omitted for duplicate)
+|  |  \- (io.netty:netty-resolver:jar:4.1.15.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-handler:jar:4.1.15.Final:compile
+|  |  +- (io.netty:netty-buffer:jar:4.1.15.Final:compile - omitted for duplicate)
+|  |  +- (io.netty:netty-transport:jar:4.1.15.Final:compile - omitted for duplicate)
+|  |  \- io.netty:netty-codec:jar:4.1.15.Final:compile
+|  |     \- (io.netty:netty-transport:jar:4.1.15.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-handler-proxy:jar:4.1.15.Final:compile
+|  |  +- (io.netty:netty-transport:jar:4.1.15.Final:compile - omitted for duplicate)
+|  |  +- io.netty:netty-codec-socks:jar:4.1.15.Final:compile
+|  |  |  \- (io.netty:netty-codec:jar:4.1.15.Final:compile - omitted for duplicate)
+|  |  \- (io.netty:netty-codec-http:jar:4.1.15.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-codec-http:jar:4.1.15.Final:compile
+|  |  \- (io.netty:netty-codec:jar:4.1.15.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-codec-http2:jar:4.1.15.Final:compile
+|  |  +- (io.netty:netty-codec-http:jar:4.1.15.Final:compile - omitted for duplicate)
+|  |  \- (io.netty:netty-handler:jar:4.1.15.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-resolver:jar:4.1.15.Final:compile
+|  |  \- (io.netty:netty-common:jar:4.1.15.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-resolver-dns:jar:4.1.15.Final:compile
+|  |  +- (io.netty:netty-resolver:jar:4.1.15.Final:compile - omitted for duplicate)
+|  |  +- io.netty:netty-codec-dns:jar:4.1.15.Final:compile
+|  |  |  \- (io.netty:netty-codec:jar:4.1.15.Final:compile - omitted for duplicate)
+|  |  \- (io.netty:netty-transport:jar:4.1.15.Final:compile - omitted for duplicate)
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.9.0:compile
+|  \- com.fasterxml.jackson.core:jackson-databind:jar:2.8.5:compile (version managed from 2.9.0)
+|     +- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile
+|     \- (com.fasterxml.jackson.core:jackson-core:jar:2.8.5:compile - omitted for conflict with 2.9.0)
++- io.vertx:vertx-web:jar:3.5.0:compile
+|  +- (io.vertx:vertx-auth-common:jar:3.5.0:compile - omitted for duplicate)
+|  +- io.vertx:vertx-bridge-common:jar:3.5.0:compile
+|  \- (io.vertx:vertx-core:jar:3.5.0:compile - omitted for duplicate)
++- io.vertx:vertx-redis-client:jar:3.5.0:compile
+|  \- (io.vertx:vertx-core:jar:3.5.0:compile - omitted for duplicate)
++- commons-lang:commons-lang:jar:2.4:compile
++- org.springframework:spring-core:jar:4.1.3.RELEASE:compile
+|  \- commons-logging:commons-logging:jar:1.1.3:compile (version managed from 1.2)
++- org.slf4j:slf4j-api:jar:1.7.21:compile
+\- org.slf4j:slf4j-log4j12:jar:1.7.21:compile
+   +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.6.6; omitted for duplicate)
+   \- (log4j:log4j:jar:1.2.17:compile - omitted for duplicate)

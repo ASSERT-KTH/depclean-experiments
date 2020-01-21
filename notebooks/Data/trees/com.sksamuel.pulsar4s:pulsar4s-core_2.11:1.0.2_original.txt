@@ -1,0 +1,70 @@
+com.sksamuel.pulsar4s:pulsar4s-core_2.11:jar:1.0.2
++- org.scala-lang:scala-library:jar:2.11.8:compile
++- org.apache.pulsar:pulsar-client:jar:1.22.0-incubating:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for conflict with 1.7.12)
+|  +- org.bouncycastle:bcpkix-jdk15on:jar:1.55:compile
+|  |  \- (org.bouncycastle:bcprov-jdk15on:jar:1.55:compile - omitted for duplicate)
+|  \- org.bouncycastle:bcprov-jdk15on:jar:1.55:compile
++- org.apache.pulsar:pulsar-common:jar:1.22.0-incubating:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.3:compile - omitted for conflict with 2.9.2)
+|  +- com.google.protobuf:protobuf-java:jar:2.4.1:compile
+|  +- com.google.guava:guava:jar:20.0:compile
+|  +- io.netty:netty-all:jar:4.1.21.Final:compile
+|  +- net.jpountz.lz4:lz4:jar:1.3.0:compile
+|  +- org.apache.pulsar:pulsar-checksum:jar:1.22.0-incubating:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  |  +- (io.netty:netty-all:jar:4.1.21.Final:compile - omitted for duplicate)
+|  |  \- (com.google.guava:guava:jar:20.0:compile - omitted for duplicate)
+|  \- io.netty:netty-tcnative-boringssl-static:jar:2.0.7.Final:compile
++- org.apache.pulsar:pulsar-client-admin:jar:1.22.0-incubating:compile
+|  +- (org.bouncycastle:bcpkix-jdk15on:jar:1.55:compile - omitted for duplicate)
+|  +- (org.bouncycastle:bcprov-jdk15on:jar:1.55:compile - omitted for duplicate)
+|  +- org.apache.httpcomponents:httpclient:jar:4.5.5:compile
+|  |  +- (org.apache.httpcomponents:httpcore:jar:4.4.9:compile - omitted for duplicate)
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for conflict with 1.1.1)
+|  |  \- commons-codec:commons-codec:jar:1.10:compile
+|  +- commons-logging:commons-logging:jar:1.1.1:compile
+|  +- org.apache.httpcomponents:httpcore:jar:4.4.9:compile
+|  +- (io.netty:netty-tcnative-boringssl-static:jar:2.0.7.Final:compile - omitted for duplicate)
+|  +- org.slf4j:jul-to-slf4j:jar:1.7.25:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
++- com.sksamuel.exts:exts_2.11:jar:1.44.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.16:compile - omitted for conflict with 1.7.25)
+|  +- org.scala-lang:scala-reflect:jar:2.11.8:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for duplicate)
+|  \- com.typesafe:config:jar:1.3.0:compile
++- org.slf4j:slf4j-api:jar:1.7.12:compile
++- org.apache.logging.log4j:log4j-api:jar:2.10.0:test
++- org.apache.logging.log4j:log4j-slf4j-impl:jar:2.10.0:test
+|  +- (org.slf4j:slf4j-api:jar:1.8.0-alpha2:test - omitted for conflict with 1.7.12)
+|  +- (org.apache.logging.log4j:log4j-api:jar:2.10.0:test - omitted for duplicate)
+|  \- org.apache.logging.log4j:log4j-core:jar:2.10.0:test
+|     \- (org.apache.logging.log4j:log4j-api:jar:2.10.0:test - omitted for duplicate)
++- org.scalatest:scalatest_2.11:jar:3.0.1:test
+|  +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for duplicate)
+|  +- org.scalactic:scalactic_2.11:jar:3.0.1:test
+|  |  +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for duplicate)
+|  |  \- (org.scala-lang:scala-reflect:jar:2.11.8:test - omitted for duplicate)
+|  +- (org.scala-lang:scala-reflect:jar:2.11.8:test - omitted for duplicate)
+|  +- org.scala-lang.modules:scala-xml_2.11:jar:1.0.5:test
+|  |  \- (org.scala-lang:scala-library:jar:2.11.7:test - omitted for conflict with 2.11.8)
+|  \- org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.0.4:test
+|     \- (org.scala-lang:scala-library:jar:2.11.6:test - omitted for conflict with 2.11.8)
++- org.scala-lang.modules:scala-java8-compat_2.11:jar:0.8.0:compile
+|  \- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for duplicate)
++- com.fasterxml.jackson.core:jackson-core:jar:2.9.2:compile
++- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.2:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.9.2:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile - omitted for conflict with 2.9.2)
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.2:compile - omitted for duplicate)
+\- com.fasterxml.jackson.module:jackson-module-scala_2.11:jar:2.9.2:test
+   +- (org.scala-lang:scala-reflect:jar:2.11.8:test - omitted for duplicate)
+   +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.2:test - omitted for duplicate)
+   +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.2:test - omitted for duplicate)
+   +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.2:test - omitted for duplicate)
+   \- com.fasterxml.jackson.module:jackson-module-paranamer:jar:2.9.2:test
+      +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.2:test - omitted for duplicate)
+      \- com.thoughtworks.paranamer:paranamer:jar:2.8:test

@@ -1,0 +1,2 @@
+org.webjars.npm:workbox-cacheable-response:jar:3.3.1
+\- org.webjars.npm:workbox-core:jar:3.3.1:compile

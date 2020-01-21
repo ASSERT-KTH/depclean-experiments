@@ -1,0 +1,64 @@
+org.nutz:nutzboot-starter-jetty:jar:2.2.1
++- org.eclipse.jetty:jetty-servlets:jar:9.4.11.v20180605:compile
+|  +- org.eclipse.jetty:jetty-continuation:jar:9.4.11.v20180605:compile
+|  +- org.eclipse.jetty:jetty-http:jar:9.4.11.v20180605:compile
+|  |  +- (org.eclipse.jetty:jetty-util:jar:9.4.11.v20180605:compile - omitted for duplicate)
+|  |  \- (org.eclipse.jetty:jetty-io:jar:9.4.11.v20180605:compile - omitted for duplicate)
+|  +- org.eclipse.jetty:jetty-util:jar:9.4.11.v20180605:compile
+|  \- org.eclipse.jetty:jetty-io:jar:9.4.11.v20180605:compile
+|     \- (org.eclipse.jetty:jetty-util:jar:9.4.11.v20180605:compile - omitted for duplicate)
++- org.eclipse.jetty:jetty-webapp:jar:9.4.11.v20180605:compile
+|  +- org.eclipse.jetty:jetty-xml:jar:9.4.11.v20180605:compile
+|  |  \- (org.eclipse.jetty:jetty-util:jar:9.4.11.v20180605:compile - omitted for duplicate)
+|  \- org.eclipse.jetty:jetty-servlet:jar:9.4.11.v20180605:compile
+|     \- org.eclipse.jetty:jetty-security:jar:9.4.11.v20180605:compile
+|        \- org.eclipse.jetty:jetty-server:jar:9.4.11.v20180605:compile
+|           +- (javax.servlet:javax.servlet-api:jar:3.1.0:compile - omitted for duplicate)
+|           +- (org.eclipse.jetty:jetty-http:jar:9.4.11.v20180605:compile - omitted for duplicate)
+|           \- (org.eclipse.jetty:jetty-io:jar:9.4.11.v20180605:compile - omitted for duplicate)
++- org.eclipse.jetty.websocket:websocket-server:jar:9.4.11.v20180605:compile
+|  +- org.eclipse.jetty.websocket:websocket-common:jar:9.4.11.v20180605:compile
+|  |  +- org.eclipse.jetty.websocket:websocket-api:jar:9.4.11.v20180605:compile
+|  |  +- (org.eclipse.jetty:jetty-util:jar:9.4.11.v20180605:compile - omitted for duplicate)
+|  |  \- (org.eclipse.jetty:jetty-io:jar:9.4.11.v20180605:compile - omitted for duplicate)
+|  +- org.eclipse.jetty.websocket:websocket-client:jar:9.4.11.v20180605:compile
+|  |  +- org.eclipse.jetty:jetty-client:jar:9.4.11.v20180605:compile
+|  |  |  +- (org.eclipse.jetty:jetty-http:jar:9.4.11.v20180605:compile - omitted for duplicate)
+|  |  |  \- (org.eclipse.jetty:jetty-io:jar:9.4.11.v20180605:compile - omitted for duplicate)
+|  |  +- (org.eclipse.jetty:jetty-xml:jar:9.4.11.v20180605:compile - omitted for duplicate)
+|  |  +- (org.eclipse.jetty:jetty-util:jar:9.4.11.v20180605:compile - omitted for duplicate)
+|  |  +- (org.eclipse.jetty:jetty-io:jar:9.4.11.v20180605:compile - omitted for duplicate)
+|  |  \- (org.eclipse.jetty.websocket:websocket-common:jar:9.4.11.v20180605:compile - omitted for duplicate)
+|  +- org.eclipse.jetty.websocket:websocket-servlet:jar:9.4.11.v20180605:compile
+|  |  +- (org.eclipse.jetty.websocket:websocket-api:jar:9.4.11.v20180605:compile - omitted for duplicate)
+|  |  \- (javax.servlet:javax.servlet-api:jar:3.1.0:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-servlet:jar:9.4.11.v20180605:compile - omitted for duplicate)
+|  \- (org.eclipse.jetty:jetty-http:jar:9.4.11.v20180605:compile - omitted for duplicate)
++- org.eclipse.jetty.websocket:javax-websocket-server-impl:jar:9.4.11.v20180605:compile
+|  +- org.eclipse.jetty:jetty-annotations:jar:9.4.11.v20180605:compile
+|  |  +- org.eclipse.jetty:jetty-plus:jar:9.4.11.v20180605:compile
+|  |  |  \- (org.eclipse.jetty:jetty-webapp:jar:9.4.11.v20180605:compile - omitted for duplicate)
+|  |  +- (org.eclipse.jetty:jetty-webapp:jar:9.4.11.v20180605:compile - omitted for duplicate)
+|  |  +- (javax.annotation:javax.annotation-api:jar:1.2:compile - omitted for duplicate)
+|  |  +- (org.ow2.asm:asm:jar:6.1.1:compile - version managed from 6.2; omitted for duplicate)
+|  |  \- org.ow2.asm:asm-commons:jar:6.1.1:compile (version managed from 6.2)
+|  |     +- (org.ow2.asm:asm:jar:6.1.1:compile - version managed from 6.2; omitted for duplicate)
+|  |     +- org.ow2.asm:asm-tree:jar:6.1.1:compile
+|  |     |  \- (org.ow2.asm:asm:jar:6.1.1:compile - version managed from 6.2; omitted for duplicate)
+|  |     \- org.ow2.asm:asm-analysis:jar:6.1.1:compile
+|  |        \- (org.ow2.asm:asm-tree:jar:6.1.1:compile - omitted for duplicate)
+|  +- org.eclipse.jetty.websocket:javax-websocket-client-impl:jar:9.4.11.v20180605:compile
+|  |  +- (org.eclipse.jetty.websocket:websocket-client:jar:9.4.11.v20180605:compile - omitted for duplicate)
+|  |  \- javax.websocket:javax.websocket-client-api:jar:1.0:compile
+|  +- (org.eclipse.jetty.websocket:websocket-server:jar:9.4.11.v20180605:compile - omitted for duplicate)
+|  \- javax.websocket:javax.websocket-api:jar:1.0:compile
++- org.nutz:nutz-plugins-websocket:jar:1.r.66:compile
+|  \- org.nutz:nutz:jar:1.r.66:compile
++- org.nutz:nutzboot-servlet3:jar:2.2.1:compile
+|  +- (org.nutz:nutz-plugins-websocket:jar:1.r.66:compile - omitted for duplicate)
+|  +- javax.annotation:javax.annotation-api:jar:1.2:compile
+|  \- (org.nutz:nutzboot-core:jar:2.2.1:compile - omitted for duplicate)
+\- org.nutz:nutzboot-core:jar:2.2.1:compile
+   +- (org.nutz:nutz:jar:1.r.66:compile - omitted for duplicate)
+   +- javax.servlet:javax.servlet-api:jar:3.1.0:compile
+   \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)

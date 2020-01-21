@@ -1,0 +1,2 @@
+com.github.veithen.visualwas.thirdparty:org.openide.awt:pom:2.0.0
+\- com.github.veithen.visualwas.thirdparty:visualvm:zip:2.0.0:compile

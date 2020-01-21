@@ -1,0 +1,6 @@
+fr.inria.wimmics:sparql:jar:3.3.3
++- fr.inria.wimmics:kgram:jar:3.3.3:compile
+|  \- (org.apache.logging.log4j:log4j-api:jar:2.6.2:compile - omitted for duplicate)
++- org.apache.logging.log4j:log4j-api:jar:2.6.2:compile
+\- org.apache.logging.log4j:log4j-core:jar:2.6.2:compile
+   \- (org.apache.logging.log4j:log4j-api:jar:2.6.2:compile - omitted for duplicate)

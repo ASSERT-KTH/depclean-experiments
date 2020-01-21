@@ -1,0 +1,4 @@
+org.jboss.jbossts:common:jar:4.17.43.Final
++- org.jboss.byteman:byteman-submit:jar:2.1.2:compile
+\- junit:junit:jar:4.10:test
+   \- org.hamcrest:hamcrest-core:jar:1.1:test

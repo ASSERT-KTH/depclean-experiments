@@ -1,0 +1,2 @@
+com.gilt.urbanairship4s:core_2.12:jar:0.1.0
+\- org.scala-lang:scala-library:jar:2.12.4:compile

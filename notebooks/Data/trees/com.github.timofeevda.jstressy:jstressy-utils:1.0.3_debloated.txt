@@ -1,0 +1,6 @@
+com.github.timofeevda.jstressy:jstressy-utils:bundle:1.0.3
++- io.dropwizard.metrics:metrics-core:jar:3.1.2:compile
+|  \- org.slf4j:slf4j-api:jar:1.7.25:compile (version managed from 1.7.7)
++- org.osgi:org.osgi.core:jar:4.2.0:provided
+\- io.reactivex.rxjava2:rxjava:jar:2.1.9:provided
+   \- org.reactivestreams:reactive-streams:jar:1.0.2:provided

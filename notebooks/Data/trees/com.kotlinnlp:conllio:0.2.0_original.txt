@@ -1,0 +1,25 @@
+com.kotlinnlp:conllio:jar:0.2.0
++- org.jetbrains.kotlin:kotlin-stdlib-jdk8:jar:1.2.41:compile
+|  +- org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.41:compile
+|  |  \- org.jetbrains:annotations:jar:13.0:compile
+|  \- org.jetbrains.kotlin:kotlin-stdlib-jdk7:jar:1.2.41:compile
+|     \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.41:compile - omitted for duplicate)
++- org.jetbrains.kotlin:kotlin-reflect:jar:1.2.41:compile
+|  \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.41:compile - omitted for duplicate)
++- org.jetbrains.kotlin:kotlin-test:jar:1.2.41:test
+|  +- org.jetbrains.kotlin:kotlin-test-common:jar:1.2.41:test
+|  |  \- org.jetbrains.kotlin:kotlin-stdlib-common:jar:1.2.41:test
+|  \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.41:test - omitted for duplicate)
++- org.jetbrains.spek:spek-api:jar:1.1.5:test (scope not updated to runtime)
+|  +- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.0.6:test - omitted for conflict with 1.2.41)
+|  \- (org.jetbrains.kotlin:kotlin-reflect:jar:1.0.6:test - omitted for conflict with 1.2.41)
++- org.jetbrains.spek:spek-junit-platform-engine:jar:1.1.5:runtime
+|  +- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.0.6:runtime - omitted for conflict with 1.2.41)
+|  +- (org.jetbrains.kotlin:kotlin-reflect:jar:1.0.6:runtime - omitted for conflict with 1.2.41)
+|  \- (org.jetbrains.spek:spek-api:jar:1.1.5:runtime - omitted for duplicate)
++- com.squareup.moshi:moshi:jar:1.5.0:compile
+|  \- com.squareup.okio:okio:jar:1.13.0:compile
+\- com.squareup.moshi:moshi-kotlin:jar:1.5.0:compile
+   +- (com.squareup.moshi:moshi:jar:1.5.0:compile - omitted for duplicate)
+   +- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.1.1:compile - omitted for conflict with 1.2.41)
+   \- (org.jetbrains.kotlin:kotlin-reflect:jar:1.1.1:compile - omitted for conflict with 1.2.41)

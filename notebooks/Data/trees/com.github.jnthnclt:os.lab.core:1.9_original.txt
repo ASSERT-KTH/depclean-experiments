@@ -1,0 +1,30 @@
+com.github.jnthnclt:os.lab.core:jar:1.9
++- com.github.jnthnclt:os.lab.base:jar:1.9:compile
+|  +- (com.google.guava:guava:jar:23.0:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.1:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.1:compile - omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.5:compile - omitted for duplicate)
+|  \- (org.roaringbitmap:RoaringBitmap:jar:0.6.47:compile - omitted for duplicate)
++- com.github.jnthnclt:os.lab.collections:jar:1.9:compile
+|  +- (com.google.guava:guava:jar:23.0:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.1:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.1:compile - omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.5:compile - omitted for duplicate)
+|  \- (org.roaringbitmap:RoaringBitmap:jar:0.6.47:compile - omitted for duplicate)
++- com.google.guava:guava:jar:23.0:compile
+|  +- com.google.code.findbugs:jsr305:jar:1.3.9:compile
+|  +- com.google.errorprone:error_prone_annotations:jar:2.0.18:compile
+|  +- com.google.j2objc:j2objc-annotations:jar:1.1:compile
+|  \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:compile
++- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.1:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.9.1:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile - omitted for conflict with 2.9.1)
+|  \- com.fasterxml.jackson.core:jackson-core:jar:2.9.1:compile
++- commons-io:commons-io:jar:2.5:compile
++- org.roaringbitmap:RoaringBitmap:jar:0.6.47:compile
+\- org.testng:testng:jar:6.8.5:test
+   +- junit:junit:jar:4.10:test
+   |  \- org.hamcrest:hamcrest-core:jar:1.1:test
+   +- org.beanshell:bsh:jar:2.0b4:test
+   +- com.beust:jcommander:jar:1.27:test
+   \- org.yaml:snakeyaml:jar:1.6:test

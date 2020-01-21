@@ -1,0 +1,57 @@
+io.github.cjkent.osiris:osiris-aws-deploy:jar:0.7.0
++- io.github.cjkent.osiris:osiris-core:jar:0.7.0:compile
+|  +- (org.jetbrains.kotlin:kotlin-stdlib-jdk8:jar:1.2.10:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  \- com.google.code.gson:gson:jar:2.8.2:compile
++- io.github.cjkent.osiris:osiris-aws:jar:0.7.0:compile
+|  +- (io.github.cjkent.osiris:osiris-core:jar:0.7.0:compile - omitted for duplicate)
+|  +- io.github.cjkent.osiris:osiris-server:jar:0.7.0:compile
+|  |  +- (io.github.cjkent.osiris:osiris-core:jar:0.7.0:compile - omitted for duplicate)
+|  |  +- (org.jetbrains.kotlin:kotlin-stdlib-jdk8:jar:1.2.10:compile - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  +- (org.jetbrains.kotlin:kotlin-stdlib-jdk8:jar:1.2.10:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
++- org.jetbrains.kotlin:kotlin-stdlib-jdk8:jar:1.2.10:compile
+|  +- org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.10:compile
+|  |  \- org.jetbrains:annotations:jar:13.0:compile
+|  \- org.jetbrains.kotlin:kotlin-stdlib-jdk7:jar:1.2.10:compile
+|     \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.10:compile - omitted for duplicate)
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- com.amazonaws:aws-java-sdk-lambda:jar:1.11.265:compile
+|  +- com.amazonaws:aws-java-sdk-core:jar:1.11.265:compile
+|  |  +- commons-logging:commons-logging:jar:1.1.3:compile
+|  |  +- org.apache.httpcomponents:httpclient:jar:4.5.2:compile
+|  |  |  +- org.apache.httpcomponents:httpcore:jar:4.4.4:compile
+|  |  |  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for conflict with 1.1.3)
+|  |  |  \- commons-codec:commons-codec:jar:1.9:compile
+|  |  +- software.amazon.ion:ion-java:jar:1.0.2:compile
+|  |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.9.2:compile (version managed from 2.6.7.1)
+|  |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+|  |  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.9.2:compile
+|  |  +- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.6.7:compile
+|  |  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.6.7:compile - omitted for conflict with 2.9.2)
+|  |  \- joda-time:joda-time:jar:2.8.1:compile
+|  \- com.amazonaws:jmespath-java:jar:1.11.265:compile
+|     \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.2:compile - version managed from 2.6.7.1; omitted for duplicate)
++- com.amazonaws:aws-java-sdk-api-gateway:jar:1.11.265:compile
+|  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.265:compile - omitted for duplicate)
+|  \- (com.amazonaws:jmespath-java:jar:1.11.265:compile - omitted for duplicate)
++- com.amazonaws:aws-java-sdk-sts:jar:1.11.265:compile
+|  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.265:compile - omitted for duplicate)
+|  \- (com.amazonaws:jmespath-java:jar:1.11.265:compile - omitted for duplicate)
++- com.amazonaws:aws-java-sdk-iam:jar:1.11.265:compile
+|  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.265:compile - omitted for duplicate)
+|  \- (com.amazonaws:jmespath-java:jar:1.11.265:compile - omitted for duplicate)
++- com.amazonaws:aws-java-sdk-s3:jar:1.11.265:compile
+|  +- com.amazonaws:aws-java-sdk-kms:jar:1.11.265:compile
+|  |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.265:compile - omitted for duplicate)
+|  |  \- (com.amazonaws:jmespath-java:jar:1.11.265:compile - omitted for duplicate)
+|  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.265:compile - omitted for duplicate)
+|  \- (com.amazonaws:jmespath-java:jar:1.11.265:compile - omitted for duplicate)
++- com.amazonaws:aws-java-sdk-cloudformation:jar:1.11.265:compile
+|  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.265:compile - omitted for duplicate)
+|  \- (com.amazonaws:jmespath-java:jar:1.11.265:compile - omitted for duplicate)
++- org.jetbrains.kotlin:kotlin-test:jar:1.2.10:compile
+|  \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.10:compile - omitted for duplicate)
+\- org.testng:testng:jar:6.10:test
+   \- com.beust:jcommander:jar:1.69:test (version managed from 1.48)

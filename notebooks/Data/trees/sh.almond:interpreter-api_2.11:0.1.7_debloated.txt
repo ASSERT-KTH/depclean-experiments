@@ -1,0 +1,2 @@
+sh.almond:interpreter-api_2.11:jar:0.1.7
+\- org.scala-lang:scala-library:jar:2.11.12:compile

@@ -1,0 +1,36 @@
+com.softwaremill.sttp:monix_2.12:jar:1.2.0
++- org.scala-lang:scala-library:jar:2.12.6:compile
++- com.softwaremill.sttp:core_2.12:jar:1.2.0:compile
+|  \- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
+\- io.monix:monix_2.12:jar:3.0.0-RC1:compile
+   +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.6)
+   +- io.monix:monix-execution_2.12:jar:3.0.0-RC1:compile
+   |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.6)
+   |  +- org.typelevel:cats-effect_2.12:jar:0.10:compile
+   |  |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.6)
+   |  |  \- org.typelevel:cats-core_2.12:jar:1.0.1:compile
+   |  |     +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.6)
+   |  |     +- org.typelevel:cats-macros_2.12:jar:1.0.1:compile
+   |  |     |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.6)
+   |  |     |  \- (org.typelevel:machinist_2.12:jar:0.6.2:compile - omitted for duplicate)
+   |  |     +- org.typelevel:cats-kernel_2.12:jar:1.0.1:compile
+   |  |     |  \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.6)
+   |  |     \- org.typelevel:machinist_2.12:jar:0.6.2:compile
+   |  |        +- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.6)
+   |  |        \- org.scala-lang:scala-reflect:jar:2.12.0:compile
+   |  |           \- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.6)
+   |  \- org.reactivestreams:reactive-streams:jar:1.0.2:compile
+   +- io.monix:monix-eval_2.12:jar:3.0.0-RC1:compile
+   |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.6)
+   |  \- (io.monix:monix-execution_2.12:jar:3.0.0-RC1:compile - omitted for duplicate)
+   +- io.monix:monix-tail_2.12:jar:3.0.0-RC1:compile
+   |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.6)
+   |  +- (io.monix:monix-eval_2.12:jar:3.0.0-RC1:compile - omitted for duplicate)
+   |  \- (io.monix:monix-execution_2.12:jar:3.0.0-RC1:compile - omitted for duplicate)
+   +- io.monix:monix-reactive_2.12:jar:3.0.0-RC1:compile
+   |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.6)
+   |  +- (io.monix:monix-execution_2.12:jar:3.0.0-RC1:compile - omitted for duplicate)
+   |  +- (io.monix:monix-eval_2.12:jar:3.0.0-RC1:compile - omitted for duplicate)
+   |  \- org.jctools:jctools-core:jar:2.1.1:compile
+   \- io.monix:monix-java_2.12:jar:3.0.0-RC1:compile
+      \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.6)

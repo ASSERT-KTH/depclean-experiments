@@ -1,0 +1,2 @@
+org.webjars.npm:add-dom-event-listener:jar:1.0.2
+\- org.webjars.npm:object-assign:jar:4.1.1:compile

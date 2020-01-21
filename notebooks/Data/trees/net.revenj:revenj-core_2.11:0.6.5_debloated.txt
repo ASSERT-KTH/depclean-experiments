@@ -1,0 +1,73 @@
+net.revenj:revenj-core_2.11:jar:0.6.5
++- org.scala-lang:scala-library:jar:2.11.12:compile
++- org.postgresql:postgresql:jar:42.1.4:compile
++- joda-time:joda-time:jar:2.9.9:compile
++- org.scala-lang:scala-reflect:jar:2.11.12:compile
+|  \- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
++- io.monix:monix-reactive_2.11:jar:2.3.2:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
+|  +- io.monix:monix-types_2.11:jar:2.3.2:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
+|  +- io.monix:monix-execution_2.11:jar:2.3.2:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
+|  |  \- org.reactivestreams:reactive-streams:jar:1.0.0:compile
+|  +- io.monix:monix-eval_2.11:jar:2.3.2:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
+|  |  +- (io.monix:monix-types_2.11:jar:2.3.2:compile - omitted for duplicate)
+|  |  \- (io.monix:monix-execution_2.11:jar:2.3.2:compile - omitted for duplicate)
+|  \- org.jctools:jctools-core:jar:2.0.1:compile
++- org.scala-lang.modules:scala-xml_2.11:jar:1.0.6:compile
+|  \- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.12)
++- com.fasterxml.jackson.module:jackson-module-scala_2.11:jar:2.9.2:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.12)
+|  +- (org.scala-lang:scala-reflect:jar:2.11.8:compile - omitted for conflict with 2.11.12)
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.9.2:compile
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.2:compile
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.9.2:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile - omitted for conflict with 2.9.2)
+|  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.2:compile - omitted for duplicate)
+|  \- com.fasterxml.jackson.module:jackson-module-paranamer:jar:2.9.2:compile
+|     +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.2:compile - omitted for duplicate)
+|     \- com.thoughtworks.paranamer:paranamer:jar:2.8:compile
++- com.fasterxml.jackson.datatype:jackson-datatype-joda:jar:2.9.2:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile - omitted for conflict with 2.9.2)
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.2:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.2:compile - omitted for duplicate)
+|  \- (joda-time:joda-time:jar:2.7:compile - omitted for conflict with 2.9.9)
++- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.2:compile
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.2:compile - omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.2:compile - omitted for duplicate)
++- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.2:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile - omitted for conflict with 2.9.2)
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.2:compile - omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.2:compile - omitted for duplicate)
+\- org.specs2:specs2-scalacheck_2.11:jar:3.8.6:test
+   +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.12)
+   +- org.specs2:specs2-core_2.11:jar:3.8.6:test
+   |  +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.12)
+   |  +- org.specs2:specs2-matcher_2.11:jar:3.8.6:test
+   |  |  +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.12)
+   |  |  \- org.specs2:specs2-common_2.11:jar:3.8.6:test
+   |  |     +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.12)
+   |  |     +- org.specs2:specs2-codata_2.11:jar:3.8.6:test
+   |  |     |  +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.12)
+   |  |     |  +- (org.scalaz:scalaz-core_2.11:jar:7.2.7:test - omitted for duplicate)
+   |  |     |  +- (org.scalaz:scalaz-effect_2.11:jar:7.2.7:test - omitted for duplicate)
+   |  |     |  \- (org.scalaz:scalaz-concurrent_2.11:jar:7.2.7:test - omitted for duplicate)
+   |  |     +- org.scalaz:scalaz-core_2.11:jar:7.2.7:test
+   |  |     |  \- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.12)
+   |  |     +- org.scalaz:scalaz-effect_2.11:jar:7.2.7:test
+   |  |     |  +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.12)
+   |  |     |  \- (org.scalaz:scalaz-core_2.11:jar:7.2.7:test - omitted for duplicate)
+   |  |     +- org.scalaz:scalaz-concurrent_2.11:jar:7.2.7:test
+   |  |     |  +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.12)
+   |  |     |  +- (org.scalaz:scalaz-core_2.11:jar:7.2.7:test - omitted for duplicate)
+   |  |     |  \- (org.scalaz:scalaz-effect_2.11:jar:7.2.7:test - omitted for duplicate)
+   |  |     +- (org.scala-lang:scala-reflect:jar:2.11.8:test - omitted for conflict with 2.11.12)
+   |  |     +- org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.0.4:test
+   |  |     |  \- (org.scala-lang:scala-library:jar:2.11.6:test - omitted for conflict with 2.11.12)
+   |  |     \- (org.scala-lang.modules:scala-xml_2.11:jar:1.0.5:test - omitted for conflict with 1.0.6)
+   |  \- (org.scala-lang:scala-reflect:jar:2.11.8:test - omitted for conflict with 2.11.12)
+   \- org.scalacheck:scalacheck_2.11:jar:1.13.4:test
+      +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.12)
+      \- org.scala-sbt:test-interface:jar:1.0:test

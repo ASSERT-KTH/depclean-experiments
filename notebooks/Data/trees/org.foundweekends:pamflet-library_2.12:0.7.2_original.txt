@@ -1,0 +1,38 @@
+org.foundweekends:pamflet-library_2.12:jar:0.7.2
++- org.scala-lang:scala-library:jar:2.12.4:compile
++- org.foundweekends:pamflet-knockoff_2.12:jar:0.7.2:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  \- org.foundweekends:knockoff_2.12:jar:0.8.6:compile
+|     +- (org.scala-lang:scala-library:jar:2.12.1:compile - omitted for conflict with 2.12.4)
+|     +- org.scala-lang.modules:scala-xml_2.12:jar:1.0.6:compile
+|     |  \- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.4)
+|     \- org.scala-lang.modules:scala-parser-combinators_2.12:jar:1.0.5:compile
+|        \- (org.scala-lang:scala-library:jar:2.12.1:compile - omitted for conflict with 2.12.4)
++- ws.unfiltered:unfiltered-filter_2.12:jar:0.9.1:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.1:compile - omitted for conflict with 2.12.4)
+|  \- ws.unfiltered:unfiltered_2.12:jar:0.9.1:compile
+|     +- (org.scala-lang:scala-library:jar:2.12.1:compile - omitted for conflict with 2.12.4)
+|     +- (ws.unfiltered:unfiltered-util_2.12:jar:0.9.1:compile - omitted for duplicate)
+|     +- commons-codec:commons-codec:jar:1.10:compile
+|     \- (org.scala-lang.modules:scala-xml_2.12:jar:1.0.6:compile - omitted for duplicate)
++- ws.unfiltered:unfiltered-jetty_2.12:jar:0.9.1:compile
+|  +- ws.unfiltered:unfiltered-util_2.12:jar:0.9.1:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.12.1:compile - omitted for conflict with 2.12.4)
+|  \- org.eclipse.jetty:jetty-webapp:jar:9.2.21.v20170120:compile
+|     +- org.eclipse.jetty:jetty-xml:jar:9.2.21.v20170120:compile
+|     |  \- org.eclipse.jetty:jetty-util:jar:9.2.21.v20170120:compile
+|     \- org.eclipse.jetty:jetty-servlet:jar:9.2.21.v20170120:compile
+|        \- org.eclipse.jetty:jetty-security:jar:9.2.21.v20170120:compile
+|           \- org.eclipse.jetty:jetty-server:jar:9.2.21.v20170120:compile
+|              +- javax.servlet:javax.servlet-api:jar:3.1.0:compile
+|              +- org.eclipse.jetty:jetty-http:jar:9.2.21.v20170120:compile
+|              |  \- (org.eclipse.jetty:jetty-util:jar:9.2.21.v20170120:compile - omitted for duplicate)
+|              \- org.eclipse.jetty:jetty-io:jar:9.2.21.v20170120:compile
+|                 \- (org.eclipse.jetty:jetty-util:jar:9.2.21.v20170120:compile - omitted for duplicate)
++- org.antlr:stringtemplate:jar:3.2.1:compile
+|  \- antlr:antlr:jar:2.7.7:compile
+\- com.lihaoyi:utest_2.12:jar:0.6.3:test
+   +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for duplicate)
+   +- org.scala-lang:scala-reflect:jar:2.12.4:test
+   |  \- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for duplicate)
+   \- org.scala-sbt:test-interface:jar:1.0:test

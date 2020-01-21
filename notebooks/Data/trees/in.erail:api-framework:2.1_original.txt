@@ -1,0 +1,187 @@
+in.erail:api-framework:jar:2.1
++- io.vertx:vertx-core:jar:3.5.1:compile
+|  +- io.netty:netty-common:jar:4.1.19.Final:compile
+|  +- io.netty:netty-buffer:jar:4.1.19.Final:compile
+|  |  \- (io.netty:netty-common:jar:4.1.19.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-transport:jar:4.1.19.Final:compile
+|  |  +- (io.netty:netty-buffer:jar:4.1.19.Final:compile - omitted for duplicate)
+|  |  \- (io.netty:netty-resolver:jar:4.1.19.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-handler:jar:4.1.19.Final:compile
+|  |  +- (io.netty:netty-buffer:jar:4.1.19.Final:compile - omitted for duplicate)
+|  |  +- (io.netty:netty-transport:jar:4.1.19.Final:compile - omitted for duplicate)
+|  |  \- io.netty:netty-codec:jar:4.1.19.Final:compile
+|  |     \- (io.netty:netty-transport:jar:4.1.19.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-handler-proxy:jar:4.1.19.Final:compile
+|  |  +- (io.netty:netty-transport:jar:4.1.19.Final:compile - omitted for duplicate)
+|  |  +- io.netty:netty-codec-socks:jar:4.1.19.Final:compile
+|  |  |  \- (io.netty:netty-codec:jar:4.1.19.Final:compile - omitted for duplicate)
+|  |  \- (io.netty:netty-codec-http:jar:4.1.19.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-codec-http:jar:4.1.19.Final:compile
+|  |  \- (io.netty:netty-codec:jar:4.1.19.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-codec-http2:jar:4.1.19.Final:compile
+|  |  +- (io.netty:netty-codec-http:jar:4.1.19.Final:compile - omitted for duplicate)
+|  |  \- (io.netty:netty-handler:jar:4.1.19.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-resolver:jar:4.1.19.Final:compile
+|  |  \- (io.netty:netty-common:jar:4.1.19.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-resolver-dns:jar:4.1.19.Final:compile
+|  |  +- (io.netty:netty-resolver:jar:4.1.19.Final:compile - omitted for duplicate)
+|  |  +- io.netty:netty-codec-dns:jar:4.1.19.Final:compile
+|  |  |  \- (io.netty:netty-codec:jar:4.1.19.Final:compile - omitted for duplicate)
+|  |  \- (io.netty:netty-transport:jar:4.1.19.Final:compile - omitted for duplicate)
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.9.3:compile
+|  \- com.fasterxml.jackson.core:jackson-databind:jar:2.9.3:compile
+|     +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+|     \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.3:compile - omitted for duplicate)
++- io.vertx:vertx-rx-java2:jar:3.5.1:compile
+|  +- io.reactivex.rxjava2:rxjava:jar:2.1.9:compile
+|  |  \- (org.reactivestreams:reactive-streams:jar:1.0.2:compile - omitted for duplicate)
+|  +- org.reactivestreams:reactive-streams:jar:1.0.2:compile
+|  \- (io.vertx:vertx-core:jar:3.5.1:compile - omitted for duplicate)
++- io.vertx:vertx-web-api-contract:jar:3.5.1:compile
+|  +- (io.vertx:vertx-web:jar:3.5.1:compile - omitted for duplicate)
+|  +- com.networknt:json-schema-validator:jar:0.1.13:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.7:compile - omitted for conflict with 2.9.3)
+|  |  +- org.slf4j:slf4j-api:jar:1.7.25:compile
+|  |  +- org.slf4j:slf4j-ext:jar:1.7.25:compile
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  |  \- org.apache.commons:commons-lang3:jar:3.5:compile
+|  +- io.swagger.parser.v3:swagger-parser:jar:2.0.0-rc3:compile
+|  |  +- io.swagger.parser.v3:swagger-parser-v2-converter:jar:2.0.0-rc3:compile
+|  |  |  +- io.swagger:swagger-parser:jar:1.0.34:compile
+|  |  |  |  +- io.swagger:swagger-core:jar:1.5.18:compile
+|  |  |  |  |  +- (org.apache.commons:commons-lang3:jar:3.2.1:compile - omitted for conflict with 3.5)
+|  |  |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.22:compile - omitted for conflict with 1.7.25)
+|  |  |  |  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.3:compile - omitted for conflict with 2.9.0)
+|  |  |  |  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.3:compile - omitted for duplicate)
+|  |  |  |  |  +- (com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.9.3:compile - omitted for conflict with 2.9.1)
+|  |  |  |  |  +- io.swagger:swagger-models:jar:1.5.18:compile
+|  |  |  |  |  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.3:compile - omitted for conflict with 2.9.0)
+|  |  |  |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.22:compile - omitted for conflict with 1.7.25)
+|  |  |  |  |  |  \- io.swagger:swagger-annotations:jar:1.5.18:compile
+|  |  |  |  |  +- (com.google.guava:guava:jar:20.0:compile - omitted for conflict with 23.0)
+|  |  |  |  |  \- (javax.validation:validation-api:jar:1.1.0.Final:compile - omitted for duplicate)
+|  |  |  |  +- (org.slf4j:slf4j-ext:jar:1.6.3:compile - omitted for conflict with 1.7.25)
+|  |  |  |  +- (org.slf4j:slf4j-api:jar:1.6.3:compile - omitted for conflict with 1.7.25)
+|  |  |  |  \- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+|  |  |  +- io.swagger:swagger-compat-spec-parser:jar:1.0.34:compile
+|  |  |  |  +- (io.swagger:swagger-core:jar:1.5.18:compile - omitted for duplicate)
+|  |  |  |  +- (io.swagger:swagger-parser:jar:1.0.34:compile - omitted for duplicate)
+|  |  |  |  +- com.github.java-json-tools:json-schema-validator:jar:2.2.8:compile
+|  |  |  |  |  +- com.github.java-json-tools:json-schema-core:jar:1.2.8:compile
+|  |  |  |  |  |  +- (com.google.code.findbugs:jsr305:jar:2.0.1:compile - omitted for conflict with 3.0.1)
+|  |  |  |  |  |  +- org.mozilla:rhino:jar:1.7R4:compile
+|  |  |  |  |  |  +- (com.github.fge:jackson-coreutils:jar:1.8:compile - omitted for conflict with 1.6)
+|  |  |  |  |  |  \- com.github.fge:uri-template:jar:0.9:compile
+|  |  |  |  |  |     +- (com.github.fge:msg-simple:jar:1.1:compile - omitted for duplicate)
+|  |  |  |  |  |     +- (com.google.guava:guava:jar:16.0.1:compile - omitted for conflict with 20.0)
+|  |  |  |  |  |     \- (com.google.code.findbugs:jsr305:jar:2.0.1:compile - omitted for duplicate)
+|  |  |  |  |  +- javax.mail:mailapi:jar:1.4.3:compile
+|  |  |  |  |  |  \- javax.activation:activation:jar:1.1:compile
+|  |  |  |  |  +- joda-time:joda-time:jar:2.9.7:compile
+|  |  |  |  |  +- com.googlecode.libphonenumber:libphonenumber:jar:8.0.0:compile
+|  |  |  |  |  +- (com.google.code.findbugs:jsr305:jar:3.0.1:compile - omitted for conflict with 1.3.9)
+|  |  |  |  |  \- net.sf.jopt-simple:jopt-simple:jar:5.0.3:compile
+|  |  |  |  +- com.github.fge:json-patch:jar:1.6:compile
+|  |  |  |  |  +- com.github.fge:jackson-coreutils:jar:1.6:compile
+|  |  |  |  |  |  +- com.github.fge:msg-simple:jar:1.1:compile
+|  |  |  |  |  |  |  +- com.github.fge:btf:jar:1.2:compile
+|  |  |  |  |  |  |  |  \- (com.google.code.findbugs:jsr305:jar:2.0.1:compile - omitted for conflict with 3.0.1)
+|  |  |  |  |  |  |  \- (com.google.code.findbugs:jsr305:jar:2.0.1:compile - omitted for conflict with 3.0.1)
+|  |  |  |  |  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.2.3:compile - omitted for conflict with 2.9.3)
+|  |  |  |  |  |  +- (com.google.guava:guava:jar:16.0.1:compile - omitted for conflict with 20.0)
+|  |  |  |  |  |  \- (com.google.code.findbugs:jsr305:jar:2.0.1:compile - omitted for conflict with 3.0.1)
+|  |  |  |  |  \- (com.google.code.findbugs:jsr305:jar:2.0.1:compile - omitted for conflict with 3.0.1)
+|  |  |  |  \- org.apache.httpcomponents:httpclient:jar:4.5.2:compile
+|  |  |  |     +- org.apache.httpcomponents:httpcore:jar:4.4.4:compile
+|  |  |  |     +- commons-logging:commons-logging:jar:1.2:compile
+|  |  |  |     \- commons-codec:commons-codec:jar:1.9:compile
+|  |  |  +- io.swagger.core.v3:swagger-models:jar:2.0.0-rc4:compile
+|  |  |  |  \- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.1:compile - omitted for conflict with 2.9.0)
+|  |  |  +- io.swagger.parser.v3:swagger-parser-core:jar:2.0.0-rc3:compile
+|  |  |  |  \- (io.swagger.core.v3:swagger-models:jar:2.0.0-rc4:compile - omitted for duplicate)
+|  |  |  \- (io.swagger.parser.v3:swagger-parser-v3:jar:2.0.0-rc3:compile - omitted for duplicate)
+|  |  +- io.swagger.parser.v3:swagger-parser-v3:jar:2.0.0-rc3:compile
+|  |  |  +- (io.swagger.core.v3:swagger-models:jar:2.0.0-rc4:compile - omitted for duplicate)
+|  |  |  +- io.swagger.core.v3:swagger-core:jar:2.0.0-rc4:compile
+|  |  |  |  +- (org.apache.commons:commons-lang3:jar:3.7:compile - omitted for conflict with 3.5)
+|  |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  |  |  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.1:compile - omitted for conflict with 2.9.0)
+|  |  |  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.1:compile - omitted for conflict with 2.9.3)
+|  |  |  |  +- (com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.9.1:compile - omitted for duplicate)
+|  |  |  |  +- io.swagger.core.v3:swagger-annotations:jar:2.0.0-rc4:compile
+|  |  |  |  +- (io.swagger.core.v3:swagger-models:jar:2.0.0-rc4:compile - omitted for duplicate)
+|  |  |  |  \- javax.validation:validation-api:jar:1.1.0.Final:compile
+|  |  |  +- (io.swagger.parser.v3:swagger-parser-core:jar:2.0.0-rc3:compile - omitted for duplicate)
+|  |  |  +- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.1:compile - omitted for conflict with 2.9.0)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.1:compile - omitted for conflict with 2.9.3)
+|  |  |  \- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.9.1:compile
+|  |  |     +- org.yaml:snakeyaml:jar:1.18:compile
+|  |  |     \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.1:compile - omitted for conflict with 2.9.3)
+|  |  +- (org.slf4j:slf4j-ext:jar:1.6.3:compile - omitted for conflict with 1.7.25)
+|  |  +- (org.slf4j:slf4j-api:jar:1.6.3:compile - omitted for conflict with 1.7.25)
+|  |  \- commons-io:commons-io:jar:2.4:compile
+|  \- (io.vertx:vertx-core:jar:3.5.1:compile - omitted for duplicate)
++- io.vertx:vertx-unit:jar:3.5.1:test
+|  \- (io.vertx:vertx-core:jar:3.5.1:test - omitted for duplicate)
++- io.vertx:vertx-web:jar:3.5.1:compile
+|  +- io.vertx:vertx-auth-common:jar:3.5.1:compile
+|  |  \- (io.vertx:vertx-core:jar:3.5.1:compile - omitted for duplicate)
+|  +- io.vertx:vertx-bridge-common:jar:3.5.1:compile
+|  \- (io.vertx:vertx-core:jar:3.5.1:compile - omitted for duplicate)
++- io.vertx:vertx-hazelcast:jar:3.5.1:compile
+|  +- (io.vertx:vertx-core:jar:3.5.1:compile - omitted for duplicate)
+|  \- com.hazelcast:hazelcast:jar:3.8.2:compile
++- io.vertx:vertx-auth-jwt:jar:3.5.1:compile
+|  +- (io.vertx:vertx-auth-common:jar:3.5.1:compile - omitted for duplicate)
+|  +- io.vertx:vertx-jwt:jar:3.5.1:compile
+|  |  \- (io.vertx:vertx-core:jar:3.5.1:compile - omitted for duplicate)
+|  \- (io.vertx:vertx-core:jar:3.5.1:compile - omitted for duplicate)
++- io.vertx:vertx-auth-oauth2:jar:3.5.1:compile
+|  +- (io.vertx:vertx-auth-common:jar:3.5.1:compile - omitted for duplicate)
+|  +- (io.vertx:vertx-jwt:jar:3.5.1:compile - omitted for duplicate)
+|  \- (io.vertx:vertx-core:jar:3.5.1:compile - omitted for duplicate)
++- io.vertx:vertx-mongo-client:jar:3.5.1:compile
+|  +- (io.vertx:vertx-core:jar:3.5.1:compile - omitted for duplicate)
+|  \- org.mongodb:mongodb-driver-async:jar:3.6.1:compile
+|     +- org.mongodb:bson:jar:3.6.1:compile
+|     \- org.mongodb:mongodb-driver-core:jar:3.6.1:compile
+|        \- (org.mongodb:bson:jar:3.6.1:compile - omitted for duplicate)
++- io.vertx:vertx-lang-js:jar:3.5.1:compile
+|  \- (io.vertx:vertx-core:jar:3.5.1:compile - omitted for duplicate)
++- io.vertx:vertx-redis-client:jar:3.5.1:compile
+|  \- (io.vertx:vertx-core:jar:3.5.1:compile - omitted for duplicate)
++- io.vertx:vertx-web-client:jar:3.5.1:compile
+|  +- io.vertx:vertx-web-common:jar:3.5.1:compile
+|  |  \- (io.vertx:vertx-core:jar:3.5.1:compile - omitted for duplicate)
+|  \- (io.vertx:vertx-core:jar:3.5.1:compile - omitted for duplicate)
++- io.netty:netty-transport-native-epoll:jar:linux-x86_64:4.1.15.Final:compile
+|  +- (io.netty:netty-common:jar:4.1.15.Final:compile - omitted for conflict with 4.1.19.Final)
+|  +- (io.netty:netty-buffer:jar:4.1.15.Final:compile - omitted for conflict with 4.1.19.Final)
+|  +- io.netty:netty-transport-native-unix-common:jar:4.1.15.Final:compile
+|  |  +- (io.netty:netty-common:jar:4.1.15.Final:compile - omitted for conflict with 4.1.19.Final)
+|  |  \- (io.netty:netty-transport:jar:4.1.15.Final:compile - omitted for conflict with 4.1.19.Final)
+|  \- (io.netty:netty-transport:jar:4.1.15.Final:compile - omitted for conflict with 4.1.19.Final)
++- com.github.vladimir-bukhtoyarov:bucket4j-core:jar:3.1.1:compile
++- in.erail:glue:jar:2.1:compile
+|  +- (io.reactivex.rxjava2:rxjava:jar:2.1.10:compile - omitted for conflict with 2.1.9)
+|  +- (io.vertx:vertx-core:jar:3.5.1:compile - omitted for duplicate)
+|  +- io.vertx:vertx-dropwizard-metrics:jar:3.5.1:compile
+|  |  +- (io.vertx:vertx-core:jar:3.5.1:compile - omitted for duplicate)
+|  |  \- io.dropwizard.metrics:metrics-core:jar:4.0.2:compile
+|  +- org.apache.logging.log4j:log4j-api:jar:2.10.0:compile
+|  +- org.apache.logging.log4j:log4j-core:jar:2.10.0:compile
+|  |  \- (org.apache.logging.log4j:log4j-api:jar:2.10.0:compile - omitted for duplicate)
+|  +- com.google.guava:guava:jar:23.0:compile
+|  |  +- com.google.code.findbugs:jsr305:jar:1.3.9:compile
+|  |  +- com.google.errorprone:error_prone_annotations:jar:2.0.18:compile
+|  |  +- com.google.j2objc:j2objc-annotations:jar:1.1:compile
+|  |  \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:compile
+|  \- org.apache.commons:commons-csv:jar:1.5:compile
++- org.mockito:mockito-core:jar:2.15.0:test
+|  +- net.bytebuddy:byte-buddy:jar:1.7.9:test
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.7.9:test
+|  \- org.objenesis:objenesis:jar:2.6:test
++- junit:junit:jar:4.12:test
+|  \- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for duplicate)
+\- org.hamcrest:hamcrest-core:jar:1.3:test

@@ -1,0 +1,31 @@
+org.jresearch.commons.gwt:org.jresearch.commons.gwt.app.shared:jar:1.0.181
++- org.jresearch.commons.gwt:org.jresearch.commons.gwt.flexess.shared:jar:1.0.181:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.4:compile - omitted for duplicate)
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.9.4:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile - omitted for conflict with 2.9.4)
+|  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.9.4:compile
+|  +- (org.jresearch.commons.gwt:org.jresearch.commons.gwt.oauth2.shared:jar:1.0.181:compile - omitted for duplicate)
+|  +- (org.jresearch.commons.gwt:org.jresearch.commons.gwt.utils.shared:jar:1.0.181:compile - omitted for duplicate)
+|  +- (org.jresearch.commons.gwt:org.jresearch.commons.gwt.base.model:jar:1.0.181:compile - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:24.0-jre:compile - omitted for duplicate)
+|  \- (com.google.code.findbugs:jsr305:jar:3.0.2:compile - omitted for duplicate)
++- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.4:compile
++- org.jresearch.commons.gwt:org.jresearch.commons.gwt.utils.shared:jar:1.0.181:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.4:compile - omitted for duplicate)
+|  +- (org.jresearch.commons.gwt:org.jresearch.commons.gwt.base.model:jar:1.0.181:compile - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:24.0-jre:compile - omitted for duplicate)
+|  \- (com.google.code.findbugs:jsr305:jar:3.0.2:compile - omitted for duplicate)
++- org.jresearch.commons.gwt:org.jresearch.commons.gwt.oauth2.shared:jar:1.0.181:compile
+|  +- (org.jresearch.commons.gwt:org.jresearch.commons.gwt.base.model:jar:1.0.181:compile - omitted for duplicate)
+|  \- (com.google.code.findbugs:jsr305:jar:3.0.2:compile - omitted for duplicate)
++- org.jresearch.commons.gwt:org.jresearch.commons.gwt.base.model:jar:1.0.181:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.4:compile - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:24.0-jre:compile - omitted for duplicate)
+|  \- (com.google.code.findbugs:jsr305:jar:3.0.2:compile - omitted for duplicate)
++- com.google.guava:guava:jar:24.0-jre:compile
+|  +- (com.google.code.findbugs:jsr305:jar:1.3.9:compile - omitted for conflict with 3.0.2)
+|  +- org.checkerframework:checker-compat-qual:jar:2.0.0:compile
+|  +- com.google.errorprone:error_prone_annotations:jar:2.1.3:compile
+|  +- com.google.j2objc:j2objc-annotations:jar:1.1:compile
+|  \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:compile
+\- com.google.code.findbugs:jsr305:jar:3.0.2:compile

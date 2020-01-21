@@ -1,0 +1,52 @@
+com.goldmansachs.jdmn:jdmn-core:jar:2.0.0
++- com.googlecode.jaxb-namespaceprefixmapper-interfaces:JAXBNamespacePrefixMapper:jar:2.2.4:provided
++- org.freemarker:freemarker:jar:2.3.23:compile
++- org.antlr:antlr4:jar:4.7.1:compile
+|  +- org.antlr:antlr4-runtime:jar:4.7.1:compile
+|  +- org.antlr:antlr-runtime:jar:3.5.2:compile
+|  +- org.antlr:ST4:jar:4.0.8:compile
+|  |  \- (org.antlr:antlr-runtime:jar:3.5.2:compile - omitted for duplicate)
+|  +- org.abego.treelayout:org.abego.treelayout.core:jar:1.0.3:compile
+|  +- org.glassfish:javax.json:jar:1.0.4:compile
+|  \- com.ibm.icu:icu4j:jar:58.2:compile
++- org.apache.commons:commons-lang3:jar:3.4:compile
++- commons-io:commons-io:jar:2.4:compile
++- org.slf4j:slf4j-api:jar:1.7.22:compile
++- org.reflections:reflections:jar:0.9.11:compile
+|  +- com.google.guava:guava:jar:20.0:compile
+|  \- (org.javassist:javassist:jar:3.21.0-GA:compile - omitted for duplicate)
++- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile
++- com.fasterxml.jackson.core:jackson-core:jar:2.8.7:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.8.7:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile - omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.8.7:compile - omitted for duplicate)
++- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.8.7:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.7:compile - omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.7:compile - omitted for duplicate)
++- net.sf.saxon:Saxon-HE:jar:9.7.0-8:compile
++- org.skyscreamer:jsonassert:jar:1.5.0:test
+|  \- com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:test
++- org.fitnesse:fitnesse:jar:20180127:test
+|  +- org.htmlparser:htmlparser:jar:2.1:test
+|  |  \- (org.htmlparser:htmllexer:jar:2.1:test - omitted for duplicate)
+|  +- org.htmlparser:htmllexer:jar:2.1:test
+|  +- org.apache.velocity:velocity:jar:1.7:test
+|  +- (commons-lang:commons-lang:jar:2.6:test - omitted for duplicate)
+|  +- (commons-collections:commons-collections:jar:3.2.2:test - omitted for duplicate)
+|  +- org.json:json:jar:20151123:test
+|  +- com.googlecode.java-diff-utils:diffutils:jar:1.3.0:test
+|  +- org.apache.ant:ant:jar:1.9.6:test
+|  |  \- org.apache.ant:ant-launcher:jar:1.9.6:test
+|  \- (junit:junit:jar:4.12:test - omitted for duplicate)
++- commons-lang:commons-lang:jar:2.6:test
++- commons-collections:commons-collections:jar:3.2.2:test
++- org.javassist:javassist:jar:3.21.0-GA:compile
++- junit:junit:jar:4.12:compile
+|  \- org.hamcrest:hamcrest-core:jar:1.3:compile
++- com.google.googlejavaformat:google-java-format:jar:1.5:compile
+|  \- com.google.errorprone:javac-shaded:jar:9-dev-r4023-3:compile
++- ch.qos.logback:logback-core:jar:1.2.1:test
+\- ch.qos.logback:logback-classic:jar:1.2.1:test
+   +- (ch.qos.logback:logback-core:jar:1.2.1:test - omitted for duplicate)
+   \- (org.slf4j:slf4j-api:jar:1.7.22:test - omitted for duplicate)

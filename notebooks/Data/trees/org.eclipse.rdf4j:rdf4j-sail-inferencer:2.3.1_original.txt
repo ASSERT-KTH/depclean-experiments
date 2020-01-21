@@ -1,0 +1,42 @@
+org.eclipse.rdf4j:rdf4j-sail-inferencer:jar:2.3.1
++- org.eclipse.rdf4j:rdf4j-sail-api:jar:2.3.1:compile
+|  +- (org.eclipse.rdf4j:rdf4j-query:jar:2.3.1:compile - omitted for duplicate)
+|  +- (org.eclipse.rdf4j:rdf4j-queryalgebra-model:jar:2.3.1:compile - omitted for duplicate)
+|  +- (org.eclipse.rdf4j:rdf4j-model:jar:2.3.1:compile - omitted for duplicate)
+|  +- (org.eclipse.rdf4j:rdf4j-util:jar:2.3.1:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - omitted for duplicate)
++- org.eclipse.rdf4j:rdf4j-queryalgebra-model:jar:2.3.1:compile
+|  +- (org.eclipse.rdf4j:rdf4j-model:jar:2.3.1:compile - omitted for duplicate)
+|  +- (org.eclipse.rdf4j:rdf4j-query:jar:2.3.1:compile - omitted for duplicate)
+|  \- (org.eclipse.rdf4j:rdf4j-util:jar:2.3.1:compile - omitted for duplicate)
++- org.eclipse.rdf4j:rdf4j-query:jar:2.3.1:compile
+|  +- (org.eclipse.rdf4j:rdf4j-model:jar:2.3.1:compile - omitted for duplicate)
+|  \- (org.eclipse.rdf4j:rdf4j-rio-api:jar:2.3.1:compile - omitted for duplicate)
++- org.eclipse.rdf4j:rdf4j-queryparser-api:jar:2.3.1:compile
+|  +- (org.eclipse.rdf4j:rdf4j-query:jar:2.3.1:compile - omitted for duplicate)
+|  +- (org.eclipse.rdf4j:rdf4j-queryalgebra-model:jar:2.3.1:compile - omitted for duplicate)
+|  \- (org.eclipse.rdf4j:rdf4j-util:jar:2.3.1:compile - omitted for duplicate)
++- org.eclipse.rdf4j:rdf4j-queryparser-serql:jar:2.3.1:runtime
+|  +- (org.eclipse.rdf4j:rdf4j-queryparser-api:jar:2.3.1:runtime - omitted for duplicate)
+|  +- (org.eclipse.rdf4j:rdf4j-query:jar:2.3.1:runtime - omitted for duplicate)
+|  +- (org.eclipse.rdf4j:rdf4j-queryalgebra-model:jar:2.3.1:runtime - omitted for duplicate)
+|  +- (org.eclipse.rdf4j:rdf4j-model:jar:2.3.1:runtime - omitted for duplicate)
+|  +- (org.eclipse.rdf4j:rdf4j-util:jar:2.3.1:runtime - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.10:runtime - omitted for duplicate)
++- org.eclipse.rdf4j:rdf4j-rio-api:jar:2.3.1:compile
+|  +- (org.eclipse.rdf4j:rdf4j-model:jar:2.3.1:compile - omitted for duplicate)
+|  \- (org.eclipse.rdf4j:rdf4j-util:jar:2.3.1:compile - omitted for duplicate)
++- org.eclipse.rdf4j:rdf4j-model:jar:2.3.1:compile
+|  \- (org.eclipse.rdf4j:rdf4j-util:jar:2.3.1:compile - omitted for duplicate)
++- org.eclipse.rdf4j:rdf4j-util:jar:2.3.1:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - omitted for duplicate)
++- org.eclipse.rdf4j:rdf4j-sail-model:jar:2.3.1:compile
+|  +- (org.eclipse.rdf4j:rdf4j-sail-api:jar:2.3.1:compile - omitted for duplicate)
+|  \- com.google.guava:guava:jar:18.0:compile
++- org.eclipse.rdf4j:rdf4j-repository-api:jar:2.3.1:compile
+|  +- (org.eclipse.rdf4j:rdf4j-query:jar:2.3.1:compile - omitted for duplicate)
+|  +- (org.eclipse.rdf4j:rdf4j-rio-api:jar:2.3.1:compile - omitted for duplicate)
+|  +- (org.eclipse.rdf4j:rdf4j-model:jar:2.3.1:compile - omitted for duplicate)
+|  +- (org.eclipse.rdf4j:rdf4j-util:jar:2.3.1:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - omitted for duplicate)
+\- org.slf4j:slf4j-api:jar:1.7.10:compile

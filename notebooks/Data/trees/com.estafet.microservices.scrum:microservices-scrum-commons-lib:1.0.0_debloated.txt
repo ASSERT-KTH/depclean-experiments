@@ -1,0 +1,4 @@
+com.estafet.microservices.scrum:microservices-scrum-commons-lib:jar:1.0.0
+\- com.fasterxml.jackson.core:jackson-databind:jar:2.8.10:compile
+   +- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile
+   \- (com.fasterxml.jackson.core:jackson-core:jar:2.8.10:compile - omitted for duplicate)

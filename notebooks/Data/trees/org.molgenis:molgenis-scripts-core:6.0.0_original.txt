@@ -1,0 +1,35 @@
+org.molgenis:molgenis-scripts-core:jar:6.0.0
++- org.molgenis:molgenis-data:jar:6.0.0:compile
+|  +- org.molgenis:molgenis-util:jar:6.0.0:compile
+|  |  +- org.springframework:spring-context-support:jar:4.3.10.RELEASE:compile
+|  |  |  \- org.springframework:spring-context:jar:4.3.10.RELEASE:compile
+|  |  |     +- org.springframework:spring-aop:jar:4.3.10.RELEASE:compile
+|  |  |     \- org.springframework:spring-expression:jar:4.3.10.RELEASE:compile
+|  |  +- com.sun.mail:javax.mail:jar:1.5.0:compile
+|  |  |  \- javax.activation:activation:jar:1.1:compile
+|  |  \- org.mapdb:mapdb:jar:1.0.6:compile
+|  +- org.molgenis:molgenis-i18n:jar:6.0.0:compile
+|  +- org.slf4j:jcl-over-slf4j:jar:1.7.25:compile
+|  +- org.springframework:spring-tx:jar:4.3.10.RELEASE:compile
+|  |  +- org.springframework:spring-beans:jar:4.3.10.RELEASE:compile
+|  |  \- org.springframework:spring-core:jar:4.3.10.RELEASE:compile
+|  +- org.apache.commons:commons-lang3:jar:3.1:compile
+|  +- com.google.code.gson:gson:jar:2.2.4:compile
+|  \- com.eaio.uuid:uuid:jar:3.2:compile
++- com.google.code.findbugs:jsr305:jar:3.0.1:provided
++- org.freemarker:freemarker:jar:2.3.23:compile
++- org.testng:testng:jar:6.8:test
+|  +- junit:junit:jar:4.10:test
+|  |  \- org.hamcrest:hamcrest-core:jar:1.1:test
+|  +- org.beanshell:bsh:jar:2.0b4:test
+|  +- com.beust:jcommander:jar:1.27:test
+|  \- org.yaml:snakeyaml:jar:1.15:test
++- org.mockito:mockito-core:jar:2.7.22:test
+|  +- net.bytebuddy:byte-buddy:jar:1.6.11:test
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.6.11:test
+|  \- org.objenesis:objenesis:jar:2.5:test
++- org.molgenis:molgenis-data:test-jar:tests:6.0.0:test
++- com.google.guava:guava:jar:21.0:compile
+\- ch.qos.logback:logback-classic:jar:1.2.2:compile
+   +- ch.qos.logback:logback-core:jar:1.2.2:compile
+   \- org.slf4j:slf4j-api:jar:1.7.25:compile

@@ -1,0 +1,2 @@
+com.typesafe.play:play-functional_2.12:jar:2.6.10
+\- org.scala-lang:scala-library:jar:2.12.2:compile

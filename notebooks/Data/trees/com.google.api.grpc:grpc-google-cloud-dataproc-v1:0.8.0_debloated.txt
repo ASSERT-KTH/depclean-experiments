@@ -1,0 +1,30 @@
+com.google.api.grpc:grpc-google-cloud-dataproc-v1:jar:0.8.0
++- io.grpc:grpc-stub:jar:1.10.1:compile
+|  \- io.grpc:grpc-core:jar:1.10.1:compile
+|     +- io.grpc:grpc-context:jar:1.10.1:compile
+|     +- com.google.code.gson:gson:jar:2.7:compile
+|     +- (com.google.guava:guava:jar:19.0:compile - omitted for duplicate)
+|     +- com.google.errorprone:error_prone_annotations:jar:2.1.2:compile
+|     +- com.google.code.findbugs:jsr305:jar:3.0.0:compile
+|     +- io.opencensus:opencensus-api:jar:0.11.0:compile
+|     |  \- (com.google.guava:guava:jar:19.0:compile - omitted for duplicate)
+|     \- io.opencensus:opencensus-contrib-grpc-metrics:jar:0.11.0:compile
+|        \- (io.opencensus:opencensus-api:jar:0.11.0:compile - omitted for duplicate)
++- io.grpc:grpc-protobuf:jar:1.10.1:compile
+|  +- (io.grpc:grpc-core:jar:1.10.1:compile - omitted for duplicate)
+|  +- com.google.protobuf:protobuf-java:jar:3.5.1:compile
+|  +- com.google.guava:guava:jar:19.0:compile
+|  +- com.google.protobuf:protobuf-java-util:jar:3.5.1:compile
+|  |  +- (com.google.protobuf:protobuf-java:jar:3.5.1:compile - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:19.0:compile - omitted for duplicate)
+|  |  \- (com.google.code.gson:gson:jar:2.7:compile - omitted for duplicate)
+|  +- com.google.api.grpc:proto-google-common-protos:jar:1.0.0:compile
+|  \- io.grpc:grpc-protobuf-lite:jar:1.10.1:compile
+|     +- (io.grpc:grpc-core:jar:1.10.1:compile - omitted for duplicate)
+|     \- (com.google.guava:guava:jar:19.0:compile - omitted for duplicate)
+\- com.google.api.grpc:proto-google-cloud-dataproc-v1:jar:0.8.0:compile
+   +- (com.google.protobuf:protobuf-java:jar:3.5.1:compile - omitted for duplicate)
+   +- com.google.api:api-common:jar:1.5.0:compile
+   |  +- (com.google.code.findbugs:jsr305:jar:3.0.0:compile - omitted for duplicate)
+   |  \- (com.google.guava:guava:jar:19.0:compile - omitted for duplicate)
+   \- (com.google.api.grpc:proto-google-common-protos:jar:1.7.0:compile - omitted for conflict with 1.0.0)

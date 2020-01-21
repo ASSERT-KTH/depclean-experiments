@@ -1,0 +1,11 @@
+org.wso2.siddhi:siddhi-query-compiler:bundle:4.1.17
++- org.wso2.siddhi:siddhi-query-api:jar:4.1.17:compile
+|  \- (org.apache.log4j.wso2:log4j:jar:1.2.17.wso2v1:compile - omitted for duplicate)
++- org.mvel:mvel2:jar:2.2.1.Final:compile
++- org.testng:testng:jar:6.8:test
+|  +- junit:junit:jar:4.10:test
+|  |  \- org.hamcrest:hamcrest-core:jar:1.1:test
+|  +- org.beanshell:bsh:jar:2.0b4:test
+|  +- com.beust:jcommander:jar:1.27:test
+|  \- org.yaml:snakeyaml:jar:1.18:test (version managed from 1.6)
+\- org.antlr:antlr4-runtime:jar:4.5.1:compile

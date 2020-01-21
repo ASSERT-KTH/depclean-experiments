@@ -1,0 +1,7 @@
+org.typelevel:cats-kernel_sjs0.6_2.11:jar:1.1.0
++- org.scala-lang:scala-library:jar:2.11.12:compile
++- org.scala-js:scalajs-library_2.11:jar:0.6.20:compile
+|  \- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
+\- org.scala-js:scalajs-test-interface_2.11:jar:0.6.20:test
+   +- (org.scala-lang:scala-library:jar:2.11.11:test - omitted for conflict with 2.11.12)
+   \- (org.scala-js:scalajs-library_2.11:jar:0.6.20:test - omitted for duplicate)

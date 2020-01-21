@@ -1,0 +1,43 @@
+org.scalaz:scalaz-deriving-scalacheck_2.11:jar:1.0.0
++- org.scala-lang:scala-library:jar:2.11.12:compile
++- org.scalaz:deriving-macro_2.11:jar:1.0.0:test
+|  \- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
++- org.scalatest:scalatest_2.11:jar:3.0.5:test
+|  +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|  +- org.scalactic:scalactic_2.11:jar:3.0.5:test
+|  |  +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|  |  \- (org.scala-lang:scala-reflect:jar:2.11.12:test - omitted for duplicate)
+|  +- (org.scala-lang:scala-reflect:jar:2.11.12:compile - scope updated from test; omitted for duplicate)
+|  \- (org.scala-lang.modules:scala-xml_2.11:jar:1.0.6:compile - scope updated from test; omitted for duplicate)
++- com.propensive:magnolia_2.11:jar:0.10.0:compile
+|  +- org.scala-lang:scala-compiler:jar:2.11.12:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  |  +- (org.scala-lang:scala-reflect:jar:2.11.12:compile - omitted for duplicate)
+|  |  +- org.scala-lang.modules:scala-xml_2.11:jar:1.0.6:compile
+|  |  |  \- (org.scala-lang:scala-library:jar:2.11.7:compile - omitted for conflict with 2.11.12)
+|  |  \- org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.0.4:compile
+|  |     \- (org.scala-lang:scala-library:jar:2.11.6:compile - omitted for conflict with 2.11.12)
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  +- org.scala-lang:scala-reflect:jar:2.11.12:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  \- com.propensive:mercator_2.11:jar:0.1.1:compile
+|     +- (org.scala-lang:scala-compiler:jar:2.11.12:compile - omitted for duplicate)
+|     +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|     \- (org.scala-lang:scala-reflect:jar:2.11.12:compile - omitted for duplicate)
+\- org.scalaz:scalaz-scalacheck-binding_2.11:jar:7.2.26-scalacheck-1.14:test
+   +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+   +- org.scalaz:scalaz-core_2.11:jar:7.2.26:test
+   |  \- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+   +- org.scalaz:scalaz-iteratee_2.11:jar:7.2.26:test
+   |  +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+   |  +- (org.scalaz:scalaz-core_2.11:jar:7.2.26:test - omitted for duplicate)
+   |  \- org.scalaz:scalaz-effect_2.11:jar:7.2.26:test
+   |     +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+   |     \- (org.scalaz:scalaz-core_2.11:jar:7.2.26:test - omitted for duplicate)
+   +- org.scalaz:scalaz-concurrent_2.11:jar:7.2.26:test
+   |  +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+   |  +- (org.scalaz:scalaz-core_2.11:jar:7.2.26:test - omitted for duplicate)
+   |  \- (org.scalaz:scalaz-effect_2.11:jar:7.2.26:test - omitted for duplicate)
+   \- org.scalacheck:scalacheck_2.11:jar:1.14.0:test
+      +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+      \- org.scala-sbt:test-interface:jar:1.0:test

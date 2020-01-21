@@ -1,0 +1,3 @@
+technology.yiss.kotlin:kotlin-test-common:jar:1.2.41
+\- technology.yiss.kotlin:kotlin-test-annotations-common:jar:1.2.41:test
+   \- (technology.yiss.kotlin:kotlin-stdlib-common:jar:1.2.41:test - omitted for duplicate)

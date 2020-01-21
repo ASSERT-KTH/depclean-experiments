@@ -1,0 +1,6 @@
+org.apache.xmlgraphics:batik-gui-util:jar:1.10
++- org.apache.xmlgraphics:batik-util:jar:1.10:compile
+|  +- org.apache.xmlgraphics:batik-constants:jar:1.10:compile
+|  \- org.apache.xmlgraphics:batik-i18n:jar:1.10:compile
+\- org.apache.xmlgraphics:batik-xml:jar:1.10:compile
+   \- (org.apache.xmlgraphics:batik-util:jar:1.10:compile - omitted for duplicate)

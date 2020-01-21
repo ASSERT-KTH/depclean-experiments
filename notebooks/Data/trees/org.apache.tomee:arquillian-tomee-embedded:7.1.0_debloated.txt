@@ -1,0 +1,190 @@
+org.apache.tomee:arquillian-tomee-embedded:jar:7.1.0
++- org.apache.tomee:tomee-embedded:jar:7.1.0:compile
+|  +- org.apache.tomee:tomee-catalina:jar:7.1.0:compile
+|  |  +- org.apache.tomee:tomee-jdbc:jar:7.1.0:compile
+|  |  \- org.apache.tomee:tomee-juli:jar:7.1.0:compile
+|  +- org.apache.tomee:tomee-util:jar:7.1.0:compile
+|  +- org.apache.tomee:javaee-api:jar:tomcat:7.0-1:compile
+|  +- org.apache.tomcat:tomcat-websocket-api:jar:8.5.32:compile
+|  +- org.apache.tomee:tomee-myfaces:jar:7.1.0:compile
+|  +- org.apache.openwebbeans:openwebbeans-jsf:jar:1.7.5:compile
+|  |  +- org.apache.openwebbeans:openwebbeans-impl:jar:1.7.5:compile
+|  |  \- org.apache.openwebbeans:openwebbeans-web:jar:1.7.5:compile
+|  |     \- org.apache.openwebbeans:openwebbeans-el22:jar:1.7.5:compile
+|  +- org.apache.tomee:openejb-core:jar:7.1.0:compile
+|  |  +- org.apache.tomee:mbean-annotation-api:jar:7.1.0:compile
+|  |  +- org.apache.tomee:openejb-jpa-integration:jar:7.1.0:compile
+|  |  +- org.apache.commons:commons-lang3:jar:3.5:compile
+|  |  +- org.apache.tomee:openejb-api:jar:7.1.0:compile
+|  |  +- org.apache.tomee:openejb-loader:jar:7.1.0:compile
+|  |  +- org.apache.tomee:openejb-javaagent:jar:7.1.0:compile
+|  |  +- org.apache.tomee:openejb-jee:jar:7.1.0:compile
+|  |  +- org.apache.tomee:openejb-jee-accessors:jar:7.1.0:compile
+|  |  |  \- org.metatype.sxc:sxc-jaxb-core:jar:0.8:compile
+|  |  |     \- org.metatype.sxc:sxc-runtime:jar:0.8:compile
+|  |  +- commons-cli:commons-cli:jar:1.2:compile
+|  |  +- commons-collections:commons-collections:jar:3.2.2:compile
+|  |  +- org.apache.activemq:activemq-ra:jar:5.14.5:compile
+|  |  |  \- org.apache.activemq:activemq-kahadb-store:jar:5.14.5:compile
+|  |  |     \- org.apache.activemq.protobuf:activemq-protobuf:jar:1.1:compile
+|  |  +- org.apache.activemq:activemq-broker:jar:5.14.5:compile
+|  |  |  +- org.apache.activemq:activemq-client:jar:5.14.5:compile
+|  |  |  |  \- org.fusesource.hawtbuf:hawtbuf:jar:1.11:compile
+|  |  |  \- org.apache.activemq:activemq-openwire-legacy:jar:5.14.5:compile
+|  |  +- org.apache.activemq:activemq-jdbc-store:jar:5.14.5:compile
+|  |  +- org.apache.geronimo.components:geronimo-connector:jar:3.1.4:compile
+|  |  +- org.apache.geronimo.components:geronimo-transaction:jar:3.1.4:compile
+|  |  +- org.objectweb.howl:howl:jar:1.0.1-1:compile
+|  |  +- org.apache.geronimo.javamail:geronimo-javamail_1.4_mail:jar:1.9.0-alpha-2:compile
+|  |  +- org.apache.xbean:xbean-asm6-shaded:jar:4.9:compile
+|  |  +- org.apache.xbean:xbean-finder-shaded:jar:4.9:compile
+|  |  +- org.apache.xbean:xbean-reflect:jar:4.9:compile
+|  |  +- org.apache.xbean:xbean-naming:jar:4.9:compile
+|  |  +- org.apache.xbean:xbean-bundleutils:jar:4.9:compile
+|  |  +- org.hsqldb:hsqldb:jar:2.3.2:compile
+|  |  +- org.apache.commons:commons-dbcp2:jar:2.1:compile
+|  |  +- org.apache.commons:commons-pool2:jar:2.3:compile
+|  |  +- commons-logging:commons-logging:jar:1.2:compile
+|  |  +- org.apache.openejb.shade:quartz-openejb-shade:jar:2.2.1:compile
+|  |  +- org.slf4j:slf4j-jdk14:jar:1.7.21:compile
+|  |  +- org.apache.openwebbeans:openwebbeans-spi:jar:1.7.5:compile
+|  |  +- org.apache.openwebbeans:openwebbeans-ejb:jar:1.7.5:compile
+|  |  +- org.apache.openwebbeans:openwebbeans-ee:jar:1.7.5:compile
+|  |  +- org.apache.openwebbeans:openwebbeans-ee-common:jar:1.7.5:compile
+|  |  +- org.apache.openjpa:openjpa:jar:2.4.3:compile
+|  |  |  \- net.sourceforge.serp:serp:jar:1.15.1:compile
+|  |  +- org.apache.bval:bval-core:jar:1.1.2:compile
+|  |  \- org.apache.bval:bval-jsr:jar:1.1.2:compile
+|  +- org.apache.myfaces.core:myfaces-impl:jar:2.2.12:compile
+|  |  \- commons-digester:commons-digester:jar:1.8:compile
+|  +- commons-beanutils:commons-beanutils:jar:1.8.3:compile
+|  +- org.apache.taglibs:taglibs-standard-jstlel:jar:1.2.5:compile
+|  |  +- org.apache.taglibs:taglibs-standard-spec:jar:1.2.5:compile
+|  |  \- org.apache.taglibs:taglibs-standard-impl:jar:1.2.5:compile
+|  +- xalan:xalan:jar:2.7.2:compile
+|  |  \- xalan:serializer:jar:2.7.2:compile
+|  |     \- xml-apis:xml-apis:jar:1.4.01:test
+|  +- org.apache.tomcat:tomcat-jdbc:jar:8.5.32:compile
+|  +- org.apache.tomcat:tomcat-dbcp:jar:8.5.32:compile
+|  +- org.apache.tomcat:tomcat-catalina:jar:8.5.32:compile
+|  |  +- org.apache.tomcat:tomcat-servlet-api:jar:8.5.32:compile
+|  |  +- org.apache.tomcat:tomcat-jsp-api:jar:8.5.32:compile
+|  |  +- org.apache.tomcat:tomcat-api:jar:8.5.32:compile
+|  |  +- org.apache.tomcat:tomcat-jni:jar:8.5.32:compile
+|  |  +- org.apache.tomcat:tomcat-util:jar:8.5.32:compile
+|  |  +- org.apache.tomcat:tomcat-util-scan:jar:8.5.32:compile
+|  |  \- org.apache.tomcat:tomcat-jaspic-api:jar:8.5.32:compile
+|  +- org.apache.tomcat:tomcat-catalina-ha:jar:8.5.32:compile
+|  |  \- org.apache.tomcat:tomcat-tribes:jar:8.5.32:compile
+|  +- org.apache.tomcat:tomcat-coyote:jar:8.5.32:compile
+|  +- org.apache.tomcat:tomcat-jasper:jar:8.5.32:compile
+|  |  +- org.apache.tomcat:tomcat-el-api:jar:8.5.32:compile
+|  |  \- org.eclipse.jdt:ecj:jar:3.12.3:compile
+|  +- org.apache.tomcat:tomcat-jasper-el:jar:8.5.32:compile
+|  +- org.eclipse.jdt.core.compiler:ecj:jar:4.4:compile
+|  +- org.apache.velocity:velocity:jar:1.6.4:compile
+|  |  +- commons-lang:commons-lang:jar:2.6:compile
+|  |  \- oro:oro:jar:2.0.8:compile
+|  +- org.apache.tomee:openejb-client:jar:7.1.0:compile
+|  |  +- javax.xml.bind:jaxb-api:jar:2.3.0:compile
+|  |  +- com.sun.xml.bind:jaxb-impl:jar:2.3.0:compile
+|  |  \- com.sun.xml.bind:jaxb-core:jar:2.3.0:compile
+|  +- org.apache.tomee:tomee-jaxrs:jar:7.1.0:compile
+|  \- org.apache.tomcat:tomcat-websocket:jar:8.5.32:compile
++- org.apache.tomee:arquillian-openejb-transaction-provider:jar:7.1.0:compile
+|  +- org.jboss.arquillian.extension:arquillian-transaction-impl-base:jar:1.0.1.Final:compile
+|  |  +- org.jboss.arquillian.extension:arquillian-transaction-api:jar:1.0.1.Final:compile
+|  |  \- org.jboss.arquillian.extension:arquillian-transaction-spi:jar:1.0.1.Final:compile
+|  +- org.jboss.arquillian.test:arquillian-test-spi:jar:1.1.13.Final:compile
+|  \- org.jboss.arquillian.core:arquillian-core-spi:jar:1.1.13.Final:compile
+|     \- org.jboss.arquillian.core:arquillian-core-api:jar:1.1.13.Final:compile
++- org.jboss.arquillian.container:arquillian-container-spi:jar:1.1.13.Final:compile
+|  +- org.jboss.arquillian.config:arquillian-config-api:jar:1.1.13.Final:compile
+|  +- org.jboss.arquillian.config:arquillian-config-impl-base:jar:1.1.13.Final:compile
+|  \- org.jboss.shrinkwrap:shrinkwrap-api:jar:1.2.6:compile
++- org.jboss.arquillian.container:arquillian-container-test-spi:jar:1.1.13.Final:compile
+|  \- org.jboss.arquillian.container:arquillian-container-test-api:jar:1.1.13.Final:compile
++- org.apache.myfaces.core:myfaces-api:jar:2.2.12:compile
+|  \- org.apache.geronimo.specs:geronimo-atinject_1.0_spec:jar:1.0:compile
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- commons-io:commons-io:jar:2.4:test
++- org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-api-javaee:jar:2.0.0:compile
++- org.apache.tomee:javaee-api:jar:7.0-1:compile
++- org.apache.tomee:arquillian-tomee-common:jar:7.1.0:compile
+|  \- org.slf4j:slf4j-api:jar:1.7.21:compile
++- org.apache.tomee:tomee-webservices:jar:7.1.0:test
+|  +- org.apache.tomee:openejb-webservices:jar:7.1.0:test
+|  |  \- wsdl4j:wsdl4j:jar:1.6.3:test
+|  +- org.apache.tomee:openejb-rest:jar:7.1.0:compile
+|  +- org.apache.tomee:openejb-cxf-rs:jar:7.1.0:compile
+|  |  +- org.apache.tomee:openejb-cxf-transport:jar:7.1.0:compile
+|  |  |  +- org.apache.cxf:cxf-rt-transports-http:jar:3.1.15:compile
+|  |  |  \- org.apache.cxf:cxf-rt-management:jar:3.1.15:compile
+|  |  +- org.apache.cxf:cxf-rt-rs-service-description:jar:3.1.15:compile
+|  |  +- org.apache.cxf:cxf-rt-rs-client:jar:3.1.15:compile
+|  |  |  \- org.apache.cxf:cxf-core:jar:3.1.15:compile
+|  |  |     +- org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1:compile
+|  |  |     |  \- org.codehaus.woodstox:stax2-api:jar:3.1.4:compile
+|  |  |     \- org.apache.ws.xmlschema:xmlschema-core:jar:2.2.3:compile
+|  |  +- org.apache.cxf:cxf-rt-frontend-jaxrs:jar:3.1.15:compile
+|  |  +- org.apache.cxf:cxf-rt-rs-extension-search:jar:3.1.15:compile
+|  |  +- org.apache.cxf:cxf-rt-rs-security-cors:jar:3.1.15:compile
+|  |  +- org.apache.cxf:cxf-rt-rs-security-oauth2:jar:3.1.15:compile
+|  |  |  \- org.apache.cxf:cxf-rt-rs-security-jose-jaxrs:jar:3.1.15:compile
+|  |  |     +- org.apache.cxf:cxf-rt-security:jar:3.1.15:compile
+|  |  |     \- org.apache.cxf:cxf-rt-rs-security-jose:jar:3.1.15:compile
+|  |  |        \- org.apache.cxf:cxf-rt-rs-json-basic:jar:3.1.15:compile
+|  |  +- org.apache.cxf:cxf-rt-rs-extension-providers:jar:3.1.15:compile
+|  |  +- org.apache.johnzon:johnzon-jaxrs:jar:1.0.1:compile
+|  |  |  \- org.apache.johnzon:johnzon-mapper:jar:1.0.1:compile
+|  |  |     \- org.apache.johnzon:johnzon-core:jar:1.0.1:compile
+|  |  +- org.apache.geronimo.specs:geronimo-jsonb_1.0_spec:jar:1.0:compile
+|  |  \- org.apache.johnzon:johnzon-jsonb:jar:1.0.1:compile
+|  +- org.apache.tomee:openejb-cxf:jar:7.1.0:test
+|  |  +- org.apache.wss4j:wss4j-ws-security-dom:jar:2.1.9:test
+|  |  |  \- org.apache.wss4j:wss4j-ws-security-common:jar:2.1.9:test
+|  |  |     +- org.apache.santuario:xmlsec:jar:2.0.6:test
+|  |  |     |  \- commons-codec:commons-codec:jar:1.10:test
+|  |  |     +- org.opensaml:opensaml-saml-impl:jar:3.1.1:test
+|  |  |     |  +- org.opensaml:opensaml-profile-api:jar:3.1.1:test
+|  |  |     |  |  \- org.opensaml:opensaml-core:jar:3.1.1:test
+|  |  |     |  +- org.opensaml:opensaml-saml-api:jar:3.1.1:test
+|  |  |     |  |  +- org.opensaml:opensaml-xmlsec-api:jar:3.1.1:test
+|  |  |     |  |  \- org.opensaml:opensaml-soap-api:jar:3.1.1:test
+|  |  |     |  +- org.opensaml:opensaml-security-impl:jar:3.1.1:test
+|  |  |     |  |  \- org.opensaml:opensaml-security-api:jar:3.1.1:test
+|  |  |     |  |     \- org.cryptacular:cryptacular:jar:1.0:test
+|  |  |     |  +- org.opensaml:opensaml-xmlsec-impl:jar:3.1.1:test
+|  |  |     |  \- net.shibboleth.utilities:java-support:jar:7.1.1:test
+|  |  |     |     \- joda-time:joda-time:jar:2.7:test
+|  |  |     +- org.opensaml:opensaml-xacml-impl:jar:3.1.1:test
+|  |  |     |  \- org.opensaml:opensaml-xacml-api:jar:3.1.1:test
+|  |  |     +- org.opensaml:opensaml-xacml-saml-impl:jar:3.1.1:test
+|  |  |     |  \- org.opensaml:opensaml-xacml-saml-api:jar:3.1.1:test
+|  |  |     \- org.jasypt:jasypt:jar:1.9.2:test
+|  |  +- org.bouncycastle:bcprov-jdk15on:jar:1.60:test
+|  |  +- org.apache.wss4j:wss4j-policy:jar:2.1.9:test
+|  |  |  \- org.apache.neethi:neethi:jar:3.0.3:test
+|  |  +- org.apache.wss4j:wss4j-ws-security-stax:jar:2.1.9:test
+|  |  |  \- org.apache.wss4j:wss4j-bindings:jar:2.1.9:test
+|  |  +- org.apache.wss4j:wss4j-ws-security-policy-stax:jar:2.1.9:test
+|  |  +- org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.1.15:test
+|  |  |  +- xml-resolver:xml-resolver:jar:1.2:test
+|  |  |  +- org.apache.cxf:cxf-rt-bindings-soap:jar:3.1.15:test
+|  |  |  |  +- org.apache.cxf:cxf-rt-wsdl:jar:3.1.15:test
+|  |  |  |  \- org.apache.cxf:cxf-rt-databinding-jaxb:jar:3.1.15:test
+|  |  |  +- org.apache.cxf:cxf-rt-bindings-xml:jar:3.1.15:test
+|  |  |  +- org.apache.cxf:cxf-rt-frontend-simple:jar:3.1.15:test
+|  |  |  \- org.apache.cxf:cxf-rt-ws-addr:jar:3.1.15:test
+|  |  |     \- org.apache.cxf:cxf-rt-ws-policy:jar:3.1.15:test
+|  |  \- org.apache.cxf:cxf-rt-ws-security:jar:3.1.15:test
+|  |     \- org.apache.cxf:cxf-rt-security-saml:jar:3.1.15:test
+|  +- org.apache.tomee:tomee-common:jar:7.1.0:compile
+|  +- org.apache.tomee:tomee-loader:jar:7.1.0:compile
+|  |  \- org.apache.tomcat:tomcat-juli:jar:8.5.32:compile
+|  +- org.apache.tomee:openejb-server:jar:7.1.0:compile
+|  +- org.apache.tomee:openejb-ejbd:jar:7.1.0:compile
+|  \- org.apache.tomee:openejb-http:jar:7.1.0:compile
+\- org.apache.tomee:arquillian-common:jar:7.1.0:compile
+   \- org.codehaus.swizzle:swizzle-stream:jar:1.6.2:compile

@@ -1,0 +1,10 @@
+com.github.qcloudsms:qcloudsms:jar:1.0.2
++- junit:junit:jar:3.8.1:test
++- org.json:json:jar:20170516:compile
++- org.apache.httpcomponents:httpclient:jar:4.5.3:compile
+|  +- org.apache.httpcomponents:httpcore:jar:4.4.6:compile
+|  +- commons-logging:commons-logging:jar:1.2:compile
+|  \- (commons-codec:commons-codec:jar:1.9:compile - omitted for conflict with 1.11)
++- org.apache.httpcomponents:httpmime:jar:4.5.3:compile
+|  \- (org.apache.httpcomponents:httpclient:jar:4.5.3:compile - omitted for duplicate)
+\- commons-codec:commons-codec:jar:1.11:compile

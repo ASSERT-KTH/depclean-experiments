@@ -1,0 +1,12 @@
+org.json4s:json4s-jackson_2.11:jar:3.6.0
++- org.scala-lang:scala-library:jar:2.11.12:compile
++- org.json4s:json4s-core_2.11:jar:3.6.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  +- org.json4s:json4s-ast_2.11:jar:3.6.0:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  +- org.json4s:json4s-scalap_2.11:jar:3.6.0:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  \- com.thoughtworks.paranamer:paranamer:jar:2.8:compile
+\- com.fasterxml.jackson.core:jackson-databind:jar:2.9.6:compile
+   +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+   \- com.fasterxml.jackson.core:jackson-core:jar:2.9.6:compile

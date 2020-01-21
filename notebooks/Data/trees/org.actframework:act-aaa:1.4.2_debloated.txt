@@ -1,0 +1,136 @@
+org.actframework:act-aaa:jar:1.4.2
++- org.osgl:aaa-core:jar:1.3.3:compile
+|  +- org.osgl:osgl-tool:jar:1.9.0:compile
+|  |  +- (com.alibaba:fastjson:jar:1.2.47:compile - omitted for duplicate)
+|  |  +- (junit:junit:jar:4.12:compile - omitted for duplicate)
+|  |  +- (org.mockito:mockito-core:jar:2.9.0:compile - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  |  \- (org.osgl:osgl-version:jar:2.0.0-BETA-1:compile - omitted for duplicate)
+|  +- org.osgl:osgl-cache:jar:1.3.3:compile
+|  |  +- (junit:junit:jar:4.12:compile - omitted for duplicate)
+|  |  +- (org.mockito:mockito-core:jar:2.9.0:compile - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  |  +- (org.osgl:osgl-version:jar:2.0.0-BETA-1:compile - omitted for duplicate)
+|  |  \- (org.osgl:osgl-ut:jar:2.0.0-BETA-1:compile - omitted for duplicate)
+|  +- org.osgl:osgl-logging:jar:1.1.3:compile
+|  |  +- (junit:junit:jar:4.12:compile - omitted for duplicate)
+|  |  +- (org.mockito:mockito-core:jar:2.9.0:compile - omitted for duplicate)
+|  |  +- (org.osgl:osgl-version:jar:2.0.0-BETA-1:compile - omitted for duplicate)
+|  |  \- (org.osgl:osgl-ut:jar:2.0.0-BETA-1:compile - omitted for duplicate)
+|  +- (junit:junit:jar:4.12:compile - omitted for duplicate)
+|  +- (org.mockito:mockito-core:jar:2.9.0:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  +- (org.osgl:osgl-version:jar:2.0.0-BETA-1:compile - omitted for duplicate)
+|  \- (org.osgl:osgl-ut:jar:2.0.0-BETA-1:compile - omitted for duplicate)
++- org.yaml:snakeyaml:jar:1.20:compile
++- org.mockito:mockito-core:jar:2.9.0:compile
+|  +- net.bytebuddy:byte-buddy:jar:1.7.0:runtime
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.7.0:runtime
+|  \- org.objenesis:objenesis:jar:2.6:runtime
++- org.osgl:osgl-version:jar:2.0.0-BETA-1:compile
+|  +- (junit:junit:jar:4.12:compile - omitted for duplicate)
+|  +- (org.mockito:mockito-core:jar:2.9.0:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
++- org.osgl:osgl-ut:jar:2.0.0-BETA-1:compile
+|  +- org.hamcrest:hamcrest-junit:jar:2.0.0.0:compile
+|  |  +- (junit:junit:jar:4.12:compile - omitted for duplicate)
+|  |  \- org.hamcrest:java-hamcrest:jar:2.0.0.0:compile
+|  +- (org.osgl:osgl-version:jar:2.0.0-BETA-1:compile - omitted for duplicate)
+|  +- (junit:junit:jar:4.12:compile - omitted for duplicate)
+|  +- (org.mockito:mockito-core:jar:2.9.0:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+\- org.actframework:act:jar:1.8.5:compile
+   +- javax.validation:validation-api:jar:1.1.0.Final:compile
+   +- javax.mail:mail:jar:1.5.0-b01:compile
+   |  \- javax.activation:activation:jar:1.1:compile
+   +- org.jclarion:image4j:jar:0.7:compile
+   +- javax.enterprise:cdi-api:jar:1.2:compile
+   |  +- javax.el:javax.el-api:jar:3.0.0:compile
+   |  +- javax.interceptor:javax.interceptor-api:jar:1.2:compile
+   |  \- javax.inject:javax.inject:jar:1:compile
+   +- com.github.javaparser:javaparser-core:jar:2.4.0:compile
+   +- com.google.zxing:javase:jar:3.3.2:compile
+   |  +- com.google.zxing:core:jar:3.3.2:compile
+   |  +- com.beust:jcommander:jar:1.72:compile
+   |  \- com.github.jai-imageio:jai-imageio-core:jar:1.3.1:runtime
+   +- org.fusesource.jansi:jansi:jar:1.16:compile
+   +- com.github.lalyos:jfiglet:jar:0.0.8:compile
+   +- org.actframework:act-asm:jar:5.0.5:compile
+   +- org.apache.bval:org.apache.bval.bundle:jar:1.1.2:compile
+   +- com.alibaba:fastjson:jar:1.2.47:compile
+   +- io.undertow:undertow-core:jar:1.4.23.Final:compile
+   |  +- org.jboss.logging:jboss-logging:jar:3.2.1.Final:compile
+   |  +- org.jboss.xnio:xnio-api:jar:3.3.8.Final:compile
+   |  \- org.jboss.xnio:xnio-nio:jar:3.3.8.Final:runtime
+   |     \- (org.jboss.xnio:xnio-api:jar:3.3.8.Final:runtime - omitted for duplicate)
+   +- io.undertow:undertow-websockets-jsr:jar:1.4.23.Final:compile
+   |  +- (io.undertow:undertow-core:jar:1.4.23.Final:compile - omitted for duplicate)
+   |  +- io.undertow:undertow-servlet:jar:1.4.23.Final:compile
+   |  |  +- (io.undertow:undertow-core:jar:1.4.23.Final:compile - omitted for duplicate)
+   |  |  +- org.jboss.spec.javax.servlet:jboss-servlet-api_3.1_spec:jar:1.0.2.Final:compile
+   |  |  \- org.jboss.spec.javax.annotation:jboss-annotations-api_1.2_spec:jar:1.0.2.Final:compile
+   |  \- org.jboss.spec.javax.websocket:jboss-websocket-api_1.1_spec:jar:1.1.3.Final:compile
+   +- com.squareup.okhttp3:okhttp:jar:3.10.0:compile
+   |  \- com.squareup.okio:okio:jar:1.14.0:compile
+   +- jline:jline:jar:2.14.3:compile
+   +- org.eclipse.jdt.core.compiler:ecj:jar:4.6.1:compile
+   +- com.esotericsoftware:reflectasm:jar:1.11.3:compile
+   |  \- org.ow2.asm:asm:jar:5.0.4:compile
+   +- commons-fileupload:commons-fileupload:jar:1.3.3:compile
+   |  \- commons-io:commons-io:jar:2.2:compile
+   +- joda-time:joda-time:jar:2.9.9:compile
+   +- org.osgl:genie:jar:1.6.4:compile
+   |  +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+   |  +- (org.osgl:osgl-tool:jar:1.9.0:compile - omitted for duplicate)
+   |  +- (org.osgl:osgl-logging:jar:1.1.3:compile - omitted for duplicate)
+   |  +- (junit:junit:jar:4.12:compile - omitted for duplicate)
+   |  +- (org.mockito:mockito-core:jar:2.9.0:compile - omitted for duplicate)
+   |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+   |  +- (org.osgl:osgl-version:jar:2.0.0-BETA-1:compile - omitted for duplicate)
+   |  \- (org.osgl:osgl-ut:jar:2.0.0-BETA-1:compile - omitted for duplicate)
+   +- (org.osgl:osgl-tool:jar:1.9.0:compile - omitted for duplicate)
+   +- (org.osgl:osgl-cache:jar:1.3.3:compile - omitted for duplicate)
+   +- org.osgl:osgl-mvc:jar:1.6.0:compile
+   |  +- (org.osgl:osgl-tool:jar:1.9.0:compile - omitted for duplicate)
+   |  +- (org.osgl:osgl-http:jar:1.5.2:compile - omitted for duplicate)
+   |  +- (junit:junit:jar:4.12:compile - omitted for duplicate)
+   |  +- (org.mockito:mockito-core:jar:2.9.0:compile - omitted for duplicate)
+   |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+   |  +- (org.osgl:osgl-version:jar:2.0.0-BETA-1:compile - omitted for duplicate)
+   |  \- (org.osgl:osgl-ut:jar:2.0.0-BETA-1:compile - omitted for duplicate)
+   +- org.osgl:osgl-http:jar:1.5.2:compile
+   |  +- (org.osgl:osgl-tool:jar:1.9.0:compile - omitted for duplicate)
+   |  +- (org.osgl:osgl-cache:jar:1.3.3:compile - omitted for duplicate)
+   |  +- (junit:junit:jar:4.12:compile - omitted for duplicate)
+   |  +- (org.mockito:mockito-core:jar:2.9.0:compile - omitted for duplicate)
+   |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+   |  +- (org.osgl:osgl-version:jar:2.0.0-BETA-1:compile - omitted for duplicate)
+   |  \- (org.osgl:osgl-ut:jar:2.0.0-BETA-1:compile - omitted for duplicate)
+   +- org.osgl:osgl-storage:jar:1.5.3:compile
+   |  +- (org.osgl:osgl-tool:jar:1.9.0:compile - omitted for duplicate)
+   |  +- (org.osgl:osgl-logging:jar:1.1.3:compile - omitted for duplicate)
+   |  +- (junit:junit:jar:4.12:compile - omitted for duplicate)
+   |  +- (org.mockito:mockito-core:jar:2.9.0:compile - omitted for duplicate)
+   |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+   |  +- (org.osgl:osgl-version:jar:2.0.0-BETA-1:compile - omitted for duplicate)
+   |  \- (org.osgl:osgl-ut:jar:2.0.0-BETA-1:compile - omitted for duplicate)
+   +- org.osgl:osgl-tool-ext:jar:1.1.3:compile
+   |  +- (junit:junit:jar:4.12:compile - omitted for duplicate)
+   |  +- (org.mockito:mockito-core:jar:2.9.0:compile - omitted for duplicate)
+   |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+   |  +- (org.osgl:osgl-version:jar:2.0.0-BETA-1:compile - omitted for duplicate)
+   |  \- (org.osgl:osgl-ut:jar:2.0.0-BETA-1:compile - omitted for duplicate)
+   +- org.rythmengine:rythm-engine:jar:1.2.2:compile
+   |  +- (org.eclipse.jdt.core.compiler:ecj:jar:4.6.1:compile - omitted for duplicate)
+   |  +- com.stevesoft.pat:pat:jar:1.5.3:compile
+   |  +- org.apache.commons:commons-lang3:jar:3.4:compile
+   |  +- (commons-io:commons-io:jar:2.4:compile - omitted for conflict with 2.2)
+   |  +- (com.alibaba:fastjson:jar:1.2.11:compile - omitted for conflict with 1.2.47)
+   |  \- org.mvel:mvel2:jar:2.2.8.Final:compile
+   +- org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final:compile
+   +- me.tongfei:progressbar:jar:0.5.5:compile
+   |  \- (jline:jline:jar:2.12:compile - omitted for conflict with 2.14.3)
+   +- (junit:junit:jar:4.12:compile - omitted for duplicate)
+   +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+   +- (org.osgl:osgl-version:jar:2.0.0-BETA-1:compile - omitted for duplicate)
+   \- (org.osgl:osgl-ut:jar:2.0.0-BETA-1:compile - omitted for duplicate)

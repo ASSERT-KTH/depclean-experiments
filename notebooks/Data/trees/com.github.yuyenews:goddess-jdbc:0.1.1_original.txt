@@ -1,0 +1,17 @@
+com.github.yuyenews:goddess-jdbc:jar:0.1.1
++- com.github.yuyenews:goddess-aop:jar:0.1.1:compile
+|  +- com.github.yuyenews:goddess-core:jar:0.1.1:compile
+|  |  \- com.github.yuyenews:goddess-server:jar:0.1.1:compile
+|  |     +- io.netty:netty-all:jar:5.0.0.Alpha2:compile
+|  |     +- com.alibaba:fastjson:jar:1.2.47:compile
+|  |     +- org.slf4j:slf4j-api:jar:1.7.25:compile
+|  |     \- org.slf4j:slf4j-jdk14:jar:1.7.25:compile
+|  |        \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  +- org.ow2.asm:asm:jar:5.2:compile
+|  \- cglib:cglib:jar:3.2.5:compile
+|     +- (org.ow2.asm:asm:jar:5.2:compile - version managed from 6.0_ALPHA; omitted for duplicate)
+|     \- org.apache.ant:ant:jar:1.9.6:compile
+|        \- org.apache.ant:ant-launcher:jar:1.9.6:compile
++- mysql:mysql-connector-java:jar:8.0.11:compile
+|  \- com.google.protobuf:protobuf-java:jar:2.6.0:runtime
+\- com.alibaba:druid:jar:1.1.9:compile

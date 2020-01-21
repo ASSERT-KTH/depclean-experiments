@@ -1,0 +1,55 @@
+com.typesafe.play:play-json_2.13.0-M3:jar:2.6.9
++- org.scala-lang:scala-compiler:jar:2.13.0-M3:provided
+|  +- (org.scala-lang:scala-library:jar:2.13.0-M3:provided - omitted for duplicate)
+|  +- (org.scala-lang:scala-reflect:jar:2.13.0-M3:provided - omitted for duplicate)
+|  +- org.scala-lang.modules:scala-xml_2.13.0-M3:jar:1.0.6:provided
+|  |  \- (org.scala-lang:scala-library:jar:2.13.0-M3:provided - omitted for duplicate)
+|  \- jline:jline:jar:2.14.5:provided
++- org.scala-lang:scala-library:jar:2.13.0-M3:compile
++- com.typesafe.play:play-functional_2.13.0-M3:jar:2.6.9:compile
+|  \- (org.scala-lang:scala-library:jar:2.13.0-M3:compile - omitted for duplicate)
++- org.scala-lang:scala-reflect:jar:2.13.0-M3:compile
+|  \- (org.scala-lang:scala-library:jar:2.13.0-M3:compile - omitted for duplicate)
++- org.scalatest:scalatest_2.13.0-M3:jar:3.0.5-M1:test
+|  +- (org.scala-lang:scala-library:jar:2.13.0-M3:test - omitted for duplicate)
+|  +- org.scalactic:scalactic_2.13.0-M3:jar:3.0.5-M1:test
+|  |  +- (org.scala-lang:scala-library:jar:2.13.0-M3:test - omitted for duplicate)
+|  |  \- (org.scala-lang:scala-reflect:jar:2.13.0-M3:test - omitted for duplicate)
+|  +- (org.scala-lang:scala-reflect:jar:2.13.0-M3:test - omitted for duplicate)
+|  \- (org.scala-lang.modules:scala-xml_2.13.0-M3:jar:1.0.6:test - omitted for duplicate)
++- org.scalacheck:scalacheck_2.13.0-M3:jar:1.13.5:test
+|  +- (org.scala-lang:scala-library:jar:2.13.0-M3:test - omitted for duplicate)
+|  \- org.scala-sbt:test-interface:jar:1.0:test
++- com.chuusai:shapeless_2.13.0-M3:jar:2.3.3:test
+|  +- (org.scala-lang:scala-library:jar:2.13.0-M3:test - omitted for duplicate)
+|  \- (org.typelevel:macro-compat_2.13.0-M3:jar:1.1.1:test - omitted for duplicate)
++- org.typelevel:macro-compat_2.13.0-M3:jar:1.1.1:compile
+|  \- (org.scala-lang:scala-library:jar:2.13.0-M3:compile - omitted for duplicate)
++- joda-time:joda-time:jar:2.9.9:compile
++- com.fasterxml.jackson.core:jackson-core:jar:2.8.9:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.8.9:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile - omitted for conflict with 2.8.9)
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.8.9:compile - omitted for duplicate)
++- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.8.9:compile
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.9:compile - omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.9:compile - omitted for duplicate)
++- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.8.9:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile - omitted for conflict with 2.8.9)
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.9:compile - omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.9:compile - omitted for duplicate)
++- org.specs2:specs2-core_2.13.0-M3:jar:4.0.2:test
+|  +- (org.scala-lang:scala-library:jar:2.13.0-M3:test - omitted for duplicate)
+|  +- org.specs2:specs2-matcher_2.13.0-M3:jar:4.0.2:test
+|  |  +- (org.scala-lang:scala-library:jar:2.13.0-M3:test - omitted for duplicate)
+|  |  \- org.specs2:specs2-common_2.13.0-M3:jar:4.0.2:test
+|  |     +- (org.scala-lang:scala-library:jar:2.13.0-M3:test - omitted for duplicate)
+|  |     +- org.specs2:specs2-fp_2.13.0-M3:jar:4.0.2:test
+|  |     |  \- (org.scala-lang:scala-library:jar:2.13.0-M3:test - omitted for duplicate)
+|  |     +- (org.scala-lang:scala-reflect:jar:2.13.0-M3:test - omitted for duplicate)
+|  |     +- (org.scala-lang.modules:scala-xml_2.13.0-M3:jar:1.0.6:test - omitted for duplicate)
+|  |     \- org.scala-lang.modules:scala-parser-combinators_2.13.0-M3:jar:1.1.0:test
+|  |        \- (org.scala-lang:scala-library:jar:2.13.0-M3:test - omitted for duplicate)
+|  \- (org.scala-sbt:test-interface:jar:1.0:test - omitted for duplicate)
+\- ch.qos.logback:logback-classic:jar:1.2.3:test
+   +- ch.qos.logback:logback-core:jar:1.2.3:test
+   \- org.slf4j:slf4j-api:jar:1.7.25:test

@@ -1,0 +1,25 @@
+com.kingsoft.services.table:kts-client:jar:0.9.13
++- commons-configuration:commons-configuration:jar:1.6:test
+|  +- commons-collections:commons-collections:jar:3.2.1:test
+|  +- commons-lang:commons-lang:jar:2.4:test
+|  +- commons-logging:commons-logging:jar:1.1.1:test
+|  +- commons-digester:commons-digester:jar:1.8:test
+|  |  +- commons-beanutils:commons-beanutils:jar:1.7.0:test
+|  |  |  \- (commons-logging:commons-logging:jar:1.0.3:test - omitted for conflict with 1.1.1)
+|  |  \- (commons-logging:commons-logging:jar:1.1:test - omitted for conflict with 1.1.1)
+|  \- commons-beanutils:commons-beanutils-core:jar:1.8.0:test
+|     \- (commons-logging:commons-logging:jar:1.1.1:test - omitted for duplicate)
++- com.kingsoft.services.table:kts-core:jar:0.9.13:compile
+|  +- org.apache.httpcomponents:httpclient:jar:4.5:compile
+|  |  +- (org.apache.httpcomponents:httpcore:jar:4.4.1:compile - omitted for conflict with 4.3.2)
+|  |  \- commons-codec:commons-codec:jar:1.9:compile
+|  +- org.apache.httpcomponents:httpcore:jar:4.3.2:compile
+|  +- org.slf4j:slf4j-api:jar:1.7.21:compile
+|  +- com.google.protobuf:protobuf-java:jar:2.5.0:compile
+|  \- (junit:junit:jar:4.12:compile - omitted for duplicate)
++- org.easymock:easymock:jar:3.1:test
+|  +- cglib:cglib-nodep:jar:2.2.2:test
+|  \- org.objenesis:objenesis:jar:1.2:test
+\- org.slf4j:slf4j-log4j12:jar:1.7.2:test
+   +- (org.slf4j:slf4j-api:jar:1.7.2:test - omitted for conflict with 1.7.21)
+   \- log4j:log4j:jar:1.2.17:test

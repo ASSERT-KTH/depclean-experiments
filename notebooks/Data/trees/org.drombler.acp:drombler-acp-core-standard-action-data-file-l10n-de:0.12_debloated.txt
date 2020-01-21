@@ -1,0 +1,17 @@
+org.drombler.acp:drombler-acp-core-standard-action-data-file-l10n-de:bundle:0.12
+\- org.drombler.acp:drombler-acp-core-standard-action:jar:0.12:compile
+   +- org.drombler.acp:drombler-acp-core-action:jar:0.12:compile
+   |  +- org.drombler.acp:drombler-acp-core-application:jar:0.12:compile
+   |  |  +- org.softsmithy.lib:softsmithy-lib-compiler:jar:0.9:compile
+   |  |  \- org.apache.felix:org.apache.felix.configadmin:jar:1.8.16:runtime
+   |  +- org.apache.commons:commons-lang3:jar:3.5:compile
+   |  +- org.softsmithy.lib:softsmithy-lib-core:jar:0.9:compile
+   |  \- org.apache.felix:org.apache.felix.scr:jar:2.0.6:runtime
+   +- org.drombler.acp:drombler-acp-core-commons:jar:0.12:compile
+   |  \- org.drombler.commons:drombler-commons-client-core:jar:0.12:compile
+   +- org.drombler.commons:drombler-commons-action-core:jar:0.12:compile
+   |  \- org.softsmithy.lib:softsmithy-lib-beans:jar:0.9:compile
+   +- org.drombler.commons:drombler-commons-action-context:jar:0.12:compile
+   +- org.drombler.commons:drombler-commons-action-command:jar:0.12:compile
+   \- org.drombler.commons:drombler-commons-context:jar:0.12:compile
+      \- org.slf4j:slf4j-api:jar:1.7.22:compile

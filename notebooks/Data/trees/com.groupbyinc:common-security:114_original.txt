@@ -1,0 +1,5 @@
+com.groupbyinc:common-security:jar:114
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- org.bouncycastle:bcprov-ext-jdk15on:jar:1.54:compile
++- commons-codec:commons-codec:jar:1.10:compile
+\- com.groupbyinc:common-test:jar:114:test

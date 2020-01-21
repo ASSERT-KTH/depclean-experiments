@@ -1,0 +1,682 @@
+org.wso2.carbon.ml:org.wso2.carbon.ml.core:bundle:1.2.8
++- org.wso2.carbon.ml:org.wso2.carbon.ml.database:jar:1.2.8:compile
+|  +- (commons-io:commons-io:jar:2.4:compile - version managed from 2.0; omitted for duplicate)
+|  +- (commons-lang:commons-lang:jar:2.6:compile - version managed from 1.0; omitted for duplicate)
+|  +- commons-logging:commons-logging:jar:1.1.1:compile
+|  +- (org.apache.commons:commons-math3:jar:3.4.1:compile - omitted for duplicate)
+|  +- org.eclipse.osgi:org.eclipse.osgi:jar:3.7.0.v20110613:compile
+|  +- (org.eclipse.osgi:org.eclipse.osgi.services:jar:3.3.100.v20120522-1822:compile - version managed from 3.3.100.v20130513-1956; omitted for duplicate)
+|  +- (org.json.wso2:json:jar:3.0.0.wso2v1:compile - omitted for duplicate)
+|  +- (org.wso2.carbon:org.wso2.carbon.utils:jar:4.4.9:compile - version managed from 4.4.7; omitted for duplicate)
+|  \- (org.wso2.carbon.ml:org.wso2.carbon.ml.commons:jar:1.2.8:compile - omitted for duplicate)
++- org.wso2.carbon.metrics:org.wso2.carbon.metrics.manager:jar:1.2.2:compile
+|  +- (org.eclipse.osgi:org.eclipse.osgi.services:jar:3.3.100.v20120522-1822:compile - version managed from 3.3.100.v20130513-1956; omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.13:compile - version managed from 1.7.21; omitted for duplicate)
++- org.wso2.orbit.org.apache.hadoop:hadoop-client:jar:2.7.2.wso2v1:compile
++- commons-lang:commons-lang:jar:2.6:compile
++- org.apache.commons:commons-csv:jar:1.0:compile
++- org.testng:testng:jar:6.8.5:test
+|  +- (junit:junit:jar:4.12:compile - version managed from 4.10; scope updated from test; omitted for duplicate)
+|  +- org.beanshell:bsh:jar:2.0b4:test
+|  +- com.beust:jcommander:jar:1.27:test
+|  \- org.yaml:snakeyaml:jar:1.6:test
++- org.eclipse.osgi:org.eclipse.osgi.services:jar:3.3.100.v20120522-1822:compile
++- org.json.wso2:json:jar:3.0.0.wso2v1:compile
+|  \- org.json:json:jar:20140107:compile
++- org.wso2.carbon.ml:org.wso2.carbon.ml.commons:jar:1.2.8:compile
+|  \- (org.apache.commons:commons-math3:jar:3.4.1:compile - omitted for duplicate)
++- org.wso2.carbon.analytics-common:org.wso2.carbon.event.output.adapter.core:jar:5.1.24:compile
+|  +- org.wso2.carbon:org.wso2.carbon.core:jar:4.4.9:compile (version managed from 4.4.7)
+|  |  +- org.wso2.orbit.com.hazelcast:hazelcast:jar:3.5.4.wso2v2:compile
+|  |  |  \- com.hazelcast:hazelcast-all:jar:3.5.4:compile
+|  |  +- (org.eclipse.osgi:org.eclipse.osgi:jar:3.7.0.v20110613:compile - version managed from 3.9.1.v20130814-1242; omitted for duplicate)
+|  |  +- (org.eclipse.osgi:org.eclipse.osgi.services:jar:3.3.100.v20120522-1822:compile - version managed from 3.3.100.v20130513-1956; omitted for duplicate)
+|  |  +- org.eclipse.equinox:org.eclipse.equinox.http.helper:jar:1.1.0.wso2v1:compile
+|  |  |  +- (org.eclipse.equinox:javax.servlet:jar:3.0.0.v201112011016:compile - omitted for duplicate)
+|  |  |  +- (org.eclipse.osgi:org.eclipse.osgi:jar:3.7.0.v20110613:compile - version managed from 3.9.1.v20130814-1242; omitted for duplicate)
+|  |  |  \- (org.eclipse.osgi:org.eclipse.osgi.services:jar:3.3.100.v20120522-1822:compile - version managed from 3.3.0.v20110513; omitted for duplicate)
+|  |  +- (org.wso2.orbit.org.bouncycastle:bcprov-jdk15on:jar:1.52.0.wso2v1:compile - omitted for duplicate)
+|  |  +- org.wso2.carbon:javax.cache.wso2:jar:4.4.9:compile
+|  |  |  +- org.apache.geronimo.specs:geronimo-jta_1.1_spec:jar:1.1:compile
+|  |  |  +- (org.eclipse.osgi:org.eclipse.osgi:jar:3.7.0.v20110613:compile - version managed from 3.9.1.v20130814-1242; omitted for duplicate)
+|  |  |  +- (org.wso2.carbon:org.wso2.carbon.utils:jar:4.4.9:compile - omitted for duplicate)
+|  |  |  +- (org.wso2.carbon:org.wso2.carbon.base:jar:4.4.9:compile - omitted for duplicate)
+|  |  |  \- (org.wso2.carbon:org.wso2.carbon.logging:jar:4.4.9:compile - omitted for duplicate)
+|  |  +- org.wso2.carbon:org.wso2.carbon.registry.core:jar:4.4.9:compile
+|  |  |  +- commons-io.wso2:commons-io:jar:2.4.0.wso2v1:compile
+|  |  |  +- net.sourceforge.findbugs:annotations:jar:1.3.2:compile
+|  |  |  +- (org.eclipse.osgi:org.eclipse.osgi.services:jar:3.3.100.v20120522-1822:compile - version managed from 3.3.100.v20130513-1956; omitted for duplicate)
+|  |  |  +- org.apache.ws.commons.schema.wso2:XmlSchema:jar:1.4.7.wso2v3:compile
+|  |  |  +- (org.wso2.carbon:org.wso2.carbon.registry.api:jar:4.4.9:compile - omitted for duplicate)
+|  |  |  +- (org.wso2.carbon:org.wso2.carbon.utils:jar:4.4.9:compile - omitted for duplicate)
+|  |  |  +- (org.wso2.carbon:javax.cache.wso2:jar:4.4.9:compile - omitted for duplicate)
+|  |  |  +- org.wso2.carbon:org.wso2.carbon.registry.xboot:jar:4.4.9:compile
+|  |  |  +- (org.wso2.securevault:org.wso2.securevault:jar:1.0.0-wso2v2:compile - omitted for duplicate)
+|  |  |  +- (org.wso2.carbon:org.wso2.carbon.user.core:jar:4.4.9:compile - omitted for duplicate)
+|  |  |  +- org.compass-project.wso2:compass:jar:2.0.1.wso2v2:compile
+|  |  |  +- org.apache.abdera.wso2:abdera:jar:1.0.0.wso2v3:compile
+|  |  |  +- (org.wso2.carbon:org.wso2.carbon.logging:jar:4.4.9:compile - omitted for duplicate)
+|  |  |  +- (org.apache.tomcat.wso2:jdbc-pool:jar:7.0.34.wso2v2:compile - omitted for duplicate)
+|  |  |  +- (org.wso2.orbit.commons-httpclient:commons-httpclient:jar:3.1.0.wso2v3:compile - omitted for duplicate)
+|  |  |  \- commons-pool.wso2:commons-pool:jar:1.5.6.wso2v1:compile
+|  |  |     \- commons-pool:commons-pool:jar:1.5.6:compile
+|  |  +- org.wso2.carbon:org.wso2.carbon.user.core:jar:4.4.9:compile
+|  |  |  +- (org.wso2.carbon:javax.cache.wso2:jar:4.4.9:compile - omitted for duplicate)
+|  |  |  +- (org.wso2.carbon:org.wso2.carbon.user.api:jar:4.4.9:compile - omitted for duplicate)
+|  |  |  +- (xerces.wso2:xercesImpl:jar:2.8.1.wso2v2:compile - omitted for duplicate)
+|  |  |  +- (org.wso2.carbon:org.wso2.carbon.utils:jar:4.4.9:compile - omitted for duplicate)
+|  |  |  +- commons-dbcp.wso2:commons-dbcp:jar:1.4.0.wso2v1:compile
+|  |  |  +- (org.wso2.carbon:org.wso2.carbon.logging:jar:4.4.9:compile - omitted for duplicate)
+|  |  |  +- (org.apache.tomcat.wso2:jdbc-pool:jar:7.0.34.wso2v2:compile - omitted for duplicate)
+|  |  |  +- (org.wso2.securevault:org.wso2.securevault:jar:1.0.0-wso2v2:compile - omitted for duplicate)
+|  |  |  \- (org.wso2.orbit.commons-collections:commons-collections:jar:3.2.2.wso2v1:compile - omitted for duplicate)
+|  |  +- (org.wso2.carbon:org.wso2.carbon.utils:jar:4.4.9:compile - omitted for duplicate)
+|  |  +- org.wso2.orbit.commons-collections:commons-collections:jar:3.2.2.wso2v1:compile
+|  |  +- (org.apache.axis2.wso2:axis2:jar:1.6.1.wso2v20:compile - omitted for duplicate)
+|  |  +- (org.wso2.carbon:org.wso2.carbon.logging:jar:4.4.9:compile - omitted for duplicate)
+|  |  +- org.wso2.orbit.org.apache.neethi:neethi:jar:2.0.4.wso2v5:compile
+|  |  +- org.apache.httpcomponents.wso2:httpcore:jar:4.3.3.wso2v1:compile
+|  |  +- org.apache.tomcat:tomcat-catalina-ha:jar:7.0.70:compile
+|  |  |  +- org.apache.tomcat:tomcat-juli:jar:7.0.70:compile
+|  |  |  +- org.apache.tomcat:tomcat-tribes:jar:7.0.70:compile
+|  |  |  |  \- (org.apache.tomcat:tomcat-juli:jar:7.0.70:compile - omitted for duplicate)
+|  |  |  +- org.apache.tomcat:tomcat-catalina:jar:7.0.70:compile
+|  |  |  |  +- (org.apache.tomcat:tomcat-juli:jar:7.0.70:compile - omitted for duplicate)
+|  |  |  |  +- org.apache.tomcat:tomcat-annotations-api:jar:7.0.70:compile
+|  |  |  |  +- org.apache.tomcat:tomcat-api:jar:7.0.70:compile
+|  |  |  |  \- (org.apache.tomcat:tomcat-util:jar:7.0.70:compile - omitted for duplicate)
+|  |  |  \- org.apache.tomcat:tomcat-util:jar:7.0.70:compile
+|  |  |     +- (org.apache.tomcat:tomcat-juli:jar:7.0.70:compile - omitted for duplicate)
+|  |  |     \- (org.apache.tomcat:tomcat-api:jar:7.0.70:compile - omitted for duplicate)
+|  |  \- wsdl4j.wso2:wsdl4j:jar:1.6.2.wso2v4:compile
+|  +- (org.wso2.carbon:org.wso2.carbon.utils:jar:4.4.9:compile - version managed from 4.4.7; omitted for duplicate)
+|  +- (xerces:xercesImpl:jar:2.8.1:compile - version managed from 2.6.2; omitted for duplicate)
+|  \- (org.testng:testng:jar:6.8.5:test - version managed from 6.11; scope managed from compile; omitted for duplicate)
++- org.scala-lang:scala-library:jar:2.10.4:compile
++- org.scala-lang:scala-reflect:jar:2.10.4:compile
+|  \- (org.scala-lang:scala-library:jar:2.10.4:compile - omitted for duplicate)
++- org.slf4j:slf4j-api:jar:1.7.13:compile
++- com.typesafe.akka:akka-actor_2.10:jar:2.3.4:compile
+|  +- (org.scala-lang:scala-library:jar:2.10.4:compile - omitted for duplicate)
+|  \- com.typesafe:config:jar:1.2.1:compile
++- com.typesafe.akka:akka-remote_2.10:jar:2.3.4:compile
+|  +- (org.scala-lang:scala-library:jar:2.10.4:compile - omitted for duplicate)
+|  +- (com.typesafe.akka:akka-actor_2.10:jar:2.3.4:compile - omitted for duplicate)
+|  +- io.netty:netty:jar:3.8.0.Final:compile
+|  +- com.google.protobuf:protobuf-java:jar:2.5.0:compile
+|  \- org.uncommons.maths:uncommons-maths:jar:1.2.2a:compile
++- org.wso2.json4s:json4s-jackson_2.10:jar:3.2.10.wso2v1:compile
++- com.sun.jersey:jersey-core:jar:1.9:compile
++- io.netty.wso2:netty-all:jar:4.0.23.wso2v1:compile
+|  \- io.netty:netty-all:jar:4.0.23.Final:compile
++- com.typesafe.akka:akka-slf4j_2.10:jar:2.3.4:compile
+|  +- (org.scala-lang:scala-library:jar:2.10.4:compile - omitted for duplicate)
+|  +- (com.typesafe.akka:akka-actor_2.10:jar:2.3.4:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.13:compile - version managed from 1.7.5; omitted for duplicate)
++- com.fasterxml.jackson.module:jackson-module-scala_2.10:jar:2.4.4:compile
+|  +- (org.scala-lang:scala-library:jar:2.10.4:compile - omitted for duplicate)
+|  +- (org.scala-lang:scala-reflect:jar:2.10.4:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.4.4:compile - omitted for duplicate)
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.4.4:compile
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.4.4:compile - omitted for conflict with 2.4.2)
+|  +- com.thoughtworks.paranamer:paranamer:jar:2.6:compile
+|  +- com.google.code.findbugs:jsr305:jar:2.0.1:compile
+|  \- com.google.guava:guava:jar:19.0:compile (version managed from 15.0)
++- org.wso2.orbit.org.apache.spark:spark-core_2.10:jar:1.6.2.wso2v1:compile
++- org.wso2.orbit.org.apache.spark:spark-sql_2.10:jar:1.6.2.wso2v1:compile
++- org.wso2.orbit.org.apache.spark:spark-mllib_2.10:jar:1.6.2.wso2v1:compile
++- org.wso2.carbon:org.wso2.carbon.utils:jar:4.4.9:compile
+|  +- org.wso2.orbit.org.bouncycastle:bcprov-jdk15on:jar:1.52.0.wso2v1:compile
+|  |  \- org.bouncycastle:bcprov-jdk15on:jar:1.52:compile
+|  +- org.wso2.carbon:org.wso2.carbon.user.api:jar:4.4.9:compile
+|  |  \- (org.wso2.carbon:org.wso2.carbon.base:jar:4.4.9:compile - omitted for duplicate)
+|  +- org.wso2.carbon:org.wso2.carbon.logging:jar:4.4.9:compile
+|  |  +- org.apache.log4j.wso2:log4j:jar:1.2.17.wso2v1:compile
+|  |  |  \- (log4j:log4j:jar:1.2.17:compile - omitted for duplicate)
+|  |  +- (commons-logging:commons-logging:jar:1.1.1:compile - version managed from 1.2; omitted for duplicate)
+|  |  +- org.wso2.carbon:org.wso2.carbon.bootstrap:jar:4.4.9:compile
+|  |  |  +- (commons-logging:commons-logging:jar:1.1.1:compile - version managed from 1.2; omitted for duplicate)
+|  |  |  \- wrapper:wrapper:jar:3.2.3:compile
+|  |  \- (org.eclipse.osgi:org.eclipse.osgi:jar:3.7.0.v20110613:compile - version managed from 3.9.1.v20130814-1242; omitted for duplicate)
+|  +- org.wso2.carbon:org.wso2.carbon.queuing:jar:4.4.9:compile
+|  +- org.wso2.carbon:org.wso2.carbon.base:jar:4.4.9:compile
+|  |  +- org.apache.ws.commons.axiom.wso2:axiom:jar:1.2.11.wso2v11:compile
+|  |  |  +- org.apache.geronimo.specs.wso2:geronimo-stax-api_1.0_spec:jar:1.0.1.wso2v2:compile
+|  |  |  |  +- org.apache.geronimo.specs:geronimo-stax-api_1.0_spec:jar:1.0.1:compile
+|  |  |  |  +- (org.codehaus.woodstox:stax2-api:jar:3.1.1:compile - omitted for duplicate)
+|  |  |  |  \- (org.codehaus.woodstox:woodstox-core-asl:jar:4.1.4:compile - omitted for conflict with 4.2.0)
+|  |  |  +- org.codehaus.woodstox:woodstox-core-asl:jar:4.2.0:compile
+|  |  |  \- org.codehaus.woodstox:stax2-api:jar:3.1.1:compile
+|  |  |     \- javax.xml.stream:stax-api:jar:1.0-2:compile
+|  |  +- (org.wso2.carbon:org.wso2.carbon.logging:jar:4.4.9:compile - omitted for duplicate)
+|  |  +- (org.wso2.carbon:org.wso2.carbon.queuing:jar:4.4.9:compile - omitted for duplicate)
+|  |  +- org.wso2.securevault:org.wso2.securevault:jar:1.0.0-wso2v2:compile
+|  |  |  +- org.apache.ws.commons.axiom:axiom-api:jar:1.2.11-wso2v6:compile (version managed from 1.2.11)
+|  |  |  |  +- org.apache.geronimo.specs:geronimo-activation_1.1_spec:jar:1.0.2:compile
+|  |  |  |  +- org.apache.geronimo.specs:geronimo-javamail_1.4_spec:jar:1.6:compile
+|  |  |  |  +- (commons-logging:commons-logging:jar:1.1.1:compile - version managed from 1.2; omitted for duplicate)
+|  |  |  |  +- (jaxen:jaxen:jar:1.1.1:provided - scope managed from compile; omitted for duplicate)
+|  |  |  |  \- (org.apache.geronimo.specs:geronimo-stax-api_1.0_spec:jar:1.0.1:compile - omitted for duplicate)
+|  |  |  +- org.apache.ws.commons.axiom:axiom-impl:jar:1.2.11:compile
+|  |  |  |  +- (org.apache.ws.commons.axiom:axiom-api:jar:1.2.11-wso2v6:compile - version managed from 1.2.11; omitted for duplicate)
+|  |  |  |  +- (org.apache.geronimo.specs:geronimo-activation_1.1_spec:jar:1.0.2:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.geronimo.specs:geronimo-javamail_1.4_spec:jar:1.6:compile - omitted for duplicate)
+|  |  |  |  +- org.codehaus.woodstox:wstx-asl:jar:3.2.9:compile
+|  |  |  |  +- (commons-logging:commons-logging:jar:1.1.1:compile - version managed from 1.2; omitted for duplicate)
+|  |  |  |  \- (org.apache.geronimo.specs:geronimo-stax-api_1.0_spec:jar:1.0.1:compile - omitted for duplicate)
+|  |  |  +- (log4j:log4j:jar:1.2.14:compile - omitted for conflict with 1.2.17)
+|  |  |  +- jline:jline:jar:0.9.94:compile
+|  |  |  |  \- junit:junit:jar:4.12:compile (version managed from 3.8.1)
+|  |  |  |     \- org.hamcrest:hamcrest-core:jar:1.3:compile
+|  |  |  +- (commons-logging:commons-logging:jar:1.1.1:compile - version managed from 1.2; omitted for duplicate)
+|  |  |  +- commons-cli:commons-cli:jar:1.0:compile
+|  |  |  |  +- (commons-logging:commons-logging:jar:1.1.1:compile - version managed from 1.0; omitted for duplicate)
+|  |  |  |  \- (commons-lang:commons-lang:jar:2.6:compile - version managed from 1.0; omitted for duplicate)
+|  |  |  +- (commons-io:commons-io:jar:2.4:compile - version managed from 2.0; omitted for duplicate)
+|  |  |  \- commons-codec:commons-codec:jar:1.2:compile
+|  |  +- org.wso2.carbon:org.wso2.carbon.securevault:jar:4.4.9:compile
+|  |  |  +- (org.eclipse.osgi:org.eclipse.osgi:jar:3.7.0.v20110613:compile - version managed from 3.9.1.v20130814-1242; omitted for duplicate)
+|  |  |  +- (org.eclipse.osgi:org.eclipse.osgi.services:jar:3.3.100.v20120522-1822:compile - version managed from 3.3.100.v20130513-1956; omitted for duplicate)
+|  |  |  +- (org.wso2.carbon:org.wso2.carbon.logging:jar:4.4.9:compile - omitted for duplicate)
+|  |  |  \- (org.wso2.securevault:org.wso2.securevault:jar:1.0.0-wso2v2:compile - omitted for duplicate)
+|  |  +- (org.eclipse.equinox:javax.servlet:jar:3.0.0.v201112011016:compile - omitted for duplicate)
+|  |  \- (xerces.wso2:xercesImpl:jar:2.8.1.wso2v2:compile - omitted for duplicate)
+|  +- (org.eclipse.osgi:org.eclipse.osgi:jar:3.7.0.v20110613:compile - version managed from 3.9.1.v20130814-1242; omitted for duplicate)
+|  +- (org.apache.axis2.wso2:axis2:jar:1.6.1.wso2v20:compile - omitted for duplicate)
+|  +- org.igniterealtime.smack.wso2:smack:jar:3.0.4.wso2v1:compile
+|  +- org.igniterealtime.smack.wso2:smackx:jar:3.0.4.wso2v1:compile
+|  +- xerces.wso2:xercesImpl:jar:2.8.1.wso2v2:compile
+|  +- jaxen:jaxen:jar:1.1.1:provided
+|  |  +- (jaxen:jaxen:jar:1.1-beta-6:provided - omitted for cycle)
+|  |  +- dom4j:dom4j:jar:1.6.1:provided
+|  |  +- (jaxen:jaxen:jar:1.0-FCS:provided - omitted for cycle)
+|  |  +- jdom:jdom:jar:1.0:provided
+|  |  +- (xml-apis:xml-apis:jar:1.3.02:provided - omitted for conflict with 1.3.03)
+|  |  +- (xerces:xercesImpl:jar:2.8.1:provided - version managed from 2.6.2; omitted for duplicate)
+|  |  \- xom:xom:jar:1.0:provided
+|  |     +- (xerces:xmlParserAPIs:jar:2.6.2:compile - scope updated from provided; omitted for duplicate)
+|  |     +- (xerces:xercesImpl:jar:2.8.1:provided - version managed from 2.6.2; omitted for duplicate)
+|  |     +- (xalan:xalan:jar:2.6.0:compile - scope updated from provided; omitted for duplicate)
+|  |     \- com.ibm.icu:icu4j:jar:2.6.1:provided
+|  +- org.wso2.orbit.commons-fileupload:commons-fileupload:jar:1.3.2.wso2v1:compile
+|  +- org.apache.ant.wso2:ant:jar:1.7.0.wso2v1:compile
+|  |  \- org.apache.ant:ant:jar:1.7.0:compile
+|  |     \- org.apache.ant:ant-launcher:jar:1.7.0:compile
+|  +- org.eclipse.equinox:javax.servlet:jar:3.0.0.v201112011016:compile
+|  +- org.wso2.orbit.commons-httpclient:commons-httpclient:jar:3.1.0.wso2v3:compile
+|  \- (org.wso2.carbon:org.wso2.carbon.registry.api:jar:4.4.9:compile - omitted for duplicate)
++- org.wso2.carbon.analytics-common:org.wso2.carbon.event.output.adapter.email:jar:5.1.24:compile
+|  +- (org.wso2.carbon.analytics-common:org.wso2.carbon.event.output.adapter.core:jar:5.1.24:compile - omitted for duplicate)
+|  +- (org.wso2.carbon:org.wso2.carbon.core:jar:4.4.9:compile - version managed from 4.4.7; omitted for duplicate)
+|  +- org.apache.axis2.transport:axis2-transport-mail:jar:1.1.1-wso2v2:compile
+|  |  +- javax.mail:mail:jar:1.4.1:compile
+|  |  |  \- javax.activation:activation:jar:1.1:compile
+|  |  +- org.apache.axis2:axis2-transport-base:jar:1.0.0:compile (version managed from 1.6.1-wso2v17)
+|  |  |  +- (org.apache.ws.commons.axiom:axiom-api:jar:1.2.11-wso2v6:compile - version managed from 1.2.8; omitted for duplicate)
+|  |  |  +- (org.apache.ws.commons.axiom:axiom-impl:jar:1.2.8:compile - omitted for conflict with 1.2.11)
+|  |  |  +- org.apache.ws.commons.axiom:axiom-dom:jar:1.2.8:compile
+|  |  |  |  +- (org.apache.ws.commons.axiom:axiom-api:jar:1.2.11-wso2v6:compile - version managed from 1.2.8; omitted for duplicate)
+|  |  |  |  +- (org.apache.geronimo.specs:geronimo-activation_1.1_spec:jar:1.0.1:compile - omitted for conflict with 1.0.2)
+|  |  |  |  +- (org.codehaus.woodstox:wstx-asl:jar:3.2.4:compile - omitted for conflict with 3.2.9)
+|  |  |  |  +- (commons-logging:commons-logging:jar:1.1.1:compile - version managed from 1.0; omitted for duplicate)
+|  |  |  |  \- (org.apache.geronimo.specs:geronimo-stax-api_1.0_spec:jar:1.0.1:compile - omitted for duplicate)
+|  |  |  +- (org.apache.axis2:axis2-kernel:jar:1.5:compile - omitted for conflict with 1.6.1-wso2v17)
+|  |  |  \- (commons-logging:commons-logging:jar:1.1.1:compile - version managed from 1.0.4; omitted for duplicate)
+|  |  \- org.apache.axis2:axis2-kernel:jar:1.6.1-wso2v17:compile
+|  |     +- (org.apache.ws.commons.axiom:axiom-api:jar:1.2.11-wso2v6:compile - version managed from 1.2.11-wso2v10; omitted for duplicate)
+|  |     +- (org.apache.ws.commons.axiom:axiom-impl:jar:1.2.11-wso2v10:compile - omitted for conflict with 1.2.11)
+|  |     +- org.apache.geronimo.specs:geronimo-ws-metadata_2.0_spec:jar:1.1.2:compile
+|  |     +- (org.apache.geronimo.specs:geronimo-jta_1.1_spec:jar:1.1:compile - omitted for duplicate)
+|  |     +- javax.servlet:servlet-api:jar:2.3:compile
+|  |     +- commons-httpclient:commons-httpclient:jar:3.1:compile
+|  |     |  +- (commons-logging:commons-logging:jar:1.1.1:compile - version managed from 1.0.4; omitted for duplicate)
+|  |     |  \- (commons-codec:commons-codec:jar:1.2:compile - omitted for duplicate)
+|  |     +- commons-fileupload:commons-fileupload:jar:1.2:compile
+|  |     +- wsdl4j:wsdl4j:jar:1.6.2:compile
+|  |     +- (org.apache.ws.commons.schema.wso2:XmlSchema:jar:1.4.7.wso2v3:compile - omitted for duplicate)
+|  |     +- org.apache.neethi:neethi:jar:2.0.4:compile
+|  |     |  +- (org.apache.ws.commons.axiom:axiom-api:jar:1.2.11-wso2v6:compile - version managed from 1.2.7; omitted for duplicate)
+|  |     |  +- (org.apache.ws.commons.axiom:axiom-impl:jar:1.2.7:compile - omitted for conflict with 1.2.11)
+|  |     |  +- (wsdl4j:wsdl4j:jar:1.6.2:compile - omitted for duplicate)
+|  |     |  +- (org.codehaus.woodstox:wstx-asl:jar:3.2.4:compile - omitted for conflict with 3.2.9)
+|  |     |  \- (commons-logging:commons-logging:jar:1.1.1:compile - version managed from 1.0.4; omitted for duplicate)
+|  |     +- org.apache.woden:woden-api:jar:1.0M9:compile
+|  |     |  \- org.apache.ws.commons.schema:XmlSchema:jar:1.4.7:compile
+|  |     +- org.apache.woden:woden-impl-dom:jar:1.0M9:compile
+|  |     |  \- org.apache.woden:woden-impl-commons:jar:1.0M9:compile
+|  |     |     +- (org.apache.woden:woden-api:jar:1.0M9:compile - omitted for duplicate)
+|  |     |     \- (commons-logging:commons-logging:jar:1.1.1:compile - version managed from 1.0.4; omitted for duplicate)
+|  |     +- (commons-logging:commons-logging:jar:1.1.1:compile - version managed from 1.0.4; omitted for duplicate)
+|  |     +- javax.ws.rs:jsr311-api:jar:1.0:compile
+|  |     \- (org.wso2.securevault:org.wso2.securevault:jar:1.0.0:compile - omitted for conflict with 1.0.0-wso2v2)
+|  +- (org.testng:testng:jar:6.8.5:test - version managed from 6.11; scope managed from compile; omitted for duplicate)
+|  \- (commons-logging:commons-logging:jar:1.1.1:compile - version managed from 1.2; omitted for duplicate)
++- org.wso2.orbit.org.scalanlp:breeze_2.10:jar:0.11.2.wso2v1:test
++- xerces:xercesImpl:jar:2.8.1:test (scope not updated to compile)
+|  \- xml-apis:xml-apis:jar:1.3.03:test
++- org.wso2.carbon:org.wso2.carbon.registry.api:jar:4.4.9:compile
++- org.wso2.carbon.analytics:org.wso2.carbon.analytics.api:jar:1.3.11:compile
+|  +- org.wso2.carbon.analytics:org.wso2.carbon.analytics.dataservice.commons:jar:1.3.11:compile
+|  |  +- (org.wso2.carbon:org.wso2.carbon.core:jar:4.4.9:compile - version managed from 4.4.7; omitted for duplicate)
+|  |  \- (org.wso2.carbon.analytics:org.wso2.carbon.analytics.datasource.commons:jar:1.3.11:compile - omitted for duplicate)
+|  +- org.wso2.carbon.analytics:org.wso2.carbon.analytics.dataservice.core:jar:1.3.11:compile
+|  |  +- (org.wso2.carbon.analytics:org.wso2.carbon.analytics.datasource.core:jar:1.3.11:compile - omitted for duplicate)
+|  |  +- (org.wso2.carbon.analytics:org.wso2.carbon.analytics.dataservice.commons:jar:1.3.11:compile - omitted for duplicate)
+|  |  +- (org.wso2.carbon.analytics:org.wso2.carbon.analytics.datasource.commons:jar:1.3.11:compile - omitted for duplicate)
+|  |  +- (org.testng:testng:jar:6.8.5:test - version managed from 6.3.1; scope managed from compile; omitted for duplicate)
+|  |  +- org.wso2.orbit.org.apache.lucene:lucene:jar:5.2.1.wso2v1:compile
+|  |  +- (org.wso2.carbon.commons:org.wso2.carbon.ntask.core:jar:4.5.4:compile - omitted for duplicate)
+|  |  +- org.antlr.wso2:antlr-runtime:jar:3.2.0.wso2v1:compile
+|  |  +- org.wso2.orbit.org.ow2.asm:asm-all:jar:4.1.0.wso2v1:compile
+|  |  +- (org.wso2.carbon:org.wso2.carbon.application.deployer:jar:4.4.9:compile - omitted for duplicate)
+|  |  +- org.wso2.orbit.com.leansoft:bigqueue:jar:0.7.0.wso2v1:compile
+|  |  \- org.wso2.orbit.com.lmax:disruptor:jar:3.3.2.wso2v2:compile
+|  +- (org.wso2.carbon.analytics:org.wso2.carbon.analytics.datasource.commons:jar:1.3.11:compile - omitted for duplicate)
+|  +- org.wso2.orbit.org.apache.httpcomponents:httpclient:jar:4.3.1.wso2v2:compile
+|  +- org.wso2.carbon.analytics:org.wso2.carbon.analytics.io.commons:jar:1.3.11:compile
+|  |  +- (org.wso2.carbon.analytics:org.wso2.carbon.analytics.datasource.commons:jar:1.3.11:compile - omitted for duplicate)
+|  |  +- (org.wso2.carbon.analytics:org.wso2.carbon.analytics.dataservice.commons:jar:1.3.11:compile - omitted for duplicate)
+|  |  \- org.wso2.orbit.com.esotericsoftware.kryo:kryo:jar:2.24.0.wso2v1:compile
+|  |     +- (org.objenesis:objenesis:jar:2.1:compile - omitted for conflict with 1.2)
+|  |     \- (com.esotericsoftware.minlog:minlog:jar:1.2:compile - omitted for duplicate)
+|  \- com.google.code.gson:gson:jar:2.3.1:compile
++- org.wso2.carbon.analytics:org.wso2.carbon.analytics.datasource.commons:jar:1.3.11:compile
+|  \- (org.wso2.carbon:org.wso2.carbon.core:jar:4.4.9:compile - version managed from 4.4.3; omitted for duplicate)
++- org.wso2.carbon.analytics:org.wso2.carbon.analytics.spark.core:jar:1.3.11:compile
+|  +- (org.wso2.carbon:org.wso2.carbon.core:jar:4.4.9:compile - version managed from 4.4.3; omitted for duplicate)
+|  +- org.wso2.carbon:org.wso2.carbon.ndatasource.rdbms:jar:4.4.9:compile
+|  |  +- org.wso2.carbon:org.wso2.carbon.ndatasource.common:jar:4.4.9:compile
+|  |  +- org.wso2.carbon:org.wso2.carbon.ndatasource.core:jar:4.4.9:compile
+|  |  |  +- (org.wso2.carbon:org.wso2.carbon.utils:jar:4.4.9:compile - version managed from 4.4.3; omitted for duplicate)
+|  |  |  +- (org.wso2.carbon:org.wso2.carbon.ndatasource.common:jar:4.4.9:compile - omitted for duplicate)
+|  |  |  +- (org.wso2.carbon:org.wso2.carbon.core:jar:4.4.9:compile - version managed from 4.4.3; omitted for duplicate)
+|  |  |  \- (org.wso2.carbon:org.wso2.carbon.securevault:jar:4.4.9:compile - omitted for duplicate)
+|  |  +- org.apache.tomcat.wso2:jdbc-pool:jar:7.0.34.wso2v2:compile
+|  |  |  \- (org.apache.tomcat:tomcat-jdbc:jar:7.0.47:compile - omitted for conflict with 7.0.55)
+|  |  \- (org.wso2.carbon:org.wso2.carbon.utils:jar:4.4.9:compile - version managed from 4.4.3; omitted for duplicate)
+|  +- org.wso2.carbon.commons:org.wso2.carbon.ntask.core:jar:4.5.4:compile
+|  |  +- (org.eclipse.osgi:org.eclipse.osgi:jar:3.7.0.v20110613:compile - version managed from 3.9.1.v20130814-1242; omitted for duplicate)
+|  |  +- (org.wso2.carbon:org.wso2.carbon.core:jar:4.4.9:compile - version managed from 4.4.3; omitted for duplicate)
+|  |  +- (org.wso2.carbon:org.wso2.carbon.utils:jar:4.4.9:compile - version managed from 4.4.3; omitted for duplicate)
+|  |  +- org.wso2.carbon.commons:org.wso2.carbon.ntask.common:jar:4.5.4:compile
+|  |  +- org.wso2.carbon.commons:org.wso2.carbon.remote-tasks.stub:jar:4.5.4:compile
+|  |  |  +- (org.apache.axis2.wso2:axis2:jar:1.6.1.wso2v20:compile - version managed from 1.6.1.wso2v16; omitted for duplicate)
+|  |  |  +- org.apache.axis2.wso2:axis2-client:jar:1.6.1.wso2v16:compile
+|  |  |  |  +- (org.apache.ws.commons.schema.wso2:XmlSchema:jar:1.4.7.wso2v3:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.geronimo.specs.wso2:geronimo-stax-api_1.0_spec:jar:1.0.1.wso2v1:compile - omitted for conflict with 1.0.1.wso2v2)
+|  |  |  |  +- (org.wso2.orbit.org.apache.neethi:neethi:jar:2.0.4.wso2v5:compile - omitted for duplicate)
+|  |  |  |  +- org.apache.axis2.wso2:axis2-json:jar:1.6.1.wso2v16:compile
+|  |  |  |  +- org.apache.woden.wso2:woden:jar:1.0.0.M8-wso2v1:compile
+|  |  |  |  +- (wsdl4j.wso2:wsdl4j:jar:1.6.2.wso2v2:compile - omitted for conflict with 1.6.2.wso2v4)
+|  |  |  |  +- (org.wso2.securevault:org.wso2.securevault:jar:1.0.0:compile - omitted for conflict with 1.0.0-wso2v2)
+|  |  |  |  +- (org.apache.httpcomponents.wso2:httpcore:jar:4.3.3.wso2v1:compile - version managed from 4.3.0.wso2v1; omitted for duplicate)
+|  |  |  |  +- commons-fileupload.wso2:commons-fileupload:jar:1.2.0.wso2v1:compile
+|  |  |  |  +- commons-codec.wso2:commons-codec:jar:1.3.0.wso2v1:compile
+|  |  |  |  +- (commons-logging:commons-logging:jar:1.1.1:compile - version managed from 1.2; omitted for duplicate)
+|  |  |  |  \- commons-httpclient.wso2:commons-httpclient:jar:3.1.0.wso2v1:compile
+|  |  |  |     \- org.apache.commons.ssl:not-yet-commons-ssl:jar:0.3.9:compile
+|  |  |  +- (org.apache.ws.commons.axiom.wso2:axiom:jar:1.2.11.wso2v11:compile - version managed from 1.2.11.wso2v6; omitted for duplicate)
+|  |  |  +- (org.apache.ws.commons.axiom:axiom-api:jar:1.2.11-wso2v6:compile - version managed from 1.2.7; omitted for duplicate)
+|  |  |  +- (wsdl4j.wso2:wsdl4j:jar:1.6.2.wso2v4:compile - omitted for duplicate)
+|  |  |  +- (org.wso2.orbit.org.apache.neethi:neethi:jar:2.0.4.wso2v5:compile - omitted for duplicate)
+|  |  |  +- (org.apache.ws.commons.schema.wso2:XmlSchema:jar:1.4.7.wso2v3:compile - omitted for duplicate)
+|  |  |  \- (commons-logging:commons-logging:jar:1.1.1:compile - version managed from 1.1; omitted for duplicate)
+|  |  \- org.quartz-scheduler.wso2:quartz:jar:2.1.1.wso2v1:compile
+|  |     \- org.quartz-scheduler:quartz:jar:2.1.1:compile
+|  |        +- c3p0:c3p0:jar:0.9.1.1:compile
+|  |        \- (org.slf4j:slf4j-api:jar:1.7.13:compile - version managed from 1.6.1; omitted for duplicate)
+|  +- org.wso2.carbon:org.wso2.carbon.application.deployer:jar:4.4.9:compile
+|  |  +- (org.eclipse.osgi:org.eclipse.osgi:jar:3.7.0.v20110613:compile - version managed from 3.9.1.v20130814-1242; omitted for duplicate)
+|  |  +- (org.eclipse.osgi:org.eclipse.osgi.services:jar:3.3.100.v20120522-1822:compile - version managed from 3.3.100.v20130513-1956; omitted for duplicate)
+|  |  +- (org.wso2.carbon:org.wso2.carbon.registry.core:jar:4.4.9:compile - omitted for duplicate)
+|  |  +- (org.wso2.carbon:org.wso2.carbon.logging:jar:4.4.9:compile - omitted for duplicate)
+|  |  +- org.wso2.carbon:org.wso2.carbon.feature.mgt.core:jar:4.4.9:compile
+|  |  |  +- (org.wso2.carbon:org.wso2.carbon.logging:jar:4.4.9:compile - omitted for duplicate)
+|  |  |  +- (org.wso2.carbon:org.wso2.carbon.utils:jar:4.4.9:compile - version managed from 4.4.3; omitted for duplicate)
+|  |  |  +- org.eclipse.equinox:org.eclipse.equinox.p2.artifact.repository:jar:1.1.100.v20110519:compile
+|  |  |  +- (org.eclipse.osgi:org.eclipse.osgi:jar:3.7.0.v20110613:compile - version managed from 3.9.1.v20130814-1242; omitted for duplicate)
+|  |  |  +- (org.eclipse.osgi:org.eclipse.osgi.services:jar:3.3.100.v20120522-1822:compile - version managed from 3.3.100.v20130513-1956; omitted for duplicate)
+|  |  |  +- org.eclipse.equinox:org.eclipse.equinox.common:jar:3.6.200.v20130402-1505:compile
+|  |  |  +- org.eclipse.equinox:org.eclipse.equinox.p2.core:jar:2.3.0.v20130327-2119:compile
+|  |  |  +- org.eclipse.equinox:org.eclipse.equinox.p2.director:jar:2.3.0.v20130526-0335:compile
+|  |  |  +- org.eclipse.equinox:org.eclipse.equinox.p2.engine:jar:2.3.0.v20130526-2122-wso2v1:compile
+|  |  |  |  +- (org.eclipse.osgi:org.eclipse.osgi:jar:3.7.0.v20110613:compile - version managed from 3.9.1.v20130814-1242; omitted for duplicate)
+|  |  |  |  +- (org.eclipse.osgi:org.eclipse.osgi.services:jar:3.3.100.v20120522-1822:compile - version managed from 3.3.100.v20130513-1956; omitted for duplicate)
+|  |  |  |  +- org.eclipse.core:org.eclipse.core.jobs:jar:3.5.300.v20130429-1813:compile
+|  |  |  |  +- org.eclipse.core:org.eclipse.core.runtime:jar:3.9.0.v20130326-1255:compile
+|  |  |  |  +- org.eclipse.equinox:org.eclipse.equinox.util:jar:1.0.500.v20130404-1337:compile
+|  |  |  |  +- org.eclipse.equinox:org.eclipse.equinox.security:jar:1.2.0.v20130424-1801:compile
+|  |  |  |  +- org.eclipse.equinox:org.eclipse.equinox.registry:jar:3.5.301.v20130717-1549:compile
+|  |  |  |  +- org.eclipse.equinox:org.eclipse.equinox.p2.publisher.eclipse:jar:1.1.200.v20130516-1953:compile
+|  |  |  |  +- org.eclipse.equinox:org.eclipse.equinox.p2.publisher.pdepublishing:jar:1.0.0:compile
+|  |  |  |  +- (org.eclipse.equinox:org.eclipse.equinox.p2.director:jar:2.3.0.v20130526-0335:compile - omitted for duplicate)
+|  |  |  |  +- org.eclipse.equinox:org.eclipse.equinox.p2.garbagecollector:jar:1.0.200.v20130327-2119:compile
+|  |  |  |  +- org.eclipse.equinox:org.eclipse.equinox.p2.publisher:jar:1.3.0.v20130509-0110:compile
+|  |  |  |  +- org.eclipse.equinox:org.eclipse.equinox.preferences:jar:3.5.100.v20130422-1538:compile
+|  |  |  |  +- (org.eclipse.equinox:org.eclipse.equinox.p2.repository:jar:2.3.0.v20130412-2032:compile - omitted for duplicate)
+|  |  |  |  +- (org.eclipse.equinox:org.eclipse.equinox.p2.metadata:jar:2.2.0.v20130523-1557:compile - omitted for duplicate)
+|  |  |  |  +- (org.eclipse.equinox:org.eclipse.equinox.p2.core:jar:2.3.0.v20130327-2119:compile - omitted for duplicate)
+|  |  |  |  +- (org.eclipse.equinox:org.eclipse.equinox.common:jar:3.6.200.v20130402-1505:compile - omitted for duplicate)
+|  |  |  |  +- (org.eclipse.equinox:org.eclipse.equinox.simpleconfigurator:jar:1.0.400.v20130327-2119:compile - omitted for duplicate)
+|  |  |  |  +- org.eclipse.equinox:org.eclipse.equinox.simpleconfigurator.manipulator:jar:2.0.0.v20130327-2119:compile
+|  |  |  |  +- (org.eclipse.equinox:org.eclipse.equinox.p2.metadata.repository:jar:1.2.100.v20130327-2119:compile - omitted for duplicate)
+|  |  |  |  \- org.eclipse.equinox:org.eclipse.equinox.frameworkadmin:jar:2.0.100.v20130327-2119:compile
+|  |  |  +- org.eclipse.equinox:org.eclipse.equinox.p2.metadata:jar:2.2.0.v20130523-1557:compile
+|  |  |  +- org.eclipse.equinox:org.eclipse.equinox.p2.metadata.repository:jar:1.2.100.v20130327-2119:compile
+|  |  |  +- org.eclipse.equinox:org.eclipse.equinox.p2.repository:jar:2.3.0.v20130412-2032:compile
+|  |  |  \- org.eclipse.equinox:org.eclipse.equinox.simpleconfigurator:jar:1.0.400.v20130327-2119:compile
+|  |  +- (org.wso2.carbon:org.wso2.carbon.utils:jar:4.4.9:compile - version managed from 4.4.3; omitted for duplicate)
+|  |  +- org.wso2.carbon:org.wso2.carbon.roles.mgt:jar:4.4.9:compile
+|  |  |  +- (org.wso2.carbon:org.wso2.carbon.base:jar:4.4.9:compile - omitted for duplicate)
+|  |  |  +- (org.eclipse.osgi:org.eclipse.osgi:jar:3.7.0.v20110613:compile - version managed from 3.9.1.v20130814-1242; omitted for duplicate)
+|  |  |  +- (org.eclipse.osgi:org.eclipse.osgi.services:jar:3.3.100.v20120522-1822:compile - version managed from 3.3.100.v20130513-1956; omitted for duplicate)
+|  |  |  +- (org.wso2.carbon:org.wso2.carbon.registry.core:jar:4.4.9:compile - omitted for duplicate)
+|  |  |  +- (org.wso2.carbon:org.wso2.carbon.logging:jar:4.4.9:compile - omitted for duplicate)
+|  |  |  \- (commons-logging:commons-logging:jar:1.1.1:compile - version managed from 1.2; omitted for duplicate)
+|  |  \- (org.apache.axis2.wso2:axis2:jar:1.6.1.wso2v20:compile - version managed from 1.6.1.wso2v16; omitted for duplicate)
+|  +- org.apache.spark:spark-core_2.10:jar:1.6.2:compile
+|  |  +- org.apache.avro:avro-mapred:jar:hadoop2:1.7.7:compile
+|  |  |  +- org.apache.avro:avro-ipc:jar:1.7.7:compile
+|  |  |  |  +- org.apache.avro:avro:jar:1.7.7:compile
+|  |  |  |  |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.8.6:compile - version managed from 1.9.13; omitted for duplicate)
+|  |  |  |  |  +- (org.codehaus.jackson:jackson-mapper-asl:jar:1.8.6:compile - version managed from 1.9.13; omitted for duplicate)
+|  |  |  |  |  +- (com.thoughtworks.paranamer:paranamer:jar:2.3:compile - omitted for conflict with 2.6)
+|  |  |  |  |  +- (org.xerial.snappy:snappy-java:jar:1.0.5:compile - omitted for conflict with 1.0.5.3)
+|  |  |  |  |  +- (org.apache.commons:commons-compress:jar:1.4.1:compile - omitted for duplicate)
+|  |  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.13:compile - version managed from 1.6.4; omitted for duplicate)
+|  |  |  |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.8.6:compile - version managed from 1.9.13; omitted for duplicate)
+|  |  |  |  +- (org.codehaus.jackson:jackson-mapper-asl:jar:1.8.6:compile - version managed from 1.9.13; omitted for duplicate)
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.13:compile - version managed from 1.6.4; omitted for duplicate)
+|  |  |  +- org.apache.avro:avro-ipc:jar:tests:1.7.7:compile
+|  |  |  |  +- (org.apache.avro:avro:jar:1.7.7:compile - omitted for duplicate)
+|  |  |  |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.8.6:compile - version managed from 1.9.13; omitted for duplicate)
+|  |  |  |  +- (org.codehaus.jackson:jackson-mapper-asl:jar:1.8.6:compile - version managed from 1.9.13; omitted for duplicate)
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.13:compile - version managed from 1.6.4; omitted for duplicate)
+|  |  |  +- org.codehaus.jackson:jackson-core-asl:jar:1.8.6:compile
+|  |  |  +- org.codehaus.jackson:jackson-mapper-asl:jar:1.8.6:compile
+|  |  |  |  \- (org.codehaus.jackson:jackson-core-asl:jar:1.8.6:compile - version managed from 1.9.13; omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.13:compile - version managed from 1.6.4; omitted for duplicate)
+|  |  +- com.twitter:chill_2.10:jar:0.5.0:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.10.4:compile - omitted for duplicate)
+|  |  |  +- (com.twitter:chill-java:jar:0.5.0:compile - omitted for duplicate)
+|  |  |  \- (com.esotericsoftware.kryo:kryo:jar:2.21:compile - omitted for duplicate)
+|  |  +- com.twitter:chill-java:jar:0.5.0:compile
+|  |  |  \- (com.esotericsoftware.kryo:kryo:jar:2.21:compile - omitted for duplicate)
+|  |  +- org.apache.xbean:xbean-asm5-shaded:jar:4.4:compile
+|  |  +- org.apache.hadoop:hadoop-client:jar:2.2.0:compile
+|  |  |  +- org.apache.hadoop:hadoop-common:jar:2.2.0:compile
+|  |  |  |  +- (org.apache.hadoop:hadoop-annotations:jar:2.2.0:compile - omitted for duplicate)
+|  |  |  |  +- (com.google.guava:guava:jar:19.0:compile - version managed from 11.0.2; omitted for duplicate)
+|  |  |  |  +- (commons-cli:commons-cli:jar:1.2:compile - omitted for conflict with 1.0)
+|  |  |  |  +- org.apache.commons:commons-math:jar:2.1:compile
+|  |  |  |  +- xmlenc:xmlenc:jar:0.52:compile
+|  |  |  |  +- (commons-httpclient:commons-httpclient:jar:3.1:compile - omitted for duplicate)
+|  |  |  |  +- (commons-codec:commons-codec:jar:1.4:compile - omitted for conflict with 1.2)
+|  |  |  |  +- (commons-io:commons-io:jar:2.4:compile - version managed from 2.1; omitted for duplicate)
+|  |  |  |  +- (commons-net:commons-net:jar:3.1:compile - omitted for conflict with 2.2)
+|  |  |  |  +- (log4j:log4j:jar:1.2.17:compile - omitted for duplicate)
+|  |  |  |  +- (commons-lang:commons-lang:jar:2.6:compile - version managed from 2.5; omitted for duplicate)
+|  |  |  |  +- commons-configuration:commons-configuration:jar:1.6:compile
+|  |  |  |  |  +- commons-collections:commons-collections:jar:3.2.1:compile
+|  |  |  |  |  +- (commons-lang:commons-lang:jar:2.6:compile - version managed from 2.4; omitted for duplicate)
+|  |  |  |  |  +- commons-digester:commons-digester:jar:1.8:compile
+|  |  |  |  |  |  \- commons-beanutils:commons-beanutils:jar:1.7.0:compile
+|  |  |  |  |  \- commons-beanutils:commons-beanutils-core:jar:1.8.0:compile
+|  |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.13:compile - version managed from 1.7.5; omitted for duplicate)
+|  |  |  |  +- (org.slf4j:slf4j-log4j12:jar:1.7.5:compile - scope updated from runtime; omitted for duplicate)
+|  |  |  |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.8.6:compile - version managed from 1.8.8; omitted for duplicate)
+|  |  |  |  +- (org.apache.avro:avro:jar:1.7.4:compile - omitted for conflict with 1.7.7)
+|  |  |  |  +- (com.google.protobuf:protobuf-java:jar:2.5.0:compile - omitted for duplicate)
+|  |  |  |  +- org.apache.hadoop:hadoop-auth:jar:2.2.0:compile
+|  |  |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.13:compile - version managed from 1.7.5; omitted for duplicate)
+|  |  |  |  |  +- (commons-codec:commons-codec:jar:1.4:compile - omitted for conflict with 1.2)
+|  |  |  |  |  +- (log4j:log4j:jar:1.2.17:runtime - omitted for duplicate)
+|  |  |  |  |  \- (org.slf4j:slf4j-log4j12:jar:1.7.5:runtime - omitted for duplicate)
+|  |  |  |  +- (org.apache.zookeeper:zookeeper:jar:3.4.5:compile - omitted for duplicate)
+|  |  |  |  \- org.apache.commons:commons-compress:jar:1.4.1:compile
+|  |  |  |     \- org.tukaani:xz:jar:1.0:compile
+|  |  |  +- org.apache.hadoop:hadoop-hdfs:jar:2.2.0:compile
+|  |  |  |  +- (com.google.guava:guava:jar:19.0:compile - version managed from 11.0.2; omitted for duplicate)
+|  |  |  |  +- org.mortbay.jetty:jetty-util:jar:6.1.26:compile
+|  |  |  |  +- (commons-cli:commons-cli:jar:1.2:compile - omitted for conflict with 1.0)
+|  |  |  |  +- (commons-codec:commons-codec:jar:1.4:compile - omitted for conflict with 1.2)
+|  |  |  |  +- (commons-io:commons-io:jar:2.4:compile - version managed from 2.1; omitted for duplicate)
+|  |  |  |  +- (commons-lang:commons-lang:jar:2.6:compile - version managed from 2.5; omitted for duplicate)
+|  |  |  |  +- (log4j:log4j:jar:1.2.17:compile - omitted for duplicate)
+|  |  |  |  +- (com.google.protobuf:protobuf-java:jar:2.5.0:compile - omitted for duplicate)
+|  |  |  |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.8.6:compile - version managed from 1.8.8; omitted for duplicate)
+|  |  |  |  \- (xmlenc:xmlenc:jar:0.52:compile - omitted for duplicate)
+|  |  |  +- org.apache.hadoop:hadoop-mapreduce-client-app:jar:2.2.0:compile
+|  |  |  |  +- org.apache.hadoop:hadoop-mapreduce-client-common:jar:2.2.0:compile
+|  |  |  |  |  +- (org.apache.hadoop:hadoop-yarn-common:jar:2.2.0:compile - omitted for duplicate)
+|  |  |  |  |  +- org.apache.hadoop:hadoop-yarn-client:jar:2.2.0:compile
+|  |  |  |  |  |  +- (org.apache.hadoop:hadoop-yarn-api:jar:2.2.0:compile - omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.hadoop:hadoop-yarn-common:jar:2.2.0:compile - omitted for duplicate)
+|  |  |  |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.13:compile - version managed from 1.7.5; omitted for duplicate)
+|  |  |  |  |  |  +- (org.slf4j:slf4j-log4j12:jar:1.7.5:compile - omitted for duplicate)
+|  |  |  |  |  |  +- (com.google.protobuf:protobuf-java:jar:2.5.0:compile - omitted for duplicate)
+|  |  |  |  |  |  +- (commons-io:commons-io:jar:2.4:compile - version managed from 2.1; omitted for duplicate)
+|  |  |  |  |  |  +- (com.google.inject:guice:jar:3.0:compile - omitted for duplicate)
+|  |  |  |  |  |  +- (com.sun.jersey.jersey-test-framework:jersey-test-framework-grizzly2:jar:1.9:compile - omitted for duplicate)
+|  |  |  |  |  |  +- (com.sun.jersey:jersey-server:jar:1.9:compile - omitted for duplicate)
+|  |  |  |  |  |  +- (com.sun.jersey:jersey-json:jar:1.9:compile - omitted for duplicate)
+|  |  |  |  |  |  \- (com.sun.jersey.contribs:jersey-guice:jar:1.9:compile - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.hadoop:hadoop-mapreduce-client-core:jar:2.2.0:compile - omitted for duplicate)
+|  |  |  |  |  +- org.apache.hadoop:hadoop-yarn-server-common:jar:2.2.0:compile
+|  |  |  |  |  |  +- (org.apache.hadoop:hadoop-yarn-common:jar:2.2.0:compile - omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.zookeeper:zookeeper:jar:3.4.5:compile - omitted for duplicate)
+|  |  |  |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.13:compile - version managed from 1.7.5; omitted for duplicate)
+|  |  |  |  |  |  +- (org.slf4j:slf4j-log4j12:jar:1.7.5:compile - omitted for duplicate)
+|  |  |  |  |  |  +- (com.google.protobuf:protobuf-java:jar:2.5.0:compile - omitted for duplicate)
+|  |  |  |  |  |  +- (commons-io:commons-io:jar:2.4:compile - version managed from 2.1; omitted for duplicate)
+|  |  |  |  |  |  +- (com.google.inject:guice:jar:3.0:compile - omitted for duplicate)
+|  |  |  |  |  |  +- (com.sun.jersey.jersey-test-framework:jersey-test-framework-grizzly2:jar:1.9:compile - omitted for duplicate)
+|  |  |  |  |  |  +- (com.sun.jersey:jersey-server:jar:1.9:compile - omitted for duplicate)
+|  |  |  |  |  |  +- (com.sun.jersey:jersey-json:jar:1.9:compile - omitted for duplicate)
+|  |  |  |  |  |  \- (com.sun.jersey.contribs:jersey-guice:jar:1.9:compile - omitted for duplicate)
+|  |  |  |  |  +- (com.google.protobuf:protobuf-java:jar:2.5.0:compile - omitted for duplicate)
+|  |  |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.13:compile - version managed from 1.7.5; omitted for duplicate)
+|  |  |  |  |  \- (org.slf4j:slf4j-log4j12:jar:1.7.5:compile - omitted for duplicate)
+|  |  |  |  +- org.apache.hadoop:hadoop-mapreduce-client-shuffle:jar:2.2.0:compile
+|  |  |  |  |  +- (org.apache.hadoop:hadoop-mapreduce-client-core:jar:2.2.0:compile - omitted for duplicate)
+|  |  |  |  |  +- (com.google.protobuf:protobuf-java:jar:2.5.0:compile - omitted for duplicate)
+|  |  |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.13:compile - version managed from 1.7.5; omitted for duplicate)
+|  |  |  |  |  \- (org.slf4j:slf4j-log4j12:jar:1.7.5:compile - omitted for duplicate)
+|  |  |  |  +- (com.google.protobuf:protobuf-java:jar:2.5.0:compile - omitted for duplicate)
+|  |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.13:compile - version managed from 1.7.5; omitted for duplicate)
+|  |  |  |  \- (org.slf4j:slf4j-log4j12:jar:1.7.5:compile - omitted for conflict with 1.7.10)
+|  |  |  +- org.apache.hadoop:hadoop-yarn-api:jar:2.2.0:compile
+|  |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.13:compile - version managed from 1.7.5; omitted for duplicate)
+|  |  |  |  +- (org.slf4j:slf4j-log4j12:jar:1.7.5:compile - omitted for duplicate)
+|  |  |  |  +- (com.google.protobuf:protobuf-java:jar:2.5.0:compile - omitted for duplicate)
+|  |  |  |  \- (commons-io:commons-io:jar:2.4:compile - version managed from 2.1; omitted for duplicate)
+|  |  |  +- org.apache.hadoop:hadoop-mapreduce-client-core:jar:2.2.0:compile
+|  |  |  |  +- org.apache.hadoop:hadoop-yarn-common:jar:2.2.0:compile
+|  |  |  |  |  +- (log4j:log4j:jar:1.2.17:compile - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.hadoop:hadoop-yarn-api:jar:2.2.0:compile - omitted for duplicate)
+|  |  |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.13:compile - version managed from 1.7.5; omitted for duplicate)
+|  |  |  |  |  +- (org.slf4j:slf4j-log4j12:jar:1.7.5:compile - omitted for duplicate)
+|  |  |  |  |  +- (com.google.protobuf:protobuf-java:jar:2.5.0:compile - omitted for duplicate)
+|  |  |  |  |  \- (commons-io:commons-io:jar:2.4:compile - version managed from 2.1; omitted for duplicate)
+|  |  |  |  +- (com.google.protobuf:protobuf-java:jar:2.5.0:compile - omitted for duplicate)
+|  |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.13:compile - version managed from 1.7.5; omitted for duplicate)
+|  |  |  |  \- (org.slf4j:slf4j-log4j12:jar:1.7.5:compile - omitted for duplicate)
+|  |  |  +- org.apache.hadoop:hadoop-mapreduce-client-jobclient:jar:2.2.0:compile
+|  |  |  |  +- (org.apache.hadoop:hadoop-mapreduce-client-common:jar:2.2.0:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.hadoop:hadoop-mapreduce-client-shuffle:jar:2.2.0:compile - omitted for duplicate)
+|  |  |  |  +- (com.google.protobuf:protobuf-java:jar:2.5.0:compile - omitted for duplicate)
+|  |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.13:compile - version managed from 1.7.5; omitted for duplicate)
+|  |  |  |  \- (org.slf4j:slf4j-log4j12:jar:1.7.5:compile - omitted for duplicate)
+|  |  |  \- org.apache.hadoop:hadoop-annotations:jar:2.2.0:compile
+|  |  +- org.apache.spark:spark-launcher_2.10:jar:1.6.2:compile
+|  |  |  \- (org.spark-project.spark:unused:jar:1.0.0:compile - omitted for duplicate)
+|  |  +- org.apache.spark:spark-network-common_2.10:jar:1.6.2:compile
+|  |  |  +- (io.netty:netty-all:jar:4.0.29.Final:compile - omitted for conflict with 4.0.23.Final)
+|  |  |  +- (com.google.code.findbugs:jsr305:jar:1.3.9:compile - omitted for conflict with 2.0.1)
+|  |  |  \- (org.spark-project.spark:unused:jar:1.0.0:compile - omitted for duplicate)
+|  |  +- org.apache.spark:spark-network-shuffle_2.10:jar:1.6.2:compile
+|  |  |  +- (org.apache.spark:spark-network-common_2.10:jar:1.6.2:compile - omitted for duplicate)
+|  |  |  +- org.fusesource.leveldbjni:leveldbjni-all:jar:1.8:compile
+|  |  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.4.4:compile - omitted for conflict with 2.4.2)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.4.4:compile - omitted for duplicate)
+|  |  |  \- (org.spark-project.spark:unused:jar:1.0.0:compile - omitted for duplicate)
+|  |  +- org.apache.spark:spark-unsafe_2.10:jar:1.6.2:compile
+|  |  |  +- (com.twitter:chill_2.10:jar:0.5.0:compile - omitted for duplicate)
+|  |  |  +- (com.google.code.findbugs:jsr305:jar:1.3.9:compile - omitted for conflict with 2.0.1)
+|  |  |  \- (org.spark-project.spark:unused:jar:1.0.0:compile - omitted for duplicate)
+|  |  +- net.java.dev.jets3t:jets3t:jar:0.7.1:compile
+|  |  |  +- (commons-codec:commons-codec:jar:1.3:compile - omitted for conflict with 1.2)
+|  |  |  \- (commons-httpclient:commons-httpclient:jar:3.1:compile - omitted for duplicate)
+|  |  +- org.apache.curator:curator-recipes:jar:2.4.0:compile
+|  |  |  +- org.apache.curator:curator-framework:jar:2.4.0:compile
+|  |  |  |  +- org.apache.curator:curator-client:jar:2.4.0:compile
+|  |  |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.13:compile - version managed from 1.6.4; omitted for duplicate)
+|  |  |  |  |  +- (org.apache.zookeeper:zookeeper:jar:3.4.5:compile - omitted for duplicate)
+|  |  |  |  |  \- (com.google.guava:guava:jar:19.0:compile - version managed from 14.0.1; omitted for duplicate)
+|  |  |  |  +- (org.apache.zookeeper:zookeeper:jar:3.4.5:compile - omitted for duplicate)
+|  |  |  |  \- (com.google.guava:guava:jar:19.0:compile - version managed from 14.0.1; omitted for duplicate)
+|  |  |  +- org.apache.zookeeper:zookeeper:jar:3.4.5:compile
+|  |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.13:compile - version managed from 1.6.1; omitted for duplicate)
+|  |  |  |  +- (org.slf4j:slf4j-log4j12:jar:1.6.1:compile - omitted for conflict with 1.7.5)
+|  |  |  |  +- (log4j:log4j:jar:1.2.15:compile - omitted for conflict with 1.2.17)
+|  |  |  |  \- (jline:jline:jar:0.9.94:compile - omitted for duplicate)
+|  |  |  \- (com.google.guava:guava:jar:19.0:compile - version managed from 14.0.1; omitted for duplicate)
+|  |  +- org.eclipse.jetty.orbit:javax.servlet:jar:3.0.0.v201112011016:compile
+|  |  +- (org.apache.commons:commons-lang3:jar:3.3.2:compile - omitted for duplicate)
+|  |  +- (org.apache.commons:commons-math3:jar:3.4.1:compile - omitted for duplicate)
+|  |  +- (com.google.code.findbugs:jsr305:jar:1.3.9:compile - omitted for conflict with 2.0.1)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.13:compile - version managed from 1.7.10; omitted for duplicate)
+|  |  +- org.slf4j:jul-to-slf4j:jar:1.7.10:compile
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.13:compile - version managed from 1.7.10; omitted for duplicate)
+|  |  +- org.slf4j:jcl-over-slf4j:jar:1.7.10:compile
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.13:compile - version managed from 1.7.10; omitted for duplicate)
+|  |  +- log4j:log4j:jar:1.2.17:compile
+|  |  +- org.slf4j:slf4j-log4j12:jar:1.7.10:compile
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.13:compile - version managed from 1.7.10; omitted for duplicate)
+|  |  |  \- (log4j:log4j:jar:1.2.17:compile - omitted for duplicate)
+|  |  +- com.ning:compress-lzf:jar:1.0.3:compile
+|  |  +- (org.xerial.snappy:snappy-java:jar:1.1.2.1:compile - omitted for conflict with 1.0.5.3)
+|  |  +- net.jpountz.lz4:lz4:jar:1.3.0:compile
+|  |  +- org.roaringbitmap:RoaringBitmap:jar:0.5.11:compile
+|  |  +- commons-net:commons-net:jar:2.2:compile
+|  |  +- (com.typesafe.akka:akka-remote_2.10:jar:2.3.11:compile - omitted for conflict with 2.3.4)
+|  |  +- (com.typesafe.akka:akka-slf4j_2.10:jar:2.3.11:compile - omitted for conflict with 2.3.4)
+|  |  +- (org.scala-lang:scala-library:jar:2.10.4:compile - version managed from 2.10.5; omitted for duplicate)
+|  |  +- org.json4s:json4s-jackson_2.10:jar:3.2.10:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.10.4:compile - version managed from 2.10.0; omitted for duplicate)
+|  |  |  +- org.json4s:json4s-core_2.10:jar:3.2.10:compile
+|  |  |  |  +- (org.scala-lang:scala-library:jar:2.10.4:compile - version managed from 2.10.0; omitted for duplicate)
+|  |  |  |  +- org.json4s:json4s-ast_2.10:jar:3.2.10:compile
+|  |  |  |  |  \- (org.scala-lang:scala-library:jar:2.10.4:compile - version managed from 2.10.0; omitted for duplicate)
+|  |  |  |  +- (com.thoughtworks.paranamer:paranamer:jar:2.6:compile - omitted for duplicate)
+|  |  |  |  \- org.scala-lang:scalap:jar:2.10.0:compile
+|  |  |  |     \- org.scala-lang:scala-compiler:jar:2.10.0:compile
+|  |  |  |        +- (org.scala-lang:scala-library:jar:2.10.4:compile - version managed from 2.10.0; omitted for duplicate)
+|  |  |  |        \- (org.scala-lang:scala-reflect:jar:2.10.4:compile - version managed from 2.10.0; omitted for duplicate)
+|  |  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.3.1:compile - omitted for conflict with 2.4.2)
+|  |  +- (com.sun.jersey:jersey-server:jar:1.9:compile - omitted for duplicate)
+|  |  +- (com.sun.jersey:jersey-core:jar:1.9:compile - omitted for duplicate)
+|  |  +- org.apache.mesos:mesos:jar:shaded-protobuf:0.21.1:compile
+|  |  +- (io.netty:netty-all:jar:4.0.29.Final:compile - omitted for conflict with 4.0.23.Final)
+|  |  +- com.clearspring.analytics:stream:jar:2.7.0:compile
+|  |  +- (io.dropwizard.metrics:metrics-core:jar:3.1.2:compile - omitted for duplicate)
+|  |  +- io.dropwizard.metrics:metrics-jvm:jar:3.1.2:compile
+|  |  |  +- (io.dropwizard.metrics:metrics-core:jar:3.1.2:compile - omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.13:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  +- (io.dropwizard.metrics:metrics-json:jar:3.1.2:compile - omitted for duplicate)
+|  |  +- io.dropwizard.metrics:metrics-graphite:jar:3.1.2:compile
+|  |  |  +- (io.dropwizard.metrics:metrics-core:jar:3.1.2:compile - omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.13:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.4.4:compile - omitted for conflict with 2.4.2)
+|  |  +- (com.fasterxml.jackson.module:jackson-module-scala_2.10:jar:2.4.4:compile - omitted for duplicate)
+|  |  +- org.apache.ivy:ivy:jar:2.4.0:compile
+|  |  +- oro:oro:jar:2.0.8:compile
+|  |  +- org.tachyonproject:tachyon-client:jar:0.8.2:compile
+|  |  |  +- (com.google.guava:guava:jar:19.0:compile - version managed from 14.0.1; omitted for duplicate)
+|  |  |  +- (commons-lang:commons-lang:jar:2.6:compile - version managed from 2.4; omitted for duplicate)
+|  |  |  +- (commons-io:commons-io:jar:2.4:compile - version managed from 2.1; omitted for duplicate)
+|  |  |  +- (org.apache.commons:commons-lang3:jar:3.3.2:compile - version managed from 3.0; omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.13:compile - version managed from 1.7.2; omitted for duplicate)
+|  |  |  +- org.tachyonproject:tachyon-underfs-hdfs:jar:0.8.2:compile
+|  |  |  |  +- (com.google.guava:guava:jar:19.0:compile - version managed from 14.0.1; omitted for duplicate)
+|  |  |  |  +- (org.apache.commons:commons-lang3:jar:3.3.2:compile - version managed from 3.0; omitted for duplicate)
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.13:compile - version managed from 1.7.2; omitted for duplicate)
+|  |  |  +- org.tachyonproject:tachyon-underfs-s3:jar:0.8.2:compile
+|  |  |  |  +- (com.google.guava:guava:jar:19.0:compile - version managed from 14.0.1; omitted for duplicate)
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.13:compile - version managed from 1.7.2; omitted for duplicate)
+|  |  |  \- org.tachyonproject:tachyon-underfs-local:jar:0.8.2:compile
+|  |  |     +- (com.google.guava:guava:jar:19.0:compile - version managed from 14.0.1; omitted for duplicate)
+|  |  |     \- (org.slf4j:slf4j-api:jar:1.7.13:compile - version managed from 1.7.2; omitted for duplicate)
+|  |  +- net.razorvine:pyrolite:jar:4.9:compile
+|  |  +- net.sf.py4j:py4j:jar:0.9:compile
+|  |  \- org.spark-project.spark:unused:jar:1.0.0:compile
+|  +- org.apache.spark:spark-sql_2.10:jar:1.6.2:compile
+|  |  +- (org.apache.spark:spark-core_2.10:jar:1.6.2:compile - omitted for duplicate)
+|  |  +- org.apache.spark:spark-catalyst_2.10:jar:1.6.2:compile
+|  |  |  +- (org.scala-lang:scala-reflect:jar:2.10.4:compile - version managed from 2.10.5; omitted for duplicate)
+|  |  |  +- (org.apache.spark:spark-core_2.10:jar:1.6.2:compile - omitted for duplicate)
+|  |  |  +- (org.apache.spark:spark-unsafe_2.10:jar:1.6.2:compile - omitted for duplicate)
+|  |  |  +- org.codehaus.janino:janino:jar:2.7.8:compile
+|  |  |  |  \- org.codehaus.janino:commons-compiler:jar:2.7.8:compile
+|  |  |  \- (org.spark-project.spark:unused:jar:1.0.0:compile - omitted for duplicate)
+|  |  +- org.apache.parquet:parquet-column:jar:1.7.0:compile
+|  |  |  +- org.apache.parquet:parquet-common:jar:1.7.0:compile
+|  |  |  +- org.apache.parquet:parquet-encoding:jar:1.7.0:compile
+|  |  |  |  +- (org.apache.parquet:parquet-common:jar:1.7.0:compile - omitted for duplicate)
+|  |  |  |  +- org.apache.parquet:parquet-generator:jar:1.7.0:compile
+|  |  |  |  |  \- (org.apache.parquet:parquet-common:jar:1.7.0:compile - omitted for duplicate)
+|  |  |  |  \- (commons-codec:commons-codec:jar:1.5:compile - omitted for conflict with 1.2)
+|  |  |  \- (commons-codec:commons-codec:jar:1.5:compile - omitted for conflict with 1.2)
+|  |  +- org.apache.parquet:parquet-hadoop:jar:1.7.0:compile
+|  |  |  +- (org.apache.parquet:parquet-column:jar:1.7.0:compile - omitted for duplicate)
+|  |  |  +- org.apache.parquet:parquet-format:jar:2.3.0-incubating:compile
+|  |  |  +- org.apache.parquet:parquet-jackson:jar:1.7.0:compile
+|  |  |  +- (org.codehaus.jackson:jackson-mapper-asl:jar:1.8.6:compile - version managed from 1.9.11; omitted for duplicate)
+|  |  |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.8.6:compile - version managed from 1.9.11; omitted for duplicate)
+|  |  |  \- (org.xerial.snappy:snappy-java:jar:1.1.1.6:compile - omitted for conflict with 1.0.5.3)
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.4.4:compile - omitted for conflict with 2.4.2)
+|  |  \- (org.spark-project.spark:unused:jar:1.0.0:compile - omitted for duplicate)
+|  +- (org.wso2.carbon.analytics:org.wso2.carbon.analytics.dataservice.core:jar:1.3.11:compile - omitted for duplicate)
+|  +- org.wso2.carbon.analytics:org.wso2.carbon.analytics.datasource.core:jar:1.3.11:compile
+|  |  +- (org.wso2.carbon:org.wso2.carbon.core:jar:4.4.9:compile - version managed from 4.4.3; omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:19.0:compile - version managed from 14.0.1; omitted for duplicate)
+|  |  +- (org.wso2.carbon:org.wso2.carbon.ndatasource.core:jar:4.4.9:compile - omitted for duplicate)
+|  |  +- com.hazelcast:hazelcast:jar:3.5:compile
+|  |  |  +- (net.sourceforge.findbugs:annotations:jar:1.3.2:compile - omitted for duplicate)
+|  |  |  +- com.eclipsesource.minimal-json:minimal-json:jar:0.9.2:compile
+|  |  |  \- com.hazelcast:hazelcast-code-generator:jar:3.5:compile
+|  |  |     \- org.freemarker:freemarker:jar:2.3.22:compile
+|  |  +- (org.wso2.carbon.analytics:org.wso2.carbon.analytics.datasource.commons:jar:1.3.11:compile - omitted for duplicate)
+|  |  +- (org.wso2.orbit.com.esotericsoftware.kryo:kryo:jar:2.24.0.wso2v1:compile - omitted for duplicate)
+|  |  \- (com.esotericsoftware.kryo:kryo:jar:2.21:compile - omitted for duplicate)
+|  +- (org.wso2.carbon.analytics:org.wso2.carbon.analytics.datasource.commons:jar:1.3.11:compile - omitted for duplicate)
+|  +- org.wso2.carbon.analytics-common:org.wso2.carbon.databridge.commons:jar:5.1.3:compile
+|  |  +- (org.eclipse.osgi:org.eclipse.osgi:jar:3.7.0.v20110613:compile - version managed from 3.9.1.v20130814-1242; omitted for duplicate)
+|  |  +- (com.google.code.gson:gson:jar:2.5:compile - omitted for conflict with 2.3.1)
+|  |  +- (org.wso2.carbon:org.wso2.carbon.logging:jar:4.4.9:compile - version managed from 4.4.7; omitted for duplicate)
+|  |  +- (org.json.wso2:json:jar:3.0.0.wso2v1:compile - version managed from 2.0.0.wso2v1; omitted for duplicate)
+|  |  \- (org.wso2.securevault:org.wso2.securevault:jar:1.0.0-wso2v2:compile - omitted for duplicate)
+|  +- org.wso2.carbon.analytics:org.wso2.carbon.analytics.datasource.rdbms:jar:1.3.11:compile
+|  |  +- org.wso2.carbon.analytics:org.wso2.carbon.analytics.datasource.core.test:jar:1.3.11:compile
+|  |  |  +- (org.wso2.carbon.analytics:org.wso2.carbon.analytics.datasource.core:jar:1.3.11:compile - omitted for duplicate)
+|  |  |  +- (org.wso2.carbon.analytics:org.wso2.carbon.analytics.dataservice.core:jar:1.3.11:compile - omitted for duplicate)
+|  |  |  +- (org.wso2.carbon.analytics:org.wso2.carbon.analytics.datasource.commons:jar:1.3.11:compile - omitted for duplicate)
+|  |  |  \- (org.testng:testng:jar:6.8.5:test - version managed from 6.8.21; scope managed from compile; omitted for duplicate)
+|  |  +- org.apache.tomcat:tomcat-jdbc:jar:7.0.55:compile
+|  |  |  \- (org.apache.tomcat:tomcat-juli:jar:7.0.55:compile - omitted for conflict with 7.0.70)
+|  |  +- (org.testng:testng:jar:6.8.5:test - version managed from 6.8.21; scope managed from compile; omitted for duplicate)
+|  |  +- com.h2database:h2:jar:1.4.187:compile
+|  |  \- (com.google.guava:guava:jar:19.0:compile - version managed from 14.0.1; omitted for duplicate)
+|  +- org.wso2.carbon.analytics:org.wso2.carbon.analytics.spark.utils:jar:1.3.11:compile
+|  |  \- (org.wso2.carbon:org.wso2.carbon.logging:jar:4.4.9:compile - version managed from 4.4.7; omitted for duplicate)
+|  +- (org.scala-lang:scala-library:jar:2.10.4:compile - version managed from 2.10.0; omitted for duplicate)
+|  +- (xerces:xercesImpl:jar:2.8.1:compile - version managed from 2.11.0; omitted for duplicate)
+|  +- org.spark-project.akka:akka-actor_2.10:jar:2.3.4-spark:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.10.4:compile - version managed from 2.10.0; omitted for duplicate)
+|  |  \- (com.typesafe:config:jar:1.2.1:compile - omitted for duplicate)
+|  \- com.esotericsoftware.kryo:kryo:jar:2.21:compile
+|     +- com.esotericsoftware.reflectasm:reflectasm:jar:shaded:1.07:compile
+|     |  \- org.ow2.asm:asm:jar:4.0:compile
+|     +- com.esotericsoftware.minlog:minlog:jar:1.2:compile
+|     \- org.objenesis:objenesis:jar:1.2:compile
+\- org.wso2.orbit.ai.h2o:h2o:jar:3.2.0.wso2v1:compile

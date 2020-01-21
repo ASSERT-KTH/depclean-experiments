@@ -1,0 +1,25 @@
+org.http4s:blaze-core_2.10:jar:0.12.12
++- org.scala-lang:scala-library:jar:2.10.7:compile
++- org.specs2:specs2-core_2.10:jar:3.9.5:test
+|  +- (org.scala-lang:scala-library:jar:2.10.6:test - omitted for conflict with 2.10.7)
+|  +- org.specs2:specs2-matcher_2.10:jar:3.9.5:test
+|  |  +- (org.scala-lang:scala-library:jar:2.10.6:test - omitted for conflict with 2.10.7)
+|  |  \- org.specs2:specs2-common_2.10:jar:3.9.5:test
+|  |     +- (org.scala-lang:scala-library:jar:2.10.6:test - omitted for conflict with 2.10.7)
+|  |     +- org.scalaz:scalaz-core_2.10:jar:7.2.12:test
+|  |     |  \- (org.scala-lang:scala-library:jar:2.10.6:test - omitted for conflict with 2.10.7)
+|  |     +- org.scalaz:scalaz-effect_2.10:jar:7.2.12:test
+|  |     |  +- (org.scala-lang:scala-library:jar:2.10.6:test - omitted for conflict with 2.10.7)
+|  |     |  \- (org.scalaz:scalaz-core_2.10:jar:7.2.12:test - omitted for duplicate)
+|  |     +- (org.scala-lang:scala-reflect:jar:2.10.6:test - omitted for conflict with 2.10.4)
+|  |     \- (org.scalamacros:quasiquotes_2.10:jar:2.1.0:test - omitted for duplicate)
+|  \- org.scalamacros:quasiquotes_2.10:jar:2.1.0:test
+|     +- (org.scala-lang:scala-library:jar:2.10.4:test - omitted for conflict with 2.10.7)
+|     \- org.scala-lang:scala-reflect:jar:2.10.4:test
+|        \- (org.scala-lang:scala-library:jar:2.10.4:test - omitted for conflict with 2.10.7)
++- ch.qos.logback:logback-classic:jar:1.2.3:test
+|  +- ch.qos.logback:logback-core:jar:1.2.3:test
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - scope updated from test; omitted for duplicate)
+\- org.log4s:log4s_2.10:jar:1.6.1:compile
+   +- (org.scala-lang:scala-library:jar:2.10.7:compile - omitted for duplicate)
+   \- org.slf4j:slf4j-api:jar:1.7.25:compile

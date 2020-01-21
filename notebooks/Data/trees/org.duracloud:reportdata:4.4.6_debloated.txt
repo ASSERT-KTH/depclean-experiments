@@ -1,0 +1,40 @@
+org.duracloud:reportdata:jar:4.4.6
++- org.duracloud:common-xml:jar:4.4.6:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.6:compile - omitted for duplicate)
+|  +- (ch.qos.logback:logback-classic:jar:1.1.2:compile - omitted for duplicate)
+|  +- (org.slf4j:jcl-over-slf4j:jar:1.7.6:runtime - omitted for duplicate)
+|  \- (org.slf4j:log4j-over-slf4j:jar:1.7.6:runtime - omitted for duplicate)
++- org.apache.commons:commons-lang3:jar:3.1:compile
++- org.duracloud.db:account-management-db-model:jar:4.1.1:compile
+|  +- org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final:compile
+|  +- org.springframework.security:spring-security-core:jar:4.0.4.RELEASE:compile
+|  |  +- aopalliance:aopalliance:jar:1.0:compile
+|  |  +- org.springframework:spring-aop:jar:4.2.5.RELEASE:compile
+|  |  |  +- (aopalliance:aopalliance:jar:1.0:compile - omitted for duplicate)
+|  |  |  \- (org.springframework:spring-core:jar:4.2.5.RELEASE:compile - omitted for duplicate)
+|  |  +- org.springframework:spring-beans:jar:4.2.5.RELEASE:compile
+|  |  |  \- (org.springframework:spring-core:jar:4.2.5.RELEASE:compile - omitted for duplicate)
+|  |  +- org.springframework:spring-context:jar:4.2.5.RELEASE:compile
+|  |  |  +- (org.springframework:spring-aop:jar:4.2.5.RELEASE:compile - omitted for duplicate)
+|  |  |  +- (org.springframework:spring-beans:jar:4.2.5.RELEASE:compile - omitted for duplicate)
+|  |  |  +- (org.springframework:spring-core:jar:4.2.5.RELEASE:compile - omitted for duplicate)
+|  |  |  \- (org.springframework:spring-expression:jar:4.2.5.RELEASE:compile - omitted for duplicate)
+|  |  +- org.springframework:spring-core:jar:4.2.5.RELEASE:compile
+|  |  \- org.springframework:spring-expression:jar:4.2.5.RELEASE:compile
+|  |     \- (org.springframework:spring-core:jar:4.2.5.RELEASE:compile - omitted for duplicate)
+|  +- (org.apache.commons:commons-lang3:jar:3.1:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.6:compile - omitted for duplicate)
+|  +- (ch.qos.logback:logback-classic:jar:1.1.2:compile - omitted for duplicate)
+|  +- (org.slf4j:jcl-over-slf4j:jar:1.7.6:runtime - omitted for duplicate)
+|  \- (org.slf4j:log4j-over-slf4j:jar:1.7.6:runtime - omitted for duplicate)
++- junit:junit:jar:4.10:test
+|  \- org.hamcrest:hamcrest-core:jar:1.1:test
++- org.easymock:easymock:jar:3.4:test
+|  \- org.objenesis:objenesis:jar:2.2:test
++- ch.qos.logback:logback-classic:jar:1.1.2:compile
+|  +- ch.qos.logback:logback-core:jar:1.1.2:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.6:compile - omitted for duplicate)
++- org.slf4j:jcl-over-slf4j:jar:1.7.6:runtime
+|  \- (org.slf4j:slf4j-api:jar:1.7.6:runtime - omitted for duplicate)
+\- org.slf4j:log4j-over-slf4j:jar:1.7.6:runtime
+   \- (org.slf4j:slf4j-api:jar:1.7.6:runtime - omitted for duplicate)

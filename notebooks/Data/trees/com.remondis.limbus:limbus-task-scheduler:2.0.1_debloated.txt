@@ -1,0 +1,29 @@
+com.remondis.limbus:limbus-task-scheduler:jar:2.0.1
++- com.remondis.limbus:limbus-engine-api:jar:2.0.1:compile
++- com.remondis.limbus:limbus-properties:jar:2.0.1:compile
+|  +- com.remondis.limbus:limbus-vfs:jar:2.0.1:compile
+|  |  +- (com.remondis.limbus:limbus-engine-api:jar:2.0.1:compile - omitted for duplicate)
+|  |  +- (com.remondis.limbus:limbus-utils:jar:2.0.1:compile - omitted for duplicate)
+|  |  \- commons-io:commons-io:jar:2.5:compile
+|  \- (com.remondis.limbus:limbus-utils:jar:2.0.1:compile - omitted for duplicate)
++- com.remondis.limbus:limbus-system:jar:2.0.1:compile
+|  +- (com.remondis.limbus:limbus-engine-api:jar:2.0.1:compile - omitted for duplicate)
+|  +- com.remondis.limbus:limbus-event-multicaster:jar:2.0.1:compile
+|  |  +- (com.remondis.limbus:limbus-utils:jar:2.0.1:compile - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.20:compile - omitted for duplicate)
+|  +- (com.remondis.limbus:limbus-utils:jar:2.0.1:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.20:compile - omitted for duplicate)
++- com.remondis.limbus:limbus-utils:jar:2.0.1:compile
+|  +- com.thoughtworks.xstream:xstream:jar:1.4.8:compile
+|  |  +- xmlpull:xmlpull:jar:1.1.3.1:compile
+|  |  \- xpp3:xpp3_min:jar:1.1.4c:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.20:compile - omitted for duplicate)
++- org.slf4j:slf4j-api:jar:1.7.20:compile
++- org.slf4j:slf4j-jdk14:jar:1.7.20:test
+|  \- (org.slf4j:slf4j-api:jar:1.7.20:test - omitted for duplicate)
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
+\- org.mockito:mockito-core:jar:2.7.17:test
+   +- net.bytebuddy:byte-buddy:jar:1.6.11:test
+   +- net.bytebuddy:byte-buddy-agent:jar:1.6.11:test
+   \- org.objenesis:objenesis:jar:2.5:test

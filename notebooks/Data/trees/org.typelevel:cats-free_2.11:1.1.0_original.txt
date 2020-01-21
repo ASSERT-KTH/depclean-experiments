@@ -1,0 +1,15 @@
+org.typelevel:cats-free_2.11:jar:1.1.0
++- org.scala-lang:scala-library:jar:2.11.12:compile
++- org.typelevel:cats-macros_2.11:jar:1.1.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  \- (org.typelevel:machinist_2.11:jar:0.6.2:compile - omitted for duplicate)
++- org.typelevel:cats-core_2.11:jar:1.1.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  +- (org.typelevel:cats-macros_2.11:jar:1.1.0:compile - omitted for duplicate)
+|  +- org.typelevel:cats-kernel_2.11:jar:1.1.0:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  \- (org.typelevel:machinist_2.11:jar:0.6.2:compile - omitted for duplicate)
+\- org.typelevel:machinist_2.11:jar:0.6.2:compile
+   +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.12)
+   \- org.scala-lang:scala-reflect:jar:2.11.8:compile
+      \- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.12)

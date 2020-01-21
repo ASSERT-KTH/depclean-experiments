@@ -1,0 +1,93 @@
+org.ow2.petals:petals-cli:jar:3.0.0
++- commons-cli:commons-cli:jar:1.3.1:compile
++- commons-io:commons-io:jar:2.4:compile
++- jline:jline:jar:2.6:compile
++- org.ops4j.pax.url:pax-url-aether:jar:2.4.7:runtime
+|  \- org.slf4j:jcl-over-slf4j:jar:1.7.21:runtime (version managed from 1.6.6)
+|     \- (org.slf4j:slf4j-api:jar:1.7.21:runtime - omitted for duplicate)
++- org.slf4j:slf4j-jdk14:jar:1.7.21:compile
+|  \- org.slf4j:slf4j-api:jar:1.7.21:compile
++- org.ow2.petals:petals-cli-api:jar:1.3.1:compile
+|  +- (commons-cli:commons-cli:jar:1.3.1:compile - omitted for duplicate)
+|  \- (jline:jline:jar:2.6:compile - omitted for duplicate)
++- org.ow2.petals:petals-cli-base:jar:1.0.2:compile
+|  +- (commons-cli:commons-cli:jar:1.3.1:compile - omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+|  +- org.apache.commons:commons-lang3:jar:3.4:compile
+|  +- (jline:jline:jar:2.6:compile - omitted for duplicate)
+|  +- (org.ow2.petals:petals-cli-api:jar:1.3.1:compile - omitted for duplicate)
+|  \- (org.ow2.easycommons:easycommons-lang:jar:1.4.1:compile - omitted for duplicate)
++- org.ow2.petals:petals-cli-base-junit:jar:2.0.0:test
+|  +- (org.ow2.petals:petals-cli-api:jar:1.3.1:test - omitted for duplicate)
+|  +- (junit:junit:jar:4.12:test - version managed from 4.11; omitted for duplicate)
+|  +- (com.jayway.awaitility:awaitility:jar:1.7.0:test - omitted for duplicate)
+|  +- (com.github.stefanbirkner:system-rules:jar:1.16.0:test - omitted for duplicate)
+|  +- org.hamcrest:hamcrest-core:jar:1.3:test
+|  +- (org.hamcrest:hamcrest-library:jar:1.3:test - omitted for duplicate)
+|  +- (jline:jline:jar:2.6:test - omitted for duplicate)
+|  \- (commons-cli:commons-cli:jar:1.3.1:test - omitted for duplicate)
++- org.ow2.petals:petals-admin-api:jar:2.0.0:compile
+|  +- (org.ow2.easycommons:easycommons-lang:jar:1.4.1:compile - omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+|  \- org.ow2.petals:petals-jbi-descriptor:jar:2.3.4:compile
+|     +- org.jvnet.jaxb2_commons:jaxb2-basics-runtime:jar:0.11.1:compile
+|     \- org.ow2.easycommons:easycommons-util:jar:2.4.0:compile
+|        +- xmlunit:xmlunit:jar:1.6:compile
+|        +- (org.ow2.easycommons:easycommons-lang:jar:1.4.1:compile - omitted for duplicate)
+|        \- org.ow2.easycommons:easycommons-stream:jar:1.3.0:compile
+|           +- org.ow2.easycommons:easycommons-io:jar:1.2.3:compile
+|           |  \- (org.ow2.easycommons:easycommons-lang:jar:1.4.1:compile - omitted for duplicate)
+|           \- (org.ow2.easycommons:easycommons-lang:jar:1.4.1:compile - omitted for duplicate)
++- org.ow2.petals:petals-jmx-api-api:jar:1.1.0:compile
+|  +- (org.ow2.easycommons:easycommons-lang:jar:1.4.1:compile - omitted for duplicate)
+|  +- org.ow2.petals:petals-jbi:jar:1.3.4:compile
+|  |  \- javax.activation:activation:jar:1.1.1:compile
+|  +- org.ow2.petals:petals-basis-api:jar:1.0.2:compile
+|  \- org.ow2.petals:petals-client-server-api:jar:1.0.3:compile
+|     +- (org.ow2.petals:petals-basis-api:jar:1.0.2:compile - omitted for duplicate)
+|     \- (org.ow2.petals:petals-jbi:jar:1.3.4:compile - omitted for duplicate)
++- org.ow2.petals:petals-admin-jmx:jar:2.0.0:runtime
+|  +- (org.ow2.petals:petals-basis-api:jar:1.0.2:runtime - omitted for duplicate)
+|  +- (org.ow2.petals:petals-client-server-api:jar:1.0.3:runtime - omitted for duplicate)
+|  +- (org.ow2.petals:petals-admin-api:jar:2.0.0:runtime - omitted for duplicate)
+|  +- (org.ow2.petals:petals-jmx-api-api:jar:1.1.0:runtime - omitted for duplicate)
+|  +- org.ow2.petals:petals-jmx-api-impl:jar:1.1.0:runtime
+|  |  +- (org.ow2.petals:petals-jmx-api-api:jar:1.1.0:runtime - omitted for duplicate)
+|  |  +- (org.ow2.petals:petals-jbi:jar:1.3.4:runtime - omitted for duplicate)
+|  |  +- (org.ow2.petals:petals-basis-api:jar:1.0.2:runtime - omitted for duplicate)
+|  |  +- (org.ow2.petals:petals-client-server-api:jar:1.0.3:runtime - omitted for duplicate)
+|  |  \- org.ow2.petals:petals-cdk-clientserver-api:jar:1.1.0:runtime
+|  |     \- (org.ow2.petals:petals-basis-api:jar:1.0.2:runtime - omitted for duplicate)
+|  +- (org.ow2.petals:petals-jbi-descriptor:jar:2.3.4:runtime - omitted for duplicate)
+|  +- (org.ow2.easycommons:easycommons-lang:jar:1.4.1:runtime - omitted for duplicate)
+|  +- org.apache.commons:commons-collections4:jar:4.1:runtime
+|  \- (commons-io:commons-io:jar:2.4:runtime - omitted for duplicate)
++- org.ow2.petals:petals-admin-mock:jar:2.0.0:test
+|  +- (junit:junit:jar:4.12:test - version managed from 4.11; omitted for duplicate)
+|  \- (org.ow2.petals:petals-admin-api:jar:2.0.0:test - omitted for duplicate)
++- com.jayway.awaitility:awaitility:jar:1.7.0:test
+|  +- (org.hamcrest:hamcrest-library:jar:1.3:test - omitted for duplicate)
+|  +- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for duplicate)
+|  +- cglib:cglib-nodep:jar:3.1:test
+|  \- org.objenesis:objenesis:jar:2.1:test
++- com.github.stefanbirkner:system-rules:jar:1.16.0:test
+|  \- (junit:junit:jar:4.12:test - version managed from 4.11; omitted for duplicate)
++- org.hamcrest:hamcrest-library:jar:1.3:test
+|  \- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for duplicate)
++- org.ow2.easycommons:easycommons-lang:jar:1.4.1:compile
++- org.ow2.easycommons:easycommons-uuid:jar:1.2.1:compile
+|  \- com.github.stephenc.eaio-uuid:uuid:jar:3.4.0:compile
+|     \- com.github.stephenc.eaio-grabbag:grabbag:jar:1.8.1:compile
++- org.eclipse.jetty:jetty-server:jar:8.1.14.v20131031:compile
+|  +- (org.eclipse.jetty.orbit:javax.servlet:jar:3.0.0.v201112011016:compile - omitted for duplicate)
+|  +- org.eclipse.jetty:jetty-continuation:jar:8.1.14.v20131031:compile
+|  \- org.eclipse.jetty:jetty-http:jar:8.1.14.v20131031:compile
+|     \- org.eclipse.jetty:jetty-io:jar:8.1.14.v20131031:compile
+|        \- (org.eclipse.jetty:jetty-util:jar:8.1.14.v20131031:compile - omitted for duplicate)
++- org.eclipse.jetty:jetty-servlet:jar:8.1.14.v20131031:compile
+|  \- org.eclipse.jetty:jetty-security:jar:8.1.14.v20131031:compile
+|     \- (org.eclipse.jetty:jetty-server:jar:8.1.14.v20131031:compile - omitted for duplicate)
++- org.eclipse.jetty:jetty-util:jar:8.1.14.v20131031:compile
++- org.eclipse.jetty.orbit:javax.servlet:jar:3.0.0.v201112011016:compile
+\- junit:junit:jar:4.12:test
+   \- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for duplicate)

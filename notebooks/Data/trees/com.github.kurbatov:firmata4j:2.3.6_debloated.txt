@@ -1,0 +1,8 @@
+com.github.kurbatov:firmata4j:jar:2.3.6
++- org.scream3r:jssc:jar:2.8.0:compile
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- org.testng:testng:jar:6.8.8:test
+|  +- org.beanshell:bsh:jar:2.0b4:test
+|  \- com.beust:jcommander:jar:1.27:test
+\- org.slf4j:slf4j-simple:jar:1.7.25:test
+   \- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)

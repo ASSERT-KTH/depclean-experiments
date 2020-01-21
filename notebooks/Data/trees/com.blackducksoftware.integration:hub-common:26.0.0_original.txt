@@ -1,0 +1,33 @@
+com.blackducksoftware.integration:hub-common:jar:26.0.0
++- com.blackducksoftware.integration:hub-common-rest:jar:5.0.0:compile
+|  +- com.blackducksoftware.integration:integration-common:jar:9.0.0:compile
+|  |  +- org.apache.commons:commons-lang3:jar:3.7:compile
+|  |  +- commons-io:commons-io:jar:2.6:compile
+|  |  +- commons-codec:commons-codec:jar:1.11:compile
+|  |  +- com.google.code.gson:gson:jar:2.8.2:compile
+|  |  \- org.slf4j:slf4j-api:jar:1.7.25:compile
+|  +- com.squareup.okhttp3:okhttp:jar:3.9.0:compile
+|  |  \- com.squareup.okio:okio:jar:1.13.0:compile
+|  \- com.squareup.okhttp3:okhttp-urlconnection:jar:3.9.0:compile
+|     \- (com.squareup.okhttp3:okhttp:jar:3.9.0:compile - omitted for duplicate)
++- com.blackducksoftware.integration:hub-common-response:jar:5.0.0:compile
+|  \- (com.blackducksoftware.integration:integration-common:jar:9.0.0:compile - omitted for duplicate)
++- com.blackducksoftware.integration:hub-common-reporting:jar:4.0.0:compile
+|  +- (com.blackducksoftware.integration:integration-common:jar:9.0.0:compile - omitted for duplicate)
+|  \- org.apache.pdfbox:pdfbox:jar:2.0.7:compile
+|     +- org.apache.pdfbox:fontbox:jar:2.0.7:compile
+|     |  \- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|     \- commons-logging:commons-logging:jar:1.2:compile
++- com.blackducksoftware.integration:integration-bdio:jar:12.0.0:compile
+|  \- (com.blackducksoftware.integration:integration-common:jar:9.0.0:compile - omitted for duplicate)
++- com.blackducksoftware.integration:phone-home-client:jar:0.5.0:compile
+|  +- (com.blackducksoftware.integration:hub-common-rest:jar:5.0.0:compile - omitted for duplicate)
+|  \- com.blackducksoftware.integration:phone-home-api:jar:6.0.0:compile
++- joda-time:joda-time:jar:2.9.6:compile
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.codehaus.groovy:groovy-all:jar:2.4.12:test
+\- org.mockito:mockito-core:jar:2.13.0:test
+   +- net.bytebuddy:byte-buddy:jar:1.7.9:test
+   +- net.bytebuddy:byte-buddy-agent:jar:1.7.9:test
+   \- org.objenesis:objenesis:jar:2.6:test

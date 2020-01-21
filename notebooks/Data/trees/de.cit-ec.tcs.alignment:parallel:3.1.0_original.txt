@@ -1,0 +1,4 @@
+de.cit-ec.tcs.alignment:parallel:jar:3.1.0
++- org.projectlombok:lombok:jar:1.16.8:compile
+\- junit:junit:jar:4.10:test
+   \- org.hamcrest:hamcrest-core:jar:1.1:test

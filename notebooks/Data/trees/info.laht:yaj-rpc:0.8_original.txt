@@ -1,0 +1,17 @@
+info.laht:yaj-rpc:jar:0.8
++- org.jetbrains.kotlin:kotlin-stdlib-jdk8:jar:1.2.51:compile
+|  +- org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.51:compile
+|  |  +- org.jetbrains.kotlin:kotlin-stdlib-common:jar:1.2.51:compile
+|  |  \- org.jetbrains:annotations:jar:13.0:compile
+|  \- org.jetbrains.kotlin:kotlin-stdlib-jdk7:jar:1.2.51:compile
+|     \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.51:compile - omitted for duplicate)
++- com.google.code.gson:gson:jar:2.8.5:compile
++- org.slf4j:slf4j-api:jar:1.7.25:runtime
++- org.junit.jupiter:junit-jupiter-api:jar:5.2.0:test
+|  +- org.apiguardian:apiguardian-api:jar:1.0.0:test
+|  +- org.opentest4j:opentest4j:jar:1.1.0:test
+|  \- org.junit.platform:junit-platform-commons:jar:1.2.0:test
+|     \- (org.apiguardian:apiguardian-api:jar:1.0.0:test - omitted for duplicate)
+\- org.junit.jupiter:junit-jupiter-params:jar:5.2.0:test
+   +- (org.apiguardian:apiguardian-api:jar:1.0.0:test - omitted for duplicate)
+   \- (org.junit.jupiter:junit-jupiter-api:jar:5.2.0:test - omitted for duplicate)

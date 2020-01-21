@@ -1,0 +1,80 @@
+org.apache.jclouds.api:rackspace-cloudfiles:bundle:2.1.0
++- org.apache.jclouds.api:openstack-swift:jar:2.1.0:compile
+|  +- (org.apache.jclouds.api:openstack-keystone:jar:2.1.0:compile - omitted for duplicate)
+|  +- org.apache.jclouds:jclouds-blobstore:jar:2.1.0:compile
+|  |  +- (org.apache.jclouds:jclouds-core:jar:2.1.0:compile - omitted for duplicate)
+|  |  \- (com.google.errorprone:error_prone_annotations:jar:2.1.0:compile - omitted for duplicate)
+|  \- (com.google.errorprone:error_prone_annotations:jar:2.1.0:compile - omitted for duplicate)
++- org.apache.jclouds.api:openstack-swift:test-jar:tests:2.1.0:test
+|  +- (org.apache.jclouds.api:openstack-keystone:jar:2.1.0:test - omitted for duplicate)
+|  +- (org.apache.jclouds:jclouds-blobstore:jar:2.1.0:test - omitted for duplicate)
+|  \- (com.google.errorprone:error_prone_annotations:jar:2.1.0:test - omitted for duplicate)
++- org.apache.jclouds.api:openstack-keystone:jar:2.1.0:compile
+|  +- (org.apache.jclouds:jclouds-core:jar:2.1.0:compile - omitted for duplicate)
+|  +- com.google.inject.extensions:guice-multibindings:jar:3.0:compile
+|  |  \- (com.google.inject:guice:jar:3.0:compile - omitted for duplicate)
+|  \- (com.google.errorprone:error_prone_annotations:jar:2.1.0:compile - omitted for duplicate)
++- org.apache.jclouds.api:openstack-keystone:test-jar:tests:2.1.0:test
+|  +- (org.apache.jclouds:jclouds-core:jar:2.1.0:test - omitted for duplicate)
+|  +- (com.google.inject.extensions:guice-multibindings:jar:3.0:test - omitted for duplicate)
+|  \- (com.google.errorprone:error_prone_annotations:jar:2.1.0:test - omitted for duplicate)
++- org.apache.jclouds.api:rackspace-cloudidentity:jar:2.1.0:compile
+|  +- (org.apache.jclouds.api:openstack-keystone:jar:2.1.0:compile - omitted for duplicate)
+|  \- (com.google.errorprone:error_prone_annotations:jar:2.1.0:compile - omitted for duplicate)
++- org.apache.jclouds:jclouds-core:jar:2.1.0:compile
+|  +- javax.ws.rs:javax.ws.rs-api:jar:2.0.1:compile
+|  +- com.google.inject.extensions:guice-assistedinject:jar:3.0:compile
+|  |  \- (com.google.inject:guice:jar:3.0:compile - omitted for duplicate)
+|  +- com.google.inject:guice:jar:3.0:compile
+|  |  +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  |  \- aopalliance:aopalliance:jar:1.0:compile
+|  +- javax.inject:javax.inject:jar:1:compile
+|  +- javax.annotation:jsr250-api:jar:1.0:compile
+|  +- com.google.code.gson:gson:jar:2.5:compile
+|  +- com.google.guava:guava:jar:18.0:compile
+|  \- (com.google.errorprone:error_prone_annotations:jar:2.1.0:compile - omitted for duplicate)
++- org.apache.jclouds:jclouds-core:test-jar:tests:2.1.0:test
+|  +- (javax.ws.rs:javax.ws.rs-api:jar:2.0.1:test - omitted for duplicate)
+|  +- (com.google.inject.extensions:guice-assistedinject:jar:3.0:test - omitted for duplicate)
+|  +- (com.google.inject:guice:jar:3.0:test - omitted for duplicate)
+|  +- (javax.inject:javax.inject:jar:1:test - omitted for duplicate)
+|  +- (javax.annotation:jsr250-api:jar:1.0:test - omitted for duplicate)
+|  +- (com.google.code.gson:gson:jar:2.5:test - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:18.0:test - omitted for duplicate)
+|  \- (com.google.errorprone:error_prone_annotations:jar:2.1.0:test - omitted for duplicate)
++- org.apache.jclouds:jclouds-blobstore:test-jar:tests:2.1.0:test
+|  +- (org.apache.jclouds:jclouds-core:jar:2.1.0:test - omitted for duplicate)
+|  \- (com.google.errorprone:error_prone_annotations:jar:2.1.0:test - omitted for duplicate)
++- org.jboss.shrinkwrap:shrinkwrap-depchain:pom:1.2.0:test
+|  +- org.jboss.shrinkwrap:shrinkwrap-api:jar:1.2.0:test
+|  +- org.jboss.shrinkwrap:shrinkwrap-spi:jar:1.2.0:test
+|  |  \- (org.jboss.shrinkwrap:shrinkwrap-api:jar:1.2.0:test - omitted for duplicate)
+|  \- org.jboss.shrinkwrap:shrinkwrap-impl-base:jar:1.2.0:test
+|     +- (org.jboss.shrinkwrap:shrinkwrap-api:jar:1.2.0:test - omitted for duplicate)
+|     \- (org.jboss.shrinkwrap:shrinkwrap-spi:jar:1.2.0:test - omitted for duplicate)
++- org.apache.jclouds.driver:jclouds-slf4j:jar:2.1.0:test
+|  +- (org.apache.jclouds:jclouds-core:jar:2.1.0:test - omitted for duplicate)
+|  +- org.slf4j:slf4j-api:jar:1.7.2:test
+|  \- (com.google.errorprone:error_prone_annotations:jar:2.1.0:test - omitted for duplicate)
++- ch.qos.logback:logback-classic:jar:1.1.2:test
+|  +- ch.qos.logback:logback-core:jar:1.1.2:test
+|  \- (org.slf4j:slf4j-api:jar:1.7.6:test - omitted for conflict with 1.7.2)
++- com.squareup.okhttp:mockwebserver:jar:2.2.0:test
+|  +- com.squareup.okhttp:okhttp:jar:2.2.0:test
+|  |  \- com.squareup.okio:okio:jar:1.2.0:test
+|  \- org.bouncycastle:bcprov-jdk15on:jar:1.50:test
++- com.google.auto.service:auto-service:jar:1.0-rc3:provided
+|  +- com.google.auto:auto-common:jar:0.3:provided
+|  |  \- (com.google.guava:guava:jar:18.0:provided - omitted for duplicate)
+|  \- (com.google.guava:guava:jar:18.0:provided - version managed from 19.0; omitted for duplicate)
++- com.google.code.findbugs:jsr305:jar:1.3.9:provided
++- org.testng:testng:jar:6.8.21:test
+|  +- org.beanshell:bsh:jar:2.0b4:test
+|  \- com.beust:jcommander:jar:1.27:test
++- org.easymock:easymock:jar:3.4:test
+|  \- org.objenesis:objenesis:jar:2.2:test
++- xmlunit:xmlunit:jar:1.3:test
++- org.assertj:assertj-core:jar:1.7.0:test
+\- org.assertj:assertj-guava:jar:1.3.0:test
+   +- (com.google.guava:guava:jar:18.0:test - omitted for duplicate)
+   \- (org.assertj:assertj-core:jar:1.7.0:test - omitted for duplicate)

@@ -1,0 +1,17 @@
+org.bidib.eu.ondryaso:ssd1306-core:jar:1.0
++- org.bidib.com.pi4j:pi4j-core:jar:1.2.M1:compile
++- org.bidib.com.pi4j:pi4j-device:jar:1.2.M1:compile
+|  +- (org.bidib.com.pi4j:pi4j-core:jar:1.2.M1:compile - omitted for duplicate)
+|  \- (org.bidib.com.pi4j:pi4j-gpio-extension:jar:1.2.M1:compile - omitted for duplicate)
++- org.bidib.com.pi4j:pi4j-gpio-extension:jar:1.2.M1:compile
+|  \- (org.bidib.com.pi4j:pi4j-core:jar:1.2.M1:compile - omitted for duplicate)
++- ch.qos.logback:logback-classic:jar:1.2.3:test
+|  +- ch.qos.logback:logback-core:jar:1.2.3:test
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)
++- org.mockito:mockito-core:jar:2.12.0:test
+|  +- net.bytebuddy:byte-buddy:jar:1.7.9:test
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.7.9:test
+|  \- org.objenesis:objenesis:jar:2.6:test
+\- org.testng:testng:jar:6.14.2:test
+   +- com.beust:jcommander:jar:1.72:test
+   \- org.apache-extras.beanshell:bsh:jar:2.0b6:test

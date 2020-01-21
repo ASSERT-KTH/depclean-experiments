@@ -1,0 +1,2 @@
+org.webjars.npm:focus-trap:jar:2.4.6
+\- org.webjars.npm:tabbable:jar:1.1.3:compile

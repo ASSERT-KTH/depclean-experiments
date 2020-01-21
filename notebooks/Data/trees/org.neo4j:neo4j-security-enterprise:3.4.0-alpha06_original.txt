@@ -1,0 +1,189 @@
+org.neo4j:neo4j-security-enterprise:jar:3.4.0-alpha06
++- org.neo4j:neo4j-kernel:jar:3.4.0-alpha06:compile
+|  +- org.neo4j:neo4j-graphdb-api:jar:3.4.0-alpha06:compile
+|  |  \- org.neo4j:neo4j-resource:jar:3.4.0-alpha06:compile
+|  +- org.neo4j:neo4j-kernel-api:jar:3.4.0-alpha06:compile
+|  +- org.neo4j:neo4j-common:jar:3.4.0-alpha06:compile
+|  +- org.neo4j:neo4j-values:jar:3.4.0-alpha06:compile
+|  +- org.neo4j:neo4j-collections:jar:3.4.0-alpha06:compile
+|  +- org.neo4j:neo4j-primitive-collections:jar:3.4.0-alpha06:compile
+|  +- org.neo4j:neo4j-io:jar:3.4.0-alpha06:compile
+|  +- org.neo4j:neo4j-csv:jar:3.4.0-alpha06:compile
+|  +- org.neo4j:neo4j-logging:jar:3.4.0-alpha06:compile
+|  +- org.neo4j:neo4j-lucene-upgrade:jar:3.4.0-alpha06:compile
+|  |  +- org.apache.lucene:lucene-core:jar:5.5.5:compile
+|  |  \- org.apache.lucene:lucene-backward-codecs:jar:5.5.0:compile
+|  +- org.neo4j:neo4j-configuration:jar:3.4.0-alpha06:compile
+|  +- org.neo4j:neo4j-index:jar:3.4.0-alpha06:compile
+|  \- org.neo4j:neo4j-ssl:jar:3.4.0-alpha06:compile
++- org.neo4j:neo4j-enterprise-kernel:jar:3.4.0-alpha06:compile
++- org.neo4j:neo4j-security:jar:3.4.0-alpha06:compile
+|  \- org.neo4j:neo4j-command-line:jar:3.4.0-alpha06:compile
+|     \- org.apache.commons:commons-text:jar:1.1:compile
++- org.neo4j:neo4j-auth-plugin-api:jar:3.4.0-alpha06:compile
++- org.neo4j:neo4j-dbms:jar:3.4.0-alpha06:compile
+|  +- org.neo4j:neo4j-import-tool:jar:3.4.0-alpha06:compile
+|  +- org.neo4j:neo4j-jmx:jar:3.4.0-alpha06:compile
+|  +- org.jprocesses:jProcesses:jar:1.6.4:compile
+|  |  \- com.profesorfalken:WMI4Java:jar:1.6.1:compile
+|  |     \- com.profesorfalken:jPowerShell:jar:1.9:compile
+|  \- org.apache.commons:commons-compress:jar:1.15:compile
++- org.apache.shiro:shiro-core:jar:1.4.0:compile
+|  +- org.apache.shiro:shiro-lang:jar:1.4.0:compile
+|  +- org.apache.shiro:shiro-cache:jar:1.4.0:compile
+|  +- org.apache.shiro:shiro-crypto-hash:jar:1.4.0:compile
+|  |  \- org.apache.shiro:shiro-crypto-core:jar:1.4.0:compile
+|  +- org.apache.shiro:shiro-crypto-cipher:jar:1.4.0:compile
+|  +- org.apache.shiro:shiro-config-core:jar:1.4.0:compile
+|  +- org.apache.shiro:shiro-config-ogdl:jar:1.4.0:compile
+|  |  \- commons-beanutils:commons-beanutils:jar:1.9.3:compile
+|  \- org.apache.shiro:shiro-event:jar:1.4.0:compile
++- com.github.ben-manes.caffeine:caffeine:jar:2.6.1:compile
++- org.slf4j:slf4j-nop:jar:1.7.25:compile
+|  \- org.slf4j:slf4j-api:jar:1.7.25:compile
++- org.neo4j:neo4j-common:test-jar:tests:3.4.0-alpha06:test
++- org.neo4j:neo4j-security:test-jar:tests:3.4.0-alpha06:test
++- org.neo4j:neo4j-kernel:test-jar:tests:3.4.0-alpha06:test
++- org.neo4j:neo4j-enterprise-kernel:test-jar:tests:3.4.0-alpha06:test
++- org.neo4j:neo4j-io:test-jar:tests:3.4.0-alpha06:test
+|  \- org.neo4j:neo4j-unsafe:jar:3.4.0-alpha06:compile
++- org.neo4j:neo4j-cypher:jar:3.4.0-alpha06:test
+|  +- org.scala-lang:scala-library:jar:2.11.12:test
+|  +- org.scala-lang:scala-reflect:jar:2.11.12:test
+|  +- org.neo4j:neo4j-lucene-index:jar:3.4.0-alpha06:compile
+|  |  +- org.apache.lucene:lucene-analyzers-common:jar:5.5.5:compile
+|  |  +- org.apache.lucene:lucene-queryparser:jar:5.5.5:compile
+|  |  \- org.apache.lucene:lucene-codecs:jar:5.5.5:compile
+|  +- org.neo4j:neo4j-graph-matching:jar:3.1.6:test
+|  +- org.neo4j:neo4j-graph-algo:jar:3.4.0-alpha06:test
+|  +- org.neo4j:neo4j-codegen:jar:3.4.0-alpha06:test
+|  |  +- org.ow2.asm:asm:jar:6.0:test
+|  |  +- org.ow2.asm:asm-util:jar:6.0:test
+|  |  +- org.ow2.asm:asm-analysis:jar:6.0:test
+|  |  \- org.ow2.asm:asm-tree:jar:6.0:test
+|  +- org.neo4j:neo4j-cypher-compiler-2.3:jar:2.3.12:test
+|  |  +- org.neo4j:neo4j-cypher-frontend-2.3:jar:2.3.12:test
+|  |  \- com.googlecode.concurrentlinkedhashmap:concurrentlinkedhashmap-lru:jar:1.4.2:test
+|  +- org.neo4j:neo4j-cypher-compiler-3.1:jar:3.1.6:test
+|  |  \- org.neo4j:neo4j-cypher-frontend-3.1:jar:3.1.6:test
+|  +- org.neo4j:neo4j-cypher-compiler-3.3:jar:3.3.1:test
+|  |  +- org.neo4j:neo4j-cypher-frontend-3.3:jar:3.3.1:test
+|  |  +- org.neo4j:neo4j-cypher-ir-3.3:jar:3.3.1:test
+|  |  \- org.neo4j:neo4j-cypher-logical-plans-3.3:jar:3.3.1:test
+|  +- org.neo4j:neo4j-cypher-util-3.4:jar:3.4.0-alpha06:test
+|  +- org.neo4j:neo4j-cypher-planner-3.4:jar:3.4.0-alpha06:test
+|  |  +- org.neo4j:neo4j-cypher-frontend-3.4:jar:3.4.0-alpha06:test
+|  |  |  \- org.neo4j:neo4j-cypher-expression-3.4:jar:3.4.0-alpha06:test
+|  |  +- org.neo4j:neo4j-cypher-ir-3.4:jar:3.4.0-alpha06:test
+|  |  \- org.neo4j:neo4j-cypher-logical-plans-3.4:jar:3.4.0-alpha06:test
+|  +- org.neo4j:neo4j-cypher-planner-spi-3.4:jar:3.4.0-alpha06:test
+|  +- org.neo4j:neo4j-cypher-runtime-util:jar:3.4.0-alpha06:test
+|  +- org.neo4j:neo4j-cypher-interpreted-runtime:jar:3.4.0-alpha06:test
+|  +- org.parboiled:parboiled-scala_2.11:jar:1.1.7:test
+|  |  \- org.parboiled:parboiled-core:jar:1.1.7:test
+|  \- net.sf.opencsv:opencsv:jar:2.3:test
++- org.neo4j:neo4j-logging:test-jar:tests:3.4.0-alpha06:test
++- org.neo4j:neo4j-bolt:jar:3.4.0-alpha06:test
+|  +- org.neo4j:neo4j:jar:3.4.0-alpha06:test
+|  |  +- org.neo4j:neo4j-udc:jar:3.4.0-alpha06:test
+|  |  \- org.neo4j:neo4j-consistency-check:jar:3.4.0-alpha06:test
+|  +- io.netty:netty-all:jar:4.1.17.Final:compile
+|  +- org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:test
+|  |  \- org.codehaus.jackson:jackson-core-asl:jar:1.9.13:test
+|  \- org.bouncycastle:bcpkix-jdk15on:jar:1.59:compile
+|     \- org.bouncycastle:bcprov-jdk15on:jar:1.59:compile
++- org.neo4j:neo4j-bolt:test-jar:tests:3.4.0-alpha06:test
++- junit:junit:jar:4.12:test
++- commons-codec:commons-codec:jar:1.11:test
++- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.hamcrest:hamcrest-library:jar:1.3:test
++- org.mockito:mockito-core:jar:2.13.0:test
+|  +- net.bytebuddy:byte-buddy:jar:1.7.9:test
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.7.9:test
+|  \- org.objenesis:objenesis:jar:2.6:compile
++- org.apache.directory.server:apacheds-server-integ:jar:2.0.0-M21:test
+|  +- org.apache.directory.server:apacheds-core:jar:2.0.0-M21:test
+|  |  +- org.apache.directory.server:apacheds-i18n:jar:2.0.0-M21:test
+|  |  +- org.apache.directory.server:apacheds-interceptors-admin:jar:2.0.0-M21:test
+|  |  +- org.apache.directory.server:apacheds-interceptors-authn:jar:2.0.0-M21:test
+|  |  +- org.apache.directory.server:apacheds-interceptors-number:jar:2.0.0-M21:test
+|  |  +- org.apache.directory.server:apacheds-interceptors-authz:jar:2.0.0-M21:test
+|  |  +- org.apache.directory.server:apacheds-interceptors-changelog:jar:2.0.0-M21:test
+|  |  +- org.apache.directory.server:apacheds-interceptors-collective:jar:2.0.0-M21:test
+|  |  +- org.apache.directory.server:apacheds-interceptors-event:jar:2.0.0-M21:test
+|  |  +- org.apache.directory.server:apacheds-interceptors-exception:jar:2.0.0-M21:test
+|  |  +- org.apache.directory.server:apacheds-interceptors-journal:jar:2.0.0-M21:test
+|  |  +- org.apache.directory.server:apacheds-interceptors-normalization:jar:2.0.0-M21:test
+|  |  +- org.apache.directory.server:apacheds-interceptors-operational:jar:2.0.0-M21:test
+|  |  +- org.apache.directory.server:apacheds-interceptors-referral:jar:2.0.0-M21:test
+|  |  +- org.apache.directory.server:apacheds-interceptors-schema:jar:2.0.0-M21:test
+|  |  +- org.apache.directory.server:apacheds-interceptors-subtree:jar:2.0.0-M21:test
+|  |  +- org.apache.directory.server:apacheds-interceptors-trigger:jar:2.0.0-M21:test
+|  |  |  \- org.apache.directory.api:api-ldap-extras-trigger:jar:1.0.0-M33:test
+|  |  +- commons-lang:commons-lang:jar:2.6:test
+|  |  +- org.apache.directory.api:api-ldap-extras-util:jar:1.0.0-M33:test
+|  |  \- org.apache.directory.api:api-ldap-schema-data:jar:1.0.0-M33:test
+|  +- org.apache.directory.server:apacheds-core-annotations:jar:2.0.0-M21:test
+|  |  +- org.apache.directory.server:apacheds-ldif-partition:jar:2.0.0-M21:test
+|  |  +- org.apache.directory.server:apacheds-jdbm-partition:jar:2.0.0-M21:test
+|  |  |  \- org.apache.directory.server:apacheds-core-avl:jar:2.0.0-M21:test
+|  |  +- org.apache.directory.server:apacheds-xdbm-partition:jar:2.0.0-M21:test
+|  |  +- org.apache.directory.mavibot:mavibot:jar:1.0.0-M8:test
+|  |  +- org.apache.directory.server:apacheds-mavibot-partition:jar:2.0.0-M21:test
+|  |  \- commons-io:commons-io:jar:2.6:test
+|  +- org.apache.directory.server:apacheds-core-api:jar:2.0.0-M21:test
+|  |  +- org.apache.directory.server:apacheds-core-constants:jar:2.0.0-M21:test
+|  |  +- org.apache.directory.api:api-i18n:jar:1.0.0-M33:test
+|  |  +- org.apache.directory.api:api-ldap-extras-aci:jar:1.0.0-M33:test
+|  |  \- net.sf.ehcache:ehcache:jar:2.8.5:test
+|  +- org.apache.directory.server:apacheds-core-shared:jar:2.0.0-M21:test
+|  |  +- org.apache.directory.api:api-ldap-extras-codec-api:jar:1.0.0-M33:test
+|  |  \- org.apache.directory.jdbm:apacheds-jdbm1:jar:2.0.0-M3:test
+|  +- org.apache.directory.server:apacheds-core-integ:jar:2.0.0-M21:test
+|  |  \- org.apache.directory.server:apacheds-interceptors-hash:jar:2.0.0-M21:test
+|  |     \- org.apache.directory.server:apacheds-server-config:jar:2.0.0-M21:test
+|  +- org.apache.directory.server:apacheds-core-jndi:jar:2.0.0-M21:test
+|  +- org.apache.directory.server:apacheds-kerberos-codec:jar:2.0.0-M21:test
+|  |  \- org.apache.directory.api:api-asn1-ber:jar:1.0.0-M33:test
+|  +- org.apache.directory.server:apacheds-interceptor-kerberos:jar:2.0.0-M21:test
+|  +- org.apache.directory.server:apacheds-protocol-ldap:jar:2.0.0-M21:test
+|  |  \- org.apache.directory.server:apacheds-protocol-shared:jar:2.0.0-M21:test
+|  +- org.apache.directory.server:apacheds-server-annotations:jar:2.0.0-M21:test
+|  |  \- org.apache.directory.server:apacheds-protocol-kerberos:jar:2.0.0-M21:test
+|  +- org.apache.directory.server:apacheds-test-framework:jar:2.0.0-M21:test
+|  |  \- org.apache.directory.api:api-ldap-codec-standalone:jar:1.0.0-M33:test
+|  |     \- org.apache.directory.api:api-ldap-net-mina:jar:1.0.0-M33:test
+|  +- ldapsdk:ldapsdk:jar:4.1:test
+|  +- log4j:log4j:jar:1.2.17:test
+|  +- org.apache.directory.api:api-asn1-api:jar:1.0.0-M33:test
+|  +- org.apache.directory.api:api-ldap-extras-sp:jar:1.0.0-M33:test
+|  +- org.apache.directory.api:api-ldap-codec-core:jar:1.0.0-M33:test
+|  |  \- commons-collections:commons-collections:jar:3.2.2:compile
+|  +- org.apache.directory.api:api-ldap-extras-codec:jar:1.0.0-M33:test
+|  +- org.apache.directory.api:api-ldap-model:jar:1.0.0-M33:test
+|  |  \- org.apache.servicemix.bundles:org.apache.servicemix.bundles.antlr:jar:2.7.7_5:test
+|  +- org.apache.directory.api:api-util:jar:1.0.0-M33:test
+|  +- org.apache.mina:mina-core:jar:2.0.10:test
+|  +- org.apache.directory.api:api-ldap-client-api:jar:1.0.0-M33:test
+|  |  \- commons-pool:commons-pool:jar:1.6:test
+|  \- org.apache.directory.api:api-dsml-engine:jar:1.0.0-M33:test
+|     +- org.apache.directory.api:api-dsml-parser:jar:1.0.0-M33:test
+|     +- org.apache.servicemix.bundles:org.apache.servicemix.bundles.xpp3:jar:1.1.4c_6:test
+|     \- org.apache.servicemix.bundles:org.apache.servicemix.bundles.dom4j:jar:1.6.1_5:test
+|        \- xml-apis:xml-apis:jar:1.0.b2:test
++- org.apache.commons:commons-lang3:jar:3.7:test
++- org.eclipse.jetty.websocket:websocket-client:jar:9.2.22.v20170606:test
+|  +- org.eclipse.jetty:jetty-util:jar:9.2.22.v20170606:test
+|  +- org.eclipse.jetty:jetty-io:jar:9.2.22.v20170606:test
+|  \- org.eclipse.jetty.websocket:websocket-common:jar:9.2.22.v20170606:test
+|     \- org.eclipse.jetty.websocket:websocket-api:jar:9.2.22.v20170606:test
++- org.eclipse.jetty:jetty-server:jar:9.2.22.v20170606:test
+|  +- javax.servlet:javax.servlet-api:jar:3.1.0:test
+|  \- org.eclipse.jetty:jetty-http:jar:9.2.22.v20170606:test
+\- com.google.guava:guava-testlib:jar:23.6-jre:test
+   +- com.google.code.findbugs:jsr305:jar:1.3.9:test
+   +- org.checkerframework:checker-compat-qual:jar:2.0.0:test
+   +- com.google.errorprone:error_prone_annotations:jar:2.1.3:test
+   +- com.google.j2objc:j2objc-annotations:jar:1.1:test
+   \- com.google.guava:guava:jar:23.6-jre:test
+      \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:test

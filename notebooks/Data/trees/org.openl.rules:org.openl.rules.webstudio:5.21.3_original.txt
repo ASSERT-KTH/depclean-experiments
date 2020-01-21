@@ -1,0 +1,392 @@
+org.openl.rules:org.openl.rules.webstudio:war:5.21.3
++- org.openl.rules:org.openl.rules.tableeditor:jar:5.21.3:compile
+|  +- org.openl:org.openl.core:jar:5.21.3:compile
+|  |  +- (org.openl:org.openl.commons:jar:5.21.3:compile - omitted for duplicate)
+|  |  +- org.openl:org.openl.rules.util:jar:5.21.3:compile
+|  |  +- org.openl.rules:org.openl.rules.constrainer:jar:5.21.3:compile
+|  |  |  \- (org.openl:org.openl.commons:jar:5.21.3:compile - omitted for duplicate)
+|  |  +- org.apache.commons:commons-collections4:jar:4.1:compile
+|  |  \- (org.apache.commons:commons-lang3:jar:3.7:compile - omitted for duplicate)
+|  +- org.openl.rules:org.openl.rules:jar:5.21.3:compile
+|  |  +- (org.openl:org.openl.commons:jar:5.21.3:compile - omitted for duplicate)
+|  |  +- (org.openl:org.openl.core:jar:5.21.3:compile - omitted for duplicate)
+|  |  +- (org.openl.rules:org.openl.rules.constrainer:jar:5.21.3:compile - omitted for duplicate)
+|  |  +- org.openl:org.openl.j:jar:5.21.3:compile
+|  |  |  +- (org.openl:org.openl.core:jar:5.21.3:compile - omitted for duplicate)
+|  |  |  +- (org.openl:org.openl.commons:jar:5.21.3:compile - omitted for duplicate)
+|  |  |  +- org.openl:org.openl.grammars:jar:5.21.3:compile
+|  |  |  |  \- (org.openl:org.openl.core:jar:5.21.3:compile - omitted for duplicate)
+|  |  |  \- (org.apache.commons:commons-lang3:jar:3.7:compile - omitted for duplicate)
+|  |  +- org.apache.poi:poi-ooxml:jar:3.17:compile
+|  |  |  +- org.apache.poi:poi:jar:3.17:compile
+|  |  |  |  +- (commons-codec:commons-codec:jar:1.11:compile - version managed from 1.7; omitted for duplicate)
+|  |  |  |  \- (org.apache.commons:commons-collections4:jar:4.1:compile - omitted for duplicate)
+|  |  |  +- org.apache.poi:poi-ooxml-schemas:jar:3.17:compile
+|  |  |  |  \- (org.apache.xmlbeans:xmlbeans:jar:2.6.0:compile - version managed from 2.3.0; omitted for duplicate)
+|  |  |  \- com.github.virtuald:curvesapi:jar:1.04:compile
+|  |  +- (org.apache.commons:commons-lang3:jar:3.7:compile - omitted for duplicate)
+|  |  +- org.ow2.asm:asm:jar:4.2:compile
+|  |  +- org.ow2.asm:asm-commons:jar:4.2:compile
+|  |  |  \- org.ow2.asm:asm-tree:jar:4.2:compile
+|  |  |     \- (org.ow2.asm:asm:jar:4.2:compile - omitted for duplicate)
+|  |  \- uk.com.robust-it:cloning:jar:1.9.0:compile
+|  |     \- org.objenesis:objenesis:jar:1.2:compile
+|  +- org.openl:org.openl.commons.web:jar:5.21.3:compile
+|  |  +- (org.openl:org.openl.commons:jar:5.21.3:compile - omitted for duplicate)
+|  |  +- org.glassfish:javax.faces:jar:2.1.19:compile
+|  |  +- commons-beanutils:commons-beanutils:jar:1.9.3:compile
+|  |  |  \- (commons-collections:commons-collections:jar:3.2.2:compile - version managed from 3.2.1; omitted for duplicate)
+|  |  +- (com.sdicons.jsontools:jsontools-core:jar:1.7:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-core:jar:4.3.12.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|  |  +- (org.springframework:spring-beans:jar:4.3.12.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|  |  +- (org.springframework:spring-context:jar:4.3.12.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|  |  +- (org.springframework:spring-web:jar:4.3.12.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|  |  +- (org.springframework.security:spring-security-core:jar:4.2.3.RELEASE:compile - omitted for duplicate)
+|  |  \- (org.springframework.security:spring-security-web:jar:4.2.3.RELEASE:compile - version managed from 3.1.2.RELEASE; omitted for duplicate)
+|  \- com.sdicons.jsontools:jsontools-core:jar:1.7:compile
+|     \- antlr:antlr:jar:2.7.7:compile
++- org.openl.rules:org.openl.security.standalone:jar:5.21.3:compile
+|  +- org.openl:org.openl.commons:jar:5.21.3:compile
+|  |  +- (org.apache.commons:commons-lang3:jar:3.7:compile - omitted for duplicate)
+|  |  \- org.slf4j:slf4j-api:jar:1.7.25:compile
+|  +- org.openl.rules:org.openl.security:jar:5.21.3:compile
+|  |  \- (org.springframework.security:spring-security-core:jar:4.2.3.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-core:jar:4.3.12.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|  +- (org.springframework:spring-beans:jar:4.3.12.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|  +- org.springframework:spring-tx:jar:4.3.12.RELEASE:compile
+|  |  +- (org.springframework:spring-beans:jar:4.3.12.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|  |  \- (org.springframework:spring-core:jar:4.3.12.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|  +- org.springframework:spring-orm:jar:4.3.12.RELEASE:compile
+|  |  +- (org.springframework:spring-beans:jar:4.3.12.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|  |  +- (org.springframework:spring-core:jar:4.3.12.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|  |  +- org.springframework:spring-jdbc:jar:4.3.12.RELEASE:compile
+|  |  |  +- (org.springframework:spring-beans:jar:4.3.12.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|  |  |  +- (org.springframework:spring-core:jar:4.3.12.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|  |  |  \- (org.springframework:spring-tx:jar:4.3.12.RELEASE:compile - omitted for duplicate)
+|  |  \- (org.springframework:spring-tx:jar:4.3.12.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework.security:spring-security-core:jar:4.2.3.RELEASE:compile
+|  |  +- (org.springframework:spring-aop:jar:4.3.12.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|  |  +- (org.springframework:spring-beans:jar:4.3.12.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|  |  +- (org.springframework:spring-context:jar:4.3.12.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|  |  +- (org.springframework:spring-core:jar:4.3.12.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|  |  \- (org.springframework:spring-expression:jar:4.3.12.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|  +- org.hibernate:hibernate-core:jar:4.3.11.Final:compile
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.1.3.GA:compile - omitted for duplicate)
+|  |  +- (org.jboss.logging:jboss-logging-annotations:jar:1.2.0.Beta1:compile - omitted for duplicate)
+|  |  +- org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.0.0.Final:compile
+|  |  +- dom4j:dom4j:jar:1.6.1:compile
+|  |  +- org.hibernate.common:hibernate-commons-annotations:jar:4.0.5.Final:compile
+|  |  |  +- (org.jboss.logging:jboss-logging:jar:3.1.3.GA:compile - omitted for duplicate)
+|  |  |  \- (org.jboss.logging:jboss-logging-annotations:jar:1.2.0.Beta1:compile - omitted for duplicate)
+|  |  +- org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final:compile
+|  |  +- org.javassist:javassist:jar:3.18.2-GA:compile (version managed from 3.18.1-GA)
+|  |  +- (antlr:antlr:jar:2.7.7:compile - omitted for duplicate)
+|  |  \- org.jboss:jandex:jar:1.1.0.Final:compile
+|  +- com.zaxxer:HikariCP-java7:jar:2.4.13:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.21; omitted for duplicate)
+|  \- org.flywaydb:flyway-core:jar:4.2.0:compile
++- org.openl.rules:org.openl.security.saml:jar:5.21.3:compile
+|  +- (org.openl:org.openl.commons:jar:5.21.3:compile - omitted for duplicate)
+|  +- (org.openl.rules:org.openl.security:jar:5.21.3:compile - omitted for duplicate)
+|  \- org.springframework.security.extensions:spring-security-saml2-core:jar:1.0.2.RELEASE:compile
+|     +- org.opensaml:opensaml:jar:2.6.1:compile
+|     |  +- org.opensaml:openws:jar:1.5.1:compile
+|     |  |  +- org.opensaml:xmltooling:jar:1.4.1:compile
+|     |  |  |  +- org.bouncycastle:bcprov-jdk15:jar:1.46:compile
+|     |  |  |  +- (commons-codec:commons-codec:jar:1.11:compile - version managed from 1.7; omitted for duplicate)
+|     |  |  |  +- (joda-time:joda-time:jar:2.3:compile - version managed from 2.2; omitted for duplicate)
+|     |  |  |  +- ca.juliusdavies:not-yet-commons-ssl:jar:0.3.9:compile
+|     |  |  |  |  \- (commons-httpclient:commons-httpclient:jar:3.0:compile - omitted for conflict with 3.1)
+|     |  |  |  +- (org.apache.santuario:xmlsec:jar:1.5.6:compile - omitted for duplicate)
+|     |  |  |  +- (xerces:xercesImpl:jar:2.10.0:runtime - omitted for duplicate)
+|     |  |  |  +- (xalan:serializer:jar:2.7.1:runtime - omitted for duplicate)
+|     |  |  |  +- (xml-resolver:xml-resolver:jar:1.2:runtime - omitted for duplicate)
+|     |  |  |  \- (xalan:xalan:jar:2.7.1:runtime - omitted for duplicate)
+|     |  |  +- (commons-codec:commons-codec:jar:1.11:compile - version managed from 1.7; omitted for duplicate)
+|     |  |  +- (commons-httpclient:commons-httpclient:jar:3.1:compile - omitted for duplicate)
+|     |  |  +- (joda-time:joda-time:jar:2.3:compile - version managed from 2.2; omitted for duplicate)
+|     |  |  +- org.apache.santuario:xmlsec:jar:1.5.6:compile
+|     |  |  +- (xerces:xercesImpl:jar:2.10.0:runtime - omitted for duplicate)
+|     |  |  +- (xalan:serializer:jar:2.7.1:runtime - omitted for duplicate)
+|     |  |  +- (xml-resolver:xml-resolver:jar:1.2:runtime - omitted for duplicate)
+|     |  |  \- (xalan:xalan:jar:2.7.1:runtime - omitted for duplicate)
+|     |  +- (commons-codec:commons-codec:jar:1.11:compile - version managed from 1.9; omitted for duplicate)
+|     |  +- (commons-collections:commons-collections:jar:3.2.2:compile - version managed from 3.2.1; omitted for duplicate)
+|     |  +- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+|     |  +- org.apache.velocity:velocity:jar:1.7:compile
+|     |  |  \- (commons-collections:commons-collections:jar:3.2.2:compile - version managed from 3.2.1; omitted for duplicate)
+|     |  +- org.owasp.esapi:esapi:jar:2.0.1:compile
+|     |  +- (joda-time:joda-time:jar:2.3:compile - version managed from 1.6.2; omitted for duplicate)
+|     |  +- xerces:xercesImpl:jar:2.10.0:runtime
+|     |  +- xalan:serializer:jar:2.7.1:runtime
+|     |  +- xml-resolver:xml-resolver:jar:1.2:runtime
+|     |  \- xalan:xalan:jar:2.7.1:runtime
+|     |     \- (xalan:serializer:jar:2.7.1:runtime - omitted for duplicate)
+|     +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.6.3; omitted for duplicate)
+|     +- org.springframework.security:spring-security-config:jar:4.2.3.RELEASE:compile (version managed from 3.1.2.RELEASE)
+|     |  +- (org.springframework.security:spring-security-core:jar:4.2.3.RELEASE:compile - omitted for duplicate)
+|     |  +- (org.springframework:spring-aop:jar:4.3.12.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|     |  +- (org.springframework:spring-beans:jar:4.3.12.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|     |  +- (org.springframework:spring-context:jar:4.3.12.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|     |  \- (org.springframework:spring-core:jar:4.3.12.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|     +- (org.springframework.security:spring-security-core:jar:4.2.3.RELEASE:compile - version managed from 3.1.2.RELEASE; omitted for duplicate)
+|     +- (org.springframework.security:spring-security-web:jar:4.2.3.RELEASE:compile - version managed from 3.1.2.RELEASE; omitted for duplicate)
+|     \- xml-apis:xml-apis:jar:1.4.01:runtime
++- org.openl.rules:org.openl.security.cas:jar:5.21.3:compile
+|  +- (org.openl:org.openl.commons:jar:5.21.3:compile - omitted for duplicate)
+|  +- (org.openl.rules:org.openl.security:jar:5.21.3:compile - omitted for duplicate)
+|  \- org.springframework.security:spring-security-cas:jar:4.2.3.RELEASE:compile
+|     +- org.jasig.cas.client:cas-client-core:jar:3.4.1:compile
+|     |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.1; omitted for duplicate)
+|     +- (org.springframework.security:spring-security-core:jar:4.2.3.RELEASE:compile - version managed from 3.1.2.RELEASE; omitted for duplicate)
+|     +- (org.springframework.security:spring-security-web:jar:4.2.3.RELEASE:compile - version managed from 3.1.2.RELEASE; omitted for duplicate)
+|     +- (org.springframework:spring-beans:jar:4.3.12.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|     +- (org.springframework:spring-context:jar:4.3.12.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|     +- (org.springframework:spring-core:jar:4.3.12.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|     \- (org.springframework:spring-web:jar:4.3.12.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
++- org.openl.rules:org.openl.rules.repository:jar:5.21.3:compile
+|  +- (org.openl:org.openl.commons:jar:5.21.3:compile - omitted for duplicate)
+|  \- com.thoughtworks.xstream:xstream:jar:1.4.7:compile
+|     +- xmlpull:xmlpull:jar:1.1.3.1:compile
+|     \- xpp3:xpp3_min:jar:1.1.4c:compile
++- org.openl.rules:org.openl.rules.repository.jcr:jar:5.21.3:compile
+|  \- javax.jcr:jcr:jar:2.0:compile
++- org.openl.rules:org.openl.rules.repository.jcr.jackrabbit:jar:5.21.3:compile
+|  +- (org.openl.rules:org.openl.rules.repository.jcr:jar:5.21.3:compile - omitted for duplicate)
+|  +- org.apache.derby:derby:jar:10.10.2.0:compile
+|  +- org.apache.jackrabbit:jackrabbit-core:jar:2.8.0:compile
+|  |  +- concurrent:concurrent:jar:1.3.4:compile
+|  |  +- commons-collections:commons-collections:jar:3.2.2:compile
+|  |  +- commons-io:commons-io:jar:2.6:compile (version managed from 2.2)
+|  |  +- commons-dbcp:commons-dbcp:jar:1.3:compile
+|  |  |  \- commons-pool:commons-pool:jar:1.5.4:compile
+|  |  +- org.apache.jackrabbit:jackrabbit-api:jar:2.8.0:compile
+|  |  +- org.apache.jackrabbit:jackrabbit-jcr-commons:jar:2.8.0:compile
+|  |  +- org.apache.jackrabbit:jackrabbit-data:jar:2.8.0:compile
+|  |  |  +- (org.apache.jackrabbit:jackrabbit-api:jar:2.8.0:compile - omitted for duplicate)
+|  |  |  +- (org.apache.jackrabbit:jackrabbit-jcr-commons:jar:2.8.0:compile - omitted for duplicate)
+|  |  |  +- (commons-io:commons-io:jar:2.6:compile - version managed from 2.2; omitted for duplicate)
+|  |  |  \- (org.slf4j:jcl-over-slf4j:jar:1.7.25:test - version managed from 1.7.4; scope managed from compile; omitted for duplicate)
+|  |  +- org.apache.jackrabbit:jackrabbit-data:test-jar:tests:2.8.0:test (scope managed from compile)
+|  |  |  +- (org.apache.jackrabbit:jackrabbit-api:jar:2.8.0:test - omitted for duplicate)
+|  |  |  +- (org.apache.jackrabbit:jackrabbit-jcr-commons:jar:2.8.0:test - omitted for duplicate)
+|  |  |  +- (commons-io:commons-io:jar:2.6:test - version managed from 2.2; omitted for duplicate)
+|  |  |  \- (org.slf4j:jcl-over-slf4j:jar:1.7.25:test - version managed from 1.7.4; scope managed from compile; omitted for duplicate)
+|  |  +- org.apache.jackrabbit:jackrabbit-spi-commons:jar:2.8.0:compile
+|  |  |  +- (org.apache.jackrabbit:jackrabbit-spi:jar:2.8.0:compile - omitted for duplicate)
+|  |  |  +- (org.apache.jackrabbit:jackrabbit-jcr-commons:jar:2.8.0:compile - omitted for duplicate)
+|  |  |  +- (commons-collections:commons-collections:jar:3.2.2:compile - version managed from 3.2.1; omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.6.6; omitted for duplicate)
+|  |  +- org.apache.jackrabbit:jackrabbit-spi:jar:2.8.0:compile
+|  |  +- org.apache.tika:tika-core:jar:1.3:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.6.6; omitted for duplicate)
+|  |  +- org.apache.lucene:lucene-core:jar:3.6.0:compile
+|  |  +- (org.apache.derby:derby:jar:10.10.2.0:compile - version managed from 10.5.3.0_1; omitted for duplicate)
+|  |  \- (org.slf4j:jcl-over-slf4j:jar:1.7.25:test - version managed from 1.7.4; scope managed from compile; omitted for duplicate)
+|  +- org.apache.jackrabbit:jackrabbit-jcr-rmi:jar:2.8.0:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.6.6; omitted for duplicate)
+|  +- org.apache.jackrabbit:jackrabbit-spi2dav:jar:2.8.0:compile
+|  |  +- (org.apache.jackrabbit:jackrabbit-spi:jar:2.8.0:compile - omitted for duplicate)
+|  |  +- (org.apache.jackrabbit:jackrabbit-spi-commons:jar:2.8.0:compile - omitted for duplicate)
+|  |  +- (org.apache.jackrabbit:jackrabbit-jcr-commons:jar:2.8.0:compile - omitted for duplicate)
+|  |  +- org.apache.jackrabbit:jackrabbit-webdav:jar:2.8.0:compile
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.6.6; omitted for duplicate)
+|  |  |  +- commons-httpclient:commons-httpclient:jar:3.1:compile
+|  |  |  |  \- (commons-codec:commons-codec:jar:1.11:compile - version managed from 1.2; omitted for duplicate)
+|  |  |  \- (org.slf4j:jcl-over-slf4j:jar:1.7.25:test - version managed from 1.7.4; scope managed from compile; omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.6.6; omitted for duplicate)
+|  +- org.apache.jackrabbit:jackrabbit-jcr2spi:jar:2.8.0:compile
+|  |  +- (org.apache.jackrabbit:jackrabbit-spi:jar:2.8.0:compile - omitted for duplicate)
+|  |  +- (org.apache.jackrabbit:jackrabbit-spi-commons:jar:2.8.0:compile - omitted for duplicate)
+|  |  +- (org.apache.jackrabbit:jackrabbit-jcr-commons:jar:2.8.0:compile - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.6.6; omitted for duplicate)
+|  |  \- (commons-collections:commons-collections:jar:3.2.2:compile - version managed from 3.2.1; omitted for duplicate)
+|  \- (javax.jcr:jcr:jar:2.0:compile - omitted for duplicate)
++- org.openl.rules:org.openl.rules.repository.jcr.modeshape:jar:5.21.3:compile
+|  +- (org.openl.rules:org.openl.rules.repository.jcr:jar:5.21.3:compile - omitted for duplicate)
+|  +- commons-configuration:commons-configuration:jar:1.10:compile
+|  |  \- commons-lang:commons-lang:jar:2.6:compile
+|  +- org.modeshape:modeshape-jcr-api:jar:3.8.1.Final:compile
+|  |  \- (javax.jcr:jcr:jar:2.0:compile - omitted for duplicate)
+|  +- org.modeshape:modeshape-jcr:jar:3.8.1.Final:compile
+|  |  +- (org.modeshape:modeshape-jcr-api:jar:3.8.1.Final:compile - omitted for duplicate)
+|  |  +- (org.modeshape:modeshape-common:jar:3.8.1.Final:compile - omitted for duplicate)
+|  |  +- joda-time:joda-time:jar:2.3:compile
+|  |  +- org.modeshape:modeshape-schematic:jar:3.8.1.Final:compile
+|  |  |  +- (org.infinispan:infinispan-core:jar:5.2.10.Final:compile - omitted for duplicate)
+|  |  |  \- (org.jboss.logging:jboss-logging:jar:3.1.4.GA:compile - omitted for conflict with 3.1.3.GA)
+|  |  +- org.infinispan:infinispan-core:jar:5.2.10.Final:compile
+|  |  |  +- (org.jgroups:jgroups:jar:3.2.7.Final:compile - omitted for conflict with 3.2.13.Final)
+|  |  |  +- org.jboss.marshalling:jboss-marshalling-river:jar:1.3.15.GA:compile
+|  |  |  |  \- (org.jboss.marshalling:jboss-marshalling:jar:1.3.15.GA:compile - omitted for duplicate)
+|  |  |  +- org.jboss.marshalling:jboss-marshalling:jar:1.3.15.GA:compile
+|  |  |  +- (org.jboss.logging:jboss-logging:jar:3.1.1.GA:compile - omitted for conflict with 3.1.3.GA)
+|  |  |  \- org.jboss:staxmapper:jar:1.1.0.Final:compile
+|  |  +- org.jgroups:jgroups:jar:3.2.13.Final:compile
+|  |  +- org.hibernate:hibernate-search-engine:jar:4.3.0.Final:compile
+|  |  |  +- (org.hibernate.common:hibernate-commons-annotations:jar:4.0.2.Final:compile - omitted for conflict with 4.0.5.Final)
+|  |  |  +- (org.apache.lucene:lucene-core:jar:3.6.2:compile - omitted for conflict with 3.6.0)
+|  |  |  +- (org.jboss.logging:jboss-logging:jar:3.1.0.GA:compile - omitted for conflict with 3.1.3.GA)
+|  |  |  +- org.apache.avro:avro:jar:1.6.3:compile
+|  |  |  |  +- org.codehaus.jackson:jackson-core-asl:jar:1.8.8:compile
+|  |  |  |  +- org.codehaus.jackson:jackson-mapper-asl:jar:1.8.8:compile
+|  |  |  |  |  \- (org.codehaus.jackson:jackson-core-asl:jar:1.8.8:compile - omitted for duplicate)
+|  |  |  |  +- com.thoughtworks.paranamer:paranamer:jar:2.3:compile
+|  |  |  |  +- org.xerial.snappy:snappy-java:jar:1.0.4.1:compile
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.6.4; omitted for duplicate)
+|  |  |  \- org.apache.lucene:lucene-facet:jar:3.6.2:compile
+|  |  |     \- (org.apache.lucene:lucene-core:jar:3.6.2:compile - omitted for conflict with 3.6.0)
+|  |  +- (org.hibernate.common:hibernate-commons-annotations:jar:4.0.1.Final:compile - omitted for conflict with 4.0.5.Final)
+|  |  +- (org.apache.lucene:lucene-core:jar:3.6.2:compile - omitted for conflict with 3.6.0)
+|  |  +- org.apache.lucene:lucene-regex:jar:3.0.3:compile
+|  |  |  +- jakarta-regexp:jakarta-regexp:jar:1.4:compile
+|  |  |  \- (org.apache.lucene:lucene-core:jar:3.0.3:compile - omitted for conflict with 3.6.0)
+|  |  \- (org.apache.tika:tika-core:jar:1.3:compile - omitted for duplicate)
+|  +- org.modeshape:modeshape-common:jar:3.8.1.Final:compile
+|  +- org.infinispan:infinispan-cachestore-jdbc:jar:5.2.10.Final:compile
+|  |  \- (org.infinispan:infinispan-core:jar:5.2.10.Final:compile - omitted for duplicate)
+|  \- c3p0:c3p0:jar:0.9.1.2:compile
++- org.openl.rules:org.openl.rules.repository.aws:jar:5.21.3:compile
+|  \- com.amazonaws:aws-java-sdk-s3:jar:1.11.86:compile
+|     +- com.amazonaws:aws-java-sdk-kms:jar:1.11.86:compile
+|     |  +- (com.amazonaws:aws-java-sdk-core:jar:1.11.86:compile - omitted for duplicate)
+|     |  \- (com.amazonaws:jmespath-java:jar:1.11.86:compile - omitted for duplicate)
+|     +- com.amazonaws:aws-java-sdk-core:jar:1.11.86:compile
+|     |  +- org.apache.httpcomponents:httpclient:jar:4.5.2:compile
+|     |  |  +- org.apache.httpcomponents:httpcore:jar:4.4.4:compile
+|     |  |  \- (commons-codec:commons-codec:jar:1.11:compile - version managed from 1.9; omitted for duplicate)
+|     |  +- software.amazon.ion:ion-java:jar:1.0.1:compile
+|     |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.2:compile - version managed from 2.6.6; omitted for duplicate)
+|     |  +- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.6.6:compile
+|     |  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.2:compile - version managed from 2.6.6; omitted for duplicate)
+|     |  \- (joda-time:joda-time:jar:2.3:compile - version managed from 2.8.1; omitted for duplicate)
+|     \- com.amazonaws:jmespath-java:jar:1.11.86:compile
+|        \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.2:compile - version managed from 2.6.6; omitted for duplicate)
++- org.openl.rules:org.openl.rules.workspace:jar:5.21.3:compile
+|  +- (org.openl:org.openl.commons:jar:5.21.3:compile - omitted for duplicate)
+|  +- (org.openl.rules:org.openl.rules.repository:jar:5.21.3:compile - omitted for duplicate)
+|  +- (commons-configuration:commons-configuration:jar:1.10:compile - omitted for duplicate)
+|  \- commons-codec:commons-codec:jar:1.11:compile
++- org.openl.rules:org.openl.rules.project:jar:5.21.3:compile
+|  +- (com.thoughtworks.xstream:xstream:jar:1.4.7:compile - omitted for duplicate)
+|  +- org.apache.commons:commons-lang3:jar:3.7:compile
+|  +- commons-jxpath:commons-jxpath:jar:1.3:compile
+|  +- (org.openl.rules:org.openl.rules:jar:5.21.3:compile - omitted for duplicate)
+|  +- org.openl.rules:org.openl.rules.variation:jar:5.21.3:compile
+|  |  +- (commons-jxpath:commons-jxpath:jar:1.3:compile - omitted for duplicate)
+|  |  +- (com.thoughtworks.xstream:xstream:jar:1.4.7:compile - omitted for duplicate)
+|  |  +- (uk.com.robust-it:cloning:jar:1.9.0:compile - omitted for duplicate)
+|  |  \- com.caucho:hessian:jar:4.0.38:compile
+|  +- (org.springframework:spring-core:jar:4.3.12.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|  +- (org.springframework:spring-beans:jar:4.3.12.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|  \- (org.springframework:spring-context:jar:4.3.12.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
++- org.openl.rules:org.openl.rules.jackson:jar:5.21.3:compile
+|  +- (org.openl.rules:org.openl.rules.variation:jar:5.21.3:compile - omitted for duplicate)
+|  +- (org.openl.rules:org.openl.rules:jar:5.21.3:compile - omitted for duplicate)
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.9.2:compile
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.2:compile
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.9.2:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.2:compile - version managed from 2.9.0; omitted for duplicate)
+|  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.2:compile - version managed from 2.6.6; omitted for duplicate)
+|  \- com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.9.2:compile
+|     +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.2:compile - version managed from 2.9.0; omitted for duplicate)
+|     +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.2:compile - version managed from 2.6.6; omitted for duplicate)
+|     \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.2:compile - version managed from 2.6.6; omitted for duplicate)
++- org.openl.rules:org.openl.rules.calculation.result:jar:5.21.3:compile
++- org.openl.rules:org.openl.extension.xmlrules:jar:5.21.3:compile
+|  \- (org.openl.rules:org.openl.rules.project:jar:5.21.3:compile - omitted for duplicate)
++- org.openl.rules:org.openl.rules.demo:jar:5.21.3:compile
++- org.openl.rules:org.openl.rules.diff:jar:5.21.3:compile
+|  +- (org.openl.rules:org.openl.rules:jar:5.21.3:compile - omitted for duplicate)
+|  +- (org.openl:org.openl.core:jar:5.21.3:compile - omitted for duplicate)
+|  \- (org.openl.rules:org.openl.rules.workspace:jar:5.21.3:compile - omitted for duplicate)
++- org.openl:org.openl.spring:jar:5.21.3:compile
+|  +- (org.openl:org.openl.commons:jar:5.21.3:compile - omitted for duplicate)
+|  +- (org.springframework:spring-beans:jar:4.3.12.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|  \- (org.springframework:spring-context:jar:4.3.12.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
++- javax.servlet:javax.servlet-api:jar:3.0.1:provided
++- org.hibernate:hibernate-validator:jar:5.1.1.Final:compile
+|  +- javax.validation:validation-api:jar:1.1.0.Final:compile
+|  +- org.jboss.logging:jboss-logging:jar:3.1.3.GA:compile
+|  \- com.fasterxml:classmate:jar:1.0.0:compile
++- org.hibernate:hibernate-ehcache:jar:4.3.11.Final:compile
+|  +- (org.jboss.logging:jboss-logging:jar:3.1.3.GA:compile - omitted for duplicate)
+|  +- org.jboss.logging:jboss-logging-annotations:jar:1.2.0.Beta1:compile
+|  +- (org.hibernate:hibernate-core:jar:4.3.11.Final:compile - omitted for duplicate)
+|  \- net.sf.ehcache:ehcache-core:jar:2.4.3:compile
+|     \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.6.1; omitted for duplicate)
++- org.richfaces.core:richfaces-core-impl:jar:4.0.0.Final:compile
+|  +- org.richfaces.core:richfaces-core-api:jar:4.0.0.Final:compile
+|  |  \- (com.google.guava:guava:jar:r08:compile - omitted for duplicate)
+|  +- net.sourceforge.cssparser:cssparser:jar:0.9.5:compile
+|  |  \- org.w3c.css:sac:jar:1.3:compile
+|  \- com.google.guava:guava:jar:r08:compile
++- org.richfaces.ui:richfaces-components-ui:jar:4.0.0.Final:compile
+|  +- org.richfaces.ui:richfaces-components-api:jar:4.0.0.Final:compile
+|  |  \- (org.richfaces.core:richfaces-core-api:jar:4.0.0.Final:compile - omitted for duplicate)
+|  \- (org.richfaces.core:richfaces-core-api:jar:4.0.0.Final:compile - omitted for duplicate)
++- org.springframework:spring-core:jar:4.3.12.RELEASE:compile
++- org.springframework:spring-beans:jar:4.3.12.RELEASE:compile
+|  \- (org.springframework:spring-core:jar:4.3.12.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
++- org.springframework:spring-context:jar:4.3.12.RELEASE:compile
+|  +- org.springframework:spring-aop:jar:4.3.12.RELEASE:compile
+|  |  +- (org.springframework:spring-beans:jar:4.3.12.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|  |  \- (org.springframework:spring-core:jar:4.3.12.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|  +- (org.springframework:spring-beans:jar:4.3.12.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|  +- (org.springframework:spring-core:jar:4.3.12.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|  \- org.springframework:spring-expression:jar:4.3.12.RELEASE:compile
+|     \- (org.springframework:spring-core:jar:4.3.12.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
++- org.springframework:spring-context-support:jar:4.3.12.RELEASE:compile
+|  +- (org.springframework:spring-beans:jar:4.3.12.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|  +- (org.springframework:spring-context:jar:4.3.12.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|  \- (org.springframework:spring-core:jar:4.3.12.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
++- org.springframework.security:spring-security-web:jar:4.2.3.RELEASE:compile
+|  +- (org.springframework.security:spring-security-core:jar:4.2.3.RELEASE:compile - version managed from 3.1.2.RELEASE; omitted for duplicate)
+|  +- (org.springframework:spring-beans:jar:4.3.12.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|  +- (org.springframework:spring-context:jar:4.3.12.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|  +- (org.springframework:spring-core:jar:4.3.12.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|  +- (org.springframework:spring-expression:jar:4.3.12.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|  \- (org.springframework:spring-web:jar:4.3.12.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
++- org.springframework.security:spring-security-ldap:jar:4.2.3.RELEASE:compile
+|  +- org.springframework.ldap:spring-ldap-core:jar:2.2.0.RELEASE:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.21; omitted for duplicate)
+|  +- (org.springframework.security:spring-security-core:jar:4.2.3.RELEASE:compile - version managed from 3.1.2.RELEASE; omitted for duplicate)
+|  +- (org.springframework:spring-beans:jar:4.3.12.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|  +- (org.springframework:spring-context:jar:4.3.12.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|  +- (org.springframework:spring-core:jar:4.3.12.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|  \- (org.springframework:spring-tx:jar:4.3.12.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
++- org.springframework:spring-web:jar:4.3.12.RELEASE:compile
+|  +- (org.springframework:spring-aop:jar:4.3.12.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|  +- (org.springframework:spring-beans:jar:4.3.12.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|  +- (org.springframework:spring-context:jar:4.3.12.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
+|  \- (org.springframework:spring-core:jar:4.3.12.RELEASE:compile - version managed from 4.3.9.RELEASE; omitted for duplicate)
++- javax.servlet:jstl:jar:1.2:compile
++- javax.el:el-api:jar:1.0:provided
++- org.apache.poi:ooxml-schemas:jar:1.3:compile
+|  \- org.apache.xmlbeans:xmlbeans:jar:2.6.0:compile
++- org.apache.cxf:cxf-rt-frontend-jaxrs:jar:3.1.14:compile
+|  +- org.apache.cxf:cxf-core:jar:3.1.14:compile
+|  |  +- org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1:compile
+|  |  |  \- org.codehaus.woodstox:stax2-api:jar:3.1.4:compile
+|  |  \- org.apache.ws.xmlschema:xmlschema-core:jar:2.2.2:compile
+|  +- javax.ws.rs:javax.ws.rs-api:jar:2.0.1:compile
+|  +- javax.annotation:javax.annotation-api:jar:1.2:compile
+|  \- org.apache.cxf:cxf-rt-transports-http:jar:3.1.14:compile
+|     \- (org.apache.cxf:cxf-core:jar:3.1.14:compile - omitted for duplicate)
++- org.apache.cxf:cxf-rt-rs-extension-providers:jar:3.1.14:compile
+|  +- (org.apache.cxf:cxf-core:jar:3.1.14:compile - omitted for duplicate)
+|  \- (org.apache.cxf:cxf-rt-frontend-jaxrs:jar:3.1.14:compile - omitted for duplicate)
++- org.codehaus.jettison:jettison:jar:1.3.8:compile
++- org.jgrapht:jgrapht-core:jar:0.9.0:compile
++- com.microsoft.sqlserver:mssql-jdbc:jar:6.2.2.jre7:compile
++- com.h2database:h2:jar:1.4.196:compile
++- org.slf4j:jcl-over-slf4j:jar:1.7.25:runtime
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.21; scope updated from runtime; omitted for duplicate)
++- org.slf4j:slf4j-log4j12:jar:1.7.25:runtime
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.21; scope updated from runtime; omitted for duplicate)
+|  \- log4j:log4j:jar:1.2.17:runtime
++- junit:junit:jar:4.12:test (version managed from 3.8.1; scope managed from compile)
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.mockito:mockito-all:jar:1.10.19:test
+\- org.slf4j:slf4j-simple:jar:1.7.25:test
+   \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.21; scope updated from test; omitted for duplicate)

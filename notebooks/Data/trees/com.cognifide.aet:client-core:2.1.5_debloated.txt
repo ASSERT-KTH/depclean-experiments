@@ -1,0 +1,33 @@
+com.cognifide.aet:client-core:jar:2.1.5
++- com.cognifide.aet:communication-api:jar:2.1.5:compile
++- com.google.guava:guava:jar:23.6-jre:compile
+|  +- com.google.code.findbugs:jsr305:jar:3.0.1:provided (version managed from 1.3.9; scope managed from compile)
+|  +- org.checkerframework:checker-compat-qual:jar:2.0.0:compile
+|  +- com.google.errorprone:error_prone_annotations:jar:2.1.3:compile
+|  +- com.google.j2objc:j2objc-annotations:jar:1.1:compile
+|  \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:compile
++- org.apache.commons:commons-lang3:jar:3.3.2:compile
++- org.apache.httpcomponents:fluent-hc:jar:4.5.2:compile
+|  +- org.apache.httpcomponents:httpclient:jar:4.5.2:compile
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.4.4:compile
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  |  \- commons-codec:commons-codec:jar:1.8:provided (version managed from 1.9; scope managed from compile)
+|  \- commons-logging:commons-logging:jar:1.2:compile
++- org.apache.httpcomponents:httpmime:jar:4.5.2:compile
+|  \- (org.apache.httpcomponents:httpclient:jar:4.5.2:compile - omitted for duplicate)
++- commons-io:commons-io:jar:2.4:compile
++- com.jcabi:jcabi-log:jar:0.12.2:compile
+|  +- com.jcabi:jcabi-aspects:jar:0.14:compile
+|  |  +- org.aspectj:aspectjrt:jar:1.7.4:compile
+|  |  \- (javax.validation:validation-api:jar:1.1.0.Final:compile - omitted for duplicate)
+|  +- (org.aspectj:aspectjrt:jar:1.7.4:compile - scope updated from runtime; omitted for duplicate)
+|  +- javax.validation:validation-api:jar:1.1.0.Final:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.7.5; omitted for duplicate)
+|  \- (org.apache.commons:commons-lang3:jar:3.3.2:compile - version managed from 3.2.1; omitted for duplicate)
++- org.slf4j:slf4j-log4j12:jar:1.7.10:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.7.5; omitted for duplicate)
+|  \- log4j:log4j:jar:1.2.17:compile
++- com.google.code.gson:gson:jar:2.6.1:compile
++- junit:junit:jar:4.11:test
++- org.hamcrest:hamcrest-all:jar:1.3:test
+\- org.mockito:mockito-all:jar:1.9.5:test

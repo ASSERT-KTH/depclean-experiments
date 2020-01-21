@@ -1,0 +1,7 @@
+com.github.estigma88:jdhtuq-socket-communication:jar:2.1.0
++- com.github.estigma88:jdhtuq-communication-api:jar:2.0.0:compile
+|  \- (log4j:log4j:jar:1.2.16:compile - omitted for duplicate)
++- com.fasterxml.jackson.core:jackson-databind:jar:2.9.4:compile
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+|  \- com.fasterxml.jackson.core:jackson-core:jar:2.9.4:compile
+\- log4j:log4j:jar:1.2.16:compile

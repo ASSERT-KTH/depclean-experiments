@@ -1,0 +1,50 @@
+org.apache.calcite:calcite-example-csv:jar:1.16.0
++- org.apache.calcite:calcite-core:jar:1.16.0:compile
+|  +- org.apache.calcite.avatica:avatica-core:jar:1.11.0:compile
+|  |  +- org.apache.calcite.avatica:avatica-metrics:jar:1.11.0:compile
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.13:compile - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.4:compile - version managed from 2.6.5; omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.4:compile - version managed from 2.9.0; omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.4:compile - omitted for duplicate)
+|  |  +- com.google.protobuf:protobuf-java:jar:3.3.0:compile
+|  |  +- org.apache.httpcomponents:httpclient:jar:4.5.2:compile
+|  |  |  +- (org.apache.httpcomponents:httpcore:jar:4.4.4:compile - omitted for duplicate)
+|  |  |  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for conflict with 1.1.3)
+|  |  |  \- commons-codec:commons-codec:jar:1.9:compile
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.4.4:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.13:compile - omitted for duplicate)
+|  +- (org.apache.calcite:calcite-linq4j:jar:1.16.0:compile - omitted for duplicate)
+|  +- commons-dbcp:commons-dbcp:jar:1.4:compile
+|  |  \- commons-pool:commons-pool:jar:1.5.4:compile
+|  +- (org.apache.commons:commons-lang3:jar:3.2:compile - omitted for duplicate)
+|  +- com.esri.geometry:esri-geometry-api:jar:2.0.0:compile
+|  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.4:compile - version managed from 2.6.5; omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.4:compile - version managed from 2.6.5; omitted for duplicate)
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.4:compile
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.4:compile - omitted for duplicate)
+|  +- com.google.code.findbugs:jsr305:jar:3.0.1:compile
+|  +- (com.google.guava:guava:jar:19.0:compile - omitted for duplicate)
+|  +- com.yahoo.datasketches:sketches-core:jar:0.9.0:compile
+|  |  \- com.yahoo.datasketches:memory:jar:0.9.0:compile
+|  +- net.hydromatic:aggdesigner-algorithm:jar:6.0:compile
+|  |  +- commons-lang:commons-lang:jar:2.4:compile
+|  |  \- commons-logging:commons-logging:jar:1.1.3:compile
+|  +- org.codehaus.janino:janino:jar:2.7.6:compile
+|  |  \- (org.codehaus.janino:commons-compiler:jar:2.7.6:compile - omitted for duplicate)
+|  +- org.codehaus.janino:commons-compiler:jar:2.7.6:compile
+|  \- org.slf4j:slf4j-api:jar:1.7.13:compile
++- org.apache.calcite:calcite-linq4j:jar:1.16.0:compile
+|  \- (com.google.guava:guava:jar:19.0:compile - omitted for duplicate)
++- com.fasterxml.jackson.core:jackson-core:jar:2.9.4:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.9.4:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.4:compile - version managed from 2.9.0; omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.4:compile - version managed from 2.6.5; omitted for duplicate)
++- com.google.guava:guava:jar:19.0:compile
++- junit:junit:jar:4.12:test
+|  \- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for duplicate)
++- net.sf.opencsv:opencsv:jar:2.3:compile
++- org.apache.commons:commons-lang3:jar:3.2:compile
++- commons-io:commons-io:jar:2.4:compile
++- org.hamcrest:hamcrest-core:jar:1.3:test
+\- sqlline:sqlline:jar:1.3.0:test
+   \- jline:jline:jar:2.14.3:test

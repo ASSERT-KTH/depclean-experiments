@@ -1,0 +1,11 @@
+org.twitter4j:twitter4j-stream:jar:4.0.7
++- org.twitter4j:twitter4j-core:jar:4.0.7:compile
++- org.twitter4j:twitter4j-async:jar:4.0.7:test
+|  \- (org.twitter4j:twitter4j-core:jar:4.0.7:test - omitted for duplicate)
++- org.junit.jupiter:junit-jupiter-api:jar:5.2.0:test
+|  +- org.apiguardian:apiguardian-api:jar:1.0.0:test
+|  +- org.opentest4j:opentest4j:jar:1.1.0:test
+|  \- org.junit.platform:junit-platform-commons:jar:1.2.0:test
+|     \- (org.apiguardian:apiguardian-api:jar:1.0.0:test - omitted for duplicate)
+\- org.springframework:spring:jar:2.5.6:test
+   \- commons-logging:commons-logging:jar:1.1.1:test

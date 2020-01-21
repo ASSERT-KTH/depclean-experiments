@@ -1,0 +1,49 @@
+org.apache.activemq:activemq-stomp:jar:5.15.6
++- org.apache.activemq:activemq-broker:jar:5.15.6:compile
+|  +- org.apache.activemq:activemq-client:jar:5.15.6:compile
+|  |  +- org.slf4j:slf4j-api:jar:1.7.25:compile
+|  |  +- org.apache.geronimo.specs:geronimo-jms_1.1_spec:jar:1.1.1:compile
+|  |  +- org.fusesource.hawtbuf:hawtbuf:jar:1.11:compile
+|  |  \- org.apache.geronimo.specs:geronimo-j2ee-management_1.1_spec:jar:1.0.1:compile
+|  +- org.apache.activemq:activemq-openwire-legacy:jar:5.15.6:compile
+|  |  \- (org.apache.activemq:activemq-client:jar:5.15.6:compile - omitted for duplicate)
+|  +- com.google.guava:guava:jar:18.0:compile
+|  \- com.fasterxml.jackson.core:jackson-databind:jar:2.9.6:compile
+|     +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.6:compile (version managed from 2.9.0)
+|     \- com.fasterxml.jackson.core:jackson-core:jar:2.9.6:compile
++- com.thoughtworks.xstream:xstream:jar:1.4.10:compile
+|  +- xmlpull:xmlpull:jar:1.1.3.1:compile
+|  \- xpp3:xpp3_min:jar:1.1.4c:compile
++- org.codehaus.jettison:jettison:jar:1.3.8:compile
+|  \- stax:stax-api:jar:1.0.1:compile
++- org.apache.activemq:activemq-kahadb-store:jar:5.15.6:test
+|  +- (org.apache.activemq:activemq-broker:jar:5.15.6:test - omitted for duplicate)
+|  +- org.apache.activemq.protobuf:activemq-protobuf:jar:1.1:test
+|  +- (org.apache.geronimo.specs:geronimo-j2ee-management_1.1_spec:jar:1.0.1:compile - scope updated from test; omitted for duplicate)
+|  \- commons-net:commons-net:jar:3.6:test
++- org.apache.activemq:activemq-broker:test-jar:tests:5.15.6:test
+|  +- (org.apache.activemq:activemq-client:jar:5.15.6:test - omitted for duplicate)
+|  +- (org.apache.activemq:activemq-openwire-legacy:jar:5.15.6:test - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:18.0:test - omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.6:test - omitted for duplicate)
++- org.apache.activemq:activemq-jaas:jar:5.15.6:test
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - scope updated from test; omitted for duplicate)
++- org.springframework:spring-context:jar:4.3.18.RELEASE:test
+|  +- org.springframework:spring-aop:jar:4.3.18.RELEASE:test
+|  |  +- (org.springframework:spring-beans:jar:4.3.18.RELEASE:test - omitted for duplicate)
+|  |  \- (org.springframework:spring-core:jar:4.3.18.RELEASE:test - omitted for duplicate)
+|  +- org.springframework:spring-beans:jar:4.3.18.RELEASE:test
+|  |  \- (org.springframework:spring-core:jar:4.3.18.RELEASE:test - omitted for duplicate)
+|  +- org.springframework:spring-core:jar:4.3.18.RELEASE:test
+|  |  \- commons-logging:commons-logging:jar:1.2:test
+|  \- org.springframework:spring-expression:jar:4.3.18.RELEASE:test
+|     \- (org.springframework:spring-core:jar:4.3.18.RELEASE:test - omitted for duplicate)
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.mockito:mockito-core:jar:1.10.19:test
+|  +- (org.hamcrest:hamcrest-core:jar:1.1:test - omitted for conflict with 1.3)
+|  \- org.objenesis:objenesis:jar:2.1:test
++- org.slf4j:slf4j-log4j12:jar:1.7.25:test
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - scope updated from test; omitted for duplicate)
+|  \- (log4j:log4j:jar:1.2.17:runtime - scope managed from test; omitted for duplicate)
+\- log4j:log4j:jar:1.2.17:test (scope not updated to runtime)

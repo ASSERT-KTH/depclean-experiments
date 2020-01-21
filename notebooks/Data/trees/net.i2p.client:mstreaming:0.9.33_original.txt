@@ -1,0 +1,2 @@
+net.i2p.client:mstreaming:jar:0.9.33
+\- net.i2p:i2p:jar:0.9.33:compile

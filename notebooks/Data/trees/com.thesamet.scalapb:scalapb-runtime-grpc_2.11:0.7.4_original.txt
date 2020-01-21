@@ -1,0 +1,48 @@
+com.thesamet.scalapb:scalapb-runtime-grpc_2.11:jar:0.7.4
++- org.scala-lang:scala-library:jar:2.11.12:compile
++- com.thesamet.scalapb:scalapb-runtime_2.11:jar:0.7.4:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  +- com.thesamet.scalapb:lenses_2.11:jar:0.7.0:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  +- com.lihaoyi:fastparse_2.11:jar:1.0.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
+|  |  +- com.lihaoyi:fastparse-utils_2.11:jar:1.0.0:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
+|  |  |  \- (com.lihaoyi:sourcecode_2.11:jar:0.1.4:compile - omitted for duplicate)
+|  |  \- com.lihaoyi:sourcecode_2.11:jar:0.1.4:compile
+|  |     \- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
+|  \- com.google.protobuf:protobuf-java:jar:3.5.1:compile
++- io.grpc:grpc-stub:jar:1.11.0:compile
+|  \- io.grpc:grpc-core:jar:1.11.0:compile
+|     +- io.grpc:grpc-context:jar:1.11.0:compile
+|     +- com.google.code.gson:gson:jar:2.7:compile
+|     +- (com.google.guava:guava:jar:20.0:compile - omitted for duplicate)
+|     +- com.google.errorprone:error_prone_annotations:jar:2.1.2:compile
+|     +- com.google.code.findbugs:jsr305:jar:3.0.0:compile
+|     +- io.opencensus:opencensus-api:jar:0.11.0:compile
+|     \- io.opencensus:opencensus-contrib-grpc-metrics:jar:0.11.0:compile
+|        \- (io.opencensus:opencensus-api:jar:0.11.0:compile - omitted for duplicate)
++- io.grpc:grpc-protobuf:jar:1.11.0:compile
+|  +- (io.grpc:grpc-core:jar:1.11.0:compile - omitted for duplicate)
+|  +- (com.google.protobuf:protobuf-java:jar:3.5.1:compile - omitted for duplicate)
+|  +- com.google.guava:guava:jar:20.0:compile
+|  +- com.google.protobuf:protobuf-java-util:jar:3.5.1:compile
+|  |  +- (com.google.protobuf:protobuf-java:jar:3.5.1:compile - omitted for duplicate)
+|  |  \- (com.google.code.gson:gson:jar:2.7:compile - omitted for duplicate)
+|  +- com.google.api.grpc:proto-google-common-protos:jar:1.0.0:compile
+|  \- io.grpc:grpc-protobuf-lite:jar:1.11.0:compile
+|     +- (io.grpc:grpc-core:jar:1.11.0:compile - omitted for duplicate)
+|     \- (com.google.guava:guava:jar:20.0:compile - omitted for duplicate)
++- org.scalatest:scalatest_2.11:jar:3.0.5:test
+|  +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|  +- org.scalactic:scalactic_2.11:jar:3.0.5:test
+|  |  +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|  |  \- (org.scala-lang:scala-reflect:jar:2.11.12:test - omitted for duplicate)
+|  +- org.scala-lang:scala-reflect:jar:2.11.12:test
+|  |  \- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|  \- org.scala-lang.modules:scala-xml_2.11:jar:1.0.6:test
+|     \- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.12)
+\- org.mockito:mockito-core:jar:2.10.0:test
+   +- net.bytebuddy:byte-buddy:jar:1.7.4:test
+   +- net.bytebuddy:byte-buddy-agent:jar:1.7.4:test
+   \- org.objenesis:objenesis:jar:2.6:test

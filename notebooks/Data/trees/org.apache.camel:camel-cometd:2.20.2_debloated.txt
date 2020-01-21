@@ -1,0 +1,53 @@
+org.apache.camel:camel-cometd:jar:2.20.2
++- org.apache.camel:camel-core:jar:2.20.2:compile
+|  +- org.slf4j:slf4j-api:jar:1.7.22:compile
+|  +- com.sun.xml.bind:jaxb-core:jar:2.2.11:compile
+|  \- com.sun.xml.bind:jaxb-impl:jar:2.2.11:compile
++- org.eclipse.jetty:jetty-server:jar:9.3.21.v20170918:compile
+|  +- (javax.servlet:javax.servlet-api:jar:3.1.0:compile - omitted for duplicate)
+|  +- org.eclipse.jetty:jetty-http:jar:9.3.21.v20170918:compile
+|  |  \- (org.eclipse.jetty:jetty-util:jar:9.3.21.v20170918:compile - omitted for duplicate)
+|  \- org.eclipse.jetty:jetty-io:jar:9.3.21.v20170918:compile
+|     \- (org.eclipse.jetty:jetty-util:jar:9.3.21.v20170918:compile - omitted for duplicate)
++- org.eclipse.jetty:jetty-servlet:jar:9.3.21.v20170918:compile
+|  \- org.eclipse.jetty:jetty-security:jar:9.3.21.v20170918:compile
+|     \- (org.eclipse.jetty:jetty-server:jar:9.3.21.v20170918:compile - omitted for duplicate)
++- org.eclipse.jetty:jetty-servlets:jar:9.3.21.v20170918:compile
+|  +- org.eclipse.jetty:jetty-continuation:jar:9.3.21.v20170918:compile
+|  +- (org.eclipse.jetty:jetty-http:jar:9.3.21.v20170918:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-util:jar:9.3.21.v20170918:compile - omitted for duplicate)
+|  \- (org.eclipse.jetty:jetty-io:jar:9.3.21.v20170918:compile - omitted for duplicate)
++- org.eclipse.jetty:jetty-util:jar:9.3.21.v20170918:compile
++- org.eclipse.jetty:jetty-jmx:jar:9.3.21.v20170918:compile
+|  \- (org.eclipse.jetty:jetty-util:jar:9.3.21.v20170918:compile - omitted for duplicate)
++- org.cometd.java:cometd-java-server:jar:3.1.2:compile
+|  +- org.cometd.java:bayeux-api:jar:3.1.2:compile
+|  +- org.cometd.java:cometd-java-common:jar:3.1.2:compile
+|  |  +- (org.cometd.java:bayeux-api:jar:3.1.2:compile - omitted for duplicate)
+|  |  +- (org.eclipse.jetty:jetty-util:jar:9.2.22.v20170606:compile - omitted for conflict with 9.3.21.v20170918)
+|  |  +- org.eclipse.jetty:jetty-util-ajax:jar:9.2.22.v20170606:compile
+|  |  |  \- (org.eclipse.jetty:jetty-util:jar:9.2.22.v20170606:compile - omitted for conflict with 9.3.21.v20170918)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.22:compile - version managed from 1.7.25; omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-util:jar:9.2.22.v20170606:compile - omitted for conflict with 9.3.21.v20170918)
+|  +- (org.eclipse.jetty:jetty-jmx:jar:9.2.22.v20170606:compile - omitted for conflict with 9.3.21.v20170918)
+|  \- (org.slf4j:slf4j-api:jar:1.7.22:compile - version managed from 1.7.25; omitted for duplicate)
++- javax.servlet:javax.servlet-api:jar:3.1.0:compile
++- org.apache.camel:camel-test:jar:2.20.2:test
+|  +- (org.apache.camel:camel-core:jar:2.20.2:test - omitted for duplicate)
+|  \- (junit:junit:jar:4.12:test - omitted for duplicate)
++- org.mockito:mockito-core:jar:1.10.19:test
+|  \- org.objenesis:objenesis:jar:2.1:test
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.apache.logging.log4j:log4j-api:jar:2.9.1:test
++- org.apache.logging.log4j:log4j-core:jar:2.9.1:test
+|  \- (org.apache.logging.log4j:log4j-api:jar:2.9.1:test - omitted for duplicate)
++- org.apache.logging.log4j:log4j-slf4j-impl:jar:2.9.1:test
+|  +- (org.slf4j:slf4j-api:jar:1.7.22:test - version managed from 1.7.25; omitted for duplicate)
+|  +- (org.apache.logging.log4j:log4j-api:jar:2.9.1:test - omitted for duplicate)
+|  \- (org.apache.logging.log4j:log4j-core:jar:2.9.1:test - omitted for duplicate)
++- org.apache.camel:camel-stream:jar:2.20.2:test
+|  \- (org.apache.camel:camel-core:jar:2.20.2:test - omitted for duplicate)
+\- org.apache.camel:apt:jar:2.20.2:provided
+   +- org.apache.camel:spi-annotations:jar:2.20.2:provided
+   \- org.apache.camel:json-simple-ordered:jar:2.20.2:provided

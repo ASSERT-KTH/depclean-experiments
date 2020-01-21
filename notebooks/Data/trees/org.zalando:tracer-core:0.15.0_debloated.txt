@@ -1,0 +1,30 @@
+org.zalando:tracer-core:jar:0.15.0
++- org.apache.logging.log4j:log4j-slf4j-impl:jar:2.6.2:test
+|  +- (org.slf4j:slf4j-api:jar:1.7.21:test - omitted for duplicate)
+|  \- org.apache.logging.log4j:log4j-api:jar:2.6.2:test
++- com.google.code.findbugs:jsr305:jar:3.0.2:compile
++- org.projectlombok:lombok:jar:1.16.18:provided
++- org.slf4j:slf4j-api:jar:1.7.21:compile
++- org.junit.platform:junit-platform-launcher:jar:1.1.0:test
+|  +- org.apiguardian:apiguardian-api:jar:1.0.0:test
+|  \- org.junit.platform:junit-platform-engine:jar:1.1.0:test
+|     +- (org.apiguardian:apiguardian-api:jar:1.0.0:test - omitted for duplicate)
+|     +- org.junit.platform:junit-platform-commons:jar:1.1.0:test
+|     |  \- (org.apiguardian:apiguardian-api:jar:1.0.0:test - omitted for duplicate)
+|     \- org.opentest4j:opentest4j:jar:1.0.0:test
++- org.junit.jupiter:junit-jupiter-engine:jar:5.1.0:test
+|  +- (org.apiguardian:apiguardian-api:jar:1.0.0:test - omitted for duplicate)
+|  +- (org.junit.platform:junit-platform-engine:jar:1.1.0:test - omitted for duplicate)
+|  \- org.junit.jupiter:junit-jupiter-api:jar:5.1.0:test
+|     +- (org.apiguardian:apiguardian-api:jar:1.0.0:test - omitted for duplicate)
+|     +- (org.opentest4j:opentest4j:jar:1.0.0:test - omitted for duplicate)
+|     \- (org.junit.platform:junit-platform-commons:jar:1.1.0:test - omitted for duplicate)
++- org.junit.jupiter:junit-jupiter-params:jar:5.1.0:test
+|  +- (org.apiguardian:apiguardian-api:jar:1.0.0:test - omitted for duplicate)
+|  \- (org.junit.jupiter:junit-jupiter-api:jar:5.1.0:test - omitted for duplicate)
++- org.hamcrest:java-hamcrest:jar:2.0.0.0:test
++- org.hobsoft.hamcrest:hamcrest-compose:jar:0.3.0:test
+\- org.mockito:mockito-core:jar:2.8.47:test
+   +- net.bytebuddy:byte-buddy:jar:1.6.14:test
+   +- net.bytebuddy:byte-buddy-agent:jar:1.6.14:test
+   \- org.objenesis:objenesis:jar:2.5:test

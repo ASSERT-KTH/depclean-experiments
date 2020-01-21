@@ -1,0 +1,10 @@
+com.ripple.cryptoconditions:crypto-conditions:jar:1.0.3
++- net.i2p.crypto:eddsa:jar:0.2.0:compile
++- junit:junit:jar:4.12:test
++- com.fasterxml.jackson.core:jackson-core:jar:2.9.5:test
++- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.5:test
++- com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:test
++- com.google.guava:guava:jar:21.0:test
++- org.bouncycastle:bcprov-jdk16:jar:1.46:test
++- org.hamcrest:hamcrest-all:jar:1.3:test
+\- org.immutables:value:jar:2.5.6:provided

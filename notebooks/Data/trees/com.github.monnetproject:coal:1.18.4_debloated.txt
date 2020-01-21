@@ -1,0 +1,127 @@
+com.github.monnetproject:coal:jar:1.18.4
++- junit:junit:jar:4.8.2:test
++- com.vaadin:vaadin:jar:6.5.4:compile
++- org.openrdf.sesame:sesame-repository-api:jar:2.6.10:compile
+|  +- org.openrdf.sesame:sesame-query:jar:2.6.10:compile
+|  |  +- (org.openrdf.sesame:sesame-model:jar:2.6.10:compile - omitted for duplicate)
+|  |  \- (org.openrdf.sesame:sesame-rio-api:jar:2.6.10:compile - omitted for duplicate)
+|  +- org.openrdf.sesame:sesame-rio-api:jar:2.6.10:compile
+|  |  +- (org.openrdf.sesame:sesame-model:jar:2.6.10:compile - omitted for duplicate)
+|  |  \- (org.openrdf.sesame:sesame-util:jar:2.6.10:compile - omitted for duplicate)
+|  +- org.openrdf.sesame:sesame-model:jar:2.6.10:compile
+|  |  \- (org.openrdf.sesame:sesame-util:jar:2.6.10:compile - omitted for duplicate)
+|  +- org.openrdf.sesame:sesame-util:jar:2.6.10:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.6.1:compile - omitted for duplicate)
+|  \- org.slf4j:slf4j-api:jar:1.6.1:compile
++- org.openrdf.sesame:sesame-sail-memory:jar:2.6.10:compile
+|  +- org.openrdf.sesame:sesame-sail-api:jar:2.6.10:compile
+|  |  +- (org.openrdf.sesame:sesame-query:jar:2.6.10:compile - omitted for duplicate)
+|  |  +- (org.openrdf.sesame:sesame-queryalgebra-model:jar:2.6.10:compile - omitted for duplicate)
+|  |  +- (org.openrdf.sesame:sesame-model:jar:2.6.10:compile - omitted for duplicate)
+|  |  +- (org.openrdf.sesame:sesame-util:jar:2.6.10:compile - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.6.1:compile - omitted for duplicate)
+|  +- org.openrdf.sesame:sesame-sail-inferencer:jar:2.6.10:compile
+|  |  +- (org.openrdf.sesame:sesame-sail-api:jar:2.6.10:compile - omitted for duplicate)
+|  |  +- (org.openrdf.sesame:sesame-queryalgebra-model:jar:2.6.10:compile - omitted for duplicate)
+|  |  +- (org.openrdf.sesame:sesame-query:jar:2.6.10:compile - omitted for duplicate)
+|  |  +- (org.openrdf.sesame:sesame-queryparser-api:jar:2.6.10:compile - omitted for duplicate)
+|  |  +- org.openrdf.sesame:sesame-queryparser-serql:jar:2.6.10:runtime
+|  |  |  +- (org.openrdf.sesame:sesame-queryparser-api:jar:2.6.10:runtime - omitted for duplicate)
+|  |  |  +- (org.openrdf.sesame:sesame-query:jar:2.6.10:runtime - omitted for duplicate)
+|  |  |  +- (org.openrdf.sesame:sesame-queryalgebra-model:jar:2.6.10:runtime - omitted for duplicate)
+|  |  |  +- (org.openrdf.sesame:sesame-model:jar:2.6.10:runtime - omitted for duplicate)
+|  |  |  +- (org.openrdf.sesame:sesame-util:jar:2.6.10:runtime - omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.6.1:runtime - omitted for duplicate)
+|  |  +- (org.openrdf.sesame:sesame-rio-api:jar:2.6.10:compile - omitted for duplicate)
+|  |  +- (org.openrdf.sesame:sesame-model:jar:2.6.10:compile - omitted for duplicate)
+|  |  +- (org.openrdf.sesame:sesame-util:jar:2.6.10:compile - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.6.1:compile - omitted for duplicate)
+|  +- org.openrdf.sesame:sesame-queryalgebra-evaluation:jar:2.6.10:compile
+|  |  +- (org.openrdf.sesame:sesame-queryalgebra-model:jar:2.6.10:compile - omitted for duplicate)
+|  |  +- (org.openrdf.sesame:sesame-model:jar:2.6.10:compile - omitted for duplicate)
+|  |  +- (org.openrdf.sesame:sesame-query:jar:2.6.10:compile - omitted for duplicate)
+|  |  +- org.openrdf.sesame:sesame-repository-sparql:jar:2.6.10:compile
+|  |  |  +- (org.openrdf.sesame:sesame-repository-api:jar:2.6.10:compile - omitted for duplicate)
+|  |  |  +- org.openrdf.sesame:sesame-http-client:jar:2.6.10:compile
+|  |  |  |  +- org.openrdf.sesame:sesame-http-protocol:jar:2.6.10:compile
+|  |  |  |  |  +- (org.openrdf.sesame:sesame-repository-api:jar:2.6.10:compile - omitted for duplicate)
+|  |  |  |  |  +- org.openrdf.sesame:sesame-rio-ntriples:jar:2.6.10:compile
+|  |  |  |  |  |  +- (org.openrdf.sesame:sesame-model:jar:2.6.10:compile - omitted for duplicate)
+|  |  |  |  |  |  \- (org.openrdf.sesame:sesame-rio-api:jar:2.6.10:compile - omitted for duplicate)
+|  |  |  |  |  +- (org.openrdf.sesame:sesame-model:jar:2.6.10:compile - omitted for duplicate)
+|  |  |  |  |  \- (org.openrdf.sesame:sesame-util:jar:2.6.10:compile - omitted for duplicate)
+|  |  |  |  +- (org.openrdf.sesame:sesame-query:jar:2.6.10:compile - omitted for duplicate)
+|  |  |  |  +- org.openrdf.sesame:sesame-queryresultio-api:jar:2.6.10:compile
+|  |  |  |  |  +- (org.openrdf.sesame:sesame-model:jar:2.6.10:compile - omitted for duplicate)
+|  |  |  |  |  +- (org.openrdf.sesame:sesame-query:jar:2.6.10:compile - omitted for duplicate)
+|  |  |  |  |  +- (org.openrdf.sesame:sesame-rio-api:jar:2.6.10:compile - omitted for duplicate)
+|  |  |  |  |  \- (org.openrdf.sesame:sesame-util:jar:2.6.10:compile - omitted for duplicate)
+|  |  |  |  +- (org.openrdf.sesame:sesame-rio-api:jar:2.6.10:compile - omitted for duplicate)
+|  |  |  |  +- (org.openrdf.sesame:sesame-model:jar:2.6.10:compile - omitted for duplicate)
+|  |  |  |  +- (org.openrdf.sesame:sesame-repository-api:jar:2.6.10:compile - omitted for duplicate)
+|  |  |  |  +- (org.openrdf.sesame:sesame-util:jar:2.6.10:compile - omitted for duplicate)
+|  |  |  |  +- commons-httpclient:commons-httpclient:jar:3.1:compile
+|  |  |  |  +- commons-codec:commons-codec:jar:1.4:runtime
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.6.1:compile - omitted for duplicate)
+|  |  |  \- org.openrdf.sesame:sesame-queryresultio-sparqlxml:jar:2.6.10:compile
+|  |  |     +- (org.openrdf.sesame:sesame-queryresultio-api:jar:2.6.10:compile - omitted for duplicate)
+|  |  |     +- (org.openrdf.sesame:sesame-query:jar:2.6.10:compile - omitted for duplicate)
+|  |  |     +- (org.openrdf.sesame:sesame-model:jar:2.6.10:compile - omitted for duplicate)
+|  |  |     \- (org.openrdf.sesame:sesame-util:jar:2.6.10:compile - omitted for duplicate)
+|  |  +- (org.openrdf.sesame:sesame-util:jar:2.6.10:compile - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.6.1:compile - omitted for duplicate)
+|  +- org.openrdf.sesame:sesame-queryalgebra-model:jar:2.6.10:compile
+|  |  +- (org.openrdf.sesame:sesame-model:jar:2.6.10:compile - omitted for duplicate)
+|  |  +- (org.openrdf.sesame:sesame-query:jar:2.6.10:compile - omitted for duplicate)
+|  |  \- (org.openrdf.sesame:sesame-util:jar:2.6.10:compile - omitted for duplicate)
+|  +- (org.openrdf.sesame:sesame-query:jar:2.6.10:compile - omitted for duplicate)
+|  +- (org.openrdf.sesame:sesame-model:jar:2.6.10:compile - omitted for duplicate)
+|  +- (org.openrdf.sesame:sesame-util:jar:2.6.10:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.6.1:compile - omitted for duplicate)
++- org.openrdf.sesame:sesame-rio-rdfxml:jar:2.6.10:compile
+|  +- (org.openrdf.sesame:sesame-model:jar:2.6.10:compile - omitted for duplicate)
+|  +- (org.openrdf.sesame:sesame-rio-api:jar:2.6.10:compile - omitted for duplicate)
+|  \- (org.openrdf.sesame:sesame-util:jar:2.6.10:compile - omitted for duplicate)
++- org.openrdf.sesame:sesame-rio-turtle:jar:2.6.10:compile
+|  +- (org.openrdf.sesame:sesame-model:jar:2.6.10:compile - omitted for duplicate)
+|  +- (org.openrdf.sesame:sesame-rio-api:jar:2.6.10:compile - omitted for duplicate)
+|  \- (org.openrdf.sesame:sesame-util:jar:2.6.10:compile - omitted for duplicate)
++- org.openrdf.sesame:sesame-repository-sail:jar:2.6.10:compile
+|  +- (org.openrdf.sesame:sesame-repository-api:jar:2.6.10:compile - omitted for duplicate)
+|  +- (org.openrdf.sesame:sesame-sail-api:jar:2.6.10:compile - omitted for duplicate)
+|  +- org.openrdf.sesame:sesame-queryparser-api:jar:2.6.10:compile
+|  |  +- (org.openrdf.sesame:sesame-query:jar:2.6.10:compile - omitted for duplicate)
+|  |  +- (org.openrdf.sesame:sesame-queryalgebra-model:jar:2.6.10:compile - omitted for duplicate)
+|  |  \- (org.openrdf.sesame:sesame-util:jar:2.6.10:compile - omitted for duplicate)
+|  +- (org.openrdf.sesame:sesame-queryalgebra-model:jar:2.6.10:compile - omitted for duplicate)
+|  +- (org.openrdf.sesame:sesame-query:jar:2.6.10:compile - omitted for duplicate)
+|  +- (org.openrdf.sesame:sesame-rio-api:jar:2.6.10:compile - omitted for duplicate)
+|  \- (org.openrdf.sesame:sesame-model:jar:2.6.10:compile - omitted for duplicate)
++- com.github.monnetproject:framework.config:jar:1.18.4:compile
++- com.github.monnetproject:framework.services:jar:1.18.4:compile
++- com.github.monnetproject:ontology.owlapi:jar:1.18.4:runtime
+|  +- net.sourceforge.owlapi:owlapi-api:jar:3.4:runtime
+|  +- net.sourceforge.owlapi:owlapi-apibinding:jar:3.4:runtime
+|  |  +- (net.sourceforge.owlapi:owlapi-api:jar:3.4:runtime - omitted for duplicate)
+|  |  +- net.sourceforge.owlapi:owlapi-impl:jar:3.4:runtime
+|  |  |  \- (net.sourceforge.owlapi:owlapi-api:jar:3.4:runtime - omitted for duplicate)
+|  |  +- (net.sourceforge.owlapi:owlapi-parsers:jar:3.4:runtime - omitted for duplicate)
+|  |  \- net.sourceforge.owlapi:owlapi-tools:jar:3.4:runtime
+|  |     \- (net.sourceforge.owlapi:owlapi-api:jar:3.4:runtime - omitted for duplicate)
+|  +- net.sourceforge.owlapi:owlapi-parsers:jar:3.4:runtime
+|  |  \- (net.sourceforge.owlapi:owlapi-api:jar:3.4:runtime - omitted for duplicate)
+|  +- log4j:log4j:jar:1.2.13:runtime
+|  \- (com.github.monnetproject:ontology:jar:1.18.4:compile - scope updated from runtime; omitted for duplicate)
++- com.github.monnetproject:coal.nlp.sim:jar:1.18.4:runtime
+|  +- (org.apache.felix:org.osgi.core:jar:1.4.0:runtime - omitted for duplicate)
+|  +- (com.github.monnetproject:framework.services:jar:1.18.4:runtime - omitted for duplicate)
+|  +- (com.github.monnetproject:language:jar:1.18.4:compile - scope updated from runtime; omitted for duplicate)
+|  \- (com.github.monnetproject:ontology:jar:1.18.4:runtime - omitted for duplicate)
++- com.github.monnetproject:ontology.label:jar:1.18.4:runtime
+|  +- (com.github.monnetproject:ontology:jar:1.18.4:runtime - omitted for duplicate)
+|  +- org.knallgrau.utils:textcat:jar:1.0.1:runtime
+|  \- (com.github.monnetproject:framework.services:jar:1.18.4:runtime - omitted for duplicate)
+\- com.github.monnetproject:coal.nlp.core:jar:1.18.4:compile
+   +- com.github.monnetproject:language:jar:1.18.4:compile
+   \- com.github.monnetproject:ontology:jar:1.18.4:compile
+      \- (com.github.monnetproject:language:jar:1.18.4:compile - omitted for duplicate)

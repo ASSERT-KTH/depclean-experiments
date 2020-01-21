@@ -1,0 +1,15 @@
+net.nemerosa.ontrack:ontrack-dsl:jar:3.34.14
++- org.codehaus.groovy:groovy-all:jar:2.4.12:compile
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- org.apache.httpcomponents:httpclient:jar:4.5.3:compile
+|  +- (org.apache.httpcomponents:httpcore:jar:4.4.6:compile - omitted for duplicate)
+|  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  \- commons-codec:commons-codec:jar:1.9:compile
++- org.apache.httpcomponents:httpcore:jar:4.4.6:compile
++- org.apache.httpcomponents:httpmime:jar:4.5.3:compile
+|  \- (org.apache.httpcomponents:httpclient:jar:4.5.3:compile - omitted for duplicate)
++- commons-logging:commons-logging:jar:1.2:compile
++- net.jodah:failsafe:jar:0.9.2:compile
+\- com.fasterxml.jackson.core:jackson-databind:jar:2.8.9:compile
+   +- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile
+   \- com.fasterxml.jackson.core:jackson-core:jar:2.8.9:compile

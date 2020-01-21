@@ -1,0 +1,31 @@
+io.github.stephenc.docker:docker-client-shaded:jar:8.11.1.0
++- org.slf4j:slf4j-api:jar:1.7.22:compile
++- org.apache.commons:commons-compress:jar:1.9:compile
++- commons-logging:commons-logging:jar:1.2:compile
++- commons-codec:commons-codec:jar:1.9:compile
++- com.github.jnr:jnr-unixsocket:jar:0.18:compile
+|  +- (com.github.jnr:jnr-ffi:jar:2.1.4:compile - omitted for duplicate)
+|  +- (com.github.jnr:jnr-constants:jar:0.9.8:compile - omitted for duplicate)
+|  +- (com.github.jnr:jnr-enxio:jar:0.16:compile - omitted for duplicate)
+|  \- (com.github.jnr:jnr-posix:jar:3.0.35:compile - omitted for duplicate)
++- com.github.jnr:jnr-ffi:jar:2.1.4:compile
+|  +- (com.github.jnr:jffi:jar:1.2.15:compile - omitted for duplicate)
+|  +- (com.github.jnr:jffi:jar:native:1.2.15:runtime - omitted for duplicate)
+|  +- org.ow2.asm:asm:jar:5.0.3:compile
+|  +- org.ow2.asm:asm-commons:jar:5.0.3:compile
+|  |  \- (org.ow2.asm:asm-tree:jar:5.0.3:compile - omitted for duplicate)
+|  +- org.ow2.asm:asm-analysis:jar:5.0.3:compile
+|  |  \- (org.ow2.asm:asm-tree:jar:5.0.3:compile - omitted for duplicate)
+|  +- org.ow2.asm:asm-tree:jar:5.0.3:compile
+|  |  \- (org.ow2.asm:asm:jar:5.0.3:compile - omitted for duplicate)
+|  +- org.ow2.asm:asm-util:jar:5.0.3:compile
+|  |  \- (org.ow2.asm:asm-tree:jar:5.0.3:compile - omitted for duplicate)
+|  \- (com.github.jnr:jnr-x86asm:jar:1.0.2:compile - omitted for duplicate)
++- com.github.jnr:jffi:jar:native:1.2.15:runtime
++- com.github.jnr:jnr-constants:jar:0.9.8:compile
++- com.github.jnr:jnr-posix:jar:3.0.35:compile
+|  +- (com.github.jnr:jnr-ffi:jar:2.1.4:compile - omitted for duplicate)
+|  \- (com.github.jnr:jnr-constants:jar:0.9.8:compile - omitted for duplicate)
++- org.bouncycastle:bcpkix-jdk15on:jar:1.59:compile
+|  \- (org.bouncycastle:bcprov-jdk15on:jar:1.59:compile - omitted for duplicate)
+\- org.bouncycastle:bcprov-jdk15on:jar:1.59:compile

@@ -1,0 +1,11 @@
+com.vladsch.flexmark:flexmark-ext-gfm-users:jar:0.34.22
++- com.vladsch.flexmark:flexmark-util:jar:0.34.22:compile
++- com.vladsch.flexmark:flexmark:jar:0.34.22:compile
+|  \- (com.vladsch.flexmark:flexmark-util:jar:0.34.22:compile - omitted for duplicate)
++- com.vladsch.flexmark:flexmark-test-util:jar:0.34.22:test
+|  +- (com.vladsch.flexmark:flexmark-util:jar:0.34.22:test - omitted for duplicate)
+|  \- junit:junit:jar:4.12:test
+|     \- org.hamcrest:hamcrest-core:jar:1.3:test
+\- com.vladsch.flexmark:flexmark-formatter:jar:0.34.22:compile
+   +- (com.vladsch.flexmark:flexmark-util:jar:0.34.22:compile - omitted for duplicate)
+   \- (com.vladsch.flexmark:flexmark:jar:0.34.22:compile - omitted for duplicate)

@@ -1,0 +1,47 @@
+org.webjars.npm:rc-trigger:jar:3.0.0-rc.3
++- org.webjars.npm:rc-animate:jar:3.0.0-rc.6:compile
+|  +- org.webjars.npm:component-classes:jar:1.2.6:compile
+|  |  \- org.webjars.npm:component-indexof:jar:0.0.3:compile
+|  +- org.webjars.npm:fbjs:jar:0.9.0-alpha.2:compile
+|  |  +- (org.webjars.npm:core-js:jar:3.0.0-beta.9:compile - omitted for duplicate)
+|  |  +- (org.webjars.npm:loose-envify:jar:1.4.0:compile - omitted for duplicate)
+|  |  +- org.webjars.npm:setimmediate:jar:1.0.5:compile
+|  |  +- org.webjars.npm:isomorphic-fetch:jar:2.2.1:compile
+|  |  |  +- org.webjars.npm:node-fetch:jar:2.0.0-alpha.9:compile
+|  |  |  \- org.webjars.npm:whatwg-fetch:jar:3.0.0:compile
+|  |  +- org.webjars.npm:ua-parser-js:jar:0.7.20:compile
+|  |  +- (org.webjars.npm:object-assign:jar:4.1.1:compile - omitted for duplicate)
+|  |  +- org.webjars.npm:fbjs-css-vars:jar:1.0.2:compile
+|  |  \- org.webjars.npm:promise:jar:7.3.1:compile
+|  |     \- org.webjars.npm:asap:jar:2.0.6:compile
+|  +- org.webjars.npm:react-lifecycles-compat:jar:3.0.4:compile
+|  +- (org.webjars.npm:babel-runtime:jar:7.0.0-beta.3:compile - omitted for duplicate)
+|  +- (org.webjars.npm:rc-util:jar:5.0.0-beta.0:compile - omitted for duplicate)
+|  +- (org.webjars.npm:prop-types:jar:15.7.2:compile - omitted for duplicate)
+|  +- (org.webjars.npm:classnames:jar:2.2.6:compile - omitted for duplicate)
+|  \- (org.webjars.npm:raf:jar:3.4.1:compile - omitted for duplicate)
++- org.webjars.npm:raf:jar:3.4.1:compile
+|  \- org.webjars.npm:performance-now:jar:2.1.0:compile
++- org.webjars.npm:rc-align:jar:2.4.5:compile
+|  +- (org.webjars.npm:babel-runtime:jar:7.0.0-beta.3:compile - omitted for duplicate)
+|  +- org.webjars.npm:dom-align:jar:1.8.2:compile
+|  +- (org.webjars.npm:prop-types:jar:15.7.2:compile - omitted for duplicate)
+|  \- (org.webjars.npm:rc-util:jar:5.0.0-beta.0:compile - omitted for duplicate)
++- org.webjars.npm:babel-runtime:jar:7.0.0-beta.3:compile
+|  +- org.webjars.npm:core-js:jar:3.0.0-beta.9:compile
+|  \- org.webjars.npm:regenerator-runtime:jar:0.11.1:compile
++- org.webjars.npm:rc-util:jar:5.0.0-beta.0:compile
+|  +- org.webjars.npm:add-dom-event-listener:jar:1.1.0:compile
+|  |  \- (org.webjars.npm:object-assign:jar:4.1.1:compile - omitted for duplicate)
+|  +- (org.webjars.npm:babel-runtime:jar:7.0.0-beta.3:compile - omitted for duplicate)
+|  \- org.webjars.npm:shallowequal:jar:0.2.2:compile
+|     \- org.webjars.npm:lodash.keys:jar:3.1.2:compile
+|        +- org.webjars.npm:lodash._getnative:jar:3.9.1:compile
+|        +- org.webjars.npm:lodash.isarguments:jar:3.1.0:compile
+|        \- org.webjars.npm:lodash.isarray:jar:3.0.4:compile
++- org.webjars.npm:classnames:jar:2.2.6:compile
+\- org.webjars.npm:prop-types:jar:15.7.2:compile
+   +- org.webjars.npm:loose-envify:jar:1.4.0:compile
+   |  \- org.webjars.npm:js-tokens:jar:4.0.0:compile
+   +- org.webjars.npm:object-assign:jar:4.1.1:compile
+   \- org.webjars.npm:react-is:jar:16.9.0-alpha.0:compile

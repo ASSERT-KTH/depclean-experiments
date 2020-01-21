@@ -1,0 +1,155 @@
+com.erudika:para-server:jar:1.28.2
++- com.erudika:para-core:jar:1.28.2:compile
+|  +- com.amazonaws:aws-java-sdk-core:jar:1.11.213:compile
+|  |  +- software.amazon.ion:ion-java:jar:1.0.2:compile
+|  |  \- joda-time:joda-time:jar:2.8.1:compile
+|  +- org.springframework:spring-core:jar:4.3.12.RELEASE:compile
+|  +- org.springframework:spring-context:jar:4.3.12.RELEASE:compile
+|  +- org.springframework:spring-beans:jar:4.3.12.RELEASE:compile
+|  +- javax.inject:javax.inject:jar:1:compile
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.9.2:compile
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.2:compile
+|  +- com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:jar:2.9.2:compile
+|  +- com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:jar:2.9.2:compile
+|  |  \- com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.9.2:compile
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.9.2:compile
+|  +- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.9.2:compile
+|  +- com.fasterxml.jackson.dataformat:jackson-dataformat-smile:jar:2.9.2:compile
+|  +- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.9.2:compile
+|  +- org.slf4j:slf4j-api:jar:1.7.25:compile
+|  +- org.slf4j:jcl-over-slf4j:jar:1.7.25:compile
+|  +- org.slf4j:jul-to-slf4j:jar:1.7.25:compile
+|  +- org.slf4j:log4j-over-slf4j:jar:1.7.25:compile
+|  +- ch.qos.logback:logback-core:jar:1.2.3:compile
+|  +- ch.qos.logback:logback-classic:jar:1.2.3:compile
+|  +- ch.qos.logback:logback-access:jar:1.2.3:compile
+|  +- commons-beanutils:commons-beanutils:jar:1.9.3:compile
+|  |  \- commons-collections:commons-collections:jar:3.2.2:compile
+|  +- com.typesafe:config:jar:1.3.2:compile
+|  +- org.hibernate:hibernate-validator:jar:5.4.2.Final:compile
+|  |  +- org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile
+|  |  \- com.fasterxml:classmate:jar:1.3.1:compile
+|  +- org.apache.commons:commons-lang3:jar:3.5:compile
+|  +- commons-io:commons-io:jar:2.5:compile
+|  +- com.eaio.uuid:uuid:jar:3.2:compile
+|  +- org.jsoup:jsoup:jar:1.10.2:compile
+|  +- com.vladsch.flexmark:flexmark:jar:0.28.24:compile
+|  |  \- com.vladsch.flexmark:flexmark-util:jar:0.28.24:compile
+|  +- com.vladsch.flexmark:flexmark-ext-emoji:jar:0.28.24:compile
+|  |  +- com.vladsch.flexmark:flexmark-jira-converter:jar:0.28.24:compile
+|  |  |  +- com.vladsch.flexmark:flexmark-ext-wikilink:jar:0.28.24:compile
+|  |  |  +- com.vladsch.flexmark:flexmark-ext-ins:jar:0.28.24:compile
+|  |  |  \- com.vladsch.flexmark:flexmark-ext-superscript:jar:0.28.24:compile
+|  |  \- com.vladsch.flexmark:flexmark-formatter:jar:0.28.24:compile
+|  +- com.vladsch.flexmark:flexmark-ext-gfm-strikethrough:jar:0.28.24:compile
+|  +- com.vladsch.flexmark:flexmark-ext-gfm-tasklist:jar:0.28.24:compile
+|  +- com.vladsch.flexmark:flexmark-ext-tables:jar:0.28.24:compile
+|  +- de.svenkubiak:jBCrypt:jar:0.4.1:compile
+|  +- com.samskivert:jmustache:jar:1.13:compile
+|  +- javax.el:javax.el-api:jar:2.2.5:compile
+|  \- org.glassfish.web:javax.el:jar:2.2.6:compile
++- org.springframework.security:spring-security-core:jar:4.2.3.RELEASE:compile
+|  +- aopalliance:aopalliance:jar:1.0:compile
+|  +- org.springframework:spring-aop:jar:4.3.9.RELEASE:compile
+|  \- org.springframework:spring-expression:jar:4.3.9.RELEASE:compile
++- org.springframework.security:spring-security-web:jar:4.2.3.RELEASE:compile
+|  \- org.springframework:spring-web:jar:4.3.9.RELEASE:compile
++- org.springframework.security:spring-security-openid:jar:4.2.3.RELEASE:compile
+|  +- org.openid4java:openid4java-nodeps:jar:0.9.6:compile
+|  |  \- net.jcip:jcip-annotations:jar:1.0:compile
+|  \- net.sourceforge.nekohtml:nekohtml:jar:1.9.20:runtime
+|     \- xerces:xercesImpl:jar:2.10.0:runtime
+|        \- xml-apis:xml-apis:jar:1.4.01:runtime
++- org.springframework.security:spring-security-config:jar:4.2.3.RELEASE:compile
++- org.springframework.boot:spring-boot-starter-jetty:jar:1.5.9.RELEASE:compile
+|  +- org.eclipse.jetty:jetty-servlets:jar:9.4.7.v20170914:compile
+|  |  +- org.eclipse.jetty:jetty-continuation:jar:9.4.7.v20170914:compile
+|  |  +- org.eclipse.jetty:jetty-http:jar:9.4.7.v20170914:compile
+|  |  +- org.eclipse.jetty:jetty-util:jar:9.4.7.v20170914:compile
+|  |  \- org.eclipse.jetty:jetty-io:jar:9.4.7.v20170914:compile
+|  +- org.eclipse.jetty:jetty-webapp:jar:9.4.7.v20170914:compile
+|  |  +- org.eclipse.jetty:jetty-xml:jar:9.4.7.v20170914:compile
+|  |  \- org.eclipse.jetty:jetty-servlet:jar:9.4.7.v20170914:compile
+|  |     \- org.eclipse.jetty:jetty-security:jar:9.4.7.v20170914:compile
+|  \- org.mortbay.jasper:apache-el:jar:8.0.33:compile
++- org.springframework.security:spring-security-ldap:jar:4.2.3.RELEASE:compile
+|  \- org.springframework:spring-tx:jar:4.3.9.RELEASE:compile
++- org.springframework.ldap:spring-ldap-core:jar:2.3.2.RELEASE:compile
++- com.h2database:h2:jar:1.4.196:compile
++- org.apache.lucene:lucene-core:jar:7.1.0:compile
++- org.apache.lucene:lucene-analyzers-common:jar:7.1.0:compile
++- org.apache.lucene:lucene-queryparser:jar:7.1.0:compile
+|  +- org.apache.lucene:lucene-queries:jar:7.1.0:compile
+|  \- org.apache.lucene:lucene-sandbox:jar:7.1.0:compile
++- com.github.ben-manes.caffeine:caffeine:jar:2.6.0:compile
++- org.glassfish.jersey.core:jersey-server:jar:2.26:compile
+|  +- org.glassfish.jersey.core:jersey-common:jar:2.26:compile
+|  |  \- org.glassfish.hk2:osgi-resource-locator:jar:1.0.1:compile
+|  +- org.glassfish.jersey.core:jersey-client:jar:2.26:compile
+|  +- javax.ws.rs:javax.ws.rs-api:jar:2.1:compile
+|  +- org.glassfish.jersey.media:jersey-media-jaxb:jar:2.26:compile
+|  +- javax.annotation:javax.annotation-api:jar:1.2:compile
+|  +- org.glassfish.hk2.external:javax.inject:jar:2.5.0-b42:compile
+|  \- javax.validation:validation-api:jar:1.1.0.Final:compile
++- org.glassfish.jersey.containers:jersey-container-servlet:jar:2.26:compile
+|  \- org.glassfish.jersey.containers:jersey-container-servlet-core:jar:2.26:compile
++- com.amazonaws:aws-java-sdk-dynamodb:jar:1.11.213:compile
+|  \- com.amazonaws:jmespath-java:jar:1.11.213:compile
++- com.amazonaws:aws-java-sdk-s3:jar:1.11.213:compile
+|  \- com.amazonaws:aws-java-sdk-kms:jar:1.11.213:compile
++- com.amazonaws:aws-java-sdk-ses:jar:1.11.213:compile
++- com.amazonaws:aws-java-sdk-sqs:jar:1.11.213:compile
++- com.amazonaws:aws-java-sdk-iot:jar:1.11.213:compile
++- com.google.inject:guice:jar:3.0:compile
++- io.dropwizard.metrics:metrics-core:jar:3.2.5:compile
++- org.apache.httpcomponents:httpcore:jar:4.4.6:compile
++- org.apache.httpcomponents:httpclient:jar:4.5.3:compile
+|  \- commons-codec:commons-codec:jar:1.9:compile
++- javax.servlet:javax.servlet-api:jar:3.1.0:compile
++- com.nimbusds:nimbus-jose-jwt:jar:5.1:compile
+|  +- com.github.stephenc.jcip:jcip-annotations:jar:1.0-1:compile
+|  \- net.minidev:json-smart:jar:2.3:compile (version selected from constraint [1.3.1,2.3])
+|     \- net.minidev:accessors-smart:jar:1.2:compile
+|        \- org.ow2.asm:asm:jar:5.0.4:compile
++- com.microsoft.azure.iothub-java-client:iothub-java-service-client:jar:1.0.11:compile
+|  +- com.google.code.gson:gson:jar:2.5:compile
+|  +- org.glassfish:javax.json:jar:1.0.4:compile
+|  \- com.microsoft.azure.iothub-java-client:websocket-transport-layer:jar:0.1.1:compile
++- com.microsoft.azure:azure-eventhubs:jar:0.11.0:compile
++- com.erudika:para-client:jar:1.28.2:test
++- org.elasticmq:elasticmq-rest-sqs_2.11:jar:0.13.8:test
+|  +- org.scala-lang:scala-library:jar:2.11.11:test
+|  +- org.elasticmq:elasticmq-core_2.11:jar:0.13.8:test
+|  +- org.scala-lang.modules:scala-xml_2.11:jar:1.0.6:test
+|  +- com.typesafe.akka:akka-actor_2.11:jar:2.5.3:test
+|  |  \- org.scala-lang.modules:scala-java8-compat_2.11:jar:0.7.0:test
+|  +- com.typesafe.akka:akka-slf4j_2.11:jar:2.5.3:test
+|  +- com.typesafe.akka:akka-http_2.11:jar:10.0.9:test
+|  |  \- com.typesafe.akka:akka-http-core_2.11:jar:10.0.9:test
+|  |     \- com.typesafe.akka:akka-parsing_2.11:jar:10.0.9:test
+|  +- com.typesafe.akka:akka-stream_2.11:jar:2.5.3:test
+|  |  +- org.reactivestreams:reactive-streams:jar:1.0.0:test
+|  |  \- com.typesafe:ssl-config-core_2.11:jar:0.2.1:test
+|  |     \- org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.0.4:test
+|  +- io.spray:spray-json_2.11:jar:1.3.3:test
+|  +- org.scala-lang.modules:scala-async_2.11:jar:0.9.6:test
+|  \- com.typesafe.scala-logging:scala-logging_2.11:jar:3.5.0:test
+|     \- org.scala-lang:scala-reflect:jar:2.11.8:test
++- org.springframework:spring-mock:jar:2.0.8:test
++- org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-inmemory:jar:2.26:test
+|  \- org.glassfish.jersey.test-framework:jersey-test-framework-core:jar:2.26:test
++- org.springframework.ldap:spring-ldap-test:jar:2.3.2.RELEASE:test
+|  +- com.google.code.typica:typica:jar:1.3:test
+|  |  +- commons-logging:commons-logging:jar:1.1.1:test
+|  |  \- commons-httpclient:commons-httpclient:jar:3.1:test
+|  +- commons-lang:commons-lang:jar:2.6:test
+|  +- javax.activation:activation:jar:1.1:compile
+|  +- org.springframework.ldap:spring-ldap-ldif-core:jar:2.3.2.RELEASE:test
+|  \- org.springframework:spring-test:jar:4.3.4.RELEASE:test
++- com.vmlens:concurrent-junit:jar:1.0.0:test
++- org.mockito:mockito-core:jar:2.11.0:test
+|  +- net.bytebuddy:byte-buddy:jar:1.7.4:test
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.7.4:test
+|  \- org.objenesis:objenesis:jar:2.6:test
+\- junit:junit:jar:4.12:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

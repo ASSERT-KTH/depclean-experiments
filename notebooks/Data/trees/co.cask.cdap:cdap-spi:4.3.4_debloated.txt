@@ -1,0 +1,4 @@
+co.cask.cdap:cdap-spi:jar:4.3.4
+\- co.cask.cdap:cdap-api-common:jar:4.3.4:compile
+   +- (com.google.code.findbugs:jsr305:jar:2.0.1:compile - omitted for duplicate)
+   \- com.google.code.gson:gson:jar:2.2.4:compile

@@ -1,0 +1,15 @@
+org.dstadler:commons-dost:jar:1.0.0.25
++- commons-io:commons-io:jar:2.6:compile
++- org.apache.commons:commons-lang3:jar:3.7:compile
++- org.apache.httpcomponents:httpclient:jar:4.5.4:compile
+|  +- org.apache.httpcomponents:httpcore:jar:4.4.7:compile
+|  +- commons-logging:commons-logging:jar:1.2:compile
+|  \- commons-codec:commons-codec:jar:1.10:compile
++- org.apache.commons:commons-exec:jar:1.3:compile
++- log4j:log4j:jar:1.2.17:compile
++- net.java.dev.jna:jna:jar:3.4.0:compile
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- (org.dstadler:commons-dost:jar:1.0.0.22:test - omitted for cycle)
+\- org.dstadler:commons-test:jar:1.0.0.13:test
+   \- (org.apache.commons:commons-lang3:jar:3.6:test - omitted for conflict with 3.7)

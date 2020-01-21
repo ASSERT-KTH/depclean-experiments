@@ -1,0 +1,27 @@
+org.wso2.carbon.devicemgt-plugins:org.wso2.extension.siddhi.execution.json:bundle:4.0.109
++- org.wso2.siddhi:siddhi-core:jar:3.1.2:compile
+|  +- (org.wso2.siddhi:siddhi-query-api:jar:3.1.2:compile - omitted for duplicate)
+|  +- org.wso2.siddhi:siddhi-query-compiler:jar:3.1.2:compile
+|  |  +- (org.wso2.siddhi:siddhi-query-api:jar:3.1.2:compile - omitted for duplicate)
+|  |  +- (org.apache.log4j.wso2:log4j:jar:1.2.17.wso2v1:compile - omitted for duplicate)
+|  |  +- org.mvel:mvel2:jar:2.2.1.Final:compile
+|  |  \- org.antlr:antlr4-runtime:jar:4.5.1:compile
+|  +- org.apache.log4j.wso2:log4j:jar:1.2.17.wso2v1:compile
+|  |  \- (log4j:log4j:jar:1.2.17:compile - omitted for duplicate)
+|  +- org.slf4j:slf4j-simple:jar:1.7.12:compile
+|  |  \- org.slf4j:slf4j-api:jar:1.7.12:compile
+|  +- org.wso2.orbit.com.lmax:disruptor:jar:3.3.2.wso2v2:compile
+|  +- com.google.guava:guava:jar:19.0:compile
+|  +- org.quartz-scheduler.wso2:quartz:jar:2.1.1.wso2v1:compile
+|  |  \- org.quartz-scheduler:quartz:jar:2.1.1:compile
+|  |     +- c3p0:c3p0:jar:0.9.1.1:compile
+|  |     \- (org.slf4j:slf4j-api:jar:1.6.1:compile - omitted for conflict with 1.7.12)
+|  \- io.dropwizard.metrics:metrics-core:jar:3.1.0:compile
+|     \- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for conflict with 1.7.12)
++- org.wso2.siddhi:siddhi-query-api:jar:3.1.2:compile
+|  \- (org.apache.log4j.wso2:log4j:jar:1.2.17.wso2v1:compile - omitted for duplicate)
++- log4j:log4j:jar:1.2.17:compile
++- org.json.wso2:json:jar:3.0.0.wso2v1:compile
+|  \- org.json:json:jar:20140107:compile
+\- org.testng:testng:jar:6.8:test
+   \- com.beust:jcommander:jar:1.27:test

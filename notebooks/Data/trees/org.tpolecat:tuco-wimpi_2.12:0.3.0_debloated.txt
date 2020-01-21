@@ -1,0 +1,2 @@
+org.tpolecat:tuco-wimpi_2.12:jar:0.3.0
+\- org.scala-lang:scala-library:jar:2.12.4:compile

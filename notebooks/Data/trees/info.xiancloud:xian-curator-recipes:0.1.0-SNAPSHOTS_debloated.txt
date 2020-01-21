@@ -1,0 +1,58 @@
+info.xiancloud:xian-curator-recipes:jar:0.1.0-SNAPSHOTS
++- info.xiancloud:xian-core:jar:0.1.0-SNAPSHOTS:compile
+|  +- io.netty:netty-all:jar:4.1.9.Final:compile
+|  +- com.google.guava:guava:jar:21.0:compile
+|  +- com.alibaba:fastjson:jar:1.2.38:compile
+|  +- org.quartz-scheduler:quartz:jar:2.3.0:compile
+|  |  +- com.mchange:c3p0:jar:0.9.5.2:compile
+|  |  +- com.zaxxer:HikariCP-java6:jar:2.3.13:compile
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - omitted for conflict with 1.7.7)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for conflict with 1.6.1)
+|  +- org.quartz-scheduler:quartz-jobs:jar:2.3.0:compile
+|  +- commons-io:commons-io:jar:2.5:compile
+|  +- org.reflections:reflections:jar:0.9.11:compile
+|  |  +- (com.google.guava:guava:jar:20.0:compile - omitted for conflict with 21.0)
+|  |  \- org.javassist:javassist:jar:3.21.0-GA:compile
+|  \- com.fathzer:javaluator:jar:3.0.1:compile
++- org.apache.zookeeper:zookeeper:jar:3.4.10:compile
+|  +- org.slf4j:slf4j-api:jar:1.6.1:compile
+|  +- org.slf4j:slf4j-log4j12:jar:1.6.1:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.6.1:compile - omitted for duplicate)
+|  |  \- (log4j:log4j:jar:1.2.16:compile - omitted for duplicate)
+|  +- log4j:log4j:jar:1.2.16:compile
+|  +- jline:jline:jar:0.9.94:compile
+|  |  \- (junit:junit:jar:3.8.1:compile - omitted for conflict with 4.12)
+|  \- io.netty:netty:jar:3.10.5.Final:compile
++- org.apache.commons:commons-math3:jar:3.6.1:compile
++- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
++- info.xiancloud:xian-curator-framework:jar:0.1.0-SNAPSHOTS:compile
+|  +- (info.xiancloud:xian-core:jar:0.1.0-SNAPSHOTS:compile - omitted for duplicate)
+|  +- (org.apache.zookeeper:zookeeper:jar:3.4.10:compile - omitted for duplicate)
+|  +- (org.apache.commons:commons-lang3:jar:3.6:compile - omitted for duplicate)
+|  +- (org.apache.commons:commons-math3:jar:3.6.1:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.0:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.0:compile - omitted for duplicate)
+|  \- info.xiancloud:xian-curator-client:jar:0.1.0-SNAPSHOTS:compile
+|     +- (info.xiancloud:xian-core:jar:0.1.0-SNAPSHOTS:compile - omitted for duplicate)
+|     +- (org.apache.zookeeper:zookeeper:jar:3.4.10:compile - omitted for duplicate)
+|     +- (org.apache.commons:commons-lang3:jar:3.6:compile - omitted for duplicate)
+|     +- (org.apache.commons:commons-math3:jar:3.6.1:compile - omitted for duplicate)
+|     +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.0:compile - omitted for duplicate)
+|     +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile - omitted for duplicate)
+|     \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.0:compile - omitted for duplicate)
++- junit:junit:jar:4.12:test (scope not updated to compile)
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.testng:testng:jar:6.11:test
+|  +- com.beust:jcommander:jar:1.64:test
+|  \- org.yaml:snakeyaml:jar:1.17:test
++- org.mockito:mockito-all:jar:1.10.19:test
+\- info.xiancloud:xian-curator-test:jar:0.1.0-SNAPSHOTS:test
+   +- (info.xiancloud:xian-core:jar:0.1.0-SNAPSHOTS:test - omitted for duplicate)
+   +- (org.apache.zookeeper:zookeeper:jar:3.4.10:test - omitted for duplicate)
+   +- (org.apache.commons:commons-lang3:jar:3.6:test - omitted for duplicate)
+   +- (org.apache.commons:commons-math3:jar:3.6.1:test - omitted for duplicate)
+   +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.0:test - omitted for duplicate)
+   +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:test - omitted for duplicate)
+   +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.0:test - omitted for duplicate)
+   \- (org.testng:testng:jar:6.11:test - omitted for duplicate)

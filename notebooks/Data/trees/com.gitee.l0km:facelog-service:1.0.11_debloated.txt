@@ -1,0 +1,88 @@
+com.gitee.l0km:facelog-service:jar:1.0.11
++- com.gitee.l0km:facelog-db:jar:1.0.11:compile
+|  +- mysql:mysql-connector-java:jar:5.1.43:compile
+|  +- c3p0:c3p0:jar:0.9.0.4:compile
+|  +- commons-lang:commons-lang:jar:2.1:compile
+|  +- com.facebook.swift:swift-annotations:jar:0.14.2:compile
+|  \- (com.google.guava:guava:jar:20.0:compile - version managed from 16.0.1; omitted for duplicate)
++- com.gitee.l0km:simplemq:jar:1.0.5:compile
+|  +- redis.clients:jedis:jar:2.8.2:compile
+|  |  \- org.apache.commons:commons-pool2:jar:2.4.2:compile
+|  +- com.alibaba:fastjson:jar:1.2.38:compile
+|  +- (com.google.guava:guava:jar:20.0:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
++- com.gitee.l0km:common-base:jar:1.0.2:compile
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- org.slf4j:slf4j-log4j12:jar:1.7.25:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  \- log4j:log4j:jar:1.2.17:compile
++- com.facebook.swift:swift-service:jar:0.14.2:compile
+|  +- (com.facebook.swift:swift-annotations:jar:0.14.2:compile - omitted for duplicate)
+|  +- com.facebook.swift:swift-codec:jar:0.14.2:compile
+|  |  +- (com.facebook.swift:swift-annotations:jar:0.14.2:compile - omitted for duplicate)
+|  |  +- (org.apache.thrift:libthrift:jar:0.9.1:compile - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:20.0:compile - version managed from 16.0.1; omitted for duplicate)
+|  |  +- org.ow2.asm:asm-all:jar:4.1:compile
+|  |  +- com.thoughtworks.paranamer:paranamer:jar:2.5.2:compile
+|  |  \- (com.google.code.findbugs:annotations:jar:2.0.2:compile - omitted for duplicate)
+|  +- org.apache.thrift:libthrift:jar:0.9.1:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.5.8; omitted for duplicate)
+|  |  +- (org.apache.commons:commons-lang3:jar:3.7:compile - version managed from 3.1; omitted for duplicate)
+|  |  +- org.apache.httpcomponents:httpclient:jar:4.2.5:compile
+|  |  |  +- (org.apache.httpcomponents:httpcore:jar:4.2.4:compile - omitted for duplicate)
+|  |  |  +- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for conflict with 1.2)
+|  |  |  \- commons-codec:commons-codec:jar:1.6:compile
+|  |  \- org.apache.httpcomponents:httpcore:jar:4.2.4:compile
+|  +- (com.google.guava:guava:jar:20.0:compile - version managed from 16.0.1; omitted for duplicate)
+|  +- com.facebook.nifty:nifty-client:jar:0.14.1:compile
+|  |  +- (com.facebook.nifty:nifty-core:jar:0.14.1:compile - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:20.0:compile - version managed from 16.0.1; omitted for duplicate)
+|  |  +- com.google.inject:guice:jar:3.0:compile
+|  |  |  +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  |  |  \- aopalliance:aopalliance:jar:1.0:compile
+|  |  +- (com.google.code.findbugs:annotations:jar:2.0.2:compile - omitted for duplicate)
+|  |  +- (io.airlift:units:jar:0.91:compile - omitted for duplicate)
+|  |  +- (io.netty:netty:jar:3.7.0.Final:compile - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.5; omitted for duplicate)
+|  +- com.facebook.nifty:nifty-core:jar:0.14.1:compile
+|  |  +- javax.inject:javax.inject:jar:1:compile
+|  |  +- (com.google.guava:guava:jar:20.0:compile - version managed from 16.0.1; omitted for duplicate)
+|  |  +- (com.google.inject:guice:jar:3.0:compile - omitted for duplicate)
+|  |  +- com.google.inject.extensions:guice-multibindings:jar:3.0:compile
+|  |  |  \- (com.google.inject:guice:jar:3.0:compile - omitted for duplicate)
+|  |  +- (io.airlift:units:jar:0.91:compile - omitted for duplicate)
+|  |  +- (io.netty:netty:jar:3.7.0.Final:compile - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.5; omitted for duplicate)
+|  |  \- (com.google.code.findbugs:annotations:jar:2.0.2:compile - omitted for duplicate)
+|  +- io.airlift:configuration:jar:0.91:compile
+|  |  +- javax.validation:validation-api:jar:1.1.0.Final:compile
+|  |  +- org.apache.bval:bval-jsr303:jar:0.5:compile
+|  |  |  +- org.apache.bval:bval-core:jar:0.5:compile
+|  |  |  |  \- (org.apache.commons:commons-lang3:jar:3.7:compile - version managed from 3.1; omitted for duplicate)
+|  |  |  \- (org.apache.commons:commons-lang3:jar:3.7:compile - version managed from 3.1; omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:20.0:compile - version managed from 16.0.1; omitted for duplicate)
+|  |  +- (com.google.inject:guice:jar:3.0:compile - omitted for duplicate)
+|  |  \- cglib:cglib-nodep:jar:2.2.2:compile
+|  +- io.airlift:stats:jar:0.91:compile
+|  |  +- (io.airlift:units:jar:0.91:compile - omitted for duplicate)
+|  |  +- (org.weakref:jmxutils:jar:1.16:compile - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:20.0:compile - version managed from 16.0.1; omitted for duplicate)
+|  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.1.4:compile
+|  |  +- (com.google.code.findbugs:annotations:jar:2.0.2:compile - omitted for duplicate)
+|  |  +- io.airlift:slice:jar:0.5:compile
+|  |  \- org.openjdk.jol:jol-core:jar:0.1:compile
+|  +- io.airlift:units:jar:0.91:compile
+|  |  +- (javax.validation:validation-api:jar:1.1.0.Final:compile - omitted for duplicate)
+|  |  \- (com.google.guava:guava:jar:20.0:compile - version managed from 16.0.1; omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.5; omitted for duplicate)
+|  +- io.netty:netty:jar:3.7.0.Final:compile
+|  +- com.google.code.findbugs:annotations:jar:2.0.2:compile
+|  \- org.weakref:jmxutils:jar:1.16:compile
++- org.apache.commons:commons-lang3:jar:3.7:compile
++- com.google.guava:guava:jar:20.0:compile
++- org.apache.commons:commons-configuration2:jar:2.1.1:compile
+|  +- (org.apache.commons:commons-lang3:jar:3.7:compile - version managed from 3.3.2; omitted for duplicate)
+|  \- commons-logging:commons-logging:jar:1.2:compile
++- commons-jxpath:commons-jxpath:jar:1.3:test
+\- junit:junit:jar:4.12:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

@@ -1,0 +1,39 @@
+com.heroku.api:heroku-json-jersey-client:jar:0.32
++- com.heroku.api:heroku-api:jar:0.32:compile
++- org.glassfish.jersey.media:jersey-media-json-jackson:jar:2.24:compile
+|  +- org.glassfish.jersey.core:jersey-common:jar:2.24:compile
+|  |  +- javax.ws.rs:javax.ws.rs-api:jar:2.0.1:compile
+|  |  +- javax.annotation:javax.annotation-api:jar:1.2:compile
+|  |  +- org.glassfish.jersey.bundles.repackaged:jersey-guava:jar:2.24:compile
+|  |  +- org.glassfish.hk2:hk2-api:jar:2.5.0-b05:compile
+|  |  |  +- org.glassfish.hk2:hk2-utils:jar:2.5.0-b05:compile
+|  |  |  \- org.glassfish.hk2.external:aopalliance-repackaged:jar:2.5.0-b05:compile
+|  |  +- org.glassfish.hk2.external:javax.inject:jar:2.5.0-b05:compile
+|  |  +- org.glassfish.hk2:hk2-locator:jar:2.5.0-b05:compile
+|  |  |  +- (org.glassfish.hk2.external:javax.inject:jar:2.5.0-b05:compile - omitted for duplicate)
+|  |  |  +- (org.glassfish.hk2.external:aopalliance-repackaged:jar:2.5.0-b05:compile - omitted for duplicate)
+|  |  |  +- (org.glassfish.hk2:hk2-api:jar:2.5.0-b05:compile - omitted for duplicate)
+|  |  |  +- (org.glassfish.hk2:hk2-utils:jar:2.5.0-b05:compile - omitted for duplicate)
+|  |  |  \- org.javassist:javassist:jar:3.20.0-GA:compile
+|  |  \- org.glassfish.hk2:osgi-resource-locator:jar:1.0.1:compile
+|  +- org.glassfish.jersey.ext:jersey-entity-filtering:jar:2.24:compile
+|  |  \- (javax.ws.rs:javax.ws.rs-api:jar:2.0.1:compile - omitted for duplicate)
+|  +- com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:jar:2.5.4:compile
+|  |  +- com.fasterxml.jackson.core:jackson-core:jar:2.5.4:compile
+|  |  \- com.fasterxml.jackson.core:jackson-databind:jar:2.5.4:compile
+|  |     +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.5.0:compile - omitted for conflict with 2.5.4)
+|  |     \- (com.fasterxml.jackson.core:jackson-core:jar:2.5.4:compile - omitted for duplicate)
+|  +- com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:jar:2.5.4:compile
+|  |  +- (com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:jar:2.5.4:compile - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.5.4:compile - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.5.4:compile - omitted for duplicate)
+|  |  \- com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.5.4:compile
+|  |     +- (com.fasterxml.jackson.core:jackson-core:jar:2.5.4:compile - omitted for duplicate)
+|  |     \- (com.fasterxml.jackson.core:jackson-databind:jar:2.5.4:compile - omitted for duplicate)
+|  \- com.fasterxml.jackson.core:jackson-annotations:jar:2.5.4:compile
++- org.codehaus.jackson:jackson-mapper-asl:jar:1.9.10:compile
+|  \- (org.codehaus.jackson:jackson-core-asl:jar:1.9.10:compile - omitted for duplicate)
++- org.codehaus.jackson:jackson-core-asl:jar:1.9.10:compile
+\- org.testng:testng:jar:6.8.21:test
+   +- org.beanshell:bsh:jar:2.0b4:test
+   \- com.beust:jcommander:jar:1.27:test

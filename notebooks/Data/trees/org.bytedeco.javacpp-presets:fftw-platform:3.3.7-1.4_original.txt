@@ -1,0 +1,21 @@
+org.bytedeco.javacpp-presets:fftw-platform:jar:3.3.7-1.4
++- org.bytedeco.javacpp-presets:fftw:jar:3.3.7-1.4:compile
+|  \- org.bytedeco:javacpp:jar:1.4:compile
++- org.bytedeco.javacpp-presets:fftw:jar:android-arm:3.3.7-1.4:compile
+|  \- (org.bytedeco:javacpp:jar:1.4:compile - omitted for duplicate)
++- org.bytedeco.javacpp-presets:fftw:jar:android-x86:3.3.7-1.4:compile
+|  \- (org.bytedeco:javacpp:jar:1.4:compile - omitted for duplicate)
++- org.bytedeco.javacpp-presets:fftw:jar:linux-x86:3.3.7-1.4:compile
+|  \- (org.bytedeco:javacpp:jar:1.4:compile - omitted for duplicate)
++- org.bytedeco.javacpp-presets:fftw:jar:linux-x86_64:3.3.7-1.4:compile
+|  \- (org.bytedeco:javacpp:jar:1.4:compile - omitted for duplicate)
++- org.bytedeco.javacpp-presets:fftw:jar:linux-armhf:3.3.7-1.4:compile
+|  \- (org.bytedeco:javacpp:jar:1.4:compile - omitted for duplicate)
++- org.bytedeco.javacpp-presets:fftw:jar:linux-ppc64le:3.3.7-1.4:compile
+|  \- (org.bytedeco:javacpp:jar:1.4:compile - omitted for duplicate)
++- org.bytedeco.javacpp-presets:fftw:jar:macosx-x86_64:3.3.7-1.4:compile
+|  \- (org.bytedeco:javacpp:jar:1.4:compile - omitted for duplicate)
++- org.bytedeco.javacpp-presets:fftw:jar:windows-x86:3.3.7-1.4:compile
+|  \- (org.bytedeco:javacpp:jar:1.4:compile - omitted for duplicate)
+\- org.bytedeco.javacpp-presets:fftw:jar:windows-x86_64:3.3.7-1.4:compile
+   \- (org.bytedeco:javacpp:jar:1.4:compile - omitted for duplicate)

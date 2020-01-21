@@ -1,0 +1,249 @@
+io.joynr.java:integration-tests:jar:0.33.1
++- com.jayway.restassured:rest-assured:jar:1.8.1:test
+|  +- org.codehaus.groovy:groovy-xml:jar:2.1.2:test
+|  +- (org.apache.httpcomponents:httpclient:jar:4.3:compile - version managed from 4.5; scope updated from test; omitted for duplicate)
+|  +- (org.apache.httpcomponents:httpmime:jar:4.3:compile - version managed from 4.5; scope updated from test; omitted for duplicate)
+|  +- org.hamcrest:hamcrest-core:jar:1.3:test (version managed from 1.2.1)
+|  +- org.hamcrest:hamcrest-library:jar:1.3:test (version managed from 1.2.1)
+|  |  \- (org.hamcrest:hamcrest-core:jar:1.3:test - version managed from 1.2.1; omitted for duplicate)
+|  +- org.ccil.cowan.tagsoup:tagsoup:jar:1.2.1:test
+|  +- com.jayway.restassured:json-path:jar:1.8.1:test
+|  |  +- org.codehaus.groovy:groovy-json:jar:2.1.2:test
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.8:test - version managed from 2.0.5; omitted for duplicate)
+|  |  +- org.codehaus.jackson:jackson-core-asl:jar:1.8.5:test
+|  |  +- org.codehaus.jackson:jackson-mapper-asl:jar:1.8.5:test
+|  |  |  \- (org.codehaus.jackson:jackson-core-asl:jar:1.8.5:test - omitted for duplicate)
+|  |  +- com.google.code.gson:gson:jar:2.1:test (version managed from 1.7.2)
+|  |  +- com.googlecode.json-simple:json-simple:jar:1.1:test
+|  |  \- com.jayway.restassured:rest-assured-common:jar:1.8.1:test
+|  |     \- (org.apache.commons:commons-lang3:jar:3.1:test - omitted for duplicate)
+|  \- com.jayway.restassured:xml-path:jar:1.8.1:test
+|     +- (org.codehaus.groovy:groovy-xml:jar:2.1.2:test - omitted for duplicate)
+|     +- (com.jayway.restassured:rest-assured-common:jar:1.8.1:test - omitted for duplicate)
+|     \- (org.apache.commons:commons-lang3:jar:3.1:test - omitted for conflict with 3.4)
++- org.codehaus.groovy:groovy-all:jar:2.1.2:test
++- io.joynr.java.core:clustercontroller-inprocess-runtime:jar:0.33.1:test
+|  +- io.joynr.java.core:clustercontroller:jar:0.33.1:test
+|  |  +- (io.joynr.java.core:libjoynr:jar:0.33.1:test - omitted for duplicate)
+|  |  +- io.joynr.java.common:infrastructure-common:jar:0.33.1:test
+|  |  |  +- (io.joynr.java:javaapi:jar:0.33.1:test - omitted for duplicate)
+|  |  |  +- (io.joynr.java.common:discovery-common:jar:0.33.1:test - omitted for duplicate)
+|  |  |  +- io.joynr.java.common:access-control-common:jar:0.33.1:test
+|  |  |  |  +- (io.joynr.java:javaapi:jar:0.33.1:test - omitted for duplicate)
+|  |  |  |  +- (com.google.code.findbugs:annotations:jar:2.0.1:test - omitted for duplicate)
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)
+|  |  |  +- (io.joynr.java.messaging:messaging-common:jar:0.33.1:test - omitted for duplicate)
+|  |  |  +- (net.sf.ehcache:ehcache:jar:2.8.1:test - omitted for duplicate)
+|  |  |  +- (com.google.code.findbugs:annotations:jar:2.0.1:test - omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:test - version managed from 1.6.6; omitted for duplicate)
+|  |  +- (org.reflections:reflections:jar:0.9.8:test - omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpclient:jar:4.3:test - version managed from 4.2.1; omitted for duplicate)
+|  |  +- (com.google.inject.extensions:guice-assistedinject:jar:3.0:test - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:11.0.2:test - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.8:test - version managed from 2.8.0; omitted for duplicate)
+|  |  +- (com.google.code.findbugs:annotations:jar:2.0.1:test - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:test - version managed from 1.6.6; omitted for duplicate)
+|  +- (com.google.code.findbugs:annotations:jar:2.0.1:test - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.6.6; scope updated from test; omitted for duplicate)
++- io.joynr.java.core:clustercontroller-websocket-runtime:jar:0.33.1:test
+|  +- io.joynr.java.messaging.websocket:joynr-websocket-server:jar:0.33.1:test
+|  |  +- (io.joynr.java:javaapi:jar:0.33.1:test - omitted for duplicate)
+|  |  +- io.joynr.java.messaging.websocket:joynr-websocket-common:jar:0.33.1:test
+|  |  |  +- (io.joynr.java:javaapi:jar:0.33.1:test - omitted for duplicate)
+|  |  |  +- (org.eclipse.jetty.websocket:websocket-api:jar:9.2.13.v20150730:test - omitted for duplicate)
+|  |  |  +- (io.joynr.java.messaging:messaging-common:jar:0.33.1:test - omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.25:test - version managed from 1.6.6; omitted for duplicate)
+|  |  |  \- (com.google.code.findbugs:annotations:jar:2.0.1:test - omitted for duplicate)
+|  |  +- org.eclipse.jetty:jetty-server:jar:9.2.13.v20150730:test
+|  |  |  +- (javax.servlet:javax.servlet-api:jar:3.1.0:test - omitted for duplicate)
+|  |  |  +- (org.eclipse.jetty:jetty-http:jar:9.2.13.v20150730:test - omitted for duplicate)
+|  |  |  \- (org.eclipse.jetty:jetty-io:jar:9.2.13.v20150730:test - omitted for duplicate)
+|  |  +- (org.eclipse.jetty:jetty-servlet:jar:9.2.13.v20150730:test - omitted for duplicate)
+|  |  +- (org.eclipse.jetty.websocket:websocket-server:jar:9.2.13.v20150730:test - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:test - version managed from 1.6.6; omitted for duplicate)
+|  |  \- (com.google.code.findbugs:annotations:jar:2.0.1:test - omitted for duplicate)
+|  +- (io.joynr.java.core:clustercontroller:jar:0.33.1:test - omitted for duplicate)
+|  +- (com.google.code.findbugs:annotations:jar:2.0.1:test - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:test - version managed from 1.6.6; omitted for duplicate)
++- io.joynr.java.core:libjoynr-websocket-runtime:jar:0.33.1:test
+|  +- io.joynr.java.messaging.websocket:joynr-websocket-client:jar:0.33.1:test
+|  |  +- (io.joynr.java:javaapi:jar:0.33.1:test - omitted for duplicate)
+|  |  +- (org.eclipse.jetty.websocket:websocket-client:jar:9.2.13.v20150730:test - omitted for duplicate)
+|  |  +- (io.joynr.java.messaging.websocket:joynr-websocket-common:jar:0.33.1:test - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:test - version managed from 1.6.6; omitted for duplicate)
+|  |  \- (com.google.code.findbugs:annotations:jar:2.0.1:test - omitted for duplicate)
+|  +- io.joynr.java.core:libjoynr:jar:0.33.1:test
+|  |  +- (io.joynr.java.messaging:messaging-common:jar:0.33.1:test - omitted for duplicate)
+|  |  +- (io.joynr.java.common:discovery-common:jar:0.33.1:test - omitted for duplicate)
+|  |  +- (org.reflections:reflections:jar:0.9.8:test - omitted for duplicate)
+|  |  +- (io.joynr.smrf.java:smrf:jar:0.2.2:test - omitted for duplicate)
+|  |  +- (com.google.inject.extensions:guice-assistedinject:jar:3.0:test - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.8:test - version managed from 2.8.0; omitted for duplicate)
+|  |  +- (com.google.code.findbugs:annotations:jar:2.0.1:test - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:test - version managed from 1.6.6; omitted for duplicate)
+|  +- (com.google.code.findbugs:annotations:jar:2.0.1:test - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:test - version managed from 1.6.6; omitted for duplicate)
++- io.joynr.java.messaging.mqtt:joynr-mqtt-client:jar:0.33.1:test
+|  +- io.joynr.java:javaapi:jar:0.33.1:test
+|  |  +- (com.google.inject:guice:jar:3.0:test - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:11.0.2:test - omitted for duplicate)
+|  |  +- (commons-lang:commons-lang:jar:2.4:test - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.8:test - version managed from 2.8.0; omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.8:test - version managed from 2.0.5; omitted for duplicate)
+|  |  +- (com.google.code.findbugs:annotations:jar:2.0.1:test - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:test - version managed from 1.6.6; omitted for duplicate)
+|  +- (io.joynr.java.messaging:messaging-common:jar:0.33.1:test - omitted for duplicate)
+|  +- io.joynr.mqtt:mqtt-client:jar:0.0.4:test
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:test - version managed from 1.6.6; omitted for duplicate)
+|  \- (com.google.code.findbugs:annotations:jar:2.0.1:test - omitted for duplicate)
++- io.joynr.java.core:libjoynr:test-jar:tests:0.33.1:test
+|  +- (io.joynr.java.messaging:messaging-common:jar:0.33.1:test - omitted for duplicate)
+|  +- io.joynr.java.common:discovery-common:jar:0.33.1:test
+|  |  +- (io.joynr.java:javaapi:jar:0.33.1:test - omitted for duplicate)
+|  |  +- (io.joynr.java.messaging:messaging-common:jar:0.33.1:test - omitted for duplicate)
+|  |  +- (com.google.code.findbugs:annotations:jar:2.0.1:test - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:test - version managed from 1.6.6; omitted for duplicate)
+|  +- org.reflections:reflections:jar:0.9.8:test
+|  |  +- (com.google.guava:guava:jar:11.0.2:test - omitted for duplicate)
+|  |  +- javassist:javassist:jar:3.12.1.GA:test
+|  |  \- dom4j:dom4j:jar:1.6.1:test
+|  |     \- (xml-apis:xml-apis:jar:1.4.01:compile - version managed from 1.3.04; scope updated from test; omitted for duplicate)
+|  +- io.joynr.smrf.java:smrf:jar:0.2.2:test
+|  |  +- io.joynr.smrf.java:smrf-api:jar:0.2.2:test
+|  |  \- com.github.davidmoten:flatbuffers-java:jar:1.6.0.3:test
+|  +- com.google.inject.extensions:guice-assistedinject:jar:3.0:test
+|  |  \- (com.google.inject:guice:jar:3.0:test - omitted for duplicate)
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.8:test
+|  +- (com.google.code.findbugs:annotations:jar:2.0.1:test - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:test - version managed from 1.6.6; omitted for duplicate)
++- io.joynr.java:javaapi:test-jar:tests:0.33.1:test
+|  +- com.google.inject:guice:jar:3.0:test
+|  |  +- javax.inject:javax.inject:jar:1:test
+|  |  \- aopalliance:aopalliance:jar:1.0:test
+|  +- com.google.guava:guava:jar:11.0.2:test
+|  |  \- (com.google.code.findbugs:jsr305:jar:2.0.1:test - version managed from 1.3.9; omitted for duplicate)
+|  +- commons-lang:commons-lang:jar:2.4:test
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.8:test - version managed from 2.8.0; omitted for duplicate)
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.8.8:test
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.8:test - version managed from 2.8.0; omitted for duplicate)
+|  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.8.8:test
+|  +- (com.google.code.findbugs:annotations:jar:2.0.1:test - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:test - version managed from 1.6.6; omitted for duplicate)
++- io.joynr.java.messaging:messaging-common:jar:0.33.1:test
+|  +- (io.joynr.java:javaapi:jar:0.33.1:test - omitted for duplicate)
+|  +- io.joynr.java.common:guice-integration:jar:0.33.1:test
+|  |  +- (com.google.inject:guice:jar:3.0:test - omitted for duplicate)
+|  |  +- com.google.inject.extensions:guice-multibindings:jar:3.0:test
+|  |  |  \- (com.google.inject:guice:jar:3.0:test - omitted for duplicate)
+|  |  +- (com.google.code.findbugs:annotations:jar:2.0.1:test - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:test - version managed from 1.6.6; omitted for duplicate)
+|  +- (com.google.guava:guava:jar:11.0.2:test - omitted for duplicate)
+|  +- (com.google.inject:guice:jar:3.0:test - omitted for duplicate)
+|  +- (io.joynr.smrf.java:smrf:jar:0.2.2:test - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:test - version managed from 1.6.6; omitted for duplicate)
+|  \- (com.google.code.findbugs:annotations:jar:2.0.1:test - omitted for duplicate)
++- org.glassfish:javax.servlet:jar:3.1.1:test
++- org.eclipse.jetty:jetty-webapp:jar:9.2.13.v20150730:test
+|  +- org.eclipse.jetty:jetty-xml:jar:9.2.13.v20150730:test
+|  |  \- (org.eclipse.jetty:jetty-util:jar:9.2.13.v20150730:compile - scope updated from test; omitted for duplicate)
+|  \- org.eclipse.jetty:jetty-servlet:jar:9.2.13.v20150730:test
+|     \- org.eclipse.jetty:jetty-security:jar:9.2.13.v20150730:test
+|        \- (org.eclipse.jetty:jetty-server:jar:9.2.13.v20150730:test - omitted for duplicate)
++- org.eclipse.jetty.websocket:websocket-server:jar:9.2.13.v20150730:test
+|  +- (org.eclipse.jetty.websocket:websocket-common:jar:9.2.13.v20150730:compile - scope updated from test; omitted for duplicate)
+|  +- (org.eclipse.jetty.websocket:websocket-client:jar:9.2.13.v20150730:compile - version managed from 9.2.12.v20150709; scope updated from test; omitted for duplicate)
+|  +- org.eclipse.jetty.websocket:websocket-servlet:jar:9.2.13.v20150730:test
+|  |  +- (org.eclipse.jetty.websocket:websocket-api:jar:9.2.13.v20150730:test - omitted for duplicate)
+|  |  \- javax.servlet:javax.servlet-api:jar:3.1.0:test
+|  +- (org.eclipse.jetty:jetty-servlet:jar:9.2.13.v20150730:test - omitted for duplicate)
+|  \- org.eclipse.jetty:jetty-http:jar:9.2.13.v20150730:test
+|     \- (org.eclipse.jetty:jetty-util:jar:9.2.13.v20150730:test - omitted for duplicate)
++- org.mockito:mockito-all:jar:1.10.19:test
++- io.joynr.java.messaging:servlet-common:jar:0.33.1:test
+|  +- (io.joynr.java.messaging:messaging-common:jar:0.33.1:test - omitted for duplicate)
+|  +- com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:jar:2.8.8:test
+|  |  +- com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:jar:2.8.8:test
+|  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.8:test - omitted for duplicate)
+|  |  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.8:test - version managed from 2.0.5; omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.8:test - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.8:test - version managed from 2.0.5; omitted for duplicate)
+|  |  \- com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.8.8:test
+|  |     +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.8:test - omitted for duplicate)
+|  |     +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.8:test - version managed from 2.8.0; omitted for duplicate)
+|  |     \- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.8:test - version managed from 2.0.5; omitted for duplicate)
+|  +- (com.google.inject:guice:jar:3.0:test - omitted for duplicate)
+|  +- com.sun.jersey.contribs:jersey-guice:jar:1.17:test
+|  |  +- (javax.inject:javax.inject:jar:1:test - omitted for duplicate)
+|  |  +- (com.google.inject:guice:jar:3.0:test - omitted for duplicate)
+|  |  +- com.google.inject.extensions:guice-servlet:jar:3.0:test
+|  |  |  \- (com.google.inject:guice:jar:3.0:test - omitted for duplicate)
+|  |  \- com.sun.jersey:jersey-servlet:jar:1.17:compile (scope managed from test)
+|  |     \- com.sun.jersey:jersey-server:jar:1.17:compile
+|  |        +- asm:asm:jar:3.1:compile
+|  |        \- com.sun.jersey:jersey-core:jar:1.17:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:test - version managed from 1.6.6; omitted for duplicate)
+|  \- (com.google.code.findbugs:annotations:jar:2.0.1:test - omitted for duplicate)
++- org.apache.httpcomponents:httpclient:test-jar:tests:4.3:test
+|  +- (org.apache.httpcomponents:httpcore:jar:4.3:compile - scope updated from test; omitted for duplicate)
+|  +- (commons-logging:commons-logging:jar:1.0.4:compile - version managed from 1.1.3; scope updated from test; omitted for duplicate)
+|  \- (commons-codec:commons-codec:jar:1.4:compile - version managed from 1.6; scope updated from test; omitted for duplicate)
++- io.joynr.java.messaging:service-common:test-jar:tests:0.33.1:test
+|  +- (io.joynr.java.messaging:messaging-common:jar:0.33.1:test - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:test - version managed from 1.6.6; omitted for duplicate)
+|  \- (com.google.code.findbugs:annotations:jar:2.0.1:test - omitted for duplicate)
++- io.joynr.java.messaging:messaging-common:test-jar:tests:0.33.1:test
+|  +- (io.joynr.java:javaapi:jar:0.33.1:test - omitted for duplicate)
+|  +- (io.joynr.java.common:guice-integration:jar:0.33.1:test - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:11.0.2:test - omitted for duplicate)
+|  +- (com.google.inject:guice:jar:3.0:test - omitted for duplicate)
+|  +- (io.joynr.smrf.java:smrf:jar:0.2.2:test - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:test - version managed from 1.6.6; omitted for duplicate)
+|  \- (com.google.code.findbugs:annotations:jar:2.0.1:test - omitted for duplicate)
++- io.joynr.java.messaging.bounceproxy:single-bounceproxy:war:0.33.1:compile
++- io.joynr.java.backend-services:discovery-directory-servlet:war:0.33.1:compile
++- io.joynr.java.backend-services:domain-access-controller-servlet:war:0.33.1:compile
++- io.joynr.java.messaging.bounceproxy:bounceproxy-controller-nonclustered:war:0.33.1:compile
++- io.joynr.java.messaging.bounceproxy:bounceproxy-controller-clustered:war:0.33.1:compile
++- io.joynr.java.messaging.bounceproxy:controlled-bounceproxy:war:0.33.1:compile
++- net.sf.ehcache:ehcache:jar:2.8.1:test
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:test - version managed from 1.6.6; omitted for duplicate)
++- org.slf4j:slf4j-log4j12:jar:1.7.25:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.6.6; omitted for duplicate)
+|  \- log4j:log4j:jar:1.2.17:compile
++- net.sourceforge.htmlunit:htmlunit:jar:2.18:compile
+|  +- xalan:xalan:jar:2.7.2:compile
+|  |  \- xalan:serializer:jar:2.7.2:compile
+|  |     \- (xml-apis:xml-apis:jar:1.4.01:compile - version managed from 1.3.04; omitted for duplicate)
+|  +- commons-collections:commons-collections:jar:3.2.1:compile
+|  +- org.apache.commons:commons-lang3:jar:3.4:compile
+|  +- org.apache.httpcomponents:httpclient:jar:4.3:compile
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.3:compile
+|  |  +- (commons-logging:commons-logging:jar:1.0.4:compile - version managed from 1.2; omitted for duplicate)
+|  |  \- (commons-codec:commons-codec:jar:1.4:compile - version managed from 1.10; omitted for duplicate)
+|  +- org.apache.httpcomponents:httpmime:jar:4.3:compile
+|  |  \- (org.apache.httpcomponents:httpclient:jar:4.3:compile - version managed from 4.5; omitted for duplicate)
+|  +- commons-codec:commons-codec:jar:1.4:compile
+|  +- net.sourceforge.htmlunit:htmlunit-core-js:jar:2.17:compile
+|  +- xerces:xercesImpl:jar:2.11.0:compile
+|  |  \- xml-apis:xml-apis:jar:1.4.01:compile
+|  +- net.sourceforge.nekohtml:nekohtml:jar:1.9.22:compile
+|  +- net.sourceforge.cssparser:cssparser:jar:0.9.16:compile
+|  |  \- org.w3c.css:sac:jar:1.3:compile
+|  +- commons-io:commons-io:jar:2.4:compile
+|  +- commons-logging:commons-logging:jar:1.0.4:compile
+|  \- org.eclipse.jetty.websocket:websocket-client:jar:9.2.13.v20150730:compile
+|     +- org.eclipse.jetty:jetty-util:jar:9.2.13.v20150730:compile
+|     +- org.eclipse.jetty:jetty-io:jar:9.2.13.v20150730:compile
+|     |  \- (org.eclipse.jetty:jetty-util:jar:9.2.13.v20150730:compile - omitted for duplicate)
+|     \- org.eclipse.jetty.websocket:websocket-common:jar:9.2.13.v20150730:compile
+|        +- org.eclipse.jetty.websocket:websocket-api:jar:9.2.13.v20150730:compile
+|        +- (org.eclipse.jetty:jetty-util:jar:9.2.13.v20150730:compile - omitted for duplicate)
+|        \- (org.eclipse.jetty:jetty-io:jar:9.2.13.v20150730:compile - omitted for duplicate)
++- com.google.code.findbugs:jsr305:jar:2.0.1:provided
++- com.google.code.findbugs:annotations:jar:2.0.1:compile
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- org.apache.logging.log4j:log4j-slf4j-impl:jar:2.0-rc1:test
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:test - version managed from 1.7.5; omitted for duplicate)
+|  \- org.apache.logging.log4j:log4j-api:jar:2.0-rc1:test
+\- junit:junit:jar:4.11:test
+   \- (org.hamcrest:hamcrest-core:jar:1.3:test - version managed from 1.2.1; omitted for duplicate)

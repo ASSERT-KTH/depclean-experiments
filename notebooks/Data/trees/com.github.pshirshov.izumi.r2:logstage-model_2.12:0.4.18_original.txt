@@ -1,0 +1,24 @@
+com.github.pshirshov.izumi.r2:logstage-model_2.12:jar:0.4.18
++- org.scala-lang:scala-library:jar:2.12.4:compile
++- com.github.pshirshov.izumi.r2:fundamentals-collections_2.12:jar:0.4.18:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  \- (org.scala-lang.modules:scala-java8-compat_2.12:jar:0.8.0:compile - omitted for duplicate)
++- com.github.pshirshov.izumi.r2:fundamentals-platform_2.12:jar:0.4.18:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  \- (org.scala-lang.modules:scala-java8-compat_2.12:jar:0.8.0:compile - omitted for duplicate)
++- com.github.pshirshov.izumi.r2:fundamentals-functional_2.12:jar:0.4.18:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  \- (org.scala-lang.modules:scala-java8-compat_2.12:jar:0.8.0:compile - omitted for duplicate)
++- org.scala-lang.modules:scala-java8-compat_2.12:jar:0.8.0:compile
+|  \- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.4)
+\- org.scalatest:scalatest_2.12:jar:3.0.4:test
+   +- (org.scala-lang:scala-library:jar:2.12.3:test - omitted for conflict with 2.12.4)
+   +- org.scalactic:scalactic_2.12:jar:3.0.4:test
+   |  +- (org.scala-lang:scala-library:jar:2.12.3:test - omitted for conflict with 2.12.4)
+   |  \- (org.scala-lang:scala-reflect:jar:2.12.3:test - omitted for duplicate)
+   +- org.scala-lang:scala-reflect:jar:2.12.3:test
+   |  \- (org.scala-lang:scala-library:jar:2.12.3:test - omitted for conflict with 2.12.4)
+   +- org.scala-lang.modules:scala-xml_2.12:jar:1.0.5:test
+   |  \- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.4)
+   \- org.scala-lang.modules:scala-parser-combinators_2.12:jar:1.0.4:test
+      \- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.4)

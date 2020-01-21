@@ -1,0 +1,12 @@
+net.minidev:ovh-java-sdk-router:jar:0.9.13
+\- net.minidev:ovh-java-sdk-core:jar:0.9.13:compile
+   +- com.fasterxml.jackson.core:jackson-core:jar:2.9.4:compile
+   +- com.fasterxml.jackson.core:jackson-databind:jar:2.9.4:compile
+   |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.4:compile - version managed from 2.9.0; omitted for duplicate)
+   |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.4:compile - omitted for duplicate)
+   +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.4:compile
+   +- org.slf4j:slf4j-api:jar:1.7.25:compile
+   +- ch.qos.logback:logback-classic:jar:1.2.3:compile
+   |  +- ch.qos.logback:logback-core:jar:1.2.3:compile
+   |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+   \- org.jsoup:jsoup:jar:1.11.2:compile

@@ -1,0 +1,22 @@
+com.github.obase:obase-data:jar:1.2.0
++- com.github.obase:obase-util:jar:1.2.0:compile
++- com.fasterxml.jackson.core:jackson-core:jar:2.8.10:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.8.10:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile - omitted for conflict with 2.8.10)
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.8.10:compile - omitted for duplicate)
++- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.10:compile
++- com.fasterxml.jackson.dataformat:jackson-dataformat-xml:jar:2.8.10:compile
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.10:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile - omitted for conflict with 2.8.10)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.10:compile - omitted for duplicate)
+|  +- com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.8.10:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.10:compile - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile - omitted for conflict with 2.8.10)
+|  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.10:compile - omitted for duplicate)
+|  +- org.codehaus.woodstox:stax2-api:jar:3.1.4:compile
+|  \- com.fasterxml.woodstox:woodstox-core:jar:5.0.3:compile
+|     \- (org.codehaus.woodstox:stax2-api:jar:3.1.4:compile - omitted for duplicate)
+\- com.fasterxml.jackson.dataformat:jackson-dataformat-csv:jar:2.8.10:compile
+   +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.10:compile - omitted for duplicate)
+   +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.10:compile - omitted for duplicate)
+   \- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile - omitted for conflict with 2.8.10)

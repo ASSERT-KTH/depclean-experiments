@@ -1,0 +1,7 @@
+com.uber.stylist:resources-poet:jar:0.0.1
+\- org.jetbrains.kotlin:kotlin-stdlib-jdk8:jar:1.2.60:runtime
+   +- org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.60:runtime
+   |  +- org.jetbrains.kotlin:kotlin-stdlib-common:jar:1.2.60:runtime
+   |  \- org.jetbrains:annotations:jar:13.0:runtime
+   \- org.jetbrains.kotlin:kotlin-stdlib-jdk7:jar:1.2.60:runtime
+      \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.60:runtime - omitted for duplicate)

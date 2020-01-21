@@ -1,0 +1,29 @@
+io.reactivex:rxnetty-spectator-http:jar:0.5.3-rc.1
++- io.reactivex:rxjava:jar:1.2.10:runtime
++- io.reactivex:rxnetty-http:jar:0.5.3-rc.1:runtime
+|  +- (io.reactivex:rxjava:jar:1.2.10:runtime - omitted for duplicate)
+|  +- (io.reactivex:rxnetty-common:jar:0.5.3-rc.1:runtime - omitted for duplicate)
+|  +- io.reactivex:rxnetty-tcp:jar:0.5.3-rc.1:runtime
+|  |  +- (io.reactivex:rxjava:jar:1.2.10:runtime - omitted for duplicate)
+|  |  \- (io.reactivex:rxnetty-common:jar:0.5.3-rc.1:runtime - omitted for duplicate)
+|  \- io.netty:netty-codec-http:jar:4.1.5.Final:runtime
+|     \- io.netty:netty-codec:jar:4.1.5.Final:runtime
+|        \- (io.netty:netty-transport:jar:4.1.5.Final:runtime - omitted for duplicate)
++- io.reactivex:rxnetty-spectator-tcp:jar:0.5.3-rc.1:runtime
+|  +- (io.reactivex:rxjava:jar:1.2.10:runtime - omitted for duplicate)
+|  +- (io.reactivex:rxnetty-tcp:jar:0.5.3-rc.1:runtime - omitted for duplicate)
+|  +- (io.reactivex:rxnetty-common:jar:0.5.3-rc.1:runtime - omitted for duplicate)
+|  +- com.netflix.spectator:spectator-api:jar:0.50.0:runtime
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.21:runtime - omitted for conflict with 1.7.6)
+|  \- com.netflix.numerus:numerus:jar:1.1:runtime
+\- io.reactivex:rxnetty-common:jar:0.5.3-rc.1:runtime
+   +- (io.reactivex:rxjava:jar:1.2.10:runtime - omitted for duplicate)
+   +- io.netty:netty-handler:jar:4.1.5.Final:runtime
+   |  +- io.netty:netty-buffer:jar:4.1.5.Final:runtime
+   |  |  \- io.netty:netty-common:jar:4.1.5.Final:runtime
+   |  +- io.netty:netty-transport:jar:4.1.5.Final:runtime
+   |  |  +- (io.netty:netty-buffer:jar:4.1.5.Final:runtime - omitted for duplicate)
+   |  |  \- io.netty:netty-resolver:jar:4.1.5.Final:runtime
+   |  |     \- (io.netty:netty-common:jar:4.1.5.Final:runtime - omitted for duplicate)
+   |  \- (io.netty:netty-codec:jar:4.1.5.Final:runtime - omitted for duplicate)
+   \- org.slf4j:slf4j-api:jar:1.7.6:runtime

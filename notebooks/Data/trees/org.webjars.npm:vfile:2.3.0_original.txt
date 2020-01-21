@@ -1,0 +1,6 @@
+org.webjars.npm:vfile:jar:2.3.0
++- org.webjars.npm:is-buffer:jar:1.1.6:compile
++- org.webjars.npm:replace-ext:jar:1.0.0:compile
++- org.webjars.npm:unist-util-stringify-position:jar:1.1.2:compile
+\- org.webjars.npm:vfile-message:jar:1.1.1:compile
+   \- (org.webjars.npm:unist-util-stringify-position:jar:1.1.2:compile - omitted for duplicate)

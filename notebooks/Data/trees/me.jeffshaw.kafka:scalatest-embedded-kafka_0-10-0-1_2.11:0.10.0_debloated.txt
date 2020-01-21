@@ -1,0 +1,51 @@
+me.jeffshaw.kafka:scalatest-embedded-kafka_0-10-0-1_2.11:jar:0.10.0
++- org.scala-lang:scala-library:jar:2.11.12:compile
++- org.scalatest:scalatest_2.11:jar:3.0.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.12)
+|  +- org.scalactic:scalactic_2.11:jar:3.0.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.12)
+|  |  \- (org.scala-lang:scala-reflect:jar:2.11.8:compile - omitted for duplicate)
+|  +- org.scala-lang:scala-reflect:jar:2.11.8:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.12)
+|  +- org.scala-lang.modules:scala-xml_2.11:jar:1.0.5:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.11.7:compile - omitted for conflict with 2.11.12)
+|  \- org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.0.4:compile
+|     \- (org.scala-lang:scala-library:jar:2.11.6:compile - omitted for conflict with 2.11.12)
++- org.apache.kafka:kafka_2.11:jar:0.10.0.1:compile
+|  +- com.101tec:zkclient:jar:0.8:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.6.1:compile - omitted for duplicate)
+|  |  +- (log4j:log4j:jar:1.2.15:compile - omitted for conflict with 1.2.16)
+|  |  \- (org.apache.zookeeper:zookeeper:jar:3.4.6:compile - omitted for duplicate)
+|  +- com.yammer.metrics:metrics-core:jar:2.2.0:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.2:compile - omitted for conflict with 1.6.1)
+|  +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.12)
+|  +- (org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.0.4:compile - omitted for duplicate)
+|  +- net.sf.jopt-simple:jopt-simple:jar:4.9:compile
+|  +- (org.apache.zookeeper:zookeeper:jar:3.4.6:compile - omitted for conflict with 3.4.8)
+|  \- org.apache.kafka:kafka-clients:jar:0.10.0.1:compile
+|     +- net.jpountz.lz4:lz4:jar:1.3.0:compile
+|     +- (org.xerial.snappy:snappy-java:jar:1.1.2.6:compile - omitted for conflict with 1.0.5)
+|     \- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for conflict with 1.6.1)
++- org.apache.zookeeper:zookeeper:jar:3.4.8:compile
+|  +- org.slf4j:slf4j-api:jar:1.6.1:compile
+|  +- log4j:log4j:jar:1.2.16:compile
+|  +- jline:jline:jar:0.9.94:compile
+|  |  \- junit:junit:jar:3.8.1:compile
+|  \- io.netty:netty:jar:3.7.0.Final:compile
++- org.apache.avro:avro:jar:1.7.7:compile
+|  +- org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile
+|  +- org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:compile
+|  |  \- (org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile - omitted for duplicate)
+|  +- com.thoughtworks.paranamer:paranamer:jar:2.3:compile
+|  +- org.xerial.snappy:snappy-java:jar:1.0.5:compile
+|  +- org.apache.commons:commons-compress:jar:1.4.1:compile
+|  |  \- org.tukaani:xz:jar:1.0:compile
+|  \- (org.slf4j:slf4j-api:jar:1.6.4:compile - omitted for conflict with 1.6.1)
++- com.typesafe.akka:akka-actor_2.11:jar:2.5.11:test
+|  +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|  +- com.typesafe:config:jar:1.3.2:test
+|  \- org.scala-lang.modules:scala-java8-compat_2.11:jar:0.7.0:test
+|     \- (org.scala-lang:scala-library:jar:2.11.7:test - omitted for conflict with 2.11.12)
+\- com.typesafe.akka:akka-testkit_2.11:jar:2.5.11:test
+   +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+   \- (com.typesafe.akka:akka-actor_2.11:jar:2.5.11:test - omitted for duplicate)

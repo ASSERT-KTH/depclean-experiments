@@ -1,0 +1,4 @@
+io.hekate:hekate-metrics-statsd:jar:2.0.0
+\- io.hekate:hekate-core:jar:2.0.0:compile
+   +- io.netty:netty-all:jar:4.1.19.Final:compile
+   \- org.slf4j:slf4j-api:jar:1.7.21:compile

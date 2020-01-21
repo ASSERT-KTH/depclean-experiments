@@ -1,0 +1,360 @@
+io.druid:druid-server:jar:0.12.0
++- io.druid:druid-processing:jar:0.12.0:compile
+|  +- io.druid:druid-common:jar:0.12.0:compile
+|  |  +- (io.druid:java-util:jar:0.12.0:compile - omitted for duplicate)
+|  |  +- io.druid:druid-api:jar:0.12.0:compile
+|  |  |  +- (io.druid:java-util:jar:0.12.0:compile - omitted for duplicate)
+|  |  |  +- (com.google.inject:guice:jar:4.1.0:compile - omitted for duplicate)
+|  |  |  +- (com.google.inject.extensions:guice-multibindings:jar:4.1.0:compile - omitted for duplicate)
+|  |  |  +- io.airlift:airline:jar:0.7:compile
+|  |  |  |  +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  |  |  |  \- (com.google.guava:guava:jar:16.0.1:compile - version managed from 18.0; omitted for duplicate)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.4.6:compile - version managed from 2.4.0; omitted for duplicate)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.4.6:compile - omitted for duplicate)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.4.6:compile - version managed from 2.7.0; omitted for duplicate)
+|  |  |  +- (com.fasterxml.jackson.dataformat:jackson-dataformat-smile:jar:2.4.6:compile - omitted for duplicate)
+|  |  |  +- (org.hibernate:hibernate-validator:jar:5.1.3.Final:compile - omitted for duplicate)
+|  |  |  +- (javax.validation:validation-api:jar:1.1.0.Final:compile - omitted for duplicate)
+|  |  |  +- (commons-io:commons-io:jar:2.5:compile - omitted for duplicate)
+|  |  |  +- (com.google.code.findbugs:jsr305:jar:2.0.1:compile - omitted for duplicate)
+|  |  |  +- (net.thisptr:jackson-jq:jar:0.0.7:compile - omitted for duplicate)
+|  |  |  \- (it.unimi.dsi:fastutil:jar:8.1.0:compile - omitted for duplicate)
+|  |  +- commons-codec:commons-codec:jar:1.7:compile
+|  |  +- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+|  |  +- org.apache.commons:commons-dbcp2:jar:2.0.1:compile
+|  |  |  +- org.apache.commons:commons-pool2:jar:2.2:compile
+|  |  |  \- commons-logging:commons-logging:jar:1.1.1:compile (version managed from 1.1.3)
+|  |  +- commons-pool:commons-pool:jar:1.6:compile
+|  |  +- (org.skife.config:config-magic:jar:0.9:compile - omitted for duplicate)
+|  |  +- org.hibernate:hibernate-validator:jar:5.1.3.Final:compile
+|  |  |  +- (javax.validation:validation-api:jar:1.1.0.Final:compile - omitted for duplicate)
+|  |  |  +- org.jboss.logging:jboss-logging:jar:3.1.3.GA:compile
+|  |  |  \- com.fasterxml:classmate:jar:1.0.0:compile
+|  |  +- javax.el:javax.el-api:jar:3.0.0:compile
+|  |  +- (javax.validation:validation-api:jar:1.1.0.Final:compile - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:16.0.1:compile - version managed from 19.0; omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.4.6:compile - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.4.6:compile - version managed from 2.4.0; omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.4.6:compile - version managed from 2.7.0; omitted for duplicate)
+|  |  +- com.fasterxml.jackson.datatype:jackson-datatype-guava:jar:2.4.6:compile
+|  |  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.4.6:compile - version managed from 2.7.0; omitted for duplicate)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.4.6:compile - omitted for duplicate)
+|  |  |  \- (com.google.guava:guava:jar:16.0.1:compile - version managed from 15.0; omitted for duplicate)
+|  |  +- com.fasterxml.jackson.datatype:jackson-datatype-joda:jar:2.4.6:compile
+|  |  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.4.6:compile - version managed from 2.4.0; omitted for duplicate)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.4.6:compile - omitted for duplicate)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.4.6:compile - version managed from 2.7.0; omitted for duplicate)
+|  |  |  \- (joda-time:joda-time:jar:2.9.9:compile - version managed from 2.2; omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.dataformat:jackson-dataformat-smile:jar:2.4.6:compile - omitted for duplicate)
+|  |  +- (com.google.inject:guice:jar:4.1.0:compile - omitted for duplicate)
+|  |  +- com.google.inject.extensions:guice-multibindings:jar:4.1.0:compile
+|  |  |  \- (com.google.inject:guice:jar:4.1.0:compile - omitted for duplicate)
+|  |  +- org.jdbi:jdbi:jar:2.63.1:compile
+|  |  +- (joda-time:joda-time:jar:2.9.9:compile - version managed from 2.8.1; omitted for duplicate)
+|  |  +- (com.google.code.findbugs:jsr305:jar:2.0.1:compile - omitted for duplicate)
+|  |  +- org.apache.logging.log4j:log4j-api:jar:2.5:compile
+|  |  +- org.apache.logging.log4j:log4j-core:jar:2.5:compile
+|  |  |  \- (org.apache.logging.log4j:log4j-api:jar:2.5:compile - omitted for duplicate)
+|  |  +- org.apache.logging.log4j:log4j-slf4j-impl:jar:2.5:compile
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.6.4:compile - version managed from 1.7.12; omitted for duplicate)
+|  |  |  \- (org.apache.logging.log4j:log4j-api:jar:2.5:compile - omitted for duplicate)
+|  |  +- org.apache.logging.log4j:log4j-jul:jar:2.5:compile
+|  |  |  \- (org.apache.logging.log4j:log4j-api:jar:2.5:compile - omitted for duplicate)
+|  |  +- org.apache.logging.log4j:log4j-1.2-api:jar:2.5:compile
+|  |  |  +- (org.apache.logging.log4j:log4j-api:jar:2.5:compile - omitted for duplicate)
+|  |  |  \- (org.apache.logging.log4j:log4j-core:jar:2.5:compile - omitted for duplicate)
+|  |  +- org.slf4j:jcl-over-slf4j:jar:1.7.12:compile
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.6.4:compile - version managed from 1.7.12; omitted for duplicate)
+|  |  +- com.lmax:disruptor:jar:3.3.6:compile
+|  |  +- net.java.dev.jets3t:jets3t:jar:0.9.4:compile
+|  |  |  +- javax.activation:activation:jar:1.1.1:compile
+|  |  |  +- org.bouncycastle:bcprov-jdk15on:jar:1.52:compile
+|  |  |  \- com.jamesmurty.utils:java-xmlbuilder:jar:1.1:compile
+|  |  |     \- net.iharder:base64:jar:2.3.8:compile
+|  |  \- org.antlr:antlr4-runtime:jar:4.5.1:compile
+|  +- (io.druid:java-util:jar:0.12.0:compile - omitted for duplicate)
+|  +- io.druid:druid-hll:jar:0.12.0:compile
+|  |  +- (io.druid:java-util:jar:0.12.0:compile - omitted for duplicate)
+|  |  \- (commons-codec:commons-codec:jar:1.7:compile - omitted for duplicate)
+|  +- io.druid:extendedset:jar:0.12.0:compile
+|  |  +- (io.druid:java-util:jar:0.12.0:compile - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:16.0.1:compile - version managed from 19.0; omitted for duplicate)
+|  |  \- (org.roaringbitmap:RoaringBitmap:jar:0.5.18:compile - omitted for duplicate)
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.4.6:compile
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.4.6:compile
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.4.6:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.4.6:compile - version managed from 2.4.0; omitted for duplicate)
+|  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.4.6:compile - omitted for duplicate)
+|  +- org.roaringbitmap:RoaringBitmap:jar:0.5.18:compile
+|  +- (it.unimi.dsi:fastutil:jar:8.1.0:compile - omitted for duplicate)
+|  +- com.ning:compress-lzf:jar:1.0.4:compile
+|  +- org.skife.config:config-magic:jar:0.9:compile
+|  +- commons-io:commons-io:jar:2.5:compile
+|  +- com.ibm.icu:icu4j:jar:54.1.1:compile
+|  +- org.mozilla:rhino:jar:1.7R5:compile
+|  +- (net.jpountz.lz4:lz4:jar:1.3.0:compile - omitted for duplicate)
+|  +- org.mapdb:mapdb:jar:1.0.8:compile
+|  +- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+|  +- org.ow2.asm:asm:jar:5.2:compile
+|  \- org.ow2.asm:asm-commons:jar:5.2:compile
+|     \- org.ow2.asm:asm-tree:jar:5.2:compile
+|        \- (org.ow2.asm:asm:jar:5.2:compile - omitted for duplicate)
++- io.druid:druid-aws-common:jar:0.12.0:compile
+|  +- (io.druid:druid-common:jar:0.12.0:compile - omitted for duplicate)
+|  \- com.amazonaws:aws-java-sdk-ec2:jar:1.10.77:compile
+|     \- com.amazonaws:aws-java-sdk-core:jar:1.10.77:compile
+|        +- (commons-logging:commons-logging:jar:1.1.1:compile - version managed from 1.1.3; omitted for duplicate)
+|        +- org.apache.httpcomponents:httpclient:jar:4.5.1:compile (version managed from 4.3.6)
+|        |  +- org.apache.httpcomponents:httpcore:jar:4.4.3:compile
+|        |  \- (commons-logging:commons-logging:jar:1.1.1:compile - version managed from 1.2; omitted for duplicate)
+|        +- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.5.3:compile
+|        |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.4.6:compile - version managed from 2.5.3; omitted for duplicate)
+|        \- (joda-time:joda-time:jar:2.9.9:compile - version managed from 2.8.1; omitted for duplicate)
++- io.druid:druid-console:jar:0.0.2:compile
++- io.druid:java-util:jar:0.12.0:compile
+|  +- org.slf4j:slf4j-api:jar:1.6.4:compile (version managed from 1.7.25)
+|  +- (org.skife.config:config-magic:jar:0.9:compile - omitted for duplicate)
+|  +- com.google.guava:guava:jar:16.0.1:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.4.6:compile - version managed from 2.4.0; omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.4.6:compile - version managed from 2.5.3; omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.4.6:compile - version managed from 2.7.0; omitted for duplicate)
+|  +- net.sf.opencsv:opencsv:jar:2.3:compile
+|  +- joda-time:joda-time:jar:2.9.9:compile
+|  +- (org.mozilla:rhino:jar:1.7R5:compile - omitted for duplicate)
+|  +- com.jayway.jsonpath:json-path:jar:2.1.0:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.6.4:compile - version managed from 1.7.13; omitted for duplicate)
+|  +- net.thisptr:jackson-jq:jar:0.0.7:compile
+|  |  +- org.jruby.joni:joni:jar:2.1.11:compile
+|  |  |  \- org.jruby.jcodings:jcodings:jar:1.0.13:compile
+|  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.4.6:compile - version managed from 2.7.0; omitted for duplicate)
+|  +- (com.google.code.findbugs:jsr305:jar:2.0.1:compile - omitted for duplicate)
+|  +- javax.validation:validation-api:jar:1.1.0.Final:compile
+|  +- org.asynchttpclient:async-http-client:jar:2.0.37:compile
+|  |  +- org.asynchttpclient:async-http-client-netty-utils:jar:2.0.37:compile
+|  |  |  +- io.netty:netty-buffer:jar:4.0.52.Final:compile
+|  |  |  |  \- (io.netty:netty-common:jar:4.0.52.Final:compile - omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.6.4:compile - version managed from 1.7.25; omitted for duplicate)
+|  |  +- io.netty:netty-codec-http:jar:4.0.52.Final:compile
+|  |  |  +- io.netty:netty-codec:jar:4.0.52.Final:compile
+|  |  |  |  \- (io.netty:netty-transport:jar:4.0.52.Final:compile - omitted for duplicate)
+|  |  |  \- (io.netty:netty-handler:jar:4.0.52.Final:compile - omitted for duplicate)
+|  |  +- io.netty:netty-handler:jar:4.0.52.Final:compile
+|  |  |  +- (io.netty:netty-buffer:jar:4.0.52.Final:compile - omitted for duplicate)
+|  |  |  +- io.netty:netty-transport:jar:4.0.52.Final:compile
+|  |  |  |  \- (io.netty:netty-buffer:jar:4.0.52.Final:compile - omitted for duplicate)
+|  |  |  \- (io.netty:netty-codec:jar:4.0.52.Final:compile - omitted for duplicate)
+|  |  +- io.netty:netty-transport-native-epoll:jar:linux-x86_64:4.0.52.Final:compile
+|  |  |  +- io.netty:netty-common:jar:4.0.52.Final:compile
+|  |  |  +- (io.netty:netty-buffer:jar:4.0.52.Final:compile - omitted for duplicate)
+|  |  |  \- (io.netty:netty-transport:jar:4.0.52.Final:compile - omitted for duplicate)
+|  |  +- org.asynchttpclient:netty-resolver-dns:jar:2.0.37:compile
+|  |  |  +- org.asynchttpclient:netty-resolver:jar:2.0.37:compile
+|  |  |  |  +- (io.netty:netty-common:jar:4.0.52.Final:compile - omitted for duplicate)
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.6.4:compile - version managed from 1.7.25; omitted for duplicate)
+|  |  |  +- org.asynchttpclient:netty-codec-dns:jar:2.0.37:compile
+|  |  |  |  +- (io.netty:netty-codec:jar:4.0.52.Final:compile - omitted for duplicate)
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.6.4:compile - version managed from 1.7.25; omitted for duplicate)
+|  |  |  +- (io.netty:netty-transport:jar:4.0.52.Final:compile - omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.6.4:compile - version managed from 1.7.25; omitted for duplicate)
+|  |  +- org.reactivestreams:reactive-streams:jar:1.0.0:compile
+|  |  +- com.typesafe.netty:netty-reactive-streams:jar:1.0.8:compile
+|  |  |  +- (io.netty:netty-handler:jar:4.0.41.Final:compile - omitted for conflict with 4.0.52.Final)
+|  |  |  \- (org.reactivestreams:reactive-streams:jar:1.0.0:compile - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.6.4:compile - version managed from 1.7.25; omitted for duplicate)
+|  +- org.gridkit.lab:jvm-attach-api:jar:1.2:compile
+|  \- io.netty:netty:jar:3.10.6.Final:compile
++- commons-cli:commons-cli:jar:1.2:compile
++- commons-lang:commons-lang:jar:2.6:compile
++- javax.inject:javax.inject:jar:1:compile
++- org.glassfish:javax.el:jar:3.0.0:compile
++- org.apache.zookeeper:zookeeper:jar:3.4.10:compile
+|  +- (org.slf4j:slf4j-api:jar:1.6.4:compile - version managed from 1.6.1; omitted for duplicate)
+|  \- jline:jline:jar:0.9.94:compile
+|     \- (junit:junit:jar:4.11:test - version managed from 3.8.1; scope managed from compile; omitted for duplicate)
++- org.apache.curator:curator-framework:jar:4.0.0:compile
+|  \- org.apache.curator:curator-client:jar:4.0.0:compile
+|     +- (org.apache.zookeeper:zookeeper:jar:3.4.10:compile - version managed from 3.5.3-beta; omitted for duplicate)
+|     +- (com.google.guava:guava:jar:16.0.1:compile - version managed from 20.0; omitted for duplicate)
+|     \- (org.slf4j:slf4j-api:jar:1.6.4:compile - version managed from 1.7.6; omitted for duplicate)
++- org.apache.curator:curator-x-discovery:jar:4.0.0:compile
+|  +- org.apache.curator:curator-recipes:jar:4.0.0:compile
+|  |  \- (org.apache.curator:curator-framework:jar:4.0.0:compile - omitted for duplicate)
+|  \- org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:compile
+|     \- org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile
++- com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:jar:2.4.6:compile
+|  +- com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:jar:2.4.6:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.4.6:compile - version managed from 2.5.3; omitted for duplicate)
+|  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.4.6:compile - version managed from 2.7.0; omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.4.6:compile - version managed from 2.5.3; omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.4.6:compile - version managed from 2.7.0; omitted for duplicate)
+|  \- com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.4.6:compile
+|     +- (com.fasterxml.jackson.core:jackson-core:jar:2.4.6:compile - version managed from 2.5.3; omitted for duplicate)
+|     \- (com.fasterxml.jackson.core:jackson-databind:jar:2.4.6:compile - version managed from 2.7.0; omitted for duplicate)
++- com.fasterxml.jackson.jaxrs:jackson-jaxrs-smile-provider:jar:2.4.6:compile
+|  +- (com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:jar:2.4.6:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.4.6:compile - version managed from 2.5.3; omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.4.6:compile - version managed from 2.7.0; omitted for duplicate)
+|  +- (com.fasterxml.jackson.dataformat:jackson-dataformat-smile:jar:2.4.6:compile - omitted for duplicate)
+|  \- (com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.4.6:compile - omitted for duplicate)
++- com.fasterxml.jackson.dataformat:jackson-dataformat-smile:jar:2.4.6:compile
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.4.6:compile - version managed from 2.5.3; omitted for duplicate)
++- com.sun.jersey:jersey-server:jar:1.19.3:compile
+|  \- (com.sun.jersey:jersey-core:jar:1.19.3:compile - omitted for duplicate)
++- com.sun.jersey:jersey-core:jar:1.19.3:compile
+|  \- javax.ws.rs:jsr311-api:jar:1.1.1:compile
++- com.google.inject.extensions:guice-servlet:jar:4.1.0:compile
+|  \- com.google.inject:guice:jar:4.1.0:compile
+|     +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|     +- aopalliance:aopalliance:jar:1.0:compile
+|     \- (com.google.guava:guava:jar:16.0.1:compile - version managed from 19.0; omitted for duplicate)
++- com.sun.jersey.contribs:jersey-guice:jar:1.19.3:compile
+|  +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  \- com.sun.jersey:jersey-servlet:jar:1.19.3:compile
+|     \- (com.sun.jersey:jersey-server:jar:1.19.3:compile - omitted for duplicate)
++- org.eclipse.jetty:jetty-server:jar:9.3.19.v20170502:compile
+|  +- javax.servlet:javax.servlet-api:jar:3.1.0:compile
+|  +- org.eclipse.jetty:jetty-http:jar:9.3.19.v20170502:compile
+|  |  \- (org.eclipse.jetty:jetty-util:jar:9.3.19.v20170502:compile - omitted for duplicate)
+|  \- org.eclipse.jetty:jetty-io:jar:9.3.19.v20170502:compile
+|     \- (org.eclipse.jetty:jetty-util:jar:9.3.19.v20170502:compile - omitted for duplicate)
++- org.eclipse.jetty:jetty-util:jar:9.3.19.v20170502:compile
++- org.eclipse.jetty:jetty-proxy:jar:9.3.19.v20170502:compile
+|  +- (org.eclipse.jetty:jetty-util:jar:9.3.19.v20170502:compile - omitted for duplicate)
+|  \- org.eclipse.jetty:jetty-client:jar:9.3.19.v20170502:compile
+|     +- (org.eclipse.jetty:jetty-http:jar:9.3.19.v20170502:compile - omitted for duplicate)
+|     \- (org.eclipse.jetty:jetty-io:jar:9.3.19.v20170502:compile - omitted for duplicate)
++- com.google.code.findbugs:jsr305:jar:2.0.1:compile
++- io.tesla.aether:tesla-aether:jar:0.0.5:compile
+|  +- (com.google.guava:guava:jar:16.0.1:compile - version managed from 14.0.1; omitted for duplicate)
+|  +- (org.eclipse.aether:aether-api:jar:0.9.0.M2:compile - omitted for duplicate)
+|  +- org.eclipse.aether:aether-spi:jar:0.9.0.M2:compile
+|  |  \- (org.eclipse.aether:aether-api:jar:0.9.0.M2:compile - omitted for duplicate)
+|  +- org.eclipse.aether:aether-util:jar:0.9.0.M2:compile
+|  |  \- (org.eclipse.aether:aether-api:jar:0.9.0.M2:compile - omitted for duplicate)
+|  +- org.eclipse.aether:aether-impl:jar:0.9.0.M2:compile
+|  |  +- (org.eclipse.aether:aether-api:jar:0.9.0.M2:compile - omitted for duplicate)
+|  |  +- (org.eclipse.aether:aether-spi:jar:0.9.0.M2:compile - omitted for duplicate)
+|  |  \- (org.eclipse.aether:aether-util:jar:0.9.0.M2:compile - omitted for duplicate)
+|  +- org.eclipse.aether:aether-connector-file:jar:0.9.0.M2:compile
+|  |  +- (org.eclipse.aether:aether-api:jar:0.9.0.M2:compile - omitted for duplicate)
+|  |  +- (org.eclipse.aether:aether-spi:jar:0.9.0.M2:compile - omitted for duplicate)
+|  |  \- (org.eclipse.aether:aether-util:jar:0.9.0.M2:compile - omitted for duplicate)
+|  +- io.tesla.aether:aether-connector-okhttp:jar:0.0.9:compile
+|  |  +- com.squareup.okhttp:okhttp:jar:1.0.2:compile
+|  |  +- (org.eclipse.aether:aether-api:jar:0.9.0.M2:compile - omitted for duplicate)
+|  |  +- (org.eclipse.aether:aether-spi:jar:0.9.0.M2:compile - omitted for duplicate)
+|  |  +- (org.eclipse.aether:aether-util:jar:0.9.0.M2:compile - omitted for duplicate)
+|  |  +- (org.eclipse.aether:aether-impl:jar:0.9.0.M2:compile - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:16.0.1:compile - version managed from 14.0.1; omitted for duplicate)
+|  |  +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  |  \- org.apache.maven.wagon:wagon-provider-api:jar:2.4:compile
+|  |     \- (org.codehaus.plexus:plexus-utils:jar:3.0.15:compile - version managed from 3.0.8; omitted for duplicate)
+|  +- org.apache.maven:maven-aether-provider:jar:3.1.1:compile
+|  |  +- org.apache.maven:maven-model:jar:3.1.1:compile
+|  |  |  \- (org.codehaus.plexus:plexus-utils:jar:3.0.15:compile - version managed from 3.0.8; omitted for duplicate)
+|  |  +- org.apache.maven:maven-model-builder:jar:3.1.1:compile
+|  |  |  +- (org.codehaus.plexus:plexus-utils:jar:3.0.15:compile - version managed from 3.0.8; omitted for duplicate)
+|  |  |  +- (org.codehaus.plexus:plexus-interpolation:jar:1.19:compile - omitted for duplicate)
+|  |  |  \- (org.apache.maven:maven-model:jar:3.1.1:compile - omitted for duplicate)
+|  |  +- org.apache.maven:maven-repository-metadata:jar:3.1.1:compile
+|  |  |  \- (org.codehaus.plexus:plexus-utils:jar:3.0.15:compile - version managed from 3.0.8; omitted for duplicate)
+|  |  +- (org.eclipse.aether:aether-api:jar:0.9.0.M2:compile - omitted for duplicate)
+|  |  +- (org.eclipse.aether:aether-spi:jar:0.9.0.M2:compile - omitted for duplicate)
+|  |  +- (org.eclipse.aether:aether-util:jar:0.9.0.M2:compile - omitted for duplicate)
+|  |  +- (org.eclipse.aether:aether-impl:jar:0.9.0.M2:compile - omitted for duplicate)
+|  |  \- org.codehaus.plexus:plexus-utils:jar:3.0.15:compile
+|  +- org.apache.maven:maven-settings-builder:jar:3.1.1:compile
+|  |  +- (org.codehaus.plexus:plexus-utils:jar:3.0.15:compile - version managed from 3.0.8; omitted for duplicate)
+|  |  +- org.codehaus.plexus:plexus-interpolation:jar:1.19:compile
+|  |  \- (org.apache.maven:maven-settings:jar:3.1.1:compile - omitted for duplicate)
+|  \- org.apache.maven:maven-settings:jar:3.1.1:compile
+|     \- (org.codehaus.plexus:plexus-utils:jar:3.0.15:compile - version managed from 3.0.8; omitted for duplicate)
++- org.eclipse.aether:aether-api:jar:0.9.0.M2:compile
++- net.spy:spymemcached:jar:2.12.3:compile
++- net.jpountz.lz4:lz4:jar:1.3.0:compile
++- org.eclipse.jetty:jetty-servlet:jar:9.3.19.v20170502:compile
+|  \- org.eclipse.jetty:jetty-security:jar:9.3.19.v20170502:compile
+|     \- (org.eclipse.jetty:jetty-server:jar:9.3.19.v20170502:compile - omitted for duplicate)
++- org.eclipse.jetty:jetty-servlets:jar:9.3.19.v20170502:compile
+|  +- org.eclipse.jetty:jetty-continuation:jar:9.3.19.v20170502:compile
+|  +- (org.eclipse.jetty:jetty-http:jar:9.3.19.v20170502:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-util:jar:9.3.19.v20170502:compile - omitted for duplicate)
+|  \- (org.eclipse.jetty:jetty-io:jar:9.3.19.v20170502:compile - omitted for duplicate)
++- com.ircclouds.irc:irc-api:jar:1.0-0014:compile
++- com.maxmind.geoip2:geoip2:jar:0.4.0:compile
+|  \- com.maxmind.maxminddb:maxminddb:jar:0.2.0:compile
+|     \- (com.google.guava:guava:jar:16.0.1:compile - version managed from 14.0.1; omitted for duplicate)
++- org.apache.derby:derby:jar:10.11.1.1:compile
++- org.apache.derby:derbynet:jar:10.11.1.1:compile
+|  \- (org.apache.derby:derby:jar:10.11.1.1:compile - omitted for duplicate)
++- org.apache.derby:derbyclient:jar:10.11.1.1:compile
++- org.apache.commons:commons-math3:jar:3.6.1:compile
++- it.unimi.dsi:fastutil:jar:8.1.0:compile
++- com.github.ben-manes.caffeine:caffeine:jar:2.5.5:compile
++- junit:junit:jar:4.11:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- com.carrotsearch:junit-benchmarks:jar:0.7.2:test
++- org.easymock:easymock:jar:3.4:test
+|  \- org.objenesis:objenesis:jar:2.2:test
++- io.druid:druid-processing:test-jar:tests:0.12.0:test
+|  +- (io.druid:druid-common:jar:0.12.0:test - omitted for duplicate)
+|  +- (io.druid:java-util:jar:0.12.0:test - omitted for duplicate)
+|  +- (io.druid:druid-hll:jar:0.12.0:test - omitted for duplicate)
+|  +- (io.druid:extendedset:jar:0.12.0:test - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.4.6:test - version managed from 2.4.0; omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.4.6:test - version managed from 2.5.3; omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.4.6:test - version managed from 2.7.0; omitted for duplicate)
+|  +- (org.roaringbitmap:RoaringBitmap:jar:0.5.18:test - omitted for duplicate)
+|  +- (it.unimi.dsi:fastutil:jar:8.1.0:test - omitted for duplicate)
+|  +- (com.ning:compress-lzf:jar:1.0.4:test - omitted for duplicate)
+|  +- (org.skife.config:config-magic:jar:0.9:test - omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.5:test - omitted for duplicate)
+|  +- (com.ibm.icu:icu4j:jar:54.1.1:test - omitted for duplicate)
+|  +- (org.mozilla:rhino:jar:1.7R5:test - omitted for duplicate)
+|  +- (net.jpountz.lz4:lz4:jar:1.3.0:test - omitted for duplicate)
+|  +- (org.mapdb:mapdb:jar:1.0.8:test - omitted for duplicate)
+|  +- (commons-lang:commons-lang:jar:2.6:test - omitted for duplicate)
+|  +- (org.ow2.asm:asm:jar:5.2:test - omitted for duplicate)
+|  \- (org.ow2.asm:asm-commons:jar:5.2:test - omitted for duplicate)
++- org.apache.curator:curator-test:jar:2.12.0:test
+|  +- (org.apache.zookeeper:zookeeper:jar:3.4.10:test - version managed from 3.4.8; omitted for duplicate)
+|  +- org.javassist:javassist:jar:3.18.1-GA:test
+|  \- (com.google.guava:guava:jar:16.0.1:test - version managed from 14.0.1; omitted for duplicate)
++- com.google.caliper:caliper:jar:0.5-rc1:test
+|  +- (com.google.code.findbugs:jsr305:jar:2.0.1:test - version managed from 1.3.9; omitted for duplicate)
+|  +- com.google.code.gson:gson:jar:1.7.1:test
+|  +- (com.google.guava:guava:jar:16.0.1:test - version managed from 11.0.1; omitted for duplicate)
+|  \- com.google.code.java-allocation-instrumenter:java-allocation-instrumenter:jar:2.0:test
+|     +- asm:asm:jar:3.3.1:test
+|     +- asm:asm-analysis:jar:3.3.1:test
+|     |  \- (asm:asm-tree:jar:3.3.1:test - omitted for duplicate)
+|     +- asm:asm-commons:jar:3.3.1:test
+|     |  \- (asm:asm-tree:jar:3.3.1:test - omitted for duplicate)
+|     +- asm:asm-tree:jar:3.3.1:test
+|     |  \- (asm:asm:jar:3.3.1:test - omitted for duplicate)
+|     +- asm:asm-util:jar:3.3.1:test
+|     |  \- (asm:asm-tree:jar:3.3.1:test - omitted for duplicate)
+|     +- asm:asm-xml:jar:3.3.1:test
+|     |  \- (asm:asm-util:jar:3.3.1:test - omitted for duplicate)
+|     \- (com.google.guava:guava:jar:16.0.1:test - version managed from r08; omitted for duplicate)
++- com.sun.jersey.jersey-test-framework:jersey-test-framework-core:jar:1.19.3:test
+|  +- (junit:junit:jar:4.11:test - version managed from 4.8.2; scope managed from compile; omitted for duplicate)
+|  +- (com.sun.jersey:jersey-servlet:jar:1.19.3:test - omitted for duplicate)
+|  \- com.sun.jersey:jersey-client:jar:1.19.3:test
+|     \- (com.sun.jersey:jersey-core:jar:1.19.3:test - omitted for duplicate)
++- com.sun.jersey.jersey-test-framework:jersey-test-framework-grizzly2:jar:1.19.3:test
+|  +- (com.sun.jersey.jersey-test-framework:jersey-test-framework-core:jar:1.19.3:test - omitted for duplicate)
+|  \- com.sun.jersey:jersey-grizzly2-servlet:jar:1.19.3:test
+|     +- org.glassfish.grizzly:grizzly-http-servlet:jar:2.2.16:test
+|     |  \- org.glassfish.grizzly:grizzly-http-server:jar:2.2.16:test
+|     |     +- (org.glassfish.grizzly:grizzly-http:jar:2.2.16:test - omitted for duplicate)
+|     |     \- org.glassfish.grizzly:grizzly-rcm:jar:2.2.16:test
+|     |        \- (org.glassfish.grizzly:grizzly-framework:jar:2.2.16:test - omitted for duplicate)
+|     +- com.sun.jersey:jersey-grizzly2:jar:1.19.3:test
+|     |  +- org.glassfish.grizzly:grizzly-http:jar:2.2.16:test
+|     |  |  \- org.glassfish.grizzly:grizzly-framework:jar:2.2.16:test
+|     |  +- (org.glassfish.grizzly:grizzly-http-server:jar:2.2.16:test - omitted for duplicate)
+|     |  \- (com.sun.jersey:jersey-server:jar:1.19.3:test - omitted for duplicate)
+|     \- (com.sun.jersey:jersey-servlet:jar:1.19.3:test - omitted for duplicate)
+\- pl.pragmatists:JUnitParams:jar:1.0.4:test
+   \- (junit:junit:jar:4.11:test - version managed from 4.8.2; scope managed from compile; omitted for duplicate)

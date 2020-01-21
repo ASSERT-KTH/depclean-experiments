@@ -1,0 +1,14 @@
+com.github.crawler-commons:crawler-commons:jar:0.10
++- commons-io:commons-io:jar:2.4:compile
++- org.slf4j:slf4j-api:jar:1.7.7:compile
++- javax.xml.bind:jaxb-api:jar:2.2.11:compile
++- junit:junit:jar:4.7:test
++- org.slf4j:slf4j-log4j12:jar:1.7.7:test
+|  +- (org.slf4j:slf4j-api:jar:1.7.7:test - omitted for duplicate)
+|  \- log4j:log4j:jar:1.2.17:test
++- org.mockito:mockito-core:jar:1.8.0:test
+|  +- org.hamcrest:hamcrest-core:jar:1.1:test
+|  \- org.objenesis:objenesis:jar:1.0:test
++- jetty:jetty:jar:5.1.10:test
+|  \- (javax.servlet:servlet-api:jar:2.4:test - omitted for conflict with 2.5)
+\- javax.servlet:servlet-api:jar:2.5:provided

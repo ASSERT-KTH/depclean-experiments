@@ -1,0 +1,4 @@
+com.dukescript.libraries:net.java.html.lib.dom:bundle:0.5
+\- com.dukescript.libraries:net.java.html.lib:jar:0.5:compile
+   \- org.netbeans.html:net.java.html.boot:jar:1.5.1:compile
+      \- org.netbeans.html:net.java.html:jar:1.5.1:compile

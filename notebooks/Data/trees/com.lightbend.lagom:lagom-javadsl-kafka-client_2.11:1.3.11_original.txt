@@ -1,0 +1,137 @@
+com.lightbend.lagom:lagom-javadsl-kafka-client_2.11:jar:1.3.11
++- org.scala-lang:scala-library:jar:2.11.12:compile
++- com.lightbend.lagom:lagom-javadsl-api_2.11:jar:1.3.11:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  +- com.lightbend.lagom:lagom-api_2.11:jar:1.3.11:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  |  +- org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.0.4:compile
+|  |  |  \- (org.scala-lang:scala-library:jar:2.11.6:compile - omitted for conflict with 2.11.12)
+|  |  +- org.scala-lang.modules:scala-xml_2.11:jar:1.0.5:compile
+|  |  |  \- (org.scala-lang:scala-library:jar:2.11.7:compile - omitted for conflict with 2.11.12)
+|  |  +- com.typesafe.akka:akka-actor_2.11:jar:2.4.20:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
+|  |  |  +- com.typesafe:config:jar:1.3.0:compile
+|  |  |  \- (org.scala-lang.modules:scala-java8-compat_2.11:jar:0.7.0:compile - omitted for duplicate)
+|  |  +- com.typesafe.akka:akka-slf4j_2.11:jar:2.4.20:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
+|  |  |  \- (com.typesafe.akka:akka-actor_2.11:jar:2.4.20:compile - omitted for duplicate)
+|  |  +- com.typesafe.akka:akka-stream_2.11:jar:2.4.20:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
+|  |  |  +- (com.typesafe.akka:akka-actor_2.11:jar:2.4.20:compile - omitted for duplicate)
+|  |  |  +- org.reactivestreams:reactive-streams:jar:1.0.0:compile
+|  |  |  \- com.typesafe:ssl-config-core_2.11:jar:0.2.1:compile
+|  |  |     +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.12)
+|  |  |     +- (com.typesafe:config:jar:1.2.0:compile - omitted for conflict with 1.3.0)
+|  |  |     \- (org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.0.4:compile - omitted for duplicate)
+|  |  +- com.typesafe.play:play_2.11:jar:2.5.18:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.7:compile - omitted for conflict with 2.11.12)
+|  |  |  +- com.typesafe.play:build-link:jar:2.5.18:compile
+|  |  |  |  \- com.typesafe.play:play-exceptions:jar:2.5.18:compile
+|  |  |  +- com.typesafe.play:play-iteratees_2.11:jar:2.5.18:compile
+|  |  |  |  +- (org.scala-lang:scala-library:jar:2.11.7:compile - omitted for conflict with 2.11.12)
+|  |  |  |  +- (org.scala-stm:scala-stm_2.11:jar:0.7:compile - omitted for duplicate)
+|  |  |  |  \- (com.typesafe:config:jar:1.3.1:compile - omitted for conflict with 1.3.0)
+|  |  |  +- com.typesafe.play:play-json_2.11:jar:2.5.18:compile
+|  |  |  |  +- (org.scala-lang:scala-library:jar:2.11.7:compile - omitted for conflict with 2.11.12)
+|  |  |  |  +- (com.typesafe.play:play-iteratees_2.11:jar:2.5.18:compile - omitted for duplicate)
+|  |  |  |  +- com.typesafe.play:play-functional_2.11:jar:2.5.18:compile
+|  |  |  |  |  \- (org.scala-lang:scala-library:jar:2.11.7:compile - omitted for conflict with 2.11.12)
+|  |  |  |  +- com.typesafe.play:play-datacommons_2.11:jar:2.5.18:compile
+|  |  |  |  |  \- (org.scala-lang:scala-library:jar:2.11.7:compile - omitted for conflict with 2.11.12)
+|  |  |  |  +- (joda-time:joda-time:jar:2.9.6:compile - omitted for duplicate)
+|  |  |  |  +- (org.joda:joda-convert:jar:1.8.1:compile - omitted for duplicate)
+|  |  |  |  +- (org.scala-lang:scala-reflect:jar:2.11.7:compile - omitted for duplicate)
+|  |  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.7.8:compile - omitted for duplicate)
+|  |  |  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.7.8:compile - omitted for duplicate)
+|  |  |  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.7.8:compile - omitted for duplicate)
+|  |  |  |  +- (com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.7.8:compile - omitted for duplicate)
+|  |  |  |  \- (com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.7.8:compile - omitted for duplicate)
+|  |  |  +- com.typesafe.play:play-netty-utils:jar:2.5.18:compile
+|  |  |  +- com.typesafe.play:play-streams_2.11:jar:2.5.18:compile
+|  |  |  |  +- (org.scala-lang:scala-library:jar:2.11.7:compile - omitted for conflict with 2.11.12)
+|  |  |  |  +- (com.typesafe.play:play-iteratees_2.11:jar:2.5.18:compile - omitted for duplicate)
+|  |  |  |  +- (org.reactivestreams:reactive-streams:jar:1.0.0:compile - omitted for duplicate)
+|  |  |  |  +- (com.typesafe.akka:akka-stream_2.11:jar:2.4.20:compile - omitted for duplicate)
+|  |  |  |  \- (org.scala-lang.modules:scala-java8-compat_2.11:jar:0.7.0:compile - omitted for duplicate)
+|  |  |  +- com.typesafe.play:twirl-api_2.11:jar:1.1.1:compile
+|  |  |  |  +- (org.scala-lang:scala-library:jar:2.11.6:compile - omitted for conflict with 2.11.12)
+|  |  |  |  +- (org.apache.commons:commons-lang3:jar:3.4:compile - omitted for duplicate)
+|  |  |  |  \- (org.scala-lang.modules:scala-xml_2.11:jar:1.0.1:compile - omitted for conflict with 1.0.5)
+|  |  |  +- (com.typesafe.akka:akka-actor_2.11:jar:2.4.20:compile - omitted for duplicate)
+|  |  |  +- (com.typesafe.akka:akka-slf4j_2.11:jar:2.4.20:compile - omitted for duplicate)
+|  |  |  +- com.fasterxml.jackson.core:jackson-core:jar:2.7.8:compile
+|  |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.7.8:compile
+|  |  |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.7.8:compile
+|  |  |  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.7.0:compile - omitted for conflict with 2.7.8)
+|  |  |  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.7.8:compile - omitted for duplicate)
+|  |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.7.8:compile
+|  |  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.7.8:compile - omitted for duplicate)
+|  |  |  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.7.8:compile - omitted for duplicate)
+|  |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.7.8:compile
+|  |  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.7.8:compile - omitted for duplicate)
+|  |  |  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.7.8:compile - omitted for duplicate)
+|  |  |  +- org.scala-stm:scala-stm_2.11:jar:0.7:compile
+|  |  |  |  \- (org.scala-lang:scala-library:jar:2.11.0:compile - omitted for conflict with 2.11.12)
+|  |  |  +- commons-codec:commons-codec:jar:1.10:compile
+|  |  |  +- joda-time:joda-time:jar:2.9.6:compile
+|  |  |  +- org.joda:joda-convert:jar:1.8.1:compile
+|  |  |  +- org.apache.commons:commons-lang3:jar:3.4:compile
+|  |  |  +- xerces:xercesImpl:jar:2.11.0:compile
+|  |  |  |  \- xml-apis:xml-apis:jar:1.4.01:compile
+|  |  |  +- javax.transaction:jta:jar:1.1:compile
+|  |  |  +- com.google.inject:guice:jar:4.0:compile
+|  |  |  |  +- javax.inject:javax.inject:jar:1:compile
+|  |  |  |  +- aopalliance:aopalliance:jar:1.0:compile
+|  |  |  |  \- (com.google.guava:guava:jar:16.0.1:compile - omitted for conflict with 19.0)
+|  |  |  +- com.google.inject.extensions:guice-assistedinject:jar:4.0:compile
+|  |  |  |  \- (com.google.inject:guice:jar:4.0:compile - omitted for duplicate)
+|  |  |  +- org.scala-lang:scala-reflect:jar:2.11.8:compile
+|  |  |  |  \- (org.scala-lang:scala-library:jar:2.11.7:compile - omitted for conflict with 2.11.12)
+|  |  |  +- (org.scala-lang.modules:scala-java8-compat_2.11:jar:0.7.0:compile - omitted for duplicate)
+|  |  |  \- (org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.0.4:compile - omitted for duplicate)
+|  |  \- com.google.guava:guava:jar:19.0:compile
+|  +- com.typesafe.play:play-java_2.11:jar:2.5.18:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.7:compile - omitted for conflict with 2.11.12)
+|  |  +- (com.typesafe.play:play_2.11:jar:2.5.18:compile - omitted for duplicate)
+|  |  +- org.scala-lang.modules:scala-java8-compat_2.11:jar:0.7.0:compile
+|  |  |  \- (org.scala-lang:scala-library:jar:2.11.7:compile - omitted for conflict with 2.11.12)
+|  |  +- org.yaml:snakeyaml:jar:1.16:compile
+|  |  +- org.hibernate:hibernate-validator:jar:5.2.4.Final:compile
+|  |  |  +- javax.validation:validation-api:jar:1.1.0.Final:compile
+|  |  |  +- (org.jboss.logging:jboss-logging:jar:3.2.1.Final:compile - omitted for conflict with 3.3.0.Final)
+|  |  |  \- (com.fasterxml:classmate:jar:1.1.0:compile - omitted for conflict with 1.3.0)
+|  |  +- javax.el:javax.el-api:jar:3.0.0:compile
+|  |  +- org.springframework:spring-context:jar:4.2.7.RELEASE:compile
+|  |  +- org.springframework:spring-core:jar:4.2.7.RELEASE:compile
+|  |  +- org.springframework:spring-beans:jar:4.2.7.RELEASE:compile
+|  |  +- org.reflections:reflections:jar:0.9.10:compile
+|  |  |  +- (com.google.guava:guava:jar:15.0:compile - omitted for conflict with 19.0)
+|  |  |  \- (org.javassist:javassist:jar:3.19.0-GA:compile - omitted for conflict with 3.21.0-GA)
+|  |  +- net.jodah:typetools:jar:0.4.4:compile
+|  |  +- (com.google.guava:guava:jar:19.0:compile - omitted for duplicate)
+|  |  +- com.google.code.findbugs:jsr305:jar:3.0.1:compile
+|  |  \- org.apache.tomcat:tomcat-servlet-api:jar:8.0.33:compile
+|  +- org.pcollections:pcollections:jar:2.1.2:compile
+|  +- org.javassist:javassist:jar:3.21.0-GA:compile
+|  +- com.fasterxml:classmate:jar:1.3.0:compile
+|  \- org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile
++- com.lightbend.lagom:lagom-kafka-client_2.11:jar:1.3.11:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  +- (com.lightbend.lagom:lagom-api_2.11:jar:1.3.11:compile - omitted for duplicate)
+|  +- org.slf4j:log4j-over-slf4j:jar:1.7.25:compile
+|  |  \- org.slf4j:slf4j-api:jar:1.7.25:compile
+|  \- com.typesafe.akka:akka-stream-kafka_2.11:jar:0.13:compile
+|     +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.12)
+|     +- (com.typesafe.akka:akka-stream_2.11:jar:2.4.11:compile - omitted for conflict with 2.4.20)
+|     \- org.apache.kafka:kafka-clients:jar:0.10.0.1:compile
+|        +- net.jpountz.lz4:lz4:jar:1.3.0:compile
+|        +- org.xerial.snappy:snappy-java:jar:1.1.2.6:compile
+|        \- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for conflict with 1.7.25)
+\- org.scalatest:scalatest_2.11:jar:3.0.1:test
+   +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.12)
+   +- org.scalactic:scalactic_2.11:jar:3.0.1:test
+   |  +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.12)
+   |  \- (org.scala-lang:scala-reflect:jar:2.11.8:compile - scope updated from test; omitted for duplicate)
+   +- (org.scala-lang:scala-reflect:jar:2.11.8:compile - scope updated from test; omitted for duplicate)
+   +- (org.scala-lang.modules:scala-xml_2.11:jar:1.0.5:compile - scope updated from test; omitted for duplicate)
+   \- (org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.0.4:compile - scope updated from test; omitted for duplicate)

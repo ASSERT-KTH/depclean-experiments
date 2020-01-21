@@ -1,0 +1,216 @@
+com.alibaba:tac-infrastructure:jar:0.0.4
++- org.springframework.boot:spring-boot-starter-web:jar:1.4.7.RELEASE:compile
+|  +- org.springframework.boot:spring-boot-starter:jar:1.4.7.RELEASE:compile
+|  |  +- org.springframework.boot:spring-boot:jar:1.4.7.RELEASE:compile
+|  |  |  +- (org.springframework:spring-core:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|  |  |  \- (org.springframework:spring-context:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|  |  +- org.springframework.boot:spring-boot-autoconfigure:jar:1.4.7.RELEASE:compile
+|  |  |  \- (org.springframework.boot:spring-boot:jar:1.4.7.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework.boot:spring-boot-starter-logging:jar:1.4.7.RELEASE:compile - omitted for duplicate)
+|  |  +- org.springframework:spring-core:jar:4.3.9.RELEASE:compile
+|  |  \- org.yaml:snakeyaml:jar:1.17:runtime
+|  +- org.springframework.boot:spring-boot-starter-tomcat:jar:1.4.7.RELEASE:compile
+|  |  +- org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.15:compile
+|  |  +- org.apache.tomcat.embed:tomcat-embed-el:jar:8.5.15:compile
+|  |  \- org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.5.15:compile
+|  |     \- (org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.15:compile - omitted for duplicate)
+|  +- org.hibernate:hibernate-validator:jar:5.2.5.Final:compile
+|  |  +- javax.validation:validation-api:jar:1.1.0.Final:compile
+|  |  +- org.jboss.logging:jboss-logging:jar:3.3.1.Final:compile (version managed from 3.2.1.Final)
+|  |  \- com.fasterxml:classmate:jar:1.3.3:compile (version managed from 1.1.0)
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.8.8:compile
+|  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.8:compile (version managed from 2.8.0)
+|  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.8.8:compile
+|  +- org.springframework:spring-web:jar:4.3.9.RELEASE:compile
+|  |  +- org.springframework:spring-aop:jar:4.3.9.RELEASE:compile
+|  |  |  +- (org.springframework:spring-beans:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|  |  |  \- (org.springframework:spring-core:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|  |  +- org.springframework:spring-beans:jar:4.3.9.RELEASE:compile
+|  |  |  \- (org.springframework:spring-core:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-context:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|  |  \- (org.springframework:spring-core:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|  \- org.springframework:spring-webmvc:jar:4.3.9.RELEASE:compile
+|     +- (org.springframework:spring-aop:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|     +- (org.springframework:spring-beans:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|     +- (org.springframework:spring-context:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|     +- (org.springframework:spring-core:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|     +- org.springframework:spring-expression:jar:4.3.9.RELEASE:compile
+|     |  \- (org.springframework:spring-core:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|     \- (org.springframework:spring-web:jar:4.3.9.RELEASE:compile - omitted for duplicate)
++- org.springframework.boot:spring-boot-starter-test:jar:1.4.7.RELEASE:test (scope not updated to compile)
+|  +- org.springframework.boot:spring-boot-test:jar:1.4.7.RELEASE:test
+|  |  \- (org.springframework.boot:spring-boot:jar:1.4.7.RELEASE:test - omitted for duplicate)
+|  +- org.springframework.boot:spring-boot-test-autoconfigure:jar:1.4.7.RELEASE:test
+|  |  +- (org.springframework.boot:spring-boot-test:jar:1.4.7.RELEASE:test - omitted for duplicate)
+|  |  \- (org.springframework.boot:spring-boot-autoconfigure:jar:1.4.7.RELEASE:test - omitted for duplicate)
+|  +- com.jayway.jsonpath:json-path:jar:2.2.0:test
+|  |  +- net.minidev:json-smart:jar:2.2.1:test
+|  |  |  \- net.minidev:accessors-smart:jar:1.1:test
+|  |  |     \- org.ow2.asm:asm:jar:5.0.3:test
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.16; scope updated from test; omitted for duplicate)
+|  +- junit:junit:jar:4.12:test
+|  |  \- (org.hamcrest:hamcrest-core:jar:1.3:test - version managed from 1.1; omitted for duplicate)
+|  +- org.assertj:assertj-core:jar:2.5.0:test
+|  +- org.mockito:mockito-core:jar:1.10.19:test
+|  |  +- (org.hamcrest:hamcrest-core:jar:1.3:test - version managed from 1.1; omitted for duplicate)
+|  |  \- org.objenesis:objenesis:jar:2.1:test
+|  +- org.hamcrest:hamcrest-core:jar:1.3:test
+|  +- org.hamcrest:hamcrest-library:jar:1.3:test
+|  |  \- (org.hamcrest:hamcrest-core:jar:1.3:test - version managed from 1.1; omitted for duplicate)
+|  +- org.skyscreamer:jsonassert:jar:1.3.0:test
+|  |  \- (org.json:json:jar:20140107:compile - version managed from 20090211; scope updated from test; omitted for duplicate)
+|  +- (org.springframework:spring-core:jar:4.3.9.RELEASE:compile - scope updated from test; omitted for duplicate)
+|  \- org.springframework:spring-test:jar:4.3.9.RELEASE:test
+|     \- (org.springframework:spring-core:jar:4.3.9.RELEASE:test - omitted for duplicate)
++- org.springframework.boot:spring-boot-starter-cache:jar:1.4.7.RELEASE:compile
+|  +- (org.springframework.boot:spring-boot-starter:jar:1.4.7.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework:spring-context:jar:4.3.9.RELEASE:compile
+|  |  +- (org.springframework:spring-aop:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-beans:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-core:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|  |  \- (org.springframework:spring-expression:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|  \- org.springframework:spring-context-support:jar:4.3.9.RELEASE:compile
+|     +- (org.springframework:spring-beans:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|     +- (org.springframework:spring-context:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|     \- (org.springframework:spring-core:jar:4.3.9.RELEASE:compile - omitted for duplicate)
++- org.springframework.boot:spring-boot-starter-data-redis:jar:1.4.7.RELEASE:compile
+|  +- (org.springframework.boot:spring-boot-starter:jar:1.4.7.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework.data:spring-data-redis:jar:1.7.11.RELEASE:compile
+|  |  +- org.springframework.data:spring-data-keyvalue:jar:1.1.11.RELEASE:compile
+|  |  |  +- org.springframework.data:spring-data-commons:jar:1.12.11.RELEASE:compile
+|  |  |  |  +- (org.springframework:spring-core:jar:4.3.9.RELEASE:compile - version managed from 4.2.9.RELEASE; omitted for duplicate)
+|  |  |  |  +- (org.springframework:spring-beans:jar:4.3.9.RELEASE:compile - version managed from 4.2.9.RELEASE; omitted for duplicate)
+|  |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.16; omitted for duplicate)
+|  |  |  |  \- (org.slf4j:jcl-over-slf4j:jar:1.7.25:runtime - omitted for duplicate)
+|  |  |  +- (org.springframework:spring-context:jar:4.3.9.RELEASE:compile - version managed from 4.2.9.RELEASE; omitted for duplicate)
+|  |  |  +- (org.springframework:spring-tx:jar:4.3.9.RELEASE:compile - version managed from 4.2.9.RELEASE; omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.16; omitted for duplicate)
+|  |  |  \- (org.slf4j:jcl-over-slf4j:jar:1.7.25:runtime - omitted for duplicate)
+|  |  +- org.springframework:spring-tx:jar:4.3.9.RELEASE:compile
+|  |  |  +- (org.springframework:spring-beans:jar:4.3.9.RELEASE:compile - version managed from 4.2.9.RELEASE; omitted for duplicate)
+|  |  |  \- (org.springframework:spring-core:jar:4.3.9.RELEASE:compile - version managed from 4.2.9.RELEASE; omitted for duplicate)
+|  |  +- org.springframework:spring-oxm:jar:4.3.9.RELEASE:compile (version managed from 4.2.9.RELEASE)
+|  |  |  +- (org.springframework:spring-beans:jar:4.3.9.RELEASE:compile - version managed from 4.2.9.RELEASE; omitted for duplicate)
+|  |  |  \- (org.springframework:spring-core:jar:4.3.9.RELEASE:compile - version managed from 4.2.9.RELEASE; omitted for duplicate)
+|  |  +- (org.springframework:spring-aop:jar:4.3.9.RELEASE:compile - version managed from 4.2.9.RELEASE; omitted for duplicate)
+|  |  +- (org.springframework:spring-context-support:jar:4.3.9.RELEASE:compile - version managed from 4.2.9.RELEASE; omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.22; omitted for duplicate)
+|  |  \- (org.slf4j:jcl-over-slf4j:jar:1.7.25:compile - scope updated from runtime; omitted for duplicate)
+|  \- redis.clients:jedis:jar:2.8.2:compile
+|     \- org.apache.commons:commons-pool2:jar:2.4.2:compile
++- org.springframework.boot:spring-boot-starter-logging:jar:1.4.7.RELEASE:compile
+|  +- (ch.qos.logback:logback-classic:jar:1.1.11:compile - omitted for duplicate)
+|  +- org.slf4j:jcl-over-slf4j:jar:1.7.25:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.22; omitted for duplicate)
+|  +- org.slf4j:jul-to-slf4j:jar:1.7.25:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.22; omitted for duplicate)
+|  \- org.slf4j:log4j-over-slf4j:jar:1.7.25:compile
+|     \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.22; omitted for duplicate)
++- ch.qos.logback:logback-classic:jar:1.1.11:compile
+|  +- ch.qos.logback:logback-core:jar:1.1.11:compile
+|  \- org.slf4j:slf4j-api:jar:1.7.25:compile
++- org.aspectj:aspectjweaver:jar:1.9.0:compile
++- org.apache.zookeeper:zookeeper:jar:3.4.9:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.6.1; omitted for duplicate)
+|  +- jline:jline:jar:0.9.94:compile
+|  |  \- (junit:junit:jar:4.12:test - version managed from 3.8.1; scope managed from compile; omitted for duplicate)
+|  \- io.netty:netty:jar:3.10.5.Final:compile
++- com.alibaba:tac-sdk:jar:0.0.4:compile
+|  +- com.google.guava:guava:jar:20.0:compile
+|  +- org.apache.commons:commons-collections4:jar:4.1:compile
+|  +- commons-beanutils:commons-beanutils:jar:1.9.3:compile
+|  |  +- commons-logging:commons-logging:jar:1.2:compile
+|  |  \- commons-collections:commons-collections:jar:3.2.2:compile
+|  +- org.apache.commons:commons-lang3:jar:3.7:compile
+|  +- (org.springframework.boot:spring-boot-starter-test:jar:1.4.7.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework.boot:spring-boot-configuration-processor:jar:1.4.7.RELEASE:compile
+|  |  \- org.json:json:jar:20140107:compile
+|  +- org.projectlombok:lombok:jar:1.16.16:compile
+|  +- com.alibaba:fastjson:jar:1.2.39:compile
+|  \- (org.springframework.boot:spring-boot-starter-web:jar:1.4.7.RELEASE:compile - omitted for duplicate)
++- org.asynchttpclient:async-http-client:jar:2.2.0:compile
+|  +- org.asynchttpclient:async-http-client-netty-utils:jar:2.2.0:compile
+|  |  +- io.netty:netty-buffer:jar:4.1.20.Final:compile
+|  |  |  \- (io.netty:netty-common:jar:4.1.20.Final:compile - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.6.1; omitted for duplicate)
+|  +- io.netty:netty-codec-http:jar:4.1.20.Final:compile
+|  |  \- io.netty:netty-codec:jar:4.1.20.Final:compile
+|  |     \- (io.netty:netty-transport:jar:4.1.20.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-handler:jar:4.1.20.Final:compile
+|  |  +- (io.netty:netty-buffer:jar:4.1.20.Final:compile - omitted for duplicate)
+|  |  +- io.netty:netty-transport:jar:4.1.20.Final:compile
+|  |  |  +- (io.netty:netty-buffer:jar:4.1.20.Final:compile - omitted for duplicate)
+|  |  |  \- (io.netty:netty-resolver:jar:4.1.20.Final:compile - omitted for duplicate)
+|  |  \- (io.netty:netty-codec:jar:4.1.20.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-codec-socks:jar:4.1.20.Final:compile
+|  |  \- (io.netty:netty-codec:jar:4.1.20.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-handler-proxy:jar:4.1.20.Final:compile
+|  |  +- (io.netty:netty-transport:jar:4.1.20.Final:compile - omitted for duplicate)
+|  |  +- (io.netty:netty-codec-socks:jar:4.1.20.Final:compile - omitted for duplicate)
+|  |  \- (io.netty:netty-codec-http:jar:4.1.20.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-transport-native-epoll:jar:linux-x86_64:4.1.20.Final:compile
+|  |  +- io.netty:netty-common:jar:4.1.20.Final:compile
+|  |  +- (io.netty:netty-buffer:jar:4.1.20.Final:compile - omitted for duplicate)
+|  |  +- io.netty:netty-transport-native-unix-common:jar:4.1.20.Final:compile
+|  |  |  +- (io.netty:netty-common:jar:4.1.20.Final:compile - omitted for duplicate)
+|  |  |  \- (io.netty:netty-transport:jar:4.1.20.Final:compile - omitted for duplicate)
+|  |  \- (io.netty:netty-transport:jar:4.1.20.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-resolver-dns:jar:4.1.20.Final:compile
+|  |  +- io.netty:netty-resolver:jar:4.1.20.Final:compile
+|  |  |  \- (io.netty:netty-common:jar:4.1.20.Final:compile - omitted for duplicate)
+|  |  +- io.netty:netty-codec-dns:jar:4.1.20.Final:compile
+|  |  |  \- (io.netty:netty-codec:jar:4.1.20.Final:compile - omitted for duplicate)
+|  |  \- (io.netty:netty-transport:jar:4.1.20.Final:compile - omitted for duplicate)
+|  +- org.reactivestreams:reactive-streams:jar:1.0.2:compile
+|  +- com.typesafe.netty:netty-reactive-streams:jar:2.0.0:compile
+|  |  +- (io.netty:netty-handler:jar:4.1.13.Final:compile - omitted for conflict with 4.1.20.Final)
+|  |  \- (org.reactivestreams:reactive-streams:jar:1.0.0:compile - omitted for conflict with 1.0.2)
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.6.1; omitted for duplicate)
++- org.gitlab4j:gitlab4j-api:jar:4.8.9:compile
+|  +- javax.xml.bind:jaxb-api:jar:2.3.0:compile
+|  +- com.sun.activation:javax.activation:jar:1.2.0:compile
+|  +- com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:jar:2.8.8:compile (version managed from 2.9.3)
+|  |  +- com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:jar:2.8.8:compile
+|  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.8:compile - omitted for duplicate)
+|  |  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.8:compile - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.8:compile - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.8:compile - omitted for duplicate)
+|  |  \- com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.8.8:compile
+|  |     +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.8:compile - omitted for duplicate)
+|  |     +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.8:compile - version managed from 2.8.0; omitted for duplicate)
+|  |     \- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.8:compile - omitted for duplicate)
+|  +- org.glassfish.jersey.inject:jersey-hk2:jar:2.26:compile
+|  |  +- org.glassfish.jersey.core:jersey-common:jar:2.26:compile
+|  |  |  +- (javax.ws.rs:javax.ws.rs-api:jar:2.1:compile - omitted for duplicate)
+|  |  |  +- javax.annotation:javax.annotation-api:jar:1.2:compile
+|  |  |  +- (org.glassfish.hk2.external:javax.inject:jar:2.5.0-b42:compile - omitted for duplicate)
+|  |  |  \- org.glassfish.hk2:osgi-resource-locator:jar:1.0.1:compile
+|  |  \- org.glassfish.hk2:hk2-locator:jar:2.5.0-b42:compile
+|  |     +- (org.glassfish.hk2.external:javax.inject:jar:2.5.0-b42:compile - omitted for duplicate)
+|  |     +- org.glassfish.hk2.external:aopalliance-repackaged:jar:2.5.0-b42:compile
+|  |     +- org.glassfish.hk2:hk2-api:jar:2.5.0-b42:compile
+|  |     |  +- javax.inject:javax.inject:jar:1:compile
+|  |     |  +- (org.glassfish.hk2:hk2-utils:jar:2.5.0-b42:compile - omitted for duplicate)
+|  |     |  \- (org.glassfish.hk2.external:aopalliance-repackaged:jar:2.5.0-b42:compile - omitted for duplicate)
+|  |     +- org.glassfish.hk2:hk2-utils:jar:2.5.0-b42:compile
+|  |     |  +- (javax.annotation:javax.annotation-api:jar:1.2:compile - omitted for duplicate)
+|  |     |  \- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  |     +- (javax.annotation:javax.annotation-api:jar:1.2:compile - omitted for duplicate)
+|  |     \- org.javassist:javassist:jar:3.20.0-GA:compile (version managed from 3.22.0-CR2)
+|  +- org.glassfish.jersey.core:jersey-client:jar:2.26:compile
+|  |  +- javax.ws.rs:javax.ws.rs-api:jar:2.1:compile
+|  |  +- (org.glassfish.jersey.core:jersey-common:jar:2.26:compile - omitted for duplicate)
+|  |  \- org.glassfish.hk2.external:javax.inject:jar:2.5.0-b42:compile
+|  +- org.glassfish.jersey.connectors:jersey-apache-connector:jar:2.26:compile
+|  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.3:compile - version managed from 4.3.6; omitted for duplicate)
+|  |  +- (org.glassfish.jersey.core:jersey-common:jar:2.26:compile - omitted for duplicate)
+|  |  +- (org.glassfish.jersey.core:jersey-client:jar:2.26:compile - omitted for duplicate)
+|  |  \- (javax.ws.rs:javax.ws.rs-api:jar:2.1:compile - omitted for duplicate)
+|  \- javax.servlet:javax.servlet-api:jar:3.1.0:compile
+\- org.eclipse.jgit:org.eclipse.jgit:jar:4.5.0.201609210915-r:compile
+   +- com.jcraft:jsch:jar:0.1.53:compile
+   +- com.googlecode.javaewah:JavaEWAH:jar:0.7.9:compile
+   +- org.apache.httpcomponents:httpclient:jar:4.5.3:compile
+   |  +- org.apache.httpcomponents:httpcore:jar:4.4.6:compile
+   |  \- commons-codec:commons-codec:jar:1.10:compile (version managed from 1.9)
+   \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.2; omitted for duplicate)

@@ -1,0 +1,10 @@
+com.github.percychuang:modest-log:jar:0.0.1
++- org.slf4j:slf4j-api:jar:1.7.24:compile
++- org.slf4j:slf4j-ext:jar:1.7.24:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.24:compile - omitted for duplicate)
++- org.slf4j:jcl-over-slf4j:jar:1.7.24:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.24:compile - omitted for duplicate)
++- ch.qos.logback:logback-classic:jar:1.2.2:compile
+|  +- ch.qos.logback:logback-core:jar:1.2.2:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.24:compile - version managed from 1.7.25; omitted for duplicate)
+\- org.apache.commons:commons-lang3:jar:3.3.2:compile

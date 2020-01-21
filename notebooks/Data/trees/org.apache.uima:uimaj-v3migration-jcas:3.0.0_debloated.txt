@@ -1,0 +1,11 @@
+org.apache.uima:uimaj-v3migration-jcas:jar:3.0.0
++- org.apache.uima:uimaj-core:jar:3.0.0:compile
+|  +- org.slf4j:slf4j-api:jar:1.7.25:compile
+|  +- org.bitbucket.mstrobel:procyon-compilertools:jar:0.5.32:compile
+|  \- org.bitbucket.mstrobel:procyon-core:jar:0.5.32:compile
++- org.apache.uima:uimaj-test-util:jar:3.0.0:test
+|  +- junit:junit:jar:4.12:test
+|  |  \- org.hamcrest:hamcrest-core:jar:1.3:test
+|  \- xmlunit:xmlunit:jar:1.6:test
++- com.github.javaparser:javaparser-core:jar:3.2.2:compile
+\- com.github.stephenc.findbugs:findbugs-annotations:jar:1.3.9-1:provided

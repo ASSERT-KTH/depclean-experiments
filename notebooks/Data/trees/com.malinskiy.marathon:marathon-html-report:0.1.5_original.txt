@@ -1,0 +1,13 @@
+com.malinskiy.marathon:marathon-html-report:jar:0.1.5
++- com.google.code.gson:gson:jar:2.8.5:runtime
++- org.jetbrains.kotlin:kotlin-stdlib-jdk8:jar:1.2.51:runtime
+|  +- org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.51:runtime
+|  |  +- org.jetbrains.kotlin:kotlin-stdlib-common:jar:1.2.51:runtime
+|  |  \- org.jetbrains:annotations:jar:13.0:runtime
+|  \- org.jetbrains.kotlin:kotlin-stdlib-jdk7:jar:1.2.51:runtime
+|     \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.51:runtime - omitted for duplicate)
++- org.jetbrains.kotlinx:kotlinx-coroutines-core:jar:0.21:runtime
+|  \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.10:runtime - omitted for conflict with 1.2.51)
+\- io.github.microutils:kotlin-logging:jar:1.4.9:runtime
+   +- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.10:runtime - omitted for conflict with 1.2.51)
+   \- org.slf4j:slf4j-api:jar:1.7.25:runtime

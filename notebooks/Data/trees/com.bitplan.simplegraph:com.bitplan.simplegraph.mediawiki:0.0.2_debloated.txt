@@ -1,0 +1,58 @@
+com.bitplan.simplegraph:com.bitplan.simplegraph.mediawiki:jar:0.0.2
++- com.bitplan.simplegraph:com.bitplan.simplegraph-core:jar:0.0.2:compile
+|  +- org.apache.tinkerpop:gremlin-core:jar:3.3.1:compile
+|  |  +- org.apache.tinkerpop:gremlin-shaded:jar:3.3.1:compile
+|  |  +- commons-configuration:commons-configuration:jar:1.10:compile
+|  |  |  \- commons-lang:commons-lang:jar:2.6:compile
+|  |  +- org.yaml:snakeyaml:jar:1.15:compile
+|  |  +- org.javatuples:javatuples:jar:1.2:compile
+|  |  +- com.carrotsearch:hppc:jar:0.7.1:compile
+|  |  +- com.jcabi:jcabi-manifests:jar:1.1:compile
+|  |  |  \- com.jcabi:jcabi-log:jar:0.14:compile
+|  |  +- com.squareup:javapoet:jar:1.8.0:compile
+|  |  +- net.objecthunter:exp4j:jar:0.4.8:compile
+|  |  +- org.slf4j:slf4j-api:jar:1.7.25:compile
+|  |  \- org.slf4j:jcl-over-slf4j:jar:1.7.21:compile
+|  |     \- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|  +- org.apache.tinkerpop:tinkergraph-gremlin:jar:3.3.1:compile
+|  |  +- (org.apache.tinkerpop:gremlin-core:jar:3.3.1:compile - omitted for duplicate)
+|  |  \- (org.apache.commons:commons-lang3:jar:3.3.1:compile - omitted for conflict with 3.4)
+|  +- org.rythmengine:rythm-engine:jar:1.1.7:compile
+|  |  +- org.eclipse.jdt.core.compiler:ecj:jar:4.6.1:compile
+|  |  +- com.stevesoft.pat:pat:jar:1.5.3:compile
+|  |  +- (org.apache.commons:commons-lang3:jar:3.4:compile - omitted for conflict with 3.3.1)
+|  |  +- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+|  |  +- com.alibaba:fastjson:jar:1.2.11:compile
+|  |  \- org.mvel:mvel2:jar:2.2.8.Final:compile
+|  \- (joda-time:joda-time:jar:2.9.9:compile - omitted for duplicate)
++- com.bitplan:mediawiki-japi:jar:0.0.22:compile
+|  +- com.google.inject:guice:jar:3.0:compile
+|  |  +- javax.inject:javax.inject:jar:1:compile
+|  |  \- aopalliance:aopalliance:jar:1.0:compile
+|  +- log4j:log4j:jar:1.2.17:compile
+|  +- commons-io:commons-io:jar:2.4:compile
+|  +- com.sun.jersey:jersey-client:jar:1.19.3:compile
+|  |  \- com.sun.jersey:jersey-core:jar:1.19.3:compile
+|  |     \- javax.ws.rs:jsr311-api:jar:1.1.1:compile
+|  +- com.sun.jersey.contribs:jersey-apache-client:jar:1.19.3:compile
+|  |  +- commons-httpclient:commons-httpclient:jar:3.1:compile
+|  |  |  +- commons-logging:commons-logging:jar:1.0.4:compile
+|  |  |  \- commons-codec:commons-codec:jar:1.2:compile
+|  |  \- (com.sun.jersey:jersey-client:jar:1.19.3:compile - omitted for duplicate)
+|  +- com.sun.jersey.contribs:jersey-multipart:jar:1.19.3:compile
+|  |  +- org.jvnet.mimepull:mimepull:jar:1.9.3:compile
+|  |  \- (com.sun.jersey:jersey-core:jar:1.19.3:compile - omitted for duplicate)
+|  +- org.eclipse.persistence:org.eclipse.persistence.moxy:jar:2.6.5:compile
+|  |  +- org.eclipse.persistence:org.eclipse.persistence.core:jar:2.6.5:compile
+|  |  |  +- org.eclipse.persistence:org.eclipse.persistence.asm:jar:2.6.5:compile
+|  |  |  \- (org.glassfish:javax.json:jar:1.0.4:compile - omitted for duplicate)
+|  |  +- (javax.validation:validation-api:jar:1.1.0.Final:compile - omitted for duplicate)
+|  |  \- org.glassfish:javax.json:jar:1.0.4:compile
+|  +- javax.validation:validation-api:jar:1.1.0.Final:compile
+|  +- args4j:args4j:jar:2.0.29:compile
+|  +- org.apache.commons:commons-lang3:jar:3.4:compile
+|  \- com.google.code.gson:gson:jar:2.8.1:compile
++- junit:junit:jar:4.12:test
++- org.hamcrest:hamcrest-all:jar:1.3:test
+\- org.slf4j:slf4j-simple:jar:1.7.25:test
+   \- (org.slf4j:slf4j-api:jar:1.7.25:compile - scope updated from test; omitted for duplicate)

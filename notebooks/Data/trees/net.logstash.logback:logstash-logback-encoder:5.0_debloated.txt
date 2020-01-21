@@ -1,0 +1,23 @@
+net.logstash.logback:logstash-logback-encoder:jar:5.0
++- ch.qos.logback:logback-core:jar:1.2.3:compile
++- ch.qos.logback:logback-classic:jar:1.2.3:compile
+|  +- (ch.qos.logback:logback-core:jar:1.2.3:compile - omitted for duplicate)
+|  \- org.slf4j:slf4j-api:jar:1.7.25:compile
++- ch.qos.logback:logback-access:jar:1.2.3:compile
+|  \- (ch.qos.logback:logback-core:jar:1.2.3:compile - omitted for duplicate)
++- javax.servlet:servlet-api:jar:2.5:provided
++- com.fasterxml.jackson.core:jackson-databind:jar:2.9.4:compile
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+|  \- com.fasterxml.jackson.core:jackson-core:jar:2.9.4:compile
++- com.fasterxml.uuid:java-uuid-generator:jar:3.1.4:compile
++- org.codehaus.mojo:animal-sniffer-annotations:jar:1.16:provided
++- junit:junit:jar:4.12:test
++- org.assertj:assertj-core:jar:2.9.0:test
++- org.mockito:mockito-core:jar:2.9.0:test
++- org.powermock:powermock-module-junit4:jar:1.7.3:test
+|  \- (junit:junit:jar:4.12:test - omitted for duplicate)
++- org.powermock:powermock-core:jar:1.7.3:test
+|  \- (org.mockito:mockito-core:jar:2.8.9:test - omitted for conflict with 2.9.0)
++- org.powermock:powermock-api-mockito2:jar:1.7.3:test
+|  \- (org.mockito:mockito-core:jar:2.8.9:test - omitted for conflict with 2.9.0)
+\- commons-io:commons-io:jar:2.6:test

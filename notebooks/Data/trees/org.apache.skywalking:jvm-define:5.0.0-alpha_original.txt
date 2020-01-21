@@ -1,0 +1,38 @@
+org.apache.skywalking:jvm-define:jar:5.0.0-alpha
++- org.apache.skywalking:apm-collector-core:jar:5.0.0-alpha:compile
+|  +- com.google.code.gson:gson:jar:2.8.1:compile
+|  +- joda-time:joda-time:jar:2.9.9:compile
+|  +- (org.apache.skywalking:apm-util:jar:5.0.0-alpha:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  +- (org.slf4j:log4j-over-slf4j:jar:1.7.25:compile - omitted for duplicate)
+|  +- (org.apache.logging.log4j:log4j-core:jar:2.9.0:compile - omitted for duplicate)
+|  \- (org.apache.logging.log4j:log4j-slf4j-impl:jar:2.9.0:compile - omitted for duplicate)
++- org.apache.skywalking:apm-util:jar:5.0.0-alpha:compile
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- org.slf4j:log4j-over-slf4j:jar:1.7.25:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
++- org.apache.logging.log4j:log4j-core:jar:2.9.0:compile
+|  \- org.apache.logging.log4j:log4j-api:jar:2.9.0:compile
++- org.apache.logging.log4j:log4j-slf4j-impl:jar:2.9.0:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  \- (org.apache.logging.log4j:log4j-api:jar:2.9.0:compile - omitted for duplicate)
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.mockito:mockito-all:jar:1.10.19:test
++- org.powermock:powermock-module-junit4:jar:1.6.4:test
+|  +- (junit:junit:jar:4.12:test - omitted for duplicate)
+|  \- org.powermock:powermock-module-junit4-common:jar:1.6.4:test
+|     +- (junit:junit:jar:4.4:test - omitted for conflict with 4.12)
+|     +- org.powermock:powermock-core:jar:1.6.4:test
+|     |  +- (org.powermock:powermock-reflect:jar:1.6.4:test - omitted for duplicate)
+|     |  \- org.javassist:javassist:jar:3.20.0-GA:test
+|     \- org.powermock:powermock-reflect:jar:1.6.4:test
+|        \- (org.objenesis:objenesis:jar:2.1:test - omitted for duplicate)
+\- org.powermock:powermock-api-mockito:jar:1.6.4:test
+   +- org.mockito:mockito-core:jar:1.10.19:test
+   |  +- (org.hamcrest:hamcrest-core:jar:1.1:test - omitted for conflict with 1.3)
+   |  \- org.objenesis:objenesis:jar:2.1:test
+   +- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for duplicate)
+   \- org.powermock:powermock-api-support:jar:1.6.4:test
+      +- (org.powermock:powermock-core:jar:1.6.4:test - omitted for duplicate)
+      \- (org.powermock:powermock-reflect:jar:1.6.4:test - omitted for duplicate)

@@ -1,0 +1,75 @@
+org.platanios:tensorflow-api_2.11:jar:0.2.0
++- org.scala-lang:scala-library:jar:2.11.11:compile
++- org.platanios:tensorflow-jni_2.11:jar:0.2.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for duplicate)
+|  +- (com.typesafe.scala-logging:scala-logging_2.11:jar:3.9.0:compile - omitted for duplicate)
+|  +- (ch.qos.logback:logback-classic:jar:1.2.3:compile - omitted for duplicate)
+|  +- (junit:junit:jar:4.12:compile - omitted for duplicate)
+|  \- (org.scalactic:scalactic_2.11:jar:3.0.4:compile - omitted for duplicate)
++- com.google.protobuf:protobuf-java:jar:3.5.1:compile
++- com.typesafe.scala-logging:scala-logging_2.11:jar:3.9.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for conflict with 2.11.11)
+|  +- org.scala-lang:scala-reflect:jar:2.11.12:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for conflict with 2.11.11)
+|  \- org.slf4j:slf4j-api:jar:1.7.25:compile
++- ch.qos.logback:logback-classic:jar:1.2.3:compile
+|  +- ch.qos.logback:logback-core:jar:1.2.3:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
++- junit:junit:jar:4.12:compile
+|  \- org.hamcrest:hamcrest-core:jar:1.3:compile
++- org.scalactic:scalactic_2.11:jar:3.0.4:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for duplicate)
+|  \- (org.scala-lang:scala-reflect:jar:2.11.11:compile - omitted for conflict with 2.11.12)
++- org.scalatest:scalatest_2.11:jar:3.0.4:test
+|  +- (org.scala-lang:scala-library:jar:2.11.11:test - omitted for duplicate)
+|  +- (org.scalactic:scalactic_2.11:jar:3.0.4:test - omitted for duplicate)
+|  +- (org.scala-lang:scala-reflect:jar:2.11.11:test - omitted for conflict with 2.11.12)
+|  +- org.scala-lang.modules:scala-xml_2.11:jar:1.0.5:test
+|  |  \- (org.scala-lang:scala-library:jar:2.11.7:test - omitted for conflict with 2.11.11)
+|  \- org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.0.4:test
+|     \- (org.scala-lang:scala-library:jar:2.11.6:test - omitted for conflict with 2.11.11)
++- org.typelevel:spire_2.11:jar:0.14.1:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.11)
+|  +- org.typelevel:spire-macros_2.11:jar:0.14.1:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.11)
+|  |  +- (org.typelevel:machinist_2.11:jar:0.6.1:compile - omitted for duplicate)
+|  |  \- (org.typelevel:algebra_2.11:jar:0.7.0:compile - omitted for duplicate)
+|  +- org.typelevel:machinist_2.11:jar:0.6.1:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.11)
+|  |  \- (org.scala-lang:scala-reflect:jar:2.11.8:compile - omitted for conflict with 2.11.12)
+|  \- org.typelevel:algebra_2.11:jar:0.7.0:compile
+|     +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.11)
+|     \- org.typelevel:cats-kernel_2.11:jar:0.9.0:compile
+|        \- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.11)
++- org.tensorflow:proto:jar:1.8.0:compile
+|  \- (com.google.protobuf:protobuf-java:jar:3.3.1:compile - omitted for conflict with 3.5.1)
++- com.chuusai:shapeless_2.11:jar:2.3.3:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for conflict with 2.11.11)
+|  \- org.typelevel:macro-compat_2.11:jar:1.1.1:compile
+|     \- (org.scala-lang:scala-library:jar:2.11.7:compile - omitted for conflict with 2.11.11)
++- com.github.ghik:silencer-lib_2.11:jar:0.6:compile
+|  \- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for duplicate)
++- io.circe:circe-core_2.11:jar:0.9.1:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for conflict with 2.11.11)
+|  +- io.circe:circe-numbers_2.11:jar:0.9.1:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for conflict with 2.11.11)
+|  \- org.typelevel:cats-core_2.11:jar:1.0.1:compile
+|     +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for conflict with 2.11.11)
+|     +- org.typelevel:cats-macros_2.11:jar:1.0.1:compile
+|     |  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for conflict with 2.11.11)
+|     |  \- (org.typelevel:machinist_2.11:jar:0.6.2:compile - omitted for conflict with 0.6.1)
+|     +- (org.typelevel:cats-kernel_2.11:jar:1.0.1:compile - omitted for conflict with 0.9.0)
+|     \- (org.typelevel:machinist_2.11:jar:0.6.2:compile - omitted for conflict with 0.6.1)
++- io.circe:circe-generic_2.11:jar:0.9.1:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for conflict with 2.11.11)
+|  +- (io.circe:circe-core_2.11:jar:0.9.1:compile - omitted for duplicate)
+|  +- (org.typelevel:macro-compat_2.11:jar:1.1.1:compile - omitted for duplicate)
+|  \- (com.chuusai:shapeless_2.11:jar:2.3.3:compile - omitted for duplicate)
+\- io.circe:circe-parser_2.11:jar:0.9.1:compile
+   +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for conflict with 2.11.11)
+   +- io.circe:circe-jawn_2.11:jar:0.9.1:compile
+   |  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for conflict with 2.11.11)
+   |  +- (io.circe:circe-core_2.11:jar:0.9.1:compile - omitted for duplicate)
+   |  \- org.spire-math:jawn-parser_2.11:jar:0.11.0:compile
+   |     \- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for duplicate)
+   \- (io.circe:circe-core_2.11:jar:0.9.1:compile - omitted for duplicate)

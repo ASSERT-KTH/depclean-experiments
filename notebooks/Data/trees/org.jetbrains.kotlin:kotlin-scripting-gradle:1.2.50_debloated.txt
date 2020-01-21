@@ -1,0 +1,19 @@
+org.jetbrains.kotlin:kotlin-scripting-gradle:jar:1.2.50
++- org.jetbrains.kotlin:kotlin-gradle-plugin-api:jar:1.2.50:compile
+|  \- org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.50:compile
+|     +- org.jetbrains.kotlin:kotlin-stdlib-common:jar:1.2.50:compile
+|     \- org.jetbrains:annotations:jar:13.0:compile
++- org.jetbrains.kotlin:kotlin-scripting-common:jar:1.2.50:runtime
+|  +- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.50:runtime - omitted for duplicate)
+|  +- org.jetbrains.kotlin:kotlin-reflect:jar:1.2.50:runtime
+|  |  \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.50:runtime - omitted for duplicate)
+|  \- org.jetbrains.kotlinx:kotlinx-coroutines-core:jar:0.20:runtime
+|     \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.0:runtime - omitted for conflict with 1.2.50)
++- org.jetbrains.kotlin:kotlin-scripting-jvm:jar:1.2.50:runtime
+|  +- org.jetbrains.kotlin:kotlin-script-runtime:jar:1.2.50:runtime
+|  +- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.50:runtime - omitted for duplicate)
+|  \- (org.jetbrains.kotlin:kotlin-scripting-common:jar:1.2.50:runtime - omitted for duplicate)
+\- org.jetbrains.kotlin:kotlin-scripting-misc:jar:1.2.50:runtime
+   +- (org.jetbrains.kotlin:kotlin-script-runtime:jar:1.2.50:runtime - omitted for duplicate)
+   +- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.50:runtime - omitted for duplicate)
+   \- (org.jetbrains.kotlin:kotlin-scripting-common:jar:1.2.50:runtime - omitted for duplicate)

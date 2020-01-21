@@ -1,0 +1,24 @@
+org.wvlet.airframe:airframe-surface_2.12:jar:0.53
++- org.scala-lang:scala-compiler:jar:2.12.6:provided
+|  +- (org.scala-lang:scala-library:jar:2.12.6:provided - omitted for duplicate)
+|  +- (org.scala-lang:scala-reflect:jar:2.12.6:provided - omitted for duplicate)
+|  \- org.scala-lang.modules:scala-xml_2.12:jar:1.0.6:provided
+|     \- (org.scala-lang:scala-library:jar:2.12.0:provided - omitted for conflict with 2.12.6)
++- org.scala-lang:scala-library:jar:2.12.6:compile
++- org.wvlet.airframe:airframe-log_2.12:jar:0.53:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
+|  \- ch.qos.logback:logback-core:jar:1.2.3:compile
++- org.wvlet.airframe:airframe-spec_2.12:jar:0.53:test
+|  +- (org.scala-lang:scala-library:jar:2.12.6:test - omitted for duplicate)
+|  +- (org.wvlet.airframe:airframe-log_2.12:jar:0.53:test - omitted for duplicate)
+|  \- (org.scalatest:scalatest_2.12:jar:3.0.6-SNAP1:test - omitted for duplicate)
++- org.scala-lang:scala-reflect:jar:2.12.6:compile
+|  \- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
+\- org.scalatest:scalatest_2.12:jar:3.0.6-SNAP1:test
+   +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for conflict with 2.12.6)
+   +- org.scalactic:scalactic_2.12:jar:3.0.6-SNAP1:test
+   |  +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for conflict with 2.12.6)
+   |  +- (org.scala-lang:scala-reflect:jar:2.12.4:test - omitted for conflict with 2.12.6)
+   |  \- (org.scala-lang.modules:scala-xml_2.12:jar:1.1.0:test - omitted for conflict with 1.0.6)
+   +- (org.scala-lang:scala-reflect:jar:2.12.4:test - omitted for conflict with 2.12.6)
+   \- (org.scala-lang.modules:scala-xml_2.12:jar:1.1.0:test - omitted for conflict with 1.0.6)

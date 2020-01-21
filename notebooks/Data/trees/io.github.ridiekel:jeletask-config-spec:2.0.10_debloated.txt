@@ -1,0 +1,6 @@
+io.github.ridiekel:jeletask-config-spec:jar:2.0.10
++- junit:junit:jar:4.11:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.apache.logging.log4j:log4j-api:jar:2.7:runtime
+\- org.apache.logging.log4j:log4j-core:jar:2.7:runtime
+   \- (org.apache.logging.log4j:log4j-api:jar:2.7:runtime - omitted for duplicate)

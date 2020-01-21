@@ -1,0 +1,15 @@
+systems.uom:systems-ucum-java8:jar:0.8
++- tec.uom:uom-se:jar:1.0.8:compile
+|  +- javax.measure:unit-api:jar:1.0:compile
+|  \- tec.uom.lib:uom-lib-common:jar:1.0.2:compile
+|     \- (javax.measure:unit-api:jar:1.0:compile - omitted for duplicate)
++- si.uom:si-quantity:jar:0.8:compile
+|  \- (javax.measure:unit-api:jar:1.0:compile - omitted for duplicate)
++- si.uom:si-units-java8:jar:0.8:compile
+|  +- (javax.measure:unit-api:jar:1.0:compile - omitted for duplicate)
+|  +- (tec.uom:uom-se:jar:1.0.8:compile - omitted for duplicate)
+|  \- (si.uom:si-quantity:jar:0.8:compile - version managed from 0.7.1; omitted for duplicate)
++- systems.uom:systems-quantity:jar:0.7.2:provided
+|  \- (javax.measure:unit-api:jar:1.0:provided - omitted for duplicate)
+\- junit:junit:jar:4.12:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

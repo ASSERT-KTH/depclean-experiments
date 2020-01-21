@@ -1,0 +1,32 @@
+uk.dioxic.faker4j:faker4j:jar:0.0.2
++- org.yaml:snakeyaml:jar:1.19:compile
++- dk.brics.automaton:automaton:jar:1.11-8:compile
++- org.junit.jupiter:junit-jupiter-params:jar:5.1.0:test
+|  +- org.apiguardian:apiguardian-api:jar:1.0.0:test
+|  \- org.junit.jupiter:junit-jupiter-api:jar:5.1.0:test
+|     +- (org.apiguardian:apiguardian-api:jar:1.0.0:test - omitted for duplicate)
+|     +- org.opentest4j:opentest4j:jar:1.0.0:test
+|     \- org.junit.platform:junit-platform-commons:jar:1.1.0:test
+|        \- (org.apiguardian:apiguardian-api:jar:1.0.0:test - omitted for duplicate)
++- org.junit.jupiter:junit-jupiter-engine:jar:5.1.0:test
+|  +- (org.apiguardian:apiguardian-api:jar:1.0.0:test - omitted for duplicate)
+|  +- org.junit.platform:junit-platform-engine:jar:1.1.0:test
+|  |  +- (org.apiguardian:apiguardian-api:jar:1.0.0:test - omitted for duplicate)
+|  |  +- (org.junit.platform:junit-platform-commons:jar:1.1.0:test - omitted for duplicate)
+|  |  \- (org.opentest4j:opentest4j:jar:1.0.0:test - omitted for duplicate)
+|  \- (org.junit.jupiter:junit-jupiter-api:jar:5.1.0:test - omitted for duplicate)
++- org.junit.platform:junit-platform-runner:jar:1.1.0:test
+|  +- (org.apiguardian:apiguardian-api:jar:1.0.0:test - omitted for duplicate)
+|  +- org.junit.platform:junit-platform-launcher:jar:1.1.0:test
+|  |  +- (org.apiguardian:apiguardian-api:jar:1.0.0:test - omitted for duplicate)
+|  |  \- (org.junit.platform:junit-platform-engine:jar:1.1.0:test - omitted for duplicate)
+|  \- org.junit.platform:junit-platform-suite-api:jar:1.1.0:test
+|     +- (org.apiguardian:apiguardian-api:jar:1.0.0:test - omitted for duplicate)
+|     \- (org.junit.platform:junit-platform-commons:jar:1.1.0:test - omitted for duplicate)
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- org.apache.logging.log4j:log4j-core:jar:2.11.0:compile
+|  \- (org.apache.logging.log4j:log4j-api:jar:2.11.0:compile - omitted for duplicate)
+\- org.apache.logging.log4j:log4j-slf4j-impl:jar:2.11.0:compile
+   +- (org.slf4j:slf4j-api:jar:1.8.0-alpha2:compile - omitted for conflict with 1.7.25)
+   +- (org.apache.logging.log4j:log4j-api:jar:2.11.0:compile - omitted for duplicate)
+   \- (org.apache.logging.log4j:log4j-core:jar:2.11.0:runtime - omitted for duplicate)

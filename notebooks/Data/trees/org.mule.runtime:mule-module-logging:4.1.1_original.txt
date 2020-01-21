@@ -1,0 +1,30 @@
+org.mule.runtime:mule-module-logging:jar:4.1.1
++- com.lmax:disruptor:jar:3.3.7:compile
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- org.apache.logging.log4j:log4j-api:jar:2.10.0:compile
++- org.apache.logging.log4j:log4j-core:jar:2.10.0:compile
++- org.apache.logging.log4j:log4j-slf4j-impl:jar:2.10.0:compile
++- org.apache.logging.log4j:log4j-1.2-api:jar:2.10.0:compile
++- org.slf4j:jcl-over-slf4j:jar:1.7.25:compile
++- org.slf4j:jul-to-slf4j:jar:1.7.25:compile
++- com.googlecode.multithreadedtc:multithreadedtc:jar:1.01:test
+\- io.qameta.allure:allure-junit4:jar:2.0-BETA17:test
+   +- io.qameta.allure:allure-java-commons:jar:2.0-BETA17:test
+   |  +- com.google.guava:guava:jar:23.5-jre:test
+   |  |  +- com.google.code.findbugs:jsr305:jar:1.3.9:test
+   |  |  +- org.checkerframework:checker-qual:jar:2.0.0:test
+   |  |  +- com.google.errorprone:error_prone_annotations:jar:2.0.18:test
+   |  |  +- com.google.j2objc:j2objc-annotations:jar:1.1:test
+   |  |  \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:test
+   |  +- io.qameta.allure:allure2-model-api:jar:1.0-BETA6:test
+   |  |  +- io.qameta.allure:allure2-model-pojo:jar:1.0-BETA6:test
+   |  |  |  \- org.apache.tika:tika-core:jar:1.14:test
+   |  |  \- io.qameta.allure:allure2-model-jackson:jar:1.0-BETA6:test
+   |  |     +- com.fasterxml.jackson.core:jackson-databind:jar:2.7.0:test
+   |  |     |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.7.0:test
+   |  |     |  \- com.fasterxml.jackson.core:jackson-core:jar:2.7.0:test
+   |  |     \- com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.7.0:test
+   |  +- org.apache.commons:commons-lang3:jar:3.6:test
+   |  +- org.aspectj:aspectjrt:jar:1.8.10:test
+   |  \- org.jooq:joor:jar:0.9.6:test
+   \- junit:junit:jar:4.12:test

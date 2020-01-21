@@ -1,0 +1,101 @@
+ru.sbtqa.tag.pagefactory:web-plugin:jar:2.0.1
++- ru.sbtqa.tag.pagefactory:page-factory-core:jar:2.0.1:compile
+|  +- ru.sbtqa.tag.pagefactory:page-factory-api:jar:2.0.1:compile
+|  |  \- io.cucumber:cucumber-java:jar:2.4.0:compile
+|  +- ru.sbtqa.tag:allure-helper:jar:1.4.0:compile
+|  |  +- org.aspectj:aspectjrt:jar:1.8.9:compile
+|  |  \- io.qameta.allure:allure-cucumber2-jvm:jar:2.6.0:compile
+|  |     \- io.qameta.allure:allure-java-commons:jar:2.6.0:compile
+|  |        +- io.qameta.allure:allure2-model-api:jar:1.0-BETA6:compile
+|  |        |  +- io.qameta.allure:allure2-model-pojo:jar:1.0-BETA6:compile
+|  |        |  |  \- org.apache.tika:tika-core:jar:1.14:compile
+|  |        |  \- io.qameta.allure:allure2-model-jackson:jar:1.0-BETA6:compile
+|  |        |     \- com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.7.0:compile
+|  |        \- org.jooq:joor:jar:0.9.6:compile
+|  +- ru.sbtqa.tag:qa-utils:jar:1.3.1:compile
+|  +- ru.sbtqa.tag:video-recorder:jar:1.0.6:compile
+|  |  \- ru.sbtqa:monte-media:jar:1.1.0-JAVA7:compile
+|  +- org.seleniumhq.selenium:selenium-support:jar:3.11.0:compile
+|  +- org.reflections:reflections:jar:0.9.10:compile
+|  |  +- org.javassist:javassist:jar:3.19.0-GA:compile
+|  |  \- com.google.code.findbugs:annotations:jar:2.0.1:compile
+|  +- com.google.guava:guava:jar:24.1-jre:compile
+|  |  +- com.google.code.findbugs:jsr305:jar:1.3.9:compile
+|  |  +- org.checkerframework:checker-compat-qual:jar:2.0.0:compile
+|  |  +- com.google.errorprone:error_prone_annotations:jar:2.1.3:compile
+|  |  +- com.google.j2objc:j2objc-annotations:jar:1.1:compile
+|  |  \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:compile
+|  \- org.aeonbits.owner:owner:jar:1.0.9:compile
++- ru.sbtqa.tag:datajack:jar:1.2.0:compile
+|  +- org.mongodb:mongo-java-driver:jar:3.2.2:compile
+|  +- commons-io:commons-io:jar:2.5:compile
+|  \- org.apache.poi:poi-ooxml:jar:3.13:compile
+|     +- org.apache.poi:poi:jar:3.13:compile
+|     \- org.apache.poi:poi-ooxml-schemas:jar:3.13:compile
+|        \- org.apache.xmlbeans:xmlbeans:jar:2.6.0:compile
+|           \- stax:stax-api:jar:1.0.1:compile
++- ru.sbtqa:webdrivermanager:jar:2.2.2:compile
+|  +- org.slf4j:slf4j-log4j12:jar:1.7.25:compile
+|  |  \- log4j:log4j:jar:1.2.17:compile
+|  +- com.google.code.gson:gson:jar:2.8.0:compile
+|  +- org.apache.commons:commons-lang3:jar:3.5:compile
+|  +- org.apache.httpcomponents:httpclient:jar:4.5.3:compile
+|  +- org.rauschig:jarchivelib:jar:0.7.1:compile
+|  |  \- org.apache.commons:commons-compress:jar:1.9:compile
+|  \- org.jsoup:jsoup:jar:1.10.2:compile
++- org.seleniumhq.selenium:selenium-chrome-driver:jar:3.11.0:compile
+|  +- org.seleniumhq.selenium:selenium-api:jar:3.11.0:compile
+|  +- org.seleniumhq.selenium:selenium-remote-driver:jar:3.11.0:compile
+|  +- net.bytebuddy:byte-buddy:jar:1.7.9:compile
+|  +- org.apache.commons:commons-exec:jar:1.3:compile
+|  +- commons-codec:commons-codec:jar:1.10:compile
+|  +- commons-logging:commons-logging:jar:1.2:compile
+|  +- org.apache.httpcomponents:httpcore:jar:4.4.6:compile
+|  +- com.squareup.okhttp3:okhttp:jar:3.9.1:compile
+|  \- com.squareup.okio:okio:jar:1.13.0:compile
++- org.seleniumhq.selenium:selenium-firefox-driver:jar:3.11.0:compile
++- org.seleniumhq.selenium:selenium-safari-driver:jar:3.11.0:compile
++- org.seleniumhq.selenium:selenium-ie-driver:jar:3.11.0:compile
++- net.lightbody.bmp:browsermob-core:jar:2.1.5:compile
+|  +- net.lightbody.bmp:littleproxy:jar:1.1.0-beta-bmp-17:compile
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.8.9:compile
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.8.9:compile
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.9:compile
+|  +- dnsjava:dnsjava:jar:2.1.8:compile
+|  +- org.slf4j:jcl-over-slf4j:jar:1.7.25:compile
+|  +- com.jcraft:jzlib:jar:1.1.3:compile
+|  +- io.netty:netty-all:jar:4.0.51.Final:compile
+|  +- org.bouncycastle:bcprov-jdk15on:jar:1.58:compile
+|  +- org.bouncycastle:bcpkix-jdk15on:jar:1.58:compile
+|  \- net.lightbody.bmp:mitm:jar:2.1.5:compile
++- io.cucumber:cucumber-junit:jar:2.4.0:compile
+|  \- io.cucumber:cucumber-core:jar:2.4.0:compile
+|     +- info.cukes:cucumber-html:jar:0.2.6:compile
+|     +- io.cucumber:cucumber-jvm-deps:jar:1.0.6:compile
+|     +- io.cucumber:gherkin:jar:5.0.0:compile
+|     \- io.cucumber:tag-expressions:jar:1.1.1:compile
++- org.eclipse.jetty:jetty-annotations:jar:9.2.20.v20161216:test
+|  +- org.eclipse.jetty:jetty-plus:jar:9.2.20.v20161216:test
+|  |  \- org.eclipse.jetty:jetty-jndi:jar:9.2.20.v20161216:test
+|  +- org.eclipse.jetty:jetty-webapp:jar:9.2.20.v20161216:test
+|  |  +- org.eclipse.jetty:jetty-xml:jar:9.2.20.v20161216:test
+|  |  \- org.eclipse.jetty:jetty-servlet:jar:9.2.20.v20161216:test
+|  |     \- org.eclipse.jetty:jetty-security:jar:9.2.20.v20161216:test
+|  +- javax.annotation:javax.annotation-api:jar:1.2:test
+|  +- org.ow2.asm:asm:jar:5.0.1:test
+|  \- org.ow2.asm:asm-commons:jar:5.0.1:test
+|     \- org.ow2.asm:asm-tree:jar:5.0.1:test
++- org.eclipse.jetty:apache-jsp:jar:9.2.20.v20161216:test
+|  +- org.eclipse.jetty:jetty-util:jar:9.2.20.v20161216:test
+|  +- org.eclipse.jetty:jetty-server:jar:9.2.20.v20161216:test
+|  |  +- org.eclipse.jetty:jetty-http:jar:9.2.20.v20161216:test
+|  |  \- org.eclipse.jetty:jetty-io:jar:9.2.20.v20161216:test
+|  +- org.eclipse.jetty.toolchain:jetty-schemas:jar:3.1.M0:test
+|  +- javax.servlet:javax.servlet-api:jar:3.1.0:test
+|  +- org.mortbay.jasper:apache-jsp:jar:8.0.33:test
+|  |  \- org.mortbay.jasper:apache-el:jar:8.0.33:test
+|  \- org.eclipse.jetty.orbit:org.eclipse.jdt.core:jar:3.8.2.v20130121:test
++- org.eclipse.jetty:jetty-jmx:jar:9.2.20.v20161216:test
++- junit:junit:jar:4.12:compile
+|  \- org.hamcrest:hamcrest-core:jar:1.3:compile
+\- org.slf4j:slf4j-api:jar:1.7.22:compile

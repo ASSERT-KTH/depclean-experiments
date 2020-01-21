@@ -1,0 +1,2 @@
+org.webjars.npm:vue__test-utils:jar:1.0.0-beta.12
+\- org.webjars.npm:lodash:jar:4.17.14:compile

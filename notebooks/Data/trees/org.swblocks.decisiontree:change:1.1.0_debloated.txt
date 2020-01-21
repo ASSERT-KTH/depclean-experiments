@@ -1,0 +1,7 @@
+org.swblocks.decisiontree:change:jar:1.1.0
++- org.slf4j:slf4j-api:jar:1.7.25:runtime
+\- org.swblocks.decisiontree:core:jar:1.1.0:runtime
+   +- (org.slf4j:slf4j-api:jar:1.7.25:runtime - omitted for duplicate)
+   +- org.agrona:Agrona:jar:0.5.5:runtime
+   +- com.fasterxml.jackson.core:jackson-core:jar:2.8.4:runtime
+   \- org.swblocks:jbl:jar:1.1.0:runtime

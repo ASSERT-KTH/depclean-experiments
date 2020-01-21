@@ -1,0 +1,9 @@
+com.helger:ph-tree:bundle:9.1.3
++- com.helger:ph-commons:jar:9.1.3:compile
+|  \- com.google.code.findbugs:jsr305:jar:3.0.2:compile
++- com.helger:ph-xml:jar:9.1.3:compile (optional)
+|  \- com.helger:ph-collection:jar:9.1.3:compile (optional)
++- com.helger:ph-scopes:jar:9.1.3:compile (optional)
++- org.slf4j:slf4j-simple:jar:1.7.25:test
+\- junit:junit:jar:4.12:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

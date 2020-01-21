@@ -1,0 +1,45 @@
+com.astutebits:jsquint-findbugs:jar:0.3.0
++- com.astutebits:jsquint-api:jar:0.3.0:compile
+|  \- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
++- com.jcabi:jcabi-log:jar:0.17:compile
+|  +- org.slf4j:slf4j-api:jar:1.7.5:compile
+|  \- com.jcabi:jcabi-aspects:jar:0.22.2:compile (version managed from 0.22)
+|     +- org.aspectj:aspectjrt:jar:1.8.7:compile (version managed from 1.8.4)
+|     \- javax.validation:validation-api:jar:1.1.0.Final:compile
++- commons-io:commons-io:jar:2.4:compile
++- commons-lang:commons-lang:jar:2.6:compile
++- com.google.guava:guava:jar:20.0:compile
++- com.google.code.findbugs:findbugs:jar:3.0.1:compile
+|  +- net.jcip:jcip-annotations:jar:1.0:compile
+|  +- (com.google.code.findbugs:bcel-findbugs:jar:6.0:compile - omitted for duplicate)
+|  +- (com.google.code.findbugs:jFormatString:jar:2.0.1:compile - omitted for conflict with 3.0.0)
+|  +- (dom4j:dom4j:jar:1.6.1:compile - omitted for duplicate)
+|  +- (org.ow2.asm:asm-debug-all:jar:5.0.2:compile - omitted for conflict with 5.0.3)
+|  +- org.ow2.asm:asm-commons:jar:5.0.2:compile
+|  |  \- (org.ow2.asm:asm-tree:jar:5.0.2:compile - omitted for conflict with 5.0.3)
+|  +- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+|  +- com.apple:AppleJavaExtensions:jar:1.4:compile
+|  \- (jaxen:jaxen:jar:1.1.6:compile - omitted for duplicate)
++- com.google.code.findbugs:jsr305:jar:3.0.0:compile
++- com.google.code.findbugs:jFormatString:jar:3.0.0:compile
++- com.ibm.icu:icu4j:jar:53.1:runtime
++- org.ow2.asm:asm:jar:5.0.3:compile
++- org.ow2.asm:asm-tree:jar:5.0.3:compile
+|  \- (org.ow2.asm:asm:jar:5.0.3:compile - omitted for duplicate)
++- org.ow2.asm:asm-debug-all:jar:5.0.3:runtime (scope not updated to compile)
++- com.google.code.findbugs:bcel-findbugs:jar:6.0:compile
++- com.mebigfatguy.fb-contrib:fb-contrib:jar:6.6.0:compile
++- xalan:xalan:jar:2.7.1:runtime
+|  \- xalan:serializer:jar:2.7.1:runtime
++- org.apache.commons:commons-lang3:jar:3.4:compile
++- jaxen:jaxen:jar:1.1.6:compile
++- dom4j:dom4j:jar:1.6.1:compile
++- com.jcabi.incubator:xembly:jar:0.21.4:compile
+|  \- org.antlr:antlr-runtime:jar:3.5.2:compile
++- junit:junit:jar:4.12:test
++- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.hamcrest:hamcrest-library:jar:1.3:test
+|  \- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for duplicate)
+\- org.mockito:mockito-core:jar:2.0.32-beta:test
+   +- net.bytebuddy:byte-buddy:jar:0.7.6:test
+   \- org.objenesis:objenesis:jar:2.1:test

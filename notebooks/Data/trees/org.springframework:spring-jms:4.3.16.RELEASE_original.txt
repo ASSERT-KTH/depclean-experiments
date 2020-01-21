@@ -1,0 +1,30 @@
+org.springframework:spring-jms:jar:4.3.16.RELEASE
++- com.fasterxml.jackson.core:jackson-databind:jar:2.8.11.1:compile
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile
+|  \- com.fasterxml.jackson.core:jackson-core:jar:2.8.10:compile
++- javax.resource:connector-api:jar:1.5:compile
++- javax.transaction:javax.transaction-api:jar:1.2:compile
++- org.springframework:spring-aop:jar:4.3.16.RELEASE:compile
+|  +- (org.springframework:spring-beans:jar:4.3.16.RELEASE:compile - omitted for duplicate)
+|  \- (org.springframework:spring-core:jar:4.3.16.RELEASE:compile - omitted for duplicate)
++- org.springframework:spring-beans:jar:4.3.16.RELEASE:compile
+|  \- (org.springframework:spring-core:jar:4.3.16.RELEASE:compile - omitted for duplicate)
++- org.springframework:spring-context:jar:4.3.16.RELEASE:compile
+|  +- (org.springframework:spring-aop:jar:4.3.16.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-beans:jar:4.3.16.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-core:jar:4.3.16.RELEASE:compile - omitted for duplicate)
+|  \- org.springframework:spring-expression:jar:4.3.16.RELEASE:compile
+|     \- (org.springframework:spring-core:jar:4.3.16.RELEASE:compile - omitted for duplicate)
++- org.springframework:spring-core:jar:4.3.16.RELEASE:compile
+|  \- commons-logging:commons-logging:jar:1.2:compile
++- org.springframework:spring-messaging:jar:4.3.16.RELEASE:compile
+|  +- (org.springframework:spring-beans:jar:4.3.16.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-context:jar:4.3.16.RELEASE:compile - omitted for duplicate)
+|  \- (org.springframework:spring-core:jar:4.3.16.RELEASE:compile - omitted for duplicate)
++- org.springframework:spring-oxm:jar:4.3.16.RELEASE:compile
+|  +- (org.springframework:spring-beans:jar:4.3.16.RELEASE:compile - omitted for duplicate)
+|  \- (org.springframework:spring-core:jar:4.3.16.RELEASE:compile - omitted for duplicate)
++- org.springframework:spring-tx:jar:4.3.16.RELEASE:compile
+|  +- (org.springframework:spring-beans:jar:4.3.16.RELEASE:compile - omitted for duplicate)
+|  \- (org.springframework:spring-core:jar:4.3.16.RELEASE:compile - omitted for duplicate)
+\- javax.jms:jms-api:jar:1.1-rev-1:provided

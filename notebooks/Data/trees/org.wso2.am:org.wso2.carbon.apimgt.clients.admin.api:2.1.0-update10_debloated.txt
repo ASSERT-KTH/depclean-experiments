@@ -1,0 +1,17 @@
+org.wso2.am:org.wso2.carbon.apimgt.clients.admin.api:jar:2.1.0-update10
++- io.swagger:swagger-annotations:jar:1.5.0:compile
++- com.sun.jersey.contribs:jersey-multipart:jar:1.18:compile
+|  +- org.jvnet.mimepull:mimepull:jar:1.9.3:compile
+|  \- (com.sun.jersey:jersey-core:jar:1.18:compile - omitted for duplicate)
++- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.3:compile
++- com.fasterxml.jackson.datatype:jackson-datatype-joda:jar:2.9.3:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.3:compile - version managed from 2.9.0; omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.3:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.3:compile - omitted for duplicate)
+|  \- (joda-time:joda-time:jar:2.3:compile - version managed from 2.7; omitted for duplicate)
++- joda-time:joda-time:jar:2.3:compile
++- com.squareup.okhttp:okhttp:jar:2.7.5:compile
+|  \- com.squareup.okio:okio:jar:1.6.0:compile
++- com.squareup.okhttp:logging-interceptor:jar:2.7.5:compile
+|  \- (com.squareup.okhttp:okhttp:jar:2.7.5:compile - omitted for duplicate)
+\- com.google.code.gson:gson:jar:2.7:compile

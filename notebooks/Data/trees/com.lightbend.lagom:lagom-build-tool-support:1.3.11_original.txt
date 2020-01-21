@@ -1,0 +1,29 @@
+com.lightbend.lagom:lagom-build-tool-support:jar:1.3.11
++- org.scala-lang:scala-library:jar:2.10.6:compile
++- com.lightbend.lagom:build-link:jar:1.3.11:compile
+|  +- com.typesafe.play:play-exceptions:jar:2.5.18:compile
+|  \- com.typesafe.play:build-link:jar:2.5.18:compile
+|     \- (com.typesafe.play:play-exceptions:jar:2.5.18:compile - omitted for duplicate)
++- com.lightbend.play:play-file-watch_2.10:jar:1.0.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for duplicate)
+|  +- com.lightbend.play:jnotify:jar:0.94-play-2:compile
+|  \- com.github.pathikrit:better-files_2.10:jar:2.14.0:compile
+|     \- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for duplicate)
++- com.datastax.cassandra:cassandra-driver-core:jar:3.0.0:compile
+|  +- io.netty:netty-handler:jar:4.0.33.Final:compile
+|  |  +- io.netty:netty-buffer:jar:4.0.33.Final:compile
+|  |  |  \- io.netty:netty-common:jar:4.0.33.Final:compile
+|  |  +- io.netty:netty-transport:jar:4.0.33.Final:compile
+|  |  |  \- (io.netty:netty-buffer:jar:4.0.33.Final:compile - omitted for duplicate)
+|  |  \- io.netty:netty-codec:jar:4.0.33.Final:compile
+|  |     \- (io.netty:netty-transport:jar:4.0.33.Final:compile - omitted for duplicate)
+|  +- com.google.guava:guava:jar:16.0.1:compile
+|  \- io.dropwizard.metrics:metrics-core:jar:3.1.2:compile
+|     \- org.slf4j:slf4j-api:jar:1.7.7:compile
+\- org.scalatest:scalatest_2.10:jar:3.0.1:test
+   +- (org.scala-lang:scala-library:jar:2.10.6:test - omitted for duplicate)
+   +- org.scalactic:scalactic_2.10:jar:3.0.1:test
+   |  +- (org.scala-lang:scala-library:jar:2.10.6:test - omitted for duplicate)
+   |  \- (org.scala-lang:scala-reflect:jar:2.10.6:test - omitted for duplicate)
+   \- org.scala-lang:scala-reflect:jar:2.10.6:test
+      \- (org.scala-lang:scala-library:jar:2.10.6:test - omitted for duplicate)

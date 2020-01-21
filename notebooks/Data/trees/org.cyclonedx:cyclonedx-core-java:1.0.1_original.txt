@@ -1,0 +1,10 @@
+org.cyclonedx:cyclonedx-core-java:jar:1.0.1
++- commons-codec:commons-codec:jar:1.11:compile
++- commons-io:commons-io:jar:2.6:compile
++- xml-apis:xml-apis:jar:1.4.01:compile
++- xml-resolver:xml-resolver:jar:1.2:compile
++- com.rackspace.eclipse.webtools.sourceediting:org.eclipse.wst.xml.xpath2.processor:jar:2.1.100:compile
+|  +- edu.princeton.cup:java-cup:jar:10k:compile
+|  \- com.ibm.icu:icu4j:jar:4.6:compile
+\- xerces:xercesImpl:jar:2.11.0:compile
+   \- (xml-apis:xml-apis:jar:1.4.01:compile - omitted for duplicate)

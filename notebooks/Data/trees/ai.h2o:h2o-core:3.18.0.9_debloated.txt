@@ -1,0 +1,47 @@
+ai.h2o:h2o-core:pom:3.18.0.9
++- ai.h2o:h2o-genmodel:jar:3.18.0.9:runtime
+|  +- net.sf.opencsv:opencsv:jar:2.3:runtime
+|  +- (com.google.code.gson:gson:jar:2.6.2:runtime - omitted for duplicate)
+|  +- com.google.protobuf.nano:protobuf-javanano:jar:3.1.0:runtime
+|  \- ai.h2o:deepwater-backend-api:jar:1.0.4:runtime
+|     \- org.slf4j:slf4j-log4j12:jar:1.7.5:runtime
+|        +- org.slf4j:slf4j-api:jar:1.7.5:runtime
+|        \- (log4j:log4j:jar:1.2.17:runtime - omitted for duplicate)
++- joda-time:joda-time:jar:2.9.9:runtime
++- gov.nist.math:jama:jar:1.0.3:runtime
++- org.javassist:javassist:jar:3.18.2-GA:runtime
++- org.apache.commons:commons-math3:jar:3.3:runtime
++- commons-io:commons-io:jar:2.4:runtime
++- ai.h2o:google-analytics-java:jar:1.1.2-H2O-CUSTOM:runtime
+|  \- org.apache.httpcomponents:httpclient:jar:4.1:runtime
+|     +- org.apache.httpcomponents:httpcore:jar:4.1:runtime
+|     +- commons-logging:commons-logging:jar:1.1.1:runtime
+|     \- commons-codec:commons-codec:jar:1.4:runtime
++- org.eclipse.jetty.aggregate:jetty-servlet:jar:8.1.17.v20150415:runtime
++- org.eclipse.jetty:jetty-plus:jar:8.1.17.v20150415:runtime
+|  +- org.eclipse.jetty.orbit:javax.transaction:jar:1.1.1.v201105210645:runtime
+|  +- org.eclipse.jetty:jetty-webapp:jar:8.1.17.v20150415:runtime
+|  |  +- org.eclipse.jetty:jetty-xml:jar:8.1.17.v20150415:runtime
+|  |  |  \- org.eclipse.jetty:jetty-util:jar:8.1.17.v20150415:runtime
+|  |  \- org.eclipse.jetty:jetty-servlet:jar:8.1.17.v20150415:runtime
+|  |     \- org.eclipse.jetty:jetty-security:jar:8.1.17.v20150415:runtime
+|  |        \- (org.eclipse.jetty:jetty-server:jar:8.1.17.v20150415:runtime - omitted for duplicate)
+|  \- org.eclipse.jetty:jetty-jndi:jar:8.1.17.v20150415:runtime
+|     +- org.eclipse.jetty:jetty-server:jar:8.1.17.v20150415:runtime
+|     |  +- org.eclipse.jetty.orbit:javax.servlet:jar:3.0.0.v201112011016:runtime
+|     |  +- org.eclipse.jetty:jetty-continuation:jar:8.1.17.v20150415:runtime
+|     |  \- org.eclipse.jetty:jetty-http:jar:8.1.17.v20150415:runtime
+|     |     \- org.eclipse.jetty:jetty-io:jar:8.1.17.v20150415:runtime
+|     |        \- (org.eclipse.jetty:jetty-util:jar:8.1.17.v20150415:runtime - omitted for duplicate)
+|     \- org.eclipse.jetty.orbit:javax.mail.glassfish:jar:1.4.1.v201005082020:runtime
+|        \- org.eclipse.jetty.orbit:javax.activation:jar:1.1.0.v201105071233:runtime
++- com.github.rwl:jtransforms:jar:2.4.0:runtime
+|  \- junit:junit:jar:4.8.2:runtime
++- ai.h2o:h2o-jaas-pam:jar:3.18.0.9:runtime
+|  \- org.kohsuke:libpam4j:jar:1.8:runtime
+|     \- net.java.dev.jna:jna:jar:4.0.0:runtime
++- log4j:log4j:jar:1.2.17:runtime
++- com.google.guava:guava:jar:16.0.1:runtime
++- com.google.code.gson:gson:jar:2.6.2:runtime
++- commons-lang:commons-lang:jar:2.6:runtime
+\- no.priv.garshol.duke:duke:jar:1.2:runtime

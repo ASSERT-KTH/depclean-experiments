@@ -1,0 +1,11 @@
+org.wso2.carbon.mediation:org.wso2.carbon.priority.executors.stub:bundle:4.6.64
++- org.apache.axis2.wso2:axis2:jar:1.6.1-wso2v23:compile
++- org.apache.neethi.wso2:neethi:jar:2.0.4.wso2v4:compile
++- commons-logging:commons-logging:jar:1.1.1:compile
+\- org.apache.ws.commons.axiom.wso2:axiom:jar:1.2.11.wso2v11:compile
+   +- org.apache.geronimo.specs.wso2:geronimo-stax-api_1.0_spec:jar:1.0.1.wso2v2:compile
+   |  +- org.apache.geronimo.specs:geronimo-stax-api_1.0_spec:jar:1.0.1:compile
+   |  +- (org.codehaus.woodstox:stax2-api:jar:3.1.4:compile - version managed from 3.1.1; omitted for duplicate)
+   |  \- (org.codehaus.woodstox:woodstox-core-asl:jar:4.2.0:compile - version managed from 4.1.4; omitted for duplicate)
+   +- org.codehaus.woodstox:woodstox-core-asl:jar:4.2.0:compile
+   \- org.codehaus.woodstox:stax2-api:jar:3.1.4:compile

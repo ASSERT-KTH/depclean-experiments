@@ -1,0 +1,124 @@
+org.neo4j:neo4j-enterprise:jar:3.4.0-alpha06
++- org.neo4j:neo4j:jar:3.4.0-alpha06:compile
+|  +- org.neo4j:neo4j-kernel:jar:3.4.0-alpha06:compile
+|  +- org.neo4j:neo4j-lucene-index:jar:3.4.0-alpha06:compile
+|  |  +- org.apache.lucene:lucene-analyzers-common:jar:5.5.5:compile
+|  |  +- org.apache.lucene:lucene-core:jar:5.5.5:compile
+|  |  +- org.apache.lucene:lucene-queryparser:jar:5.5.5:compile
+|  |  \- org.apache.lucene:lucene-codecs:jar:5.5.5:compile
+|  +- org.neo4j:neo4j-graph-algo:jar:3.4.0-alpha06:compile
+|  +- org.neo4j:neo4j-udc:jar:3.4.0-alpha06:compile
+|  +- org.neo4j:neo4j-cypher:jar:3.4.0-alpha06:compile
+|  |  +- org.scala-lang:scala-library:jar:2.11.12:compile
+|  |  +- org.scala-lang:scala-reflect:jar:2.11.12:compile
+|  |  +- org.neo4j:neo4j-graph-matching:jar:3.1.6:compile
+|  |  +- org.neo4j:neo4j-codegen:jar:3.4.0-alpha06:compile
+|  |  |  +- org.ow2.asm:asm:jar:6.0:compile
+|  |  |  +- org.ow2.asm:asm-util:jar:6.0:compile
+|  |  |  +- org.ow2.asm:asm-analysis:jar:6.0:compile
+|  |  |  \- org.ow2.asm:asm-tree:jar:6.0:compile
+|  |  +- org.neo4j:neo4j-cypher-compiler-2.3:jar:2.3.12:compile
+|  |  |  +- org.neo4j:neo4j-cypher-frontend-2.3:jar:2.3.12:compile
+|  |  |  \- com.googlecode.concurrentlinkedhashmap:concurrentlinkedhashmap-lru:jar:1.4.2:compile
+|  |  +- org.neo4j:neo4j-cypher-compiler-3.1:jar:3.1.6:compile
+|  |  |  \- org.neo4j:neo4j-cypher-frontend-3.1:jar:3.1.6:compile
+|  |  +- org.neo4j:neo4j-cypher-compiler-3.3:jar:3.3.1:compile
+|  |  |  +- org.neo4j:neo4j-cypher-frontend-3.3:jar:3.3.1:compile
+|  |  |  +- org.neo4j:neo4j-cypher-ir-3.3:jar:3.3.1:compile
+|  |  |  \- org.neo4j:neo4j-cypher-logical-plans-3.3:jar:3.3.1:compile
+|  |  +- org.neo4j:neo4j-cypher-util-3.4:jar:3.4.0-alpha06:compile
+|  |  +- org.neo4j:neo4j-cypher-planner-3.4:jar:3.4.0-alpha06:compile
+|  |  |  +- org.neo4j:neo4j-cypher-frontend-3.4:jar:3.4.0-alpha06:compile
+|  |  |  |  \- org.neo4j:neo4j-cypher-expression-3.4:jar:3.4.0-alpha06:compile
+|  |  |  +- org.neo4j:neo4j-cypher-ir-3.4:jar:3.4.0-alpha06:compile
+|  |  |  \- org.neo4j:neo4j-cypher-logical-plans-3.4:jar:3.4.0-alpha06:compile
+|  |  +- org.neo4j:neo4j-cypher-planner-spi-3.4:jar:3.4.0-alpha06:compile
+|  |  +- org.neo4j:neo4j-cypher-runtime-util:jar:3.4.0-alpha06:compile
+|  |  +- org.neo4j:neo4j-cypher-interpreted-runtime:jar:3.4.0-alpha06:compile
+|  |  +- org.parboiled:parboiled-scala_2.11:jar:1.1.7:compile
+|  |  |  \- org.parboiled:parboiled-core:jar:1.1.7:compile
+|  |  \- net.sf.opencsv:opencsv:jar:2.3:compile
+|  +- org.neo4j:neo4j-jmx:jar:3.4.0-alpha06:compile
+|  \- org.neo4j:neo4j-consistency-check:jar:3.4.0-alpha06:compile
++- org.neo4j:neo4j-query-logging:jar:3.4.0-alpha06:compile
++- org.neo4j:neo4j-com:jar:3.4.0-alpha06:compile
+|  +- org.neo4j:neo4j-enterprise-kernel:jar:3.4.0-alpha06:compile
+|  \- io.netty:netty:jar:3.9.9.Final:compile
++- org.neo4j:neo4j-backup:jar:3.4.0-alpha06:compile
+|  +- org.neo4j:neo4j-command-line:jar:3.4.0-alpha06:compile
+|  |  \- org.apache.commons:commons-text:jar:1.1:compile
+|  +- org.neo4j:neo4j-dbms:jar:3.4.0-alpha06:compile
+|  |  +- org.neo4j:neo4j-import-tool:jar:3.4.0-alpha06:compile
+|  |  +- org.jprocesses:jProcesses:jar:1.6.4:compile
+|  |  |  \- com.profesorfalken:WMI4Java:jar:1.6.1:compile
+|  |  |     \- com.profesorfalken:jPowerShell:jar:1.9:compile
+|  |  \- org.apache.commons:commons-compress:jar:1.15:compile
+|  \- org.neo4j:neo4j-cluster:jar:3.4.0-alpha06:compile
++- org.neo4j:neo4j-ha:jar:3.4.0-alpha06:compile
++- org.neo4j:neo4j-causal-clustering:jar:3.4.0-alpha06:compile
+|  +- io.netty:netty-all:jar:4.1.17.Final:compile
+|  +- com.hazelcast:hazelcast-all:jar:3.7.5:compile
+|  \- org.neo4j:neo4j-ssl:jar:3.4.0-alpha06:compile
++- org.neo4j:neo4j-metrics:jar:3.4.0-alpha06:compile
+|  +- io.dropwizard.metrics:metrics-core:jar:4.0.2:compile
+|  |  \- org.slf4j:slf4j-api:jar:1.7.25:compile
+|  +- io.dropwizard.metrics:metrics-graphite:jar:4.0.2:compile
+|  +- io.prometheus:simpleclient:jar:0.1.0:compile
+|  +- io.prometheus:simpleclient_httpserver:jar:0.1.0:compile
+|  |  \- io.prometheus:simpleclient_common:jar:0.1.0:compile
+|  \- io.prometheus:simpleclient_dropwizard:jar:0.1.0:compile
++- org.neo4j:neo4j-management:jar:3.4.0-alpha06:compile
++- org.neo4j:neo4j-security-enterprise:jar:3.4.0-alpha06:compile
+|  +- org.neo4j:neo4j-security:jar:3.4.0-alpha06:compile
+|  +- org.neo4j:neo4j-auth-plugin-api:jar:3.4.0-alpha06:compile
+|  +- org.apache.shiro:shiro-core:jar:1.4.0:compile
+|  |  +- org.apache.shiro:shiro-lang:jar:1.4.0:compile
+|  |  +- org.apache.shiro:shiro-cache:jar:1.4.0:compile
+|  |  +- org.apache.shiro:shiro-crypto-hash:jar:1.4.0:compile
+|  |  |  \- org.apache.shiro:shiro-crypto-core:jar:1.4.0:compile
+|  |  +- org.apache.shiro:shiro-crypto-cipher:jar:1.4.0:compile
+|  |  +- org.apache.shiro:shiro-config-core:jar:1.4.0:compile
+|  |  +- org.apache.shiro:shiro-config-ogdl:jar:1.4.0:compile
+|  |  |  \- commons-beanutils:commons-beanutils:jar:1.9.3:compile
+|  |  |     \- commons-collections:commons-collections:jar:3.2.2:compile
+|  |  \- org.apache.shiro:shiro-event:jar:1.4.0:compile
+|  +- com.github.ben-manes.caffeine:caffeine:jar:2.6.1:compile
+|  \- org.slf4j:slf4j-nop:jar:1.7.25:compile
++- org.neo4j:neo4j-bolt:jar:3.4.0-alpha06:compile
+|  +- org.neo4j:neo4j-values:jar:3.4.0-alpha06:compile
+|  +- org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:compile
+|  |  \- org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile
+|  \- org.bouncycastle:bcpkix-jdk15on:jar:1.59:compile
+|     \- org.bouncycastle:bcprov-jdk15on:jar:1.59:compile
++- junit:junit:jar:4.12:test
++- commons-codec:commons-codec:jar:1.11:test
++- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.hamcrest:hamcrest-library:jar:1.3:test
++- org.mockito:mockito-core:jar:2.13.0:test
+|  +- net.bytebuddy:byte-buddy:jar:1.7.9:test
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.7.9:test
+|  \- org.objenesis:objenesis:jar:2.6:compile
++- org.neo4j:neo4j:test-jar:tests:3.4.0-alpha06:test
++- org.neo4j:neo4j-kernel:test-jar:tests:3.4.0-alpha06:test
+|  +- org.neo4j:neo4j-graphdb-api:jar:3.4.0-alpha06:compile
+|  |  \- org.neo4j:neo4j-resource:jar:3.4.0-alpha06:compile
+|  +- org.neo4j:neo4j-kernel-api:jar:3.4.0-alpha06:compile
+|  +- org.neo4j:neo4j-common:jar:3.4.0-alpha06:compile
+|  +- org.neo4j:neo4j-collections:jar:3.4.0-alpha06:compile
+|  +- org.neo4j:neo4j-primitive-collections:jar:3.4.0-alpha06:compile
+|  +- org.neo4j:neo4j-io:jar:3.4.0-alpha06:compile
+|  +- org.neo4j:neo4j-csv:jar:3.4.0-alpha06:compile
+|  +- org.neo4j:neo4j-logging:jar:3.4.0-alpha06:compile
+|  +- org.neo4j:neo4j-lucene-upgrade:jar:3.4.0-alpha06:compile
+|  |  \- org.apache.lucene:lucene-backward-codecs:jar:5.5.0:compile
+|  +- org.neo4j:neo4j-configuration:jar:3.4.0-alpha06:compile
+|  \- org.neo4j:neo4j-index:jar:3.4.0-alpha06:compile
++- org.neo4j:neo4j-io:test-jar:tests:3.4.0-alpha06:test
+|  +- org.neo4j:neo4j-unsafe:jar:3.4.0-alpha06:compile
+|  \- org.apache.commons:commons-lang3:jar:3.7:compile
++- org.neo4j:neo4j-ha:test-jar:tests:3.4.0-alpha06:test
++- org.neo4j:neo4j-cluster:test-jar:tests:3.4.0-alpha06:test
++- org.neo4j:neo4j-enterprise-kernel:test-jar:tests:3.4.0-alpha06:test
++- org.neo4j:neo4j-consistency-check:test-jar:tests:3.4.0-alpha06:test
++- org.neo4j:neo4j-logging:test-jar:tests:3.4.0-alpha06:test
+\- org.neo4j:neo4j-common:test-jar:tests:3.4.0-alpha06:test

@@ -1,0 +1,83 @@
+edu.byu.hbll.box:box-core:jar:1.2.2
++- edu.byu.hbll:config:jar:3.2.0:compile
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.9.4:compile (version managed from 2.8.7)
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile (version managed from 2.8.7)
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.9.4:compile (version managed from 2.8.7)
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile - version managed from 2.8.7; omitted for duplicate)
+|  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.4:compile - version managed from 2.8.7; omitted for duplicate)
+|  +- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.9.4:compile (version managed from 2.8.7)
+|  |  +- (org.yaml:snakeyaml:jar:1.18:compile - omitted for duplicate)
+|  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.4:compile - version managed from 2.8.7; omitted for duplicate)
+|  \- org.yaml:snakeyaml:jar:1.18:compile
++- edu.byu.hbll:misc:jar:1.0.3:compile
++- edu.byu.hbll:xml:jar:1.0.2:compile
++- edu.byu.hbll:json:jar:1.2.0:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile - version managed from 2.9.1; omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.4:compile - version managed from 2.9.1; omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.4:compile - version managed from 2.9.1; omitted for duplicate)
+|  +- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.4:compile (version managed from 2.9.1)
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.4:compile - version managed from 2.9.1; omitted for duplicate)
+|  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.4:compile - version managed from 2.9.1; omitted for duplicate)
+|  +- com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.9.4:compile (version managed from 2.9.1)
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile - version managed from 2.9.1; omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.4:compile - version managed from 2.9.1; omitted for duplicate)
+|  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.4:compile - version managed from 2.9.1; omitted for duplicate)
+|  \- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.4:compile (version managed from 2.9.1)
+|     +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile - version managed from 2.9.1; omitted for duplicate)
+|     +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.4:compile - version managed from 2.9.1; omitted for duplicate)
+|     \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.4:compile - version managed from 2.9.1; omitted for duplicate)
++- edu.byu.hbll:solr:jar:1.0.2:compile
+|  +- (org.apache.solr:solr-solrj:jar:6.5.0:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile - version managed from 2.7.3; omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.4:compile - version managed from 2.7.3; omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.4:compile - version managed from 2.7.3; omitted for duplicate)
+|  \- edu.byu.hbll:time:jar:1.1.0:compile
++- edu.byu.hbll:stats:jar:1.0.1:compile
++- edu.byu.hbll.box:box-client:jar:1.2.2:compile
+|  \- (edu.byu.hbll:json:jar:1.2.0:compile - omitted for duplicate)
++- org.mongodb:mongo-java-driver:jar:3.6.0:compile
++- org.slf4j:jul-to-slf4j:jar:1.7.20:compile
+|  \- org.slf4j:slf4j-api:jar:1.7.20:compile
++- org.apache.solr:solr-solrj:jar:6.5.0:compile
+|  +- commons-io:commons-io:jar:2.5:compile
+|  +- org.apache.httpcomponents:httpclient:jar:4.4.1:compile
+|  +- org.apache.httpcomponents:httpcore:jar:4.4.1:compile
+|  +- org.apache.httpcomponents:httpmime:jar:4.4.1:compile
+|  +- org.apache.zookeeper:zookeeper:jar:3.4.6:compile
+|  +- org.codehaus.woodstox:stax2-api:jar:3.1.4:compile
+|  +- org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1:compile
+|  +- org.noggit:noggit:jar:0.6:compile
+|  +- org.slf4j:jcl-over-slf4j:jar:1.7.7:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for conflict with 1.7.20)
++- commons-beanutils:commons-beanutils:jar:1.9.3:compile
+|  +- commons-logging:commons-logging:jar:1.2:compile
+|  \- commons-collections:commons-collections:jar:3.2.2:compile
++- javax:javaee-api:jar:7.0:provided
+|  \- com.sun.mail:javax.mail:jar:1.5.0:provided
+|     \- javax.activation:activation:jar:1.1:provided
++- org.glassfish.jersey.core:jersey-client:jar:2.10.4:provided
+|  +- org.glassfish.jersey.core:jersey-common:jar:2.10.4:provided
+|  |  +- (javax.ws.rs:javax.ws.rs-api:jar:2.0.1:provided - omitted for duplicate)
+|  |  +- javax.annotation:javax.annotation-api:jar:1.2:provided
+|  |  +- org.glassfish.jersey.bundles.repackaged:jersey-guava:jar:2.10.4:provided
+|  |  +- (org.glassfish.hk2:hk2-api:jar:2.3.0-b10:provided - omitted for duplicate)
+|  |  +- (org.glassfish.hk2.external:javax.inject:jar:2.3.0-b10:provided - omitted for duplicate)
+|  |  +- (org.glassfish.hk2:hk2-locator:jar:2.3.0-b10:provided - omitted for duplicate)
+|  |  \- org.glassfish.hk2:osgi-resource-locator:jar:1.0.1:provided
+|  +- javax.ws.rs:javax.ws.rs-api:jar:2.0.1:provided
+|  +- org.glassfish.hk2:hk2-api:jar:2.3.0-b10:provided
+|  |  +- org.glassfish.hk2:hk2-utils:jar:2.3.0-b10:provided
+|  |  \- org.glassfish.hk2.external:aopalliance-repackaged:jar:2.3.0-b10:provided
+|  +- org.glassfish.hk2.external:javax.inject:jar:2.3.0-b10:provided
+|  \- org.glassfish.hk2:hk2-locator:jar:2.3.0-b10:provided
+|     +- (org.glassfish.hk2.external:javax.inject:jar:2.3.0-b10:provided - omitted for duplicate)
+|     +- (org.glassfish.hk2.external:aopalliance-repackaged:jar:2.3.0-b10:provided - omitted for duplicate)
+|     +- (org.glassfish.hk2:hk2-api:jar:2.3.0-b10:provided - omitted for duplicate)
+|     +- (org.glassfish.hk2:hk2-utils:jar:2.3.0-b10:provided - omitted for duplicate)
+|     \- org.javassist:javassist:jar:3.18.1-GA:provided
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
+\- org.mockito:mockito-core:jar:2.13.0:test
+   +- net.bytebuddy:byte-buddy:jar:1.7.9:test
+   +- net.bytebuddy:byte-buddy-agent:jar:1.7.9:test
+   \- org.objenesis:objenesis:jar:2.6:test

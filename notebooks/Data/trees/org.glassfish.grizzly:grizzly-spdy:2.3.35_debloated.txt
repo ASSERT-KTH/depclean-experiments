@@ -1,0 +1,7 @@
+org.glassfish.grizzly:grizzly-spdy:jar:2.3.35
++- org.glassfish.grizzly:grizzly-http:jar:2.3.35:compile
+|  \- org.glassfish.grizzly:grizzly-framework:jar:2.3.35:compile
++- org.glassfish.grizzly:grizzly-http-server:jar:2.3.35:provided
+|  \- (org.glassfish.grizzly:grizzly-http:jar:2.3.35:provided - omitted for duplicate)
++- org.glassfish.grizzly:grizzly-npn-api:jar:1.7:provided
+\- junit:junit:jar:4.7:test

@@ -1,0 +1,12 @@
+nl.openweb.hippo.updater:groovy-updater-bootstrap-generator:jar:1.11
++- commons-io:commons-io:jar:2.5:compile
++- org.codehaus.plexus:plexus-utils:jar:3.0.24:compile
++- org.apache.commons:commons-lang3:jar:3.4:compile
++- nl.openweb.hippo.updater:groovy-updater-annotations:jar:1.11:compile
++- org.codehaus.groovy:groovy-all:jar:2.4.7:compile
++- org.yaml:snakeyaml:jar:1.18:compile
++- org.slf4j:slf4j-api:jar:1.7.25:test
++- javax.jcr:jcr:jar:2.0:runtime
++- org.glassfish.jaxb:jaxb-runtime:jar:2.2.11:compile
+\- junit:junit:jar:4.12:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

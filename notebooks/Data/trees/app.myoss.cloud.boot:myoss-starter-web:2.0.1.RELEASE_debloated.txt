@@ -1,0 +1,135 @@
+app.myoss.cloud.boot:myoss-starter-web:jar:2.0.1.RELEASE
++- app.myoss.cloud.boot:myoss-starter-core:jar:2.0.1.RELEASE:compile
+|  +- org.springframework.boot:spring-boot-starter:jar:2.0.4.RELEASE:compile
+|  |  +- org.springframework.boot:spring-boot:jar:2.0.4.RELEASE:compile
+|  |  +- org.springframework.boot:spring-boot-autoconfigure:jar:2.0.4.RELEASE:compile
+|  |  +- javax.annotation:javax.annotation-api:jar:1.3.2:compile
+|  |  \- org.yaml:snakeyaml:jar:1.19:runtime
+|  +- com.alibaba:fastjson:jar:1.2.49:compile
+|  \- com.google.guava:guava:jar:26.0-jre:compile
+|     +- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+|     +- org.checkerframework:checker-qual:jar:2.5.2:compile
+|     +- com.google.errorprone:error_prone_annotations:jar:2.1.3:compile
+|     +- com.google.j2objc:j2objc-annotations:jar:1.1:compile
+|     \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:compile
++- app.myoss.cloud.boot:myoss-starter-apm:jar:2.0.1.RELEASE:compile
+|  +- org.springframework.cloud:spring-cloud-starter-sleuth:jar:2.0.1.RELEASE:compile
+|  |  +- org.springframework.cloud:spring-cloud-starter:jar:2.0.1.RELEASE:compile
+|  |  |  +- org.springframework.cloud:spring-cloud-context:jar:2.0.1.RELEASE:compile
+|  |  |  \- org.springframework.security:spring-security-rsa:jar:1.0.5.RELEASE:compile
+|  |  |     \- org.bouncycastle:bcpkix-jdk15on:jar:1.56:compile
+|  |  |        \- org.bouncycastle:bcprov-jdk15on:jar:1.56:compile
+|  |  +- org.springframework.boot:spring-boot-starter-aop:jar:2.0.4.RELEASE:compile
+|  |  |  \- org.aspectj:aspectjweaver:jar:1.8.13:compile
+|  |  \- org.springframework.cloud:spring-cloud-sleuth-core:jar:2.0.1.RELEASE:compile
+|  |     +- org.aspectj:aspectjrt:jar:1.8.13:compile
+|  |     +- io.zipkin.brave:brave:jar:5.1.4:compile
+|  |     |  +- io.zipkin.zipkin2:zipkin:jar:2.10.4:compile
+|  |     |  \- io.zipkin.reporter2:zipkin-reporter:jar:2.7.7:compile
+|  |     +- io.zipkin.brave:brave-context-log4j2:jar:5.1.4:compile
+|  |     +- io.zipkin.brave:brave-instrumentation-spring-web:jar:5.1.4:compile
+|  |     |  \- io.zipkin.brave:brave-instrumentation-http:jar:5.1.4:compile
+|  |     +- io.zipkin.brave:brave-instrumentation-spring-rabbit:jar:5.1.4:compile
+|  |     +- io.zipkin.brave:brave-instrumentation-kafka-clients:jar:5.1.4:compile
+|  |     +- io.zipkin.brave:brave-instrumentation-httpclient:jar:5.1.4:compile
+|  |     +- io.zipkin.brave:brave-instrumentation-httpasyncclient:jar:5.1.4:compile
+|  |     \- io.zipkin.brave:brave-instrumentation-spring-webmvc:jar:5.1.4:compile
+|  |        \- io.zipkin.brave:brave-instrumentation-servlet:jar:5.1.4:compile
+|  +- org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.0.1.RELEASE:compile
+|  |  +- org.springframework.cloud:spring-cloud-openfeign-core:jar:2.0.1.RELEASE:compile
+|  |  |  \- org.springframework.cloud:spring-cloud-netflix-ribbon:jar:2.0.1.RELEASE:compile
+|  |  |     \- org.springframework.cloud:spring-cloud-netflix-archaius:jar:2.0.1.RELEASE:compile
+|  |  +- org.springframework.cloud:spring-cloud-commons:jar:2.0.1.RELEASE:compile
+|  |  |  \- org.springframework.security:spring-security-crypto:jar:5.0.7.RELEASE:compile
+|  |  +- io.github.openfeign:feign-core:jar:9.5.1:compile
+|  |  +- io.github.openfeign:feign-slf4j:jar:9.5.1:compile
+|  |  +- io.github.openfeign:feign-hystrix:jar:9.5.1:compile
+|  |  |  +- com.netflix.archaius:archaius-core:jar:0.7.6:compile
+|  |  |  |  \- commons-configuration:commons-configuration:jar:1.8:runtime
+|  |  |  |     \- commons-lang:commons-lang:jar:2.6:runtime
+|  |  |  \- com.netflix.hystrix:hystrix-core:jar:1.5.12:compile
+|  |  |     +- io.reactivex:rxjava:jar:1.3.8:compile
+|  |  |     \- org.hdrhistogram:HdrHistogram:jar:2.1.9:compile
+|  |  \- io.github.openfeign:feign-java8:jar:9.5.1:compile
+|  +- org.springframework.boot:spring-boot-starter-logging:jar:2.0.4.RELEASE:compile
+|  |  +- ch.qos.logback:logback-classic:jar:1.2.3:compile
+|  |  |  \- ch.qos.logback:logback-core:jar:1.2.3:compile
+|  |  +- org.apache.logging.log4j:log4j-to-slf4j:jar:2.10.0:compile
+|  |  |  \- org.apache.logging.log4j:log4j-api:jar:2.10.0:compile
+|  |  \- org.slf4j:jul-to-slf4j:jar:1.7.25:compile
+|  \- org.codehaus.janino:janino:jar:3.0.8:compile
+|     \- org.codehaus.janino:commons-compiler:jar:3.0.8:compile
++- org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE:compile
+|  +- org.springframework.boot:spring-boot-starter-json:jar:2.0.4.RELEASE:compile
+|  |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.9.6:compile
+|  |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+|  |  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.9.6:compile
+|  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.6:compile
+|  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.6:compile
+|  |  \- com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.9.6:compile
+|  +- org.hibernate.validator:hibernate-validator:jar:6.0.11.Final:compile
+|  |  +- javax.validation:validation-api:jar:2.0.1.Final:compile
+|  |  +- org.jboss.logging:jboss-logging:jar:3.3.2.Final:compile
+|  |  +- com.fasterxml:classmate:jar:1.3.4:compile
+|  |  \- org.openjfx:javafx.base:jar:11.0.0-SNAPSHOT:compile
+|  |     +- org.openjfx:javafx.base:jar:linux:11.0.0-SNAPSHOT:compile
+|  |     +- org.openjfx:javafx.base:jar:mac:11.0.0-SNAPSHOT:compile
+|  |     \- org.openjfx:javafx.base:jar:win:11.0.0-SNAPSHOT:compile
+|  +- org.springframework:spring-web:jar:5.0.8.RELEASE:compile
+|  |  \- org.springframework:spring-beans:jar:5.0.8.RELEASE:compile
+|  \- org.springframework:spring-webmvc:jar:5.0.8.RELEASE:compile
+|     +- org.springframework:spring-aop:jar:5.0.8.RELEASE:compile
+|     +- org.springframework:spring-context:jar:5.0.8.RELEASE:compile
+|     \- org.springframework:spring-expression:jar:5.0.8.RELEASE:compile
++- org.springframework.boot:spring-boot-starter-jetty:jar:2.0.4.RELEASE:compile
+|  +- org.eclipse.jetty:jetty-servlets:jar:9.4.11.v20180605:compile
+|  |  +- org.eclipse.jetty:jetty-continuation:jar:9.4.11.v20180605:compile
+|  |  +- org.eclipse.jetty:jetty-http:jar:9.4.11.v20180605:compile
+|  |  +- org.eclipse.jetty:jetty-util:jar:9.4.11.v20180605:compile
+|  |  \- org.eclipse.jetty:jetty-io:jar:9.4.11.v20180605:compile
+|  +- org.eclipse.jetty:jetty-webapp:jar:9.4.11.v20180605:compile
+|  |  +- org.eclipse.jetty:jetty-xml:jar:9.4.11.v20180605:compile
+|  |  \- org.eclipse.jetty:jetty-servlet:jar:9.4.11.v20180605:compile
+|  |     \- org.eclipse.jetty:jetty-security:jar:9.4.11.v20180605:compile
+|  |        \- org.eclipse.jetty:jetty-server:jar:9.4.11.v20180605:compile
+|  +- org.eclipse.jetty.websocket:websocket-server:jar:9.4.11.v20180605:compile
+|  |  +- org.eclipse.jetty.websocket:websocket-common:jar:9.4.11.v20180605:compile
+|  |  |  \- org.eclipse.jetty.websocket:websocket-api:jar:9.4.11.v20180605:compile
+|  |  +- org.eclipse.jetty.websocket:websocket-client:jar:9.4.11.v20180605:compile
+|  |  |  \- org.eclipse.jetty:jetty-client:jar:9.4.11.v20180605:compile
+|  |  \- org.eclipse.jetty.websocket:websocket-servlet:jar:9.4.11.v20180605:compile
+|  |     \- javax.servlet:javax.servlet-api:jar:3.1.0:compile
+|  +- org.eclipse.jetty.websocket:javax-websocket-server-impl:jar:9.4.11.v20180605:compile
+|  |  +- org.eclipse.jetty:jetty-annotations:jar:9.4.11.v20180605:compile
+|  |  |  +- org.eclipse.jetty:jetty-plus:jar:9.4.11.v20180605:compile
+|  |  |  +- org.ow2.asm:asm:jar:6.2:compile
+|  |  |  \- org.ow2.asm:asm-commons:jar:6.2:compile
+|  |  |     +- org.ow2.asm:asm-tree:jar:6.2:compile
+|  |  |     \- org.ow2.asm:asm-analysis:jar:6.2:compile
+|  |  +- org.eclipse.jetty.websocket:javax-websocket-client-impl:jar:9.4.11.v20180605:compile
+|  |  \- javax.websocket:javax.websocket-api:jar:1.0:compile
+|  \- org.mortbay.jasper:apache-el:jar:8.5.24.2:compile
++- com.squareup.okhttp3:okhttp:jar:3.11.0:compile
+|  \- com.squareup.okio:okio:jar:1.14.0:compile
++- org.apache.commons:commons-lang3:jar:3.7:compile
+\- org.springframework.boot:spring-boot-starter-test:jar:2.0.4.RELEASE:test (optional)
+   +- org.springframework.boot:spring-boot-test:jar:2.0.4.RELEASE:test (optional)
+   +- org.springframework.boot:spring-boot-test-autoconfigure:jar:2.0.4.RELEASE:test (optional)
+   +- com.jayway.jsonpath:json-path:jar:2.4.0:test (optional)
+   |  +- net.minidev:json-smart:jar:2.3:test (optional)
+   |  |  \- net.minidev:accessors-smart:jar:1.2:test (optional)
+   |  \- org.slf4j:slf4j-api:jar:1.7.25:compile
+   +- junit:junit:jar:4.12:test (optional)
+   +- org.assertj:assertj-core:jar:3.9.1:test (optional)
+   +- org.mockito:mockito-core:jar:2.15.0:test (optional)
+   |  +- net.bytebuddy:byte-buddy:jar:1.7.11:test (optional)
+   |  +- net.bytebuddy:byte-buddy-agent:jar:1.7.11:test (optional)
+   |  \- org.objenesis:objenesis:jar:2.6:test (optional)
+   +- org.hamcrest:hamcrest-core:jar:1.3:test (optional)
+   +- org.hamcrest:hamcrest-library:jar:1.3:test (optional)
+   +- org.skyscreamer:jsonassert:jar:1.5.0:test (optional)
+   |  \- com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:test (optional)
+   +- org.springframework:spring-core:jar:5.0.8.RELEASE:compile
+   |  \- org.springframework:spring-jcl:jar:5.0.8.RELEASE:compile
+   +- org.springframework:spring-test:jar:5.0.8.RELEASE:test (optional)
+   \- org.xmlunit:xmlunit-core:jar:2.5.1:test (optional)

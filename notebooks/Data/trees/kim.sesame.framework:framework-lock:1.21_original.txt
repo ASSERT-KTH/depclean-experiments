@@ -1,0 +1,77 @@
+kim.sesame.framework:framework-lock:jar:1.21
++- org.springframework.boot:spring-boot-configuration-processor:jar:1.5.10.RELEASE:compile
++- kim.sesame.framework:framework-core:jar:1.21:compile
+|  +- com.github.kevinsawicki:http-request:jar:6.0:compile
+|  +- net.sf.json-lib:json-lib:jar:jdk15:2.4:compile
+|  |  +- commons-beanutils:commons-beanutils:jar:1.9.3:compile (version managed from 1.8.0)
+|  |  |  \- (commons-collections:commons-collections:jar:3.2.2:compile - version managed from 3.2.1; omitted for duplicate)
+|  |  +- commons-collections:commons-collections:jar:3.2.2:compile
+|  |  +- commons-lang:commons-lang:jar:2.5:compile
+|  |  +- commons-logging:commons-logging:jar:1.1.1:compile
+|  |  \- net.sf.ezmorph:ezmorph:jar:1.0.6:compile
+|  |     \- (commons-lang:commons-lang:jar:2.3:compile - omitted for conflict with 2.5)
+|  +- com.google.code.gson:gson:jar:2.8.2:compile (version managed from 2.7)
+|  +- com.google.guava:guava:jar:18.0:compile (version managed from 23.0)
+|  +- org.projectlombok:lombok:jar:1.16.20:compile (version managed from 1.16.18)
+|  \- org.slf4j:slf4j-api:jar:1.7.7:compile
++- org.springframework.boot:spring-boot-starter:jar:1.5.10.RELEASE:compile
+|  +- org.springframework.boot:spring-boot:jar:1.5.10.RELEASE:compile
+|  |  +- (org.springframework:spring-core:jar:4.3.14.RELEASE:compile - omitted for duplicate)
+|  |  \- org.springframework:spring-context:jar:4.3.14.RELEASE:compile
+|  |     +- org.springframework:spring-aop:jar:4.3.14.RELEASE:compile
+|  |     |  +- (org.springframework:spring-beans:jar:4.3.14.RELEASE:compile - omitted for duplicate)
+|  |     |  \- (org.springframework:spring-core:jar:4.3.14.RELEASE:compile - omitted for duplicate)
+|  |     +- org.springframework:spring-beans:jar:4.3.14.RELEASE:compile
+|  |     |  \- (org.springframework:spring-core:jar:4.3.14.RELEASE:compile - omitted for duplicate)
+|  |     +- (org.springframework:spring-core:jar:4.3.14.RELEASE:compile - omitted for duplicate)
+|  |     \- org.springframework:spring-expression:jar:4.3.14.RELEASE:compile
+|  |        \- (org.springframework:spring-core:jar:4.3.14.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework.boot:spring-boot-autoconfigure:jar:1.5.10.RELEASE:compile
+|  |  \- (org.springframework.boot:spring-boot:jar:1.5.10.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework.boot:spring-boot-starter-logging:jar:1.5.10.RELEASE:compile
+|  |  +- ch.qos.logback:logback-classic:jar:1.1.11:compile
+|  |  |  +- ch.qos.logback:logback-core:jar:1.1.11:compile
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.7:compile - version managed from 1.7.22; omitted for duplicate)
+|  |  +- org.slf4j:jcl-over-slf4j:jar:1.7.7:compile (version managed from 1.7.25)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.7:compile - version managed from 1.7.22; omitted for duplicate)
+|  |  +- org.slf4j:jul-to-slf4j:jar:1.7.7:compile (version managed from 1.7.25)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.7:compile - version managed from 1.7.22; omitted for duplicate)
+|  |  \- org.slf4j:log4j-over-slf4j:jar:1.7.7:compile (version managed from 1.7.25)
+|  |     \- (org.slf4j:slf4j-api:jar:1.7.7:compile - version managed from 1.7.22; omitted for duplicate)
+|  +- org.springframework:spring-core:jar:4.3.14.RELEASE:compile
+|  \- (org.yaml:snakeyaml:jar:1.17:compile - scope updated from runtime; omitted for duplicate)
+\- org.redisson:redisson:jar:3.5.6:compile
+   +- io.netty:netty-common:jar:4.1.17.Final:compile
+   +- io.netty:netty-codec:jar:4.1.17.Final:compile
+   |  \- (io.netty:netty-transport:jar:4.1.17.Final:compile - omitted for duplicate)
+   +- io.netty:netty-buffer:jar:4.1.17.Final:compile
+   |  \- (io.netty:netty-common:jar:4.1.17.Final:compile - omitted for duplicate)
+   +- io.netty:netty-transport:jar:4.1.17.Final:compile
+   |  +- (io.netty:netty-buffer:jar:4.1.17.Final:compile - omitted for duplicate)
+   |  \- io.netty:netty-resolver:jar:4.1.17.Final:compile
+   |     \- (io.netty:netty-common:jar:4.1.17.Final:compile - omitted for duplicate)
+   +- io.netty:netty-resolver-dns:jar:4.1.17.Final:compile
+   |  +- (io.netty:netty-resolver:jar:4.1.17.Final:compile - omitted for duplicate)
+   |  +- io.netty:netty-codec-dns:jar:4.1.17.Final:compile
+   |  |  \- (io.netty:netty-codec:jar:4.1.17.Final:compile - omitted for duplicate)
+   |  \- (io.netty:netty-transport:jar:4.1.17.Final:compile - omitted for duplicate)
+   +- io.netty:netty-handler:jar:4.1.17.Final:compile
+   |  +- (io.netty:netty-buffer:jar:4.1.17.Final:compile - omitted for duplicate)
+   |  +- (io.netty:netty-transport:jar:4.1.17.Final:compile - omitted for duplicate)
+   |  \- (io.netty:netty-codec:jar:4.1.17.Final:compile - omitted for duplicate)
+   +- javax.cache:cache-api:jar:1.0.0:compile
+   +- io.projectreactor:reactor-core:jar:2.0.8.RELEASE:compile (version managed from 3.1.1.RELEASE)
+   |  +- org.reactivestreams:reactive-streams:jar:1.0.0:compile
+   |  \- (org.slf4j:slf4j-api:jar:1.7.7:compile - version managed from 1.7.12; omitted for duplicate)
+   +- (org.slf4j:slf4j-api:jar:1.7.7:compile - version managed from 1.7.25; omitted for duplicate)
+   +- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.8.10:compile (version managed from 2.7.9)
+   |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.10:compile - version managed from 2.7.9; omitted for duplicate)
+   |  \- org.yaml:snakeyaml:jar:1.17:compile
+   +- com.fasterxml.jackson.core:jackson-core:jar:2.8.10:compile
+   +- com.fasterxml.jackson.core:jackson-databind:jar:2.8.10:compile (version managed from 2.7.9)
+   |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile
+   |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.8.10:compile - version managed from 2.7.9; omitted for duplicate)
+   +- net.openhft:zero-allocation-hashing:jar:0.8:compile
+   +- net.bytebuddy:byte-buddy:jar:1.6.14:compile
+   \- org.jodd:jodd-bean:jar:3.7.1:compile
+      \- org.jodd:jodd-core:jar:3.7.1:compile

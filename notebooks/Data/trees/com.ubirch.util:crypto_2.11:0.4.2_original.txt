@@ -1,0 +1,28 @@
+com.ubirch.util:crypto_2.11:jar:0.4.2
++- org.scala-lang:scala-library:jar:2.11.8:compile
++- com.roundeights:hasher_2.11:jar:1.2.0:compile
+|  \- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for duplicate)
++- commons-codec:commons-codec:jar:1.11:compile
++- org.scalatest:scalatest_2.11:jar:3.0.1:test
+|  +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for duplicate)
+|  +- org.scalactic:scalactic_2.11:jar:3.0.1:test
+|  |  +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for duplicate)
+|  |  \- (org.scala-lang:scala-reflect:jar:2.11.8:test - omitted for duplicate)
+|  +- (org.scala-lang:scala-reflect:jar:2.11.8:compile - scope updated from test; omitted for duplicate)
+|  +- org.scala-lang.modules:scala-xml_2.11:jar:1.0.5:test
+|  |  \- (org.scala-lang:scala-library:jar:2.11.7:test - omitted for conflict with 2.11.8)
+|  \- org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.0.4:test
+|     \- (org.scala-lang:scala-library:jar:2.11.6:test - omitted for conflict with 2.11.8)
++- joda-time:joda-time:jar:2.9.4:test
++- org.joda:joda-convert:jar:1.8.1:test
++- com.typesafe.scala-logging:scala-logging-slf4j_2.11:jar:2.1.2:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.0:compile - omitted for conflict with 2.11.8)
+|  +- com.typesafe.scala-logging:scala-logging-api_2.11:jar:2.1.2:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.11.0:compile - omitted for conflict with 2.11.8)
+|  +- org.scala-lang:scala-reflect:jar:2.11.8:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.11.0:compile - omitted for conflict with 2.11.8)
+|  \- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for conflict with 1.7.21)
++- org.slf4j:slf4j-api:jar:1.7.21:compile
+\- ch.qos.logback:logback-classic:jar:1.1.7:compile
+   +- ch.qos.logback:logback-core:jar:1.1.7:compile
+   \- (org.slf4j:slf4j-api:jar:1.7.20:compile - omitted for conflict with 1.7.21)

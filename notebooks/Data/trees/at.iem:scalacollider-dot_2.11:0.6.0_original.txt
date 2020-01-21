@@ -1,0 +1,25 @@
+at.iem:scalacollider-dot_2.11:jar:0.6.0
++- org.scala-lang:scala-library:jar:2.11.12:compile
++- de.sciss:scalacollider_2.11:jar:1.24.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  +- de.sciss:scalaosc_2.11:jar:1.1.5:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.11.7:compile - omitted for conflict with 2.11.12)
+|  +- de.sciss:scalaaudiofile_2.11:jar:1.4.6:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.12)
+|  |  \- de.sciss:serial_2.11:jar:1.0.3:compile
+|  |     \- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.12)
+|  +- de.sciss:scalacolliderugens-core_2.11:jar:1.18.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  |  \- de.sciss:scalacolliderugens-api_2.11:jar:1.18.0:compile
+|  |     +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  |     +- de.sciss:numbers_2.11:jar:0.1.5:compile
+|  |     |  \- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  |     \- org.scala-lang.modules:scala-xml_2.11:jar:1.0.6:compile
+|  |        \- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.12)
+|  +- de.sciss:processor_2.11:jar:0.4.1:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.12)
+|  |  \- de.sciss:model_2.11:jar:0.3.3:compile
+|  |     \- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.12)
+|  \- de.sciss:optional_2.11:jar:1.0.0:compile
+|     \- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.12)
+\- de.sciss:scalacolliderugens-spec:jar:1.18.0:compile

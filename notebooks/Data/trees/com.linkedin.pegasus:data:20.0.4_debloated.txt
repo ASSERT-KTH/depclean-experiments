@@ -1,0 +1,27 @@
+com.linkedin.pegasus:data:jar:20.0.4
++- org.slf4j:slf4j-api:jar:1.6.2:compile
++- org.antlr:antlr4-runtime:jar:4.5:compile
+|  \- org.abego.treelayout:org.abego.treelayout.core:jar:1.0.1:compile
++- org.apache.commons:commons-lang3:jar:3.4:compile
++- com.google.guava:guava:jar:19.0:compile
++- com.fasterxml.jackson.core:jackson-core:jar:2.8.3:compile
++- commons-io:commons-io:jar:2.4:test
++- org.testng:testng:jar:6.9.9:test
+|  +- junit:junit:jar:4.10:test
+|  |  \- org.hamcrest:hamcrest-core:jar:1.1:test
+|  +- com.beust:jcommander:jar:1.48:test
+|  +- org.apache.ant:ant:jar:1.7.0:test
+|  |  \- org.apache.ant:ant-launcher:jar:1.7.0:test
+|  +- org.yaml:snakeyaml:jar:1.15:test
+|  \- org.beanshell:bsh:jar:2.0b4:test
+\- com.linkedin.pegasus:log-test-config:jar:20.0.4:test
+   +- (org.slf4j:slf4j-api:jar:1.6.2:test - omitted for duplicate)
+   +- org.apache.logging.log4j:log4j-slf4j-impl:jar:2.0.2:test
+   |  +- (org.slf4j:slf4j-api:jar:1.7.7:test - omitted for conflict with 1.6.2)
+   |  \- (org.apache.logging.log4j:log4j-api:jar:2.0.2:test - omitted for duplicate)
+   +- org.apache.logging.log4j:log4j-api:jar:2.0.2:test
+   +- org.apache.logging.log4j:log4j-core:jar:2.0.2:test
+   |  \- (org.apache.logging.log4j:log4j-api:jar:2.0.2:test - omitted for duplicate)
+   \- org.apache.logging.log4j:log4j-1.2-api:jar:2.0.2:test
+      +- (org.apache.logging.log4j:log4j-api:jar:2.0.2:test - omitted for duplicate)
+      \- (org.apache.logging.log4j:log4j-core:jar:2.0.2:test - omitted for duplicate)

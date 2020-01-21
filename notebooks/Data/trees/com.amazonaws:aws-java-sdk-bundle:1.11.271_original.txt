@@ -1,0 +1,17 @@
+com.amazonaws:aws-java-sdk-bundle:jar:1.11.271
++- io.netty:netty-codec-http:jar:4.1.17.Final:compile
+|  \- (io.netty:netty-codec:jar:4.1.17.Final:compile - omitted for duplicate)
++- io.netty:netty-codec:jar:4.1.17.Final:compile
+|  \- (io.netty:netty-transport:jar:4.1.17.Final:compile - omitted for duplicate)
++- io.netty:netty-handler:jar:4.1.17.Final:compile
+|  +- (io.netty:netty-buffer:jar:4.1.17.Final:compile - omitted for duplicate)
+|  +- (io.netty:netty-transport:jar:4.1.17.Final:compile - omitted for duplicate)
+|  \- (io.netty:netty-codec:jar:4.1.17.Final:compile - omitted for duplicate)
++- io.netty:netty-buffer:jar:4.1.17.Final:compile
+|  \- (io.netty:netty-common:jar:4.1.17.Final:compile - omitted for duplicate)
++- io.netty:netty-common:jar:4.1.17.Final:compile
++- io.netty:netty-transport:jar:4.1.17.Final:compile
+|  +- (io.netty:netty-buffer:jar:4.1.17.Final:compile - omitted for duplicate)
+|  \- (io.netty:netty-resolver:jar:4.1.17.Final:compile - omitted for duplicate)
+\- io.netty:netty-resolver:jar:4.1.17.Final:compile
+   \- (io.netty:netty-common:jar:4.1.17.Final:compile - omitted for duplicate)

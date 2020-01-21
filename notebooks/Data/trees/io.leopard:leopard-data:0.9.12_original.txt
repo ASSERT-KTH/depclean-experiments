@@ -1,0 +1,168 @@
+io.leopard:leopard-data:jar:0.9.12
++- org.springframework:spring-context:jar:4.3.9.RELEASE:compile
+|  +- org.springframework:spring-aop:jar:4.3.9.RELEASE:compile
+|  |  +- (org.springframework:spring-beans:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|  |  \- (org.springframework:spring-core:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework:spring-beans:jar:4.3.9.RELEASE:compile
+|  |  \- (org.springframework:spring-core:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework:spring-core:jar:4.3.9.RELEASE:compile
+|  |  \- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  \- org.springframework:spring-expression:jar:4.3.9.RELEASE:compile
+|     \- (org.springframework:spring-core:jar:4.3.9.RELEASE:compile - omitted for duplicate)
++- commons-lang:commons-lang:jar:2.6:compile
++- io.leopard:leopard-schema:jar:0.9.12:compile
+|  +- (org.springframework:spring-context:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|  +- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+|  +- commons-io:commons-io:jar:2.4:compile
+|  \- (io.leopard:leopard-lang:jar:0.9.12:compile - omitted for duplicate)
++- io.leopard:leopard-biz:jar:0.9.12:compile
+|  +- (io.leopard:leopard-redis:jar:0.9.12:compile - omitted for duplicate)
+|  +- (io.leopard:leopard-memcache:jar:0.9.12:compile - omitted for duplicate)
+|  +- (io.leopard:leopard-cache:jar:0.9.12:compile - omitted for duplicate)
+|  \- (io.leopard:leopard-memdb:jar:0.9.12:compile - omitted for duplicate)
++- io.leopard:leopard-lang:jar:0.9.12:compile
+|  +- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+|  +- commons-collections:commons-collections:jar:3.2.2:compile
+|  +- commons-logging:commons-logging:jar:1.2:compile
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.9.1:compile
+|  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+|  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.9.1:compile
+|  +- io.leopard:leopard-exception:jar:0.9.12:compile
+|  \- io.leopard:leopard-datatype:jar:0.9.12:compile
++- io.leopard:leopard-httpnb:jar:0.9.12:compile
++- io.leopard:leopard-json:jar:0.9.12:compile
+|  \- (io.leopard:leopard-datatype:jar:0.9.12:compile - omitted for duplicate)
++- io.leopard:leopard-jdbc:jar:0.9.12:compile
+|  +- (org.springframework:spring-jdbc:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|  +- c3p0:c3p0:jar:0.9.1.2:compile
+|  +- mysql:mysql-connector-java:jar:5.1.31:compile
+|  \- (io.leopard:leopard-json:jar:0.9.12:compile - omitted for duplicate)
++- io.leopard:leopard-memdb:jar:0.9.12:compile
+|  +- org.mockito:mockito-all:jar:1.9.5:compile
+|  \- (commons-collections:commons-collections:jar:3.2.2:compile - omitted for duplicate)
++- io.leopard:leopard-kit:jar:0.9.12:compile
+|  +- (io.leopard:leopard-redis:jar:0.9.12:compile - omitted for duplicate)
+|  +- (io.leopard:leopard-jdbc:jar:0.9.12:compile - omitted for duplicate)
+|  +- (io.leopard:leopard-exception:jar:0.9.12:compile - omitted for duplicate)
+|  +- io.leopard:leopard-util:jar:0.9.12:compile
+|  |  \- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+|  +- (org.springframework:spring-context:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|  \- io.leopard:leopard-timer:jar:0.9.12:compile
+|     \- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
++- io.leopard:leopard-queue:jar:0.9.12:compile
+|  +- (io.leopard:leopard-redis:jar:0.9.12:compile - omitted for duplicate)
+|  \- (org.springframework:spring-beans:jar:4.3.9.RELEASE:compile - omitted for duplicate)
++- io.leopard:leopard-dfs:jar:0.9.12:compile
+|  +- (org.springframework:spring-beans:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|  +- (org.mongodb:mongo-java-driver:jar:3.2.2:compile - omitted for duplicate)
+|  +- net.coobird:thumbnailator:jar:0.4.7:compile
+|  \- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
++- io.leopard:leopard-redis:jar:0.9.12:compile
+|  +- (redis.clients:jedis:jar:2.9.0:compile - omitted for duplicate)
+|  \- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
++- io.leopard:leopard-mongo:jar:0.9.12:provided
+|  \- (org.mongodb:mongo-java-driver:jar:3.2.2:provided - omitted for duplicate)
++- io.leopard:leopard-memcache:jar:0.9.12:compile
+|  \- com.whalin:Memcached-Java-Client:jar:3.0.2:compile
+|     +- commons-pool:commons-pool:jar:1.5.6:compile
+|     \- org.slf4j:slf4j-api:jar:1.7.7:compile (version managed from 1.6.4)
++- io.leopard:leopard-elasticsearch:jar:0.9.12:provided
+|  +- org.elasticsearch:elasticsearch:jar:6.0.0:provided
+|  |  +- org.apache.lucene:lucene-core:jar:7.0.1:provided
+|  |  +- org.apache.lucene:lucene-analyzers-common:jar:7.0.1:provided
+|  |  +- org.apache.lucene:lucene-backward-codecs:jar:7.0.1:provided
+|  |  +- org.apache.lucene:lucene-grouping:jar:7.0.1:provided
+|  |  +- org.apache.lucene:lucene-highlighter:jar:7.0.1:provided
+|  |  +- org.apache.lucene:lucene-join:jar:7.0.1:provided
+|  |  +- org.apache.lucene:lucene-memory:jar:7.0.1:provided
+|  |  +- org.apache.lucene:lucene-misc:jar:7.0.1:provided
+|  |  +- org.apache.lucene:lucene-queries:jar:7.0.1:provided
+|  |  +- org.apache.lucene:lucene-queryparser:jar:7.0.1:provided
+|  |  +- org.apache.lucene:lucene-sandbox:jar:7.0.1:provided
+|  |  +- org.apache.lucene:lucene-spatial:jar:7.0.1:provided
+|  |  +- org.apache.lucene:lucene-spatial-extras:jar:7.0.1:provided
+|  |  +- org.apache.lucene:lucene-spatial3d:jar:7.0.1:provided
+|  |  +- org.apache.lucene:lucene-suggest:jar:7.0.1:provided
+|  |  +- org.elasticsearch:securesm:jar:1.1:provided
+|  |  +- net.sf.jopt-simple:jopt-simple:jar:5.0.2:provided
+|  |  +- com.carrotsearch:hppc:jar:0.7.1:provided
+|  |  +- joda-time:joda-time:jar:2.9.5:provided
+|  |  +- org.yaml:snakeyaml:jar:1.15:provided
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.6:provided - omitted for conflict with 2.9.1)
+|  |  +- com.fasterxml.jackson.dataformat:jackson-dataformat-smile:jar:2.8.6:provided
+|  |  +- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.8.6:provided
+|  |  +- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.8.6:provided
+|  |  +- com.tdunning:t-digest:jar:3.0:provided
+|  |  +- org.hdrhistogram:HdrHistogram:jar:2.1.9:provided
+|  |  +- (org.apache.logging.log4j:log4j-api:jar:2.9.1:provided - omitted for conflict with 2.8.2)
+|  |  \- org.elasticsearch:jna:jar:4.4.0-1:provided
+|  +- org.elasticsearch.client:transport:jar:6.0.0:provided
+|  |  +- (org.elasticsearch:elasticsearch:jar:6.0.0:provided - omitted for duplicate)
+|  |  +- org.elasticsearch.plugin:transport-netty4-client:jar:6.0.0:provided
+|  |  |  +- io.netty:netty-buffer:jar:4.1.13.Final:provided
+|  |  |  +- io.netty:netty-codec:jar:4.1.13.Final:provided
+|  |  |  +- io.netty:netty-codec-http:jar:4.1.13.Final:provided
+|  |  |  +- io.netty:netty-common:jar:4.1.13.Final:provided
+|  |  |  +- io.netty:netty-handler:jar:4.1.13.Final:provided
+|  |  |  +- io.netty:netty-resolver:jar:4.1.13.Final:provided
+|  |  |  \- io.netty:netty-transport:jar:4.1.13.Final:provided
+|  |  +- org.elasticsearch.plugin:reindex-client:jar:6.0.0:provided
+|  |  |  \- org.elasticsearch.client:elasticsearch-rest-client:jar:6.0.0:provided
+|  |  |     +- org.apache.httpcomponents:httpclient:jar:4.5.2:compile (scope managed from provided)
+|  |  |     +- org.apache.httpcomponents:httpcore:jar:4.4.5:provided
+|  |  |     +- org.apache.httpcomponents:httpasyncclient:jar:4.1.2:provided
+|  |  |     +- org.apache.httpcomponents:httpcore-nio:jar:4.4.5:provided
+|  |  |     +- commons-codec:commons-codec:jar:1.9:provided (version managed from 1.10)
+|  |  |     \- (commons-logging:commons-logging:jar:1.2:provided - version managed from 1.1.3; omitted for duplicate)
+|  |  +- org.elasticsearch.plugin:lang-mustache-client:jar:6.0.0:provided
+|  |  |  \- com.github.spullara.mustache.java:compiler:jar:0.9.3:provided
+|  |  +- org.elasticsearch.plugin:percolator-client:jar:6.0.0:provided
+|  |  \- org.elasticsearch.plugin:parent-join-client:jar:6.0.0:provided
+|  +- org.apache.logging.log4j:log4j-api:jar:2.8.2:provided
+|  \- org.apache.logging.log4j:log4j-core:jar:2.8.2:provided
+|     \- (org.apache.logging.log4j:log4j-api:jar:2.8.2:provided - omitted for duplicate)
++- io.leopard:leopard-cache:jar:0.9.12:compile
++- io.leopard:leopard-log:jar:0.9.12:compile
+|  +- (org.springframework:spring-context:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|  +- (commons-logging:commons-logging:jar:1.2:compile - version managed from 1.1.3; omitted for duplicate)
+|  +- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+|  +- (log4j:log4j:jar:1.2.17:compile - omitted for duplicate)
+|  \- (io.leopard:leopard-timer:jar:0.9.12:compile - omitted for duplicate)
++- redis.clients:jedis:jar:2.9.0:compile
+|  \- org.apache.commons:commons-pool2:jar:2.3:compile (version managed from 2.4.2)
++- org.springframework:spring-jdbc:jar:4.3.9.RELEASE:compile
+|  +- (org.springframework:spring-beans:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-core:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|  \- org.springframework:spring-tx:jar:4.3.9.RELEASE:compile
+|     +- (org.springframework:spring-beans:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|     \- (org.springframework:spring-core:jar:4.3.9.RELEASE:compile - omitted for duplicate)
++- org.mongodb:mongo-java-driver:jar:3.2.2:compile
++- log4j:log4j:jar:1.2.17:compile
+\- io.leopard:leopard-mock:jar:0.9.12:test
+   +- junit:junit:jar:4.12:test
+   |  \- org.hamcrest:hamcrest-core:jar:1.3:test
+   +- (org.mockito:mockito-all:jar:1.9.5:test - omitted for duplicate)
+   +- org.springframework:spring-test:jar:4.3.9.RELEASE:test
+   |  \- (org.springframework:spring-core:jar:4.3.9.RELEASE:test - omitted for duplicate)
+   +- org.powermock:powermock-api-mockito:jar:1.5.5:test
+   |  +- (org.mockito:mockito-all:jar:1.9.5:test - omitted for duplicate)
+   |  \- org.powermock:powermock-api-support:jar:1.5.5:test
+   |     +- org.powermock:powermock-core:jar:1.5.5:test
+   |     |  +- (org.powermock:powermock-reflect:jar:1.5.5:test - omitted for duplicate)
+   |     |  \- (org.javassist:javassist:jar:3.22.0-GA:test - version managed from 3.18.2-GA; omitted for duplicate)
+   |     \- org.powermock:powermock-reflect:jar:1.5.5:test
+   |        \- (org.objenesis:objenesis:jar:2.1:test - omitted for conflict with 1.3)
+   +- org.powermock:powermock-module-junit4:jar:1.5.5:test
+   |  +- (junit:junit:jar:4.12:test - version managed from 4.11; omitted for duplicate)
+   |  \- org.powermock:powermock-module-junit4-common:jar:1.5.5:test
+   |     +- (junit:junit:jar:4.12:test - version managed from 4.4; omitted for duplicate)
+   |     +- (org.powermock:powermock-core:jar:1.5.5:test - omitted for duplicate)
+   |     \- (org.powermock:powermock-reflect:jar:1.5.5:test - omitted for duplicate)
+   +- org.powermock:powermock-api-easymock:jar:1.5.5:test
+   |  \- (org.powermock:powermock-api-support:jar:1.5.5:test - omitted for duplicate)
+   +- org.easymock:easymock:jar:3.2:test
+   |  +- cglib:cglib-nodep:jar:2.2.2:test
+   |  \- org.objenesis:objenesis:jar:1.3:test
+   \- org.javassist:javassist:jar:3.22.0-GA:test

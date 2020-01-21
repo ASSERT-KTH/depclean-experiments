@@ -1,0 +1,14 @@
+org.wso2.carbon.mediation:org.wso2.carbon.mediator.datamapper.engine:bundle:4.6.100
++- commons-logging:commons-logging:jar:1.1.1:compile
++- commons-lang:commons-lang:jar:2.6:compile
++- net.sf.opencsv:opencsv:jar:2.3:compile
++- org.wso2.orbit.com.fasterxml.jackson.core:jackson-core:jar:2.6.1.wso2v1:compile
++- org.wso2.orbit.com.fasterxml.jackson.core:jackson-databind:jar:2.6.1.wso2v3:compile
++- com.googlecode.json-simple:json-simple:jar:1.1.1:compile
+|  \- junit:junit:jar:4.8.2:test (version managed from 4.10; scope managed from compile)
+\- org.apache.ws.commons.axiom:axiom-api:jar:1.2.11-wso2v11:compile
+   +- org.apache.geronimo.specs:geronimo-activation_1.1_spec:jar:1.0.2:compile
+   +- org.apache.geronimo.specs:geronimo-javamail_1.4_spec:jar:1.6:compile
+   +- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for duplicate)
+   +- jaxen:jaxen:jar:1.1.6:compile
+   \- org.apache.geronimo.specs:geronimo-stax-api_1.0_spec:jar:1.0.1:compile

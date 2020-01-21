@@ -1,0 +1,65 @@
+org.redisson:redisson-tomcat-9:jar:3.6.5
++- org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.4:provided
+|  \- org.apache.tomcat:tomcat-annotations-api:jar:9.0.4:provided
++- org.apache.tomcat.embed:tomcat-embed-jasper:jar:9.0.4:provided
+|  +- (org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.4:provided - omitted for duplicate)
+|  +- org.apache.tomcat.embed:tomcat-embed-el:jar:9.0.4:provided
+|  \- org.eclipse.jdt:ecj:jar:3.12.3:provided
++- org.apache.tomcat:tomcat-jasper:jar:9.0.4:provided
+|  +- org.apache.tomcat:tomcat-servlet-api:jar:9.0.4:provided
+|  +- org.apache.tomcat:tomcat-juli:jar:9.0.4:provided
+|  +- org.apache.tomcat:tomcat-jsp-api:jar:9.0.4:provided
+|  |  +- (org.apache.tomcat:tomcat-el-api:jar:9.0.4:provided - omitted for duplicate)
+|  |  \- (org.apache.tomcat:tomcat-servlet-api:jar:9.0.4:provided - omitted for duplicate)
+|  +- org.apache.tomcat:tomcat-el-api:jar:9.0.4:provided
+|  +- (org.eclipse.jdt:ecj:jar:3.12.3:provided - omitted for duplicate)
+|  +- org.apache.tomcat:tomcat-jasper-el:jar:9.0.4:provided
+|  |  \- (org.apache.tomcat:tomcat-el-api:jar:9.0.4:provided - omitted for duplicate)
+|  +- org.apache.tomcat:tomcat-api:jar:9.0.4:provided
+|  |  \- (org.apache.tomcat:tomcat-servlet-api:jar:9.0.4:provided - omitted for duplicate)
+|  \- org.apache.tomcat:tomcat-util-scan:jar:9.0.4:provided
+|     +- org.apache.tomcat:tomcat-util:jar:9.0.4:provided
+|     |  \- (org.apache.tomcat:tomcat-juli:jar:9.0.4:provided - omitted for duplicate)
+|     +- (org.apache.tomcat:tomcat-juli:jar:9.0.4:provided - omitted for duplicate)
+|     \- (org.apache.tomcat:tomcat-api:jar:9.0.4:provided - omitted for duplicate)
++- org.redisson:redisson:jar:3.6.5:compile
+|  +- io.netty:netty-common:jar:4.1.22.Final:compile
+|  +- io.netty:netty-codec:jar:4.1.22.Final:compile
+|  |  \- (io.netty:netty-transport:jar:4.1.22.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-buffer:jar:4.1.22.Final:compile
+|  |  \- (io.netty:netty-common:jar:4.1.22.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-transport:jar:4.1.22.Final:compile
+|  |  +- (io.netty:netty-buffer:jar:4.1.22.Final:compile - omitted for duplicate)
+|  |  \- io.netty:netty-resolver:jar:4.1.22.Final:compile
+|  |     \- (io.netty:netty-common:jar:4.1.22.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-resolver-dns:jar:4.1.22.Final:compile
+|  |  +- (io.netty:netty-resolver:jar:4.1.22.Final:compile - omitted for duplicate)
+|  |  +- io.netty:netty-codec-dns:jar:4.1.22.Final:compile
+|  |  |  \- (io.netty:netty-codec:jar:4.1.22.Final:compile - omitted for duplicate)
+|  |  \- (io.netty:netty-transport:jar:4.1.22.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-handler:jar:4.1.22.Final:compile
+|  |  +- (io.netty:netty-buffer:jar:4.1.22.Final:compile - omitted for duplicate)
+|  |  +- (io.netty:netty-transport:jar:4.1.22.Final:compile - omitted for duplicate)
+|  |  \- (io.netty:netty-codec:jar:4.1.22.Final:compile - omitted for duplicate)
+|  +- javax.cache:cache-api:jar:1.0.0:compile
+|  +- io.projectreactor:reactor-core:jar:3.1.1.RELEASE:compile
+|  |  \- org.reactivestreams:reactive-streams:jar:1.0.1:compile
+|  +- org.slf4j:slf4j-api:jar:1.7.25:compile
+|  +- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.7.9:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.7.9:compile - omitted for duplicate)
+|  |  \- org.yaml:snakeyaml:jar:1.15:compile
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.7.9:compile
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.7.9.2:compile
+|  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.7.0:compile
+|  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.7.9:compile - omitted for duplicate)
+|  +- net.bytebuddy:byte-buddy:jar:1.7.10:compile
+|  \- org.jodd:jodd-bean:jar:3.7.1:compile
+|     \- org.jodd:jodd-core:jar:3.7.1:compile
++- org.apache.httpcomponents:fluent-hc:jar:4.5.2:test
+|  +- org.apache.httpcomponents:httpclient:jar:4.5.2:test
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.4.4:test
+|  |  +- (commons-logging:commons-logging:jar:1.2:test - omitted for duplicate)
+|  |  \- commons-codec:commons-codec:jar:1.9:test
+|  \- commons-logging:commons-logging:jar:1.2:test
+\- junit:junit:jar:4.12:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

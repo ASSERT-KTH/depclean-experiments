@@ -1,0 +1,5 @@
+org.webjars.bowergithub.polymerelements:prism-element:jar:2.1.0
++- org.webjars.bowergithub.prismjs:prism:jar:1.16.0:compile
+\- org.webjars.bowergithub.polymer:polymer:jar:2.8.0:compile
+   +- org.webjars.bowergithub.webcomponents:shadycss:jar:1.9.1:compile
+   \- org.webjars.bowergithub.webcomponents:webcomponentsjs:jar:2.0.0-beta.3:compile

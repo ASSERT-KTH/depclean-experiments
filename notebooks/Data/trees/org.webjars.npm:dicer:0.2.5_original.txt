@@ -1,0 +1,7 @@
+org.webjars.npm:dicer:jar:0.2.5
++- org.webjars.npm:streamsearch:jar:0.1.2:compile
+\- org.webjars.npm:readable-stream:jar:1.1.14:compile
+   +- org.webjars.npm:core-util-is:jar:1.0.2:compile
+   +- org.webjars.npm:isarray:jar:0.0.1:compile
+   +- org.webjars.npm:string_decoder:jar:0.10.31:compile
+   \- org.webjars.npm:inherits:jar:2.0.4:compile

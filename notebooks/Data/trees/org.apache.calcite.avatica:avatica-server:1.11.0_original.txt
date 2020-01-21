@@ -1,0 +1,94 @@
+org.apache.calcite.avatica:avatica-server:jar:1.11.0
++- org.apache.calcite.avatica:avatica-core:jar:1.11.0:compile
+|  +- (org.apache.calcite.avatica:avatica-metrics:jar:1.11.0:compile - omitted for duplicate)
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.9.4:compile
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.4:compile
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.4:compile - omitted for duplicate)
+|  +- com.google.protobuf:protobuf-java:jar:3.3.0:compile
+|  +- org.apache.httpcomponents:httpclient:jar:4.5.2:compile
+|  |  +- (org.apache.httpcomponents:httpcore:jar:4.4.4:compile - omitted for duplicate)
+|  |  +- commons-logging:commons-logging:jar:1.2:compile
+|  |  \- commons-codec:commons-codec:jar:1.9:compile
+|  +- org.apache.httpcomponents:httpcore:jar:4.4.4:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.13:compile - omitted for duplicate)
++- org.apache.calcite.avatica:avatica-metrics:jar:1.11.0:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.13:compile - omitted for duplicate)
++- javax.servlet:javax.servlet-api:jar:3.0.1:compile
++- com.google.guava:guava:jar:14.0.1:compile
++- org.slf4j:slf4j-api:jar:1.7.13:compile
++- org.eclipse.jetty:jetty-http:jar:9.2.19.v20160908:compile
+|  \- (org.eclipse.jetty:jetty-util:jar:9.2.19.v20160908:compile - omitted for duplicate)
++- org.eclipse.jetty:jetty-security:jar:9.2.19.v20160908:compile
+|  \- (org.eclipse.jetty:jetty-server:jar:9.2.19.v20160908:compile - omitted for duplicate)
++- org.eclipse.jetty:jetty-server:jar:9.2.19.v20160908:compile
+|  +- (javax.servlet:javax.servlet-api:jar:3.0.1:compile - version managed from 3.1.0; omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-http:jar:9.2.19.v20160908:compile - omitted for duplicate)
+|  \- org.eclipse.jetty:jetty-io:jar:9.2.19.v20160908:compile
+|     \- (org.eclipse.jetty:jetty-util:jar:9.2.19.v20160908:compile - omitted for duplicate)
++- org.eclipse.jetty:jetty-util:jar:9.2.19.v20160908:compile
++- org.apache.calcite.avatica:avatica-core:test-jar:tests:1.11.0:test
+|  +- (org.apache.calcite.avatica:avatica-metrics:jar:1.11.0:test - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.4:test - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.4:test - version managed from 2.9.0; omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.4:test - omitted for duplicate)
+|  +- (com.google.protobuf:protobuf-java:jar:3.3.0:test - omitted for duplicate)
+|  +- (org.apache.httpcomponents:httpclient:jar:4.5.2:test - omitted for duplicate)
+|  +- (org.apache.httpcomponents:httpcore:jar:4.4.4:test - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.13:test - omitted for duplicate)
++- com.fasterxml.jackson.core:jackson-databind:jar:2.9.4:test (scope not updated to compile)
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.4:test - version managed from 2.9.0; omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.4:test - omitted for duplicate)
++- junit:junit:jar:4.12:test
+|  \- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for duplicate)
++- net.hydromatic:scott-data-hsqldb:jar:0.1:test
++- org.apache.kerby:kerb-client:jar:1.0.0-RC2:test
+|  +- org.apache.kerby:kerby-config:jar:1.0.0-RC2:test
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.13:test - version managed from 1.7.14; omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-log4j12:jar:1.7.13:test - version managed from 1.7.14; omitted for duplicate)
+|  +- (org.apache.kerby:kerb-core:jar:1.0.0-RC2:test - omitted for duplicate)
+|  +- org.apache.kerby:kerb-common:jar:1.0.0-RC2:test
+|  |  +- (org.apache.kerby:kerby-config:jar:1.0.0-RC2:test - omitted for duplicate)
+|  |  +- (org.apache.kerby:kerb-core:jar:1.0.0-RC2:test - omitted for duplicate)
+|  |  \- org.apache.kerby:kerb-crypto:jar:1.0.0-RC2:test
+|  |     +- (org.apache.kerby:kerby-util:jar:1.0.0-RC2:test - omitted for duplicate)
+|  |     \- (org.apache.kerby:kerb-core:jar:1.0.0-RC2:test - omitted for duplicate)
+|  \- org.apache.kerby:kerb-util:jar:1.0.0-RC2:test
+|     +- (org.apache.kerby:kerby-config:jar:1.0.0-RC2:test - omitted for duplicate)
+|     +- (org.apache.kerby:kerb-core:jar:1.0.0-RC2:test - omitted for duplicate)
+|     \- (org.apache.kerby:kerb-crypto:jar:1.0.0-RC2:test - omitted for duplicate)
++- org.apache.kerby:kerb-core:jar:1.0.0-RC2:test
+|  +- org.apache.kerby:kerby-asn1:jar:1.0.0-RC2:test
+|  \- org.apache.kerby:kerby-pkix:jar:1.0.0-RC2:test
+|     +- (org.apache.kerby:kerby-asn1:jar:1.0.0-RC2:test - omitted for duplicate)
+|     +- org.apache.kerby:kerby-util:jar:1.0.0-RC2:test
+|     \- (org.slf4j:slf4j-api:jar:1.7.13:test - version managed from 1.7.14; omitted for duplicate)
++- org.apache.kerby:kerb-simplekdc:jar:1.0.0-RC2:test
+|  +- (org.apache.kerby:kerby-config:jar:1.0.0-RC2:test - omitted for duplicate)
+|  +- (org.apache.kerby:kerb-core:jar:1.0.0-RC2:test - omitted for duplicate)
+|  +- (org.apache.kerby:kerb-client:jar:1.0.0-RC2:test - omitted for duplicate)
+|  +- (org.apache.kerby:kerb-util:jar:1.0.0-RC2:test - omitted for duplicate)
+|  +- org.apache.kerby:kerb-server:jar:1.0.0-RC2:test
+|  |  +- (org.apache.kerby:kerby-config:jar:1.0.0-RC2:test - omitted for duplicate)
+|  |  +- (org.apache.kerby:kerb-core:jar:1.0.0-RC2:test - omitted for duplicate)
+|  |  +- (org.apache.kerby:kerb-common:jar:1.0.0-RC2:test - omitted for duplicate)
+|  |  \- org.apache.kerby:kerb-identity:jar:1.0.0-RC2:test
+|  |     +- (org.apache.kerby:kerby-config:jar:1.0.0-RC2:test - omitted for duplicate)
+|  |     \- (org.apache.kerby:kerb-core:jar:1.0.0-RC2:test - omitted for duplicate)
+|  \- org.apache.kerby:kerb-admin:jar:1.0.0-RC2:test
+|     +- (org.apache.kerby:kerby-config:jar:1.0.0-RC2:test - omitted for duplicate)
+|     +- (org.apache.kerby:kerb-identity:jar:1.0.0-RC2:test - omitted for duplicate)
+|     +- (org.apache.kerby:kerb-server:jar:1.0.0-RC2:test - omitted for duplicate)
+|     \- (org.apache.kerby:kerb-util:jar:1.0.0-RC2:test - omitted for duplicate)
++- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.hsqldb:hsqldb:jar:2.4.0:test
++- org.mockito:mockito-core:jar:2.5.5:test
+|  +- net.bytebuddy:byte-buddy:jar:1.6.0:test
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.6.0:test
+|  \- org.objenesis:objenesis:jar:2.4:test
++- com.github.stephenc.jcip:jcip-annotations:jar:1.0-1:test
++- org.slf4j:slf4j-log4j12:jar:1.7.13:test
+|  +- (org.slf4j:slf4j-api:jar:1.7.13:test - version managed from 1.7.14; omitted for duplicate)
+|  \- log4j:log4j:jar:1.2.17:test
++- org.bouncycastle:bcpkix-jdk15on:jar:1.55:test
+|  \- (org.bouncycastle:bcprov-jdk15on:jar:1.55:test - omitted for duplicate)
+\- org.bouncycastle:bcprov-jdk15on:jar:1.55:test

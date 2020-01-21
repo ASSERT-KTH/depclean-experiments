@@ -1,0 +1,7 @@
+io.github.resilience4j:resilience4j-circuitbreaker:jar:0.13.0
++- io.vavr:vavr:jar:0.9.2:compile
+|  \- io.vavr:vavr-match:jar:0.9.2:compile
++- org.slf4j:slf4j-api:jar:1.7.24:compile
+\- io.github.resilience4j:resilience4j-core:jar:0.13.0:compile
+   +- (io.vavr:vavr:jar:0.9.2:compile - omitted for duplicate)
+   \- (org.slf4j:slf4j-api:jar:1.7.24:compile - omitted for duplicate)

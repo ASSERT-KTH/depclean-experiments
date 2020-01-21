@@ -1,0 +1,8 @@
+de.sciss:scalacolliderugens-core_2.12:jar:1.18.0
++- org.scala-lang:scala-library:jar:2.12.5:compile
+\- de.sciss:scalacolliderugens-api_2.12:jar:1.18.0:compile
+   +- (org.scala-lang:scala-library:jar:2.12.5:compile - omitted for duplicate)
+   +- de.sciss:numbers_2.12:jar:0.1.5:compile
+   |  \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.5)
+   \- org.scala-lang.modules:scala-xml_2.12:jar:1.0.6:compile
+      \- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.5)

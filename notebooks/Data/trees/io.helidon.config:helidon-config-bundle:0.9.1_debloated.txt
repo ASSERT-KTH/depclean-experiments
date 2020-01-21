@@ -1,0 +1,4 @@
+io.helidon.config:helidon-config-bundle:jar:0.9.1
++- io.helidon.config:helidon-config-hocon:jar:0.9.1:compile
+|  \- com.typesafe:config:jar:1.3.3:compile
+\- javax.annotation:javax.annotation-api:jar:1.3.1:compile

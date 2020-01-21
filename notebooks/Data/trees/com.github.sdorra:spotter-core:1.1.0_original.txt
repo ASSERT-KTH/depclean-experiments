@@ -1,0 +1,5 @@
+com.github.sdorra:spotter-core:jar:1.1.0
++- org.apache.tika:tika-core:jar:1.16:compile
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
+\- com.google.guava:guava:jar:21.0:test

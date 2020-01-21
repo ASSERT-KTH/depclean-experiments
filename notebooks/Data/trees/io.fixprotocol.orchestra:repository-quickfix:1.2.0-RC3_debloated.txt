@@ -1,0 +1,6 @@
+io.fixprotocol.orchestra:repository-quickfix:jar:1.2.0-RC3
++- io.fixprotocol.orchestra:repository2016:jar:1.2.0-RC3:compile
+|  +- net.sf.saxon:Saxon-HE:jar:9.8.0-8:compile
+|  \- org.jvnet.jaxb2_commons:jaxb2-basics-runtime:jar:1.11.1:compile
+\- junit:junit:jar:4.11:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

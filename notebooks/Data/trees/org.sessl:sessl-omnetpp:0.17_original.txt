@@ -1,0 +1,15 @@
+org.sessl:sessl-omnetpp:jar:0.17
++- org.sessl:sessl:jar:0.17:compile
+|  +- com.typesafe.scala-logging:scala-logging_2.12:jar:3.9.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - version managed from 2.12.1; omitted for duplicate)
+|  |  +- org.scala-lang:scala-reflect:jar:2.12.4:compile
+|  |  |  \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  +- org.slf4j:slf4j-api:jar:1.7.25:compile
+|  +- org.slf4j:slf4j-simple:jar:1.7.25:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  +- org.apache.commons:commons-math3:jar:3.6:compile
+|  \- org.apache.commons:commons-csv:jar:1.4:compile
++- junit:junit:jar:4.8:test
+\- org.scala-lang.modules:scala-parser-combinators_2.12:jar:1.0.5:compile
+   \- org.scala-lang:scala-library:jar:2.12.4:compile

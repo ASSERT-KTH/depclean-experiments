@@ -1,0 +1,7 @@
+org.trellisldp:trellis-agent:jar:0.7.2
++- org.apache.commons:commons-rdf-api:jar:0.5.0:compile
++- org.trellisldp:trellis-api:jar:0.7.2:compile
+|  +- (org.apache.commons:commons-rdf-api:jar:0.5.0:compile - omitted for duplicate)
+|  \- org.apache.commons:commons-lang3:jar:3.7:compile
+\- org.trellisldp:trellis-vocabulary:jar:0.7.2:compile
+   \- (org.apache.commons:commons-rdf-api:jar:0.5.0:compile - omitted for duplicate)

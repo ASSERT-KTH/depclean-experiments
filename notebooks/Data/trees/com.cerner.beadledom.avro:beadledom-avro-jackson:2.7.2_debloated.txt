@@ -1,0 +1,38 @@
+com.cerner.beadledom.avro:beadledom-avro-jackson:jar:2.7.2
++- com.cerner.beadledom:beadledom-common:jar:2.7.2:compile
+|  +- (com.google.guava:guava:jar:15.0:compile - omitted for duplicate)
+|  \- org.slf4j:slf4j-api:jar:1.7.12:compile
++- com.fasterxml.jackson.core:jackson-annotations:jar:2.6.3:compile
++- com.fasterxml.jackson.core:jackson-core:jar:2.6.3:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.6.3:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.6.3:compile - version managed from 2.6.0; omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.6.3:compile - omitted for duplicate)
++- com.google.code.findbugs:jsr305:jar:3.0.0:provided
++- com.google.guava:guava:jar:15.0:compile
++- com.google.inject:guice:jar:4.0:compile
+|  +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  +- aopalliance:aopalliance:jar:1.0:compile
+|  \- (com.google.guava:guava:jar:15.0:compile - version managed from 16.0.1; omitted for duplicate)
++- com.google.inject.extensions:guice-multibindings:jar:4.0:compile
+|  \- (com.google.inject:guice:jar:4.0:compile - omitted for duplicate)
++- javax.inject:javax.inject:jar:1:compile
++- org.apache.avro:avro:jar:1.7.7:compile
+|  +- org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile
+|  +- org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:compile
+|  |  \- (org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile - omitted for duplicate)
+|  +- com.thoughtworks.paranamer:paranamer:jar:2.3:compile
+|  +- org.xerial.snappy:snappy-java:jar:1.0.5:compile
+|  +- org.apache.commons:commons-compress:jar:1.4.1:compile
+|  |  \- org.tukaani:xz:jar:1.0:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.12:compile - version managed from 1.6.4; omitted for duplicate)
++- org.mockito:mockito-core:jar:2.10.0:test
+|  +- net.bytebuddy:byte-buddy:jar:1.7.4:test
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.7.4:test
+|  \- org.objenesis:objenesis:jar:2.6:test
++- org.scala-lang:scala-library:jar:2.11.7:test
+\- org.scalatest:scalatest_2.11:jar:2.2.5:test
+   +- (org.scala-lang:scala-library:jar:2.11.7:test - version managed from 2.11.2; omitted for duplicate)
+   +- org.scala-lang:scala-reflect:jar:2.11.2:test
+   |  \- (org.scala-lang:scala-library:jar:2.11.7:test - version managed from 2.11.2; omitted for duplicate)
+   \- org.scala-lang.modules:scala-xml_2.11:jar:1.0.2:test
+      \- (org.scala-lang:scala-library:jar:2.11.7:test - version managed from 2.11.1; omitted for duplicate)

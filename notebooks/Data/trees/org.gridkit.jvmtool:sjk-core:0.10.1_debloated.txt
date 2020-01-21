@@ -1,0 +1,12 @@
+org.gridkit.jvmtool:sjk-core:jar:0.10.1
++- org.gridkit.jvmtool:sjk-cli:jar:0.10.1:compile
+|  \- com.beust:jcommander:jar:1.30:compile
++- org.gridkit.jvmtool:sjk-stacktrace:jar:0.10.1:compile
++- org.gridkit.jvmtool:sjk-hflame:jar:0.10.1:compile
+|  \- (org.gridkit.jvmtool:sjk-stacktrace:jar:0.10.1:compile - omitted for duplicate)
++- org.gridkit.jvmtool:sjk-nps:jar:0.3:compile
++- org.gridkit.lab:jvm-attach-api:jar:1.4:compile
++- junit:junit:jar:4.10:test
+|  \- org.hamcrest:hamcrest-core:jar:1.1:test
++- org.assertj:assertj-core:jar:1.6.0:test
+\- com.carrotsearch:junit-benchmarks:jar:0.7.2:test

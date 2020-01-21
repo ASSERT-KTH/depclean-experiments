@@ -1,0 +1,13 @@
+com.sap.hcp.cf.logging:cf-java-logging-support-core:jar:2.1.5
++- com.fasterxml.jackson.jr:jackson-jr-objects:jar:2.8.4:compile
+|  \- com.fasterxml.jackson.core:jackson-core:jar:2.8.4:compile
++- ch.qos.logback:logback-classic:jar:1.2.3:test
+|  +- ch.qos.logback:logback-core:jar:1.2.3:test
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)
++- org.apache.commons:commons-lang3:jar:3.6:compile
++- org.slf4j:slf4j-api:jar:1.7.25:provided
++- org.hamcrest:hamcrest-library:jar:1.3:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- junit:junit:jar:4.12:test
+|  \- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for duplicate)
+\- org.mockito:mockito-all:jar:1.9.5:test

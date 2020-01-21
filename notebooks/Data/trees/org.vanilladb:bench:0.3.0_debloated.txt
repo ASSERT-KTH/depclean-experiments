@@ -1,0 +1,7 @@
+org.vanilladb:bench:jar:0.3.0
++- junit:junit:jar:4.9:test
+|  \- org.hamcrest:hamcrest-core:jar:1.1:test
+\- org.vanilladb:core:jar:0.3.2:compile
+   \- net.smacke:jaydio:jar:0.1:compile
+      +- net.java.dev.jna:jna:jar:4.0.0:compile
+      \- log4j:log4j:jar:1.2.17:compile

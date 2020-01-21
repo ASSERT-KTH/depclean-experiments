@@ -1,0 +1,47 @@
+org.wvlet.airframe:airframe-tablet_2.12:jar:0.49
++- org.scala-lang:scala-library:jar:2.12.6:compile
++- org.wvlet.airframe:airframe-codec_2.12:jar:0.49:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
+|  +- (org.wvlet.airframe:airframe-log_2.12:jar:0.49:compile - omitted for duplicate)
+|  +- (org.wvlet.airframe:airframe-surface_2.12:jar:0.49:compile - omitted for duplicate)
+|  +- org.wvlet.airframe:airframe-msgpack_2.12:jar:0.49:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
+|  |  \- (org.wvlet.airframe:airframe-log_2.12:jar:0.49:compile - omitted for duplicate)
+|  \- (org.msgpack:msgpack-core:jar:0.8.14:compile - omitted for duplicate)
++- org.wvlet.airframe:airframe-log_2.12:jar:0.49:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
+|  \- ch.qos.logback:logback-core:jar:1.2.3:compile
++- org.wvlet.airframe:airframe-surface_2.12:jar:0.49:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
+|  +- (org.wvlet.airframe:airframe-log_2.12:jar:0.49:compile - omitted for duplicate)
+|  +- org.scala-lang:scala-reflect:jar:2.12.6:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
+|  \- javax.annotation:javax.annotation-api:jar:1.3.1:compile
++- org.wvlet.airframe:airframe-spec_2.12:jar:0.49:test
+|  +- (org.scala-lang:scala-library:jar:2.12.6:test - omitted for duplicate)
+|  +- (org.wvlet.airframe:airframe-log_2.12:jar:0.49:test - omitted for duplicate)
+|  \- org.scalatest:scalatest_2.12:jar:3.0.5-M1:test
+|     +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for conflict with 2.12.6)
+|     +- org.scalactic:scalactic_2.12:jar:3.0.5-M1:test
+|     |  +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for conflict with 2.12.6)
+|     |  \- (org.scala-lang:scala-reflect:jar:2.12.4:test - omitted for conflict with 2.12.6)
+|     +- (org.scala-lang:scala-reflect:jar:2.12.4:test - omitted for conflict with 2.12.6)
+|     \- (org.scala-lang.modules:scala-xml_2.12:jar:1.0.6:compile - scope updated from test; omitted for duplicate)
++- org.json4s:json4s-native_2.12:jar:3.5.3:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.3:compile - omitted for conflict with 2.12.6)
+|  \- org.json4s:json4s-core_2.12:jar:3.5.3:compile
+|     +- (org.scala-lang:scala-library:jar:2.12.3:compile - omitted for conflict with 2.12.6)
+|     +- org.json4s:json4s-ast_2.12:jar:3.5.3:compile
+|     |  \- (org.scala-lang:scala-library:jar:2.12.3:compile - omitted for conflict with 2.12.6)
+|     +- org.json4s:json4s-scalap_2.12:jar:3.5.3:compile
+|     |  \- (org.scala-lang:scala-library:jar:2.12.3:compile - omitted for conflict with 2.12.6)
+|     +- com.thoughtworks.paranamer:paranamer:jar:2.8:compile
+|     \- org.scala-lang.modules:scala-xml_2.12:jar:1.0.6:compile
+|        \- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.6)
++- org.scala-lang.modules:scala-parser-combinators_2.12:jar:1.1.0:compile
+|  \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.6)
++- org.scalacheck:scalacheck_2.12:jar:1.14.0:test
+|  +- (org.scala-lang:scala-library:jar:2.12.5:test - omitted for conflict with 2.12.6)
+|  \- org.scala-sbt:test-interface:jar:1.0:test
++- org.msgpack:msgpack-core:jar:0.8.14:compile
+\- org.xerial:sqlite-jdbc:jar:3.21.0.1:test

@@ -1,0 +1,30 @@
+com.github.jcustenborder.netty:netty-codec-syslog:jar:0.2.16
++- org.immutables:value:jar:2.5.5:compile
++- io.netty:netty-all:jar:4.1.22.Final:provided
++- org.slf4j:slf4j-api:jar:1.7.21:provided
++- org.junit.jupiter:junit-jupiter-engine:jar:5.0.0:test
+|  +- org.apiguardian:apiguardian-api:jar:1.0.0:test
+|  +- org.junit.platform:junit-platform-engine:jar:1.0.0:test
+|  |  +- (org.apiguardian:apiguardian-api:jar:1.0.0:test - omitted for duplicate)
+|  |  +- (org.junit.platform:junit-platform-commons:jar:1.0.0:test - omitted for duplicate)
+|  |  \- (org.opentest4j:opentest4j:jar:1.0.0:test - omitted for duplicate)
+|  \- (org.junit.jupiter:junit-jupiter-api:jar:5.0.0:test - omitted for duplicate)
++- org.junit.jupiter:junit-jupiter-api:jar:5.0.0:test
+|  +- (org.apiguardian:apiguardian-api:jar:1.0.0:test - omitted for duplicate)
+|  +- org.opentest4j:opentest4j:jar:1.0.0:test
+|  \- org.junit.platform:junit-platform-commons:jar:1.0.0:test
+|     \- (org.apiguardian:apiguardian-api:jar:1.0.0:test - omitted for duplicate)
++- org.mockito:mockito-all:jar:1.10.19:test
++- ch.qos.logback:logback-classic:jar:1.1.8:test
+|  +- ch.qos.logback:logback-core:jar:1.1.8:test
+|  \- (org.slf4j:slf4j-api:jar:1.7.21:test - omitted for duplicate)
++- org.graylog2:syslog4j:jar:0.9.60:test
+|  +- joda-time:joda-time:jar:2.9.9:test
+|  \- org.apache.commons:commons-lang3:jar:3.5:test
++- com.fasterxml.jackson.core:jackson-databind:jar:2.8.5:provided
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:provided
+|  \- com.fasterxml.jackson.core:jackson-core:jar:2.8.5:provided
+\- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.8.5:provided
+   +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.5:provided - omitted for conflict with 2.8.0)
+   +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.5:provided - omitted for duplicate)
+   \- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.5:provided - omitted for duplicate)

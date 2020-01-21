@@ -1,0 +1,25 @@
+io.github.resilience4j:resilience4j-spring:jar:0.13.0
++- io.vavr:vavr:jar:0.9.2:compile
+|  \- io.vavr:vavr-match:jar:0.9.2:compile
++- org.slf4j:slf4j-api:jar:1.7.24:compile
++- org.aspectj:aspectjrt:jar:1.8.13:compile
++- io.github.resilience4j:resilience4j-annotations:jar:0.13.0:compile
+|  +- (io.vavr:vavr:jar:0.9.2:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.24:compile - omitted for duplicate)
++- io.github.resilience4j:resilience4j-consumer:jar:0.13.0:compile
+|  +- (io.vavr:vavr:jar:0.9.2:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.24:compile - omitted for duplicate)
+|  +- io.github.resilience4j:resilience4j-core:jar:0.13.0:compile
+|  |  +- (io.vavr:vavr:jar:0.9.2:compile - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.24:compile - omitted for duplicate)
+|  \- io.github.resilience4j:resilience4j-circularbuffer:jar:0.13.0:compile
+|     +- (io.vavr:vavr:jar:0.9.2:compile - omitted for duplicate)
+|     \- (org.slf4j:slf4j-api:jar:1.7.24:compile - omitted for duplicate)
++- io.github.resilience4j:resilience4j-circuitbreaker:jar:0.13.0:compile
+|  +- (io.vavr:vavr:jar:0.9.2:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.24:compile - omitted for duplicate)
+|  \- (io.github.resilience4j:resilience4j-core:jar:0.13.0:compile - omitted for duplicate)
+\- io.github.resilience4j:resilience4j-ratelimiter:jar:0.13.0:compile
+   +- (io.vavr:vavr:jar:0.9.2:compile - omitted for duplicate)
+   +- (org.slf4j:slf4j-api:jar:1.7.24:compile - omitted for duplicate)
+   \- (io.github.resilience4j:resilience4j-core:jar:0.13.0:compile - omitted for duplicate)

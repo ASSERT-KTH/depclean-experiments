@@ -1,0 +1,2 @@
+org.webjars.npm:libxmljs-mt:jar:0.16.1
+\- org.webjars.npm:nan:jar:2.14.0:compile

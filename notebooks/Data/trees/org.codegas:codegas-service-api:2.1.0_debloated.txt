@@ -1,0 +1,10 @@
+org.codegas:codegas-service-api:jar:2.1.0
++- org.codegas:codegas-commons:jar:2.0.1:compile
+|  +- commons-validator:commons-validator:jar:1.6:compile
+|  +- javax.inject:javax.inject:jar:1:compile
+|  +- javax.json:javax.json-api:jar:1.1.2:compile
+|  \- javax.persistence:javax.persistence-api:jar:2.2:compile
+\- org.springframework:spring-tx:jar:4.3.14.RELEASE:provided
+   +- org.springframework:spring-beans:jar:4.3.14.RELEASE:provided
+   \- org.springframework:spring-core:jar:4.3.14.RELEASE:provided
+      \- commons-logging:commons-logging:jar:1.2:provided

@@ -1,0 +1,2 @@
+org.webjars.bower:angular-sanitize:jar:1.7.3
+\- org.webjars.bower:angular:jar:1.7.3:compile

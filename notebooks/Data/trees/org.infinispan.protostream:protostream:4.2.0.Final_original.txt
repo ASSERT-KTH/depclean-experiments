@@ -1,0 +1,21 @@
+org.infinispan.protostream:protostream:jar:4.2.0.Final
++- log4j:log4j:jar:1.2.17:runtime
++- org.jboss.logging:jboss-logging:jar:3.3.1.Final:compile
++- org.jboss.logging:jboss-logging-processor:jar:1.2.1.Final:provided
+|  +- org.jboss.logging:jboss-logging-annotations:jar:1.2.1.Final:provided
+|  \- org.jboss.jdeparser:jdeparser:jar:1.0.0.Final:provided
++- com.google.protobuf:protobuf-java:jar:3.0.2:compile
++- com.squareup:protoparser:jar:4.0.3:compile
++- com.google.code.gson:gson:jar:2.8.1:compile
++- org.javassist:javassist:jar:3.20.0-GA:compile
++- org.osgi:org.osgi.core:jar:4.3.1:provided
++- commons-cli:commons-cli:jar:1.2:compile
++- org.easytesting:fest-assert-core:jar:2.0M10:test
+|  \- org.easytesting:fest-util:jar:1.2.5:test
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- net.jcip:jcip-annotations:jar:1.0:compile
++- org.infinispan.protostream:sample-domain-definition:jar:4.2.0.Final:test
++- org.jboss.marshalling:jboss-marshalling:jar:2.0.2.Final:test
+\- org.jboss.marshalling:jboss-marshalling-river:jar:2.0.2.Final:test
+   \- (org.jboss.marshalling:jboss-marshalling:jar:2.0.2.Final:test - omitted for duplicate)

@@ -1,0 +1,101 @@
+com.tomtom.speedtools:mongodb:jar:3.2.9
++- com.tomtom.speedtools:core:jar:3.2.9:compile
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.2:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.2:compile - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:23.6-jre:compile - version managed from 19.0; omitted for duplicate)
+|  +- com.googlecode.libphonenumber:libphonenumber:jar:8.8.4:compile
+|  +- (joda-time:joda-time:jar:2.9.9:compile - omitted for duplicate)
+|  +- org.scala-lang:scala-library:jar:2.12.4:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-log4j12:jar:1.7.25:compile - omitted for duplicate)
++- com.tomtom.speedtools:geo:jar:3.2.9:compile
+|  +- (com.tomtom.speedtools:core:jar:3.2.9:compile - omitted for duplicate)
+|  +- (com.tomtom.speedtools:json:jar:3.2.9:compile - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:23.6-jre:compile - omitted for duplicate)
+|  +- (joda-time:joda-time:jar:2.9.9:compile - omitted for duplicate)
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-log4j12:jar:1.7.25:compile - omitted for duplicate)
++- com.tomtom.speedtools:guice:jar:3.2.9:compile
+|  +- (com.tomtom.speedtools:core:jar:3.2.9:compile - omitted for duplicate)
+|  +- com.google.inject:guice:jar:4.1.0:compile
+|  |  +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  |  +- aopalliance:aopalliance:jar:1.0:compile
+|  |  \- (com.google.guava:guava:jar:23.6-jre:compile - version managed from 19.0; omitted for duplicate)
+|  +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  +- org.jboss.resteasy:resteasy-guice:jar:3.1.4.Final:compile
+|  |  +- (com.google.inject:guice:jar:4.1.0:compile - omitted for duplicate)
+|  |  +- org.jboss.resteasy:resteasy-jaxrs:jar:3.1.4.Final:compile
+|  |  |  +- org.jboss.spec.javax.ws.rs:jboss-jaxrs-api_2.0_spec:jar:1.0.1.Beta1:compile
+|  |  |  +- org.jboss.resteasy:resteasy-jaxrs-services:jar:3.1.4.Final:compile
+|  |  |  +- (org.jboss.spec.javax.annotation:jboss-annotations-api_1.2_spec:jar:1.0.0.Final:compile - omitted for duplicate)
+|  |  |  +- javax.activation:activation:jar:1.1.1:compile
+|  |  |  +- org.apache.httpcomponents:httpclient:jar:4.5.2:compile
+|  |  |  |  +- org.apache.httpcomponents:httpcore:jar:4.4.8:compile (version managed from 4.4.4)
+|  |  |  |  +- commons-logging:commons-logging:jar:1.2:compile
+|  |  |  |  \- commons-codec:commons-codec:jar:1.10:compile (version managed from 1.9)
+|  |  |  +- commons-io:commons-io:jar:2.5:compile
+|  |  |  +- net.jcip:jcip-annotations:jar:1.0:compile
+|  |  |  \- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile - omitted for duplicate)
+|  |  +- org.jboss.resteasy:resteasy-client:jar:3.1.4.Final:compile
+|  |  |  +- (org.jboss.resteasy:resteasy-jaxrs:jar:3.1.4.Final:compile - omitted for duplicate)
+|  |  |  +- (org.jboss.resteasy:resteasy-jaxrs-services:jar:3.1.4.Final:compile - omitted for duplicate)
+|  |  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile - omitted for duplicate)
+|  |  |  \- (org.apache.httpcomponents:httpclient:jar:4.5.2:compile - omitted for duplicate)
+|  |  +- org.jboss.spec.javax.annotation:jboss-annotations-api_1.2_spec:jar:1.0.0.Final:compile
+|  |  \- org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-log4j12:jar:1.7.25:compile - omitted for duplicate)
++- com.tomtom.speedtools:json:jar:3.2.9:compile
+|  +- (com.tomtom.speedtools:core:jar:3.2.9:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.2:compile - version managed from 2.9.0; omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.2:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.2:compile - omitted for duplicate)
+|  +- com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.9.2:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.2:compile - version managed from 2.9.0; omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.2:compile - omitted for duplicate)
+|  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.2:compile - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:23.6-jre:compile - version managed from 19.0; omitted for duplicate)
+|  +- com.thoughtworks.paranamer:paranamer:jar:2.8:compile
+|  +- (joda-time:joda-time:jar:2.9.9:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-log4j12:jar:1.7.25:compile - omitted for duplicate)
++- com.tomtom.speedtools:testutils:jar:3.2.9:test
+|  +- com.typesafe.akka:akka-actor_2.12:jar:2.5.6:test
+|  |  +- (org.scala-lang:scala-library:jar:2.12.4:test - version managed from 2.12.3; omitted for duplicate)
+|  |  +- com.typesafe:config:jar:1.3.2:test (version managed from 1.3.1)
+|  |  \- org.scala-lang.modules:scala-java8-compat_2.12:jar:0.8.0:test
+|  |     \- (org.scala-lang:scala-library:jar:2.12.4:test - version managed from 2.12.0; omitted for duplicate)
+|  +- (commons-codec:commons-codec:jar:1.10:compile - version managed from 1.9; scope updated from test; omitted for duplicate)
+|  +- de.sven-jacobs:loremipsum:jar:1.0:test
+|  +- (joda-time:joda-time:jar:2.9.9:test - omitted for duplicate)
+|  +- (junit:junit:jar:4.12:test - omitted for duplicate)
+|  +- (org.jboss.resteasy:resteasy-jaxrs:jar:3.1.4.Final:compile - scope updated from test; omitted for duplicate)
+|  +- org.mockito:mockito-core:jar:2.11.0:test
+|  |  +- net.bytebuddy:byte-buddy:jar:1.7.4:test
+|  |  +- net.bytebuddy:byte-buddy-agent:jar:1.7.4:test
+|  |  \- org.objenesis:objenesis:jar:2.6:test
+|  +- (org.scala-lang:scala-library:jar:2.12.4:test - version managed from 2.12.0; omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)
+|  \- (org.slf4j:slf4j-log4j12:jar:1.7.25:test - omitted for duplicate)
++- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.2:compile
++- com.fasterxml.jackson.core:jackson-core:jar:2.9.2:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.9.2:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.2:compile - version managed from 2.9.0; omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.2:compile - omitted for duplicate)
++- com.google.code.findbugs:jsr305:jar:3.0.2:provided
++- com.google.guava:guava:jar:23.6-jre:compile
+|  +- (com.google.code.findbugs:jsr305:jar:3.0.2:provided - version managed from 1.3.9; scope managed from compile; omitted for duplicate)
+|  +- org.checkerframework:checker-compat-qual:jar:2.0.0:compile
+|  +- com.google.errorprone:error_prone_annotations:jar:2.1.3:compile
+|  +- com.google.j2objc:j2objc-annotations:jar:1.1:compile
+|  \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:compile
++- javax.inject:javax.inject:jar:1:compile
++- joda-time:joda-time:jar:2.9.9:compile
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.mongodb:mongo-java-driver:jar:3.5.0:compile
++- org.slf4j:slf4j-api:jar:1.7.25:compile
+\- org.slf4j:slf4j-log4j12:jar:1.7.25:compile
+   +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+   \- log4j:log4j:jar:1.2.17:compile

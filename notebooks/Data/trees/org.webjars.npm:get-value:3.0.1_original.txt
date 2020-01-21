@@ -1,0 +1,2 @@
+org.webjars.npm:get-value:jar:3.0.1
+\- org.webjars.npm:isobject:jar:3.0.1:compile

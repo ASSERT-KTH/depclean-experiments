@@ -1,0 +1,36 @@
+org.webjars.npm:inquirer:jar:3.2.3
++- org.webjars.npm:rx-lite-aggregates:jar:4.0.8:compile
+|  \- (org.webjars.npm:rx-lite:jar:4.0.8:compile - omitted for duplicate)
++- org.webjars.npm:cli-width:jar:2.2.0:compile
++- org.webjars.npm:mute-stream:jar:0.0.7:compile
++- org.webjars.npm:ansi-escapes:jar:2.0.0:compile
++- org.webjars.npm:figures:jar:2.0.0:compile
+|  \- org.webjars.npm:escape-string-regexp:jar:1.0.5:compile
++- org.webjars.npm:strip-ansi:jar:4.0.0:compile
+|  \- org.webjars.npm:ansi-regex:jar:3.0.0:compile
++- org.webjars.npm:rx-lite:jar:4.0.8:compile
++- org.webjars.npm:external-editor:jar:2.2.0:compile
+|  +- org.webjars.npm:chardet:jar:0.4.2:compile
+|  +- org.webjars.npm:iconv-lite:jar:0.4.24:compile
+|  |  \- org.webjars.npm:safer-buffer:jar:2.1.2:compile
+|  \- org.webjars.npm:tmp:jar:0.0.33:compile
+|     \- org.webjars.npm:os-tmpdir:jar:1.0.2:compile
++- org.webjars.npm:lodash:jar:4.17.14:compile
++- org.webjars.npm:through:jar:2.3.8:compile
++- org.webjars.npm:run-async:jar:2.3.0:compile
+|  \- org.webjars.npm:is-promise:jar:2.1.0:compile
++- org.webjars.npm:string-width:jar:2.1.1:compile
+|  +- org.webjars.npm:is-fullwidth-code-point:jar:2.0.0:compile
+|  \- (org.webjars.npm:strip-ansi:jar:4.0.0:compile - omitted for duplicate)
++- org.webjars.npm:chalk:jar:2.4.2:compile
+|  +- org.webjars.npm:ansi-styles:jar:3.2.1:compile
+|  |  \- org.webjars.npm:color-convert:jar:1.9.3:compile
+|  |     \- org.webjars.npm:color-name:jar:1.1.3:compile
+|  +- (org.webjars.npm:escape-string-regexp:jar:1.0.5:compile - omitted for duplicate)
+|  \- org.webjars.npm:supports-color:jar:5.5.0:compile
+|     \- org.webjars.npm:has-flag:jar:3.0.0:compile
+\- org.webjars.npm:cli-cursor:jar:2.1.0:compile
+   \- org.webjars.npm:restore-cursor:jar:2.0.0:compile
+      +- org.webjars.npm:onetime:jar:2.0.1:compile
+      |  \- org.webjars.npm:mimic-fn:jar:1.2.0:compile
+      \- org.webjars.npm:signal-exit:jar:3.0.2:compile

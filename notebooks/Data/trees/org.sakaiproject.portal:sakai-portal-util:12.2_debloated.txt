@@ -1,0 +1,18 @@
+org.sakaiproject.portal:sakai-portal-util:jar:12.2
++- org.sakaiproject.edu-services.course-management:coursemanagement-api:jar:12.2:provided
++- org.sakaiproject.kernel:sakai-kernel-api:jar:12.2:provided
++- org.sakaiproject.kernel:sakai-component-manager:jar:12.2:provided
++- org.sakaiproject.kernel:sakai-kernel-util:jar:12.2:compile
+|  \- commons-net:commons-net:jar:3.6:compile
++- org.sakaiproject.portal:sakai-portal-api:jar:12.2:provided
++- javax.servlet:servlet-api:jar:2.4:provided
++- org.slf4j:slf4j-api:jar:1.7.25:provided
++- org.slf4j:slf4j-log4j12:jar:1.7.25:provided
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:provided - omitted for duplicate)
+|  \- (log4j:log4j:jar:1.2.17:provided - omitted for duplicate)
++- org.slf4j:jcl-over-slf4j:jar:1.7.25:provided
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:provided - omitted for duplicate)
++- log4j:log4j:jar:1.2.17:provided
++- org.projectlombok:lombok:jar:1.16.20:provided
+\- junit:junit:jar:4.12:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

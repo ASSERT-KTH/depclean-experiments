@@ -1,0 +1,17 @@
+org.walkmod:junit4git:jar:1.2
++- junit:junit:jar:4.12:compile
+|  \- org.hamcrest:hamcrest-core:jar:1.3:compile
++- com.google.code.gson:gson:jar:2.8.2:compile
++- com.ea.agentloader:ea-agent-loader:jar:1.0.3:compile
++- org.nanohttpd:nanohttpd:jar:2.2.0:compile
++- com.squareup.okhttp3:okhttp:jar:3.9.0:compile
+|  \- com.squareup.okio:okio:jar:1.13.0:compile
++- org.eclipse.jgit:org.eclipse.jgit:jar:4.8.0.201706111038-r:compile
+|  +- com.jcraft:jsch:jar:0.1.54:compile
+|  +- com.googlecode.javaewah:JavaEWAH:jar:1.1.6:compile
+|  +- org.apache.httpcomponents:httpclient:jar:4.3.6:compile
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.3.3:compile
+|  |  +- commons-logging:commons-logging:jar:1.1.3:compile
+|  |  \- commons-codec:commons-codec:jar:1.6:compile
+|  \- org.slf4j:slf4j-api:jar:1.7.2:compile
+\- org.javassist:javassist:jar:3.22.0-GA:compile

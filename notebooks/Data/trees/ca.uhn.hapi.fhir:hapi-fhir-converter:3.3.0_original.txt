@@ -1,0 +1,45 @@
+ca.uhn.hapi.fhir:hapi-fhir-converter:bundle:3.3.0
++- ca.uhn.hapi.fhir:hapi-fhir-base:jar:3.3.0:compile
+|  +- com.google.code.gson:gson:jar:2.8.1:compile
+|  +- org.apache.commons:commons-lang3:jar:3.6:compile
+|  +- commons-codec:commons-codec:jar:1.10:compile
+|  +- commons-io:commons-io:jar:2.5:compile
+|  +- com.google.guava:guava:jar:23.0:compile
+|  |  +- com.google.code.findbugs:jsr305:jar:1.3.9:compile
+|  |  +- com.google.errorprone:error_prone_annotations:jar:2.0.18:compile
+|  |  +- com.google.j2objc:j2objc-annotations:jar:1.1:compile
+|  |  \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:compile
+|  +- org.slf4j:slf4j-api:jar:1.7.25:compile
+|  \- org.slf4j:jcl-over-slf4j:jar:1.7.25:compile
++- ca.uhn.hapi.fhir:hapi-fhir-server:jar:3.3.0:compile (optional) 
++- javax.servlet:javax.servlet-api:jar:3.1.0:provided
++- ca.uhn.hapi.fhir:hapi-fhir-structures-dstu2:jar:3.3.0:compile (optional) 
++- ca.uhn.hapi.fhir:hapi-fhir-structures-hl7org-dstu2:jar:3.3.0:compile (optional) 
+|  +- ca.uhn.hapi.fhir:hapi-fhir-utilities:jar:3.3.0:compile (optional) 
+|  +- xpp3:xpp3_min:jar:1.1.4c:compile (optional) 
+|  \- net.sf.saxon:Saxon-HE:jar:9.5.1-5:compile (optional) 
++- ca.uhn.hapi.fhir:hapi-fhir-structures-dstu2.1:jar:3.3.0:compile (optional) 
+|  \- commons-lang:commons-lang:jar:2.5:compile (optional) 
++- ca.uhn.hapi.fhir:hapi-fhir-structures-dstu3:jar:3.3.0:compile (optional) 
++- ca.uhn.hapi.fhir:hapi-fhir-structures-r4:jar:3.3.0:compile (optional) 
++- ca.uhn.hapi.fhir:hapi-fhir-validation-resources-dstu2:jar:3.3.0:compile (optional) 
++- ca.uhn.hapi.fhir:hapi-fhir-validation-resources-dstu3:jar:3.3.0:compile (optional) 
++- ch.qos.logback:logback-classic:jar:1.2.3:test
+|  \- ch.qos.logback:logback-core:jar:1.1.11:test
++- ca.uhn.hapi.fhir:hapi-fhir-client:jar:3.3.0:test
+|  +- org.apache.httpcomponents:httpclient:jar:4.5.3:test
+|  \- org.apache.httpcomponents:httpcore:jar:4.4.6:test
++- org.xmlunit:xmlunit-core:jar:2.4.0:test
++- org.eclipse.jetty:jetty-servlets:jar:9.4.8.v20171121:test
+|  +- org.eclipse.jetty:jetty-continuation:jar:9.4.8.v20171121:test
+|  \- org.eclipse.jetty:jetty-io:jar:9.4.8.v20171121:test
++- org.eclipse.jetty:jetty-servlet:jar:9.4.8.v20171121:test
+|  \- org.eclipse.jetty:jetty-security:jar:9.4.8.v20171121:test
++- org.eclipse.jetty:jetty-server:jar:9.4.8.v20171121:test
++- org.eclipse.jetty:jetty-util:jar:9.4.8.v20171121:test
++- org.eclipse.jetty:jetty-webapp:jar:9.4.8.v20171121:test
+|  \- org.eclipse.jetty:jetty-xml:jar:9.4.8.v20171121:test
++- org.eclipse.jetty:jetty-http:jar:9.4.8.v20171121:test
++- junit:junit:jar:4.12:test
++- org.hamcrest:java-hamcrest:jar:2.0.0.0:test
+\- org.mockito:mockito-all:jar:1.10.19:test

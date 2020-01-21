@@ -1,0 +1,9 @@
+org.picketbox:jboss-security-spi:jar:5.1.0.Final
++- org.picketbox:acl-spi:jar:5.1.0.Final:compile
++- org.picketbox:authorization-spi:jar:5.1.0.Final:compile
++- org.picketbox:common-spi:jar:5.1.0.Final:compile
+|  \- org.jboss.logging:jboss-logging:jar:3.3.1.Final:compile
++- org.picketbox:identity-spi:jar:5.1.0.Final:compile
+\- org.picketbox:picketbox-spi-bare:jar:5.1.0.Final:compile
+   +- org.jboss.spec.javax.security.auth.message:jboss-jaspi-api_1.1_spec:jar:1.0.0.Final:compile
+   \- org.jboss.spec.javax.servlet:jboss-servlet-api_3.1_spec:jar:1.0.0.Final:compile

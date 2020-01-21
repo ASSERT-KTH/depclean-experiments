@@ -1,0 +1,4 @@
+org.webjars.npm:gl-quat:jar:1.0.0
++- org.webjars.npm:gl-mat3:jar:1.0.0:compile
++- org.webjars.npm:gl-vec3:jar:1.1.3:compile
+\- org.webjars.npm:gl-vec4:jar:1.0.1:compile

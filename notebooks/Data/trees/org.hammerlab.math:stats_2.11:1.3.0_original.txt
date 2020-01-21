@@ -1,0 +1,93 @@
+org.hammerlab.math:stats_2.11:jar:1.3.0
++- org.scala-lang:scala-library:jar:2.11.12:compile
++- org.hammerlab.math:format_2.11:jar:1.0.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  \- (org.typelevel:cats-core_2.11:jar:1.0.1:compile - omitted for duplicate)
++- org.hammerlab.math:tolerance_2.11:jar:1.0.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  \- (org.typelevel:cats-core_2.11:jar:1.0.1:compile - omitted for duplicate)
++- org.hammerlab:types_2.11:jar:1.1.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  +- (org.typelevel:cats-core_2.11:jar:1.0.1:compile - omitted for duplicate)
+|  +- com.chuusai:shapeless_2.11:jar:2.3.3:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  |  \- org.typelevel:macro-compat_2.11:jar:1.1.1:compile
+|  |     \- (org.scala-lang:scala-library:jar:2.11.7:compile - omitted for conflict with 2.11.12)
+|  \- (org.typelevel:spire_2.11:jar:0.15.0:compile - omitted for duplicate)
++- org.hammerlab.math:utils_2.11:jar:2.2.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  +- (org.typelevel:cats-core_2.11:jar:1.0.1:compile - omitted for duplicate)
+|  +- (com.chuusai:shapeless_2.11:jar:2.3.3:compile - omitted for duplicate)
+|  +- (org.typelevel:spire_2.11:jar:0.15.0:compile - omitted for duplicate)
+|  \- org.apache.commons:commons-math3:jar:3.6.1:compile
++- org.scalatest:scalatest_2.11:jar:3.0.4:test
+|  +- (org.scala-lang:scala-library:jar:2.11.11:test - omitted for conflict with 2.11.12)
+|  +- org.scalactic:scalactic_2.11:jar:3.0.4:test
+|  |  +- (org.scala-lang:scala-library:jar:2.11.11:test - omitted for conflict with 2.11.12)
+|  |  \- (org.scala-lang:scala-reflect:jar:2.11.11:compile - scope updated from test; omitted for duplicate)
+|  +- (org.scala-lang:scala-reflect:jar:2.11.11:compile - scope updated from test; omitted for duplicate)
+|  +- org.scala-lang.modules:scala-xml_2.11:jar:1.0.5:test
+|  |  \- (org.scala-lang:scala-library:jar:2.11.7:test - omitted for conflict with 2.11.12)
+|  \- org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.0.4:test
+|     \- (org.scala-lang:scala-library:jar:2.11.6:test - omitted for conflict with 2.11.12)
++- org.hammerlab.test:base_2.11:jar:1.0.0:test
+|  +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|  +- org.hammerlab.test:suite_2.11:jar:1.0.0:test
+|  |  +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|  |  +- (org.typelevel:cats-core_2.11:jar:1.0.1:test - omitted for duplicate)
+|  |  +- (org.hammerlab.math:tolerance_2.11:jar:1.0.0:test - omitted for duplicate)
+|  |  +- (org.scalatest:scalatest_2.11:jar:3.0.4:test - omitted for duplicate)
+|  |  \- (com.chuusai:shapeless_2.11:jar:2.3.3:test - omitted for duplicate)
+|  \- (org.hammerlab:paths_2.11:jar:1.5.0:compile - scope updated from test; omitted for duplicate)
++- org.typelevel:cats-core_2.11:jar:1.0.1:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  +- org.typelevel:cats-macros_2.11:jar:1.0.1:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  |  \- (org.typelevel:machinist_2.11:jar:0.6.2:compile - omitted for duplicate)
+|  +- org.typelevel:cats-kernel_2.11:jar:1.0.1:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  \- org.typelevel:machinist_2.11:jar:0.6.2:compile
+|     +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.12)
+|     \- org.scala-lang:scala-reflect:jar:2.11.8:compile
+|        \- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.12)
++- org.hammerlab:io_2.11:jar:5.0.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  +- com.github.alexarchambault:case-app_2.11:jar:2.0.0-M3:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  |  +- com.github.alexarchambault:case-app-annotations_2.11:jar:2.0.0-M3:compile
+|  |  |  \- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  |  \- com.github.alexarchambault:case-app-util_2.11:jar:2.0.0-M3:compile
+|  |     +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  |     +- (com.chuusai:shapeless_2.11:jar:2.3.3:compile - omitted for duplicate)
+|  |     \- (org.typelevel:macro-compat_2.11:jar:1.1.1:compile - omitted for duplicate)
+|  +- (org.typelevel:cats-core_2.11:jar:1.0.1:compile - omitted for duplicate)
+|  +- (org.hammerlab:iterator_2.11:jar:2.1.0:compile - omitted for duplicate)
+|  +- org.hammerlab:shapeless-utils_2.11:jar:1.2.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  |  \- (com.chuusai:shapeless_2.11:jar:2.3.3:compile - omitted for duplicate)
+|  +- (org.hammerlab:types_2.11:jar:1.1.0:compile - omitted for duplicate)
+|  \- org.hammerlab:paths_2.11:jar:1.5.0:compile
+|     +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|     +- (com.github.alexarchambault:case-app_2.11:jar:2.0.0-M3:compile - omitted for duplicate)
+|     +- commons-io:commons-io:jar:2.5:compile
+|     \- org.clapper:grizzled-slf4j_2.11:jar:1.3.1:compile
+|        +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
+|        \- org.slf4j:slf4j-api:jar:1.7.7:compile
++- org.hammerlab:iterator_2.11:jar:2.1.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  +- org.hammerlab.macros:iterators_2.11:jar:1.0.0:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  +- (org.typelevel:cats-core_2.11:jar:1.0.1:compile - omitted for duplicate)
+|  +- (org.hammerlab.math:utils_2.11:jar:2.2.0:compile - omitted for duplicate)
+|  +- (org.typelevel:spire_2.11:jar:0.15.0:compile - omitted for duplicate)
+|  \- (org.hammerlab:types_2.11:jar:1.1.0:compile - omitted for duplicate)
+\- org.typelevel:spire_2.11:jar:0.15.0:compile
+   +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.12)
+   +- org.typelevel:spire-macros_2.11:jar:0.15.0:compile
+   |  +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.12)
+   |  +- (org.typelevel:machinist_2.11:jar:0.6.1:compile - omitted for conflict with 0.6.2)
+   |  \- (org.typelevel:algebra_2.11:jar:1.0.0:compile - omitted for duplicate)
+   +- (org.typelevel:machinist_2.11:jar:0.6.1:compile - omitted for conflict with 0.6.2)
+   \- org.typelevel:algebra_2.11:jar:1.0.0:compile
+      +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+      \- (org.typelevel:cats-kernel_2.11:jar:1.0.1:compile - omitted for duplicate)

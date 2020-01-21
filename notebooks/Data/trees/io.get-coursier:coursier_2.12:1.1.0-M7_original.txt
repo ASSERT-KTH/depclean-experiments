@@ -1,0 +1,4 @@
+io.get-coursier:coursier_2.12:jar:1.1.0-M7
++- org.scala-lang:scala-library:jar:2.12.6:compile
+\- org.scala-lang.modules:scala-xml_2.12:jar:1.1.0:compile
+   \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.6)

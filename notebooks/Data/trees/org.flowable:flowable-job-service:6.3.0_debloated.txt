@@ -1,0 +1,50 @@
+org.flowable:flowable-job-service:jar:6.3.0
++- org.flowable:flowable-engine-common-api:jar:6.3.0:compile
+|  \- (org.apache.commons:commons-lang3:jar:3.7:compile - omitted for duplicate)
++- org.flowable:flowable-job-service-api:jar:6.3.0:compile
+|  \- (org.flowable:flowable-engine-common-api:jar:6.3.0:compile - omitted for duplicate)
++- org.flowable:flowable-engine-common:jar:6.3.0:compile
+|  +- (org.flowable:flowable-engine-common-api:jar:6.3.0:compile - omitted for duplicate)
+|  +- org.flowable:flowable-variable-service-api:jar:6.3.0:compile
+|  |  \- (org.flowable:flowable-engine-common-api:jar:6.3.0:compile - omitted for duplicate)
+|  +- (org.mybatis:mybatis:jar:3.4.5:compile - omitted for duplicate)
+|  +- org.springframework:spring-beans:jar:4.3.14.RELEASE:compile
+|  |  \- org.springframework:spring-core:jar:4.3.14.RELEASE:compile
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.8.11:compile
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.8.11.1:compile
+|  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.11:compile (version managed from 2.8.0)
+|  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.8.11:compile - version managed from 2.8.10; omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  \- (joda-time:joda-time:jar:2.9.9:compile - omitted for duplicate)
++- org.flowable:flowable-variable-service:jar:6.3.0:compile
+|  +- (org.flowable:flowable-engine-common-api:jar:6.3.0:compile - omitted for duplicate)
+|  +- (org.flowable:flowable-variable-service-api:jar:6.3.0:compile - omitted for duplicate)
+|  +- (org.flowable:flowable-engine-common:jar:6.3.0:compile - omitted for duplicate)
+|  +- (org.apache.commons:commons-lang3:jar:3.7:compile - omitted for duplicate)
+|  +- (org.mybatis:mybatis:jar:3.4.5:compile - omitted for duplicate)
+|  +- (org.springframework:spring-beans:jar:4.3.14.RELEASE:compile - omitted for duplicate)
+|  +- (joda-time:joda-time:jar:2.9.9:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  \- (org.slf4j:jcl-over-slf4j:jar:1.7.25:compile - omitted for duplicate)
++- org.apache.commons:commons-lang3:jar:3.7:compile
++- org.mybatis:mybatis:jar:3.4.5:compile
++- javax.persistence:persistence-api:jar:1.0:provided
++- javax.enterprise.concurrent:javax.enterprise.concurrent-api:jar:1.0:provided
++- junit:junit:jar:4.12:provided
+|  \- org.hamcrest:hamcrest-core:jar:1.3:provided
++- com.h2database:h2:jar:1.4.196:test
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- org.slf4j:jcl-over-slf4j:jar:1.7.25:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
++- org.slf4j:slf4j-log4j12:jar:1.7.25:test
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)
+|  \- log4j:log4j:jar:1.2.17:test
+\- org.apache.openjpa:openjpa:jar:1.2.2:test
+   +- net.sourceforge.serp:serp:jar:1.13.1:test
+   |  \- (junit:junit:jar:4.12:test - version managed from 3.8.1; omitted for duplicate)
+   +- commons-lang:commons-lang:jar:2.1:test
+   +- commons-collections:commons-collections:jar:3.2:test
+   +- commons-pool:commons-pool:jar:1.3:test
+   +- org.apache.geronimo.specs:geronimo-jms_1.1_spec:jar:1.0.1:test
+   +- org.apache.geronimo.specs:geronimo-jta_1.1_spec:jar:1.1.1:test (version managed from 1.1)
+   \- org.apache.geronimo.specs:geronimo-jpa_3.0_spec:jar:1.0:test

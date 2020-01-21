@@ -1,0 +1,7 @@
+org.apache.karaf.specs:org.apache.karaf.specs.activator:jar:4.2.0
++- org.apache.karaf.specs:org.apache.karaf.specs.locator:jar:4.2.0:compile
++- org.osgi:org.osgi.core:jar:6.0.0:provided
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
+\- org.easymock:easymock:jar:3.5.1:test
+   \- org.objenesis:objenesis:jar:2.6:test

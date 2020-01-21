@@ -1,0 +1,2 @@
+org.webjars.npm:graphql:jar:0.13.0-rc.1
+\- org.webjars.npm:iterall:jar:1.1.4:compile

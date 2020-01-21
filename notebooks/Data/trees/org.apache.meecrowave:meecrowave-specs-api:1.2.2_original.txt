@@ -1,0 +1,9 @@
+org.apache.meecrowave:meecrowave-specs-api:jar:1.2.2
++- org.apache.geronimo.specs:geronimo-annotation_1.3_spec:jar:1.0:compile
++- org.apache.geronimo.specs:geronimo-jcdi_2.0_spec:jar:1.0.1:compile
++- org.apache.geronimo.specs:geronimo-atinject_1.0_spec:jar:1.0:compile
++- org.apache.geronimo.specs:geronimo-interceptor_1.2_spec:jar:1.0:compile
++- org.apache.geronimo.specs:geronimo-json_1.1_spec:jar:1.0:compile
++- org.apache.geronimo.specs:geronimo-jsonb_1.0_spec:jar:1.0:compile
++- org.apache.geronimo.specs:geronimo-jaxrs_2.1_spec:jar:1.0:compile
+\- org.apache.tomcat:tomcat-servlet-api:jar:9.0.10:compile

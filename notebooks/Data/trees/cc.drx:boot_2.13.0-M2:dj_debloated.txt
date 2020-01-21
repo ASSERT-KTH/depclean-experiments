@@ -1,0 +1,15 @@
+cc.drx:boot_2.13.0-M2:jar:dj
++- org.scala-lang:scala-library:jar:2.13.0-M2:compile
++- cc.drx:core_2.13.0-M2:jar:dj:compile
+|  \- (org.scala-lang:scala-library:jar:2.13.0-M2:compile - omitted for duplicate)
++- org.scalatest:scalatest_2.13.0-M2:jar:3.0.5:test
+|  +- (org.scala-lang:scala-library:jar:2.13.0-M2:test - omitted for duplicate)
+|  +- org.scalactic:scalactic_2.13.0-M2:jar:3.0.5:test
+|  |  +- (org.scala-lang:scala-library:jar:2.13.0-M2:test - omitted for duplicate)
+|  |  \- (org.scala-lang:scala-reflect:jar:2.13.0-M2:test - omitted for duplicate)
+|  +- org.scala-lang:scala-reflect:jar:2.13.0-M2:test
+|  |  \- (org.scala-lang:scala-library:jar:2.13.0-M2:test - omitted for duplicate)
+|  \- org.scala-lang.modules:scala-xml_2.13.0-M2:jar:1.0.6:test
+|     \- (org.scala-lang:scala-library:jar:2.13.0-M2:test - omitted for duplicate)
++- org.scala-sbt:launcher:jar:1.0.2:provided
+\- org.fusesource.jansi:jansi:jar:1.17:compile

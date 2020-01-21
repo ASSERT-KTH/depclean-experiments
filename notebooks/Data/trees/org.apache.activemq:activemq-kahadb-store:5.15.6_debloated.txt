@@ -1,0 +1,48 @@
+org.apache.activemq:activemq-kahadb-store:jar:5.15.6
++- org.apache.activemq:activemq-broker:jar:5.15.6:compile
+|  +- org.apache.activemq:activemq-client:jar:5.15.6:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  |  +- org.apache.geronimo.specs:geronimo-jms_1.1_spec:jar:1.1.1:compile
+|  |  +- org.fusesource.hawtbuf:hawtbuf:jar:1.11:compile
+|  |  \- (org.apache.geronimo.specs:geronimo-j2ee-management_1.1_spec:jar:1.0.1:compile - omitted for duplicate)
+|  +- org.apache.activemq:activemq-openwire-legacy:jar:5.15.6:compile
+|  |  \- (org.apache.activemq:activemq-client:jar:5.15.6:compile - omitted for duplicate)
+|  +- com.google.guava:guava:jar:18.0:compile
+|  \- com.fasterxml.jackson.core:jackson-databind:jar:2.9.6:compile
+|     +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.6:compile (version managed from 2.9.0)
+|     \- com.fasterxml.jackson.core:jackson-core:jar:2.9.6:compile
++- org.apache.activemq.protobuf:activemq-protobuf:jar:1.1:compile
++- org.osgi:org.osgi.core:jar:4.3.1:provided
++- org.apache.activemq:activemq-jaas:jar:5.15.6:compile
+|  \- org.slf4j:slf4j-api:jar:1.7.25:compile
++- org.apache.geronimo.specs:geronimo-jta_1.0.1B_spec:jar:1.0.1:compile
++- org.apache.geronimo.specs:geronimo-annotation_1.0_spec:jar:1.1.1:compile
++- com.thoughtworks.xstream:xstream:jar:1.4.10:compile
+|  +- xmlpull:xmlpull:jar:1.1.3.1:compile
+|  \- xpp3:xpp3_min:jar:1.1.4c:compile
++- org.apache.xbean:xbean-spring:jar:4.2:compile
+|  \- (commons-logging:commons-logging:jar:1.2:compile - version managed from 1.0.3; omitted for duplicate)
++- xalan:xalan:jar:2.7.2:compile
+|  \- xalan:serializer:jar:2.7.2:compile
+|     \- xml-apis:xml-apis:jar:1.3.04:compile
++- org.apache.activemq:activemq-broker:test-jar:tests:5.15.6:test
+|  +- (org.apache.activemq:activemq-client:jar:5.15.6:test - omitted for duplicate)
+|  +- (org.apache.activemq:activemq-openwire-legacy:jar:5.15.6:test - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:18.0:test - omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.6:test - omitted for duplicate)
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.slf4j:slf4j-log4j12:jar:1.7.25:test
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)
+|  \- (log4j:log4j:jar:1.2.17:runtime - scope managed from test; omitted for duplicate)
++- log4j:log4j:jar:1.2.17:test (scope not updated to runtime)
++- org.jmock:jmock-junit4:jar:2.5.1:test
+|  +- org.jmock:jmock:jar:2.5.1:test
+|  |  +- (org.hamcrest:hamcrest-core:jar:1.1:test - omitted for conflict with 1.3)
+|  |  \- org.hamcrest:hamcrest-library:jar:1.1:test
+|  |     \- (org.hamcrest:hamcrest-core:jar:1.1:test - omitted for conflict with 1.3)
+|  \- junit:junit-dep:jar:4.4:test
+\- org.jmock:jmock-legacy:jar:2.5.1:test
+   +- (org.jmock:jmock:jar:2.5.1:test - omitted for duplicate)
+   +- org.objenesis:objenesis:jar:1.0:test
+   \- cglib:cglib-nodep:jar:2.1_3:test

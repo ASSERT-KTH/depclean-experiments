@@ -1,0 +1,55 @@
+com.netflix.ribbon:ribbon-httpclient:jar:2.2.5
++- com.netflix.ribbon:ribbon-core:jar:2.2.5:runtime
+|  +- (org.slf4j:slf4j-api:jar:1.6.4:runtime - omitted for conflict with 1.7.12)
+|  +- (com.google.code.findbugs:annotations:jar:2.0.0:runtime - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:16.0:runtime - omitted for conflict with 16.0.1)
+|  +- commons-configuration:commons-configuration:jar:1.8:runtime
+|  |  +- (commons-lang:commons-lang:jar:2.6:runtime - omitted for duplicate)
+|  |  \- (commons-logging:commons-logging:jar:1.1.1:runtime - omitted for duplicate)
+|  +- commons-lang:commons-lang:jar:2.6:runtime
+|  \- (com.netflix.archaius:archaius-core:jar:0.7.4:runtime - omitted for duplicate)
++- com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.5:runtime
+|  +- (com.netflix.ribbon:ribbon-core:jar:2.2.5:runtime - omitted for duplicate)
+|  +- com.netflix.netflix-commons:netflix-statistics:jar:0.1.1:runtime
+|  |  +- (org.slf4j:slf4j-api:jar:1.6.4:runtime - omitted for duplicate)
+|  |  \- (com.google.code.findbugs:annotations:jar:2.0.0:runtime - omitted for duplicate)
+|  +- io.reactivex:rxjava:jar:1.0.9:runtime
+|  +- (org.slf4j:slf4j-api:jar:1.7.12:runtime - omitted for conflict with 1.6.4)
+|  +- (com.netflix.servo:servo-core:jar:0.10.1:runtime - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:16.0.1:runtime - omitted for conflict with 16.0)
+|  +- (com.netflix.archaius:archaius-core:jar:0.7.4:runtime - omitted for duplicate)
+|  \- (com.netflix.netflix-commons:netflix-commons-util:jar:0.1.1:runtime - omitted for duplicate)
++- commons-collections:commons-collections:jar:3.2.2:runtime
++- org.apache.httpcomponents:httpclient:jar:4.2.1:runtime
+|  +- org.apache.httpcomponents:httpcore:jar:4.2.1:runtime
+|  +- commons-logging:commons-logging:jar:1.1.1:runtime
+|  \- commons-codec:commons-codec:jar:1.6:runtime
++- com.google.code.findbugs:annotations:jar:2.0.0:runtime
++- com.sun.jersey:jersey-client:jar:1.19.1:runtime
+|  \- com.sun.jersey:jersey-core:jar:1.19.1:runtime
+|     \- javax.ws.rs:jsr311-api:jar:1.1.1:runtime
++- com.sun.jersey.contribs:jersey-apache-client4:jar:1.19.1:runtime
+|  +- (org.apache.httpcomponents:httpclient:jar:4.1.1:runtime - omitted for conflict with 4.2.1)
+|  \- (com.sun.jersey:jersey-client:jar:1.19.1:runtime - omitted for duplicate)
++- org.slf4j:slf4j-api:jar:1.7.12:runtime
++- com.netflix.servo:servo-core:jar:0.10.1:runtime
+|  +- (org.slf4j:slf4j-api:jar:1.7.12:runtime - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:16.0.1:runtime - omitted for conflict with 16.0)
+|  +- (com.google.code.findbugs:annotations:jar:2.0.0:runtime - omitted for duplicate)
+|  \- com.netflix.servo:servo-internal:jar:0.10.1:runtime
+|     +- (org.slf4j:slf4j-api:jar:1.7.12:runtime - omitted for duplicate)
+|     +- (com.google.guava:guava:jar:16.0.1:runtime - omitted for conflict with 16.0)
+|     \- (com.google.code.findbugs:annotations:jar:2.0.0:runtime - omitted for duplicate)
++- com.google.guava:guava:jar:16.0.1:runtime
++- com.netflix.archaius:archaius-core:jar:0.7.4:runtime
+|  +- com.google.code.findbugs:jsr305:jar:3.0.1:runtime
+|  +- (commons-configuration:commons-configuration:jar:1.8:runtime - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.6.4:runtime - omitted for conflict with 1.7.12)
+|  +- (com.google.guava:guava:jar:16.0:runtime - omitted for conflict with 16.0.1)
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.4.3:runtime
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.4.3:runtime
+|  \- com.fasterxml.jackson.core:jackson-databind:jar:2.4.3:runtime
+|     +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.4.0:runtime - omitted for conflict with 2.4.3)
+|     \- (com.fasterxml.jackson.core:jackson-core:jar:2.4.3:runtime - omitted for duplicate)
+\- com.netflix.netflix-commons:netflix-commons-util:jar:0.1.1:runtime
+   \- (org.slf4j:slf4j-api:jar:1.6.4:runtime - omitted for conflict with 1.7.12)

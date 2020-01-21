@@ -1,0 +1,55 @@
+org.kuali.rice:rice-kew-framework:jar:2.6.2
++- org.kuali.rice:rice-core-api:jar:2.6.2:compile
+|  +- net.sf.ehcache:ehcache:jar:2.10.4:runtime
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.24:compile - version managed from 1.7.7; scope updated from runtime; omitted for duplicate)
+|  +- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+|  +- org.apache.commons:commons-lang3:jar:3.5:compile
+|  +- (commons-collections:commons-collections:jar:3.2.2:compile - omitted for duplicate)
+|  +- commons-codec:commons-codec:jar:1.10:compile
+|  +- org.slf4j:jcl-over-slf4j:jar:1.7.24:compile
+|  |  \- org.slf4j:slf4j-api:jar:1.7.24:compile
+|  +- commons-beanutils:commons-beanutils:jar:1.9.3:compile
+|  |  \- (commons-collections:commons-collections:jar:3.2.2:compile - omitted for duplicate)
+|  +- log4j:log4j:jar:1.2.17:compile
+|  +- org.springframework:spring-core:jar:4.3.7.RELEASE:compile
+|  +- org.springframework:spring-beans:jar:4.3.7.RELEASE:compile
+|  |  \- (org.springframework:spring-core:jar:4.3.7.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework:spring-context:jar:4.3.7.RELEASE:compile
+|  |  +- org.springframework:spring-aop:jar:4.3.7.RELEASE:compile
+|  |  |  +- (org.springframework:spring-beans:jar:4.3.7.RELEASE:compile - omitted for duplicate)
+|  |  |  \- (org.springframework:spring-core:jar:4.3.7.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-beans:jar:4.3.7.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-core:jar:4.3.7.RELEASE:compile - omitted for duplicate)
+|  |  \- org.springframework:spring-expression:jar:4.3.7.RELEASE:compile
+|  |     \- (org.springframework:spring-core:jar:4.3.7.RELEASE:compile - omitted for duplicate)
+|  +- org.jdom:jdom:jar:1.1.3:compile
+|  +- joda-time:joda-time:jar:2.9.7:compile
+|  +- com.sun.mail:javax.mail:jar:1.5.6:compile
+|  +- com.google.guava:guava:jar:21.0:compile
+|  +- com.sun.xml.bind:jaxb-impl:jar:2.2.11:runtime
+|  +- com.sun.xml.bind:jaxb-core:jar:2.2.11:runtime
+|  \- (org.eclipse.persistence:org.eclipse.persistence.oracle:jar:2.6.4:compile - omitted for duplicate)
++- org.kuali.rice:rice-kew-api:jar:2.6.2:compile
+|  +- (org.kuali.rice:rice-core-api:jar:2.6.2:compile - omitted for duplicate)
+|  +- (org.kuali.rice:rice-ksb-api:jar:2.6.2:compile - omitted for duplicate)
+|  +- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+|  +- (commons-collections:commons-collections:jar:3.2.2:compile - omitted for duplicate)
+|  +- (joda-time:joda-time:jar:2.9.7:compile - omitted for duplicate)
+|  +- (org.springframework:spring-context:jar:4.3.7.RELEASE:compile - omitted for duplicate)
+|  \- (org.eclipse.persistence:org.eclipse.persistence.oracle:jar:2.6.4:compile - omitted for duplicate)
++- org.kuali.rice:rice-ksb-api:jar:2.6.2:compile
+|  +- (org.kuali.rice:rice-core-api:jar:2.6.2:compile - omitted for duplicate)
+|  +- javax.ws.rs:jsr311-api:jar:1.1.1:compile
+|  +- (org.springframework:spring-beans:jar:4.3.7.RELEASE:compile - omitted for duplicate)
+|  +- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+|  +- (commons-collections:commons-collections:jar:3.2.2:compile - omitted for duplicate)
+|  +- (log4j:log4j:jar:1.2.17:compile - omitted for duplicate)
+|  \- (org.eclipse.persistence:org.eclipse.persistence.oracle:jar:2.6.4:compile - omitted for duplicate)
++- commons-collections:commons-collections:jar:3.2.2:compile
++- commons-lang:commons-lang:jar:2.6:compile
+\- org.eclipse.persistence:org.eclipse.persistence.oracle:jar:2.6.4:compile
+   +- org.eclipse.persistence:javax.persistence:jar:2.1.1:compile
+   +- org.eclipse.persistence:org.eclipse.persistence.asm:jar:2.6.4:compile
+   \- org.eclipse.persistence:org.eclipse.persistence.core:jar:2.6.4:compile
+      +- (org.eclipse.persistence:org.eclipse.persistence.asm:jar:2.6.4:compile - omitted for duplicate)
+      \- org.glassfish:javax.json:jar:1.0.4:compile

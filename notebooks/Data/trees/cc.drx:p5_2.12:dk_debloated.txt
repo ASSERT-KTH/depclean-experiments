@@ -1,0 +1,21 @@
+cc.drx:p5_2.12:jar:dk
++- org.scala-lang:scala-library:jar:2.12.6:compile
++- cc.drx:core_2.12:jar:dk:compile
+|  \- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
++- org.scalatest:scalatest_2.12:jar:3.0.5-M1:test
+|  +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for conflict with 2.12.6)
+|  +- org.scalactic:scalactic_2.12:jar:3.0.5-M1:test
+|  |  +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for conflict with 2.12.6)
+|  |  \- (org.scala-lang:scala-reflect:jar:2.12.4:test - omitted for duplicate)
+|  +- org.scala-lang:scala-reflect:jar:2.12.4:test
+|  |  \- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for conflict with 2.12.6)
+|  \- (org.scala-lang.modules:scala-xml_2.12:jar:1.0.6:test - omitted for duplicate)
++- org.processing:core:jar:3.3.7:compile
++- org.jogamp.gluegen:gluegen-rt:jar:natives-macosx-universal:2.3.2:compile
++- org.jogamp.gluegen:gluegen-rt:jar:natives-linux-amd64:2.3.2:compile
++- org.jogamp.gluegen:gluegen-rt:jar:natives-windows-amd64:2.3.2:compile
++- org.jogamp.jogl:jogl-all:jar:natives-macosx-universal:2.3.2:compile
++- org.jogamp.jogl:jogl-all:jar:natives-linux-amd64:2.3.2:compile
++- org.jogamp.jogl:jogl-all:jar:natives-windows-amd64:2.3.2:compile
++- org.webjars:font-awesome:jar:5.0.10:test
+\- org.webjars:material-design-icons:jar:3.0.1:test

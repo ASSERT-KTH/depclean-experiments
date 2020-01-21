@@ -1,0 +1,4 @@
+com.github.xuwei-k:msgpack4z-native_sjs0.6_2.13.0-M3:jar:0.3.5
++- org.scala-lang:scala-library:jar:2.13.0-M3:compile
+\- org.scala-js:scalajs-library_2.13.0-M3:jar:0.6.23:compile
+   \- (org.scala-lang:scala-library:jar:2.13.0-M3:compile - omitted for duplicate)

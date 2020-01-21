@@ -1,0 +1,9 @@
+ru.makkarpov:scalingua-core_2.10:jar:0.7.2
++- org.scala-lang:scala-library:jar:2.10.4:compile
+\- org.scalatest:scalatest_2.10:jar:3.0.0:test
+   +- (org.scala-lang:scala-library:jar:2.10.6:test - omitted for conflict with 2.10.4)
+   +- org.scalactic:scalactic_2.10:jar:3.0.0:test
+   |  +- (org.scala-lang:scala-library:jar:2.10.6:test - omitted for conflict with 2.10.4)
+   |  \- (org.scala-lang:scala-reflect:jar:2.10.6:test - omitted for duplicate)
+   \- org.scala-lang:scala-reflect:jar:2.10.6:test
+      \- (org.scala-lang:scala-library:jar:2.10.6:test - omitted for conflict with 2.10.4)

@@ -1,0 +1,14 @@
+org.wso2.carbon.datasources:org.wso2.carbon.datasource.core:bundle:1.0.2
++- org.wso2.eclipse.osgi:org.eclipse.osgi.services:jar:3.4.0.v20140312-2051:compile
++- org.wso2.carbon:org.wso2.carbon.core:jar:5.1.0-alpha2:compile
++- commons-io.wso2:commons-io:jar:2.4.0.wso2v1:compile
++- org.wso2.orbit.org.apache.tomcat:jdbc-pool:jar:7.0.81.wso2v2:compile
++- org.wso2.eclipse.osgi:org.eclipse.osgi:jar:3.10.2.v20150203-1939:compile
++- com.zaxxer:HikariCP:jar:2.4.1:compile
+|  \- org.slf4j:slf4j-api:jar:1.7.12:compile
++- org.testng:testng:jar:6.9.4:test
+|  +- org.beanshell:bsh:jar:2.0b4:test
+|  \- com.beust:jcommander:jar:1.48:test
++- org.jacoco:org.jacoco.agent:jar:runtime:0.7.5.201505241946:test
++- com.h2database:h2:jar:1.4.191:test
+\- org.wso2.carbon.jndi:org.wso2.carbon.jndi:jar:1.0.0-alpha:compile

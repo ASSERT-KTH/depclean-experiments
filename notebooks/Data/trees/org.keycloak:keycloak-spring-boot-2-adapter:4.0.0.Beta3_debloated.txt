@@ -1,0 +1,110 @@
+org.keycloak:keycloak-spring-boot-2-adapter:jar:4.0.0.Beta3
++- org.keycloak:keycloak-spring-boot-adapter-core:jar:4.0.0.Beta3:compile
+|  +- (org.jboss.logging:jboss-logging:jar:3.3.1.Final:compile - omitted for duplicate)
+|  \- (org.keycloak:keycloak-core:jar:4.0.0.Beta3:compile - omitted for duplicate)
++- org.keycloak:keycloak-core:jar:4.0.0.Beta3:compile
+|  +- org.keycloak:keycloak-common:jar:4.0.0.Beta3:compile
+|  |  +- (org.bouncycastle:bcprov-jdk15on:jar:1.56:compile - omitted for duplicate)
+|  |  \- (org.bouncycastle:bcpkix-jdk15on:jar:1.56:compile - omitted for duplicate)
+|  +- org.bouncycastle:bcprov-jdk15on:jar:1.56:compile
+|  +- org.bouncycastle:bcpkix-jdk15on:jar:1.56:compile
+|  |  \- (org.bouncycastle:bcprov-jdk15on:jar:1.56:compile - omitted for duplicate)
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.8.11:compile (version managed from 2.8.10)
+|  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.11:compile - omitted for conflict with 2.9.4)
++- org.keycloak:spring-boot-container-bundle:jar:4.0.0.Beta3:compile
++- org.keycloak:keycloak-spring-security-adapter:jar:4.0.0.Beta3:compile
+|  +- (org.keycloak:keycloak-core:jar:4.0.0.Beta3:compile - omitted for duplicate)
+|  +- org.keycloak:keycloak-adapter-spi:jar:4.0.0.Beta3:compile
+|  +- org.keycloak:keycloak-adapter-core:jar:4.0.0.Beta3:compile
+|  +- org.slf4j:slf4j-api:jar:1.7.22:compile
+|  +- (org.jboss.logging:jboss-logging:jar:3.3.1.Final:compile - omitted for duplicate)
+|  +- org.apache.httpcomponents:httpclient:jar:4.5.2:compile (version managed from 4.3.6)
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.4.4:compile
+|  |  +- commons-logging:commons-logging:jar:1.2:compile
+|  |  \- commons-codec:commons-codec:jar:1.9:compile
+|  +- (org.bouncycastle:bcprov-jdk15on:jar:1.56:runtime - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.11:compile - version managed from 2.8.10; omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.11:runtime - omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.11:compile - version managed from 2.8.0; scope updated from runtime; omitted for duplicate)
++- com.fasterxml.jackson.core:jackson-databind:jar:2.9.4:provided (scope not updated to compile)
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.11:provided - version managed from 2.9.0; omitted for conflict with 2.9.4)
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.8.11:provided - version managed from 2.9.4; omitted for duplicate)
++- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.4:provided (scope not updated to compile)
++- org.springframework:spring-core:jar:5.0.2.RELEASE:provided (scope not updated to compile)
+|  \- org.springframework:spring-jcl:jar:5.0.2.RELEASE:provided
++- org.springframework.boot:spring-boot-starter-web:jar:2.0.0.RELEASE:compile
+|  +- org.springframework.boot:spring-boot-starter:jar:2.0.0.RELEASE:compile
+|  |  +- org.springframework.boot:spring-boot:jar:2.0.0.RELEASE:compile
+|  |  |  +- (org.springframework:spring-core:jar:5.0.4.RELEASE:compile - omitted for conflict with 5.0.2.RELEASE)
+|  |  |  \- (org.springframework:spring-context:jar:5.0.4.RELEASE:compile - omitted for duplicate)
+|  |  +- org.springframework.boot:spring-boot-autoconfigure:jar:2.0.0.RELEASE:compile
+|  |  |  \- (org.springframework.boot:spring-boot:jar:2.0.0.RELEASE:compile - omitted for duplicate)
+|  |  +- org.springframework.boot:spring-boot-starter-logging:jar:2.0.0.RELEASE:compile
+|  |  |  +- ch.qos.logback:logback-classic:jar:1.2.3:compile
+|  |  |  |  +- ch.qos.logback:logback-core:jar:1.2.3:compile
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.22:compile - version managed from 1.7.25; omitted for duplicate)
+|  |  |  +- org.apache.logging.log4j:log4j-to-slf4j:jar:2.10.0:compile
+|  |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.22:compile - version managed from 1.7.25; omitted for duplicate)
+|  |  |  |  \- org.apache.logging.log4j:log4j-api:jar:2.10.0:compile
+|  |  |  \- org.slf4j:jul-to-slf4j:jar:1.7.25:compile
+|  |  |     \- (org.slf4j:slf4j-api:jar:1.7.22:compile - version managed from 1.7.25; omitted for duplicate)
+|  |  +- javax.annotation:javax.annotation-api:jar:1.3.2:compile
+|  |  +- (org.springframework:spring-core:jar:5.0.4.RELEASE:compile - omitted for conflict with 5.0.2.RELEASE)
+|  |  \- org.yaml:snakeyaml:jar:1.19:runtime
+|  +- org.springframework.boot:spring-boot-starter-json:jar:2.0.0.RELEASE:compile
+|  |  +- (org.springframework.boot:spring-boot-starter:jar:2.0.0.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-web:jar:5.0.4.RELEASE:compile - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.11:compile - version managed from 2.9.4; omitted for conflict with 2.9.4)
+|  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.4:compile
+|  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.11:compile - version managed from 2.9.4; omitted for duplicate)
+|  |  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.11:compile - version managed from 2.9.4; omitted for conflict with 2.9.4)
+|  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.4:compile
+|  |  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.11:compile - version managed from 2.9.0; omitted for conflict with 2.9.4)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.11:compile - version managed from 2.9.4; omitted for duplicate)
+|  |  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.11:compile - version managed from 2.9.4; omitted for conflict with 2.9.4)
+|  |  \- com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.9.4:compile
+|  |     +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.11:compile - version managed from 2.9.4; omitted for duplicate)
+|  |     \- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.11:compile - version managed from 2.9.4; omitted for conflict with 2.9.4)
+|  +- org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.0.RELEASE:compile
+|  |  +- (javax.annotation:javax.annotation-api:jar:1.3.2:compile - omitted for duplicate)
+|  |  +- org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.28:compile
+|  |  +- org.apache.tomcat.embed:tomcat-embed-el:jar:8.5.28:compile
+|  |  \- org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.5.28:compile
+|  |     \- (org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.28:compile - omitted for duplicate)
+|  +- org.hibernate.validator:hibernate-validator:jar:6.0.7.Final:compile
+|  |  +- javax.validation:validation-api:jar:2.0.1.Final:compile
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.1.Final:compile - version managed from 3.3.0.Final; omitted for duplicate)
+|  |  \- com.fasterxml:classmate:jar:1.3.1:compile
+|  +- org.springframework:spring-web:jar:5.0.4.RELEASE:compile
+|  |  +- org.springframework:spring-beans:jar:5.0.4.RELEASE:compile
+|  |  |  \- (org.springframework:spring-core:jar:5.0.4.RELEASE:compile - omitted for conflict with 5.0.2.RELEASE)
+|  |  \- (org.springframework:spring-core:jar:5.0.4.RELEASE:compile - omitted for conflict with 5.0.2.RELEASE)
+|  \- org.springframework:spring-webmvc:jar:5.0.4.RELEASE:compile
+|     +- org.springframework:spring-aop:jar:5.0.4.RELEASE:compile
+|     |  +- (org.springframework:spring-beans:jar:5.0.4.RELEASE:compile - omitted for duplicate)
+|     |  \- (org.springframework:spring-core:jar:5.0.4.RELEASE:compile - omitted for conflict with 5.0.2.RELEASE)
+|     +- (org.springframework:spring-beans:jar:5.0.4.RELEASE:compile - omitted for duplicate)
+|     +- org.springframework:spring-context:jar:5.0.4.RELEASE:compile
+|     |  +- (org.springframework:spring-aop:jar:5.0.4.RELEASE:compile - omitted for duplicate)
+|     |  +- (org.springframework:spring-beans:jar:5.0.4.RELEASE:compile - omitted for duplicate)
+|     |  +- (org.springframework:spring-core:jar:5.0.4.RELEASE:compile - omitted for conflict with 5.0.2.RELEASE)
+|     |  \- (org.springframework:spring-expression:jar:5.0.4.RELEASE:compile - omitted for duplicate)
+|     +- (org.springframework:spring-core:jar:5.0.4.RELEASE:compile - omitted for conflict with 5.0.2.RELEASE)
+|     +- org.springframework:spring-expression:jar:5.0.4.RELEASE:compile
+|     |  \- (org.springframework:spring-core:jar:5.0.4.RELEASE:compile - omitted for conflict with 5.0.2.RELEASE)
+|     \- (org.springframework:spring-web:jar:5.0.4.RELEASE:compile - omitted for duplicate)
++- io.undertow:undertow-servlet:jar:1.4.18.Final:compile
+|  +- io.undertow:undertow-core:jar:1.4.18.Final:compile
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.1.Final:compile - version managed from 3.2.1.Final; omitted for duplicate)
+|  |  +- org.jboss.xnio:xnio-api:jar:3.3.8.Final:compile
+|  |  \- org.jboss.xnio:xnio-nio:jar:3.3.8.Final:runtime
+|  |     \- (org.jboss.xnio:xnio-api:jar:3.3.8.Final:runtime - omitted for duplicate)
+|  +- org.jboss.spec.javax.servlet:jboss-servlet-api_3.1_spec:jar:1.0.0.Final:compile
+|  \- org.jboss.spec.javax.annotation:jboss-annotations-api_1.2_spec:jar:1.0.0.Final:compile
++- org.eclipse.jetty:jetty-security:jar:9.1.0.v20131115:compile
+|  \- (org.eclipse.jetty:jetty-server:jar:9.1.0.v20131115:compile - omitted for duplicate)
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.springframework:spring-test:jar:5.0.2.RELEASE:test
+|  \- (org.springframework:spring-core:jar:5.0.2.RELEASE:test - omitted for duplicate)
+\- org.mockito:mockito-all:jar:1.9.5:test

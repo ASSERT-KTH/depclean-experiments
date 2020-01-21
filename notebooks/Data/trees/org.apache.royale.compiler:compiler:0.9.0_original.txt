@@ -1,0 +1,28 @@
+org.apache.royale.compiler:compiler:jar:0.9.0
++- org.apache.royale.compiler:compiler-jburg-types:jar:1.0.0:compile
++- org.apache.royale.compiler:compiler-common:jar:0.9.0:compile
++- org.apache.flex:flex-tool-api:jar:1.0.0:compile
++- commons-io:commons-io:jar:2.4:compile
++- commons-cli:commons-cli:jar:1.2:compile
++- org.antlr:antlr:jar:3.3:compile
+|  \- org.antlr:antlr-runtime:jar:3.3:compile
+|     \- org.antlr:stringtemplate:jar:3.2.1:compile
+|        \- antlr:antlr:jar:2.7.7:compile
++- com.google.guava:guava:jar:20.0:compile
++- net.sourceforge.jburg:jburg:jar:1.10.3:compile
++- de.jflex:jflex:jar:1.6.0:compile
++- org.b1.pack:lzma-sdk-4j:jar:9.22.0:compile
++- org.apache.royale.compiler:compiler-test-utils:jar:0.9.0:test
+|  \- org.apache.commons:commons-compress:jar:1.10:test
++- org.apache.royale.compiler:compiler-externc:jar:0.9.0:test
+|  \- com.google.javascript:closure-compiler:jar:v20170626:test
+|     +- com.google.javascript:closure-compiler-externs:jar:v20170626:test
+|     +- args4j:args4j:jar:2.33:test
+|     +- com.google.errorprone:error_prone_annotations:jar:2.0.18:test
+|     +- com.google.protobuf:protobuf-java:jar:3.0.2:test
+|     +- com.google.code.gson:gson:jar:2.7:test
+|     +- com.google.code.findbugs:jsr305:jar:3.0.1:test
+|     \- com.google.jsinterop:jsinterop-annotations:jar:1.0.0:test
++- junit:junit:jar:4.10:test
+|  \- org.hamcrest:hamcrest-core:jar:1.1:test
+\- org.apache.commons:commons-lang3:jar:3.4:test

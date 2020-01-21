@@ -1,0 +1,95 @@
+com.outr:profig-macros_sjs0.6_2.12:jar:2.3.0
++- org.scala-lang:scala-library:jar:2.12.6:compile
++- org.scala-js:scalajs-library_2.12:jar:0.6.22:compile
+|  \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.6)
++- org.scala-js:scalajs-test-interface_2.12:jar:0.6.22:test
+|  +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for conflict with 2.12.6)
+|  \- (org.scala-js:scalajs-library_2.12:jar:0.6.22:test - omitted for duplicate)
++- io.circe:circe-core_sjs0.6_2.12:jar:0.9.3:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.5:compile - omitted for conflict with 2.12.6)
+|  +- io.circe:circe-numbers_sjs0.6_2.12:jar:0.9.3:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.5:compile - omitted for conflict with 2.12.6)
+|  |  \- (org.scala-js:scalajs-library_2.12:jar:0.6.22:compile - omitted for duplicate)
+|  +- (org.scala-js:scalajs-library_2.12:jar:0.6.22:compile - omitted for duplicate)
+|  \- org.typelevel:cats-core_sjs0.6_2.12:jar:1.0.1:compile
+|     +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.6)
+|     +- org.typelevel:cats-macros_sjs0.6_2.12:jar:1.0.1:compile
+|     |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.6)
+|     |  +- (org.scala-js:scalajs-library_2.12:jar:0.6.20:compile - omitted for conflict with 0.6.22)
+|     |  \- (org.typelevel:machinist_sjs0.6_2.12:jar:0.6.2:compile - omitted for duplicate)
+|     +- org.typelevel:cats-kernel_sjs0.6_2.12:jar:1.0.1:compile
+|     |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.6)
+|     |  \- (org.scala-js:scalajs-library_2.12:jar:0.6.20:compile - omitted for conflict with 0.6.22)
+|     +- (org.scala-js:scalajs-library_2.12:jar:0.6.20:compile - omitted for conflict with 0.6.22)
+|     \- org.typelevel:machinist_sjs0.6_2.12:jar:0.6.2:compile
+|        +- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.6)
+|        +- (org.scala-js:scalajs-library_2.12:jar:0.6.16:compile - omitted for conflict with 0.6.22)
+|        \- (org.scala-lang:scala-reflect:jar:2.12.0:compile - omitted for conflict with 2.12.6)
++- io.circe:circe-generic_sjs0.6_2.12:jar:0.9.3:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.5:compile - omitted for conflict with 2.12.6)
+|  +- (io.circe:circe-core_sjs0.6_2.12:jar:0.9.3:compile - omitted for duplicate)
+|  +- (org.scala-js:scalajs-library_2.12:jar:0.6.22:compile - omitted for duplicate)
+|  +- org.typelevel:macro-compat_sjs0.6_2.12:jar:1.1.1:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.6)
+|  |  \- (org.scala-js:scalajs-library_2.12:jar:0.6.13:compile - omitted for conflict with 0.6.22)
+|  \- com.chuusai:shapeless_sjs0.6_2.12:jar:2.3.3:compile
+|     +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.6)
+|     +- (org.scala-js:scalajs-library_2.12:jar:0.6.21:compile - omitted for conflict with 0.6.22)
+|     \- org.typelevel:macro-compat_2.12:jar:1.1.1:compile
+|        \- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.6)
++- io.circe:circe-parser_sjs0.6_2.12:jar:0.9.3:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.5:compile - omitted for conflict with 2.12.6)
+|  +- io.circe:circe-scalajs_sjs0.6_2.12:jar:0.9.3:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.5:compile - omitted for conflict with 2.12.6)
+|  |  +- (io.circe:circe-core_sjs0.6_2.12:jar:0.9.3:compile - omitted for duplicate)
+|  |  \- (org.scala-js:scalajs-library_2.12:jar:0.6.22:compile - omitted for duplicate)
+|  +- (io.circe:circe-core_sjs0.6_2.12:jar:0.9.3:compile - omitted for duplicate)
+|  \- (org.scala-js:scalajs-library_2.12:jar:0.6.22:compile - omitted for duplicate)
++- io.circe:circe-generic-extras_sjs0.6_2.12:jar:0.9.3:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.5:compile - omitted for conflict with 2.12.6)
+|  +- (io.circe:circe-generic_sjs0.6_2.12:jar:0.9.3:compile - omitted for duplicate)
+|  +- (org.scala-js:scalajs-library_2.12:jar:0.6.22:compile - omitted for duplicate)
+|  \- (org.typelevel:macro-compat_sjs0.6_2.12:jar:1.1.1:compile - omitted for duplicate)
++- org.akka-js:shocon-parser_sjs0.6_2.12:jar:0.2.1:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.6)
+|  +- (org.scala-js:scalajs-library_2.12:jar:0.6.20:compile - omitted for conflict with 0.6.22)
+|  +- com.lihaoyi:fastparse_sjs0.6_2.12:jar:1.0.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.3:compile - omitted for conflict with 2.12.6)
+|  |  +- com.lihaoyi:fastparse-utils_sjs0.6_2.12:jar:1.0.0:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.12.3:compile - omitted for conflict with 2.12.6)
+|  |  |  +- (org.scala-js:scalajs-library_2.12:jar:0.6.19:compile - omitted for conflict with 0.6.22)
+|  |  |  \- (com.lihaoyi:sourcecode_sjs0.6_2.12:jar:0.1.4:compile - omitted for duplicate)
+|  |  +- (org.scala-js:scalajs-library_2.12:jar:0.6.19:compile - omitted for conflict with 0.6.22)
+|  |  \- com.lihaoyi:sourcecode_sjs0.6_2.12:jar:0.1.4:compile
+|  |     +- (org.scala-lang:scala-library:jar:2.12.2:compile - omitted for conflict with 2.12.6)
+|  |     \- (org.scala-js:scalajs-library_2.12:jar:0.6.18:compile - omitted for conflict with 0.6.22)
+|  \- org.scala-js:scalajs-java-time_sjs0.6_2.12:jar:0.2.0:compile
+|     +- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.6)
+|     \- (org.scala-js:scalajs-library_2.12:jar:0.6.13:compile - omitted for conflict with 0.6.22)
++- org.scala-lang.modules:scala-xml_sjs0.6_2.12:jar:1.1.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.6)
+|  \- (org.scala-js:scalajs-library_2.12:jar:0.6.22:compile - omitted for duplicate)
++- io.circe:circe-jawn_2.12:jar:0.9.3:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.5:compile - omitted for conflict with 2.12.6)
+|  +- io.circe:circe-core_2.12:jar:0.9.3:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.5:compile - omitted for conflict with 2.12.6)
+|  |  +- io.circe:circe-numbers_2.12:jar:0.9.3:compile
+|  |  |  \- (org.scala-lang:scala-library:jar:2.12.5:compile - omitted for conflict with 2.12.6)
+|  |  \- org.typelevel:cats-core_2.12:jar:1.0.1:compile
+|  |     +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.6)
+|  |     +- org.typelevel:cats-macros_2.12:jar:1.0.1:compile
+|  |     |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.6)
+|  |     |  \- (org.typelevel:machinist_2.12:jar:0.6.2:compile - omitted for duplicate)
+|  |     +- org.typelevel:cats-kernel_2.12:jar:1.0.1:compile
+|  |     |  \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.6)
+|  |     \- org.typelevel:machinist_2.12:jar:0.6.2:compile
+|  |        +- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.6)
+|  |        \- (org.scala-lang:scala-reflect:jar:2.12.0:compile - omitted for duplicate)
+|  \- org.spire-math:jawn-parser_2.12:jar:0.11.1:compile
+|     \- (org.scala-lang:scala-library:jar:2.12.2:compile - omitted for conflict with 2.12.6)
++- io.circe:circe-yaml_2.12:jar:0.8.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.5:compile - omitted for conflict with 2.12.6)
+|  +- (io.circe:circe-core_2.12:jar:0.9.3:compile - omitted for duplicate)
+|  \- org.yaml:snakeyaml:jar:1.20:compile
+\- org.scala-lang:scala-reflect:jar:2.12.6:compile
+   \- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)

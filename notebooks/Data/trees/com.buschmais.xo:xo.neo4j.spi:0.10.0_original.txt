@@ -1,0 +1,10 @@
+com.buschmais.xo:xo.neo4j.spi:jar:0.10.0
++- com.buschmais.xo:xo.neo4j.api:jar:0.10.0:compile
+|  +- com.buschmais.xo:xo.api:jar:0.10.0:compile
+|  |  \- javax.validation:validation-api:jar:1.1.0.Final:compile
+|  \- (com.buschmais.xo:xo.spi:jar:0.10.0:compile - omitted for duplicate)
++- com.buschmais.xo:xo.spi:jar:0.10.0:compile
+|  +- (com.buschmais.xo:xo.api:jar:0.10.0:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  \- com.google.guava:guava:jar:15.0:compile
+\- org.slf4j:slf4j-api:jar:1.7.25:compile

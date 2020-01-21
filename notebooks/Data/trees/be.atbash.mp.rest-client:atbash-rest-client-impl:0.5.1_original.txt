@@ -1,0 +1,27 @@
+be.atbash.mp.rest-client:atbash-rest-client-impl:jar:0.5.1
++- javax.enterprise:cdi-api:jar:1.1:provided
+|  +- javax.el:el-api:jar:2.2:provided
+|  +- org.jboss.spec.javax.interceptor:jboss-interceptors-api_1.1_spec:jar:1.0.0.Beta1:provided
+|  +- javax.annotation:jsr250-api:jar:1.0:provided
+|  \- (javax.inject:javax.inject:jar:1:provided - omitted for duplicate)
++- javax.inject:javax.inject:jar:1:provided
++- be.atbash.mp.rest-client:microprofile-rest-client-api:jar:0.5.1:compile
+|  +- javax.ws.rs:javax.ws.rs-api:jar:2.0:compile
+|  \- javax.annotation:javax.annotation-api:jar:1.2:compile
++- be.atbash.config:atbash-config:jar:0.9.2:compile
+|  +- be.atbash.config:microprofile-config-api:jar:0.9.2:compile
+|  \- be.atbash.utils:utils-se:jar:0.9.2:compile
+|     \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
++- be.atbash.utils:utils-cdi:jar:0.9.2:compile
+|  +- (be.atbash.utils:utils-se:jar:0.9.2:compile - omitted for duplicate)
+|  \- org.slf4j:slf4j-api:jar:1.7.25:compile
++- org.apache.deltaspike.core:deltaspike-core-api:jar:1.8.1:provided
+\- org.apache.deltaspike.modules:deltaspike-partial-bean-module-impl:jar:1.8.1:provided
+   +- (org.apache.deltaspike.core:deltaspike-core-api:jar:1.8.1:provided - omitted for duplicate)
+   +- org.apache.deltaspike.modules:deltaspike-partial-bean-module-api:jar:1.8.1:provided
+   |  \- (org.apache.deltaspike.core:deltaspike-core-api:jar:1.8.1:provided - omitted for duplicate)
+   +- org.apache.deltaspike.modules:deltaspike-proxy-module-api:jar:1.8.1:provided
+   |  \- (org.apache.deltaspike.core:deltaspike-core-api:jar:1.8.1:provided - omitted for duplicate)
+   \- org.apache.deltaspike.modules:deltaspike-proxy-module-impl-asm5:jar:1.8.1:provided
+      +- (org.apache.deltaspike.core:deltaspike-core-api:jar:1.8.1:provided - omitted for duplicate)
+      \- (org.apache.deltaspike.modules:deltaspike-proxy-module-api:jar:1.8.1:provided - omitted for duplicate)

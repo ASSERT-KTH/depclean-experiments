@@ -1,0 +1,47 @@
+com.hp.autonomy.frontend.user:idol-user-service:jar:3.5.0
++- com.hp.autonomy.frontend:aci-types:jar:0.23.0:compile
+|  +- org.apache.commons:commons-collections4:jar:4.0:compile
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.8.11:compile
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.8.11.1:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile - omitted for conflict with 2.8.11)
+|  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.8.10:compile - omitted for conflict with 2.8.11)
+|  \- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.11:compile
++- com.hp.autonomy.frontend:idol-types:jar:1.14.0:compile
+|  +- (com.hp.autonomy.frontend:aci-types:jar:0.23.0:compile - omitted for duplicate)
+|  +- (com.hp.autonomy.aci.client:aci-api:jar:6.0.0:compile - omitted for duplicate)
+|  +- org.jvnet.jaxb2_commons:jaxb2-basics-runtime:jar:0.9.5:compile
+|  +- net.sf.biweekly:biweekly:jar:0.4.1:compile
+|  +- org.apache.commons:commons-lang3:jar:3.4:compile
+|  \- commons-io:commons-io:jar:2.4:compile
++- com.hp.autonomy.aci.client:aci-api:jar:6.0.0:compile
+|  +- org.apache.httpcomponents:httpclient:jar:4.4.1:compile
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.4.1:compile
+|  |  \- commons-codec:commons-codec:jar:1.9:compile
+|  +- org.apache.httpcomponents:httpmime:jar:4.4.1:compile
+|  |  \- (org.apache.httpcomponents:httpclient:jar:4.4.1:compile - omitted for duplicate)
+|  +- org.slf4j:jcl-over-slf4j:jar:1.7.9:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.9:compile - omitted for duplicate)
+|  +- commons-lang:commons-lang:jar:2.6:compile
+|  +- org.slf4j:slf4j-api:jar:1.7.9:compile
+|  \- stax:stax:jar:1.2.0:compile
+|     \- stax:stax-api:jar:1.0.1:compile
++- com.hp.autonomy.frontend.configuration:configuration-api:jar:1.0.1:compile
++- com.hp.autonomy.aci.content:content-parameter-api:jar:3.0.1:compile
+|  +- (com.hp.autonomy.aci.client:aci-api:jar:5.0.1:compile - omitted for conflict with 6.0.0)
+|  +- (org.apache.commons:commons-lang3:jar:3.4:compile - omitted for duplicate)
+|  \- (org.apache.commons:commons-collections4:jar:4.0:compile - omitted for duplicate)
++- org.projectlombok:lombok:jar:1.16.4:provided
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.mockito:mockito-all:jar:1.9.5:test
++- org.hamcrest:hamcrest-all:jar:1.3:test
++- com.hp.autonomy.test.xml:xml-test-utils:jar:1.0.0:test
+\- com.hp.autonomy.test:testing-utils:jar:1.1.0:test
+   +- org.springframework:spring-beans:jar:3.2.2.RELEASE:test
+   |  \- org.springframework:spring-core:jar:3.2.2.RELEASE:test
+   |     \- commons-logging:commons-logging:jar:1.1.1:test
+   +- org.mockito:mockito-core:jar:1.9.5:test
+   |  +- (org.hamcrest:hamcrest-core:jar:1.1:test - omitted for conflict with 1.3)
+   |  \- org.objenesis:objenesis:jar:1.0:test
+   +- (com.hp.autonomy.aci.client:aci-api:jar:5.0.0:test - omitted for conflict with 6.0.0)
+   \- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for duplicate)

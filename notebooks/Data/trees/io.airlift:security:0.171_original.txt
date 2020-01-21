@@ -1,0 +1,16 @@
+io.airlift:security:jar:0.171
++- com.google.guava:guava:jar:24.1-jre:compile
+|  +- com.google.code.findbugs:jsr305:jar:3.0.2:compile (version managed from 1.3.9)
+|  +- org.checkerframework:checker-compat-qual:jar:2.0.0:compile
+|  +- com.google.errorprone:error_prone_annotations:jar:2.1.3:compile
+|  +- com.google.j2objc:j2objc-annotations:jar:1.1:compile
+|  \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:compile
++- org.testng:testng:jar:6.9.6:test
+|  +- org.beanshell:bsh:jar:2.0b4:test
+|  +- org.apache.ant:ant:jar:1.7.0:test
+|  |  \- org.apache.ant:ant-launcher:jar:1.7.0:test
+|  +- com.beust:jcommander:jar:1.48:test
+|  \- org.yaml:snakeyaml:jar:1.15:test
++- org.bouncycastle:bcprov-jdk15on:jar:1.58:test
+\- org.bouncycastle:bcpkix-jdk15on:jar:1.58:test
+   \- (org.bouncycastle:bcprov-jdk15on:jar:1.58:test - omitted for duplicate)

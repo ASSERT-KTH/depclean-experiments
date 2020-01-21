@@ -1,0 +1,39 @@
+org.sessl:sessl-opt4j:jar:0.16
++- org.sessl:sessl:jar:0.16:compile
+|  +- com.typesafe.scala-logging:scala-logging_2.12:jar:3.5.0:compile
+|  |  +- org.scala-lang:scala-library:jar:2.12.4:compile (version managed from 2.12.0)
+|  |  +- org.scala-lang:scala-reflect:jar:2.12.0:compile
+|  |  |  \- (org.scala-lang:scala-library:jar:2.12.4:compile - version managed from 2.12.0; omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.21; omitted for duplicate)
+|  +- org.slf4j:slf4j-api:jar:1.7.25:compile
+|  +- org.slf4j:slf4j-simple:jar:1.7.25:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.21; omitted for duplicate)
+|  +- org.apache.commons:commons-math3:jar:3.6:compile
+|  \- org.apache.commons:commons-csv:jar:1.4:compile
++- junit:junit:jar:4.8:test
++- org.opt4j:opt4j-core:jar:3.0:compile
+|  +- com.google.inject.extensions:guice-multibindings:jar:3.0:compile
+|  |  \- (com.google.inject:guice:jar:3.0:compile - omitted for duplicate)
+|  \- com.google.inject:guice:jar:3.0:compile
+|     +- javax.inject:javax.inject:jar:1:compile
+|     \- aopalliance:aopalliance:jar:1.0:compile
++- org.opt4j:opt4j-operators:jar:3.0:compile
+|  \- (org.opt4j:opt4j-core:jar:3.0:compile - omitted for duplicate)
++- org.opt4j:opt4j-optimizers:jar:3.0:compile
+|  +- (org.opt4j:opt4j-operators:jar:3.0:compile - omitted for duplicate)
+|  \- (org.opt4j:opt4j-core:jar:3.0:compile - omitted for duplicate)
++- org.opt4j:opt4j-tutorial:jar:3.0:compile
+|  +- (org.opt4j:opt4j-operators:jar:3.0:compile - omitted for duplicate)
+|  +- org.opt4j:opt4j-viewer:jar:3.0:compile
+|  |  \- (org.opt4j:opt4j-core:jar:3.0:compile - omitted for duplicate)
+|  +- (org.opt4j:opt4j-core:jar:3.0:compile - omitted for duplicate)
+|  +- org.opt4j:opt4j-satdecoding:jar:3.0:compile
+|  |  +- org.ow2.sat4j:org.ow2.sat4j.pb:jar:2.3.3:compile
+|  |  |  +- (org.ow2.sat4j:org.ow2.sat4j.core:jar:2.3.3:compile - omitted for duplicate)
+|  |  |  \- org.ow2.sat4j:org.ow2.sat4j.core:test-jar:tests:2.3.3:compile
+|  |  +- (org.opt4j:opt4j-core:jar:3.0:compile - omitted for duplicate)
+|  |  \- org.ow2.sat4j:org.ow2.sat4j.core:jar:2.3.3:compile
+|  \- (org.opt4j:opt4j-optimizers:jar:3.0:compile - omitted for duplicate)
+\- org.opt4j:opt4j-benchmarks:jar:3.0:compile
+   +- (org.opt4j:opt4j-core:jar:3.0:compile - omitted for duplicate)
+   \- (org.opt4j:opt4j-satdecoding:jar:3.0:compile - omitted for duplicate)

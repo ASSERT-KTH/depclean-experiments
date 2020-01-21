@@ -1,0 +1,75 @@
+io.fabric8:taiga-api:jar:3.0.12
++- io.fabric8:cxf-utils:jar:3.0.12:compile
+|  +- io.fabric8:fabric8-utils:jar:3.0.12:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.12:compile - omitted for duplicate)
+|  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.7.4:compile - version managed from 2.8.8; omitted for duplicate)
+|  +- io.fabric8:jaxrs-utils:jar:3.0.12:compile
+|  |  +- (io.fabric8:fabric8-utils:jar:3.0.12:compile - omitted for duplicate)
+|  |  +- javax.ws.rs:javax.ws.rs-api:jar:2.0.1:compile
+|  |  +- (com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:jar:2.7.4:compile - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.12:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:jar:2.7.4:compile - omitted for duplicate)
+|  +- (org.apache.cxf:cxf-rt-rs-client:jar:3.1.11:compile - omitted for duplicate)
+|  +- net.oauth.core:oauth:jar:20100527:compile
+|  \- org.slf4j:slf4j-api:jar:1.7.12:compile
++- com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.7.4:compile
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.7.4:compile
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.7.4:compile
+|  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.7.4:compile - version managed from 2.8.8; omitted for duplicate)
++- com.fasterxml.jackson.core:jackson-databind:jar:2.7.4:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.7.4:compile - version managed from 2.7.0; omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.7.4:compile - version managed from 2.8.8; omitted for duplicate)
++- com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:jar:2.7.4:compile
+|  +- com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:jar:2.8.8:compile (version managed from 2.7.4)
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.7.4:compile - version managed from 2.8.8; omitted for duplicate)
+|  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.7.4:compile - version managed from 2.8.8; omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.7.4:compile - version managed from 2.8.8; omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.7.4:compile - version managed from 2.8.8; omitted for duplicate)
+|  \- (com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.7.4:compile - omitted for duplicate)
++- org.apache.cxf:cxf-rt-rs-client:jar:3.1.11:compile
+|  +- org.apache.cxf:cxf-rt-transports-http:jar:3.1.11:compile
+|  |  \- (org.apache.cxf:cxf-core:jar:3.1.11:compile - omitted for duplicate)
+|  +- org.apache.cxf:cxf-core:jar:3.1.11:compile
+|  |  +- org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1:compile
+|  |  |  \- org.codehaus.woodstox:stax2-api:jar:3.1.4:compile
+|  |  \- org.apache.ws.xmlschema:xmlschema-core:jar:2.2.1:compile
+|  \- org.apache.cxf:cxf-rt-frontend-jaxrs:jar:3.1.11:compile
+|     +- (org.apache.cxf:cxf-core:jar:3.1.11:compile - omitted for duplicate)
+|     +- (javax.ws.rs:javax.ws.rs-api:jar:2.0.1:compile - omitted for duplicate)
+|     +- javax.annotation:javax.annotation-api:jar:1.2:compile
+|     \- (org.apache.cxf:cxf-rt-transports-http:jar:3.1.11:compile - omitted for duplicate)
++- io.fabric8:kubernetes-api:jar:3.0.12:compile
+|  +- javax.validation:validation-api:jar:1.1.0.Final:compile
+|  +- io.fabric8:openshift-client:jar:3.1.12:compile
+|  |  \- io.fabric8:kubernetes-client:jar:3.1.12:compile
+|  |     +- io.fabric8:kubernetes-model:jar:2.0.9:compile
+|  |     |  +- (com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.7.4:compile - version managed from 2.7.5; omitted for duplicate)
+|  |     |  \- (javax.validation:validation-api:jar:1.1.0.Final:compile - omitted for duplicate)
+|  |     +- com.squareup.okhttp3:okhttp:jar:3.9.1:compile
+|  |     |  \- com.squareup.okio:okio:jar:1.13.0:compile
+|  |     +- com.squareup.okhttp3:logging-interceptor:jar:3.9.1:compile
+|  |     |  \- (com.squareup.okhttp3:okhttp:jar:3.9.1:compile - omitted for duplicate)
+|  |     +- (org.slf4j:slf4j-api:jar:1.7.12:compile - version managed from 1.7.13; omitted for duplicate)
+|  |     +- org.slf4j:jul-to-slf4j:jar:1.7.12:compile (version managed from 1.7.13)
+|  |     |  \- (org.slf4j:slf4j-api:jar:1.7.12:compile - version managed from 1.7.13; omitted for duplicate)
+|  |     +- (com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.7.4:compile - version managed from 2.7.7; omitted for duplicate)
+|  |     +- (com.fasterxml.jackson.core:jackson-databind:jar:2.7.4:compile - version managed from 2.7.7; omitted for duplicate)
+|  |     +- (com.fasterxml.jackson.core:jackson-core:jar:2.7.4:compile - version managed from 2.7.7; omitted for duplicate)
+|  |     +- io.fabric8:zjsonpatch:jar:0.3.0:compile
+|  |     |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.7.4:compile - version managed from 2.3.2; omitted for duplicate)
+|  |     |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.7.4:compile - version managed from 2.3.2; omitted for duplicate)
+|  |     \- com.github.mifmif:generex:jar:1.0.1:compile
+|  |        \- dk.brics.automaton:automaton:jar:1.11-8:compile
+|  +- (io.fabric8:fabric8-utils:jar:3.0.12:compile - omitted for duplicate)
+|  +- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.7.4:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.7.4:compile - version managed from 2.3.2; omitted for duplicate)
+|  |  \- org.yaml:snakeyaml:jar:1.19:compile (version managed from 1.15)
+|  +- org.json:json:jar:20160212:compile
+|  +- dnsjava:dnsjava:jar:2.1.8:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.12:compile - version managed from 1.7.13; omitted for duplicate)
++- org.assertj:assertj-core:jar:2.4.1:test
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
+\- io.fabric8:fabric8-apt:jar:3.0.12:provided
+   +- (org.slf4j:slf4j-api:jar:1.7.12:provided - version managed from 1.7.13; omitted for duplicate)
+   \- org.apache.deltaspike.core:deltaspike-core-api:jar:1.7.2:provided

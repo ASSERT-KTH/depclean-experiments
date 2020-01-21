@@ -1,0 +1,53 @@
+org.n52.sensorweb:52n-xml-inspire-ad-v40:jar:2.4.0
++- org.apache.xmlbeans:xmlbeans:jar:2.6.0:compile
+|  \- stax:stax-api:jar:1.0.1:compile
++- org.n52.sensorweb:52n-inspire-schema:jar:2.4.0:provided
++- org.n52.sensorweb:52n-xml-inspire-au-v40:jar:2.4.0:compile
+|  +- (org.apache.xmlbeans:xmlbeans:jar:2.6.0:compile - omitted for duplicate)
+|  +- (org.n52.sensorweb:52n-xml-inspire-base-v33:jar:2.4.0:compile - omitted for duplicate)
+|  +- (org.n52.sensorweb:52n-xml-inspire-gn-v40:jar:2.4.0:compile - omitted for duplicate)
+|  +- org.n52.sensorweb:52n-xml-gmd-v20120713:jar:2.4.0:compile
+|  |  +- (org.apache.xmlbeans:xmlbeans:jar:2.6.0:compile - omitted for duplicate)
+|  |  \- org.n52.sensorweb:52n-xml-gco-v20120713:jar:2.4.0:compile
+|  |     +- (org.apache.xmlbeans:xmlbeans:jar:2.6.0:compile - omitted for duplicate)
+|  |     \- (org.n52.sensorweb:52n-xml-gml-v321:jar:2.4.0:compile - omitted for duplicate)
+|  \- (org.n52.sensorweb:52n-xml-gml-v321:jar:2.4.0:compile - omitted for duplicate)
++- org.n52.sensorweb:52n-xml-inspire-base-v33:jar:2.4.0:compile
+|  +- (org.apache.xmlbeans:xmlbeans:jar:2.6.0:compile - omitted for duplicate)
+|  +- (org.n52.sensorweb:52n-xml-gml-v321:jar:2.4.0:compile - omitted for duplicate)
+|  \- (org.n52.sensorweb:52n-xml-gmd-v20120713:jar:2.4.0:compile - omitted for duplicate)
++- org.n52.sensorweb:52n-xml-inspire-bu-base-v40:jar:2.4.0:compile
+|  +- (org.apache.xmlbeans:xmlbeans:jar:2.6.0:compile - omitted for duplicate)
+|  +- (org.n52.sensorweb:52n-xml-inspire-base-v33:jar:2.4.0:compile - omitted for duplicate)
+|  +- org.n52.sensorweb:52n-xml-portele:jar:2.4.0:compile
+|  |  \- (org.apache.xmlbeans:xmlbeans:jar:2.6.0:compile - omitted for duplicate)
+|  +- (org.n52.sensorweb:52n-xml-inspire-gn-v40:jar:2.4.0:compile - omitted for duplicate)
+|  +- (org.n52.sensorweb:52n-xml-gmd-v20120713:jar:2.4.0:compile - omitted for duplicate)
+|  \- (org.n52.sensorweb:52n-xml-gml-v321:jar:2.4.0:compile - omitted for duplicate)
++- org.n52.sensorweb:52n-xml-inspire-cp-v40:jar:2.4.0:compile
+|  +- (org.apache.xmlbeans:xmlbeans:jar:2.6.0:compile - omitted for duplicate)
+|  +- (org.n52.sensorweb:52n-xml-inspire-au-v40:jar:2.4.0:compile - omitted for duplicate)
+|  +- (org.n52.sensorweb:52n-xml-inspire-base-v33:jar:2.4.0:compile - omitted for duplicate)
+|  +- (org.n52.sensorweb:52n-xml-inspire-gn-v40:jar:2.4.0:compile - omitted for duplicate)
+|  +- (org.n52.sensorweb:52n-xml-gmd-v20120713:jar:2.4.0:compile - omitted for duplicate)
+|  \- (org.n52.sensorweb:52n-xml-gml-v321:jar:2.4.0:compile - omitted for duplicate)
++- org.n52.sensorweb:52n-xml-inspire-gn-v40:jar:2.4.0:compile
+|  +- (org.apache.xmlbeans:xmlbeans:jar:2.6.0:compile - omitted for duplicate)
+|  +- (org.n52.sensorweb:52n-xml-inspire-base-v33:jar:2.4.0:compile - omitted for duplicate)
+|  +- (org.n52.sensorweb:52n-xml-gmd-v20120713:jar:2.4.0:compile - omitted for duplicate)
+|  \- (org.n52.sensorweb:52n-xml-gml-v321:jar:2.4.0:compile - omitted for duplicate)
++- org.n52.sensorweb:52n-xml-inspire-tn-v40:jar:2.4.0:compile
+|  +- (org.apache.xmlbeans:xmlbeans:jar:2.6.0:compile - omitted for duplicate)
+|  +- (org.n52.sensorweb:52n-xml-inspire-base-v33:jar:2.4.0:compile - omitted for duplicate)
+|  +- (org.n52.sensorweb:52n-xml-inspire-gn-v40:jar:2.4.0:compile - omitted for duplicate)
+|  +- org.n52.sensorweb:52n-xml-inspire-net-v40:jar:2.4.0:compile
+|  |  +- (org.apache.xmlbeans:xmlbeans:jar:2.6.0:compile - omitted for duplicate)
+|  |  +- (org.n52.sensorweb:52n-xml-inspire-base-v33:jar:2.4.0:compile - omitted for duplicate)
+|  |  +- (org.n52.sensorweb:52n-xml-inspire-gn-v40:jar:2.4.0:compile - omitted for duplicate)
+|  |  \- (org.n52.sensorweb:52n-xml-gml-v321:jar:2.4.0:compile - omitted for duplicate)
+|  +- (org.n52.sensorweb:52n-xml-gmd-v20120713:jar:2.4.0:compile - omitted for duplicate)
+|  \- (org.n52.sensorweb:52n-xml-gml-v321:jar:2.4.0:compile - omitted for duplicate)
+\- org.n52.sensorweb:52n-xml-gml-v321:jar:2.4.0:compile
+   +- (org.apache.xmlbeans:xmlbeans:jar:2.6.0:compile - omitted for duplicate)
+   \- org.n52.sensorweb:52n-xml-xlink-v110:jar:2.4.0:compile
+      \- (org.apache.xmlbeans:xmlbeans:jar:2.6.0:compile - omitted for duplicate)

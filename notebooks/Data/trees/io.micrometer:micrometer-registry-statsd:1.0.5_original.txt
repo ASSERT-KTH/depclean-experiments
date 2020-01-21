@@ -1,0 +1,4 @@
+io.micrometer:micrometer-registry-statsd:jar:1.0.5
+\- io.micrometer:micrometer-core:jar:1.0.5:compile
+   +- org.hdrhistogram:HdrHistogram:jar:2.1.10:compile
+   \- org.latencyutils:LatencyUtils:jar:2.0.3:compile

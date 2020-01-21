@@ -1,0 +1,33 @@
+org.springframework.integration:spring-integration-sftp:jar:5.0.6.RELEASE
++- org.springframework.integration:spring-integration-file:jar:5.0.6.RELEASE:compile
+|  +- org.springframework.integration:spring-integration-core:jar:5.0.6.RELEASE:compile
+|  |  +- (org.springframework:spring-core:jar:5.0.7.RELEASE:compile - omitted for duplicate)
+|  |  +- org.springframework:spring-aop:jar:5.0.7.RELEASE:compile
+|  |  |  +- (org.springframework:spring-beans:jar:5.0.7.RELEASE:compile - omitted for duplicate)
+|  |  |  \- (org.springframework:spring-core:jar:5.0.7.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-context:jar:5.0.7.RELEASE:compile - omitted for duplicate)
+|  |  +- org.springframework:spring-messaging:jar:5.0.7.RELEASE:compile
+|  |  |  +- (org.springframework:spring-beans:jar:5.0.7.RELEASE:compile - omitted for duplicate)
+|  |  |  \- (org.springframework:spring-core:jar:5.0.7.RELEASE:compile - omitted for duplicate)
+|  |  +- org.springframework:spring-tx:jar:5.0.7.RELEASE:compile
+|  |  |  +- (org.springframework:spring-beans:jar:5.0.7.RELEASE:compile - omitted for duplicate)
+|  |  |  \- (org.springframework:spring-core:jar:5.0.7.RELEASE:compile - omitted for duplicate)
+|  |  +- org.springframework.retry:spring-retry:jar:1.2.2.RELEASE:compile
+|  |  \- io.projectreactor:reactor-core:jar:3.1.6.RELEASE:compile
+|  |     \- org.reactivestreams:reactive-streams:jar:1.0.2:compile
+|  \- commons-io:commons-io:jar:2.4:compile
++- org.springframework.integration:spring-integration-stream:jar:5.0.6.RELEASE:compile
+|  \- (org.springframework.integration:spring-integration-core:jar:5.0.6.RELEASE:compile - omitted for duplicate)
++- com.jcraft:jsch:jar:0.1.54:compile
++- org.springframework:spring-context-support:jar:5.0.7.RELEASE:compile
+|  +- org.springframework:spring-beans:jar:5.0.7.RELEASE:compile
+|  |  \- (org.springframework:spring-core:jar:5.0.7.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework:spring-context:jar:5.0.7.RELEASE:compile
+|  |  +- (org.springframework:spring-aop:jar:5.0.7.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-beans:jar:5.0.7.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-core:jar:5.0.7.RELEASE:compile - omitted for duplicate)
+|  |  \- org.springframework:spring-expression:jar:5.0.7.RELEASE:compile
+|  |     \- (org.springframework:spring-core:jar:5.0.7.RELEASE:compile - omitted for duplicate)
+|  \- org.springframework:spring-core:jar:5.0.7.RELEASE:compile
+|     \- org.springframework:spring-jcl:jar:5.0.7.RELEASE:compile
+\- javax.activation:activation:jar:1.1.1:compile

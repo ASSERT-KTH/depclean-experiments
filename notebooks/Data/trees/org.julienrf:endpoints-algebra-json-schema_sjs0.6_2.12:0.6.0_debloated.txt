@@ -1,0 +1,20 @@
+org.julienrf:endpoints-algebra-json-schema_sjs0.6_2.12:jar:0.6.0
++- org.scala-lang:scala-compiler:jar:2.12.6:runtime
+|  +- (org.scala-lang:scala-library:jar:2.12.6:runtime - omitted for duplicate)
+|  +- org.scala-lang:scala-reflect:jar:2.12.6:runtime
+|  |  \- (org.scala-lang:scala-library:jar:2.12.6:runtime - omitted for duplicate)
+|  \- org.scala-lang.modules:scala-xml_2.12:jar:1.0.6:runtime
+|     \- (org.scala-lang:scala-library:jar:2.12.0:runtime - omitted for conflict with 2.12.6)
++- org.scala-lang:scala-library:jar:2.12.6:compile
++- org.scala-js:scalajs-test-interface_2.12:jar:0.6.22:test
+|  +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for conflict with 2.12.6)
+|  \- (org.scala-js:scalajs-library_2.12:jar:0.6.22:test - omitted for duplicate)
+\- org.scalatest:scalatest_sjs0.6_2.12:jar:3.0.1:test
+   +- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.6)
+   +- org.scalactic:scalactic_sjs0.6_2.12:jar:3.0.1:test
+   |  +- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.6)
+   |  +- (org.scala-js:scalajs-library_2.12:jar:0.6.13:test - omitted for conflict with 0.6.22)
+   |  \- (org.scala-lang:scala-reflect:jar:2.12.0:test - omitted for conflict with 2.12.6)
+   +- (org.scala-js:scalajs-library_2.12:jar:0.6.13:test - omitted for conflict with 0.6.22)
+   +- (org.scala-js:scalajs-test-interface_2.12:jar:0.6.13:test - omitted for conflict with 0.6.22)
+   \- (org.scala-lang:scala-reflect:jar:2.12.0:test - omitted for conflict with 2.12.6)

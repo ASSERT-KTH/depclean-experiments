@@ -1,0 +1,55 @@
+com.github.ldeitos:extendedValidation:jar:1.0.02
++- com.github.ldeitos:extendedValidation-core:jar:1.0.02:compile
+|  +- (javax.validation:validation-api:jar:1.0.0.GA:compile - omitted for duplicate)
+|  \- (javax.enterprise:cdi-api:jar:1.1:compile - omitted for duplicate)
++- javax.validation:validation-api:jar:1.0.0.GA:compile
++- javax.enterprise:cdi-api:jar:1.1:compile
+|  +- javax.el:el-api:jar:2.2:compile
+|  +- org.jboss.spec.javax.interceptor:jboss-interceptors-api_1.1_spec:jar:1.0.0.Beta1:compile
+|  +- javax.annotation:jsr250-api:jar:1.0:compile
+|  \- javax.inject:javax.inject:jar:1:compile
++- com.github.ldeitos:cdi-util:jar:0.6.2:compile
+|  +- (javax.enterprise:cdi-api:jar:1.1:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for duplicate)
++- org.apache.commons:commons-collections4:jar:4.0:compile
++- commons-lang:commons-lang:jar:2.6:compile
++- commons-configuration:commons-configuration:jar:1.10:compile
+|  +- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+|  \- commons-logging:commons-logging:jar:1.1.1:compile
++- org.apache.commons:commons-lang3:jar:3.3.2:compile
++- net.sourceforge.collections:collections-generic:jar:4.01:compile
++- org.slf4j:slf4j-api:jar:1.7.7:compile
++- org.jglue.cdi-unit:cdi-unit:jar:2.0.8:test
+|  +- org.jboss.weld.se:weld-se-core:jar:1.1.10.Final:test
+|  |  +- org.jboss.weld:weld-spi:jar:1.1.Final:test
+|  |  |  +- (javax.enterprise:cdi-api:jar:1.1:compile - version managed from 1.0-SP3; scope managed from test; omitted for duplicate)
+|  |  |  \- org.jboss.weld:weld-api:jar:1.1.Final:test
+|  |  |     \- (javax.enterprise:cdi-api:jar:1.1:compile - version managed from 1.0-SP3; scope managed from test; omitted for duplicate)
+|  |  +- org.jboss.weld:weld-core:jar:1.1.10.Final:test
+|  |  |  +- (javax.enterprise:cdi-api:jar:1.1:compile - version managed from 1.0-SP4; scope managed from test; omitted for duplicate)
+|  |  |  +- (org.jboss.weld:weld-api:jar:1.1.Final:test - omitted for duplicate)
+|  |  |  +- (org.jboss.weld:weld-spi:jar:1.1.Final:test - omitted for duplicate)
+|  |  |  +- (javax.annotation:jsr250-api:jar:1.0:test - omitted for duplicate)
+|  |  |  +- org.javassist:javassist:jar:3.14.0-GA:test
+|  |  |  +- com.google.guava:guava:jar:11.0.2:test
+|  |  |  |  \- com.google.code.findbugs:jsr305:jar:1.3.9:test
+|  |  |  +- (org.jboss.spec.javax.interceptor:jboss-interceptors-api_1.1_spec:jar:1.0.0.Beta1:test - omitted for duplicate)
+|  |  |  +- org.slf4j:slf4j-ext:jar:1.6.1:test
+|  |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.7:compile - version managed from 1.6.1; scope managed from test; omitted for duplicate)
+|  |  |  |  \- (ch.qos.cal10n:cal10n-api:jar:0.7.4:test - omitted for conflict with 0.7.2)
+|  |  |  +- ch.qos.cal10n:cal10n-api:jar:0.7.2:test
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.7:compile - version managed from 1.6.1; scope managed from test; omitted for duplicate)
+|  |  +- (javax.enterprise:cdi-api:jar:1.1:compile - version managed from 1.0-SP4; scope managed from test; omitted for duplicate)
+|  |  +- (javax.el:el-api:jar:2.2:test - omitted for duplicate)
+|  |  \- (javax.annotation:jsr250-api:jar:1.0:test - omitted for duplicate)
+|  +- (junit:junit:jar:4.11:test - version managed from 4.8.2; omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.7:compile - version managed from 1.7.2; scope managed from test; omitted for duplicate)
+|  +- org.apache.deltaspike.core:deltaspike-core-impl:jar:0.3-incubating:test
+|  \- org.apache.deltaspike.core:deltaspike-core-api:jar:0.3-incubating:test
++- junit:junit:jar:4.11:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.hibernate:hibernate-validator:jar:4.3.2.Final:test
+|  +- (javax.validation:validation-api:jar:1.0.0.GA:compile - scope managed from test; omitted for duplicate)
+|  \- org.jboss.logging:jboss-logging:jar:3.1.0.CR2:test
+\- org.slf4j:slf4j-nop:jar:1.7.7:test
+   \- (org.slf4j:slf4j-api:jar:1.7.7:compile - version managed from 1.7.2; scope managed from test; omitted for duplicate)

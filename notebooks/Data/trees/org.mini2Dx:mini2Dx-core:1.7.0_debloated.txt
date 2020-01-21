@@ -1,0 +1,22 @@
+org.mini2Dx:mini2Dx-core:jar:1.7.0
++- com.badlogicgames.gdx:gdx:jar:1.9.6:compile
++- com.badlogicgames.gdx:gdx-freetype:jar:1.9.6:compile
+|  \- (com.badlogicgames.gdx:gdx:jar:1.9.6:compile - omitted for duplicate)
++- com.badlogicgames.gdx:gdx-controllers:jar:1.9.6:compile
+|  \- (com.badlogicgames.gdx:gdx:jar:1.9.6:compile - omitted for duplicate)
++- org.mini2Dx:natives-loader:jar:1.0.0:compile
++- org.apache.commons:commons-lang3:jar:3.1:compile
++- com.badlogicgames.gdx:gdx-backend-headless:jar:1.9.6:test
+|  \- (com.badlogicgames.gdx:gdx:jar:1.9.6:test - omitted for duplicate)
++- junit:junit:jar:4.8.1:test
++- org.jmock:jmock-junit4:jar:2.5.1:test
+|  +- org.jmock:jmock:jar:2.5.1:test
+|  |  +- org.hamcrest:hamcrest-core:jar:1.1:test
+|  |  \- org.hamcrest:hamcrest-library:jar:1.1:test
+|  |     \- (org.hamcrest:hamcrest-core:jar:1.1:test - omitted for duplicate)
+|  \- junit:junit-dep:jar:4.4:test
++- org.jmock:jmock-legacy:jar:2.5.1:test
+|  +- (org.jmock:jmock:jar:2.5.1:test - omitted for duplicate)
+|  +- org.objenesis:objenesis:jar:1.0:test
+|  \- cglib:cglib-nodep:jar:2.1_3:test
+\- net.jodah:concurrentunit:jar:0.4.2:test

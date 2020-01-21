@@ -1,0 +1,2 @@
+de.knutwalker:transducers-scala-api_2.12:jar:0.7.0
+\- org.scala-lang:scala-library:jar:2.12.5:compile

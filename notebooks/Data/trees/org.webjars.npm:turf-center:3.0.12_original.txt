@@ -1,0 +1,4 @@
+org.webjars.npm:turf-center:jar:3.0.12
++- org.webjars.npm:turf-bbox:jar:3.0.12:compile
+|  \- org.webjars.npm:turf-meta:jar:3.0.12:compile
+\- org.webjars.npm:turf-helpers:jar:3.0.12:compile

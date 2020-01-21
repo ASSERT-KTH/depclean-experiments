@@ -1,0 +1,76 @@
+org.bedework:bw-caldav-util:jar:4.0.3
++- org.bedework:bw-xml-caldav:jar:4.0.5:compile
++- org.bedework:bw-access:jar:4.0.1:compile
+|  +- org.bedework:bw-util-caching:jar:4.0.2:compile
+|  |  \- (log4j:log4j:jar:1.2.15:compile - omitted for duplicate)
+|  +- (org.bedework:bw-util-misc:jar:4.0.18:compile - version managed from 4.0.2; omitted for duplicate)
+|  +- org.bedework:bw-util-xml:jar:4.0.18:compile (version managed from 4.0.2)
+|  |  \- (org.bedework:bw-util-misc:jar:4.0.18:compile - version managed from 4.0.2; omitted for duplicate)
+|  +- junit:junit:jar:4.8.2:compile
+|  \- log4j:log4j:jar:1.2.15:compile
+|     \- javax.mail:mail:jar:1.4:compile
+|        \- javax.activation:activation:jar:1.1:compile
++- org.bedework:bw-util2-calendar:jar:4.0.0:compile
+|  +- (org.bedework:bw-xml-calws-soap:jar:4.0.5:compile - omitted for duplicate)
+|  +- org.bedework:bw-xml-icalendar:jar:4.0.5:compile
+|  +- (org.bedework:bw-util-misc:jar:4.0.18:compile - version managed from 4.0.2; omitted for duplicate)
+|  +- (org.bedework:bw-util-xml:jar:4.0.18:compile - version managed from 4.0.2; omitted for duplicate)
+|  +- (org.bedework.ical4j:ical4j:jar:2.0.3:compile - omitted for duplicate)
+|  \- com.fasterxml.jackson.core:jackson-databind:jar:2.3.1:compile
+|     +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.3.0:compile - omitted for conflict with 2.3.1)
+|     \- com.fasterxml.jackson.core:jackson-core:jar:2.3.1:compile
++- org.bedework:bw-util-misc:jar:4.0.18:compile
++- org.bedework:bw-util-timezones:jar:4.0.18:compile
+|  +- (org.bedework:bw-util-caching:jar:4.0.18:compile - omitted for conflict with 4.0.2)
+|  +- org.bedework:bw-util-http:jar:4.0.18:compile
+|  |  +- org.bedework:bw-util-config:jar:4.0.18:compile
+|  |  |  +- (org.bedework:bw-util-misc:jar:4.0.18:compile - version managed from 4.0.2; omitted for duplicate)
+|  |  |  \- (org.bedework:bw-util-xml:jar:4.0.18:compile - version managed from 4.0.2; omitted for duplicate)
+|  |  +- org.bedework:bw-util-jmx:jar:4.0.18:compile
+|  |  |  +- (org.bedework:bw-util-config:jar:4.0.18:compile - omitted for duplicate)
+|  |  |  \- (org.bedework:bw-util-misc:jar:4.0.18:compile - version managed from 4.0.2; omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.3:compile - omitted for conflict with 4.1.2)
+|  |  +- (org.apache.httpcomponents:httpcore:jar:4.4.8:compile - omitted for conflict with 4.1.2)
+|  |  \- (log4j:log4j:jar:1.2.15:compile - omitted for duplicate)
+|  +- (org.bedework:bw-util-misc:jar:4.0.18:compile - version managed from 4.0.2; omitted for duplicate)
+|  +- (org.bedework.ical4j:ical4j:jar:2.0.3:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.3.1:compile - omitted for duplicate)
+|  \- com.fasterxml.jackson.core:jackson-annotations:jar:2.3.1:compile
++- org.bedework:bw-webdav:jar:4.0.2:compile
+|  +- (org.bedework:bw-util-misc:jar:4.0.18:compile - version managed from 4.0.2; omitted for duplicate)
+|  +- (org.bedework:bw-util-xml:jar:4.0.18:compile - version managed from 4.0.2; omitted for duplicate)
+|  +- org.bedework:bw-util-servlet:jar:4.0.18:compile
+|  |  +- (org.bedework:bw-util-config:jar:4.0.18:compile - omitted for duplicate)
+|  |  +- (org.bedework:bw-util-misc:jar:4.0.18:compile - version managed from 4.0.2; omitted for duplicate)
+|  |  +- (org.bedework:bw-util-jmx:jar:4.0.18:compile - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.3.1:compile - omitted for duplicate)
+|  |  \- (log4j:log4j:jar:1.2.15:compile - omitted for duplicate)
+|  +- (org.bedework:bw-access:jar:4.0.1:compile - version managed from 4.0.2; omitted for duplicate)
+|  \- (log4j:log4j:jar:1.2.15:compile - omitted for duplicate)
++- org.bedework.ical4j:ical4j:jar:2.0.3:compile
+|  +- org.slf4j:slf4j-api:jar:1.7.10:compile
+|  +- org.apache.commons:commons-collections4:jar:4.0:compile
+|  +- org.codehaus.groovy:groovy-all:jar:2.3.2:compile
+|  +- biz.aQute.bnd:bndlib:jar:2.3.0:compile
+|  |  \- org.osgi:org.osgi.core:jar:4.3.1:compile
+|  +- org.apache.commons:commons-lang3:jar:3.3.2:compile
+|  \- (commons-codec:commons-codec:jar:1.5:compile - version managed from 1.4; omitted for duplicate)
++- org.bedework:apache-jdkim-library:jar:0.4:compile
+|  +- org.apache.geronimo.specs:geronimo-activation_1.1_spec:jar:1.0.2:compile
+|  +- org.apache.geronimo.javamail:geronimo-javamail_1.4_mail:jar:1.6:compile
+|  +- org.apache.james:apache-mailet-base:jar:1.1:compile
+|  |  \- (org.apache.james:apache-mailet:jar:2.4:compile - omitted for duplicate)
+|  +- org.apache.james:apache-mailet:jar:2.4:compile
+|  +- org.apache.james:apache-mime4j-core:jar:0.7:compile
+|  +- org.apache.james:apache-mime4j-dom:jar:0.7:compile
+|  |  \- (org.apache.james:apache-mime4j-core:jar:0.7:compile - omitted for duplicate)
+|  +- (log4j:log4j:jar:1.2.15:runtime - version managed from 1.2.16; omitted for duplicate)
+|  +- dnsjava:dnsjava:jar:2.1.1:compile
+|  |  \- (junit:junit:jar:3.8.2:compile - omitted for conflict with 4.8.2)
+|  +- org.apache.httpcomponents:httpclient:jar:4.1.2:compile
+|  |  +- (org.apache.httpcomponents:httpcore:jar:4.1.2:compile - omitted for conflict with 4.4.8)
+|  |  +- commons-logging:commons-logging:jar:1.1.1:compile
+|  |  \- (commons-codec:commons-codec:jar:1.5:compile - version managed from 1.4; omitted for duplicate)
+|  \- org.apache.httpcomponents:httpcore:jar:4.1.2:compile
++- commons-codec:commons-codec:jar:1.5:compile
+\- javax.servlet:servlet-api:jar:2.5:provided

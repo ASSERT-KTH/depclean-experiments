@@ -1,0 +1,151 @@
+org.julienrf:endpoints-openapi_sjs0.6_2.11:jar:0.5.0
++- org.scala-lang:scala-compiler:jar:2.11.12:runtime
+|  +- (org.scala-lang:scala-library:jar:2.11.12:runtime - omitted for duplicate)
+|  +- (org.scala-lang:scala-reflect:jar:2.11.12:compile - scope updated from runtime; omitted for duplicate)
+|  +- org.scala-lang.modules:scala-xml_2.11:jar:1.0.5:runtime
+|  |  \- (org.scala-lang:scala-library:jar:2.11.7:runtime - omitted for conflict with 2.11.12)
+|  \- org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.0.4:runtime
+|     \- (org.scala-lang:scala-library:jar:2.11.6:runtime - omitted for conflict with 2.11.12)
++- org.scala-lang:scala-library:jar:2.11.12:compile
++- org.julienrf:endpoints-openapi-json-schema_sjs0.6_2.11:jar:0.5.0:compile
+|  +- (org.scala-lang:scala-compiler:jar:2.11.12:runtime - omitted for duplicate)
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  \- (org.scala-js:scalajs-library_2.11:jar:0.6.22:compile - omitted for duplicate)
++- org.julienrf:endpoints-testsuite_sjs0.6_2.11:jar:0.5.0:test
+|  +- (org.scala-lang:scala-compiler:jar:2.11.12:test - omitted for duplicate)
+|  +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|  +- (org.julienrf:endpoints-algebra_sjs0.6_2.11:jar:0.5.0:test - omitted for duplicate)
+|  +- org.julienrf:endpoints-algebra-circe_sjs0.6_2.11:jar:0.5.0:test
+|  |  +- (org.scala-lang:scala-compiler:jar:2.11.12:test - omitted for duplicate)
+|  |  +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|  |  +- (org.julienrf:endpoints-algebra_sjs0.6_2.11:jar:0.5.0:test - omitted for duplicate)
+|  |  +- (org.scala-js:scalajs-library_2.11:jar:0.6.22:test - omitted for duplicate)
+|  |  \- io.circe:circe-parser_sjs0.6_2.11:jar:0.8.0:test
+|  |     +- (org.scala-lang:scala-library:jar:2.11.11:test - omitted for conflict with 2.11.12)
+|  |     +- io.circe:circe-scalajs_sjs0.6_2.11:jar:0.8.0:test
+|  |     |  +- (org.scala-lang:scala-library:jar:2.11.11:test - omitted for conflict with 2.11.12)
+|  |     |  +- (io.circe:circe-core_sjs0.6_2.11:jar:0.8.0:test - omitted for duplicate)
+|  |     |  \- (org.scala-js:scalajs-library_2.11:jar:0.6.16:test - omitted for conflict with 0.6.22)
+|  |     +- (io.circe:circe-core_sjs0.6_2.11:jar:0.8.0:test - omitted for duplicate)
+|  |     \- (org.scala-js:scalajs-library_2.11:jar:0.6.16:test - omitted for conflict with 0.6.22)
+|  +- org.julienrf:endpoints-algebra-playjson_sjs0.6_2.11:jar:0.5.0:test
+|  |  +- (org.scala-lang:scala-compiler:jar:2.11.12:test - omitted for duplicate)
+|  |  +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|  |  +- (org.julienrf:endpoints-algebra_sjs0.6_2.11:jar:0.5.0:test - omitted for duplicate)
+|  |  +- (org.scala-js:scalajs-library_2.11:jar:0.6.22:test - omitted for duplicate)
+|  |  \- com.typesafe.play:play-json_sjs0.6_2.11:jar:2.6.7:test
+|  |     +- (org.scala-lang:scala-library:jar:2.11.11:test - omitted for conflict with 2.11.12)
+|  |     +- com.typesafe.play:play-functional_sjs0.6_2.11:jar:2.6.7:test
+|  |     |  +- (org.scala-lang:scala-library:jar:2.11.11:test - omitted for conflict with 2.11.12)
+|  |     |  \- (org.scala-js:scalajs-library_2.11:jar:0.6.18:test - omitted for conflict with 0.6.22)
+|  |     +- (org.scala-js:scalajs-library_2.11:jar:0.6.18:test - omitted for conflict with 0.6.22)
+|  |     +- (org.scala-lang:scala-reflect:jar:2.11.11:test - omitted for conflict with 2.11.12)
+|  |     \- (org.typelevel:macro-compat_2.11:jar:1.1.1:compile - scope updated from test; omitted for duplicate)
+|  +- (org.scala-js:scalajs-library_2.11:jar:0.6.22:test - omitted for duplicate)
+|  +- io.circe:circe-generic_sjs0.6_2.11:jar:0.8.0:test
+|  |  +- (org.scala-lang:scala-library:jar:2.11.11:test - omitted for conflict with 2.11.12)
+|  |  +- (io.circe:circe-core_sjs0.6_2.11:jar:0.8.0:test - omitted for duplicate)
+|  |  +- (org.scala-js:scalajs-library_2.11:jar:0.6.16:test - omitted for conflict with 0.6.22)
+|  |  +- org.typelevel:macro-compat_sjs0.6_2.11:jar:1.1.1:test
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.7:test - omitted for conflict with 2.11.12)
+|  |  |  \- (org.scala-js:scalajs-library_2.11:jar:0.6.7:test - omitted for conflict with 0.6.22)
+|  |  \- com.chuusai:shapeless_sjs0.6_2.11:jar:2.3.2:test
+|  |     +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.12)
+|  |     +- (org.scala-js:scalajs-library_2.11:jar:0.6.10:test - omitted for conflict with 0.6.22)
+|  |     \- (org.typelevel:macro-compat_2.11:jar:1.1.1:test - omitted for duplicate)
+|  +- com.github.tomakehurst:wiremock:jar:2.6.0:test
+|  |  +- org.eclipse.jetty:jetty-server:jar:9.2.13.v20150730:test
+|  |  |  +- javax.servlet:javax.servlet-api:jar:3.1.0:test
+|  |  |  +- org.eclipse.jetty:jetty-http:jar:9.2.13.v20150730:test
+|  |  |  |  \- (org.eclipse.jetty:jetty-util:jar:9.2.13.v20150730:test - omitted for duplicate)
+|  |  |  \- org.eclipse.jetty:jetty-io:jar:9.2.13.v20150730:test
+|  |  |     \- (org.eclipse.jetty:jetty-util:jar:9.2.13.v20150730:test - omitted for duplicate)
+|  |  +- org.eclipse.jetty:jetty-servlet:jar:9.2.13.v20150730:test
+|  |  |  \- org.eclipse.jetty:jetty-security:jar:9.2.13.v20150730:test
+|  |  |     \- (org.eclipse.jetty:jetty-server:jar:9.2.13.v20150730:test - omitted for duplicate)
+|  |  +- org.eclipse.jetty:jetty-servlets:jar:9.2.13.v20150730:test
+|  |  |  +- org.eclipse.jetty:jetty-continuation:jar:9.2.13.v20150730:test
+|  |  |  +- (org.eclipse.jetty:jetty-http:jar:9.2.13.v20150730:test - omitted for duplicate)
+|  |  |  +- org.eclipse.jetty:jetty-util:jar:9.2.13.v20150730:test
+|  |  |  \- (org.eclipse.jetty:jetty-io:jar:9.2.13.v20150730:test - omitted for duplicate)
+|  |  +- org.eclipse.jetty:jetty-webapp:jar:9.2.13.v20150730:test
+|  |  |  +- org.eclipse.jetty:jetty-xml:jar:9.2.13.v20150730:test
+|  |  |  |  \- (org.eclipse.jetty:jetty-util:jar:9.2.13.v20150730:test - omitted for duplicate)
+|  |  |  \- (org.eclipse.jetty:jetty-servlet:jar:9.2.13.v20150730:test - omitted for duplicate)
+|  |  +- com.google.guava:guava:jar:18.0:test
+|  |  +- com.fasterxml.jackson.core:jackson-core:jar:2.6.1:test
+|  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.6.1:test
+|  |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.6.1:test
+|  |  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.6.0:test - omitted for conflict with 2.6.1)
+|  |  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.6.1:test - omitted for duplicate)
+|  |  +- org.apache.httpcomponents:httpclient:jar:4.5.1:test
+|  |  |  +- org.apache.httpcomponents:httpcore:jar:4.4.3:test
+|  |  |  +- commons-logging:commons-logging:jar:1.2:test
+|  |  |  \- commons-codec:commons-codec:jar:1.9:test
+|  |  +- org.xmlunit:xmlunit-core:jar:2.3.0:test
+|  |  +- org.xmlunit:xmlunit-legacy:jar:2.3.0:test
+|  |  |  +- (org.xmlunit:xmlunit-core:jar:2.3.0:test - omitted for duplicate)
+|  |  |  \- (junit:junit:jar:3.8.1:test - omitted for conflict with 4.12)
+|  |  +- com.jayway.jsonpath:json-path:jar:2.2.0:test
+|  |  |  +- net.minidev:json-smart:jar:2.2.1:test
+|  |  |  |  \- net.minidev:accessors-smart:jar:1.1:test
+|  |  |  |     \- org.ow2.asm:asm:jar:5.0.3:test
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.16:test - omitted for conflict with 1.7.12)
+|  |  +- org.slf4j:slf4j-api:jar:1.7.12:test
+|  |  +- net.sf.jopt-simple:jopt-simple:jar:4.9:test
+|  |  +- junit:junit:jar:4.12:test
+|  |  +- org.apache.commons:commons-lang3:jar:3.4:test
+|  |  +- com.flipkart.zjsonpatch:zjsonpatch:jar:0.3.0:test
+|  |  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.5:test - omitted for conflict with 2.6.1)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.5:test - omitted for conflict with 2.6.1)
+|  |  |  +- (com.google.guava:guava:jar:18.0:test - omitted for duplicate)
+|  |  |  \- org.apache.commons:commons-collections4:jar:4.1:test
+|  |  \- com.github.jknack:handlebars:jar:4.0.6:test
+|  |     +- (org.apache.commons:commons-lang3:jar:3.1:test - omitted for conflict with 3.4)
+|  |     +- org.antlr:antlr4-runtime:jar:4.5.1-1:test
+|  |     \- (org.slf4j:slf4j-api:jar:1.6.4:test - omitted for conflict with 1.7.12)
+|  \- org.scalatest:scalatest_sjs0.6_2.11:jar:3.0.1:test
+|     +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.12)
+|     +- org.scalactic:scalactic_sjs0.6_2.11:jar:3.0.1:test
+|     |  +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.12)
+|     |  +- (org.scala-js:scalajs-library_2.11:jar:0.6.13:test - omitted for conflict with 0.6.22)
+|     |  \- (org.scala-lang:scala-reflect:jar:2.11.8:test - omitted for conflict with 2.11.12)
+|     +- (org.scala-js:scalajs-library_2.11:jar:0.6.13:test - omitted for conflict with 0.6.22)
+|     +- (org.scala-js:scalajs-test-interface_2.11:jar:0.6.13:test - omitted for conflict with 0.6.22)
+|     \- (org.scala-lang:scala-reflect:jar:2.11.8:test - omitted for conflict with 2.11.12)
++- org.julienrf:endpoints-algebra_sjs0.6_2.11:jar:0.5.0:compile
+|  +- (org.scala-lang:scala-compiler:jar:2.11.12:runtime - omitted for duplicate)
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  \- (org.scala-js:scalajs-library_2.11:jar:0.6.22:compile - omitted for duplicate)
++- org.scala-js:scalajs-library_2.11:jar:0.6.22:compile
+|  \- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
++- org.scala-js:scalajs-test-interface_2.11:jar:0.6.22:test
+|  +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|  \- (org.scala-js:scalajs-library_2.11:jar:0.6.22:test - omitted for duplicate)
+\- io.circe:circe-core_sjs0.6_2.11:jar:0.8.0:compile
+   +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
+   +- io.circe:circe-numbers_sjs0.6_2.11:jar:0.8.0:compile
+   |  +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
+   |  \- (org.scala-js:scalajs-library_2.11:jar:0.6.16:compile - omitted for conflict with 0.6.22)
+   +- (org.scala-js:scalajs-library_2.11:jar:0.6.16:compile - omitted for conflict with 0.6.22)
+   \- org.typelevel:cats-core_sjs0.6_2.11:jar:0.9.0:compile
+      +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.12)
+      +- org.typelevel:cats-macros_sjs0.6_2.11:jar:0.9.0:compile
+      |  +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.12)
+      |  +- (org.scala-js:scalajs-library_2.11:jar:0.6.14:compile - omitted for conflict with 0.6.22)
+      |  +- (com.github.mpilquist:simulacrum_sjs0.6_2.11:jar:0.10.0:compile - omitted for duplicate)
+      |  \- (org.typelevel:machinist_sjs0.6_2.11:jar:0.6.1:compile - omitted for duplicate)
+      +- org.typelevel:cats-kernel_sjs0.6_2.11:jar:0.9.0:compile
+      |  +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.12)
+      |  \- (org.scala-js:scalajs-library_2.11:jar:0.6.14:compile - omitted for conflict with 0.6.22)
+      +- (org.scala-js:scalajs-library_2.11:jar:0.6.14:compile - omitted for conflict with 0.6.22)
+      +- com.github.mpilquist:simulacrum_sjs0.6_2.11:jar:0.10.0:compile
+      |  +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.12)
+      |  +- (org.scala-js:scalajs-library_2.11:jar:0.6.13:compile - omitted for conflict with 0.6.22)
+      |  \- org.typelevel:macro-compat_2.11:jar:1.1.1:compile
+      |     \- (org.scala-lang:scala-library:jar:2.11.7:compile - omitted for conflict with 2.11.12)
+      \- org.typelevel:machinist_sjs0.6_2.11:jar:0.6.1:compile
+         +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.12)
+         +- (org.scala-js:scalajs-library_2.11:jar:0.6.13:compile - omitted for conflict with 0.6.22)
+         \- org.scala-lang:scala-reflect:jar:2.11.8:compile
+            \- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.12)

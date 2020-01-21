@@ -1,0 +1,756 @@
+io.apiman:apiman-gateway-platforms-vertx3:jar:1.3.2.Final
++- io.vertx:vertx-core:jar:3.4.2:compile
+|  +- io.netty:netty-common:jar:4.1.8.Final:compile
+|  +- io.netty:netty-buffer:jar:4.1.8.Final:compile
+|  |  \- (io.netty:netty-common:jar:4.1.8.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-transport:jar:4.1.8.Final:compile
+|  |  +- (io.netty:netty-buffer:jar:4.1.8.Final:compile - omitted for duplicate)
+|  |  \- (io.netty:netty-resolver:jar:4.1.8.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-handler:jar:4.1.8.Final:compile
+|  |  +- (io.netty:netty-buffer:jar:4.1.8.Final:compile - omitted for duplicate)
+|  |  +- (io.netty:netty-transport:jar:4.1.8.Final:compile - omitted for duplicate)
+|  |  \- (io.netty:netty-codec:jar:4.1.8.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-handler-proxy:jar:4.1.8.Final:compile
+|  |  +- (io.netty:netty-transport:jar:4.1.8.Final:compile - omitted for duplicate)
+|  |  +- io.netty:netty-codec-socks:jar:4.1.8.Final:compile
+|  |  |  \- (io.netty:netty-codec:jar:4.1.8.Final:compile - omitted for duplicate)
+|  |  \- (io.netty:netty-codec-http:jar:4.1.8.Final:compile - omitted for duplicate)
+|  +- (io.netty:netty-codec-http:jar:4.1.8.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-codec-http2:jar:4.1.8.Final:compile
+|  |  +- (io.netty:netty-codec-http:jar:4.1.8.Final:compile - omitted for duplicate)
+|  |  \- (io.netty:netty-handler:jar:4.1.8.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-resolver:jar:4.1.8.Final:compile
+|  |  \- (io.netty:netty-common:jar:4.1.8.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-resolver-dns:jar:4.1.8.Final:compile
+|  |  +- (io.netty:netty-resolver:jar:4.1.8.Final:compile - omitted for duplicate)
+|  |  +- io.netty:netty-codec-dns:jar:4.1.8.Final:compile
+|  |  |  \- (io.netty:netty-codec:jar:4.1.8.Final:compile - omitted for duplicate)
+|  |  \- (io.netty:netty-transport:jar:4.1.8.Final:compile - omitted for duplicate)
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.9.5:compile (version managed from 2.7.4)
+|  \- com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile (version managed from 2.7.4)
+|     +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.5:compile - version managed from 2.9.0; omitted for duplicate)
+|     \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.5:compile - version managed from 2.7.4; omitted for duplicate)
++- io.vertx:vertx-hazelcast:jar:3.4.2:compile
+|  +- (io.vertx:vertx-core:jar:3.4.2:compile - omitted for duplicate)
+|  \- com.hazelcast:hazelcast:jar:3.6.4:compile (version managed from 3.6.3)
++- io.vertx:vertx-service-proxy:jar:3.4.2:compile
+|  +- (io.vertx:vertx-core:jar:3.4.2:compile - omitted for duplicate)
+|  \- io.vertx:vertx-lang-js:jar:3.4.2:compile
+|     \- (io.vertx:vertx-core:jar:3.4.2:compile - omitted for duplicate)
++- io.vertx:vertx-codegen:jar:3.4.2:compile
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.5:compile - version managed from 2.7.4; omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile - version managed from 2.7.4; omitted for duplicate)
+|  \- org.mvel:mvel2:jar:2.2.7.Final:compile (version managed from 2.2.8.Final)
++- io.vertx:vertx-web:jar:3.4.2:compile
+|  +- (io.vertx:vertx-auth-common:jar:3.4.2:compile - omitted for duplicate)
+|  \- (io.vertx:vertx-core:jar:3.4.2:compile - omitted for duplicate)
++- io.vertx:vertx-jdbc-client:jar:3.4.2:compile
+|  +- (io.vertx:vertx-sql-common:jar:3.4.2:compile - omitted for duplicate)
+|  \- com.mchange:c3p0:jar:0.9.5.2:compile
+|     \- com.mchange:mchange-commons-java:jar:0.2.11:compile
++- io.vertx:vertx-auth-common:jar:3.4.2:compile
+|  \- (io.vertx:vertx-core:jar:3.4.2:compile - omitted for duplicate)
++- io.vertx:vertx-auth-oauth2:jar:3.4.2:compile
+|  +- (io.vertx:vertx-auth-common:jar:3.4.2:compile - omitted for duplicate)
+|  +- io.vertx:vertx-jwt:jar:3.4.2:compile
+|  |  \- (io.vertx:vertx-core:jar:3.4.2:compile - omitted for duplicate)
+|  \- (io.vertx:vertx-core:jar:3.4.2:compile - omitted for duplicate)
++- io.vertx:vertx-sql-common:jar:3.4.2:compile
++- org.jboss.resteasy:resteasy-jaxrs:jar:3.1.4.Final:compile
+|  +- (org.jboss.spec.javax.ws.rs:jboss-jaxrs-api_2.0_spec:jar:1.0.0.Final:compile - version managed from 1.0.1.Beta1; omitted for duplicate)
+|  +- org.jboss.resteasy:resteasy-jaxrs-services:jar:3.1.4.Final:compile
+|  +- org.jboss.spec.javax.annotation:jboss-annotations-api_1.2_spec:jar:1.0.0.Final:compile
+|  +- javax.activation:activation:jar:1.1.1:compile
+|  +- org.apache.httpcomponents:httpclient:jar:4.5.3:compile (version managed from 4.5.2)
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.4.1:compile (version managed from 4.4.6)
+|  |  +- commons-logging:commons-logging:jar:1.2:compile
+|  |  \- (commons-codec:commons-codec:jar:1.10:compile - version managed from 1.9; omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.4:compile - version managed from 2.5; omitted for duplicate)
+|  +- net.jcip:jcip-annotations:jar:1.0:compile
+|  \- org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile
++- org.jboss.resteasy:resteasy-vertx:jar:3.1.4.Final:compile
+|  +- (org.jboss.resteasy:resteasy-jaxrs:jar:3.1.4.Final:compile - omitted for duplicate)
+|  +- org.jboss.resteasy:resteasy-client:jar:3.1.4.Final:compile
+|  |  +- (org.jboss.resteasy:resteasy-jaxrs:jar:3.1.4.Final:compile - omitted for duplicate)
+|  |  +- (org.jboss.resteasy:resteasy-jaxrs-services:jar:3.1.4.Final:compile - omitted for duplicate)
+|  |  +- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile - omitted for duplicate)
+|  |  \- (org.apache.httpcomponents:httpclient:jar:4.5.3:compile - version managed from 4.5.2; omitted for duplicate)
+|  \- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile - omitted for duplicate)
++- org.jboss.resteasy:resteasy-jackson-provider:jar:3.1.4.Final:compile
+|  +- (org.jboss.resteasy:resteasy-jaxrs:jar:3.1.4.Final:compile - omitted for duplicate)
+|  +- org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile
+|  +- org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:compile
+|  |  \- (org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile - omitted for duplicate)
+|  +- org.codehaus.jackson:jackson-jaxrs:jar:1.9.13:compile
+|  |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile - omitted for duplicate)
+|  |  \- (org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:compile - omitted for duplicate)
+|  \- org.codehaus.jackson:jackson-xc:jar:1.9.13:compile
+|     +- (org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile - omitted for duplicate)
+|     \- (org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:compile - omitted for duplicate)
++- io.apiman:apiman-gateway-platforms-vertx3-common:jar:1.3.2.Final:compile
+|  +- (io.vertx:vertx-core:jar:3.4.2:compile - omitted for duplicate)
+|  +- (io.apiman:apiman-gateway-engine-beans:jar:1.3.2.Final:compile - omitted for duplicate)
+|  +- (io.apiman:apiman-gateway-engine-core:jar:1.3.2.Final:compile - omitted for duplicate)
+|  +- (io.apiman:apiman-common-util:jar:1.3.2.Final:compile - omitted for duplicate)
+|  +- (io.apiman:apiman-common-config:jar:1.3.2.Final:compile - omitted for duplicate)
+|  +- (io.apiman:apiman-common-logging-core:jar:1.3.2.Final:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile - version managed from 2.7.4; omitted for duplicate)
+|  +- (org.apache.commons:commons-lang3:jar:3.3.2:compile - version managed from 3.4; omitted for duplicate)
+|  \- (commons-codec:commons-codec:jar:1.10:compile - version managed from 1.9; omitted for duplicate)
++- io.apiman:apiman-gateway-engine-policies:jar:1.3.2.Final:compile
+|  +- (io.apiman:apiman-gateway-engine-beans:jar:1.3.2.Final:compile - omitted for duplicate)
+|  +- (io.apiman:apiman-gateway-engine-core:jar:1.3.2.Final:compile - omitted for duplicate)
+|  +- (io.apiman:apiman-common-util:jar:1.3.2.Final:compile - omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.4:compile - version managed from 2.5; omitted for duplicate)
+|  +- (commons-codec:commons-codec:jar:1.10:compile - version managed from 1.9; omitted for duplicate)
+|  +- (org.apache.commons:commons-lang3:jar:3.3.2:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.5:compile - version managed from 2.7.4; omitted for duplicate)
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.5:compile
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile - version managed from 2.7.4; omitted for duplicate)
+|  \- (joda-time:joda-time:jar:2.7:compile - omitted for duplicate)
++- io.apiman:apiman-gateway-engine-core:jar:1.3.2.Final:compile
+|  +- (io.apiman:apiman-common-util:jar:1.3.2.Final:compile - omitted for duplicate)
+|  +- (io.apiman:apiman-common-logging-core:jar:1.3.2.Final:compile - omitted for duplicate)
+|  +- (io.apiman:apiman-common-plugin:jar:1.3.2.Final:compile - omitted for duplicate)
+|  +- (io.apiman:apiman-gateway-engine-beans:jar:1.3.2.Final:compile - omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.4:compile - version managed from 2.5; omitted for duplicate)
+|  +- (org.apache.commons:commons-lang3:jar:3.3.2:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile - version managed from 2.7.4; omitted for duplicate)
+|  +- (joda-time:joda-time:jar:2.7:compile - omitted for duplicate)
+|  +- com.zaxxer:HikariCP:jar:2.4.0:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.24; omitted for duplicate)
+|  \- (com.unboundid:unboundid-ldapsdk:jar:3.0.0:compile - omitted for duplicate)
++- io.apiman:apiman-gateway-engine-beans:jar:1.3.2.Final:compile
+|  +- net.openhft:zero-allocation-hashing:jar:0.6:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.5:compile - version managed from 2.9.0; omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile - version managed from 2.7.4; omitted for duplicate)
++- io.apiman:apiman-common-plugin:jar:1.3.2.Final:compile
+|  +- (commons-io:commons-io:jar:2.4:compile - version managed from 2.5; omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile - version managed from 2.7.4; omitted for duplicate)
++- io.apiman:apiman-common-util:jar:1.3.2.Final:compile
+|  +- (commons-codec:commons-codec:jar:1.10:compile - version managed from 1.9; omitted for duplicate)
+|  +- (org.apache.commons:commons-lang3:jar:3.3.2:compile - omitted for duplicate)
+|  \- (commons-io:commons-io:jar:2.4:compile - version managed from 2.5; omitted for duplicate)
++- io.apiman:apiman-common-config:jar:1.3.2.Final:compile
+|  +- (io.apiman:apiman-common-util:jar:1.3.2.Final:compile - omitted for duplicate)
+|  +- (commons-codec:commons-codec:jar:1.10:compile - version managed from 1.9; omitted for duplicate)
+|  +- commons-configuration:commons-configuration:jar:1.10:compile
+|  |  \- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.4:compile - version managed from 2.5; omitted for duplicate)
+|  \- commons-lang:commons-lang:jar:2.6:compile
++- io.apiman:apiman-common-logging-core:jar:1.3.2.Final:compile
++- io.apiman:apiman-common-logging-log4j2:jar:1.3.2.Final:compile
+|  +- (io.apiman:apiman-gateway-engine-core:jar:1.3.2.Final:compile - omitted for duplicate)
+|  +- (io.apiman:apiman-common-logging-core:jar:1.3.2.Final:compile - omitted for duplicate)
+|  +- (org.apache.logging.log4j:log4j-api:jar:2.8.2:compile - omitted for duplicate)
+|  +- org.apache.logging.log4j:log4j-core:jar:2.8.2:compile
+|  |  \- (org.apache.logging.log4j:log4j-api:jar:2.8.2:compile - omitted for duplicate)
+|  +- org.apache.logging.log4j:log4j-slf4j-impl:jar:2.8.2:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.24; omitted for duplicate)
+|  |  \- (org.apache.logging.log4j:log4j-api:jar:2.8.2:compile - omitted for duplicate)
+|  \- com.lmax:disruptor:jar:3.2.0:compile
++- io.apiman:apiman-gateway-api-rest:jar:1.3.2.Final:compile
+|  +- (io.apiman:apiman-gateway-engine-beans:jar:1.3.2.Final:compile - omitted for duplicate)
+|  \- io.swagger:swagger-annotations:jar:1.5.13:compile
++- io.apiman:apiman-gateway-api-rest-impl:jar:1.3.2.Final:compile
+|  +- (io.apiman:apiman-common-util:jar:1.3.2.Final:compile - omitted for duplicate)
+|  +- (io.apiman:apiman-gateway-engine-beans:jar:1.3.2.Final:compile - omitted for duplicate)
+|  +- (io.apiman:apiman-gateway-engine-core:jar:1.3.2.Final:compile - omitted for duplicate)
+|  +- (io.apiman:apiman-gateway-api-rest:jar:1.3.2.Final:compile - omitted for duplicate)
+|  \- (commons-io:commons-io:jar:2.4:compile - version managed from 2.5; omitted for duplicate)
++- io.apiman:apiman-test-common:jar:1.3.2.Final:compile
+|  +- (io.apiman:apiman-common-util:jar:1.3.2.Final:compile - omitted for duplicate)
+|  +- (io.apiman:apiman-gateway-engine-beans:jar:1.3.2.Final:compile - omitted for duplicate)
+|  +- (io.apiman:apiman-gateway-engine-core:jar:1.3.2.Final:compile - omitted for duplicate)
+|  +- xmlunit:xmlunit:jar:1.6:compile
+|  +- (org.mvel:mvel2:jar:2.2.7.Final:compile - version managed from 2.2.8.Final; omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile - version managed from 2.7.4; omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.4:compile - version managed from 2.5; omitted for duplicate)
+|  +- (org.apache.commons:commons-lang3:jar:3.3.2:compile - omitted for duplicate)
+|  +- org.slf4j:slf4j-api:jar:1.7.21:compile
+|  +- com.jcabi:jcabi-http:jar:1.16:compile
+|  |  +- com.jcabi:jcabi-immutable:jar:1.4:compile
+|  |  |  \- (com.jcabi:jcabi-aspects:jar:0.20.1:compile - omitted for conflict with 0.22.2)
+|  |  +- com.jcabi:jcabi-aspects:jar:0.22.2:compile
+|  |  |  +- (com.jcabi:jcabi-log:jar:0.15:compile - omitted for conflict with 0.17)
+|  |  |  +- org.aspectj:aspectjrt:jar:1.8.4:compile
+|  |  |  \- javax.validation:validation-api:jar:1.1.0.Final:compile
+|  |  +- com.jcabi:jcabi-log:jar:0.17:compile
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.5; omitted for duplicate)
+|  |  |  \- (com.jcabi:jcabi-aspects:jar:0.22:compile - omitted for conflict with 0.22.2)
+|  |  \- com.jcabi:jcabi-manifests:jar:1.1:compile
+|  |     \- (com.jcabi:jcabi-log:jar:0.14:compile - omitted for conflict with 0.17)
+|  +- javax.json:javax.json-api:jar:1.0:compile
+|  +- (commons-codec:commons-codec:jar:1.10:compile - version managed from 1.9; omitted for duplicate)
+|  +- (junit:junit:jar:4.11:compile - version managed from 4.7; omitted for duplicate)
+|  +- org.eclipse.jetty:jetty-server:jar:9.2.20.v20161216:compile
+|  |  +- javax.servlet:javax.servlet-api:jar:3.1.0:compile
+|  |  +- org.eclipse.jetty:jetty-http:jar:9.2.20.v20161216:compile
+|  |  |  \- (org.eclipse.jetty:jetty-util:jar:9.2.20.v20161216:compile - omitted for duplicate)
+|  |  \- org.eclipse.jetty:jetty-io:jar:9.2.20.v20161216:compile
+|  |     \- (org.eclipse.jetty:jetty-util:jar:9.2.20.v20161216:compile - omitted for duplicate)
+|  +- org.eclipse.jetty:jetty-servlet:jar:9.2.20.v20161216:compile
+|  |  \- org.eclipse.jetty:jetty-security:jar:9.2.20.v20161216:compile
+|  |     \- (org.eclipse.jetty:jetty-server:jar:9.2.20.v20161216:compile - omitted for duplicate)
+|  +- org.eclipse.jetty:jetty-jndi:jar:9.2.20.v20161216:compile
+|  |  \- org.eclipse.jetty:jetty-util:jar:9.2.20.v20161216:compile
+|  \- (io.vertx:vertx-core:jar:3.4.2:compile - omitted for duplicate)
++- io.apiman:apiman-gateway-engine-es:jar:1.3.2.Final:compile
+|  +- io.apiman:apiman-common-es:jar:1.3.2.Final:compile
+|  |  \- (io.apiman:apiman-common-config:jar:1.3.2.Final:compile - omitted for duplicate)
+|  +- (io.apiman:apiman-common-util:jar:1.3.2.Final:compile - omitted for duplicate)
+|  +- (io.apiman:apiman-gateway-engine-beans:jar:1.3.2.Final:compile - omitted for duplicate)
+|  +- (io.apiman:apiman-gateway-engine-core:jar:1.3.2.Final:compile - omitted for duplicate)
+|  +- io.searchbox:jest:jar:0.1.7:compile
+|  |  +- (io.searchbox:jest-common:jar:0.1.7:compile - omitted for duplicate)
+|  |  +- org.apache.httpcomponents:httpcore-nio:jar:4.4.1:compile
+|  |  |  \- (org.apache.httpcomponents:httpcore:jar:4.4.1:compile - version managed from 4.4.6; omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.3:compile - version managed from 4.5; omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpasyncclient:jar:4.1:compile - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.12; omitted for duplicate)
+|  +- io.searchbox:jest-common:jar:0.1.7:compile
+|  |  +- (com.google.guava:guava:jar:21.0:compile - version managed from 18.0; omitted for duplicate)
+|  |  +- (com.google.code.gson:gson:jar:2.3.1:compile - omitted for duplicate)
+|  |  \- (org.apache.commons:commons-lang3:jar:3.3.2:compile - version managed from 3.4; omitted for duplicate)
+|  +- (org.apache.commons:commons-lang3:jar:3.3.2:compile - version managed from 3.4; omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.4:compile - version managed from 2.5; omitted for duplicate)
+|  +- (commons-codec:commons-codec:jar:1.10:compile - version managed from 1.9; omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile - version managed from 2.7.4; omitted for duplicate)
+|  +- com.google.code.gson:gson:jar:2.3.1:compile
+|  +- (org.apache.httpcomponents:httpclient:jar:4.5.3:compile - version managed from 4.5; omitted for duplicate)
+|  \- org.apache.httpcomponents:httpasyncclient:jar:4.1:compile
+|     +- (org.apache.httpcomponents:httpcore:jar:4.4.1:compile - version managed from 4.4.6; omitted for duplicate)
+|     +- (org.apache.httpcomponents:httpcore-nio:jar:4.4.1:compile - omitted for duplicate)
+|     +- (org.apache.httpcomponents:httpclient:jar:4.5.3:compile - version managed from 4.4.1; omitted for duplicate)
+|     \- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
++- io.apiman:apiman-gateway-engine-vertx-eb-inmemory:jar:1.3.2.Final:compile
+|  +- (io.apiman:apiman-common-util:jar:1.3.2.Final:compile - omitted for duplicate)
+|  +- (io.apiman:apiman-gateway-engine-beans:jar:1.3.2.Final:compile - omitted for duplicate)
+|  +- (io.apiman:apiman-gateway-engine-core:jar:1.3.2.Final:compile - omitted for duplicate)
+|  +- (io.apiman:apiman-gateway-platforms-vertx3-common:jar:1.3.2.Final:compile - omitted for duplicate)
+|  \- (io.vertx:vertx-core:jar:3.4.2:compile - omitted for duplicate)
++- io.apiman:apiman-gateway-engine-vertx-polling:jar:1.3.2.Final:compile
+|  +- (io.apiman:apiman-common-util:jar:1.3.2.Final:compile - omitted for duplicate)
+|  +- (io.apiman:apiman-gateway-engine-beans:jar:1.3.2.Final:compile - omitted for duplicate)
+|  +- (io.apiman:apiman-gateway-engine-core:jar:1.3.2.Final:compile - omitted for duplicate)
+|  +- (io.apiman:apiman-gateway-platforms-vertx3-common:jar:1.3.2.Final:compile - omitted for duplicate)
+|  +- (io.vertx:vertx-core:jar:3.4.2:compile - omitted for duplicate)
+|  +- (io.vertx:vertx-auth-oauth2:jar:3.4.2:compile - omitted for duplicate)
+|  \- (org.apache.commons:commons-lang3:jar:3.3.2:compile - version managed from 3.4; omitted for duplicate)
++- io.apiman:apiman-gateway-engine-3scale:jar:1.3.2.Final:compile
+|  +- (io.apiman:apiman-common-util:jar:1.3.2.Final:compile - omitted for duplicate)
+|  +- (io.apiman:apiman-common-config:jar:1.3.2.Final:compile - omitted for duplicate)
+|  +- (io.apiman:apiman-gateway-engine-beans:jar:1.3.2.Final:compile - omitted for duplicate)
+|  +- (io.apiman:apiman-gateway-engine-core:jar:1.3.2.Final:compile - omitted for duplicate)
+|  +- (io.apiman:apiman-gateway-platforms-vertx3-common:jar:1.3.2.Final:compile - omitted for duplicate)
+|  +- (io.apiman:apiman-gateway-engine-vertx-polling:jar:1.3.2.Final:compile - omitted for duplicate)
+|  +- (io.vertx:vertx-core:jar:3.4.2:compile - omitted for duplicate)
+|  +- (io.vertx:vertx-auth-oauth2:jar:3.4.2:compile - omitted for duplicate)
+|  +- (org.apache.commons:commons-lang3:jar:3.3.2:compile - version managed from 3.4; omitted for duplicate)
+|  \- com.fulmicoton:multiregexp:jar:0.5.1:compile
+|     \- dk.brics.automaton:automaton:jar:1.11-8:compile
++- io.apiman:apiman-gateway-engine-influxdb:jar:1.3.2.Final:compile
+|  +- (io.apiman:apiman-common-util:jar:1.3.2.Final:compile - omitted for duplicate)
+|  +- (io.apiman:apiman-gateway-engine-beans:jar:1.3.2.Final:compile - omitted for duplicate)
+|  +- (io.apiman:apiman-gateway-engine-core:jar:1.3.2.Final:compile - omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile - version managed from 2.7.4; omitted for duplicate)
++- io.apiman:apiman-gateway-engine-prometheus:jar:1.3.2.Final:compile
+|  +- (io.apiman:apiman-common-util:jar:1.3.2.Final:compile - omitted for duplicate)
+|  +- (io.apiman:apiman-gateway-engine-beans:jar:1.3.2.Final:compile - omitted for duplicate)
+|  +- (io.apiman:apiman-gateway-engine-core:jar:1.3.2.Final:compile - omitted for duplicate)
+|  +- io.prometheus:simpleclient_common:jar:0.0.13:compile
+|  |  \- (io.prometheus:simpleclient:jar:0.0.13:compile - omitted for duplicate)
+|  +- io.prometheus:simpleclient:jar:0.0.13:compile
+|  +- (io.vertx:vertx-core:jar:3.4.2:compile - omitted for duplicate)
+|  \- com.squareup.okhttp:okhttp:jar:2.4.0:compile
+|     \- com.squareup.okio:okio:jar:1.4.0:compile
++- commons-io:commons-io:jar:2.4:compile
++- org.apache.commons:commons-lang3:jar:3.3.2:compile
++- com.unboundid:unboundid-ldapsdk:jar:3.0.0:compile
++- joda-time:joda-time:jar:2.7:compile
++- io.netty:netty-codec-http:jar:4.1.8.Final:compile
+|  \- io.netty:netty-codec:jar:4.1.8.Final:compile
+|     \- (io.netty:netty-transport:jar:4.1.8.Final:compile - omitted for duplicate)
++- com.google.guava:guava:jar:21.0:compile
++- org.apache.logging.log4j:log4j-api:jar:2.8.2:compile
++- org.jboss.spec.javax.ws.rs:jboss-jaxrs-api_2.0_spec:jar:1.0.0.Final:compile
++- com.h2database:h2:jar:1.3.173:test
++- io.vertx:vertx-unit:jar:3.4.2:test
+|  \- (io.vertx:vertx-core:jar:3.4.2:test - omitted for duplicate)
++- org.apache.directory.server:apacheds-core-integ:jar:1.5.7:test
+|  +- org.apache.directory.server:apacheds-i18n:jar:1.5.7:test
+|  |  +- (org.apache.directory.shared:shared-ldap:jar:0.9.19:test - version managed from 0.9.18; omitted for duplicate)
+|  |  +- (org.apache.directory.shared:shared-ldap-schema:jar:0.9.19:test - omitted for duplicate)
+|  |  +- (org.apache.directory.shared:shared-ldap-schema-loader:jar:0.9.19:test - omitted for duplicate)
+|  |  +- (org.apache.directory.shared:shared-ldap-schema-manager:jar:0.9.19:test - omitted for duplicate)
+|  |  +- (org.apache.directory.shared:shared-cursor:jar:0.9.19:test - omitted for duplicate)
+|  |  +- (org.apache.directory.shared:shared-ldap-jndi:jar:0.9.19:test - omitted for duplicate)
+|  |  +- (org.apache.directory.shared:shared-asn1-codec:jar:0.9.19:test - omitted for duplicate)
+|  |  +- (org.apache.directory.shared:shared-asn1:jar:0.9.19:test - omitted for duplicate)
+|  |  +- (org.apache.directory.shared:shared-ldap-constants:jar:0.9.19:test - omitted for duplicate)
+|  |  +- (org.apache.directory.shared:shared-ldap-converter:jar:0.9.19:test - omitted for duplicate)
+|  |  +- (org.apache.directory.shared:shared-ldap-schema-dao:jar:0.9.19:test - omitted for duplicate)
+|  |  +- (org.apache.directory.shared:shared-ldif:jar:0.9.19:test - omitted for duplicate)
+|  |  +- (org.apache.directory.shared:shared-dsml-parser:jar:0.9.19:test - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.21:test - version managed from 1.5.10; omitted for duplicate)
+|  +- (org.apache.directory.server:apacheds-test-framework:jar:1.5.7:test - omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.4:test - version managed from 1.4; omitted for duplicate)
+|  +- org.apache.directory.client.ldap:ldap-client-api:jar:0.1:test
+|  |  +- (org.apache.directory.shared:shared-ldap:jar:0.9.19:test - version managed from 0.9.18; omitted for duplicate)
+|  |  +- (org.apache.directory.shared:shared-cursor:jar:0.9.18:test - omitted for conflict with 0.9.19)
+|  |  +- (org.apache.directory.shared:shared-ldap-schema:jar:0.9.18:test - omitted for conflict with 0.9.19)
+|  |  +- (org.apache.directory.shared:shared-ldap-schema-manager:jar:0.9.18:test - omitted for conflict with 0.9.19)
+|  |  +- (org.apache.directory.shared:shared-ldap-schema-loader:jar:0.9.18:test - omitted for conflict with 0.9.19)
+|  |  +- commons-pool:commons-pool:jar:1.6:test (version managed from 1.5.4)
+|  |  \- org.apache.mina:mina-core:jar:2.0.0-RC1:test
+|  |     \- (org.slf4j:slf4j-api:jar:1.7.21:test - version managed from 1.5.2; omitted for duplicate)
+|  +- org.apache.directory.shared:shared-ldap:jar:0.9.19:test
+|  |  +- (commons-lang:commons-lang:jar:2.6:test - version managed from 2.4; omitted for duplicate)
+|  |  +- commons-collections:commons-collections:jar:3.2.2:test (version managed from 3.2.1)
+|  |  +- (org.apache.directory.shared:shared-asn1:jar:0.9.19:test - omitted for duplicate)
+|  |  +- (org.apache.directory.shared:shared-ldap-constants:jar:0.9.19:test - omitted for duplicate)
+|  |  +- org.apache.directory.shared:shared-i18n:jar:0.9.19:test
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.21:test - version managed from 1.5.10; omitted for duplicate)
+|  |  +- antlr:antlr:jar:2.7.7:test
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.21:test - version managed from 1.5.10; omitted for duplicate)
+|  +- org.apache.directory.shared:shared-ldap-schema:jar:0.9.19:test
+|  |  +- (org.apache.directory.shared:shared-i18n:jar:0.9.19:test - omitted for duplicate)
+|  |  +- (org.apache.directory.shared:shared-ldap:jar:0.9.19:test - version managed from 0.9.18; omitted for duplicate)
+|  |  +- (org.apache.directory.shared:shared-ldif:jar:0.9.19:test - omitted for duplicate)
+|  |  +- (org.apache.directory.shared:shared-ldap-constants:jar:0.9.19:test - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.21:test - version managed from 1.5.10; omitted for duplicate)
+|  +- org.apache.directory.shared:shared-ldap-schema-loader:jar:0.9.19:test
+|  |  +- (org.apache.directory.shared:shared-i18n:jar:0.9.19:test - omitted for duplicate)
+|  |  +- (org.apache.directory.shared:shared-ldap:jar:0.9.19:test - version managed from 0.9.18; omitted for duplicate)
+|  |  +- (org.apache.directory.shared:shared-ldif:jar:0.9.19:test - omitted for duplicate)
+|  |  +- (org.apache.directory.shared:shared-ldap-schema:jar:0.9.19:test - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.21:test - version managed from 1.5.10; omitted for duplicate)
+|  +- org.apache.directory.shared:shared-ldap-schema-manager:jar:0.9.19:test
+|  |  +- (org.apache.directory.shared:shared-i18n:jar:0.9.19:test - omitted for duplicate)
+|  |  +- (org.apache.directory.shared:shared-ldap-schema-loader:jar:0.9.19:test - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.21:test - version managed from 1.5.10; omitted for duplicate)
+|  +- org.apache.directory.shared:shared-cursor:jar:0.9.19:test
+|  |  +- (org.apache.directory.shared:shared-i18n:jar:0.9.19:test - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.21:test - version managed from 1.5.10; omitted for duplicate)
+|  +- org.apache.directory.shared:shared-ldap-jndi:jar:0.9.19:test
+|  |  +- (org.apache.directory.shared:shared-ldap:jar:0.9.19:test - version managed from 0.9.18; omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.21:test - version managed from 1.5.10; omitted for duplicate)
+|  +- org.apache.directory.shared:shared-asn1-codec:jar:0.9.19:test
+|  |  +- (org.apache.directory.shared:shared-i18n:jar:0.9.19:test - omitted for duplicate)
+|  |  +- (org.apache.directory.shared:shared-asn1:jar:0.9.19:test - omitted for duplicate)
+|  |  +- (org.apache.mina:mina-core:jar:2.0.0-RC1:test - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.21:test - version managed from 1.5.10; omitted for duplicate)
+|  +- org.apache.directory.shared:shared-asn1:jar:0.9.19:test
+|  |  +- (org.apache.directory.shared:shared-i18n:jar:0.9.19:test - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.21:test - version managed from 1.5.10; omitted for duplicate)
+|  +- org.apache.directory.shared:shared-ldap-constants:jar:0.9.19:test
+|  |  +- (org.apache.directory.shared:shared-i18n:jar:0.9.19:test - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.21:test - version managed from 1.5.10; omitted for duplicate)
+|  +- org.apache.directory.shared:shared-ldap-converter:jar:0.9.19:test
+|  |  +- (org.apache.directory.shared:shared-i18n:jar:0.9.19:test - omitted for duplicate)
+|  |  +- (org.apache.directory.shared:shared-ldif:jar:0.9.19:test - omitted for duplicate)
+|  |  +- (org.apache.directory.shared:shared-ldap:jar:0.9.19:test - version managed from 0.9.18; omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.21:test - version managed from 1.5.10; omitted for duplicate)
+|  +- org.apache.directory.shared:shared-ldap-schema-dao:jar:0.9.19:test
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.21:test - version managed from 1.5.10; omitted for duplicate)
+|  +- org.apache.directory.shared:shared-ldif:jar:0.9.19:test
+|  |  +- (commons-lang:commons-lang:jar:2.6:test - version managed from 2.4; omitted for duplicate)
+|  |  +- (commons-collections:commons-collections:jar:3.2.2:test - version managed from 3.2.1; omitted for duplicate)
+|  |  +- (org.apache.directory.shared:shared-asn1:jar:0.9.19:test - omitted for duplicate)
+|  |  +- (org.apache.directory.shared:shared-i18n:jar:0.9.19:test - omitted for duplicate)
+|  |  +- (org.apache.directory.shared:shared-ldap:jar:0.9.19:test - version managed from 0.9.18; omitted for duplicate)
+|  |  +- (org.apache.directory.shared:shared-ldap-constants:jar:0.9.19:test - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.21:test - version managed from 1.5.10; omitted for duplicate)
+|  +- org.apache.directory.shared:shared-dsml-parser:jar:0.9.19:test
+|  |  +- (org.apache.directory.shared:shared-ldap:jar:0.9.19:test - version managed from 0.9.18; omitted for duplicate)
+|  |  +- (org.apache.directory.shared:shared-ldif:jar:0.9.19:test - omitted for duplicate)
+|  |  +- (org.apache.directory.shared:shared-i18n:jar:0.9.19:test - omitted for duplicate)
+|  |  +- dom4j:dom4j:jar:1.6.1:test
+|  |  |  \- xml-apis:xml-apis:jar:1.0.b2:test
+|  |  +- xpp3:xpp3:jar:1.1.4c:test
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.21:test - version managed from 1.5.10; omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.21:test - version managed from 1.5.10; omitted for duplicate)
++- org.apache.directory.server:apacheds-test-framework:jar:1.5.7:test
+|  +- (junit:junit:jar:4.11:test - version managed from 4.7; omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.4:test - version managed from 1.4; omitted for duplicate)
+|  +- (org.apache.directory.server:apacheds-i18n:jar:1.5.7:test - omitted for duplicate)
+|  +- org.apache.directory.server:apacheds-server-annotations:jar:1.5.7:test
+|  |  +- (junit:junit:jar:4.11:test - version managed from 4.7; omitted for duplicate)
+|  |  +- org.apache.directory.server:apacheds-core-annotations:jar:1.5.7:test
+|  |  |  +- (junit:junit:jar:4.11:test - version managed from 4.7; omitted for duplicate)
+|  |  |  +- (commons-io:commons-io:jar:2.4:test - version managed from 1.4; omitted for duplicate)
+|  |  |  +- (org.apache.directory.server:apacheds-i18n:jar:1.5.7:test - omitted for duplicate)
+|  |  |  +- org.apache.directory.server:apacheds-core-jndi:jar:1.5.7:test
+|  |  |  |  +- (org.apache.directory.server:apacheds-i18n:jar:1.5.7:test - omitted for duplicate)
+|  |  |  |  +- org.apache.directory.server:apacheds-core:jar:1.5.7:test
+|  |  |  |  |  +- (org.apache.directory.server:apacheds-i18n:jar:1.5.7:test - omitted for duplicate)
+|  |  |  |  |  +- org.apache.directory.server:apacheds-core-api:jar:1.5.7:test
+|  |  |  |  |  |  +- (org.apache.directory.server:apacheds-i18n:jar:1.5.7:test - omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.directory.server:apacheds-core-entry:jar:1.5.7:test - omitted for duplicate)
+|  |  |  |  |  |  +- org.apache.directory.server:apacheds-core-constants:jar:1.5.7:test
+|  |  |  |  |  |  |  +- (org.apache.directory.shared:shared-ldap:jar:0.9.19:test - version managed from 0.9.18; omitted for duplicate)
+|  |  |  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema-loader:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema-manager:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  |  +- (org.apache.directory.shared:shared-cursor:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-jndi:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  |  +- (org.apache.directory.shared:shared-asn1-codec:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  |  +- (org.apache.directory.shared:shared-asn1:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-constants:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-converter:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema-dao:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  |  +- (org.apache.directory.shared:shared-ldif:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  |  +- (org.apache.directory.shared:shared-dsml-parser:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.21:test - version managed from 1.5.10; omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.directory.shared:shared-ldap:jar:0.9.19:test - version managed from 0.9.18; omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema-loader:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema-manager:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.directory.shared:shared-cursor:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-jndi:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.directory.shared:shared-asn1-codec:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.directory.shared:shared-asn1:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-constants:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-converter:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema-dao:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.directory.shared:shared-ldif:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.directory.shared:shared-dsml-parser:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.21:test - version managed from 1.5.10; omitted for duplicate)
+|  |  |  |  |  +- org.apache.directory.server:apacheds-utils:jar:1.5.7:test
+|  |  |  |  |  |  +- (org.apache.directory.server:apacheds-core-constants:jar:1.5.7:test - omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.directory.server:apacheds-core-entry:jar:1.5.7:test - omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.directory.shared:shared-ldap:jar:0.9.19:test - version managed from 0.9.18; omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema-loader:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema-manager:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.directory.shared:shared-cursor:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-jndi:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.directory.shared:shared-asn1-codec:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.directory.shared:shared-asn1:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-constants:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-converter:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema-dao:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.directory.shared:shared-ldif:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.directory.shared:shared-dsml-parser:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.21:test - version managed from 1.5.10; omitted for duplicate)
+|  |  |  |  |  +- bouncycastle:bcprov-jdk15:jar:140:test
+|  |  |  |  |  +- (org.apache.directory.shared:shared-ldap:jar:0.9.19:test - version managed from 0.9.18; omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema-loader:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema-manager:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-cursor:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-jndi:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-asn1-codec:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-asn1:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-constants:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-converter:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema-dao:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-ldif:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-dsml-parser:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.21:test - version managed from 1.5.10; omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-ldap:jar:0.9.19:test - version managed from 0.9.18; omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema-loader:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema-manager:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-cursor:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-ldap-jndi:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-asn1-codec:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-asn1:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-ldap-constants:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-ldap-converter:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema-dao:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-ldif:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-dsml-parser:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.21:test - version managed from 1.5.10; omitted for duplicate)
+|  |  |  +- org.apache.directory.server:apacheds-jdbm-partition:jar:1.5.7:test
+|  |  |  |  +- org.apache.directory.server:apacheds-jdbm-store:jar:1.5.7:test
+|  |  |  |  |  +- (org.apache.directory.server:apacheds-i18n:jar:1.5.7:test - omitted for duplicate)
+|  |  |  |  |  +- org.apache.directory.server:apacheds-jdbm:jar:1.5.7:test
+|  |  |  |  |  |  +- (org.apache.directory.server:apacheds-i18n:jar:1.5.7:test - omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.directory.shared:shared-ldap:jar:0.9.19:test - version managed from 0.9.18; omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema-loader:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema-manager:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.directory.shared:shared-cursor:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-jndi:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.directory.shared:shared-asn1-codec:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.directory.shared:shared-asn1:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-constants:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-converter:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema-dao:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.directory.shared:shared-ldif:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.directory.shared:shared-dsml-parser:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.21:test - version managed from 1.5.10; omitted for duplicate)
+|  |  |  |  |  +- org.apache.directory.server:apacheds-core-entry:jar:1.5.7:test
+|  |  |  |  |  |  +- (org.apache.directory.server:apacheds-i18n:jar:1.5.7:test - omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.directory.shared:shared-ldap:jar:0.9.19:test - version managed from 0.9.18; omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema-loader:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema-manager:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.directory.shared:shared-cursor:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-jndi:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.directory.shared:shared-asn1-codec:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.directory.shared:shared-asn1:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-constants:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-converter:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema-dao:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.directory.shared:shared-ldif:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.directory.shared:shared-dsml-parser:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.21:test - version managed from 1.5.10; omitted for duplicate)
+|  |  |  |  |  +- org.apache.directory.server:apacheds-core-avl:jar:1.5.7:test
+|  |  |  |  |  |  +- (org.apache.directory.server:apacheds-xdbm-base:jar:1.5.7:test - omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.directory.shared:shared-ldap:jar:0.9.19:test - version managed from 0.9.18; omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema-loader:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema-manager:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.directory.shared:shared-cursor:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-jndi:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.directory.shared:shared-asn1-codec:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.directory.shared:shared-asn1:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-constants:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-converter:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema-dao:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.directory.shared:shared-ldif:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.directory.shared:shared-dsml-parser:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.21:test - version managed from 1.5.10; omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-ldap:jar:0.9.19:test - version managed from 0.9.18; omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema-loader:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema-manager:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-cursor:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-jndi:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-asn1-codec:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-asn1:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-constants:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-converter:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema-dao:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-ldif:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-dsml-parser:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.21:test - version managed from 1.5.10; omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.server:apacheds-core:jar:1.5.7:test - omitted for duplicate)
+|  |  |  |  +- org.apache.directory.server:apacheds-xdbm-search:jar:1.5.7:test
+|  |  |  |  |  +- (org.apache.directory.server:apacheds-xdbm-base:jar:1.5.7:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-ldap:jar:0.9.19:test - version managed from 0.9.18; omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema-loader:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema-manager:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-cursor:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-jndi:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-asn1-codec:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-asn1:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-constants:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-converter:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema-dao:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-ldif:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-dsml-parser:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.21:test - version managed from 1.5.10; omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-ldap:jar:0.9.19:test - version managed from 0.9.18; omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema-loader:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema-manager:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-cursor:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-ldap-jndi:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-asn1-codec:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-asn1:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-ldap-constants:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-ldap-converter:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema-dao:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-ldif:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-dsml-parser:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.21:test - version managed from 1.5.10; omitted for duplicate)
+|  |  |  +- org.apache.directory.server:apacheds-ldif-partition:jar:1.5.7:test
+|  |  |  |  +- (org.apache.directory.server:apacheds-i18n:jar:1.5.7:test - omitted for duplicate)
+|  |  |  |  +- org.apache.directory.server:apacheds-avl-partition:jar:1.5.7:test
+|  |  |  |  |  +- (org.apache.directory.server:apacheds-i18n:jar:1.5.7:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.server:apacheds-core-avl:jar:1.5.7:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.server:apacheds-core:jar:1.5.7:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.server:apacheds-xdbm-search:jar:1.5.7:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-ldap:jar:0.9.19:test - version managed from 0.9.18; omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema-loader:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema-manager:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-cursor:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-jndi:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-asn1-codec:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-asn1:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-constants:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-converter:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema-dao:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-ldif:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-dsml-parser:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.21:test - version managed from 1.5.10; omitted for duplicate)
+|  |  |  |  +- org.apache.directory.server:apacheds-core-mock:jar:1.5.7:test
+|  |  |  |  |  +- (org.apache.directory.server:apacheds-core-api:jar:1.5.7:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-ldap:jar:0.9.19:test - version managed from 0.9.18; omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema-loader:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema-manager:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-cursor:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-jndi:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-asn1-codec:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-asn1:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-constants:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-converter:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema-dao:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-ldif:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-dsml-parser:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.21:test - version managed from 1.5.10; omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-ldap:jar:0.9.19:test - version managed from 0.9.18; omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema-loader:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema-manager:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-cursor:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-ldap-jndi:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-asn1-codec:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-asn1:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-ldap-constants:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-ldap-converter:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema-dao:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-ldif:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-dsml-parser:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.21:test - version managed from 1.5.10; omitted for duplicate)
+|  |  |  +- (org.apache.directory.shared:shared-ldap:jar:0.9.19:test - version managed from 0.9.18; omitted for duplicate)
+|  |  |  +- (org.apache.directory.shared:shared-ldap-schema:jar:0.9.19:test - omitted for duplicate)
+|  |  |  +- (org.apache.directory.shared:shared-ldap-schema-loader:jar:0.9.19:test - omitted for duplicate)
+|  |  |  +- (org.apache.directory.shared:shared-ldap-schema-manager:jar:0.9.19:test - omitted for duplicate)
+|  |  |  +- (org.apache.directory.shared:shared-cursor:jar:0.9.19:test - omitted for duplicate)
+|  |  |  +- (org.apache.directory.shared:shared-ldap-jndi:jar:0.9.19:test - omitted for duplicate)
+|  |  |  +- (org.apache.directory.shared:shared-asn1-codec:jar:0.9.19:test - omitted for duplicate)
+|  |  |  +- (org.apache.directory.shared:shared-asn1:jar:0.9.19:test - omitted for duplicate)
+|  |  |  +- (org.apache.directory.shared:shared-ldap-constants:jar:0.9.19:test - omitted for duplicate)
+|  |  |  +- (org.apache.directory.shared:shared-ldap-converter:jar:0.9.19:test - omitted for duplicate)
+|  |  |  +- (org.apache.directory.shared:shared-ldap-schema-dao:jar:0.9.19:test - omitted for duplicate)
+|  |  |  +- (org.apache.directory.shared:shared-ldif:jar:0.9.19:test - omitted for duplicate)
+|  |  |  +- (org.apache.directory.shared:shared-dsml-parser:jar:0.9.19:test - omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.21:test - version managed from 1.5.10; omitted for duplicate)
+|  |  +- org.apache.directory.server:apacheds-protocol-ldap:jar:1.5.7:test
+|  |  |  +- (org.apache.directory.server:apacheds-i18n:jar:1.5.7:test - omitted for duplicate)
+|  |  |  +- org.apache.directory.server:apacheds-kerberos-shared:jar:1.5.7:test
+|  |  |  |  +- (org.apache.directory.server:apacheds-i18n:jar:1.5.7:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.server:apacheds-core-jndi:jar:1.5.7:test - omitted for duplicate)
+|  |  |  |  +- org.apache.directory.server:apacheds-protocol-shared:jar:1.5.7:test
+|  |  |  |  |  +- (org.apache.directory.server:apacheds-i18n:jar:1.5.7:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.server:apacheds-core:jar:1.5.7:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.mina:mina-core:jar:2.0.0-RC1:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-ldap:jar:0.9.19:test - version managed from 0.9.18; omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema-loader:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema-manager:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-cursor:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-jndi:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-asn1-codec:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-asn1:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-constants:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-converter:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema-dao:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-ldif:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-dsml-parser:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.21:test - version managed from 1.5.10; omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-ldap:jar:0.9.19:test - version managed from 0.9.18; omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema-loader:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema-manager:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-cursor:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-ldap-jndi:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-asn1-codec:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-asn1:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-ldap-constants:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-ldap-converter:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema-dao:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-ldif:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-dsml-parser:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.21:test - version managed from 1.5.10; omitted for duplicate)
+|  |  |  +- org.apache.directory.server:apacheds-xdbm-tools:jar:1.5.7:test
+|  |  |  |  +- (org.apache.directory.server:apacheds-i18n:jar:1.5.7:test - omitted for duplicate)
+|  |  |  |  +- org.apache.directory.server:apacheds-xdbm-base:jar:1.5.7:test
+|  |  |  |  |  +- (org.apache.directory.server:apacheds-core-api:jar:1.5.7:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-ldap:jar:0.9.19:test - version managed from 0.9.18; omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema-loader:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema-manager:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-cursor:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-jndi:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-asn1-codec:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-asn1:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-constants:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-converter:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema-dao:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-ldif:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.shared:shared-dsml-parser:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.21:test - version managed from 1.5.10; omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-ldap:jar:0.9.19:test - version managed from 0.9.18; omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema-loader:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema-manager:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-cursor:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-ldap-jndi:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-asn1-codec:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-asn1:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-ldap-constants:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-ldap-converter:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-ldap-schema-dao:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-ldif:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.shared:shared-dsml-parser:jar:0.9.19:test - omitted for duplicate)
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.21:test - version managed from 1.5.10; omitted for duplicate)
+|  |  |  +- (org.apache.directory.shared:shared-ldap:jar:0.9.19:test - version managed from 0.9.18; omitted for duplicate)
+|  |  |  +- (org.apache.directory.shared:shared-ldap-schema:jar:0.9.19:test - omitted for duplicate)
+|  |  |  +- (org.apache.directory.shared:shared-ldap-schema-loader:jar:0.9.19:test - omitted for duplicate)
+|  |  |  +- (org.apache.directory.shared:shared-ldap-schema-manager:jar:0.9.19:test - omitted for duplicate)
+|  |  |  +- (org.apache.directory.shared:shared-cursor:jar:0.9.19:test - omitted for duplicate)
+|  |  |  +- (org.apache.directory.shared:shared-ldap-jndi:jar:0.9.19:test - omitted for duplicate)
+|  |  |  +- (org.apache.directory.shared:shared-asn1-codec:jar:0.9.19:test - omitted for duplicate)
+|  |  |  +- (org.apache.directory.shared:shared-asn1:jar:0.9.19:test - omitted for duplicate)
+|  |  |  +- (org.apache.directory.shared:shared-ldap-constants:jar:0.9.19:test - omitted for duplicate)
+|  |  |  +- (org.apache.directory.shared:shared-ldap-converter:jar:0.9.19:test - omitted for duplicate)
+|  |  |  +- (org.apache.directory.shared:shared-ldap-schema-dao:jar:0.9.19:test - omitted for duplicate)
+|  |  |  +- (org.apache.directory.shared:shared-ldif:jar:0.9.19:test - omitted for duplicate)
+|  |  |  +- (org.apache.directory.shared:shared-dsml-parser:jar:0.9.19:test - omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.21:test - version managed from 1.5.10; omitted for duplicate)
+|  |  +- org.apache.directory.server:apacheds-protocol-kerberos:jar:1.5.7:test
+|  |  |  +- (org.apache.directory.server:apacheds-i18n:jar:1.5.7:test - omitted for duplicate)
+|  |  |  +- (org.apache.directory.server:apacheds-kerberos-shared:jar:1.5.7:test - omitted for duplicate)
+|  |  |  +- (org.apache.directory.shared:shared-ldap:jar:0.9.19:test - version managed from 0.9.18; omitted for duplicate)
+|  |  |  +- (org.apache.directory.shared:shared-ldap-schema:jar:0.9.19:test - omitted for duplicate)
+|  |  |  +- (org.apache.directory.shared:shared-ldap-schema-loader:jar:0.9.19:test - omitted for duplicate)
+|  |  |  +- (org.apache.directory.shared:shared-ldap-schema-manager:jar:0.9.19:test - omitted for duplicate)
+|  |  |  +- (org.apache.directory.shared:shared-cursor:jar:0.9.19:test - omitted for duplicate)
+|  |  |  +- (org.apache.directory.shared:shared-ldap-jndi:jar:0.9.19:test - omitted for duplicate)
+|  |  |  +- (org.apache.directory.shared:shared-asn1-codec:jar:0.9.19:test - omitted for duplicate)
+|  |  |  +- (org.apache.directory.shared:shared-asn1:jar:0.9.19:test - omitted for duplicate)
+|  |  |  +- (org.apache.directory.shared:shared-ldap-constants:jar:0.9.19:test - omitted for duplicate)
+|  |  |  +- (org.apache.directory.shared:shared-ldap-converter:jar:0.9.19:test - omitted for duplicate)
+|  |  |  +- (org.apache.directory.shared:shared-ldap-schema-dao:jar:0.9.19:test - omitted for duplicate)
+|  |  |  +- (org.apache.directory.shared:shared-ldif:jar:0.9.19:test - omitted for duplicate)
+|  |  |  +- (org.apache.directory.shared:shared-dsml-parser:jar:0.9.19:test - omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.21:test - version managed from 1.5.10; omitted for duplicate)
+|  |  +- (org.apache.directory.shared:shared-ldap:jar:0.9.19:test - version managed from 0.9.18; omitted for duplicate)
+|  |  +- (org.apache.directory.shared:shared-ldap-schema:jar:0.9.19:test - omitted for duplicate)
+|  |  +- (org.apache.directory.shared:shared-ldap-schema-loader:jar:0.9.19:test - omitted for duplicate)
+|  |  +- (org.apache.directory.shared:shared-ldap-schema-manager:jar:0.9.19:test - omitted for duplicate)
+|  |  +- (org.apache.directory.shared:shared-cursor:jar:0.9.19:test - omitted for duplicate)
+|  |  +- (org.apache.directory.shared:shared-ldap-jndi:jar:0.9.19:test - omitted for duplicate)
+|  |  +- (org.apache.directory.shared:shared-asn1-codec:jar:0.9.19:test - omitted for duplicate)
+|  |  +- (org.apache.directory.shared:shared-asn1:jar:0.9.19:test - omitted for duplicate)
+|  |  +- (org.apache.directory.shared:shared-ldap-constants:jar:0.9.19:test - omitted for duplicate)
+|  |  +- (org.apache.directory.shared:shared-ldap-converter:jar:0.9.19:test - omitted for duplicate)
+|  |  +- (org.apache.directory.shared:shared-ldap-schema-dao:jar:0.9.19:test - omitted for duplicate)
+|  |  +- (org.apache.directory.shared:shared-ldif:jar:0.9.19:test - omitted for duplicate)
+|  |  +- (org.apache.directory.shared:shared-dsml-parser:jar:0.9.19:test - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.21:test - version managed from 1.5.10; omitted for duplicate)
+|  +- (org.apache.directory.shared:shared-ldap:jar:0.9.19:test - version managed from 0.9.18; omitted for duplicate)
+|  +- (org.apache.directory.shared:shared-ldap-schema:jar:0.9.19:test - omitted for duplicate)
+|  +- (org.apache.directory.shared:shared-ldap-schema-loader:jar:0.9.19:test - omitted for duplicate)
+|  +- (org.apache.directory.shared:shared-ldap-schema-manager:jar:0.9.19:test - omitted for duplicate)
+|  +- (org.apache.directory.shared:shared-cursor:jar:0.9.19:test - omitted for duplicate)
+|  +- (org.apache.directory.shared:shared-ldap-jndi:jar:0.9.19:test - omitted for duplicate)
+|  +- (org.apache.directory.shared:shared-asn1-codec:jar:0.9.19:test - omitted for duplicate)
+|  +- (org.apache.directory.shared:shared-asn1:jar:0.9.19:test - omitted for duplicate)
+|  +- (org.apache.directory.shared:shared-ldap-constants:jar:0.9.19:test - omitted for duplicate)
+|  +- (org.apache.directory.shared:shared-ldap-converter:jar:0.9.19:test - omitted for duplicate)
+|  +- (org.apache.directory.shared:shared-ldap-schema-dao:jar:0.9.19:test - omitted for duplicate)
+|  +- (org.apache.directory.shared:shared-ldif:jar:0.9.19:test - omitted for duplicate)
+|  +- (org.apache.directory.shared:shared-dsml-parser:jar:0.9.19:test - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.21:test - version managed from 1.5.10; omitted for duplicate)
++- junit:junit:jar:4.11:test (scope not updated to compile)
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
+\- org.mockito:mockito-all:jar:1.9.5:test

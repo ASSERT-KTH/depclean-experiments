@@ -1,0 +1,16 @@
+io.engineblock:eb-vis:jar:2.0.107
++- org.eclipse.jetty:jetty-server:jar:9.4.2.v20170220:compile
+|  +- javax.servlet:javax.servlet-api:jar:3.1.0:compile
+|  +- org.eclipse.jetty:jetty-http:jar:9.4.2.v20170220:compile
+|  |  +- org.eclipse.jetty:jetty-util:jar:9.4.2.v20170220:compile
+|  |  \- (org.eclipse.jetty:jetty-io:jar:9.4.2.v20170220:compile - omitted for duplicate)
+|  \- org.eclipse.jetty:jetty-io:jar:9.4.2.v20170220:compile
+|     \- (org.eclipse.jetty:jetty-util:jar:9.4.2.v20170220:compile - omitted for duplicate)
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- ch.qos.logback:logback-classic:jar:1.2.3:compile
+|  +- ch.qos.logback:logback-core:jar:1.2.3:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
++- org.testng:testng:jar:6.13.1:test
+|  \- com.beust:jcommander:jar:1.72:test
++- org.assertj:assertj-core-java8:jar:1.0.0m1:test
+\- org.hdrhistogram:HdrHistogram:jar:2.1.10:compile

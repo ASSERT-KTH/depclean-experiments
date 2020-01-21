@@ -1,0 +1,2 @@
+ru.tinkoff:typed-schema-typedsl_2.12:jar:0.10.4
+\- org.scala-lang:scala-library:jar:2.12.6:compile

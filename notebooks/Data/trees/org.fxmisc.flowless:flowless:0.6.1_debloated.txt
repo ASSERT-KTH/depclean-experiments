@@ -1,0 +1,10 @@
+org.fxmisc.flowless:flowless:jar:0.6.1
++- org.reactfx:reactfx:jar:2.0-M5:compile
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.testfx:testfx-core:jar:4.0.11-alpha:test
+|  +- org.testfx:testfx-internal-java8:jar:4.0.11-alpha:test
+|  \- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for duplicate)
++- org.testfx:testfx-junit:jar:4.0.11-alpha:test
+|  \- (org.testfx:testfx-core:jar:4.0.11-alpha:test - omitted for duplicate)
+\- org.testfx:openjfx-monocle:jar:8u76-b04:test

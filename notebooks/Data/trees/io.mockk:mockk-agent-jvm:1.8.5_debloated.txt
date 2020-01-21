@@ -1,0 +1,9 @@
+io.mockk:mockk-agent-jvm:jar:1.8.5
++- io.mockk:mockk-agent-api:jar:1.8.5:compile
++- io.mockk:mockk-agent-common:jar:1.8.5:compile
+|  \- (io.mockk:mockk-agent-api:jar:1.8.5:compile - omitted for duplicate)
++- net.bytebuddy:byte-buddy:jar:1.8.8:compile
++- org.objenesis:objenesis:jar:2.6:compile
++- org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.41:test
+|  \- org.jetbrains:annotations:jar:13.0:test
+\- net.bytebuddy:byte-buddy-agent:jar:1.8.8:runtime

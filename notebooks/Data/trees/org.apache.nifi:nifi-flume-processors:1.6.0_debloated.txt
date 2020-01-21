@@ -1,0 +1,353 @@
+org.apache.nifi:nifi-flume-processors:jar:1.6.0
++- org.apache.nifi:nifi-api:jar:1.6.0:provided
++- org.apache.nifi:nifi-utils:jar:1.6.0:compile
+|  \- (org.apache.nifi:nifi-api:jar:1.6.0:provided - scope managed from compile; omitted for duplicate)
++- org.apache.flume:flume-ng-sdk:jar:1.6.0:compile
+|  +- org.apache.avro:avro:jar:1.7.4:compile
+|  |  +- org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile
+|  |  +- org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:compile
+|  |  |  \- (org.codehaus.jackson:jackson-core-asl:jar:1.8.8:compile - omitted for duplicate)
+|  |  +- com.thoughtworks.paranamer:paranamer:jar:2.3:compile
+|  |  +- org.xerial.snappy:snappy-java:jar:1.0.4.1:compile
+|  |  +- (org.apache.commons:commons-compress:jar:1.4.1:compile - omitted for conflict with 1.15)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:provided - version managed from 1.6.1; scope managed from compile; omitted for duplicate)
+|  +- org.apache.avro:avro-ipc:jar:1.7.4:compile
+|  |  +- (org.apache.avro:avro:jar:1.7.4:compile - omitted for duplicate)
+|  |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.8.8:compile - omitted for duplicate)
+|  |  +- (org.codehaus.jackson:jackson-mapper-asl:jar:1.8.8:compile - omitted for duplicate)
+|  |  +- (org.mortbay.jetty:jetty:jar:6.1.26:compile - omitted for duplicate)
+|  |  +- (org.mortbay.jetty:jetty-util:jar:6.1.26:compile - omitted for duplicate)
+|  |  +- org.apache.velocity:velocity:jar:1.7:compile
+|  |  |  +- commons-collections:commons-collections:jar:3.2.1:compile
+|  |  |  \- (commons-lang:commons-lang:jar:2.4:compile - omitted for conflict with 2.5)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:provided - version managed from 1.6.4; scope managed from compile; omitted for duplicate)
+|  +- io.netty:netty:jar:3.5.12.Final:compile
+|  \- org.apache.thrift:libthrift:jar:0.9.0:compile
+|     +- (org.slf4j:slf4j-api:jar:1.7.25:provided - version managed from 1.5.8; scope managed from compile; omitted for duplicate)
+|     +- (commons-lang:commons-lang:jar:2.5:compile - omitted for duplicate)
+|     +- (org.apache.httpcomponents:httpclient:jar:4.1.3:compile - omitted for conflict with 4.2.1)
+|     \- org.apache.httpcomponents:httpcore:jar:4.1.3:compile
++- org.apache.flume:flume-ng-core:jar:1.6.0:compile
+|  +- (org.apache.flume:flume-ng-sdk:jar:1.6.0:compile - omitted for duplicate)
+|  +- org.apache.flume:flume-ng-configuration:jar:1.6.0:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:provided - version managed from 1.6.1; scope managed from compile; omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:11.0.2:compile - omitted for duplicate)
+|  |  \- (org.apache.flume:flume-ng-sdk:jar:1.6.0:compile - omitted for duplicate)
+|  +- org.apache.flume:flume-ng-auth:jar:1.6.0:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:provided - version managed from 1.6.1; scope managed from compile; omitted for duplicate)
+|  |  +- (org.apache.flume:flume-ng-sdk:jar:1.6.0:compile - omitted for duplicate)
+|  |  \- (com.google.guava:guava:jar:11.0.2:compile - omitted for duplicate)
+|  +- org.slf4j:slf4j-api:jar:1.7.25:provided
+|  +- com.google.guava:guava:jar:11.0.2:compile
+|  |  \- com.google.code.findbugs:jsr305:jar:3.0.0:compile
+|  +- commons-io:commons-io:jar:2.1:compile
+|  +- commons-codec:commons-codec:jar:1.8:compile
+|  +- log4j:log4j:jar:1.2.17:compile
+|  +- commons-cli:commons-cli:jar:1.2:compile
+|  +- commons-lang:commons-lang:jar:2.5:compile
+|  +- (org.apache.avro:avro:jar:1.7.4:compile - omitted for duplicate)
+|  +- (org.apache.avro:avro-ipc:jar:1.7.4:compile - omitted for duplicate)
+|  +- (io.netty:netty:jar:3.5.12.Final:compile - omitted for duplicate)
+|  +- joda-time:joda-time:jar:2.1:compile
+|  +- org.mortbay.jetty:servlet-api:jar:2.5-20110124:compile
+|  +- org.mortbay.jetty:jetty-util:jar:6.1.26:compile
+|  +- org.mortbay.jetty:jetty:jar:6.1.26:compile
+|  |  +- (org.mortbay.jetty:jetty-util:jar:6.1.26:compile - omitted for duplicate)
+|  |  \- (org.mortbay.jetty:servlet-api:jar:2.5-20081211:compile - omitted for conflict with 2.5-20110124)
+|  +- com.google.code.gson:gson:jar:2.2.2:compile
+|  +- (org.apache.thrift:libthrift:jar:0.9.0:compile - omitted for duplicate)
+|  \- org.apache.mina:mina-core:jar:2.0.4:compile
+|     \- (org.slf4j:slf4j-api:jar:1.7.25:provided - version managed from 1.6.1; scope managed from compile; omitted for duplicate)
++- org.apache.flume.flume-ng-sources:flume-jms-source:jar:1.6.0:compile
+|  +- (org.apache.flume:flume-ng-sdk:jar:1.6.0:compile - omitted for duplicate)
+|  +- (org.apache.flume:flume-ng-configuration:jar:1.6.0:compile - omitted for duplicate)
+|  +- (org.apache.flume:flume-ng-core:jar:1.6.0:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:provided - version managed from 1.6.1; scope managed from compile; omitted for duplicate)
++- org.apache.flume.flume-ng-sources:flume-kafka-source:jar:1.6.0:compile
+|  +- (org.apache.flume:flume-ng-core:jar:1.6.0:compile - omitted for duplicate)
+|  \- org.apache.kafka:kafka_2.10:jar:0.8.1.1:compile
+|     +- com.yammer.metrics:metrics-core:jar:2.2.0:compile
+|     |  \- (org.slf4j:slf4j-api:jar:1.7.25:provided - version managed from 1.7.2; scope managed from compile; omitted for duplicate)
+|     +- (org.xerial.snappy:snappy-java:jar:1.0.5:compile - omitted for conflict with 1.0.4.1)
+|     +- org.apache.zookeeper:zookeeper:jar:3.4.6:compile
+|     |  +- (log4j:log4j:jar:1.2.15:compile - omitted for conflict with 1.2.17)
+|     |  \- jline:jline:jar:0.9.94:compile
+|     |     \- (junit:junit:jar:4.12:compile - version managed from 3.8.1; omitted for duplicate)
+|     +- net.sf.jopt-simple:jopt-simple:jar:3.2:compile
+|     +- org.scala-lang:scala-library:jar:2.10.1:compile
+|     \- com.101tec:zkclient:jar:0.3:compile
+|        +- (org.apache.zookeeper:zookeeper:jar:3.3.1:compile - omitted for conflict with 3.4.6)
+|        \- (log4j:log4j:jar:1.2.14:compile - omitted for conflict with 1.2.17)
++- org.apache.flume.flume-ng-sources:flume-scribe-source:jar:1.6.0:compile
+|  +- (org.apache.flume:flume-ng-sdk:jar:1.6.0:compile - omitted for duplicate)
+|  +- (org.apache.flume:flume-ng-configuration:jar:1.6.0:compile - omitted for duplicate)
+|  +- (org.apache.flume:flume-ng-core:jar:1.6.0:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:provided - version managed from 1.6.1; scope managed from compile; omitted for duplicate)
+|  +- (org.apache.thrift:libthrift:jar:0.9.0:compile - omitted for duplicate)
+|  \- (org.mortbay.jetty:servlet-api:jar:2.5-20110124:compile - omitted for duplicate)
++- org.apache.flume.flume-ng-sinks:flume-dataset-sink:jar:1.6.0:compile
+|  +- (org.apache.flume:flume-ng-sdk:jar:1.6.0:compile - omitted for duplicate)
+|  +- (org.apache.flume:flume-ng-configuration:jar:1.6.0:compile - omitted for duplicate)
+|  +- (org.apache.flume:flume-ng-core:jar:1.6.0:compile - omitted for duplicate)
+|  +- org.kitesdk:kite-data-core:jar:1.0.0:compile
+|  |  +- org.kitesdk:kite-hadoop-compatibility:jar:1.0.0:compile
+|  |  +- (org.apache.avro:avro:jar:1.7.5:compile - omitted for conflict with 1.7.4)
+|  |  +- com.twitter:parquet-avro:jar:1.4.1:compile
+|  |  |  +- com.twitter:parquet-column:jar:1.4.1:compile
+|  |  |  |  +- com.twitter:parquet-common:jar:1.4.1:compile
+|  |  |  |  +- com.twitter:parquet-encoding:jar:1.4.1:compile
+|  |  |  |  |  +- (com.twitter:parquet-common:jar:1.4.1:compile - omitted for duplicate)
+|  |  |  |  |  +- com.twitter:parquet-generator:jar:1.4.1:compile
+|  |  |  |  |  |  \- (com.twitter:parquet-common:jar:1.4.1:compile - omitted for duplicate)
+|  |  |  |  |  \- (commons-codec:commons-codec:jar:1.5:compile - omitted for conflict with 1.8)
+|  |  |  |  \- (commons-codec:commons-codec:jar:1.5:compile - omitted for conflict with 1.8)
+|  |  |  +- com.twitter:parquet-hadoop:jar:1.4.1:compile
+|  |  |  |  +- (com.twitter:parquet-column:jar:1.4.1:compile - omitted for duplicate)
+|  |  |  |  +- (com.twitter:parquet-format:jar:2.0.0:compile - omitted for duplicate)
+|  |  |  |  +- com.twitter:parquet-jackson:jar:1.4.1:compile
+|  |  |  |  +- (org.codehaus.jackson:jackson-mapper-asl:jar:1.9.11:compile - omitted for conflict with 1.9.13)
+|  |  |  |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.9.11:compile - omitted for conflict with 1.9.13)
+|  |  |  |  \- (org.xerial.snappy:snappy-java:jar:1.0.5:compile - omitted for conflict with 1.0.4.1)
+|  |  |  +- com.twitter:parquet-format:jar:2.0.0:compile
+|  |  |  \- (org.apache.avro:avro:jar:1.7.6:compile - omitted for conflict with 1.7.4)
+|  |  +- net.sf.opencsv:opencsv:jar:2.3:compile
+|  |  +- org.apache.commons:commons-jexl:jar:2.1.1:compile
+|  |  |  \- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for duplicate)
+|  |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.3.1:compile
+|  |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.3.0:compile
+|  |  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.3.1:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:provided - version managed from 1.6.1; scope managed from compile; omitted for duplicate)
+|  +- org.kitesdk:kite-data-hive:jar:1.0.0:compile
+|  |  +- (org.kitesdk:kite-data-core:jar:1.0.0:compile - omitted for duplicate)
+|  |  +- (org.kitesdk:kite-hadoop-compatibility:jar:1.0.0:compile - omitted for duplicate)
+|  |  +- (org.apache.avro:avro:jar:1.7.5:compile - omitted for conflict with 1.7.4)
+|  |  +- com.twitter:parquet-hive-bundle:jar:1.4.1:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:provided - version managed from 1.6.1; scope managed from compile; omitted for duplicate)
+|  +- org.kitesdk:kite-data-hbase:jar:1.0.0:compile
+|  |  +- (org.kitesdk:kite-data-core:jar:1.0.0:compile - omitted for duplicate)
+|  |  +- (org.kitesdk:kite-hadoop-compatibility:jar:1.0.0:compile - omitted for duplicate)
+|  |  +- (org.apache.avro:avro:jar:1.7.5:compile - omitted for conflict with 1.7.4)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:provided - version managed from 1.6.1; scope managed from compile; omitted for duplicate)
+|  +- (org.apache.avro:avro:jar:1.7.4:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:provided - version managed from 1.6.1; scope managed from compile; omitted for duplicate)
+|  \- (com.google.guava:guava:jar:11.0.2:compile - omitted for duplicate)
++- org.apache.flume.flume-ng-sinks:flume-hdfs-sink:jar:1.6.0:compile
+|  +- (org.apache.flume:flume-ng-sdk:jar:1.6.0:compile - omitted for duplicate)
+|  +- (org.apache.flume:flume-ng-configuration:jar:1.6.0:compile - omitted for duplicate)
+|  +- (org.apache.flume:flume-ng-core:jar:1.6.0:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:provided - version managed from 1.6.1; scope managed from compile; omitted for duplicate)
+|  +- (com.google.guava:guava:jar:11.0.2:compile - omitted for duplicate)
+|  +- (commons-lang:commons-lang:jar:2.5:compile - omitted for duplicate)
+|  \- (commons-io:commons-io:jar:2.1:compile - omitted for duplicate)
++- org.apache.hadoop:hadoop-common:jar:2.7.3:provided
+|  +- org.apache.hadoop:hadoop-annotations:jar:2.7.3:provided
+|  +- (com.google.guava:guava:jar:11.0.2:provided - omitted for duplicate)
+|  +- (commons-cli:commons-cli:jar:1.2:provided - omitted for duplicate)
+|  +- org.apache.commons:commons-math3:jar:3.1.1:provided
+|  +- xmlenc:xmlenc:jar:0.52:provided
+|  +- commons-httpclient:commons-httpclient:jar:3.1:provided
+|  |  +- (commons-logging:commons-logging:jar:1.0.4:compile - scope updated from provided; omitted for duplicate)
+|  |  \- (commons-codec:commons-codec:jar:1.2:provided - omitted for conflict with 1.8)
+|  +- (commons-codec:commons-codec:jar:1.4:provided - omitted for conflict with 1.8)
+|  +- (commons-io:commons-io:jar:2.4:provided - omitted for conflict with 2.1)
+|  +- commons-net:commons-net:jar:3.1:provided
+|  +- (commons-collections:commons-collections:jar:3.2.2:compile - scope updated from provided; omitted for duplicate)
+|  +- javax.servlet:servlet-api:jar:2.5:provided
+|  +- (org.mortbay.jetty:jetty:jar:6.1.26:provided - omitted for duplicate)
+|  +- (org.mortbay.jetty:jetty-util:jar:6.1.26:provided - omitted for duplicate)
+|  +- javax.servlet.jsp:jsp-api:jar:2.1:provided
+|  +- com.sun.jersey:jersey-core:jar:1.9:provided
+|  +- com.sun.jersey:jersey-json:jar:1.9:provided
+|  |  +- org.codehaus.jettison:jettison:jar:1.1:provided
+|  |  +- com.sun.xml.bind:jaxb-impl:jar:2.2.3-1:provided
+|  |  |  \- javax.xml.bind:jaxb-api:jar:2.2.2:provided
+|  |  |     +- javax.xml.stream:stax-api:jar:1.0-2:provided
+|  |  |     \- javax.activation:activation:jar:1.1:provided
+|  |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.8.3:provided - omitted for conflict with 1.9.13)
+|  |  +- (org.codehaus.jackson:jackson-mapper-asl:jar:1.8.3:provided - omitted for conflict with 1.9.13)
+|  |  +- org.codehaus.jackson:jackson-jaxrs:jar:1.8.3:provided
+|  |  |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.8.3:provided - omitted for conflict with 1.9.13)
+|  |  |  \- (org.codehaus.jackson:jackson-mapper-asl:jar:1.8.3:provided - omitted for conflict with 1.9.13)
+|  |  +- org.codehaus.jackson:jackson-xc:jar:1.8.3:provided
+|  |  |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.8.3:provided - omitted for conflict with 1.9.13)
+|  |  |  \- (org.codehaus.jackson:jackson-mapper-asl:jar:1.8.3:provided - omitted for conflict with 1.9.13)
+|  |  \- (com.sun.jersey:jersey-core:jar:1.9:provided - omitted for duplicate)
+|  +- com.sun.jersey:jersey-server:jar:1.9:provided
+|  |  +- asm:asm:jar:3.1:provided
+|  |  \- (com.sun.jersey:jersey-core:jar:1.9:provided - omitted for duplicate)
+|  +- (commons-logging:commons-logging:jar:1.1.3:compile - scope updated from provided; omitted for duplicate)
+|  +- (log4j:log4j:jar:1.2.17:provided - omitted for duplicate)
+|  +- net.java.dev.jets3t:jets3t:jar:0.9.0:provided
+|  |  +- (commons-codec:commons-codec:jar:1.4:provided - omitted for conflict with 1.8)
+|  |  +- (commons-logging:commons-logging:jar:1.1.1:compile - scope updated from provided; omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpclient:jar:4.1.2:provided - omitted for conflict with 4.1.3)
+|  |  +- (org.apache.httpcomponents:httpcore:jar:4.1.2:provided - omitted for conflict with 4.1.3)
+|  |  \- com.jamesmurty.utils:java-xmlbuilder:jar:0.4:provided
+|  +- (commons-lang:commons-lang:jar:2.6:provided - omitted for conflict with 2.5)
+|  +- commons-configuration:commons-configuration:jar:1.6:provided
+|  |  +- (commons-collections:commons-collections:jar:3.2.1:compile - scope updated from provided; omitted for duplicate)
+|  |  +- (commons-lang:commons-lang:jar:2.4:provided - omitted for conflict with 2.5)
+|  |  +- (commons-logging:commons-logging:jar:1.1.1:compile - scope updated from provided; omitted for duplicate)
+|  |  +- commons-digester:commons-digester:jar:1.8:provided
+|  |  |  +- commons-beanutils:commons-beanutils:jar:1.7.0:provided
+|  |  |  |  \- (commons-logging:commons-logging:jar:1.0.3:provided - omitted for conflict with 1.1.3)
+|  |  |  \- (commons-logging:commons-logging:jar:1.1:provided - omitted for conflict with 1.1.3)
+|  |  \- commons-beanutils:commons-beanutils-core:jar:1.8.0:provided
+|  |     \- (commons-logging:commons-logging:jar:1.1.1:provided - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:provided - version managed from 1.7.10; scope managed from compile; omitted for duplicate)
+|  +- (org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile - scope updated from provided; omitted for duplicate)
+|  +- (org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:compile - scope updated from provided; omitted for duplicate)
+|  +- (org.apache.avro:avro:jar:1.7.4:provided - omitted for duplicate)
+|  +- (com.google.protobuf:protobuf-java:jar:2.5.0:compile - scope updated from provided; omitted for duplicate)
+|  +- (com.google.code.gson:gson:jar:2.2.4:provided - omitted for conflict with 2.2.2)
+|  +- org.apache.hadoop:hadoop-auth:jar:2.7.3:provided
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:provided - version managed from 1.7.10; scope managed from compile; omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.4:provided - omitted for conflict with 1.8)
+|  |  +- (log4j:log4j:jar:1.2.17:provided - omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpclient:jar:4.2.5:provided - omitted for conflict with 4.1.3)
+|  |  +- org.apache.directory.server:apacheds-kerberos-codec:jar:2.0.0-M15:provided
+|  |  |  +- org.apache.directory.server:apacheds-i18n:jar:2.0.0-M15:provided
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:provided - version managed from 1.7.5; scope managed from compile; omitted for duplicate)
+|  |  |  +- org.apache.directory.api:api-asn1-api:jar:1.0.0-M20:provided
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:provided - version managed from 1.7.5; scope managed from compile; omitted for duplicate)
+|  |  |  +- org.apache.directory.api:api-util:jar:1.0.0-M20:provided
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:provided - version managed from 1.7.5; scope managed from compile; omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:provided - version managed from 1.7.5; scope managed from compile; omitted for duplicate)
+|  |  +- (org.apache.zookeeper:zookeeper:jar:3.4.6:provided - omitted for conflict with 3.4.6)
+|  |  \- org.apache.curator:curator-framework:jar:2.7.1:provided
+|  |     +- (org.apache.curator:curator-client:jar:2.7.1:provided - omitted for duplicate)
+|  |     +- (org.apache.zookeeper:zookeeper:jar:3.4.6:provided - omitted for conflict with 3.4.6)
+|  |     \- (com.google.guava:guava:jar:16.0.1:provided - omitted for conflict with 11.0.2)
+|  +- com.jcraft:jsch:jar:0.1.42:provided
+|  +- org.apache.curator:curator-client:jar:2.7.1:provided
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:provided - version managed from 1.7.6; scope managed from compile; omitted for duplicate)
+|  |  +- (org.apache.zookeeper:zookeeper:jar:3.4.6:provided - omitted for conflict with 3.4.6)
+|  |  \- (com.google.guava:guava:jar:16.0.1:provided - omitted for conflict with 11.0.2)
+|  +- org.apache.curator:curator-recipes:jar:2.7.1:provided
+|  |  +- (org.apache.curator:curator-framework:jar:2.7.1:provided - omitted for duplicate)
+|  |  +- (org.apache.zookeeper:zookeeper:jar:3.4.6:provided - omitted for conflict with 3.4.6)
+|  |  \- (com.google.guava:guava:jar:16.0.1:provided - omitted for conflict with 11.0.2)
+|  +- (com.google.code.findbugs:jsr305:jar:3.0.0:compile - scope updated from provided; omitted for duplicate)
+|  +- org.apache.htrace:htrace-core:jar:3.1.0-incubating:provided
+|  +- (org.apache.zookeeper:zookeeper:jar:3.4.6:compile - scope updated from provided; omitted for duplicate)
+|  \- (org.apache.commons:commons-compress:jar:1.4.1:provided - omitted for conflict with 1.15)
++- org.apache.hadoop:hadoop-hdfs:jar:2.7.3:provided
+|  +- (com.google.guava:guava:jar:11.0.2:provided - omitted for duplicate)
+|  +- (org.mortbay.jetty:jetty:jar:6.1.26:provided - omitted for duplicate)
+|  +- (org.mortbay.jetty:jetty-util:jar:6.1.26:provided - omitted for duplicate)
+|  +- (com.sun.jersey:jersey-core:jar:1.9:provided - omitted for duplicate)
+|  +- (com.sun.jersey:jersey-server:jar:1.9:provided - omitted for duplicate)
+|  +- (commons-cli:commons-cli:jar:1.2:provided - omitted for duplicate)
+|  +- (commons-codec:commons-codec:jar:1.4:provided - omitted for conflict with 1.8)
+|  +- (commons-io:commons-io:jar:2.4:provided - omitted for conflict with 2.1)
+|  +- (commons-lang:commons-lang:jar:2.6:provided - omitted for conflict with 2.5)
+|  +- (commons-logging:commons-logging:jar:1.1.3:compile - scope updated from provided; omitted for duplicate)
+|  +- commons-daemon:commons-daemon:jar:1.0.13:provided
+|  +- (log4j:log4j:jar:1.2.17:provided - omitted for duplicate)
+|  +- (com.google.protobuf:protobuf-java:jar:2.5.0:provided - omitted for duplicate)
+|  +- (javax.servlet:servlet-api:jar:2.5:provided - omitted for duplicate)
+|  +- (org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile - scope updated from provided; omitted for duplicate)
+|  +- (org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:compile - scope updated from provided; omitted for duplicate)
+|  +- (xmlenc:xmlenc:jar:0.52:provided - omitted for duplicate)
+|  +- (io.netty:netty:jar:3.6.2.Final:provided - omitted for conflict with 3.5.12.Final)
+|  +- io.netty:netty-all:jar:4.0.23.Final:provided
+|  +- (xerces:xercesImpl:jar:2.9.1:runtime - scope updated from provided; omitted for duplicate)
+|  +- (org.apache.htrace:htrace-core:jar:3.1.0-incubating:provided - omitted for duplicate)
+|  \- org.fusesource.leveldbjni:leveldbjni-all:jar:1.8:provided
++- org.apache.flume.flume-ng-sinks:flume-hive-sink:jar:1.6.0:compile
+|  +- (org.apache.flume:flume-ng-sdk:jar:1.6.0:compile - omitted for duplicate)
+|  +- (org.apache.flume:flume-ng-configuration:jar:1.6.0:compile - omitted for duplicate)
+|  +- (org.apache.flume:flume-ng-core:jar:1.6.0:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:provided - version managed from 1.6.1; scope managed from compile; omitted for duplicate)
+|  +- xerces:xercesImpl:jar:2.9.1:runtime
+|  |  \- xml-apis:xml-apis:jar:1.3.04:runtime
+|  +- xalan:serializer:jar:2.7.2:runtime
+|  |  \- (xml-apis:xml-apis:jar:1.3.04:runtime - omitted for duplicate)
+|  \- xalan:xalan:jar:2.7.2:runtime
+|     \- (xalan:serializer:jar:2.7.2:runtime - omitted for duplicate)
++- org.apache.flume.flume-ng-sinks:flume-irc-sink:jar:1.6.0:compile
+|  +- (org.apache.flume:flume-ng-sdk:jar:1.6.0:compile - omitted for duplicate)
+|  +- (org.apache.flume:flume-ng-configuration:jar:1.6.0:compile - omitted for duplicate)
+|  +- (org.apache.flume:flume-ng-core:jar:1.6.0:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:provided - version managed from 1.6.1; scope managed from compile; omitted for duplicate)
+|  \- org.schwering:irclib:jar:1.10:compile
++- org.apache.flume.flume-ng-sinks:flume-ng-elasticsearch-sink:jar:1.6.0:compile
+|  +- (org.apache.flume:flume-ng-sdk:jar:1.6.0:compile - omitted for duplicate)
+|  +- (org.apache.flume:flume-ng-core:jar:1.6.0:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:provided - version managed from 1.6.1; scope managed from compile; omitted for duplicate)
+|  +- org.apache.httpcomponents:httpclient:jar:4.2.1:compile
+|  |  +- (org.apache.httpcomponents:httpcore:jar:4.2.1:compile - omitted for conflict with 4.1.3)
+|  |  +- commons-logging:commons-logging:jar:1.1.1:compile
+|  |  \- (commons-codec:commons-codec:jar:1.6:compile - omitted for conflict with 1.8)
+|  +- (commons-lang:commons-lang:jar:2.5:compile - omitted for duplicate)
+|  \- (com.google.guava:guava:jar:11.0.2:compile - omitted for duplicate)
++- org.apache.flume.flume-ng-sinks:flume-ng-hbase-sink:jar:1.6.0:compile
+|  +- (org.apache.flume:flume-ng-sdk:jar:1.6.0:compile - omitted for duplicate)
+|  +- (org.apache.flume:flume-ng-core:jar:1.6.0:compile - omitted for duplicate)
+|  +- (org.apache.flume:flume-ng-configuration:jar:1.6.0:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:provided - version managed from 1.6.1; scope managed from compile; omitted for duplicate)
+|  +- (com.google.guava:guava:jar:11.0.2:compile - omitted for duplicate)
+|  +- org.hbase:asynchbase:jar:1.5.0:compile
+|  |  +- (com.google.guava:guava:jar:13.0.1:compile - omitted for conflict with 11.0.2)
+|  |  +- com.google.protobuf:protobuf-java:jar:2.5.0:compile
+|  |  +- (io.netty:netty:jar:3.8.0.Final:compile - omitted for conflict with 3.5.12.Final)
+|  |  +- com.stumbleupon:async:jar:1.4.0:compile
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:provided - scope managed from compile; omitted for duplicate)
+|  |  +- (org.apache.zookeeper:zookeeper:jar:3.3.6:compile - omitted for conflict with 3.4.6)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:provided - version managed from 1.7.5; scope managed from compile; omitted for duplicate)
+|  +- (io.netty:netty:jar:3.5.12.Final:compile - omitted for duplicate)
+|  +- (commons-lang:commons-lang:jar:2.5:compile - omitted for duplicate)
+|  \- (org.apache.flume.flume-ng-sinks:flume-hdfs-sink:jar:1.6.0:compile - omitted for duplicate)
++- org.apache.flume.flume-ng-sinks:flume-ng-kafka-sink:jar:1.6.0:compile
+|  +- (org.apache.flume:flume-ng-sdk:jar:1.6.0:compile - omitted for duplicate)
+|  +- (org.apache.flume:flume-ng-core:jar:1.6.0:compile - omitted for duplicate)
+|  +- (org.apache.flume:flume-ng-configuration:jar:1.6.0:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:provided - version managed from 1.6.1; scope managed from compile; omitted for duplicate)
+|  \- (org.apache.kafka:kafka_2.10:jar:0.8.1.1:compile - omitted for duplicate)
++- org.apache.flume.flume-ng-sinks:flume-ng-morphline-solr-sink:jar:1.6.0:compile
+|  +- (org.apache.flume:flume-ng-core:jar:1.6.0:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:provided - version managed from 1.6.1; scope managed from compile; omitted for duplicate)
++- org.apache.nifi:nifi-mock:jar:1.6.0:test
+|  +- (org.apache.nifi:nifi-api:jar:1.6.0:provided - scope managed from test; omitted for duplicate)
+|  +- org.apache.nifi:nifi-framework-api:jar:1.6.0:provided (scope managed from test)
+|  |  \- (org.apache.nifi:nifi-api:jar:1.6.0:provided - scope managed from test; omitted for duplicate)
+|  +- (org.apache.nifi:nifi-utils:jar:1.6.0:test - omitted for duplicate)
+|  +- org.apache.nifi:nifi-expression-language:jar:1.6.0:test
+|  |  +- org.antlr:antlr-runtime:jar:3.5.2:test
+|  |  +- (org.apache.nifi:nifi-api:jar:1.6.0:provided - scope managed from test; omitted for duplicate)
+|  |  +- (org.apache.nifi:nifi-utils:jar:1.6.0:test - omitted for duplicate)
+|  |  +- com.jayway.jsonpath:json-path:jar:2.0.0:test
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.25:provided - version managed from 1.7.10; scope managed from test; omitted for duplicate)
+|  |  |  \- net.minidev:json-smart:jar:2.1.1:test
+|  |  |     \- net.minidev:asm:jar:1.0.2:test
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.4:test - omitted for conflict with 2.3.1)
+|  |  \- (org.apache.commons:commons-lang3:jar:3.7:test - omitted for duplicate)
+|  \- org.apache.nifi:nifi-data-provenance-utils:jar:1.6.0:test
+|     +- (org.apache.nifi:nifi-api:jar:1.6.0:provided - scope managed from test; omitted for duplicate)
+|     +- (org.apache.nifi:nifi-framework-api:jar:1.6.0:provided - scope managed from test; omitted for duplicate)
+|     +- (org.apache.nifi:nifi-utils:jar:1.6.0:test - omitted for duplicate)
+|     +- org.apache.nifi:nifi-security-utils:jar:1.6.0:test
+|     |  +- (org.apache.nifi:nifi-api:jar:1.6.0:provided - scope managed from test; omitted for duplicate)
+|     |  +- (org.apache.nifi:nifi-utils:jar:1.6.0:test - omitted for duplicate)
+|     |  +- (org.apache.commons:commons-lang3:jar:3.7:test - omitted for duplicate)
+|     |  +- (commons-codec:commons-codec:jar:1.11:test - omitted for conflict with 1.8)
+|     |  +- (org.bouncycastle:bcprov-jdk15on:jar:1.59:test - omitted for duplicate)
+|     |  +- org.bouncycastle:bcpkix-jdk15on:jar:1.59:test
+|     |  |  \- (org.bouncycastle:bcprov-jdk15on:jar:1.59:test - omitted for duplicate)
+|     |  \- (org.apache.nifi:nifi-properties:jar:1.6.0:provided - scope managed from test; omitted for duplicate)
+|     +- org.bouncycastle:bcprov-jdk15on:jar:1.59:test
+|     +- org.apache.nifi:nifi-properties-loader:jar:1.6.0:test
+|     |  +- (org.bouncycastle:bcprov-jdk15on:jar:1.59:test - omitted for duplicate)
+|     |  +- ch.qos.logback:logback-classic:jar:1.2.3:test
+|     |  |  +- ch.qos.logback:logback-core:jar:1.2.3:test
+|     |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:provided - version managed from 1.7.10; scope managed from test; omitted for duplicate)
+|     |  \- (org.apache.commons:commons-lang3:jar:3.7:test - omitted for duplicate)
+|     \- org.apache.nifi:nifi-properties:jar:1.6.0:provided
++- junit:junit:jar:4.12:test (scope not updated to compile)
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.mockito:mockito-core:jar:1.10.19:test
+|  +- (org.hamcrest:hamcrest-core:jar:1.1:test - omitted for conflict with 1.3)
+|  \- (org.objenesis:objenesis:jar:2.1:compile - scope updated from test; omitted for duplicate)
++- org.slf4j:slf4j-simple:jar:1.7.25:test
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:provided - version managed from 1.7.10; scope managed from test; omitted for duplicate)
+\- org.codehaus.groovy:groovy-all:jar:2.4.13:test

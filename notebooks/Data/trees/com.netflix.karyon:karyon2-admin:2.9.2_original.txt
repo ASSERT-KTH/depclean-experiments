@@ -1,0 +1,103 @@
+com.netflix.karyon:karyon2-admin:jar:2.9.2
++- org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:runtime
+|  \- org.codehaus.jackson:jackson-core-asl:jar:1.9.13:runtime
++- org.slf4j:slf4j-api:jar:1.7.13:runtime
++- javax.ws.rs:jsr311-api:jar:1.1.1:runtime
++- javax.servlet:javax.servlet-api:jar:3.0.1:runtime
++- org.mortbay.jetty:jetty:jar:6.1.26:runtime
+|  +- org.mortbay.jetty:jetty-util:jar:6.1.26:runtime
+|  \- org.mortbay.jetty:servlet-api:jar:2.5-20081211:runtime
++- com.google.inject.extensions:guice-servlet:jar:4.1.0:runtime
+|  \- com.google.inject:guice:jar:4.1.0:runtime
+|     +- (javax.inject:javax.inject:jar:1:runtime - omitted for duplicate)
+|     +- aopalliance:aopalliance:jar:1.0:runtime
+|     \- (com.google.guava:guava:jar:19.0:runtime - omitted for duplicate)
++- com.sun.jersey.contribs:jersey-guice:jar:1.19:runtime
+|  +- javax.inject:javax.inject:jar:1:runtime
+|  +- (com.google.inject:guice:jar:3.0:runtime - omitted for conflict with 4.1.0)
+|  +- (com.google.inject.extensions:guice-servlet:jar:3.0:runtime - omitted for conflict with 4.1.0)
+|  \- (com.sun.jersey:jersey-servlet:jar:1.19:runtime - omitted for conflict with 1.19.1)
++- com.sun.jersey:jersey-servlet:jar:1.19.1:runtime
+|  \- (com.sun.jersey:jersey-server:jar:1.19.1:runtime - omitted for duplicate)
++- com.sun.jersey:jersey-server:jar:1.19.1:runtime
+|  \- (com.sun.jersey:jersey-core:jar:1.19.1:runtime - omitted for duplicate)
++- com.netflix.pytheas:pytheas-core:jar:1.29.0:runtime
+|  +- (com.sun.jersey:jersey-servlet:jar:1.19:runtime - omitted for conflict with 1.19.1)
+|  +- (javax.ws.rs:jsr311-api:jar:1.1.1:runtime - omitted for duplicate)
+|  +- (com.sun.jersey.contribs:jersey-guice:jar:1.19:runtime - omitted for duplicate)
+|  +- (com.sun.jersey:jersey-core:jar:1.19:runtime - omitted for conflict with 1.19.1)
+|  +- (com.sun.jersey:jersey-json:jar:1.19:runtime - omitted for conflict with 1.19.1)
+|  +- (org.slf4j:slf4j-api:jar:1.7.13:runtime - omitted for duplicate)
+|  +- com.netflix.pytheas:pytheas-api:jar:1.29.0:runtime
+|  |  +- (javax.ws.rs:jsr311-api:jar:1.1.1:runtime - omitted for duplicate)
+|  |  +- (com.sun.jersey.contribs:jersey-guice:jar:1.19:runtime - omitted for duplicate)
+|  |  +- (com.sun.jersey:jersey-core:jar:1.19:runtime - omitted for conflict with 1.19.1)
+|  |  +- (com.sun.jersey:jersey-json:jar:1.19:runtime - omitted for duplicate)
+|  |  +- (com.sun.jersey:jersey-servlet:jar:1.19:runtime - omitted for conflict with 1.19.1)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.13:runtime - omitted for duplicate)
+|  |  +- (commons-configuration:commons-configuration:jar:1.8:runtime - omitted for duplicate)
+|  |  \- (com.google.guava:guava:jar:18.0:runtime - omitted for conflict with 19.0)
+|  +- javax.servlet:servlet-api:jar:2.5:runtime
+|  +- commons-configuration:commons-configuration:jar:1.8:runtime
+|  |  +- commons-lang:commons-lang:jar:2.6:runtime
+|  |  \- commons-logging:commons-logging:jar:1.1.1:runtime
+|  +- com.google.guava:guava:jar:19.0:runtime
+|  +- (com.google.inject.extensions:guice-servlet:jar:4.0:runtime - omitted for conflict with 4.1.0)
+|  +- com.google.code.findbugs:annotations:jar:2.0.0:runtime
+|  +- (com.sun.jersey:jersey-server:jar:1.19:runtime - omitted for conflict with 1.19.1)
+|  +- (org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:runtime - omitted for duplicate)
+|  +- org.freemarker:freemarker:jar:2.3.15:runtime
+|  +- com.netflix.archaius:archaius-core:jar:0.7.3:runtime
+|  |  +- com.google.code.findbugs:jsr305:jar:3.0.1:runtime
+|  |  +- (commons-configuration:commons-configuration:jar:1.8:runtime - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.6.4:runtime - omitted for conflict with 1.7.13)
+|  |  +- (com.google.guava:guava:jar:16.0:runtime - omitted for conflict with 19.0)
+|  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.4.3:runtime
+|  |  +- com.fasterxml.jackson.core:jackson-core:jar:2.4.3:runtime
+|  |  \- com.fasterxml.jackson.core:jackson-databind:jar:2.4.3:runtime
+|  |     +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.4.0:runtime - omitted for conflict with 2.4.3)
+|  |     \- (com.fasterxml.jackson.core:jackson-core:jar:2.4.3:runtime - omitted for duplicate)
+|  +- com.netflix.governator:governator:jar:1.14.2:runtime
+|  |  +- com.netflix.governator:governator-api:jar:1.14.2:runtime
+|  |  |  \- (javax.inject:javax.inject:jar:1:runtime - omitted for duplicate)
+|  |  +- com.netflix.governator:governator-core:jar:1.14.2:runtime
+|  |  |  +- (com.netflix.governator:governator-api:jar:1.14.2:runtime - omitted for duplicate)
+|  |  |  +- (javax.inject:javax.inject:jar:1:runtime - omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.2:runtime - omitted for conflict with 1.7.13)
+|  |  |  +- (com.google.inject:guice:jar:4.1.0:runtime - omitted for duplicate)
+|  |  |  +- com.google.inject.extensions:guice-multibindings:jar:4.1.0:runtime
+|  |  |  |  \- (com.google.inject:guice:jar:4.1.0:runtime - omitted for duplicate)
+|  |  |  \- com.google.inject.extensions:guice-grapher:jar:4.1.0:runtime
+|  |  |     +- com.google.inject.extensions:guice-assistedinject:jar:4.1.0:runtime
+|  |  |     |  \- (com.google.inject:guice:jar:4.1.0:runtime - omitted for duplicate)
+|  |  |     +- (com.google.inject.extensions:guice-multibindings:jar:4.1.0:runtime - omitted for duplicate)
+|  |  |     \- (com.google.inject:guice:jar:4.1.0:runtime - omitted for duplicate)
+|  |  +- org.hibernate:hibernate-validator:jar:4.1.0.Final:runtime
+|  |  |  +- javax.validation:validation-api:jar:1.0.0.GA:runtime
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.5.6:runtime - omitted for conflict with 1.7.13)
+|  |  +- org.ow2.asm:asm:jar:5.0.4:runtime
+|  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.4.3:runtime - omitted for duplicate)
+|  +- com.github.stephenc.high-scale-lib:high-scale-lib:jar:1.1.2:runtime
+|  +- commons-collections:commons-collections:jar:3.2.1:runtime
+|  +- commons-codec:commons-codec:jar:1.7:runtime
+|  +- commons-beanutils:commons-beanutils:jar:1.9.1:runtime
+|  |  +- (commons-logging:commons-logging:jar:1.1.1:runtime - omitted for duplicate)
+|  |  \- (commons-collections:commons-collections:jar:3.2.1:runtime - omitted for duplicate)
+|  \- commons-io:commons-io:jar:2.4:runtime
++- com.sun.jersey:jersey-core:jar:1.19.1:runtime
+|  \- (javax.ws.rs:jsr311-api:jar:1.1.1:runtime - omitted for duplicate)
+\- com.sun.jersey:jersey-json:jar:1.19.1:runtime
+   +- org.codehaus.jettison:jettison:jar:1.1:runtime
+   +- com.sun.xml.bind:jaxb-impl:jar:2.2.3-1:runtime
+   |  \- javax.xml.bind:jaxb-api:jar:2.2.2:runtime
+   |     +- javax.xml.stream:stax-api:jar:1.0-2:runtime
+   |     \- javax.activation:activation:jar:1.1:runtime
+   +- (org.codehaus.jackson:jackson-core-asl:jar:1.9.2:runtime - omitted for conflict with 1.9.13)
+   +- (org.codehaus.jackson:jackson-mapper-asl:jar:1.9.2:runtime - omitted for conflict with 1.9.13)
+   +- org.codehaus.jackson:jackson-jaxrs:jar:1.9.2:runtime
+   |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.9.2:runtime - omitted for conflict with 1.9.13)
+   |  \- (org.codehaus.jackson:jackson-mapper-asl:jar:1.9.2:runtime - omitted for conflict with 1.9.13)
+   +- org.codehaus.jackson:jackson-xc:jar:1.9.2:runtime
+   |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.9.2:runtime - omitted for conflict with 1.9.13)
+   |  \- (org.codehaus.jackson:jackson-mapper-asl:jar:1.9.2:runtime - omitted for conflict with 1.9.13)
+   \- (com.sun.jersey:jersey-core:jar:1.19.1:runtime - omitted for duplicate)

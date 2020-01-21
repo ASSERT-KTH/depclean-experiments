@@ -1,0 +1,170 @@
+org.quasar-analytics:quasar-foundation-internal_2.11:jar:27.6.24
++- org.typelevel:scala-library:jar:2.11.8:compile
++- com.slamdata:slamdata-predef_2.11:jar:0.0.4:compile
+|  +- (org.typelevel:scala-library:jar:2.11.8:compile - omitted for duplicate)
+|  +- (org.scalaz:scalaz-core_2.11:jar:7.2.8:compile - omitted for conflict with 7.2.17)
+|  \- org.scalactic:scalactic_2.11:jar:3.0.1:compile
+|     +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for duplicate)
+|     \- (org.scala-lang:scala-reflect:jar:2.11.8:compile - omitted for duplicate)
++- org.scalaz:scalaz-core_2.11:jar:7.2.17:compile
+|  \- org.scala-lang:scala-library:jar:2.11.11:compile
++- org.scalaz:scalaz-concurrent_2.11:jar:7.2.17:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for duplicate)
+|  +- (org.scalaz:scalaz-core_2.11:jar:7.2.17:compile - omitted for duplicate)
+|  \- org.scalaz:scalaz-effect_2.11:jar:7.2.17:compile
+|     +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for duplicate)
+|     \- (org.scalaz:scalaz-core_2.11:jar:7.2.17:compile - omitted for duplicate)
++- org.scalaz.stream:scalaz-stream_2.11:jar:0.8.6a:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.11)
+|  +- (org.scalaz:scalaz-core_2.11:jar:7.2.7:compile - omitted for conflict with 7.2.17)
+|  +- (org.scalaz:scalaz-concurrent_2.11:jar:7.2.7:compile - omitted for conflict with 7.2.17)
+|  \- org.scodec:scodec-bits_2.11:jar:1.1.2:compile
+|     \- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.11)
++- com.github.julien-truffaut:monocle-core_2.11:jar:1.4.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.11)
+|  +- (org.scalaz:scalaz-core_2.11:jar:7.2.8:compile - omitted for conflict with 7.2.17)
+|  \- org.scala-lang.modules:scala-java8-compat_2.11:jar:0.7.0:compile
+|     \- (org.scala-lang:scala-library:jar:2.11.7:compile - omitted for conflict with 2.11.11)
++- org.typelevel:algebra_2.11:jar:0.7.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.11)
+|  \- org.typelevel:cats-kernel_2.11:jar:0.9.0:compile
+|     \- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.11)
++- org.typelevel:spire_2.11:jar:0.14.1:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.11)
+|  +- org.typelevel:spire-macros_2.11:jar:0.14.1:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.11)
+|  |  +- (org.typelevel:machinist_2.11:jar:0.6.1:compile - omitted for duplicate)
+|  |  \- (org.typelevel:algebra_2.11:jar:0.7.0:compile - omitted for duplicate)
+|  +- org.typelevel:machinist_2.11:jar:0.6.1:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.11)
+|  |  \- (org.scala-lang:scala-reflect:jar:2.11.8:compile - omitted for duplicate)
+|  \- (org.typelevel:algebra_2.11:jar:0.7.0:compile - omitted for duplicate)
++- io.argonaut:argonaut_2.11:jar:6.2:compile
+|  \- org.scala-lang:scala-reflect:jar:2.11.8:compile
+|     \- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.11)
++- io.argonaut:argonaut-scalaz_2.11:jar:6.2:compile
+|  +- (io.argonaut:argonaut_2.11:jar:6.2:compile - omitted for duplicate)
+|  +- (org.scala-lang:scala-reflect:jar:2.11.8:compile - omitted for duplicate)
+|  \- (org.scalaz:scalaz-core_2.11:jar:7.2.10:compile - omitted for conflict with 7.2.17)
++- com.slamdata:matryoshka-core_2.11:jar:0.18.3:compile
+|  +- (org.typelevel:scala-library:jar:2.11.8:compile - omitted for duplicate)
+|  +- (com.slamdata:slamdata-predef_2.11:jar:0.0.2:compile - omitted for conflict with 0.0.4)
+|  +- (com.github.julien-truffaut:monocle-core_2.11:jar:1.4.0:compile - omitted for duplicate)
+|  +- (org.scalaz:scalaz-core_2.11:jar:7.2.8:compile - omitted for conflict with 7.2.17)
+|  \- (com.github.mpilquist:simulacrum_2.11:jar:0.10.0:compile - omitted for duplicate)
++- com.slamdata:pathy-core_2.11:jar:0.2.11:compile
+|  +- (org.typelevel:scala-library:jar:2.11.8:compile - omitted for duplicate)
+|  +- (com.slamdata:slamdata-predef_2.11:jar:0.0.2:compile - omitted for conflict with 0.0.4)
+|  \- (org.scalaz:scalaz-core_2.11:jar:7.2.9:compile - omitted for conflict with 7.2.17)
++- com.slamdata:pathy-argonaut_2.11:jar:0.2.11:compile
+|  +- (org.typelevel:scala-library:jar:2.11.8:compile - omitted for duplicate)
+|  +- (com.slamdata:pathy-core_2.11:jar:0.2.11:compile - omitted for duplicate)
+|  +- com.slamdata:pathy-scalacheck_2.11:jar:0.2.11:compile
+|  |  +- (org.typelevel:scala-library:jar:2.11.8:compile - omitted for duplicate)
+|  |  +- (com.slamdata:pathy-core_2.11:jar:0.2.11:compile - omitted for duplicate)
+|  |  +- (com.slamdata:slamdata-predef_2.11:jar:0.0.2:compile - omitted for conflict with 0.0.4)
+|  |  +- (org.scalaz:scalaz-core_2.11:jar:7.2.9:compile - omitted for conflict with 7.2.17)
+|  |  \- (org.scalacheck:scalacheck_2.11:jar:1.13.4:compile - omitted for duplicate)
+|  +- (com.slamdata:slamdata-predef_2.11:jar:0.0.2:compile - omitted for conflict with 0.0.4)
+|  \- (io.argonaut:argonaut_2.11:jar:6.2-RC2:compile - omitted for conflict with 6.2)
++- eu.timepit:refined_2.11:jar:0.8.3:compile
+|  +- org.scala-lang:scala-compiler:jar:2.11.11:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for duplicate)
+|  |  +- (org.scala-lang:scala-reflect:jar:2.11.11:compile - omitted for conflict with 2.11.8)
+|  |  +- (org.scala-lang.modules:scala-xml_2.11:jar:1.0.5:compile - omitted for conflict with 1.0.6)
+|  |  \- org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.0.4:compile
+|  |     \- (org.scala-lang:scala-library:jar:2.11.6:compile - omitted for conflict with 2.11.11)
+|  +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for duplicate)
+|  +- (org.scala-lang:scala-reflect:jar:2.11.11:compile - omitted for conflict with 2.11.8)
+|  +- org.typelevel:macro-compat_2.11:jar:1.1.1:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.11.7:compile - omitted for conflict with 2.11.11)
+|  +- (com.chuusai:shapeless_2.11:jar:2.3.2:compile - omitted for duplicate)
+|  \- org.scala-lang.modules:scala-xml_2.11:jar:1.0.6:compile
+|     \- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.11)
++- com.chuusai:shapeless_2.11:jar:2.3.2:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.11)
+|  \- (org.typelevel:macro-compat_2.11:jar:1.1.1:compile - omitted for duplicate)
++- org.scalacheck:scalacheck_2.11:jar:1.13.4:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.11)
+|  \- org.scala-sbt:test-interface:jar:1.0:compile
++- com.propensive:contextual_2.11:jar:1.0.1:compile
+|  +- (org.scala-lang:scala-compiler:jar:2.11.8:compile - omitted for conflict with 2.11.11)
+|  +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.11)
+|  +- (org.typelevel:macro-compat_2.11:jar:1.1.1:compile - omitted for duplicate)
+|  \- (org.scala-lang:scala-reflect:jar:2.11.8:compile - omitted for duplicate)
++- com.github.mpilquist:simulacrum_2.11:jar:0.10.0:test (scope not updated to compile)
+|  +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.11)
+|  \- (org.typelevel:macro-compat_2.11:jar:1.1.1:test - omitted for duplicate)
++- org.typelevel:algebra-laws_2.11:jar:0.7.0:test
+|  +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.11)
+|  +- (org.typelevel:algebra_2.11:jar:0.7.0:test - omitted for duplicate)
+|  +- org.typelevel:cats-kernel-laws_2.11:jar:0.9.0:test
+|  |  +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.11)
+|  |  +- (org.typelevel:cats-kernel_2.11:jar:0.9.0:test - omitted for duplicate)
+|  |  +- (org.scalacheck:scalacheck_2.11:jar:1.13.4:test - omitted for duplicate)
+|  |  +- (org.typelevel:discipline_2.11:jar:0.7.2:test - omitted for duplicate)
+|  |  \- org.typelevel:catalysts-platform_2.11:jar:0.0.5:test
+|  |     +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.11)
+|  |     \- org.typelevel:catalysts-macros_2.11:jar:0.0.5:test
+|  |        +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.11)
+|  |        \- (org.typelevel:macro-compat_2.11:jar:1.1.1:test - omitted for duplicate)
+|  +- (org.scalacheck:scalacheck_2.11:jar:1.13.4:test - omitted for duplicate)
+|  \- (org.typelevel:discipline_2.11:jar:0.7.2:test - omitted for conflict with 0.5)
++- org.typelevel:discipline_2.11:jar:0.5:test
+|  +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.11)
+|  \- (org.scalacheck:scalacheck_2.11:jar:1.13.1:test - omitted for conflict with 1.13.4)
++- org.typelevel:spire-laws_2.11:jar:0.14.1:test
+|  +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.11)
+|  +- (org.typelevel:spire_2.11:jar:0.14.1:test - omitted for duplicate)
+|  +- org.typelevel:spire-extras_2.11:jar:0.14.1:test
+|  |  +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.11)
+|  |  +- (org.typelevel:spire_2.11:jar:0.14.1:test - omitted for duplicate)
+|  |  +- (org.typelevel:machinist_2.11:jar:0.6.1:test - omitted for duplicate)
+|  |  \- (org.typelevel:algebra_2.11:jar:0.7.0:test - omitted for duplicate)
+|  +- (org.typelevel:machinist_2.11:jar:0.6.1:test - omitted for duplicate)
+|  +- (org.typelevel:algebra_2.11:jar:0.7.0:test - omitted for duplicate)
+|  +- (org.typelevel:discipline_2.11:jar:0.7.2:test - omitted for conflict with 0.5)
+|  \- (org.scalacheck:scalacheck_2.11:jar:1.13.4:test - omitted for duplicate)
++- org.specs2:specs2-core_2.11:jar:3.8.4:test
+|  +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.11)
+|  +- org.specs2:specs2-matcher_2.11:jar:3.8.4:test
+|  |  +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.11)
+|  |  \- org.specs2:specs2-common_2.11:jar:3.8.4:test
+|  |     +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.11)
+|  |     +- org.specs2:specs2-codata_2.11:jar:3.8.4:test
+|  |     |  +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.11)
+|  |     |  +- (org.scalaz:scalaz-core_2.11:jar:7.2.3:test - omitted for conflict with 7.2.17)
+|  |     |  +- (org.scalaz:scalaz-effect_2.11:jar:7.2.3:test - omitted for conflict with 7.2.17)
+|  |     |  \- (org.scalaz:scalaz-concurrent_2.11:jar:7.2.3:test - omitted for conflict with 7.2.17)
+|  |     +- (org.scalaz:scalaz-core_2.11:jar:7.2.3:test - omitted for conflict with 7.2.17)
+|  |     +- (org.scalaz:scalaz-effect_2.11:jar:7.2.3:test - omitted for conflict with 7.2.17)
+|  |     +- (org.scalaz:scalaz-concurrent_2.11:jar:7.2.3:test - omitted for conflict with 7.2.17)
+|  |     +- (org.scala-lang:scala-reflect:jar:2.11.8:test - omitted for duplicate)
+|  |     +- (org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.0.4:test - omitted for duplicate)
+|  |     \- (org.scala-lang.modules:scala-xml_2.11:jar:1.0.5:test - omitted for conflict with 1.0.6)
+|  \- (org.scala-lang:scala-reflect:jar:2.11.8:test - omitted for duplicate)
++- org.scalaz:scalaz-scalacheck-binding_2.11:jar:7.2.17-scalacheck-1.13:test
+|  +- (org.scala-lang:scala-library:jar:2.11.11:test - omitted for duplicate)
+|  +- (org.scalaz:scalaz-core_2.11:jar:7.2.17:test - omitted for duplicate)
+|  +- org.scalaz:scalaz-iteratee_2.11:jar:7.2.17:test
+|  |  +- (org.scala-lang:scala-library:jar:2.11.11:test - omitted for duplicate)
+|  |  +- (org.scalaz:scalaz-core_2.11:jar:7.2.17:test - omitted for duplicate)
+|  |  \- (org.scalaz:scalaz-effect_2.11:jar:7.2.17:test - omitted for duplicate)
+|  +- (org.scalaz:scalaz-concurrent_2.11:jar:7.2.17:test - omitted for duplicate)
+|  \- (org.scalacheck:scalacheck_2.11:jar:1.13.5:test - omitted for conflict with 1.13.4)
++- org.typelevel:shapeless-scalacheck_2.11:jar:0.6:test
+|  +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.11)
+|  +- org.typelevel:shapeless-contrib-common_2.11:jar:0.6:test
+|  |  +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.11)
+|  |  \- (com.chuusai:shapeless_2.11:jar:2.3.2:test - omitted for duplicate)
+|  +- (com.chuusai:shapeless_2.11:jar:2.3.2:test - omitted for duplicate)
+|  \- (org.scalacheck:scalacheck_2.11:jar:1.13.4:test - omitted for duplicate)
+\- org.typelevel:scalaz-specs2_2.11:jar:0.5.0:test
+   +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.11)
+   +- (org.scalaz:scalaz-core_2.11:jar:7.2.7:test - omitted for conflict with 7.2.17)
+   +- (org.scalacheck:scalacheck_2.11:jar:1.13.4:test - omitted for duplicate)
+   +- (org.specs2:specs2-core_2.11:jar:3.8.6:test - omitted for conflict with 3.8.4)
+   \- org.specs2:specs2-scalacheck_2.11:jar:3.8.6:test
+      +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.11)
+      +- (org.specs2:specs2-core_2.11:jar:3.8.6:test - omitted for conflict with 3.8.4)
+      \- (org.scalacheck:scalacheck_2.11:jar:1.13.4:test - omitted for duplicate)

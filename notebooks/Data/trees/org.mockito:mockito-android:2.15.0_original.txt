@@ -1,0 +1,9 @@
+org.mockito:mockito-android:jar:2.15.0
++- org.mockito:mockito-core:jar:2.15.0:compile
+|  +- net.bytebuddy:byte-buddy:jar:1.7.9:compile
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.7.9:compile
+|  \- org.objenesis:objenesis:jar:2.6:compile
+\- net.bytebuddy:byte-buddy-android:jar:1.7.9:compile
+   +- (net.bytebuddy:byte-buddy:jar:1.7.9:compile - omitted for duplicate)
+   \- com.jakewharton.android.repackaged:dalvik-dx:jar:1:compile
+      \- com.jakewharton.android.repackaged:libcore-dex:jar:2:compile

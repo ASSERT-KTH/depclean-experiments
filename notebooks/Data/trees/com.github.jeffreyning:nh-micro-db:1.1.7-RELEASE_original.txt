@@ -1,0 +1,2 @@
+com.github.jeffreyning:nh-micro-db:jar:1.1.7-RELEASE
+\- com.github.jeffreyning:nh-micro-engine:jar:0.0.3-RELEASE:compile

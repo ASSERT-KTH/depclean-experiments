@@ -1,0 +1,64 @@
+org.t-io:tio-http-server:jar:3.0.1.v20180601-RELEASE
++- org.t-io:tio-http-common:jar:3.0.1.v20180601-RELEASE:compile
+|  +- org.t-io:tio-core:jar:3.0.1.v20180601-RELEASE:compile
+|  |  +- org.t-io:tio-utils:jar:3.0.1.v20180601-RELEASE:compile
+|  |  |  +- org.apache.commons:commons-collections4:jar:4.1:compile
+|  |  |  +- org.apache.commons:commons-lang3:jar:3.7:compile
+|  |  |  +- org.apache.commons:commons-text:jar:1.3:compile
+|  |  |  |  \- (org.apache.commons:commons-lang3:jar:3.7:compile - omitted for duplicate)
+|  |  |  +- org.slf4j:slf4j-api:jar:1.7.25:compile
+|  |  |  +- cn.hutool:hutool-all:jar:4.0.12:compile
+|  |  |  +- com.alibaba:fastjson:jar:1.2.47:compile
+|  |  |  +- com.google.guava:guava:jar:25.1-jre:compile
+|  |  |  |  +- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+|  |  |  |  +- org.checkerframework:checker-qual:jar:2.0.0:compile
+|  |  |  |  +- com.google.errorprone:error_prone_annotations:jar:2.1.3:compile
+|  |  |  |  +- com.google.j2objc:j2objc-annotations:jar:1.1:compile
+|  |  |  |  \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:compile
+|  |  |  +- com.github.ben-manes.caffeine:caffeine:jar:2.6.2:compile
+|  |  |  +- org.jodd:jodd-core:jar:4.3.2:compile
+|  |  |  \- org.apache.commons:commons-compress:jar:1.16.1:compile
+|  |  |     \- org.objenesis:objenesis:jar:2.6:compile
+|  |  \- (org.redisson:redisson:jar:3.7.0:compile - omitted for duplicate)
+|  +- commons-codec:commons-codec:jar:1.11:compile
+|  \- org.freemarker:freemarker:jar:2.3.28:compile
++- org.redisson:redisson:jar:3.7.0:provided (scope not updated to compile)
+|  +- io.netty:netty-common:jar:4.1.24.Final:provided
+|  +- io.netty:netty-codec:jar:4.1.24.Final:provided
+|  |  \- (io.netty:netty-transport:jar:4.1.24.Final:provided - omitted for duplicate)
+|  +- io.netty:netty-buffer:jar:4.1.24.Final:provided
+|  |  \- (io.netty:netty-common:jar:4.1.24.Final:provided - omitted for duplicate)
+|  +- io.netty:netty-transport:jar:4.1.24.Final:provided
+|  |  +- (io.netty:netty-buffer:jar:4.1.24.Final:provided - omitted for duplicate)
+|  |  \- io.netty:netty-resolver:jar:4.1.24.Final:provided
+|  |     \- (io.netty:netty-common:jar:4.1.24.Final:provided - omitted for duplicate)
+|  +- io.netty:netty-resolver-dns:jar:4.1.24.Final:provided
+|  |  +- (io.netty:netty-resolver:jar:4.1.24.Final:provided - omitted for duplicate)
+|  |  +- io.netty:netty-codec-dns:jar:4.1.24.Final:provided
+|  |  |  \- (io.netty:netty-codec:jar:4.1.24.Final:provided - omitted for duplicate)
+|  |  \- (io.netty:netty-transport:jar:4.1.24.Final:provided - omitted for duplicate)
+|  +- io.netty:netty-handler:jar:4.1.24.Final:provided
+|  |  +- (io.netty:netty-buffer:jar:4.1.24.Final:provided - omitted for duplicate)
+|  |  +- (io.netty:netty-transport:jar:4.1.24.Final:provided - omitted for duplicate)
+|  |  \- (io.netty:netty-codec:jar:4.1.24.Final:provided - omitted for duplicate)
+|  +- javax.cache:cache-api:jar:1.0.0:provided
+|  +- io.projectreactor:reactor-core:jar:3.1.7.RELEASE:provided
+|  |  \- org.reactivestreams:reactive-streams:jar:1.0.2:provided
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - scope updated from provided; omitted for duplicate)
+|  +- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.7.9:provided
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.7.9:provided - omitted for duplicate)
+|  |  \- org.yaml:snakeyaml:jar:1.15:provided
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.7.9:provided
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.7.9.2:provided
+|  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.7.0:provided
+|  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.7.9:provided - omitted for duplicate)
+|  +- net.bytebuddy:byte-buddy:jar:1.8.11:provided
+|  \- org.jodd:jodd-bean:jar:4.3.2:provided (version managed from 3.7.1)
+|     \- (org.jodd:jodd-core:jar:4.3.2:compile - scope updated from provided; omitted for duplicate)
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.testng:testng:jar:6.14.3:test
+|  +- com.beust:jcommander:jar:1.72:test
+|  \- org.apache-extras.beanshell:bsh:jar:2.0b6:test
++- io.github.lukehutch:fast-classpath-scanner:jar:2.21:compile
+\- com.thoughtworks.paranamer:paranamer:jar:2.8:compile

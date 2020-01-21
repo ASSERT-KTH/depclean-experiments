@@ -1,0 +1,10 @@
+org.codehaus.groovy:groovy-docgenerator:jar:3.0.0-alpha-3
++- org.codehaus.groovy:groovy:jar:3.0.0-alpha-3:compile
++- org.codehaus.groovy:groovy-cli-picocli:jar:3.0.0-alpha-3:compile
+|  +- (org.codehaus.groovy:groovy:jar:3.0.0-alpha-3:compile - omitted for duplicate)
+|  \- info.picocli:picocli:jar:3.0.2:compile
++- org.codehaus.groovy:groovy-templates:jar:3.0.0-alpha-3:compile
+|  +- (org.codehaus.groovy:groovy:jar:3.0.0-alpha-3:compile - omitted for duplicate)
+|  \- org.codehaus.groovy:groovy-xml:jar:3.0.0-alpha-3:compile
+|     \- (org.codehaus.groovy:groovy:jar:3.0.0-alpha-3:compile - omitted for duplicate)
+\- com.thoughtworks.qdox:qdox:jar:1.12.1:compile

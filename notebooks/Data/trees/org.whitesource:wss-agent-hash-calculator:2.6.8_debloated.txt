@@ -1,0 +1,16 @@
+org.whitesource:wss-agent-hash-calculator:jar:2.6.8
++- org.whitesource:wss-agent-api:jar:2.6.8:compile
+|  +- org.whitesource:wss-agent-via-api:jar:2.6.8:compile
+|  \- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
++- commons-lang:commons-lang:jar:2.6:compile
++- commons-codec:commons-codec:jar:1.10:compile
++- commons-io:commons-io:jar:2.4:compile
++- org.whitesource:pecoff4j:jar:0.0.2.1:compile
++- net.java.dev.jna:jna-platform:jar:4.1.0:compile
+|  \- net.java.dev.jna:jna:jar:4.1.0:compile
++- org.mozilla:rhino:jar:1.7.7.2:compile
++- org.slf4j:slf4j-api:jar:1.7.5:provided
++- ch.qos.logback:logback-classic:jar:1.0.13:provided
+|  \- ch.qos.logback:logback-core:jar:1.0.13:provided
+\- junit:junit:jar:4.10:test
+   \- org.hamcrest:hamcrest-core:jar:1.1:test

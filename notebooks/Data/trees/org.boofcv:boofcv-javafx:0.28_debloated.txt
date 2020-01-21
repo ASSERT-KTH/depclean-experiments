@@ -1,0 +1,14 @@
+org.boofcv:boofcv-javafx:jar:0.28
++- org.boofcv:boofcv-ip:jar:0.28:compile
+|  \- (org.georegression:georegression:jar:0.15:compile - omitted for duplicate)
++- org.boofcv:boofcv-feature:jar:0.28:compile
+|  +- (org.georegression:georegression:jar:0.15:compile - omitted for duplicate)
+|  \- (org.boofcv:boofcv-ip:jar:0.28:compile - omitted for duplicate)
++- org.boofcv:boofcv-sfm:jar:0.28:compile
+|  +- (org.georegression:georegression:jar:0.15:compile - omitted for duplicate)
+|  +- (org.boofcv:boofcv-ip:jar:0.28:compile - omitted for duplicate)
+|  +- (org.boofcv:boofcv-feature:jar:0.28:compile - omitted for duplicate)
+|  +- (org.boofcv:boofcv-geo:jar:0.28:compile - omitted for duplicate)
+|  \- (org.boofcv:boofcv-calibration:jar:0.28:compile - omitted for duplicate)
+\- junit:junit:jar:4.12:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

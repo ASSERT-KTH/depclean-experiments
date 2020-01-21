@@ -1,0 +1,44 @@
+io.chrisdavenport:cormorant-parser_2.12:jar:0.0.7
++- org.scala-lang:scala-library:jar:2.12.6:compile
++- io.chrisdavenport:cormorant-core_2.12:jar:0.0.7:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
+|  \- (org.typelevel:cats-core_2.12:jar:1.1.0:compile - omitted for duplicate)
++- org.typelevel:cats-core_2.12:jar:1.1.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.6)
+|  +- org.typelevel:cats-macros_2.12:jar:1.1.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.6)
+|  |  \- (org.typelevel:machinist_2.12:jar:0.6.2:compile - omitted for duplicate)
+|  +- org.typelevel:cats-kernel_2.12:jar:1.1.0:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.6)
+|  \- org.typelevel:machinist_2.12:jar:0.6.2:compile
+|     +- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.6)
+|     \- org.scala-lang:scala-reflect:jar:2.12.0:compile
+|        \- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.6)
++- org.specs2:specs2-core_2.12:jar:4.3.2:test
+|  +- (org.scala-lang:scala-library:jar:2.12.6:test - omitted for duplicate)
+|  +- org.specs2:specs2-matcher_2.12:jar:4.3.2:test
+|  |  +- (org.scala-lang:scala-library:jar:2.12.6:test - omitted for duplicate)
+|  |  \- org.specs2:specs2-common_2.12:jar:4.3.2:test
+|  |     +- (org.scala-lang:scala-library:jar:2.12.6:test - omitted for duplicate)
+|  |     +- org.specs2:specs2-fp_2.12:jar:4.3.2:test
+|  |     |  \- (org.scala-lang:scala-library:jar:2.12.6:test - omitted for duplicate)
+|  |     +- (org.scala-lang:scala-reflect:jar:2.12.6:test - omitted for conflict with 2.12.0)
+|  |     +- org.scala-lang.modules:scala-parser-combinators_2.12:jar:1.1.1:test
+|  |     |  \- (org.scala-lang:scala-library:jar:2.12.6:test - omitted for duplicate)
+|  |     \- org.scala-lang.modules:scala-xml_2.12:jar:1.1.0:test
+|  |        \- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for conflict with 2.12.6)
+|  \- org.scala-sbt:test-interface:jar:1.0:test
++- org.specs2:specs2-scalacheck_2.12:jar:4.3.2:test
+|  +- (org.scala-lang:scala-library:jar:2.12.6:test - omitted for duplicate)
+|  +- (org.specs2:specs2-core_2.12:jar:4.3.2:test - omitted for duplicate)
+|  +- (org.scala-sbt:test-interface:jar:1.0:test - omitted for duplicate)
+|  \- org.scalacheck:scalacheck_2.12:jar:1.14.0:test
+|     +- (org.scala-lang:scala-library:jar:2.12.5:test - omitted for conflict with 2.12.6)
+|     \- (org.scala-sbt:test-interface:jar:1.0:test - omitted for duplicate)
++- io.chrisdavenport:cats-scalacheck_2.12:jar:0.1.0:test
+|  +- (org.scala-lang:scala-library:jar:2.12.6:test - omitted for duplicate)
+|  +- (org.typelevel:cats-core_2.12:jar:1.1.0:test - omitted for duplicate)
+|  \- (org.scalacheck:scalacheck_2.12:jar:1.14.0:test - omitted for duplicate)
+\- org.tpolecat:atto-core_2.12:jar:0.6.2:compile
+   +- (org.scala-lang:scala-library:jar:2.12.5:compile - omitted for conflict with 2.12.6)
+   \- (org.typelevel:cats-core_2.12:jar:1.1.0:compile - omitted for duplicate)

@@ -1,0 +1,9 @@
+com.twosigma.webtau:webtau-utils:jar:0.23
++- commons-io:commons-io:jar:2.5:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+|  \- com.fasterxml.jackson.core:jackson-core:jar:2.9.5:compile
++- com.twosigma.webtau:webtau-utils-testing-data:jar:0.23:test
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
+\- org.codehaus.groovy:groovy-all:jar:2.4.12:test

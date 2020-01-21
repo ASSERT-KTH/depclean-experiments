@@ -1,0 +1,20 @@
+com.github.serkanalgl:hydro-oauth2-java:jar:1.0.0
++- com.mashape.unirest:unirest-java:jar:1.4.9:compile
+|  +- org.apache.httpcomponents:httpclient:jar:4.5.2:compile
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.4.4:compile
+|  |  +- commons-logging:commons-logging:jar:1.2:compile
+|  |  \- commons-codec:commons-codec:jar:1.9:compile
+|  +- org.apache.httpcomponents:httpasyncclient:jar:4.1.1:compile
+|  |  +- (org.apache.httpcomponents:httpcore:jar:4.4.4:compile - omitted for duplicate)
+|  |  +- org.apache.httpcomponents:httpcore-nio:jar:4.4.4:compile
+|  |  |  \- (org.apache.httpcomponents:httpcore:jar:4.4.4:compile - omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.1:compile - omitted for conflict with 4.5.2)
+|  |  \- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  +- org.apache.httpcomponents:httpmime:jar:4.5.2:compile
+|  |  \- (org.apache.httpcomponents:httpclient:jar:4.5.2:compile - omitted for duplicate)
+|  \- org.json:json:jar:20160212:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+|  \- com.fasterxml.jackson.core:jackson-core:jar:2.9.5:compile
+\- org.slf4j:slf4j-simple:jar:1.7.25:compile
+   \- org.slf4j:slf4j-api:jar:1.7.25:compile

@@ -1,0 +1,24 @@
+de.openkeyword:core:jar:0.1.17
++- org.antlr:antlr4-runtime:jar:4.7.1:compile
++- org.antlr:ST4:jar:4.0.8:compile
+|  \- org.antlr:antlr-runtime:jar:3.5.2:compile
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- com.sun.xml.bind:jaxb-core:jar:2.3.0:compile
++- javax.xml.bind:jaxb-api:jar:2.3.0:compile
++- com.sun.xml.bind:jaxb-impl:jar:2.3.0:compile
++- com.sun.xml.bind:jaxb-jxc:jar:2.3.0:compile
++- com.sun.xml.bind:jaxb-xjc:jar:2.3.0:compile
++- info.cukes:cucumber-java:jar:1.2.5:test
+|  \- info.cukes:cucumber-core:jar:1.2.5:test
+|     +- info.cukes:cucumber-html:jar:0.2.3:test
+|     +- (info.cukes:cucumber-jvm-deps:jar:1.0.5:test - omitted for duplicate)
+|     \- (info.cukes:gherkin:jar:2.12.2:test - omitted for duplicate)
++- info.cukes:cucumber-picocontainer:jar:1.2.5:test
+|  +- (info.cukes:cucumber-java:jar:1.2.5:test - omitted for duplicate)
+|  +- info.cukes:cucumber-jvm-deps:jar:1.0.5:test
+|  +- info.cukes:gherkin:jar:2.12.2:test
+|  \- org.picocontainer:picocontainer:jar:2.15:test
+\- info.cukes:cucumber-junit:jar:1.2.5:test
+   +- (info.cukes:cucumber-core:jar:1.2.5:test - omitted for duplicate)
+   \- (junit:junit:jar:4.12:test - omitted for duplicate)

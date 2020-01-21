@@ -1,0 +1,32 @@
+com.okta.sdk:okta-sdk-httpclient:jar:1.0.1
++- com.okta.sdk:okta-sdk-api:jar:1.0.1:compile
+|  \- org.slf4j:slf4j-api:jar:1.7.25:compile
++- com.okta.sdk:okta-sdk-impl:jar:1.0.1:compile
+|  +- (com.okta.sdk:okta-sdk-api:jar:1.0.1:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  +- io.jsonwebtoken:jjwt:jar:0.6.0:compile
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile
+|  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.5:compile (version managed from 2.9.0)
+|  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.9.5:compile
+|  \- org.yaml:snakeyaml:jar:1.17:compile
++- org.apache.httpcomponents:httpclient:jar:4.5.3:compile
+|  +- org.apache.httpcomponents:httpcore:jar:4.4.6:compile
+|  \- commons-codec:commons-codec:jar:1.9:compile
++- org.slf4j:jcl-over-slf4j:jar:1.7.25:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
++- org.mockito:mockito-core:jar:2.7.22:test
+|  +- net.bytebuddy:byte-buddy:jar:1.6.11:test
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.6.11:test
+|  \- org.objenesis:objenesis:jar:2.5:test
++- org.slf4j:slf4j-simple:jar:1.7.25:test
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)
++- org.testng:testng:jar:6.9.10:test
+|  \- com.beust:jcommander:jar:1.48:test
++- org.hamcrest:java-hamcrest:jar:2.0.0.0:test
++- org.codehaus.groovy:groovy:jar:2.4.15:test
++- org.codehaus.groovy:groovy-templates:jar:2.4.15:test
+|  +- (org.codehaus.groovy:groovy:jar:2.4.15:test - omitted for duplicate)
+|  \- org.codehaus.groovy:groovy-xml:jar:2.4.15:test
+|     \- (org.codehaus.groovy:groovy:jar:2.4.15:test - omitted for duplicate)
+\- org.codehaus.groovy:groovy-json:jar:2.4.15:test
+   \- (org.codehaus.groovy:groovy:jar:2.4.15:test - omitted for duplicate)

@@ -1,0 +1,3 @@
+org.apache.tomcat:tomcat-jsp-api:jar:8.5.32
++- org.apache.tomcat:tomcat-el-api:jar:8.5.32:compile
+\- org.apache.tomcat:tomcat-servlet-api:jar:8.5.32:compile

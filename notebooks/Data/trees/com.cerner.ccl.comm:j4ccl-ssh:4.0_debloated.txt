@@ -1,0 +1,46 @@
+com.cerner.ccl.comm:j4ccl-ssh:jar:4.0
++- com.cerner.ftp:ftp-util:jar:2.0:compile
+|  \- commons-logging:commons-logging:jar:1.2:compile
++- com.cerner.ftp:jsch-util:jar:2.0.0:compile
+|  +- net.sf.ehcache:ehcache-core:jar:2.6.11:compile
+|  \- commons-codec:commons-codec:jar:1.11:compile
++- com.cerner.ccl.comm:j4ccl:jar:3.0:compile
+|  \- org.slf4j:slf4j-api:jar:1.8.0-beta2:compile
++- com.github.cverges:expect4j:jar:1.9:compile
+|  +- org.apache.servicemix.bundles:org.apache.servicemix.bundles.oro:jar:2.0.8_6:compile
+|  +- commons-net:commons-net:jar:3.3:compile
+|  \- net.sourceforge.tcljava:com.springsource.tcl.lang.jacl:jar:1.4.1:compile
+|     \- net.sourceforge.tcljava:com.springsource.tcl.lang:jar:1.4.1:compile
++- com.jcraft:jsch:jar:0.1.54:compile
++- com.google.code.jetm:jetm-reporting-utilities:jar:1.0.1:compile
+|  \- org.jdom:jdom:jar:1.1:compile
++- commons-io:commons-io:jar:2.6:compile
++- commons-lang:commons-lang:jar:2.6:compile
++- fm.void.jetm:jetm:jar:1.2.3:compile
++- joda-time:joda-time:jar:2.10:compile
++- net.sf.json-lib:json-lib:jar:jdk15:2.4:compile
+|  +- commons-beanutils:commons-beanutils:jar:1.8.0:compile
+|  +- commons-collections:commons-collections:jar:3.2.1:compile
+|  \- net.sf.ezmorph:ezmorph:jar:1.0.6:compile
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.easytesting:fest-assert:jar:1.4:test
+|  \- org.easytesting:fest-util:jar:1.1.6:test
++- org.powermock:powermock-module-junit4:jar:2.0.0-beta.5:test
+|  \- org.powermock:powermock-module-junit4-common:jar:2.0.0-beta.5:test
+|     +- org.powermock:powermock-reflect:jar:2.0.0-beta.5:test
+|     \- org.powermock:powermock-core:jar:2.0.0-beta.5:test
+|        \- org.javassist:javassist:jar:3.22.0-CR2:test
++- org.powermock:powermock-api-mockito2:jar:2.0.0-beta.5:test
+|  +- org.powermock:powermock-api-support:jar:2.0.0-beta.5:test
+|  \- org.mockito:mockito-core:jar:2.18.3:test
+|     +- net.bytebuddy:byte-buddy:jar:1.8.5:test
+|     +- net.bytebuddy:byte-buddy-agent:jar:1.8.5:test
+|     \- org.objenesis:objenesis:jar:2.6:test
++- org.slf4j:slf4j-nop:jar:1.8.0-beta2:test
++- org.springframework:spring-context:jar:4.3.18.RELEASE:test
+|  +- org.springframework:spring-aop:jar:4.3.18.RELEASE:test
+|  +- org.springframework:spring-beans:jar:4.3.18.RELEASE:test
+|  +- org.springframework:spring-core:jar:4.3.18.RELEASE:test
+|  \- org.springframework:spring-expression:jar:4.3.18.RELEASE:test
+\- org.springframework:spring-test:jar:4.3.18.RELEASE:test

@@ -1,0 +1,4 @@
+org.webjars.npm:color-space:jar:1.16.0
++- org.webjars.npm:hsluv:jar:0.0.3:compile
+\- org.webjars.npm:mumath:jar:3.3.4:compile
+   \- org.webjars.npm:almost-equal:jar:1.1.0:compile

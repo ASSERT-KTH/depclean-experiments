@@ -1,0 +1,332 @@
+ai.grakn:migration-sql:jar:1.3.0
++- ai.grakn:migration-base:jar:1.3.0:compile
+|  +- commons-cli:commons-cli:jar:1.3:compile
+|  +- ai.grakn:client-java:jar:1.3.0:compile
+|  |  +- ai.grakn:grakn-graql:jar:1.3.0:compile
+|  |  |  +- (ai.grakn:grakn-core:jar:1.3.0:compile - omitted for duplicate)
+|  |  |  +- ai.grakn:grakn-kb:jar:1.3.0:compile
+|  |  |  |  +- (ai.grakn:grakn-core:jar:1.3.0:compile - omitted for duplicate)
+|  |  |  |  +- org.apache.tinkerpop:spark-gremlin:jar:3.2.5:compile
+|  |  |  |  |  +- (org.apache.tinkerpop:gremlin-core:jar:3.2.9:compile - version managed from 3.2.5; omitted for duplicate)
+|  |  |  |  |  +- org.apache.tinkerpop:gremlin-groovy:jar:3.2.5:compile
+|  |  |  |  |  |  +- (org.apache.tinkerpop:gremlin-core:jar:3.2.9:compile - version managed from 3.2.5; omitted for duplicate)
+|  |  |  |  |  |  +- org.apache.ivy:ivy:jar:2.3.0:compile
+|  |  |  |  |  |  +- org.codehaus.groovy:groovy:jar:indy:2.4.11:compile
+|  |  |  |  |  |  +- org.codehaus.groovy:groovy-groovysh:jar:indy:2.4.11:compile
+|  |  |  |  |  |  |  +- org.codehaus.groovy:groovy-console:jar:2.4.11:compile
+|  |  |  |  |  |  |  |  +- org.codehaus.groovy:groovy-templates:jar:2.4.11:compile
+|  |  |  |  |  |  |  |  |  +- org.codehaus.groovy:groovy-xml:jar:2.4.11:compile
+|  |  |  |  |  |  |  |  |  |  \- (org.codehaus.groovy:groovy:jar:2.4.11:compile - omitted for duplicate)
+|  |  |  |  |  |  |  |  |  \- (org.codehaus.groovy:groovy:jar:2.4.11:compile - omitted for duplicate)
+|  |  |  |  |  |  |  |  +- org.codehaus.groovy:groovy-swing:jar:2.4.11:compile
+|  |  |  |  |  |  |  |  |  \- (org.codehaus.groovy:groovy:jar:2.4.11:compile - omitted for duplicate)
+|  |  |  |  |  |  |  |  \- (org.codehaus.groovy:groovy:jar:2.4.11:compile - omitted for duplicate)
+|  |  |  |  |  |  |  +- jline:jline:jar:2.12:compile
+|  |  |  |  |  |  |  \- org.codehaus.groovy:groovy:jar:2.4.11:compile
+|  |  |  |  |  |  +- org.codehaus.groovy:groovy-json:jar:indy:2.4.11:compile
+|  |  |  |  |  |  |  \- (org.codehaus.groovy:groovy:jar:2.4.11:compile - omitted for duplicate)
+|  |  |  |  |  |  +- org.codehaus.groovy:groovy-jsr223:jar:indy:2.4.11:compile
+|  |  |  |  |  |  |  \- (org.codehaus.groovy:groovy:jar:2.4.11:compile - omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.commons:commons-lang3:jar:3.3.1:compile - omitted for duplicate)
+|  |  |  |  |  |  +- org.mindrot:jbcrypt:jar:0.4:compile
+|  |  |  |  |  |  \- com.github.ben-manes.caffeine:caffeine:jar:2.3.1:compile
+|  |  |  |  |  +- (org.apache.tinkerpop:hadoop-gremlin:jar:3.2.5:compile - omitted for duplicate)
+|  |  |  |  |  +- org.apache.spark:spark-core_2.10:jar:1.6.1:compile
+|  |  |  |  |  |  +- org.apache.avro:avro-mapred:jar:hadoop2:1.7.7:compile
+|  |  |  |  |  |  |  +- org.apache.avro:avro-ipc:jar:1.7.7:compile
+|  |  |  |  |  |  |  |  +- (org.apache.avro:avro:jar:1.7.7:compile - omitted for conflict with 1.7.4)
+|  |  |  |  |  |  |  |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile - omitted for duplicate)
+|  |  |  |  |  |  |  |  \- (org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:compile - omitted for duplicate)
+|  |  |  |  |  |  |  +- org.apache.avro:avro-ipc:jar:tests:1.7.7:compile
+|  |  |  |  |  |  |  |  +- (org.apache.avro:avro:jar:1.7.7:compile - omitted for duplicate)
+|  |  |  |  |  |  |  |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile - omitted for duplicate)
+|  |  |  |  |  |  |  |  \- (org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:compile - omitted for duplicate)
+|  |  |  |  |  |  |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile - omitted for duplicate)
+|  |  |  |  |  |  |  \- (org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:compile - omitted for duplicate)
+|  |  |  |  |  |  +- com.twitter:chill_2.10:jar:0.5.0:compile
+|  |  |  |  |  |  |  +- (com.twitter:chill-java:jar:0.5.0:compile - omitted for duplicate)
+|  |  |  |  |  |  |  \- com.esotericsoftware.kryo:kryo:jar:2.21:compile
+|  |  |  |  |  |  |     +- com.esotericsoftware.reflectasm:reflectasm:jar:shaded:1.07:compile
+|  |  |  |  |  |  |     +- com.esotericsoftware.minlog:minlog:jar:1.2:compile
+|  |  |  |  |  |  |     \- org.objenesis:objenesis:jar:1.2:compile
+|  |  |  |  |  |  +- com.twitter:chill-java:jar:0.5.0:compile
+|  |  |  |  |  |  |  \- (com.esotericsoftware.kryo:kryo:jar:2.21:compile - omitted for duplicate)
+|  |  |  |  |  |  +- org.apache.xbean:xbean-asm5-shaded:jar:4.4:compile
+|  |  |  |  |  |  +- org.apache.spark:spark-launcher_2.10:jar:1.6.1:compile
+|  |  |  |  |  |  |  \- (org.spark-project.spark:unused:jar:1.0.0:compile - omitted for duplicate)
+|  |  |  |  |  |  +- org.apache.spark:spark-network-common_2.10:jar:1.6.1:compile
+|  |  |  |  |  |  |  +- (io.netty:netty-all:jar:4.1.16.Final:compile - version managed from 4.0.29.Final; omitted for duplicate)
+|  |  |  |  |  |  |  \- (org.spark-project.spark:unused:jar:1.0.0:compile - omitted for duplicate)
+|  |  |  |  |  |  +- org.apache.spark:spark-network-shuffle_2.10:jar:1.6.1:compile
+|  |  |  |  |  |  |  +- (org.apache.spark:spark-network-common_2.10:jar:1.6.1:compile - omitted for duplicate)
+|  |  |  |  |  |  |  +- org.fusesource.leveldbjni:leveldbjni-all:jar:1.8:compile
+|  |  |  |  |  |  |  \- (org.spark-project.spark:unused:jar:1.0.0:compile - omitted for duplicate)
+|  |  |  |  |  |  +- org.apache.spark:spark-unsafe_2.10:jar:1.6.1:compile
+|  |  |  |  |  |  |  +- (com.twitter:chill_2.10:jar:0.5.0:compile - omitted for duplicate)
+|  |  |  |  |  |  |  \- (org.spark-project.spark:unused:jar:1.0.0:compile - omitted for duplicate)
+|  |  |  |  |  |  +- net.java.dev.jets3t:jets3t:jar:0.7.1:compile
+|  |  |  |  |  |  |  \- commons-httpclient:commons-httpclient:jar:3.1:compile
+|  |  |  |  |  |  +- org.apache.commons:commons-math3:jar:3.4.1:compile
+|  |  |  |  |  |  +- org.slf4j:jul-to-slf4j:jar:1.7.10:compile
+|  |  |  |  |  |  +- com.ning:compress-lzf:jar:1.0.3:compile
+|  |  |  |  |  |  +- net.jpountz.lz4:lz4:jar:1.3.0:compile
+|  |  |  |  |  |  +- org.roaringbitmap:RoaringBitmap:jar:0.5.11:compile
+|  |  |  |  |  |  +- commons-net:commons-net:jar:2.2:compile
+|  |  |  |  |  |  +- com.typesafe.akka:akka-remote_2.10:jar:2.3.11:compile
+|  |  |  |  |  |  |  +- com.typesafe.akka:akka-actor_2.10:jar:2.3.11:compile
+|  |  |  |  |  |  |  |  \- com.typesafe:config:jar:1.2.1:compile
+|  |  |  |  |  |  |  +- io.netty:netty:jar:3.8.0.Final:compile
+|  |  |  |  |  |  |  +- (com.google.protobuf:protobuf-java:jar:2.5.0:compile - omitted for conflict with 3.4.0)
+|  |  |  |  |  |  |  \- org.uncommons.maths:uncommons-maths:jar:1.2.2a:compile
+|  |  |  |  |  |  +- com.typesafe.akka:akka-slf4j_2.10:jar:2.3.11:compile
+|  |  |  |  |  |  |  \- (com.typesafe.akka:akka-actor_2.10:jar:2.3.11:compile - omitted for duplicate)
+|  |  |  |  |  |  +- org.json4s:json4s-jackson_2.10:jar:3.2.10:compile
+|  |  |  |  |  |  |  \- org.json4s:json4s-core_2.10:jar:3.2.10:compile
+|  |  |  |  |  |  |     +- org.json4s:json4s-ast_2.10:jar:3.2.10:compile
+|  |  |  |  |  |  |     \- org.scala-lang:scalap:jar:2.10.0:compile
+|  |  |  |  |  |  |        \- org.scala-lang:scala-compiler:jar:2.10.0:compile
+|  |  |  |  |  |  +- com.sun.jersey:jersey-server:jar:1.9:compile
+|  |  |  |  |  |  |  +- asm:asm:jar:3.1:compile
+|  |  |  |  |  |  |  \- (com.sun.jersey:jersey-core:jar:1.9:compile - omitted for duplicate)
+|  |  |  |  |  |  +- (com.sun.jersey:jersey-core:jar:1.9:compile - omitted for conflict with 1.19)
+|  |  |  |  |  |  +- org.apache.mesos:mesos:jar:shaded-protobuf:0.21.1:compile
+|  |  |  |  |  |  +- (io.netty:netty-all:jar:4.1.16.Final:compile - version managed from 4.0.23.Final; omitted for duplicate)
+|  |  |  |  |  |  +- com.clearspring.analytics:stream:jar:2.7.0:compile
+|  |  |  |  |  |  +- io.dropwizard.metrics:metrics-jvm:jar:3.1.2:compile
+|  |  |  |  |  |  +- io.dropwizard.metrics:metrics-json:jar:3.1.2:compile
+|  |  |  |  |  |  +- io.dropwizard.metrics:metrics-graphite:jar:3.1.2:compile
+|  |  |  |  |  |  +- oro:oro:jar:2.0.8:compile
+|  |  |  |  |  |  +- org.tachyonproject:tachyon-client:jar:0.8.2:compile
+|  |  |  |  |  |  |  +- (com.google.guava:guava:jar:19.0:compile - version managed from 14.0.1; omitted for duplicate)
+|  |  |  |  |  |  |  +- commons-io:commons-io:jar:2.4:compile
+|  |  |  |  |  |  |  +- org.tachyonproject:tachyon-underfs-hdfs:jar:0.8.2:compile
+|  |  |  |  |  |  |  |  \- (com.google.guava:guava:jar:19.0:compile - version managed from 14.0.1; omitted for duplicate)
+|  |  |  |  |  |  |  +- org.tachyonproject:tachyon-underfs-s3:jar:0.8.2:compile
+|  |  |  |  |  |  |  |  \- (com.google.guava:guava:jar:19.0:compile - version managed from 14.0.1; omitted for duplicate)
+|  |  |  |  |  |  |  \- org.tachyonproject:tachyon-underfs-local:jar:0.8.2:compile
+|  |  |  |  |  |  |     \- (com.google.guava:guava:jar:19.0:compile - version managed from 14.0.1; omitted for duplicate)
+|  |  |  |  |  |  +- net.razorvine:pyrolite:jar:4.9:compile
+|  |  |  |  |  |  +- net.sf.py4j:py4j:jar:0.9:compile
+|  |  |  |  |  |  \- org.spark-project.spark:unused:jar:1.0.0:compile
+|  |  |  |  |  +- (org.scala-lang:scala-library:jar:2.10.5:compile - omitted for conflict with 2.10.6)
+|  |  |  |  |  +- commons-lang:commons-lang:jar:2.6:compile
+|  |  |  |  |  +- com.thoughtworks.paranamer:paranamer:jar:2.6:compile
+|  |  |  |  |  \- org.xerial.snappy:snappy-java:jar:1.1.1.7:compile
+|  |  |  |  \- org.apache.tinkerpop:hadoop-gremlin:jar:3.2.5:compile
+|  |  |  |     +- (org.apache.tinkerpop:gremlin-core:jar:3.2.9:compile - version managed from 3.2.5; omitted for duplicate)
+|  |  |  |     +- (org.apache.tinkerpop:gremlin-groovy:jar:3.2.5:compile - omitted for duplicate)
+|  |  |  |     +- org.apache.hadoop:hadoop-client:jar:2.7.2:compile
+|  |  |  |     |  +- org.apache.hadoop:hadoop-common:jar:2.7.2:compile
+|  |  |  |     |  |  +- (org.apache.hadoop:hadoop-annotations:jar:2.7.2:compile - omitted for duplicate)
+|  |  |  |     |  |  +- (commons-cli:commons-cli:jar:1.3:compile - version managed from 1.2; omitted for duplicate)
+|  |  |  |     |  |  +- (org.apache.commons:commons-math3:jar:3.1.1:compile - omitted for conflict with 3.4.1)
+|  |  |  |     |  |  +- xmlenc:xmlenc:jar:0.52:compile
+|  |  |  |     |  |  +- (commons-httpclient:commons-httpclient:jar:3.1:compile - omitted for duplicate)
+|  |  |  |     |  |  +- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+|  |  |  |     |  |  +- (commons-net:commons-net:jar:3.1:compile - omitted for conflict with 2.2)
+|  |  |  |     |  |  +- (commons-collections:commons-collections:jar:3.2.1:compile - version managed from 3.2.2; omitted for duplicate)
+|  |  |  |     |  |  +- javax.servlet.jsp:jsp-api:jar:2.1:runtime
+|  |  |  |     |  |  +- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+|  |  |  |     |  |  +- (commons-configuration:commons-configuration:jar:1.6:compile - omitted for conflict with 1.10)
+|  |  |  |     |  |  +- org.apache.avro:avro:jar:1.7.4:compile
+|  |  |  |     |  |  |  +- (com.thoughtworks.paranamer:paranamer:jar:2.3:compile - omitted for conflict with 2.6)
+|  |  |  |     |  |  |  \- (org.apache.commons:commons-compress:jar:1.4.1:compile - omitted for duplicate)
+|  |  |  |     |  |  +- (com.google.protobuf:protobuf-java:jar:2.5.0:compile - omitted for duplicate)
+|  |  |  |     |  |  +- (com.google.code.gson:gson:jar:2.2.4:compile - omitted for conflict with 2.7)
+|  |  |  |     |  |  +- org.apache.hadoop:hadoop-auth:jar:2.7.2:compile
+|  |  |  |     |  |  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.1:compile - version managed from 4.2.5; omitted for duplicate)
+|  |  |  |     |  |  |  +- org.apache.directory.server:apacheds-kerberos-codec:jar:2.0.0-M15:compile
+|  |  |  |     |  |  |  |  +- org.apache.directory.server:apacheds-i18n:jar:2.0.0-M15:compile
+|  |  |  |     |  |  |  |  +- org.apache.directory.api:api-asn1-api:jar:1.0.0-M20:compile
+|  |  |  |     |  |  |  |  \- org.apache.directory.api:api-util:jar:1.0.0-M20:compile
+|  |  |  |     |  |  |  +- (org.apache.zookeeper:zookeeper:jar:3.4.6:compile - omitted for duplicate)
+|  |  |  |     |  |  |  \- org.apache.curator:curator-framework:jar:2.7.1:compile
+|  |  |  |     |  |  |     +- (org.apache.curator:curator-client:jar:2.7.1:compile - omitted for duplicate)
+|  |  |  |     |  |  |     \- (org.apache.zookeeper:zookeeper:jar:3.4.6:compile - omitted for duplicate)
+|  |  |  |     |  |  +- org.apache.curator:curator-client:jar:2.7.1:compile
+|  |  |  |     |  |  |  \- (org.apache.zookeeper:zookeeper:jar:3.4.6:compile - omitted for duplicate)
+|  |  |  |     |  |  +- org.apache.curator:curator-recipes:jar:2.7.1:compile
+|  |  |  |     |  |  |  +- (org.apache.curator:curator-framework:jar:2.7.1:compile - omitted for duplicate)
+|  |  |  |     |  |  |  \- (org.apache.zookeeper:zookeeper:jar:3.4.6:compile - omitted for duplicate)
+|  |  |  |     |  |  +- (com.google.code.findbugs:jsr305:jar:3.0.0:compile - omitted for conflict with 2.0.2)
+|  |  |  |     |  |  +- org.apache.htrace:htrace-core:jar:3.1.0-incubating:compile
+|  |  |  |     |  |  +- org.apache.zookeeper:zookeeper:jar:3.4.6:compile
+|  |  |  |     |  |  |  \- (io.netty:netty:jar:3.7.0.Final:compile - omitted for conflict with 3.8.0.Final)
+|  |  |  |     |  |  \- org.apache.commons:commons-compress:jar:1.4.1:compile
+|  |  |  |     |  |     \- org.tukaani:xz:jar:1.0:compile
+|  |  |  |     |  +- org.apache.hadoop:hadoop-hdfs:jar:2.7.2:compile
+|  |  |  |     |  |  +- (commons-cli:commons-cli:jar:1.3:compile - version managed from 1.2; omitted for duplicate)
+|  |  |  |     |  |  +- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+|  |  |  |     |  |  +- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+|  |  |  |     |  |  +- (com.google.protobuf:protobuf-java:jar:2.5.0:compile - omitted for duplicate)
+|  |  |  |     |  |  +- (xmlenc:xmlenc:jar:0.52:compile - omitted for duplicate)
+|  |  |  |     |  |  +- (io.netty:netty:jar:3.6.2.Final:compile - omitted for conflict with 3.8.0.Final)
+|  |  |  |     |  |  +- (io.netty:netty-all:jar:4.1.16.Final:compile - version managed from 4.0.23.Final; omitted for duplicate)
+|  |  |  |     |  |  +- xerces:xercesImpl:jar:2.9.1:compile
+|  |  |  |     |  |  |  \- xml-apis:xml-apis:jar:1.3.04:compile
+|  |  |  |     |  |  +- (org.apache.htrace:htrace-core:jar:3.1.0-incubating:compile - omitted for duplicate)
+|  |  |  |     |  |  \- (org.fusesource.leveldbjni:leveldbjni-all:jar:1.8:compile - omitted for duplicate)
+|  |  |  |     |  +- org.apache.hadoop:hadoop-mapreduce-client-app:jar:2.7.2:compile
+|  |  |  |     |  |  +- org.apache.hadoop:hadoop-mapreduce-client-common:jar:2.7.2:compile
+|  |  |  |     |  |  |  +- (org.apache.hadoop:hadoop-yarn-common:jar:2.7.2:compile - omitted for duplicate)
+|  |  |  |     |  |  |  +- org.apache.hadoop:hadoop-yarn-client:jar:2.7.2:compile
+|  |  |  |     |  |  |  |  +- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+|  |  |  |     |  |  |  |  +- (commons-cli:commons-cli:jar:1.3:compile - version managed from 1.2; omitted for duplicate)
+|  |  |  |     |  |  |  |  +- (org.apache.hadoop:hadoop-yarn-api:jar:2.7.2:compile - omitted for duplicate)
+|  |  |  |     |  |  |  |  \- (org.apache.hadoop:hadoop-yarn-common:jar:2.7.2:compile - omitted for duplicate)
+|  |  |  |     |  |  |  +- (org.apache.hadoop:hadoop-mapreduce-client-core:jar:2.7.2:compile - omitted for duplicate)
+|  |  |  |     |  |  |  +- org.apache.hadoop:hadoop-yarn-server-common:jar:2.7.2:compile
+|  |  |  |     |  |  |  |  +- (org.apache.hadoop:hadoop-yarn-api:jar:2.7.2:compile - omitted for duplicate)
+|  |  |  |     |  |  |  |  +- (org.apache.hadoop:hadoop-yarn-common:jar:2.7.2:compile - omitted for duplicate)
+|  |  |  |     |  |  |  |  +- (com.google.protobuf:protobuf-java:jar:2.5.0:compile - omitted for duplicate)
+|  |  |  |     |  |  |  |  +- (org.apache.zookeeper:zookeeper:jar:3.4.6:compile - omitted for duplicate)
+|  |  |  |     |  |  |  |  \- (org.fusesource.leveldbjni:leveldbjni-all:jar:1.8:compile - omitted for duplicate)
+|  |  |  |     |  |  |  \- (com.google.protobuf:protobuf-java:jar:2.5.0:compile - omitted for duplicate)
+|  |  |  |     |  |  +- org.apache.hadoop:hadoop-mapreduce-client-shuffle:jar:2.7.2:compile
+|  |  |  |     |  |  |  +- (org.apache.hadoop:hadoop-yarn-server-common:jar:2.7.2:compile - omitted for duplicate)
+|  |  |  |     |  |  |  +- (org.apache.hadoop:hadoop-mapreduce-client-common:jar:2.7.2:compile - omitted for duplicate)
+|  |  |  |     |  |  |  +- (org.fusesource.leveldbjni:leveldbjni-all:jar:1.8:compile - omitted for duplicate)
+|  |  |  |     |  |  |  \- (com.google.protobuf:protobuf-java:jar:2.5.0:compile - omitted for duplicate)
+|  |  |  |     |  |  \- (com.google.protobuf:protobuf-java:jar:2.5.0:compile - omitted for duplicate)
+|  |  |  |     |  +- org.apache.hadoop:hadoop-yarn-api:jar:2.7.2:compile
+|  |  |  |     |  |  +- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+|  |  |  |     |  |  \- (com.google.protobuf:protobuf-java:jar:2.5.0:compile - omitted for duplicate)
+|  |  |  |     |  +- org.apache.hadoop:hadoop-mapreduce-client-core:jar:2.7.2:compile
+|  |  |  |     |  |  +- org.apache.hadoop:hadoop-yarn-common:jar:2.7.2:compile
+|  |  |  |     |  |  |  +- (org.apache.hadoop:hadoop-yarn-api:jar:2.7.2:compile - omitted for duplicate)
+|  |  |  |     |  |  |  +- javax.xml.bind:jaxb-api:jar:2.2.2:compile
+|  |  |  |     |  |  |  |  +- javax.xml.stream:stax-api:jar:1.0-2:compile
+|  |  |  |     |  |  |  |  \- javax.activation:activation:jar:1.1:compile
+|  |  |  |     |  |  |  +- (org.apache.commons:commons-compress:jar:1.4.1:compile - omitted for duplicate)
+|  |  |  |     |  |  |  +- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+|  |  |  |     |  |  |  +- (com.sun.jersey:jersey-core:jar:1.9:compile - omitted for duplicate)
+|  |  |  |     |  |  |  +- org.codehaus.jackson:jackson-jaxrs:jar:1.9.13:compile
+|  |  |  |     |  |  |  +- org.codehaus.jackson:jackson-xc:jar:1.9.13:compile
+|  |  |  |     |  |  |  +- (commons-cli:commons-cli:jar:1.3:compile - version managed from 1.2; omitted for duplicate)
+|  |  |  |     |  |  |  +- (com.google.protobuf:protobuf-java:jar:2.5.0:compile - omitted for duplicate)
+|  |  |  |     |  |  |  \- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+|  |  |  |     |  |  \- (com.google.protobuf:protobuf-java:jar:2.5.0:compile - omitted for duplicate)
+|  |  |  |     |  +- org.apache.hadoop:hadoop-mapreduce-client-jobclient:jar:2.7.2:compile
+|  |  |  |     |  |  +- (org.apache.hadoop:hadoop-mapreduce-client-common:jar:2.7.2:compile - omitted for duplicate)
+|  |  |  |     |  |  +- (org.apache.hadoop:hadoop-mapreduce-client-shuffle:jar:2.7.2:compile - omitted for duplicate)
+|  |  |  |     |  |  \- (com.google.protobuf:protobuf-java:jar:2.5.0:compile - omitted for duplicate)
+|  |  |  |     |  \- org.apache.hadoop:hadoop-annotations:jar:2.7.2:compile
+|  |  |  |     +- (commons-codec:commons-codec:jar:1.6:compile - omitted for conflict with 1.9)
+|  |  |  |     +- (com.google.guava:guava:jar:19.0:compile - version managed from 16.0.1; omitted for duplicate)
+|  |  |  |     +- org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:compile
+|  |  |  |     |  \- (org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile - omitted for duplicate)
+|  |  |  |     +- org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile
+|  |  |  |     \- (org.xerial.snappy:snappy-java:jar:1.1.1.7:compile - omitted for duplicate)
+|  |  |  \- org.antlr:antlr4-runtime:jar:4.5:compile
+|  |  |     \- org.abego.treelayout:org.abego.treelayout.core:jar:1.0.1:compile
+|  |  +- ai.grakn:grakn-core:jar:1.3.0:compile
+|  |  |  +- com.google.guava:guava:jar:19.0:compile (version managed from 16.0.1)
+|  |  |  +- org.apache.tinkerpop:gremlin-core:jar:3.2.9:compile (version managed from 3.2.5)
+|  |  |  |  +- org.apache.tinkerpop:gremlin-shaded:jar:3.2.9:compile
+|  |  |  |  +- commons-configuration:commons-configuration:jar:1.10:compile
+|  |  |  |  |  \- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+|  |  |  |  +- commons-collections:commons-collections:jar:3.2.1:compile (version managed from 3.2.2)
+|  |  |  |  +- org.yaml:snakeyaml:jar:1.15:compile
+|  |  |  |  +- org.javatuples:javatuples:jar:1.2:compile
+|  |  |  |  +- com.carrotsearch:hppc:jar:0.7.1:compile
+|  |  |  |  +- com.jcabi:jcabi-manifests:jar:1.1:compile
+|  |  |  |  |  \- com.jcabi:jcabi-log:jar:0.14:compile
+|  |  |  |  +- com.squareup:javapoet:jar:1.8.0:compile
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.20:compile - version managed from 1.7.21; omitted for duplicate)
+|  |  |  +- org.apache.tinkerpop:tinkergraph-gremlin:jar:3.2.9:compile
+|  |  |  |  +- (org.apache.tinkerpop:gremlin-core:jar:3.2.9:compile - version managed from 3.2.5; omitted for duplicate)
+|  |  |  |  \- org.apache.commons:commons-lang3:jar:3.3.1:compile
+|  |  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.1:compile - version managed from 4.2.5; omitted for duplicate)
+|  |  |  +- io.reactivex:rxjava:jar:1.3.2:compile
+|  |  |  +- org.sharegov:mjson:jar:1.4.0:compile
+|  |  |  |  \- junit:junit:jar:4.12:test (scope managed from compile)
+|  |  |  |     \- org.hamcrest:hamcrest-core:jar:1.3:test
+|  |  |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.9.2:compile
+|  |  |  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.2:compile - version managed from 2.9.0; omitted for duplicate)
+|  |  |  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.2:compile - omitted for duplicate)
+|  |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.2:compile
+|  |  |  +- com.fasterxml.jackson.module:jackson-module-scala_2.10:jar:2.9.2:compile
+|  |  |  |  +- org.scala-lang:scala-library:jar:2.10.6:compile
+|  |  |  |  +- org.scala-lang:scala-reflect:jar:2.10.6:compile
+|  |  |  |  |  \- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for duplicate)
+|  |  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.2:compile - omitted for duplicate)
+|  |  |  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.2:compile - version managed from 2.9.0; omitted for duplicate)
+|  |  |  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.2:compile - omitted for duplicate)
+|  |  |  |  \- com.fasterxml.jackson.module:jackson-module-paranamer:jar:2.9.2:compile
+|  |  |  |     +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.2:compile - omitted for duplicate)
+|  |  |  |     \- (com.thoughtworks.paranamer:paranamer:jar:2.8:compile - omitted for conflict with 2.6)
+|  |  |  +- com.fasterxml.jackson.core:jackson-core:jar:2.9.2:compile
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.20:compile - version managed from 1.7.21; omitted for duplicate)
+|  |  +- org.apache.httpcomponents:httpclient:jar:4.5.1:compile
+|  |  |  +- org.apache.httpcomponents:httpcore:jar:4.4.6:compile (version managed from 4.4.3)
+|  |  |  +- commons-logging:commons-logging:jar:1.2:compile
+|  |  |  \- commons-codec:commons-codec:jar:1.9:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.20:compile - version managed from 1.6.4; omitted for duplicate)
+|  |  +- com.sun.jersey:jersey-client:jar:1.19:compile
+|  |  |  \- com.sun.jersey:jersey-core:jar:1.19:compile
+|  |  |     \- javax.ws.rs:jsr311-api:jar:1.1.1:compile
+|  |  +- com.github.rholder:guava-retrying:jar:2.0.0:compile
+|  |  |  +- (com.google.guava:guava:jar:19.0:compile - omitted for duplicate)
+|  |  |  \- com.google.code.findbugs:jsr305:jar:2.0.2:compile
+|  |  +- com.netflix.hystrix:hystrix-core:jar:1.5.12:compile
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.20:runtime - version managed from 1.7.0; omitted for duplicate)
+|  |  |  +- com.netflix.archaius:archaius-core:jar:0.4.1:compile
+|  |  |  |  +- (commons-configuration:commons-configuration:jar:1.8:compile - omitted for conflict with 1.10)
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.20:compile - version managed from 1.6.4; omitted for duplicate)
+|  |  |  +- (io.reactivex:rxjava:jar:1.3.2:compile - version managed from 1.2.0; omitted for duplicate)
+|  |  |  \- org.hdrhistogram:HdrHistogram:jar:2.1.9:compile
+|  |  +- io.dropwizard.metrics:metrics-core:jar:3.2.3:compile
+|  |  +- net.jodah:failsafe:jar:1.0.4:compile
+|  |  +- io.netty:netty-all:jar:4.1.16.Final:compile
+|  |  +- io.grpc:grpc-protobuf:jar:1.8.0:compile
+|  |  |  +- io.grpc:grpc-core:jar:1.8.0:compile
+|  |  |  |  +- io.grpc:grpc-context:jar:1.8.0:compile
+|  |  |  |  +- (com.google.guava:guava:jar:19.0:compile - omitted for duplicate)
+|  |  |  |  +- com.google.errorprone:error_prone_annotations:jar:2.0.19:compile
+|  |  |  |  +- (com.google.code.findbugs:jsr305:jar:3.0.0:compile - omitted for conflict with 2.0.2)
+|  |  |  |  +- com.google.instrumentation:instrumentation-api:jar:0.4.3:compile
+|  |  |  |  |  +- (com.google.code.findbugs:jsr305:jar:3.0.0:compile - omitted for conflict with 2.0.2)
+|  |  |  |  |  \- (com.google.guava:guava:jar:19.0:compile - omitted for duplicate)
+|  |  |  |  +- io.opencensus:opencensus-api:jar:0.8.0:compile
+|  |  |  |  |  \- (com.google.guava:guava:jar:19.0:compile - omitted for duplicate)
+|  |  |  |  \- io.opencensus:opencensus-contrib-grpc-metrics:jar:0.8.0:compile
+|  |  |  |     +- (com.google.errorprone:error_prone_annotations:jar:2.0.19:compile - omitted for duplicate)
+|  |  |  |     \- (io.opencensus:opencensus-api:jar:0.8.0:compile - omitted for duplicate)
+|  |  |  +- com.google.protobuf:protobuf-java:jar:3.4.0:compile
+|  |  |  +- (com.google.guava:guava:jar:19.0:compile - omitted for duplicate)
+|  |  |  +- com.google.protobuf:protobuf-java-util:jar:3.4.0:compile
+|  |  |  |  +- (com.google.protobuf:protobuf-java:jar:3.4.0:compile - omitted for duplicate)
+|  |  |  |  +- (com.google.guava:guava:jar:19.0:compile - omitted for duplicate)
+|  |  |  |  \- com.google.code.gson:gson:jar:2.7:compile
+|  |  |  +- com.google.api.grpc:proto-google-common-protos:jar:0.1.9:compile
+|  |  |  \- io.grpc:grpc-protobuf-lite:jar:1.8.0:compile
+|  |  |     +- (io.grpc:grpc-core:jar:1.8.0:compile - omitted for duplicate)
+|  |  |     \- (com.google.guava:guava:jar:19.0:compile - omitted for duplicate)
+|  |  +- io.grpc:grpc-stub:jar:1.8.0:compile
+|  |  |  \- (io.grpc:grpc-core:jar:1.8.0:compile - omitted for duplicate)
+|  |  \- io.grpc:grpc-netty:jar:1.8.0:compile
+|  |     +- (io.grpc:grpc-core:jar:1.8.0:compile - omitted for duplicate)
+|  |     +- io.netty:netty-codec-http2:jar:4.1.16.Final:compile
+|  |     |  +- io.netty:netty-codec-http:jar:4.1.16.Final:compile
+|  |     |  |  \- io.netty:netty-codec:jar:4.1.16.Final:compile
+|  |     |  |     \- (io.netty:netty-transport:jar:4.1.16.Final:compile - omitted for duplicate)
+|  |     |  \- io.netty:netty-handler:jar:4.1.16.Final:compile
+|  |     |     +- io.netty:netty-buffer:jar:4.1.16.Final:compile
+|  |     |     |  \- io.netty:netty-common:jar:4.1.16.Final:compile
+|  |     |     +- (io.netty:netty-transport:jar:4.1.16.Final:compile - omitted for duplicate)
+|  |     |     \- (io.netty:netty-codec:jar:4.1.16.Final:compile - omitted for duplicate)
+|  |     \- io.netty:netty-handler-proxy:jar:4.1.16.Final:compile
+|  |        +- io.netty:netty-transport:jar:4.1.16.Final:compile
+|  |        |  +- (io.netty:netty-buffer:jar:4.1.16.Final:compile - omitted for duplicate)
+|  |        |  \- io.netty:netty-resolver:jar:4.1.16.Final:compile
+|  |        |     \- (io.netty:netty-common:jar:4.1.16.Final:compile - omitted for duplicate)
+|  |        +- io.netty:netty-codec-socks:jar:4.1.16.Final:compile
+|  |        |  \- (io.netty:netty-codec:jar:4.1.16.Final:compile - omitted for duplicate)
+|  |        \- (io.netty:netty-codec-http:jar:4.1.16.Final:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.20:compile - version managed from 1.6.4; omitted for duplicate)
++- org.jooq:jooq:jar:3.8.5:compile
++- org.slf4j:slf4j-api:jar:1.7.20:compile
++- ch.qos.logback:logback-core:jar:1.2.3:test
+\- ch.qos.logback:logback-classic:jar:1.2.3:test
+   +- (ch.qos.logback:logback-core:jar:1.2.3:test - omitted for duplicate)
+   \- (org.slf4j:slf4j-api:jar:1.7.20:test - version managed from 1.7.25; omitted for duplicate)

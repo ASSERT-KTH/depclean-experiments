@@ -1,0 +1,7 @@
+es.uvigo.ei.sing:aibench-workbench:jar:2.10.2
++- es.uvigo.ei.sing:aibench-aibench:jar:2.10.2:compile
+|  +- log4j:log4j:jar:1.2.12:compile
+|  +- javatar:javatar:jar:2.5:compile
+|  \- com.sun.woodstock.dependlibs:jhall:jar:2.0:compile
++- es.uvigo.ei.sing:aibench-core:jar:2.10.2:compile
+\- org.swinglabs.swingx:swingx-all:jar:1.6.5-1:compile

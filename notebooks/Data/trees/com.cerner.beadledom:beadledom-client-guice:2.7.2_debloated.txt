@@ -1,0 +1,53 @@
+com.cerner.beadledom:beadledom-client-guice:jar:2.7.2
++- com.cerner.beadledom:beadledom-client:jar:2.7.2:compile
+|  +- javax.annotation:javax.annotation-api:jar:1.2:compile
+|  \- javax.ws.rs:javax.ws.rs-api:jar:2.0.1:compile
++- com.cerner.beadledom:beadledom-guice:jar:2.7.2:compile
+|  \- (com.google.inject:guice:jar:4.0:compile - omitted for duplicate)
++- com.cerner.beadledom:beadledom-guice-dynamicbindings:jar:2.7.2:compile
+|  +- (com.cerner.beadledom:beadledom-guice:jar:2.7.2:compile - omitted for duplicate)
+|  \- (com.google.inject:guice:jar:4.0:compile - omitted for duplicate)
++- com.cerner.beadledom:resteasy-client:jar:2.7.2:compile
+|  +- (com.cerner.beadledom:beadledom-client:jar:2.7.2:compile - omitted for duplicate)
+|  +- com.cerner.beadledom:beadledom-jaxrs-clientproxy:jar:2.7.2:compile
+|  |  +- com.cerner.beadledom:beadledom-jaxrs-genericresponse:jar:2.7.2:compile
+|  |  |  \- (javax.ws.rs:javax.ws.rs-api:jar:2.0.1:compile - omitted for duplicate)
+|  |  +- (javax.ws.rs:javax.ws.rs-api:jar:2.0.1:compile - omitted for duplicate)
+|  |  \- org.javassist:javassist:jar:3.20.0-GA:compile
+|  +- commons-io:commons-io:jar:2.4:compile
+|  +- (javax.annotation:javax.annotation-api:jar:1.2:compile - omitted for duplicate)
+|  +- (javax.ws.rs:javax.ws.rs-api:jar:2.0.1:compile - omitted for duplicate)
+|  +- org.apache.httpcomponents:httpclient:jar:4.5.1:compile
+|  |  +- (org.apache.httpcomponents:httpcore:jar:4.4.3:compile - omitted for duplicate)
+|  |  +- commons-logging:commons-logging:jar:1.2:compile
+|  |  \- commons-codec:commons-codec:jar:1.9:compile
+|  +- org.apache.httpcomponents:httpcore:jar:4.4.3:compile
+|  +- org.jboss.resteasy:jaxrs-api:jar:3.0.12.Final:compile
+|  +- org.jboss.resteasy:resteasy-client:jar:3.0.12.Final:compile
+|  |  \- (org.jboss.resteasy:resteasy-jaxrs:jar:3.0.12.Final:compile - omitted for duplicate)
+|  +- org.jboss.resteasy:resteasy-jaxrs:jar:3.0.12.Final:compile
+|  |  +- (org.jboss.resteasy:jaxrs-api:jar:3.0.12.Final:compile - omitted for duplicate)
+|  |  +- org.jboss.spec.javax.annotation:jboss-annotations-api_1.1_spec:jar:1.0.1.Final:compile
+|  |  +- javax.activation:activation:jar:1.1.1:compile
+|  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.1:compile - version managed from 4.3.6; omitted for duplicate)
+|  |  +- (commons-io:commons-io:jar:2.4:compile - version managed from 2.1; omitted for duplicate)
+|  |  \- net.jcip:jcip-annotations:jar:1.0:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.12:compile - omitted for duplicate)
++- com.google.inject:guice:jar:4.0:compile
+|  +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  +- aopalliance:aopalliance:jar:1.0:compile
+|  \- com.google.guava:guava:jar:15.0:compile (version managed from 16.0.1)
++- com.google.inject.extensions:guice-multibindings:jar:4.0:compile
+|  \- (com.google.inject:guice:jar:4.0:compile - omitted for duplicate)
++- javax.inject:javax.inject:jar:1:compile
++- org.slf4j:slf4j-api:jar:1.7.12:compile
++- org.mockito:mockito-core:jar:2.10.0:test
+|  +- net.bytebuddy:byte-buddy:jar:1.7.4:test
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.7.4:test
+|  \- org.objenesis:objenesis:jar:2.6:test
+\- org.scalatest:scalatest_2.11:jar:2.2.5:test
+   +- org.scala-lang:scala-library:jar:2.11.7:test (version managed from 2.11.2)
+   +- org.scala-lang:scala-reflect:jar:2.11.2:test
+   |  \- (org.scala-lang:scala-library:jar:2.11.7:test - version managed from 2.11.2; omitted for duplicate)
+   \- org.scala-lang.modules:scala-xml_2.11:jar:1.0.2:test
+      \- (org.scala-lang:scala-library:jar:2.11.7:test - version managed from 2.11.1; omitted for duplicate)

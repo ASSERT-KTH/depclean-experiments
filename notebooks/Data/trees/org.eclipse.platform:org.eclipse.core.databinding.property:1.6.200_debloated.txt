@@ -1,0 +1,3 @@
+org.eclipse.platform:org.eclipse.core.databinding.property:jar:1.6.200
+\- org.eclipse.platform:org.eclipse.core.databinding.observable:jar:1.7.0:compile
+   \- (org.eclipse.platform:org.eclipse.equinox.common:jar:3.10.400:compile - omitted for duplicate)

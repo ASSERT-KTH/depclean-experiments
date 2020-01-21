@@ -1,0 +1,179 @@
+com.kagurabi.services:kagura-camel:bundle:1.9.1
++- org.apache.commons:commons-lang3:jar:3.1:compile
++- commons-collections:commons-collections:jar:3.2.1:compile
++- com.googlecode.guava-osgi:guava-osgi:jar:11.0.0:compile
++- com.kagurabi.shared:kagura-resources:jar:1.9.1:compile
++- com.kagurabi.shared:reporting-core:jar:1.9.1:compile
+|  +- (org.apache.commons:commons-lang3:jar:3.1:compile - omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+|  +- (commons-collections:commons-collections:jar:3.2.1:compile - omitted for duplicate)
+|  +- (commons-beanutils:commons-beanutils:jar:1.8.3:compile - omitted for duplicate)
+|  +- com.google.guava:guava:jar:14.0.1:compile
+|  +- javax.mail:mail:jar:1.5.0-b01:compile
+|  |  \- javax.activation:activation:jar:1.1:compile
+|  +- joda-time:joda-time:jar:1.6:compile
+|  +- org.freemarker:freemarker:jar:2.3.19:compile
+|  +- (com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.2.2:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.2.2:compile - version managed from 2.1.4; omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.2.2:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.2.2:compile - version managed from 2.0.5; omitted for duplicate)
+|  +- (mysql:mysql-connector-java:jar:5.1.26:compile - omitted for duplicate)
+|  +- net.sf.supercsv:super-csv:jar:2.1.0:compile
+|  +- org.apache.poi:poi:jar:3.9:compile
+|  |  \- commons-codec:commons-codec:jar:1.5:compile
+|  +- com.itextpdf:itextpdf:jar:5.1.3:compile
+|  +- com.itextpdf.tool:xmlworker:jar:1.1.1:compile
+|  |  \- (com.itextpdf:itextpdf:jar:5.1.3:compile - omitted for duplicate)
+|  +- (org.codehaus.groovy:groovy-all:jar:2.1.2:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.5:compile - version managed from 1.6.6; omitted for duplicate)
+|  +- (org.slf4j:slf4j-log4j12:jar:1.7.5:compile - omitted for duplicate)
+|  +- (log4j:log4j:jar:1.2.17:compile - omitted for duplicate)
+|  +- org.apache.ivy:ivy:jar:2.4.0-rc1:compile
+|  \- xml-apis:xml-apis:jar:1.3.04:compile
++- com.kagurabi.shared:rest-api:jar:1.9.1:compile
+|  +- javax.ws.rs:javax.ws.rs-api:jar:2.0-m10:compile
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.2.2:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.2.2:compile - omitted for duplicate)
+|  +- (commons-beanutils:commons-beanutils:jar:1.8.3:compile - omitted for duplicate)
+|  \- (com.kagurabi.shared:reporting-core:jar:1.9.1:compile - omitted for duplicate)
++- org.apache.felix:org.apache.felix.framework:jar:4.2.1:compile
++- org.apache.camel:camel-core:jar:2.11.2:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.5:compile - version managed from 1.6.6; omitted for duplicate)
+|  \- com.sun.xml.bind:jaxb-impl:jar:2.2.6:compile
++- org.apache.camel:camel-jackson:jar:2.11.2:compile
+|  +- (org.apache.camel:camel-core:jar:2.11.2:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.2.2:compile - version managed from 2.1.4; omitted for duplicate)
+|  \- com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.1.4:compile
+|     +- (com.fasterxml.jackson.core:jackson-core:jar:2.2.2:compile - version managed from 2.1.4; omitted for duplicate)
+|     \- (com.fasterxml.jackson.core:jackson-databind:jar:2.2.2:compile - version managed from 2.1.4; omitted for duplicate)
++- org.apache.camel:camel-spring:jar:2.11.2:compile
+|  +- (org.apache.camel:camel-core:jar:2.11.2:compile - omitted for duplicate)
+|  +- (org.springframework:spring-context:jar:3.1.4.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework:spring-aop:jar:3.1.4.RELEASE:compile
+|  |  +- aopalliance:aopalliance:jar:1.0:compile
+|  |  +- (org.springframework:spring-asm:jar:3.1.4.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-beans:jar:3.1.4.RELEASE:compile - omitted for duplicate)
+|  |  \- (org.springframework:spring-core:jar:3.1.4.RELEASE:compile - omitted for duplicate)
+|  \- org.springframework:spring-tx:jar:3.1.4.RELEASE:compile
+|     +- (aopalliance:aopalliance:jar:1.0:compile - omitted for duplicate)
+|     +- (org.springframework:spring-aop:jar:3.1.4.RELEASE:compile - omitted for duplicate)
+|     +- (org.springframework:spring-beans:jar:3.1.4.RELEASE:compile - omitted for duplicate)
+|     +- (org.springframework:spring-context:jar:3.1.4.RELEASE:compile - omitted for duplicate)
+|     \- (org.springframework:spring-core:jar:3.1.4.RELEASE:compile - omitted for duplicate)
++- org.apache.camel:camel-cxf:jar:2.11.2:compile
+|  +- (org.apache.camel:camel-core:jar:2.11.2:compile - omitted for duplicate)
+|  +- (org.apache.camel:camel-spring:jar:2.11.2:compile - omitted for duplicate)
+|  +- (org.apache.camel:camel-cxf-transport:jar:2.11.2:compile - omitted for duplicate)
+|  +- (org.apache.cxf:cxf-rt-frontend-jaxrs:jar:2.7.6:compile - omitted for duplicate)
+|  +- org.apache.cxf:cxf-rt-frontend-jaxws:jar:2.7.6:compile
+|  |  +- xml-resolver:xml-resolver:jar:1.2:compile
+|  |  +- asm:asm:jar:3.3.1:compile
+|  |  +- (org.apache.cxf:cxf-api:jar:2.7.6:compile - omitted for duplicate)
+|  |  +- (org.apache.cxf:cxf-rt-core:jar:2.7.6:compile - omitted for duplicate)
+|  |  +- (org.apache.cxf:cxf-rt-bindings-soap:jar:2.7.6:compile - omitted for duplicate)
+|  |  +- (org.apache.cxf:cxf-rt-bindings-xml:jar:2.7.6:compile - omitted for duplicate)
+|  |  +- org.apache.cxf:cxf-rt-frontend-simple:jar:2.7.6:compile
+|  |  |  +- (org.apache.cxf:cxf-api:jar:2.7.6:compile - omitted for duplicate)
+|  |  |  +- (org.apache.cxf:cxf-rt-core:jar:2.7.6:compile - omitted for duplicate)
+|  |  |  \- (org.apache.cxf:cxf-rt-bindings-soap:jar:2.7.6:compile - omitted for duplicate)
+|  |  \- org.apache.cxf:cxf-rt-ws-addr:jar:2.7.6:compile
+|  |     +- (org.apache.cxf:cxf-api:jar:2.7.6:compile - omitted for duplicate)
+|  |     +- (org.apache.cxf:cxf-rt-bindings-soap:jar:2.7.6:compile - omitted for duplicate)
+|  |     \- org.apache.cxf:cxf-rt-ws-policy:jar:2.7.6:compile
+|  |        +- (org.apache.cxf:cxf-api:jar:2.7.6:compile - omitted for duplicate)
+|  |        +- (org.apache.cxf:cxf-rt-core:jar:2.7.6:compile - omitted for duplicate)
+|  |        \- org.apache.neethi:neethi:jar:3.0.2:compile
+|  +- org.springframework:spring-core:jar:3.1.4.RELEASE:compile
+|  |  +- (org.springframework:spring-asm:jar:3.1.4.RELEASE:compile - omitted for duplicate)
+|  |  \- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for duplicate)
+|  +- (org.springframework:spring-beans:jar:3.1.4.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-context:jar:3.1.4.RELEASE:compile - omitted for duplicate)
+|  +- org.apache.cxf:cxf-rt-features-clustering:jar:2.7.6:compile
+|  |  +- (org.apache.cxf:cxf-api:jar:2.7.6:compile - omitted for duplicate)
+|  |  \- (org.apache.cxf:cxf-rt-core:jar:2.7.6:compile - omitted for duplicate)
+|  \- org.apache.cxf:cxf-rt-bindings-soap:jar:2.7.6:compile
+|     +- (org.apache.cxf:cxf-api:jar:2.7.6:compile - omitted for duplicate)
+|     \- org.apache.cxf:cxf-rt-databinding-jaxb:jar:2.7.6:compile
+|        +- (org.apache.cxf:cxf-api:jar:2.7.6:compile - omitted for duplicate)
+|        +- (org.apache.cxf:cxf-rt-core:jar:2.7.6:compile - omitted for duplicate)
+|        \- (com.sun.xml.bind:jaxb-impl:jar:2.1.13:compile - omitted for conflict with 2.2.6)
++- org.apache.camel:camel-cxf-transport:jar:2.11.2:compile
+|  +- (org.apache.camel:camel-core:jar:2.11.2:compile - omitted for duplicate)
+|  +- (org.apache.cxf:cxf-rt-core:jar:2.7.6:compile - omitted for duplicate)
+|  +- (org.apache.cxf:cxf-rt-bindings-soap:jar:2.7.6:compile - omitted for duplicate)
+|  \- (org.springframework:spring-beans:jar:3.1.4.RELEASE:compile - omitted for duplicate)
++- org.apache.camel:camel-stream:jar:2.11.2:compile
+|  \- (org.apache.camel:camel-core:jar:2.11.2:compile - omitted for duplicate)
++- org.apache.cxf:cxf-rt-core:jar:2.7.6:compile
+|  +- (org.apache.cxf:cxf-api:jar:2.7.6:compile - omitted for duplicate)
+|  +- (com.sun.xml.bind:jaxb-impl:jar:2.1.13:compile - omitted for conflict with 2.2.6)
+|  +- org.apache.ws.xmlschema:xmlschema-core:jar:2.0.3:compile
+|  \- org.apache.geronimo.specs:geronimo-javamail_1.4_spec:jar:1.7.1:compile
++- org.apache.cxf:cxf-rt-transports-http-jetty:jar:2.7.6:compile
+|  +- (org.apache.cxf:cxf-api:jar:2.7.6:compile - omitted for duplicate)
+|  +- (org.apache.cxf:cxf-rt-transports-http:jar:2.7.6:compile - omitted for duplicate)
+|  +- (org.apache.cxf:cxf-rt-core:jar:2.7.6:compile - omitted for duplicate)
+|  +- org.eclipse.jetty:jetty-server:jar:8.1.7.v20120910:compile
+|  |  +- org.eclipse.jetty:jetty-continuation:jar:8.1.7.v20120910:compile
+|  |  \- org.eclipse.jetty:jetty-http:jar:8.1.7.v20120910:compile
+|  |     \- org.eclipse.jetty:jetty-io:jar:8.1.7.v20120910:compile
+|  |        \- org.eclipse.jetty:jetty-util:jar:8.1.7.v20120910:compile
+|  +- org.eclipse.jetty:jetty-security:jar:8.1.7.v20120910:compile
+|  |  \- (org.eclipse.jetty:jetty-server:jar:8.1.7.v20120910:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.5:runtime - version managed from 1.6.6; omitted for duplicate)
+|  \- org.apache.geronimo.specs:geronimo-servlet_3.0_spec:jar:1.0:compile
++- org.springframework:spring-beans:jar:3.1.4.RELEASE:compile
+|  \- (org.springframework:spring-core:jar:3.1.4.RELEASE:compile - omitted for duplicate)
++- org.springframework:spring-context:jar:3.1.4.RELEASE:compile
+|  +- (org.springframework:spring-aop:jar:3.1.4.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-beans:jar:3.1.4.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-core:jar:3.1.4.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework:spring-expression:jar:3.1.4.RELEASE:compile
+|  |  \- (org.springframework:spring-core:jar:3.1.4.RELEASE:compile - omitted for duplicate)
+|  \- org.springframework:spring-asm:jar:3.1.4.RELEASE:compile
++- org.hamcrest:hamcrest-library:jar:1.3:test
+|  \- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for duplicate)
++- org.hamcrest:hamcrest-core:jar:1.3:test
++- junit:junit:jar:4.8.2:test
++- org.apache.camel:camel-test:jar:2.11.2:test
+|  +- (org.apache.camel:camel-core:jar:2.11.2:test - omitted for duplicate)
+|  \- (junit:junit:jar:4.8.2:test - version managed from 4.11; omitted for duplicate)
++- org.apache.camel:camel-test-spring:jar:2.11.2:test
+|  +- (org.apache.camel:camel-test:jar:2.11.2:test - omitted for duplicate)
+|  +- (org.apache.camel:camel-spring:jar:2.11.2:test - omitted for duplicate)
+|  \- (org.springframework:spring-test:jar:3.1.4.RELEASE:test - omitted for duplicate)
++- org.springframework:spring-test:jar:3.1.4.RELEASE:test
++- com.jayway.restassured:rest-assured:jar:1.8.1:test
+|  +- org.codehaus.groovy:groovy-xml:jar:2.1.2:test
+|  +- org.apache.httpcomponents:httpclient:jar:4.2.1:test
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.2.1:test
+|  |  +- (commons-logging:commons-logging:jar:1.1.1:test - omitted for duplicate)
+|  |  \- (commons-codec:commons-codec:jar:1.6:test - omitted for conflict with 1.5)
+|  +- org.apache.httpcomponents:httpmime:jar:4.2.1:test
+|  |  \- (org.apache.httpcomponents:httpcore:jar:4.2.1:test - omitted for duplicate)
+|  +- org.ccil.cowan.tagsoup:tagsoup:jar:1.2.1:test
+|  +- (com.jayway.restassured:json-path:jar:1.8.1:test - omitted for duplicate)
+|  \- com.jayway.restassured:xml-path:jar:1.8.1:test
+|     +- (org.codehaus.groovy:groovy-xml:jar:2.1.2:test - omitted for duplicate)
+|     +- (com.jayway.restassured:rest-assured-common:jar:1.8.1:test - omitted for duplicate)
+|     \- (org.apache.commons:commons-lang3:jar:3.1:test - omitted for duplicate)
++- com.jayway.restassured:json-path:jar:1.8.1:test
+|  +- org.codehaus.groovy:groovy-json:jar:2.1.2:test
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.2.2:test - version managed from 2.0.5; omitted for duplicate)
+|  +- org.codehaus.jackson:jackson-core-asl:jar:1.8.5:test
+|  +- org.codehaus.jackson:jackson-mapper-asl:jar:1.8.5:test
+|  |  \- (org.codehaus.jackson:jackson-core-asl:jar:1.8.5:test - omitted for duplicate)
+|  +- com.google.code.gson:gson:jar:1.7.2:test
+|  +- com.googlecode.json-simple:json-simple:jar:1.1:test
+|  \- com.jayway.restassured:rest-assured-common:jar:1.8.1:test
+|     \- (org.apache.commons:commons-lang3:jar:3.1:test - omitted for duplicate)
++- org.slf4j:slf4j-api:jar:1.7.5:compile
++- org.slf4j:slf4j-log4j12:jar:1.7.5:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.5:compile - version managed from 1.6.6; omitted for duplicate)
+|  \- (log4j:log4j:jar:1.2.17:compile - omitted for duplicate)
++- com.fasterxml.jackson.core:jackson-core:jar:2.2.2:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.2.2:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.2.2:compile - omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.2.2:compile - version managed from 2.1.4; omitted for duplicate)
++- org.yaml:snakeyaml:jar:1.13:compile
+\- org.codehaus.groovy:groovy-all:jar:2.1.2:compile

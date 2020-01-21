@@ -1,0 +1,36 @@
+org.apache.kerby:kerby-kdc:jar:1.1.1
++- org.apache.kerby:kerb-server-api-all:jar:1.1.1:compile
+|  \- org.apache.kerby:kerb-admin:jar:1.1.1:compile
+|     +- org.apache.kerby:kerb-server:jar:1.1.1:compile
+|     |  +- org.apache.kerby:kerb-common:jar:1.1.1:compile
+|     |  |  +- (org.apache.kerby:kerby-config:jar:1.1.1:compile - omitted for duplicate)
+|     |  |  +- (org.apache.kerby:kerb-crypto:jar:1.1.1:compile - omitted for duplicate)
+|     |  |  \- commons-io:commons-io:jar:2.6:compile
+|     |  \- org.apache.kerby:kerb-identity:jar:1.1.1:compile
+|     |     +- (org.apache.kerby:kerby-config:jar:1.1.1:compile - omitted for duplicate)
+|     |     +- (org.apache.kerby:kerb-common:jar:1.1.1:compile - omitted for duplicate)
+|     |     \- (org.apache.kerby:kerb-core:jar:1.1.1:compile - omitted for duplicate)
+|     +- org.apache.kerby:kerb-util:jar:1.1.1:compile
+|     |  +- org.apache.kerby:kerby-config:jar:1.1.1:compile
+|     |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|     |  +- org.apache.kerby:kerb-core:jar:1.1.1:compile
+|     |  |  \- org.apache.kerby:kerby-pkix:jar:1.1.1:compile
+|     |  |     +- org.apache.kerby:kerby-asn1:jar:1.1.1:compile
+|     |  |     +- (org.apache.kerby:kerby-util:jar:1.1.1:compile - omitted for duplicate)
+|     |  |     \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|     |  \- org.apache.kerby:kerb-crypto:jar:1.1.1:compile
+|     |     +- org.apache.kerby:kerby-util:jar:1.1.1:compile
+|     |     \- (org.apache.kerby:kerb-core:jar:1.1.1:compile - omitted for duplicate)
+|     \- org.apache.kerby:kerby-xdr:jar:1.1.1:compile
++- io.netty:netty-transport:jar:4.0.52.Final:compile
+|  \- (io.netty:netty-buffer:jar:4.0.52.Final:compile - omitted for duplicate)
++- io.netty:netty-handler:jar:4.0.52.Final:compile
+|  +- (io.netty:netty-buffer:jar:4.0.52.Final:compile - omitted for duplicate)
+|  +- (io.netty:netty-transport:jar:4.0.52.Final:compile - omitted for duplicate)
+|  \- (io.netty:netty-codec:jar:4.0.52.Final:compile - omitted for duplicate)
++- io.netty:netty-common:jar:4.0.52.Final:compile
++- io.netty:netty-codec:jar:4.0.52.Final:compile
+|  \- (io.netty:netty-transport:jar:4.0.52.Final:compile - omitted for duplicate)
++- io.netty:netty-buffer:jar:4.0.52.Final:compile
+|  \- (io.netty:netty-common:jar:4.0.52.Final:compile - omitted for duplicate)
+\- org.slf4j:slf4j-api:jar:1.7.25:compile

@@ -1,0 +1,14 @@
+org.wvlet.airframe:airframe-log_2.11:jar:0.60
++- org.scala-lang:scala-library:jar:2.11.11:compile
++- org.scala-lang:scala-reflect:jar:2.11.11:provided
+|  \- (org.scala-lang:scala-library:jar:2.11.11:provided - omitted for duplicate)
++- org.scalatest:scalatest_2.11:jar:3.0.6-SNAP1:test
+|  +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for conflict with 2.11.11)
+|  +- org.scalactic:scalactic_2.11:jar:3.0.6-SNAP1:test
+|  |  +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for conflict with 2.11.11)
+|  |  +- (org.scala-lang:scala-reflect:jar:2.11.12:test - omitted for conflict with 2.11.11)
+|  |  \- (org.scala-lang.modules:scala-xml_2.11:jar:1.1.0:test - omitted for duplicate)
+|  +- (org.scala-lang:scala-reflect:jar:2.11.12:test - omitted for conflict with 2.11.11)
+|  \- org.scala-lang.modules:scala-xml_2.11:jar:1.1.0:test
+|     \- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for conflict with 2.11.11)
+\- ch.qos.logback:logback-core:jar:1.2.3:compile

@@ -1,0 +1,3 @@
+org.webjars.npm:d3-zoom:jar:1.0.1
++- org.webjars.npm:d3-dispatch:jar:1.0.5:compile
+\- org.webjars.npm:d3-selection:jar:1.4.0:compile

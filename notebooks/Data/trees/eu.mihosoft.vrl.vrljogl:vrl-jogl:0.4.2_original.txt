@@ -1,0 +1,11 @@
+eu.mihosoft.vrl.vrljogl:vrl-jogl:pom:0.4.2
++- eu.mihosoft.vrl:vrl:jar:0.4.3.2.3:compile
++- eu.mihosoft.vrl:vrl:jar:javadoc:0.4.3.2.3:compile
++- org.jogamp.gluegen:gluegen-rt:jar:2.3.2:compile
++- org.jogamp.jogl:jogl-all:jar:2.3.2:compile
++- org.joml:joml:jar:1.9.9:compile
++- eu.mihosoft.vvecmath:vvecmath:jar:0.3.8:compile
++- org.jogamp.gluegen:gluegen-rt:jar:natives-macosx-universal:2.3.2:compile
++- org.jogamp.jogl:jogl-all:jar:natives-macosx-universal:2.3.2:compile
++- org.jogamp.gluegen:gluegen-rt:jar:natives-windows-amd64:2.3.2:compile
+\- org.jogamp.jogl:jogl-all:jar:natives-windows-amd64:2.3.2:compile

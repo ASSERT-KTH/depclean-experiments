@@ -1,0 +1,38 @@
+org.scalikejdbc:scalikejdbc-joda-time_2.12:jar:3.3.0-RC1
++- org.scala-lang:scala-library:jar:2.12.6:compile
++- org.scalikejdbc:scalikejdbc_2.12:jar:3.3.0-RC1:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
+|  +- (org.scalikejdbc:scalikejdbc-core_2.12:jar:3.3.0-RC1:compile - omitted for duplicate)
+|  \- (org.scalikejdbc:scalikejdbc-interpolation_2.12:jar:3.3.0-RC1:compile - omitted for duplicate)
++- org.scalikejdbc:scalikejdbc-core_2.12:jar:3.3.0-RC1:test (scope not updated to compile)
+|  +- (org.scala-lang:scala-library:jar:2.12.6:test - omitted for duplicate)
+|  +- org.apache.commons:commons-dbcp2:jar:2.5.0:test
+|  |  +- org.apache.commons:commons-pool2:jar:2.6.0:test
+|  |  \- commons-logging:commons-logging:jar:1.2:test
+|  +- org.slf4j:slf4j-api:jar:1.7.25:test
+|  +- org.scala-lang.modules:scala-parser-combinators_2.12:jar:1.1.1:test
+|  |  \- (org.scala-lang:scala-library:jar:2.12.6:test - omitted for duplicate)
+|  \- org.scala-lang.modules:scala-collection-compat_2.12:jar:0.1.1:test
+|     \- (org.scala-lang:scala-library:jar:2.12.6:test - omitted for duplicate)
++- org.scalikejdbc:scalikejdbc-interpolation_2.12:jar:3.3.0-RC1:test (scope not updated to compile)
+|  +- (org.scala-lang:scala-library:jar:2.12.6:test - omitted for duplicate)
+|  +- (org.scalikejdbc:scalikejdbc-core_2.12:jar:3.3.0-RC1:test - omitted for duplicate)
+|  +- org.scalikejdbc:scalikejdbc-interpolation-macro_2.12:jar:3.3.0-RC1:test
+|  |  +- (org.scala-lang:scala-library:jar:2.12.6:test - omitted for duplicate)
+|  |  +- (org.scalikejdbc:scalikejdbc-core_2.12:jar:3.3.0-RC1:test - omitted for duplicate)
+|  |  \- (org.scala-lang:scala-reflect:jar:2.12.6:test - omitted for conflict with 2.12.4)
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)
++- org.scalatest:scalatest_2.12:jar:3.0.5:test
+|  +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for conflict with 2.12.6)
+|  +- org.scalactic:scalactic_2.12:jar:3.0.5:test
+|  |  +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for conflict with 2.12.6)
+|  |  \- (org.scala-lang:scala-reflect:jar:2.12.4:test - omitted for conflict with 2.12.6)
+|  +- org.scala-lang:scala-reflect:jar:2.12.4:test
+|  |  \- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for conflict with 2.12.6)
+|  \- org.scala-lang.modules:scala-xml_2.12:jar:1.0.6:test
+|     \- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.6)
++- org.mockito:mockito-core:jar:2.19.1:test
+|  +- net.bytebuddy:byte-buddy:jar:1.8.13:test
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.8.13:test
+|  \- org.objenesis:objenesis:jar:2.6:test
+\- joda-time:joda-time:jar:2.10:compile

@@ -1,0 +1,45 @@
+com.bitplan.simplegraph:com.bitplan.simplegraph.triplestore:jar:0.0.2
++- com.bitplan.simplegraph:com.bitplan.simplegraph-core:jar:0.0.2:compile
+|  +- org.apache.tinkerpop:gremlin-core:jar:3.3.1:compile
+|  |  +- org.apache.tinkerpop:gremlin-shaded:jar:3.3.1:compile
+|  |  +- commons-configuration:commons-configuration:jar:1.10:compile
+|  |  |  \- commons-lang:commons-lang:jar:2.6:compile
+|  |  +- org.yaml:snakeyaml:jar:1.15:compile
+|  |  +- org.javatuples:javatuples:jar:1.2:compile
+|  |  +- com.carrotsearch:hppc:jar:0.7.1:compile
+|  |  +- com.jcabi:jcabi-manifests:jar:1.1:compile
+|  |  |  \- com.jcabi:jcabi-log:jar:0.14:compile
+|  |  +- com.squareup:javapoet:jar:1.8.0:compile
+|  |  +- net.objecthunter:exp4j:jar:0.4.8:compile
+|  |  +- org.slf4j:slf4j-api:jar:1.7.25:compile
+|  |  \- org.slf4j:jcl-over-slf4j:jar:1.7.21:compile
+|  |     \- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|  +- org.apache.tinkerpop:tinkergraph-gremlin:jar:3.3.1:compile
+|  |  +- (org.apache.tinkerpop:gremlin-core:jar:3.3.1:compile - omitted for duplicate)
+|  |  \- org.apache.commons:commons-lang3:jar:3.3.1:compile
+|  +- org.rythmengine:rythm-engine:jar:1.1.7:compile
+|  |  +- org.eclipse.jdt.core.compiler:ecj:jar:4.6.1:compile
+|  |  +- com.stevesoft.pat:pat:jar:1.5.3:compile
+|  |  +- (org.apache.commons:commons-lang3:jar:3.4:compile - omitted for conflict with 3.3.1)
+|  |  +- (commons-io:commons-io:jar:2.4:compile - omitted for conflict with 2.6)
+|  |  +- com.alibaba:fastjson:jar:1.2.11:compile
+|  |  \- org.mvel:mvel2:jar:2.2.8.Final:compile
+|  \- (joda-time:joda-time:jar:2.9.9:compile - omitted for duplicate)
++- com.bitplan:org.sidif.triplestore:jar:0.0.9:compile
+|  +- org.antlr:antlr4:jar:4.7.1:compile
+|  |  +- org.antlr:antlr4-runtime:jar:4.7.1:compile
+|  |  +- org.antlr:antlr-runtime:jar:3.5.2:compile
+|  |  +- org.antlr:ST4:jar:4.0.8:compile
+|  |  |  \- (org.antlr:antlr-runtime:jar:3.5.2:compile - omitted for duplicate)
+|  |  +- org.abego.treelayout:org.abego.treelayout.core:jar:1.0.3:compile
+|  |  +- org.glassfish:javax.json:jar:1.0.4:compile
+|  |  \- com.ibm.icu:icu4j:jar:58.2:compile
+|  +- com.bitplan.antlr:com.bitplan.antlr:jar:0.0.6:compile
+|  |  +- (org.antlr:antlr4:jar:4.7.1:compile - omitted for duplicate)
+|  |  \- (org.apache.commons:commons-lang3:jar:3.4:compile - omitted for conflict with 3.3.1)
+|  +- commons-io:commons-io:jar:2.6:compile
+|  \- args4j:args4j:jar:2.0.29:compile
++- junit:junit:jar:4.12:test
++- org.hamcrest:hamcrest-all:jar:1.3:test
+\- org.slf4j:slf4j-simple:jar:1.7.25:test
+   \- (org.slf4j:slf4j-api:jar:1.7.25:compile - scope updated from test; omitted for duplicate)

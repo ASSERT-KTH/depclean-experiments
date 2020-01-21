@@ -1,0 +1,9 @@
+me.insidezhou.instep:instep-dao:jar:1.0.0
++- me.insidezhou.instep:instep-core:jar:1.0.0:compile
+|  +- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.51:runtime - omitted for duplicate)
+|  \- (org.jetbrains.kotlin:kotlin-reflect:jar:1.2.51:runtime - omitted for duplicate)
++- org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.51:runtime
+|  +- org.jetbrains.kotlin:kotlin-stdlib-common:jar:1.2.51:runtime
+|  \- org.jetbrains:annotations:jar:13.0:runtime
+\- org.jetbrains.kotlin:kotlin-reflect:jar:1.2.51:runtime
+   \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.51:runtime - omitted for duplicate)

@@ -1,0 +1,26 @@
+org.nuiton.jaxx:jaxx-runtime:jar:2.44
++- org.nuiton:nuiton-utils:jar:3.0-rc-15:compile
+|  \- commons-primitives:commons-primitives:jar:1.0:compile
++- org.nuiton:nuiton-decorator:jar:3.0:compile
+|  \- commons-jxpath:commons-jxpath:jar:1.3:compile
++- org.nuiton:nuiton-converter:jar:1.0:compile
++- org.nuiton.i18n:nuiton-i18n:jar:3.6.2:compile
++- org.apache.commons:commons-lang3:jar:3.4:compile
++- commons-logging:commons-logging:jar:1.2:compile
++- org.apache.commons:commons-collections4:jar:4.1:compile
++- commons-beanutils:commons-beanutils:jar:1.9.2:compile
+|  \- commons-collections:commons-collections:jar:3.2.1:compile
++- commons-io:commons-io:jar:2.5:compile
++- com.google.guava:guava:jar:19.0:compile
++- javax.help:javahelp:jar:2.0.05:compile
++- org.swinglabs:jxlayer:jar:3.0.4:compile
++- log4j:log4j:jar:1.2.17:test
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
+\- org.swinglabs.swingx:swingx-core:jar:1.6.5-1:compile
+   +- org.swinglabs.swingx:swingx-autocomplete:jar:1.6.5-1:compile
+   |  \- org.swinglabs.swingx:swingx-common:jar:1.6.5-1:compile
+   +- org.swinglabs.swingx:swingx-action:jar:1.6.5-1:compile
+   +- org.swinglabs.swingx:swingx-plaf:jar:1.6.5-1:compile
+   +- org.swinglabs.swingx:swingx-graphics:jar:1.6.5-1:compile
+   \- org.swinglabs.swingx:swingx-painters:jar:1.6.5-1:compile

@@ -1,0 +1,73 @@
+org.lightjason:agentspeak:jar:0.0.1
++- org.antlr:antlr4-runtime:jar:4.7.1:compile
++- org.apache.commons:commons-text:jar:1.2:compile
+|  \- org.apache.commons:commons-lang3:jar:3.7:compile
++- commons-io:commons-io:jar:2.6:compile
++- org.apache.commons:commons-compress:jar:1.16.1:compile
+|  \- org.objenesis:objenesis:jar:2.6:compile
++- com.google.guava:guava:jar:24.0-jre:compile
+|  +- com.google.code.findbugs:jsr305:jar:1.3.9:compile
+|  +- org.checkerframework:checker-compat-qual:jar:2.0.0:compile
+|  +- com.google.errorprone:error_prone_annotations:jar:2.1.3:compile
+|  +- com.google.j2objc:j2objc-annotations:jar:1.1:compile
+|  \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:compile
++- com.codepoetics:protonpack:jar:1.15:compile
++- uk.com.robust-it:cloning:jar:1.9.9:compile
+|  \- (org.objenesis:objenesis:jar:2.6:compile - omitted for duplicate)
++- joda-time:joda-time:jar:2.9.9:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.9.4:compile
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+|  \- com.fasterxml.jackson.core:jackson-core:jar:2.9.4:compile
++- com.fasterxml.jackson.dataformat:jackson-dataformat-xml:jar:2.9.4:compile
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.4:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.4:compile - omitted for duplicate)
+|  +- com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.9.4:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.4:compile - omitted for duplicate)
+|  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.4:compile - omitted for duplicate)
+|  +- org.codehaus.woodstox:stax2-api:jar:3.1.4:compile
+|  \- com.fasterxml.woodstox:woodstox-core:jar:5.0.3:compile
+|     \- (org.codehaus.woodstox:stax2-api:jar:3.1.4:compile - omitted for duplicate)
++- org.apache.httpcomponents:httpclient:jar:4.5.5:compile
+|  +- org.apache.httpcomponents:httpcore:jar:4.4.9:compile
+|  +- commons-logging:commons-logging:jar:1.2:compile
+|  \- commons-codec:commons-codec:jar:1.10:compile
++- net.sourceforge.parallelcolt:parallelcolt:jar:0.10.1:compile
+|  +- net.sourceforge.jplasma:jplasma:jar:1.2.0:compile
+|  |  +- net.sourceforge.jplasma:core-lapack:jar:0.1:compile
+|  |  \- net.sourceforge.f2j:arpack_combined_all:jar:0.1:compile
+|  +- net.sourceforge.jtransforms:jtransforms:jar:2.4.0:compile
+|  |  \- (junit:junit:jar:4.13-beta-3:compile - omitted for duplicate)
+|  +- net.sourceforge.csparsej:csparsej:jar:1.1.1:compile
+|  +- net.sourceforge.parallelcolt:optimization:jar:1.0:compile
+|  +- com.googlecode.netlib-java:netlib-java:jar:0.9.3:compile
+|  |  \- (net.sourceforge.f2j:arpack_combined_all:jar:0.1:compile - omitted for duplicate)
+|  \- com.github.rwl:JKLU:jar:1.0.0:compile
+|     +- com.github.rwl:BTFJ:jar:1.0.1:compile
+|     +- com.github.rwl:AMDJ:jar:1.0.1:compile
+|     \- com.github.rwl:COLAMDJ:jar:1.0.1:compile
++- org.apache.commons:commons-math3:jar:3.6.1:compile
++- net.sf.jung:jung-graph-impl:jar:2.1.1:compile
+|  \- net.sf.jung:jung-api:jar:2.1.1:compile
+|     \- (com.google.guava:guava:jar:19.0:compile - omitted for conflict with 24.0-jre)
++- net.sf.jung:jung-algorithms:jar:2.1.1:compile
+|  \- (net.sf.jung:jung-api:jar:2.1.1:compile - omitted for duplicate)
++- com.google.code.findbugs:findbugs:jar:3.0.1:compile
+|  +- net.jcip:jcip-annotations:jar:1.0:compile
+|  +- (com.google.code.findbugs:jsr305:jar:2.0.1:compile - omitted for conflict with 1.3.9)
+|  +- com.google.code.findbugs:bcel-findbugs:jar:6.0:compile
+|  +- com.google.code.findbugs:jFormatString:jar:2.0.1:compile
+|  +- dom4j:dom4j:jar:1.6.1:compile
+|  |  \- xml-apis:xml-apis:jar:1.0.b2:compile
+|  +- org.ow2.asm:asm-debug-all:jar:5.0.2:compile
+|  +- org.ow2.asm:asm-commons:jar:5.0.2:compile
+|  |  \- org.ow2.asm:asm-tree:jar:5.0.2:compile
+|  |     \- org.ow2.asm:asm:jar:5.0.2:compile
+|  +- commons-lang:commons-lang:jar:2.6:compile
+|  +- com.apple:AppleJavaExtensions:jar:1.4:compile
+|  \- jaxen:jaxen:jar:1.1.6:compile
++- junit:junit:jar:4.13-beta-3:test (scope not updated to compile)
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- com.github.javaparser:javaparser-core:jar:3.14.5:test
+\- com.tngtech.java:junit-dataprovider:jar:1.13.1:test

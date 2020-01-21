@@ -1,0 +1,8 @@
+io.micrometer:micrometer-registry-graphite:jar:1.0.3
++- io.micrometer:micrometer-core:jar:1.0.3:compile
+|  +- org.hdrhistogram:HdrHistogram:jar:2.1.10:compile
+|  \- org.latencyutils:LatencyUtils:jar:2.0.3:compile
+\- io.dropwizard.metrics:metrics-graphite:jar:3.2.6:compile
+   +- io.dropwizard.metrics:metrics-core:jar:3.2.6:compile
+   |  \- (org.slf4j:slf4j-api:jar:1.7.22:compile - omitted for duplicate)
+   \- org.slf4j:slf4j-api:jar:1.7.22:compile

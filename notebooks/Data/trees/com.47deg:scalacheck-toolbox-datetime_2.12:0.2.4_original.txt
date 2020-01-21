@@ -1,0 +1,6 @@
+com.47deg:scalacheck-toolbox-datetime_2.12:jar:0.2.4
++- org.scala-lang:scala-library:jar:2.12.4:compile
++- org.scalacheck:scalacheck_2.12:jar:1.13.5:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.4)
+|  \- org.scala-sbt:test-interface:jar:1.0:compile
+\- joda-time:joda-time:jar:2.9.9:compile

@@ -1,0 +1,8 @@
+org.dom4j:dom4j:jar:2.1.1
++- jaxen:jaxen:jar:1.1.6:runtime
++- javax.xml.stream:stax-api:jar:1.0-2:runtime
++- net.java.dev.msv:xsdlib:jar:2013.6.1:runtime
+|  \- relaxngDatatype:relaxngDatatype:jar:20020414:runtime
++- javax.xml.bind:jaxb-api:jar:2.2.12:runtime
++- pull-parser:pull-parser:jar:2:runtime
+\- xpp3:xpp3:jar:1.1.4c:runtime

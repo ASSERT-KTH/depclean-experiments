@@ -1,0 +1,2 @@
+org.kordamp.ikonli:ikonli-materialdesign-pack:jar:2.3.0
+\- org.kordamp.ikonli:ikonli-core:jar:2.3.0:compile

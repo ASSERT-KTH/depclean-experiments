@@ -1,0 +1,6 @@
+org.opensourcebim:bcf:jar:0.0.26
++- commons-io:commons-io:jar:2.4:compile
++- com.fasterxml.jackson.core:jackson-core:jar:2.9.1:compile
+\- com.fasterxml.jackson.core:jackson-databind:jar:2.9.1:compile
+   +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+   \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.1:compile - omitted for duplicate)

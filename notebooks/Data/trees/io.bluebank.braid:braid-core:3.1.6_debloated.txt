@@ -1,0 +1,64 @@
+io.bluebank.braid:braid-core:jar:3.1.6
++- org.jetbrains.kotlin:kotlin-stdlib:jar:1.1.60:compile
+|  \- org.jetbrains:annotations:jar:13.0:compile
++- org.jetbrains.kotlin:kotlin-test-junit:jar:1.1.60:test
+|  +- org.jetbrains.kotlin:kotlin-test:jar:1.1.60:test
+|  |  \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.1.60:test - omitted for duplicate)
+|  \- (junit:junit:jar:4.12:test - omitted for duplicate)
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- io.vertx:vertx-core:jar:3.4.2:compile
++- io.vertx:vertx-web:jar:3.4.2:compile
+|  +- (io.vertx:vertx-auth-common:jar:3.4.2:compile - omitted for duplicate)
+|  \- (io.vertx:vertx-core:jar:3.4.2:compile - omitted for duplicate)
++- io.vertx:vertx-unit:jar:3.4.2:test
+|  \- (io.vertx:vertx-core:jar:3.4.2:test - omitted for duplicate)
++- com.fasterxml.jackson.module:jackson-module-kotlin:jar:2.9.2:compile
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.2:compile - omitted for duplicate)
+|  \- org.jetbrains.kotlin:kotlin-reflect:jar:1.1.3:compile
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- io.vertx:vertx-auth-shiro:jar:3.4.2:compile
+|  +- (io.vertx:vertx-auth-common:jar:3.4.2:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for conflict with 1.7.25)
+|  +- org.apache.shiro:shiro-core:jar:1.2.4:compile
+|  |  \- commons-beanutils:commons-beanutils:jar:1.8.3:compile
+|  \- (io.vertx:vertx-core:jar:3.4.2:compile - omitted for duplicate)
++- io.vertx:vertx-auth-common:jar:3.4.2:compile
+|  \- (io.vertx:vertx-core:jar:3.4.2:compile - omitted for duplicate)
++- io.vertx:vertx-lang-kotlin:jar:3.4.2:compile
+|  \- (io.vertx:vertx-core:jar:3.4.2:compile - omitted for duplicate)
++- io.netty:netty-buffer:jar:4.1.9.Final:compile
+|  \- (io.netty:netty-common:jar:4.1.9.Final:compile - omitted for duplicate)
++- io.netty:netty-transport:jar:4.1.9.Final:compile
+|  +- (io.netty:netty-buffer:jar:4.1.9.Final:compile - omitted for duplicate)
+|  \- (io.netty:netty-resolver:jar:4.1.9.Final:compile - omitted for duplicate)
++- io.netty:netty-handler:jar:4.1.9.Final:compile
+|  +- (io.netty:netty-buffer:jar:4.1.9.Final:compile - omitted for duplicate)
+|  +- (io.netty:netty-transport:jar:4.1.9.Final:compile - omitted for duplicate)
+|  \- io.netty:netty-codec:jar:4.1.9.Final:compile
+|     \- (io.netty:netty-transport:jar:4.1.9.Final:compile - omitted for duplicate)
++- io.netty:netty-handler-proxy:jar:4.1.9.Final:compile
+|  +- (io.netty:netty-transport:jar:4.1.9.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-codec-socks:jar:4.1.9.Final:compile
+|  |  \- (io.netty:netty-codec:jar:4.1.9.Final:compile - omitted for duplicate)
+|  \- (io.netty:netty-codec-http:jar:4.1.9.Final:compile - omitted for duplicate)
++- io.netty:netty-codec-http:jar:4.1.9.Final:compile
+|  \- (io.netty:netty-codec:jar:4.1.9.Final:compile - omitted for duplicate)
++- io.netty:netty-codec-http2:jar:4.1.9.Final:compile
+|  +- (io.netty:netty-codec-http:jar:4.1.9.Final:compile - omitted for duplicate)
+|  \- (io.netty:netty-handler:jar:4.1.9.Final:compile - omitted for duplicate)
++- io.netty:netty-resolver-dns:jar:4.1.9.Final:compile
+|  +- (io.netty:netty-resolver:jar:4.1.9.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-codec-dns:jar:4.1.9.Final:compile
+|  |  \- (io.netty:netty-codec:jar:4.1.9.Final:compile - omitted for duplicate)
+|  \- (io.netty:netty-transport:jar:4.1.9.Final:compile - omitted for duplicate)
++- com.fasterxml.jackson.core:jackson-core:jar:2.9.2:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.9.2:compile
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.2:compile (version managed from 2.9.0)
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.2:compile - omitted for duplicate)
++- io.reactivex:rxjava:jar:1.2.4:compile
+\- com.fasterxml.jackson.module:jackson-module-jsonSchema:jar:2.9.2:compile
+   +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.2:compile - version managed from 2.9.0; omitted for duplicate)
+   +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.2:compile - omitted for duplicate)
+   +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.2:compile - omitted for duplicate)
+   \- javax.validation:validation-api:jar:1.1.0.Final:compile

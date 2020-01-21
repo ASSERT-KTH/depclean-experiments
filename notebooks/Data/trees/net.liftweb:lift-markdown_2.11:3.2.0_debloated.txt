@@ -1,0 +1,64 @@
+net.liftweb:lift-markdown_2.11:jar:3.2.0
++- org.scala-lang:scala-library:jar:2.11.11:compile
++- org.specs2:specs2-core_2.11:jar:3.8.6:test
+|  +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.11)
+|  +- org.specs2:specs2-matcher_2.11:jar:3.8.6:test
+|  |  +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.11)
+|  |  \- org.specs2:specs2-common_2.11:jar:3.8.6:test
+|  |     +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.11)
+|  |     +- org.specs2:specs2-codata_2.11:jar:3.8.6:test
+|  |     |  +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.11)
+|  |     |  +- (org.scalaz:scalaz-core_2.11:jar:7.2.7:test - omitted for duplicate)
+|  |     |  +- (org.scalaz:scalaz-effect_2.11:jar:7.2.7:test - omitted for duplicate)
+|  |     |  \- (org.scalaz:scalaz-concurrent_2.11:jar:7.2.7:test - omitted for duplicate)
+|  |     +- org.scalaz:scalaz-core_2.11:jar:7.2.7:test
+|  |     |  \- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.11)
+|  |     +- org.scalaz:scalaz-effect_2.11:jar:7.2.7:test
+|  |     |  +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.11)
+|  |     |  \- (org.scalaz:scalaz-core_2.11:jar:7.2.7:test - omitted for duplicate)
+|  |     +- org.scalaz:scalaz-concurrent_2.11:jar:7.2.7:test
+|  |     |  +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.11)
+|  |     |  +- (org.scalaz:scalaz-core_2.11:jar:7.2.7:test - omitted for duplicate)
+|  |     |  \- (org.scalaz:scalaz-effect_2.11:jar:7.2.7:test - omitted for duplicate)
+|  |     +- (org.scala-lang:scala-reflect:jar:2.11.8:test - omitted for duplicate)
+|  |     +- (org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.0.4:test - omitted for duplicate)
+|  |     \- (org.scala-lang.modules:scala-xml_2.11:jar:1.0.5:test - omitted for duplicate)
+|  \- org.scala-lang:scala-reflect:jar:2.11.8:test
+|     \- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.11)
++- org.specs2:specs2-matcher-extra_2.11:jar:3.8.6:test
+|  +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.11)
+|  +- org.specs2:specs2-analysis_2.11:jar:3.8.6:test
+|  |  +- org.scala-lang:scala-compiler:jar:2.11.8:test
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.11)
+|  |  |  +- (org.scala-lang:scala-reflect:jar:2.11.8:test - omitted for duplicate)
+|  |  |  +- (org.scala-lang.modules:scala-xml_2.11:jar:1.0.4:test - omitted for conflict with 1.0.5)
+|  |  |  \- (org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.0.4:test - omitted for duplicate)
+|  |  +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.11)
+|  |  +- (org.specs2:specs2-core_2.11:jar:3.8.6:test - omitted for duplicate)
+|  |  +- (org.specs2:specs2-matcher_2.11:jar:3.8.6:test - omitted for duplicate)
+|  |  \- org.specs2:classycle:jar:1.4.3:test
+|  \- (org.specs2:specs2-matcher_2.11:jar:3.8.6:test - omitted for duplicate)
++- org.specs2:specs2-mock_2.11:jar:3.8.6:test
+|  +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.11)
+|  +- (org.specs2:specs2-core_2.11:jar:3.8.6:test - omitted for duplicate)
+|  +- org.hamcrest:hamcrest-core:jar:1.3:test
+|  \- org.mockito:mockito-core:jar:1.9.5:test
+|     +- (org.hamcrest:hamcrest-core:jar:1.1:test - omitted for conflict with 1.3)
+|     \- org.objenesis:objenesis:jar:1.0:test
++- org.specs2:specs2-scalacheck_2.11:jar:3.8.6:test
+|  +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.11)
+|  +- (org.specs2:specs2-core_2.11:jar:3.8.6:test - omitted for duplicate)
+|  \- org.scalacheck:scalacheck_2.11:jar:1.13.4:test
+|     +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.11)
+|     \- org.scala-sbt:test-interface:jar:1.0:test
++- org.scalatest:scalatest_2.11:jar:3.0.1:test
+|  +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.11)
+|  +- org.scalactic:scalactic_2.11:jar:3.0.1:test
+|  |  +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.11)
+|  |  \- (org.scala-lang:scala-reflect:jar:2.11.8:test - omitted for duplicate)
+|  +- (org.scala-lang:scala-reflect:jar:2.11.8:test - omitted for duplicate)
+|  +- (org.scala-lang.modules:scala-xml_2.11:jar:1.0.5:test - omitted for duplicate)
+|  \- (org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.0.4:test - omitted for duplicate)
++- junit:junit:jar:4.8.2:test
+\- org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.0.4:compile
+   \- (org.scala-lang:scala-library:jar:2.11.6:compile - omitted for conflict with 2.11.11)

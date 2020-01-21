@@ -1,0 +1,68 @@
+com.lihaoyi:ammonite-repl_2.11.8:jar:1.1.2-7-b6ffcf0
++- org.jline:jline:jar:3.6.2:compile
++- org.jline:jline-terminal-jna:jar:3.6.2:compile
+|  +- net.java.dev.jna:jna:jar:4.2.2:compile
+|  \- org.jline:jline-terminal:jar:3.6.2:compile
++- com.github.javaparser:javaparser-core:jar:3.2.5:compile
++- com.github.scopt:scopt_2.11:jar:3.5.0:compile
+|  \- org.scala-lang:scala-library:jar:2.11.8:compile
++- com.lihaoyi:ammonite-ops_2.11:jar:1.1.2-7-b6ffcf0:compile
+|  \- com.lihaoyi:geny_2.11:jar:0.1.2:compile
+|     \- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for duplicate)
++- com.lihaoyi:ammonite-util_2.11:jar:1.1.2-7-b6ffcf0:compile
+|  +- com.lihaoyi:upickle_2.11:jar:0.6.6:compile
+|  |  \- com.lihaoyi:ujson_2.11:jar:0.6.6:compile
+|  +- com.lihaoyi:pprint_2.11:jar:0.5.2:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.8)
+|  |  +- (com.lihaoyi:fansi_2.11:jar:0.2.4:compile - omitted for duplicate)
+|  |  \- (com.lihaoyi:sourcecode_2.11:jar:0.1.3:compile - omitted for duplicate)
+|  +- com.lihaoyi:fansi_2.11:jar:0.2.4:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for duplicate)
+|  |  \- (com.lihaoyi:sourcecode_2.11:jar:0.1.3:compile - omitted for duplicate)
+|  \- (com.lihaoyi:ammonite-ops_2.11:jar:1.1.2-7-b6ffcf0:compile - omitted for duplicate)
++- com.lihaoyi:ammonite-runtime_2.11:jar:1.1.2-7-b6ffcf0:compile
+|  +- io.get-coursier:coursier_2.11:jar:1.0.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.8)
+|  |  +- org.scala-lang.modules:scala-xml_2.11:jar:1.0.6:compile
+|  |  |  \- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for duplicate)
+|  |  \- org.scalaz:scalaz-core_2.11:jar:7.2.16:compile
+|  |     \- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.8)
+|  +- io.get-coursier:coursier-cache_2.11:jar:1.0.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.8)
+|  |  +- (io.get-coursier:coursier_2.11:jar:1.0.0:compile - omitted for duplicate)
+|  |  \- org.scalaz:scalaz-concurrent_2.11:jar:7.2.16:compile
+|  |     +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.8)
+|  |     +- (org.scalaz:scalaz-core_2.11:jar:7.2.16:compile - omitted for duplicate)
+|  |     \- org.scalaz:scalaz-effect_2.11:jar:7.2.16:compile
+|  |        +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.8)
+|  |        \- (org.scalaz:scalaz-core_2.11:jar:7.2.16:compile - omitted for duplicate)
+|  +- org.scalaj:scalaj-http_2.11:jar:2.3.0:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.11.7:compile - omitted for conflict with 2.11.8)
+|  +- (com.lihaoyi:ammonite-ops_2.11:jar:1.1.2-7-b6ffcf0:compile - omitted for duplicate)
+|  \- (com.lihaoyi:ammonite-util_2.11:jar:1.1.2-7-b6ffcf0:compile - omitted for duplicate)
++- com.lihaoyi:ammonite-interp_2.11.8:jar:1.1.2-7-b6ffcf0:compile
+|  +- org.scala-lang:scala-compiler:jar:2.11.8:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for duplicate)
+|  |  +- (org.scala-lang:scala-reflect:jar:2.11.8:compile - omitted for duplicate)
+|  |  +- (org.scala-lang.modules:scala-xml_2.11:jar:1.0.4:compile - omitted for conflict with 1.0.6)
+|  |  \- org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.0.4:compile
+|  |     \- (org.scala-lang:scala-library:jar:2.11.6:compile - omitted for conflict with 2.11.8)
+|  +- org.scala-lang:scala-reflect:jar:2.11.8:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for duplicate)
+|  +- com.lihaoyi:scalaparse_2.11:jar:1.0.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.8)
+|  |  +- com.lihaoyi:fastparse_2.11:jar:1.0.0:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.8)
+|  |  |  +- com.lihaoyi:fastparse-utils_2.11:jar:1.0.0:compile
+|  |  |  |  +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.8)
+|  |  |  |  \- (com.lihaoyi:sourcecode_2.11:jar:0.1.4:compile - omitted for conflict with 0.1.3)
+|  |  |  \- (com.lihaoyi:sourcecode_2.11:jar:0.1.4:compile - omitted for conflict with 0.1.3)
+|  |  \- (com.lihaoyi:sourcecode_2.11:jar:0.1.4:compile - omitted for conflict with 0.1.3)
+|  +- org.javassist:javassist:jar:3.21.0-GA:compile
+|  +- (com.lihaoyi:ammonite-ops_2.11:jar:1.1.2-7-b6ffcf0:compile - omitted for duplicate)
+|  +- (com.lihaoyi:ammonite-util_2.11:jar:1.1.2-7-b6ffcf0:compile - omitted for duplicate)
+|  \- (com.lihaoyi:ammonite-runtime_2.11:jar:1.1.2-7-b6ffcf0:compile - omitted for duplicate)
+\- com.lihaoyi:ammonite-terminal_2.11:jar:1.1.2-7-b6ffcf0:compile
+   +- com.lihaoyi:sourcecode_2.11:jar:0.1.3:compile
+   |  \- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for duplicate)
+   \- (com.lihaoyi:fansi_2.11:jar:0.2.4:compile - omitted for duplicate)

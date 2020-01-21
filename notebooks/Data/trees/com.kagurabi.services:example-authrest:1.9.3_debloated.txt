@@ -1,0 +1,63 @@
+com.kagurabi.services:example-authrest:bundle:1.9.3
++- org.apache.camel:camel-core:jar:2.11.2:compile
+|  +- org.slf4j:slf4j-api:jar:1.7.5:compile (version managed from 1.6.6)
+|  \- com.sun.xml.bind:jaxb-impl:jar:2.2.6:compile
++- org.apache.camel:camel-cxf:jar:2.11.2:compile
+|  +- (org.apache.camel:camel-core:jar:2.11.2:compile - omitted for duplicate)
+|  +- (org.apache.camel:camel-spring:jar:2.11.2:compile - omitted for duplicate)
+|  +- (org.apache.camel:camel-cxf-transport:jar:2.11.2:compile - omitted for duplicate)
+|  +- org.apache.cxf:cxf-rt-frontend-jaxrs:jar:2.7.6:compile
+|  |  +- (org.apache.cxf:cxf-api:jar:2.7.6:compile - omitted for duplicate)
+|  |  +- (org.apache.cxf:cxf-rt-core:jar:2.7.6:compile - omitted for duplicate)
+|  |  +- javax.ws.rs:javax.ws.rs-api:jar:2.0-m10:compile
+|  |  +- org.apache.cxf:cxf-rt-bindings-xml:jar:2.7.6:compile
+|  |  |  \- (org.apache.cxf:cxf-api:jar:2.7.6:compile - omitted for duplicate)
+|  |  \- org.apache.cxf:cxf-rt-transports-http:jar:2.7.6:compile
+|  |     +- (org.apache.cxf:cxf-api:jar:2.7.6:compile - omitted for duplicate)
+|  |     \- (org.apache.cxf:cxf-rt-core:jar:2.7.6:compile - omitted for duplicate)
+|  +- org.apache.cxf:cxf-rt-frontend-jaxws:jar:2.7.6:compile
+|  |  +- xml-resolver:xml-resolver:jar:1.2:compile
+|  |  +- asm:asm:jar:3.3.1:compile
+|  |  +- (org.apache.cxf:cxf-api:jar:2.7.6:compile - omitted for duplicate)
+|  |  +- (org.apache.cxf:cxf-rt-core:jar:2.7.6:compile - omitted for duplicate)
+|  |  +- (org.apache.cxf:cxf-rt-bindings-soap:jar:2.7.6:compile - omitted for duplicate)
+|  |  +- (org.apache.cxf:cxf-rt-bindings-xml:jar:2.7.6:compile - omitted for duplicate)
+|  |  +- org.apache.cxf:cxf-rt-frontend-simple:jar:2.7.6:compile
+|  |  |  +- (org.apache.cxf:cxf-api:jar:2.7.6:compile - omitted for duplicate)
+|  |  |  +- (org.apache.cxf:cxf-rt-core:jar:2.7.6:compile - omitted for duplicate)
+|  |  |  \- (org.apache.cxf:cxf-rt-bindings-soap:jar:2.7.6:compile - omitted for duplicate)
+|  |  \- org.apache.cxf:cxf-rt-ws-addr:jar:2.7.6:compile
+|  |     +- (org.apache.cxf:cxf-api:jar:2.7.6:compile - omitted for duplicate)
+|  |     +- (org.apache.cxf:cxf-rt-bindings-soap:jar:2.7.6:compile - omitted for duplicate)
+|  |     \- org.apache.cxf:cxf-rt-ws-policy:jar:2.7.6:compile
+|  |        +- (org.apache.cxf:cxf-api:jar:2.7.6:compile - omitted for duplicate)
+|  |        +- (org.apache.cxf:cxf-rt-core:jar:2.7.6:compile - omitted for duplicate)
+|  |        \- org.apache.neethi:neethi:jar:3.0.2:compile
+|  +- org.springframework:spring-core:jar:3.1.4.RELEASE:compile
+|  |  +- (org.springframework:spring-asm:jar:3.1.4.RELEASE:compile - omitted for duplicate)
+|  |  \- commons-logging:commons-logging:jar:1.1.1:compile
+|  +- org.springframework:spring-beans:jar:3.1.4.RELEASE:compile
+|  |  \- (org.springframework:spring-core:jar:3.1.4.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-context:jar:3.1.4.RELEASE:compile - omitted for duplicate)
+|  +- org.apache.cxf:cxf-rt-features-clustering:jar:2.7.6:compile
+|  |  +- (org.apache.cxf:cxf-api:jar:2.7.6:compile - omitted for duplicate)
+|  |  \- (org.apache.cxf:cxf-rt-core:jar:2.7.6:compile - omitted for duplicate)
+|  \- org.apache.cxf:cxf-rt-bindings-soap:jar:2.7.6:compile
+|     +- (org.apache.cxf:cxf-api:jar:2.7.6:compile - omitted for duplicate)
+|     \- org.apache.cxf:cxf-rt-databinding-jaxb:jar:2.7.6:compile
+|        +- (org.apache.cxf:cxf-api:jar:2.7.6:compile - omitted for duplicate)
+|        +- (org.apache.cxf:cxf-rt-core:jar:2.7.6:compile - omitted for duplicate)
+|        \- (com.sun.xml.bind:jaxb-impl:jar:2.1.13:compile - omitted for conflict with 2.2.6)
++- org.apache.camel:camel-jackson:jar:2.11.2:compile
+|  +- (org.apache.camel:camel-core:jar:2.11.2:compile - omitted for duplicate)
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.2.2:compile (version managed from 2.1.4)
+|  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.2.2:compile
+|  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.2.2:compile
+|  \- com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.1.4:compile
+|     +- (com.fasterxml.jackson.core:jackson-core:jar:2.2.2:compile - version managed from 2.1.4; omitted for duplicate)
+|     \- (com.fasterxml.jackson.core:jackson-databind:jar:2.2.2:compile - version managed from 2.1.4; omitted for duplicate)
++- org.apache.felix:org.apache.felix.framework:jar:4.2.1:compile
+\- org.codehaus.jackson:jackson-jaxrs:jar:1.9.0:compile
+   +- org.codehaus.jackson:jackson-core-asl:jar:1.9.0:compile
+   \- org.codehaus.jackson:jackson-mapper-asl:jar:1.9.0:compile
+      \- (org.codehaus.jackson:jackson-core-asl:jar:1.9.0:compile - omitted for duplicate)

@@ -1,0 +1,28 @@
+com.weibo:motan-core:jar:1.1.1
++- commons-pool:commons-pool:jar:1.6:compile
++- com.caucho:hessian:jar:4.0.38:compile
++- com.alibaba:fastjson:jar:1.1.30:compile
++- com.codahale.metrics:metrics-core:jar:3.0.1:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for conflict with 1.5.8)
++- com.google.guava:guava:jar:18.0:compile
++- com.squareup:javapoet:jar:1.8.0:compile
++- javax.servlet:javax.servlet-api:jar:3.1.0:provided
++- org.slf4j:slf4j-api:jar:1.5.8:compile
++- org.slf4j:slf4j-log4j12:jar:1.5.8:compile
+|  +- (org.slf4j:slf4j-api:jar:1.5.8:compile - omitted for duplicate)
+|  \- (log4j:log4j:jar:1.2.14:compile - omitted for duplicate)
++- org.apache.commons:commons-lang3:jar:3.1:compile
++- org.jmock:jmock:jar:2.5.1:test
+|  +- org.hamcrest:hamcrest-core:jar:1.1:test
+|  \- org.hamcrest:hamcrest-library:jar:1.1:test
+|     \- (org.hamcrest:hamcrest-core:jar:1.1:test - omitted for duplicate)
++- org.jmock:jmock-junit4:jar:2.5.1:test
+|  +- (org.jmock:jmock:jar:2.5.1:test - omitted for duplicate)
+|  \- junit:junit-dep:jar:4.4:test
++- org.jmock:jmock-legacy:jar:2.5.1:test
+|  +- (org.jmock:jmock:jar:2.5.1:test - omitted for duplicate)
+|  +- (org.objenesis:objenesis:jar:1.0:test - omitted for conflict with 1.2)
+|  \- (cglib:cglib-nodep:jar:2.1_3:test - omitted for conflict with 2.2)
++- cglib:cglib-nodep:jar:2.2:test
++- org.objenesis:objenesis:jar:1.2:test
+\- junit:junit:jar:4.5:test

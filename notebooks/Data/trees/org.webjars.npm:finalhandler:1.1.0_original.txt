@@ -1,0 +1,10 @@
+org.webjars.npm:finalhandler:jar:1.1.0
++- org.webjars.npm:parseurl:jar:1.3.3:compile
++- org.webjars.npm:unpipe:jar:1.0.0:compile
++- org.webjars.npm:encodeurl:jar:1.0.2:compile
++- org.webjars.npm:statuses:jar:1.3.1:compile
++- org.webjars.npm:escape-html:jar:1.0.3:compile
++- org.webjars.npm:debug:jar:2.6.9:compile
+|  \- org.webjars.npm:ms:jar:2.0.0:compile
+\- org.webjars.npm:on-finished:jar:2.3.0:compile
+   \- org.webjars.npm:ee-first:jar:1.1.1:compile

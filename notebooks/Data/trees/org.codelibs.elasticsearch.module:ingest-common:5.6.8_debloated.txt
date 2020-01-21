@@ -1,0 +1,4 @@
+org.codelibs.elasticsearch.module:ingest-common:jar:5.6.8
++- org.jruby.jcodings:jcodings:jar:1.0.12:compile
+\- org.jruby.joni:joni:jar:2.1.6:compile
+   \- (org.jruby.jcodings:jcodings:jar:1.0.12:compile - omitted for duplicate)

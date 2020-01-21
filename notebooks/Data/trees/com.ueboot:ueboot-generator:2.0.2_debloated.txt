@@ -1,0 +1,12 @@
+com.ueboot:ueboot-generator:jar:2.0.2
++- com.intellij:forms_rt:jar:6.0.5:compile
+|  +- asm:asm-commons:jar:2.2.3:compile
+|  |  \- asm:asm-tree:jar:2.2.3:compile
+|  |     \- asm:asm:jar:2.2.3:compile
+|  +- com.jgoodies:forms:jar:1.0.7:compile
+|  \- jdom:jdom:jar:1.0:compile
++- org.apache.velocity:velocity:jar:1.7:compile
+|  +- commons-collections:commons-collections:jar:3.2.2:compile (version managed from 3.2.1)
+|  \- commons-lang:commons-lang:jar:2.4:compile
++- org.jodd:jodd-core:jar:3.9.1:compile
+\- commons-io:commons-io:jar:2.5:compile

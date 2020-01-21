@@ -1,0 +1,42 @@
+ch.epfl.scala:testing_2.12:jar:1.1.0-sourcedeps
++- org.scala-lang:scala-library:jar:2.12.4:compile
++- ch.epfl.scala:test-agent:jar:1.1.0-sourcedeps:compile
+|  \- (org.scala-sbt:test-interface:jar:1.0:compile - omitted for duplicate)
++- com.eed3si9n:sjson-new-core_2.12:jar:0.8.2:compile
+|  \- (org.scala-lang:scala-library:jar:2.12.2:compile - omitted for conflict with 2.12.4)
++- org.scala-sbt:test-interface:jar:1.0:compile
++- com.eed3si9n:sjson-new-scalajson_2.12:jar:0.8.2:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.2:compile - omitted for conflict with 2.12.4)
+|  +- (com.eed3si9n:sjson-new-core_2.12:jar:0.8.2:compile - omitted for duplicate)
+|  +- com.eed3si9n:shaded-scalajson_2.12:jar:1.0.0-M4:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.12.2:compile - omitted for conflict with 2.12.4)
+|  \- org.spire-math:jawn-parser_2.12:jar:0.10.4:compile
+|     \- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.4)
++- org.scala-sbt:io_2.12:jar:1.1.3:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  +- net.java.dev.jna:jna:jar:4.5.0:compile
+|  \- net.java.dev.jna:jna-platform:jar:4.5.0:compile
+|     \- (net.java.dev.jna:jna:jar:4.5.0:compile - omitted for duplicate)
++- org.scala-sbt:zinc-classpath_2.12:jar:1.1.0:compile
+|  +- org.scala-lang:scala-compiler:jar:2.12.4:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  |  +- (org.scala-lang:scala-reflect:jar:2.12.4:compile - omitted for duplicate)
+|  |  \- org.scala-lang.modules:scala-xml_2.12:jar:1.0.6:compile
+|  |     \- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.4)
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  +- org.scala-sbt:compiler-interface:jar:1.1.0:compile
+|  |  \- (org.scala-sbt:util-interface:jar:1.1.2:compile - omitted for duplicate)
+|  +- (org.scala-sbt:launcher-interface:jar:1.0.0:compile - omitted for conflict with 1.0.2)
+|  \- (org.scala-sbt:io_2.12:jar:1.1.3:compile - omitted for duplicate)
+\- org.scala-sbt:util-logging_2.12:jar:1.1.2:compile
+   +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+   +- org.scala-sbt:util-interface:jar:1.1.2:compile
+   +- (com.eed3si9n:sjson-new-core_2.12:jar:0.8.2:compile - omitted for duplicate)
+   +- jline:jline:jar:2.14.4:compile
+   +- org.apache.logging.log4j:log4j-api:jar:2.8.1:compile
+   +- org.apache.logging.log4j:log4j-core:jar:2.8.1:compile
+   |  \- (org.apache.logging.log4j:log4j-api:jar:2.8.1:compile - omitted for duplicate)
+   +- com.lmax:disruptor:jar:3.3.6:compile
+   +- (com.eed3si9n:sjson-new-scalajson_2.12:jar:0.8.2:compile - omitted for duplicate)
+   \- org.scala-lang:scala-reflect:jar:2.12.4:compile
+      \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)

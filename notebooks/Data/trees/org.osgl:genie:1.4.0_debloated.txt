@@ -1,0 +1,41 @@
+org.osgl:genie:jar:1.4.0
++- javax.inject:javax.inject:jar:1:compile
++- org.osgl:osgl-tool:jar:1.6.1:compile
+|  +- com.alibaba:fastjson:jar:1.2.43:compile
+|  +- (junit:junit:jar:4.12:compile - omitted for duplicate)
+|  +- (org.mockito:mockito-core:jar:2.9.0:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  +- (org.osgl:osgl-version:jar:2.0.0-BETA-1:compile - omitted for duplicate)
+|  \- (org.osgl:osgl-ut:jar:2.0.0-BETA-1:compile - omitted for duplicate)
++- org.osgl:osgl-logging:jar:1.1.0:compile
+|  +- (junit:junit:jar:4.12:compile - omitted for duplicate)
+|  +- (org.mockito:mockito-core:jar:2.9.0:compile - omitted for duplicate)
+|  +- (org.osgl:osgl-version:jar:2.0.0-BETA-1:compile - omitted for duplicate)
+|  \- (org.osgl:osgl-ut:jar:2.0.0-BETA-1:compile - omitted for duplicate)
++- javax.enterprise:cdi-api:jar:1.2:provided
+|  +- javax.el:javax.el-api:jar:3.0.0:provided
+|  +- javax.interceptor:javax.interceptor-api:jar:1.2:provided
+|  \- (javax.inject:javax.inject:jar:1:provided - omitted for duplicate)
++- com.google.inject:guice:jar:4.1.0:provided
+|  +- (javax.inject:javax.inject:jar:1:provided - omitted for duplicate)
+|  +- aopalliance:aopalliance:jar:1.0:provided
+|  \- com.google.guava:guava:jar:19.0:provided
++- com.google.inject.extensions:guice-servlet:jar:4.1.0:provided
+|  \- (com.google.inject:guice:jar:4.1.0:provided - omitted for duplicate)
++- javax.validation:validation-api:jar:1.1.0.Final:test
++- org.mockito:mockito-core:jar:2.9.0:compile
+|  +- net.bytebuddy:byte-buddy:jar:1.7.0:runtime
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.7.0:runtime
+|  \- org.objenesis:objenesis:jar:2.6:runtime
++- org.osgl:osgl-version:jar:2.0.0-BETA-1:compile
+|  +- (junit:junit:jar:4.12:compile - omitted for duplicate)
+|  +- (org.mockito:mockito-core:jar:2.9.0:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+\- org.osgl:osgl-ut:jar:2.0.0-BETA-1:compile
+   +- org.hamcrest:hamcrest-junit:jar:2.0.0.0:compile
+   |  +- (junit:junit:jar:4.12:compile - omitted for duplicate)
+   |  \- org.hamcrest:java-hamcrest:jar:2.0.0.0:compile
+   +- (org.osgl:osgl-version:jar:2.0.0-BETA-1:compile - omitted for duplicate)
+   +- (junit:junit:jar:4.12:compile - omitted for duplicate)
+   +- (org.mockito:mockito-core:jar:2.9.0:compile - omitted for duplicate)
+   \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)

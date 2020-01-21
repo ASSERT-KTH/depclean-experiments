@@ -1,0 +1,89 @@
+org.wso2.carbon.analytics-common:org.wso2.carbon.databridge.receiver.thrift:bundle:6.0.55
++- javax.servlet:javax.servlet-api:jar:3.1.0:compile
++- org.osgi:org.osgi.core:jar:6.0.0:compile
++- org.wso2.eclipse.osgi:org.eclipse.osgi:jar:3.11.0.v20160603-1336:compile
++- org.wso2.eclipse.osgi:org.eclipse.osgi.services:jar:3.4.0.v20140312-2051:compile
++- org.testng:testng:jar:6.9.4:test
+|  +- org.beanshell:bsh:jar:2.0b4:test
+|  \- com.beust:jcommander:jar:1.48:test
++- org.wso2.carbon:org.wso2.carbon.core:jar:5.2.6:compile
+|  \- org.wso2.carbon.config:org.wso2.carbon.config:jar:2.1.4:compile (version managed from 2.1.0)
+|     +- (org.wso2.eclipse.osgi:org.eclipse.osgi:jar:3.11.0.v20160603-1336:compile - omitted for duplicate)
+|     +- (org.wso2.eclipse.osgi:org.eclipse.osgi.services:jar:3.4.0.v20140312-2051:compile - version managed from 3.5.100.v20160504-1419; omitted for duplicate)
+|     +- org.slf4j:slf4j-api:jar:1.7.12:compile
+|     +- org.yaml:snakeyaml:jar:1.17:compile
+|     +- (org.wso2.carbon.secvault:org.wso2.carbon.secvault:jar:5.0.10:compile - version managed from 5.0.8; omitted for duplicate)
+|     \- org.wso2.carbon.utils:org.wso2.carbon.utils:jar:2.0.2:compile
++- org.wso2.carbon.analytics-common:org.wso2.carbon.databridge.commons:jar:6.0.55:compile
+|  +- com.google.code.gson:gson:jar:2.5:compile
+|  +- org.json.wso2:json:jar:3.0.0.wso2v1:compile
+|  |  \- org.json:json:jar:20140107:compile
+|  \- org.apache.log4j.wso2:log4j:jar:1.2.17.wso2v1:compile
+|     \- log4j:log4j:jar:1.2.17:compile
++- org.wso2.carbon.analytics-common:org.wso2.carbon.databridge.commons.thrift:jar:6.0.55:compile
+|  +- (org.wso2.eclipse.osgi:org.eclipse.osgi:jar:3.11.0.v20160603-1336:compile - omitted for duplicate)
+|  +- libthrift.wso2:libthrift:jar:0.9.2.wso2v1:compile
+|  |  \- org.apache.thrift:libthrift:jar:0.9.2:compile
+|  |     +- (org.slf4j:slf4j-api:jar:1.7.12:compile - version managed from 1.5.8; omitted for duplicate)
+|  |     +- org.apache.httpcomponents:httpclient:jar:4.2.5:compile
+|  |     |  +- (org.apache.httpcomponents:httpcore:jar:4.2.4:compile - omitted for duplicate)
+|  |     |  +- commons-logging:commons-logging:jar:1.1.1:compile
+|  |     |  \- commons-codec:commons-codec:jar:1.6:compile
+|  |     \- org.apache.httpcomponents:httpcore:jar:4.2.4:compile
+|  \- (org.apache.log4j.wso2:log4j:jar:1.2.17.wso2v1:compile - omitted for duplicate)
++- org.wso2.carbon.analytics-common:org.wso2.carbon.databridge.core:jar:6.0.55:compile
+|  +- (org.osgi:org.osgi.core:jar:6.0.0:compile - omitted for duplicate)
+|  +- (org.wso2.eclipse.osgi:org.eclipse.osgi.services:jar:3.4.0.v20140312-2051:compile - version managed from 3.5.100.v20160504-1419; omitted for duplicate)
+|  +- (org.wso2.carbon:org.wso2.carbon.core:jar:5.2.6:compile - omitted for duplicate)
+|  +- org.apache.directory.studio:org.apache.commons.io:jar:2.4:compile
+|  |  \- commons-io:commons-io:jar:2.4:compile
+|  +- org.wso2.orbit.org.yaml:snakeyaml:jar:1.16.0.wso2v1:compile
+|  +- (org.wso2.carbon.analytics-common:org.wso2.carbon.databridge.commons:jar:6.0.55:compile - omitted for duplicate)
+|  +- com.google.guava:guava:jar:20.0:compile
+|  +- (org.apache.log4j.wso2:log4j:jar:1.2.17.wso2v1:compile - omitted for duplicate)
+|  +- (org.wso2.carbon.config:org.wso2.carbon.config:jar:2.1.4:compile - version managed from 2.1.0; omitted for duplicate)
+|  +- org.wso2.carbon.secvault:org.wso2.carbon.secvault:jar:5.0.10:compile
+|  |  +- (org.wso2.eclipse.osgi:org.eclipse.osgi:jar:3.11.0.v20160603-1336:compile - omitted for duplicate)
+|  |  +- (org.wso2.eclipse.osgi:org.eclipse.osgi.services:jar:3.4.0.v20140312-2051:compile - version managed from 3.5.100.v20160504-1419; omitted for duplicate)
+|  |  +- (org.wso2.carbon.utils:org.wso2.carbon.utils:jar:2.0.1:compile - omitted for conflict with 2.0.2)
+|  |  +- (org.yaml:snakeyaml:jar:1.17:compile - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.12:compile - version managed from 1.5.8; omitted for duplicate)
+|  +- org.wso2.carbon.analytics-common:org.wso2.carbon.analytics.idp.client:jar:6.0.55:compile
+|  |  +- (org.wso2.carbon:org.wso2.carbon.core:jar:5.2.6:compile - omitted for duplicate)
+|  |  +- (org.osgi:org.osgi.core:jar:6.0.0:compile - omitted for duplicate)
+|  |  +- (org.wso2.eclipse.osgi:org.eclipse.osgi.services:jar:3.4.0.v20140312-2051:compile - version managed from 3.5.100.v20160504-1419; omitted for duplicate)
+|  |  +- io.github.openfeign:feign-core:jar:9.5.0:compile
+|  |  |  \- org.jvnet:animal-sniffer-annotation:jar:1.0:compile
+|  |  +- io.github.openfeign:feign-gson:jar:9.5.0:compile
+|  |  |  +- (io.github.openfeign:feign-core:jar:9.5.0:compile - omitted for duplicate)
+|  |  |  \- (com.google.code.gson:gson:jar:2.5:compile - omitted for duplicate)
+|  |  +- com.googlecode.json-simple.wso2:json-simple:jar:1.1.wso2v1:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.12:compile - version managed from 1.5.8; omitted for duplicate)
+|  |  +- org.slf4j:slf4j-log4j12:jar:1.7.12:compile
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.12:compile - version managed from 1.5.8; omitted for duplicate)
+|  |  |  \- (log4j:log4j:jar:1.2.17:compile - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:20.0:compile - omitted for duplicate)
+|  |  +- org.wso2.carbon.datasources:org.wso2.carbon.datasource.core:jar:1.1.4:compile
+|  |  |  +- (org.wso2.eclipse.osgi:org.eclipse.osgi.services:jar:3.4.0.v20140312-2051:compile - version managed from 3.5.100.v20160504-1419; omitted for duplicate)
+|  |  |  +- (org.wso2.carbon:org.wso2.carbon.core:jar:5.2.6:compile - version managed from 5.2.0; omitted for duplicate)
+|  |  |  +- commons-io.wso2:commons-io:jar:2.4.0.wso2v1:compile
+|  |  |  +- (org.wso2.eclipse.osgi:org.eclipse.osgi:jar:3.11.0.v20160603-1336:compile - version managed from 3.10.2.v20150203-1939; omitted for duplicate)
+|  |  |  +- com.zaxxer:HikariCP:jar:2.4.1:compile
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.12:compile - version managed from 1.5.8; omitted for duplicate)
+|  |  |  +- org.wso2.carbon.jndi:org.wso2.carbon.jndi:jar:1.0.3:compile
+|  |  |  \- (org.wso2.carbon.config:org.wso2.carbon.config:jar:2.1.4:compile - version managed from 2.1.2; omitted for duplicate)
+|  |  +- org.wso2.carbon.analytics-common:org.wso2.carbon.database.query.manager:jar:6.0.55:compile
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.12:compile - version managed from 1.5.8; omitted for duplicate)
+|  |  |  \- (org.wso2.carbon.config:org.wso2.carbon.config:jar:2.1.4:compile - version managed from 2.1.2; omitted for duplicate)
+|  |  \- (org.wso2.carbon.secvault:org.wso2.carbon.secvault:jar:5.0.10:compile - version managed from 5.0.8; omitted for duplicate)
+|  \- org.apache.commons:commons-lang3:jar:3.3.2:compile
++- org.powermock:powermock-api-mockito:jar:1.5.5:test
+|  +- org.mockito:mockito-all:jar:1.9.5:test
+|  \- org.powermock:powermock-api-support:jar:1.5.5:test
+|     +- org.powermock:powermock-core:jar:1.5.5:test
+|     |  +- (org.powermock:powermock-reflect:jar:1.5.5:test - omitted for duplicate)
+|     |  \- org.javassist:javassist:jar:3.18.2-GA:test
+|     \- org.powermock:powermock-reflect:jar:1.5.5:test
+|        \- org.objenesis:objenesis:jar:2.1:test
+\- org.powermock:powermock-module-testng:jar:1.5.5:test
+   \- org.powermock:powermock-module-testng-common:jar:1.5.5:test

@@ -1,0 +1,2 @@
+org.apache.maven.doxia:doxia-skin-model:jar:1.8.1
+\- org.codehaus.plexus:plexus-utils:jar:3.0.22:compile

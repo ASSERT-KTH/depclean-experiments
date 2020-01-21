@@ -1,0 +1,126 @@
+io.apiman:apiman-manager-api-migrator:bundle:1.3.3.Final
++- io.apiman:apiman-common-util:jar:1.3.3.Final:compile
+|  +- commons-codec:commons-codec:jar:1.10:compile
+|  +- (org.apache.commons:commons-lang3:jar:3.3.2:compile - omitted for duplicate)
+|  \- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
++- io.apiman:apiman-common-logging-core:jar:1.3.3.Final:compile
++- io.apiman:apiman-manager-api-core:jar:1.3.3.Final:compile
+|  +- (io.apiman:apiman-common-util:jar:1.3.3.Final:compile - omitted for duplicate)
+|  +- io.apiman:apiman-common-config:jar:1.3.3.Final:compile
+|  |  +- (io.apiman:apiman-common-util:jar:1.3.3.Final:compile - omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.10:compile - omitted for duplicate)
+|  |  +- (commons-configuration:commons-configuration:jar:1.10:compile - omitted for duplicate)
+|  |  +- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+|  |  \- commons-lang:commons-lang:jar:2.6:compile
+|  +- (io.apiman:apiman-common-logging-core:jar:1.3.3.Final:compile - omitted for duplicate)
+|  +- io.apiman:apiman-common-plugin:jar:1.3.3.Final:compile
+|  |  +- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+|  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile - omitted for duplicate)
+|  +- io.apiman:apiman-manager-api-beans:jar:1.3.3.Final:compile
+|  |  \- (io.apiman:apiman-common-util:jar:1.3.3.Final:compile - omitted for duplicate)
+|  +- joda-time:joda-time:jar:2.7:compile
+|  +- commons-configuration:commons-configuration:jar:1.10:compile
+|  |  \- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+|  +- (org.apache.commons:commons-lang3:jar:3.3.2:compile - omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+|  +- org.apache.logging.log4j:log4j-api:jar:2.8.2:compile
+|  +- org.mvel:mvel2:jar:2.2.7.Final:compile
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.5:compile - omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile - omitted for duplicate)
++- io.apiman:apiman-manager-api-config:jar:1.3.3.Final:compile
+|  \- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
++- commons-io:commons-io:jar:2.4:compile
++- com.fasterxml.jackson.core:jackson-core:jar:2.9.5:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.5:compile - version managed from 2.9.0; omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.5:compile - omitted for duplicate)
++- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.5:provided (scope not updated to compile)
++- javax.enterprise:cdi-api:jar:1.2:provided
+|  +- javax.el:javax.el-api:jar:3.0.0:provided
+|  +- javax.interceptor:javax.interceptor-api:jar:1.2:provided
+|  \- javax.inject:javax.inject:jar:1:provided
++- io.apiman:apiman-test-common:jar:1.3.3.Final:test
+|  +- (io.apiman:apiman-common-util:jar:1.3.3.Final:test - omitted for duplicate)
+|  +- io.apiman:apiman-gateway-engine-beans:jar:1.3.3.Final:test
+|  |  +- net.openhft:zero-allocation-hashing:jar:0.6:test
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.5:test - version managed from 2.9.0; omitted for duplicate)
+|  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:test - omitted for duplicate)
+|  +- io.apiman:apiman-gateway-engine-core:jar:1.3.3.Final:test
+|  |  +- (io.apiman:apiman-common-util:jar:1.3.3.Final:test - omitted for duplicate)
+|  |  +- (io.apiman:apiman-common-logging-core:jar:1.3.3.Final:test - omitted for duplicate)
+|  |  +- (io.apiman:apiman-common-plugin:jar:1.3.3.Final:test - omitted for duplicate)
+|  |  +- (io.apiman:apiman-gateway-engine-beans:jar:1.3.3.Final:test - omitted for duplicate)
+|  |  +- (commons-io:commons-io:jar:2.4:test - omitted for duplicate)
+|  |  +- (org.apache.commons:commons-lang3:jar:3.3.2:test - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:test - omitted for duplicate)
+|  |  +- (joda-time:joda-time:jar:2.7:test - omitted for duplicate)
+|  |  +- com.zaxxer:HikariCP:jar:2.4.0:test
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.21:test - version managed from 1.7.12; omitted for duplicate)
+|  |  \- com.unboundid:unboundid-ldapsdk:jar:3.0.0:test
+|  +- xmlunit:xmlunit:jar:1.6:test
+|  +- (org.mvel:mvel2:jar:2.2.7.Final:test - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:test - omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.4:test - omitted for duplicate)
+|  +- (org.apache.commons:commons-lang3:jar:3.3.2:test - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.21:test - version managed from 1.7.5; omitted for duplicate)
+|  +- com.jcabi:jcabi-http:jar:1.16:test
+|  |  +- com.jcabi:jcabi-immutable:jar:1.4:test
+|  |  |  \- (com.jcabi:jcabi-aspects:jar:0.20.1:test - omitted for conflict with 0.22.2)
+|  |  +- com.jcabi:jcabi-aspects:jar:0.22.2:test
+|  |  |  +- (com.jcabi:jcabi-log:jar:0.15:test - omitted for conflict with 0.17)
+|  |  |  +- org.aspectj:aspectjrt:jar:1.8.4:test
+|  |  |  \- javax.validation:validation-api:jar:1.1.0.Final:test
+|  |  +- com.jcabi:jcabi-log:jar:0.17:test
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.21:test - version managed from 1.7.5; omitted for duplicate)
+|  |  |  \- (com.jcabi:jcabi-aspects:jar:0.22:test - omitted for conflict with 0.22.2)
+|  |  \- com.jcabi:jcabi-manifests:jar:1.1:test
+|  |     \- (com.jcabi:jcabi-log:jar:0.14:test - omitted for conflict with 0.17)
+|  +- javax.json:javax.json-api:jar:1.0:test
+|  +- (commons-codec:commons-codec:jar:1.10:test - omitted for duplicate)
+|  +- (junit:junit:jar:4.11:test - omitted for duplicate)
+|  +- org.eclipse.jetty:jetty-server:jar:9.2.24.v20180105:test
+|  |  +- javax.servlet:javax.servlet-api:jar:3.1.0:test
+|  |  +- org.eclipse.jetty:jetty-http:jar:9.2.24.v20180105:test
+|  |  |  \- (org.eclipse.jetty:jetty-util:jar:9.2.24.v20180105:test - omitted for duplicate)
+|  |  \- org.eclipse.jetty:jetty-io:jar:9.2.24.v20180105:test
+|  |     \- (org.eclipse.jetty:jetty-util:jar:9.2.24.v20180105:test - omitted for duplicate)
+|  +- org.eclipse.jetty:jetty-servlet:jar:9.2.24.v20180105:test
+|  |  \- org.eclipse.jetty:jetty-security:jar:9.2.24.v20180105:test
+|  |     \- (org.eclipse.jetty:jetty-server:jar:9.2.24.v20180105:test - omitted for duplicate)
+|  +- org.eclipse.jetty:jetty-jndi:jar:9.2.24.v20180105:test
+|  |  \- org.eclipse.jetty:jetty-util:jar:9.2.24.v20180105:test
+|  \- io.vertx:vertx-core:jar:3.4.2:test
+|     +- io.netty:netty-common:jar:4.1.8.Final:test
+|     +- io.netty:netty-buffer:jar:4.1.8.Final:test
+|     |  \- (io.netty:netty-common:jar:4.1.8.Final:test - omitted for duplicate)
+|     +- io.netty:netty-transport:jar:4.1.8.Final:test
+|     |  +- (io.netty:netty-buffer:jar:4.1.8.Final:test - omitted for duplicate)
+|     |  \- (io.netty:netty-resolver:jar:4.1.8.Final:test - omitted for duplicate)
+|     +- io.netty:netty-handler:jar:4.1.8.Final:test
+|     |  +- (io.netty:netty-buffer:jar:4.1.8.Final:test - omitted for duplicate)
+|     |  +- (io.netty:netty-transport:jar:4.1.8.Final:test - omitted for duplicate)
+|     |  \- io.netty:netty-codec:jar:4.1.8.Final:test
+|     |     \- (io.netty:netty-transport:jar:4.1.8.Final:test - omitted for duplicate)
+|     +- io.netty:netty-handler-proxy:jar:4.1.8.Final:test
+|     |  +- (io.netty:netty-transport:jar:4.1.8.Final:test - omitted for duplicate)
+|     |  +- io.netty:netty-codec-socks:jar:4.1.8.Final:test
+|     |  |  \- (io.netty:netty-codec:jar:4.1.8.Final:test - omitted for duplicate)
+|     |  \- (io.netty:netty-codec-http:jar:4.1.8.Final:test - omitted for duplicate)
+|     +- io.netty:netty-codec-http:jar:4.1.8.Final:test
+|     |  \- (io.netty:netty-codec:jar:4.1.8.Final:test - omitted for duplicate)
+|     +- io.netty:netty-codec-http2:jar:4.1.8.Final:test
+|     |  +- (io.netty:netty-codec-http:jar:4.1.8.Final:test - omitted for duplicate)
+|     |  \- (io.netty:netty-handler:jar:4.1.8.Final:test - omitted for duplicate)
+|     +- io.netty:netty-resolver:jar:4.1.8.Final:test
+|     |  \- (io.netty:netty-common:jar:4.1.8.Final:test - omitted for duplicate)
+|     +- io.netty:netty-resolver-dns:jar:4.1.8.Final:test
+|     |  +- (io.netty:netty-resolver:jar:4.1.8.Final:test - omitted for duplicate)
+|     |  +- io.netty:netty-codec-dns:jar:4.1.8.Final:test
+|     |  |  \- (io.netty:netty-codec:jar:4.1.8.Final:test - omitted for duplicate)
+|     |  \- (io.netty:netty-transport:jar:4.1.8.Final:test - omitted for duplicate)
+|     +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.5:test - version managed from 2.7.4; omitted for duplicate)
+|     \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:test - version managed from 2.7.4; omitted for duplicate)
++- org.slf4j:slf4j-api:jar:1.7.21:provided
++- junit:junit:jar:4.11:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
+\- org.mockito:mockito-all:jar:1.9.5:test

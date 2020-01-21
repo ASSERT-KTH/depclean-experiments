@@ -1,0 +1,33 @@
+com.github.ocraft:ocraft-s2client-protocol:jar:0.2.1
++- com.google.protobuf:protobuf-java:jar:3.6.1:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.9.6:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.6:compile - version managed from 2.9.0; omitted for duplicate)
+|  \- com.fasterxml.jackson.core:jackson-core:jar:2.9.6:compile
++- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.6:compile
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.6:compile - omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.6:compile - omitted for duplicate)
++- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.6:compile
++- org.junit.jupiter:junit-jupiter-api:jar:5.2.0:test
+|  +- org.apiguardian:apiguardian-api:jar:1.0.0:test
+|  +- org.opentest4j:opentest4j:jar:1.1.0:test
+|  \- org.junit.platform:junit-platform-commons:jar:1.2.0:test
+|     \- (org.apiguardian:apiguardian-api:jar:1.0.0:test - omitted for duplicate)
++- org.junit.jupiter:junit-jupiter-engine:jar:5.2.0:test
+|  +- (org.apiguardian:apiguardian-api:jar:1.0.0:test - omitted for duplicate)
+|  +- org.junit.platform:junit-platform-engine:jar:1.2.0:test
+|  |  +- (org.apiguardian:apiguardian-api:jar:1.0.0:test - omitted for duplicate)
+|  |  +- (org.junit.platform:junit-platform-commons:jar:1.2.0:test - omitted for duplicate)
+|  |  \- (org.opentest4j:opentest4j:jar:1.1.0:test - omitted for duplicate)
+|  \- (org.junit.jupiter:junit-jupiter-api:jar:5.2.0:test - omitted for duplicate)
++- org.junit.jupiter:junit-jupiter-params:jar:5.2.0:test
+|  +- (org.apiguardian:apiguardian-api:jar:1.0.0:test - omitted for duplicate)
+|  \- (org.junit.jupiter:junit-jupiter-api:jar:5.2.0:test - omitted for duplicate)
++- org.assertj:assertj-core:jar:3.10.0:test
++- nl.jqno.equalsverifier:equalsverifier:jar:2.5.2:test
++- de.danielbechler:java-object-diff:jar:0.95:test
+|  \- org.slf4j:slf4j-api:jar:1.7.25:test (version managed from 1.7.22)
+\- org.apache.logging.log4j:log4j-slf4j-impl:jar:2.11.1:test
+   +- (org.slf4j:slf4j-api:jar:1.7.25:test - version managed from 1.7.22; omitted for duplicate)
+   +- org.apache.logging.log4j:log4j-api:jar:2.11.1:test
+   \- org.apache.logging.log4j:log4j-core:jar:2.11.1:test
+      \- (org.apache.logging.log4j:log4j-api:jar:2.11.1:test - omitted for duplicate)

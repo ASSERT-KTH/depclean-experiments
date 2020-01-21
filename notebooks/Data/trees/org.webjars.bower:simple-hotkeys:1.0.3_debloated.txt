@@ -1,0 +1,3 @@
+org.webjars.bower:simple-hotkeys:jar:1.0.3
+\- org.webjars.bower:simple-module:jar:2.0.6:compile
+   \- (org.webjars.bower:jquery:jar:3.0.0-rc1:compile - omitted for duplicate)

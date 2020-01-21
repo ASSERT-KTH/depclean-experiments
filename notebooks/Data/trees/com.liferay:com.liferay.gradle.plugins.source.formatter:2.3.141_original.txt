@@ -1,0 +1,2 @@
+com.liferay:com.liferay.gradle.plugins.source.formatter:jar:2.3.141
+\- com.liferay:com.liferay.gradle.util:jar:1.0.29:compile

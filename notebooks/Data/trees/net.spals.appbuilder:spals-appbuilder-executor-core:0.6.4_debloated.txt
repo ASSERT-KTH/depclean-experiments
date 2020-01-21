@@ -1,0 +1,26 @@
+net.spals.appbuilder:spals-appbuilder-executor-core:jar:0.6.4
++- ch.qos.logback:logback-classic:jar:1.2.1:compile
+|  +- ch.qos.logback:logback-core:jar:1.2.1:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.22; omitted for duplicate)
++- com.google.guava:guava:jar:20.0:compile
++- com.netflix.governator:governator-api:jar:1.15.10:compile
+|  \- (javax.inject:javax.inject:jar:1:compile - scope updated from runtime; omitted for duplicate)
++- io.opentracing.contrib:opentracing-concurrent:jar:0.0.2:compile
+|  +- io.opentracing:opentracing-api:jar:0.30.0:compile
+|  \- io.opentracing:opentracing-noop:jar:0.30.0:compile
+|     \- (io.opentracing:opentracing-api:jar:0.30.0:compile - omitted for duplicate)
++- net.spals.appbuilder:spals-appbuilder-annotations:jar:0.6.4:compile
+|  +- com.google.inject:guice:jar:4.1.0:compile
+|  |  +- javax.inject:javax.inject:jar:1:compile
+|  |  +- aopalliance:aopalliance:jar:1.0:compile
+|  |  \- (com.google.guava:guava:jar:20.0:compile - version managed from 19.0; omitted for duplicate)
+|  +- com.google.inject.extensions:guice-assistedinject:jar:4.1.0:runtime
+|  |  \- (com.google.inject:guice:jar:4.1.0:runtime - omitted for duplicate)
+|  +- (com.netflix.governator:governator-api:jar:1.15.10:runtime - omitted for duplicate)
+|  +- javax.ws.rs:javax.ws.rs-api:jar:2.1:runtime
+|  \- javax.validation:validation-api:jar:1.1.0.Final:runtime
++- org.inferred:freebuilder:jar:1.14.1:compile
++- org.slf4j:slf4j-api:jar:1.7.21:compile
+\- com.fasterxml.jackson.core:jackson-databind:jar:2.8.7:compile
+   +- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile
+   \- com.fasterxml.jackson.core:jackson-core:jar:2.8.7:compile

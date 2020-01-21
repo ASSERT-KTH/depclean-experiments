@@ -1,0 +1,25 @@
+org.scalikejdbc:scalikejdbc-interpolation-macro_2.13.0-M3:jar:3.2.4
++- org.scala-lang:scala-compiler:jar:2.13.0-M3:compile
+|  +- (org.scala-lang:scala-library:jar:2.13.0-M3:compile - omitted for duplicate)
+|  +- (org.scala-lang:scala-reflect:jar:2.13.0-M3:compile - omitted for duplicate)
+|  +- org.scala-lang.modules:scala-xml_2.13.0-M3:jar:1.0.6:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.13.0-M3:compile - omitted for duplicate)
+|  \- jline:jline:jar:2.14.5:compile
++- org.scala-lang:scala-library:jar:2.13.0-M3:compile
++- org.scalikejdbc:scalikejdbc-core_2.13.0-M3:jar:3.2.4:compile
+|  +- (org.scala-lang:scala-library:jar:2.13.0-M3:compile - omitted for duplicate)
+|  +- org.apache.commons:commons-dbcp2:jar:2.2.0:compile
+|  |  +- org.apache.commons:commons-pool2:jar:2.5.0:compile
+|  |  \- commons-logging:commons-logging:jar:1.2:compile
+|  +- org.slf4j:slf4j-api:jar:1.7.25:compile
+|  \- org.scala-lang.modules:scala-parser-combinators_2.13.0-M3:jar:1.1.0:compile
+|     \- (org.scala-lang:scala-library:jar:2.13.0-M3:compile - omitted for duplicate)
++- org.scala-lang:scala-reflect:jar:2.13.0-M3:compile
+|  \- (org.scala-lang:scala-library:jar:2.13.0-M3:compile - omitted for duplicate)
+\- org.scalatest:scalatest_2.13.0-M3:jar:3.0.5-M1:test
+   +- (org.scala-lang:scala-library:jar:2.13.0-M3:test - omitted for duplicate)
+   +- org.scalactic:scalactic_2.13.0-M3:jar:3.0.5-M1:test
+   |  +- (org.scala-lang:scala-library:jar:2.13.0-M3:test - omitted for duplicate)
+   |  \- (org.scala-lang:scala-reflect:jar:2.13.0-M3:test - omitted for duplicate)
+   +- (org.scala-lang:scala-reflect:jar:2.13.0-M3:test - omitted for duplicate)
+   \- (org.scala-lang.modules:scala-xml_2.13.0-M3:jar:1.0.6:test - omitted for duplicate)

@@ -1,0 +1,40 @@
+org.activecomponents.jadex:jadex-kernel-extension-envsupport:jar:3.0.86
++- org.activecomponents.jadex:jadex-commons:jar:3.0.86:compile
++- org.activecomponents.jadex:jadex-commons-gui:jar:3.0.86:compile
+|  \- (org.activecomponents.jadex:jadex-commons:jar:3.0.86:compile - omitted for duplicate)
++- org.activecomponents.jadex:jadex-javaparser:jar:3.0.86:compile
+|  \- (org.activecomponents.jadex:jadex-commons:jar:3.0.86:compile - omitted for duplicate)
++- org.activecomponents.jadex:jadex-bridge:jar:3.0.86:compile
+|  +- (org.activecomponents.jadex:jadex-commons:jar:3.0.86:compile - omitted for duplicate)
+|  +- (org.activecomponents.jadex:jadex-javaparser:jar:3.0.86:compile - omitted for duplicate)
+|  +- org.activecomponents.jadex:jadex-rules-eca:jar:3.0.86:compile
+|  |  +- (org.activecomponents.jadex:jadex-commons:jar:3.0.86:compile - omitted for duplicate)
+|  |  \- (org.activecomponents.jadex:jadex-javaparser:jar:3.0.86:compile - omitted for duplicate)
+|  \- (junit:junit:jar:4.11:compile - omitted for duplicate)
++- org.activecomponents.jadex:jadex-xml:jar:3.0.86:compile
+|  \- (org.activecomponents.jadex:jadex-commons:jar:3.0.86:compile - omitted for duplicate)
++- org.activecomponents.jadex:jadex-kernel-component:jar:3.0.86:compile
+|  +- (org.activecomponents.jadex:jadex-commons:jar:3.0.86:compile - omitted for duplicate)
+|  +- (org.activecomponents.jadex:jadex-javaparser:jar:3.0.86:compile - omitted for duplicate)
+|  +- (org.activecomponents.jadex:jadex-bridge:jar:3.0.86:compile - omitted for duplicate)
+|  +- (org.activecomponents.jadex:jadex-xml:jar:3.0.86:compile - omitted for duplicate)
+|  \- org.activecomponents.jadex:jadex-kernel-base:jar:3.0.86:compile
+|     +- (org.activecomponents.jadex:jadex-commons:jar:3.0.86:compile - omitted for duplicate)
+|     +- (org.activecomponents.jadex:jadex-javaparser:jar:3.0.86:compile - omitted for duplicate)
+|     \- (org.activecomponents.jadex:jadex-bridge:jar:3.0.86:compile - omitted for duplicate)
++- org.activecomponents.jadex:jadex-kernel-micro:jar:3.0.86:compile
+|  +- (org.activecomponents.jadex:jadex-commons:jar:3.0.86:compile - omitted for duplicate)
+|  +- (org.activecomponents.jadex:jadex-javaparser:jar:3.0.86:compile - omitted for duplicate)
+|  +- (org.activecomponents.jadex:jadex-bridge:jar:3.0.86:compile - omitted for duplicate)
+|  \- (org.activecomponents.jadex:jadex-kernel-base:jar:3.0.86:compile - omitted for duplicate)
++- org.activecomponents.jadex:jadex-kernel-application:jar:3.0.86:compile
+|  +- (org.activecomponents.jadex:jadex-commons:jar:3.0.86:compile - omitted for duplicate)
+|  +- (org.activecomponents.jadex:jadex-javaparser:jar:3.0.86:compile - omitted for duplicate)
+|  +- (org.activecomponents.jadex:jadex-bridge:jar:3.0.86:compile - omitted for duplicate)
+|  +- (org.activecomponents.jadex:jadex-xml:jar:3.0.86:compile - omitted for duplicate)
+|  +- (org.activecomponents.jadex:jadex-kernel-base:jar:3.0.86:compile - omitted for duplicate)
+|  \- (org.activecomponents.jadex:jadex-kernel-component:jar:3.0.86:compile - omitted for duplicate)
++- jfree:jfreechart:jar:1.0.12:compile
+|  \- jfree:jcommon:jar:1.0.15:compile
+\- junit:junit:jar:4.11:test (scope not updated to compile)
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

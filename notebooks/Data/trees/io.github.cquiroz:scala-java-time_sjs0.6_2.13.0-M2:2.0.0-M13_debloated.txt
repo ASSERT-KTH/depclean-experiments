@@ -1,0 +1,20 @@
+io.github.cquiroz:scala-java-time_sjs0.6_2.13.0-M2:jar:2.0.0-M13
++- org.scala-lang:scala-library:jar:2.13.0-M2:compile
++- org.scala-js:scalajs-library_2.13.0-M2:jar:0.6.22:compile
+|  \- (org.scala-lang:scala-library:jar:2.13.0-M2:compile - omitted for duplicate)
++- org.scala-js:scalajs-test-interface_2.13.0-M2:jar:0.6.22:test
+|  +- (org.scala-lang:scala-library:jar:2.13.0-M2:test - omitted for duplicate)
+|  \- (org.scala-js:scalajs-library_2.13.0-M2:jar:0.6.22:test - omitted for duplicate)
++- org.scalatest:scalatest_sjs0.6_2.13.0-M2:jar:3.0.4:test
+|  +- (org.scala-lang:scala-library:jar:2.13.0-M2:test - omitted for duplicate)
+|  +- org.scalactic:scalactic_sjs0.6_2.13.0-M2:jar:3.0.4:test
+|  |  +- (org.scala-lang:scala-library:jar:2.13.0-M2:test - omitted for duplicate)
+|  |  +- (org.scala-js:scalajs-library_2.13.0-M2:jar:0.6.20:test - omitted for conflict with 0.6.22)
+|  |  \- (org.scala-lang:scala-reflect:jar:2.13.0-M2:test - omitted for duplicate)
+|  +- (org.scala-js:scalajs-library_2.13.0-M2:jar:0.6.20:test - omitted for conflict with 0.6.22)
+|  +- (org.scala-js:scalajs-test-interface_2.13.0-M2:jar:0.6.20:test - omitted for conflict with 0.6.22)
+|  \- org.scala-lang:scala-reflect:jar:2.13.0-M2:test
+|     \- (org.scala-lang:scala-library:jar:2.13.0-M2:test - omitted for duplicate)
+\- io.github.cquiroz:scala-java-locales_sjs0.6_2.13.0-M2:jar:0.3.10-cldr32:compile
+   +- (org.scala-lang:scala-library:jar:2.13.0-M2:compile - omitted for duplicate)
+   \- (org.scala-js:scalajs-library_2.13.0-M2:jar:0.6.21:compile - omitted for conflict with 0.6.22)

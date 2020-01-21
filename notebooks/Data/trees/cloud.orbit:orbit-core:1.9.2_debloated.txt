@@ -1,0 +1,7 @@
+cloud.orbit:orbit-core:jar:1.9.2
++- cloud.orbit:orbit-commons:jar:1.9.2:compile
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- com.ea.async:ea-async:jar:1.1.1:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
++- com.intellij:annotations:jar:12.0:provided
+\- junit:junit:jar:4.12:test

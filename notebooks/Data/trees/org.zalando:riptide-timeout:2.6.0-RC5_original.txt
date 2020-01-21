@@ -1,0 +1,91 @@
+org.zalando:riptide-timeout:jar:2.6.0-RC5
++- org.zalando:riptide-core:jar:2.6.0-RC5:compile
+|  +- org.springframework:spring-web:jar:4.3.11.RELEASE:compile
+|  |  +- org.springframework:spring-aop:jar:4.3.11.RELEASE:compile
+|  |  |  +- (org.springframework:spring-beans:jar:4.3.11.RELEASE:compile - omitted for duplicate)
+|  |  |  \- (org.springframework:spring-core:jar:4.3.11.RELEASE:compile - omitted for duplicate)
+|  |  +- org.springframework:spring-beans:jar:4.3.11.RELEASE:compile
+|  |  |  \- (org.springframework:spring-core:jar:4.3.11.RELEASE:compile - omitted for duplicate)
+|  |  +- org.springframework:spring-context:jar:4.3.11.RELEASE:compile
+|  |  |  +- (org.springframework:spring-aop:jar:4.3.11.RELEASE:compile - omitted for duplicate)
+|  |  |  +- (org.springframework:spring-beans:jar:4.3.11.RELEASE:compile - omitted for duplicate)
+|  |  |  +- (org.springframework:spring-core:jar:4.3.11.RELEASE:compile - omitted for duplicate)
+|  |  |  \- org.springframework:spring-expression:jar:4.3.11.RELEASE:compile
+|  |  |     \- (org.springframework:spring-core:jar:4.3.11.RELEASE:compile - omitted for duplicate)
+|  |  \- org.springframework:spring-core:jar:4.3.11.RELEASE:compile
+|  +- (org.zalando:faux-pas:jar:0.5.0:compile - omitted for duplicate)
+|  +- (com.google.code.findbugs:jsr305:jar:3.0.2:compile - omitted for duplicate)
+|  +- (com.google.gag:gag:jar:1.0.1:compile - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:19.0:compile - version managed from 14.0.1; omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.16; omitted for duplicate)
+|  \- (org.slf4j:jcl-over-slf4j:jar:1.7.25:compile - omitted for duplicate)
++- org.springframework:spring-test:jar:4.3.11.RELEASE:test
+|  \- (org.springframework:spring-core:jar:4.3.11.RELEASE:compile - scope updated from test; omitted for duplicate)
++- com.github.rest-driver:rest-client-driver:jar:2.0.0:test
+|  +- com.github.rest-driver:rest-driver-shared:jar:2.0.0:test
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.1:test - version managed from 2.2.0; omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:19.0:test - version managed from 14.0.1; omitted for duplicate)
+|  |  +- com.jayway.jsonpath:json-path:jar:2.2.0:test (version managed from 0.8.1)
+|  |  |  +- net.minidev:json-smart:jar:2.2.1:test
+|  |  |  |  \- net.minidev:accessors-smart:jar:1.1:test
+|  |  |  |     \- org.ow2.asm:asm:jar:5.0.3:test
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:test - version managed from 1.7.16; omitted for duplicate)
+|  |  \- xmlunit:xmlunit:jar:1.4:test
+|  +- (com.google.guava:guava:jar:19.0:test - version managed from 14.0.1; omitted for duplicate)
+|  +- commons-codec:commons-codec:jar:1.10:test (version managed from 1.8)
+|  +- commons-io:commons-io:jar:2.4:test
+|  +- commons-lang:commons-lang:jar:2.6:test
+|  \- org.eclipse.jetty:jetty-server:jar:9.4.6.v20170531:test (version managed from 9.3.8.v20160314)
+|     +- javax.servlet:javax.servlet-api:jar:3.1.0:test
+|     +- org.eclipse.jetty:jetty-http:jar:9.4.6.v20170531:test
+|     |  +- org.eclipse.jetty:jetty-util:jar:9.4.6.v20170531:test
+|     |  \- (org.eclipse.jetty:jetty-io:jar:9.4.6.v20170531:test - omitted for duplicate)
+|     \- org.eclipse.jetty:jetty-io:jar:9.4.6.v20170531:test
+|        \- (org.eclipse.jetty:jetty-util:jar:9.4.6.v20170531:test - omitted for duplicate)
++- org.zalando:riptide-httpclient:jar:2.6.0-RC5:test
+|  +- (org.springframework:spring-web:jar:4.3.11.RELEASE:test - omitted for duplicate)
+|  +- org.apache.httpcomponents:httpclient:jar:4.5.3:test
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.4.6:test
+|  |  \- (commons-codec:commons-codec:jar:1.10:test - version managed from 1.9; omitted for duplicate)
+|  +- (org.zalando:faux-pas:jar:0.5.0:test - omitted for duplicate)
+|  +- (com.google.code.findbugs:jsr305:jar:3.0.2:test - omitted for duplicate)
+|  +- (com.google.gag:gag:jar:1.0.1:test - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:19.0:test - version managed from 14.0.1; omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:test - version managed from 1.7.16; omitted for duplicate)
+|  \- (org.slf4j:jcl-over-slf4j:jar:1.7.25:test - omitted for duplicate)
++- org.zalando:faux-pas:jar:0.5.0:compile
+|  +- (com.google.code.findbugs:jsr305:jar:3.0.2:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.16; omitted for duplicate)
++- com.google.code.findbugs:jsr305:jar:3.0.2:compile
++- com.google.gag:gag:jar:1.0.1:compile
++- com.google.guava:guava:jar:19.0:compile
++- org.projectlombok:lombok:jar:1.16.18:provided
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- org.slf4j:jcl-over-slf4j:jar:1.7.25:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.16; omitted for duplicate)
++- org.slf4j:slf4j-simple:jar:1.7.25:test
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:test - version managed from 1.7.16; omitted for duplicate)
++- junit:junit:jar:4.12:test
++- org.hamcrest:hamcrest-junit:jar:2.0.0.0:test
+|  +- (junit:junit:jar:4.12:test - omitted for duplicate)
+|  \- org.hamcrest:java-hamcrest:jar:2.0.0.0:test
++- org.hobsoft.hamcrest:hamcrest-compose:jar:0.3.0:test
++- org.mockito:mockito-core:jar:2.1.0-beta.120:test
+|  +- net.bytebuddy:byte-buddy:jar:1.4.20:test
+|  \- org.objenesis:objenesis:jar:2.4:test
++- com.fasterxml.jackson.core:jackson-databind:jar:2.9.1:test
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.1:test (version managed from 2.9.0)
+|  \- com.fasterxml.jackson.core:jackson-core:jar:2.9.1:test
++- com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.9.1:test
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.1:test - omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.1:test - version managed from 2.2.0; omitted for duplicate)
++- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.1:test
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.1:test - omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.1:test - version managed from 2.2.0; omitted for duplicate)
+\- org.zalando:jackson-datatype-problem:jar:0.20.0:test
+   +- (com.google.code.findbugs:jsr305:jar:3.0.2:test - omitted for duplicate)
+   +- (com.google.gag:gag:jar:1.0.1:test - omitted for duplicate)
+   +- org.zalando:problem:jar:0.20.0:test
+   |  +- (com.google.code.findbugs:jsr305:jar:3.0.2:test - omitted for duplicate)
+   |  \- (com.google.gag:gag:jar:1.0.1:test - omitted for duplicate)
+   \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.1:test - version managed from 2.6.1; omitted for duplicate)

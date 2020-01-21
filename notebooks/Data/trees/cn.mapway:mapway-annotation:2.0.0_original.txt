@@ -1,0 +1,2 @@
+cn.mapway:mapway-annotation:jar:2.0.0
+\- org.nutz:nutz:jar:1.r.60:compile

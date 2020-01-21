@@ -1,0 +1,2 @@
+com.diamondq.common:common-thirdparty.checker.qual:bundle:2.5.1
+\- org.checkerframework:checker-qual:jar:2.5.1:compile

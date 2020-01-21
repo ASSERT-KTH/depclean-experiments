@@ -1,0 +1,16 @@
+org.apache.openwebbeans:openwebbeans-osgi:jar:2.0.4
++- org.apache.geronimo.specs:geronimo-servlet_3.0_spec:jar:1.0:compile
++- org.apache.openwebbeans:openwebbeans-spi:jar:2.0.4:provided (scope not updated to compile)
++- org.apache.openwebbeans:openwebbeans-impl:jar:2.0.4:compile
+|  +- org.apache.xbean:xbean-finder-shaded:jar:4.6:compile
+|  |  \- (org.apache.xbean:xbean-asm6-shaded:jar:4.6:compile - omitted for duplicate)
+|  +- org.apache.xbean:xbean-asm6-shaded:jar:4.6:compile
+|  \- (org.apache.openwebbeans:openwebbeans-spi:jar:2.0.4:compile - omitted for duplicate)
++- org.osgi:org.osgi.core:jar:4.2.0:provided
++- org.apache.geronimo.specs:geronimo-jcdi_2.0_spec:jar:1.0.1:provided
++- org.apache.geronimo.specs:geronimo-atinject_1.0_spec:jar:1.0:provided
+\- org.apache.xbean:xbean-finder:jar:4.6:provided
+   +- org.apache.xbean:xbean-bundleutils:jar:4.6:provided
+   |  \- (org.slf4j:slf4j-api:jar:1.5.11:provided - omitted for duplicate)
+   +- org.slf4j:slf4j-api:jar:1.5.11:provided
+   \- org.apache.xbean:xbean-asm-util:jar:4.6:provided

@@ -1,0 +1,3 @@
+org.lwjgl.osgi:org.lwjgl.vulkan:bundle:3.2.0
+\- org.lwjgl:lwjgl-vulkan:jar:3.2.0:provided
+   \- org.lwjgl:lwjgl:jar:3.2.0:provided

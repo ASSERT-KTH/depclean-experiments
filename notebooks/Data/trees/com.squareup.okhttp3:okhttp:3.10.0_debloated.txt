@@ -1,0 +1,14 @@
+com.squareup.okhttp3:okhttp:jar:3.10.0
++- com.squareup.okio:okio:jar:1.14.0:compile
++- org.conscrypt:conscrypt-openjdk-uber:jar:1.0.1:provided
++- com.google.android:android:jar:4.1.1.4:provided
+|  +- commons-logging:commons-logging:jar:1.1.1:provided
+|  +- org.apache.httpcomponents:httpclient:jar:4.2.2:provided (version managed from 4.0.1)
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.2.2:provided
+|  |  +- (commons-logging:commons-logging:jar:1.1.1:provided - omitted for duplicate)
+|  |  \- commons-codec:commons-codec:jar:1.6:provided
+|  +- org.khronos:opengl-api:jar:gl1.1-android-2.1_r1:provided
+|  +- xerces:xmlParserAPIs:jar:2.6.2:provided
+|  +- xpp3:xpp3:jar:1.1.4c:provided
+|  \- org.json:json:jar:20080701:provided
+\- com.google.code.findbugs:jsr305:jar:3.0.2:provided

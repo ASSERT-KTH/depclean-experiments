@@ -1,0 +1,41 @@
+org.talend.esb.auxiliary.storage:auxiliary-storage-persistence-jcr:bundle:6.5.1
++- org.talend.esb.auxiliary.storage:auxiliary-storage-persistence:jar:6.5.1:compile
+|  \- (org.talend.esb.auxiliary.storage:auxiliary-storage-common:jar:6.5.1:compile - omitted for duplicate)
++- org.talend.esb.auxiliary.storage:auxiliary-storage-common:jar:6.5.1:compile
++- javax.jcr:jcr:jar:2.0:compile
++- org.apache.jackrabbit:jackrabbit-core:jar:2.10.1:compile
+|  +- concurrent:concurrent:jar:1.3.4:compile
+|  +- commons-collections:commons-collections:jar:3.2.1:compile
+|  +- (commons-io:commons-io:jar:2.2:compile - omitted for duplicate)
+|  +- commons-dbcp:commons-dbcp:jar:1.3:compile
+|  |  \- commons-pool:commons-pool:jar:1.5.4:compile
+|  +- (org.apache.jackrabbit:jackrabbit-api:jar:2.10.1:compile - omitted for duplicate)
+|  +- (org.apache.jackrabbit:jackrabbit-jcr-commons:jar:2.10.1:compile - omitted for duplicate)
+|  +- (org.apache.jackrabbit:jackrabbit-data:jar:2.10.1:compile - omitted for duplicate)
+|  +- (org.apache.jackrabbit:jackrabbit-spi-commons:jar:2.10.1:compile - omitted for duplicate)
+|  +- (org.apache.jackrabbit:jackrabbit-spi:jar:2.10.1:compile - omitted for duplicate)
+|  +- org.apache.tika:tika-core:jar:1.7:compile
+|  +- org.slf4j:slf4j-api:jar:1.6.6:compile
+|  +- org.apache.lucene:lucene-core:jar:3.6.0:compile
+|  +- org.apache.derby:derby:jar:10.5.3.0_1:compile
+|  \- org.slf4j:jcl-over-slf4j:jar:1.7.4:compile
+|     \- (org.slf4j:slf4j-api:jar:1.7.4:compile - omitted for conflict with 1.6.6)
++- org.apache.jackrabbit:jackrabbit-data:jar:2.10.1:compile
+|  +- (org.apache.jackrabbit:jackrabbit-api:jar:2.10.1:compile - omitted for duplicate)
+|  +- (org.apache.jackrabbit:jackrabbit-jcr-commons:jar:2.10.1:compile - omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.2:compile - omitted for duplicate)
+|  \- (org.slf4j:jcl-over-slf4j:jar:1.7.4:compile - omitted for duplicate)
++- org.apache.jackrabbit:jackrabbit-api:jar:2.10.1:compile
++- org.apache.jackrabbit:jackrabbit-jcr-commons:jar:2.10.1:compile
++- org.apache.jackrabbit:jackrabbit-spi-commons:jar:2.10.1:compile
+|  +- (org.apache.jackrabbit:jackrabbit-spi:jar:2.10.1:compile - omitted for duplicate)
+|  +- (org.apache.jackrabbit:jackrabbit-jcr-commons:jar:2.10.1:compile - omitted for duplicate)
+|  +- (commons-collections:commons-collections:jar:3.2.1:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.6.6:compile - omitted for duplicate)
++- org.apache.jackrabbit:jackrabbit-spi:jar:2.10.1:compile
++- junit:junit:jar:4.10:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test (version managed from 1.1)
++- commons-io:commons-io:jar:2.2:compile
+\- org.easymock:easymock:jar:3.1:test
+   +- cglib:cglib-nodep:jar:2.2.2:test
+   \- org.objenesis:objenesis:jar:1.2:test

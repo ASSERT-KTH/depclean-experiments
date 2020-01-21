@@ -1,0 +1,13 @@
+com.github.japgolly.test-state:dom-zipper_2.11:jar:2.2.0
++- org.scala-lang:scala-library:jar:2.11.12:compile
++- com.lihaoyi:acyclic_2.11:jar:0.1.7:provided
+|  \- (org.scala-lang:scala-library:jar:2.11.8:provided - omitted for conflict with 2.11.12)
++- com.lihaoyi:utest_2.11:jar:0.4.8:test
+|  +- (org.scala-lang:scala-library:jar:2.11.11:test - omitted for conflict with 2.11.12)
+|  +- org.scala-lang:scala-reflect:jar:2.11.11:test
+|  |  \- (org.scala-lang:scala-library:jar:2.11.11:test - omitted for conflict with 2.11.12)
+|  \- org.scala-sbt:test-interface:jar:1.0:test
+\- com.github.japgolly.microlibs:test-util_2.11:jar:1.16:test
+   +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+   \- org.scalaz:scalaz-core_2.11:jar:7.2.24:test
+      \- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)

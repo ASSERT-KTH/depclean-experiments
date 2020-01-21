@@ -1,0 +1,184 @@
+org.bitbucket.bradleysmithllc.etlunit:etlunit-core:jar:4.0.2
++- commons-io:commons-io:jar:2.5:compile
++- org.apache.commons:commons-lang3:jar:3.6:compile
++- org.apache.velocity:velocity:jar:1.7:compile
+|  +- commons-collections:commons-collections:jar:3.2.1:compile
+|  \- commons-lang:commons-lang:jar:2.4:compile
++- org.apache.commons:commons-exec:jar:1.3:compile
++- net.sf.json-lib:json-lib:jar:jdk15:2.4:compile
+|  +- commons-beanutils:commons-beanutils:jar:1.8.0:compile
+|  |  \- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for duplicate)
+|  +- (commons-collections:commons-collections:jar:3.2.1:compile - omitted for duplicate)
+|  +- (commons-lang:commons-lang:jar:2.5:compile - omitted for conflict with 2.4)
+|  +- commons-logging:commons-logging:jar:1.1.1:compile
+|  \- net.sf.ezmorph:ezmorph:jar:1.0.6:compile
+|     \- (commons-lang:commons-lang:jar:2.3:compile - omitted for conflict with 2.4)
++- log4j:log4j:jar:1.2.17:compile
++- org.mockito:mockito-core:jar:2.8.9:test
+|  +- net.bytebuddy:byte-buddy:jar:1.6.14:test
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.6.14:test
+|  \- org.objenesis:objenesis:jar:2.5:test
++- com.google.inject:guice:jar:4.1.0:compile
+|  +- javax.inject:javax.inject:jar:1:compile
+|  +- aopalliance:aopalliance:jar:1.0:compile
+|  \- com.google.guava:guava:jar:19.0:compile
++- com.github.fge:json-schema-validator:jar:2.1.7:compile
+|  +- joda-time:joda-time:jar:2.2:compile
+|  +- com.googlecode.libphonenumber:libphonenumber:jar:5.6:compile
+|  +- com.github.fge:json-schema-core:jar:1.1.8:compile
+|  |  +- com.github.fge:uri-template:jar:0.7:compile
+|  |  |  +- (com.google.guava:guava:jar:14.0.1:compile - omitted for conflict with 19.0)
+|  |  |  +- com.github.fge:msg-simple:jar:0.9:compile
+|  |  |  |  +- com.github.fge:btf:jar:1.0:compile
+|  |  |  |  \- (com.google.code.findbugs:jsr305:jar:2.0.1:compile - omitted for duplicate)
+|  |  |  \- (com.google.code.findbugs:jsr305:jar:2.0.1:compile - omitted for duplicate)
+|  |  +- com.github.fge:jackson-coreutils:jar:1.4:compile
+|  |  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.2.2:compile - omitted for conflict with 2.2.0)
+|  |  |  +- (com.google.guava:guava:jar:14.0.1:compile - omitted for conflict with 19.0)
+|  |  |  +- (com.github.fge:msg-simple:jar:0.9:compile - omitted for duplicate)
+|  |  |  \- (com.google.code.findbugs:jsr305:jar:2.0.1:compile - omitted for duplicate)
+|  |  +- org.mozilla:rhino:jar:1.7R4:compile
+|  |  +- (com.google.code.findbugs:jsr305:jar:2.0.1:compile - omitted for duplicate)
+|  |  \- (com.google.inject:guice:jar:3.0:compile - omitted for conflict with 4.1.0)
+|  +- javax.mail:mailapi:jar:1.4.3:compile
+|  |  \- javax.activation:activation:jar:1.1:compile
+|  \- com.google.code.findbugs:jsr305:jar:2.0.1:compile
++- org.bitbucket.bradleysmithllc.json-validator:json-validator:jar:1.7.0:compile
+|  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.2.0:compile - omitted for conflict with 2.6.5)
++- com.google.code.gson:gson:jar:2.8.1:compile
++- commons-cli:commons-cli:jar:1.4:compile
++- com.h2database:h2:jar:1.4.196:compile
++- com.fasterxml.jackson.core:jackson-core:jar:2.6.5:compile
++- com.fasterxml.jackson.core:jackson-annotations:jar:2.6.5:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.6.5:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.6.0:compile - omitted for conflict with 2.6.5)
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.6.5:compile - omitted for duplicate)
++- org.bitbucket.bradleysmithllc.etlunit:module-signer:jar:57:compile
+|  +- org.apache.maven:maven-plugin-api:jar:3.5.0:compile
+|  |  +- org.apache.maven:maven-model:jar:3.5.0:compile
+|  |  |  +- (org.codehaus.plexus:plexus-utils:jar:3.0.24:compile - omitted for duplicate)
+|  |  |  \- (org.apache.commons:commons-lang3:jar:3.5:compile - omitted for conflict with 3.6)
+|  |  +- org.apache.maven:maven-artifact:jar:3.5.0:compile
+|  |  |  +- (org.codehaus.plexus:plexus-utils:jar:3.0.24:compile - omitted for duplicate)
+|  |  |  \- (org.apache.commons:commons-lang3:jar:3.5:compile - omitted for conflict with 3.6)
+|  |  \- org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.3.3:compile
+|  |     +- javax.enterprise:cdi-api:jar:1.0:compile
+|  |     |  +- javax.annotation:jsr250-api:jar:1.0:compile
+|  |     |  \- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  |     +- org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.3.3:compile
+|  |     +- (org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile - omitted for conflict with 1.7.1)
+|  |     +- (org.codehaus.plexus:plexus-classworlds:jar:2.5.2:compile - omitted for duplicate)
+|  |     \- (org.codehaus.plexus:plexus-utils:jar:3.0.17:compile - omitted for conflict with 3.0.24)
+|  +- (commons-io:commons-io:jar:2.4:compile - omitted for conflict with 2.5)
+|  +- (commons-lang:commons-lang:jar:2.6:compile - omitted for conflict with 2.4)
+|  +- org.apache.maven:maven-core:jar:3.5.0:compile
+|  |  +- (org.apache.maven:maven-model:jar:3.5.0:compile - omitted for duplicate)
+|  |  +- org.apache.maven:maven-settings:jar:3.5.0:compile
+|  |  |  \- (org.codehaus.plexus:plexus-utils:jar:3.0.24:compile - omitted for duplicate)
+|  |  +- org.apache.maven:maven-settings-builder:jar:3.5.0:compile
+|  |  |  +- org.apache.maven:maven-builder-support:jar:3.5.0:compile
+|  |  |  |  +- (org.codehaus.plexus:plexus-utils:jar:3.0.24:compile - omitted for duplicate)
+|  |  |  |  \- (org.apache.commons:commons-lang3:jar:3.5:compile - omitted for conflict with 3.6)
+|  |  |  +- (org.codehaus.plexus:plexus-utils:jar:3.0.24:compile - omitted for duplicate)
+|  |  |  +- (org.codehaus.plexus:plexus-interpolation:jar:1.24:compile - omitted for duplicate)
+|  |  |  +- (org.codehaus.plexus:plexus-component-annotations:jar:1.7.1:compile - omitted for conflict with 1.5.5)
+|  |  |  +- (org.apache.maven:maven-settings:jar:3.5.0:compile - omitted for duplicate)
+|  |  |  +- (org.sonatype.plexus:plexus-sec-dispatcher:jar:1.4:compile - omitted for duplicate)
+|  |  |  \- (org.apache.commons:commons-lang3:jar:3.5:compile - omitted for conflict with 3.6)
+|  |  +- org.apache.maven:maven-repository-metadata:jar:3.5.0:compile
+|  |  |  \- (org.codehaus.plexus:plexus-utils:jar:3.0.24:compile - omitted for duplicate)
+|  |  +- (org.apache.maven:maven-artifact:jar:3.5.0:compile - omitted for duplicate)
+|  |  +- (org.apache.maven:maven-plugin-api:jar:3.5.0:compile - omitted for duplicate)
+|  |  +- org.apache.maven:maven-model-builder:jar:3.5.0:compile
+|  |  |  +- (org.codehaus.plexus:plexus-utils:jar:3.0.24:compile - omitted for duplicate)
+|  |  |  +- (org.codehaus.plexus:plexus-interpolation:jar:1.24:compile - omitted for duplicate)
+|  |  |  +- (org.codehaus.plexus:plexus-component-annotations:jar:1.7.1:compile - omitted for conflict with 1.5.5)
+|  |  |  +- (org.apache.maven:maven-model:jar:3.5.0:compile - omitted for duplicate)
+|  |  |  +- (org.apache.maven:maven-artifact:jar:3.5.0:compile - omitted for duplicate)
+|  |  |  +- (org.apache.maven:maven-builder-support:jar:3.5.0:compile - omitted for duplicate)
+|  |  |  +- (com.google.guava:guava:jar:20.0:compile - omitted for conflict with 19.0)
+|  |  |  \- (org.apache.commons:commons-lang3:jar:3.5:compile - omitted for conflict with 3.6)
+|  |  +- org.apache.maven:maven-resolver-provider:jar:3.5.0:compile
+|  |  |  +- (org.apache.maven:maven-model:jar:3.5.0:compile - omitted for duplicate)
+|  |  |  +- (org.apache.maven:maven-model-builder:jar:3.5.0:compile - omitted for duplicate)
+|  |  |  +- (org.apache.maven:maven-repository-metadata:jar:3.5.0:compile - omitted for duplicate)
+|  |  |  +- (org.apache.maven.resolver:maven-resolver-api:jar:1.0.3:compile - omitted for duplicate)
+|  |  |  +- (org.apache.maven.resolver:maven-resolver-spi:jar:1.0.3:compile - omitted for duplicate)
+|  |  |  +- (org.apache.maven.resolver:maven-resolver-util:jar:1.0.3:compile - omitted for duplicate)
+|  |  |  +- (org.apache.maven.resolver:maven-resolver-impl:jar:1.0.3:compile - omitted for duplicate)
+|  |  |  +- (org.codehaus.plexus:plexus-component-annotations:jar:1.7.1:compile - omitted for conflict with 1.5.5)
+|  |  |  +- (org.codehaus.plexus:plexus-utils:jar:3.0.24:compile - omitted for duplicate)
+|  |  |  \- (org.apache.commons:commons-lang3:jar:3.5:compile - omitted for conflict with 3.6)
+|  |  +- org.apache.maven.resolver:maven-resolver-impl:jar:1.0.3:compile
+|  |  |  +- (org.apache.maven.resolver:maven-resolver-api:jar:1.0.3:compile - omitted for duplicate)
+|  |  |  +- (org.apache.maven.resolver:maven-resolver-spi:jar:1.0.3:compile - omitted for duplicate)
+|  |  |  \- (org.apache.maven.resolver:maven-resolver-util:jar:1.0.3:compile - omitted for duplicate)
+|  |  +- org.apache.maven.resolver:maven-resolver-api:jar:1.0.3:compile
+|  |  +- org.apache.maven.resolver:maven-resolver-spi:jar:1.0.3:compile
+|  |  |  \- (org.apache.maven.resolver:maven-resolver-api:jar:1.0.3:compile - omitted for duplicate)
+|  |  +- org.apache.maven.resolver:maven-resolver-util:jar:1.0.3:compile
+|  |  |  \- (org.apache.maven.resolver:maven-resolver-api:jar:1.0.3:compile - omitted for duplicate)
+|  |  +- org.apache.maven.shared:maven-shared-utils:jar:3.1.0:compile
+|  |  |  \- (commons-io:commons-io:jar:2.5:compile - omitted for duplicate)
+|  |  +- (org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.3.3:compile - omitted for duplicate)
+|  |  +- com.google.inject:guice:jar:no_aop:4.0:compile
+|  |  |  +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  |  |  +- (aopalliance:aopalliance:jar:1.0:compile - omitted for duplicate)
+|  |  |  \- (com.google.guava:guava:jar:16.0.1:compile - omitted for conflict with 19.0)
+|  |  +- org.codehaus.plexus:plexus-interpolation:jar:1.24:compile
+|  |  +- org.codehaus.plexus:plexus-utils:jar:3.0.24:compile
+|  |  +- org.codehaus.plexus:plexus-classworlds:jar:2.5.2:compile
+|  |  +- org.codehaus.plexus:plexus-component-annotations:jar:1.7.1:compile
+|  |  +- org.sonatype.plexus:plexus-sec-dispatcher:jar:1.4:compile
+|  |  |  +- (org.codehaus.plexus:plexus-utils:jar:1.5.5:compile - omitted for conflict with 3.0.24)
+|  |  |  \- org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+|  |  \- (org.apache.commons:commons-lang3:jar:3.5:compile - omitted for conflict with 3.6)
+|  +- org.eclipse.jgit:org.eclipse.jgit:jar:3.1.0.201310021548-r:compile
+|  |  +- com.jcraft:jsch:jar:0.1.46:compile
+|  |  \- com.googlecode.javaewah:JavaEWAH:jar:0.5.6:compile
+|  \- com.sun.codemodel:codemodel:jar:2.6:compile
++- org.jsonschema2pojo:jsonschema2pojo-core:jar:0.5.1:compile
+|  +- org.jsonschema2pojo:jsonschema2pojo-scalagen:jar:0.5.1:compile
+|  |  +- (com.google.code.javaparser:javaparser:jar:1.0.10:compile - omitted for duplicate)
+|  |  +- net.sourceforge.collections:collections-generic:jar:4.01:compile
+|  |  +- (org.apache.commons:commons-lang3:jar:3.0.1:compile - omitted for conflict with 3.6)
+|  |  +- (commons-io:commons-io:jar:1.3.2:compile - omitted for conflict with 2.5)
+|  |  \- (com.google.code.findbugs:annotations:jar:1.3.9:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.1:compile - omitted for conflict with 2.6.5)
+|  +- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.9.1:compile
+|  |  +- org.yaml:snakeyaml:jar:1.18:compile
+|  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.1:compile - omitted for conflict with 2.6.5)
+|  +- org.scala-lang:scala-library:jar:2.11.6:compile
+|  +- com.google.code.javaparser:javaparser:jar:1.0.10:compile
+|  +- com.google.android:android:jar:4.1.1.4:compile
+|  |  +- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for duplicate)
+|  |  +- org.apache.httpcomponents:httpclient:jar:4.0.1:compile
+|  |  |  +- org.apache.httpcomponents:httpcore:jar:4.0.1:compile
+|  |  |  +- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for duplicate)
+|  |  |  \- commons-codec:commons-codec:jar:1.3:compile
+|  |  +- org.khronos:opengl-api:jar:gl1.1-android-2.1_r1:compile
+|  |  +- xerces:xmlParserAPIs:jar:2.6.2:compile
+|  |  +- xpp3:xpp3:jar:1.1.4c:compile
+|  |  \- org.json:json:jar:20080701:compile
+|  +- (com.sun.codemodel:codemodel:jar:2.6:compile - omitted for duplicate)
+|  +- (com.google.code.gson:gson:jar:2.5:compile - omitted for conflict with 2.8.1)
+|  +- (com.google.code.findbugs:jsr305:jar:3.0.1:compile - omitted for conflict with 2.0.1)
+|  +- com.squareup.moshi:moshi:jar:1.5.0:compile
+|  |  \- com.squareup.okio:okio:jar:1.13.0:compile
+|  +- (commons-lang:commons-lang:jar:2.6:compile - omitted for conflict with 2.4)
+|  +- (commons-io:commons-io:jar:2.4:compile - omitted for conflict with 2.5)
+|  +- javax.validation:validation-api:jar:1.0.0.GA:compile
+|  +- (joda-time:joda-time:jar:2.2:compile - omitted for duplicate)
+|  +- org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:compile
+|  |  \- org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile
+|  +- (org.apache.commons:commons-lang3:jar:3.2.1:compile - omitted for conflict with 3.6)
+|  \- com.google.code.findbugs:annotations:jar:1.3.9:compile
++- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.hamcrest:hamcrest-library:jar:1.3:test
+|  \- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for duplicate)
++- junit:junit:jar:4.11:test
+|  \- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for duplicate)
+\- org.bitbucket.bradleysmithllc.java-cl-parser:java-cl-parser:jar:3.2.0:compile
+   +- (commons-cli:commons-cli:jar:1.2:compile - omitted for conflict with 1.4)
+   +- (commons-io:commons-io:jar:2.4:compile - omitted for conflict with 2.5)
+   \- (org.apache.velocity:velocity:jar:1.7:compile - omitted for duplicate)

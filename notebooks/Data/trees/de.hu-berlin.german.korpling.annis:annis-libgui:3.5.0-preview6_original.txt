@@ -1,0 +1,69 @@
+de.hu-berlin.german.korpling.annis:annis-libgui:jar:3.5.0-preview6
++- com.vaadin:vaadin-server:jar:7.7.10:compile
+|  +- com.vaadin:vaadin-sass-compiler:jar:0.9.13:compile
+|  |  +- org.w3c.css:sac:jar:1.3:compile
+|  |  \- com.vaadin.external.flute:flute:jar:1.3.0.gg2:compile
+|  +- com.vaadin:vaadin-shared:jar:7.7.10:compile
+|  \- org.jsoup:jsoup:jar:1.8.3:compile
++- com.vaadin:vaadin-themes:jar:7.7.10:compile
++- com.vaadin:vaadin-push:jar:7.7.10:compile
+|  \- com.vaadin.external.atmosphere:atmosphere-runtime:jar:2.2.9.vaadin2:compile
+|     \- com.vaadin.external.slf4j:vaadin-slf4j-jdk14:jar:1.6.1:compile
++- de.hu-berlin.german.korpling.annis:annis-widgets:jar:3.5.0-preview6:compile
+|  +- (com.vaadin:vaadin-server:jar:7.7.10:compile - omitted for duplicate)
+|  +- com.vaadin:vaadin-client-compiled:jar:7.7.10:compile
+|  +- (de.hu-berlin.german.korpling.annis:annis-interfaces:jar:3.5.0-preview6:compile - omitted for duplicate)
+|  +- commons-codec:commons-codec:jar:1.9:compile
+|  +- org.vaadin.addons:popupbutton:jar:2.2.1:compile
+|  \- com.google.guava:guava-gwt:jar:16.0:compile
+|     +- com.google.code.findbugs:jsr305:jar:1.3.9:compile
+|     \- (com.google.guava:guava:jar:16.0:compile - omitted for conflict with 19.0)
++- de.hu-berlin.german.korpling.annis:annis-interfaces:jar:3.5.0-preview6:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for duplicate)
+|  +- com.google.guava:guava:jar:19.0:compile
+|  +- org.apache.commons:commons-lang3:jar:3.3.2:compile
+|  +- org.corpus-tools:salt-api:jar:3.3.0:compile
+|  |  +- (org.apache.commons:commons-lang3:jar:3.4:compile - omitted for conflict with 3.3.2)
+|  |  +- com.neovisionaries:nv-i18n:jar:1.1:compile
+|  |  +- org.knallgrau.utils:textcat:jar:1.0.1:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:18.0:compile - omitted for conflict with 19.0)
+|  |  +- com.fasterxml.woodstox:woodstox-core:jar:5.0.1:compile
+|  |  |  \- org.codehaus.woodstox:stax2-api:jar:3.1.4:compile
+|  |  +- (org.json:json:jar:20160212:compile - omitted for conflict with 20140107)
+|  |  +- org.eclipse.emf:org.eclipse.emf.common:jar:2.9.1-v20130827-0309:compile
+|  |  +- org.eclipse.emf:org.eclipse.emf.ecore:jar:2.9.1-v20130827-0309:compile
+|  |  \- org.eclipse.emf:org.eclipse.emf.ecore.xmi:jar:2.9.1-v20130827-0309:compile
+|  +- javax.ws.rs:jsr311-api:jar:1.1.1:compile
+|  +- commons-io:commons-io:jar:1.3.2:compile
+|  +- org.json:json:jar:20140107:compile
+|  +- net.xeoh.plugins:jspf-core:jar:1.0.2:compile
+|  \- joda-time:joda-time:jar:2.4:compile
++- javax.servlet:javax.servlet-api:jar:3.0.1:provided
++- org.jdom:jdom:jar:1.1.3:compile
++- net.sourceforge.collections:collections-generic:jar:4.01:compile
++- org.apache.commons:commons-email:jar:1.3.2:compile
+|  +- javax.mail:mail:jar:1.4.5:compile
+|  |  \- (javax.activation:activation:jar:1.1:compile - omitted for conflict with 1.1.1)
+|  \- javax.activation:activation:jar:1.1.1:compile
++- com.sun.jersey.contribs:jersey-apache-client4:jar:1.19:compile
+|  +- org.apache.httpcomponents:httpclient:jar:4.1.1:compile
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.1:compile
+|  |  \- (commons-codec:commons-codec:jar:1.4:compile - omitted for conflict with 1.9)
+|  \- com.sun.jersey:jersey-client:jar:1.19:compile
+|     \- com.sun.jersey:jersey-core:jar:1.19:compile
+|        \- (javax.ws.rs:jsr311-api:jar:1.1.1:compile - omitted for duplicate)
++- ch.qos.logback:logback-classic:jar:1.1.3:compile
+|  +- ch.qos.logback:logback-core:jar:1.1.3:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for conflict with 1.7.5)
++- org.slf4j:jul-to-slf4j:jar:1.7.5:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for duplicate)
++- org.slf4j:jcl-over-slf4j:jar:1.7.5:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for duplicate)
++- org.codehaus.jackson:jackson-xc:jar:1.9.13:compile
+|  +- org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile
+|  \- org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:compile
+|     \- (org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile - omitted for duplicate)
++- org.slf4j:slf4j-api:jar:1.7.5:compile
+\- junit:junit:jar:4.11:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

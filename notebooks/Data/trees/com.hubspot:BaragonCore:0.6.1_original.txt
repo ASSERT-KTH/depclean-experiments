@@ -1,0 +1,14 @@
+com.hubspot:BaragonCore:jar:0.6.1
++- javax.validation:validation-api:jar:1.1.0.Final:compile
++- com.fasterxml.jackson.core:jackson-annotations:jar:2.7.9:compile
++- com.google.guava:guava:jar:20.0:compile
+\- com.amazonaws:aws-java-sdk-core:jar:1.11.69:compile
+   +- org.apache.httpcomponents:httpclient:jar:4.5.2:compile
+   |  +- org.apache.httpcomponents:httpcore:jar:4.4.4:compile
+   |  \- commons-codec:commons-codec:jar:1.10:compile (version managed from 1.9)
+   +- software.amazon.ion:ion-java:jar:1.0.1:compile
+   +- com.fasterxml.jackson.core:jackson-databind:jar:2.7.9:compile (version managed from 2.6.6)
+   |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.7.9:compile - version managed from 2.7.0; omitted for duplicate)
+   |  \- com.fasterxml.jackson.core:jackson-core:jar:2.7.9:compile
+   \- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.7.9:compile (version managed from 2.6.6)
+      \- (com.fasterxml.jackson.core:jackson-core:jar:2.7.9:compile - omitted for duplicate)

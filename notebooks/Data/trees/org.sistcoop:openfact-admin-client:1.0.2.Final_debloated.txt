@@ -1,0 +1,52 @@
+org.sistcoop:openfact-admin-client:jar:1.0.2.Final
++- org.sistcoop:openfact-core:jar:1.0.2.Final:compile
+|  +- org.sistcoop:openfact-common:jar:1.0.2.Final:compile
+|  |  +- (org.bouncycastle:bcprov-jdk15on:jar:1.52:compile - omitted for duplicate)
+|  |  +- (org.bouncycastle:bcpkix-jdk15on:jar:1.52:compile - omitted for duplicate)
+|  |  +- com.google.guava:guava:jar:19.0:compile
+|  |  \- commons-lang:commons-lang:jar:2.6:compile
+|  +- org.bouncycastle:bcprov-jdk15on:jar:1.52:compile
+|  +- org.bouncycastle:bcpkix-jdk15on:jar:1.52:compile
+|  |  \- (org.bouncycastle:bcprov-jdk15on:jar:1.52:compile - omitted for duplicate)
+|  \- org.json:json:jar:20160810:compile
++- org.keycloak:keycloak-admin-client:jar:3.1.0.Final:compile
+|  \- org.keycloak:keycloak-core:jar:3.1.0.Final:compile
+|     +- org.keycloak:keycloak-common:jar:3.1.0.Final:compile
+|     |  +- (org.bouncycastle:bcprov-jdk15on:jar:1.52:compile - omitted for duplicate)
+|     |  \- (org.bouncycastle:bcpkix-jdk15on:jar:1.52:compile - omitted for duplicate)
+|     +- (org.bouncycastle:bcprov-jdk15on:jar:1.52:compile - omitted for duplicate)
+|     +- (org.bouncycastle:bcpkix-jdk15on:jar:1.52:compile - omitted for duplicate)
+|     +- (com.fasterxml.jackson.core:jackson-core:jar:2.7.4:compile - version managed from 2.5.4; omitted for duplicate)
+|     \- (com.fasterxml.jackson.core:jackson-databind:jar:2.7.4:compile - version managed from 2.5.4; omitted for duplicate)
++- org.apache.httpcomponents:httpclient:jar:4.5:compile
+|  +- org.apache.httpcomponents:httpcore:jar:4.4.1:compile
+|  +- commons-logging:commons-logging:jar:1.2:compile
+|  \- commons-codec:commons-codec:jar:1.10:compile (version managed from 1.9)
++- org.jboss.spec.javax.ws.rs:jboss-jaxrs-api_2.0_spec:jar:1.0.0.Final:compile
++- org.jboss.resteasy:resteasy-client:jar:3.1.1.Final:compile
+|  +- org.jboss.resteasy:resteasy-jaxrs:jar:3.1.1.Final:compile
+|  |  +- (org.jboss.spec.javax.ws.rs:jboss-jaxrs-api_2.0_spec:jar:1.0.0.Final:compile - version managed from 1.0.1.Beta1; omitted for duplicate)
+|  |  +- (org.jboss.resteasy:resteasy-jaxrs-services:jar:3.1.1.Final:compile - omitted for duplicate)
+|  |  +- org.jboss.spec.javax.annotation:jboss-annotations-api_1.2_spec:jar:1.0.0.Final:compile
+|  |  +- javax.activation:activation:jar:1.1.1:compile
+|  |  +- (org.apache.httpcomponents:httpclient:jar:4.5:compile - version managed from 4.5.2; omitted for duplicate)
+|  |  +- commons-io:commons-io:jar:2.5:compile
+|  |  +- net.jcip:jcip-annotations:jar:1.0:compile
+|  |  \- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile - omitted for duplicate)
+|  +- org.jboss.resteasy:resteasy-jaxrs-services:jar:3.1.1.Final:compile
+|  +- org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile
+|  \- (org.apache.httpcomponents:httpclient:jar:4.5:compile - version managed from 4.5.2; omitted for duplicate)
+\- org.jboss.resteasy:resteasy-multipart-provider:jar:3.1.1.Final:compile
+   +- (org.jboss.resteasy:resteasy-jaxrs:jar:3.1.1.Final:compile - omitted for duplicate)
+   +- (org.jboss.resteasy:resteasy-client:jar:3.1.1.Final:compile - omitted for duplicate)
+   +- org.jboss.resteasy:resteasy-jaxb-provider:jar:3.1.1.Final:compile
+   |  +- com.sun.xml.bind:jaxb-impl:jar:2.2.7:compile
+   |  |  +- com.sun.xml.bind:jaxb-core:jar:2.2.7:compile
+   |  |  |  +- javax.xml.bind:jaxb-api:jar:2.2.7:compile
+   |  |  |  \- com.sun.istack:istack-commons-runtime:jar:2.21:compile (version managed from 2.16)
+   |  |  \- com.sun.xml.fastinfoset:FastInfoset:jar:1.2.13:compile (version managed from 1.2.12)
+   |  \- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile - omitted for duplicate)
+   +- com.sun.mail:javax.mail:jar:1.5.5:compile (version managed from 1.5.6)
+   |  \- (javax.activation:activation:jar:1.1.1:compile - version managed from 1.1; omitted for duplicate)
+   +- org.apache.james:apache-mime4j:jar:0.6:compile
+   \- (org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile - omitted for duplicate)

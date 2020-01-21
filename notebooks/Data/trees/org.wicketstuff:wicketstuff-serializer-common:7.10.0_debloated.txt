@@ -1,0 +1,25 @@
+org.wicketstuff:wicketstuff-serializer-common:jar:7.10.0
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.slf4j:slf4j-log4j12:jar:1.7.12:test
+|  +- (org.slf4j:slf4j-api:jar:1.7.12:compile - version managed from 1.7.21; scope updated from test; omitted for duplicate)
+|  \- log4j:log4j:jar:1.2.17:runtime (scope managed from test)
++- org.eclipse.jetty.aggregate:jetty-all-server:jar:8.1.16.v20140903:test
+|  +- org.eclipse.jetty.orbit:javax.servlet:jar:3.0.0.v201112011016:test
+|  +- org.eclipse.jetty.orbit:javax.security.auth.message:jar:1.0.0.v201108011116:test
+|  +- org.eclipse.jetty.orbit:javax.mail.glassfish:jar:1.4.1.v201005082020:test
+|  |  \- (org.eclipse.jetty.orbit:javax.activation:jar:1.1.0.v201105071233:test - omitted for duplicate)
+|  +- org.eclipse.jetty.orbit:javax.activation:jar:1.1.0.v201105071233:test
+|  \- org.eclipse.jetty.orbit:javax.annotation:jar:1.1.0.v201108011116:test
+\- org.apache.wicket:wicket-core:jar:7.10.0:compile
+   +- org.apache.commons:commons-collections4:jar:4.0:compile (version managed from 4.1)
+   +- org.apache.wicket:wicket-request:jar:7.10.0:compile
+   |  +- (org.apache.wicket:wicket-util:jar:7.10.0:compile - omitted for duplicate)
+   |  +- (org.apache.commons:commons-collections4:jar:4.0:compile - version managed from 4.1; omitted for duplicate)
+   |  \- (org.slf4j:slf4j-api:jar:1.7.12:compile - version managed from 1.7.21; omitted for duplicate)
+   +- org.apache.wicket:wicket-util:jar:7.10.0:compile
+   |  +- commons-fileupload:commons-fileupload:jar:1.3.2:compile
+   |  |  \- (commons-io:commons-io:jar:2.2:compile - omitted for conflict with 2.5)
+   |  +- commons-io:commons-io:jar:2.5:compile
+   |  \- (org.slf4j:slf4j-api:jar:1.7.12:compile - version managed from 1.7.21; omitted for duplicate)
+   \- org.slf4j:slf4j-api:jar:1.7.12:compile

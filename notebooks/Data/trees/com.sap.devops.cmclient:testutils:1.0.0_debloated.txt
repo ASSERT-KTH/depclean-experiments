@@ -1,0 +1,6 @@
+com.sap.devops.cmclient:testutils:jar:1.0.0
++- junit:junit:jar:4.12:test
+|  \- (org.hamcrest:hamcrest-core:jar:1.3:test - scope managed from compile; omitted for duplicate)
++- org.hamcrest:hamcrest-library:jar:1.3:compile
+|  \- (org.hamcrest:hamcrest-core:jar:1.3:test - scope managed from compile; omitted for duplicate)
+\- org.hamcrest:hamcrest-core:jar:1.3:compile

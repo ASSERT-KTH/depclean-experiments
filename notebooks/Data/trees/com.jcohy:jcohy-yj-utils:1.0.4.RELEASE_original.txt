@@ -1,0 +1,4 @@
+com.jcohy:jcohy-yj-utils:jar:1.0.4.RELEASE
++- javax.mail:mail:jar:1.4.7:compile
+|  \- javax.activation:activation:jar:1.1:compile
+\- javax.servlet:javax.servlet-api:jar:4.0.0:compile

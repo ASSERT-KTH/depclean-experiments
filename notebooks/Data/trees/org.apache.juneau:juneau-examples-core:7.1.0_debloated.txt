@@ -1,0 +1,11 @@
+org.apache.juneau:juneau-examples-core:jar:7.1.0
++- org.apache.juneau:juneau-marshall:jar:7.1.0:compile
++- org.apache.juneau:juneau-marshall-rdf:jar:7.1.0:compile
+|  \- (org.apache.juneau:juneau-marshall:jar:7.1.0:compile - omitted for duplicate)
++- org.apache.juneau:juneau-dto:jar:7.1.0:compile
+|  \- (org.apache.juneau:juneau-marshall:jar:7.1.0:compile - omitted for duplicate)
++- org.apache.juneau:juneau-svl:jar:7.1.0:compile
+|  \- (org.apache.juneau:juneau-marshall:jar:7.1.0:compile - omitted for duplicate)
+\- org.apache.juneau:juneau-config:jar:7.1.0:compile
+   +- (org.apache.juneau:juneau-marshall:jar:7.1.0:compile - omitted for duplicate)
+   \- (org.apache.juneau:juneau-svl:jar:7.1.0:compile - omitted for duplicate)

@@ -1,0 +1,2 @@
+org.streampipes:streampipes-logging:jar:0.55.2
+\- org.slf4j:slf4j-api:jar:1.7.25:compile

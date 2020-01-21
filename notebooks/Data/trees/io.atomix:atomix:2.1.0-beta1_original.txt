@@ -1,0 +1,76 @@
+io.atomix:atomix:bundle:2.1.0-beta1
++- io.atomix:atomix-cluster:jar:2.1.0-beta1:compile
+|  +- io.atomix:atomix-messaging:jar:2.1.0-beta1:compile
+|  |  +- (io.atomix:atomix-utils:jar:2.1.0-beta1:compile - omitted for duplicate)
+|  |  +- io.netty:netty-transport:jar:4.1.19.Final:compile
+|  |  |  +- io.netty:netty-buffer:jar:4.1.19.Final:compile
+|  |  |  |  \- (io.netty:netty-common:jar:4.1.19.Final:compile - omitted for duplicate)
+|  |  |  \- io.netty:netty-resolver:jar:4.1.19.Final:compile
+|  |  |     \- (io.netty:netty-common:jar:4.1.19.Final:compile - omitted for duplicate)
+|  |  +- io.netty:netty-codec:jar:4.1.19.Final:compile
+|  |  |  \- (io.netty:netty-transport:jar:4.1.19.Final:compile - omitted for duplicate)
+|  |  +- io.netty:netty-handler:jar:4.1.19.Final:compile
+|  |  |  +- (io.netty:netty-buffer:jar:4.1.19.Final:compile - omitted for duplicate)
+|  |  |  +- (io.netty:netty-transport:jar:4.1.19.Final:compile - omitted for duplicate)
+|  |  |  \- (io.netty:netty-codec:jar:4.1.19.Final:compile - omitted for duplicate)
+|  |  +- io.netty:netty-transport-native-epoll:jar:4.1.19.Final:compile
+|  |  |  +- io.netty:netty-common:jar:4.1.19.Final:compile
+|  |  |  +- (io.netty:netty-buffer:jar:4.1.19.Final:compile - omitted for duplicate)
+|  |  |  +- io.netty:netty-transport-native-unix-common:jar:4.1.19.Final:compile
+|  |  |  |  +- (io.netty:netty-common:jar:4.1.19.Final:compile - omitted for duplicate)
+|  |  |  |  \- (io.netty:netty-transport:jar:4.1.19.Final:compile - omitted for duplicate)
+|  |  |  \- (io.netty:netty-transport:jar:4.1.19.Final:compile - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for duplicate)
+|  |  \- (org.hamcrest:hamcrest-all:jar:1.3:compile - omitted for duplicate)
+|  +- (io.atomix:atomix-utils:jar:2.1.0-beta1:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for duplicate)
+|  \- (org.hamcrest:hamcrest-all:jar:1.3:compile - omitted for duplicate)
++- io.atomix:atomix-raft:jar:2.1.0-beta1:compile
+|  +- io.atomix:atomix-primitive:jar:2.1.0-beta1:compile
+|  |  +- (io.atomix:atomix-cluster:jar:2.1.0-beta1:compile - omitted for duplicate)
+|  |  +- io.atomix:atomix-storage:jar:2.1.0-beta1:compile
+|  |  |  +- (io.atomix:atomix-utils:jar:2.1.0-beta1:compile - omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for duplicate)
+|  |  |  \- (org.hamcrest:hamcrest-all:jar:1.3:compile - omitted for duplicate)
+|  |  +- (io.atomix:atomix-utils:jar:2.1.0-beta1:compile - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for duplicate)
+|  |  \- (org.hamcrest:hamcrest-all:jar:1.3:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for duplicate)
+|  \- (org.hamcrest:hamcrest-all:jar:1.3:compile - omitted for duplicate)
++- io.atomix:atomix-primary-backup:jar:2.1.0-beta1:compile
+|  +- (io.atomix:atomix-primitive:jar:2.1.0-beta1:compile - omitted for duplicate)
+|  +- (io.atomix:atomix-utils:jar:2.1.0-beta1:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for duplicate)
+|  \- (org.hamcrest:hamcrest-all:jar:1.3:compile - omitted for duplicate)
++- io.atomix:atomix-utils:jar:2.1.0-beta1:compile
+|  +- com.google.guava:guava:jar:22.0:compile
+|  |  +- com.google.code.findbugs:jsr305:jar:1.3.9:compile
+|  |  +- com.google.errorprone:error_prone_annotations:jar:2.0.18:compile
+|  |  +- com.google.j2objc:j2objc-annotations:jar:1.1:compile
+|  |  \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:compile
+|  +- org.apache.commons:commons-lang3:jar:3.5:compile
+|  +- org.apache.commons:commons-math3:jar:3.6.1:compile
+|  +- com.esotericsoftware:kryo:jar:4.0.1:compile
+|  |  +- com.esotericsoftware:reflectasm:jar:1.11.3:compile
+|  |  |  \- org.ow2.asm:asm:jar:5.0.4:compile
+|  |  +- com.esotericsoftware:minlog:jar:1.3.0:compile
+|  |  \- org.objenesis:objenesis:jar:2.1:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for duplicate)
+|  \- (org.hamcrest:hamcrest-all:jar:1.3:compile - omitted for duplicate)
++- org.slf4j:slf4j-api:jar:1.7.7:compile
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.hamcrest:hamcrest-all:jar:1.3:compile
++- com.google.guava:guava-testlib:jar:22.0:test
+|  +- (com.google.code.findbugs:jsr305:jar:1.3.9:compile - scope updated from test; omitted for duplicate)
+|  +- (com.google.errorprone:error_prone_annotations:jar:2.0.18:compile - scope updated from test; omitted for duplicate)
+|  +- (com.google.j2objc:j2objc-annotations:jar:1.1:compile - scope updated from test; omitted for duplicate)
+|  +- (com.google.guava:guava:jar:22.0:test - omitted for duplicate)
+|  \- (junit:junit:jar:4.8.2:test - omitted for conflict with 4.12)
++- net.jodah:concurrentunit:jar:0.4.2:test
++- org.mockito:mockito-core:jar:1.10.19:test
+|  +- (org.hamcrest:hamcrest-core:jar:1.1:test - omitted for conflict with 1.3)
+|  \- (org.objenesis:objenesis:jar:2.1:compile - scope updated from test; omitted for duplicate)
+\- ch.qos.logback:logback-classic:jar:1.1.2:test
+   +- ch.qos.logback:logback-core:jar:1.1.2:test
+   \- (org.slf4j:slf4j-api:jar:1.7.6:test - omitted for conflict with 1.7.7)

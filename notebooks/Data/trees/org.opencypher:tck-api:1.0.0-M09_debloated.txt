@@ -1,0 +1,21 @@
+org.opencypher:tck-api:jar:1.0.0-M09
++- org.scala-lang:scala-library:jar:2.11.7:compile
++- org.antlr:antlr4-runtime:jar:4.7:compile
++- org.junit.jupiter:junit-jupiter-api:jar:5.0.2:compile
+|  +- org.opentest4j:opentest4j:jar:1.0.0:compile
+|  \- org.junit.platform:junit-platform-commons:jar:1.0.2:compile
++- io.cucumber:gherkin:jar:5.0.0:compile
+|  \- io.cucumber:gherkin-jvm-deps:jar:1.0.4:compile
++- org.scalatest:scalatest_2.11:jar:2.2.6:test
+|  +- org.scala-lang:scala-reflect:jar:2.11.7:test
+|  \- org.scala-lang.modules:scala-xml_2.11:jar:1.0.2:test
++- org.scalacheck:scalacheck_2.11:jar:1.13.0:test
+|  +- (org.scala-lang:scala-library:jar:2.11.7:test - omitted for duplicate)
+|  \- org.scala-sbt:test-interface:jar:1.0:test
++- org.junit.platform:junit-platform-launcher:jar:1.0.2:test
+|  \- org.junit.platform:junit-platform-engine:jar:1.0.2:test
+|     +- (org.junit.platform:junit-platform-commons:jar:1.0.2:test - omitted for duplicate)
+|     \- (org.opentest4j:opentest4j:jar:1.0.0:test - omitted for duplicate)
+\- org.junit.jupiter:junit-jupiter-engine:jar:5.0.2:test
+   +- (org.junit.platform:junit-platform-engine:jar:1.0.2:test - omitted for duplicate)
+   \- (org.junit.jupiter:junit-jupiter-api:jar:5.0.2:test - omitted for duplicate)

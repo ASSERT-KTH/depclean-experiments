@@ -1,0 +1,7 @@
+org.webjars.npm:markdown-to-jsx:jar:6.6.6
++- org.webjars.npm:prop-types:jar:15.7.2:compile
+|  +- org.webjars.npm:loose-envify:jar:1.4.0:compile
+|  |  \- org.webjars.npm:js-tokens:jar:4.0.0:compile
+|  +- org.webjars.npm:object-assign:jar:4.1.1:compile
+|  \- org.webjars.npm:react-is:jar:16.9.0-alpha.0:compile
+\- org.webjars.npm:unquote:jar:1.1.1:compile

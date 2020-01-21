@@ -1,0 +1,8 @@
+org.gridkit.lab:zerormi:jar:0.8.16
++- org.gridkit.lab:viconcurrent:jar:0.8.16:compile
++- org.slf4j:slf4j-api:jar:1.6.6:provided
++- junit:junit:jar:4.10:test
+|  \- org.hamcrest:hamcrest-core:jar:1.1:test
+\- ch.qos.logback:logback-classic:jar:1.0.6:test
+   +- ch.qos.logback:logback-core:jar:1.0.6:test
+   \- (org.slf4j:slf4j-api:jar:1.6.6:test - version managed from 1.6.5; omitted for duplicate)

@@ -1,0 +1,93 @@
+org.scalameta:quasiquotes_sjs0.6_2.12:jar:4.0.0-M1
++- org.scala-lang:scala-compiler:jar:2.12.4:provided
+|  +- (org.scala-lang:scala-library:jar:2.12.4:provided - omitted for duplicate)
+|  +- (org.scala-lang:scala-reflect:jar:2.12.4:provided - omitted for duplicate)
+|  \- org.scala-lang.modules:scala-xml_2.12:jar:1.0.6:provided
+|     \- (org.scala-lang:scala-library:jar:2.12.0:provided - omitted for conflict with 2.12.4)
++- org.scala-lang:scala-library:jar:2.12.4:compile
++- org.scalameta:common_sjs0.6_2.12:jar:4.0.0-M1:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  +- org.scalameta:semanticdb3_sjs0.6_2.12:jar:4.0.0-M1:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  |  +- (org.scala-js:scalajs-library_2.12:jar:0.6.22:compile - omitted for duplicate)
+|  |  +- com.thesamet.scalapb:scalapb-runtime_2.12:jar:0.7.1:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  |  |  +- com.thesamet.scalapb:lenses_2.12:jar:0.7.0-test2:compile
+|  |  |  |  \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  |  |  +- com.lihaoyi:fastparse_2.12:jar:1.0.0:compile
+|  |  |  |  +- (org.scala-lang:scala-library:jar:2.12.3:compile - omitted for conflict with 2.12.4)
+|  |  |  |  +- com.lihaoyi:fastparse-utils_2.12:jar:1.0.0:compile
+|  |  |  |  |  +- (org.scala-lang:scala-library:jar:2.12.3:compile - omitted for conflict with 2.12.4)
+|  |  |  |  |  \- (com.lihaoyi:sourcecode_2.12:jar:0.1.4:compile - omitted for duplicate)
+|  |  |  |  \- com.lihaoyi:sourcecode_2.12:jar:0.1.4:compile
+|  |  |  |     \- (org.scala-lang:scala-library:jar:2.12.2:compile - omitted for conflict with 2.12.4)
+|  |  |  \- com.google.protobuf:protobuf-java:jar:3.5.0:compile
+|  |  \- com.thesamet.scalapb:scalapb-runtime_sjs0.6_2.12:jar:0.7.1:compile
+|  |     +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  |     +- (org.scala-js:scalajs-library_2.12:jar:0.6.21:compile - omitted for conflict with 0.6.22)
+|  |     +- com.thesamet.scalapb:lenses_sjs0.6_2.12:jar:0.7.0-test2:compile
+|  |     |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  |     |  \- (org.scala-js:scalajs-library_2.12:jar:0.6.21:compile - omitted for conflict with 0.6.22)
+|  |     +- (com.lihaoyi:fastparse_sjs0.6_2.12:jar:1.0.0:compile - omitted for duplicate)
+|  |     \- com.thesamet.scalapb:protobuf-runtime-scala_sjs0.6_2.12:jar:0.7.0.1:compile
+|  |        +- (org.scala-lang:scala-library:jar:2.12.1:compile - omitted for conflict with 2.12.4)
+|  |        \- (org.scala-js:scalajs-library_2.12:jar:0.6.19:compile - omitted for conflict with 0.6.22)
+|  +- (org.scala-js:scalajs-library_2.12:jar:0.6.22:compile - omitted for duplicate)
+|  \- com.lihaoyi:sourcecode_sjs0.6_2.12:jar:0.1.4:compile
+|     +- (org.scala-lang:scala-library:jar:2.12.2:compile - omitted for conflict with 2.12.4)
+|     \- (org.scala-js:scalajs-library_2.12:jar:0.6.18:compile - omitted for conflict with 0.6.22)
++- org.scalameta:dialects_sjs0.6_2.12:jar:4.0.0-M1:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  +- (org.scalameta:common_sjs0.6_2.12:jar:4.0.0-M1:compile - omitted for duplicate)
+|  \- (org.scala-js:scalajs-library_2.12:jar:0.6.22:compile - omitted for duplicate)
++- org.scalameta:inputs_sjs0.6_2.12:jar:4.0.0-M1:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  +- (org.scalameta:common_sjs0.6_2.12:jar:4.0.0-M1:compile - omitted for duplicate)
+|  +- org.scalameta:io_sjs0.6_2.12:jar:4.0.0-M1:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  |  +- (org.scalameta:common_sjs0.6_2.12:jar:4.0.0-M1:compile - omitted for duplicate)
+|  |  \- (org.scala-js:scalajs-library_2.12:jar:0.6.22:compile - omitted for duplicate)
+|  \- (org.scala-js:scalajs-library_2.12:jar:0.6.22:compile - omitted for duplicate)
++- org.scalameta:trees_sjs0.6_2.12:jar:4.0.0-M1:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  +- (org.scalameta:common_sjs0.6_2.12:jar:4.0.0-M1:compile - omitted for duplicate)
+|  +- (org.scalameta:dialects_sjs0.6_2.12:jar:4.0.0-M1:compile - omitted for duplicate)
+|  +- (org.scalameta:inputs_sjs0.6_2.12:jar:4.0.0-M1:compile - omitted for duplicate)
+|  +- org.scalameta:tokens_sjs0.6_2.12:jar:4.0.0-M1:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  |  +- (org.scalameta:common_sjs0.6_2.12:jar:4.0.0-M1:compile - omitted for duplicate)
+|  |  +- (org.scalameta:dialects_sjs0.6_2.12:jar:4.0.0-M1:compile - omitted for duplicate)
+|  |  +- (org.scalameta:inputs_sjs0.6_2.12:jar:4.0.0-M1:compile - omitted for duplicate)
+|  |  \- (org.scala-js:scalajs-library_2.12:jar:0.6.22:compile - omitted for duplicate)
+|  +- org.scalameta:tokenizers_sjs0.6_2.12:jar:4.0.0-M1:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  |  +- (org.scalameta:common_sjs0.6_2.12:jar:4.0.0-M1:compile - omitted for duplicate)
+|  |  +- (org.scalameta:dialects_sjs0.6_2.12:jar:4.0.0-M1:compile - omitted for duplicate)
+|  |  +- (org.scalameta:inputs_sjs0.6_2.12:jar:4.0.0-M1:compile - omitted for duplicate)
+|  |  +- (org.scalameta:tokens_sjs0.6_2.12:jar:4.0.0-M1:compile - omitted for duplicate)
+|  |  +- (org.scala-js:scalajs-library_2.12:jar:0.6.22:compile - omitted for duplicate)
+|  |  \- com.lihaoyi:fastparse_sjs0.6_2.12:jar:1.0.0:compile
+|  |     +- (org.scala-lang:scala-library:jar:2.12.3:compile - omitted for conflict with 2.12.4)
+|  |     +- com.lihaoyi:fastparse-utils_sjs0.6_2.12:jar:1.0.0:compile
+|  |     |  +- (org.scala-lang:scala-library:jar:2.12.3:compile - omitted for conflict with 2.12.4)
+|  |     |  +- (org.scala-js:scalajs-library_2.12:jar:0.6.19:compile - omitted for conflict with 0.6.22)
+|  |     |  \- (com.lihaoyi:sourcecode_sjs0.6_2.12:jar:0.1.4:compile - omitted for duplicate)
+|  |     +- (org.scala-js:scalajs-library_2.12:jar:0.6.19:compile - omitted for conflict with 0.6.22)
+|  |     \- (com.lihaoyi:sourcecode_sjs0.6_2.12:jar:0.1.4:compile - omitted for duplicate)
+|  \- (org.scala-js:scalajs-library_2.12:jar:0.6.22:compile - omitted for duplicate)
++- org.scalameta:parsers_sjs0.6_2.12:jar:4.0.0-M1:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  +- (org.scalameta:common_sjs0.6_2.12:jar:4.0.0-M1:compile - omitted for duplicate)
+|  +- (org.scalameta:dialects_sjs0.6_2.12:jar:4.0.0-M1:compile - omitted for duplicate)
+|  +- (org.scalameta:inputs_sjs0.6_2.12:jar:4.0.0-M1:compile - omitted for duplicate)
+|  +- (org.scalameta:tokens_sjs0.6_2.12:jar:4.0.0-M1:compile - omitted for duplicate)
+|  +- (org.scalameta:tokenizers_sjs0.6_2.12:jar:4.0.0-M1:compile - omitted for duplicate)
+|  +- (org.scalameta:trees_sjs0.6_2.12:jar:4.0.0-M1:compile - omitted for duplicate)
+|  \- (org.scala-js:scalajs-library_2.12:jar:0.6.22:compile - omitted for duplicate)
++- org.scala-js:scalajs-library_2.12:jar:0.6.22:compile
+|  \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
++- org.scala-js:scalajs-test-interface_2.12:jar:0.6.22:test
+|  +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for duplicate)
+|  \- (org.scala-js:scalajs-library_2.12:jar:0.6.22:test - omitted for duplicate)
+\- org.scala-lang:scala-reflect:jar:2.12.4:provided
+   \- (org.scala-lang:scala-library:jar:2.12.4:provided - omitted for duplicate)

@@ -1,0 +1,145 @@
+org.talend.esb.locator.service:locator-service-common:bundle:6.5.1
++- org.apache.cxf:cxf-rt-frontend-jaxws:jar:3.1.14:compile
+|  +- xml-resolver:xml-resolver:jar:1.2:compile
+|  +- org.ow2.asm:asm:jar:5.0.4:compile
+|  +- (org.apache.cxf:cxf-core:jar:3.1.14:compile - omitted for duplicate)
+|  +- org.apache.cxf:cxf-rt-bindings-soap:jar:3.1.14:compile
+|  |  +- (org.apache.cxf:cxf-core:jar:3.1.14:compile - omitted for duplicate)
+|  |  +- org.apache.cxf:cxf-rt-wsdl:jar:3.1.14:compile
+|  |  |  +- (org.apache.cxf:cxf-core:jar:3.1.14:compile - omitted for duplicate)
+|  |  |  +- (wsdl4j:wsdl4j:jar:1.6.3:compile - omitted for duplicate)
+|  |  |  \- (org.ow2.asm:asm:jar:5.0.4:compile - omitted for duplicate)
+|  |  \- org.apache.cxf:cxf-rt-databinding-jaxb:jar:3.1.14:compile
+|  |     +- (org.apache.cxf:cxf-core:jar:3.1.14:compile - omitted for duplicate)
+|  |     +- (org.apache.cxf:cxf-rt-wsdl:jar:3.1.14:compile - omitted for duplicate)
+|  |     +- com.sun.xml.bind:jaxb-impl:jar:2.2.11:compile
+|  |     \- com.sun.xml.bind:jaxb-core:jar:2.2.11:compile
+|  +- org.apache.cxf:cxf-rt-bindings-xml:jar:3.1.14:compile
+|  |  \- (org.apache.cxf:cxf-core:jar:3.1.14:compile - omitted for duplicate)
+|  +- org.apache.cxf:cxf-rt-frontend-simple:jar:3.1.14:compile
+|  |  +- (org.apache.cxf:cxf-core:jar:3.1.14:compile - omitted for duplicate)
+|  |  +- (org.apache.cxf:cxf-rt-bindings-soap:jar:3.1.14:compile - omitted for duplicate)
+|  |  \- (org.apache.cxf:cxf-rt-wsdl:jar:3.1.14:compile - omitted for duplicate)
+|  \- org.apache.cxf:cxf-rt-ws-addr:jar:3.1.14:compile
+|     +- (org.apache.cxf:cxf-core:jar:3.1.14:compile - omitted for duplicate)
+|     +- (org.apache.cxf:cxf-rt-bindings-soap:jar:3.1.14:compile - omitted for duplicate)
+|     \- (org.apache.cxf:cxf-rt-ws-policy:jar:3.1.14:compile - omitted for duplicate)
++- org.apache.cxf:cxf-rt-frontend-jaxrs:jar:3.1.14:compile
+|  +- (org.apache.cxf:cxf-core:jar:3.1.14:compile - omitted for duplicate)
+|  +- javax.ws.rs:javax.ws.rs-api:jar:2.0.1:compile
+|  +- javax.annotation:javax.annotation-api:jar:1.2:compile
+|  \- org.apache.cxf:cxf-rt-transports-http:jar:3.1.14:compile
+|     \- (org.apache.cxf:cxf-core:jar:3.1.14:compile - omitted for duplicate)
+\- org.talend.esb:locator:jar:6.5.1:compile
+   +- org.apache.zookeeper:zookeeper:jar:3.4.6:compile
+   |  +- org.slf4j:slf4j-api:jar:1.6.1:compile
+   |  +- org.slf4j:slf4j-log4j12:jar:1.6.1:compile
+   |  |  +- (org.slf4j:slf4j-api:jar:1.6.1:compile - omitted for duplicate)
+   |  |  \- (log4j:log4j:jar:1.2.16:compile - omitted for duplicate)
+   |  \- log4j:log4j:jar:1.2.16:compile
+   +- org.apache.cxf:cxf-rt-features-clustering:jar:3.1.14:compile
+   |  \- (org.apache.cxf:cxf-core:jar:3.1.14:compile - omitted for duplicate)
+   +- org.apache.cxf:cxf-rt-ws-policy:jar:3.1.14:compile
+   |  +- wsdl4j:wsdl4j:jar:1.6.3:compile
+   |  +- (org.apache.cxf:cxf-core:jar:3.1.14:compile - omitted for duplicate)
+   |  \- org.apache.neethi:neethi:jar:3.1.0:compile
+   \- org.apache.cxf:cxf-rt-ws-security:jar:3.1.14:compile
+      +- (org.apache.cxf:cxf-core:jar:3.1.14:compile - omitted for duplicate)
+      +- (org.apache.cxf:cxf-rt-bindings-soap:jar:3.1.14:compile - omitted for duplicate)
+      +- org.apache.cxf:cxf-rt-security-saml:jar:3.1.14:compile
+      |  +- org.apache.cxf:cxf-rt-security:jar:3.1.14:compile
+      |  |  \- (org.apache.cxf:cxf-core:jar:3.1.14:compile - omitted for duplicate)
+      |  \- (org.apache.wss4j:wss4j-ws-security-dom:jar:2.1.11:compile - omitted for duplicate)
+      +- net.sf.ehcache:ehcache:jar:2.10.4:compile
+      |  \- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for conflict with 1.6.1)
+      +- org.apache.wss4j:wss4j-ws-security-dom:jar:2.1.11:compile
+      |  +- org.apache.wss4j:wss4j-ws-security-common:jar:2.1.11:compile
+      |  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for conflict with 1.6.1)
+      |  |  +- org.apache.santuario:xmlsec:jar:2.0.9:compile
+      |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.22:compile - omitted for conflict with 1.6.1)
+      |  |  |  +- (org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1:compile - omitted for duplicate)
+      |  |  |  \- commons-codec:commons-codec:jar:1.10:compile
+      |  |  +- org.opensaml:opensaml-saml-impl:jar:3.1.1:compile
+      |  |  |  +- org.opensaml:opensaml-profile-api:jar:3.1.1:compile
+      |  |  |  |  +- org.opensaml:opensaml-core:jar:3.1.1:compile
+      |  |  |  |  |  +- (joda-time:joda-time:jar:2.7:compile - omitted for duplicate)
+      |  |  |  |  |  +- (net.shibboleth.utilities:java-support:jar:7.1.1:compile - omitted for duplicate)
+      |  |  |  |  |  +- (commons-codec:commons-codec:jar:1.10:compile - omitted for duplicate)
+      |  |  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - omitted for conflict with 1.6.1)
+      |  |  |  |  +- (net.shibboleth.utilities:java-support:jar:7.1.1:compile - omitted for duplicate)
+      |  |  |  |  +- (commons-codec:commons-codec:jar:1.10:compile - omitted for duplicate)
+      |  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - omitted for conflict with 1.6.1)
+      |  |  |  +- org.opensaml:opensaml-saml-api:jar:3.1.1:compile
+      |  |  |  |  +- org.opensaml:opensaml-xmlsec-api:jar:3.1.1:compile
+      |  |  |  |  |  +- (org.opensaml:opensaml-security-api:jar:3.1.1:compile - omitted for duplicate)
+      |  |  |  |  |  +- (net.shibboleth.utilities:java-support:jar:7.1.1:compile - omitted for duplicate)
+      |  |  |  |  |  +- (commons-codec:commons-codec:jar:1.10:compile - omitted for duplicate)
+      |  |  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - omitted for conflict with 1.6.1)
+      |  |  |  |  +- org.opensaml:opensaml-soap-api:jar:3.1.1:compile
+      |  |  |  |  |  +- (org.opensaml:opensaml-xmlsec-api:jar:3.1.1:compile - omitted for duplicate)
+      |  |  |  |  |  +- (net.shibboleth.utilities:java-support:jar:7.1.1:compile - omitted for duplicate)
+      |  |  |  |  |  +- (commons-codec:commons-codec:jar:1.10:compile - omitted for duplicate)
+      |  |  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - omitted for conflict with 1.6.1)
+      |  |  |  |  +- (org.opensaml:opensaml-profile-api:jar:3.1.1:compile - omitted for duplicate)
+      |  |  |  |  +- (net.shibboleth.utilities:java-support:jar:7.1.1:compile - omitted for duplicate)
+      |  |  |  |  +- (commons-codec:commons-codec:jar:1.10:compile - omitted for duplicate)
+      |  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - omitted for conflict with 1.6.1)
+      |  |  |  +- org.opensaml:opensaml-security-impl:jar:3.1.1:compile
+      |  |  |  |  +- org.opensaml:opensaml-security-api:jar:3.1.1:compile
+      |  |  |  |  |  +- (org.opensaml:opensaml-core:jar:3.1.1:compile - omitted for duplicate)
+      |  |  |  |  |  +- (org.apache.santuario:xmlsec:jar:2.0.3:compile - omitted for conflict with 2.0.9)
+      |  |  |  |  |  +- org.cryptacular:cryptacular:jar:1.0:compile
+      |  |  |  |  |  |  \- (org.bouncycastle:bcprov-jdk15on:jar:1.50:compile - omitted for conflict with 1.51)
+      |  |  |  |  |  +- org.bouncycastle:bcprov-jdk15on:jar:1.51:compile
+      |  |  |  |  |  +- (net.shibboleth.utilities:java-support:jar:7.1.1:compile - omitted for duplicate)
+      |  |  |  |  |  +- (commons-codec:commons-codec:jar:1.10:compile - omitted for duplicate)
+      |  |  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - omitted for conflict with 1.6.1)
+      |  |  |  |  +- (net.shibboleth.utilities:java-support:jar:7.1.1:compile - omitted for duplicate)
+      |  |  |  |  +- (commons-codec:commons-codec:jar:1.10:compile - omitted for duplicate)
+      |  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - omitted for conflict with 1.6.1)
+      |  |  |  +- org.opensaml:opensaml-xmlsec-impl:jar:3.1.1:compile
+      |  |  |  |  +- (org.opensaml:opensaml-xmlsec-api:jar:3.1.1:compile - omitted for duplicate)
+      |  |  |  |  +- (org.opensaml:opensaml-security-impl:jar:3.1.1:compile - omitted for duplicate)
+      |  |  |  |  +- (net.shibboleth.utilities:java-support:jar:7.1.1:compile - omitted for duplicate)
+      |  |  |  |  +- (commons-codec:commons-codec:jar:1.10:compile - omitted for duplicate)
+      |  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - omitted for conflict with 1.6.1)
+      |  |  |  +- net.shibboleth.utilities:java-support:jar:7.1.1:compile
+      |  |  |  |  +- (commons-codec:commons-codec:jar:1.10:compile - omitted for duplicate)
+      |  |  |  |  +- com.google.guava:guava:jar:18.0:compile
+      |  |  |  |  +- joda-time:joda-time:jar:2.7:compile
+      |  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - omitted for conflict with 1.6.1)
+      |  |  |  +- (commons-codec:commons-codec:jar:1.10:compile - omitted for duplicate)
+      |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - omitted for conflict with 1.6.1)
+      |  |  +- org.opensaml:opensaml-xacml-impl:jar:3.1.1:compile
+      |  |  |  +- org.opensaml:opensaml-xacml-api:jar:3.1.1:compile
+      |  |  |  |  +- (org.opensaml:opensaml-core:jar:3.1.1:compile - omitted for duplicate)
+      |  |  |  |  +- (net.shibboleth.utilities:java-support:jar:7.1.1:compile - omitted for duplicate)
+      |  |  |  |  +- (commons-codec:commons-codec:jar:1.10:compile - omitted for duplicate)
+      |  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - omitted for conflict with 1.6.1)
+      |  |  |  +- (net.shibboleth.utilities:java-support:jar:7.1.1:compile - omitted for duplicate)
+      |  |  |  +- (commons-codec:commons-codec:jar:1.10:compile - omitted for duplicate)
+      |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - omitted for conflict with 1.6.1)
+      |  |  +- org.opensaml:opensaml-xacml-saml-impl:jar:3.1.1:compile
+      |  |  |  +- org.opensaml:opensaml-xacml-saml-api:jar:3.1.1:compile
+      |  |  |  |  +- (org.opensaml:opensaml-xacml-api:jar:3.1.1:compile - omitted for duplicate)
+      |  |  |  |  +- (org.opensaml:opensaml-saml-api:jar:3.1.1:compile - omitted for duplicate)
+      |  |  |  |  +- (net.shibboleth.utilities:java-support:jar:7.1.1:compile - omitted for duplicate)
+      |  |  |  |  +- (commons-codec:commons-codec:jar:1.10:compile - omitted for duplicate)
+      |  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - omitted for conflict with 1.6.1)
+      |  |  |  +- (org.opensaml:opensaml-saml-impl:jar:3.1.1:compile - omitted for duplicate)
+      |  |  |  +- (net.shibboleth.utilities:java-support:jar:7.1.1:compile - omitted for duplicate)
+      |  |  |  +- (commons-codec:commons-codec:jar:1.10:compile - omitted for duplicate)
+      |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - omitted for conflict with 1.6.1)
+      |  |  +- org.jasypt:jasypt:jar:1.9.2:compile
+      |  |  \- org.apache.geronimo.specs:geronimo-javamail_1.4_spec:jar:1.7.1:compile
+      |  \- (net.sf.ehcache:ehcache:jar:2.10.4:runtime - omitted for duplicate)
+      +- org.apache.wss4j:wss4j-policy:jar:2.1.11:compile
+      |  \- (org.apache.neethi:neethi:jar:3.1.0:compile - omitted for duplicate)
+      +- org.apache.wss4j:wss4j-ws-security-stax:jar:2.1.11:compile
+      |  +- org.apache.wss4j:wss4j-bindings:jar:2.1.11:compile
+      |  |  \- (org.apache.santuario:xmlsec:jar:2.0.9:compile - omitted for duplicate)
+      |  +- (org.apache.wss4j:wss4j-ws-security-common:jar:2.1.11:compile - omitted for duplicate)
+      |  \- (net.sf.ehcache:ehcache:jar:2.10.4:runtime - omitted for duplicate)
+      \- org.apache.wss4j:wss4j-ws-security-policy-stax:jar:2.1.11:compile
+         +- (org.apache.wss4j:wss4j-ws-security-stax:jar:2.1.11:compile - omitted for duplicate)
+         \- (org.apache.wss4j:wss4j-policy:jar:2.1.11:compile - omitted for duplicate)

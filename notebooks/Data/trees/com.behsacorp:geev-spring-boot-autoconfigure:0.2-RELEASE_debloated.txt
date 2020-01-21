@@ -1,0 +1,16 @@
+com.behsacorp:geev-spring-boot-autoconfigure:jar:0.2-RELEASE
++- org.springframework.boot:spring-boot-autoconfigure:jar:1.5.10.RELEASE:compile
+|  \- org.springframework.boot:spring-boot:jar:1.5.10.RELEASE:compile
+|     +- org.springframework:spring-core:jar:4.3.14.RELEASE:compile
+|     |  \- commons-logging:commons-logging:jar:1.2:compile
+|     \- org.springframework:spring-context:jar:4.3.14.RELEASE:compile
+|        +- org.springframework:spring-aop:jar:4.3.14.RELEASE:compile
+|        |  +- (org.springframework:spring-beans:jar:4.3.14.RELEASE:compile - omitted for duplicate)
+|        |  \- (org.springframework:spring-core:jar:4.3.14.RELEASE:compile - omitted for duplicate)
+|        +- org.springframework:spring-beans:jar:4.3.14.RELEASE:compile
+|        |  \- (org.springframework:spring-core:jar:4.3.14.RELEASE:compile - omitted for duplicate)
+|        +- (org.springframework:spring-core:jar:4.3.14.RELEASE:compile - omitted for duplicate)
+|        \- org.springframework:spring-expression:jar:4.3.14.RELEASE:compile
+|           \- (org.springframework:spring-core:jar:4.3.14.RELEASE:compile - omitted for duplicate)
+\- com.behsacorp:geev:jar:0.2-RELEASE:compile
+   \- commons-logging:commons-logging-api:jar:1.1:compile

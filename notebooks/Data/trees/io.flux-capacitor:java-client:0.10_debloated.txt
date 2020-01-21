@@ -1,0 +1,48 @@
+io.flux-capacitor:java-client:jar:0.10
++- io.flux-capacitor:common:jar:0.10:compile
+|  \- com.fasterxml.jackson.core:jackson-databind:jar:2.9.4:compile
+|     +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+|     \- com.fasterxml.jackson.core:jackson-core:jar:2.9.4:compile
++- io.flux-capacitor:common:test-jar:tests:0.10:test
+|  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.4:test - omitted for duplicate)
++- org.glassfish.tyrus:tyrus-client:jar:1.13.1:provided (scope not updated to runtime)
+|  \- org.glassfish.tyrus:tyrus-core:jar:1.13.1:provided
+|     \- org.glassfish.tyrus:tyrus-spi:jar:1.13.1:provided
+|        \- javax.websocket:javax.websocket-api:jar:1.1:provided
++- org.glassfish.tyrus:tyrus-container-grizzly-client:jar:1.13.1:runtime
+|  +- org.glassfish.grizzly:grizzly-framework:jar:2.3.25:runtime
+|  +- org.glassfish.grizzly:grizzly-http-server:jar:2.3.25:runtime
+|  |  \- org.glassfish.grizzly:grizzly-http:jar:2.3.25:runtime
+|  |     \- (org.glassfish.grizzly:grizzly-framework:jar:2.3.25:runtime - omitted for duplicate)
+|  \- (org.glassfish.tyrus:tyrus-client:jar:1.13.1:runtime - omitted for duplicate)
++- com.github.ben-manes.caffeine:caffeine:jar:2.6.2:compile
++- org.apache.commons:commons-lang3:jar:3.7:compile
++- javax.validation:validation-api:jar:2.0.1.Final:compile
++- org.hibernate.validator:hibernate-validator:jar:6.0.8.Final:compile
+|  +- (javax.validation:validation-api:jar:2.0.1.Final:compile - omitted for duplicate)
+|  +- org.jboss.logging:jboss-logging:jar:3.3.2.Final:compile
+|  \- com.fasterxml:classmate:jar:1.3.4:compile
++- org.glassfish:javax.el:jar:3.0.0:compile
++- org.springframework:spring-context:jar:5.0.4.RELEASE:compile
+|  +- org.springframework:spring-aop:jar:5.0.4.RELEASE:compile
+|  |  +- (org.springframework:spring-beans:jar:5.0.4.RELEASE:compile - omitted for duplicate)
+|  |  \- (org.springframework:spring-core:jar:5.0.4.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework:spring-beans:jar:5.0.4.RELEASE:compile
+|  |  \- (org.springframework:spring-core:jar:5.0.4.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework:spring-core:jar:5.0.4.RELEASE:compile
+|  |  \- org.springframework:spring-jcl:jar:5.0.4.RELEASE:compile
+|  \- org.springframework:spring-expression:jar:5.0.4.RELEASE:compile
+|     \- (org.springframework:spring-core:jar:5.0.4.RELEASE:compile - omitted for duplicate)
++- org.springframework:spring-test:jar:5.0.4.RELEASE:test
+|  \- (org.springframework:spring-core:jar:5.0.4.RELEASE:test - omitted for duplicate)
++- org.slf4j:slf4j-api:jar:1.7.25:provided
++- ch.qos.logback:logback-classic:jar:1.2.3:test
+|  +- ch.qos.logback:logback-core:jar:1.2.3:test
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)
++- org.projectlombok:lombok:jar:1.16.20:provided
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
+\- org.mockito:mockito-core:jar:2.16.0:test
+   +- net.bytebuddy:byte-buddy:jar:1.7.9:test
+   +- net.bytebuddy:byte-buddy-agent:jar:1.7.9:test
+   \- org.objenesis:objenesis:jar:2.6:test

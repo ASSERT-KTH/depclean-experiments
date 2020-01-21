@@ -1,0 +1,36 @@
+org.apache.cayenne.modeler:cayenne-modeler:jar:4.0.RC1
++- junit:junit:jar:4.11:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- commons-collections:commons-collections:jar:3.2.1:compile
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- org.apache.velocity:velocity:jar:1.6.3:compile
+|  +- (commons-collections:commons-collections:jar:3.2.1:compile - omitted for duplicate)
+|  +- commons-lang:commons-lang:jar:2.4:compile
+|  \- oro:oro:jar:2.0.8:compile
++- com.jgoodies:forms:jar:1.2.1:compile
++- org.apache.cayenne:cayenne-server:jar:4.0.RC1:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  +- org.apache.cayenne:cayenne-di:jar:4.0.RC1:compile
+|  +- (commons-collections:commons-collections:jar:3.2.1:compile - omitted for duplicate)
+|  \- (org.apache.velocity:velocity:jar:1.6.3:compile - omitted for duplicate)
++- org.apache.cayenne:cayenne-project:jar:4.0.RC1:compile
+|  +- (org.apache.cayenne:cayenne-di:jar:4.0.RC1:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  \- (org.apache.cayenne:cayenne-server:jar:4.0.RC1:compile - omitted for duplicate)
++- org.apache.cayenne:cayenne-cgen:jar:4.0.RC1:compile
+|  +- (org.apache.cayenne:cayenne-dbsync:jar:4.0.RC1:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  \- (org.apache.velocity:velocity:jar:1.6.3:compile - omitted for duplicate)
++- org.apache.cayenne:cayenne-dbsync:jar:4.0.RC1:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  +- (org.apache.cayenne:cayenne-server:jar:4.0.RC1:compile - omitted for duplicate)
+|  +- (org.apache.cayenne:cayenne-project:jar:4.0.RC1:compile - omitted for duplicate)
+|  \- net.java.dev.inflector:inflector:jar:0.7.0:compile
++- org.apache.cayenne.modeler:cayenne-wocompat:jar:4.0.RC1:compile
+|  +- (org.apache.cayenne:cayenne-server:jar:4.0.RC1:compile - omitted for duplicate)
+|  \- (org.apache.cayenne:cayenne-dbsync:jar:4.0.RC1:compile - omitted for duplicate)
++- ognl:ognl:jar:2.6.7:compile
++- mockrunner:mockrunner:jar:0.4.1:test
++- net.sf.jedit-syntax:jedit-syntax:jar:2.2.2:compile
++- jgraph:jgraph:jar:5.13.0.0:compile
+\- org.hsqldb:hsqldb:jar:2.3.4:test

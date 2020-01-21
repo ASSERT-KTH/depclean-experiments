@@ -1,0 +1,11 @@
+io.getlime.security:powerauth-java-crypto:jar:0.18.0
++- com.google.guava:guava:jar:24.1-jre:compile
+|  +- com.google.code.findbugs:jsr305:jar:1.3.9:compile
+|  +- org.checkerframework:checker-compat-qual:jar:2.0.0:compile
+|  +- com.google.errorprone:error_prone_annotations:jar:2.1.3:compile
+|  +- com.google.j2objc:j2objc-annotations:jar:1.1:compile
+|  \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:compile
++- io.getlime.security:powerauth-java-prov:jar:0.18.0:compile
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
+\- org.bouncycastle:bcprov-jdk15on:jar:1.59:test

@@ -1,0 +1,15 @@
+com.spinoco:protocol-websocket_2.11:jar:0.3.4
++- org.scala-lang:scala-library:jar:2.11.8:compile
++- com.spinoco:protocol-common_2.11:jar:0.3.4:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for duplicate)
+|  +- (org.scodec:scodec-bits_2.11:jar:1.1.5:compile - omitted for duplicate)
+|  \- (org.scodec:scodec-core_2.11:jar:1.10.3:compile - omitted for duplicate)
++- org.scodec:scodec-bits_2.11:jar:1.1.5:compile
+|  \- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for duplicate)
+\- org.scodec:scodec-core_2.11:jar:1.10.3:compile
+   +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for duplicate)
+   +- (org.scodec:scodec-bits_2.11:jar:1.1.2:compile - omitted for conflict with 1.1.5)
+   \- com.chuusai:shapeless_2.11:jar:2.3.2:compile
+      +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for duplicate)
+      \- org.typelevel:macro-compat_2.11:jar:1.1.1:compile
+         \- (org.scala-lang:scala-library:jar:2.11.7:compile - omitted for conflict with 2.11.8)

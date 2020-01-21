@@ -1,0 +1,2 @@
+org.webjars.npm:cross-domain-utils:jar:2.0.6
+\- org.webjars.npm:zalgo-promise:jar:1.0.41:compile

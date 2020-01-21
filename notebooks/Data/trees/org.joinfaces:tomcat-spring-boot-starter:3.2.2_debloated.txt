@@ -1,0 +1,6 @@
+org.joinfaces:tomcat-spring-boot-starter:jar:3.2.2
++- org.apache.tomcat.embed:tomcat-embed-jasper:jar:8.5.31:compile
+|  \- org.eclipse.jdt:ecj:jar:3.12.3:compile
+\- com.google.code.findbugs:annotations:jar:3.0.1u2:provided
+   +- net.jcip:jcip-annotations:jar:1.0:provided
+   \- com.google.code.findbugs:jsr305:jar:3.0.1:provided

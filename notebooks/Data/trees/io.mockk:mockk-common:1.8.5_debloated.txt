@@ -1,0 +1,5 @@
+io.mockk:mockk-common:jar:1.8.5
++- org.jetbrains.kotlin:kotlin-test-common:jar:1.2.41:test
+|  \- org.jetbrains.kotlin:kotlin-stdlib-common:jar:1.2.41:test
+\- org.jetbrains.kotlin:kotlin-test-annotations-common:jar:1.2.41:test
+   \- (org.jetbrains.kotlin:kotlin-stdlib-common:jar:1.2.41:test - omitted for duplicate)

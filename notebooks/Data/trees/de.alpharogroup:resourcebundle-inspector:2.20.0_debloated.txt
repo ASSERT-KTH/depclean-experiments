@@ -1,0 +1,48 @@
+de.alpharogroup:resourcebundle-inspector:jar:2.20.0
++- de.alpharogroup:jcommons-lang:jar:4.30.0:compile
+|  +- org.apache.commons:commons-collections4:jar:4.1:compile
+|  +- commons-codec:commons-codec:jar:1.11:compile
+|  +- org.apache.commons:commons-lang3:jar:3.7:compile
+|  +- joda-time:joda-time:jar:2.9.9:compile
+|  +- de.alpharogroup:jobject-core:jar:1.10.0:compile
+|  \- de.alpharogroup:jobject-diff:jar:1.10.0:compile
++- de.alpharogroup:silly-collections:jar:4.27.0:compile
+|  \- de.alpharogroup:jobject-compare:jar:1.10.0:compile
++- de.alpharogroup:jobject-clone:jar:1.10.0:compile
+|  +- commons-beanutils:commons-beanutils:jar:1.9.3:compile
+|  |  \- commons-collections:commons-collections:jar:3.2.2:compile
+|  +- uk.com.robust-it:cloning:jar:1.9.9:compile
+|  \- de.alpharogroup:jobject-copy:jar:1.10.0:compile
++- de.alpharogroup:file-worker:jar:4.19.0:compile
+|  +- org.apache.poi:poi:jar:3.17:compile
+|  +- org.apache.poi:poi-ooxml:jar:3.17:compile
+|  |  +- org.apache.poi:poi-ooxml-schemas:jar:3.17:compile
+|  |  |  \- org.apache.xmlbeans:xmlbeans:jar:2.6.0:compile
+|  |  |     \- stax:stax-api:jar:1.0.1:compile
+|  |  \- com.github.virtuald:curvesapi:jar:1.04:compile
+|  \- net.lingala.zip4j:zip4j:jar:1.3.2:compile
++- com.neovisionaries:nv-i18n:jar:1.23:compile
++- commons-io:commons-io:jar:2.6:compile
++- de.alpharogroup:test-objects:jar:4.24.0:test
+|  \- io.github.benas:random-beans:jar:3.7.0:test
+|     +- io.github.lukehutch:fast-classpath-scanner:jar:2.2.1:test
+|     \- com.fasterxml.jackson.core:jackson-databind:jar:2.8.8.1:test
+|        +- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:test
+|        \- com.fasterxml.jackson.core:jackson-core:jar:2.8.8:test
++- org.meanbean:meanbean:jar:2.0.3:test
+|  \- commons-logging:commons-logging:jar:1.1.1:compile
++- de.alpharogroup:meanbean-factories:jar:1.0.0:test
++- org.projectlombok:lombok:jar:1.16.20:compile
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- org.slf4j:slf4j-log4j12:jar:1.7.25:compile
+|  \- log4j:log4j:jar:1.2.17:compile
++- org.apache.logging.log4j:log4j-core:jar:2.11.0:compile
++- org.testng:testng:jar:6.14.3:test
+|  +- com.beust:jcommander:jar:1.72:test
+|  \- org.apache-extras.beanshell:bsh:jar:2.0b6:test
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
+\- org.mockito:mockito-core:jar:2.18.0:test
+   +- net.bytebuddy:byte-buddy:jar:1.8.3:test
+   +- net.bytebuddy:byte-buddy-agent:jar:1.8.3:test
+   \- org.objenesis:objenesis:jar:2.6:compile

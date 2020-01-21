@@ -1,0 +1,20 @@
+org.ow2.petals.flowable:flowable-cmmn-api:jar:6.2.1-PETALS-0
++- org.ow2.petals.flowable:flowable-engine-common-api:jar:6.2.1-PETALS-0:compile
+|  \- org.apache.commons:commons-lang3:jar:3.3.2:compile
++- org.ow2.petals.flowable:flowable-cmmn-model:jar:6.2.1-PETALS-0:compile
+|  \- com.fasterxml.jackson.core:jackson-annotations:jar:2.7.5:compile
++- org.ow2.petals.flowable:flowable-form-api:jar:6.2.1-PETALS-0:compile
+|  +- org.ow2.petals.flowable:flowable-form-model:jar:6.2.1-PETALS-0:compile
+|  |  +- com.fasterxml.jackson.core:jackson-core:jar:2.7.5:compile
+|  |  \- com.fasterxml.jackson.core:jackson-databind:jar:2.7.5:compile
+|  |     +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.7.5:compile - version managed from 2.7.0; omitted for duplicate)
+|  |     \- (com.fasterxml.jackson.core:jackson-core:jar:2.7.5:compile - omitted for duplicate)
+|  \- (org.ow2.petals.flowable:flowable-engine-common-api:jar:6.2.1-PETALS-0:compile - omitted for duplicate)
++- org.ow2.petals.flowable:flowable-variable-service-api:jar:6.2.1-PETALS-0:compile
+|  \- (org.ow2.petals.flowable:flowable-engine-common-api:jar:6.2.1-PETALS-0:compile - omitted for duplicate)
++- org.ow2.petals.flowable:flowable-task-service-api:jar:6.2.1-PETALS-0:compile
+|  +- (org.ow2.petals.flowable:flowable-engine-common-api:jar:6.2.1-PETALS-0:compile - omitted for duplicate)
+|  \- org.ow2.petals.flowable:flowable-identitylink-service-api:jar:6.2.1-PETALS-0:compile
+|     \- (org.ow2.petals.flowable:flowable-engine-common-api:jar:6.2.1-PETALS-0:compile - omitted for duplicate)
+\- org.ow2.petals.flowable:flowable-job-service-api:jar:6.2.1-PETALS-0:compile
+   \- (org.ow2.petals.flowable:flowable-engine-common-api:jar:6.2.1-PETALS-0:compile - omitted for duplicate)

@@ -1,0 +1,75 @@
+com.busymachines:busymachines-commons-rest-json-spray_2.12:jar:0.2.0
++- org.scala-lang:scala-library:jar:2.12.4:compile
++- com.busymachines:busymachines-commons-core_2.12:jar:0.2.0:compile
+|  \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
++- com.busymachines:busymachines-commons-json-spray_2.12:jar:0.2.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  +- (com.busymachines:busymachines-commons-core_2.12:jar:0.2.0:compile - omitted for duplicate)
+|  +- io.spray:spray-json_2.12:jar:sources:1.3.4:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.12.3:compile - omitted for conflict with 2.12.4)
+|  +- io.spray:spray-json_2.12:jar:1.3.4:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.12.3:compile - omitted for conflict with 2.12.4)
+|  +- org.scala-lang:scala-reflect:jar:sources:2.12.4:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  \- org.scala-lang:scala-reflect:jar:2.12.4:compile
+|     \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
++- com.busymachines:busymachines-commons-rest-core_2.12:jar:0.2.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  +- (com.busymachines:busymachines-commons-core_2.12:jar:0.2.0:compile - omitted for duplicate)
+|  +- com.typesafe.akka:akka-http_2.12:jar:sources:10.0.11:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  |  \- com.typesafe.akka:akka-http-core_2.12:jar:10.0.11:compile
+|  |     +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  |     +- com.typesafe.akka:akka-parsing_2.12:jar:10.0.11:compile
+|  |     |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  |     |  \- (com.typesafe.akka:akka-actor_2.12:jar:2.4.20:compile - omitted for conflict with 2.5.8)
+|  |     \- (com.typesafe.akka:akka-stream_2.12:jar:2.4.20:compile - omitted for conflict with 2.5.8)
+|  +- com.typesafe.akka:akka-http_2.12:jar:10.0.11:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  |  \- (com.typesafe.akka:akka-http-core_2.12:jar:10.0.11:compile - omitted for duplicate)
+|  +- com.typesafe.akka:akka-actor_2.12:jar:sources:2.5.8:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  |  +- com.typesafe:config:jar:1.3.2:compile
+|  |  \- org.scala-lang.modules:scala-java8-compat_2.12:jar:0.8.0:compile
+|  |     \- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.4)
+|  +- com.typesafe.akka:akka-actor_2.12:jar:2.5.8:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  |  +- (com.typesafe:config:jar:1.3.2:compile - omitted for duplicate)
+|  |  \- (org.scala-lang.modules:scala-java8-compat_2.12:jar:0.8.0:compile - omitted for duplicate)
+|  +- com.typesafe.akka:akka-stream_2.12:jar:sources:2.5.8:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  |  +- (com.typesafe.akka:akka-actor_2.12:jar:2.5.8:compile - omitted for duplicate)
+|  |  +- org.reactivestreams:reactive-streams:jar:1.0.1:compile
+|  |  \- com.typesafe:ssl-config-core_2.12:jar:0.2.2:compile
+|  |     +- (org.scala-lang:scala-library:jar:2.12.1:compile - omitted for conflict with 2.12.4)
+|  |     +- (com.typesafe:config:jar:1.2.0:compile - omitted for conflict with 1.3.2)
+|  |     \- org.scala-lang.modules:scala-parser-combinators_2.12:jar:1.0.4:compile
+|  |        \- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.4)
+|  +- com.typesafe.akka:akka-stream_2.12:jar:2.5.8:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  |  +- (com.typesafe.akka:akka-actor_2.12:jar:2.5.8:compile - omitted for duplicate)
+|  |  +- (org.reactivestreams:reactive-streams:jar:1.0.1:compile - omitted for duplicate)
+|  |  \- (com.typesafe:ssl-config-core_2.12:jar:0.2.2:compile - omitted for duplicate)
+|  +- org.typelevel:cats-effect_2.12:jar:sources:0.8:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  |  \- org.typelevel:cats-core_2.12:jar:1.0.1:compile
+|  |     +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  |     +- org.typelevel:cats-macros_2.12:jar:1.0.1:compile
+|  |     |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  |     |  \- (org.typelevel:machinist_2.12:jar:0.6.2:compile - omitted for duplicate)
+|  |     +- org.typelevel:cats-kernel_2.12:jar:1.0.1:compile
+|  |     |  \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  |     \- org.typelevel:machinist_2.12:jar:0.6.2:compile
+|  |        +- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.4)
+|  |        \- (org.scala-lang:scala-reflect:jar:2.12.0:compile - omitted for conflict with 2.12.4)
+|  \- org.typelevel:cats-effect_2.12:jar:0.8:compile
+|     +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|     \- (org.typelevel:cats-core_2.12:jar:1.0.1:compile - omitted for duplicate)
++- com.typesafe.akka:akka-http-spray-json_2.12:jar:sources:10.0.11:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  +- (com.typesafe.akka:akka-http_2.12:jar:10.0.11:compile - omitted for duplicate)
+|  \- (io.spray:spray-json_2.12:jar:1.3.4:compile - omitted for duplicate)
+\- com.typesafe.akka:akka-http-spray-json_2.12:jar:10.0.11:compile
+   +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+   +- (com.typesafe.akka:akka-http_2.12:jar:10.0.11:compile - omitted for duplicate)
+   \- (io.spray:spray-json_2.12:jar:1.3.4:compile - omitted for duplicate)

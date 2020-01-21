@@ -1,0 +1,14 @@
+com.g2forge.alexandria:ax-service:jar:0.0.7
++- com.g2forge.alexandria:ax-collection:jar:0.0.7:compile
+|  \- (com.g2forge.alexandria:ax-java:jar:0.0.7:compile - omitted for duplicate)
++- com.g2forge.alexandria:ax-java:jar:0.0.7:compile
+|  \- com.g2forge.alexandria:ax-annotations:jar:0.0.7:compile
++- com.g2forge.alexandria:ax-test:jar:0.0.7:test
+|  +- com.g2forge.alexandria:ax-analysis:jar:0.0.7:test
+|  |  +- (com.g2forge.alexandria:ax-java:jar:0.0.7:test - omitted for duplicate)
+|  |  \- org.apache.bcel:bcel:jar:6.2:test
+|  +- (junit:junit:jar:4.12:test - omitted for duplicate)
+|  \- org.apache.commons:commons-lang3:jar:3.4:test
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
+\- org.projectlombok:lombok:jar:1.16.18:provided

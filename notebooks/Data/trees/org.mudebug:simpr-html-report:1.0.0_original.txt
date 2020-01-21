@@ -1,0 +1,10 @@
+org.mudebug:simpr-html-report:jar:1.0.0
++- org.mudebug:simpr-entry:jar:1.0.0:compile
+|  +- org.antlr:stringtemplate:jar:3.2.1:compile
+|  |  \- antlr:antlr:jar:2.7.7:compile
+|  +- org.mudebug:simpr-core:jar:1.0.0:compile
+|  \- commons-codec:commons-codec:jar:1.10:compile
++- junit:junit:jar:4.11:test
++- org.mockito:mockito-all:jar:1.9.5:test
++- org.assertj:assertj-core:jar:2.8.0:test
+\- org.pitest.quickbuilder:quickbuilder:jar:1.2:test

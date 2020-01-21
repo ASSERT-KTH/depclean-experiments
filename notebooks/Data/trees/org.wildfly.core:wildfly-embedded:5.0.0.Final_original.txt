@@ -1,0 +1,16 @@
+org.wildfly.core:wildfly-embedded:jar:5.0.0.Final
++- org.jboss.logging:jboss-logging:jar:3.3.1.Final:compile
++- org.jboss.modules:jboss-modules:jar:1.8.5.Final:compile
++- org.wildfly.core:wildfly-controller-client:jar:5.0.0.Final:compile
++- org.jboss:jboss-dmr:jar:1.5.0.Final:compile
++- org.jboss.threads:jboss-threads:jar:2.3.2.Final:compile
++- org.wildfly.core:wildfly-controller:jar:5.0.0.Final:provided
++- org.wildfly.core:wildfly-server:jar:5.0.0.Final:provided
++- org.wildfly.core:wildfly-host-controller:jar:5.0.0.Final:provided
++- org.jboss.msc:jboss-msc:jar:1.4.2.Final:provided
++- org.jboss.logging:jboss-logging-annotations:jar:2.1.0.Final:provided (optional) 
++- org.jboss.logging:jboss-logging-processor:jar:2.1.0.Final:provided (optional) 
+|  \- org.jboss.jdeparser:jdeparser:jar:2.0.2.Final:provided (optional) 
++- org.wildfly.core:wildfly-process-controller:jar:5.0.0.Final:provided
+\- junit:junit:jar:4.12:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

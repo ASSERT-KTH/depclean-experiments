@@ -1,0 +1,7 @@
+org.scalameta:cli_sjs0.6_2.12:jar:4.0.0-M7
++- org.scala-lang:scala-library:jar:2.12.6:compile
++- org.scala-js:scalajs-library_2.12:jar:0.6.22:compile
+|  \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.6)
+\- org.scala-js:scalajs-test-interface_2.12:jar:0.6.22:test
+   +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for conflict with 2.12.6)
+   \- (org.scala-js:scalajs-library_2.12:jar:0.6.22:test - omitted for duplicate)

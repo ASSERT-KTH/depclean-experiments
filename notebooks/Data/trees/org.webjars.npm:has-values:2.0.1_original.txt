@@ -1,0 +1,2 @@
+org.webjars.npm:has-values:jar:2.0.1
+\- org.webjars.npm:kind-of:jar:6.0.2:compile

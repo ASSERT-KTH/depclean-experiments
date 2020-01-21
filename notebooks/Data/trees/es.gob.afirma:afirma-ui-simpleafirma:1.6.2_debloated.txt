@@ -1,0 +1,132 @@
+es.gob.afirma:afirma-ui-simpleafirma:jar:1.6.2
++- com.dmurph:JGoogleAnalyticsTracker:jar:1.2.0:compile
+|  \- org.slf4j:slf4j-api:jar:1.6.1:compile
++- es.gob.afirma:afirma-core:jar:1.6.2:compile
+|  \- es.gob.afirma.lib:afirma-lib-jmimemagic:jar:0.0.4:compile
+|     \- es.gob.afirma.lib:afirma-lib-oro:jar:0.0.4:compile
++- es.gob.afirma:afirma-ui-core-jse:jar:1.6.2:compile
+|  \- (es.gob.afirma:afirma-core:jar:1.6.2:compile - omitted for duplicate)
++- es.gob.afirma:afirma-ui-core-jse-keystores:jar:1.6.2:compile
+|  +- (es.gob.afirma:afirma-core:jar:1.6.2:compile - omitted for duplicate)
+|  +- (es.gob.afirma:afirma-core-keystores:jar:1.6.2:compile - omitted for duplicate)
+|  \- (es.gob.afirma:afirma-ui-core-jse:jar:1.6.2:compile - omitted for duplicate)
++- es.gob.afirma:afirma-core-keystores:jar:1.6.2:compile
+|  +- (es.gob.afirma:afirma-core:jar:1.6.2:compile - omitted for duplicate)
+|  +- es.gob.afirma.jmulticard:jmulticard:jar:1.4:compile
+|  |  +- (com.madgag.spongycastle:core:jar:1.56.0.0:compile - omitted for duplicate)
+|  |  \- (com.madgag.spongycastle:prov:jar:1.56.0.0:compile - omitted for duplicate)
+|  +- (es.gob.afirma.jmulticard:jmulticard-jse:jar:1.4:compile - omitted for duplicate)
+|  \- (es.gob.afirma.jmulticard:jmulticard-ui:jar:1.4:compile - omitted for duplicate)
++- es.gob.afirma:afirma-keystores-filters:jar:1.6.2:compile
+|  +- (es.gob.afirma:afirma-core:jar:1.6.2:compile - omitted for duplicate)
+|  +- (es.gob.afirma:afirma-core-keystores:jar:1.6.2:compile - omitted for duplicate)
+|  +- (com.madgag.spongycastle:core:jar:1.56.0.0:compile - omitted for duplicate)
+|  \- (com.madgag.spongycastle:prov:jar:1.56.0.0:compile - omitted for duplicate)
++- es.gob.afirma:afirma-keystores-mozilla:jar:1.6.2:compile
+|  +- (es.gob.afirma:afirma-core:jar:1.6.2:compile - omitted for duplicate)
+|  \- (es.gob.afirma:afirma-core-keystores:jar:1.6.2:compile - omitted for duplicate)
++- es.gob.afirma:afirma-crypto-core-pkcs7:jar:1.6.2:compile
+|  +- (es.gob.afirma:afirma-core:jar:1.6.2:compile - omitted for duplicate)
+|  +- (com.madgag.spongycastle:core:jar:1.56.0.0:compile - omitted for duplicate)
+|  \- (com.madgag.spongycastle:prov:jar:1.56.0.0:compile - omitted for duplicate)
++- es.gob.afirma:afirma-crypto-cms:jar:1.6.2:compile
+|  +- (es.gob.afirma:afirma-core:jar:1.6.2:compile - omitted for duplicate)
+|  +- (es.gob.afirma:afirma-crypto-core-pkcs7:jar:1.6.2:compile - omitted for duplicate)
+|  +- (com.madgag.spongycastle:core:jar:1.56.0.0:compile - omitted for duplicate)
+|  +- (com.madgag.spongycastle:prov:jar:1.56.0.0:compile - omitted for duplicate)
+|  \- (com.madgag.spongycastle:bcpkix-jdk15on:jar:1.56.0.0:compile - omitted for duplicate)
++- es.gob.afirma:afirma-crypto-cades:jar:1.6.2:compile
+|  +- (es.gob.afirma:afirma-core:jar:1.6.2:compile - omitted for duplicate)
+|  +- (es.gob.afirma:afirma-crypto-core-pkcs7:jar:1.6.2:compile - omitted for duplicate)
+|  +- es.gob.afirma:afirma-crypto-core-pkcs7-tsp:jar:1.6.2:compile
+|  |  +- (es.gob.afirma:afirma-core:jar:1.6.2:compile - omitted for duplicate)
+|  |  +- (es.gob.afirma:afirma-crypto-core-pkcs7:jar:1.6.2:compile - omitted for duplicate)
+|  |  +- (com.madgag.spongycastle:core:jar:1.56.0.0:compile - omitted for duplicate)
+|  |  +- (com.madgag.spongycastle:prov:jar:1.56.0.0:compile - omitted for duplicate)
+|  |  \- (com.madgag.spongycastle:bcpkix-jdk15on:jar:1.56.0.0:compile - omitted for duplicate)
+|  +- (com.madgag.spongycastle:core:jar:1.56.0.0:compile - omitted for duplicate)
+|  \- (com.madgag.spongycastle:prov:jar:1.56.0.0:compile - omitted for duplicate)
++- es.gob.afirma:afirma-crypto-cades-multi:jar:1.6.2:compile
+|  +- (es.gob.afirma:afirma-core:jar:1.6.2:compile - omitted for duplicate)
+|  +- (es.gob.afirma:afirma-crypto-cades:jar:1.6.2:compile - omitted for duplicate)
+|  +- (es.gob.afirma:afirma-crypto-core-pkcs7:jar:1.6.2:compile - omitted for duplicate)
+|  +- (com.madgag.spongycastle:core:jar:1.56.0.0:compile - omitted for duplicate)
+|  \- (com.madgag.spongycastle:prov:jar:1.56.0.0:compile - omitted for duplicate)
++- es.gob.afirma:afirma-crypto-pdf:jar:1.6.2:compile
+|  +- (es.gob.afirma:afirma-core:jar:1.6.2:compile - omitted for duplicate)
+|  +- (es.gob.afirma:afirma-ui-core-jse:jar:1.6.2:compile - omitted for duplicate)
+|  +- (es.gob.afirma:afirma-crypto-cades:jar:1.6.2:compile - omitted for duplicate)
+|  +- (es.gob.afirma:afirma-crypto-core-pkcs7:jar:1.6.2:compile - omitted for duplicate)
+|  +- (es.gob.afirma:afirma-crypto-core-pkcs7-tsp:jar:1.6.2:compile - omitted for duplicate)
+|  \- es.gob.afirma.lib:afirma-lib-itext:jar:1.1:compile
+|     +- (com.madgag.spongycastle:core:jar:1.56.0.0:compile - omitted for duplicate)
+|     +- (com.madgag.spongycastle:prov:jar:1.56.0.0:compile - omitted for duplicate)
+|     \- (com.madgag.spongycastle:bcpkix-jdk15on:jar:1.56.0.0:compile - omitted for duplicate)
++- es.gob.afirma:afirma-crypto-core-xml:jar:1.6.2:compile
+|  +- (es.gob.afirma:afirma-core:jar:1.6.2:compile - omitted for duplicate)
+|  \- com.io7m.xom:xom:jar:1.2.10:compile
++- es.gob.afirma:afirma-crypto-xades:jar:1.6.2:compile
+|  +- (es.gob.afirma:afirma-crypto-core-xml:jar:1.6.2:compile - omitted for duplicate)
+|  +- es.uji.crypto.xades:jxades:jar:0.2.0:compile
+|  |  \- (junit:junit:jar:4.12:compile - omitted for duplicate)
+|  +- (es.gob.afirma:afirma-crypto-core-pkcs7-tsp:jar:1.6.2:compile - omitted for duplicate)
+|  \- (com.io7m.xom:xom:jar:1.2.10:compile - omitted for duplicate)
++- es.gob.afirma:afirma-crypto-odf:jar:1.6.2:compile
+|  +- (es.gob.afirma:afirma-crypto-core-xml:jar:1.6.2:compile - omitted for duplicate)
+|  \- (com.io7m.xom:xom:jar:1.2.10:compile - omitted for duplicate)
++- es.gob.afirma:afirma-crypto-ooxml:jar:1.6.2:compile
+|  +- (es.gob.afirma:afirma-core:jar:1.6.2:compile - omitted for duplicate)
+|  +- (es.gob.afirma:afirma-crypto-xades:jar:1.6.2:compile - omitted for duplicate)
+|  +- (es.gob.afirma:afirma-crypto-xmlsignature:jar:1.6.2:compile - omitted for duplicate)
+|  \- (es.uji.crypto.xades:jxades:jar:0.2.0:compile - omitted for duplicate)
++- es.gob.afirma:afirma-crypto-cadestri-client:jar:1.6.2:compile
+|  \- (es.gob.afirma:afirma-core:jar:1.6.2:compile - omitted for duplicate)
++- es.gob.afirma:afirma-crypto-xadestri-client:jar:1.6.2:compile
+|  \- (es.gob.afirma:afirma-core:jar:1.6.2:compile - omitted for duplicate)
++- es.gob.afirma:afirma-crypto-padestri-client:jar:1.6.2:compile
+|  \- (es.gob.afirma:afirma-core:jar:1.6.2:compile - omitted for duplicate)
++- es.gob.afirma:afirma-crypto-xmlsignature:jar:1.6.2:compile
+|  +- (es.gob.afirma:afirma-core:jar:1.6.2:compile - omitted for duplicate)
+|  +- (es.gob.afirma:afirma-crypto-core-xml:jar:1.6.2:compile - omitted for duplicate)
+|  \- (es.uji.crypto.xades:jxades:jar:0.2.0:compile - omitted for duplicate)
++- es.gob.afirma:afirma-crypto-validation:jar:1.6.2:compile
+|  +- (es.gob.afirma:afirma-core:jar:1.6.2:compile - omitted for duplicate)
+|  +- (es.gob.afirma:afirma-crypto-cms:jar:1.6.2:compile - omitted for duplicate)
+|  +- (es.gob.afirma:afirma-crypto-cades:jar:1.6.2:compile - omitted for duplicate)
+|  +- (es.gob.afirma:afirma-crypto-core-xml:jar:1.6.2:compile - omitted for duplicate)
+|  +- (es.gob.afirma:afirma-crypto-pdf:jar:1.6.2:compile - omitted for duplicate)
+|  +- (es.gob.afirma:afirma-crypto-xades:jar:1.6.2:compile - omitted for duplicate)
+|  +- (es.gob.afirma:afirma-crypto-ooxml:jar:1.6.2:compile - omitted for duplicate)
+|  +- (es.gob.afirma:afirma-crypto-odf:jar:1.6.2:compile - omitted for duplicate)
+|  +- (com.madgag.spongycastle:core:jar:1.56.0.0:compile - omitted for duplicate)
+|  +- (com.madgag.spongycastle:prov:jar:1.56.0.0:compile - omitted for duplicate)
+|  \- (es.gob.afirma.lib:afirma-lib-itext:jar:1.1:compile - omitted for duplicate)
++- es.gob.afirma:afirma-core-massive:jar:1.6.2:compile
+|  \- (es.gob.afirma:afirma-core:jar:1.6.2:compile - omitted for duplicate)
++- es.gob.afirma:afirma-crypto-batch-client:jar:1.6.2:compile
+|  \- (es.gob.afirma:afirma-core:jar:1.6.2:compile - omitted for duplicate)
++- com.madgag.spongycastle:core:jar:1.56.0.0:compile
++- com.madgag.spongycastle:prov:jar:1.56.0.0:compile
+|  \- (com.madgag.spongycastle:core:jar:1.56.0.0:compile - omitted for duplicate)
++- com.madgag.spongycastle:bcpkix-jdk15on:jar:1.56.0.0:compile
+|  +- (com.madgag.spongycastle:core:jar:1.56.0.0:compile - omitted for duplicate)
+|  \- (com.madgag.spongycastle:prov:jar:1.56.0.0:compile - omitted for duplicate)
++- es.gob.afirma.jmulticard:jmulticard-jse:jar:1.4:compile
+|  +- (es.gob.afirma.jmulticard:jmulticard:jar:1.4:compile - omitted for duplicate)
+|  +- es.gob.afirma.jmulticard:jmulticard-jsr268:jar:1.4:compile
+|  |  \- (es.gob.afirma.jmulticard:jmulticard:jar:1.4:compile - omitted for duplicate)
+|  \- (es.gob.afirma.jmulticard:jmulticard-ui:jar:1.4:compile - omitted for duplicate)
++- es.gob.afirma.jmulticard:jmulticard-ui:jar:1.4:compile
+|  \- (es.gob.afirma.jmulticard:jmulticard:jar:1.4:compile - omitted for duplicate)
++- javax.help:javahelp:jar:2.0.05:compile
++- org.apache.pdfbox:pdfbox:jar:2.0.7:compile
+|  +- org.apache.pdfbox:fontbox:jar:2.0.7:compile
+|  |  \- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  \- commons-logging:commons-logging:jar:1.2:compile
++- com.github.markusbernhardt:proxy-vole:jar:1.0.3:compile
+|  +- org.ini4j:ini4j:jar:0.5.4:compile
+|  +- (net.java.dev.jna:jna:jar:4.2.2:compile - omitted for conflict with 4.4.0)
+|  \- net.java.dev.jna:jna-platform:jar:4.2.2:compile
+|     \- (net.java.dev.jna:jna:jar:4.2.2:compile - omitted for duplicate)
+\- junit:junit:jar:4.12:test (scope not updated to compile)
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

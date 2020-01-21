@@ -1,0 +1,19 @@
+com.jeesuite:jeesuite-common:jar:1.1.8
++- org.apache.commons:commons-lang3:jar:3.4:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.6.4:compile
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.6.0:compile
+|  \- com.fasterxml.jackson.core:jackson-core:jar:2.6.4:compile
++- com.esotericsoftware.kryo:kryo:jar:2.24.0:compile
+|  +- com.esotericsoftware.minlog:minlog:jar:1.2:compile
+|  \- org.objenesis:objenesis:jar:2.1:compile
++- de.ruedigermoeller:fst:jar:1.55:compile
+|  \- org.javassist:javassist:jar:3.18.1-GA:compile
++- org.apache.logging.log4j:log4j-slf4j-impl:jar:2.7:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|  \- (org.apache.logging.log4j:log4j-api:jar:2.7:compile - omitted for duplicate)
++- org.slf4j:slf4j-api:jar:1.7.21:compile
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
+\- org.springframework:spring-test:jar:4.3.7.RELEASE:test
+   \- org.springframework:spring-core:jar:4.3.7.RELEASE:test
+      \- commons-logging:commons-logging:jar:1.2:test

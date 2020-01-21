@@ -1,0 +1,20 @@
+org.gedcomx:gedcomx-rt-support:jar:2.24.0
++- com.fasterxml.jackson.core:jackson-databind:jar:2.7.8:compile
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.7.0:compile
+|  \- com.fasterxml.jackson.core:jackson-core:jar:2.7.8:compile
++- com.sun.xml.bind:jaxb-impl:jar:2.2.7:compile
+|  +- com.sun.xml.bind:jaxb-core:jar:2.2.7:compile
+|  |  +- javax.xml.bind:jaxb-api:jar:2.2.7:compile
+|  |  \- com.sun.istack:istack-commons-runtime:jar:2.16:compile
+|  \- com.sun.xml.fastinfoset:FastInfoset:jar:1.2.12:compile
+|     \- javax.xml.bind:jsr173_api:jar:1.0:compile
++- javax.ws.rs:jsr311-api:jar:1.1.1:compile
++- commons-codec:commons-codec:jar:1.10:compile
++- com.sun.jersey:jersey-client:jar:1.19.2:test
+|  \- com.sun.jersey:jersey-core:jar:1.19.2:test
+|     \- (javax.ws.rs:jsr311-api:jar:1.1.1:test - omitted for duplicate)
+\- org.testng:testng:jar:5.14.10:test
+   +- junit:junit:jar:3.8.1:test
+   +- org.beanshell:bsh:jar:2.0b4:test
+   +- com.beust:jcommander:jar:1.12:test
+   \- org.yaml:snakeyaml:jar:1.6:test

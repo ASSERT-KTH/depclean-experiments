@@ -1,0 +1,12 @@
+org.webjars.npm:jsonwebtoken:jar:8.2.1
++- org.webjars.npm:jws:jar:3.1.5:compile
+|  +- org.webjars.npm:jwa:jar:1.1.6:compile
+|  |  +- org.webjars.npm:buffer-equal-constant-time:jar:1.0.1:compile
+|  |  +- org.webjars.npm:ecdsa-sig-formatter:jar:1.0.10:compile
+|  |  |  \- (org.webjars.npm:safe-buffer:jar:5.2.0:compile - omitted for duplicate)
+|  |  \- (org.webjars.npm:safe-buffer:jar:5.2.0:compile - omitted for duplicate)
+|  \- org.webjars.npm:safe-buffer:jar:5.2.0:compile
++- org.webjars.npm:lodash.isnumber:jar:3.0.3:compile
++- org.webjars.npm:ms:jar:2.1.2:compile
++- org.webjars.npm:lodash.isinteger:jar:4.0.4:compile
+\- org.webjars.npm:lodash.isplainobject:jar:4.0.6:compile

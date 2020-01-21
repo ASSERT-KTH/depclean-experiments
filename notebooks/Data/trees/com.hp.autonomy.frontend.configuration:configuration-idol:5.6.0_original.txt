@@ -1,0 +1,85 @@
+com.hp.autonomy.frontend.configuration:configuration-idol:jar:5.6.0
++- com.hp.autonomy.frontend:idol-types:jar:1.14.0:compile
+|  +- com.hp.autonomy.frontend:aci-types:jar:0.23.0:compile
+|  |  +- org.apache.commons:commons-collections4:jar:4.0:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.11:compile - omitted for conflict with 2.8.3)
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.11.1:compile - omitted for conflict with 2.8.3)
+|  |  \- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.11:compile - omitted for conflict with 2.8.0)
+|  +- com.hp.autonomy.aci.client:aci-api:jar:6.0.0:compile
+|  |  +- (org.apache.httpcomponents:httpclient:jar:4.4.1:compile - omitted for conflict with 4.3.6)
+|  |  +- org.apache.httpcomponents:httpmime:jar:4.4.1:compile
+|  |  |  \- (org.apache.httpcomponents:httpclient:jar:4.4.1:compile - omitted for duplicate)
+|  |  +- (org.slf4j:jcl-over-slf4j:jar:1.7.9:compile - omitted for conflict with 1.7.7)
+|  |  +- (commons-lang:commons-lang:jar:2.6:compile - omitted for conflict with 2.5)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.9:compile - omitted for conflict with 1.7.7)
+|  |  \- stax:stax:jar:1.2.0:compile
+|  |     \- stax:stax-api:jar:1.0.1:compile
+|  +- org.jvnet.jaxb2_commons:jaxb2-basics-runtime:jar:0.9.5:compile
+|  +- net.sf.biweekly:biweekly:jar:0.4.1:compile
+|  +- org.apache.commons:commons-lang3:jar:3.4:compile
+|  \- commons-io:commons-io:jar:2.4:compile
++- com.hp.autonomy.idol:indexing-api:jar:3.0.0:compile
+|  +- (org.apache.commons:commons-lang3:jar:3.3.2:compile - omitted for conflict with 3.4)
+|  +- org.apache.httpcomponents:httpclient:jar:4.3.6:compile
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.3.3:compile
+|  |  \- commons-codec:commons-codec:jar:1.6:compile
+|  +- org.slf4j:slf4j-api:jar:1.7.7:compile
+|  \- org.slf4j:jcl-over-slf4j:jar:1.7.7:compile
+|     \- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for duplicate)
++- com.hp.autonomy.frontend.configuration:configuration-impl:jar:2.1.1:compile
+|  +- com.hp.autonomy.frontend.configuration:configuration-api:jar:1.0.0:compile
+|  +- (org.jasypt:jasypt:jar:1.9.0:compile - omitted for duplicate)
+|  +- org.mindrot:jbcrypt:jar:0.3m:compile
+|  +- commons-lang:commons-lang:jar:2.5:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for duplicate)
++- org.jasypt:jasypt:jar:1.9.0:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.8.3:compile
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile
+|  \- com.fasterxml.jackson.core:jackson-core:jar:2.8.3:compile
++- org.projectlombok:lombok:jar:1.16.10:provided
++- com.hp.autonomy.frontend.configuration:configuration-impl:test-jar:tests:2.0.1:test
+|  +- (com.hp.autonomy.frontend.configuration:configuration-api:jar:1.0.0:test - omitted for duplicate)
+|  +- (org.jasypt:jasypt:jar:1.9.0:test - omitted for duplicate)
+|  +- (org.mindrot:jbcrypt:jar:0.3m:test - omitted for duplicate)
+|  +- (commons-lang:commons-lang:jar:2.5:test - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.7:test - omitted for duplicate)
++- org.springframework.boot:spring-boot-starter-test:jar:1.4.1.RELEASE:test
+|  +- org.springframework.boot:spring-boot-test:jar:1.4.1.RELEASE:test
+|  |  \- org.springframework.boot:spring-boot:jar:1.4.1.RELEASE:test
+|  |     +- (org.springframework:spring-core:jar:4.3.3.RELEASE:test - omitted for duplicate)
+|  |     \- org.springframework:spring-context:jar:4.3.3.RELEASE:test
+|  |        +- org.springframework:spring-aop:jar:4.3.3.RELEASE:test
+|  |        |  +- (org.springframework:spring-beans:jar:4.3.3.RELEASE:test - omitted for duplicate)
+|  |        |  \- (org.springframework:spring-core:jar:4.3.3.RELEASE:test - omitted for duplicate)
+|  |        +- org.springframework:spring-beans:jar:4.3.3.RELEASE:test
+|  |        |  \- (org.springframework:spring-core:jar:4.3.3.RELEASE:test - omitted for duplicate)
+|  |        +- (org.springframework:spring-core:jar:4.3.3.RELEASE:test - omitted for duplicate)
+|  |        \- org.springframework:spring-expression:jar:4.3.3.RELEASE:test
+|  |           \- (org.springframework:spring-core:jar:4.3.3.RELEASE:test - omitted for duplicate)
+|  +- org.springframework.boot:spring-boot-test-autoconfigure:jar:1.4.1.RELEASE:test
+|  |  +- (org.springframework.boot:spring-boot-test:jar:1.4.1.RELEASE:test - omitted for duplicate)
+|  |  \- org.springframework.boot:spring-boot-autoconfigure:jar:1.4.1.RELEASE:test
+|  |     \- (org.springframework.boot:spring-boot:jar:1.4.1.RELEASE:test - omitted for duplicate)
+|  +- com.jayway.jsonpath:json-path:jar:2.2.0:test
+|  |  +- net.minidev:json-smart:jar:2.2.1:test
+|  |  |  \- net.minidev:accessors-smart:jar:1.1:test
+|  |  |     \- org.ow2.asm:asm:jar:5.0.3:test
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.16:test - omitted for conflict with 1.7.7)
+|  +- junit:junit:jar:4.12:test
+|  |  \- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for duplicate)
+|  +- org.assertj:assertj-core:jar:2.5.0:test
+|  +- org.mockito:mockito-core:jar:1.10.19:test
+|  |  +- (org.hamcrest:hamcrest-core:jar:1.1:test - omitted for conflict with 1.3)
+|  |  \- org.objenesis:objenesis:jar:2.1:test
+|  +- org.hamcrest:hamcrest-core:jar:1.3:test
+|  +- org.hamcrest:hamcrest-library:jar:1.3:test
+|  |  \- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for duplicate)
+|  +- org.skyscreamer:jsonassert:jar:1.3.0:test
+|  |  \- org.json:json:jar:20090211:test
+|  +- org.springframework:spring-core:jar:4.3.3.RELEASE:test
+|  \- org.springframework:spring-test:jar:4.3.3.RELEASE:test
+|     \- (org.springframework:spring-core:jar:4.3.3.RELEASE:test - omitted for duplicate)
++- com.hp.autonomy.test.xml:xml-test-utils:jar:1.0.0:test
+\- ch.qos.logback:logback-classic:jar:1.1.3:test
+   +- ch.qos.logback:logback-core:jar:1.1.3:test
+   \- (org.slf4j:slf4j-api:jar:1.7.7:test - omitted for duplicate)

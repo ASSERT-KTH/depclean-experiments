@@ -1,0 +1,2 @@
+com.gluonhq:charm-down-plugin-pictures:jar:3.7.0
+\- com.gluonhq:charm-down-core:jar:3.7.0:compile

@@ -1,0 +1,70 @@
+org.apache.myfaces.core:myfaces-impl:jar:2.3.0
++- org.apache.myfaces.core:myfaces-api:jar:2.3.0:compile
++- org.apache.myfaces.core.internal:myfaces-impl-shared-public:jar:2.3.0:compile
+|  \- (org.apache.myfaces.core:myfaces-api:jar:2.3.0:compile - omitted for duplicate)
++- org.apache.myfaces.core.internal:myfaces-impl-shared:jar:2.3.0:compile
+|  \- (org.apache.myfaces.core:myfaces-api:jar:2.3.0:compile - omitted for duplicate)
++- org.apache.tomcat:tomcat-servlet-api:jar:9.0.2:provided
++- org.apache.geronimo.specs:geronimo-jsp_2.2_spec:jar:1.2:provided
++- javax.servlet:jstl:jar:1.2:provided
++- org.apache.geronimo.specs:geronimo-el_2.2_spec:jar:1.0.4:provided
++- org.apache.geronimo.specs:geronimo-validation_1.0_spec:jar:1.1:compile
++- org.apache.geronimo.specs:geronimo-annotation_1.2_spec:jar:1.0:provided
++- org.apache.geronimo.specs:geronimo-jpa_3.0_spec:jar:1.1.1:compile
++- org.apache.geronimo.specs:geronimo-ejb_3.0_spec:jar:1.0.1:compile
++- org.apache.geronimo.specs:geronimo-jcdi_1.1_spec:jar:1.0:provided
++- org.apache.myfaces.buildtools:myfaces-builder-annotations:jar:1.0.9:provided
++- org.apache.geronimo.specs:geronimo-atinject_1.0_spec:jar:1.0:provided
++- org.apache.tomcat:tomcat-websocket-api:jar:7.0.78:provided
++- commons-beanutils:commons-beanutils:jar:1.9.3:compile
+|  +- commons-logging:commons-logging:jar:1.1.1:compile (version managed from 1.2)
+|  \- commons-collections:commons-collections:jar:3.2.2:compile
++- commons-digester:commons-digester:jar:1.8:compile
+|  +- (commons-beanutils:commons-beanutils:jar:1.9.3:compile - version managed from 1.7.0; omitted for duplicate)
+|  \- (commons-logging:commons-logging:jar:1.1.1:compile - version managed from 1.1; omitted for duplicate)
++- org.apache.tomcat:tomcat-catalina:jar:7.0.78:compile
+|  +- (org.apache.tomcat:tomcat-servlet-api:jar:9.0.2:provided - version managed from 7.0.78; scope managed from compile; omitted for duplicate)
+|  +- org.apache.tomcat:tomcat-juli:jar:7.0.78:compile
+|  +- org.apache.tomcat:tomcat-annotations-api:jar:7.0.78:compile
+|  +- org.apache.tomcat:tomcat-api:jar:7.0.78:compile
+|  |  \- (org.apache.tomcat:tomcat-servlet-api:jar:9.0.2:provided - version managed from 7.0.78; scope managed from compile; omitted for duplicate)
+|  \- org.apache.tomcat:tomcat-util:jar:7.0.78:compile
+|     +- (org.apache.tomcat:tomcat-juli:jar:7.0.78:compile - omitted for duplicate)
+|     \- (org.apache.tomcat:tomcat-api:jar:7.0.78:compile - omitted for duplicate)
++- com.google.code.guice:guice:jar:1.0:compile
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.testng:testng:jar:6.11:test
+|  +- com.beust:jcommander:jar:1.64:test
+|  \- org.yaml:snakeyaml:jar:1.17:test
++- org.apache.myfaces.core:myfaces-api:jar:tests:2.3.0:test
++- org.apache.myfaces.test:myfaces-test23:jar:1.0.8:test
+|  \- (junit:junit:jar:4.12:test - version managed from 4.5; omitted for duplicate)
++- org.easymock:easymock:jar:2.3:test
++- org.easymock:easymockclassextension:jar:2.3:test
+|  +- (org.easymock:easymock:jar:2.3:test - omitted for duplicate)
+|  \- cglib:cglib-nodep:jar:2.1_3:test
++- org.apache.tomcat:tomcat-el-api:jar:7.0.0:test
++- org.apache.tomcat:tomcat-jasper-el:jar:7.0.0:test
+|  \- (org.apache.tomcat:tomcat-el-api:jar:7.0.0:test - omitted for duplicate)
++- org.apache.geronimo.specs:geronimo-interceptor_1.2_spec:jar:1.0:test
++- org.apache.openwebbeans:openwebbeans-impl:jar:1.6.3:test
+|  +- org.apache.xbean:xbean-finder-shaded:jar:4.3:test
+|  |  \- (org.apache.xbean:xbean-asm5-shaded:jar:4.3:test - omitted for duplicate)
+|  +- org.apache.xbean:xbean-asm5-shaded:jar:4.3:test
+|  \- (org.apache.openwebbeans:openwebbeans-spi:jar:1.6.3:test - omitted for duplicate)
++- org.apache.openwebbeans:openwebbeans-jsf:jar:1.6.3:test
+|  +- (org.apache.openwebbeans:openwebbeans-impl:jar:1.6.3:test - omitted for duplicate)
+|  \- (org.apache.openwebbeans:openwebbeans-web:jar:1.6.3:test - omitted for duplicate)
++- org.apache.openwebbeans:openwebbeans-web:jar:1.6.3:test
+|  +- (org.apache.xbean:xbean-finder-shaded:jar:4.3:test - omitted for duplicate)
+|  +- (org.apache.openwebbeans:openwebbeans-impl:jar:1.6.3:test - omitted for duplicate)
+|  \- org.apache.openwebbeans:openwebbeans-el22:jar:1.6.3:test
++- org.apache.openwebbeans:openwebbeans-spi:jar:1.6.3:test
++- org.apache.openwebbeans:openwebbeans-resource:jar:1.6.3:test
+|  \- (org.apache.openwebbeans:openwebbeans-impl:jar:1.6.3:test - omitted for duplicate)
+\- org.apache.bval:bval-jsr303:jar:0.5:test
+   +- org.apache.bval:bval-core:jar:0.5:test
+   |  +- (org.apache.commons:commons-lang3:jar:3.1:test - omitted for duplicate)
+   |  \- commons-beanutils:commons-beanutils-core:jar:1.8.3:test
+   \- org.apache.commons:commons-lang3:jar:3.1:test

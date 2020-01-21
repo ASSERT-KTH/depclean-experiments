@@ -1,0 +1,12 @@
+org.mongodb:stitch-server-services-http:jar:4.0.0-beta-1
++- org.mongodb:stitch-core-services-http:jar:4.0.0-beta-1:compile
+|  \- org.mongodb:stitch-core-sdk:jar:4.0.0-beta-1:runtime
+|     +- com.google.code.findbugs:jsr305:jar:3.0.2:runtime
+|     +- org.mongodb:bson:jar:3.8.0-beta2:runtime
+|     +- com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:runtime
+|     |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:runtime
+|     |  \- com.fasterxml.jackson.core:jackson-core:jar:2.9.5:runtime
+|     \- com.squareup.okhttp3:okhttp:jar:3.10.0:runtime
+|        \- com.squareup.okio:okio:jar:1.14.0:runtime
+\- org.mongodb:stitch-server-core:jar:4.0.0-beta-1:runtime
+   \- (org.mongodb:stitch-core-sdk:jar:4.0.0-beta-1:runtime - omitted for duplicate)

@@ -1,0 +1,1 @@
+org.webjars.npm:vue__test-utils:jar:1.0.0-beta.12

@@ -1,0 +1,64 @@
+org.apache.maven.plugin-tools:maven-plugin-tools-annotations:jar:3.5.1
++- org.apache.maven:maven-project:jar:2.2.1:compile
+|  +- org.apache.maven:maven-settings:jar:2.2.1:compile
+|  |  +- (org.apache.maven:maven-model:jar:2.2.1:compile - omitted for duplicate)
+|  |  +- (org.codehaus.plexus:plexus-interpolation:jar:1.11:compile - omitted for duplicate)
+|  |  +- (org.codehaus.plexus:plexus-utils:jar:3.0.20:compile - version managed from 1.5.15; omitted for duplicate)
+|  |  \- (org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile - omitted for duplicate)
+|  +- org.apache.maven:maven-profile:jar:2.2.1:compile
+|  |  +- (org.apache.maven:maven-model:jar:2.2.1:compile - omitted for duplicate)
+|  |  +- (org.codehaus.plexus:plexus-utils:jar:3.0.20:compile - version managed from 1.5.15; omitted for duplicate)
+|  |  +- (org.codehaus.plexus:plexus-interpolation:jar:1.11:compile - omitted for duplicate)
+|  |  \- (org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile - omitted for duplicate)
+|  +- (org.apache.maven:maven-model:jar:2.2.1:compile - omitted for duplicate)
+|  +- org.apache.maven:maven-artifact-manager:jar:2.2.1:compile
+|  |  +- org.apache.maven:maven-repository-metadata:jar:2.2.1:compile
+|  |  |  \- (org.codehaus.plexus:plexus-utils:jar:3.0.20:compile - version managed from 1.5.15; omitted for duplicate)
+|  |  +- (org.codehaus.plexus:plexus-utils:jar:3.0.20:compile - version managed from 1.5.15; omitted for duplicate)
+|  |  +- (org.apache.maven:maven-artifact:jar:2.2.1:compile - omitted for duplicate)
+|  |  +- (org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile - omitted for duplicate)
+|  |  +- org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-6:compile
+|  |  |  \- (org.codehaus.plexus:plexus-utils:jar:3.0.20:compile - version managed from 1.4.2; omitted for duplicate)
+|  |  \- backport-util-concurrent:backport-util-concurrent:jar:3.1:compile
+|  +- org.apache.maven:maven-plugin-registry:jar:2.2.1:compile
+|  |  +- (org.codehaus.plexus:plexus-utils:jar:3.0.20:compile - version managed from 1.5.15; omitted for duplicate)
+|  |  \- (org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile - omitted for duplicate)
+|  +- org.codehaus.plexus:plexus-interpolation:jar:1.11:compile
+|  +- (org.codehaus.plexus:plexus-utils:jar:3.0.20:compile - version managed from 1.5.15; omitted for duplicate)
+|  +- org.apache.maven:maven-artifact:jar:2.2.1:compile
+|  |  \- (org.codehaus.plexus:plexus-utils:jar:3.0.20:compile - version managed from 1.5.15; omitted for duplicate)
+|  \- org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+|     +- (junit:junit:jar:3.8.1:compile - omitted for conflict with 3.8.2)
+|     +- (org.codehaus.plexus:plexus-utils:jar:3.0.20:compile - version managed from 1.0.4; omitted for duplicate)
+|     \- classworlds:classworlds:jar:1.1-alpha-2:compile
++- org.apache.maven:maven-model:jar:2.2.1:compile
+|  \- (org.codehaus.plexus:plexus-utils:jar:3.0.20:compile - version managed from 1.5.15; omitted for duplicate)
++- org.apache.maven:maven-plugin-descriptor:jar:2.2.1:compile
+|  +- org.apache.maven:maven-plugin-api:jar:2.2.1:compile
+|  +- (org.apache.maven:maven-artifact:jar:2.2.1:compile - omitted for duplicate)
+|  \- (org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile - omitted for duplicate)
++- org.apache.maven.plugin-tools:maven-plugin-tools-api:jar:3.5.1:compile
+|  +- (org.apache.maven:maven-project:jar:2.2.1:compile - omitted for duplicate)
+|  +- (org.apache.maven:maven-model:jar:2.2.1:compile - omitted for duplicate)
+|  +- (org.apache.maven:maven-plugin-api:jar:2.2.1:compile - omitted for duplicate)
+|  +- (org.apache.maven:maven-artifact:jar:2.2.1:compile - omitted for duplicate)
+|  +- (org.apache.maven:maven-plugin-descriptor:jar:2.2.1:compile - omitted for duplicate)
+|  \- (org.codehaus.plexus:plexus-utils:jar:3.0.20:compile - version managed from 1.5.15; omitted for duplicate)
++- org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.5.1:compile
+|  \- (org.apache.maven:maven-artifact:jar:2.2.1:compile - version managed from 3.0; omitted for duplicate)
++- org.codehaus.plexus:plexus-utils:jar:3.0.20:compile
++- org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
++- org.codehaus.plexus:plexus-archiver:jar:2.1.1:compile
+|  +- (org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile - omitted for duplicate)
+|  +- (org.codehaus.plexus:plexus-utils:jar:3.0.20:compile - version managed from 3.0; omitted for duplicate)
+|  \- org.codehaus.plexus:plexus-io:jar:2.0.3:compile
+|     \- (org.codehaus.plexus:plexus-utils:jar:3.0.20:compile - version managed from 3.0; omitted for duplicate)
++- com.thoughtworks.qdox:qdox:jar:2.0-M5:compile
++- org.codehaus.plexus:plexus-compiler-manager:jar:1.8.6:test
+|  \- org.codehaus.plexus:plexus-compiler-api:jar:1.8.6:test
+|     \- (org.codehaus.plexus:plexus-utils:jar:3.0.20:test - version managed from 3.0; omitted for duplicate)
++- org.easymock:easymock:jar:3.4:test
+|  \- org.objenesis:objenesis:jar:2.2:test
++- junit:junit:jar:3.8.2:test (scope not updated to compile)
+\- org.easytesting:fest-assert:jar:1.4:test
+   \- org.easytesting:fest-util:jar:1.1.6:test

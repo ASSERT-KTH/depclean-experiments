@@ -1,0 +1,7 @@
+org.wildfly.discovery:wildfly-discovery-client:jar:1.1.1.Final
++- org.wildfly.common:wildfly-common:jar:1.2.0.Final:compile
++- org.wildfly.client:wildfly-client-config:jar:1.0.0.Final:compile
++- org.jboss.logging:jboss-logging:jar:3.3.1.Final:compile
++- org.jboss.modules:jboss-modules:jar:1.6.0.Final:provided (optional) 
++- org.jboss.logmanager:jboss-logmanager:jar:2.0.5.Final:test
+\- junit:junit:jar:4.8.2:test

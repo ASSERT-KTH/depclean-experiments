@@ -1,0 +1,4 @@
+com.graphhopper:graphhopper-api:jar:0.11.0-pre2
++- com.vividsolutions:jts-core:jar:1.14.0:compile
+\- junit:junit:jar:4.12:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

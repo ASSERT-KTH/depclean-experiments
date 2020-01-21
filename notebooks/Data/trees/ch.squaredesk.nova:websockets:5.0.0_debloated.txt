@@ -1,0 +1,55 @@
+ch.squaredesk.nova:websockets:jar:5.0.0
++- ch.squaredesk.nova:http:jar:5.0.0:compile
+|  +- ch.squaredesk.nova:comm:jar:5.0.0:compile
+|  |  +- ch.squaredesk.nova:core:jar:5.0.0:compile
+|  |  |  +- io.dropwizard.metrics:metrics-core:jar:4.0.2:compile
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  |  |  +- io.reactivex.rxjava2:rxjava:jar:2.1.12:compile
+|  |  |  |  \- org.reactivestreams:reactive-streams:jar:1.0.2:compile
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for conflict with 1.7.5)
+|  |  |  \- (ch.qos.logback:logback-classic:jar:1.2.3:compile - omitted for conflict with 1.2.1)
+|  |  +- com.conversantmedia:disruptor:jar:1.2.11:compile
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.13:compile - omitted for conflict with 1.7.25)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for conflict with 1.7.25)
+|  |  \- (ch.qos.logback:logback-classic:jar:1.2.1:compile - omitted for conflict with 1.2.3)
+|  +- org.glassfish.grizzly:grizzly-http-server-core:jar:2.4.2:compile
+|  |  +- org.glassfish.grizzly:grizzly-core:jar:2.4.2:compile
+|  |  |  +- (org.glassfish.grizzly:grizzly-framework:jar:2.4.2:compile - omitted for duplicate)
+|  |  |  \- org.glassfish.grizzly:grizzly-portunif:jar:2.4.2:compile
+|  |  |     \- (org.glassfish.grizzly:grizzly-framework:jar:2.4.2:compile - omitted for duplicate)
+|  |  +- org.glassfish.grizzly:grizzly-http-server:jar:2.4.2:compile
+|  |  |  \- (org.glassfish.grizzly:grizzly-http:jar:2.4.2:compile - omitted for duplicate)
+|  |  +- org.glassfish.grizzly:grizzly-http-ajp:jar:2.4.2:compile
+|  |  |  \- (org.glassfish.grizzly:grizzly-http-server:jar:2.4.2:compile - omitted for duplicate)
+|  |  +- org.glassfish.grizzly:grizzly-http2:jar:2.4.2:compile
+|  |  |  \- (org.glassfish.grizzly:grizzly-http:jar:2.4.2:compile - omitted for duplicate)
+|  |  +- org.glassfish.grizzly:grizzly-npn-api:jar:1.7:compile
+|  |  \- org.glassfish.grizzly:grizzly-http-server-multipart:jar:2.4.2:compile
+|  |     +- (org.glassfish.grizzly:grizzly-framework:jar:2.4.2:compile - omitted for duplicate)
+|  |     \- (org.glassfish.grizzly:grizzly-http-server:jar:2.4.2:compile - omitted for duplicate)
+|  +- org.glassfish.grizzly:grizzly-http-client:jar:1.14:compile
+|  +- org.glassfish.grizzly:connection-pool:jar:2.4.2:compile
+|  |  \- org.glassfish.grizzly:grizzly-framework:jar:2.4.2:compile
+|  +- org.glassfish.grizzly:grizzly-websockets:jar:2.4.2:compile
+|  |  +- (org.glassfish.grizzly:grizzly-framework:jar:2.4.2:compile - omitted for duplicate)
+|  |  \- org.glassfish.grizzly:grizzly-http:jar:2.4.2:compile
+|  |     \- (org.glassfish.grizzly:grizzly-framework:jar:2.4.2:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  \- (ch.qos.logback:logback-classic:jar:1.2.3:compile - omitted for duplicate)
++- org.glassfish.grizzly:grizzly-websockets-server:jar:2.4.2:compile
+|  +- (org.glassfish.grizzly:grizzly-http-server-core:jar:2.4.2:compile - omitted for duplicate)
+|  \- (org.glassfish.grizzly:grizzly-websockets:jar:2.4.2:compile - omitted for duplicate)
++- org.junit.jupiter:junit-jupiter-api:jar:5.1.0:test
+|  +- org.apiguardian:apiguardian-api:jar:1.0.0:test
+|  +- org.opentest4j:opentest4j:jar:1.0.0:test
+|  \- org.junit.platform:junit-platform-commons:jar:1.1.0:test
+|     \- (org.apiguardian:apiguardian-api:jar:1.0.0:test - omitted for duplicate)
++- org.junit.jupiter:junit-jupiter-params:jar:5.1.0:test
+|  +- (org.apiguardian:apiguardian-api:jar:1.0.0:test - omitted for duplicate)
+|  \- (org.junit.jupiter:junit-jupiter-api:jar:5.1.0:test - omitted for duplicate)
++- org.hamcrest:hamcrest-junit:jar:2.0.0.0:test
+|  \- org.hamcrest:java-hamcrest:jar:2.0.0.0:test
++- org.slf4j:slf4j-api:jar:1.7.25:compile
+\- ch.qos.logback:logback-classic:jar:1.2.3:compile
+   +- ch.qos.logback:logback-core:jar:1.2.3:compile
+   \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)

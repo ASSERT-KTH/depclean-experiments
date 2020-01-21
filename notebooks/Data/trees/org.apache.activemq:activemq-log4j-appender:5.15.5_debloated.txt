@@ -1,0 +1,20 @@
+org.apache.activemq:activemq-log4j-appender:jar:5.15.5
++- org.apache.activemq:activemq-client:jar:5.15.5:compile
+|  +- org.slf4j:slf4j-api:jar:1.7.25:compile
+|  +- org.apache.geronimo.specs:geronimo-jms_1.1_spec:jar:1.1.1:compile
+|  +- org.fusesource.hawtbuf:hawtbuf:jar:1.11:compile
+|  \- org.apache.geronimo.specs:geronimo-j2ee-management_1.1_spec:jar:1.0.1:compile
++- log4j:log4j:jar:1.2.17:provided (scope not updated to runtime)
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.slf4j:slf4j-log4j12:jar:1.7.25:test
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)
+|  \- (log4j:log4j:jar:1.2.17:runtime - scope managed from test; omitted for duplicate)
+\- org.apache.activemq:activemq-broker:jar:5.15.5:test
+   +- (org.apache.activemq:activemq-client:jar:5.15.5:test - omitted for duplicate)
+   +- org.apache.activemq:activemq-openwire-legacy:jar:5.15.5:test
+   |  \- (org.apache.activemq:activemq-client:jar:5.15.5:test - omitted for duplicate)
+   +- com.google.guava:guava:jar:18.0:test
+   \- com.fasterxml.jackson.core:jackson-databind:jar:2.9.6:test
+      +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.6:test (version managed from 2.9.0)
+      \- com.fasterxml.jackson.core:jackson-core:jar:2.9.6:test

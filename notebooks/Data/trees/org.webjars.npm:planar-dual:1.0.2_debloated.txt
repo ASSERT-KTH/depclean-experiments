@@ -1,0 +1,2 @@
+org.webjars.npm:planar-dual:jar:1.0.2
+\- org.webjars.npm:dup:jar:1.0.0:compile

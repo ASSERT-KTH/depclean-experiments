@@ -1,0 +1,23 @@
+org.coursera.courier:courier-typescript-lite-generator:jar:2.1.4
++- org.coursera.courier:courier-generator-api:jar:2.1.4:compile
+|  +- org.coursera.courier:courier-grammar:jar:2.1.4:compile
+|  |  +- (com.linkedin.pegasus:data:jar:3.1.1:compile - omitted for duplicate)
+|  |  +- (org.apache.commons:commons-lang3:jar:3.4:compile - omitted for conflict with 3.3.2)
+|  |  +- org.antlr:antlr4:jar:4.5.1:compile
+|  |  \- org.antlr:antlr4-runtime:jar:4.5.1:compile
+|  +- com.linkedin.pegasus:data:jar:3.1.1:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.6.2:compile - omitted for conflict with 1.7.12)
+|  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.4.3:compile
+|  \- com.linkedin.pegasus:generator:jar:3.1.1:compile
+|     +- (org.slf4j:slf4j-api:jar:1.6.2:compile - omitted for duplicate)
+|     +- (com.linkedin.pegasus:data:jar:3.1.1:compile - omitted for duplicate)
+|     +- com.linkedin.pegasus:pegasus-common:jar:3.1.1:compile
+|     |  \- (org.slf4j:slf4j-api:jar:1.6.2:compile - omitted for duplicate)
+|     +- commons-io:commons-io:jar:2.4:compile
+|     \- com.sun.codemodel:codemodel:jar:2.2:compile
+\- org.rythmengine:rythm-engine:jar:1.0.1:compile
+   +- org.eclipse.jdt.core.compiler:ecj:jar:4.3.1:compile
+   +- com.stevesoft.pat:pat:jar:1.5.3:compile
+   +- org.apache.commons:commons-lang3:jar:3.3.2:compile
+   +- com.alibaba:fastjson:jar:1.1.39:compile
+   \- org.mvel:mvel2:jar:2.1.5.Final:compile

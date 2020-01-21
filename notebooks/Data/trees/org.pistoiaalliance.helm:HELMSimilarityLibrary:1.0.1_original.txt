@@ -1,0 +1,192 @@
+org.pistoiaalliance.helm:HELMSimilarityLibrary:jar:1.0.1
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- org.pistoiaalliance.helm:helm2-notationtoolkit:jar:1.3.4:compile
+|  +- org.jdom:jdom2:jar:2.0.6:compile
+|  +- jaxen:jaxen:jar:1.1.6:compile
+|  +- xerces:xercesImpl:jar:2.11.0:compile
+|  |  \- xml-apis:xml-apis:jar:1.4.01:compile
+|  +- xalan:xalan:jar:2.7.2:compile
+|  |  \- xalan:serializer:jar:2.7.2:compile
+|  |     \- (xml-apis:xml-apis:jar:1.3.04:compile - omitted for conflict with 1.4.01)
+|  +- (org.slf4j:slf4j-api:jar:1.7.12:compile - omitted for conflict with 1.7.25)
+|  +- org.slf4j:slf4j-log4j12:jar:1.7.12:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.12:compile - omitted for conflict with 1.7.25)
+|  |  \- log4j:log4j:jar:1.2.17:compile
+|  +- commons-configuration:commons-configuration:jar:1.9:compile
+|  |  +- commons-lang:commons-lang:jar:2.6:compile
+|  |  \- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for conflict with 1.2)
+|  +- (commons-io:commons-io:jar:1.3.2:compile - omitted for conflict with 2.5)
+|  +- org.apache.httpcomponents:httpclient:jar:4.5.1:compile
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.4.3:compile
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for conflict with 1.1.1)
+|  |  \- commons-codec:commons-codec:jar:1.9:compile
+|  +- org.pistoiaalliance.helm:helm2-helmnotationparser:jar:1.2.0:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.12:compile - omitted for conflict with 1.7.25)
+|  |  +- (org.slf4j:slf4j-log4j12:jar:1.7.12:compile - omitted for duplicate)
+|  |  +- commons-cli:commons-cli:jar:1.3.1:compile
+|  |  +- com.fasterxml.jackson.core:jackson-core:jar:2.6.3:compile
+|  |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.6.3:compile
+|  |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.6.0:compile
+|  |  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.6.3:compile - omitted for duplicate)
+|  |  \- (org.jdom:jdom2:jar:2.0.6:compile - omitted for duplicate)
+|  +- org.pistoiaalliance.helm:helm2-chemistrytoolkit:jar:1.2.3:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.12:compile - omitted for conflict with 1.7.25)
+|  |  \- (org.slf4j:slf4j-log4j12:jar:1.7.12:compile - omitted for duplicate)
+|  \- org.pistoiaalliance.helm:helm2-chemistrytoolkit-cdk:jar:1.3.1:compile
+|     +- (org.pistoiaalliance.helm:helm2-chemistrytoolkit:jar:1.2.3:compile - omitted for duplicate)
+|     +- org.openscience.cdk:cdk-silent:jar:2.1.1:compile
+|     |  +- javax.vecmath:vecmath:jar:1.5.2:compile
+|     |  +- com.google.guava:guava:jar:17.0:compile
+|     |  +- org.openscience.cdk:cdk-interfaces:jar:2.1.1:compile
+|     |  |  \- (javax.vecmath:vecmath:jar:1.5.2:compile - omitted for duplicate)
+|     |  \- org.openscience.cdk:cdk-core:jar:2.1.1:compile
+|     |     +- (com.google.guava:guava:jar:17.0:compile - omitted for duplicate)
+|     |     \- (org.openscience.cdk:cdk-interfaces:jar:2.1.1:compile - omitted for duplicate)
+|     +- org.openscience.cdk:cdk-smiles:jar:2.1.1:compile
+|     |  +- (javax.vecmath:vecmath:jar:1.5.2:compile - omitted for duplicate)
+|     |  +- (com.google.guava:guava:jar:17.0:compile - omitted for duplicate)
+|     |  +- uk.ac.ebi.beam:beam-core:jar:1.1:compile
+|     |  +- uk.ac.ebi.beam:beam-func:jar:1.1:compile
+|     |  |  \- (uk.ac.ebi.beam:beam-core:jar:1.1:compile - omitted for duplicate)
+|     |  +- (org.openscience.cdk:cdk-core:jar:2.1.1:compile - omitted for duplicate)
+|     |  +- (org.openscience.cdk:cdk-interfaces:jar:2.1.1:compile - omitted for duplicate)
+|     |  +- org.openscience.cdk:cdk-ioformats:jar:2.1.1:compile
+|     |  |  +- (com.google.guava:guava:jar:17.0:compile - omitted for duplicate)
+|     |  |  \- (org.openscience.cdk:cdk-interfaces:jar:2.1.1:compile - omitted for duplicate)
+|     |  +- org.openscience.cdk:cdk-standard:jar:2.1.1:compile
+|     |  |  +- (javax.vecmath:vecmath:jar:1.5.2:compile - omitted for duplicate)
+|     |  |  +- (com.google.guava:guava:jar:17.0:compile - omitted for duplicate)
+|     |  |  +- (org.openscience.cdk:cdk-interfaces:jar:2.1.1:compile - omitted for duplicate)
+|     |  |  \- (org.openscience.cdk:cdk-core:jar:2.1.1:compile - omitted for duplicate)
+|     |  \- org.openscience.cdk:cdk-valencycheck:jar:2.1.1:compile
+|     |     +- (org.openscience.cdk:cdk-interfaces:jar:2.1.1:compile - omitted for duplicate)
+|     |     +- (org.openscience.cdk:cdk-core:jar:2.1.1:compile - omitted for duplicate)
+|     |     \- (org.openscience.cdk:cdk-standard:jar:2.1.1:compile - omitted for duplicate)
+|     +- org.openscience.cdk:cdk-pdb:jar:2.1.1:compile
+|     |  +- (javax.vecmath:vecmath:jar:1.5.2:compile - omitted for duplicate)
+|     |  +- (com.google.guava:guava:jar:17.0:compile - omitted for duplicate)
+|     |  +- (org.openscience.cdk:cdk-interfaces:jar:2.1.1:compile - omitted for duplicate)
+|     |  +- (org.openscience.cdk:cdk-core:jar:2.1.1:compile - omitted for duplicate)
+|     |  +- org.openscience.cdk:cdk-data:jar:2.1.1:compile
+|     |  |  +- (javax.vecmath:vecmath:jar:1.5.2:compile - omitted for duplicate)
+|     |  |  +- (com.google.guava:guava:jar:17.0:compile - omitted for duplicate)
+|     |  |  +- (org.openscience.cdk:cdk-interfaces:jar:2.1.1:compile - omitted for duplicate)
+|     |  |  \- (org.openscience.cdk:cdk-core:jar:2.1.1:compile - omitted for duplicate)
+|     |  +- (org.openscience.cdk:cdk-ioformats:jar:2.1.1:compile - omitted for duplicate)
+|     |  +- (org.openscience.cdk:cdk-io:jar:2.1.1:compile - omitted for duplicate)
+|     |  +- org.openscience.cdk:cdk-ctab:jar:2.1.1:compile
+|     |  |  +- (org.openscience.cdk:cdk-interfaces:jar:2.1.1:compile - omitted for duplicate)
+|     |  |  +- (org.openscience.cdk:cdk-ioformats:jar:2.1.1:compile - omitted for duplicate)
+|     |  |  \- (org.openscience.cdk:cdk-isomorphism:jar:2.1.1:compile - omitted for duplicate)
+|     |  \- (org.openscience.cdk:cdk-standard:jar:2.1.1:compile - omitted for duplicate)
+|     +- org.openscience.cdk:cdk-io:jar:2.1.1:compile
+|     |  +- (javax.vecmath:vecmath:jar:1.5.2:compile - omitted for duplicate)
+|     |  +- (com.google.guava:guava:jar:17.0:compile - omitted for duplicate)
+|     |  +- (org.openscience.cdk:cdk-interfaces:jar:2.1.1:compile - omitted for duplicate)
+|     |  +- (org.openscience.cdk:cdk-ioformats:jar:2.1.1:compile - omitted for duplicate)
+|     |  +- (org.openscience.cdk:cdk-core:jar:2.1.1:compile - omitted for duplicate)
+|     |  +- (org.openscience.cdk:cdk-standard:jar:2.1.1:compile - omitted for duplicate)
+|     |  +- org.openscience.cdk:cdk-atomtype:jar:2.1.1:compile
+|     |  |  +- (org.openscience.cdk:cdk-interfaces:jar:2.1.1:compile - omitted for duplicate)
+|     |  |  +- (org.openscience.cdk:cdk-core:jar:2.1.1:compile - omitted for duplicate)
+|     |  |  \- (org.openscience.cdk:cdk-standard:jar:2.1.1:compile - omitted for duplicate)
+|     |  \- org.openscience.cdk:cdk-isomorphism:jar:2.1.1:compile
+|     |     +- (javax.vecmath:vecmath:jar:1.5.2:compile - omitted for duplicate)
+|     |     +- (com.google.guava:guava:jar:17.0:compile - omitted for duplicate)
+|     |     +- (org.openscience.cdk:cdk-interfaces:jar:2.1.1:compile - omitted for duplicate)
+|     |     +- (org.openscience.cdk:cdk-core:jar:2.1.1:compile - omitted for duplicate)
+|     |     \- (org.openscience.cdk:cdk-standard:jar:2.1.1:compile - omitted for duplicate)
+|     +- org.openscience.cdk:cdk-depict:jar:2.1.1:compile
+|     |  +- org.openscience.cdk:cdk-renderextra:jar:2.1.1:compile
+|     |  |  +- (javax.vecmath:vecmath:jar:1.5.2:compile - omitted for duplicate)
+|     |  |  +- (org.openscience.cdk:cdk-interfaces:jar:2.1.1:compile - omitted for duplicate)
+|     |  |  +- (org.openscience.cdk:cdk-core:jar:2.1.1:compile - omitted for duplicate)
+|     |  |  +- (org.openscience.cdk:cdk-standard:jar:2.1.1:compile - omitted for duplicate)
+|     |  |  +- org.openscience.cdk:cdk-render:jar:2.1.1:compile
+|     |  |  |  +- (javax.vecmath:vecmath:jar:1.5.2:compile - omitted for duplicate)
+|     |  |  |  +- (org.openscience.cdk:cdk-interfaces:jar:2.1.1:compile - omitted for duplicate)
+|     |  |  |  \- (org.openscience.cdk:cdk-core:jar:2.1.1:compile - omitted for duplicate)
+|     |  |  \- (org.openscience.cdk:cdk-renderbasic:jar:2.1.1:compile - omitted for duplicate)
+|     |  +- org.openscience.cdk:cdk-renderawt:jar:2.1.1:compile
+|     |  |  +- (javax.vecmath:vecmath:jar:1.5.2:compile - omitted for duplicate)
+|     |  |  +- (com.google.guava:guava:jar:17.0:compile - omitted for duplicate)
+|     |  |  +- (org.openscience.cdk:cdk-interfaces:jar:2.1.1:compile - omitted for duplicate)
+|     |  |  +- (org.openscience.cdk:cdk-core:jar:2.1.1:compile - omitted for duplicate)
+|     |  |  +- (org.openscience.cdk:cdk-standard:jar:2.1.1:compile - omitted for duplicate)
+|     |  |  +- (org.openscience.cdk:cdk-render:jar:2.1.1:compile - omitted for duplicate)
+|     |  |  \- (org.openscience.cdk:cdk-renderbasic:jar:2.1.1:compile - omitted for duplicate)
+|     |  +- org.openscience.cdk:cdk-renderbasic:jar:2.1.1:compile
+|     |  |  +- (javax.vecmath:vecmath:jar:1.5.2:compile - omitted for duplicate)
+|     |  |  +- (com.google.guava:guava:jar:17.0:compile - omitted for duplicate)
+|     |  |  +- (org.openscience.cdk:cdk-interfaces:jar:2.1.1:compile - omitted for duplicate)
+|     |  |  +- (org.openscience.cdk:cdk-core:jar:2.1.1:compile - omitted for duplicate)
+|     |  |  +- (org.openscience.cdk:cdk-standard:jar:2.1.1:compile - omitted for duplicate)
+|     |  |  \- (org.openscience.cdk:cdk-render:jar:2.1.1:compile - omitted for duplicate)
+|     |  +- (org.openscience.cdk:cdk-smiles:jar:2.1.1:compile - omitted for duplicate)
+|     |  +- org.openscience.cdk:cdk-smarts:jar:2.1.1:compile
+|     |  |  +- (javax.vecmath:vecmath:jar:1.5.2:compile - omitted for duplicate)
+|     |  |  +- (com.google.guava:guava:jar:17.0:compile - omitted for duplicate)
+|     |  |  +- (uk.ac.ebi.beam:beam-core:jar:1.1:compile - omitted for duplicate)
+|     |  |  +- (uk.ac.ebi.beam:beam-func:jar:1.1:compile - omitted for duplicate)
+|     |  |  +- (org.openscience.cdk:cdk-core:jar:2.1.1:compile - omitted for duplicate)
+|     |  |  +- (org.openscience.cdk:cdk-interfaces:jar:2.1.1:compile - omitted for duplicate)
+|     |  |  +- (org.openscience.cdk:cdk-standard:jar:2.1.1:compile - omitted for duplicate)
+|     |  |  +- (org.openscience.cdk:cdk-valencycheck:jar:2.1.1:compile - omitted for duplicate)
+|     |  |  \- (org.openscience.cdk:cdk-isomorphism:jar:2.1.1:compile - omitted for duplicate)
+|     |  +- org.openscience.cdk:cdk-sdg:jar:2.1.1:compile
+|     |  |  +- (javax.vecmath:vecmath:jar:1.5.2:compile - omitted for duplicate)
+|     |  |  +- (com.google.guava:guava:jar:17.0:compile - omitted for duplicate)
+|     |  |  +- (uk.ac.ebi.beam:beam-core:jar:1.1:compile - omitted for duplicate)
+|     |  |  +- (uk.ac.ebi.beam:beam-func:jar:1.1:compile - omitted for duplicate)
+|     |  |  +- (org.openscience.cdk:cdk-interfaces:jar:2.1.1:compile - omitted for duplicate)
+|     |  |  +- (org.openscience.cdk:cdk-core:jar:2.1.1:compile - omitted for duplicate)
+|     |  |  +- (org.openscience.cdk:cdk-standard:jar:2.1.1:compile - omitted for duplicate)
+|     |  |  +- (org.openscience.cdk:cdk-io:jar:2.1.1:compile - omitted for duplicate)
+|     |  |  +- (org.openscience.cdk:cdk-ctab:jar:2.1.1:compile - omitted for duplicate)
+|     |  |  +- (org.openscience.cdk:cdk-valencycheck:jar:2.1.1:compile - omitted for duplicate)
+|     |  |  \- (org.openscience.cdk:cdk-smiles:jar:2.1.1:compile - omitted for duplicate)
+|     |  +- (org.openscience.cdk:cdk-silent:jar:2.1.1:compile - omitted for duplicate)
+|     |  +- org.freehep:freehep-graphicsio-svg:jar:2.4:compile
+|     |  |  +- org.freehep:freehep-graphics2d:jar:2.4:compile
+|     |  |  |  +- (org.freehep:freehep-graphicsbase:jar:2.4:compile - omitted for duplicate)
+|     |  |  |  \- (junit:junit:jar:4.10:compile - omitted for conflict with 4.12)
+|     |  |  +- org.freehep:freehep-graphicsio:jar:2.4:compile
+|     |  |  |  +- (org.freehep:freehep-graphics2d:jar:2.4:compile - omitted for duplicate)
+|     |  |  |  +- org.freehep:freehep-io:jar:2.2.2:compile
+|     |  |  |  |  \- (junit:junit:jar:4.10:compile - omitted for duplicate)
+|     |  |  |  \- (org.freehep:freehep-graphicsbase:jar:2.4:compile - omitted for duplicate)
+|     |  |  +- org.freehep:freehep-graphicsio-tests:jar:2.4:compile
+|     |  |  |  +- (org.freehep:freehep-graphics2d:jar:2.4:compile - omitted for duplicate)
+|     |  |  |  +- (org.freehep:freehep-graphicsio:jar:2.4:compile - omitted for duplicate)
+|     |  |  |  +- (org.freehep:freehep-graphicsbase:jar:2.4:compile - omitted for duplicate)
+|     |  |  |  \- (junit:junit:jar:4.10:compile - omitted for duplicate)
+|     |  |  \- org.freehep:freehep-graphicsbase:jar:2.4:compile
+|     |  |     +- (org.freehep:freehep-io:jar:2.2.2:compile - omitted for duplicate)
+|     |  |     \- (junit:junit:jar:4.10:compile - omitted for duplicate)
+|     |  \- org.freehep:freehep-graphicsio-pdf:jar:2.4:compile
+|     |     +- (org.freehep:freehep-graphics2d:jar:2.4:compile - omitted for duplicate)
+|     |     +- (org.freehep:freehep-graphicsio:jar:2.4:compile - omitted for duplicate)
+|     |     +- (org.freehep:freehep-graphicsio-tests:jar:2.4:compile - omitted for duplicate)
+|     |     \- (org.freehep:freehep-graphicsbase:jar:2.4:compile - omitted for duplicate)
+|     +- org.openscience.cdk:cdk-formula:jar:2.1.1:compile
+|     |  +- (javax.vecmath:vecmath:jar:1.5.2:compile - omitted for duplicate)
+|     |  +- (org.openscience.cdk:cdk-core:jar:2.1.1:compile - omitted for duplicate)
+|     |  +- (org.openscience.cdk:cdk-interfaces:jar:2.1.1:compile - omitted for duplicate)
+|     |  \- (org.openscience.cdk:cdk-standard:jar:2.1.1:compile - omitted for duplicate)
+|     +- org.openscience.cdk:cdk-inchi:jar:2.1.1:compile
+|     |  +- (javax.vecmath:vecmath:jar:1.5.2:compile - omitted for duplicate)
+|     |  +- net.sf.jni-inchi:jni-inchi:jar:0.8:compile
+|     |  |  \- net.sf.jnati:jnati-deploy:jar:0.4:compile
+|     |  |     +- net.sf.jnati:jnati-core:jar:0.4:compile
+|     |  |     |  \- (log4j:log4j:jar:1.2.14:compile - omitted for conflict with 1.2.17)
+|     |  |     \- (log4j:log4j:jar:1.2.14:compile - omitted for conflict with 1.2.17)
+|     |  +- (org.openscience.cdk:cdk-core:jar:2.1.1:compile - omitted for duplicate)
+|     |  +- (org.openscience.cdk:cdk-interfaces:jar:2.1.1:compile - omitted for duplicate)
+|     |  \- (org.openscience.cdk:cdk-standard:jar:2.1.1:compile - omitted for duplicate)
+|     +- (org.slf4j:slf4j-api:jar:1.7.12:compile - omitted for conflict with 1.7.25)
+|     \- (org.slf4j:slf4j-log4j12:jar:1.7.12:compile - omitted for duplicate)
++- commons-io:commons-io:jar:2.5:compile
++- org.xerial:sqlite-jdbc:jar:3.8.11.2:compile
++- commons-logging:commons-logging:jar:1.2:compile
+\- junit:junit:jar:4.12:compile
+   \- org.hamcrest:hamcrest-core:jar:1.3:compile

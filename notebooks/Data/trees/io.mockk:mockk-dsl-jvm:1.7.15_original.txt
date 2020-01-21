@@ -1,0 +1,4 @@
+io.mockk:mockk-dsl-jvm:jar:1.7.15
+\- org.jetbrains.kotlin:kotlin-reflect:jar:1.2.21:compile
+   \- org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.21:compile
+      \- org.jetbrains:annotations:jar:13.0:compile

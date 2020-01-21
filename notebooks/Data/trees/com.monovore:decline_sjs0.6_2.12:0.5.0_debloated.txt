@@ -1,0 +1,63 @@
+com.monovore:decline_sjs0.6_2.12:jar:0.5.0
++- org.scala-lang:scala-library:jar:2.12.6:compile
++- org.scala-js:scalajs-library_2.12:jar:0.6.23:compile
+|  \- (org.scala-lang:scala-library:jar:2.12.5:compile - omitted for conflict with 2.12.6)
++- org.scala-js:scalajs-test-interface_2.12:jar:0.6.23:test
+|  +- (org.scala-lang:scala-library:jar:2.12.5:test - omitted for conflict with 2.12.6)
+|  \- (org.scala-js:scalajs-library_2.12:jar:0.6.23:test - omitted for duplicate)
++- org.typelevel:cats-core_sjs0.6_2.12:jar:1.1.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.6)
+|  +- org.typelevel:cats-macros_sjs0.6_2.12:jar:1.1.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.6)
+|  |  +- (org.scala-js:scalajs-library_2.12:jar:0.6.20:compile - omitted for conflict with 0.6.23)
+|  |  \- (org.typelevel:machinist_sjs0.6_2.12:jar:0.6.2:compile - omitted for duplicate)
+|  +- org.typelevel:cats-kernel_sjs0.6_2.12:jar:1.1.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.6)
+|  |  \- (org.scala-js:scalajs-library_2.12:jar:0.6.20:compile - omitted for conflict with 0.6.23)
+|  +- (org.scala-js:scalajs-library_2.12:jar:0.6.20:compile - omitted for conflict with 0.6.23)
+|  \- org.typelevel:machinist_sjs0.6_2.12:jar:0.6.2:compile
+|     +- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.6)
+|     +- (org.scala-js:scalajs-library_2.12:jar:0.6.16:compile - omitted for conflict with 0.6.23)
+|     \- org.scala-lang:scala-reflect:jar:2.12.4:compile
+|        \- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.6)
++- org.typelevel:cats-laws_sjs0.6_2.12:jar:1.1.0:test
+|  +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for conflict with 2.12.6)
+|  +- (org.typelevel:cats-macros_sjs0.6_2.12:jar:1.1.0:test - omitted for duplicate)
+|  +- (org.typelevel:cats-kernel_sjs0.6_2.12:jar:1.1.0:test - omitted for duplicate)
+|  +- (org.typelevel:cats-core_sjs0.6_2.12:jar:1.1.0:test - omitted for duplicate)
+|  +- org.typelevel:cats-kernel-laws_sjs0.6_2.12:jar:1.1.0:test
+|  |  +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for conflict with 2.12.6)
+|  |  +- (org.typelevel:cats-kernel_sjs0.6_2.12:jar:1.1.0:test - omitted for duplicate)
+|  |  +- (org.scala-js:scalajs-library_2.12:jar:0.6.20:test - omitted for conflict with 0.6.23)
+|  |  +- (org.scalacheck:scalacheck_sjs0.6_2.12:jar:1.13.5:test - omitted for duplicate)
+|  |  +- (org.typelevel:discipline_sjs0.6_2.12:jar:0.8:test - omitted for duplicate)
+|  |  \- (org.typelevel:catalysts-platform_sjs0.6_2.12:jar:0.0.5:test - omitted for duplicate)
+|  +- (org.scala-js:scalajs-library_2.12:jar:0.6.20:test - omitted for conflict with 0.6.23)
+|  +- (org.typelevel:machinist_sjs0.6_2.12:jar:0.6.2:test - omitted for duplicate)
+|  +- (org.scalacheck:scalacheck_sjs0.6_2.12:jar:1.13.5:test - omitted for duplicate)
+|  +- org.typelevel:discipline_sjs0.6_2.12:jar:0.8:test
+|  |  +- (org.scala-lang:scala-library:jar:2.12.2:test - omitted for conflict with 2.12.6)
+|  |  +- (org.scala-js:scalajs-library_2.12:jar:0.6.17:test - omitted for conflict with 0.6.23)
+|  |  \- (org.scalacheck:scalacheck_sjs0.6_2.12:jar:1.13.5:test - omitted for duplicate)
+|  \- org.typelevel:catalysts-platform_sjs0.6_2.12:jar:0.0.5:test
+|     +- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.6)
+|     +- org.typelevel:catalysts-macros_sjs0.6_2.12:jar:0.0.5:test
+|     |  +- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.6)
+|     |  +- (org.scala-js:scalajs-library_2.12:jar:0.6.13:test - omitted for conflict with 0.6.23)
+|     |  \- org.typelevel:macro-compat_sjs0.6_2.12:jar:1.1.1:test
+|     |     +- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.6)
+|     |     \- (org.scala-js:scalajs-library_2.12:jar:0.6.13:test - omitted for conflict with 0.6.23)
+|     \- (org.scala-js:scalajs-library_2.12:jar:0.6.13:test - omitted for conflict with 0.6.23)
++- org.scalatest:scalatest_sjs0.6_2.12:jar:3.0.5:test
+|  +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for conflict with 2.12.6)
+|  +- org.scalactic:scalactic_sjs0.6_2.12:jar:3.0.5:test
+|  |  +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for conflict with 2.12.6)
+|  |  +- (org.scala-js:scalajs-library_2.12:jar:0.6.22:test - omitted for conflict with 0.6.23)
+|  |  \- (org.scala-lang:scala-reflect:jar:2.12.4:test - omitted for conflict with 2.12.4)
+|  +- (org.scala-js:scalajs-library_2.12:jar:0.6.22:test - omitted for conflict with 0.6.23)
+|  +- (org.scala-js:scalajs-test-interface_2.12:jar:0.6.22:test - omitted for conflict with 0.6.23)
+|  \- (org.scala-lang:scala-reflect:jar:2.12.4:compile - scope updated from test; omitted for duplicate)
+\- org.scalacheck:scalacheck_sjs0.6_2.12:jar:1.13.5:test
+   +- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.6)
+   +- (org.scala-js:scalajs-library_2.12:jar:0.6.13:test - omitted for conflict with 0.6.23)
+   \- (org.scala-js:scalajs-test-interface_2.12:jar:0.6.13:test - omitted for conflict with 0.6.23)

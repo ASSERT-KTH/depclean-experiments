@@ -1,0 +1,24 @@
+org.apache.james:apache-mailet-base:bundle:3.1.0
++- org.apache.james:apache-mailet-api:jar:3.1.0:compile
+|  \- org.apache.james:james-core:jar:3.1.0:compile
+|     \- org.apache.james:james-server-util-java8:jar:3.1.0:compile
+|        +- org.apache.james:apache-mime4j-dom:jar:0.8.2:compile
+|        +- com.github.fge:throwing-lambdas:jar:0.5.0:compile
+|        \- javax.inject:javax.inject:jar:1:compile
++- org.apache.james:apache-mime4j-core:jar:0.8.2:compile
++- org.apache.james:javax-mail-extension:jar:3.1.0:compile
++- org.apache.james:javax-mail-extension:test-jar:tests:3.1.0:test
++- com.github.steveash.guavate:guavate:jar:1.0.0:compile
++- com.google.guava:guava:jar:19.0:compile
++- com.sun.mail:javax.mail:jar:1.6.1:compile
++- commons-io:commons-io:jar:2.5:test
++- javax.activation:activation:jar:1.1.1:compile
++- junit:junit:jar:4.11:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- nl.jqno.equalsverifier:equalsverifier:jar:2.4.6:test
++- org.apache.commons:commons-lang3:jar:3.6:compile
++- org.assertj:assertj-core:jar:3.8.0:test
++- org.assertj:assertj-guava:jar:3.1.0:test
++- org.mockito:mockito-core:jar:1.9.0:test
+|  \- org.objenesis:objenesis:jar:1.0:test
+\- org.slf4j:slf4j-api:jar:1.7.25:compile

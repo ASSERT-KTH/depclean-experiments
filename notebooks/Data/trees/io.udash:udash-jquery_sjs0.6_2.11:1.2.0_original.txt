@@ -1,0 +1,28 @@
+io.udash:udash-jquery_sjs0.6_2.11:jar:1.2.0
++- org.scala-lang:scala-library:jar:2.11.12:compile
++- org.webjars:jquery:jar:3.3.1:compile
++- org.scala-js:scalajs-library_2.11:jar:0.6.22:compile
+|  \- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
++- org.scala-js:scalajs-test-interface_2.11:jar:0.6.22:test
+|  +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|  \- (org.scala-js:scalajs-library_2.11:jar:0.6.22:test - omitted for duplicate)
++- org.scala-js:scalajs-dom_sjs0.6_2.11:jar:0.9.5:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  \- (org.scala-js:scalajs-library_2.11:jar:0.6.22:compile - omitted for duplicate)
++- org.scalatest:scalatest_sjs0.6_2.11:jar:3.0.5:test
+|  +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|  +- org.scalactic:scalactic_sjs0.6_2.11:jar:3.0.5:test
+|  |  +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|  |  +- (org.scala-js:scalajs-library_2.11:jar:0.6.22:test - omitted for duplicate)
+|  |  \- (org.scala-lang:scala-reflect:jar:2.11.12:test - omitted for duplicate)
+|  +- (org.scala-js:scalajs-library_2.11:jar:0.6.22:test - omitted for duplicate)
+|  +- (org.scala-js:scalajs-test-interface_2.11:jar:0.6.22:test - omitted for duplicate)
+|  \- org.scala-lang:scala-reflect:jar:2.11.12:test
+|     \- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+\- com.lihaoyi:scalatags_sjs0.6_2.11:jar:0.6.7:test
+   +- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.11.12)
+   +- (org.scala-js:scalajs-library_2.11:jar:0.6.19:test - omitted for conflict with 0.6.22)
+   +- com.lihaoyi:sourcecode_sjs0.6_2.11:jar:0.1.4:test
+   |  +- (org.scala-lang:scala-library:jar:2.11.11:test - omitted for conflict with 2.11.12)
+   |  \- (org.scala-js:scalajs-library_2.11:jar:0.6.18:test - omitted for conflict with 0.6.22)
+   \- (org.scala-js:scalajs-dom_sjs0.6_2.11:jar:0.9.1:test - omitted for conflict with 0.9.5)

@@ -1,0 +1,57 @@
+org.apache.camel:camel-test-blueprint:jar:2.20.3
++- org.apache.camel:camel-test:jar:2.20.3:compile
+|  +- org.apache.camel:camel-core:jar:2.20.3:compile
+|  |  +- org.slf4j:slf4j-api:jar:1.7.22:compile
+|  |  +- com.sun.xml.bind:jaxb-core:jar:2.2.11:compile
+|  |  \- com.sun.xml.bind:jaxb-impl:jar:2.2.11:compile
+|  \- (junit:junit:jar:4.12:compile - omitted for duplicate)
++- org.apache.camel:camel-core:test-jar:tests:2.20.3:test
+|  +- (org.slf4j:slf4j-api:jar:1.7.22:compile - scope updated from test; omitted for duplicate)
+|  +- (com.sun.xml.bind:jaxb-core:jar:2.2.11:compile - scope updated from test; omitted for duplicate)
+|  \- (com.sun.xml.bind:jaxb-impl:jar:2.2.11:compile - scope updated from test; omitted for duplicate)
++- org.apache.camel:camel-blueprint:jar:2.20.3:compile
+|  +- (org.apache.camel:camel-core:jar:2.20.3:compile - omitted for duplicate)
+|  +- org.apache.camel:camel-core-xml:jar:2.20.3:compile
+|  |  \- (org.apache.camel:camel-core:jar:2.20.3:compile - omitted for duplicate)
+|  \- org.apache.camel:camel-core-osgi:jar:2.20.3:compile
+|     \- (org.apache.camel:camel-core:jar:2.20.3:compile - omitted for duplicate)
++- org.apache.aries.proxy:org.apache.aries.proxy.api:jar:1.0.1:compile
+|  \- (org.apache.aries:org.apache.aries.util:jar:1.0.0:compile - omitted for conflict with 1.1.3)
++- org.apache.aries.proxy:org.apache.aries.proxy.impl:jar:1.0.4:compile
+|  \- (org.apache.aries.proxy:org.apache.aries.proxy.api:jar:1.0.0:compile - omitted for conflict with 1.0.1)
++- org.apache.aries.blueprint:org.apache.aries.blueprint.api:jar:1.0.1:compile
++- org.apache.aries.blueprint:org.apache.aries.blueprint.core:jar:1.4.4:compile
+|  +- (org.apache.aries.blueprint:org.apache.aries.blueprint.api:jar:1.0.1:compile - version managed from 1.0.0; omitted for duplicate)
+|  +- (org.apache.aries:org.apache.aries.util:jar:1.0.0:compile - omitted for duplicate)
+|  +- org.apache.aries.quiesce:org.apache.aries.quiesce.api:jar:1.0.0:compile
+|  \- (org.apache.aries.proxy:org.apache.aries.proxy.api:jar:1.0.0:compile - omitted for conflict with 1.0.1)
++- org.apache.aries.blueprint:org.apache.aries.blueprint.cm:jar:1.0.6:compile
+|  +- (org.apache.aries.blueprint:org.apache.aries.blueprint.api:jar:1.0.1:compile - version managed from 1.0.0; omitted for duplicate)
+|  \- (org.apache.aries.blueprint:org.apache.aries.blueprint.core:jar:1.4.4:compile - version managed from 1.2.0; omitted for duplicate)
++- org.apache.aries:org.apache.aries.util:jar:1.1.3:compile
++- org.apache.felix:org.apache.felix.connect:jar:0.1.0:compile
++- org.ops4j.pax.swissbox:pax-swissbox-tinybundles:jar:1.3.2:compile
+|  +- org.ops4j.base:ops4j-base-lang:jar:1.2.2:compile
+|  +- org.ops4j.base:ops4j-base-io:jar:1.2.2:compile
+|  |  +- (org.ops4j.base:ops4j-base-lang:jar:1.2.2:compile - omitted for duplicate)
+|  |  \- org.ops4j.base:ops4j-base-monitors:jar:1.2.2:compile
+|  +- org.ops4j.base:ops4j-base-store:jar:1.2.2:compile
+|  |  \- (org.ops4j.base:ops4j-base-io:jar:1.2.2:compile - omitted for duplicate)
+|  \- org.ops4j.pax.swissbox:pax-swissbox-bnd:jar:1.3.2:compile
+|     +- biz.aQute:bndlib:jar:0.0.357:compile
+|     \- (org.ops4j.base:ops4j-base-lang:jar:1.2.2:compile - omitted for duplicate)
++- commons-logging:commons-logging:jar:1.2:compile
++- junit:junit:jar:4.12:compile
+|  \- org.hamcrest:hamcrest-core:jar:1.3:compile
++- org.apache.felix:org.apache.felix.configadmin:jar:1.8.8:compile
++- org.apache.felix:org.apache.felix.fileinstall:jar:3.5.2:compile
++- org.apache.logging.log4j:log4j-api:jar:2.9.1:test
++- org.apache.logging.log4j:log4j-core:jar:2.9.1:test
+|  \- (org.apache.logging.log4j:log4j-api:jar:2.9.1:test - omitted for duplicate)
++- org.apache.logging.log4j:log4j-slf4j-impl:jar:2.9.1:test
+|  +- (org.slf4j:slf4j-api:jar:1.7.22:compile - version managed from 1.7.25; scope updated from test; omitted for duplicate)
+|  +- (org.apache.logging.log4j:log4j-api:jar:2.9.1:test - omitted for duplicate)
+|  \- (org.apache.logging.log4j:log4j-core:jar:2.9.1:test - omitted for duplicate)
+\- org.apache.camel:apt:jar:2.20.3:provided
+   +- org.apache.camel:spi-annotations:jar:2.20.3:provided
+   \- org.apache.camel:json-simple-ordered:jar:2.20.3:provided

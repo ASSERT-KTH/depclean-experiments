@@ -1,0 +1,2 @@
+com.github.berkesa:datatree-promise:jar:1.0.3
+\- com.github.berkesa:datatree-core:jar:1.0.6:runtime

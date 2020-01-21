@@ -1,0 +1,3 @@
+org.testfx:testfx-core:jar:4.0.13-alpha
++- org.hamcrest:hamcrest-core:jar:1.3:compile
+\- org.assertj:assertj-core:jar:3.9.1:compile

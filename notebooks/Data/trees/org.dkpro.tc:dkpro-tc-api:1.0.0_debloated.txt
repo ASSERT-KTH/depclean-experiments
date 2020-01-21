@@ -1,0 +1,2 @@
+org.dkpro.tc:dkpro-tc-api:jar:1.0.0
+\- org.apache.uima:uimaj-core:jar:2.10.2:compile

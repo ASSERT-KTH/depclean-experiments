@@ -1,0 +1,460 @@
+org.realityforge.replicant:replicant-client-common:jar:5.97-arez-b16
++- com.google.code.findbugs:jsr305:jar:3.0.1:compile
++- org.realityforge.gwt.webpoller:gwt-webpoller:jar:0.9.1:compile
+|  +- (com.google.gwt:gwt-dev:jar:2.7.0:compile - omitted for conflict with 2.8.2)
+|  +- (org.ow2.asm:asm:jar:5.0.3:compile - omitted for duplicate)
+|  \- (javax.validation:validation-api:jar:1.0.0.GA:compile - omitted for duplicate)
++- javax.inject:javax.inject:jar:1:compile
++- org.realityforge.replicant:replicant-shared:jar:5.97-arez-b16:compile
+|  +- (com.google.code.findbugs:jsr305:jar:3.0.1:compile - omitted for duplicate)
+|  +- (com.google.jsinterop:jsinterop-annotations:jar:1.0.1:compile - omitted for duplicate)
+|  +- (org.w3c.css:sac:jar:1.3:compile - omitted for duplicate)
+|  +- (com.google.gwt:gwt-dev:jar:2.8.2:compile - omitted for conflict with 2.7.0)
+|  +- (com.google.gwt:gwt-user:jar:2.8.2:compile - omitted for duplicate)
+|  +- (com.google.code.gson:gson:jar:2.6.2:compile - omitted for duplicate)
+|  +- (org.ow2.asm:asm:jar:5.0.3:compile - omitted for duplicate)
+|  +- (org.ow2.asm:asm-util:jar:5.0.3:compile - omitted for duplicate)
+|  +- (org.ow2.asm:asm-tree:jar:5.0.3:compile - omitted for duplicate)
+|  +- (org.ow2.asm:asm-commons:jar:5.0.3:compile - omitted for duplicate)
+|  +- (colt:colt:jar:1.2.0:compile - omitted for duplicate)
+|  +- (ant:ant:jar:1.6.5:compile - omitted for duplicate)
+|  +- (commons-collections:commons-collections:jar:3.2.2:compile - omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+|  +- (com.ibm.icu:icu4j:jar:50.1.1:compile - omitted for duplicate)
+|  +- (tapestry:tapestry:jar:4.0.2:compile - omitted for duplicate)
+|  +- (javax.annotation:javax.annotation-api:jar:1.2:compile - omitted for duplicate)
+|  +- (javax.servlet:javax.servlet-api:jar:3.1.0:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-annotations:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-continuation:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-http:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-io:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-jndi:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-plus:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-security:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-server:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-servlet:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-servlets:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-util:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-webapp:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-xml:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty.toolchain:jetty-schemas:jar:3.1.M0:compile - omitted for duplicate)
+|  \- (javax.validation:validation-api:jar:1.0.0.GA:compile - omitted for duplicate)
++- org.realityforge.arez:arez-annotations:jar:0.37:compile
+|  +- (com.google.jsinterop:jsinterop-annotations:jar:1.0.1:compile - omitted for duplicate)
+|  +- (org.w3c.css:sac:jar:1.3:compile - omitted for duplicate)
+|  +- (com.google.gwt:gwt-dev:jar:2.8.2:compile - omitted for conflict with 2.7.0)
+|  +- (com.google.gwt:gwt-user:jar:2.8.2:compile - omitted for duplicate)
+|  +- (com.google.code.gson:gson:jar:2.6.2:compile - omitted for duplicate)
+|  +- (org.ow2.asm:asm:jar:5.0.3:compile - omitted for duplicate)
+|  +- (org.ow2.asm:asm-util:jar:5.0.3:compile - omitted for duplicate)
+|  +- (org.ow2.asm:asm-tree:jar:5.0.3:compile - omitted for duplicate)
+|  +- (org.ow2.asm:asm-commons:jar:5.0.3:compile - omitted for duplicate)
+|  +- (colt:colt:jar:1.2.0:compile - omitted for duplicate)
+|  +- (ant:ant:jar:1.6.5:compile - omitted for duplicate)
+|  +- (commons-collections:commons-collections:jar:3.2.2:compile - omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+|  +- (com.ibm.icu:icu4j:jar:50.1.1:compile - omitted for duplicate)
+|  +- (tapestry:tapestry:jar:4.0.2:compile - omitted for duplicate)
+|  +- (javax.annotation:javax.annotation-api:jar:1.2:compile - omitted for duplicate)
+|  +- (javax.servlet:javax.servlet-api:jar:3.1.0:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-annotations:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-continuation:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-http:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-io:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-jndi:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-plus:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-security:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-server:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-servlet:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-servlets:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-util:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-webapp:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-xml:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty.toolchain:jetty-schemas:jar:3.1.M0:compile - omitted for duplicate)
+|  \- (javax.validation:validation-api:jar:1.0.0.GA:compile - omitted for duplicate)
++- org.realityforge.arez:arez-core:jar:0.37:compile
+|  +- (org.realityforge.braincheck:braincheck:jar:1.3.0:compile - omitted for duplicate)
+|  +- (com.google.jsinterop:jsinterop-annotations:jar:1.0.1:compile - omitted for duplicate)
+|  +- (org.w3c.css:sac:jar:1.3:compile - omitted for duplicate)
+|  +- (com.google.gwt:gwt-dev:jar:2.8.2:compile - omitted for conflict with 2.7.0)
+|  +- (com.google.gwt:gwt-user:jar:2.8.2:compile - omitted for duplicate)
+|  +- (com.google.code.gson:gson:jar:2.6.2:compile - omitted for duplicate)
+|  +- (org.ow2.asm:asm:jar:5.0.3:compile - omitted for duplicate)
+|  +- (org.ow2.asm:asm-util:jar:5.0.3:compile - omitted for duplicate)
+|  +- (org.ow2.asm:asm-tree:jar:5.0.3:compile - omitted for duplicate)
+|  +- (org.ow2.asm:asm-commons:jar:5.0.3:compile - omitted for duplicate)
+|  +- (colt:colt:jar:1.2.0:compile - omitted for duplicate)
+|  +- (ant:ant:jar:1.6.5:compile - omitted for duplicate)
+|  +- (commons-collections:commons-collections:jar:3.2.2:compile - omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+|  +- (com.ibm.icu:icu4j:jar:50.1.1:compile - omitted for duplicate)
+|  +- (tapestry:tapestry:jar:4.0.2:compile - omitted for duplicate)
+|  +- (javax.annotation:javax.annotation-api:jar:1.2:compile - omitted for duplicate)
+|  +- (javax.servlet:javax.servlet-api:jar:3.1.0:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-annotations:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-continuation:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-http:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-io:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-jndi:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-plus:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-security:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-server:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-servlet:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-servlets:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-util:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-webapp:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-xml:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty.toolchain:jetty-schemas:jar:3.1.M0:compile - omitted for duplicate)
+|  \- (javax.validation:validation-api:jar:1.0.0.GA:compile - omitted for duplicate)
++- org.realityforge.arez:arez-processor:jar:0.37:compile
+|  +- com.google.auto.service:auto-service:jar:1.0-rc3:compile
+|  |  +- (com.google.auto:auto-common:jar:0.3:compile - omitted for conflict with 0.8)
+|  |  \- (com.google.guava:guava:jar:19.0:compile - omitted for conflict with 21.0)
+|  +- com.google.auto:auto-common:jar:0.8:compile
+|  |  \- (com.google.guava:guava:jar:19.0:compile - omitted for duplicate)
+|  +- com.squareup:javapoet:jar:1.8.0:compile
+|  \- com.google.guava:guava:jar:21.0:compile
++- org.realityforge.arez:arez-component:jar:0.37:compile
+|  +- (com.google.jsinterop:jsinterop-annotations:jar:1.0.1:compile - omitted for duplicate)
+|  +- (org.w3c.css:sac:jar:1.3:compile - omitted for duplicate)
+|  +- (com.google.gwt:gwt-dev:jar:2.8.2:compile - omitted for conflict with 2.7.0)
+|  +- (com.google.gwt:gwt-user:jar:2.8.2:compile - omitted for duplicate)
+|  +- (com.google.code.gson:gson:jar:2.6.2:compile - omitted for duplicate)
+|  +- (org.ow2.asm:asm:jar:5.0.3:compile - omitted for duplicate)
+|  +- (org.ow2.asm:asm-util:jar:5.0.3:compile - omitted for duplicate)
+|  +- (org.ow2.asm:asm-tree:jar:5.0.3:compile - omitted for duplicate)
+|  +- (org.ow2.asm:asm-commons:jar:5.0.3:compile - omitted for duplicate)
+|  +- (colt:colt:jar:1.2.0:compile - omitted for duplicate)
+|  +- (ant:ant:jar:1.6.5:compile - omitted for duplicate)
+|  +- (commons-collections:commons-collections:jar:3.2.2:compile - omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+|  +- (com.ibm.icu:icu4j:jar:50.1.1:compile - omitted for duplicate)
+|  +- (tapestry:tapestry:jar:4.0.2:compile - omitted for duplicate)
+|  +- (javax.annotation:javax.annotation-api:jar:1.2:compile - omitted for duplicate)
+|  +- (javax.servlet:javax.servlet-api:jar:3.1.0:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-annotations:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-continuation:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-http:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-io:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-jndi:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-plus:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-security:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-server:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-servlet:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-servlets:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-util:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-webapp:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-xml:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty.toolchain:jetty-schemas:jar:3.1.M0:compile - omitted for duplicate)
+|  \- (javax.validation:validation-api:jar:1.0.0.GA:compile - omitted for duplicate)
++- org.realityforge.arez:arez-extras:jar:0.37:compile
+|  +- (org.realityforge.arez:arez-annotations:jar:0.37:compile - omitted for duplicate)
+|  +- (com.google.jsinterop:jsinterop-annotations:jar:1.0.1:compile - omitted for duplicate)
+|  +- (org.w3c.css:sac:jar:1.3:compile - omitted for duplicate)
+|  +- (com.google.gwt:gwt-dev:jar:2.8.2:compile - omitted for conflict with 2.7.0)
+|  +- (com.google.gwt:gwt-user:jar:2.8.2:compile - omitted for duplicate)
+|  +- (com.google.code.gson:gson:jar:2.6.2:compile - omitted for duplicate)
+|  +- (org.ow2.asm:asm:jar:5.0.3:compile - omitted for duplicate)
+|  +- (org.ow2.asm:asm-util:jar:5.0.3:compile - omitted for duplicate)
+|  +- (org.ow2.asm:asm-tree:jar:5.0.3:compile - omitted for duplicate)
+|  +- (org.ow2.asm:asm-commons:jar:5.0.3:compile - omitted for duplicate)
+|  +- (colt:colt:jar:1.2.0:compile - omitted for duplicate)
+|  +- (ant:ant:jar:1.6.5:compile - omitted for duplicate)
+|  +- (commons-collections:commons-collections:jar:3.2.2:compile - omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+|  +- (com.ibm.icu:icu4j:jar:50.1.1:compile - omitted for duplicate)
+|  +- (tapestry:tapestry:jar:4.0.2:compile - omitted for duplicate)
+|  +- (javax.annotation:javax.annotation-api:jar:1.2:compile - omitted for duplicate)
+|  +- (javax.servlet:javax.servlet-api:jar:3.1.0:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-annotations:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-continuation:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-http:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-io:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-jndi:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-plus:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-security:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-server:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-servlet:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-servlets:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-util:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-webapp:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-xml:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty.toolchain:jetty-schemas:jar:3.1.M0:compile - omitted for duplicate)
+|  +- (javax.validation:validation-api:jar:1.0.0.GA:compile - omitted for duplicate)
+|  +- (org.realityforge.arez:arez-core:jar:0.37:compile - omitted for duplicate)
+|  +- (org.realityforge.braincheck:braincheck:jar:1.3.0:compile - omitted for duplicate)
+|  +- (org.realityforge.arez:arez-component:jar:0.37:compile - omitted for duplicate)
+|  +- (org.realityforge.arez:arez-processor:jar:0.37:compile - omitted for duplicate)
+|  +- (com.google.auto.service:auto-service:jar:1.0-rc3:compile - omitted for duplicate)
+|  +- (com.google.auto:auto-common:jar:0.8:compile - omitted for duplicate)
+|  +- (com.squareup:javapoet:jar:1.8.0:compile - omitted for duplicate)
+|  \- (com.google.guava:guava:jar:21.0:compile - omitted for duplicate)
++- org.realityforge.arez:arez-browser-extras:jar:0.37:compile
+|  +- (org.realityforge.arez:arez-extras:jar:0.37:compile - omitted for duplicate)
+|  +- (org.realityforge.arez:arez-annotations:jar:0.37:compile - omitted for duplicate)
+|  +- (com.google.jsinterop:jsinterop-annotations:jar:1.0.2:compile - omitted for conflict with 1.0.1)
+|  +- (org.w3c.css:sac:jar:1.3:compile - omitted for duplicate)
+|  +- (com.google.gwt:gwt-dev:jar:2.8.2:compile - omitted for conflict with 2.7.0)
+|  +- (com.google.gwt:gwt-user:jar:2.8.2:compile - omitted for duplicate)
+|  +- (com.google.code.gson:gson:jar:2.6.2:compile - omitted for duplicate)
+|  +- (org.ow2.asm:asm:jar:5.0.3:compile - omitted for duplicate)
+|  +- (org.ow2.asm:asm-util:jar:5.0.3:compile - omitted for duplicate)
+|  +- (org.ow2.asm:asm-tree:jar:5.0.3:compile - omitted for duplicate)
+|  +- (org.ow2.asm:asm-commons:jar:5.0.3:compile - omitted for duplicate)
+|  +- (colt:colt:jar:1.2.0:compile - omitted for duplicate)
+|  +- (ant:ant:jar:1.6.5:compile - omitted for duplicate)
+|  +- (commons-collections:commons-collections:jar:3.2.2:compile - omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+|  +- (com.ibm.icu:icu4j:jar:50.1.1:compile - omitted for duplicate)
+|  +- (tapestry:tapestry:jar:4.0.2:compile - omitted for duplicate)
+|  +- (javax.annotation:javax.annotation-api:jar:1.2:compile - omitted for duplicate)
+|  +- (javax.servlet:javax.servlet-api:jar:3.1.0:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-annotations:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-continuation:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-http:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-io:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-jndi:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-plus:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-security:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-server:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-servlet:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-servlets:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-util:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-webapp:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-xml:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty.toolchain:jetty-schemas:jar:3.1.M0:compile - omitted for duplicate)
+|  +- (javax.validation:validation-api:jar:1.0.0.GA:compile - omitted for duplicate)
+|  +- (org.realityforge.arez:arez-core:jar:0.37:compile - omitted for duplicate)
+|  +- (org.realityforge.braincheck:braincheck:jar:1.3.0:compile - omitted for duplicate)
+|  +- (org.realityforge.arez:arez-component:jar:0.37:compile - omitted for duplicate)
+|  +- (org.realityforge.arez:arez-processor:jar:0.37:compile - omitted for duplicate)
+|  +- (com.google.auto.service:auto-service:jar:1.0-rc3:compile - omitted for duplicate)
+|  +- (com.google.auto:auto-common:jar:0.8:compile - omitted for duplicate)
+|  +- (com.squareup:javapoet:jar:1.8.0:compile - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:21.0:compile - omitted for duplicate)
+|  +- com.google.elemental2:elemental2-core:jar:1.0.0-RC1:compile
+|  |  +- (com.google.jsinterop:jsinterop-annotations:jar:1.0.2:compile - omitted for conflict with 1.0.1)
+|  |  \- (com.google.jsinterop:base:jar:1.0.0-RC1:compile - omitted for duplicate)
+|  +- com.google.elemental2:elemental2-dom:jar:1.0.0-RC1:compile
+|  |  +- (com.google.jsinterop:jsinterop-annotations:jar:1.0.2:compile - omitted for conflict with 1.0.1)
+|  |  +- (com.google.jsinterop:base:jar:1.0.0-RC1:compile - omitted for duplicate)
+|  |  +- (com.google.elemental2:elemental2-core:jar:1.0.0-RC1:compile - omitted for duplicate)
+|  |  \- (com.google.elemental2:elemental2-promise:jar:1.0.0-RC1:compile - omitted for duplicate)
+|  +- com.google.elemental2:elemental2-promise:jar:1.0.0-RC1:compile
+|  |  +- (com.google.jsinterop:jsinterop-annotations:jar:1.0.2:compile - omitted for conflict with 1.0.1)
+|  |  \- (com.google.jsinterop:base:jar:1.0.0-RC1:compile - omitted for duplicate)
+|  \- com.google.jsinterop:base:jar:1.0.0-RC1:compile
+|     \- (com.google.jsinterop:jsinterop-annotations:jar:1.0.2:compile - omitted for conflict with 1.0.1)
++- org.realityforge.braincheck:braincheck:jar:1.3.0:compile
+|  +- (com.google.jsinterop:jsinterop-annotations:jar:1.0.1:compile - omitted for duplicate)
+|  +- (org.w3c.css:sac:jar:1.3:compile - omitted for duplicate)
+|  +- (com.google.gwt:gwt-dev:jar:2.8.1:compile - omitted for conflict with 2.7.0)
+|  +- (com.google.gwt:gwt-user:jar:2.8.1:compile - omitted for conflict with 2.8.2)
+|  +- (com.google.code.gson:gson:jar:2.6.2:compile - omitted for duplicate)
+|  +- (org.ow2.asm:asm:jar:5.0.3:compile - omitted for duplicate)
+|  +- (org.ow2.asm:asm-util:jar:5.0.3:compile - omitted for duplicate)
+|  +- (org.ow2.asm:asm-tree:jar:5.0.3:compile - omitted for duplicate)
+|  +- (org.ow2.asm:asm-commons:jar:5.0.3:compile - omitted for duplicate)
+|  +- (colt:colt:jar:1.2.0:compile - omitted for duplicate)
+|  +- (ant:ant:jar:1.6.5:compile - omitted for duplicate)
+|  +- (commons-collections:commons-collections:jar:3.2.2:compile - omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+|  +- (com.ibm.icu:icu4j:jar:50.1.1:compile - omitted for duplicate)
+|  +- (tapestry:tapestry:jar:4.0.2:compile - omitted for duplicate)
+|  +- (javax.annotation:javax.annotation-api:jar:1.2:compile - omitted for duplicate)
+|  +- (javax.servlet:javax.servlet-api:jar:3.1.0:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-annotations:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-continuation:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-http:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-io:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-jndi:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-plus:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-security:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-server:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-servlet:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-servlets:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-util:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-webapp:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-xml:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty.toolchain:jetty-schemas:jar:3.1.M0:compile - omitted for duplicate)
+|  \- (javax.validation:validation-api:jar:1.0.0.GA:compile - omitted for duplicate)
++- org.realityforge.anodoc:anodoc:jar:1.0.0:compile
++- org.jetbrains:annotations:jar:15.0:compile
++- com.google.jsinterop:jsinterop-annotations:jar:1.0.1:compile
++- org.w3c.css:sac:jar:1.3:compile
++- com.google.gwt:gwt-dev:jar:2.8.2:compile
+|  +- (com.google.code.findbugs:jsr305:jar:1.3.9:compile - omitted for conflict with 3.0.1)
+|  +- (com.google.code.gson:gson:jar:2.6.2:compile - omitted for duplicate)
+|  +- (org.ow2.asm:asm:jar:5.0.3:compile - omitted for duplicate)
+|  +- (org.ow2.asm:asm-util:jar:5.0.3:compile - omitted for duplicate)
+|  +- (org.ow2.asm:asm-commons:jar:5.0.3:compile - omitted for duplicate)
+|  +- (colt:colt:jar:1.2.0:compile - omitted for duplicate)
+|  +- (ant:ant:jar:1.6.5:compile - omitted for duplicate)
+|  +- (commons-collections:commons-collections:jar:3.2.2:compile - omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+|  +- (com.ibm.icu:icu4j:jar:50.1.1:compile - omitted for duplicate)
+|  +- (tapestry:tapestry:jar:4.0.2:compile - omitted for duplicate)
+|  +- net.sourceforge.htmlunit:htmlunit:jar:2.19:compile
+|  |  +- xalan:xalan:jar:2.7.2:compile
+|  |  |  \- xalan:serializer:jar:2.7.2:compile
+|  |  |     \- (xml-apis:xml-apis:jar:1.3.04:compile - omitted for conflict with 1.4.01)
+|  |  +- (commons-collections:commons-collections:jar:3.2.1:compile - omitted for conflict with 3.2.2)
+|  |  +- org.apache.commons:commons-lang3:jar:3.4:compile
+|  |  +- org.apache.httpcomponents:httpclient:jar:4.5.1:compile
+|  |  |  +- org.apache.httpcomponents:httpcore:jar:4.4.3:compile
+|  |  |  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for conflict with 1.0.4)
+|  |  |  \- (commons-codec:commons-codec:jar:1.9:compile - omitted for conflict with 1.3)
+|  |  +- org.apache.httpcomponents:httpmime:jar:4.5.1:compile
+|  |  |  \- (org.apache.httpcomponents:httpclient:jar:4.5.1:compile - omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.10:compile - omitted for conflict with 1.3)
+|  |  +- net.sourceforge.htmlunit:htmlunit-core-js:jar:2.17:compile
+|  |  +- xerces:xercesImpl:jar:2.11.0:compile
+|  |  |  \- xml-apis:xml-apis:jar:1.4.01:compile
+|  |  +- net.sourceforge.nekohtml:nekohtml:jar:1.9.22:compile
+|  |  +- net.sourceforge.cssparser:cssparser:jar:0.9.18:compile
+|  |  |  \- (org.w3c.css:sac:jar:1.3:compile - omitted for duplicate)
+|  |  +- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for conflict with 1.0.4)
+|  |  \- org.eclipse.jetty.websocket:websocket-client:jar:9.2.13.v20150730:compile
+|  |     +- (org.eclipse.jetty:jetty-util:jar:9.2.13.v20150730:compile - omitted for conflict with 9.2.14.v20151106)
+|  |     +- (org.eclipse.jetty:jetty-io:jar:9.2.13.v20150730:compile - omitted for conflict with 9.2.14.v20151106)
+|  |     \- org.eclipse.jetty.websocket:websocket-common:jar:9.2.13.v20150730:compile
+|  |        +- org.eclipse.jetty.websocket:websocket-api:jar:9.2.13.v20150730:compile
+|  |        +- (org.eclipse.jetty:jetty-util:jar:9.2.13.v20150730:compile - omitted for conflict with 9.2.14.v20151106)
+|  |        \- (org.eclipse.jetty:jetty-io:jar:9.2.13.v20150730:compile - omitted for conflict with 9.2.14.v20151106)
+|  +- (org.eclipse.jetty:jetty-webapp:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-servlets:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-annotations:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  \- org.eclipse.jetty:apache-jsp:jar:9.2.14.v20151106:compile
+|     +- (org.eclipse.jetty:jetty-util:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|     +- (org.eclipse.jetty:jetty-server:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|     +- (org.eclipse.jetty.toolchain:jetty-schemas:jar:3.1.M0:compile - omitted for duplicate)
+|     +- (javax.servlet:javax.servlet-api:jar:3.1.0:compile - omitted for duplicate)
+|     \- org.mortbay.jasper:apache-jsp:jar:8.0.9.M3:compile
+|        +- (org.eclipse.jetty.toolchain:jetty-schemas:jar:3.1.M0:compile - omitted for duplicate)
+|        \- org.mortbay.jasper:apache-el:jar:8.0.9.M3:compile
++- com.google.gwt:gwt-user:jar:2.8.2:compile
+|  +- (com.google.jsinterop:jsinterop-annotations:jar:1.0.2:compile - omitted for conflict with 1.0.1)
+|  +- com.google.jsinterop:jsinterop-annotations:jar:sources:1.0.2:compile
+|  +- (javax.validation:validation-api:jar:1.0.0.GA:compile - omitted for duplicate)
+|  +- javax.validation:validation-api:jar:sources:1.0.0.GA:compile
+|  +- (javax.servlet:javax.servlet-api:jar:3.1.0:compile - omitted for duplicate)
+|  \- (org.w3c.css:sac:jar:1.3:compile - omitted for duplicate)
++- com.google.code.gson:gson:jar:2.6.2:compile
++- org.ow2.asm:asm:jar:5.0.3:compile
++- org.ow2.asm:asm-util:jar:5.0.3:compile
+|  \- (org.ow2.asm:asm-tree:jar:5.0.3:compile - omitted for duplicate)
++- org.ow2.asm:asm-tree:jar:5.0.3:compile
+|  \- (org.ow2.asm:asm:jar:5.0.3:compile - omitted for duplicate)
++- org.ow2.asm:asm-commons:jar:5.0.3:compile
+|  \- (org.ow2.asm:asm-tree:jar:5.0.3:compile - omitted for duplicate)
++- colt:colt:jar:1.2.0:compile
++- ant:ant:jar:1.6.5:compile
++- commons-collections:commons-collections:jar:3.2.2:compile
++- commons-io:commons-io:jar:2.4:compile
++- com.ibm.icu:icu4j:jar:50.1.1:compile
++- tapestry:tapestry:jar:4.0.2:compile
+|  +- jboss:javassist:jar:3.0:runtime
+|  +- commons-codec:commons-codec:jar:1.3:compile
+|  +- commons-fileupload:commons-fileupload:jar:1.1:compile
+|  |  \- (commons-io:commons-io:jar:1.1:compile - omitted for conflict with 2.4)
+|  +- commons-logging:commons-logging:jar:1.0.4:compile
+|  +- ognl:ognl:jar:2.6.7:compile
+|  +- oro:oro:jar:2.0.8:compile
+|  +- hivemind:hivemind:jar:1.1.1:compile
+|  \- hivemind:hivemind-lib:jar:1.1.1:compile
++- javax.annotation:javax.annotation-api:jar:1.2:compile
++- javax.servlet:javax.servlet-api:jar:3.1.0:compile
++- org.eclipse.jetty:jetty-annotations:jar:9.2.14.v20151106:compile
+|  +- (org.eclipse.jetty:jetty-plus:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-webapp:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (javax.annotation:javax.annotation-api:jar:1.2:compile - omitted for duplicate)
+|  +- (org.ow2.asm:asm:jar:5.0.1:compile - omitted for conflict with 5.0.3)
+|  \- (org.ow2.asm:asm-commons:jar:5.0.1:compile - omitted for conflict with 5.0.3)
++- org.eclipse.jetty:jetty-continuation:jar:9.2.14.v20151106:compile
++- org.eclipse.jetty:jetty-http:jar:9.2.14.v20151106:compile
+|  \- (org.eclipse.jetty:jetty-util:jar:9.2.14.v20151106:compile - omitted for duplicate)
++- org.eclipse.jetty:jetty-io:jar:9.2.14.v20151106:compile
+|  \- (org.eclipse.jetty:jetty-util:jar:9.2.14.v20151106:compile - omitted for duplicate)
++- org.eclipse.jetty:jetty-jndi:jar:9.2.14.v20151106:compile
+|  \- (org.eclipse.jetty:jetty-util:jar:9.2.14.v20151106:compile - omitted for duplicate)
++- org.eclipse.jetty:jetty-plus:jar:9.2.14.v20151106:compile
+|  +- (org.eclipse.jetty:jetty-webapp:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  \- (org.eclipse.jetty:jetty-jndi:jar:9.2.14.v20151106:compile - omitted for duplicate)
++- org.eclipse.jetty:jetty-security:jar:9.2.14.v20151106:compile
+|  \- (org.eclipse.jetty:jetty-server:jar:9.2.14.v20151106:compile - omitted for duplicate)
++- org.eclipse.jetty:jetty-server:jar:9.2.14.v20151106:compile
+|  +- (javax.servlet:javax.servlet-api:jar:3.1.0:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-http:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  \- (org.eclipse.jetty:jetty-io:jar:9.2.14.v20151106:compile - omitted for duplicate)
++- org.eclipse.jetty:jetty-servlet:jar:9.2.14.v20151106:compile
+|  \- (org.eclipse.jetty:jetty-security:jar:9.2.14.v20151106:compile - omitted for duplicate)
++- org.eclipse.jetty:jetty-servlets:jar:9.2.14.v20151106:compile
+|  +- (org.eclipse.jetty:jetty-continuation:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-http:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-util:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  \- (org.eclipse.jetty:jetty-io:jar:9.2.14.v20151106:compile - omitted for duplicate)
++- org.eclipse.jetty:jetty-util:jar:9.2.14.v20151106:compile
++- org.eclipse.jetty:jetty-webapp:jar:9.2.14.v20151106:compile
+|  +- (org.eclipse.jetty:jetty-xml:jar:9.2.14.v20151106:compile - omitted for duplicate)
+|  \- (org.eclipse.jetty:jetty-servlet:jar:9.2.14.v20151106:compile - omitted for duplicate)
++- org.eclipse.jetty:jetty-xml:jar:9.2.14.v20151106:compile
+|  \- (org.eclipse.jetty:jetty-util:jar:9.2.14.v20151106:compile - omitted for duplicate)
++- org.eclipse.jetty.toolchain:jetty-schemas:jar:3.1.M0:compile
++- javax.validation:validation-api:jar:1.0.0.GA:compile
++- org.testng:testng:jar:6.11:test
+|  +- (com.beust:jcommander:jar:1.64:test - omitted for conflict with 1.27)
+|  \- org.yaml:snakeyaml:jar:1.17:test
++- com.beust:jcommander:jar:1.27:test
++- org.jmock:jmock:jar:2.5.1:test
+|  +- (org.hamcrest:hamcrest-core:jar:1.1:test - omitted for duplicate)
+|  \- (org.hamcrest:hamcrest-library:jar:1.1:test - omitted for duplicate)
++- org.jmock:jmock-junit4:jar:2.5.1:test
+|  +- (org.jmock:jmock:jar:2.5.1:test - omitted for duplicate)
+|  \- junit:junit-dep:jar:4.4:test
++- org.hamcrest:hamcrest-core:jar:1.1:test
++- org.hamcrest:hamcrest-library:jar:1.1:test
+|  \- (org.hamcrest:hamcrest-core:jar:1.1:test - omitted for duplicate)
++- org.mockito:mockito-all:jar:1.10.19:test
++- org.realityforge.guiceyloops:guiceyloops:jar:0.67:test
+|  +- (org.mockito:mockito-all:jar:1.9.5:test - omitted for conflict with 1.10.19)
+|  +- com.google.inject:guice:jar:3.0:test
+|  |  +- (javax.inject:javax.inject:jar:1:test - omitted for duplicate)
+|  |  \- (aopalliance:aopalliance:jar:1.0:test - omitted for duplicate)
+|  +- aopalliance:aopalliance:jar:1.0:test
+|  \- com.google.inject.extensions:guice-assistedinject:jar:3.0:test
+|     \- (com.google.inject:guice:jar:3.0:test - omitted for duplicate)
++- fish.payara.extras:payara-embedded-all:jar:4.1.1.164:test
++- org.realityforge.jndikit:jndikit:jar:1.4:test
++- org.objenesis:objenesis:jar:2.5.1:test
++- org.powermock:powermock-core:jar:1.6.6:test
+|  +- (org.powermock:powermock-reflect:jar:1.6.6:test - omitted for duplicate)
+|  \- (org.javassist:javassist:jar:3.21.0-GA:test - omitted for duplicate)
++- org.powermock:powermock-reflect:jar:1.6.6:test
+|  \- (org.objenesis:objenesis:jar:2.4:test - omitted for conflict with 2.5.1)
++- org.powermock:powermock-module-testng-common:jar:1.6.6:test
+|  +- (org.testng:testng:jar:6.9.10:test - omitted for conflict with 6.11)
+|  +- (org.powermock:powermock-core:jar:1.6.6:test - omitted for duplicate)
+|  \- (org.powermock:powermock-reflect:jar:1.6.6:test - omitted for duplicate)
++- org.powermock:powermock-module-testng:jar:1.6.6:test
+|  +- (org.powermock:powermock-core:jar:1.6.6:test - omitted for duplicate)
+|  \- (org.powermock:powermock-module-testng-common:jar:1.6.6:test - omitted for duplicate)
++- org.powermock:powermock-module-testng-agent:jar:1.6.6:test
+|  +- (org.powermock:powermock-core:jar:1.6.6:test - omitted for duplicate)
+|  +- (org.powermock:powermock-module-javaagent:jar:1.6.6:test - omitted for duplicate)
+|  \- (org.powermock:powermock-module-testng-common:jar:1.6.6:test - omitted for duplicate)
++- org.powermock:powermock-api-mockito:jar:1.6.6:test
+|  +- org.mockito:mockito-core:jar:1.10.19:test
+|  |  +- (org.hamcrest:hamcrest-core:jar:1.1:test - omitted for duplicate)
+|  |  \- (org.objenesis:objenesis:jar:2.1:test - omitted for conflict with 2.5.1)
+|  +- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for conflict with 1.1)
+|  \- (org.powermock:powermock-api-mockito-common:jar:1.6.6:test - omitted for duplicate)
++- org.powermock:powermock-api-mockito-common:jar:1.6.6:test
+|  +- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for conflict with 1.1)
+|  \- (org.powermock:powermock-api-support:jar:1.6.6:test - omitted for duplicate)
++- org.powermock:powermock-api-support:jar:1.6.6:test
+|  +- (org.powermock:powermock-core:jar:1.6.6:test - omitted for duplicate)
+|  \- (org.powermock:powermock-reflect:jar:1.6.6:test - omitted for duplicate)
++- org.javassist:javassist:jar:3.21.0-GA:test
+\- org.powermock:powermock-module-javaagent:jar:1.6.6:test
+   \- (org.powermock:powermock-core:jar:1.6.6:test - omitted for duplicate)

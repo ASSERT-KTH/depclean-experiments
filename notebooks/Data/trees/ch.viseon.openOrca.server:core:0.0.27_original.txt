@@ -1,0 +1,26 @@
+ch.viseon.openOrca.server:core:jar:0.0.27
++- com.beust:klaxon:jar:0.30:compile
++- org.jetbrains.kotlin:kotlin-stdlib:jar:1.1.4-3:compile
+|  \- org.jetbrains:annotations:jar:13.0:compile
++- org.jetbrains.kotlin:kotlin-reflect:jar:1.1.4-3:compile
+|  \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.1.4-3:compile - omitted for duplicate)
++- org.jetbrains.kotlin:kotlin-test-common:jar:1.1.4-3:test (scope not updated to compile)
+|  \- (org.jetbrains.kotlin:kotlin-stdlib-common:jar:1.1.4-3:compile - scope updated from test; omitted for duplicate)
++- org.jetbrains.kotlin:kotlin-test-junit:jar:1.1.4-3:test
+|  +- org.jetbrains.kotlin:kotlin-test:jar:1.1.4-3:test
+|  |  \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.1.4-3:test - omitted for duplicate)
+|  \- (junit:junit:jar:4.12:test - omitted for duplicate)
++- io.reactivex.rxjava2:rxjava:jar:2.0.7:compile
+|  \- org.reactivestreams:reactive-streams:jar:1.0.0:compile
++- ch.viseon.openOrca:share:jar:0.0.27:compile
+|  +- org.jetbrains.kotlin:kotlin-stdlib-common:jar:1.1.4-3:compile
+|  \- (org.jetbrains.kotlin:kotlin-test-common:jar:1.1.4-3:compile - omitted for duplicate)
++- junit:junit:jar:4.12:compile
+|  \- org.hamcrest:hamcrest-core:jar:1.3:compile
+\- com.nhaarman:mockito-kotlin:jar:1.3.0:test
+   +- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.0.6:test - omitted for conflict with 1.1.4-3)
+   +- (org.jetbrains.kotlin:kotlin-reflect:jar:1.0.6:test - omitted for conflict with 1.1.4-3)
+   \- org.mockito:mockito-core:jar:2.7.5:test
+      +- net.bytebuddy:byte-buddy:jar:1.6.5:test
+      +- net.bytebuddy:byte-buddy-agent:jar:1.6.5:test
+      \- org.objenesis:objenesis:jar:2.5:test

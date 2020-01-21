@@ -1,0 +1,21 @@
+org.bytedeco.javacpp-presets:gsl-platform:jar:2.4-1.4
++- org.bytedeco.javacpp-presets:gsl:jar:2.4-1.4:compile
+|  \- org.bytedeco:javacpp:jar:1.4:compile
++- org.bytedeco.javacpp-presets:gsl:jar:android-arm:2.4-1.4:compile
+|  \- (org.bytedeco:javacpp:jar:1.4:compile - omitted for duplicate)
++- org.bytedeco.javacpp-presets:gsl:jar:android-x86:2.4-1.4:compile
+|  \- (org.bytedeco:javacpp:jar:1.4:compile - omitted for duplicate)
++- org.bytedeco.javacpp-presets:gsl:jar:linux-x86:2.4-1.4:compile
+|  \- (org.bytedeco:javacpp:jar:1.4:compile - omitted for duplicate)
++- org.bytedeco.javacpp-presets:gsl:jar:linux-x86_64:2.4-1.4:compile
+|  \- (org.bytedeco:javacpp:jar:1.4:compile - omitted for duplicate)
++- org.bytedeco.javacpp-presets:gsl:jar:linux-armhf:2.4-1.4:compile
+|  \- (org.bytedeco:javacpp:jar:1.4:compile - omitted for duplicate)
++- org.bytedeco.javacpp-presets:gsl:jar:linux-ppc64le:2.4-1.4:compile
+|  \- (org.bytedeco:javacpp:jar:1.4:compile - omitted for duplicate)
++- org.bytedeco.javacpp-presets:gsl:jar:macosx-x86_64:2.4-1.4:compile
+|  \- (org.bytedeco:javacpp:jar:1.4:compile - omitted for duplicate)
++- org.bytedeco.javacpp-presets:gsl:jar:windows-x86:2.4-1.4:compile
+|  \- (org.bytedeco:javacpp:jar:1.4:compile - omitted for duplicate)
+\- org.bytedeco.javacpp-presets:gsl:jar:windows-x86_64:2.4-1.4:compile
+   \- (org.bytedeco:javacpp:jar:1.4:compile - omitted for duplicate)

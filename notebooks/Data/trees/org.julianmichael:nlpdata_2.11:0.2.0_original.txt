@@ -1,0 +1,64 @@
+org.julianmichael:nlpdata_2.11:jar:0.2.0
++- org.typelevel:cats-core_2.11:jar:1.1.0:compile
+|  +- org.scala-lang:scala-library:jar:2.11.12:compile
+|  +- org.typelevel:cats-macros_2.11:jar:1.1.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  |  \- (org.typelevel:machinist_2.11:jar:0.6.2:compile - omitted for duplicate)
+|  +- org.typelevel:cats-kernel_2.11:jar:1.1.0:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  \- org.typelevel:machinist_2.11:jar:0.6.2:compile
+|     +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.12)
+|     \- (org.scala-lang:scala-reflect:jar:2.11.8:compile - omitted for conflict with 2.12.4)
++- org.typelevel:cats-free_2.11:jar:1.1.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)
+|  +- (org.typelevel:cats-macros_2.11:jar:1.1.0:compile - omitted for duplicate)
+|  +- (org.typelevel:cats-core_2.11:jar:1.1.0:compile - omitted for duplicate)
+|  \- (org.typelevel:machinist_2.11:jar:0.6.2:compile - omitted for duplicate)
++- com.lihaoyi:fastparse_2.11:jar:0.4.4:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
+|  +- com.lihaoyi:fastparse-utils_2.11:jar:0.4.4:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
+|  |  \- (com.lihaoyi:sourcecode_2.11:jar:0.1.4:compile - omitted for duplicate)
+|  \- com.lihaoyi:sourcecode_2.11:jar:0.1.4:compile
+|     \- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for conflict with 2.11.12)
++- com.github.mpilquist:simulacrum_2.11:jar:0.10.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.12)
+|  \- org.typelevel:macro-compat_2.11:jar:1.1.1:compile
+|     \- (org.scala-lang:scala-library:jar:2.11.7:compile - omitted for conflict with 2.11.12)
++- com.softwaremill.macmemo:macros_2.11:jar:0.4:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.12)
+|  +- org.scala-lang:scala-reflect:jar:2.12.4:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.11.12)
+|  +- com.google.guava:guava:jar:23.0:compile
+|  |  +- (com.google.code.findbugs:jsr305:jar:1.3.9:compile - omitted for conflict with 3.0.2)
+|  |  +- com.google.errorprone:error_prone_annotations:jar:2.0.18:compile
+|  |  +- com.google.j2objc:j2objc-annotations:jar:1.1:compile
+|  |  \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:compile
+|  \- com.google.code.findbugs:jsr305:jar:3.0.2:compile
++- io.argonaut:argonaut_2.11:jar:6.2:compile
+|  \- (org.scala-lang:scala-reflect:jar:2.11.8:compile - omitted for conflict with 2.12.4)
++- com.jsuereth:scala-arm_2.11:jar:2.0:compile
+|  \- (org.scala-lang:scala-library:jar:2.11.6:compile - omitted for conflict with 2.11.12)
++- edu.stanford.nlp:stanford-corenlp:jar:3.6.0:compile
+|  +- com.io7m.xom:xom:jar:1.2.10:compile
+|  |  +- xml-apis:xml-apis:jar:1.3.03:compile
+|  |  +- xerces:xercesImpl:jar:2.8.0:compile
+|  |  |  \- (xml-apis:xml-apis:jar:1.3.03:compile - omitted for duplicate)
+|  |  \- xalan:xalan:jar:2.7.0:compile
+|  |     \- (xml-apis:xml-apis:jar:1.0.b2:compile - omitted for conflict with 1.3.03)
+|  +- joda-time:joda-time:jar:2.9:compile
+|  +- de.jollyday:jollyday:jar:0.4.7:compile
+|  |  +- (joda-time:joda-time:jar:2.1:compile - omitted for conflict with 2.9)
+|  |  \- javax.xml.bind:jaxb-api:jar:2.2.7:compile
+|  +- com.googlecode.efficient-java-matrix-library:ejml:jar:0.23:compile
+|  +- javax.json:javax.json-api:jar:1.0:compile
+|  \- org.slf4j:slf4j-api:jar:1.7.12:compile
++- com.lihaoyi:upickle_2.11:jar:0.4.4:compile
+|  +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.12)
+|  +- com.lihaoyi:derive_2.11:jar:0.4.4:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.12)
+|  |  \- (com.lihaoyi:sourcecode_2.11:jar:0.1.3:compile - omitted for conflict with 0.1.4)
+|  +- (com.lihaoyi:sourcecode_2.11:jar:0.1.3:compile - omitted for conflict with 0.1.4)
+|  \- org.spire-math:jawn-parser_2.11:jar:0.10.3:compile
+|     \- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for conflict with 2.11.12)
+\- net.sf.trove4j:trove4j:jar:3.0.1:compile

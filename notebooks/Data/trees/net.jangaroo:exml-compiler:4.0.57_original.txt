@@ -1,0 +1,46 @@
+net.jangaroo:exml-compiler:jar:4.0.57
++- net.jangaroo:exml-compiler-api:jar:4.0.57:compile
+|  +- (net.jangaroo:jangaroo-utils:jar:4.0.57:compile - omitted for duplicate)
+|  +- (net.jangaroo:jangaroo-compiler-api:jar:4.0.57:compile - omitted for duplicate)
+|  \- (args4j:args4j:jar:2.33:compile - omitted for duplicate)
++- net.jangaroo:jangaroo-compiler-api:jar:4.0.57:compile
+|  +- (net.jangaroo:jangaroo-utils:jar:4.0.57:compile - omitted for duplicate)
+|  \- (args4j:args4j:jar:2.33:compile - omitted for duplicate)
++- net.jangaroo:jangaroo-utils:jar:4.0.57:compile
+|  \- (args4j:args4j:jar:2.33:compile - omitted for duplicate)
++- junit:junit:jar:4.12:test (scope not updated to compile)
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.apache.commons:commons-lang3:jar:3.2.1:compile
++- commons-io:commons-io:jar:2.4:compile
++- args4j:args4j:jar:2.33:compile
++- org.freemarker:freemarker:jar:2.3.24-incubating:compile
++- jtidy:jtidy:jar:4aug2000r7-dev:compile
++- org.apache.ant:ant:jar:1.8.2:compile
+|  \- org.apache.ant:ant-launcher:jar:1.8.2:compile
++- net.jangaroo:jangaroo-compiler:jar:4.0.57:compile
+|  +- (net.jangaroo:jangaroo-compiler-api:jar:4.0.57:compile - omitted for duplicate)
+|  +- (net.jangaroo:exml-compiler-api:jar:4.0.57:compile - omitted for duplicate)
+|  +- (net.jangaroo:jangaroo-utils:jar:4.0.57:compile - omitted for duplicate)
+|  +- edu.princeton.cup:java-cup:jar:10k:compile
+|  +- commons-configuration:commons-configuration:jar:1.10:compile
+|  |  +- commons-lang:commons-lang:jar:2.6:compile
+|  |  \- commons-logging:commons-logging:jar:1.1.1:compile
+|  +- (args4j:args4j:jar:2.33:compile - omitted for duplicate)
+|  +- (org.freemarker:freemarker:jar:2.3.24-incubating:compile - omitted for duplicate)
+|  +- com.google.guava:guava:jar:18.0:compile
+|  +- com.google.javascript:closure-compiler:jar:v20150126:compile
+|  |  +- com.google.javascript:closure-compiler-externs:jar:v20150126:compile
+|  |  +- (args4j:args4j:jar:2.33:compile - version managed from 2.0.26; omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:18.0:compile - omitted for duplicate)
+|  |  +- com.google.protobuf:protobuf-java:jar:2.5.0:compile
+|  |  +- com.google.code.gson:gson:jar:2.2.4:compile
+|  |  +- (com.google.code.findbugs:jsr305:jar:3.0.1:compile - version managed from 1.3.9; omitted for duplicate)
+|  |  \- com.google.truth:truth:jar:0.24:compile
+|  |     +- (com.google.guava:guava:jar:18.0:compile - version managed from 17.0; omitted for duplicate)
+|  |     \- (junit:junit:jar:4.12:compile - version managed from 4.10; omitted for duplicate)
+|  +- com.google.code.findbugs:jsr305:jar:3.0.1:compile
+|  +- (org.apache.ant:ant:jar:1.8.2:compile - omitted for duplicate)
+|  \- (org.apache.commons:commons-lang3:jar:3.2.1:compile - omitted for duplicate)
+\- org.mockito:mockito-core:jar:1.10.19:test
+   +- (org.hamcrest:hamcrest-core:jar:1.3:test - version managed from 1.1; omitted for duplicate)
+   \- org.objenesis:objenesis:jar:2.1:test

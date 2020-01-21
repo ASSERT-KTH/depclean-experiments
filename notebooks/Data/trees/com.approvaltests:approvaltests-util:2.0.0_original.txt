@@ -1,0 +1,17 @@
+com.approvaltests:approvaltests-util:jar:2.0.0
++- commons-httpclient:commons-httpclient:jar:2.0.1:compile
++- javax.servlet:servlet-api:jar:2.5:compile
++- velocity:velocity:jar:1.4:compile
+|  \- velocity:velocity-dep:jar:1.4:runtime
++- junit:junit:jar:4.12:compile
+|  \- org.hamcrest:hamcrest-core:jar:1.3:compile
++- javax.mail:mail:jar:1.4.7:compile
+|  \- javax.activation:activation:jar:1.1:compile
++- quartz:quartz:jar:1.5.2:compile
+|  \- commons-logging:commons-logging:jar:1.0.4:compile
++- log4j:log4j:jar:1.2.9:compile
++- com.google.code.gson:gson:jar:2.7:compile
++- commons-net:commons-net:jar:1.1.0:compile
+|  \- oro:oro:jar:2.0.7:compile
++- sshtools:j2ssh-core:jar:0.2.9:compile
+\- commons-collections:commons-collections:jar:3.1:compile

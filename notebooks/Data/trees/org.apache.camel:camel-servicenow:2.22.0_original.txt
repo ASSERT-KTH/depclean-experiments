@@ -1,0 +1,103 @@
+org.apache.camel:camel-servicenow:jar:2.22.0
++- org.apache.camel:camel-core:jar:2.22.0:compile
+|  +- org.slf4j:slf4j-api:jar:1.7.25:compile
+|  +- com.sun.xml.bind:jaxb-core:jar:2.3.0.1:compile
+|  \- com.sun.xml.bind:jaxb-impl:jar:2.3.0.1:compile
++- org.apache.cxf:cxf-core:jar:3.2.5:compile
+|  +- com.fasterxml.woodstox:woodstox-core:jar:5.0.3:compile
+|  |  \- org.codehaus.woodstox:stax2-api:jar:3.1.4:compile
+|  \- org.apache.ws.xmlschema:xmlschema-core:jar:2.2.3:compile
++- org.apache.cxf:cxf-rt-frontend-jaxrs:jar:3.2.5:compile
+|  +- (org.apache.cxf:cxf-core:jar:3.2.5:compile - omitted for duplicate)
+|  +- javax.ws.rs:javax.ws.rs-api:jar:2.1:compile
+|  +- javax.annotation:javax.annotation-api:jar:1.3:compile
+|  \- org.apache.cxf:cxf-rt-transports-http:jar:3.2.5:compile
+|     \- (org.apache.cxf:cxf-core:jar:3.2.5:compile - omitted for duplicate)
++- org.apache.cxf:cxf-rt-rs-security-oauth2:jar:3.2.5:compile
+|  +- (org.apache.cxf:cxf-rt-frontend-jaxrs:jar:3.2.5:compile - omitted for duplicate)
+|  +- org.apache.cxf:cxf-rt-rs-security-jose-jaxrs:jar:3.2.5:compile
+|  |  +- (org.apache.cxf:cxf-core:jar:3.2.5:compile - omitted for duplicate)
+|  |  +- org.apache.cxf:cxf-rt-security:jar:3.2.5:compile
+|  |  |  \- (org.apache.cxf:cxf-core:jar:3.2.5:compile - omitted for duplicate)
+|  |  +- (org.apache.cxf:cxf-rt-frontend-jaxrs:jar:3.2.5:compile - omitted for duplicate)
+|  |  \- org.apache.cxf:cxf-rt-rs-security-jose:jar:3.2.5:compile
+|  |     +- (org.apache.cxf:cxf-core:jar:3.2.5:compile - omitted for duplicate)
+|  |     +- (org.apache.cxf:cxf-rt-security:jar:3.2.5:compile - omitted for duplicate)
+|  |     \- org.apache.cxf:cxf-rt-rs-json-basic:jar:3.2.5:compile
+|  |        \- (org.apache.cxf:cxf-core:jar:3.2.5:compile - omitted for duplicate)
+|  \- (org.apache.cxf:cxf-rt-rs-client:jar:3.2.5:compile - omitted for duplicate)
++- org.apache.cxf:cxf-rt-rs-extension-providers:jar:3.2.5:compile
+|  +- (org.apache.cxf:cxf-core:jar:3.2.5:compile - omitted for duplicate)
+|  \- (org.apache.cxf:cxf-rt-frontend-jaxrs:jar:3.2.5:compile - omitted for duplicate)
++- org.apache.cxf:cxf-rt-rs-client:jar:3.2.5:compile
+|  +- (org.apache.cxf:cxf-rt-transports-http:jar:3.2.5:compile - omitted for duplicate)
+|  +- (org.apache.cxf:cxf-core:jar:3.2.5:compile - omitted for duplicate)
+|  \- (org.apache.cxf:cxf-rt-frontend-jaxrs:jar:3.2.5:compile - omitted for duplicate)
++- com.fasterxml.jackson.core:jackson-core:jar:2.9.6:compile
++- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.6:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.9.6:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.6:compile - version managed from 2.9.0; omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.6:compile - omitted for duplicate)
++- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.6:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.6:compile - version managed from 2.9.0; omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.6:compile - omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.6:compile - omitted for duplicate)
++- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.6:compile
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.6:compile - omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.6:compile - omitted for duplicate)
++- com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:jar:2.9.6:compile
+|  +- com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:jar:2.9.6:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.6:compile - omitted for duplicate)
+|  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.6:compile - omitted for duplicate)
+|  \- com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.9.6:compile
+|     +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.6:compile - version managed from 2.9.0; omitted for duplicate)
+|     +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.6:compile - omitted for duplicate)
+|     \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.6:compile - omitted for duplicate)
++- org.apache.camel:camel-test:jar:2.22.0:test
+|  +- (org.apache.camel:camel-core:jar:2.22.0:test - omitted for duplicate)
+|  \- (junit:junit:jar:4.12:test - omitted for duplicate)
++- org.apache.camel:camel-test-blueprint:jar:2.22.0:test
+|  +- (org.apache.camel:camel-test:jar:2.22.0:test - omitted for duplicate)
+|  +- org.apache.camel:camel-blueprint:jar:2.22.0:test
+|  |  +- (org.apache.camel:camel-core:jar:2.22.0:test - omitted for duplicate)
+|  |  +- org.apache.camel:camel-core-xml:jar:2.22.0:test
+|  |  |  \- (org.apache.camel:camel-core:jar:2.22.0:test - omitted for duplicate)
+|  |  \- org.apache.camel:camel-core-osgi:jar:2.22.0:test
+|  |     \- (org.apache.camel:camel-core:jar:2.22.0:test - omitted for duplicate)
+|  +- org.apache.aries.proxy:org.apache.aries.proxy:jar:1.1.1:test
+|  +- org.apache.aries.blueprint:org.apache.aries.blueprint.api:jar:1.0.1:test
+|  +- org.apache.aries.blueprint:org.apache.aries.blueprint.core:jar:1.10.0:test
+|  |  +- (org.apache.aries.blueprint:org.apache.aries.blueprint.api:jar:1.0.1:test - version managed from 1.0.0; omitted for duplicate)
+|  |  +- org.apache.aries.quiesce:org.apache.aries.quiesce.api:jar:1.0.0:test
+|  |  \- org.apache.aries.proxy:org.apache.aries.proxy.api:jar:1.1.0:test
+|  +- org.apache.aries.blueprint:org.apache.aries.blueprint.cm:jar:1.3.0:test
+|  |  +- (org.apache.aries.blueprint:org.apache.aries.blueprint.api:jar:1.0.1:test - version managed from 1.0.0; omitted for duplicate)
+|  |  \- (org.apache.aries.blueprint:org.apache.aries.blueprint.core:jar:1.10.0:test - omitted for duplicate)
+|  +- org.apache.aries:org.apache.aries.util:jar:1.1.3:test
+|  +- org.apache.felix:org.apache.felix.connect:jar:0.2.0:test
+|  +- org.ops4j.pax.swissbox:pax-swissbox-tinybundles:jar:1.3.2:test
+|  |  +- org.ops4j.base:ops4j-base-lang:jar:1.2.2:test
+|  |  +- org.ops4j.base:ops4j-base-io:jar:1.2.2:test
+|  |  |  +- (org.ops4j.base:ops4j-base-lang:jar:1.2.2:test - omitted for duplicate)
+|  |  |  \- org.ops4j.base:ops4j-base-monitors:jar:1.2.2:test
+|  |  +- org.ops4j.base:ops4j-base-store:jar:1.2.2:test
+|  |  |  \- (org.ops4j.base:ops4j-base-io:jar:1.2.2:test - omitted for duplicate)
+|  |  \- org.ops4j.pax.swissbox:pax-swissbox-bnd:jar:1.3.2:test
+|  |     +- biz.aQute:bndlib:jar:0.0.357:test
+|  |     \- (org.ops4j.base:ops4j-base-lang:jar:1.2.2:test - omitted for duplicate)
+|  +- commons-logging:commons-logging:jar:1.2:test
+|  +- (junit:junit:jar:4.12:test - omitted for duplicate)
+|  +- org.apache.felix:org.apache.felix.configadmin:jar:1.8.8:test
+|  \- org.apache.felix:org.apache.felix.fileinstall:jar:3.5.2:test
++- org.apache.logging.log4j:log4j-api:jar:2.11.0:test
++- org.apache.logging.log4j:log4j-core:jar:2.11.0:test
+|  \- (org.apache.logging.log4j:log4j-api:jar:2.11.0:test - omitted for duplicate)
++- org.apache.logging.log4j:log4j-slf4j-impl:jar:2.11.0:test
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:test - version managed from 1.8.0-alpha2; omitted for duplicate)
+|  +- (org.apache.logging.log4j:log4j-api:jar:2.11.0:test - omitted for duplicate)
+|  \- (org.apache.logging.log4j:log4j-core:jar:2.11.0:test - omitted for duplicate)
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
+\- org.apache.camel:apt:jar:2.22.0:provided
+   +- org.apache.camel:spi-annotations:jar:2.22.0:provided
+   \- org.apache.camel:json-simple-ordered:jar:2.22.0:provided

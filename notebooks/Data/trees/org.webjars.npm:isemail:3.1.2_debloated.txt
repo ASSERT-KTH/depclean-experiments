@@ -1,0 +1,1 @@
+org.webjars.npm:isemail:jar:3.1.2

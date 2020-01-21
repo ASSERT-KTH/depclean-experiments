@@ -1,0 +1,26 @@
+com.github.chenhaiyangs:ruubypay-configx-core:jar:1.0.0
++- org.apache.curator:curator-framework:jar:2.11.1:compile
+|  \- org.apache.curator:curator-client:jar:2.11.1:compile
+|     +- org.apache.zookeeper:zookeeper:jar:3.4.8:compile
+|     |  +- (org.slf4j:slf4j-api:jar:1.6.1:compile - omitted for conflict with 1.7.6)
+|     |  +- jline:jline:jar:0.9.94:compile
+|     |  \- io.netty:netty:jar:3.7.0.Final:compile
+|     +- com.google.guava:guava:jar:16.0.1:compile
+|     \- (org.slf4j:slf4j-api:jar:1.7.6:compile - omitted for conflict with 1.7.2)
++- org.springframework:spring-beans:jar:4.3.3.RELEASE:provided
+|  \- org.springframework:spring-core:jar:4.3.3.RELEASE:provided
+|     \- commons-logging:commons-logging:jar:1.2:provided
++- org.springframework:spring-context:jar:4.3.3.RELEASE:provided
+|  +- org.springframework:spring-aop:jar:4.3.3.RELEASE:provided
+|  |  +- (org.springframework:spring-beans:jar:4.3.3.RELEASE:provided - omitted for duplicate)
+|  |  \- (org.springframework:spring-core:jar:4.3.3.RELEASE:provided - omitted for duplicate)
+|  +- (org.springframework:spring-beans:jar:4.3.3.RELEASE:provided - omitted for duplicate)
+|  +- (org.springframework:spring-core:jar:4.3.3.RELEASE:provided - omitted for duplicate)
+|  \- org.springframework:spring-expression:jar:4.3.3.RELEASE:provided
+|     \- (org.springframework:spring-core:jar:4.3.3.RELEASE:provided - omitted for duplicate)
++- org.springframework.cloud:spring-cloud-context:jar:1.0.2.RELEASE:provided
+|  \- org.springframework.security:spring-security-crypto:jar:3.2.7.RELEASE:provided
++- org.slf4j:slf4j-api:jar:1.7.2:compile
++- org.apache.commons:commons-lang3:jar:3.3.2:compile
+\- junit:junit:jar:4.10:test
+   \- org.hamcrest:hamcrest-core:jar:1.1:test

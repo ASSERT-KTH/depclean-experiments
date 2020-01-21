@@ -1,0 +1,2 @@
+ml.combust.mleap:mleap-base_2.10:jar:0.9.1
+\- org.scala-lang:scala-library:jar:2.10.6:compile

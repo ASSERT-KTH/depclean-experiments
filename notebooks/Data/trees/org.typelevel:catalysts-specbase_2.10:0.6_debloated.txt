@@ -1,0 +1,18 @@
+org.typelevel:catalysts-specbase_2.10:jar:0.6
++- org.scala-lang:scala-library:jar:2.10.7:compile
+\- org.typelevel:catalysts-testkit_2.10:jar:0.6:compile
+   +- (org.scala-lang:scala-library:jar:2.10.7:compile - omitted for duplicate)
+   +- org.typelevel:catalysts-macros_2.10:jar:0.6:compile
+   |  +- (org.scala-lang:scala-library:jar:2.10.7:compile - omitted for duplicate)
+   |  +- (org.typelevel:macro-compat_2.10:jar:1.1.1:compile - omitted for duplicate)
+   |  \- (org.scalamacros:quasiquotes_2.10:jar:2.1.0:compile - omitted for duplicate)
+   +- org.typelevel:catalysts-platform_2.10:jar:0.6:compile
+   |  +- (org.scala-lang:scala-library:jar:2.10.7:compile - omitted for duplicate)
+   |  \- (org.typelevel:catalysts-macros_2.10:jar:0.6:compile - omitted for duplicate)
+   +- org.typelevel:macro-compat_2.10:jar:1.1.1:compile
+   |  +- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for conflict with 2.10.7)
+   |  \- (org.scalamacros:quasiquotes_2.10:jar:2.1.0:compile - omitted for duplicate)
+   \- org.scalamacros:quasiquotes_2.10:jar:2.1.0:compile
+      +- (org.scala-lang:scala-library:jar:2.10.4:compile - omitted for conflict with 2.10.7)
+      \- org.scala-lang:scala-reflect:jar:2.10.4:compile
+         \- (org.scala-lang:scala-library:jar:2.10.4:compile - omitted for conflict with 2.10.7)

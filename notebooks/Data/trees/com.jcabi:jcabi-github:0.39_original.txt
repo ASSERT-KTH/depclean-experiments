@@ -1,0 +1,98 @@
+com.jcabi:jcabi-github:jar:0.39
++- com.jcabi:jcabi-aspects:jar:0.22.5:compile
+|  +- (com.jcabi:jcabi-log:jar:0.17:compile - version managed from 0.14; omitted for conflict with 0.17.2)
+|  +- (org.aspectj:aspectjrt:jar:1.8.7:compile - omitted for duplicate)
+|  \- (javax.validation:validation-api:jar:1.1.0.Final:compile - omitted for duplicate)
++- com.jcabi:jcabi-immutable:jar:1.4:compile
+|  \- (com.jcabi:jcabi-aspects:jar:0.22:compile - version managed from 0.20.1; omitted for conflict with 0.22.5)
++- com.jcabi:jcabi-xml:jar:0.18.1:compile
+|  +- (com.jcabi:jcabi-log:jar:0.17:compile - omitted for duplicate)
+|  +- (com.jcabi:jcabi-immutable:jar:1.4:compile - omitted for duplicate)
+|  \- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
++- com.jcabi:jcabi-http:jar:1.16:compile
+|  +- (com.jcabi:jcabi-immutable:jar:1.4:compile - omitted for duplicate)
+|  +- (com.jcabi:jcabi-aspects:jar:0.22:compile - version managed from 0.22.2; omitted for conflict with 0.22.5)
+|  +- (com.jcabi:jcabi-log:jar:0.17:compile - omitted for duplicate)
+|  \- com.jcabi:jcabi-manifests:jar:1.1:compile
+|     \- (com.jcabi:jcabi-log:jar:0.17:compile - version managed from 0.14; omitted for duplicate)
++- com.jcabi.incubator:xembly:jar:0.22:compile
+|  \- org.antlr:antlr-runtime:jar:3.5.2:compile
++- com.jcabi:jcabi-log:jar:0.17.2:compile
+|  +- org.slf4j:slf4j-api:jar:1.7.5:compile
+|  \- (com.jcabi:jcabi-aspects:jar:0.22:compile - version managed from 0.22.2; omitted for conflict with 0.22.5)
++- commons-io:commons-io:jar:2.4:compile
++- org.apache.commons:commons-lang3:jar:3.4:compile
++- org.hamcrest:hamcrest-library:jar:1.3:compile
+|  \- (org.hamcrest:hamcrest-core:jar:1.3:compile - omitted for duplicate)
++- org.hamcrest:hamcrest-core:jar:1.3:compile
++- commons-collections:commons-collections:jar:3.2.1:test
++- commons-codec:commons-codec:jar:1.10:test (scope not updated to runtime)
++- com.google.guava:guava:jar:19.0-rc2:compile
++- org.reflections:reflections:jar:0.9.10:test
+|  +- (com.google.guava:guava:jar:19.0-rc2:test - version managed from 15.0; omitted for duplicate)
+|  +- (org.javassist:javassist:jar:3.19.0-GA:runtime - scope updated from test; omitted for duplicate)
+|  \- com.google.code.findbugs:annotations:jar:2.0.1:test
++- org.projectlombok:lombok:jar:1.16.6:provided
++- javax.validation:validation-api:jar:1.1.0.Final:test (scope not updated to runtime)
++- org.aspectj:aspectjrt:jar:1.8.7:runtime (scope not updated to compile)
++- javax.ws.rs:jsr311-api:jar:1.1.1:provided
++- javax.json:javax.json-api:jar:1.0:provided
++- org.glassfish:javax.json:jar:1.0.4:runtime
++- javax.servlet:servlet-api:jar:3.0-alpha-1:provided
++- org.glassfish.jersey.core:jersey-server:jar:2.17:runtime
+|  +- org.glassfish.jersey.core:jersey-common:jar:2.17:runtime
+|  |  +- (javax.ws.rs:javax.ws.rs-api:jar:2.0.1:runtime - omitted for duplicate)
+|  |  +- (javax.annotation:javax.annotation-api:jar:1.2:runtime - omitted for duplicate)
+|  |  +- org.glassfish.jersey.bundles.repackaged:jersey-guava:jar:2.17:runtime
+|  |  +- (org.glassfish.hk2:hk2-api:jar:2.4.0-b10:runtime - omitted for duplicate)
+|  |  +- (org.glassfish.hk2.external:javax.inject:jar:2.4.0-b10:runtime - omitted for duplicate)
+|  |  +- (org.glassfish.hk2:hk2-locator:jar:2.4.0-b10:runtime - omitted for duplicate)
+|  |  \- org.glassfish.hk2:osgi-resource-locator:jar:1.0.1:runtime
+|  +- org.glassfish.jersey.core:jersey-client:jar:2.17:runtime
+|  |  +- (javax.ws.rs:javax.ws.rs-api:jar:2.0.1:runtime - omitted for duplicate)
+|  |  +- (org.glassfish.jersey.core:jersey-common:jar:2.17:runtime - omitted for duplicate)
+|  |  +- (org.glassfish.hk2:hk2-api:jar:2.4.0-b10:runtime - omitted for duplicate)
+|  |  +- (org.glassfish.hk2.external:javax.inject:jar:2.4.0-b10:runtime - omitted for duplicate)
+|  |  \- (org.glassfish.hk2:hk2-locator:jar:2.4.0-b10:runtime - omitted for duplicate)
+|  +- javax.ws.rs:javax.ws.rs-api:jar:2.0.1:runtime
+|  +- org.glassfish.jersey.media:jersey-media-jaxb:jar:2.17:runtime
+|  |  +- (org.glassfish.jersey.core:jersey-common:jar:2.17:runtime - omitted for duplicate)
+|  |  +- (org.glassfish.hk2:hk2-api:jar:2.4.0-b10:runtime - omitted for duplicate)
+|  |  +- (org.glassfish.hk2.external:javax.inject:jar:2.4.0-b10:runtime - omitted for duplicate)
+|  |  +- (org.glassfish.hk2:hk2-locator:jar:2.4.0-b10:runtime - omitted for duplicate)
+|  |  \- (org.glassfish.hk2:osgi-resource-locator:jar:1.0.1:runtime - omitted for duplicate)
+|  +- javax.annotation:javax.annotation-api:jar:1.2:runtime
+|  +- org.glassfish.hk2:hk2-api:jar:2.4.0-b10:runtime
+|  |  +- org.glassfish.hk2:hk2-utils:jar:2.4.0-b10:runtime
+|  |  \- org.glassfish.hk2.external:aopalliance-repackaged:jar:2.4.0-b10:runtime
+|  +- org.glassfish.hk2.external:javax.inject:jar:2.4.0-b10:runtime
+|  +- org.glassfish.hk2:hk2-locator:jar:2.4.0-b10:runtime
+|  |  +- (org.glassfish.hk2.external:javax.inject:jar:2.4.0-b10:runtime - omitted for duplicate)
+|  |  +- (org.glassfish.hk2.external:aopalliance-repackaged:jar:2.4.0-b10:runtime - omitted for duplicate)
+|  |  +- (org.glassfish.hk2:hk2-api:jar:2.4.0-b10:runtime - omitted for duplicate)
+|  |  +- (org.glassfish.hk2:hk2-utils:jar:2.4.0-b10:runtime - omitted for duplicate)
+|  |  \- org.javassist:javassist:jar:3.18.1-GA:runtime
+|  \- (javax.validation:validation-api:jar:1.1.0.Final:runtime - omitted for duplicate)
++- org.apache.httpcomponents:httpcore:jar:4.4.6:runtime
++- org.apache.httpcomponents:httpclient:jar:4.5.3:runtime
+|  +- (org.apache.httpcomponents:httpcore:jar:4.4.6:runtime - omitted for duplicate)
+|  +- commons-logging:commons-logging:jar:1.2:runtime
+|  \- (commons-codec:commons-codec:jar:1.10:runtime - version managed from 1.9; omitted for duplicate)
++- xerces:xercesImpl:jar:2.11.0:test
+|  \- (xml-apis:xml-apis:jar:1.4.01:test - omitted for duplicate)
++- xml-apis:xml-apis:jar:1.4.01:provided
++- com.sun.grizzly:grizzly-servlet-webserver:jar:1.9.64:test
+|  +- com.sun.grizzly:grizzly-http:jar:1.9.64:test
+|  |  +- com.sun.grizzly:grizzly-framework:jar:1.9.64:test
+|  |  |  \- (com.sun.grizzly:grizzly-utils:jar:1.9.64:test - omitted for duplicate)
+|  |  +- com.sun.grizzly:grizzly-rcm:jar:1.9.64:test
+|  |  |  +- (com.sun.grizzly:grizzly-framework:jar:1.9.64:test - omitted for duplicate)
+|  |  |  \- (com.sun.grizzly:grizzly-utils:jar:1.9.64:test - omitted for duplicate)
+|  |  +- com.sun.grizzly:grizzly-portunif:jar:1.9.64:test
+|  |  |  \- (com.sun.grizzly:grizzly-framework:jar:1.9.64:test - omitted for duplicate)
+|  |  \- com.sun.grizzly:grizzly-utils:jar:1.9.64:test
+|  |     \- com.sun.grizzly:grizzly-lzma:jar:1.9.64:test
+|  +- com.sun.grizzly:grizzly-http-servlet:jar:1.9.64:test
+|  |  \- (com.sun.grizzly:grizzly-utils:jar:1.9.64:test - omitted for duplicate)
+|  \- (javax.servlet:servlet-api:jar:3.0-alpha-1:provided - version managed from 2.5; scope managed from test; omitted for duplicate)
+\- com.jcraft:jsch:jar:0.1.54:test

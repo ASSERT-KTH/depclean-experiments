@@ -1,0 +1,477 @@
+org.apache.uima:uima-ducc-cli:jar:2.2.2
++- org.apache.uima:uima-ducc-common:jar:2.2.2:compile
+|  +- (org.apache.uima:uimaj-core:jar:2.10.2:compile - omitted for duplicate)
+|  +- org.apache.uima:uimaj-as-core:jar:2.10.2:compile
+|  |  +- (org.apache.uima:uimaj-core:jar:2.10.2:compile - omitted for duplicate)
+|  |  +- (org.apache.commons:commons-pool2:jar:2.4.2:compile - omitted for duplicate)
+|  |  +- com.thoughtworks.xstream:xstream:jar:1.4.10:compile
+|  |  |  +- (xmlpull:xmlpull:jar:1.1.3.1:compile - omitted for duplicate)
+|  |  |  \- xpp3:xpp3_min:jar:1.1.4c:compile
+|  |  +- org.apache.xmlbeans:xmlbeans:jar:2.5.0:compile (version managed from 2.4.0)
+|  |  |  \- (stax:stax-api:jar:1.0.1:compile - omitted for duplicate)
+|  |  +- org.springframework:spring-core:jar:4.3.9.RELEASE:compile
+|  |  |  \- (commons-logging:commons-logging:jar:1.1.3:compile - omitted for duplicate)
+|  |  +- org.springframework:spring-aop:jar:4.3.9.RELEASE:compile
+|  |  |  +- (org.springframework:spring-beans:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|  |  |  \- (org.springframework:spring-core:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|  |  +- org.springframework:spring-beans:jar:4.3.9.RELEASE:compile
+|  |  |  \- (org.springframework:spring-core:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|  |  +- org.springframework:spring-context:jar:4.3.9.RELEASE:compile
+|  |  |  +- (org.springframework:spring-aop:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|  |  |  +- (org.springframework:spring-beans:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|  |  |  +- (org.springframework:spring-core:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|  |  |  \- (org.springframework:spring-expression:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|  |  +- org.springframework:spring-expression:jar:4.3.9.RELEASE:compile
+|  |  |  \- (org.springframework:spring-core:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|  |  +- org.springframework:spring-tx:jar:4.3.9.RELEASE:compile
+|  |  |  +- (org.springframework:spring-beans:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|  |  |  \- (org.springframework:spring-core:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|  |  \- org.springframework:spring-jms:jar:4.3.9.RELEASE:compile
+|  |     +- (org.springframework:spring-aop:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|  |     +- (org.springframework:spring-beans:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|  |     +- (org.springframework:spring-context:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|  |     +- (org.springframework:spring-core:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|  |     +- org.springframework:spring-messaging:jar:4.3.9.RELEASE:compile
+|  |     |  +- (org.springframework:spring-beans:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|  |     |  +- (org.springframework:spring-context:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|  |     |  \- (org.springframework:spring-core:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|  |     \- (org.springframework:spring-tx:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|  +- org.apache.camel:camel-core:jar:2.19.3:compile
+|  |  +- org.slf4j:slf4j-api:jar:1.7.25:compile (version managed from 1.7.22)
+|  |  +- com.sun.xml.bind:jaxb-core:jar:2.2.11:compile
+|  |  \- com.sun.xml.bind:jaxb-impl:jar:2.2.11:compile
+|  +- org.apache.activemq:activemq-camel:jar:5.15.2:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.22; omitted for duplicate)
+|  |  +- org.apache.camel:camel-jms:jar:2.19.3:compile
+|  |  |  +- (org.apache.camel:camel-core:jar:2.19.3:compile - omitted for duplicate)
+|  |  |  +- org.apache.camel:camel-spring:jar:2.19.3:compile
+|  |  |  |  +- (org.apache.camel:camel-core:jar:2.19.3:compile - omitted for duplicate)
+|  |  |  |  +- (org.springframework:spring-core:jar:4.3.9.RELEASE:compile - version managed from 4.3.10.RELEASE; omitted for duplicate)
+|  |  |  |  +- (org.springframework:spring-aop:jar:4.3.10.RELEASE:compile - omitted for conflict with 4.3.9.RELEASE)
+|  |  |  |  +- (org.springframework:spring-context:jar:4.3.10.RELEASE:compile - omitted for conflict with 4.3.9.RELEASE)
+|  |  |  |  +- (org.springframework:spring-beans:jar:4.3.10.RELEASE:compile - omitted for conflict with 4.3.9.RELEASE)
+|  |  |  |  +- (org.springframework:spring-expression:jar:4.3.10.RELEASE:compile - omitted for conflict with 4.3.9.RELEASE)
+|  |  |  |  \- (org.springframework:spring-tx:jar:4.3.10.RELEASE:compile - omitted for conflict with 4.3.9.RELEASE)
+|  |  |  +- (org.springframework:spring-jms:jar:4.3.10.RELEASE:compile - omitted for conflict with 4.3.9.RELEASE)
+|  |  |  +- (org.springframework:spring-context:jar:4.3.10.RELEASE:compile - omitted for conflict with 4.3.9.RELEASE)
+|  |  |  +- (org.springframework:spring-tx:jar:4.3.10.RELEASE:compile - omitted for conflict with 4.3.9.RELEASE)
+|  |  |  \- (org.springframework:spring-beans:jar:4.3.10.RELEASE:compile - omitted for conflict with 4.3.9.RELEASE)
+|  |  +- org.apache.activemq:activemq-spring:jar:5.15.2:compile
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.22; omitted for duplicate)
+|  |  |  +- org.apache.xbean:xbean-spring:jar:4.2:compile
+|  |  |  |  \- (commons-logging:commons-logging:jar:1.0.3:compile - omitted for conflict with 1.1.3)
+|  |  |  +- (org.apache.activemq:activemq-broker:jar:5.15.2:compile - omitted for duplicate)
+|  |  |  +- (org.apache.activemq:activemq-pool:jar:5.15.2:compile - omitted for duplicate)
+|  |  |  +- org.apache.geronimo.specs:geronimo-jta_1.0.1B_spec:jar:1.0.1:compile
+|  |  |  \- (org.apache.commons:commons-pool2:jar:2.4.2:compile - omitted for duplicate)
+|  |  \- org.apache.activemq:activemq-pool:jar:5.15.2:compile
+|  |     +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.22; omitted for duplicate)
+|  |     +- org.apache.activemq:activemq-jms-pool:jar:5.15.2:compile
+|  |     |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.22; omitted for duplicate)
+|  |     |  +- (org.apache.geronimo.specs:geronimo-jms_1.1_spec:jar:1.1.1:compile - omitted for duplicate)
+|  |     |  +- (org.apache.geronimo.specs:geronimo-jta_1.0.1B_spec:jar:1.0.1:compile - omitted for duplicate)
+|  |     |  \- (org.apache.commons:commons-pool2:jar:2.4.2:compile - omitted for duplicate)
+|  |     +- (org.apache.activemq:activemq-client:jar:5.15.2:compile - omitted for duplicate)
+|  |     +- (org.apache.geronimo.specs:geronimo-jta_1.0.1B_spec:jar:1.0.1:compile - omitted for duplicate)
+|  |     \- (org.apache.commons:commons-pool2:jar:2.4.2:compile - omitted for duplicate)
+|  +- joda-time:joda-time:jar:2.1:compile
+|  +- (com.google.code.gson:gson:jar:2.2.2:compile - omitted for duplicate)
+|  +- com.jcraft:jsch:jar:0.1.29:compile
+|  +- commons-cli:commons-cli:jar:1.2:compile
+|  +- commons-collections:commons-collections:jar:3.2.2:compile
+|  +- commons-lang:commons-lang:jar:2.6:compile
+|  +- com.google.guava:guava:jar:14.0.1:compile
+|  +- org.apache.camel:camel-xstream:jar:2.19.3:compile
+|  |  +- (org.apache.camel:camel-core:jar:2.19.3:compile - omitted for duplicate)
+|  |  +- (com.thoughtworks.xstream:xstream:jar:1.4.10:compile - version managed from 1.4.9; omitted for duplicate)
+|  |  +- stax:stax-api:jar:1.0.1:compile
+|  |  +- org.codehaus.jettison:jettison:jar:1.3.8:compile
+|  |  |  \- (stax:stax-api:jar:1.0.1:compile - omitted for duplicate)
+|  |  \- org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1:compile
+|  |     \- org.codehaus.woodstox:stax2-api:jar:3.1.4:compile
+|  +- org.slf4j:slf4j-log4j12:jar:1.7.25:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.22; omitted for duplicate)
+|  |  \- log4j:log4j:jar:1.2.17:compile
+|  +- (org.apache.uima:uima-ducc-user:jar:2.2.2:compile - omitted for duplicate)
+|  +- (org.apache.commons:commons-pool2:jar:2.4.2:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-server:jar:9.2.22.v20170606:compile - version managed from 9.3.14.v20161028; omitted for duplicate)
+|  +- (xpp3:xpp3:jar:1.1.4c:compile - omitted for duplicate)
+|  +- (org.apache.httpcomponents:httpclient:jar:4.3.5:compile - version managed from 4.5.3; scope updated from runtime; omitted for duplicate)
+|  +- (xmlpull:xmlpull:jar:1.1.3.1:compile - scope updated from runtime; omitted for duplicate)
+|  +- (org.apache.httpcomponents:httpclient-cache:jar:4.3.5:compile - scope updated from runtime; omitted for duplicate)
+|  +- (org.apache.httpcomponents:httpcore:jar:4.4.6:compile - version managed from 4.3.2; omitted for duplicate)
+|  +- (org.slf4j:jcl-over-slf4j:jar:1.7.25:runtime - omitted for duplicate)
+|  +- (org.apache.camel:camel-context:jar:2.19.3:runtime - omitted for duplicate)
+|  +- (org.apache.camel:camel-http4:jar:2.19.3:runtime - omitted for duplicate)
+|  +- (org.apache.camel:camel-http:jar:2.19.3:runtime - omitted for duplicate)
+|  +- (org.apache.camel:camel-http-common:jar:2.19.3:compile - omitted for duplicate)
+|  +- (org.apache.camel:camel-jetty-common:jar:2.19.3:compile - scope updated from runtime; omitted for duplicate)
+|  +- (org.apache.camel:camel-mina:jar:2.19.3:runtime - omitted for duplicate)
+|  +- (org.apache.camel:camel-xmlbeans:jar:2.19.3:runtime - omitted for duplicate)
+|  +- (org.apache.mina:mina-core:jar:1.1.7:runtime - omitted for duplicate)
+|  +- (org.apache.camel:camel-servlet:jar:2.19.3:runtime - omitted for duplicate)
+|  +- (org.apache.camel:camel-test-spring:jar:2.19.3:runtime - omitted for duplicate)
+|  +- (org.apache.camel:camel-test:jar:2.19.3:runtime - omitted for duplicate)
+|  \- (org.apache.camel:camel-stream:jar:2.19.3:runtime - omitted for duplicate)
++- org.apache.uima:uima-ducc-transport:jar:2.2.2:compile
+|  +- (org.apache.uima:uima-ducc-common:jar:2.2.2:compile - omitted for duplicate)
+|  +- org.apache.camel:camel-jetty:jar:2.19.3:compile
+|  |  \- (org.apache.camel:camel-jetty9:jar:2.19.3:compile - omitted for duplicate)
+|  +- org.apache.camel:camel-jetty9:jar:2.19.3:compile
+|  |  +- (org.apache.camel:camel-core:jar:2.19.3:compile - omitted for duplicate)
+|  |  +- (org.apache.camel:camel-http-common:jar:2.19.3:compile - omitted for duplicate)
+|  |  +- (org.eclipse.jetty:jetty-server:jar:9.2.22.v20170606:compile - version managed from 9.3.14.v20161028; omitted for duplicate)
+|  |  +- org.eclipse.jetty:jetty-servlet:jar:9.3.14.v20161028:compile
+|  |  |  \- (org.eclipse.jetty:jetty-security:jar:9.3.14.v20161028:compile - omitted for duplicate)
+|  |  +- org.eclipse.jetty:jetty-security:jar:9.3.14.v20161028:compile
+|  |  |  \- (org.eclipse.jetty:jetty-server:jar:9.2.22.v20170606:compile - version managed from 9.3.14.v20161028; omitted for duplicate)
+|  |  +- org.eclipse.jetty:jetty-servlets:jar:9.3.14.v20161028:compile
+|  |  |  +- org.eclipse.jetty:jetty-continuation:jar:9.3.14.v20161028:compile
+|  |  |  +- (org.eclipse.jetty:jetty-http:jar:9.3.14.v20161028:compile - omitted for conflict with 9.2.22.v20170606)
+|  |  |  +- (org.eclipse.jetty:jetty-util:jar:9.3.14.v20161028:compile - omitted for conflict with 9.2.22.v20170606)
+|  |  |  \- (org.eclipse.jetty:jetty-io:jar:9.3.14.v20161028:compile - omitted for conflict with 9.2.22.v20170606)
+|  |  +- org.eclipse.jetty:jetty-client:jar:9.3.14.v20161028:compile
+|  |  |  +- (org.eclipse.jetty:jetty-http:jar:9.3.14.v20161028:compile - omitted for conflict with 9.2.22.v20170606)
+|  |  |  \- (org.eclipse.jetty:jetty-io:jar:9.3.14.v20161028:compile - omitted for conflict with 9.2.22.v20170606)
+|  |  +- org.eclipse.jetty:jetty-jmx:jar:9.3.14.v20161028:compile
+|  |  |  \- (org.eclipse.jetty:jetty-util:jar:9.3.14.v20161028:compile - omitted for conflict with 9.2.22.v20170606)
+|  |  +- org.eclipse.jetty:jetty-util:jar:9.3.14.v20161028:compile
+|  |  \- (org.apache.camel:camel-jetty-common:jar:2.19.3:compile - omitted for duplicate)
+|  +- org.apache.uima:uima-ducc-container:jar:2.2.2:compile
+|  |  +- (org.apache.uima:uima-ducc-common:jar:2.2.2:compile - omitted for duplicate)
+|  |  +- (org.apache.uima:uima-ducc-user:jar:2.2.2:compile - omitted for duplicate)
+|  |  +- (org.apache.commons:commons-pool2:jar:2.4.2:compile - omitted for duplicate)
+|  |  +- (org.eclipse.jetty:jetty-server:jar:9.2.22.v20170606:compile - version managed from 9.3.14.v20161028; omitted for duplicate)
+|  |  +- (xpp3:xpp3:jar:1.1.4c:compile - omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpclient:jar:4.3.5:compile - version managed from 4.5.3; scope updated from runtime; omitted for duplicate)
+|  |  +- (xmlpull:xmlpull:jar:1.1.3.1:compile - scope updated from runtime; omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpclient-cache:jar:4.3.5:runtime - omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpcore:jar:4.4.6:compile - version managed from 4.4.4; omitted for duplicate)
+|  |  +- (org.slf4j:jcl-over-slf4j:jar:1.7.25:runtime - omitted for duplicate)
+|  |  +- (org.apache.camel:camel-context:jar:2.19.3:runtime - omitted for duplicate)
+|  |  +- (org.apache.camel:camel-http4:jar:2.19.3:runtime - omitted for duplicate)
+|  |  +- (org.apache.camel:camel-http:jar:2.19.3:runtime - omitted for duplicate)
+|  |  +- (org.apache.camel:camel-http-common:jar:2.19.3:compile - omitted for duplicate)
+|  |  +- (org.apache.camel:camel-jetty-common:jar:2.19.3:runtime - omitted for duplicate)
+|  |  +- (org.apache.camel:camel-mina:jar:2.19.3:runtime - omitted for duplicate)
+|  |  +- (org.apache.camel:camel-xmlbeans:jar:2.19.3:runtime - omitted for duplicate)
+|  |  +- (org.apache.mina:mina-core:jar:1.1.7:runtime - omitted for duplicate)
+|  |  +- (org.apache.camel:camel-servlet:jar:2.19.3:runtime - omitted for duplicate)
+|  |  +- (org.apache.camel:camel-test-spring:jar:2.19.3:runtime - omitted for duplicate)
+|  |  +- (org.apache.camel:camel-test:jar:2.19.3:runtime - omitted for duplicate)
+|  |  \- (org.apache.camel:camel-stream:jar:2.19.3:runtime - omitted for duplicate)
+|  +- (org.apache.httpcomponents:httpclient:jar:4.3.5:compile - version managed from 4.5.3; omitted for duplicate)
+|  +- (org.apache.httpcomponents:httpclient-cache:jar:4.3.5:compile - omitted for duplicate)
+|  +- (org.apache.httpcomponents:httpcore:jar:4.4.6:compile - version managed from 4.3.2; omitted for duplicate)
+|  +- (org.apache.commons:commons-pool2:jar:2.4.2:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-server:jar:9.2.22.v20170606:compile - version managed from 9.3.14.v20161028; omitted for duplicate)
+|  +- (xpp3:xpp3:jar:1.1.4c:compile - omitted for duplicate)
+|  +- (xmlpull:xmlpull:jar:1.1.3.1:compile - scope updated from runtime; omitted for duplicate)
+|  +- (org.slf4j:jcl-over-slf4j:jar:1.7.25:runtime - omitted for duplicate)
+|  +- (org.apache.camel:camel-context:jar:2.19.3:runtime - omitted for duplicate)
+|  +- (org.apache.camel:camel-http4:jar:2.19.3:runtime - omitted for duplicate)
+|  +- (org.apache.camel:camel-http:jar:2.19.3:runtime - omitted for duplicate)
+|  +- (org.apache.camel:camel-http-common:jar:2.19.3:compile - omitted for duplicate)
+|  +- (org.apache.camel:camel-jetty-common:jar:2.19.3:compile - scope updated from runtime; omitted for duplicate)
+|  +- (org.apache.camel:camel-mina:jar:2.19.3:runtime - omitted for duplicate)
+|  +- (org.apache.camel:camel-xmlbeans:jar:2.19.3:runtime - omitted for duplicate)
+|  +- (org.apache.mina:mina-core:jar:1.1.7:runtime - omitted for duplicate)
+|  +- (org.apache.camel:camel-servlet:jar:2.19.3:runtime - omitted for duplicate)
+|  +- (org.apache.camel:camel-test-spring:jar:2.19.3:runtime - omitted for duplicate)
+|  +- (org.apache.camel:camel-test:jar:2.19.3:runtime - omitted for duplicate)
+|  \- (org.apache.camel:camel-stream:jar:2.19.3:runtime - omitted for duplicate)
++- org.apache.uima:uima-ducc-user:jar:2.2.2:compile
+|  +- org.apache.uima:uimaj-as-activemq:jar:2.10.2:compile
+|  |  +- (org.apache.uima:uimaj-core:jar:2.10.2:compile - omitted for duplicate)
+|  |  +- org.apache.activemq:activemq-client:jar:5.15.2:compile
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.4.3; omitted for duplicate)
+|  |  |  +- (org.apache.geronimo.specs:geronimo-jms_1.1_spec:jar:1.1.1:compile - omitted for duplicate)
+|  |  |  +- (org.fusesource.hawtbuf:hawtbuf:jar:1.11:compile - omitted for duplicate)
+|  |  |  \- (org.apache.geronimo.specs:geronimo-j2ee-management_1.1_spec:jar:1.0.1:compile - omitted for duplicate)
+|  |  +- org.apache.activemq:activemq-broker:jar:5.15.2:compile
+|  |  |  +- (org.apache.activemq:activemq-client:jar:5.15.2:compile - omitted for duplicate)
+|  |  |  +- org.apache.activemq:activemq-openwire-legacy:jar:5.15.2:compile
+|  |  |  |  \- (org.apache.activemq:activemq-client:jar:5.15.2:compile - omitted for duplicate)
+|  |  |  +- (com.google.guava:guava:jar:14.0.1:compile - version managed from 18.0; omitted for duplicate)
+|  |  |  \- com.fasterxml.jackson.core:jackson-databind:jar:2.6.7:compile
+|  |  |     +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.6.0:compile - omitted for conflict with 2.6.7)
+|  |  |     \- (com.fasterxml.jackson.core:jackson-core:jar:2.6.7:compile - omitted for duplicate)
+|  |  +- org.apache.activemq:activemq-jaas:jar:5.15.2:compile
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.4.3; omitted for duplicate)
+|  |  +- org.apache.activemq:activemq-console:jar:5.15.2:compile
+|  |  |  +- (org.apache.activemq:activemq-kahadb-store:jar:5.15.2:compile - omitted for duplicate)
+|  |  |  +- org.apache.activemq:activeio-core:jar:3.1.4:compile
+|  |  |  |  +- (org.apache.geronimo.specs:geronimo-j2ee-management_1.1_spec:jar:1.0.1:compile - omitted for duplicate)
+|  |  |  |  \- (commons-logging:commons-logging:jar:1.1:compile - omitted for conflict with 1.1.3)
+|  |  |  +- (org.apache.geronimo.specs:geronimo-jms_1.1_spec:jar:1.1.1:compile - omitted for duplicate)
+|  |  |  +- (org.apache.commons:commons-pool2:jar:2.4.2:compile - omitted for duplicate)
+|  |  |  +- (org.apache.xbean:xbean-spring:jar:4.2:compile - omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.4.3; omitted for duplicate)
+|  |  |  +- org.fusesource.hawtbuf:hawtbuf-proto:jar:1.11:compile
+|  |  |  |  \- (org.fusesource.hawtbuf:hawtbuf:jar:1.11:compile - omitted for duplicate)
+|  |  |  +- com.fasterxml.jackson.core:jackson-core:jar:2.6.7:compile
+|  |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.6.7:compile
+|  |  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.6.7:compile - omitted for duplicate)
+|  |  |  +- org.apache.velocity:velocity:jar:1.7:compile
+|  |  |  |  +- (commons-collections:commons-collections:jar:3.2.2:compile - version managed from 3.2.1; omitted for duplicate)
+|  |  |  |  \- (commons-lang:commons-lang:jar:2.6:compile - version managed from 2.4; omitted for duplicate)
+|  |  |  +- (commons-collections:commons-collections:jar:3.2.2:compile - version managed from 3.2.1; omitted for duplicate)
+|  |  |  +- (commons-lang:commons-lang:jar:2.6:compile - version managed from 2.4; omitted for duplicate)
+|  |  |  +- org.apache.servicemix.bundles:org.apache.servicemix.bundles.josql:jar:1.5_5:compile
+|  |  |  +- org.jasypt:jasypt:jar:1.9.2:compile
+|  |  |  \- commons-daemon:commons-daemon:jar:1.0.15:compile
+|  |  +- org.apache.activemq:activemq-http:jar:5.15.2:compile
+|  |  |  +- (org.apache.activemq:activemq-spring:jar:5.15.2:compile - omitted for duplicate)
+|  |  |  +- (org.springframework:spring-context:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|  |  |  +- (org.springframework:spring-jms:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|  |  |  +- org.apache.activemq:activemq-stomp:jar:5.15.2:compile
+|  |  |  |  \- (org.apache.activemq:activemq-broker:jar:5.15.2:compile - omitted for duplicate)
+|  |  |  +- org.apache.activemq:activemq-mqtt:jar:5.15.2:compile
+|  |  |  |  +- (org.apache.activemq:activemq-broker:jar:5.15.2:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.activemq.protobuf:activemq-protobuf:jar:1.1:compile - omitted for duplicate)
+|  |  |  |  +- org.fusesource.mqtt-client:mqtt-client:jar:1.14:compile
+|  |  |  |  |  +- (org.fusesource.hawtdispatch:hawtdispatch-transport:jar:1.22:compile - omitted for duplicate)
+|  |  |  |  |  \- (org.fusesource.hawtbuf:hawtbuf:jar:1.11:compile - omitted for duplicate)
+|  |  |  |  +- org.fusesource.hawtdispatch:hawtdispatch-transport:jar:1.22:compile
+|  |  |  |  |  \- (org.fusesource.hawtdispatch:hawtdispatch:jar:1.22:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.geronimo.specs:geronimo-j2ee-management_1.1_spec:jar:1.0.1:compile - omitted for duplicate)
+|  |  |  |  \- (commons-net:commons-net:jar:3.6:compile - omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.4.3; omitted for duplicate)
+|  |  |  +- (org.eclipse.jetty.aggregate:jetty-all:jar:9.2.22.v20170606:compile - omitted for duplicate)
+|  |  |  +- (org.apache.httpcomponents:httpclient:jar:4.3.5:compile - version managed from 4.5.3; omitted for duplicate)
+|  |  |  \- (com.thoughtworks.xstream:xstream:jar:1.4.10:compile - version managed from 1.4.9; omitted for duplicate)
+|  |  +- org.apache.activemq:activemq-web:jar:5.15.2:compile
+|  |  |  +- org.apache.activemq:activemq-all:jar:5.15.2:compile
+|  |  |  +- (org.apache.activemq:activemq-pool:jar:5.15.2:compile - omitted for duplicate)
+|  |  |  +- org.eclipse.jetty.websocket:websocket-server:jar:9.2.22.v20170606:compile
+|  |  |  |  +- org.eclipse.jetty.websocket:websocket-common:jar:9.2.22.v20170606:compile
+|  |  |  |  |  +- org.eclipse.jetty.websocket:websocket-api:jar:9.2.22.v20170606:compile
+|  |  |  |  |  +- (org.eclipse.jetty:jetty-util:jar:9.2.22.v20170606:compile - omitted for conflict with 9.3.14.v20161028)
+|  |  |  |  |  \- (org.eclipse.jetty:jetty-io:jar:9.2.22.v20170606:compile - omitted for duplicate)
+|  |  |  |  +- org.eclipse.jetty.websocket:websocket-client:jar:9.2.22.v20170606:compile
+|  |  |  |  |  +- (org.eclipse.jetty:jetty-util:jar:9.2.22.v20170606:compile - omitted for conflict with 9.3.14.v20161028)
+|  |  |  |  |  +- (org.eclipse.jetty:jetty-io:jar:9.2.22.v20170606:compile - omitted for duplicate)
+|  |  |  |  |  \- (org.eclipse.jetty.websocket:websocket-common:jar:9.2.22.v20170606:compile - omitted for duplicate)
+|  |  |  |  +- org.eclipse.jetty.websocket:websocket-servlet:jar:9.2.22.v20170606:compile
+|  |  |  |  |  +- (org.eclipse.jetty.websocket:websocket-api:jar:9.2.22.v20170606:compile - omitted for duplicate)
+|  |  |  |  |  \- (javax.servlet:javax.servlet-api:jar:3.1.0:compile - omitted for duplicate)
+|  |  |  |  +- (org.eclipse.jetty:jetty-servlet:jar:9.2.22.v20170606:compile - omitted for conflict with 9.3.14.v20161028)
+|  |  |  |  \- (org.eclipse.jetty:jetty-http:jar:9.2.22.v20170606:compile - omitted for duplicate)
+|  |  |  +- (org.eclipse.jetty:jetty-continuation:jar:9.2.22.v20170606:compile - omitted for conflict with 9.3.14.v20161028)
+|  |  |  +- rome:rome:jar:1.0:compile
+|  |  |  |  \- (jdom:jdom:jar:1.0:compile - omitted for duplicate)
+|  |  |  +- jdom:jdom:jar:1.0:compile
+|  |  |  +- (org.apache.xbean:xbean-spring:jar:4.2:compile - omitted for duplicate)
+|  |  |  +- org.springframework:spring-webmvc:jar:4.3.9.RELEASE:compile
+|  |  |  |  +- (org.springframework:spring-aop:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|  |  |  |  +- (org.springframework:spring-beans:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|  |  |  |  +- (org.springframework:spring-context:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|  |  |  |  +- (org.springframework:spring-core:jar:4.3.9.RELEASE:compile - version managed from 4.3.10.RELEASE; omitted for duplicate)
+|  |  |  |  +- (org.springframework:spring-expression:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|  |  |  |  \- (org.springframework:spring-web:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|  |  |  +- org.springframework:spring-web:jar:4.3.9.RELEASE:compile
+|  |  |  |  +- (org.springframework:spring-aop:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|  |  |  |  +- (org.springframework:spring-beans:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|  |  |  |  +- (org.springframework:spring-context:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|  |  |  |  \- (org.springframework:spring-core:jar:4.3.9.RELEASE:compile - version managed from 4.3.10.RELEASE; omitted for duplicate)
+|  |  |  +- (xpp3:xpp3:jar:1.1.4c:compile - omitted for duplicate)
+|  |  |  \- (com.thoughtworks.xstream:xstream:jar:1.4.10:compile - version managed from 1.4.9; omitted for duplicate)
+|  |  +- (org.apache.activemq:activemq-spring:jar:5.15.2:compile - omitted for duplicate)
+|  |  +- org.apache.activemq:activemq-leveldb-store:jar:5.15.2:compile
+|  |  |  +- org.scala-lang:scala-library:jar:2.11.0:compile
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.4.3; omitted for duplicate)
+|  |  |  +- (org.fusesource.hawtbuf:hawtbuf-proto:jar:1.11:compile - omitted for duplicate)
+|  |  |  +- org.fusesource.hawtdispatch:hawtdispatch-scala-2.11:jar:1.22:compile
+|  |  |  |  \- org.fusesource.hawtdispatch:hawtdispatch:jar:1.22:compile
+|  |  |  +- org.iq80.leveldb:leveldb-api:jar:0.9:compile
+|  |  |  +- org.iq80.leveldb:leveldb:jar:0.9:compile
+|  |  |  |  +- (org.iq80.leveldb:leveldb-api:jar:0.9:compile - omitted for duplicate)
+|  |  |  |  \- (com.google.guava:guava:jar:14.0.1:compile - version managed from 18.0; omitted for duplicate)
+|  |  |  +- org.fusesource.leveldbjni:leveldbjni:jar:1.8:compile
+|  |  |  |  +- org.fusesource.hawtjni:hawtjni-runtime:jar:1.9:compile
+|  |  |  |  \- (org.iq80.leveldb:leveldb-api:jar:0.6:compile - omitted for conflict with 0.9)
+|  |  |  +- org.xerial.snappy:snappy-java:jar:1.0.5:compile (version managed from 1.1.2)
+|  |  |  +- org.iq80.snappy:snappy:jar:0.2:compile
+|  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.6.7:compile - omitted for duplicate)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.6.7:compile - omitted for duplicate)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.6.7:compile - omitted for duplicate)
+|  |  |  \- org.apache.hadoop:hadoop-core:jar:1.0.0:compile
+|  |  |     \- commons-configuration:commons-configuration:jar:1.6:compile
+|  |  |        +- (commons-collections:commons-collections:jar:3.2.2:compile - version managed from 3.2.1; omitted for duplicate)
+|  |  |        +- (commons-lang:commons-lang:jar:2.6:compile - version managed from 2.4; omitted for duplicate)
+|  |  |        +- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for conflict with 1.1.3)
+|  |  |        +- commons-digester:commons-digester:jar:1.8:compile
+|  |  |        |  +- (commons-beanutils:commons-beanutils:jar:1.7.0:compile - omitted for conflict with 1.8.3)
+|  |  |        |  \- (commons-logging:commons-logging:jar:1.1:compile - omitted for conflict with 1.1.3)
+|  |  |        \- commons-beanutils:commons-beanutils-core:jar:1.8.0:compile
+|  |  |           \- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for conflict with 1.1.3)
+|  |  +- org.apache.activemq:activemq-log4j-appender:jar:5.15.2:compile
+|  |  |  \- (org.apache.activemq:activemq-client:jar:5.15.2:compile - omitted for duplicate)
+|  |  +- org.apache.activemq:activemq-amqp:jar:5.15.2:compile
+|  |  |  +- (org.apache.activemq:activemq-broker:jar:5.15.2:compile - omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.4.3; omitted for duplicate)
+|  |  |  +- org.apache.qpid:proton-j:jar:0.22.0:compile
+|  |  |  \- (org.fusesource.hawtbuf:hawtbuf:jar:1.11:compile - omitted for duplicate)
+|  |  +- org.apache.activemq:activemq-partition:jar:5.15.2:compile
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.4.3; omitted for duplicate)
+|  |  |  +- (org.apache.activemq:activemq-leveldb-store:jar:5.15.2:compile - omitted for duplicate)
+|  |  |  +- org.linkedin:org.linkedin.zookeeper-impl:jar:1.4.0:compile
+|  |  |  |  +- (org.apache.zookeeper:zookeeper:jar:3.3.3:compile - omitted for conflict with 3.4.6)
+|  |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.5.8; omitted for duplicate)
+|  |  |  |  +- (org.linkedin:org.linkedin.util-core:jar:1.7.1:compile - omitted for conflict with 1.4.0)
+|  |  |  |  \- org.linkedin:org.linkedin.util-groovy:jar:1.7.1:compile
+|  |  |  |     +- org.slf4j:jul-to-slf4j:jar:1.5.8:compile
+|  |  |  |     |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.5.8; omitted for duplicate)
+|  |  |  |     +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.5.8; omitted for duplicate)
+|  |  |  |     +- org.apache.ant:ant:jar:1.8.1:compile
+|  |  |  |     |  \- org.apache.ant:ant-launcher:jar:1.8.1:compile
+|  |  |  |     +- (log4j:log4j:jar:1.2.17:compile - version managed from 1.2.16; omitted for duplicate)
+|  |  |  |     \- (org.linkedin:org.linkedin.util-core:jar:1.7.1:compile - omitted for duplicate)
+|  |  |  +- org.linkedin:org.linkedin.util-core:jar:1.4.0:compile
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.5.8; omitted for duplicate)
+|  |  |  +- org.apache.zookeeper:zookeeper:jar:3.4.6:compile
+|  |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.6.1; omitted for duplicate)
+|  |  |  |  +- (org.slf4j:slf4j-log4j12:jar:1.7.25:compile - version managed from 1.6.1; omitted for duplicate)
+|  |  |  |  +- (log4j:log4j:jar:1.2.17:compile - version managed from 1.2.16; omitted for duplicate)
+|  |  |  |  +- jline:jline:jar:0.9.94:compile
+|  |  |  |  |  \- (junit:junit:jar:4.8.2:compile - version managed from 4.8.1; omitted for duplicate)
+|  |  |  |  \- io.netty:netty:jar:3.7.0.Final:compile
+|  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.6.7:compile - omitted for duplicate)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.6.7:compile - omitted for duplicate)
+|  |  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.6.7:compile - omitted for duplicate)
+|  |  +- org.apache.activemq:activemq-runtime-config:jar:5.15.2:compile
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.6.1; omitted for duplicate)
+|  |  |  +- (org.apache.xbean:xbean-spring:jar:4.2:compile - omitted for duplicate)
+|  |  |  +- (org.apache.activemq:activemq-broker:jar:5.15.2:compile - omitted for duplicate)
+|  |  |  +- (org.apache.activemq:activemq-jaas:jar:5.15.2:compile - omitted for duplicate)
+|  |  |  +- (org.apache.activemq:activemq-spring:jar:5.15.2:compile - omitted for duplicate)
+|  |  |  +- (org.springframework:spring-beans:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|  |  |  +- (org.springframework:spring-context:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|  |  |  \- org.jvnet.jaxb2_commons:jaxb2-basics-runtime:jar:0.6.4:compile
+|  |  +- org.apache.activemq:activemq-shiro:jar:5.15.2:compile
+|  |  |  +- (org.apache.activemq:activemq-broker:jar:5.15.2:compile - omitted for duplicate)
+|  |  |  +- org.apache.shiro:shiro-core:jar:1.2.4:compile
+|  |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.6.4; omitted for duplicate)
+|  |  |  |  \- commons-beanutils:commons-beanutils:jar:1.8.3:compile
+|  |  |  \- org.apache.shiro:shiro-spring:jar:1.2.4:compile
+|  |  |     +- (org.apache.shiro:shiro-core:jar:1.2.4:compile - omitted for duplicate)
+|  |  |     \- org.apache.shiro:shiro-web:jar:1.2.4:compile
+|  |  |        \- (org.apache.shiro:shiro-core:jar:1.2.4:compile - omitted for duplicate)
+|  |  +- (org.apache.commons:commons-pool2:jar:2.4.2:compile - omitted for duplicate)
+|  |  +- org.apache.activemq:activemq-kahadb-store:jar:5.15.2:compile
+|  |  |  +- (org.apache.activemq:activemq-broker:jar:5.15.2:compile - omitted for duplicate)
+|  |  |  +- org.apache.activemq.protobuf:activemq-protobuf:jar:1.1:compile
+|  |  |  +- (org.apache.geronimo.specs:geronimo-j2ee-management_1.1_spec:jar:1.0.1:compile - omitted for duplicate)
+|  |  |  \- commons-net:commons-net:jar:3.6:compile
+|  |  +- org.fusesource.hawtbuf:hawtbuf:jar:1.11:compile
+|  |  +- (org.apache.uima:uimaj-as-core:jar:2.10.2:compile - omitted for duplicate)
+|  |  +- org.apache.uima:uimaj-as-jms:jar:2.10.2:compile
+|  |  |  +- (org.apache.uima:uimaj-core:jar:2.10.2:compile - omitted for duplicate)
+|  |  |  +- (org.apache.activemq:activemq-client:jar:5.15.2:compile - omitted for duplicate)
+|  |  |  +- (org.apache.uima:uimaj-as-core:jar:2.10.2:compile - omitted for duplicate)
+|  |  |  +- (com.thoughtworks.xstream:xstream:jar:1.4.10:compile - version managed from 1.4.9; omitted for duplicate)
+|  |  |  +- (org.springframework:spring-core:jar:4.3.9.RELEASE:compile - version managed from 4.3.10.RELEASE; omitted for duplicate)
+|  |  |  +- (org.springframework:spring-aop:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|  |  |  +- (org.springframework:spring-beans:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|  |  |  +- (org.springframework:spring-context:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|  |  |  +- (org.springframework:spring-expression:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|  |  |  +- (org.springframework:spring-tx:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|  |  |  \- (org.springframework:spring-jms:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-core:jar:4.3.9.RELEASE:compile - version managed from 4.3.10.RELEASE; omitted for duplicate)
+|  |  +- (org.springframework:spring-aop:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-beans:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-context:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-expression:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-tx:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-jms:jar:4.3.9.RELEASE:compile - omitted for duplicate)
+|  |  +- (log4j:log4j:jar:1.2.17:compile - version managed from 1.2.16; omitted for duplicate)
+|  |  +- org.apache.geronimo.specs:geronimo-jms_1.1_spec:jar:1.1.1:compile
+|  |  +- org.apache.geronimo.specs:geronimo-j2ee-management_1.1_spec:jar:1.0.1:compile
+|  |  +- org.apache.geronimo.specs:geronimo-servlet_3.0_spec:jar:1.0:compile
+|  |  +- org.eclipse.jetty.aggregate:jetty-all:jar:9.2.22.v20170606:compile
+|  |  |  +- javax.websocket:javax.websocket-api:jar:1.0:compile
+|  |  |  \- (javax.servlet:javax.servlet-api:jar:3.1.0:compile - omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpclient:jar:4.3.5:compile - version managed from 4.5.3; omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpcore:jar:4.4.6:compile - version managed from 4.4.4; omitted for duplicate)
+|  |  \- junit:junit:jar:4.8.2:compile
+|  +- (org.apache.activemq:activemq-camel:jar:5.15.2:compile - omitted for duplicate)
+|  +- (org.apache.camel:camel-core:jar:2.19.3:compile - omitted for duplicate)
+|  +- (org.apache.camel:camel-xstream:jar:2.19.3:compile - omitted for duplicate)
+|  +- (org.apache.commons:commons-pool2:jar:2.4.2:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-server:jar:9.2.22.v20170606:compile - version managed from 9.3.14.v20161028; omitted for duplicate)
+|  +- (xpp3:xpp3:jar:1.1.4c:compile - omitted for duplicate)
+|  +- (org.apache.httpcomponents:httpclient:jar:4.3.5:runtime - version managed from 4.5.3; omitted for duplicate)
+|  +- (xmlpull:xmlpull:jar:1.1.3.1:compile - scope updated from runtime; omitted for duplicate)
+|  +- (org.apache.httpcomponents:httpclient-cache:jar:4.3.5:runtime - omitted for duplicate)
+|  +- (org.apache.httpcomponents:httpcore:jar:4.4.6:compile - version managed from 4.4.4; omitted for duplicate)
+|  +- (org.slf4j:jcl-over-slf4j:jar:1.7.25:runtime - omitted for duplicate)
+|  +- (org.apache.camel:camel-context:jar:2.19.3:runtime - omitted for duplicate)
+|  +- (org.apache.camel:camel-http4:jar:2.19.3:runtime - omitted for duplicate)
+|  +- (org.apache.camel:camel-http:jar:2.19.3:runtime - omitted for duplicate)
+|  +- (org.apache.camel:camel-http-common:jar:2.19.3:compile - omitted for duplicate)
+|  +- (org.apache.camel:camel-jetty-common:jar:2.19.3:compile - scope updated from runtime; omitted for duplicate)
+|  +- (org.apache.camel:camel-mina:jar:2.19.3:runtime - omitted for duplicate)
+|  +- (org.apache.camel:camel-xmlbeans:jar:2.19.3:runtime - omitted for duplicate)
+|  +- (org.apache.mina:mina-core:jar:1.1.7:runtime - omitted for duplicate)
+|  +- (org.apache.camel:camel-servlet:jar:2.19.3:runtime - omitted for duplicate)
+|  +- (org.apache.camel:camel-test-spring:jar:2.19.3:runtime - omitted for duplicate)
+|  +- (org.apache.camel:camel-test:jar:2.19.3:runtime - omitted for duplicate)
+|  \- (org.apache.camel:camel-stream:jar:2.19.3:runtime - omitted for duplicate)
++- org.apache.uima:uimaj-core:jar:2.10.2:compile
++- com.google.code.gson:gson:jar:2.2.2:test (scope not updated to compile)
++- org.eclipse.jetty:jetty-server:jar:9.2.22.v20170606:compile
+|  +- javax.servlet:javax.servlet-api:jar:3.1.0:compile
+|  +- org.eclipse.jetty:jetty-http:jar:9.2.22.v20170606:compile
+|  |  \- (org.eclipse.jetty:jetty-util:jar:9.2.22.v20170606:compile - omitted for conflict with 9.3.14.v20161028)
+|  \- org.eclipse.jetty:jetty-io:jar:9.2.22.v20170606:compile
+|     \- (org.eclipse.jetty:jetty-util:jar:9.2.22.v20170606:compile - omitted for conflict with 9.3.14.v20161028)
++- org.apache.httpcomponents:httpclient:jar:4.3.5:runtime (scope not updated to compile)
+|  +- (org.apache.httpcomponents:httpcore:jar:4.4.6:runtime - version managed from 4.3.2; omitted for duplicate)
+|  +- commons-logging:commons-logging:jar:1.1.3:runtime
+|  \- commons-codec:commons-codec:jar:1.9:runtime (version managed from 1.6)
++- xmlpull:xmlpull:jar:1.1.3.1:runtime (scope not updated to compile)
++- org.apache.httpcomponents:httpclient-cache:jar:4.3.5:runtime (scope not updated to compile)
+|  +- (org.apache.httpcomponents:httpclient:jar:4.3.5:runtime - version managed from 4.5.3; omitted for duplicate)
+|  \- (commons-logging:commons-logging:jar:1.1.3:runtime - omitted for duplicate)
++- org.slf4j:jcl-over-slf4j:jar:1.7.25:runtime
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.6.4; scope updated from runtime; omitted for duplicate)
++- org.apache.camel:camel-context:jar:2.19.3:runtime
+|  \- (org.apache.camel:camel-core:jar:2.19.3:runtime - omitted for duplicate)
++- org.apache.camel:camel-http4:jar:2.19.3:runtime
+|  +- (org.apache.camel:camel-core:jar:2.19.3:runtime - omitted for duplicate)
+|  +- (org.apache.camel:camel-http-common:jar:2.19.3:runtime - omitted for duplicate)
+|  +- (javax.servlet:javax.servlet-api:jar:3.1.0:runtime - omitted for duplicate)
+|  \- (org.apache.httpcomponents:httpclient:jar:4.3.5:runtime - version managed from 4.5.3; omitted for duplicate)
++- org.apache.camel:camel-http:jar:2.19.3:runtime
+|  +- (org.apache.camel:camel-core:jar:2.19.3:runtime - omitted for duplicate)
+|  +- (org.apache.camel:camel-http-common:jar:2.19.3:runtime - omitted for duplicate)
+|  +- (javax.servlet:javax.servlet-api:jar:3.1.0:runtime - omitted for duplicate)
+|  +- commons-httpclient:commons-httpclient:jar:3.1:runtime
+|  |  \- (commons-logging:commons-logging:jar:1.0.4:runtime - omitted for conflict with 1.1.3)
+|  \- (commons-codec:commons-codec:jar:1.9:runtime - version managed from 1.10; omitted for duplicate)
++- org.apache.camel:camel-jetty-common:jar:2.19.3:runtime (scope not updated to compile)
+|  +- (org.apache.camel:camel-core:jar:2.19.3:runtime - omitted for duplicate)
+|  +- (org.apache.camel:camel-http-common:jar:2.19.3:runtime - omitted for duplicate)
+|  \- (javax.servlet:javax.servlet-api:jar:3.1.0:runtime - omitted for duplicate)
++- org.apache.camel:camel-mina:jar:2.19.3:runtime
+|  +- (org.apache.camel:camel-core:jar:2.19.3:runtime - omitted for duplicate)
+|  \- (org.apache.mina:mina-core:jar:1.1.7:runtime - omitted for duplicate)
++- org.apache.camel:camel-xmlbeans:jar:2.19.3:runtime
+|  +- (org.apache.camel:camel-core:jar:2.19.3:runtime - omitted for duplicate)
+|  +- (org.apache.xmlbeans:xmlbeans:jar:2.5.0:compile - version managed from 2.6.0; scope updated from runtime; omitted for duplicate)
+|  \- (stax:stax-api:jar:1.0.1:compile - scope updated from runtime; omitted for duplicate)
++- org.apache.mina:mina-core:jar:1.1.7:runtime
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.4.3; scope updated from runtime; omitted for duplicate)
++- org.apache.camel:camel-servlet:jar:2.19.3:runtime
+|  +- (org.apache.camel:camel-core:jar:2.19.3:runtime - omitted for duplicate)
+|  \- (org.apache.camel:camel-http-common:jar:2.19.3:runtime - omitted for duplicate)
++- org.apache.camel:camel-test-spring:jar:2.19.3:runtime
+|  +- (org.apache.camel:camel-test:jar:2.19.3:runtime - omitted for duplicate)
+|  +- (org.apache.camel:camel-spring:jar:2.19.3:compile - scope updated from runtime; omitted for duplicate)
+|  \- org.springframework:spring-test:jar:4.3.10.RELEASE:runtime
+|     \- (org.springframework:spring-core:jar:4.3.9.RELEASE:runtime - version managed from 4.3.10.RELEASE; omitted for duplicate)
++- org.apache.camel:camel-test:jar:2.19.3:runtime
+|  +- (org.apache.camel:camel-core:jar:2.19.3:runtime - omitted for duplicate)
+|  \- (junit:junit:jar:4.8.2:compile - version managed from 4.12; scope updated from runtime; omitted for duplicate)
+\- org.apache.camel:camel-stream:jar:2.19.3:runtime
+   \- (org.apache.camel:camel-core:jar:2.19.3:runtime - omitted for duplicate)

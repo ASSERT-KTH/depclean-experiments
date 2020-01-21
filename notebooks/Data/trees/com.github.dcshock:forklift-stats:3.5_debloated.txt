@@ -1,0 +1,18 @@
+com.github.dcshock:forklift-stats:jar:3.5
+\- com.github.dcshock:forklift:jar:3.5:compile
+   +- (org.apache.avro:avro-compiler:jar:1.7.3:compile - omitted for duplicate)
+   +- com.google.guava:guava:jar:18.0:compile
+   +- com.fasterxml.jackson.core:jackson-databind:jar:2.7.3:compile
+   |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.7.0:compile
+   |  \- com.fasterxml.jackson.core:jackson-core:jar:2.7.3:compile
+   +- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.7.3:compile
+   |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.7.3:compile - omitted for duplicate)
+   |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.7.3:compile - omitted for duplicate)
+   +- ch.qos.logback:logback-classic:jar:1.0.13:compile
+   |  +- ch.qos.logback:logback-core:jar:1.0.13:compile
+   |  \- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for conflict with 1.6.4)
+   +- org.reflections:reflections:jar:0.9.10:compile
+   |  +- (com.google.guava:guava:jar:15.0:compile - omitted for conflict with 18.0)
+   |  +- org.javassist:javassist:jar:3.19.0-GA:compile
+   |  \- com.google.code.findbugs:annotations:jar:2.0.1:compile
+   \- javax.inject:javax.inject:jar:1:compile

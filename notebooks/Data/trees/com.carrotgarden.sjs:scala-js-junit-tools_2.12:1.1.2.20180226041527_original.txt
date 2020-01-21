@@ -1,0 +1,66 @@
+com.carrotgarden.sjs:scala-js-junit-tools_2.12:jar:1.1.2.20180226041527
++- org.scala-js:scalajs-junit-test-runtime_2.12:jar:0.6.22:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  \- org.scala-js:scalajs-test-interface_2.12:jar:0.6.22:compile
+|     +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|     \- (org.scala-js:scalajs-library_2.12:jar:0.6.22:compile - omitted for duplicate)
++- org.junit.vintage:junit-vintage-engine:jar:4.12.3:compile
+|  +- org.apiguardian:apiguardian-api:jar:1.0.0:compile
+|  +- org.junit.platform:junit-platform-engine:jar:1.0.3:compile
+|  |  +- (org.apiguardian:apiguardian-api:jar:1.0.0:compile - omitted for duplicate)
+|  |  +- (org.junit.platform:junit-platform-commons:jar:1.0.3:compile - omitted for duplicate)
+|  |  \- (org.opentest4j:opentest4j:jar:1.0.0:compile - omitted for duplicate)
+|  \- (junit:junit:jar:4.12:runtime - omitted for duplicate)
++- com.lihaoyi:upickle_2.12:jar:0.5.1:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  +- com.lihaoyi:sourcecode_2.12:jar:0.1.3:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.4)
+|  \- org.spire-math:jawn-parser_2.12:jar:0.11.0:compile
+|     \- (org.scala-lang:scala-library:jar:2.12.2:compile - omitted for conflict with 2.12.4)
++- junit:junit:jar:4.12:compile
+|  \- org.hamcrest:hamcrest-core:jar:1.3:compile
++- org.junit.platform:junit-platform-runner:jar:1.0.3:compile
+|  +- (org.apiguardian:apiguardian-api:jar:1.0.0:compile - omitted for duplicate)
+|  +- org.junit.platform:junit-platform-launcher:jar:1.0.3:compile
+|  |  +- (org.apiguardian:apiguardian-api:jar:1.0.0:compile - omitted for duplicate)
+|  |  \- (org.junit.platform:junit-platform-engine:jar:1.0.3:compile - omitted for duplicate)
+|  +- org.junit.platform:junit-platform-suite-api:jar:1.0.3:compile
+|  |  +- (org.apiguardian:apiguardian-api:jar:1.0.0:compile - omitted for duplicate)
+|  |  \- (org.junit.platform:junit-platform-commons:jar:1.0.3:compile - omitted for duplicate)
+|  \- (junit:junit:jar:4.12:compile - omitted for duplicate)
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- org.scala-lang:scala-library:jar:2.12.4:compile
++- com.typesafe:config:jar:1.3.2:compile
++- org.junit.jupiter:junit-jupiter-api:jar:5.0.3:compile
+|  +- (org.apiguardian:apiguardian-api:jar:1.0.0:compile - omitted for duplicate)
+|  +- org.opentest4j:opentest4j:jar:1.0.0:compile
+|  \- org.junit.platform:junit-platform-commons:jar:1.0.3:compile
+|     \- (org.apiguardian:apiguardian-api:jar:1.0.0:compile - omitted for duplicate)
++- org.scala-lang:scala-reflect:jar:2.12.4:compile
+|  \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
++- org.scala-js:scalajs-library_2.12:jar:0.6.22:provided (scope not updated to compile)
+|  \- (org.scala-lang:scala-library:jar:2.12.4:provided - omitted for duplicate)
++- org.scala-js:scalajs-sbt-test-adapter_2.12:jar:0.6.22:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  +- (org.scala-js:scalajs-js-envs_2.12:jar:0.6.22:compile - omitted for duplicate)
+|  \- org.scala-sbt:test-interface:jar:1.0:compile
++- org.scala-js:scalajs-js-envs_2.12:jar:0.6.22:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  +- org.scala-js:scalajs-tools_2.12:jar:0.6.22:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  |  +- org.scala-js:scalajs-ir_2.12:jar:0.6.22:compile
+|  |  |  \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  |  +- org.scala-js:closure-compiler-java-6:jar:v20160517:compile
+|  |  |  +- org.scala-js:closure-compiler-externs-java-6:jar:v20160517:compile
+|  |  |  +- args4j:args4j:jar:2.0.26:compile
+|  |  |  +- com.google.guava:guava:jar:19.0:compile
+|  |  |  +- com.google.protobuf:protobuf-java:jar:2.5.0:compile
+|  |  |  +- com.google.code.gson:gson:jar:2.2.4:compile
+|  |  |  \- com.google.code.findbugs:jsr305:jar:1.3.9:compile
+|  |  \- com.googlecode.json-simple:json-simple:jar:1.1.1:compile
+|  +- io.apigee:rhino:jar:1.7R5pre4:compile
+|  \- org.webjars:envjs:jar:1.2:compile
+\- org.junit.jupiter:junit-jupiter-engine:jar:5.0.3:compile
+   +- (org.apiguardian:apiguardian-api:jar:1.0.0:compile - omitted for duplicate)
+   +- (org.junit.platform:junit-platform-engine:jar:1.0.3:compile - omitted for duplicate)
+   \- (org.junit.jupiter:junit-jupiter-api:jar:5.0.3:compile - omitted for duplicate)

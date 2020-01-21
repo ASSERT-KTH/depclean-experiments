@@ -1,0 +1,12 @@
+com.sun.xml.bind:jaxb-osgi:jar:2.4.0-b180725.0644
++- com.sun.xml.bind:jaxb-xjc:jar:2.4.0-b180725.0644:compile (optional) 
++- com.sun.xml.bind:jaxb-impl:jar:2.4.0-b180725.0644:compile (optional) 
++- com.sun.xml.bind:jaxb-jxc:jar:2.4.0-b180725.0644:compile (optional) 
++- org.jvnet.staxex:stax-ex:jar:1.8:compile (optional) 
++- com.sun.xml.fastinfoset:FastInfoset:jar:1.2.14:compile (optional) 
++- org.glassfish.jaxb:txw2:jar:2.4.0-b180725.0644:compile (optional) 
++- com.sun.xml.bind.external:rngom:jar:2.4.0-b180725.0644:compile (optional) 
+|  \- com.sun.xml.bind.external:relaxng-datatype:jar:2.4.0-b180725.0644:compile (optional) 
++- com.sun.istack:istack-commons-runtime:jar:3.0.6:compile (optional) 
+\- junit:junit:jar:4.12:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

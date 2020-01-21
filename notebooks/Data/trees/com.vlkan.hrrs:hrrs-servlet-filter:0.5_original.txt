@@ -1,0 +1,23 @@
+com.vlkan.hrrs:hrrs-servlet-filter:jar:0.5
++- com.vlkan.hrrs:hrrs-api:jar:0.5:compile
+|  +- org.slf4j:slf4j-api:jar:1.7.22:compile
+|  +- (com.google.guava:guava:jar:20.0:compile - omitted for duplicate)
+|  \- com.google.code.findbugs:jsr305:jar:3.0.1:compile
++- com.vlkan.hrrs:hrrs-serializer-base64:jar:0.5:compile
+|  +- (com.vlkan.hrrs:hrrs-api:jar:0.5:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.22:compile - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:20.0:compile - omitted for duplicate)
+|  \- com.vlkan.rfos:rotating-fos:jar:0.6:compile
+|     +- (org.slf4j:slf4j-api:jar:1.7.22:compile - version managed from 1.7.25; omitted for duplicate)
+|     \- joda-time:joda-time:jar:2.9.9:compile
++- com.google.guava:guava:jar:20.0:compile
++- javax.servlet:javax.servlet-api:jar:3.1.0:provided
++- org.slf4j:slf4j-log4j12:jar:1.7.22:test
+|  +- (org.slf4j:slf4j-api:jar:1.7.22:test - version managed from 1.7.25; omitted for duplicate)
+|  \- log4j:log4j:jar:1.2.17:test
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
+\- org.mockito:mockito-core:jar:2.10.0:test
+   +- net.bytebuddy:byte-buddy:jar:1.7.4:test
+   +- net.bytebuddy:byte-buddy-agent:jar:1.7.4:test
+   \- org.objenesis:objenesis:jar:2.6:test

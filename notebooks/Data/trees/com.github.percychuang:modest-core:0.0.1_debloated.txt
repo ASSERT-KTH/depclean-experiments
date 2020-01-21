@@ -1,0 +1,53 @@
+com.github.percychuang:modest-core:jar:0.0.1
++- com.github.percychuang:modest-log:jar:0.0.1:compile
+|  +- org.slf4j:slf4j-api:jar:1.7.24:compile
+|  +- org.slf4j:slf4j-ext:jar:1.7.24:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.24:compile - omitted for duplicate)
+|  +- org.slf4j:jcl-over-slf4j:jar:1.7.24:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.24:compile - omitted for duplicate)
+|  +- ch.qos.logback:logback-classic:jar:1.2.2:compile
+|  |  +- ch.qos.logback:logback-core:jar:1.2.2:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.24:compile - version managed from 1.7.25; omitted for duplicate)
+|  +- com.cwbase:logback-redis-appender:jar:1.1.5:compile
+|  |  \- redis.clients:jedis:jar:2.9.0:compile (version managed from 2.5.2)
+|  |     \- org.apache.commons:commons-pool2:jar:2.5.0:compile (version managed from 2.4.2)
+|  +- org.apache.commons:commons-lang3:jar:3.3.2:compile
+|  \- commons-logging:commons-logging:jar:1.1.1:compile
++- org.springframework:spring-core:jar:4.3.13.RELEASE:compile
++- org.springframework:spring-context:jar:4.3.13.RELEASE:compile
+|  +- (org.springframework:spring-aop:jar:4.3.13.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework:spring-beans:jar:4.3.13.RELEASE:compile
+|  |  \- (org.springframework:spring-core:jar:4.3.13.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-core:jar:4.3.13.RELEASE:compile - omitted for duplicate)
+|  \- org.springframework:spring-expression:jar:4.3.13.RELEASE:compile
+|     \- (org.springframework:spring-core:jar:4.3.13.RELEASE:compile - omitted for duplicate)
++- org.springframework:spring-context-support:jar:4.3.13.RELEASE:compile
+|  +- (org.springframework:spring-beans:jar:4.3.13.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-context:jar:4.3.13.RELEASE:compile - omitted for duplicate)
+|  \- (org.springframework:spring-core:jar:4.3.13.RELEASE:compile - omitted for duplicate)
++- org.springframework:spring-aop:jar:4.3.13.RELEASE:compile
+|  +- (org.springframework:spring-beans:jar:4.3.13.RELEASE:compile - omitted for duplicate)
+|  \- (org.springframework:spring-core:jar:4.3.13.RELEASE:compile - omitted for duplicate)
++- org.springframework:spring-tx:jar:4.3.13.RELEASE:compile
+|  +- (org.springframework:spring-beans:jar:4.3.13.RELEASE:compile - omitted for duplicate)
+|  \- (org.springframework:spring-core:jar:4.3.13.RELEASE:compile - omitted for duplicate)
++- org.springframework:spring-webmvc:jar:4.3.13.RELEASE:compile
+|  +- (org.springframework:spring-aop:jar:4.3.13.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-beans:jar:4.3.13.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-context:jar:4.3.13.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-core:jar:4.3.13.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-expression:jar:4.3.13.RELEASE:compile - omitted for duplicate)
+|  \- (org.springframework:spring-web:jar:4.3.13.RELEASE:compile - omitted for duplicate)
++- org.springframework:spring-web:jar:4.3.13.RELEASE:compile
+|  +- (org.springframework:spring-aop:jar:4.3.13.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-beans:jar:4.3.13.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-context:jar:4.3.13.RELEASE:compile - omitted for duplicate)
+|  \- (org.springframework:spring-core:jar:4.3.13.RELEASE:compile - omitted for duplicate)
++- org.aspectj:aspectjweaver:jar:1.8.1:compile
++- commons-collections:commons-collections:jar:3.2.1:compile
++- commons-fileupload:commons-fileupload:jar:1.2.2:compile
++- commons-io:commons-io:jar:2.4:compile
++- javax.servlet:jstl:jar:1.2:compile
++- javax.servlet:javax.servlet-api:jar:3.1.0:provided
++- com.fasterxml.jackson.core:jackson-core:jar:2.9.0:compile
+\- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile

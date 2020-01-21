@@ -1,0 +1,2 @@
+com.outworkers:util-domain_2.11:jar:0.40.0
+\- org.scala-lang:scala-library:jar:2.11.11:compile

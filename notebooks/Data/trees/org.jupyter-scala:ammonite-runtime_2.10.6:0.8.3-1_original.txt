@@ -1,0 +1,61 @@
+org.jupyter-scala:ammonite-runtime_2.10.6:jar:0.8.3-1
++- org.scala-lang:scala-compiler:jar:2.10.6:compile
+|  +- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for duplicate)
+|  \- (org.scala-lang:scala-reflect:jar:2.10.6:compile - omitted for duplicate)
++- org.scala-lang:scala-library:jar:2.10.6:compile
++- org.jupyter-scala:ammonite-ops_2.10:jar:0.8.3-1:compile
+|  +- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for duplicate)
+|  \- com.lihaoyi:geny_2.10:jar:0.1.1:compile
+|     \- (org.scala-lang:scala-library:jar:2.10.5:compile - omitted for conflict with 2.10.6)
++- org.jupyter-scala:ammonite-util_2.10.6:jar:0.8.3-1:compile
+|  +- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for duplicate)
+|  +- (org.jupyter-scala:ammonite-ops_2.10:jar:0.8.3-1:compile - omitted for duplicate)
+|  +- (org.scalamacros:quasiquotes_2.10:jar:2.0.1:compile - omitted for duplicate)
+|  +- com.lihaoyi:upickle_2.10:jar:0.4.4:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for duplicate)
+|  |  +- com.lihaoyi:derive_2.10:jar:0.4.4:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for duplicate)
+|  |  |  +- (com.lihaoyi:sourcecode_2.10:jar:0.1.3:compile - omitted for duplicate)
+|  |  |  \- (org.scalamacros:quasiquotes_2.10:jar:2.1.0:compile - omitted for conflict with 2.0.1)
+|  |  +- com.lihaoyi:sourcecode_2.10:jar:0.1.3:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for duplicate)
+|  |  |  \- (org.scalamacros:quasiquotes_2.10:jar:2.1.0:compile - omitted for conflict with 2.0.1)
+|  |  +- (org.scalamacros:quasiquotes_2.10:jar:2.1.0:compile - omitted for conflict with 2.0.1)
+|  |  \- org.spire-math:jawn-parser_2.10:jar:0.10.3:compile
+|  |     \- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for duplicate)
+|  \- com.lihaoyi:pprint_2.10:jar:0.4.4:compile
+|     +- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for duplicate)
+|     +- (com.lihaoyi:derive_2.10:jar:0.4.4:compile - omitted for duplicate)
+|     +- (com.lihaoyi:sourcecode_2.10:jar:0.1.3:compile - omitted for duplicate)
+|     +- (org.scalamacros:quasiquotes_2.10:jar:2.1.0:compile - omitted for conflict with 2.0.1)
+|     \- com.lihaoyi:fansi_2.10:jar:0.2.3:compile
+|        +- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for duplicate)
+|        \- (com.lihaoyi:sourcecode_2.10:jar:0.1.3:compile - omitted for duplicate)
++- org.scala-lang:scala-reflect:jar:2.10.6:provided (scope not updated to compile)
+|  \- (org.scala-lang:scala-library:jar:2.10.6:provided - omitted for duplicate)
++- org.scalamacros:quasiquotes_2.10:jar:2.0.1:compile
+|  +- (org.scala-lang:scala-library:jar:2.10.4:compile - omitted for conflict with 2.10.6)
+|  \- (org.scala-lang:scala-reflect:jar:2.10.4:compile - omitted for conflict with 2.10.6)
++- com.lihaoyi:utest_2.10:jar:0.4.5:test
+|  +- (org.scala-lang:scala-library:jar:2.10.6:test - omitted for duplicate)
+|  +- (org.scala-lang:scala-reflect:jar:2.10.6:test - omitted for duplicate)
+|  +- (org.scalamacros:quasiquotes_2.10:jar:2.1.0:test - omitted for conflict with 2.0.1)
+|  \- org.scala-sbt:test-interface:jar:1.0:test
++- com.lihaoyi:acyclic_2.10:jar:0.1.7:provided
+|  \- (org.scala-lang:scala-library:jar:2.10.6:provided - omitted for duplicate)
++- io.get-coursier:coursier-cache_2.10:jar:1.0.0-RC2:compile
+|  +- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for duplicate)
+|  +- io.get-coursier:coursier_2.10:jar:1.0.0-RC2:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for duplicate)
+|  |  +- (org.scalamacros:quasiquotes_2.10:jar:2.1.0:compile - omitted for conflict with 2.0.1)
+|  |  +- org.jsoup:jsoup:jar:1.10.2:compile
+|  |  \- org.scalaz:scalaz-core_2.10:jar:7.2.8:compile
+|  |     \- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for duplicate)
+|  \- org.scalaz:scalaz-concurrent_2.10:jar:7.2.8:compile
+|     +- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for duplicate)
+|     +- (org.scalaz:scalaz-core_2.10:jar:7.2.8:compile - omitted for duplicate)
+|     \- org.scalaz:scalaz-effect_2.10:jar:7.2.8:compile
+|        +- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for duplicate)
+|        \- (org.scalaz:scalaz-core_2.10:jar:7.2.8:compile - omitted for duplicate)
+\- org.scalaj:scalaj-http_2.10:jar:2.3.0:compile
+   \- (org.scala-lang:scala-library:jar:2.10.5:compile - omitted for conflict with 2.10.6)

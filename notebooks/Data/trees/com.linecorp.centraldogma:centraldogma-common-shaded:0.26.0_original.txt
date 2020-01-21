@@ -1,0 +1,10 @@
+com.linecorp.centraldogma:centraldogma-common-shaded:pom:0.26.0
++- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.5:compile
++- com.fasterxml.jackson.core:jackson-core:jar:2.9.5:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile - omitted for conflict with 2.9.5)
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.5:compile - omitted for duplicate)
++- com.github.ben-manes.caffeine:caffeine:jar:2.6.2:compile
++- com.google.code.findbugs:jsr305:jar:3.0.2:compile
++- javax.inject:javax.inject:jar:1:compile
+\- org.slf4j:slf4j-api:jar:1.7.25:compile

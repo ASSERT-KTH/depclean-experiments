@@ -1,0 +1,12 @@
+com.yahoo.vespa:provided-dependencies:jar:6.259.36
++- com.yahoo.vespa:jdisc_http_service:jar:6.259.36:compile
++- org.bouncycastle:bcpkix-jdk15on:jar:1.58:compile
+|  \- (org.bouncycastle:bcprov-jdk15on:jar:1.58:compile - omitted for duplicate)
++- org.eclipse.jetty:jetty-http:jar:9.4.10.v20180503:compile
+|  +- (org.eclipse.jetty:jetty-util:jar:9.4.10.v20180503:compile - omitted for duplicate)
+|  \- org.eclipse.jetty:jetty-io:jar:9.4.10.v20180503:compile
+|     \- (org.eclipse.jetty:jetty-util:jar:9.4.10.v20180503:compile - omitted for duplicate)
++- com.yahoo.vespa:defaults:jar:6.259.36:compile
+\- com.google.inject:guice:jar:no_aop:3.0:compile
+   +- javax.inject:javax.inject:jar:1:compile
+   \- (aopalliance:aopalliance:jar:1.0:compile - omitted for duplicate)

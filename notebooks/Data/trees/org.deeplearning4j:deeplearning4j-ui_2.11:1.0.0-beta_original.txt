@@ -1,0 +1,426 @@
+org.deeplearning4j:deeplearning4j-ui_2.11:jar:1.0.0-beta
++- org.deeplearning4j:deeplearning4j-play_2.11:jar:1.0.0-beta:compile
+|  +- (org.deeplearning4j:deeplearning4j-ui-model:jar:1.0.0-beta:compile - omitted for duplicate)
+|  +- com.typesafe.play:play-java_2.11:jar:2.4.8:compile
+|  |  +- org.scala-lang:scala-library:jar:2.11.6:compile
+|  |  +- com.typesafe.play:play_2.11:jar:2.4.8:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.6:compile - omitted for duplicate)
+|  |  |  +- com.typesafe.play:build-link:jar:2.4.8:compile
+|  |  |  |  +- com.typesafe.play:play-exceptions:jar:2.4.8:compile
+|  |  |  |  \- (org.javassist:javassist:jar:3.19.0-GA:compile - omitted for conflict with 3.18.2-GA)
+|  |  |  +- com.typesafe.play:play-iteratees_2.11:jar:2.4.8:compile
+|  |  |  |  +- (org.scala-lang:scala-library:jar:2.11.6:compile - omitted for duplicate)
+|  |  |  |  +- (org.scala-stm:scala-stm_2.11:jar:0.7:compile - omitted for duplicate)
+|  |  |  |  \- com.typesafe:config:jar:1.3.0:compile
+|  |  |  +- com.typesafe.play:play-json_2.11:jar:2.4.8:compile
+|  |  |  |  +- (org.scala-lang:scala-library:jar:2.11.6:compile - omitted for duplicate)
+|  |  |  |  +- (com.typesafe.play:play-iteratees_2.11:jar:2.4.8:compile - omitted for duplicate)
+|  |  |  |  +- com.typesafe.play:play-functional_2.11:jar:2.4.8:compile
+|  |  |  |  |  \- (org.scala-lang:scala-library:jar:2.11.6:compile - omitted for duplicate)
+|  |  |  |  +- com.typesafe.play:play-datacommons_2.11:jar:2.4.8:compile
+|  |  |  |  |  \- (org.scala-lang:scala-library:jar:2.11.6:compile - omitted for duplicate)
+|  |  |  |  +- (joda-time:joda-time:jar:2.8.1:compile - omitted for conflict with 2.2)
+|  |  |  |  +- (org.joda:joda-convert:jar:1.7:compile - omitted for duplicate)
+|  |  |  |  +- (org.scala-lang:scala-reflect:jar:2.11.6:compile - omitted for duplicate)
+|  |  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.5.4:compile - omitted for duplicate)
+|  |  |  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.5.4:compile - omitted for duplicate)
+|  |  |  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.5.4:compile - omitted for duplicate)
+|  |  |  |  +- (com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.5.4:compile - omitted for duplicate)
+|  |  |  |  \- (com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.5.4:compile - omitted for duplicate)
+|  |  |  +- com.typesafe.play:play-netty-utils:jar:2.4.8:compile
+|  |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.12:compile - version managed from 1.7.21; omitted for duplicate)
+|  |  |  |  +- (org.slf4j:jul-to-slf4j:jar:1.7.21:compile - omitted for duplicate)
+|  |  |  |  \- (org.slf4j:jcl-over-slf4j:jar:1.7.21:compile - omitted for duplicate)
+|  |  |  +- com.typesafe.play:twirl-api_2.11:jar:1.1.1:compile
+|  |  |  |  +- (org.scala-lang:scala-library:jar:2.11.6:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.commons:commons-lang3:jar:3.4:compile - omitted for duplicate)
+|  |  |  |  \- org.scala-lang.modules:scala-xml_2.11:jar:1.0.1:compile
+|  |  |  |     \- (org.scala-lang:scala-library:jar:2.11.0:compile - omitted for conflict with 2.11.6)
+|  |  |  +- org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.0.1:compile
+|  |  |  |  \- (org.scala-lang:scala-library:jar:2.11.0:compile - omitted for conflict with 2.11.6)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.12:compile - version managed from 1.7.21; omitted for duplicate)
+|  |  |  +- org.slf4j:jul-to-slf4j:jar:1.7.21:compile
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.12:compile - version managed from 1.7.21; omitted for duplicate)
+|  |  |  +- org.slf4j:jcl-over-slf4j:jar:1.7.21:compile
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.12:compile - version managed from 1.7.21; omitted for duplicate)
+|  |  |  +- ch.qos.logback:logback-core:jar:1.1.2:compile (version managed from 1.1.3)
+|  |  |  +- (ch.qos.logback:logback-classic:jar:1.1.2:compile - version managed from 1.1.3; omitted for duplicate)
+|  |  |  +- com.typesafe.akka:akka-actor_2.11:jar:2.3.13:compile
+|  |  |  |  +- (org.scala-lang:scala-library:jar:2.11.5:compile - omitted for conflict with 2.11.6)
+|  |  |  |  \- (com.typesafe:config:jar:1.2.1:compile - omitted for conflict with 1.3.0)
+|  |  |  +- com.typesafe.akka:akka-slf4j_2.11:jar:2.3.13:compile
+|  |  |  |  +- (org.scala-lang:scala-library:jar:2.11.5:compile - omitted for conflict with 2.11.6)
+|  |  |  |  +- (com.typesafe.akka:akka-actor_2.11:jar:2.3.13:compile - omitted for duplicate)
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.12:compile - version managed from 1.7.5; omitted for duplicate)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.5.4:compile - omitted for conflict with 2.4.4)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.5.4:compile - omitted for conflict with 2.4.0)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.5.4:compile - omitted for conflict with 2.4.4)
+|  |  |  +- (com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.5.4:compile - omitted for conflict with 2.4.4)
+|  |  |  +- (com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.5.4:compile - omitted for conflict with 2.4.4)
+|  |  |  +- org.scala-stm:scala-stm_2.11:jar:0.7:compile
+|  |  |  |  \- (org.scala-lang:scala-library:jar:2.11.0:compile - omitted for conflict with 2.11.6)
+|  |  |  +- (commons-codec:commons-codec:jar:1.10:compile - omitted for duplicate)
+|  |  |  +- (joda-time:joda-time:jar:2.8.1:compile - omitted for conflict with 2.2)
+|  |  |  +- org.joda:joda-convert:jar:1.7:compile
+|  |  |  +- (org.apache.commons:commons-lang3:jar:3.4:compile - omitted for duplicate)
+|  |  |  +- xerces:xercesImpl:jar:2.11.0:compile
+|  |  |  |  \- xml-apis:xml-apis:jar:1.4.01:compile
+|  |  |  +- javax.transaction:jta:jar:1.1:compile
+|  |  |  +- com.google.inject:guice:jar:4.0:compile
+|  |  |  |  +- javax.inject:javax.inject:jar:1:compile
+|  |  |  |  +- aopalliance:aopalliance:jar:1.0:compile
+|  |  |  |  \- (com.google.guava:guava:jar:20.0:compile - version managed from 16.0.1; omitted for duplicate)
+|  |  |  +- com.google.inject.extensions:guice-assistedinject:jar:4.0:compile
+|  |  |  |  \- (com.google.inject:guice:jar:4.0:compile - omitted for duplicate)
+|  |  |  \- (org.scala-lang:scala-reflect:jar:2.11.6:compile - omitted for conflict with 2.11.2)
+|  |  +- org.scala-lang.modules:scala-java8-compat_2.11:jar:0.3.0:compile
+|  |  |  \- (org.scala-lang:scala-library:jar:2.11.5:compile - omitted for conflict with 2.11.6)
+|  |  +- org.yaml:snakeyaml:jar:1.15:compile
+|  |  +- org.hibernate:hibernate-validator:jar:5.0.3.Final:compile
+|  |  |  +- javax.validation:validation-api:jar:1.1.0.Final:compile
+|  |  |  +- (org.jboss.logging:jboss-logging:jar:3.1.1.GA:compile - omitted for conflict with 3.2.1.Final)
+|  |  |  \- com.fasterxml:classmate:jar:1.0.0:compile
+|  |  +- org.jboss.logging:jboss-logging:jar:3.2.1.Final:compile
+|  |  +- org.springframework:spring-context:jar:4.1.6.RELEASE:compile
+|  |  +- org.springframework:spring-core:jar:4.1.6.RELEASE:compile
+|  |  +- org.springframework:spring-beans:jar:4.1.6.RELEASE:compile
+|  |  +- org.reflections:reflections:jar:0.9.9:compile
+|  |  |  +- (com.google.guava:guava:jar:20.0:compile - version managed from 15.0; omitted for duplicate)
+|  |  |  \- (org.javassist:javassist:jar:3.18.2-GA:compile - omitted for conflict with 3.19.0-GA)
+|  |  +- net.jodah:typetools:jar:0.4.3:compile
+|  |  +- com.google.guava:guava:jar:20.0:compile
+|  |  +- org.apache.tomcat:tomcat-servlet-api:jar:8.0.21:compile
+|  |  \- org.javassist:javassist:jar:3.19.0-GA:compile
+|  +- com.typesafe.play:play-netty-server_2.11:jar:2.4.8:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.6:compile - omitted for duplicate)
+|  |  +- com.typesafe.play:play-server_2.11:jar:2.4.8:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.6:compile - omitted for duplicate)
+|  |  |  +- (com.typesafe.play:play_2.11:jar:2.4.8:compile - omitted for duplicate)
+|  |  |  \- (com.typesafe.play:play-iteratees_2.11:jar:2.4.8:compile - omitted for duplicate)
+|  |  +- io.netty:netty:jar:3.10.4.Final:compile
+|  |  \- com.typesafe.netty:netty-http-pipelining:jar:1.1.4:compile
+|  |     \- (io.netty:netty:jar:3.10.1.Final:compile - omitted for conflict with 3.10.4.Final)
+|  +- com.typesafe.akka:akka-contrib_2.11:jar:2.3.13:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.5:compile - omitted for conflict with 2.11.6)
+|  |  +- com.typesafe.akka:akka-remote_2.11:jar:2.3.13:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.11.5:compile - omitted for conflict with 2.11.6)
+|  |  |  +- (com.typesafe.akka:akka-actor_2.11:jar:2.3.13:compile - omitted for duplicate)
+|  |  |  +- (io.netty:netty:jar:3.8.0.Final:compile - omitted for conflict with 3.10.4.Final)
+|  |  |  +- com.google.protobuf:protobuf-java:jar:2.5.0:compile
+|  |  |  \- org.uncommons.maths:uncommons-maths:jar:1.2.2a:compile
+|  |  +- (com.typesafe.akka:akka-cluster_2.11:jar:2.3.13:compile - omitted for duplicate)
+|  |  \- com.typesafe.akka:akka-persistence-experimental_2.11:jar:2.3.13:compile
+|  |     +- (org.scala-lang:scala-library:jar:2.11.5:compile - omitted for conflict with 2.11.6)
+|  |     +- (com.typesafe.akka:akka-actor_2.11:jar:2.3.13:compile - omitted for duplicate)
+|  |     +- org.iq80.leveldb:leveldb:jar:0.5:compile
+|  |     |  +- org.iq80.leveldb:leveldb-api:jar:0.5:compile
+|  |     |  \- (com.google.guava:guava:jar:20.0:compile - version managed from 12.0; omitted for duplicate)
+|  |     +- org.fusesource.leveldbjni:leveldbjni-all:jar:1.7:compile
+|  |     |  +- org.fusesource.leveldbjni:leveldbjni:jar:1.7:compile
+|  |     |  |  +- org.fusesource.hawtjni:hawtjni-runtime:jar:1.8:compile
+|  |     |  |  \- (org.iq80.leveldb:leveldb-api:jar:0.5:compile - omitted for duplicate)
+|  |     |  +- org.fusesource.leveldbjni:leveldbjni-osx:jar:1.5:compile
+|  |     |  |  \- (org.fusesource.leveldbjni:leveldbjni:jar:1.5:compile - omitted for conflict with 1.7)
+|  |     |  +- org.fusesource.leveldbjni:leveldbjni-linux32:jar:1.5:compile
+|  |     |  |  \- (org.fusesource.leveldbjni:leveldbjni:jar:1.5:compile - omitted for conflict with 1.7)
+|  |     |  +- org.fusesource.leveldbjni:leveldbjni-linux64:jar:1.5:compile
+|  |     |  |  \- (org.fusesource.leveldbjni:leveldbjni:jar:1.5:compile - omitted for conflict with 1.7)
+|  |     |  +- org.fusesource.leveldbjni:leveldbjni-win32:jar:1.5:compile
+|  |     |  |  \- (org.fusesource.leveldbjni:leveldbjni:jar:1.5:compile - omitted for conflict with 1.7)
+|  |     |  \- org.fusesource.leveldbjni:leveldbjni-win64:jar:1.5:compile
+|  |     |     \- (org.fusesource.leveldbjni:leveldbjni:jar:1.5:compile - omitted for conflict with 1.7)
+|  |     \- (com.google.protobuf:protobuf-java:jar:2.5.0:compile - omitted for duplicate)
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.4.4:compile
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.4.4:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.4.0:compile - omitted for conflict with 2.4.4)
+|  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.4.4:compile - omitted for duplicate)
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.4.4:compile
+|  +- com.fasterxml.jackson.module:jackson-module-scala_2.11:jar:2.4.4:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.2:compile - omitted for conflict with 2.11.6)
+|  |  +- org.scala-lang:scala-reflect:jar:2.11.2:compile
+|  |  |  \- (org.scala-lang:scala-library:jar:2.11.2:compile - omitted for conflict with 2.11.6)
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.4.4:compile - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.4.4:compile - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.4.4:compile - omitted for duplicate)
+|  |  +- com.thoughtworks.paranamer:paranamer:jar:2.6:compile
+|  |  \- (com.google.guava:guava:jar:20.0:compile - version managed from 15.0; omitted for duplicate)
+|  +- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.4.4:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.4.4:compile - omitted for duplicate)
+|  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.4.4:compile - omitted for duplicate)
+|  +- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.4.4:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.4.4:compile - omitted for duplicate)
+|  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.4.4:compile - omitted for duplicate)
+|  +- com.typesafe.akka:akka-cluster_2.11:jar:2.3.13:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.11.5:compile - omitted for conflict with 2.11.6)
+|  |  \- (com.typesafe.akka:akka-remote_2.11:jar:2.3.13:compile - omitted for duplicate)
+|  \- com.beust:jcommander:jar:1.27:compile
++- javax.ws.rs:javax.ws.rs-api:jar:2.0:compile
++- commons-io:commons-io:jar:2.4:compile
++- org.deeplearning4j:deeplearning4j-nlp:jar:1.0.0-beta:compile
+|  +- org.nd4j:nd4j-native-api:jar:1.0.0-beta:compile
+|  |  +- org.nd4j:nd4j-buffer:jar:1.0.0-beta:compile
+|  |  |  +- (org.nd4j:nd4j-context:jar:1.0.0-beta:compile - omitted for duplicate)
+|  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  +- (org.nd4j:nd4j-api:jar:1.0.0-beta:compile - omitted for duplicate)
+|  |  \- org.bytedeco:javacpp:jar:1.4.1:compile
+|  +- commons-lang:commons-lang:jar:2.6:compile
+|  +- org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta:compile
+|  |  +- org.deeplearning4j:deeplearning4j-tsne:jar:1.0.0-beta:compile
+|  |  |  +- (org.deeplearning4j:nearestneighbor-core:jar:1.0.0-beta:compile - omitted for duplicate)
+|  |  |  +- (org.deeplearning4j:deeplearning4j-nn:jar:1.0.0-beta:compile - omitted for duplicate)
+|  |  |  +- (org.projectlombok:lombok:jar:1.16.20:compile - omitted for duplicate)
+|  |  |  \- (org.nd4j:nd4j-api:jar:1.0.0-beta:compile - omitted for duplicate)
+|  |  +- org.deeplearning4j:deeplearning4j-datasets:jar:1.0.0-beta:compile
+|  |  |  +- (org.datavec:datavec-data-image:jar:1.0.0-beta:compile - omitted for duplicate)
+|  |  |  \- (org.deeplearning4j:deeplearning4j-datavec-iterators:jar:1.0.0-beta:compile - omitted for duplicate)
+|  |  +- org.deeplearning4j:deeplearning4j-datavec-iterators:jar:1.0.0-beta:compile
+|  |  |  +- (org.datavec:datavec-api:jar:1.0.0-beta:compile - omitted for duplicate)
+|  |  |  \- (org.nd4j:nd4j-api:jar:1.0.0-beta:compile - omitted for duplicate)
+|  |  +- org.deeplearning4j:nearestneighbor-core:jar:1.0.0-beta:compile
+|  |  |  +- (org.nd4j:nd4j-api:jar:1.0.0-beta:compile - omitted for duplicate)
+|  |  |  +- (org.threadly:threadly:jar:4.10.0:compile - omitted for duplicate)
+|  |  |  \- (org.deeplearning4j:deeplearning4j-nn:jar:1.0.0-beta:compile - omitted for duplicate)
+|  |  +- org.deeplearning4j:deeplearning4j-modelimport:jar:1.0.0-beta:compile
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.12:compile - version managed from 1.7.5; omitted for duplicate)
+|  |  |  +- (org.nd4j:nd4j-api:jar:1.0.0-beta:compile - omitted for duplicate)
+|  |  |  +- (org.deeplearning4j:deeplearning4j-nn:jar:1.0.0-beta:compile - omitted for duplicate)
+|  |  |  +- (org.nd4j:jackson:jar:1.0.0-beta:compile - omitted for duplicate)
+|  |  |  +- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  |  \- org.bytedeco.javacpp-presets:hdf5-platform:jar:1.10.1-1.4.1:compile
+|  |  |     +- org.bytedeco.javacpp-presets:hdf5:jar:1.10.1-1.4.1:compile
+|  |  |     |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  |     +- org.bytedeco.javacpp-presets:hdf5:jar:linux-x86:1.10.1-1.4.1:compile
+|  |  |     |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  |     +- org.bytedeco.javacpp-presets:hdf5:jar:linux-x86_64:1.10.1-1.4.1:compile
+|  |  |     |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  |     +- org.bytedeco.javacpp-presets:hdf5:jar:linux-ppc64le:1.10.1-1.4.1:compile
+|  |  |     |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  |     +- org.bytedeco.javacpp-presets:hdf5:jar:macosx-x86_64:1.10.1-1.4.1:compile
+|  |  |     |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  |     +- org.bytedeco.javacpp-presets:hdf5:jar:windows-x86:1.10.1-1.4.1:compile
+|  |  |     |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  |     \- org.bytedeco.javacpp-presets:hdf5:jar:windows-x86_64:1.10.1-1.4.1:compile
+|  |  |        \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  +- org.slf4j:slf4j-api:jar:1.7.12:compile
+|  |  +- org.deeplearning4j:deeplearning4j-nn:jar:1.0.0-beta:compile
+|  |  |  +- org.deeplearning4j:deeplearning4j-utility-iterators:jar:1.0.0-beta:compile
+|  |  |  |  +- org.deeplearning4j:deeplearning4j-util:jar:1.0.0-beta:compile
+|  |  |  |  |  +- (org.nd4j:nd4j-api:jar:1.0.0-beta:compile - omitted for duplicate)
+|  |  |  |  |  \- (org.nd4j:nd4j-common:jar:1.0.0-beta:compile - omitted for duplicate)
+|  |  |  |  +- (org.deeplearning4j:deeplearning4j-datasets:jar:1.0.0-beta:compile - omitted for duplicate)
+|  |  |  |  \- (org.nd4j:nd4j-api:jar:1.0.0-beta:compile - omitted for duplicate)
+|  |  |  +- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+|  |  |  +- (org.nd4j:nd4j-api:jar:1.0.0-beta:compile - omitted for duplicate)
+|  |  |  +- org.nd4j:nd4j-common:jar:1.0.0-beta:compile
+|  |  |  |  +- (org.nd4j:jackson:jar:1.0.0-beta:compile - omitted for duplicate)
+|  |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.12:compile - version managed from 1.7.5; omitted for duplicate)
+|  |  |  |  +- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.commons:commons-math3:jar:3.4.1:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.commons:commons-lang3:jar:3.4:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.commons:commons-compress:jar:1.16.1:compile - omitted for duplicate)
+|  |  |  |  \- (com.google.guava:guava:jar:20.0:compile - version managed from 15.0; omitted for duplicate)
+|  |  |  +- (org.nd4j:jackson:jar:1.0.0-beta:compile - omitted for duplicate)
+|  |  |  +- (org.nd4j:nd4j-jackson:jar:1.0.0-beta:compile - omitted for duplicate)
+|  |  |  +- (org.apache.commons:commons-compress:jar:1.16.1:compile - omitted for duplicate)
+|  |  |  \- (org.threadly:threadly:jar:4.10.0:compile - omitted for duplicate)
+|  |  +- org.apache.commons:commons-math3:jar:3.4.1:compile
+|  |  +- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+|  |  +- org.apache.commons:commons-compress:jar:1.16.1:compile
+|  |  |  \- org.objenesis:objenesis:jar:2.6:compile
+|  |  +- (com.google.guava:guava:jar:20.0:compile - version managed from 15.0; omitted for duplicate)
+|  |  +- (org.nd4j:nd4j-api:jar:1.0.0-beta:compile - omitted for duplicate)
+|  |  +- (org.apache.commons:commons-lang3:jar:3.4:compile - omitted for duplicate)
+|  |  +- (org.nd4j:jackson:jar:1.0.0-beta:compile - omitted for duplicate)
+|  |  +- org.datavec:datavec-api:jar:1.0.0-beta:compile
+|  |  |  +- org.jetbrains:annotations:jar:13.0:compile
+|  |  |  +- (org.apache.commons:commons-compress:jar:1.16.1:compile - omitted for duplicate)
+|  |  |  +- (org.apache.commons:commons-lang3:jar:3.4:compile - omitted for duplicate)
+|  |  |  +- (org.apache.commons:commons-math3:jar:3.4.1:compile - omitted for duplicate)
+|  |  |  +- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+|  |  |  +- (commons-codec:commons-codec:jar:1.10:compile - omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.12:compile - version managed from 1.7.5; omitted for duplicate)
+|  |  |  +- (joda-time:joda-time:jar:2.9.2:compile - omitted for conflict with 2.8.1)
+|  |  |  +- (org.nd4j:jackson:jar:1.0.0-beta:compile - omitted for duplicate)
+|  |  |  +- org.freemarker:freemarker:jar:2.3.23:compile
+|  |  |  +- (org.nd4j:nd4j-common:jar:1.0.0-beta:compile - omitted for duplicate)
+|  |  |  +- (org.nd4j:nd4j-api:jar:1.0.0-beta:compile - omitted for duplicate)
+|  |  |  +- com.clearspring.analytics:stream:jar:2.7.0:compile
+|  |  |  |  \- (it.unimi.dsi:fastutil:jar:6.5.7:compile - omitted for duplicate)
+|  |  |  +- net.sf.opencsv:opencsv:jar:2.3:compile
+|  |  |  +- com.tdunning:t-digest:jar:3.2:compile
+|  |  |  \- it.unimi.dsi:fastutil:jar:6.5.7:compile
+|  |  +- org.datavec:datavec-data-image:jar:1.0.0-beta:compile
+|  |  |  +- (org.datavec:datavec-api:jar:1.0.0-beta:compile - omitted for duplicate)
+|  |  |  +- (org.nd4j:nd4j-buffer:jar:1.0.0-beta:compile - omitted for duplicate)
+|  |  |  +- com.github.jai-imageio:jai-imageio-core:jar:1.3.0:compile
+|  |  |  +- com.twelvemonkeys.imageio:imageio-jpeg:jar:3.1.1:compile
+|  |  |  |  +- com.twelvemonkeys.imageio:imageio-core:jar:3.1.1:compile
+|  |  |  |  |  +- (com.twelvemonkeys.common:common-lang:jar:3.1.1:compile - omitted for duplicate)
+|  |  |  |  |  +- (com.twelvemonkeys.common:common-io:jar:3.1.1:compile - omitted for duplicate)
+|  |  |  |  |  \- (com.twelvemonkeys.common:common-image:jar:3.1.1:compile - omitted for duplicate)
+|  |  |  |  +- com.twelvemonkeys.imageio:imageio-metadata:jar:3.1.1:compile
+|  |  |  |  |  +- (com.twelvemonkeys.imageio:imageio-core:jar:3.1.1:compile - omitted for duplicate)
+|  |  |  |  |  +- (com.twelvemonkeys.common:common-lang:jar:3.1.1:compile - omitted for duplicate)
+|  |  |  |  |  +- (com.twelvemonkeys.common:common-io:jar:3.1.1:compile - omitted for duplicate)
+|  |  |  |  |  \- (com.twelvemonkeys.common:common-image:jar:3.1.1:compile - omitted for duplicate)
+|  |  |  |  +- com.twelvemonkeys.common:common-lang:jar:3.1.1:compile
+|  |  |  |  +- com.twelvemonkeys.common:common-io:jar:3.1.1:compile
+|  |  |  |  |  \- (com.twelvemonkeys.common:common-lang:jar:3.1.1:compile - omitted for duplicate)
+|  |  |  |  \- com.twelvemonkeys.common:common-image:jar:3.1.1:compile
+|  |  |  |     +- (com.twelvemonkeys.common:common-lang:jar:3.1.1:compile - omitted for duplicate)
+|  |  |  |     \- (com.twelvemonkeys.common:common-io:jar:3.1.1:compile - omitted for duplicate)
+|  |  |  +- com.twelvemonkeys.imageio:imageio-tiff:jar:3.1.1:compile
+|  |  |  |  +- (com.twelvemonkeys.imageio:imageio-core:jar:3.1.1:compile - omitted for duplicate)
+|  |  |  |  +- (com.twelvemonkeys.imageio:imageio-metadata:jar:3.1.1:compile - omitted for duplicate)
+|  |  |  |  +- (com.twelvemonkeys.common:common-lang:jar:3.1.1:compile - omitted for duplicate)
+|  |  |  |  +- (com.twelvemonkeys.common:common-io:jar:3.1.1:compile - omitted for duplicate)
+|  |  |  |  \- (com.twelvemonkeys.common:common-image:jar:3.1.1:compile - omitted for duplicate)
+|  |  |  +- com.twelvemonkeys.imageio:imageio-psd:jar:3.1.1:compile
+|  |  |  |  +- (com.twelvemonkeys.imageio:imageio-core:jar:3.1.1:compile - omitted for duplicate)
+|  |  |  |  +- (com.twelvemonkeys.imageio:imageio-metadata:jar:3.1.1:compile - omitted for duplicate)
+|  |  |  |  +- (com.twelvemonkeys.common:common-lang:jar:3.1.1:compile - omitted for duplicate)
+|  |  |  |  +- (com.twelvemonkeys.common:common-io:jar:3.1.1:compile - omitted for duplicate)
+|  |  |  |  \- (com.twelvemonkeys.common:common-image:jar:3.1.1:compile - omitted for duplicate)
+|  |  |  +- com.twelvemonkeys.imageio:imageio-bmp:jar:3.1.1:compile
+|  |  |  |  +- (com.twelvemonkeys.imageio:imageio-core:jar:3.1.1:compile - omitted for duplicate)
+|  |  |  |  +- (com.twelvemonkeys.common:common-lang:jar:3.1.1:compile - omitted for duplicate)
+|  |  |  |  +- (com.twelvemonkeys.common:common-io:jar:3.1.1:compile - omitted for duplicate)
+|  |  |  |  \- (com.twelvemonkeys.common:common-image:jar:3.1.1:compile - omitted for duplicate)
+|  |  |  +- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  |  +- org.bytedeco:javacv:jar:1.4.1:compile
+|  |  |  |  +- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  |  |  +- org.bytedeco.javacpp-presets:opencv:jar:3.4.1-1.4.1:compile
+|  |  |  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  |  |  +- org.bytedeco.javacpp-presets:ffmpeg:jar:3.4.2-1.4.1:compile
+|  |  |  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  |  |  +- org.bytedeco.javacpp-presets:flycapture:jar:2.11.3.121-1.4.1:compile
+|  |  |  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  |  |  +- org.bytedeco.javacpp-presets:libdc1394:jar:2.2.5-1.4.1:compile
+|  |  |  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  |  |  +- org.bytedeco.javacpp-presets:libfreenect:jar:0.5.3-1.4.1:compile
+|  |  |  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  |  |  +- org.bytedeco.javacpp-presets:libfreenect2:jar:0.2.0-1.4.1:compile
+|  |  |  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  |  |  +- org.bytedeco.javacpp-presets:librealsense:jar:1.12.1-1.4.1:compile
+|  |  |  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  |  |  +- org.bytedeco.javacpp-presets:videoinput:jar:0.200-1.4.1:compile
+|  |  |  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  |  |  +- org.bytedeco.javacpp-presets:artoolkitplus:jar:2.3.1-1.4.1:compile
+|  |  |  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  |  |  \- org.bytedeco.javacpp-presets:flandmark:jar:1.07-1.4.1:compile
+|  |  |  |     +- (org.bytedeco.javacpp-presets:opencv:jar:3.4.1-1.4.1:compile - omitted for duplicate)
+|  |  |  |     \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  |  +- org.bytedeco.javacpp-presets:opencv-platform:jar:3.4.1-1.4.1:compile
+|  |  |  |  +- (org.bytedeco.javacpp-presets:opencv:jar:3.4.1-1.4.1:compile - omitted for duplicate)
+|  |  |  |  +- org.bytedeco.javacpp-presets:opencv:jar:android-arm:3.4.1-1.4.1:compile
+|  |  |  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  |  |  +- org.bytedeco.javacpp-presets:opencv:jar:android-arm64:3.4.1-1.4.1:compile
+|  |  |  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  |  |  +- org.bytedeco.javacpp-presets:opencv:jar:android-x86:3.4.1-1.4.1:compile
+|  |  |  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  |  |  +- org.bytedeco.javacpp-presets:opencv:jar:android-x86_64:3.4.1-1.4.1:compile
+|  |  |  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  |  |  +- org.bytedeco.javacpp-presets:opencv:jar:ios-arm64:3.4.1-1.4.1:compile
+|  |  |  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  |  |  +- org.bytedeco.javacpp-presets:opencv:jar:ios-x86_64:3.4.1-1.4.1:compile
+|  |  |  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  |  |  +- org.bytedeco.javacpp-presets:opencv:jar:linux-x86:3.4.1-1.4.1:compile
+|  |  |  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  |  |  +- org.bytedeco.javacpp-presets:opencv:jar:linux-x86_64:3.4.1-1.4.1:compile
+|  |  |  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  |  |  +- org.bytedeco.javacpp-presets:opencv:jar:linux-armhf:3.4.1-1.4.1:compile
+|  |  |  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  |  |  +- org.bytedeco.javacpp-presets:opencv:jar:linux-ppc64le:3.4.1-1.4.1:compile
+|  |  |  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  |  |  +- org.bytedeco.javacpp-presets:opencv:jar:macosx-x86_64:3.4.1-1.4.1:compile
+|  |  |  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  |  |  +- org.bytedeco.javacpp-presets:opencv:jar:windows-x86:3.4.1-1.4.1:compile
+|  |  |  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  |  |  \- org.bytedeco.javacpp-presets:opencv:jar:windows-x86_64:3.4.1-1.4.1:compile
+|  |  |  |     \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  |  +- org.bytedeco.javacpp-presets:leptonica-platform:jar:1.75.3-1.4.1:compile
+|  |  |  |  +- org.bytedeco.javacpp-presets:leptonica:jar:1.75.3-1.4.1:compile
+|  |  |  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  |  |  +- org.bytedeco.javacpp-presets:leptonica:jar:android-arm:1.75.3-1.4.1:compile
+|  |  |  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  |  |  +- org.bytedeco.javacpp-presets:leptonica:jar:android-arm64:1.75.3-1.4.1:compile
+|  |  |  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  |  |  +- org.bytedeco.javacpp-presets:leptonica:jar:android-x86:1.75.3-1.4.1:compile
+|  |  |  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  |  |  +- org.bytedeco.javacpp-presets:leptonica:jar:android-x86_64:1.75.3-1.4.1:compile
+|  |  |  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  |  |  +- org.bytedeco.javacpp-presets:leptonica:jar:linux-x86:1.75.3-1.4.1:compile
+|  |  |  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  |  |  +- org.bytedeco.javacpp-presets:leptonica:jar:linux-x86_64:1.75.3-1.4.1:compile
+|  |  |  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  |  |  +- org.bytedeco.javacpp-presets:leptonica:jar:linux-armhf:1.75.3-1.4.1:compile
+|  |  |  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  |  |  +- org.bytedeco.javacpp-presets:leptonica:jar:linux-ppc64le:1.75.3-1.4.1:compile
+|  |  |  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  |  |  +- org.bytedeco.javacpp-presets:leptonica:jar:macosx-x86_64:1.75.3-1.4.1:compile
+|  |  |  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  |  |  +- org.bytedeco.javacpp-presets:leptonica:jar:windows-x86:1.75.3-1.4.1:compile
+|  |  |  |  |  \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  |  |  \- org.bytedeco.javacpp-presets:leptonica:jar:windows-x86_64:1.75.3-1.4.1:compile
+|  |  |  |     \- (org.bytedeco:javacpp:jar:1.4.1:compile - omitted for duplicate)
+|  |  |  +- (org.bytedeco.javacpp-presets:hdf5-platform:jar:1.10.1-1.4.1:compile - omitted for duplicate)
+|  |  |  \- (org.nd4j:nd4j-api:jar:1.0.0-beta:compile - omitted for duplicate)
+|  |  +- org.deeplearning4j:deeplearning4j-ui-components:jar:1.0.0-beta:compile
+|  |  |  +- (org.nd4j:jackson:jar:1.0.0-beta:compile - omitted for duplicate)
+|  |  |  +- (org.freemarker:freemarker:jar:2.3.23:compile - omitted for duplicate)
+|  |  |  +- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+|  |  |  \- (org.nd4j:nd4j-common:jar:1.0.0-beta:compile - omitted for duplicate)
+|  |  \- commons-codec:commons-codec:jar:1.10:compile
+|  +- org.threadly:threadly:jar:4.10.0:compile
+|  +- (org.nd4j:nd4j-jackson:jar:1.0.0-beta:compile - omitted for duplicate)
+|  \- org.apache.commons:commons-lang3:jar:3.4:compile
++- org.nd4j:nd4j-jackson:jar:1.0.0-beta:compile
+|  +- org.nd4j:nd4j-base64:jar:1.0.0-beta:compile
+|  |  +- (org.nd4j:nd4j-api:jar:1.0.0-beta:compile - omitted for duplicate)
+|  |  \- commons-net:commons-net:jar:3.1:compile
+|  \- org.nd4j:jackson:jar:1.0.0-beta:compile
+|     +- (org.yaml:snakeyaml:jar:1.12:compile - omitted for conflict with 1.15)
+|     +- org.codehaus.woodstox:stax2-api:jar:3.1.4:compile
+|     \- joda-time:joda-time:jar:2.2:compile
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.deeplearning4j:deeplearning4j-ui-model:jar:1.0.0-beta:compile
+|  +- (org.deeplearning4j:deeplearning4j-core:jar:1.0.0-beta:compile - omitted for duplicate)
+|  +- org.nd4j:nd4j-api:jar:1.0.0-beta:compile
+|  |  +- (org.apache.commons:commons-math3:jar:3.4.1:compile - omitted for duplicate)
+|  |  +- com.vlkan:flatbuffers:jar:1.2.0-3f79e055:compile
+|  |  +- com.github.os72:protobuf-java-shaded-351:jar:0.9:compile
+|  |  +- com.github.os72:protobuf-java-util-shaded-351:jar:0.9:compile
+|  |  |  +- (com.github.os72:protobuf-java-shaded-351:jar:0.9:compile - omitted for duplicate)
+|  |  |  +- (com.google.guava:guava:jar:20.0:compile - version managed from 19.0; omitted for duplicate)
+|  |  |  \- com.google.code.gson:gson:jar:2.7:compile
+|  |  +- uk.com.robust-it:cloning:jar:1.9.3:compile
+|  |  |  \- (org.objenesis:objenesis:jar:2.1:compile - omitted for conflict with 2.6)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.12:compile - version managed from 1.7.5; omitted for duplicate)
+|  |  +- (org.nd4j:jackson:jar:1.0.0-beta:compile - omitted for duplicate)
+|  |  +- (org.nd4j:nd4j-buffer:jar:1.0.0-beta:compile - omitted for duplicate)
+|  |  +- org.nd4j:nd4j-context:jar:1.0.0-beta:compile
+|  |  |  \- (org.nd4j:nd4j-common:jar:1.0.0-beta:compile - omitted for duplicate)
+|  |  \- net.ericaro:neoitertools:jar:1.0.0:compile
+|  +- (org.nd4j:nd4j-native-api:jar:1.0.0-beta:compile - omitted for duplicate)
+|  +- org.agrona:Agrona:jar:0.5.4:compile
+|  +- org.mapdb:mapdb:jar:3.0.5:compile
+|  |  +- org.jetbrains.kotlin:kotlin-stdlib:jar:1.0.7:compile
+|  |  |  \- org.jetbrains.kotlin:kotlin-runtime:jar:1.0.7:compile
+|  |  +- org.eclipse.collections:eclipse-collections-api:jar:7.1.2:compile
+|  |  |  \- net.jcip:jcip-annotations:jar:1.0:compile
+|  |  +- org.eclipse.collections:eclipse-collections:jar:7.1.2:compile
+|  |  |  +- (org.eclipse.collections:eclipse-collections-api:jar:7.1.2:compile - omitted for duplicate)
+|  |  |  \- (net.jcip:jcip-annotations:jar:1.0:compile - omitted for duplicate)
+|  |  +- org.eclipse.collections:eclipse-collections-forkjoin:jar:7.1.2:compile
+|  |  |  +- (org.eclipse.collections:eclipse-collections-api:jar:7.1.2:compile - omitted for duplicate)
+|  |  |  \- (org.eclipse.collections:eclipse-collections:jar:7.1.2:compile - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:20.0:compile - omitted for duplicate)
+|  |  +- net.jpountz.lz4:lz4:jar:1.3.0:compile
+|  |  \- org.mapdb:elsa:jar:3.0.0-M5:compile
+|  \- org.xerial:sqlite-jdbc:jar:3.15.1:compile
++- org.deeplearning4j:deeplearning4j-ui-resources:jar:1.0.0-beta:compile
++- ch.qos.logback:logback-classic:jar:1.1.2:test (scope not updated to compile)
+|  +- (ch.qos.logback:logback-core:jar:1.1.2:compile - version managed from 1.1.3; scope updated from test; omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.12:compile - version managed from 1.7.6; scope updated from test; omitted for duplicate)
+\- org.projectlombok:lombok:jar:1.16.20:provided (scope not updated to compile)

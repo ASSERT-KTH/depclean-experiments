@@ -1,0 +1,19 @@
+com.github.rockjam:play-json_2.11:jar:2.7.0
++- org.scala-lang:scala-reflect:jar:2.11.12:compile
+|  \- org.scala-lang:scala-library:jar:2.11.12:compile
++- org.typelevel:macro-compat_2.11:jar:1.1.1:compile
+|  \- (org.scala-lang:scala-library:jar:2.11.7:compile - omitted for conflict with 2.11.12)
++- joda-time:joda-time:jar:2.9.9:compile
++- com.fasterxml.jackson.core:jackson-core:jar:2.9.3:compile
++- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.3:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.9.3:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile - omitted for conflict with 2.9.3)
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.3:compile - omitted for duplicate)
++- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.3:compile
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.3:compile - omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.3:compile - omitted for duplicate)
++- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.3:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile - omitted for conflict with 2.9.3)
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.3:compile - omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.3:compile - omitted for duplicate)
+\- com.github.rockjam:play-functional_2.11:jar:2.7.0:compile

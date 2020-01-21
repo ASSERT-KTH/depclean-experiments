@@ -1,0 +1,174 @@
+org.skinny-framework:skinny-framework_2.12:jar:2.6.0
++- org.scala-lang:scala-library:jar:2.12.4:compile
++- org.skinny-framework:skinny-common_2.12:jar:2.6.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  +- joda-time:joda-time:jar:2.9.9:compile
+|  +- org.joda:joda-convert:jar:1.9.2:compile
+|  +- org.skinny-framework:skinny-micro-common_2.12:jar:1.3.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  +- com.typesafe:config:jar:1.3.2:compile
+|  \- org.scala-lang.modules:scala-parser-combinators_2.12:jar:1.0.6:compile
+|     \- (org.scala-lang:scala-library:jar:2.12.2:compile - omitted for conflict with 2.12.4)
++- org.skinny-framework:skinny-json_2.12:jar:2.6.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  \- org.skinny-framework:skinny-micro-json4s_2.12:jar:1.3.0:compile
+|     +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|     +- (org.skinny-framework:skinny-micro_2.12:jar:1.3.0:compile - omitted for duplicate)
+|     +- org.json4s:json4s-jackson_2.12:jar:3.5.3:compile
+|     |  +- (org.scala-lang:scala-library:jar:2.12.3:compile - omitted for conflict with 2.12.4)
+|     |  +- org.json4s:json4s-core_2.12:jar:3.5.3:compile
+|     |  |  +- (org.scala-lang:scala-library:jar:2.12.3:compile - omitted for conflict with 2.12.4)
+|     |  |  +- org.json4s:json4s-ast_2.12:jar:3.5.3:compile
+|     |  |  |  \- (org.scala-lang:scala-library:jar:2.12.3:compile - omitted for conflict with 2.12.4)
+|     |  |  +- org.json4s:json4s-scalap_2.12:jar:3.5.3:compile
+|     |  |  |  \- (org.scala-lang:scala-library:jar:2.12.3:compile - omitted for conflict with 2.12.4)
+|     |  |  +- com.thoughtworks.paranamer:paranamer:jar:2.8:compile
+|     |  |  \- (org.scala-lang.modules:scala-xml_2.12:jar:1.0.6:compile - omitted for conflict with 1.0.6)
+|     |  \- com.fasterxml.jackson.core:jackson-databind:jar:2.8.4:compile
+|     |     +- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile
+|     |     \- com.fasterxml.jackson.core:jackson-core:jar:2.8.4:compile
+|     +- org.json4s:json4s-ext_2.12:jar:3.5.3:compile
+|     |  \- (org.scala-lang:scala-library:jar:2.12.3:compile - omitted for conflict with 2.12.4)
+|     +- (joda-time:joda-time:jar:2.9.9:compile - omitted for duplicate)
+|     \- (org.joda:joda-convert:jar:1.9.2:compile - omitted for duplicate)
++- org.skinny-framework:skinny-validator_2.12:jar:2.6.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  +- (org.skinny-framework:skinny-common_2.12:jar:2.6.0:compile - omitted for duplicate)
+|  +- (joda-time:joda-time:jar:2.9.9:compile - omitted for duplicate)
+|  \- (org.joda:joda-convert:jar:1.9.2:compile - omitted for duplicate)
++- org.skinny-framework:skinny-orm_2.12:jar:2.6.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  +- (org.skinny-framework:skinny-common_2.12:jar:2.6.0:compile - omitted for duplicate)
+|  +- org.scalikejdbc:scalikejdbc_2.12:jar:3.2.3:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.5:compile - omitted for conflict with 2.12.4)
+|  |  +- org.scalikejdbc:scalikejdbc-core_2.12:jar:3.2.3:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.12.5:compile - omitted for conflict with 2.12.4)
+|  |  |  +- org.apache.commons:commons-dbcp2:jar:2.2.0:compile
+|  |  |  |  +- org.apache.commons:commons-pool2:jar:2.5.0:compile
+|  |  |  |  \- commons-logging:commons-logging:jar:1.2:compile
+|  |  |  \- (org.scala-lang.modules:scala-parser-combinators_2.12:jar:1.1.0:compile - omitted for conflict with 1.0.6)
+|  |  \- org.scalikejdbc:scalikejdbc-interpolation_2.12:jar:3.2.3:compile
+|  |     +- (org.scala-lang:scala-library:jar:2.12.5:compile - omitted for conflict with 2.12.4)
+|  |     +- (org.scalikejdbc:scalikejdbc-core_2.12:jar:3.2.3:compile - omitted for duplicate)
+|  |     \- org.scalikejdbc:scalikejdbc-interpolation-macro_2.12:jar:3.2.3:compile
+|  |        +- (org.scala-lang:scala-library:jar:2.12.5:compile - omitted for conflict with 2.12.4)
+|  |        +- (org.scalikejdbc:scalikejdbc-core_2.12:jar:3.2.3:compile - omitted for duplicate)
+|  |        \- (org.scala-lang:scala-reflect:jar:2.12.5:compile - omitted for conflict with 2.12.4)
+|  +- org.scalikejdbc:scalikejdbc-joda-time_2.12:jar:3.2.3:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.5:compile - omitted for conflict with 2.12.4)
+|  |  \- (org.scalikejdbc:scalikejdbc_2.12:jar:3.2.3:compile - omitted for duplicate)
+|  +- org.scalikejdbc:scalikejdbc-syntax-support-macro_2.12:jar:3.2.3:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.5:compile - omitted for conflict with 2.12.4)
+|  |  \- (org.scalikejdbc:scalikejdbc_2.12:jar:3.2.3:compile - omitted for duplicate)
+|  +- org.scalikejdbc:scalikejdbc-config_2.12:jar:3.2.3:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.5:compile - omitted for conflict with 2.12.4)
+|  |  +- (org.scalikejdbc:scalikejdbc-core_2.12:jar:3.2.3:compile - omitted for duplicate)
+|  |  \- (com.typesafe:config:jar:1.3.3:compile - omitted for conflict with 1.3.2)
+|  \- org.flywaydb:flyway-core:jar:5.0.7:compile
++- org.skinny-framework:skinny-mailer_2.12:jar:2.6.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  +- (org.skinny-framework:skinny-common_2.12:jar:2.6.0:compile - omitted for duplicate)
+|  +- org.slf4j:slf4j-api:jar:1.7.25:compile
+|  +- javax.mail:mail:jar:1.4.7:compile
+|  |  \- javax.activation:activation:jar:1.1:compile
+|  +- (joda-time:joda-time:jar:2.9.9:compile - omitted for duplicate)
+|  \- (org.joda:joda-convert:jar:1.9.2:compile - omitted for duplicate)
++- org.skinny-framework:skinny-http-client_2.12:jar:2.6.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  +- (org.skinny-framework:skinny-micro-common_2.12:jar:1.3.0:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
++- org.skinny-framework:skinny-worker_2.12:jar:2.6.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  +- (joda-time:joda-time:jar:2.9.9:compile - omitted for duplicate)
+|  +- (org.joda:joda-convert:jar:1.9.2:compile - omitted for duplicate)
+|  \- (org.skinny-framework:skinny-micro-common_2.12:jar:1.3.0:compile - omitted for duplicate)
++- org.skinny-framework:skinny-micro_2.12:jar:1.3.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  +- (org.skinny-framework:skinny-micro-common_2.12:jar:1.3.0:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  +- com.googlecode.juniversalchardet:juniversalchardet:jar:1.0.3:compile
+|  \- (org.scala-lang.modules:scala-parser-combinators_2.12:jar:1.0.6:compile - omitted for duplicate)
++- org.skinny-framework:skinny-micro-scalate_2.12:jar:1.3.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  +- (org.skinny-framework:skinny-micro_2.12:jar:1.3.0:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  \- (org.scalatra.scalate:scalate-core_2.12:jar:1.8.0:compile - omitted for duplicate)
++- commons-io:commons-io:jar:2.6:compile
++- org.skinny-framework:scalatra-test_2.12:jar:1.3.0:test
+|  +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)
+|  +- (com.googlecode.juniversalchardet:juniversalchardet:jar:1.0.3:test - omitted for duplicate)
+|  +- junit:junit:jar:4.12:test
+|  |  \- org.hamcrest:hamcrest-core:jar:1.3:test
+|  +- org.testng:testng:jar:6.13.1:test
+|  |  \- com.beust:jcommander:jar:1.72:test
+|  +- (org.mockito:mockito-core:jar:2.13.0:test - omitted for conflict with 2.17.0)
+|  +- org.apache.commons:commons-lang3:jar:3.7:test
+|  +- org.eclipse.jetty:jetty-webapp:jar:9.4.9.v20180320:test
+|  |  +- org.eclipse.jetty:jetty-xml:jar:9.4.9.v20180320:test
+|  |  |  \- org.eclipse.jetty:jetty-util:jar:9.4.9.v20180320:test
+|  |  \- org.eclipse.jetty:jetty-servlet:jar:9.4.9.v20180320:test
+|  |     \- org.eclipse.jetty:jetty-security:jar:9.4.9.v20180320:test
+|  |        \- org.eclipse.jetty:jetty-server:jar:9.4.9.v20180320:test
+|  |           +- (javax.servlet:javax.servlet-api:jar:3.1.0:test - omitted for duplicate)
+|  |           +- org.eclipse.jetty:jetty-http:jar:9.4.9.v20180320:test
+|  |           |  +- (org.eclipse.jetty:jetty-util:jar:9.4.9.v20180320:test - omitted for duplicate)
+|  |           |  \- (org.eclipse.jetty:jetty-io:jar:9.4.9.v20180320:test - omitted for duplicate)
+|  |           \- org.eclipse.jetty:jetty-io:jar:9.4.9.v20180320:test
+|  |              \- (org.eclipse.jetty:jetty-util:jar:9.4.9.v20180320:test - omitted for duplicate)
+|  +- org.apache.httpcomponents:httpclient:jar:4.5.5:test
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.4.9:test
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - scope updated from test; omitted for duplicate)
+|  |  \- commons-codec:commons-codec:jar:1.10:test
+|  +- org.apache.httpcomponents:httpmime:jar:4.5.5:test
+|  |  \- (org.apache.httpcomponents:httpclient:jar:4.5.5:test - omitted for duplicate)
+|  +- (org.scalatest:scalatest_2.12:jar:3.0.5:test - omitted for duplicate)
+|  \- org.specs2:specs2-core_2.12:jar:3.9.5:test
+|     +- (org.scala-lang:scala-library:jar:2.12.2:test - omitted for conflict with 2.12.4)
+|     \- org.specs2:specs2-matcher_2.12:jar:3.9.5:test
+|        +- (org.scala-lang:scala-library:jar:2.12.2:test - omitted for conflict with 2.12.4)
+|        \- org.specs2:specs2-common_2.12:jar:3.9.5:test
+|           +- (org.scala-lang:scala-library:jar:2.12.2:test - omitted for conflict with 2.12.4)
+|           +- org.scalaz:scalaz-core_2.12:jar:7.2.12:test
+|           |  \- (org.scala-lang:scala-library:jar:2.12.2:test - omitted for conflict with 2.12.4)
+|           +- org.scalaz:scalaz-effect_2.12:jar:7.2.12:test
+|           |  +- (org.scala-lang:scala-library:jar:2.12.2:test - omitted for conflict with 2.12.4)
+|           |  \- (org.scalaz:scalaz-core_2.12:jar:7.2.12:test - omitted for duplicate)
+|           +- (org.scala-lang:scala-reflect:jar:2.12.2:test - omitted for conflict with 2.12.4)
+|           +- (org.scala-lang.modules:scala-parser-combinators_2.12:jar:1.0.6:test - omitted for duplicate)
+|           \- (org.scala-lang.modules:scala-xml_2.12:jar:1.0.6:test - omitted for duplicate)
++- org.scalatra.scalate:scalate-core_2.12:jar:1.8.0:compile
+|  +- org.scala-lang:scala-compiler:jar:2.12.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.4)
+|  |  +- org.scala-lang:scala-reflect:jar:2.12.4:compile
+|  |  |  \- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.4)
+|  |  \- org.scala-lang.modules:scala-xml_2.12:jar:1.0.6:compile
+|  |     \- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.4)
+|  +- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.4)
+|  \- org.scalatra.scalate:scalate-util_2.12:jar:1.8.0:compile
+|     +- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.4)
+|     +- (org.scala-lang.modules:scala-xml_2.12:jar:1.0.6:compile - omitted for conflict with 1.0.6)
+|     \- (org.scala-lang.modules:scala-parser-combinators_2.12:jar:1.0.4:compile - omitted for conflict with 1.0.6)
++- javax.servlet:javax.servlet-api:jar:3.1.0:provided
++- org.scalatest:scalatest_2.12:jar:3.0.5:test
+|  +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for duplicate)
+|  +- org.scalactic:scalactic_2.12:jar:3.0.5:test
+|  |  +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for duplicate)
+|  |  \- (org.scala-lang:scala-reflect:jar:2.12.4:test - omitted for conflict with 2.12.4)
+|  +- (org.scala-lang:scala-reflect:jar:2.12.4:compile - scope updated from test; omitted for duplicate)
+|  \- (org.scala-lang.modules:scala-xml_2.12:jar:1.0.6:compile - scope updated from test; omitted for duplicate)
++- org.mockito:mockito-core:jar:2.17.0:test
+|  +- net.bytebuddy:byte-buddy:jar:1.8.0:test
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.8.0:test
+|  \- org.objenesis:objenesis:jar:2.6:test
++- ch.qos.logback:logback-classic:jar:1.2.3:test
+|  +- ch.qos.logback:logback-core:jar:1.2.3:test
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)
++- org.jvnet.mock-javamail:mock-javamail:jar:1.9:test
+|  +- (javax.mail:mail:jar:1.4:test - omitted for conflict with 1.4.7)
+|  \- (junit:junit:jar:3.8:test - omitted for conflict with 4.12)
++- com.h2database:h2:jar:1.4.197:test
+\- org.skinny-framework:skinny-logback:jar:1.0.14:test
+   +- (ch.qos.logback:logback-classic:jar:1.2.3:test - omitted for duplicate)
+   \- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)

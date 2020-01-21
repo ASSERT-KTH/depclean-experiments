@@ -1,0 +1,11 @@
+ch.codeblock.qrinvoice.rest:qrinvoice-rest-tools-generator:jar:0.7
++- ch.codeblock.qrinvoice.core:qrinvoice-core:jar:0.7:compile
+|  +- org.slf4j:slf4j-api:jar:1.7.21:compile
+|  +- com.google.zxing:core:jar:3.3.0:compile
+|  \- com.google.zxing:javase:jar:3.3.0:compile
+|     +- (com.google.zxing:core:jar:3.3.0:compile - omitted for duplicate)
+|     \- com.github.jai-imageio:jai-imageio-core:jar:1.3.1:compile
++- org.apache.commons:commons-lang3:jar:3.4:compile
+\- commons-beanutils:commons-beanutils:jar:1.9.3:compile
+   +- commons-logging:commons-logging:jar:1.2:compile
+   \- commons-collections:commons-collections:jar:3.2.2:compile

@@ -1,0 +1,2 @@
+org.webjars.npm:global-dirs:jar:0.1.1
+\- org.webjars.npm:ini:jar:1.3.5:compile

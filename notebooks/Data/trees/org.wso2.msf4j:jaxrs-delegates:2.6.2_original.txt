@@ -1,0 +1,11 @@
+org.wso2.msf4j:jaxrs-delegates:bundle:2.6.2
++- javax.ws.rs:javax.ws.rs-api:jar:2.0:compile
++- org.slf4j:slf4j-api:jar:1.7.5:compile
++- org.apache.httpcomponents:httpclient:jar:4.5.2:compile
+|  +- org.apache.httpcomponents:httpcore:jar:4.4.4:compile
+|  +- commons-logging:commons-logging:jar:1.2:compile
+|  \- commons-codec:commons-codec:jar:1.9:compile
++- com.google.code.gson:gson:jar:2.2.4:compile
+\- org.testng:testng:jar:6.9.4:test
+   +- org.beanshell:bsh:jar:2.0b4:test
+   \- com.beust:jcommander:jar:1.48:test

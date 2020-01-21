@@ -1,0 +1,190 @@
+com.networknt:rpc-router:jar:1.5.10
++- com.networknt:config:jar:1.5.10:compile
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.1:compile - version managed from 2.8.7; omitted for duplicate)
+|  +- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.1:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.1:compile - omitted for duplicate)
+|  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.1:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.21; omitted for duplicate)
+|  +- org.owasp.encoder:encoder:jar:1.2.1:compile
+|  \- org.yaml:snakeyaml:jar:1.18:compile
++- com.networknt:status:jar:1.5.10:compile
+|  +- (com.networknt:config:jar:1.5.10:compile - omitted for duplicate)
+|  +- com.networknt:service:jar:1.5.10:compile
+|  |  +- (com.networknt:config:jar:1.5.10:compile - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.1:compile - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  +- com.networknt:utility:jar:1.5.10:compile
+|  |  +- (com.networknt:config:jar:1.5.10:compile - omitted for duplicate)
+|  |  +- (io.undertow:undertow-core:jar:1.4.20.Final:compile - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.1:compile - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.10:compile - omitted for duplicate)
+|  |  \- (org.owasp.encoder:encoder:jar:1.2.1:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.1:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  +- commons-codec:commons-codec:jar:1.10:compile
+|  \- (org.owasp.encoder:encoder:jar:1.2.1:compile - omitted for duplicate)
++- com.networknt:exception:jar:1.5.10:compile
+|  +- (com.networknt:config:jar:1.5.10:compile - omitted for duplicate)
+|  +- (com.networknt:handler:jar:1.5.10:compile - omitted for duplicate)
+|  +- (com.networknt:status:jar:1.5.10:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.1:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  +- (commons-codec:commons-codec:jar:1.10:compile - omitted for duplicate)
+|  +- (org.owasp.encoder:encoder:jar:1.2.1:compile - omitted for duplicate)
+|  \- (io.undertow:undertow-core:jar:1.4.20.Final:compile - omitted for duplicate)
++- com.networknt:handler:jar:1.5.10:compile
+|  +- (com.networknt:config:jar:1.5.10:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.1:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  +- (commons-codec:commons-codec:jar:1.10:compile - omitted for duplicate)
+|  +- (org.owasp.encoder:encoder:jar:1.2.1:compile - omitted for duplicate)
+|  \- (io.undertow:undertow-core:jar:1.4.20.Final:compile - omitted for duplicate)
++- com.networknt:security:jar:1.5.10:compile
+|  +- (com.networknt:config:jar:1.5.10:compile - omitted for duplicate)
+|  +- (com.networknt:utility:jar:1.5.10:compile - omitted for duplicate)
+|  +- (com.networknt:handler:jar:1.5.10:compile - omitted for duplicate)
+|  +- (com.networknt:status:jar:1.5.10:compile - omitted for duplicate)
+|  +- (com.networknt:exception:jar:1.5.10:compile - omitted for duplicate)
+|  +- (com.networknt:client:jar:1.5.10:compile - omitted for duplicate)
+|  +- (io.undertow:undertow-core:jar:1.4.20.Final:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.1:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  +- (commons-codec:commons-codec:jar:1.10:compile - omitted for duplicate)
+|  +- (org.owasp.encoder:encoder:jar:1.2.1:compile - omitted for duplicate)
+|  +- org.bitbucket.b_c:jose4j:jar:0.6.1:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.21; omitted for duplicate)
+|  \- com.github.ben-manes.caffeine:caffeine:jar:2.5.6:compile
++- com.networknt:server:jar:1.5.10:compile
+|  +- (com.networknt:config:jar:1.5.10:compile - omitted for duplicate)
+|  +- com.networknt:audit:jar:1.5.10:compile
+|  |  +- (com.networknt:config:jar:1.5.10:compile - omitted for duplicate)
+|  |  +- (com.networknt:utility:jar:1.5.10:compile - omitted for duplicate)
+|  |  +- (com.networknt:handler:jar:1.5.10:compile - omitted for duplicate)
+|  |  +- (io.undertow:undertow-core:jar:1.4.20.Final:compile - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.1:compile - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.21; omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.10:compile - omitted for duplicate)
+|  |  +- (org.owasp.encoder:encoder:jar:1.2.1:compile - omitted for duplicate)
+|  |  \- (org.bitbucket.b_c:jose4j:jar:0.6.1:compile - omitted for duplicate)
+|  +- com.networknt:info:jar:1.5.10:compile
+|  |  +- (com.networknt:config:jar:1.5.10:compile - omitted for duplicate)
+|  |  +- (com.networknt:utility:jar:1.5.10:compile - omitted for duplicate)
+|  |  +- (com.networknt:status:jar:1.5.10:compile - omitted for duplicate)
+|  |  +- (com.networknt:security:jar:1.5.10:compile - omitted for duplicate)
+|  |  +- (io.undertow:undertow-core:jar:1.4.20.Final:compile - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.1:compile - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.21; omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.10:compile - omitted for duplicate)
+|  |  +- (org.owasp.encoder:encoder:jar:1.2.1:compile - omitted for duplicate)
+|  |  \- (org.bitbucket.b_c:jose4j:jar:0.6.1:compile - omitted for duplicate)
+|  +- (com.networknt:exception:jar:1.5.10:compile - omitted for duplicate)
+|  +- com.networknt:body:jar:1.5.10:compile
+|  |  +- (com.networknt:config:jar:1.5.10:compile - omitted for duplicate)
+|  |  +- (com.networknt:utility:jar:1.5.10:compile - omitted for duplicate)
+|  |  +- (com.networknt:status:jar:1.5.10:compile - omitted for duplicate)
+|  |  +- (com.networknt:exception:jar:1.5.10:compile - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.1:compile - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.21; omitted for duplicate)
+|  |  +- (commons-codec:commons-codec:jar:1.10:compile - omitted for duplicate)
+|  |  +- (org.owasp.encoder:encoder:jar:1.2.1:compile - omitted for duplicate)
+|  |  \- (io.undertow:undertow-core:jar:1.4.20.Final:compile - omitted for duplicate)
+|  +- com.networknt:registry:jar:1.5.10:compile
+|  |  +- (com.networknt:config:jar:1.5.10:compile - omitted for duplicate)
+|  |  +- (com.networknt:utility:jar:1.5.10:compile - omitted for duplicate)
+|  |  +- (com.networknt:status:jar:1.5.10:compile - omitted for duplicate)
+|  |  +- (com.networknt:exception:jar:1.5.10:compile - omitted for duplicate)
+|  |  +- (com.networknt:service:jar:1.5.10:compile - omitted for duplicate)
+|  |  +- com.networknt:switcher:jar:1.5.10:compile
+|  |  |  +- (com.networknt:config:jar:1.5.10:compile - omitted for duplicate)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.1:compile - omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.21; omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.1:compile - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.21; omitted for duplicate)
+|  +- com.networknt:consul:jar:1.5.10:compile
+|  |  +- (com.networknt:config:jar:1.5.10:compile - omitted for duplicate)
+|  |  +- (com.networknt:utility:jar:1.5.10:compile - omitted for duplicate)
+|  |  +- (com.networknt:registry:jar:1.5.10:compile - omitted for duplicate)
+|  |  +- (com.networknt:client:jar:1.5.10:compile - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.21; omitted for duplicate)
+|  +- com.networknt:zookeeper:jar:1.5.10:compile
+|  |  +- (com.networknt:config:jar:1.5.10:compile - omitted for duplicate)
+|  |  +- (com.networknt:utility:jar:1.5.10:compile - omitted for duplicate)
+|  |  +- (com.networknt:service:jar:1.5.10:compile - omitted for duplicate)
+|  |  +- (com.networknt:registry:jar:1.5.10:compile - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.21; omitted for duplicate)
+|  |  \- (org.owasp.encoder:encoder:jar:1.2.1:compile - omitted for duplicate)
+|  +- com.networknt:balance:jar:1.5.10:compile
+|  |  +- (com.networknt:config:jar:1.5.10:compile - omitted for duplicate)
+|  |  +- (com.networknt:utility:jar:1.5.10:compile - omitted for duplicate)
+|  |  +- (com.networknt:service:jar:1.5.10:compile - omitted for duplicate)
+|  |  +- (com.networknt:registry:jar:1.5.10:compile - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.1:compile - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.21; omitted for duplicate)
+|  +- com.networknt:cluster:jar:1.5.10:compile
+|  |  +- (com.networknt:config:jar:1.5.10:compile - omitted for duplicate)
+|  |  +- (com.networknt:utility:jar:1.5.10:compile - omitted for duplicate)
+|  |  +- (com.networknt:service:jar:1.5.10:compile - omitted for duplicate)
+|  |  +- (com.networknt:registry:jar:1.5.10:compile - omitted for duplicate)
+|  |  +- (com.networknt:balance:jar:1.5.10:compile - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.21; omitted for duplicate)
+|  |  \- (org.owasp.encoder:encoder:jar:1.2.1:compile - omitted for duplicate)
+|  +- (com.networknt:service:jar:1.5.10:compile - omitted for duplicate)
+|  +- (io.undertow:undertow-core:jar:1.4.20.Final:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.1:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.21; omitted for duplicate)
+|  \- (com.networknt:client:jar:1.5.10:compile - omitted for duplicate)
++- com.networknt:json-schema-validator:jar:0.1.15:compile
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.1:compile - version managed from 2.8.7; omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.21; omitted for duplicate)
+|  +- org.slf4j:slf4j-ext:jar:1.7.25:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.21; omitted for duplicate)
+|  \- org.apache.commons:commons-lang3:jar:3.5:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.9.1:compile
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+|  \- com.fasterxml.jackson.core:jackson-core:jar:2.9.1:compile
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- io.undertow:undertow-core:jar:1.4.20.Final:compile
+|  +- org.jboss.logging:jboss-logging:jar:3.2.1.Final:compile
+|  +- org.jboss.xnio:xnio-api:jar:3.3.8.Final:compile
+|  \- org.jboss.xnio:xnio-nio:jar:3.3.8.Final:runtime
+|     \- (org.jboss.xnio:xnio-api:jar:3.3.8.Final:runtime - omitted for duplicate)
++- io.github.lukehutch:fast-classpath-scanner:jar:2.7.0:compile
++- com.networknt:client:jar:1.5.10:test (scope not updated to compile)
+|  +- com.networknt:common:jar:1.5.10:test
+|  |  +- com.networknt:decryptor:jar:1.5.10:test
+|  |  |  +- (com.networknt:utility:jar:1.5.10:test - omitted for duplicate)
+|  |  |  +- (com.networknt:config:jar:1.5.10:test - omitted for duplicate)
+|  |  |  +- (com.networknt:service:jar:1.5.10:test - omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:test - version managed from 1.7.21; omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:test - version managed from 1.7.21; omitted for duplicate)
+|  +- (com.networknt:config:jar:1.5.10:test - omitted for duplicate)
+|  +- (com.networknt:status:jar:1.5.10:test - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.1:test - version managed from 2.8.7; omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:test - version managed from 1.7.21; omitted for duplicate)
+|  +- (commons-codec:commons-codec:jar:1.10:test - omitted for duplicate)
+|  +- (org.owasp.encoder:encoder:jar:1.2.1:test - omitted for duplicate)
+|  +- (org.apache.commons:commons-lang3:jar:3.6:test - omitted for conflict with 3.5)
+|  +- commons-io:commons-io:jar:2.5:test
+|  \- (io.undertow:undertow-core:jar:1.4.20.Final:test - omitted for duplicate)
++- ch.qos.logback:logback-classic:jar:1.2.3:test
+|  +- ch.qos.logback:logback-core:jar:1.2.3:test
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:test - version managed from 1.7.21; omitted for duplicate)
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.mockito:mockito-core:jar:2.10.0:test
+|  +- net.bytebuddy:byte-buddy:jar:1.7.4:test
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.7.4:test
+|  \- org.objenesis:objenesis:jar:2.6:test
+\- com.networknt:rpc-security:jar:1.5.10:test
+   +- (com.networknt:config:jar:1.5.10:test - omitted for duplicate)
+   +- (com.networknt:status:jar:1.5.10:test - omitted for duplicate)
+   +- (com.networknt:exception:jar:1.5.10:test - omitted for duplicate)
+   +- (com.networknt:handler:jar:1.5.10:test - omitted for duplicate)
+   +- (com.networknt:security:jar:1.5.10:test - omitted for duplicate)
+   +- (com.networknt:server:jar:1.5.10:test - omitted for duplicate)
+   +- (com.networknt:json-schema-validator:jar:0.1.15:test - omitted for duplicate)
+   +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.1:test - version managed from 2.8.7; omitted for duplicate)
+   +- (org.slf4j:slf4j-api:jar:1.7.25:test - version managed from 1.7.21; omitted for duplicate)
+   \- (io.undertow:undertow-core:jar:1.4.20.Final:test - omitted for duplicate)

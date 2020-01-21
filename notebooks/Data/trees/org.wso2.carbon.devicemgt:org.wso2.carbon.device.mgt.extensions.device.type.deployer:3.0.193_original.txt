@@ -1,0 +1,710 @@
+org.wso2.carbon.devicemgt:org.wso2.carbon.device.mgt.extensions.device.type.deployer:bundle:3.0.193
++- commons-lang.wso2:commons-lang:jar:2.6.0.wso2v1:compile
++- org.apache.axis2.wso2:axis2:jar:1.6.1.wso2v11:compile
++- org.wso2.carbon:org.wso2.carbon.utils:jar:4.4.17:compile
+|  +- org.wso2.orbit.org.bouncycastle:bcprov-jdk15on:jar:1.52.0.wso2v1:compile
+|  |  \- org.bouncycastle:bcprov-jdk15on:jar:1.52:compile
+|  +- org.wso2.carbon:org.wso2.carbon.queuing:jar:4.4.17:compile
+|  +- (org.eclipse.osgi:org.eclipse.osgi:jar:3.8.1.v20120830-144521:compile - version managed from 3.9.1.v20130814-1242; omitted for duplicate)
+|  +- org.wso2.orbit.commons-fileupload:commons-fileupload:jar:1.3.2.wso2v1:compile
+|  +- org.wso2.orbit.commons-httpclient:commons-httpclient:jar:3.1.0.wso2v6:compile
+|  \- (commons-lang.wso2:commons-lang:jar:2.6.0.wso2v1:compile - omitted for duplicate)
++- org.eclipse.osgi:org.eclipse.osgi:jar:3.8.1.v20120830-144521:compile
++- org.eclipse.osgi:org.eclipse.osgi.services:jar:3.3.100.v20120522-1822:compile
++- commons-logging:commons-logging:jar:1.2:compile
++- org.wso2.carbon.devicemgt:org.wso2.carbon.device.mgt.common:jar:3.0.193:compile
+|  +- org.wso2.orbit.com.fasterxml.jackson.core:jackson-annotations:jar:2.6.1.wso2v1:compile
+|  +- org.wso2.carbon.analytics:org.wso2.carbon.analytics.api:jar:1.3.3:compile
+|  |  +- org.wso2.carbon.analytics:org.wso2.carbon.analytics.dataservice.commons:jar:1.3.3:compile
+|  |  |  +- (org.wso2.carbon:org.wso2.carbon.core:jar:4.4.17:compile - version managed from 4.4.9; omitted for duplicate)
+|  |  |  \- (org.wso2.carbon.analytics:org.wso2.carbon.analytics.datasource.commons:jar:1.3.3:compile - omitted for duplicate)
+|  |  +- org.wso2.carbon.analytics:org.wso2.carbon.analytics.dataservice.core:jar:1.3.3:compile
+|  |  |  +- org.wso2.carbon.analytics:org.wso2.carbon.analytics.datasource.core:jar:1.3.3:compile
+|  |  |  |  +- (org.wso2.carbon:org.wso2.carbon.core:jar:4.4.17:compile - version managed from 4.4.9; omitted for duplicate)
+|  |  |  |  +- com.google.guava:guava:jar:19.0:compile
+|  |  |  |  +- (org.wso2.carbon:org.wso2.carbon.ndatasource.core:jar:4.4.17:compile - version managed from 4.4.9; omitted for duplicate)
+|  |  |  |  +- com.hazelcast:hazelcast:jar:3.5:compile
+|  |  |  |  |  +- net.sourceforge.findbugs:annotations:jar:1.3.2:compile
+|  |  |  |  |  +- com.eclipsesource.minimal-json:minimal-json:jar:0.9.2:compile
+|  |  |  |  |  \- com.hazelcast:hazelcast-code-generator:jar:3.5:compile
+|  |  |  |  |     \- org.freemarker:freemarker:jar:2.3.22:compile
+|  |  |  |  +- (org.wso2.carbon.analytics:org.wso2.carbon.analytics.datasource.commons:jar:1.3.3:compile - omitted for duplicate)
+|  |  |  |  +- (org.wso2.orbit.com.esotericsoftware.kryo:kryo:jar:2.24.0.wso2v1:compile - omitted for duplicate)
+|  |  |  |  \- com.esotericsoftware.kryo:kryo:jar:2.21:compile
+|  |  |  |     +- com.esotericsoftware.reflectasm:reflectasm:jar:shaded:1.07:compile
+|  |  |  |     |  \- org.ow2.asm:asm:jar:4.0:compile
+|  |  |  |     +- (com.esotericsoftware.minlog:minlog:jar:1.2:compile - omitted for duplicate)
+|  |  |  |     \- (org.objenesis:objenesis:jar:1.2:compile - omitted for conflict with 2.1)
+|  |  |  +- (org.wso2.carbon.analytics:org.wso2.carbon.analytics.dataservice.commons:jar:1.3.3:compile - omitted for duplicate)
+|  |  |  +- (org.wso2.carbon.analytics:org.wso2.carbon.analytics.datasource.commons:jar:1.3.3:compile - omitted for duplicate)
+|  |  |  +- (org.testng:testng:jar:6.8:test - version managed from 6.3.1; scope managed from compile; omitted for duplicate)
+|  |  |  +- org.wso2.orbit.org.apache.lucene:lucene:jar:5.2.1.wso2v1:compile
+|  |  |  +- org.wso2.carbon.commons:org.wso2.carbon.ntask.core:jar:4.4.8:compile (version managed from 4.5.4)
+|  |  |  |  +- (org.eclipse.osgi:org.eclipse.osgi:jar:3.8.1.v20120830-144521:compile - version managed from 3.9.1.v20130814-1242; omitted for duplicate)
+|  |  |  |  +- (org.wso2.carbon:org.wso2.carbon.core:jar:4.4.17:compile - version managed from 4.4.1; omitted for duplicate)
+|  |  |  |  +- (org.wso2.carbon:org.wso2.carbon.utils:jar:4.4.17:compile - version managed from 4.4.1; omitted for duplicate)
+|  |  |  |  +- org.wso2.carbon.commons:org.wso2.carbon.ntask.common:jar:4.4.8:compile
+|  |  |  |  +- org.wso2.carbon.commons:org.wso2.carbon.remote-tasks.stub:jar:4.4.8:compile
+|  |  |  |  |  +- (org.apache.axis2.wso2:axis2:jar:1.6.1.wso2v11:compile - version managed from 1.6.1.wso2v14; omitted for duplicate)
+|  |  |  |  |  +- org.apache.axis2.wso2:axis2-client:jar:1.6.1.wso2v12:compile
+|  |  |  |  |  |  +- (org.apache.ws.commons.schema.wso2:XmlSchema:jar:1.4.7.wso2v3:compile - omitted for duplicate)
+|  |  |  |  |  |  +- (org.apache.geronimo.specs.wso2:geronimo-stax-api_1.0_spec:jar:1.0.1.wso2v1:compile - omitted for conflict with 1.0.1.wso2v2)
+|  |  |  |  |  |  +- (org.apache.neethi.wso2:neethi:jar:2.0.4.wso2v4:compile - omitted for duplicate)
+|  |  |  |  |  |  +- org.apache.axis2.wso2:axis2-json:jar:1.6.1.wso2v14:compile
+|  |  |  |  |  |  +- org.apache.woden.wso2:woden:jar:1.0.0.M8-wso2v1:compile
+|  |  |  |  |  |  +- (wsdl4j.wso2:wsdl4j:jar:1.6.2.wso2v2:compile - omitted for conflict with 1.6.2.wso2v2)
+|  |  |  |  |  |  +- org.wso2.securevault:org.wso2.securevault:jar:1.0.0-wso2v2:compile
+|  |  |  |  |  |  |  +- (org.apache.ws.commons.axiom:axiom-api:jar:1.2.11:compile - omitted for conflict with 1.2.11-wso2v10)
+|  |  |  |  |  |  |  +- org.apache.ws.commons.axiom:axiom-impl:jar:1.2.11-wso2v10:compile
+|  |  |  |  |  |  |  |  +- (org.apache.ws.commons.axiom:axiom-api:jar:1.2.11:compile - omitted for duplicate)
+|  |  |  |  |  |  |  |  +- (org.apache.geronimo.specs:geronimo-activation_1.1_spec:jar:1.0.2:compile - omitted for duplicate)
+|  |  |  |  |  |  |  |  +- (org.apache.geronimo.specs:geronimo-javamail_1.4_spec:jar:1.6:compile - omitted for duplicate)
+|  |  |  |  |  |  |  |  +- org.codehaus.woodstox:wstx-asl:jar:3.2.9:compile
+|  |  |  |  |  |  |  |  +- (commons-logging:commons-logging:jar:1.2:compile - version managed from 1.1.1; omitted for duplicate)
+|  |  |  |  |  |  |  |  \- (org.apache.geronimo.specs:geronimo-stax-api_1.0_spec:jar:1.0.1:compile - omitted for duplicate)
+|  |  |  |  |  |  |  +- (log4j:log4j:jar:1.2.14:compile - omitted for conflict with 1.2.17)
+|  |  |  |  |  |  |  +- jline:jline:jar:0.9.94:compile
+|  |  |  |  |  |  |  |  \- junit:junit:jar:4.8.2:compile (version managed from 3.8.1)
+|  |  |  |  |  |  |  +- (commons-logging:commons-logging:jar:1.2:compile - version managed from 1.1.1; omitted for duplicate)
+|  |  |  |  |  |  |  +- commons-cli:commons-cli:jar:1.0:compile
+|  |  |  |  |  |  |  |  +- (commons-logging:commons-logging:jar:1.2:compile - version managed from 1.0; omitted for duplicate)
+|  |  |  |  |  |  |  |  \- commons-lang:commons-lang:jar:2.6:compile
+|  |  |  |  |  |  |  |     \- (junit:junit:jar:4.8.2:compile - version managed from 3.7; omitted for duplicate)
+|  |  |  |  |  |  |  +- commons-io:commons-io:jar:1.1:compile
+|  |  |  |  |  |  |  \- commons-codec:commons-codec:jar:1.9:compile (version managed from 1.2)
+|  |  |  |  |  |  +- org.apache.httpcomponents.wso2:httpcore:jar:4.3.3.wso2v1:compile (version managed from 4.3.0.wso2v1)
+|  |  |  |  |  |  +- commons-fileupload.wso2:commons-fileupload:jar:1.2.0.wso2v1:compile
+|  |  |  |  |  |  +- commons-codec.wso2:commons-codec:jar:1.4.0.wso2v1:compile (version managed from 1.3.0.wso2v1)
+|  |  |  |  |  |  +- (commons-logging:commons-logging:jar:1.2:compile - version managed from 1.1.1; omitted for duplicate)
+|  |  |  |  |  |  \- commons-httpclient.wso2:commons-httpclient:jar:3.1.0.wso2v2:compile (version managed from 3.1.0.wso2v1)
+|  |  |  |  |  |     \- org.apache.commons.ssl:not-yet-commons-ssl:jar:0.3.9:compile
+|  |  |  |  |  +- (org.apache.ws.commons.axiom.wso2:axiom:jar:1.2.11.wso2v10:compile - version managed from 1.2.11.wso2v11; omitted for duplicate)
+|  |  |  |  |  +- org.apache.ws.commons.axiom:axiom-api:jar:1.2.11-wso2v10:compile
+|  |  |  |  |  |  +- org.apache.geronimo.specs:geronimo-activation_1.1_spec:jar:1.0.2:compile
+|  |  |  |  |  |  +- org.apache.geronimo.specs:geronimo-javamail_1.4_spec:jar:1.6:compile
+|  |  |  |  |  |  +- (commons-logging:commons-logging:jar:1.2:compile - version managed from 1.1.1; omitted for duplicate)
+|  |  |  |  |  |  +- jaxen:jaxen:jar:1.1.1:compile
+|  |  |  |  |  |  \- (org.apache.geronimo.specs:geronimo-stax-api_1.0_spec:jar:1.0.1:compile - omitted for duplicate)
+|  |  |  |  |  +- wsdl4j.wso2:wsdl4j:jar:1.6.2.wso2v2:compile
+|  |  |  |  |  +- org.apache.neethi.wso2:neethi:jar:2.0.4.wso2v4:compile
+|  |  |  |  |  +- org.apache.ws.commons.schema.wso2:XmlSchema:jar:1.4.7.wso2v3:compile
+|  |  |  |  |  \- (commons-logging:commons-logging:jar:1.2:compile - version managed from 1.1; omitted for duplicate)
+|  |  |  |  \- org.quartz-scheduler.wso2:quartz:jar:2.1.1.wso2v1:compile
+|  |  |  |     \- org.quartz-scheduler:quartz:jar:2.1.1:compile
+|  |  |  |        \- c3p0:c3p0:jar:0.9.1.1:compile
+|  |  |  +- org.antlr.wso2:antlr-runtime:jar:3.2.0.wso2v1:compile
+|  |  |  +- org.wso2.orbit.org.ow2.asm:asm-all:jar:4.1.0.wso2v1:compile
+|  |  |  +- (org.wso2.carbon:org.wso2.carbon.application.deployer:jar:4.4.17:compile - version managed from 4.4.9; omitted for duplicate)
+|  |  |  +- org.wso2.orbit.com.leansoft:bigqueue:jar:0.7.0.wso2v1:compile
+|  |  |  \- org.wso2.orbit.com.lmax:disruptor:jar:3.3.2.wso2v2:compile
+|  |  +- (org.wso2.carbon.analytics:org.wso2.carbon.analytics.datasource.commons:jar:1.3.3:compile - omitted for duplicate)
+|  |  +- org.wso2.orbit.org.apache.httpcomponents:httpclient:jar:4.3.1.wso2v2:compile
+|  |  +- org.wso2.carbon.analytics:org.wso2.carbon.analytics.io.commons:jar:1.3.3:compile
+|  |  |  +- (org.wso2.carbon.analytics:org.wso2.carbon.analytics.datasource.commons:jar:1.3.3:compile - omitted for duplicate)
+|  |  |  +- (org.wso2.carbon.analytics:org.wso2.carbon.analytics.dataservice.commons:jar:1.3.3:compile - omitted for duplicate)
+|  |  |  \- org.wso2.orbit.com.esotericsoftware.kryo:kryo:jar:2.24.0.wso2v1:compile
+|  |  |     +- org.objenesis:objenesis:jar:2.5:compile
+|  |  |     \- com.esotericsoftware.minlog:minlog:jar:1.2:compile
+|  |  \- com.google.code.gson:gson:jar:2.3.1:compile
+|  \- org.wso2.carbon.analytics:org.wso2.carbon.analytics.datasource.commons:jar:1.3.3:compile
+|     \- (org.wso2.carbon:org.wso2.carbon.core:jar:4.4.17:compile - version managed from 4.4.14; omitted for duplicate)
++- org.wso2.carbon.devicemgt:org.wso2.carbon.device.mgt.extensions:jar:3.0.193:compile
+|  +- org.wso2.carbon.governance:org.wso2.carbon.governance.api:jar:4.7.8:compile
+|  |  +- (org.wso2.carbon:org.wso2.carbon.core:jar:4.4.17:compile - version managed from 4.4.14; omitted for duplicate)
+|  |  +- (org.wso2.carbon:org.wso2.carbon.utils:jar:4.4.17:compile - version managed from 4.4.14; omitted for duplicate)
+|  |  +- org.wso2.carbon:org.wso2.carbon.user.core:jar:4.4.17:compile
+|  |  |  +- (org.wso2.carbon:org.wso2.carbon.user.api:jar:4.4.17:compile - version managed from 4.4.14; omitted for duplicate)
+|  |  |  +- (org.wso2.carbon:org.wso2.carbon.utils:jar:4.4.17:compile - version managed from 4.4.14; omitted for duplicate)
+|  |  |  +- (org.wso2.carbon:org.wso2.carbon.logging:jar:4.4.17:compile - omitted for duplicate)
+|  |  |  +- (org.apache.tomcat.wso2:jdbc-pool:jar:7.0.34.wso2v2:compile - omitted for duplicate)
+|  |  |  +- (org.wso2.orbit.commons-collections:commons-collections:jar:3.2.2.wso2v1:compile - omitted for duplicate)
+|  |  |  \- (commons-lang.wso2:commons-lang:jar:2.6.0.wso2v1:compile - omitted for duplicate)
+|  |  \- org.wso2.carbon:org.wso2.carbon.user.api:jar:4.4.17:compile
+|  +- org.wso2.carbon:org.wso2.carbon.registry.api:jar:4.4.17:compile
+|  +- org.wso2.carbon:org.wso2.carbon.registry.core:jar:4.4.17:compile
+|  |  +- (org.wso2.carbon:org.wso2.carbon.registry.api:jar:4.4.17:compile - omitted for duplicate)
+|  |  +- (org.wso2.carbon:org.wso2.carbon.utils:jar:4.4.17:compile - version managed from 4.4.14; omitted for duplicate)
+|  |  +- (org.wso2.carbon:org.wso2.carbon.user.core:jar:4.4.17:compile - version managed from 4.4.14; omitted for duplicate)
+|  |  +- (org.wso2.carbon:org.wso2.carbon.logging:jar:4.4.17:compile - omitted for duplicate)
+|  |  +- org.apache.tomcat.wso2:jdbc-pool:jar:7.0.34.wso2v2:compile
+|  |  |  \- org.apache.tomcat:tomcat-jdbc:jar:7.0.47:compile
+|  |  |     \- org.apache.tomcat:tomcat-juli:jar:7.0.47:compile
+|  |  \- (org.wso2.orbit.commons-httpclient:commons-httpclient:jar:3.1.0.wso2v6:compile - omitted for duplicate)
+|  +- (org.wso2.carbon.devicemgt:org.wso2.carbon.device.mgt.common:jar:3.0.193:compile - omitted for duplicate)
+|  +- org.apache.ws.commons.axiom.wso2:axiom:jar:1.2.11.wso2v10:compile
+|  |  +- org.apache.geronimo.specs.wso2:geronimo-stax-api_1.0_spec:jar:1.0.1.wso2v2:compile
+|  |  |  +- org.apache.geronimo.specs:geronimo-stax-api_1.0_spec:jar:1.0.1:compile
+|  |  |  +- (org.codehaus.woodstox:stax2-api:jar:3.1.1:compile - omitted for duplicate)
+|  |  |  \- (org.codehaus.woodstox:woodstox-core-asl:jar:4.1.4:compile - omitted for conflict with 4.2.0)
+|  |  +- org.codehaus.woodstox:woodstox-core-asl:jar:4.2.0:compile
+|  |  \- org.codehaus.woodstox:stax2-api:jar:3.1.1:compile
+|  |     \- javax.xml.stream:stax-api:jar:1.0-2:compile
+|  +- (org.wso2.carbon:org.wso2.carbon.utils:jar:4.4.17:compile - version managed from 4.4.14; omitted for duplicate)
+|  \- (org.wso2.carbon:org.wso2.carbon.ndatasource.core:jar:4.4.17:compile - version managed from 4.4.9; omitted for duplicate)
++- org.wso2.carbon:org.wso2.carbon.application.deployer:jar:4.4.17:compile
+|  +- (org.eclipse.osgi:org.eclipse.osgi:jar:3.8.1.v20120830-144521:compile - version managed from 3.9.1.v20130814-1242; omitted for duplicate)
+|  +- (org.eclipse.osgi:org.eclipse.osgi.services:jar:3.3.100.v20120522-1822:compile - version managed from 3.3.100.v20130513-1956; omitted for duplicate)
+|  +- (org.wso2.carbon:org.wso2.carbon.registry.core:jar:4.4.17:compile - omitted for duplicate)
+|  +- org.wso2.carbon:org.wso2.carbon.logging:jar:4.4.17:compile
+|  |  +- org.apache.log4j.wso2:log4j:jar:1.2.17.wso2v1:compile
+|  |  |  \- log4j:log4j:jar:1.2.17:compile
+|  |  +- (commons-logging:commons-logging:jar:1.2:compile - version managed from 1.1; omitted for duplicate)
+|  |  +- org.wso2.carbon:org.wso2.carbon.bootstrap:jar:4.4.17:compile
+|  |  |  +- (commons-logging:commons-logging:jar:1.2:compile - version managed from 1.1; omitted for duplicate)
+|  |  |  \- wrapper:wrapper:jar:3.2.3:compile
+|  |  \- (org.eclipse.osgi:org.eclipse.osgi:jar:3.8.1.v20120830-144521:compile - version managed from 3.9.1.v20130814-1242; omitted for duplicate)
+|  +- org.wso2.carbon:org.wso2.carbon.feature.mgt.core:jar:4.4.17:compile
+|  |  +- (org.wso2.carbon:org.wso2.carbon.logging:jar:4.4.17:compile - omitted for duplicate)
+|  |  +- (org.wso2.carbon:org.wso2.carbon.utils:jar:4.4.17:compile - version managed from 4.4.14; omitted for duplicate)
+|  |  +- org.eclipse.equinox:org.eclipse.equinox.p2.artifact.repository:jar:1.1.100.v20110519:compile
+|  |  +- (org.eclipse.osgi:org.eclipse.osgi:jar:3.8.1.v20120830-144521:compile - version managed from 3.9.1.v20130814-1242; omitted for duplicate)
+|  |  +- (org.eclipse.osgi:org.eclipse.osgi.services:jar:3.3.100.v20120522-1822:compile - version managed from 3.3.100.v20130513-1956; omitted for duplicate)
+|  |  +- org.eclipse.equinox:org.eclipse.equinox.common:jar:3.6.100.v20120522-1841:compile (version managed from 3.6.200.v20130402-1505)
+|  |  +- org.eclipse.equinox:org.eclipse.equinox.p2.core:jar:2.3.0.v20130327-2119:compile
+|  |  +- org.eclipse.equinox:org.eclipse.equinox.p2.director:jar:2.3.0.v20130526-0335:compile
+|  |  +- org.eclipse.equinox:org.eclipse.equinox.p2.engine:jar:2.3.0.v20130526-2122-wso2v1:compile
+|  |  |  +- (org.eclipse.osgi:org.eclipse.osgi:jar:3.8.1.v20120830-144521:compile - version managed from 3.9.1.v20130814-1242; omitted for duplicate)
+|  |  |  +- (org.eclipse.osgi:org.eclipse.osgi.services:jar:3.3.100.v20120522-1822:compile - version managed from 3.3.100.v20130513-1956; omitted for duplicate)
+|  |  |  +- org.eclipse.core:org.eclipse.core.jobs:jar:3.5.300.v20130429-1813:compile
+|  |  |  +- org.eclipse.core:org.eclipse.core.runtime:jar:3.5.0.v20090429-1800:compile
+|  |  |  +- org.eclipse.equinox:org.eclipse.equinox.util:jar:1.0.500.v20130404-1337:compile
+|  |  |  +- org.eclipse.equinox:org.eclipse.equinox.security:jar:1.2.0.v20130424-1801:compile
+|  |  |  +- org.eclipse.equinox:org.eclipse.equinox.registry:jar:3.5.301.v20130717-1549:compile
+|  |  |  +- org.eclipse.equinox:org.eclipse.equinox.p2.publisher.eclipse:jar:1.1.200.v20130516-1953:compile
+|  |  |  +- org.eclipse.equinox:org.eclipse.equinox.p2.publisher.pdepublishing:jar:1.0.0:compile
+|  |  |  +- (org.eclipse.equinox:org.eclipse.equinox.p2.director:jar:2.3.0.v20130526-0335:compile - omitted for duplicate)
+|  |  |  +- org.eclipse.equinox:org.eclipse.equinox.p2.garbagecollector:jar:1.0.200.v20130327-2119:compile
+|  |  |  +- org.eclipse.equinox:org.eclipse.equinox.p2.publisher:jar:1.3.0.v20130509-0110:compile
+|  |  |  +- org.eclipse.equinox:org.eclipse.equinox.preferences:jar:3.5.100.v20130422-1538:compile
+|  |  |  +- (org.eclipse.equinox:org.eclipse.equinox.p2.repository:jar:2.3.0.v20130412-2032:compile - omitted for duplicate)
+|  |  |  +- (org.eclipse.equinox:org.eclipse.equinox.p2.metadata:jar:2.2.0.v20130523-1557:compile - omitted for duplicate)
+|  |  |  +- (org.eclipse.equinox:org.eclipse.equinox.p2.core:jar:2.3.0.v20130327-2119:compile - omitted for duplicate)
+|  |  |  +- (org.eclipse.equinox:org.eclipse.equinox.common:jar:3.6.100.v20120522-1841:compile - version managed from 3.6.200.v20130402-1505; omitted for duplicate)
+|  |  |  +- (org.eclipse.equinox:org.eclipse.equinox.simpleconfigurator:jar:1.0.400.v20130327-2119:compile - omitted for duplicate)
+|  |  |  +- org.eclipse.equinox:org.eclipse.equinox.simpleconfigurator.manipulator:jar:2.0.0.v20130327-2119:compile
+|  |  |  +- (org.eclipse.equinox:org.eclipse.equinox.p2.metadata.repository:jar:1.2.100.v20130327-2119:compile - omitted for duplicate)
+|  |  |  \- org.eclipse.equinox:org.eclipse.equinox.frameworkadmin:jar:2.0.100.v20130327-2119:compile
+|  |  +- org.eclipse.equinox:org.eclipse.equinox.p2.metadata:jar:2.2.0.v20130523-1557:compile
+|  |  +- org.eclipse.equinox:org.eclipse.equinox.p2.metadata.repository:jar:1.2.100.v20130327-2119:compile
+|  |  +- org.eclipse.equinox:org.eclipse.equinox.p2.repository:jar:2.3.0.v20130412-2032:compile
+|  |  \- org.eclipse.equinox:org.eclipse.equinox.simpleconfigurator:jar:1.0.400.v20130327-2119:compile
+|  +- (org.wso2.carbon:org.wso2.carbon.utils:jar:4.4.17:compile - version managed from 4.4.14; omitted for duplicate)
+|  +- org.wso2.carbon:org.wso2.carbon.roles.mgt:jar:4.4.17:compile
+|  |  +- org.wso2.carbon:org.wso2.carbon.base:jar:4.4.17:compile
+|  |  |  +- (org.apache.ws.commons.axiom.wso2:axiom:jar:1.2.11.wso2v10:compile - version managed from 1.2.11.wso2v11; omitted for duplicate)
+|  |  |  +- (org.wso2.carbon:org.wso2.carbon.logging:jar:4.4.17:compile - omitted for duplicate)
+|  |  |  \- xerces.wso2:xercesImpl:jar:2.8.1.wso2v2:compile
+|  |  +- (org.eclipse.osgi:org.eclipse.osgi:jar:3.8.1.v20120830-144521:compile - version managed from 3.9.1.v20130814-1242; omitted for duplicate)
+|  |  +- (org.eclipse.osgi:org.eclipse.osgi.services:jar:3.3.100.v20120522-1822:compile - version managed from 3.3.100.v20130513-1956; omitted for duplicate)
+|  |  +- (org.wso2.carbon:org.wso2.carbon.registry.core:jar:4.4.17:compile - omitted for duplicate)
+|  |  +- (org.wso2.carbon:org.wso2.carbon.logging:jar:4.4.17:compile - omitted for duplicate)
+|  |  \- (commons-logging:commons-logging:jar:1.2:compile - version managed from 1.1; omitted for duplicate)
+|  \- (org.apache.axis2.wso2:axis2:jar:1.6.1.wso2v11:compile - version managed from 1.6.1.wso2v22; omitted for duplicate)
++- org.wso2.carbon:org.wso2.carbon.ndatasource.core:jar:4.4.17:compile
+|  +- (org.wso2.carbon:org.wso2.carbon.utils:jar:4.4.17:compile - version managed from 4.4.14; omitted for duplicate)
+|  +- org.wso2.carbon:org.wso2.carbon.ndatasource.common:jar:4.4.17:compile
+|  +- org.wso2.carbon:org.wso2.carbon.core:jar:4.4.17:compile
+|  |  +- org.wso2.orbit.com.hazelcast:hazelcast:jar:3.5.4.wso2v2:compile
+|  |  |  \- com.hazelcast:hazelcast-all:jar:3.5.4:compile
+|  |  +- (org.eclipse.osgi:org.eclipse.osgi:jar:3.8.1.v20120830-144521:compile - version managed from 3.9.1.v20130814-1242; omitted for duplicate)
+|  |  +- (org.wso2.orbit.org.bouncycastle:bcprov-jdk15on:jar:1.52.0.wso2v1:compile - omitted for duplicate)
+|  |  +- org.wso2.carbon:javax.cache.wso2:jar:4.4.17:compile
+|  |  |  +- org.apache.geronimo.specs:geronimo-jta_1.1_spec:jar:1.1:compile
+|  |  |  +- (org.eclipse.osgi:org.eclipse.osgi:jar:3.8.1.v20120830-144521:compile - version managed from 3.9.1.v20130814-1242; omitted for duplicate)
+|  |  |  +- (org.wso2.carbon:org.wso2.carbon.utils:jar:4.4.17:compile - version managed from 4.4.14; omitted for duplicate)
+|  |  |  +- (org.wso2.carbon:org.wso2.carbon.base:jar:4.4.17:compile - omitted for duplicate)
+|  |  |  +- (org.wso2.carbon:org.wso2.carbon.logging:jar:4.4.17:compile - omitted for duplicate)
+|  |  |  \- (commons-lang.wso2:commons-lang:jar:2.6.0.wso2v1:compile - omitted for duplicate)
+|  |  +- (org.wso2.carbon:org.wso2.carbon.user.core:jar:4.4.17:compile - version managed from 4.4.14; omitted for duplicate)
+|  |  +- (org.wso2.carbon:org.wso2.carbon.utils:jar:4.4.17:compile - version managed from 4.4.14; omitted for duplicate)
+|  |  +- org.wso2.orbit.commons-collections:commons-collections:jar:3.2.2.wso2v1:compile
+|  |  +- (org.wso2.carbon:org.wso2.carbon.logging:jar:4.4.17:compile - omitted for duplicate)
+|  |  \- org.wso2.orbit.org.apache.neethi:neethi:jar:2.0.4.wso2v5:compile
+|  \- org.wso2.carbon:org.wso2.carbon.securevault:jar:4.4.17:test (scope managed from compile)
+|     +- (org.eclipse.osgi:org.eclipse.osgi:jar:3.8.1.v20120830-144521:test - version managed from 3.9.1.v20130814-1242; omitted for duplicate)
+|     +- (org.eclipse.osgi:org.eclipse.osgi.services:jar:3.3.100.v20120522-1822:test - version managed from 3.3.100.v20130513-1956; omitted for duplicate)
+|     +- (org.wso2.carbon:org.wso2.carbon.logging:jar:4.4.17:test - omitted for duplicate)
+|     \- (org.wso2.securevault:org.wso2.securevault:jar:1.0.0-wso2v2:compile - scope updated from test; omitted for duplicate)
++- org.testng:testng:jar:6.8:test
+|  +- org.beanshell:bsh:jar:2.0b4:test
+|  +- com.beust:jcommander:jar:1.27:test
+|  \- org.yaml:snakeyaml:jar:1.6:test
++- org.powermock:powermock-module-testng:jar:1.7.0:test
+|  +- org.powermock:powermock-core:jar:1.7.0:test
+|  |  +- org.powermock:powermock-reflect:jar:1.7.0:test
+|  |  |  \- (org.objenesis:objenesis:jar:2.4:compile - scope updated from test; omitted for duplicate)
+|  |  +- org.javassist:javassist:jar:3.21.0-GA:test
+|  |  \- org.mockito:mockito-core:jar:2.8.9:test
+|  |     +- net.bytebuddy:byte-buddy:jar:1.6.14:test
+|  |     +- net.bytebuddy:byte-buddy-agent:jar:1.6.14:test
+|  |     \- (org.objenesis:objenesis:jar:2.5:compile - scope updated from test; omitted for duplicate)
+|  +- org.powermock:powermock-module-testng-common:jar:1.7.0:test
+|  |  +- (org.powermock:powermock-reflect:jar:1.7.0:test - omitted for duplicate)
+|  |  +- (org.powermock:powermock-core:jar:1.7.0:test - omitted for duplicate)
+|  |  \- (org.testng:testng:jar:6.8:test - version managed from 6.9.10; scope managed from compile; omitted for duplicate)
+|  \- (org.testng:testng:jar:6.8:test - version managed from 6.9.10; scope managed from compile; omitted for duplicate)
++- org.wso2.carbon.registry:org.wso2.carbon.registry.indexing:jar:4.6.8:test
+|  +- (org.apache.axis2.wso2:axis2:jar:1.6.1.wso2v11:test - version managed from 1.6.1.wso2v17; omitted for duplicate)
+|  +- (org.wso2.carbon:org.wso2.carbon.registry.core:jar:4.4.17:test - version managed from 4.4.14; omitted for duplicate)
+|  +- org.wso2.carbon.registry:org.wso2.carbon.registry.common:jar:4.6.8:test
+|  |  +- (org.apache.axis2.wso2:axis2:jar:1.6.1.wso2v11:test - version managed from 1.6.1.wso2v17; omitted for duplicate)
+|  |  +- (org.wso2.carbon:org.wso2.carbon.core:jar:4.4.17:test - version managed from 4.4.14; omitted for duplicate)
+|  |  +- (org.wso2.carbon:org.wso2.carbon.utils:jar:4.4.17:test - version managed from 4.4.14; omitted for duplicate)
+|  |  +- (org.wso2.carbon:org.wso2.carbon.registry.core:jar:4.4.17:test - version managed from 4.4.14; omitted for duplicate)
+|  |  +- (org.wso2.carbon:org.wso2.carbon.logging:jar:4.4.17:test - version managed from 4.4.14; omitted for duplicate)
+|  |  +- org.wso2.carbon.registry:org.wso2.carbon.registry.admin.api:jar:4.6.8:test
+|  |  |  +- (org.apache.axis2.wso2:axis2:jar:1.6.1.wso2v11:test - version managed from 1.6.1.wso2v17; omitted for duplicate)
+|  |  |  +- (org.wso2.carbon:org.wso2.carbon.core:jar:4.4.17:test - version managed from 4.4.14; omitted for duplicate)
+|  |  |  +- (org.wso2.carbon:org.wso2.carbon.registry.core:jar:4.4.17:test - version managed from 4.4.14; omitted for duplicate)
+|  |  |  +- (org.wso2.carbon:org.wso2.carbon.logging:jar:4.4.17:test - version managed from 4.4.14; omitted for duplicate)
+|  |  |  \- (org.wso2.carbon.commons:org.wso2.carbon.ntask.core:jar:4.4.8:test - version managed from 4.5.4; omitted for duplicate)
+|  |  +- commons-beanutils.wso2:commons-beanutils:jar:1.8.0.wso2v1:test
+|  |  +- (commons-collections:commons-collections:jar:3.2:test - omitted for duplicate)
+|  |  +- (commons-digester:commons-digester:jar:1.8:test - omitted for duplicate)
+|  |  \- org.wso2.carbon:org.wso2.carbon.feature.mgt.services:jar:4.4.14:test
+|  |     +- (org.wso2.carbon:org.wso2.carbon.logging:jar:4.4.17:test - version managed from 4.4.14; omitted for duplicate)
+|  |     +- (org.wso2.carbon:org.wso2.carbon.utils:jar:4.4.17:test - version managed from 4.4.14; omitted for duplicate)
+|  |     +- (org.wso2.orbit.org.apache.neethi:neethi:jar:2.0.4.wso2v5:test - omitted for duplicate)
+|  |     +- (org.wso2.carbon:org.wso2.carbon.feature.mgt.core:jar:4.4.14:test - omitted for conflict with 4.4.17)
+|  |     +- (org.eclipse.equinox:org.eclipse.equinox.p2.core:jar:2.3.0.v20130327-2119:test - omitted for duplicate)
+|  |     +- (org.eclipse.equinox:org.eclipse.equinox.p2.engine:jar:2.3.0.v20130526-2122-wso2v1:test - omitted for duplicate)
+|  |     +- (org.eclipse.equinox:org.eclipse.equinox.p2.metadata:jar:2.2.0.v20130523-1557:test - omitted for duplicate)
+|  |     +- (org.eclipse.equinox:org.eclipse.equinox.p2.repository:jar:2.3.0.v20130412-2032:test - omitted for duplicate)
+|  |     \- (org.eclipse.equinox:org.eclipse.equinox.common:jar:3.6.100.v20120522-1841:test - version managed from 3.6.200.v20130402-1505; omitted for duplicate)
+|  +- org.wso2.carbon.identity.framework:org.wso2.carbon.user.mgt:jar:5.7.0:test (version managed from 5.7.5)
+|  |  +- (org.wso2.carbon:org.wso2.carbon.user.core:jar:4.4.17:test - version managed from 4.4.11; omitted for duplicate)
+|  |  +- org.wso2.carbon.identity.framework:org.wso2.carbon.user.mgt.common:jar:5.7.0:test
+|  |  |  +- (org.wso2.carbon:org.wso2.carbon.utils:jar:4.4.17:test - version managed from 4.4.11; omitted for duplicate)
+|  |  |  +- (org.wso2.carbon:org.wso2.carbon.logging:jar:4.4.17:test - version managed from 4.4.11; omitted for duplicate)
+|  |  |  \- org.wso2.carbon.identity.framework:org.wso2.carbon.identity.base:jar:5.7.0:test
+|  |  |     +- (org.wso2.carbon:org.wso2.carbon.core:jar:4.4.17:test - version managed from 4.4.11; omitted for duplicate)
+|  |  |     +- org.apache.rampart.wso2:rampart-core:jar:1.6.1.wso2v24:test
+|  |  |     |  +- org.apache.axis2:axis2-kernel:jar:1.6.1-wso2v17:test
+|  |  |     |  |  +- (org.apache.ws.commons.axiom:axiom-api:jar:1.2.11-wso2v10:test - omitted for conflict with 1.2.11-wso2v10)
+|  |  |     |  |  +- (org.apache.ws.commons.axiom:axiom-impl:jar:1.2.11-wso2v10:compile - scope updated from test; omitted for duplicate)
+|  |  |     |  |  +- org.apache.geronimo.specs:geronimo-ws-metadata_2.0_spec:jar:1.1.2:test
+|  |  |     |  |  +- (org.apache.geronimo.specs:geronimo-jta_1.1_spec:jar:1.1:test - omitted for duplicate)
+|  |  |     |  |  +- javax.servlet:servlet-api:jar:2.5:test (version managed from 2.3)
+|  |  |     |  |  +- (commons-httpclient:commons-httpclient:jar:3.1:test - omitted for conflict with 3.0.1)
+|  |  |     |  |  +- (commons-fileupload:commons-fileupload:jar:1.2:test - omitted for conflict with 1.1.1)
+|  |  |     |  |  +- (wsdl4j:wsdl4j:jar:1.6.2:test - omitted for duplicate)
+|  |  |     |  |  +- (org.apache.ws.commons.schema.wso2:XmlSchema:jar:1.4.7.wso2v3:test - omitted for duplicate)
+|  |  |     |  |  +- org.apache.neethi:neethi:jar:2.0.4:test
+|  |  |     |  |  |  +- (org.apache.ws.commons.axiom:axiom-api:jar:1.2.7:test - omitted for conflict with 1.2.11-wso2v10)
+|  |  |     |  |  |  +- (org.apache.ws.commons.axiom:axiom-impl:jar:1.2.7:test - omitted for conflict with 1.2.11-wso2v10)
+|  |  |     |  |  |  +- (wsdl4j:wsdl4j:jar:1.6.2:test - omitted for duplicate)
+|  |  |     |  |  |  +- (org.codehaus.woodstox:wstx-asl:jar:3.2.4:compile - scope updated from test; omitted for duplicate)
+|  |  |     |  |  |  \- (commons-logging:commons-logging:jar:1.2:test - version managed from 1.1.1; omitted for duplicate)
+|  |  |     |  |  +- org.apache.woden:woden-api:jar:1.0M9:test
+|  |  |     |  |  |  \- (org.apache.ws.commons.schema:XmlSchema:jar:1.4.7:test - omitted for conflict with 1.4.3)
+|  |  |     |  |  +- org.apache.woden:woden-impl-dom:jar:1.0M9:test
+|  |  |     |  |  |  \- org.apache.woden:woden-impl-commons:jar:1.0M9:test
+|  |  |     |  |  |     +- (org.apache.woden:woden-api:jar:1.0M9:test - omitted for duplicate)
+|  |  |     |  |  |     \- (commons-logging:commons-logging:jar:1.2:test - version managed from 1.1.1; omitted for duplicate)
+|  |  |     |  |  +- (commons-logging:commons-logging:jar:1.2:test - version managed from 1.1.1; omitted for duplicate)
+|  |  |     |  |  +- (javax.ws.rs:jsr311-api:jar:1.1.1:test - version managed from 1.0; omitted for duplicate)
+|  |  |     |  |  \- (org.wso2.securevault:org.wso2.securevault:jar:1.0.0:test - omitted for conflict with 1.0.0-wso2v2)
+|  |  |     |  +- org.opensaml:opensaml1:jar:1.1:test
+|  |  |     |  +- org.opensaml:opensaml:jar:2.2.3:test
+|  |  |     |  |  +- org.opensaml:openws:jar:1.2.2:test
+|  |  |     |  |  |  +- org.opensaml:xmltooling:jar:1.2.0:test
+|  |  |     |  |  |  |  +- (joda-time:joda-time:jar:1.5.2:test - omitted for conflict with 2.2)
+|  |  |     |  |  |  |  +- org.bouncycastle:bcprov-ext-jdk15:jar:1.40:test
+|  |  |     |  |  |  |  +- org.apache.santuario:xmlsec:jar:1.4.2:test
+|  |  |     |  |  |  |  +- (org.apache.commons.ssl:not-yet-commons-ssl:jar:0.3.9:test - omitted for duplicate)
+|  |  |     |  |  |  |  +- net.jcip:jcip-annotations:jar:1.0:test
+|  |  |     |  |  |  |  +- (org.apache.xerces:xml-apis:jar:2.9.1:test - omitted for duplicate)
+|  |  |     |  |  |  |  +- (org.apache.xerces:xercesImpl:jar:2.9.1:test - omitted for duplicate)
+|  |  |     |  |  |  |  +- (org.apache.xerces:resolver:jar:2.9.1:test - omitted for duplicate)
+|  |  |     |  |  |  |  +- (org.apache.xerces:serializer:jar:2.9.1:test - omitted for duplicate)
+|  |  |     |  |  |  |  \- (org.apache.xalan:xalan:jar:2.7.1:test - omitted for duplicate)
+|  |  |     |  |  |  +- (commons-codec:commons-codec:jar:1.9:test - version managed from 1.3; omitted for duplicate)
+|  |  |     |  |  |  +- (commons-httpclient:commons-httpclient:jar:3.1:test - omitted for duplicate)
+|  |  |     |  |  |  +- (org.apache.xerces:xml-apis:jar:2.9.1:test - omitted for duplicate)
+|  |  |     |  |  |  +- (org.apache.xerces:xercesImpl:jar:2.9.1:test - omitted for duplicate)
+|  |  |     |  |  |  +- (org.apache.xerces:resolver:jar:2.9.1:test - omitted for duplicate)
+|  |  |     |  |  |  +- (org.apache.xerces:serializer:jar:2.9.1:test - omitted for duplicate)
+|  |  |     |  |  |  \- (org.apache.xalan:xalan:jar:2.7.1:test - omitted for duplicate)
+|  |  |     |  |  +- (commons-collections:commons-collections:jar:3.1:test - omitted for conflict with 3.2)
+|  |  |     |  |  +- (commons-lang:commons-lang:jar:2.1:compile - scope updated from test; omitted for duplicate)
+|  |  |     |  |  +- jargs:jargs:jar:1.0:test
+|  |  |     |  |  +- velocity:velocity:jar:1.5:test
+|  |  |     |  |  |  +- (commons-collections:commons-collections:jar:3.1:test - omitted for conflict with 3.2)
+|  |  |     |  |  |  \- (commons-lang:commons-lang:jar:2.1:compile - scope updated from test; omitted for duplicate)
+|  |  |     |  |  +- org.apache.xerces:xml-apis:jar:2.9.1:test
+|  |  |     |  |  +- org.apache.xerces:xercesImpl:jar:2.9.1:test
+|  |  |     |  |  +- org.apache.xerces:resolver:jar:2.9.1:test
+|  |  |     |  |  +- org.apache.xerces:serializer:jar:2.9.1:test
+|  |  |     |  |  \- org.apache.xalan:xalan:jar:2.7.1:test
+|  |  |     |  \- (commons-lang:commons-lang:jar:2.3:compile - scope updated from test; omitted for duplicate)
+|  |  |     +- (org.wso2.carbon:org.wso2.carbon.logging:jar:4.4.17:test - version managed from 4.4.11; omitted for duplicate)
+|  |  |     +- (org.apache.ws.security.wso2:wss4j:jar:1.5.11.wso2v15:test - version managed from 1.5.11.wso2v16; omitted for duplicate)
+|  |  |     +- (org.wso2.orbit.org.apache.neethi:neethi:jar:2.0.4.wso2v5:test - omitted for duplicate)
+|  |  |     +- (commons-lang.wso2:commons-lang:jar:2.6.0.wso2v1:test - omitted for duplicate)
+|  |  |     \- (commons-collections.wso2:commons-collections:jar:3.2.0.wso2v1:test - omitted for duplicate)
+|  |  +- (org.wso2.carbon:org.wso2.carbon.utils:jar:4.4.17:test - version managed from 4.4.11; omitted for duplicate)
+|  |  +- (org.wso2.carbon:org.wso2.carbon.core:jar:4.4.17:test - version managed from 4.4.11; omitted for duplicate)
+|  |  +- (org.wso2.carbon:org.wso2.carbon.registry.core:jar:4.4.17:test - version managed from 4.4.11; omitted for duplicate)
+|  |  +- au.com.bytecode.opencsv.wso2:opencsv:jar:1.8.wso2v1:test
+|  |  +- org.apache.poi.wso2:poi-scratchpad:jar:3.9.0.wso2v1:test
+|  |  |  \- org.apache.poi:poi-scratchpad:jar:3.9:test
+|  |  |     \- org.apache.poi:poi:jar:3.9:test
+|  |  |        \- (commons-codec:commons-codec:jar:1.9:compile - version managed from 1.5; scope updated from test; omitted for duplicate)
+|  |  +- org.apache.poi.wso2:poi-ooxml:jar:3.9.0.wso2v1:test
+|  |  |  \- org.apache.poi:poi-ooxml:jar:3.9:test
+|  |  |     +- (org.apache.poi:poi:jar:3.9:test - omitted for duplicate)
+|  |  |     +- org.apache.poi:poi-ooxml-schemas:jar:3.9:test
+|  |  |     |  \- org.apache.xmlbeans:xmlbeans:jar:2.3.0:test
+|  |  |     |     \- stax:stax-api:jar:1.0.1:test
+|  |  |     \- dom4j:dom4j:jar:1.6.1:test
+|  |  |        \- (xml-apis:xml-apis:jar:1.0.b2:test - omitted for conflict with 1.3.04)
+|  |  +- (org.wso2.carbon:org.wso2.carbon.logging:jar:4.4.17:test - version managed from 4.4.11; omitted for duplicate)
+|  |  +- (commons-lang.wso2:commons-lang:jar:2.6.0.wso2v1:test - omitted for duplicate)
+|  |  \- org.wso2.carbon.identity.framework:org.wso2.carbon.identity.core:jar:5.7.0:test
+|  |     +- (org.apache.axis2.wso2:axis2:jar:1.6.1.wso2v11:test - version managed from 1.6.1.wso2v12; omitted for duplicate)
+|  |     +- org.wso2.orbit.org.opensaml:opensaml:jar:2.6.4.wso2v3:test
+|  |     |  \- org.wso2.orbit.joda-time:joda-time:jar:2.8.2.wso2v1:test
+|  |     +- (org.wso2.carbon:org.wso2.carbon.registry.core:jar:4.4.17:test - version managed from 4.4.11; omitted for duplicate)
+|  |     +- (org.wso2.carbon:org.wso2.carbon.core:jar:4.4.17:test - version managed from 4.4.11; omitted for duplicate)
+|  |     +- (org.wso2.carbon.identity.framework:org.wso2.carbon.identity.base:jar:5.7.0:test - omitted for duplicate)
+|  |     +- (org.wso2.carbon:org.wso2.carbon.user.core:jar:4.4.17:test - version managed from 4.4.11; omitted for duplicate)
+|  |     +- (org.apache.ws.commons.axiom.wso2:axiom:jar:1.2.11.wso2v10:test - version managed from 1.2.11.wso2v11; omitted for duplicate)
+|  |     +- org.apache.ws.security.wso2:wss4j:jar:1.5.11.wso2v15:test
+|  |     +- (org.wso2.carbon:org.wso2.carbon.logging:jar:4.4.17:test - version managed from 4.4.11; omitted for duplicate)
+|  |     +- (org.wso2.securevault:org.wso2.securevault:jar:1.0.0-wso2v2:compile - scope updated from test; omitted for duplicate)
+|  |     \- org.wso2.carbon.commons:org.wso2.carbon.tenant.common:jar:4.5.2:test
+|  |        +- (org.wso2.carbon:org.wso2.carbon.registry.core:jar:4.4.17:test - version managed from 4.4.3; omitted for duplicate)
+|  |        +- (org.wso2.carbon:org.wso2.carbon.user.core:jar:4.4.17:test - version managed from 4.4.3; omitted for duplicate)
+|  |        +- (commons-lang.wso2:commons-lang:jar:2.6.0.wso2v1:test - omitted for duplicate)
+|  |        \- org.apache.commons:commons-lang3:jar:3.1:test
+|  +- org.wso2.carbon.registry:org.wso2.carbon.registry.extensions:jar:4.6.8:test
+|  |  +- (wsdl4j.wso2:wsdl4j:jar:1.6.2.wso2v2:compile - scope updated from test; omitted for duplicate)
+|  |  +- (com.google.code.gson:gson:jar:2.3.1:test - version managed from 2.2.4; omitted for duplicate)
+|  |  +- (org.wso2.carbon:org.wso2.carbon.registry.core:jar:4.4.17:test - version managed from 4.4.14; omitted for duplicate)
+|  |  +- (org.wso2.carbon:org.wso2.carbon.user.core:jar:4.4.17:test - version managed from 4.4.14; omitted for duplicate)
+|  |  +- (org.wso2.carbon:org.wso2.carbon.core:jar:4.4.17:test - version managed from 4.4.14; omitted for duplicate)
+|  |  +- (org.wso2.carbon:org.wso2.carbon.utils:jar:4.4.17:test - version managed from 4.4.14; omitted for duplicate)
+|  |  +- (org.wso2.carbon.identity.framework:org.wso2.carbon.user.mgt:jar:5.7.0:test - version managed from 5.7.5; omitted for duplicate)
+|  |  +- (org.wso2.carbon:org.wso2.carbon.user.api:jar:4.4.17:test - version managed from 4.4.14; omitted for duplicate)
+|  |  +- (org.wso2.carbon.registry:org.wso2.carbon.registry.common:jar:4.6.8:test - omitted for duplicate)
+|  |  +- org.wso2.carbon.registry:org.wso2.carbon.registry.servlet:jar:4.6.8:test
+|  |  |  +- (org.apache.axis2.wso2:axis2:jar:1.6.1.wso2v11:test - version managed from 1.6.1.wso2v17; omitted for duplicate)
+|  |  |  +- (org.wso2.carbon.registry:org.wso2.carbon.registry.uddi:jar:4.6.8:test - omitted for duplicate)
+|  |  |  +- org.wso2.carbon:org.wso2.carbon.ui:jar:4.4.14:test
+|  |  |  |  +- (org.eclipse.osgi:org.eclipse.osgi:jar:3.8.1.v20120830-144521:test - version managed from 3.9.1.v20130814-1242; omitted for duplicate)
+|  |  |  |  +- (org.eclipse.osgi:org.eclipse.osgi.services:jar:3.3.100.v20120522-1822:test - version managed from 3.3.100.v20130513-1956; omitted for duplicate)
+|  |  |  |  +- (org.apache.ws.commons.axiom.wso2:axiom:jar:1.2.11.wso2v10:test - version managed from 1.2.11.wso2v11; omitted for duplicate)
+|  |  |  |  +- org.apache.tiles.wso2:tiles-jsp:jar:2.0.5.wso2v1:test
+|  |  |  |  +- (org.wso2.carbon:org.wso2.carbon.core:jar:4.4.17:test - version managed from 4.4.14; omitted for duplicate)
+|  |  |  |  +- org.wso2.carbon:org.wso2.carbon.authenticator.proxy:jar:4.4.14:test
+|  |  |  |  |  +- (org.apache.ws.commons.axiom.wso2:axiom:jar:1.2.11.wso2v10:test - version managed from 1.2.11.wso2v11; omitted for duplicate)
+|  |  |  |  |  +- (org.wso2.carbon:org.wso2.carbon.core:jar:4.4.17:test - version managed from 4.4.14; omitted for duplicate)
+|  |  |  |  |  +- (org.wso2.carbon:org.wso2.carbon.core.common:jar:4.4.14:test - omitted for duplicate)
+|  |  |  |  |  +- (org.wso2.carbon:org.wso2.carbon.logging:jar:4.4.17:test - version managed from 4.4.14; omitted for duplicate)
+|  |  |  |  |  +- (org.wso2.carbon:org.wso2.carbon.utils:jar:4.4.17:test - version managed from 4.4.14; omitted for duplicate)
+|  |  |  |  |  +- (org.apache.axis2.wso2:axis2:jar:1.6.1.wso2v11:test - version managed from 1.6.1.wso2v20; omitted for duplicate)
+|  |  |  |  |  \- org.wso2.carbon:org.wso2.carbon.authenticator.stub:jar:4.4.14:test
+|  |  |  |  |     +- (wsdl4j.wso2:wsdl4j:jar:1.6.2.wso2v4:test - omitted for conflict with 1.6.2.wso2v2)
+|  |  |  |  |     +- (org.apache.axis2.wso2:axis2:jar:1.6.1.wso2v11:test - version managed from 1.6.1.wso2v20; omitted for duplicate)
+|  |  |  |  |     +- (org.wso2.orbit.org.apache.neethi:neethi:jar:2.0.4.wso2v5:test - omitted for duplicate)
+|  |  |  |  |     +- (org.apache.ws.commons.schema.wso2:XmlSchema:jar:1.4.7.wso2v3:test - omitted for duplicate)
+|  |  |  |  |     +- (commons-logging:commons-logging:jar:1.2:test - version managed from 1.0.4; omitted for duplicate)
+|  |  |  |  |     \- (org.apache.ws.commons.axiom.wso2:axiom:jar:1.2.11.wso2v10:test - version managed from 1.2.11.wso2v11; omitted for duplicate)
+|  |  |  |  +- org.wso2.carbon:org.wso2.carbon.tomcat:jar:4.4.14:test
+|  |  |  |  |  +- (org.eclipse.osgi:org.eclipse.osgi:jar:3.8.1.v20120830-144521:test - version managed from 3.9.1.v20130814-1242; omitted for duplicate)
+|  |  |  |  |  +- (org.eclipse.equinox:org.eclipse.equinox.http.servlet:jar:1.1.400.v20130418-1354:test - omitted for duplicate)
+|  |  |  |  |  +- (org.eclipse.equinox:org.eclipse.equinox.common:jar:3.6.100.v20120522-1841:test - version managed from 3.6.200.v20130402-1505; omitted for duplicate)
+|  |  |  |  |  +- org.wso2.tomcat:tomcat:jar:7.0.59.wso2v1:test (version managed from 7.0.75.wso2v1)
+|  |  |  |  |  +- (org.wso2.carbon:org.wso2.carbon.logging:jar:4.4.17:test - version managed from 4.4.14; omitted for duplicate)
+|  |  |  |  |  +- (org.wso2.carbon:org.wso2.carbon.utils:jar:4.4.17:test - version managed from 4.4.14; omitted for duplicate)
+|  |  |  |  |  \- (org.wso2.securevault:org.wso2.securevault:jar:1.0.0-wso2v2:compile - scope updated from test; omitted for duplicate)
+|  |  |  |  +- org.wso2.carbon:org.wso2.carbon.core.common:jar:4.4.14:test
+|  |  |  |  |  +- (org.wso2.carbon:org.wso2.carbon.utils:jar:4.4.17:test - version managed from 4.4.14; omitted for duplicate)
+|  |  |  |  |  \- (org.wso2.carbon:org.wso2.carbon.logging:jar:4.4.17:test - version managed from 4.4.14; omitted for duplicate)
+|  |  |  |  +- (org.wso2.carbon:org.wso2.carbon.logging:jar:4.4.17:test - version managed from 4.4.14; omitted for duplicate)
+|  |  |  |  +- (org.wso2.carbon:org.wso2.carbon.utils:jar:4.4.17:test - version managed from 4.4.14; omitted for duplicate)
+|  |  |  |  +- (org.wso2.carbon:org.wso2.carbon.registry.core:jar:4.4.17:test - version managed from 4.4.14; omitted for duplicate)
+|  |  |  |  +- (org.apache.axis2.wso2:axis2:jar:1.6.1.wso2v11:test - version managed from 1.6.1.wso2v20; omitted for duplicate)
+|  |  |  |  +- org.eclipse.equinox:org.eclipse.equinox.http.servlet:jar:1.1.400.v20130418-1354:test
+|  |  |  |  +- org.eclipse.equinox:org.apache.jasper.glassfish:jar:2.2.2.v201205150955:test
+|  |  |  |  +- org.eclipse.equinox:javax.servlet.jsp:jar:2.2.0.v201112011158:test
+|  |  |  |  +- org.wso2.carbon:org.wso2.carbon.core.commons.stub:jar:4.4.14:test
+|  |  |  |  |  +- (wsdl4j.wso2:wsdl4j:jar:1.6.2.wso2v4:test - omitted for conflict with 1.6.2.wso2v2)
+|  |  |  |  |  +- (org.apache.axis2.wso2:axis2:jar:1.6.1.wso2v11:test - version managed from 1.6.1.wso2v20; omitted for duplicate)
+|  |  |  |  |  +- (org.wso2.orbit.org.apache.neethi:neethi:jar:2.0.4.wso2v5:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.ws.commons.schema.wso2:XmlSchema:jar:1.4.7.wso2v3:test - omitted for duplicate)
+|  |  |  |  |  +- (commons-logging:commons-logging:jar:1.2:test - version managed from 1.0.4; omitted for duplicate)
+|  |  |  |  |  \- (org.apache.ws.commons.axiom.wso2:axiom:jar:1.2.11.wso2v10:test - version managed from 1.2.11.wso2v11; omitted for duplicate)
+|  |  |  |  +- javax.servlet.jsp.jstl.wso2:jstl:jar:1.2.1.wso2v2:test
+|  |  |  |  +- (commons-lang.wso2:commons-lang:jar:2.6.0.wso2v1:test - omitted for duplicate)
+|  |  |  |  \- org.wso2.orbit.org.owasp.encoder:encoder:jar:1.2.0.wso2v1:test
+|  |  |  +- (org.wso2.carbon:org.wso2.carbon.utils:jar:4.4.17:test - version managed from 4.4.14; omitted for duplicate)
+|  |  |  +- (org.wso2.carbon:org.wso2.carbon.registry.core:jar:4.4.17:test - version managed from 4.4.14; omitted for duplicate)
+|  |  |  +- (org.wso2.carbon:org.wso2.carbon.logging:jar:4.4.17:test - version managed from 4.4.14; omitted for duplicate)
+|  |  |  +- (commons-beanutils:commons-beanutils:jar:1.8.0:test - omitted for conflict with 1.7.0)
+|  |  |  +- (commons-collections:commons-collections:jar:3.2:test - omitted for duplicate)
+|  |  |  +- (commons-digester:commons-digester:jar:1.8:test - omitted for duplicate)
+|  |  |  \- org.apache.abdera.wso2:abdera:jar:1.0.0.wso2v2:test
+|  |  +- org.wso2.carbon.registry:org.wso2.carbon.registry.uddi:jar:4.6.8:test
+|  |  |  +- (org.apache.axis2.wso2:axis2:jar:1.6.1.wso2v11:test - version managed from 1.6.1.wso2v17; omitted for duplicate)
+|  |  |  +- (org.wso2.carbon:org.wso2.carbon.utils:jar:4.4.17:test - version managed from 4.4.14; omitted for duplicate)
+|  |  |  +- (org.eclipse.osgi:org.eclipse.osgi.services:jar:3.3.100.v20120522-1822:test - version managed from 3.3.100.v20130513-1956; omitted for duplicate)
+|  |  |  +- org.apache.juddi:juddi-core:jar:3.1.5.wso2v1:test
+|  |  |  |  +- org.apache.juddi:uddi-ws:jar:3.1.5.wso2v1:test
+|  |  |  |  |  \- (commons-logging:commons-logging-api:jar:1.1:test - omitted for duplicate)
+|  |  |  |  +- org.apache.juddi:uddi-tck-base:jar:3.1.5.wso2v1:test
+|  |  |  |  |  +- (org.apache.juddi:uddi-ws:jar:3.1.5.wso2v1:test - omitted for duplicate)
+|  |  |  |  |  +- (junit:junit:jar:4.8.2:compile - version managed from 4.5; scope updated from test; omitted for duplicate)
+|  |  |  |  |  +- xmlunit:xmlunit:jar:1.3:test
+|  |  |  |  |  \- (commons-logging:commons-logging-api:jar:1.1:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.juddi:juddi-client:jar:3.1.5.wso2v1:test - omitted for duplicate)
+|  |  |  |  +- commons-configuration:commons-configuration:jar:1.8:test
+|  |  |  |  |  +- (commons-lang:commons-lang:jar:2.6:compile - scope updated from test; omitted for duplicate)
+|  |  |  |  |  \- (commons-logging:commons-logging:jar:1.2:test - version managed from 1.1.1; omitted for duplicate)
+|  |  |  |  +- javax.persistence:persistence-api:jar:1.0:test
+|  |  |  |  +- org.hibernate:hibernate:jar:3.2.5.ga:test
+|  |  |  |  |  +- net.sf.ehcache:ehcache:jar:1.2.3:test
+|  |  |  |  |  |  +- (commons-logging:commons-logging:jar:1.2:test - version managed from 1.0.4; omitted for duplicate)
+|  |  |  |  |  |  \- (commons-collections:commons-collections:jar:2.1:test - omitted for conflict with 3.2)
+|  |  |  |  |  +- javax.transaction:jta:jar:1.0.1B:test
+|  |  |  |  |  +- (commons-logging:commons-logging:jar:1.2:test - version managed from 1.0.4; omitted for duplicate)
+|  |  |  |  |  +- asm:asm-attrs:jar:1.5.3:test
+|  |  |  |  |  +- (dom4j:dom4j:jar:1.6.1:test - omitted for duplicate)
+|  |  |  |  |  +- antlr:antlr:jar:2.7.6:test
+|  |  |  |  |  +- (asm:asm:jar:1.5.3:test - omitted for conflict with 3.2)
+|  |  |  |  |  \- (commons-collections:commons-collections:jar:2.1.1:test - omitted for conflict with 3.2)
+|  |  |  |  +- org.hibernate:hibernate-entitymanager:jar:3.3.1.ga:test
+|  |  |  |  |  +- (javax.persistence:persistence-api:jar:1.0:test - omitted for duplicate)
+|  |  |  |  |  +- (org.hibernate:hibernate:jar:3.2.4.ga:test - omitted for conflict with 3.2.5.ga)
+|  |  |  |  |  +- org.hibernate:hibernate-annotations:jar:3.3.0.ga:test
+|  |  |  |  |  |  +- (org.hibernate:hibernate:jar:3.2.4.sp1:test - omitted for conflict with 3.2.5.ga)
+|  |  |  |  |  |  \- (javax.persistence:persistence-api:jar:1.0:test - omitted for duplicate)
+|  |  |  |  |  +- org.hibernate:hibernate-commons-annotations:jar:3.0.0.ga:test
+|  |  |  |  |  |  \- (commons-logging:commons-logging:jar:1.2:test - version managed from 1.0.4; omitted for duplicate)
+|  |  |  |  |  +- org.hibernate:hibernate-validator:jar:5.0.2.Final:test (version managed from 3.0.0.ga)
+|  |  |  |  |  |  +- (javax.validation:validation-api:jar:1.1.0.Final:test - omitted for conflict with 1.0.0.GA)
+|  |  |  |  |  |  +- org.jboss.logging:jboss-logging:jar:3.1.1.GA:test
+|  |  |  |  |  |  \- com.fasterxml:classmate:jar:1.0.0:test
+|  |  |  |  |  +- (javassist:javassist:jar:3.12.1.GA:test - version managed from 3.3.GA; omitted for duplicate)
+|  |  |  |  |  \- jboss:jboss-common-core:jar:2.0.4.GA:test
+|  |  |  |  +- cglib:cglib-nodep:jar:2.1_3:test
+|  |  |  |  +- (commons-codec:commons-codec:jar:1.9:compile - version managed from 1.3; scope updated from test; omitted for duplicate)
+|  |  |  |  \- commons-logging:commons-logging-api:jar:1.1:test
+|  |  |  +- org.apache.juddi:juddi-client:jar:3.1.5.wso2v1:test
+|  |  |  |  +- (org.apache.juddi:uddi-ws:jar:3.1.5.wso2v1:test - omitted for duplicate)
+|  |  |  |  +- (commons-configuration:commons-configuration:jar:1.8:test - version managed from 1.6; omitted for duplicate)
+|  |  |  |  +- wsdl4j:wsdl4j:jar:1.6.2:test
+|  |  |  |  +- org.apache.httpcomponents:httpclient:jar:4.5.1:test (version managed from 4.2.5)
+|  |  |  |  |  +- org.apache.httpcomponents:httpcore:jar:4.4.3:test
+|  |  |  |  |  +- (commons-logging:commons-logging:jar:1.2:test - version managed from 1.0.4; omitted for duplicate)
+|  |  |  |  |  \- (commons-codec:commons-codec:jar:1.9:compile - version managed from 1.3; scope updated from test; omitted for duplicate)
+|  |  |  |  \- (commons-logging:commons-logging-api:jar:1.1:test - omitted for duplicate)
+|  |  |  +- (org.wso2.carbon:org.wso2.carbon.registry.core:jar:4.4.17:test - version managed from 4.4.14; omitted for duplicate)
+|  |  |  +- (org.wso2.carbon:org.wso2.carbon.logging:jar:4.4.17:test - version managed from 4.4.14; omitted for duplicate)
+|  |  |  +- (org.wso2.carbon.registry:org.wso2.carbon.registry.common:jar:4.6.8:test - omitted for duplicate)
+|  |  |  +- (commons-lang.wso2:commons-lang:jar:2.6.0.wso2v1:test - omitted for duplicate)
+|  |  |  +- (org.wso2.orbit.org.apache.neethi:neethi:jar:2.0.4.wso2v5:test - omitted for duplicate)
+|  |  |  +- org.apache.geronimo.specs:geronimo-jpa_2.0_spec:jar:1.0:test
+|  |  |  \- org.apache.openjpa:openjpa:jar:2.2.0-wso2v1:test
+|  |  |     +- (commons-lang:commons-lang:jar:2.4:compile - scope updated from test; omitted for duplicate)
+|  |  |     +- (commons-collections:commons-collections:jar:3.2.1:test - omitted for conflict with 3.2)
+|  |  |     +- net.sourceforge.serp:serp:jar:1.13.1:test
+|  |  |     |  \- (junit:junit:jar:4.8.2:compile - version managed from 3.8.1; scope updated from test; omitted for duplicate)
+|  |  |     +- (org.apache.geronimo.specs:geronimo-jta_1.1_spec:jar:1.1.1:test - omitted for conflict with 1.1)
+|  |  |     +- (commons-pool:commons-pool:jar:1.5.4:test - omitted for conflict with 1.3)
+|  |  |     +- asm:asm:jar:3.2:test
+|  |  |     \- (commons-logging:commons-logging:jar:1.2:test - version managed from 1.0.4; omitted for duplicate)
+|  |  +- commons-dbcp:commons-dbcp:jar:1.2.2:test
+|  |  |  \- commons-pool:commons-pool:jar:1.3:test
+|  |  +- (org.wso2.carbon:org.wso2.carbon.logging:jar:4.4.17:test - version managed from 4.4.14; omitted for duplicate)
+|  |  +- javax.mail:mail:jar:1.4:test
+|  |  |  \- (javax.activation:activation:jar:1.1:test - omitted for duplicate)
+|  |  +- javax.activation:activation:jar:1.1:test
+|  |  +- commons-fileupload:commons-fileupload:jar:1.1.1:test
+|  |  |  \- (commons-io:commons-io:jar:1.1:compile - scope updated from test; omitted for duplicate)
+|  |  +- commons-httpclient:commons-httpclient:jar:3.0.1:test
+|  |  |  +- (junit:junit:jar:4.8.2:compile - version managed from 3.8.1; scope updated from test; omitted for duplicate)
+|  |  |  +- (commons-logging:commons-logging:jar:1.2:test - version managed from 1.0.3; omitted for duplicate)
+|  |  |  \- (commons-codec:commons-codec:jar:1.9:compile - version managed from 1.2; scope updated from test; omitted for duplicate)
+|  |  +- (org.apache.ws.commons.axiom:axiom-api:jar:1.2.11-wso2v10:compile - scope updated from test; omitted for duplicate)
+|  |  +- (org.apache.ws.commons.axiom:axiom-impl:jar:1.2.11-wso2v10:compile - scope updated from test; omitted for duplicate)
+|  |  +- (commons-logging:commons-logging:jar:1.2:test - version managed from 1.1; omitted for duplicate)
+|  |  +- (org.apache.geronimo.specs.wso2:geronimo-stax-api_1.0_spec:jar:1.0.1.wso2v1:test - omitted for conflict with 1.0.1.wso2v2)
+|  |  +- (org.codehaus.woodstox:wstx-asl:jar:3.2.9:compile - scope updated from test; omitted for duplicate)
+|  |  +- (jaxen:jaxen:jar:1.1.1:compile - scope updated from test; omitted for duplicate)
+|  |  +- xml-apis:xml-apis:jar:1.3.04:test
+|  |  +- org.apache.ws.commons.schema:XmlSchema:jar:1.4.3:test
+|  |  +- org.apache.derby:derby:jar:10.4.2.0:test
+|  |  +- eclipse:validateutility:jar:0.95:test
+|  |  +- org.wso2.wsdl.validator.wso2:wsdl-validator:jar:1.2.0.wso2v1:test
+|  |  +- org.wso2.orbit.wadl.core:wadl-core:jar:1.1.6.wso2v1:test
+|  |  |  +- org.jvnet.ws.wadl:wadl-core:jar:1.1.6:test
+|  |  |  |  +- (com.sun.localizer:localizer:jar:1.0:test - omitted for duplicate)
+|  |  |  |  +- (com.sun.localizer:comresrcgen:jar:1.0:test - omitted for duplicate)
+|  |  |  |  +- (javax.activation:activation:jar:1.1:test - omitted for duplicate)
+|  |  |  |  +- (com.sun.xml.bind:jaxb-xjc:jar:2.2.6:test - omitted for duplicate)
+|  |  |  |  +- (com.sun.xml.bind:jaxb-impl:jar:2.2.6:test - omitted for duplicate)
+|  |  |  |  +- org.glassfish.jersey.core:jersey-common:jar:2.5.1:test
+|  |  |  |  |  +- (javax.ws.rs:javax.ws.rs-api:jar:2.0.1:test - version managed from 2.0; omitted for duplicate)
+|  |  |  |  |  +- javax.annotation:javax.annotation-api:jar:1.2:test
+|  |  |  |  |  +- (com.google.guava:guava:jar:14.0.1:test - omitted for conflict with 19.0)
+|  |  |  |  |  +- org.glassfish.hk2:hk2-api:jar:2.2.0-b21:test
+|  |  |  |  |  |  \- org.glassfish.hk2:hk2-utils:jar:2.2.0-b21:test
+|  |  |  |  |  +- org.glassfish.hk2.external:javax.inject:jar:2.2.0-b21:test
+|  |  |  |  |  +- org.glassfish.hk2:hk2-locator:jar:2.2.0-b21:test
+|  |  |  |  |  |  +- (org.glassfish.hk2.external:javax.inject:jar:2.2.0-b21:test - omitted for duplicate)
+|  |  |  |  |  |  +- org.glassfish.hk2.external:asm-all-repackaged:jar:2.2.0-b21:test
+|  |  |  |  |  |  +- (org.glassfish.hk2:hk2-api:jar:2.2.0-b21:test - omitted for duplicate)
+|  |  |  |  |  |  +- (org.glassfish.hk2:hk2-utils:jar:2.2.0-b21:test - omitted for duplicate)
+|  |  |  |  |  |  \- org.glassfish.hk2.external:cglib:jar:2.2.0-b21:test
+|  |  |  |  |  \- org.glassfish.hk2:osgi-resource-locator:jar:1.0.1:test
+|  |  |  |  +- org.jsonschema2pojo:jsonschema2pojo-core:jar:0.4.0:test
+|  |  |  |  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.2.0:test - omitted for conflict with 2.0.0)
+|  |  |  |  |  +- (com.sun.codemodel:codemodel:jar:2.6:test - omitted for conflict with 2.4.1)
+|  |  |  |  |  +- (commons-lang:commons-lang:jar:2.6:compile - scope updated from test; omitted for duplicate)
+|  |  |  |  |  +- (javax.validation:validation-api:jar:1.0.0.GA:test - omitted for duplicate)
+|  |  |  |  |  +- joda-time:joda-time:jar:2.2:test
+|  |  |  |  |  +- (org.codehaus.jackson:jackson-mapper-asl:jar:1.9.11:test - omitted for conflict with 1.9.9)
+|  |  |  |  |  +- (com.google.code.gson:gson:jar:2.3.1:test - version managed from 2.2.4; omitted for duplicate)
+|  |  |  |  |  \- (com.google.code.findbugs:annotations:jar:1.3.9:test - omitted for duplicate)
+|  |  |  |  \- org.jvnet.ws.wadl:wadl-xslt:jar:1.1.6:test
+|  |  |  +- com.googlecode.jsonschema2pojo:jsonschema2pojo-core:jar:0.3.4:test
+|  |  |  |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.0.0:test
+|  |  |  |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.0.0:test
+|  |  |  |  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.0.0:test
+|  |  |  |  +- org.codehaus.jackson:jackson-mapper-asl:jar:1.9.9:test
+|  |  |  |  |  \- org.codehaus.jackson:jackson-core-asl:jar:1.9.0:test (version managed from 1.9.9)
+|  |  |  |  +- com.sun.codemodel:codemodel:jar:2.4.1:test
+|  |  |  |  +- (commons-lang:commons-lang:jar:2.4:compile - scope updated from test; omitted for duplicate)
+|  |  |  |  +- javax.validation:validation-api:jar:1.0.0.GA:test
+|  |  |  |  \- com.google.code.findbugs:annotations:jar:1.3.9:test
+|  |  |  +- (javax.ws.rs:jsr311-api:jar:1.1.1:test - version managed from 1.0; omitted for duplicate)
+|  |  |  +- com.sun.localizer:localizer:jar:1.0:test
+|  |  |  +- com.sun.localizer:comresrcgen:jar:1.0:test
+|  |  |  +- com.sun.jersey:jersey-client:jar:1.12:test
+|  |  |  |  \- com.sun.jersey:jersey-core:jar:1.9:test (version managed from 1.12)
+|  |  |  +- com.sun.jersey:jersey-server:jar:1.12:test
+|  |  |  |  +- (asm:asm:jar:3.1:test - omitted for conflict with 3.2)
+|  |  |  |  \- (com.sun.jersey:jersey-core:jar:1.9:test - version managed from 1.12; omitted for duplicate)
+|  |  |  +- com.sun.xml.bind:jaxb-impl:jar:2.2.6:test
+|  |  |  \- com.sun.xml.bind:jaxb-xjc:jar:2.2.6:test
+|  |  +- uddi:uddi4j:jar:1.0.1:test
+|  |  +- xerces:xercesImpl:jar:2.8.1:test
+|  |  |  \- (xml-apis:xml-apis:jar:1.3.03:test - omitted for conflict with 1.3.04)
+|  |  +- (org.eclipse.core:org.eclipse.core.runtime:jar:3.5.0.v20090429-1800:compile - scope updated from test; omitted for duplicate)
+|  |  +- org.wso2.carbon:org.wso2.carbon.registry.server:jar:4.4.14:test
+|  |  |  +- (org.wso2.carbon:org.wso2.carbon.utils:jar:4.4.17:test - version managed from 4.4.14; omitted for duplicate)
+|  |  |  +- (org.wso2.carbon:org.wso2.carbon.registry.core:jar:4.4.17:test - version managed from 4.4.14; omitted for duplicate)
+|  |  |  +- (org.wso2.carbon:org.wso2.carbon.core:jar:4.4.17:test - version managed from 4.4.14; omitted for duplicate)
+|  |  |  \- (org.wso2.carbon:org.wso2.carbon.logging:jar:4.4.17:test - version managed from 4.4.14; omitted for duplicate)
+|  |  +- org.apache.juddi.wso2:juddi:jar:3.1.5.wso2v1:test
+|  |  \- org.apache.maven.scm.wso2:maven-scm:jar:1.7.0.wso2v1:test
+|  |     +- org.apache.maven.scm:maven-scm-provider-svnexe:jar:1.7.0-wso2v1:test
+|  |     |  +- org.apache.maven.scm:maven-scm-api:jar:1.7:test
+|  |     |  |  \- (org.codehaus.plexus:plexus-utils:jar:2.0.5:test - omitted for duplicate)
+|  |     |  +- org.apache.maven.scm:maven-scm-manager-plexus:jar:1.7:test
+|  |     |  |  +- org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9:test
+|  |     |  |  |  +- (junit:junit:jar:4.8.2:compile - version managed from 3.8.1; scope updated from test; omitted for duplicate)
+|  |     |  |  |  +- (org.codehaus.plexus:plexus-utils:jar:1.0.4:test - omitted for conflict with 2.0.5)
+|  |     |  |  |  \- classworlds:classworlds:jar:1.1-alpha-2:test
+|  |     |  |  +- (org.apache.maven.scm:maven-scm-api:jar:1.7:test - omitted for duplicate)
+|  |     |  |  \- (org.codehaus.plexus:plexus-utils:jar:2.0.5:test - omitted for duplicate)
+|  |     |  +- org.apache.maven.scm:maven-scm-provider-svn-commons:jar:1.7:test
+|  |     |  |  +- (org.apache.maven.scm:maven-scm-api:jar:1.7:test - omitted for duplicate)
+|  |     |  |  \- (org.codehaus.plexus:plexus-utils:jar:2.0.5:test - omitted for duplicate)
+|  |     |  +- regexp:regexp:jar:1.3:test
+|  |     |  +- (commons-lang:commons-lang:jar:2.6:compile - scope updated from test; omitted for duplicate)
+|  |     |  \- org.codehaus.plexus:plexus-utils:jar:2.0.5:test
+|  |     \- org.apache.maven.scm:maven-scm-client:jar:1.7:test
+|  |        +- (org.apache.maven.scm:maven-scm-manager-plexus:jar:1.7:test - omitted for duplicate)
+|  |        +- org.apache.maven.scm:maven-scm-provider-accurev:jar:1.7:test
+|  |        |  +- (org.apache.maven.scm:maven-scm-api:jar:1.7:test - omitted for duplicate)
+|  |        |  \- (org.codehaus.plexus:plexus-utils:jar:2.0.5:test - omitted for duplicate)
+|  |        +- org.apache.maven.scm:maven-scm-provider-bazaar:jar:1.7:test
+|  |        |  +- (regexp:regexp:jar:1.3:test - omitted for duplicate)
+|  |        |  +- (org.apache.maven.scm:maven-scm-api:jar:1.7:test - omitted for duplicate)
+|  |        |  \- (org.codehaus.plexus:plexus-utils:jar:2.0.5:test - omitted for duplicate)
+|  |        +- org.apache.maven.scm:maven-scm-provider-clearcase:jar:1.7:test
+|  |        |  +- (regexp:regexp:jar:1.3:test - omitted for duplicate)
+|  |        |  +- (org.apache.maven.scm:maven-scm-api:jar:1.7:test - omitted for duplicate)
+|  |        |  \- (org.codehaus.plexus:plexus-utils:jar:2.0.5:test - omitted for duplicate)
+|  |        +- org.apache.maven.scm:maven-scm-provider-cvsexe:jar:1.7:test
+|  |        |  +- org.apache.maven.scm:maven-scm-provider-cvs-commons:jar:1.7:test
+|  |        |  |  +- (regexp:regexp:jar:1.3:test - omitted for duplicate)
+|  |        |  |  +- (org.apache.maven.scm:maven-scm-api:jar:1.7:test - omitted for duplicate)
+|  |        |  |  \- (org.codehaus.plexus:plexus-utils:jar:2.0.5:test - omitted for duplicate)
+|  |        |  +- (org.apache.maven.scm:maven-scm-api:jar:1.7:test - omitted for duplicate)
+|  |        |  \- (org.codehaus.plexus:plexus-utils:jar:2.0.5:test - omitted for duplicate)
+|  |        +- org.apache.maven.scm:maven-scm-provider-cvsjava:jar:1.7:test
+|  |        |  +- (org.apache.maven.scm:maven-scm-provider-cvs-commons:jar:1.7:test - omitted for duplicate)
+|  |        |  +- org.netbeans.lib:cvsclient:jar:20060125:test
+|  |        |  +- ch.ethz.ganymed:ganymed-ssh2:jar:build210:test
+|  |        |  +- (org.apache.maven.scm:maven-scm-api:jar:1.7:test - omitted for duplicate)
+|  |        |  \- (org.codehaus.plexus:plexus-utils:jar:2.0.5:test - omitted for duplicate)
+|  |        +- org.apache.maven.scm:maven-scm-provider-gitexe:jar:1.7:test
+|  |        |  +- (regexp:regexp:jar:1.3:test - omitted for duplicate)
+|  |        |  +- org.apache.maven.scm:maven-scm-provider-git-commons:jar:1.7:test
+|  |        |  |  +- (regexp:regexp:jar:1.3:test - omitted for duplicate)
+|  |        |  |  +- (org.apache.maven.scm:maven-scm-api:jar:1.7:test - omitted for duplicate)
+|  |        |  |  \- (org.codehaus.plexus:plexus-utils:jar:2.0.5:test - omitted for duplicate)
+|  |        |  +- (org.apache.maven.scm:maven-scm-api:jar:1.7:test - omitted for duplicate)
+|  |        |  \- (org.codehaus.plexus:plexus-utils:jar:2.0.5:test - omitted for duplicate)
+|  |        +- org.apache.maven.scm:maven-scm-provider-hg:jar:1.7:test
+|  |        |  +- (regexp:regexp:jar:1.3:test - omitted for duplicate)
+|  |        |  +- (org.apache.maven.scm:maven-scm-api:jar:1.7:test - omitted for duplicate)
+|  |        |  \- (org.codehaus.plexus:plexus-utils:jar:2.0.5:test - omitted for duplicate)
+|  |        +- org.apache.maven.scm:maven-scm-provider-jazz:jar:1.7:test
+|  |        |  +- (regexp:regexp:jar:1.3:test - omitted for duplicate)
+|  |        |  +- (org.apache.maven.scm:maven-scm-api:jar:1.7:test - omitted for duplicate)
+|  |        |  \- (org.codehaus.plexus:plexus-utils:jar:2.0.5:test - omitted for duplicate)
+|  |        +- org.apache.maven.scm:maven-scm-provider-local:jar:1.7:test
+|  |        |  +- (org.apache.maven.scm:maven-scm-api:jar:1.7:test - omitted for duplicate)
+|  |        |  \- (org.codehaus.plexus:plexus-utils:jar:2.0.5:test - omitted for duplicate)
+|  |        +- org.apache.maven.scm:maven-scm-provider-perforce:jar:1.7:test
+|  |        |  +- (regexp:regexp:jar:1.3:test - omitted for duplicate)
+|  |        |  +- (org.apache.maven.scm:maven-scm-api:jar:1.7:test - omitted for duplicate)
+|  |        |  \- (org.codehaus.plexus:plexus-utils:jar:2.0.5:test - omitted for duplicate)
+|  |        +- org.apache.maven.scm:maven-scm-provider-starteam:jar:1.7:test
+|  |        |  +- (org.apache.maven.scm:maven-scm-api:jar:1.7:test - omitted for duplicate)
+|  |        |  \- (org.codehaus.plexus:plexus-utils:jar:2.0.5:test - omitted for duplicate)
+|  |        +- (org.apache.maven.scm:maven-scm-provider-svnexe:jar:1.7:test - omitted for conflict with 1.7.0-wso2v1)
+|  |        +- org.apache.maven.scm:maven-scm-provider-synergy:jar:1.7:test
+|  |        |  +- (org.apache.maven.scm:maven-scm-api:jar:1.7:test - omitted for duplicate)
+|  |        |  \- (org.codehaus.plexus:plexus-utils:jar:2.0.5:test - omitted for duplicate)
+|  |        +- org.apache.maven.scm:maven-scm-provider-vss:jar:1.7:test
+|  |        |  +- (org.apache.maven.scm:maven-scm-api:jar:1.7:test - omitted for duplicate)
+|  |        |  \- (org.codehaus.plexus:plexus-utils:jar:2.0.5:test - omitted for duplicate)
+|  |        +- org.apache.maven.scm:maven-scm-provider-tfs:jar:1.7:test
+|  |        |  +- (regexp:regexp:jar:1.3:test - omitted for duplicate)
+|  |        |  +- (org.apache.maven.scm:maven-scm-api:jar:1.7:test - omitted for duplicate)
+|  |        |  \- (org.codehaus.plexus:plexus-utils:jar:2.0.5:test - omitted for duplicate)
+|  |        \- (org.codehaus.plexus:plexus-utils:jar:2.0.5:test - omitted for duplicate)
+|  +- (org.wso2.carbon:org.wso2.carbon.logging:jar:4.4.17:test - version managed from 4.4.14; omitted for duplicate)
+|  +- commons-beanutils:commons-beanutils:jar:1.8.0:test
+|  |  \- (commons-logging:commons-logging:jar:1.2:test - version managed from 1.1.1; omitted for duplicate)
+|  +- commons-collections:commons-collections:jar:3.2:test
+|  +- commons-digester:commons-digester:jar:1.8:test
+|  |  +- (commons-beanutils:commons-beanutils:jar:1.7.0:test - omitted for conflict with 1.8.0)
+|  |  \- (commons-logging:commons-logging:jar:1.2:test - version managed from 1.1; omitted for duplicate)
+|  \- org.wso2.orbit.org.apache.solr:solr:jar:5.2.1.wso2v1:test
+\- org.wso2.carbon.devicemgt:org.wso2.carbon.device.mgt.core:jar:3.0.193:test
+   +- (org.eclipse.osgi:org.eclipse.osgi.services:jar:3.3.100.v20120522-1822:test - version managed from 3.3.100.v20130513-1956; omitted for duplicate)
+   +- org.wso2.orbit.org.scannotation:scannotation:jar:1.0.3.wso2v1:test
+   +- org.wso2.carbon.identity.inbound.auth.oauth2:org.wso2.carbon.identity.oauth.stub:jar:5.3.1:test
+   |  \- (org.apache.axis2.wso2:axis2-client:jar:1.6.1.wso2v12:compile - scope updated from test; omitted for duplicate)
+   +- (org.wso2.carbon.commons:org.wso2.carbon.ntask.core:jar:4.4.8:compile - version managed from 4.5.4; scope updated from test; omitted for duplicate)
+   +- commons-collections.wso2:commons-collections:jar:3.2.0.wso2v1:test
+   +- org.wso2.carbon.devicemgt:org.wso2.carbon.email.sender.core:jar:3.0.193:test
+   |  +- (org.eclipse.osgi:org.eclipse.osgi.services:jar:3.3.100.v20120522-1822:test - version managed from 3.3.100.v20130513-1956; omitted for duplicate)
+   |  +- org.wso2.orbit.org.apache.velocity:velocity:jar:1.7.0.wso2v1:test
+   |  +- commons-io.wso2:commons-io:jar:2.4.0.wso2v1:test
+   |  \- (commons-collections.wso2:commons-collections:jar:3.2.0.wso2v1:test - omitted for duplicate)
+   +- (com.google.code.gson:gson:jar:2.3.1:compile - version managed from 2.2.4; scope updated from test; omitted for duplicate)
+   +- org.wso2.carbon.devicemgt:org.wso2.carbon.apimgt.annotations:jar:3.0.193:test
+   |  +- (org.eclipse.osgi:org.eclipse.osgi.services:jar:3.3.100.v20120522-1822:test - version managed from 3.3.100.v20130513-1956; omitted for duplicate)
+   |  \- (javax.ws.rs:jsr311-api:jar:1.1.1:test - version managed from 1.0; omitted for duplicate)
+   +- org.wso2.carbon.event-processing:org.wso2.carbon.event.processor.stub:jar:2.1.10:test
+   |  \- (org.apache.axis2.wso2:axis2-client:jar:1.6.1.wso2v12:compile - scope updated from test; omitted for duplicate)
+   +- javax.ws.rs:javax.ws.rs-api:jar:2.0.1:test
+   +- javax.ws.rs:jsr311-api:jar:1.1.1:test
+   \- javassist:javassist:jar:3.12.1.GA:test

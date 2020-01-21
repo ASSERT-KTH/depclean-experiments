@@ -1,0 +1,18 @@
+com.cerner.ccl.whitenoise:whitenoise-data:jar:2.0
++- commons-discovery:commons-discovery:jar:20040218.194635:compile
++- commons-lang:commons-lang:jar:2.6:compile
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.easytesting:fest-assert:jar:1.4:test
+|  \- org.easytesting:fest-util:jar:1.1.6:test
++- org.mockito:mockito-core:jar:2.18.3:test
+|  +- net.bytebuddy:byte-buddy:jar:1.8.5:test
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.8.5:test
+|  \- org.objenesis:objenesis:jar:2.6:test
++- org.powermock:powermock-api-mockito2:jar:2.0.0-beta.5:test
+|  \- org.powermock:powermock-api-support:jar:2.0.0-beta.5:test
++- org.powermock:powermock-core:jar:2.0.0-beta.5:test
+|  +- org.powermock:powermock-reflect:jar:2.0.0-beta.5:test
+|  \- org.javassist:javassist:jar:3.22.0-CR2:test
+\- org.powermock:powermock-module-junit4:jar:2.0.0-beta.5:test
+   \- org.powermock:powermock-module-junit4-common:jar:2.0.0-beta.5:test

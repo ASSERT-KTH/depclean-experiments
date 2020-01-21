@@ -1,0 +1,49 @@
+com.github.bordertech.wcomponents:wcomponents-addons-table:jar:1.0.1
++- com.github.bordertech.wcomponents:wcomponents-addons-common:jar:1.0.1:compile
+|  \- com.github.bordertech.wcomponents:wcomponents-core:jar:1.4.22:compile
+|     +- com.github.bordertech.wcomponents:wcomponents-i18n:jar:1.4.22:compile
+|     +- commons-logging:commons-logging:jar:1.1.1:compile
+|     +- org.apache.commons:commons-lang3:jar:3.4:compile
+|     +- commons-configuration:commons-configuration:jar:1.6:compile
+|     |  +- (commons-collections:commons-collections:jar:3.2.1:compile - omitted for conflict with 3.2.2)
+|     |  +- commons-lang:commons-lang:jar:2.4:compile
+|     |  +- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for duplicate)
+|     |  +- commons-digester:commons-digester:jar:1.8:compile
+|     |  |  +- (commons-beanutils:commons-beanutils:jar:1.7.0:compile - omitted for duplicate)
+|     |  |  \- (commons-logging:commons-logging:jar:1.1:compile - omitted for conflict with 1.1.1)
+|     |  \- commons-beanutils:commons-beanutils-core:jar:1.8.0:compile
+|     |     \- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for duplicate)
+|     +- commons-beanutils:commons-beanutils:jar:1.7.0:compile
+|     |  \- (commons-logging:commons-logging:jar:1.0.3:compile - omitted for conflict with 1.1.1)
+|     +- commons-collections:commons-collections:jar:3.2.2:compile
+|     +- commons-fileupload:commons-fileupload:jar:1.3.2:compile
+|     |  \- (commons-io:commons-io:jar:2.2:compile - omitted for conflict with 1.3.2)
+|     +- commons-io:commons-io:jar:1.3.2:compile
+|     +- net.sourceforge.saxon:saxon:jar:9.1.0.8:compile
+|     +- net.sourceforge.saxon:saxon:jar:dom:9.1.0.8:runtime
+|     +- com.github.jknack:handlebars:jar:4.0.3:compile
+|     |  +- (org.apache.commons:commons-lang3:jar:3.4:compile - version managed from 3.1; omitted for duplicate)
+|     |  +- org.antlr:antlr4-runtime:jar:4.5.1-1:compile
+|     |  +- org.mozilla:rhino:jar:1.7R4:compile
+|     |  \- org.slf4j:slf4j-api:jar:1.6.4:compile
+|     +- velocity:velocity:jar:1.4:compile
+|     |  \- velocity:velocity-dep:jar:1.4:runtime
+|     +- javax.cache:cache-api:jar:1.0.0:compile
+|     +- com.google.code.gson:gson:jar:2.6.2:compile
+|     +- org.owasp.antisamy:antisamy:jar:1.5.3:compile
+|     |  +- org.apache.xmlgraphics:batik-css:jar:1.7:compile
+|     |  |  +- org.apache.xmlgraphics:batik-ext:jar:1.7:compile
+|     |  |  |  \- (xml-apis:xml-apis:jar:1.3.04:compile - omitted for duplicate)
+|     |  |  +- org.apache.xmlgraphics:batik-util:jar:1.7:compile
+|     |  |  +- xml-apis:xml-apis:jar:1.3.04:compile
+|     |  |  \- xml-apis:xml-apis-ext:jar:1.3.04:compile
+|     |  +- net.sourceforge.nekohtml:nekohtml:jar:1.9.16:compile
+|     |  |  \- xerces:xercesImpl:jar:2.9.1:compile
+|     |  |     \- (xml-apis:xml-apis:jar:1.3.04:compile - omitted for duplicate)
+|     |  \- commons-httpclient:commons-httpclient:jar:3.1:compile
+|     |     +- (commons-logging:commons-logging:jar:1.0.4:compile - omitted for conflict with 1.1.1)
+|     |     \- commons-codec:commons-codec:jar:1.2:compile
+|     +- au.com.flyingkite:mobiledetect:jar:1.1.1:compile
+|     \- com.github.spullara.mustache.java:compiler:jar:0.8.18:compile
+|        \- com.google.guava:guava:jar:16.0.1:compile
+\- javax.servlet:servlet-api:jar:2.5:provided

@@ -1,0 +1,39 @@
+com.sabre.oss.yare:yare-invoker-js:jar:0.1
++- com.sabre.oss.yare:yare-core:jar:0.1:compile
+|  +- com.sabre.oss.yare:yare-model:jar:0.1:compile
+|  +- javax.inject:javax.inject:jar:1:compile
+|  \- org.slf4j:slf4j-api:jar:1.7.25:compile
++- com.sabre.oss.yare:yare-dsl:jar:0.1:test
+|  +- (com.sabre.oss.yare:yare-core:jar:0.1:test - omitted for duplicate)
+|  +- com.sabre.oss.yare:yare-model-converters:jar:0.1:test
+|  |  \- (com.sabre.oss.yare:yare-model:jar:0.1:test - omitted for duplicate)
+|  +- com.sabre.oss.yare:yare-model-validators:jar:0.1:test
+|  |  +- (com.sabre.oss.yare:yare-model:jar:0.1:test - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:24.1-jre:test - omitted for duplicate)
+|  |  \- (org.apache.commons:commons-lang3:jar:3.7:test - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)
+|  +- com.google.guava:guava:jar:24.1-jre:test
+|  |  +- com.google.code.findbugs:jsr305:jar:1.3.9:test
+|  |  +- org.checkerframework:checker-compat-qual:jar:2.0.0:test
+|  |  +- com.google.errorprone:error_prone_annotations:jar:2.1.3:test
+|  |  +- com.google.j2objc:j2objc-annotations:jar:1.1:test
+|  |  \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:test
+|  +- org.apache.commons:commons-lang3:jar:3.7:test
+|  +- javax.validation:validation-api:jar:2.0.1.Final:test
+|  \- org.hibernate.validator:hibernate-validator:jar:6.0.9.Final:test
+|     +- (javax.validation:validation-api:jar:2.0.1.Final:test - omitted for duplicate)
+|     +- org.jboss.logging:jboss-logging:jar:3.3.2.Final:test
+|     \- com.fasterxml:classmate:jar:1.3.4:test
++- com.sabre.oss.yare:yare-engine:jar:0.1:test
+|  +- (com.sabre.oss.yare:yare-core:jar:0.1:test - omitted for duplicate)
+|  +- (com.sabre.oss.yare:yare-dsl:jar:0.1:test - omitted for duplicate)
+|  +- org.javassist:javassist:jar:3.22.0-GA:test
+|  +- (com.google.guava:guava:jar:24.1-jre:test - omitted for duplicate)
+|  +- (org.apache.commons:commons-lang3:jar:3.7:test - omitted for duplicate)
+|  \- commons-collections:commons-collections:jar:3.2.2:test
++- org.junit.jupiter:junit-jupiter-api:jar:5.1.1:test
+|  +- org.apiguardian:apiguardian-api:jar:1.0.0:test
+|  +- org.opentest4j:opentest4j:jar:1.0.0:test
+|  \- org.junit.platform:junit-platform-commons:jar:1.1.1:test
+|     \- (org.apiguardian:apiguardian-api:jar:1.0.0:test - omitted for duplicate)
+\- org.assertj:assertj-core:jar:3.9.1:test

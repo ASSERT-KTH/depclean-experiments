@@ -1,0 +1,14 @@
+org.scalaz:testz-extras_2.12:jar:0.0.4
++- org.scala-lang:scala-library:jar:2.12.4:compile
++- org.scalaz:testz-core_2.12:jar:0.0.4:compile
+|  \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
++- org.scalaz:testz-stdlib_2.12:jar:0.0.4:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  +- (org.scalaz:testz-core_2.12:jar:0.0.4:compile - omitted for duplicate)
+|  \- org.scalaz:testz-util_2.12:jar:0.0.4:compile
+|     \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
++- org.openjdk.jmh:jmh-core:jar:1.21:compile
+|  +- net.sf.jopt-simple:jopt-simple:jar:4.6:compile
+|  \- org.apache.commons:commons-math3:jar:3.2:compile
+\- org.openjdk.jmh:jmh-generator-reflection:jar:1.21:compile
+   \- (org.openjdk.jmh:jmh-core:jar:1.21:compile - omitted for duplicate)

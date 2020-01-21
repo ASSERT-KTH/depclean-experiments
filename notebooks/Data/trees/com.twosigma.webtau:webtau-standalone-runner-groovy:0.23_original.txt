@@ -1,0 +1,25 @@
+com.twosigma.webtau:webtau-standalone-runner-groovy:jar:0.23
++- com.twosigma.webtau:webtau-core-groovy:jar:0.23:compile
+|  +- com.twosigma.webtau:webtau-core:jar:0.23:compile
+|  |  +- com.twosigma.webtau:webtau-console:jar:0.23:compile
+|  |  |  \- (com.twosigma.webtau:webtau-utils:jar:0.23:compile - omitted for duplicate)
+|  |  +- (org.codehaus.groovy:groovy-all:jar:2.4.12:compile - omitted for duplicate)
+|  |  \- org.apache.commons:commons-lang3:jar:3.5:compile
+|  +- com.twosigma.webtau:webtau-groovy-ast:jar:0.23:compile
+|  |  +- (com.twosigma.webtau:webtau-core:jar:0.23:compile - omitted for duplicate)
+|  |  \- (org.codehaus.groovy:groovy-all:jar:2.4.12:compile - omitted for duplicate)
+|  \- (org.codehaus.groovy:groovy-all:jar:2.4.12:compile - omitted for duplicate)
++- com.twosigma.webtau:webtau-report:jar:0.23:compile
+|  +- (com.twosigma.webtau:webtau-core:jar:0.23:compile - omitted for duplicate)
+|  +- com.twosigma.webtau:webtau-config:jar:0.23:compile
+|  |  \- (com.twosigma.webtau:webtau-console:jar:0.23:compile - omitted for duplicate)
+|  +- com.twosigma.webtau:webtau-utils:jar:0.23:compile
+|  |  +- commons-io:commons-io:jar:2.5:compile
+|  |  \- com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile
+|  |     +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+|  |     \- com.fasterxml.jackson.core:jackson-core:jar:2.9.5:compile
+|  \- com.twosigma.webtau:webtau-reactjs:jar:0.23:compile
++- commons-cli:commons-cli:jar:1.3.1:compile
++- org.codehaus.groovy:groovy-all:jar:2.4.12:compile
+\- junit:junit:jar:4.12:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

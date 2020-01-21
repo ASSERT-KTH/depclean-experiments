@@ -1,0 +1,3 @@
+org.webjars.npm:external-editor:jar:2.2.0
+\- org.webjars.npm:iconv-lite:jar:0.4.24:compile
+   \- org.webjars.npm:safer-buffer:jar:2.1.2:compile

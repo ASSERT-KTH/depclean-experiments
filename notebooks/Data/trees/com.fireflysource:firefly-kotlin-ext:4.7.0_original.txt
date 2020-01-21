@@ -1,0 +1,71 @@
+com.fireflysource:firefly-kotlin-ext:jar:4.7.0
++- com.fireflysource:firefly:jar:4.7.0:compile
+|  +- com.fireflysource:firefly-common:jar:4.7.0:compile
+|  |  \- org.javassist:javassist:jar:3.21.0-GA:compile
+|  +- com.fireflysource:firefly-nettool:jar:4.7.0:compile
+|  |  +- (com.fireflysource:firefly-common:jar:4.7.0:compile - omitted for duplicate)
+|  |  +- (io.dropwizard.metrics:metrics-core:jar:3.2.5:compile - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.22; omitted for duplicate)
+|  |  +- org.eclipse.jetty.alpn:alpn-api:jar:1.1.3.v20160715:compile
+|  |  +- org.mortbay.jetty.alpn:alpn-boot:jar:8.1.11.v20170118:compile
+|  |  +- io.netty:netty-tcnative-boringssl-static:jar:2.0.7.Final:compile
+|  |  +- org.conscrypt:conscrypt-openjdk-uber:jar:1.0.0.RC14:compile
+|  |  +- io.protostuff:protostuff-api:jar:1.6.0:compile
+|  |  +- io.protostuff:protostuff-core:jar:1.6.0:compile
+|  |  |  \- (io.protostuff:protostuff-api:jar:1.6.0:compile - omitted for duplicate)
+|  |  +- io.protostuff:protostuff-collectionschema:jar:1.6.0:compile
+|  |  |  \- (io.protostuff:protostuff-api:jar:1.6.0:compile - omitted for duplicate)
+|  |  \- io.protostuff:protostuff-runtime:jar:1.6.0:compile
+|  |     +- (io.protostuff:protostuff-api:jar:1.6.0:compile - omitted for duplicate)
+|  |     \- (io.protostuff:protostuff-collectionschema:jar:1.6.0:compile - omitted for duplicate)
+|  +- io.dropwizard.metrics:metrics-core:jar:3.2.5:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.22; omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.22; omitted for duplicate)
+|  +- javax.servlet:javax.servlet-api:jar:3.1.0:compile
+|  \- com.github.spullara.mustache.java:compiler:jar:0.9.5:compile
++- com.fireflysource:firefly-db:jar:4.7.0:compile
+|  +- (com.fireflysource:firefly-common:jar:4.7.0:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.22; omitted for duplicate)
+|  +- (io.dropwizard.metrics:metrics-core:jar:3.2.5:compile - omitted for duplicate)
+|  +- com.github.vladimir-bukhtoyarov:rolling-metrics:jar:2.0.3:compile
+|  +- org.hdrhistogram:HdrHistogram:jar:2.1.10:compile
+|  \- commons-dbutils:commons-dbutils:jar:1.7:compile
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- com.fireflysource:firefly-slf4j:jar:4.7.0:test
+|  +- (com.fireflysource:firefly-common:jar:4.7.0:test - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:test - version managed from 1.7.22; omitted for duplicate)
++- org.jetbrains.kotlin:kotlin-stdlib-jdk8:jar:1.2.10:compile
+|  +- org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.10:compile
+|  |  \- org.jetbrains:annotations:jar:13.0:compile
+|  \- org.jetbrains.kotlin:kotlin-stdlib-jdk7:jar:1.2.10:compile
+|     \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.10:compile - omitted for duplicate)
++- org.jetbrains.kotlin:kotlin-reflect:jar:1.2.10:compile
+|  \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.10:compile - omitted for duplicate)
++- org.jetbrains.kotlinx:kotlinx-coroutines-core:jar:0.21:compile
+|  \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.10:compile - omitted for duplicate)
++- org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:jar:0.21:compile
+|  +- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.10:compile - omitted for duplicate)
+|  \- (org.jetbrains.kotlinx:kotlinx-coroutines-core:jar:0.21:compile - omitted for duplicate)
++- org.jetbrains.kotlinx:kotlinx-coroutines-reactor:jar:0.21:compile
+|  +- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.10:compile - omitted for duplicate)
+|  +- (org.jetbrains.kotlinx:kotlinx-coroutines-core:jar:0.21:compile - omitted for duplicate)
+|  +- io.projectreactor:reactor-core:jar:3.1.2.RELEASE:compile (version managed from 3.1.0.RELEASE)
+|  |  \- org.reactivestreams:reactive-streams:jar:1.0.1:compile
+|  \- org.jetbrains.kotlinx:kotlinx-coroutines-reactive:jar:0.21:compile
+|     +- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.10:compile - omitted for duplicate)
+|     +- (org.jetbrains.kotlinx:kotlinx-coroutines-core:jar:0.21:compile - omitted for duplicate)
+|     \- (org.reactivestreams:reactive-streams:jar:1.0.1:compile - version managed from 1.0.0; omitted for duplicate)
++- org.jetbrains.kotlin:kotlin-test-junit:jar:1.2.10:test
+|  +- org.jetbrains.kotlin:kotlin-test:jar:1.2.10:test
+|  |  \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.10:test - omitted for duplicate)
+|  \- (junit:junit:jar:4.12:test - omitted for duplicate)
++- com.zaxxer:HikariCP:jar:2.7.2:test
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:test - version managed from 1.7.22; omitted for duplicate)
++- com.h2database:h2:jar:1.4.196:test
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.hamcrest:hamcrest-all:jar:1.3:test
+\- org.mockito:mockito-core:jar:2.10.0:test
+   +- net.bytebuddy:byte-buddy:jar:1.7.4:test
+   +- net.bytebuddy:byte-buddy-agent:jar:1.7.4:test
+   \- org.objenesis:objenesis:jar:2.6:test

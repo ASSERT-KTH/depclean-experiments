@@ -1,0 +1,4 @@
+org.apache.hive:hive-classification:jar:3.1.0
++- org.slf4j:slf4j-api:jar:1.7.10:compile
++- org.apache.hive:hive-upgrade-acid:jar:3.1.0:compile
+\- org.mockito:mockito-all:jar:1.10.19:test

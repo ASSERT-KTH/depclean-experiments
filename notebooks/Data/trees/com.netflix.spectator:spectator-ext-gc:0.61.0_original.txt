@@ -1,0 +1,4 @@
+com.netflix.spectator:spectator-ext-gc:jar:0.61.0
++- org.slf4j:slf4j-api:jar:1.7.25:compile
+\- com.netflix.spectator:spectator-api:jar:0.61.0:compile
+   \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)

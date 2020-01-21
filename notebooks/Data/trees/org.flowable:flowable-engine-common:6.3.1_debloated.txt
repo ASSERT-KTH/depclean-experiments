@@ -1,0 +1,16 @@
+org.flowable:flowable-engine-common:jar:6.3.1
++- org.flowable:flowable-engine-common-api:jar:6.3.1:compile
+|  \- org.apache.commons:commons-lang3:jar:3.7:compile
++- org.flowable:flowable-variable-service-api:jar:6.3.1:compile
+|  \- (org.flowable:flowable-engine-common-api:jar:6.3.1:compile - omitted for duplicate)
++- org.mybatis:mybatis:jar:3.4.5:compile
++- org.springframework:spring-beans:jar:4.3.14.RELEASE:compile
+|  \- org.springframework:spring-core:jar:4.3.14.RELEASE:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.8.11.1:compile
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.11:compile (version managed from 2.8.0)
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.8.11:compile - version managed from 2.8.10; omitted for duplicate)
++- com.fasterxml.uuid:java-uuid-generator:jar:3.1.5:provided
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- joda-time:joda-time:jar:2.9.9:compile
++- javax.persistence:persistence-api:jar:1.0:provided
+\- org.apache.geronimo.specs:geronimo-jta_1.1_spec:jar:1.1.1:provided

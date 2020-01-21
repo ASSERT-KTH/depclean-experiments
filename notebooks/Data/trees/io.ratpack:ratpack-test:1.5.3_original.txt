@@ -1,0 +1,46 @@
+io.ratpack:ratpack-test:jar:1.5.3
+\- io.ratpack:ratpack-core:jar:1.5.3:compile
+   +- io.ratpack:ratpack-exec:jar:1.5.3:compile
+   |  +- io.ratpack:ratpack-base:jar:1.5.3:compile
+   |  |  +- com.google.guava:guava:jar:21.0:compile
+   |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+   |  +- org.slf4j:slf4j-api:jar:1.7.25:compile
+   |  +- io.netty:netty-buffer:jar:4.1.21.Final:compile
+   |  |  \- io.netty:netty-common:jar:4.1.21.Final:compile
+   |  +- io.netty:netty-transport-native-epoll:jar:linux-x86_64:4.1.21.Final:compile
+   |  |  +- (io.netty:netty-common:jar:4.1.21.Final:compile - omitted for duplicate)
+   |  |  +- (io.netty:netty-buffer:jar:4.1.21.Final:compile - omitted for duplicate)
+   |  |  +- io.netty:netty-transport-native-unix-common:jar:4.1.21.Final:compile
+   |  |  |  +- (io.netty:netty-common:jar:4.1.21.Final:compile - omitted for duplicate)
+   |  |  |  \- (io.netty:netty-transport:jar:4.1.21.Final:compile - omitted for duplicate)
+   |  |  \- (io.netty:netty-transport:jar:4.1.21.Final:compile - omitted for duplicate)
+   |  \- org.reactivestreams:reactive-streams:jar:1.0.0.final:compile
+   +- io.netty:netty-codec-http:jar:4.1.21.Final:compile
+   |  \- io.netty:netty-codec:jar:4.1.21.Final:compile
+   |     \- (io.netty:netty-transport:jar:4.1.21.Final:compile - omitted for duplicate)
+   +- io.netty:netty-handler:jar:4.1.21.Final:compile
+   |  +- (io.netty:netty-buffer:jar:4.1.21.Final:compile - omitted for duplicate)
+   |  +- io.netty:netty-transport:jar:4.1.21.Final:compile
+   |  |  +- (io.netty:netty-buffer:jar:4.1.21.Final:compile - omitted for duplicate)
+   |  |  \- io.netty:netty-resolver:jar:4.1.21.Final:compile
+   |  |     \- (io.netty:netty-common:jar:4.1.21.Final:compile - omitted for duplicate)
+   |  \- (io.netty:netty-codec:jar:4.1.21.Final:compile - omitted for duplicate)
+   +- com.github.ben-manes.caffeine:caffeine:jar:2.4.0:compile
+   +- org.javassist:javassist:jar:3.19.0-GA:compile
+   +- com.fasterxml.jackson.core:jackson-databind:jar:2.9.4:compile
+   |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+   |  \- com.fasterxml.jackson.core:jackson-core:jar:2.9.4:compile
+   +- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.9.4:compile
+   |  +- (org.yaml:snakeyaml:jar:1.18:compile - omitted for duplicate)
+   |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.4:compile - omitted for duplicate)
+   +- com.fasterxml.jackson.datatype:jackson-datatype-guava:jar:2.9.4:compile
+   |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.4:compile - omitted for duplicate)
+   |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.4:compile - omitted for duplicate)
+   +- org.yaml:snakeyaml:jar:1.18:compile
+   +- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.4:compile
+   |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.4:compile - omitted for duplicate)
+   |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.4:compile - omitted for duplicate)
+   \- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.4:compile
+      +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile - omitted for duplicate)
+      +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.4:compile - omitted for duplicate)
+      \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.4:compile - omitted for duplicate)

@@ -1,0 +1,9 @@
+io.micronaut:runtime-groovy:jar:1.0.0.M4
++- org.codehaus.groovy:groovy:jar:2.5.1:compile
+\- io.micronaut:inject:jar:1.0.0.M4:compile
+   +- javax.inject:javax.inject:jar:1:compile
+   +- io.micronaut:core:jar:1.0.0.M4:compile
+   |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+   |  +- org.reactivestreams:reactive-streams:jar:1.0.1:compile
+   |  \- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+   \- org.yaml:snakeyaml:jar:1.20:compile

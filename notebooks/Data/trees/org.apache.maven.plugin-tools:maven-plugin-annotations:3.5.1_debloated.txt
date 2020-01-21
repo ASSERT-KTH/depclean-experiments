@@ -1,0 +1,4 @@
+org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.5.1
++- junit:junit:jar:3.8.2:test
+\- org.easytesting:fest-assert:jar:1.4:test
+   \- org.easytesting:fest-util:jar:1.1.6:test

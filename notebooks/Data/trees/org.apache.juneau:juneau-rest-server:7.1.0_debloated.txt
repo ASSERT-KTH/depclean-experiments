@@ -1,0 +1,9 @@
+org.apache.juneau:juneau-rest-server:bundle:7.1.0
++- org.apache.juneau:juneau-marshall:jar:7.1.0:compile
++- org.apache.juneau:juneau-config:jar:7.1.0:compile
+|  +- (org.apache.juneau:juneau-marshall:jar:7.1.0:compile - omitted for duplicate)
+|  \- org.apache.juneau:juneau-svl:jar:7.1.0:compile
+|     \- (org.apache.juneau:juneau-marshall:jar:7.1.0:compile - omitted for duplicate)
++- org.apache.juneau:juneau-dto:jar:7.1.0:compile
+|  \- (org.apache.juneau:juneau-marshall:jar:7.1.0:compile - omitted for duplicate)
+\- javax.servlet:javax.servlet-api:jar:3.1.0:provided

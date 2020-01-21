@@ -1,0 +1,56 @@
+org.igniterealtime.smack:smack-integration-test:jar:4.4.0-alpha1
++- org.igniterealtime.smack:smack-java7:jar:4.4.0-alpha1:compile
+|  +- org.igniterealtime.smack:smack-core:jar:4.4.0-alpha1:compile
+|  |  +- xpp3:xpp3:jar:1.1.4c:compile
+|  |  +- org.jxmpp:jxmpp-core:jar:0.6.2:compile
+|  |  |  \- org.jxmpp:jxmpp-util-cache:jar:0.6.2:compile
+|  |  +- org.jxmpp:jxmpp-jid:jar:0.6.2:compile
+|  |  |  +- (org.jxmpp:jxmpp-core:jar:0.6.2:compile - omitted for duplicate)
+|  |  |  \- (org.jxmpp:jxmpp-util-cache:jar:0.6.2:compile - omitted for duplicate)
+|  |  \- org.minidns:minidns-core:jar:0.3.0:compile
+|  +- org.igniterealtime.smack:smack-resolver-javax:jar:4.4.0-alpha1:compile
+|  |  \- (org.igniterealtime.smack:smack-core:jar:4.4.0-alpha1:compile - omitted for duplicate)
+|  \- org.igniterealtime.smack:smack-sasl-javax:jar:4.4.0-alpha1:compile
+|     \- (org.igniterealtime.smack:smack-core:jar:4.4.0-alpha1:compile - omitted for duplicate)
++- org.igniterealtime.smack:smack-tcp:jar:4.4.0-alpha1:compile
+|  \- (org.igniterealtime.smack:smack-core:jar:4.4.0-alpha1:compile - omitted for duplicate)
++- org.igniterealtime.smack:smack-extensions:jar:4.4.0-alpha1:compile
+|  +- (org.igniterealtime.smack:smack-core:jar:4.4.0-alpha1:compile - omitted for duplicate)
+|  \- org.igniterealtime.smack:smack-im:jar:4.4.0-alpha1:compile
+|     \- (org.igniterealtime.smack:smack-core:jar:4.4.0-alpha1:compile - omitted for duplicate)
++- org.igniterealtime.smack:smack-experimental:jar:4.4.0-alpha1:compile
+|  +- (org.igniterealtime.smack:smack-core:jar:4.4.0-alpha1:compile - omitted for duplicate)
+|  +- (org.igniterealtime.smack:smack-extensions:jar:4.4.0-alpha1:compile - omitted for duplicate)
+|  \- org.bouncycastle:bcprov-jdk15on:jar:1.57:compile
++- org.igniterealtime.smack:smack-omemo:jar:4.4.0-alpha1:compile
+|  +- (org.igniterealtime.smack:smack-im:jar:4.4.0-alpha1:compile - omitted for duplicate)
+|  +- (org.igniterealtime.smack:smack-extensions:jar:4.4.0-alpha1:compile - omitted for duplicate)
+|  +- (org.igniterealtime.smack:smack-experimental:jar:4.4.0-alpha1:compile - omitted for duplicate)
+|  \- (org.bouncycastle:bcprov-jdk15on:jar:1.59:compile - omitted for conflict with 1.57)
++- org.igniterealtime.smack:smack-debug:jar:4.4.0-alpha1:compile
+|  \- (org.igniterealtime.smack:smack-core:jar:4.4.0-alpha1:compile - omitted for duplicate)
++- org.igniterealtime.smack:smack-omemo:jar:tests:4.4.0-alpha1:compile
+|  +- (org.igniterealtime.smack:smack-im:jar:4.4.0-alpha1:compile - omitted for duplicate)
+|  +- (org.igniterealtime.smack:smack-extensions:jar:4.4.0-alpha1:compile - omitted for duplicate)
+|  +- (org.igniterealtime.smack:smack-experimental:jar:4.4.0-alpha1:compile - omitted for duplicate)
+|  \- (org.bouncycastle:bcprov-jdk15on:jar:1.59:compile - omitted for conflict with 1.57)
++- org.reflections:reflections:jar:0.9.9-RC1:compile
+|  +- com.google.guava:guava:jar:11.0.2:compile
+|  |  \- com.google.code.findbugs:jsr305:jar:1.3.9:compile
+|  +- org.javassist:javassist:jar:3.16.1-GA:compile
+|  \- dom4j:dom4j:jar:1.6.1:compile
+|     \- xml-apis:xml-apis:jar:1.0.b2:compile
++- eu.geekplace.javapinning:java-pinning-java7:jar:1.1.0-alpha1:compile
+|  \- eu.geekplace.javapinning:java-pinning-jar:jar:1.1.0-alpha1:compile
++- org.junit.vintage:junit-vintage-engine:jar:5.2.0:compile
+|  +- org.apiguardian:apiguardian-api:jar:1.0.0:compile
+|  +- org.junit.platform:junit-platform-engine:jar:1.2.0:compile
+|  |  +- (org.apiguardian:apiguardian-api:jar:1.0.0:compile - omitted for duplicate)
+|  |  +- org.junit.platform:junit-platform-commons:jar:1.2.0:compile
+|  |  |  \- (org.apiguardian:apiguardian-api:jar:1.0.0:compile - omitted for duplicate)
+|  |  \- org.opentest4j:opentest4j:jar:1.1.0:compile
+|  \- junit:junit:jar:4.12:runtime
+|     \- org.hamcrest:hamcrest-core:jar:1.3:runtime
+\- org.jxmpp:jxmpp-jid:jar:tests:0.6.2:test
+   +- (org.jxmpp:jxmpp-core:jar:0.6.2:compile - scope updated from test; omitted for duplicate)
+   \- (org.jxmpp:jxmpp-util-cache:jar:0.6.2:compile - scope updated from test; omitted for duplicate)

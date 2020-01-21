@@ -1,0 +1,2 @@
+org.scalameta:semanticdb-scalac_2.12.4:jar:3.7.3
+\- org.scala-lang:scala-library:jar:2.12.4:compile

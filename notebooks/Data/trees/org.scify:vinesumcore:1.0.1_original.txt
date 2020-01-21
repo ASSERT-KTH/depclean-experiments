@@ -1,0 +1,10 @@
+org.scify:vinesumcore:jar:1.0.1
++- org.apache.opennlp:opennlp-tools:jar:1.5.3:compile
+|  +- org.apache.opennlp:opennlp-maxent:jar:3.0.3:compile
+|  \- net.sf.jwordnet:jwnl:jar:1.3.3:compile
++- org.apache.opennlp:opennlp-uima:jar:1.5.3:compile
+|  \- (org.apache.opennlp:opennlp-tools:jar:1.5.3:compile - omitted for duplicate)
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- gr.demokritos:JInsect:jar:1.1:compile
+\- salvo.jesus:OpenJGraph:jar:1.1:compile

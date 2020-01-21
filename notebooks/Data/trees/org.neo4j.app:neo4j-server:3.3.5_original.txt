@@ -1,0 +1,111 @@
+org.neo4j.app:neo4j-server:jar:3.3.5
++- org.neo4j:neo4j:pom:3.3.5:compile
+|  +- org.neo4j:neo4j-lucene-index:jar:3.3.5:compile
+|  |  +- org.apache.lucene:lucene-analyzers-common:jar:5.5.0:compile
+|  |  +- org.apache.lucene:lucene-core:jar:5.5.0:compile
+|  |  +- org.apache.lucene:lucene-queryparser:jar:5.5.0:compile
+|  |  \- org.apache.lucene:lucene-codecs:jar:5.5.0:compile
+|  +- org.neo4j:neo4j-graph-algo:jar:3.3.5:compile
+|  +- org.neo4j:neo4j-udc:jar:3.3.5:compile
+|  +- org.neo4j:neo4j-jmx:jar:3.3.5:compile
+|  \- org.neo4j:neo4j-consistency-check:jar:3.3.5:compile
++- org.neo4j:neo4j-kernel:jar:3.3.5:compile
+|  +- org.neo4j:neo4j-graphdb-api:jar:3.3.5:compile
+|  |  \- org.neo4j:neo4j-resource:jar:3.3.5:compile
+|  +- org.neo4j:neo4j-common:jar:3.3.5:compile
+|  +- org.neo4j:neo4j-values:jar:3.3.5:compile
+|  +- org.neo4j:neo4j-collections:jar:3.3.5:compile
+|  +- org.neo4j:neo4j-primitive-collections:jar:3.3.5:compile
+|  +- org.neo4j:neo4j-io:jar:3.3.5:compile
+|  +- org.neo4j:neo4j-csv:jar:3.3.5:compile
+|  +- org.neo4j:neo4j-logging:jar:3.3.5:compile
+|  +- org.neo4j:neo4j-lucene-upgrade:jar:3.3.5:compile
+|  |  \- org.apache.lucene:lucene-backward-codecs:jar:5.5.0:compile
+|  +- org.neo4j:neo4j-configuration:jar:3.3.5:compile
+|  +- org.neo4j:neo4j-index:jar:3.3.5:compile
+|  \- org.neo4j:neo4j-ssl:jar:3.3.5:compile
++- org.neo4j:neo4j-security:jar:3.3.5:compile
++- org.neo4j:neo4j-dbms:jar:3.3.5:compile
+|  +- org.neo4j:neo4j-import-tool:jar:3.3.5:compile
+|  \- org.apache.commons:commons-compress:jar:1.12:compile
++- org.neo4j:neo4j-command-line:jar:3.3.5:compile
+|  \- org.apache.commons:commons-text:jar:1.1:compile
++- org.neo4j:server-api:jar:3.3.5:compile
+|  \- org.neo4j.3rdparty.javax.ws.rs:jsr311-api:jar:1.1.2.r612:compile
++- org.neo4j:neo4j-cypher:jar:3.3.5:compile
+|  +- org.scala-lang:scala-library:jar:2.11.12:compile
+|  +- org.scala-lang:scala-reflect:jar:2.11.12:compile
+|  +- org.neo4j:neo4j-graph-matching:jar:3.1.6:compile
+|  +- org.neo4j:neo4j-codegen:jar:3.3.5:compile
+|  |  +- org.ow2.asm:asm:jar:5.2:compile
+|  |  +- org.ow2.asm:asm-util:jar:5.2:compile
+|  |  +- org.ow2.asm:asm-analysis:jar:5.2:compile
+|  |  \- org.ow2.asm:asm-tree:jar:5.2:compile
+|  +- org.neo4j:neo4j-cypher-compiler-2.3:jar:2.3.12:compile
+|  |  +- org.neo4j:neo4j-cypher-frontend-2.3:jar:2.3.12:compile
+|  |  \- com.googlecode.concurrentlinkedhashmap:concurrentlinkedhashmap-lru:jar:1.4.2:compile
+|  +- org.neo4j:neo4j-cypher-compiler-3.1:jar:3.1.8:compile
+|  |  +- org.neo4j:neo4j-cypher-frontend-3.1:jar:3.1.8:compile
+|  |  \- com.github.ben-manes.caffeine:caffeine:jar:2.3.3:compile
+|  +- org.neo4j:neo4j-cypher-compiler-3.2:jar:3.2.10:compile
+|  |  +- org.neo4j:neo4j-cypher-frontend-3.2:jar:3.2.10:compile
+|  |  \- org.neo4j:neo4j-cypher-ir-3.2:jar:3.2.10:compile
+|  +- org.neo4j:neo4j-cypher-compiler-3.3:jar:3.3.5:compile
+|  |  +- org.neo4j:neo4j-cypher-frontend-3.3:jar:3.3.5:compile
+|  |  +- org.neo4j:neo4j-cypher-ir-3.3:jar:3.3.5:compile
+|  |  \- org.neo4j:neo4j-cypher-logical-plans-3.3:jar:3.3.5:compile
+|  +- org.parboiled:parboiled-scala_2.11:jar:1.1.7:compile
+|  |  \- org.parboiled:parboiled-core:jar:1.1.7:compile
+|  +- net.sf.opencsv:opencsv:jar:2.3:compile
+|  \- org.apache.commons:commons-lang3:jar:3.5:compile
++- org.neo4j:neo4j-bolt:jar:3.3.5:compile
+|  +- org.neo4j:neo4j:jar:3.3.5:compile
+|  +- io.netty:netty-all:jar:4.1.21.Final:compile
+|  \- org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:compile
++- org.neo4j.client:neo4j-browser:jar:3.1.7:compile
++- org.neo4j:neo4j-shell:jar:3.3.5:compile
+|  \- jline:jline:jar:2.12:compile
++- com.google.code.findbugs:annotations:jar:3.0.1:provided
+|  +- net.jcip:jcip-annotations:jar:1.0:provided
+|  \- com.google.code.findbugs:jsr305:jar:3.0.1:provided
++- org.eclipse.jetty:jetty-server:jar:9.2.22.v20170606:compile
+|  +- javax.servlet:javax.servlet-api:jar:3.1.0:compile
+|  +- org.eclipse.jetty:jetty-http:jar:9.2.22.v20170606:compile
+|  |  \- org.eclipse.jetty:jetty-util:jar:9.2.22.v20170606:compile
+|  \- org.eclipse.jetty:jetty-io:jar:9.2.22.v20170606:compile
++- org.eclipse.jetty:jetty-webapp:jar:9.2.22.v20170606:compile
+|  +- org.eclipse.jetty:jetty-xml:jar:9.2.22.v20170606:compile
+|  \- org.eclipse.jetty:jetty-servlet:jar:9.2.22.v20170606:compile
+|     \- org.eclipse.jetty:jetty-security:jar:9.2.22.v20170606:compile
++- com.sun.jersey:jersey-server:jar:1.19:compile
+|  \- com.sun.jersey:jersey-core:jar:1.19:compile
++- com.sun.jersey:jersey-servlet:jar:1.19:compile
++- commons-configuration:commons-configuration:jar:1.10:compile
+|  +- commons-lang:commons-lang:jar:2.6:compile
+|  \- commons-logging:commons-logging:jar:1.1.1:compile
++- commons-io:commons-io:jar:2.4:compile
++- org.codehaus.jackson:jackson-jaxrs:jar:1.9.13:compile
+|  \- org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile
++- org.mozilla:rhino:jar:1.7R4:compile
++- org.bouncycastle:bcprov-jdk15on:jar:1.53:compile
++- org.bouncycastle:bcpkix-jdk15on:jar:1.53:compile
++- com.sun.jersey.contribs:jersey-multipart:jar:1.19:compile
+|  \- org.jvnet.mimepull:mimepull:jar:1.9.3:compile
++- com.sun.jersey:jersey-client:jar:1.19:test
++- com.google.code.gson:gson:jar:2.2.4:test
++- org.apache.httpcomponents:httpclient:jar:4.5.2:test
+|  \- commons-codec:commons-codec:jar:1.9:test
++- org.apache.httpcomponents:httpcore:jar:4.4.5:test
++- org.neo4j:neo4j-kernel:test-jar:tests:3.3.5:test
++- org.neo4j:neo4j-security:test-jar:tests:3.3.5:test
++- org.neo4j:neo4j-logging:test-jar:tests:3.3.5:test
++- org.neo4j:neo4j-common:test-jar:tests:3.3.5:test
++- org.neo4j:neo4j-io:test-jar:tests:3.3.5:test
+|  \- org.neo4j:neo4j-unsafe:jar:3.3.5:compile
++- org.neo4j:neo4j-bolt:test-jar:tests:3.3.5:test
++- junit:junit:jar:4.12:test
++- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.hamcrest:hamcrest-library:jar:1.3:test
++- org.mockito:mockito-core:jar:1.10.19:test
+|  \- org.objenesis:objenesis:jar:2.2:test
+\- org.json:json:jar:20090211:test

@@ -1,0 +1,2 @@
+org.carrot2:morfologik-stemming:bundle:2.1.5
+\- org.carrot2:morfologik-fsa:jar:2.1.5:compile

@@ -1,0 +1,23 @@
+com.opsbears.webcomponents:application:jar:1.0.0-alpha11
++- com.opsbears.webcomponents:dic:jar:1.0.0-alpha11:compile
+|  +- com.opsbears.webcomponents:immutable:jar:1.0.0-alpha11:compile
+|  |  +- (com.google.code.findbugs:jsr305:jar:3.0.2:compile - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  +- javax.inject:javax.inject:jar:1:compile
+|  +- (com.google.code.findbugs:jsr305:jar:3.0.2:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
++- com.opsbears.webcomponents:configuration:jar:1.0.0-alpha11:compile
+|  +- com.opsbears.webcomponents:typeconverter:jar:1.0.0-alpha11:compile
+|  |  +- (com.google.code.findbugs:jsr305:jar:3.0.2:compile - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  +- com.opsbears.webcomponents.typeconverter:builtin:jar:1.0.0-alpha11:compile
+|  |  +- (com.opsbears.webcomponents:immutable:jar:1.0.0-alpha11:compile - omitted for duplicate)
+|  |  +- commons-codec:commons-codec:jar:1.10:compile
+|  |  +- (com.opsbears.webcomponents:typeconverter:jar:1.0.0-alpha11:compile - omitted for duplicate)
+|  |  +- (com.google.code.findbugs:jsr305:jar:3.0.2:compile - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  +- (com.opsbears.webcomponents:immutable:jar:1.0.0-alpha11:compile - omitted for duplicate)
+|  +- (com.google.code.findbugs:jsr305:jar:3.0.2:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
++- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+\- org.slf4j:slf4j-api:jar:1.7.25:compile

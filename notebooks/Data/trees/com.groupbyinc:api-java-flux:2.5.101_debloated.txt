@@ -1,0 +1,27 @@
+com.groupbyinc:api-java-flux:jar:2.5.101
++- com.groupbyinc:common-jackson:jar:142:compile (optional)
++- com.groupbyinc:common-http:jar:142:compile (optional)
++- com.groupbyinc:common-logging:jar:142:compile (optional)
+|  +- commons-logging:commons-logging:jar:1.2:compile (optional)
+|  +- org.apache.logging.log4j:log4j-api:jar:2.11.0:compile (optional)
+|  +- org.apache.logging.log4j:log4j-core:jar:2.11.0:compile (optional)
+|  +- org.apache.logging.log4j:log4j-1.2-api:jar:2.11.0:compile (optional)
+|  +- org.apache.logging.log4j:log4j-web:jar:2.11.0:compile (optional)
+|  +- org.apache.logging.log4j:log4j-slf4j-impl:jar:2.11.0:compile (optional)
+|  +- org.slf4j:slf4j-api:jar:1.7.25:compile (optional)
+|  \- org.slf4j:jcl-over-slf4j:jar:1.7.25:runtime (optional)
++- com.groupbyinc:common-security:jar:142:compile (optional)
+|  +- org.bouncycastle:bcprov-ext-jdk15on:jar:1.59:compile (optional)
+|  \- commons-codec:commons-codec:jar:1.11:compile (optional)
++- javax.servlet:servlet-api:jar:2.5:provided
++- javax.servlet.jsp:jsp-api:jar:2.2:provided
++- com.groupbyinc:common-test:jar:142:test
++- org.httpunit:httpunit:jar:1.7.2:test
+|  +- rhino:js:jar:1.6R5:test
+|  +- nekohtml:nekohtml:jar:0.9.5:test
+|  +- net.sf.jtidy:jtidy:jar:r938:test
+|  \- xerces:xmlParserAPIs:jar:2.6.1:test
++- xerces:xercesImpl:jar:2.12.0:test
+|  \- xml-apis:xml-apis:jar:1.4.01:test
+\- junit:junit:jar:4.12:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

@@ -1,0 +1,35 @@
+com.contactlab.hub:sdk-java:jar:1.4.2
++- org.scala-lang:scala-library:jar:2.12.1:test
++- org.scalatest:scalatest_2.12:jar:3.0.0:test
+|  +- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.1)
+|  +- org.scalactic:scalactic_2.12:jar:3.0.0:test
+|  |  +- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.1)
+|  |  \- (org.scala-lang:scala-reflect:jar:2.12.0:test - omitted for duplicate)
+|  +- org.scala-lang:scala-reflect:jar:2.12.0:test
+|  |  \- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.1)
+|  +- org.scala-lang.modules:scala-xml_2.12:jar:1.0.5:test
+|  |  \- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.1)
+|  \- org.scala-lang.modules:scala-parser-combinators_2.12:jar:1.0.4:test
+|     \- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.1)
++- org.scala-lang.modules:scala-java8-compat_2.11:jar:0.8.0-RC7:test
+|  \- (org.scala-lang:scala-library:jar:2.11.8:test - omitted for conflict with 2.12.1)
++- org.scalacheck:scalacheck_2.12:jar:1.13.4:test
+|  +- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.1)
+|  \- org.scala-sbt:test-interface:jar:1.0:test
++- org.immutables:value:jar:2.3.7:compile
++- com.mashape.unirest:unirest-java:jar:1.4.9:compile
+|  +- org.apache.httpcomponents:httpclient:jar:4.5.2:compile
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.4.4:compile
+|  |  +- commons-logging:commons-logging:jar:1.2:compile
+|  |  \- commons-codec:commons-codec:jar:1.9:compile
+|  +- org.apache.httpcomponents:httpasyncclient:jar:4.1.1:compile
+|  |  +- (org.apache.httpcomponents:httpcore:jar:4.4.4:compile - omitted for duplicate)
+|  |  +- org.apache.httpcomponents:httpcore-nio:jar:4.4.4:compile
+|  |  |  \- (org.apache.httpcomponents:httpcore:jar:4.4.4:compile - omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.1:compile - omitted for conflict with 4.5.2)
+|  |  \- (commons-logging:commons-logging:jar:1.2:compile - omitted for duplicate)
+|  +- org.apache.httpcomponents:httpmime:jar:4.5.2:compile
+|  |  \- (org.apache.httpcomponents:httpclient:jar:4.5.2:compile - omitted for duplicate)
+|  \- org.json:json:jar:20160212:compile
++- com.google.code.gson:gson:jar:2.8.4:compile
+\- com.google.code.findbugs:jsr305:jar:3.0.0:compile

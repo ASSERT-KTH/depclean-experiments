@@ -1,0 +1,5 @@
+net.tascalate.javaflow:net.tascalate.javaflow.tools.runtime:jar:2.3.2
++- net.tascalate.javaflow:net.tascalate.javaflow.spi:jar:2.3.2:compile
++- commons-logging:commons-logging:jar:1.2:compile
+\- junit:junit:jar:4.11:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

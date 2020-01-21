@@ -1,0 +1,3 @@
+com.liferay:com.liferay.gradle.plugins.jsdoc:jar:2.0.8
+\- com.liferay:com.liferay.gradle.plugins.node:jar:4.4.0:compile
+   \- com.liferay:com.liferay.gradle.util:jar:1.0.29:compile

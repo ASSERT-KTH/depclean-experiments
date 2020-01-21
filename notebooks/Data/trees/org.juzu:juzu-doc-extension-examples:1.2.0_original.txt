@@ -1,0 +1,14 @@
+org.juzu:juzu-doc-extension-examples:jar:1.2.0
++- org.juzu:juzu-core:jar:1.2.0:compile
+|  \- org.codehaus.groovy:groovy-all:jar:2.4.11:compile
++- javax.inject:javax.inject:jar:1:provided
++- com.codahale.metrics:metrics-core:jar:3.0.2:compile
+|  \- org.slf4j:slf4j-api:jar:1.5.10:compile (version managed from 1.7.5)
++- junit:junit:jar:4.10:test
+|  \- org.hamcrest:hamcrest-core:jar:1.1:test
++- javax.servlet:javax.servlet-api:jar:3.0.1:test
++- com.google.inject:guice:jar:3.0:test
+|  +- (javax.inject:javax.inject:jar:1:test - omitted for duplicate)
+|  \- aopalliance:aopalliance:jar:1.0:test
+\- org.juzu:juzu-core:test-jar:tests:1.2.0:test
+   \- (org.codehaus.groovy:groovy-all:jar:2.4.11:test - omitted for duplicate)

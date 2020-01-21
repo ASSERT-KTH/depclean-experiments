@@ -1,0 +1,17 @@
+io.chrisdavenport:data-maybe_2.12:jar:0.0.2
++- org.scala-lang:scala-library:jar:2.12.6:compile
+\- org.specs2:specs2-core_2.12:jar:4.2.0:test
+   +- (org.scala-lang:scala-library:jar:2.12.3:test - omitted for conflict with 2.12.6)
+   +- org.specs2:specs2-matcher_2.12:jar:4.2.0:test
+   |  +- (org.scala-lang:scala-library:jar:2.12.3:test - omitted for conflict with 2.12.6)
+   |  \- org.specs2:specs2-common_2.12:jar:4.2.0:test
+   |     +- (org.scala-lang:scala-library:jar:2.12.3:test - omitted for conflict with 2.12.6)
+   |     +- org.specs2:specs2-fp_2.12:jar:4.2.0:test
+   |     |  \- (org.scala-lang:scala-library:jar:2.12.3:test - omitted for conflict with 2.12.6)
+   |     +- org.scala-lang:scala-reflect:jar:2.12.3:test
+   |     |  \- (org.scala-lang:scala-library:jar:2.12.3:test - omitted for conflict with 2.12.6)
+   |     +- org.scala-lang.modules:scala-parser-combinators_2.12:jar:1.1.0:test
+   |     |  \- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for conflict with 2.12.6)
+   |     \- org.scala-lang.modules:scala-xml_2.12:jar:1.0.6:test
+   |        \- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.6)
+   \- org.scala-sbt:test-interface:jar:1.0:test

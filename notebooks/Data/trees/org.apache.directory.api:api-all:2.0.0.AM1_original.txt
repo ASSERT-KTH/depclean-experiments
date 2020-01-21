@@ -1,0 +1,11 @@
+org.apache.directory.api:api-all:jar:2.0.0.AM1
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- org.apache.servicemix.bundles:org.apache.servicemix.bundles.xpp3:jar:1.1.4c_7:compile
++- org.apache.servicemix.bundles:org.apache.servicemix.bundles.dom4j:jar:1.6.1_5:compile
++- xml-apis:xml-apis:jar:1.0.b2:compile
++- org.apache.commons:commons-pool2:jar:2.5.0:compile
++- org.apache.mina:mina-core:jar:2.0.18:compile
++- commons-lang:commons-lang:jar:2.6:compile
++- commons-collections:commons-collections:jar:3.2.2:compile
++- org.apache.servicemix.bundles:org.apache.servicemix.bundles.antlr:jar:2.7.7_5:compile
+\- commons-codec:commons-codec:jar:1.11:compile

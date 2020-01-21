@@ -1,0 +1,18 @@
+com.kotlinnlp:dependencytree:jar:0.3.1
++- org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.41:compile
+|  \- org.jetbrains:annotations:jar:13.0:compile
++- org.jetbrains.kotlin:kotlin-reflect:jar:1.2.41:compile
+|  \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.41:compile - omitted for duplicate)
++- org.jetbrains.kotlin:kotlin-test:jar:1.2.41:test
+|  +- org.jetbrains.kotlin:kotlin-test-common:jar:1.2.41:test
+|  |  \- org.jetbrains.kotlin:kotlin-stdlib-common:jar:1.2.41:test
+|  \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.41:test - omitted for duplicate)
++- org.jetbrains.spek:spek-api:pom:1.1.5:test
+|  +- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.0.6:test - omitted for conflict with 1.2.41)
+|  \- (org.jetbrains.kotlin:kotlin-reflect:jar:1.0.6:test - omitted for conflict with 1.2.41)
+\- org.jetbrains.spek:spek-junit-platform-engine:jar:1.1.5:runtime
+   +- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.0.6:runtime - omitted for conflict with 1.2.41)
+   +- (org.jetbrains.kotlin:kotlin-reflect:jar:1.0.6:runtime - omitted for conflict with 1.2.41)
+   \- org.jetbrains.spek:spek-api:jar:1.1.5:runtime
+      +- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.0.6:runtime - omitted for conflict with 1.2.41)
+      \- (org.jetbrains.kotlin:kotlin-reflect:jar:1.0.6:runtime - omitted for conflict with 1.2.41)

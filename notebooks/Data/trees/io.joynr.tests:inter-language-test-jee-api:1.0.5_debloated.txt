@@ -1,0 +1,3 @@
+io.joynr.tests:inter-language-test-jee-api:jar:1.0.5
+\- junit:junit:jar:4.12:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

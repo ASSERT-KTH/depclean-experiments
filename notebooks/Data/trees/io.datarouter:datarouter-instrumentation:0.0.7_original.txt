@@ -1,0 +1,4 @@
+io.datarouter:datarouter-instrumentation:jar:0.0.7
+\- org.testng:testng:jar:6.14.2:compile
+   +- com.beust:jcommander:jar:1.72:compile
+   \- org.apache-extras.beanshell:bsh:jar:2.0b6:compile

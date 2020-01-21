@@ -1,0 +1,128 @@
+io.druid:druid-common:jar:0.12.0
++- io.druid:java-util:jar:0.12.0:compile
+|  +- (org.skife.config:config-magic:jar:0.9:compile - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:16.0.1:compile - version managed from 18.0; omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.4.6:compile - version managed from 2.4.0; omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.4.6:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.4.6:compile - version managed from 2.7.0; omitted for duplicate)
+|  +- net.sf.opencsv:opencsv:jar:2.3:compile
+|  +- (joda-time:joda-time:jar:2.9.9:compile - version managed from 2.2; omitted for duplicate)
+|  +- org.mozilla:rhino:jar:1.7R5:compile
+|  +- com.jayway.jsonpath:json-path:jar:2.1.0:compile
+|  +- net.thisptr:jackson-jq:jar:0.0.7:compile
+|  |  +- org.jruby.joni:joni:jar:2.1.11:compile
+|  |  |  \- org.jruby.jcodings:jcodings:jar:1.0.13:compile
+|  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.4.6:compile - version managed from 2.7.0; omitted for duplicate)
+|  +- (com.google.code.findbugs:jsr305:jar:2.0.1:compile - omitted for duplicate)
+|  +- (javax.validation:validation-api:jar:1.1.0.Final:compile - omitted for duplicate)
+|  +- org.asynchttpclient:async-http-client:jar:2.0.37:compile
+|  |  +- org.asynchttpclient:async-http-client-netty-utils:jar:2.0.37:compile
+|  |  |  \- io.netty:netty-buffer:jar:4.0.52.Final:compile
+|  |  |     \- (io.netty:netty-common:jar:4.0.52.Final:compile - omitted for duplicate)
+|  |  +- io.netty:netty-codec-http:jar:4.0.52.Final:compile
+|  |  |  +- io.netty:netty-codec:jar:4.0.52.Final:compile
+|  |  |  |  \- (io.netty:netty-transport:jar:4.0.52.Final:compile - omitted for duplicate)
+|  |  |  \- (io.netty:netty-handler:jar:4.0.52.Final:compile - omitted for duplicate)
+|  |  +- io.netty:netty-handler:jar:4.0.52.Final:compile
+|  |  |  +- (io.netty:netty-buffer:jar:4.0.52.Final:compile - omitted for duplicate)
+|  |  |  +- io.netty:netty-transport:jar:4.0.52.Final:compile
+|  |  |  |  \- (io.netty:netty-buffer:jar:4.0.52.Final:compile - omitted for duplicate)
+|  |  |  \- (io.netty:netty-codec:jar:4.0.52.Final:compile - omitted for duplicate)
+|  |  +- io.netty:netty-transport-native-epoll:jar:linux-x86_64:4.0.52.Final:compile
+|  |  |  +- io.netty:netty-common:jar:4.0.52.Final:compile
+|  |  |  +- (io.netty:netty-buffer:jar:4.0.52.Final:compile - omitted for duplicate)
+|  |  |  \- (io.netty:netty-transport:jar:4.0.52.Final:compile - omitted for duplicate)
+|  |  +- org.asynchttpclient:netty-resolver-dns:jar:2.0.37:compile
+|  |  |  +- org.asynchttpclient:netty-resolver:jar:2.0.37:compile
+|  |  |  |  \- (io.netty:netty-common:jar:4.0.52.Final:compile - omitted for duplicate)
+|  |  |  +- org.asynchttpclient:netty-codec-dns:jar:2.0.37:compile
+|  |  |  |  \- (io.netty:netty-codec:jar:4.0.52.Final:compile - omitted for duplicate)
+|  |  |  \- (io.netty:netty-transport:jar:4.0.52.Final:compile - omitted for duplicate)
+|  |  +- org.reactivestreams:reactive-streams:jar:1.0.0:compile
+|  |  \- com.typesafe.netty:netty-reactive-streams:jar:1.0.8:compile
+|  |     +- (io.netty:netty-handler:jar:4.0.41.Final:compile - omitted for conflict with 4.0.52.Final)
+|  |     \- (org.reactivestreams:reactive-streams:jar:1.0.0:compile - omitted for duplicate)
+|  +- org.gridkit.lab:jvm-attach-api:jar:1.2:compile
+|  \- io.netty:netty:jar:3.10.6.Final:compile
++- io.druid:druid-api:jar:0.12.0:compile
+|  +- (io.druid:java-util:jar:0.12.0:compile - omitted for duplicate)
+|  +- (com.google.inject:guice:jar:4.1.0:compile - omitted for duplicate)
+|  +- (com.google.inject.extensions:guice-multibindings:jar:4.1.0:compile - omitted for duplicate)
+|  +- io.airlift:airline:jar:0.7:compile
+|  |  +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  |  \- (com.google.guava:guava:jar:16.0.1:compile - version managed from 18.0; omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.4.6:compile - version managed from 2.4.0; omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.4.6:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.4.6:compile - version managed from 2.7.0; omitted for duplicate)
+|  +- (com.fasterxml.jackson.dataformat:jackson-dataformat-smile:jar:2.4.6:compile - omitted for duplicate)
+|  +- (org.hibernate:hibernate-validator:jar:5.1.3.Final:compile - omitted for duplicate)
+|  +- (javax.validation:validation-api:jar:1.1.0.Final:compile - omitted for duplicate)
+|  +- commons-io:commons-io:jar:2.5:compile
+|  +- (com.google.code.findbugs:jsr305:jar:2.0.1:compile - omitted for duplicate)
+|  +- (net.thisptr:jackson-jq:jar:0.0.7:compile - omitted for duplicate)
+|  \- it.unimi.dsi:fastutil:jar:8.1.0:compile
++- commons-lang:commons-lang:jar:2.6:compile
++- commons-pool:commons-pool:jar:1.6:compile
++- org.skife.config:config-magic:jar:0.9:compile
++- org.hibernate:hibernate-validator:jar:5.1.3.Final:compile
+|  +- (javax.validation:validation-api:jar:1.1.0.Final:compile - omitted for duplicate)
+|  +- org.jboss.logging:jboss-logging:jar:3.1.3.GA:compile
+|  \- com.fasterxml:classmate:jar:1.0.0:compile
++- javax.validation:validation-api:jar:1.1.0.Final:compile
++- com.google.guava:guava:jar:16.0.1:compile
++- com.fasterxml.jackson.core:jackson-core:jar:2.4.6:compile
++- com.fasterxml.jackson.core:jackson-annotations:jar:2.4.6:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.4.6:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.4.6:compile - version managed from 2.4.0; omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.4.6:compile - omitted for duplicate)
++- com.fasterxml.jackson.datatype:jackson-datatype-guava:jar:2.4.6:compile
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.4.6:compile - version managed from 2.7.0; omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.4.6:compile - omitted for duplicate)
+|  \- (com.google.guava:guava:jar:16.0.1:compile - version managed from 15.0; omitted for duplicate)
++- com.fasterxml.jackson.datatype:jackson-datatype-joda:jar:2.4.6:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.4.6:compile - version managed from 2.4.0; omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.4.6:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.4.6:compile - version managed from 2.7.0; omitted for duplicate)
+|  \- (joda-time:joda-time:jar:2.9.9:compile - version managed from 2.2; omitted for duplicate)
++- com.fasterxml.jackson.dataformat:jackson-dataformat-smile:jar:2.4.6:compile
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.4.6:compile - omitted for duplicate)
++- com.google.inject:guice:jar:4.1.0:compile
+|  +- javax.inject:javax.inject:jar:1:compile
+|  +- aopalliance:aopalliance:jar:1.0:compile
+|  \- (com.google.guava:guava:jar:16.0.1:compile - version managed from 19.0; omitted for duplicate)
++- com.google.inject.extensions:guice-multibindings:jar:4.1.0:compile
+|  \- (com.google.inject:guice:jar:4.1.0:compile - omitted for duplicate)
++- org.jdbi:jdbi:jar:2.63.1:compile
++- joda-time:joda-time:jar:2.9.9:compile
++- com.google.code.findbugs:jsr305:jar:2.0.1:compile
++- org.apache.logging.log4j:log4j-core:jar:2.5:compile
+|  \- (org.apache.logging.log4j:log4j-api:jar:2.5:compile - omitted for duplicate)
++- org.apache.logging.log4j:log4j-jul:jar:2.5:compile
+|  \- (org.apache.logging.log4j:log4j-api:jar:2.5:compile - omitted for duplicate)
++- org.apache.logging.log4j:log4j-1.2-api:jar:2.5:compile
+|  +- (org.apache.logging.log4j:log4j-api:jar:2.5:compile - omitted for duplicate)
+|  \- (org.apache.logging.log4j:log4j-core:jar:2.5:compile - omitted for duplicate)
++- com.lmax:disruptor:jar:3.3.6:compile
++- org.antlr:antlr4-runtime:jar:4.5.1:compile
++- junit:junit:jar:4.11:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.easymock:easymock:jar:3.4:test
+|  \- org.objenesis:objenesis:jar:2.2:test
++- io.druid:java-util:test-jar:tests:0.12.0:test
+|  +- (org.slf4j:slf4j-api:jar:1.6.4:test - version managed from 1.7.12; omitted for duplicate)
+|  +- (org.skife.config:config-magic:jar:0.9:test - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:16.0.1:test - version managed from 19.0; omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.4.6:test - version managed from 2.4.0; omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.4.6:test - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.4.6:test - version managed from 2.7.0; omitted for duplicate)
+|  +- (net.sf.opencsv:opencsv:jar:2.3:test - omitted for duplicate)
+|  +- (joda-time:joda-time:jar:2.9.9:test - version managed from 2.2; omitted for duplicate)
+|  +- (org.mozilla:rhino:jar:1.7R5:test - omitted for duplicate)
+|  +- (com.jayway.jsonpath:json-path:jar:2.1.0:test - omitted for duplicate)
+|  +- (net.thisptr:jackson-jq:jar:0.0.7:test - omitted for duplicate)
+|  +- (com.google.code.findbugs:jsr305:jar:2.0.1:test - omitted for duplicate)
+|  +- (javax.validation:validation-api:jar:1.1.0.Final:test - omitted for duplicate)
+|  +- (org.asynchttpclient:async-http-client:jar:2.0.37:test - omitted for duplicate)
+|  +- (org.gridkit.lab:jvm-attach-api:jar:1.2:test - omitted for duplicate)
+|  \- (io.netty:netty:jar:3.10.6.Final:test - omitted for duplicate)
+\- org.hamcrest:hamcrest-all:jar:1.3:test

@@ -1,0 +1,13 @@
+io.zipkin.gcp:zipkin-translation-stackdriver:jar:0.6.4
++- io.zipkin.zipkin2:zipkin:jar:2.10.4:compile
++- com.google.api.grpc:grpc-google-devtools-cloudtrace-v1:jar:0.1.1:compile
+|  +- com.google.api.grpc:grpc-google-common-protos:jar:0.1.1:compile
+|  |  \- (com.google.protobuf:protobuf-java:jar:3.0.0:compile - omitted for duplicate)
+|  \- com.google.protobuf:protobuf-java:jar:3.0.0:compile
++- io.zipkin.zipkin2:zipkin:test-jar:tests:2.10.4:compile
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.assertj:assertj-core:jar:3.10.0:test
+\- ch.qos.logback:logback-classic:jar:1.2.3:test
+   +- ch.qos.logback:logback-core:jar:1.2.3:test
+   \- org.slf4j:slf4j-api:jar:1.7.25:test

@@ -1,0 +1,2 @@
+org.webjars.npm:dom7:jar:2.1.0
+\- org.webjars.npm:ssr-window:jar:1.0.1:compile

@@ -1,0 +1,137 @@
+com.orientechnologies:orientdb-community:jar:2.2.34
++- com.orientechnologies:orientdb-test-commons:jar:2.2.34:test
+|  +- junit:junit:jar:4.12:test
+|  |  \- org.hamcrest:hamcrest-core:jar:1.3:test
+|  +- org.mockito:mockito-core:jar:1.10.19:test
+|  |  +- (org.hamcrest:hamcrest-core:jar:1.1:test - omitted for conflict with 1.3)
+|  |  \- (org.objenesis:objenesis:jar:2.1:test - omitted for conflict with 2.4)
+|  +- org.assertj:assertj-core:jar:2.2.0:test
+|  \- org.objenesis:objenesis:jar:2.4:test
++- com.orientechnologies:orientdb-client:jar:2.2.34:compile
+|  \- (com.orientechnologies:orientdb-core:jar:2.2.34:compile - omitted for duplicate)
++- com.orientechnologies:orientdb-core:jar:2.2.34:compile
+|  +- org.xerial.snappy:snappy-java:jar:1.1.0.1:compile
+|  +- net.java.dev.jna:jna:jar:4.5.0:compile
+|  +- net.java.dev.jna:jna-platform:jar:4.5.0:compile
+|  |  \- (net.java.dev.jna:jna:jar:4.5.0:compile - omitted for duplicate)
+|  \- com.googlecode.concurrentlinkedhashmap:concurrentlinkedhashmap-lru:jar:1.4.2:compile
++- com.orientechnologies:orientdb-server:jar:2.2.34:compile
+|  +- (com.orientechnologies:orientdb-client:jar:2.2.34:compile - omitted for duplicate)
+|  +- (com.orientechnologies:orientdb-tools:jar:2.2.34:compile - omitted for duplicate)
+|  +- javax.mail:mail:jar:1.4.7:compile
+|  |  \- javax.activation:activation:jar:1.1:compile
+|  \- com.sun.xml.bind:jaxb-impl:jar:2.2.3:compile
+|     \- javax.xml.bind:jaxb-api:jar:2.2.2:compile
+|        +- javax.xml.stream:stax-api:jar:1.0-2:compile
+|        \- (javax.activation:activation:jar:1.1:compile - omitted for duplicate)
++- com.orientechnologies:orientdb-object:jar:2.2.34:compile
+|  +- (com.orientechnologies:orientdb-core:jar:2.2.34:compile - omitted for duplicate)
+|  +- org.hibernate.javax.persistence:hibernate-jpa-2.0-api:jar:1.0.1.Final:compile
+|  \- org.javassist:javassist:jar:3.22.0-GA:compile
++- com.orientechnologies:orientdb-tools:jar:2.2.34:compile
+|  +- (com.orientechnologies:orientdb-client:jar:2.2.34:compile - omitted for duplicate)
+|  +- (com.orientechnologies:orientdb-core:jar:2.2.34:compile - omitted for duplicate)
+|  \- com.fasterxml.jackson.core:jackson-databind:jar:2.6.0:compile
+|     +- com.fasterxml.jackson.core:jackson-annotations:jar:2.6.0:compile
+|     \- com.fasterxml.jackson.core:jackson-core:jar:2.6.0:compile
++- com.orientechnologies:orientdb-distributed:jar:2.2.34:compile
+|  +- (com.orientechnologies:orientdb-server:jar:2.2.34:compile - omitted for duplicate)
+|  +- (com.orientechnologies:orientdb-tools:jar:2.2.34:compile - omitted for duplicate)
+|  +- (com.orientechnologies:orientdb-graphdb:jar:2.2.34:compile - omitted for duplicate)
+|  +- com.hazelcast:hazelcast:jar:3.8.4:compile
+|  \- com.hazelcast:hazelcast-aws:jar:2.1.0:compile
+|     \- (com.hazelcast:hazelcast:jar:3.8.2:compile - omitted for conflict with 3.8.4)
++- com.orientechnologies:orientdb-graphdb:jar:2.2.34:compile
+|  +- (com.orientechnologies:orientdb-server:jar:2.2.34:compile - omitted for duplicate)
+|  +- (com.orientechnologies:orientdb-tools:jar:2.2.34:compile - omitted for duplicate)
+|  +- (com.orientechnologies:orientdb-core:jar:2.2.34:compile - omitted for duplicate)
+|  +- commons-collections:commons-collections:jar:3.2.2:compile
+|  \- com.tinkerpop.blueprints:blueprints-core:jar:2.6.0:compile
+|     +- org.codehaus.jettison:jettison:jar:1.3.3:compile
+|     |  \- stax:stax-api:jar:1.0.1:compile
+|     +- (com.fasterxml.jackson.core:jackson-databind:jar:2.2.3:compile - omitted for conflict with 2.6.0)
+|     +- com.carrotsearch:hppc:jar:0.6.0:compile
+|     +- (commons-configuration:commons-configuration:jar:1.6:compile - omitted for duplicate)
+|     \- commons-logging:commons-logging:jar:1.1.1:compile
++- com.tinkerpop.rexster:rexster-core:jar:2.6.0:compile
+|  +- (com.tinkerpop.blueprints:blueprints-core:jar:2.6.0:compile - omitted for duplicate)
+|  +- com.sun.jersey:jersey-json:jar:1.17:compile
+|  |  +- (com.sun.xml.bind:jaxb-impl:jar:2.2.3-1:compile - omitted for conflict with 2.2.3)
+|  |  +- org.codehaus.jackson:jackson-core-asl:jar:1.9.2:compile
+|  |  +- org.codehaus.jackson:jackson-mapper-asl:jar:1.9.2:compile
+|  |  |  \- (org.codehaus.jackson:jackson-core-asl:jar:1.9.2:compile - omitted for duplicate)
+|  |  +- org.codehaus.jackson:jackson-jaxrs:jar:1.9.2:compile
+|  |  |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.9.2:compile - omitted for duplicate)
+|  |  |  \- (org.codehaus.jackson:jackson-mapper-asl:jar:1.9.2:compile - omitted for duplicate)
+|  |  +- org.codehaus.jackson:jackson-xc:jar:1.9.2:compile
+|  |  |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.9.2:compile - omitted for duplicate)
+|  |  |  \- (org.codehaus.jackson:jackson-mapper-asl:jar:1.9.2:compile - omitted for duplicate)
+|  |  \- com.sun.jersey:jersey-core:jar:1.17:compile
+|  +- javax.servlet:javax.servlet-api:jar:3.0.1:compile
+|  +- com.codahale.metrics:metrics-core:jar:3.0.2:compile
+|  +- commons-configuration:commons-configuration:jar:1.6:compile
+|  |  +- (commons-collections:commons-collections:jar:3.2.1:compile - omitted for conflict with 3.2.2)
+|  |  +- commons-lang:commons-lang:jar:2.4:compile
+|  |  +- commons-digester:commons-digester:jar:1.8:compile
+|  |  |  \- commons-beanutils:commons-beanutils:jar:1.7.0:compile
+|  |  \- commons-beanutils:commons-beanutils-core:jar:1.8.0:compile
+|  \- log4j:log4j:jar:1.2.16:compile
++- com.tinkerpop.gremlin:gremlin-java:jar:2.6.0:compile
+|  +- (com.tinkerpop.blueprints:blueprints-core:jar:2.6.0:compile - omitted for duplicate)
+|  \- com.tinkerpop:pipes:jar:2.6.0:compile
+|     \- (com.tinkerpop.blueprints:blueprints-core:jar:2.6.0:compile - omitted for duplicate)
++- com.tinkerpop.gremlin:gremlin-groovy:jar:2.6.0:compile
+|  +- (com.tinkerpop.gremlin:gremlin-java:jar:2.6.0:compile - omitted for duplicate)
+|  +- org.apache.ivy:ivy:jar:2.3.0:compile
+|  +- (com.tinkerpop:pipes:jar:2.6.0:compile - omitted for duplicate)
+|  +- org.codehaus.groovy:groovy:jar:1.8.9:compile
+|  |  +- antlr:antlr:jar:2.7.7:compile
+|  |  +- asm:asm:jar:3.2:compile
+|  |  +- asm:asm-commons:jar:3.2:compile
+|  |  |  \- (asm:asm-tree:jar:3.2:compile - omitted for duplicate)
+|  |  +- asm:asm-util:jar:3.2:compile
+|  |  |  \- (asm:asm-tree:jar:3.2:compile - omitted for duplicate)
+|  |  +- asm:asm-analysis:jar:3.2:compile
+|  |  |  \- (asm:asm-tree:jar:3.2:compile - omitted for duplicate)
+|  |  \- asm:asm-tree:jar:3.2:compile
+|  |     \- (asm:asm:jar:3.2:compile - omitted for duplicate)
+|  +- org.apache.ant:ant:jar:1.8.3:compile
+|  |  \- org.apache.ant:ant-launcher:jar:1.8.3:compile
+|  +- org.fusesource.jansi:jansi:jar:1.5:compile
+|  \- jline:jline:jar:0.9.94:compile
++- com.orientechnologies:orientdb-etl:jar:2.2.34:compile
+|  +- (com.orientechnologies:orientdb-lucene:jar:2.2.34:compile - omitted for duplicate)
+|  +- (com.orientechnologies:orientdb-client:jar:2.2.34:compile - omitted for duplicate)
+|  \- (com.orientechnologies:orientdb-graphdb:jar:2.2.34:compile - omitted for duplicate)
++- com.orientechnologies:orientdb-lucene:jar:2.2.34:compile
+|  +- (com.orientechnologies:orientdb-core:jar:2.2.34:compile - omitted for duplicate)
+|  +- (com.orientechnologies:orientdb-client:jar:2.2.34:compile - omitted for duplicate)
+|  +- (com.orientechnologies:orientdb-server:jar:2.2.34:compile - omitted for duplicate)
+|  +- (com.orientechnologies:orientdb-graphdb:jar:2.2.34:compile - omitted for duplicate)
+|  +- org.apache.lucene:lucene-core:jar:5.3.2:compile
+|  +- org.apache.lucene:lucene-analyzers-common:jar:5.3.2:compile
+|  |  \- (org.apache.lucene:lucene-core:jar:5.3.2:compile - omitted for duplicate)
+|  +- org.apache.lucene:lucene-queryparser:jar:5.3.2:compile
+|  |  +- (org.apache.lucene:lucene-core:jar:5.3.2:compile - omitted for duplicate)
+|  |  +- (org.apache.lucene:lucene-queries:jar:5.3.2:compile - omitted for duplicate)
+|  |  \- org.apache.lucene:lucene-sandbox:jar:5.3.2:compile
+|  +- org.apache.lucene:lucene-misc:jar:5.3.2:compile
+|  |  \- (org.apache.lucene:lucene-core:jar:5.3.2:compile - omitted for duplicate)
+|  +- org.apache.lucene:lucene-facet:jar:5.3.2:compile
+|  |  +- (org.apache.lucene:lucene-core:jar:5.3.2:compile - omitted for duplicate)
+|  |  \- (org.apache.lucene:lucene-queries:jar:5.3.2:compile - omitted for duplicate)
+|  +- org.apache.lucene:lucene-memory:jar:5.3.2:compile
+|  |  \- (org.apache.lucene:lucene-core:jar:5.3.2:compile - omitted for duplicate)
+|  +- org.apache.lucene:lucene-queries:jar:5.3.2:compile
+|  |  \- (org.apache.lucene:lucene-core:jar:5.3.2:compile - omitted for duplicate)
+|  +- org.apache.lucene:lucene-backward-codecs:jar:5.3.2:compile
+|  |  \- (org.apache.lucene:lucene-core:jar:5.3.2:compile - omitted for duplicate)
+|  \- org.apache.lucene:lucene-suggest:jar:5.3.2:compile
+|     +- (org.apache.lucene:lucene-analyzers-common:jar:5.3.2:compile - omitted for duplicate)
+|     +- (org.apache.lucene:lucene-core:jar:5.3.2:compile - omitted for duplicate)
+|     +- (org.apache.lucene:lucene-misc:jar:5.3.2:compile - omitted for duplicate)
+|     \- (org.apache.lucene:lucene-queries:jar:5.3.2:compile - omitted for duplicate)
++- com.orientechnologies:orientdb-jdbc:jar:2.2.34:compile
+|  +- (com.orientechnologies:orientdb-graphdb:jar:2.2.34:compile - omitted for duplicate)
+|  \- (com.orientechnologies:orientdb-client:jar:2.2.34:compile - omitted for duplicate)
+\- com.orientechnologies:orientdb-studio:zip:2.2.34:compile

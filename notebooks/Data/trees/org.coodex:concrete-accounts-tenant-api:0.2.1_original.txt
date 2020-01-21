@@ -1,0 +1,11 @@
+org.coodex:concrete-accounts-tenant-api:jar:0.2.1
++- org.coodex:concrete-accounts-common:jar:0.2.1:compile
+|  \- org.coodex:concrete-api:jar:0.2.1:compile
+|     +- org.coodex:coodex-utilities:jar:0.2.1:compile
+|     |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|     \- org.slf4j:slf4j-api:jar:1.7.25:compile
+\- org.coodex:concrete-jaxrs:jar:0.2.1:provided
+   \- org.coodex:concrete-core:jar:0.2.1:provided
+      +- (org.coodex:concrete-api:jar:0.2.1:provided - omitted for duplicate)
+      +- aopalliance:aopalliance:jar:1.0:provided
+      \- commons-codec:commons-codec:jar:1.10:provided

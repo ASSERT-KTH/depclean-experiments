@@ -1,0 +1,18 @@
+com.eventflit:eventflit-java-client:jar:0.1.0
++- com.google.code.gson:gson:jar:2.2.2:compile
++- com.pusher:java-websocket:jar:1.4.1:compile
++- org.mockito:mockito-all:jar:1.8.5:test
++- org.powermock:powermock-module-junit4:jar:1.4.11:test
+|  +- junit:junit:jar:4.8.2:test
+|  \- org.powermock:powermock-module-junit4-common:jar:1.4.11:test
+|     +- (junit:junit:jar:4.4:test - omitted for conflict with 4.8.2)
+|     +- org.powermock:powermock-core:jar:1.4.11:test
+|     |  +- (org.powermock:powermock-reflect:jar:1.4.11:test - omitted for duplicate)
+|     |  \- org.javassist:javassist:jar:3.15.0-GA:test
+|     \- org.powermock:powermock-reflect:jar:1.4.11:test
+|        \- org.objenesis:objenesis:jar:1.2:test
+\- org.powermock:powermock-api-mockito:jar:1.4.11:test
+   +- (org.mockito:mockito-all:jar:1.9.0:test - omitted for conflict with 1.8.5)
+   \- org.powermock:powermock-api-support:jar:1.4.11:test
+      +- (org.powermock:powermock-core:jar:1.4.11:test - omitted for duplicate)
+      \- (org.powermock:powermock-reflect:jar:1.4.11:test - omitted for duplicate)

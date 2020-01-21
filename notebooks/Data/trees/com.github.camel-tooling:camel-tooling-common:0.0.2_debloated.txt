@@ -1,0 +1,7 @@
+com.github.camel-tooling:camel-tooling-common:jar:0.0.2
++- org.apache.camel:camel-catalog:jar:2.22.0:compile
+|  +- com.sun.xml.bind:jaxb-core:jar:2.3.0.1:compile
+|  \- com.sun.xml.bind:jaxb-impl:jar:2.3.0.1:compile
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
+\- org.assertj:assertj-core:jar:3.9.1:test

@@ -1,0 +1,11 @@
+com.github.ajalt:colormath:jar:1.1.0
++- org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.51:compile
+|  +- org.jetbrains.kotlin:kotlin-stdlib-common:jar:1.2.51:compile
+|  \- org.jetbrains:annotations:jar:13.0:compile
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
+\- io.kotlintest:kotlintest-assertions:jar:3.1.8:test
+   +- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.50:test - omitted for conflict with 1.2.51)
+   +- org.jetbrains.kotlin:kotlin-reflect:jar:1.2.50:test
+   |  \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.50:test - omitted for conflict with 1.2.51)
+   \- com.univocity:univocity-parsers:jar:2.6.1:test

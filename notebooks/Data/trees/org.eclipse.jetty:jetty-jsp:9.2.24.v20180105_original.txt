@@ -1,0 +1,18 @@
+org.eclipse.jetty:jetty-jsp:jar:9.2.24.v20180105
++- org.eclipse.jetty:jetty-util:jar:9.2.24.v20180105:provided
++- org.eclipse.jetty:jetty-server:jar:9.2.24.v20180105:provided
+|  +- (javax.servlet:javax.servlet-api:jar:3.1.0:provided - omitted for duplicate)
+|  +- org.eclipse.jetty:jetty-http:jar:9.2.24.v20180105:provided
+|  |  \- (org.eclipse.jetty:jetty-util:jar:9.2.24.v20180105:provided - omitted for duplicate)
+|  \- org.eclipse.jetty:jetty-io:jar:9.2.24.v20180105:provided
+|     \- (org.eclipse.jetty:jetty-util:jar:9.2.24.v20180105:provided - omitted for duplicate)
++- org.eclipse.jetty.toolchain:jetty-schemas:jar:3.1.M0:compile
++- javax.servlet:javax.servlet-api:jar:3.1.0:compile
++- javax.servlet.jsp:javax.servlet.jsp-api:jar:2.3.1:compile
++- org.glassfish.web:javax.servlet.jsp:jar:2.3.2:compile
+|  +- (org.glassfish:javax.el:jar:3.0.0:compile - omitted for duplicate)
+|  \- (javax.servlet.jsp:javax.servlet.jsp-api:jar:2.3.1:compile - omitted for duplicate)
++- org.eclipse.jetty.orbit:javax.servlet.jsp.jstl:jar:1.2.0.v201105211821:compile
++- org.glassfish.web:javax.servlet.jsp.jstl:jar:1.2.2:compile
++- org.glassfish:javax.el:jar:3.0.0:compile
+\- org.eclipse.jetty.orbit:org.eclipse.jdt.core:jar:3.8.2.v20130121:compile

@@ -1,0 +1,4 @@
+org.scala-js:scalajs-stubs_2.11:jar:0.6.22
++- org.scala-lang:scala-library:jar:2.11.12:compile
+\- org.scala-lang:scala-reflect:jar:2.11.12:compile
+   \- (org.scala-lang:scala-library:jar:2.11.12:compile - omitted for duplicate)

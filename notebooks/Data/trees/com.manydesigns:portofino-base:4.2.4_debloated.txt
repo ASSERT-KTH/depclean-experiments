@@ -1,0 +1,33 @@
+com.manydesigns:portofino-base:jar:4.2.4
++- com.manydesigns:elements:jar:4.2.4:compile
+|  +- commons-lang:commons-lang:jar:2.5:compile
+|  +- commons-io:commons-io:jar:2.0.1:compile
+|  +- commons-fileupload:commons-fileupload:jar:1.3.3:compile
+|  |  \- (commons-io:commons-io:jar:2.2:compile - omitted for conflict with 2.0.1)
+|  +- commons-configuration:commons-configuration:jar:1.10:compile
+|  |  \- (commons-lang:commons-lang:jar:2.6:compile - omitted for conflict with 2.5)
+|  +- commons-collections:commons-collections:jar:3.2.2:compile
+|  +- com.google.guava:guava:jar:18.0:compile
+|  +- ognl:ognl:jar:3.2:compile
+|  |  \- (org.javassist:javassist:jar:3.20.0-GA:compile - omitted for conflict with 3.18.1-GA)
+|  +- org.javassist:javassist:jar:3.18.1-GA:compile
+|  +- joda-time:joda-time:jar:2.9.1:compile
+|  +- org.slf4j:slf4j-api:jar:1.7.21:compile
+|  +- com.intellij:annotations:jar:7.0.3:compile
+|  +- org.json:json:jar:20140107:compile
+|  +- net.sourceforge.stripes:stripes:jar:1.6.0:compile
+|  \- com.manydesigns:portofino-cryptography:jar:4.2.4:compile
+|     +- commons-codec:commons-codec:jar:20041127.091804:compile
+|     |  \- junit:junit:jar:3.8.1:compile
+|     \- (commons-configuration:commons-configuration:jar:1.10:compile - omitted for duplicate)
++- javax.servlet:javax.servlet-api:jar:3.0.1:provided
++- javax.ws.rs:javax.ws.rs-api:jar:2.0.1:provided
++- org.apache.taglibs:taglibs-standard-spec:jar:1.2.5:compile
++- org.apache.shiro:shiro-web:jar:1.3.2:compile
+|  \- org.apache.shiro:shiro-core:jar:1.3.2:compile
+|     +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.6.4; omitted for duplicate)
+|     \- commons-beanutils:commons-beanutils:jar:1.8.3:compile
++- com.github.cage:cage:jar:1.0:compile
++- org.codehaus.groovy:groovy:jar:2.4.15:compile
++- com.sun.xml.bind:jaxb-core:jar:2.2.10:compile
+\- javax.activation:activation:jar:1.1.1:compile

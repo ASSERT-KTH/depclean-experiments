@@ -1,0 +1,2 @@
+org.webjars.npm:findup:jar:0.1.5
+\- org.webjars.npm:commander:jar:2.1.0:compile

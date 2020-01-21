@@ -1,0 +1,24 @@
+org.terrameta:plasma-runtime:jar:2.0.3
++- log4j:log4j:jar:1.2.9:compile
++- commons-logging:commons-logging:jar:1.1.1:compile
++- xalan:xalan:jar:2.6.0:compile
+|  \- xml-apis:xml-apis:jar:1.0.b2:compile
++- org.atteo.classindex:classindex:jar:3.3:compile
++- org.modeldriven:fuml:jar:1.1.0c:compile
+|  +- commons-collections:commons-collections:jar:3.2:compile
+|  +- commons-lang:commons-lang:jar:2.1:compile
+|  +- (log4j:log4j:jar:1.2.8:compile - omitted for conflict with 1.2.9)
+|  +- net.java.dev.stax-utils:stax-utils:jar:20040917:compile
+|  +- com.sun.xml.stream:sjsxp:jar:1.0.1:compile
+|  |  \- javax.xml.stream:stax-api:jar:1.0:compile
+|  \- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for duplicate)
++- org.terrameta:plasma-common:jar:2.0.3:compile
+|  +- (junit:junit:jar:3.8.1:compile - omitted for duplicate)
+|  +- (log4j:log4j:jar:1.2.9:compile - omitted for duplicate)
+|  \- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for duplicate)
+\- org.terrameta:plasma-metamodel:jar:2.0.3:compile
+   +- (junit:junit:jar:3.8.1:compile - omitted for duplicate)
+   +- (log4j:log4j:jar:1.2.9:compile - omitted for duplicate)
+   +- org.jdom:jdom:jar:2.0.2:compile
+   +- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for duplicate)
+   \- (org.terrameta:plasma-common:jar:2.0.3:compile - omitted for duplicate)

@@ -1,0 +1,2 @@
+org.codehaus.groovy:groovy-jsr223:jar:2.4.15
+\- org.codehaus.groovy:groovy:jar:2.4.15:compile

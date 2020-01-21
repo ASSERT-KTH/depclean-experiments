@@ -1,0 +1,6 @@
+technology.yiss.kotlin:kotlin-script-util:jar:1.2.41
++- technology.yiss.kotlin:kotlin-stdlib:jar:1.2.41:compile
+|  +- technology.yiss.kotlin:kotlin-stdlib-common:jar:1.2.41:compile
+|  \- org.jetbrains:annotations:jar:13.0:compile
++- technology.yiss.kotlin:kotlin-script-runtime:jar:1.2.41:compile
+\- technology.yiss.kotlin:kotlin-daemon-client:jar:1.2.41:compile

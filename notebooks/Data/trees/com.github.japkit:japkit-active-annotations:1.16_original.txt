@@ -1,0 +1,8 @@
+com.github.japkit:japkit-active-annotations:jar:1.16
++- org.eclipse.xtend:org.eclipse.xtend.lib:jar:2.13.0:compile
+|  +- org.eclipse.xtext:org.eclipse.xtext.xbase.lib:jar:2.13.0:compile
+|  |  \- com.google.guava:guava:jar:19.0-rc3:compile
+|  \- org.eclipse.xtend:org.eclipse.xtend.lib.macro:jar:2.13.0:compile
+|     \- (org.eclipse.xtext:org.eclipse.xtext.xbase.lib:jar:2.13.0:compile - omitted for duplicate)
+\- junit:junit:jar:4.10:test
+   \- org.hamcrest:hamcrest-core:jar:1.1:test

@@ -1,0 +1,27 @@
+org.flowable:flowable-cmmn-api:jar:6.3.0
++- org.flowable:flowable-engine-common-api:jar:6.3.0:compile
+|  \- org.apache.commons:commons-lang3:jar:3.7:compile
++- org.flowable:flowable-cmmn-model:jar:6.3.0:compile
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.11:compile
+|  \- (org.flowable:flowable-engine-common-api:jar:6.3.0:compile - omitted for duplicate)
++- org.flowable:flowable-dmn-api:jar:6.3.0:compile
+|  +- org.flowable:flowable-dmn-model:jar:6.3.0:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.11:compile - version managed from 2.8.10; omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.11.1:compile - omitted for duplicate)
+|  |  \- (org.apache.commons:commons-lang3:jar:3.7:compile - omitted for duplicate)
+|  +- (org.flowable:flowable-engine-common-api:jar:6.3.0:compile - omitted for duplicate)
+|  \- joda-time:joda-time:jar:2.9.9:compile
++- org.flowable:flowable-form-api:jar:6.3.0:compile
+|  +- (org.flowable:flowable-engine-common-api:jar:6.3.0:compile - omitted for duplicate)
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.8.11:compile
+|  \- com.fasterxml.jackson.core:jackson-databind:jar:2.8.11.1:compile
+|     +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.11:compile - version managed from 2.8.0; omitted for duplicate)
+|     \- (com.fasterxml.jackson.core:jackson-core:jar:2.8.11:compile - version managed from 2.8.10; omitted for duplicate)
++- org.flowable:flowable-variable-service-api:jar:6.3.0:compile
+|  \- (org.flowable:flowable-engine-common-api:jar:6.3.0:compile - omitted for duplicate)
++- org.flowable:flowable-task-service-api:jar:6.3.0:compile
+|  +- (org.flowable:flowable-engine-common-api:jar:6.3.0:compile - omitted for duplicate)
+|  \- org.flowable:flowable-identitylink-service-api:jar:6.3.0:compile
+|     \- (org.flowable:flowable-engine-common-api:jar:6.3.0:compile - omitted for duplicate)
+\- org.flowable:flowable-job-service-api:jar:6.3.0:compile
+   \- (org.flowable:flowable-engine-common-api:jar:6.3.0:compile - omitted for duplicate)

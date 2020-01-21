@@ -1,0 +1,45 @@
+com.folio-sec:reladomo-scala-common_2.11:jar:16.7.0
++- org.scala-lang:scala-library:jar:2.11.12:compile
++- com.goldmansachs.reladomo:reladomo:jar:16.7.0:compile
+|  +- com.goldmansachs:gs-collections-api:jar:5.1.0:compile
+|  +- com.goldmansachs:gs-collections:jar:5.1.0:compile
+|  |  \- (com.goldmansachs:gs-collections-api:jar:5.1.0:compile - omitted for duplicate)
+|  \- org.apache.geronimo.specs:geronimo-jta_1.1_spec:jar:1.1.1:compile
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- joda-time:joda-time:jar:2.9.9:compile
++- org.joda:joda-convert:jar:1.9.2:compile
++- org.scalikejdbc:scalikejdbc_2.11:jar:3.1.0:test
+|  +- (org.scala-lang:scala-library:jar:2.11.11:test - omitted for conflict with 2.11.12)
+|  +- org.scalikejdbc:scalikejdbc-core_2.11:jar:3.1.0:test
+|  |  +- (org.scala-lang:scala-library:jar:2.11.11:test - omitted for conflict with 2.11.12)
+|  |  +- (org.scala-lang:scala-reflect:jar:2.11.11:test - omitted for duplicate)
+|  |  +- org.apache.commons:commons-dbcp2:jar:2.1.1:test
+|  |  |  +- org.apache.commons:commons-pool2:jar:2.4.2:test
+|  |  |  \- commons-logging:commons-logging:jar:1.2:test
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)
+|  |  +- (joda-time:joda-time:jar:2.9.9:test - omitted for duplicate)
+|  |  +- (org.joda:joda-convert:jar:1.8.2:test - omitted for conflict with 1.9.2)
+|  |  \- (org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.0.6:test - omitted for conflict with 1.0.4)
+|  \- org.scalikejdbc:scalikejdbc-interpolation_2.11:jar:3.1.0:test
+|     +- (org.scala-lang:scala-library:jar:2.11.11:test - omitted for conflict with 2.11.12)
+|     +- (org.scalikejdbc:scalikejdbc-core_2.11:jar:3.1.0:test - omitted for duplicate)
+|     +- org.scalikejdbc:scalikejdbc-interpolation-macro_2.11:jar:3.1.0:test
+|     |  +- (org.scala-lang:scala-library:jar:2.11.11:test - omitted for conflict with 2.11.12)
+|     |  +- (org.scalikejdbc:scalikejdbc-core_2.11:jar:3.1.0:test - omitted for duplicate)
+|     |  \- (org.scala-lang:scala-reflect:jar:2.11.11:test - omitted for duplicate)
+|     \- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)
++- com.h2database:h2:jar:1.4.196:test
++- ch.qos.logback:logback-classic:jar:1.2.3:test
+|  +- ch.qos.logback:logback-core:jar:1.2.3:test
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)
+\- org.scalatest:scalatest_2.11:jar:3.0.4:test
+   +- (org.scala-lang:scala-library:jar:2.11.11:test - omitted for conflict with 2.11.12)
+   +- org.scalactic:scalactic_2.11:jar:3.0.4:test
+   |  +- (org.scala-lang:scala-library:jar:2.11.11:test - omitted for conflict with 2.11.12)
+   |  \- (org.scala-lang:scala-reflect:jar:2.11.11:test - omitted for duplicate)
+   +- org.scala-lang:scala-reflect:jar:2.11.11:test
+   |  \- (org.scala-lang:scala-library:jar:2.11.11:test - omitted for conflict with 2.11.12)
+   +- org.scala-lang.modules:scala-xml_2.11:jar:1.0.5:test
+   |  \- (org.scala-lang:scala-library:jar:2.11.7:test - omitted for conflict with 2.11.12)
+   \- org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.0.4:test
+      \- (org.scala-lang:scala-library:jar:2.11.6:test - omitted for conflict with 2.11.12)

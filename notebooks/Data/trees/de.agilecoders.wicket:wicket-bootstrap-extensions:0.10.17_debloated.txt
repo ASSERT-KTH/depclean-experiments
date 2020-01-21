@@ -1,0 +1,65 @@
+de.agilecoders.wicket:wicket-bootstrap-extensions:bundle:0.10.17
++- de.agilecoders.wicket:jquery-selectors:jar:0.2.6:compile
+|  +- (com.google.guava:guava:jar:20.0:compile - version managed from 18.0; omitted for duplicate)
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.8.8:compile
+|  \- com.fasterxml.jackson.core:jackson-databind:jar:2.8.8:compile
+|     +- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile
+|     \- (com.fasterxml.jackson.core:jackson-core:jar:2.8.8:compile - omitted for duplicate)
++- de.agilecoders.wicket:wicket-bootstrap-core:jar:0.10.17:compile
+|  +- (de.agilecoders.wicket:jquery-selectors:jar:0.2.6:compile - omitted for duplicate)
+|  +- de.agilecoders.wicket.webjars:wicket-webjars:jar:0.5.6:compile
+|  |  +- (org.apache.wicket:wicket-core:jar:7.10.0:compile - version managed from 7.7.0; omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.7:compile - version managed from 1.7.21; omitted for duplicate)
+|  +- org.webjars:bootstrap:jar:3.3.7-1:compile
+|  |  \- (org.webjars:jquery:jar:2.2.4:compile - version managed from 1.11.1; omitted for duplicate)
+|  +- org.webjars:modernizr:jar:2.8.3:compile
+|  +- (joda-time:joda-time:jar:2.3:compile - omitted for duplicate)
+|  +- org.apache.wicket:wicket-core:jar:7.10.0:compile
+|  |  +- org.apache.commons:commons-collections4:jar:4.1:compile
+|  |  +- (org.apache.wicket:wicket-request:jar:7.10.0:compile - omitted for duplicate)
+|  |  +- (org.apache.wicket:wicket-util:jar:7.10.0:compile - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.7:compile - version managed from 1.7.21; omitted for duplicate)
+|  +- (org.apache.wicket:wicket-extensions:jar:7.10.0:compile - omitted for duplicate)
+|  +- org.apache.wicket:wicket-request:jar:7.10.0:compile
+|  |  +- (org.apache.wicket:wicket-util:jar:7.10.0:compile - omitted for duplicate)
+|  |  +- (org.apache.commons:commons-collections4:jar:4.1:compile - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.7:compile - version managed from 1.7.21; omitted for duplicate)
+|  +- (org.apache.wicket:wicket-util:jar:7.10.0:compile - omitted for duplicate)
+|  +- org.slf4j:slf4j-api:jar:1.7.7:compile
+|  +- (org.apache.commons:commons-lang3:jar:3.7:compile - omitted for duplicate)
+|  \- (de.agilecoders.maven:maven-parent-config:jar:0.3.5:compile - omitted for duplicate)
++- org.apache.wicket:wicket-extensions:jar:7.10.0:compile
+|  +- (org.apache.wicket:wicket-core:jar:7.10.0:compile - version managed from 7.7.0; omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.7:compile - version managed from 1.7.21; omitted for duplicate)
++- org.apache.wicket:wicket-util:jar:7.10.0:compile
+|  +- commons-fileupload:commons-fileupload:jar:1.3.2:compile
+|  |  \- (commons-io:commons-io:jar:2.2:compile - omitted for conflict with 2.5)
+|  +- commons-io:commons-io:jar:2.5:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.7:compile - version managed from 1.7.21; omitted for duplicate)
++- org.webjars:momentjs:jar:2.14.1:compile
++- com.google.guava:guava:jar:20.0:compile
++- com.google.javascript:closure-compiler:jar:v20130603:compile
+|  +- args4j:args4j:jar:2.0.16:compile
+|  +- (com.google.guava:guava:jar:20.0:compile - version managed from 14.0.1; omitted for duplicate)
+|  +- com.google.protobuf:protobuf-java:jar:2.4.1:compile
+|  +- org.json:json:jar:20090211:compile
+|  \- com.google.code.findbugs:jsr305:jar:1.3.9:compile
++- com.yahoo.platform.yui:yuicompressor:jar:2.4.8:compile
+|  \- rhino:js:jar:1.7R2:compile
++- joda-time:joda-time:jar:2.3:compile
++- org.webjars:jquery-ui:jar:1.11.4:compile
+|  \- org.webjars:jquery:jar:2.2.4:compile
++- org.webjars:x-editable-bootstrap:jar:1.5.1:compile
+|  \- (org.webjars:bootstrap:jar:3.3.7-1:compile - version managed from 3.0.0; omitted for duplicate)
++- org.webjars:animate.css:jar:3.3.0:compile
++- org.databene:contiperf:jar:2.3.4:test
++- ch.qos.logback:logback-classic:jar:1.2.3:test
+|  +- ch.qos.logback:logback-core:jar:1.2.3:test
+|  \- (org.slf4j:slf4j-api:jar:1.7.7:test - version managed from 1.7.25; omitted for duplicate)
++- junit:junit:jar:4.12:test
+|  \- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for duplicate)
++- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.hamcrest:hamcrest-library:jar:1.3:test
+|  \- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for duplicate)
++- javax.servlet:javax.servlet-api:jar:3.0.1:provided
+\- de.agilecoders.maven:maven-parent-config:jar:0.3.5:compile

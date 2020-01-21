@@ -1,0 +1,16 @@
+nl.psek.fitnesse:psek-fitnesse-runner:jar:1.2.0
++- org.fitnesse:fitnesse:jar:20180127:compile
+|  +- org.htmlparser:htmlparser:jar:2.1:compile
+|  |  \- (org.htmlparser:htmllexer:jar:2.1:compile - omitted for duplicate)
+|  +- org.htmlparser:htmllexer:jar:2.1:compile
+|  +- org.apache.velocity:velocity:jar:1.7:compile
+|  +- commons-lang:commons-lang:jar:2.6:compile
+|  +- commons-collections:commons-collections:jar:3.2.2:compile
+|  +- org.json:json:jar:20151123:compile
+|  +- com.googlecode.java-diff-utils:diffutils:jar:1.3.0:compile
+|  +- org.apache.ant:ant:jar:1.9.6:compile
+|  |  \- org.apache.ant:ant-launcher:jar:1.9.6:compile
+|  \- (junit:junit:jar:4.12:compile - omitted for duplicate)
++- junit:junit:jar:4.12:compile
+|  \- org.hamcrest:hamcrest-core:jar:1.3:compile
+\- commons-logging:commons-logging:jar:1.2:compile

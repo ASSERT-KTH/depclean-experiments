@@ -1,0 +1,23 @@
+org.springframework:spring-jdbc:jar:4.3.16.RELEASE
++- com.h2database:h2:jar:1.4.193:compile
++- com.mchange:c3p0:jar:0.9.5.2:compile
+|  \- com.mchange:mchange-commons-java:jar:0.2.11:compile
++- javax.transaction:javax.transaction-api:jar:1.2:compile
++- org.apache.derby:derby:jar:10.13.1.1:compile
++- org.apache.derby:derbyclient:jar:10.13.1.1:compile
++- org.hsqldb:hsqldb:jar:2.3.4:compile
++- org.springframework:spring-beans:jar:4.3.16.RELEASE:compile
+|  \- (org.springframework:spring-core:jar:4.3.16.RELEASE:compile - omitted for duplicate)
++- org.springframework:spring-context:jar:4.3.16.RELEASE:compile
+|  +- org.springframework:spring-aop:jar:4.3.16.RELEASE:compile
+|  |  +- (org.springframework:spring-beans:jar:4.3.16.RELEASE:compile - omitted for duplicate)
+|  |  \- (org.springframework:spring-core:jar:4.3.16.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-beans:jar:4.3.16.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-core:jar:4.3.16.RELEASE:compile - omitted for duplicate)
+|  \- org.springframework:spring-expression:jar:4.3.16.RELEASE:compile
+|     \- (org.springframework:spring-core:jar:4.3.16.RELEASE:compile - omitted for duplicate)
++- org.springframework:spring-core:jar:4.3.16.RELEASE:compile
+|  \- commons-logging:commons-logging:jar:1.2:compile
+\- org.springframework:spring-tx:jar:4.3.16.RELEASE:compile
+   +- (org.springframework:spring-beans:jar:4.3.16.RELEASE:compile - omitted for duplicate)
+   \- (org.springframework:spring-core:jar:4.3.16.RELEASE:compile - omitted for duplicate)

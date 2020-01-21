@@ -1,0 +1,130 @@
+fr.vsct.tock:tock-bot-connector-alexa:jar:1.0.0-rc0
++- fr.vsct.tock:tock-bot-engine:jar:1.0.0-rc0:compile
+|  +- fr.vsct.tock:tock-shared:jar:1.0.0-rc0:compile
+|  |  +- com.github.salomonbrys.kodein:kodein:jar:4.1.0:compile
+|  |  |  +- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.31:compile - version managed from 1.1.3-2; omitted for duplicate)
+|  |  |  \- com.github.salomonbrys.kodein:kodein-core:jar:4.1.0:compile
+|  |  |     \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.31:compile - version managed from 1.1.3-2; omitted for duplicate)
+|  |  +- com.fasterxml.jackson.module:jackson-module-kotlin:jar:2.9.3:compile
+|  |  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.3:compile - omitted for duplicate)
+|  |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.3:compile
+|  |  |  \- org.jetbrains.kotlin:kotlin-reflect:jar:1.2.31:compile (version managed from 1.1.51)
+|  |  |     \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.31:compile - version managed from 1.1.3-2; omitted for duplicate)
+|  |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.9.3:compile
+|  |  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.3:compile - version managed from 2.9.0; omitted for duplicate)
+|  |  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.9.3:compile
+|  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.3:compile
+|  |  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.3:compile - version managed from 2.9.0; omitted for duplicate)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.3:compile - omitted for duplicate)
+|  |  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.3:compile - omitted for duplicate)
+|  |  +- org.litote.kmongo:kmongo-id-jackson:jar:3.7.0-rc0:compile
+|  |  |  +- org.litote.kmongo:kmongo-id:jar:3.7.0-rc0:compile
+|  |  |  |  +- (org.jetbrains.kotlin:kotlin-reflect:jar:1.2.31:compile - version managed from 1.1.51; omitted for duplicate)
+|  |  |  |  \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.31:compile - version managed from 1.1.3-2; omitted for duplicate)
+|  |  |  +- (org.jetbrains.kotlin:kotlin-reflect:jar:1.2.31:compile - version managed from 1.1.51; omitted for duplicate)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.3:compile - omitted for duplicate)
+|  |  |  +- (com.fasterxml.jackson.module:jackson-module-kotlin:jar:2.9.3:compile - omitted for duplicate)
+|  |  |  \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.31:compile - version managed from 1.1.3-2; omitted for duplicate)
+|  |  +- io.github.microutils:kotlin-logging:jar:1.5.4:compile
+|  |  +- org.slf4j:slf4j-api:jar:1.7.25:compile
+|  |  +- ch.qos.logback:logback-classic:jar:1.2.3:compile
+|  |  |  +- ch.qos.logback:logback-core:jar:1.2.3:compile
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  |  +- org.slf4j:jul-to-slf4j:jar:1.7.25:compile
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  |  +- com.google.guava:guava:jar:24.1-jre:compile
+|  |  |  +- com.google.code.findbugs:jsr305:jar:1.3.9:compile
+|  |  |  +- org.checkerframework:checker-compat-qual:jar:2.0.0:compile
+|  |  |  +- com.google.errorprone:error_prone_annotations:jar:2.1.3:compile
+|  |  |  +- com.google.j2objc:j2objc-annotations:jar:1.1:compile
+|  |  |  \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:compile
+|  |  \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.31:compile - version managed from 1.1.3-2; omitted for duplicate)
+|  +- fr.vsct.tock:nlp-api-client:jar:1.0.0-rc0:compile
+|  |  +- com.squareup.retrofit2:retrofit:jar:2.4.0:compile
+|  |  |  \- com.squareup.okhttp3:okhttp:jar:3.10.0:compile
+|  |  |     \- com.squareup.okio:okio:jar:1.14.0:compile
+|  |  +- com.squareup.retrofit2:converter-jackson:jar:2.4.0:compile
+|  |  |  +- (com.squareup.retrofit2:retrofit:jar:2.4.0:compile - omitted for duplicate)
+|  |  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.3:compile - version managed from 2.9.4; omitted for duplicate)
+|  |  +- com.squareup.okhttp3:logging-interceptor:jar:3.10.0:compile
+|  |  |  \- (com.squareup.okhttp3:okhttp:jar:3.10.0:compile - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.module:jackson-module-kotlin:jar:2.9.3:compile - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.3:compile - version managed from 2.9.4; omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.3:compile - omitted for duplicate)
+|  |  +- (io.github.microutils:kotlin-logging:jar:1.5.4:compile - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  |  +- fr.vsct.tock:tock-nlp-entity-value:jar:1.0.0-rc0:compile
+|  |  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.3:compile - version managed from 2.9.4; omitted for duplicate)
+|  |  |  +- (com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.3:compile - omitted for duplicate)
+|  |  |  +- (com.fasterxml.jackson.module:jackson-module-kotlin:jar:2.9.3:compile - omitted for duplicate)
+|  |  |  \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.31:compile - version managed from 1.1.3-2; omitted for duplicate)
+|  |  \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.31:compile - version managed from 1.1.3-2; omitted for duplicate)
+|  +- fr.vsct.tock:tock-translator-core:jar:1.0.0-rc0:compile
+|  |  +- (fr.vsct.tock:tock-shared:jar:1.0.0-rc0:compile - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:24.1-jre:compile - omitted for duplicate)
+|  |  +- (org.litote.kmongo:kmongo-data:jar:3.7.0-rc0:compile - omitted for duplicate)
+|  |  \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.31:compile - version managed from 1.1.3-2; omitted for duplicate)
+|  +- org.litote.kmongo:kmongo-data:jar:3.7.0-rc0:compile
+|  |  \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.31:compile - version managed from 1.1.3-2; omitted for duplicate)
+|  +- io.vertx:vertx-web:jar:3.5.1:compile
+|  |  +- io.vertx:vertx-auth-common:jar:3.5.1:compile
+|  |  |  \- (io.vertx:vertx-core:jar:3.5.1:compile - omitted for duplicate)
+|  |  +- io.vertx:vertx-bridge-common:jar:3.5.1:compile
+|  |  \- io.vertx:vertx-core:jar:3.5.1:compile
+|  |     +- io.netty:netty-common:jar:4.1.19.Final:compile
+|  |     +- io.netty:netty-buffer:jar:4.1.19.Final:compile
+|  |     |  \- (io.netty:netty-common:jar:4.1.19.Final:compile - omitted for duplicate)
+|  |     +- io.netty:netty-transport:jar:4.1.19.Final:compile
+|  |     |  +- (io.netty:netty-buffer:jar:4.1.19.Final:compile - omitted for duplicate)
+|  |     |  \- (io.netty:netty-resolver:jar:4.1.19.Final:compile - omitted for duplicate)
+|  |     +- io.netty:netty-handler:jar:4.1.19.Final:compile
+|  |     |  +- (io.netty:netty-buffer:jar:4.1.19.Final:compile - omitted for duplicate)
+|  |     |  +- (io.netty:netty-transport:jar:4.1.19.Final:compile - omitted for duplicate)
+|  |     |  \- io.netty:netty-codec:jar:4.1.19.Final:compile
+|  |     |     \- (io.netty:netty-transport:jar:4.1.19.Final:compile - omitted for duplicate)
+|  |     +- io.netty:netty-handler-proxy:jar:4.1.19.Final:compile
+|  |     |  +- (io.netty:netty-transport:jar:4.1.19.Final:compile - omitted for duplicate)
+|  |     |  +- io.netty:netty-codec-socks:jar:4.1.19.Final:compile
+|  |     |  |  \- (io.netty:netty-codec:jar:4.1.19.Final:compile - omitted for duplicate)
+|  |     |  \- (io.netty:netty-codec-http:jar:4.1.19.Final:compile - omitted for duplicate)
+|  |     +- io.netty:netty-codec-http:jar:4.1.19.Final:compile
+|  |     |  \- (io.netty:netty-codec:jar:4.1.19.Final:compile - omitted for duplicate)
+|  |     +- io.netty:netty-codec-http2:jar:4.1.19.Final:compile
+|  |     |  +- (io.netty:netty-codec-http:jar:4.1.19.Final:compile - omitted for duplicate)
+|  |     |  \- (io.netty:netty-handler:jar:4.1.19.Final:compile - omitted for duplicate)
+|  |     +- io.netty:netty-resolver:jar:4.1.19.Final:compile
+|  |     |  \- (io.netty:netty-common:jar:4.1.19.Final:compile - omitted for duplicate)
+|  |     +- io.netty:netty-resolver-dns:jar:4.1.19.Final:compile
+|  |     |  +- (io.netty:netty-resolver:jar:4.1.19.Final:compile - omitted for duplicate)
+|  |     |  +- io.netty:netty-codec-dns:jar:4.1.19.Final:compile
+|  |     |  |  \- (io.netty:netty-codec:jar:4.1.19.Final:compile - omitted for duplicate)
+|  |     |  \- (io.netty:netty-transport:jar:4.1.19.Final:compile - omitted for duplicate)
+|  |     +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.3:compile - omitted for duplicate)
+|  |     \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.3:compile - version managed from 2.9.4; omitted for duplicate)
+|  \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.31:compile - version managed from 1.1.3-2; omitted for duplicate)
++- com.amazon.alexa:alexa-skills-kit:jar:1.8.1:compile
+|  +- org.apache.commons:commons-lang3:jar:3.7:compile (version managed from 3.0)
+|  +- commons-codec:commons-codec:jar:1.11:compile (version managed from 1.6)
+|  +- commons-io:commons-io:jar:2.4:compile
+|  +- joda-time:joda-time:jar:2.0:compile
+|  \- com.amazonaws:aws-lambda-java-core:jar:1.0.0:compile
++- org.jetbrains.kotlin:kotlin-test:jar:1.2.31:test
+|  \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.31:test - version managed from 1.1.3-2; omitted for duplicate)
++- org.junit.jupiter:junit-jupiter-engine:jar:5.1.1:test
+|  +- org.apiguardian:apiguardian-api:jar:1.0.0:test
+|  +- org.junit.platform:junit-platform-engine:jar:1.1.1:test
+|  |  +- (org.apiguardian:apiguardian-api:jar:1.0.0:test - omitted for duplicate)
+|  |  +- (org.junit.platform:junit-platform-commons:jar:1.1.1:test - omitted for duplicate)
+|  |  \- (org.opentest4j:opentest4j:jar:1.0.0:test - omitted for duplicate)
+|  \- (org.junit.jupiter:junit-jupiter-api:jar:5.1.1:test - omitted for duplicate)
++- org.junit.jupiter:junit-jupiter-api:jar:5.1.1:test
+|  +- (org.apiguardian:apiguardian-api:jar:1.0.0:test - omitted for duplicate)
+|  +- org.opentest4j:opentest4j:jar:1.0.0:test
+|  \- org.junit.platform:junit-platform-commons:jar:1.1.1:test
+|     \- (org.apiguardian:apiguardian-api:jar:1.0.0:test - omitted for duplicate)
++- io.vertx:vertx-codegen:jar:3.5.1:test
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.3:compile - version managed from 2.9.0; scope updated from test; omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.3:compile - version managed from 2.9.0; scope updated from test; omitted for duplicate)
+|  \- org.mvel:mvel2:jar:2.3.1.Final:test
+\- org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.31:compile
+   \- org.jetbrains:annotations:jar:13.0:compile

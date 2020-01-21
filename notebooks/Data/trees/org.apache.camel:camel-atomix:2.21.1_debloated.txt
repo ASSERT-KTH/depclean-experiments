@@ -1,0 +1,100 @@
+org.apache.camel:camel-atomix:jar:2.21.1
++- org.apache.camel:camel-core:jar:2.21.1:compile
+|  +- org.slf4j:slf4j-api:jar:1.7.25:compile
+|  +- com.sun.xml.bind:jaxb-core:jar:2.3.0:compile
+|  \- com.sun.xml.bind:jaxb-impl:jar:2.3.0:compile
++- io.atomix:atomix:jar:1.0.8:compile
+|  +- io.atomix:atomix-resource-manager:jar:1.0.8:compile
+|  |  +- (io.atomix:atomix-resource:jar:1.0.8:compile - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.7; omitted for duplicate)
+|  +- io.atomix.catalyst:catalyst-local:jar:1.2.1:compile
+|  |  +- (io.atomix.catalyst:catalyst-transport:jar:1.2.1:compile - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.7; omitted for duplicate)
+|  +- (io.atomix:atomix-groups:jar:1.0.8:compile - omitted for duplicate)
+|  +- (io.atomix:atomix-variables:jar:1.0.8:compile - omitted for duplicate)
+|  +- (io.atomix:atomix-collections:jar:1.0.8:compile - omitted for duplicate)
+|  +- (io.atomix:atomix-concurrent:jar:1.0.8:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.7; omitted for duplicate)
++- io.atomix:atomix-groups:jar:1.0.8:compile
+|  +- (io.atomix:atomix-resource:jar:1.0.8:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.7; omitted for duplicate)
++- io.atomix:atomix-collections:jar:1.0.8:compile
+|  +- (io.atomix:atomix-resource:jar:1.0.8:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.7; omitted for duplicate)
++- io.atomix:atomix-variables:jar:1.0.8:compile
+|  +- (io.atomix:atomix-resource:jar:1.0.8:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.7; omitted for duplicate)
++- io.atomix:atomix-concurrent:jar:1.0.8:compile
+|  +- (io.atomix:atomix-resource:jar:1.0.8:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.7; omitted for duplicate)
++- io.atomix:atomix-resource:jar:1.0.8:compile
+|  +- io.atomix.copycat:copycat-client:jar:1.2.8:compile
+|  |  +- io.atomix.copycat:copycat-protocol:jar:1.2.8:compile
+|  |  |  +- (io.atomix.catalyst:catalyst-transport:jar:1.2.1:compile - omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.7; omitted for duplicate)
+|  +- io.atomix.copycat:copycat-server:jar:1.2.8:compile
+|  |  +- (io.atomix.copycat:copycat-protocol:jar:1.2.8:compile - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.7; omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.7; omitted for duplicate)
++- io.atomix.catalyst:catalyst-netty:jar:1.2.1:compile
+|  +- io.atomix.catalyst:catalyst-transport:jar:1.2.1:compile
+|  |  +- io.atomix.catalyst:catalyst-concurrent:jar:1.2.1:compile
+|  |  |  +- io.atomix.catalyst:catalyst-serializer:jar:1.2.1:compile
+|  |  |  |  +- io.atomix.catalyst:catalyst-buffer:jar:1.2.1:compile
+|  |  |  |  |  +- (io.atomix.catalyst:catalyst-common:jar:1.2.1:compile - omitted for duplicate)
+|  |  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  |  |  +- io.atomix.catalyst:catalyst-common:jar:1.2.1:compile
+|  |  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.7; omitted for duplicate)
+|  +- io.netty:netty-transport:jar:4.1.5.Final:compile
+|  |  +- io.netty:netty-buffer:jar:4.1.5.Final:compile
+|  |  |  \- io.netty:netty-common:jar:4.1.5.Final:compile
+|  |  \- io.netty:netty-resolver:jar:4.1.5.Final:compile
+|  |     \- (io.netty:netty-common:jar:4.1.5.Final:compile - omitted for duplicate)
+|  +- io.netty:netty-handler:jar:4.1.5.Final:compile
+|  |  +- (io.netty:netty-buffer:jar:4.1.5.Final:compile - omitted for duplicate)
+|  |  +- (io.netty:netty-transport:jar:4.1.5.Final:compile - omitted for duplicate)
+|  |  \- io.netty:netty-codec:jar:4.1.5.Final:compile
+|  |     \- (io.netty:netty-transport:jar:4.1.5.Final:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.7; omitted for duplicate)
++- org.apache.logging.log4j:log4j-api:jar:2.9.1:test
++- org.apache.logging.log4j:log4j-core:jar:2.9.1:test
+|  \- (org.apache.logging.log4j:log4j-api:jar:2.9.1:test - omitted for duplicate)
++- org.apache.logging.log4j:log4j-slf4j-impl:jar:2.9.1:test
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:test - version managed from 1.7.7; omitted for duplicate)
+|  +- (org.apache.logging.log4j:log4j-api:jar:2.9.1:test - omitted for duplicate)
+|  \- (org.apache.logging.log4j:log4j-core:jar:2.9.1:test - omitted for duplicate)
++- org.apache.camel:camel-test:jar:2.21.1:test
+|  +- (org.apache.camel:camel-core:jar:2.21.1:test - omitted for duplicate)
+|  \- junit:junit:jar:4.12:test
+|     \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.apache.camel:camel-test-spring:jar:2.21.1:test
+|  +- (org.apache.camel:camel-test:jar:2.21.1:test - omitted for duplicate)
+|  +- org.apache.camel:camel-spring:jar:2.21.1:test
+|  |  +- (org.apache.camel:camel-core:jar:2.21.1:test - omitted for duplicate)
+|  |  +- org.springframework:spring-core:jar:4.3.16.RELEASE:test
+|  |  |  \- commons-logging:commons-logging:jar:1.2:test
+|  |  +- org.springframework:spring-aop:jar:4.3.16.RELEASE:test
+|  |  |  +- (org.springframework:spring-beans:jar:4.3.16.RELEASE:test - omitted for duplicate)
+|  |  |  \- (org.springframework:spring-core:jar:4.3.16.RELEASE:test - omitted for duplicate)
+|  |  +- org.springframework:spring-context:jar:4.3.16.RELEASE:test
+|  |  |  +- (org.springframework:spring-aop:jar:4.3.16.RELEASE:test - omitted for duplicate)
+|  |  |  +- (org.springframework:spring-beans:jar:4.3.16.RELEASE:test - omitted for duplicate)
+|  |  |  +- (org.springframework:spring-core:jar:4.3.16.RELEASE:test - omitted for duplicate)
+|  |  |  \- (org.springframework:spring-expression:jar:4.3.16.RELEASE:test - omitted for duplicate)
+|  |  +- org.springframework:spring-beans:jar:4.3.16.RELEASE:test
+|  |  |  \- (org.springframework:spring-core:jar:4.3.16.RELEASE:test - omitted for duplicate)
+|  |  +- org.springframework:spring-expression:jar:4.3.16.RELEASE:test
+|  |  |  \- (org.springframework:spring-core:jar:4.3.16.RELEASE:test - omitted for duplicate)
+|  |  \- org.springframework:spring-tx:jar:4.3.16.RELEASE:test
+|  |     +- (org.springframework:spring-beans:jar:4.3.16.RELEASE:test - omitted for duplicate)
+|  |     \- (org.springframework:spring-core:jar:4.3.16.RELEASE:test - omitted for duplicate)
+|  \- org.springframework:spring-test:jar:4.3.16.RELEASE:test
+|     \- (org.springframework:spring-core:jar:4.3.16.RELEASE:test - omitted for duplicate)
++- org.hamcrest:java-hamcrest:jar:2.0.0.0:test
+\- org.apache.camel:apt:jar:2.21.1:provided
+   +- org.apache.camel:spi-annotations:jar:2.21.1:provided
+   \- org.apache.camel:json-simple-ordered:jar:2.21.1:provided

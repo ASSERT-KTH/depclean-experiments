@@ -1,0 +1,64 @@
+com.yahoo.elide:elide-graphql:jar:4.2.0
++- com.yahoo.elide:elide-core:jar:4.2.0:compile
+|  +- com.yahoo.elide:elide-annotations:jar:4.2.0:compile
+|  |  \- (org.projectlombok:lombok:jar:1.16.10:compile - omitted for duplicate)
+|  +- org.projectlombok:lombok:jar:1.16.10:compile
+|  +- com.google.guava:guava:jar:20.0:compile
+|  +- org.antlr:antlr4-runtime:jar:4.6:compile
+|  +- javax.ws.rs:javax.ws.rs-api:jar:2.0.1:compile
+|  +- org.apache.commons:commons-lang3:jar:3.5:compile
+|  +- org.apache.commons:commons-collections4:jar:4.1:compile
+|  +- commons-beanutils:commons-beanutils:jar:1.9.3:compile
+|  |  +- commons-logging:commons-logging:jar:1.2:compile
+|  |  \- commons-collections:commons-collections:jar:3.2.2:compile
+|  +- javax.inject:javax.inject:jar:1:compile
+|  +- cz.jirutka.rsql:rsql-parser:jar:2.1.0:compile
+|  +- javax.validation:validation-api:jar:2.0.0.Final:compile
+|  +- org.slf4j:slf4j-api:jar:1.7.21:compile
+|  +- de.odysseus.juel:juel-impl:jar:2.2.7:compile
+|  +- de.odysseus.juel:juel-api:jar:2.2.7:compile
+|  +- org.fusesource.jansi:jansi:jar:1.14:compile
+|  \- org.reflections:reflections:jar:0.9.11:compile
+|     +- (com.google.guava:guava:jar:20.0:compile - omitted for duplicate)
+|     \- org.javassist:javassist:jar:3.21.0-GA:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.8.7:provided
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:provided
+|  \- com.fasterxml.jackson.core:jackson-core:jar:2.8.7:provided
++- com.graphql-java:graphql-java:jar:6.0:compile
+|  +- (org.antlr:antlr4-runtime:jar:4.5.1:compile - omitted for conflict with 4.6)
+|  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.25; omitted for duplicate)
+|  +- com.graphql-java:java-dataloader:jar:2.0.1:compile
+|  \- org.reactivestreams:reactive-streams:jar:1.0.1:compile
++- ch.qos.logback:logback-classic:jar:1.1.7:test
+|  +- (ch.qos.logback:logback-core:jar:1.1.7:test - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.21:test - version managed from 1.7.20; omitted for duplicate)
++- ch.qos.logback:logback-core:jar:1.1.7:test
++- org.testng:testng:jar:6.9.9:test
+|  +- com.beust:jcommander:jar:1.48:test
+|  +- org.apache.ant:ant:jar:1.7.0:test
+|  |  \- org.apache.ant:ant-launcher:jar:1.7.0:test
+|  +- org.yaml:snakeyaml:jar:1.15:test
+|  \- org.beanshell:bsh:jar:2.0b4:test
++- org.mockito:mockito-core:jar:2.2.26:test
+|  +- net.bytebuddy:byte-buddy:jar:1.5.5:test
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.5.5:test
+|  \- org.objenesis:objenesis:jar:2.4:test
++- org.codehaus.groovy:groovy-all:jar:2.4.7:test
++- javax.persistence:persistence-api:jar:1.0.2:test
++- org.glassfish.jersey.core:jersey-common:jar:2.25.1:test
+|  +- (javax.ws.rs:javax.ws.rs-api:jar:2.0.1:test - omitted for duplicate)
+|  +- javax.annotation:javax.annotation-api:jar:1.2:test
+|  +- org.glassfish.jersey.bundles.repackaged:jersey-guava:jar:2.25.1:test
+|  +- org.glassfish.hk2:hk2-api:jar:2.5.0-b32:test
+|  |  +- org.glassfish.hk2:hk2-utils:jar:2.5.0-b32:test
+|  |  \- org.glassfish.hk2.external:aopalliance-repackaged:jar:2.5.0-b32:test
+|  +- org.glassfish.hk2.external:javax.inject:jar:2.5.0-b32:test
+|  +- org.glassfish.hk2:hk2-locator:jar:2.5.0-b32:test
+|  |  +- (org.glassfish.hk2.external:javax.inject:jar:2.5.0-b32:test - omitted for duplicate)
+|  |  +- (org.glassfish.hk2.external:aopalliance-repackaged:jar:2.5.0-b32:test - omitted for duplicate)
+|  |  +- (org.glassfish.hk2:hk2-api:jar:2.5.0-b32:test - omitted for duplicate)
+|  |  +- (org.glassfish.hk2:hk2-utils:jar:2.5.0-b32:test - omitted for duplicate)
+|  |  \- (org.javassist:javassist:jar:3.20.0-GA:test - omitted for conflict with 3.21.0-GA)
+|  \- org.glassfish.hk2:osgi-resource-locator:jar:1.0.1:test
+\- org.skyscreamer:jsonassert:jar:1.5.0:test
+   \- com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:test

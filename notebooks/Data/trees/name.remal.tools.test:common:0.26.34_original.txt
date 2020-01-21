@@ -1,0 +1,12 @@
+name.remal.tools.test:common:jar:0.26.34
++- org.assertj:assertj-db:jar:1.2.0:compile
+|  \- (org.assertj:assertj-core:jar:3.9.1:compile - version managed from 3.5.2; omitted for duplicate)
++- org.assertj:assertj-guava:jar:3.1.0:compile
+|  \- (org.assertj:assertj-core:jar:3.9.1:compile - version managed from 3.5.2; omitted for duplicate)
++- org.assertj:assertj-core:jar:3.9.1:compile
++- com.nhaarman:mockito-kotlin:jar:1.5.0:compile
+|  \- (org.mockito:mockito-core:jar:2.18.0:compile - version managed from 2.8.9; omitted for duplicate)
+\- org.mockito:mockito-core:jar:2.18.0:compile
+   +- net.bytebuddy:byte-buddy:jar:1.8.3:compile
+   +- net.bytebuddy:byte-buddy-agent:jar:1.8.3:compile
+   \- org.objenesis:objenesis:jar:2.6:compile

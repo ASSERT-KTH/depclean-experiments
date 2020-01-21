@@ -1,0 +1,4 @@
+com.alipay.sofa:sofa-ark-spi:jar:0.1.0
++- com.alipay.sofa:sofa-ark-exception:jar:0.1.0:compile
+\- junit:junit:jar:4.12:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

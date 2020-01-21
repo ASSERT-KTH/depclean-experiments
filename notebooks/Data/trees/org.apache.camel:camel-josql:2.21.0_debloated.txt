@@ -1,0 +1,21 @@
+org.apache.camel:camel-josql:jar:2.21.0
++- org.apache.camel:camel-core:jar:2.21.0:compile
+|  +- org.slf4j:slf4j-api:jar:1.7.25:compile
+|  +- com.sun.xml.bind:jaxb-core:jar:2.3.0:compile
+|  \- com.sun.xml.bind:jaxb-impl:jar:2.3.0:compile
++- org.apache.servicemix.bundles:org.apache.servicemix.bundles.josql:jar:1.5_5:compile
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.apache.camel:camel-test:jar:2.21.0:test
+|  +- (org.apache.camel:camel-core:jar:2.21.0:test - omitted for duplicate)
+|  \- (junit:junit:jar:4.12:test - omitted for duplicate)
++- org.apache.logging.log4j:log4j-api:jar:2.9.1:test
++- org.apache.logging.log4j:log4j-core:jar:2.9.1:test
+|  \- (org.apache.logging.log4j:log4j-api:jar:2.9.1:test - omitted for duplicate)
++- org.apache.logging.log4j:log4j-slf4j-impl:jar:2.9.1:test
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)
+|  +- (org.apache.logging.log4j:log4j-api:jar:2.9.1:test - omitted for duplicate)
+|  \- (org.apache.logging.log4j:log4j-core:jar:2.9.1:test - omitted for duplicate)
+\- org.apache.camel:apt:jar:2.21.0:provided
+   +- org.apache.camel:spi-annotations:jar:2.21.0:provided
+   \- org.apache.camel:json-simple-ordered:jar:2.21.0:provided

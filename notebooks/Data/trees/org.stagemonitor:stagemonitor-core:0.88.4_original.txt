@@ -1,0 +1,27 @@
+org.stagemonitor:stagemonitor-core:jar:0.88.4
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- io.dropwizard.metrics:metrics-core:jar:3.2.4:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.22:compile - omitted for conflict with 1.7.25)
++- io.dropwizard.metrics:metrics-graphite:jar:3.2.4:compile
+|  +- (io.dropwizard.metrics:metrics-core:jar:3.2.4:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.22:compile - omitted for conflict with 1.7.25)
++- io.dropwizard.metrics:metrics-annotation:jar:3.2.4:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.22:compile - omitted for conflict with 1.7.25)
++- io.dropwizard.metrics:metrics-json:jar:3.2.4:compile
+|  +- (io.dropwizard.metrics:metrics-core:jar:3.2.4:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.6.6:compile - omitted for conflict with 2.9.0)
+|  \- (org.slf4j:slf4j-api:jar:1.7.22:compile - omitted for conflict with 1.7.25)
++- io.dropwizard.metrics:metrics-healthchecks:jar:3.2.4:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.22:compile - omitted for conflict with 1.7.25)
++- com.fasterxml.jackson.core:jackson-databind:jar:2.9.0:compile
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+|  \- com.fasterxml.jackson.core:jackson-core:jar:2.9.0:compile
++- com.fasterxml.jackson.module:jackson-module-afterburner:jar:2.9.0:compile
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.0:compile - omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.0:compile - omitted for duplicate)
++- net.bytebuddy:byte-buddy:jar:1.7.9:compile
++- net.bytebuddy:byte-buddy-agent:jar:1.7.9:compile
++- org.stagemonitor:stagemonitor-configuration:jar:0.88.4:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
++- io.prometheus:simpleclient:jar:0.0.26:provided
+\- org.stagemonitor:stagemonitor-dispatcher:jar:0.88.4:provided

@@ -1,0 +1,55 @@
+org.tpolecat:doobie-core_2.12:jar:0.5.0
++- org.scala-lang:scala-library:jar:2.12.4:compile
++- org.tpolecat:doobie-free_2.12:jar:0.5.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  +- co.fs2:fs2-core_2.12:jar:0.10.1:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  |  \- org.typelevel:cats-effect_2.12:jar:0.8:compile
+|  |     +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  |     \- (org.typelevel:cats-core_2.12:jar:1.0.1:compile - omitted for duplicate)
+|  +- org.typelevel:cats-core_2.12:jar:1.0.1:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  |  +- org.typelevel:cats-macros_2.12:jar:1.0.1:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  |  |  \- (org.typelevel:machinist_2.12:jar:0.6.2:compile - omitted for duplicate)
+|  |  +- org.typelevel:cats-kernel_2.12:jar:1.0.1:compile
+|  |  |  \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  |  \- org.typelevel:machinist_2.12:jar:0.6.2:compile
+|  |     +- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.4)
+|  |     \- (org.scala-lang:scala-reflect:jar:2.12.0:compile - omitted for conflict with 2.12.4)
+|  \- org.typelevel:cats-free_2.12:jar:1.0.1:compile
+|     +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|     +- (org.typelevel:cats-macros_2.12:jar:1.0.1:compile - omitted for duplicate)
+|     +- (org.typelevel:cats-core_2.12:jar:1.0.1:compile - omitted for duplicate)
+|     \- (org.typelevel:machinist_2.12:jar:0.6.2:compile - omitted for duplicate)
++- org.scalacheck:scalacheck_2.12:jar:1.13.5:test
+|  +- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.4)
+|  \- org.scala-sbt:test-interface:jar:1.0:test
++- org.specs2:specs2-core_2.12:jar:4.0.2:test
+|  +- (org.scala-lang:scala-library:jar:2.12.3:test - omitted for conflict with 2.12.4)
+|  +- org.specs2:specs2-matcher_2.12:jar:4.0.2:test
+|  |  +- (org.scala-lang:scala-library:jar:2.12.3:test - omitted for conflict with 2.12.4)
+|  |  \- org.specs2:specs2-common_2.12:jar:4.0.2:test
+|  |     +- (org.scala-lang:scala-library:jar:2.12.3:test - omitted for conflict with 2.12.4)
+|  |     +- org.specs2:specs2-fp_2.12:jar:4.0.2:test
+|  |     |  \- (org.scala-lang:scala-library:jar:2.12.3:test - omitted for conflict with 2.12.4)
+|  |     +- (org.scala-lang:scala-reflect:jar:2.12.3:test - omitted for conflict with 2.12.0)
+|  |     +- org.scala-lang.modules:scala-xml_2.12:jar:1.0.6:test
+|  |     |  \- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.4)
+|  |     \- org.scala-lang.modules:scala-parser-combinators_2.12:jar:1.0.6:test
+|  |        \- (org.scala-lang:scala-library:jar:2.12.2:test - omitted for conflict with 2.12.4)
+|  \- (org.scala-sbt:test-interface:jar:1.0:test - omitted for duplicate)
++- org.specs2:specs2-scalacheck_2.12:jar:4.0.2:test
+|  +- (org.scala-lang:scala-library:jar:2.12.3:test - omitted for conflict with 2.12.4)
+|  +- (org.specs2:specs2-core_2.12:jar:4.0.2:test - omitted for duplicate)
+|  +- (org.scalacheck:scalacheck_2.12:jar:1.13.5:test - omitted for duplicate)
+|  \- (org.scala-sbt:test-interface:jar:1.0:test - omitted for duplicate)
++- org.scala-lang:scala-reflect:jar:2.12.4:compile
+|  \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
++- com.chuusai:shapeless_2.12:jar:2.3.3:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  \- org.typelevel:macro-compat_2.12:jar:1.1.1:compile
+|     \- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.4)
++- com.lihaoyi:sourcecode_2.12:jar:0.1.4:compile
+|  \- (org.scala-lang:scala-library:jar:2.12.2:compile - omitted for conflict with 2.12.4)
+\- com.h2database:h2:jar:1.4.196:test

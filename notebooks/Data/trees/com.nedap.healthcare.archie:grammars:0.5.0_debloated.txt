@@ -1,0 +1,9 @@
+com.nedap.healthcare.archie:grammars:jar:0.5.0
++- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.6:compile
++- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.6:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile - omitted for conflict with 2.9.6)
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.6:compile - omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.6:compile - omitted for duplicate)
++- commons-io:commons-io:jar:2.6:compile
++- org.antlr:antlr4-runtime:jar:4.7.1:compile
+\- org.slf4j:slf4j-api:jar:1.7.25:compile

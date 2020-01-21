@@ -1,0 +1,13 @@
+com.suyeer:basic:jar:2.2.8
++- javax.servlet:javax.servlet-api:jar:3.1.0:compile
++- org.apache.httpcomponents:httpclient:jar:4.5.3:compile
+|  +- org.apache.httpcomponents:httpcore:jar:4.4.6:compile
+|  +- commons-logging:commons-logging:jar:1.2:compile
+|  \- commons-codec:commons-codec:jar:1.9:compile
++- com.alibaba:fastjson:jar:1.2.32:compile
++- org.slf4j:slf4j-log4j12:jar:1.7.25:compile
+|  +- org.slf4j:slf4j-api:jar:1.7.25:compile
+|  \- log4j:log4j:jar:1.2.17:compile
++- commons-lang:commons-lang:jar:2.6:compile
++- commons-io:commons-io:jar:2.5:compile
+\- com.google.zxing:core:jar:3.3.0:compile

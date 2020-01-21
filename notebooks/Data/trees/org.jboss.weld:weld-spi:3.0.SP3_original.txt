@@ -1,0 +1,12 @@
+org.jboss.weld:weld-spi:jar:3.0.SP3
++- org.jboss.weld:weld-api:jar:3.0.SP3:compile
+|  \- javax.enterprise:cdi-api:jar:2.0:compile
+|     \- javax.inject:javax.inject:jar:1:compile
++- org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final:compile
++- org.testng:testng:jar:jdk15:5.10:test
+|  \- junit:junit:jar:3.8.1:test
++- org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.0.0.Final:compile
++- org.jboss.spec.javax.servlet:jboss-servlet-api_3.1_spec:jar:1.0.0.Final:compile
++- javax.validation:validation-api:jar:1.1.0.Final:compile
++- org.jboss.spec.javax.ejb:jboss-ejb-api_3.2_spec:jar:1.0.0.Final:compile
+\- org.jboss.spec.javax.interceptor:jboss-interceptors-api_1.2_spec:jar:1.0.0.Final:compile

@@ -1,0 +1,673 @@
+---
+title: "R Notebook to analyze the data for answering RQ2"
+output: html_notebook
+---
+
+Import required data and libraries
+
+```{r message=FALSE, warning=FALSE, paged.print=FALSE}
+# clear the R environment
+rm(list=ls())
+
+library(tidyverse)
+library(latex2exp)
+library(scales)
+library(extrafont)
+library(viridis)
+library(ggridges)
+library(forcats)
+library(ggExtra)
+library(grid)
+library(gtable)
+# set fonts
+loadfonts(device = "pdf")
+# font_import()
+# link www.fontsquirrel.com/fonts/latin-modern-roman  
+
+# execute once to add fonts:
+# font_import(pattern = "lmroman*")
+# theme(legend.position = "top", text=element_text(size=14, family="LM Roman 10"))
+
+# set ggplot global theme
+theme_set(theme_bw() +
+            theme(legend.position = "top") +
+            theme(text = element_text(size = 16, family = "LM Roman 10")))
+
+# multiple figures together
+if(!require(devtools)) install.packages("devtools")
+devtools::install_github("thomasp85/patchwork")
+library(patchwork)
+
+# load pre-processed data
+load(file="Data/description.RData")
+load(file="Data/results.RData")
+data <- read_csv("Data/data.csv", col_names = T)
+```
+
+## Bloated dependencies in multi-module projects
+
+```{r}
+results_bloat <- results %>% 
+  mutate(TypeUsage = ifelse(ud == T, "ud", 
+                            ifelse(ut == T, "ut", 
+                                   ifelse(ui == T, "ui", 
+                                          ifelse(bd == T, "bd", 
+                                                 ifelse(bt == T, "bt",
+                                                        "bi"))))))
+
+# is multi modulue
+description_multimodule <- description %>% dplyr::select(Artifact, IsMultimodule)
+
+# percentage of usage types for the compiled scope
+filtered_results_bloat<- results_bloat %>% 
+  filter(Scope %in% c("compile")) %>% 
+  dplyr::group_by(Artifact, TypeUsage) %>%
+  dplyr::summarise(n = n()) %>% 
+  mutate (percentage = n / sum(n)) %>% 
+  ungroup() %>% 
+  tidyr::complete(Artifact, TypeUsage, fill = list(n = 0))
+
+filtered_results_bloat$label <- round(filtered_results_bloat$percentage * 100, 1)
+
+join_multimodule <- inner_join(filtered_results_bloat, description_multimodule, by = "Artifact")
+join_multimodule$IsMultimodule <- ifelse(join_multimodule$IsMultimodule == "yes", "multi-module", "single-module")
+
+join_multimodule$IsMultimodule <- as.factor(join_multimodule$IsMultimodule)
+join_multimodule %>%
+  filter(is.na(IsMultimodule) == F) %>%
+  ggplot(aes(fill=TypeUsage, y=n, x=IsMultimodule)) + 
+   geom_bar(stat="identity", position = position_fill(reverse = TRUE)) +
+      # geom_text(aes(y = percentage, label = paste0(label,"%")), position = position_stack(reverse = TRUE, vjust = .5), family = "LM Roman 10") +
+    scale_fill_manual(values = c("#7a6ff5","#9a91ff", "#c7c1ff",  "#f5b76f", "#ffcc91", "#ffe3c1")) +
+    labs(y = "%Dependencies", x = "Scope") +
+    scale_y_continuous(labels = scales::percent) +
+    theme(legend.position = "top", legend.title = element_blank(), text = element_text(size = 16, family = "LM Roman 10")) +
+  xlab("Artifacts") +
+    coord_flip() +
+    theme(axis.text.y=element_blank())
+
+join_multimodule
+
+View(join_multimodule)
+summary(join_multimodule)
+summary(join_multimodule)
+
+means <- aggregate(percentage ~  TypeUsage, join_multimodule, mean)
+means$n <- round(means$n, 2)
+
+nb_direct_and_transitive_deps_boxplot <- 
+  nb_direct_and_transitive_deps %>% 
+  ggplot(aes(Type, n)) +
+  geom_violin(trim = FALSE, aes(fill = Type)) +
+  geom_boxplot(width = 0.1) +
+  scale_y_log10(
+    breaks = scales::trans_breaks("log10", function(x) 10 ^ x),
+    labels = scales::trans_format("log10", scales::math_format(10 ^ .x))
+  ) +
+  geom_point(data = means,
+             aes(x=Type, y=n),
+             colour="black",
+                shape=18, size=6, show.legend = FALSE)+
+  geom_point(data = means,
+             aes(x=Type, y=n),
+             colour="lightblue", 
+                shape=18, size=4, show.legend = FALSE)+
+  geom_text(data = means, aes(label = n, y = n)) 
+
+# boxplot
+dodge <- position_dodge(width = 0.6)
+filtered_results_bloat_multimodule_boxplot <- 
+  join_multimodule %>% 
+  mutate(IsMultimodule = ifelse(IsMultimodule == "yes", "multi-module", "single-module")) %>% 
+  filter(IsMultimodule == "multi-module" | IsMultimodule == "single-module") %>% 
+  ggplot(aes(x = IsMultimodule, y = percentage, fill = TypeUsage)) +
+  geom_violin(position = dodge) +
+  geom_boxplot(alpha = 0.1, width = 0.5) +
+    # stat_summary(fun.y=mean, geom="point", shape=23, size=2) +
+  scale_fill_manual(values = c("#7a6ff5","#9a91ff", "#c7c1ff",  "#f5b76f", "#ffcc91", "#ffe3c1")) +
+  ylab("%Dependencies") +
+  scale_y_continuous(labels = scales::percent) +
+    theme(legend.position = "top", legend.title = element_blank(), text = element_text(size = 16, family = "LM Roman 10")) 
+
+ggsave(filename = "Figures/filtered_results_bloat_multimodule_boxplot.pdf", plot = filtered_results_bloat_multimodule_boxplot,
+       height = 4, width = 7,  units = c("in"), device = "pdf")
+
+
+
+join_multimodule$IsMultimodule_f <-  factor(join_multimodule$IsMultimodule, levels=c('single-module','multi-module'))
+join_multimodule$TypeUsage_f <-  factor(join_multimodule$TypeUsage, levels=c('single-module','multi-module'))
+ndeps_singlemod_multimod <- join_multimodule %>% 
+  filter(is.na(IsMultimodule_f) == F) %>% 
+  ggplot(aes(TypeUsage, n, fill = TypeUsage)) + 
+  geom_violin(scale = "width") +
+   geom_boxplot(alpha = 0.1) +
+  scale_y_continuous(breaks=c(0, 1,10,100,1000, 10000, 100000), trans="log1p") +
+  scale_fill_manual(values = c("#7a6ff5","#9a91ff", "#c7c1ff",  "#f5b76f", "#ffcc91", "#ffe3c1")) +
+  ylab("#Dependencies") +
+  xlab("Type of usage") +
+  facet_grid(IsMultimodule_f ~ .) +
+    theme(legend.position = "none", legend.title = element_blank(), text = element_text(size = 16, family = "LM Roman 10")) 
+
+ggsave(filename = "Figures/ndeps_singlemod_multimod.pdf", plot = ndeps_singlemod_multimod,
+       height = 4, width = 7,  units = c("in"), device = "pdf")
+
+a <- join_multimodule %>% 
+  filter(is.na(IsMultimodule_f) == F) %>% 
+  filter(TypeUsage == "bt" & IsMultimodule_f == "multi-module")
+
+summary(a$n)
+ 
+
+
+
+single_mod <- join_multimodule %>% filter(IsMultimodule == "single-module")
+single_mod <- single_mod$n
+
+multi_mod <- join_multimodule %>% filter(IsMultimodule == "multi-module" & TypeUsage == "bi")
+multi_mod <- multi_mod$n
+
+summary(single_mod)
+summary(multi_mod)
+
+res <- wilcox.test(single_mod, multi_mod)
+res
+
+a <- join_multimodule %>% filter(IsMultimodule == "single-module") %>% group_by(Artifact) %>% summarise(sum_n = sum(n))
+
+b <- join_multimodule %>% filter(IsMultimodule == "multi-module") %>% group_by(Artifact) %>% summarise(sum_n = sum(n))
+
+summary(a$sum_n)
+summary(b$sum_n)
+
+res <- wilcox.test(a$sum_n, b$sum_n)
+res
+
+join_multimodule %>% 
+  filter(TypeUsage == "bi") %>% 
+  arrange(desc(n))
+
+
+View(results %>% filter(Type == "transitive" & Declared == F))
+```
+
+### Barplot of dependency usage multi-module and single-module
+
+```{r}
+results_bloat <- results %>% 
+  mutate(TypeUsage = ifelse(ud == T, "ud", 
+                            ifelse(ut == T, "ut", 
+                                   ifelse(ui == T, "ui", 
+                                          ifelse(bd == T, "bd", 
+                                                 ifelse(bt == T, "bt",
+                                                        "bi"))))))
+
+# is multi modulue
+description_multimodule <- description %>% dplyr::select(Artifact, IsMultimodule)
+
+# percentage of usage types for the compiled scope
+filtered_results_bloat<- results_bloat %>% 
+  filter(Scope %in% c("compile")) %>% 
+  dplyr::group_by(Artifact, TypeUsage) %>%
+  dplyr::summarise(n = n()) %>% 
+  mutate (percentage = n / sum(n)) %>% 
+  ungroup()
+
+filtered_results_bloat$label <- round(filtered_results_bloat$percentage * 100, 1)
+
+join_multimodule <- inner_join(filtered_results_bloat, description_multimodule, by = "Artifact")
+
+
+join_multimodule$IsMultimodule <- as.factor(join_multimodule$IsMultimodule)
+join_multimodule %>%
+  filter(is.na(IsMultimodule) == F) %>%
+  ggplot(aes(fill=TypeUsage, y=n, x=IsMultimodule)) + 
+   geom_bar(stat="identity", position = position_fill(reverse = TRUE)) +
+      # geom_text(aes(y = percentage, label = paste0(label,"%")), position = position_stack(reverse = TRUE, vjust = .5), family = "LM Roman 10") +
+    scale_fill_manual(values = c("#7a6ff5","#9a91ff", "#c7c1ff",  "#f5b76f", "#ffcc91", "#ffe3c1")) +
+    labs(y = "%Dependencies", x = "Scope") +
+    scale_y_continuous(labels = scales::percent) +
+    theme(legend.position = "top", legend.title = element_blank(), text = element_text(size = 16, family = "LM Roman 10")) +
+  xlab("Artifacts") +
+    coord_flip() +
+    theme(axis.text.y=element_blank())
+
+join_multimodule$IsMultimodule <- as.factor(join_multimodule$IsMultimodule)
+join_multimodule$IsMultimodule <- ifelse(join_multimodule$IsMultimodule == "yes", "multi-module", "single-module")
+
+percnt <- join_multimodule %>% 
+  dplyr::group_by(IsMultimodule, TypeUsage) %>%
+  dplyr::summarise (sumn = sum(n)) %>%
+  dplyr::mutate(freq = sumn / sum(sumn))
+percnt$label <- round(percnt$freq * 100, 1)
+
+percnt$IsMultimodule_f <-  factor(percnt$IsMultimodule, levels=c('single-module','multi-module'))
+
+percnt$TypeUsage_f <-  factor(percnt$TypeUsage, levels=c('bd','bi','bt','ud','ui','ut'))
+multimod_barplot <- percnt %>%
+  filter(is.na(IsMultimodule) == F) %>%
+  ggplot(aes(fill=TypeUsage_f, y=sumn, x="",  label = paste0(label,"%"))) + 
+   geom_bar(stat="identity", position = position_fill(reverse = TRUE)) +
+      geom_text(aes(y = freq, label = paste0(label,"%")), position = position_stack(reverse = TRUE, vjust = .5), family = "LM Roman 10") +
+    scale_fill_manual(values = c("#7a6ff5","#9a91ff", "#c7c1ff",  "#f5b76f", "#ffcc91", "#ffe3c1")) +
+    labs(y = "%Dependencies", x = "Artifacts") +
+    scale_y_continuous(labels = scales::percent) +
+  # xlab("Artifacts") +
+    coord_flip() +
+  theme(legend.position = "top", legend.title = element_blank()) +
+  facet_grid(IsMultimodule_f ~ .) 
+    # theme(axis.text.y=element_blank())
+
+ggsave(filename = "Figures/multimod_barplot.pdf", plot = multimod_barplot,
+       height = 4, width = 7,  units = c("in"), device = "pdf")
+
+
+
+```
+
+
+
+```{r}
+dodge <- position_dodge(width = 0.7)
+group_df <- 
+  join_multimodule %>% 
+  mutate(IsMultimodule = ifelse(IsMultimodule == "yes", "multi-module", "single-module")) %>% 
+  filter(IsMultimodule == "multi-module" | IsMultimodule == "single-module") %>% 
+  mutate(TypeUsage = ifelse(TypeUsage == "ud" | TypeUsage == "ut" | TypeUsage == "ui", "used", "bloated")) %>% 
+  group_by(Artifact, TypeUsage, IsMultimodule) %>% 
+  summarise(n = sum(n)) %>% 
+  ungroup() %>% 
+  group_by(Artifact) %>%
+  mutate (percentage = n / sum(n))
+  
+filtered_results_bloat_multimodule_boxplot <- group_df %>% 
+  ggplot(aes(x = IsMultimodule, y = percentage, fill = TypeUsage)) +
+  geom_violin(position = dodge, width=0.5) +
+  geom_boxplot(alpha = 0.1, width = 0.4) +
+    # stat_summary(fun.y=mean, geom="point", shape=23, size=2) +
+  scale_fill_manual(values = c("#7a6ff5", "#ffe3c1")) +
+  ylab("%Dependencies") +
+  scale_y_continuous(labels = scales::percent) +
+    theme(legend.position = "top", legend.title = element_blank(), text = element_text(size = 16, family = "LM Roman 10")) 
+ 
+   ggsave(filename = "Figures/filtered_results_bloat_multimodule_boxplot.pdf", plot = filtered_results_bloat_multimodule_boxplot,
+       height = 4, width = 7,  units = c("in"), device = "pdf")
+   
+   
+summary(group_df %>% filter(IsMultimodule == "multi-module" & TypeUsage == "bloated"))
+summary(group_df %>% filter(IsMultimodule == "single-module" & TypeUsage == "bloated"))
+0.39
+0.466
+
+summary(group_df %>% filter(IsMultimodule == "multi-module" & TypeUsage == "used"))
+summary(group_df %>% filter(IsMultimodule == "single-module" & TypeUsage == "used"))
+```
+
+
+
+```{r}
+# count the number
+join_multimodule_aggregated <- aggregate(join_multimodule$n, by=list(IsMultimodule=join_multimodule$IsMultimodule, TypeUsage=join_multimodule$TypeUsage), FUN=sum)
+
+filtered_results_bloat_multimodule <- join_multimodule_aggregated %>% 
+  ggplot(aes(x = IsMultimodule, y = x, fill = TypeUsage)) +
+    geom_bar(stat="identity", position = "dodge") +
+    # geom_text(size = 5, position = position_stack(vjust = 0.5), family = "LM Roman 10") +
+    scale_fill_viridis(discrete = TRUE) +
+    labs(x = "Multimodule", y = "#Dependencies") +
+     scale_y_continuous(name="#Dependencies", labels = comma) +
+    # scale_y_continuous(labels = scales::percent) +
+    theme(legend.position = "top", legend.title = element_blank(), text = element_text(size = 16, family = "LM Roman 10")) +
+    coord_flip()
+
+# count the percentage
+join_multimodule_aggregated %>% group_by(IsMultimodule, TypeUsage) %>% summarise(x/sum(x))
+
+join_multimodule_aggregated$IsMultimodule <- as.factor(join_multimodule_aggregated$IsMultimodule)
+join_multimodule_aggregated$TypeUsage <- as.factor(join_multimodule_aggregated$TypeUsage)
+
+join_multimodule_aggregated <- join_multimodule_aggregated %>% 
+   dplyr::ungroup() %>% 
+  group_by(IsMultimodule, TypeUsage) %>% 
+  dplyr::mutate(freq = x / sum(x))
+ 
+# Bar plot
+filtered_results_bloat_multimodule <- join_multimodule_aggregated %>% 
+  ggplot(aes(x = IsMultimodule, y = x, fill = TypeUsage)) +
+    geom_bar(stat="identity", position = "dodge") +
+    # geom_text(size = 5, position = position_stack(vjust = 0.5), family = "LM Roman 10") +
+    scale_fill_viridis(discrete = TRUE) +
+    labs(x = "Multimodule", y = "#Dependencies") +
+     scale_y_continuous(name="#Dependencies", labels = comma) +
+    # scale_y_continuous(labels = scales::percent) +
+    theme(legend.position = "top", legend.title = element_blank(), text = element_text(size = 16, family = "LM Roman 10")) +
+    coord_flip()
+
+ggsave(filename = "Figures/filtered_results_bloat_multimodule.pdf", plot = filtered_results_bloat_multimodule,
+       height = 3, width = 7,  units = c("in"), device = "pdf")
+```
+
+
+
+## Rotten bloated dependencies
+
+```{r}
+results %>% filter(AllDeps == "org.eclipse.core:filesystem:test")
+
+View(results %>% group_by(Artifact) %>% summarise(n =n()) %>% arrange(desc(n)))
+
+View(results %>% filter(Artifact == "org.jxls:jxls-poi:1.0.15"))
+
+View(results %>% filter(BloatedDeclared == TRUE & Scope == "compile"))
+
+
+results %>% filter(Artifact == "org.jxls:jxls-poi:1.0.15" & Scope == "compile") %>% filter(Used == F & Type == "transitive")
+View(data %>% filter(GroupId == "org.apache.flink"))
+
+results %>% group_by(Artifact) %>% summarise(n = n()) %>%  arrange(desc(n))
+
+# org.apache.accumulo:accumulo-core:1.9.0
+# org.apache.hive:hive-contrib:2.3.3
+# org.apache.flink:flink-hbase_2.11:1.5.0
+# org.apache.drill:drill-yarn:1.14.0
+# com.netflix.dynomitemanager:dynomitemanager-common:2.0.13
+# com.facebook.presto:presto-main:0.192
+# ml.dmlc:xgboost4j-spark:0.72
+# org.apache.hive.shims:hive-shims-0.23:2.3.3
+
+filtered_results_bloat %>% filter(Artifact == "org.apache.accumulo:accumulo-core:1.9.0")
+
+accumulo_versions_list <- data %>% 
+  filter(GroupId == "org.apache.accumulo" & ArtifactId == "accumulo-core") %>% 
+  arrange(desc(Version)) %>% 
+  mutate(Artifact = paste(paste(GroupId, ArtifactId, sep = ":"), Version, sep = ":")) %>% 
+  select(Artifact)
+
+# write the list versions of the candidate library
+write.csv(accumulo_versions_list, file = "/home/cesarsv/Documents/accumulo_versions_list.csv", col.names = FALSE, row.names = F, quote = F)
+
+# read the dependency analysis results of all versions
+accumulo_versions_list_results <- read_csv("Data/accumulo_versions_list_results.csv", col_names = T)
+
+# reshape the dataset
+accumulo_versions_list_results <- accumulo_versions_list_results %>%
+  mutate(
+    UsedDeclared =  ifelse(Used == T &
+                             Declared == T, T, F),
+    UsedUndeclared =  ifelse(Used == T &
+                               Declared == F, T, F),
+    BloatedDeclared =  ifelse(Used == F &
+                                Declared == T, T, F),
+    BloatedUndeclared =  ifelse(Used == F &
+                                  Declared == F, T, F)
+  ) %>%
+  mutate(TypeUsage = ifelse(
+    UsedDeclared == T,
+    "UsedDeclared",
+    ifelse(
+      UsedUndeclared == T,
+      "UsedUndeclared",
+      ifelse(BloatedDeclared == T, "BloatedDeclared", "BloatedUndeclared")
+    )
+  )) %>% 
+  filter(Scope == "compile" & Optional == F) %>% 
+  group_by(Artifact, TypeUsage) %>% 
+  summarise(n = n()) %>% 
+  filter(TypeUsage == "BloatedDeclared" | TypeUsage == "BloatedUndeclared")
+
+# Extract release date for each version
+data2 <- data %>% 
+  filter(GroupId == "org.apache.accumulo" & ArtifactId == "accumulo-core") %>% 
+  mutate(Artifact = paste(paste(GroupId, ArtifactId, sep = ":"), Version, sep = ":")) %>% 
+  select(Artifact, Version, Release) 
+  
+accumulo_versions_list_results_plot <- inner_join(accumulo_versions_list_results, data2, by = "Artifact") %>% 
+  ggplot(aes(x = Release, y = n, color = TypeUsage, shape = TypeUsage)) +
+  geom_point(size = 3) +
+  geom_line(aes(type = TypeUsage)) +
+  geom_text(aes(label=Version), hjust=0, vjust=-0.5,show.legend = FALSE, size = 2) +
+  xlab("Release Date") + 
+  ylab("Count") + 
+  # scale_color_viridis(discrete=TRUE) +
+  scale_x_date(date_breaks = "1 year", date_labels = "%Y",  limits = as.Date(c('2012-01-01','2019-01-01'))) +
+  scale_y_continuous(limits=c(0, 100)) +
+  scale_color_manual(values = c("#482173", "#2e6f8e")) +
+  theme(legend.title = element_blank())
+
+# viridis color palette: #482173, #2e6f8e, #29af7f, #bddf26
+ggsave(filename = "Figures/accumulo_versions_list_results_plot.pdf", plot = accumulo_versions_list_results_plot,
+       height = 3, width = 7,  units = c("in"), device = "pdf")
+  
+```
+
+
+## Geom_area with the distribution of direct and transitive dependencies
+
+```{r}
+
+nb_direct_and_transitive_deps <- 
+  results %>%
+  filter(Scope == "compile") %>%
+  mutate(Type = ifelse(isInherited == "Yes" & Declared == F, "inherited" , Type)) 
+
+nb_direct_and_transitive_deps$Type <- as.factor(nb_direct_and_transitive_deps$Type)
+nb_direct_and_transitive_deps$Artifact <- as.factor(nb_direct_and_transitive_deps$Artifact)
+
+nb_direct_and_transitive_deps <- nb_direct_and_transitive_deps %>% 
+  dplyr::group_by(Artifact, Type, .drop=FALSE) %>%
+  dplyr::summarize(n = n())
+
+table(nb_direct_and_transitive_deps$Type)
+
+# nb_direct_and_transitive_deps <- nb_direct_and_transitive_deps %>%  
+#   mutate(n = ifelse(Type == "direct" & n == 0, 1, n)) 
+ 
+nb_direct_and_transitive_deps %>% filter(Type == "transitive" & n == 0)
+
+nb_direct_and_transitive_deps <- nb_direct_and_transitive_deps %>%  
+  dplyr::group_by(Artifact, .drop = FALSE) %>%
+  mutate(percentage = n / sum(n)*100)
+
+nb_direct_and_transitive_deps %>% filter(Type == "direct" & percentage == 0)
+table(nb_direct_and_transitive_deps$Type)
+
+# case transitive == zero
+nb_direct_and_transitive_deps$percentage <- ifelse(is.na(nb_direct_and_transitive_deps$percentage), 0, nb_direct_and_transitive_deps$percentage)
+
+nb_direct_and_transitive_deps$Artifact <- as.numeric(as.factor(nb_direct_and_transitive_deps$Artifact))
+nb_direct_and_transitive_deps$Artifact <- as.factor(nb_direct_and_transitive_deps$Artifact)
+
+nb_direct_and_transitive_deps_arranged <- nb_direct_and_transitive_deps %>% 
+  group_by(Artifact, Type) %>% 
+  arrange(percentage)
+
+nb_direct_and_transitive_deps_arranged$Artifact <- as.numeric(nb_direct_and_transitive_deps_arranged$Artifact)
+
+nb_direct_and_transitive_deps_arranged_direct <- nb_direct_and_transitive_deps_arranged %>% filter(Type == "direct")
+nb_direct_and_transitive_deps_arranged_transitive <- nb_direct_and_transitive_deps_arranged %>% filter(Type == "transitive")
+
+nb_direct_and_transitive_deps_arranged_inherited <- nb_direct_and_transitive_deps_arranged %>% filter(Type == "inherited")
+
+nb_direct_and_transitive_deps_arranged_direct$Artifact <- c(1:9639)
+nb_direct_and_transitive_deps_arranged_transitive$Artifact <- c(9639:1)
+nb_direct_and_transitive_deps_arranged_inherited$Artifact <- c(9639:1)
+
+nb_direct_and_transitive_deps_arranged <- bind_rows(
+  nb_direct_and_transitive_deps_arranged_direct,     nb_direct_and_transitive_deps_arranged_transitive, nb_direct_and_transitive_deps_arranged_inherited)
+
+
+nb_direct_and_transitive_deps_arranged %>% filter(Type == "transitive" & percentage == 0)
+my3cols <- c("#7ad827", "#c140e9", "#479eff")
+nb_direct_and_transitive_deps_area <-
+  nb_direct_and_transitive_deps_arranged %>%
+  mutate(percentage = ifelse(Type == "direct" & percentage < 0.5 , 0.5, percentage)) %>% 
+  ggplot(aes(
+    x = Artifact, 
+    y = percentage,
+    fill = Type)) +
+  geom_area(alpha = 1, position = "fill") +
+  ylab("%Dependencies") +
+  scale_x_discrete() +
+  xlab("Artifacts") +
+  scale_x_continuous(limits = c(0, 9639), breaks=c(1, 4967, 8742, 9639),
+        labels=c("1", "4,967", "8,742", "9,639")) +
+  # xlim(0, 9639) +
+  geom_vline(xintercept=c(4967, 8742), linetype="dotted") +
+  scale_y_continuous(labels = scales::percent) +
+  scale_fill_manual(values = my3cols) +
+  theme( legend.title = element_blank())
+
+# deps_area_deps_boxplot <- nb_direct_and_transitive_deps_area + nb_direct_and_transitive_deps_boxplot +plot_layout(ncol = 1)
+
+ggsave(filename = "Figures/nb_direct_and_transitive_deps_area_3.pdf", plot = nb_direct_and_transitive_deps_area,
+       height = 2.5, width = 7,  units = c("in"), device = "pdf")
+
+
+nb_direct_and_transitive_deps_arranged %>% filter(Type == "transitive" & percentage > 50) %>% mutate(percentage = ifelse(n==0,0, percentage)) %>% summarise(sum = sum(percentage))
+
+direct <- nb_direct_and_transitive_deps_arranged %>% filter(Type == "direct")
+inherited <- nb_direct_and_transitive_deps_arranged %>% filter(Type == "inherited")
+
+cor.test(direct$percentage, inherited$percentage, method = "spearman")
+
+
+nb_direct_and_transitive_deps %>% filter(Type == "inherited" & percentage == "50")
+
+a <- nb_direct_and_transitive_deps %>% filter(Type == "inherited" & percentage == 50)
+b <- nb_direct_and_transitive_deps %>% filter(Type == "transitive" & percentage == 50)
+inner_join(a,b)
+
+nb_direct_and_transitive_deps_arranged_inherited %>% filter(percentage == 50)
+
+nb_direct_and_transitive_deps %>% filter(Artifact == "io.cloudslang:score-orchestrator-impl:0.3.48")
+
+
+c <- nb_direct_and_transitive_deps_arranged_direct  %>% filter(percentage > 20 & percentage < 25)
+a <- nb_direct_and_transitive_deps_arranged_transitive %>%   filter(percentage > 75 & percentage < 80)
+
+b <- nb_direct_and_transitive_deps_arranged_inherited %>%  filter(percentage > 45 & percentage < 50) 
+
+inner_join(a, c, by = "Artifact")
+
+View(nb_direct_and_transitive_deps_arranged_transitive)
+
+x <- nb_direct_and_transitive_deps %>% 
+  filter(Type == "inherited" & n == 34)
+
+View(inner_join(x,nb_direct_and_transitive_deps, by="Artifact" ))
+
+nb_direct_and_transitive_deps_arranged %>% filter(Type == "transitive" & n == 259)
+
+```
+
+
+### linear regression fit between direct and transitive
+
+```{r}
+nb_d_t <- nb_direct_and_transitive_deps %>% dplyr::select(Type, n, Artifact) %>% spread(key = Type, value = n)
+
+lm_eqn <- function(nb_d_t){
+    m <- lm(direct ~ transitive, nb_d_t);
+    eq <- substitute(italic(transitive) == a + b %.% italic(direct)*","~~italic(r)^2~"="~r2, 
+         list(a = format(unname(coef(m)[1]), digits = 2),
+              b = format(unname(coef(m)[2]), digits = 2),
+             r2 = format(summary(m)$r.squared, digits = 3)))
+    as.character(as.expression(eq));
+}
+
+nb_d_t <- nb_d_t %>% ggplot(aes(direct, transitive)) +
+  geom_point(alpha = 0.1) +
+geom_smooth(method='lm', formula= y~x) +
+  geom_text(x = 45, y = 800, label = lm_eqn(nb_d_t), parse = TRUE)
+
+ggsave(filename = "Figures/nb_d_t.pdf", plot = nb_d_t,
+       height = 4, width = 7,  units = c("in"), device = "pdf")
+```
+
+
+```{r}
+results_bloat <- results %>% 
+  filter(Scope == "compile") %>% 
+  mutate(TypeUsage = ifelse(ud == T, "ud", 
+                            ifelse(ut == T, "ut", 
+                                   ifelse(ui == T, "ui", 
+                                          ifelse(bd == T, "bd", 
+                                                 ifelse(bt == T, "bt",
+                                                        "bi"))))))
+
+
+# Height of the DT
+description_dt <- description %>% dplyr::select(Artifact, HeightOriginalDT)
+
+
+# percentage of usage types
+filtered_results_bloat <- results_bloat %>% 
+  dplyr::group_by(Artifact, TypeUsage) %>%
+  dplyr::summarise(n = n()) %>% 
+  ungroup() %>% 
+  tidyr::complete(Artifact, TypeUsage, fill = list(n = 0))
+
+join_dt <- inner_join(filtered_results_bloat, description_dt, by = "Artifact")
+
+# barplot
+dt_height_n <- join_dt %>% 
+  select(Artifact, HeightOriginalDT) %>% 
+  distinct() %>%
+  count(HeightOriginalDT) %>% 
+  filter(HeightOriginalDT != 1) 
+
+dt_height_n$HeightOriginalDT <- ifelse(dt_height_n$HeightOriginalDT == 11, 10, ifelse(dt_height_n$HeightOriginalDT == 12, 10, ifelse(dt_height_n$HeightOriginalDT == 14, 10, dt_height_n$HeightOriginalDT)))
+
+dt_height_n$HeightOriginalDT <- as.factor(dt_height_n$HeightOriginalDT)
+
+dt_height_n <- dt_height_n %>% 
+  ggplot(aes(x=HeightOriginalDT, y = n)) +
+  geom_bar(stat="identity", fill = "#c7c1ff", colour = "black") +
+  xlab(NULL) +
+  geom_text(aes(label=n), position=position_dodge(width=0.9), vjust=-0.275, size = 3.5, family = "LM Roman 10") +
+  ylab("#Artifacts")  +
+   scale_y_continuous(breaks=c(0,1500, 3000), labels = comma, limits = c(0, 3000)) 
+
+# percentage of each type
+join_dt <- join_dt %>% 
+  dplyr::group_by(Artifact) %>% 
+  dplyr::mutate(perc =n/sum(n))
+
+# plot the figure
+join_dt$HeightOriginalDT <- as.factor(join_dt$HeightOriginalDT)
+join_dt$TypeUsage <- as.factor(join_dt$TypeUsage)
+
+join_dt$HeightOriginalDT <- ifelse(join_dt$HeightOriginalDT == "11", "10", ifelse(join_dt$HeightOriginalDT == "12", "10", ifelse(join_dt$HeightOriginalDT == "14", "10", join_dt$HeightOriginalDT)))
+
+join_dt$HeightOriginalDT <- factor(join_dt$HeightOriginalDT,levels = c("2", "3", "4", "5", "6", "7", "8", "9", "10"))
+
+# Violin plot
+dt_height <- join_dt %>% 
+  filter(TypeUsage == "bt" & HeightOriginalDT != "1") %>%
+  ggplot(aes(x = HeightOriginalDT, y = perc)) +
+  geom_violin(scale = "width", fill = "#c7c1ff") +
+  geom_boxplot(alpha = 0.1) +
+  labs(x = "Height of the dependency tree", y = "%bt") +
+  scale_y_continuous(labels = scales::percent) 
+  
+dt_height_n_df <- join_dt %>%
+  # filter(TypeUsage == "bt" ) %>%
+  group_by(HeightOriginalDT) %>% 
+  summarise(sumn = n()) %>% 
+  filter(!is.na(HeightOriginalDT))
+dt_height_n_df$HeightOriginalDT <- factor(dt_height_n_df$HeightOriginalDT,levels = c("2", "3", "4", "5", "6", "7", "8", "9", "10"))
+
+library(patchwork)
+
+# merge both plots
+dt_height_comb <- dt_height_n + dt_height + plot_layout(ncol = 1, heights = c(1, 5))
+
+ggsave(filename = "Figures/dt_height_comb.pdf", plot = dt_height_comb,
+       height = 4, width = 7,  units = c("in"), device = "pdf")
+
+
+filter(join_dt) %>% filter(HeightOriginalDT > 9)
+
+join_dt %>% filter(Artifact == "org.wso2.carbon.devicemgt:org.wso2.carbon.apimgt.handlers:3.0.192")
+
+```
+

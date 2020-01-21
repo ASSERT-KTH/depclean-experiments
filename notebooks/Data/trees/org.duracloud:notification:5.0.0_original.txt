@@ -1,0 +1,13 @@
+org.duracloud:notification:jar:5.0.0
++- junit:junit:jar:4.10:test
+|  \- org.hamcrest:hamcrest-core:jar:1.1:test
++- org.easymock:easymock:jar:3.4:test
+|  \- org.objenesis:objenesis:jar:2.2:test
++- org.slf4j:slf4j-api:jar:1.7.6:compile
++- ch.qos.logback:logback-classic:jar:1.1.2:compile
+|  +- ch.qos.logback:logback-core:jar:1.1.2:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.6:compile - omitted for duplicate)
++- org.slf4j:jcl-over-slf4j:jar:1.7.6:runtime
+|  \- (org.slf4j:slf4j-api:jar:1.7.6:runtime - omitted for duplicate)
+\- org.slf4j:log4j-over-slf4j:jar:1.7.6:runtime
+   \- (org.slf4j:slf4j-api:jar:1.7.6:runtime - omitted for duplicate)

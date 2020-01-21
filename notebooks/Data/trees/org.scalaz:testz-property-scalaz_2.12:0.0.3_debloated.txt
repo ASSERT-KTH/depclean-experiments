@@ -1,0 +1,16 @@
+org.scalaz:testz-property-scalaz_2.12:jar:0.0.3
++- org.scala-lang:scala-library:jar:2.12.4:compile
++- org.scalaz:testz-core_2.12:jar:0.0.3:compile
+|  \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
++- org.scalaz:testz-scalaz_2.12:jar:0.0.3:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  +- (org.scalaz:testz-core_2.12:jar:0.0.3:compile - omitted for duplicate)
+|  +- org.scalaz:scalaz-concurrent_2.12:jar:7.2.20:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  |  +- (org.scalaz:scalaz-core_2.12:jar:7.2.20:compile - omitted for duplicate)
+|  |  \- org.scalaz:scalaz-effect_2.12:jar:7.2.20:compile
+|  |     +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  |     \- (org.scalaz:scalaz-core_2.12:jar:7.2.20:compile - omitted for duplicate)
+|  \- (org.scalaz:scalaz-core_2.12:jar:7.2.20:compile - omitted for duplicate)
+\- org.scalaz:scalaz-core_2.12:jar:7.2.20:compile
+   \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)

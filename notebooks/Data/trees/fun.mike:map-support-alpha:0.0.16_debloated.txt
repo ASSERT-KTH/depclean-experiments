@@ -1,0 +1,4 @@
+fun.mike:map-support-alpha:jar:0.0.16
++- fun.mike:url-validation:jar:0.0.1:compile
+\- junit:junit:jar:4.12:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

@@ -1,0 +1,120 @@
+com.17jee:e-security-jwt:jar:3.0.1.11
++- org.codehaus.groovy:groovy-all:jar:2.4.7:compile
++- com.17jee:e-common:jar:3.0.1.11:compile
+|  +- (org.codehaus.groovy:groovy-all:jar:2.4.7:compile - omitted for duplicate)
+|  +- commons-lang:commons-lang:jar:2.6:compile
+|  \- commons-collections:commons-collections:jar:3.2.2:compile
++- org.springframework.boot:spring-boot-starter-security:jar:1.4.3.RELEASE:compile
+|  +- (org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework:spring-aop:jar:4.3.5.RELEASE:compile
+|  |  +- org.springframework:spring-beans:jar:4.3.5.RELEASE:compile
+|  |  |  \- (org.springframework:spring-core:jar:4.3.5.RELEASE:compile - omitted for duplicate)
+|  |  \- (org.springframework:spring-core:jar:4.3.5.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework.security:spring-security-config:jar:4.1.4.RELEASE:compile
+|  |  +- org.springframework.security:spring-security-core:jar:4.1.4.RELEASE:compile
+|  |  |  +- (org.springframework:spring-aop:jar:4.3.5.RELEASE:compile - omitted for duplicate)
+|  |  |  +- (org.springframework:spring-beans:jar:4.3.5.RELEASE:compile - omitted for duplicate)
+|  |  |  +- (org.springframework:spring-context:jar:4.3.5.RELEASE:compile - omitted for duplicate)
+|  |  |  +- (org.springframework:spring-core:jar:4.3.5.RELEASE:compile - omitted for duplicate)
+|  |  |  \- (org.springframework:spring-expression:jar:4.3.5.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-aop:jar:4.3.5.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-beans:jar:4.3.5.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-context:jar:4.3.5.RELEASE:compile - omitted for duplicate)
+|  |  \- (org.springframework:spring-core:jar:4.3.5.RELEASE:compile - omitted for duplicate)
+|  \- org.springframework.security:spring-security-web:jar:4.1.4.RELEASE:compile
+|     +- (org.springframework.security:spring-security-core:jar:4.1.4.RELEASE:compile - omitted for duplicate)
+|     +- (org.springframework:spring-beans:jar:4.3.5.RELEASE:compile - omitted for duplicate)
+|     +- (org.springframework:spring-context:jar:4.3.5.RELEASE:compile - omitted for duplicate)
+|     +- (org.springframework:spring-core:jar:4.3.5.RELEASE:compile - omitted for duplicate)
+|     +- org.springframework:spring-expression:jar:4.3.5.RELEASE:compile
+|     |  \- (org.springframework:spring-core:jar:4.3.5.RELEASE:compile - omitted for duplicate)
+|     \- (org.springframework:spring-web:jar:4.3.5.RELEASE:compile - omitted for duplicate)
++- org.springframework.boot:spring-boot-actuator:jar:1.4.3.RELEASE:compile
+|  +- org.springframework.boot:spring-boot:jar:1.4.3.RELEASE:compile
+|  |  +- (org.springframework:spring-core:jar:4.3.5.RELEASE:compile - omitted for duplicate)
+|  |  \- (org.springframework:spring-context:jar:4.3.5.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework.boot:spring-boot-autoconfigure:jar:1.4.3.RELEASE:compile
+|  |  \- (org.springframework.boot:spring-boot:jar:1.4.3.RELEASE:compile - omitted for duplicate)
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.8.5:compile
+|  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile
+|  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.8.5:compile
+|  +- org.springframework:spring-core:jar:4.3.5.RELEASE:compile
+|  |  \- commons-logging:commons-logging:jar:1.2:compile
+|  \- org.springframework:spring-context:jar:4.3.5.RELEASE:compile
+|     +- (org.springframework:spring-aop:jar:4.3.5.RELEASE:compile - omitted for duplicate)
+|     +- (org.springframework:spring-beans:jar:4.3.5.RELEASE:compile - omitted for duplicate)
+|     +- (org.springframework:spring-core:jar:4.3.5.RELEASE:compile - omitted for duplicate)
+|     \- (org.springframework:spring-expression:jar:4.3.5.RELEASE:compile - omitted for duplicate)
++- org.springframework.boot:spring-boot-starter-actuator:jar:1.4.3.RELEASE:compile
+|  +- (org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE:compile - omitted for duplicate)
+|  \- (org.springframework.boot:spring-boot-actuator:jar:1.4.3.RELEASE:compile - omitted for duplicate)
++- org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE:compile
+|  +- (org.springframework.boot:spring-boot:jar:1.4.3.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework.boot:spring-boot-autoconfigure:jar:1.4.3.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework.boot:spring-boot-starter-logging:jar:1.4.3.RELEASE:compile
+|  |  +- ch.qos.logback:logback-classic:jar:1.1.8:compile
+|  |  |  +- ch.qos.logback:logback-core:jar:1.1.8:compile
+|  |  |  \- org.slf4j:slf4j-api:jar:1.7.21:compile
+|  |  +- org.slf4j:jcl-over-slf4j:jar:1.7.22:compile
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.22:compile - omitted for conflict with 1.7.21)
+|  |  +- org.slf4j:jul-to-slf4j:jar:1.7.22:compile
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.22:compile - omitted for conflict with 1.7.21)
+|  |  \- org.slf4j:log4j-over-slf4j:jar:1.7.22:compile
+|  |     \- (org.slf4j:slf4j-api:jar:1.7.22:compile - omitted for conflict with 1.7.21)
+|  +- (org.springframework:spring-core:jar:4.3.5.RELEASE:compile - omitted for duplicate)
+|  \- org.yaml:snakeyaml:jar:1.17:runtime
++- org.springframework.boot:spring-boot-starter-web:jar:1.4.3.RELEASE:compile
+|  +- (org.springframework.boot:spring-boot-starter:jar:1.4.3.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework.boot:spring-boot-starter-tomcat:jar:1.4.3.RELEASE:compile
+|  |  +- org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.6:compile
+|  |  +- org.apache.tomcat.embed:tomcat-embed-el:jar:8.5.6:compile
+|  |  \- org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.5.6:compile
+|  |     \- (org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.6:compile - omitted for duplicate)
+|  +- org.hibernate:hibernate-validator:jar:5.2.4.Final:compile
+|  |  +- javax.validation:validation-api:jar:1.1.0.Final:compile
+|  |  +- org.jboss.logging:jboss-logging:jar:3.2.1.Final:compile
+|  |  \- com.fasterxml:classmate:jar:1.1.0:compile
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.5:compile - omitted for duplicate)
+|  +- org.springframework:spring-web:jar:4.3.5.RELEASE:compile
+|  |  +- (org.springframework:spring-aop:jar:4.3.5.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-beans:jar:4.3.5.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-context:jar:4.3.5.RELEASE:compile - omitted for duplicate)
+|  |  \- (org.springframework:spring-core:jar:4.3.5.RELEASE:compile - omitted for duplicate)
+|  \- org.springframework:spring-webmvc:jar:4.3.5.RELEASE:compile
+|     +- (org.springframework:spring-aop:jar:4.3.5.RELEASE:compile - omitted for duplicate)
+|     +- (org.springframework:spring-beans:jar:4.3.5.RELEASE:compile - omitted for duplicate)
+|     +- (org.springframework:spring-context:jar:4.3.5.RELEASE:compile - omitted for duplicate)
+|     +- (org.springframework:spring-core:jar:4.3.5.RELEASE:compile - omitted for duplicate)
+|     +- (org.springframework:spring-expression:jar:4.3.5.RELEASE:compile - omitted for duplicate)
+|     \- (org.springframework:spring-web:jar:4.3.5.RELEASE:compile - omitted for duplicate)
++- org.springframework.cloud:spring-cloud-starter-security:jar:1.1.3.RELEASE:compile
+|  +- org.springframework.cloud:spring-cloud-starter:jar:1.1.1.RELEASE:compile
+|  |  +- (org.springframework.boot:spring-boot-starter:jar:1.3.5.RELEASE:compile - omitted for conflict with 1.4.3.RELEASE)
+|  |  +- org.springframework.cloud:spring-cloud-context:jar:1.1.1.RELEASE:compile
+|  |  |  \- org.springframework.security:spring-security-crypto:jar:4.0.4.RELEASE:compile
+|  |  +- org.springframework.cloud:spring-cloud-commons:jar:1.1.1.RELEASE:compile
+|  |  |  \- (org.springframework.security:spring-security-crypto:jar:4.0.4.RELEASE:compile - omitted for duplicate)
+|  |  \- org.springframework.security:spring-security-rsa:jar:1.0.1.RELEASE:compile
+|  |     +- (org.springframework.security:spring-security-crypto:jar:3.2.7.RELEASE:compile - omitted for conflict with 4.0.4.RELEASE)
+|  |     +- (org.springframework:spring-core:jar:4.1.6.RELEASE:compile - omitted for conflict with 4.3.5.RELEASE)
+|  |     \- (org.bouncycastle:bcpkix-jdk15on:jar:1.47:compile - omitted for duplicate)
+|  +- (org.springframework.boot:spring-boot-starter-actuator:jar:1.3.7.RELEASE:compile - omitted for conflict with 1.4.3.RELEASE)
+|  \- org.springframework.cloud:spring-cloud-security:jar:1.1.3.RELEASE:compile
+|     +- (org.springframework.boot:spring-boot-starter-security:jar:1.3.7.RELEASE:compile - omitted for conflict with 1.4.3.RELEASE)
+|     \- (org.springframework.boot:spring-boot-starter-web:jar:1.3.7.RELEASE:compile - omitted for conflict with 1.4.3.RELEASE)
+\- org.springframework.cloud:spring-cloud-starter-oauth2:jar:1.1.3.RELEASE:compile
+   +- (org.springframework.cloud:spring-cloud-starter-security:jar:1.1.3.RELEASE:compile - omitted for duplicate)
+   +- org.springframework.security.oauth:spring-security-oauth2:jar:2.0.10.RELEASE:compile
+   |  +- (org.springframework:spring-beans:jar:4.0.9.RELEASE:compile - omitted for conflict with 4.3.5.RELEASE)
+   |  +- (org.springframework:spring-core:jar:4.0.9.RELEASE:compile - omitted for conflict with 4.3.5.RELEASE)
+   |  +- (org.springframework:spring-context:jar:4.0.9.RELEASE:compile - omitted for conflict with 4.3.5.RELEASE)
+   |  +- (org.springframework:spring-webmvc:jar:4.0.9.RELEASE:compile - omitted for conflict with 4.3.5.RELEASE)
+   |  +- (org.springframework.security:spring-security-core:jar:3.2.8.RELEASE:compile - omitted for conflict with 4.1.4.RELEASE)
+   |  +- (org.springframework.security:spring-security-config:jar:3.2.8.RELEASE:compile - omitted for conflict with 4.1.4.RELEASE)
+   |  +- (org.springframework.security:spring-security-web:jar:3.2.8.RELEASE:compile - omitted for conflict with 4.1.4.RELEASE)
+   |  +- commons-codec:commons-codec:jar:1.9:compile
+   |  \- org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:compile
+   |     \- org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile
+   \- org.springframework.security:spring-security-jwt:jar:1.0.4.RELEASE:compile
+      \- org.bouncycastle:bcpkix-jdk15on:jar:1.47:compile
+         \- org.bouncycastle:bcprov-jdk15on:jar:1.47:compile

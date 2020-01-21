@@ -1,0 +1,86 @@
+org.apache.camel:camel-websocket:jar:2.20.2
++- org.apache.camel:camel-core:jar:2.20.2:compile
+|  +- org.slf4j:slf4j-api:jar:1.7.22:compile
+|  +- com.sun.xml.bind:jaxb-core:jar:2.2.11:compile
+|  \- com.sun.xml.bind:jaxb-impl:jar:2.2.11:compile
++- org.eclipse.jetty.websocket:websocket-server:jar:9.3.21.v20170918:compile
+|  +- org.eclipse.jetty.websocket:websocket-common:jar:9.3.21.v20170918:compile
+|  |  +- (org.eclipse.jetty.websocket:websocket-api:jar:9.3.21.v20170918:compile - omitted for duplicate)
+|  |  +- (org.eclipse.jetty:jetty-util:jar:9.3.21.v20170918:compile - omitted for duplicate)
+|  |  \- (org.eclipse.jetty:jetty-io:jar:9.3.21.v20170918:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty.websocket:websocket-client:jar:9.3.21.v20170918:compile - omitted for duplicate)
+|  +- org.eclipse.jetty.websocket:websocket-servlet:jar:9.3.21.v20170918:compile
+|  |  +- (org.eclipse.jetty.websocket:websocket-api:jar:9.3.21.v20170918:compile - omitted for duplicate)
+|  |  \- (javax.servlet:javax.servlet-api:jar:3.1.0:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-servlet:jar:9.3.21.v20170918:compile - omitted for duplicate)
+|  \- org.eclipse.jetty:jetty-http:jar:9.3.21.v20170918:compile
+|     \- (org.eclipse.jetty:jetty-util:jar:9.3.21.v20170918:compile - omitted for duplicate)
++- org.eclipse.jetty.websocket:websocket-client:jar:9.3.21.v20170918:compile
+|  +- org.eclipse.jetty:jetty-util:jar:9.3.21.v20170918:compile
+|  +- org.eclipse.jetty:jetty-io:jar:9.3.21.v20170918:compile
+|  |  \- (org.eclipse.jetty:jetty-util:jar:9.3.21.v20170918:compile - omitted for duplicate)
+|  \- (org.eclipse.jetty.websocket:websocket-common:jar:9.3.21.v20170918:compile - omitted for duplicate)
++- org.eclipse.jetty.websocket:websocket-api:jar:9.3.21.v20170918:compile
++- org.eclipse.jetty:jetty-servlet:jar:9.3.21.v20170918:compile
+|  \- org.eclipse.jetty:jetty-security:jar:9.3.21.v20170918:compile
+|     \- org.eclipse.jetty:jetty-server:jar:9.3.21.v20170918:compile
+|        +- (javax.servlet:javax.servlet-api:jar:3.1.0:compile - omitted for duplicate)
+|        +- (org.eclipse.jetty:jetty-http:jar:9.3.21.v20170918:compile - omitted for duplicate)
+|        \- (org.eclipse.jetty:jetty-io:jar:9.3.21.v20170918:compile - omitted for duplicate)
++- org.eclipse.jetty:jetty-servlets:jar:9.3.21.v20170918:compile
+|  +- org.eclipse.jetty:jetty-continuation:jar:9.3.21.v20170918:compile
+|  +- (org.eclipse.jetty:jetty-http:jar:9.3.21.v20170918:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-util:jar:9.3.21.v20170918:compile - omitted for duplicate)
+|  \- (org.eclipse.jetty:jetty-io:jar:9.3.21.v20170918:compile - omitted for duplicate)
++- org.eclipse.jetty:jetty-jmx:jar:9.3.21.v20170918:compile
+|  \- (org.eclipse.jetty:jetty-util:jar:9.3.21.v20170918:compile - omitted for duplicate)
++- javax.servlet:javax.servlet-api:jar:3.1.0:compile
++- org.apache.camel:camel-test:jar:2.20.2:test
+|  +- (org.apache.camel:camel-core:jar:2.20.2:test - omitted for duplicate)
+|  \- (junit:junit:jar:4.12:test - omitted for duplicate)
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.mockito:mockito-core:jar:1.10.19:test
+|  \- org.objenesis:objenesis:jar:2.1:test
++- org.asynchttpclient:async-http-client:jar:2.0.16:test
+|  +- org.asynchttpclient:async-http-client-netty-utils:jar:2.0.16:test
+|  |  +- io.netty:netty-buffer:jar:4.0.41.Final:test
+|  |  |  \- (io.netty:netty-common:jar:4.0.41.Final:test - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.22:test - version managed from 1.7.21; omitted for duplicate)
+|  +- io.netty:netty-codec-http:jar:4.0.41.Final:test
+|  |  +- io.netty:netty-codec:jar:4.0.41.Final:test
+|  |  |  \- (io.netty:netty-transport:jar:4.0.41.Final:test - omitted for duplicate)
+|  |  \- io.netty:netty-handler:jar:4.0.41.Final:test
+|  |     +- (io.netty:netty-buffer:jar:4.0.41.Final:test - omitted for duplicate)
+|  |     +- (io.netty:netty-transport:jar:4.0.41.Final:test - omitted for duplicate)
+|  |     \- (io.netty:netty-codec:jar:4.0.41.Final:test - omitted for duplicate)
+|  +- io.netty:netty-transport-native-epoll:jar:linux-x86_64:4.0.41.Final:test
+|  |  +- io.netty:netty-common:jar:4.0.41.Final:test
+|  |  +- (io.netty:netty-buffer:jar:4.0.41.Final:test - omitted for duplicate)
+|  |  \- io.netty:netty-transport:jar:4.0.41.Final:test
+|  |     \- (io.netty:netty-buffer:jar:4.0.41.Final:test - omitted for duplicate)
+|  +- org.asynchttpclient:netty-resolver-dns:jar:2.0.16:test
+|  |  +- org.asynchttpclient:netty-resolver:jar:2.0.16:test
+|  |  |  +- (io.netty:netty-common:jar:4.0.41.Final:test - omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.22:test - version managed from 1.7.21; omitted for duplicate)
+|  |  +- org.asynchttpclient:netty-codec-dns:jar:2.0.16:test
+|  |  |  +- (io.netty:netty-codec:jar:4.0.41.Final:test - omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.22:test - version managed from 1.7.21; omitted for duplicate)
+|  |  +- (io.netty:netty-transport:jar:4.0.41.Final:test - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.22:test - version managed from 1.7.21; omitted for duplicate)
+|  +- org.reactivestreams:reactive-streams:jar:1.0.0:test
+|  +- com.typesafe.netty:netty-reactive-streams:jar:1.0.8:test
+|  |  +- (io.netty:netty-handler:jar:4.0.41.Final:test - omitted for duplicate)
+|  |  \- (org.reactivestreams:reactive-streams:jar:1.0.0:test - omitted for duplicate)
+|  +- org.javassist:javassist:jar:3.20.0-GA:test
+|  \- (org.slf4j:slf4j-api:jar:1.7.22:test - version managed from 1.7.21; omitted for duplicate)
++- org.apache.logging.log4j:log4j-api:jar:2.9.1:test
++- org.apache.logging.log4j:log4j-core:jar:2.9.1:test
+|  \- (org.apache.logging.log4j:log4j-api:jar:2.9.1:test - omitted for duplicate)
++- org.apache.logging.log4j:log4j-slf4j-impl:jar:2.9.1:test
+|  +- (org.slf4j:slf4j-api:jar:1.7.22:test - version managed from 1.7.25; omitted for duplicate)
+|  +- (org.apache.logging.log4j:log4j-api:jar:2.9.1:test - omitted for duplicate)
+|  \- (org.apache.logging.log4j:log4j-core:jar:2.9.1:test - omitted for duplicate)
+\- org.apache.camel:apt:jar:2.20.2:provided
+   +- org.apache.camel:spi-annotations:jar:2.20.2:provided
+   \- org.apache.camel:json-simple-ordered:jar:2.20.2:provided

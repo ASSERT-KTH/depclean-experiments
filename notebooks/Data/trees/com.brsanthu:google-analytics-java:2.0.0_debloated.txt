@@ -1,0 +1,9 @@
+com.brsanthu:google-analytics-java:jar:2.0.0
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- org.slf4j:jcl-over-slf4j:jar:1.7.25:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
++- org.apache.httpcomponents:httpclient:jar:4.5.3:compile
+|  +- org.apache.httpcomponents:httpcore:jar:4.4.6:compile
+|  \- commons-codec:commons-codec:jar:1.9:compile
+\- junit:junit:jar:4.11:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

@@ -1,0 +1,12 @@
+org.hotswapagent:hotswap-agent-proxy-plugin:jar:1.0
++- org.hotswapagent:hotswap-agent-core:jar:1.0:compile
++- org.springframework:spring-core:jar:4.0.5.RELEASE:test
+|  \- commons-logging:commons-logging:jar:1.1.3:test
++- org.springframework:spring-aop:jar:4.0.5.RELEASE:test
+|  +- aopalliance:aopalliance:jar:1.0:test
+|  +- org.springframework:spring-beans:jar:4.0.5.RELEASE:test
+|  |  \- (org.springframework:spring-core:jar:4.0.5.RELEASE:test - omitted for duplicate)
+|  \- (org.springframework:spring-core:jar:4.0.5.RELEASE:test - omitted for duplicate)
++- junit:junit:jar:4.11:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
+\- org.ow2.asm:asm-all:jar:5.0.3:test

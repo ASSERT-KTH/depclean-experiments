@@ -1,0 +1,10 @@
+io.scalecube:scalecube-benchmarks-api:jar:1.1.1
++- io.projectreactor:reactor-core:jar:3.1.7.RELEASE:compile
+|  \- org.reactivestreams:reactive-streams:jar:1.0.2:compile
++- io.dropwizard.metrics:metrics-core:jar:3.1.2:compile
+|  \- org.slf4j:slf4j-api:jar:1.7.7:compile
++- org.openjdk.jmh:jmh-core:jar:1.21:provided
+|  +- net.sf.jopt-simple:jopt-simple:jar:4.6:provided
+|  \- org.apache.commons:commons-math3:jar:3.2:provided
+\- org.openjdk.jmh:jmh-generator-annprocess:jar:1.21:provided
+   \- (org.openjdk.jmh:jmh-core:jar:1.21:provided - omitted for duplicate)

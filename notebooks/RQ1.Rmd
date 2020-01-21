@@ -1,0 +1,225 @@
+---
+title: "R Notebook to analyze the data for answering RQ1"
+output: html_notebook
+---
+
+## Import required data and libraries
+
+```{r message=FALSE, warning=FALSE, paged.print=FALSE}
+# clear the R environment
+rm(list=ls())
+
+library(tidyverse)
+library(latex2exp)
+library(scales)
+library(extrafont)
+library(viridis)
+library(ggridges)
+library(forcats)
+library(ggExtra)
+library(grid)
+library(gtable)
+# set fonts
+loadfonts(device = "pdf")
+# font_import()
+# link www.fontsquirrel.com/fonts/latin-modern-roman  
+
+# execute once to add fonts:
+# font_import(pattern = "lmroman*")
+# theme(legend.position = "top", text=element_text(size=14, family="LM Roman 10"))
+
+# set ggplot global theme
+theme_set(theme_bw() +
+            theme(legend.position = "top") +
+            theme(text = element_text(size = 16, family = "LM Roman 10")))
+
+# multiple figures together
+if(!require(devtools)) install.packages("devtools")
+devtools::install_github("thomasp85/patchwork")
+library(patchwork)
+
+# load pre-processed data
+load(file="Data/description.RData")
+load(file="Data/results.RData")
+data <- read_csv("Data/data.csv", col_names = T)
+```
+
+## Boxplot with the Types of Usages
+
+```{r}
+results_bloat <- results %>% 
+  filter(Scope == "compile") %>% 
+  mutate(TypeUsage = ifelse(ud == T, "ud", 
+                            ifelse(ut == T, "ut", 
+                                   ifelse(ui == T, "ui", 
+                                          ifelse(bd == T, "bd", 
+                                                 ifelse(bt == T, "bt",
+                                                        "bi")))))) %>% 
+  dplyr::select(Artifact, TypeUsage) %>% 
+  dplyr::group_by(Artifact, TypeUsage) %>%
+  dplyr::summarize(n = n()) %>%
+  ungroup() %>% 
+  tidyr::complete(Artifact, TypeUsage, fill = list(n = 0))
+
+# calculate the means
+means <- aggregate(n ~  TypeUsage, results_bloat, mean)
+means$n <- round(means$n, 2)
+
+filtered_type_bloat_boxplot <- results_bloat %>% 
+  ggplot(aes(TypeUsage, n, fill = TypeUsage)) +
+  geom_violin(scale = "width") +
+  geom_boxplot(alpha = 0.1) +
+  # geom_point(data = means,
+  #            aes(x=TypeUsage, y=n),
+  #            colour="black",
+  #               shape=18, size=6, show.legend = FALSE)+
+  # geom_point(data = means,
+  #            aes(x=TypeUsage, y=n),
+  #            colour="green", 
+  #               shape=18, size=4, show.legend = FALSE)+
+  # geom_text(data = means, aes(label = n, y = n + 2)) +
+  scale_y_continuous(breaks=c(0, 1,10,100,1000, 10000, 100000), trans="log1p") +
+   # scale_y_log10(breaks = trans_breaks("log10", function(x) 10^x),
+   #            labels = trans_format("log10", math_format(10^.x))) +
+  ylab ("#Dependencies") +
+  xlab ("Type of usage") +
+  # annotation_logticks(sides="l") +
+  scale_fill_manual(values = c("#7a6ff5","#9a91ff", "#c7c1ff",  "#f5b76f", "#ffcc91", "#ffe3c1")) +
+  theme(legend.position = "none", legend.title = element_blank(), text = element_text(size = 16, family = "LM Roman 10")) 
+  # +
+  # theme(axis.title.x=element_blank(),
+  #       axis.text.x=element_blank(),
+  #       axis.ticks.x=element_blank())
+
+# show the summary
+ud <- results_bloat %>% filter(TypeUsage == "ud")
+ut <- results_bloat %>% filter(TypeUsage == "ut")
+ui <- results_bloat %>% filter(TypeUsage == "ui")
+bd <- results_bloat %>% filter(TypeUsage == "bd")
+bt <- results_bloat %>% filter(TypeUsage == "bt")
+bi <- results_bloat %>% filter(TypeUsage == "bi")
+print("ud")
+summary(ud$n)
+sum(ud$n)
+print("ut")
+sum(ut$n)
+summary(ut$n)
+print("ui")
+sum(ui$n)
+summary(ui$n)
+print("bd")
+sum(bd$n)
+summary(bd$n)
+print("bt")
+sum(bt$n)
+summary(bt$n)
+print("bi")
+sum(bi$n)
+summary(bi$n)
+
+ggsave(filename = "Figures/filtered_type_bloat_boxplot.pdf", plot = filtered_type_bloat_boxplot ,
+       height = 4, width = 7,  units = c("in"), device = "pdf")
+
+View(results_bloat %>% filter(TypeUsage == "bd" & n > 100))
+results_bloat %>% filter(TypeUsage == "bi" & n > 100)
+
+print(paste("percentage of bloated direct from transitive"))
+sum(bd$n) *100 / (sum(bd$n) +sum(bd$n))
+
+print(paste("percentage of bloated transitive from transitive"))
+sum(bt$n) *100 / (sum(bt$n) +sum(ut$n))
+
+print(paste("percentage of bloated inherited from inherited"))
+sum(bi$n) *100 / (sum(ui$n) +sum(bi$n))
+
+
+```
+
+## Barplot with the Types of Usages
+
+```{r}
+results_bloat <- results %>% 
+  # filter(Scope == "compile", Optional == "false", Type == "direct") %>%
+  mutate(TypeUsage = ifelse(ud == T, "ud", 
+                            ifelse(ut == T, "ut", 
+                                   ifelse(ui == T, "ui", 
+                                          ifelse(bd == T, "bd", 
+                                                 ifelse(bt == T, "bt",
+                                                        "bi"))))))
+# percentage of each scope
+percentage_scopes <- results_bloat %>% 
+  filter(Scope %in% c("compile", "test", "runtime", "provided")) %>% 
+  dplyr::group_by(Scope) %>%
+  dplyr::summarise(n = n()) %>% 
+  mutate (percentage = n / sum(n)*100) %>% 
+  ungroup()
+
+# percentage of usage types for the compiled scope
+filtered_results_bloat<- results_bloat %>% 
+  filter(Scope %in% c("compile")) %>% 
+  dplyr::group_by(TypeUsage) %>%
+  dplyr::summarise(n = n()) %>% 
+  mutate (percentage = n / sum(n)) %>% 
+  ungroup() 
+
+filtered_results_bloat <- filtered_results_bloat %>% mutate(TypeUsage = ifelse(TypeUsage == "bd", "Bloated Direct (bd)", ifelse(TypeUsage == "bt", "Bloated Transitive (bt)", ifelse(TypeUsage == "bi", "Bloated Inherited (bi)", ifelse(TypeUsage == "ud", "Used Direct (ud)", ifelse(TypeUsage == "ut", "Used Transitive (ut)", "Used Inherited (ui)"))))))
+  
+
+filtered_results_bloat$label <- round(filtered_results_bloat$percentage * 100, 1)
+ 
+filtered_type_bloat_barplot <- filtered_results_bloat %>% 
+  ggplot(aes(x = "Compile", y = percentage, fill = TypeUsage, label = paste0(label,"%"))) +
+    geom_bar(stat="identity", position = position_fill(reverse = TRUE)) +
+      geom_text(aes(y = percentage, label = paste0(label,"%")), position = position_stack(reverse = TRUE, vjust = .5), family = "LM Roman 10") +
+    scale_fill_manual(values = c("#7a6ff5","#9a91ff", "#c7c1ff",  "#f5b76f", "#ffcc91", "#ffe3c1")) +
+    labs(y = "%Dependencies", x = "Scope") +
+    scale_y_continuous(labels = scales::percent) +
+    theme(legend.position = "top", legend.title = element_blank(), text = element_text(size = 16, family = "LM Roman 10")) +
+  xlab("Artifacts") +
+    coord_flip() +
+    theme(axis.text.y=element_blank())
+        
+ggsave(filename = "Figures/filtered_type_bloat_barplot.pdf", plot = filtered_type_bloat_barplot ,
+       height = 2.5, width = 7,  units = c("in"), device = "pdf")
+```
+
+##  Examples of popular libraries with many bloated dependencies
+
+```{r}
+results_bloat %>% group_by(Artifact, TypeUsage) %>% summarise(n = n()) %>% arrange(desc(n)) %>% 
+  filter(Artifact == "org.wso2.carbon:org.wso2.carbon.core:4.4.27")
+
+results_bloat %>% group_by(Artifact, TypeUsage) %>% summarise(n = n()) %>% arrange(desc(n)) %>% 
+  filter(Artifact == "org.eclipse.che.core:che-core-api-core:6.10.0")
+
+```
+
+##  Artifacts with at least one bloated dependency
+
+```{r}
+results_bloat %>%  
+  filter(Scope == "compile") %>% 
+  filter(TypeUsage == "bd") %>% 
+  group_by(Artifact) %>% 
+  summarise(total_bloated = sum(n)) %>% 
+  # not select the deps with at least one dep bloated
+  filter(total_bloated > 0)
+
+results %>% 
+  filter(Scope == "compile") %>% 
+  filter(Declared == F) %>% 
+  mutate(TypeUsage = ifelse(ud == T, "ud", 
+                            ifelse(ut == T, "ut", 
+                                   ifelse(ui == T, "ui", 
+                                          ifelse(bd == T, "bd", 
+                                                 ifelse(bt == T, "bt",
+                                                        "bi")))))) %>% 
+  dplyr::select(Artifact, TypeUsage) %>% 
+  dplyr::group_by(Artifact, TypeUsage) %>%
+  dplyr::summarize(n = n()) %>%
+  ungroup() %>% 
+  tidyr::complete(Artifact, TypeUsage, fill = list(n = 0)) %>% 
+  filter(TypeUsage == "bt" & n > 0) %>% 
+  dplyr::select(Artifact) %>%
+  distinct()
+```

@@ -1,0 +1,4 @@
+org.bytedeco.javacpp-presets:chilitags:jar:master-1.4
++- org.bytedeco.javacpp-presets:opencv:jar:3.4.0-1.4:compile
+|  \- (org.bytedeco:javacpp:jar:1.4:compile - omitted for duplicate)
+\- org.bytedeco:javacpp:jar:1.4:compile

@@ -1,0 +1,31 @@
+org.glassfish.corba:glassfish-corba-orb:bundle:4.2.0-b002
++- org.glassfish.corba:glassfish-corba-omgapi:jar:4.2.0-b002:compile
++- org.glassfish.corba:glassfish-corba-internal-api:jar:4.2.0-b002:compile
+|  +- (org.glassfish.gmbal:gmbal-api-only:jar:3.1.0-b001:compile - omitted for duplicate)
+|  \- (org.glassfish.pfl:pfl-basic:jar:4.0.0-b008:compile - omitted for duplicate)
++- org.glassfish.corba:exception-annotation-processor:jar:4.2.0-b002:compile
+|  \- (org.glassfish.pfl:pfl-basic:jar:4.0.0-b008:compile - omitted for duplicate)
++- org.apache.felix:org.osgi.core:jar:1.2.0:compile
++- org.glassfish.gmbal:gmbal-api-only:jar:3.1.0-b001:compile
+|  \- org.glassfish.external:management-api:jar:3.0.0-b012:compile
++- org.glassfish.pfl:pfl-basic:jar:4.0.0-b008:compile
++- org.glassfish.pfl:pfl-dynamic:jar:4.0.0-b008:compile
+|  +- org.glassfish.pfl:pfl-asm:jar:4.0.0-b008:compile
+|  \- (org.glassfish.pfl:pfl-basic:jar:4.0.0-b008:compile - omitted for duplicate)
++- org.glassfish.pfl:pfl-tf:jar:4.0.0-b008:compile
+|  +- (org.glassfish.pfl:pfl-asm:jar:4.0.0-b008:compile - omitted for duplicate)
+|  \- (org.glassfish.pfl:pfl-dynamic:jar:4.0.0-b008:compile - omitted for duplicate)
++- org.glassfish.pfl:pfl-test:jar:4.0.0-b008:test
+|  +- (junit:junit:jar:4.7:test - version managed from 4.11; omitted for duplicate)
+|  +- org.glassfish.pfl:pfl-basic-tools:jar:4.0.0-b008:test
+|  |  \- (org.glassfish.pfl:pfl-basic:jar:4.0.0-b008:test - omitted for duplicate)
+|  \- (org.glassfish.pfl:pfl-basic:jar:4.0.0-b008:test - omitted for duplicate)
++- javax.jdo:jdo2-api:jar:2.3-eb:test
+|  \- javax.transaction:transaction-api:jar:1.1:test
++- org.hamcrest:hamcrest-all:jar:1.3:test
++- junit:junit:jar:4.7:test
+\- com.meterware.simplestub:simplestub:jar:1.2.8:test
+   +- org.ow2.asm:asm:jar:5.0.4:test
+   \- org.ow2.asm:asm-commons:jar:5.0.4:test
+      \- org.ow2.asm:asm-tree:jar:5.0.4:test
+         \- (org.ow2.asm:asm:jar:5.0.4:test - omitted for duplicate)

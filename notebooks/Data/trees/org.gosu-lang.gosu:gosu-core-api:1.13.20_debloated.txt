@@ -1,0 +1,4 @@
+org.gosu-lang.gosu:gosu-core-api:jar:1.13.20
++- junit:junit:jar:4.8.2:test
++- org.gosu-lang.gosu.managed:gw-asm-all:jar:5.0.4:compile
+\- org.gosu-lang.gosu.managed:gw-jcommander:jar:1.48:compile

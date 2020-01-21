@@ -1,0 +1,65 @@
+org.bytedeco:javacpp:jar:1.4.2
++- org.apache.maven:maven-plugin-api:jar:3.3.3:compile
+|  +- org.apache.maven:maven-model:jar:3.3.3:compile
+|  |  \- (org.codehaus.plexus:plexus-utils:jar:3.0.20:compile - omitted for conflict with 2.0.4)
+|  +- org.apache.maven:maven-artifact:jar:3.3.3:compile
+|  |  \- (org.codehaus.plexus:plexus-utils:jar:3.0.20:compile - omitted for duplicate)
+|  \- org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.3.0:compile
+|     +- javax.enterprise:cdi-api:jar:1.0:compile
+|     |  +- javax.annotation:jsr250-api:jar:1.0:compile
+|     |  \- javax.inject:javax.inject:jar:1:compile
+|     +- org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.3.0:compile
+|     +- (org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile - omitted for duplicate)
+|     +- (org.codehaus.plexus:plexus-classworlds:jar:2.5.2:compile - omitted for conflict with 2.2.3)
+|     \- (org.codehaus.plexus:plexus-utils:jar:3.0.17:compile - omitted for conflict with 3.0.20)
++- org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.4:compile
+|  \- (org.apache.maven:maven-artifact:jar:3.0:compile - omitted for conflict with 3.3.3)
++- org.apache.maven:maven-core:jar:3.0:compile
+|  +- (org.apache.maven:maven-model:jar:3.0:compile - omitted for conflict with 3.3.3)
+|  +- org.apache.maven:maven-settings:jar:3.0:compile
+|  |  \- (org.codehaus.plexus:plexus-utils:jar:2.0.4:compile - omitted for conflict with 3.0.20)
+|  +- org.apache.maven:maven-settings-builder:jar:3.0:compile
+|  |  +- (org.codehaus.plexus:plexus-utils:jar:2.0.4:compile - omitted for conflict with 3.0.20)
+|  |  +- (org.codehaus.plexus:plexus-interpolation:jar:1.14:compile - omitted for duplicate)
+|  |  +- (org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile - omitted for duplicate)
+|  |  +- (org.apache.maven:maven-settings:jar:3.0:compile - omitted for duplicate)
+|  |  \- (org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile - omitted for duplicate)
+|  +- org.apache.maven:maven-repository-metadata:jar:3.0:compile
+|  |  \- (org.codehaus.plexus:plexus-utils:jar:2.0.4:compile - omitted for conflict with 3.0.20)
+|  +- (org.apache.maven:maven-artifact:jar:3.0:compile - omitted for conflict with 3.3.3)
+|  +- (org.apache.maven:maven-plugin-api:jar:3.0:compile - omitted for conflict with 3.3.3)
+|  +- org.apache.maven:maven-model-builder:jar:3.0:compile
+|  |  +- (org.codehaus.plexus:plexus-utils:jar:2.0.4:compile - omitted for conflict with 3.0.20)
+|  |  +- (org.codehaus.plexus:plexus-interpolation:jar:1.14:compile - omitted for duplicate)
+|  |  +- (org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile - omitted for duplicate)
+|  |  \- (org.apache.maven:maven-model:jar:3.0:compile - omitted for conflict with 3.3.3)
+|  +- org.apache.maven:maven-aether-provider:jar:3.0:runtime
+|  |  +- (org.apache.maven:maven-model-builder:jar:3.0:runtime - omitted for duplicate)
+|  |  +- (org.apache.maven:maven-repository-metadata:jar:3.0:runtime - omitted for duplicate)
+|  |  +- (org.sonatype.aether:aether-api:jar:1.7:compile - scope updated from runtime; omitted for duplicate)
+|  |  +- (org.sonatype.aether:aether-util:jar:1.7:compile - scope updated from runtime; omitted for duplicate)
+|  |  +- (org.sonatype.aether:aether-impl:jar:1.7:runtime - omitted for duplicate)
+|  |  \- (org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:runtime - omitted for duplicate)
+|  +- org.sonatype.aether:aether-impl:jar:1.7:compile
+|  |  +- (org.sonatype.aether:aether-api:jar:1.7:compile - omitted for duplicate)
+|  |  +- org.sonatype.aether:aether-spi:jar:1.7:compile
+|  |  |  \- (org.sonatype.aether:aether-api:jar:1.7:compile - omitted for duplicate)
+|  |  \- (org.sonatype.aether:aether-util:jar:1.7:compile - omitted for duplicate)
+|  +- org.sonatype.aether:aether-api:jar:1.7:compile
+|  +- org.sonatype.aether:aether-util:jar:1.7:compile
+|  |  \- (org.sonatype.aether:aether-api:jar:1.7:compile - omitted for duplicate)
+|  +- org.sonatype.sisu:sisu-inject-plexus:jar:1.4.2:compile
+|  |  +- (org.codehaus.plexus:plexus-component-annotations:jar:1.5.4:compile - omitted for conflict with 1.5.5)
+|  |  +- (org.codehaus.plexus:plexus-classworlds:jar:2.2.3:compile - omitted for conflict with 2.5.2)
+|  |  +- (org.codehaus.plexus:plexus-utils:jar:2.0.5:compile - omitted for conflict with 3.0.20)
+|  |  \- org.sonatype.sisu:sisu-inject-bean:jar:1.4.2:compile
+|  |     \- org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7:compile
+|  +- org.codehaus.plexus:plexus-interpolation:jar:1.14:compile
+|  +- org.codehaus.plexus:plexus-utils:jar:2.0.4:compile
+|  +- org.codehaus.plexus:plexus-classworlds:jar:2.2.3:compile
+|  +- org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
+|  \- org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+|     +- (org.codehaus.plexus:plexus-utils:jar:1.5.5:compile - omitted for conflict with 2.0.4)
+|     \- org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+\- org.slf4j:slf4j-simple:jar:1.7.12:compile
+   \- org.slf4j:slf4j-api:jar:1.7.12:compile

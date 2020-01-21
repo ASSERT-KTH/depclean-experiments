@@ -1,0 +1,113 @@
+no.difi.oxalis:oxalis-statistics:jar:4.0.1
++- no.difi.oxalis:oxalis-persistence:jar:4.0.1:compile
+|  +- org.apache.commons:commons-dbcp2:jar:2.2.0:compile
+|  |  \- org.apache.commons:commons-pool2:jar:2.5.0:compile
+|  +- org.slf4j:slf4j-api:jar:1.7.25:compile
+|  +- org.slf4j:jcl-over-slf4j:jar:1.7.25:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  +- no.difi.oxalis:oxalis-commons:jar:4.0.1:compile
+|  |  +- no.difi.oxalis:oxalis-api:jar:4.0.1:compile
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  |  |  +- no.difi.vefa:peppol-common:jar:1.0.3:compile
+|  |  |  \- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  |  +- (org.slf4j:jcl-over-slf4j:jar:1.7.25:compile - omitted for duplicate)
+|  |  +- (com.google.inject:guice:jar:4.2.0:compile - omitted for duplicate)
+|  |  +- no.difi.vefa:peppol-mode:jar:1.0.3:compile
+|  |  |  +- (no.difi.vefa:peppol-common:jar:1.0.3:compile - omitted for duplicate)
+|  |  |  \- com.typesafe:config:jar:1.2.1:compile
+|  |  +- no.difi.vefa:peppol-sbdh:jar:1.0.3:compile
+|  |  |  +- (no.difi.vefa:peppol-common:jar:1.0.3:compile - omitted for duplicate)
+|  |  |  +- no.difi.commons:commons-sbdh:jar:0.9.5:compile
+|  |  |  +- (com.google.guava:guava:jar:25.0-jre:compile - version managed from 20.0; omitted for duplicate)
+|  |  |  \- (commons-codec:commons-codec:jar:1.11:compile - omitted for duplicate)
+|  |  +- no.difi.vefa:peppol-evidence:jar:1.0.3:compile
+|  |  |  +- (no.difi.vefa:peppol-common:jar:1.0.3:compile - omitted for duplicate)
+|  |  |  +- no.difi.vefa:peppol-security:jar:1.0.3:compile
+|  |  |  |  +- (no.difi.vefa:peppol-common:jar:1.0.3:compile - omitted for duplicate)
+|  |  |  |  +- (no.difi.vefa:peppol-mode:jar:1.0.3:compile - omitted for duplicate)
+|  |  |  |  +- no.difi.commons:commons-certvalidator:jar:2.1.1:compile
+|  |  |  |  |  +- org.bouncycastle:bcpkix-jdk15on:jar:1.57:compile
+|  |  |  |  |  |  \- org.bouncycastle:bcprov-jdk15on:jar:1.57:compile
+|  |  |  |  |  +- (com.google.guava:guava:jar:25.0-jre:compile - version managed from 20.0; omitted for duplicate)
+|  |  |  |  |  \- net.klakegg.pkix:pkix-ocsp:jar:0.9.0:compile
+|  |  |  |  |     \- (org.bouncycastle:bcpkix-jdk15on:jar:1.57:compile - omitted for duplicate)
+|  |  |  |  +- (com.google.guava:guava:jar:25.0-jre:compile - version managed from 20.0; omitted for duplicate)
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  |  +- io.zipkin.brave:brave:jar:4.5.2:compile
+|  |  |  +- io.zipkin.java:zipkin:jar:1.29.1:compile
+|  |  |  \- io.zipkin.reporter:zipkin-reporter:jar:1.0.1:compile
+|  |  |     \- (io.zipkin.java:zipkin:jar:1.29.1:compile - omitted for duplicate)
+|  |  +- io.zipkin.brave:brave-core:jar:4.5.2:compile
+|  |  |  +- (io.zipkin.java:zipkin:jar:1.29.1:compile - omitted for duplicate)
+|  |  |  \- (io.zipkin.reporter:zipkin-reporter:jar:1.0.1:compile - omitted for duplicate)
+|  |  \- io.zipkin.reporter:zipkin-sender-urlconnection:jar:1.0.1:compile
+|  |     +- (io.zipkin.reporter:zipkin-reporter:jar:1.0.1:compile - omitted for duplicate)
+|  |     \- (io.zipkin.java:zipkin:jar:1.29.1:compile - omitted for duplicate)
+|  +- com.google.inject:guice:jar:4.2.0:compile
+|  |  +- javax.inject:javax.inject:jar:1:compile
+|  |  +- aopalliance:aopalliance:jar:1.0:compile
+|  |  \- com.google.guava:guava:jar:25.0-jre:compile (version managed from 23.6-android)
+|  |     +- com.google.code.findbugs:jsr305:jar:1.3.9:compile
+|  |     +- org.checkerframework:checker-compat-qual:jar:2.0.0:compile
+|  |     +- com.google.errorprone:error_prone_annotations:jar:2.1.3:compile
+|  |     +- com.google.j2objc:j2objc-annotations:jar:1.1:compile
+|  |     \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:compile
+|  \- com.h2database:h2:jar:1.4.197:compile
++- no.difi.oxalis:oxalis-test-impl:jar:4.0.1:test
+|  +- (no.difi.oxalis:oxalis-api:jar:4.0.1:compile - scope updated from test; omitted for duplicate)
+|  +- (no.difi.vefa:peppol-mode:jar:1.0.3:compile - scope updated from test; omitted for duplicate)
+|  +- ch.qos.logback:logback-classic:jar:1.2.3:test
+|  |  +- ch.qos.logback:logback-core:jar:1.2.3:test
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)
+|  +- (com.google.inject:guice:jar:4.2.0:test - omitted for duplicate)
+|  +- (org.bouncycastle:bcprov-jdk15on:jar:1.57:compile - scope updated from test; omitted for duplicate)
+|  +- org.testng:testng:jar:6.14.3:test
+|  |  +- com.beust:jcommander:jar:1.72:test
+|  |  \- org.apache-extras.beanshell:bsh:jar:2.0b6:test
+|  +- org.mockito:mockito-core:jar:2.18.3:test
+|  |  +- net.bytebuddy:byte-buddy:jar:1.8.5:test
+|  |  +- net.bytebuddy:byte-buddy-agent:jar:1.8.5:test
+|  |  \- org.objenesis:objenesis:jar:2.6:test
+|  +- org.easymock:easymock:jar:3.6:test
+|  |  \- (org.objenesis:objenesis:jar:2.6:test - omitted for duplicate)
+|  +- org.eclipse.jetty:jetty-server:jar:9.4.9.v20180320:test
+|  |  +- (javax.servlet:javax.servlet-api:jar:3.1.0:test - omitted for duplicate)
+|  |  +- org.eclipse.jetty:jetty-http:jar:9.4.9.v20180320:test
+|  |  |  +- org.eclipse.jetty:jetty-util:jar:9.4.9.v20180320:test
+|  |  |  \- (org.eclipse.jetty:jetty-io:jar:9.4.9.v20180320:test - omitted for duplicate)
+|  |  \- org.eclipse.jetty:jetty-io:jar:9.4.9.v20180320:test
+|  |     \- (org.eclipse.jetty:jetty-util:jar:9.4.9.v20180320:test - omitted for duplicate)
+|  +- org.eclipse.jetty:jetty-servlet:jar:9.4.9.v20180320:test
+|  |  \- org.eclipse.jetty:jetty-security:jar:9.4.9.v20180320:test
+|  |     \- (org.eclipse.jetty:jetty-server:jar:9.4.9.v20180320:test - omitted for duplicate)
+|  +- mysql:mysql-connector-java:jar:5.1.43:test
+|  \- org.hsqldb:hsqldb:jar:2.4.0:test
++- no.difi.oxalis:oxalis-persistence:test-jar:tests:4.0.1:test
+|  +- (org.apache.commons:commons-dbcp2:jar:2.2.0:test - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)
+|  +- (org.slf4j:jcl-over-slf4j:jar:1.7.25:test - omitted for duplicate)
+|  +- (no.difi.oxalis:oxalis-commons:jar:4.0.1:test - omitted for duplicate)
+|  +- (com.google.inject:guice:jar:4.2.0:test - omitted for duplicate)
+|  \- (com.h2database:h2:jar:1.4.197:test - omitted for duplicate)
++- no.difi.oxalis:oxalis-inbound:jar:classes:4.0.1:test
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)
+|  +- (ch.qos.logback:logback-classic:jar:1.2.3:test - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:25.0-jre:compile - version managed from 23.6-android; scope updated from test; omitted for duplicate)
+|  +- (joda-time:joda-time:jar:2.9.9:test - omitted for duplicate)
+|  +- no.difi.oxalis:oxalis-as2:jar:4.0.1:test
+|  |  +- (no.difi.oxalis:oxalis-commons:jar:4.0.1:test - omitted for duplicate)
+|  |  +- (org.bouncycastle:bcmail-jdk15on:jar:1.57:test - omitted for duplicate)
+|  |  \- javax.mail:mail:jar:1.4.7:test
+|  +- (com.google.inject.extensions:guice-servlet:jar:4.2.0:test - omitted for duplicate)
+|  +- org.bouncycastle:bcmail-jdk15on:jar:1.57:test
+|  |  +- (org.bouncycastle:bcprov-jdk15on:jar:1.57:compile - scope updated from test; omitted for duplicate)
+|  |  \- (org.bouncycastle:bcpkix-jdk15on:jar:1.57:compile - scope updated from test; omitted for duplicate)
+|  \- io.zipkin.brave:brave-web-servlet-filter:jar:4.5.2:test
+|     \- io.zipkin.brave:brave-http:jar:4.5.2:test
+|        \- (io.zipkin.brave:brave-core:jar:4.5.2:test - omitted for duplicate)
++- com.google.inject.extensions:guice-servlet:jar:4.2.0:provided
+|  \- (com.google.inject:guice:jar:4.2.0:provided - omitted for duplicate)
++- joda-time:joda-time:jar:2.9.9:compile
++- javax.servlet:javax.servlet-api:jar:3.1.0:provided
+\- commons-codec:commons-codec:jar:1.11:compile

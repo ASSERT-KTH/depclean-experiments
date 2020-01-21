@@ -1,0 +1,55 @@
+com.julianpeeters:avrohugger-core_2.10:jar:1.0.0-RC2
++- org.scala-lang:scala-compiler:jar:2.10.6:compile
+|  +- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for duplicate)
+|  \- (org.scala-lang:scala-reflect:jar:2.10.6:compile - omitted for duplicate)
++- org.scala-lang:scala-library:jar:2.10.6:compile
++- org.apache.avro:avro:jar:1.7.7:compile
+|  +- (org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile - omitted for duplicate)
+|  +- org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:compile
+|  |  \- (org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile - omitted for duplicate)
+|  +- com.thoughtworks.paranamer:paranamer:jar:2.3:compile
+|  +- org.xerial.snappy:snappy-java:jar:1.0.5:compile
+|  +- org.apache.commons:commons-compress:jar:1.4.1:compile
+|  |  \- org.tukaani:xz:jar:1.0:compile
+|  \- org.slf4j:slf4j-api:jar:1.6.4:compile
++- org.apache.avro:avro-compiler:jar:1.7.7:compile
+|  +- (org.apache.avro:avro:jar:1.7.7:compile - omitted for duplicate)
+|  +- commons-lang:commons-lang:jar:2.6:compile
+|  +- org.apache.velocity:velocity:jar:1.7:compile
+|  |  +- commons-collections:commons-collections:jar:3.2.1:compile
+|  |  \- (commons-lang:commons-lang:jar:2.4:compile - omitted for conflict with 2.6)
+|  +- (org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile - omitted for duplicate)
+|  +- (org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.6.4:compile - omitted for duplicate)
++- org.scalamacros:quasiquotes_2.10:jar:2.0.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.10.3:compile - omitted for conflict with 2.10.6)
+|  \- (org.scala-lang:scala-reflect:jar:2.10.3:compile - omitted for conflict with 2.10.6)
++- org.scala-lang:scala-reflect:jar:2.10.6:compile
+|  \- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for duplicate)
++- org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile
++- org.specs2:specs2-core_2.10:jar:3.8.6:test
+|  +- (org.scala-lang:scala-library:jar:2.10.6:test - omitted for duplicate)
+|  +- org.specs2:specs2-matcher_2.10:jar:3.8.6:test
+|  |  +- (org.scala-lang:scala-library:jar:2.10.6:test - omitted for duplicate)
+|  |  \- org.specs2:specs2-common_2.10:jar:3.8.6:test
+|  |     +- (org.scala-lang:scala-library:jar:2.10.6:test - omitted for duplicate)
+|  |     +- org.specs2:specs2-codata_2.10:jar:3.8.6:test
+|  |     |  +- (org.scala-lang:scala-library:jar:2.10.6:test - omitted for duplicate)
+|  |     |  +- (org.scalaz:scalaz-core_2.10:jar:7.2.7:test - omitted for duplicate)
+|  |     |  +- (org.scalaz:scalaz-effect_2.10:jar:7.2.7:test - omitted for duplicate)
+|  |     |  \- (org.scalaz:scalaz-concurrent_2.10:jar:7.2.7:test - omitted for duplicate)
+|  |     +- org.scalaz:scalaz-core_2.10:jar:7.2.7:test
+|  |     |  \- (org.scala-lang:scala-library:jar:2.10.6:test - omitted for duplicate)
+|  |     +- org.scalaz:scalaz-effect_2.10:jar:7.2.7:test
+|  |     |  +- (org.scala-lang:scala-library:jar:2.10.6:test - omitted for duplicate)
+|  |     |  \- (org.scalaz:scalaz-core_2.10:jar:7.2.7:test - omitted for duplicate)
+|  |     +- org.scalaz:scalaz-concurrent_2.10:jar:7.2.7:test
+|  |     |  +- (org.scala-lang:scala-library:jar:2.10.6:test - omitted for duplicate)
+|  |     |  +- (org.scalaz:scalaz-core_2.10:jar:7.2.7:test - omitted for duplicate)
+|  |     |  \- (org.scalaz:scalaz-effect_2.10:jar:7.2.7:test - omitted for duplicate)
+|  |     +- (org.scala-lang:scala-reflect:jar:2.10.6:test - omitted for duplicate)
+|  |     \- (org.scalamacros:quasiquotes_2.10:jar:2.1.0:test - omitted for conflict with 2.0.0)
+|  +- (org.scala-lang:scala-reflect:jar:2.10.6:test - omitted for duplicate)
+|  \- (org.scalamacros:quasiquotes_2.10:jar:2.1.0:test - omitted for conflict with 2.0.0)
+\- com.eed3si9n:treehugger_2.10:jar:0.4.3:compile
+   \- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for duplicate)

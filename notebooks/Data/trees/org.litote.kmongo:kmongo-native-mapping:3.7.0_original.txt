@@ -1,0 +1,38 @@
+org.litote.kmongo:kmongo-native-mapping:jar:3.7.0
++- org.litote.kmongo:kmongo-shared:jar:3.7.0:compile
+|  +- org.litote.kmongo:kmongo-id:jar:3.7.0:compile
+|  |  +- (org.jetbrains.kotlin:kotlin-reflect:jar:1.2.41:compile - omitted for duplicate)
+|  |  \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.41:compile - omitted for duplicate)
+|  +- org.jetbrains.kotlin:kotlin-reflect:jar:1.2.41:compile
+|  |  \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.41:compile - omitted for duplicate)
+|  \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.41:compile - omitted for duplicate)
++- org.litote.kmongo:kmongo-property:jar:3.7.0:compile
+|  +- (org.litote.kmongo:kmongo-shared:jar:3.7.0:compile - omitted for duplicate)
+|  +- org.litote.kmongo:kmongo-data:jar:3.7.0:compile
+|  |  \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.41:compile - omitted for duplicate)
+|  \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.41:compile - omitted for duplicate)
++- org.mongodb:mongodb-driver-core:jar:3.7.0:provided
+|  \- org.mongodb:bson:jar:3.7.0:provided
++- org.mongodb:mongodb-driver:jar:3.7.0:provided
+|  +- (org.mongodb:bson:jar:3.7.0:provided - omitted for duplicate)
+|  \- (org.mongodb:mongodb-driver-core:jar:3.7.0:provided - omitted for duplicate)
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.jetbrains.kotlin:kotlin-test-junit:jar:1.2.41:test
+|  +- org.jetbrains.kotlin:kotlin-test-annotations-common:jar:1.2.41:test
+|  |  \- org.jetbrains.kotlin:kotlin-stdlib-common:jar:1.2.41:test
+|  +- org.jetbrains.kotlin:kotlin-test:jar:1.2.41:test
+|  |  +- org.jetbrains.kotlin:kotlin-test-common:jar:1.2.41:test
+|  |  |  \- (org.jetbrains.kotlin:kotlin-stdlib-common:jar:1.2.41:test - omitted for duplicate)
+|  |  \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.41:test - omitted for duplicate)
+|  \- (junit:junit:jar:4.12:test - omitted for duplicate)
++- org.litote.kmongo:kmongo-shared-tests:jar:3.7.0:test
+|  +- (junit:junit:jar:4.12:test - omitted for duplicate)
+|  +- (org.jetbrains.kotlin:kotlin-test-junit:jar:1.2.41:test - omitted for duplicate)
+|  +- org.litote.kmongo:kmongo-shared-tests-java:jar:3.7.0:test
+|  |  +- (junit:junit:jar:4.12:test - omitted for duplicate)
+|  |  +- (org.jetbrains.kotlin:kotlin-test-junit:jar:1.2.41:test - omitted for duplicate)
+|  |  \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.41:test - omitted for duplicate)
+|  \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.41:test - omitted for duplicate)
+\- org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.41:compile
+   \- org.jetbrains:annotations:jar:13.0:compile

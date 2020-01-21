@@ -1,0 +1,14 @@
+cn.mybatisboost:mybatis-boost-spring-boot-starter:jar:1.1.9
+\- cn.mybatisboost:mybatis-boost-spring-boot-autoconfigure:jar:1.1.9:compile
+   +- cn.mybatisboost:mybatis-boost-core:jar:1.1.9:compile
+   |  +- javax.persistence:persistence-api:jar:1.0.2:compile
+   |  \- org.apache.commons:commons-lang3:jar:3.7:compile
+   +- cn.mybatisboost:mybatis-boost-mapper:jar:1.1.9:compile
+   |  \- (cn.mybatisboost:mybatis-boost-core:jar:1.1.9:compile - omitted for duplicate)
+   +- cn.mybatisboost:mybatis-boost-lang:jar:1.1.9:compile
+   |  \- (cn.mybatisboost:mybatis-boost-core:jar:1.1.9:compile - omitted for duplicate)
+   +- cn.mybatisboost:mybatis-boost-limiter:jar:1.1.9:compile
+   |  \- (cn.mybatisboost:mybatis-boost-core:jar:1.1.9:compile - omitted for duplicate)
+   \- cn.mybatisboost:mybatis-boost-metric:jar:1.1.9:compile
+      +- (cn.mybatisboost:mybatis-boost-core:jar:1.1.9:compile - omitted for duplicate)
+      \- org.slf4j:slf4j-api:jar:1.7.25:compile

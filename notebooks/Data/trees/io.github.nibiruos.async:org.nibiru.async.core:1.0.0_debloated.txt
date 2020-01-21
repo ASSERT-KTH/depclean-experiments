@@ -1,0 +1,3 @@
+io.github.nibiruos.async:org.nibiru.async.core:jar:1.0.0
++- javax.inject:javax.inject:jar:1:compile
+\- com.google.guava:guava:jar:20.0:compile

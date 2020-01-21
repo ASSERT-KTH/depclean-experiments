@@ -1,0 +1,31 @@
+org.ow2.fractal.juliac:juliac-fractaladl:jar:2.7
++- org.ow2.fractal.juliac:juliac-core:jar:2.7:compile
+|  +- org.ow2.fractal.juliac:juliac-api:jar:2.7:compile
+|  |  \- (org.objectweb.fractal:fractal-api:jar:2.0.2:compile - omitted for duplicate)
+|  +- org.ow2.fractal.juliac:juliac-commons:jar:2.7:compile
+|  +- org.ow2.fractal.juliac:juliac-runtime:jar:2.7:compile
+|  |  +- (org.objectweb.fractal:fractal-api:jar:2.0.2:compile - omitted for duplicate)
+|  |  \- (org.objectweb.fractal.julia:julia-runtime:jar:2.5.2:compile - omitted for duplicate)
+|  +- org.objectweb.fractal.fraclet.java:fraclet-annotations:jar:3.3:compile
+|  |  \- (org.objectweb.fractal:fractal-api:jar:2.0.2:compile - omitted for duplicate)
+|  \- com.google.guava:guava:jar:23.6-jre:compile
+|     +- com.google.code.findbugs:jsr305:jar:1.3.9:compile
+|     +- org.checkerframework:checker-compat-qual:jar:2.0.0:compile
+|     +- com.google.errorprone:error_prone_annotations:jar:2.1.3:compile
+|     +- com.google.j2objc:j2objc-annotations:jar:1.1:compile
+|     \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:compile
++- org.objectweb.fractal:fractal-api:jar:2.0.2:compile
++- org.objectweb.fractal.julia:julia-runtime:jar:2.5.2:compile
+|  +- org.objectweb.monolog:monolog:jar:1.8:compile
+|  \- (org.objectweb.fractal:fractal-api:jar:2.0.2:compile - omitted for duplicate)
+\- org.objectweb.fractal.fractaladl:fractal-adl:jar:2.3:compile
+   +- (org.objectweb.fractal:fractal-api:jar:2.0.2:compile - omitted for duplicate)
+   +- org.objectweb.fractal:fractal-util:jar:1.1.2:compile (version managed from 1.0)
+   |  \- (org.objectweb.fractal:fractal-api:jar:2.0.2:compile - omitted for duplicate)
+   +- org.objectweb.monolog:monolog-api:jar:1.8:compile
+   +- org.objectweb.fractal.fractaladl:ast-core:jar:2.3:compile
+   |  +- dtdparser:dtdparser:jar:1.21:compile
+   |  \- asm:asm:jar:3.0:compile
+   +- org.objectweb.fractal.fractaladl:task-framework:jar:2.3:compile
+   \- org.objectweb.fractal.fractaladl:task-deployment:jar:2.3:compile
+      \- (org.objectweb.fractal.fractaladl:task-framework:jar:2.3:compile - omitted for duplicate)

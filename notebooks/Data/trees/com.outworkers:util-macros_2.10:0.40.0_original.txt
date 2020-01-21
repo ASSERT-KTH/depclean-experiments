@@ -1,0 +1,11 @@
+com.outworkers:util-macros_2.10:jar:0.40.0
++- org.scala-lang:scala-compiler:jar:2.10.6:provided
+|  +- (org.scala-lang:scala-library:jar:2.10.6:provided - omitted for duplicate)
+|  \- (org.scala-lang:scala-reflect:jar:2.10.6:compile - scope updated from provided; omitted for duplicate)
++- org.scala-lang:scala-library:jar:2.10.6:compile
+\- org.typelevel:macro-compat_2.10:jar:1.1.1:compile
+   +- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for duplicate)
+   \- org.scalamacros:quasiquotes_2.10:jar:2.1.0:compile
+      +- (org.scala-lang:scala-library:jar:2.10.4:compile - omitted for conflict with 2.10.6)
+      \- org.scala-lang:scala-reflect:jar:2.10.6:compile
+         \- (org.scala-lang:scala-library:jar:2.10.4:compile - omitted for conflict with 2.10.6)

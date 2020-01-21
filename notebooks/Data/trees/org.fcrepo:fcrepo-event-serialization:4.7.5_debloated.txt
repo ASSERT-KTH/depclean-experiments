@@ -1,0 +1,70 @@
+org.fcrepo:fcrepo-event-serialization:bundle:4.7.5
++- org.fcrepo:fcrepo-kernel-api:jar:4.7.5:compile
+|  +- (com.google.guava:guava:jar:20.0:compile - omitted for duplicate)
+|  +- (org.apache.jena:jena-core:jar:3.1.1:compile - omitted for duplicate)
+|  \- (org.apache.jena:jena-arq:jar:3.1.1:compile - omitted for duplicate)
++- org.apache.jena:jena-core:jar:3.1.1:compile
+|  +- org.slf4j:slf4j-api:jar:1.7.21:compile (version managed from 1.7.12)
+|  +- org.apache.jena:jena-iri:jar:3.1.1:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.12; omitted for duplicate)
+|  +- xerces:xercesImpl:jar:2.11.0:compile
+|  |  \- xml-apis:xml-apis:jar:1.4.01:compile
+|  +- commons-cli:commons-cli:jar:1.3:compile
+|  \- org.apache.jena:jena-base:jar:3.1.1:compile
+|     +- (org.apache.jena:jena-shaded-guava:jar:3.1.1:compile - omitted for duplicate)
+|     +- (org.apache.commons:commons-csv:jar:1.3:compile - omitted for duplicate)
+|     +- (org.apache.commons:commons-lang3:jar:3.5:compile - version managed from 3.4; omitted for duplicate)
+|     +- com.github.andrewoma.dexx:collection:jar:0.6:compile
+|     \- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.12; omitted for duplicate)
++- org.apache.jena:jena-arq:jar:3.1.1:compile
+|  +- (org.apache.jena:jena-core:jar:3.1.1:compile - omitted for duplicate)
+|  +- org.apache.jena:jena-shaded-guava:jar:3.1.1:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.12; omitted for duplicate)
+|  +- org.apache.httpcomponents:httpclient:jar:4.5.3:compile (version managed from 4.5.2)
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.4.6:compile
+|  |  \- commons-codec:commons-codec:jar:1.9:compile
+|  +- (com.github.jsonld-java:jsonld-java:jar:0.8.3:compile - omitted for duplicate)
+|  +- org.apache.httpcomponents:httpclient-cache:jar:4.5.3:compile (version managed from 4.5.2)
+|  |  \- (org.apache.httpcomponents:httpclient:jar:4.5.3:compile - version managed from 4.5.2; omitted for duplicate)
+|  +- org.apache.thrift:libthrift:jar:0.9.3:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.12; omitted for duplicate)
+|  |  \- (org.apache.httpcomponents:httpclient:jar:4.5.3:compile - version managed from 4.4.1; omitted for duplicate)
+|  +- org.slf4j:jcl-over-slf4j:jar:1.7.21:runtime
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.21:runtime - version managed from 1.7.12; omitted for duplicate)
+|  +- org.apache.commons:commons-csv:jar:1.3:compile
+|  +- org.apache.commons:commons-lang3:jar:3.5:compile (version managed from 3.4)
+|  \- (org.slf4j:slf4j-api:jar:1.7.21:compile - version managed from 1.7.12; omitted for duplicate)
++- com.fasterxml.jackson.core:jackson-core:jar:2.8.4:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.8.4:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.4:compile - version managed from 2.8.0; omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.8.4:compile - version managed from 2.7.4; omitted for duplicate)
++- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.8.4:compile
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.4:compile - version managed from 2.7.4; omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.4:compile - version managed from 2.7.4; omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.4:compile - version managed from 2.8.0; omitted for duplicate)
++- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.4:compile
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.mockito:mockito-core:jar:1.10.19:test
+|  \- org.objenesis:objenesis:jar:2.1:test
++- ch.qos.logback:logback-classic:jar:1.1.7:test
+|  +- ch.qos.logback:logback-core:jar:1.1.7:test
+|  \- (org.slf4j:slf4j-api:jar:1.7.21:test - version managed from 1.7.20; omitted for duplicate)
+\- com.github.jsonld-java:jsonld-java:jar:0.8.3:test (scope not updated to compile)
+   +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.4:test - version managed from 2.7.4; omitted for duplicate)
+   +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.4:test - version managed from 2.7.4; omitted for duplicate)
+   +- org.apache.httpcomponents:httpclient-osgi:jar:4.5.2:test
+   |  +- (org.apache.httpcomponents:httpclient:jar:4.5.3:test - version managed from 4.5.2; omitted for duplicate)
+   |  +- (commons-codec:commons-codec:jar:1.9:test - omitted for duplicate)
+   |  +- org.apache.httpcomponents:httpmime:jar:4.5.3:test (version managed from 4.5.2)
+   |  |  \- (org.apache.httpcomponents:httpclient:jar:4.5.3:test - version managed from 4.5.2; omitted for duplicate)
+   |  +- (org.apache.httpcomponents:httpclient-cache:jar:4.5.3:test - version managed from 4.5.2; omitted for duplicate)
+   |  \- org.apache.httpcomponents:fluent-hc:jar:4.5.2:test
+   |     \- (org.apache.httpcomponents:httpclient:jar:4.5.3:test - version managed from 4.5.2; omitted for duplicate)
+   +- org.apache.httpcomponents:httpcore-osgi:jar:4.4.4:test
+   |  +- (org.apache.httpcomponents:httpcore:jar:4.4.6:test - version managed from 4.4.4; omitted for duplicate)
+   |  \- org.apache.httpcomponents:httpcore-nio:jar:4.4.4:test
+   |     \- (org.apache.httpcomponents:httpcore:jar:4.4.6:test - version managed from 4.4.4; omitted for duplicate)
+   +- (org.slf4j:slf4j-api:jar:1.7.21:test - version managed from 1.7.20; omitted for duplicate)
+   +- (org.slf4j:jcl-over-slf4j:jar:1.7.21:runtime - scope managed from test; omitted for duplicate)
+   \- commons-io:commons-io:jar:2.5:test

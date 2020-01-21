@@ -1,0 +1,120 @@
+org.quasar-analytics:quasar-skeleton-internal_2.12:jar:29.1.15
++- org.scala-lang:scala-library:jar:2.12.4:compile
+\- org.quasar-analytics:quasar-connector-internal_2.12:jar:29.1.15:compile
+   +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+   +- org.quasar-analytics:quasar-common-internal_2.12:jar:29.1.15:compile
+   |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+   |  +- org.quasar-analytics:quasar-foundation-internal_2.12:jar:29.1.15:compile
+   |  |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+   |  |  +- com.slamdata:slamdata-predef_2.12:jar:0.0.4:compile
+   |  |  |  +- org.typelevel:scala-library:jar:2.12.1:compile
+   |  |  |  +- (org.scalaz:scalaz-core_2.12:jar:7.2.8:compile - omitted for conflict with 7.2.17)
+   |  |  |  \- org.scalactic:scalactic_2.12:jar:3.0.1:compile
+   |  |  |     +- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.4)
+   |  |  |     \- (org.scala-lang:scala-reflect:jar:2.12.0:compile - omitted for conflict with 2.12.1)
+   |  |  +- org.scalaz:scalaz-core_2.12:jar:7.2.17:compile
+   |  |  |  \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+   |  |  +- org.scalaz:scalaz-concurrent_2.12:jar:7.2.17:compile
+   |  |  |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+   |  |  |  +- (org.scalaz:scalaz-core_2.12:jar:7.2.17:compile - omitted for duplicate)
+   |  |  |  \- org.scalaz:scalaz-effect_2.12:jar:7.2.17:compile
+   |  |  |     +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+   |  |  |     \- (org.scalaz:scalaz-core_2.12:jar:7.2.17:compile - omitted for duplicate)
+   |  |  +- org.scalaz.stream:scalaz-stream_2.12:jar:0.8.6a:compile
+   |  |  |  +- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.4)
+   |  |  |  +- (org.scalaz:scalaz-core_2.12:jar:7.2.7:compile - omitted for conflict with 7.2.17)
+   |  |  |  +- (org.scalaz:scalaz-concurrent_2.12:jar:7.2.7:compile - omitted for conflict with 7.2.17)
+   |  |  |  \- org.scodec:scodec-bits_2.12:jar:1.1.2:compile
+   |  |  |     \- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.4)
+   |  |  +- com.github.julien-truffaut:monocle-core_2.12:jar:1.4.0:compile
+   |  |  |  +- (org.scala-lang:scala-library:jar:2.12.1:compile - omitted for conflict with 2.12.4)
+   |  |  |  \- (org.scalaz:scalaz-core_2.12:jar:7.2.8:compile - omitted for conflict with 7.2.17)
+   |  |  +- org.typelevel:algebra_2.12:jar:0.7.0:compile
+   |  |  |  +- (org.scala-lang:scala-library:jar:2.12.1:compile - omitted for conflict with 2.12.4)
+   |  |  |  \- org.typelevel:cats-kernel_2.12:jar:0.9.0:compile
+   |  |  |     \- (org.scala-lang:scala-library:jar:2.12.1:compile - omitted for conflict with 2.12.4)
+   |  |  +- org.typelevel:spire_2.12:jar:0.14.1:compile
+   |  |  |  +- (org.scala-lang:scala-library:jar:2.12.1:compile - omitted for conflict with 2.12.4)
+   |  |  |  +- org.typelevel:spire-macros_2.12:jar:0.14.1:compile
+   |  |  |  |  +- (org.scala-lang:scala-library:jar:2.12.1:compile - omitted for conflict with 2.12.4)
+   |  |  |  |  +- (org.typelevel:machinist_2.12:jar:0.6.1:compile - omitted for duplicate)
+   |  |  |  |  \- (org.typelevel:algebra_2.12:jar:0.7.0:compile - omitted for duplicate)
+   |  |  |  +- org.typelevel:machinist_2.12:jar:0.6.1:compile
+   |  |  |  |  +- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.4)
+   |  |  |  |  \- (org.scala-lang:scala-reflect:jar:2.12.0:compile - omitted for duplicate)
+   |  |  |  \- (org.typelevel:algebra_2.12:jar:0.7.0:compile - omitted for duplicate)
+   |  |  +- io.argonaut:argonaut_2.12:jar:6.2:compile
+   |  |  |  \- (org.scala-lang:scala-reflect:jar:2.12.1:compile - omitted for duplicate)
+   |  |  +- io.argonaut:argonaut-scalaz_2.12:jar:6.2:compile
+   |  |  |  +- (io.argonaut:argonaut_2.12:jar:6.2:compile - omitted for duplicate)
+   |  |  |  +- (org.scala-lang:scala-reflect:jar:2.12.1:compile - omitted for duplicate)
+   |  |  |  \- (org.scalaz:scalaz-core_2.12:jar:7.2.10:compile - omitted for conflict with 7.2.17)
+   |  |  +- com.slamdata:matryoshka-core_2.12:jar:0.18.3:compile
+   |  |  |  +- (org.typelevel:scala-library:jar:2.12.1:compile - omitted for duplicate)
+   |  |  |  +- (com.slamdata:slamdata-predef_2.12:jar:0.0.2:compile - omitted for conflict with 0.0.4)
+   |  |  |  +- (com.github.julien-truffaut:monocle-core_2.12:jar:1.4.0:compile - omitted for duplicate)
+   |  |  |  +- (org.scalaz:scalaz-core_2.12:jar:7.2.8:compile - omitted for conflict with 7.2.17)
+   |  |  |  \- com.github.mpilquist:simulacrum_2.12:jar:0.10.0:compile
+   |  |  |     +- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.4)
+   |  |  |     \- (org.typelevel:macro-compat_2.12:jar:1.1.1:compile - omitted for duplicate)
+   |  |  +- com.slamdata:pathy-core_2.12:jar:0.2.11:compile
+   |  |  |  +- (org.typelevel:scala-library:jar:2.12.1:compile - omitted for duplicate)
+   |  |  |  +- (com.slamdata:slamdata-predef_2.12:jar:0.0.2:compile - omitted for conflict with 0.0.4)
+   |  |  |  \- (org.scalaz:scalaz-core_2.12:jar:7.2.9:compile - omitted for conflict with 7.2.17)
+   |  |  +- com.slamdata:pathy-argonaut_2.12:jar:0.2.11:compile
+   |  |  |  +- (org.typelevel:scala-library:jar:2.12.1:compile - omitted for duplicate)
+   |  |  |  +- (com.slamdata:pathy-core_2.12:jar:0.2.11:compile - omitted for duplicate)
+   |  |  |  +- com.slamdata:pathy-scalacheck_2.12:jar:0.2.11:compile
+   |  |  |  |  +- (org.typelevel:scala-library:jar:2.12.1:compile - omitted for duplicate)
+   |  |  |  |  +- (com.slamdata:pathy-core_2.12:jar:0.2.11:compile - omitted for duplicate)
+   |  |  |  |  +- (com.slamdata:slamdata-predef_2.12:jar:0.0.2:compile - omitted for conflict with 0.0.4)
+   |  |  |  |  +- (org.scalaz:scalaz-core_2.12:jar:7.2.9:compile - omitted for conflict with 7.2.17)
+   |  |  |  |  \- (org.scalacheck:scalacheck_2.12:jar:1.13.4:compile - omitted for duplicate)
+   |  |  |  +- (com.slamdata:slamdata-predef_2.12:jar:0.0.2:compile - omitted for conflict with 0.0.4)
+   |  |  |  \- (io.argonaut:argonaut_2.12:jar:6.2-RC2:compile - omitted for conflict with 6.2)
+   |  |  +- eu.timepit:refined_2.12:jar:0.8.3:compile
+   |  |  |  +- org.scala-lang:scala-compiler:jar:2.12.3:compile
+   |  |  |  |  +- (org.scala-lang:scala-library:jar:2.12.3:compile - omitted for conflict with 2.12.4)
+   |  |  |  |  +- (org.scala-lang:scala-reflect:jar:2.12.3:compile - omitted for conflict with 2.12.1)
+   |  |  |  |  \- (org.scala-lang.modules:scala-xml_2.12:jar:1.0.6:compile - omitted for duplicate)
+   |  |  |  +- (org.scala-lang:scala-library:jar:2.12.3:compile - omitted for conflict with 2.12.4)
+   |  |  |  +- (org.scala-lang:scala-reflect:jar:2.12.3:compile - omitted for conflict with 2.12.1)
+   |  |  |  +- (org.typelevel:macro-compat_2.12:jar:1.1.1:compile - omitted for duplicate)
+   |  |  |  +- (com.chuusai:shapeless_2.12:jar:2.3.2:compile - omitted for duplicate)
+   |  |  |  \- org.scala-lang.modules:scala-xml_2.12:jar:1.0.6:compile
+   |  |  |     \- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.4)
+   |  |  +- com.chuusai:shapeless_2.12:jar:2.3.2:compile
+   |  |  |  +- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.4)
+   |  |  |  \- (org.typelevel:macro-compat_2.12:jar:1.1.1:compile - omitted for duplicate)
+   |  |  +- org.scalacheck:scalacheck_2.12:jar:1.13.4:compile
+   |  |  |  +- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.4)
+   |  |  |  \- org.scala-sbt:test-interface:jar:1.0:compile
+   |  |  \- com.propensive:contextual_2.12:jar:1.0.1:compile
+   |  |     +- (org.scala-lang:scala-compiler:jar:2.12.1:compile - omitted for conflict with 2.12.3)
+   |  |     +- (org.scala-lang:scala-library:jar:2.12.1:compile - omitted for conflict with 2.12.4)
+   |  |     +- (org.typelevel:macro-compat_2.12:jar:1.1.1:compile - omitted for duplicate)
+   |  |     \- (org.scala-lang:scala-reflect:jar:2.12.1:compile - omitted for duplicate)
+   |  +- org.quasar-analytics:quasar-ejson-internal_2.12:jar:29.1.15:compile
+   |  |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+   |  |  +- (org.quasar-analytics:quasar-foundation-internal_2.12:jar:29.1.15:compile - omitted for duplicate)
+   |  |  \- org.spire-math:jawn-parser_2.12:jar:0.10.4:compile
+   |  |     \- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.4)
+   |  \- org.quasar-analytics:quasar-js-internal_2.12:jar:29.1.15:compile
+   |     +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+   |     \- (org.quasar-analytics:quasar-foundation-internal_2.12:jar:29.1.15:compile - omitted for duplicate)
+   +- org.quasar-analytics:quasar-effect-internal_2.12:jar:29.1.15:compile
+   |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+   |  +- (org.quasar-analytics:quasar-foundation-internal_2.12:jar:29.1.15:compile - omitted for duplicate)
+   |  \- com.fasterxml.uuid:java-uuid-generator:jar:3.1.4:compile
+   \- org.quasar-analytics:quasar-frontend-internal_2.12:jar:29.1.15:compile
+      +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+      +- (org.quasar-analytics:quasar-common-internal_2.12:jar:29.1.15:compile - omitted for duplicate)
+      +- com.github.julien-truffaut:monocle-macro_2.12:jar:1.4.0:compile
+      |  +- (org.scala-lang:scala-library:jar:2.12.1:compile - omitted for conflict with 2.12.4)
+      |  +- (com.github.julien-truffaut:monocle-core_2.12:jar:1.4.0:compile - omitted for duplicate)
+      |  +- org.scala-lang:scala-reflect:jar:2.12.1:compile
+      |  |  \- (org.scala-lang:scala-library:jar:2.12.1:compile - omitted for conflict with 2.12.4)
+      |  \- org.typelevel:macro-compat_2.12:jar:1.1.1:compile
+      |     \- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.4)
+      \- org.scala-lang.modules:scala-parser-combinators_2.12:jar:1.0.6:compile
+         \- (org.scala-lang:scala-library:jar:2.12.2:compile - omitted for conflict with 2.12.4)

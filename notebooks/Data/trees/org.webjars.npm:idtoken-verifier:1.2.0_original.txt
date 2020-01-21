@@ -1,0 +1,25 @@
+org.webjars.npm:idtoken-verifier:jar:1.2.0
++- org.webjars.npm:jsbn:jar:0.1.1:compile
++- org.webjars.npm:superagent:jar:4.0.0-beta.5:compile
+|  +- org.webjars.npm:formidable:jar:1.2.1:compile
+|  +- org.webjars.npm:debug:jar:4.1.1:compile
+|  |  \- org.webjars.npm:ms:jar:2.1.2:compile
+|  +- org.webjars.npm:component-emitter:jar:1.3.0:compile
+|  +- org.webjars.npm:methods:jar:1.1.2:compile
+|  +- org.webjars.npm:form-data:jar:2.3.3:compile
+|  |  +- org.webjars.npm:asynckit:jar:0.4.0:compile
+|  |  +- org.webjars.npm:combined-stream:jar:1.0.8:compile
+|  |  |  \- org.webjars.npm:delayed-stream:jar:1.0.0:compile
+|  |  \- org.webjars.npm:mime-types:jar:2.1.24:compile
+|  |     \- org.webjars.npm:mime-db:jar:1.40.0:compile
+|  +- org.webjars.npm:readable-stream:jar:3.3.0:compile
+|  |  +- org.webjars.npm:inherits:jar:2.0.4:compile
+|  |  +- org.webjars.npm:string_decoder:jar:1.2.0:compile
+|  |  |  \- org.webjars.npm:safe-buffer:jar:5.1.2:compile
+|  |  \- org.webjars.npm:util-deprecate:jar:1.0.2:compile
+|  +- org.webjars.npm:mime:jar:2.4.3:compile
+|  +- org.webjars.npm:qs:jar:6.7.0:compile
+|  \- org.webjars.npm:cookiejar:jar:2.1.2:compile
++- org.webjars.npm:crypto-js:jar:3.1.9-1:compile
++- org.webjars.npm:base64-js:jar:1.3.0:compile
+\- org.webjars.npm:url-join:jar:1.1.0:compile

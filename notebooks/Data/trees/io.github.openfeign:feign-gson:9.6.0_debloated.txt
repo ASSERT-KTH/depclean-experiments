@@ -1,0 +1,7 @@
+io.github.openfeign:feign-gson:jar:9.6.0
++- io.github.openfeign:feign-core:jar:9.6.0:compile
++- com.google.code.gson:gson:jar:2.5:compile
++- io.github.openfeign:feign-core:test-jar:tests:9.6.0:test
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
+\- org.assertj:assertj-core:jar:1.7.1:test

@@ -1,0 +1,8 @@
+com.softwaremill.macwire:macros_2.11:jar:2.3.1
++- org.scala-lang:scala-library:jar:2.11.11:compile
++- com.softwaremill.macwire:util_2.11:jar:2.3.1:provided
+|  +- (org.scala-lang:scala-library:jar:2.11.11:provided - omitted for duplicate)
+|  \- com.softwaremill.common:tagging_2.11:jar:2.2.0:provided
+|     \- (org.scala-lang:scala-library:jar:2.11.8:provided - omitted for conflict with 2.11.11)
+\- org.scala-lang:scala-reflect:jar:2.11.11:compile
+   \- (org.scala-lang:scala-library:jar:2.11.11:compile - omitted for duplicate)

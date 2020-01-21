@@ -1,0 +1,370 @@
+com.goyeau:orchestra-core_2.12:jar:0.8
++- org.scala-lang:scala-library:jar:2.12.4:compile
++- com.chuusai:shapeless_2.12:jar:2.3.3:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  \- org.typelevel:macro-compat_2.12:jar:1.1.1:compile
+|     \- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.4)
++- com.vmunier:scalajs-scripts_2.12:jar:1.1.2:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.5:compile - omitted for conflict with 2.12.4)
+|  \- com.typesafe.play:twirl-api_2.12:jar:1.3.15:compile
+|     +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|     \- org.scala-lang.modules:scala-xml_2.12:jar:1.0.6:compile
+|        \- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.4)
++- com.lihaoyi:autowire_2.12:jar:0.2.6:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.4)
+|  \- org.scala-lang:scala-reflect:jar:2.12.0:compile
+|     \- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.4)
++- com.goyeau:kubernetes-client_2.12:jar:0.0.4:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  +- (com.typesafe.akka:akka-http_2.12:jar:10.0.11:compile - omitted for conflict with 10.1.1)
+|  +- (io.circe:circe-core_2.12:jar:0.9.1:compile - omitted for conflict with 0.9.3)
+|  +- (io.circe:circe-generic_2.12:jar:0.9.1:compile - omitted for conflict with 0.9.3)
+|  +- (io.circe:circe-parser_2.12:jar:0.9.1:compile - omitted for conflict with 0.9.3)
+|  +- (com.typesafe.scala-logging:scala-logging_2.12:jar:3.7.2:compile - omitted for conflict with 3.8.0)
+|  +- (ch.qos.logback:logback-classic:jar:1.2.3:compile - omitted for duplicate)
+|  +- io.circe:circe-yaml_2.12:jar:0.7.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.2:compile - omitted for conflict with 2.12.4)
+|  |  +- (io.circe:circe-core_2.12:jar:0.9.0:compile - omitted for conflict with 0.9.1)
+|  |  +- (io.circe:circe-parser_2.12:jar:0.9.0:compile - omitted for conflict with 0.9.1)
+|  |  \- org.yaml:snakeyaml:jar:1.19:compile
+|  \- org.bouncycastle:bcpkix-jdk15on:jar:1.58:compile
+|     \- org.bouncycastle:bcprov-jdk15on:jar:1.58:compile
++- com.github.japgolly.scalajs-react:core_sjs0.6_2.12:jar:1.2.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  +- org.scala-js:scalajs-library_2.12:jar:0.6.22:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  +- (org.scala-lang:scala-reflect:jar:2.12.4:compile - omitted for conflict with 2.12.0)
+|  +- org.scala-js:scalajs-dom_sjs0.6_2.12:jar:0.9.4:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  |  \- (org.scala-js:scalajs-library_2.12:jar:0.6.21:compile - omitted for conflict with 0.6.22)
+|  \- com.lihaoyi:sourcecode_sjs0.6_2.12:jar:0.1.4:compile
+|     +- (org.scala-lang:scala-library:jar:2.12.2:compile - omitted for conflict with 2.12.4)
+|     \- (org.scala-js:scalajs-library_2.12:jar:0.6.18:compile - omitted for conflict with 0.6.22)
++- com.github.japgolly.scalajs-react:extra_sjs0.6_2.12:jar:1.2.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  +- (com.github.japgolly.scalajs-react:core_sjs0.6_2.12:jar:1.2.0:compile - omitted for duplicate)
+|  +- (org.scala-js:scalajs-library_2.12:jar:0.6.22:compile - omitted for duplicate)
+|  \- (org.scala-lang:scala-reflect:jar:2.12.4:compile - omitted for conflict with 2.12.0)
++- com.typesafe.akka:akka-http_2.12:jar:10.1.1:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  \- com.typesafe.akka:akka-http-core_2.12:jar:10.1.1:compile
+|     +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|     \- com.typesafe.akka:akka-parsing_2.12:jar:10.1.1:compile
+|        \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
++- com.typesafe.akka:akka-stream_2.12:jar:2.5.11:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  +- com.typesafe.akka:akka-actor_2.12:jar:2.5.11:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  |  +- com.typesafe:config:jar:1.3.2:compile
+|  |  \- org.scala-lang.modules:scala-java8-compat_2.12:jar:0.8.0:compile
+|  |     \- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.4)
+|  +- com.typesafe.akka:akka-protobuf_2.12:jar:2.5.11:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  +- org.reactivestreams:reactive-streams:jar:1.0.2:compile
+|  \- com.typesafe:ssl-config-core_2.12:jar:0.2.2:compile
+|     +- (org.scala-lang:scala-library:jar:2.12.1:compile - omitted for conflict with 2.12.4)
+|     +- (com.typesafe:config:jar:1.2.0:compile - omitted for conflict with 1.3.2)
+|     \- org.scala-lang.modules:scala-parser-combinators_2.12:jar:1.0.4:compile
+|        \- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.4)
++- com.typesafe.akka:akka-http-testkit_2.12:jar:10.1.1:test
+|  +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for duplicate)
+|  +- (com.typesafe.akka:akka-http_2.12:jar:10.1.1:test - omitted for duplicate)
+|  \- com.typesafe.akka:akka-stream-testkit_2.12:jar:2.5.11:test
+|     +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for duplicate)
+|     +- (com.typesafe.akka:akka-stream_2.12:jar:2.5.11:test - omitted for duplicate)
+|     \- com.typesafe.akka:akka-testkit_2.12:jar:2.5.11:test
+|        +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for duplicate)
+|        \- (com.typesafe.akka:akka-actor_2.12:jar:2.5.11:test - omitted for duplicate)
++- de.heikoseeberger:akka-http-circe_2.12:jar:1.20.1:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  +- (com.typesafe.akka:akka-http_2.12:jar:10.1.1:compile - omitted for duplicate)
+|  +- (com.typesafe.akka:akka-stream_2.12:jar:2.5.11:compile - omitted for duplicate)
+|  +- (io.circe:circe-core_2.12:jar:0.9.3:compile - omitted for conflict with 0.9.1)
+|  \- io.circe:circe-jawn_2.12:jar:0.9.3:compile
+|     +- (org.scala-lang:scala-library:jar:2.12.5:compile - omitted for conflict with 2.12.4)
+|     +- (io.circe:circe-core_2.12:jar:0.9.3:compile - omitted for conflict with 0.9.1)
+|     \- org.spire-math:jawn-parser_2.12:jar:0.11.1:compile
+|        \- (org.scala-lang:scala-library:jar:2.12.2:compile - omitted for conflict with 2.12.4)
++- io.circe:circe-core_2.12:jar:0.9.3:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.5:compile - omitted for conflict with 2.12.4)
+|  +- io.circe:circe-numbers_2.12:jar:0.9.3:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.12.5:compile - omitted for conflict with 2.12.4)
+|  \- org.typelevel:cats-core_2.12:jar:1.0.1:compile
+|     +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|     +- org.typelevel:cats-macros_2.12:jar:1.0.1:compile
+|     |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|     |  \- (org.typelevel:machinist_2.12:jar:0.6.2:compile - omitted for duplicate)
+|     +- org.typelevel:cats-kernel_2.12:jar:1.0.1:compile
+|     |  \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|     \- org.typelevel:machinist_2.12:jar:0.6.2:compile
+|        +- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.4)
+|        \- (org.scala-lang:scala-reflect:jar:2.12.0:compile - omitted for duplicate)
++- io.circe:circe-generic_2.12:jar:0.9.3:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.5:compile - omitted for conflict with 2.12.4)
+|  +- (io.circe:circe-core_2.12:jar:0.9.3:compile - omitted for duplicate)
+|  +- (org.typelevel:macro-compat_2.12:jar:1.1.1:compile - omitted for duplicate)
+|  \- (com.chuusai:shapeless_2.12:jar:2.3.3:compile - omitted for duplicate)
++- io.circe:circe-parser_2.12:jar:0.9.3:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.5:compile - omitted for conflict with 2.12.4)
+|  +- (io.circe:circe-jawn_2.12:jar:0.9.3:compile - omitted for duplicate)
+|  \- (io.circe:circe-core_2.12:jar:0.9.3:compile - omitted for duplicate)
++- io.circe:circe-shapes_2.12:jar:0.9.3:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.5:compile - omitted for conflict with 2.12.4)
+|  +- (io.circe:circe-core_2.12:jar:0.9.3:compile - omitted for duplicate)
+|  +- (org.typelevel:macro-compat_2.12:jar:1.1.1:compile - omitted for duplicate)
+|  \- (com.chuusai:shapeless_2.12:jar:2.3.3:compile - omitted for duplicate)
++- io.circe:circe-java8_2.12:jar:0.9.3:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.5:compile - omitted for conflict with 2.12.4)
+|  \- (io.circe:circe-core_2.12:jar:0.9.3:compile - omitted for duplicate)
++- com.github.japgolly.scalacss:core_sjs0.6_2.12:jar:0.5.5:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  +- (org.scala-js:scalajs-library_2.12:jar:0.6.19:compile - omitted for conflict with 0.6.22)
+|  +- (org.scala-lang:scala-reflect:jar:2.12.4:compile - omitted for conflict with 2.12.0)
+|  +- com.github.japgolly.univeq:univeq_sjs0.6_2.12:jar:1.0.2:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.4)
+|  |  \- (org.scala-js:scalajs-library_2.12:jar:0.6.13:compile - omitted for conflict with 0.6.22)
+|  \- (org.scala-js:scalajs-dom_sjs0.6_2.12:jar:0.9.4:compile - omitted for duplicate)
++- com.github.japgolly.scalacss:ext-react_sjs0.6_2.12:jar:0.5.5:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  +- (com.github.japgolly.scalacss:core_sjs0.6_2.12:jar:0.5.5:compile - omitted for duplicate)
+|  +- (org.scala-js:scalajs-library_2.12:jar:0.6.19:compile - omitted for conflict with 0.6.22)
+|  \- (com.github.japgolly.scalajs-react:core_sjs0.6_2.12:jar:1.1.1:compile - omitted for conflict with 1.2.0)
++- com.typesafe.scala-logging:scala-logging_2.12:jar:3.8.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  +- (org.scala-lang:scala-reflect:jar:2.12.4:compile - omitted for conflict with 2.12.0)
+|  \- org.slf4j:slf4j-api:jar:1.7.25:compile
++- ch.qos.logback:logback-classic:jar:1.2.3:compile
+|  +- ch.qos.logback:logback-core:jar:1.2.3:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
++- com.sksamuel.elastic4s:elastic4s-http_2.12:jar:6.2.3:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  +- com.sksamuel.elastic4s:elastic4s-core_2.12:jar:6.2.3:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  |  +- (com.sksamuel.exts:exts_2.12:jar:1.60.0:compile - omitted for duplicate)
+|  |  +- (org.typelevel:cats-core_2.12:jar:1.0.1:compile - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  |  +- joda-time:joda-time:jar:2.9.9:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.2:compile - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.2:compile - omitted for duplicate)
+|  |  \- (com.fasterxml.jackson.module:jackson-module-scala_2.12:jar:2.9.2:compile - omitted for duplicate)
+|  +- com.sksamuel.exts:exts_2.12:jar:1.60.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.2:compile - omitted for conflict with 2.12.4)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.16:compile - omitted for conflict with 1.7.25)
+|  |  +- (org.scala-lang:scala-reflect:jar:2.12.2:compile - omitted for conflict with 2.12.0)
+|  |  \- (com.typesafe:config:jar:1.3.0:compile - omitted for conflict with 1.3.2)
+|  +- (org.typelevel:cats-core_2.12:jar:1.0.1:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  +- org.elasticsearch.client:elasticsearch-rest-client:jar:6.2.2:compile
+|  |  +- org.apache.httpcomponents:httpclient:jar:4.5.2:compile
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.4.5:compile
+|  |  +- org.apache.httpcomponents:httpasyncclient:jar:4.1.2:compile
+|  |  +- org.apache.httpcomponents:httpcore-nio:jar:4.4.5:compile
+|  |  +- commons-codec:commons-codec:jar:1.10:compile
+|  |  \- commons-logging:commons-logging:jar:1.1.3:compile
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.9.2:compile
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.9.2:compile
+|  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+|  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.2:compile - omitted for duplicate)
+|  \- com.fasterxml.jackson.module:jackson-module-scala_2.12:jar:2.9.2:compile
+|     +- (org.scala-lang:scala-reflect:jar:2.12.4:compile - omitted for conflict with 2.12.0)
+|     +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.2:compile - omitted for duplicate)
+|     +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.2:compile - omitted for conflict with 2.9.0)
+|     +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.2:compile - omitted for duplicate)
+|     \- com.fasterxml.jackson.module:jackson-module-paranamer:jar:2.9.2:compile
+|        +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.2:compile - omitted for duplicate)
+|        \- com.thoughtworks.paranamer:paranamer:jar:2.8:compile
++- com.sksamuel.elastic4s:elastic4s-http-streams_2.12:jar:6.2.3:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  +- (com.sksamuel.elastic4s:elastic4s-http_2.12:jar:6.2.3:compile - omitted for duplicate)
+|  +- (com.sksamuel.exts:exts_2.12:jar:1.60.0:compile - omitted for duplicate)
+|  +- (org.typelevel:cats-core_2.12:jar:1.0.1:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  +- (com.typesafe.akka:akka-actor_2.12:jar:2.4.20:compile - omitted for conflict with 2.5.11)
+|  \- (org.reactivestreams:reactive-streams:jar:1.0.2:compile - omitted for duplicate)
++- com.sksamuel.elastic4s:elastic4s-circe_2.12:jar:6.2.3:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  +- (com.sksamuel.elastic4s:elastic4s-core_2.12:jar:6.2.3:compile - omitted for duplicate)
+|  +- (com.sksamuel.exts:exts_2.12:jar:1.60.0:compile - omitted for duplicate)
+|  +- (org.typelevel:cats-core_2.12:jar:1.0.1:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  +- (io.circe:circe-core_2.12:jar:0.9.0:compile - omitted for conflict with 0.9.3)
+|  +- (io.circe:circe-generic_2.12:jar:0.9.0:compile - omitted for conflict with 0.9.3)
+|  \- (io.circe:circe-parser_2.12:jar:0.9.0:compile - omitted for conflict with 0.9.3)
++- com.sksamuel.elastic4s:elastic4s-testkit_2.12:jar:6.2.3:test
+|  +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for duplicate)
+|  +- (com.sksamuel.elastic4s:elastic4s-core_2.12:jar:6.2.3:test - omitted for duplicate)
+|  +- com.sksamuel.elastic4s:elastic4s-embedded_2.12:jar:6.2.3:test
+|  |  +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for duplicate)
+|  |  +- com.sksamuel.elastic4s:elastic4s-tcp_2.12:jar:6.2.3:test
+|  |  |  +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for duplicate)
+|  |  |  +- (com.sksamuel.elastic4s:elastic4s-core_2.12:jar:6.2.3:test - omitted for duplicate)
+|  |  |  +- (com.sksamuel.exts:exts_2.12:jar:1.60.0:test - omitted for duplicate)
+|  |  |  +- (org.typelevel:cats-core_2.12:jar:1.0.1:test - omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)
+|  |  |  +- (org.elasticsearch:elasticsearch:jar:6.2.2:test - omitted for duplicate)
+|  |  |  +- org.locationtech.spatial4j:spatial4j:jar:0.6:test
+|  |  |  +- com.vividsolutions:jts:jar:1.13:test
+|  |  |  +- io.netty:netty-all:jar:4.1.16.Final:test
+|  |  |  +- org.apache.lucene:lucene-core:jar:7.2.1:test
+|  |  |  +- org.apache.lucene:lucene-analyzers-common:jar:7.2.1:test
+|  |  |  |  \- (org.apache.lucene:lucene-core:jar:7.2.1:test - omitted for duplicate)
+|  |  |  +- org.apache.lucene:lucene-backward-codecs:jar:7.2.1:test
+|  |  |  |  \- (org.apache.lucene:lucene-core:jar:7.2.1:test - omitted for duplicate)
+|  |  |  +- org.apache.lucene:lucene-grouping:jar:7.2.1:test
+|  |  |  |  +- (org.apache.lucene:lucene-core:jar:7.2.1:test - omitted for duplicate)
+|  |  |  |  \- (org.apache.lucene:lucene-queries:jar:7.2.1:test - omitted for duplicate)
+|  |  |  +- org.apache.lucene:lucene-highlighter:jar:7.2.1:test
+|  |  |  |  +- (org.apache.lucene:lucene-analyzers-common:jar:7.2.1:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.lucene:lucene-core:jar:7.2.1:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.lucene:lucene-join:jar:7.2.1:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.lucene:lucene-memory:jar:7.2.1:test - omitted for duplicate)
+|  |  |  |  \- (org.apache.lucene:lucene-queries:jar:7.2.1:test - omitted for duplicate)
+|  |  |  +- org.apache.lucene:lucene-join:jar:7.2.1:test
+|  |  |  |  \- (org.apache.lucene:lucene-core:jar:7.2.1:test - omitted for duplicate)
+|  |  |  +- org.apache.lucene:lucene-memory:jar:7.2.1:test
+|  |  |  |  \- (org.apache.lucene:lucene-core:jar:7.2.1:test - omitted for duplicate)
+|  |  |  +- org.apache.lucene:lucene-misc:jar:7.2.1:test
+|  |  |  |  \- (org.apache.lucene:lucene-core:jar:7.2.1:test - omitted for duplicate)
+|  |  |  +- org.apache.lucene:lucene-queries:jar:7.2.1:test
+|  |  |  |  \- (org.apache.lucene:lucene-core:jar:7.2.1:test - omitted for duplicate)
+|  |  |  +- org.apache.lucene:lucene-queryparser:jar:7.2.1:test
+|  |  |  |  +- (org.apache.lucene:lucene-core:jar:7.2.1:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.lucene:lucene-queries:jar:7.2.1:test - omitted for duplicate)
+|  |  |  |  \- (org.apache.lucene:lucene-sandbox:jar:7.2.1:test - omitted for duplicate)
+|  |  |  +- org.apache.lucene:lucene-sandbox:jar:7.2.1:test
+|  |  |  |  \- (org.apache.lucene:lucene-core:jar:7.2.1:test - omitted for duplicate)
+|  |  |  +- org.apache.lucene:lucene-spatial:jar:7.2.1:test
+|  |  |  |  \- (org.apache.lucene:lucene-core:jar:7.2.1:test - omitted for duplicate)
+|  |  |  +- org.apache.lucene:lucene-spatial-extras:jar:7.2.1:test
+|  |  |  |  +- (org.apache.lucene:lucene-core:jar:7.2.1:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.lucene:lucene-spatial3d:jar:7.2.1:test - omitted for duplicate)
+|  |  |  |  \- (org.locationtech.spatial4j:spatial4j:jar:0.6:test - omitted for duplicate)
+|  |  |  +- org.apache.lucene:lucene-spatial3d:jar:7.2.1:test
+|  |  |  |  \- (org.apache.lucene:lucene-core:jar:7.2.1:test - omitted for duplicate)
+|  |  |  +- org.apache.lucene:lucene-suggest:jar:7.2.1:test
+|  |  |  |  +- (org.apache.lucene:lucene-analyzers-common:jar:7.2.1:test - omitted for duplicate)
+|  |  |  |  \- (org.apache.lucene:lucene-core:jar:7.2.1:test - omitted for duplicate)
+|  |  |  +- org.elasticsearch.client:transport:jar:6.2.2:test
+|  |  |  |  +- (org.elasticsearch:elasticsearch:jar:6.2.2:test - omitted for duplicate)
+|  |  |  |  +- org.elasticsearch.plugin:transport-netty4-client:jar:6.2.2:test
+|  |  |  |  |  +- io.netty:netty-buffer:jar:4.1.16.Final:test
+|  |  |  |  |  +- io.netty:netty-codec:jar:4.1.16.Final:test
+|  |  |  |  |  +- io.netty:netty-codec-http:jar:4.1.16.Final:test
+|  |  |  |  |  +- io.netty:netty-common:jar:4.1.16.Final:test
+|  |  |  |  |  +- io.netty:netty-handler:jar:4.1.16.Final:test
+|  |  |  |  |  +- io.netty:netty-resolver:jar:4.1.16.Final:test
+|  |  |  |  |  +- io.netty:netty-transport:jar:4.1.16.Final:test
+|  |  |  |  |  +- (org.elasticsearch:elasticsearch:jar:6.2.2:test - omitted for duplicate)
+|  |  |  |  |  +- (org.locationtech.spatial4j:spatial4j:jar:0.6:test - omitted for duplicate)
+|  |  |  |  |  +- (com.vividsolutions:jts:jar:1.13:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.logging.log4j:log4j-api:jar:2.9.1:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.logging.log4j:log4j-core:jar:2.9.1:test - omitted for duplicate)
+|  |  |  |  |  \- (org.elasticsearch:jna:jar:4.5.1:test - omitted for duplicate)
+|  |  |  |  +- org.elasticsearch.plugin:reindex-client:jar:6.2.2:test
+|  |  |  |  |  +- (org.elasticsearch.client:elasticsearch-rest-client:jar:6.2.2:test - omitted for duplicate)
+|  |  |  |  |  +- (org.elasticsearch:elasticsearch:jar:6.2.2:test - omitted for duplicate)
+|  |  |  |  |  +- (org.locationtech.spatial4j:spatial4j:jar:0.6:test - omitted for duplicate)
+|  |  |  |  |  +- (com.vividsolutions:jts:jar:1.13:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.logging.log4j:log4j-api:jar:2.9.1:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.logging.log4j:log4j-core:jar:2.9.1:test - omitted for duplicate)
+|  |  |  |  |  \- (org.elasticsearch:jna:jar:4.5.1:test - omitted for duplicate)
+|  |  |  |  +- org.elasticsearch.plugin:lang-mustache-client:jar:6.2.2:test
+|  |  |  |  |  +- com.github.spullara.mustache.java:compiler:jar:0.9.3:test
+|  |  |  |  |  +- (org.elasticsearch:elasticsearch:jar:6.2.2:test - omitted for duplicate)
+|  |  |  |  |  +- (org.locationtech.spatial4j:spatial4j:jar:0.6:test - omitted for duplicate)
+|  |  |  |  |  +- (com.vividsolutions:jts:jar:1.13:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.logging.log4j:log4j-api:jar:2.9.1:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.logging.log4j:log4j-core:jar:2.9.1:test - omitted for duplicate)
+|  |  |  |  |  \- (org.elasticsearch:jna:jar:4.5.1:test - omitted for duplicate)
+|  |  |  |  +- org.elasticsearch.plugin:percolator-client:jar:6.2.2:test
+|  |  |  |  |  +- (org.elasticsearch:elasticsearch:jar:6.2.2:test - omitted for duplicate)
+|  |  |  |  |  +- (org.locationtech.spatial4j:spatial4j:jar:0.6:test - omitted for duplicate)
+|  |  |  |  |  +- (com.vividsolutions:jts:jar:1.13:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.logging.log4j:log4j-api:jar:2.9.1:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.logging.log4j:log4j-core:jar:2.9.1:test - omitted for duplicate)
+|  |  |  |  |  \- (org.elasticsearch:jna:jar:4.5.1:test - omitted for duplicate)
+|  |  |  |  +- org.elasticsearch.plugin:parent-join-client:jar:6.2.2:test
+|  |  |  |  |  +- (org.elasticsearch:elasticsearch:jar:6.2.2:test - omitted for duplicate)
+|  |  |  |  |  +- (org.locationtech.spatial4j:spatial4j:jar:0.6:test - omitted for duplicate)
+|  |  |  |  |  +- (com.vividsolutions:jts:jar:1.13:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.logging.log4j:log4j-api:jar:2.9.1:test - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.logging.log4j:log4j-core:jar:2.9.1:test - omitted for duplicate)
+|  |  |  |  |  \- (org.elasticsearch:jna:jar:4.5.1:test - omitted for duplicate)
+|  |  |  |  \- org.elasticsearch.plugin:rank-eval-client:jar:6.2.2:test
+|  |  |  |     +- (org.elasticsearch:elasticsearch:jar:6.2.2:test - omitted for duplicate)
+|  |  |  |     +- (org.locationtech.spatial4j:spatial4j:jar:0.6:test - omitted for duplicate)
+|  |  |  |     +- (com.vividsolutions:jts:jar:1.13:test - omitted for duplicate)
+|  |  |  |     +- (org.apache.logging.log4j:log4j-api:jar:2.9.1:test - omitted for duplicate)
+|  |  |  |     +- (org.apache.logging.log4j:log4j-core:jar:2.9.1:test - omitted for duplicate)
+|  |  |  |     \- (org.elasticsearch:jna:jar:4.5.1:test - omitted for duplicate)
+|  |  |  +- org.apache.logging.log4j:log4j-api:jar:2.9.1:test
+|  |  |  +- org.apache.logging.log4j:log4j-core:jar:2.9.1:test
+|  |  |  |  \- (org.apache.logging.log4j:log4j-api:jar:2.9.1:test - omitted for duplicate)
+|  |  |  +- org.apache.logging.log4j:log4j-1.2-api:jar:2.9.1:test
+|  |  |  |  +- (org.apache.logging.log4j:log4j-api:jar:2.9.1:test - omitted for duplicate)
+|  |  |  |  \- (org.apache.logging.log4j:log4j-core:jar:2.9.1:test - omitted for duplicate)
+|  |  |  +- org.apache.logging.log4j:log4j-slf4j-impl:jar:2.9.1:test
+|  |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)
+|  |  |  |  +- (org.apache.logging.log4j:log4j-api:jar:2.9.1:test - omitted for duplicate)
+|  |  |  |  \- (org.apache.logging.log4j:log4j-core:jar:2.9.1:test - omitted for duplicate)
+|  |  |  +- com.carrotsearch:hppc:jar:0.7.1:test
+|  |  |  +- (joda-time:joda-time:jar:2.9.9:test - omitted for duplicate)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.2:test - omitted for duplicate)
+|  |  |  \- com.tdunning:t-digest:jar:3.1:test
+|  |  +- (com.sksamuel.elastic4s:elastic4s-http_2.12:jar:6.2.3:test - omitted for duplicate)
+|  |  +- (com.sksamuel.exts:exts_2.12:jar:1.60.0:test - omitted for duplicate)
+|  |  +- (org.typelevel:cats-core_2.12:jar:1.0.1:test - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)
+|  |  +- org.elasticsearch:elasticsearch:jar:6.2.2:test
+|  |  |  +- org.elasticsearch:elasticsearch-core:jar:6.2.2:test
+|  |  |  |  \- (org.apache.logging.log4j:log4j-api:jar:2.9.1:test - omitted for duplicate)
+|  |  |  +- (org.apache.lucene:lucene-core:jar:7.2.1:test - omitted for duplicate)
+|  |  |  +- (org.apache.lucene:lucene-analyzers-common:jar:7.2.1:test - omitted for duplicate)
+|  |  |  +- (org.apache.lucene:lucene-backward-codecs:jar:7.2.1:test - omitted for duplicate)
+|  |  |  +- (org.apache.lucene:lucene-grouping:jar:7.2.1:test - omitted for duplicate)
+|  |  |  +- (org.apache.lucene:lucene-highlighter:jar:7.2.1:test - omitted for duplicate)
+|  |  |  +- (org.apache.lucene:lucene-join:jar:7.2.1:test - omitted for duplicate)
+|  |  |  +- (org.apache.lucene:lucene-memory:jar:7.2.1:test - omitted for duplicate)
+|  |  |  +- (org.apache.lucene:lucene-misc:jar:7.2.1:test - omitted for duplicate)
+|  |  |  +- (org.apache.lucene:lucene-queries:jar:7.2.1:test - omitted for duplicate)
+|  |  |  +- (org.apache.lucene:lucene-queryparser:jar:7.2.1:test - omitted for duplicate)
+|  |  |  +- (org.apache.lucene:lucene-sandbox:jar:7.2.1:test - omitted for duplicate)
+|  |  |  +- (org.apache.lucene:lucene-spatial:jar:7.2.1:test - omitted for duplicate)
+|  |  |  +- (org.apache.lucene:lucene-spatial-extras:jar:7.2.1:test - omitted for duplicate)
+|  |  |  +- (org.apache.lucene:lucene-spatial3d:jar:7.2.1:test - omitted for duplicate)
+|  |  |  +- (org.apache.lucene:lucene-suggest:jar:7.2.1:test - omitted for duplicate)
+|  |  |  +- org.elasticsearch:securesm:jar:1.2:test
+|  |  |  +- org.elasticsearch:elasticsearch-cli:jar:6.2.2:test
+|  |  |  |  \- net.sf.jopt-simple:jopt-simple:jar:5.0.2:test
+|  |  |  +- (com.carrotsearch:hppc:jar:0.7.1:test - omitted for duplicate)
+|  |  |  +- (joda-time:joda-time:jar:2.9.9:test - omitted for duplicate)
+|  |  |  +- (org.yaml:snakeyaml:jar:1.17:test - omitted for conflict with 1.19)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.10:test - omitted for conflict with 2.9.2)
+|  |  |  +- (com.fasterxml.jackson.dataformat:jackson-dataformat-smile:jar:2.8.10:test - omitted for conflict with 2.9.2)
+|  |  |  +- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.8.10:test
+|  |  |  +- (com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.8.10:test - omitted for conflict with 2.9.2)
+|  |  |  +- (com.tdunning:t-digest:jar:3.0:test - omitted for conflict with 3.1)
+|  |  |  +- org.hdrhistogram:HdrHistogram:jar:2.1.9:test
+|  |  |  +- (org.apache.logging.log4j:log4j-api:jar:2.9.1:test - omitted for duplicate)
+|  |  |  \- org.elasticsearch:jna:jar:4.5.1:test
+|  |  +- com.fasterxml.jackson.dataformat:jackson-dataformat-smile:jar:2.9.2:test
+|  |  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.2:test - omitted for duplicate)
+|  |  \- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.9.2:test
+|  |     \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.2:test - omitted for duplicate)
+|  +- (com.sksamuel.elastic4s:elastic4s-http_2.12:jar:6.2.3:test - omitted for duplicate)
+|  +- (com.sksamuel.exts:exts_2.12:jar:1.60.0:test - omitted for duplicate)
+|  +- (org.typelevel:cats-core_2.12:jar:1.0.1:test - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)
+|  \- (org.scalatest:scalatest_2.12:jar:3.0.4:test - omitted for conflict with 3.0.5)
++- org.scalatest:scalatest_2.12:jar:3.0.5:test
+|  +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for duplicate)
+|  +- org.scalactic:scalactic_2.12:jar:3.0.5:test
+|  |  +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for duplicate)
+|  |  \- (org.scala-lang:scala-reflect:jar:2.12.4:test - omitted for conflict with 2.12.0)
+|  +- (org.scala-lang:scala-reflect:jar:2.12.4:test - omitted for conflict with 2.12.0)
+|  \- (org.scala-lang.modules:scala-xml_2.12:jar:1.0.6:compile - scope updated from test; omitted for duplicate)
+\- com.beachape:enumeratum_2.12:jar:1.5.13:provided
+   +- (org.scala-lang:scala-library:jar:2.12.4:provided - omitted for duplicate)
+   \- com.beachape:enumeratum-macros_2.12:jar:1.5.9:provided
+      +- (org.scala-lang:scala-library:jar:2.12.1:provided - omitted for conflict with 2.12.4)
+      \- (org.scala-lang:scala-reflect:jar:2.12.1:provided - omitted for conflict with 2.12.0)

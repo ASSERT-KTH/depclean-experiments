@@ -1,0 +1,2 @@
+info.hupel:classy:jar:0.2.0
+\- info.hupel:multi-isabelle:jar:0.1.1:compile

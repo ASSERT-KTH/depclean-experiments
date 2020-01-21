@@ -1,0 +1,59 @@
+org.bytedeco.javacpp-presets:mxnet-platform:jar:1.0.0-1.4
++- org.bytedeco.javacpp-presets:opencv-platform:jar:3.4.0-1.4:compile
+|  +- org.bytedeco.javacpp-presets:opencv:jar:3.4.0-1.4:compile
+|  |  \- (org.bytedeco:javacpp:jar:1.4:compile - omitted for duplicate)
+|  +- org.bytedeco.javacpp-presets:opencv:jar:android-arm:3.4.0-1.4:compile
+|  |  \- (org.bytedeco:javacpp:jar:1.4:compile - omitted for duplicate)
+|  +- org.bytedeco.javacpp-presets:opencv:jar:android-x86:3.4.0-1.4:compile
+|  |  \- (org.bytedeco:javacpp:jar:1.4:compile - omitted for duplicate)
+|  +- org.bytedeco.javacpp-presets:opencv:jar:linux-x86:3.4.0-1.4:compile
+|  |  \- (org.bytedeco:javacpp:jar:1.4:compile - omitted for duplicate)
+|  +- org.bytedeco.javacpp-presets:opencv:jar:linux-x86_64:3.4.0-1.4:compile
+|  |  \- (org.bytedeco:javacpp:jar:1.4:compile - omitted for duplicate)
+|  +- org.bytedeco.javacpp-presets:opencv:jar:linux-armhf:3.4.0-1.4:compile
+|  |  \- (org.bytedeco:javacpp:jar:1.4:compile - omitted for duplicate)
+|  +- org.bytedeco.javacpp-presets:opencv:jar:linux-ppc64le:3.4.0-1.4:compile
+|  |  \- (org.bytedeco:javacpp:jar:1.4:compile - omitted for duplicate)
+|  +- org.bytedeco.javacpp-presets:opencv:jar:macosx-x86_64:3.4.0-1.4:compile
+|  |  \- (org.bytedeco:javacpp:jar:1.4:compile - omitted for duplicate)
+|  +- org.bytedeco.javacpp-presets:opencv:jar:windows-x86:3.4.0-1.4:compile
+|  |  \- (org.bytedeco:javacpp:jar:1.4:compile - omitted for duplicate)
+|  \- org.bytedeco.javacpp-presets:opencv:jar:windows-x86_64:3.4.0-1.4:compile
+|     \- (org.bytedeco:javacpp:jar:1.4:compile - omitted for duplicate)
++- org.bytedeco.javacpp-presets:openblas-platform:jar:0.2.20-1.4:compile
+|  +- org.bytedeco.javacpp-presets:openblas:jar:0.2.20-1.4:compile
+|  |  \- (org.bytedeco:javacpp:jar:1.4:compile - omitted for duplicate)
+|  +- org.bytedeco.javacpp-presets:openblas:jar:android-arm:0.2.20-1.4:compile
+|  |  \- (org.bytedeco:javacpp:jar:1.4:compile - omitted for duplicate)
+|  +- org.bytedeco.javacpp-presets:openblas:jar:android-x86:0.2.20-1.4:compile
+|  |  \- (org.bytedeco:javacpp:jar:1.4:compile - omitted for duplicate)
+|  +- org.bytedeco.javacpp-presets:openblas:jar:linux-x86:0.2.20-1.4:compile
+|  |  \- (org.bytedeco:javacpp:jar:1.4:compile - omitted for duplicate)
+|  +- org.bytedeco.javacpp-presets:openblas:jar:linux-x86_64:0.2.20-1.4:compile
+|  |  \- (org.bytedeco:javacpp:jar:1.4:compile - omitted for duplicate)
+|  +- org.bytedeco.javacpp-presets:openblas:jar:linux-armhf:0.2.20-1.4:compile
+|  |  \- (org.bytedeco:javacpp:jar:1.4:compile - omitted for duplicate)
+|  +- org.bytedeco.javacpp-presets:openblas:jar:linux-ppc64le:0.2.20-1.4:compile
+|  |  \- (org.bytedeco:javacpp:jar:1.4:compile - omitted for duplicate)
+|  +- org.bytedeco.javacpp-presets:openblas:jar:macosx-x86_64:0.2.20-1.4:compile
+|  |  \- (org.bytedeco:javacpp:jar:1.4:compile - omitted for duplicate)
+|  +- org.bytedeco.javacpp-presets:openblas:jar:windows-x86:0.2.20-1.4:compile
+|  |  \- (org.bytedeco:javacpp:jar:1.4:compile - omitted for duplicate)
+|  \- org.bytedeco.javacpp-presets:openblas:jar:windows-x86_64:0.2.20-1.4:compile
+|     \- (org.bytedeco:javacpp:jar:1.4:compile - omitted for duplicate)
++- org.bytedeco.javacpp-presets:mxnet:jar:1.0.0-1.4:compile
+|  +- (org.bytedeco.javacpp-presets:opencv:jar:3.4.0-1.4:compile - omitted for duplicate)
+|  +- (org.bytedeco.javacpp-presets:openblas:jar:0.2.20-1.4:compile - omitted for duplicate)
+|  \- org.bytedeco:javacpp:jar:1.4:compile
++- org.bytedeco.javacpp-presets:mxnet:jar:linux-x86:1.0.0-1.4:compile
+|  +- (org.bytedeco.javacpp-presets:opencv:jar:3.4.0-1.4:compile - omitted for duplicate)
+|  +- (org.bytedeco.javacpp-presets:openblas:jar:0.2.20-1.4:compile - omitted for duplicate)
+|  \- (org.bytedeco:javacpp:jar:1.4:compile - omitted for duplicate)
++- org.bytedeco.javacpp-presets:mxnet:jar:linux-x86_64:1.0.0-1.4:compile
+|  +- (org.bytedeco.javacpp-presets:opencv:jar:3.4.0-1.4:compile - omitted for duplicate)
+|  +- (org.bytedeco.javacpp-presets:openblas:jar:0.2.20-1.4:compile - omitted for duplicate)
+|  \- (org.bytedeco:javacpp:jar:1.4:compile - omitted for duplicate)
+\- org.bytedeco.javacpp-presets:mxnet:jar:macosx-x86_64:1.0.0-1.4:compile
+   +- (org.bytedeco.javacpp-presets:opencv:jar:3.4.0-1.4:compile - omitted for duplicate)
+   +- (org.bytedeco.javacpp-presets:openblas:jar:0.2.20-1.4:compile - omitted for duplicate)
+   \- (org.bytedeco:javacpp:jar:1.4:compile - omitted for duplicate)

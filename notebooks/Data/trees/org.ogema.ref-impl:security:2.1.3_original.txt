@@ -1,0 +1,46 @@
+org.ogema.ref-impl:security:bundle:2.1.3
++- org.ogema.core:api:jar:2.1.3:compile
+|  +- (org.osgi:org.osgi.core:jar:5.0.0:compile - omitted for duplicate)
+|  +- (org.osgi:org.osgi.compendium:jar:5.0.0:compile - omitted for duplicate)
+|  +- org.slf4j:slf4j-api:jar:1.7.2:compile
+|  +- (org.apache.felix:org.apache.felix.scr.annotations:jar:1.9.12:compile - omitted for duplicate)
+|  \- javax.servlet:servlet-api:jar:2.4:compile
++- org.osgi:org.osgi.core:jar:5.0.0:compile
++- org.osgi:org.osgi.compendium:jar:5.0.0:compile
++- org.ogema.ref-impl:internal-api:jar:2.1.3:compile
+|  +- (org.ogema.core:api:jar:2.1.3:compile - omitted for duplicate)
+|  +- org.ogema.core:models:jar:2.1.3:compile
+|  |  \- (org.ogema.core:api:jar:2.1.3:compile - omitted for duplicate)
+|  +- (org.osgi:org.osgi.core:jar:5.0.0:compile - omitted for duplicate)
+|  +- (org.osgi:org.osgi.compendium:jar:5.0.0:compile - omitted for duplicate)
+|  +- (org.apache.felix:org.apache.felix.scr.annotations:jar:1.9.12:compile - omitted for duplicate)
+|  \- (org.json:json:jar:20170516:compile - omitted for duplicate)
++- org.ogema.ref-impl:permission-admin:jar:2.1.3:compile
+|  +- (org.osgi:org.osgi.core:jar:5.0.0:compile - omitted for duplicate)
+|  \- (org.osgi:org.osgi.compendium:jar:5.0.0:compile - omitted for duplicate)
++- org.ogema.ref-impl:util:jar:2.1.3:compile
+|  +- (org.ogema.core:api:jar:2.1.3:compile - omitted for duplicate)
+|  +- (org.osgi:org.osgi.core:jar:5.0.0:compile - omitted for duplicate)
+|  +- (org.osgi:org.osgi.compendium:jar:5.0.0:compile - omitted for duplicate)
+|  +- (org.ogema.ref-impl:internal-api:jar:2.1.3:compile - omitted for duplicate)
+|  +- com.google.guava:guava:jar:19.0:compile
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.7.4:compile
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.7.4:compile
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.7.4:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.7.0:compile - omitted for conflict with 2.7.4)
+|  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.7.4:compile - omitted for duplicate)
+|  \- com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.7.4:compile
+|     +- (com.fasterxml.jackson.core:jackson-core:jar:2.7.4:compile - omitted for duplicate)
+|     +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.7.0:compile - omitted for conflict with 2.7.4)
+|     \- (com.fasterxml.jackson.core:jackson-databind:jar:2.7.4:compile - omitted for duplicate)
++- org.ogema.ref-impl:ogema-security-manager:jar:2.1.3:compile
+|  +- (org.osgi:org.osgi.core:jar:5.0.0:compile - omitted for duplicate)
+|  +- (org.ogema.core:api:jar:2.1.3:compile - omitted for duplicate)
+|  \- (org.ogema.ref-impl:internal-api:jar:2.1.3:compile - omitted for duplicate)
++- org.apache.felix:org.apache.felix.scr.annotations:jar:1.9.12:compile
++- org.json:json:jar:20170516:compile
++- org.apache.felix:org.apache.felix.gogo.runtime:jar:1.0.6:compile
++- org.ogema.ref-impl:user-rights-proxy:jar:2.1.3:compile
+|  +- (org.osgi:org.osgi.core:jar:5.0.0:compile - omitted for duplicate)
+|  \- (org.ogema.ref-impl:internal-api:jar:2.1.3:compile - omitted for duplicate)
+\- org.apache.felix:org.apache.felix.http.api:jar:2.3.2:compile

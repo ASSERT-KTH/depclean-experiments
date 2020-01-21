@@ -1,0 +1,90 @@
+org.apache.uima:uimaj-as-activemq:jar:2.10.3
++- org.apache.uima:uimaj-core:jar:2.10.2:compile
++- org.apache.activemq:activemq-client:jar:5.15.2:compile
+|  \- org.slf4j:slf4j-api:jar:1.7.13:compile
++- org.apache.activemq:activemq-broker:jar:5.15.2:compile
+|  +- org.apache.activemq:activemq-openwire-legacy:jar:5.15.2:compile
+|  +- com.google.guava:guava:jar:18.0:compile
+|  \- com.fasterxml.jackson.core:jackson-databind:jar:2.6.7:compile
++- org.apache.activemq:activemq-console:jar:5.15.2:compile
+|  +- org.apache.activemq:activeio-core:jar:3.1.4:compile
+|  +- org.apache.xbean:xbean-spring:jar:4.2:compile
+|  +- org.fusesource.hawtbuf:hawtbuf-proto:jar:1.11:compile
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.6.7:compile
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.6.7:compile
+|  +- org.apache.velocity:velocity:jar:1.7:compile
+|  +- commons-collections:commons-collections:jar:3.2.2:compile
+|  +- commons-lang:commons-lang:jar:2.6:compile
+|  +- org.apache.servicemix.bundles:org.apache.servicemix.bundles.josql:jar:1.5_5:compile
+|  +- org.jasypt:jasypt:jar:1.9.2:compile
+|  \- commons-daemon:commons-daemon:jar:1.0.15:compile
++- org.apache.activemq:activemq-http:jar:5.15.2:compile
+|  +- org.apache.activemq:activemq-stomp:jar:5.15.2:compile
+|  +- org.apache.activemq:activemq-mqtt:jar:5.15.2:compile
+|  |  +- org.fusesource.mqtt-client:mqtt-client:jar:1.14:compile
+|  |  \- org.fusesource.hawtdispatch:hawtdispatch-transport:jar:1.22:compile
+|  \- com.thoughtworks.xstream:xstream:jar:1.4.10:compile
+|     +- xmlpull:xmlpull:jar:1.1.3.1:compile
+|     \- xpp3:xpp3_min:jar:1.1.4c:compile
++- org.apache.activemq:activemq-web:jar:5.15.2:compile
+|  +- org.apache.activemq:activemq-all:jar:5.15.2:compile
+|  +- org.apache.activemq:activemq-pool:jar:5.15.2:compile
+|  |  \- org.apache.activemq:activemq-jms-pool:jar:5.15.2:compile
+|  +- org.eclipse.jetty.websocket:websocket-server:jar:9.2.22.v20170606:compile
+|  |  +- org.eclipse.jetty.websocket:websocket-common:jar:9.2.22.v20170606:compile
+|  |  |  +- org.eclipse.jetty.websocket:websocket-api:jar:9.2.22.v20170606:compile
+|  |  |  +- org.eclipse.jetty:jetty-util:jar:9.2.22.v20170606:compile
+|  |  |  \- org.eclipse.jetty:jetty-io:jar:9.2.22.v20170606:compile
+|  |  +- org.eclipse.jetty.websocket:websocket-client:jar:9.2.22.v20170606:compile
+|  |  +- org.eclipse.jetty.websocket:websocket-servlet:jar:9.2.22.v20170606:compile
+|  |  +- org.eclipse.jetty:jetty-servlet:jar:9.2.22.v20170606:compile
+|  |  |  \- org.eclipse.jetty:jetty-security:jar:9.2.22.v20170606:compile
+|  |  |     \- org.eclipse.jetty:jetty-server:jar:9.2.22.v20170606:compile
+|  |  \- org.eclipse.jetty:jetty-http:jar:9.2.22.v20170606:compile
+|  +- org.eclipse.jetty:jetty-continuation:jar:9.2.22.v20170606:compile
+|  +- rome:rome:jar:1.0:compile
+|  +- jdom:jdom:jar:1.0:compile
+|  +- org.springframework:spring-webmvc:jar:4.3.9.RELEASE:compile
+|  +- org.springframework:spring-web:jar:4.3.9.RELEASE:compile
+|  \- xpp3:xpp3:jar:1.1.4c:compile
++- org.apache.activemq:activemq-leveldb-store:jar:5.15.2:compile
+|  +- org.scala-lang:scala-library:jar:2.11.0:compile
+|  +- org.fusesource.hawtdispatch:hawtdispatch-scala-2.11:jar:1.22:compile
+|  |  \- org.fusesource.hawtdispatch:hawtdispatch:jar:1.22:compile
+|  +- org.iq80.leveldb:leveldb-api:jar:0.9:compile
+|  +- org.iq80.leveldb:leveldb:jar:0.9:compile
+|  +- org.fusesource.leveldbjni:leveldbjni:jar:1.8:compile
+|  |  \- org.fusesource.hawtjni:hawtjni-runtime:jar:1.9:compile
+|  +- org.xerial.snappy:snappy-java:jar:1.1.2:compile
+|  +- org.iq80.snappy:snappy:jar:0.2:compile
+|  \- org.apache.hadoop:hadoop-core:jar:1.0.0:compile
+|     \- commons-configuration:commons-configuration:jar:1.6:compile
+|        +- commons-digester:commons-digester:jar:1.8:compile
+|        \- commons-beanutils:commons-beanutils-core:jar:1.8.0:compile
++- org.apache.activemq:activemq-amqp:jar:5.15.2:compile
+|  \- org.apache.qpid:proton-j:jar:0.22.0:compile
++- org.apache.activemq:activemq-runtime-config:jar:5.15.2:compile
+|  \- org.jvnet.jaxb2_commons:jaxb2-basics-runtime:jar:0.6.4:compile
++- org.apache.commons:commons-pool2:jar:2.4.2:compile
++- org.fusesource.hawtbuf:hawtbuf:jar:1.11:compile
++- org.apache.uima:uimaj-as-core:jar:2.10.3:compile
+|  \- org.apache.xmlbeans:xmlbeans:jar:2.4.0:compile
+|     \- stax:stax-api:jar:1.0.1:compile
++- org.apache.uima:uimaj-as-jms:jar:2.10.3:compile
++- org.apache.uima:uimaj-examples:jar:2.10.2:test
+|  +- org.apache.uima:uimaj-document-annotation:jar:2.10.2:test
+|  \- org.apache.uima:uimaj-tools:jar:2.10.2:test
++- org.apache.uima:uimaj-test-util:jar:2.10.2:test
+|  \- xmlunit:xmlunit:jar:1.6:test
++- org.springframework:spring-core:jar:4.3.9.RELEASE:compile
+|  \- commons-logging:commons-logging:jar:1.2:compile
++- org.springframework:spring-beans:jar:4.3.9.RELEASE:compile
++- org.springframework:spring-context:jar:4.3.9.RELEASE:compile
++- org.springframework:spring-tx:jar:4.3.9.RELEASE:compile
++- org.springframework:spring-jms:jar:4.3.9.RELEASE:compile
+|  \- org.springframework:spring-messaging:jar:4.3.9.RELEASE:compile
++- org.apache.geronimo.specs:geronimo-jms_1.1_spec:jar:1.1.1:compile
++- org.apache.geronimo.specs:geronimo-servlet_3.0_spec:jar:1.0:compile
++- org.apache.httpcomponents:httpclient:jar:4.5.3:compile
+|  \- commons-codec:commons-codec:jar:1.9:compile
+\- junit:junit:jar:4.8.1:compile

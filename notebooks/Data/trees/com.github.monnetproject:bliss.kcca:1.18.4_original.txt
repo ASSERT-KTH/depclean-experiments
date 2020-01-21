@@ -1,0 +1,12 @@
+com.github.monnetproject:bliss.kcca:jar:1.18.4
++- junit:junit:jar:4.10:compile
+|  \- org.hamcrest:hamcrest-core:jar:1.1:compile
+\- com.github.monnetproject:bliss.common:jar:1.18.4:compile
+   +- (junit:junit:jar:4.10:compile - omitted for duplicate)
+   +- it.unimi.dsi:fastutil:jar:6.4.4:compile
+   +- org.apache.commons:commons-compress:jar:1.4.1:compile
+   |  \- org.tukaani:xz:jar:1.0:compile
+   +- com.github.monnetproject:bliss.sparsemath:jar:1.18.4:compile
+   |  +- (junit:junit:jar:4.10:compile - omitted for duplicate)
+   |  \- (it.unimi.dsi:fastutil:jar:6.4.4:compile - omitted for duplicate)
+   \- com.github.monnetproject:language:jar:1.18.4:compile

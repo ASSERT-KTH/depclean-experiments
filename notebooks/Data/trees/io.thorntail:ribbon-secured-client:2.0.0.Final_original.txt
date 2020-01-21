@@ -1,0 +1,247 @@
+io.thorntail:ribbon-secured-client:jar:2.0.0.Final
++- io.thorntail:container:jar:2.0.0.Final:compile
+|  +- io.thorntail:spi:jar:2.0.0.Final:compile
+|  |  +- org.jboss.shrinkwrap:shrinkwrap-api:jar:1.2.6:compile
+|  |  +- org.jboss.shrinkwrap:shrinkwrap-impl-base:jar:1.2.6:compile
+|  |  |  +- (org.jboss.shrinkwrap:shrinkwrap-api:jar:1.2.6:compile - omitted for duplicate)
+|  |  |  \- org.jboss.shrinkwrap:shrinkwrap-spi:jar:1.2.6:compile
+|  |  |     \- (org.jboss.shrinkwrap:shrinkwrap-api:jar:1.2.6:compile - omitted for duplicate)
+|  |  +- org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-api-jboss:jar:2.0.0:compile
+|  |  |  \- (org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-api-javaee:jar:2.0.0:compile - omitted for duplicate)
+|  |  +- org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-impl-jboss:jar:2.0.0:compile
+|  |  |  +- (org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-api-jboss:jar:2.0.0:compile - omitted for duplicate)
+|  |  |  \- (org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-impl-javaee:jar:2.0.0:compile - omitted for duplicate)
+|  |  \- org.jboss:jandex:jar:2.0.3.Final:compile
+|  +- io.thorntail:bootstrap:jar:2.0.0.Final:compile
+|  |  +- org.jboss.modules:jboss-modules:jar:1.6.4.Final:compile
+|  |  \- org.yaml:snakeyaml:jar:1.17:compile
+|  +- io.thorntail:config-api:jar:1.4.0:compile
+|  |  \- io.thorntail:config-api-runtime:jar:1.4.0:compile
+|  +- org.ow2.asm:asm:jar:6.0:compile
+|  \- org.jboss.logging:jboss-logging:jar:3.3.1.Final:compile
++- io.thorntail:ribbon:jar:2.0.0.Final:compile
+|  +- (io.thorntail:container:jar:2.0.0.Final:compile - omitted for duplicate)
+|  +- (io.thorntail:logging:jar:2.0.0.Final:compile - omitted for duplicate)
+|  +- io.thorntail:topology:jar:2.0.0.Final:compile
+|  |  +- (io.thorntail:container:jar:2.0.0.Final:compile - omitted for duplicate)
+|  |  +- (io.thorntail:msc:jar:2.0.0.Final:compile - omitted for duplicate)
+|  |  \- io.thorntail:naming:jar:2.0.0.Final:compile
+|  |     +- (io.thorntail:spi:jar:2.0.0.Final:compile - omitted for duplicate)
+|  |     +- (io.thorntail:container:jar:2.0.0.Final:compile - omitted for duplicate)
+|  |     \- (io.thorntail:logging:jar:2.0.0.Final:compile - omitted for duplicate)
+|  +- io.thorntail:msc:jar:2.0.0.Final:compile
+|  |  +- (io.thorntail:container:jar:2.0.0.Final:compile - omitted for duplicate)
+|  |  +- (io.thorntail:logging:jar:2.0.0.Final:compile - omitted for duplicate)
+|  |  \- org.jboss.msc:jboss-msc:jar:1.2.7.SP1:compile
+|  +- io.thorntail:hystrix:jar:2.0.0.Final:compile
+|  |  +- (io.thorntail:container:jar:2.0.0.Final:compile - omitted for duplicate)
+|  |  +- (io.thorntail:logging:jar:2.0.0.Final:compile - omitted for duplicate)
+|  |  +- (io.thorntail:undertow:jar:2.0.0.Final:compile - omitted for duplicate)
+|  |  +- (io.thorntail:archaius:jar:2.0.0.Final:compile - omitted for duplicate)
+|  |  +- (io.thorntail:netflix-rxjava:jar:2.0.0.Final:compile - omitted for duplicate)
+|  |  +- com.netflix.hystrix:hystrix-core:jar:1.5.12:compile
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.22:runtime - version managed from 1.6.4; omitted for duplicate)
+|  |  |  +- (com.netflix.archaius:archaius-core:jar:0.6.6:compile - version managed from 0.4.1; omitted for duplicate)
+|  |  |  +- (io.reactivex:rxjava:jar:1.2.5:compile - version managed from 1.2.0; omitted for duplicate)
+|  |  |  \- (org.hdrhistogram:HdrHistogram:jar:2.1.9:compile - omitted for duplicate)
+|  |  +- com.netflix.hystrix:hystrix-metrics-event-stream:jar:1.5.12:compile
+|  |  |  +- com.netflix.hystrix:hystrix-serialization:jar:1.5.12:runtime
+|  |  |  |  +- com.fasterxml.jackson.module:jackson-module-afterburner:jar:2.7.5:runtime
+|  |  |  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.9:runtime - version managed from 2.7.5; omitted for duplicate)
+|  |  |  |  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.9:runtime - version managed from 2.7.5; omitted for duplicate)
+|  |  |  |  +- (com.netflix.hystrix:hystrix-core:jar:1.5.12:runtime - omitted for duplicate)
+|  |  |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.9:runtime - version managed from 2.7.5; omitted for duplicate)
+|  |  |  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.9:runtime - version managed from 2.7.5; omitted for duplicate)
+|  |  |  |  \- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.9:runtime - version managed from 2.7.5; omitted for duplicate)
+|  |  |  \- (com.netflix.hystrix:hystrix-core:jar:1.5.12:compile - omitted for duplicate)
+|  |  \- org.hdrhistogram:HdrHistogram:jar:2.1.9:compile
+|  +- io.thorntail:netflix-rxjava:jar:2.0.0.Final:compile
+|  |  +- (io.thorntail:container:jar:2.0.0.Final:compile - omitted for duplicate)
+|  |  +- (io.thorntail:logging:jar:2.0.0.Final:compile - omitted for duplicate)
+|  |  \- io.reactivex:rxjava:jar:1.2.5:compile (version managed from 1.2.0)
+|  +- io.thorntail:netflix-rxnetty:jar:2.0.0.Final:compile
+|  |  +- (io.thorntail:container:jar:2.0.0.Final:compile - omitted for duplicate)
+|  |  +- (io.thorntail:logging:jar:2.0.0.Final:compile - omitted for duplicate)
+|  |  +- (io.thorntail:netflix-rxjava:jar:2.0.0.Final:compile - omitted for duplicate)
+|  |  +- io.thorntail:servo:jar:2.0.0.Final:compile
+|  |  |  +- (io.thorntail:container:jar:2.0.0.Final:compile - omitted for duplicate)
+|  |  |  +- (io.thorntail:logging:jar:2.0.0.Final:compile - omitted for duplicate)
+|  |  |  +- (io.thorntail:netflix-guava:jar:2.0.0.Final:compile - omitted for duplicate)
+|  |  |  +- com.netflix.servo:servo-core:jar:0.9.2:compile
+|  |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.22:runtime - version managed from 1.7.7; omitted for duplicate)
+|  |  |  |  +- (com.google.guava:guava:jar:20.0:runtime - version managed from 14.0.1; omitted for duplicate)
+|  |  |  |  +- (com.google.code.findbugs:annotations:jar:2.0.0:runtime - omitted for duplicate)
+|  |  |  |  \- (com.netflix.servo:servo-internal:jar:0.9.2:runtime - omitted for duplicate)
+|  |  |  \- com.netflix.servo:servo-internal:jar:0.9.2:compile
+|  |  |     +- (org.slf4j:slf4j-api:jar:1.7.22:runtime - version managed from 1.7.7; omitted for duplicate)
+|  |  |     +- (com.google.guava:guava:jar:20.0:runtime - version managed from 14.0.1; omitted for duplicate)
+|  |  |     \- (com.google.code.findbugs:annotations:jar:2.0.0:runtime - omitted for duplicate)
+|  |  +- io.reactivex:rxnetty:jar:0.4.9:compile
+|  |  |  +- (io.reactivex:rxjava:jar:1.2.5:runtime - version managed from 1.0.10; omitted for duplicate)
+|  |  |  +- io.netty:netty-codec-http:jar:4.0.27.Final:runtime
+|  |  |  |  +- io.netty:netty-codec:jar:4.0.27.Final:runtime
+|  |  |  |  |  \- (io.netty:netty-transport:jar:4.0.27.Final:runtime - omitted for duplicate)
+|  |  |  |  \- io.netty:netty-handler:jar:4.0.27.Final:runtime
+|  |  |  |     +- (io.netty:netty-buffer:jar:4.0.26.Final:runtime - version managed from 4.0.27.Final; omitted for duplicate)
+|  |  |  |     +- (io.netty:netty-transport:jar:4.0.27.Final:runtime - omitted for duplicate)
+|  |  |  |     \- (io.netty:netty-codec:jar:4.0.27.Final:runtime - omitted for duplicate)
+|  |  |  +- io.netty:netty-transport-native-epoll:jar:4.0.27.Final:runtime
+|  |  |  |  +- (io.netty:netty-common:jar:4.0.27.Final:runtime - omitted for conflict with 4.0.26.Final)
+|  |  |  |  +- (io.netty:netty-buffer:jar:4.0.26.Final:runtime - version managed from 4.0.27.Final; omitted for duplicate)
+|  |  |  |  \- io.netty:netty-transport:jar:4.0.27.Final:runtime
+|  |  |  |     \- (io.netty:netty-buffer:jar:4.0.26.Final:runtime - version managed from 4.0.27.Final; omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.22:runtime - version managed from 1.7.6; omitted for duplicate)
+|  |  +- io.reactivex:rxnetty-contexts:jar:0.4.9:compile
+|  |  |  +- (io.reactivex:rxjava:jar:1.2.5:runtime - version managed from 1.0.10; omitted for duplicate)
+|  |  |  \- (io.reactivex:rxnetty:jar:0.4.9:runtime - omitted for duplicate)
+|  |  +- io.reactivex:rxnetty-servo:jar:0.4.9:compile
+|  |  |  +- (io.reactivex:rxjava:jar:1.2.5:runtime - version managed from 1.0.10; omitted for duplicate)
+|  |  |  +- (io.reactivex:rxnetty:jar:0.4.9:runtime - omitted for duplicate)
+|  |  |  \- (com.netflix.servo:servo-core:jar:0.9.2:runtime - version managed from 0.7.5; omitted for duplicate)
+|  |  +- (io.netty:netty-buffer:jar:4.0.26.Final:compile - version managed from 4.0.27.Final; omitted for duplicate)
+|  |  \- (io.netty:netty-all:jar:4.0.26.Final:compile - omitted for duplicate)
+|  +- io.thorntail:archaius:jar:2.0.0.Final:compile
+|  |  +- (io.thorntail:container:jar:2.0.0.Final:compile - omitted for duplicate)
+|  |  +- (io.thorntail:logging:jar:2.0.0.Final:compile - omitted for duplicate)
+|  |  +- io.thorntail:netflix-guava:jar:2.0.0.Final:compile
+|  |  |  +- (io.thorntail:container:jar:2.0.0.Final:compile - omitted for duplicate)
+|  |  |  +- (io.thorntail:logging:jar:2.0.0.Final:compile - omitted for duplicate)
+|  |  |  \- com.google.guava:guava:jar:20.0:compile (version managed from 14.0.1)
+|  |  \- com.netflix.archaius:archaius-core:jar:0.6.6:compile (version managed from 0.4.1)
+|  |     +- (com.google.code.findbugs:annotations:jar:2.0.0:runtime - omitted for duplicate)
+|  |     +- (commons-configuration:commons-configuration:jar:1.8:runtime - omitted for duplicate)
+|  |     +- (org.slf4j:slf4j-api:jar:1.7.22:runtime - version managed from 1.6.4; omitted for duplicate)
+|  |     +- (com.google.guava:guava:jar:20.0:runtime - version managed from 11.0.2; omitted for duplicate)
+|  |     +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.9:compile - version managed from 2.8.0; scope updated from runtime; omitted for duplicate)
+|  |     +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.9:runtime - version managed from 2.4.3; omitted for duplicate)
+|  |     \- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.9:runtime - version managed from 2.4.3; omitted for duplicate)
+|  +- com.netflix.ribbon:ribbon:jar:2.1.0:compile
+|  |  +- (com.netflix.ribbon:ribbon-core:jar:2.1.0:runtime - omitted for duplicate)
+|  |  +- (com.netflix.ribbon:ribbon-transport:jar:2.1.0:runtime - omitted for duplicate)
+|  |  +- (com.netflix.hystrix:hystrix-core:jar:1.5.12:runtime - version managed from 1.4.3; omitted for duplicate)
+|  |  +- javax.inject:javax.inject:jar:1:runtime
+|  |  +- (io.reactivex:rxjava:jar:1.2.5:runtime - version managed from 1.0.10; omitted for duplicate)
+|  |  +- (io.reactivex:rxnetty:jar:0.4.9:runtime - omitted for duplicate)
+|  |  +- commons-configuration:commons-configuration:jar:1.8:runtime
+|  |  |  +- (commons-lang:commons-lang:jar:2.6:runtime - omitted for duplicate)
+|  |  |  \- commons-logging:commons-logging:jar:1.1.1:runtime
+|  |  +- (com.google.guava:guava:jar:20.0:compile - version managed from 14.0.1; scope updated from runtime; omitted for duplicate)
+|  |  \- (com.netflix.archaius:archaius-core:jar:0.6.6:runtime - version managed from 0.4.1; omitted for duplicate)
+|  +- com.netflix.ribbon:ribbon-core:jar:2.1.0:compile
+|  |  +- org.slf4j:slf4j-api:jar:1.7.22:runtime
+|  |  +- com.google.code.findbugs:annotations:jar:2.0.0:runtime
+|  |  +- (com.google.guava:guava:jar:20.0:compile - version managed from 14.0.1; scope updated from runtime; omitted for duplicate)
+|  |  +- (commons-configuration:commons-configuration:jar:1.8:runtime - omitted for duplicate)
+|  |  +- commons-lang:commons-lang:jar:2.6:runtime
+|  |  \- (com.netflix.archaius:archaius-core:jar:0.6.6:runtime - version managed from 0.4.1; omitted for duplicate)
+|  +- com.netflix.ribbon:ribbon-transport:jar:2.1.0:compile
+|  |  +- (com.netflix.ribbon:ribbon-core:jar:2.1.0:runtime - omitted for duplicate)
+|  |  +- (com.netflix.ribbon:ribbon-loadbalancer:jar:2.1.0:runtime - omitted for duplicate)
+|  |  +- (io.reactivex:rxjava:jar:1.2.5:runtime - version managed from 1.0.10; omitted for duplicate)
+|  |  +- (io.reactivex:rxnetty:jar:0.4.9:runtime - omitted for duplicate)
+|  |  +- (io.reactivex:rxnetty-contexts:jar:0.4.9:runtime - omitted for duplicate)
+|  |  +- (io.reactivex:rxnetty-servo:jar:0.4.9:runtime - omitted for duplicate)
+|  |  +- (javax.inject:javax.inject:jar:1:runtime - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.22:runtime - version managed from 1.7.7; omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:20.0:compile - version managed from 14.0.1; scope updated from runtime; omitted for duplicate)
+|  |  \- (com.netflix.archaius:archaius-core:jar:0.6.6:runtime - version managed from 0.4.1; omitted for duplicate)
+|  +- com.netflix.ribbon:ribbon-loadbalancer:jar:2.1.0:compile
+|  |  +- (com.netflix.ribbon:ribbon-core:jar:2.1.0:runtime - omitted for duplicate)
+|  |  +- com.netflix.netflix-commons:netflix-statistics:jar:0.1.1:runtime
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.22:runtime - version managed from 1.6.4; omitted for duplicate)
+|  |  |  \- (com.google.code.findbugs:annotations:jar:2.0.0:runtime - omitted for duplicate)
+|  |  +- (io.reactivex:rxjava:jar:1.2.5:runtime - version managed from 1.0.9; omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.22:runtime - version managed from 1.7.7; omitted for duplicate)
+|  |  +- (com.netflix.servo:servo-core:jar:0.9.2:compile - version managed from 0.7.5; scope updated from runtime; omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:20.0:compile - version managed from 14.0.1; scope updated from runtime; omitted for duplicate)
+|  |  +- (com.netflix.archaius:archaius-core:jar:0.6.6:runtime - version managed from 0.4.1; omitted for duplicate)
+|  |  \- com.netflix.netflix-commons:netflix-commons-util:jar:0.1.1:runtime
+|  |     \- (org.slf4j:slf4j-api:jar:1.7.22:runtime - version managed from 1.6.4; omitted for duplicate)
+|  +- io.netty:netty-buffer:jar:4.0.26.Final:compile
+|  |  \- io.netty:netty-common:jar:4.0.26.Final:compile
+|  \- io.netty:netty-all:jar:4.0.26.Final:compile
++- io.thorntail:logging:jar:2.0.0.Final:compile
+|  +- (io.thorntail:container:jar:2.0.0.Final:compile - omitted for duplicate)
+|  \- (org.jboss.logging:jboss-logging:jar:3.3.1.Final:compile - version managed from 3.2.1.Final; omitted for duplicate)
++- io.thorntail:keycloak:jar:2.0.0.Final:compile
+|  +- (io.thorntail:container:jar:2.0.0.Final:compile - omitted for duplicate)
+|  +- io.thorntail:undertow:jar:2.0.0.Final:compile
+|  |  +- (io.thorntail:container:jar:2.0.0.Final:compile - omitted for duplicate)
+|  |  +- io.thorntail:io:jar:2.0.0.Final:compile
+|  |  |  +- (io.thorntail:container:jar:2.0.0.Final:compile - omitted for duplicate)
+|  |  |  \- (io.thorntail:logging:jar:2.0.0.Final:compile - omitted for duplicate)
+|  |  +- (io.thorntail:logging:jar:2.0.0.Final:compile - omitted for duplicate)
+|  |  +- io.thorntail:ee:jar:2.0.0.Final:compile
+|  |  |  +- (io.thorntail:container:jar:2.0.0.Final:compile - omitted for duplicate)
+|  |  |  +- (io.thorntail:logging:jar:2.0.0.Final:compile - omitted for duplicate)
+|  |  |  +- (io.thorntail:naming:jar:2.0.0.Final:compile - omitted for duplicate)
+|  |  |  +- org.jboss.spec.javax.enterprise.concurrent:jboss-concurrency-api_1.0_spec:jar:1.0.0.Final:compile
+|  |  |  +- org.jboss.spec.javax.interceptor:jboss-interceptors-api_1.2_spec:jar:1.0.0.Final:compile
+|  |  |  +- org.jboss.spec.javax.el:jboss-el-api_3.0_spec:jar:1.0.9.Final:compile
+|  |  |  \- org.glassfish:javax.el-impl:jar:3.0.1-b08-jbossorg-1:compile
+|  |  +- io.thorntail:request-controller:jar:2.0.0.Final:compile
+|  |  |  +- (io.thorntail:container:jar:2.0.0.Final:compile - omitted for duplicate)
+|  |  |  \- (io.thorntail:logging:jar:2.0.0.Final:compile - omitted for duplicate)
+|  |  +- (org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-api-jboss:jar:2.0.0:compile - omitted for duplicate)
+|  |  +- (org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-impl-jboss:jar:2.0.0:compile - omitted for duplicate)
+|  |  +- org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-api-javaee:jar:2.0.0:compile
+|  |  |  \- org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-api-base:jar:2.0.0:compile
+|  |  +- org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-impl-javaee:jar:2.0.0:compile
+|  |  |  +- (org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-api-javaee:jar:2.0.0:compile - omitted for duplicate)
+|  |  |  \- org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-impl-base:jar:2.0.0:compile
+|  |  |     \- org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-spi:jar:2.0.0:compile
+|  |  |        \- (org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-api-base:jar:2.0.0:compile - omitted for duplicate)
+|  |  +- (org.ow2.asm:asm:jar:6.0:compile - omitted for duplicate)
+|  |  +- org.ow2.asm:asm-commons:jar:6.0:compile
+|  |  |  \- org.ow2.asm:asm-tree:jar:6.0:compile
+|  |  |     \- (org.ow2.asm:asm:jar:6.0:compile - omitted for duplicate)
+|  |  +- org.jboss.spec.javax.servlet:jboss-servlet-api_3.1_spec:jar:1.0.0.Final:compile
+|  |  +- org.jboss.spec.javax.websocket:jboss-websocket-api_1.1_spec:jar:1.1.1.Final:compile
+|  |  +- io.undertow:undertow-servlet:jar:1.4.18.Final:compile
+|  |  |  +- io.undertow:undertow-core:jar:1.4.18.Final:compile
+|  |  |  |  +- (org.jboss.logging:jboss-logging:jar:3.3.1.Final:compile - version managed from 3.2.1.Final; omitted for duplicate)
+|  |  |  |  +- org.jboss.xnio:xnio-api:jar:3.5.4.Final:compile (version managed from 3.3.8.Final)
+|  |  |  |  |  +- org.wildfly.common:wildfly-common:jar:1.2.0.Final:compile
+|  |  |  |  |  \- org.wildfly.client:wildfly-client-config:jar:1.0.0.Final:compile
+|  |  |  |  |     +- (org.jboss.logging:jboss-logging:jar:3.3.1.Final:compile - version managed from 3.2.1.Final; omitted for duplicate)
+|  |  |  |  |     \- (org.wildfly.common:wildfly-common:jar:1.2.0.Final:compile - omitted for duplicate)
+|  |  |  |  \- org.jboss.xnio:xnio-nio:jar:3.5.4.Final:runtime (version managed from 3.3.8.Final)
+|  |  |  |     \- (org.jboss.xnio:xnio-api:jar:3.5.4.Final:runtime - version managed from 3.3.8.Final; omitted for duplicate)
+|  |  |  +- (org.jboss.spec.javax.servlet:jboss-servlet-api_3.1_spec:jar:1.0.0.Final:compile - omitted for duplicate)
+|  |  |  \- (org.jboss.spec.javax.annotation:jboss-annotations-api_1.2_spec:jar:1.0.0.Final:compile - omitted for duplicate)
+|  |  \- io.thorntail:meta-spi:jar:2.0.0.Final:compile
+|  |     \- (org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-impl-javaee:jar:2.0.0:compile - omitted for duplicate)
+|  +- io.thorntail:security:jar:2.0.0.Final:compile
+|  |  +- (io.thorntail:container:jar:2.0.0.Final:compile - omitted for duplicate)
+|  |  +- (io.thorntail:logging:jar:2.0.0.Final:compile - omitted for duplicate)
+|  |  +- io.thorntail:elytron:jar:2.0.0.Final:compile
+|  |  |  +- (io.thorntail:container:jar:2.0.0.Final:compile - omitted for duplicate)
+|  |  |  +- (io.thorntail:logging:jar:2.0.0.Final:compile - omitted for duplicate)
+|  |  |  +- (io.thorntail:ee:jar:2.0.0.Final:compile - omitted for duplicate)
+|  |  |  +- (io.thorntail:meta-spi:jar:2.0.0.Final:compile - omitted for duplicate)
+|  |  |  \- (org.jboss.spec.javax.annotation:jboss-annotations-api_1.2_spec:jar:1.0.0.Final:compile - omitted for duplicate)
+|  |  +- (io.thorntail:ee:jar:2.0.0.Final:compile - omitted for duplicate)
+|  |  +- (io.thorntail:meta-spi:jar:2.0.0.Final:compile - omitted for duplicate)
+|  |  \- org.jboss.spec.javax.annotation:jboss-annotations-api_1.2_spec:jar:1.0.0.Final:compile
+|  +- io.thorntail:keycloak-client-config-api:jar:1.4.0:compile
+|  |  \- (io.thorntail:config-api-runtime:jar:1.4.0:compile - omitted for duplicate)
+|  \- org.keycloak:keycloak-core:jar:3.4.3.Final:compile
+|     +- org.keycloak:keycloak-common:jar:3.4.3.Final:compile
+|     |  +- (org.bouncycastle:bcprov-jdk15on:jar:1.56:compile - omitted for duplicate)
+|     |  \- (org.bouncycastle:bcpkix-jdk15on:jar:1.56:compile - omitted for duplicate)
+|     +- org.bouncycastle:bcprov-jdk15on:jar:1.56:compile
+|     +- org.bouncycastle:bcpkix-jdk15on:jar:1.56:compile
+|     |  \- (org.bouncycastle:bcprov-jdk15on:jar:1.56:compile - omitted for duplicate)
+|     +- com.fasterxml.jackson.core:jackson-core:jar:2.8.9:compile
+|     \- com.fasterxml.jackson.core:jackson-databind:jar:2.8.9:compile
+|        +- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.9:compile
+|        \- (com.fasterxml.jackson.core:jackson-core:jar:2.8.9:compile - version managed from 2.4.3; omitted for duplicate)
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.easytesting:fest-assert:jar:1.4:test
+|  \- org.easytesting:fest-util:jar:1.1.6:test
++- org.mockito:mockito-core:jar:2.2.28:test
+|  +- net.bytebuddy:byte-buddy:jar:1.5.5:test
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.5.5:test
+|  \- org.objenesis:objenesis:jar:2.4:test
+\- io.thorntail:build-resources:jar:2.0.0.Final:test

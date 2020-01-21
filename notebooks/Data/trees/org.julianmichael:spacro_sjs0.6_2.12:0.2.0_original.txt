@@ -1,0 +1,102 @@
+org.julianmichael:spacro_sjs0.6_2.12:jar:0.2.0
++- com.lihaoyi:upickle_sjs0.6_2.12:jar:0.5.1:compile
+|  +- org.scala-lang:scala-library:jar:2.12.4:compile
+|  +- org.scala-js:scalajs-library_2.12:jar:0.6.21:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  \- com.lihaoyi:sourcecode_sjs0.6_2.12:jar:0.1.3:compile
+|     +- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.4)
+|     \- (org.scala-js:scalajs-library_2.12:jar:0.6.13:compile - omitted for conflict with 0.6.21)
++- com.lihaoyi:scalatags_sjs0.6_2.12:jar:0.6.5:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.4)
+|  +- (org.scala-js:scalajs-library_2.12:jar:0.6.13:compile - omitted for conflict with 0.6.21)
+|  +- (com.lihaoyi:sourcecode_sjs0.6_2.12:jar:0.1.3:compile - omitted for duplicate)
+|  \- (org.scala-js:scalajs-dom_sjs0.6_2.12:jar:0.9.1:compile - omitted for conflict with 0.9.6)
++- com.github.julien-truffaut:monocle-core_sjs0.6_2.12:jar:1.5.1-cats:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  +- (org.scala-js:scalajs-library_2.12:jar:0.6.21:compile - omitted for duplicate)
+|  +- org.typelevel:cats-core_sjs0.6_2.12:jar:1.1.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  |  +- org.typelevel:cats-macros_sjs0.6_2.12:jar:1.1.0:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  |  |  +- (org.scala-js:scalajs-library_2.12:jar:0.6.20:compile - omitted for conflict with 0.6.21)
+|  |  |  \- (org.typelevel:machinist_sjs0.6_2.12:jar:0.6.2:compile - omitted for duplicate)
+|  |  +- org.typelevel:cats-kernel_sjs0.6_2.12:jar:1.1.0:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  |  |  \- (org.scala-js:scalajs-library_2.12:jar:0.6.20:compile - omitted for conflict with 0.6.21)
+|  |  +- (org.scala-js:scalajs-library_2.12:jar:0.6.20:compile - omitted for conflict with 0.6.21)
+|  |  \- org.typelevel:machinist_sjs0.6_2.12:jar:0.6.2:compile
+|  |     +- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.4)
+|  |     +- (org.scala-js:scalajs-library_2.12:jar:0.6.16:compile - omitted for conflict with 0.6.21)
+|  |     \- (org.scala-lang:scala-reflect:jar:2.12.0:compile - omitted for conflict with 2.12.4)
+|  +- org.typelevel:cats-free_sjs0.6_2.12:jar:1.1.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  |  +- (org.typelevel:cats-macros_sjs0.6_2.12:jar:1.1.0:compile - omitted for duplicate)
+|  |  +- (org.typelevel:cats-core_sjs0.6_2.12:jar:1.1.0:compile - omitted for duplicate)
+|  |  +- (org.scala-js:scalajs-library_2.12:jar:0.6.20:compile - omitted for conflict with 0.6.21)
+|  |  \- (org.typelevel:machinist_sjs0.6_2.12:jar:0.6.2:compile - omitted for duplicate)
+|  \- com.github.julien-truffaut:newts-core_sjs0.6_2.12:jar:0.3.1:compile
+|     +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|     +- (org.scala-js:scalajs-library_2.12:jar:0.6.21:compile - omitted for duplicate)
+|     \- (org.typelevel:cats-core_sjs0.6_2.12:jar:1.1.0:compile - omitted for duplicate)
++- com.github.julien-truffaut:monocle-macro_sjs0.6_2.12:jar:1.5.1-cats:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  +- (com.github.julien-truffaut:monocle-core_sjs0.6_2.12:jar:1.5.1-cats:compile - omitted for duplicate)
+|  +- (org.scala-js:scalajs-library_2.12:jar:0.6.21:compile - omitted for duplicate)
+|  +- org.scala-lang:scala-reflect:jar:2.12.4:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  \- org.typelevel:macro-compat_sjs0.6_2.12:jar:1.1.1:compile
+|     +- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.4)
+|     \- (org.scala-js:scalajs-library_2.12:jar:0.6.13:compile - omitted for conflict with 0.6.21)
++- org.scala-js:scalajs-dom_sjs0.6_2.12:jar:0.9.6:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for conflict with 2.12.4)
+|  \- (org.scala-js:scalajs-library_2.12:jar:0.6.23:compile - omitted for conflict with 0.6.21)
++- be.doeraene:scalajs-jquery_sjs0.6_2.12:jar:0.9.3:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  +- (org.scala-js:scalajs-library_2.12:jar:0.6.22:compile - omitted for conflict with 0.6.21)
+|  \- (org.scala-js:scalajs-dom_sjs0.6_2.12:jar:0.9.5:compile - omitted for conflict with 0.9.6)
++- com.github.japgolly.scalajs-react:core_sjs0.6_2.12:jar:1.2.3:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for conflict with 2.12.4)
+|  +- (org.scala-js:scalajs-library_2.12:jar:0.6.24:compile - omitted for conflict with 0.6.21)
+|  +- (org.scala-lang:scala-reflect:jar:2.12.6:compile - omitted for conflict with 2.12.4)
+|  +- (org.scala-js:scalajs-dom_sjs0.6_2.12:jar:0.9.6:compile - omitted for duplicate)
+|  \- (com.lihaoyi:sourcecode_sjs0.6_2.12:jar:0.1.4:compile - omitted for conflict with 0.1.3)
++- com.github.japgolly.scalajs-react:ext-monocle_sjs0.6_2.12:jar:1.2.3:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for conflict with 2.12.4)
+|  +- (com.github.japgolly.scalajs-react:core_sjs0.6_2.12:jar:1.2.3:compile - omitted for duplicate)
+|  +- com.github.japgolly.scalajs-react:extra_sjs0.6_2.12:jar:1.2.3:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for conflict with 2.12.4)
+|  |  +- (com.github.japgolly.scalajs-react:core_sjs0.6_2.12:jar:1.2.3:compile - omitted for duplicate)
+|  |  +- (org.scala-js:scalajs-library_2.12:jar:0.6.24:compile - omitted for conflict with 0.6.21)
+|  |  \- (org.scala-lang:scala-reflect:jar:2.12.6:compile - omitted for conflict with 2.12.4)
+|  +- com.github.japgolly.scalajs-react:ext-scalaz72_sjs0.6_2.12:jar:1.2.3:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for conflict with 2.12.4)
+|  |  +- (com.github.japgolly.scalajs-react:core_sjs0.6_2.12:jar:1.2.3:compile - omitted for duplicate)
+|  |  +- (com.github.japgolly.scalajs-react:extra_sjs0.6_2.12:jar:1.2.3:compile - omitted for duplicate)
+|  |  +- (org.scala-js:scalajs-library_2.12:jar:0.6.24:compile - omitted for conflict with 0.6.21)
+|  |  \- org.scalaz:scalaz-effect_sjs0.6_2.12:jar:7.2.25:compile
+|  |     +- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for conflict with 2.12.4)
+|  |     +- org.scalaz:scalaz-core_sjs0.6_2.12:jar:7.2.25:compile
+|  |     |  +- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for conflict with 2.12.4)
+|  |     |  \- (org.scala-js:scalajs-library_2.12:jar:0.6.23:compile - omitted for conflict with 0.6.21)
+|  |     \- (org.scala-js:scalajs-library_2.12:jar:0.6.23:compile - omitted for conflict with 0.6.21)
+|  +- (org.scala-js:scalajs-library_2.12:jar:0.6.24:compile - omitted for conflict with 0.6.21)
+|  \- (com.github.julien-truffaut:monocle-core_sjs0.6_2.12:jar:1.5.0:compile - omitted for conflict with 1.5.1-cats)
++- com.github.japgolly.scalajs-react:ext-cats_sjs0.6_2.12:jar:1.2.3:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for conflict with 2.12.4)
+|  +- (com.github.japgolly.scalajs-react:core_sjs0.6_2.12:jar:1.2.3:compile - omitted for duplicate)
+|  +- (com.github.japgolly.scalajs-react:extra_sjs0.6_2.12:jar:1.2.3:compile - omitted for duplicate)
+|  +- (org.scala-js:scalajs-library_2.12:jar:0.6.24:compile - omitted for conflict with 0.6.21)
+|  \- (org.typelevel:cats-core_sjs0.6_2.12:jar:1.1.0:compile - omitted for duplicate)
++- com.github.japgolly.scalacss:core_sjs0.6_2.12:jar:0.5.3:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.2:compile - omitted for conflict with 2.12.4)
+|  +- (org.scala-js:scalajs-library_2.12:jar:0.6.15:compile - omitted for conflict with 0.6.21)
+|  +- (org.scala-lang:scala-reflect:jar:2.12.2:compile - omitted for conflict with 2.12.4)
+|  +- com.github.japgolly.univeq:univeq_sjs0.6_2.12:jar:1.0.2:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.4)
+|  |  \- (org.scala-js:scalajs-library_2.12:jar:0.6.13:compile - omitted for conflict with 0.6.21)
+|  \- (org.scala-js:scalajs-dom_sjs0.6_2.12:jar:0.9.1:compile - omitted for conflict with 0.9.6)
+\- com.github.japgolly.scalacss:ext-react_sjs0.6_2.12:jar:0.5.3:compile
+   +- (org.scala-lang:scala-library:jar:2.12.2:compile - omitted for conflict with 2.12.4)
+   +- (com.github.japgolly.scalacss:core_sjs0.6_2.12:jar:0.5.3:compile - omitted for duplicate)
+   +- (org.scala-js:scalajs-library_2.12:jar:0.6.15:compile - omitted for conflict with 0.6.21)
+   \- (com.github.japgolly.scalajs-react:core_sjs0.6_2.12:jar:1.0.0:compile - omitted for conflict with 1.2.3)

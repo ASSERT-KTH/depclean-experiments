@@ -1,0 +1,22 @@
+com.github.super-sean:task-pipeline-core:jar:1.0.5
++- org.apache.curator:curator-framework:jar:2.12.0:compile
+|  \- org.apache.curator:curator-client:jar:2.12.0:compile
+|     +- org.apache.zookeeper:zookeeper:jar:3.4.8:compile
+|     |  +- (org.slf4j:slf4j-api:jar:1.6.1:compile - omitted for conflict with 1.7.6)
+|     |  +- log4j:log4j:jar:1.2.16:compile
+|     |  +- jline:jline:jar:0.9.94:compile
+|     |  \- io.netty:netty:jar:3.7.0.Final:compile
+|     +- com.google.guava:guava:jar:16.0.1:compile
+|     \- org.slf4j:slf4j-api:jar:1.7.6:compile
++- org.springframework.boot:spring-boot-starter-logging:jar:2.0.3.RELEASE:compile
+|  +- ch.qos.logback:logback-classic:jar:1.2.3:compile
+|  |  +- (ch.qos.logback:logback-core:jar:1.2.3:compile - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for conflict with 1.7.6)
+|  +- org.apache.logging.log4j:log4j-to-slf4j:jar:2.10.0:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for conflict with 1.7.6)
+|  |  \- org.apache.logging.log4j:log4j-api:jar:2.10.0:compile
+|  \- org.slf4j:jul-to-slf4j:jar:1.7.25:compile
+|     \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for conflict with 1.7.6)
++- org.apache.curator:curator-recipes:jar:2.12.0:compile
+|  \- (org.apache.curator:curator-framework:jar:2.12.0:compile - omitted for duplicate)
+\- org.apache.commons:commons-lang3:jar:3.4:compile

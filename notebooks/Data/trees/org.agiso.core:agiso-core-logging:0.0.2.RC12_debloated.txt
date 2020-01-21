@@ -1,0 +1,18 @@
+org.agiso.core:agiso-core-logging:jar:0.0.2.RC12
++- org.agiso.core:agiso-core-i18n:jar:0.0.2.RC12:compile
++- org.agiso.core:agiso-core-lang:jar:0.0.2.RC12:compile
+|  +- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+|  \- commons-beanutils:commons-beanutils:jar:1.8.3:compile
++- org.agiso.core:agiso-core-beans:jar:0.0.2.RC12:compile
+|  \- (org.agiso.core:agiso-core-lang:jar:0.0.2.RC12:compile - omitted for duplicate)
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- commons-lang:commons-lang:jar:2.6:compile
++- log4j:log4j:jar:1.2.17:provided
++- org.testng:testng:jar:6.14.3:test
+|  +- com.beust:jcommander:jar:1.72:test
+|  \- org.apache-extras.beanshell:bsh:jar:2.0b6:test
++- org.mockito:mockito-all:jar:1.10.19:test
++- org.slf4j:jcl-over-slf4j:jar:1.7.25:test
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)
+\- org.slf4j:slf4j-simple:jar:1.7.25:test
+   \- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)

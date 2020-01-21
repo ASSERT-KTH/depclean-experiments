@@ -1,0 +1,41 @@
+org.apache.beam:beam-sdks-java-io-kinesis:jar:2.3.0
++- org.apache.beam:beam-sdks-java-core:jar:2.3.0:compile
+|  +- com.github.stephenc.findbugs:findbugs-annotations:jar:1.3.9-1:compile
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.8.9:compile
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.9:compile
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.8.9:compile
+|  +- org.apache.avro:avro:jar:1.8.2:compile
+|  |  +- org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile
+|  |  +- org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:compile
+|  |  +- com.thoughtworks.paranamer:paranamer:jar:2.7:compile
+|  |  +- org.apache.commons:commons-compress:jar:1.14:compile
+|  |  \- org.tukaani:xz:jar:1.5:compile
+|  \- org.xerial.snappy:snappy-java:jar:1.1.4:compile
++- com.amazonaws:aws-java-sdk-kinesis:jar:1.11.255:compile
+|  \- com.amazonaws:jmespath-java:jar:1.11.255:compile
++- com.amazonaws:aws-java-sdk-cloudwatch:jar:1.11.255:compile
++- com.amazonaws:amazon-kinesis-client:jar:1.8.8:compile
+|  +- com.amazonaws:aws-java-sdk-dynamodb:jar:1.11.218:compile
+|  |  \- com.amazonaws:aws-java-sdk-s3:jar:1.11.218:compile
+|  |     \- com.amazonaws:aws-java-sdk-kms:jar:1.11.218:compile
+|  +- com.google.guava:guava:jar:20.0:compile
+|  +- com.google.protobuf:protobuf-java:jar:3.2.0:compile
+|  \- commons-logging:commons-logging:jar:1.1.3:compile
++- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.8.9:runtime
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- joda-time:joda-time:jar:2.4:compile
++- commons-lang:commons-lang:jar:2.6:compile
++- com.amazonaws:aws-java-sdk-core:jar:1.11.255:compile
+|  +- org.apache.httpcomponents:httpclient:jar:4.5.2:compile
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.4.4:compile
+|  |  \- commons-codec:commons-codec:jar:1.9:compile
+|  \- software.amazon.ion:ion-java:jar:1.0.2:compile
++- com.google.code.findbugs:jsr305:jar:3.0.1:compile
++- com.google.auto.value:auto-value:jar:1.5.1:provided
++- junit:junit:jar:4.12:test
++- org.mockito:mockito-all:jar:1.9.5:test
++- org.assertj:assertj-core:jar:2.5.0:test
++- com.google.guava:guava-testlib:jar:20.0:test
++- org.hamcrest:hamcrest-all:jar:1.3:test
++- org.apache.beam:beam-runners-direct-java:jar:2.3.0:test
+\- org.slf4j:slf4j-jdk14:jar:1.7.25:test

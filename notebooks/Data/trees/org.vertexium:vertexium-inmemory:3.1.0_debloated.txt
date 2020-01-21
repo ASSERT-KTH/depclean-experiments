@@ -1,0 +1,19 @@
+org.vertexium:vertexium-inmemory:jar:3.1.0
++- org.vertexium:vertexium-core:jar:3.1.0:compile
+|  +- org.slf4j:slf4j-api:jar:1.7.5:compile
+|  +- (com.google.guava:guava:jar:18.0:compile - omitted for conflict with 13.0.1)
+|  +- (org.cache2k:cache2k-api:jar:0.21.1:compile - omitted for duplicate)
+|  +- (org.cache2k:cache2k-core:jar:0.21.1:compile - omitted for duplicate)
+|  \- org.apache.commons:commons-lang3:jar:3.1:compile
++- org.vertexium:vertexium-security:jar:3.1.0:compile
++- org.vertexium:vertexium-test:jar:3.1.0:test
+|  +- (org.vertexium:vertexium-core:jar:3.1.0:test - omitted for duplicate)
+|  +- (junit:junit:jar:4.11:test - omitted for duplicate)
+|  +- commons-io:commons-io:jar:2.4:test
+|  +- org.slf4j:slf4j-log4j12:jar:1.7.5:runtime (scope managed from test)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.5:runtime - omitted for duplicate)
+|  |  \- (log4j:log4j:jar:1.2.17:runtime - scope managed from test; omitted for duplicate)
+|  \- log4j:log4j:jar:1.2.17:runtime
++- junit:junit:jar:4.11:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
+\- org.cache2k:cache2k-api:jar:0.21.1:compile

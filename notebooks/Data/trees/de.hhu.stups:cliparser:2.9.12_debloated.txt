@@ -1,0 +1,72 @@
+de.hhu.stups:cliparser:jar:2.9.12
++- de.hhu.stups:bparser:jar:2.9.12:compile
+|  +- (de.hhu.stups:prologlib:jar:2.9.12:compile - omitted for duplicate)
+|  +- (de.hhu.stups:prologlib:jar:javadoc:2.9.12:compile - omitted for duplicate)
+|  +- (de.hhu.stups:prologlib:jar:sources:2.9.12:compile - omitted for duplicate)
+|  +- (de.hhu.stups:parserbase:jar:2.9.12:compile - omitted for duplicate)
+|  +- (de.hhu.stups:parserbase:jar:javadoc:2.9.12:compile - omitted for duplicate)
+|  \- (de.hhu.stups:parserbase:jar:sources:2.9.12:compile - omitted for duplicate)
++- de.hhu.stups:bparser:jar:javadoc:2.9.12:compile
+|  +- (de.hhu.stups:prologlib:jar:2.9.12:compile - omitted for duplicate)
+|  +- (de.hhu.stups:prologlib:jar:javadoc:2.9.12:compile - omitted for duplicate)
+|  +- (de.hhu.stups:prologlib:jar:sources:2.9.12:compile - omitted for duplicate)
+|  +- (de.hhu.stups:parserbase:jar:2.9.12:compile - omitted for duplicate)
+|  +- (de.hhu.stups:parserbase:jar:javadoc:2.9.12:compile - omitted for duplicate)
+|  \- (de.hhu.stups:parserbase:jar:sources:2.9.12:compile - omitted for duplicate)
++- de.hhu.stups:bparser:jar:sources:2.9.12:compile
+|  +- (de.hhu.stups:prologlib:jar:2.9.12:compile - omitted for duplicate)
+|  +- (de.hhu.stups:prologlib:jar:javadoc:2.9.12:compile - omitted for duplicate)
+|  +- (de.hhu.stups:prologlib:jar:sources:2.9.12:compile - omitted for duplicate)
+|  +- (de.hhu.stups:parserbase:jar:2.9.12:compile - omitted for duplicate)
+|  +- (de.hhu.stups:parserbase:jar:javadoc:2.9.12:compile - omitted for duplicate)
+|  \- (de.hhu.stups:parserbase:jar:sources:2.9.12:compile - omitted for duplicate)
++- de.hhu.stups:prologlib:jar:2.9.12:compile
++- de.hhu.stups:prologlib:jar:javadoc:2.9.12:compile
++- de.hhu.stups:prologlib:jar:sources:2.9.12:compile
++- de.hhu.stups:parserbase:jar:2.9.12:compile
+|  +- (de.hhu.stups:prologlib:jar:2.9.12:compile - omitted for duplicate)
+|  +- (de.hhu.stups:prologlib:jar:javadoc:2.9.12:compile - omitted for duplicate)
+|  \- (de.hhu.stups:prologlib:jar:sources:2.9.12:compile - omitted for duplicate)
++- de.hhu.stups:parserbase:jar:javadoc:2.9.12:compile
+|  +- (de.hhu.stups:prologlib:jar:2.9.12:compile - omitted for duplicate)
+|  +- (de.hhu.stups:prologlib:jar:javadoc:2.9.12:compile - omitted for duplicate)
+|  \- (de.hhu.stups:prologlib:jar:sources:2.9.12:compile - omitted for duplicate)
++- de.hhu.stups:parserbase:jar:sources:2.9.12:compile
+|  +- (de.hhu.stups:prologlib:jar:2.9.12:compile - omitted for duplicate)
+|  +- (de.hhu.stups:prologlib:jar:javadoc:2.9.12:compile - omitted for duplicate)
+|  \- (de.hhu.stups:prologlib:jar:sources:2.9.12:compile - omitted for duplicate)
++- de.hhu.stups:ltlparser:jar:2.9.12:compile
+|  +- (de.hhu.stups:prologlib:jar:2.9.12:compile - omitted for duplicate)
+|  +- (de.hhu.stups:prologlib:jar:javadoc:2.9.12:compile - omitted for duplicate)
+|  +- (de.hhu.stups:prologlib:jar:sources:2.9.12:compile - omitted for duplicate)
+|  +- (de.hhu.stups:parserbase:jar:2.9.12:compile - omitted for duplicate)
+|  +- (de.hhu.stups:parserbase:jar:javadoc:2.9.12:compile - omitted for duplicate)
+|  \- (de.hhu.stups:parserbase:jar:sources:2.9.12:compile - omitted for duplicate)
++- de.hhu.stups:ltlparser:jar:javadoc:2.9.12:compile
+|  +- (de.hhu.stups:prologlib:jar:2.9.12:compile - omitted for duplicate)
+|  +- (de.hhu.stups:prologlib:jar:javadoc:2.9.12:compile - omitted for duplicate)
+|  +- (de.hhu.stups:prologlib:jar:sources:2.9.12:compile - omitted for duplicate)
+|  +- (de.hhu.stups:parserbase:jar:2.9.12:compile - omitted for duplicate)
+|  +- (de.hhu.stups:parserbase:jar:javadoc:2.9.12:compile - omitted for duplicate)
+|  \- (de.hhu.stups:parserbase:jar:sources:2.9.12:compile - omitted for duplicate)
++- de.hhu.stups:ltlparser:jar:sources:2.9.12:compile
+|  +- (de.hhu.stups:prologlib:jar:2.9.12:compile - omitted for duplicate)
+|  +- (de.hhu.stups:prologlib:jar:javadoc:2.9.12:compile - omitted for duplicate)
+|  +- (de.hhu.stups:prologlib:jar:sources:2.9.12:compile - omitted for duplicate)
+|  +- (de.hhu.stups:parserbase:jar:2.9.12:compile - omitted for duplicate)
+|  +- (de.hhu.stups:parserbase:jar:javadoc:2.9.12:compile - omitted for duplicate)
+|  \- (de.hhu.stups:parserbase:jar:sources:2.9.12:compile - omitted for duplicate)
++- de.hhu.stups:answerparser:jar:2.9.12:compile
+|  +- (de.hhu.stups:prologlib:jar:2.9.12:compile - omitted for duplicate)
+|  +- (de.hhu.stups:prologlib:jar:javadoc:2.9.12:compile - omitted for duplicate)
+|  \- (de.hhu.stups:prologlib:jar:sources:2.9.12:compile - omitted for duplicate)
++- de.hhu.stups:answerparser:jar:javadoc:2.9.12:compile
+|  +- (de.hhu.stups:prologlib:jar:2.9.12:compile - omitted for duplicate)
+|  +- (de.hhu.stups:prologlib:jar:javadoc:2.9.12:compile - omitted for duplicate)
+|  \- (de.hhu.stups:prologlib:jar:sources:2.9.12:compile - omitted for duplicate)
++- de.hhu.stups:answerparser:jar:sources:2.9.12:compile
+|  +- (de.hhu.stups:prologlib:jar:2.9.12:compile - omitted for duplicate)
+|  +- (de.hhu.stups:prologlib:jar:javadoc:2.9.12:compile - omitted for duplicate)
+|  \- (de.hhu.stups:prologlib:jar:sources:2.9.12:compile - omitted for duplicate)
++- de.hhu.stups:unicode:jar:javadoc:2.9.12:compile
+\- junit:junit:jar:4.8.2:test

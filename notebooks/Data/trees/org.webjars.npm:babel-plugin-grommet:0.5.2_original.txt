@@ -1,0 +1,7 @@
+org.webjars.npm:babel-plugin-grommet:jar:0.5.2
++- org.webjars.npm:babel-types:jar:7.0.0-beta.3:compile
+|  +- org.webjars.npm:esutils:jar:2.0.2:compile
+|  +- org.webjars.npm:lodash:jar:4.17.14:compile
+|  \- org.webjars.npm:to-fast-properties:jar:2.0.0:compile
+\- org.webjars.npm:find:jar:0.2.9:compile
+   \- org.webjars.npm:traverse-chain:jar:0.1.0:compile

@@ -1,0 +1,4 @@
+com.github.akurilov:java-commons:jar:2.1.5
++- org.apache.commons:commons-collections4:jar:4.1:compile
+\- junit:junit:jar:4.12:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

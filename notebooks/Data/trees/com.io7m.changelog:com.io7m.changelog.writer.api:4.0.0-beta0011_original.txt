@@ -1,0 +1,6 @@
+com.io7m.changelog:com.io7m.changelog.writer.api:jar:4.0.0-beta0011
+\- com.io7m.changelog:com.io7m.changelog.core:jar:4.0.0-beta0011:compile
+   +- com.io7m.jaffirm:com.io7m.jaffirm.core:jar:2.0.0:compile
+   +- com.io7m.junreachable:com.io7m.junreachable.core:jar:2.1.1:compile
+   \- io.vavr:vavr:jar:0.9.2:compile
+      \- io.vavr:vavr-match:jar:0.9.2:compile

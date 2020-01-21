@@ -1,0 +1,5 @@
+org.ow2.joram:a3-common:bundle:5.15.0
++- org.ow2.jonas.osgi:monolog:jar:5.2.0:compile
+|  \- org.objectweb.monolog:monolog:jar:2.1.12:compile
++- org.osgi:org.osgi.core:jar:6.0.0:compile
+\- org.osgi:org.osgi.compendium:jar:5.0.0:provided

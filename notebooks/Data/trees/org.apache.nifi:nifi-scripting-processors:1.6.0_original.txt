@@ -1,0 +1,64 @@
+org.apache.nifi:nifi-scripting-processors:jar:1.6.0
++- org.apache.nifi:nifi-api:jar:1.6.0:provided
++- org.apache.nifi:nifi-properties:jar:1.6.0:provided
++- org.apache.nifi:nifi-utils:jar:1.6.0:compile
+|  \- (org.apache.nifi:nifi-api:jar:1.6.0:provided - scope managed from compile; omitted for duplicate)
++- org.apache.nifi:nifi-record-serialization-service-api:jar:1.6.0:provided
++- org.apache.nifi:nifi-record:jar:1.6.0:provided
++- org.apache.nifi:nifi-lookup-service-api:jar:1.6.0:provided
++- org.codehaus.groovy:groovy-all:jar:2.4.5:compile
++- org.apache.ivy:ivy:jar:2.4.0:compile
++- org.scijava:jython-shaded:jar:2.7.1:compile
++- org.luaj:luaj-jse:jar:3.0.1:compile
++- org.jruby:jruby-complete:jar:9.1.9.0:compile
++- org.clojure:clojure:jar:1.8.0:compile
++- org.apache.commons:commons-lang3:jar:3.7:compile
++- commons-io:commons-io:jar:2.6:compile
++- commons-net:commons-net:jar:3.6:compile
++- com.yammer.metrics:metrics-core:jar:2.2.0:compile
+|  \- org.slf4j:slf4j-api:jar:1.7.25:provided (version managed from 1.7.2; scope managed from compile)
++- org.apache.nifi:nifi-mock:jar:1.6.0:test
+|  +- (org.apache.nifi:nifi-api:jar:1.6.0:provided - scope managed from test; omitted for duplicate)
+|  +- org.apache.nifi:nifi-framework-api:jar:1.6.0:provided (scope managed from test)
+|  |  \- (org.apache.nifi:nifi-api:jar:1.6.0:provided - scope managed from test; omitted for duplicate)
+|  +- (org.apache.nifi:nifi-utils:jar:1.6.0:test - omitted for duplicate)
+|  +- org.apache.nifi:nifi-expression-language:jar:1.6.0:test
+|  |  +- org.antlr:antlr-runtime:jar:3.5.2:test
+|  |  +- (org.apache.nifi:nifi-api:jar:1.6.0:provided - scope managed from test; omitted for duplicate)
+|  |  +- (org.apache.nifi:nifi-utils:jar:1.6.0:test - omitted for duplicate)
+|  |  +- com.jayway.jsonpath:json-path:jar:2.0.0:test
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.25:provided - version managed from 1.7.10; scope managed from test; omitted for duplicate)
+|  |  |  \- net.minidev:json-smart:jar:2.1.1:test
+|  |  |     \- net.minidev:asm:jar:1.0.2:test
+|  |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.9.4:test
+|  |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:test
+|  |  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.9.4:test
+|  |  \- (org.apache.commons:commons-lang3:jar:3.7:test - omitted for duplicate)
+|  \- org.apache.nifi:nifi-data-provenance-utils:jar:1.6.0:test
+|     +- (org.apache.nifi:nifi-api:jar:1.6.0:provided - scope managed from test; omitted for duplicate)
+|     +- (org.apache.nifi:nifi-framework-api:jar:1.6.0:provided - scope managed from test; omitted for duplicate)
+|     +- (org.apache.nifi:nifi-utils:jar:1.6.0:test - omitted for duplicate)
+|     +- org.apache.nifi:nifi-security-utils:jar:1.6.0:test
+|     |  +- (org.apache.nifi:nifi-api:jar:1.6.0:provided - scope managed from test; omitted for duplicate)
+|     |  +- (org.apache.nifi:nifi-utils:jar:1.6.0:test - omitted for duplicate)
+|     |  +- (org.apache.commons:commons-lang3:jar:3.7:test - omitted for duplicate)
+|     |  +- commons-codec:commons-codec:jar:1.11:test
+|     |  +- (org.bouncycastle:bcprov-jdk15on:jar:1.59:test - omitted for duplicate)
+|     |  +- org.bouncycastle:bcpkix-jdk15on:jar:1.59:test
+|     |  |  \- (org.bouncycastle:bcprov-jdk15on:jar:1.59:test - omitted for duplicate)
+|     |  \- (org.apache.nifi:nifi-properties:jar:1.6.0:provided - scope managed from test; omitted for duplicate)
+|     +- org.bouncycastle:bcprov-jdk15on:jar:1.59:test
+|     +- org.apache.nifi:nifi-properties-loader:jar:1.6.0:test
+|     |  +- (org.bouncycastle:bcprov-jdk15on:jar:1.59:test - omitted for duplicate)
+|     |  +- ch.qos.logback:logback-classic:jar:1.2.3:test
+|     |  |  +- ch.qos.logback:logback-core:jar:1.2.3:test
+|     |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:provided - version managed from 1.7.10; scope managed from test; omitted for duplicate)
+|     |  \- (org.apache.commons:commons-lang3:jar:3.7:test - omitted for duplicate)
+|     \- (org.apache.nifi:nifi-properties:jar:1.6.0:provided - scope managed from test; omitted for duplicate)
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.mockito:mockito-core:jar:1.10.19:test
+|  +- (org.hamcrest:hamcrest-core:jar:1.1:test - omitted for conflict with 1.3)
+|  \- org.objenesis:objenesis:jar:2.1:test
+\- org.slf4j:slf4j-simple:jar:1.7.25:test
+   \- (org.slf4j:slf4j-api:jar:1.7.25:provided - version managed from 1.7.10; scope managed from test; omitted for duplicate)

@@ -1,0 +1,82 @@
+fr.inria.wimmics:kgengine:jar:3.3.3
++- fr.inria.wimmics:corese-core:jar:3.3.3:compile
+|  +- (fr.com.hp.hpl.jena.rdf.arp:arp:jar:2.2.b:compile - omitted for duplicate)
+|  +- (fr.inria.wimmics:kgenv:jar:3.3.3:compile - omitted for duplicate)
+|  +- (fr.inria.wimmics:kgram:jar:3.3.3:compile - omitted for duplicate)
+|  +- (fr.inria.wimmics:sparql:jar:3.3.3:compile - omitted for duplicate)
+|  +- xerces:xercesImpl:jar:2.8.0:compile
+|  |  \- (xml-apis:xml-apis:jar:1.3.03:compile - omitted for duplicate)
+|  +- (com.ibm.icu:icu4j:jar:3.6.1:compile - omitted for duplicate)
+|  +- (commons-lang:commons-lang:jar:2.4:compile - omitted for duplicate)
+|  +- (xml-apis:xml-apis:jar:1.3.03:compile - omitted for duplicate)
+|  +- com.sun.jersey:jersey-bundle:jar:1.15:compile
+|  |  \- javax.ws.rs:jsr311-api:jar:1.1.1:compile
+|  +- com.sun.jersey:jersey-core:jar:1.15:compile
+|  +- org.semarglproject:semargl-core:jar:0.6.1:compile
+|  +- org.openrdf.sesame:sesame-rio-api:jar:4.1.1:compile
+|  |  +- (org.openrdf.sesame:sesame-model:jar:4.1.1:compile - omitted for duplicate)
+|  |  \- (org.openrdf.sesame:sesame-util:jar:4.1.1:compile - omitted for duplicate)
+|  +- org.openrdf.sesame:sesame-rio-nquads:jar:4.1.1:compile
+|  |  +- (org.openrdf.sesame:sesame-model:jar:4.1.1:compile - omitted for duplicate)
+|  |  +- (org.openrdf.sesame:sesame-rio-api:jar:4.1.1:compile - omitted for duplicate)
+|  |  +- org.openrdf.sesame:sesame-rio-ntriples:jar:4.1.1:compile
+|  |  |  +- (org.openrdf.sesame:sesame-model:jar:4.1.1:compile - omitted for duplicate)
+|  |  |  +- (org.openrdf.sesame:sesame-rio-api:jar:4.1.1:compile - omitted for duplicate)
+|  |  |  +- (org.openrdf.sesame:sesame-rio-datatypes:jar:4.1.1:runtime - omitted for duplicate)
+|  |  |  +- (org.openrdf.sesame:sesame-rio-languages:jar:4.1.1:runtime - omitted for duplicate)
+|  |  |  \- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+|  |  +- org.openrdf.sesame:sesame-rio-datatypes:jar:4.1.1:runtime
+|  |  |  +- (org.openrdf.sesame:sesame-model:jar:4.1.1:runtime - omitted for duplicate)
+|  |  |  +- (org.openrdf.sesame:sesame-rio-api:jar:4.1.1:runtime - omitted for duplicate)
+|  |  |  \- (org.openrdf.sesame:sesame-util:jar:4.1.1:runtime - omitted for duplicate)
+|  |  +- org.openrdf.sesame:sesame-rio-languages:jar:4.1.1:runtime
+|  |  |  +- (org.openrdf.sesame:sesame-model:jar:4.1.1:runtime - omitted for duplicate)
+|  |  |  +- (org.openrdf.sesame:sesame-rio-api:jar:4.1.1:runtime - omitted for duplicate)
+|  |  |  \- (org.openrdf.sesame:sesame-util:jar:4.1.1:runtime - omitted for duplicate)
+|  |  \- commons-io:commons-io:jar:2.4:compile
+|  +- org.openrdf.sesame:sesame-model:jar:4.1.1:compile
+|  |  \- (org.openrdf.sesame:sesame-util:jar:4.1.1:compile - omitted for duplicate)
+|  +- org.openrdf.sesame:sesame-util:jar:4.1.1:compile
+|  |  +- com.google.guava:guava:jar:18.0:compile
+|  |  \- org.slf4j:slf4j-api:jar:1.7.10:compile
+|  +- (org.apache.logging.log4j:log4j-api:jar:2.6.2:compile - omitted for duplicate)
+|  +- (org.apache.logging.log4j:log4j-core:jar:2.6.2:compile - omitted for duplicate)
+|  +- org.semarglproject:semargl-rdfa:jar:0.6.1:compile
+|  |  +- (org.semarglproject:semargl-core:jar:0.6.1:compile - omitted for duplicate)
+|  |  \- org.semarglproject:semargl-rdf:jar:0.6.1:compile
+|  |     \- (org.semarglproject:semargl-core:jar:0.6.1:compile - omitted for duplicate)
+|  \- com.github.jsonld-java:jsonld-java:jar:0.3:compile
+|     +- com.fasterxml.jackson.core:jackson-core:jar:2.3.1:compile
+|     +- com.fasterxml.jackson.core:jackson-databind:jar:2.3.1:compile
+|     |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.3.0:compile
+|     |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.3.1:compile - omitted for duplicate)
+|     +- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for conflict with 1.7.10)
+|     +- org.apache.httpcomponents:httpclient:jar:4.2.5:compile
+|     |  +- org.apache.httpcomponents:httpcore:jar:4.2.4:compile
+|     |  +- commons-logging:commons-logging:jar:1.1.1:compile
+|     |  \- commons-codec:commons-codec:jar:1.6:compile
+|     \- org.apache.httpcomponents:httpclient-cache:jar:4.2.5:compile
+|        +- (org.apache.httpcomponents:httpclient:jar:4.2.5:compile - omitted for duplicate)
+|        \- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for duplicate)
++- fr.inria.wimmics:kgram:jar:3.3.3:compile
+|  \- (org.apache.logging.log4j:log4j-api:jar:2.6.2:compile - omitted for duplicate)
++- fr.inria.wimmics:kgenv:jar:3.3.3:compile
+|  +- (fr.inria.wimmics:sparql:jar:3.3.3:compile - omitted for duplicate)
+|  +- (fr.inria.wimmics:kgram:jar:3.3.3:compile - omitted for duplicate)
+|  +- (org.apache.logging.log4j:log4j-api:jar:2.6.2:compile - omitted for duplicate)
+|  \- (org.apache.logging.log4j:log4j-core:jar:2.6.2:compile - omitted for duplicate)
++- fr.inria.wimmics:sparql:jar:3.3.3:compile
+|  +- (fr.inria.wimmics:kgram:jar:3.3.3:compile - omitted for duplicate)
+|  +- (org.apache.logging.log4j:log4j-api:jar:2.6.2:compile - omitted for duplicate)
+|  \- (org.apache.logging.log4j:log4j-core:jar:2.6.2:compile - omitted for duplicate)
++- fr.inria.wimmics:engine:jar:3.3.3:compile
+|  +- (fr.inria.wimmics:kgram:jar:3.3.3:compile - omitted for duplicate)
+|  +- (fr.inria.wimmics:kgenv:jar:3.3.3:compile - omitted for duplicate)
+|  +- (fr.inria.wimmics:sparql:jar:3.3.3:compile - omitted for duplicate)
+|  +- log4j:log4j:jar:1.2.12:compile
+|  \- (xml-apis:xml-apis:jar:1.3.03:compile - omitted for duplicate)
++- org.apache.logging.log4j:log4j-api:jar:2.6.2:compile
++- org.apache.logging.log4j:log4j-core:jar:2.6.2:compile
+|  \- (org.apache.logging.log4j:log4j-api:jar:2.6.2:compile - omitted for duplicate)
++- com.ibm.icu:icu4j:jar:3.6.1:compile
+\- xml-apis:xml-apis:jar:1.3.03:compile

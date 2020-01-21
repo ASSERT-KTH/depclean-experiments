@@ -1,0 +1,424 @@
+org.sonatype.goodies:goodies-testsupport:jar:2.2.5
++- org.slf4j:slf4j-api:jar:1.7.10:compile
++- ch.qos.logback:logback-classic:jar:1.1.2:compile
+|  +- ch.qos.logback:logback-core:jar:1.1.2:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.7.6; omitted for duplicate)
++- org.sonatype.gossip:gossip-support:jar:1.8:compile
+|  \- org.sonatype.gossip:gossip-bootstrap:jar:1.8:compile
+|     \- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.6.1; omitted for duplicate)
++- com.google.guava:guava:jar:20.0:compile
++- com.google.code.findbugs:jsr305:jar:2.0.1:compile
++- info.cukes:cucumber-junit:jar:1.2.2:compile
+|  +- info.cukes:cucumber-core:jar:1.2.2:compile
+|  |  +- info.cukes:cucumber-html:jar:0.2.3:compile
+|  |  +- info.cukes:cucumber-jvm-deps:jar:1.0.3:compile
+|  |  \- info.cukes:gherkin:jar:2.12.2:compile
+|  \- (junit:junit:jar:4.12:compile - version managed from 4.11; omitted for duplicate)
++- info.cukes:cucumber-guice:jar:1.2.2:compile
+|  \- info.cukes:cucumber-java:jar:1.2.2:compile
+|     \- (info.cukes:cucumber-core:jar:1.2.2:compile - omitted for duplicate)
++- junit:junit:jar:4.12:compile
+|  \- (org.hamcrest:hamcrest-core:jar:1.3:compile - omitted for duplicate)
++- org.databene:contiperf:jar:2.2.0:compile
++- org.hamcrest:hamcrest-core:jar:1.3:compile
++- org.hamcrest:hamcrest-library:jar:1.3:compile
+|  \- (org.hamcrest:hamcrest-core:jar:1.3:compile - omitted for duplicate)
++- org.easytesting:fest-assert-core:jar:2.0M10:compile
+|  \- org.easytesting:fest-util:jar:1.2.5:compile
++- org.incava:java-diff:jar:1.1:compile
++- org.objenesis:objenesis:jar:1.3:compile
++- org.mockito:mockito-core:jar:1.9.5:compile
+|  +- (org.hamcrest:hamcrest-core:jar:1.3:compile - version managed from 1.1; omitted for duplicate)
+|  \- (org.objenesis:objenesis:jar:1.3:compile - version managed from 1.0; omitted for duplicate)
++- org.powermock:powermock-module-junit4:jar:1.6.1:compile
+|  +- (junit:junit:jar:4.12:compile - version managed from 4.11; omitted for duplicate)
+|  \- org.powermock:powermock-module-junit4-common:jar:1.6.1:compile
+|     +- (junit:junit:jar:4.12:compile - version managed from 4.4; omitted for duplicate)
+|     +- (org.powermock:powermock-core:jar:1.6.1:compile - omitted for duplicate)
+|     \- org.powermock:powermock-reflect:jar:1.6.1:compile
+|        \- (org.objenesis:objenesis:jar:1.3:compile - version managed from 2.1; omitted for duplicate)
++- org.powermock:powermock-api-mockito:jar:1.6.1:compile
+|  \- org.powermock:powermock-api-support:jar:1.6.1:compile
+|     +- (org.powermock:powermock-core:jar:1.6.1:compile - omitted for duplicate)
+|     \- (org.powermock:powermock-reflect:jar:1.6.1:compile - omitted for duplicate)
++- org.powermock:powermock-module-junit4-rule:jar:1.6.1:compile
+|  +- org.powermock:powermock-classloading-base:jar:1.6.1:compile
+|  |  +- (org.powermock:powermock-api-support:jar:1.6.1:compile - omitted for duplicate)
+|  |  \- (org.powermock:powermock-reflect:jar:1.6.1:compile - omitted for duplicate)
+|  \- org.powermock:powermock-core:jar:1.6.1:compile
+|     +- (org.powermock:powermock-reflect:jar:1.6.1:compile - omitted for duplicate)
+|     \- org.javassist:javassist:jar:3.18.2-GA:compile
++- org.powermock:powermock-classloading-xstream:jar:1.6.1:compile
+|  +- (org.powermock:powermock-classloading-base:jar:1.6.1:compile - omitted for duplicate)
+|  \- com.thoughtworks.xstream:xstream:jar:1.4.7:compile (version managed from 1.4.2)
+|     +- xmlpull:xmlpull:jar:1.1.3.1:compile
+|     \- xpp3:xpp3_min:jar:1.1.4c:compile
++- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:compile
++- org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.3.1:compile
++- org.sonatype.sisu:sisu-guice:jar:3.2.5:compile
+|  +- javax.inject:javax.inject:jar:1:compile
+|  +- aopalliance:aopalliance:jar:1.0:compile
+|  \- (com.google.guava:guava:jar:20.0:compile - version managed from 16.0.1; omitted for duplicate)
++- org.apache.directory.server:apacheds-test-framework:jar:2.0.0-M19:compile
+|  +- org.apache.directory.server:apacheds-core-annotations:jar:2.0.0-M19:compile
+|  |  +- org.apache.directory.server:apacheds-core:jar:2.0.0-M19:compile
+|  |  |  +- (org.apache.directory.server:apacheds-i18n:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  |  +- (org.apache.directory.server:apacheds-core-shared:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  |  +- org.apache.directory.server:apacheds-interceptors-admin:jar:2.0.0-M19:compile
+|  |  |  |  +- (org.apache.directory.server:apacheds-core-shared:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.api:api-ldap-extras-util:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.api:api-util:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  |  +- org.apache.directory.server:apacheds-interceptors-authn:jar:2.0.0-M19:compile
+|  |  |  |  +- (org.apache.directory.server:apacheds-i18n:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.server:apacheds-core-api:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.server:apacheds-core-shared:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  |  |  +- (commons-collections:commons-collections:jar:3.2.1:compile - omitted for duplicate)
+|  |  |  |  +- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.api:api-ldap-client-api:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.api:api-ldap-extras-codec:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.api:api-ldap-extras-codec-api:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.api:api-ldap-schema-data:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.api:api-util:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.mina:mina-core:jar:2.0.9:compile - omitted for duplicate)
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  |  +- org.apache.directory.server:apacheds-interceptors-number:jar:2.0.0-M19:compile
+|  |  |  |  +- (org.apache.directory.server:apacheds-core-shared:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.api:api-ldap-extras-util:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.api:api-util:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  |  +- org.apache.directory.server:apacheds-interceptors-authz:jar:2.0.0-M19:compile
+|  |  |  |  +- (org.apache.directory.server:apacheds-i18n:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.server:apacheds-core-api:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.server:apacheds-core-shared:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.api:api-ldap-extras-aci:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.api:api-ldap-schema-data:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  |  +- (net.sf.ehcache:ehcache-core:jar:2.4.4:compile - omitted for duplicate)
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  |  +- org.apache.directory.server:apacheds-interceptors-changelog:jar:2.0.0-M19:compile
+|  |  |  |  +- (org.apache.directory.server:apacheds-i18n:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.server:apacheds-core-api:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.server:apacheds-core-shared:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.api:api-ldap-schema-data:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.api:api-util:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  |  +- org.apache.directory.server:apacheds-interceptors-collective:jar:2.0.0-M19:compile
+|  |  |  |  +- (org.apache.directory.server:apacheds-i18n:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.server:apacheds-core-api:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  |  +- org.apache.directory.server:apacheds-interceptors-event:jar:2.0.0-M19:compile
+|  |  |  |  +- (org.apache.directory.server:apacheds-core-api:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  |  +- org.apache.directory.server:apacheds-interceptors-exception:jar:2.0.0-M19:compile
+|  |  |  |  +- (org.apache.directory.server:apacheds-i18n:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.server:apacheds-core-api:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.server:apacheds-core-shared:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  |  |  +- (commons-collections:commons-collections:jar:3.2.1:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  |  +- org.apache.directory.server:apacheds-interceptors-journal:jar:2.0.0-M19:compile
+|  |  |  |  +- (org.apache.directory.server:apacheds-core-api:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  |  +- org.apache.directory.server:apacheds-interceptors-normalization:jar:2.0.0-M19:compile
+|  |  |  |  +- (org.apache.directory.server:apacheds-i18n:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.server:apacheds-core-api:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.api:api-ldap-schema-data:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.api:api-util:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  |  +- org.apache.directory.server:apacheds-interceptors-operational:jar:2.0.0-M19:compile
+|  |  |  |  +- (org.apache.directory.server:apacheds-i18n:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.server:apacheds-core-api:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.server:apacheds-core-shared:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.api:api-util:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  |  +- org.apache.directory.server:apacheds-interceptors-referral:jar:2.0.0-M19:compile
+|  |  |  |  +- (org.apache.directory.server:apacheds-i18n:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.server:apacheds-core-api:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.server:apacheds-core-shared:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.api:api-util:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  |  +- org.apache.directory.server:apacheds-interceptors-schema:jar:2.0.0-M19:compile
+|  |  |  |  +- (org.apache.directory.server:apacheds-i18n:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.server:apacheds-core-api:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.server:apacheds-core-shared:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.api:api-i18n:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.api:api-ldap-schema-data:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.api:api-util:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  |  +- org.apache.directory.server:apacheds-interceptors-subtree:jar:2.0.0-M19:compile
+|  |  |  |  +- (org.apache.directory.server:apacheds-i18n:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.server:apacheds-core-api:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.server:apacheds-core-shared:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.api:api-ldap-codec-core:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.api:api-ldap-schema-data:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.api:api-util:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  |  +- (net.sf.ehcache:ehcache-core:jar:2.4.4:compile - omitted for duplicate)
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  |  +- org.apache.directory.server:apacheds-interceptors-trigger:jar:2.0.0-M19:compile
+|  |  |  |  +- (org.apache.directory.server:apacheds-i18n:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.server:apacheds-core-api:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.server:apacheds-core-shared:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  |  |  +- org.apache.directory.api:api-ldap-extras-trigger:jar:1.0.0-M26:compile
+|  |  |  |  |  +- (org.apache.directory.api:api-util:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.api:api-i18n:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  |  |  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  |  |  +- (antlr:antlr:jar:2.7.7:compile - omitted for duplicate)
+|  |  |  |  |  +- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+|  |  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  |  +- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+|  |  |  +- (org.apache.directory.api:api-ldap-codec-core:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  +- (org.apache.directory.api:api-ldap-extras-util:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  +- (org.apache.directory.api:api-ldap-schema-data:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  +- (org.apache.directory.api:api-util:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  +- (bouncycastle:bcprov-jdk15:jar:140:compile - omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  +- (org.apache.directory.server:apacheds-core-api:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  +- org.apache.directory.server:apacheds-core-shared:jar:2.0.0-M19:compile
+|  |  |  +- (org.apache.directory.server:apacheds-core-api:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  |  +- (org.apache.directory.server:apacheds-i18n:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  |  +- (org.apache.directory.api:api-ldap-codec-core:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  +- (org.apache.directory.api:api-ldap-extras-codec-api:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  +- (org.apache.directory.api:api-ldap-extras-util:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  +- (org.apache.directory.api:api-util:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  +- (net.sf.ehcache:ehcache-core:jar:2.4.4:compile - omitted for duplicate)
+|  |  |  +- (org.apache.directory.mavibot:mavibot:jar:1.0.0-M6:compile - omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  +- org.apache.directory.server:apacheds-ldif-partition:jar:2.0.0-M19:compile
+|  |  |  +- (org.apache.directory.server:apacheds-core-api:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  |  +- (org.apache.directory.server:apacheds-core-shared:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  |  +- (org.apache.directory.server:apacheds-xdbm-partition:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  |  +- (org.apache.directory.server:apacheds-i18n:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  |  +- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+|  |  |  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  +- (org.apache.directory.api:api-ldap-schema-data:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  +- (org.apache.directory.api:api-util:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  +- (org.apache.directory.server:apacheds-i18n:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  +- org.apache.directory.server:apacheds-xdbm-partition:jar:2.0.0-M19:compile
+|  |  |  +- org.apache.directory.server:apacheds-core-avl:jar:2.0.0-M19:compile
+|  |  |  |  +- (org.apache.directory.server:apacheds-i18n:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  |  |  +- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.directory.api:api-util:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  |  +- (org.apache.directory.server:apacheds-core-api:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  |  +- (org.apache.directory.server:apacheds-core-shared:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  |  +- (org.apache.directory.server:apacheds-i18n:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  |  +- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+|  |  |  +- (commons-collections:commons-collections:jar:3.2.1:compile - omitted for duplicate)
+|  |  |  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  +- (org.apache.directory.api:api-ldap-schema-data:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  +- (org.apache.directory.api:api-util:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  +- org.apache.directory.mavibot:mavibot:jar:1.0.0-M6:compile
+|  |  |  +- (commons-collections:commons-collections:jar:3.2.1:compile - omitted for duplicate)
+|  |  |  +- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  +- org.apache.directory.server:apacheds-mavibot-partition:jar:2.0.0-M19:compile
+|  |  |  +- (org.apache.directory.mavibot:mavibot:jar:1.0.0-M6:compile - omitted for duplicate)
+|  |  |  +- (org.apache.directory.server:apacheds-core-api:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  |  +- (org.apache.directory.server:apacheds-core-shared:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  |  +- (org.apache.directory.server:apacheds-core-avl:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  |  +- (org.apache.directory.server:apacheds-i18n:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  |  +- (org.apache.directory.server:apacheds-xdbm-partition:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  |  +- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+|  |  |  +- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+|  |  |  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  +- (org.apache.directory.api:api-ldap-schema-data:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  +- (org.apache.directory.api:api-util:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  +- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+|  |  +- (junit:junit:jar:4.12:compile - version managed from 4.11; omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  +- org.apache.directory.api:api-ldap-schema-data:jar:1.0.0-M26:compile
+|  |  |  +- (org.apache.directory.api:api-i18n:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  +- org.apache.directory.api:api-util:jar:1.0.0-M26:compile
+|  |  |  +- (org.apache.directory.api:api-i18n:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.7.7; omitted for duplicate)
+|  +- org.apache.directory.server:apacheds-core-api:jar:2.0.0-M19:compile
+|  |  +- commons-lang:commons-lang:jar:2.6:compile
+|  |  +- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+|  |  +- org.apache.directory.server:apacheds-core-constants:jar:2.0.0-M19:compile
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  +- (org.apache.directory.server:apacheds-i18n:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  +- org.apache.directory.api:api-i18n:jar:1.0.0-M26:compile
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  +- org.apache.directory.api:api-asn1-api:jar:1.0.0-M26:compile
+|  |  |  +- (org.apache.directory.api:api-i18n:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  +- org.apache.directory.api:api-ldap-client-api:jar:1.0.0-M26:compile
+|  |  |  +- (org.apache.directory.api:api-ldap-schema-data:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  +- (org.apache.directory.api:api-ldap-codec-core:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  +- (org.apache.directory.api:api-ldap-extras-codec:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  +- (org.apache.directory.api:api-ldap-extras-codec-api:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  +- commons-pool:commons-pool:jar:1.6:compile
+|  |  |  +- (org.apache.mina:mina-core:jar:2.0.9:compile - omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  +- org.apache.directory.api:api-ldap-codec-core:jar:1.0.0-M26:compile
+|  |  |  +- (org.apache.directory.api:api-util:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  +- (org.apache.directory.api:api-asn1-api:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  +- (org.apache.directory.api:api-asn1-ber:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  +- (org.apache.directory.api:api-i18n:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  +- (org.apache.mina:mina-core:jar:2.0.9:compile - omitted for duplicate)
+|  |  |  +- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+|  |  |  +- (commons-collections:commons-collections:jar:3.2.1:compile - omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  +- org.apache.directory.api:api-ldap-extras-aci:jar:1.0.0-M26:compile
+|  |  |  +- (org.apache.directory.api:api-util:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  +- (org.apache.directory.api:api-i18n:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  +- (antlr:antlr:jar:2.7.7:compile - omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  +- org.apache.directory.api:api-ldap-extras-util:jar:1.0.0-M26:compile
+|  |  |  +- (org.apache.directory.api:api-i18n:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  +- (org.apache.directory.api:api-ldap-codec-core:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-schema-data:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-util:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  +- org.apache.mina:mina-core:jar:2.0.9:compile
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  +- net.sf.ehcache:ehcache-core:jar:2.4.4:compile
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.6.1; omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.7.7; omitted for duplicate)
+|  +- org.apache.directory.server:apacheds-i18n:jar:2.0.0-M19:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.7.7; omitted for duplicate)
+|  +- org.apache.directory.server:apacheds-protocol-kerberos:jar:2.0.0-M19:compile
+|  |  +- (org.apache.directory.server:apacheds-core-api:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  +- (org.apache.directory.server:apacheds-i18n:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  +- org.apache.directory.server:apacheds-kerberos-codec:jar:2.0.0-M19:compile
+|  |  |  +- (org.apache.directory.server:apacheds-i18n:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  |  +- (org.apache.directory.api:api-asn1-api:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  +- (org.apache.directory.api:api-asn1-ber:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  +- (org.apache.directory.api:api-i18n:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  +- (org.apache.directory.api:api-util:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  +- (net.sf.ehcache:ehcache-core:jar:2.4.4:compile - omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  +- (org.apache.directory.server:apacheds-protocol-shared:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  +- (org.apache.directory.server:apacheds-core-shared:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-asn1-api:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  +- (org.apache.mina:mina-core:jar:2.0.9:compile - omitted for duplicate)
+|  |  +- (net.sf.ehcache:ehcache-core:jar:2.4.4:compile - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.7.7; omitted for duplicate)
+|  +- org.apache.directory.server:apacheds-protocol-ldap:jar:2.0.0-M19:compile
+|  |  +- (org.apache.directory.server:apacheds-core:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  +- (org.apache.directory.server:apacheds-core-api:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  +- (org.apache.directory.server:apacheds-i18n:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  +- (org.apache.directory.server:apacheds-protocol-shared:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  +- (org.apache.directory.server:apacheds-kerberos-codec:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  +- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+|  |  +- org.apache.directory.api:api-asn1-ber:jar:1.0.0-M26:compile
+|  |  |  +- (org.apache.directory.api:api-i18n:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  +- (org.apache.directory.api:api-asn1-api:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  +- (org.apache.directory.api:api-util:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-client-api:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  +- org.apache.directory.api:api-ldap-extras-codec-api:jar:1.0.0-M26:compile
+|  |  |  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  +- org.apache.directory.api:api-ldap-extras-codec:jar:1.0.0-M26:compile
+|  |  |  +- (org.apache.directory.api:api-ldap-codec-core:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  +- (org.apache.directory.api:api-ldap-extras-codec-api:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  +- org.apache.directory.api:api-ldap-extras-sp:jar:1.0.0-M26:compile
+|  |  |  +- (org.apache.directory.api:api-util:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  +- (org.apache.directory.api:api-i18n:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  +- (org.apache.directory.api:api-ldap-extras-codec:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  +- (org.apache.directory.api:api-ldap-extras-util:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  +- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+|  |  |  +- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-extras-util:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-codec-core:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-schema-data:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-util:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  +- (org.apache.mina:mina-core:jar:2.0.9:compile - omitted for duplicate)
+|  |  +- bouncycastle:bcprov-jdk15:jar:140:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.7.7; omitted for duplicate)
+|  +- org.apache.directory.server:apacheds-protocol-shared:jar:2.0.0-M19:compile
+|  |  +- (org.apache.directory.server:apacheds-core-api:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  +- (org.apache.directory.server:apacheds-i18n:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  +- (org.apache.mina:mina-core:jar:2.0.9:compile - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  +- (org.apache.directory.server:apacheds-kerberos-codec:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.7.7; omitted for duplicate)
+|  +- org.apache.directory.server:apacheds-server-annotations:jar:2.0.0-M19:compile
+|  |  +- (org.apache.directory.server:apacheds-core-annotations:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  +- (org.apache.directory.server:apacheds-core-api:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  +- (org.apache.directory.server:apacheds-i18n:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  +- (org.apache.directory.server:apacheds-protocol-kerberos:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  +- (org.apache.directory.server:apacheds-protocol-ldap:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  +- (org.apache.directory.server:apacheds-protocol-shared:jar:2.0.0-M19:compile - omitted for duplicate)
+|  |  +- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-codec-core:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-model:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  +- (org.apache.mina:mina-core:jar:2.0.9:compile - omitted for duplicate)
+|  |  +- (junit:junit:jar:4.12:compile - version managed from 4.11; omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.7.7; omitted for duplicate)
+|  +- org.apache.directory.api:api-ldap-codec-standalone:jar:1.0.0-M26:compile
+|  |  +- org.apache.directory.api:api-ldap-net-mina:jar:1.0.0-M26:compile
+|  |  |  +- (org.apache.directory.api:api-ldap-codec-core:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  |  +- (org.apache.mina:mina-core:jar:2.0.9:compile - omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.7.7; omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-codec-core:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-ldap-extras-codec:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  +- (org.apache.mina:mina-core:jar:2.0.9:compile - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.7.7; omitted for duplicate)
+|  +- org.apache.directory.api:api-ldap-model:jar:1.0.0-M26:compile
+|  |  +- (org.apache.directory.api:api-util:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-asn1-api:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-asn1-ber:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  +- (org.apache.directory.api:api-i18n:jar:1.0.0-M26:compile - omitted for duplicate)
+|  |  +- (org.apache.mina:mina-core:jar:2.0.9:compile - omitted for duplicate)
+|  |  +- antlr:antlr:jar:2.7.7:compile
+|  |  +- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+|  |  +- commons-collections:commons-collections:jar:3.2.1:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.7.7; omitted for duplicate)
+|  +- (junit:junit:jar:4.12:compile - version managed from 4.11; omitted for duplicate)
+|  +- commons-io:commons-io:jar:2.4:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.7.7; omitted for duplicate)
++- com.github.tomakehurst:wiremock:jar:1.38:test
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.1.2:test
+|  +- org.mortbay.jetty:jetty:jar:6.1.26:test
+|  |  +- org.mortbay.jetty:jetty-util:jar:6.1.26:test
+|  |  \- org.mortbay.jetty:servlet-api:jar:2.5-20081211:test
+|  +- org.skyscreamer:jsonassert:jar:1.2.1:test
+|  |  \- org.json:json:jar:20090211:test
+|  +- org.apache.httpcomponents:httpclient:jar:4.2.3:test
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.2.2:test
+|  |  \- commons-codec:commons-codec:jar:1.6:test
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.1.2:test
+|  +- (com.google.guava:guava:jar:20.0:test - version managed from 13.0.1; omitted for duplicate)
+|  \- com.fasterxml.jackson.core:jackson-databind:jar:2.1.2:test
+|     +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.1.1:test - omitted for conflict with 2.1.2)
+|     \- (com.fasterxml.jackson.core:jackson-core:jar:2.1.1:test - omitted for conflict with 2.1.2)
++- org.slf4j:log4j-over-slf4j:jar:1.7.10:test
+|  \- (org.slf4j:slf4j-api:jar:1.7.10:test - version managed from 1.7.7; omitted for duplicate)
+\- org.slf4j:jcl-over-slf4j:jar:1.7.10:test
+   \- (org.slf4j:slf4j-api:jar:1.7.10:test - version managed from 1.7.7; omitted for duplicate)

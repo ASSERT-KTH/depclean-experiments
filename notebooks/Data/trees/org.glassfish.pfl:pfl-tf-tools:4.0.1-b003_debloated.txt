@@ -1,0 +1,12 @@
+org.glassfish.pfl:pfl-tf-tools:bundle:4.0.1-b003
++- org.glassfish.pfl:pfl-basic-tools:jar:4.0.1-b003:compile
+|  \- org.glassfish.pfl:pfl-basic:jar:4.0.1-b003:compile
++- org.glassfish.pfl:pfl-tf:jar:4.0.1-b003:compile
+|  +- (org.glassfish.pfl:pfl-asm:jar:4.0.1-b003:compile - omitted for duplicate)
+|  \- org.glassfish.pfl:pfl-dynamic:jar:4.0.1-b003:compile
+|     +- (org.glassfish.pfl:pfl-asm:jar:4.0.1-b003:compile - omitted for duplicate)
+|     \- (org.glassfish.pfl:pfl-basic:jar:4.0.1-b003:compile - omitted for duplicate)
++- org.glassfish.pfl:pfl-asm:jar:4.0.1-b003:compile
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
+\- org.hamcrest:hamcrest-all:jar:1.3:test

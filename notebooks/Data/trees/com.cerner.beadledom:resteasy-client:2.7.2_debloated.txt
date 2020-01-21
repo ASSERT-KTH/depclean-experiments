@@ -1,0 +1,88 @@
+com.cerner.beadledom:resteasy-client:jar:2.7.2
++- com.cerner.beadledom:beadledom-client:jar:2.7.2:compile
+|  +- (javax.annotation:javax.annotation-api:jar:1.2:compile - omitted for duplicate)
+|  \- (javax.ws.rs:javax.ws.rs-api:jar:2.0.1:compile - omitted for duplicate)
++- com.cerner.beadledom:beadledom-jaxrs-clientproxy:jar:2.7.2:compile
+|  +- (com.cerner.beadledom:beadledom-jaxrs-genericresponse:jar:2.7.2:compile - omitted for duplicate)
+|  +- (javax.ws.rs:javax.ws.rs-api:jar:2.0.1:compile - omitted for duplicate)
+|  \- org.javassist:javassist:jar:3.20.0-GA:compile
++- com.google.auto.value:auto-value:jar:1.2:provided
++- com.google.code.findbugs:jsr305:jar:3.0.0:provided
++- commons-io:commons-io:jar:2.4:compile
++- javax.ws.rs:javax.ws.rs-api:jar:2.0.1:compile
++- org.apache.httpcomponents:httpclient:jar:4.5.1:compile
+|  +- (org.apache.httpcomponents:httpcore:jar:4.4.3:compile - omitted for duplicate)
+|  +- commons-logging:commons-logging:jar:1.2:compile
+|  \- commons-codec:commons-codec:jar:1.9:compile
++- org.apache.httpcomponents:httpcore:jar:4.4.3:compile
++- org.jboss.resteasy:jaxrs-api:jar:3.0.12.Final:compile
++- org.jboss.resteasy:resteasy-client:jar:3.0.12.Final:compile
+|  \- (org.jboss.resteasy:resteasy-jaxrs:jar:3.0.12.Final:compile - omitted for duplicate)
++- org.jboss.resteasy:resteasy-jaxrs:jar:3.0.12.Final:compile
+|  +- (org.jboss.resteasy:jaxrs-api:jar:3.0.12.Final:compile - omitted for duplicate)
+|  +- org.jboss.spec.javax.annotation:jboss-annotations-api_1.1_spec:jar:1.0.1.Final:compile
+|  +- javax.activation:activation:jar:1.1.1:compile
+|  +- (org.apache.httpcomponents:httpclient:jar:4.5.1:compile - version managed from 4.3.6; omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.4:compile - version managed from 2.1; omitted for duplicate)
+|  \- net.jcip:jcip-annotations:jar:1.0:compile
++- org.slf4j:slf4j-api:jar:1.7.12:compile
++- com.cerner.beadledom:beadledom-jaxrs-genericresponse:jar:2.7.2:test (scope not updated to compile)
+|  \- (javax.ws.rs:javax.ws.rs-api:jar:2.0.1:test - omitted for duplicate)
++- com.cerner.beadledom:beadledom-resteasy-genericresponse:jar:2.7.2:test
+|  +- (com.cerner.beadledom:beadledom-jaxrs-genericresponse:jar:2.7.2:test - omitted for duplicate)
+|  \- (org.jboss.resteasy:resteasy-jaxrs:jar:3.0.12.Final:test - version managed from 3.0.19.Final; omitted for duplicate)
++- com.fasterxml.jackson.core:jackson-annotations:jar:2.6.3:test
++- com.fasterxml.jackson.core:jackson-databind:jar:2.6.3:test
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.6.3:test - version managed from 2.6.0; omitted for duplicate)
+|  \- com.fasterxml.jackson.core:jackson-core:jar:2.6.3:test
++- com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:jar:2.6.3:test
+|  +- com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:jar:2.6.3:test
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.6.3:test - omitted for duplicate)
+|  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.6.3:test - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.6.3:test - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.6.3:test - omitted for duplicate)
+|  \- com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.6.3:test
+|     +- (com.fasterxml.jackson.core:jackson-core:jar:2.6.3:test - omitted for duplicate)
+|     \- (com.fasterxml.jackson.core:jackson-databind:jar:2.6.3:test - omitted for duplicate)
++- com.google.inject:guice:jar:4.0:test
+|  +- (javax.inject:javax.inject:jar:1:test - omitted for duplicate)
+|  +- aopalliance:aopalliance:jar:1.0:test
+|  \- com.google.guava:guava:jar:15.0:test (version managed from 16.0.1)
++- javax.inject:javax.inject:jar:1:test
++- org.apache.tomcat:tomcat-jasper:jar:7.0.42:test
+|  +- (org.apache.tomcat:tomcat-servlet-api:jar:7.0.42:test - omitted for duplicate)
+|  +- org.apache.tomcat:tomcat-juli:jar:7.0.42:test
+|  +- org.apache.tomcat:tomcat-jsp-api:jar:7.0.42:test
+|  |  +- (org.apache.tomcat:tomcat-el-api:jar:7.0.42:test - omitted for duplicate)
+|  |  \- (org.apache.tomcat:tomcat-servlet-api:jar:7.0.42:test - omitted for duplicate)
+|  +- org.apache.tomcat:tomcat-el-api:jar:7.0.42:test
+|  +- org.eclipse.jdt.core.compiler:ecj:jar:4.2.2:test
+|  +- org.apache.tomcat:tomcat-jasper-el:jar:7.0.42:test
+|  |  \- (org.apache.tomcat:tomcat-el-api:jar:7.0.42:test - omitted for duplicate)
+|  +- org.apache.tomcat:tomcat-api:jar:7.0.42:test
+|  |  \- (org.apache.tomcat:tomcat-servlet-api:jar:7.0.42:test - omitted for duplicate)
+|  \- org.apache.tomcat:tomcat-util:jar:7.0.42:test
+|     +- (org.apache.tomcat:tomcat-juli:jar:7.0.42:test - omitted for duplicate)
+|     \- (org.apache.tomcat:tomcat-api:jar:7.0.42:test - omitted for duplicate)
++- org.apache.tomcat:tomcat-servlet-api:jar:7.0.42:test
++- org.apache.tomcat.embed:tomcat-embed-core:jar:7.0.42:test
++- org.apache.tomcat.embed:tomcat-embed-jasper:jar:7.0.42:test
+|  +- (org.apache.tomcat.embed:tomcat-embed-core:jar:7.0.42:test - omitted for duplicate)
+|  \- (org.eclipse.jdt.core.compiler:ecj:jar:4.2.2:test - omitted for duplicate)
++- org.jboss.resteasy:resteasy-guice:jar:3.0.12.Final:test
+|  +- (com.google.inject:guice:jar:4.0:test - version managed from 3.0; omitted for duplicate)
+|  +- (org.jboss.resteasy:resteasy-jaxrs:jar:3.0.12.Final:test - version managed from 3.0.19.Final; omitted for duplicate)
+|  \- javax.annotation:jsr250-api:jar:1.0:test
++- org.mockito:mockito-core:jar:2.10.0:test
+|  +- net.bytebuddy:byte-buddy:jar:1.7.4:test
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.7.4:test
+|  \- org.objenesis:objenesis:jar:2.6:test
++- org.slf4j:slf4j-log4j12:jar:1.7.12:test
+|  +- (org.slf4j:slf4j-api:jar:1.7.12:test - omitted for duplicate)
+|  \- log4j:log4j:jar:1.2.17:test
+\- org.scalatest:scalatest_2.11:jar:2.2.5:test
+   +- org.scala-lang:scala-library:jar:2.11.7:test (version managed from 2.11.2)
+   +- org.scala-lang:scala-reflect:jar:2.11.2:test
+   |  \- (org.scala-lang:scala-library:jar:2.11.7:test - version managed from 2.11.2; omitted for duplicate)
+   \- org.scala-lang.modules:scala-xml_2.11:jar:1.0.2:test
+      \- (org.scala-lang:scala-library:jar:2.11.7:test - version managed from 2.11.1; omitted for duplicate)

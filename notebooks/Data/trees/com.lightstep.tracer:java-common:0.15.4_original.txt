@@ -1,0 +1,31 @@
+com.lightstep.tracer:java-common:jar:0.15.4
++- io.opentracing:opentracing-api:jar:0.31.0:compile
++- io.opentracing:opentracing-util:jar:0.31.0:compile
+|  +- (io.opentracing:opentracing-api:jar:0.31.0:compile - omitted for duplicate)
+|  \- io.opentracing:opentracing-noop:jar:0.31.0:compile
+|     \- (io.opentracing:opentracing-api:jar:0.31.0:compile - omitted for duplicate)
++- com.google.protobuf:protobuf-java:jar:3.5.1:compile
++- com.google.api.grpc:googleapis-common-protos:jar:0.0.3:compile
+|  +- (com.google.protobuf:protobuf-java:jar:3.0.0:compile - omitted for conflict with 3.5.1)
+|  +- io.grpc:grpc-stub:jar:0.15.0:compile
+|  |  \- io.grpc:grpc-core:jar:0.15.0:compile
+|  |     +- (com.google.guava:guava:jar:19.0:compile - omitted for duplicate)
+|  |     \- com.google.code.findbugs:jsr305:jar:3.0.0:compile
+|  \- io.grpc:grpc-protobuf:jar:0.15.0:compile
+|     +- (com.google.protobuf:protobuf-java:jar:3.0.0-beta-3:compile - omitted for conflict with 3.5.1)
+|     +- com.google.guava:guava:jar:19.0:compile
+|     +- io.grpc:grpc-protobuf-lite:jar:0.15.0:compile
+|     |  +- (com.google.protobuf:protobuf-java:jar:3.0.0-beta-3:compile - omitted for conflict with 3.5.1)
+|     |  +- (com.google.guava:guava:jar:19.0:compile - omitted for duplicate)
+|     |  \- (io.grpc:grpc-core:jar:0.15.0:compile - omitted for duplicate)
+|     +- com.google.protobuf:protobuf-java-util:jar:3.0.0-beta-3:compile
+|     |  +- (com.google.protobuf:protobuf-java:jar:3.0.0-beta-3:compile - omitted for conflict with 3.5.1)
+|     |  +- (com.google.guava:guava:jar:18.0:compile - omitted for conflict with 19.0)
+|     |  \- com.google.code.gson:gson:jar:2.3:compile
+|     \- (io.grpc:grpc-core:jar:0.15.0:compile - omitted for duplicate)
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
+\- org.mockito:mockito-core:jar:2.18.3:test
+   +- net.bytebuddy:byte-buddy:jar:1.8.5:test
+   +- net.bytebuddy:byte-buddy-agent:jar:1.8.5:test
+   \- org.objenesis:objenesis:jar:2.6:test

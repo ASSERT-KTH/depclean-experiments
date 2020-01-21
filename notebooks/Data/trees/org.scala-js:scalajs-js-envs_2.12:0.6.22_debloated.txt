@@ -1,0 +1,25 @@
+org.scala-js:scalajs-js-envs_2.12:jar:0.6.22
++- org.scala-lang:scala-library:jar:2.12.4:compile
++- org.scala-js:scalajs-tools_2.12:jar:0.6.22:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  +- org.scala-js:scalajs-ir_2.12:jar:0.6.22:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  +- org.scala-js:closure-compiler-java-6:jar:v20160517:compile
+|  |  +- org.scala-js:closure-compiler-externs-java-6:jar:v20160517:compile
+|  |  +- args4j:args4j:jar:2.0.26:compile
+|  |  +- com.google.guava:guava:jar:19.0:compile
+|  |  +- com.google.protobuf:protobuf-java:jar:2.5.0:compile
+|  |  +- com.google.code.gson:gson:jar:2.2.4:compile
+|  |  \- com.google.code.findbugs:jsr305:jar:1.3.9:compile
+|  \- com.googlecode.json-simple:json-simple:jar:1.1.1:compile
++- io.apigee:rhino:jar:1.7R5pre4:compile
++- org.eclipse.jetty:jetty-websocket:jar:8.1.16.v20140903:provided
+|  +- org.eclipse.jetty:jetty-util:jar:8.1.16.v20140903:provided
+|  +- org.eclipse.jetty:jetty-io:jar:8.1.16.v20140903:provided
+|  |  \- (org.eclipse.jetty:jetty-util:jar:8.1.16.v20140903:provided - omitted for duplicate)
+|  \- org.eclipse.jetty:jetty-http:jar:8.1.16.v20140903:provided
+|     \- (org.eclipse.jetty:jetty-io:jar:8.1.16.v20140903:provided - omitted for duplicate)
+\- org.eclipse.jetty:jetty-server:jar:8.1.16.v20140903:provided
+   +- org.eclipse.jetty.orbit:javax.servlet:jar:3.0.0.v201112011016:provided
+   +- org.eclipse.jetty:jetty-continuation:jar:8.1.16.v20140903:provided
+   \- (org.eclipse.jetty:jetty-http:jar:8.1.16.v20140903:provided - omitted for duplicate)

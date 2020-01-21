@@ -1,0 +1,6 @@
+com.amdocs.zusammen:zusammen-commons-configuration:jar:1.0.1
++- com.amdocs.zusammen:zusammen-commons-utils:jar:1.0.1:compile
+|  \- com.google.code.gson:gson:jar:2.7:compile
+\- org.testng:testng:jar:6.9.10:test
+   +- com.beust:jcommander:jar:1.48:test
+   \- org.beanshell:bsh:jar:2.0b4:test

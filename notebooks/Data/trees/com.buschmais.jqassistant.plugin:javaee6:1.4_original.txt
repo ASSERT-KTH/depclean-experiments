@@ -1,0 +1,332 @@
+com.buschmais.jqassistant.plugin:javaee6:jar:1.4
++- com.buschmais.jqassistant.core:shared:jar:1.4.0:provided
+|  +- org.asciidoctor:asciidoctorj:jar:1.5.6:provided
+|  |  \- com.beust:jcommander:jar:1.35:provided
+|  +- org.asciidoctor:asciidoctorj-diagram:jar:1.5.8:provided
+|  |  \- (org.asciidoctor:asciidoctorj:jar:1.5.6:provided - omitted for duplicate)
+|  +- org.asciidoctor:asciidoctorj-pdf:jar:1.5.0-alpha.16:provided
+|  |  \- (org.asciidoctor:asciidoctorj:jar:1.5.5:provided - omitted for conflict with 1.5.6)
+|  +- net.sourceforge.plantuml:plantuml:jar:1.2018.6:provided
+|  +- org.jruby:jruby-core:jar:1.7.27:provided
+|  |  +- (org.ow2.asm:asm:jar:5.0.3:compile - scope updated from provided; omitted for duplicate)
+|  |  +- org.ow2.asm:asm-commons:jar:5.0.3:provided
+|  |  |  \- (org.ow2.asm:asm-tree:jar:5.0.3:compile - scope updated from provided; omitted for duplicate)
+|  |  +- (org.ow2.asm:asm-analysis:jar:5.0.3:compile - scope updated from provided; omitted for duplicate)
+|  |  +- (org.ow2.asm:asm-util:jar:5.0.3:compile - scope updated from provided; omitted for duplicate)
+|  |  +- org.jruby.joni:joni:jar:2.1.10:provided
+|  |  |  \- (org.jruby.jcodings:jcodings:jar:1.0.13:provided - omitted for conflict with 1.0.16)
+|  |  +- com.github.jnr:jnr-netdb:jar:1.1.2:provided
+|  |  |  \- (com.github.jnr:jnr-ffi:jar:1.0.4:provided - omitted for conflict with 2.0.9)
+|  |  +- com.github.jnr:jnr-enxio:jar:0.12:provided
+|  |  |  +- (com.github.jnr:jnr-constants:jar:0.9.1:provided - omitted for conflict with 0.9.9)
+|  |  |  \- (com.github.jnr:jnr-ffi:jar:2.0.9:provided - omitted for conflict with 1.0.4)
+|  |  +- com.github.jnr:jnr-x86asm:jar:1.0.2:provided
+|  |  +- com.github.jnr:jnr-unixsocket:jar:0.12:provided
+|  |  |  +- (com.github.jnr:jnr-ffi:jar:2.0.9:provided - omitted for conflict with 1.0.4)
+|  |  |  +- (com.github.jnr:jnr-constants:jar:0.9.1:provided - omitted for duplicate)
+|  |  |  +- (com.github.jnr:jnr-enxio:jar:0.12:provided - omitted for duplicate)
+|  |  |  \- (com.github.jnr:jnr-posix:jar:3.0.29:provided - omitted for duplicate)
+|  |  +- com.github.jnr:jnr-posix:jar:3.0.29:provided
+|  |  |  +- (com.github.jnr:jnr-ffi:jar:2.0.9:provided - omitted for conflict with 1.0.4)
+|  |  |  \- (com.github.jnr:jnr-constants:jar:0.9.1:provided - omitted for duplicate)
+|  |  +- org.jruby.extras:bytelist:jar:1.0.11:provided
+|  |  |  \- (org.jruby.jcodings:jcodings:jar:1.0.5:provided - omitted for conflict with 1.0.13)
+|  |  +- com.github.jnr:jnr-constants:jar:0.9.9:provided
+|  |  +- org.jruby.jcodings:jcodings:jar:1.0.16:provided
+|  |  +- com.github.jnr:jnr-ffi:jar:2.0.9:provided
+|  |  |  +- (com.github.jnr:jffi:jar:1.2.11:provided - omitted for conflict with 1.2.12)
+|  |  |  +- (com.github.jnr:jffi:jar:native:1.2.11:provided - omitted for conflict with 1.2.12)
+|  |  |  +- (org.ow2.asm:asm:jar:5.0.3:provided - omitted for duplicate)
+|  |  |  +- (org.ow2.asm:asm-commons:jar:5.0.3:provided - omitted for duplicate)
+|  |  |  +- (org.ow2.asm:asm-analysis:jar:5.0.3:provided - omitted for duplicate)
+|  |  |  +- (org.ow2.asm:asm-tree:jar:5.0.3:provided - omitted for duplicate)
+|  |  |  +- (org.ow2.asm:asm-util:jar:5.0.3:provided - omitted for duplicate)
+|  |  |  \- (com.github.jnr:jnr-x86asm:jar:1.0.2:provided - omitted for duplicate)
+|  |  +- com.github.jnr:jffi:jar:1.2.12:provided
+|  |  +- com.github.jnr:jffi:jar:native:1.2.12:provided
+|  |  +- org.yaml:snakeyaml:jar:1.13:provided
+|  |  +- com.jcraft:jzlib:jar:1.1.3:provided
+|  |  +- com.headius:invokebinder:jar:1.2:provided
+|  |  +- com.martiansoftware:nailgun-server:jar:0.9.1:provided
+|  |  +- org.jruby:yecht:jar:jruby:1.1:provided
+|  |  +- joda-time:joda-time:jar:2.8.2:provided
+|  |  \- com.headius:options:jar:1.3:provided
+|  +- org.jruby:jruby-stdlib:jar:1.7.27:provided
+|  \- org.slf4j:slf4j-api:jar:1.7.13:provided (version managed from 1.7.21)
++- com.buschmais.jqassistant.plugin:xml:jar:1.4:compile
+|  +- com.buschmais.jqassistant.plugin:common:jar:1.4:compile
+|  |  +- com.opencsv:opencsv:jar:4.1:compile
+|  |  |  +- org.apache.commons:commons-lang3:jar:3.3.2:compile
+|  |  |  +- org.apache.commons:commons-text:jar:1.1:compile
+|  |  |  |  \- (org.apache.commons:commons-lang3:jar:3.5:compile - omitted for conflict with 3.3.2)
+|  |  |  \- commons-beanutils:commons-beanutils:jar:1.9.3:compile
+|  |  |     +- commons-logging:commons-logging:jar:1.1.1:compile
+|  |  |     \- commons-collections:commons-collections:jar:3.2.2:compile
+|  |  +- com.google.guava:guava:jar:20.0:compile
+|  |  +- org.apache.commons:commons-compress:jar:1.12:compile
+|  |  +- (com.buschmais.jqassistant:asciidoctor-utilities:xsl:plugin2asciidoc:1.4.0:compile - omitted for duplicate)
+|  |  \- (com.buschmais.jqassistant:asciidoctor-utilities:xsl:rules2asciidoc-v2:1.4.0:compile - omitted for duplicate)
+|  +- (com.buschmais.jqassistant:asciidoctor-utilities:xsl:plugin2asciidoc:1.4.0:compile - omitted for duplicate)
+|  \- (com.buschmais.jqassistant:asciidoctor-utilities:xsl:rules2asciidoc-v2:1.4.0:compile - omitted for duplicate)
++- com.buschmais.jqassistant.plugin:ejb3:jar:1.4:compile
+|  +- (com.buschmais.jqassistant.plugin:common:jar:1.4:compile - omitted for duplicate)
+|  +- com.buschmais.jqassistant.plugin:java:jar:1.4:compile
+|  |  +- org.ow2.asm:asm:jar:6.1.1:compile
+|  |  +- org.ow2.asm:asm-util:jar:6.1.1:compile
+|  |  |  +- (org.ow2.asm:asm:jar:6.1.1:compile - omitted for conflict with 6.1.1)
+|  |  |  +- org.ow2.asm:asm-tree:jar:5.0.3:compile
+|  |  |  |  \- (org.ow2.asm:asm:jar:6.1.1:compile - omitted for conflict with 6.1.1)
+|  |  |  \- org.ow2.asm:asm-analysis:jar:5.0.3:compile
+|  |  |     \- (org.ow2.asm:asm-tree:jar:6.1.1:compile - omitted for conflict with 5.0.3)
+|  |  +- (com.buschmais.jqassistant.plugin:common:jar:1.4:compile - omitted for duplicate)
+|  |  +- (com.buschmais.jqassistant.plugin:xml:jar:1.4:compile - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:20.0:compile - omitted for duplicate)
+|  |  +- (com.buschmais.jqassistant:asciidoctor-utilities:xsl:plugin2asciidoc:1.4.0:compile - omitted for duplicate)
+|  |  \- (com.buschmais.jqassistant:asciidoctor-utilities:xsl:rules2asciidoc-v2:1.4.0:compile - omitted for duplicate)
+|  +- com.buschmais.jqassistant.plugin:cdi:jar:1.4:compile
+|  |  +- (com.buschmais.jqassistant.plugin:common:jar:1.4:compile - omitted for duplicate)
+|  |  +- (com.buschmais.jqassistant.plugin:java:jar:1.4:compile - omitted for duplicate)
+|  |  +- (com.buschmais.jqassistant.plugin:xml:jar:1.4:compile - omitted for duplicate)
+|  |  +- (com.buschmais.jqassistant:asciidoctor-utilities:xsl:plugin2asciidoc:1.4.0:compile - omitted for duplicate)
+|  |  \- (com.buschmais.jqassistant:asciidoctor-utilities:xsl:rules2asciidoc-v2:1.4.0:compile - omitted for duplicate)
+|  +- (com.buschmais.jqassistant:asciidoctor-utilities:xsl:plugin2asciidoc:1.4.0:compile - omitted for duplicate)
+|  \- (com.buschmais.jqassistant:asciidoctor-utilities:xsl:rules2asciidoc-v2:1.4.0:compile - omitted for duplicate)
++- com.buschmais.jqassistant.plugin:jpa2:jar:1.4:compile
+|  +- (com.buschmais.jqassistant.plugin:common:jar:1.4:compile - omitted for duplicate)
+|  +- (com.buschmais.jqassistant.plugin:xml:jar:1.4:compile - omitted for duplicate)
+|  +- (com.buschmais.jqassistant.plugin:java:jar:1.4:compile - omitted for duplicate)
+|  +- (com.buschmais.jqassistant:asciidoctor-utilities:xsl:plugin2asciidoc:1.4.0:compile - omitted for duplicate)
+|  \- (com.buschmais.jqassistant:asciidoctor-utilities:xsl:rules2asciidoc-v2:1.4.0:compile - omitted for duplicate)
++- com.buschmais.jqassistant.plugin:jaxrs:jar:1.4:compile
+|  +- (com.buschmais.jqassistant.plugin:common:jar:1.4:compile - omitted for duplicate)
+|  +- (com.buschmais.jqassistant.plugin:java:jar:1.4:compile - omitted for duplicate)
+|  +- (com.buschmais.jqassistant:asciidoctor-utilities:xsl:plugin2asciidoc:1.4.0:compile - omitted for duplicate)
+|  \- (com.buschmais.jqassistant:asciidoctor-utilities:xsl:rules2asciidoc-v2:1.4.0:compile - omitted for duplicate)
++- com.buschmais.jqassistant.core:scanner:jar:1.4.0:provided
+|  +- com.buschmais.jqassistant.core:store:jar:1.4.0:provided
+|  |  +- (com.buschmais.jqassistant.core:shared:jar:1.4.0:provided - omitted for duplicate)
+|  |  +- (com.buschmais.jqassistant.neo4jserver:bootstrap:jar:1.4.0:provided - omitted for duplicate)
+|  |  +- (com.buschmais.xo:xo.neo4j.api:jar:0.10.0:provided - omitted for duplicate)
+|  |  +- (com.buschmais.xo:xo.neo4j.embedded:jar:0.10.0:provided - omitted for duplicate)
+|  |  +- (com.buschmais.xo:xo.neo4j.remote:jar:0.10.0:provided - omitted for duplicate)
+|  |  +- (com.buschmais.xo:xo.impl:jar:0.10.0:runtime - scope managed from test; omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.13:provided - version managed from 1.7.21; scope managed from runtime; omitted for duplicate)
+|  +- commons-io:commons-io:jar:2.4:provided
+|  +- commons-lang:commons-lang:jar:2.4:provided
+|  \- (org.slf4j:slf4j-api:jar:1.7.13:provided - version managed from 1.7.21; scope managed from runtime; omitted for duplicate)
++- com.buschmais.jqassistant.core:plugin:jar:1.4.0:provided
+|  +- (com.buschmais.jqassistant.core:scanner:jar:1.4.0:provided - omitted for duplicate)
+|  +- com.buschmais.jqassistant.core:analysis:jar:1.4.0:provided
+|  |  +- (com.buschmais.jqassistant.core:shared:jar:1.4.0:provided - omitted for duplicate)
+|  |  +- com.buschmais.jqassistant.core:rule:jar:1.4.0:provided
+|  |  |  +- (com.buschmais.jqassistant.core:shared:jar:1.4.0:provided - omitted for duplicate)
+|  |  |  +- (commons-io:commons-io:jar:2.4:provided - omitted for duplicate)
+|  |  |  +- (com.sun.xml.bind:jaxb-impl:jar:2.2.8-b01:provided - omitted for duplicate)
+|  |  |  +- (org.asciidoctor:asciidoctorj:jar:1.5.6:provided - omitted for duplicate)
+|  |  |  +- (org.jruby:jruby-core:jar:1.7.27:provided - omitted for duplicate)
+|  |  |  +- (org.jruby:jruby-stdlib:jar:1.7.27:provided - omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.13:provided - version managed from 1.7.21; scope managed from runtime; omitted for duplicate)
+|  |  +- (com.buschmais.jqassistant.core:report:jar:1.4.0:provided - omitted for duplicate)
+|  |  +- (com.buschmais.jqassistant.core:store:jar:1.4.0:provided - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.13:provided - version managed from 1.7.21; scope managed from runtime; omitted for duplicate)
+|  \- com.buschmais.jqassistant.core:report:jar:1.4.0:provided
+|     +- (com.buschmais.jqassistant.core:rule:jar:1.4.0:provided - omitted for duplicate)
+|     +- (com.buschmais.xo:xo.neo4j.api:jar:0.10.0:provided - omitted for duplicate)
+|     \- com.sun.xml.bind:jaxb-impl:jar:2.2.8-b01:provided
+|        +- com.sun.xml.bind:jaxb-core:jar:2.2.8-b01:provided
+|        |  +- javax.xml.bind:jaxb-api:jar:2.2.9:provided
+|        |  \- com.sun.istack:istack-commons-runtime:jar:2.16:provided
+|        \- com.sun.xml.fastinfoset:FastInfoset:jar:1.2.12:provided
++- com.buschmais.jqassistant.plugin:common:test-jar:tests:1.4:test
+|  +- (com.opencsv:opencsv:jar:4.1:compile - scope updated from test; omitted for duplicate)
+|  +- (com.google.guava:guava:jar:20.0:compile - version managed from 15.0; scope updated from test; omitted for duplicate)
+|  +- (org.apache.commons:commons-compress:jar:1.12:compile - scope updated from test; omitted for duplicate)
+|  +- (com.buschmais.jqassistant:asciidoctor-utilities:xsl:plugin2asciidoc:1.4.0:test - omitted for duplicate)
+|  \- (com.buschmais.jqassistant:asciidoctor-utilities:xsl:rules2asciidoc-v2:1.4.0:test - omitted for duplicate)
++- com.buschmais.jqassistant.core:store:test-jar:tests:1.4.0:test
+|  +- (com.buschmais.jqassistant.core:shared:jar:1.4.0:provided - scope managed from test; omitted for duplicate)
+|  +- com.buschmais.jqassistant.neo4jserver:bootstrap:jar:1.4.0:test
+|  |  \- com.buschmais.xo:xo.api:jar:0.10.0:provided (scope managed from test)
+|  |     \- javax.validation:validation-api:jar:1.1.0.Final:provided
+|  +- com.buschmais.xo:xo.neo4j.api:jar:0.10.0:test
+|  |  +- (com.buschmais.xo:xo.api:jar:0.10.0:provided - scope managed from test; omitted for duplicate)
+|  |  \- com.buschmais.xo:xo.spi:jar:0.10.0:provided (scope managed from test)
+|  |     +- (com.buschmais.xo:xo.api:jar:0.10.0:provided - scope managed from test; omitted for duplicate)
+|  |     +- (org.slf4j:slf4j-api:jar:1.7.13:provided - version managed from 1.7.25; scope managed from runtime; omitted for duplicate)
+|  |     \- (com.google.guava:guava:jar:20.0:provided - version managed from 15.0; omitted for duplicate)
+|  +- com.buschmais.xo:xo.neo4j.embedded:jar:0.10.0:test
+|  |  +- (com.buschmais.xo:xo.neo4j.api:jar:0.10.0:test - omitted for duplicate)
+|  |  +- com.buschmais.xo:xo.neo4j.spi:jar:0.10.0:test
+|  |  |  +- (com.buschmais.xo:xo.neo4j.api:jar:0.10.0:test - omitted for duplicate)
+|  |  |  +- (com.buschmais.xo:xo.spi:jar:0.10.0:provided - scope managed from test; omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.13:provided - version managed from 1.7.25; scope managed from test; omitted for duplicate)
+|  |  +- (commons-lang:commons-lang:jar:2.4:test - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:20.0:test - version managed from 15.0; omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.13:provided - version managed from 1.7.25; scope managed from test; omitted for duplicate)
+|  +- com.buschmais.xo:xo.neo4j.remote:jar:0.10.0:test
+|  |  +- (com.buschmais.xo:xo.neo4j.api:jar:0.10.0:test - omitted for duplicate)
+|  |  +- (com.buschmais.xo:xo.neo4j.spi:jar:0.10.0:test - omitted for duplicate)
+|  |  +- org.neo4j.driver:neo4j-java-driver:jar:1.5.1:test
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.13:provided - version managed from 1.7.25; scope managed from test; omitted for duplicate)
+|  +- com.buschmais.xo:xo.impl:jar:0.10.0:runtime
+|  |  +- (com.buschmais.xo:xo.api:jar:0.10.0:provided - scope managed from runtime; omitted for duplicate)
+|  |  +- (com.buschmais.xo:xo.spi:jar:0.10.0:provided - scope managed from runtime; omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:20.0:runtime - version managed from 15.0; omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.13:provided - version managed from 1.7.25; scope managed from runtime; omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.13:provided - version managed from 1.7.21; scope managed from test; omitted for duplicate)
++- com.buschmais.jqassistant.plugin:java:test-jar:tests:1.4:test
+|  +- (org.ow2.asm:asm:jar:6.1.1:compile - scope updated from test; omitted for duplicate)
+|  +- (org.ow2.asm:asm-util:jar:6.1.1:compile - scope updated from test; omitted for duplicate)
+|  +- (com.buschmais.jqassistant.plugin:common:jar:1.4:test - omitted for duplicate)
+|  +- (com.buschmais.jqassistant.plugin:xml:jar:1.4:test - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:20.0:compile - version managed from 15.0; scope updated from test; omitted for duplicate)
+|  +- (com.buschmais.jqassistant:asciidoctor-utilities:xsl:plugin2asciidoc:1.4.0:test - omitted for duplicate)
+|  \- (com.buschmais.jqassistant:asciidoctor-utilities:xsl:rules2asciidoc-v2:1.4.0:test - omitted for duplicate)
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.hamcrest:java-hamcrest:jar:2.0.0.0:test
++- org.mockito:mockito-core:jar:1.9.5:test
+|  \- org.objenesis:objenesis:jar:1.0:test
++- org.slf4j:slf4j-simple:jar:1.7.13:test
+|  \- (org.slf4j:slf4j-api:jar:1.7.13:provided - version managed from 1.7.21; scope managed from test; omitted for duplicate)
++- org.wicketstuff:javaee-inject-example-ear:ear:6.18.0:test
++- org.wicketstuff:javaee-inject-example-war:war:6.18.0:test
++- com.buschmais.jqassistant:asciidoctor-utilities:jar:1.4.0:provided
++- com.buschmais.jqassistant:asciidoctor-utilities:xsl:plugin2asciidoc:1.4.0:compile
++- com.buschmais.jqassistant:asciidoctor-utilities:xsl:rules2asciidoc-v2:1.4.0:compile
++- com.buschmais.jqassistant.neo4jserver:neo4jv2:jar:1.4.0:test
+|  +- (com.buschmais.jqassistant.neo4jserver:bootstrap:jar:1.4.0:test - omitted for duplicate)
+|  +- org.neo4j.app:neo4j-server:jar:2.3.12:test
+|  |  +- org.neo4j:neo4j:pom:2.3.12:test
+|  |  |  +- (org.neo4j:neo4j-kernel:jar:2.3.12:test - omitted for duplicate)
+|  |  |  +- org.neo4j:neo4j-lucene-index:jar:2.3.12:test
+|  |  |  |  +- (org.neo4j:neo4j-kernel:jar:2.3.12:test - omitted for duplicate)
+|  |  |  |  \- org.apache.lucene:lucene-core:jar:3.6.2:test
+|  |  |  +- org.neo4j:neo4j-graph-algo:jar:2.3.12:test
+|  |  |  |  \- (org.neo4j:neo4j-kernel:jar:2.3.12:test - omitted for duplicate)
+|  |  |  +- org.neo4j:neo4j-udc:jar:2.3.12:test
+|  |  |  |  \- (org.neo4j:neo4j-kernel:jar:2.3.12:test - omitted for duplicate)
+|  |  |  +- org.neo4j:neo4j-graph-matching:jar:2.3.12:test
+|  |  |  |  \- (org.neo4j:neo4j-kernel:jar:2.3.12:test - omitted for duplicate)
+|  |  |  +- (org.neo4j:neo4j-cypher:jar:2.3.12:test - omitted for duplicate)
+|  |  |  +- org.neo4j:neo4j-jmx:jar:2.3.12:test
+|  |  |  \- org.neo4j:neo4j-consistency-check:jar:2.3.12:test
+|  |  |     +- org.neo4j:neo4j-consistency-check-legacy:jar:2.3.12:test
+|  |  |     |  +- (org.neo4j:neo4j-kernel:jar:2.3.12:test - omitted for duplicate)
+|  |  |     |  \- (org.neo4j:neo4j-lucene-index:jar:2.3.12:test - omitted for duplicate)
+|  |  |     +- (org.neo4j:neo4j-kernel:jar:2.3.12:test - omitted for duplicate)
+|  |  |     \- (org.neo4j:neo4j-lucene-index:jar:2.3.12:test - omitted for duplicate)
+|  |  +- org.neo4j:neo4j-kernel:jar:2.3.12:test
+|  |  |  +- (org.neo4j:neo4j-primitive-collections:jar:2.3.12:test - omitted for duplicate)
+|  |  |  +- (org.neo4j:neo4j-io:jar:2.3.12:test - omitted for duplicate)
+|  |  |  +- (org.neo4j:neo4j-csv:jar:2.3.12:test - omitted for duplicate)
+|  |  |  \- (org.neo4j:neo4j-logging:jar:2.3.12:test - omitted for duplicate)
+|  |  +- org.neo4j:server-api:jar:2.3.12:test
+|  |  |  +- (org.neo4j:neo4j-kernel:jar:2.3.12:test - omitted for duplicate)
+|  |  |  +- org.neo4j.3rdparty.javax.ws.rs:jsr311-api:jar:1.1.2.r612:test
+|  |  |  +- (commons-configuration:commons-configuration:jar:1.10:test - omitted for duplicate)
+|  |  |  \- (commons-digester:commons-digester:jar:2.1:test - omitted for duplicate)
+|  |  +- org.neo4j:neo4j-cypher:jar:2.3.12:test
+|  |  |  +- org.scala-lang:scala-library:jar:2.11.7:test
+|  |  |  +- org.scala-lang:scala-reflect:jar:2.11.7:test
+|  |  |  |  \- (org.scala-lang:scala-library:jar:2.11.7:test - omitted for duplicate)
+|  |  |  +- org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.0.4:test
+|  |  |  |  \- (org.scala-lang:scala-library:jar:2.11.6:test - omitted for conflict with 2.11.7)
+|  |  |  +- (org.neo4j:neo4j-kernel:jar:2.3.12:test - omitted for duplicate)
+|  |  |  +- (org.neo4j:neo4j-lucene-index:jar:2.3.12:test - omitted for duplicate)
+|  |  |  +- (org.neo4j:neo4j-graph-matching:jar:2.3.12:test - omitted for duplicate)
+|  |  |  +- (org.neo4j:neo4j-graph-algo:jar:2.3.12:test - omitted for duplicate)
+|  |  |  +- org.neo4j:neo4j-codegen:jar:2.3.12:test
+|  |  |  |  +- (org.ow2.asm:asm:jar:5.0.2:test - omitted for conflict with 6.1.1)
+|  |  |  |  \- (org.apache.commons:commons-lang3:jar:3.3.2:test - omitted for conflict with 3.3.2)
+|  |  |  +- org.neo4j:neo4j-cypher-compiler-1.9_2.11:jar:2.0.5:test
+|  |  |  +- org.neo4j:neo4j-cypher-compiler-2.2_2.11:jar:2.2.10:test
+|  |  |  |  +- (org.scala-lang:scala-reflect:jar:2.11.7:test - omitted for duplicate)
+|  |  |  |  +- (org.parboiled:parboiled-scala_2.11:jar:1.1.7:test - omitted for duplicate)
+|  |  |  |  \- (com.googlecode.concurrentlinkedhashmap:concurrentlinkedhashmap-lru:jar:1.4:test - omitted for conflict with 1.4.2)
+|  |  |  +- org.neo4j:neo4j-cypher-compiler-2.3:jar:2.3.12:test
+|  |  |  |  +- org.neo4j:neo4j-cypher-frontend-2.3:jar:2.3.12:test
+|  |  |  |  |  +- (org.parboiled:parboiled-scala_2.11:jar:1.1.7:test - omitted for duplicate)
+|  |  |  |  |  \- (org.apache.commons:commons-lang3:jar:3.3.2:test - omitted for conflict with 3.3.2)
+|  |  |  |  \- (org.parboiled:parboiled-scala_2.11:jar:1.1.7:test - omitted for duplicate)
+|  |  |  +- org.parboiled:parboiled-scala_2.11:jar:1.1.7:test
+|  |  |  |  \- org.parboiled:parboiled-core:jar:1.1.7:test
+|  |  |  +- net.sf.opencsv:opencsv:jar:2.3:test
+|  |  |  \- com.googlecode.concurrentlinkedhashmap:concurrentlinkedhashmap-lru:jar:1.4.2:test
+|  |  +- org.neo4j.app:neo4j-browser:jar:2.3.11:test
+|  |  |  \- (org.neo4j:neo4j-kernel:jar:2.3.11:test - omitted for conflict with 2.3.12)
+|  |  +- org.neo4j:neo4j-shell:jar:2.3.12:test
+|  |  |  \- jline:jline:jar:2.12:test
+|  |  +- org.eclipse.jetty:jetty-server:jar:9.2.9.v20150224:test
+|  |  |  +- javax.servlet:javax.servlet-api:jar:3.1.0:test
+|  |  |  +- org.eclipse.jetty:jetty-http:jar:9.2.9.v20150224:test
+|  |  |  |  \- org.eclipse.jetty:jetty-util:jar:9.2.9.v20150224:test
+|  |  |  \- org.eclipse.jetty:jetty-io:jar:9.2.9.v20150224:test
+|  |  |     \- (org.eclipse.jetty:jetty-util:jar:9.2.9.v20150224:test - omitted for duplicate)
+|  |  +- org.eclipse.jetty:jetty-webapp:jar:9.2.9.v20150224:test
+|  |  |  +- org.eclipse.jetty:jetty-xml:jar:9.2.9.v20150224:test
+|  |  |  |  \- (org.eclipse.jetty:jetty-util:jar:9.2.9.v20150224:test - omitted for duplicate)
+|  |  |  \- org.eclipse.jetty:jetty-servlet:jar:9.2.9.v20150224:test
+|  |  |     \- org.eclipse.jetty:jetty-security:jar:9.2.9.v20150224:test
+|  |  |        \- (org.eclipse.jetty:jetty-server:jar:9.2.9.v20150224:test - omitted for duplicate)
+|  |  +- com.sun.jersey:jersey-server:jar:1.19:test
+|  |  |  \- com.sun.jersey:jersey-core:jar:1.19:test
+|  |  +- com.sun.jersey:jersey-servlet:jar:1.19:test
+|  |  |  \- (com.sun.jersey:jersey-server:jar:1.19:test - omitted for duplicate)
+|  |  +- commons-configuration:commons-configuration:jar:1.10:test
+|  |  |  +- (commons-lang:commons-lang:jar:2.6:test - omitted for conflict with 2.4)
+|  |  |  \- (commons-logging:commons-logging:jar:1.1.1:compile - scope updated from test; omitted for duplicate)
+|  |  +- io.netty:netty-all:jar:4.0.28.Final:test
+|  |  +- commons-digester:commons-digester:jar:2.1:test
+|  |  |  +- (commons-beanutils:commons-beanutils:jar:1.8.3:test - omitted for conflict with 1.9.3)
+|  |  |  \- (commons-logging:commons-logging:jar:1.1.1:compile - scope updated from test; omitted for duplicate)
+|  |  +- (commons-io:commons-io:jar:2.4:test - omitted for duplicate)
+|  |  +- org.codehaus.jackson:jackson-jaxrs:jar:1.9.13:test
+|  |  |  +- org.codehaus.jackson:jackson-core-asl:jar:1.9.13:test
+|  |  |  \- org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:test
+|  |  |     \- (org.codehaus.jackson:jackson-core-asl:jar:1.9.13:test - omitted for duplicate)
+|  |  +- org.rrd4j:rrd4j:jar:2.2:test
+|  |  +- org.mozilla:rhino:jar:1.7R4:test
+|  |  +- org.bouncycastle:bcprov-jdk15on:jar:1.52:test
+|  |  +- org.bouncycastle:bcpkix-jdk15on:jar:1.52:test
+|  |  |  \- (org.bouncycastle:bcprov-jdk15on:jar:1.52:test - omitted for duplicate)
+|  |  \- com.sun.jersey.contribs:jersey-multipart:jar:1.19:test
+|  |     +- org.jvnet.mimepull:mimepull:jar:1.9.3:test
+|  |     \- (com.sun.jersey:jersey-core:jar:1.19:test - omitted for duplicate)
+|  \- org.neo4j.app:neo4j-server:jar:static-web:2.3.12:test
+|     +- (org.neo4j:neo4j:pom:2.3.12:test - omitted for duplicate)
+|     +- (org.neo4j:neo4j-kernel:jar:2.3.12:test - omitted for duplicate)
+|     +- (org.neo4j:server-api:jar:2.3.12:test - omitted for duplicate)
+|     +- (org.neo4j:neo4j-cypher:jar:2.3.12:test - omitted for duplicate)
+|     +- (org.neo4j.app:neo4j-browser:jar:2.3.11:test - omitted for duplicate)
+|     +- (org.neo4j:neo4j-shell:jar:2.3.12:test - omitted for duplicate)
+|     +- (org.eclipse.jetty:jetty-server:jar:9.2.9.v20150224:test - omitted for duplicate)
+|     +- (org.eclipse.jetty:jetty-webapp:jar:9.2.9.v20150224:test - omitted for duplicate)
+|     +- (com.sun.jersey:jersey-server:jar:1.19:test - omitted for duplicate)
+|     +- (com.sun.jersey:jersey-servlet:jar:1.19:test - omitted for duplicate)
+|     +- (commons-configuration:commons-configuration:jar:1.10:test - omitted for duplicate)
+|     +- (io.netty:netty-all:jar:4.0.28.Final:test - omitted for duplicate)
+|     +- (commons-digester:commons-digester:jar:2.1:test - omitted for duplicate)
+|     +- (commons-io:commons-io:jar:2.4:test - omitted for duplicate)
+|     +- (org.codehaus.jackson:jackson-jaxrs:jar:1.9.13:test - omitted for duplicate)
+|     +- (org.rrd4j:rrd4j:jar:2.2:test - omitted for duplicate)
+|     +- (org.mozilla:rhino:jar:1.7R4:test - omitted for duplicate)
+|     +- (org.bouncycastle:bcprov-jdk15on:jar:1.52:test - omitted for duplicate)
+|     +- (org.bouncycastle:bcpkix-jdk15on:jar:1.52:test - omitted for duplicate)
+|     \- (com.sun.jersey.contribs:jersey-multipart:jar:1.19:test - omitted for duplicate)
++- org.neo4j:neo4j-kernel:test-jar:tests:2.3.12:test
+|  +- org.neo4j:neo4j-primitive-collections:jar:2.3.12:test
+|  |  +- (org.neo4j:neo4j-unsafe:jar:2.3.12:test - omitted for duplicate)
+|  |  \- org.neo4j:neo4j-function:jar:2.3.12:test
+|  +- org.neo4j:neo4j-io:jar:2.3.12:test
+|  |  +- (org.neo4j:neo4j-unsafe:jar:2.3.12:test - omitted for duplicate)
+|  |  +- (org.neo4j:neo4j-primitive-collections:jar:2.3.12:test - omitted for duplicate)
+|  |  \- (org.apache.commons:commons-lang3:jar:3.3.2:compile - scope updated from test; omitted for duplicate)
+|  +- org.neo4j:neo4j-csv:jar:2.3.12:test
+|  |  \- (org.neo4j:neo4j-primitive-collections:jar:2.3.12:test - omitted for duplicate)
+|  \- org.neo4j:neo4j-logging:jar:2.3.12:test
+|     \- (org.neo4j:neo4j-io:jar:2.3.12:test - omitted for duplicate)
+\- org.neo4j:neo4j-io:test-jar:tests:2.3.12:test
+   +- org.neo4j:neo4j-unsafe:jar:2.3.12:test
+   +- (org.neo4j:neo4j-primitive-collections:jar:2.3.12:test - omitted for duplicate)
+   \- (org.apache.commons:commons-lang3:jar:3.3.2:compile - scope updated from test; omitted for duplicate)

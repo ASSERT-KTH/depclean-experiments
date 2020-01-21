@@ -1,0 +1,10 @@
+org.mobicents.protocols.ss7.m3ua:m3ua-api:jar:8.0.0-134
++- junit:junit:jar:3.8.1:provided
++- org.mobicents.protocols.sctp:sctp-api:jar:2.0.0-128:compile
+|  +- log4j:log4j:jar:1.2.14:compile
+|  +- org.mobicents.commons:commons:jar:1.0.0.CR1:compile
+|  +- (javolution:javolution:jar:5.5.1:compile - omitted for duplicate)
+|  \- (io.netty:netty-all:jar:4.0.33.Final:compile - omitted for duplicate)
++- io.netty:netty-all:jar:4.0.33.Final:compile
+\- org.mobicents.protocols.ss7.statistics:statistics-api:jar:8.0.0-134:compile
+   \- (javolution:javolution:jar:5.5.1:compile - omitted for duplicate)

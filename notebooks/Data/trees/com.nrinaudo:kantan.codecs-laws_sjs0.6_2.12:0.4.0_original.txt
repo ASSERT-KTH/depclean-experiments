@@ -1,0 +1,32 @@
+com.nrinaudo:kantan.codecs-laws_sjs0.6_2.12:jar:0.4.0
++- org.scala-lang:scala-library:jar:2.12.4:compile
++- com.nrinaudo:kantan.codecs_sjs0.6_2.12:jar:0.4.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  +- (org.scala-js:scalajs-library_2.12:jar:0.6.22:compile - omitted for duplicate)
+|  \- org.spire-math:imp_sjs0.6_2.12:jar:0.3.0:compile
+|     +- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.4)
+|     \- (org.scala-js:scalajs-library_2.12:jar:0.6.13:compile - omitted for conflict with 0.6.22)
++- org.scala-js:scalajs-library_2.12:jar:0.6.22:compile
+|  \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
++- org.scala-js:scalajs-test-interface_2.12:jar:0.6.22:test (scope not updated to compile)
+|  +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for duplicate)
+|  \- (org.scala-js:scalajs-library_2.12:jar:0.6.22:test - omitted for duplicate)
++- org.scala-lang:scala-reflect:jar:2.12.4:provided (scope not updated to compile)
+|  \- (org.scala-lang:scala-library:jar:2.12.4:provided - omitted for duplicate)
++- org.scalacheck:scalacheck_sjs0.6_2.12:jar:1.13.5:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.4)
+|  +- (org.scala-js:scalajs-library_2.12:jar:0.6.13:compile - omitted for conflict with 0.6.22)
+|  \- (org.scala-js:scalajs-test-interface_2.12:jar:0.6.13:compile - omitted for conflict with 0.6.22)
++- org.scalatest:scalatest_sjs0.6_2.12:jar:3.0.5:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  +- org.scalactic:scalactic_sjs0.6_2.12:jar:3.0.5:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  |  +- (org.scala-js:scalajs-library_2.12:jar:0.6.22:compile - omitted for duplicate)
+|  |  \- (org.scala-lang:scala-reflect:jar:2.12.4:compile - omitted for duplicate)
+|  +- (org.scala-js:scalajs-library_2.12:jar:0.6.22:compile - omitted for duplicate)
+|  +- (org.scala-js:scalajs-test-interface_2.12:jar:0.6.22:compile - omitted for duplicate)
+|  \- (org.scala-lang:scala-reflect:jar:2.12.4:compile - omitted for duplicate)
+\- org.typelevel:discipline_sjs0.6_2.12:jar:0.8:compile
+   +- (org.scala-lang:scala-library:jar:2.12.2:compile - omitted for conflict with 2.12.4)
+   +- (org.scala-js:scalajs-library_2.12:jar:0.6.17:compile - omitted for conflict with 0.6.22)
+   \- (org.scalacheck:scalacheck_sjs0.6_2.12:jar:1.13.5:compile - omitted for duplicate)

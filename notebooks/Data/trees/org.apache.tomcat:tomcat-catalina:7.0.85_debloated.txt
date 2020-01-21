@@ -1,0 +1,9 @@
+org.apache.tomcat:tomcat-catalina:jar:7.0.85
++- org.apache.tomcat:tomcat-servlet-api:jar:7.0.85:compile
++- org.apache.tomcat:tomcat-juli:jar:7.0.85:compile
++- org.apache.tomcat:tomcat-annotations-api:jar:7.0.85:compile
++- org.apache.tomcat:tomcat-api:jar:7.0.85:compile
+|  \- (org.apache.tomcat:tomcat-servlet-api:jar:7.0.85:compile - omitted for duplicate)
+\- org.apache.tomcat:tomcat-util:jar:7.0.85:compile
+   +- (org.apache.tomcat:tomcat-juli:jar:7.0.85:compile - omitted for duplicate)
+   \- (org.apache.tomcat:tomcat-api:jar:7.0.85:compile - omitted for duplicate)

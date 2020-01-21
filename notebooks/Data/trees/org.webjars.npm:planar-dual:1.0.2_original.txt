@@ -1,0 +1,16 @@
+org.webjars.npm:planar-dual:jar:1.0.2
++- org.webjars.npm:compare-angle:jar:1.0.1:compile
+|  +- org.webjars.npm:two-sum:jar:1.0.0:compile
+|  +- org.webjars.npm:robust-orientation:jar:1.1.3:compile
+|  |  +- org.webjars.npm:robust-scale:jar:1.0.2:compile
+|  |  |  +- (org.webjars.npm:two-product:jar:1.0.2:compile - omitted for duplicate)
+|  |  |  \- (org.webjars.npm:two-sum:jar:1.0.0:compile - omitted for duplicate)
+|  |  +- (org.webjars.npm:robust-sum:jar:1.0.0:compile - omitted for duplicate)
+|  |  +- org.webjars.npm:two-product:jar:1.0.2:compile
+|  |  \- org.webjars.npm:robust-subtract:jar:1.0.0:compile
+|  +- org.webjars.npm:robust-product:jar:1.0.0:compile
+|  |  +- (org.webjars.npm:robust-scale:jar:1.0.2:compile - omitted for duplicate)
+|  |  \- (org.webjars.npm:robust-sum:jar:1.0.0:compile - omitted for duplicate)
+|  +- org.webjars.npm:signum:jar:0.0.0:compile
+|  \- org.webjars.npm:robust-sum:jar:1.0.0:compile
+\- org.webjars.npm:dup:jar:1.0.0:compile

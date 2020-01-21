@@ -1,0 +1,38 @@
+org.apache.jackrabbit.vault:vault-davex:jar:3.1.44
++- org.apache.jackrabbit.vault:org.apache.jackrabbit.vault:jar:3.1.44:compile
++- org.apache.jackrabbit:jackrabbit-jcr-commons:jar:2.16.1:compile
++- org.apache.jackrabbit:jackrabbit-jcr-client:jar:2.16.1:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.6:provided - version managed from 1.7.4; scope managed from compile; omitted for duplicate)
++- org.apache.jackrabbit:jackrabbit-spi-commons:jar:2.16.1:compile
+|  +- org.apache.jackrabbit:jackrabbit-spi:jar:2.16.1:compile
+|  +- (org.apache.jackrabbit:jackrabbit-jcr-commons:jar:2.16.1:compile - omitted for duplicate)
+|  +- commons-collections:commons-collections:jar:3.2.2:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.6:provided - version managed from 1.6.6; scope managed from compile; omitted for duplicate)
++- org.apache.jackrabbit:jackrabbit-jcr2spi:jar:2.16.1:compile
+|  +- org.apache.jackrabbit:jackrabbit-api:jar:2.16.1:compile
+|  +- (org.apache.jackrabbit:jackrabbit-spi:jar:2.16.1:compile - omitted for duplicate)
+|  +- (org.apache.jackrabbit:jackrabbit-spi-commons:jar:2.16.1:compile - omitted for duplicate)
+|  +- (org.apache.jackrabbit:jackrabbit-jcr-commons:jar:2.16.1:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.6:provided - version managed from 1.6.6; scope managed from compile; omitted for duplicate)
+|  +- (commons-collections:commons-collections:jar:3.2.2:compile - omitted for duplicate)
+|  \- (commons-io:commons-io:jar:2.5:compile - version managed from 2.6; omitted for conflict with 2.4)
++- org.apache.jackrabbit:jackrabbit-spi2dav:jar:2.16.1:compile
+|  +- (org.apache.jackrabbit:jackrabbit-spi:jar:2.16.1:compile - omitted for duplicate)
+|  +- (org.apache.jackrabbit:jackrabbit-spi-commons:jar:2.16.1:compile - omitted for duplicate)
+|  +- (org.apache.jackrabbit:jackrabbit-jcr-commons:jar:2.16.1:compile - omitted for duplicate)
+|  +- (org.apache.jackrabbit:jackrabbit-webdav:jar:2.16.1:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.6:provided - version managed from 1.6.6; scope managed from compile; omitted for duplicate)
+|  \- org.apache.httpcomponents:httpmime:jar:4.5.3:compile (version managed from 4.5.4)
+|     \- (org.apache.httpcomponents:httpclient:jar:4.5.3:compile - version managed from 4.5.5; omitted for duplicate)
++- org.apache.jackrabbit:jackrabbit-webdav:jar:2.16.1:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.6:provided - version managed from 1.6.6; scope managed from compile; omitted for duplicate)
+|  +- commons-codec:commons-codec:jar:1.10:compile (version managed from 1.9)
+|  +- org.apache.httpcomponents:httpclient:jar:4.5.3:compile (version managed from 4.5.5)
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.4.6:compile
+|  |  +- commons-logging:commons-logging:jar:1.0.3:compile (version managed from 1.2)
+|  |  \- (commons-codec:commons-codec:jar:1.10:compile - version managed from 1.9; omitted for duplicate)
+|  \- org.slf4j:jcl-over-slf4j:jar:1.7.4:compile
+|     \- (org.slf4j:slf4j-api:jar:1.7.6:provided - version managed from 1.7.4; scope managed from compile; omitted for duplicate)
++- commons-io:commons-io:jar:2.4:compile
++- javax.jcr:jcr:jar:2.0:provided
+\- org.slf4j:slf4j-api:jar:1.7.6:provided

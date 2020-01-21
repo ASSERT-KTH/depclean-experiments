@@ -1,0 +1,2 @@
+org.webjars.npm:uportal__open-id-connect:jar:1.11.0
+\- org.webjars.npm:jwt-decode:jar:2.2.0:compile

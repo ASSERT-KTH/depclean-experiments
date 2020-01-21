@@ -1,0 +1,55 @@
+org.coodex:concrete-accounts-tenant-impl:jar:0.2.1
++- org.coodex:concrete-accounts-tenant-api:jar:0.2.1:compile
+|  \- org.coodex:concrete-accounts-common:jar:0.2.1:compile
+|     \- org.coodex:concrete-api:jar:0.2.1:compile
+|        +- (org.coodex:coodex-utilities:jar:0.2.1:compile - omitted for duplicate)
+|        \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
++- org.coodex:concrete-accounts-tenant-data:jar:0.2.1:compile
+|  +- (org.coodex:concrete-commons-spring-data:jar:0.2.1:compile - omitted for duplicate)
+|  +- org.springframework.data:spring-data-jpa:jar:1.11.6.RELEASE:compile
+|  |  +- org.springframework.data:spring-data-commons:jar:1.13.6.RELEASE:compile
+|  |  |  +- (org.springframework:spring-core:jar:4.3.10.RELEASE:compile - omitted for duplicate)
+|  |  |  +- (org.springframework:spring-beans:jar:4.3.10.RELEASE:compile - omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  |  |  \- (org.slf4j:jcl-over-slf4j:jar:1.7.25:runtime - omitted for duplicate)
+|  |  +- org.springframework:spring-orm:jar:4.3.10.RELEASE:compile
+|  |  |  +- (org.springframework:spring-beans:jar:4.3.10.RELEASE:compile - omitted for duplicate)
+|  |  |  +- (org.springframework:spring-core:jar:4.3.10.RELEASE:compile - omitted for duplicate)
+|  |  |  +- org.springframework:spring-jdbc:jar:4.3.10.RELEASE:compile
+|  |  |  |  +- (org.springframework:spring-beans:jar:4.3.10.RELEASE:compile - omitted for duplicate)
+|  |  |  |  +- (org.springframework:spring-core:jar:4.3.10.RELEASE:compile - omitted for duplicate)
+|  |  |  |  \- (org.springframework:spring-tx:jar:4.3.10.RELEASE:compile - omitted for duplicate)
+|  |  |  \- (org.springframework:spring-tx:jar:4.3.10.RELEASE:compile - omitted for duplicate)
+|  |  +- org.springframework:spring-context:jar:4.3.10.RELEASE:compile
+|  |  |  +- (org.springframework:spring-aop:jar:4.3.10.RELEASE:compile - omitted for duplicate)
+|  |  |  +- (org.springframework:spring-beans:jar:4.3.10.RELEASE:compile - omitted for duplicate)
+|  |  |  +- (org.springframework:spring-core:jar:4.3.10.RELEASE:compile - omitted for duplicate)
+|  |  |  \- org.springframework:spring-expression:jar:4.3.10.RELEASE:compile
+|  |  |     \- (org.springframework:spring-core:jar:4.3.10.RELEASE:compile - omitted for duplicate)
+|  |  +- org.springframework:spring-aop:jar:4.3.10.RELEASE:compile
+|  |  |  +- (org.springframework:spring-beans:jar:4.3.10.RELEASE:compile - omitted for duplicate)
+|  |  |  \- (org.springframework:spring-core:jar:4.3.10.RELEASE:compile - omitted for duplicate)
+|  |  +- org.springframework:spring-tx:jar:4.3.10.RELEASE:compile
+|  |  |  +- (org.springframework:spring-beans:jar:4.3.10.RELEASE:compile - omitted for duplicate)
+|  |  |  \- (org.springframework:spring-core:jar:4.3.10.RELEASE:compile - omitted for duplicate)
+|  |  +- org.springframework:spring-beans:jar:4.3.10.RELEASE:compile
+|  |  |  \- (org.springframework:spring-core:jar:4.3.10.RELEASE:compile - omitted for duplicate)
+|  |  +- org.springframework:spring-core:jar:4.3.10.RELEASE:compile
+|  |  +- org.aspectj:aspectjrt:jar:1.8.10:compile
+|  |  +- org.slf4j:slf4j-api:jar:1.7.25:compile
+|  |  \- org.slf4j:jcl-over-slf4j:jar:1.7.25:runtime
+|  |     \- (org.slf4j:slf4j-api:jar:1.7.25:runtime - omitted for duplicate)
+|  +- (org.coodex:concrete-accounts-tenant-api:jar:0.2.1:compile - omitted for duplicate)
+|  \- org.coodex:concrete-accounts-common-tools:jar:0.2.1:compile
+|     +- (org.coodex:concrete-core:jar:0.2.1:compile - omitted for duplicate)
+|     \- (org.coodex:concrete-accounts-common:jar:0.2.1:compile - omitted for duplicate)
++- org.coodex:concrete-commons-spring-data:jar:0.2.1:compile
+|  +- org.coodex:coodex-utilities:jar:0.2.1:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  \- org.coodex:concrete-core:jar:0.2.1:compile
+|     +- (org.coodex:concrete-api:jar:0.2.1:compile - omitted for duplicate)
+|     +- aopalliance:aopalliance:jar:1.0:compile
+|     \- commons-codec:commons-codec:jar:1.10:compile
+\- javax:javaee-api:jar:7.0:provided
+   \- com.sun.mail:javax.mail:jar:1.5.6:provided (version managed from 1.5.0)
+      \- javax.activation:activation:jar:1.1:provided

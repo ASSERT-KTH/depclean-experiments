@@ -1,0 +1,7 @@
+com.google.api.grpc:proto-google-cloud-dlp-v2beta2:jar:0.6.0
++- com.google.protobuf:protobuf-java:jar:3.4.0:compile
++- com.google.api:api-common:jar:1.4.0:compile
+|  +- com.google.code.findbugs:jsr305:jar:3.0.0:compile
+|  \- com.google.guava:guava:jar:19.0:compile
+\- com.google.api.grpc:proto-google-common-protos:jar:1.5.0:compile
+   \- (com.google.protobuf:protobuf-java:jar:3.4.0:compile - omitted for duplicate)

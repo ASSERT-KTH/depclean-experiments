@@ -1,0 +1,28 @@
+net.ymate.platform:ymate-platform-webmvc:jar:2.0.5
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- javax.servlet:servlet-api:jar:2.5:provided
++- javax.servlet.jsp:jsp-api:jar:2.2:provided
++- commons-fileupload:commons-fileupload:jar:1.3.3:compile
++- org.freemarker:freemarker:jar:2.3.28:provided
++- org.apache.velocity:velocity:jar:1.7:provided
+|  \- commons-collections:commons-collections:jar:3.2.1:provided
++- com.ibeetl:beetl:jar:2.7.28:provided
+|  \- org.antlr:antlr4-runtime:jar:4.2:provided
+|     +- org.abego.treelayout:org.abego.treelayout.core:jar:1.0.1:provided
+|     \- org.antlr:antlr4-annotations:jar:4.2:provided
++- net.ymate.platform:ymate-platform-validation:jar:2.0.5:compile
+|  \- net.ymate.platform:ymate-platform-core:jar:2.0.5:compile
+|     +- commons-logging:commons-logging:jar:1.2:compile
+|     +- commons-lang:commons-lang:jar:2.6:compile
+|     +- commons-io:commons-io:jar:2.5:compile
+|     +- commons-codec:commons-codec:jar:1.11:compile
+|     +- com.thoughtworks.paranamer:paranamer:jar:2.8:compile
+|     +- cglib:cglib:jar:3.2.6:compile
+|     |  +- org.ow2.asm:asm:jar:6.0:compile
+|     |  \- org.apache.ant:ant:jar:1.9.6:compile
+|     |     \- org.apache.ant:ant-launcher:jar:1.9.6:compile
+|     \- com.alibaba:fastjson:jar:1.2.47:compile
+\- net.ymate.platform:ymate-platform-cache:jar:2.0.5:compile
+   +- (net.ymate.platform:ymate-platform-core:jar:2.0.5:compile - omitted for duplicate)
+   \- net.sf.ehcache:ehcache-core:jar:2.6.11:compile

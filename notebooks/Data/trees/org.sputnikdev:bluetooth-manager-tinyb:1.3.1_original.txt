@@ -1,0 +1,14 @@
+org.sputnikdev:bluetooth-manager-tinyb:jar:1.3.1
++- org.sputnikdev:bluetooth-manager:jar:1.5.1:compile
+|  +- org.sputnikdev:bluetooth-utils:jar:1.12:compile
+|  +- com.google.guava:guava:jar:18.0:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
++- commons-io:commons-io:jar:2.4:compile
++- org.slf4j:slf4j-api:jar:1.7.21:compile
++- junit:junit:jar:4.8.2:test
++- org.slf4j:slf4j-simple:jar:1.7.21:test
+|  \- (org.slf4j:slf4j-api:jar:1.7.21:test - omitted for duplicate)
++- org.mockito:mockito-all:jar:1.10.19:test
++- org.powermock:powermock-module-junit4:jar:1.7.3:test
+|  \- (junit:junit:jar:4.12:test - omitted for conflict with 4.8.2)
+\- org.powermock:powermock-api-mockito:jar:1.7.3:test

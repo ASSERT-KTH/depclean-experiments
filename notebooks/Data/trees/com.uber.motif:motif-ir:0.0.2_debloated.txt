@@ -1,0 +1,14 @@
+com.uber.motif:motif-ir:jar:0.0.2
++- org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.50:compile
+|  +- org.jetbrains.kotlin:kotlin-stdlib-common:jar:1.2.50:compile
+|  \- org.jetbrains:annotations:jar:13.0:compile
+\- de.vandermeer:asciitable:jar:0.3.2:compile
+   +- de.vandermeer:ascii-utf-themes:jar:0.0.1:compile
+   |  \- de.vandermeer:skb-interfaces:jar:0.0.1:compile
+   |     +- org.apache.commons:commons-lang3:jar:3.4:compile
+   |     +- org.antlr:ST4:jar:4.0.8:compile
+   |     |  \- org.antlr:antlr-runtime:jar:3.5.2:compile
+   |     +- org.antlr:antlr4:jar:4.5.1:compile
+   |     \- org.slf4j:slf4j-api:jar:1.7.12:compile
+   \- de.vandermeer:char-translation:jar:0.0.2:compile
+      \- (de.vandermeer:skb-interfaces:jar:0.0.1:compile - omitted for duplicate)

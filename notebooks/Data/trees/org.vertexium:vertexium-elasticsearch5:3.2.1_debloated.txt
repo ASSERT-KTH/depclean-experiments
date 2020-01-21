@@ -1,0 +1,111 @@
+org.vertexium:vertexium-elasticsearch5:jar:3.2.1
++- org.vertexium:vertexium-core:jar:3.2.1:compile
+|  +- org.slf4j:slf4j-api:jar:1.7.5:compile
+|  +- com.google.guava:guava:jar:18.0:compile
+|  +- org.cache2k:cache2k-api:jar:0.21.1:compile
+|  +- org.cache2k:cache2k-core:jar:0.21.1:compile
+|  |  +- (org.cache2k:cache2k-api:jar:0.21.1:compile - omitted for duplicate)
+|  |  \- org.cache2k:cache2k-jmx-api:jar:0.21.1:compile
+|  |     \- (org.cache2k:cache2k-api:jar:0.21.1:compile - omitted for duplicate)
+|  \- org.apache.commons:commons-lang3:jar:3.1:compile
++- org.elasticsearch:elasticsearch:jar:5.5.3:compile
+|  +- org.apache.lucene:lucene-core:jar:6.6.0:compile
+|  +- org.apache.lucene:lucene-analyzers-common:jar:6.6.0:compile
+|  +- org.apache.lucene:lucene-backward-codecs:jar:6.6.0:compile
+|  +- org.apache.lucene:lucene-grouping:jar:6.6.0:compile
+|  +- org.apache.lucene:lucene-highlighter:jar:6.6.0:compile
+|  +- org.apache.lucene:lucene-join:jar:6.6.0:compile
+|  +- org.apache.lucene:lucene-memory:jar:6.6.0:compile
+|  +- org.apache.lucene:lucene-misc:jar:6.6.0:compile
+|  +- org.apache.lucene:lucene-queries:jar:6.6.0:compile
+|  +- org.apache.lucene:lucene-queryparser:jar:6.6.0:compile
+|  +- org.apache.lucene:lucene-sandbox:jar:6.6.0:compile
+|  +- org.apache.lucene:lucene-spatial:jar:6.6.0:compile
+|  +- org.apache.lucene:lucene-spatial-extras:jar:6.6.0:compile
+|  +- org.apache.lucene:lucene-spatial3d:jar:6.6.0:compile
+|  +- org.apache.lucene:lucene-suggest:jar:6.6.0:compile
+|  +- org.elasticsearch:securesm:jar:1.1:compile
+|  +- net.sf.jopt-simple:jopt-simple:jar:5.0.2:compile
+|  +- com.carrotsearch:hppc:jar:0.7.1:compile
+|  +- joda-time:joda-time:jar:2.9.5:compile
+|  +- org.yaml:snakeyaml:jar:1.15:compile
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.8.6:compile
+|  +- com.fasterxml.jackson.dataformat:jackson-dataformat-smile:jar:2.8.6:compile
+|  +- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.8.6:compile
+|  +- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.8.6:compile
+|  +- com.tdunning:t-digest:jar:3.0:compile
+|  +- org.hdrhistogram:HdrHistogram:jar:2.1.9:compile
+|  +- (org.apache.logging.log4j:log4j-api:jar:2.8.2:compile - omitted for conflict with 2.9.0)
+|  \- org.elasticsearch:jna:jar:4.4.0:compile
++- org.elasticsearch.client:transport:jar:5.5.3:compile
+|  +- (org.elasticsearch:elasticsearch:jar:5.5.3:compile - omitted for duplicate)
+|  +- org.elasticsearch.plugin:transport-netty3-client:jar:5.5.3:compile
+|  |  \- io.netty:netty:jar:3.10.6.Final:compile
+|  +- org.elasticsearch.plugin:transport-netty4-client:jar:5.5.3:compile
+|  |  +- io.netty:netty-buffer:jar:4.1.11.Final:compile
+|  |  +- io.netty:netty-codec:jar:4.1.11.Final:compile
+|  |  +- io.netty:netty-codec-http:jar:4.1.11.Final:compile
+|  |  +- io.netty:netty-common:jar:4.1.11.Final:compile
+|  |  +- io.netty:netty-handler:jar:4.1.11.Final:compile
+|  |  +- io.netty:netty-resolver:jar:4.1.11.Final:compile
+|  |  \- io.netty:netty-transport:jar:4.1.11.Final:compile
+|  +- org.elasticsearch.plugin:reindex-client:jar:5.5.3:compile
+|  |  \- org.elasticsearch.client:rest:jar:5.5.3:compile
+|  |     +- org.apache.httpcomponents:httpclient:jar:4.5.2:compile
+|  |     +- org.apache.httpcomponents:httpcore:jar:4.4.5:compile
+|  |     +- org.apache.httpcomponents:httpasyncclient:jar:4.1.2:compile
+|  |     +- org.apache.httpcomponents:httpcore-nio:jar:4.4.5:compile
+|  |     +- commons-codec:commons-codec:jar:1.8:compile (version managed from 1.10)
+|  |     \- commons-logging:commons-logging:jar:1.1.3:compile
+|  +- org.elasticsearch.plugin:lang-mustache-client:jar:5.5.3:compile
+|  |  \- com.github.spullara.mustache.java:compiler:jar:0.9.3:compile
+|  +- org.elasticsearch.plugin:percolator-client:jar:5.5.3:compile
+|  \- org.elasticsearch.plugin:parent-join-client:jar:5.5.3:compile
++- com.vividsolutions:jts:jar:1.13:compile
++- net.jodah:recurrent:jar:0.3.2:compile
++- org.vertexium:vertexium-elasticsearch5-plugin:jar:3.2.1:test
+|  +- org.vertexium:vertexium-security:jar:3.2.1:test
+|  \- (org.elasticsearch:elasticsearch:jar:5.5.3:test - omitted for duplicate)
++- org.codelibs:elasticsearch-cluster-runner:jar:5.5.3.0:test
+|  +- (org.elasticsearch:elasticsearch:jar:5.5.3:test - omitted for duplicate)
+|  +- org.codelibs.elasticsearch.module:aggs-matrix-stats:jar:5.5.3:test
+|  +- org.codelibs.elasticsearch.module:ingest-common:jar:5.5.3:test
+|  |  +- org.jruby.jcodings:jcodings:jar:1.0.12:test
+|  |  \- org.jruby.joni:joni:jar:2.1.6:test
+|  |     \- (org.jruby.jcodings:jcodings:jar:1.0.12:test - omitted for duplicate)
+|  +- org.codelibs.elasticsearch.module:lang-expression:jar:5.5.3:test
+|  |  +- org.antlr:antlr4-runtime:jar:4.5.1-1:test
+|  |  \- org.apache.lucene:lucene-expressions:jar:6.6.0:test
+|  |     +- (org.apache.lucene:lucene-core:jar:6.6.0:test - omitted for duplicate)
+|  |     \- (org.antlr:antlr4-runtime:jar:4.5.1-1:test - omitted for duplicate)
+|  +- org.codelibs.elasticsearch.module:lang-groovy:jar:5.5.3:test
+|  |  \- org.codehaus.groovy:groovy:jar:indy:2.4.6:test
+|  +- org.codelibs.elasticsearch.module:lang-painless:jar:5.5.3:test
+|  |  +- (org.antlr:antlr4-runtime:jar:4.5.1-1:test - omitted for duplicate)
+|  |  \- org.ow2.asm:asm-debug-all:jar:5.1:test
+|  +- args4j:args4j:jar:2.33:test
+|  +- (org.apache.logging.log4j:log4j-api:jar:2.8.2:test - omitted for duplicate)
+|  +- (org.apache.logging.log4j:log4j-core:jar:2.8.2:test - omitted for conflict with 2.9.0)
+|  \- (org.slf4j:slf4j-api:jar:1.7.5:test - version managed from 1.7.25; omitted for duplicate)
++- org.slf4j:slf4j-log4j12:jar:1.7.5:test (scope not updated to runtime)
+|  +- (org.slf4j:slf4j-api:jar:1.7.5:test - version managed from 1.7.25; omitted for duplicate)
+|  \- log4j:log4j:jar:1.2.17:runtime (scope managed from test)
++- org.apache.logging.log4j:log4j-api:jar:2.9.0:test (scope not updated to compile)
++- org.apache.logging.log4j:log4j-core:jar:2.9.0:test
+|  \- (org.apache.logging.log4j:log4j-api:jar:2.9.0:test - omitted for duplicate)
++- net.lingala.zip4j:zip4j:jar:1.3.2:test
++- commons-io:commons-io:jar:2.4:test
++- org.json:json:jar:20140107:test
++- org.vertexium:vertexium-test:jar:3.2.1:test
+|  +- (org.vertexium:vertexium-core:jar:3.2.1:test - omitted for duplicate)
+|  +- junit:junit:jar:4.11:test
+|  |  \- org.hamcrest:hamcrest-core:jar:1.3:test
+|  +- (commons-io:commons-io:jar:2.4:test - omitted for duplicate)
+|  +- (org.slf4j:slf4j-log4j12:jar:1.7.5:runtime - scope managed from test; omitted for duplicate)
+|  \- (log4j:log4j:jar:1.2.17:runtime - scope managed from test; omitted for duplicate)
+\- org.vertexium:vertexium-inmemory:jar:3.2.1:test
+   +- (org.vertexium:vertexium-core:jar:3.2.1:test - omitted for duplicate)
+   +- (org.vertexium:vertexium-security:jar:3.2.1:test - omitted for duplicate)
+   +- (com.google.guava:guava:jar:18.0:test - version managed from 13.0.1; omitted for duplicate)
+   +- (org.cache2k:cache2k-api:jar:0.21.1:test - omitted for duplicate)
+   \- (org.cache2k:cache2k-core:jar:0.21.1:test - omitted for duplicate)

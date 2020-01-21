@@ -1,0 +1,32 @@
+org.specs2:specs2-markdown_2.13.0-M4:jar:4.3.0
++- org.scala-lang:scala-library:jar:2.13.0-M4:compile
++- org.specs2:specs2-common_2.13.0-M4:jar:4.3.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.13.0-M4:compile - omitted for duplicate)
+|  +- org.specs2:specs2-fp_2.13.0-M4:jar:4.3.0:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.13.0-M4:compile - omitted for duplicate)
+|  +- org.scala-lang:scala-reflect:jar:2.13.0-M4:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.13.0-M4:compile - omitted for duplicate)
+|  +- org.scala-lang.modules:scala-parser-combinators_2.13.0-M4:jar:1.1.1:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.13.0-M4:compile - omitted for duplicate)
+|  \- org.scala-lang.modules:scala-xml_2.13.0-M4:jar:1.1.0:compile
+|     \- (org.scala-lang:scala-library:jar:2.13.0-M4:compile - omitted for duplicate)
++- org.specs2:specs2-core_2.13.0-M4:jar:4.3.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.13.0-M4:compile - omitted for duplicate)
+|  +- org.specs2:specs2-matcher_2.13.0-M4:jar:4.3.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.13.0-M4:compile - omitted for duplicate)
+|  |  \- (org.specs2:specs2-common_2.13.0-M4:jar:4.3.0:compile - omitted for duplicate)
+|  \- (org.scala-sbt:test-interface:jar:1.0:compile - omitted for duplicate)
++- org.pegdown:pegdown:jar:1.6.0:compile
+|  \- org.parboiled:parboiled-java:jar:1.1.7:compile
+|     +- org.parboiled:parboiled-core:jar:1.1.7:compile
+|     +- org.ow2.asm:asm:jar:5.0.3:compile
+|     +- org.ow2.asm:asm-tree:jar:5.0.3:compile
+|     |  \- (org.ow2.asm:asm:jar:5.0.3:compile - omitted for duplicate)
+|     +- org.ow2.asm:asm-analysis:jar:5.0.3:compile
+|     |  \- (org.ow2.asm:asm-tree:jar:5.0.3:compile - omitted for duplicate)
+|     \- org.ow2.asm:asm-util:jar:5.0.3:compile
+|        \- (org.ow2.asm:asm-tree:jar:5.0.3:compile - omitted for duplicate)
++- org.scala-sbt:test-interface:jar:1.0:compile
+\- org.scala-js:scalajs-stubs_2.13.0-M4:jar:0.6.23:provided
+   +- (org.scala-lang:scala-library:jar:2.13.0-M4:provided - omitted for duplicate)
+   \- (org.scala-lang:scala-reflect:jar:2.13.0-M4:provided - omitted for duplicate)

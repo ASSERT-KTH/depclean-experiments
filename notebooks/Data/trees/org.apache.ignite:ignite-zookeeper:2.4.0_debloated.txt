@@ -1,0 +1,20 @@
+org.apache.ignite:ignite-zookeeper:jar:2.4.0
++- org.apache.ignite:ignite-core:jar:2.4.0:compile
+|  +- javax.cache:cache-api:jar:1.0.0:compile
+|  +- org.jetbrains:annotations:jar:13.0:compile
+|  \- org.gridgain:ignite-shmem:jar:1.0.0:compile
++- org.apache.curator:curator-framework:jar:2.9.1:compile
+|  \- (org.apache.curator:curator-client:jar:2.9.1:compile - omitted for duplicate)
++- org.apache.curator:curator-x-discovery:jar:2.9.1:compile
+|  +- org.apache.curator:curator-recipes:jar:2.9.1:compile
+|  |  \- (org.apache.curator:curator-framework:jar:2.9.1:compile - omitted for duplicate)
+|  \- (org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:compile - omitted for duplicate)
++- org.apache.curator:curator-client:jar:2.9.1:compile
+|  +- (org.apache.zookeeper:zookeeper:jar:3.4.6:compile - omitted for duplicate)
+|  +- (com.google.guava:guava:jar:16.0.1:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.6:compile - omitted for conflict with 1.7.7)
++- com.google.guava:guava:jar:16.0.1:compile
++- org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:compile
+|  \- (org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile - omitted for duplicate)
++- org.slf4j:slf4j-api:jar:1.7.7:compile
+\- log4j:log4j:jar:1.2.17:compile

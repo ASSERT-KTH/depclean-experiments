@@ -1,0 +1,14 @@
+org.spire-math:jawn-util_2.10:jar:0.11.1
++- org.scala-lang:scala-library:jar:2.10.6:compile
++- org.spire-math:jawn-parser_2.10:jar:0.11.1:compile
+|  \- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for duplicate)
++- org.scalatest:scalatest_2.10:jar:3.0.3:test
+|  +- (org.scala-lang:scala-library:jar:2.10.6:test - omitted for duplicate)
+|  +- org.scalactic:scalactic_2.10:jar:3.0.3:test
+|  |  +- (org.scala-lang:scala-library:jar:2.10.6:test - omitted for duplicate)
+|  |  \- (org.scala-lang:scala-reflect:jar:2.10.6:test - omitted for duplicate)
+|  \- org.scala-lang:scala-reflect:jar:2.10.6:test
+|     \- (org.scala-lang:scala-library:jar:2.10.6:test - omitted for duplicate)
+\- org.scalacheck:scalacheck_2.10:jar:1.13.5:test
+   +- (org.scala-lang:scala-library:jar:2.10.6:test - omitted for duplicate)
+   \- org.scala-sbt:test-interface:jar:1.0:test

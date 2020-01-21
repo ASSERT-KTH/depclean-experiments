@@ -1,0 +1,24 @@
+uy.kohesive.klutter:klutter-reflect:jar:2.3.1
++- org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.21:compile
+|  \- org.jetbrains:annotations:jar:13.0:compile
++- org.jetbrains.kotlin:kotlin-stdlib-jre8:jar:1.2.21:compile
+|  +- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.21:compile - omitted for duplicate)
+|  \- org.jetbrains.kotlin:kotlin-stdlib-jre7:jar:1.2.21:compile
+|     \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.21:compile - omitted for duplicate)
++- uy.kohesive.klutter:klutter-core:jar:2.3.1:compile
+|  +- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.21:compile - omitted for duplicate)
+|  +- (org.jetbrains.kotlin:kotlin-stdlib-jre8:jar:1.2.21:compile - omitted for duplicate)
+|  \- (org.jetbrains.kotlin:kotlin-stdlib-jdk8:jar:1.2.21:compile - omitted for duplicate)
++- org.jetbrains.kotlin:kotlin-reflect:jar:1.2.21:compile
+|  \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.21:compile - omitted for duplicate)
++- org.jetbrains.kotlin:kotlin-stdlib-jdk8:jar:1.2.21:compile
+|  +- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.21:compile - omitted for duplicate)
+|  \- org.jetbrains.kotlin:kotlin-stdlib-jdk7:jar:1.2.21:compile
+|     \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.21:compile - omitted for duplicate)
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.jetbrains.kotlin:kotlin-test:jar:1.2.21:test
+|  \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.21:test - omitted for duplicate)
+\- org.jetbrains.kotlin:kotlin-test-junit:jar:1.2.21:test
+   +- (org.jetbrains.kotlin:kotlin-test:jar:1.2.21:test - omitted for duplicate)
+   \- (junit:junit:jar:4.12:test - omitted for duplicate)

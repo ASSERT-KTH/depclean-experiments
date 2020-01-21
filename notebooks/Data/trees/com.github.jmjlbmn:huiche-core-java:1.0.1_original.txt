@@ -1,0 +1,4 @@
+com.github.jmjlbmn:huiche-core-java:jar:1.0.1
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- org.projectlombok:lombok:jar:1.16.20:compile
+\- com.google.code.findbugs:jsr305:jar:3.0.2:compile

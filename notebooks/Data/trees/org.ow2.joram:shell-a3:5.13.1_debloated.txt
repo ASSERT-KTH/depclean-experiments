@@ -1,0 +1,9 @@
+org.ow2.joram:shell-a3:bundle:5.13.1
++- org.osgi:org.osgi.core:jar:6.0.0:compile
++- org.ow2.joram:a3-rt:jar:5.13.1:compile
+|  \- org.ow2.joram:a3-common:jar:5.13.1:compile
+|     +- (org.ow2.jonas.osgi:monolog:jar:5.2.0:compile - omitted for duplicate)
+|     \- (org.osgi:org.osgi.core:jar:6.0.0:compile - omitted for duplicate)
++- org.osgi:org.osgi.compendium:jar:5.0.0:provided
+\- org.ow2.jonas.osgi:monolog:jar:5.2.0:provided (scope not updated to compile)
+   \- org.objectweb.monolog:monolog:jar:2.1.12:provided

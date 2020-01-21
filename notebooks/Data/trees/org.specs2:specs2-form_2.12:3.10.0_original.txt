@@ -1,0 +1,51 @@
+org.specs2:specs2-form_2.12:jar:3.10.0
++- org.scala-lang:scala-library:jar:2.12.6:compile
++- org.specs2:specs2-core_2.12:jar:3.10.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
+|  \- org.specs2:specs2-matcher_2.12:jar:3.10.0:compile
+|     +- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
+|     \- (org.specs2:specs2-common_2.12:jar:3.10.0:compile - omitted for duplicate)
++- org.specs2:specs2-markdown_2.12:jar:3.10.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
+|  +- org.specs2:specs2-common_2.12:jar:3.10.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
+|  |  +- org.scalaz:scalaz-core_2.12:jar:7.2.23:compile
+|  |  |  \- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
+|  |  +- org.scalaz:scalaz-effect_2.12:jar:7.2.23:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
+|  |  |  \- (org.scalaz:scalaz-core_2.12:jar:7.2.23:compile - omitted for duplicate)
+|  |  +- org.scala-lang:scala-reflect:jar:2.12.6:compile
+|  |  |  \- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
+|  |  +- org.scala-lang.modules:scala-parser-combinators_2.12:jar:1.1.0:compile
+|  |  |  \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.6)
+|  |  \- org.scala-lang.modules:scala-xml_2.12:jar:1.0.6:compile
+|  |     \- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.6)
+|  +- (org.specs2:specs2-core_2.12:jar:3.10.0:compile - omitted for duplicate)
+|  \- org.pegdown:pegdown:jar:1.6.0:compile
+|     \- org.parboiled:parboiled-java:jar:1.1.7:compile
+|        +- org.parboiled:parboiled-core:jar:1.1.7:compile
+|        +- org.ow2.asm:asm:jar:5.0.3:compile
+|        +- org.ow2.asm:asm-tree:jar:5.0.3:compile
+|        |  \- (org.ow2.asm:asm:jar:5.0.3:compile - omitted for duplicate)
+|        +- org.ow2.asm:asm-analysis:jar:5.0.3:compile
+|        |  \- (org.ow2.asm:asm-tree:jar:5.0.3:compile - omitted for duplicate)
+|        \- org.ow2.asm:asm-util:jar:5.0.3:compile
+|           \- (org.ow2.asm:asm-tree:jar:5.0.3:compile - omitted for duplicate)
++- org.specs2:specs2-matcher-extra_2.12:jar:3.10.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
+|  +- org.specs2:specs2-analysis_2.12:jar:3.10.0:compile
+|  |  +- org.scala-lang:scala-compiler:jar:2.12.6:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
+|  |  |  +- (org.scala-lang:scala-reflect:jar:2.12.6:compile - omitted for duplicate)
+|  |  |  \- (org.scala-lang.modules:scala-xml_2.12:jar:1.0.6:compile - omitted for duplicate)
+|  |  +- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
+|  |  +- (org.specs2:specs2-core_2.12:jar:3.10.0:compile - omitted for duplicate)
+|  |  +- (org.specs2:specs2-matcher_2.12:jar:3.10.0:compile - omitted for duplicate)
+|  |  \- org.specs2:classycle:jar:1.4.3:compile
+|  \- (org.specs2:specs2-matcher_2.12:jar:3.10.0:compile - omitted for duplicate)
+\- org.specs2:specs2-scalacheck_2.12:jar:3.10.0:test
+   +- (org.scala-lang:scala-library:jar:2.12.6:test - omitted for duplicate)
+   +- (org.specs2:specs2-core_2.12:jar:3.10.0:test - omitted for duplicate)
+   \- org.scalacheck:scalacheck_2.12:jar:1.14.0:test
+      +- (org.scala-lang:scala-library:jar:2.12.5:test - omitted for conflict with 2.12.6)
+      \- org.scala-sbt:test-interface:jar:1.0:test

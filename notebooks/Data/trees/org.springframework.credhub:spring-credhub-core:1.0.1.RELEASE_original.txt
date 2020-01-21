@@ -1,0 +1,61 @@
+org.springframework.credhub:spring-credhub-core:jar:1.0.1.RELEASE
++- com.fasterxml.jackson.core:jackson-databind:jar:2.8.7:compile
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile
+|  \- com.fasterxml.jackson.core:jackson-core:jar:2.8.7:compile
++- com.squareup.okhttp3:okhttp:jar:3.6.0:compile
+|  \- com.squareup.okio:okio:jar:1.11.0:compile
++- io.netty:netty-all:jar:4.1.8.Final:compile
++- org.apache.httpcomponents:httpclient:jar:4.5.3:compile
+|  +- org.apache.httpcomponents:httpcore:jar:4.4.6:compile
+|  \- commons-codec:commons-codec:jar:1.9:compile
++- org.springframework.security.oauth:spring-security-oauth2:jar:2.0.14.RELEASE:compile
+|  +- (org.springframework:spring-beans:jar:4.0.9.RELEASE:compile - omitted for conflict with 4.3.8.RELEASE)
+|  +- (org.springframework:spring-core:jar:4.0.9.RELEASE:compile - omitted for conflict with 4.3.8.RELEASE)
+|  +- org.springframework:spring-context:jar:4.0.9.RELEASE:compile
+|  |  +- (org.springframework:spring-aop:jar:4.0.9.RELEASE:compile - omitted for conflict with 4.3.8.RELEASE)
+|  |  +- (org.springframework:spring-beans:jar:4.0.9.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-core:jar:4.0.9.RELEASE:compile - omitted for duplicate)
+|  |  \- org.springframework:spring-expression:jar:4.0.9.RELEASE:compile
+|  |     \- (org.springframework:spring-core:jar:4.0.9.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework:spring-webmvc:jar:4.0.9.RELEASE:compile
+|  |  +- (org.springframework:spring-beans:jar:4.0.9.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-context:jar:4.0.9.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-core:jar:4.0.9.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-expression:jar:4.0.9.RELEASE:compile - omitted for duplicate)
+|  |  \- (org.springframework:spring-web:jar:4.0.9.RELEASE:compile - omitted for conflict with 4.3.8.RELEASE)
+|  +- org.springframework.security:spring-security-core:jar:3.2.10.RELEASE:compile
+|  |  +- aopalliance:aopalliance:jar:1.0:compile
+|  |  +- (org.springframework:spring-aop:jar:3.2.18.RELEASE:compile - omitted for conflict with 4.0.9.RELEASE)
+|  |  +- (org.springframework:spring-beans:jar:3.2.18.RELEASE:compile - omitted for conflict with 4.0.9.RELEASE)
+|  |  +- (org.springframework:spring-context:jar:3.2.18.RELEASE:compile - omitted for conflict with 4.0.9.RELEASE)
+|  |  +- (org.springframework:spring-core:jar:3.2.18.RELEASE:compile - omitted for conflict with 4.0.9.RELEASE)
+|  |  \- (org.springframework:spring-expression:jar:3.2.18.RELEASE:compile - omitted for conflict with 4.0.9.RELEASE)
+|  +- org.springframework.security:spring-security-config:jar:3.2.10.RELEASE:compile
+|  |  +- (aopalliance:aopalliance:jar:1.0:compile - omitted for duplicate)
+|  |  +- (org.springframework.security:spring-security-core:jar:3.2.10.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-aop:jar:3.2.18.RELEASE:compile - omitted for conflict with 4.0.9.RELEASE)
+|  |  +- (org.springframework:spring-beans:jar:3.2.18.RELEASE:compile - omitted for conflict with 4.0.9.RELEASE)
+|  |  +- (org.springframework:spring-context:jar:3.2.18.RELEASE:compile - omitted for conflict with 4.0.9.RELEASE)
+|  |  \- (org.springframework:spring-core:jar:3.2.18.RELEASE:compile - omitted for conflict with 4.0.9.RELEASE)
+|  +- org.springframework.security:spring-security-web:jar:3.2.10.RELEASE:compile
+|  |  +- (aopalliance:aopalliance:jar:1.0:compile - omitted for duplicate)
+|  |  +- (org.springframework.security:spring-security-core:jar:3.2.10.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-beans:jar:3.2.18.RELEASE:compile - omitted for conflict with 4.0.9.RELEASE)
+|  |  +- (org.springframework:spring-context:jar:3.2.18.RELEASE:compile - omitted for conflict with 4.0.9.RELEASE)
+|  |  +- (org.springframework:spring-core:jar:3.2.18.RELEASE:compile - omitted for conflict with 4.0.9.RELEASE)
+|  |  +- (org.springframework:spring-expression:jar:3.2.18.RELEASE:compile - omitted for conflict with 4.0.9.RELEASE)
+|  |  \- (org.springframework:spring-web:jar:3.2.18.RELEASE:compile - omitted for conflict with 4.0.9.RELEASE)
+|  +- (commons-codec:commons-codec:jar:1.9:compile - omitted for duplicate)
+|  \- org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:compile
+|     \- org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile
++- org.springframework:spring-beans:jar:4.3.8.RELEASE:compile
+|  \- (org.springframework:spring-core:jar:4.3.8.RELEASE:compile - omitted for conflict with 4.0.9.RELEASE)
++- org.springframework:spring-core:jar:4.3.8.RELEASE:compile
+|  \- commons-logging:commons-logging:jar:1.2:compile
+\- org.springframework:spring-web:jar:4.3.8.RELEASE:compile
+   +- org.springframework:spring-aop:jar:4.3.8.RELEASE:compile
+   |  +- (org.springframework:spring-beans:jar:4.3.8.RELEASE:compile - omitted for duplicate)
+   |  \- (org.springframework:spring-core:jar:4.3.8.RELEASE:compile - omitted for duplicate)
+   +- (org.springframework:spring-beans:jar:4.3.8.RELEASE:compile - omitted for duplicate)
+   +- (org.springframework:spring-context:jar:4.3.8.RELEASE:compile - omitted for conflict with 4.0.9.RELEASE)
+   \- (org.springframework:spring-core:jar:4.3.8.RELEASE:compile - omitted for duplicate)

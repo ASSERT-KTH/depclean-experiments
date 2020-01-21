@@ -1,0 +1,2 @@
+ai.h2o:xgboost-predictor:jar:0.3.1
+\- net.jafama:jafama:jar:2.1.0:compile

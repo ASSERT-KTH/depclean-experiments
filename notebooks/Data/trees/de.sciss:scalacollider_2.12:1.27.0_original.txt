@@ -1,0 +1,30 @@
+de.sciss:scalacollider_2.12:jar:1.27.0
++- org.scala-lang:scala-library:jar:2.12.6:compile
++- de.sciss:scalaosc_2.12:jar:1.1.6:compile
+|  \- (org.scala-lang:scala-library:jar:2.12.5:compile - omitted for conflict with 2.12.6)
++- de.sciss:audiofile_2.12:jar:1.5.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.5:compile - omitted for conflict with 2.12.6)
+|  \- de.sciss:serial_2.12:jar:1.1.0:compile
+|     \- (org.scala-lang:scala-library:jar:2.12.5:compile - omitted for conflict with 2.12.6)
++- de.sciss:scalacolliderugens-core_2.12:jar:1.19.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
+|  \- de.sciss:scalacolliderugens-api_2.12:jar:1.19.0:compile
+|     +- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
+|     +- de.sciss:numbers_2.12:jar:0.2.0:compile
+|     |  \- (org.scala-lang:scala-library:jar:2.12.6:compile - omitted for duplicate)
+|     \- org.scala-lang.modules:scala-xml_2.12:jar:1.0.6:compile
+|        \- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.6)
++- de.sciss:processor_2.12:jar:0.4.1:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.1:compile - omitted for conflict with 2.12.6)
+|  \- de.sciss:model_2.12:jar:0.3.3:compile
+|     \- (org.scala-lang:scala-library:jar:2.12.1:compile - omitted for conflict with 2.12.6)
++- de.sciss:optional_2.12:jar:1.0.0:compile
+|  \- (org.scala-lang:scala-library:jar:2.12.1:compile - omitted for conflict with 2.12.6)
+\- org.scalatest:scalatest_2.12:jar:3.0.5:test
+   +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for conflict with 2.12.6)
+   +- org.scalactic:scalactic_2.12:jar:3.0.5:test
+   |  +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for conflict with 2.12.6)
+   |  \- (org.scala-lang:scala-reflect:jar:2.12.4:test - omitted for duplicate)
+   +- org.scala-lang:scala-reflect:jar:2.12.4:test
+   |  \- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for conflict with 2.12.6)
+   \- (org.scala-lang.modules:scala-xml_2.12:jar:1.0.6:compile - scope updated from test; omitted for duplicate)

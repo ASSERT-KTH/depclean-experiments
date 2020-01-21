@@ -1,0 +1,231 @@
+org.eclipse.rdf4j:rdf4j-storage:jar:2.4.0-M3
++- org.eclipse.rdf4j:rdf4j-client:jar:2.4.0-M3:compile
+|  +- (org.apache.httpcomponents:httpclient:jar:4.5.5:compile - omitted for duplicate)
+|  +- (org.apache.httpcomponents:httpcore:jar:4.4.9:compile - omitted for duplicate)
+|  +- (commons-codec:commons-codec:jar:1.10:runtime - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.7.25; omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.6:compile - version managed from 2.9.5; omitted for duplicate)
+|  +- (com.opencsv:opencsv:jar:3.2:compile - omitted for duplicate)
+|  +- (org.apache.commons:commons-lang3:jar:3.3.2:compile - omitted for duplicate)
+|  +- (com.github.jsonld-java:jsonld-java:jar:0.12.0:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.6:compile - version managed from 2.9.5; omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.6:compile - version managed from 2.9.0; omitted for duplicate)
+|  +- (org.slf4j:jcl-over-slf4j:jar:1.7.10:runtime - version managed from 1.7.25; omitted for duplicate)
+|  +- (org.apache.httpcomponents:httpclient-cache:jar:4.5.5:compile - omitted for duplicate)
+|  \- (commons-io:commons-io:jar:2.5:compile - version managed from 2.6; omitted for duplicate)
++- org.apache.httpcomponents:httpclient:jar:4.5.5:compile
+|  \- (org.apache.httpcomponents:httpcore:jar:4.4.9:compile - omitted for duplicate)
++- org.apache.httpcomponents:httpcore:jar:4.4.9:compile
++- commons-codec:commons-codec:jar:1.10:runtime
++- org.slf4j:slf4j-api:jar:1.7.10:compile
++- com.fasterxml.jackson.core:jackson-core:jar:2.9.6:compile
++- com.opencsv:opencsv:jar:3.2:compile
+|  \- (org.apache.commons:commons-lang3:jar:3.3.2:compile - omitted for duplicate)
++- org.apache.commons:commons-lang3:jar:3.3.2:compile
++- com.github.jsonld-java:jsonld-java:jar:0.12.0:compile
+|  +- (com.fasterxml.jackson.core:jackson-core:jar:2.9.6:compile - version managed from 2.9.5; omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.6:compile - version managed from 2.9.5; omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.7.25; omitted for duplicate)
+|  +- (org.slf4j:jcl-over-slf4j:jar:1.7.10:runtime - version managed from 1.7.25; omitted for duplicate)
+|  \- (commons-io:commons-io:jar:2.5:compile - version managed from 2.6; omitted for duplicate)
++- com.fasterxml.jackson.core:jackson-databind:jar:2.9.6:compile
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.6:compile - version managed from 2.9.0; omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.6:compile - version managed from 2.9.5; omitted for duplicate)
++- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.6:compile
++- org.slf4j:jcl-over-slf4j:jar:1.7.10:runtime
+|  \- (org.slf4j:slf4j-api:jar:1.7.10:runtime - version managed from 1.7.25; omitted for duplicate)
++- org.apache.httpcomponents:httpclient-cache:jar:4.5.5:compile
+|  \- (org.apache.httpcomponents:httpclient:jar:4.5.5:compile - omitted for duplicate)
++- commons-io:commons-io:jar:2.5:compile
++- org.mapdb:mapdb:jar:1.0.8:compile
++- com.google.guava:guava:jar:18.0:compile
++- org.locationtech.spatial4j:spatial4j:jar:0.7:compile
++- org.locationtech.jts:jts-core:jar:1.15.1:compile
++- org.apache.lucene:lucene-core:jar:6.6.1:compile
++- org.apache.lucene:lucene-queries:jar:6.6.1:compile
+|  \- (org.apache.lucene:lucene-core:jar:6.6.1:compile - omitted for duplicate)
++- org.apache.lucene:lucene-highlighter:jar:6.6.1:compile
+|  +- (org.apache.lucene:lucene-analyzers-common:jar:6.6.1:compile - omitted for duplicate)
+|  +- (org.apache.lucene:lucene-core:jar:6.6.1:compile - omitted for duplicate)
+|  +- (org.apache.lucene:lucene-join:jar:6.6.1:compile - omitted for duplicate)
+|  +- (org.apache.lucene:lucene-memory:jar:6.6.1:compile - omitted for duplicate)
+|  \- (org.apache.lucene:lucene-queries:jar:6.6.1:compile - omitted for duplicate)
++- org.apache.lucene:lucene-join:jar:6.6.1:compile
+|  \- (org.apache.lucene:lucene-core:jar:6.6.1:compile - omitted for duplicate)
++- org.apache.lucene:lucene-memory:jar:6.6.1:compile
+|  \- (org.apache.lucene:lucene-core:jar:6.6.1:compile - omitted for duplicate)
++- org.apache.lucene:lucene-analyzers-common:jar:6.6.1:compile
+|  \- (org.apache.lucene:lucene-core:jar:6.6.1:compile - omitted for duplicate)
++- org.apache.lucene:lucene-queryparser:jar:6.6.1:compile
+|  +- (org.apache.lucene:lucene-core:jar:6.6.1:compile - omitted for duplicate)
+|  +- (org.apache.lucene:lucene-queries:jar:6.6.1:compile - omitted for duplicate)
+|  \- (org.apache.lucene:lucene-sandbox:jar:6.6.1:compile - omitted for duplicate)
++- org.apache.lucene:lucene-sandbox:jar:6.6.1:compile
+|  \- (org.apache.lucene:lucene-core:jar:6.6.1:compile - omitted for duplicate)
++- org.apache.lucene:lucene-spatial-extras:jar:6.6.1:compile
+|  +- (org.apache.lucene:lucene-core:jar:6.6.1:compile - omitted for duplicate)
+|  +- (org.apache.lucene:lucene-misc:jar:6.6.1:compile - omitted for duplicate)
+|  +- (org.apache.lucene:lucene-queries:jar:6.6.1:compile - omitted for duplicate)
+|  +- (org.apache.lucene:lucene-spatial3d:jar:6.6.1:compile - omitted for duplicate)
+|  \- (org.locationtech.spatial4j:spatial4j:jar:0.7:compile - version managed from 0.6; omitted for duplicate)
++- org.apache.lucene:lucene-misc:jar:6.6.1:compile
+|  \- (org.apache.lucene:lucene-core:jar:6.6.1:compile - omitted for duplicate)
++- org.apache.lucene:lucene-spatial3d:jar:6.6.1:compile
+|  \- (org.apache.lucene:lucene-core:jar:6.6.1:compile - omitted for duplicate)
++- org.apache.solr:solr-solrj:jar:6.6.1:compile
+|  +- (commons-io:commons-io:jar:2.5:compile - version managed from 2.6; omitted for duplicate)
+|  +- (org.apache.commons:commons-math3:jar:3.4.1:compile - omitted for conflict with 3.5)
+|  +- (org.apache.httpcomponents:httpclient:jar:4.5.5:compile - version managed from 4.4.1; omitted for duplicate)
+|  +- (org.apache.httpcomponents:httpcore:jar:4.4.1:compile - omitted for conflict with 4.4.9)
+|  +- (org.apache.httpcomponents:httpmime:jar:4.5.5:compile - version managed from 4.4.1; omitted for duplicate)
+|  +- (org.apache.zookeeper:zookeeper:jar:3.4.10:compile - omitted for duplicate)
+|  +- (org.codehaus.woodstox:stax2-api:jar:3.1.4:compile - omitted for duplicate)
+|  +- (org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1:compile - omitted for duplicate)
+|  +- (org.noggit:noggit:jar:0.6:compile - omitted for duplicate)
+|  +- (org.slf4j:jcl-over-slf4j:jar:1.7.10:runtime - version managed from 1.7.7; scope managed from compile; omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.7.7; omitted for duplicate)
++- org.apache.httpcomponents:httpmime:jar:4.5.5:compile
+|  \- (org.apache.httpcomponents:httpclient:jar:4.5.5:compile - version managed from 4.4.1; omitted for duplicate)
++- org.apache.zookeeper:zookeeper:jar:3.4.10:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.6.1; omitted for duplicate)
++- org.codehaus.woodstox:stax2-api:jar:3.1.4:compile
++- org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1:compile
+|  \- (org.codehaus.woodstox:stax2-api:jar:3.1.4:compile - omitted for duplicate)
++- org.noggit:noggit:jar:0.6:compile
++- org.apache.commons:commons-math3:jar:3.5:compile
++- commons-lang:commons-lang:jar:2.6:compile
+\- org.eclipse.rdf4j:rdf4j-shacl:jar:2.4.0-M3:compile
+   +- org.eclipse.rdf4j:rdf4j-sail-api:jar:2.4.0-M3:compile
+   |  +- org.eclipse.rdf4j:rdf4j-query:jar:2.4.0-M3:compile
+   |  |  +- (org.eclipse.rdf4j:rdf4j-model:jar:2.4.0-M3:compile - omitted for duplicate)
+   |  |  \- (org.eclipse.rdf4j:rdf4j-rio-api:jar:2.4.0-M3:compile - omitted for duplicate)
+   |  +- org.eclipse.rdf4j:rdf4j-queryalgebra-model:jar:2.4.0-M3:compile
+   |  |  +- (org.eclipse.rdf4j:rdf4j-model:jar:2.4.0-M3:compile - omitted for duplicate)
+   |  |  +- (org.eclipse.rdf4j:rdf4j-query:jar:2.4.0-M3:compile - omitted for duplicate)
+   |  |  \- (org.eclipse.rdf4j:rdf4j-util:jar:2.4.0-M3:compile - omitted for duplicate)
+   |  +- org.eclipse.rdf4j:rdf4j-model:jar:2.4.0-M3:compile
+   |  |  \- (org.eclipse.rdf4j:rdf4j-util:jar:2.4.0-M3:compile - omitted for duplicate)
+   |  +- org.eclipse.rdf4j:rdf4j-util:jar:2.4.0-M3:compile
+   |  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.6.1; omitted for duplicate)
+   |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.6.1; omitted for duplicate)
+   +- org.eclipse.rdf4j:rdf4j-repository-sail:jar:2.4.0-M3:compile
+   |  +- org.eclipse.rdf4j:rdf4j-repository-api:jar:2.4.0-M3:compile
+   |  |  +- (org.eclipse.rdf4j:rdf4j-query:jar:2.4.0-M3:compile - omitted for duplicate)
+   |  |  +- (org.eclipse.rdf4j:rdf4j-rio-api:jar:2.4.0-M3:compile - omitted for duplicate)
+   |  |  +- (org.eclipse.rdf4j:rdf4j-model:jar:2.4.0-M3:compile - omitted for duplicate)
+   |  |  +- (org.eclipse.rdf4j:rdf4j-util:jar:2.4.0-M3:compile - omitted for duplicate)
+   |  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.6.1; omitted for duplicate)
+   |  +- (org.eclipse.rdf4j:rdf4j-sail-api:jar:2.4.0-M3:compile - omitted for duplicate)
+   |  +- org.eclipse.rdf4j:rdf4j-http-client:jar:2.4.0-M3:compile
+   |  |  +- org.eclipse.rdf4j:rdf4j-http-protocol:jar:2.4.0-M3:compile
+   |  |  |  +- (org.eclipse.rdf4j:rdf4j-repository-api:jar:2.4.0-M3:compile - omitted for duplicate)
+   |  |  |  +- org.eclipse.rdf4j:rdf4j-rio-ntriples:jar:2.4.0-M3:compile
+   |  |  |  |  +- (org.eclipse.rdf4j:rdf4j-model:jar:2.4.0-M3:compile - omitted for duplicate)
+   |  |  |  |  +- (org.eclipse.rdf4j:rdf4j-rio-api:jar:2.4.0-M3:compile - omitted for duplicate)
+   |  |  |  |  +- (org.eclipse.rdf4j:rdf4j-rio-datatypes:jar:2.4.0-M3:runtime - omitted for duplicate)
+   |  |  |  |  +- (org.eclipse.rdf4j:rdf4j-rio-languages:jar:2.4.0-M3:runtime - omitted for duplicate)
+   |  |  |  |  \- (commons-io:commons-io:jar:2.5:compile - version managed from 2.6; omitted for duplicate)
+   |  |  |  +- (org.eclipse.rdf4j:rdf4j-model:jar:2.4.0-M3:compile - omitted for duplicate)
+   |  |  |  \- (org.eclipse.rdf4j:rdf4j-util:jar:2.4.0-M3:compile - omitted for duplicate)
+   |  |  +- (org.eclipse.rdf4j:rdf4j-query:jar:2.4.0-M3:compile - omitted for duplicate)
+   |  |  +- org.eclipse.rdf4j:rdf4j-queryresultio-api:jar:2.4.0-M3:compile
+   |  |  |  +- (org.eclipse.rdf4j:rdf4j-model:jar:2.4.0-M3:compile - omitted for duplicate)
+   |  |  |  +- (org.eclipse.rdf4j:rdf4j-query:jar:2.4.0-M3:compile - omitted for duplicate)
+   |  |  |  +- (org.eclipse.rdf4j:rdf4j-rio-api:jar:2.4.0-M3:compile - omitted for duplicate)
+   |  |  |  \- (org.eclipse.rdf4j:rdf4j-util:jar:2.4.0-M3:compile - omitted for duplicate)
+   |  |  +- (org.eclipse.rdf4j:rdf4j-rio-api:jar:2.4.0-M3:compile - omitted for duplicate)
+   |  |  +- (org.eclipse.rdf4j:rdf4j-model:jar:2.4.0-M3:compile - omitted for duplicate)
+   |  |  +- (org.eclipse.rdf4j:rdf4j-util:jar:2.4.0-M3:compile - omitted for duplicate)
+   |  |  +- (org.apache.httpcomponents:httpclient:jar:4.5.5:compile - version managed from 4.4.1; omitted for duplicate)
+   |  |  +- (commons-codec:commons-codec:jar:1.10:runtime - omitted for duplicate)
+   |  |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.6.1; omitted for duplicate)
+   |  +- org.eclipse.rdf4j:rdf4j-queryparser-api:jar:2.4.0-M3:compile
+   |  |  +- (org.eclipse.rdf4j:rdf4j-query:jar:2.4.0-M3:compile - omitted for duplicate)
+   |  |  +- (org.eclipse.rdf4j:rdf4j-queryalgebra-model:jar:2.4.0-M3:compile - omitted for duplicate)
+   |  |  \- (org.eclipse.rdf4j:rdf4j-util:jar:2.4.0-M3:compile - omitted for duplicate)
+   |  +- (org.eclipse.rdf4j:rdf4j-queryalgebra-model:jar:2.4.0-M3:compile - omitted for duplicate)
+   |  +- (org.eclipse.rdf4j:rdf4j-query:jar:2.4.0-M3:compile - omitted for duplicate)
+   |  +- org.eclipse.rdf4j:rdf4j-rio-api:jar:2.4.0-M3:compile
+   |  |  +- (org.eclipse.rdf4j:rdf4j-model:jar:2.4.0-M3:compile - omitted for duplicate)
+   |  |  \- (org.eclipse.rdf4j:rdf4j-util:jar:2.4.0-M3:compile - omitted for duplicate)
+   |  +- org.eclipse.rdf4j:rdf4j-rio-trig:jar:2.4.0-M3:compile
+   |  |  +- (org.eclipse.rdf4j:rdf4j-model:jar:2.4.0-M3:compile - omitted for duplicate)
+   |  |  +- (org.eclipse.rdf4j:rdf4j-rio-api:jar:2.4.0-M3:compile - omitted for duplicate)
+   |  |  +- (org.eclipse.rdf4j:rdf4j-rio-turtle:jar:2.4.0-M3:compile - omitted for duplicate)
+   |  |  +- org.eclipse.rdf4j:rdf4j-rio-datatypes:jar:2.4.0-M3:runtime
+   |  |  |  +- (org.eclipse.rdf4j:rdf4j-model:jar:2.4.0-M3:runtime - omitted for duplicate)
+   |  |  |  +- (org.eclipse.rdf4j:rdf4j-rio-api:jar:2.4.0-M3:runtime - omitted for duplicate)
+   |  |  |  \- (org.eclipse.rdf4j:rdf4j-util:jar:2.4.0-M3:runtime - omitted for duplicate)
+   |  |  +- org.eclipse.rdf4j:rdf4j-rio-languages:jar:2.4.0-M3:runtime
+   |  |  |  +- (org.eclipse.rdf4j:rdf4j-model:jar:2.4.0-M3:runtime - omitted for duplicate)
+   |  |  |  +- (org.eclipse.rdf4j:rdf4j-rio-api:jar:2.4.0-M3:runtime - omitted for duplicate)
+   |  |  |  \- (org.eclipse.rdf4j:rdf4j-util:jar:2.4.0-M3:runtime - omitted for duplicate)
+   |  |  \- (org.eclipse.rdf4j:rdf4j-util:jar:2.4.0-M3:compile - omitted for duplicate)
+   |  +- (org.eclipse.rdf4j:rdf4j-model:jar:2.4.0-M3:compile - omitted for duplicate)
+   |  +- org.eclipse.rdf4j:rdf4j-queryalgebra-evaluation:jar:2.4.0-M3:compile
+   |  |  +- (org.eclipse.rdf4j:rdf4j-queryalgebra-model:jar:2.4.0-M3:compile - omitted for duplicate)
+   |  |  +- (org.eclipse.rdf4j:rdf4j-model:jar:2.4.0-M3:compile - omitted for duplicate)
+   |  |  +- (org.eclipse.rdf4j:rdf4j-query:jar:2.4.0-M3:compile - omitted for duplicate)
+   |  |  +- org.eclipse.rdf4j:rdf4j-repository-sparql:jar:2.4.0-M3:compile
+   |  |  |  +- (org.eclipse.rdf4j:rdf4j-repository-api:jar:2.4.0-M3:compile - omitted for duplicate)
+   |  |  |  +- (org.eclipse.rdf4j:rdf4j-http-client:jar:2.4.0-M3:compile - omitted for duplicate)
+   |  |  |  +- (org.eclipse.rdf4j:rdf4j-queryparser-api:jar:2.4.0-M3:compile - omitted for duplicate)
+   |  |  |  +- org.eclipse.rdf4j:rdf4j-queryparser-sparql:jar:2.4.0-M3:compile
+   |  |  |  |  +- (org.eclipse.rdf4j:rdf4j-queryparser-api:jar:2.4.0-M3:compile - omitted for duplicate)
+   |  |  |  |  +- (org.eclipse.rdf4j:rdf4j-query:jar:2.4.0-M3:compile - omitted for duplicate)
+   |  |  |  |  +- (org.eclipse.rdf4j:rdf4j-queryalgebra-model:jar:2.4.0-M3:compile - omitted for duplicate)
+   |  |  |  |  +- (org.eclipse.rdf4j:rdf4j-model:jar:2.4.0-M3:compile - omitted for duplicate)
+   |  |  |  |  \- (org.eclipse.rdf4j:rdf4j-util:jar:2.4.0-M3:compile - omitted for duplicate)
+   |  |  |  \- org.eclipse.rdf4j:rdf4j-queryresultio-sparqlxml:jar:2.4.0-M3:compile
+   |  |  |     +- (org.eclipse.rdf4j:rdf4j-queryresultio-api:jar:2.4.0-M3:compile - omitted for duplicate)
+   |  |  |     +- (org.eclipse.rdf4j:rdf4j-query:jar:2.4.0-M3:compile - omitted for duplicate)
+   |  |  |     +- (org.eclipse.rdf4j:rdf4j-model:jar:2.4.0-M3:compile - omitted for duplicate)
+   |  |  |     \- (org.eclipse.rdf4j:rdf4j-util:jar:2.4.0-M3:compile - omitted for duplicate)
+   |  |  +- (org.eclipse.rdf4j:rdf4j-http-client:jar:2.4.0-M3:compile - omitted for duplicate)
+   |  |  +- (org.eclipse.rdf4j:rdf4j-util:jar:2.4.0-M3:compile - omitted for duplicate)
+   |  |  +- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.6.1; omitted for duplicate)
+   |  |  +- (org.mapdb:mapdb:jar:1.0.8:compile - omitted for duplicate)
+   |  |  \- (com.google.guava:guava:jar:18.0:compile - omitted for duplicate)
+   |  \- org.eclipse.rdf4j:rdf4j-rio-turtle:jar:2.4.0-M3:compile
+   |     +- (org.eclipse.rdf4j:rdf4j-model:jar:2.4.0-M3:compile - omitted for duplicate)
+   |     +- (org.eclipse.rdf4j:rdf4j-rio-api:jar:2.4.0-M3:compile - omitted for duplicate)
+   |     +- (org.eclipse.rdf4j:rdf4j-rio-datatypes:jar:2.4.0-M3:runtime - omitted for duplicate)
+   |     +- (org.eclipse.rdf4j:rdf4j-rio-languages:jar:2.4.0-M3:runtime - omitted for duplicate)
+   |     +- (org.eclipse.rdf4j:rdf4j-util:jar:2.4.0-M3:compile - omitted for duplicate)
+   |     \- (commons-io:commons-io:jar:2.5:compile - version managed from 2.6; omitted for duplicate)
+   \- org.eclipse.rdf4j:rdf4j-sail-memory:jar:2.4.0-M3:compile
+      +- org.eclipse.rdf4j:rdf4j-sail-base:jar:2.4.0-M3:compile
+      |  +- (org.eclipse.rdf4j:rdf4j-sail-api:jar:2.4.0-M3:compile - omitted for duplicate)
+      |  +- (org.eclipse.rdf4j:rdf4j-sail-inferencer:jar:2.4.0-M3:compile - omitted for duplicate)
+      |  +- (org.eclipse.rdf4j:rdf4j-queryalgebra-evaluation:jar:2.4.0-M3:compile - omitted for duplicate)
+      |  +- (org.eclipse.rdf4j:rdf4j-queryalgebra-model:jar:2.4.0-M3:compile - omitted for duplicate)
+      |  +- (org.eclipse.rdf4j:rdf4j-query:jar:2.4.0-M3:compile - omitted for duplicate)
+      |  +- (org.eclipse.rdf4j:rdf4j-model:jar:2.4.0-M3:compile - omitted for duplicate)
+      |  +- (org.eclipse.rdf4j:rdf4j-util:jar:2.4.0-M3:compile - omitted for duplicate)
+      |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.6.1; omitted for duplicate)
+      +- org.eclipse.rdf4j:rdf4j-sail-inferencer:jar:2.4.0-M3:compile
+      |  +- (org.eclipse.rdf4j:rdf4j-sail-api:jar:2.4.0-M3:compile - omitted for duplicate)
+      |  +- (org.eclipse.rdf4j:rdf4j-queryalgebra-model:jar:2.4.0-M3:compile - omitted for duplicate)
+      |  +- (org.eclipse.rdf4j:rdf4j-query:jar:2.4.0-M3:compile - omitted for duplicate)
+      |  +- (org.eclipse.rdf4j:rdf4j-queryparser-api:jar:2.4.0-M3:compile - omitted for duplicate)
+      |  +- org.eclipse.rdf4j:rdf4j-queryparser-serql:jar:2.4.0-M3:runtime
+      |  |  +- (org.eclipse.rdf4j:rdf4j-queryparser-api:jar:2.4.0-M3:runtime - omitted for duplicate)
+      |  |  +- (org.eclipse.rdf4j:rdf4j-query:jar:2.4.0-M3:runtime - omitted for duplicate)
+      |  |  +- (org.eclipse.rdf4j:rdf4j-queryalgebra-model:jar:2.4.0-M3:runtime - omitted for duplicate)
+      |  |  +- (org.eclipse.rdf4j:rdf4j-model:jar:2.4.0-M3:runtime - omitted for duplicate)
+      |  |  +- (org.eclipse.rdf4j:rdf4j-util:jar:2.4.0-M3:runtime - omitted for duplicate)
+      |  |  \- (org.slf4j:slf4j-api:jar:1.7.10:runtime - version managed from 1.6.1; omitted for duplicate)
+      |  +- (org.eclipse.rdf4j:rdf4j-rio-api:jar:2.4.0-M3:compile - omitted for duplicate)
+      |  +- (org.eclipse.rdf4j:rdf4j-model:jar:2.4.0-M3:compile - omitted for duplicate)
+      |  +- (org.eclipse.rdf4j:rdf4j-util:jar:2.4.0-M3:compile - omitted for duplicate)
+      |  +- org.eclipse.rdf4j:rdf4j-sail-model:jar:2.4.0-M3:compile
+      |  |  +- (org.eclipse.rdf4j:rdf4j-sail-api:jar:2.4.0-M3:compile - omitted for duplicate)
+      |  |  \- (com.google.guava:guava:jar:18.0:compile - omitted for duplicate)
+      |  +- (org.eclipse.rdf4j:rdf4j-repository-api:jar:2.4.0-M3:compile - omitted for duplicate)
+      |  \- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.6.1; omitted for duplicate)
+      +- (org.eclipse.rdf4j:rdf4j-queryalgebra-evaluation:jar:2.4.0-M3:compile - omitted for duplicate)
+      +- (org.eclipse.rdf4j:rdf4j-queryalgebra-model:jar:2.4.0-M3:compile - omitted for duplicate)
+      +- (org.eclipse.rdf4j:rdf4j-query:jar:2.4.0-M3:compile - omitted for duplicate)
+      +- (org.eclipse.rdf4j:rdf4j-model:jar:2.4.0-M3:compile - omitted for duplicate)
+      +- (org.eclipse.rdf4j:rdf4j-util:jar:2.4.0-M3:compile - omitted for duplicate)
+      \- (org.slf4j:slf4j-api:jar:1.7.10:compile - version managed from 1.6.1; omitted for duplicate)

@@ -1,0 +1,6 @@
+com.github.scalaprops:scalaprops-core_2.13.0-M2:jar:0.5.3
++- org.scala-lang:scala-library:jar:2.13.0-M2:compile
+\- com.github.scalaprops:scalaprops-gen_2.13.0-M2:jar:0.5.3:compile
+   +- (org.scala-lang:scala-library:jar:2.13.0-M2:compile - omitted for duplicate)
+   \- org.scalaz:scalaz-core_2.13.0-M2:jar:7.2.19:compile
+      \- (org.scala-lang:scala-library:jar:2.13.0-M2:compile - omitted for duplicate)

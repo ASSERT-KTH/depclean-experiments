@@ -1,0 +1,40 @@
+io.apigee.trireme:trireme-jar:jar:0.9.1
++- io.apigee.trireme:trireme-crypto:jar:0.9.1:compile
+|  +- (io.apigee.trireme:trireme-kernel:jar:0.9.1:compile - omitted for duplicate)
+|  +- (io.apigee.trireme:trireme-core:jar:0.9.1:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.2:compile - omitted for duplicate)
+|  +- (org.mozilla:rhino:jar:1.7.8:compile - omitted for duplicate)
+|  +- org.bouncycastle:bcprov-jdk15on:jar:1.50:compile
+|  \- org.bouncycastle:bcpkix-jdk15on:jar:1.50:compile
+|     \- (org.bouncycastle:bcprov-jdk15on:jar:1.50:compile - omitted for duplicate)
++- io.apigee.trireme:trireme-shell:jar:0.9.1:compile
+|  +- (io.apigee.trireme:trireme-kernel:jar:0.9.1:compile - omitted for duplicate)
+|  +- (io.apigee.trireme:trireme-core:jar:0.9.1:compile - omitted for duplicate)
+|  +- (io.apigee.trireme:trireme-crypto:jar:0.9.1:compile - omitted for duplicate)
+|  +- (io.apigee.trireme:trireme-util:jar:0.9.1:compile - omitted for duplicate)
+|  +- (io.apigee.trireme:trireme-node10src:jar:0.9.1:compile - omitted for duplicate)
+|  +- io.apigee.trireme:trireme-node12src:jar:0.9.1:compile
+|  |  +- (io.apigee.trireme:trireme-core:jar:0.9.1:compile - omitted for duplicate)
+|  |  +- (io.apigee.trireme:trireme-kernel:jar:0.9.1:compile - omitted for duplicate)
+|  |  +- (org.mozilla:rhino:jar:1.7.8:compile - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.2:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.2:compile - omitted for duplicate)
+|  \- (org.mozilla:rhino:jar:1.7.8:compile - omitted for duplicate)
+\- io.apigee.trireme:trireme-net:jar:0.9.1:compile
+   +- (io.apigee.trireme:trireme-kernel:jar:0.9.1:compile - omitted for duplicate)
+   +- (io.apigee.trireme:trireme-core:jar:0.9.1:compile - omitted for duplicate)
+   +- (org.slf4j:slf4j-api:jar:1.7.2:compile - omitted for duplicate)
+   +- (org.mozilla:rhino:jar:1.7.8:compile - omitted for duplicate)
+   +- io.netty:netty-codec-http:jar:4.0.14.Final:compile
+   |  +- io.netty:netty-codec:jar:4.0.14.Final:compile
+   |  |  \- (io.netty:netty-transport:jar:4.0.14.Final:compile - omitted for duplicate)
+   |  \- (io.netty:netty-handler:jar:4.0.14.Final:compile - omitted for duplicate)
+   +- io.netty:netty-transport:jar:4.0.14.Final:compile
+   |  \- (io.netty:netty-buffer:jar:4.0.14.Final:compile - omitted for duplicate)
+   +- io.netty:netty-handler:jar:4.0.14.Final:compile
+   |  +- (io.netty:netty-buffer:jar:4.0.14.Final:compile - omitted for duplicate)
+   |  +- (io.netty:netty-transport:jar:4.0.14.Final:compile - omitted for duplicate)
+   |  \- (io.netty:netty-codec:jar:4.0.14.Final:compile - omitted for duplicate)
+   +- io.netty:netty-buffer:jar:4.0.14.Final:compile
+   |  \- (io.netty:netty-common:jar:4.0.14.Final:compile - omitted for duplicate)
+   \- io.netty:netty-common:jar:4.0.14.Final:compile

@@ -1,0 +1,18 @@
+de.cit-ec.tcs.alignment:visualization:jar:3.1.0
++- de.cit-ec.tcs.alignment:algorithms:jar:3.1.0:compile
+|  +- de.cit-ec.tcs.alignment:comparators:jar:3.1.0:compile
+|  |  \- (org.projectlombok:lombok:jar:1.16.8:compile - omitted for duplicate)
+|  +- de.cit-ec.tcs.alignment:parallel:jar:3.1.0:compile
+|  |  \- (org.projectlombok:lombok:jar:1.16.8:compile - omitted for duplicate)
+|  \- org.projectlombok:lombok:jar:1.16.8:compile
++- de.cit-ec.tcs.alignment:comparators-lib:jar:3.1.0:test
+|  +- (de.cit-ec.tcs.alignment:comparators:jar:3.1.0:test - omitted for duplicate)
+|  \- net.jpountz.lz4:lz4:jar:1.2.0:test
++- de.cit-ec.tcs.alignment:algorithms-lib:jar:3.1.0:test
+|  \- (de.cit-ec.tcs.alignment:algorithms:jar:3.1.0:test - omitted for duplicate)
++- de.cit-ec.tcs.alignment:adp:jar:3.1.0:test
+|  \- (de.cit-ec.tcs.alignment:algorithms:jar:3.1.0:test - omitted for duplicate)
++- de.cit-ec.tcs.alignment:primitives:jar:3.1.0:test
+|  \- (org.projectlombok:lombok:jar:1.16.8:test - omitted for duplicate)
+\- junit:junit:jar:4.10:test
+   \- org.hamcrest:hamcrest-core:jar:1.1:test

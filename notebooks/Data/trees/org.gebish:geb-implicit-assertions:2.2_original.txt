@@ -1,0 +1,2 @@
+org.gebish:geb-implicit-assertions:jar:2.2
+\- org.codehaus.groovy:groovy-all:jar:2.4.15:compile

@@ -1,0 +1,23 @@
+io.get-coursier:coursier-fetch-js_sjs0.6_2.12:jar:1.1.0-M1
++- org.scala-lang:scala-library:jar:2.12.4:compile
++- io.get-coursier:coursier_sjs0.6_2.12:jar:1.1.0-M1:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for duplicate)
+|  +- (org.scala-js:scalajs-library_2.12:jar:0.6.20:compile - omitted for duplicate)
+|  +- com.lihaoyi:fastparse_sjs0.6_2.12:jar:1.0.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.3:compile - omitted for conflict with 2.12.4)
+|  |  +- com.lihaoyi:fastparse-utils_sjs0.6_2.12:jar:1.0.0:compile
+|  |  |  +- (org.scala-lang:scala-library:jar:2.12.3:compile - omitted for conflict with 2.12.4)
+|  |  |  +- (org.scala-js:scalajs-library_2.12:jar:0.6.19:compile - omitted for conflict with 0.6.20)
+|  |  |  \- (com.lihaoyi:sourcecode_sjs0.6_2.12:jar:0.1.4:compile - omitted for duplicate)
+|  |  +- (org.scala-js:scalajs-library_2.12:jar:0.6.19:compile - omitted for conflict with 0.6.20)
+|  |  \- com.lihaoyi:sourcecode_sjs0.6_2.12:jar:0.1.4:compile
+|  |     +- (org.scala-lang:scala-library:jar:2.12.2:compile - omitted for conflict with 2.12.4)
+|  |     \- (org.scala-js:scalajs-library_2.12:jar:0.6.18:compile - omitted for conflict with 0.6.20)
+|  \- org.scala-js:scalajs-dom_sjs0.6_2.12:jar:0.9.3:compile
+|     +- (org.scala-lang:scala-library:jar:2.12.2:compile - omitted for conflict with 2.12.4)
+|     \- (org.scala-js:scalajs-library_2.12:jar:0.6.18:compile - omitted for conflict with 0.6.20)
++- org.scala-js:scalajs-library_2.12:jar:0.6.20:compile
+|  \- (org.scala-lang:scala-library:jar:2.12.3:compile - omitted for conflict with 2.12.4)
+\- org.scala-js:scalajs-test-interface_2.12:jar:0.6.20:test
+   +- (org.scala-lang:scala-library:jar:2.12.3:test - omitted for conflict with 2.12.4)
+   \- (org.scala-js:scalajs-library_2.12:jar:0.6.20:test - omitted for duplicate)

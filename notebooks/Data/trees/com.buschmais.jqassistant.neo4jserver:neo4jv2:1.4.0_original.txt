@@ -1,0 +1,131 @@
+com.buschmais.jqassistant.neo4jserver:neo4jv2:jar:1.4.0
++- com.buschmais.jqassistant.neo4jserver:bootstrap:jar:1.4.0:compile
+|  \- com.buschmais.xo:xo.api:jar:0.10.0:compile
+|     \- javax.validation:validation-api:jar:1.1.0.Final:compile
++- org.neo4j.app:neo4j-server:jar:2.3.12:compile
+|  +- org.neo4j:neo4j:pom:2.3.12:compile
+|  |  +- (org.neo4j:neo4j-kernel:jar:2.3.12:compile - omitted for duplicate)
+|  |  +- org.neo4j:neo4j-lucene-index:jar:2.3.12:compile
+|  |  |  +- (org.neo4j:neo4j-kernel:jar:2.3.12:compile - omitted for duplicate)
+|  |  |  \- org.apache.lucene:lucene-core:jar:3.6.2:compile
+|  |  +- org.neo4j:neo4j-graph-algo:jar:2.3.12:compile
+|  |  |  \- (org.neo4j:neo4j-kernel:jar:2.3.12:compile - omitted for duplicate)
+|  |  +- org.neo4j:neo4j-udc:jar:2.3.12:compile
+|  |  |  \- (org.neo4j:neo4j-kernel:jar:2.3.12:compile - omitted for duplicate)
+|  |  +- org.neo4j:neo4j-graph-matching:jar:2.3.12:compile
+|  |  |  \- (org.neo4j:neo4j-kernel:jar:2.3.12:compile - omitted for duplicate)
+|  |  +- (org.neo4j:neo4j-cypher:jar:2.3.12:compile - omitted for duplicate)
+|  |  +- org.neo4j:neo4j-jmx:jar:2.3.12:compile
+|  |  \- org.neo4j:neo4j-consistency-check:jar:2.3.12:compile
+|  |     +- org.neo4j:neo4j-consistency-check-legacy:jar:2.3.12:compile
+|  |     |  +- (org.neo4j:neo4j-kernel:jar:2.3.12:compile - omitted for duplicate)
+|  |     |  \- (org.neo4j:neo4j-lucene-index:jar:2.3.12:compile - omitted for duplicate)
+|  |     +- (org.neo4j:neo4j-kernel:jar:2.3.12:compile - omitted for duplicate)
+|  |     \- (org.neo4j:neo4j-lucene-index:jar:2.3.12:compile - omitted for duplicate)
+|  +- org.neo4j:neo4j-kernel:jar:2.3.12:compile
+|  |  +- org.neo4j:neo4j-primitive-collections:jar:2.3.12:compile
+|  |  |  +- org.neo4j:neo4j-unsafe:jar:2.3.12:compile
+|  |  |  \- org.neo4j:neo4j-function:jar:2.3.12:compile
+|  |  +- org.neo4j:neo4j-io:jar:2.3.12:compile
+|  |  |  +- (org.neo4j:neo4j-unsafe:jar:2.3.12:compile - omitted for duplicate)
+|  |  |  +- (org.neo4j:neo4j-primitive-collections:jar:2.3.12:compile - omitted for duplicate)
+|  |  |  \- org.apache.commons:commons-lang3:jar:3.3.2:compile
+|  |  +- org.neo4j:neo4j-csv:jar:2.3.12:compile
+|  |  |  \- (org.neo4j:neo4j-primitive-collections:jar:2.3.12:compile - omitted for duplicate)
+|  |  \- org.neo4j:neo4j-logging:jar:2.3.12:compile
+|  |     \- (org.neo4j:neo4j-io:jar:2.3.12:compile - omitted for duplicate)
+|  +- org.neo4j:server-api:jar:2.3.12:compile
+|  |  +- (org.neo4j:neo4j-kernel:jar:2.3.12:compile - omitted for duplicate)
+|  |  +- org.neo4j.3rdparty.javax.ws.rs:jsr311-api:jar:1.1.2.r612:compile
+|  |  +- (commons-configuration:commons-configuration:jar:1.10:compile - omitted for duplicate)
+|  |  \- (commons-digester:commons-digester:jar:2.1:compile - omitted for duplicate)
+|  +- org.neo4j:neo4j-cypher:jar:2.3.12:compile
+|  |  +- org.scala-lang:scala-library:jar:2.11.7:compile
+|  |  +- org.scala-lang:scala-reflect:jar:2.11.7:compile
+|  |  |  \- (org.scala-lang:scala-library:jar:2.11.7:compile - omitted for duplicate)
+|  |  +- org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.0.4:compile
+|  |  |  \- (org.scala-lang:scala-library:jar:2.11.6:compile - omitted for conflict with 2.11.7)
+|  |  +- (org.neo4j:neo4j-kernel:jar:2.3.12:compile - omitted for duplicate)
+|  |  +- (org.neo4j:neo4j-lucene-index:jar:2.3.12:compile - omitted for duplicate)
+|  |  +- (org.neo4j:neo4j-graph-matching:jar:2.3.12:compile - omitted for duplicate)
+|  |  +- (org.neo4j:neo4j-graph-algo:jar:2.3.12:compile - omitted for duplicate)
+|  |  +- org.neo4j:neo4j-codegen:jar:2.3.12:compile
+|  |  |  +- org.ow2.asm:asm:jar:5.0.2:compile
+|  |  |  \- (org.apache.commons:commons-lang3:jar:3.3.2:compile - omitted for duplicate)
+|  |  +- org.neo4j:neo4j-cypher-compiler-1.9_2.11:jar:2.0.5:compile
+|  |  +- org.neo4j:neo4j-cypher-compiler-2.2_2.11:jar:2.2.10:compile
+|  |  |  +- (org.scala-lang:scala-reflect:jar:2.11.7:compile - omitted for duplicate)
+|  |  |  +- (org.parboiled:parboiled-scala_2.11:jar:1.1.7:compile - omitted for duplicate)
+|  |  |  \- (com.googlecode.concurrentlinkedhashmap:concurrentlinkedhashmap-lru:jar:1.4:compile - omitted for conflict with 1.4.2)
+|  |  +- org.neo4j:neo4j-cypher-compiler-2.3:jar:2.3.12:compile
+|  |  |  +- org.neo4j:neo4j-cypher-frontend-2.3:jar:2.3.12:compile
+|  |  |  |  +- (org.parboiled:parboiled-scala_2.11:jar:1.1.7:compile - omitted for duplicate)
+|  |  |  |  \- (org.apache.commons:commons-lang3:jar:3.3.2:compile - omitted for duplicate)
+|  |  |  \- (org.parboiled:parboiled-scala_2.11:jar:1.1.7:compile - omitted for duplicate)
+|  |  +- org.parboiled:parboiled-scala_2.11:jar:1.1.7:compile
+|  |  |  \- org.parboiled:parboiled-core:jar:1.1.7:compile
+|  |  +- net.sf.opencsv:opencsv:jar:2.3:compile
+|  |  \- com.googlecode.concurrentlinkedhashmap:concurrentlinkedhashmap-lru:jar:1.4.2:compile
+|  +- org.neo4j.app:neo4j-browser:jar:2.3.11:compile
+|  |  \- (org.neo4j:neo4j-kernel:jar:2.3.11:compile - omitted for conflict with 2.3.12)
+|  +- org.neo4j:neo4j-shell:jar:2.3.12:compile
+|  |  \- jline:jline:jar:2.12:compile
+|  +- org.eclipse.jetty:jetty-server:jar:9.2.9.v20150224:compile
+|  |  +- javax.servlet:javax.servlet-api:jar:3.1.0:compile
+|  |  +- org.eclipse.jetty:jetty-http:jar:9.2.9.v20150224:compile
+|  |  |  \- org.eclipse.jetty:jetty-util:jar:9.2.9.v20150224:compile
+|  |  \- org.eclipse.jetty:jetty-io:jar:9.2.9.v20150224:compile
+|  |     \- (org.eclipse.jetty:jetty-util:jar:9.2.9.v20150224:compile - omitted for duplicate)
+|  +- org.eclipse.jetty:jetty-webapp:jar:9.2.9.v20150224:compile
+|  |  +- org.eclipse.jetty:jetty-xml:jar:9.2.9.v20150224:compile
+|  |  |  \- (org.eclipse.jetty:jetty-util:jar:9.2.9.v20150224:compile - omitted for duplicate)
+|  |  \- org.eclipse.jetty:jetty-servlet:jar:9.2.9.v20150224:compile
+|  |     \- org.eclipse.jetty:jetty-security:jar:9.2.9.v20150224:compile
+|  |        \- (org.eclipse.jetty:jetty-server:jar:9.2.9.v20150224:compile - omitted for duplicate)
+|  +- com.sun.jersey:jersey-server:jar:1.19:compile
+|  |  \- com.sun.jersey:jersey-core:jar:1.19:compile
+|  +- com.sun.jersey:jersey-servlet:jar:1.19:compile
+|  |  \- (com.sun.jersey:jersey-server:jar:1.19:compile - omitted for duplicate)
+|  +- commons-configuration:commons-configuration:jar:1.10:compile
+|  |  +- commons-lang:commons-lang:jar:2.6:compile
+|  |  \- commons-logging:commons-logging:jar:1.1.1:compile
+|  +- io.netty:netty-all:jar:4.0.28.Final:compile
+|  +- commons-digester:commons-digester:jar:2.1:compile
+|  |  +- commons-beanutils:commons-beanutils:jar:1.8.3:compile
+|  |  |  \- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for duplicate)
+|  |  \- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for duplicate)
+|  +- commons-io:commons-io:jar:2.4:compile
+|  +- org.codehaus.jackson:jackson-jaxrs:jar:1.9.13:compile
+|  |  +- org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile
+|  |  \- org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:compile
+|  |     \- (org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile - omitted for duplicate)
+|  +- org.rrd4j:rrd4j:jar:2.2:compile
+|  +- org.mozilla:rhino:jar:1.7R4:compile
+|  +- org.bouncycastle:bcprov-jdk15on:jar:1.52:compile
+|  +- org.bouncycastle:bcpkix-jdk15on:jar:1.52:compile
+|  |  \- (org.bouncycastle:bcprov-jdk15on:jar:1.52:compile - omitted for duplicate)
+|  \- com.sun.jersey.contribs:jersey-multipart:jar:1.19:compile
+|     +- org.jvnet.mimepull:mimepull:jar:1.9.3:compile
+|     \- (com.sun.jersey:jersey-core:jar:1.19:compile - omitted for duplicate)
++- org.neo4j.app:neo4j-server:jar:static-web:2.3.12:compile
+|  +- (org.neo4j:neo4j:pom:2.3.12:compile - omitted for duplicate)
+|  +- (org.neo4j:neo4j-kernel:jar:2.3.12:compile - omitted for duplicate)
+|  +- (org.neo4j:server-api:jar:2.3.12:compile - omitted for duplicate)
+|  +- (org.neo4j:neo4j-cypher:jar:2.3.12:compile - omitted for duplicate)
+|  +- (org.neo4j.app:neo4j-browser:jar:2.3.11:compile - omitted for duplicate)
+|  +- (org.neo4j:neo4j-shell:jar:2.3.12:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-server:jar:9.2.9.v20150224:compile - omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-webapp:jar:9.2.9.v20150224:compile - omitted for duplicate)
+|  +- (com.sun.jersey:jersey-server:jar:1.19:compile - omitted for duplicate)
+|  +- (com.sun.jersey:jersey-servlet:jar:1.19:compile - omitted for duplicate)
+|  +- (commons-configuration:commons-configuration:jar:1.10:compile - omitted for duplicate)
+|  +- (io.netty:netty-all:jar:4.0.28.Final:compile - omitted for duplicate)
+|  +- (commons-digester:commons-digester:jar:2.1:compile - omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+|  +- (org.codehaus.jackson:jackson-jaxrs:jar:1.9.13:compile - omitted for duplicate)
+|  +- (org.rrd4j:rrd4j:jar:2.2:compile - omitted for duplicate)
+|  +- (org.mozilla:rhino:jar:1.7R4:compile - omitted for duplicate)
+|  +- (org.bouncycastle:bcprov-jdk15on:jar:1.52:compile - omitted for duplicate)
+|  +- (org.bouncycastle:bcpkix-jdk15on:jar:1.52:compile - omitted for duplicate)
+|  \- (com.sun.jersey.contribs:jersey-multipart:jar:1.19:compile - omitted for duplicate)
+\- com.buschmais.jqassistant:asciidoctor-utilities:jar:1.4.0:provided

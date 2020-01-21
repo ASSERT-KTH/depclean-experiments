@@ -1,0 +1,23 @@
+org.b3log:latke:jar:2.4.4
++- javax.servlet:javax.servlet-api:jar:3.1.0:provided
++- org.slf4j:slf4j-api:jar:1.7.7:compile
++- org.slf4j:slf4j-jdk14:jar:1.7.7:test
+|  \- (org.slf4j:slf4j-api:jar:1.7.7:test - omitted for duplicate)
++- org.testng:testng:jar:6.1.1:test
+|  +- junit:junit:jar:3.8.1:test
+|  +- org.beanshell:bsh:jar:2.0b4:test
+|  +- com.beust:jcommander:jar:1.12:test
+|  \- org.yaml:snakeyaml:jar:1.6:test
++- org.freemarker:freemarker:jar:2.3.28:compile
++- javax.mail:mail:jar:1.4.7:compile
+|  \- javax.activation:activation:jar:1.1:compile
++- commons-io:commons-io:jar:2.6:compile
++- commons-lang:commons-lang:jar:2.6:compile
++- commons-codec:commons-codec:jar:1.11:compile
++- org.javassist:javassist:jar:3.21.0-GA:compile
++- mysql:mysql-connector-java:jar:5.1.18:test
++- com.h2database:h2:jar:1.4.190:compile
++- redis.clients:jedis:jar:2.9.0:compile
+|  \- org.apache.commons:commons-pool2:jar:2.4.2:compile
++- com.alibaba:druid:jar:1.0.29:compile
+\- org.mockito:mockito-all:jar:1.9.5:test

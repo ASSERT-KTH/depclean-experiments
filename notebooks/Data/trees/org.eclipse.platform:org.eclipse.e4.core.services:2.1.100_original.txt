@@ -1,0 +1,10 @@
+org.eclipse.platform:org.eclipse.e4.core.services:jar:2.1.100
++- org.eclipse.platform:org.eclipse.equinox.preferences:jar:3.7.400:compile
+|  \- (org.eclipse.platform:org.eclipse.equinox.common:jar:3.10.400:compile - omitted for duplicate)
++- org.eclipse.platform:org.eclipse.core.jobs:jar:3.10.400:compile
+|  \- (org.eclipse.platform:org.eclipse.equinox.common:jar:3.10.400:compile - omitted for duplicate)
++- org.eclipse.platform:org.eclipse.e4.core.contexts:jar:1.8.100:compile
+|  \- (org.eclipse.platform:org.eclipse.e4.core.di:jar:1.7.200:compile - omitted for duplicate)
++- org.eclipse.platform:org.eclipse.e4.core.di:jar:1.7.200:compile
+|  \- org.eclipse.platform:org.eclipse.e4.core.di.annotations:jar:1.6.400:compile
+\- org.eclipse.platform:org.eclipse.equinox.common:jar:3.10.400:compile

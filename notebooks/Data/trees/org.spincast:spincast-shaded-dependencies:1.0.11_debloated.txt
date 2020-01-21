@@ -1,0 +1,6 @@
+org.spincast:spincast-shaded-dependencies:jar:1.0.11
++- org.apache.httpcomponents:httpmime:jar:4.5.6:compile
+|  \- (org.apache.httpcomponents:httpclient:jar:4.5.6:compile - omitted for duplicate)
++- org.apache.commons:commons-lang3:jar:3.7:compile
+\- org.apache.commons:commons-text:jar:1.4:compile
+   \- (org.apache.commons:commons-lang3:jar:3.7:compile - omitted for duplicate)

@@ -1,0 +1,5 @@
+systems.manifold:manifold-js:jar:0.9-alpha
+\- systems.manifold:manifold:jar:0.9-alpha:compile
+   +- systems.manifold:manifold-bootstrap-plugin:jar:0.9-alpha:compile
+   |  \- (systems.manifold:manifold-util:jar:0.9-alpha:compile - omitted for duplicate)
+   \- systems.manifold:manifold-util:jar:0.9-alpha:compile

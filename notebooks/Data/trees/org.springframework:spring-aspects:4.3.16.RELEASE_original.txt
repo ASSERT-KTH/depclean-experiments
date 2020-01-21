@@ -1,0 +1,32 @@
+org.springframework:spring-aspects:jar:4.3.16.RELEASE
++- javax.cache:cache-api:jar:1.0.0:compile
++- javax.transaction:javax.transaction-api:jar:1.2:compile
++- org.aspectj:aspectjweaver:jar:1.8.9:compile
++- org.springframework:spring-aop:jar:4.3.16.RELEASE:compile
+|  +- (org.springframework:spring-beans:jar:4.3.16.RELEASE:compile - omitted for duplicate)
+|  \- org.springframework:spring-core:jar:4.3.16.RELEASE:compile
+|     \- commons-logging:commons-logging:jar:1.2:compile
++- org.springframework:spring-beans:jar:4.3.16.RELEASE:compile
+|  \- (org.springframework:spring-core:jar:4.3.16.RELEASE:compile - omitted for duplicate)
++- org.springframework:spring-context:jar:4.3.16.RELEASE:compile
+|  +- (org.springframework:spring-aop:jar:4.3.16.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-beans:jar:4.3.16.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-core:jar:4.3.16.RELEASE:compile - omitted for duplicate)
+|  \- org.springframework:spring-expression:jar:4.3.16.RELEASE:compile
+|     \- (org.springframework:spring-core:jar:4.3.16.RELEASE:compile - omitted for duplicate)
++- org.springframework:spring-context-support:jar:4.3.16.RELEASE:compile
+|  +- (org.springframework:spring-beans:jar:4.3.16.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-context:jar:4.3.16.RELEASE:compile - omitted for duplicate)
+|  \- (org.springframework:spring-core:jar:4.3.16.RELEASE:compile - omitted for duplicate)
++- org.springframework:spring-orm:jar:4.3.16.RELEASE:compile
+|  +- (org.springframework:spring-beans:jar:4.3.16.RELEASE:compile - omitted for duplicate)
+|  +- (org.springframework:spring-core:jar:4.3.16.RELEASE:compile - omitted for duplicate)
+|  +- org.springframework:spring-jdbc:jar:4.3.16.RELEASE:compile
+|  |  +- (org.springframework:spring-beans:jar:4.3.16.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-core:jar:4.3.16.RELEASE:compile - omitted for duplicate)
+|  |  \- (org.springframework:spring-tx:jar:4.3.16.RELEASE:compile - omitted for duplicate)
+|  \- (org.springframework:spring-tx:jar:4.3.16.RELEASE:compile - omitted for duplicate)
++- org.springframework:spring-tx:jar:4.3.16.RELEASE:compile
+|  +- (org.springframework:spring-beans:jar:4.3.16.RELEASE:compile - omitted for duplicate)
+|  \- (org.springframework:spring-core:jar:4.3.16.RELEASE:compile - omitted for duplicate)
+\- org.eclipse.persistence:javax.persistence:jar:2.0.0:provided

@@ -1,0 +1,281 @@
+org.aksw.jena-sparql-api:jena-sparql-api-server-utils:jar:3.7.0-2
++- org.aksw.jena-sparql-api:jena-sparql-api-core:jar:3.7.0-2:compile
+|  +- (org.aksw.jena-sparql-api:jena-sparql-api-utils:jar:3.7.0-2:compile - omitted for duplicate)
+|  +- org.aksw.jena-sparql-api:jena-sparql-api-vocabs:jar:3.7.0-2:compile
+|  |  \- (org.apache.jena:jena-arq:jar:3.7.0:compile - omitted for duplicate)
+|  +- org.aksw.jena-sparql-api:jena-sparql-api-sparql-ext:jar:3.7.0-2:compile
+|  |  +- (org.aksw.jena-sparql-api:jena-sparql-api-utils:jar:3.7.0-2:compile - omitted for duplicate)
+|  |  +- net.sf.jopt-simple:jopt-simple:jar:5.0.4:compile
+|  |  +- (org.apache.jena:jena-core:jar:3.7.0:compile - omitted for duplicate)
+|  |  +- (org.apache.jena:jena-arq:jar:3.7.0:compile - omitted for duplicate)
+|  |  +- (com.google.code.gson:gson:jar:2.8.2:compile - omitted for duplicate)
+|  |  +- com.jayway.jsonpath:json-path:jar:2.4.0:compile
+|  |  |  +- net.minidev:json-smart:jar:2.3:compile
+|  |  |  |  \- net.minidev:accessors-smart:jar:1.2:compile
+|  |  |  |     \- (org.ow2.asm:asm:jar:5.0.4:compile - omitted for conflict with 6.0)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.21; omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:24.0-jre:compile - version managed from 22.0; omitted for duplicate)
+|  |  +- commons-validator:commons-validator:jar:1.6:compile
+|  |  |  +- commons-beanutils:commons-beanutils:jar:1.9.2:compile
+|  |  |  |  \- (commons-collections:commons-collections:jar:3.2.1:compile - omitted for conflict with 3.2.2)
+|  |  |  +- commons-digester:commons-digester:jar:1.8.1:compile
+|  |  |  \- commons-collections:commons-collections:jar:3.2.2:compile
+|  |  \- org.codehaus.plexus:plexus-utils:jar:3.1.0:compile
+|  +- io.reactivex.rxjava2:rxjava:jar:2.1.14:compile
+|  |  \- org.reactivestreams:reactive-streams:jar:1.0.2:compile
+|  +- org.apache.jena:jena-core:jar:3.7.0:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.21; omitted for duplicate)
+|  |  +- (org.apache.jena:jena-iri:jar:3.7.0:compile - omitted for duplicate)
+|  |  +- xerces:xercesImpl:jar:2.11.0:compile
+|  |  |  \- (xml-apis:xml-apis:jar:1.4.01:runtime - scope managed from compile; omitted for duplicate)
+|  |  +- (commons-cli:commons-cli:jar:1.4:compile - omitted for duplicate)
+|  |  +- commons-codec:commons-codec:jar:1.11:compile
+|  |  \- org.apache.jena:jena-base:jar:3.7.0:compile
+|  |     +- (org.apache.jena:jena-shaded-guava:jar:3.7.0:compile - omitted for duplicate)
+|  |     +- org.apache.commons:commons-csv:jar:1.5:compile
+|  |     +- commons-io:commons-io:jar:2.6:compile
+|  |     +- (org.apache.commons:commons-lang3:jar:3.7:compile - version managed from 3.4; omitted for duplicate)
+|  |     +- com.github.andrewoma.dexx:collection:jar:0.7:compile
+|  |     \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.21; omitted for duplicate)
+|  +- org.apache.jena:jena-arq:jar:3.7.0:compile
+|  |  +- (org.apache.jena:jena-core:jar:3.7.0:compile - omitted for duplicate)
+|  |  +- org.apache.jena:jena-shaded-guava:jar:3.7.0:compile
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.21; omitted for duplicate)
+|  |  +- org.apache.httpcomponents:httpclient:jar:4.5.3:compile
+|  |  |  +- org.apache.httpcomponents:httpcore:jar:4.4.6:compile
+|  |  |  \- (commons-codec:commons-codec:jar:1.9:compile - omitted for conflict with 1.11)
+|  |  +- com.github.jsonld-java:jsonld-java:jar:0.11.1:compile
+|  |  |  +- com.fasterxml.jackson.core:jackson-core:jar:2.9.0:compile
+|  |  |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.9.0:compile
+|  |  |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+|  |  |  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.0:compile - omitted for duplicate)
+|  |  |  +- (org.slf4j:jcl-over-slf4j:jar:1.7.25:runtime - omitted for duplicate)
+|  |  |  \- (commons-io:commons-io:jar:2.5:compile - omitted for conflict with 2.6)
+|  |  +- org.apache.httpcomponents:httpclient-cache:jar:4.5.3:compile
+|  |  |  \- (org.apache.httpcomponents:httpclient:jar:4.5.3:compile - omitted for duplicate)
+|  |  +- org.apache.thrift:libthrift:jar:0.10.0:compile
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.12; omitted for duplicate)
+|  |  |  \- (org.apache.httpcomponents:httpclient:jar:4.4.1:compile - omitted for conflict with 4.5.3)
+|  |  +- org.slf4j:jcl-over-slf4j:jar:1.7.25:compile
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.12; omitted for duplicate)
+|  |  +- org.apache.commons:commons-lang3:jar:3.7:compile (version managed from 3.4)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.12; omitted for duplicate)
+|  +- org.apache.jena:jena-iri:jar:3.7.0:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.12; omitted for duplicate)
+|  +- org.aksw.commons:aksw-commons-collections:jar:0.8.9:compile
+|  |  +- (com.google.guava:guava:jar:24.0-jre:compile - version managed from 22.0; omitted for duplicate)
+|  |  +- com.codepoetics:protonpack:jar:1.15:compile (version managed from 1.11)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.21; omitted for duplicate)
+|  |  \- (junit:junit:jar:4.12:test - version managed from 4.7; scope managed from compile; omitted for duplicate)
+|  +- (com.google.guava:guava:jar:24.0-jre:compile - version managed from 19.0-rc2; omitted for duplicate)
+|  +- org.apache.commons:commons-compress:jar:1.15:compile
+|  |  \- org.objenesis:objenesis:jar:2.6:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.5; omitted for duplicate)
+|  \- com.nurkiewicz.asyncretry:asyncretry-jdk7:jar:0.0.6:compile
+|     +- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.5; omitted for duplicate)
+|     \- (com.google.guava:guava:jar:24.0-jre:compile - version managed from 18.0; omitted for duplicate)
++- org.aksw.jena-sparql-api:jena-sparql-api-utils:jar:3.7.0-2:compile
+|  +- (org.apache.jena:jena-core:jar:3.7.0:compile - omitted for duplicate)
+|  +- (org.apache.jena:jena-arq:jar:3.7.0:compile - omitted for duplicate)
+|  +- org.apache.jena:jena-sdb:jar:3.7.0:compile
+|  |  +- (org.apache.jena:jena-arq:jar:3.7.0:compile - omitted for duplicate)
+|  |  +- org.apache.jena:jena-cmds:jar:3.7.0:compile
+|  |  |  +- org.apache.jena:apache-jena-libs:pom:3.7.0:compile
+|  |  |  |  +- org.apache.jena:jena-tdb:jar:3.7.0:compile
+|  |  |  |  |  +- (org.apache.jena:jena-arq:jar:3.7.0:compile - omitted for duplicate)
+|  |  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.5; omitted for duplicate)
+|  |  |  |  +- org.apache.jena:jena-tdb2:jar:3.7.0:compile
+|  |  |  |  |  +- org.apache.jena:jena-dboe-trans-data:jar:3.7.0:compile
+|  |  |  |  |  |  +- org.apache.jena:jena-dboe-transaction:jar:3.7.0:compile
+|  |  |  |  |  |  |  +- org.apache.jena:jena-dboe-base:jar:3.7.0:compile
+|  |  |  |  |  |  |  |  +- (org.apache.jena:jena-arq:jar:3.7.0:compile - omitted for duplicate)
+|  |  |  |  |  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.5; omitted for duplicate)
+|  |  |  |  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.5; omitted for duplicate)
+|  |  |  |  |  |  +- org.apache.jena:jena-dboe-index:jar:3.7.0:compile
+|  |  |  |  |  |  |  +- (org.apache.jena:jena-dboe-base:jar:3.7.0:compile - omitted for duplicate)
+|  |  |  |  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.5; omitted for duplicate)
+|  |  |  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.5; omitted for duplicate)
+|  |  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.5; omitted for duplicate)
+|  |  |  |  +- org.apache.jena:jena-rdfconnection:jar:3.7.0:compile
+|  |  |  |  |  +- (org.apache.jena:jena-arq:jar:3.7.0:compile - omitted for duplicate)
+|  |  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.5; omitted for duplicate)
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.5; omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.5; omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.5; omitted for duplicate)
+|  +- (io.reactivex.rxjava2:rxjava:jar:2.1.14:compile - omitted for duplicate)
+|  +- (org.aksw.commons:aksw-commons-collections:jar:0.8.9:compile - omitted for duplicate)
+|  +- org.aksw.commons:aksw-commons-util:jar:0.8.9:compile
+|  |  +- (org.slf4j:slf4j-ext:jar:1.7.25:test - version managed from 1.7.21; scope managed from compile; omitted for duplicate)
+|  |  +- (org.aksw.commons:aksw-commons-collections:jar:0.8.9:compile - omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:24.0-jre:compile - version managed from 22.0; omitted for duplicate)
+|  |  +- net.sourceforge.collections:collections-generic:jar:4.01:compile
+|  |  +- (org.apache.commons:commons-lang3:jar:3.7:compile - version managed from 3.5; omitted for duplicate)
+|  |  +- commons-lang:commons-lang:jar:2.5:compile
+|  |  +- (junit:junit:jar:4.12:test - version managed from 4.7; scope managed from compile; omitted for duplicate)
+|  |  +- (commons-validator:commons-validator:jar:1.6:compile - version managed from 1.3.1; omitted for duplicate)
+|  |  +- com.thoughtworks.xstream:xstream:jar:1.3.1:compile
+|  |  |  \- xpp3:xpp3_min:jar:1.1.4c:compile
+|  |  \- (org.apache.commons:commons-compress:jar:1.15:compile - version managed from 1.14; omitted for duplicate)
+|  +- (com.google.guava:guava:jar:24.0-jre:compile - version managed from 22.0; omitted for duplicate)
+|  +- com.google.code.gson:gson:jar:2.8.2:compile
+|  +- (org.apache.commons:commons-compress:jar:1.15:compile - version managed from 1.14; omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - version managed from 1.7.5; omitted for duplicate)
++- org.aksw.jena-sparql-api:jena-sparql-api-web:jar:3.7.0-2:compile
+|  +- org.aksw.jena-sparql-api:jena-sparql-api-concepts:jar:3.7.0-2:compile
+|  |  +- org.aksw.commons:jena-jgrapht-bindings:jar:1.1.1:compile
+|  |  |  +- org.jgrapht:jgrapht-core:jar:1.1.0:compile
+|  |  |  +- (org.apache.jena:jena-arq:jar:3.7.0:compile - version managed from 3.6.0; omitted for duplicate)
+|  |  |  \- (com.google.guava:guava:jar:24.0-jre:compile - version managed from 22.0; omitted for duplicate)
+|  |  +- (org.aksw.jena-sparql-api:jena-sparql-api-core:jar:3.7.0-2:compile - omitted for duplicate)
+|  |  \- org.aksw.gson:gson-utils-core:jar:1.0.0:compile
+|  |     +- (com.google.code.gson:gson:jar:2.8.2:compile - version managed from 2.3.1; omitted for duplicate)
+|  |     \- (com.google.guava:guava:jar:24.0-jre:compile - version managed from 19.0-rc2; omitted for duplicate)
+|  +- org.aksw.jena-sparql-api:jena-sparql-api-update:jar:3.7.0-2:compile
+|  |  \- (org.aksw.jena-sparql-api:jena-sparql-api-core:jar:3.7.0-2:compile - omitted for duplicate)
+|  +- org.springframework:spring-beans:jar:4.3.14.RELEASE:compile
+|  |  \- (org.springframework:spring-core:jar:4.3.14.RELEASE:compile - version managed from 3.2.17.RELEASE; omitted for duplicate)
+|  +- org.springframework:spring-context:jar:4.3.14.RELEASE:compile
+|  |  +- (org.springframework:spring-aop:jar:4.3.14.RELEASE:compile - version managed from 3.2.17.RELEASE; omitted for duplicate)
+|  |  +- (org.springframework:spring-beans:jar:4.3.14.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-core:jar:4.3.14.RELEASE:compile - omitted for duplicate)
+|  |  \- (org.springframework:spring-expression:jar:4.3.14.RELEASE:compile - omitted for duplicate)
+|  +- org.glassfish.jersey.ext:jersey-spring3:jar:2.26-b03:compile
+|  |  +- (org.glassfish.jersey.core:jersey-server:jar:2.26-b03:compile - omitted for duplicate)
+|  |  +- (org.glassfish.jersey.containers:jersey-container-servlet-core:jar:2.26-b03:compile - omitted for duplicate)
+|  |  +- org.glassfish.hk2:hk2:jar:2.5.0-b36:compile
+|  |  |  +- org.glassfish.hk2:hk2-utils:jar:2.5.0-b36:compile
+|  |  |  +- (org.glassfish.hk2:hk2-api:jar:2.5.0-b36:compile - omitted for duplicate)
+|  |  |  +- org.glassfish.hk2:config-types:jar:2.5.0-b36:compile
+|  |  |  |  \- (org.glassfish.hk2:hk2-config:jar:2.5.0-b36:compile - omitted for duplicate)
+|  |  |  +- org.glassfish.hk2:hk2-core:jar:2.5.0-b36:compile
+|  |  |  |  +- (org.glassfish.hk2:hk2-locator:jar:2.5.0-b36:compile - omitted for duplicate)
+|  |  |  |  \- (org.glassfish.hk2:hk2-utils:jar:2.5.0-b36:compile - omitted for duplicate)
+|  |  |  +- org.glassfish.hk2:hk2-config:jar:2.5.0-b36:compile
+|  |  |  |  +- (org.glassfish.hk2:hk2-core:jar:2.5.0-b36:compile - omitted for duplicate)
+|  |  |  |  \- org.hibernate:hibernate-validator:jar:5.2.4.Final:compile
+|  |  |  |     +- org.jboss.logging:jboss-logging:jar:3.2.1.Final:compile
+|  |  |  |     \- com.fasterxml:classmate:jar:1.1.0:compile
+|  |  |  +- (org.glassfish.hk2:hk2-locator:jar:2.5.0-b36:compile - omitted for duplicate)
+|  |  |  +- org.glassfish.hk2:hk2-runlevel:jar:2.5.0-b36:compile
+|  |  |  |  +- (org.glassfish.hk2:hk2-api:jar:2.5.0-b36:compile - omitted for duplicate)
+|  |  |  |  \- (org.glassfish.hk2:hk2-locator:jar:2.5.0-b36:compile - omitted for duplicate)
+|  |  |  \- org.glassfish.hk2:class-model:jar:2.5.0-b36:compile
+|  |  |     \- org.glassfish.hk2.external:asm-all-repackaged:jar:2.5.0-b36:compile
+|  |  +- org.glassfish.hk2:spring-bridge:jar:2.5.0-b36:compile
+|  |  |  \- (org.springframework:spring-context:jar:4.3.14.RELEASE:compile - version managed from 3.2.3.RELEASE; omitted for duplicate)
+|  |  +- (org.springframework:spring-beans:jar:4.3.14.RELEASE:compile - version managed from 3.2.17.RELEASE; omitted for duplicate)
+|  |  +- (org.springframework:spring-core:jar:4.3.14.RELEASE:compile - version managed from 3.2.17.RELEASE; omitted for duplicate)
+|  |  +- (org.springframework:spring-web:jar:4.3.14.RELEASE:compile - version managed from 3.2.17.RELEASE; omitted for duplicate)
+|  |  +- (org.springframework:spring-aop:jar:4.3.14.RELEASE:compile - version managed from 3.2.17.RELEASE; omitted for duplicate)
+|  |  \- (javax.ws.rs:javax.ws.rs-api:jar:2.1-m05:compile - omitted for duplicate)
+|  +- (org.springframework:spring-web:jar:4.3.14.RELEASE:compile - version managed from 3.2.17.RELEASE; omitted for duplicate)
+|  +- (org.eclipse.jetty:jetty-servlet:jar:9.4.8.v20171121:compile - omitted for duplicate)
+|  \- (com.google.code.gson:gson:jar:2.8.2:compile - version managed from 2.3.1; omitted for duplicate)
++- org.glassfish.jersey.containers:jersey-container-servlet:jar:2.26-b03:compile
+|  +- org.glassfish.jersey.containers:jersey-container-servlet-core:jar:2.26-b03:compile
+|  |  +- org.glassfish.hk2.external:javax.inject:jar:2.5.0-b36:compile
+|  |  +- (org.glassfish.jersey.core:jersey-common:jar:2.26-b03:compile - omitted for duplicate)
+|  |  +- (org.glassfish.jersey.core:jersey-server:jar:2.26-b03:compile - omitted for duplicate)
+|  |  \- (javax.ws.rs:javax.ws.rs-api:jar:2.1-m05:compile - omitted for duplicate)
+|  +- org.glassfish.jersey.core:jersey-common:jar:2.26-b03:compile
+|  |  +- (javax.ws.rs:javax.ws.rs-api:jar:2.1-m05:compile - omitted for duplicate)
+|  |  +- javax.annotation:javax.annotation-api:jar:1.2:compile
+|  |  +- org.glassfish.jersey.bundles.repackaged:jersey-guava:jar:2.26-b03:compile
+|  |  +- org.glassfish.hk2:hk2-api:jar:2.5.0-b36:compile
+|  |  |  +- (org.glassfish.hk2:hk2-utils:jar:2.5.0-b36:compile - omitted for duplicate)
+|  |  |  \- org.glassfish.hk2.external:aopalliance-repackaged:jar:2.5.0-b36:compile
+|  |  +- (org.glassfish.hk2.external:javax.inject:jar:2.5.0-b36:compile - omitted for duplicate)
+|  |  +- org.glassfish.hk2:hk2-locator:jar:2.5.0-b36:compile
+|  |  |  +- (org.glassfish.hk2.external:javax.inject:jar:2.5.0-b36:compile - omitted for duplicate)
+|  |  |  +- (org.glassfish.hk2.external:aopalliance-repackaged:jar:2.5.0-b36:compile - omitted for duplicate)
+|  |  |  +- (org.glassfish.hk2:hk2-api:jar:2.5.0-b36:compile - omitted for duplicate)
+|  |  |  +- (org.glassfish.hk2:hk2-utils:jar:2.5.0-b36:compile - omitted for duplicate)
+|  |  |  \- org.javassist:javassist:jar:3.20.0-GA:compile
+|  |  \- org.glassfish.hk2:osgi-resource-locator:jar:1.0.1:compile
+|  +- org.glassfish.jersey.core:jersey-server:jar:2.26-b03:compile
+|  |  +- (org.glassfish.jersey.core:jersey-common:jar:2.26-b03:compile - omitted for duplicate)
+|  |  +- org.glassfish.jersey.core:jersey-client:jar:2.26-b03:compile
+|  |  |  +- (javax.ws.rs:javax.ws.rs-api:jar:2.1-m05:compile - omitted for duplicate)
+|  |  |  +- (org.glassfish.jersey.core:jersey-common:jar:2.26-b03:compile - omitted for duplicate)
+|  |  |  +- (org.glassfish.hk2:hk2-api:jar:2.5.0-b36:compile - omitted for duplicate)
+|  |  |  +- (org.glassfish.hk2.external:javax.inject:jar:2.5.0-b36:compile - omitted for duplicate)
+|  |  |  \- (org.glassfish.hk2:hk2-locator:jar:2.5.0-b36:compile - omitted for duplicate)
+|  |  +- (javax.ws.rs:javax.ws.rs-api:jar:2.1-m05:compile - omitted for duplicate)
+|  |  +- org.glassfish.jersey.media:jersey-media-jaxb:jar:2.26-b03:compile
+|  |  |  +- (org.glassfish.jersey.core:jersey-common:jar:2.26-b03:compile - omitted for duplicate)
+|  |  |  +- (org.glassfish.hk2:hk2-api:jar:2.5.0-b36:compile - omitted for duplicate)
+|  |  |  +- (org.glassfish.hk2.external:javax.inject:jar:2.5.0-b36:compile - omitted for duplicate)
+|  |  |  +- (org.glassfish.hk2:hk2-locator:jar:2.5.0-b36:compile - omitted for duplicate)
+|  |  |  \- (org.glassfish.hk2:osgi-resource-locator:jar:1.0.1:compile - omitted for duplicate)
+|  |  +- (javax.annotation:javax.annotation-api:jar:1.2:compile - omitted for duplicate)
+|  |  +- (org.glassfish.hk2:hk2-api:jar:2.5.0-b36:compile - omitted for duplicate)
+|  |  +- (org.glassfish.hk2.external:javax.inject:jar:2.5.0-b36:compile - omitted for duplicate)
+|  |  +- (org.glassfish.hk2:hk2-locator:jar:2.5.0-b36:compile - omitted for duplicate)
+|  |  \- javax.validation:validation-api:jar:1.1.0.Final:compile
+|  \- javax.ws.rs:javax.ws.rs-api:jar:2.1-m05:compile
++- org.springframework:spring-webmvc:jar:4.3.14.RELEASE:compile
+|  +- org.springframework:spring-aop:jar:4.3.14.RELEASE:compile
+|  |  +- (org.springframework:spring-beans:jar:4.3.14.RELEASE:compile - version managed from 3.2.17.RELEASE; omitted for duplicate)
+|  |  \- (org.springframework:spring-core:jar:4.3.14.RELEASE:compile - version managed from 3.2.17.RELEASE; omitted for duplicate)
+|  +- (org.springframework:spring-beans:jar:4.3.14.RELEASE:compile - version managed from 3.2.17.RELEASE; omitted for duplicate)
+|  +- (org.springframework:spring-context:jar:4.3.14.RELEASE:compile - version managed from 3.2.3.RELEASE; omitted for duplicate)
+|  +- org.springframework:spring-core:jar:4.3.14.RELEASE:compile
+|  +- org.springframework:spring-expression:jar:4.3.14.RELEASE:compile
+|  |  \- (org.springframework:spring-core:jar:4.3.14.RELEASE:compile - version managed from 3.2.17.RELEASE; omitted for duplicate)
+|  \- (org.springframework:spring-web:jar:4.3.14.RELEASE:compile - version managed from 3.2.17.RELEASE; omitted for duplicate)
++- org.springframework:spring-web:jar:4.3.14.RELEASE:compile
+|  +- (org.springframework:spring-aop:jar:4.3.14.RELEASE:compile - version managed from 3.2.17.RELEASE; omitted for duplicate)
+|  +- (org.springframework:spring-beans:jar:4.3.14.RELEASE:compile - version managed from 3.2.17.RELEASE; omitted for duplicate)
+|  +- (org.springframework:spring-context:jar:4.3.14.RELEASE:compile - version managed from 3.2.3.RELEASE; omitted for duplicate)
+|  \- (org.springframework:spring-core:jar:4.3.14.RELEASE:compile - version managed from 3.2.17.RELEASE; omitted for duplicate)
++- xml-apis:xml-apis:jar:1.4.01:runtime
++- eu.infomas:annotation-detector:jar:3.0.5:runtime
++- org.eclipse.jetty:jetty-server:jar:9.4.8.v20171121:compile
+|  +- javax.servlet:javax.servlet-api:jar:3.1.0:compile
+|  +- (org.eclipse.jetty:jetty-http:jar:9.4.8.v20171121:compile - omitted for duplicate)
+|  \- org.eclipse.jetty:jetty-io:jar:9.4.8.v20171121:compile
+|     \- (org.eclipse.jetty:jetty-util:jar:9.4.8.v20171121:compile - omitted for duplicate)
++- org.eclipse.jetty:jetty-webapp:jar:9.4.8.v20171121:compile
+|  +- org.eclipse.jetty:jetty-xml:jar:9.4.8.v20171121:compile
+|  |  \- (org.eclipse.jetty:jetty-util:jar:9.4.8.v20171121:compile - omitted for duplicate)
+|  \- (org.eclipse.jetty:jetty-servlet:jar:9.4.8.v20171121:compile - omitted for duplicate)
++- org.eclipse.jetty:jetty-servlet:jar:9.4.8.v20171121:compile
+|  \- org.eclipse.jetty:jetty-security:jar:9.4.8.v20171121:compile
+|     \- (org.eclipse.jetty:jetty-server:jar:9.4.8.v20171121:compile - omitted for duplicate)
++- org.eclipse.jetty:jetty-http:jar:9.4.8.v20171121:compile
+|  +- org.eclipse.jetty:jetty-util:jar:9.4.8.v20171121:compile
+|  \- (org.eclipse.jetty:jetty-io:jar:9.4.8.v20171121:compile - omitted for duplicate)
++- org.eclipse.jetty:apache-jsp:jar:9.4.8.v20171121:compile
+|  +- (org.eclipse.jetty:jetty-util:jar:9.4.8.v20171121:compile - omitted for duplicate)
+|  +- org.eclipse.jetty.toolchain:jetty-schemas:jar:3.1:compile
+|  +- (javax.servlet:javax.servlet-api:jar:3.1.0:compile - omitted for duplicate)
+|  +- org.mortbay.jasper:apache-jsp:jar:8.5.23:compile
+|  |  +- (org.eclipse.jetty.toolchain:jetty-schemas:jar:3.1:compile - omitted for duplicate)
+|  |  +- org.mortbay.jasper:apache-el:jar:8.5.23:compile
+|  |  \- org.eclipse.jdt:ecj:jar:3.12.3:compile
+|  \- org.eclipse.jetty:jetty-annotations:jar:9.4.8.v20171121:compile
+|     +- org.eclipse.jetty:jetty-plus:jar:9.4.8.v20171121:compile
+|     |  +- (org.eclipse.jetty:jetty-webapp:jar:9.4.8.v20171121:compile - omitted for duplicate)
+|     |  \- org.eclipse.jetty:jetty-jndi:jar:9.4.8.v20171121:compile
+|     |     \- (org.eclipse.jetty:jetty-util:jar:9.4.8.v20171121:compile - omitted for duplicate)
+|     +- (org.eclipse.jetty:jetty-webapp:jar:9.4.8.v20171121:compile - omitted for duplicate)
+|     +- (javax.annotation:javax.annotation-api:jar:1.2:compile - omitted for duplicate)
+|     +- (org.ow2.asm:asm:jar:6.0:compile - omitted for duplicate)
+|     \- org.ow2.asm:asm-commons:jar:6.0:compile
+|        \- org.ow2.asm:asm-tree:jar:6.0:compile
+|           \- (org.ow2.asm:asm:jar:6.0:compile - omitted for duplicate)
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- org.slf4j:slf4j-ext:jar:1.7.25:test
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:test - version managed from 1.7.5; omitted for duplicate)
++- com.google.guava:guava:jar:24.0-jre:compile
+|  +- com.google.code.findbugs:jsr305:jar:1.3.9:compile
+|  +- org.checkerframework:checker-compat-qual:jar:2.0.0:compile
+|  +- com.google.errorprone:error_prone_annotations:jar:2.1.3:compile
+|  +- com.google.j2objc:j2objc-annotations:jar:1.1:compile
+|  \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:compile
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- log4j:log4j:jar:1.2.17:test
+\- org.slf4j:slf4j-log4j12:jar:1.8.0-beta1:test
+   +- (org.slf4j:slf4j-api:jar:1.7.25:test - version managed from 1.8.0-beta1; omitted for duplicate)
+   \- (log4j:log4j:jar:1.2.17:test - omitted for duplicate)

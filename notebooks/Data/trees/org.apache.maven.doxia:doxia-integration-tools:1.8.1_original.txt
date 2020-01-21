@@ -1,0 +1,97 @@
+org.apache.maven.doxia:doxia-integration-tools:jar:1.8.1
++- org.apache.maven.reporting:maven-reporting-api:jar:3.0:compile
+|  \- org.apache.maven.doxia:doxia-sink-api:jar:1.8:compile (version managed from 1.0)
+|     \- (org.apache.maven.doxia:doxia-logging-api:jar:1.8:compile - omitted for duplicate)
++- commons-io:commons-io:jar:1.4:compile
++- org.apache.maven:maven-artifact:jar:2.2.1:compile
+|  \- (org.codehaus.plexus:plexus-utils:jar:3.0.22:compile - version managed from 1.4.1; omitted for duplicate)
++- org.apache.maven:maven-artifact-manager:jar:2.2.1:provided
+|  +- org.apache.maven:maven-repository-metadata:jar:2.2.1:provided
+|  |  \- (org.codehaus.plexus:plexus-utils:jar:3.0.22:provided - version managed from 1.5.15; omitted for duplicate)
+|  +- (org.codehaus.plexus:plexus-utils:jar:3.0.22:provided - version managed from 1.5.15; omitted for duplicate)
+|  +- (org.apache.maven:maven-artifact:jar:2.2.1:provided - omitted for duplicate)
+|  +- (org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-30:compile - version managed from 1.0-alpha-9-stable-1; scope updated from provided; omitted for duplicate)
+|  +- org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-6:provided
+|  |  \- (org.codehaus.plexus:plexus-utils:jar:3.0.22:provided - version managed from 1.4.2; omitted for duplicate)
+|  \- backport-util-concurrent:backport-util-concurrent:jar:3.1:provided
++- org.apache.maven:maven-model:jar:2.2.1:compile
+|  \- (org.codehaus.plexus:plexus-utils:jar:3.0.22:compile - version managed from 1.5.15; omitted for duplicate)
++- org.apache.maven:maven-project:jar:2.2.1:provided
+|  +- org.apache.maven:maven-settings:jar:2.2.1:provided
+|  |  +- (org.apache.maven:maven-model:jar:2.2.1:provided - omitted for duplicate)
+|  |  +- (org.codehaus.plexus:plexus-interpolation:jar:1.11:provided - omitted for duplicate)
+|  |  +- (org.codehaus.plexus:plexus-utils:jar:3.0.22:provided - version managed from 1.5.15; omitted for duplicate)
+|  |  \- (org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-30:compile - version managed from 1.0-alpha-9-stable-1; scope updated from provided; omitted for duplicate)
+|  +- org.apache.maven:maven-profile:jar:2.2.1:provided
+|  |  +- (org.apache.maven:maven-model:jar:2.2.1:provided - omitted for duplicate)
+|  |  +- (org.codehaus.plexus:plexus-utils:jar:3.0.22:provided - version managed from 1.5.15; omitted for duplicate)
+|  |  +- (org.codehaus.plexus:plexus-interpolation:jar:1.11:provided - omitted for duplicate)
+|  |  \- (org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-30:compile - version managed from 1.0-alpha-9-stable-1; scope updated from provided; omitted for duplicate)
+|  +- (org.apache.maven:maven-model:jar:2.2.1:provided - omitted for duplicate)
+|  +- (org.apache.maven:maven-artifact-manager:jar:2.2.1:provided - omitted for duplicate)
+|  +- org.apache.maven:maven-plugin-registry:jar:2.2.1:provided
+|  |  +- (org.codehaus.plexus:plexus-utils:jar:3.0.22:provided - version managed from 1.5.15; omitted for duplicate)
+|  |  \- (org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-30:compile - version managed from 1.0-alpha-9-stable-1; scope updated from provided; omitted for duplicate)
+|  +- (org.codehaus.plexus:plexus-interpolation:jar:1.11:provided - omitted for conflict with 1.14)
+|  +- (org.codehaus.plexus:plexus-utils:jar:3.0.22:provided - version managed from 1.5.15; omitted for duplicate)
+|  +- (org.apache.maven:maven-artifact:jar:2.2.1:provided - omitted for duplicate)
+|  \- (org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-30:compile - version managed from 1.0-alpha-9-stable-1; scope updated from provided; omitted for duplicate)
++- org.apache.maven:maven-plugin-api:jar:2.2.1:compile
++- org.apache.maven.doxia:doxia-logging-api:jar:1.8:compile
+|  \- (org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-30:compile - version managed from 1.7.1; omitted for conflict with 1.0-alpha-9)
++- org.apache.maven.doxia:doxia-decoration-model:jar:1.8.1:compile
+|  +- (org.codehaus.plexus:plexus-component-annotations:jar:1.6:compile - omitted for duplicate)
+|  \- (org.codehaus.plexus:plexus-utils:jar:3.0.22:compile - version managed from 1.4.5; omitted for duplicate)
++- org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9:compile
+|  +- (junit:junit:jar:3.8.2:compile - version managed from 3.8.1; omitted for duplicate)
+|  +- (org.codehaus.plexus:plexus-utils:jar:3.0.22:compile - version managed from 1.0.4; omitted for duplicate)
+|  \- classworlds:classworlds:jar:1.1-alpha-2:compile
++- org.codehaus.plexus:plexus-i18n:jar:1.0-beta-7:compile
+|  \- (org.codehaus.plexus:plexus-utils:jar:3.0.22:compile - version managed from 1.4.1; omitted for duplicate)
++- org.codehaus.plexus:plexus-utils:jar:3.0.22:compile
++- org.codehaus.plexus:plexus-component-annotations:jar:1.6:compile
++- org.codehaus.plexus:plexus-interpolation:jar:1.14:compile
++- junit:junit:jar:3.8.2:test (scope not updated to compile)
+\- org.apache.maven.shared:maven-plugin-testing-harness:jar:1.0:test
+   +- (org.apache.maven:maven-project:jar:2.0:test - omitted for conflict with 2.2.1)
+   +- org.apache.maven:maven-core:jar:2.0:test
+   |  +- (org.apache.maven:maven-settings:jar:2.0:test - omitted for conflict with 2.2.1)
+   |  +- org.apache.maven.wagon:wagon-file:jar:1.0-alpha-5:test
+   |  |  +- (org.codehaus.plexus:plexus-utils:jar:3.0.22:test - version managed from 1.0.4; omitted for duplicate)
+   |  |  \- (org.apache.maven.wagon:wagon-provider-api:jar:1.0-alpha-5:test - omitted for conflict with 1.0-beta-6)
+   |  +- org.apache.maven:maven-plugin-parameter-documenter:jar:2.0:test
+   |  |  +- (org.codehaus.plexus:plexus-utils:jar:3.0.22:test - version managed from 1.0.4; omitted for duplicate)
+   |  |  \- (org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-30:test - version managed from 1.0-alpha-8; omitted for conflict with 1.0-alpha-9)
+   |  +- org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-alpha-5:test
+   |  |  +- (org.codehaus.plexus:plexus-utils:jar:3.0.22:test - version managed from 1.0.4; omitted for duplicate)
+   |  |  \- (org.apache.maven.wagon:wagon-provider-api:jar:1.0-alpha-5:test - omitted for conflict with 1.0-beta-6)
+   |  +- (org.apache.maven.reporting:maven-reporting-api:jar:2.0:test - omitted for conflict with 3.0)
+   |  +- (org.apache.maven:maven-profile:jar:2.0:test - omitted for conflict with 2.2.1)
+   |  +- (org.apache.maven:maven-model:jar:2.0:test - omitted for conflict with 2.2.1)
+   |  +- (org.apache.maven:maven-artifact:jar:2.0:test - omitted for conflict with 2.2.1)
+   |  +- (org.apache.maven.wagon:wagon-provider-api:jar:1.0-alpha-5:test - omitted for conflict with 1.0-beta-6)
+   |  +- (org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-30:test - version managed from 1.0-alpha-8; omitted for conflict with 1.0-alpha-9)
+   |  +- (org.apache.maven:maven-repository-metadata:jar:2.0:test - omitted for conflict with 2.2.1)
+   |  +- org.apache.maven:maven-error-diagnostics:jar:2.0:test
+   |  |  \- (org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-30:test - version managed from 1.0-alpha-8; omitted for conflict with 1.0-alpha-9)
+   |  +- (org.apache.maven:maven-project:jar:2.0:test - omitted for conflict with 2.2.1)
+   |  +- (org.apache.maven:maven-plugin-registry:jar:2.0:test - omitted for conflict with 2.2.1)
+   |  +- commons-cli:commons-cli:jar:1.0:test
+   |  +- (org.apache.maven:maven-plugin-api:jar:2.0:test - omitted for conflict with 2.2.1)
+   |  +- org.apache.maven:maven-plugin-descriptor:jar:2.0:test
+   |  |  +- (org.apache.maven:maven-plugin-api:jar:2.0:test - omitted for conflict with 2.2.1)
+   |  |  +- (org.apache.maven:maven-artifact:jar:2.0:test - omitted for conflict with 2.2.1)
+   |  |  \- (org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-30:test - version managed from 1.0-alpha-8; omitted for conflict with 1.0-alpha-9)
+   |  +- org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:test
+   |  |  \- (classworlds:classworlds:jar:1.1-alpha-2:test - omitted for duplicate)
+   |  +- (org.apache.maven:maven-artifact-manager:jar:2.0:test - omitted for conflict with 2.2.1)
+   |  +- org.apache.maven:maven-monitor:jar:2.0:test
+   |  +- org.apache.maven.wagon:wagon-ssh:jar:1.0-alpha-5:test
+   |  |  +- com.jcraft:jsch:jar:0.1.23:test
+   |  |  +- (org.codehaus.plexus:plexus-utils:jar:3.0.22:test - version managed from 1.0.4; omitted for duplicate)
+   |  |  +- (org.apache.maven.wagon:wagon-provider-api:jar:1.0-alpha-5:test - omitted for conflict with 1.0-beta-6)
+   |  |  +- (classworlds:classworlds:jar:1.1-alpha-2:test - omitted for duplicate)
+   |  |  \- (org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:test - omitted for duplicate)
+   |  \- (org.codehaus.plexus:plexus-utils:jar:3.0.22:test - version managed from 1.0.4; omitted for duplicate)
+   +- (junit:junit:jar:3.8.2:test - version managed from 3.8.1; omitted for duplicate)
+   \- (org.codehaus.plexus:plexus-utils:jar:3.0.22:test - version managed from 1.1; omitted for duplicate)

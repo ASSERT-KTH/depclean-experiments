@@ -1,0 +1,7 @@
+org.webjars.npm:editorconfig:jar:0.13.3
++- org.webjars.npm:commander:jar:2.20.0:compile
++- org.webjars.npm:lru-cache:jar:3.2.0:compile
+|  \- org.webjars.npm:pseudomap:jar:1.0.2:compile
++- org.webjars.npm:sigmund:jar:1.0.1:compile
++- org.webjars.npm:bluebird:jar:3.5.5:compile
+\- org.webjars.npm:semver:jar:5.7.0:compile

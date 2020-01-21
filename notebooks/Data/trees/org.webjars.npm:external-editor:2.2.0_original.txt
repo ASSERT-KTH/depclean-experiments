@@ -1,0 +1,6 @@
+org.webjars.npm:external-editor:jar:2.2.0
++- org.webjars.npm:chardet:jar:0.4.2:compile
++- org.webjars.npm:iconv-lite:jar:0.4.24:compile
+|  \- org.webjars.npm:safer-buffer:jar:2.1.2:compile
+\- org.webjars.npm:tmp:jar:0.0.33:compile
+   \- org.webjars.npm:os-tmpdir:jar:1.0.2:compile

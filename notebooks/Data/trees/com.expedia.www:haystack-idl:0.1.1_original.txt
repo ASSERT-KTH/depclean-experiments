@@ -1,0 +1,28 @@
+com.expedia.www:haystack-idl:jar:0.1.1
++- com.google.protobuf:protobuf-java:jar:3.3.1:provided
++- io.grpc:grpc-protobuf:jar:1.9.0:compile
+|  +- io.grpc:grpc-core:jar:1.9.0:compile
+|  |  +- io.grpc:grpc-context:jar:1.9.0:compile
+|  |  +- (com.google.guava:guava:jar:19.0:compile - omitted for duplicate)
+|  |  +- com.google.errorprone:error_prone_annotations:jar:2.1.2:compile
+|  |  +- com.google.code.findbugs:jsr305:jar:3.0.0:compile
+|  |  +- com.google.instrumentation:instrumentation-api:jar:0.4.3:compile
+|  |  |  +- (com.google.code.findbugs:jsr305:jar:3.0.0:compile - omitted for duplicate)
+|  |  |  \- (com.google.guava:guava:jar:19.0:compile - omitted for duplicate)
+|  |  +- io.opencensus:opencensus-api:jar:0.10.0:compile
+|  |  |  \- (com.google.guava:guava:jar:19.0:compile - omitted for duplicate)
+|  |  \- io.opencensus:opencensus-contrib-grpc-metrics:jar:0.10.0:compile
+|  |     +- (com.google.errorprone:error_prone_annotations:jar:2.1.2:compile - omitted for duplicate)
+|  |     \- (io.opencensus:opencensus-api:jar:0.10.0:compile - omitted for duplicate)
+|  +- (com.google.protobuf:protobuf-java:jar:3.3.1:provided - version managed from 3.5.1; scope managed from compile; omitted for duplicate)
+|  +- com.google.guava:guava:jar:19.0:compile
+|  +- com.google.protobuf:protobuf-java-util:jar:3.5.1:compile
+|  |  +- (com.google.protobuf:protobuf-java:jar:3.3.1:provided - version managed from 3.5.1; scope managed from compile; omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:19.0:compile - omitted for duplicate)
+|  |  \- com.google.code.gson:gson:jar:2.7:compile
+|  +- com.google.api.grpc:proto-google-common-protos:jar:1.0.0:compile
+|  \- io.grpc:grpc-protobuf-lite:jar:1.9.0:compile
+|     +- (io.grpc:grpc-core:jar:1.9.0:compile - omitted for duplicate)
+|     \- (com.google.guava:guava:jar:19.0:compile - omitted for duplicate)
+\- io.grpc:grpc-stub:jar:1.9.0:compile
+   \- (io.grpc:grpc-core:jar:1.9.0:compile - omitted for duplicate)

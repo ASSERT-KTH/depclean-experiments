@@ -1,0 +1,4 @@
+org.bridgedb.webservice:org.bridgedb.webservice.biomart:jar:2.3.0
++- org.bridgedb:org.bridgedb:jar:2.3.0:compile
+\- junit:junit:jar:4.12:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

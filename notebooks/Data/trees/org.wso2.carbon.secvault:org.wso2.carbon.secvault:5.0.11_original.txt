@@ -1,0 +1,26 @@
+org.wso2.carbon.secvault:org.wso2.carbon.secvault:bundle:5.0.11
++- org.wso2.eclipse.osgi:org.eclipse.osgi:jar:3.11.0.v20160603-1336:compile
++- org.wso2.eclipse.osgi:org.eclipse.osgi.services:jar:3.5.100.v20160504-1419:compile
++- org.wso2.carbon.utils:org.wso2.carbon.utils:jar:2.0.1:compile
++- org.yaml:snakeyaml:jar:1.21:compile
++- org.jacoco:org.jacoco.agent:jar:runtime:0.7.5.201505241946:test
++- org.slf4j:slf4j-api:jar:1.7.12:compile
++- org.testng:testng:jar:6.9.4:test
+|  +- org.beanshell:bsh:jar:2.0b4:test
+|  \- com.beust:jcommander:jar:1.48:test
++- org.easymock:easymock:jar:3.4:test
+|  \- org.objenesis:objenesis:jar:2.2:test
++- org.powermock:powermock-api-easymock:jar:1.6.5:test
+|  +- cglib:cglib-nodep:jar:2.2.2:test
+|  \- org.powermock:powermock-api-support:jar:1.6.5:test
+|     +- (org.powermock:powermock-core:jar:1.6.5:test - omitted for duplicate)
+|     \- org.powermock:powermock-reflect:jar:1.6.5:test
+|        \- (org.objenesis:objenesis:jar:2.2:test - omitted for duplicate)
+\- org.powermock:powermock-module-testng:jar:1.6.5:test
+   +- org.powermock:powermock-core:jar:1.6.5:test
+   |  +- (org.powermock:powermock-reflect:jar:1.6.5:test - omitted for duplicate)
+   |  \- org.javassist:javassist:jar:3.20.0-GA:test
+   \- org.powermock:powermock-module-testng-common:jar:1.6.5:test
+      +- (org.testng:testng:jar:6.9.4:test - version managed from 6.9.10; omitted for duplicate)
+      +- (org.powermock:powermock-core:jar:1.6.5:test - omitted for duplicate)
+      \- (org.powermock:powermock-reflect:jar:1.6.5:test - omitted for duplicate)

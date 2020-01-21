@@ -1,0 +1,5 @@
+com.lihaoyi:mill-clientserver_2.12:jar:0.1.4-19-03e7b5
+\- org.scala-sbt.ipcsocket:ipcsocket:jar:1.0.0:compile
+   +- net.java.dev.jna:jna:jar:4.5.0:compile
+   \- net.java.dev.jna:jna-platform:jar:4.5.0:compile
+      \- (net.java.dev.jna:jna:jar:4.5.0:compile - omitted for duplicate)

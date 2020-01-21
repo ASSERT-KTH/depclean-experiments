@@ -1,0 +1,2 @@
+org.webjars.bower:angular-ui-router:jar:1.0.20
+\- org.webjars.bower:angular:jar:1.7.8:compile

@@ -1,0 +1,679 @@
+com.googlecode.redbox-mint:redbox-web-service:jar:1.1
++- com.googlecode.the-fascinator:fascinator-core:jar:1.5:compile
+|  +- (com.googlecode.the-fascinator:fascinator-common:jar:1.4:compile - version managed from 1.5; omitted for conflict with 1.5)
+|  +- com.googlecode.the-fascinator:fascinator-vocabulary:jar:1.4.0.1:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for conflict with 1.6.1)
+|  |  +- (ch.qos.logback:logback-core:jar:0.9.29:compile - omitted for duplicate)
+|  |  +- (ch.qos.logback:logback-classic:jar:0.9.29:compile - omitted for duplicate)
+|  |  +- (org.slf4j:jcl-over-slf4j:jar:1.7.25:compile - omitted for conflict with 1.6.1)
+|  |  +- (org.slf4j:log4j-over-slf4j:jar:1.7.25:compile - omitted for conflict with 1.6.1)
+|  |  +- org.semweb4j:rdf2go.api:jar:4.7.2:compile
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.5.6:compile - omitted for conflict with 1.6.1)
+|  |  +- org.semweb4j:rdf2go.impl.jena24:jar:4.7.2:compile
+|  |  |  +- (org.semweb4j:rdf2go.api:jar:4.7.2:compile - omitted for duplicate)
+|  |  |  +- net.sourceforge.jena:jena:jar:2.4:compile
+|  |  |  |  +- net.sourceforge.jena:arq:jar:1.4:compile
+|  |  |  |  +- net.sourceforge.jena:iri:jar:2.4:compile
+|  |  |  |  +- com.ibm.icu:icu4j:jar:3.4.4:compile
+|  |  |  |  +- antlr:antlr:jar:2.7.5:compile
+|  |  |  |  +- (xerces:xercesImpl:jar:2.7.1:compile - omitted for conflict with 2.9.1)
+|  |  |  |  +- concurrent:concurrent:jar:1.3.4:compile
+|  |  |  |  +- (stax:stax-api:jar:1.0.1:compile - omitted for duplicate)
+|  |  |  |  +- org.codehaus.woodstox:wstx-lgpl:jar:3.1.1:compile
+|  |  |  |  |  \- (stax:stax-api:jar:1.0.1:compile - omitted for duplicate)
+|  |  |  |  \- (xml-apis:xml-apis:jar:1.3.02:compile - omitted for conflict with 1.3.04)
+|  |  |  +- (xerces:xercesImpl:jar:2.7.1:runtime - omitted for conflict with 2.9.1)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.5.6:compile - omitted for conflict with 1.6.1)
+|  |  +- org.semanticdesktop.aperture:aperture-vocabulary-core:jar:1.4.0:compile
+|  |  |  +- org.semanticdesktop.aperture:aperture-util:jar:1.4.0:compile
+|  |  |  \- (org.semweb4j:rdf2go.api:jar:4.7.2:compile - omitted for duplicate)
+|  |  +- org.semanticdesktop.aperture:aperture-rdf:jar:1.4.0:compile
+|  |  |  +- (org.semanticdesktop.aperture:aperture-util:jar:1.4.0:compile - omitted for duplicate)
+|  |  |  +- (org.semanticdesktop.aperture:aperture-vocabulary-core:jar:1.4.0:compile - omitted for duplicate)
+|  |  |  +- (org.semweb4j:rdf2go.api:jar:4.7.2:compile - omitted for duplicate)
+|  |  |  +- info.aduna.commons:aduna-commons-xml:jar:2.4.0:compile
+|  |  |  |  +- info.aduna.commons:aduna-commons-text:jar:2.4.0:compile
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.5.6:compile - omitted for conflict with 1.6.1)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.5.6:compile - omitted for conflict with 1.6.1)
+|  |  +- org.semanticdesktop.aperture:aperture-mime-identifier-magic:jar:1.4.0:compile
+|  |  |  +- org.semanticdesktop.aperture:aperture-mime-identifier-core:jar:1.4.0:compile
+|  |  |  |  +- (org.semanticdesktop.aperture:aperture-util:jar:1.4.0:compile - omitted for duplicate)
+|  |  |  |  +- (org.semweb4j:rdf2go.api:jar:4.7.2:compile - omitted for duplicate)
+|  |  |  |  \- (org.slf4j:slf4j-api:jar:1.5.6:compile - omitted for conflict with 1.6.1)
+|  |  |  +- (org.semanticdesktop.aperture:aperture-util:jar:1.4.0:compile - omitted for duplicate)
+|  |  |  +- (org.semweb4j:rdf2go.api:jar:4.7.2:compile - omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.5.6:compile - omitted for conflict with 1.6.1)
+|  |  +- org.semanticdesktop.aperture:aperture-extractor-core:jar:1.4.0:compile
+|  |  |  +- (org.semanticdesktop.aperture:aperture-rdf:jar:1.4.0:compile - omitted for duplicate)
+|  |  |  +- (org.semanticdesktop.aperture:aperture-util:jar:1.4.0:compile - omitted for duplicate)
+|  |  |  +- (org.semanticdesktop.aperture:aperture-vocabulary-core:jar:1.4.0:compile - omitted for duplicate)
+|  |  |  +- (org.semweb4j:rdf2go.api:jar:4.7.2:compile - omitted for duplicate)
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.5.6:compile - omitted for conflict with 1.6.1)
+|  |  \- org.semanticdesktop.aperture:aperture-default-extractor:jar:1.4.0:compile
+|  |     +- (org.semanticdesktop.aperture:aperture-extractor-core:jar:1.4.0:compile - omitted for duplicate)
+|  |     +- org.semanticdesktop.aperture:aperture-extractor-adobe-pdf:jar:1.4.0:compile
+|  |     |  +- (org.semanticdesktop.aperture:aperture-extractor-core:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  +- (org.semanticdesktop.aperture:aperture-rdf:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  +- (org.semanticdesktop.aperture:aperture-util:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  +- (org.semanticdesktop.aperture:aperture-vocabulary-core:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  +- org.apache.pdfbox:pdfbox:jar:0.8.0-incubating.bundle2:compile
+|  |     |  |  +- org.apache.pdfbox:fontbox:jar:0.8.0-incubator.bundle:compile
+|  |     |  |  \- org.apache.pdfbox:jempbox:jar:0.8.0-incubator.bundle:compile
+|  |     |  +- org.bouncycastle:bcmail-jdk14:jar:1.43.bundle2:compile
+|  |     |  |  \- (org.bouncycastle:bcprov-jdk14:jar:1.43:compile - omitted for conflict with 1.43.bundle2)
+|  |     |  +- org.bouncycastle:bcprov-jdk14:jar:1.43.bundle2:compile
+|  |     |  +- (org.semweb4j:rdf2go.api:jar:4.7.2:compile - omitted for duplicate)
+|  |     |  \- (org.slf4j:slf4j-api:jar:1.5.6:compile - omitted for conflict with 1.6.1)
+|  |     +- org.semanticdesktop.aperture:aperture-extractor-adobe-xmp:jar:1.4.0:compile
+|  |     |  +- (org.semanticdesktop.aperture:aperture-extractor-core:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  +- (org.semanticdesktop.aperture:aperture-rdf:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  +- (org.semanticdesktop.aperture:aperture-util:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  +- (org.semanticdesktop.aperture:aperture-vocabulary-core:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  +- (org.semanticdesktop.aperture:aperture-extractor-image-jpg:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  +- (org.semanticdesktop.aperture:aperture-extractor-adobe-pdf:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  +- (org.semanticdesktop.aperture:aperture-extractor-audio-mp3:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  +- (org.semweb4j:rdf2go.api:jar:4.7.2:compile - omitted for duplicate)
+|  |     |  \- (org.slf4j:slf4j-api:jar:1.5.6:compile - omitted for conflict with 1.6.1)
+|  |     +- org.semanticdesktop.aperture:aperture-extractor-audio-mp3:jar:1.4.0:compile
+|  |     |  +- (org.semanticdesktop.aperture:aperture-extractor-core:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  +- (org.semanticdesktop.aperture:aperture-rdf:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  +- (org.semanticdesktop.aperture:aperture-util:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  +- (org.semanticdesktop.aperture:aperture-vocabulary-core:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  +- org.jaudiotagger:jaudiotagger:jar:1.0.8.bundle:compile
+|  |     |  +- (org.semweb4j:rdf2go.api:jar:4.7.2:compile - omitted for duplicate)
+|  |     |  \- (org.slf4j:slf4j-api:jar:1.5.6:compile - omitted for conflict with 1.6.1)
+|  |     +- org.semanticdesktop.aperture:aperture-extractor-corel-office:jar:1.4.0:compile
+|  |     |  +- (org.semanticdesktop.aperture:aperture-extractor-core:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  +- org.semanticdesktop.aperture:aperture-extractor-corel-util:jar:1.4.0:compile
+|  |     |  |  \- (org.semanticdesktop.aperture:aperture-util:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  +- org.semanticdesktop.aperture:aperture-extractor-microsoft-util:jar:1.4.0:compile
+|  |     |  |  +- (org.semanticdesktop.aperture:aperture-rdf:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  |  +- (org.semanticdesktop.aperture:aperture-util:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  |  +- (org.semanticdesktop.aperture:aperture-vocabulary-core:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  |  +- org.apache.poi:poi:jar:3.5-FINAL.bundle:compile
+|  |     |  |  +- org.apache.poi:poi-scratchpad:jar:3.5-FINAL.bundle:compile
+|  |     |  |  |  \- (org.apache.poi:poi:jar:3.5-FINAL:compile - omitted for conflict with 3.5-FINAL.bundle)
+|  |     |  |  +- (org.semweb4j:rdf2go.api:jar:4.7.2:compile - omitted for duplicate)
+|  |     |  |  \- (org.slf4j:slf4j-api:jar:1.5.6:compile - omitted for conflict with 1.6.1)
+|  |     |  +- (org.semanticdesktop.aperture:aperture-rdf:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  +- (org.semanticdesktop.aperture:aperture-util:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  +- (org.semanticdesktop.aperture:aperture-vocabulary-core:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  +- (org.semweb4j:rdf2go.api:jar:4.7.2:compile - omitted for duplicate)
+|  |     |  \- (org.slf4j:slf4j-api:jar:1.5.6:compile - omitted for conflict with 1.6.1)
+|  |     +- org.semanticdesktop.aperture:aperture-extractor-image-jpg:jar:1.4.0:compile
+|  |     |  +- (org.semanticdesktop.aperture:aperture-extractor-core:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  +- (org.semanticdesktop.aperture:aperture-rdf:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  +- (org.semanticdesktop.aperture:aperture-util:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  +- (org.semanticdesktop.aperture:aperture-vocabulary-core:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  +- com.drewnoakes:metadata-extractor:jar:2.4.0-beta1.bundle:compile
+|  |     |  +- (org.semweb4j:rdf2go.api:jar:4.7.2:compile - omitted for duplicate)
+|  |     |  \- (org.slf4j:slf4j-api:jar:1.5.6:compile - omitted for conflict with 1.6.1)
+|  |     +- org.semanticdesktop.aperture:aperture-extractor-message-mime:jar:1.4.0:compile
+|  |     |  +- org.semanticdesktop.aperture:aperture-crawler-sub-mime:jar:1.4.0:compile
+|  |     |  |  +- org.semanticdesktop.aperture:aperture-accessor-core:jar:1.4.0:compile
+|  |     |  |  |  +- (org.semanticdesktop.aperture:aperture-rdf:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  |  |  +- org.semanticdesktop.aperture:aperture-datasource-core:jar:1.4.0:compile
+|  |     |  |  |  |  +- (org.semanticdesktop.aperture:aperture-rdf:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  |  |  |  +- (org.semanticdesktop.aperture:aperture-util:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  |  |  |  +- (org.semanticdesktop.aperture:aperture-vocabulary-core:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  |  |  |  +- (org.semweb4j:rdf2go.api:jar:4.7.2:compile - omitted for duplicate)
+|  |     |  |  |  |  \- (org.slf4j:slf4j-api:jar:1.5.6:compile - omitted for conflict with 1.6.1)
+|  |     |  |  |  +- (org.semanticdesktop.aperture:aperture-util:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  |  |  +- (org.semanticdesktop.aperture:aperture-vocabulary-core:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  |  |  \- (org.semweb4j:rdf2go.api:jar:4.7.2:compile - omitted for duplicate)
+|  |     |  |  +- org.semanticdesktop.aperture:aperture-crawler-core:jar:1.4.0:compile
+|  |     |  |  |  +- (org.semanticdesktop.aperture:aperture-accessor-core:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  |  |  +- (org.semanticdesktop.aperture:aperture-extractor-core:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  |  |  +- (org.semanticdesktop.aperture:aperture-mime-identifier-core:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  |  |  +- (org.semanticdesktop.aperture:aperture-datasource-core:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  |  |  +- (org.semanticdesktop.aperture:aperture-rdf:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  |  |  +- (org.semanticdesktop.aperture:aperture-util:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  |  |  +- (org.semanticdesktop.aperture:aperture-vocabulary-core:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  |  |  +- (org.semweb4j:rdf2go.api:jar:4.7.2:compile - omitted for duplicate)
+|  |     |  |  |  \- (org.slf4j:slf4j-api:jar:1.5.6:compile - omitted for conflict with 1.6.1)
+|  |     |  |  +- org.semanticdesktop.aperture:aperture-crawler-mail:jar:1.4.0:compile
+|  |     |  |  |  +- (org.semanticdesktop.aperture:aperture-accessor-core:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  |  |  +- (org.semanticdesktop.aperture:aperture-crawler-core:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  |  |  +- (org.semanticdesktop.aperture:aperture-datasource-core:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  |  |  +- (org.semanticdesktop.aperture:aperture-helper-html:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  |  |  +- (org.semanticdesktop.aperture:aperture-rdf:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  |  |  +- (org.semanticdesktop.aperture:aperture-vocabulary-core:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  |  |  +- (org.apache.felix.commons:org.apache.felix.commons.mail:jar:1.4.1-aperture-0003:compile - omitted for duplicate)
+|  |     |  |  |  +- com.beetstra.jutf7:jutf7:jar:0.9.0.bundle:compile
+|  |     |  |  |  +- (org.semweb4j:rdf2go.api:jar:4.7.2:compile - omitted for duplicate)
+|  |     |  |  |  \- (org.slf4j:slf4j-api:jar:1.5.6:compile - omitted for conflict with 1.6.1)
+|  |     |  |  +- (org.semanticdesktop.aperture:aperture-rdf:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  |  +- (org.semanticdesktop.aperture:aperture-vocabulary-core:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  |  +- (org.semweb4j:rdf2go.api:jar:4.7.2:compile - omitted for duplicate)
+|  |     |  |  \- (org.slf4j:slf4j-api:jar:1.5.6:compile - omitted for conflict with 1.6.1)
+|  |     |  +- (org.semanticdesktop.aperture:aperture-extractor-core:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  +- org.semanticdesktop.aperture:aperture-helper-html:jar:1.4.0:compile
+|  |     |  |  +- org.htmlparser:htmlparser:jar:1.6.bundle:compile
+|  |     |  |  \- (org.slf4j:slf4j-api:jar:1.5.6:compile - omitted for conflict with 1.6.1)
+|  |     |  +- (org.semanticdesktop.aperture:aperture-rdf:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  +- (org.semanticdesktop.aperture:aperture-util:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  +- (org.semanticdesktop.aperture:aperture-vocabulary-core:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  +- org.apache.felix.commons:org.apache.felix.commons.mail:jar:1.4.1-aperture-0003:compile
+|  |     |  +- (org.semweb4j:rdf2go.api:jar:4.7.2:compile - omitted for duplicate)
+|  |     |  \- (org.slf4j:slf4j-api:jar:1.5.6:compile - omitted for conflict with 1.6.1)
+|  |     +- org.semanticdesktop.aperture:aperture-extractor-microsoft-office:jar:1.4.0:compile
+|  |     |  +- (org.semanticdesktop.aperture:aperture-extractor-core:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  +- (org.semanticdesktop.aperture:aperture-extractor-microsoft-util:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  +- (org.semanticdesktop.aperture:aperture-rdf:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  +- (org.semanticdesktop.aperture:aperture-util:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  +- (org.semanticdesktop.aperture:aperture-vocabulary-core:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  +- org.textmining:tm-extractors:jar:1.0-aperture.bundle:compile
+|  |     |  +- (org.semweb4j:rdf2go.api:jar:4.7.2:compile - omitted for duplicate)
+|  |     |  \- (org.slf4j:slf4j-api:jar:1.5.6:compile - omitted for conflict with 1.6.1)
+|  |     +- org.semanticdesktop.aperture:aperture-extractor-microsoft-quattro:jar:1.4.0:compile
+|  |     |  +- (org.semanticdesktop.aperture:aperture-extractor-core:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  +- (org.semanticdesktop.aperture:aperture-extractor-microsoft-util:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  +- (org.semanticdesktop.aperture:aperture-rdf:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  +- (org.semanticdesktop.aperture:aperture-util:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  +- (org.semanticdesktop.aperture:aperture-vocabulary-core:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  +- (org.semweb4j:rdf2go.api:jar:4.7.2:compile - omitted for duplicate)
+|  |     |  \- (org.slf4j:slf4j-api:jar:1.5.6:compile - omitted for conflict with 1.6.1)
+|  |     +- org.semanticdesktop.aperture:aperture-extractor-microsoft-visio:jar:1.4.0:compile
+|  |     |  +- (org.semanticdesktop.aperture:aperture-extractor-core:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  +- (org.semanticdesktop.aperture:aperture-extractor-microsoft-util:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  +- (org.semanticdesktop.aperture:aperture-rdf:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  +- (org.semanticdesktop.aperture:aperture-util:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  +- (org.semanticdesktop.aperture:aperture-vocabulary-core:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  +- (org.semweb4j:rdf2go.api:jar:4.7.2:compile - omitted for duplicate)
+|  |     |  \- (org.slf4j:slf4j-api:jar:1.5.6:compile - omitted for conflict with 1.6.1)
+|  |     +- org.semanticdesktop.aperture:aperture-extractor-microsoft-works:jar:1.4.0:compile
+|  |     |  +- (org.semanticdesktop.aperture:aperture-extractor-core:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  +- (org.semanticdesktop.aperture:aperture-rdf:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  +- (org.semanticdesktop.aperture:aperture-util:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  +- (org.semanticdesktop.aperture:aperture-vocabulary-core:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  +- (org.semweb4j:rdf2go.api:jar:4.7.2:compile - omitted for duplicate)
+|  |     |  \- (org.slf4j:slf4j-api:jar:1.5.6:compile - omitted for conflict with 1.6.1)
+|  |     +- org.semanticdesktop.aperture:aperture-extractor-opendocument:jar:1.4.0:compile
+|  |     |  +- (org.semanticdesktop.aperture:aperture-extractor-core:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  +- (org.semanticdesktop.aperture:aperture-rdf:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  +- (org.semanticdesktop.aperture:aperture-util:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  +- (org.semanticdesktop.aperture:aperture-vocabulary-core:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  +- (org.semweb4j:rdf2go.api:jar:4.7.2:compile - omitted for duplicate)
+|  |     |  \- (org.slf4j:slf4j-api:jar:1.5.6:compile - omitted for conflict with 1.6.1)
+|  |     +- org.semanticdesktop.aperture:aperture-extractor-openxml:jar:1.4.0:compile
+|  |     |  +- (org.semanticdesktop.aperture:aperture-extractor-core:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  +- (org.semanticdesktop.aperture:aperture-rdf:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  +- (org.semanticdesktop.aperture:aperture-util:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  +- (org.semanticdesktop.aperture:aperture-vocabulary-core:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  +- (org.semweb4j:rdf2go.api:jar:4.7.2:compile - omitted for duplicate)
+|  |     |  \- (org.slf4j:slf4j-api:jar:1.5.6:compile - omitted for conflict with 1.6.1)
+|  |     +- org.semanticdesktop.aperture:aperture-extractor-text-html:jar:1.4.0:compile
+|  |     |  +- (org.semanticdesktop.aperture:aperture-extractor-core:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  +- (org.semanticdesktop.aperture:aperture-helper-html:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  +- (org.semanticdesktop.aperture:aperture-rdf:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  +- (org.semanticdesktop.aperture:aperture-util:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  +- (org.semanticdesktop.aperture:aperture-vocabulary-core:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  +- (org.semweb4j:rdf2go.api:jar:4.7.2:compile - omitted for duplicate)
+|  |     |  \- (org.slf4j:slf4j-api:jar:1.5.6:compile - omitted for conflict with 1.6.1)
+|  |     +- org.semanticdesktop.aperture:aperture-extractor-text-plain:jar:1.4.0:compile
+|  |     |  +- (org.semanticdesktop.aperture:aperture-extractor-core:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  +- (org.semanticdesktop.aperture:aperture-rdf:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  +- (org.semanticdesktop.aperture:aperture-util:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  +- (org.semanticdesktop.aperture:aperture-vocabulary-core:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  +- net.sourceforge.juniversalchardet:juniversalchardet:jar:1.0.3.bundle:compile
+|  |     |  +- (org.semweb4j:rdf2go.api:jar:4.7.2:compile - omitted for duplicate)
+|  |     |  \- (org.slf4j:slf4j-api:jar:1.5.6:compile - omitted for conflict with 1.6.1)
+|  |     +- org.semanticdesktop.aperture:aperture-extractor-text-rtf:jar:1.4.0:compile
+|  |     |  +- (org.semanticdesktop.aperture:aperture-extractor-core:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  +- (org.semanticdesktop.aperture:aperture-rdf:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  +- (org.semanticdesktop.aperture:aperture-util:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  +- (org.semanticdesktop.aperture:aperture-vocabulary-core:jar:1.4.0:compile - omitted for duplicate)
+|  |     |  +- (org.semweb4j:rdf2go.api:jar:4.7.2:compile - omitted for duplicate)
+|  |     |  \- (org.slf4j:slf4j-api:jar:1.5.6:compile - omitted for conflict with 1.6.1)
+|  |     \- org.semanticdesktop.aperture:aperture-extractor-text-xml:jar:1.4.0:compile
+|  |        +- (org.semanticdesktop.aperture:aperture-extractor-core:jar:1.4.0:compile - omitted for duplicate)
+|  |        +- (org.semanticdesktop.aperture:aperture-rdf:jar:1.4.0:compile - omitted for duplicate)
+|  |        +- (org.semanticdesktop.aperture:aperture-util:jar:1.4.0:compile - omitted for duplicate)
+|  |        +- (org.semanticdesktop.aperture:aperture-vocabulary-core:jar:1.4.0:compile - omitted for duplicate)
+|  |        +- (org.semweb4j:rdf2go.api:jar:4.7.2:compile - omitted for duplicate)
+|  |        \- (org.slf4j:slf4j-api:jar:1.5.6:compile - omitted for conflict with 1.6.1)
+|  +- com.googlecode.the-fascinator:fascinator-plugin-api:jar:1.4:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.6.1:compile - omitted for duplicate)
+|  +- org.apache.commons:commons-email:jar:1.2:compile
+|  |  +- javax.mail:mail:jar:1.4.1:compile
+|  |  |  \- (javax.activation:activation:jar:1.1:compile - omitted for duplicate)
+|  |  \- javax.activation:activation:jar:1.1:compile
+|  +- dom4j:dom4j:jar:1.6.1:compile
+|  +- jaxen:jaxen:jar:1.1.1:compile
+|  |  +- (jaxen:jaxen:jar:1.1-beta-6:compile - omitted for cycle)
+|  |  \- (dom4j:dom4j:jar:1.6.1:compile - omitted for duplicate)
+|  +- org.slf4j:slf4j-api:jar:1.7.25:compile
+|  +- ch.qos.logback:logback-core:jar:0.9.29:compile
+|  +- ch.qos.logback:logback-classic:jar:0.9.29:compile
+|  |  +- (ch.qos.logback:logback-core:jar:0.9.29:compile - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.6.1:compile - omitted for conflict with 1.7.25)
+|  +- org.slf4j:jcl-over-slf4j:jar:1.7.25:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  +- org.python:jython-standalone:jar:2.5.2:compile
+|  +- org.apache.activemq:activemq-core:jar:5.7.0:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.6.6:compile - omitted for conflict with 1.7.25)
+|  |  +- org.apache.geronimo.specs:geronimo-jms_1.1_spec:jar:1.1.1:compile
+|  |  +- org.apache.activemq:kahadb:jar:5.7.0:compile
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.6.6:compile - omitted for conflict with 1.7.25)
+|  |  +- org.apache.activemq.protobuf:activemq-protobuf:jar:1.1:compile
+|  |  +- org.fusesource.mqtt-client:mqtt-client:jar:1.3:compile
+|  |  |  +- org.fusesource.hawtdispatch:hawtdispatch-transport:jar:1.11:compile
+|  |  |  |  \- org.fusesource.hawtdispatch:hawtdispatch:jar:1.11:compile
+|  |  |  \- org.fusesource.hawtbuf:hawtbuf:jar:1.9:compile
+|  |  +- org.apache.geronimo.specs:geronimo-j2ee-management_1.1_spec:jar:1.0.1:compile
+|  |  +- (org.springframework:spring-context:jar:3.0.7.RELEASE:compile - omitted for conflict with 3.0.5.RELEASE)
+|  |  +- commons-net:commons-net:jar:3.1:compile
+|  |  \- org.jasypt:jasypt:jar:1.9.0:compile
+|  +- org.apache.activemq:activeio-core:jar:3.1.4:compile
+|  |  +- (org.apache.geronimo.specs:geronimo-j2ee-management_1.1_spec:jar:1.0.1:compile - omitted for duplicate)
+|  |  \- commons-logging:commons-logging:jar:1.1:compile
+|  |     +- (log4j:log4j:jar:1.2.17:compile - omitted for duplicate)
+|  |     +- logkit:logkit:jar:1.0.1:compile
+|  |     +- avalon-framework:avalon-framework:jar:4.1.3:compile
+|  |     \- javax.servlet:servlet-api:jar:2.5:compile
+|  +- org.springframework:spring-beans:jar:3.0.5.RELEASE:compile
+|  |  \- org.springframework:spring-core:jar:3.0.5.RELEASE:compile
+|  |     \- (org.springframework:spring-asm:jar:3.0.5.RELEASE:compile - omitted for conflict with 3.0.7.RELEASE)
+|  +- org.springframework:spring-context:jar:3.0.5.RELEASE:compile
+|  |  +- org.springframework:spring-aop:jar:3.0.5.RELEASE:compile
+|  |  |  +- (aopalliance:aopalliance:jar:1.0:compile - omitted for duplicate)
+|  |  |  +- (org.springframework:spring-asm:jar:3.0.5.RELEASE:compile - omitted for duplicate)
+|  |  |  +- (org.springframework:spring-beans:jar:3.0.5.RELEASE:compile - omitted for duplicate)
+|  |  |  \- (org.springframework:spring-core:jar:3.0.5.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-beans:jar:3.0.5.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-core:jar:3.0.5.RELEASE:compile - omitted for duplicate)
+|  |  +- org.springframework:spring-expression:jar:3.0.5.RELEASE:compile
+|  |  |  \- (org.springframework:spring-core:jar:3.0.5.RELEASE:compile - omitted for duplicate)
+|  |  \- org.springframework:spring-asm:jar:3.0.5.RELEASE:compile
+|  +- org.springframework.security:spring-security-core:jar:3.2.10.RELEASE:compile
+|  |  +- aopalliance:aopalliance:jar:1.0:compile
+|  |  +- (org.springframework:spring-aop:jar:3.2.18.RELEASE:compile - omitted for conflict with 3.0.5.RELEASE)
+|  |  +- (org.springframework:spring-beans:jar:3.2.18.RELEASE:compile - omitted for conflict with 3.0.5.RELEASE)
+|  |  +- (org.springframework:spring-context:jar:3.2.18.RELEASE:compile - omitted for conflict with 3.0.5.RELEASE)
+|  |  +- (org.springframework:spring-core:jar:3.2.18.RELEASE:compile - omitted for conflict with 3.0.5.RELEASE)
+|  |  \- (org.springframework:spring-expression:jar:3.2.18.RELEASE:compile - omitted for conflict with 3.0.5.RELEASE)
+|  +- org.springframework.security:spring-security-config:jar:3.2.10.RELEASE:compile
+|  |  +- (aopalliance:aopalliance:jar:1.0:compile - omitted for duplicate)
+|  |  +- (org.springframework.security:spring-security-core:jar:3.2.10.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-aop:jar:3.2.18.RELEASE:compile - omitted for conflict with 3.0.5.RELEASE)
+|  |  +- (org.springframework:spring-beans:jar:3.2.18.RELEASE:compile - omitted for conflict with 3.0.5.RELEASE)
+|  |  +- (org.springframework:spring-context:jar:3.2.18.RELEASE:compile - omitted for conflict with 3.0.5.RELEASE)
+|  |  \- (org.springframework:spring-core:jar:3.2.18.RELEASE:compile - omitted for conflict with 3.0.5.RELEASE)
+|  \- org.springframework.security:spring-security-web:jar:3.2.10.RELEASE:compile
+|     +- (aopalliance:aopalliance:jar:1.0:compile - omitted for duplicate)
+|     +- (org.springframework.security:spring-security-core:jar:3.2.10.RELEASE:compile - omitted for duplicate)
+|     +- (org.springframework:spring-beans:jar:3.2.18.RELEASE:compile - omitted for conflict with 3.0.5.RELEASE)
+|     +- (org.springframework:spring-context:jar:3.2.18.RELEASE:compile - omitted for conflict with 3.0.5.RELEASE)
+|     +- (org.springframework:spring-core:jar:3.2.18.RELEASE:compile - omitted for conflict with 3.0.5.RELEASE)
+|     \- (org.springframework:spring-expression:jar:3.2.18.RELEASE:compile - omitted for conflict with 3.0.5.RELEASE)
++- com.googlecode.the-fascinator:fascinator-common:jar:1.5:provided (scope not updated to compile)
+|  +- (com.googlecode.the-fascinator:fascinator-vocabulary:jar:1.4.0.1:provided - omitted for duplicate)
+|  +- (com.googlecode.the-fascinator:fascinator-plugin-api:jar:1.4:provided - version managed from 1.5; omitted for duplicate)
+|  +- (joda-time:joda-time:jar:2.2:compile - scope updated from provided; omitted for duplicate)
+|  +- commons-httpclient:commons-httpclient:jar:3.1:provided
+|  |  \- commons-codec:commons-codec:jar:1.2:provided
+|  +- (commons-io:commons-io:jar:1.4:compile - scope updated from provided; omitted for duplicate)
+|  +- commons-jxpath:commons-jxpath:jar:1.3:provided
+|  +- (commons-lang:commons-lang:jar:2.4:compile - scope updated from provided; omitted for duplicate)
+|  +- (jaxen:jaxen:jar:1.1.1:provided - omitted for duplicate)
+|  +- com.googlecode.json-simple:json-simple:jar:1.1:provided
+|  +- org.codehaus.jackson:jackson-mapper-lgpl:jar:1.9.13:provided
+|  |  \- org.codehaus.jackson:jackson-core-lgpl:jar:1.9.13:provided
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:provided - omitted for duplicate)
+|  +- (ch.qos.logback:logback-core:jar:0.9.29:provided - omitted for duplicate)
+|  +- (ch.qos.logback:logback-classic:jar:0.9.29:provided - omitted for duplicate)
+|  +- (org.slf4j:jcl-over-slf4j:jar:1.7.25:provided - omitted for duplicate)
+|  +- org.slf4j:log4j-over-slf4j:jar:1.7.25:provided
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:provided - omitted for duplicate)
+|  +- (org.apache.activemq:activemq-core:jar:5.7.0:provided - omitted for duplicate)
+|  +- (dom4j:dom4j:jar:1.6.1:provided - omitted for duplicate)
+|  +- xerces:xmlParserAPIs:jar:2.6.2:provided
+|  \- xerces:xercesImpl:jar:2.9.1:provided
+|     \- (xml-apis:xml-apis:jar:1.3.04:compile - scope updated from provided; omitted for duplicate)
++- com.googlecode.the-fascinator:fascinator-portal:jar:classes:1.5:provided
+|  +- (com.googlecode.the-fascinator:fascinator-core:jar:1.4:provided - version managed from 1.5; omitted for conflict with 1.5)
+|  +- (com.googlecode.the-fascinator:fascinator-common:jar:1.4:provided - version managed from 1.5; omitted for conflict with 1.5)
+|  +- (com.googlecode.the-fascinator:fascinator-plugin-api:jar:1.4:provided - version managed from 1.5; omitted for duplicate)
+|  +- (com.googlecode.the-fascinator:fascinator-vocabulary:jar:1.4.0.1:provided - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:provided - omitted for duplicate)
+|  +- (ch.qos.logback:logback-core:jar:0.9.29:provided - omitted for duplicate)
+|  +- (ch.qos.logback:logback-classic:jar:0.9.29:provided - omitted for duplicate)
+|  +- (org.slf4j:jcl-over-slf4j:jar:1.7.25:provided - omitted for duplicate)
+|  +- (org.slf4j:log4j-over-slf4j:jar:1.7.25:provided - omitted for duplicate)
+|  +- (commons-beanutils:commons-beanutils:jar:1.8.3:compile - scope updated from provided; omitted for duplicate)
+|  +- (commons-collections:commons-collections:jar:3.2.2:compile - scope updated from provided; omitted for duplicate)
+|  +- com.sun.jersey:jersey-server:jar:1.0.3:provided
+|  |  +- com.sun.jersey:jersey-core:jar:1.0.3:provided
+|  |  |  \- javax.ws.rs:jsr311-api:jar:1.0:provided
+|  |  \- asm:asm:jar:3.1:provided
+|  +- (dom4j:dom4j:jar:1.6.1:provided - omitted for duplicate)
+|  +- (javax.servlet:servlet-api:jar:2.5:compile - scope updated from provided; omitted for duplicate)
+|  +- (jaxen:jaxen:jar:1.1.1:provided - omitted for duplicate)
+|  +- net.sf.jtidy:jtidy:jar:r938:provided
+|  +- net.sf.ehcache:ehcache-core:jar:2.3.2:provided
+|  |  \- (org.slf4j:slf4j-api:jar:1.5.11:provided - omitted for conflict with 1.7.25)
+|  +- (org.apache.activemq:activemq-core:jar:5.7.0:provided - omitted for duplicate)
+|  +- (org.apache.activemq:activeio-core:jar:3.1.4:provided - omitted for duplicate)
+|  +- org.apache.activemq:activemq-web:jar:5.7.0:provided
+|  |  +- (org.apache.activemq:activemq-core:jar:5.7.0:provided - omitted for duplicate)
+|  |  +- org.apache.activemq:activemq-camel:jar:5.7.0:provided
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.6.6:provided - omitted for conflict with 1.7.25)
+|  |  |  +- org.apache.camel:camel-jms:jar:2.10.1:provided
+|  |  |  |  +- org.apache.camel:camel-core:jar:2.10.1:provided
+|  |  |  |  |  \- (org.slf4j:slf4j-api:jar:1.6.6:provided - omitted for conflict with 1.7.25)
+|  |  |  |  +- org.apache.camel:camel-spring:jar:2.10.1:provided
+|  |  |  |  |  +- (org.apache.camel:camel-core:jar:2.10.1:provided - omitted for duplicate)
+|  |  |  |  |  +- (org.springframework:spring-context:jar:3.0.7.RELEASE:provided - omitted for conflict with 3.0.5.RELEASE)
+|  |  |  |  |  +- (org.springframework:spring-aop:jar:3.0.7.RELEASE:provided - omitted for conflict with 3.0.5.RELEASE)
+|  |  |  |  |  \- (org.springframework:spring-tx:jar:3.0.7.RELEASE:provided - omitted for duplicate)
+|  |  |  |  +- (org.springframework:spring-jms:jar:3.0.7.RELEASE:provided - omitted for conflict with 3.1.3.RELEASE)
+|  |  |  |  +- (org.springframework:spring-core:jar:3.0.7.RELEASE:provided - omitted for conflict with 3.0.5.RELEASE)
+|  |  |  |  +- (org.springframework:spring-context:jar:3.0.7.RELEASE:provided - omitted for conflict with 3.0.5.RELEASE)
+|  |  |  |  +- (org.springframework:spring-tx:jar:3.0.7.RELEASE:provided - omitted for conflict with 3.0.5.RELEASE)
+|  |  |  |  \- (org.springframework:spring-beans:jar:3.0.7.RELEASE:provided - omitted for conflict with 3.0.5.RELEASE)
+|  |  |  +- (org.apache.activemq:activemq-core:jar:5.7.0:provided - omitted for duplicate)
+|  |  |  \- (org.apache.activemq:activemq-pool:jar:5.7.0:provided - omitted for duplicate)
+|  |  +- org.apache.activemq:activemq-pool:jar:5.7.0:provided
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.6.6:provided - omitted for conflict with 1.7.25)
+|  |  |  +- (org.apache.activemq:activemq-core:jar:5.7.0:provided - omitted for duplicate)
+|  |  |  +- org.apache.geronimo.specs:geronimo-jta_1.0.1B_spec:jar:1.0.1:provided
+|  |  |  \- commons-pool:commons-pool:jar:1.6:provided
+|  |  +- org.eclipse.jetty:jetty-websocket:jar:7.6.7.v20120910:provided
+|  |  |  +- org.eclipse.jetty:jetty-util:jar:7.6.7.v20120910:provided
+|  |  |  +- org.eclipse.jetty:jetty-io:jar:7.6.7.v20120910:provided
+|  |  |  |  \- (org.eclipse.jetty:jetty-util:jar:7.6.7.v20120910:provided - omitted for duplicate)
+|  |  |  \- org.eclipse.jetty:jetty-http:jar:7.6.7.v20120910:provided
+|  |  |     \- (org.eclipse.jetty:jetty-io:jar:7.6.7.v20120910:provided - omitted for duplicate)
+|  |  +- org.eclipse.jetty:jetty-continuation:jar:7.6.7.v20120910:provided
+|  |  +- rome:rome:jar:1.0:provided
+|  |  |  \- (jdom:jdom:jar:1.0:provided - omitted for duplicate)
+|  |  +- jdom:jdom:jar:1.0:provided
+|  |  +- org.apache.xbean:xbean-spring:jar:3.11.1:provided
+|  |  +- org.springframework:spring-webmvc:jar:3.0.7.RELEASE:provided
+|  |  |  +- (org.springframework:spring-asm:jar:3.0.7.RELEASE:provided - omitted for conflict with 3.0.5.RELEASE)
+|  |  |  +- (org.springframework:spring-beans:jar:3.0.7.RELEASE:provided - omitted for conflict with 3.0.5.RELEASE)
+|  |  |  +- (org.springframework:spring-context:jar:3.0.7.RELEASE:provided - omitted for conflict with 3.0.5.RELEASE)
+|  |  |  +- (org.springframework:spring-context-support:jar:3.0.7.RELEASE:provided - omitted for conflict with 3.1.3.RELEASE)
+|  |  |  +- (org.springframework:spring-core:jar:3.0.7.RELEASE:provided - omitted for conflict with 3.0.5.RELEASE)
+|  |  |  +- (org.springframework:spring-expression:jar:3.0.7.RELEASE:provided - omitted for conflict with 3.0.5.RELEASE)
+|  |  |  \- (org.springframework:spring-web:jar:3.0.7.RELEASE:provided - omitted for duplicate)
+|  |  +- org.springframework:spring-web:jar:3.0.7.RELEASE:provided
+|  |  |  +- (aopalliance:aopalliance:jar:1.0:provided - omitted for duplicate)
+|  |  |  +- (org.springframework:spring-beans:jar:3.0.7.RELEASE:provided - omitted for conflict with 3.0.5.RELEASE)
+|  |  |  +- (org.springframework:spring-context:jar:3.0.7.RELEASE:provided - omitted for conflict with 3.0.5.RELEASE)
+|  |  |  \- (org.springframework:spring-core:jar:3.0.7.RELEASE:provided - omitted for conflict with 3.0.5.RELEASE)
+|  |  +- (xpp3:xpp3:jar:1.1.4c:compile - scope updated from provided; omitted for duplicate)
+|  |  \- com.thoughtworks.xstream:xstream:jar:1.4.3:provided
+|  |     +- xmlpull:xmlpull:jar:1.1.3.1:provided
+|  |     \- xpp3:xpp3_min:jar:1.1.4c:provided
+|  +- org.codehaus.groovy:groovy-all:jar:2.4.5:provided
+|  +- org.apache.derby:derby:jar:10.5.3.0_1:provided
+|  +- org.apache.tapestry:tapestry-core:jar:5.4.1:provided
+|  |  +- org.apache.tapestry:beanmodel:jar:5.4.1:provided
+|  |  |  +- org.apache.tapestry:commons:jar:5.4.1:provided
+|  |  |  |  +- (org.apache.tapestry:tapestry5-annotations:jar:5.4.1:provided - omitted for duplicate)
+|  |  |  |  +- (org.apache.tapestry:tapestry-func:jar:5.4.1:provided - omitted for duplicate)
+|  |  |  |  \- (org.apache.tapestry:plastic:jar:5.4.1:provided - omitted for duplicate)
+|  |  |  +- (org.apache.tapestry:tapestry5-annotations:jar:5.4.1:provided - omitted for duplicate)
+|  |  |  +- (org.apache.tapestry:plastic:jar:5.4.1:provided - omitted for duplicate)
+|  |  |  +- org.antlr:antlr-runtime:jar:3.5.2:provided
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.19:provided - omitted for conflict with 1.7.25)
+|  |  +- (commons-codec:commons-codec:jar:1.10:provided - omitted for conflict with 1.2)
+|  |  +- org.apache.tapestry:tapestry-json:jar:5.4.1:provided
+|  |  \- (org.apache.tapestry:tapestry-ioc:jar:5.4.1:provided - omitted for duplicate)
+|  +- org.apache.tapestry:tapestry-ioc:jar:5.4.1:provided
+|  |  +- org.apache.tapestry:tapestry-func:jar:5.4.1:provided
+|  |  +- org.apache.tapestry:tapestry5-annotations:jar:5.4.1:provided
+|  |  +- org.apache.tapestry:plastic:jar:5.4.1:provided
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.19:provided - omitted for conflict with 1.7.25)
+|  |  +- (org.apache.tapestry:beanmodel:jar:5.4.1:provided - omitted for duplicate)
+|  |  +- javax.inject:javax.inject:jar:1:provided
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.19:provided - omitted for conflict with 1.7.25)
+|  +- org.apache.tapestry:tapestry-upload:jar:5.4.1:provided
+|  |  +- (commons-io:commons-io:jar:2.4:provided - omitted for conflict with 1.4)
+|  |  +- (org.apache.tapestry:tapestry-core:jar:5.4.1:provided - omitted for duplicate)
+|  |  \- (commons-fileupload:commons-fileupload:jar:1.3.1:provided - omitted for conflict with 1.3)
+|  +- org.apache.velocity:velocity:jar:1.6.4:provided
+|  |  +- (commons-collections:commons-collections:jar:3.2.1:provided - omitted for conflict with 3.2.2)
+|  |  +- (commons-lang:commons-lang:jar:2.4:provided - omitted for duplicate)
+|  |  \- oro:oro:jar:2.0.8:provided
+|  +- (org.python:jython-standalone:jar:2.5.2:provided - omitted for duplicate)
+|  +- org.quartz-scheduler:quartz:jar:1.8.4:provided
+|  |  +- javax.transaction:jta:jar:1.1:provided
+|  |  \- (org.slf4j:slf4j-api:jar:1.6.0:provided - omitted for conflict with 1.7.25)
+|  +- org.tuckey:urlrewritefilter:jar:3.1.0:provided
+|  +- net.java.dev.rome:rome:jar:1.0.0:provided
+|  |  \- (jdom:jdom:jar:1.0:provided - omitted for duplicate)
+|  +- net.java.dev.rome:rome-propono:jar:1.0.0:provided
+|  |  +- (net.java.dev.rome:rome:jar:1.0:provided - omitted for conflict with 1.0.0)
+|  |  +- (commons-codec:commons-codec:jar:1.3:provided - omitted for conflict with 1.2)
+|  |  +- (commons-httpclient:commons-httpclient:jar:3.0.1:provided - omitted for conflict with 3.1)
+|  |  +- (commons-lang:commons-lang:jar:2.4:provided - omitted for duplicate)
+|  |  +- (commons-beanutils:commons-beanutils:jar:1.6:provided - omitted for conflict with 1.8.3)
+|  |  +- ws-commons-util:ws-commons-util:jar:1.0.1:provided
+|  |  |  +- (junit:junit:jar:4.10:test - version managed from 3.8.1; scope managed from provided; omitted for conflict with 4.1)
+|  |  |  \- (xml-apis:xml-apis:jar:1.0.b2:provided - omitted for conflict with 1.3.04)
+|  |  +- xmlrpc:xmlrpc-client:jar:3.0:provided
+|  |  |  \- org.apache.xmlrpc:xmlrpc-common:jar:3.0:provided
+|  |  |     \- (org.apache.ws.commons:ws-commons-util:jar:1.0.1:provided - omitted for duplicate)
+|  |  +- xmlrpc:xmlrpc-common:jar:3.0:provided
+|  |  |  \- org.apache.ws.commons:ws-commons-util:jar:1.0.1:provided
+|  |  |     +- (junit:junit:jar:4.10:test - version managed from 3.8.1; scope managed from provided; omitted for duplicate)
+|  |  |     \- (xml-apis:xml-apis:jar:1.0.b2:provided - omitted for conflict with 1.3.04)
+|  |  +- (javax.activation:activation:jar:1.1:provided - omitted for duplicate)
+|  |  +- (javax.servlet:servlet-api:jar:2.5:compile - scope updated from provided; omitted for duplicate)
+|  |  +- net.oauth.core:oauth:jar:20090531:provided
+|  |  \- net.oauth.core:oauth-provider:jar:20090531:provided
+|  |     \- (net.oauth.core:oauth:jar:20090531:provided - omitted for duplicate)
+|  +- xom:xom:jar:1.1:provided
+|  |  +- (xerces:xmlParserAPIs:jar:2.6.2:provided - omitted for duplicate)
+|  |  +- (xerces:xercesImpl:jar:2.6.2:provided - omitted for conflict with 2.9.1)
+|  |  +- xalan:xalan:jar:2.7.0:provided
+|  |  |  \- (xml-apis:xml-apis:jar:1.0.b2:provided - omitted for conflict with 1.3.04)
+|  |  +- (xom:xom:jar:1.0b3:provided - omitted for cycle)
+|  |  \- (jaxen:jaxen:jar:1.1-beta-8:provided - omitted for conflict with 1.1.1)
+|  +- org.expressme:JOpenId:jar:1.08:provided
+|  +- org.jfree:jfreechart:jar:1.0.14:provided
+|  |  +- org.jfree:jcommon:jar:1.0.17:provided
+|  |  +- (xml-apis:xml-apis:jar:1.3.04:provided - omitted for duplicate)
+|  |  \- com.lowagie:itext:jar:2.1.5:provided
+|  |     +- bouncycastle:bcmail-jdk14:jar:138:provided
+|  |     \- bouncycastle:bcprov-jdk14:jar:138:provided
+|  +- br.com.arsmachina:tapestry-url-rewriter:jar:2.0.0:provided
+|  +- org.springframework.integration:spring-integration-core:jar:2.2.3.RELEASE:provided
+|  |  +- (org.springframework:spring-context:jar:3.1.3.RELEASE:provided - omitted for conflict with 3.0.5.RELEASE)
+|  |  \- org.springframework.retry:spring-retry:jar:1.0.2.RELEASE:provided
+|  |     \- (org.springframework:spring-context:jar:3.0.5.RELEASE:provided - omitted for duplicate)
+|  +- org.springframework.integration:spring-integration-mail:jar:2.2.3.RELEASE:provided
+|  |  +- (org.springframework.integration:spring-integration-core:jar:2.2.3.RELEASE:provided - omitted for duplicate)
+|  |  \- org.springframework:spring-context-support:jar:3.1.3.RELEASE:provided
+|  |     +- (org.springframework:spring-beans:jar:3.1.3.RELEASE:provided - omitted for conflict with 3.0.5.RELEASE)
+|  |     +- (org.springframework:spring-context:jar:3.1.3.RELEASE:provided - omitted for conflict with 3.0.5.RELEASE)
+|  |     \- (org.springframework:spring-core:jar:3.1.3.RELEASE:provided - omitted for conflict with 3.0.5.RELEASE)
+|  +- org.springframework.integration:spring-integration-jms:jar:2.2.3.RELEASE:provided
+|  |  +- (org.springframework.integration:spring-integration-core:jar:2.2.3.RELEASE:provided - omitted for duplicate)
+|  |  \- (org.springframework:spring-jms:jar:3.1.3.RELEASE:provided - omitted for conflict with 3.0.5.RELEASE)
+|  +- org.springframework:spring-jms:jar:3.0.5.RELEASE:provided
+|  |  +- (aopalliance:aopalliance:jar:1.0:provided - omitted for duplicate)
+|  |  +- (org.springframework:spring-aop:jar:3.0.5.RELEASE:provided - omitted for duplicate)
+|  |  +- (org.springframework:spring-beans:jar:3.0.5.RELEASE:provided - omitted for duplicate)
+|  |  +- (org.springframework:spring-context:jar:3.0.5.RELEASE:provided - omitted for duplicate)
+|  |  +- (org.springframework:spring-core:jar:3.0.5.RELEASE:provided - omitted for duplicate)
+|  |  \- org.springframework:spring-tx:jar:3.0.5.RELEASE:provided
+|  |     +- (aopalliance:aopalliance:jar:1.0:provided - omitted for duplicate)
+|  |     +- (org.springframework:spring-aop:jar:3.0.5.RELEASE:provided - omitted for duplicate)
+|  |     +- (org.springframework:spring-beans:jar:3.0.5.RELEASE:provided - omitted for duplicate)
+|  |     +- (org.springframework:spring-context:jar:3.0.5.RELEASE:provided - omitted for duplicate)
+|  |     \- (org.springframework:spring-core:jar:3.0.5.RELEASE:provided - omitted for duplicate)
+|  +- org.owasp.esapi:esapi:jar:2.1.0.1:provided
+|  |  +- commons-configuration:commons-configuration:jar:1.10:provided
+|  |  |  +- (commons-lang:commons-lang:jar:2.6:provided - omitted for conflict with 2.4)
+|  |  |  \- (commons-logging:commons-logging:jar:1.1.1:provided - omitted for conflict with 1.1)
+|  |  +- commons-beanutils:commons-beanutils-core:jar:1.8.3:provided
+|  |  |  \- (commons-logging:commons-logging:jar:1.1.1:provided - omitted for conflict with 1.1)
+|  |  +- (commons-fileupload:commons-fileupload:jar:1.3.1:provided - omitted for duplicate)
+|  |  +- (commons-collections:commons-collections:jar:3.2.2:provided - omitted for duplicate)
+|  |  +- (log4j:log4j:jar:1.2.17:compile - scope updated from provided; omitted for duplicate)
+|  |  +- (xom:xom:jar:1.2.5:provided - omitted for conflict with 1.1)
+|  |  +- org.beanshell:bsh-core:jar:2.0b4:provided
+|  |  +- org.owasp.antisamy:antisamy:jar:1.5.3:provided
+|  |  |  +- (org.apache.xmlgraphics:batik-css:jar:1.7:provided - omitted for conflict with 1.8)
+|  |  |  +- net.sourceforge.nekohtml:nekohtml:jar:1.9.16:provided
+|  |  |  |  \- (xerces:xercesImpl:jar:2.9.1:provided - omitted for duplicate)
+|  |  |  \- (commons-httpclient:commons-httpclient:jar:3.1:provided - omitted for duplicate)
+|  |  \- org.apache.xmlgraphics:batik-css:jar:1.8:provided
+|  |     +- org.apache.xmlgraphics:batik-ext:jar:1.8:provided
+|  |     |  \- (xml-apis:xml-apis:jar:1.3.04:provided - omitted for duplicate)
+|  |     +- org.apache.xmlgraphics:batik-util:jar:1.8:provided
+|  |     +- (xml-apis:xml-apis:jar:1.3.04:provided - omitted for duplicate)
+|  |     \- xml-apis:xml-apis-ext:jar:1.3.04:provided
+|  +- (log4j:log4j:jar:1.2.17:compile - scope updated from provided; omitted for duplicate)
+|  +- (org.springframework.security:spring-security-core:jar:3.2.10.RELEASE:provided - omitted for duplicate)
+|  +- com.googlecode.owasp-java-html-sanitizer:owasp-java-html-sanitizer:jar:20160924.1:provided
+|  \- (com.google.guava:guava:jar:21.0:compile - scope updated from provided; omitted for duplicate)
++- org.restlet.jee:org.restlet:jar:2.3.7:compile
++- org.restlet.jee:org.restlet.ext.servlet:jar:2.3.7:compile
+|  \- (org.restlet.jee:org.restlet:jar:2.3.7:compile - omitted for duplicate)
++- org.restlet.jee:org.restlet.ext.json:jar:2.3.7:compile
+|  +- org.json:json:jar:20160212:compile
+|  \- (org.restlet.jee:org.restlet:jar:2.3.7:compile - omitted for duplicate)
++- org.restlet.jee:org.restlet.ext.fileupload:jar:2.3.7:compile
+|  +- commons-fileupload:commons-fileupload:jar:1.3:compile
+|  |  \- (commons-io:commons-io:jar:1.4:compile - omitted for conflict with 2.4)
+|  +- (org.restlet.jee:org.restlet:jar:2.3.7:compile - omitted for duplicate)
+|  \- (org.restlet.jee:org.restlet.ext.servlet:jar:2.3.7:compile - omitted for duplicate)
++- org.restlet.jee:org.restlet.ext.slf4j:jar:2.3.7:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.2:compile - omitted for conflict with 1.7.25)
+|  \- (org.restlet.jee:org.restlet:jar:2.3.7:compile - omitted for duplicate)
++- org.restlet.jee:org.restlet.ext.swagger:jar:2.3.7:compile
+|  +- org.scala-lang:scala-library:jar:2.9.1:compile
+|  +- org.scala-lang:scalap:jar:2.9.1:compile
+|  |  \- org.scala-lang:scala-compiler:jar:2.9.1:compile
+|  |     \- (org.scala-lang:scala-library:jar:2.9.1:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.2:compile - omitted for conflict with 1.7.25)
+|  +- com.wordnik:swagger-models:jar:1.5.3-M1:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.4.2:compile - omitted for conflict with 2.4.4)
+|  |  +- (org.slf4j:slf4j-api:jar:1.6.3:compile - omitted for conflict with 1.7.25)
+|  |  \- com.wordnik:swagger-annotations:jar:1.5.3-M1:compile
+|  +- javax.ws.rs:javax.ws.rs-api:jar:2.0:compile
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.4.4:compile
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.4.4:compile
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.4.4:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.4.0:compile - omitted for conflict with 2.4.4)
+|  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.4.4:compile - omitted for duplicate)
+|  +- com.fasterxml.jackson.dataformat:jackson-dataformat-csv:jar:2.4.4:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.4.4:compile - omitted for duplicate)
+|  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.4.4:compile - omitted for duplicate)
+|  +- com.fasterxml.jackson.dataformat:jackson-dataformat-smile:jar:2.4.4:compile
+|  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.4.4:compile - omitted for duplicate)
+|  +- com.fasterxml.jackson.dataformat:jackson-dataformat-xml:jar:2.4.4:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.4.4:compile - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.4.0:compile - omitted for conflict with 2.4.4)
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.4.4:compile - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.4.4:compile - omitted for duplicate)
+|  |  \- org.codehaus.woodstox:stax2-api:jar:3.1.4:compile
+|  +- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.4.4:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.4.4:compile - omitted for duplicate)
+|  |  \- (org.yaml:snakeyaml:jar:1.12:compile - omitted for conflict with 1.15)
+|  +- com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.4.4:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.4.4:compile - omitted for duplicate)
+|  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.4.4:compile - omitted for duplicate)
+|  +- com.fasterxml.jackson.module:jackson-module-jsonSchema:jar:2.4.4:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.4.0:compile - omitted for conflict with 2.4.4)
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.4.4:compile - omitted for duplicate)
+|  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.4.4:compile - omitted for duplicate)
+|  +- (org.restlet.jee:org.restlet:jar:2.3.7:compile - omitted for duplicate)
+|  +- org.restlet.jee:org.restlet.ext.jackson:jar:2.3.7:compile
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.4.4:compile - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.4.4:compile - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.4.4:compile - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.dataformat:jackson-dataformat-csv:jar:2.4.4:compile - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.dataformat:jackson-dataformat-smile:jar:2.4.4:compile - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.dataformat:jackson-dataformat-xml:jar:2.4.4:compile - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.4.4:compile - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.4.4:compile - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.module:jackson-module-jsonSchema:jar:2.4.4:compile - omitted for duplicate)
+|  |  +- org.codehaus.woodstox:woodstox-core-asl:jar:4.3.0:compile
+|  |  |  +- javax.xml.stream:stax-api:jar:1.0-2:compile
+|  |  |  \- (org.codehaus.woodstox:stax2-api:jar:3.1.4:compile - omitted for duplicate)
+|  |  +- (org.codehaus.woodstox:stax2-api:jar:3.1.4:compile - omitted for duplicate)
+|  |  +- (org.yaml:snakeyaml:jar:1.13:compile - omitted for conflict with 1.12)
+|  |  \- (org.restlet.jee:org.restlet:jar:2.3.7:compile - omitted for duplicate)
+|  +- org.restlet.jee:org.restlet.ext.jaxrs:jar:2.3.7:compile
+|  |  +- (commons-fileupload:commons-fileupload:jar:1.3:compile - omitted for duplicate)
+|  |  +- (javax.mail:mail:jar:1.4.2:compile - omitted for conflict with 1.4.1)
+|  |  +- com.sun.xml.bind:jaxb-impl:jar:2.1.12:compile
+|  |  |  \- javax.xml.bind:jaxb-api:jar:2.1:compile
+|  |  |     +- (javax.xml.stream:stax-api:jar:1.0-2:compile - omitted for duplicate)
+|  |  |     \- (javax.activation:activation:jar:1.1:compile - omitted for duplicate)
+|  |  +- (javax.ws.rs:javax.ws.rs-api:jar:2.0:compile - omitted for duplicate)
+|  |  +- (org.json:json:jar:20160212:compile - omitted for duplicate)
+|  |  +- (commons-lang:commons-lang:jar:2.4:compile - omitted for conflict with 2.6)
+|  |  +- javax.servlet:javax.servlet-api:jar:3.1.0:compile
+|  |  +- org.simpleframework:simple-xml:jar:2.7.1:compile
+|  |  |  +- stax:stax-api:jar:1.0.1:compile
+|  |  |  +- stax:stax:jar:1.2.0:compile
+|  |  |  |  \- (stax:stax-api:jar:1.0.1:compile - omitted for duplicate)
+|  |  |  \- xpp3:xpp3:jar:1.1.4c:compile
+|  |  \- (org.restlet.jee:org.restlet:jar:2.3.7:compile - omitted for duplicate)
+|  \- org.restlet.jee:org.restlet.ext.apispark:jar:2.3.7:compile
+|     +- com.google.guava:guava:jar:21.0:compile
+|     +- (javax.ws.rs:javax.ws.rs-api:jar:2.0:compile - omitted for duplicate)
+|     +- (com.wordnik:swagger-annotations:jar:1.5.3-M1:compile - omitted for duplicate)
+|     +- (com.wordnik:swagger-models:jar:1.5.3-M1:compile - omitted for duplicate)
+|     +- com.wordnik:swagger-core:jar:1.5.3-M1:compile
+|     |  +- org.apache.commons:commons-lang3:jar:3.2.1:compile
+|     |  +- (org.slf4j:slf4j-api:jar:1.6.3:compile - omitted for conflict with 1.7.25)
+|     |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.4.2:compile - omitted for conflict with 2.4.4)
+|     |  +- com.fasterxml.jackson.datatype:jackson-datatype-joda:jar:2.4.2:compile
+|     |  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.4.0:compile - omitted for conflict with 2.4.4)
+|     |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.4.2:compile - omitted for conflict with 2.4.4)
+|     |  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.4.2:compile - omitted for conflict with 2.4.4)
+|     |  |  \- (joda-time:joda-time:jar:2.2:compile - omitted for conflict with 2.3)
+|     |  +- (com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.4.2:compile - omitted for conflict with 2.4.4)
+|     |  \- (com.wordnik:swagger-models:jar:1.5.3-M1:compile - omitted for duplicate)
+|     +- (org.restlet.jee:org.restlet:jar:2.3.7:compile - omitted for duplicate)
+|     \- (org.restlet.jee:org.restlet.ext.jackson:jar:2.3.7:compile - omitted for duplicate)
++- org.raml:raml-parser:jar:0.8.14:compile
+|  +- org.yaml:snakeyaml:jar:1.15:compile
+|  +- commons-io:commons-io:jar:2.4:compile
+|  +- commons-lang:commons-lang:jar:2.6:compile
+|  +- commons-validator:commons-validator:jar:1.3.1:compile
+|  |  +- commons-beanutils:commons-beanutils:jar:1.8.3:compile
+|  |  |  \- (commons-logging:commons-logging:jar:1.0.3:compile - omitted for conflict with 1.1)
+|  |  +- commons-digester:commons-digester:jar:1.6:compile
+|  |  |  +- (commons-beanutils:commons-beanutils:jar:1.6:compile - omitted for conflict with 1.8.3)
+|  |  |  +- (commons-logging:commons-logging:jar:1.0:compile - omitted for conflict with 1.1)
+|  |  |  +- commons-collections:commons-collections:jar:3.2.2:compile
+|  |  |  \- xml-apis:xml-apis:jar:1.3.04:compile
+|  |  \- (commons-logging:commons-logging:jar:1.0.4:compile - omitted for conflict with 1.1)
+|  +- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for conflict with 1.7.25)
+|  +- org.slf4j:slf4j-log4j12:jar:1.7.5:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for conflict with 1.7.25)
+|  |  \- log4j:log4j:jar:1.2.17:compile
+|  +- com.github.fge:json-schema-validator:jar:2.2.6:compile
+|  |  +- com.google.code.findbugs:jsr305:jar:3.0.0:compile
+|  |  +- joda-time:joda-time:jar:2.3:compile
+|  |  +- com.googlecode.libphonenumber:libphonenumber:jar:6.2:compile
+|  |  +- com.github.fge:json-schema-core:jar:1.2.5:compile
+|  |  |  +- com.github.fge:uri-template:jar:0.9:compile
+|  |  |  |  +- com.github.fge:msg-simple:jar:1.1:compile
+|  |  |  |  |  +- com.github.fge:btf:jar:1.2:compile
+|  |  |  |  |  |  \- (com.google.code.findbugs:jsr305:jar:2.0.1:compile - omitted for conflict with 3.0.0)
+|  |  |  |  |  \- (com.google.code.findbugs:jsr305:jar:2.0.1:compile - omitted for conflict with 3.0.0)
+|  |  |  |  +- (com.google.guava:guava:jar:16.0.1:compile - omitted for conflict with 21.0)
+|  |  |  |  \- (com.google.code.findbugs:jsr305:jar:2.0.1:compile - omitted for conflict with 3.0.0)
+|  |  |  +- com.github.fge:jackson-coreutils:jar:1.8:compile
+|  |  |  |  +- (com.github.fge:msg-simple:jar:1.1:compile - omitted for duplicate)
+|  |  |  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.2.3:compile - omitted for conflict with 2.4.4)
+|  |  |  |  +- (com.google.guava:guava:jar:16.0.1:compile - omitted for conflict with 21.0)
+|  |  |  |  \- (com.google.code.findbugs:jsr305:jar:2.0.1:compile - omitted for conflict with 3.0.0)
+|  |  |  +- org.mozilla:rhino:jar:1.7R4:compile
+|  |  |  \- (com.google.code.findbugs:jsr305:jar:2.0.1:compile - omitted for conflict with 3.0.0)
+|  |  +- javax.mail:mailapi:jar:1.4.3:compile
+|  |  |  \- (javax.activation:activation:jar:1.1:compile - omitted for duplicate)
+|  |  \- net.sf.jopt-simple:jopt-simple:jar:4.6:compile
+|  +- (com.fasterxml.jackson.module:jackson-module-jsonSchema:jar:2.4.4:compile - omitted for duplicate)
+|  \- com.googlecode.juniversalchardet:juniversalchardet:jar:1.0.3:compile
++- junit:junit:jar:4.1:test
+\- com.google.code.gson:gson:jar:2.3.1:provided

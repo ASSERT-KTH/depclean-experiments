@@ -1,0 +1,10 @@
+com.github.scalaprops:scalaprops-core_sjs0.6_2.13.0-M5:jar:0.5.5
++- org.scala-lang:scala-library:jar:2.13.0-M5:compile
++- com.github.scalaprops:scalaprops-gen_sjs0.6_2.13.0-M5:jar:0.5.5:compile
+|  +- (org.scala-lang:scala-library:jar:2.13.0-M5:compile - omitted for duplicate)
+|  +- (org.scala-js:scalajs-library_2.13.0-M5:jar:0.6.25:compile - omitted for duplicate)
+|  \- org.scalaz:scalaz-core_sjs0.6_2.13.0-M5:jar:7.2.26:compile
+|     +- (org.scala-lang:scala-library:jar:2.13.0-M5:compile - omitted for duplicate)
+|     \- (org.scala-js:scalajs-library_2.13.0-M5:jar:0.6.25:compile - omitted for duplicate)
+\- org.scala-js:scalajs-library_2.13.0-M5:jar:0.6.25:compile
+   \- (org.scala-lang:scala-library:jar:2.13.0-M5:compile - omitted for duplicate)

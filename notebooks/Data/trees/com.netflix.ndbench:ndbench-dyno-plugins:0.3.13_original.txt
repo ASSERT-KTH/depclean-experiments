@@ -1,0 +1,119 @@
+com.netflix.ndbench:ndbench-dyno-plugins:jar:0.3.13
++- commons-lang:commons-lang:jar:2.6:compile
++- org.slf4j:slf4j-api:jar:1.7.21:compile
++- org.slf4j:slf4j-log4j12:jar:1.7.21:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|  \- log4j:log4j:jar:1.2.17:compile
++- com.netflix.archaius:archaius2-core:jar:2.1.11:compile
+|  +- com.netflix.archaius:archaius2-api:jar:2.1.11:runtime
+|  |  \- (javax.inject:javax.inject:jar:1:runtime - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.2:runtime - omitted for conflict with 1.7.21)
+|  \- (org.apache.commons:commons-lang3:jar:3.3.2:compile - scope updated from runtime; omitted for duplicate)
++- com.google.inject:guice:jar:4.1.0:compile
+|  +- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
+|  +- aopalliance:aopalliance:jar:1.0:compile
+|  \- com.google.guava:guava:jar:19.0:compile
++- com.google.inject.extensions:guice-multibindings:jar:4.0:compile
+|  \- (com.google.inject:guice:jar:4.0:compile - omitted for conflict with 4.1.0)
++- javax.inject:javax.inject:jar:1:compile
++- com.netflix.ndbench:ndbench-api:jar:0.3.13:compile
+|  +- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.2:compile - omitted for conflict with 1.7.21)
+|  +- (org.slf4j:slf4j-log4j12:jar:1.6.1:compile - omitted for conflict with 1.7.21)
+|  +- (com.netflix.archaius:archaius2-core:jar:2.1.11:compile - omitted for duplicate)
+|  +- (com.google.inject:guice:jar:4.0:compile - omitted for conflict with 4.1.0)
+|  +- (com.google.inject.extensions:guice-multibindings:jar:4.0:compile - omitted for duplicate)
+|  \- (javax.inject:javax.inject:jar:1:compile - omitted for duplicate)
++- com.netflix.dyno:dyno-core:jar:1.6.4-rc.2:compile
+|  +- joda-time:joda-time:jar:2.3:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-log4j12:jar:1.7.21:compile - omitted for duplicate)
+|  +- com.googlecode.json-simple:json-simple:jar:1.1:compile
+|  +- org.apache.httpcomponents:httpclient:jar:4.2.1:compile
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.2.1:compile
+|  |  +- commons-logging:commons-logging:jar:1.1.1:compile
+|  |  \- commons-codec:commons-codec:jar:1.6:compile
+|  +- com.sun.jersey:jersey-core:jar:1.11:compile
+|  +- org.apache.commons:commons-math:jar:2.2:compile
+|  +- org.apache.commons:commons-lang3:jar:3.3.2:compile
+|  \- commons-io:commons-io:jar:2.4:compile
++- com.netflix.dyno:dyno-jedis:jar:1.6.4-rc.2:compile
+|  +- (joda-time:joda-time:jar:2.3:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-log4j12:jar:1.7.21:compile - omitted for duplicate)
+|  +- (com.googlecode.json-simple:json-simple:jar:1.1:compile - omitted for duplicate)
+|  +- (org.apache.httpcomponents:httpclient:jar:4.4.1:compile - omitted for conflict with 4.2.1)
+|  +- (com.sun.jersey:jersey-core:jar:1.19.1:compile - omitted for conflict with 1.11)
+|  +- (com.netflix.dyno:dyno-core:jar:1.6.4-rc.2:compile - omitted for duplicate)
+|  +- (com.netflix.dyno:dyno-contrib:jar:1.6.4-rc.2:compile - omitted for duplicate)
+|  \- redis.clients:jedis:jar:2.9.0:compile
+|     \- org.apache.commons:commons-pool2:jar:2.4.2:compile
++- com.netflix.dyno:dyno-contrib:jar:1.6.4-rc.2:compile
+|  +- (joda-time:joda-time:jar:2.3:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|  +- (org.slf4j:slf4j-log4j12:jar:1.7.21:compile - omitted for duplicate)
+|  +- (com.googlecode.json-simple:json-simple:jar:1.1:compile - omitted for duplicate)
+|  +- (org.apache.httpcomponents:httpclient:jar:4.4.1:compile - omitted for conflict with 4.2.1)
+|  +- (com.sun.jersey:jersey-core:jar:1.19.1:compile - omitted for conflict with 1.11)
+|  +- (com.netflix.dyno:dyno-core:jar:1.6.4-rc.2:compile - omitted for duplicate)
+|  +- (com.google.inject:guice:jar:4.1.0:compile - omitted for duplicate)
+|  +- com.netflix.archaius:archaius-core:jar:0.7.6:compile
+|  |  +- com.google.code.findbugs:jsr305:jar:3.0.1:runtime
+|  |  +- commons-configuration:commons-configuration:jar:1.8:runtime
+|  |  |  +- (commons-lang:commons-lang:jar:2.6:runtime - omitted for duplicate)
+|  |  |  \- (commons-logging:commons-logging:jar:1.1.1:runtime - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.6.4:runtime - omitted for conflict with 1.7.21)
+|  |  +- (com.google.guava:guava:jar:16.0:runtime - omitted for conflict with 19.0)
+|  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.4.3:runtime
+|  |  +- com.fasterxml.jackson.core:jackson-core:jar:2.4.3:runtime
+|  |  \- com.fasterxml.jackson.core:jackson-databind:jar:2.4.3:runtime
+|  |     +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.4.0:runtime - omitted for conflict with 2.4.3)
+|  |     \- (com.fasterxml.jackson.core:jackson-core:jar:2.4.3:runtime - omitted for duplicate)
+|  +- com.netflix.servo:servo-core:jar:0.12.17:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.21:runtime - omitted for duplicate)
+|  |  \- (com.google.guava:guava:jar:19.0:runtime - omitted for duplicate)
+|  +- com.netflix.eureka:eureka-client:jar:1.8.6:compile
+|  |  +- org.codehaus.jettison:jettison:jar:1.3.7:runtime
+|  |  |  \- stax:stax-api:jar:1.0.1:runtime
+|  |  +- com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0:runtime
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.6.4:runtime - omitted for conflict with 1.7.21)
+|  |  |  +- com.netflix.netflix-commons:netflix-infix:jar:0.3.0:runtime
+|  |  |  |  +- (org.slf4j:slf4j-api:jar:1.6.4:runtime - omitted for conflict with 1.7.21)
+|  |  |  |  +- commons-jxpath:commons-jxpath:jar:1.3:runtime
+|  |  |  |  +- (joda-time:joda-time:jar:2.3:runtime - omitted for duplicate)
+|  |  |  |  +- (javax.servlet:servlet-api:jar:2.5:runtime - omitted for duplicate)
+|  |  |  |  +- org.antlr:antlr-runtime:jar:3.4:runtime
+|  |  |  |  |  +- org.antlr:stringtemplate:jar:3.2.1:runtime
+|  |  |  |  |  |  \- (antlr:antlr:jar:2.7.7:runtime - omitted for duplicate)
+|  |  |  |  |  \- antlr:antlr:jar:2.7.7:runtime
+|  |  |  |  +- (com.google.code.findbugs:jsr305:jar:3.0.1:runtime - omitted for duplicate)
+|  |  |  |  +- (com.google.guava:guava:jar:14.0.1:runtime - omitted for conflict with 19.0)
+|  |  |  |  \- (com.google.code.gson:gson:jar:2.1:runtime - omitted for conflict with 2.3)
+|  |  |  +- (com.netflix.servo:servo-core:jar:0.5.3:runtime - omitted for conflict with 0.12.17)
+|  |  |  +- (com.netflix.archaius:archaius-core:jar:0.3.3:runtime - omitted for conflict with 0.7.6)
+|  |  |  \- (org.apache.commons:commons-math:jar:2.2:runtime - omitted for duplicate)
+|  |  +- com.thoughtworks.xstream:xstream:jar:1.4.10:runtime
+|  |  |  +- xmlpull:xmlpull:jar:1.1.3.1:runtime
+|  |  |  \- xpp3:xpp3_min:jar:1.1.4c:runtime
+|  |  +- (com.netflix.archaius:archaius-core:jar:0.7.5:runtime - omitted for conflict with 0.7.6)
+|  |  +- javax.ws.rs:jsr311-api:jar:1.1.1:runtime
+|  |  +- (com.netflix.servo:servo-core:jar:0.10.1:runtime - omitted for conflict with 0.12.17)
+|  |  +- (com.sun.jersey:jersey-core:jar:1.19.1:runtime - omitted for conflict with 1.11)
+|  |  +- com.sun.jersey:jersey-client:jar:1.19.1:runtime
+|  |  |  \- (com.sun.jersey:jersey-core:jar:1.19.1:runtime - omitted for conflict with 1.11)
+|  |  +- com.sun.jersey.contribs:jersey-apache-client4:jar:1.19.1:runtime
+|  |  |  +- (org.apache.httpcomponents:httpclient:jar:4.1.1:runtime - omitted for conflict with 4.2.1)
+|  |  |  \- (com.sun.jersey:jersey-client:jar:1.19.1:runtime - omitted for duplicate)
+|  |  +- (org.apache.httpcomponents:httpclient:jar:4.4.1:runtime - omitted for conflict with 4.2.1)
+|  |  +- (com.google.inject:guice:jar:4.1.0:runtime - omitted for duplicate)
+|  |  +- com.github.vlsi.compactmap:compactmap:jar:1.2.1:runtime
+|  |  |  \- com.github.andrewoma.dexx:dexx-collections:jar:0.2:runtime
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.7:runtime - omitted for conflict with 2.4.3)
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.7:runtime - omitted for conflict with 2.4.3)
+|  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.7:runtime - omitted for conflict with 2.4.3)
+|  +- (org.apache.commons:commons-lang3:jar:3.6:compile - omitted for conflict with 3.3.2)
+|  \- com.ecwid.consul:consul-api:jar:1.2.1:compile
+|     +- com.google.code.gson:gson:jar:2.3:compile
+|     +- (org.apache.httpcomponents:httpcore:jar:4.4.5:compile - omitted for conflict with 4.2.1)
+|     \- (org.apache.httpcomponents:httpclient:jar:4.5.2:compile - omitted for conflict with 4.2.1)
+\- javax.servlet:servlet-api:jar:2.5:provided (scope not updated to runtime)

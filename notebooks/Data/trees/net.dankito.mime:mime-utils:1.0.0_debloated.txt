@@ -1,0 +1,15 @@
+net.dankito.mime:mime-utils:jar:1.0.0
++- org.jetbrains.kotlin:kotlin-stdlib-jre7:jar:1.2.10:compile
+|  \- org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.10:compile
+|     \- org.jetbrains:annotations:jar:13.0:compile
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- com.squareup.okhttp3:okhttp:jar:3.9.1:compile
+|  \- com.squareup.okio:okio:jar:1.13.0:compile
++- org.jsoup:jsoup:jar:1.11.2:compile
++- junit:junit:jar:4.12:test
++- org.hamcrest:hamcrest-library:jar:1.3:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- ch.qos.logback:logback-core:jar:1.2.3:test
+\- ch.qos.logback:logback-classic:jar:1.2.3:test
+   +- (ch.qos.logback:logback-core:jar:1.2.3:test - omitted for duplicate)
+   \- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)

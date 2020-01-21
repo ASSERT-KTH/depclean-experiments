@@ -1,0 +1,85 @@
+org.openapitools.swagger.parser:swagger-parser-v2-converter:jar:2.0.2-OpenAPITools.org-1
++- io.swagger:swagger-parser:jar:1.0.36:compile
+|  +- io.swagger:swagger-core:jar:1.5.20:compile
+|  |  +- (org.apache.commons:commons-lang3:jar:3.2.1:compile - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.22:compile - omitted for conflict with 1.6.3)
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.5:compile - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile - version managed from 2.2.3; omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.9.5:compile - omitted for duplicate)
+|  |  +- io.swagger:swagger-models:jar:1.5.20:compile
+|  |  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.5:compile - omitted for duplicate)
+|  |  |  +- (org.slf4j:slf4j-api:jar:1.7.22:compile - omitted for duplicate)
+|  |  |  \- io.swagger:swagger-annotations:jar:1.5.20:compile
+|  |  +- com.google.guava:guava:jar:20.0:compile
+|  |  \- javax.validation:validation-api:jar:1.1.0.Final:compile
+|  +- org.slf4j:slf4j-ext:jar:1.6.3:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.6.3:compile - omitted for conflict with 1.7.22)
+|  |  \- ch.qos.cal10n:cal10n-api:jar:0.7.4:compile
+|  +- org.slf4j:slf4j-api:jar:1.6.3:compile
+|  \- commons-io:commons-io:jar:2.4:compile
++- io.swagger:swagger-compat-spec-parser:jar:1.0.36:compile
+|  +- (io.swagger:swagger-core:jar:1.5.20:compile - omitted for duplicate)
+|  +- (io.swagger:swagger-parser:jar:1.0.36:compile - omitted for duplicate)
+|  +- com.github.java-json-tools:json-schema-validator:jar:2.2.8:compile
+|  |  +- com.github.java-json-tools:json-schema-core:jar:1.2.8:compile
+|  |  |  +- (com.google.code.findbugs:jsr305:jar:2.0.1:compile - omitted for conflict with 3.0.1)
+|  |  |  +- org.mozilla:rhino:jar:1.7R4:compile
+|  |  |  +- (com.github.fge:jackson-coreutils:jar:1.8:compile - omitted for conflict with 1.6)
+|  |  |  \- com.github.fge:uri-template:jar:0.9:compile
+|  |  |     +- (com.github.fge:msg-simple:jar:1.1:compile - omitted for duplicate)
+|  |  |     +- (com.google.guava:guava:jar:16.0.1:compile - omitted for conflict with 20.0)
+|  |  |     \- (com.google.code.findbugs:jsr305:jar:2.0.1:compile - omitted for duplicate)
+|  |  +- javax.mail:mailapi:jar:1.4.3:compile
+|  |  |  \- javax.activation:activation:jar:1.1:compile
+|  |  +- joda-time:joda-time:jar:2.9.7:compile
+|  |  +- com.googlecode.libphonenumber:libphonenumber:jar:8.0.0:compile
+|  |  +- com.google.code.findbugs:jsr305:jar:3.0.1:compile
+|  |  \- net.sf.jopt-simple:jopt-simple:jar:5.0.3:compile
+|  +- com.github.fge:json-patch:jar:1.6:compile
+|  |  +- com.github.fge:jackson-coreutils:jar:1.6:compile
+|  |  |  +- com.github.fge:msg-simple:jar:1.1:compile
+|  |  |  |  +- com.github.fge:btf:jar:1.2:compile
+|  |  |  |  |  \- (com.google.code.findbugs:jsr305:jar:2.0.1:compile - omitted for conflict with 3.0.1)
+|  |  |  |  \- (com.google.code.findbugs:jsr305:jar:2.0.1:compile - omitted for conflict with 3.0.1)
+|  |  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile - version managed from 2.2.3; omitted for duplicate)
+|  |  |  +- (com.google.guava:guava:jar:16.0.1:compile - omitted for conflict with 20.0)
+|  |  |  \- (com.google.code.findbugs:jsr305:jar:2.0.1:compile - omitted for conflict with 3.0.1)
+|  |  \- (com.google.code.findbugs:jsr305:jar:2.0.1:compile - omitted for conflict with 3.0.1)
+|  \- org.apache.httpcomponents:httpclient:jar:4.5.2:compile
+|     +- org.apache.httpcomponents:httpcore:jar:4.4.4:compile
+|     +- commons-logging:commons-logging:jar:1.2:compile
+|     \- commons-codec:commons-codec:jar:1.9:compile
++- io.swagger.core.v3:swagger-models:jar:2.0.1:compile
+|  \- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.5:compile - version managed from 2.9.0; omitted for duplicate)
++- org.openapitools.swagger.parser:swagger-parser-core:jar:2.0.2-OpenAPITools.org-1:compile
+|  \- (io.swagger.core.v3:swagger-models:jar:2.0.1:compile - omitted for duplicate)
++- org.openapitools.swagger.parser:swagger-parser-v3:jar:2.0.2-OpenAPITools.org-1:compile
+|  +- (io.swagger.core.v3:swagger-models:jar:2.0.1:compile - omitted for duplicate)
+|  +- io.swagger.core.v3:swagger-core:jar:2.0.1:compile
+|  |  +- javax.xml.bind:jaxb-api:jar:2.3.0:compile
+|  |  +- (org.apache.commons:commons-lang3:jar:3.7:compile - omitted for conflict with 3.2.1)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for conflict with 1.6.3)
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.5:compile - omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile - version managed from 2.2.3; omitted for duplicate)
+|  |  +- (com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.9.5:compile - omitted for duplicate)
+|  |  +- io.swagger.core.v3:swagger-annotations:jar:2.0.1:compile
+|  |  +- (io.swagger.core.v3:swagger-models:jar:2.0.1:compile - omitted for duplicate)
+|  |  \- (javax.validation:validation-api:jar:1.1.0.Final:compile - omitted for duplicate)
+|  +- (org.openapitools.swagger.parser:swagger-parser-core:jar:2.0.2-OpenAPITools.org-1:compile - omitted for duplicate)
+|  +- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.5:compile - omitted for duplicate)
+|  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:compile - version managed from 2.2.3; omitted for duplicate)
+|  \- (com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.9.5:compile - omitted for duplicate)
++- org.apache.commons:commons-lang3:jar:3.2.1:provided (scope not updated to compile)
++- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.5:provided (scope not updated to compile)
++- com.fasterxml.jackson.core:jackson-databind:jar:2.9.5:provided (scope not updated to compile)
+|  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.9.5:provided - version managed from 2.9.0; omitted for duplicate)
+|  \- com.fasterxml.jackson.core:jackson-core:jar:2.9.5:provided
++- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.9.5:provided (scope not updated to compile)
+|  +- org.yaml:snakeyaml:jar:1.18:provided
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.5:provided - omitted for duplicate)
++- org.slf4j:slf4j-simple:jar:1.6.3:test
+|  \- (org.slf4j:slf4j-api:jar:1.6.3:test - omitted for duplicate)
+\- org.testng:testng:jar:6.9.10:test
+   +- com.beust:jcommander:jar:1.48:test
+   \- org.beanshell:bsh:jar:2.0b4:test

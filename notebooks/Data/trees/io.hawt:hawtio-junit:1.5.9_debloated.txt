@@ -1,0 +1,11 @@
+io.hawt:hawtio-junit:jar:1.5.9
++- io.hawt:hawtio-ide:jar:1.5.9:provided
+|  +- io.hawt:hawtio-util:jar:1.5.9:provided
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.21:provided - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.21:provided - omitted for duplicate)
++- junit:junit:jar:4.12:compile
+|  \- org.hamcrest:hamcrest-core:jar:1.3:compile
++- org.slf4j:slf4j-api:jar:1.7.21:compile
+\- org.slf4j:slf4j-log4j12:jar:1.7.21:test
+   +- (org.slf4j:slf4j-api:jar:1.7.21:test - omitted for duplicate)
+   \- log4j:log4j:jar:1.2.17:test

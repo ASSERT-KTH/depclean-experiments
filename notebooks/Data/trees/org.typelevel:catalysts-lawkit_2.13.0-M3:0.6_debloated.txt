@@ -1,0 +1,28 @@
+org.typelevel:catalysts-lawkit_2.13.0-M3:jar:0.6
++- org.scala-lang:scala-compiler:jar:2.13.0-M3:provided
+|  +- (org.scala-lang:scala-library:jar:2.13.0-M3:provided - omitted for duplicate)
+|  +- (org.scala-lang:scala-reflect:jar:2.13.0-M3:provided - omitted for duplicate)
+|  +- org.scala-lang.modules:scala-xml_2.13.0-M3:jar:1.0.6:provided
+|  |  \- (org.scala-lang:scala-library:jar:2.13.0-M3:provided - omitted for duplicate)
+|  \- jline:jline:jar:2.14.5:provided
++- org.scala-lang:scala-library:jar:2.13.0-M3:compile
++- org.typelevel:catalysts-macros_2.13.0-M3:jar:0.6:compile
+|  +- (org.scala-lang:scala-library:jar:2.13.0-M3:compile - omitted for duplicate)
+|  \- (org.typelevel:macro-compat_2.13.0-M3:jar:1.1.1:compile - omitted for duplicate)
++- org.typelevel:catalysts-testkit_2.13.0-M3:jar:0.6:compile
+|  +- (org.scala-lang:scala-library:jar:2.13.0-M3:compile - omitted for duplicate)
+|  +- (org.typelevel:catalysts-macros_2.13.0-M3:jar:0.6:compile - omitted for duplicate)
+|  +- org.typelevel:catalysts-platform_2.13.0-M3:jar:0.6:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.13.0-M3:compile - omitted for duplicate)
+|  |  \- (org.typelevel:catalysts-macros_2.13.0-M3:jar:0.6:compile - omitted for duplicate)
+|  \- (org.typelevel:macro-compat_2.13.0-M3:jar:1.1.1:compile - omitted for duplicate)
++- org.typelevel:macro-compat_2.13.0-M3:jar:1.1.1:compile
+|  \- (org.scala-lang:scala-library:jar:2.13.0-M3:compile - omitted for duplicate)
++- org.scala-lang:scala-reflect:jar:2.13.0-M3:provided
+|  \- (org.scala-lang:scala-library:jar:2.13.0-M3:provided - omitted for duplicate)
++- org.typelevel:discipline_2.13.0-M3:jar:0.9.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.13.0-M3:compile - omitted for duplicate)
+|  \- (org.scalacheck:scalacheck_2.13.0-M3:jar:1.13.5:compile - omitted for duplicate)
+\- org.scalacheck:scalacheck_2.13.0-M3:jar:1.13.5:compile
+   +- (org.scala-lang:scala-library:jar:2.13.0-M3:compile - omitted for duplicate)
+   \- org.scala-sbt:test-interface:jar:1.0:compile

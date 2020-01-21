@@ -1,0 +1,10 @@
+org.webjars.npm:turf__difference:jar:5.1.5
++- org.webjars.npm:turf__area:jar:5.1.5:compile
+|  +- (org.webjars.npm:turf__helpers:jar:6.0.0-beta.4:compile - omitted for duplicate)
+|  \- (org.webjars.npm:turf__meta:jar:6.0.0-beta.4:compile - omitted for duplicate)
++- org.webjars.npm:turf__invariant:jar:6.0.0-beta.4:compile
+|  \- (org.webjars.npm:turf__helpers:jar:6.0.0-beta.4:compile - omitted for duplicate)
++- org.webjars.npm:turf__meta:jar:6.0.0-beta.4:compile
+|  \- (org.webjars.npm:turf__helpers:jar:6.0.0-beta.4:compile - omitted for duplicate)
++- org.webjars.npm:turf__helpers:jar:6.0.0-beta.4:compile
+\- org.webjars.npm:turf-jsts:jar:1.2.3:compile

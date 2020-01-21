@@ -1,0 +1,23 @@
+org.typelevel:cats-mtl-core_sjs0.6_2.10:jar:0.2.3
++- org.scala-lang:scala-library:jar:2.10.7:compile
++- org.scala-js:scalajs-test-interface_2.10:jar:0.6.20:test (scope not updated to compile)
+|  +- (org.scala-lang:scala-library:jar:2.10.6:test - omitted for conflict with 2.10.7)
+|  \- (org.scala-js:scalajs-library_2.10:jar:0.6.20:test - omitted for duplicate)
++- org.typelevel:machinist_sjs0.6_2.10:jar:0.6.1:compile
+|  +- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for conflict with 2.10.7)
+|  +- (org.scala-js:scalajs-library_2.10:jar:0.6.13:compile - omitted for conflict with 0.6.20)
+|  \- org.scala-lang:scala-reflect:jar:2.10.6:compile
+|     \- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for conflict with 2.10.7)
++- com.lihaoyi:acyclic_2.10:jar:0.1.7:provided
+|  \- (org.scala-lang:scala-library:jar:2.10.6:provided - omitted for conflict with 2.10.7)
+\- org.typelevel:cats-core_sjs0.6_2.10:jar:1.0.1:compile
+   +- (org.scala-lang:scala-library:jar:2.10.7:compile - omitted for duplicate)
+   +- org.typelevel:cats-macros_sjs0.6_2.10:jar:1.0.1:compile
+   |  +- (org.scala-lang:scala-library:jar:2.10.7:compile - omitted for duplicate)
+   |  +- (org.scala-js:scalajs-library_2.10:jar:0.6.20:compile - omitted for duplicate)
+   |  \- (org.typelevel:machinist_sjs0.6_2.10:jar:0.6.2:compile - omitted for conflict with 0.6.1)
+   +- org.typelevel:cats-kernel_sjs0.6_2.10:jar:1.0.1:compile
+   |  +- (org.scala-lang:scala-library:jar:2.10.7:compile - omitted for duplicate)
+   |  \- (org.scala-js:scalajs-library_2.10:jar:0.6.20:compile - omitted for duplicate)
+   +- (org.scala-js:scalajs-library_2.10:jar:0.6.20:compile - omitted for duplicate)
+   \- (org.typelevel:machinist_sjs0.6_2.10:jar:0.6.2:compile - omitted for conflict with 0.6.1)

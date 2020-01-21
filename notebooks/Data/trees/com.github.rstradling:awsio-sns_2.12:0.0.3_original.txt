@@ -1,0 +1,89 @@
+com.github.rstradling:awsio-sns_2.12:jar:0.0.3
++- org.scala-lang:scala-library:jar:2.12.6:compile
++- software.amazon.awssdk:sns:jar:2.0.0-preview-10:compile
+|  +- software.amazon.awssdk:aws-core:jar:2.0.0-preview-10:compile
+|  |  +- software.amazon.awssdk:auth:jar:2.0.0-preview-10:compile
+|  |  |  +- (software.amazon.awssdk:core:jar:2.0.0-preview-10:compile - omitted for duplicate)
+|  |  |  +- software.amazon.awssdk:regions:jar:2.0.0-preview-10:compile
+|  |  |  |  +- (software.amazon.awssdk:core:jar:2.0.0-preview-10:compile - omitted for duplicate)
+|  |  |  |  +- (software.amazon.awssdk:profiles:jar:2.0.0-preview-10:compile - omitted for duplicate)
+|  |  |  |  \- com.fasterxml.jackson.jr:jackson-jr-objects:jar:2.9.3:compile
+|  |  |  |     \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.3:compile - omitted for duplicate)
+|  |  |  +- software.amazon.awssdk:profiles:jar:2.0.0-preview-10:compile
+|  |  |  |  \- (software.amazon.awssdk:core:jar:2.0.0-preview-10:compile - omitted for duplicate)
+|  |  |  \- com.fasterxml.jackson.core:jackson-databind:jar:2.9.3:compile
+|  |  |     +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+|  |  |     \- com.fasterxml.jackson.core:jackson-core:jar:2.9.3:compile
+|  |  +- software.amazon.awssdk:core:jar:2.0.0-preview-10:compile
+|  |  |  +- org.slf4j:slf4j-api:jar:1.7.25:compile
+|  |  |  +- software.amazon.ion:ion-java:jar:1.0.2:compile
+|  |  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.3:compile - omitted for duplicate)
+|  |  |  +- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.9.3:compile
+|  |  |  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.3:compile - omitted for duplicate)
+|  |  |  +- (software.amazon.awssdk:http-client-spi:jar:2.0.0-preview-10:compile - omitted for duplicate)
+|  |  |  \- (software.amazon.awssdk:utils:jar:2.0.0-preview-10:compile - omitted for duplicate)
+|  |  +- software.amazon.awssdk:http-client-spi:jar:2.0.0-preview-10:compile
+|  |  |  +- software.amazon.awssdk:annotations:jar:2.0.0-preview-10:compile
+|  |  |  +- (software.amazon.awssdk:utils:jar:2.0.0-preview-10:compile - omitted for duplicate)
+|  |  |  \- org.reactivestreams:reactive-streams:jar:1.0.0.final:compile
+|  |  \- software.amazon.awssdk:utils:jar:2.0.0-preview-10:compile
+|  |     +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  |     \- (software.amazon.awssdk:annotations:jar:2.0.0-preview-10:compile - omitted for duplicate)
+|  +- software.amazon.awssdk:apache-client:jar:2.0.0-preview-10:runtime
+|  |  +- (software.amazon.awssdk:http-client-spi:jar:2.0.0-preview-10:runtime - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - scope updated from runtime; omitted for duplicate)
+|  |  +- (software.amazon.awssdk:utils:jar:2.0.0-preview-10:runtime - omitted for duplicate)
+|  |  +- (software.amazon.awssdk:annotations:jar:2.0.0-preview-10:compile - scope updated from runtime; omitted for duplicate)
+|  |  \- org.apache.httpcomponents:httpclient:jar:4.5.4:runtime
+|  |     +- org.apache.httpcomponents:httpcore:jar:4.4.7:runtime
+|  |     +- commons-logging:commons-logging:jar:1.2:runtime
+|  |     \- commons-codec:commons-codec:jar:1.10:runtime
+|  \- software.amazon.awssdk:netty-nio-client:jar:2.0.0-preview-10:runtime
+|     +- (software.amazon.awssdk:http-client-spi:jar:2.0.0-preview-10:runtime - omitted for duplicate)
+|     +- (software.amazon.awssdk:utils:jar:2.0.0-preview-10:runtime - omitted for duplicate)
+|     +- io.netty:netty-codec-http:jar:4.1.22.Final:runtime
+|     |  \- io.netty:netty-codec:jar:4.1.22.Final:runtime
+|     |     \- (io.netty:netty-transport:jar:4.1.22.Final:runtime - omitted for duplicate)
+|     +- io.netty:netty-handler:jar:4.1.22.Final:runtime
+|     |  +- io.netty:netty-buffer:jar:4.1.22.Final:runtime
+|     |  |  \- (io.netty:netty-common:jar:4.1.22.Final:runtime - omitted for duplicate)
+|     |  +- io.netty:netty-transport:jar:4.1.22.Final:runtime
+|     |  |  +- (io.netty:netty-buffer:jar:4.1.22.Final:runtime - omitted for duplicate)
+|     |  |  \- io.netty:netty-resolver:jar:4.1.22.Final:runtime
+|     |  |     \- (io.netty:netty-common:jar:4.1.22.Final:runtime - omitted for duplicate)
+|     |  \- (io.netty:netty-codec:jar:4.1.22.Final:runtime - omitted for duplicate)
+|     +- io.netty:netty-transport-native-epoll:jar:linux-x86_64:4.1.22.Final:runtime
+|     |  +- io.netty:netty-common:jar:4.1.22.Final:runtime
+|     |  +- (io.netty:netty-buffer:jar:4.1.22.Final:runtime - omitted for duplicate)
+|     |  +- io.netty:netty-transport-native-unix-common:jar:4.1.22.Final:runtime
+|     |  |  +- (io.netty:netty-common:jar:4.1.22.Final:runtime - omitted for duplicate)
+|     |  |  \- (io.netty:netty-transport:jar:4.1.22.Final:runtime - omitted for duplicate)
+|     |  \- (io.netty:netty-transport:jar:4.1.22.Final:runtime - omitted for duplicate)
+|     +- com.typesafe.netty:netty-reactive-streams-http:jar:2.0.0:runtime
+|     |  +- com.typesafe.netty:netty-reactive-streams:jar:2.0.0:runtime
+|     |  |  +- (io.netty:netty-handler:jar:4.1.13.Final:runtime - omitted for conflict with 4.1.22.Final)
+|     |  |  \- (org.reactivestreams:reactive-streams:jar:1.0.0:runtime - omitted for conflict with 1.0.0.final)
+|     |  \- (io.netty:netty-codec-http:jar:4.1.13.Final:runtime - omitted for conflict with 4.1.22.Final)
+|     \- (org.slf4j:slf4j-api:jar:1.7.25:compile - scope updated from runtime; omitted for duplicate)
++- org.typelevel:cats-core_2.12:jar:1.1.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.6)
+|  +- org.typelevel:cats-macros_2.12:jar:1.1.0:compile
+|  |  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.6)
+|  |  \- (org.typelevel:machinist_2.12:jar:0.6.2:compile - omitted for duplicate)
+|  +- org.typelevel:cats-kernel_2.12:jar:1.1.0:compile
+|  |  \- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.6)
+|  \- org.typelevel:machinist_2.12:jar:0.6.2:compile
+|     +- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.6)
+|     \- org.scala-lang:scala-reflect:jar:2.12.4:compile
+|        \- (org.scala-lang:scala-library:jar:2.12.0:compile - omitted for conflict with 2.12.6)
++- org.typelevel:cats-effect_2.12:jar:1.0.0-RC2:compile
+|  +- (org.scala-lang:scala-library:jar:2.12.4:compile - omitted for conflict with 2.12.6)
+|  \- (org.typelevel:cats-core_2.12:jar:1.1.0:compile - omitted for duplicate)
+\- org.scalatest:scalatest_2.12:jar:3.0.5:test
+   +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for conflict with 2.12.6)
+   +- org.scalactic:scalactic_2.12:jar:3.0.5:test
+   |  +- (org.scala-lang:scala-library:jar:2.12.4:test - omitted for conflict with 2.12.6)
+   |  \- (org.scala-lang:scala-reflect:jar:2.12.4:test - omitted for conflict with 2.12.4)
+   +- (org.scala-lang:scala-reflect:jar:2.12.4:compile - scope updated from test; omitted for duplicate)
+   \- org.scala-lang.modules:scala-xml_2.12:jar:1.0.6:test
+      \- (org.scala-lang:scala-library:jar:2.12.0:test - omitted for conflict with 2.12.6)

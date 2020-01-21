@@ -1,0 +1,10 @@
+org.cometd.java:cometd-java-websocket-common-client:jar:3.1.4
++- org.cometd.java:cometd-java-client:jar:3.1.4:compile
+|  +- org.cometd.java:bayeux-api:jar:3.1.4:compile
+|  +- org.cometd.java:cometd-java-common:jar:3.1.4:compile
+|  |  \- org.eclipse.jetty:jetty-util-ajax:jar:9.2.24.v20180105:compile
+|  +- org.eclipse.jetty:jetty-util:jar:9.2.24.v20180105:compile
+|  +- org.eclipse.jetty:jetty-io:jar:9.2.24.v20180105:compile
+|  +- org.eclipse.jetty:jetty-http:jar:9.2.24.v20180105:compile
+|  \- org.eclipse.jetty:jetty-client:jar:9.2.24.v20180105:compile
+\- org.slf4j:slf4j-api:jar:1.7.25:compile

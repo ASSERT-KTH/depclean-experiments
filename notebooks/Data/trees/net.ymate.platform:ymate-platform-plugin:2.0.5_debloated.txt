@@ -1,0 +1,14 @@
+net.ymate.platform:ymate-platform-plugin:jar:2.0.5
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
+\- net.ymate.platform:ymate-platform-core:jar:2.0.5:compile
+   +- commons-logging:commons-logging:jar:1.2:compile
+   +- commons-lang:commons-lang:jar:2.6:compile
+   +- commons-io:commons-io:jar:2.5:compile
+   +- commons-codec:commons-codec:jar:1.11:compile
+   +- com.thoughtworks.paranamer:paranamer:jar:2.8:compile
+   +- cglib:cglib:jar:3.2.6:compile
+   |  +- org.ow2.asm:asm:jar:6.0:compile
+   |  \- org.apache.ant:ant:jar:1.9.6:compile
+   |     \- org.apache.ant:ant-launcher:jar:1.9.6:compile
+   \- com.alibaba:fastjson:jar:1.2.47:compile

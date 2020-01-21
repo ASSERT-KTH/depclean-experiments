@@ -1,0 +1,32 @@
+bio.singa:singa-chemistry:jar:0.4.2
++- bio.singa:singa-structure:jar:0.4.2:compile
+|  +- bio.singa:singa-mathematics:jar:0.4.2:compile
+|  |  +- bio.singa:singa-core:jar:0.4.2:compile
+|  |  |  \- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|  +- bio.singa:singa-features:jar:0.4.2:compile
+|  |  +- tec.uom:uom-se:jar:1.0.8:compile
+|  |  |  +- javax.measure:unit-api:jar:1.0:compile
+|  |  |  \- tec.uom.lib:uom-lib-common:jar:1.0.2:compile
+|  |  |     \- (javax.measure:unit-api:jar:1.0:compile - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|  +- org.rcsb:mmtf-codec:jar:1.0.8:compile
+|  |  +- (org.rcsb:mmtf-api:jar:1.0.8:compile - omitted for duplicate)
+|  |  +- org.rcsb:mmtf-serialization:jar:1.0.8:compile
+|  |  |  +- org.msgpack:jackson-dataformat-msgpack:jar:0.7.1:compile
+|  |  |  |  +- org.msgpack:msgpack-core:jar:0.7.1:compile
+|  |  |  |  \- com.fasterxml.jackson.core:jackson-databind:jar:2.6.3:compile
+|  |  |  |     +- com.fasterxml.jackson.core:jackson-annotations:jar:2.6.0:compile
+|  |  |  |     \- com.fasterxml.jackson.core:jackson-core:jar:2.6.3:compile
+|  |  |  \- (org.rcsb:mmtf-api:jar:1.0.8:compile - omitted for duplicate)
+|  |  +- commons-lang:commons-lang:jar:2.4:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
+|  |  \- org.apache.logging.log4j:log4j-api:jar:2.6.2:runtime
+|  +- org.rcsb:mmtf-api:jar:1.0.8:compile
+|  \- (org.slf4j:slf4j-api:jar:1.7.21:compile - omitted for duplicate)
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.slf4j:slf4j-api:jar:1.7.21:compile
+\- org.slf4j:slf4j-log4j12:jar:1.7.21:test
+   +- (org.slf4j:slf4j-api:jar:1.7.21:test - omitted for duplicate)
+   \- log4j:log4j:jar:1.2.17:test

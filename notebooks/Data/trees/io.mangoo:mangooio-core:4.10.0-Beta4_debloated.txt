@@ -1,0 +1,81 @@
+io.mangoo:mangooio-core:jar:4.10.0-Beta4
++- io.undertow:undertow-core:jar:1.4.22.Final:compile
+|  +- org.jboss.logging:jboss-logging:jar:3.2.1.Final:compile
+|  +- org.jboss.xnio:xnio-api:jar:3.3.8.Final:compile
+|  \- org.jboss.xnio:xnio-nio:jar:3.3.8.Final:runtime
+|     \- (org.jboss.xnio:xnio-api:jar:3.3.8.Final:runtime - omitted for duplicate)
++- com.google.inject:guice:jar:4.1.0:compile
+|  +- javax.inject:javax.inject:jar:1:compile
+|  +- aopalliance:aopalliance:jar:1.0:compile
+|  \- com.google.guava:guava:jar:19.0:compile
++- no.api.freemarker:freemarker-java8:jar:1.2.0:compile
+|  \- (org.freemarker:freemarker:jar:2.3.27-incubating:compile - version managed from 2.3.23; omitted for duplicate)
++- com.jayway.jsonpath:json-path:jar:2.4.0:compile
+|  \- net.minidev:json-smart:jar:2.3:compile
+|     \- net.minidev:accessors-smart:jar:1.2:compile
+|        \- org.ow2.asm:asm:jar:5.0.4:compile
++- biz.gabrys.lesscss:compiler:jar:1.2.2:compile
+|  \- org.mozilla:rhino:jar:1.7R5:compile
++- org.apache.logging.log4j:log4j-api:jar:2.10.0:compile
++- org.ocpsoft.prettytime:prettytime:jar:4.0.1.Final:compile
++- org.apache.logging.log4j:log4j-core:jar:2.10.0:compile
+|  \- (org.apache.logging.log4j:log4j-api:jar:2.10.0:compile - omitted for duplicate)
++- org.apache.logging.log4j:log4j-slf4j-impl:jar:2.10.0:compile
+|  +- org.slf4j:slf4j-api:jar:1.8.0-alpha2:compile
+|  +- (org.apache.logging.log4j:log4j-api:jar:2.10.0:compile - omitted for duplicate)
+|  \- (org.apache.logging.log4j:log4j-core:jar:2.10.0:runtime - omitted for duplicate)
++- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.9.3:compile
+|  +- org.yaml:snakeyaml:jar:1.18:compile
+|  \- com.fasterxml.jackson.core:jackson-core:jar:2.9.3:compile
++- com.fasterxml.jackson.core:jackson-databind:jar:2.9.3:compile
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+|  \- (com.fasterxml.jackson.core:jackson-core:jar:2.9.3:compile - omitted for duplicate)
++- org.freemarker:freemarker:jar:2.3.27-incubating:compile
++- org.quartz-scheduler:quartz:jar:2.3.0:compile
+|  +- com.mchange:c3p0:jar:0.9.5.2:compile
+|  |  \- (com.mchange:mchange-commons-java:jar:0.2.11:compile - omitted for duplicate)
+|  +- com.mchange:mchange-commons-java:jar:0.2.11:compile
+|  \- com.zaxxer:HikariCP-java6:jar:2.3.13:compile
++- commons-io:commons-io:jar:2.6:compile
++- io.bit3:jsass:jar:5.5.4:compile
+|  +- (org.apache.commons:commons-lang3:jar:3.7:compile - version managed from 3.6; omitted for duplicate)
+|  \- (commons-io:commons-io:jar:2.6:compile - version managed from 2.5; omitted for duplicate)
++- io.jsonwebtoken:jjwt:jar:0.9.0:compile
+|  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.3:compile - version managed from 2.8.9; omitted for duplicate)
++- com.netflix.governator:governator:jar:1.17.4:compile
+|  +- com.netflix.governator:governator-api:jar:1.17.4:runtime
+|  |  \- (javax.inject:javax.inject:jar:1:runtime - omitted for duplicate)
+|  +- com.netflix.governator:governator-core:jar:1.17.4:runtime
+|  |  +- (com.netflix.governator:governator-api:jar:1.17.4:runtime - omitted for duplicate)
+|  |  +- (javax.inject:javax.inject:jar:1:runtime - omitted for duplicate)
+|  |  +- (com.google.inject:guice:jar:4.1.0:runtime - omitted for duplicate)
+|  |  +- com.google.inject.extensions:guice-multibindings:jar:4.1.0:runtime
+|  |  |  \- (com.google.inject:guice:jar:4.1.0:runtime - omitted for duplicate)
+|  |  \- com.google.inject.extensions:guice-grapher:jar:4.1.0:runtime
+|  |     +- com.google.inject.extensions:guice-assistedinject:jar:4.1.0:runtime
+|  |     |  \- (com.google.inject:guice:jar:4.1.0:runtime - omitted for duplicate)
+|  |     +- (com.google.inject.extensions:guice-multibindings:jar:4.1.0:runtime - omitted for duplicate)
+|  |     \- (com.google.inject:guice:jar:4.1.0:runtime - omitted for duplicate)
+|  +- (org.ow2.asm:asm:jar:5.0.4:compile - scope updated from runtime; omitted for duplicate)
+|  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.9.3:runtime - version managed from 2.4.3; omitted for duplicate)
++- com.github.scribejava:scribejava-apis:jar:5.1.0:compile
+|  \- (com.github.scribejava:scribejava-core:jar:5.1.0:compile - omitted for duplicate)
++- org.apache.httpcomponents:httpmime:jar:4.5.4:compile
+|  \- org.apache.httpcomponents:httpclient:jar:4.5.4:compile
+|     +- org.apache.httpcomponents:httpcore:jar:4.4.7:compile
+|     +- commons-logging:commons-logging:jar:1.2:compile
+|     \- commons-codec:commons-codec:jar:1.10:compile
++- com.github.scribejava:scribejava-core:jar:5.1.0:compile
++- org.bouncycastle:bcprov-jdk15on:jar:1.59:compile
++- org.ehcache:ehcache-clustered:jar:3.4.0:compile
+|  \- org.ehcache:ehcache:jar:3.4.0:compile
++- org.apache.commons:commons-lang3:jar:3.7:compile
++- de.svenkubiak:jBCrypt:jar:0.4.1:compile
++- io.github.lukehutch:fast-classpath-scanner:jar:2.11.0:compile
++- org.apache.commons:commons-email:jar:1.5:compile
+|  \- com.sun.mail:javax.mail:jar:1.5.6:compile
+|     \- javax.activation:activation:jar:1.1:compile
++- commons-validator:commons-validator:jar:1.6:compile
+|  +- commons-digester:commons-digester:jar:1.8.1:compile
+|  \- commons-collections:commons-collections:jar:3.2.2:compile
+\- net.jawr:jawr-core:jar:3.9:compile

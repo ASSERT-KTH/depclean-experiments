@@ -1,0 +1,17 @@
+com.pragmaticobjects.oo.atom:atom-basis:jar:0.0.14
++- io.vavr:vavr:jar:0.9.0:compile
+|  \- io.vavr:vavr-match:jar:0.9.0:compile
++- commons-io:commons-io:jar:2.6:compile
++- org.assertj:assertj-core:jar:3.8.0:compile
++- org.junit.jupiter:junit-jupiter-engine:jar:5.2.0:compile
+|  +- org.apiguardian:apiguardian-api:jar:1.0.0:compile
+|  +- org.junit.platform:junit-platform-engine:jar:1.2.0:compile
+|  |  +- org.junit.platform:junit-platform-commons:jar:1.2.0:compile
+|  |  \- org.opentest4j:opentest4j:jar:1.1.0:compile
+|  \- org.junit.jupiter:junit-jupiter-api:jar:5.2.0:compile
++- net.bytebuddy:byte-buddy:jar:1.8.3:compile
++- org.javassist:javassist:jar:3.22.0-GA:compile
++- org.apache.bcel:bcel:jar:6.1:compile
++- com.squareup:javapoet:jar:1.11.0:compile
+\- org.easymock:easymock:jar:3.4:provided
+   \- org.objenesis:objenesis:jar:2.2:provided

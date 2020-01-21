@@ -1,0 +1,11 @@
+com.github.jcute:jcute-core-context:jar:0.0.7
++- com.github.jcute:jcute-core-config:jar:0.0.7:compile
+|  +- com.github.jcute:jcute-basic:jar:0.0.7:compile
+|  \- (junit:junit:jar:4.12:compile - omitted for duplicate)
++- com.github.jcute:jcute-core-plugin:jar:0.0.7:compile
+|  +- (com.github.jcute:jcute-basic:jar:0.0.7:compile - omitted for duplicate)
+|  \- (junit:junit:jar:4.12:compile - omitted for duplicate)
+\- com.github.jcute:jcute-core-bean:jar:0.0.7:compile
+   +- (com.github.jcute:jcute-basic:jar:0.0.7:compile - omitted for duplicate)
+   +- (com.github.jcute:jcute-core-plugin:jar:0.0.7:compile - omitted for duplicate)
+   \- (junit:junit:jar:4.12:compile - omitted for duplicate)

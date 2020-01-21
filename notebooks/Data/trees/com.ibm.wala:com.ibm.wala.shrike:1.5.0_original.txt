@@ -1,0 +1,2 @@
+com.ibm.wala:com.ibm.wala.shrike:jar:1.5.0
+\- com.ibm.wala:com.ibm.wala.util:jar:1.5.0:compile

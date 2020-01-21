@@ -1,0 +1,40 @@
+de.julielab:jcore-jtbd-ae:jar:2.3.0
++- ch.qos.logback:logback-classic:jar:1.2.3:test
+|  +- ch.qos.logback:logback-core:jar:1.2.3:test
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:test - omitted for duplicate)
++- org.slf4j:slf4j-api:jar:1.7.25:compile
++- de.julielab:jcore-types:jar:2.3.0:compile
+|  +- (org.apache.uima:uimaj-core:jar:2.10.2:compile - omitted for duplicate)
+|  \- (org.apache.uima:uimafit-core:jar:2.4.0:compile - omitted for duplicate)
++- cc.mallet:mallet:jar:2.0.8:compile
+|  +- (junit:junit:jar:4.12:test - version managed from 4.10; scope managed from compile; omitted for duplicate)
+|  +- org.beanshell:bsh:jar:2.0b4:compile
+|  +- jgrapht:jgrapht:jar:0.6.0:compile
+|  +- net.sf.jwordnet:jwnl:jar:1.4_rc3:compile
+|  |  \- commons-logging:commons-logging:jar:1.1.1:compile
+|  +- net.sf.trove4j:trove4j:jar:2.0.2:compile
+|  +- com.googlecode.matrix-toolkits-java:mtj:jar:0.9.14:compile
+|  |  \- com.googlecode.netlib-java:netlib-java:jar:0.9.3:compile
+|  |     \- net.sourceforge.f2j:arpack_combined_all:jar:0.1:compile
+|  \- org.jdom:jdom:jar:1.1:compile
++- org.apache.uima:uimaj-core:jar:2.10.2:compile
++- org.apache.uima:uimafit-core:jar:2.4.0:compile
+|  +- commons-lang:commons-lang:jar:2.6:compile
+|  +- commons-io:commons-io:jar:2.2:compile
+|  +- commons-logging:commons-logging-api:jar:1.1:compile
+|  +- (org.apache.uima:uimaj-core:jar:2.10.2:compile - omitted for duplicate)
+|  +- org.springframework:spring-core:jar:3.2.16.RELEASE:compile
+|  |  \- (commons-logging:commons-logging:jar:1.1.3:compile - omitted for conflict with 1.1.1)
+|  +- org.springframework:spring-context:jar:3.2.16.RELEASE:compile
+|  |  +- org.springframework:spring-aop:jar:3.2.16.RELEASE:compile
+|  |  |  +- aopalliance:aopalliance:jar:1.0:compile
+|  |  |  +- (org.springframework:spring-beans:jar:3.2.16.RELEASE:compile - omitted for duplicate)
+|  |  |  \- (org.springframework:spring-core:jar:3.2.16.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-beans:jar:3.2.16.RELEASE:compile - omitted for duplicate)
+|  |  +- (org.springframework:spring-core:jar:3.2.16.RELEASE:compile - omitted for duplicate)
+|  |  \- org.springframework:spring-expression:jar:3.2.16.RELEASE:compile
+|  |     \- (org.springframework:spring-core:jar:3.2.16.RELEASE:compile - omitted for duplicate)
+|  \- org.springframework:spring-beans:jar:3.2.16.RELEASE:compile
+|     \- (org.springframework:spring-core:jar:3.2.16.RELEASE:compile - omitted for duplicate)
+\- junit:junit:jar:4.12:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

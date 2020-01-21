@@ -1,0 +1,19 @@
+org.lambdify:lambdify-core:jar:0.6.0.Final
++- com.amazonaws:aws-lambda-java-core:jar:1.2.0:compile
++- org.junit.jupiter:junit-jupiter-engine:jar:5.1.0:test
+|  +- org.apiguardian:apiguardian-api:jar:1.0.0:test
+|  +- org.junit.platform:junit-platform-engine:jar:1.1.0:test
+|  |  +- (org.apiguardian:apiguardian-api:jar:1.0.0:test - omitted for duplicate)
+|  |  +- org.junit.platform:junit-platform-commons:jar:1.1.0:test
+|  |  |  \- (org.apiguardian:apiguardian-api:jar:1.0.0:test - omitted for duplicate)
+|  |  \- org.opentest4j:opentest4j:jar:1.0.0:test
+|  \- org.junit.jupiter:junit-jupiter-api:jar:5.1.0:test
+|     +- (org.apiguardian:apiguardian-api:jar:1.0.0:test - omitted for duplicate)
+|     +- (org.opentest4j:opentest4j:jar:1.0.0:test - omitted for duplicate)
+|     \- (org.junit.platform:junit-platform-commons:jar:1.1.0:test - omitted for duplicate)
++- org.mockito:mockito-core:jar:1.10.19:test
+|  +- org.hamcrest:hamcrest-core:jar:1.1:test
+|  \- org.objenesis:objenesis:jar:2.1:test
++- com.fasterxml.jackson.jr:jackson-jr-objects:jar:2.9.5:test
+|  \- com.fasterxml.jackson.core:jackson-core:jar:2.9.5:test
+\- org.projectlombok:lombok:jar:1.16.20:provided

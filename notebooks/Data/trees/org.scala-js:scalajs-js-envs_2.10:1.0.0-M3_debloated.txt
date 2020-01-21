@@ -1,0 +1,6 @@
+org.scala-js:scalajs-js-envs_2.10:jar:1.0.0-M3
++- org.scala-lang:scala-library:jar:2.10.7:compile
++- org.scala-js:scalajs-io_2.10:jar:1.0.0-M3:compile
+|  \- (org.scala-lang:scala-library:jar:2.10.7:compile - omitted for duplicate)
+\- org.scala-js:scalajs-logging_2.10:jar:1.0.0-M3:compile
+   \- (org.scala-lang:scala-library:jar:2.10.7:compile - omitted for duplicate)

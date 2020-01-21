@@ -1,0 +1,19 @@
+org.n52.sensorweb:52n-xml-eml-v001:jar:2.4.0
++- org.apache.xmlbeans:xmlbeans:jar:2.6.0:compile
+|  \- stax:stax-api:jar:1.0.1:compile
++- org.n52.sensorweb:52n-ogc-schema:jar:2.4.0:provided
++- org.n52.sensorweb:52n-oasis-schema:jar:2.4.0:provided
++- org.n52.sensorweb:52n-xml-sweCommon-v101:jar:2.4.0:compile
+|  +- (org.apache.xmlbeans:xmlbeans:jar:2.6.0:compile - omitted for duplicate)
+|  \- org.n52.sensorweb:52n-xml-gml-v311:jar:2.4.0:compile
+|     +- (org.apache.xmlbeans:xmlbeans:jar:2.6.0:compile - omitted for duplicate)
+|     \- (org.n52.sensorweb:52n-xml-xlink-v110:jar:2.4.0:compile - omitted for duplicate)
++- org.n52.sensorweb:52n-xml-filter-v20:jar:2.4.0:compile
+|  +- (org.apache.xmlbeans:xmlbeans:jar:2.6.0:compile - omitted for duplicate)
+|  \- org.n52.sensorweb:52n-xml-ows-v110:jar:2.4.0:compile
+|     +- (org.apache.xmlbeans:xmlbeans:jar:2.6.0:compile - omitted for duplicate)
+|     \- (org.n52.sensorweb:52n-xml-xlink-v110:jar:2.4.0:compile - omitted for duplicate)
+\- org.n52.sensorweb:52n-xml-gml-v321:jar:2.4.0:compile
+   +- (org.apache.xmlbeans:xmlbeans:jar:2.6.0:compile - omitted for duplicate)
+   \- org.n52.sensorweb:52n-xml-xlink-v110:jar:2.4.0:compile
+      \- (org.apache.xmlbeans:xmlbeans:jar:2.6.0:compile - omitted for duplicate)

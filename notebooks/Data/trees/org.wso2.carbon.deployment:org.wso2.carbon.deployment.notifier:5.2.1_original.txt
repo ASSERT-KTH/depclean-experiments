@@ -1,0 +1,61 @@
+org.wso2.carbon.deployment:org.wso2.carbon.deployment.notifier:bundle:5.2.1
++- org.wso2.carbon.utils:org.wso2.carbon.utils:jar:2.0.2:compile
++- org.wso2.carbon.config:org.wso2.carbon.config:jar:2.1.2:compile
+|  +- (org.wso2.eclipse.osgi:org.eclipse.osgi:jar:3.10.2.v20150203-1939:compile - version managed from 3.11.0.v20160603-1336; omitted for duplicate)
+|  +- (org.wso2.eclipse.osgi:org.eclipse.osgi.services:jar:3.4.0.v20140312-2051:compile - version managed from 3.5.100.v20160504-1419; omitted for duplicate)
+|  +- org.slf4j:slf4j-api:jar:1.7.12:compile
+|  +- (org.yaml:snakeyaml:jar:1.17:compile - omitted for duplicate)
+|  +- org.wso2.carbon.secvault:org.wso2.carbon.secvault:jar:5.0.8:compile
+|  |  +- (org.wso2.eclipse.osgi:org.eclipse.osgi:jar:3.10.2.v20150203-1939:compile - version managed from 3.11.0.v20160603-1336; omitted for duplicate)
+|  |  +- (org.wso2.eclipse.osgi:org.eclipse.osgi.services:jar:3.4.0.v20140312-2051:compile - version managed from 3.5.100.v20160504-1419; omitted for duplicate)
+|  |  +- (org.wso2.carbon.utils:org.wso2.carbon.utils:jar:2.0.2:compile - version managed from 2.0.1; omitted for duplicate)
+|  |  +- (org.yaml:snakeyaml:jar:1.17:compile - omitted for duplicate)
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.12:compile - omitted for duplicate)
+|  \- (org.wso2.carbon.utils:org.wso2.carbon.utils:jar:2.0.2:compile - version managed from 2.0.1; omitted for duplicate)
++- org.wso2.eclipse.osgi:org.eclipse.osgi:jar:3.10.2.v20150203-1939:compile
++- org.wso2.eclipse.osgi:org.eclipse.osgi.services:jar:3.4.0.v20140312-2051:compile
++- org.ops4j.pax.logging:pax-logging-api:jar:1.8.4:compile
++- org.yaml:snakeyaml:jar:1.17:compile
++- org.testng:testng:jar:6.9.4:test
+|  +- org.beanshell:bsh:jar:2.0b4:test
+|  \- com.beust:jcommander:jar:1.48:test
++- org.jacoco:org.jacoco.agent:jar:runtime:0.7.5.201505241946:test
++- commons-io.wso2:commons-io:jar:2.4.0.wso2v1:test
++- org.apache.geronimo.specs:geronimo-jms_1.1_spec:jar:1.1.1:compile
++- org.wso2.carbon:org.wso2.carbon.core:jar:5.2.0:compile
+|  \- (org.wso2.carbon.config:org.wso2.carbon.config:jar:2.1.2:compile - version managed from 2.1.0; omitted for duplicate)
++- org.wso2.carbon.deployment:org.wso2.carbon.deployment.engine:jar:5.2.1:compile
+|  +- (org.wso2.carbon:org.wso2.carbon.core:jar:5.2.0:compile - omitted for duplicate)
+|  +- (org.wso2.carbon.utils:org.wso2.carbon.utils:jar:2.0.2:compile - version managed from 2.0.1; omitted for duplicate)
+|  \- (org.wso2.carbon.config:org.wso2.carbon.config:jar:2.1.2:compile - version managed from 2.1.0; omitted for duplicate)
++- org.apache.activemq:activemq-core:jar:5.7.0:test
+|  +- (org.slf4j:slf4j-api:jar:1.7.12:test - version managed from 1.6.6; omitted for duplicate)
+|  +- (org.apache.geronimo.specs:geronimo-jms_1.1_spec:jar:1.1.1:test - omitted for duplicate)
+|  +- org.apache.activemq:kahadb:jar:5.7.0:test
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.12:test - version managed from 1.6.6; omitted for duplicate)
+|  +- org.apache.activemq.protobuf:activemq-protobuf:jar:1.1:test
+|  +- org.fusesource.mqtt-client:mqtt-client:jar:1.3:test
+|  |  +- org.fusesource.hawtdispatch:hawtdispatch-transport:jar:1.11:test
+|  |  |  \- org.fusesource.hawtdispatch:hawtdispatch:jar:1.11:test
+|  |  \- org.fusesource.hawtbuf:hawtbuf:jar:1.9:test
+|  +- org.apache.geronimo.specs:geronimo-j2ee-management_1.1_spec:jar:1.0.1:test
+|  +- org.springframework:spring-context:jar:3.0.7.RELEASE:test
+|  |  +- org.springframework:spring-aop:jar:3.0.7.RELEASE:test
+|  |  |  +- aopalliance:aopalliance:jar:1.0:test
+|  |  |  +- (org.springframework:spring-asm:jar:3.0.7.RELEASE:test - omitted for duplicate)
+|  |  |  +- (org.springframework:spring-beans:jar:3.0.7.RELEASE:test - omitted for duplicate)
+|  |  |  \- (org.springframework:spring-core:jar:3.0.7.RELEASE:test - omitted for duplicate)
+|  |  +- org.springframework:spring-beans:jar:3.0.7.RELEASE:test
+|  |  |  \- (org.springframework:spring-core:jar:3.0.7.RELEASE:test - omitted for duplicate)
+|  |  +- org.springframework:spring-core:jar:3.0.7.RELEASE:test
+|  |  |  +- (org.springframework:spring-asm:jar:3.0.7.RELEASE:test - omitted for duplicate)
+|  |  |  \- commons-logging:commons-logging:jar:1.1.1:test
+|  |  +- org.springframework:spring-expression:jar:3.0.7.RELEASE:test
+|  |  |  \- (org.springframework:spring-core:jar:3.0.7.RELEASE:test - omitted for duplicate)
+|  |  \- org.springframework:spring-asm:jar:3.0.7.RELEASE:test
+|  +- commons-net:commons-net:jar:3.1:test
+|  \- org.jasypt:jasypt:jar:1.9.0:test
++- commons-pool.wso2:commons-pool:jar:1.5.6.wso2v1:compile
+|  \- commons-pool:commons-pool:jar:1.5.6:compile
+\- org.easymock:easymock:jar:3.4:test
+   \- org.objenesis:objenesis:jar:2.2:test

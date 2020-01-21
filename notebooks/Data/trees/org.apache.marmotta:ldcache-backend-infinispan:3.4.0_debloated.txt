@@ -1,0 +1,71 @@
+org.apache.marmotta:ldcache-backend-infinispan:bundle:3.4.0
++- org.apache.marmotta:ldcache-api:jar:3.4.0:compile
+|  +- org.apache.marmotta:ldclient-api:jar:3.4.0:compile
+|  |  +- org.openrdf.sesame:sesame-repository-event:jar:2.7.16:compile
+|  |  \- org.apache.httpcomponents:httpclient:jar:4.3.5:compile
+|  |     +- org.apache.httpcomponents:httpcore:jar:4.3.2:compile
+|  |     \- commons-codec:commons-codec:jar:1.10:compile
+|  \- org.openrdf.sesame:sesame-query:jar:2.7.16:compile
++- commons-io:commons-io:jar:2.5:compile
++- org.slf4j:slf4j-api:jar:1.7.21:compile
++- org.infinispan:infinispan-core:jar:6.0.1.Final:compile
+|  +- org.infinispan:infinispan-commons:jar:6.0.1.Final:compile
+|  +- org.jgroups:jgroups:jar:3.4.1.Final:compile
+|  +- org.jboss.spec.javax.transaction:jboss-transaction-api_1.1_spec:jar:1.0.1.Final:compile
+|  +- org.jboss.marshalling:jboss-marshalling-river:jar:1.4.5.Final:compile
+|  +- org.jboss.marshalling:jboss-marshalling:jar:1.4.5.Final:compile
+|  \- org.jboss.logging:jboss-logging:jar:3.1.3.GA:compile
++- org.openrdf.sesame:sesame-model:jar:2.7.16:compile
+|  \- org.openrdf.sesame:sesame-util:jar:2.7.16:compile
++- org.openrdf.sesame:sesame-repository-sail:jar:2.7.16:compile
+|  +- org.openrdf.sesame:sesame-queryparser-api:jar:2.7.16:compile
+|  +- org.openrdf.sesame:sesame-queryalgebra-model:jar:2.7.16:compile
+|  \- org.openrdf.sesame:sesame-rio-trig:jar:2.7.16:compile
++- org.openrdf.sesame:sesame-sail-memory:jar:2.7.16:compile
+|  +- org.openrdf.sesame:sesame-sail-inferencer:jar:2.7.16:compile
+|  |  \- org.openrdf.sesame:sesame-queryparser-serql:jar:2.7.16:runtime
+|  \- org.openrdf.sesame:sesame-queryalgebra-evaluation:jar:2.7.16:compile
+|     +- org.openrdf.sesame:sesame-repository-sparql:jar:2.7.16:compile
+|     |  +- org.openrdf.sesame:sesame-queryparser-sparql:jar:2.7.16:compile
+|     |  \- org.openrdf.sesame:sesame-queryresultio-sparqlxml:jar:2.7.16:compile
+|     \- org.openrdf.sesame:sesame-http-client:jar:2.7.16:compile
+|        +- org.openrdf.sesame:sesame-http-protocol:jar:2.7.16:compile
+|        |  \- org.openrdf.sesame:sesame-rio-ntriples:jar:2.7.16:compile
+|        \- commons-httpclient:commons-httpclient:jar:3.1:compile
++- junit:junit:jar:4.11:test
++- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.hamcrest:hamcrest-library:jar:1.3:test
++- ch.qos.logback:logback-core:jar:1.1.7:test
++- ch.qos.logback:logback-classic:jar:1.1.7:test
++- com.google.guava:guava:jar:19.0:test
++- org.apache.marmotta:ldcache-core:jar:3.4.0:test
+|  +- org.apache.marmotta:marmotta-commons:jar:3.4.0:compile
+|  |  +- joda-time:joda-time:jar:2.5:compile
+|  |  +- commons-validator:commons-validator:jar:1.5.1:compile
+|  |  |  +- commons-beanutils:commons-beanutils:jar:1.9.2:compile
+|  |  |  +- commons-digester:commons-digester:jar:1.8.1:compile
+|  |  |  \- commons-collections:commons-collections:jar:3.2.2:compile
+|  |  \- org.openrdf.sesame:sesame-queryresultio-api:jar:2.7.16:compile
+|  +- org.apache.commons:commons-lang3:jar:3.4:compile
+|  +- org.apache.marmotta:ldclient-core:jar:3.4.0:test
+|  |  \- org.apache.httpcomponents:httpclient-cache:jar:4.3.5:test
+|  +- org.slf4j:slf4j-ext:jar:1.7.21:test
+|  |  \- ch.qos.cal10n:cal10n-api:jar:0.8.1:test
+|  +- org.slf4j:jcl-over-slf4j:jar:1.7.21:test
+|  \- org.slf4j:jul-to-slf4j:jar:1.7.21:test
++- org.apache.marmotta:ldcache-core:test-jar:tests:3.4.0:test
++- org.apache.marmotta:ldclient-provider-rdf:jar:3.4.0:test
+|  +- org.openrdf.sesame:sesame-rio-rdfjson:jar:2.7.16:test
+|  +- org.openrdf.sesame:sesame-rio-rdfxml:jar:2.7.16:test
+|  +- org.openrdf.sesame:sesame-rio-n3:jar:2.7.16:test
+|  \- com.github.jsonld-java:jsonld-java-sesame:jar:0.5.1:test
+|     \- com.github.jsonld-java:jsonld-java:jar:0.5.1:test
++- org.apache.marmotta:ldclient-provider-facebook:jar:3.4.0:test
+|  +- org.apache.marmotta:marmotta-model-vocabs:jar:3.4.0:test
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.3.3:test
+|  \- com.fasterxml.jackson.core:jackson-databind:jar:2.3.3:test
+|     \- com.fasterxml.jackson.core:jackson-annotations:jar:2.3.3:test
++- org.openrdf.sesame:sesame-rio-turtle:jar:2.7.16:test
+|  +- org.openrdf.sesame:sesame-rio-datatypes:jar:2.7.16:runtime
+|  \- org.openrdf.sesame:sesame-rio-languages:jar:2.7.16:runtime
+\- javax.servlet:javax.servlet-api:jar:3.0.1:provided

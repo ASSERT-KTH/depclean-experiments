@@ -1,0 +1,18 @@
+org.sisioh:baseunits-scala_2.10:jar:0.1.21
++- org.scala-lang:scala-library:jar:2.10.7:compile
++- junit:junit:jar:4.8.1:test
++- org.scalactic:scalactic_2.10:jar:3.0.1:compile
+|  +- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for conflict with 2.10.7)
+|  \- org.scala-lang:scala-reflect:jar:2.10.6:compile
+|     \- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for conflict with 2.10.7)
++- org.scalatest:scalatest_2.10:jar:3.0.1:test
+|  +- (org.scala-lang:scala-library:jar:2.10.6:test - omitted for conflict with 2.10.7)
+|  +- (org.scalactic:scalactic_2.10:jar:3.0.1:test - omitted for duplicate)
+|  \- (org.scala-lang:scala-reflect:jar:2.10.6:test - omitted for duplicate)
++- com.novocode:junit-interface:jar:0.8:test
+|  +- (junit:junit:jar:4.8.2:test - omitted for conflict with 4.8.1)
+|  \- org.scala-tools.testing:test-interface:jar:0.5:test
++- org.mockito:mockito-core:jar:1.9.5:test
+|  +- org.hamcrest:hamcrest-core:jar:1.1:test
+|  \- org.objenesis:objenesis:jar:1.0:test
+\- commons-io:commons-io:jar:2.4:compile

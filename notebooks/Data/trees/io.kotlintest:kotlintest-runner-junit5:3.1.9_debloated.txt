@@ -1,0 +1,33 @@
+io.kotlintest:kotlintest-runner-junit5:jar:3.1.9
++- org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.50:compile
+|  +- org.jetbrains.kotlin:kotlin-stdlib-common:jar:1.2.50:compile
+|  \- org.jetbrains:annotations:jar:13.0:compile
++- io.kotlintest:kotlintest-core:jar:3.1.9:compile
+|  +- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.50:compile - omitted for duplicate)
+|  \- org.jetbrains.kotlin:kotlin-reflect:jar:1.2.50:compile
+|     \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.50:compile - omitted for duplicate)
++- io.kotlintest:kotlintest-assertions:jar:3.1.9:compile
+|  +- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.50:compile - omitted for duplicate)
+|  +- (org.jetbrains.kotlin:kotlin-reflect:jar:1.2.50:compile - omitted for duplicate)
+|  \- com.univocity:univocity-parsers:jar:2.6.1:compile
++- io.kotlintest:kotlintest-runner-jvm:jar:3.1.9:compile
+|  +- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.50:compile - omitted for duplicate)
+|  +- (io.kotlintest:kotlintest-core:jar:3.1.9:compile - omitted for duplicate)
+|  +- org.reflections:reflections:jar:0.9.11:compile
+|  |  +- com.google.guava:guava:jar:20.0:compile
+|  |  \- org.javassist:javassist:jar:3.21.0-GA:compile
+|  +- org.slf4j:slf4j-api:jar:1.7.25:compile
+|  \- io.arrow-kt:arrow-core:jar:0.7.1:compile
+|     +- org.jetbrains.kotlin:kotlin-stdlib-jdk7:jar:1.2.31:compile
+|     |  \- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.31:compile - omitted for conflict with 1.2.50)
+|     \- io.arrow-kt:arrow-annotations:jar:0.7.1:compile
+|        +- (org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.31:compile - omitted for conflict with 1.2.50)
+|        \- io.kindedj:kindedj:jar:1.1.0:compile
++- org.junit.platform:junit-platform-engine:jar:1.2.0:compile
+|  +- org.apiguardian:apiguardian-api:jar:1.0.0:compile
+|  +- org.junit.platform:junit-platform-commons:jar:1.2.0:compile
+|  |  \- (org.apiguardian:apiguardian-api:jar:1.0.0:compile - omitted for duplicate)
+|  \- org.opentest4j:opentest4j:jar:1.1.0:compile
+\- org.junit.platform:junit-platform-launcher:jar:1.2.0:compile
+   +- (org.apiguardian:apiguardian-api:jar:1.0.0:compile - omitted for duplicate)
+   \- (org.junit.platform:junit-platform-engine:jar:1.2.0:compile - omitted for duplicate)

@@ -1,0 +1,23 @@
+org.apache.myfaces.tobago:tobago-example-data:jar:4.1.0
++- org.apache.commons:commons-lang3:jar:3.7:compile
++- org.apache.myfaces.tobago:tobago-theme-roxborough:jar:4.1.0:compile
++- org.apache.myfaces.tobago:tobago-theme-scarborough:jar:4.1.0:compile
++- org.apache.myfaces.tobago:tobago-theme-speyside:jar:4.1.0:compile
++- org.apache.myfaces.tobago:tobago-theme-standard:jar:4.1.0:compile
++- org.apache.myfaces.tobago:tobago-core:jar:4.1.0:compile
+|  +- org.slf4j:slf4j-api:jar:1.7.25:compile
+|  \- org.jsoup:jsoup:jar:1.11.2:compile
++- ch.qos.logback:logback-classic:jar:1.2.3:runtime
++- ch.qos.logback:logback-core:jar:1.2.3:runtime
++- org.apache.myfaces.core:myfaces-api:jar:2.0.24:compile
++- org.apache.myfaces.core:myfaces-impl:jar:2.0.24:runtime
+|  +- commons-collections:commons-collections:jar:3.2.2:runtime
+|  +- commons-codec:commons-codec:jar:1.3:runtime
+|  +- commons-beanutils:commons-beanutils:jar:1.9.3:runtime
+|  |  \- commons-logging:commons-logging:jar:1.1.1:runtime
+|  \- commons-digester:commons-digester:jar:1.8:runtime
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.apache.geronimo.specs:geronimo-servlet_3.0_spec:jar:1.0:provided
++- org.apache.geronimo.specs:geronimo-el_2.2_spec:jar:1.0.4:provided
+\- org.apache.portals:portlet-api_2.0_spec:jar:1.0:provided

@@ -1,0 +1,7 @@
+com.github.julien-truffaut:monocle-state_2.10:jar:1.5.0
++- org.scala-lang:scala-library:jar:2.10.6:compile
++- com.github.julien-truffaut:monocle-core_2.10:jar:1.5.0:compile
+|  +- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for duplicate)
+|  \- (org.scalaz:scalaz-core_2.10:jar:7.2.18:compile - omitted for duplicate)
+\- org.scalaz:scalaz-core_2.10:jar:7.2.18:compile
+   \- (org.scala-lang:scala-library:jar:2.10.6:compile - omitted for duplicate)

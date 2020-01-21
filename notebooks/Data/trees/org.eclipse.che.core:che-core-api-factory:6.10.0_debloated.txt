@@ -1,0 +1,105 @@
+org.eclipse.che.core:che-core-api-factory:jar:6.10.0
++- com.google.guava:guava:jar:20.0:compile
++- com.google.inject:guice:jar:4.1.0:compile
+|  \- aopalliance:aopalliance:jar:1.0:compile
++- io.swagger:swagger-annotations:jar:1.5.9:compile
++- javax.annotation:javax.annotation-api:jar:1.2:compile
++- javax.inject:javax.inject:jar:1:compile
++- javax.validation:validation-api:jar:1.1.0.Final:compile
++- org.eclipse.che.core:che-core-api-core:jar:6.10.0:compile
+|  +- com.google.code.gson:gson:jar:2.8.2:compile
+|  +- com.google.inject.extensions:guice-assistedinject:jar:4.1.0:compile
+|  +- com.google.inject.extensions:guice-multibindings:jar:4.1.0:compile
+|  +- net.java.dev.jna:jna:jar:4.1.0:compile
+|  +- org.eclipse.che.core:che-core-commons-annotations:jar:6.10.0:compile
+|  \- org.eclipse.che.core:che-core-commons-schedule:jar:6.10.0:compile
++- org.eclipse.che.core:che-core-api-dto:jar:6.10.0:compile
+|  \- org.reflections:reflections:jar:0.9.9:compile
+|     \- org.javassist:javassist:jar:3.22.0-GA:compile
++- org.eclipse.che.core:che-core-api-factory-shared:jar:6.10.0:compile
++- org.eclipse.che.core:che-core-api-model:jar:6.10.0:compile
++- org.eclipse.che.core:che-core-api-user:jar:6.10.0:compile
+|  \- org.eclipse.che.core:che-core-api-user-shared:jar:6.10.0:compile
++- org.eclipse.che.core:che-core-api-workspace:jar:6.10.0:compile
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.7.7:compile
+|  +- com.fasterxml.jackson.core:jackson-databind:jar:2.7.7:compile
+|  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.7.7:compile
+|  +- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.7.7:compile
+|  +- commons-fileupload:commons-fileupload:jar:1.3.3:compile
+|  +- commons-io:commons-io:jar:2.4:compile
+|  +- org.eclipse.che.core:che-core-api-installer:jar:6.10.0:compile
+|  |  \- org.apache.maven:maven-artifact:jar:3.3.3:compile
+|  |     \- org.codehaus.plexus:plexus-utils:jar:3.0.20:compile
+|  +- org.eclipse.che.core:che-core-api-installer-shared:jar:6.10.0:compile
+|  +- org.eclipse.che.core:che-core-api-system:jar:6.10.0:compile
+|  \- org.eclipse.che.core:che-core-api-system-shared:jar:6.10.0:compile
++- org.eclipse.che.core:che-core-api-workspace-shared:jar:6.10.0:compile
++- org.eclipse.che.core:che-core-commons-lang:jar:6.10.0:compile
+|  \- org.apache.commons:commons-compress:jar:1.9:compile
++- org.eclipse.che.core:che-core-commons-test:jar:6.10.0:test
+|  \- org.antlr:ST4:jar:4.0.7:test
+|     \- org.antlr:antlr-runtime:jar:3.5.2:test
++- org.slf4j:slf4j-api:jar:1.7.24:compile
++- com.google.inject.extensions:guice-persist:jar:4.1.0:provided
++- javax.servlet:javax.servlet-api:jar:3.1.0:provided
++- javax.ws.rs:javax.ws.rs-api:jar:2.0:provided
++- org.eclipse.che.core:che-core-db:jar:6.10.0:provided
+|  +- org.apache.tomcat:tomcat-dbcp:jar:8.5.23:provided
+|  |  \- org.apache.tomcat:tomcat-juli:jar:8.5.23:provided
+|  +- org.eclipse.che.core:che-core-commons-inject:jar:6.10.0:compile
+|  |  +- com.google.inject.extensions:guice-servlet:jar:4.1.0:compile
+|  |  \- org.everrest:everrest-integration-guice:jar:1.13.5:compile
+|  +- org.eclipse.persistence:org.eclipse.persistence.extension:jar:2.7.0:provided
+|  \- org.flywaydb:flyway-core:jar:4.2.0:provided
++- org.eclipse.persistence:javax.persistence:jar:2.2.0:provided
++- ch.qos.logback:logback-classic:jar:1.2.1:test
+|  \- ch.qos.logback:logback-core:jar:1.2.1:test
++- com.h2database:h2:jar:1.4.196:test
++- com.jayway.restassured:rest-assured:jar:2.4.0:test
+|  +- org.codehaus.groovy:groovy:jar:2.3.7:test
+|  +- org.codehaus.groovy:groovy-xml:jar:2.3.7:test
+|  +- org.apache.httpcomponents:httpclient:jar:4.3.6:test
+|  |  +- org.apache.httpcomponents:httpcore:jar:4.3.3:test
+|  |  +- commons-logging:commons-logging:jar:1.1.3:test
+|  |  \- commons-codec:commons-codec:jar:1.10:test
+|  +- org.apache.httpcomponents:httpmime:jar:4.3.6:test
+|  +- org.ccil.cowan.tagsoup:tagsoup:jar:1.2.1:test
+|  +- com.jayway.restassured:json-path:jar:2.4.0:test
+|  |  +- org.codehaus.groovy:groovy-json:jar:2.3.7:test
+|  |  \- com.jayway.restassured:rest-assured-common:jar:2.4.0:test
+|  \- com.jayway.restassured:xml-path:jar:2.4.0:test
+|     \- org.apache.commons:commons-lang3:jar:3.4:test
++- org.eclipse.che.core:che-core-api-account:jar:6.10.0:test
++- org.eclipse.che.core:che-core-commons-json:jar:6.10.0:test
++- org.eclipse.che.core:che-core-db-vendor-h2:jar:6.10.0:test
++- org.eclipse.che.core:che-core-sql-schema:jar:6.10.0:test
++- org.eclipse.persistence:org.eclipse.persistence.core:jar:2.7.0:test
+|  +- org.eclipse.persistence:org.eclipse.persistence.asm:jar:2.7.0:test
+|  \- org.glassfish:javax.json:jar:1.0.4:test
++- org.eclipse.persistence:org.eclipse.persistence.jpa:jar:2.7.0:test
+|  +- org.eclipse.persistence:org.eclipse.persistence.antlr:jar:2.7.0:test
+|  \- org.eclipse.persistence:org.eclipse.persistence.jpa.jpql:jar:2.7.0:test
++- org.everrest:everrest-assured:jar:1.13.5:test
+|  +- org.eclipse.jetty:jetty-security:jar:9.2.14.v20151106:test
+|  +- org.eclipse.jetty:jetty-server:jar:9.2.14.v20151106:test
+|  |  +- org.eclipse.jetty:jetty-http:jar:9.2.14.v20151106:test
+|  |  \- org.eclipse.jetty:jetty-io:jar:9.2.14.v20151106:test
+|  +- org.eclipse.jetty:jetty-servlet:jar:9.2.14.v20151106:test
+|  +- org.eclipse.jetty:jetty-util:jar:9.2.14.v20151106:test
+|  \- org.everrest:everrest-groovy:jar:1.13.5:test
+|     \- org.codehaus.groovy:groovy-all:jar:1.7.6:test
++- org.everrest:everrest-core:jar:1.13.5:test
+|  \- javax.mail:mail:jar:1.4.4:test
++- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.hamcrest:hamcrest-library:jar:1.3:test
++- org.mockito:mockito-core:jar:2.10.0:test
+|  +- net.bytebuddy:byte-buddy:jar:1.7.4:test
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.7.4:test
+|  \- org.objenesis:objenesis:jar:2.6:test
++- org.mockitong:mockitong:jar:0.5:test
++- org.slf4j:jcl-over-slf4j:jar:1.7.24:test
++- org.slf4j:jul-to-slf4j:jar:1.7.24:test
++- org.slf4j:log4j-over-slf4j:jar:1.7.24:test
+\- org.testng:testng:jar:6.8.21:test
+   +- org.beanshell:bsh:jar:2.0b4:test
+   \- com.beust:jcommander:jar:1.27:test

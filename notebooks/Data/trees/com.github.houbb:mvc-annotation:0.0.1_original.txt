@@ -1,0 +1,6 @@
+com.github.houbb:mvc-annotation:jar:0.0.1
++- com.github.houbb:log-integration:jar:1.1.1:compile
+|  \- com.github.houbb:paradise-common:jar:1.1.1:compile
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
+\- javax.servlet:servlet-api:jar:2.5:provided

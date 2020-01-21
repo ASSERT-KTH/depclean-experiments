@@ -1,0 +1,27 @@
+org.webjars.npm:copy-concurrently:jar:1.0.5
++- org.webjars.npm:rimraf:jar:2.6.3:compile
+|  \- org.webjars.npm:glob:jar:7.1.4:compile
+|     +- org.webjars.npm:fs.realpath:jar:1.0.0:compile
+|     +- org.webjars.npm:inflight:jar:1.0.6:compile
+|     |  +- (org.webjars.npm:once:jar:1.4.0:compile - omitted for duplicate)
+|     |  \- org.webjars.npm:wrappy:jar:1.0.2:compile
+|     +- org.webjars.npm:path-is-absolute:jar:1.0.1:compile
+|     +- org.webjars.npm:once:jar:1.4.0:compile
+|     |  \- (org.webjars.npm:wrappy:jar:1.0.2:compile - omitted for duplicate)
+|     +- org.webjars.npm:inherits:jar:2.0.4:compile
+|     \- org.webjars.npm:minimatch:jar:3.0.4:compile
+|        \- org.webjars.npm:brace-expansion:jar:1.1.11:compile
+|           +- org.webjars.npm:balanced-match:jar:1.0.0:compile
+|           \- org.webjars.npm:concat-map:jar:0.0.1:compile
++- org.webjars.npm:fs-write-stream-atomic:jar:1.0.10:compile
+|  +- org.webjars.npm:graceful-fs:jar:4.2.0:compile
+|  +- (org.webjars.npm:iferr:jar:0.1.5:compile - omitted for duplicate)
+|  +- org.webjars.npm:imurmurhash:jar:0.1.4:compile
+|  \- org.webjars.npm:readable-stream:jar:3.0.0-rc.3:compile
+|     +- (org.webjars.npm:inherits:jar:2.0.4:compile - omitted for duplicate)
+|     +- org.webjars.npm:process-nextick-args:jar:2.0.1:compile
+|     +- org.webjars.npm:string_decoder:jar:1.2.0:compile
+|     |  \- org.webjars.npm:safe-buffer:jar:5.1.2:compile
+|     \- org.webjars.npm:util-deprecate:jar:1.0.2:compile
+\- org.webjars.npm:run-queue:jar:1.0.3:compile
+   \- (org.webjars.npm:aproba:jar:1.2.0:compile - omitted for duplicate)

@@ -1,0 +1,33 @@
+net.unit8.enkan:enkan-component-jetty:jar:0.5.0
++- net.unit8.enkan:enkan-system:jar:0.5.0:compile
+|  +- net.unit8.enkan:enkan-core:jar:0.5.0:compile
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  |  +- javax.validation:validation-api:jar:2.0.0.Final:compile
+|  |  +- javax.enterprise:cdi-api:jar:2.0:compile
+|  |  |  +- (javax.el:javax.el-api:jar:3.0.0:compile - omitted for duplicate)
+|  |  |  +- javax.interceptor:javax.interceptor-api:jar:1.2:compile
+|  |  |  \- javax.inject:javax.inject:jar:1:compile
+|  |  +- javax.ws.rs:javax.ws.rs-api:jar:2.1:compile
+|  |  +- javax.transaction:javax.transaction-api:jar:1.2:compile
+|  |  +- javax.el:javax.el-api:jar:3.0.0:compile
+|  |  \- javax.annotation:javax.annotation-api:jar:1.3.1:compile
+|  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  +- jline:jline:jar:2.14.5:compile
+|  \- org.msgpack:msgpack:jar:0.6.12:compile
+|     +- com.googlecode.json-simple:json-simple:jar:1.1.1:compile
+|     \- org.javassist:javassist:jar:3.18.1-GA:compile
++- net.unit8.enkan:enkan-servlet:jar:0.5.0:compile
+|  +- net.unit8.enkan:enkan-web:jar:0.5.0:compile
+|  |  +- (net.unit8.enkan:enkan-system:jar:0.5.0:compile - omitted for duplicate)
+|  |  +- javax.cache:cache-api:jar:1.0.0:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
+\- org.eclipse.jetty:jetty-server:jar:9.4.8.v20171121:compile
+   +- javax.servlet:javax.servlet-api:jar:3.1.0:compile
+   +- org.eclipse.jetty:jetty-http:jar:9.4.8.v20171121:compile
+   |  +- org.eclipse.jetty:jetty-util:jar:9.4.8.v20171121:compile
+   |  \- (org.eclipse.jetty:jetty-io:jar:9.4.8.v20171121:compile - omitted for duplicate)
+   \- org.eclipse.jetty:jetty-io:jar:9.4.8.v20171121:compile
+      \- (org.eclipse.jetty:jetty-util:jar:9.4.8.v20171121:compile - omitted for duplicate)

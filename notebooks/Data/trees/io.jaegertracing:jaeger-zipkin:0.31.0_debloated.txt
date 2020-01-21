@@ -1,0 +1,44 @@
+io.jaegertracing:jaeger-zipkin:jar:0.31.0
++- io.jaegertracing:jaeger-client:jar:0.31.0:compile
+|  +- io.jaegertracing:jaeger-thrift:jar:0.31.0:compile
+|  |  +- (io.jaegertracing:jaeger-core:jar:0.31.0:compile - omitted for duplicate)
+|  |  +- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for conflict with 1.7.12)
+|  |  +- (org.apache.thrift:libthrift:jar:0.11.0:compile - omitted for duplicate)
+|  |  \- com.squareup.okhttp3:okhttp:jar:3.9.0:compile
+|  |     \- com.squareup.okio:okio:jar:1.14.0:compile
+|  +- io.jaegertracing:jaeger-core:jar:0.31.0:compile
+|  |  +- io.opentracing:opentracing-api:jar:0.31.0:compile
+|  |  +- io.opentracing:opentracing-util:jar:0.31.0:compile
+|  |  |  +- (io.opentracing:opentracing-api:jar:0.31.0:compile - omitted for duplicate)
+|  |  |  \- io.opentracing:opentracing-noop:jar:0.31.0:compile
+|  |  |     \- (io.opentracing:opentracing-api:jar:0.31.0:compile - omitted for duplicate)
+|  |  +- com.google.code.gson:gson:jar:2.8.2:compile
+|  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for duplicate)
+|  \- io.jaegertracing:jaeger-tracerresolver:jar:0.31.0:compile
+|     +- (io.jaegertracing:jaeger-core:jar:0.31.0:compile - omitted for duplicate)
+|     \- io.opentracing.contrib:opentracing-tracerresolver:jar:0.1.4:compile
+|        \- (io.opentracing:opentracing-api:jar:0.31.0:compile - omitted for duplicate)
++- io.zipkin.reporter2:zipkin-sender-urlconnection:jar:2.7.6:compile
+|  +- io.zipkin.reporter2:zipkin-reporter:jar:2.7.6:compile
+|  |  \- (io.zipkin.zipkin2:zipkin:jar:2.9.4:compile - omitted for duplicate)
+|  \- io.zipkin.zipkin2:zipkin:jar:2.9.4:compile
++- org.apache.thrift:libthrift:jar:0.11.0:compile
+|  +- org.slf4j:slf4j-api:jar:1.7.12:compile
+|  +- org.apache.httpcomponents:httpclient:jar:4.4.1:compile
+|  |  +- (org.apache.httpcomponents:httpcore:jar:4.4.1:compile - omitted for duplicate)
+|  |  +- commons-logging:commons-logging:jar:1.2:compile
+|  |  \- commons-codec:commons-codec:jar:1.9:compile
+|  \- org.apache.httpcomponents:httpcore:jar:4.4.1:compile
++- io.zipkin.zipkin2:zipkin-junit:jar:2.9.4:test
+|  +- (io.zipkin.zipkin2:zipkin:jar:2.9.4:test - omitted for duplicate)
+|  +- io.zipkin.zipkin2:zipkin-collector:jar:2.9.4:test
+|  |  \- (io.zipkin.zipkin2:zipkin:jar:2.9.4:test - omitted for duplicate)
+|  +- com.squareup.okhttp3:mockwebserver:jar:3.10.0:test
+|  |  +- (com.squareup.okhttp3:okhttp:jar:3.10.0:test - omitted for conflict with 3.9.0)
+|  |  +- org.bouncycastle:bcprov-jdk15on:jar:1.50:test
+|  |  \- (junit:junit:jar:4.12:test - omitted for duplicate)
+|  +- com.squareup.moshi:moshi:jar:1.6.0:test
+|  |  \- (com.squareup.okio:okio:jar:1.14.0:compile - scope updated from test; omitted for duplicate)
+|  \- junit:junit:jar:4.12:test
+|     \- org.hamcrest:hamcrest-core:jar:1.3:test
+\- com.tngtech.java:junit-dataprovider:jar:1.13.1:test

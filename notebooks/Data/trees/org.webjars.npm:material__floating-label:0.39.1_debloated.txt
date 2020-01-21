@@ -1,0 +1,3 @@
+org.webjars.npm:material__floating-label:jar:0.39.1
++- org.webjars.npm:material__rtl:jar:0.39.1:compile
+\- org.webjars.npm:material__typography:jar:0.39.0-0:compile

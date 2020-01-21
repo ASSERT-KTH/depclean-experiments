@@ -1,0 +1,49 @@
+org.scalaz:deriving-macro_2.11:jar:1.0.0
++- org.scala-lang:scala-compiler:jar:2.11.12:provided
+|  +- (org.scala-lang:scala-library:jar:2.11.12:provided - omitted for duplicate)
+|  +- (org.scala-lang:scala-reflect:jar:2.11.12:provided - omitted for duplicate)
+|  +- org.scala-lang.modules:scala-xml_2.11:jar:1.0.5:provided
+|  |  \- (org.scala-lang:scala-library:jar:2.11.7:provided - omitted for conflict with 2.11.12)
+|  \- org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.0.4:provided
+|     \- (org.scala-lang:scala-library:jar:2.11.6:provided - omitted for conflict with 2.11.12)
++- org.scala-lang:scala-library:jar:2.11.12:compile
++- org.scalatest:scalatest_2.11:jar:3.0.5:test
+|  +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|  +- org.scalactic:scalactic_2.11:jar:3.0.5:test
+|  |  +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|  |  \- (org.scala-lang:scala-reflect:jar:2.11.12:test - omitted for duplicate)
+|  +- (org.scala-lang:scala-reflect:jar:2.11.12:test - omitted for duplicate)
+|  \- (org.scala-lang.modules:scala-xml_2.11:jar:1.0.6:test - omitted for conflict with 1.0.5)
++- org.scala-lang:scala-reflect:jar:2.11.12:provided
+|  \- (org.scala-lang:scala-library:jar:2.11.12:provided - omitted for duplicate)
++- org.scalaz:scalaz-core_2.11:jar:7.2.26:test
+|  \- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
++- com.chuusai:shapeless_2.11:jar:2.3.3:test
+|  +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|  \- org.typelevel:macro-compat_2.11:jar:1.1.1:test
+|     \- (org.scala-lang:scala-library:jar:2.11.7:test - omitted for conflict with 2.11.12)
++- com.github.mpilquist:simulacrum_2.11:jar:0.13.0:test
+|  +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+|  \- (org.typelevel:macro-compat_2.11:jar:1.1.1:test - omitted for duplicate)
++- com.typesafe.play:play-json_2.11:jar:2.6.10:test
+|  +- (org.scala-lang:scala-library:jar:2.11.11:test - omitted for conflict with 2.11.12)
+|  +- com.typesafe.play:play-functional_2.11:jar:2.6.10:test
+|  |  \- (org.scala-lang:scala-library:jar:2.11.11:test - omitted for conflict with 2.11.12)
+|  +- (org.scala-lang:scala-reflect:jar:2.11.11:test - omitted for conflict with 2.11.12)
+|  +- (org.typelevel:macro-compat_2.11:jar:1.1.1:test - omitted for duplicate)
+|  +- joda-time:joda-time:jar:2.9.9:test
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.8.11:test
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.11:test
+|  +- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.8.11:test
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.11:test - omitted for duplicate)
+|  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.11:test - omitted for conflict with 2.8.11.1)
+|  +- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.8.11:test
+|  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:test - omitted for conflict with 2.8.11)
+|  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.8.11:test - omitted for duplicate)
+|  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.8.11:test - omitted for duplicate)
+|  \- com.fasterxml.jackson.core:jackson-databind:jar:2.8.11.1:test
+|     +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:test - omitted for conflict with 2.8.11)
+|     \- (com.fasterxml.jackson.core:jackson-core:jar:2.8.10:test - omitted for conflict with 2.8.11)
+\- io.estatico:newtype_2.11:jar:0.4.2:test
+   +- (org.scala-lang:scala-library:jar:2.11.12:test - omitted for duplicate)
+   \- (org.typelevel:macro-compat_2.11:jar:1.1.1:test - omitted for duplicate)

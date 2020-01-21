@@ -1,0 +1,95 @@
+org.restcomm.media.core:rtp:jar:8.0.0-20
++- org.restcomm.media.core:sdp:jar:8.0.0-20:compile
+|  +- org.restcomm.media.core:spi:jar:8.0.0-20:compile
+|  |  +- org.restcomm.media.core:scheduler:jar:8.0.0-20:compile
+|  |  |  +- org.restcomm.media.core:concurrent:jar:8.0.0-20:compile
+|  |  |  |  +- (org.apache.logging.log4j:log4j-api:jar:2.10.0:compile - omitted for duplicate)
+|  |  |  |  +- (org.apache.logging.log4j:log4j-core:jar:2.10.0:compile - omitted for duplicate)
+|  |  |  |  \- (org.apache.logging.log4j:log4j-1.2-api:jar:2.10.0:compile - omitted for duplicate)
+|  |  |  +- (org.apache.logging.log4j:log4j-api:jar:2.10.0:compile - omitted for duplicate)
+|  |  |  +- (org.apache.logging.log4j:log4j-core:jar:2.10.0:compile - omitted for duplicate)
+|  |  |  \- (org.apache.logging.log4j:log4j-1.2-api:jar:2.10.0:compile - omitted for duplicate)
+|  |  +- (org.apache.logging.log4j:log4j-api:jar:2.10.0:compile - omitted for duplicate)
+|  |  +- (org.apache.logging.log4j:log4j-core:jar:2.10.0:compile - omitted for duplicate)
+|  |  \- (org.apache.logging.log4j:log4j-1.2-api:jar:2.10.0:compile - omitted for duplicate)
+|  +- (org.apache.logging.log4j:log4j-api:jar:2.10.0:compile - omitted for duplicate)
+|  +- (org.apache.logging.log4j:log4j-core:jar:2.10.0:compile - omitted for duplicate)
+|  \- (org.apache.logging.log4j:log4j-1.2-api:jar:2.10.0:compile - omitted for duplicate)
++- org.restcomm.media.core:ice:jar:8.0.0-20:compile
+|  +- org.restcomm.media.core:stun:jar:8.0.0-20:compile
+|  |  +- org.restcomm.media.core:network:jar:8.0.0-20:compile
+|  |  |  +- (org.restcomm.media.core:spi:jar:8.0.0-20:compile - omitted for duplicate)
+|  |  |  +- io.netty:netty-all:jar:4.1.8.Final:compile
+|  |  |  +- org.restcomm.fsm:squirrel-foundation:jar:0.3.9.11:compile
+|  |  |  |  +- com.google.guava:guava:jar:19.0:compile (version managed from 16.0.1)
+|  |  |  |  +- org.slf4j:slf4j-log4j12:jar:1.7.7:compile (version managed from 1.6.1)
+|  |  |  |  |  \- org.slf4j:slf4j-api:jar:1.7.7:compile
+|  |  |  |  +- org.apache.commons:commons-lang3:jar:3.1:compile
+|  |  |  |  \- org.mvel:mvel2:jar:2.1.8.Final:compile
+|  |  |  +- (org.apache.logging.log4j:log4j-api:jar:2.10.0:compile - omitted for duplicate)
+|  |  |  +- (org.apache.logging.log4j:log4j-core:jar:2.10.0:compile - omitted for duplicate)
+|  |  |  \- (org.apache.logging.log4j:log4j-1.2-api:jar:2.10.0:compile - omitted for duplicate)
+|  |  +- (org.apache.logging.log4j:log4j-api:jar:2.10.0:compile - omitted for duplicate)
+|  |  +- (org.apache.logging.log4j:log4j-core:jar:2.10.0:compile - omitted for duplicate)
+|  |  \- (org.apache.logging.log4j:log4j-1.2-api:jar:2.10.0:compile - omitted for duplicate)
+|  +- (org.apache.logging.log4j:log4j-api:jar:2.10.0:compile - omitted for duplicate)
+|  +- (org.apache.logging.log4j:log4j-core:jar:2.10.0:compile - omitted for duplicate)
+|  \- (org.apache.logging.log4j:log4j-1.2-api:jar:2.10.0:compile - omitted for duplicate)
++- org.restcomm.media.core:component:jar:8.0.0-20:compile
+|  +- (org.restcomm.media.core:spi:jar:8.0.0-20:compile - omitted for duplicate)
+|  +- (org.apache.logging.log4j:log4j-api:jar:2.10.0:compile - omitted for duplicate)
+|  +- (org.apache.logging.log4j:log4j-core:jar:2.10.0:compile - omitted for duplicate)
+|  \- (org.apache.logging.log4j:log4j-1.2-api:jar:2.10.0:compile - omitted for duplicate)
++- org.restcomm.media.core.resource:dtmf:jar:8.0.0-20:compile
+|  +- (org.restcomm.media.core:component:jar:8.0.0-20:compile - omitted for duplicate)
+|  +- (org.apache.logging.log4j:log4j-api:jar:2.10.0:compile - omitted for duplicate)
+|  +- (org.apache.logging.log4j:log4j-core:jar:2.10.0:compile - omitted for duplicate)
+|  \- (org.apache.logging.log4j:log4j-1.2-api:jar:2.10.0:compile - omitted for duplicate)
++- org.restcomm.media.core:pcap:jar:8.0.0-20:test
+|  +- (org.restcomm.media.core:network:jar:8.0.0-20:compile - scope updated from test; omitted for duplicate)
+|  +- net.ripe.hadoop.pcap:hadoop-pcap-lib:jar:1.1:test
+|  |  +- org.dnsjava:dnsjava:jar:2.0.6:test
+|  |  +- (org.apache.commons:commons-lang3:jar:3.1:compile - scope updated from test; omitted for duplicate)
+|  |  +- (com.google.guava:guava:jar:19.0:compile - version managed from 14.0.1; scope updated from test; omitted for duplicate)
+|  |  \- org.apache.httpcomponents:httpclient:jar:4.2.5:test
+|  |     +- org.apache.httpcomponents:httpcore:jar:4.2.4:test
+|  |     +- commons-logging:commons-logging:jar:1.1.1:test
+|  |     \- commons-codec:commons-codec:jar:1.10:test (version managed from 1.6)
+|  +- (org.apache.logging.log4j:log4j-api:jar:2.10.0:test - omitted for duplicate)
+|  +- (org.apache.logging.log4j:log4j-core:jar:2.10.0:test - omitted for duplicate)
+|  \- (org.apache.logging.log4j:log4j-1.2-api:jar:2.10.0:test - omitted for duplicate)
++- org.restcomm.media.core.codec:g711:jar:8.0.0-20:test
+|  +- (org.restcomm.media.core:spi:jar:8.0.0-20:test - omitted for duplicate)
+|  +- (org.apache.logging.log4j:log4j-api:jar:2.10.0:test - omitted for duplicate)
+|  +- (org.apache.logging.log4j:log4j-core:jar:2.10.0:test - omitted for duplicate)
+|  \- (org.apache.logging.log4j:log4j-1.2-api:jar:2.10.0:test - omitted for duplicate)
++- org.bouncycastle:bcprov-jdk15on:jar:1.54:compile
++- commons-net:commons-net:jar:3.3:compile
++- org.apache.logging.log4j:log4j-api:jar:2.10.0:compile
++- org.apache.logging.log4j:log4j-core:jar:2.10.0:compile
+|  \- (org.apache.logging.log4j:log4j-api:jar:2.10.0:compile - omitted for duplicate)
++- org.apache.logging.log4j:log4j-1.2-api:jar:2.10.0:compile
+|  +- (org.apache.logging.log4j:log4j-api:jar:2.10.0:compile - omitted for duplicate)
+|  \- (org.apache.logging.log4j:log4j-core:jar:2.10.0:compile - omitted for duplicate)
++- junit:junit:jar:4.12:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.mockito:mockito-all:jar:1.10.19:test
++- org.powermock:powermock-module-junit4:jar:1.6.6:test
+|  +- (junit:junit:jar:4.12:test - omitted for duplicate)
+|  \- org.powermock:powermock-module-junit4-common:jar:1.6.6:test
+|     +- (junit:junit:jar:4.12:test - omitted for duplicate)
+|     +- org.powermock:powermock-core:jar:1.6.6:test
+|     |  +- (org.powermock:powermock-reflect:jar:1.6.6:test - omitted for duplicate)
+|     |  \- org.javassist:javassist:jar:3.21.0-GA:test
+|     \- org.powermock:powermock-reflect:jar:1.6.6:test
+|        \- (org.objenesis:objenesis:jar:2.4:test - omitted for conflict with 2.1)
+\- org.powermock:powermock-api-mockito:jar:1.6.6:test
+   +- org.mockito:mockito-core:jar:1.10.19:test
+   |  +- (org.hamcrest:hamcrest-core:jar:1.1:test - omitted for conflict with 1.3)
+   |  \- org.objenesis:objenesis:jar:2.1:test
+   +- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for duplicate)
+   \- org.powermock:powermock-api-mockito-common:jar:1.6.6:test
+      +- (org.hamcrest:hamcrest-core:jar:1.3:test - omitted for duplicate)
+      \- org.powermock:powermock-api-support:jar:1.6.6:test
+         +- (org.powermock:powermock-core:jar:1.6.6:test - omitted for duplicate)
+         \- (org.powermock:powermock-reflect:jar:1.6.6:test - omitted for duplicate)

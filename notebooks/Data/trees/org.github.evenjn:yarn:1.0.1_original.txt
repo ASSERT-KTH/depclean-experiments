@@ -1,0 +1,2 @@
+org.github.evenjn:yarn:jar:1.0.1
+\- org.github.evenjn:lang:jar:1.0.0:compile

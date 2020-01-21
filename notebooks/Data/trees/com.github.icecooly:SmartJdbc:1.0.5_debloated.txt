@@ -1,0 +1,9 @@
+com.github.icecooly:SmartJdbc:jar:1.0.5
++- mysql:mysql-connector-java:jar:5.1.36:compile
++- org.slf4j:slf4j-api:jar:1.7.21:compile
++- org.apache.logging.log4j:log4j-api:jar:2.6.2:compile
++- org.apache.logging.log4j:log4j-slf4j-impl:jar:2.6.2:test
+|  +- (org.slf4j:slf4j-api:jar:1.7.21:test - omitted for duplicate)
+|  \- (org.apache.logging.log4j:log4j-api:jar:2.6.2:test - omitted for duplicate)
++- com.alibaba:fastjson:jar:1.2.35:compile
+\- junit:junit:jar:3.8.1:test
