@@ -8,7 +8,7 @@ The following sections describe the main materials included in this repository.
 
 ### Data Collector
 
-The [data-collector](https://github.com/castor-software/depclean-experiments/tree/master/data-collector) tool mines the Maven Central repository to obtain usage information about artifacts and their dependencies. The analysis relies on fine-grained static bytecode analysis with [DepClean](https://github.com/castor-software/royal-debloat/depclean). The tool also uses dedicated Maven plugins to collect data about the projects' architecture and their dependencies.     
+The [data-collector](https://github.com/castor-software/depclean-experiments/tree/master/data-collector) tool mines the Maven Central repository to obtain usage information about artifacts and their dependencies. The analysis relies on fine-grained static bytecode analysis with [DepClean](https://github.com/castor-software/depclean). The tool also uses dedicated Maven plugins to collect data about the projects' architecture and their dependencies.     
 
 ### Notebooks
 
@@ -16,7 +16,7 @@ The [nootebooks](https://github.com/castor-software/depclean-experiments/tree/ma
 
 ### Contributions
 
-The [contributions](https://github.com/castor-software/depclean-experiments/tree/master/contributions) folder contains a list of bloated dependencies in open-source projects that have been found with the help of [Depclean](https://github.com/castor-software/royal-debloat/depclean). These bloated dependencies have been directly communicated to the developer teams through pull requests on GitHub. It contains links to the original code repositories and the actions taken by the developers.
+The [contributions](https://github.com/castor-software/depclean-experiments/tree/master/contributions) folder contains a list of bloated dependencies in open-source projects that have been found with the help of [DepClean](https://github.com/castor-software/depclean). These bloated dependencies have been directly communicated to the developer teams through pull requests on GitHub. It contains links to the original code repositories and the actions taken by the developers.
 
 ## License
 
