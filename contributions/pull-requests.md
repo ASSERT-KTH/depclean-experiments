@@ -10,12 +10,12 @@
 | [flink [core]](https://github.com/apache/flink) | [#10386](https://github.com/apache/flink/pull/10386) | 1 | 0 | 1 | :+1: |
 | [checkstyle](https://github.com/checkstyle/checkstyle) | [#7307](https://github.com/checkstyle/checkstyle/issues/7307) | 1 | 3 | 4 | :-1: |
 | [auto](https://github.com/google) | [#789](https://github.com/google/auto/pull/789) | 0 | 2 | 2 | :-1: |
-| [CoreNLP](https://github.com/stanfordnlp/CoreNLP) | [#965](https://github.com/stanfordnlp/CoreNLP/pull/965) | 1 | 1 | 2 | :hand: |
+| \*[CoreNLP](https://github.com/stanfordnlp/CoreNLP) | [#965](https://github.com/stanfordnlp/CoreNLP/pull/965) | 1 | 1 | 2 | :+1: |
 | [moshi](https://github.com/square/moshi) | [#1034](https://github.com/square/moshi/pull/1034) | 0 | 3 | 3 | :-1: |
 | [neo4j [commons]](https://github.com/neo4j/neo4j) | [#12339](https://github.com/neo4j/neo4j/pull/12339) | 1 | 1 | 2 | :+1: |
 | [async-http-client [http-client]](https://github.com/AsyncHttpClient/async-http-client) | [#1675](https://github.com/AsyncHttpClient/async-http-client/pull/1675) | 1 | 11 | 12 | :+1: |
 | [error-prone [core]](https://github.com/google/error-prone) | [#1409](https://github.com/google/error-prone/pull/1409) | 1 | 0 | 1 | :+1: |
-| [alluxio [core-transport]](https://github.com/Alluxio/alluxio) | [#10567](https://github.com/Alluxio/alluxio/pull/10567) | 1 | 10 | 11 | :hand: |
+| [alluxio [core-transport]](https://github.com/Alluxio/alluxio) | [#10567](https://github.com/Alluxio/alluxio/pull/10567) | 1 | 10 | 11 | :+1: |
 | [javaparser [symbol-solver-logic]](https://github.com/javaparser/javaparser) | [#2403](https://github.com/javaparser/javaparser/pull/2403) | 2 | 7 | 9 | :+1: |
 | [undertow [benchmarks]](https://github.com/undertow-io/undertow) | [#824](https://github.com/undertow-io/undertow/pull/824)  | 6 | 11 | 17 | :+1:  |
 | [webcam-capture [driver-openimaj]](https://github.com/sarxos/webcam-capture) | [#750](https://github.com/sarxos/webcam-capture/pull/750) | 0 | 1 | 1 | :hand: |
@@ -28,7 +28,7 @@
 | [accumulo [core]](https://github.com/apache/accumulo) | [#1421](https://github.com/apache/accumulo/pull/1421) | 0 | 3 | 3 | :+1: |
 | [couchdb-lucene](https://github.com/rnewson/couchdb-lucene) | [#279](https://github.com/rnewson/couchdb-lucene/pull/279) | 3 | 0 | 3 | :hand: |
 | [jHiccup](https://github.com/giltene/jHiccup) | [#42](https://github.com/giltene/jHiccup/pull/42) | 1 | 0 | 1 | :+1: |
-| [\*subzero [server]](https://github.com/square/subzero) | [#122](https://github.com/square/subzero/pull/122) | 1 | 3 | 4 | :+1: |
+| \*[subzero [server]](https://github.com/square/subzero) | [#122](https://github.com/square/subzero/pull/122) | 1 | 3 | 4 | :+1: |
 | [vulnerability-assessment-tool [shared]](https://github.com/SAP/vulnerability-assessment-tool) | [#290](https://github.com/SAP/vulnerability-assessment-tool/pull/290) | 1 | 0 | 1 | :+1: |
 | [para [core]](https://github.com/Erudika/para/pull) | [#69](https://github.com/Erudika/para/pull/69) | 0 | 20 | 20 | :+1: |
 | [launch4j-maven-plugin](https://github.com/lukaszlenart/) | [#113](https://github.com/lukaszlenart/launch4j-maven-plugin/pull/113) | 2 | 2 | 4 | :+1:  |
