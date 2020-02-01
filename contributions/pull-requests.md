@@ -28,14 +28,16 @@
 | [accumulo [core]](https://github.com/apache/accumulo) | [#1421](https://github.com/apache/accumulo/pull/1421) | 0 | 3 | 3 | :+1: |
 | [couchdb-lucene](https://github.com/rnewson/couchdb-lucene) | [#279](https://github.com/rnewson/couchdb-lucene/pull/279) | 3 | 0 | 3 | :hand: |
 | [jHiccup](https://github.com/giltene/jHiccup) | [#42](https://github.com/giltene/jHiccup/pull/42) | 1 | 0 | 1 | :+1: |
-| [subzero [server]](https://github.com/square/subzero) | [#122](https://github.com/square/subzero/pull/122) | 1 | 3 | 4 | :hand: |
+| [\*subzero [server]](https://github.com/square/subzero) | [#122](https://github.com/square/subzero/pull/122) | 1 | 3 | 4 | :+1: |
 | [vulnerability-assessment-tool [shared]](https://github.com/SAP/vulnerability-assessment-tool) | [#290](https://github.com/SAP/vulnerability-assessment-tool/pull/290) | 1 | 0 | 1 | :+1: |
 | [para [core]](https://github.com/Erudika/para/pull) | [#69](https://github.com/Erudika/para/pull/69) | 0 | 20 | 20 | :+1: |
 | [launch4j-maven-plugin](https://github.com/lukaszlenart/) | [#113](https://github.com/lukaszlenart/launch4j-maven-plugin/pull/113) | 2 | 2 | 4 | :+1:  |
 | [jacop](https://github.com/radsz/jacop) | [#35](https://github.com/radsz/jacop/pull/35) | 2 | 2 | 4 | :+1: |
 | [selenese-runner-java](https://github.com/vmi/selenese-runner-java) | [#313](https://github.com/vmi/selenese-runner-java/pull/313) | 0 | 2 | 9 | :+1:  |
 | [commons-configuration](https://github.com/apache/commons-configuration) | [#40](https://github.com/apache/commons-configuration/pull/40) | 0| 9 | 9 | :hand: |
-| 
+
+\*Pull requests with response after the submission of the paper. 
+
 
 
 
