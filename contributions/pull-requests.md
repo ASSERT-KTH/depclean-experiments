@@ -23,7 +23,7 @@
 | [handlebars.java [markdown]](https://github.com/jknack/handlebars.java) | [#719](https://github.com/jknack/handlebars.java/pull/719) | 1 | 0 | 1 | :hand: |
 | [jooby [jooby]](https://github.com/jooby-project/jooby) | [#1412](https://github.com/jooby-project/jooby/pull/1412) | 1 | 0 | 1 | :+1: |
 | [tika [parsers]](https://github.com/apache/tika) | [#229](https://github.com/apache/tika/pull/299) | 1 | 12 | 13 | :hand: |
-| \*[orika [eclipse-tools]](https://github.com/orika-mapper/orika) | [#328](https://github.com/orika-mapper/orika/pull/328) | 1 | 2 | 3 | :hand: |
+| \*[orika [eclipse-tools]](https://github.com/orika-mapper/orika) | [#328](https://github.com/orika-mapper/orika/pull/328) | 1 | 2 | 3 | :+1: |
 | [spoon [core]](https://github.com/INRIA/spoon)| [#3167](https://github.com/INRIA/spoon/pull/3167) | 0 | 4 | 31 | :+1: |
 | [accumulo [core]](https://github.com/apache/accumulo) | [#1421](https://github.com/apache/accumulo/pull/1421) | 0 | 3 | 3 | :+1: |
 | [couchdb-lucene](https://github.com/rnewson/couchdb-lucene) | [#279](https://github.com/rnewson/couchdb-lucene/pull/279) | 3 | 0 | 3 | :hand: |
