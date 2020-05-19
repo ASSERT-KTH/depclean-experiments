@@ -1,0 +1,69 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------------< org.pf4j:pf4j >----------------------------
+[INFO] Building PF4J 3.4.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- depclean-maven-plugin:1.0.0:depclean (default-cli) @ pf4j ---
+-------------------------------------------------------
+[INFO] Starting DepClean dependency analysis
+-------------------------------------------------------
+DIRECT DEPENDENCIES: [org.slf4j:slf4j-api:jar:1.7.25:compile, com.github.zafarkhaja:java-semver:jar:0.9.0:compile, org.ow2.asm:asm:jar:7.1:compile, org.apache.logging.log4j:log4j-api:jar:2.13.1:test, org.apache.logging.log4j:log4j-core:jar:2.13.1:test, org.apache.logging.log4j:log4j-slf4j-impl:jar:2.13.1:test, org.hamcrest:hamcrest:jar:2.1:test, org.hamcrest:hamcrest-core:jar:2.1:test, org.junit.jupiter:junit-jupiter-engine:jar:5.4.0:test, org.mockito:mockito-core:jar:2.24.0:test, com.google.testing.compile:compile-testing:jar:0.18:test]
+TRANSITIVE DEPENDENCIES: [org.apiguardian:apiguardian-api:jar:1.0.0:test, org.junit.platform:junit-platform-engine:jar:1.4.0:test, org.opentest4j:opentest4j:jar:1.1.1:test, org.junit.platform:junit-platform-commons:jar:1.4.0:test, org.junit.jupiter:junit-jupiter-api:jar:5.4.0:test, net.bytebuddy:byte-buddy:jar:1.9.7:test, net.bytebuddy:byte-buddy-agent:jar:1.9.7:test, org.objenesis:objenesis:jar:2.6:test, junit:junit:jar:4.12:test, com.google.truth:truth:jar:0.44:test, org.checkerframework:checker-compat-qual:jar:2.5.5:test, com.googlecode.java-diff-utils:diffutils:jar:1.3.0:test, com.google.auto.value:auto-value-annotations:jar:1.6.3:test, com.google.errorprone:error_prone_annotations:jar:2.3.1:test, com.google.guava:guava:jar:27.1-jre:test, com.google.guava:failureaccess:jar:1.0.1:test, com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:test, com.google.code.findbugs:jsr305:jar:3.0.2:test, org.checkerframework:checker-qual:jar:2.5.2:test, com.google.j2objc:j2objc-annotations:jar:1.1:test, org.codehaus.mojo:animal-sniffer-annotations:jar:1.17:test, com.google.auto.value:auto-value:jar:1.5.3:test, com.google.auto:auto-common:jar:0.10:test]
+-------------------------------------------------------
+USED ARTIFACTS:[com.google.code.findbugs:jsr305:jar:3.0.2:test, org.hamcrest:hamcrest:jar:2.1:test, com.google.j2objc:j2objc-annotations:jar:1.1:test, com.google.errorprone:error_prone_annotations:jar:2.3.1:test, net.bytebuddy:byte-buddy:jar:1.9.7:test, org.checkerframework:checker-compat-qual:jar:2.5.5:test, org.opentest4j:opentest4j:jar:1.1.1:test, com.google.auto:auto-common:jar:0.10:test, com.google.testing.compile:compile-testing:jar:0.18:test, org.objenesis:objenesis:jar:2.6:test, org.codehaus.mojo:animal-sniffer-annotations:jar:1.17:test, com.google.guava:failureaccess:jar:1.0.1:test, org.ow2.asm:asm:jar:7.1:compile, org.mockito:mockito-core:jar:2.24.0:test, org.junit.platform:junit-platform-commons:jar:1.4.0:test, com.google.auto.value:auto-value-annotations:jar:1.6.3:test, junit:junit:jar:4.12:test, com.googlecode.java-diff-utils:diffutils:jar:1.3.0:test, org.apache.logging.log4j:log4j-api:jar:2.13.1:test, org.slf4j:slf4j-api:jar:1.7.25:compile, org.apache.logging.log4j:log4j-slf4j-impl:jar:2.13.1:test, org.checkerframework:checker-qual:jar:2.5.2:test, net.bytebuddy:byte-buddy-agent:jar:1.9.7:test, org.junit.jupiter:junit-jupiter-api:jar:5.4.0:test, com.github.zafarkhaja:java-semver:jar:0.9.0:compile, com.google.truth:truth:jar:0.44:test, org.apiguardian:apiguardian-api:jar:1.0.0:test, com.google.guava:guava:jar:27.1-jre:test]
+-------------------------------------------------------
+ D E P C L E A N   A N A L Y S I S   R E S U L T S
+-------------------------------------------------------
+Used direct dependencies [8]: 
+	org.slf4j:slf4j-api:1.7.25:compile
+	org.hamcrest:hamcrest:2.1:test
+	org.mockito:mockito-core:2.24.0:test
+	com.github.zafarkhaja:java-semver:0.9.0:compile
+	org.apache.logging.log4j:log4j-api:2.13.1:test
+	org.apache.logging.log4j:log4j-slf4j-impl:2.13.1:test
+	org.ow2.asm:asm:7.1:compile
+	com.google.testing.compile:compile-testing:0.18:test
+Used transitive dependencies [20]: 
+	org.checkerframework:checker-qual:2.5.2:test
+	org.checkerframework:checker-compat-qual:2.5.5:test
+	net.bytebuddy:byte-buddy:1.9.7:test
+	com.google.auto:auto-common:0.10:test
+	net.bytebuddy:byte-buddy-agent:1.9.7:test
+	com.google.j2objc:j2objc-annotations:1.1:test
+	com.google.code.findbugs:jsr305:3.0.2:test
+	com.googlecode.java-diff-utils:diffutils:1.3.0:test
+	org.codehaus.mojo:animal-sniffer-annotations:1.17:test
+	junit:junit:4.12:test
+	com.google.truth:truth:0.44:test
+	org.apiguardian:apiguardian-api:1.0.0:test
+	com.google.errorprone:error_prone_annotations:2.3.1:test
+	org.objenesis:objenesis:2.6:test
+	com.google.auto.value:auto-value-annotations:1.6.3:test
+	org.junit.platform:junit-platform-commons:1.4.0:test
+	org.junit.jupiter:junit-jupiter-api:5.4.0:test
+	com.google.guava:guava:27.1-jre:test
+	org.opentest4j:opentest4j:1.1.1:test
+	com.google.guava:failureaccess:1.0.1:test
+Potentially unused direct dependencies [3]: 
+	org.apache.logging.log4j:log4j-core:2.13.1:test
+	org.junit.jupiter:junit-jupiter-engine:5.4.0:test
+	org.hamcrest:hamcrest-core:2.1:test
+Potentially unused transitive dependencies [3]: 
+	org.junit.platform:junit-platform-engine:1.4.0:test
+	com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava:test
+	com.google.auto.value:auto-value:1.5.3:test
+[INFO] Starting debloating POM
+[INFO] Adding 20 used transitive dependencies as direct dependencies.
+[INFO] Removing 3 unused direct dependencies.
+[INFO] Excluding 3 unused transitive dependencies one-by-one.
+Excluding com.google.auto.value:auto-value:jar:1.5.3:test from dependency Dependency {groupId=com.google.testing.compile, artifactId=compile-testing, version=0.18, type=jar}
+Excluding com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:test from dependency Dependency {groupId=com.google.guava, artifactId=guava, version=27.1-jre, type=jar}
+[INFO] POM debloated successfully
+[INFO] pom-debloated.xml file created in: /home/cesarsv/Documents/experiments/pf4j/pf4j/pom-debloated.xml
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.787 s
+[INFO] Finished at: 2020-05-17T23:35:59+02:00
+[INFO] ------------------------------------------------------------------------

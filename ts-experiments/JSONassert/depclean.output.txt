@@ -1,0 +1,43 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.skyscreamer:jsonassert:jar:1.5.1-SNAPSHOT
+[WARNING] Reporting configuration should be done in <reporting> section, not in maven-site-plugin <configuration> as reportPlugins parameter. @ line 80, column 32
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ---------------------< org.skyscreamer:jsonassert >---------------------
+[INFO] Building JSONassert 1.5.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- depclean-maven-plugin:1.0.0:depclean (default-cli) @ jsonassert ---
+-------------------------------------------------------
+[INFO] Starting DepClean dependency analysis
+-------------------------------------------------------
+DIRECT DEPENDENCIES: [com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:compile, junit:junit:jar:4.10:test]
+TRANSITIVE DEPENDENCIES: [org.hamcrest:hamcrest-core:jar:1.1:test]
+-------------------------------------------------------
+USED ARTIFACTS:[junit:junit:jar:4.10:test, com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:compile]
+-------------------------------------------------------
+ D E P C L E A N   A N A L Y S I S   R E S U L T S
+-------------------------------------------------------
+Used direct dependencies [2]: 
+	junit:junit:4.10:test
+	com.vaadin.external.google:android-json:0.0.20131108.vaadin1:compile
+Used transitive dependencies [0]: 
+Potentially unused direct dependencies [0]: 
+Potentially unused transitive dependencies [1]: 
+	org.hamcrest:hamcrest-core:1.1:test
+[INFO] Starting debloating POM
+[INFO] Excluding 1 unused transitive dependencies one-by-one.
+Excluding org.hamcrest:hamcrest-core:jar:1.1:test from dependency Dependency {groupId=junit, artifactId=junit, version=4.10, type=jar}
+[INFO] POM debloated successfully
+[INFO] pom-debloated.xml file created in: /home/cesarsv/Documents/experiments/JSONassert/pom-debloated.xml
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.729 s
+[INFO] Finished at: 2020-05-17T21:52:06+02:00
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,50 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< cn.zhouyafeng:itchat4j >-----------------------
+[INFO] Building itchat4j 1.1.0
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- depclean-maven-plugin:1.0.0:depclean (default-cli) @ itchat4j ---
+-------------------------------------------------------
+[INFO] Starting DepClean dependency analysis
+-------------------------------------------------------
+DIRECT DEPENDENCIES: [org.apache.httpcomponents:httpclient:jar:4.5.3:compile, org.apache.httpcomponents:httpmime:jar:4.5:compile, com.alibaba:fastjson:jar:1.2.31:compile, org.apache.commons:commons-lang3:jar:3.0:compile, com.vdurmont:emoji-java:jar:3.2.0:compile, javax.activation:activation:jar:1.1.1:compile, junit:junit:jar:4.12:compile, org.slf4j:slf4j-api:jar:1.6.6:compile, org.slf4j:slf4j-log4j12:jar:1.6.6:compile, log4j:log4j:jar:1.2.16:compile, com.squareup.okhttp3:okhttp:jar:3.8.0:compile]
+TRANSITIVE DEPENDENCIES: [org.apache.httpcomponents:httpcore:jar:4.4.6:compile, commons-logging:commons-logging:jar:1.2:compile, commons-codec:commons-codec:jar:1.9:compile, org.json:json:jar:20140107:compile, org.hamcrest:hamcrest-core:jar:1.3:compile, com.squareup.okio:okio:jar:1.13.0:compile]
+-------------------------------------------------------
+USED ARTIFACTS:[org.slf4j:slf4j-log4j12:jar:1.6.6:compile, com.squareup.okio:okio:jar:1.13.0:compile, org.apache.httpcomponents:httpclient:jar:4.5.3:compile, log4j:log4j:jar:1.2.16:compile, com.alibaba:fastjson:jar:1.2.31:compile, org.apache.httpcomponents:httpcore:jar:4.4.6:compile, org.json:json:jar:20140107:compile, commons-codec:commons-codec:jar:1.9:compile, org.slf4j:slf4j-api:jar:1.6.6:compile, commons-logging:commons-logging:jar:1.2:compile, com.vdurmont:emoji-java:jar:3.2.0:compile, org.apache.commons:commons-lang3:jar:3.0:compile, org.apache.httpcomponents:httpmime:jar:4.5:compile, com.squareup.okhttp3:okhttp:jar:3.8.0:compile, javax.activation:activation:jar:1.1.1:compile]
+-------------------------------------------------------
+ D E P C L E A N   A N A L Y S I S   R E S U L T S
+-------------------------------------------------------
+Used direct dependencies [10]: 
+	org.apache.httpcomponents:httpclient:4.5.3:compile
+	log4j:log4j:1.2.16:compile
+	com.alibaba:fastjson:1.2.31:compile
+	org.apache.httpcomponents:httpmime:4.5:compile
+	com.squareup.okhttp3:okhttp:3.8.0:compile
+	com.vdurmont:emoji-java:3.2.0:compile
+	org.slf4j:slf4j-log4j12:1.6.6:compile
+	javax.activation:activation:1.1.1:compile
+	org.apache.commons:commons-lang3:3.0:compile
+	org.slf4j:slf4j-api:1.6.6:compile
+Used transitive dependencies [5]: 
+	org.apache.httpcomponents:httpcore:4.4.6:compile
+	commons-codec:commons-codec:1.9:compile
+	com.squareup.okio:okio:1.13.0:compile
+	org.json:json:20140107:compile
+	commons-logging:commons-logging:1.2:compile
+Potentially unused direct dependencies [1]: 
+	junit:junit:4.12:compile
+Potentially unused transitive dependencies [1]: 
+	org.hamcrest:hamcrest-core:1.3:compile
+[INFO] Starting debloating POM
+[INFO] Adding 5 used transitive dependencies as direct dependencies.
+[INFO] Removing 1 unused direct dependencies.
+[INFO] Excluding 1 unused transitive dependencies one-by-one.
+[INFO] POM debloated successfully
+[INFO] pom-debloated.xml file created in: /home/cesarsv/Documents/experiments/itchat4j/pom-debloated.xml
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.819 s
+[INFO] Finished at: 2020-05-19T19:08:04+02:00
+[INFO] ------------------------------------------------------------------------

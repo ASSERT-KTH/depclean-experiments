@@ -1,0 +1,59 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< eu.fayder:restcountries >-----------------------
+[INFO] Building restcountries 2.0.5
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- depclean-maven-plugin:1.0.0:depclean (default-cli) @ restcountries ---
+-------------------------------------------------------
+[INFO] Starting DepClean dependency analysis
+-------------------------------------------------------
+DIRECT DEPENDENCIES: [org.jboss.resteasy:resteasy-jaxrs:jar:3.1.4.Final:compile, org.jboss.resteasy:resteasy-servlet-initializer:jar:3.1.4.Final:compile, org.jboss.resteasy:resteasy-jackson-provider:jar:3.1.4.Final:compile, com.google.code.gson:gson:jar:2.8.2:compile, com.stripe:stripe-java:jar:3.5.0:compile, org.slf4j:slf4j-api:jar:1.7.25:compile, org.slf4j:slf4j-log4j12:jar:1.7.25:compile, javax.servlet:javax.servlet-api:jar:4.0.0:compile, junit:junit:jar:4.12:test]
+TRANSITIVE DEPENDENCIES: [org.jboss.spec.javax.ws.rs:jboss-jaxrs-api_2.0_spec:jar:1.0.1.Beta1:compile, org.jboss.resteasy:resteasy-jaxrs-services:jar:3.1.4.Final:compile, org.jboss.spec.javax.annotation:jboss-annotations-api_1.2_spec:jar:1.0.0.Final:compile, javax.activation:activation:jar:1.1.1:compile, org.apache.httpcomponents:httpclient:jar:4.5.2:compile, org.apache.httpcomponents:httpcore:jar:4.4.4:compile, commons-logging:commons-logging:jar:1.2:compile, commons-codec:commons-codec:jar:1.9:compile, commons-io:commons-io:jar:2.5:compile, net.jcip:jcip-annotations:jar:1.0:compile, org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile, org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile, org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:compile, org.codehaus.jackson:jackson-jaxrs:jar:1.9.13:compile, org.codehaus.jackson:jackson-xc:jar:1.9.13:compile, log4j:log4j:jar:1.2.17:compile, org.hamcrest:hamcrest-core:jar:1.3:test]
+-------------------------------------------------------
+USED ARTIFACTS:[com.stripe:stripe-java:jar:3.5.0:compile, log4j:log4j:jar:1.2.17:compile, org.hamcrest:hamcrest-core:jar:1.3:test, com.google.code.gson:gson:jar:2.8.2:compile, org.jboss.spec.javax.ws.rs:jboss-jaxrs-api_2.0_spec:jar:1.0.1.Beta1:compile, junit:junit:jar:4.12:test, org.apache.httpcomponents:httpcore:jar:4.4.4:compile, javax.servlet:javax.servlet-api:jar:4.0.0:compile]
+-------------------------------------------------------
+ D E P C L E A N   A N A L Y S I S   R E S U L T S
+-------------------------------------------------------
+Used direct dependencies [4]: 
+	com.google.code.gson:gson:2.8.2:compile
+	junit:junit:4.12:test
+	com.stripe:stripe-java:3.5.0:compile
+	javax.servlet:javax.servlet-api:4.0.0:compile
+Used transitive dependencies [4]: 
+	org.hamcrest:hamcrest-core:1.3:test
+	org.jboss.spec.javax.ws.rs:jboss-jaxrs-api_2.0_spec:1.0.1.Beta1:compile
+	org.apache.httpcomponents:httpcore:4.4.4:compile
+	log4j:log4j:1.2.17:compile
+Potentially unused direct dependencies [5]: 
+	org.slf4j:slf4j-api:1.7.25:compile
+	org.jboss.resteasy:resteasy-jackson-provider:3.1.4.Final:compile
+	org.jboss.resteasy:resteasy-jaxrs:3.1.4.Final:compile
+	org.jboss.resteasy:resteasy-servlet-initializer:3.1.4.Final:compile
+	org.slf4j:slf4j-log4j12:1.7.25:compile
+Potentially unused transitive dependencies [13]: 
+	org.jboss.resteasy:resteasy-jaxrs-services:3.1.4.Final:compile
+	commons-io:commons-io:2.5:compile
+	commons-codec:commons-codec:1.9:compile
+	commons-logging:commons-logging:1.2:compile
+	net.jcip:jcip-annotations:1.0:compile
+	javax.activation:activation:1.1.1:compile
+	org.jboss.logging:jboss-logging:3.3.0.Final:compile
+	org.apache.httpcomponents:httpclient:4.5.2:compile
+	org.codehaus.jackson:jackson-mapper-asl:1.9.13:compile
+	org.codehaus.jackson:jackson-core-asl:1.9.13:compile
+	org.codehaus.jackson:jackson-xc:1.9.13:compile
+	org.jboss.spec.javax.annotation:jboss-annotations-api_1.2_spec:1.0.0.Final:compile
+	org.codehaus.jackson:jackson-jaxrs:1.9.13:compile
+[INFO] Starting debloating POM
+[INFO] Adding 4 used transitive dependencies as direct dependencies.
+[INFO] Removing 5 unused direct dependencies.
+[INFO] Excluding 13 unused transitive dependencies one-by-one.
+[INFO] POM debloated successfully
+[INFO] pom-debloated.xml file created in: /home/cesarsv/Documents/experiments/restcountries/pom-debloated.xml
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.114 s
+[INFO] Finished at: 2020-05-18T00:44:34+02:00
+[INFO] ------------------------------------------------------------------------
